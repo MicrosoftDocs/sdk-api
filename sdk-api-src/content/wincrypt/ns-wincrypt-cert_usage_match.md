@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_USAGE_MATCH
 title: CERT_USAGE_MATCH (wincrypt.h)
 description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.
+helpviewer_keywords: ["*PCERT_USAGE_MATCH","CERT_USAGE_MATCH","CERT_USAGE_MATCH structure [Security]","PCERT_USAGE_MATCH","PCERT_USAGE_MATCH structure pointer [Security]","USAGE_MATCH_TYPE_AND","USAGE_MATCH_TYPE_OR","_crypto2_cert_usage_match","security.cert_usage_match","wincrypt/CERT_USAGE_MATCH","wincrypt/PCERT_USAGE_MATCH"]
 old-location: security\cert_usage_match.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6154f1f7-4293-4b8e-91ab-9f57bb6f5743
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_USAGE_MATCH, CERT_USAGE_MATCH, CERT_USAGE_MATCH structure [Security], PCERT_USAGE_MATCH, PCERT_USAGE_MATCH structure pointer [Security], USAGE_MATCH_TYPE_AND, USAGE_MATCH_TYPE_OR, _crypto2_cert_usage_match, security.cert_usage_match, wincrypt/CERT_USAGE_MATCH, wincrypt/PCERT_USAGE_MATCH'
-f1_keywords:
-- wincrypt/CERT_USAGE_MATCH
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_USAGE_MATCH
 targetos: Windows
 req.typenames: CERT_USAGE_MATCH, *PCERT_USAGE_MATCH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_USAGE_MATCH
+ - wincrypt/_CERT_USAGE_MATCH
+ - PCERT_USAGE_MATCH
+ - wincrypt/PCERT_USAGE_MATCH
+ - CERT_USAGE_MATCH
+ - wincrypt/CERT_USAGE_MATCH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_USAGE_MATCH
 ---
 
 # CERT_USAGE_MATCH structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_USAGE_MATCH</b> structure provides criteria for identifying issuer certificates to be used to build a certificate chain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwType
 
@@ -91,16 +92,11 @@ Determines the kind of issuer matching to be done. In <b>AND</b> logic, the cert
 
 Default usage match logic is USAGE_MATCH_TYPE_AND.
 
-
 ### -field Usage
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that includes an array of certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that a certificate must match in order to be valid.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that includes an array of certificate <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that a certificate must match in order to be valid.
 
 ## -remarks
-
-
 
 If the <i>dwType</i> member is set to <b>USAGE_MATCH_TYPE_OR</b>, the <i>Usage</i> member cannot be empty.
 
@@ -118,7 +114,4 @@ If the caller specifies EKU A OR EKU B then the target certificate is valid if e
 
 Given the following path, the <b>OR</b> test is deemed valid:
 
- Although the intersection of the EKUs in the chain is an empty set, the use of the EE certificate is valid for EKU A because the request to the cryptography API specifies that the certificate is valid if each certificate of the path supports either EKU A OR EKU B. 
-
-
-
+ Although the intersection of the EKUs in the chain is an empty set, the use of the EE certificate is valid for EKU A because the request to the cryptography API specifies that the certificate is valid if each certificate of the path supports either EKU A OR EKU B.

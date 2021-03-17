@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterInstances
 title: IVssBackupComponents::DisableWriterInstances (vsbackup.h)
 description: The DisableWriterInstances method disables a specified writer instance or instances.
+helpviewer_keywords: ["DisableWriterInstances","DisableWriterInstances method [VSS]","DisableWriterInstances method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","DisableWriterInstances method","IVssBackupComponents.DisableWriterInstances","IVssBackupComponents::DisableWriterInstances","_win32_ivssbackupcomponents_disablewriterinstances","base.ivssbackupcomponents_disablewriterinstances","vsbackup/IVssBackupComponents::DisableWriterInstances"]
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.date: 12/05/2018
 ms.keywords: DisableWriterInstances, DisableWriterInstances method [VSS], DisableWriterInstances method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterInstances method, IVssBackupComponents.DisableWriterInstances, IVssBackupComponents::DisableWriterInstances, _win32_ivssbackupcomponents_disablewriterinstances, base.ivssbackupcomponents_disablewriterinstances, vsbackup/IVssBackupComponents::DisableWriterInstances
-f1_keywords:
-- vsbackup/IVssBackupComponents.DisableWriterInstances
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.DisableWriterInstances
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::DisableWriterInstances
+ - vsbackup/IVssBackupComponents::DisableWriterInstances
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.DisableWriterInstances
 ---
 
 # IVssBackupComponents::DisableWriterInstances
@@ -49,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DisableWriterInstances</b> method disables a specified writer instance or instances.
 
-
 ## -parameters
-
-
-
 
 ### -param rgWriterInstanceId [in]
 
 An array containing one or more writer instance identifiers.
 
-
 ### -param cInstanceId [in]
 
 The number of entries in the <i>rgWriterInstanceId</i> array.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -132,48 +125,32 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you have multiple running copies of the same writer, they will all have the same writer class identifier, but they will have different writer instance identifiers. Disabling one instance of a writer does not cause the writer's other instances to be disabled.
 
-If you call <b>DisableWriterInstances</b>, you must do so before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterInstances</b>, the call to <b>DisableWriterInstances</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer instances to disable, you must call it from a different instance of the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
-
-
-
+If you call <b>DisableWriterInstances</b>, you must do so before calling the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method. If you call <b>GatherWriterMetadata</b> first and then call <b>DisableWriterInstances</b>, the call to <b>DisableWriterInstances</b> has no effect. If you need to call <b>GatherWriterMetadata</b> first, to determine which writer instances to disable, you must call it from a different instance of the <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterclasses">IVssBackupComponents::DisableWriterClasses</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-enablewriterclasses">IVssBackupComponents::EnableWriterClasses</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>

@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpAddress.SetSecure
 title: IWSDHttpAddress::SetSecure (wsdbase.h)
 description: Enables or disables TLS secure sessions for this address.
+helpviewer_keywords: ["IWSDHttpAddress interface","SetSecure method","IWSDHttpAddress.SetSecure","IWSDHttpAddress::SetSecure","SetSecure","SetSecure method","SetSecure method","IWSDHttpAddress interface","ncd.iwsdhttpaddress_setsecure","wsdbase/IWSDHttpAddress::SetSecure"]
 old-location: ncd\iwsdhttpaddress_setsecure.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: f2b66d0d-51b2-437e-8ceb-a4c95f2f9d6d
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetSecure method, IWSDHttpAddress.SetSecure, IWSDHttpAddress::SetSecure, SetSecure, SetSecure method, SetSecure method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setsecure, wsdbase/IWSDHttpAddress::SetSecure
-f1_keywords:
-- wsdbase/IWSDHttpAddress.SetSecure
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpAddress.SetSecure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpAddress::SetSecure
+ - wsdbase/IWSDHttpAddress::SetSecure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpAddress.SetSecure
 ---
 
 # IWSDHttpAddress::SetSecure
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables TLS secure sessions for this address.
 
-
 ## -parameters
-
-
-
 
 ### -param fSecure [in]
 
 <b>TRUE</b> to enable TLS secure session communications for this address, <b>FALSE</b> to disable TLS.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -90,18 +84,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>

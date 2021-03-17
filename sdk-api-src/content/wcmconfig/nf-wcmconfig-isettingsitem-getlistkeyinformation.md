@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.GetListKeyInformation
 title: ISettingsItem::GetListKeyInformation (wcmconfig.h)
 description: Gets the list information for this item.
+helpviewer_keywords: ["GetListKeyInformation","GetListKeyInformation method [SMI]","GetListKeyInformation method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetListKeyInformation method","ISettingsItem.GetListKeyInformation","ISettingsItem::GetListKeyInformation","smi.isettingsitem_getlistkeyinformation","wcmconfig/ISettingsItem::GetListKeyInformation"]
 old-location: smi\isettingsitem_getlistkeyinformation.htm
 tech.root: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
 ms.date: 12/05/2018
 ms.keywords: GetListKeyInformation, GetListKeyInformation method [SMI], GetListKeyInformation method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetListKeyInformation method, ISettingsItem.GetListKeyInformation, ISettingsItem::GetListKeyInformation, smi.isettingsitem_getlistkeyinformation, wcmconfig/ISettingsItem::GetListKeyInformation
-f1_keywords:
-- wcmconfig/ISettingsItem.GetListKeyInformation
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetListKeyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetListKeyInformation
+ - wcmconfig/ISettingsItem::GetListKeyInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetListKeyInformation
 ---
 
 # ISettingsItem::GetListKeyInformation
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the list information for this item.
 
-
 ## -parameters
-
-
-
 
 ### -param KeyName [out]
 
 The name of the key.
 
-
 ### -param DataType [out]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
-
+A <a href="/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,18 +116,7 @@ Indicates that there are insufficient resources to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

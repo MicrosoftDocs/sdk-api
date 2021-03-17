@@ -2,15 +2,12 @@
 UID: NF:wsdhost.WSDCreateDeviceHost2
 title: WSDCreateDeviceHost2 function (wsdhost.h)
 description: Creates a device host that can support signed messages and returns a pointer to the IWSDDeviceHost interface.
+helpviewer_keywords: ["WSDCreateDeviceHost2","WSDCreateDeviceHost2 function","ncd.wsdcreatedevicehost2","wsdhost/WSDCreateDeviceHost2"]
 old-location: ncd\wsdcreatedevicehost2.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreatedevicehost2, wsdhost/WSDCreateDeviceHost2
-f1_keywords:
-- wsdhost/WSDCreateDeviceHost2
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDeviceHost2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDeviceHost2
+ - wsdhost/WSDCreateDeviceHost2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDeviceHost2
 ---
 
 # WSDCreateDeviceHost2 function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a device host that can support signed messages and returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
-
+Creates a device host that can support signed messages and returns a pointer to the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param pszLocalId [in]
 
@@ -64,7 +61,7 @@ The logical or physical address of the device. A logical address is of the form 
 If <i>pszLocalId</i> is a physical address (such as  URL prefixed by http or https), the host will use the address as the physical address and will host on that address instead of the default one.
 
 If <i>pszLocalId</i> is an HTTPS URL, the recommended port is port 5358, as this port is reserved for secure connections with WSDAPI.
-If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a>.  For more information about the configuration of host ports, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
+If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a>.  For more information about the configuration of host ports, see <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
 
 
 Any URL (http or https) must be terminated with a trailing slash. The URL must  contain a valid IP address or hostname.
@@ -88,29 +85,23 @@ The following list shows some example values for <i>pszLocalId</i>. It is not a 
 
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces.
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces.
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param pConfigParams [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
-
+An array of <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
 
 ### -param dwConfigParamCount [in]
 
 The total number of structures passed in <i>pConfigParams</i>.
 
-
 ### -param ppDeviceHost [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
-
+Pointer to an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -164,18 +155,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>WSDCreateDeviceHost2</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.
-
-
-
-
-
+The <b>WSDCreateDeviceHost2</b> function calls the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.

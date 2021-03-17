@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.GetBorderColor
 title: IMFVideoDisplayControl::GetBorderColor (evr.h)
 description: Gets the border color for the video.
+helpviewer_keywords: ["1b65b793-d06d-4d7f-a19f-0068dd7f2e44","GetBorderColor","GetBorderColor method [Media Foundation]","GetBorderColor method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetBorderColor method","IMFVideoDisplayControl.GetBorderColor","IMFVideoDisplayControl::GetBorderColor","evr/IMFVideoDisplayControl::GetBorderColor","mf.imfvideodisplaycontrol_getbordercolor"]
 old-location: mf\imfvideodisplaycontrol_getbordercolor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44
 ms.date: 12/05/2018
 ms.keywords: 1b65b793-d06d-4d7f-a19f-0068dd7f2e44, GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetBorderColor method, IMFVideoDisplayControl.GetBorderColor, IMFVideoDisplayControl::GetBorderColor, evr/IMFVideoDisplayControl::GetBorderColor, mf.imfvideodisplaycontrol_getbordercolor
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetBorderColor
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetBorderColor
+ - evr/IMFVideoDisplayControl::GetBorderColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetBorderColor
 ---
 
 # IMFVideoDisplayControl::GetBorderColor
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the border color for the video.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pClr [out]
 
 Receives the border color, as a <b>COLORREF</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,37 +91,21 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The border color is used for areas where the enhanced video renderer (EVR) does not draw any video.
 
-The border color is not used for letterboxing. To get the letterbox color, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getbackgroundcolor">IMFVideoProcessor::GetBackgroundColor</a>.
-
-
-
+The border color is not used for letterboxing. To get the letterbox color, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getbackgroundcolor">IMFVideoProcessor::GetBackgroundColor</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.ICAT.RegisterForNextTable
 title: ICAT::RegisterForNextTable (mpeg2psiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["ICAT interface [Microsoft TV Technologies]","RegisterForNextTable method","ICAT.RegisterForNextTable","ICAT::RegisterForNextTable","ICATRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","ICAT interface","mpeg2psiparser/ICAT::RegisterForNextTable","mstv.icat_registerfornexttable"]
 old-location: mstv\icat_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 17d77207-253f-48e2-a7ec-3bcc549d2d5e
 ms.date: 12/05/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForNextTable method, ICAT.RegisterForNextTable, ICAT::RegisterForNextTable, ICATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForNextTable, mstv.icat_registerfornexttable
-f1_keywords:
-- mpeg2psiparser/ICAT.RegisterForNextTable
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mpeg2psiparser.h
-api_name:
-- ICAT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICAT::RegisterForNextTable
+ - mpeg2psiparser/ICAT::RegisterForNextTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mpeg2psiparser.h
+api_name:
+ - ICAT.RegisterForNextTable
 ---
 
 # ICAT::RegisterForNextTable
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>RegisterForNextTable</b> method registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
 
-
 ## -parameters
-
-
-
 
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getnexttable">ICAT::GetNextTable</a> method to retrieve the table.
-
+Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getnexttable">ICAT::GetNextTable</a> method to retrieve the table.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -124,27 +117,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>current</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>

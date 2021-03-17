@@ -2,15 +2,12 @@
 UID: NS:setupapi._SP_INF_INFORMATION
 title: SP_INF_INFORMATION (setupapi.h)
 description: The SP_INF_INFORMATION structure stores information about an INF file, including the style, number of constituent INF files, and version data.
+helpviewer_keywords: ["*PSP_INF_INFORMATION","INF_STYLE_NONE","INF_STYLE_OLDNT","INF_STYLE_WIN4","PSP_INF_INFORMATION","PSP_INF_INFORMATION structure pointer [Setup API]","SP_INF_INFORMATION","SP_INF_INFORMATION structure [Setup API]","_setupapi_sp_inf_information_str","setup.sp_inf_information_str","setupapi/PSP_INF_INFORMATION","setupapi/SP_INF_INFORMATION"]
 old-location: setup\sp_inf_information_str.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 1fb08456-bc84-41a1-9f02-8fb499801831
 ms.date: 12/05/2018
 ms.keywords: '*PSP_INF_INFORMATION, INF_STYLE_NONE, INF_STYLE_OLDNT, INF_STYLE_WIN4, PSP_INF_INFORMATION, PSP_INF_INFORMATION structure pointer [Setup API], SP_INF_INFORMATION, SP_INF_INFORMATION structure [Setup API], _setupapi_sp_inf_information_str, setup.sp_inf_information_str, setupapi/PSP_INF_INFORMATION, setupapi/SP_INF_INFORMATION'
-f1_keywords:
-- setupapi/SP_INF_INFORMATION
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- SP_INF_INFORMATION
 targetos: Windows
 req.typenames: SP_INF_INFORMATION, *PSP_INF_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_INF_INFORMATION
+ - setupapi/_SP_INF_INFORMATION
+ - PSP_INF_INFORMATION
+ - setupapi/PSP_INF_INFORMATION
+ - SP_INF_INFORMATION
+ - setupapi/SP_INF_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - SP_INF_INFORMATION
 ---
 
 # SP_INF_INFORMATION structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SP_INF_INFORMATION</b> structure stores information about an INF file, including the style, number of constituent INF files, and version data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InfStyle
 
@@ -100,42 +101,31 @@ A Windows INF file format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InfCount
 
 Number of constituent INF files.
 
-
 ### -field VersionData
 
 Stores information from the <b>Version</b> section of an INF file in an array of <b>ANYSIZE_ARRAY</b> bytes.
 
-
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetinfinformationa">SetupGetInfInformation</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>

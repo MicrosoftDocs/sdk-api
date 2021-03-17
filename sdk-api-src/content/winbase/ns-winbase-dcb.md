@@ -2,15 +2,12 @@
 UID: NS:winbase._DCB
 title: DCB (winbase.h)
 description: Defines the control setting for a serial communications device.
+helpviewer_keywords: ["*LPDCB","CBR_110","CBR_115200","CBR_1200","CBR_128000","CBR_14400","CBR_19200","CBR_2400","CBR_256000","CBR_300","CBR_38400","CBR_4800","CBR_57600","CBR_600","CBR_9600","DCB","DCB structure","DTR_CONTROL_DISABLE","DTR_CONTROL_ENABLE","DTR_CONTROL_HANDSHAKE","EVENPARITY","LPDCB","LPDCB structure pointer","MARKPARITY","NOPARITY","ODDPARITY","ONE5STOPBITS","ONESTOPBIT","RTS_CONTROL_DISABLE","RTS_CONTROL_ENABLE","RTS_CONTROL_HANDSHAKE","RTS_CONTROL_TOGGLE","SPACEPARITY","TWOSTOPBITS","_DCB","_win32_dcb_str","base.dcb_str","winbase/DCB","winbase/LPDCB"]
 old-location: base\dcb_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 9dccd2c6-44b7-4609-a2b9-9815430bf3c7
 ms.date: 12/05/2018
 ms.keywords: '*LPDCB, CBR_110, CBR_115200, CBR_1200, CBR_128000, CBR_14400, CBR_19200, CBR_2400, CBR_256000, CBR_300, CBR_38400, CBR_4800, CBR_57600, CBR_600, CBR_9600, DCB, DCB structure, DTR_CONTROL_DISABLE, DTR_CONTROL_ENABLE, DTR_CONTROL_HANDSHAKE, EVENPARITY, LPDCB, LPDCB structure pointer, MARKPARITY, NOPARITY, ODDPARITY, ONE5STOPBITS, ONESTOPBIT, RTS_CONTROL_DISABLE, RTS_CONTROL_ENABLE, RTS_CONTROL_HANDSHAKE, RTS_CONTROL_TOGGLE, SPACEPARITY, TWOSTOPBITS, _DCB, _win32_dcb_str, base.dcb_str, winbase/DCB, winbase/LPDCB'
-f1_keywords:
-- winbase/DCB
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbase.h
-api_name:
-- DCB
 targetos: Windows
 req.typenames: DCB, *LPDCB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DCB
+ - winbase/_DCB
+ - LPDCB
+ - winbase/LPDCB
+ - DCB
+ - winbase/DCB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbase.h
+api_name:
+ - DCB
 ---
 
 # DCB structure
@@ -48,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the control setting for a serial communications device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DCBlength
 
 The length of the structure, in bytes. The caller must set this member to 
       <code>sizeof(DCB)</code>.
-
 
 ### -field BaudRate
 
@@ -228,20 +228,16 @@ The baud rate at which the communications device operates. This member can be an
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fBinary
 
 If this member is <b>TRUE</b>, binary mode is enabled. Windows does not support 
       nonbinary mode transfers, so this member must be <b>TRUE</b>.
 
-
 ### -field fParity
 
 If this member is <b>TRUE</b>, parity checking is performed and errors are 
       reported.
-
 
 ### -field fOutxCtsFlow
 
@@ -249,13 +245,11 @@ If this member is <b>TRUE</b>, the CTS (clear-to-send) signal is monitored for o
       flow control. If this member is <b>TRUE</b> and CTS is turned off, output is suspended until 
       CTS is sent again.
 
-
 ### -field fOutxDsrFlow
 
 If this member is <b>TRUE</b>, the DSR (data-set-ready) signal is monitored for output 
       flow control. If this member is <b>TRUE</b> and DSR is turned off, output is suspended until 
       DSR is sent again.
-
 
 ### -field fDtrControl
 
@@ -296,19 +290,16 @@ Enables the DTR line when the device is opened and leaves it on.
 </td>
 <td width="60%">
 Enables DTR handshaking. If handshaking is enabled, it is an error for the application to adjust the line 
-        by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
+        by using the <a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fDsrSensitivity
 
 If this member is <b>TRUE</b>, the communications driver is sensitive to the state of 
       the DSR signal. The driver ignores any bytes received, unless the DSR modem input line is high.
-
 
 ### -field fTXContinueOnXoff
 
@@ -319,13 +310,11 @@ If this member is <b>TRUE</b>, transmission continues after the input buffer has
       <b>XonLim</b> bytes of being empty and the driver has transmitted 
       the <b>XonChar</b> character to resume reception.
 
-
 ### -field fOutX
 
 Indicates whether XON/XOFF flow control is used during transmission. If this member is 
       <b>TRUE</b>, transmission stops when the <b>XoffChar</b> character is 
       received and starts again when the <b>XonChar</b> character is received.
-
 
 ### -field fInX
 
@@ -335,18 +324,15 @@ Indicates whether XON/XOFF flow control is used during reception. If this member
       character is sent when the input buffer comes within <b>XonLim</b> bytes of being 
       empty.
 
-
 ### -field fErrorChar
 
 Indicates whether bytes received with parity errors are replaced with the character specified by the 
       <b>ErrorChar</b> member. If this member is <b>TRUE</b> and the 
       <b>fParity</b> member is <b>TRUE</b>, replacement occurs.
 
-
 ### -field fNull
 
 If this member is <b>TRUE</b>, null bytes are discarded when received.
-
 
 ### -field fRtsControl
 
@@ -389,7 +375,7 @@ Enables the RTS line when the device is opened and leaves it on.
 Enables RTS handshaking. The driver raises the RTS line when the "type-ahead" (input) buffer is less than 
         one-half full and lowers the RTS line when the buffer is more than three-quarters full. If handshaking is 
         enabled, it is an error for the application to adjust the line by using the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
+        <a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
@@ -406,26 +392,21 @@ Specifies that the RTS line will be high if bytes are available for transmission
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fAbortOnError
 
 If this member is <b>TRUE</b>, the driver terminates all read and write operations with 
       an error status if an error occurs. The driver will not accept any further communications operations until the 
       application has acknowledged the error by calling the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
-
+      <a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
 
 ### -field fDummy2
 
 Reserved; do not use.
 
-
 ### -field wReserved
 
 Reserved; must be zero.
-
 
 ### -field XonLim
 
@@ -433,7 +414,6 @@ The minimum number of bytes in use allowed in the input buffer before flow contr
       transmission by the sender. This assumes that either XON/XOFF, RTS, or DTR input flow control is specified in 
       the <b>fInX</b>, <b>fRtsControl</b>, or 
       <b>fDtrControl</b> members.
-
 
 ### -field XoffLim
 
@@ -444,11 +424,9 @@ The minimum number of free bytes allowed in the input buffer before flow control
       <b>fDtrControl</b> members. The maximum number of bytes in use allowed is calculated by 
       subtracting this value from the size, in bytes, of the input buffer.
 
-
 ### -field ByteSize
 
 The number of bits in the bytes transmitted and received.
-
 
 ### -field Parity
 
@@ -515,8 +493,6 @@ Space parity.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field StopBits
 
@@ -561,42 +537,32 @@ The number of stop bits to be used. This member can be one of the following valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -field XonChar
 
 The value of the XON character for both transmission and reception.
 
-
 ### -field XoffChar
 
 The value of the XOFF character for both transmission and reception.
-
 
 ### -field ErrorChar
 
 The value of the character used to replace bytes received with a parity error.
 
-
 ### -field EofChar
 
 The value of the character used to signal the end of data.
-
 
 ### -field EvtChar
 
 The value of the character used to signal an event.
 
-
 ### -field wReserved1
 
 Reserved; do not use.
 
-
 ## -remarks
-
-
 
 When a <b>DCB</b> structure is used to configure the 8250, the 
     following restrictions apply to the values specified for the <b>ByteSize</b> and 
@@ -608,31 +574,22 @@ When a <b>DCB</b> structure is used to configure the 8250, the
       bits.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcommstate">GetCommState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommstate">GetCommState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>

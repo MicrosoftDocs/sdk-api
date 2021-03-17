@@ -2,15 +2,12 @@
 UID: NF:strmif.ICaptureGraphBuilder2.SetFiltergraph
 title: ICaptureGraphBuilder2::SetFiltergraph (strmif.h)
 description: The SetFiltergraph method specifies a filter graph for the capture graph builder to use.
+helpviewer_keywords: ["ICaptureGraphBuilder2 interface [DirectShow]","SetFiltergraph method","ICaptureGraphBuilder2.SetFiltergraph","ICaptureGraphBuilder2::SetFiltergraph","ICaptureGraphBuilder2SetFiltergraph","SetFiltergraph","SetFiltergraph method [DirectShow]","SetFiltergraph method [DirectShow]","ICaptureGraphBuilder2 interface","dshow.icapturegraphbuilder2_setfiltergraph","strmif/ICaptureGraphBuilder2::SetFiltergraph"]
 old-location: dshow\icapturegraphbuilder2_setfiltergraph.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6193ece8-cdf1-44f5-9619-16380352193f
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetFiltergraph method, ICaptureGraphBuilder2.SetFiltergraph, ICaptureGraphBuilder2::SetFiltergraph, ICaptureGraphBuilder2SetFiltergraph, SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setfiltergraph, strmif/ICaptureGraphBuilder2::SetFiltergraph
-f1_keywords:
-- strmif/ICaptureGraphBuilder2.SetFiltergraph
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICaptureGraphBuilder2.SetFiltergraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptureGraphBuilder2::SetFiltergraph
+ - strmif/ICaptureGraphBuilder2::SetFiltergraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICaptureGraphBuilder2.SetFiltergraph
 ---
 
 # ICaptureGraphBuilder2::SetFiltergraph
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetFiltergraph</code> method specifies a filter graph for the capture graph builder to use.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pfg [in]
 
-Pointer to the filter graph's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface.
-
+Pointer to the filter graph's <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,31 +102,15 @@ Unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you do not call this method, the capture graph builder automatically creates a filter graph when it needs one. If the capture graph builder already has a filter graph, this method returns E_UNEXPECTED.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>

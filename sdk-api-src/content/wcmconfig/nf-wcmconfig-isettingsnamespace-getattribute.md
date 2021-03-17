@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsNamespace.GetAttribute
 title: ISettingsNamespace::GetAttribute (wcmconfig.h)
 description: Gets the value of an attribute of the namespace.
+helpviewer_keywords: ["GetAttribute","GetAttribute method [SMI]","GetAttribute method [SMI]","ISettingsNamespace interface","ISettingsNamespace interface [SMI]","GetAttribute method","ISettingsNamespace.GetAttribute","ISettingsNamespace::GetAttribute","smi.isettingsnamespace_getattribute","wcmconfig/ISettingsNamespace::GetAttribute"]
 old-location: smi\isettingsnamespace_getattribute.htm
 tech.root: SMI
 ms.assetid: b0623114-8f25-4870-a1c7-4f4e3ecf0348
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetAttribute method, ISettingsNamespace.GetAttribute, ISettingsNamespace::GetAttribute, smi.isettingsnamespace_getattribute, wcmconfig/ISettingsNamespace::GetAttribute
-f1_keywords:
-- wcmconfig/ISettingsNamespace.GetAttribute
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsNamespace.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsNamespace::GetAttribute
+ - wcmconfig/ISettingsNamespace::GetAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsNamespace.GetAttribute
 ---
 
 # ISettingsNamespace::GetAttribute
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of an attribute of the namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 The name of the attribute.
 
-
 ### -param Value [out]
 
 The value of the attribute.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +105,7 @@ Indicates that there are insufficient resources to return information to the use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>

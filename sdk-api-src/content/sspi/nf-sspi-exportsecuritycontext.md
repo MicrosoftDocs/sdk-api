@@ -2,15 +2,12 @@
 UID: NF:sspi.ExportSecurityContext
 title: ExportSecurityContext function (sspi.h)
 description: The ExportSecurityContext function creates a serialized representation of a security context that can later be imported into a different process by calling ImportSecurityContext.
+helpviewer_keywords: ["ExportSecurityContext","ExportSecurityContext function [Security]","SECPKG_CONTEXT_EXPORT_DELETE_OLD","SECPKG_CONTEXT_EXPORT_RESET_NEW","SECPKG_CONTEXT_EXPORT_TO_KERNEL","_ssp_exportsecuritycontext","security.exportsecuritycontext","sspi/ExportSecurityContext"]
 old-location: security\exportsecuritycontext.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4ebc7f37-b948-4c78-973f-0a74e55c7ee2
 ms.date: 12/05/2018
 ms.keywords: ExportSecurityContext, ExportSecurityContext function [Security], SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SECPKG_CONTEXT_EXPORT_TO_KERNEL, _ssp_exportsecuritycontext, security.exportsecuritycontext, sspi/ExportSecurityContext
-f1_keywords:
-- sspi/ExportSecurityContext
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- ExportSecurityContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExportSecurityContext
+ - sspi/ExportSecurityContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - ExportSecurityContext
 ---
 
 # ExportSecurityContext function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ExportSecurityContext</b> function creates a serialized representation of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> that can later be imported into a different process by calling  
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>. The process that imports the security context must be running on the same computer as the process that called <b>ExportSecurityContext</b>.
-
+The <b>ExportSecurityContext</b> function creates a serialized representation of a <a href="/windows/desktop/SecGloss/s-gly">security context</a> that can later be imported into a different process by calling  
+<a href="/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>. The process that imports the security context must be running on the same computer as the process that called <b>ExportSecurityContext</b>.
 
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A handle of the security context to be exported.
-
 
 ### -param fFlags [in]
 
@@ -110,25 +106,19 @@ This value is not supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pPackedContext [out]
 
-A pointer to a buffer of type <b>SECBUFFER_EMPTY</b> that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> security context. When you have finished using this context,  free it by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
-
+A pointer to a buffer of type <b>SECBUFFER_EMPTY</b> that receives the <a href="/windows/desktop/SecGloss/s-gly">serialized</a> security context. When you have finished using this context,  free it by calling the 
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 ### -param pToken [out, optional]
 
 A pointer to receive the handle of the context's token.
 
-When you have finished using the user token, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
-
+When you have finished using the user token, release the handle by calling the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns SEC_E_OK.
 
@@ -173,26 +163,15 @@ Schannel kernel mode does not support this function.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-importsecuritycontexta">ImportSecurityContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>

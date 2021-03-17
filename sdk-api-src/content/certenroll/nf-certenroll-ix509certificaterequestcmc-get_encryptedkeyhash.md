@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptedKeyHash
 title: IX509CertificateRequestCmc::get_EncryptedKeyHash (certenroll.h)
 description: Retrieves a hash of the private key to be archived.
+helpviewer_keywords: ["EncryptedKeyHash property [Security]","EncryptedKeyHash property [Security]","IX509CertificateRequestCmc interface","IX509CertificateRequestCmc interface [Security]","EncryptedKeyHash property","IX509CertificateRequestCmc.EncryptedKeyHash","IX509CertificateRequestCmc.get_EncryptedKeyHash","IX509CertificateRequestCmc::EncryptedKeyHash","IX509CertificateRequestCmc::get_EncryptedKeyHash","certenroll/IX509CertificateRequestCmc::EncryptedKeyHash","certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash","get_EncryptedKeyHash","security.ix509certificaterequestcmc_encryptedkeyhash_property"]
 old-location: security\ix509certificaterequestcmc_encryptedkeyhash_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 63aba8aa-bee7-46b6-a821-4e4d440356ac
 ms.date: 12/05/2018
 ms.keywords: EncryptedKeyHash property [Security], EncryptedKeyHash property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptedKeyHash property, IX509CertificateRequestCmc.EncryptedKeyHash, IX509CertificateRequestCmc.get_EncryptedKeyHash, IX509CertificateRequestCmc::EncryptedKeyHash, IX509CertificateRequestCmc::get_EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash, get_EncryptedKeyHash, security.ix509certificaterequestcmc_encryptedkeyhash_property
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc.EncryptedKeyHash
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc.EncryptedKeyHash
-- IX509CertificateRequestCmc.get_EncryptedKeyHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc::get_EncryptedKeyHash
+ - certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc.EncryptedKeyHash
+ - IX509CertificateRequestCmc.get_EncryptedKeyHash
 ---
 
 # IX509CertificateRequestCmc::get_EncryptedKeyHash
@@ -49,31 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EncryptedKeyHash</b> property retrieves a hash of the private key to be archived. The hash is contained in an encoded byte array.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-For more information about archiving private keys, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey">ArchivePrivateKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a> properties.
-
-
-
+For more information about archiving private keys, see the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_archiveprivatekey">ArchivePrivateKey</a> and <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a> properties.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>

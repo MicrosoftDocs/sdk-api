@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.SetFocus
 title: ITfThreadMgr2::SetFocus (msctf.h)
 description: Sets the input focus to the specified document manager.
+helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","SetFocus method","ITfThreadMgr2.SetFocus","ITfThreadMgr2::SetFocus","SetFocus","SetFocus method [Text Services Framework]","SetFocus method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::SetFocus","tsf.itfthreadmgr2_setfocus"]
 old-location: tsf\itfthreadmgr2_setfocus.htm
 tech.root: TSF
 ms.assetid: 62BC0797-668D-4CA1-8313-338FF7F40D89
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SetFocus method, ITfThreadMgr2.SetFocus, ITfThreadMgr2::SetFocus, SetFocus, SetFocus method [Text Services Framework], SetFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SetFocus, tsf.itfthreadmgr2_setfocus
-f1_keywords:
-- msctf/ITfThreadMgr2.SetFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::SetFocus
+ - msctf/ITfThreadMgr2::SetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.SetFocus
 ---
 
 # ITfThreadMgr2::SetFocus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the input focus to the specified document manager.
-
 
 ## -parameters
 
-
-
-
 ### -param pdimFocus [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the input focus. This parameter cannot be <b>NULL</b>.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the input focus. This parameter cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,27 +90,11 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application must call this method when the document window receives the input focus. If the application associates a window with a document manager using <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-associatefocus">ITfThreadMgr::AssociateFocus</a>, the TSF manager calls this method for the application.
-
-
-
+The application must call this method when the document window receives the input focus. If the application associates a window with a document manager using <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-associatefocus">ITfThreadMgr::AssociateFocus</a>, the TSF manager calls this method for the application.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

@@ -2,15 +2,12 @@
 UID: NF:iads.IADsNameTranslate.InitEx
 title: IADsNameTranslate::InitEx (iads.h)
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
+helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","InitEx method","IADsNameTranslate.InitEx","IADsNameTranslate::InitEx","InitEx","InitEx method [ADSI]","InitEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_initex","adsi.iadsnametranslate__initex","adsi.iadsnametranslate_initex","iads/IADsNameTranslate::InitEx"]
 old-location: adsi\iadsnametranslate_initex.htm
 tech.root: adsi
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
-f1_keywords:
-- iads/IADsNameTranslate.InitEx
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNameTranslate.InitEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNameTranslate::InitEx
+ - iads/IADsNameTranslate::InitEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNameTranslate.InitEx
 ---
 
 # IADsNameTranslate::InitEx
@@ -48,61 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IADsNameTranslate::InitEx</b> method initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential. To initialize the object without an explicit user credential, use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>.
+The <b>IADsNameTranslate::InitEx</b> method initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential. To initialize the object without an explicit user credential, use  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>.
 
 The <b>IADsNameTranslate::InitEx</b> method initializes the object by setting the server or domain that the object will point to and supplying a user credential.
 
-
 ## -parameters
-
-
-
 
 ### -param lnSetType
 
-A type of initialization to be performed. Possible values are defined in  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
-
+A type of initialization to be performed. Possible values are defined in  <a href="/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
 
 ### -param bstrADsPath
 
-The name of the server or domain, depending on the value of <i>lnInitType</i>. When <b>ADS_NAME_INITTYPE_GC</b> is issued, this parameter is ignored. The global catalog server of the domain of the current machine will be used to carry out the name translate operations. This method will fail if the computer is not part of a domain, as no global catalog will be found in this scenario. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
-
+The name of the server or domain, depending on the value of <i>lnInitType</i>. When <b>ADS_NAME_INITTYPE_GC</b> is issued, this parameter is ignored. The global catalog server of the domain of the current machine will be used to carry out the name translate operations. This method will fail if the computer is not part of a domain, as no global catalog will be found in this scenario. For more information, see <a href="/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
 
 ### -param bstrUserID
 
 User name.
 
-
 ### -param bstrDomain
 
 User domain name.
-
 
 ### -param bstrPassword
 
 User password.
 
-
 ## -returns
-
-
 
 Returns a standard <b>HRESULT</b> or RPC error code, including:
 
-
-
-
 ## -remarks
 
-
-
-After the successful initialization, use the name translate object to submit requests of name translations of directory objects. For more information see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>, or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
+After the successful initialization, use the name translate object to submit requests of name translations of directory objects. For more information see  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>,  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>,  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>, or  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>.
 
 
 #### Examples
 
-The following C/C++ code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object before the distinguished name of a user object is rendered in the s format.
+The following C/C++ code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object before the distinguished name of a user object is rendered in the s format.
 
 
 ```cpp
@@ -135,7 +120,7 @@ pNto->Release();
 ```
 
 
-The following Visual Basic code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
+The following Visual Basic code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
 
 ```vb
@@ -153,7 +138,7 @@ MsgBox "Name in the translated format: " & trans
 ```
 
 
-The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
+The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
 
 ```vb
@@ -185,37 +170,26 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b
 </html>
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-get">IADsNameTranslate::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-getex">IADsNameTranslate::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-set">IADsNameTranslate::Set</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>

@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponentsEx3.RecoverSet
 title: IVssBackupComponentsEx3::RecoverSet (vsbackup.h)
 description: Initiates a LUN resynchronization operation.
+helpviewer_keywords: ["IVssBackupComponentsEx3 interface","RecoverSet method","IVssBackupComponentsEx3.RecoverSet","IVssBackupComponentsEx3::RecoverSet","RecoverSet","RecoverSet method","RecoverSet method","IVssBackupComponentsEx3 interface","base.ivssbackupcomponentsex3_recoverset","vsbackup/IVssBackupComponentsEx3::RecoverSet"]
 old-location: base\ivssbackupcomponentsex3_recoverset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2e468527-11e7-42d8-808b-2cb2eb86e0ba
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComponentsEx3.RecoverSet, IVssBackupComponentsEx3::RecoverSet, RecoverSet, RecoverSet method, RecoverSet method,IVssBackupComponentsEx3 interface, base.ivssbackupcomponentsex3_recoverset, vsbackup/IVssBackupComponentsEx3::RecoverSet
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx3.RecoverSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx3.RecoverSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx3::RecoverSet
+ - vsbackup/IVssBackupComponentsEx3::RecoverSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx3.RecoverSet
 ---
 
 # IVssBackupComponentsEx3::RecoverSet
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a LUN resynchronization operation. This method is supported only on Windows server operating systems.
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_recovery_options">VSS_RECOVERY_OPTIONS</a> flags that specify how the resynchronization is to be performed.
-
+A bitmask of <a href="/windows/desktop/api/vss/ne-vss-vss_recovery_options">VSS_RECOVERY_OPTIONS</a> flags that specify how the resynchronization is to be performed.
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used to retrieve the status of the LUN resynchronization operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. 
-
+A pointer to a variable that receives an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used to retrieve the status of the LUN resynchronization operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,7 +109,7 @@ Possible reasons for this return value include:
 <li>There is no hardware provider that supports the operation.</li>
 <li>The requester did not successfully add any volumes to the recovery set.</li>
 <li>The method was called in WinPE or in Safe mode.</li>
-<li>The caller did not call the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">IVssBackupComponents::InitializeForRestore</a> method before calling this method.</li>
+<li>The caller did not call the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">IVssBackupComponents::InitializeForRestore</a> method before calling this method.</li>
 </ul>
 </td>
 </tr>
@@ -170,29 +163,13 @@ The MBR signature or GPT ID for one or more disks could not be set to the intend
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 At the end of the resynchronization operation, by default the newly resychronized LUN will have the same disk signature that the destination LUN had before the resynchronization.
 
-This method cannot be called in WinPE, and it cannot be called in Safe mode. Before calling this method, the caller must call <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">IVssBackupComponents::InitializeForRestore</a> to prepare for the resynchronization.
-
-
-
+This method cannot be called in WinPE, and it cannot be called in Safe mode. Before calling this method, the caller must call <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore">IVssBackupComponents::InitializeForRestore</a> to prepare for the resynchronization.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>

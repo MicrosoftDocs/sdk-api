@@ -2,15 +2,12 @@
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 title: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA (dxvahd.h)
 description: Specifies the source rectangle for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA","mf.dxvahd_stream_state_source_rect_data"]
 old-location: mf\dxvahd_stream_state_source_rect_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
+ - DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_SOURCE_RECT_DATA
 ---
 
 # DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the source rectangle for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD)
 
-
 ## -struct-fields
-
-
-
 
 ### -field Enable
 
@@ -87,8 +86,6 @@ Blit the entire input surface. Ignore the <b>SourceRect</b> member.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SourceRect
 
@@ -96,30 +93,22 @@ The <i>source rectangle</i>, which defines the portion of the input sample that 
 
 If the <b>Enable</b> member is <b>FALSE</b>, the <b>SourceRect</b> member is ignored.
 
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

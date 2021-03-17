@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFClock.GetContinuityKey
 title: IMFClock::GetContinuityKey (mfidl.h)
 description: Retrieves the clock's continuity key. (Not supported.).
+helpviewer_keywords: ["8afda8c7-bab6-40fd-b20c-6bb29ed4900f","GetContinuityKey","GetContinuityKey method [Media Foundation]","GetContinuityKey method [Media Foundation]","IMFClock interface","IMFClock interface [Media Foundation]","GetContinuityKey method","IMFClock.GetContinuityKey","IMFClock::GetContinuityKey","mf.imfclock_getcontinuitykey","mfidl/IMFClock::GetContinuityKey"]
 old-location: mf\imfclock_getcontinuitykey.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f
 ms.date: 12/05/2018
 ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinuityKey method [Media Foundation], GetContinuityKey method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetContinuityKey method, IMFClock.GetContinuityKey, IMFClock::GetContinuityKey, mf.imfclock_getcontinuitykey, mfidl/IMFClock::GetContinuityKey
-f1_keywords:
-- mfidl/IMFClock.GetContinuityKey
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFClock.GetContinuityKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFClock::GetContinuityKey
+ - mfidl/IMFClock::GetContinuityKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFClock.GetContinuityKey
 ---
 
 # IMFClock::GetContinuityKey
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the clock's continuity key. (Not supported.)
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwContinuityKey [out]
 
 Receives the continuity key.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Continuity keys are currently not supported in Media Foundation. Clocks must return the value zero in the <i>pdwContinuityKey</i> parameter.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>

@@ -2,15 +2,12 @@
 UID: NN:uiautomationclient.IUIAutomationCondition
 title: IUIAutomationCondition (uiautomationclient.h)
 description: This is the primary interface for conditions used in filtering when searching for elements in the UI Automation tree.
+helpviewer_keywords: ["IUIAutomationCondition","IUIAutomationCondition interface [Windows Accessibility]","IUIAutomationCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationCondition","uiauto_IUIAutomationCondition","uiautomationclient/IUIAutomationCondition","winauto.uiauto_IUIAutomationCondition"]
 old-location: winauto\uiauto_IUIAutomationCondition.htm
 tech.root: WinAuto
 ms.assetid: 66515d42-2b98-4923-b326-9fec557345b7
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCondition, IUIAutomationCondition interface [Windows Accessibility], IUIAutomationCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCondition, uiauto_IUIAutomationCondition, uiautomationclient/IUIAutomationCondition, winauto.uiauto_IUIAutomationCondition
-f1_keywords:
-- uiautomationclient/IUIAutomationCondition
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationCondition
+ - uiautomationclient/IUIAutomationCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationCondition
 ---
 
 # IUIAutomationCondition interface
@@ -48,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 This is the primary interface for conditions used in filtering when searching for elements in the UI Automation tree. This interface has no members. 
         
 
 The following interfaces inherit from <b>IUIAutomationCondition</b>:
         <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationandcondition">IUIAutomationAndCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationandcondition">IUIAutomationAndCondition</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationboolcondition">IUIAutomationBoolCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationboolcondition">IUIAutomationBoolCondition</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotcondition">IUIAutomationNotCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotcondition">IUIAutomationNotCondition</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationpropertycondition">IUIAutomationPropertyCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationpropertycondition">IUIAutomationPropertyCondition</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-obtainingelements">Obtaining UI Automation Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-obtainingelements">Obtaining UI Automation Elements</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>

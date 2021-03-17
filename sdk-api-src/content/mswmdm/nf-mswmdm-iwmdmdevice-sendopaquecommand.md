@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
 title: IWMDMDevice::SendOpaqueCommand (mswmdm.h)
 description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
+helpviewer_keywords: ["IWMDMDevice interface [windows Media Device Manager]","SendOpaqueCommand method","IWMDMDevice.SendOpaqueCommand","IWMDMDevice::SendOpaqueCommand","IWMDMDeviceSendOpaqueCommand","SendOpaqueCommand","SendOpaqueCommand method [windows Media Device Manager]","SendOpaqueCommand method [windows Media Device Manager]","IWMDMDevice interface","mswmdm/IWMDMDevice::SendOpaqueCommand","wmdm.iwmdmdevice_sendopaquecommand"]
 old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
 ms.date: 12/05/2018
 ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
-f1_keywords:
-- mswmdm/IWMDMDevice.SendOpaqueCommand
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDevice.SendOpaqueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDevice::SendOpaqueCommand
+ - mswmdm/IWMDMDevice::SendOpaqueCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDevice.SendOpaqueCommand
 ---
 
 # IWMDMDevice::SendOpaqueCommand
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SendOpaqueCommand</b> method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCommand [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure specifying the information required to execute the command. If the device returns data, it is returned through the <i>pData</i> member of <i>pCommand</i>.
-
+Pointer to an <a href="/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure specifying the information required to execute the command. If the device returns data, it is returned through the <i>pData</i> member of <i>pCommand</i>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,14 +68,9 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 This method is intended for device commands that do not affect the operation of Windows Media Device Manager and are passed through unchanged.
 
@@ -177,17 +163,6 @@ The following code performs a simplified extended authentication procedure with 
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>

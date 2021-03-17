@@ -2,15 +2,12 @@
 UID: NF:debugapi.ContinueDebugEvent
 title: ContinueDebugEvent function (debugapi.h)
 description: Enables a debugger to continue a thread that previously reported a debugging event.
+helpviewer_keywords: ["ContinueDebugEvent","ContinueDebugEvent function","DBG_CONTINUE","DBG_EXCEPTION_NOT_HANDLED","DBG_REPLY_LATER","_win32_continuedebugevent","base.continuedebugevent","debugapi/ContinueDebugEvent"]
 old-location: base\continuedebugevent.htm
 tech.root: Debug
 ms.assetid: d15847d9-7947-4653-b3a2-3da1d1dd7078
 ms.date: 12/05/2018
 ms.keywords: ContinueDebugEvent, ContinueDebugEvent function, DBG_CONTINUE, DBG_EXCEPTION_NOT_HANDLED, DBG_REPLY_LATER, _win32_continuedebugevent, base.continuedebugevent, debugapi/ContinueDebugEvent
-f1_keywords:
-- debugapi/ContinueDebugEvent
-dev_langs:
-- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-debug-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Debug-L1-1-2.dll
-api_name:
-- ContinueDebugEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ContinueDebugEvent
+ - debugapi/ContinueDebugEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-debug-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Debug-L1-1-2.dll
+api_name:
+ - ContinueDebugEvent
 ---
 
 # ContinueDebugEvent function
@@ -53,24 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a debugger to continue a thread that previously reported a debugging event.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProcessId [in]
 
 The process identifier  of the process to continue.
 
-
 ### -param dwThreadId [in]
 
 The thread identifier of the thread to continue. The combination of process identifier and thread identifier must identify a thread that has previously reported a debugging event.
-
 
 ### -param dwContinueStatus [in]
 
@@ -113,32 +108,23 @@ If the thread specified by <i>dwThreadId</i> previously reported an EXCEPTION_DE
 </dl>
 </td>
 <td width="60%">
-Supported in Windows 10, version 1507 or above, this flag causes <i>dwThreadId</i> to replay the existing breaking event after the target continues. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> API against <i>dwThreadId</i>, a debugger can resume other threads in the process and later return to the breaking.
+Supported in Windows 10, version 1507 or above, this flag causes <i>dwThreadId</i> to replay the existing breaking event after the target continues. By calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> API against <i>dwThreadId</i>, a debugger can resume other threads in the process and later return to the breaking.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 Only the thread that created <i>dwProcessId</i> with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can call 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can call 
 <b>ContinueDebugEvent</b>.
 
 After the 
@@ -150,27 +136,18 @@ After the
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/writing-the-debugger-s-main-loop">Writing the Debugger's Main Loop</a>.
+<a href="/windows/desktop/Debug/writing-the-debugger-s-main-loop">Writing the Debugger's Main Loop</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/Debug/debugging-events">Debugging Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-events">Debugging Events</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>

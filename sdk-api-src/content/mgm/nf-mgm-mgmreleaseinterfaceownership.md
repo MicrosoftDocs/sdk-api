@@ -2,15 +2,12 @@
 UID: NF:mgm.MgmReleaseInterfaceOwnership
 title: MgmReleaseInterfaceOwnership function (mgm.h)
 description: The MgmReleaseInterfaceOwnership function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.
+helpviewer_keywords: ["MgmReleaseInterfaceOwnership","MgmReleaseInterfaceOwnership function [RAS]","_mpr_mgmreleaseinterfaceownership","mgm/MgmReleaseInterfaceOwnership","rras.mgmreleaseinterfaceownership"]
 old-location: rras\mgmreleaseinterfaceownership.htm
 tech.root: RRAS
 ms.assetid: 501970f7-7728-4a83-8f4b-207579d65d01
 ms.date: 12/05/2018
 ms.keywords: MgmReleaseInterfaceOwnership, MgmReleaseInterfaceOwnership function [RAS], _mpr_mgmreleaseinterfaceownership, mgm/MgmReleaseInterfaceOwnership, rras.mgmreleaseinterfaceownership
-f1_keywords:
-- mgm/MgmReleaseInterfaceOwnership
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmReleaseInterfaceOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmReleaseInterfaceOwnership
+ - mgm/MgmReleaseInterfaceOwnership
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmReleaseInterfaceOwnership
 ---
 
 # MgmReleaseInterfaceOwnership function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmReleaseInterfaceOwnership</b> function is used by a client to relinquish ownership of an interface. When this function is called, all MFEs maintained by the multicast group manager on behalf of the client and for the specified interface are deleted.
 
-
 ## -parameters
-
-
-
 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ### -param dwIfIndex [in]
 
 Specifies the index of the interface to release.
-
 
 ### -param dwIfNextHopAddr [in]
 
@@ -78,10 +73,7 @@ Specifies the address of the next hop that corresponds to the index specified by
 
 For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfaces, which are identified by only the value of <i>dwIfIndex</i>, specify zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -120,31 +112,15 @@ Invalid handle to a client, or the interface was not found.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 A client must release ownership of all the interfaces it owns before deregistering itself with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a> function.
-
-
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>

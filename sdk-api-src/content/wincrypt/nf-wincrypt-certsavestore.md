@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertSaveStore
 title: CertSaveStore function (wincrypt.h)
 description: Saves the certificate store to a file or to a memory BLOB.
+helpviewer_keywords: ["CERT_STORE_SAVE_AS_PKCS7","CERT_STORE_SAVE_AS_STORE","CERT_STORE_SAVE_TO_FILE","CERT_STORE_SAVE_TO_FILENAME","CERT_STORE_SAVE_TO_FILENAME_A","CERT_STORE_SAVE_TO_FILENAME_W","CERT_STORE_SAVE_TO_MEMORY","CertSaveStore","CertSaveStore function [Security]","PKCS_7_ASN_ENCODING","X509_ASN_ENCODING","_crypto2_certsavestore","security.certsavestore","wincrypt/CertSaveStore"]
 old-location: security\certsavestore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_SAVE_AS_PKCS7, CERT_STORE_SAVE_AS_STORE, CERT_STORE_SAVE_TO_FILE, CERT_STORE_SAVE_TO_FILENAME, CERT_STORE_SAVE_TO_FILENAME_A, CERT_STORE_SAVE_TO_FILENAME_W, CERT_STORE_SAVE_TO_MEMORY, CertSaveStore, CertSaveStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certsavestore, security.certsavestore, wincrypt/CertSaveStore
-f1_keywords:
-- wincrypt/CertSaveStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSaveStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSaveStore
+ - wincrypt/CertSaveStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSaveStore
 ---
 
 # CertSaveStore function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertSaveStore</b> function saves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to a file or to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
-
+The <b>CertSaveStore</b> function saves the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> to a file or to a memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 The handle of the certificate store to be saved.
 
-
 ### -param dwEncodingType [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
+Specifies the <a href="/windows/desktop/SecGloss/c-gly">certificate encoding type</a> and <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a>. Encoding is used only when <i>dwSaveAs</i> contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
 
 
 This parameter can be a combination of one or more of the following values.
@@ -99,8 +95,6 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwSaveAs [in]
 
@@ -123,7 +117,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The certificate store can be saved as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> signed message that does not include additional properties. The <i>dwEncodingType</i> parameter specifies the message encoding type.
+The certificate store can be saved as a <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> signed message that does not include additional properties. The <i>dwEncodingType</i> parameter specifies the message encoding type.
 
 </td>
 </tr>
@@ -134,15 +128,13 @@ The certificate store can be saved as a <a href="https://docs.microsoft.com/wind
 </dl>
 </td>
 <td width="60%">
-The certificate store can be saved as a serialized store containing properties in addition to encoded certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). The <i>dwEncodingType</i> parameter is ignored.
+The certificate store can be saved as a serialized store containing properties in addition to encoded certificates, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), and <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). The <i>dwEncodingType</i> parameter is ignored.
 
 <div class="alert"><b>Note</b>  The <b>CERT_KEY_CONTEXT_PROP_ID</b> property and the related <b>CERT_KEY_PROV_HANDLE_PROP_ID</b> and <b>CERT_KEY_SPEC_PROP_ID</b> values are not saved to a serialized store.</div>
 <div> </div>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwSaveTo [in]
 
@@ -165,7 +157,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
+The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
 
 </td>
 </tr>
@@ -209,61 +201,45 @@ The function saves the certificate store to a file. The <i>pvSaveToPara</i> para
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a memory BLOB. The <i>pvSaveToPara</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure. Before use, the <b>CERT_BLOB</b>'s <b>pbData</b> and <b>cbData</b> members must be initialized. Upon return, <b>cbData</b> is updated with the actual length. For a length-only calculation, <b>pbData</b> must be set to <b>NULL</b>. If <b>pbData</b> is non-<b>NULL</b> and <b>cbData</b> is not large enough, the function returns zero with a last error code of <b>ERROR_MORE_DATA</b>.
+The function saves the certificate store to a memory BLOB. The <i>pvSaveToPara</i> parameter contains a pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure. Before use, the <b>CERT_BLOB</b>'s <b>pbData</b> and <b>cbData</b> members must be initialized. Upon return, <b>cbData</b> is updated with the actual length. For a length-only calculation, <b>pbData</b> must be set to <b>NULL</b>. If <b>pbData</b> is non-<b>NULL</b> and <b>cbData</b> is not large enough, the function returns zero with a last error code of <b>ERROR_MORE_DATA</b>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvSaveToPara [in, out]
 
 A pointer that represents where the store should be saved to. The contents of this parameter depends on the value of the <i>dwSaveTo</i> parameter.
 
-
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-Note that <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
-
-
-
+Note that <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>

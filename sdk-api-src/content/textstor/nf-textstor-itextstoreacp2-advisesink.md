@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACP2.AdviseSink
 title: ITextStoreACP2::AdviseSink (textstor.h)
 description: Installs a new advise sink from the ITextStoreACPSink interface or modifies an existing advise sink. The sink interface is specified by the punk parameter.
+helpviewer_keywords: ["AdviseSink","AdviseSink method [Text Services Framework]","AdviseSink method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","AdviseSink method","ITextStoreACP2.AdviseSink","ITextStoreACP2::AdviseSink","textstor/ITextStoreACP2::AdviseSink","tsf.itextstoreacp2_advisesink"]
 old-location: tsf\itextstoreacp2_advisesink.htm
 tech.root: TSF
 ms.assetid: 15fa2f85-3fe8-4e2d-bd3b-a270182adc66
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],AdviseSink method, ITextStoreACP2.AdviseSink, ITextStoreACP2::AdviseSink, textstor/ITextStoreACP2::AdviseSink, tsf.itextstoreacp2_advisesink
-f1_keywords:
-- textstor/ITextStoreACP2.AdviseSink
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.AdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::AdviseSink
+ - textstor/ITextStoreACP2::AdviseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.AdviseSink
 ---
 
 # ITextStoreACP2::AdviseSink
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Installs a new advise sink from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
-
+Installs a new advise sink from the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
 
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 Specifies the sink interface.
 
-
 ### -param punk [in]
 
 Pointer to the sink interface. Cannot be <b>NULL</b>.
 
-
 ### -param dwMask [in]
 
-Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
-
+Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,18 +120,7 @@ The specified sink object could not be obtained.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>

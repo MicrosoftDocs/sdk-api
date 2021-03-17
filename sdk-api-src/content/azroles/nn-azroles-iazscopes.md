@@ -2,15 +2,12 @@
 UID: NN:azroles.IAzScopes
 title: IAzScopes (azroles.h)
 description: Represents a collection of IAzScope objects.
+helpviewer_keywords: ["IAzScopes","IAzScopes interface [Security]","IAzScopes interface [Security]","described","azroles/IAzScopes","security.iazscopes"]
 old-location: security\iazscopes.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f00953bf-b90a-4812-a87d-a66b98a2e95f
 ms.date: 12/05/2018
 ms.keywords: IAzScopes, IAzScopes interface [Security], IAzScopes interface [Security],described, azroles/IAzScopes, security.iazscopes
-f1_keywords:
-- azroles/IAzScopes
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScopes
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScopes
+ - azroles/IAzScopes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScopes
 ---
 
 # IAzScopes interface
@@ -48,7 +50,5 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAzScopes</b> interface represents a collection of  
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> objects.
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> objects.

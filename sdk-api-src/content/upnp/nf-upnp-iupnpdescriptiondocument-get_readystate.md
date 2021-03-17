@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPDescriptionDocument.get_ReadyState
 title: IUPnPDescriptionDocument::get_ReadyState (upnp.h)
 description: The ReadyState property specifies the status of the document load operation.
+helpviewer_keywords: ["IUPnPDescriptionDocument interface [UPnP APIs]","get_ReadyState method","IUPnPDescriptionDocument.get_ReadyState","IUPnPDescriptionDocument::get_ReadyState","READYSTATE _COMPLETE","READYSTATE _INTERACTIVE","READYSTATE _LOADED","READYSTATE _LOADING","READYSTATE_UNINITIALIZED","_upnp_iupnpdescriptiondocument_readystate","get_ReadyState","get_ReadyState method [UPnP APIs]","get_ReadyState method [UPnP APIs]","IUPnPDescriptionDocument interface","upnp.iupnpdescriptiondocument_readystate","upnp/IUPnPDescriptionDocument::get_ReadyState"]
 old-location: upnp\iupnpdescriptiondocument_readystate.htm
 tech.root: upnp
 ms.assetid: 592939fa-ebce-419f-a813-ecbbe788fd8e
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],get_ReadyState method, IUPnPDescriptionDocument.get_ReadyState, IUPnPDescriptionDocument::get_ReadyState, READYSTATE _COMPLETE, READYSTATE _INTERACTIVE, READYSTATE _LOADED, READYSTATE _LOADING, READYSTATE_UNINITIALIZED, _upnp_iupnpdescriptiondocument_readystate, get_ReadyState, get_ReadyState method [UPnP APIs], get_ReadyState method [UPnP APIs],IUPnPDescriptionDocument interface, upnp.iupnpdescriptiondocument_readystate, upnp/IUPnPDescriptionDocument::get_ReadyState
-f1_keywords:
-- upnp/IUPnPDescriptionDocument.get_ReadyState
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDescriptionDocument.get_ReadyState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDescriptionDocument::get_ReadyState
+ - upnp/IUPnPDescriptionDocument::get_ReadyState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDescriptionDocument.get_ReadyState
 ---
 
 # IUPnPDescriptionDocument::get_ReadyState
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>ReadyState</b> property specifies the status of the document load operation. This status indicates the state of the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a> method. These states are the standard ready-state values for loading XML documents.
-
+<b>ReadyState</b> property specifies the status of the document load operation. This status indicates the state of the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a> method. These states are the standard ready-state values for loading XML documents.
 
 ## -parameters
-
-
-
 
 ### -param plReadyState [out]
 
@@ -120,33 +117,19 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>

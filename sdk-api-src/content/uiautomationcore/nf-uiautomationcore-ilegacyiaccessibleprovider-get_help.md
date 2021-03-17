@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Help
 title: ILegacyIAccessibleProvider::get_Help (uiautomationcore.h)
 description: Specifies a string that contains help information for this element.
+helpviewer_keywords: ["Help property [Windows Accessibility]","Help property [Windows Accessibility]","ILegacyIAccessibleProvider interface","ILegacyIAccessibleProvider interface [Windows Accessibility]","Help property","ILegacyIAccessibleProvider.Help","ILegacyIAccessibleProvider.get_Help","ILegacyIAccessibleProvider::Help","ILegacyIAccessibleProvider::get_Help","get_Help","uiauto.uiauto_ILegacyIAccessibleProvider_Help","uiauto_ILegacyIAccessibleProvider_Help","uiautomationcore/ILegacyIAccessibleProvider::Help","uiautomationcore/ILegacyIAccessibleProvider::get_Help","winauto.uiauto_ILegacyIAccessibleProvider_Help"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Help.htm
 tech.root: WinAuto
 ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
 ms.date: 12/05/2018
 ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider.get_Help, ILegacyIAccessibleProvider::Help, ILegacyIAccessibleProvider::get_Help, get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
-f1_keywords:
-- uiautomationcore/ILegacyIAccessibleProvider.Help
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: UiAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UiAutomationCore.dll
-api_name:
-- ILegacyIAccessibleProvider.Help
-- ILegacyIAccessibleProvider.get_Help
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILegacyIAccessibleProvider::get_Help
+ - uiautomationcore/ILegacyIAccessibleProvider::get_Help
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UiAutomationCore.dll
+api_name:
+ - ILegacyIAccessibleProvider.Help
+ - ILegacyIAccessibleProvider.get_Help
 ---
 
 # ILegacyIAccessibleProvider::get_Help
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a string  that contains help information for this element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>

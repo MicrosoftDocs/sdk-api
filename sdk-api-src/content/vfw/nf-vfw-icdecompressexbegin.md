@@ -2,15 +2,12 @@
 UID: NF:vfw.ICDecompressExBegin
 title: ICDecompressExBegin function (vfw.h)
 description: The ICDecompressExBegin function prepares a decompressor for decompressing data.
+helpviewer_keywords: ["ICDecompressExBegin","ICDecompressExBegin function [Windows Multimedia]","_win32_ICDecompressExBegin","multimedia.icdecompressexbegin","vfw/ICDecompressExBegin"]
 old-location: multimedia\icdecompressexbegin.htm
 tech.root: Multimedia
 ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8
 ms.date: 12/05/2018
 ms.keywords: ICDecompressExBegin, ICDecompressExBegin function [Windows Multimedia], _win32_ICDecompressExBegin, multimedia.icdecompressexbegin, vfw/ICDecompressExBegin
-f1_keywords:
-- vfw/ICDecompressExBegin
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDecompressExBegin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDecompressExBegin
+ - vfw/ICDecompressExBegin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDecompressExBegin
 ---
 
 # ICDecompressExBegin function
@@ -48,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDecompressExBegin</b> function prepares a decompressor for decompressing data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hic
 
 Handle to the decompressor to use.
-          
-
 
 ### -param dwFlags
 
@@ -99,102 +91,63 @@ Decompression flags. The following values are defined.
 <td>Screen is being updated or refreshed.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpbiSrc
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
 
 ### -param lpSrc
 
 Pointer to the input data.
-          
-
 
 ### -param xSrc
 
 The x-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
-          
-
 
 ### -param ySrc
 
 The y-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
-          
-
 
 ### -param dxSrc
 
 Width of the source rectangle.
-          
-
 
 ### -param dySrc
 
 Height of the source rectangle.
-          
-
 
 ### -param lpbiDst
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
 
 ### -param lpDst
 
 Pointer to a buffer that is large enough to contain the decompressed data.
-          
-
 
 ### -param xDst
 
 The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
-          
-
 
 ### -param yDst
 
 The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
-          
-
 
 ### -param dxDst
 
 Width of the destination rectangle.
-          
-
 
 ### -param dyDst
 
 Height of the destination rectangle.
-          
-
 
 ## -returns
 
-
-
 Returns <b>ICERR_OK</b> if successful or an error otherwise.
-          
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

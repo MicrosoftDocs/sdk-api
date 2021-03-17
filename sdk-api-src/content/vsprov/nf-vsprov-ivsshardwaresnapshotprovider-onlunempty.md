@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty
 title: IVssHardwareSnapshotProvider::OnLunEmpty (vsprov.h)
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
+helpviewer_keywords: ["IVssHardwareSnapshotProvider interface [VSS]","OnLunEmpty method","IVssHardwareSnapshotProvider.OnLunEmpty","IVssHardwareSnapshotProvider::OnLunEmpty","OnLunEmpty","OnLunEmpty method [VSS]","OnLunEmpty method [VSS]","IVssHardwareSnapshotProvider interface","base.ivsshardwaresnapshotprovider_onlunempty","vsprov/IVssHardwareSnapshotProvider::OnLunEmpty"]
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.OnLunEmpty
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.OnLunEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::OnLunEmpty
+ - vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.OnLunEmpty
 ---
 
 # IVssHardwareSnapshotProvider::OnLunEmpty
 
 
 ## -description
-
 
 The <b>OnLunEmpty</b> method is 
    called whenever VSS determines that a shadow copy LUN contains no interesting data. All 
@@ -59,23 +60,16 @@ The <b>OnLunEmpty</b> method is
 
 ## -parameters
 
-
-
-
 ### -param wszDeviceName [in]
 
 Device corresponding to the LUN that contains the shadow copy to be deleted.
 
-
 ### -param pInformation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure 
+Pointer to a <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure 
       containing information about the LUN containing the shadow copy to be deleted.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,14 +128,8 @@ An unexpected provider error occurred. The provider must report an event in the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Hardware providers should delete a shadow copy and reclaim the LUN if and only if  
     <b>OnLunEmpty</b> is being called. A 
@@ -151,7 +139,7 @@ Hardware providers should delete a shadow copy and reclaim the LUN if and only i
     emergency or an administrator performing explicit action manually.
 
 In the case of persistent shadow copies, the requester deletes the shadow copy when it is no longer needed. In the case of 
-    nonpersistent auto-release shadow copies, the VSS service deletes the shadow copy when the requester calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object. In the case of nonpersistent non-auto-release shadow copies, the VSS service deletes the shadow copy when the computer is restarted. In all cases, the VSS service calls the provider's  <b>OnLunEmpty</b> method as needed for each shadow copy 
+    nonpersistent auto-release shadow copies, the VSS service deletes the shadow copy when the requester calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object. In the case of nonpersistent non-auto-release shadow copies, the VSS service deletes the shadow copy when the computer is restarted. In all cases, the VSS service calls the provider's  <b>OnLunEmpty</b> method as needed for each shadow copy 
     LUN.
 
 Note that <b>OnLunEmpty</b> is 
@@ -168,15 +156,6 @@ Some examples:
 <li>A canceled import.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>

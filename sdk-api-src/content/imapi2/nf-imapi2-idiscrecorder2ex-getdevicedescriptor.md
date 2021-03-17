@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetDeviceDescriptor
 title: IDiscRecorder2Ex::GetDeviceDescriptor (imapi2.h)
 description: Retrieves the device descriptor for the device.
+helpviewer_keywords: ["GetDeviceDescriptor","GetDeviceDescriptor method [IMAPI]","GetDeviceDescriptor method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetDeviceDescriptor method","IDiscRecorder2Ex.GetDeviceDescriptor","IDiscRecorder2Ex::GetDeviceDescriptor","imapi.idiscrecorder2ex_getdevicedescriptor","imapi2/IDiscRecorder2Ex::GetDeviceDescriptor"]
 old-location: imapi\idiscrecorder2ex_getdevicedescriptor.htm
 tech.root: imapi
 ms.assetid: c0c22ce6-daf4-4218-afce-c773d607638b
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDescriptor, GetDeviceDescriptor method [IMAPI], GetDeviceDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDeviceDescriptor method, IDiscRecorder2Ex.GetDeviceDescriptor, IDiscRecorder2Ex::GetDeviceDescriptor, imapi.idiscrecorder2ex_getdevicedescriptor, imapi2/IDiscRecorder2Ex::GetDeviceDescriptor
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetDeviceDescriptor
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetDeviceDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetDeviceDescriptor
+ - imapi2/IDiscRecorder2Ex::GetDeviceDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetDeviceDescriptor
 ---
 
 # IDiscRecorder2Ex::GetDeviceDescriptor
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the device descriptor for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param data [out]
 
@@ -63,15 +60,11 @@ Data buffer that contains the descriptor of the storage device. For details of t
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param byteSize [out]
 
 Size, in bytes, of the data buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -120,18 +113,7 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>

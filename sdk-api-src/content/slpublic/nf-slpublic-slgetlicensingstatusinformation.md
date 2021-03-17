@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetLicensingStatusInformation
 title: SLGetLicensingStatusInformation function (slpublic.h)
 description: Gets the licensing status of the specified application or SKU.
+helpviewer_keywords: ["SLGetLicensingStatusInformation","SLGetLicensingStatusInformation function [Security]","security.slgetlicensingstatusinformation","slpublic/SLGetLicensingStatusInformation"]
 old-location: security\slgetlicensingstatusinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
 ms.date: 12/05/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
-f1_keywords:
-- slpublic/SLGetLicensingStatusInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetLicensingStatusInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetLicensingStatusInformation
+ - slpublic/SLGetLicensingStatusInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetLicensingStatusInformation
 ---
 
 # SLGetLicensingStatusInformation function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the  licensing status of the specified application or SKU.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
 Type: <b>HSLC</b>
 
 Handle to the current SLC context.
-
 
 ### -param pAppID [in, optional]
 
@@ -134,8 +130,6 @@ Get licensing status of this application/SKU.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pProductSkuId [in, optional]
 
@@ -207,8 +201,6 @@ Get licensing status of this application/SKU.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszRightName [in, optional]
 
@@ -216,24 +208,19 @@ Type: <b>PCWSTR</b>
 
 Must be <b>NULL</b>.
 
-
 ### -param pnStatusCount [out]
 
 Type: <b>UINT*</b>
 
 A pointer to the number of the SKU's status.
 
-
 ### -param ppLicensingStatus [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_licensing_status">SL_LICENSING_STATUS</a>**</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ns-slpublic-sl_licensing_status">SL_LICENSING_STATUS</a>**</b>
 
 A pointer to the licensing status of the SKU.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -269,7 +256,3 @@ The rights consumption failed.
 </td>
 </tr>
 </table>
- 
-
-
-

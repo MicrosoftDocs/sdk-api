@@ -2,15 +2,12 @@
 UID: NF:strmif.IPin.ConnectedTo
 title: IPin::ConnectedTo (strmif.h)
 description: The ConnectedTo method retrieves a pointer to the connected pin, if any.
+helpviewer_keywords: ["ConnectedTo","ConnectedTo method [DirectShow]","ConnectedTo method [DirectShow]","IPin interface","IPin interface [DirectShow]","ConnectedTo method","IPin.ConnectedTo","IPin::ConnectedTo","IPinConnectedTo","dshow.ipin_connectedto","strmif/IPin::ConnectedTo"]
 old-location: dshow\ipin_connectedto.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 970c814f-2309-481e-9e8e-9bd32b83fdc7
 ms.date: 12/05/2018
 ms.keywords: ConnectedTo, ConnectedTo method [DirectShow], ConnectedTo method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectedTo method, IPin.ConnectedTo, IPin::ConnectedTo, IPinConnectedTo, dshow.ipin_connectedto, strmif/IPin::ConnectedTo
-f1_keywords:
-- strmif/IPin.ConnectedTo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.ConnectedTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::ConnectedTo
+ - strmif/IPin::ConnectedTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.ConnectedTo
 ---
 
 # IPin::ConnectedTo
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ConnectedTo</b> method retrieves a pointer to the connected pin, if any.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pPin [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
-          
-
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the other pin. The caller must release the interface. This parameter cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
           
@@ -113,39 +103,23 @@ Pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the method succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
-
-
-
+If the method succeeds, the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface that it returns has an outstanding reference count. Be sure to release it when you are done.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/find-an-unconnected-pin-on-a-filter">Find an Unconnected Pin on a Filter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/find-an-unconnected-pin-on-a-filter">Find an Unconnected Pin on a Filter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

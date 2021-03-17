@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPStringCollection.get_count
 title: IWMPStringCollection::get_count (wmp.h)
 description: The get_count method retrieves the number of items in the string collection.
+helpviewer_keywords: ["IWMPStringCollection interface [Windows Media Player]","get_count method","IWMPStringCollection.get_count","IWMPStringCollection::get_count","IWMPStringCollectionget_count","get_count","get_count method [Windows Media Player]","get_count method [Windows Media Player]","IWMPStringCollection interface","wmp.iwmpstringcollection_get_count","wmp/IWMPStringCollection::get_count"]
 old-location: wmp\iwmpstringcollection_get_count.htm
 tech.root: WMP
 ms.assetid: 97865752-e4bf-4f91-b481-22d9c8b3e090
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection interface [Windows Media Player],get_count method, IWMPStringCollection.get_count, IWMPStringCollection::get_count, IWMPStringCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_get_count, wmp/IWMPStringCollection::get_count
-f1_keywords:
-- wmp/IWMPStringCollection.get_count
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPStringCollection.get_count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPStringCollection::get_count
+ - wmp/IWMPStringCollection::get_count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPStringCollection.get_count
 ---
 
 # IWMPStringCollection::get_count
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_count</b> method retrieves the number of items in the string collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 Pointer to a <b>long</b> containing the count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,35 +79,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To retrieve the value of this method, read access to the library is required. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
-
-
-
+To retrieve the value of this method, read access to the library is required. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>

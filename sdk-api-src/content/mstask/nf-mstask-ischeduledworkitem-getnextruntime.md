@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.GetNextRunTime
 title: IScheduledWorkItem::GetNextRunTime (mstask.h)
 description: Retrieves the next time the work item will run.
+helpviewer_keywords: ["GetNextRunTime","GetNextRunTime method [Task Scheduler]","GetNextRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetNextRunTime method","IScheduledWorkItem.GetNextRunTime","IScheduledWorkItem::GetNextRunTime","_msb_ischeduledworkitem_getnextruntime","mstask/IScheduledWorkItem::GetNextRunTime","taskschd.ischeduledworkitem_getnextruntime"]
 old-location: taskschd\ischeduledworkitem_getnextruntime.htm
 tech.root: taskschd
 ms.assetid: a53700f7-0e2c-413f-b7b3-64aa2e970f11
 ms.date: 12/05/2018
 ms.keywords: GetNextRunTime, GetNextRunTime method [Task Scheduler], GetNextRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetNextRunTime method, IScheduledWorkItem.GetNextRunTime, IScheduledWorkItem::GetNextRunTime, _msb_ischeduledworkitem_getnextruntime, mstask/IScheduledWorkItem::GetNextRunTime, taskschd.ischeduledworkitem_getnextruntime
-f1_keywords:
-- mstask/IScheduledWorkItem.GetNextRunTime
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetNextRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetNextRunTime
+ - mstask/IScheduledWorkItem::GetNextRunTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetNextRunTime
 ---
 
 # IScheduledWorkItem::GetNextRunTime
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Retrieves the next time the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> will run.
-
+Retrieves the next time the <a href="/windows/desktop/TaskSchd/w">work item</a> will run.
 
 ## -parameters
-
-
-
 
 ### -param pstNextRun [out]
 
 A pointer to a <b>SYSTEMTIME</b> structure that contains the next time the work item will run.
 
-
 ## -returns
-
-
 
 The 
 <b>GetNextRunTime</b> method returns one of the following values.
@@ -121,18 +115,7 @@ The task will not run at the scheduled times because it has been disabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>

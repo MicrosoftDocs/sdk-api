@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITBasicCallControl.Finish
 title: ITBasicCallControl::Finish (tapi3if.h)
 description: The Finish method is called on a consultation call to finish a conference or a transfer.
+helpviewer_keywords: ["Finish","Finish method [TAPI 2.2]","Finish method [TAPI 2.2]","ITBasicCallControl interface","ITBasicCallControl interface [TAPI 2.2]","Finish method","ITBasicCallControl.Finish","ITBasicCallControl::Finish","_tapi3_itbasiccallcontrol_finish","tapi3.itbasiccallcontrol_finish","tapi3if/ITBasicCallControl::Finish"]
 old-location: tapi3\itbasiccallcontrol_finish.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 3b0bd871-b618-4c24-a717-62a248112d97
 ms.date: 12/05/2018
 ms.keywords: Finish, Finish method [TAPI 2.2], Finish method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Finish method, ITBasicCallControl.Finish, ITBasicCallControl::Finish, _tapi3_itbasiccallcontrol_finish, tapi3.itbasiccallcontrol_finish, tapi3if/ITBasicCallControl::Finish
-f1_keywords:
-- tapi3if/ITBasicCallControl.Finish
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Finish
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Finish
+ - tapi3if/ITBasicCallControl::Finish
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Finish
 ---
 
 # ITBasicCallControl::Finish
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Finish</b> method is called on a consultation call to finish a conference or a transfer.
 
-
 ## -parameters
-
-
-
 
 ### -param finishMode [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-finish_mode">FINISH_MODE</a> indicator of the type of call being finished, such as FM_ASCONFERENCE.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-finish_mode">FINISH_MODE</a> indicator of the type of call being finished, such as FM_ASCONFERENCE.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,63 +114,47 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some service providers do not support this operation while streaming is active. The application may need to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
-
-
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference">Conference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference">Conference</a>
+<a href="/windows/desktop/Tapi/conference-ovr">Conference overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/conference-ovr">Conference overview</a>
+<a href="/windows/desktop/Tapi/create-a-simple-conference">Create a Simple Conference code snippet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/create-a-simple-conference">Create a Simple Conference code snippet</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-finish_mode">FINISH_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-finish_mode">FINISH_MODE</a>
+<a href="/windows/desktop/Tapi/forward-ovr">Forward overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/forward-ovr">Forward overview</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">Transfer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/transfer-ovr">Transfer overview</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/transfer-ovr">Transfer overview</a>

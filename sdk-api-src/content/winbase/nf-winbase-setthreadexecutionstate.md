@@ -2,15 +2,12 @@
 UID: NF:winbase.SetThreadExecutionState
 title: SetThreadExecutionState function (winbase.h)
 description: Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
+helpviewer_keywords: ["ES_AWAYMODE_REQUIRED","ES_CONTINUOUS","ES_DISPLAY_REQUIRED","ES_SYSTEM_REQUIRED","ES_USER_PRESENT","SetThreadExecutionState","SetThreadExecutionState function","_win32_setthreadexecutionstate","base.setthreadexecutionstate","winbase/SetThreadExecutionState"]
 old-location: base\setthreadexecutionstate.htm
-tech.root: power
+tech.root: base
 ms.assetid: 9214ea84-7636-4a78-91fd-a5a5da8199a1
 ms.date: 12/05/2018
 ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, ES_USER_PRESENT, SetThreadExecutionState, SetThreadExecutionState function, _win32_setthreadexecutionstate, base.setthreadexecutionstate, winbase/SetThreadExecutionState
-f1_keywords:
-- winbase/SetThreadExecutionState
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- Kernel32Legacy.dll
-api_name:
-- SetThreadExecutionState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadExecutionState
+ - winbase/SetThreadExecutionState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - Kernel32Legacy.dll
+api_name:
+ - SetThreadExecutionState
 ---
 
 # SetThreadExecutionState function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 
-
 ## -parameters
-
-
-
 
 ### -param esFlags [in]
 
@@ -126,23 +123,14 @@ This value is not supported. If <b>ES_USER_PRESENT</b> is combined with other <i
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the previous thread execution state.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The system automatically detects activities such as local keyboard or mouse input, server activity, and changing window focus. Activities that are not automatically detected include disk or CPU activity and video display.
 
@@ -183,29 +171,18 @@ SetThreadExecutionState(ES_CONTINUOUS);
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setsuspendstate">SetSuspendState</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>

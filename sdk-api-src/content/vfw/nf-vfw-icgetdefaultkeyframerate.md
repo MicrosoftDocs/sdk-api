@@ -2,15 +2,12 @@
 UID: NF:vfw.ICGetDefaultKeyFrameRate
 title: ICGetDefaultKeyFrameRate macro (vfw.h)
 description: The ICGetDefaultKeyFrameRate macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the ICM_GETDEFAULTKEYFRAMERATE message.
+helpviewer_keywords: ["ICGetDefaultKeyFrameRate","ICGetDefaultKeyFrameRate macro [Windows Multimedia]","_win32_ICGetDefaultKeyFrameRate","multimedia.icgetdefaultkeyframerate","vfw/ICGetDefaultKeyFrameRate"]
 old-location: multimedia\icgetdefaultkeyframerate.htm
 tech.root: Multimedia
 ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
 ms.date: 12/05/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
-f1_keywords:
-- vfw/ICGetDefaultKeyFrameRate
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICGetDefaultKeyFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICGetDefaultKeyFrameRate
+ - vfw/ICGetDefaultKeyFrameRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICGetDefaultKeyFrameRate
 ---
 
 # ICGetDefaultKeyFrameRate macro
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getdefaultkeyframerate">ICM_GETDEFAULTKEYFRAMERATE</a> message.
-
-
-
+The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-getdefaultkeyframerate">ICM_GETDEFAULTKEYFRAMERATE</a> message.
 
 ## -parameters
-
-
-
 
 ### -param hic
 
@@ -67,29 +61,16 @@ Handle to a compressor.
 
 #### - wParam
 
-Address to contain the preferred key-frame spacing. 
-
+Address to contain the preferred key-frame spacing.
 
 ## -remarks
 
-
-
 The <b>ICGetDefaultKeyFrameRate</b> macro returns the default key frame rate.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

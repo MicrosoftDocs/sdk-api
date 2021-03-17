@@ -2,15 +2,12 @@
 UID: NF:audiopolicy.IAudioSessionNotification.OnSessionCreated
 title: IAudioSessionNotification::OnSessionCreated (audiopolicy.h)
 description: The OnSessionCreated method notifies the registered processes that the audio session has been created.
+helpviewer_keywords: ["IAudioSessionNotification interface [Core Audio]","OnSessionCreated method","IAudioSessionNotification.OnSessionCreated","IAudioSessionNotification::OnSessionCreated","OnSessionCreated","OnSessionCreated method [Core Audio]","OnSessionCreated method [Core Audio]","IAudioSessionNotification interface","audiopolicy/IAudioSessionNotification::OnSessionCreated","coreaudio.iaudiosessionnotification_onsessioncreated"]
 old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
 tech.root: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated method, IAudioSessionNotification.OnSessionCreated, IAudioSessionNotification::OnSessionCreated, OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio],IAudioSessionNotification interface, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
-f1_keywords:
-- audiopolicy/IAudioSessionNotification.OnSessionCreated
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audiopolicy.h
-api_name:
-- IAudioSessionNotification.OnSessionCreated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionNotification::OnSessionCreated
+ - audiopolicy/IAudioSessionNotification::OnSessionCreated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audiopolicy.h
+api_name:
+ - IAudioSessionNotification.OnSessionCreated
 ---
 
 # IAudioSessionNotification::OnSessionCreated
@@ -48,50 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OnSessionCreated</b> method notifies the registered processes that the audio session has been created.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param NewSession [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session that was created.
-
+Pointer to the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session that was created.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK.
-          
-
-
-
 
 ## -remarks
 
-
-
-After registering its <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface, the application receives event notifications in the form of callbacks through the methods of the interface.
+After registering its <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface, the application receives event notifications in the form of callbacks through the methods of the interface.
 
 The audio engine calls <b>OnSessionCreated</b> when a new session is activated on the device endpoint.
 This method is called from the session manager thread.  This method must take a reference to the session in the <i>NewSession</i> parameter if it wants to keep the reference after this call completes.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a>

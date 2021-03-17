@@ -2,15 +2,12 @@
 UID: NS:richedit._punctuation
 title: PUNCTUATION (richedit.h)
 description: Contains information about the punctuation used in a rich edit control.
+helpviewer_keywords: ["PUNCTUATION","PUNCTUATION structure [Windows Controls]","_win32_PUNCTUATION_str","_win32_PUNCTUATION_str_cpp","controls.PUNCTUATION","controls._win32_PUNCTUATION_str","richedit/PUNCTUATION"]
 old-location: controls\PUNCTUATION.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\punctuation.htm
 ms.date: 12/05/2018
 ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _win32_PUNCTUATION_str, _win32_PUNCTUATION_str_cpp, controls.PUNCTUATION, controls._win32_PUNCTUATION_str, richedit/PUNCTUATION
-f1_keywords:
-- richedit/PUNCTUATION
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- PUNCTUATION
 targetos: Windows
 req.typenames: PUNCTUATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _punctuation
+ - richedit/_punctuation
+ - PUNCTUATION
+ - richedit/PUNCTUATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - PUNCTUATION
 ---
 
 # PUNCTUATION structure
@@ -48,43 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the punctuation used in a rich edit control.
-
 
 ## -struct-fields
 
-
-
-
 ### -field iSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of buffer pointed to by the 
-					<b>szPunctuation</b> member, in bytes. 
-
+					<b>szPunctuation</b> member, in bytes.
 
 ### -field szPunctuation
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
-The buffer containing the punctuation characters. 
-
+The buffer containing the punctuation characters.
 
 ## -remarks
 
-
-
 This structure is used only in Asian-language versions of the operating system.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/1c04967b-d75e-4f54-b35b-cd50bac9cdfa">EM_GETPUNCTUATION</a>
 
@@ -95,7 +84,3 @@ This structure is used only in Asian-language versions of the operating system.
 
 
 <b>Reference</b>
- 
-
- 
-

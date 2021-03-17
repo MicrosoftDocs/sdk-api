@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.AllocateAndGetUdpExTableFromStack
 title: AllocateAndGetUdpExTableFromStack function (iphlpapi.h)
 description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.
+helpviewer_keywords: ["AF_INET","AF_INET6","AllocateAndGetUdpExTableFromStack","AllocateAndGetUdpExTableFromStack function [IP Helper]","iphlp.allocateandgetudpextablefromstack","iphlpapi/AllocateAndGetUdpExTableFromStack"]
 old-location: iphlp\allocateandgetudpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
-f1_keywords:
-- iphlpapi/AllocateAndGetUdpExTableFromStack
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- AllocateAndGetUdpExTableFromStack
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AllocateAndGetUdpExTableFromStack
+ - iphlpapi/AllocateAndGetUdpExTableFromStack
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - AllocateAndGetUdpExTableFromStack
 ---
 
 # AllocateAndGetUdpExTableFromStack function
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> function to retrieve the UDP connection table.]
+<p class="CCE_Message">[This function is no longer available for use as of Windows Vista. Instead, use the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a> function to retrieve the UDP connection table.]
 
 The <b>AllocateAndGetUdpExTableFromStack</b> function retrieves the UDP connection table and allocates memory from the local heap to store the table.
 
-
 ## -parameters
-
-
-
 
 ### -param ppUdpTable [out]
 
 Pointer to the address of the opaque data that contains the UDP connection table after the function returns.
 
-
 ### -param bOrder [in]
 
 If true, the UDP connection entries in the table returned in <i>ppUDPTable</i> are sorted; if false, they are not.
-
 
 ### -param hHeap [in]
 
 Handle to the heap from which the memory to store the table will be allocated.
 
-
 ### -param dwFlags [in]
 
 One or more flags that indicate specific heap allocation control behaviors.
-
 
 ### -param dwFamily [in]
 
@@ -109,44 +102,25 @@ Retrieve IPv6 UDP addresses.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 
 If the function fails, it returns a function from winerror.h.
 
-
-
-
 ## -remarks
-
-
 
 In the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the function prototype for <b>AllocateAndGetUdpExTableFromStack</b> is still defined in the Iphlpapi.h header file for continued support on Windows Server 2003 and Windows XP.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-allocateandgettcpextablefromstack">AllocateAndGetTcpExTableFromStack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-allocateandgettcpextablefromstack">AllocateAndGetTcpExTableFromStack</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudptable">GetUdpTable</a>

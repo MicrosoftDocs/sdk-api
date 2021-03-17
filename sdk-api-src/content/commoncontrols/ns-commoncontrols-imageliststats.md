@@ -2,15 +2,12 @@
 UID: NS:commoncontrols.tagIMAGELISTSTATS
 title: IMAGELISTSTATS (commoncontrols.h)
 description: Contains image list statistics. Used by GetStatistics.
+helpviewer_keywords: ["IMAGELISTSTATS","IMAGELISTSTATS structure [Windows Controls]","_shell_IMAGELISTSTATS","_shell_IMAGELISTSTATS_cpp","commoncontrols/IMAGELISTSTATS","controls.IMAGELISTSTATS","controls._shell_IMAGELISTSTATS"]
 old-location: controls\IMAGELISTSTATS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.date: 12/05/2018
 ms.keywords: IMAGELISTSTATS, IMAGELISTSTATS structure [Windows Controls], _shell_IMAGELISTSTATS, _shell_IMAGELISTSTATS_cpp, commoncontrols/IMAGELISTSTATS, controls.IMAGELISTSTATS, controls._shell_IMAGELISTSTATS
-f1_keywords:
-- commoncontrols/IMAGELISTSTATS
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commoncontrols.h
-api_name:
-- IMAGELISTSTATS
 targetos: Windows
 req.typenames: IMAGELISTSTATS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagIMAGELISTSTATS
+ - commoncontrols/tagIMAGELISTSTATS
+ - IMAGELISTSTATS
+ - commoncontrols/IMAGELISTSTATS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commoncontrols.h
+api_name:
+ - IMAGELISTSTATS
 ---
 
 # IMAGELISTSTATS structure
@@ -48,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains image list statistics. Used by <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>.
-
+Contains image list statistics. Used by <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist2-getstatistics">GetStatistics</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The image list size.
-
 
 ### -field cAlloc
 
@@ -70,17 +68,14 @@ Type: <b>int</b>
 
 The number of images allocated.
 
-
 ### -field cUsed
 
 Type: <b>int</b>
 
 The number of images in use.
 
-
 ### -field cStandby
 
 Type: <b>int</b>
 
 The number of standby images.
-

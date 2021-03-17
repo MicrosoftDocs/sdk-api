@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.ParseNetworkString
 title: ParseNetworkString function (iphlpapi.h)
 description: Parses the input network string and checks whether it is a legal representation of the specified IP network string type. If the string matches a type and its specification, the function can optionally return the parsed result.
+helpviewer_keywords: ["NET_STRING_ANY_ADDRESS","NET_STRING_ANY_ADDRESS_NO_SCOPE","NET_STRING_ANY_SERVICE","NET_STRING_ANY_SERVICE_NO_SCOPE","NET_STRING_IPV4_ADDRESS","NET_STRING_IPV4_NETWORK","NET_STRING_IPV4_SERVICE","NET_STRING_IPV6_ADDRESS","NET_STRING_IPV6_ADDRESS_NO_SCOPE","NET_STRING_IPV6_NETWORK","NET_STRING_IPV6_SERVICE","NET_STRING_IPV6_SERVICE_NO_SCOPE","NET_STRING_IP_ADDRESS","NET_STRING_IP_ADDRESS_NO_SCOPE","NET_STRING_IP_NETWORK","NET_STRING_IP_SERVICE","NET_STRING_IP_SERVICE_NO_SCOPE","NET_STRING_NAMED_ADDRESS","NET_STRING_NAMED_SERVICE","ParseNetworkString","ParseNetworkString function [IP Helper]","iphlp.parsenetworkstring","iphlpapi/ParseNetworkString"]
 old-location: iphlp\parsenetworkstring.htm
 tech.root: IpHlp
 ms.assetid: 43bc866f-7776-4f59-9ed6-4c6fc4da7f83
 ms.date: 12/05/2018
 ms.keywords: NET_STRING_ANY_ADDRESS, NET_STRING_ANY_ADDRESS_NO_SCOPE, NET_STRING_ANY_SERVICE, NET_STRING_ANY_SERVICE_NO_SCOPE, NET_STRING_IPV4_ADDRESS, NET_STRING_IPV4_NETWORK, NET_STRING_IPV4_SERVICE, NET_STRING_IPV6_ADDRESS, NET_STRING_IPV6_ADDRESS_NO_SCOPE, NET_STRING_IPV6_NETWORK, NET_STRING_IPV6_SERVICE, NET_STRING_IPV6_SERVICE_NO_SCOPE, NET_STRING_IP_ADDRESS, NET_STRING_IP_ADDRESS_NO_SCOPE, NET_STRING_IP_NETWORK, NET_STRING_IP_SERVICE, NET_STRING_IP_SERVICE_NO_SCOPE, NET_STRING_NAMED_ADDRESS, NET_STRING_NAMED_SERVICE, ParseNetworkString, ParseNetworkString function [IP Helper], iphlp.parsenetworkstring, iphlpapi/ParseNetworkString
-f1_keywords:
-- iphlpapi/ParseNetworkString
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- ParseNetworkString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ParseNetworkString
+ - iphlpapi/ParseNetworkString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - ParseNetworkString
 ---
 
 # ParseNetworkString function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ParseNetworkString</b> function  parses the input network string and checks whether it
     is a legal representation of the specified IP network string type. If the string matches a type and its specification,
     the function can optionally return the parsed result.
 
-
 ## -parameters
-
-
-
 
 ### -param NetworkString [in]
 
 A pointer to the NULL-terminated network string to parse.
-
 
 ### -param Types [in]
 
@@ -361,27 +357,20 @@ This type matches either the <b>NET_STRING_NAMED_SERVICE</b> or <b>NET_STRING_IP
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AddressInfo [out, optional]
 
 On success, the function returns a pointer to a <b>NET_ADDRESS_INFO</b> structure that contains the parsed IP address information if a <b>NULL</b> pointer was not passed in this parameter.
 
-
 ### -param PortNumber [out, optional]
 
-On success, the function returns a pointer to the parsed network port in host order if a <b>NULL</b> pointer was not passed in this parameter. If a network port was not present in the <i>NetworkString</i> parameter, then a pointer to a value of zero is returned. 
-
+On success, the function returns a pointer to the parsed network port in host order if a <b>NULL</b> pointer was not passed in this parameter. If a network port was not present in the <i>NetworkString</i> parameter, then a pointer to a value of zero is returned.
 
 ### -param PrefixLength [out, optional]
 
-On success, the function returns a pointer to the parsed prefix length if a <b>NULL</b> pointer was not passed in this parameter. If a prefix was not present in the <i>NetworkString</i> parameter, then a pointer to a value of -1 is returned. 
-
+On success, the function returns a pointer to the parsed prefix length if a <b>NULL</b> pointer was not passed in this parameter. If a prefix was not present in the <i>NetworkString</i> parameter, then a pointer to a value of -1 is returned.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -416,14 +405,8 @@ An invalid parameter was passed to the function. This error is returned if a <b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>ParseNetworkString</b> function parses the input network string passed in the <i>NetworkString</i> parameter and checks whether it
     is a legal representation of one of the string types as specified in 
@@ -436,25 +419,19 @@ The <b>ParseNetworkString</b> function can parse representations of IPv4 or IPv6
     services using DNS names.
 
 
-The [NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a> structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.  
-
-
-
+The [NET_ADDRESS_INFO](/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info) structure pointed to by the <i>AddressInfo</i> parameter. The SOCKADDR_IN and SOCKADDR structures are defined in the  <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. The SOCKADDR_IN6 structure is defined in the <i>Ws2ipdef.h</i> header file which is automatically included by the <i>Ws2tcpip.h</i> header file. In order to use the <b>ParseNetworkString</b> function  and the <b>NET_ADDRESS_INFO</b> structure, the <i>Winsock2.h</i> and <i>Ws2tcpip.h</i> header files must be included before the <i>Iphlpapi.h</i> header file.
 
 ## -see-also
 
+[NET_ADDRESS_FORMAT](/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)
 
 
 
-[NET_ADDRESS_FORMAT](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ne-iphlpapi-net_address_format)a>
+[NET_ADDRESS_INFO](/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)
 
 
 
-[NET_ADDRESS_INFO](https://docs.microsoft.com/windows/desktop/api/iphlpapi/ns-iphlpapi-net_address_info)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
 
 
 
@@ -463,7 +440,3 @@ SOCKADDR_IN
 
 
 SOCKADDR_IN6
- 
-
- 
-

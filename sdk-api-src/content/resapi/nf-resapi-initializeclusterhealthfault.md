@@ -2,15 +2,12 @@
 UID: NF:resapi.InitializeClusterHealthFault
 title: InitializeClusterHealthFault function (resapi.h)
 description: TBD.
+helpviewer_keywords: ["InitializeClusterHealthFault","InitializeClusterHealthFault function [Failover Cluster]","mscs.initializeclusterhealthfault","resapi/InitializeClusterHealthFault"]
 old-location: mscs\initializeclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6
 ms.date: 12/05/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
-f1_keywords:
-- resapi/InitializeClusterHealthFault
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- InitializeClusterHealthFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeClusterHealthFault
+ - resapi/InitializeClusterHealthFault
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+ - 
+api_name:
+ - InitializeClusterHealthFault
 ---
 
 # InitializeClusterHealthFault function
@@ -47,25 +49,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param clusterHealthFault [in, out]
 
 TBD
 
-
 ## -returns
 
-
-
 TBD
-
-
 

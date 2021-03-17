@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
 title: IWSDHttpMessageParameters::SetID (wsdbase.h)
 description: Sets the transport ID for the current transaction.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetID method","IWSDHttpMessageParameters.SetID","IWSDHttpMessageParameters::SetID","SetID","SetID method","SetID method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setid","ncd.iwsdhttpmessasgeparameters_setid","wsdbase/IWSDHttpMessageParameters::SetID"]
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.SetID
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.SetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::SetID
+ - wsdbase/IWSDHttpMessageParameters::SetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.SetID
 ---
 
 # IWSDHttpMessageParameters::SetID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the transport ID for the current transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param pszId [in]
 
 Pointer to the desired transport ID for the current transaction.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,18 +101,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

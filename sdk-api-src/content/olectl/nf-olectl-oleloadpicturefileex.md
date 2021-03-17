@@ -2,15 +2,12 @@
 UID: NF:olectl.OleLoadPictureFileEx
 title: OleLoadPictureFileEx function (olectl.h)
 description: Loads a picture from a file.
+helpviewer_keywords: ["LP_COLOR","LP_DEFAULT","LP_MONOCHROME","LP_VGACOLOR","OleLoadPictureFileEx","OleLoadPictureFileEx function [Automation]","_oa96_OleLoadPictureFileEx","automat.oleloadpicturefileex","olectl/OleLoadPictureFileEx"]
 old-location: automat\oleloadpicturefileex.htm
 tech.root: automat
 ms.assetid: 39a2c814-97f6-4157-8884-8b3f268d3f7f
 ms.date: 12/05/2018
 ms.keywords: LP_COLOR, LP_DEFAULT, LP_MONOCHROME, LP_VGACOLOR, OleLoadPictureFileEx, OleLoadPictureFileEx function [Automation], _oa96_OleLoadPictureFileEx, automat.oleloadpicturefileex, olectl/OleLoadPictureFileEx
-f1_keywords:
-- olectl/OleLoadPictureFileEx
-dev_langs:
-- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- OleLoadPictureFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleLoadPictureFileEx
+ - olectl/OleLoadPictureFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - OleLoadPictureFileEx
 ---
 
 # OleLoadPictureFileEx function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads a picture from a file.
 
-
 ## -parameters
-
-
-
 
 ### -param varFileName [in]
 
 The path and name of the picture file to load.
 
-
 ### -param xSizeDesired [in]
 
 The desired length for the picture to be displayed.
 
-
 ### -param ySizeDesired [in]
 
 The desired height for the picture to be displayed.
-
 
 ### -param dwFlags [in]
 
@@ -126,17 +120,12 @@ Selects the best color depth to use for the current display.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lplpdispPicture [out]
 
 The location that receives a pointer to the picture.
 
-
 ## -returns
-
-
 
 This method returns standard COM error codes in addition to the following values.
 
@@ -171,16 +160,8 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Recognized graphic formats include bitmap (.bmp), JPEG (.jpg), GIF (.gif), and PGN (.png) files.
-
-
 

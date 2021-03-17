@@ -2,15 +2,12 @@
 UID: NF:strmif.IFilterGraph.FindFilterByName
 title: IFilterGraph::FindFilterByName (strmif.h)
 description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
+helpviewer_keywords: ["FindFilterByName","FindFilterByName method [DirectShow]","FindFilterByName method [DirectShow]","IFilterGraph interface","IFilterGraph interface [DirectShow]","FindFilterByName method","IFilterGraph.FindFilterByName","IFilterGraph::FindFilterByName","IFilterGraphFindFilterByName","dshow.ifiltergraph_findfilterbyname","strmif/IFilterGraph::FindFilterByName"]
 old-location: dshow\ifiltergraph_findfilterbyname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
 ms.date: 12/05/2018
 ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
-f1_keywords:
-- strmif/IFilterGraph.FindFilterByName
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterGraph.FindFilterByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph::FindFilterByName
+ - strmif/IFilterGraph::FindFilterByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph.FindFilterByName
 ---
 
 # IFilterGraph::FindFilterByName
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>FindFilterByName</code> method finds a filter that was added to the filter graph with a specific name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pName [in]
 
 [in, string] Pointer to the name to search for.
 
-
 ### -param ppFilter [out]
 
-Receives a pointer to the filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface. The caller must release the interface.
-
+Receives a pointer to the filter's <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -116,33 +106,17 @@ No filter was found with the specified name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If no filter is found, the method returns a <b>NULL</b> pointer in the <i>ppFilter</i> parameter.
 
 The returned <b>IBaseFilter</b> interface has an outstanding reference count. The caller must release the interface.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>

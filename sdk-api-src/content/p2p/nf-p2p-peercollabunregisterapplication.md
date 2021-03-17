@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabUnregisterApplication
 title: PeerCollabUnregisterApplication function (p2p.h)
 description: Unregisters the specific applications of a peer from the local computer.
+helpviewer_keywords: ["PeerCollabUnregisterApplication","PeerCollabUnregisterApplication function [Peer Networking]","p2p.peercollabunregisterapplication","p2p/PeerCollabUnregisterApplication"]
 old-location: p2p\peercollabunregisterapplication.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUnregisterApplication, PeerCollabUnregisterApplication function [Peer Networking], p2p.peercollabunregisterapplication, p2p/PeerCollabUnregisterApplication
-f1_keywords:
-- p2p/PeerCollabUnregisterApplication
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabUnregisterApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabUnregisterApplication
+ - p2p/PeerCollabUnregisterApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabUnregisterApplication
 ---
 
 # PeerCollabUnregisterApplication function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabUnregisterApplication</b> function unregisters the specific applications of a peer from the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pApplicationId [in]
 
 Pointer to the GUID value that represents a particular peer's application.
 
-
 ### -param registrationType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a> value that describes whether the peer's application is deregistered for the current user or all users of the peer's machine.
-
+A <a href="/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a> value that describes whether the peer's application is deregistered for the current user or all users of the peer's machine.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -112,14 +105,8 @@ The application  requested to unregister was not registered for the given <i>reg
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An <i>application</i> is a set of software or software  features available on the peer's endpoint. Commonly, this refers to software packages that support peer networking activities, like games or other collaborative applications.
 
@@ -129,24 +116,14 @@ A peer's application has a GUID representing a single specific application. When
 
 To unregister the application for all users, the caller of this API must be elevated.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterapplication">PeerCollabRegisterApplication</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabregisterapplication">PeerCollabRegisterApplication</a>

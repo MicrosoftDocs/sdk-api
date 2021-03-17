@@ -2,15 +2,12 @@
 UID: NC:wct.PWAITCHAINCALLBACK
 title: PWAITCHAINCALLBACK (wct.h)
 description: An application-defined callback function that receives a wait chain. Specify this address when calling the OpenThreadWaitChainSession function.
+helpviewer_keywords: ["ERROR_ACCESS_DENIED","ERROR_CANCELLED","ERROR_MORE_DATA","ERROR_OBJECT_NOT_FOUND","ERROR_SUCCESS","ERROR_TOO_MANY_THREADS","PWAITCHAINCALLBACK","PWAITCHAINCALLBACK callback","PWAITCHAINCALLBACK callback function","base.waitchaincallback","wct/PWAITCHAINCALLBACK"]
 old-location: base\waitchaincallback.htm
 tech.root: Debug
 ms.assetid: 07d987b4-3ee4-4957-a6e8-542c427b94dd
 ms.date: 12/05/2018
 ms.keywords: ERROR_ACCESS_DENIED, ERROR_CANCELLED, ERROR_MORE_DATA, ERROR_OBJECT_NOT_FOUND, ERROR_SUCCESS, ERROR_TOO_MANY_THREADS, PWAITCHAINCALLBACK, PWAITCHAINCALLBACK callback, PWAITCHAINCALLBACK callback function, base.waitchaincallback, wct/PWAITCHAINCALLBACK
-f1_keywords:
-- wct/PWAITCHAINCALLBACK
-dev_langs:
-- c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wct.h
-api_name:
-- PWAITCHAINCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWAITCHAINCALLBACK
+ - wct/PWAITCHAINCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wct.h
+api_name:
+ - PWAITCHAINCALLBACK
 ---
 
 # PWAITCHAINCALLBACK callback function
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function that receives a wait chain. Specify this address when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
+<a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 The <b>PWAITCHAINCALLBACK</b> type defines a pointer to this callback function. 
 <i>WaitChainCallback</i> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param WctHandle
 
-A handle to the WCT session created by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
-
+A handle to the WCT session created by the <a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 ### -param Context
 
-A optional pointer to an application-defined context structure specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a> function.
-
+A optional pointer to an application-defined context structure specified by the <a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a> function.
 
 ### -param CallbackStatus
 
-The callback status. This parameter can be one of the following values, or one of the other <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+The callback status. This parameter can be one of the following values, or one of the other <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -96,7 +91,7 @@ The caller did not have sufficient privilege to open a target thread.
 </dl>
 </td>
 <td width="60%">
-The asynchronous session was canceled by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
+The asynchronous session was canceled by a call to the <a href="/windows/desktop/api/wct/nf-wct-closethreadwaitchainsession">CloseThreadWaitChainSession</a> function.
 
 </td>
 </tr>
@@ -141,48 +136,27 @@ The number of nodes exceeds WCT_MAX_NODE_COUNT. The wait chain returned is still
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NodeCount
 
 The number of nodes retrieved, up to WCT_MAX_NODE_COUNT. If the array cannot contain all the nodes of the wait chain, the function fails, <i>CallbackStatus</i> is ERROR_MORE_DATA, and this parameter receives the number of array elements required to contain all the nodes.
 
-
 ### -param NodeInfoArray
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
-
+An array of <a href="/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
 
 ### -param IsCycle
 
 If the function detects a deadlock, this variable is set to <b>TRUE</b>; otherwise, it is set to <b>FALSE</b>.
 
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
+<a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wct/ns-wct-waitchain_node_info">WAITCHAIN_NODE_INFO</a>

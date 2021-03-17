@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspAlgorithm.get_MaxLength
 title: ICspAlgorithm::get_MaxLength (certenroll.h)
 description: Retrieves the maximum permitted length for a key.
+helpviewer_keywords: ["ICspAlgorithm interface [Security]","MaxLength property","ICspAlgorithm.MaxLength","ICspAlgorithm.get_MaxLength","ICspAlgorithm::MaxLength","ICspAlgorithm::get_MaxLength","MaxLength property [Security]","MaxLength property [Security]","ICspAlgorithm interface","certenroll/ICspAlgorithm::MaxLength","certenroll/ICspAlgorithm::get_MaxLength","get_MaxLength","security.icspalgorithm_maxlength_property"]
 old-location: security\icspalgorithm_maxlength_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 516afaa4-0317-4f05-87e7-bd614b428ccb
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],MaxLength property, ICspAlgorithm.MaxLength, ICspAlgorithm.get_MaxLength, ICspAlgorithm::MaxLength, ICspAlgorithm::get_MaxLength, MaxLength property [Security], MaxLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MaxLength, certenroll/ICspAlgorithm::get_MaxLength, get_MaxLength, security.icspalgorithm_maxlength_property
-f1_keywords:
-- certenroll/ICspAlgorithm.MaxLength
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.MaxLength
-- ICspAlgorithm.get_MaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::get_MaxLength
+ - certenroll/ICspAlgorithm::get_MaxLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.MaxLength
+ - ICspAlgorithm.get_MaxLength
 ---
 
 # ICspAlgorithm::get_MaxLength
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MaxLength</b> property retrieves the maximum permitted length for a key. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>, <b>MaxLength</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
+The <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>, <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>, <b>MaxLength</b>, and <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -179,24 +176,11 @@ Increment: 64
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a>

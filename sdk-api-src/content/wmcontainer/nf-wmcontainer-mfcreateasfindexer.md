@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.MFCreateASFIndexer
 title: MFCreateASFIndexer function (wmcontainer.h)
 description: Creates the ASF Indexer object.
+helpviewer_keywords: ["MFCreateASFIndexer","MFCreateASFIndexer function [Media Foundation]","df141f8e-10b4-4ac4-8a83-c25764b8f0c6","mf.mfcreateasfindexer","wmcontainer/MFCreateASFIndexer"]
 old-location: mf\mfcreateasfindexer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: df141f8e-10b4-4ac4-8a83-c25764b8f0c6
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFIndexer, MFCreateASFIndexer function [Media Foundation], df141f8e-10b4-4ac4-8a83-c25764b8f0c6, mf.mfcreateasfindexer, wmcontainer/MFCreateASFIndexer
-f1_keywords:
-- wmcontainer/MFCreateASFIndexer
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateASFIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateASFIndexer
+ - wmcontainer/MFCreateASFIndexer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateASFIndexer
 ---
 
 # MFCreateASFIndexer function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates the ASF Indexer object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppIIndexer
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

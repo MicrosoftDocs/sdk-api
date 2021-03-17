@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptEnumContextFunctions
 title: BCryptEnumContextFunctions function (bcrypt.h)
 description: Obtains the cryptographic functions for a context in the specified configuration table.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptEnumContextFunctions","BCryptEnumContextFunctions function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptEnumContextFunctions","security.bcryptenumcontextfunctions"]
 old-location: security\bcryptenumcontextfunctions.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 81bdfd47-7001-4e63-a8b3-33dae99f2c66
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctions, BCryptEnumContextFunctions function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctions, security.bcryptenumcontextfunctions
-f1_keywords:
-- bcrypt/BCryptEnumContextFunctions
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptEnumContextFunctions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptEnumContextFunctions
+ - bcrypt/BCryptEnumContextFunctions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptEnumContextFunctions
 ---
 
 # BCryptEnumContextFunctions function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptEnumContextFunctions</b> function obtains the cryptographic functions for a context in the specified configuration table.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -87,13 +84,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to enumerate the functions for.
-
 
 ### -param dwInterface [in]
 
@@ -185,8 +179,6 @@ Retrieve the Schannel functions.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbBuffer [in, out]
 
@@ -194,19 +186,15 @@ The address of a <b>ULONG</b> variable that, on entry, contains the size, in byt
 
 After this function returns, this value contains the number of bytes that were copied to the <i>ppBuffer</i> buffer.
 
-
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_functions">CRYPT_CONTEXT_FUNCTIONS</a> structure that receives the set of context functions retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_functions">CRYPT_CONTEXT_FUNCTIONS</a> structure that receives the set of context functions retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbBuffer</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -276,14 +264,8 @@ No context functions that match the specified criteria were found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>BCryptEnumContextFunctions</b> can be called only in user mode.
 
@@ -356,17 +338,6 @@ NTSTATUS EnumContextFunctions()
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_functions">CRYPT_CONTEXT_FUNCTIONS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_functions">CRYPT_CONTEXT_FUNCTIONS</a>

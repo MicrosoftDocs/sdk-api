@@ -2,15 +2,12 @@
 UID: NF:tom.ITextSelection.GetFlags
 title: ITextSelection::GetFlags (tom.h)
 description: Gets the text selection flags.
+helpviewer_keywords: ["GetFlags","GetFlags method [Windows Controls]","GetFlags method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","GetFlags method","ITextSelection.GetFlags","ITextSelection::GetFlags","_win32_ITextSelection_GetFlags","_win32_ITextSelection_GetFlags_cpp","controls.ITextSelection_GetFlags","controls._win32_ITextSelection_GetFlags","tom/ITextSelection::GetFlags"]
 old-location: controls\ITextSelection_GetFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Controls], GetFlags method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetFlags method, ITextSelection.GetFlags, ITextSelection::GetFlags, _win32_ITextSelection_GetFlags, _win32_ITextSelection_GetFlags_cpp, controls.ITextSelection_GetFlags, controls._win32_ITextSelection_GetFlags, tom/ITextSelection::GetFlags
-f1_keywords:
-- tom/ITextSelection.GetFlags
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::GetFlags
+ - tom/ITextSelection::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.GetFlags
 ---
 
 # ITextSelection::GetFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the text selection flags.
 
-
 ## -parameters
-
-
-
 
 ### -param pFlags
 
@@ -101,33 +98,24 @@ Any combination of the following selection flags.
 
 Each of the table values is binary. Thus, if any value is not set, the text selection has the opposite property.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an 
 						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If <i>pFlags</i> is null, the method fails and it returns E_INVALIDARG.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
@@ -135,12 +123,8 @@ The method returns an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

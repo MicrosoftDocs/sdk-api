@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.SetSessionKey
 title: CSecureChannelClient::SetSessionKey (scclient.h)
 description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","SetSessionKey method","CSecureChannelClient.SetSessionKey","CSecureChannelClient::SetSessionKey","CSecureChannelClientSetSessionKey","SetSessionKey","SetSessionKey method [windows Media Device Manager]","SetSessionKey method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::SetSessionKey","wmdm.csecurechannelclient_setsessionkey"]
 old-location: wmdm\csecurechannelclient_setsessionkey.htm
 tech.root: WMDM
 ms.assetid: a57ffca0-3098-415c-bea5-a3ea9efbd591
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetSessionKey method, CSecureChannelClient.SetSessionKey, CSecureChannelClient::SetSessionKey, CSecureChannelClientSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetSessionKey, wmdm.csecurechannelclient_setsessionkey
-f1_keywords:
-- scclient/CSecureChannelClient.SetSessionKey
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.SetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::SetSessionKey
+ - scclient/CSecureChannelClient::SetSessionKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.SetSessionKey
 ---
 
 # CSecureChannelClient::SetSessionKey
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetSessionKey</b> method sets the key for this session that is used to communicate with another component. This method is not used by applications.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbSPSessionKey [in]
 
 Pointer to the first byte of the session key that is to be set.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -99,26 +90,15 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/previous-versions/bb231590(v=vs.85)">CSecureChannelClient::GetSessionKey</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231590(v=vs.85)">CSecureChannelClient::GetSessionKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSink.put_SinkName
 title: IMSVidStreamBufferSink::put_SinkName (segment.h)
 description: The put_SinkName method sets the name of the stub file that points to the backing files.
+helpviewer_keywords: ["IMSVidStreamBufferSink interface [Microsoft TV Technologies]","put_SinkName method","IMSVidStreamBufferSink.put_SinkName","IMSVidStreamBufferSink::put_SinkName","IMSVidStreamBufferSinkput_SinkName","mstv.imsvidstreambuffersink_put_sinkname","put_SinkName","put_SinkName method [Microsoft TV Technologies]","put_SinkName method [Microsoft TV Technologies]","IMSVidStreamBufferSink interface","segment/IMSVidStreamBufferSink::put_SinkName"]
 old-location: mstv\imsvidstreambuffersink_put_sinkname.htm
 tech.root: mstv
 ms.assetid: 5269ab81-0963-4a86-9592-d670cca6016f
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],put_SinkName method, IMSVidStreamBufferSink.put_SinkName, IMSVidStreamBufferSink::put_SinkName, IMSVidStreamBufferSinkput_SinkName, mstv.imsvidstreambuffersink_put_sinkname, put_SinkName, put_SinkName method [Microsoft TV Technologies], put_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, segment/IMSVidStreamBufferSink::put_SinkName
-f1_keywords:
-- segment/IMSVidStreamBufferSink.put_SinkName
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink.put_SinkName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink::put_SinkName
+ - segment/IMSVidStreamBufferSink::put_SinkName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink.put_SinkName
 ---
 
 # IMSVidStreamBufferSink::put_SinkName
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_SinkName</b> method sets the name of the stub file that points to the backing files.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 Specifies the file name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -107,31 +101,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-namesetlock">NameSetLock</a>, while the graph is stopped. Otherwise, the method fails and returns E_FAIL.
-
-
-
+Call this method before calling <a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-namesetlock">NameSetLock</a>, while the graph is stopped. Otherwise, the method fails and returns E_FAIL.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>

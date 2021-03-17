@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedModePages
 title: IDiscRecorder2Ex::GetSupportedModePages (imapi2.h)
 description: Retrieves the supported mode pages for the device.
+helpviewer_keywords: ["GetSupportedModePages","GetSupportedModePages method [IMAPI]","GetSupportedModePages method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetSupportedModePages method","IDiscRecorder2Ex.GetSupportedModePages","IDiscRecorder2Ex::GetSupportedModePages","imapi.idiscrecorder2ex_getsupportedmodepages","imapi2/IDiscRecorder2Ex::GetSupportedModePages"]
 old-location: imapi\idiscrecorder2ex_getsupportedmodepages.htm
 tech.root: imapi
 ms.assetid: 343d976e-97f3-4231-a417-4ebe7967f99c
 ms.date: 12/05/2018
 ms.keywords: GetSupportedModePages, GetSupportedModePages method [IMAPI], GetSupportedModePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedModePages method, IDiscRecorder2Ex.GetSupportedModePages, IDiscRecorder2Ex::GetSupportedModePages, imapi.idiscrecorder2ex_getsupportedmodepages, imapi2/IDiscRecorder2Ex::GetSupportedModePages
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetSupportedModePages
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetSupportedModePages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetSupportedModePages
+ - imapi2/IDiscRecorder2Ex::GetSupportedModePages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetSupportedModePages
 ---
 
 # IDiscRecorder2Ex::GetSupportedModePages
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the supported mode pages for the device. 
-
+Retrieves the supported mode pages for the device.
 
 ## -parameters
 
-
-
-
 ### -param requestType [in]
 
-Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
-
+Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
 
 ### -param modePageTypes [out]
 
-Data buffer that contains one or more mode page types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
+Data buffer that contains one or more mode page types. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
 
-To get the mode page data associated with the mode page type, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a> method.
+To get the mode page data associated with the mode page type, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a> method.
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param validPages [out]
 
-Number of mode pages in the data buffer. 
-
+Number of mode pages in the data buffer.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -374,34 +366,23 @@ Value: 0xC0AA0201
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages">IDiscRecorder2::get_SupportedModePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages">IDiscRecorder2::get_SupportedModePages</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">IDiscRecorder2Ex::SetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">IDiscRecorder2Ex::SetModePage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a>

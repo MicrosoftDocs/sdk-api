@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IMofCompiler.CreateBMOF
 title: IMofCompiler::CreateBMOF (wbemcli.h)
 description: The IMofCompiler::CreateBMOF method creates a binary MOF file.
+helpviewer_keywords: ["CreateBMOF","CreateBMOF method [Windows Management Instrumentation]","CreateBMOF method [Windows Management Instrumentation]","IMofCompiler interface","IMofCompiler interface [Windows Management Instrumentation]","CreateBMOF method","IMofCompiler.CreateBMOF","IMofCompiler::CreateBMOF","WBEM_FLAG_CHECK_ONLY","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_UPDATE_FORCE_MODE","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_UPDATE_SAFE_MODE","WBEM_FLAG_WMI_CHECK","WBEM_FLAT_CONSOLE_PRINT","_hmm_imofcompiler_createbmof","wbemcli/IMofCompiler::CreateBMOF","wmi.imofcompiler_createbmof"]
 old-location: wmi\imofcompiler_createbmof.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 39c5d621-0cdf-44e2-9ec0-c68299e85cb7
 ms.date: 12/05/2018
 ms.keywords: CreateBMOF, CreateBMOF method [Windows Management Instrumentation], CreateBMOF method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CreateBMOF method, IMofCompiler.CreateBMOF, IMofCompiler::CreateBMOF, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_WMI_CHECK, WBEM_FLAT_CONSOLE_PRINT, _hmm_imofcompiler_createbmof, wbemcli/IMofCompiler::CreateBMOF, wmi.imofcompiler_createbmof
-f1_keywords:
-- wbemcli/IMofCompiler.CreateBMOF
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Mofd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mofd.dll
-api_name:
-- IMofCompiler.CreateBMOF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMofCompiler::CreateBMOF
+ - wbemcli/IMofCompiler::CreateBMOF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mofd.dll
+api_name:
+ - IMofCompiler.CreateBMOF
 ---
 
 # IMofCompiler::CreateBMOF
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMofCompiler::CreateBMOF</b> method creates a binary MOF file. File creation is accomplished by parsing a regular MOF file and storing a binary representation of the classes and instances into a special file format. Typically, this data binary large object (BLOB) is stored as a resource in an executable file, which can later be extracted for a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
 
 ## -parameters
-
-
-
 
 ### -param TextFileName [in]
 
 The name of the text file to be parsed.
-
 
 ### -param BMOFFileName [in]
 
@@ -73,7 +69,7 @@ The name of the text file to be parsed.
 <li>
 a&lt;locale&gt;
 
-Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a> utility.
+Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a> utility.
 
 </li>
 <li>
@@ -91,16 +87,12 @@ The name of the file in which the resulting localized MOF data is to be stored.
 </ul>
 For example,  <i>BMOFFileName</i>=",aMS_409,nmyFile.mof,lmyFile.mfl".
 
-
-
-
 ### -param ServerAndNamespace [in]
 
 The path of the default namespace, where classes or instances are written.
 
 You can use this parameter to specify a namespace on a remote computer ("\\computer\root", for example). This value may be overridden by the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/-pragma">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
-
+<a href="/windows/desktop/WmiSdk/-pragma">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
 
 ### -param lOptionFlags [in]
 
@@ -123,7 +115,6 @@ Sends various useful messages to the console.
 #### WBEM_FLAG_WMI_CHECK
 
 Performs additional checks on the resulting binary MOF file using the WMIMOFCHK program, which is part of the WMI section of the Windows SDK.
-
 
 ### -param lClassFlags [in]
 
@@ -161,7 +152,6 @@ Updates and resolves conflicts when possible. Using force mode to update a stati
 
 You can combine this flag with <i>lInstanceFlags</i>.
 
-
 ### -param lInstanceFlags [in]
 
 Flags controlling the creation of instances.
@@ -180,42 +170,28 @@ Permits only updates.
 
 Permits only new instances.
 
-
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
-
 ## -returns
-
-
 
 This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuccessful, it returns <b>WBEM_S_FALSE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

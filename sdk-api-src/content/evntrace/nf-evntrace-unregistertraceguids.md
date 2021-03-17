@@ -2,15 +2,12 @@
 UID: NF:evntrace.UnregisterTraceGuids
 title: UnregisterTraceGuids function (evntrace.h)
 description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
+helpviewer_keywords: ["UnregisterTraceGuids","UnregisterTraceGuids function [ETW]","_evt_unregistertraceguids","base.unregistertraceguids","etw.unregistertraceguids","evntrace/UnregisterTraceGuids"]
 old-location: etw\unregistertraceguids.htm
 tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 ms.date: 12/05/2018
 ms.keywords: UnregisterTraceGuids, UnregisterTraceGuids function [ETW], _evt_unregistertraceguids, base.unregistertraceguids, etw.unregistertraceguids, evntrace/UnregisterTraceGuids
-f1_keywords:
-- evntrace/UnregisterTraceGuids
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-eventing-classicprovider-l1-1-0.dll
-api_name:
-- UnregisterTraceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnregisterTraceGuids
+ - evntrace/UnregisterTraceGuids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+api_name:
+ - UnregisterTraceGuids
 ---
 
 # UnregisterTraceGuids function
@@ -52,32 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>UnregisterTraceGuids</b> function unregisters an event trace provider and its event trace classes. 
-		
-
+<b>UnregisterTraceGuids</b> function unregisters an event trace provider and its event trace classes.
 
 ## -parameters
-
-
-
 
 ### -param RegistrationHandle [in]
 
 Handle to the event trace provider, obtained from an earlier call to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
-
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -101,30 +94,14 @@ The <i>RegistrationHandle</i> parameter does not specify the handle to a registe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Providers call this function.
 
 The event trace provider must have been registered previously by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
-
-
-
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>

@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerRemovePowerSetting
 title: PowerRemovePowerSetting function (powrprof.h)
 description: Deletes the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerRemovePowerSetting","PowerRemovePowerSetting function","base.powerremovepowersetting","powrprof/PowerRemovePowerSetting"]
 old-location: base\powerremovepowersetting.htm
-tech.root: power
+tech.root: base
 ms.assetid: f78e3dfa-549c-4536-a486-cafc43717ee9
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerRemovePowerSetting, PowerRemovePowerSetting function, base.powerremovepowersetting, powrprof/PowerRemovePowerSetting
-f1_keywords:
-- powrprof/PowerRemovePowerSetting
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerRemovePowerSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerRemovePowerSetting
+ - powrprof/PowerRemovePowerSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerRemovePowerSetting
 ---
 
 # PowerRemovePowerSetting function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param PowerSettingSubKeyGuid [in]
 
@@ -156,31 +153,16 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in]
 
 The identifier of the power setting to be deleted.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
 	     the call failed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

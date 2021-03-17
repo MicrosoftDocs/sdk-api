@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.GetTransportBasicParameters
 title: IAMExtTransport::GetTransportBasicParameters (strmif.h)
 description: The GetTransportBasicParameters method retrieves general properties of the external transport.
+helpviewer_keywords: ["GetTransportBasicParameters","GetTransportBasicParameters method [DirectShow]","GetTransportBasicParameters method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetTransportBasicParameters method","IAMExtTransport.GetTransportBasicParameters","IAMExtTransport::GetTransportBasicParameters","IAMExtTransportGetTransportBasicParameters","dshow.iamexttransport_gettransportbasicparameters","strmif/IAMExtTransport::GetTransportBasicParameters"]
 old-location: dshow\iamexttransport_gettransportbasicparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
 ms.date: 12/05/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
-f1_keywords:
-- strmif/IAMExtTransport.GetTransportBasicParameters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetTransportBasicParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetTransportBasicParameters
+ - strmif/IAMExtTransport::GetTransportBasicParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetTransportBasicParameters
 ---
 
 # IAMExtTransport::GetTransportBasicParameters
@@ -49,53 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTransportBasicParameters</code> method retrieves general properties of the external transport.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
 Specifies which property to receive.
 
-
 ### -param pValue [in, out]
 
 Pointer to a variable that receives a <b>long</b> integer value. See Remarks for more information.
-
 
 ### -param ppszData [in, out]
 
 Pointer to a variable of type <b>LPOLESTR</b> that receives a string. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
+The <i>Param</i> parameter is a flag that specifies which property to retrieve. Some properties are numeric; these are returned in the <i>pValue</i> parameter. Other properties are string values; these are returned in the <i>ppszData</i> parameter. For a list of flags and expected values, see <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>.
 
-
-The <i>Param</i> parameter is a flag that specifies which property to retrieve. Some properties are numeric; these are returned in the <i>pValue</i> parameter. Other properties are string values; these are returned in the <i>ppszData</i> parameter. For a list of flags and expected values, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>.
-
-If the method returns a string, the caller must free the string, using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+If the method returns a string, the caller must free the string, using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following additional flags:
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following additional flags:
 
 <ul>
 <li>
@@ -103,7 +87,7 @@ ED_RAW_EXT_DEV_CMD: Invokes a raw AV/C command. Specify the AV/C command as an a
 
 The response payload might be larger than the command. It is the caller's responsibility to allocate enough space in the buffer for the response. The maximum payload size is 512 bytes.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/issuing-raw-av-c-commands">Issuing Raw AV/C Commands</a>.
+For more information, see <a href="/windows/desktop/DirectShow/issuing-raw-av-c-commands">Issuing Raw AV/C Commands</a>.
 
 </li>
 <li>
@@ -142,7 +126,7 @@ ED_TRANSBASIC_INPUT_SIGNAL: Retrieves the signal format that the DV camcorder is
 </li>
 </ul>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports additional values for ED_TRANSBASIC_INPUT_SIGNAL and ED_TRANSBASIC_OUTPUT_SIGNAL.
+<a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports additional values for ED_TRANSBASIC_INPUT_SIGNAL and ED_TRANSBASIC_OUTPUT_SIGNAL.
 
 <table>
 <tr>
@@ -218,20 +202,10 @@ In Windows XP Service Pack 2 and later, the following additional signal types ar
 
 To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>

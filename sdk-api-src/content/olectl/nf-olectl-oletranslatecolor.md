@@ -2,15 +2,12 @@
 UID: NF:olectl.OleTranslateColor
 title: OleTranslateColor function (olectl.h)
 description: Converts an OLE_COLOR type to a COLORREF.
+helpviewer_keywords: ["OleTranslateColor","OleTranslateColor function [COM]","_ctrl_OleTranslateColor","com.oletranslatecolor","olectl/OleTranslateColor"]
 old-location: com\oletranslatecolor.htm
 tech.root: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3
 ms.date: 12/05/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
-f1_keywords:
-- olectl/OleTranslateColor
-dev_langs:
-- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- OleTranslateColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleTranslateColor
+ - olectl/OleTranslateColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - OleTranslateColor
 ---
 
 # OleTranslateColor function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an <b>OLE_COLOR</b> type to a <b>COLORREF</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param clr [in]
 
 The OLE color to be converted into a <b>COLORREF</b>.
 
-
 ### -param hpal [in]
 
 Palette used as a basis for the conversion.
-
 
 ### -param lpcolorref [out]
 
 Pointer to the caller's variable that receives the converted <b>COLORREF</b> result. This parameter can be <b>NULL</b>, indicating that the caller wants only to verify that a converted color exists.
 
-
 ## -returns
-
-
 
 This function supports the standard return values E_INVALIDARG and E_UNEXPECTED, as well as the following value.
 
@@ -95,14 +87,8 @@ The color was translated successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table describes the color conversion.
 
@@ -120,7 +106,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is not a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is not a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td></td>
 <td>Undefined (E_INVALIDARG)
@@ -143,7 +129,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td><b>NULL</b></td>
 <td>0x00bbggrr
@@ -171,7 +157,7 @@ The following table describes the color conversion.
 </td>
 </tr>
 <tr>
-<td>0x800000xx, xx is a valid <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
+<td>0x800000xx, xx is a valid <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> index
 </td>
 <td>valid palette
 </td>
@@ -203,7 +189,3 @@ The following table describes the color conversion.
 </td>
 </tr>
 </table>
- 
-
-
-

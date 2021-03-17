@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Item
 title: IWindowsDriverUpdateEntryCollection::get_Item (wuapi.h)
 description: Gets an IWindowsDriverUpdateEntry interface in the collection.
+helpviewer_keywords: ["IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Item property","IWindowsDriverUpdateEntryCollection.Item","IWindowsDriverUpdateEntryCollection.get_Item","IWindowsDriverUpdateEntryCollection::Item","IWindowsDriverUpdateEntryCollection::get_Item","Item property [Windows Update Agent]","Item property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","get_Item","wua.iwindowsdriverupdateentrycollection_item","wuapi/IWindowsDriverUpdateEntryCollection::Item","wuapi/IWindowsDriverUpdateEntryCollection::get_Item"]
 old-location: wua\iwindowsdriverupdateentrycollection_item.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 4d91a59d-895b-41a5-b631-e954fa60b80c
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Item property, IWindowsDriverUpdateEntryCollection.Item, IWindowsDriverUpdateEntryCollection.get_Item, IWindowsDriverUpdateEntryCollection::Item, IWindowsDriverUpdateEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get_Item, wua.iwindowsdriverupdateentrycollection_item, wuapi/IWindowsDriverUpdateEntryCollection::Item, wuapi/IWindowsDriverUpdateEntryCollection::get_Item
-f1_keywords:
-- wuapi/IWindowsDriverUpdateEntryCollection.Item
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdateEntryCollection.Item
-- IWindowsDriverUpdateEntryCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdateEntryCollection::get_Item
+ - wuapi/IWindowsDriverUpdateEntryCollection::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdateEntryCollection.Item
+ - IWindowsDriverUpdateEntryCollection.get_Item
 ---
 
 # IWindowsDriverUpdateEntryCollection::get_Item
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentry">IWindowsDriverUpdateEntry</a> interface in the collection.
+Gets an <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentry">IWindowsDriverUpdateEntry</a> interface in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>

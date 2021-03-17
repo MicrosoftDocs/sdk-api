@@ -2,15 +2,12 @@
 UID: NC:stm.PGET_FIRST_ORDERED_SERVICE
 title: PGET_FIRST_ORDERED_SERVICE (stm.h)
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
+helpviewer_keywords: ["GetFirstOrderedService","GetFirstOrderedService callback function [RAS]","PGET_FIRST_ORDERED_SERVICE","PGET_FIRST_ORDERED_SERVICE callback","STM_ORDER_BY_INTERFACE_TYPE_NAME","STM_ORDER_BY_TYPE_AND_NAME","_mpr_getfirstorderedservice","rras.getfirstorderedservice","stm/GetFirstOrderedService"]
 old-location: rras\getfirstorderedservice.htm
 tech.root: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
 ms.date: 12/05/2018
 ms.keywords: GetFirstOrderedService, GetFirstOrderedService callback function [RAS], PGET_FIRST_ORDERED_SERVICE, PGET_FIRST_ORDERED_SERVICE callback, STM_ORDER_BY_INTERFACE_TYPE_NAME, STM_ORDER_BY_TYPE_AND_NAME, _mpr_getfirstorderedservice, rras.getfirstorderedservice, stm/GetFirstOrderedService
-f1_keywords:
-- stm/GetFirstOrderedService
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- GetFirstOrderedService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PGET_FIRST_ORDERED_SERVICE
+ - stm/PGET_FIRST_ORDERED_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - GetFirstOrderedService
 ---
 
 # PGET_FIRST_ORDERED_SERVICE callback function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetFirstOrderedService</b> function returns the first service in the specified order from the designated subset of services in the table.
 
-
 ## -parameters
-
-
-
 
 ### -param OrderingMethod [in]
 
@@ -91,19 +88,16 @@ Search the services first by interface index, then by type, and finally by name.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ExclusionFlags [in]
 
 Specifies the limits the set of examined services to a subset defined by <i>ExclusionFlags</i> and the values in the members of the structure pointed to by the <i>Service</i> parameter. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
-
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
 
 ### -param Service [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
 
 
 
@@ -112,10 +106,7 @@ On input, the values in the members correspond to flags specified in <i>Exclusio
 
 On output, the first service that matches specified criteria.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -154,29 +145,18 @@ One of the parameters is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

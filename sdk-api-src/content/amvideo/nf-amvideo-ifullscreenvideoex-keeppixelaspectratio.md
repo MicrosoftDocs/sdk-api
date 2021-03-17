@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.KeepPixelAspectRatio
 title: IFullScreenVideoEx::KeepPixelAspectRatio (amvideo.h)
 description: The KeepPixelAspectRatio method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","KeepPixelAspectRatio method","IFullScreenVideoEx.KeepPixelAspectRatio","IFullScreenVideoEx::KeepPixelAspectRatio","IFullScreenVideoExKeepPixelAspectRatio","KeepPixelAspectRatio","KeepPixelAspectRatio method [DirectShow]","KeepPixelAspectRatio method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::KeepPixelAspectRatio","dshow.ifullscreenvideoex_keeppixelaspectratio"]
 old-location: dshow\ifullscreenvideoex_keeppixelaspectratio.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2c57560-7ffa-4bd4-8d0c-a048dafa35bc
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],KeepPixelAspectRatio method, IFullScreenVideoEx.KeepPixelAspectRatio, IFullScreenVideoEx::KeepPixelAspectRatio, IFullScreenVideoExKeepPixelAspectRatio, KeepPixelAspectRatio, KeepPixelAspectRatio method [DirectShow], KeepPixelAspectRatio method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::KeepPixelAspectRatio, dshow.ifullscreenvideoex_keeppixelaspectratio
-f1_keywords:
-- amvideo/IFullScreenVideoEx.KeepPixelAspectRatio
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.KeepPixelAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::KeepPixelAspectRatio
+ - amvideo/IFullScreenVideoEx::KeepPixelAspectRatio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.KeepPixelAspectRatio
 ---
 
 # IFullScreenVideoEx::KeepPixelAspectRatio
@@ -49,43 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>KeepPixelAspectRatio</code> method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param KeepAspect [in]
 
 Specifies whether to maintain the aspect ratio. The value must be OATRUE or OAFALSE.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

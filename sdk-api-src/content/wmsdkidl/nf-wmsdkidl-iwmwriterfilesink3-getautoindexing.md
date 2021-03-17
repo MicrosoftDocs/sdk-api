@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetAutoIndexing
 title: IWMWriterFileSink3::GetAutoIndexing (wmsdkidl.h)
 description: The GetAutoIndexing method retrieves the current state of automatic indexing for the file.
+helpviewer_keywords: ["GetAutoIndexing","GetAutoIndexing method [windows Media Format]","GetAutoIndexing method [windows Media Format]","IWMWriterFileSink3 interface","IWMWriterFileSink3 interface [windows Media Format]","GetAutoIndexing method","IWMWriterFileSink3.GetAutoIndexing","IWMWriterFileSink3::GetAutoIndexing","IWMWriterFileSink3GetAutoIndexing","wmformat.iwmwriterfilesink3_getautoindexing","wmsdkidl/IWMWriterFileSink3::GetAutoIndexing"]
 old-location: wmformat\iwmwriterfilesink3_getautoindexing.htm
 tech.root: wmformat
 ms.assetid: a6412ce4-03ac-4777-8eb2-ef9f265a6d6c
 ms.date: 12/05/2018
 ms.keywords: GetAutoIndexing, GetAutoIndexing method [windows Media Format], GetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetAutoIndexing method, IWMWriterFileSink3.GetAutoIndexing, IWMWriterFileSink3::GetAutoIndexing, IWMWriterFileSink3GetAutoIndexing, wmformat.iwmwriterfilesink3_getautoindexing, wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3.GetAutoIndexing
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink3.GetAutoIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3::GetAutoIndexing
+ - wmsdkidl/IWMWriterFileSink3::GetAutoIndexing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink3.GetAutoIndexing
 ---
 
 # IWMWriterFileSink3::GetAutoIndexing
@@ -51,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAutoIndexing</b> method retrieves the current state of automatic indexing for the file.
 
 
 
 The writer object creates a time-based index for all new files by default. If you generate an ASF file using bit-rate mutual exclusion for audio content (multiple bit-rate audio), the resulting indexed file will not work with Windows Media Services version 4.1. If you want to stream your file using Windows Media Services 4.1, you must make sure that automatic indexing has been disabled before writing the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pfAutoIndexing [out]
 
 Pointer to a Boolean value that is True if automatic indexing is enabled for the file.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,22 +97,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a>

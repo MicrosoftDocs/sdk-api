@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSiParser2.GetEIT2
 title: IDvbSiParser2::GetEIT2 (dvbsiparser.h)
 description: .
+helpviewer_keywords: ["DVB_EIT_ACTUAL_TID","DVB_EIT_OTHER_TID","GetEIT2","GetEIT2 method [Microsoft TV Technologies]","GetEIT2 method [Microsoft TV Technologies]","IDvbSiParser2 interface","IDvbSiParser2 interface [Microsoft TV Technologies]","GetEIT2 method","IDvbSiParser2.GetEIT2","IDvbSiParser2::GetEIT2","dvbsiparser/IDvbSiParser2::GetEIT2","mstv.idvbsiparser2_geteit2"]
 old-location: mstv\idvbsiparser2_geteit2.htm
 tech.root: mstv
 ms.assetid: 47ccce59-d67e-4994-b69d-8dac425b375a
 ms.date: 12/05/2018
 ms.keywords: DVB_EIT_ACTUAL_TID, DVB_EIT_OTHER_TID, GetEIT2, GetEIT2 method [Microsoft TV Technologies], GetEIT2 method [Microsoft TV Technologies],IDvbSiParser2 interface, IDvbSiParser2 interface [Microsoft TV Technologies],GetEIT2 method, IDvbSiParser2.GetEIT2, IDvbSiParser2::GetEIT2, dvbsiparser/IDvbSiParser2::GetEIT2, mstv.idvbsiparser2_geteit2
-f1_keywords:
-- dvbsiparser/IDvbSiParser2.GetEIT2
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser2.GetEIT2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser2::GetEIT2
+ - dvbsiparser/IDvbSiParser2::GetEIT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser2.GetEIT2
 ---
 
 # IDvbSiParser2::GetEIT2
@@ -48,19 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
-
-The <b>GetEIT2</b> method gets the event information table (EIT). 
-
+The <b>GetEIT2</b> method gets the event information table (EIT).
 
 ## -parameters
-
-
-
 
 ### -param tableId [in]
 
@@ -117,30 +109,20 @@ Schedule EIT for another transport stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwServiceId [in]
 
 An optional parameter that contains a service identifier. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
-          
-
 
 ### -param pbSegment [in]
 
 An optional parameter that contains a segment number. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
-          
-
 
 ### -param ppEIT [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a> interface. The caller must release the interface.
-          
-
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
           
@@ -195,28 +177,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The method fails if the filter does not receive a matching table within a predetermined length of time.
-      
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>

@@ -2,15 +2,12 @@
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ScrollRect
 title: IOleInPlaceSiteWindowless::ScrollRect (ocidl.h)
 description: Enables an object to scroll an area within its in-place active image on the screen.
+helpviewer_keywords: ["IOleInPlaceSiteWindowless interface [COM]","ScrollRect method","IOleInPlaceSiteWindowless.ScrollRect","IOleInPlaceSiteWindowless::ScrollRect","ScrollRect","ScrollRect method [COM]","ScrollRect method [COM]","IOleInPlaceSiteWindowless interface","_ole_ioleinplacesitewindowless_scrollrect","com.ioleinplacesitewindowless_scrollrect","ocidl/IOleInPlaceSiteWindowless::ScrollRect"]
 old-location: com\ioleinplacesitewindowless_scrollrect.htm
 tech.root: com
 ms.assetid: 1eeb1aee-8cd4-4d27-8b6f-f76305bbe69f
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],ScrollRect method, IOleInPlaceSiteWindowless.ScrollRect, IOleInPlaceSiteWindowless::ScrollRect, ScrollRect, ScrollRect method [COM], ScrollRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_scrollrect, com.ioleinplacesitewindowless_scrollrect, ocidl/IOleInPlaceSiteWindowless::ScrollRect
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless.ScrollRect
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless.ScrollRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless::ScrollRect
+ - ocidl/IOleInPlaceSiteWindowless::ScrollRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless.ScrollRect
 ---
 
 # IOleInPlaceSiteWindowless::ScrollRect
@@ -48,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an object to scroll an area within its in-place active image on the screen.
 
-
 ## -parameters
-
-
-
 
 ### -param dx [in]
 
 The amount to scroll the x-axis.
 
-
 ### -param dy [in]
 
 The amount to scroll the y-axis.
-
 
 ### -param pRectScroll [in]
 
 The rectangle to scroll, in client coordinates of the containing window. A value of <b>NULL</b> indicates the full object.
 
-
 ### -param pRectClip [in]
 
 The rectangle to clip. Only pixels scrolling into this rectangle are drawn. Pixels scrolling out are not. If this parameter is <b>NULL</b>, the rectangle is not clipped.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success.
 
-
-
-
 ## -remarks
-
-
 
 This method should take in account the fact that the caller may be transparent and that there may be opaque or transparent overlapping objects. See Notes to Implementers below for suggestions on algorithms this method can use.
 
@@ -97,15 +83,15 @@ Containers can implement this method in a variety of ways. However, all of them 
 
 The simplest way to implement this method consists in simply redrawing the rectangle to scroll.
 
-An added refinement to this simple implementation is to use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
+An added refinement to this simple implementation is to use the <a href="/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function when the object requesting the scroll is opaque, the object has a solid background, and there are no overlapping objects.
 
 More sophisticated implementations can use the following procedure:
 
 <ul>
-<li>Check whether the object is opaque and has a solid background, using <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. If not, simply invalidate the rectangle to scroll. An added refinement is to check whether the scrolling rectangle is entirely in the opaque region of a partially transparent object.</li>
+<li>Check whether the object is opaque and has a solid background, using <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>. If not, simply invalidate the rectangle to scroll. An added refinement is to check whether the scrolling rectangle is entirely in the opaque region of a partially transparent object.</li>
 <li>Get the window device context.</li>
-<li>Clip out the opaque parts of any overlapping object returned by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>.</li>
-<li>Finally, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function.</li>
+<li>Clip out the opaque parts of any overlapping object returned by <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>.</li>
+<li>Finally, call the <a href="/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a> function.</li>
 <li>Redraw the previously invalidated transparent parts of any overlapping object.</li>
 </ul>
 Regardless of the scrolling and clipping rectangle, only pixels contained in the object's site rectangle will be painted. The area uncovered by the scrolling operation is invalidated and redrawn immediately, before this method returns.
@@ -114,24 +100,14 @@ All redraw generated by this method should happen synchronously before this meth
 
 This method should automatically hide the caret during the scrolling operation and should move the caret by the scrolling amounts if it is inside the clip rectangle.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getrect">IViewObjectEx::GetRect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>

@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._DOMAIN_PASSWORD_INFORMATION
 title: DOMAIN_PASSWORD_INFORMATION (ntsecapi.h)
 description: Contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
+helpviewer_keywords: ["*PDOMAIN_PASSWORD_INFORMATION","DOMAIN_LOCKOUT_ADMINS","DOMAIN_PASSWORD_COMPLEX","DOMAIN_PASSWORD_INFORMATION","DOMAIN_PASSWORD_INFORMATION structure [Security]","DOMAIN_PASSWORD_NO_ANON_CHANGE","DOMAIN_PASSWORD_NO_CLEAR_CHANGE","DOMAIN_PASSWORD_STORE_CLEARTEXT","DOMAIN_REFUSE_PASSWORD_CHANGE","PDOMAIN_PASSWORD_INFORMATION","PDOMAIN_PASSWORD_INFORMATION structure pointer [Security]","_lsa_domain_password_information","ntsecapi/DOMAIN_PASSWORD_INFORMATION","ntsecapi/PDOMAIN_PASSWORD_INFORMATION","security.domain_password_information"]
 old-location: security\domain_password_information.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 7dceaf70-d8de-47c0-b940-f0d6a0cca101
 ms.date: 12/05/2018
 ms.keywords: '*PDOMAIN_PASSWORD_INFORMATION, DOMAIN_LOCKOUT_ADMINS, DOMAIN_PASSWORD_COMPLEX, DOMAIN_PASSWORD_INFORMATION, DOMAIN_PASSWORD_INFORMATION structure [Security], DOMAIN_PASSWORD_NO_ANON_CHANGE, DOMAIN_PASSWORD_NO_CLEAR_CHANGE, DOMAIN_PASSWORD_STORE_CLEARTEXT, DOMAIN_REFUSE_PASSWORD_CHANGE, PDOMAIN_PASSWORD_INFORMATION, PDOMAIN_PASSWORD_INFORMATION structure pointer [Security], _lsa_domain_password_information, ntsecapi/DOMAIN_PASSWORD_INFORMATION, ntsecapi/PDOMAIN_PASSWORD_INFORMATION, security.domain_password_information'
-f1_keywords:
-- ntsecapi/DOMAIN_PASSWORD_INFORMATION
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- DOMAIN_PASSWORD_INFORMATION
 targetos: Windows
 req.typenames: DOMAIN_PASSWORD_INFORMATION, *PDOMAIN_PASSWORD_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DOMAIN_PASSWORD_INFORMATION
+ - ntsecapi/_DOMAIN_PASSWORD_INFORMATION
+ - PDOMAIN_PASSWORD_INFORMATION
+ - ntsecapi/PDOMAIN_PASSWORD_INFORMATION
+ - DOMAIN_PASSWORD_INFORMATION
+ - ntsecapi/DOMAIN_PASSWORD_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - DOMAIN_PASSWORD_INFORMATION
 ---
 
 # DOMAIN_PASSWORD_INFORMATION structure
@@ -48,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DOMAIN_PASSWORD_INFORMATION</b> structure contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
 
-It is used in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/msv1-0-changepassword-response">MSV1_0_CHANGEPASSWORD_RESPONSE</a> structure.
-
+It is used in the <a href="/windows/desktop/SecAuthN/msv1-0-changepassword-response">MSV1_0_CHANGEPASSWORD_RESPONSE</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field MinPasswordLength
 
 Specifies the minimum length, in characters, of a valid password.
 
-
 ### -field PasswordHistoryLength
 
 Indicates the number of previous passwords saved in the history list. A user cannot reuse a password in the history list.
-
 
 ### -field PasswordProperties
 
@@ -157,19 +156,15 @@ This value should not be used as it can weaken security.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxPasswordAge
 
-Specifies the maximum length of time that a password can remain the same. Passwords older than this must be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
+Specifies the maximum length of time that a password can remain the same. Passwords older than this must be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
 
 The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
-
 
 ### -field MinPasswordAge
 
-Specifies the minimum length of time before a password can be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
+Specifies the minimum length of time before a password can be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
 
 The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
-

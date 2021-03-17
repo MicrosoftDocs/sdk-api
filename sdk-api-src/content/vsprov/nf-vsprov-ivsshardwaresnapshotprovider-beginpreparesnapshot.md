@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 title: IVssHardwareSnapshotProvider::BeginPrepareSnapshot (vsprov.h)
 description: Called for each shadow copy that is added to the shadow copy set.
+helpviewer_keywords: ["BeginPrepareSnapshot","BeginPrepareSnapshot method [VSS]","BeginPrepareSnapshot method [VSS]","IVssHardwareSnapshotProvider interface","IVssHardwareSnapshotProvider interface [VSS]","BeginPrepareSnapshot method","IVssHardwareSnapshotProvider.BeginPrepareSnapshot","IVssHardwareSnapshotProvider::BeginPrepareSnapshot","base.ivsshardwaresnapshotprovider_beginpreparesnapshot","vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot"]
 old-location: base\ivsshardwaresnapshotprovider_beginpreparesnapshot.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 4a8bdffa-bb6e-425d-a708-1f31af302da9
 ms.date: 12/05/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],BeginPrepareSnapshot method, IVssHardwareSnapshotProvider.BeginPrepareSnapshot, IVssHardwareSnapshotProvider::BeginPrepareSnapshot, base.ivsshardwaresnapshotprovider_beginpreparesnapshot, vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.BeginPrepareSnapshot
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::BeginPrepareSnapshot
+ - vsprov/IVssHardwareSnapshotProvider::BeginPrepareSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 ---
 
 # IVssHardwareSnapshotProvider::BeginPrepareSnapshot
@@ -48,52 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BeginPrepareSnapshot</b> 
    method is called for each shadow copy that is added to the shadow copy set.
 <div class="alert"><b>Note</b>  Hardware providers are only supported on Windows Server operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param SnapshotSetId [in]
 
 Shadow copy set identifier.
-
 
 ### -param SnapshotId [in]
 
 Identifier of the shadow copy to be created.
 
-
 ### -param lContext [in]
 
 Shadow copy context for current shadow copy set as enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
-
+      <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
 
 ### -param lLunCount [in]
 
 Count of LUNs contributing to this shadow copy volume.
-
 
 ### -param rgDeviceNames [in]
 
 Pointer to array of <i>lLunCount</i> pointers to strings, each string containing 
       the name of a LUN to be shadow copied.
 
-
 ### -param rgLunInformation [in, out]
 
-Pointer to array of <i>lLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to array of <i>lLunCount</i><a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
        contributing to this shadow copy volume.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -201,33 +191,17 @@ The context specified by <i>lContext</i> is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method cannot be called for a virtual hard disk (VHD) that is nested inside another VHD.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>VHDs are not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

@@ -2,15 +2,12 @@
 UID: NF:winuser.CheckMenuItem
 title: CheckMenuItem function (winuser.h)
 description: Sets the state of the specified menu item's check-mark attribute to either selected or clear.
+helpviewer_keywords: ["CheckMenuItem","CheckMenuItem function [Menus and Other Resources]","MF_BYCOMMAND","MF_BYPOSITION","MF_CHECKED","MF_UNCHECKED","_win32_CheckMenuItem","_win32_checkmenuitem_cpp","menurc.checkmenuitem","winui._win32_checkmenuitem","winuser/CheckMenuItem"]
 old-location: menurc\checkmenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\checkmenuitem.htm
 ms.date: 12/05/2018
 ms.keywords: CheckMenuItem, CheckMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_UNCHECKED, _win32_CheckMenuItem, _win32_checkmenuitem_cpp, menurc.checkmenuitem, winui._win32_checkmenuitem, winuser/CheckMenuItem
-f1_keywords:
-- winuser/CheckMenuItem
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- CheckMenuItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CheckMenuItem
+ - winuser/CheckMenuItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - CheckMenuItem
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # CheckMenuItem function
@@ -52,31 +55,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
+<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
 ]
 
-Sets the state of the specified menu item's check-mark attribute to either selected or clear. 
-
+Sets the state of the specified menu item's check-mark attribute to either selected or clear.
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu of interest. 
-
+A handle to the menu of interest.
 
 ### -param uIDCheckItem [in]
 
 Type: <b>UINT</b>
 
-The menu item whose check-mark attribute is to be set, as determined by the <i>uCheck</i> parameter. 
-
+The menu item whose check-mark attribute is to be set, as determined by the <i>uCheck</i> parameter.
 
 ### -param uCheck [in]
 
@@ -134,23 +130,14 @@ Sets the check-mark attribute to the clear state.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>DWORD</b>
 
-The return value specifies the previous state of the menu item (either <b>MF_CHECKED</b> or <b>MF_UNCHECKED</b>). If the menu item does not exist, the return value is –1. 
-
-
-
+The return value specifies the previous state of the menu item (either <b>MF_CHECKED</b> or <b>MF_UNCHECKED</b>). If the menu item does not exist, the return value is –1.
 
 ## -remarks
-
-
 
 An item in a menu bar cannot have a check mark. 
 
@@ -159,30 +146,25 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -190,12 +172,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>

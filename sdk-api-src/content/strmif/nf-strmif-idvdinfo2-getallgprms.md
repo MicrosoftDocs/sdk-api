@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetAllGPRMs
 title: IDvdInfo2::GetAllGPRMs (strmif.h)
 description: The GetAllGPRMs method retrieves the current contents of all general parameter registers (GPRMs).
+helpviewer_keywords: ["GetAllGPRMs","GetAllGPRMs method [DirectShow]","GetAllGPRMs method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetAllGPRMs method","IDvdInfo2.GetAllGPRMs","IDvdInfo2::GetAllGPRMs","IDvdInfo2GetAllGPRMs","dshow.idvdinfo2_getallgprms","strmif/IDvdInfo2::GetAllGPRMs"]
 old-location: dshow\idvdinfo2_getallgprms.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32
 ms.date: 12/05/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
-f1_keywords:
-- strmif/IDvdInfo2.GetAllGPRMs
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetAllGPRMs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetAllGPRMs
+ - strmif/IDvdInfo2::GetAllGPRMs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetAllGPRMs
 ---
 
 # IDvdInfo2::GetAllGPRMs
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAllGPRMs</b> method retrieves the current contents of all general parameter registers (GPRMs).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pRegisterArray [out]
 
-Pointer to an array of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/gprmarray">GPRMARRAY</a> that receives all 16 current GPRM values.
-          
-
+Pointer to an array of type <a href="/windows/desktop/DirectShow/gprmarray">GPRMARRAY</a> that receives all 16 current GPRM values.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -101,37 +91,22 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 GPRMs are 16-bit registers that each disc can use in unique ways for temporary data storage. 
 
-<div class="alert"><b>Note</b>  A player application using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
+<div class="alert"><b>Note</b>  A player application using the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter does not need to access these registers for any Annex J playback or navigation control. This method is provided for player applications implementing advanced functionality. Do not attempt to modify the GPRMs directly unless you have a thorough knowledge of the DVD specification, and the ways in which the GPRMs are used on the particular discs to be played.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

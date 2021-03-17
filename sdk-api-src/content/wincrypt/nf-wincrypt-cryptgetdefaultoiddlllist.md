@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptGetDefaultOIDDllList
 title: CryptGetDefaultOIDDllList function (wincrypt.h)
 description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.
+helpviewer_keywords: ["CryptGetDefaultOIDDllList","CryptGetDefaultOIDDllList function [Security]","_crypto2_cryptgetdefaultoiddlllist","security.cryptgetdefaultoiddlllist","wincrypt/CryptGetDefaultOIDDllList"]
 old-location: security\cryptgetdefaultoiddlllist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.date: 12/05/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
-f1_keywords:
-- wincrypt/CryptGetDefaultOIDDllList
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptGetDefaultOIDDllList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetDefaultOIDDllList
+ - wincrypt/CryptGetDefaultOIDDllList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptGetDefaultOIDDllList
 ---
 
 # CryptGetDefaultOIDDllList function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptGetDefaultOIDDllList</b> function acquires the list of the names of DLL files that contain registered default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) functions for a specified function set and encoding type.
-
+The <b>CryptGetDefaultOIDDllList</b> function acquires the list of the names of DLL files that contain registered default <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) functions for a specified function set and encoding type.
 
 ## -parameters
-
-
-
 
 ### -param hFuncSet [in]
 
 Function set handle previously obtained by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset">CryptInitOIDFunctionSet</a>.
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinitoidfunctionset">CryptInitOIDFunctionSet</a>.
 
 ### -param dwEncodingType [in]
 
@@ -69,7 +65,7 @@ Specifies the encoding type to be matched. Currently, only X509_ASN_ENCODING and
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
-<div class="alert"><b>Note</b>  Either a certificate or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is required. X509_ASN_ENCODING is the default. If that type is indicated, it is used; otherwise, if the PKCS7_ASN_ENCODING type is indicated, it is used.</div>
+<div class="alert"><b>Note</b>  Either a certificate or <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> is required. X509_ASN_ENCODING is the default. If that type is indicated, it is used; otherwise, if the PKCS7_ASN_ENCODING type is indicated, it is used.</div>
 <div> </div>
 
 ### -param pwszDllList [out]
@@ -81,8 +77,7 @@ A pointer to a buffer to receive the list of zero or more null-terminated file n
 
 L"<i>first</i>.dll\0" L"<i>second</i>.dll\0" L"\0"
 
-To retrieve the number of wide characters the buffer must hold, this parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+To retrieve the number of wide characters the buffer must hold, this parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcchDllList [in, out]
 
@@ -96,12 +91,10 @@ A pointer to a <b>DWORD</b> that specifies the size, in wide characters, of the 
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 This function has the following error codes.
 
@@ -122,18 +115,7 @@ If the buffer specified by the <i>pwszDllList</i> parameter is not large enough 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

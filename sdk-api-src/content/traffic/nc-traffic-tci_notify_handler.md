@@ -1,16 +1,13 @@
 ---
 UID: NC:traffic.TCI_NOTIFY_HANDLER
 title: TCI_NOTIFY_HANDLER (traffic.h)
-description: The ClNotifyHandler function is used by traffic control to notify the client of various traffic control&#8211;specific events, including the deletion of flows, changes in filter parameters, or the closing of an interface.
+description: The ClNotifyHandler function is used by traffic control to notify the client of various traffic control�specific events, including the deletion of flows, changes in filter parameters, or the closing of an interface.
+helpviewer_keywords: ["ClNotifyHandler","ClNotifyHandler callback","ClNotifyHandler callback function [QOS]","TCI_NOTIFY_HANDLER","TCI_NOTIFY_HANDLER callback function [QOS]","_gqos_clnotifyhandler","qos.clnotifyhandler","traffic/ClNotifyHandler"]
 old-location: qos\clnotifyhandler.htm
 tech.root: QOS
 ms.assetid: cacf4c21-d831-462c-b9e8-fd51fcf8e4e4
 ms.date: 12/05/2018
 ms.keywords: ClNotifyHandler, ClNotifyHandler callback, ClNotifyHandler callback function [QOS], TCI_NOTIFY_HANDLER, TCI_NOTIFY_HANDLER callback function [QOS], _gqos_clnotifyhandler, qos.clnotifyhandler, traffic/ClNotifyHandler
-f1_keywords:
-- traffic/TCI_NOTIFY_HANDLER
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Traffic.h
-api_name:
-- TCI_NOTIFY_HANDLER
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TCI_NOTIFY_HANDLER
+ - traffic/TCI_NOTIFY_HANDLER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Traffic.h
+api_name:
+ - TCI_NOTIFY_HANDLER
 ---
 
 # TCI_NOTIFY_HANDLER callback function
@@ -48,63 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <i>ClNotifyHandler</i> function is used by traffic control to notify the client of various traffic control–specific events, including the deletion of flows, changes in filter parameters, or the closing of an interface.
 
 The 
 <i>ClNotifyHandler</i> callback function should be exposed by all clients using traffic control services.
 
-
 ## -parameters
-
-
-
 
 ### -param ClRegCtx [in]
 
 Client registration context, provided to traffic control by the client with the client's call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
 
 ### -param ClIfcCtx [in]
 
 Client interface context, provided to traffic control by the client with the client's call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function. Note that during a TC_NOTIFY_IFC_UP event, <i>ClIfcCtx</i> is not available and will be set to <b>NULL</b>.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function. Note that during a TC_NOTIFY_IFC_UP event, <i>ClIfcCtx</i> is not available and will be set to <b>NULL</b>.
 
 ### -param Event [in]
 
 Describes the notification event. See the Remarks section for a list of notification events.
 
-
 ### -param SubCode [in]
 
 Handle used to further qualify a notification event. See Note below for 64-bit for Windows programming issues.
-
 
 ### -param BufSize [in]
 
 Size of the buffer included with the notification event, in bytes.
 
-
 ### -param Buffer [in]
 
 Buffer containing the detailed event information associated with <i>Event</i> and <i>SubCode</i>.
 
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 Notification events may require the traffic control client to take particular action or respond appropriately, for example, removing filters or enumerating flows for affected interfaces.
 
@@ -134,12 +114,12 @@ The following table describes the various notification events.
 <td>None</td>
 <td>New parameter value</td>
 <td>Used to notify clients that have registered for interface change notification through the <i>NotifyChange</i> parameter of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
 </tr>
 <tr>
 <td>TC_NOTIFY_PARAM_CHANGED</td>
 <td>Pointer to the GUID for a traffic control parameter queried using the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a> function.</td>
 <td>New parameter value</td>
 <td>This event is notified as a result of a change in a parameter previously queried with the <i>NotifyChange</i> flag set.</td>
 </tr>
@@ -156,23 +136,14 @@ The following table describes the various notification events.
 <i>ClNotifyHandler</i> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcqueryinterface">TcQueryInterface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>

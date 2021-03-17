@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMCodecInfo3.SetCodecEnumerationSetting
 title: IWMCodecInfo3::SetCodecEnumerationSetting (wmsdkidl.h)
 description: The SetCodecEnumerationSetting method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of IWMCodecInfo.
+helpviewer_keywords: ["IWMCodecInfo3 interface [windows Media Format]","SetCodecEnumerationSetting method","IWMCodecInfo3.SetCodecEnumerationSetting","IWMCodecInfo3::SetCodecEnumerationSetting","IWMCodecInfo3SetCodecEnumerationSetting","SetCodecEnumerationSetting","SetCodecEnumerationSetting method [windows Media Format]","SetCodecEnumerationSetting method [windows Media Format]","IWMCodecInfo3 interface","wmformat.iwmcodecinfo3_setcodecenumerationsetting","wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting"]
 old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm
 tech.root: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
-f1_keywords:
-- wmsdkidl/IWMCodecInfo3.SetCodecEnumerationSetting
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMCodecInfo3.SetCodecEnumerationSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecInfo3::SetCodecEnumerationSetting
+ - wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMCodecInfo3.SetCodecEnumerationSetting
 ---
 
 # IWMCodecInfo3::SetCodecEnumerationSetting
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo</a>.
-
-
-
+The <b>SetCodecEnumerationSetting</b> method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo</a>.
 
 ## -parameters
-
-
-
 
 ### -param guidType [in]
 
@@ -83,13 +77,10 @@ GUID identifying the major type of digital media. This must be one of the follow
 <td>Specifies an audio codec.</td>
 </tr>
 </table>
- 
-
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
-
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 ### -param pszName [in]
 
@@ -115,27 +106,20 @@ Pointer to a wide-character null-terminated string containing the name of the en
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
-
+A <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> value specifying the data type of the value in <i>pValue</i>.
 
 ### -param pValue [in]
 
 A pointer to a <b>BYTE</b> array containing the setting value.
 
-
 ### -param dwSize [in]
 
 <b>DWORD</b> containing the size of the <i>pValue</i> <b>BYTE</b> array.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -167,14 +151,8 @@ The enumeration setting specified is not valid for the codec.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Windows Media Audio and Video 9 Series codecs can potentially enumerate four different sets of codec formats, as listed in the following table.
 
@@ -213,20 +191,10 @@ If you make a call to this method and get the NS_E_UNSUPPORTED_PROPERTY error co
 
 The return value of a call made to this method does not guarantee support of a codec feature. For example, the Windows Media Audio 9 Lossless codec does not return NS_E_UNSUPPORTED_PROPERTY for calls that set the number of passes, even though the codec does not support two-pass encoding.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecenumerationsetting">GetCodecEnumerationSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecenumerationsetting">GetCodecEnumerationSetting</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3">IWMCodecInfo3 Interface</a>

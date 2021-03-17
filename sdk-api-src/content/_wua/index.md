@@ -1,9 +1,10 @@
 ---
 UID: TP:wua
+title: Windows Update Agent API
 ms.assetid: 8285445c-2c5e-3d96-a56d-f25ac3be142a
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Update Agent API
@@ -18,7 +19,6 @@ To develop Windows Update Agent API, you need these headers:
  * [wuapicommon.h](../wuapicommon/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client)
-* [Windows Update Agent (WUA) API Reference](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client)
-* [Using the Windows Update Agent API](https://docs.microsoft.com/windows/desktop/Wua_Sdk/portal-client)
-
+* [Windows Update Agent API](/windows/desktop/Wua_Sdk/portal-client)
+* [Windows Update Agent (WUA) API Reference](/windows/desktop/Wua_Sdk/portal-client)
+* [Using the Windows Update Agent API](/windows/desktop/Wua_Sdk/portal-client)

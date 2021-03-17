@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableThinning
 title: IWMReaderNetworkConfig2::GetEnableThinning (wmsdkidl.h)
 description: The GetEnableThinning method ascertains whether Intelligent Streaming is enabled. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
+helpviewer_keywords: ["GetEnableThinning","GetEnableThinning method [windows Media Format]","GetEnableThinning method [windows Media Format]","IWMReaderNetworkConfig2 interface","IWMReaderNetworkConfig2 interface [windows Media Format]","GetEnableThinning method","IWMReaderNetworkConfig2.GetEnableThinning","IWMReaderNetworkConfig2::GetEnableThinning","IWMReaderNetworkConfig2GetEnableThinning","wmformat.iwmreadernetworkconfig2_getenablethinning","wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning"]
 old-location: wmformat\iwmreadernetworkconfig2_getenablethinning.htm
 tech.root: wmformat
 ms.assetid: 3ad43406-56db-48db-96a7-419b6719dbd4
 ms.date: 12/05/2018
 ms.keywords: GetEnableThinning, GetEnableThinning method [windows Media Format], GetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableThinning method, IWMReaderNetworkConfig2.GetEnableThinning, IWMReaderNetworkConfig2::GetEnableThinning, IWMReaderNetworkConfig2GetEnableThinning, wmformat.iwmreadernetworkconfig2_getenablethinning, wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig2.GetEnableThinning
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig2.GetEnableThinning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig2::GetEnableThinning
+ - wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig2.GetEnableThinning
 ---
 
 # IWMReaderNetworkConfig2::GetEnableThinning
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetEnableThinning</b> method ascertains whether Intelligent Streaming is enabled. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfEnableThinning [out]
 
 Pointer to a variable that receives a Boolean value. The value is <b>TRUE</b> if thinning is enabled, or <b>FALSE</b> if thinning is disabled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,14 +93,8 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 With Intelligent Streaming enabled, the reader responds to insufficient bandwidth by requesting that the server reduce the bit rate by using one of the following techniques. If one technique does not solve the problem, the reader will try the next one:
 
@@ -122,20 +107,10 @@ If Intelligent Streaming is disabled by setting <i>pfEnableThinning</i> to <b>FA
 
 This feature applies only to content streaming from a server running Windows Media Services.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablethinning">IWMReaderNetworkConfig2::SetEnableThinning</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablethinning">IWMReaderNetworkConfig2::SetEnableThinning</a>

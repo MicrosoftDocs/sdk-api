@@ -2,15 +2,12 @@
 UID: NF:audiopolicy.IAudioSessionManager.GetSimpleAudioVolume
 title: IAudioSessionManager::GetSimpleAudioVolume (audiopolicy.h)
 description: The GetSimpleAudioVolume method retrieves a simple audio volume control.
+helpviewer_keywords: ["GetSimpleAudioVolume","GetSimpleAudioVolume method [Core Audio]","GetSimpleAudioVolume method [Core Audio]","IAudioSessionManager interface","IAudioSessionManager interface [Core Audio]","GetSimpleAudioVolume method","IAudioSessionManager.GetSimpleAudioVolume","IAudioSessionManager::GetSimpleAudioVolume","IAudioSessionManagerGetSimpleAudioVolume","audiopolicy/IAudioSessionManager::GetSimpleAudioVolume","coreaudio.iaudiosessionmanager_getsimpleaudiovolume"]
 old-location: coreaudio\iaudiosessionmanager_getsimpleaudiovolume.htm
 tech.root: CoreAudio
 ms.assetid: 2f3c5a40-308f-48b4-b35c-aebd0cc6b849
 ms.date: 12/05/2018
 ms.keywords: GetSimpleAudioVolume, GetSimpleAudioVolume method [Core Audio], GetSimpleAudioVolume method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetSimpleAudioVolume method, IAudioSessionManager.GetSimpleAudioVolume, IAudioSessionManager::GetSimpleAudioVolume, IAudioSessionManagerGetSimpleAudioVolume, audiopolicy/IAudioSessionManager::GetSimpleAudioVolume, coreaudio.iaudiosessionmanager_getsimpleaudiovolume
-f1_keywords:
-- audiopolicy/IAudioSessionManager.GetSimpleAudioVolume
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionManager.GetSimpleAudioVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionManager::GetSimpleAudioVolume
+ - audiopolicy/IAudioSessionManager::GetSimpleAudioVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionManager.GetSimpleAudioVolume
 ---
 
 # IAudioSessionManager::GetSimpleAudioVolume
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSimpleAudioVolume</b> method retrieves a simple audio volume control.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param AudioSessionGuid [in]
 
 Pointer to a session GUID. If the GUID does not identify a session that has been previously opened, the call opens a new but empty session. The Sndvol program does not display a volume-level control for a session unless it contains one or more active streams. If this parameter is <b>NULL</b> or points to the value GUID_NULL, the method assigns the stream to the default session.
 
-
 ### -param StreamFlags [in]
 
 Specifies whether the request is for a cross-process session. Set to <b>TRUE</b> if the session is cross-process. Set to <b>FALSE</b> if the session is not cross-process.
 
-
 ### -param AudioVolume [out]
 
-Pointer to a pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume</a> interface of the audio volume control object. This interface represents the simple audio volume control for the current process. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>Activate</b> call fails, <i>*AudioVolume</i> is <b>NULL</b>.
-
+Pointer to a pointer variable into which the method writes a pointer to the <a href="/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume</a> interface of the audio volume control object. This interface represents the simple audio volume control for the current process. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>Activate</b> call fails, <i>*AudioVolume</i> is <b>NULL</b>.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -142,22 +131,11 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>

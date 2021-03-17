@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CMC_STATUS_INFO
 title: CMC_STATUS_INFO (wincrypt.h)
 description: Contains status information about Certificate Management Messages over CMS.
+helpviewer_keywords: ["*PCMC_STATUS_INFO","CMC_FAIL_BAD_ALG","CMC_FAIL_BAD_CERT_ID","CMC_FAIL_BAD_IDENTITY","CMC_FAIL_BAD_MESSAGE_CHECK","CMC_FAIL_BAD_REQUEST","CMC_FAIL_BAD_TIME","CMC_FAIL_INTERNAL_CA_ERROR","CMC_FAIL_MUST_ARCHIVE_KEYS","CMC_FAIL_NO_KEY_REUSE","CMC_FAIL_POP_FAILED","CMC_FAIL_POP_REQUIRED","CMC_FAIL_TRY_LATER","CMC_FAIL_UNSUPORTED_EXT","CMC_STATUS_CONFIRM_REQUIRED","CMC_STATUS_FAILED","CMC_STATUS_INFO","CMC_STATUS_INFO structure [Security]","CMC_STATUS_NO_SUPPORT","CMC_STATUS_PENDING","CMC_STATUS_SUCCESS","PCMC_STATUS_INFO","PCMC_STATUS_INFO structure pointer [Security]","_crypto2_cmc_status_info","security.cmc_status_info","wincrypt/CMC_STATUS_INFO","wincrypt/PCMC_STATUS_INFO"]
 old-location: security\cmc_status_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_STATUS_INFO, CMC_FAIL_BAD_ALG, CMC_FAIL_BAD_CERT_ID, CMC_FAIL_BAD_IDENTITY, CMC_FAIL_BAD_MESSAGE_CHECK, CMC_FAIL_BAD_REQUEST, CMC_FAIL_BAD_TIME, CMC_FAIL_INTERNAL_CA_ERROR, CMC_FAIL_MUST_ARCHIVE_KEYS, CMC_FAIL_NO_KEY_REUSE, CMC_FAIL_POP_FAILED, CMC_FAIL_POP_REQUIRED, CMC_FAIL_TRY_LATER, CMC_FAIL_UNSUPORTED_EXT, CMC_STATUS_CONFIRM_REQUIRED, CMC_STATUS_FAILED, CMC_STATUS_INFO, CMC_STATUS_INFO structure [Security], CMC_STATUS_NO_SUPPORT, CMC_STATUS_PENDING, CMC_STATUS_SUCCESS, PCMC_STATUS_INFO, PCMC_STATUS_INFO structure pointer [Security], _crypto2_cmc_status_info, security.cmc_status_info, wincrypt/CMC_STATUS_INFO, wincrypt/PCMC_STATUS_INFO'
-f1_keywords:
-- wincrypt/CMC_STATUS_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMC_STATUS_INFO
 targetos: Windows
 req.typenames: CMC_STATUS_INFO, *PCMC_STATUS_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMC_STATUS_INFO
+ - wincrypt/_CMC_STATUS_INFO
+ - PCMC_STATUS_INFO
+ - wincrypt/PCMC_STATUS_INFO
+ - CMC_STATUS_INFO
+ - wincrypt/CMC_STATUS_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMC_STATUS_INFO
 ---
 
 # CMC_STATUS_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMC_STATUS_INFO</b> structure contains status information about Certificate Management Messages over CMS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwStatus
 
@@ -95,7 +96,7 @@ Request failed. There is addition information in other parts of the message.
 </dl>
 </td>
 <td width="60%">
-Request body part has not been processed. Requester must poll again. This value is returned only on <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a>.
+Request body part has not been processed. Requester must poll again. This value is returned only on <a href="/windows/desktop/SecGloss/c-gly">certificate requests</a>.
 
 </td>
 </tr>
@@ -122,23 +123,18 @@ Confirmation by using the idConfirmCertAcceptance control is required before the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cBodyList
 
 A <b>DWORD</b> count of the elements in the <b>rgdwBodyList</b> array.
 
-
 ### -field rgdwBodyList
 
 A <b>DWORD</b> array.
 
-
 ### -field pwszStatusString
 
 Optional string text indicating message status.
-
 
 ### -field dwOtherInfoChoice
 
@@ -153,9 +149,6 @@ This member can be one of the following values:
 </ul>
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.dwFailInfo
 
@@ -294,7 +287,7 @@ Server policy does not allow key re-use.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certification authority</a> (CA) had an internal failure.
+<a href="/windows/desktop/SecGloss/c-gly">Certification authority</a> (CA) had an internal failure.
 
 </td>
 </tr>
@@ -310,19 +303,11 @@ Request failed for an unknown reason. The request should be reissued later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME.pPendInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_pend_info">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
-
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_pend_info">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
 
 ## -remarks
 
-
-
 Additional members of the union may be defined in future versions.
-
-
-

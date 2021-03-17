@@ -2,15 +2,12 @@
 UID: NF:winddi.EngComputeGlyphSet
 title: EngComputeGlyphSet function (winddi.h)
 description: The EngComputeGlyphSet function computes the glyph set supported on a device.
+helpviewer_keywords: ["EngComputeGlyphSet","EngComputeGlyphSet function [Display Devices]","display.engcomputeglyphset","gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml","winddi/EngComputeGlyphSet"]
 old-location: display\engcomputeglyphset.htm
 tech.root: display
 ms.assetid: 74722493-04cf-4401-a6d6-7afe8d4881d9
 ms.date: 12/05/2018
 ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
-f1_keywords:
-- winddi/EngComputeGlyphSet
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- EngComputeGlyphSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngComputeGlyphSet
+ - winddi/EngComputeGlyphSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - EngComputeGlyphSet
 ---
 
 # EngComputeGlyphSet function
@@ -51,61 +53,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngComputeGlyphSet</b> function computes the glyph set supported on a device.
 
-
 ## -parameters
-
-
-
 
 ### -param nCodePage [in]
 
 Specifies the code page supported.
 
-
 ### -param nFirstChar [in]
 
 Specifies the character code of the first supported ANSI character.
-
 
 ### -param cChars [in]
 
 Specifies the number of ANSI characters supported.
 
-
 ## -returns
 
-
-
-If the glyph set is computed successfully, the function returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
-
-
-
+If the glyph set is computed successfully, the function returns a pointer to an <a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a> structure. If an error occurs, the function returns <b>NULL</b>.
 
 ## -remarks
 
-
-
 A driver can use <b>EngComputeGlyphSet</b> to compute the glyph set for a font that contains only glyphs in the code page described by <i>nCodePage</i>.
 
-The driver must call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
-
-
-
+The driver must call <a href="/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a> to free memory when it is done using the FD_GLYPHSET structure returned by <b>EngComputeGlyphSet</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemem">EngFreeMem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_glyphset">FD_GLYPHSET</a>

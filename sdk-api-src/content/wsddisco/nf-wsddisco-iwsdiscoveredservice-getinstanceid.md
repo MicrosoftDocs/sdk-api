@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetInstanceId
 title: IWSDiscoveredService::GetInstanceId (wsddisco.h)
 description: Retrieves the instance identifier of this message.
+helpviewer_keywords: ["GetInstanceId","GetInstanceId method","GetInstanceId method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetInstanceId method","IWSDiscoveredService.GetInstanceId","IWSDiscoveredService::GetInstanceId","ncd.iwsdiscoveredservice_getinstanceid","wsddisco/IWSDiscoveredService::GetInstanceId"]
 old-location: ncd\iwsdiscoveredservice_getinstanceid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 993f4ef1-ff13-4454-b22f-29c9628da5e0
 ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method, GetInstanceId method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetInstanceId method, IWSDiscoveredService.GetInstanceId, IWSDiscoveredService::GetInstanceId, ncd.iwsdiscoveredservice_getinstanceid, wsddisco/IWSDiscoveredService::GetInstanceId
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetInstanceId
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetInstanceId
+ - wsddisco/IWSDiscoveredService::GetInstanceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetInstanceId
 ---
 
 # IWSDiscoveredService::GetInstanceId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the instance identifier of this message.
 
-
 ## -parameters
-
-
-
 
 ### -param pullInstanceId [out]
 
 A pointer to the instance identifier of this message.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +95,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

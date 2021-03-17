@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
 title: ITfInputProcessorProfileMgr::EnumProfiles (msctf.h)
 description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
+helpviewer_keywords: ["EnumProfiles","EnumProfiles method [Text Services Framework]","EnumProfiles method [Text Services Framework]","ITfInputProcessorProfileMgr interface","ITfInputProcessorProfileMgr interface [Text Services Framework]","EnumProfiles method","ITfInputProcessorProfileMgr.EnumProfiles","ITfInputProcessorProfileMgr::EnumProfiles","msctf/ITfInputProcessorProfileMgr::EnumProfiles","tsf.itfinputprocessorprofilemgr_enumprofiles"]
 old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
 tech.root: TSF
 ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
 ms.date: 12/05/2018
 ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
-f1_keywords:
-- msctf/ITfInputProcessorProfileMgr.EnumProfiles
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfileMgr.EnumProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileMgr::EnumProfiles
+ - msctf/ITfInputProcessorProfileMgr::EnumProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfileMgr.EnumProfiles
 ---
 
 # ITfInputProcessorProfileMgr::EnumProfiles
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfInputProcessorProfileMgr::EnumProfiles</b> method returns profiles to be enumerated.
 
-
 ## -parameters
-
-
-
 
 ### -param langid [in]
 
 [in] langid of the profiles to be enumerated. If langid is 0, all profiles will be enumerated.
 
-
 ### -param ppEnum [out]
 
-[out] The pointer to receive a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
-
+[out] The pointer to receive a pointer of <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfinputprocessorprofiles">IEnumTfInputProcessorProfiles</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,7 +105,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

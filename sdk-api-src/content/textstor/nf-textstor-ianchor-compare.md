@@ -2,15 +2,12 @@
 UID: NF:textstor.IAnchor.Compare
 title: IAnchor::Compare (textstor.h)
 description: The IAnchor::Compare method compares the relative position of two anchors within a text stream.
+helpviewer_keywords: ["+1","-1","0","Compare","Compare method [Text Services Framework]","Compare method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","Compare method","IAnchor.Compare","IAnchor::Compare","textstor/IAnchor::Compare","tsf.ianchor_compare"]
 old-location: tsf\ianchor_compare.htm
 tech.root: TSF
 ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
 ms.date: 12/05/2018
 ms.keywords: +1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare
-f1_keywords:
-- textstor/IAnchor.Compare
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.Compare
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::Compare
+ - textstor/IAnchor::Compare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.Compare
 ---
 
 # IAnchor::Compare
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAnchor::Compare</b> method compares the relative position of two anchors within a text stream.
 
-
 ## -parameters
-
-
-
 
 ### -param paWith [in]
 
 An anchor object to compare to the primary anchor. Used to determine the relative position of the two anchors.
-
 
 ### -param plResult [out]
 
@@ -102,12 +98,8 @@ The primary anchor is positioned later in the text stream than <i>paWith.</i>
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -150,40 +142,24 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The value 0 is returned for <i>*plResult</i> only when the two anchors are in a single region. Anchor positions include the spaces between regions. If you only need to determine if the two anchors are positioned at the same location, <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual</a> is more efficient.
-
-
-
+The value 0 is returned for <i>*plResult</i> only when the two anchors are in a single region. Anchor positions include the spaces between regions. If you only need to determine if the two anchors are positioned at the same location, <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual</a> is more efficient.
 
 ## -see-also
 
+<a href="/windows/desktop/TSF/ranges">Anchors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchors</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Regions</a>
- 
-
- 
-
+<a href="/windows/desktop/TSF/ranges">Regions</a>

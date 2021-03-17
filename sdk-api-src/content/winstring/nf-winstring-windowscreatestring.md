@@ -2,15 +2,12 @@
 UID: NF:winstring.WindowsCreateString
 title: WindowsCreateString function (winstring.h)
 description: Creates a new HSTRING based on the specified source string.
+helpviewer_keywords: ["WindowsCreateString","WindowsCreateString function [Windows Runtime]","winrt.windowscreatestring","winstring/WindowsCreateString"]
 old-location: winrt\windowscreatestring.htm
 tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
-f1_keywords:
-- winstring/WindowsCreateString
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -28,62 +25,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsCreateString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsCreateString
+ - winstring/WindowsCreateString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsCreateString
 ---
-
-# WindowsCreateString function
-
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> based on the specified source string.
-
+Creates a new [**HSTRING**](/windows/win32/winrt/hstring) based on the specified source string.
 
 ## -parameters
 
+### -param sourceString
 
+Type: [in, optional] <b>LPCWSTR</b>
 
+A null-terminated string to use as the source for the new [**HSTRING**](/windows/win32/winrt/hstring). To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
 
-### -param sourceString [in, optional]
+### -param length
 
-Type: <b>LPCWSTR</b>
-
-A null-terminated string to use as the source for the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
-
-
-### -param length [in]
-
-Type: <b>UINT32</b>
+Type: [in] <b>UINT32</b>
 
 The length of <i>sourceString</i>, in Unicode characters. Must be 0 if <i>sourceString</i> is <b>NULL</b>.
 
+### -param string
 
-### -param string [out]
+Type: [out] <b>[**HSTRING**](/windows/win32/winrt/hstring)*</b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
-
-A pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>, or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <b>HSTRING</b> is a standard handle type.
-
+A pointer to the newly created [**HSTRING**](/windows/win32/winrt/hstring), or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <b>HSTRING</b> is a standard handle type.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,7 +90,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
+The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 
 </td>
 </tr>
@@ -123,7 +112,7 @@ The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING<
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
+Failed to allocate the new [**HSTRING**](/windows/win32/winrt/hstring).
 
 </td>
 </tr>
@@ -139,37 +128,20 @@ Failed to allocate the new <a href="https://docs.microsoft.com/windows/desktop/W
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Use the <b>WindowsCreateString</b> function to allocate a new [**HSTRING**](/windows/win32/winrt/hstring). The Windows Runtime copies <i>string</i> to the backing buffer of the new <b>HSTRING</b> and   manages the buffer lifetime by using a reference count. Call the <a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a> function to create a <i>fast-pass string</i>, which uses an existing string without copying it. 
 
-
-Use the <b>WindowsCreateString</b> function to allocate a new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. The Windows Runtime copies <i>string</i> to the backing buffer of the new <b>HSTRING</b> and   manages the buffer lifetime by using a reference count. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a> function to create a <i>fast-pass string</i>, which uses an existing string without copying it. 
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. Each call to the <b>WindowsCreateString</b> function must be matched by a call to  <b>WindowsDeleteString</b>. 
+Call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate the [**HSTRING**](/windows/win32/winrt/hstring). Each call to the <b>WindowsCreateString</b> function must be matched by a call to  <b>WindowsDeleteString</b>. 
 
 To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
 
 If <i>sourceString</i> has embedded null characters, the <b>WindowsCreateString</b> function copies all characters to the terminating null character.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
- 
-
- 
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
 

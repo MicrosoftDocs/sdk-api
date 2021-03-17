@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.InitializeDiscRecorder
 title: IDiscRecorder2::InitializeDiscRecorder (imapi2.h)
 description: Associates the object with the specified disc device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","InitializeDiscRecorder method","IDiscRecorder2.InitializeDiscRecorder","IDiscRecorder2::InitializeDiscRecorder","InitializeDiscRecorder","InitializeDiscRecorder method [IMAPI]","InitializeDiscRecorder method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_initializediscrecorder","imapi2/IDiscRecorder2::InitializeDiscRecorder"]
 old-location: imapi\idiscrecorder2_initializediscrecorder.htm
 tech.root: imapi
 ms.assetid: 19a647b3-ef39-4208-9dfc-e52242a88c6c
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],InitializeDiscRecorder method, IDiscRecorder2.InitializeDiscRecorder, IDiscRecorder2::InitializeDiscRecorder, InitializeDiscRecorder, InitializeDiscRecorder method [IMAPI], InitializeDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_initializediscrecorder, imapi2/IDiscRecorder2::InitializeDiscRecorder
-f1_keywords:
-- imapi2/IDiscRecorder2.InitializeDiscRecorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.InitializeDiscRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::InitializeDiscRecorder
+ - imapi2/IDiscRecorder2::InitializeDiscRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.InitializeDiscRecorder
 ---
 
 # IDiscRecorder2::InitializeDiscRecorder
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates the object with the specified disc device.
 
-
 ## -parameters
-
-
-
 
 ### -param recorderUniqueId [in]
 
 String that contains the unique identifier for the device.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -345,35 +339,19 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must initialize the recorder before calling any of the methods of this interface. 
 
-To retrieve a list of devices on the computer and their unique identifiers, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
+To retrieve a list of devices on the computer and their unique identifiers, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
 
-This method will not fail on a drive that is exclusively locked.  However, if the drive is exclusively locked, several of the methods of this interface may return E_IMAPI_RECORDER_LOCKED. To determine who has exclusive access, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> method.
-
-
-
+This method will not fail on a drive that is exclusively locked.  However, if the drive is exclusively locked, several of the methods of this interface may return E_IMAPI_RECORDER_LOCKED. To determine who has exclusive access, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">IDiscRecorder2::get_ActiveDiscRecorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">IDiscRecorder2::get_ActiveDiscRecorder</a>

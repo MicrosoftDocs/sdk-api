@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminIsServiceInitialized
 title: MprAdminIsServiceInitialized function (mprapi.h)
 description: The MprAdminIsServiceInitialized function checks whether the RRAS service is running on a specified server if the calling process has access.
+helpviewer_keywords: ["FALSE","MprAdminIsServiceInitialized","MprAdminIsServiceInitialized function [RAS]","TRUE","mprapi/MprAdminIsServiceInitialized","rras.mpradminisserviceinitialized"]
 old-location: rras\mpradminisserviceinitialized.htm
 tech.root: RRAS
 ms.assetid: 912bbb7d-f566-4297-b412-605658acaac8
 ms.date: 12/05/2018
 ms.keywords: FALSE, MprAdminIsServiceInitialized, MprAdminIsServiceInitialized function [RAS], TRUE, mprapi/MprAdminIsServiceInitialized, rras.mpradminisserviceinitialized
-f1_keywords:
-- mprapi/MprAdminIsServiceInitialized
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminIsServiceInitialized
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminIsServiceInitialized
+ - mprapi/MprAdminIsServiceInitialized
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminIsServiceInitialized
 ---
 
 # MprAdminIsServiceInitialized function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MprAdminIsServiceInitialized</b> function checks whether the RRAS service is running on a specified server if the calling process has access. 
-
+<b>MprAdminIsServiceInitialized</b> function checks whether the RRAS service is running on a specified server if the calling process has access.
 
 ## -parameters
-
-
-
 
 ### -param lpwsServerName [in]
 
 A pointer to a <b>null</b>-terminated Unicode string that specifies the name of the server to query. If this parameter is <b>NULL</b>, the function queries the local machine.
-
 
 ### -param fIsServiceInitialized [in]
 
@@ -93,12 +89,8 @@ The service is not running on the specified server and/or the calling process do
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -143,30 +135,19 @@ The calling application does not have sufficient privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminisservicerunning">MprAdminIsServiceRunning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminisservicerunning">MprAdminIsServiceRunning</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

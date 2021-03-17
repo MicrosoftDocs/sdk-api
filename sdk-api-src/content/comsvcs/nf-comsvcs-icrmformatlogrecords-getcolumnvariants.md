@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnVariants
 title: ICrmFormatLogRecords::GetColumnVariants (comsvcs.h)
 description: Formats one structured log record into an array of viewable fields.
+helpviewer_keywords: ["GetColumnVariants","GetColumnVariants method [COM+]","GetColumnVariants method [COM+]","ICrmFormatLogRecords interface","ICrmFormatLogRecords interface [COM+]","GetColumnVariants method","ICrmFormatLogRecords.GetColumnVariants","ICrmFormatLogRecords::GetColumnVariants","_dtc_ICrmFormatLogRecords_GetColumnVariants","comsvcs/ICrmFormatLogRecords::GetColumnVariants","cos.icrmformatlogrecords_getcolumnvariants"]
 old-location: cos\icrmformatlogrecords_getcolumnvariants.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f2681fe3-744b-4172-8908-1d823d2e2371
 ms.date: 12/05/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
-f1_keywords:
-- comsvcs/ICrmFormatLogRecords.GetColumnVariants
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmFormatLogRecords.GetColumnVariants
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmFormatLogRecords::GetColumnVariants
+ - comsvcs/ICrmFormatLogRecords::GetColumnVariants
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmFormatLogRecords.GetColumnVariants
 ---
 
 # ICrmFormatLogRecords::GetColumnVariants
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats one structured log record into an array of viewable fields.
 
-
 ## -parameters
-
-
-
 
 ### -param LogRecord [in]
 
 The structured log record to be formatted.
 
-
 ### -param pFormattedLogRecord [out]
 
 A <b>Variant</b> array of the fields in this log record as <b>Variant</b> strings.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +105,7 @@ The log record could not be formatted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>

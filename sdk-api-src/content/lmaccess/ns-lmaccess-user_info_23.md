@@ -2,15 +2,12 @@
 UID: NS:lmaccess._USER_INFO_23
 title: USER_INFO_23 (lmaccess.h)
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's security identifier (SID).
+helpviewer_keywords: ["*LPUSER_INFO_23","*PUSER_INFO_23","LPUSER_INFO_23","LPUSER_INFO_23 structure pointer [Network Management]","PUSER_INFO_23","PUSER_INFO_23 structure pointer [Network Management]","UF_ACCOUNTDISABLE","UF_DONT_EXPIRE_PASSWD","UF_DONT_REQUIRE_PREAUTH","UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED","UF_HOMEDIR_REQUIRED","UF_INTERDOMAIN_TRUST_ACCOUNT","UF_LOCKOUT","UF_NORMAL_ACCOUNT","UF_NOT_DELEGATED","UF_PASSWD_CANT_CHANGE","UF_PASSWD_NOTREQD","UF_PASSWORD_EXPIRED","UF_SCRIPT","UF_SERVER_TRUST_ACCOUNT","UF_SMARTCARD_REQUIRED","UF_TEMP_DUPLICATE_ACCOUNT","UF_TRUSTED_FOR_DELEGATION","UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION","UF_USE_DES_KEY_ONLY","UF_WORKSTATION_TRUST_ACCOUNT","USER_INFO_23","USER_INFO_23 structure [Network Management]","_win32_user_info_23_str","lmaccess/LPUSER_INFO_23","lmaccess/PUSER_INFO_23","lmaccess/USER_INFO_23","netmgmt.user_info_23_str"]
 old-location: netmgmt\user_info_23_str.htm
 tech.root: NetMgmt
 ms.assetid: 1af3ff6d-bc9f-44ad-9981-124ac1961298
 ms.date: 12/05/2018
 ms.keywords: '*LPUSER_INFO_23, *PUSER_INFO_23, LPUSER_INFO_23, LPUSER_INFO_23 structure pointer [Network Management], PUSER_INFO_23, PUSER_INFO_23 structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_HOMEDIR_REQUIRED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, USER_INFO_23, USER_INFO_23 structure [Network Management], _win32_user_info_23_str, lmaccess/LPUSER_INFO_23, lmaccess/PUSER_INFO_23, lmaccess/USER_INFO_23, netmgmt.user_info_23_str'
-f1_keywords:
-- lmaccess/USER_INFO_23
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- USER_INFO_23
 targetos: Windows
 req.typenames: USER_INFO_23, *PUSER_INFO_23, *LPUSER_INFO_23
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USER_INFO_23
+ - lmaccess/_USER_INFO_23
+ - PUSER_INFO_23
+ - lmaccess/PUSER_INFO_23
+ - USER_INFO_23
+ - lmaccess/USER_INFO_23
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - USER_INFO_23
 ---
 
 # USER_INFO_23 structure
@@ -48,12 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USER_INFO_23</b> structure contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's security identifier (SID).
 <div class="alert"><b>Note</b>  <p class="note">The 
 <b>USER_INFO_23</b> structure supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structure. It is recommended that applications use 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structure. It is recommended that applications use 
 the <b>USER_INFO_23</b> structure instead of the 
 <b>USER_INFO_20</b> structure.
 
@@ -61,16 +66,12 @@ the <b>USER_INFO_23</b> structure instead of the
 
 ## -struct-fields
 
-
-
-
 ### -field usri23_name
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies the name of the user account. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function ignore this member.
 
 ### -field usri23_full_name
 
@@ -78,13 +79,11 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the full name of the user. This string can be a null string, or it can have any number of characters before the terminating null character.
 
-
 ### -field usri23_comment
 
 Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains a comment associated with the user account. This string can be a null string, or it can have any number of characters before the terminating null character.
-
 
 ### -field usri23_flags
 
@@ -92,7 +91,7 @@ Type: <b>DWORD</b>
 
 This member can be one or more of the following values. 
 
-Note that setting  user account control flags may require certain <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/AD/control-access-rights">control access rights</a>. For more information, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+Note that setting  user account control flags may require certain <a href="/windows/desktop/SecAuthZ/privileges">privileges</a> and <a href="/windows/desktop/AD/control-access-rights">control access rights</a>. For more information, see the Remarks section of the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -156,7 +155,7 @@ The user cannot change the password.
 </td>
 <td width="60%">
 The account is currently locked out. You can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function to clear this value and unlock a previously locked account. You cannot use this value to lock a previously unlocked account.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function to clear this value and unlock a previously locked account. You cannot use this value to lock a previously unlocked account.
 
 </td>
 </tr>
@@ -258,7 +257,7 @@ The account is currently locked out. You can call the
  
 
 The following values describe the account type. Only one value can be set. You cannot change the account type using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 <table>
 <tr>
@@ -316,54 +315,44 @@ This is a permit to trust account for a domain that trusts other domains.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field usri23_user_sid
 
 Type: <b>PSID</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) that uniquely identifies the user. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the security identifier (SID) that uniquely identifies the user. The 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetinfo">NetUserGetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>

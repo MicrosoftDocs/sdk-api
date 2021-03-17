@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReadingInformationUIElement.GetString
 title: ITfReadingInformationUIElement::GetString (msctf.h)
 description: This method returns the string on the reading information UI.
+helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetString method","ITfReadingInformationUIElement.GetString","ITfReadingInformationUIElement::GetString","msctf/ITfReadingInformationUIElement::GetString","tsf.iitfreadinginformationuielement_getstring","tsf.itfreadinginformationuielement_getstring"]
 old-location: tsf\itfreadinginformationuielement_getstring.htm
 tech.root: TSF
 ms.assetid: d8e7dae5-ea73-4fad-a731-3ca1eaa60b03
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetString method, ITfReadingInformationUIElement.GetString, ITfReadingInformationUIElement::GetString, msctf/ITfReadingInformationUIElement::GetString, tsf.iitfreadinginformationuielement_getstring, tsf.itfreadinginformationuielement_getstring
-f1_keywords:
-- msctf/ITfReadingInformationUIElement.GetString
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfReadingInformationUIElement.GetString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadingInformationUIElement::GetString
+ - msctf/ITfReadingInformationUIElement::GetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfReadingInformationUIElement.GetString
 ---
 
 # ITfReadingInformationUIElement::GetString
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 This  method returns the string on the reading information UI.
 
-
 ## -parameters
-
-
-
 
 ### -param pstr [out]
 
 [out] A pointer to the BSTR of the reading information string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

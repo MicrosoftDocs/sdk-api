@@ -2,15 +2,12 @@
 UID: NF:mswmdm.ISCPSecureQuery.ExamineData
 title: ISCPSecureQuery::ExamineData (mswmdm.h)
 description: The ExamineData method determines rights and responsibility for the content by examining data that Windows Media Device Manager passes to this method.
+helpviewer_keywords: ["ExamineData","ExamineData method [windows Media Device Manager]","ExamineData method [windows Media Device Manager]","ISCPSecureQuery interface","ISCPSecureQuery interface [windows Media Device Manager]","ExamineData method","ISCPSecureQuery.ExamineData","ISCPSecureQuery::ExamineData","ISCPSecureQueryExamineData","mswmdm/ISCPSecureQuery::ExamineData","wmdm.iscpsecurequery_examinedata"]
 old-location: wmdm\iscpsecurequery_examinedata.htm
 tech.root: WMDM
 ms.assetid: e12d8b55-5600-4178-8b2b-8afe8ade6818
 ms.date: 12/05/2018
 ms.keywords: ExamineData, ExamineData method [windows Media Device Manager], ExamineData method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],ExamineData method, ISCPSecureQuery.ExamineData, ISCPSecureQuery::ExamineData, ISCPSecureQueryExamineData, mswmdm/ISCPSecureQuery::ExamineData, wmdm.iscpsecurequery_examinedata
-f1_keywords:
-- mswmdm/ISCPSecureQuery.ExamineData
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- ISCPSecureQuery.ExamineData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureQuery::ExamineData
+ - mswmdm/ISCPSecureQuery::ExamineData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - ISCPSecureQuery.ExamineData
 ---
 
 # ISCPSecureQuery::ExamineData
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ExamineData</b> method determines rights and responsibility for the content by examining data that Windows Media Device Manager passes to this method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fuFlags [in]
 
@@ -77,32 +71,24 @@ Flags describing the data offered to the secure content provider to make decisio
 <td>The <i>pData</i> parameter points to data to be examined.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwszExtension [in]
 
-Pointer to the file name extension to be examined if the secure content provider asks for an extension in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a> call.
-
+Pointer to the file name extension to be examined if the secure content provider asks for an extension in the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a> call.
 
 ### -param pData [in]
 
 Pointer to the data at the beginning of the file to be examined. This parameter must be included in the input message authentication code and must be encrypted.
 
-
 ### -param dwSize [in]
 
 <b>DWORD</b> that contains the length, in bytes, of the data to be examined. This parameter must be included in the input message authentication code.
-
 
 ### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -189,14 +175,8 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is called after the <b>GetDataDemands</b> method. The secure content provider uses the information passed in this method to determine whether it is responsible for the content. The <i>fuFlags</i> parameter is consulted to determine which data has been presented for examination. The <i>pData</i> parameter points to the beginning of the rights and responsibility data. The <i>dwSize</i> parameter contains the length, in bytes, of the rights and responsibility data.
 
@@ -204,16 +184,6 @@ If the WMDM_SCP_EXAMINE_DATA flag is set, then the <i>pDataBuffer</i> parameter 
 
 If this method does not return S_OK or WMDM_E_MOREDATA, then Windows Media Device Manager does not make any further calls to this secure content provider.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>

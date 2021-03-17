@@ -2,15 +2,12 @@
 UID: NF:winnt.Int64ShrlMod32
 title: Int64ShrlMod32 macro (winnt.h)
 description: Performs a right logical shift operation on an unsigned 64-bit integer value. The function provides improved shifting code for right logical shifts where the shift count is in the range 0-31.
+helpviewer_keywords: ["Int64ShrlMod32","Int64ShrlMod32 macro [Windows API]","_win32_int64shrlmod32","winnt/Int64ShrlMod32","winprog.int64shrlmod32"]
 old-location: winprog\int64shrlmod32.htm
 tech.root: WinProg
 ms.assetid: 95ce281a-92b1-4c9b-a345-6b50f0285d65
 ms.date: 12/05/2018
 ms.keywords: Int64ShrlMod32, Int64ShrlMod32 macro [Windows API], _win32_int64shrlmod32, winnt/Int64ShrlMod32, winprog.int64shrlmod32
-f1_keywords:
-- winnt/Int64ShrlMod32
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- Int64ShrlMod32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Int64ShrlMod32
+ - winnt/Int64ShrlMod32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - Int64ShrlMod32
 ---
 
 # Int64ShrlMod32 macro
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a right logical shift operation on an unsigned 64-bit integer value. The function provides improved shifting code for right logical shifts where the shift count is in the range 0-31.
 
-
 ## -parameters
-
-
-
 
 ### -param a [in]
 
 The unsigned 64-bit integer to be shifted.
 
-
 ### -param b [in]
 
 The shift count in the range 0-31.
 
-
 ## -remarks
-
-
 
 The shift count is the number of bit positions that the value's bits move.
 
@@ -80,26 +73,17 @@ A compiler can generate optimal code for a right logical shift operation when th
 
 <div class="alert"><b>Note</b>  The 
 <b>Int64ShrlMod32</b> function's <i>Value</i> parameter and return value are 64-bit values, not 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structures.</div>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structures.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/nf-winnt-int64shllmod32">Int64ShllMod32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shllmod32">Int64ShllMod32</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-int64shramod32">Int64ShraMod32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int64shramod32">Int64ShraMod32</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinProg/large-integers">Large Integers</a>

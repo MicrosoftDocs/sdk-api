@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilPropertyListFromParameterBlock
 title: ResUtilPropertyListFromParameterBlock function (resapi.h)
 description: Constructs a property list from a property table and a parameter block.
+helpviewer_keywords: ["PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK","PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster]","ResUtilPropertyListFromParameterBlock","ResUtilPropertyListFromParameterBlock function [Failover Cluster]","_wolf_resutilpropertylistfromparameterblock","mscs.resutilpropertylistfromparameterblock","resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK","resapi/ResUtilPropertyListFromParameterBlock"]
 old-location: mscs\resutilpropertylistfromparameterblock.htm
 tech.root: MsCS
 ms.assetid: 6993e279-07c7-4444-b1b9-0d25360e43e3
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK function [Failover Cluster], ResUtilPropertyListFromParameterBlock, ResUtilPropertyListFromParameterBlock function [Failover Cluster], _wolf_resutilpropertylistfromparameterblock, mscs.resutilpropertylistfromparameterblock, resapi/PRESUTIL_PROPERTY_LIST_FROM_PARAMETER_BLOCK, resapi/ResUtilPropertyListFromParameterBlock
-f1_keywords:
-- resapi/ResUtilPropertyListFromParameterBlock
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-- Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
-api_name:
-- ResUtilPropertyListFromParameterBlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilPropertyListFromParameterBlock
+ - resapi/ResUtilPropertyListFromParameterBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+ - Ext-MS-Win-Cluster-ResUtils-L1-1-1.dll
+api_name:
+ - ResUtilPropertyListFromParameterBlock
 ---
 
 # ResUtilPropertyListFromParameterBlock function
@@ -49,56 +51,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Constructs a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> and a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a>.
-
+    <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> from a 
+    <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a> and a 
+    <a href="/previous-versions/windows/desktop/mscs/parameter-blocks">parameter block</a>.
 
 ## -parameters
-
-
-
 
 ### -param pPropertyTable [in]
 
 Pointer to a property table describing the properties that will be included in the resulting property list.
 
-
 ### -param pOutPropertyList [out, optional]
 
 Pointer to an output buffer that receives the property list.
-
 
 ### -param pcbOutPropertyListSize [in, out]
 
 Pointer to the size of the output buffer in bytes.
 
-
 ### -param pInParams [in]
 
 Pointer to the parameter block in which the property values are stored.
-
 
 ### -param pcbBytesReturned [out]
 
 If the function returns <b>ERROR_SUCCESS</b>, <i>pcbBytesReturned</i> points to the actual byte size of the property list pointed to by <i>pOutPropertyList</i>. If the function does not return <b>ERROR_SUCCESS</b>, <i>pcbBytesReturned</i> points to a value of zero.
 
-
 ### -param pcbRequired [out]
 
 If the function returns <b>ERROR_MORE_DATA</b>, <i>pcbRequired</i> points to the byte size required to contain the property list. If the function does not return <b>ERROR_MORE_DATA</b>, <i>pcbBytesReturned</i> points to a value of zero.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -140,14 +129,8 @@ There was an error allocating memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In this function, the property table determines the order in which the properties appear in the property list, as well as the name and format of each property. The function reads the property table to determine the name and format of each property.
 
@@ -158,7 +141,7 @@ The parameter block provides the property values.
 
 The following example defines three properties (Protocol, PortNumber, and ConnectionName). It uses the 
      <b>ResUtilPropertyListFromParameterBlock</b> function to create a property list. This 
-     example uses the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
+     example uses the <a href="/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 
@@ -287,17 +270,6 @@ The following example defines three properties (Protocol, PortNumber, and Connec
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

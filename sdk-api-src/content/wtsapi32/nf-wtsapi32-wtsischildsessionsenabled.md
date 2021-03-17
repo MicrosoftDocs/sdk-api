@@ -2,15 +2,12 @@
 UID: NF:wtsapi32.WTSIsChildSessionsEnabled
 title: WTSIsChildSessionsEnabled function (wtsapi32.h)
 description: Determines whether child sessions are enabled.
+helpviewer_keywords: ["WTSIsChildSessionsEnabled","WTSIsChildSessionsEnabled function [Remote Desktop Services]","termserv.wtsischildsessionsenabled","wtsapi32/WTSIsChildSessionsEnabled"]
 old-location: termserv\wtsischildsessionsenabled.htm
 tech.root: TermServ
 ms.assetid: 814828A8-1FFB-4ED2-A695-11C87723D5BB
 ms.date: 12/05/2018
 ms.keywords: WTSIsChildSessionsEnabled, WTSIsChildSessionsEnabled function [Remote Desktop Services], termserv.wtsischildsessionsenabled, wtsapi32/WTSIsChildSessionsEnabled
-f1_keywords:
-- wtsapi32/WTSIsChildSessionsEnabled
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSIsChildSessionsEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSIsChildSessionsEnabled
+ - wtsapi32/WTSIsChildSessionsEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSIsChildSessionsEnabled
 ---
 
 # WTSIsChildSessionsEnabled function
@@ -48,34 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether child sessions are enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param pbEnabled [out]
 
 The address of a <b>BOOL</b> variable that receives a nonzero value if child sessions are enabled or zero otherwise.
 
-
 ## -returns
-
-
 
 Returns nonzero if the function succeeds or zero otherwise.
 
-
-
-
 ## -remarks
 
-
-
-For more information about child sessions, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
-
-
-
+For more information about child sessions, see <a href="/windows/desktop/TermServ/child-sessions">Child Sessions</a>.

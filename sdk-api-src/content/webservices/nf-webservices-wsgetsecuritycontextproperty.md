@@ -2,15 +2,12 @@
 UID: NF:webservices.WsGetSecurityContextProperty
 title: WsGetSecurityContextProperty function (webservices.h)
 description: Gets a property of the specified security context.
+helpviewer_keywords: ["WsGetSecurityContextProperty","WsGetSecurityContextProperty function [Web Services for Windows]","webservices/WsGetSecurityContextProperty","wsw.wsgetsecuritycontextproperty"]
 old-location: wsw\wsgetsecuritycontextproperty.htm
 tech.root: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
 ms.date: 12/05/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
-f1_keywords:
-- webservices/WsGetSecurityContextProperty
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsGetSecurityContextProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsGetSecurityContextProperty
+ - webservices/WsGetSecurityContextProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsGetSecurityContextProperty
 ---
 
 # WsGetSecurityContextProperty function
@@ -48,49 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a property of the specified security context.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param securityContext [in]
 
 The security context that is queried for its property.
-        
-
 
 ### -param id [in]
 
-The id of the property (one of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_context_property_id">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
-        
-
+The id of the property (one of <a href="/windows/desktop/api/webservices/ne-webservices-ws_security_context_property_id">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
 
 ### -param value
 
 The address to place the retrieved value. The pointer must have an alignment compatible with the type of the property.
-        
-
 
 ### -param valueSize [in]
 
 The size of the buffer that the caller has allocated for the retrieved value.
-        
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-        
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -133,7 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

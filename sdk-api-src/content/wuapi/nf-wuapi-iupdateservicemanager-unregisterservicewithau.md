@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateServiceManager.UnregisterServiceWithAU
 title: IUpdateServiceManager::UnregisterServiceWithAU (wuapi.h)
 description: Unregisters a service with Automatic Updates.
+helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","UnregisterServiceWithAU method","IUpdateServiceManager.UnregisterServiceWithAU","IUpdateServiceManager::UnregisterServiceWithAU","UnregisterServiceWithAU","UnregisterServiceWithAU method [Windows Update Agent]","UnregisterServiceWithAU method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_unregisterservicewithau","wuapi/IUpdateServiceManager::UnregisterServiceWithAU"]
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
-f1_keywords:
-- wuapi/IUpdateServiceManager.UnregisterServiceWithAU
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager.UnregisterServiceWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager::UnregisterServiceWithAU
+ - wuapi/IUpdateServiceManager::UnregisterServiceWithAU
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager.UnregisterServiceWithAU
 ---
 
 # IUpdateServiceManager::UnregisterServiceWithAU
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a service with Automatic Updates.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceID
 
 An identifier for the service to be unregistered.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -154,31 +148,15 @@ The user canceled the change.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the Authorization Cab has not been signed.
+This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the Authorization Cab has not been signed.
 
 This method returns <b>WU_E_DS_UNKNOWNSERVICE</b> if the service to be removed does not exist.
 
 This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you attempt to remove the Windows Update service and if it is the only service that is registered with Automatic Updates.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

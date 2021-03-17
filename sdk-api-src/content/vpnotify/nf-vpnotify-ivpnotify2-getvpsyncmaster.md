@@ -2,15 +2,12 @@
 UID: NF:vpnotify.IVPNotify2.GetVPSyncMaster
 title: IVPNotify2::GetVPSyncMaster (vpnotify.h)
 description: The GetVPSyncMaster method checks whether the video port controls the synchronization of the VGA.
+helpviewer_keywords: ["GetVPSyncMaster","GetVPSyncMaster method [DirectShow]","GetVPSyncMaster method [DirectShow]","IVPNotify2 interface","IVPNotify2 interface [DirectShow]","GetVPSyncMaster method","IVPNotify2.GetVPSyncMaster","IVPNotify2::GetVPSyncMaster","IVPNotify2GetVPSyncMaster","dshow.ivpnotify2_getvpsyncmaster","vpnotify/IVPNotify2::GetVPSyncMaster"]
 old-location: dshow\ivpnotify2_getvpsyncmaster.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: afc75615-1be5-4f1f-ace2-f3a17420b591
 ms.date: 12/05/2018
 ms.keywords: GetVPSyncMaster, GetVPSyncMaster method [DirectShow], GetVPSyncMaster method [DirectShow],IVPNotify2 interface, IVPNotify2 interface [DirectShow],GetVPSyncMaster method, IVPNotify2.GetVPSyncMaster, IVPNotify2::GetVPSyncMaster, IVPNotify2GetVPSyncMaster, dshow.ivpnotify2_getvpsyncmaster, vpnotify/IVPNotify2::GetVPSyncMaster
-f1_keywords:
-- vpnotify/IVPNotify2.GetVPSyncMaster
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVPNotify2.GetVPSyncMaster
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPNotify2::GetVPSyncMaster
+ - vpnotify/IVPNotify2::GetVPSyncMaster
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVPNotify2.GetVPSyncMaster
 ---
 
 # IVPNotify2::GetVPSyncMaster
@@ -49,52 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetVPSyncMaster</code> method checks whether the video port controls the synchronization of the VGA.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbVPSyncMaster [out]
 
 Pointer to a value indicating whether the video port controls the vertical synchronization of the VGA monitor. <b>TRUE</b> if the port controls the monitor's synchronization; <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 Include Vptype.h before Vpnotify.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2">IVPNotify2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2">IVPNotify2 Interface</a>

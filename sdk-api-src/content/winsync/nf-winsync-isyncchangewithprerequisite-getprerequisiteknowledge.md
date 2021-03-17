@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 title: ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge (winsync.h)
 description: Gets the minimum knowledge that a destination provider is required to have to process this change.
+helpviewer_keywords: ["GetPrerequisiteKnowledge","GetPrerequisiteKnowledge method [Windows Sync]","GetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeWithPrerequisite interface","ISyncChangeWithPrerequisite interface [Windows Sync]","GetPrerequisiteKnowledge method","ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge","ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge","winsync.isyncchangewithprerequisite_getprerequisiteknowledge","winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge"]
 old-location: winsync\isyncchangewithprerequisite_getprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: 48aa9436-b708-4dad-9201-d57988baf749
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge, ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge, winsync.isyncchangewithprerequisite_getprerequisiteknowledge, winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
-f1_keywords:
-- winsync/ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
+ - winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 ---
 
 # ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the minimum knowledge that a destination provider is required to have to process this change.
 
-
 ## -parameters
-
-
-
 
 ### -param ppPrerequisiteKnowledge [out]
 
 The minimum knowledge that a destination provider is required to have to process this change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -107,18 +101,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangewithprerequisite">ISyncChangeWithPrerequisite Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangewithprerequisite">ISyncChangeWithPrerequisite Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.RequestEditSession
 title: ITfContext::RequestEditSession (msctf.h)
 description: ITfContext::RequestEditSession method
+helpviewer_keywords: ["ITfContext interface [Text Services Framework]","RequestEditSession method","ITfContext.RequestEditSession","ITfContext::RequestEditSession","RequestEditSession","RequestEditSession method [Text Services Framework]","RequestEditSession method [Text Services Framework]","ITfContext interface","TF_ES_ASYNC","TF_ES_ASYNCDONTCARE","TF_ES_READ","TF_ES_READWRITE","TF_ES_SYNC","_tsf_itfcontext_requesteditsession_ref","msctf/ITfContext::RequestEditSession","tsf.itfcontext_requesteditsession"]
 old-location: tsf\itfcontext_requesteditsession.htm
 tech.root: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
-f1_keywords:
-- msctf/ITfContext.RequestEditSession
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.RequestEditSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::RequestEditSession
+ - msctf/ITfContext::RequestEditSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.RequestEditSession
 ---
 
 # ITfContext::RequestEditSession
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains access to the document text and properties.
 
 ## -parameters
 
-
-
-
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client to establish the edit session with.
-
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client to establish the edit session with.
 
 ### -param pes [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession</a> interface called to perform the edit session.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession</a> interface called to perform the edit session.
 
 ### -param dwFlags [in]
 
@@ -126,8 +122,6 @@ The edit session must be asynchronous or the request fails. This value cannot be
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phrSession [out]
 
@@ -137,12 +131,10 @@ Address of an <b>HRESULT</b> value that receives the result of the edit session 
 <li>If an asynchronous edit session is requested and can be established, receives TF_S_ASYNC.</li>
 <li>If a synchronous edit session is requested and cannot be established, receives TF_E_SYNCHRONOUS.</li>
 <li>If the TF_ES_READWRITE flag is specified and the document is read-only, receives TS_E_READONLY.</li>
-<li>If a synchronous edit session is established, receives the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.</li>
+<li>If a synchronous edit session is established, receives the return value of the <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.</li>
 </ul>
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,14 +199,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Pending asynchronous edit sessions are processed in the order received. Synchronous edit sessions are processed before any pending asynchronous edit sessions.
 
@@ -224,48 +210,19 @@ A synchronous read/write request will fail if made when processing one of the fo
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
+<a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
+<a href="/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
             </a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
+<a href="/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
             </a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditsession">ITfEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfstatussink-onstatuschange">ITfStatusSink::OnStatusChange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession interface](nn-msctf-itfeditsession.md), [ITfStatusSink::OnStatusChange](nf-msctf-itfstatussink-onstatuschange.md), [ITfTextEditSink::OnEndEdit](nf-msctf-itftexteditsink-onendedit.md), [ITfTextLayoutSink::OnLayoutChange](nf-msctf-itftextlayoutsink-onlayoutchange.md)

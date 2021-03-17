@@ -2,15 +2,12 @@
 UID: NF:evntprov.EventActivityIdControl
 title: EventActivityIdControl function (evntprov.h)
 description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
+helpviewer_keywords: ["EVENT_ACTIVITY_CTRL_CREATE_ID","EVENT_ACTIVITY_CTRL_CREATE_SET_ID","EVENT_ACTIVITY_CTRL_GET_ID","EVENT_ACTIVITY_CTRL_GET_SET_ID","EVENT_ACTIVITY_CTRL_SET_ID","EventActivityIdControl","EventActivityIdControl function [ETW]","base.eventactivityidcontrol_func","etw.eventactivityidcontrol_func","evntprov/EventActivityIdControl"]
 old-location: etw\eventactivityidcontrol_func.htm
 tech.root: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.date: 12/05/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
-f1_keywords:
-- evntprov/EventActivityIdControl
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-eventing-provider-l1-1-0.dll
-- API-MS-Win-Eventing-Provider-L1-1-1.dll
-api_name:
-- EventActivityIdControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventActivityIdControl
+ - evntprov/EventActivityIdControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+ - EventActivityIdControl
 ---
 
 # EventActivityIdControl function
@@ -53,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates, queries, and sets the current activity identifier used by the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> function.
-
+   <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> function.
 
 ## -parameters
-
-
-
 
 ### -param ControlCode [in]
 
@@ -133,39 +130,19 @@ Performs the following:
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ActivityId [in, out]
 
 A GUID that uniquely identifies the activity. To determine  when this parameter is an input parameter, an output parameter or both, see the descriptions for the <i>ControlCodes</i> parameter.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful.
 
-
-
-
 ## -remarks
-
-
 
 The EVENT_ACTIVITY_CTRL_GET_ID control code returns a GUID with all zeros (GUID_NULL) if the identifier has not been set.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>

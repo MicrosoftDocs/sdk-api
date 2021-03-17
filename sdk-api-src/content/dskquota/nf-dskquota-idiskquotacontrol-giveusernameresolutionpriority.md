@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.GiveUserNameResolutionPriority
 title: IDiskQuotaControl::GiveUserNameResolutionPriority (dskquota.h)
 description: Promotes the specified user object to the head of the queue so that it is next in line for resolution.
+helpviewer_keywords: ["GiveUserNameResolutionPriority","GiveUserNameResolutionPriority method [Files]","GiveUserNameResolutionPriority method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GiveUserNameResolutionPriority method","IDiskQuotaControl.GiveUserNameResolutionPriority","IDiskQuotaControl::GiveUserNameResolutionPriority","_win32_idiskquotacontrol_giveusernameresolutionpriority","base.idiskquotacontrol_giveusernameresolutionpriority","dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority","fs.idiskquotacontrol_giveusernameresolutionpriority"]
 old-location: fs\idiskquotacontrol_giveusernameresolutionpriority.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 07de4fc4-e68f-405d-bb96-14ccad37e8e8
 ms.date: 12/05/2018
 ms.keywords: GiveUserNameResolutionPriority, GiveUserNameResolutionPriority method [Files], GiveUserNameResolutionPriority method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GiveUserNameResolutionPriority method, IDiskQuotaControl.GiveUserNameResolutionPriority, IDiskQuotaControl::GiveUserNameResolutionPriority, _win32_idiskquotacontrol_giveusernameresolutionpriority, base.idiskquotacontrol_giveusernameresolutionpriority, dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority, fs.idiskquotacontrol_giveusernameresolutionpriority
-f1_keywords:
-- dskquota/IDiskQuotaControl.GiveUserNameResolutionPriority
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.GiveUserNameResolutionPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::GiveUserNameResolutionPriority
+ - dskquota/IDiskQuotaControl::GiveUserNameResolutionPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.GiveUserNameResolutionPriority
 ---
 
 # IDiskQuotaControl::GiveUserNameResolutionPriority
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Promotes the specified user object to the head of the queue so that it is next in line for resolution. By default, quota user objects are serviced in the order in which they were placed in the queue.
 
 This method is applicable only when asynchronous name resolution is used.
 
-
 ## -parameters
-
-
-
 
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface.
 
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -121,26 +115,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

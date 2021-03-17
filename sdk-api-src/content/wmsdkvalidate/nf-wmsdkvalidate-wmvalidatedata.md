@@ -2,15 +2,12 @@
 UID: NF:wmsdkvalidate.WMValidateData
 title: WMValidateData function (wmsdkvalidate.h)
 description: The WMValidateData function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.
+helpviewer_keywords: ["WMValidateData","WMValidateData function [windows Media Format]","wmformat.wmvalidatedata","wmsdkvalidate/WMValidateData"]
 old-location: wmformat\wmvalidatedata.htm
 tech.root: wmformat
 ms.assetid: 0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab
 ms.date: 12/05/2018
 ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
-f1_keywords:
-- wmsdkvalidate/WMValidateData
-dev_langs:
-- c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMValidateData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMValidateData
+ - wmsdkvalidate/WMValidateData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMValidateData
 ---
 
 # WMValidateData function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMValidateData</b> function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.
 
 
 
 If you are writing an application that can handle many different file types, you can use this function to try to quickly determine whether the file can be read using the Windows Media Format SDK.
 
-
 ## -parameters
-
-
-
 
 ### -param pbData [in]
 
@@ -68,15 +64,11 @@ Pointer to a <b>BYTE</b> array containing the data buffer to validate. This data
 
 You can set this parameter to <b>NULL</b> to retrieve the minimum number of bytes to pass.
 
-
 ### -param pdwDataSize [in, out]
 
 Pointer to a <b>DWORD</b> containing the data size. If <i>pbData</i> is set to <b>NULL</b>, this value will be set to the minimum buffer size on return. The minimum buffer size is 512 bytes.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -130,29 +122,13 @@ The <i>pdwDataSize</i> parameter points to a value that is smaller than the mini
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function is typically used after a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension">WMCheckURLExtension</a>. This is for efficiency, because <b>WMValidateData</b> requires that you read some of the data from the file, whereas <b>WMCheckURLExtension</b> only evaluates the file name extension.
+This function is typically used after a call to <a href="/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension">WMCheckURLExtension</a>. This is for efficiency, because <b>WMValidateData</b> requires that you read some of the data from the file, whereas <b>WMCheckURLExtension</b> only evaluates the file name extension.
 
 It is possible for this function to identify a file as playable when it is not playable. However, if the function identifies a file as not playable, the file is certainly not playable.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

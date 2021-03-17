@@ -2,15 +2,12 @@
 UID: NS:ddkernel._DDKERNELCAPS
 title: DDKERNELCAPS (ddkernel.h)
 description: The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport.
+helpviewer_keywords: ["*LPDDKERNELCAPS","DDKERNELCAPS","DDKERNELCAPS structure [Display Devices]","LPDDKERNELCAPS","LPDDKERNELCAPS structure pointer [Display Devices]","ddkernel/DDKERNELCAPS","ddkernel/LPDDKERNELCAPS","ddstrcts_efe32a57-5435-4e15-a17f-880870d70c85.xml","display.ddkernelcaps"]
 old-location: display\ddkernelcaps.htm
 tech.root: display
 ms.assetid: d02d26f5-34cf-4a3c-b67c-0f9191bb854b
 ms.date: 12/05/2018
 ms.keywords: '*LPDDKERNELCAPS, DDKERNELCAPS, DDKERNELCAPS structure [Display Devices], LPDDKERNELCAPS, LPDDKERNELCAPS structure pointer [Display Devices], ddkernel/DDKERNELCAPS, ddkernel/LPDDKERNELCAPS, ddstrcts_efe32a57-5435-4e15-a17f-880870d70c85.xml, display.ddkernelcaps'
-f1_keywords:
-- ddkernel/DDKERNELCAPS
-dev_langs:
-- c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkernel.h
-api_name:
-- DDKERNELCAPS
 targetos: Windows
 req.typenames: '*LPDDKERNELCAPS, DDKERNELCAPS'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDKERNELCAPS
+ - ddkernel/_DDKERNELCAPS
+ - LPDDKERNELCAPS
+ - ddkernel/LPDDKERNELCAPS
+ - DDKERNELCAPS
+ - ddkernel/DDKERNELCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkernel.h
+api_name:
+ - DDKERNELCAPS
 ---
 
 # DDKERNELCAPS structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport. 
-
+The DDKERNELCAPS structure notifies the client what support, if any, exists in the miniport driver for the kernel-mode video transport.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Specifies the size, in bytes, of this structure. This member must be initialized before the structure is used. 
-
+Specifies the size, in bytes, of this structure. This member must be initialized before the structure is used.
 
 ### -field dwCaps
 
@@ -77,7 +77,7 @@ DDKERNELCAPS_AUTOFLIP
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> and the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callbacks, and that these callbacks can be used for autoflipping.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ DDKERNELCAPS_CAPTURE_INVERTED
 
 </td>
 <td>
-The device supports inverting the <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIBs</a> while capturing the data.
+The device supports inverting the <a href="/windows-hardware/drivers/">DIBs</a> while capturing the data.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ DDKERNELCAPS_CAPTURE_NONLOCALVIDMEM
 
 </td>
 <td>
-The device supports a <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
+The device supports a <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> capture interface capable of transferring data to nonlocal display memory.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ DDKERNELCAPS_FLIPOVERLAY
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callback.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a> callback.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ DDKERNELCAPS_FLIPVIDEOPORT
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> callback.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a> callback.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ DDKERNELCAPS_LOCK
 
 </td>
 <td>
-The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> callback.
+The device supports accessing the frame buffer without causing contention with blitters, and so on, and that the driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> callback.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ DDKERNELCAPS_SETSTATE
 
 </td>
 <td>
-The driver supports the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
+The driver supports the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a> callback, allowing a client to switch between bob and weave display modes.
 
 </td>
 </tr>
@@ -167,13 +167,11 @@ DDKERNELCAPS_SKIPFIELDS
 
 </td>
 <td>
-The device supports field skipping, either using hardware or by supporting the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a> callback.
+The device supports field skipping, either using hardware or by supporting the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a> callback.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwIRQCaps
 
@@ -395,32 +393,23 @@ he device can generate V-sync IRQs for hardware video port number 9.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipoverlay">DxFlipOverlay</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>

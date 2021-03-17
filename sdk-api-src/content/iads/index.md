@@ -1,17 +1,20 @@
 ---
 UID: NA:iads
+title: Iads.h header
 ms.assetid: 37322777-fb68-3a55-ad40-96f9b9258dd2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
+f1_keywords:
+ - iads
+ - iads/iads
 ---
 
 # Iads.h header
 
 
 ## -description
-
 
 This header is used by Security and Identity. For more information, see:
 

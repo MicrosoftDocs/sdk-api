@@ -2,15 +2,12 @@
 UID: NS:qossp._AD_GENERAL_PARAMS
 title: AD_GENERAL_PARAMS (qossp.h)
 description: The AD_GENERAL_PARAMS structure contains the General Characterization Parameters contained in the RSVP Adspec object.
+helpviewer_keywords: ["*LPAD_GENERAL_PARAMS","*LPAD_GENERAL_PARAMS structure [QOS]","AD_FLAG_BREAK_BIT","AD_GENERAL_PARAMS","AD_GENERAL_PARAMS structure [QOS]","qos.ad_general_params","qossp/*LPAD_GENERAL_PARAMS","qossp/AD_GENERAL_PARAMS"]
 old-location: qos\ad_general_params.htm
 tech.root: QOS
 ms.assetid: eab6b317-9d06-45e2-bc77-0882f40e7d79
 ms.date: 12/05/2018
 ms.keywords: '*LPAD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS structure [QOS], AD_FLAG_BREAK_BIT, AD_GENERAL_PARAMS, AD_GENERAL_PARAMS structure [QOS], qos.ad_general_params, qossp/*LPAD_GENERAL_PARAMS, qossp/AD_GENERAL_PARAMS'
-f1_keywords:
-- qossp/AD_GENERAL_PARAMS
-dev_langs:
-- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qossp.h
-api_name:
-- AD_GENERAL_PARAMS
 targetos: Windows
 req.typenames: AD_GENERAL_PARAMS, *LPAD_GENERAL_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AD_GENERAL_PARAMS
+ - qossp/_AD_GENERAL_PARAMS
+ - LPAD_GENERAL_PARAMS
+ - qossp/LPAD_GENERAL_PARAMS
+ - AD_GENERAL_PARAMS
+ - qossp/AD_GENERAL_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qossp.h
+api_name:
+ - AD_GENERAL_PARAMS
 ---
 
 # AD_GENERAL_PARAMS structure
@@ -48,34 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AD_GENERAL_PARAMS</b> structure contains the General Characterization Parameters contained in the RSVP Adspec object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field IntServAwareHopCount
 
 Number of hops that conform to Integrated Services (INTSERV) requirements.
 
-
 ### -field PathBandwidthEstimate
 
 Minimum bandwidth available from sender to receiver.
-
 
 ### -field MinimumLatency
 
 Sum of the minimum latency of the packet forwarding process in routers, in milliseconds. Can be set to INDETERMINATE_LATENCY.
 
-
 ### -field PathMTU
 
 Maximum Transmission Unit (MTU) for the end-to-end path between sender and receiver that will not incur packet fragmentation.
-
 
 ### -field Flags
 
@@ -97,16 +94,7 @@ Indicates the existence of a network element in the data path that does not supp
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>

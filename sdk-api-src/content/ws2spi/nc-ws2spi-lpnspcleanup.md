@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPCLEANUP
 title: LPNSPCLEANUP (ws2spi.h)
 description: Terminates the use of a particular Windows Sockets namespace service provider.
+helpviewer_keywords: ["LPNSPCLEANUP","NSPCleanup","NSPCleanup function [Winsock]","_win32_nspcleanup_2","winsock.nspcleanup_2","ws2spi/NSPCleanup"]
 old-location: winsock\nspcleanup_2.htm
 tech.root: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
 ms.date: 12/05/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
-f1_keywords:
-- ws2spi/NSPCleanup
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPCLEANUP
+ - ws2spi/LPNSPCLEANUP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPCleanup
 ---
 
 ## -description
@@ -51,7 +53,7 @@ The **NSPCleanup** function terminates the use of a particular Windows Sockets n
 
 ### -param lpProviderId [in]
 
-A pointer to the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) of the namespace provider to be terminated.
+A pointer to the [GUID](../guiddef/ns-guiddef-guid.md) of the namespace provider to be terminated.
 
 ## -returns
 

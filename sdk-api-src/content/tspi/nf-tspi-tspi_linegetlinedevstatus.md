@@ -2,15 +2,12 @@
 UID: NF:tspi.TSPI_lineGetLineDevStatus
 title: TSPI_lineGetLineDevStatus function (tspi.h)
 description: The TSPI_lineGetLineDevStatus function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
+helpviewer_keywords: ["TSPI_lineGetLineDevStatus","TSPI_lineGetLineDevStatus function [TAPI 2.2]","_tspi_tspi_linegetlinedevstatus","tspi.tspi_linegetlinedevstatus","tspi/TSPI_lineGetLineDevStatus"]
 old-location: tspi\tspi_linegetlinedevstatus.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus
-f1_keywords:
-- tspi/TSPI_lineGetLineDevStatus
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineGetLineDevStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineGetLineDevStatus
+ - tspi/TSPI_lineGetLineDevStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineGetLineDevStatus
 ---
 
 # TSPI_lineGetLineDevStatus function
@@ -48,44 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineGetLineDevStatus</b> function queries the specified open line device for its current status. The information returned is global to all addresses on the line.
 
-
 ## -parameters
-
-
-
 
 ### -param hdLine
 
 The service provider's handle to the line to be queried.
 
-
 ### -param lpLineDevStatus
 
 A pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
-
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>. This structure is filled with the line's device status.
 
 ## -returns
-
-
 
 Returns zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL, LINEERR_OPERATIONUNAVAIL.
 
-
-
-
 ## -remarks
 
-
-
 The following table indicates which members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a> data structure are filled in by TAPI and which are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
 
 <table>
 <tr>
@@ -189,22 +177,11 @@ The following table indicates which members of the
 <td>X</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>

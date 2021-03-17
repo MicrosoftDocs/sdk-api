@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.GetMultipleComponentsInfo
 title: ICOMAdminCatalog::GetMultipleComponentsInfo (comadmin.h)
 description: Retrieves information about the components found in the specified files.
+helpviewer_keywords: ["COMAdminComponentAlreadyInstalled","COMAdminComponentCOMPlusPropertiesFound","COMAdminComponentFlagTypeInfoFound","COMAdminComponentInterfacesFound","COMAdminComponentNotInApplication","COMAdminComponentProxyFound","COMAdminFileFlagAlreadyInstalled","COMAdminFileFlagBadTLB","COMAdminFileFlagCOM","COMAdminFileFlagClassNotAvailable","COMAdminFileFlagContainsComp","COMAdminFileFlagContainsRS","COMAdminFileFlagContainsTLB","COMAdminFileFlagDLLRegsvrFailed","COMAdminFileFlagDoesNotExist","COMAdminFileFlagError","COMAdminFileFlagGetClassObjFailed","COMAdminFileFlagLoadable","COMAdminFileFlagNoRegistrar","COMAdminFileFlagRegTLBFailed","COMAdminFileFlagRegistrar","COMAdminFileFlagRegistrarFailed","COMAdminFileFlagSelfReg","COMAdminFileFlagSelfUnReg","COMAdminFileFlagUnloadableDLL","GetMultipleComponentsInfo","GetMultipleComponentsInfo method [COM+]","GetMultipleComponentsInfo method [COM+]","ICOMAdminCatalog interface","ICOMAdminCatalog interface [COM+]","GetMultipleComponentsInfo method","ICOMAdminCatalog.GetMultipleComponentsInfo","ICOMAdminCatalog::GetMultipleComponentsInfo","_cos_ICOMAdminCatalog_GetMultipleComponentsInfo","comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo","cos.icomadmincatalog_getmultiplecomponentsinfo"]
 old-location: cos\icomadmincatalog_getmultiplecomponentsinfo.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: dd8c5975-c67a-4f1b-9d48-25053ba5c0e9
 ms.date: 12/05/2018
 ms.keywords: COMAdminComponentAlreadyInstalled, COMAdminComponentCOMPlusPropertiesFound, COMAdminComponentFlagTypeInfoFound, COMAdminComponentInterfacesFound, COMAdminComponentNotInApplication, COMAdminComponentProxyFound, COMAdminFileFlagAlreadyInstalled, COMAdminFileFlagBadTLB, COMAdminFileFlagCOM, COMAdminFileFlagClassNotAvailable, COMAdminFileFlagContainsComp, COMAdminFileFlagContainsRS, COMAdminFileFlagContainsTLB, COMAdminFileFlagDLLRegsvrFailed, COMAdminFileFlagDoesNotExist, COMAdminFileFlagError, COMAdminFileFlagGetClassObjFailed, COMAdminFileFlagLoadable, COMAdminFileFlagNoRegistrar, COMAdminFileFlagRegTLBFailed, COMAdminFileFlagRegistrar, COMAdminFileFlagRegistrarFailed, COMAdminFileFlagSelfReg, COMAdminFileFlagSelfUnReg, COMAdminFileFlagUnloadableDLL, GetMultipleComponentsInfo, GetMultipleComponentsInfo method [COM+], GetMultipleComponentsInfo method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetMultipleComponentsInfo method, ICOMAdminCatalog.GetMultipleComponentsInfo, ICOMAdminCatalog::GetMultipleComponentsInfo, _cos_ICOMAdminCatalog_GetMultipleComponentsInfo, comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo, cos.icomadmincatalog_getmultiplecomponentsinfo
-f1_keywords:
-- comadmin/ICOMAdminCatalog.GetMultipleComponentsInfo
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.GetMultipleComponentsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::GetMultipleComponentsInfo
+ - comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.GetMultipleComponentsInfo
 ---
 
 # ICOMAdminCatalog::GetMultipleComponentsInfo
@@ -48,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the components found in the specified files.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrApplIdOrName [in]
 
 The GUID or application name representing the application.
 
-
 ### -param ppsaVarFileNames [in]
 
 An array of names of files containing the components.
-
 
 ### -param ppsaVarCLSIDs [out]
 
 An array of component CLSIDs.
 
-
 ### -param ppsaVarClassNames [out]
 
 An array of component class names.
-
 
 ### -param ppsaVarFileFlags [out]
 
@@ -158,7 +151,6 @@ An array for file flags containing information about the files.
 
 #### COMAdminFileFlagError (0x00040000)
 
-
 ### -param ppsaVarComponentFlags [out]
 
 An array for the component flags used to represent information about components in files.
@@ -187,10 +179,7 @@ An array for the component flags used to represent information about components 
 
 #### COMAdminComponentNotInApplication (0x00000020)
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -222,18 +211,7 @@ Errors occurred while accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

@@ -2,15 +2,12 @@
 UID: NF:taskschd.ITriggerCollection.get_Count
 title: ITriggerCollection::get_Count (taskschd.h)
 description: Gets the number of triggers in the collection.
+helpviewer_keywords: ["Count property [Task Scheduler]","Count property [Task Scheduler]","ITriggerCollection interface","ITriggerCollection interface [Task Scheduler]","Count property","ITriggerCollection.Count","ITriggerCollection.get_Count","ITriggerCollection::Count","ITriggerCollection::get_Count","get_Count","taskschd.itriggercollection_count","taskschd/ITriggerCollection::Count","taskschd/ITriggerCollection::get_Count"]
 old-location: taskschd\itriggercollection_count.htm
 tech.root: taskschd
 ms.assetid: ae4ff1b8-f030-420b-b96a-b5c1246c04ce
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Count property, ITriggerCollection.Count, ITriggerCollection.get_Count, ITriggerCollection::Count, ITriggerCollection::get_Count, get_Count, taskschd.itriggercollection_count, taskschd/ITriggerCollection::Count, taskschd/ITriggerCollection::get_Count
-f1_keywords:
-- taskschd/ITriggerCollection.Count
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITriggerCollection.Count
-- ITriggerCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITriggerCollection::get_Count
+ - taskschd/ITriggerCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITriggerCollection.Count
+ - ITriggerCollection.get_Count
 ---
 
 # ITriggerCollection::get_Count
@@ -49,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of triggers in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

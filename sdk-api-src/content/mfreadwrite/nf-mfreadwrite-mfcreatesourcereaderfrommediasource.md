@@ -2,15 +2,12 @@
 UID: NF:mfreadwrite.MFCreateSourceReaderFromMediaSource
 title: MFCreateSourceReaderFromMediaSource function (mfreadwrite.h)
 description: Creates the source reader from a media source.
+helpviewer_keywords: ["MFCreateSourceReaderFromMediaSource","MFCreateSourceReaderFromMediaSource function [Media Foundation]","mf.mfcreatesourcereaderfrommediasource","mfreadwrite/MFCreateSourceReaderFromMediaSource"]
 old-location: mf\mfcreatesourcereaderfrommediasource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 924e1813-b025-435b-9770-52503a9eb619
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromMediaSource, MFCreateSourceReaderFromMediaSource function [Media Foundation], mf.mfcreatesourcereaderfrommediasource, mfreadwrite/MFCreateSourceReaderFromMediaSource
-f1_keywords:
-- mfreadwrite/MFCreateSourceReaderFromMediaSource
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfreadwrite.dll
-api_name:
-- MFCreateSourceReaderFromMediaSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateSourceReaderFromMediaSource
+ - mfreadwrite/MFCreateSourceReaderFromMediaSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfreadwrite.dll
+api_name:
+ - MFCreateSourceReaderFromMediaSource
 ---
 
 # MFCreateSourceReaderFromMediaSource function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the source reader from a media source.
-
 
 ## -parameters
 
-
-
-
 ### -param pMediaSource [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of a media source.
-
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of a media source.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the source reader. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader-attributes">Source Reader Attributes</a>. This parameter can be <b>NULL</b>.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the source reader. For more information, see <a href="/windows/desktop/medfound/source-reader-attributes">Source Reader Attributes</a>. This parameter can be <b>NULL</b>.
 
 ### -param ppSourceReader [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,51 +98,35 @@ The source contains protected content.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Call <b>CoInitialize(Ex)</b> and <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> before calling this function.
 
+By default, when the application releases the source reader, the source reader shuts down the media source by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">IMFMediaSource::Shutdown</a> on the media source. At that point, the application can no longer use the media source.
 
-Call <b>CoInitialize(Ex)</b> and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> before calling this function.
-
-By default, when the application releases the source reader, the source reader shuts down the media source by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">IMFMediaSource::Shutdown</a> on the media source. At that point, the application can no longer use the media source.
-
-To change this default behavior, set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-disconnect-mediasource-on-shutdown">MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN</a> attribute in the <i>pAttributes</i> parameter. If this attribute is <b>TRUE</b>, the application is responsible for  shutting down the media source.
+To change this default behavior, set the <a href="/windows/desktop/medfound/mf-source-reader-disconnect-mediasource-on-shutdown">MF_SOURCE_READER_DISCONNECT_MEDIASOURCE_ON_SHUTDOWN</a> attribute in the <i>pAttributes</i> parameter. If this attribute is <b>TRUE</b>, the application is responsible for  shutting down the media source.
 
 When using the Source Reader, do not call any of the following methods on the media source:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause">IMFMediaSource::Pause</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-pause">IMFMediaSource::Pause</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">IMFMediaSource::Start</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">IMFMediaSource::Start</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop">IMFMediaSource::Stop</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop">IMFMediaSource::Stop</a>
 </li>
-<li>All <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a> methods</li>
+<li>All <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a> methods</li>
 </ul>
 
 
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomation6.get_ConnectionRecoveryBehavior
 title: IUIAutomation6::get_ConnectionRecoveryBehavior (uiautomationclient.h)
 description: Indicates whether an accessible technology client adjusts provider request timeouts when the provider is non-responsive.
+helpviewer_keywords: ["ConnectionRecoveryBehavior property [Windows Accessibility]","ConnectionRecoveryBehavior property [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","ConnectionRecoveryBehavior property","IUIAutomation6.ConnectionRecoveryBehavior","IUIAutomation6.get_ConnectionRecoveryBehavior","IUIAutomation6::ConnectionRecoveryBehavior","IUIAutomation6::get_ConnectionRecoveryBehavior","IUIAutomation6::put_ConnectionRecoveryBehavior","get_ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior","uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior","winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior"]
 old-location: winauto\uiauto_IUIAutomation6_ConnectionRecoveryBehavior.htm
 tech.root: WinAuto
 ms.assetid: 09184E02-1007-4F49-8B03-97430CD6327E
 ms.date: 12/05/2019
 ms.keywords: ConnectionRecoveryBehavior property [Windows Accessibility], ConnectionRecoveryBehavior property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],ConnectionRecoveryBehavior property, IUIAutomation6.ConnectionRecoveryBehavior, IUIAutomation6.get_ConnectionRecoveryBehavior, IUIAutomation6::ConnectionRecoveryBehavior, IUIAutomation6::get_ConnectionRecoveryBehavior, IUIAutomation6::put_ConnectionRecoveryBehavior, get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior, uiautomationclient/IUIAutomation6::put_ConnectionRecoveryBehavior, winauto.uiauto_IUIAutomation6_ConnectionRecoveryBehavior
-f1_keywords:
-- uiautomationclient/IUIAutomation6.ConnectionRecoveryBehavior
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.ConnectionRecoveryBehavior
-- IUIAutomation6.get_ConnectionRecoveryBehavior
-- IUIAutomation6.put_ConnectionRecoveryBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::get_ConnectionRecoveryBehavior
+ - uiautomationclient/IUIAutomation6::get_ConnectionRecoveryBehavior
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.ConnectionRecoveryBehavior
+ - IUIAutomation6.get_ConnectionRecoveryBehavior
+ - IUIAutomation6.put_ConnectionRecoveryBehavior
 ---
 
 # IUIAutomation6::get_ConnectionRecoveryBehavior
+
 
 ## -description
 
@@ -66,3 +69,4 @@ This property is read/write.
 ## -see-also
 
 [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
+

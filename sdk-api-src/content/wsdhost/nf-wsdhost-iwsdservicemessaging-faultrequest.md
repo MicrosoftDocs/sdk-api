@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDServiceMessaging.FaultRequest
 title: IWSDServiceMessaging::FaultRequest (wsdhost.h)
 description: Sends a fault matching a given request context.
+helpviewer_keywords: ["FaultRequest","FaultRequest method","FaultRequest method","IWSDServiceMessaging interface","IWSDServiceMessaging interface","FaultRequest method","IWSDServiceMessaging.FaultRequest","IWSDServiceMessaging::FaultRequest","ncd.iwsdservicemessaging_faultrequest","wsdhost/IWSDServiceMessaging::FaultRequest"]
 old-location: ncd\iwsdservicemessaging_faultrequest.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.date: 12/05/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
-f1_keywords:
-- wsdhost/IWSDServiceMessaging.FaultRequest
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDServiceMessaging.FaultRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceMessaging::FaultRequest
+ - wsdhost/IWSDServiceMessaging::FaultRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDServiceMessaging.FaultRequest
 ---
 
 # IWSDServiceMessaging::FaultRequest
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sends a fault matching a given request context.  This method should be called only from <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
-
+Sends a fault matching a given request context.  This method should be called only from <a href="/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 ## -parameters
 
-
-
-
 ### -param pRequestHeader [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
-
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_header">WSD_SOAP_HEADER</a> structure that contains the SOAP header of the original request that caused the fault.
 
 ### -param pMessageParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
-
+Pointer to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters for the original request that caused the fault.
 
 ### -param pFault [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
-
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that describes the fault to serialize and send. If this parameter is omitted, a fault of type <b>wsa:EndpointUnavailable</b> will be sent.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -139,18 +131,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>

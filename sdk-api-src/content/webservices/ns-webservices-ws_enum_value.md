@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_ENUM_VALUE
 title: WS_ENUM_VALUE (webservices.h)
 description: Provides serialization information about a single value that is part of an enumeration (WS_ENUM_DESCRIPTION).
+helpviewer_keywords: ["WS_ENUM_VALUE","WS_ENUM_VALUE structure [Web Services for Windows]","webservices/WS_ENUM_VALUE","wsw.ws_enum_value"]
 old-location: wsw\ws_enum_value.htm
 tech.root: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], webservices/WS_ENUM_VALUE, wsw.ws_enum_value
-f1_keywords:
-- webservices/WS_ENUM_VALUE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENUM_VALUE
 targetos: Windows
 req.typenames: WS_ENUM_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_ENUM_VALUE
+ - webservices/_WS_ENUM_VALUE
+ - WS_ENUM_VALUE
+ - webservices/WS_ENUM_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENUM_VALUE
 ---
 
 # WS_ENUM_VALUE structure
@@ -48,25 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides serialization information about a single value that
-                is part of an enumeration (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a>).
-            
-
+                is part of an enumeration (<a href="/windows/desktop/api/webservices/ns-webservices-ws_enum_description">WS_ENUM_DESCRIPTION</a>).
 
 ## -struct-fields
-
-
-
 
 ### -field value
 
 The numeric enum value.
-                
-
 
 ### -field name
 
 The serialized form of the value.
-                
-

@@ -2,15 +2,12 @@
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM0_
 title: IPSEC_CIPHER_TRANSFORM0 (ipsectypes.h)
 description: Is used to store encryption specific information for an SA transform in an IPsec quick mode policy.
+helpviewer_keywords: ["IPSEC_CIPHER_TRANSFORM0","IPSEC_CIPHER_TRANSFORM0 structure [Filtering]","IPSEC_CIPHER_TRANSFORM_ID_AES_128","IPSEC_CIPHER_TRANSFORM_ID_AES_192","IPSEC_CIPHER_TRANSFORM_ID_AES_256","IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES","IPSEC_CIPHER_TRANSFORM_ID_CBC_DES","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192","IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256","fwp.ipsec_cipher_transform0_struct","ipsectypes/IPSEC_CIPHER_TRANSFORM0"]
 old-location: fwp\ipsec_cipher_transform0_struct.htm
 tech.root: fwp
 ms.assetid: d8a9515a-943b-4f00-bfa9-948a9da9c060
 ms.date: 12/05/2018
 ms.keywords: IPSEC_CIPHER_TRANSFORM0, IPSEC_CIPHER_TRANSFORM0 structure [Filtering], IPSEC_CIPHER_TRANSFORM_ID_AES_128, IPSEC_CIPHER_TRANSFORM_ID_AES_192, IPSEC_CIPHER_TRANSFORM_ID_AES_256, IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES, IPSEC_CIPHER_TRANSFORM_ID_CBC_DES, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256, fwp.ipsec_cipher_transform0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM0
-f1_keywords:
-- ipsectypes/IPSEC_CIPHER_TRANSFORM0
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_CIPHER_TRANSFORM0
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TRANSFORM0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_CIPHER_TRANSFORM0_
+ - ipsectypes/IPSEC_CIPHER_TRANSFORM0_
+ - IPSEC_CIPHER_TRANSFORM0
+ - ipsectypes/IPSEC_CIPHER_TRANSFORM0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_CIPHER_TRANSFORM0
 ---
 
 # IPSEC_CIPHER_TRANSFORM0 structure
@@ -48,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_CIPHER_TRANSFORM0</b> structure is used to store encryption specific information for an SA transform in an IPsec quick mode policy.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cipherTransformId
 
-The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>.
+The identifier of the encryption algorithm as specified by [IPSEC_CIPHER_TRANSFORM_ID0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0).
 
 Possible values:
 
@@ -171,34 +170,19 @@ Possible values:
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cryptoModuleId
 
 Unused parameter, always set this to <b>NULL</b>.
 
-
 ## -remarks
 
-
-
-<b>IPSEC_CIPHER_TRANSFORM0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>IPSEC_CIPHER_TRANSFORM0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
+[IPSEC_CIPHER_TRANSFORM_ID0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)
 
 
 
-[IPSEC_CIPHER_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_cipher_transform_id0)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

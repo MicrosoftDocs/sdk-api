@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFAudioPolicy.GetDisplayName
 title: IMFAudioPolicy::GetDisplayName (mfidl.h)
 description: Retrieves the display name of the audio session. The Windows volume control displays this name.
+helpviewer_keywords: ["7826b4a1-5887-46a5-b312-91159596ccf5","GetDisplayName","GetDisplayName method [Media Foundation]","GetDisplayName method [Media Foundation]","IMFAudioPolicy interface","IMFAudioPolicy interface [Media Foundation]","GetDisplayName method","IMFAudioPolicy.GetDisplayName","IMFAudioPolicy::GetDisplayName","mf.imfaudiopolicy_getdisplayname","mfidl/IMFAudioPolicy::GetDisplayName"]
 old-location: mf\imfaudiopolicy_getdisplayname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5
 ms.date: 12/05/2018
 ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayName method [Media Foundation], GetDisplayName method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetDisplayName method, IMFAudioPolicy.GetDisplayName, IMFAudioPolicy::GetDisplayName, mf.imfaudiopolicy_getdisplayname, mfidl/IMFAudioPolicy::GetDisplayName
-f1_keywords:
-- mfidl/IMFAudioPolicy.GetDisplayName
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAudioPolicy.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAudioPolicy::GetDisplayName
+ - mfidl/IMFAudioPolicy::GetDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAudioPolicy.GetDisplayName
 ---
 
 # IMFAudioPolicy::GetDisplayName
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the display name of the audio session. The Windows volume control displays this name.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pszName [out]
 
-Receives a pointer to the display name string. The caller must free the memory allocated for the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Receives a pointer to the display name string. The caller must free the memory allocated for the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the application does not set a display name, Windows creates one.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

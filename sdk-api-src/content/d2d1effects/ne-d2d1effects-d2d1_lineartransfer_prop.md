@@ -2,15 +2,12 @@
 UID: NE:d2d1effects.D2D1_LINEARTRANSFER_PROP
 title: D2D1_LINEARTRANSFER_PROP (d2d1effects.h)
 description: Identifiers for properties of the Linear transfer effect.
+helpviewer_keywords: ["D2D1_LINEARTRANSFER_PROP","D2D1_LINEARTRANSFER_PROP enumeration [Direct2D]","D2D1_LINEARTRANSFER_PROP_ALPHA_DISABLE","D2D1_LINEARTRANSFER_PROP_ALPHA_SLOPE","D2D1_LINEARTRANSFER_PROP_ALPHA_Y_INTERCEPT","D2D1_LINEARTRANSFER_PROP_BLUE_DISABLE","D2D1_LINEARTRANSFER_PROP_BLUE_SLOPE","D2D1_LINEARTRANSFER_PROP_BLUE_Y_INTERCEPT","D2D1_LINEARTRANSFER_PROP_CLAMP_OUTPUT","D2D1_LINEARTRANSFER_PROP_GREEN_DISABLE","D2D1_LINEARTRANSFER_PROP_GREEN_SLOPE","D2D1_LINEARTRANSFER_PROP_GREEN_Y_INTERCEPT","D2D1_LINEARTRANSFER_PROP_RED_DISABLE","D2D1_LINEARTRANSFER_PROP_RED_SLOPE","D2D1_LINEARTRANSFER_PROP_RED_Y_INTERCEPT","d2d1effects/D2D1_LINEARTRANSFER_PROP","d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_DISABLE","d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_SLOPE","d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_Y_INTERCEPT","d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_DISABLE","d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_SLOPE","d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_Y_INTERCEPT","d2d1effects/D2D1_LINEARTRANSFER_PROP_CLAMP_OUTPUT","d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_DISABLE","d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_SLOPE","d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_Y_INTERCEPT","d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_DISABLE","d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_SLOPE","d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_Y_INTERCEPT","direct2d.d2d1_lineartransfer_prop"]
 old-location: direct2d\d2d1_lineartransfer_prop.htm
 tech.root: Direct2D
 ms.assetid: 25D06C2C-210F-4C10-9842-4355C9371902
 ms.date: 12/05/2018
 ms.keywords: D2D1_LINEARTRANSFER_PROP, D2D1_LINEARTRANSFER_PROP enumeration [Direct2D], D2D1_LINEARTRANSFER_PROP_ALPHA_DISABLE, D2D1_LINEARTRANSFER_PROP_ALPHA_SLOPE, D2D1_LINEARTRANSFER_PROP_ALPHA_Y_INTERCEPT, D2D1_LINEARTRANSFER_PROP_BLUE_DISABLE, D2D1_LINEARTRANSFER_PROP_BLUE_SLOPE, D2D1_LINEARTRANSFER_PROP_BLUE_Y_INTERCEPT, D2D1_LINEARTRANSFER_PROP_CLAMP_OUTPUT, D2D1_LINEARTRANSFER_PROP_GREEN_DISABLE, D2D1_LINEARTRANSFER_PROP_GREEN_SLOPE, D2D1_LINEARTRANSFER_PROP_GREEN_Y_INTERCEPT, D2D1_LINEARTRANSFER_PROP_RED_DISABLE, D2D1_LINEARTRANSFER_PROP_RED_SLOPE, D2D1_LINEARTRANSFER_PROP_RED_Y_INTERCEPT, d2d1effects/D2D1_LINEARTRANSFER_PROP, d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_DISABLE, d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_SLOPE, d2d1effects/D2D1_LINEARTRANSFER_PROP_ALPHA_Y_INTERCEPT, d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_DISABLE, d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_SLOPE, d2d1effects/D2D1_LINEARTRANSFER_PROP_BLUE_Y_INTERCEPT, d2d1effects/D2D1_LINEARTRANSFER_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_DISABLE, d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_SLOPE, d2d1effects/D2D1_LINEARTRANSFER_PROP_GREEN_Y_INTERCEPT, d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_DISABLE, d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_SLOPE, d2d1effects/D2D1_LINEARTRANSFER_PROP_RED_Y_INTERCEPT, direct2d.d2d1_lineartransfer_prop
-f1_keywords:
-- d2d1effects/D2D1_LINEARTRANSFER_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_LINEARTRANSFER_PROP
 targetos: Windows
 req.typenames: D2D1_LINEARTRANSFER_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_LINEARTRANSFER_PROP
+ - d2d1effects/D2D1_LINEARTRANSFER_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_LINEARTRANSFER_PROP
 ---
 
 # D2D1_LINEARTRANSFER_PROP enumeration
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/linear-transfer">Linear transfer effect</a>.
-
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/linear-transfer">Linear transfer effect</a>.
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_RED_Y_INTERCEPT
 
@@ -66,7 +63,6 @@ The type is FLOAT.
 
 The default is 0.0f.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_RED_SLOPE
 
 The slope of the linear function for the Red channel.
@@ -75,7 +71,6 @@ The slope of the linear function for the Red channel.
 The type is FLOAT.
 
 The default is 1.0f.
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_RED_DISABLE
 
@@ -87,7 +82,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_GREEN_Y_INTERCEPT
 
 The Y-intercept of the linear function for the Green channel. 
@@ -97,7 +91,6 @@ The type is FLOAT.
 
 The default is 0.0f.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_GREEN_SLOPE
 
 The slope of the linear function for the Green channel.
@@ -106,7 +99,6 @@ The slope of the linear function for the Green channel.
 The type is FLOAT.
 
 The default is 1.0f.
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_GREEN_DISABLE
 
@@ -118,7 +110,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_BLUE_Y_INTERCEPT
 
 The Y-intercept of the linear function for the Blue channel. 
@@ -128,7 +119,6 @@ The type is FLOAT.
 
 The default is 0.0f.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_BLUE_SLOPE
 
 The slope of the linear function for the Blue channel.
@@ -137,7 +127,6 @@ The slope of the linear function for the Blue channel.
 The type is FLOAT.
 
 The default is 1.0f.
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_BLUE_DISABLE
 
@@ -149,7 +138,6 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_ALPHA_Y_INTERCEPT
 
 The Y-intercept of the linear function for the Alpha channel. 
@@ -158,7 +146,6 @@ The Y-intercept of the linear function for the Alpha channel.
 The type is FLOAT.
 
 The default is 0.0f.
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_ALPHA_SLOPE
 
@@ -169,7 +156,6 @@ The type is FLOAT.
 
 The default is 0.0f.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_ALPHA_DISABLE
 
 If you set this to TRUE the effect does not apply the transfer function to the Alpha channel. 
@@ -179,7 +165,6 @@ If you set this to TRUE the effect does not apply the transfer function to the A
 The type is BOOL.
 
 The default is FALSE.
-
 
 ### -field D2D1_LINEARTRANSFER_PROP_CLAMP_OUTPUT
 
@@ -194,8 +179,4 @@ The type is BOOL.
 
 The default is FALSE.
 
-
 ### -field D2D1_LINEARTRANSFER_PROP_FORCE_DWORD
-
-
-

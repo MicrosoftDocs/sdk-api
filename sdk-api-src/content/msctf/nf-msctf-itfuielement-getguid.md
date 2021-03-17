@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfUIElement.GetGUID
 title: ITfUIElement::GetGUID (msctf.h)
 description: The ITfUIElement::GetGUID method returns the unique id of this UI element.
+helpviewer_keywords: ["GetGUID","GetGUID method [Text Services Framework]","GetGUID method [Text Services Framework]","ITfUIElement interface","ITfUIElement interface [Text Services Framework]","GetGUID method","ITfUIElement.GetGUID","ITfUIElement::GetGUID","msctf/ITfUIElement::GetGUID","tsf.itfuielement_getguid"]
 old-location: tsf\itfuielement_getguid.htm
 tech.root: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
-f1_keywords:
-- msctf/ITfUIElement.GetGUID
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElement.GetGUID
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElement::GetGUID
+ - msctf/ITfUIElement::GetGUID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElement.GetGUID
 ---
 
 # ITfUIElement::GetGUID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElement::GetGUID</b> method returns the unique id of this UI element.
 
-
 ## -parameters
-
-
-
 
 ### -param pguid [out]
 
 [out] A pointer to receive the GUID of the UI element.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

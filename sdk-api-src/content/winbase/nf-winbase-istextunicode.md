@@ -2,15 +2,12 @@
 UID: NF:winbase.IsTextUnicode
 title: IsTextUnicode function (winbase.h)
 description: Determines if a buffer is likely to contain a form of Unicode text.
+helpviewer_keywords: ["IS_TEXT_UNICODE_ASCII16","IS_TEXT_UNICODE_BUFFER_TOO_SMALL","IS_TEXT_UNICODE_CONTROLS","IS_TEXT_UNICODE_ILLEGAL_CHARS","IS_TEXT_UNICODE_NOT_ASCII_MASK","IS_TEXT_UNICODE_NOT_UNICODE_MASK","IS_TEXT_UNICODE_NULL_BYTES","IS_TEXT_UNICODE_ODD_LENGTH","IS_TEXT_UNICODE_REVERSE_ASCII16","IS_TEXT_UNICODE_REVERSE_CONTROLS","IS_TEXT_UNICODE_REVERSE_MASK","IS_TEXT_UNICODE_REVERSE_SIGNATURE","IS_TEXT_UNICODE_REVERSE_STATISTICS","IS_TEXT_UNICODE_SIGNATURE","IS_TEXT_UNICODE_STATISTICS","IS_TEXT_UNICODE_UNICODE_MASK","IsTextUnicode","IsTextUnicode function [Internationalization for Windows Applications]","_win32_IsTextUnicode","intl.istextunicode","winbase/IsTextUnicode"]
 old-location: intl\istextunicode.htm
 tech.root: Intl
 ms.assetid: 47e05b5b-a16b-4957-bc86-ed3cef4968ee
 ms.date: 12/05/2018
 ms.keywords: IS_TEXT_UNICODE_ASCII16, IS_TEXT_UNICODE_BUFFER_TOO_SMALL, IS_TEXT_UNICODE_CONTROLS, IS_TEXT_UNICODE_ILLEGAL_CHARS, IS_TEXT_UNICODE_NOT_ASCII_MASK, IS_TEXT_UNICODE_NOT_UNICODE_MASK, IS_TEXT_UNICODE_NULL_BYTES, IS_TEXT_UNICODE_ODD_LENGTH, IS_TEXT_UNICODE_REVERSE_ASCII16, IS_TEXT_UNICODE_REVERSE_CONTROLS, IS_TEXT_UNICODE_REVERSE_MASK, IS_TEXT_UNICODE_REVERSE_SIGNATURE, IS_TEXT_UNICODE_REVERSE_STATISTICS, IS_TEXT_UNICODE_SIGNATURE, IS_TEXT_UNICODE_STATISTICS, IS_TEXT_UNICODE_UNICODE_MASK, IsTextUnicode, IsTextUnicode function [Internationalization for Windows Applications], _win32_IsTextUnicode, intl.istextunicode, winbase/IsTextUnicode
-f1_keywords:
-- winbase/IsTextUnicode
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-base-util-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- IsTextUnicode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsTextUnicode
+ - winbase/IsTextUnicode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-base-util-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - IsTextUnicode
 ---
 
 # IsTextUnicode function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if a buffer is likely to contain a form of Unicode text.
 
-
 ## -parameters
-
-
-
 
 ### -param lpv [in]
 
 Pointer to the input buffer to examine.
 
-
 ### -param iSize [in]
 
 Size, in bytes, of the input buffer indicated by <i>lpv</i>.
-
 
 ### -param lpiResult [in, out, optional]
 
@@ -243,40 +238,21 @@ The value is a combination of IS_TEXT_UNICODE_NULL_BYTES and three currently unu
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a nonzero value if the data in the buffer passes the specified tests. The function returns 0 if the data in the buffer does not pass the specified tests.
 
-
-
-
 ## -remarks
-
-
 
 This function uses various statistical and deterministic methods to make its determination, under the control of flags passed in the <i>lpiResult</i> parameter. When the function returns, the results of such tests are reported using the same parameter.
 
 The IS_TEXT_UNICODE_STATISTICS and IS_TEXT_UNICODE_REVERSE_STATISTICS tests use statistical analysis. These tests are not foolproof. The statistical tests assume certain amounts of variation between low and high bytes in a string, and some ASCII strings can slip through. For example, if <i>lpv</i> indicates the ASCII string 0x41, 0x0A, 0x0D, 0x1D (A\n\r^Z), the string passes the IS_TEXT_UNICODE_STATISTICS test, although failure would be preferable.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

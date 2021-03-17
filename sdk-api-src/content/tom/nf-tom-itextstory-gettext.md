@@ -2,15 +2,12 @@
 UID: NF:tom.ITextStory.GetText
 title: ITextStory::GetText (tom.h)
 description: Gets the text in a story according to the specified conversion flags.
+helpviewer_keywords: ["GetText","GetText method [Windows Controls]","GetText method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetText method","ITextStory.GetText","ITextStory::GetText","controls.itextstory_gettext","tom/ITextStory::GetText","tomAdjustCRLF","tomAllowFinalEOP","tomFoldMathAlpha","tomIncludeNumbering","tomLanguageTag","tomNoHidden","tomNoMathZoneBrackets","tomTextize","tomTranslateTableCell","tomUseCRLF"]
 old-location: controls\itextstory_gettext.htm
 tech.root: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetText method, ITextStory.GetText, ITextStory::GetText, controls.itextstory_gettext, tom/ITextStory::GetText, tomAdjustCRLF, tomAllowFinalEOP, tomFoldMathAlpha, tomIncludeNumbering, tomLanguageTag, tomNoHidden, tomNoMathZoneBrackets, tomTextize, tomTranslateTableCell, tomUseCRLF
-f1_keywords:
-- tom/ITextStory.GetText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tom.h
-api_name:
-- ITextStory.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStory::GetText
+ - tom/ITextStory::GetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tom.h
+api_name:
+ - ITextStory.GetText
 ---
 
 # ITextStory::GetText
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the text in a story according to the specified conversion flags. 
-
+Gets the text in a story according to the specified conversion flags.
 
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -63,7 +60,7 @@ Type: <b>long</b>
 
 The conversion flags.
 
-A <i>Flags</i> value of 0 retrieves text the same as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>.  Other values include the following.
+A <i>Flags</i> value of 0 retrieves text the same as <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>.  Other values include the following.
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>
@@ -135,21 +132,17 @@ A <i>Flags</i> value of 0 retrieves text the same as <a href="https://docs.micro
 
 #### tomUseCRLF
 
-
 ### -param pbstr [out]
 
 Type: <b>BSTR*</b>
 
 The text in the story.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -190,31 +183,15 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is similar to using <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
-
-
-
+This method is similar to using <a href="/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>

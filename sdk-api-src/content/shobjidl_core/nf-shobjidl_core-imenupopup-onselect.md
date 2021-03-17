@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IMenuPopup.OnSelect
 title: IMenuPopup::OnSelect (shobjidl_core.h)
 description: Handles selection notifications.
+helpviewer_keywords: ["IMenuPopup interface [Windows Shell]","OnSelect method","IMenuPopup.OnSelect","IMenuPopup::OnSelect","MPOS_CANCELLEVEL","MPOS_CHILDTRACKING","MPOS_EXECUTE","MPOS_FULLCANCEL","MPOS_SELECTLEFT","MPOS_SELECTRIGHT","OnSelect","OnSelect method [Windows Shell]","OnSelect method [Windows Shell]","IMenuPopup interface","_win32_IMenuPopup_OnSelect","shell.IMenuPopup_OnSelect","shobjidl_core/IMenuPopup::OnSelect"]
 old-location: shell\IMenuPopup_OnSelect.htm
 tech.root: shell
 ms.assetid: 972e8a08-e1ce-4bd2-b602-20b7b1acb71f
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup interface [Windows Shell],OnSelect method, IMenuPopup.OnSelect, IMenuPopup::OnSelect, MPOS_CANCELLEVEL, MPOS_CHILDTRACKING, MPOS_EXECUTE, MPOS_FULLCANCEL, MPOS_SELECTLEFT, MPOS_SELECTRIGHT, OnSelect, OnSelect method [Windows Shell], OnSelect method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_OnSelect, shell.IMenuPopup_OnSelect, shobjidl_core/IMenuPopup::OnSelect
-f1_keywords:
-- shobjidl_core/IMenuPopup.OnSelect
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IMenuPopup.OnSelect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMenuPopup::OnSelect
+ - shobjidl_core/IMenuPopup::OnSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IMenuPopup.OnSelect
 ---
 
 # IMenuPopup::OnSelect
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles selection notifications.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSelectType
 
@@ -99,14 +96,9 @@ Select the item to the right of the current selection.
 
 The child of the current selection receives a tracking selection. In other words, the mouse moves over the child of the current selection.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-
-
 

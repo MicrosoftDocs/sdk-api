@@ -1,16 +1,13 @@
 ---
 UID: NF:webservices.WsOpenListener
 title: WsOpenListener function (webservices.h)
-description: Initiates &#0034;listening&#0034; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
+description: Initiates &quot;listening&quot; on a specified address. Once a listener is opened channels can be accepted from it. If the open is successful the Listener must be closed using the WsCloseListener function before Listener resources can be released.
+helpviewer_keywords: ["WsOpenListener","WsOpenListener function [Web Services for Windows]","webservices/WsOpenListener","wsw.wsopenlistener"]
 old-location: wsw\wsopenlistener.htm
 tech.root: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.date: 12/05/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
-f1_keywords:
-- webservices/WsOpenListener
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsOpenListener
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsOpenListener
+ - webservices/WsOpenListener
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsOpenListener
 ---
 
 # WsOpenListener function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates "listening" on a specified address.
               Once a listener is opened channels can be accepted
                 from it. 
                 If the open is successful the Listener must be closed using 
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a> function before Listener resources can be released.
-            
-
+                the <a href="/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a> function before Listener resources can be released.
 
 ## -parameters
 
-
-
-
 ### -param listener [in]
 
-A pointer to the <b>Listener</b> object to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> object and the referenced value may not be <b>NULL</b>.
-                
-
+A pointer to the <b>Listener</b> object to open.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a> object and the referenced value may not be <b>NULL</b>.
 
 ### -param url [in]
 
@@ -84,16 +78,11 @@ A pointer to a object containing the URL address string for the Listener.
 
 A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke the function asynchronously.  The value is set to <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -227,32 +216,22 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When using IPv6 addresses, they must be enclosed in brackets in
                     the host name portion.
                 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+For more information, see <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>, the path portion of the URL is
                     ignored.  If a literal IP address is specified, then it is used to listen, otherwise
                     a wildcard IP address is used.
                 
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
+For <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, the path portion of the URL is
                     is matched as a prefix against the received URL.  
                     If a literal IP address is specified, then it is used to listen, 
                     otherwise a wildcard IP address is used.
-                
-
-
-

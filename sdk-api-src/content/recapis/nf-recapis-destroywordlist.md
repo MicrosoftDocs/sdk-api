@@ -2,15 +2,12 @@
 UID: NF:recapis.DestroyWordList
 title: DestroyWordList function (recapis.h)
 description: Destroys the current word list.
+helpviewer_keywords: ["380e81a0-1df1-48b8-a582-a52badfc9ca6","DestroyWordList","DestroyWordList function [Tablet PC]","recapis/DestroyWordList","tablet.destroywordlist"]
 old-location: tablet\destroywordlist.htm
 tech.root: tablet
 ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6
 ms.date: 12/05/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
-f1_keywords:
-- recapis/DestroyWordList
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- DestroyWordList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DestroyWordList
+ - recapis/DestroyWordList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - DestroyWordList
 ---
 
 # DestroyWordList function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Destroys the current word list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwl
 
 Handle to the word list.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -121,7 +112,4 @@ The pointer to the word list is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
 

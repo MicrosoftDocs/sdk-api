@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMonitorConfig9.GetMonitor
 title: IVMRMonitorConfig9::GetMonitor (vmr9.h)
 description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
+helpviewer_keywords: ["GetMonitor","GetMonitor method [DirectShow]","GetMonitor method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetMonitor method","IVMRMonitorConfig9.GetMonitor","IVMRMonitorConfig9::GetMonitor","IVMRMonitorConfig9GetMonitor","dshow.ivmrmonitorconfig9_getmonitor","vmr9/IVMRMonitorConfig9::GetMonitor"]
 old-location: dshow\ivmrmonitorconfig9_getmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8b3e19d2-23de-42ae-9e5b-d53e24bb764a
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetMonitor method, IVMRMonitorConfig9.GetMonitor, IVMRMonitorConfig9::GetMonitor, IVMRMonitorConfig9GetMonitor, dshow.ivmrmonitorconfig9_getmonitor, vmr9/IVMRMonitorConfig9::GetMonitor
-f1_keywords:
-- vmr9/IVMRMonitorConfig9.GetMonitor
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMonitorConfig9.GetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMonitorConfig9::GetMonitor
+ - vmr9/IVMRMonitorConfig9::GetMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMonitorConfig9.GetMonitor
 ---
 
 # IVMRMonitorConfig9::GetMonitor
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMonitor</code> method retrieves the monitor that this instance of the VMR is using for video playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param puDev [out]
 
 Pointer that receives an index that identifies the monitor currently in use.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -111,37 +102,21 @@ The allocator-presenter has not been loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method to determine the Direct3D object that will be used when connecting the mixer filter to an upstream decoder filter.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">IVMRMonitorConfig9::SetMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">IVMRMonitorConfig9::SetMonitor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

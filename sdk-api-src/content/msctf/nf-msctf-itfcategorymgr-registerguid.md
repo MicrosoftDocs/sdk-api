@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCategoryMgr.RegisterGUID
 title: ITfCategoryMgr::RegisterGUID (msctf.h)
 description: ITfCategoryMgr::RegisterGUID method
+helpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","RegisterGUID method","ITfCategoryMgr.RegisterGUID","ITfCategoryMgr::RegisterGUID","RegisterGUID","RegisterGUID method [Text Services Framework]","RegisterGUID method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_registerguid_ref","msctf/ITfCategoryMgr::RegisterGUID","tsf.itfcategorymgr_registerguid"]
 old-location: tsf\itfcategorymgr_registerguid.htm
 tech.root: TSF
 ms.assetid: d0de17d9-be3a-4f68-a77d-880047775952
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUID method, ITfCategoryMgr.RegisterGUID, ITfCategoryMgr::RegisterGUID, RegisterGUID, RegisterGUID method [Text Services Framework], RegisterGUID method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguid_ref, msctf/ITfCategoryMgr::RegisterGUID, tsf.itfcategorymgr_registerguid
-f1_keywords:
-- msctf/ITfCategoryMgr.RegisterGUID
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.RegisterGUID
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::RegisterGUID
+ - msctf/ITfCategoryMgr::RegisterGUID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.RegisterGUID
 ---
 
 # ITfCategoryMgr::RegisterGUID
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Adds a GUID to the internal table and obtains an atom for the GUID.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains the GUID to obtain the identifier for.
 
-
 ### -param pguidatom [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfguidatom">TfGuidAtom</a> value that receives the identifier of the GUID.
-
+Pointer to a <a href="/windows/desktop/TSF/tfguidatom">TfGuidAtom</a> value that receives the identifier of the GUID.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,45 +105,13 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Identical <b>GUID</b> values receive identical <b>TfGuidAtom</b> values.
 
 A <b>TfGuidAtom</b> value is only valid within the process that <b>ITfCategoryMgr::RegisterGUID</b> is called from.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">ITfCategoryMgr::GetGUID
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-isequaltfguidatom">ITfCategoryMgr::IsEqualTfGuidAtom
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfguidatom">TfGuidAtom
-      </a>
- 
-
- 
-
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::IsEqualTfGuidAtom](nf-msctf-itfcategorymgr-isequaltfguidatom.md), [TfGuidAtom](/windows/win32/tsf/tfguidatom)

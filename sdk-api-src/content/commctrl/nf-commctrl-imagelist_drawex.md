@@ -2,15 +2,12 @@
 UID: NF:commctrl.ImageList_DrawEx
 title: ImageList_DrawEx function (commctrl.h)
 description: Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color.
+helpviewer_keywords: ["CLR_DEFAULT","CLR_NONE","ILD_BLEND","ILD_BLEND25","ILD_BLEND50","ILD_FOCUS","ILD_IMAGE","ILD_MASK","ILD_NORMAL","ILD_SELECTED","ILD_TRANSPARENT","ImageList_DrawEx","ImageList_DrawEx function [Windows Controls]","_win32_ImageList_DrawEx","_win32_ImageList_DrawEx_cpp","commctrl/ImageList_DrawEx","controls.ImageList_DrawEx","controls._win32_ImageList_DrawEx"]
 old-location: controls\ImageList_DrawEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawex.htm
 ms.date: 12/05/2018
 ms.keywords: CLR_DEFAULT, CLR_NONE, ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_DrawEx, ImageList_DrawEx function [Windows Controls], _win32_ImageList_DrawEx, _win32_ImageList_DrawEx_cpp, commctrl/ImageList_DrawEx, controls.ImageList_DrawEx, controls._win32_ImageList_DrawEx
-f1_keywords:
-- commctrl/ImageList_DrawEx
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- ImageList_DrawEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_DrawEx
+ - commctrl/ImageList_DrawEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - ImageList_DrawEx
 ---
 
 # ImageList_DrawEx function
@@ -48,57 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
-Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color. 
-
+Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color.
 
 ## -parameters
-
-
-
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-A handle to the image list 
-
+A handle to the image list
 
 ### -param i
 
 Type: <b>int</b>
 
-The index of the image to draw. 
-
+The index of the image to draw.
 
 ### -param hdcDst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-A handle to the destination device context. 
-
+A handle to the destination device context.
 
 ### -param x
 
 Type: <b>int</b>
 
-The x-coordinate at which to draw within the specified device context. 
-
+The x-coordinate at which to draw within the specified device context.
 
 ### -param y
 
 Type: <b>int</b>
 
-The y-coordinate at which to draw within the specified device context. 
-
+The y-coordinate at which to draw within the specified device context.
 
 ### -param dx
 
 Type: <b>int</b>
 
 The width of the portion of the image to draw relative to the upper-left corner of the image. If <i>dx</i> and 
-<i>dy</i> are zero, the function draws the entire image. The function does not ensure that the parameters are valid. 
-
+<i>dy</i> are zero, the function draws the entire image. The function does not ensure that the parameters are valid.
 
 ### -param dy
 
@@ -106,12 +97,11 @@ Type: <b>int</b>
 
 The height of the portion of the image to draw, relative to the upper-left corner of the image. If 
 					<i>dx</i> and 
-					<i>dy</i> are zero, the function draws the entire image. The function does not ensure that the parameters are valid. 
-
+					<i>dy</i> are zero, the function draws the entire image. The function does not ensure that the parameters are valid.
 
 ### -param rgbBk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The background color of the image. This parameter can be an application-defined RGB value or one of the following values: 
 
@@ -141,12 +131,10 @@ The default background color. The image is drawn using the background color of t
 </td>
 </tr>
 </table>
- 
-
 
 ### -param rgbFg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The foreground color of the image. This parameter can be an application-defined RGB value or one of the following values: 
 
@@ -176,12 +164,10 @@ The default foreground color. The image is drawn using the system highlight colo
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The drawing style and, optionally, the overlay image. For information about specifying an overlay image index, see the comments section at the end of this topic. This parameter can be a combination of an overlay image index and one or more of the following values: 
 
@@ -272,25 +258,13 @@ Draws the image transparently using the mask, regardless of the background color
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
-
-Returns nonzero if successful, or zero otherwise. 
-
-
-
+Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-
-
-An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function. 
-
-
-
+An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function.

@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_MultisessionInterfaces
 title: IDiscFormat2Data::get_MultisessionInterfaces (imapi2.h)
 description: Retrieves a list of available multi-session interfaces.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_MultisessionInterfaces method","IDiscFormat2Data.get_MultisessionInterfaces","IDiscFormat2Data::get_MultisessionInterfaces","get_MultisessionInterfaces","get_MultisessionInterfaces method [IMAPI]","get_MultisessionInterfaces method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_multisessioninterfaces","imapi2/IDiscFormat2Data::get_MultisessionInterfaces"]
 old-location: imapi\idiscformat2data_get_multisessioninterfaces.htm
 tech.root: imapi
 ms.assetid: 7bb2d100-629f-4b63-a699-ddce85213e72
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_MultisessionInterfaces method, IDiscFormat2Data.get_MultisessionInterfaces, IDiscFormat2Data::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_multisessioninterfaces, imapi2/IDiscFormat2Data::get_MultisessionInterfaces
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_MultisessionInterfaces
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_MultisessionInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_MultisessionInterfaces
+ - imapi2/IDiscFormat2Data::get_MultisessionInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_MultisessionInterfaces
 ---
 
 # IDiscFormat2Data::get_MultisessionInterfaces
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of available multi-session interfaces.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-List of available multi-session interfaces. Each element of the array is a <b>VARIANT</b> of type <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member of the variant for any interface that inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface, for example, <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>.
-
+List of available multi-session interfaces. Each element of the array is a <b>VARIANT</b> of type <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member of the variant for any interface that inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interface, for example, <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -105,24 +99,10 @@ Value: 0x8007000E
 <div class="alert"><b>Note</b>  This method does not return an error when called on blank optical media.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The array will always contain at least one element.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>

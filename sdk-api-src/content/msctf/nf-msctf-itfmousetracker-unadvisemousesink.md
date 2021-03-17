@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfMouseTracker.UnadviseMouseSink
 title: ITfMouseTracker::UnadviseMouseSink (msctf.h)
 description: ITfMouseTracker::UnadviseMouseSink method
+helpviewer_keywords: ["ITfMouseTracker interface [Text Services Framework]","UnadviseMouseSink method","ITfMouseTracker.UnadviseMouseSink","ITfMouseTracker::UnadviseMouseSink","UnadviseMouseSink","UnadviseMouseSink method [Text Services Framework]","UnadviseMouseSink method [Text Services Framework]","ITfMouseTracker interface","_tsf_itfmousetracker_unadvisemousesink_ref","msctf/ITfMouseTracker::UnadviseMouseSink","tsf.itfmousetracker_unadvisemousesink"]
 old-location: tsf\itfmousetracker_unadvisemousesink.htm
 tech.root: TSF
 ms.assetid: 7707b7ce-662b-43e5-ada4-ba42eec56ede
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTracker interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTracker.UnadviseMouseSink, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTracker interface, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
-f1_keywords:
-- msctf/ITfMouseTracker.UnadviseMouseSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMouseTracker.UnadviseMouseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMouseTracker::UnadviseMouseSink
+ - msctf/ITfMouseTracker::UnadviseMouseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMouseTracker.UnadviseMouseSink
 ---
 
 # ITfMouseTracker::UnadviseMouseSink
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Uninstalls a mouse event sink.
 
 ## -parameters
 
-
-
-
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a>.
-
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,23 +101,12 @@ The context owner does not support mouse event sinks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
- 
-
- 
-

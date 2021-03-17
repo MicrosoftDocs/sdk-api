@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMF2DBuffer.IsContiguousFormat
 title: IMF2DBuffer::IsContiguousFormat (mfobjects.h)
 description: Queries whether the buffer is contiguous in its native format.
+helpviewer_keywords: ["IMF2DBuffer interface [Media Foundation]","IsContiguousFormat method","IMF2DBuffer.IsContiguousFormat","IMF2DBuffer::IsContiguousFormat","IsContiguousFormat","IsContiguousFormat method [Media Foundation]","IsContiguousFormat method [Media Foundation]","IMF2DBuffer interface","a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e","mf.imf2dbuffer_iscontiguousformat","mfobjects/IMF2DBuffer::IsContiguousFormat"]
 old-location: mf\imf2dbuffer_iscontiguousformat.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method, IMF2DBuffer.IsContiguousFormat, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation],IMF2DBuffer interface, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
-f1_keywords:
-- mfobjects/IMF2DBuffer.IsContiguousFormat
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMF2DBuffer.IsContiguousFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMF2DBuffer::IsContiguousFormat
+ - mfobjects/IMF2DBuffer::IsContiguousFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMF2DBuffer.IsContiguousFormat
 ---
 
 # IMF2DBuffer::IsContiguousFormat
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Queries whether the buffer is contiguous in its native format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfIsContiguous [out]
 
 Receives a Boolean value. The value is <b>TRUE</b> if the buffer is contiguous, and <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,35 +80,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface. For non-contiguous buffers, the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> method must perform an internal copy.
-
-
-
+For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface. For non-contiguous buffers, the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a> method must perform an internal copy.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>

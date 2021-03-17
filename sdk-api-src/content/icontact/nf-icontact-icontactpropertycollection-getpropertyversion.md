@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactPropertyCollection.GetPropertyVersion
 title: IContactPropertyCollection::GetPropertyVersion (icontact.h)
 description: Retrieves the version number for the current property in the enumeration.
+helpviewer_keywords: ["GetPropertyVersion","GetPropertyVersion method [Windows Contacts]","GetPropertyVersion method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyVersion method","IContactPropertyCollection.GetPropertyVersion","IContactPropertyCollection::GetPropertyVersion","_wincontacts_IContactPropertyCollection_GetPropertyVersion","icontact/IContactPropertyCollection::GetPropertyVersion","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyVersion"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyVersion.htm
 tech.root: wincontacts
 ms.assetid: ff10129e-45cb-41a4-8800-22b33a238b65
 ms.date: 12/05/2018
 ms.keywords: GetPropertyVersion, GetPropertyVersion method [Windows Contacts], GetPropertyVersion method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyVersion method, IContactPropertyCollection.GetPropertyVersion, IContactPropertyCollection::GetPropertyVersion, _wincontacts_IContactPropertyCollection_GetPropertyVersion, icontact/IContactPropertyCollection::GetPropertyVersion, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyVersion
-f1_keywords:
-- icontact/IContactPropertyCollection.GetPropertyVersion
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactPropertyCollection.GetPropertyVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactPropertyCollection::GetPropertyVersion
+ - icontact/IContactPropertyCollection::GetPropertyVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactPropertyCollection.GetPropertyVersion
 ---
 
 # IContactPropertyCollection::GetPropertyVersion
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the version number for the current property in the enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwVersion [in, out]
 
 Type: <b>DWORD*</b>
 
-Specifies the version of the property. 
-
+Specifies the version of the property.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -89,7 +83,4 @@ Query is successful.
 </td>
 </tr>
 </table>
- 
-
-
 

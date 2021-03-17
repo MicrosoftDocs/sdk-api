@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACPSink.OnLockGranted
 title: ITextStoreACPSink::OnLockGranted (textstor.h)
 description: ITextStoreACPSink::OnLockGranted method
+helpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnLockGranted method","ITextStoreACPSink.OnLockGranted","ITextStoreACPSink::OnLockGranted","OnLockGranted","OnLockGranted method [Text Services Framework]","OnLockGranted method [Text Services Framework]","ITextStoreACPSink interface","TS_LF_READ","TS_LF_READWRITE","_tsf_itextstoreacpsink_onlockgranted_ref","textstor/ITextStoreACPSink::OnLockGranted","tsf.itextstoreacpsink_onlockgranted"]
 old-location: tsf\itextstoreacpsink_onlockgranted.htm
 tech.root: TSF
 ms.assetid: ddedd278-ec28-417e-bce2-cdb74db7b0f3
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLockGranted method, ITextStoreACPSink.OnLockGranted, ITextStoreACPSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreACPSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreacpsink_onlockgranted_ref, textstor/ITextStoreACPSink::OnLockGranted, tsf.itextstoreacpsink_onlockgranted
-f1_keywords:
-- textstor/ITextStoreACPSink.OnLockGranted
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPSink.OnLockGranted
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPSink::OnLockGranted
+ - textstor/ITextStoreACPSink::OnLockGranted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPSink.OnLockGranted
 ---
 
 # ITextStoreACPSink::OnLockGranted
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to grant a document lock.
 
 ## -parameters
-
-
-
 
 ### -param dwLockFlags [in]
 
@@ -86,12 +84,8 @@ The lock is read/write.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,14 +128,8 @@ The wrong type of lock was granted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A document lock is requested by calling <b>ITextStoreACP::RequestLock</b> . The application grants the lock request by calling <b>ITextStoreACPSink::OnLockGranted</b> with the requested lock type. The lock is only valid during the <b>OnLockGranted</b> call. When <b>OnLockGranted</b> returns, the document is considered unlocked.
 
@@ -149,30 +137,20 @@ The lock type, specified in <i>dwLockFlags</i>, must match the requested lock ty
 
 If a synchronous lock request is made from within <b>ITextStoreACP::RequestLock</b>, then the caller must also provide the return value from <b>ITextStoreACP::RequestLock</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">ITextStoreACP::RequestLock
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestlock">ITextStoreACP::RequestLock
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
+<a href="/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
       </a>
- 
-
- 
-

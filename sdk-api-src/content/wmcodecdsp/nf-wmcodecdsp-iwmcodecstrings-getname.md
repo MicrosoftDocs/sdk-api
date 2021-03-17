@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IWMCodecStrings.GetName
 title: IWMCodecStrings::GetName (wmcodecdsp.h)
 description: Retrieves the name of a codec.
+helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IWMCodecStrings interface","IWMCodecStrings interface [Media Foundation]","GetName method","IWMCodecStrings.GetName","IWMCodecStrings::GetName","codecapi.iwmcodecstringsgetname","mf.iwmcodecstringsgetname","wmcodecdsp/IWMCodecStrings::GetName"]
 old-location: mf\iwmcodecstringsgetname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/IWMCodecStrings::GetName
-f1_keywords:
-- wmcodecdsp/IWMCodecStrings.GetName
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMCodecStrings.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecStrings::GetName
+ - wmcodecdsp/IWMCodecStrings::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMCodecStrings.GetName
 ---
 
 # IWMCodecStrings::GetName
@@ -48,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the name of a codec.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pmt [in]
 
 Pointer to the output media type. If <b>NULL</b>, the codec will use the media type that is currently set.
 
-
 ### -param cchLength [in]
 
 Size of szName buffer in wide characters.
-
 
 ### -param szName [out]
 
 Address of the wide-character buffer that receives the name. If <b>NULL</b>, pcchLength receives the required length.
 
-
 ### -param pcchLength [out]
 
 Pointer to the required buffer length in wide characters, including the null terminating character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,18 +91,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecstrings">IWMCodecStrings Interface</a>

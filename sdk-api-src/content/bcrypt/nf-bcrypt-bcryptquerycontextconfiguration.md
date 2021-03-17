@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptQueryContextConfiguration
 title: BCryptQueryContextConfiguration function (bcrypt.h)
 description: Retrieves the current configuration for the specified CNG context.
+helpviewer_keywords: ["BCryptQueryContextConfiguration","BCryptQueryContextConfiguration function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptQueryContextConfiguration","security.bcryptquerycontextconfiguration"]
 old-location: security\bcryptquerycontextconfiguration.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
 ms.date: 12/05/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
-f1_keywords:
-- bcrypt/BCryptQueryContextConfiguration
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptQueryContextConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptQueryContextConfiguration
+ - bcrypt/BCryptQueryContextConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptQueryContextConfiguration
 ---
 
 # BCryptQueryContextConfiguration function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptQueryContextConfiguration</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptQueryContextConfiguration</b> function retrieves the current configuration for the specified CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,13 +86,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to obtain the configuration information for.
-
 
 ### -param pcbBuffer [in, out]
 
@@ -103,21 +97,17 @@ The address of a <b>ULONG</b> variable that, on entry, contains the size, in byt
 
 After this function returns, this variable contains the number of bytes that were copied to the <i>ppBuffer</i> buffer.
 
-
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that receives the context configuration information retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that receives the context configuration information retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbBuffer</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
 For more information on the usage of this parameter, see Remarks.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -187,14 +177,8 @@ The specified context could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each context has only one set of configuration information, so although the <i>ppBuffer</i> parameter appears to be a used as an array, this function treats this as an array with only one element. The following example helps clarify how this parameter is used.
 
@@ -214,6 +198,3 @@ status = BCryptQueryContextConfiguration(
 
 
 <b>BCryptQueryContextConfiguration</b> can be called only in user mode.
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.SetValue
 title: ISettingsItem::SetValue (wcmconfig.h)
 description: Sets the value of an item.
+helpviewer_keywords: ["ISettingsItem interface [SMI]","SetValue method","ISettingsItem.SetValue","ISettingsItem::SetValue","SetValue","SetValue method [SMI]","SetValue method [SMI]","ISettingsItem interface","smi.isettingsitem_setvalue","wcmconfig/ISettingsItem::SetValue"]
 old-location: smi\isettingsitem_setvalue.htm
 tech.root: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
-f1_keywords:
-- wcmconfig/ISettingsItem.SetValue
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::SetValue
+ - wcmconfig/ISettingsItem::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.SetValue
 ---
 
 # ISettingsItem::SetValue
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of an item.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Variant that contains the value of the item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,18 +101,7 @@ Indicates that the item cannot be written, either because it is a read-only item
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

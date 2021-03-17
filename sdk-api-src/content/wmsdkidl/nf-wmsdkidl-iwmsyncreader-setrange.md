@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.SetRange
 title: IWMSyncReader::SetRange (wmsdkidl.h)
 description: The SetRange method enables you to specify a start time and duration for playback by the synchronous reader.
+helpviewer_keywords: ["IWMSyncReader interface [windows Media Format]","SetRange method","IWMSyncReader.SetRange","IWMSyncReader::SetRange","IWMSyncReaderSetRange","SetRange","SetRange method [windows Media Format]","SetRange method [windows Media Format]","IWMSyncReader interface","wmformat.iwmsyncreader_setrange","wmsdkidl/IWMSyncReader::SetRange"]
 old-location: wmformat\iwmsyncreader_setrange.htm
 tech.root: wmformat
 ms.assetid: d96c97ad-085d-4753-8efb-8a6bcb284e78
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRange method, IWMSyncReader.SetRange, IWMSyncReader::SetRange, IWMSyncReaderSetRange, SetRange, SetRange method [windows Media Format], SetRange method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrange, wmsdkidl/IWMSyncReader::SetRange
-f1_keywords:
-- wmsdkidl/IWMSyncReader.SetRange
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.SetRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::SetRange
+ - wmsdkidl/IWMSyncReader::SetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.SetRange
 ---
 
 # IWMSyncReader::SetRange
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetRange</b> method enables you to specify a start time and duration for playback by the synchronous reader.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsStartTime [in]
 
 Offset into the file at which to start playback. This value is measured in 100-nanosecond units.
 
-
 ### -param cnsDuration [in]
 
 Duration in 100-nanosecond units, or zero to continue playback to the end of the file.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,14 +119,8 @@ No file is loaded in the synchronous reader.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies a range for the whole file only. You cannot specify a range for an individual stream.
 
@@ -144,20 +128,10 @@ You can call <b>SetRange</b> at any time after a file has been loaded.
 
 The start time you specify might not be the presentation time of the first sample received. The synchronous delivers video samples starting with the key frame before the specified time.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">IWMSyncReader::SetRangeByFrame</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">IWMSyncReader::SetRangeByFrame</a>

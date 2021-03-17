@@ -2,15 +2,12 @@
 UID: NF:control.IBasicAudio.get_Volume
 title: IBasicAudio::get_Volume (control.h)
 description: The get_Volume method retrieves the volume (amplitude) of the audio signal.
+helpviewer_keywords: ["IBasicAudio interface [DirectShow]","get_Volume method","IBasicAudio.get_Volume","IBasicAudio::get_Volume","IBasicAudioget_Volume","control/IBasicAudio::get_Volume","dshow.ibasicaudio_get_volume","get_Volume","get_Volume method [DirectShow]","get_Volume method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_get_volume.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3258da5a-ab44-4c8a-813b-79a0c28693a3
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Volume method, IBasicAudio.get_Volume, IBasicAudio::get_Volume, IBasicAudioget_Volume, control/IBasicAudio::get_Volume, dshow.ibasicaudio_get_volume, get_Volume, get_Volume method [DirectShow], get_Volume method [DirectShow],IBasicAudio interface
-f1_keywords:
-- control/IBasicAudio.get_Volume
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicAudio.get_Volume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicAudio::get_Volume
+ - control/IBasicAudio::get_Volume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicAudio.get_Volume
 ---
 
 # IBasicAudio::get_Volume
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Volume</code> method retrieves the volume (amplitude) of the audio signal.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plVolume [out]
 
 Pointer to a variable that receive the volume. Divide by 100 to get equivalent decibel value. For example, –10,000 is –100 dB.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>

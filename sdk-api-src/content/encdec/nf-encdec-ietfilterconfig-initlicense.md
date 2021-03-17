@@ -2,15 +2,12 @@
 UID: NF:encdec.IETFilterConfig.InitLicense
 title: IETFilterConfig::InitLicense (encdec.h)
 description: The InitLicense method initializes an encryption license.
+helpviewer_keywords: ["IETFilterConfig interface [Microsoft TV Technologies]","InitLicense method","IETFilterConfig.InitLicense","IETFilterConfig::InitLicense","IETFilterConfigInitLicense","InitLicense","InitLicense method [Microsoft TV Technologies]","InitLicense method [Microsoft TV Technologies]","IETFilterConfig interface","encdec/IETFilterConfig::InitLicense","mstv.ietfilterconfig_initlicense"]
 old-location: mstv\ietfilterconfig_initlicense.htm
 tech.root: mstv
 ms.assetid: d88d9ee0-1748-43e4-90d4-671b1449ef03
 ms.date: 12/05/2018
 ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense method, IETFilterConfig.InitLicense, IETFilterConfig::InitLicense, IETFilterConfigInitLicense, InitLicense, InitLicense method [Microsoft TV Technologies], InitLicense method [Microsoft TV Technologies],IETFilterConfig interface, encdec/IETFilterConfig::InitLicense, mstv.ietfilterconfig_initlicense
-f1_keywords:
-- encdec/IETFilterConfig.InitLicense
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EncDec.h
-api_name:
-- IETFilterConfig.InitLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IETFilterConfig::InitLicense
+ - encdec/IETFilterConfig::InitLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EncDec.h
+api_name:
+ - IETFilterConfig.InitLicense
 ---
 
 # IETFilterConfig::InitLicense
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitLicense</b> method initializes an encryption license.
 
-
 ## -parameters
-
-
-
 
 ### -param LicenseId [in]
 
 Identifies the license.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilterconfig">IETFilterConfig Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilterconfig">IETFilterConfig Interface</a>

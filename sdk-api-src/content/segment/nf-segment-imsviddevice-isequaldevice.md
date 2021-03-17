@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidDevice.IsEqualDevice
 title: IMSVidDevice::IsEqualDevice (segment.h)
 description: The IsEqualDevice method queries whether this device and another device represent the same underlying hardware.
+helpviewer_keywords: ["IMSVidDevice interface [Microsoft TV Technologies]","IsEqualDevice method","IMSVidDevice.IsEqualDevice","IMSVidDevice::IsEqualDevice","IMSVidDeviceIsEqualDevice","IsEqualDevice","IsEqualDevice method [Microsoft TV Technologies]","IsEqualDevice method [Microsoft TV Technologies]","IMSVidDevice interface","mstv.imsviddevice_isequaldevice","segment/IMSVidDevice::IsEqualDevice"]
 old-location: mstv\imsviddevice_isequaldevice.htm
 tech.root: mstv
 ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
-f1_keywords:
-- segment/IMSVidDevice.IsEqualDevice
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidDevice.IsEqualDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidDevice::IsEqualDevice
+ - segment/IMSVidDevice::IsEqualDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidDevice.IsEqualDevice
 ---
 
 # IMSVidDevice::IsEqualDevice
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsEqualDevice</b> method queries whether this device and another device represent the same underlying hardware.
-
 
 ## -parameters
 
-
-
-
 ### -param Device [in]
 
-Pointer to the other device's <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface.
-
+Pointer to the other device's <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface.
 
 ### -param IsEqual [out]
 
@@ -82,12 +78,8 @@ Pointer to a variable that receives one of the following values.
 <td>The two devices do not represent the same hardware.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -141,18 +133,7 @@ Unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>

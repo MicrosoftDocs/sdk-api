@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog2.IsSafeToDelete
 title: ICOMAdminCatalog2::IsSafeToDelete (comadmin.h)
 description: Determines whether the specified DLL is in use by the COM+ catalog or the registry.
+helpviewer_keywords: ["COMAdminInUseByCatalog","COMAdminInUseByRegistryClsid","COMAdminInUseByRegistryProxyStub","COMAdminInUseByRegistryTypeLib","COMAdminInUseByRegistryUnknown","COMAdminNotInUse","ICOMAdminCatalog2 interface [COM+]","IsSafeToDelete method","ICOMAdminCatalog2.IsSafeToDelete","ICOMAdminCatalog2::IsSafeToDelete","IsSafeToDelete","IsSafeToDelete method [COM+]","IsSafeToDelete method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_IsSafeToDelete","comadmin/ICOMAdminCatalog2::IsSafeToDelete","cos.icomadmincatalog2_issafetodelete"]
 old-location: cos\icomadmincatalog2_issafetodelete.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 293644a2-e400-47fc-803d-cf86ba97eb7d
 ms.date: 12/05/2018
 ms.keywords: COMAdminInUseByCatalog, COMAdminInUseByRegistryClsid, COMAdminInUseByRegistryProxyStub, COMAdminInUseByRegistryTypeLib, COMAdminInUseByRegistryUnknown, COMAdminNotInUse, ICOMAdminCatalog2 interface [COM+],IsSafeToDelete method, ICOMAdminCatalog2.IsSafeToDelete, ICOMAdminCatalog2::IsSafeToDelete, IsSafeToDelete, IsSafeToDelete method [COM+], IsSafeToDelete method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_IsSafeToDelete, comadmin/ICOMAdminCatalog2::IsSafeToDelete, cos.icomadmincatalog2_issafetodelete
-f1_keywords:
-- comadmin/ICOMAdminCatalog2.IsSafeToDelete
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog2.IsSafeToDelete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog2::IsSafeToDelete
+ - comadmin/ICOMAdminCatalog2::IsSafeToDelete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog2.IsSafeToDelete
 ---
 
 # ICOMAdminCatalog2::IsSafeToDelete
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified DLL is in use by the COM+ catalog or the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrDllName [in]
 
 The full path to the DLL to be tested.
-
 
 ### -param pCOMAdminInUse [out, retval]
 
@@ -138,25 +134,11 @@ The DLL is in use by the CLSID registry component.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMOperation.TransferObjectData
 title: IWMDMOperation::TransferObjectData (mswmdm.h)
 description: The TransferObjectData method is called to allow the application to transfer a block of data to or from the computer.
+helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","TransferObjectData method","IWMDMOperation.TransferObjectData","IWMDMOperation::TransferObjectData","IWMDMOperationTransferObjectData","TransferObjectData","TransferObjectData method [windows Media Device Manager]","TransferObjectData method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::TransferObjectData","wmdm.iwmdmoperation_transferobjectdata"]
 old-location: wmdm\iwmdmoperation_transferobjectdata.htm
 tech.root: WMDM
 ms.assetid: ba3f29d9-88cd-4050-aa9f-f9317745a16b
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],TransferObjectData method, IWMDMOperation.TransferObjectData, IWMDMOperation::TransferObjectData, IWMDMOperationTransferObjectData, TransferObjectData, TransferObjectData method [windows Media Device Manager], TransferObjectData method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::TransferObjectData, wmdm.iwmdmoperation_transferobjectdata
-f1_keywords:
-- mswmdm/IWMDMOperation.TransferObjectData
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMOperation.TransferObjectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMOperation::TransferObjectData
+ - mswmdm/IWMDMOperation::TransferObjectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMOperation.TransferObjectData
 ---
 
 # IWMDMOperation::TransferObjectData
@@ -49,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TransferObjectData</b> method is called to allow the application to transfer a block of data to or from the computer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pData
 
 Pointer to a buffer containing the data. This buffer is always allocated and freed by Windows Media Device Manager. Your application should never allocate or free this buffer.
 
-<b>BeginRead</b>[in] During a read from device, incoming data that must be decrypted using the <a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a> method. The application does not need to deallocate the buffer.
+<b>BeginRead</b>[in] During a read from device, incoming data that must be decrypted using the <a href="/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a> method. The application does not need to deallocate the buffer.
 
-<b>BeginWrite</b>[in, out] During a write to device, on input is a memory buffer <i>pdwSize</i> bytes long, allocated by Windows Media Device Manager. The application should fill this buffer with data that has been encrypted using the <a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a> method.
-
+<b>BeginWrite</b>[in, out] During a write to device, on input is a memory buffer <i>pdwSize</i> bytes long, allocated by Windows Media Device Manager. The application should fill this buffer with data that has been encrypted using the <a href="/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a> method.
 
 ### -param pdwSize
 
@@ -78,7 +71,6 @@ Pointer to a <b>DWORD</b> that specifies the transfer buffer size.
 
 <b>BeginWriteOn</b> input, the size of the <i>pData</i> buffer. On output, the actual size of the data sent out.
 
-
 ### -param abMac
 
 Array of bytes specifying the message authentication code for the parameter data of this method.
@@ -87,10 +79,7 @@ Array of bytes specifying the message authentication code for the parameter data
 
 <b>BeginWrite</b>[out] A MAC generated from <i>pData</i> and <i>pdwSize</i> before <i>pData</i> is encrypted.
 
-
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -133,16 +122,10 @@ An unspecified error occurred, and the read operation should be cancelled withou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application can determine whether data is being read from or written to the device by monitoring whether <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a> was called just before this method was called.
+The application can determine whether data is being read from or written to the device by monitoring whether <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">BeginRead</a> or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">BeginWrite</a> was called just before this method was called.
 
 
 #### Examples
@@ -260,29 +243,18 @@ HRESULT TransferObjectData(BYTE* pData, DWORD* pdwSize, BYTE* pMac)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/encryption-and-decryption">Encryption and Decryption</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

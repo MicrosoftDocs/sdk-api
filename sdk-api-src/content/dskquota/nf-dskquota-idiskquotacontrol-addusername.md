@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.AddUserName
 title: IDiskQuotaControl::AddUserName (dskquota.h)
 description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
+helpviewer_keywords: ["AddUserName","AddUserName method [Files]","AddUserName method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","AddUserName method","IDiskQuotaControl.AddUserName","IDiskQuotaControl::AddUserName","_win32_idiskquotacontrol_addusername","base.idiskquotacontrol_addusername","dskquota/IDiskQuotaControl::AddUserName","fs.idiskquotacontrol_addusername"]
 old-location: fs\idiskquotacontrol_addusername.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 306120e8-642a-439d-839c-944cb7fd7ee2
 ms.date: 12/05/2018
 ms.keywords: AddUserName, AddUserName method [Files], AddUserName method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserName method, IDiskQuotaControl.AddUserName, IDiskQuotaControl::AddUserName, _win32_idiskquotacontrol_addusername, base.idiskquotacontrol_addusername, dskquota/IDiskQuotaControl::AddUserName, fs.idiskquotacontrol_addusername
-f1_keywords:
-- dskquota/IDiskQuotaControl.AddUserName
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.AddUserName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::AddUserName
+ - dskquota/IDiskQuotaControl::AddUserName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.AddUserName
 ---
 
 # IDiskQuotaControl::AddUserName
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLogonName [in]
 
 The user's account logon name string.
-
 
 ### -param fNameResolution [in]
 
@@ -80,7 +76,7 @@ Indicates how the user account information is to be obtained. The volume's quota
 <td width="60%">
 Resolve user account information asynchronously. 
 <b>AddUserName</b> returns immediately. The caller must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
 <b>IDiskQuotaEvents</b>.
 
 </td>
@@ -109,18 +105,13 @@ Resolve user account information synchronously.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppUser [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the newly created quota user object.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the newly created quota user object.
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -218,35 +209,19 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The NTFS file system automatically creates a user quota entry when a user first writes to the volume. Entries that are created automatically are assigned the default warning threshold and hard quota limit values for the volume. This method allows you to create a user quota entry before a user has written information to the volume. Therefore, you can pre-assign a warning threshold or hard quota limit value different than the volume default settings.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

@@ -2,15 +2,12 @@
 UID: NF:shellapi.SHIsFileAvailableOffline
 title: SHIsFileAvailableOffline function (shellapi.h)
 description: Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.
+helpviewer_keywords: ["OFFLINE_STATUS_INCOMPLETE","OFFLINE_STATUS_LOCAL","OFFLINE_STATUS_REMOTE","SHIsFileAvailableOffline","SHIsFileAvailableOffline function [Windows Shell]","shell.SHIsFileAvailableOffline","shell_shisfileavailableoffline","shellapi/SHIsFileAvailableOffline"]
 old-location: shell\SHIsFileAvailableOffline.htm
 tech.root: shell
 ms.assetid: 9acf212d-9309-42b0-ba96-faa0ecf0b865
 ms.date: 12/05/2018
 ms.keywords: OFFLINE_STATUS_INCOMPLETE, OFFLINE_STATUS_LOCAL, OFFLINE_STATUS_REMOTE, SHIsFileAvailableOffline, SHIsFileAvailableOffline function [Windows Shell], shell.SHIsFileAvailableOffline, shell_shisfileavailableoffline, shellapi/SHIsFileAvailableOffline
-f1_keywords:
-- shellapi/SHIsFileAvailableOffline
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHIsFileAvailableOffline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHIsFileAvailableOffline
+ - shellapi/SHIsFileAvailableOffline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHIsFileAvailableOffline
 ---
 
 # SHIsFileAvailableOffline function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a file or folder is available for offline use. This function also determines whether the file would be opened from the network, from the local Offline Files cache, or from both locations.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszPath [in]
 
 Type: <b>PCWSTR</b>
 
 A pointer to a string value that specifies the full path to a network file or directory. This path does not need to be in UNC form. If <i>pszPath</i> is not a network path, the function returns E_INVALIDARG.
-
 
 ### -param pdwStatus [out, optional]
 
@@ -88,10 +84,7 @@ If the file is open, it is open on the server.
 
 The local copy is currently incomplete. The file cannot be opened in offline mode until it has been synchronized.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -136,19 +129,10 @@ The file or directory is not cached.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>pszPath</i> is a directory, <b>SHIsFileAvailableOffline</b> will not return the <b>OFFLINE_STATUS_INCOMPLETE</b> flag.
 
 If <b>SHIsFileAvailableOffline</b> returns both <b>OFFLINE_STATUS_LOCAL</b> and <b>OFFLINE_STATUS_REMOTE</b>, the file or directory is open in both places.  This is common when the server is online.
-
-
-
 

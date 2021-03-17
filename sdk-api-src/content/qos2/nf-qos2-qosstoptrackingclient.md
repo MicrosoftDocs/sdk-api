@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSStopTrackingClient
 title: QOSStopTrackingClient function (qos2.h)
 description: The QOSStopTrackingClient function notifies the QoS subsystem to stop tracking a client that has previously used the QOSStartTrackingClient function. If a flow is currently in progress, this function will not affect it.
+helpviewer_keywords: ["QOSStopTrackingClient","QOSStopTrackingClient function [QOS]","qos.qosstoptrackingclient","qos2/QOSStopTrackingClient"]
 old-location: qos\qosstoptrackingclient.htm
 tech.root: QOS
 ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
 ms.date: 12/05/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
-f1_keywords:
-- qos2/QOSStopTrackingClient
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSStopTrackingClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSStopTrackingClient
+ - qos2/QOSStopTrackingClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSStopTrackingClient
 ---
 
 # QOSStopTrackingClient function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>QOSStopTrackingClient</b> function notifies the QoS subsystem to stop tracking a client that has previously used the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> function. If a flow is currently in progress, this function will not affect it.
-
+The <b>QOSStopTrackingClient</b> function notifies the QoS subsystem to stop tracking a client that has previously used the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> function. If a flow is currently in progress, this function will not affect it.
 
 ## -parameters
 
-
-
-
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param DestAddr [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  A port number is not required and will be ignored.
-
+Pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  A port number is not required and will be ignored.
 
 ### -param Flags
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -147,7 +139,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -163,21 +155,15 @@ A network adapter hardware error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
 
 
 #### Examples
 
-The following code shows this function called in an application setting.  See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> for parameter information.
+The following code shows this function called in an application setting.  See <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> for parameter information.
 
 
 ```cpp
@@ -196,21 +182,10 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

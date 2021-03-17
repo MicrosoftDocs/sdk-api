@@ -2,12 +2,10 @@
 UID: NE:d3d12.D3D12_SHADING_RATE_COMBINER
 title: D3D12_SHADING_RATE_COMBINER
 description: Defines constants that specify a shading rate combiner (for variable-rate shading, or VRS).
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_SHADING_RATE_COMBINER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE_COMBINER
-f1_keywords:
-- d3d12/D3D12_SHADING_RATE_COMBINER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -20,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D12_SHADING_RATE_COMBINER
+ - d3d12/D3D12_SHADING_RATE_COMBINER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_SHADING_RATE_COMBINER
+ - D3D12_SHADING_RATE_COMBINER
 ---
 
 ## -description
@@ -61,3 +64,4 @@ Specifies the combiner C.xy = min(maxRate, A.xy + B.xy)`, for combiner (C) and i
 ## -see-also
 
 [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs)
+

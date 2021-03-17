@@ -2,15 +2,12 @@
 UID: NS:ddkmapi._DDFLIPOVERLAY
 title: DDFLIPOVERLAY (ddkmapi.h)
 description: The DDFLIPOVERLAY structure contains the surface information required for the flip.
+helpviewer_keywords: ["*LPDDFLIPOVERLAY","DDFLIPOVERLAY","DDFLIPOVERLAY structure [Display Devices]","LPDDFLIPOVERLAY","LPDDFLIPOVERLAY structure pointer [Display Devices]","ddkmapi/DDFLIPOVERLAY","ddkmapi/LPDDFLIPOVERLAY","ddstrcts_a29d7c69-b024-435d-8853-54477c17e960.xml","display.ddflipoverlay"]
 old-location: display\ddflipoverlay.htm
 tech.root: display
 ms.assetid: 455005d8-5713-4188-9bcb-333c7c4f849d
 ms.date: 12/05/2018
 ms.keywords: '*LPDDFLIPOVERLAY, DDFLIPOVERLAY, DDFLIPOVERLAY structure [Display Devices], LPDDFLIPOVERLAY, LPDDFLIPOVERLAY structure pointer [Display Devices], ddkmapi/DDFLIPOVERLAY, ddkmapi/LPDDFLIPOVERLAY, ddstrcts_a29d7c69-b024-435d-8853-54477c17e960.xml, display.ddflipoverlay'
-f1_keywords:
-- ddkmapi/DDFLIPOVERLAY
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDFLIPOVERLAY
 targetos: Windows
 req.typenames: DDFLIPOVERLAY, *LPDDFLIPOVERLAY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDFLIPOVERLAY
+ - ddkmapi/_DDFLIPOVERLAY
+ - LPDDFLIPOVERLAY
+ - ddkmapi/LPDDFLIPOVERLAY
+ - DDFLIPOVERLAY
+ - ddkmapi/DDFLIPOVERLAY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDFLIPOVERLAY
 ---
 
 # DDFLIPOVERLAY structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDFLIPOVERLAY structure contains the surface information required for the flip. 
-
+The DDFLIPOVERLAY structure contains the surface information required for the flip.
 
 ## -struct-fields
-
-
-
 
 ### -field hDirectDraw
 
 Specifies the Microsoft DirectDraw handle.
 
-
 ### -field hCurrentSurface
 
 Specifies the current DirectDrawSurface handle.
 
-
 ### -field hTargetSurface
 
 Handle of the DirectDrawSurface to which the flip occurs.
-
 
 ### -field dwFlags
 
@@ -102,20 +100,11 @@ For use only when displaying video in an overlay surface. The new surface contai
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

@@ -2,15 +2,12 @@
 UID: NS:wia_xp._WIA_FORMAT_INFO
 title: WIA_FORMAT_INFO (wia_xp.h)
 description: The WIA_FORMAT_INFO structure specifies valid format and media type pairs for a device.
+helpviewer_keywords: ["*PWIA_FORMAT_INFO","PWIA_FORMAT_INFO","PWIA_FORMAT_INFO structure pointer [WIA]","WIA_FORMAT_INFO","WIA_FORMAT_INFO structure [WIA]","_wia_WIA_FORMAT_INFO","wia._wia_WIA_FORMAT_INFO","wia_xp/PWIA_FORMAT_INFO","wia_xp/WIA_FORMAT_INFO"]
 old-location: wia\_wia_WIA_FORMAT_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_format_info.htm
 ms.date: 12/05/2018
 ms.keywords: '*PWIA_FORMAT_INFO, PWIA_FORMAT_INFO, PWIA_FORMAT_INFO structure pointer [WIA], WIA_FORMAT_INFO, WIA_FORMAT_INFO structure [WIA], _wia_WIA_FORMAT_INFO, wia._wia_WIA_FORMAT_INFO, wia_xp/PWIA_FORMAT_INFO, wia_xp/WIA_FORMAT_INFO'
-f1_keywords:
-- wia_xp/WIA_FORMAT_INFO
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wia_xp.h
-api_name:
-- WIA_FORMAT_INFO
 targetos: Windows
 req.typenames: WIA_FORMAT_INFO, *PWIA_FORMAT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WIA_FORMAT_INFO
+ - wia_xp/_WIA_FORMAT_INFO
+ - PWIA_FORMAT_INFO
+ - wia_xp/PWIA_FORMAT_INFO
+ - WIA_FORMAT_INFO
+ - wia_xp/WIA_FORMAT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wia_xp.h
+api_name:
+ - WIA_FORMAT_INFO
 ---
 
 # WIA_FORMAT_INFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WIA_FORMAT_INFO</b> structure specifies valid format and media type pairs for a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field guidFormatID
 
 Type: <b>GUID</b>
 
 GUID that identifies the format.
-
 
 ### -field lTymed
 

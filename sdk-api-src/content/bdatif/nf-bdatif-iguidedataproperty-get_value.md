@@ -2,15 +2,12 @@
 UID: NF:bdatif.IGuideDataProperty.get_Value
 title: IGuideDataProperty::get_Value (bdatif.h)
 description: The get_Value method retrieves the value associated with the property.
+helpviewer_keywords: ["IGuideDataProperty interface [Microsoft TV Technologies]","get_Value method","IGuideDataProperty.get_Value","IGuideDataProperty::get_Value","IGuideDataPropertyget_Value","bdatif/IGuideDataProperty::get_Value","get_Value","get_Value method [Microsoft TV Technologies]","get_Value method [Microsoft TV Technologies]","IGuideDataProperty interface","mstv.iguidedataproperty_get_value"]
 old-location: mstv\iguidedataproperty_get_value.htm
 tech.root: mstv
 ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
 ms.date: 12/05/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
-f1_keywords:
-- bdatif/IGuideDataProperty.get_Value
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdatif.h
-api_name:
-- IGuideDataProperty.get_Value
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGuideDataProperty::get_Value
+ - bdatif/IGuideDataProperty::get_Value
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdatif.h
+api_name:
+ - IGuideDataProperty.get_Value
 ---
 
 # IGuideDataProperty::get_Value
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_Value</b> method retrieves the value associated with the property.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pvar [out]
 
 Pointer to a variable that receives the value of the property as a <b>VARIANT</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -88,31 +79,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the name of the property is "Description.Name" then the value of the property is the actual name of the service or show.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataproperty">IGuideDataProperty Interface</a>

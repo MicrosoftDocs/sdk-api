@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._POLICY_AUDIT_SID_ARRAY
 title: POLICY_AUDIT_SID_ARRAY (ntsecapi.h)
 description: Specifies an array of SID structures that represent Windows users or groups.
+helpviewer_keywords: ["*PPOLICY_AUDIT_SID_ARRAY","POLICY_AUDIT_SID_ARRAY","POLICY_AUDIT_SID_ARRAY structure [Security]","PPOLICY_AUDIT_SID_ARRAY","PPOLICY_AUDIT_SID_ARRAY structure pointer [Security]","ntsecapi/POLICY_AUDIT_SID_ARRAY","ntsecapi/PPOLICY_AUDIT_SID_ARRAY","security.policy_audit_sid_array"]
 old-location: security\policy_audit_sid_array.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.date: 12/05/2018
 ms.keywords: '*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array'
-f1_keywords:
-- ntsecapi/POLICY_AUDIT_SID_ARRAY
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- POLICY_AUDIT_SID_ARRAY
 targetos: Windows
 req.typenames: POLICY_AUDIT_SID_ARRAY, *PPOLICY_AUDIT_SID_ARRAY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _POLICY_AUDIT_SID_ARRAY
+ - ntsecapi/_POLICY_AUDIT_SID_ARRAY
+ - PPOLICY_AUDIT_SID_ARRAY
+ - ntsecapi/PPOLICY_AUDIT_SID_ARRAY
+ - POLICY_AUDIT_SID_ARRAY
+ - ntsecapi/POLICY_AUDIT_SID_ARRAY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - POLICY_AUDIT_SID_ARRAY
 ---
 
 # POLICY_AUDIT_SID_ARRAY structure
@@ -48,46 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that represent Windows users or groups.
-
+The <b>POLICY_AUDIT_SID_ARRAY</b> structure specifies an array of <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that represent Windows users or groups.
 
 ## -struct-fields
 
-
-
-
 ### -field UsersCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures in the <b>UserSidArray</b> array.
-
+The number of <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures in the <b>UserSidArray</b> array.
 
 ### -field UserSidArray.size_is
 
- 
-
-
 ### -field UserSidArray.size_is.UsersCount
-
- 
-
 
 ### -field UserSidArray
 
-A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that specify Windows users or groups.
-
+A pointer to an array of pointers to <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structures that specify Windows users or groups.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy">AuditEnumeratePerUserPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumerateperuserpolicy">AuditEnumeratePerUserPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

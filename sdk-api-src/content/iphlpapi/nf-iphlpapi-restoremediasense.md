@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.RestoreMediaSense
 title: RestoreMediaSense function (iphlpapi.h)
 description: The RestoreMediaSense function restores the media sensing capability of the TCP/IP stack on a local computer on which the DisableMediaSense function was previously called.
+helpviewer_keywords: ["RestoreMediaSense","RestoreMediaSense function [IP Helper]","iphlp.restoremediasense","iphlpapi/RestoreMediaSense"]
 old-location: iphlp\restoremediasense.htm
 tech.root: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
 ms.date: 12/05/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
-f1_keywords:
-- iphlpapi/RestoreMediaSense
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- RestoreMediaSense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RestoreMediaSense
+ - iphlpapi/RestoreMediaSense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - RestoreMediaSense
 ---
 
 # RestoreMediaSense function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>RestoreMediaSense</b> function restores the media sensing capability of the TCP/IP stack on a local computer on which the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function was previously called.
-
+The <b>RestoreMediaSense</b> function restores the media sensing capability of the TCP/IP stack on a local computer on which the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function was previously called.
 
 ## -parameters
-
-
-
 
 ### -param pOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member should contain a handle to a valid event object. Use the 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event object.
 
 ### -param lpdwEnableCount [optional]
 
-An optional pointer to a DWORD variable that receives the number of references remaining if the <b>RestoreMediaSense</b> function succeeds. The variable is also used by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a> functions.
-
+An optional pointer to a DWORD variable that receives the number of references remaining if the <b>RestoreMediaSense</b> function succeeds. The variable is also used by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a> and <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a> functions.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -89,7 +82,7 @@ If the function fails, the return value is one of the following error codes.
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if an <i>pOverlapped</i> parameter is a bad pointer.  This error is also returned if the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function was not called prior to calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a> function.
+An invalid parameter was passed to the function. This error is returned if an <i>pOverlapped</i> parameter is a bad pointer.  This error is also returned if the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function was not called prior to calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a> function.
 
 </td>
 </tr>
@@ -100,7 +93,7 @@ An invalid parameter was passed to the function. This error is returned if an <i
 </dl>
 </td>
 <td width="60%">
-The operation is in progress. This value may be returned by a successful asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a>.  
+The operation is in progress. This value may be returned by a successful asynchronous call to <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-restoremediasense">RestoreMediaSense</a>.  
 
 </td>
 </tr>
@@ -134,58 +127,52 @@ The request is not supported.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the <i>pOverlapped</i> parameter is <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed synchronously. 
 
-If the <i>pOverlapped</i> parameter is not <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed asynchronously using the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>pOverlapped</i> parameter. 
+If the <i>pOverlapped</i> parameter is not <b>NULL</b>, the <b>RestoreMediaSense</b> function is  executed asynchronously using the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>pOverlapped</i> parameter. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function does not complete until the <b>RestoreMediaSense</b> function is called later to restore the media sensing capability. Until then, an I/O request packet (IRP) remains queued up. Alternatively, when the process that called <b>DisableMediaSense</b> exits, the IRP is canceled and a cancel routine is called that would again restore the media sensing capability. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function does not complete until the <b>RestoreMediaSense</b> function is called later to restore the media sensing capability. Until then, an I/O request packet (IRP) remains queued up. Alternatively, when the process that called <b>DisableMediaSense</b> exits, the IRP is canceled and a cancel routine is called that would again restore the media sensing capability. 
 
 
 To call <b>RestoreMediaSense</b> synchronously, an application needs to pass a <b>NULL</b> pointer in the <i>pOverlapped</i> parameter. When <b>RestoreMediaSense</b> is called synchronously, the function returns when the I/O request packet (IRP) to restore the media sense has completed. 
 
-To call <b>RestoreMediaSense</b> asynchronously, an application needs to allocate an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event. When called asynchronously, <b>RestoreMediaSense</b> can return return ERROR_IO_PENDING. The IRP completes when the media sensing capability has been restored. Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle to the event object when it is no longer needed. The system closes the handle automatically when the process terminates. The event object is destroyed when its last handle has been closed. 
+To call <b>RestoreMediaSense</b> asynchronously, an application needs to allocate an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. Except for the <b>hEvent</b> member, all members of this structure must be set to zero. The <b>hEvent</b> member requires a handle to a valid event object. Use the 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function to create this event. When called asynchronously, <b>RestoreMediaSense</b> can return return ERROR_IO_PENDING. The IRP completes when the media sensing capability has been restored. Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle to the event object when it is no longer needed. The system closes the handle automatically when the process terminates. The event object is destroyed when its last handle has been closed. 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> was not called prior to calling <b>RestoreMediaSense</b>, then <b>RestoreMediaSense</b> returns ERROR_INVALID_PARAMETER.
+If <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> was not called prior to calling <b>RestoreMediaSense</b>, then <b>RestoreMediaSense</b> returns ERROR_INVALID_PARAMETER.
 
 On Windows Server 2003and Windows XP, the TCP/IP stack implements a policy of deleting all IP addresses on an interface in response to a media sense disconnect event from an underlying network interface. If a network switch or hub that the local computer is connected to is powered off, or a network cable is disconnected, the network interface will deliver disconnection events. IP configuration information associated with the network interface is lost. As a result, the TCP/IP stack implements a policy of hiding disconnected interfaces so these interfaces and their associated IP addresses do not show up in configuration information retrieved through IP helper. This policy prevents some applications from easily detecting that a network interface is merely disconnected, rather than removed from the system.
 
-This behavior does not normally impact a local client computer if it is using DHCP requests to a DHCP server for IP configuration information. But this can have a serious impact on server computers, particularly computers used as part of clusters. The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function can be used to temporarily disable the media sense capability for these cases. At some later time, the <b>RestoreMediaSense</b> function would be called to restore the media sensing capability.
+This behavior does not normally impact a local client computer if it is using DHCP requests to a DHCP server for IP configuration information. But this can have a serious impact on server computers, particularly computers used as part of clusters. The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function can be used to temporarily disable the media sense capability for these cases. At some later time, the <b>RestoreMediaSense</b> function would be called to restore the media sensing capability.
 
-The following registry setting is related to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions:
-
-
-<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>Tcpip</b>\<b>Parameters</b>\<b>DisableDHCPMediaSense</b>
+The following registry setting is related to the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions:
 
 
+<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Tcpip</b>&#92;<b>Parameters</b>&#92;<b>DisableDHCPMediaSense</b>
 
-There is an internal flag in Windows that is set if this registry key exists when the machine first boots up. The same internal flag also gets set and reset by calling <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b>. However with registry setting, you need to reboot the machine for the changes to take place.
 
 
-The TCP/IP stack on Windows Vista and later was changed to not hide disconnected interfaces when a disconnect event occurs. So on Windows Vista and later, the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions don't do anything and always returns NO_ERROR.
+There is an internal flag in Windows that is set if this registry key exists when the machine first boots up. The same internal flag also gets set and reset by calling <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b>. However with registry setting, you need to reboot the machine for the changes to take place.
+
+
+The TCP/IP stack on Windows Vista and later was changed to not hide disconnected interfaces when a disconnect event occurs. So on Windows Vista and later, the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions don't do anything and always returns NO_ERROR.
 
 
 #### Examples
 
-The following example shows how to call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions synchronously. This sample is only useful on Windows Server 2003and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
+The following example shows how to call the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions synchronously. This sample is only useful on Windows Server 2003and Windows XP where the <b>DisableMediaSense</b> and <b>RestoreMediaSense</b> functions do something useful.
 
-The sample first creates a separate thread that calls the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function synchronously, the main thread sleeps for 60 seconds to allow the user to disconnect a network cable, retrieves the IP address table and prints some members of the IP address entries in the table, calls the <b>RestoreMediaSense</b> function synchronously, retrieves the IP address table again, and prints some members of the IP address entries in the table.  The impact of disabling the media sensing capability can be seen in the difference in the IP address table entries. 
+The sample first creates a separate thread that calls the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> function synchronously, the main thread sleeps for 60 seconds to allow the user to disconnect a network cable, retrieves the IP address table and prints some members of the IP address entries in the table, calls the <b>RestoreMediaSense</b> function synchronously, retrieves the IP address table again, and prints some members of the IP address entries in the table.  The impact of disabling the media sensing capability can be seen in the difference in the IP address table entries. 
 
-For an example that shows how to call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions asynchronously, see the <b>DisableMediaSense</b> function reference.
+For an example that shows how to call the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a> and <b>RestoreMediaSense</b> functions asynchronously, see the <b>DisableMediaSense</b> function reference.
 
 
 ```cpp
@@ -393,45 +380,34 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-disablemediasense">DisableMediaSense</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-enablerouter">EnableRouter</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-unenablerouter">UnenableRouter</a>

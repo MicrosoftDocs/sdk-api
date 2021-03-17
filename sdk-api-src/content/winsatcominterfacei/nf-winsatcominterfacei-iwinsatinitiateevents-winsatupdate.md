@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATUpdate
 title: IWinSATInitiateEvents::WinSATUpdate (winsatcominterfacei.h)
 description: Receives notification when an assessment is making progress.
+helpviewer_keywords: ["IWinSATInitiateEvents interface [WinSAT]","WinSATUpdate method","IWinSATInitiateEvents.WinSATUpdate","IWinSATInitiateEvents::WinSATUpdate","WinSATUpdate","WinSATUpdate method [WinSAT]","WinSATUpdate method [WinSAT]","IWinSATInitiateEvents interface","winsat.iwinsatinitiateevents_winsatupdate","winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate"]
 old-location: winsat\iwinsatinitiateevents_winsatupdate.htm
 tech.root: WinSAT
 ms.assetid: d0f527a9-89b9-45d6-b5a5-82b0ae1ad122
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATUpdate method, IWinSATInitiateEvents.WinSATUpdate, IWinSATInitiateEvents::WinSATUpdate, WinSATUpdate, WinSATUpdate method [WinSAT], WinSATUpdate method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatupdate, winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
-f1_keywords:
-- winsatcominterfacei/IWinSATInitiateEvents.WinSATUpdate
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IWinSATInitiateEvents.WinSATUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinSATInitiateEvents::WinSATUpdate
+ - winsatcominterfacei/IWinSATInitiateEvents::WinSATUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IWinSATInitiateEvents.WinSATUpdate
 ---
 
 # IWinSATInitiateEvents::WinSATUpdate
@@ -48,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IWinSATInitiateEvents::WinSATUpdate may be altered or unavailable for releases after Windows 8.1.]
 
 Receives notification when an assessment is making progress.
 
-
 ## -parameters
-
-
-
 
 ### -param uCurrentTick [in]
 
 The current progress tick of the assessment.
 
-
 ### -param uTickTotal [in]
 
 The total number of progress ticks for the assessment.
-
 
 ### -param strCurrentState [in]
 
 A string that contains the current state of the assessment. This string is valid during the life of this callback. Copy the string if you need it after the callback returns.
 
-
 ## -returns
-
-
 
 This method should return  S_OK; the value is ignored.
 
-
-
-
 ## -remarks
-
-
 
 You can use this method to determine the progress of a formal assessment.  
 
@@ -98,27 +85,18 @@ You should keep your implementation short so you do not miss subsequent updates;
 
 #### Examples
 
-For an example implementation, see the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>.
+For an example implementation, see the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">InitiateAssessment</a> or <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">InitiateFormalAssessment</a> method of <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a>

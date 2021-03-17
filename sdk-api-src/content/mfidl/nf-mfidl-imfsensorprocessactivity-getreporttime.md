@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSensorProcessActivity.GetReportTime
 title: IMFSensorProcessActivity::GetReportTime (mfidl.h)
 description: Gets the time associated with the sensor activity report.
+helpviewer_keywords: ["GetReportTime","GetReportTime method [Media Foundation]","GetReportTime method [Media Foundation]","IMFSensorProcessActivity interface","IMFSensorProcessActivity interface [Media Foundation]","GetReportTime method","IMFSensorProcessActivity.GetReportTime","IMFSensorProcessActivity::GetReportTime","mf.imfsensorprocessactivity_getreporttime","mfidl/IMFSensorProcessActivity::GetReportTime"]
 old-location: mf\imfsensorprocessactivity_getreporttime.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7
 ms.date: 12/05/2018
 ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTime method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetReportTime method, IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
-f1_keywords:
-- mfidl/IMFSensorProcessActivity.GetReportTime
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorProcessActivity.GetReportTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProcessActivity::GetReportTime
+ - mfidl/IMFSensorProcessActivity::GetReportTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorProcessActivity.GetReportTime
 ---
 
 # IMFSensorProcessActivity::GetReportTime
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the time associated with the sensor activity report.
 
-
 ## -parameters
-
-
-
 
 ### -param pft [out]
 
 Receives the time associated with the sensor activity report.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -101,18 +95,7 @@ The <i>pft</i> parameter is null.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>

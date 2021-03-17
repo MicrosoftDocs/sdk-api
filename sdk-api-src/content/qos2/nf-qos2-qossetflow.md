@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSSetFlow
 title: QOSSetFlow function (qos2.h)
 description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.
+helpviewer_keywords: ["QOSSetFlow","QOSSetFlow function [QOS]","QOSSetOutgoingDSCPValue","QOSSetOutgoingRate","QOSSetTrafficType","qos.qossetoutgoingrate","qos2/QOSSetFlow"]
 old-location: qos\qossetoutgoingrate.htm
 tech.root: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
 ms.date: 12/05/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
-f1_keywords:
-- qos2/QOSSetFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSSetFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSSetFlow
+ - qos2/QOSSetFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSSetFlow
 ---
 
 # QOSSetFlow function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSSetFlow</b> function is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.  This function is also used to notify the QoS subsystem of a flow change: for example, if the flow rate is changed in order to account for network congestion, or if the QoS priority value requires adjustment for transferring or streaming different types of content over a single persistent socket connection.
-
 
 ## -parameters
 
-
-
-
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param FlowId [in]
 
 A flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
 
-
 ### -param Operation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_set_flow">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
+A <a href="/windows/desktop/api/qos2/ne-qos2-qos_set_flow">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
 
 <table>
 <tr>
@@ -83,7 +78,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_set_f
 </dl>
 </td>
 <td width="60%">
-The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant.
+The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="/windows/desktop/api/qos2/ne-qos2-qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant.
 
 </td>
 </tr>
@@ -94,7 +89,7 @@ The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a 
 </dl>
 </td>
 <td width="60%">
-The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a> structure.
+The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="/windows/desktop/api/qos2/ns-qos2-qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a> structure.
 
 </td>
 </tr>
@@ -112,32 +107,24 @@ Windows 7, Windows Server 2008 R2, and later: The outgoing DSCP value will be
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Size [in]
 
 The size of the <i>Buffer</i> parameter, in bytes.
 
-
 ### -param Buffer [in]
 
 Pointer to the structure specified by the value of the <i>Operation</i> parameter.
-
 
 ### -param Flags
 
 Reserved for future use. This parameter must be set to 0.
 
-
 ### -param Overlapped [out, optional]
 
 Pointer to an OVERLAPPED structure used for asynchronous output.  This must be set to <b>NULL</b> if this function is not being called asynchronously.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -276,7 +263,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -325,24 +312,18 @@ The network connection with the remote host failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> has not already been called, calling <b>QOSSetFlow</b> will cause the QOS subsystem to perform the following.<ul>
+If <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> has not already been called, calling <b>QOSSetFlow</b> will cause the QOS subsystem to perform the following.<ul>
 <li>Discover whether the end-to-end network path supports prioritization.</li>
 <li>Track end-to-end network characteristics by way of network experiments.  These experiments do not place any noteworthy stress on the network.</li>
 </ul>
 
 
 If <b>QOSSetFlow</b> returns <b>ERROR_NETWORK_BUSY</b> there is insufficient bandwidth for the specified flow rate and network priority cannot be granted.  The application can still transmit a data stream but the flow will not receive priority marking.  Ideally an application would not attempt to stream at the requested rate if there is insufficient bandwidth. If <b>ERROR_NETWORK_BUSY</b> is returned the following safe strategy is available:<ol>
-<li>Query the QoS subsystem with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> in order to determine the current available bandwidth and begin to stream at the received lower rate with priority if the network supports it.</li>
-<li>Request notification with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> for when the originally desired amount of bandwidth is available.  When notification is received call  <b>QOSSetFlow</b> with the new bandwidth request and send at the new rate again with prioritization if supported.</li>
+<li>Query the QoS subsystem with <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> in order to determine the current available bandwidth and begin to stream at the received lower rate with priority if the network supports it.</li>
+<li>Request notification with <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> for when the originally desired amount of bandwidth is available.  When notification is received call  <b>QOSSetFlow</b> with the new bandwidth request and send at the new rate again with prioritization if supported.</li>
 </ol>
 
 
@@ -353,7 +334,7 @@ This function may optionally be called asynchronously.
 
 The following code snippet demonstrates the use of QOSSetFlow in an application. Input parameters <i>QOSHandle</i>, <i>FlowId</i>, <i>FlowId</i>, <i>QOSSetOutgoingRate</i>, and <b>sizeof</b>(<i>QoSOutgoingFlowrate</i>) must be  previously initialized by other QoS functions and calculations within the application.
 
-Other QoS function examples that show initialization of parameters include <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>.
+Other QoS function examples that show initialization of parameters include <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>, <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a>, and <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>.
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -393,17 +374,6 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

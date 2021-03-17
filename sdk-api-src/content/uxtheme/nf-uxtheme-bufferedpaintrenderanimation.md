@@ -2,15 +2,12 @@
 UID: NF:uxtheme.BufferedPaintRenderAnimation
 title: BufferedPaintRenderAnimation function (uxtheme.h)
 description: Paints the next frame of a buffered paint animation.
+helpviewer_keywords: ["BufferedPaintRenderAnimation","BufferedPaintRenderAnimation function [Windows Controls]","_shell_BufferedPaintRenderAnimation","_shell_BufferedPaintRenderAnimation_cpp","controls.BufferedPaintRenderAnimation","controls._shell_BufferedPaintRenderAnimation","uxtheme/BufferedPaintRenderAnimation"]
 old-location: controls\BufferedPaintRenderAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintrenderanimation.htm
 ms.date: 12/05/2018
 ms.keywords: BufferedPaintRenderAnimation, BufferedPaintRenderAnimation function [Windows Controls], _shell_BufferedPaintRenderAnimation, _shell_BufferedPaintRenderAnimation_cpp, controls.BufferedPaintRenderAnimation, controls._shell_BufferedPaintRenderAnimation, uxtheme/BufferedPaintRenderAnimation
-f1_keywords:
-- uxtheme/BufferedPaintRenderAnimation
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- BufferedPaintRenderAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BufferedPaintRenderAnimation
+ - uxtheme/BufferedPaintRenderAnimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - BufferedPaintRenderAnimation
 ---
 
 # BufferedPaintRenderAnimation function
@@ -48,47 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Paints the next frame of a buffered paint animation.
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the window in which the animations play.
 
-
 ### -param hdcTarget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle of the target DC on which the buffer is animated.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if the frame has been painted, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If this function returns <b>TRUE</b>, the application should do no further painting. If this function returns <b>FALSE</b>, the application should paint normally.
 
-An application calls this function within its <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> handler.  After <b>BufferedPaintRenderAnimation</b> paints an animation frame, an application will typically continue without performing its usual painting operations.  If appropriate, an application may choose to render additional user interface (UI) over the top of the animation. The following code example, to be included as part of a larger body of code, shows how to use the animation painting functions.
+An application calls this function within its <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> handler.  After <b>BufferedPaintRenderAnimation</b> paints an animation frame, an application will typically continue without performing its usual painting operations.  If appropriate, an application may choose to render additional user interface (UI) over the top of the animation. The following code example, to be included as part of a larger body of code, shows how to use the animation painting functions.
 
 
 ```cpp
@@ -136,7 +124,3 @@ An application calls this function within its <a href="https://docs.microsoft.co
 }
 
 ```
-
-
-
-

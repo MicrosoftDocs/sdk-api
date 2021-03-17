@@ -2,15 +2,12 @@
 UID: NF:winnls.GetProcessPreferredUILanguages
 title: GetProcessPreferredUILanguages function (winnls.h)
 description: Retrieves the process preferred UI languages. For more information, see User Interface Language Management.
+helpviewer_keywords: ["GetProcessPreferredUILanguages","GetProcessPreferredUILanguages function [Internationalization for Windows Applications]","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","intl.getprocesspreferreduilanguages","winnls/GetProcessPreferredUILanguages"]
 old-location: intl\getprocesspreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 115fd1f4-39ae-4c69-aa42-606617a989aa
 ms.date: 12/05/2018
 ms.keywords: GetProcessPreferredUILanguages, GetProcessPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, intl.getprocesspreferreduilanguages, winnls/GetProcessPreferredUILanguages
-f1_keywords:
-- winnls/GetProcessPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetProcessPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessPreferredUILanguages
+ - winnls/GetProcessPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetProcessPreferredUILanguages
 ---
 
 # GetProcessPreferredUILanguages function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the process preferred UI languages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
-
+Retrieves the process preferred UI languages. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -79,7 +76,7 @@ Flags identifying the language format to use for the process preferred UI langua
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -89,18 +86,15 @@ Retrieve the language strings in <a href="https://docs.microsoft.com/windows/des
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+Retrieve the language strings in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulNumLanguages [out]
 
 Pointer to the number of languages retrieved in <i>pwszLanguagesBuffer</i>.
-
 
 ### -param pwszLanguagesBuffer [out, optional]
 
@@ -108,19 +102,15 @@ Optional. Pointer to a double null-terminated multi-string buffer in which the f
 
 Alternatively if this parameter is set to <b>NULL</b> and <i>pcchLanguagesBuffer</i> is set to 0, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>. The required size includes the two null characters.
 
-
 ### -param pcchLanguagesBuffer [in, out]
 
 Pointer to the size, in characters, for the language buffer indicated by <i>pwszLanguagesBuffer</i>. On successful return from the function, the parameter contains the size of the retrieved language buffer.
 
 Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is set to <b>NULL</b>, the function retrieves the required size of the language buffer in <i>pcchLanguagesBuffer</i>.
 
-
 ## -returns
 
-
-
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -128,13 +118,7 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended err
 </ul>
 If the process preferred UI language list is empty or if the languages specified for the process are not valid, the function succeeds and returns an empty multistring in <i>pwszLanguagesBuffer</i> and 2 in the <i>pcchLanguagesBuffer</i> parameter.
 
-
-
-
-
 ## -remarks
-
-
 
 Depending on the flags specified by the application, this function can retrieve a list consisting of the process preferred UI languages. If it encounters a duplicate language, the function only retrieves the first instance of the duplicated language.
 
@@ -159,25 +143,14 @@ as "0409" and en as "0009".
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setprocesspreferreduilanguages">SetProcessPreferredUILanguages</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setprocesspreferreduilanguages">SetProcessPreferredUILanguages</a>

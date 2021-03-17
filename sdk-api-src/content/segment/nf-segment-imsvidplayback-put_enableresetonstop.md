@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidPlayback.put_EnableResetOnStop
 title: IMSVidPlayback::put_EnableResetOnStop (segment.h)
 description: The put_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","put_EnableResetOnStop method","IMSVidPlayback.put_EnableResetOnStop","IMSVidPlayback::put_EnableResetOnStop","IMSVidPlaybackput_EnableResetOnStop","mstv.imsvidplayback_put_enableresetonstop","put_EnableResetOnStop","put_EnableResetOnStop method [Microsoft TV Technologies]","put_EnableResetOnStop method [Microsoft TV Technologies]","IMSVidPlayback interface","segment/IMSVidPlayback::put_EnableResetOnStop"]
 old-location: mstv\imsvidplayback_put_enableresetonstop.htm
 tech.root: mstv
 ms.assetid: f2b4285c-3cf8-40dc-87eb-57419ef7343e
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_EnableResetOnStop method, IMSVidPlayback.put_EnableResetOnStop, IMSVidPlayback::put_EnableResetOnStop, IMSVidPlaybackput_EnableResetOnStop, mstv.imsvidplayback_put_enableresetonstop, put_EnableResetOnStop, put_EnableResetOnStop method [Microsoft TV Technologies], put_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_EnableResetOnStop
-f1_keywords:
-- segment/IMSVidPlayback.put_EnableResetOnStop
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidPlayback.put_EnableResetOnStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidPlayback::put_EnableResetOnStop
+ - segment/IMSVidPlayback::put_EnableResetOnStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidPlayback.put_EnableResetOnStop
 ---
 
 # IMSVidPlayback::put_EnableResetOnStop
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_EnableResetOnStop</b> method indicates how playback will resume if the graph is rebuilt.
 
-
 ## -parameters
-
-
-
 
 ### -param newVal [in]
 
@@ -77,12 +74,8 @@ Specifies one of the following values.
 <td>The Video Control seeks back to the start before resuming playback.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -103,29 +96,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In some situations, the filter graph may be torn down and rebuilt during play. For example, this can happen if the monitor resolution changes or the screen saver starts. The <b>put_EnableResetOnStop</b> property specifies whether the Video Control should resume playback where it was interrupted, or should restart at the beginning of the source.
 
 By default, playback resumes from the point where it was interrupted. If <i>newVal</i> is VARIANT_TRUE, however, the Video Control will issue a seek command back to time zero. Note that setting this parameter to VARIANT_TRUE does not guarantee that the seek command will succeed. The seek command might fail, depending on the source.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>

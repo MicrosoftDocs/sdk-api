@@ -2,15 +2,12 @@
 UID: NN:iads.IADsWinNTSystemInfo
 title: IADsWinNTSystemInfo (iads.h)
 description: The IADsWinNTSystemInfo interface retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
+helpviewer_keywords: ["IADsWinNTSystemInfo","IADsWinNTSystemInfo interface [ADSI]","IADsWinNTSystemInfo interface [ADSI]","described","_ds_iadswinntsysteminfo","adsi.iadswinntsysteminfo","iads/IADsWinNTSystemInfo"]
 old-location: adsi\iadswinntsysteminfo.htm
 tech.root: adsi
 ms.assetid: 63a20250-1b93-49df-b7f8-7169db8efde0
 ms.date: 12/05/2018
 ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinNTSystemInfo interface [ADSI],described, _ds_iadswinntsysteminfo, adsi.iadswinntsysteminfo, iads/IADsWinNTSystemInfo
-f1_keywords:
-- iads/IADsWinNTSystemInfo
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsWinNTSystemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsWinNTSystemInfo
+ - iads/IADsWinNTSystemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsWinNTSystemInfo
 ---
 
 # IADsWinNTSystemInfo interface
@@ -48,10 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsWinNTSystemInfo</b> interface  retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
 
-The <b>IADsWinNTSystemInfo</b> interface is implemented on the <b>WinNTSystemInfo</b> object residing in Activeds.dll, which is included in the standard installation of ADSI for domain-capable editions of Windows. You must explicitly create an instance of the <b>WinNTSystemInfo</b> object to call the methods on the <b>IADsWinNTSystemInfo</b> interface. This requirement means creating an <b>WinNTSystemInfo</b> instance with the  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function in C/C++.
+The <b>IADsWinNTSystemInfo</b> interface is implemented on the <b>WinNTSystemInfo</b> object residing in Activeds.dll, which is included in the standard installation of ADSI for domain-capable editions of Windows. You must explicitly create an instance of the <b>WinNTSystemInfo</b> object to call the methods on the <b>IADsWinNTSystemInfo</b> interface. This requirement means creating an <b>WinNTSystemInfo</b> instance with the  <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function in C/C++.
 
 ```cpp
 IADsWinNTSystemInfo *pNTsys;
@@ -75,23 +76,14 @@ Dim ntSys
 Set ntSys = CreateObject("WinNTSystemInfo")
 ```
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/ADSI/iadswinntsysteminfo-property-methods">IADsWinNTSystemInfo Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadswinntsysteminfo-property-methods">IADsWinNTSystemInfo Property Methods</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

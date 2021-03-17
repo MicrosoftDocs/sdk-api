@@ -2,15 +2,12 @@
 UID: NF:control.IMediaPosition.CanSeekBackward
 title: IMediaPosition::CanSeekBackward (control.h)
 description: The CanSeekBackward method determines whether the filter graph can seek backward in the stream.
+helpviewer_keywords: ["CanSeekBackward","CanSeekBackward method [DirectShow]","CanSeekBackward method [DirectShow]","IMediaPosition interface","IMediaPosition interface [DirectShow]","CanSeekBackward method","IMediaPosition.CanSeekBackward","IMediaPosition::CanSeekBackward","IMediaPositionCanSeekBackward","control/IMediaPosition::CanSeekBackward","dshow.imediaposition_canseekbackward"]
 old-location: dshow\imediaposition_canseekbackward.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
 ms.date: 12/05/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward
-f1_keywords:
-- control/IMediaPosition.CanSeekBackward
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.CanSeekBackward
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::CanSeekBackward
+ - control/IMediaPosition::CanSeekBackward
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.CanSeekBackward
 ---
 
 # IMediaPosition::CanSeekBackward
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>CanSeekBackward</code> method determines whether the filter graph can seek backward in the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCanSeekBackward [out]
 
 Pointer to a variable that receives the value OATRUE if the graph can seek backward, or OAFALSE otherwise.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

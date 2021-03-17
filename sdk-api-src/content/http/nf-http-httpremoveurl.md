@@ -2,15 +2,12 @@
 UID: NF:http.HttpRemoveUrl
 title: HttpRemoveUrl function (http.h)
 description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.
+helpviewer_keywords: ["HttpRemoveUrl","HttpRemoveUrl function [HTTP]","_http_httpremoveurl","http.httpremoveurl","http/HttpRemoveUrl"]
 old-location: http\httpremoveurl.htm
 tech.root: http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039
 ms.date: 12/05/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
-f1_keywords:
-- http/HttpRemoveUrl
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpRemoveUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpRemoveUrl
+ - http/HttpRemoveUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpRemoveUrl
 ---
 
 # HttpRemoveUrl function
@@ -48,37 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpRemoveUrl</b> function causes the system to stop routing requests that match a specified 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> to a specified request queue.
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> to a specified request queue.
 
-Starting with HTTP Server API Version 2.0,  applications should call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a> to register a URL; <b>HttpRemoveUrl</b> should not be used.
-
+Starting with HTTP Server API Version 2.0,  applications should call <a href="/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a> to register a URL; <b>HttpRemoveUrl</b> should not be used.
 
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue from which the URL registration is to be removed. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
-
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 ### -param FullyQualifiedUrl [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a>  registered to the specified request queue. This string must be identical to the one passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a> to register the UrlPrefix; even a nomenclature change in an IPv6 address is not accepted.
-
+<a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a>  registered to the specified request queue. This string must be identical to the one passed to 
+<a href="/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a> to register the UrlPrefix; even a nomenclature change in an IPv6 address is not accepted.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -140,31 +133,20 @@ The specified UrlPrefix could not be found in the registration database.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurl">HttpAddUrl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>

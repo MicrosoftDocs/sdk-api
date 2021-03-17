@@ -2,15 +2,12 @@
 UID: NF:virtdisk.MergeVirtualDisk
 title: MergeVirtualDisk function (virtdisk.h)
 description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.
+helpviewer_keywords: ["MergeVirtualDisk","MergeVirtualDisk function [VHD]","vdssys/MergeVirtualDisk","vhd.mergevirtualdisk","virtdisk/MergeVirtualDisk"]
 old-location: vhd\mergevirtualdisk.htm
 tech.root: VStor
 ms.assetid: 9a9068d1-2f81-42a2-a3b2-6030a24a4445
 ms.date: 12/05/2018
 ms.keywords: MergeVirtualDisk, MergeVirtualDisk function [VHD], vdssys/MergeVirtualDisk, vhd.mergevirtualdisk, virtdisk/MergeVirtualDisk
-f1_keywords:
-- virtdisk/MergeVirtualDisk
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- MergeVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MergeVirtualDisk
+ - virtdisk/MergeVirtualDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - MergeVirtualDisk
 ---
 
 # MergeVirtualDisk function
@@ -48,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.
-
 
 ## -parameters
 
-
-
-
 ### -param VirtualDiskHandle [in]
 
-A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
-
+A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function.
 
 ### -param Flags [in]
 
-Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_flag">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
-
+Must be the <b>MERGE_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-merge_virtual_disk_flag">MERGE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
-
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-merge_virtual_disk_parameters">MERGE_VIRTUAL_DISK_PARAMETERS</a> structure that contains merge parameter data.
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
-
+An optional pointer to a valid <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure if <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is desired.
 
 ## -returns
-
-
 
 Status of the request.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+If the function fails, the return value is an error code. For more information, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  All occurrences of the term <i>disk</i> in this section refer to virtual disks. The term <i>backing store</i> refers to the physical disk storage where the VHD image file or files reside.</div>
 <div> </div>
@@ -102,7 +88,7 @@ Merging a disk requires that the affected disks be detached during the operation
 
 The caller must have READ|WRITE access to the backing store for the affected disks.
 
-The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters)a>.
+The RWDepth of the disk must be greater than the merge depth  specified by the [OPEN_VIRTUAL_DISK_PARAMETERS](./ns-virtdisk-open_virtual_disk_parameters.md).
 
 Merge modifies the parent disk being merged into, therefore any other differencing disks dependent on that parent will no longer be valid.
 
@@ -118,20 +104,10 @@ Upon completion, the affected child disks are no longer considered valid, and an
 
 If a merge operation is performed on a nonleaf node of a differencing disk, it is the responsibility of the caller to fix up the parent information for the child nodes of the disk that is being merged.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

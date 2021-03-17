@@ -2,15 +2,12 @@
 UID: NF:control.IAMStats.GetValueByName
 title: IAMStats::GetValueByName (control.h)
 description: The GetValueByName method retrieves a statistic, by name.
+helpviewer_keywords: ["GetValueByName","GetValueByName method [DirectShow]","GetValueByName method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetValueByName method","IAMStats.GetValueByName","IAMStats::GetValueByName","IAMStatsGetValueByName","control/IAMStats::GetValueByName","dshow.iamstats_getvaluebyname"]
 old-location: dshow\iamstats_getvaluebyname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname
-f1_keywords:
-- control/IAMStats.GetValueByName
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStats.GetValueByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStats::GetValueByName
+ - control/IAMStats::GetValueByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStats.GetValueByName
 ---
 
 # IAMStats::GetValueByName
@@ -49,61 +51,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetValueByName</code> method retrieves a statistic, by name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param szName [in]
 
 Specifies the name of the statistic.
 
-
 ### -param lIndex [out]
 
 Pointer to a variable that receives the index of this statistic.
-
 
 ### -param lCount [out]
 
 Pointer to a variable that receives the number of values that were recorded.
 
-
 ### -param dLast [out]
 
 Pointer to a variable that receives the most recent value that was recorded.
-
 
 ### -param dAverage [out]
 
 Pointer to a variable that receives the average value.
 
-
 ### -param dStdDev [out]
 
 Pointer to a variable that receives the standard deviation of the values. If the count is less than two, the standard deviation is zero.
-
 
 ### -param dMin [out]
 
 Pointer to a variable that receives the minimum value that was recorded.
 
-
 ### -param dMax [out]
 
 Pointer to a variable that receives the maximum value that was recorded.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -146,22 +130,11 @@ No match for this name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:ddrawint._DD_MORESURFACECAPS
 title: DD_MORESURFACECAPS (ddrawint.h)
 description: The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in DDCORECAPS.
+helpviewer_keywords: ["*PDD_MORESURFACECAPS","DD_MORESURFACECAPS","DD_MORESURFACECAPS structure [Display Devices]","ddrawint/DD_MORESURFACECAPS","ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml","display.dd_moresurfacecaps"]
 old-location: display\dd_moresurfacecaps.htm
 tech.root: display
 ms.assetid: 25cc9058-0c37-4768-a177-345cdae4ee5f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps'
-f1_keywords:
-- ddrawint/DD_MORESURFACECAPS
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_MORESURFACECAPS
 targetos: Windows
 req.typenames: '*PDD_MORESURFACECAPS, DD_MORESURFACECAPS'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_MORESURFACECAPS
+ - ddrawint/_DD_MORESURFACECAPS
+ - PDD_MORESURFACECAPS
+ - ddrawint/PDD_MORESURFACECAPS
+ - DD_MORESURFACECAPS
+ - ddrawint/DD_MORESURFACECAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_MORESURFACECAPS
 ---
 
 # DD_MORESURFACECAPS structure
@@ -48,15 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
-  
-
+The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
@@ -72,21 +72,13 @@ dwSize =
 
 This calculation accounts for the minimum size of the DD_MORESURFACECAPS structure, which includes only one <b>ddsExtendedHeapRestrictions</b> array element. Any additional <b>ddsExtendedHeapRestrictions</b> array elements must be accounted for by adding the sizes of the remaining array elements. That is, by adding the product of the number of remaining <b>ddsExtendedHeapRestrictions</b> structures times the size of each one.
 
-
 ### -field ddsCapsMore
 
-Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member. 
-
+Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCaps</b> that describe the types of extended surfaces the driver can create. When a DDCAPS structure is returned to the application, it is a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure manufactured from <b>DDCAPS.ddsCaps</b> and <b>DD_MORESURFACECAPS.ddsCapsMore</b>. A DDSCAPSEX structure is the same as a DDSCAPS2 structure without the <b>dwCaps</b> member.
 
 ### -field tagNTExtendedHeapRestrictions
 
- 
-
-
 ### -field tagNTExtendedHeapRestrictions.ddsCapsExAlt
-
- 
-
 
 ### -field ddsExtendedHeapRestrictions
 
@@ -104,29 +96,16 @@ Specifies a DDSCAPSEX structure in which the driver returns the capabilities for
 
 Specifies a DDSCAPSEX structure in which the driver returns the capabilities for which this chunk of memory cannot be used for when no other memory is found on the first pass.
 
-
 ## -remarks
-
-
 
 This structure contains the caps bits added to the <b>DDCAPS.ddsCaps</b> structure in DirectX 6.0. See the DirectDraw SDK documentation for a description of the DDCAPS structure.
 
 <b>Note for Microsoft Windows 98/Me:</b>  DD_MORESURFACECAPS is the definition for Windows 2000 and later versions. Drivers that run on Windows 98/Me use the name DDMORESURFACECAPS, which is aliased in <i>dx95type.h</i>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>

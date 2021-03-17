@@ -2,15 +2,12 @@
 UID: NF:ocidl.IFont.put_Size
 title: IFont::put_Size (ocidl.h)
 description: Sets the point size of the font.
+helpviewer_keywords: ["IFont interface [COM]","put_Size method","IFont.put_Size","IFont::put_Size","_ctrl_ifont_put_size","com.ifont_put_size","ocidl/IFont::put_Size","put_Size","put_Size method [COM]","put_Size method [COM]","IFont interface"]
 old-location: com\ifont_put_size.htm
 tech.root: com
 ms.assetid: 1c39a7dc-553b-41b7-8b66-1a5980493dce
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Size method, IFont.put_Size, IFont::put_Size, _ctrl_ifont_put_size, com.ifont_put_size, ocidl/IFont::put_Size, put_Size, put_Size method [COM], put_Size method [COM],IFont interface
-f1_keywords:
-- ocidl/IFont.put_Size
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFont.put_Size
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFont::put_Size
+ - ocidl/IFont::put_Size
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFont.put_Size
 ---
 
 # IFont::put_Size
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the point size of the font.
 
-
 ## -parameters
-
-
-
 
 ### -param size [in]
 
 The new size of the font, in <b>HIMETRIC</b> units.
 
-
 ## -returns
-
-
 
 The method supports the standard return value <b>E_UNEXPECTED</b>, as well as the following values.
 
@@ -96,22 +90,11 @@ The value of the <i>size</i> parameter is not valid. For example, it does not co
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a>

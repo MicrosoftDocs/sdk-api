@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteLocalizedStrings.FindLocaleName
 title: IDWriteLocalizedStrings::FindLocaleName (dwrite.h)
 description: Gets the zero-based index of the locale name/string pair with the specified locale name.
+helpviewer_keywords: ["FindLocaleName","FindLocaleName method [Direct Write]","FindLocaleName method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","FindLocaleName method","IDWriteLocalizedStrings.FindLocaleName","IDWriteLocalizedStrings::FindLocaleName","directwrite.IDWriteLocalizedStrings_FindLocaleName","dwrite/IDWriteLocalizedStrings::FindLocaleName"]
 old-location: directwrite\IDWriteLocalizedStrings_FindLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: d80032b2-304e-4c48-a7c7-fcda4305cca4
 ms.date: 12/05/2018
 ms.keywords: FindLocaleName, FindLocaleName method [Direct Write], FindLocaleName method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],FindLocaleName method, IDWriteLocalizedStrings.FindLocaleName, IDWriteLocalizedStrings::FindLocaleName, directwrite.IDWriteLocalizedStrings_FindLocaleName, dwrite/IDWriteLocalizedStrings::FindLocaleName
-f1_keywords:
-- dwrite/IDWriteLocalizedStrings.FindLocaleName
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteLocalizedStrings.FindLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteLocalizedStrings::FindLocaleName
+ - dwrite/IDWriteLocalizedStrings::FindLocaleName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteLocalizedStrings.FindLocaleName
 ---
 
 # IDWriteLocalizedStrings::FindLocaleName
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the zero-based index of the locale name/string pair with the specified locale name.
 
-
 ## -parameters
-
-
-
 
 ### -param localeName [in]
 
@@ -63,13 +60,11 @@ Type: <b>const WCHAR*</b>
 
 A null-terminated array of characters containing the locale name to look for.
 
-
 ### -param index [out]
 
 Type: <b>UINT32*</b>
 
 The zero-based index of the locale name/string pair. This method initializes <i>index</i> to <b>UINT_MAX</b>.
-
 
 ### -param exists [out]
 
@@ -77,23 +72,14 @@ Type: <b>BOOL*</b>
 
 When this method returns, contains <b>TRUE</b> if the locale name exists; otherwise, <b>FALSE</b>. This method initializes <i>exists</i> to <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the specified locale name does not exist, the return value is <b>S_OK</b>, 
      but <i>index</i> is <b>UINT_MAX</b> and <i>exists</i> is <b>FALSE</b>.
 
-
-
-
-
 ## -remarks
-
-
 
 Note that if the locale name does not exist, the return value is a success and the <i>exists</i> parameter is <b>FALSE</b>. If you are getting the font family name for a font and the specified locale name does not exist, one option is to set the index to 0 as shown below.  There is always at least one locale for a font family.
 
@@ -126,17 +112,7 @@ if (!exists)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>
- 
-
- 
 

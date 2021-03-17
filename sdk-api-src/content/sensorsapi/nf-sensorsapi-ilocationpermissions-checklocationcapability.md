@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ILocationPermissions.CheckLocationCapability
 title: ILocationPermissions::CheckLocationCapability (sensorsapi.h)
 description: Gets the location capability of the Windows Store app of the given thread.
+helpviewer_keywords: ["CheckLocationCapability","CheckLocationCapability method","CheckLocationCapability method","ILocationPermissions interface","ILocationPermissions interface","CheckLocationCapability method","ILocationPermissions.CheckLocationCapability","ILocationPermissions::CheckLocationCapability","sensorsapi/ILocationPermissions::CheckLocationCapability","winsensors.ilocationpermissions_checklocationcapability"]
 old-location: winsensors\ilocationpermissions_checklocationcapability.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: B7D6268C-4A0D-490F-B1E7-573159EF7CFF
 ms.date: 12/05/2018
 ms.keywords: CheckLocationCapability, CheckLocationCapability method, CheckLocationCapability method,ILocationPermissions interface, ILocationPermissions interface,CheckLocationCapability method, ILocationPermissions.CheckLocationCapability, ILocationPermissions::CheckLocationCapability, sensorsapi/ILocationPermissions::CheckLocationCapability, winsensors.ilocationpermissions_checklocationcapability
-f1_keywords:
-- sensorsapi/ILocationPermissions.CheckLocationCapability
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.h
-api_name:
-- ILocationPermissions.CheckLocationCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationPermissions::CheckLocationCapability
+ - sensorsapi/ILocationPermissions::CheckLocationCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.h
+api_name:
+ - ILocationPermissions.CheckLocationCapability
 ---
 
 # ILocationPermissions::CheckLocationCapability
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the location capability of the Windows Store app of the given thread
 
-
 ## -parameters
-
-
-
 
 ### -param dwClientThreadId
 
 Thread Id of the app to check the location capability of
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,29 +101,13 @@ An invalid client thread was provided.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  <b>CheckLocationCapability</b> is available in Windows 8.</div>
 <div> </div>
-For more information on location settings in Windows 8 see <a href="https://docs.microsoft.com/previous-versions/windows">Location settings</a>.
-
-
-
+For more information on location settings in Windows 8 see <a href="/previous-versions/windows">Location settings</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>

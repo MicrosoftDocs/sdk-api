@@ -2,15 +2,12 @@
 UID: NF:lmaccess.NetUserGetInfo
 title: NetUserGetInfo function (lmaccess.h)
 description: The NetUserGetInfo function retrieves information about a particular user account on a server.
+helpviewer_keywords: ["0","1","10","11","2","20","23","24","3","4","NetUserGetInfo","NetUserGetInfo function [Network Management]","_win32_netusergetinfo","lmaccess/NetUserGetInfo","netmgmt.netusergetinfo"]
 old-location: netmgmt\netusergetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
-f1_keywords:
-- lmaccess/NetUserGetInfo
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserGetInfo
+ - lmaccess/NetUserGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserGetInfo
 ---
 
 # NetUserGetInfo function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserGetInfo</b> function retrieves information about a particular user account on a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param username [in]
 
 A pointer to a constant string that specifies the name of the user account for which to return information. For more information, see the following Remarks section.
-
 
 ### -param level [in]
 
@@ -84,7 +79,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 Return the user account name. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -95,7 +90,7 @@ Return the user account name. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return detailed information about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -106,7 +101,7 @@ Return detailed information about the user account. The <i>bufptr</i> parameter 
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -117,8 +112,8 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. This level is valid only on servers. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_3">USER_INFO_3</a> structure. Note that  it is recommended that you use 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> instead.
 
 </td>
 </tr>
@@ -129,7 +124,7 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return detailed information and additional attributes about the user account. This level is valid only on servers. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a> structure.
 
 <div class="alert"><b>Note</b>  This level is supported on  Windows XP and later.</div>
 <div> </div>
@@ -142,7 +137,7 @@ Return detailed information and additional attributes about the user account. Th
 </td>
 <td width="60%">
 Return user and account names and comments. The <i>bufptr</i>  parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a> structure.
 
 </td>
 </tr>
@@ -153,7 +148,7 @@ Return user and account names and comments. The <i>bufptr</i>  parameter points 
 </td>
 <td width="60%">
 Return detailed information about the user account. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a> structure.
 
 </td>
 </tr>
@@ -164,8 +159,8 @@ Return detailed information about the user account. The <i>bufptr</i> parameter 
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structure. Note that on Windows XP and later, it is recommended that you use 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> instead.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_20">USER_INFO_20</a> structure. Note that on Windows XP and later, it is recommended that you use 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> instead.
 
 </td>
 </tr>
@@ -176,7 +171,7 @@ Return the user's name and identifier and various account attributes. The <i>buf
 </td>
 <td width="60%">
 Return the user's name and identifier and various account attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a> structure.
 
 <div class="alert"><b>Note</b>  This level is supported on  Windows XP and later.</div>
 <div> </div>
@@ -189,27 +184,22 @@ Return the user's name and identifier and various account attributes. The <i>buf
 </td>
 <td width="60%">
 Return user account information for accounts  which are connected to an Internet identity. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a> structure.
 
 <div class="alert"><b>Note</b>  The level is supported on Windows 8 and Windows Server 2012.</div>
 <div> </div>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -276,22 +266,16 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsuser">IADsUser</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+<a href="/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the User object is used to perform the access check for this function.
 
@@ -602,71 +586,60 @@ int wmain(int argc, wchar_t * argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuserenum">NetUserEnum</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetgroups">NetUserGetGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetgroups">NetUserGetGroups</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_0">USER_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_1">USER_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_10">USER_INFO_10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_11">USER_INFO_11</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_2">USER_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_23">USER_INFO_23</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_24">USER_INFO_24</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_info_4">USER_INFO_4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>

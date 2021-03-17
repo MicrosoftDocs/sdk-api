@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_ActiveDiscRecorder
 title: IDiscRecorder2::get_ActiveDiscRecorder (imapi2.h)
 description: Retrieves the unique identifier used to initialize the disc device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ActiveDiscRecorder method","IDiscRecorder2.get_ActiveDiscRecorder","IDiscRecorder2::get_ActiveDiscRecorder","get_ActiveDiscRecorder","get_ActiveDiscRecorder method [IMAPI]","get_ActiveDiscRecorder method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_activediscrecorder","imapi2/IDiscRecorder2::get_ActiveDiscRecorder"]
 old-location: imapi\idiscrecorder2_get_activediscrecorder.htm
 tech.root: imapi
 ms.assetid: 7fd3e13c-2853-417e-8478-46fa667c9f97
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ActiveDiscRecorder method, IDiscRecorder2.get_ActiveDiscRecorder, IDiscRecorder2::get_ActiveDiscRecorder, get_ActiveDiscRecorder, get_ActiveDiscRecorder method [IMAPI], get_ActiveDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_activediscrecorder, imapi2/IDiscRecorder2::get_ActiveDiscRecorder
-f1_keywords:
-- imapi2/IDiscRecorder2.get_ActiveDiscRecorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_ActiveDiscRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_ActiveDiscRecorder
+ - imapi2/IDiscRecorder2::get_ActiveDiscRecorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_ActiveDiscRecorder
 ---
 
 # IDiscRecorder2::get_ActiveDiscRecorder
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the unique identifier used to initialize the disc device.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-Unique identifier for the device. This is the identifier you specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>.
-
+Unique identifier for the device. This is the identifier you specified when calling <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -113,18 +107,7 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>

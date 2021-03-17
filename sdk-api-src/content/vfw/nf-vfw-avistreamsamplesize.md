@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamSampleSize
 title: AVIStreamSampleSize macro (vfw.h)
 description: The AVIStreamRelease macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by lPos.
+helpviewer_keywords: ["AVIStreamSampleSize","AVIStreamSampleSize macro [Windows Multimedia]","_win32_AVIStreamSampleSize","multimedia.avistreamsamplesize","vfw/AVIStreamSampleSize"]
 old-location: multimedia\avistreamsamplesize.htm
 tech.root: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
-f1_keywords:
-- vfw/AVIStreamSampleSize
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamSampleSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamSampleSize
+ - vfw/AVIStreamSampleSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamSampleSize
 ---
 
 # AVIStreamSampleSize macro
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamrelease">AVIStreamRelease</a> macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by <i>lPos</i>.
-
-
-
+The <a href="/windows/desktop/api/vfw/nf-vfw-avistreamrelease">AVIStreamRelease</a> macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by <i>lPos</i>.
 
 ## -parameters
 
-
-
-
 ### -param pavi
 
-Handle to an open stream. 
-
+Handle to an open stream.
 
 ### -param lPos
 
-Position of a sample in the stream. 
-
+Position of a sample in the stream.
 
 ### -param plSize
 
-Address to contain the buffer size. 
-
+Address to contain the buffer size.
 
 ## -remarks
-
-
 
 The <b>AVIStreamSampleSize</b> macro is defined as follows:
 
@@ -89,21 +78,10 @@ The <b>AVIStreamSampleSize</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>

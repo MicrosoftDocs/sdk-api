@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCInstallProvider
 title: WSCInstallProvider function (ws2spi.h)
 description: Installs the specified transport provider into the system configuration database.
+helpviewer_keywords: ["WSCInstallProvider","WSCInstallProvider function [Winsock]","_win32_wscinstallprovider_2","winsock.wscinstallprovider_2","ws2spi/WSCInstallProvider"]
 old-location: winsock\wscinstallprovider_2.htm
 tech.root: WinSock
 ms.assetid: c0736018-2bcf-4281-aa73-3e1ff9eac92e
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProvider, WSCInstallProvider function [Winsock], _win32_wscinstallprovider_2, winsock.wscinstallprovider_2, ws2spi/WSCInstallProvider
-f1_keywords:
-- ws2spi/WSCInstallProvider
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCInstallProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCInstallProvider
+ - ws2spi/WSCInstallProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCInstallProvider
 ---
 
 # WSCInstallProvider function
@@ -48,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSCInstallProvider** function installs the specified transport provider into the system configuration database.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider.
 
-
 ### -param lpszProviderDllPath [in]
 
 A pointer to a Unicode string that contains the load path to the provider DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the Ws2_32.dll must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the Ws2_32.dll passes the resulting string to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see **LoadLibrary**.
-
 
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structures. Each structure defines a protocol, address family, and socket type supported by the provider.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of entries in the <i>lpProtocolInfoList</i> array.
-
 
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If **WSCInstallProvider** succeeds, it returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
@@ -162,14 +152,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCInstallProvider** is used to install a single transport service provider.   This routine creates the necessary common Windows Sockets 2 configuration information for the specified provider. It is applicable to base protocols, layered protocols, and protocol chains. If a layered service provider is being installed, then <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains">WSCInstallProviderAndChains</a> should be used. **WSCInstallProviderAndChains** can install a layered protocol and one or more protocol chains with a single function call. To accomplish the same work using **WSCInstallProvider** would require multiple function calls.
 
@@ -189,13 +173,7 @@ The **WSCInstallProvider** function can only be called by a user logged on as a 
 
 Any file installation or service provider-specific configuration must be performed by the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
@@ -218,7 +196,4 @@ Any file installation or service provider-specific configuration must be perform
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
- 
-
- 
 

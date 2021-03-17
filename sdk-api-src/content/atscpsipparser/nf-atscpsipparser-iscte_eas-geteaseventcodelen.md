@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCodeLen
 title: ISCTE_EAS::GetEASEventCodeLen (atscpsipparser.h)
 description: The GetEASEventCodeLen method returns the size of the EAS event code.
+helpviewer_keywords: ["GetEASEventCodeLen","GetEASEventCodeLen method [Microsoft TV Technologies]","GetEASEventCodeLen method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetEASEventCodeLen method","ISCTE_EAS.GetEASEventCodeLen","ISCTE_EAS::GetEASEventCodeLen","ISCTE_EASGetEASEventCodeLen","atscpsipparser/ISCTE_EAS::GetEASEventCodeLen","mstv.iscte_eas_geteaseventcodelen"]
 old-location: mstv\iscte_eas_geteaseventcodelen.htm
 tech.root: mstv
 ms.assetid: d6e05cd0-d043-4f15-b25b-28402035943b
 ms.date: 12/05/2018
 ms.keywords: GetEASEventCodeLen, GetEASEventCodeLen method [Microsoft TV Technologies], GetEASEventCodeLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCodeLen method, ISCTE_EAS.GetEASEventCodeLen, ISCTE_EAS::GetEASEventCodeLen, ISCTE_EASGetEASEventCodeLen, atscpsipparser/ISCTE_EAS::GetEASEventCodeLen, mstv.iscte_eas_geteaseventcodelen
-f1_keywords:
-- atscpsipparser/ISCTE_EAS.GetEASEventCodeLen
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ISCTE_EAS.GetEASEventCodeLen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCTE_EAS::GetEASEventCodeLen
+ - atscpsipparser/ISCTE_EAS::GetEASEventCodeLen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ISCTE_EAS.GetEASEventCodeLen
 ---
 
 # ISCTE_EAS::GetEASEventCodeLen
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetEASEventCodeLen</b> method returns the size of the EAS event code.
-
 
 ## -parameters
 
-
-
-
 ### -param pbVal [out]
 
-Receives the size of the EAS event code, in bytes. To get the event code, allocate a buffer of this size and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcode">ISCTE_EAS::GetEASEventCode</a>.
-
+Receives the size of the EAS event code, in bytes. To get the event code, allocate a buffer of this size and call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-geteaseventcode">ISCTE_EAS::GetEASEventCode</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -80,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -96,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

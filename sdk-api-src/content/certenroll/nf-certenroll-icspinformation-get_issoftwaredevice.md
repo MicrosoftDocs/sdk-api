@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspInformation.get_IsSoftwareDevice
 title: ICspInformation::get_IsSoftwareDevice (certenroll.h)
 description: Retrieves a Boolean value that specifies whether the provider is implemented in software.
+helpviewer_keywords: ["ICspInformation interface [Security]","IsSoftwareDevice property","ICspInformation.IsSoftwareDevice","ICspInformation.get_IsSoftwareDevice","ICspInformation::IsSoftwareDevice","ICspInformation::get_IsSoftwareDevice","IsSoftwareDevice property [Security]","IsSoftwareDevice property [Security]","ICspInformation interface","certenroll/ICspInformation::IsSoftwareDevice","certenroll/ICspInformation::get_IsSoftwareDevice","get_IsSoftwareDevice","security.icspinformation_issoftwaredevice_property"]
 old-location: security\icspinformation_issoftwaredevice_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 50f78dcc-4d32-40c9-8153-f0b6ac72c03b
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsSoftwareDevice property, ICspInformation.IsSoftwareDevice, ICspInformation.get_IsSoftwareDevice, ICspInformation::IsSoftwareDevice, ICspInformation::get_IsSoftwareDevice, IsSoftwareDevice property [Security], IsSoftwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsSoftwareDevice, certenroll/ICspInformation::get_IsSoftwareDevice, get_IsSoftwareDevice, security.icspinformation_issoftwaredevice_property
-f1_keywords:
-- certenroll/ICspInformation.IsSoftwareDevice
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.IsSoftwareDevice
-- ICspInformation.get_IsSoftwareDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::get_IsSoftwareDevice
+ - certenroll/ICspInformation::get_IsSoftwareDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.IsSoftwareDevice
+ - ICspInformation.get_IsSoftwareDevice
 ---
 
 # ICspInformation::get_IsSoftwareDevice
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsSoftwareDevice</b> property retrieves a Boolean value that specifies whether the provider is implemented in software.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-This property only specifies whether a provider is implemented in software. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for the <b>IsSoftwareDevice</b> property indicates that there is no hardware component. You must also examine the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The following Microsoft providers return true for the <b>IsSoftwareDevice</b> property:<ul>
+This property only specifies whether a provider is implemented in software. Because a provider can be implemented in both hardware and software, you cannot assume that a value of true for the <b>IsSoftwareDevice</b> property indicates that there is no hardware component. You must also examine the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The following Microsoft providers return true for the <b>IsSoftwareDevice</b> property:<ul>
 <li>Microsoft Software Key Storage Provider</li>
 <li>Microsoft Smart Card Key Storage Provider</li>
 <li>Microsoft Base Cryptographic Provider v1.0</li>
@@ -78,18 +75,8 @@ This property only specifies whether a provider is implemented in software. Beca
 </ul>
 
 
-The Microsoft Smart Card Key Storage Provider and the Microsoft Base Smart Card Crypto Provider also return true for the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The Certificate Enrollment service assumes a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a> property is set.
-
-
-
+The Microsoft Smart Card Key Storage Provider and the Microsoft Base Smart Card Crypto Provider also return true for the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a> property. The Certificate Enrollment service assumes a smart card provider if both the <b>IsHardwareDevice</b> and <b>IsSoftwareDevice</b> properties are set, or if the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a> property is set.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

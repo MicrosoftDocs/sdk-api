@@ -2,15 +2,12 @@
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeErrorMemory
 title: EapHostPeerFreeErrorMemory function (eaphostpeerconfigapis.h)
 description: Frees memory allocated to an EAP_ERROR structure.
+helpviewer_keywords: ["EapHostPeerFreeErrorMemory","EapHostPeerFreeErrorMemory function [EAPHost]","eaphost.eaphostpeerfreeerrormemory","eaphostpeerconfigapis/EapHostPeerFreeErrorMemory"]
 old-location: eaphost\eaphostpeerfreeerrormemory.htm
 tech.root: eaphost
 ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-f1_keywords:
-- eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-dev_langs:
-- c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Eappcfg.lib
 req.dll: Eappcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- eappcfg.dll
-api_name:
-- EapHostPeerFreeErrorMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EapHostPeerFreeErrorMemory
+ - eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - eappcfg.dll
+api_name:
+ - EapHostPeerFreeErrorMemory
 ---
 
 # EapHostPeerFreeErrorMemory function
@@ -48,29 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
+Frees memory allocated to an [EAPHost supplicant configuration function](/windows/win32/eaphost/eap-host-supplicant-configuration-functions) fails. 
 
-Frees memory allocated to an [EAPHost supplicant configuration function](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a> fails. 
+The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
-The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
-
-If any  of the following configuration APIs functions are called, and an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
+If any  of the following configuration APIs functions are called, and an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml">EapHostPeerConfigBlob2Xml</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml">EapHostPeerConfigBlob2Xml</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob">EapHostPeerConfigXml2Blob</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob">EapHostPeerConfigXml2Blob</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob">EapHostPeerCredentialsXml2Blob</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob">EapHostPeerCredentialsXml2Blob</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui">EapHostPeerInvokeConfigUI</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui">EapHostPeerInvokeConfigUI</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields">EapHostPeerQueryCredentialsInputFields</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields">EapHostPeerQueryCredentialsInputFields</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapHostPeerQueryUserBlobFromCredentialsInputFields</a>
+<a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapHostPeerQueryUserBlobFromCredentialsInputFields</a>
 </li>
 </ul>
 
@@ -78,38 +79,18 @@ If any  of the following configuration APIs functions are called, and an <a href
 
 ## -parameters
 
-
-
-
 ### -param pEapError
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that  contains the error data to free.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that  contains the error data to free.
 
 ## -see-also
 
+[EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
 
 
 
-[EAPHost Supplicant Configuration Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-configuration-functions)a>
+[EAPHost Supplicant Frequently Asked Questions](/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)
 
 
 
-[EAPHost Supplicant Frequently Asked Questions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-supplicant-frequently-asked-questions)a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostFreeEapError</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostFreeEapError</a>

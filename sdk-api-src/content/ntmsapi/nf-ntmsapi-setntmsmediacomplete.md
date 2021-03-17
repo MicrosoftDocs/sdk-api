@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.SetNtmsMediaComplete
 title: SetNtmsMediaComplete function (ntmsapi.h)
 description: The SetNtmsMediaComplete function marks a piece of logical media as complete.
+helpviewer_keywords: ["SetNtmsMediaComplete","SetNtmsMediaComplete function [Files]","_zaw_setntmsmediacomplete","base.setntmsmediacomplete","fs.setntmsmediacomplete","ntmsapi/SetNtmsMediaComplete"]
 old-location: fs\setntmsmediacomplete.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 1513b487-93b6-4615-aa7b-e135f81b6ad0
 ms.date: 12/05/2018
 ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_setntmsmediacomplete, base.setntmsmediacomplete, fs.setntmsmediacomplete, ntmsapi/SetNtmsMediaComplete
-f1_keywords:
-- ntmsapi/SetNtmsMediaComplete
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsMediaComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsMediaComplete
+ - ntmsapi/SetNtmsMediaComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsMediaComplete
 ---
 
 # SetNtmsMediaComplete function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsMediaComplete</b> function marks a piece of logical media as complete.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Unique identifier of a piece of logical media.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -195,14 +188,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SetNtmsMediaComplete</b> function marks the specified medium as Complete. An application marks the medium as Complete when the application is no longer going to write to the medium. Complete media cannot be mounted with the NTMS_MOUNT_WRITE flag.
@@ -210,20 +197,10 @@ The
 The 
 <b>SetNtmsMediaComplete</b> function is typically used when an application reaches the end of media. Media that is mounted or in use cannot be marked as complete.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>

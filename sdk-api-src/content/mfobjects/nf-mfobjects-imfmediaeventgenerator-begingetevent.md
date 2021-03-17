@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaEventGenerator.BeginGetEvent
 title: IMFMediaEventGenerator::BeginGetEvent (mfobjects.h)
 description: Begins an asynchronous request for the next event in the queue.
+helpviewer_keywords: ["BeginGetEvent","BeginGetEvent method [Media Foundation]","BeginGetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","BeginGetEvent method","IMFMediaEventGenerator.BeginGetEvent","IMFMediaEventGenerator::BeginGetEvent","a2afddac-46e9-4928-8b5b-44f3fc7c33d3","mf.imfmediaeventgenerator_begingetevent","mfobjects/IMFMediaEventGenerator::BeginGetEvent"]
 old-location: mf\imfmediaeventgenerator_begingetevent.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a2afddac-46e9-4928-8b5b-44f3fc7c33d3
 ms.date: 12/05/2018
 ms.keywords: BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],BeginGetEvent method, IMFMediaEventGenerator.BeginGetEvent, IMFMediaEventGenerator::BeginGetEvent, a2afddac-46e9-4928-8b5b-44f3fc7c33d3, mf.imfmediaeventgenerator_begingetevent, mfobjects/IMFMediaEventGenerator::BeginGetEvent
-f1_keywords:
-- mfobjects/IMFMediaEventGenerator.BeginGetEvent
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaEventGenerator.BeginGetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEventGenerator::BeginGetEvent
+ - mfobjects/IMFMediaEventGenerator::BeginGetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaEventGenerator.BeginGetEvent
 ---
 
 # IMFMediaEventGenerator::BeginGetEvent
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Begins an asynchronous request for the next event in the queue.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The client must implement this interface.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The client must implement this interface.
 
 ### -param punkState [in]
 
 Pointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -149,23 +139,17 @@ There is a pending request with the same callback pointer and state object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+When a new event is available, the event generator calls the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method. The <b>Invoke</b> method should call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">IMFMediaEventGenerator::EndGetEvent</a> to get a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface, and use that interface to examine the event.
 
-
-When a new event is available, the event generator calls the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method. The <b>Invoke</b> method should call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">IMFMediaEventGenerator::EndGetEvent</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface, and use that interface to examine the event.
-
-Do not call <b>BeginGetEvent</b> a second time before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a>. While the first call is still pending, additional calls to the same object will fail. Also, the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">IMFMediaEventGenerator::GetEvent</a> method fails if an asynchronous request is still pending.
+Do not call <b>BeginGetEvent</b> a second time before calling <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a>. While the first call is still pending, additional calls to the same object will fail. Also, the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-getevent">IMFMediaEventGenerator::GetEvent</a> method fails if an asynchronous request is still pending.
 
 
 #### Examples
 
-The following code shows a typical implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
+The following code shows a typical implementation of <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
 
 
 ```
@@ -222,21 +206,10 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>

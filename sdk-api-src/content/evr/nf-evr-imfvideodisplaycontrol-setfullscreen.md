@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.SetFullscreen
 title: IMFVideoDisplayControl::SetFullscreen (evr.h)
 description: Sets or unsets full-screen rendering mode.
+helpviewer_keywords: ["95c85fb2-9267-477f-aa47-1c050ccc1bdd","IMFVideoDisplayControl interface [Media Foundation]","SetFullscreen method","IMFVideoDisplayControl.SetFullscreen","IMFVideoDisplayControl::SetFullscreen","SetFullscreen","SetFullscreen method [Media Foundation]","SetFullscreen method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetFullscreen","mf.imfvideodisplaycontrol_setfullscreen"]
 old-location: mf\imfvideodisplaycontrol_setfullscreen.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 95c85fb2-9267-477f-aa47-1c050ccc1bdd
 ms.date: 12/05/2018
 ms.keywords: 95c85fb2-9267-477f-aa47-1c050ccc1bdd, IMFVideoDisplayControl interface [Media Foundation],SetFullscreen method, IMFVideoDisplayControl.SetFullscreen, IMFVideoDisplayControl::SetFullscreen, SetFullscreen, SetFullscreen method [Media Foundation], SetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetFullscreen, mf.imfvideodisplaycontrol_setfullscreen
-f1_keywords:
-- evr/IMFVideoDisplayControl.SetFullscreen
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.SetFullscreen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::SetFullscreen
+ - evr/IMFVideoDisplayControl::SetFullscreen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.SetFullscreen
 ---
 
 # IMFVideoDisplayControl::SetFullscreen
@@ -49,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. ]
 
 Sets or unsets full-screen rendering mode.
 
-To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
-
+To implement full-screen playback, an application should simply resize the video window to cover the entire area of the monitor. Also set the window to be a topmost window, so that the application receives all mouse-click messages. For more information about topmost windows, see the documentation for the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
 ## -parameters
-
-
-
 
 ### -param fFullscreen [in]
 
 If <b>TRUE</b>, the enhanced video renderer (EVR) uses full-screen mode. If <b>FALSE</b>, the EVR draws the video in the application-provided clipping window.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,14 +97,8 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The default EVR presenter implements full-screen mode using Direct3D exclusive mode.
       
@@ -122,26 +109,16 @@ If you use this  method  to switch to full-screen mode, set the application wind
 By default, the cursor is still visible in full-screen mode. To hide the cursor, call <b>ShowCursor</b>.
       
 
-The transition to and from full-screen mode occurs asynchronously. To get the current mode, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">IMFVideoDisplayControl::GetFullscreen</a>.
-
-
-
+The transition to and from full-screen mode occurs asynchronously. To get the current mode, call <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-getfullscreen">IMFVideoDisplayControl::GetFullscreen</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

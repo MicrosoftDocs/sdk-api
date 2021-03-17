@@ -2,15 +2,12 @@
 UID: NF:mmeapi.waveInPrepareHeader
 title: waveInPrepareHeader function (mmeapi.h)
 description: The waveInPrepareHeader function prepares a buffer for waveform-audio input.
+helpviewer_keywords: ["_win32_waveInPrepareHeader","mmeapi/waveInPrepareHeader","multimedia.waveinprepareheader","waveInPrepareHeader","waveInPrepareHeader function [Windows Multimedia]"]
 old-location: multimedia\waveinprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 2b99eb91-2cc6-4394-af57-4b1276f08974
 ms.date: 12/05/2018
 ms.keywords: _win32_waveInPrepareHeader, mmeapi/waveInPrepareHeader, multimedia.waveinprepareheader, waveInPrepareHeader, waveInPrepareHeader function [Windows Multimedia]
-f1_keywords:
-- mmeapi/waveInPrepareHeader
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- waveInPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveInPrepareHeader
+ - mmeapi/waveInPrepareHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - waveInPrepareHeader
 ---
 
 # waveInPrepareHeader function
@@ -50,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>waveInPrepareHeader</b> function prepares a buffer for waveform-audio input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwi
 
 Handle to the waveform-audio input device.
 
-
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
-
+Pointer to a <a href="/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
 
 ### -param cbwh
 
 Size, in bytes, of the <b>WAVEHDR</b> structure.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -122,31 +111,15 @@ Unable to allocate or lock memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <b>WAVEHDR</b> structure must be set before calling this function (<b>dwFlags</b> must be zero).
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

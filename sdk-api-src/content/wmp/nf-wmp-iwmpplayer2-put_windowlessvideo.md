@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayer2.put_windowlessVideo
 title: IWMPPlayer2::put_windowlessVideo (wmp.h)
 description: The put_windowlessVideo method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
+helpviewer_keywords: ["IWMPPlayer2 interface [Windows Media Player]","put_windowlessVideo method","IWMPPlayer2.put_windowlessVideo","IWMPPlayer2::put_windowlessVideo","IWMPPlayer2put_windowlessVideo","put_windowlessVideo","put_windowlessVideo method [Windows Media Player]","put_windowlessVideo method [Windows Media Player]","IWMPPlayer2 interface","wmp.iwmpplayer2_put_windowlessvideo","wmp/IWMPPlayer2::put_windowlessVideo"]
 old-location: wmp\iwmpplayer2_put_windowlessvideo.htm
 tech.root: WMP
 ms.assetid: 736eaf52-29bd-4223-a62d-d3d75cef1863
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_windowlessVideo method, IWMPPlayer2.put_windowlessVideo, IWMPPlayer2::put_windowlessVideo, IWMPPlayer2put_windowlessVideo, put_windowlessVideo, put_windowlessVideo method [Windows Media Player], put_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_windowlessvideo, wmp/IWMPPlayer2::put_windowlessVideo
-f1_keywords:
-- wmp/IWMPPlayer2.put_windowlessVideo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayer2.put_windowlessVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer2::put_windowlessVideo
+ - wmp/IWMPPlayer2::put_windowlessVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayer2.put_windowlessVideo
 ---
 
 # IWMPPlayer2::put_windowlessVideo
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_windowlessVideo</b> method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bEnabled [in]
 
 <b>VARIANT_BOOL</b> indicating whether the Windows Media Player control renders video in windowless mode.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, an embedded Windows Media Player control renders video in its own window within the client area. When the <b>VARIANT_BOOL</b> specified in <b>put_windowlessVideo</b> is set to <b>TRUE</b>, the Windows Media Player object renders video directly in the client area, so you can apply special effects or layer the video with text.
 
@@ -105,20 +90,10 @@ The <b>put_windowlessVideo</b> method is not supported for Netscape Navigator. S
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo">IWMPPlayer2::get_windowlessVideo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo">IWMPPlayer2::get_windowlessVideo</a>

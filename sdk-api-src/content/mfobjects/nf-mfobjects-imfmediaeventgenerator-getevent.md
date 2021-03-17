@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaEventGenerator.GetEvent
 title: IMFMediaEventGenerator::GetEvent (mfobjects.h)
 description: Retrieves the next event in the queue. This method is synchronous.
+helpviewer_keywords: ["0","GetEvent","GetEvent method [Media Foundation]","GetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","GetEvent method","IMFMediaEventGenerator.GetEvent","IMFMediaEventGenerator::GetEvent","MF_EVENT_FLAG_NO_WAIT","e78464b5-ec6b-4739-a135-352fa297916a","mf.imfmediaeventgenerator_getevent","mfobjects/IMFMediaEventGenerator::GetEvent"]
 old-location: mf\imfmediaeventgenerator_getevent.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e78464b5-ec6b-4739-a135-352fa297916a
 ms.date: 12/05/2018
 ms.keywords: 0, GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventGenerator interface, IMFMediaEventGenerator interface [Media Foundation],GetEvent method, IMFMediaEventGenerator.GetEvent, IMFMediaEventGenerator::GetEvent, MF_EVENT_FLAG_NO_WAIT, e78464b5-ec6b-4739-a135-352fa297916a, mf.imfmediaeventgenerator_getevent, mfobjects/IMFMediaEventGenerator::GetEvent
-f1_keywords:
-- mfobjects/IMFMediaEventGenerator.GetEvent
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaEventGenerator.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEventGenerator::GetEvent
+ - mfobjects/IMFMediaEventGenerator::GetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaEventGenerator.GetEvent
 ---
 
 # IMFMediaEventGenerator::GetEvent
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the next event in the queue. This method is synchronous.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -91,17 +85,12 @@ The method returns immediately.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppEvent [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -166,14 +155,8 @@ The object was shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method executes synchronously.
 
@@ -189,22 +172,12 @@ If <i>dwFlags</i> is MF_EVENT_FLAG_NO_WAIT, the method fails immediately with th
 
 </li>
 </ul>
-This method returns MF_E_MULTIPLE_SUBSCRIBERS if you previously called <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent">IMFMediaEventGenerator::BeginGetEvent</a> and have not yet called <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">IMFMediaEventGenerator::EndGetEvent</a>.
-
-
-
+This method returns MF_E_MULTIPLE_SUBSCRIBERS if you previously called <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent">IMFMediaEventGenerator::BeginGetEvent</a> and have not yet called <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent">IMFMediaEventGenerator::EndGetEvent</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator">IMFMediaEventGenerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>

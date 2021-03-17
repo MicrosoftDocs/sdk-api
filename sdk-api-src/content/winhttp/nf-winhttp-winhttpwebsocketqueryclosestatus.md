@@ -2,15 +2,12 @@
 UID: NF:winhttp.WinHttpWebSocketQueryCloseStatus
 title: WinHttpWebSocketQueryCloseStatus function (winhttp.h)
 description: Retrieves the close status sent by a server.
+helpviewer_keywords: ["WinHttpWebSocketQueryCloseStatus","WinHttpWebSocketQueryCloseStatus function [WinHTTP]","http.winhttpwebsocketqueryclosestatus","winhttp/WinHttpWebSocketQueryCloseStatus"]
 old-location: http\winhttpwebsocketqueryclosestatus.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
-f1_keywords:
-- winhttp/WinHttpWebSocketQueryCloseStatus
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpWebSocketQueryCloseStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpWebSocketQueryCloseStatus
+ - winhttp/WinHttpWebSocketQueryCloseStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpWebSocketQueryCloseStatus
 ---
 
 # WinHttpWebSocketQueryCloseStatus function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpWebSocketQueryCloseStatus</b> function retrieves the close status sent by a server.
 
-
 ## -parameters
-
-
-
 
 ### -param hWebSocket [in]
 
@@ -63,13 +60,11 @@ Type: <b>HINTERNET</b>
 
 Handle to a WebSocket
 
-
 ### -param pusStatus [out]
 
 Type: <b>USHORT*</b>
 
-A pointer to a close status code that will be filled upon return. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
-
+A pointer to a close status code that will be filled upon return. See <a href="/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a> for possible values.
 
 ### -param pvReason [out]
 
@@ -77,13 +72,11 @@ Type: <b>PVOID</b>
 
 A pointer to a buffer that will receive a close reason on return.
 
-
 ### -param dwReasonLength [in]
 
 Type: <b>DWORD</b>
 
 The length of the <i>pvReason</i> buffer, in bytes.
-
 
 ### -param pdwReasonLengthConsumed [out]
 
@@ -91,10 +84,7 @@ Type: <b>DWORD*</b>
 
 The number of bytes consumed. If <i>pvReason</i> is <b>NULL</b> and <i>dwReasonLength</i> is 0, <i>pdwReasonLengthConsumed</i> will contain the size of the buffer that needs to be allocated by the calling application.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -139,37 +129,21 @@ A parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call <b>WinHttpWebSocketQueryCloseStatus</b> only after <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a> succeeds or if <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a> returns <b>WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE</b>.
+Call <b>WinHttpWebSocketQueryCloseStatus</b> only after <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a> succeeds or if <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a> returns <b>WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE</b>.
 
 <i>pdwReasonLengthConsumed</i> will never be greater than 123, so allocating buffer with at least 123 will guarantee that <b>ERROR_INSUFFICIENT_BUFFER</b> will never be returned.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ne-winhttp-winhttp_web_socket_close_status">WINHTTP_WEB_SOCKET_CLOSE_STATUS</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose">WinHttpWebSocketClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketreceive">WinHttpWebSocketReceive</a>

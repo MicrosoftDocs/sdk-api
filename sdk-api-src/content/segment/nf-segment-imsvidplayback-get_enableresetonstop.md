@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidPlayback.get_EnableResetOnStop
 title: IMSVidPlayback::get_EnableResetOnStop (segment.h)
 description: The get_EnableResetOnStop method indicates how playback will resume if the graph is rebuilt.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","get_EnableResetOnStop method","IMSVidPlayback.get_EnableResetOnStop","IMSVidPlayback::get_EnableResetOnStop","IMSVidPlaybackget_EnableResetOnStop","get_EnableResetOnStop","get_EnableResetOnStop method [Microsoft TV Technologies]","get_EnableResetOnStop method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_get_enableresetonstop","segment/IMSVidPlayback::get_EnableResetOnStop"]
 old-location: mstv\imsvidplayback_get_enableresetonstop.htm
 tech.root: mstv
 ms.assetid: 0ea9ad29-9903-41ac-9be8-acb41cec10d1
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_EnableResetOnStop method, IMSVidPlayback.get_EnableResetOnStop, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
-f1_keywords:
-- segment/IMSVidPlayback.get_EnableResetOnStop
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidPlayback.get_EnableResetOnStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidPlayback::get_EnableResetOnStop
+ - segment/IMSVidPlayback::get_EnableResetOnStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidPlayback.get_EnableResetOnStop
 ---
 
 # IMSVidPlayback::get_EnableResetOnStop
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_EnableResetOnStop</b> method indicates how playback will resume if the graph is rebuilt.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
@@ -77,12 +74,8 @@ Pointer to a variable that receives one of the following values.
 <td>The Video Control will seek to start of the media.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -114,27 +107,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">IMSVidPlayback::put_EnableResetOnStop</a>.
-
-
-
+For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">IMSVidPlayback::put_EnableResetOnStop</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>

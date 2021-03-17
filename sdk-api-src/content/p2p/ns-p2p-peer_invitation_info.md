@@ -2,15 +2,12 @@
 UID: NS:p2p.peer_invitation_info_tag
 title: PEER_INVITATION_INFO (p2p.h)
 description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.
+helpviewer_keywords: ["*PPEER_INVITATION_INFO","PEER_GROUP_ROLE_ADMIN","PEER_GROUP_ROLE_MEMBER","PEER_INVITATION_INFO","PEER_INVITATION_INFO structure [Peer Networking]","PNRP_CLOUD_NAME_LOCAL","PNRP_CLOUD_NO_FLAGS","PNRP_GLOBAL_SCOPE","PNRP_LINK_LOCAL_SCOPE","PNRP_LOCAL_SCOPE","PPEER_INVITATION_INFO","PPEER_INVITATION_INFO structure pointer [Peer Networking]","p2p.peer_invitation_info","p2p/PPEER_INVITATION_INFO","p2p/peer_invitation_info_tag"]
 old-location: p2p\peer_invitation_info.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 215df4ed-83e3-40c3-a38e-89d92ce38707
 ms.date: 12/05/2018
 ms.keywords: '*PPEER_INVITATION_INFO, PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PEER_INVITATION_INFO, PEER_INVITATION_INFO structure [Peer Networking], PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_LOCAL_SCOPE, PPEER_INVITATION_INFO, PPEER_INVITATION_INFO structure pointer [Peer Networking], p2p.peer_invitation_info, p2p/PPEER_INVITATION_INFO, p2p/peer_invitation_info_tag'
-f1_keywords:
-- p2p/PEER_INVITATION_INFO
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- P2P.h
-api_name:
-- PEER_INVITATION_INFO
 targetos: Windows
 req.typenames: PEER_INVITATION_INFO, *PPEER_INVITATION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - peer_invitation_info_tag
+ - p2p/peer_invitation_info_tag
+ - PPEER_INVITATION_INFO
+ - p2p/PPEER_INVITATION_INFO
+ - PEER_INVITATION_INFO
+ - p2p/PEER_INVITATION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - P2P.h
+api_name:
+ - PEER_INVITATION_INFO
 ---
 
 # PEER_INVITATION_INFO structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PEER_INVITATION_INFO</b> structure defines information about an invitation to join a peer group. Invitations are represented as Unicode strings. To obtain this structure, pass the XML invitation string  created by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
-
+The <b>PEER_INVITATION_INFO</b> structure defines information about an invitation to join a peer group. Invitations are represented as Unicode strings. To obtain this structure, pass the XML invitation string  created by <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size of this structure, in bytes.
 
-
 ### -field dwFlags
 
 Must be set to 0x00000000.
 
-
 ### -field pwzCloudName
 
 Pointer to a Unicode string that specifies the PNRP cloud name.
-
 
 ### -field dwScope
 
@@ -112,8 +110,6 @@ Link-local scope.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCloudFlags
 
@@ -147,53 +143,42 @@ The cloud name is not available on other computers; it is locally defined.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwzGroupPeerName
 
 Pointer to a Unicode string that specifies the peer name of the peer group.
 
-
 ### -field pwzIssuerPeerName
 
 Pointer to a Unicode string that specifies the PNRP name of the peer issuing the invitation.
-
 
 ### -field pwzSubjectPeerName
 
 Pointer to a Unicode string that specifies the PNRP name of the peer that receives the invitation.
 
-
 ### -field pwzGroupFriendlyName
 
 Pointer to a Unicode string that specifies the friendly (display) name of the peer group.
-
 
 ### -field pwzIssuerFriendlyName
 
 Pointer to a Unicode string that specifies the friendly (display) name of the peer issuing the invitation.
 
-
 ### -field pwzSubjectFriendlyName
 
 Pointer to a Unicode string that specifies the friendly (display) name of the peer that receives the invitation.
-
 
 ### -field ftValidityStart
 
 Specifies a UTC <b>FILETIME</b> value that indicates when the invitation  becomes valid.
 
-
 ### -field ftValidityEnd
 
 Specifies a UTC <b>FILETIME</b> value that indicates when the invitation becomes invalid.
 
-
 ### -field cRoles
 
 Specifies the number of role GUIDs present in <b>pRoles</b>.
-
 
 ### -field pRoles
 
@@ -225,36 +210,23 @@ The role can publish records to the peer group database.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cClassifiers
 
 Unsigned integer value that contains the number of string values listed in <b>ppwzClassifiers</b>. This field is reserved for future use.
 
-
 ### -field ppwzClassifiers
 
 List of pointers to Unicode strings. This field is reserved for future use.
 
-
 ### -field pSubjectPublicKey
 
-Pointer to a <b>CERT_PUBLIC_KEY_INFO</b> structure that contains the recipient's returned public key and the encryption algorithm type it uses. 
-
+Pointer to a <b>CERT_PUBLIC_KEY_INFO</b> structure that contains the recipient's returned public key and the encryption algorithm type it uses.
 
 ### -field authScheme
 
-<b>Windows Vista or later.</b>           The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration value that indicates the type of authentication used to validate the peer group invitee.
-
+<b>Windows Vista or later.</b>           The <a href="/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration value that indicates the type of authentication used to validate the peer group invitee.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>

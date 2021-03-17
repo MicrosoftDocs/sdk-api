@@ -2,15 +2,12 @@
 UID: NF:iads.IADsSecurityUtility.SetSecurityDescriptor
 title: IADsSecurityUtility::SetSecurityDescriptor (iads.h)
 description: Sets the security descriptor for the specified file, file share, or registry key.
+helpviewer_keywords: ["File","File share","IADsSecurityUtility interface [ADSI]","SetSecurityDescriptor method","IADsSecurityUtility.SetSecurityDescriptor","IADsSecurityUtility::SetSecurityDescriptor","Registry key","SetSecurityDescriptor","SetSecurityDescriptor method [ADSI]","SetSecurityDescriptor method [ADSI]","IADsSecurityUtility interface","_ds_iadssecurityutility_setsecuritydescriptor","adsi.iadssecurityutility__setsecuritydescriptor","adsi.iadssecurityutility_setsecuritydescriptor","iads/IADsSecurityUtility::SetSecurityDescriptor"]
 old-location: adsi\iadssecurityutility_setsecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b
 ms.date: 12/05/2018
 ms.keywords: File, File share, IADsSecurityUtility interface [ADSI],SetSecurityDescriptor method, IADsSecurityUtility.SetSecurityDescriptor, IADsSecurityUtility::SetSecurityDescriptor, Registry key, SetSecurityDescriptor, SetSecurityDescriptor method [ADSI], SetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, _ds_iadssecurityutility_setsecuritydescriptor, adsi.iadssecurityutility__setsecuritydescriptor, adsi.iadssecurityutility_setsecuritydescriptor, iads/IADsSecurityUtility::SetSecurityDescriptor
-f1_keywords:
-- iads/IADsSecurityUtility.SetSecurityDescriptor
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsSecurityUtility.SetSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsSecurityUtility::SetSecurityDescriptor
+ - iads/IADsSecurityUtility::SetSecurityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsSecurityUtility.SetSecurityDescriptor
 ---
 
 # IADsSecurityUtility::SetSecurityDescriptor
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetSecurityDescriptor</b> method sets the security descriptor for the specified file, file share, or registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param varPath [in]
 
@@ -79,35 +76,23 @@ A valid file path syntax for a file share. For example: "\\adsi\public".
 
 A valid registry syntax. For example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ADs".
 
-
 ### -param lPathFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
-
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a> values which specifies the format of the <i>varPath</i> parameter.
 
 ### -param varData [in]
 
 A <b>VARIANT</b> that contains the new security descriptor. The format of the security descriptor is specified by the <i>lDataFormat</i> parameter.
 
-
 ### -param lDataFormat [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
-
+Contains one of the <a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a> values which specifies the format of the security descriptor contained in the <i>VarData</i> parameter. The following list identifies the possible values for this parameter and the format of the <i>VarData</i> parameter.
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful or a COM or Win32 error code otherwise. Possible error codes are listed in the following list.
 
-
-
-
 ## -remarks
-
-
-
 
 Access control entries must appear in the following order in a security descriptor's access control list:
 
@@ -156,33 +141,22 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_pathtype_enum">ADS_PATHTYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_sd_format_enum">ADS_SD_FORMAT_ENUM</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>

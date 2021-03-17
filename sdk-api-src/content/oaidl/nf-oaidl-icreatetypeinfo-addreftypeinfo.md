@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.AddRefTypeInfo
 title: ICreateTypeInfo::AddRefTypeInfo (oaidl.h)
 description: Adds a type description to those referenced by the type description being created.
+helpviewer_keywords: ["AddRefTypeInfo","AddRefTypeInfo method [Automation]","AddRefTypeInfo method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddRefTypeInfo method","ICreateTypeInfo.AddRefTypeInfo","ICreateTypeInfo::AddRefTypeInfo","_oa96_ICreateTypeInfo_AddRefTypeInfo","automat.icreatetypeinfo_addreftypeinfo","oaidl/ICreateTypeInfo::AddRefTypeInfo"]
 old-location: automat\icreatetypeinfo_addreftypeinfo.htm
 tech.root: automat
 ms.assetid: cb7f41f1-81a6-406f-916f-d1d1a8c093b5
 ms.date: 12/05/2018
 ms.keywords: AddRefTypeInfo, AddRefTypeInfo method [Automation], AddRefTypeInfo method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddRefTypeInfo method, ICreateTypeInfo.AddRefTypeInfo, ICreateTypeInfo::AddRefTypeInfo, _oa96_ICreateTypeInfo_AddRefTypeInfo, automat.icreatetypeinfo_addreftypeinfo, oaidl/ICreateTypeInfo::AddRefTypeInfo
-f1_keywords:
-- oaidl/ICreateTypeInfo.AddRefTypeInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.AddRefTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::AddRefTypeInfo
+ - oaidl/ICreateTypeInfo::AddRefTypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.AddRefTypeInfo
 ---
 
 # ICreateTypeInfo::AddRefTypeInfo
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a type description to those referenced by the type description being created.
 
-
 ## -parameters
-
-
-
 
 ### -param pTInfo [in]
 
 The type description to be referenced.
 
-
 ### -param phRefType [in]
 
 The handle that this type description associates with the referenced type information.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -150,28 +143,11 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The second parameter returns a pointer to the handle of the added type information. If <b>AddRefTypeInfo</b> has been called previously for the same type information, the index that was returned by the previous call is returned in <i>phRefType</i>. If the referenced type description is in the type library being created, its type information can be obtained by calling IUnknown::QueryInterface(IID_ITypeInfo, ...) on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> interface of that type description.
-
-
-
-
+The second parameter returns a pointer to the handle of the added type information. If <b>AddRefTypeInfo</b> has been called previously for the same type information, the index that was returned by the previous call is returned in <i>phRefType</i>. If the referenced type description is in the type library being created, its type information can be obtained by calling IUnknown::QueryInterface(IID_ITypeInfo, ...) on the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> interface of that type description.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

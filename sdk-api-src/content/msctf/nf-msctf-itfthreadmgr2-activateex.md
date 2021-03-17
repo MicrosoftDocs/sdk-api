@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.ActivateEx
 title: ITfThreadMgr2::ActivateEx (msctf.h)
 description: Initializes and activates TSF for the calling thread with a flag that specifies how TSF is activated.
+helpviewer_keywords: ["ActivateEx","ActivateEx method [Text Services Framework]","ActivateEx method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","ActivateEx method","ITfThreadMgr2.ActivateEx","ITfThreadMgr2::ActivateEx","TF_TMAE_COMLESS","TF_TMAE_NOACTIVATEKEYBOARDLAYOUT","TF_TMAE_NOACTIVATETIP","TF_TMAE_SECUREMODE","TF_TMAE_UIELEMENTENABLEDONLY","msctf/ITfThreadMgr2::ActivateEx","tsf.itfthreadmgr2_activateex"]
 old-location: tsf\itfthreadmgr2_activateex.htm
 tech.root: TSF
 ms.assetid: 0ADA34C7-6BE8-4719-B220-1F0E5F466178
 ms.date: 12/05/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],ActivateEx method, ITfThreadMgr2.ActivateEx, ITfThreadMgr2::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgr2::ActivateEx, tsf.itfthreadmgr2_activateex
-f1_keywords:
-- msctf/ITfThreadMgr2.ActivateEx
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.ActivateEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::ActivateEx
+ - msctf/ITfThreadMgr2::ActivateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.ActivateEx
 ---
 
 # ITfThreadMgr2::ActivateEx
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes and activates TSF for the calling thread with a flag that specifies how TSF is activated.
-
 
 ## -parameters
 
-
-
-
 ### -param ptid [out]
 
-[out] Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
-
+[out] Pointer to a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 ### -param dwFlags [in]
 
@@ -120,12 +116,8 @@ TSF does not sync the current keyboard layout while this method is called. The k
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -168,18 +160,7 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

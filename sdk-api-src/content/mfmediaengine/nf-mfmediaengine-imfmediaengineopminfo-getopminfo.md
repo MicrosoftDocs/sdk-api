@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngineOPMInfo.GetOPMInfo
 title: IMFMediaEngineOPMInfo::GetOPMInfo (mfmediaengine.h)
 description: Gets status information about the Output Protection Manager (OPM).
+helpviewer_keywords: ["GetOPMInfo","GetOPMInfo method [Media Foundation]","GetOPMInfo method [Media Foundation]","IMFMediaEngineOPMInfo interface","IMFMediaEngineOPMInfo interface [Media Foundation]","GetOPMInfo method","IMFMediaEngineOPMInfo.GetOPMInfo","IMFMediaEngineOPMInfo::GetOPMInfo","mf.imfmediaengineopminfo_getopminfo","mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo"]
 old-location: mf\imfmediaengineopminfo_getopminfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5e4a6e8f-5042-4de1-8cea-64b8e6cc928a
 ms.date: 12/05/2018
 ms.keywords: GetOPMInfo, GetOPMInfo method [Media Foundation], GetOPMInfo method [Media Foundation],IMFMediaEngineOPMInfo interface, IMFMediaEngineOPMInfo interface [Media Foundation],GetOPMInfo method, IMFMediaEngineOPMInfo.GetOPMInfo, IMFMediaEngineOPMInfo::GetOPMInfo, mf.imfmediaengineopminfo_getopminfo, mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo
-f1_keywords:
-- mfmediaengine/IMFMediaEngineOPMInfo.GetOPMInfo
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineOPMInfo.GetOPMInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineOPMInfo::GetOPMInfo
+ - mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineOPMInfo.GetOPMInfo
 ---
 
 # IMFMediaEngineOPMInfo::GetOPMInfo
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets status information about the   <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
-
+Gets status information about the   <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
 
 ## -parameters
 
-
-
-
 ### -param pStatus [out]
 
-        A pointer to a <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-opm-status">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
-
+        A pointer to a <a href="/windows/desktop/medfound/mf-media-engine-opm-status">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
 
 ### -param pConstricted [out]
 
 A pointer to a <b>BOOL</b> type that indicates the constriction status.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,18 +94,7 @@ If any of the parameters are <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo">IMFMediaEngineOPMInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo">IMFMediaEngineOPMInfo</a>

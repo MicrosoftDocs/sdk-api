@@ -2,15 +2,12 @@
 UID: NF:certif.ICertServerExit.GetCertificateExtension
 title: ICertServerExit::GetCertificateExtension (certif.h)
 description: Gets a specified certificate extension.
+helpviewer_keywords: ["CCertServerExit object [Security]","GetCertificateExtension method","GetCertificateExtension","GetCertificateExtension method [Security]","GetCertificateExtension method [Security]","CCertServerExit object","GetCertificateExtension method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","GetCertificateExtension method","ICertServerExit.GetCertificateExtension","ICertServerExit::GetCertificateExtension","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_icertserverexit_getcertificateextension","certif/ICertServerExit::GetCertificateExtension","security.icertserverexit_getcertificateextension"]
 old-location: security\icertserverexit_getcertificateextension.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
-f1_keywords:
-- certif/ICertServerExit.GetCertificateExtension
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerExit.GetCertificateExtension
-- CCertServerExit.GetCertificateExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerExit::GetCertificateExtension
+ - certif/ICertServerExit::GetCertificateExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerExit.GetCertificateExtension
+ - CCertServerExit.GetCertificateExtension
 ---
 
 # ICertServerExit::GetCertificateExtension
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCertificateExtension</b> method gets a specified certificate extension.
 
-Note that certificate extensions are distinct from certificate properties. Properties are generic data attached to the request object. Some of these properties are encoded into the certificate (example: <i>BeginDate</i>), while others are just used to mark requests in the queue and log. Extensions that are not disabled are encoded into the certificate. Extensions are always marked with an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> and always have a critical/noncritical flag.
-
+Note that certificate extensions are distinct from certificate properties. Properties are generic data attached to the request object. Some of these properties are encoded into the certificate (example: <i>BeginDate</i>), while others are just used to mark requests in the queue and log. Extensions that are not disabled are encoded into the certificate. Extensions are always marked with an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> and always have a critical/noncritical flag.
 
 ## -parameters
-
-
-
 
 ### -param strExtensionName [in]
 
 A string that contains the name of the extension.
-
 
 ### -param Type [in]
 
@@ -115,35 +111,25 @@ The extension value is ASN.1 encoded as an IA5 string.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarValue [out]
 
 A  pointer to a <b>VARIANT</b> that receives the requested extension value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pvarValue</i> is set to the <b>VARIANT</b> that contains the extension value.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the requested extension value.
 
-
-
-
 ## -remarks
 
-
-
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -173,25 +159,14 @@ if (FAILED(hr))
 VariantClear(&varExt);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-getcertificateextensionflags">ICertServerExit::GetCertificateExtensionFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>

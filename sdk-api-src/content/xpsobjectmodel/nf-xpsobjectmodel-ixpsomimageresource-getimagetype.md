@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMImageResource.GetImageType
 title: IXpsOMImageResource::GetImageType (xpsobjectmodel.h)
 description: Gets the type of image resource.
+helpviewer_keywords: ["GetImageType","GetImageType method [XPS Documents and Packaging]","GetImageType method [XPS Documents and Packaging]","IXpsOMImageResource interface","IXpsOMImageResource interface [XPS Documents and Packaging]","GetImageType method","IXpsOMImageResource.GetImageType","IXpsOMImageResource::GetImageType","xps.ixpsomimageresource_getimagetype","xpsobjectmodel/IXpsOMImageResource::GetImageType"]
 old-location: xps\ixpsomimageresource_getimagetype.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c38af0c0-e05c-4ba4-92d5-114350cae05f
 ms.date: 12/05/2018
 ms.keywords: GetImageType, GetImageType method [XPS Documents and Packaging], GetImageType method [XPS Documents and Packaging],IXpsOMImageResource interface, IXpsOMImageResource interface [XPS Documents and Packaging],GetImageType method, IXpsOMImageResource.GetImageType, IXpsOMImageResource::GetImageType, xps.ixpsomimageresource_getimagetype, xpsobjectmodel/IXpsOMImageResource::GetImageType
-f1_keywords:
-- xpsobjectmodel/IXpsOMImageResource.GetImageType
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMImageResource.GetImageType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMImageResource::GetImageType
+ - xpsobjectmodel/IXpsOMImageResource::GetImageType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMImageResource.GetImageType
 ---
 
 # IXpsOMImageResource::GetImageType
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the type of image resource.
-
 
 ## -parameters
 
-
-
-
 ### -param imageType [out, retval]
 
-The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type in the stream.
-
+The  <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a> value that describes the image type in the stream.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>

@@ -2,15 +2,12 @@
 UID: NF:winusb.WinUsb_SetPowerPolicy
 title: WinUsb_SetPowerPolicy function (winusb.h)
 description: The WinUsb_SetPowerPolicy function sets the power policy for a device.
+helpviewer_keywords: ["WinUsb_SetPowerPolicy","WinUsb_SetPowerPolicy function [Buses]","buses.winusb_setpowerpolicy","winusb/WinUsb_SetPowerPolicy","winusbfunc_f957d4a1-0ba3-4e43-bf77-74314a5fae59.xml"]
 old-location: buses\winusb_setpowerpolicy.htm
-tech.root: usbref
+tech.root: buses
 ms.assetid: 11e56a77-1a9f-418a-94cf-df686d3d7868
 ms.date: 12/05/2018
 ms.keywords: WinUsb_SetPowerPolicy, WinUsb_SetPowerPolicy function [Buses], buses.winusb_setpowerpolicy, winusb/WinUsb_SetPowerPolicy, winusbfunc_f957d4a1-0ba3-4e43-bf77-74314a5fae59.xml
-f1_keywords:
-- winusb/WinUsb_SetPowerPolicy
-dev_langs:
-- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winusb.dll
-api_name:
-- WinUsb_SetPowerPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinUsb_SetPowerPolicy
+ - winusb/WinUsb_SetPowerPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winusb.dll
+api_name:
+ - WinUsb_SetPowerPolicy
 ---
 
 # WinUsb_SetPowerPolicy function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinUsb_SetPowerPolicy</b> function sets the power policy for a device.
-
 
 ## -parameters
 
-
-
-
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first (default) interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
-
+An opaque handle to the first (default) interface on the device, which is returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>.
 
 ### -param PolicyType [in]
 
@@ -108,22 +104,16 @@ The default value is determined by the value set in the <b>DefaultIdleTimeout</b
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ValueLength [in]
 
 The size, in bytes, of the buffer at <i>Value</i>.
 
-
 ### -param Value [in]
 
 The new value for the power policy parameter. Datatype and value for <i>Value</i> depends on the type of power policy passed in <i>PolicyType</i>. For more information, see <i>PolicyType</i>.
 
-
 ## -returns
-
-
 
 <b>WinUsb_SetPowerPolicy</b> returns <b>TRUE</b> if the operation succeeds. Otherwise, this function returns <b>FALSE</b>, and the caller can retrieve the logged error by calling <b>GetLastError</b>.
 
@@ -171,14 +161,8 @@ Indicates that there is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following list summarizes the effects of changes to power management states:
 
@@ -201,27 +185,18 @@ The client can indicate that an interface is idle by calling <b>WinUsb_SetPowerP
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB Power Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Power Management</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

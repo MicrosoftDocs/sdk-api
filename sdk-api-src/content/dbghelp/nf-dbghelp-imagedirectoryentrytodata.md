@@ -2,15 +2,12 @@
 UID: NF:dbghelp.ImageDirectoryEntryToData
 title: ImageDirectoryEntryToData function (dbghelp.h)
 description: Obtains access to image-specific data.
+helpviewer_keywords: ["IMAGE_DIRECTORY_ENTRY_ARCHITECTURE","IMAGE_DIRECTORY_ENTRY_BASERELOC","IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT","IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR","IMAGE_DIRECTORY_ENTRY_DEBUG","IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT","IMAGE_DIRECTORY_ENTRY_EXCEPTION","IMAGE_DIRECTORY_ENTRY_EXPORT","IMAGE_DIRECTORY_ENTRY_GLOBALPTR","IMAGE_DIRECTORY_ENTRY_IAT","IMAGE_DIRECTORY_ENTRY_IMPORT","IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG","IMAGE_DIRECTORY_ENTRY_RESOURCE","IMAGE_DIRECTORY_ENTRY_SECURITY","IMAGE_DIRECTORY_ENTRY_TLS","ImageDirectoryEntryToData","ImageDirectoryEntryToData function","_win32_imagedirectoryentrytodata","base.imagedirectoryentrytodata","dbghelp/ImageDirectoryEntryToData"]
 old-location: base\imagedirectoryentrytodata.htm
 tech.root: Debug
 ms.assetid: 9a4ef9e9-543a-4b1b-ba22-2f1ece19f7e6
 ms.date: 12/05/2018
 ms.keywords: IMAGE_DIRECTORY_ENTRY_ARCHITECTURE, IMAGE_DIRECTORY_ENTRY_BASERELOC, IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT, IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR, IMAGE_DIRECTORY_ENTRY_DEBUG, IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT, IMAGE_DIRECTORY_ENTRY_EXCEPTION, IMAGE_DIRECTORY_ENTRY_EXPORT, IMAGE_DIRECTORY_ENTRY_GLOBALPTR, IMAGE_DIRECTORY_ENTRY_IAT, IMAGE_DIRECTORY_ENTRY_IMPORT, IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG, IMAGE_DIRECTORY_ENTRY_RESOURCE, IMAGE_DIRECTORY_ENTRY_SECURITY, IMAGE_DIRECTORY_ENTRY_TLS, ImageDirectoryEntryToData, ImageDirectoryEntryToData function, _win32_imagedirectoryentrytodata, base.imagedirectoryentrytodata, dbghelp/ImageDirectoryEntryToData
-f1_keywords:
-- dbghelp/ImageDirectoryEntryToData
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-- imagehlp.dll
-api_name:
-- ImageDirectoryEntryToData
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - ImageDirectoryEntryToData
+ - dbghelp/ImageDirectoryEntryToData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+ - imagehlp.dll
+api_name:
+ - ImageDirectoryEntryToData
 ---
 
 # ImageDirectoryEntryToData function
@@ -49,29 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains access to image-specific data.
 
 This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a> function. Use 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a> function. Use 
 <b>ImageDirectoryEntryToDataEx</b> to retrieve the section header.
 
-
 ## -parameters
-
-
-
 
 ### -param Base [in]
 
 The base address of the image.
 
-
 ### -param MappedAsImage [in]
 
 If this parameter is <b>TRUE</b>, the file is mapped by the system as an image. If the flag is <b>FALSE</b>, the file is mapped as a data file by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
 
 ### -param DirectoryEntry [in]
 
@@ -250,53 +245,33 @@ Thread local storage directory
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Size [out]
 
 A pointer to a variable that receives the size of the data for the directory entry, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the directory entry's data.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The 
 <b>ImageDirectoryEntryToData</b> function is used to obtain access to image-specific data.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>

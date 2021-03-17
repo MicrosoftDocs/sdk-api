@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncSessionState2.SetProviderWithError
 title: ISyncSessionState2::SetProviderWithError (winsync.h)
 description: Indicates which provider caused synchronization to fail.
+helpviewer_keywords: ["ISyncSessionState2 interface [Windows Sync]","SetProviderWithError method","ISyncSessionState2.SetProviderWithError","ISyncSessionState2::SetProviderWithError","SetProviderWithError","SetProviderWithError method [Windows Sync]","SetProviderWithError method [Windows Sync]","ISyncSessionState2 interface","winsync.isyncsessionstate2_setproviderwitherror","winsync/ISyncSessionState2::SetProviderWithError"]
 old-location: winsync\isyncsessionstate2_setproviderwitherror.htm
 tech.root: winsync
 ms.assetid: dcbfcc13-5a8f-4062-baef-899f81413768
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState2 interface [Windows Sync],SetProviderWithError method, ISyncSessionState2.SetProviderWithError, ISyncSessionState2::SetProviderWithError, SetProviderWithError, SetProviderWithError method [Windows Sync], SetProviderWithError method [Windows Sync],ISyncSessionState2 interface, winsync.isyncsessionstate2_setproviderwitherror, winsync/ISyncSessionState2::SetProviderWithError
-f1_keywords:
-- winsync/ISyncSessionState2.SetProviderWithError
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsync.h
-api_name:
-- ISyncSessionState2.SetProviderWithError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState2::SetProviderWithError
+ - winsync/ISyncSessionState2::SetProviderWithError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsync.h
+api_name:
+ - ISyncSessionState2.SetProviderWithError
 ---
 
 # ISyncSessionState2::SetProviderWithError
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates which provider caused synchronization to fail.
 
-
 ## -parameters
-
-
-
 
 ### -param fSelf [in]
 
 <b>TRUE</b> when the provider that calls this method is the provider that caused the error. Otherwise,<b> FALSE</b>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,40 +90,23 @@ A synchronization session does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The destination provider indicates which provider caused synchronization to fail during processing of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processchangebatch">IKnowledgeSyncProvider::ProcessChangeBatch</a> method, by using <b>ISyncSessionState2::SetProviderWithError</b>. <b>ISyncSessionState2::SetProviderWithError</b> is used by an application to obtain the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider</a> interface of the provider that caused the failure. The synchronization session can then query for other interfaces that are implemented by the provider, and call methods to handle the error.
-
-
-
-
+The destination provider indicates which provider caused synchronization to fail during processing of the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processchangebatch">IKnowledgeSyncProvider::ProcessChangeBatch</a> method, by using <b>ISyncSessionState2::SetProviderWithError</b>. <b>ISyncSessionState2::SetProviderWithError</b> is used by an application to obtain the <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider</a> interface of the provider that caused the failure. The synchronization session can then query for other interfaces that are implemented by the provider, and call methods to handle the error.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate2">ISyncSessionState2 Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate2">ISyncSessionState2 Interface</a>

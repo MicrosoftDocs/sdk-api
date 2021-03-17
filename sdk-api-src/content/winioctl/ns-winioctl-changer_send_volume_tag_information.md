@@ -2,15 +2,12 @@
 UID: NS:winioctl._CHANGER_SEND_VOLUME_TAG_INFORMATION
 title: CHANGER_SEND_VOLUME_TAG_INFORMATION
 description: Contains information that the IOCTL_CHANGER_QUERY_VOLUME_TAGS control code uses to determine the volume information to be retrieved.
+helpviewer_keywords: ["*PCHANGER_SEND_VOLUME_TAG_INFORMATION","ASSERT_ALTERNATE","ASSERT_PRIMARY","CHANGER_SEND_VOLUME_TAG_INFORMATION","CHANGER_SEND_VOLUME_TAG_INFORMATION structure","PCHANGER_SEND_VOLUME_TAG_INFORMATION","PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer","REPLACE_ALTERNATE","REPLACE_PRIMARY","SEARCH_ALL","SEARCH_ALL_NO_SEQ","SEARCH_ALTERNATE","SEARCH_ALT_NO_SEQ","SEARCH_PRIMARY","SEARCH_PRI_NO_SEQ","UNDEFINE_ALTERNATE","UNDEFINE_PRIMARY","_win32_changer_send_volume_tag_information_str","base.changer_send_volume_tag_information_str","winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION","winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION"]
 old-location: base\changer_send_volume_tag_information_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 96148983-48be-466d-be7f-c1dbf6910c20
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_SEND_VOLUME_TAG_INFORMATION, ASSERT_ALTERNATE, ASSERT_PRIMARY, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure, PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer, REPLACE_ALTERNATE, REPLACE_PRIMARY, SEARCH_ALL, SEARCH_ALL_NO_SEQ, SEARCH_ALTERNATE, SEARCH_ALT_NO_SEQ, SEARCH_PRIMARY, SEARCH_PRI_NO_SEQ, UNDEFINE_ALTERNATE, UNDEFINE_PRIMARY, _win32_changer_send_volume_tag_information_str, base.changer_send_volume_tag_information_str, winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION, winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION'
-f1_keywords:
-- winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- CHANGER_SEND_VOLUME_TAG_INFORMATION
 targetos: Windows
 req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_INFORMATION
 req.redist: 
+f1_keywords:
+ - _CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - winioctl/_CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - PCHANGER_SEND_VOLUME_TAG_INFORMATION
+ - winioctl/PCHANGER_SEND_VOLUME_TAG_INFORMATION
+ - CHANGER_SEND_VOLUME_TAG_INFORMATION
+ - winioctl/CHANGER_SEND_VOLUME_TAG_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - CHANGER_SEND_VOLUME_TAG_INFORMATION
 ---
 
 # CHANGER_SEND_VOLUME_TAG_INFORMATION structure
@@ -47,21 +53,15 @@ req.redist:
 
 ## -description
 
-
 Contains information that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a> control code uses to determine the volume information to be retrieved.
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a> control code uses to determine the volume information to be retrieved.
 
 ## -struct-fields
-
-
-
 
 ### -field StartingElement
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the starting element for which information is to be retrieved.
 
 ### -field ActionCode
 
@@ -265,25 +265,15 @@ Requires that <b>Features0</b> is CHANGER_VOLUME_UNDEFINE.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VolumeIDTemplate
 
 The template that the device uses to search for volume IDs. For search operations, the template can include wildcard characters to search for volumes that match the template. Supported wildcard characters include the asterisk (*) and question mark (?). For other operations, the template must specify a single volume.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>

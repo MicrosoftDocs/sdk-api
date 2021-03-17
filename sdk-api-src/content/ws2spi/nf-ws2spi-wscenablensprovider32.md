@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCEnableNSProvider32
 title: WSCEnableNSProvider32 function (ws2spi.h)
 description: Enables or disables a specified 32-bit namespace provider.
+helpviewer_keywords: ["WSCEnableNSProvider32","WSCEnableNSProvider32 function [Winsock]","winsock.wscenablensprovider32","ws2spi/WSCEnableNSProvider32"]
 old-location: winsock\wscenablensprovider32.htm
 tech.root: WinSock
 ms.assetid: 5ab4f8bd-d32d-4962-aac7-2d92847d0e03
 ms.date: 12/05/2018
 ms.keywords: WSCEnableNSProvider32, WSCEnableNSProvider32 function [Winsock], winsock.wscenablensprovider32, ws2spi/WSCEnableNSProvider32
-f1_keywords:
-- ws2spi/WSCEnableNSProvider32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCEnableNSProvider32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCEnableNSProvider32
+ - ws2spi/WSCEnableNSProvider32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCEnableNSProvider32
 ---
 
 # WSCEnableNSProvider32 function
@@ -48,30 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **WSCEnableNSProvider32** function enables or disables a specified 32-bit namespace provider. It is intended to give the end-user the ability to change the state of the namespace providers.<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenablensprovider">WSCEnableNSProvider</a> for use on 64-bit computers. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the namespace provider.
 
-
 ### -param fEnable [in]
 
 A Boolean value that, if **TRUE**, the namespace provider is set to the active state. If **FALSE**, the namespace provider is disabled and will not be available for query operations or service registration.
 
-
 ## -returns
-
-
 
 If no error occurs, the 
 **WSCEnableNSProvider32** function returns **NO_ERROR** (zero). Otherwise, it returns **SOCKET_ERROR** if the function fails, and you must retrieve the appropriate error code using the 
@@ -127,14 +119,8 @@ The specified namespace provider identifier is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **WSCEnableNSProvider32** function is intended to be used to change the state of the namespace providers. An independent software vendor (ISV) should not normally de-activate another ISV's namespace provider in order to activate its own. The choice should be left to the user.    
@@ -148,13 +134,7 @@ The **WSCEnableNSProvider32** function can only be called by a user logged on as
 
 For computers running on Windows Vista or Windows Server 2008, this function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenablensprovider">WSCEnableNSProvider</a>
 
@@ -173,7 +153,4 @@ For computers running on Windows Vista or Windows Server 2008, this function c
 
 
 <a href="/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder32">WSCWriteNameSpaceOrder32</a>
- 
-
- 
 

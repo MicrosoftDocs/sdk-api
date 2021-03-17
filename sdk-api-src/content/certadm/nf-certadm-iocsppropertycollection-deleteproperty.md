@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPPropertyCollection.DeleteProperty
 title: IOCSPPropertyCollection::DeleteProperty (certadm.h)
 description: Removes a named property from a property set.
+helpviewer_keywords: ["DeleteProperty","DeleteProperty method [Security]","DeleteProperty method [Security]","IOCSPPropertyCollection interface","IOCSPPropertyCollection interface [Security]","DeleteProperty method","IOCSPPropertyCollection.DeleteProperty","IOCSPPropertyCollection::DeleteProperty","certadm/IOCSPPropertyCollection::DeleteProperty","security.iocsppropertycollection_deleteproperty_method"]
 old-location: security\iocsppropertycollection_deleteproperty_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.date: 12/05/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
-f1_keywords:
-- certadm/IOCSPPropertyCollection.DeleteProperty
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPPropertyCollection.DeleteProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPPropertyCollection::DeleteProperty
+ - certadm/IOCSPPropertyCollection::DeleteProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPPropertyCollection.DeleteProperty
 ---
 
 # IOCSPPropertyCollection::DeleteProperty
@@ -48,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteProperty</b> method removes a named property from a property set.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrPropName [in]
 
 A string that contains the name of the property to remove.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>

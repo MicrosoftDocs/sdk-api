@@ -2,15 +2,12 @@
 UID: NF:iads.IADsAccessControlList.CopyAccessList
 title: IADsAccessControlList::CopyAccessList (iads.h)
 description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
+helpviewer_keywords: ["CopyAccessList","CopyAccessList method [ADSI]","CopyAccessList method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","CopyAccessList method","IADsAccessControlList.CopyAccessList","IADsAccessControlList::CopyAccessList","_ds_iadsaccesscontrollist_copyaccesslist","adsi.iadsaccesscontrollist__copyaccesslist","adsi.iadsaccesscontrollist_copyaccesslist","iads/IADsAccessControlList::CopyAccessList"]
 old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: adsi
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b
 ms.date: 12/05/2018
 ms.keywords: CopyAccessList, CopyAccessList method [ADSI], CopyAccessList method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],CopyAccessList method, IADsAccessControlList.CopyAccessList, IADsAccessControlList::CopyAccessList, _ds_iadsaccesscontrollist_copyaccesslist, adsi.iadsaccesscontrollist__copyaccesslist, adsi.iadsaccesscontrollist_copyaccesslist, iads/IADsAccessControlList::CopyAccessList
-f1_keywords:
-- iads/IADsAccessControlList.CopyAccessList
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAccessControlList.CopyAccessList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAccessControlList::CopyAccessList
+ - iads/IADsAccessControlList::CopyAccessList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAccessControlList.CopyAccessList
 ---
 
 # IADsAccessControlList::CopyAccessList
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsAccessControlList::CopyAccessList</b> method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
-
 
 ## -parameters
 
-
-
-
 ### -param ppAccessControlList [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
-
+Address of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to an ACL as the copy of the original access list. If this parameter is <b>NULL</b> on return, no copies of the ACL could be made.
 
 ## -returns
 
-
-
 This method returns the standard return values.
 
-For more information about  other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information about  other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
-The caller must call <b>Release</b> on the copy of ACEs through their <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointers.
+The caller must call <b>Release</b> on the copy of ACEs through their <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointers.
 
 
 #### Examples
@@ -197,25 +186,14 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>

@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarWeekdayName
 title: VarWeekdayName function (oleauto.h)
 description: Returns a string containing the localized name of the weekday.
+helpviewer_keywords: ["VarWeekdayName","VarWeekdayName function [Automation]","_oa96_VarWeekdayName","automat.varweekdayname","oleauto/VarWeekdayName"]
 old-location: automat\varweekdayname.htm
 tech.root: automat
 ms.assetid: 8bd00c31-9ebf-4342-a8c0-ef73f5b5c108
 ms.date: 12/05/2018
 ms.keywords: VarWeekdayName, VarWeekdayName function [Automation], _oa96_VarWeekdayName, automat.varweekdayname, oleauto/VarWeekdayName
-f1_keywords:
-- oleauto/VarWeekdayName
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarWeekdayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarWeekdayName
+ - oleauto/VarWeekdayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarWeekdayName
 ---
 
 # VarWeekdayName function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a string containing the localized name of the weekday.
 
-
 ## -parameters
-
-
-
 
 ### -param iWeekday [in]
 
@@ -155,13 +152,10 @@ Sunday
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fAbbrev [in]
 
 If zero then the full (non-abbreviated) weekday name is used. If non-zero, then the abbreviation for the weekday name is used.
-
 
 ### -param iFirstDay [in]
 
@@ -262,23 +256,16 @@ Sunday
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 VAR_CALENDAR_HIJRI is the only flag that can be set.
 
-
-
 ### -param pbstrOut [out]
 
 Receives the formatted string that represents the variant.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -322,7 +309,4 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

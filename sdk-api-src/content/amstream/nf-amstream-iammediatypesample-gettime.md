@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMediaTypeSample.GetTime
 title: IAMMediaTypeSample::GetTime (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetTime method retrieves the stream times at which the sample should start and stop.
+helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetTime method","IAMMediaTypeSample.GetTime","IAMMediaTypeSample::GetTime","IAMMediaTypeSampleGetTime","amstream/IAMMediaTypeSample::GetTime","dshow.iammediatypesample_gettime"]
 old-location: dshow\iammediatypesample_gettime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
-f1_keywords:
-- amstream/IAMMediaTypeSample.GetTime
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeSample.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeSample::GetTime
+ - amstream/IAMMediaTypeSample::GetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeSample.GetTime
 ---
 
 # IAMMediaTypeSample::GetTime
@@ -48,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>GetTime</code> method retrieves the stream times at which the sample should start and stop.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTimeStart [out]
 
 Pointer to a variable that receives the start time.
 
-
 ### -param pTimeEnd [out]
 
 Pointer to a variable that receives the stop time. If the sample has no stop time, the value is set to the start time plus one.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -117,18 +107,7 @@ The sample has a valid start time but no stop time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>

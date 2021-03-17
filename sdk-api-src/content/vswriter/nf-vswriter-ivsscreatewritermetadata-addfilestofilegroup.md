@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssCreateWriterMetadata.AddFilesToFileGroup
 title: IVssCreateWriterMetadata::AddFilesToFileGroup (vswriter.h)
 description: The AddFilesToFileGroup method adds a file set (a specified file or files) to a specified file group component.
+helpviewer_keywords: ["AddFilesToFileGroup","AddFilesToFileGroup method [VSS]","AddFilesToFileGroup method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddFilesToFileGroup method","IVssCreateWriterMetadata.AddFilesToFileGroup","IVssCreateWriterMetadata::AddFilesToFileGroup","_win32_ivsscreatewritermetadata_addfilestofilegroup","base.ivsscreatewritermetadata_addfilestofilegroup","vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup"]
 old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.date: 12/05/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.AddFilesToFileGroup
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.AddFilesToFileGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::AddFilesToFileGroup
+ - vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.AddFilesToFileGroup
 ---
 
 # IVssCreateWriterMetadata::AddFilesToFileGroup
@@ -49,25 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddFilesToFileGroup</b> method adds a file set (a specified file or files) to a specified file group component.
 
-
 ## -parameters
-
-
-
 
 ### -param wszLogicalPath [in]
 
-Pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
-
+Pointer to a <b>null</b>-terminated wide character string containing the logical path (which may be <b>NULL</b>) of the component to which to add the files. For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 ### -param wszGroupName [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the name of the file group component. The type of this component must be VSS_CT_FILEGROUP; otherwise, the method will return an error.
-
 
 ### -param wszPath [in]
 
@@ -84,7 +79,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
-
 ### -param wszFilespec [in]
 
 Pointer to a <b>null</b>-terminated wide character string containing the file specification of the files to be included. 
@@ -94,7 +88,6 @@ Pointer to a <b>null</b>-terminated wide character string containing the file sp
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
-
 ### -param bRecursive [in]
 
 A Boolean value specifying whether the path specified by the <i>wszPath</i> parameter identifies only a single directory or if it indicates a hierarchy of directories to be traversed recursively. This parameter should be set to <b>true</b> if the path is treated as a hierarchy of directories to be recursed through, or <b>false</b> otherwise. 
@@ -103,8 +96,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 
 For information on traversing over mounted folders, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
-
+<a href="/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 ### -param wszAlternateLocation [in]
 
@@ -118,21 +110,17 @@ Specifying an alternate path is optional; if no alternate path is needed, <i>wsz
 
 An alternate path should not be confused with an alternate location mapping.
 
-
 ### -param dwBackupTypeMask [in]
 
 A bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
+<a href="/windows/desktop/api/vss/ne-vss-vss_file_spec_backup_type">VSS_FILE_SPEC_BACKUP_TYPE</a> enumeration values to indicate if a writer should evaluate the file for participation in a certain type of backup operations. 
 
 
 
 
 The default value for this argument is (VSS_FSBT_ALL_BACKUP_REQUIRED | VSS_FSBT_ALL_SNAPSHOT_REQUIRED).
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -186,7 +174,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -222,21 +210,15 @@ The specified component does not exist.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012. Writers support only local resources—sets of files whose absolute path starts with a valid local volume specification and cannot be a mapped network drive. Therefore, path inputs (<i>wszPath</i> and <i>wszAlternatePath</i>) to 
 <b>AddFilesToFileGroup</b> (after the resolution of any environment variables) must be in this format.
@@ -255,25 +237,15 @@ Note the following when using path information provided by
 <li>If an alternate path is specified (if <i>wszAlternatePath</i> is non-<b>NULL</b>), files added to the component are backed up from the alternate path specified by <i>wszAlternatePath</i>. However, requesters will still use <i>wszPath</i> as the default restoration location.</li>
 <li>If the alternate path is defined (<i>wszAlternatePath</i> is non-<b>NULL</b>) and there are files matching the file specification (<i>wszFilespec</i>) in both the alternate path and the default root directory (<i>wszPath</i>), then a backup operation should back up files located under the alternate path, not files located under the default root directory.</li>
 <li>Files should be restored to the directory indicated by <i>wszPath</i> unless an alternate location mapping was set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a> and the restore method or restore target requires it.</li>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a> and the restore method or restore target requires it.</li>
 </ul>
 For more information on backup and restore file locations under VSS, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
-
-
-
+<a href="/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addalternatelocationmapping">IVssCreateWriterMetadata::AddAlternateLocationMapping</a>

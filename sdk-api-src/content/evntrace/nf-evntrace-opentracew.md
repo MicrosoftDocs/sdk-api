@@ -2,15 +2,12 @@
 UID: NF:evntrace.OpenTraceW
 title: OpenTraceW function (evntrace.h)
 description: The OpenTrace function opens a real-time trace session or log file for consuming.
+helpviewer_keywords: ["OpenTrace","OpenTrace function [ETW]","OpenTraceA","OpenTraceW","_evt_opentrace","base.opentrace","etw.opentrace","evntrace/OpenTrace","evntrace/OpenTraceA","evntrace/OpenTraceW"]
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
 ms.date: 12/05/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
-f1_keywords:
-- evntrace/OpenTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvAPI32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- OpenTrace
-- OpenTraceA
-- OpenTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenTraceW
+ - evntrace/OpenTraceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - AdvAPI32Legacy.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+ - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - OpenTrace
+ - OpenTraceA
+ - OpenTraceW
 ---
 
 # OpenTraceW function
@@ -56,26 +58,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenTrace</b> function opens a real-time trace session or 
    log file for consuming.
 
-
 ## -parameters
-
-
-
 
 ### -param Logfile [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure. 
+Pointer to an <a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure. 
       The structure specifies the source from which to consume events (from a log file or the session in real time) 
-      and specifies the callbacks the consumer wants to use to receive the events. 
-
+      and specifies the callbacks the consumer wants to use to receive the events.
 
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the trace.
 
@@ -113,7 +107,7 @@ If the function fails, it returns INVALID_PROCESSTRACE_HANDLE.
 </div>
 <div> </div>
 If the function returns INVALID_PROCESSTRACE_HANDLE, you can use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain extended error 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain extended error 
        information. The following table lists some common errors and their causes.
 
 <table>
@@ -139,7 +133,7 @@ The <i>Logfile</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-If you did not specify the <b>LoggerName</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>, you must specify a valid log file name.
+If you did not specify the <b>LoggerName</b> member of <a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>, you must specify a valid log file name.
 
 </td>
 </tr>
@@ -159,20 +153,14 @@ Only users with administrative privileges, users in the Performance Log Users gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Consumers call this function.
 
 After calling <b>OpenTrace</b>, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function to process the events. When you have 
-    finished processing events, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a> 
+    <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a> function to process the events. When you have 
+    finished processing events, call the <a href="/windows/desktop/ETW/closetrace">CloseTrace</a> 
     function.
 
 Note that you can process events from only one real-time session.
@@ -185,28 +173,25 @@ Windows Vista and earlier: If the function fails it will returns INVALID_HANDLE
 #### Examples
 
 For an example that uses <b>OpenTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
-     or <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
+     <a href="/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
+     or <a href="/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The evntrace.h header defines OpenTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/ETW/closetrace">CloseTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>

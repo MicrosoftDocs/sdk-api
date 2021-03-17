@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramMapPid
 title: IPAT::GetRecordProgramMapPid (mpeg2psiparser.h)
 description: The GetRecordProgramMapPid method returns the packet identifier (PID) for a given record in the PAT.
+helpviewer_keywords: ["GetRecordProgramMapPid","GetRecordProgramMapPid method [Microsoft TV Technologies]","GetRecordProgramMapPid method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetRecordProgramMapPid method","IPAT.GetRecordProgramMapPid","IPAT::GetRecordProgramMapPid","IPATGetRecordProgramMapPid","mpeg2psiparser/IPAT::GetRecordProgramMapPid","mstv.ipat_getrecordprogrammappid"]
 old-location: mstv\ipat_getrecordprogrammappid.htm
 tech.root: mstv
 ms.assetid: 0b1ca2c0-52c4-447a-8191-8f9b69aecd25
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramMapPid, GetRecordProgramMapPid method [Microsoft TV Technologies], GetRecordProgramMapPid method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramMapPid method, IPAT.GetRecordProgramMapPid, IPAT::GetRecordProgramMapPid, IPATGetRecordProgramMapPid, mpeg2psiparser/IPAT::GetRecordProgramMapPid, mstv.ipat_getrecordprogrammappid
-f1_keywords:
-- mpeg2psiparser/IPAT.GetRecordProgramMapPid
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPAT.GetRecordProgramMapPid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPAT::GetRecordProgramMapPid
+ - mpeg2psiparser/IPAT::GetRecordProgramMapPid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPAT.GetRecordProgramMapPid
 ---
 
 # IPAT::GetRecordProgramMapPid
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetRecordProgramMapPid</b> method returns the packet identifier (PID) for a given record in the PAT.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-Specifies the record to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getcountofrecords">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
-
+Specifies the record to retrieve, indexed from zero. Call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getcountofrecords">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
 
 ### -param pwVal [out]
 
 Receives the PID. This value identifies the PID for the packets that contain the program map table (PMT) of the associated program.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -115,18 +105,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>

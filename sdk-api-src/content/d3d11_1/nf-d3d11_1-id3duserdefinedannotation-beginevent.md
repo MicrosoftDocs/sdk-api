@@ -2,15 +2,12 @@
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.BeginEvent
 title: ID3DUserDefinedAnnotation::BeginEvent (d3d11_1.h)
 description: Marks the beginning of a section of event code.
+helpviewer_keywords: ["BeginEvent","BeginEvent method [Direct3D 11]","BeginEvent method [Direct3D 11]","ID3DUserDefinedAnnotation interface","ID3DUserDefinedAnnotation interface [Direct3D 11]","BeginEvent method","ID3DUserDefinedAnnotation.BeginEvent","ID3DUserDefinedAnnotation::BeginEvent","d3d11_1/ID3DUserDefinedAnnotation::BeginEvent","direct3d11.id3duserdefinedannotation_beginevent"]
 old-location: direct3d11\id3duserdefinedannotation_beginevent.htm
 tech.root: direct3d11
 ms.assetid: 38FC7BFA-A01E-4537-88F1-836AE03C9A07
 ms.date: 12/05/2018
 ms.keywords: BeginEvent, BeginEvent method [Direct3D 11], BeginEvent method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],BeginEvent method, ID3DUserDefinedAnnotation.BeginEvent, ID3DUserDefinedAnnotation::BeginEvent, d3d11_1/ID3DUserDefinedAnnotation::BeginEvent, direct3d11.id3duserdefinedannotation_beginevent
-f1_keywords:
-- d3d11_1/ID3DUserDefinedAnnotation.BeginEvent
-dev_langs:
-- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3DUserDefinedAnnotation.BeginEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3DUserDefinedAnnotation::BeginEvent
+ - d3d11_1/ID3DUserDefinedAnnotation::BeginEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3DUserDefinedAnnotation.BeginEvent
 ---
 
 # ID3DUserDefinedAnnotation::BeginEvent
@@ -49,37 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks the beginning of a section of event code.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name of the event. The name is not relevant to the operating system. You can choose a name that is meaningful when the calling application is running under the Direct3D profiling tool.
 A <b>NULL</b> pointer produces undefined results.
 
-
 ## -returns
 
-
-
-Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">ID3DUserDefinedAnnotation::EndEvent</a> method.
+Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">ID3DUserDefinedAnnotation::EndEvent</a> method.
 
 The return value is –1 if the calling application is not running under a Direct3D profiling tool.
 
-
-
-
 ## -remarks
 
-
-
-You call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> method to mark the end of the section of event code.
+You call the <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> method to mark the end of the section of event code.
 
 A user can visualize the event when the calling application is running under an enabled Direct3D profiling tool such as Microsoft Visual Studio Ultimate 2012.
 
@@ -88,8 +77,8 @@ A user can visualize the event when the calling application is running under an 
 
 #### Examples
 
-The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> methods.
-          It also uses the <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
+The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3duserdefinedannotation-endevent">EndEvent</a> methods.
+          It also uses the <a href="/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a> smart pointer type.
 
 
 ```cpp
@@ -121,15 +110,6 @@ pPerf->EndEvent( );
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>

@@ -2,15 +2,12 @@
 UID: NF:rtscom.IRealTimeStylus.RemoveStylusSyncPlugin
 title: IRealTimeStylus::RemoveStylusSyncPlugin (rtscom.h)
 description: Removes an IStylusSyncPlugin from the collection at the specified index.
+helpviewer_keywords: ["5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8","IRealTimeStylus interface [Tablet PC]","RemoveStylusSyncPlugin method","IRealTimeStylus.RemoveStylusSyncPlugin","IRealTimeStylus::RemoveStylusSyncPlugin","RemoveStylusSyncPlugin","RemoveStylusSyncPlugin method [Tablet PC]","RemoveStylusSyncPlugin method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::RemoveStylusSyncPlugin","tablet.irealtimestylus_removestylussyncplugin"]
 old-location: tablet\irealtimestylus_removestylussyncplugin.htm
 tech.root: tablet
 ms.assetid: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8
 ms.date: 12/05/2018
 ms.keywords: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8, IRealTimeStylus interface [Tablet PC],RemoveStylusSyncPlugin method, IRealTimeStylus.RemoveStylusSyncPlugin, IRealTimeStylus::RemoveStylusSyncPlugin, RemoveStylusSyncPlugin, RemoveStylusSyncPlugin method [Tablet PC], RemoveStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusSyncPlugin, tablet.irealtimestylus_removestylussyncplugin
-f1_keywords:
-- rtscom/IRealTimeStylus.RemoveStylusSyncPlugin
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.RemoveStylusSyncPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::RemoveStylusSyncPlugin
+ - rtscom/IRealTimeStylus::RemoveStylusSyncPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.RemoveStylusSyncPlugin
 ---
 
 # IRealTimeStylus::RemoveStylusSyncPlugin
@@ -48,44 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Removes an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> from the collection at the specified index.
-
-
-
+Removes an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> from the collection at the specified index.
 
 ## -parameters
-
-
-
 
 ### -param iIndex [in]
 
 The index of the plug-in to be removed.
 
-
 ### -param ppiPlugin [in, out]
 
 A pointer to the plug-in to remove. If you are not interested in receiving the pointer to the removed plug-in, pass <b>NULL</b> for this parameter.
 
-
 ## -returns
 
-
-
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
-
-
-
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-
-
 Use to dynamically remove a specific plug-in from the synchronous plug-in collection.
 
-The synchronous and asynchronous plug-in collections on <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be modified without disabling and then re-enabling <b>RealTimeStylus Class</b>.
+The synchronous and asynchronous plug-in collections on <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> can be modified without disabling and then re-enabling <b>RealTimeStylus Class</b>.
 
 
 #### Examples
@@ -120,29 +105,18 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusasyncplugin">IRealTimeStylus::RemoveStylusAsyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

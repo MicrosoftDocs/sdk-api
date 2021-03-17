@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetWindowsInformationDWORD
 title: SLGetWindowsInformationDWORD function (slpublic.h)
 description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.
+helpviewer_keywords: ["SLGetWindowsInformationDWORD","SLGetWindowsInformationDWORD function [Security]","security.slgetwindowsinformationdword","slpublic/SLGetWindowsInformationDWORD"]
 old-location: security\slgetwindowsinformationdword.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 27f59d01-93d5-4bf8-aab2-77243431cc0c
 ms.date: 12/05/2018
 ms.keywords: SLGetWindowsInformationDWORD, SLGetWindowsInformationDWORD function [Security], security.slgetwindowsinformationdword, slpublic/SLGetWindowsInformationDWORD
-f1_keywords:
-- slpublic/SLGetWindowsInformationDWORD
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetWindowsInformationDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetWindowsInformationDWORD
+ - slpublic/SLGetWindowsInformationDWORD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetWindowsInformationDWORD
 ---
 
 # SLGetWindowsInformationDWORD function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the <b>DWORD</b> value portion of a name-value pair from the licensing policy of a software component.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszValueName [in]
 
 A pointer to a null-terminated string that contains the name associated with the value to retrieve.
 
-
 ### -param pdwValue [out]
 
 A pointer to the value associated with the name specified by the <i>pwszValueName</i> parameter.
 
-
 ## -returns
-
-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Slerror.h.
 
@@ -107,7 +100,3 @@ The value portion of the name-value pair is not a <b>DWORD</b>.
 </td>
 </tr>
 </table>
- 
-
-
-

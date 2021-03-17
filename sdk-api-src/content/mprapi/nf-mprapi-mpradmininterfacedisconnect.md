@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminInterfaceDisconnect
 title: MprAdminInterfaceDisconnect function (mprapi.h)
 description: The MprAdminInterfaceDisconnect function disconnects a connected WAN interface.
+helpviewer_keywords: ["MprAdminInterfaceDisconnect","MprAdminInterfaceDisconnect function [RAS]","_mpr_mpradmininterfacedisconnect","mprapi/MprAdminInterfaceDisconnect","rras.mpradmininterfacedisconnect"]
 old-location: rras\mpradmininterfacedisconnect.htm
 tech.root: RRAS
 ms.assetid: 32499e2f-9c67-4314-adbf-75482a9d511e
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDisconnect, MprAdminInterfaceDisconnect function [RAS], _mpr_mpradmininterfacedisconnect, mprapi/MprAdminInterfaceDisconnect, rras.mpradmininterfacedisconnect
-f1_keywords:
-- mprapi/MprAdminInterfaceDisconnect
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceDisconnect
+ - mprapi/MprAdminInterfaceDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceDisconnect
 ---
 
 # MprAdminInterfaceDisconnect function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceDisconnect</b> function disconnects a connected WAN interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the  router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,12 +128,8 @@ This interface is not connected. Therefore, it cannot be disconnected.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceconnect">MprAdminInterfaceConnect</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
-
-
-
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>, 
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>, 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>, 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceconnect">MprAdminInterfaceConnect</a>, 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>

@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge2.ProjectOntoColumnSet
 title: ISyncKnowledge2::ProjectOntoColumnSet (winsync.h)
 description: Returns the knowledge for the specified set of change units for all the items that are contained in this object.
+helpviewer_keywords: ["ISyncKnowledge2 interface [Windows Sync]","ProjectOntoColumnSet method","ISyncKnowledge2.ProjectOntoColumnSet","ISyncKnowledge2::ProjectOntoColumnSet","ProjectOntoColumnSet","ProjectOntoColumnSet method [Windows Sync]","ProjectOntoColumnSet method [Windows Sync]","ISyncKnowledge2 interface","winsync.isyncknowledge2_projectontocolumnset","winsync/ISyncKnowledge2::ProjectOntoColumnSet"]
 old-location: winsync\isyncknowledge2_projectontocolumnset.htm
 tech.root: winsync
 ms.assetid: fe183377-9b5a-476b-91af-ff974a9d41a4
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoColumnSet method, ISyncKnowledge2.ProjectOntoColumnSet, ISyncKnowledge2::ProjectOntoColumnSet, ProjectOntoColumnSet, ProjectOntoColumnSet method [Windows Sync], ProjectOntoColumnSet method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontocolumnset, winsync/ISyncKnowledge2::ProjectOntoColumnSet
-f1_keywords:
-- winsync/ISyncKnowledge2.ProjectOntoColumnSet
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge2.ProjectOntoColumnSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge2::ProjectOntoColumnSet
+ - winsync/ISyncKnowledge2::ProjectOntoColumnSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge2.ProjectOntoColumnSet
 ---
 
 # ISyncKnowledge2::ProjectOntoColumnSet
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the knowledge for the specified set of change units for all the items that are contained in this object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppColumns [in]
 
 The set of change unit IDs to look up.
 
-
 ### -param count [in]
 
 The number of change unit IDs that are contained in <i>ppColumns</i>.
-
 
 ### -param ppiKnowledgeOut [out]
 
 A knowledge object that contains only the change units that are specified by <i>ppColumns</i> for all items contained in this object.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -128,32 +120,15 @@ The format of the change unit IDs that is contained in <i>ppColumns</i> is not o
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>ProjectOntoColumnSet</b> differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ISyncKnowledge::ProjectOntoChangeUnit</a>. <b>ProjectOntoColumnSet</b> returns a knowledge object that contains information about the specified set of change units for all the items that are contained in the knowledge object. <b>ProjectOntoChangeUnit</b> returns a knowledge object that contains information about a single change unit that is contained in a single item.
-
-
-
-
+<b>ProjectOntoColumnSet</b> differs from <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ISyncKnowledge::ProjectOntoChangeUnit</a>. <b>ProjectOntoColumnSet</b> returns a knowledge object that contains information about the specified set of change units for all the items that are contained in the knowledge object. <b>ProjectOntoChangeUnit</b> returns a knowledge object that contains information about a single change unit that is contained in a single item.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>

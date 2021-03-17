@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarItemMgr.RemoveItem
 title: ITfLangBarItemMgr::RemoveItem (ctfutb.h)
 description: ITfLangBarItemMgr::RemoveItem method
+helpviewer_keywords: ["ITfLangBarItemMgr interface [Text Services Framework]","RemoveItem method","ITfLangBarItemMgr.RemoveItem","ITfLangBarItemMgr::RemoveItem","RemoveItem","RemoveItem method [Text Services Framework]","RemoveItem method [Text Services Framework]","ITfLangBarItemMgr interface","_tsf_itflangbaritemmgr_removeitem_ref","ctfutb/ITfLangBarItemMgr::RemoveItem","tsf.itflangbaritemmgr_removeitem"]
 old-location: tsf\itflangbaritemmgr_removeitem.htm
 tech.root: TSF
 ms.assetid: 5a56a8f4-8011-4847-869f-c859ec90da3b
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],RemoveItem method, ITfLangBarItemMgr.RemoveItem, ITfLangBarItemMgr::RemoveItem, RemoveItem, RemoveItem method [Text Services Framework], RemoveItem method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_removeitem_ref, ctfutb/ITfLangBarItemMgr::RemoveItem, tsf.itflangbaritemmgr_removeitem
-f1_keywords:
-- ctfutb/ITfLangBarItemMgr.RemoveItem
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemMgr.RemoveItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemMgr::RemoveItem
+ - ctfutb/ITfLangBarItemMgr::RemoveItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemMgr.RemoveItem
 ---
 
 # ITfLangBarItemMgr::RemoveItem
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes an item from the language bar.
 
 ## -parameters
 
-
-
-
 ### -param punk [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to remove from the language bar. The language bar will call <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a> and use the item <b>GUID</b> to identify the item to remove.
-
+Pointer to the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to remove from the language bar. The language bar will call <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a> and use the item <b>GUID</b> to identify the item to remove.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,26 +101,15 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">ITfLangBarItem::GetInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>

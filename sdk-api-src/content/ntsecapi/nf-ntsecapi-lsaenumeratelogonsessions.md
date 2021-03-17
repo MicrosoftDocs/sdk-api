@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.LsaEnumerateLogonSessions
 title: LsaEnumerateLogonSessions function (ntsecapi.h)
 description: Retrieves the set of existing logon session identifiers (LUIDs) and the number of sessions.
+helpviewer_keywords: ["LsaEnumerateLogonSessions","LsaEnumerateLogonSessions function [Security]","_lsa_lsaenumeratelogonsessions","ntsecapi/LsaEnumerateLogonSessions","security.lsaenumeratelogonsessions"]
 old-location: security\lsaenumeratelogonsessions.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
-f1_keywords:
-- ntsecapi/LsaEnumerateLogonSessions
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaEnumerateLogonSessions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaEnumerateLogonSessions
+ - ntsecapi/LsaEnumerateLogonSessions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaEnumerateLogonSessions
 ---
 
 # LsaEnumerateLogonSessions function
@@ -48,43 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUIDs</a>) and the number of sessions.
-
+The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUIDs</a>) and the number of sessions.
 
 ## -parameters
-
-
-
 
 ### -param LogonSessionCount [out]
 
 Pointer to a long integer that receives the number of elements returned in the array returned in <i>LogonSessionList</i> parameter.
 
-
 ### -param LogonSessionList [out]
 
 Address of a pointer to a LUID. The pointer receives the first element of an array of logon session identifiers. The memory used by the array is allocated by the LSA. When the array is no longer needed, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function to free it.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function to free it.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code indicating the reason.
 
-
-
-
 ## -remarks
 
-
-
 To retrieve information about the logon sessions returned by <b>LsaEnumerateLogonSessions</b>, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsagetlogonsessiondata">LsaGetLogonSessionData</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsagetlogonsessiondata">LsaGetLogonSessionData</a> function.

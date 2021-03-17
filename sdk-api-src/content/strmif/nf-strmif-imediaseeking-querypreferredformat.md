@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
 title: IMediaSeeking::QueryPreferredFormat (strmif.h)
 description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
+helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","QueryPreferredFormat method","IMediaSeeking.QueryPreferredFormat","IMediaSeeking::QueryPreferredFormat","IMediaSeekingQueryPreferredFormat","QueryPreferredFormat","QueryPreferredFormat method [DirectShow]","QueryPreferredFormat method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_querypreferredformat","strmif/IMediaSeeking::QueryPreferredFormat"]
 old-location: dshow\imediaseeking_querypreferredformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],QueryPreferredFormat method, IMediaSeeking.QueryPreferredFormat, IMediaSeeking::QueryPreferredFormat, IMediaSeekingQueryPreferredFormat, QueryPreferredFormat, QueryPreferredFormat method [DirectShow], QueryPreferredFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_querypreferredformat, strmif/IMediaSeeking::QueryPreferredFormat
-f1_keywords:
-- strmif/IMediaSeeking.QueryPreferredFormat
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.QueryPreferredFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::QueryPreferredFormat
+ - strmif/IMediaSeeking::QueryPreferredFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.QueryPreferredFormat
 ---
 
 # IMediaSeeking::QueryPreferredFormat
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>QueryPreferredFormat</code> method retrieves the preferred time format for seeking.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFormat [out]
 
-Pointer to a variable that receives a GUID specifying the time format. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
-
+Pointer to a variable that receives a GUID specifying the time format. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,26 +102,15 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>

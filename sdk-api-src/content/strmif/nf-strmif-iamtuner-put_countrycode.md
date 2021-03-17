@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMTuner.put_CountryCode
 title: IAMTuner::put_CountryCode (strmif.h)
 description: The put_CountryCode method sets the country/region code to establish the frequency to use.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_CountryCode method","IAMTuner.put_CountryCode","IAMTuner::put_CountryCode","IAMTunerput_CountryCode","dshow.iamtuner_put_countrycode","put_CountryCode","put_CountryCode method [DirectShow]","put_CountryCode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::put_CountryCode"]
 old-location: dshow\iamtuner_put_countrycode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d733f829-5600-4f75-9bc9-de8dc8dd8031
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_CountryCode method, IAMTuner.put_CountryCode, IAMTuner::put_CountryCode, IAMTunerput_CountryCode, dshow.iamtuner_put_countrycode, put_CountryCode, put_CountryCode method [DirectShow], put_CountryCode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_CountryCode
-f1_keywords:
-- strmif/IAMTuner.put_CountryCode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTuner.put_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTuner::put_CountryCode
+ - strmif/IAMTuner::put_CountryCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTuner.put_CountryCode
 ---
 
 # IAMTuner::put_CountryCode
@@ -49,54 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_CountryCode</code> method sets the country/region code to establish the frequency to use.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lCountryCode [in]
 
 Value indicating the country/region code.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
-
-
-
 ## -remarks
 
+This method establishes the base frequencies for the given country/region. Use the <a href="/windows/desktop/api/strmif/nf-strmif-iamtvtuner-autotune">IAMTVTuner::AutoTune</a> method to determine the exact frequencies for specific regions, unless there are previously cached settings for the new country/region.
 
-
-This method establishes the base frequencies for the given country/region. Use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvtuner-autotune">IAMTVTuner::AutoTune</a> method to determine the exact frequencies for specific regions, unless there are previously cached settings for the new country/region.
-
-Because channels in different countries/regions map to different frequencies, worldwide mapping tables are provided in the appendix <a href="https://docs.microsoft.com/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>. Override the existing country/region code by selecting the new value from the appendix and passing it in as the parameter for the <code>put_CountryCode</code> method. This is useful when a country/region wants to receive broadcast video from a different national source.
-
-
-
+Because channels in different countries/regions map to different frequencies, worldwide mapping tables are provided in the appendix <a href="/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>. Override the existing country/region code by selecting the new value from the appendix and passing it in as the parameter for the <code>put_CountryCode</code> method. This is useful when a country/region wants to receive broadcast video from a different national source.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:evr9.IMFVideoMixerBitmap.SetAlphaBitmap
 title: IMFVideoMixerBitmap::SetAlphaBitmap (evr9.h)
 description: Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with the video.
+helpviewer_keywords: ["IMFVideoMixerBitmap interface [Media Foundation]","SetAlphaBitmap method","IMFVideoMixerBitmap.SetAlphaBitmap","IMFVideoMixerBitmap::SetAlphaBitmap","SetAlphaBitmap","SetAlphaBitmap method [Media Foundation]","SetAlphaBitmap method [Media Foundation]","IMFVideoMixerBitmap interface","a70e6734-bf49-4dea-8bf6-917b8465cc78","evr9/IMFVideoMixerBitmap::SetAlphaBitmap","mf.imfvideomixerbitmap_setalphabitmap"]
 old-location: mf\imfvideomixerbitmap_setalphabitmap.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a70e6734-bf49-4dea-8bf6-917b8465cc78
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerBitmap interface [Media Foundation],SetAlphaBitmap method, IMFVideoMixerBitmap.SetAlphaBitmap, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
-f1_keywords:
-- evr9/IMFVideoMixerBitmap.SetAlphaBitmap
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoMixerBitmap.SetAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoMixerBitmap::SetAlphaBitmap
+ - evr9/IMFVideoMixerBitmap::SetAlphaBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoMixerBitmap.SetAlphaBitmap
 ---
 
 # IMFVideoMixerBitmap::SetAlphaBitmap
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with the video.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pBmpParms [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap">MFVideoAlphaBitmap</a> structure that contains information about the bitmap, the source and destination rectangles, the color key, and other information.
-
+Pointer to an <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap">MFVideoAlphaBitmap</a> structure that contains information about the bitmap, the source and destination rectangles, the color key, and other information.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,14 +91,8 @@ The blending parameters defined in the <i>pBmpParms</i> structure are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application can provide the image either as a GDI bitmap or as a Direct3D surface. The EVR mixer blends the image with the next video frame and all subsequent frames, until the image is changed or removed. The image can contain embedded per-pixel alpha information so that transparent regions can be defined. Transparent areas can also be identified using a color key value.
 
@@ -184,21 +169,10 @@ HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>

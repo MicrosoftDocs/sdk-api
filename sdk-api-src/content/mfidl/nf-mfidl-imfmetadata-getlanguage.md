@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMetadata.GetLanguage
 title: IMFMetadata::GetLanguage (mfidl.h)
 description: Gets the current language setting.
+helpviewer_keywords: ["75295c93-a389-42c4-aa56-debc36a5f532","GetLanguage","GetLanguage method [Media Foundation]","GetLanguage method [Media Foundation]","IMFMetadata interface","IMFMetadata interface [Media Foundation]","GetLanguage method","IMFMetadata.GetLanguage","IMFMetadata::GetLanguage","mf.imfmetadata_getlanguage","mfidl/IMFMetadata::GetLanguage"]
 old-location: mf\imfmetadata_getlanguage.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
 ms.date: 12/05/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
-f1_keywords:
-- mfidl/IMFMetadata.GetLanguage
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMetadata.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMetadata::GetLanguage
+ - mfidl/IMFMetadata::GetLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMetadata.GetLanguage
 ---
 
 # IMFMetadata::GetLanguage
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current language setting.
-
 
 ## -parameters
 
-
-
-
 ### -param ppwszRFC1766 [out]
 
-Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-          
-
+Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,33 +104,17 @@ No language was set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For more information about language tags, see RFC 1766, "Tags for the Identification of Languages."
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setlanguage">IMFMetadata::SetLanguage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getproperty">IMFMetadata::GetProperty</a> methods set and get metadata for the current language setting.
-
-
-
+The <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setlanguage">IMFMetadata::SetLanguage</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getproperty">IMFMetadata::GetProperty</a> methods set and get metadata for the current language setting.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>

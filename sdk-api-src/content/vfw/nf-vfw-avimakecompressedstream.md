@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIMakeCompressedStream
 title: AVIMakeCompressedStream function (vfw.h)
 description: The AVIMakeCompressedStream function creates a compressed stream from an uncompressed stream and a compression filter, and returns the address of a pointer to the compressed stream. This function supports audio and video compression.
+helpviewer_keywords: ["AVIMakeCompressedStream","AVIMakeCompressedStream function [Windows Multimedia]","_win32_AVIMakeCompressedStream","multimedia.avimakecompressedstream","vfw/AVIMakeCompressedStream"]
 old-location: multimedia\avimakecompressedstream.htm
 tech.root: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
 ms.date: 12/05/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
-f1_keywords:
-- vfw/AVIMakeCompressedStream
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-api_name:
-- AVIMakeCompressedStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIMakeCompressedStream
+ - vfw/AVIMakeCompressedStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+api_name:
+ - AVIMakeCompressedStream
 ---
 
 # AVIMakeCompressedStream function
@@ -48,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIMakeCompressedStream</b> function creates a compressed stream from an uncompressed stream and a compression filter, and returns the address of a pointer to the compressed stream. This function supports audio and video compression.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppsCompressed
 
 Pointer to a buffer that receives the compressed stream pointer.
 
-
 ### -param ppsSource
 
 Pointer to the stream to be compressed.
 
-
 ### -param lpOptions
 
-Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
-
+Pointer to a structure that identifies the type of compression to use and the options to apply. You can specify video compression by identifying an appropriate handler in the <a href="/windows/desktop/api/vfw/ns-vfw-avicompressoptions">AVICOMPRESSOPTIONS</a> structure. For audio compression, specify the compressed data format.
 
 ### -param pclsidHandler
 
 Pointer to a class identifier used to create the stream.
 
-
 ## -returns
-
-
 
 Returns AVIERR_OK if successful or an error otherwise. Possible error values include the following.
 
@@ -125,33 +113,17 @@ Compression is not supported for this type of data. This error might be returned
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Applications can read from or write to the compressed stream.
 
-A <b>PAVISTREAM</b> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
-
-
-
+A <b>PAVISTREAM</b> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

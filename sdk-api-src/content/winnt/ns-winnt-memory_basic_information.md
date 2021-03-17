@@ -2,15 +2,12 @@
 UID: NS:winnt._MEMORY_BASIC_INFORMATION
 title: MEMORY_BASIC_INFORMATION (winnt.h)
 description: Contains information about a range of pages in the virtual address space of a process.
+helpviewer_keywords: ["*PMEMORY_BASIC_INFORMATION","MEMORY_BASIC_INFORMATION","MEMORY_BASIC_INFORMATION structure","MEM_COMMIT","MEM_FREE","MEM_IMAGE","MEM_MAPPED","MEM_PRIVATE","MEM_RESERVE","PMEMORY_BASIC_INFORMATION","PMEMORY_BASIC_INFORMATION structure pointer","_MEMORY_BASIC_INFORMATION","_win32_memory_basic_information_str","base.memory_basic_information_str","winnt/MEMORY_BASIC_INFORMATION","winnt/PMEMORY_BASIC_INFORMATION"]
 old-location: base\memory_basic_information_str.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
 ms.date: 12/05/2018
 ms.keywords: '*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer, _MEMORY_BASIC_INFORMATION, _win32_memory_basic_information_str, base.memory_basic_information_str, winnt/MEMORY_BASIC_INFORMATION, winnt/PMEMORY_BASIC_INFORMATION'
-f1_keywords:
-- winnt/MEMORY_BASIC_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- MEMORY_BASIC_INFORMATION
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MEMORY_BASIC_INFORMATION
+ - winnt/_MEMORY_BASIC_INFORMATION
+ - PMEMORY_BASIC_INFORMATION
+ - winnt/PMEMORY_BASIC_INFORMATION
+ - MEMORY_BASIC_INFORMATION
+ - winnt/MEMORY_BASIC_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - MEMORY_BASIC_INFORMATION
 ---
 
 # MEMORY_BASIC_INFORMATION structure
@@ -48,38 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a range of pages in the virtual address space of a process. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a> functions use this structure.
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> and 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a> functions use this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field BaseAddress
 
 A pointer to the base address of the region of pages.
 
-
 ### -field AllocationBase
 
 A pointer to the base address of a range of pages allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function. The page pointed to by the <b>BaseAddress</b> member is contained within this allocation range.
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function. The page pointed to by the <b>BaseAddress</b> member is contained within this allocation range.
 
 ### -field AllocationProtect
 
 The memory protection option when the region was initially allocated. This member can be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a> or 0 if the caller does not have access.
-
+<a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a> or 0 if the caller does not have access.
 
 ### -field RegionSize
 
 The size of the region beginning at the base address in which all pages have identical attributes, in bytes.
-
 
 ### -field State
 
@@ -126,13 +123,10 @@ Indicates reserved pages where a range of the process's virtual address space is
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Protect
 
 The access protection of the pages in the region. This member is one of the values listed for the <b>AllocationProtect</b> member.
-
 
 ### -field Type
 
@@ -179,12 +173,8 @@ Indicates that the memory pages within the region are private (that is, not shar
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 To enable a debugger to debug a target that is running on a different architecture (32-bit versus 64-bit), use one of the explicit forms of this structure.
 
@@ -213,25 +203,14 @@ typedef struct DECLSPEC_ALIGN(16) _MEMORY_BASIC_INFORMATION64 {
 } MEMORY_BASIC_INFORMATION64, *PMEMORY_BASIC_INFORMATION64;
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a>

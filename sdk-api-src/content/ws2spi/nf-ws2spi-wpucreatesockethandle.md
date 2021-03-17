@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUCreateSocketHandle
 title: WPUCreateSocketHandle function (ws2spi.h)
 description: The WPUCreateSocketHandle function creates a new socket handle.
+helpviewer_keywords: ["WPUCreateSocketHandle","WPUCreateSocketHandle function [Winsock]","_win32_wpucreatesockethandle_2","winsock.wpucreatesockethandle_2","ws2spi/WPUCreateSocketHandle"]
 old-location: winsock\wpucreatesockethandle_2.htm
 tech.root: WinSock
 ms.assetid: ecbf9d8b-b705-4160-ac77-afa5b1501534
 ms.date: 12/05/2018
 ms.keywords: WPUCreateSocketHandle, WPUCreateSocketHandle function [Winsock], _win32_wpucreatesockethandle_2, winsock.wpucreatesockethandle_2, ws2spi/WPUCreateSocketHandle
-f1_keywords:
-- ws2spi/WPUCreateSocketHandle
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUCreateSocketHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUCreateSocketHandle
+ - ws2spi/WPUCreateSocketHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUCreateSocketHandle
 ---
 
 # WPUCreateSocketHandle function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUCreateSocketHandle** function creates a new socket handle.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCatalogEntryId [in]
 
 Descriptor identifying the calling service provider.
 
-
 ### -param dwContext [in]
 
 Context value to associate with the new socket handle.
-
 
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUCreateSocketHandle** returns the new socket handle. Otherwise, it returns INVALID_SOCKET, and a specific error code is available in <i>lpErrno</i>.
@@ -104,13 +96,7 @@ There are not enough buffers available to create the new socket handle.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUCreateSocketHandle** function creates a new socket handle for the specified provider. The handles created by 
@@ -145,13 +131,7 @@ To see why this is true, consider what happens if the client associates a comple
 
 The usual way a layered service provider takes care of this is to substitute a different overlapped I/O structure and different overlapped I/O parameters when invoking an I/O operation in the next layer. The substitute overlapped I/O structure references the client's stored overlapped structure and parameters. The invocation of the next layer sets up a callback notification. When the callback notification occurs, this layer performs any post-processing desired, retrieves the overlapped I/O information it stored on behalf of the client, discards the substitute structures, and forwards an appropriate completion notification to the client.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosesockethandle">WPUCloseSocketHandle</a>
 
@@ -178,7 +158,4 @@ The usual way a layered service provider takes care of this is to substitute a d
 
 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
- 
-
- 
 

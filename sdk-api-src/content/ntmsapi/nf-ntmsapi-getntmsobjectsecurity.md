@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.GetNtmsObjectSecurity
 title: GetNtmsObjectSecurity function (ntmsapi.h)
 description: The GetNtmsObjectSecurity function reads the security descriptor for the specified RSM object.
+helpviewer_keywords: ["GetNtmsObjectSecurity","GetNtmsObjectSecurity function [Files]","_zaw_getntmsobjectsecurity","base.getntmsobjectsecurity","fs.getntmsobjectsecurity","ntmsapi/GetNtmsObjectSecurity"]
 old-location: fs\getntmsobjectsecurity.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 1d2168a3-077e-48fc-8a06-91952213f2cb
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectSecurity, GetNtmsObjectSecurity function [Files], _zaw_getntmsobjectsecurity, base.getntmsobjectsecurity, fs.getntmsobjectsecurity, ntmsapi/GetNtmsObjectSecurity
-f1_keywords:
-- ntmsapi/GetNtmsObjectSecurity
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- GetNtmsObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNtmsObjectSecurity
+ - ntmsapi/GetNtmsObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - GetNtmsObjectSecurity
 ---
 
 # GetNtmsObjectSecurity function
@@ -48,60 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>GetNtmsObjectSecurity</b> function reads the security descriptor for the specified RSM object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpObjectId [in]
 
 Unique identifier of the RSM object.
 
-
 ### -param dwType [in]
 
 Object type. For a list of object types, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
-
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 ### -param RequestedInformation [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the requested security data.
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the requested security data.
 
 ### -param lpSecurityDescriptor [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor.
 
 ### -param nLength [in]
 
 Length of the descriptor.
 
-
 ### -param lpnLengthNeeded [out]
 
 Required length of the buffer if it is not large enough for the security descriptor, in bytes.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -190,37 +178,21 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 RSM security uses the standard security descriptors and information members. This allows the standard security dialog boxes to be used to select RSM security. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function. For more information on RSM security, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/rsm-security">RSM Security</a>.
-
-
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function. For more information on RSM security, see 
+<a href="/previous-versions/windows/desktop/rsm/rsm-security">RSM Security</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>

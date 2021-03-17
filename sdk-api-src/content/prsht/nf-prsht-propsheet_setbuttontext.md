@@ -2,15 +2,12 @@
 UID: NF:prsht.PropSheet_SetButtonText
 title: PropSheet_SetButtonText macro (prsht.h)
 description: Sets the text of a button in an Aero wizard. You can use this macro or send the PSM_SETBUTTONTEXT message explicitly.
+helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_CANCEL","PSWIZB_FINISH","PSWIZB_NEXT","PropSheet_SetButtonText","PropSheet_SetButtonText macro [Windows Controls]","_win32_PropSheet_SetButtonText","_win32_PropSheet_SetButtonText_cpp","controls.PropSheet_SetButtonText","controls._win32_PropSheet_SetButtonText","prsht/PropSheet_SetButtonText"]
 old-location: controls\PropSheet_SetButtonText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setbuttontext.htm
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PropSheet_SetButtonText, PropSheet_SetButtonText macro [Windows Controls], _win32_PropSheet_SetButtonText, _win32_PropSheet_SetButtonText_cpp, controls.PropSheet_SetButtonText, controls._win32_PropSheet_SetButtonText, prsht/PropSheet_SetButtonText
-f1_keywords:
-- prsht/PropSheet_SetButtonText
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_SetButtonText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_SetButtonText
+ - prsht/PropSheet_SetButtonText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_SetButtonText
 ---
 
 # PropSheet_SetButtonText macro
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setbuttontext">PSM_SETBUTTONTEXT</a> message explicitly.
-
+Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-setbuttontext">PSM_SETBUTTONTEXT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
-
 ### -param dwButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following values specifying the button whose text is set.
 
@@ -116,12 +112,9 @@ One of the following values specifying the button whose text is set.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The text to set.
-

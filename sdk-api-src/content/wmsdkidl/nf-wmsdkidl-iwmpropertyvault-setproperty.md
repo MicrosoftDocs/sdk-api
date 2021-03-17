@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMPropertyVault.SetProperty
 title: IWMPropertyVault::SetProperty (wmsdkidl.h)
 description: The SetProperty method sets the values for a property. If the property named already exists in the property vault, SetProperty changes its value as specified. If the property named does not exist, SetProperty adds it to the property vault.
+helpviewer_keywords: ["IWMPropertyVault interface [windows Media Format]","SetProperty method","IWMPropertyVault.SetProperty","IWMPropertyVault::SetProperty","IWMPropertyVaultSetProperty","SetProperty","SetProperty method [windows Media Format]","SetProperty method [windows Media Format]","IWMPropertyVault interface","wmformat.iwmpropertyvault_setproperty","wmsdkidl/IWMPropertyVault::SetProperty"]
 old-location: wmformat\iwmpropertyvault_setproperty.htm
 tech.root: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
 ms.date: 12/05/2018
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
-f1_keywords:
-- wmsdkidl/IWMPropertyVault.SetProperty
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMPropertyVault.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPropertyVault::SetProperty
+ - wmsdkidl/IWMPropertyVault::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMPropertyVault.SetProperty
 ---
 
 # IWMPropertyVault::SetProperty
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetProperty</b> method sets the values for a property. If the property named already exists in the property vault, <b>SetProperty</b> changes its value as specified. If the property named does not exist, <b>SetProperty</b> adds it to the property vault.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszName [in]
 
@@ -90,7 +84,7 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszOriginalWaveFormat</td>
 <td><b>WMT_TYPE_BINARY
                 </b></td>
-<td>When transcoding with smart recompression, set to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)">WAVEFORMATEX</a> structure used in the original encoding.</td>
+<td>When transcoding with smart recompression, set to the <a href="/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)">WAVEFORMATEX</a> structure used in the original encoding.</td>
 </tr>
 <tr>
 <td>g_wszEDL</td>
@@ -102,13 +96,13 @@ The following table lists the property names supported by the <b>IWMPropertyVaul
 <td>g_wszComplexity</td>
 <td><b>WMT_TYPE_WORD
                 </b></td>
-<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecprop">IWMCodecInfo3::GetCodecProp</a>.</td>
+<td>Set to the complexity setting desired. You can find the complexity levels supported by a codec by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecprop">IWMCodecInfo3::GetCodecProp</a>.</td>
 </tr>
 <tr>
 <td>g_wszDecoderComplexityRequested</td>
 <td><b>WMT_TYPE_STRING
                 </b></td>
-<td>Set to the string value of the device conformance template that you would like the stream to be encoded to. For audio there is only one string value, for video, us the two-letter designation before the ampersand. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/device-conformance-template-parameters">Device Conformance Template Parameters</a>.</td>
+<td>Set to the string value of the device conformance template that you would like the stream to be encoded to. For audio there is only one string value, for video, us the two-letter designation before the ampersand. For more information, see <a href="/windows/desktop/wmformat/device-conformance-template-parameters">Device Conformance Template Parameters</a>.</td>
 </tr>
 <tr>
 <td>g_wszPeakValue</td>
@@ -149,27 +143,21 @@ g_wszMixedClassMode
 </table>
  
 
-In addition to the values in the table, the settings for variable bit rate encoding are set using this method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-vbr-streams">Configuring VBR Streams</a>.
-
+In addition to the values in the table, the settings for variable bit rate encoding are set using this method. For more information, see <a href="/windows/desktop/wmformat/configuring-vbr-streams">Configuring VBR Streams</a>.
 
 ### -param pType [in]
 
-Pointer to a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
-
+Pointer to a member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 ### -param pValue [in]
 
 Pointer to a data buffer containing the value of the property. This value can be one of several types. The type of data that the buffer contains on output is specified by the value of <i>pType</i>.
 
-
 ### -param dwSize [in]
 
 <b>DWORD</b> containing the size, in bytes, of the data at <i>pValue</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -224,14 +212,8 @@ The method cannot allocate memory for a new value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Properties set on stream configuration objects using this method are persisted in the profile to which the stream configuration is added. However, files created using that profile do not contain these properties in the header information.
 
@@ -239,16 +221,6 @@ Properties set on stream configuration objects using this method are persisted i
 
 You can remove a property using <b>SetProperty</b> by passing either <b>NULL</b> as <i>pValue</i> or 0 as <i>dwSize</i>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>

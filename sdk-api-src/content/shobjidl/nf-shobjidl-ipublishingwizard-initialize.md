@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IPublishingWizard.Initialize
 title: IPublishingWizard::Initialize (shobjidl.h)
 description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
+helpviewer_keywords: ["AddNetPlace","IPublishingWizard interface [Windows Shell]","Initialize method","IPublishingWizard.Initialize","IPublishingWizard::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IPublishingWizard interface","InternetPhotoPrinting","SHPWHF_ANYLOCATION","SHPWHF_NOFILESELECTOR","SHPWHF_NONETPLACECREATE","SHPWHF_NORECOMPRESS","SHPWHF_USEMRU","SHPWHF_VALIDATEVIAWEBFOLDERS","_shell_IPublishingWizard_Initialize","shell.IPublishingWizard_Initialize","shobjidl/IPublishingWizard::Initialize"]
 old-location: shell\IPublishingWizard_Initialize.htm
 tech.root: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
 ms.date: 12/05/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
-f1_keywords:
-- shobjidl/IPublishingWizard.Initialize
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Netplwiz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netplwiz.dll
-api_name:
-- IPublishingWizard.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublishingWizard::Initialize
+ - shobjidl/IPublishingWizard::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netplwiz.dll
+api_name:
+ - IPublishingWizard.Initialize
 ---
 
 # IPublishingWizard::Initialize
@@ -48,23 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes the <a href="https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.
+Initializes the <a href="/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object with the files to transfer, the settings to use, and the type of wizard to create.
 			
             
 <div class="alert"><b>Note</b>  Windows Vista no longer supports the Online Print Wizard. However, this method can still be used to generate the Add Network Place Wizard.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pdo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the files or folder to be transferred, if <i>pszServiceProvider</i> is <code>InternetPhotoPrinting</code>. If <i>pszServiceProvider</i> is <code>AddNetPlace</code>, this parameter is <b>NULL</b>.
-
+A pointer to an instance of <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> that represents the files or folder to be transferred, if <i>pszServiceProvider</i> is <code>InternetPhotoPrinting</code>. If <i>pszServiceProvider</i> is <code>AddNetPlace</code>, this parameter is <b>NULL</b>.
 
 ### -param dwOptions [in]
 
@@ -108,7 +105,6 @@ Not supported.
 
 For use with the Add Network Place Wizard. In Windows XP, if this flag is set and an attempt to open the network location using WebDAV fails, the Add Network Place Wizard attempts to create a web folder for the location, using support for WEC. In Windows Vista and Windows Server 2003, this flag has no effect and network locations without support for WebDAV may not be opened as web folders.
 
-
 ### -param pszServiceScope [in]
 
 Type: <b>LPCWSTR</b>
@@ -128,10 +124,7 @@ Initialize the Add Network Place Wizard.
 
 Initialize the Online Print Wizard. Not supported in Windows Vista.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -169,18 +162,12 @@ The <i>pszServiceProvider</i> parameter is not one of the supported values or th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>IPublishingWizard::Initialize</b>, implemented by a <a href="/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object, is called to initialize the wizard object.
 
-
-<b>IPublishingWizard::Initialize</b>, implemented by a <a href="https://docs.microsoft.com/windows/desktop/shell/scriptable-shell-objects-roadmap">Publishing Wizard</a> object, is called to initialize the wizard object.
-
-The following sample does not work on Windows Vista because the Online Print Wizard cannot be instantiated through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> in Windows Vista.
+The following sample does not work on Windows Vista because the Online Print Wizard cannot be instantiated through <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> in Windows Vista.
 
 				
 
@@ -194,7 +181,4 @@ hr = pPublish->Initialize(pDataObject,  // A data object that represents files o
 ```
 
 
-<b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic for information on how to display the wizard.
-
-
-
+<b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic for information on how to display the wizard.

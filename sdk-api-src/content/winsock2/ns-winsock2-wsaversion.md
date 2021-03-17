@@ -2,15 +2,12 @@
 UID: NS:winsock2._WSAVersion
 title: WSAVERSION (winsock2.h)
 description: The WSAVERSION structure provides version comparison in Windows Sockets.
+helpviewer_keywords: ["*LPWSAVERSION","*PWSAVERSION","LPWSAVERSION","LPWSAVERSION structure pointer [Winsock]","PWSAVERSION","PWSAVERSION structure pointer [Winsock]","WSAVERSION","WSAVERSION structure [Winsock]","_win32_wsaversion_2","winsock.wsaversion_2","winsock2/LPWSAVERSION","winsock2/PWSAVERSION","winsock2/WSAVERSION"]
 old-location: winsock\wsaversion_2.htm
 tech.root: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAVERSION, *PWSAVERSION, LPWSAVERSION, LPWSAVERSION structure pointer [Winsock], PWSAVERSION, PWSAVERSION structure pointer [Winsock], WSAVERSION, WSAVERSION structure [Winsock], _win32_wsaversion_2, winsock.wsaversion_2, winsock2/LPWSAVERSION, winsock2/PWSAVERSION, winsock2/WSAVERSION'
-f1_keywords:
-- winsock2/WSAVERSION
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSAVERSION
 targetos: Windows
 req.typenames: WSAVERSION, *PWSAVERSION, *LPWSAVERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSAVersion
+ - winsock2/_WSAVersion
+ - PWSAVERSION
+ - winsock2/PWSAVERSION
+ - WSAVERSION
+ - winsock2/WSAVERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSAVERSION
 ---
 
 # WSAVERSION structure
@@ -48,34 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAVERSION</b> structure provides version comparison in Windows Sockets.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 Version of Windows Sockets.
 
-
 ### -field ecHow
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a> enumeration, used in the comparison.
-
+<a href="/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a> enumeration, used in the comparison.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/ne-winsock2-wsaecomparator">WSAECOMPARATOR</a>

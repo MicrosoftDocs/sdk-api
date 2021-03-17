@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IToc.GetContext
 title: IToc::GetContext (wmcodecdsp.h)
 description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.
+helpviewer_keywords: ["GetContext","GetContext method [Media Foundation]","GetContext method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetContext method","IToc.GetContext","IToc::GetContext","codecapi.itoc_getcontext","mf.itoc_getcontext","wmcodecdsp/IToc::GetContext"]
 old-location: mf\itoc_getcontext.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b4c65f1b-7465-4229-8fac-92d6b1be50da
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Media Foundation], GetContext method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetContext method, IToc.GetContext, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
-f1_keywords:
-- wmcodecdsp/IToc.GetContext
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- IToc.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToc::GetContext
+ - wmcodecdsp/IToc::GetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - IToc.GetContext
 ---
 
 # IToc::GetContext
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setcontext">SetContext</a>.
-
+The <b>GetContext</b> method retrieves a block of bytes that was previously associated with the table of contents by a call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setcontext">SetContext</a>.
 
 ## -parameters
-
-
-
 
 ### -param pdwContextSize [in, out]
 
 If <i>pbtContext</i> is <b>NULL</b>, this is an output parameter that receives the size, in bytes, of the context block. If <i>pbtContext</i> is not <b>NULL</b>, this is an input parameter that specifies the size, in bytes, of the caller-allocated buffer pointed to by <i>pbtContext</i>.
 
-
 ### -param pbtContext [out]
 
-NULL, or a pointer to a caller-allocated buffer that, on successful completion, receives the context block. 
-
+NULL, or a pointer to a caller-allocated buffer that, on successful completion, receives the context block.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,18 +94,7 @@ The method returns this error code if <i>pbtContext</i> is not <b>NULL</b> and t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

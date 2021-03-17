@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponentEx2.GetFailure
 title: IVssComponentEx2::GetFailure (vswriter.h)
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
+helpviewer_keywords: ["GetFailure","GetFailure method","GetFailure method","IVssComponentEx2 interface","IVssComponentEx2 interface","GetFailure method","IVssComponentEx2.GetFailure","IVssComponentEx2::GetFailure","S_OK","VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT","VSS_E_WRITERERROR_NONRETRYABLE","VSS_E_WRITERERROR_OUTOFRESOURCES","VSS_E_WRITERERROR_RETRYABLE","VSS_E_WRITERERROR_TIMEOUT","VSS_E_WRITER_NOT_RESPONDING","VSS_E_WRITER_STATUS_NOT_AVAILABLE","base.ivsscomponentex2_getfailure","vswriter/IVssComponentEx2::GetFailure"]
 old-location: base\ivsscomponentex2_getfailure.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: a5d739d3-9169-4b25-a590-35703e77dacc
 ms.date: 12/05/2018
 ms.keywords: GetFailure, GetFailure method, GetFailure method,IVssComponentEx2 interface, IVssComponentEx2 interface,GetFailure method, IVssComponentEx2.GetFailure, IVssComponentEx2::GetFailure, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, base.ivsscomponentex2_getfailure, vswriter/IVssComponentEx2::GetFailure
-f1_keywords:
-- vswriter/IVssComponentEx2.GetFailure
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- vswriter.h
-api_name:
-- IVssComponentEx2.GetFailure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponentEx2::GetFailure
+ - vswriter/IVssComponentEx2::GetFailure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - vswriter.h
+api_name:
+ - IVssComponentEx2.GetFailure
 ---
 
 # IVssComponentEx2::GetFailure
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 VSS requesters call this method to retrieve component-level errors reported by writers.
-
 
 ## -parameters
 
-
-
-
 ### -param phr [out]
 
-The address of a caller-allocated variable that receives the HRESULT failure code that the writer passed for the <i>hr</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">IVssComponentEx2::SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
+The address of a caller-allocated variable that receives the HRESULT failure code that the writer passed for the <i>hr</i> parameter of the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">IVssComponentEx2::SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
 
 The following are the supported values.
 
@@ -131,7 +128,7 @@ The writer failed due to an error that would likely not occur if the entire back
 <td width="60%">
 The writer operation failed because of an error that might recur if another shadow copy is created. For 
         more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -156,27 +153,20 @@ The writer status is not available for one or more writers. A writer may have re
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phrApplication [out]
 
-The address of a caller-allocated variable that receives the return code that the writer passed for the <i>hrApplication</i> parameter of  the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
-
+The address of a caller-allocated variable that receives the return code that the writer passed for the <i>hrApplication</i> parameter of  the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param pbstrApplicationMessage [out]
 
-The address of a caller-allocated variable that receives the application failure message that the writer passed for the <i>wszApplicationMessage</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
-
+The address of a caller-allocated variable that receives the application failure message that the writer passed for the <i>wszApplicationMessage</i> parameter of the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex2-setfailure">SetFailure</a> method. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param pdwReserved [out]
 
 The address of a caller-allocated DWORD variable. This parameter is reserved for future use, but it is required and cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -195,7 +185,7 @@ The following are the valid return codes for this method.
 <td width="60%">
 Successfully returned the status of the specified writer. Note that the value of the 
         <i>phrFailureWriter</i> parameter must be checked to verify that the writer was successful. 
-        The writer failure codes can be among those listed in VsWriter.h and in <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-errors-and-vetoes">Writer Errors and Vetoes</a>.
+        The writer failure codes can be among those listed in VsWriter.h and in <a href="/windows/desktop/VSS/writer-errors-and-vetoes">Writer Errors and Vetoes</a>.
 
 </td>
 </tr>
@@ -237,28 +227,12 @@ The backup components object is not initialized, this method has been called dur
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the caller has finished accessing the status information returned by this method, it should call 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the  <i>pbstrApplicationMessage</i> parameter.
-
-
-
+    <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory held by the  <i>pbstrApplicationMessage</i> parameter.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>

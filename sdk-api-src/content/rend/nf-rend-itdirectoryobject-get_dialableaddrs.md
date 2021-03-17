@@ -2,15 +2,12 @@
 UID: NF:rend.ITDirectoryObject.get_DialableAddrs
 title: ITDirectoryObject::get_DialableAddrs (rend.h)
 description: The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_DialableAddrs method","ITDirectoryObject.get_DialableAddrs","ITDirectoryObject::get_DialableAddrs","_tapi3_itdirectoryobject_get_dialableaddrs","get_DialableAddrs","get_DialableAddrs method [TAPI 2.2]","get_DialableAddrs method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_DialableAddrs","tapi3.itdirectoryobject_get_dialableaddrs"]
 old-location: tapi3\itdirectoryobject_get_dialableaddrs.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b72e9c49-4d5a-432a-b21b-ec444912ea61
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs
-f1_keywords:
-- rend/ITDirectoryObject.get_DialableAddrs
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectoryObject.get_DialableAddrs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectoryObject::get_DialableAddrs
+ - rend/ITDirectoryObject::get_DialableAddrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectoryObject.get_DialableAddrs
 ---
 
 # ITDirectoryObject::get_DialableAddrs
@@ -48,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>get_DialableAddrs</b> method gets all dialable addresses of a given type from the directory. This method performs the same function as 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-enumeratedialableaddrs">EnumerateDialableAddrs</a> but is used by scripting languages such as Visual Basic.
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-enumeratedialableaddrs">EnumerateDialableAddrs</a> but is used by scripting languages such as Visual Basic.
 
 ## -parameters
-
-
-
 
 ### -param dwAddressType [in]
 
 Indicator of address type.
 
-
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of <b>BSTR</b> strings, each containing a dialable address.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of <b>BSTR</b> strings, each containing a dialable address.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,33 +111,17 @@ Method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITDirectoryObject::get_DialableAddrs</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITDirectoryObject::get_DialableAddrs</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>

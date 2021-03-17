@@ -2,15 +2,12 @@
 UID: NF:dciman.DCIDestroy
 title: DCIDestroy function (dciman.h)
 description: Destroys a primary surface on the display device.
+helpviewer_keywords: ["DCIDestroy","DCIDestroy function [Windows API]","_dciman_dcidestroy","dciman/DCIDestroy","winprog._dciman_dcidestroy","winui._dciman_dcidestroy"]
 old-location: winprog\_dciman_dcidestroy.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcidestroy.htm
 ms.date: 12/05/2018
 ms.keywords: DCIDestroy, DCIDestroy function [Windows API], _dciman_dcidestroy, dciman/DCIDestroy, winprog._dciman_dcidestroy, winui._dciman_dcidestroy
-f1_keywords:
-- dciman/DCIDestroy
-dev_langs:
-- c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dciman32.lib
 req.dll: Dciman32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dciman32.dll
-api_name:
-- DCIDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DCIDestroy
+ - dciman/DCIDestroy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dciman32.dll
+api_name:
+ - DCIDestroy
 ---
 
 # DCIDestroy function
@@ -48,40 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
 Destroys a primary surface on the display device.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pdci [in]
 
 A pointer to a <b>DCISURFACEINFO</b> structure.
- 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
- 
-
- 
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

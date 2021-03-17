@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLabeledBy
 title: IUIAutomationElement::get_CurrentLabeledBy (uiautomationclient.h)
 description: Retrieves the element that contains the text label for this element.
+helpviewer_keywords: ["CurrentLabeledBy property [Windows Accessibility]","CurrentLabeledBy property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentLabeledBy property","IUIAutomationElement.CurrentLabeledBy","IUIAutomationElement.get_CurrentLabeledBy","IUIAutomationElement::CurrentLabeledBy","IUIAutomationElement::get_CurrentLabeledBy","get_CurrentLabeledBy","uiauto.uiauto_IUIAutomationElement_CurrentLabeledBy","uiauto_IUIAutomationElement_CurrentLabeledBy","uiautomationclient/IUIAutomationElement::CurrentLabeledBy","uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy","winauto.uiauto_IUIAutomationElement_CurrentLabeledBy"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLabeledBy.htm
 tech.root: WinAuto
 ms.assetid: e461cc68-5a67-424b-9fc6-0768b9e13346
 ms.date: 12/05/2018
 ms.keywords: CurrentLabeledBy property [Windows Accessibility], CurrentLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLabeledBy property, IUIAutomationElement.CurrentLabeledBy, IUIAutomationElement.get_CurrentLabeledBy, IUIAutomationElement::CurrentLabeledBy, IUIAutomationElement::get_CurrentLabeledBy, get_CurrentLabeledBy, uiauto.uiauto_IUIAutomationElement_CurrentLabeledBy, uiauto_IUIAutomationElement_CurrentLabeledBy, uiautomationclient/IUIAutomationElement::CurrentLabeledBy, uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy, winauto.uiauto_IUIAutomationElement_CurrentLabeledBy
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CurrentLabeledBy
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CurrentLabeledBy
-- IUIAutomationElement.get_CurrentLabeledBy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CurrentLabeledBy
+ - uiautomationclient/IUIAutomationElement::get_CurrentLabeledBy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CurrentLabeledBy
+ - IUIAutomationElement.get_CurrentLabeledBy
 ---
 
 # IUIAutomationElement::get_CurrentLabeledBy
@@ -49,45 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the element that contains the text label for this element.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property could be used to retrieve, for example, the static text label for a combo box.
 
 This property maps to the Accessible Rich Internet Applications (ARIA) <b>labeledby</b> property.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlabeledby">CachedLabeledBy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlabeledby">CachedLabeledBy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

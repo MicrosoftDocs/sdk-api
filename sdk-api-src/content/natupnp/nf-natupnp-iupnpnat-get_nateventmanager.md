@@ -2,15 +2,12 @@
 UID: NF:natupnp.IUPnPNAT.get_NATEventManager
 title: IUPnPNAT::get_NATEventManager (natupnp.h)
 description: The get_NATEventManager method retrieves an INATEventManager interface for the NAT used by the local computer.
+helpviewer_keywords: ["IUPnPNAT interface [ICS/ICF]","get_NATEventManager method","IUPnPNAT.get_NATEventManager","IUPnPNAT::get_NATEventManager","_ics_iupnpnat_get_nateventmanager","get_NATEventManager","get_NATEventManager method [ICS/ICF]","get_NATEventManager method [ICS/ICF]","IUPnPNAT interface","ics.iupnpnat_get_nateventmanager","natupnp/IUPnPNAT::get_NATEventManager"]
 old-location: ics\iupnpnat_get_nateventmanager.htm
 tech.root: ics
 ms.assetid: 594fdd40-062e-4f81-af11-4170a5870472
 ms.date: 12/05/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_NATEventManager method, IUPnPNAT.get_NATEventManager, IUPnPNAT::get_NATEventManager, _ics_iupnpnat_get_nateventmanager, get_NATEventManager, get_NATEventManager method [ICS/ICF], get_NATEventManager method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_nateventmanager, natupnp/IUPnPNAT::get_NATEventManager
-f1_keywords:
-- natupnp/IUPnPNAT.get_NATEventManager
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IUPnPNAT.get_NATEventManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPNAT::get_NATEventManager
+ - natupnp/IUPnPNAT::get_NATEventManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IUPnPNAT.get_NATEventManager
 ---
 
 # IUPnPNAT::get_NATEventManager
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_NATEventManager</b> method retrieves an INATEventManager interface for the NAT used by the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param ppNEM [out]
 
 Pointer to an interface pointer that points to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a> interface.
-
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a> interface.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -166,30 +160,19 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-iupnpnat">IUPnPNAT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-iupnpnat">IUPnPNAT</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

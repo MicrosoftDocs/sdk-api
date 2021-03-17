@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDServiceProxy.UnsubscribeToOperation
 title: IWSDServiceProxy::UnsubscribeToOperation (wsdclient.h)
 description: Cancels a subscription to a notification or solicit/response event.
+helpviewer_keywords: ["IWSDServiceProxy interface","UnsubscribeToOperation method","IWSDServiceProxy.UnsubscribeToOperation","IWSDServiceProxy::UnsubscribeToOperation","UnsubscribeToOperation","UnsubscribeToOperation method","UnsubscribeToOperation method","IWSDServiceProxy interface","ncd.iwsdserviceproxy_unsubscribetooperation_method","wsdclient/IWSDServiceProxy::UnsubscribeToOperation"]
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,UnsubscribeToOperation method, IWSDServiceProxy.UnsubscribeToOperation, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation
-f1_keywords:
-- wsdclient/IWSDServiceProxy.UnsubscribeToOperation
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDServiceProxy.UnsubscribeToOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxy::UnsubscribeToOperation
+ - wsdclient/IWSDServiceProxy::UnsubscribeToOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDServiceProxy.UnsubscribeToOperation
 ---
 
 # IWSDServiceProxy::UnsubscribeToOperation
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels a subscription to a notification or solicit/response event.
-
 
 ## -parameters
 
-
-
-
 ### -param pOperation [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation subscribed to. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation subscribed to.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -108,18 +101,7 @@ The proxy is not subscribed to the notification specified by <i>pOperation</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>

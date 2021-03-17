@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.put_Mode
 title: IAMExtTransport::put_Mode (strmif.h)
 description: The put_Mode method sets the transport mode; for example, play, stop, or record.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_Mode method","IAMExtTransport.put_Mode","IAMExtTransport::put_Mode","IAMExtTransportput_Mode","dshow.iamexttransport_put_mode","put_Mode","put_Mode method [DirectShow]","put_Mode method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_Mode"]
 old-location: dshow\iamexttransport_put_mode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cf941c07-6f42-4c63-9bdf-923f7a5b0b02
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_Mode method, IAMExtTransport.put_Mode, IAMExtTransport::put_Mode, IAMExtTransportput_Mode, dshow.iamexttransport_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_Mode
-f1_keywords:
-- strmif/IAMExtTransport.put_Mode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.put_Mode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::put_Mode
+ - strmif/IAMExtTransport::put_Mode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.put_Mode
 ---
 
 # IAMExtTransport::put_Mode
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_Mode</b> method sets the transport mode; for example, play, stop, or record.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Mode [in]
 
@@ -118,7 +112,7 @@ Specifies the transport mode. Use one of the following values.
 </tr>
 <tr>
 <td>ED_MODE_SHUTTLE</td>
-<td>Shuttle (high-speed movement with visible picture). Use with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_rate">IAMExtTransport::put_Rate</a> to set the transport speed.</td>
+<td>Shuttle (high-speed movement with visible picture). Use with <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_rate">IAMExtTransport::put_Rate</a> to set the transport speed.</td>
 </tr>
 <tr>
 <td>ED_MODE_EDIT_CUE</td>
@@ -126,19 +120,15 @@ Specifies the transport mode. Use one of the following values.
 </tr>
 <tr>
 <td>ED_MODE_LINK_ON</td>
-<td>Link this method to the graph's <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> methods.</td>
+<td>Link this method to the graph's <a href="/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>, <a href="/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a>, and <a href="/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> methods.</td>
 </tr>
 <tr>
 <td>ED_MODE_LINK_OFF</td>
 <td>Disengage this method from the graph's <b>IMediaControl</b> methods.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an HRESULT. Possible errors include the following.
 
@@ -170,26 +160,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mode">IAMExtTransport::get_Mode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mode">IAMExtTransport::get_Mode</a>

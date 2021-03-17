@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 title: IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete (mbnapi.h)
 description: Notification method indicating that a query for the messages supported on a device service has completed.
+helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnQuerySupportedCommandsComplete method","IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete","IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete","OnQuerySupportedCommandsComplete","OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks]","OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onquerysupportedcommandscomplete","mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete"]
 old-location: mbn\imbndeviceservicesevents_onquerysupportedcommandscomplete.htm
 tech.root: mbn
 ms.assetid: CA304FF5-B630-4CD5-8E23-844499D6A8D1
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQuerySupportedCommandsComplete method, IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete, IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks], OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerysupportedcommandscomplete, mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
-f1_keywords:
-- mbnapi/IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
+ - mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 ---
 
 # IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
@@ -53,35 +55,25 @@ ms.custom: 19H1
 
 Notification method indicating that a query for the messages supported on a device service has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param deviceService [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the query was requested.
-
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the query was requested.
 
 ### -param commandIDList [in]
 
 An array that contains the list of command IDs supported by the device service.  This field is valid only if the status is <b>S_OK</b>.
 
-
 ### -param status [in]
 
 A status code that indicates the outcome of the operation.
-
 
 ### -param requestID [in]
 
 The request ID that was assigned by the Mobile Broadband service to the query operation request.
 
-
 ## -returns
-
-
 
 The method must return the following value.
 
@@ -102,27 +94,11 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The Mobile Broadband service will free the memory for <i>commandIDList</i> after the function call returns. If an application wants to use this data then it should copy the contents in its own memory.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>

@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Count
 title: ICertSrvSetupKeyInformationCollection::get_Count (casetup.h)
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","ICertSrvSetupKeyInformationCollection interface","ICertSrvSetupKeyInformationCollection interface [Security]","Count property","ICertSrvSetupKeyInformationCollection.Count","ICertSrvSetupKeyInformationCollection.get_Count","ICertSrvSetupKeyInformationCollection::Count","ICertSrvSetupKeyInformationCollection::get_Count","casetup/ICertSrvSetupKeyInformationCollection::Count","casetup/ICertSrvSetupKeyInformationCollection::get_Count","get_Count","security.icertsrvsetupkeyinformationcollection_count"]
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Count property, ICertSrvSetupKeyInformationCollection.Count, ICertSrvSetupKeyInformationCollection.get_Count, ICertSrvSetupKeyInformationCollection::Count, ICertSrvSetupKeyInformationCollection::get_Count, casetup/ICertSrvSetupKeyInformationCollection::Count, casetup/ICertSrvSetupKeyInformationCollection::get_Count, get_Count, security.icertsrvsetupkeyinformationcollection_count
-f1_keywords:
-- casetup/ICertSrvSetupKeyInformationCollection.Count
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetupKeyInformationCollection.Count
-- ICertSrvSetupKeyInformationCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetupKeyInformationCollection::get_Count
+ - casetup/ICertSrvSetupKeyInformationCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetupKeyInformationCollection.Count
+ - ICertSrvSetupKeyInformationCollection.get_Count
 ---
 
 # ICertSrvSetupKeyInformationCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Count</b> property gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects in the collection.
+The <b>Count</b> property gets the number of <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> objects in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>

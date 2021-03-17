@@ -2,15 +2,12 @@
 UID: NF:webservices.WsXmlStringEquals
 title: WsXmlStringEquals function (webservices.h)
 description: Compares two WS_XML_STRING objects for equality. The operation performs an ordinal comparison of the character values contained by the String objects.
+helpviewer_keywords: ["WsXmlStringEquals","WsXmlStringEquals function [Web Services for Windows]","webservices/WsXmlStringEquals","wsw.wsxmlstringequals"]
 old-location: wsw\wsxmlstringequals.htm
 tech.root: wsw
 ms.assetid: 4fcff6d7-b17c-4cd6-9671-1aff7b84fa98
 ms.date: 12/05/2018
 ms.keywords: WsXmlStringEquals, WsXmlStringEquals function [Web Services for Windows], webservices/WsXmlStringEquals, wsw.wsxmlstringequals
-f1_keywords:
-- webservices/WsXmlStringEquals
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsXmlStringEquals
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsXmlStringEquals
+ - webservices/WsXmlStringEquals
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsXmlStringEquals
 ---
 
 # WsXmlStringEquals function
@@ -48,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Compares two <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
+Compares two <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
         of the character values contained by the String objects.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param string1 [in]
 
 A pointer to the first string to compare.
-        
-
 
 ### -param string2 [in]
 
 A pointer to the second string to compare.
-        
-
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -122,16 +110,7 @@ One or more parameters are not correct.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function is typically used to compare localNames and namespaces in XML.  
-
-
-
+This function is typically used to compare localNames and namespaces in XML.

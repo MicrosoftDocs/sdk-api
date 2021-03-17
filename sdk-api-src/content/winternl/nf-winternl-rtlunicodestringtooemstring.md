@@ -2,15 +2,12 @@
 UID: NF:winternl.RtlUnicodeStringToOemString
 title: RtlUnicodeStringToOemString function (winternl.h)
 description: Converts the specified Unicode source string into an OEM string. The translation is done with respect to the OEM code page (OCP).
+helpviewer_keywords: ["FALSE","RtlUnicodeStringToOemString","RtlUnicodeStringToOemString function [Windows API]","TRUE","winprog.rtlunicodestringtooemstring","winternl/RtlUnicodeStringToOemString","winui.rtlunicodestringtooemstring"]
 old-location: winprog\rtlunicodestringtooemstring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtooemstring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToOemString, RtlUnicodeStringToOemString function [Windows API], TRUE, winprog.rtlunicodestringtooemstring, winternl/RtlUnicodeStringToOemString, winui.rtlunicodestringtooemstring
-f1_keywords:
-- winternl/RtlUnicodeStringToOemString
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlUnicodeStringToOemString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlUnicodeStringToOemString
+ - winternl/RtlUnicodeStringToOemString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlUnicodeStringToOemString
 ---
 
 # RtlUnicodeStringToOemString function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the specified Unicode source string into an OEM string. The translation is done with respect to the OEM code page (OCP).
-
-
 
 ## -parameters
 
-
-
-
 ### -param DestinationString [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
-
+A pointer to an <a href="/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure that is contains the OEM equivalent to the Unicode source string. The <b>MaximumLength</b> field is set if <i>AllocateDestinationString</i> is <b>TRUE</b>.
 
 ### -param SourceString [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that is to be
+A pointer to an <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that is to be
         converted to OEM.
-
 
 ### -param AllocateDestinationString [in]
 
@@ -78,7 +72,7 @@ Controls allocation of the buffer space for the destination
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeoemstring">RtlFreeOemString</a>.
 
 
 
@@ -86,10 +80,7 @@ Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, t
 
 Buffer space is not allocated for <i>DestinationString</i>.
 
-
 ## -returns
-
-
 
 The various NTSTATUS values are defined in NTSTATUS.H, which is distributed with the Windows DDK.
 
@@ -110,17 +101,7 @@ The Unicode string was converted to OEM. Otherwise, no storage was allocated, an
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This routine allocates a buffer for the <i>DestinationString</i> only.
-			
-
-
-

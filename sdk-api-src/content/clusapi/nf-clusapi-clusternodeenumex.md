@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterNodeEnumEx
 title: ClusterNodeEnumEx function (clusapi.h)
 description: Retrieves the specified cluster node from a CLUSTER_ENUM_ITEM enumeration.
+helpviewer_keywords: ["ClusterNodeEnumEx","ClusterNodeEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_ENUM_EX","PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster]","clusapi/ClusterNodeEnumEx","clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX","mscs.clusternodeenumex"]
 old-location: mscs\clusternodeenumex.htm
 tech.root: MsCS
 ms.assetid: 1F3DFD5C-978B-4943-B4D8-81A7F9D7A3AF
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeEnumEx, ClusterNodeEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX, mscs.clusternodeenumex
-f1_keywords:
-- clusapi/ClusterNodeEnumEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterNodeEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterNodeEnumEx
+ - clusapi/ClusterNodeEnumEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterNodeEnumEx
 ---
 
 # ClusterNodeEnumEx function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the specified cluster node from a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration.
-
+Retrieves the specified cluster node from a <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration.
 
 ## -parameters
 
-
-
-
 ### -param hNodeEnum [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
-
+A handle to the <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
 
 ### -param dwIndex [in]
 
-The index that identifies the next object to enumerate. This parameter should be zero for the first call to the  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>  function and then be incremented for subsequent calls.
-
+The index that identifies the next object to enumerate. This parameter should be zero for the first call to the  <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>  function and then be incremented for subsequent calls.
 
 ### -param pItem [in, out]
 
 A pointer that receives the returned cluster node.
-
 
 ### -param cbItem [in, out]
 
@@ -78,10 +72,7 @@ On input, the size of the  <i>pItem</i>    parameter.
 
 On output, either the required size in bytes of the buffer if the buffer is too small, or the number of bytes written into the buffer.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -122,22 +113,11 @@ The buffer was filled successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IRawElementProviderFragment.get_BoundingRectangle
 title: IRawElementProviderFragment::get_BoundingRectangle (uiautomationcore.h)
 description: Specifies the bounding rectangle of this element.
+helpviewer_keywords: ["BoundingRectangle property [Windows Accessibility]","BoundingRectangle property [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","BoundingRectangle property","IRawElementProviderFragment.BoundingRectangle","IRawElementProviderFragment.get_BoundingRectangle","IRawElementProviderFragment::BoundingRectangle","IRawElementProviderFragment::get_BoundingRectangle","get_BoundingRectangle","uiauto.uiauto_IRawElementProviderFragment_BoundingRectangle","uiauto_IRawElementProviderFragment_BoundingRectangle","uiautomationcore/IRawElementProviderFragment::BoundingRectangle","uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle","winauto.uiauto_IRawElementProviderFragment_BoundingRectangle"]
 old-location: winauto\uiauto_IRawElementProviderFragment_BoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: 443df4af-06cd-4866-bdeb-b1770ccb9060
 ms.date: 12/05/2018
 ms.keywords: BoundingRectangle property [Windows Accessibility], BoundingRectangle property [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],BoundingRectangle property, IRawElementProviderFragment.BoundingRectangle, IRawElementProviderFragment.get_BoundingRectangle, IRawElementProviderFragment::BoundingRectangle, IRawElementProviderFragment::get_BoundingRectangle, get_BoundingRectangle, uiauto.uiauto_IRawElementProviderFragment_BoundingRectangle, uiauto_IRawElementProviderFragment_BoundingRectangle, uiautomationcore/IRawElementProviderFragment::BoundingRectangle, uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle, winauto.uiauto_IRawElementProviderFragment_BoundingRectangle
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragment.BoundingRectangle
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderFragment.BoundingRectangle
-- IRawElementProviderFragment.get_BoundingRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragment::get_BoundingRectangle
+ - uiautomationcore/IRawElementProviderFragment::get_BoundingRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderFragment.BoundingRectangle
+ - IRawElementProviderFragment.get_BoundingRectangle
 ---
 
 # IRawElementProviderFragment::get_BoundingRectangle
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the bounding rectangle of this element.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The bounding rectangle is defined by the location of the top left corner on the screen, and the dimensions.
 
@@ -91,17 +88,6 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRet
 }             
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>

@@ -2,15 +2,12 @@
 UID: NF:winddi.EngUnlockDirectDrawSurface
 title: EngUnlockDirectDrawSurface function (winddi.h)
 description: The EngUnlockDirectDrawSurface function releases the lock on the specified surface.
+helpviewer_keywords: ["EngUnlockDirectDrawSurface","EngUnlockDirectDrawSurface function [Display Devices]","display.engunlockdirectdrawsurface","gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml","winddi/EngUnlockDirectDrawSurface"]
 old-location: display\engunlockdirectdrawsurface.htm
 tech.root: display
 ms.assetid: 61d1ff1a-d5e3-4542-953c-8b1771622a63
 ms.date: 12/05/2018
 ms.keywords: EngUnlockDirectDrawSurface, EngUnlockDirectDrawSurface function [Display Devices], display.engunlockdirectdrawsurface, gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml, winddi/EngUnlockDirectDrawSurface
-f1_keywords:
-- winddi/EngUnlockDirectDrawSurface
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngUnlockDirectDrawSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngUnlockDirectDrawSurface
+ - winddi/EngUnlockDirectDrawSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngUnlockDirectDrawSurface
 ---
 
 # EngUnlockDirectDrawSurface function
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngUnlockDirectDrawSurface</b> function releases the lock on the specified surface.
-
 
 ## -parameters
 
-
-
-
 ### -param pSurface [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
-
+Pointer to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface to be unlocked.
 
 ## -returns
 
-
-
 <b>EngUnlockDirectDrawSurface</b> returns <b>TRUE</b> when it successfully unlocks the specified surface. Otherwise, it returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
-The surface must previously have been locked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>.
-
-
-
+The surface must previously have been locked by <a href="/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-englockdirectdrawsurface">EngLockDirectDrawSurface</a>

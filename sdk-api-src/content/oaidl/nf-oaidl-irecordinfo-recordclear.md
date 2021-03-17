@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.RecordClear
 title: IRecordInfo::RecordClear (oaidl.h)
 description: Releases object references and other values of a record without deallocating the record.
+helpviewer_keywords: ["IRecordInfo interface [Automation]","RecordClear method","IRecordInfo.RecordClear","IRecordInfo::RecordClear","RecordClear","RecordClear method [Automation]","RecordClear method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_RecordClear","automat.irecordinfo_recordclear","oaidl/IRecordInfo::RecordClear"]
 old-location: automat\irecordinfo_recordclear.htm
 tech.root: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],RecordClear method, IRecordInfo.RecordClear, IRecordInfo::RecordClear, RecordClear, RecordClear method [Automation], RecordClear method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
-f1_keywords:
-- oaidl/IRecordInfo.RecordClear
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.RecordClear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::RecordClear
+ - oaidl/IRecordInfo::RecordClear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.RecordClear
 ---
 
 # IRecordInfo::RecordClear
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases object references and other values of a record without deallocating the record.
 
-
 ## -parameters
-
-
-
 
 ### -param pvExisting [in]
 
 The record to be cleared.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,27 +92,11 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>RecordClear</b> releases memory blocks held by VT_PTR or VT_SAFEARRAY instance fields. The caller needs to free the instance fields memory, <b>RecordClear</b> will do nothing if there are no resources held. 
-
-
-
+<b>RecordClear</b> releases memory blocks held by VT_PTR or VT_SAFEARRAY instance fields. The caller needs to free the instance fields memory, <b>RecordClear</b> will do nothing if there are no resources held.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMappingCollection.get__NewEnum
 title: IStaticPortMappingCollection::get__NewEnum (natupnp.h)
 description: The get__NewEnum method retrieves an enumerator for the static port mappings collection.
+helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","get__NewEnum method","IStaticPortMappingCollection.get__NewEnum","IStaticPortMappingCollection::get__NewEnum","_ics_istaticportmappingcollection_get__newenum","get__NewEnum","get__NewEnum method [ICS/ICF]","get__NewEnum method [ICS/ICF]","IStaticPortMappingCollection interface","ics.istaticportmappingcollection_get__newenum","natupnp/IStaticPortMappingCollection::get__NewEnum"]
 old-location: ics\istaticportmappingcollection_get__newenum.htm
 tech.root: ics
 ms.assetid: d1a2fa98-d1f2-404c-84fb-b3dccc60031f
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get__NewEnum method, IStaticPortMappingCollection.get__NewEnum, IStaticPortMappingCollection::get__NewEnum, _ics_istaticportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get__newenum, natupnp/IStaticPortMappingCollection::get__NewEnum
-f1_keywords:
-- natupnp/IStaticPortMappingCollection.get__NewEnum
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMappingCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMappingCollection::get__NewEnum
+ - natupnp/IStaticPortMappingCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMappingCollection.get__NewEnum
 ---
 
 # IStaticPortMappingCollection::get__NewEnum
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get__NewEnum</b> method retrieves an enumerator for the static port mappings collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
-
+Pointer to an interface pointer that receives a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -165,26 +159,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.SetReadStreamSamples
 title: IWMSyncReader::SetReadStreamSamples (wmsdkidl.h)
 description: The SetReadStreamSamples method specifies whether samples from a stream will be delivered compressed or uncompressed.
+helpviewer_keywords: ["IWMSyncReader interface [windows Media Format]","SetReadStreamSamples method","IWMSyncReader.SetReadStreamSamples","IWMSyncReader::SetReadStreamSamples","IWMSyncReaderSetReadStreamSamples","SetReadStreamSamples","SetReadStreamSamples method [windows Media Format]","SetReadStreamSamples method [windows Media Format]","IWMSyncReader interface","wmformat.iwmsyncreader_setreadstreamsamples","wmsdkidl/IWMSyncReader::SetReadStreamSamples"]
 old-location: wmformat\iwmsyncreader_setreadstreamsamples.htm
 tech.root: wmformat
 ms.assetid: cf998ecc-e80e-4eb3-9cba-61bd0b665d51
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples method, IWMSyncReader.SetReadStreamSamples, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
-f1_keywords:
-- wmsdkidl/IWMSyncReader.SetReadStreamSamples
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.SetReadStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::SetReadStreamSamples
+ - wmsdkidl/IWMSyncReader::SetReadStreamSamples
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.SetReadStreamSamples
 ---
 
 # IWMSyncReader::SetReadStreamSamples
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetReadStreamSamples</b> method specifies whether samples from a stream will be delivered compressed or uncompressed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param fCompressed [in]
 
 Boolean value that is True if samples will be compressed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,31 +119,15 @@ The stream is protected and not configured to deliver compressed samples.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You can call <b>SetReadStreamSamples</b> at any time after a file has been loaded into the synchronous reader. You can continue making calls as needed during playback.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples">IWMSyncReader::GetReadStreamSamples</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getreadstreamsamples">IWMSyncReader::GetReadStreamSamples</a>

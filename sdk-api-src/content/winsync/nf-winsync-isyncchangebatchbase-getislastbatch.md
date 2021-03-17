@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchBase.GetIsLastBatch
 title: ISyncChangeBatchBase::GetIsLastBatch (winsync.h)
 description: Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
+helpviewer_keywords: ["GetIsLastBatch","GetIsLastBatch method [Windows Sync]","GetIsLastBatch method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","GetIsLastBatch method","ISyncChangeBatchBase.GetIsLastBatch","ISyncChangeBatchBase::GetIsLastBatch","winsync.isyncchangebatchbase_getislastbatch","winsync/ISyncChangeBatchBase::GetIsLastBatch"]
 old-location: winsync\isyncchangebatchbase_getislastbatch.htm
 tech.root: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
 ms.date: 12/05/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
-f1_keywords:
-- winsync/ISyncChangeBatchBase.GetIsLastBatch
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.GetIsLastBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::GetIsLastBatch
+ - winsync/ISyncChangeBatchBase::GetIsLastBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.GetIsLastBatch
 ---
 
 # ISyncChangeBatchBase::GetIsLastBatch
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
 
-
 ## -parameters
-
-
-
 
 ### -param pfLastBatch [out]
 
 Returns a flag that indicates whether this batch is the last batch.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -98,27 +92,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When returning a change batch in response to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">SetLastBatch</a> if the change batch is the last batch of changes. 
-
-
-
+When returning a change batch in response to the <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">SetLastBatch</a> if the change batch is the last batch of changes.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerReadSettingAttributes
 title: PowerReadSettingAttributes function (powrprof.h)
 description: Returns the current attribute of the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadSettingAttributes","PowerReadSettingAttributes function","base.powerreadsettingattributes","powrprof/PowerReadSettingAttributes"]
 old-location: base\powerreadsettingattributes.htm
-tech.root: power
+tech.root: base
 ms.assetid: 9f430da2-7c8d-43e2-ab8a-d9af1bb7538f
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadSettingAttributes, PowerReadSettingAttributes function, base.powerreadsettingattributes, powrprof/PowerReadSettingAttributes
-f1_keywords:
-- powrprof/PowerReadSettingAttributes
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadSettingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadSettingAttributes
+ - powrprof/PowerReadSettingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadSettingAttributes
 ---
 
 # PowerReadSettingAttributes function
 
 
 ## -description
-
 
 Returns the current attribute of the specified power setting. If the 
     <i>SubGroupGuid</i> parameter is <b>NULL</b> then the attribute for 
@@ -57,11 +58,7 @@ Returns the current attribute of the specified power setting. If the
     parameters are valid then the return value is the combination (bitwise OR) of the attributes of the subgroup and 
     the power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param SubGroupGuid [in]
 
@@ -167,17 +164,12 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in]
 
 The identifier of the power setting that is being used.
 
-
 ## -returns
-
-
 
 Returns the current power setting attributes of the specified power setting. The attribute is a combination 
      of the attributes of the power setting and the attributes of its subgroup.
@@ -200,18 +192,7 @@ Hide this power setting.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPProperty.get_Name
 title: IOCSPProperty::get_Name (certadm.h)
 description: Gets the identifier part of the name-value pair represented by an OCSPProperty object.
+helpviewer_keywords: ["IOCSPProperty interface [Security]","Name property","IOCSPProperty.Name","IOCSPProperty.get_Name","IOCSPProperty::Name","IOCSPProperty::get_Name","Name property [Security]","Name property [Security]","IOCSPProperty interface","certadm/IOCSPProperty::Name","certadm/IOCSPProperty::get_Name","get_Name","security.iocspproperty_name_method"]
 old-location: security\iocspproperty_name_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty interface [Security],Name property, IOCSPProperty.Name, IOCSPProperty.get_Name, IOCSPProperty::Name, IOCSPProperty::get_Name, Name property [Security], Name property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Name, certadm/IOCSPProperty::get_Name, get_Name, security.iocspproperty_name_method
-f1_keywords:
-- certadm/IOCSPProperty.Name
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPProperty.Name
-- IOCSPProperty.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPProperty::get_Name
+ - certadm/IOCSPProperty::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPProperty.Name
+ - IOCSPProperty.get_Name
 ---
 
 # IOCSPProperty::get_Name
@@ -49,31 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property gets the identifier part of the name-value pair represented by an <b>OCSPProperty</b> object.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-For possible values of <i>pVal</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspadmin-get_ocspserviceproperties">OCSPServiceProperties</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerproperties">ProviderProperties</a>.
-
-
-
+For possible values of <i>pVal</i>, see <a href="/windows/desktop/api/certadm/nf-certadm-iocspadmin-get_ocspserviceproperties">OCSPServiceProperties</a> or <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerproperties">ProviderProperties</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>

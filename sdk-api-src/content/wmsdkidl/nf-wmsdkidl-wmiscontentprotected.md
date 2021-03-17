@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMIsContentProtected
 title: WMIsContentProtected function (wmsdkidl.h)
 description: The WMIsContentProtected function checks a file for DRM-protected content. This function is a shortcut so that your application can quickly identify protected files.
+helpviewer_keywords: ["WMIsContentProtected","WMIsContentProtected function [windows Media Format]","wmformat.wmiscontentprotected","wmsdkidl/WMIsContentProtected"]
 old-location: wmformat\wmiscontentprotected.htm
 tech.root: wmformat
 ms.assetid: a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674
 ms.date: 12/05/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
-f1_keywords:
-- wmsdkidl/WMIsContentProtected
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMIsContentProtected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMIsContentProtected
+ - wmsdkidl/WMIsContentProtected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMIsContentProtected
 ---
 
 # WMIsContentProtected function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMIsContentProtected</b> function checks a file for DRM-protected content. This function is a shortcut so that your application can quickly identify protected files.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFileName [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the name of the file to check for DRM-protected content.
 
-
 ### -param pfIsProtected [out]
 
 Pointer to a Boolean value that is set to True on function return if the file contains DRM-protected content.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,18 +105,7 @@ The content is unprotected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

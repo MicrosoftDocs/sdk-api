@@ -2,15 +2,12 @@
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Next
 title: IEnumSyncProviderConfigUIInfos::Next (syncregistration.h)
 description: Returns the next ISyncProviderConfigUIInfo object.
+helpviewer_keywords: ["IEnumSyncProviderConfigUIInfos interface [Windows Sync]","Next method","IEnumSyncProviderConfigUIInfos.Next","IEnumSyncProviderConfigUIInfos::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSyncProviderConfigUIInfos interface","syncregistration/IEnumSyncProviderConfigUIInfos::Next","winsync.ienumsyncproviderconfiguiinfos_next"]
 old-location: winsync\ienumsyncproviderconfiguiinfos_next.htm
 tech.root: winsync
 ms.assetid: 46564ed2-233d-409c-a996-dd3d9cfde907
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Next method, IEnumSyncProviderConfigUIInfos.Next, IEnumSyncProviderConfigUIInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Next, winsync.ienumsyncproviderconfiguiinfos_next
-f1_keywords:
-- syncregistration/IEnumSyncProviderConfigUIInfos.Next
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderConfigUIInfos.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderConfigUIInfos::Next
+ - syncregistration/IEnumSyncProviderConfigUIInfos::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderConfigUIInfos.Next
 ---
 
 # IEnumSyncProviderConfigUIInfos::Next
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the next <b>ISyncProviderConfigUIInfo</b> object.
 
-
 ## -parameters
-
-
-
 
 ### -param cFactories [in]
 
 The number of <b>ISyncProviderConfigUIInfo</b> objects to retrieve in the range of zero to 1.
 
-
 ### -param ppSyncProviderConfigUIInfo [out]
 
 Returns the next <i>pcFetched</i><b>ISyncProviderConfigUIInfo</b> objects.
-
 
 ### -param pcFetched [out]
 
 Returns the number of <b>ISyncProviderConfigUIInfo</b> objects that are retrieved.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -128,27 +120,11 @@ There was not enough memory available to return the next  <b>ISyncProviderConfig
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will attempt to return the number of items specified by the <i>cFactories</i> parameter.  If the specified number of items is not available, <b>S_FALSE</b> will be returned, and <i>pcFetched</i> will contain the number of items that were able to be retrieved.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>

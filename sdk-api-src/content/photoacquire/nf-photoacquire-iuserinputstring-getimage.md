@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IUserInputString.GetImage
 title: IUserInputString::GetImage (photoacquire.h)
 description: The GetImage method retrieves the default image used to initialize an edit control.
+helpviewer_keywords: ["GetImage","GetImage method [Picture Acquisition]","GetImage method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetImage method","IUserInputString.GetImage","IUserInputString::GetImage","IUserInputStringGetImage","photoacquire/IUserInputString::GetImage","picacq.iuserinputstring_getimage"]
 old-location: picacq\iuserinputstring_getimage.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: a626c53d-b9dd-483b-924d-6f5d2d1c2663
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Picture Acquisition], GetImage method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetImage method, IUserInputString.GetImage, IUserInputString::GetImage, IUserInputStringGetImage, photoacquire/IUserInputString::GetImage, picacq.iuserinputstring_getimage
-f1_keywords:
-- photoacquire/IUserInputString.GetImage
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetImage
+ - photoacquire/IUserInputString::GetImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetImage
 ---
 
 # IUserInputString::GetImage
@@ -49,38 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetImage</code> method retrieves the default image used to initialize an edit control.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nSize [in]
 
 Integer containing the size of the image.
 
-
 ### -param phBitmap [out]
 
 Pointer to the handle that specifies the image bitmap.
-
 
 ### -param phIcon [out]
 
 Pointer to the handle that specifies the image icon.
 
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,18 +99,7 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

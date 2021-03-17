@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITLegacyCallMediaControl2.CreateCustomToneObject
 title: ITLegacyCallMediaControl2::CreateCustomToneObject (tapi3if.h)
 description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
+helpviewer_keywords: ["CreateCustomToneObject","CreateCustomToneObject method [TAPI 2.2]","CreateCustomToneObject method [TAPI 2.2]","ITLegacyCallMediaControl2 interface","ITLegacyCallMediaControl2 interface [TAPI 2.2]","CreateCustomToneObject method","ITLegacyCallMediaControl2.CreateCustomToneObject","ITLegacyCallMediaControl2::CreateCustomToneObject","_tapi3_itlegacycallmediacontrol2_createcustomtoneobject","tapi3.itlegacycallmediacontrol2_createcustomtoneobject","tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject"]
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: addef387-9d92-4da3-af4c-b4d40bde2e36
 ms.date: 12/05/2018
 ms.keywords: CreateCustomToneObject, CreateCustomToneObject method [TAPI 2.2], CreateCustomToneObject method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],CreateCustomToneObject method, ITLegacyCallMediaControl2.CreateCustomToneObject, ITLegacyCallMediaControl2::CreateCustomToneObject, _tapi3_itlegacycallmediacontrol2_createcustomtoneobject, tapi3.itlegacycallmediacontrol2_createcustomtoneobject, tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject
-f1_keywords:
-- tapi3if/ITLegacyCallMediaControl2.CreateCustomToneObject
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITLegacyCallMediaControl2.CreateCustomToneObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITLegacyCallMediaControl2::CreateCustomToneObject
+ - tapi3if/ITLegacyCallMediaControl2::CreateCustomToneObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITLegacyCallMediaControl2.CreateCustomToneObject
 ---
 
 # ITLegacyCallMediaControl2::CreateCustomToneObject
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateCustomToneObject</b> method creates a custom tone object to use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method.
 
 This method is intended for Visual Basic and scripting applications. C/C++ applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">GenerateCustomTones</a> method instead.
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">GenerateCustomTones</a> method instead.
 
 ## -parameters
-
-
-
 
 ### -param ppCustomTone [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> interface.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,37 +107,21 @@ There is not enough memory to allocate the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> interface returned by <b>ITLegacyCallMediaControl2::CreateCustomToneObject</b>. The application must call the <b>Release</b> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> interface returned by <b>ITLegacyCallMediaControl2::CreateCustomToneObject</b>. The application must call the <b>Release</b> method on the 
 <b>ITCustomTone</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>

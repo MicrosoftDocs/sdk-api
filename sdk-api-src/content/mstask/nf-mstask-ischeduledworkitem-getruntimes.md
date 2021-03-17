@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
 title: IScheduledWorkItem::GetRunTimes (mstask.h)
 description: Retrieves the work item run times for a specified time period.
+helpviewer_keywords: ["GetRunTimes","GetRunTimes method [Task Scheduler]","GetRunTimes method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetRunTimes method","IScheduledWorkItem.GetRunTimes","IScheduledWorkItem::GetRunTimes","_msb_ischeduledworkitem_getruntimes","mstask/IScheduledWorkItem::GetRunTimes","taskschd.ischeduledworkitem_getruntimes"]
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
 tech.root: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
 ms.date: 12/05/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
-f1_keywords:
-- mstask/IScheduledWorkItem.GetRunTimes
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetRunTimes
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetRunTimes
+ - mstask/IScheduledWorkItem::GetRunTimes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetRunTimes
 ---
 
 # IScheduledWorkItem::GetRunTimes
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> run times for a specified time period.
-
+Retrieves the <a href="/windows/desktop/TaskSchd/w">work item</a> run times for a specified time period.
 
 ## -parameters
-
-
-
 
 ### -param pstBegin [in]
 
 A pointer to a <b>SYSTEMTIME</b> structure that contains the starting time of the time period to check. This value is inclusive.
 
-
 ### -param pstEnd [in]
 
 A pointer to a <b>SYSTEMTIME</b> structure that contains the ending time of the time period to check. This value is exclusive. If <b>NULL</b> is passed for this value, the end time is infinite.
-
 
 ### -param pCount [in, out]
 
@@ -80,15 +75,11 @@ On input, this parameter contains the number of run times being requested. This 
 
 On output, this parameter contains the number of run times retrieved.
 
-
 ### -param rgstTaskTimes [out]
 
 A pointer to an array of <b>SYSTEMTIME</b> structures. A <b>NULL</b> LPSYSTEMTIME object should be passed into this parameter. On return, this array contains <i>pCount</i> run times. You must free this array by a calling the <b>CoTaskMemFree</b> function.
 
-
 ## -returns
-
-
 
 The 
 <b>GetRunTimes</b> method returns one of the following values.
@@ -165,18 +156,7 @@ There is insufficient memory to compute the result.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>

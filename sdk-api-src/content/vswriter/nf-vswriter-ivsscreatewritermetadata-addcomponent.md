@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssCreateWriterMetadata.AddComponent
 title: IVssCreateWriterMetadata::AddComponent (vswriter.h)
 description: The AddComponent method adds a database or file group as a component to be backed up.
+helpviewer_keywords: ["AddComponent","AddComponent method [VSS]","AddComponent method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddComponent method","IVssCreateWriterMetadata.AddComponent","IVssCreateWriterMetadata::AddComponent","_win32_ivsscreatewritermetadata_addcomponent","base.ivsscreatewritermetadata_addcomponent","vswriter/IVssCreateWriterMetadata::AddComponent"]
 old-location: base\ivsscreatewritermetadata_addcomponent.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: fdbcbcea-d49e-49bc-9bb8-2210a9de02a4
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponent method, IVssCreateWriterMetadata.AddComponent, IVssCreateWriterMetadata::AddComponent, _win32_ivsscreatewritermetadata_addcomponent, base.ivsscreatewritermetadata_addcomponent, vswriter/IVssCreateWriterMetadata::AddComponent
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.AddComponent
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.AddComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::AddComponent
+ - vswriter/IVssCreateWriterMetadata::AddComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.AddComponent
 ---
 
 # IVssCreateWriterMetadata::AddComponent
@@ -49,31 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddComponent</b> method adds a 
     database or file group as a component to be backed up.
 
-
 ## -parameters
-
-
-
 
 ### -param ct [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration value specifying 
+A <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration value specifying 
       the type of the component.
 
 <b>Windows Server 2003 and Windows XP:  </b>Before Windows Server 2003 with SP1, this parameter is reserved for system use, and the caller should not override the default value.
 
-
 ### -param wszLogicalPath [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing the logical path of the database or file group. 
-      For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
+      For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 A logical path is optional and can be <b>NULL</b>.
-
 
 ### -param wszComponentName [in]
 
@@ -82,14 +77,12 @@ A pointer to a <b>null</b>-terminated wide character string containing the name 
 
 This parameter is required and cannot be <b>NULL</b>. The string cannot contain backslashes.
 
-
 ### -param wszCaption [in]
 
 A pointer to a <b>null</b>-terminated wide character string containing a description (also called a "friendly name") for the component. 
       This string might be localized, and therefore requesters must assume that it is localized. 
 
 This parameter is optional and can be <b>NULL</b>. The string can contain backslashes.
-
 
 ### -param pbIcon [in]
 
@@ -99,23 +92,19 @@ A pointer to a bitmap of the icon representing the database, to be displayed in 
 
 If the writer does not want to specify an icon, <i>pbIcon</i> should be set to <b>NULL</b>.
 
-
 ### -param cbIcon [in]
 
 The size, in bytes, of the buffer. If 
      the <i>pbIcon</i> parameter is <b>NULL</b>, 
      <i>cbIcon</i> should be zero.
 
-
 ### -param bRestoreMetadata [in]
 
 This parameter is reserved for future use and should always be set to <b>false</b>.
 
-
 ### -param bNotifyOnBackupComplete [in]
 
 This parameter is reserved for future use and should always be set to <b>false</b>.
-
 
 ### -param bSelectable [in]
 
@@ -124,37 +113,32 @@ A Boolean that indicates whether the component can be optionally backed up (whic
       <b>true</b> if the component can be selectively backed up and <b>false</b> if it is backed up when any of the components 
       is backed up.
 
-
 ### -param bSelectableForRestore [in]
 
 A Boolean that determines whether a component can be individually restored when it has not been 
-      <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-e">explicitly included</a> in 
+      <a href="/windows/desktop/VSS/vssgloss-e">explicitly included</a> in 
       the backup document. If the component was explicitly added to the backup document, it can always be 
       individually selected for restore; in this case, this flag has no meaning. 
       
 
 When <b>true</b>, the component can be restored by itself; when <b>false</b>, the component can be restored only if 
        the entire component set is being restored. (See 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability 
+       <a href="/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a> and 
+       <a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability 
        and Logical Paths</a> for more information).
       
 
 The default value for this parameter is <b>false</b>.
 
-
 ### -param dwComponentFlags [in]
 
 A bit mask (or bitwise OR) of members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a> enumeration indicating the features that this component supports. 
+      <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_flags">VSS_COMPONENT_FLAGS</a> enumeration indicating the features that this component supports. 
       
 
 The default value for this argument is zero.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -205,7 +189,7 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The XML document is not valid. Check the event log for details. 
         For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -228,21 +212,15 @@ The object is a duplicate. A component with the same logical path and component 
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called multiple times to add several components to a writer's metadata.
 
@@ -255,20 +233,9 @@ The combination of logical path and name for each component of a given instance 
 <b>AddComponent</b> can be used to 
     add subcomponents—components in which all member files are backed up as a group, but which contain 
     files that can be restored individually. See 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
+    <a href="/windows/desktop/VSS/working-with-selectability-for-restore-and-subcomponents">Working with 
     Selectability for Restore and Subcomponents</a> for more information.
-   
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>

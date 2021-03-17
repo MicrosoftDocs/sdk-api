@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDateFromI2
 title: VarDateFromI2 function (oleauto.h)
 description: Converts a short value to a date value.
+helpviewer_keywords: ["VarDateFromI2","VarDateFromI2 function [Automation]","_oa96_VarDateFromI2","automat.vardatefromi2","oleauto/VarDateFromI2"]
 old-location: automat\vardatefromi2.htm
 tech.root: automat
 ms.assetid: 91ce59a5-2ab4-41be-a95c-ce12e9a52e4f
 ms.date: 12/05/2018
 ms.keywords: VarDateFromI2, VarDateFromI2 function [Automation], _oa96_VarDateFromI2, automat.vardatefromi2, oleauto/VarDateFromI2
-f1_keywords:
-- oleauto/VarDateFromI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDateFromI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDateFromI2
+ - oleauto/VarDateFromI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDateFromI2
 ---
 
 # VarDateFromI2 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a short value to a date value.
 
-
 ## -parameters
-
-
-
 
 ### -param sIn [in]
 
 The value to convert.
 
-
 ### -param pdateOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

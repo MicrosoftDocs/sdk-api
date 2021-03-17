@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySettingsChange
 title: IWRdsProtocolManager::NotifySettingsChange (wtsprotocol.h)
 description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
+helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","NotifySettingsChange method","IWRdsProtocolManager.NotifySettingsChange","IWRdsProtocolManager::NotifySettingsChange","NotifySettingsChange","NotifySettingsChange method [Remote Desktop Services]","NotifySettingsChange method [Remote Desktop Services]","IWRdsProtocolManager interface","termserv.iwrdsprotocolmanager_notifysettingschange","wtsprotocol/IWRdsProtocolManager::NotifySettingsChange"]
 old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm
 tech.root: TermServ
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySettingsChange method, IWRdsProtocolManager.NotifySettingsChange, IWRdsProtocolManager::NotifySettingsChange, NotifySettingsChange, NotifySettingsChange method [Remote Desktop Services], NotifySettingsChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysettingschange, wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
-f1_keywords:
-- wtsprotocol/IWRdsProtocolManager.NotifySettingsChange
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolManager.NotifySettingsChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolManager::NotifySettingsChange
+ - wtsprotocol/IWRdsProtocolManager::NotifySettingsChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolManager.NotifySettingsChange
 ---
 
 # IWRdsProtocolManager::NotifySettingsChange
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
-
 
 ## -parameters
 
-
-
-
 ### -param pWRdsSettings [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure that contains the setting changes.
-
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure that contains the setting changes.
 
 ## -returns
 
-
-
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. 
-
-
-
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>

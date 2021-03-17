@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptEnumAlgorithms
 title: BCryptEnumAlgorithms function (bcrypt.h)
 description: Gets a list of the registered algorithm identifiers.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","BCRYPT_CIPHER_OPERATION","BCRYPT_HASH_OPERATION","BCRYPT_RNG_OPERATION","BCRYPT_SECRET_AGREEMENT_OPERATION","BCRYPT_SIGNATURE_OPERATION","BCryptEnumAlgorithms","BCryptEnumAlgorithms function [Security]","bcrypt/BCryptEnumAlgorithms","security.bcryptenumalgorithms_func"]
 old-location: security\bcryptenumalgorithms_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 7fa227c0-2b80-49ab-8a19-72f8444d5507
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, BCRYPT_CIPHER_OPERATION, BCRYPT_HASH_OPERATION, BCRYPT_RNG_OPERATION, BCRYPT_SECRET_AGREEMENT_OPERATION, BCRYPT_SIGNATURE_OPERATION, BCryptEnumAlgorithms, BCryptEnumAlgorithms function [Security], bcrypt/BCryptEnumAlgorithms, security.bcryptenumalgorithms_func
-f1_keywords:
-- bcrypt/BCryptEnumAlgorithms
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptEnumAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptEnumAlgorithms
+ - bcrypt/BCryptEnumAlgorithms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptEnumAlgorithms
 ---
 
 # BCryptEnumAlgorithms function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptEnumAlgorithms</b> function gets a list of the registered algorithm identifiers.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAlgOperations [in]
 
@@ -133,27 +130,20 @@ Include the random number generator (RNG) algorithms in the enumeration.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAlgCount [out]
 
 A pointer to a <b>ULONG</b> variable to receive the number of elements in the <i>ppAlgList</i> array.
 
-
 ### -param ppAlgList [out]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_algorithm_identifier">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function when it is no longer needed.
-
+The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_algorithm_identifier">BCRYPT_ALGORITHM_IDENTIFIER</a> structure pointer to receive the array of registered algorithm identifiers. This pointer must be passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function when it is no longer needed.
 
 ### -param dwFlags [in]
 
 A set of flags that modify the behavior of this function. No flags are defined for this function.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -201,16 +191,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
-
-
-
+<b>BCryptEnumAlgorithms</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.

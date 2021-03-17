@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnInterface.get_InterfaceID
 title: IMbnInterface::get_InterfaceID (mbnapi.h)
 description: The interface ID.
+helpviewer_keywords: ["IMbnInterface interface [Microsoft Broadband Networks]","InterfaceID property","IMbnInterface.InterfaceID","IMbnInterface.get_InterfaceID","IMbnInterface::InterfaceID","IMbnInterface::get_InterfaceID","InterfaceID property [Microsoft Broadband Networks]","InterfaceID property [Microsoft Broadband Networks]","IMbnInterface interface","get_InterfaceID","mbn.imbninterface_interfaceid","mbnapi/IMbnInterface::InterfaceID","mbnapi/IMbnInterface::get_InterfaceID"]
 old-location: mbn\imbninterface_interfaceid.htm
 tech.root: mbn
 ms.assetid: 9828567b-ef5e-44b7-90ce-1788cd8dd947
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InterfaceID property, IMbnInterface.InterfaceID, IMbnInterface.get_InterfaceID, IMbnInterface::InterfaceID, IMbnInterface::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnInterface interface, get_InterfaceID, mbn.imbninterface_interfaceid, mbnapi/IMbnInterface::InterfaceID, mbnapi/IMbnInterface::get_InterfaceID
-f1_keywords:
-- mbnapi/IMbnInterface.InterfaceID
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.InterfaceID
-- IMbnInterface.get_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::get_InterfaceID
+ - mbnapi/IMbnInterface::get_InterfaceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.InterfaceID
+ - IMbnInterface.get_InterfaceID
 ---
 
 # IMbnInterface::get_InterfaceID
@@ -56,17 +58,8 @@ The interface ID.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

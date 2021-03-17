@@ -2,15 +2,12 @@
 UID: NF:wsdutil.WSDSetConfigurationOption
 title: WSDSetConfigurationOption function (wsdutil.h)
 description: Sets a WSDAPI configuration option.
+helpviewer_keywords: ["WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE","WSDSetConfigurationOption","WSDSetConfigurationOption function","ncd.wsdsetconfigurationoption","wsdutil/WSDSetConfigurationOption"]
 old-location: ncd\wsdsetconfigurationoption.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption
-f1_keywords:
-- wsdutil/WSDSetConfigurationOption
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDSetConfigurationOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDSetConfigurationOption
+ - wsdutil/WSDSetConfigurationOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDSetConfigurationOption
 ---
 
 # WSDSetConfigurationOption function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a WSDAPI configuration option.
 
-
 ## -parameters
-
-
-
 
 ### -param dwOption
 
@@ -78,22 +75,16 @@ Set the maximum size, in bytes, of an inbound message.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pVoid [in]
 
 Pointer to the configuration data. If <i>dwOption</i> is set to WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, then <i>pVoid</i> should point to a DWORD that represents the  size of an inbound message. The size of the message is  a value between 32768 and 1048576.
 
-
 ### -param cbInBuffer
 
-The size, in bytes, of the data pointed to by <i>pVoid</i>. If <i>dwOption</i> is set to WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, this parameter should be set to <code>sizeof(DWORD)</code>. 
-
+The size, in bytes, of the data pointed to by <i>pVoid</i>. If <i>dwOption</i> is set to WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, this parameter should be set to <code>sizeof(DWORD)</code>.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -125,7 +116,4 @@ The <i>dwOption</i> is not set to WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, <i>cbI
 </td>
 </tr>
 </table>
- 
-
-
 

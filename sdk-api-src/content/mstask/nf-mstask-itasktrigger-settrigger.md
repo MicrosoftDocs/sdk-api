@@ -2,15 +2,12 @@
 UID: NF:mstask.ITaskTrigger.SetTrigger
 title: ITaskTrigger::SetTrigger (mstask.h)
 description: The SetTrigger method sets the trigger criteria for a task trigger.
+helpviewer_keywords: ["ITaskTrigger interface [Task Scheduler]","SetTrigger method","ITaskTrigger.SetTrigger","ITaskTrigger::SetTrigger","SetTrigger","SetTrigger method [Task Scheduler]","SetTrigger method [Task Scheduler]","ITaskTrigger interface","_msb_itasktrigger_settrigger","mstask/ITaskTrigger::SetTrigger","taskschd.itasktrigger_settrigger"]
 old-location: taskschd\itasktrigger_settrigger.htm
 tech.root: taskschd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
 ms.date: 12/05/2018
 ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
-f1_keywords:
-- mstask/ITaskTrigger.SetTrigger
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskTrigger.SetTrigger
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskTrigger::SetTrigger
+ - mstask/ITaskTrigger::SetTrigger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskTrigger.SetTrigger
 ---
 
 # ITaskTrigger::SetTrigger
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>SetTrigger</b> method sets the trigger criteria for a task <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">trigger</a>.
-
+<b>SetTrigger</b> method sets the trigger criteria for a task <a href="/windows/desktop/TaskSchd/t">trigger</a>.
 
 ## -parameters
-
-
-
 
 ### -param pTrigger [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure that contains the values that define the new task trigger.
-
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure that contains the values that define the new task trigger.
 
 ## -returns
-
-
 
 The 
 <b>SetTrigger</b> method returns one of the following values.
@@ -112,29 +106,23 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>wBeginDay</b>, <b>wBeginMonth</b>, and <b>wBeginYear</b> members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure must be set to a valid day, month, and year respectively.
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure must be set to a valid day, month, and year respectively.
 
 A task can have any number of triggers associated with it. The times that the task will run are the union of all the triggers defined for that task.
 
 To update the task with these new trigger settings, applications must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method after calling 
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> method after calling 
 <b>SetTrigger</b>.
 
 
 #### Examples
 
 The following code shows the variable declaration and calling syntax for this method, including the required members of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="/windows/desktop/TaskSchd/creating-a-new-trigger">Creating a New Trigger</a>.
 
 
 ```cpp
@@ -159,29 +147,18 @@ if (FAILED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>

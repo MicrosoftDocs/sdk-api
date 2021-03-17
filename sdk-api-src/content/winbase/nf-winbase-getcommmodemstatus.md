@@ -2,15 +2,12 @@
 UID: NF:winbase.GetCommModemStatus
 title: GetCommModemStatus function (winbase.h)
 description: Retrieves the modem control-register values.
+helpviewer_keywords: ["GetCommModemStatus","GetCommModemStatus function","MS_CTS_ON","MS_DSR_ON","MS_RING_ON","MS_RLSD_ON","_win32_getcommmodemstatus","base.getcommmodemstatus","winbase/GetCommModemStatus"]
 old-location: base\getcommmodemstatus.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 937bb623-d02d-452e-a8a2-21d9a6c5cac0
 ms.date: 12/05/2018
 ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_ON, MS_RING_ON, MS_RLSD_ON, _win32_getcommmodemstatus, base.getcommmodemstatus, winbase/GetCommModemStatus
-f1_keywords:
-- winbase/GetCommModemStatus
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-comm-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetCommModemStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCommModemStatus
+ - winbase/GetCommModemStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-comm-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetCommModemStatus
 ---
 
 # GetCommModemStatus function
@@ -52,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the modem control-register values.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param lpModemStat [out]
 
@@ -121,55 +117,36 @@ The RLSD (receive-line-signal-detect) signal is on.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The 
 <b>GetCommModemStatus</b> function is useful when you are using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> function to monitor the CTS, RLSD, DSR, or ring indicator signals. To detect when these signals change state, use 
+<a href="/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> function to monitor the CTS, RLSD, DSR, or ring indicator signals. To detect when these signals change state, use 
 <b>WaitCommEvent</b> and then use 
 <b>GetCommModemStatus</b> to determine the state after a change occurs.
 
 The function fails if the hardware does not support the control-register values.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a>

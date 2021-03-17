@@ -2,15 +2,12 @@
 UID: NF:gpmgmt.IGPMGPO.SetSecurityDescriptor
 title: IGPMGPO::SetSecurityDescriptor (gpmgmt.h)
 description: Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
+helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GPMGPO class [GPMC]","SetSecurityDescriptor method","GROUP_SECURITY_INFORMATION","IGPMGPO interface [GPMC]","SetSecurityDescriptor method","IGPMGPO.SetSecurityDescriptor","IGPMGPO::SetSecurityDescriptor","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","SetSecurityDescriptor","SetSecurityDescriptor method [GPMC]","SetSecurityDescriptor method [GPMC]","GPMGPO class","SetSecurityDescriptor method [GPMC]","IGPMGPO interface","_win32_igpmgpo_setsecuritydescriptor","gpmc.igpmgpo_setsecuritydescriptor","gpmgmt/IGPMGPO::SetSecurityDescriptor"]
 old-location: gpmc\igpmgpo_setsecuritydescriptor.htm
 tech.root: gpmc
 ms.assetid: 087cbe19-25d9-4134-8893-1b2906915220
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC],SetSecurityDescriptor method, GROUP_SECURITY_INFORMATION, IGPMGPO interface [GPMC],SetSecurityDescriptor method, IGPMGPO.SetSecurityDescriptor, IGPMGPO::SetSecurityDescriptor, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurityDescriptor, SetSecurityDescriptor method [GPMC], SetSecurityDescriptor method [GPMC],GPMGPO class, SetSecurityDescriptor method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecuritydescriptor, gpmc.igpmgpo_setsecuritydescriptor, gpmgmt/IGPMGPO::SetSecurityDescriptor
-f1_keywords:
-- gpmgmt/IGPMGPO.SetSecurityDescriptor
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,79 +25,58 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMGPO.SetSecurityDescriptor
-- GPMGPO.SetSecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMGPO::SetSecurityDescriptor
+ - gpmgmt/IGPMGPO::SetSecurityDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMGPO.SetSecurityDescriptor
+ - GPMGPO.SetSecurityDescriptor
 ---
-
-# IGPMGPO::SetSecurityDescriptor
-
 
 ## -description
 
-
 Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
 Specifies a set of bit flags. Use this parameter to specify the parts of the security descriptor to set.
 
-
-
 #### OWNER_SECURITY_INFORMATION (1)
 
 Owner identifier of the object.
-
-
 
 #### GROUP_SECURITY_INFORMATION (2)
 
 Primary group identifier.
 
-
-
 #### DACL_SECURITY_INFORMATION (4)
 
 Discretionary ACL of the object.
-
-
 
 #### SACL_SECURITY_INFORMATION (8)
 
 System ACL of the object.
 
-
 ### -param pSD [in]
 
 The security descriptor to set.
 
-
-#### - objIADsSecurityDescriptor
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object to set.
-
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -108,30 +84,15 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -remarks
 
-
-
 For more information about ACLs and the security model for controlling access to Windows objects, see the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> topic .
-
-
-
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a> topic .
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>

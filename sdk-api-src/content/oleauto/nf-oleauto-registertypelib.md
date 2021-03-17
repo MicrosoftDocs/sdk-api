@@ -2,15 +2,12 @@
 UID: NF:oleauto.RegisterTypeLib
 title: RegisterTypeLib function (oleauto.h)
 description: Adds information about a type library to the system registry.
+helpviewer_keywords: ["RegisterTypeLib","RegisterTypeLib function [Automation]","_oa96_RegisterTypeLib","automat.registertypelib","oleauto/RegisterTypeLib"]
 old-location: automat\registertypelib.htm
 tech.root: automat
 ms.assetid: d0559a57-b1a4-4036-97ed-024d775cb595
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLib, RegisterTypeLib function [Automation], _oa96_RegisterTypeLib, automat.registertypelib, oleauto/RegisterTypeLib
-f1_keywords:
-- oleauto/RegisterTypeLib
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- RegisterTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterTypeLib
+ - oleauto/RegisterTypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - RegisterTypeLib
 ---
 
 # RegisterTypeLib function
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds information about a type library to the system registry.
 
-
 ## -parameters
-
-
-
 
 ### -param ptlib
 
 The type library.
 
-
 ### -param szFullPath [in]
 
 The fully qualified path specification for the type library.
-
 
 ### -param szHelpDir [in, optional]
 
 The directory in which the Help file for the library being registered can be found. This parameter can be null.
 
-
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -160,21 +151,12 @@ The type library could not be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function can be used during application initialization to register the application's type library correctly. When <b>RegisterTypeLib</b> is called to register a type library, both the minor and major version numbers are registered in hexadecimal.
 
 
 
-In addition to filling in a complete registry entry under the type library key, <b>RegisterTypeLib</b> adds entries for each of the dispinterfaces and Automation-compatible interfaces, including dual interfaces. This information is required to create instances of these interfaces. Coclasses are not registered (that is, <b>RegisterTypeLib</b> does not write any values to the CLSID key of the coclass). 
-
-
-
+In addition to filling in a complete registry entry under the type library key, <b>RegisterTypeLib</b> adds entries for each of the dispinterfaces and Automation-compatible interfaces, including dual interfaces. This information is required to create instances of these interfaces. Coclasses are not registered (that is, <b>RegisterTypeLib</b> does not write any values to the CLSID key of the coclass).
 

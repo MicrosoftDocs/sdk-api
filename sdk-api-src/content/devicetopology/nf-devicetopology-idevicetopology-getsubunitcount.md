@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IDeviceTopology.GetSubunitCount
 title: IDeviceTopology::GetSubunitCount (devicetopology.h)
 description: The GetSubunitCount method gets the number of subunits in the device topology.
+helpviewer_keywords: ["GetSubunitCount","GetSubunitCount method [Core Audio]","GetSubunitCount method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSubunitCount method","IDeviceTopology.GetSubunitCount","IDeviceTopology::GetSubunitCount","IDeviceTopologyGetSubunitCount","coreaudio.idevicetopology_getsubunitcount","devicetopology/IDeviceTopology::GetSubunitCount"]
 old-location: coreaudio\idevicetopology_getsubunitcount.htm
 tech.root: CoreAudio
 ms.assetid: 70fa57bb-56fe-4f8c-9967-10714f1cba22
 ms.date: 12/05/2018
 ms.keywords: GetSubunitCount, GetSubunitCount method [Core Audio], GetSubunitCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunitCount method, IDeviceTopology.GetSubunitCount, IDeviceTopology::GetSubunitCount, IDeviceTopologyGetSubunitCount, coreaudio.idevicetopology_getsubunitcount, devicetopology/IDeviceTopology::GetSubunitCount
-f1_keywords:
-- devicetopology/IDeviceTopology.GetSubunitCount
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IDeviceTopology.GetSubunitCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceTopology::GetSubunitCount
+ - devicetopology/IDeviceTopology::GetSubunitCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IDeviceTopology.GetSubunitCount
 ---
 
 # IDeviceTopology::GetSubunitCount
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSubunitCount</b> method gets the number of subunits in the device topology.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCount [out]
 
 Pointer to a <b>UINT</b> variable into which the method writes the subunit count (the number of subunits in the device topology).
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -88,18 +79,7 @@ Pointer <i>pCount</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>

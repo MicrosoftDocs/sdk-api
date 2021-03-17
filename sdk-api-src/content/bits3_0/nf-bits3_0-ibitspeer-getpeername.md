@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeer.GetPeerName
 title: IBitsPeer::GetPeerName (bits3_0.h)
 description: Gets the server principal name that uniquely identifies the peer.
+helpviewer_keywords: ["GetPeerName","GetPeerName method [BITS]","GetPeerName method [BITS]","IBitsPeer interface","IBitsPeer interface [BITS]","GetPeerName method","IBitsPeer.GetPeerName","IBitsPeer::GetPeerName","bits.ibitspeer_getpeername","bits3_0/IBitsPeer::GetPeerName"]
 old-location: bits\ibitspeer_getpeername.htm
 tech.root: Bits
 ms.assetid: 71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76
 ms.date: 12/05/2018
 ms.keywords: GetPeerName, GetPeerName method [BITS], GetPeerName method [BITS],IBitsPeer interface, IBitsPeer interface [BITS],GetPeerName method, IBitsPeer.GetPeerName, IBitsPeer::GetPeerName, bits.ibitspeer_getpeername, bits3_0/IBitsPeer::GetPeerName
-f1_keywords:
-- bits3_0/IBitsPeer.GetPeerName
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeer.GetPeerName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeer::GetPeerName
+ - bits3_0/IBitsPeer::GetPeerName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeer.GetPeerName
 ---
 
 # IBitsPeer::GetPeerName
@@ -49,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the server principal name that uniquely identifies the peer.
 
-
 ## -parameters
-
-
-
 
 ### -param pName [out]
 
 Null-terminated string that contains the server principal name of the peer. The principal name is of the form, server$.domain.suffix. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pName</i> when done.
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pName</i> when done.
 
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -87,27 +81,11 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The principal name ensures the unique identity of the peer computer and is the entity that Kerberos authenticates. 
-
-
-
+The principal name ensures the unique identity of the peer computer and is the entity that Kerberos authenticates.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>

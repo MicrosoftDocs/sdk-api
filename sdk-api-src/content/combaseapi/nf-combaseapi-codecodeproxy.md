@@ -2,15 +2,12 @@
 UID: NF:combaseapi.CoDecodeProxy
 title: CoDecodeProxy function (combaseapi.h)
 description: Locates the implementation of a Component Object Model (COM) interface in a server process given an interface to a proxied object.
+helpviewer_keywords: ["CoDecodeProxy","CoDecodeProxy function [Windows Runtime]","combaseapi/CoDecodeProxy","winrt.codecodeproxy"]
 old-location: winrt\codecodeproxy.htm
 tech.root: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.date: 12/05/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
-f1_keywords:
-- combaseapi/CoDecodeProxy
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-api_name:
-- CoDecodeProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoDecodeProxy
+ - combaseapi/CoDecodeProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+api_name:
+ - CoDecodeProxy
 ---
 
 # CoDecodeProxy function
@@ -50,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates the implementation of a Component Object Model (COM) interface in a server process given an  interface to a proxied object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwClientPid [in]
 
 The process ID of the process that contains the proxy.
 
-
 ### -param ui64ProxyAddress [in]
 
-The address of an interface on a proxy to the object.  <i>ui64ProxyAddress</i> is considered a 64-bit value type, rather than a pointer  to a 64-bit value, and isn't a pointer to an object in the debugger process. Instead, this address is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function.
-
+The address of an interface on a proxy to the object.  <i>ui64ProxyAddress</i> is considered a 64-bit value type, rather than a pointer  to a 64-bit value, and isn't a pointer to an object in the debugger process. Instead, this address is passed to the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function.
 
 ### -param pServerInformation [out]
 
 A structure that contains the process ID, the thread ID, and the address of the server.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -119,36 +111,20 @@ The caller is an app container, or the developer license is not installed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CoDecodeProxy</b> function is a COM API that enables native debuggers to locate the implementation of a COM interface in a server process given an interface on a proxy to the object.
 
 
 Also, the <b>CoDecodeProxy</b> function enables the debugger to monitor cross-apartment function calls and fail such calls when appropriate.
 
-You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. <i>ui64ProxyAddress</i> can be a 32-bit or 64-bit address. The <b>CoDecodeProxy</b> function returns a 32-bit or 64-bit address in the <i>pServerInformation</i> field. If it returns a 64-bit address, you should pass the address to the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function only from a 64-bit process.
-
-
-
+You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. <i>ui64ProxyAddress</i> can be a 32-bit or 64-bit address. The <b>CoDecodeProxy</b> function returns a 32-bit or 64-bit address in the <i>pServerInformation</i> field. If it returns a 64-bit address, you should pass the address to the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function only from a 64-bit process.
 
 ## -see-also
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ns-combaseapi-serverinformation">ServerInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/combaseapi/ns-combaseapi-serverinformation">ServerInformation</a>

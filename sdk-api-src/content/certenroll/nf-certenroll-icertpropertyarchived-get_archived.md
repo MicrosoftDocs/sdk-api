@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICertPropertyArchived.get_Archived
 title: ICertPropertyArchived::get_Archived (certenroll.h)
 description: Retrieves a Boolean value that specifies whether the certificate has been archived.
+helpviewer_keywords: ["Archived property [Security]","Archived property [Security]","ICertPropertyArchived interface","ICertPropertyArchived interface [Security]","Archived property","ICertPropertyArchived.Archived","ICertPropertyArchived.get_Archived","ICertPropertyArchived::Archived","ICertPropertyArchived::get_Archived","certenroll/ICertPropertyArchived::Archived","certenroll/ICertPropertyArchived::get_Archived","get_Archived","security.icertpropertyarchived_archived_property"]
 old-location: security\icertpropertyarchived_archived_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
 ms.date: 12/05/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
-f1_keywords:
-- certenroll/ICertPropertyArchived.Archived
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertPropertyArchived.Archived
-- ICertPropertyArchived.get_Archived
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyArchived::get_Archived
+ - certenroll/ICertPropertyArchived::get_Archived
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertPropertyArchived.Archived
+ - ICertPropertyArchived.get_Archived
 ---
 
 # ICertPropertyArchived::get_Archived
@@ -49,35 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Archived</b> property retrieves a Boolean value that specifies whether the certificate has been archived.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchived-initialize">Initialize</a> method to specify the Boolean value.
-
-
-
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarchived-initialize">Initialize</a> method to specify the Boolean value.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>

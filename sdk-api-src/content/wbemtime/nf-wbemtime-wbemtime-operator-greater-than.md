@@ -2,15 +2,12 @@
 UID: NF:wbemtime.WBEMTime.operator-greater-than
 title: WBEMTime::operator-greater-than (wbemtime.h)
 description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+helpviewer_keywords: ["??OWBEMTime@@QBEHABV0@@Z","WBEMTime interface [Windows Management Instrumentation]","operator> method","WBEMTime.operator-greater-than","WBEMTime.operator>","WBEMTime::operator-greater-than","WBEMTime::operator>","operator>","operator> method [Windows Management Instrumentation]","operator> method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator>","wmi.wbemtime_comparison_operators_greaterthan"]
 old-location: wmi\wbemtime_comparison_operators_greaterthan.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 4b6f05ce-08e0-4257-8787-cab5b36624c6
 ms.date: 12/05/2018
 ms.keywords: ??OWBEMTime@@QBEHABV0@@Z, WBEMTime interface [Windows Management Instrumentation],operator> method, WBEMTime.operator-greater-than, WBEMTime.operator>, WBEMTime::operator-greater-than, WBEMTime::operator>, operator>, operator> method [Windows Management Instrumentation], operator> method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator>, wmi.wbemtime_comparison_operators_greaterthan
-f1_keywords:
-- wbemtime/WBEMTime.operator>
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime.operator>
-- ??OWBEMTime@@QBEHABV0@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::operator>
+ - wbemtime/WBEMTime::operator>
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime.operator>
+ - ??OWBEMTime@@QBEHABV0@@Z
 ---
 
 # WBEMTime::operator-greater-than
@@ -50,31 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two <b>WBEMTime</b> objects.
-
+The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two <b>WBEMTime</b> objects.
 
 ## -parameters
 
-
-
-
 ### -param a [ref]
 
-Reference to the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object whose time is compared to this one.
-
+Reference to the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object whose time is compared to this one.
 
 ## -returns
 
-
-
 True if this time is greater than the time specified by <i>uTarget</i>.
-
-
-

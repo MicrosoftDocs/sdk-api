@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorManager.GetSensorsByType
 title: ISensorManager::GetSensorsByType (sensorsapi.h)
 description: Retrieves a collection containing all sensors associated with the specified type.
+helpviewer_keywords: ["GetSensorsByType","GetSensorsByType method","GetSensorsByType method","ISensorManager interface","ISensorManager interface","GetSensorsByType method","ISensorManager.GetSensorsByType","ISensorManager::GetSensorsByType","sensorsapi/ISensorManager::GetSensorsByType","winsensors_com_ref.isensormanager_getsensorsbytype"]
 old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: f383d7e3-bcd0-457d-a410-9ac225f1d147
 ms.date: 12/05/2018
 ms.keywords: GetSensorsByType, GetSensorsByType method, GetSensorsByType method,ISensorManager interface, ISensorManager interface,GetSensorsByType method, ISensorManager.GetSensorsByType, ISensorManager::GetSensorsByType, sensorsapi/ISensorManager::GetSensorsByType, winsensors_com_ref.isensormanager_getsensorsbytype
-f1_keywords:
-- sensorsapi/ISensorManager.GetSensorsByType
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorManager.GetSensorsByType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorManager::GetSensorsByType
+ - sensorsapi/ISensorManager::GetSensorsByType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorManager.GetSensorsByType
 ---
 
 # ISensorManager::GetSensorsByType
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a collection containing all sensors associated with the specified type.
 
-
 ## -parameters
-
-
-
 
 ### -param sensorType [in]
 
 ID of the type of sensors to retrieve.
 
-
 ### -param ppSensorsFound [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface pointer that receives the pointer to the sensor collection requested.
-
+Address of an <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface pointer that receives the pointer to the sensor collection requested.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,22 +106,11 @@ NULL was passed in for ppSensorsFound.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>
- 
-
- 
-
+<a href="/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>

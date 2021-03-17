@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssCreateWriterMetadata.AddAlternateLocationMapping
 title: IVssCreateWriterMetadata::AddAlternateLocationMapping (vswriter.h)
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
+helpviewer_keywords: ["AddAlternateLocationMapping","AddAlternateLocationMapping method [VSS]","AddAlternateLocationMapping method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddAlternateLocationMapping method","IVssCreateWriterMetadata.AddAlternateLocationMapping","IVssCreateWriterMetadata::AddAlternateLocationMapping","_win32_ivsscreatewritermetadata_addalternatelocationmapping","base.ivsscreatewritermetadata_addalternatelocationmapping","vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping"]
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.date: 12/05/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
-f1_keywords:
-- vswriter/IVssCreateWriterMetadata.AddAlternateLocationMapping
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateWriterMetadata.AddAlternateLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateWriterMetadata::AddAlternateLocationMapping
+ - vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateWriterMetadata.AddAlternateLocationMapping
 ---
 
 # IVssCreateWriterMetadata::AddAlternateLocationMapping
@@ -49,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>AddAlternateLocationMapping</b> method creates an alternate location mapping for a file set.
 
-
 ## -parameters
-
-
-
 
 ### -param wszSourcePath [in]
 
@@ -72,7 +69,6 @@ The path can contain environment variables (for example, %SystemRoot%) but canno
 
 There is no requirement that the path end with a backslash ("\"). It is up to applications that retrieve this information to check.
 
-
 ### -param wszSourceFilespec [in]
 
 Null-terminated wide character string containing the file specification of the files to be mapped. 
@@ -82,7 +78,6 @@ Null-terminated wide character string containing the file specification of the f
 
 A file specification cannot contain directory specifications (for example, no backslashes) but can contain the ? and * wildcard characters.
 
-
 ### -param bRecursive [in]
 
 A Boolean value specifying whether the path specified by the <i>wszPath</i> parameter identifies only a single directory or if it indicates a hierarchy of directories to be traversed recursively. This parameter should be set to  <b>true</b> if the path is treated as a hierarchy of directories to be traversed recursively, or <b>false</b> if not. 
@@ -91,8 +86,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 
 For information on traversing mounted folders, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
-
+<a href="/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 ### -param wszDestination [in]
 
@@ -102,10 +96,7 @@ The directory can be a local directory on the VSS machine, or it can be a file s
 
 UNC paths are supported.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -159,7 +150,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -171,7 +162,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> method was not called before this method was called.
+The <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> method was not called before this method was called.
 
 </td>
 </tr>
@@ -183,21 +174,15 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012. Writers support only local resources—sets of files whose absolute path starts with a valid local volume specification and cannot be a mapped network drive. Therefore, path inputs (<i>wszPath</i> and <i>wszDestination</i>) to 
 <b>AddAlternateLocationMapping</b> (after the resolution of any environment variables) must be in this format.
@@ -206,13 +191,13 @@ This method can be called multiple times to add mapping for multiple files.
 
 The combination of path, file specification, and recursion flag (<i>wszPath</i>, <i>wszFileSpec</i>, and <i>bRecursive</i>, respectively) provided to 
 <b>AddAlternateLocationMapping</b> to be mapped must match that of one of the file sets added to one of the writer's components using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
 
 The 
 <b>AddAlternateLocationMapping</b> method should be called only after 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> is called.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> is called.
 
 A file should always be restored to its alternate location mapping if either of the following is true:
 
@@ -233,18 +218,8 @@ Again, if no valid alternate location mapping is defined, this constitutes a wri
 An alternate location mapping is used only during a restore operation and should not be confused with an alternate path, which is used only during a backup operation.
 
 For more information on backup and restore file locations under VSS, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
-
-
-
+<a href="/windows/desktop/VSS/non-default-backup-and-restore-locations">Non-Default Backup And Restore Locations</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>

@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRFilterConfig9.SetNumberOfStreams
 title: IVMRFilterConfig9::SetNumberOfStreams (vmr9.h)
 description: The SetNumberOfStreams method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
+helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetNumberOfStreams method","IVMRFilterConfig9.SetNumberOfStreams","IVMRFilterConfig9::SetNumberOfStreams","IVMRFilterConfig9SetNumberOfStreams","SetNumberOfStreams","SetNumberOfStreams method [DirectShow]","SetNumberOfStreams method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setnumberofstreams","vmr9/IVMRFilterConfig9::SetNumberOfStreams"]
 old-location: dshow\ivmrfilterconfig9_setnumberofstreams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 062aac78-6d7d-4335-963a-bc2c2d339efb
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig9.SetNumberOfStreams, IVMRFilterConfig9::SetNumberOfStreams, IVMRFilterConfig9SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setnumberofstreams, vmr9/IVMRFilterConfig9::SetNumberOfStreams
-f1_keywords:
-- vmr9/IVMRFilterConfig9.SetNumberOfStreams
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRFilterConfig9.SetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRFilterConfig9::SetNumberOfStreams
+ - vmr9/IVMRFilterConfig9::SetNumberOfStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRFilterConfig9.SetNumberOfStreams
 ---
 
 # IVMRFilterConfig9::SetNumberOfStreams
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetNumberOfStreams</code> method sets the number of streams to be mixed and instructs the VMR to go into mixer mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwMaxStreams [in]
 
 Double word containing the maximum number of input streams that the VMR will be required to mix.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -122,14 +113,8 @@ Memory to manage the streams could not be allocated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>dwMaxStreams</i> should be equal to the number of input pins required. Pins cannot be added or removed after the VMR has been connected. If you do not know in advance how many input streams will be required, set <i>dxMaxStreams</i> to the maximum number that might be required. A value of 1 is valid for dwMaxStreams. This value does not cause any extra pins to be created, but it does force the VMR to go into "mixer mode."
 
@@ -138,19 +123,10 @@ The VMR creates as many input pins as are specified without attempting to determ
 <div class="alert"><b>Note</b>  Although the VMR supports multiple streams, they all share a single clock, and therefore you cannot seek one stream independently of the others. If you need to seek the input streams independently, you must use a different technique.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

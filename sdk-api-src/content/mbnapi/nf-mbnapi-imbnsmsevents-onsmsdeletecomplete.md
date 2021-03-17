@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsDeleteComplete
 title: IMbnSmsEvents::OnSmsDeleteComplete (mbnapi.h)
 description: Notification method that signals the completion of an SMS deletion operation.
+helpviewer_keywords: ["E_MBN_BAD_SIM","E_MBN_PIN_REQUIRED","E_MBN_SIM_NOT_INSERTED","E_MBN_SMS_FILTER_NOT_SUPPORTED","E_MBN_SMS_INVALID_MEMORY_INDEX","E_MBN_SMS_MEMORY_FAILURE","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsDeleteComplete method","IMbnSmsEvents.OnSmsDeleteComplete","IMbnSmsEvents::OnSmsDeleteComplete","OnSmsDeleteComplete","OnSmsDeleteComplete method [Microsoft Broadband Networks]","OnSmsDeleteComplete method [Microsoft Broadband Networks]","IMbnSmsEvents interface","S_OK","mbn.imbnsmsevents_onsmsdeletecomplete","mbnapi/IMbnSmsEvents::OnSmsDeleteComplete"]
 old-location: mbn\imbnsmsevents_onsmsdeletecomplete.htm
 tech.root: mbn
 ms.assetid: bac1c7b3-fedc-47fb-822c-712805a86f6e
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_FILTER_NOT_SUPPORTED, E_MBN_SMS_INVALID_MEMORY_INDEX, E_MBN_SMS_MEMORY_FAILURE, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsDeleteComplete method, IMbnSmsEvents.OnSmsDeleteComplete, IMbnSmsEvents::OnSmsDeleteComplete, OnSmsDeleteComplete, OnSmsDeleteComplete method [Microsoft Broadband Networks], OnSmsDeleteComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmsdeletecomplete, mbnapi/IMbnSmsEvents::OnSmsDeleteComplete
-f1_keywords:
-- mbnapi/IMbnSmsEvents.OnSmsDeleteComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsEvents.OnSmsDeleteComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsEvents::OnSmsDeleteComplete
+ - mbnapi/IMbnSmsEvents::OnSmsDeleteComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsEvents.OnSmsDeleteComplete
 ---
 
 # IMbnSmsEvents::OnSmsDeleteComplete
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 Notification method that signals the completion of an SMS deletion operation.
 
-
 ## -parameters
-
-
-
 
 ### -param sms [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device from which the messages were deleted.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device from which the messages were deleted.
 
 ### -param requestID [in]
 
 A request ID assigned by the Mobile Broadband service to identify the operation.
-
 
 ### -param status [in]
 
@@ -161,25 +157,11 @@ The device does not support the requested filter.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>

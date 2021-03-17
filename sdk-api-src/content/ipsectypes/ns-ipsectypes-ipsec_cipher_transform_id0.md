@@ -2,15 +2,12 @@
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM_ID0_
 title: IPSEC_CIPHER_TRANSFORM_ID0 (ipsectypes.h)
 description: Specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
+helpviewer_keywords: ["IPSEC_CIPHER_CONFIG_CBC_3DES","IPSEC_CIPHER_CONFIG_CBC_AES_128","IPSEC_CIPHER_CONFIG_CBC_AES_192","IPSEC_CIPHER_CONFIG_CBC_AES_256","IPSEC_CIPHER_CONFIG_CBC_DES","IPSEC_CIPHER_CONFIG_GCM_AES_128","IPSEC_CIPHER_CONFIG_GCM_AES_192","IPSEC_CIPHER_CONFIG_GCM_AES_256","IPSEC_CIPHER_TRANSFORM_ID0","IPSEC_CIPHER_TRANSFORM_ID0 structure [Filtering]","fwp.ipsec_cipher_transform_id0_struct","ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0"]
 old-location: fwp\ipsec_cipher_transform_id0_struct.htm
 tech.root: fwp
 ms.assetid: fc58606b-18a4-49ab-87bb-a6846b81520b
 ms.date: 12/05/2018
 ms.keywords: IPSEC_CIPHER_CONFIG_CBC_3DES, IPSEC_CIPHER_CONFIG_CBC_AES_128, IPSEC_CIPHER_CONFIG_CBC_AES_192, IPSEC_CIPHER_CONFIG_CBC_AES_256, IPSEC_CIPHER_CONFIG_CBC_DES, IPSEC_CIPHER_CONFIG_GCM_AES_128, IPSEC_CIPHER_CONFIG_GCM_AES_192, IPSEC_CIPHER_CONFIG_GCM_AES_256, IPSEC_CIPHER_TRANSFORM_ID0, IPSEC_CIPHER_TRANSFORM_ID0 structure [Filtering], fwp.ipsec_cipher_transform_id0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
-f1_keywords:
-- ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_CIPHER_TRANSFORM_ID0
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TRANSFORM_ID0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_CIPHER_TRANSFORM_ID0_
+ - ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0_
+ - IPSEC_CIPHER_TRANSFORM_ID0
+ - ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_CIPHER_TRANSFORM_ID0
 ---
 
 # IPSEC_CIPHER_TRANSFORM_ID0 structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_CIPHER_TRANSFORM_ID0</b> structure specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cipherType
 
-The type of the encryption algorithm as specified by [IPSEC_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)a>.
-
+The type of the encryption algorithm as specified by [IPSEC_CIPHER_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type).
 
 ### -field cipherConfig
 
@@ -176,29 +174,15 @@ GCM (Galois Counter Mode) mode of operation.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-<b>IPSEC_CIPHER_TRANSFORM_ID0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM_ID. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>IPSEC_CIPHER_TRANSFORM_ID0</b> is a specific implementation of IPSEC_CIPHER_TRANSFORM_ID. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
+[IPSEC_CIPHER_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)
 
 
 
-[IPSEC_CIPHER_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_cipher_type)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

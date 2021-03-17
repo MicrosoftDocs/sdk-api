@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLocalizedControlType
 title: IUIAutomationElement::get_CurrentLocalizedControlType (uiautomationclient.h)
 description: Retrieves a localized description of the control type of the element.
+helpviewer_keywords: ["CurrentLocalizedControlType property [Windows Accessibility]","CurrentLocalizedControlType property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentLocalizedControlType property","IUIAutomationElement.CurrentLocalizedControlType","IUIAutomationElement.get_CurrentLocalizedControlType","IUIAutomationElement::CurrentLocalizedControlType","IUIAutomationElement::get_CurrentLocalizedControlType","get_CurrentLocalizedControlType","uiauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType","uiauto_IUIAutomationElement_CurrentLocalizedControlType","uiautomationclient/IUIAutomationElement::CurrentLocalizedControlType","uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType","winauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLocalizedControlType.htm
 tech.root: WinAuto
 ms.assetid: 72e60876-ecda-411a-8d90-a96827c66453
 ms.date: 12/05/2018
 ms.keywords: CurrentLocalizedControlType property [Windows Accessibility], CurrentLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLocalizedControlType property, IUIAutomationElement.CurrentLocalizedControlType, IUIAutomationElement.get_CurrentLocalizedControlType, IUIAutomationElement::CurrentLocalizedControlType, IUIAutomationElement::get_CurrentLocalizedControlType, get_CurrentLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType, winauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CurrentLocalizedControlType
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CurrentLocalizedControlType
-- IUIAutomationElement.get_CurrentLocalizedControlType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CurrentLocalizedControlType
+ - uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CurrentLocalizedControlType
+ - IUIAutomationElement.get_CurrentLocalizedControlType
 ---
 
 # IUIAutomationElement::get_CurrentLocalizedControlType
@@ -49,34 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a localized description of the control type of the element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype">CachedLocalizedControlType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedlocalizedcontroltype">CachedLocalizedControlType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

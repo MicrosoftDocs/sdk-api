@@ -2,15 +2,12 @@
 UID: NF:wmsdkvalidate.WMIsAvailableOffline
 title: WMIsAvailableOffline function (wmsdkvalidate.h)
 description: The WMIsAvailableOffline function verifies that an ASF file can be played from a cached copy.
+helpviewer_keywords: ["WMIsAvailableOffline","WMIsAvailableOffline function [windows Media Format]","wmformat.wmisavailableoffline","wmsdkvalidate/WMIsAvailableOffline"]
 old-location: wmformat\wmisavailableoffline.htm
 tech.root: wmformat
 ms.assetid: caa700ba-143e-454b-9016-6e79c0a83271
 ms.date: 12/05/2018
 ms.keywords: WMIsAvailableOffline, WMIsAvailableOffline function [windows Media Format], wmformat.wmisavailableoffline, wmsdkvalidate/WMIsAvailableOffline
-f1_keywords:
-- wmsdkvalidate/WMIsAvailableOffline
-dev_langs:
-- c++
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMIsAvailableOffline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMIsAvailableOffline
+ - wmsdkvalidate/WMIsAvailableOffline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMIsAvailableOffline
 ---
 
 # WMIsAvailableOffline function
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMIsAvailableOffline</b> function verifies that an ASF file can be played from a cached copy. If a user plays a file from a network location, part or all of the file may be stored in a cache. If that cached copy exists on the local machine, the user may be able to play the file without being connected to the network.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszURL [in]
 
 Wide-character <b>null</b>-terminated string containing the URL of the file to be checked.
-
 
 ### -param pwszLanguage [in]
 
@@ -71,15 +64,11 @@ Wide-character <b>null</b>-terminated string containing the RFC 1766-compliant l
 
 Set to <b>NULL</b> if all languages are acceptable.
 
-
 ### -param pfIsAvailableOffline [out]
 
 Pointer to a Boolean value that is set to True if the file is available offline.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,18 +100,7 @@ One or both of the input parameters are <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

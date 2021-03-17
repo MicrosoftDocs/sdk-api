@@ -2,15 +2,12 @@
 UID: NF:wincodec.WICConvertBitmapSource
 title: WICConvertBitmapSource function (wincodec.h)
 description: Obtains a IWICBitmapSource in the desired pixel format from a given IWICBitmapSource.
+helpviewer_keywords: ["WICConvertBitmapSource","WICConvertBitmapSource function [Windows Imaging Component]","_wic_codec_wicconvertbitmapsource","wic._wic_codec_wicconvertbitmapsource","wincodec/WICConvertBitmapSource"]
 old-location: wic\_wic_codec_wicconvertbitmapsource.htm
 tech.root: wic
 ms.assetid: ea735296-1bfd-4175-b8c9-cb5a61ab4203
 ms.date: 12/05/2018
 ms.keywords: WICConvertBitmapSource, WICConvertBitmapSource function [Windows Imaging Component], _wic_codec_wicconvertbitmapsource, wic._wic_codec_wicconvertbitmapsource, wincodec/WICConvertBitmapSource
-f1_keywords:
-- wincodec/WICConvertBitmapSource
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -25,85 +22,69 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Windowscodecs.dll
-- Wincodec.lib
-api_name:
-- WICConvertBitmapSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICConvertBitmapSource
+ - wincodec/WICConvertBitmapSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Windowscodecs.dll
+ - Windowscodecs.lib
+api_name:
+ - WICConvertBitmapSource
 ---
-
-# WICConvertBitmapSource function
-
 
 ## -description
 
-
-Obtains a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
-
+Obtains a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
 
 ## -parameters
 
-
-
-
 ### -param dstFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 
-
 ### -param pISrc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The source bitmap.
 
-
 ### -param ppIDst [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
 
 A pointer to the <b>null</b>-initialized destination bitmap pointer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
+If the <i>pISrc</i> bitmap is already in the desired format, then <i>pISrc</i> is copied to the destination bitmap pointer and a reference is added. If it is not in the desired format however, <b>WICConvertBitmapSource</b> will instantiate a <i>dstFormat</i> format converter and initialize it with <i>pISrc</i>.
 
+## Examples
 
-If the <i>pISrc</i> bitmap is already in the desired format, <i>pISrc</i> is copied to the destination bitmap pointer and a reference is added. If it is not in the desired format however, <b>WICConvertBitmapSource</b> will instantiate a <i>dstFormat</i> format converter and initialize it with <i>pISrc</i>.
-
-
-#### Examples
-
-The following example converts an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
-
+The following example converts an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
 
 ```cpp
-
    IWICImagingFactory *pFactory = NULL;
    IWICBitmapDecoder *pDecoder = NULL;
    IWICBitmapFrameDecode *pBitmapFrameDecode = NULL;
@@ -226,7 +207,4 @@ The following example converts an <a href="https://docs.microsoft.com/windows/de
 
    return hr;
 ```
-
-
-
 

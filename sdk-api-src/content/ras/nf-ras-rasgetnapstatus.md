@@ -2,15 +2,12 @@
 UID: NF:ras.RasGetNapStatus
 title: RasGetNapStatus function (ras.h)
 description: Retrieves the Network Access Protection (NAP) connection state variables for a given remote access connection.
+helpviewer_keywords: ["RasGetNapStatus","ras/rasgetnapstatus","rasgetnapstatus","rasgetnapstatus function [RAS]","rras.rasgetnapstatus"]
 old-location: rras\rasgetnapstatus.htm
 tech.root: RRAS
 ms.assetid: 7f36f93f-7e07-4ad8-923f-59146bda4687
 ms.date: 12/05/2018
 ms.keywords: RasGetNapStatus, ras/rasgetnapstatus, rasgetnapstatus, rasgetnapstatus function [RAS], rras.rasgetnapstatus
-f1_keywords:
-- ras/rasgetnapstatus
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- rasgetnapstatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetNapStatus
+ - ras/RasGetNapStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - rasgetnapstatus
 ---
 
 # RasGetNapStatus function
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>RasGetNapStatus</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) connection state variables for a given remote access connection.
-
+The <b>RasGetNapStatus</b> function retrieves the <a href="/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) connection state variables for a given remote access connection.
 
 ## -parameters
 
-
-
-
 ### -param hRasconn [in]
 
-A handle to the connection. Use <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> to obtain this handle. 
-					
-
+A handle to the connection. Use <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or <a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> to obtain this handle.
 
 ### -param pRasNapState [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure. On input, the <b>dwSize</b> member of the structure must be set to <b>sizeof(RASNAPSTATE)</b>. On output, <i>pNapState</i> returns the NAP state of the RAS connection.
- 
-
+A pointer to a <a href="/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure. On input, the <b>dwSize</b> member of the structure must be set to <b>sizeof(RASNAPSTATE)</b>. On output, <i>pNapState</i> returns the NAP state of the RAS connection.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -100,7 +91,7 @@ Connection corresponding to the <i>hRasConn</i> parameter is not configured for 
 </dl>
 </td>
 <td width="60%">
-The <i>dwSize</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure has an invalid size value.
+The <i>dwSize</i> parameter of the <a href="/windows/desktop/api/ras/ns-ras-rasnapstate">RASNAPSTATE</a> structure has an invalid size value.
 
 </td>
 </tr>
@@ -127,7 +118,3 @@ RASMAN could not find the handle in its list of handles.
 </td>
 </tr>
 </table>
- 
-
-
-

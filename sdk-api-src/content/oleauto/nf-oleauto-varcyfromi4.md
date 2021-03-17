@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarCyFromI4
 title: VarCyFromI4 function (oleauto.h)
 description: Converts a long value to a currency value.
+helpviewer_keywords: ["VarCyFromI4","VarCyFromI4 function [Automation]","_oa96_VarCyFromI4","automat.varcyfromi4","oleauto/VarCyFromI4"]
 old-location: automat\varcyfromi4.htm
 tech.root: automat
 ms.assetid: 5b9230fb-96c0-4b61-b932-e703a3611fbf
 ms.date: 12/05/2018
 ms.keywords: VarCyFromI4, VarCyFromI4 function [Automation], _oa96_VarCyFromI4, automat.varcyfromi4, oleauto/VarCyFromI4
-f1_keywords:
-- oleauto/VarCyFromI4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarCyFromI4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarCyFromI4
+ - oleauto/VarCyFromI4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarCyFromI4
 ---
 
 # VarCyFromI4 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a long value to a currency value.
 
-
 ## -parameters
-
-
-
 
 ### -param lIn [in]
 
 The value to convert.
 
-
 ### -param pcyOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

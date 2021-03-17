@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexByteStreamCount
 title: IMFASFIndexer::GetIndexByteStreamCount (wmcontainer.h)
 description: Retrieves the number of byte streams that are in use by the indexer object.
+helpviewer_keywords: ["GetIndexByteStreamCount","GetIndexByteStreamCount method [Media Foundation]","GetIndexByteStreamCount method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexByteStreamCount method","IMFASFIndexer.GetIndexByteStreamCount","IMFASFIndexer::GetIndexByteStreamCount","a433af8a-9e8a-4234-9694-c3a5420a1710","mf.imfasfindexer_getindexbytestreamcount","wmcontainer/IMFASFIndexer::GetIndexByteStreamCount"]
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
 ms.date: 12/05/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
-f1_keywords:
-- wmcontainer/IMFASFIndexer.GetIndexByteStreamCount
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFIndexer.GetIndexByteStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFIndexer::GetIndexByteStreamCount
+ - wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFIndexer.GetIndexByteStreamCount
 ---
 
 # IMFASFIndexer::GetIndexByteStreamCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of byte streams that are  in use by the  indexer object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcByteStreams [out]
 
 Receives the number of byte streams that are  in use by the indexer object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,22 +91,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

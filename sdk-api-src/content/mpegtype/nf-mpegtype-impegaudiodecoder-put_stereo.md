@@ -2,15 +2,12 @@
 UID: NF:mpegtype.IMpegAudioDecoder.put_Stereo
 title: IMpegAudioDecoder::put_Stereo (mpegtype.h)
 description: Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
+helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","put_Stereo method","IMpegAudioDecoder.put_Stereo","IMpegAudioDecoder::put_Stereo","IMpegAudioDecoderputStereo","dshow.impegaudiodecoder_put_stereo","mpegtype/IMpegAudioDecoder::put_Stereo","put_Stereo","put_Stereo method [DirectShow]","put_Stereo method [DirectShow]","IMpegAudioDecoder interface"]
 old-location: dshow\impegaudiodecoder_put_stereo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_Stereo method, IMpegAudioDecoder.put_Stereo, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow],IMpegAudioDecoder interface
-f1_keywords:
-- mpegtype/IMpegAudioDecoder.put_Stereo
-dev_langs:
-- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMpegAudioDecoder.put_Stereo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpegAudioDecoder::put_Stereo
+ - mpegtype/IMpegAudioDecoder::put_Stereo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMpegAudioDecoder.put_Stereo
 ---
 
 # IMpegAudioDecoder::put_Stereo
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies whether the decoder will decode the encoded stream into stereo or mono PCM.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Stereo [in]
 
 Specifies the decoded output type. 1 = mono and 2 = stereo.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>

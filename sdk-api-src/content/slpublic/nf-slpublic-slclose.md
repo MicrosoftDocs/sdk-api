@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLClose
 title: SLClose function (slpublic.h)
 description: Closes the Software Licensing Client (SLC) context handle.
+helpviewer_keywords: ["SLClose","SLClose function [Security]","security.slclose","slpublic/SLClose"]
 old-location: security\slclose.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
 ms.date: 12/05/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
-f1_keywords:
-- slpublic/SLClose
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLClose
+ - slpublic/SLClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLClose
 ---
 
 # SLClose function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the Software Licensing Client (SLC) context handle. When this function is called,
 	the associated context on the Software Licensing Service (SLS) is released.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -64,10 +61,7 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -91,7 +85,4 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

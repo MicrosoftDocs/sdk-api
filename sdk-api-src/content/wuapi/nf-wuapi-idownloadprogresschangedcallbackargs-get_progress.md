@@ -2,15 +2,12 @@
 UID: NF:wuapi.IDownloadProgressChangedCallbackArgs.get_Progress
 title: IDownloadProgressChangedCallbackArgs::get_Progress (wuapi.h)
 description: Gets an interface that contains the progress of the asynchronous download at the time that the callback was made.
+helpviewer_keywords: ["IDownloadProgressChangedCallbackArgs interface [Windows Update Agent]","Progress property","IDownloadProgressChangedCallbackArgs.Progress","IDownloadProgressChangedCallbackArgs.get_Progress","IDownloadProgressChangedCallbackArgs::Progress","IDownloadProgressChangedCallbackArgs::get_Progress","Progress property [Windows Update Agent]","Progress property [Windows Update Agent]","IDownloadProgressChangedCallbackArgs interface","get_Progress","wua.idownloadprogresschangedcallbackargs_progress","wuapi/IDownloadProgressChangedCallbackArgs::Progress","wuapi/IDownloadProgressChangedCallbackArgs::get_Progress"]
 old-location: wua\idownloadprogresschangedcallbackargs_progress.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 28d884ce-4f96-4d5b-9e69-f51a4814fac2
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IDownloadProgressChangedCallbackArgs.Progress, IDownloadProgressChangedCallbackArgs.get_Progress, IDownloadProgressChangedCallbackArgs::Progress, IDownloadProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IDownloadProgressChangedCallbackArgs interface, get_Progress, wua.idownloadprogresschangedcallbackargs_progress, wuapi/IDownloadProgressChangedCallbackArgs::Progress, wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
-f1_keywords:
-- wuapi/IDownloadProgressChangedCallbackArgs.Progress
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadProgressChangedCallbackArgs.Progress
-- IDownloadProgressChangedCallbackArgs.get_Progress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadProgressChangedCallbackArgs::get_Progress
+ - wuapi/IDownloadProgressChangedCallbackArgs::get_Progress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadProgressChangedCallbackArgs.Progress
+ - IDownloadProgressChangedCallbackArgs.get_Progress
 ---
 
 # IDownloadProgressChangedCallbackArgs::get_Progress
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface that contains the progress of the asynchronous download at the time that the callback was made.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a>

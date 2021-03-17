@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509PrivateKey.Export
 title: IX509PrivateKey::Export (certenroll.h)
 description: Copies the private key to a byte array.
+helpviewer_keywords: ["BCRYPT_PRIVATE_KEY_BLOB","BCRYPT_PUBLIC_KEY_BLOB","Export","Export method [Security]","Export method [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","Export method","IX509PrivateKey.Export","IX509PrivateKey::Export","certenroll/IX509PrivateKey::Export","security.ix509privatekey_export_method"]
 old-location: security\ix509privatekey_export_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 86316966-11d5-42d6-8690-eddfe86f8150
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, Export, Export method [Security], Export method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Export method, IX509PrivateKey.Export, IX509PrivateKey::Export, certenroll/IX509PrivateKey::Export, security.ix509privatekey_export_method
-f1_keywords:
-- certenroll/IX509PrivateKey.Export
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.Export
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::Export
+ - certenroll/IX509PrivateKey::Export
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.Export
 ---
 
 # IX509PrivateKey::Export
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Export</b> method copies the private key to a byte array. The byte array is represented by a Unicode-encoded string.
 
-
 ## -parameters
-
-
-
 
 ### -param strExportType [in]
 
 A <b>BSTR</b> value that specifies how the private key is exported. 
 
-If the key was created by using a CNG KSP (Key Storage Provider), you can specify one of the values allowed by the <i>pszBlobType</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function.
+If the key was created by using a CNG KSP (Key Storage Provider), you can specify one of the values allowed by the <i>pszBlobType</i> parameter in the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function.
 
 If the key was created by using a CryptoAPI CSP (Cryptographic Service Provider), you can specify one of the following values from the Bcrypt.h header file included with Wincrypt.h.
 
@@ -93,26 +90,20 @@ Exports the entire private key.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding to be applied to the string contained in the <i>pstrEncodedKey</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
-
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding to be applied to the string contained in the <i>pstrEncodedKey</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
 
 ### -param pstrEncodedKey [out]
 
 Pointer to a <b>BSTR</b> variable that contains the private key.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -131,18 +122,7 @@ The key was created by a CryptoAPI CSP and you specified a value other than BCRY
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

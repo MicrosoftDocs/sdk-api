@@ -2,16 +2,12 @@
 UID: NF:wdspxe.PxeProviderQueryIndex
 title: PxeProviderQueryIndex function (wdspxe.h)
 description: Returns the index of the specified provider in the list of registered providers.
+helpviewer_keywords: ["PxeProviderQueryIndex","PxeProviderQueryIndex function [Windows Deployment Services]","wds.pxeproviderqueryindex","wdspxe/PxeProviderQueryIndex"]
 old-location: wds\pxeproviderqueryindex.htm
 tech.root: wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942
 ms.date: 12/05/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
-ms.topic: function
-f1_keywords:
-- wdspxe/PxeProviderQueryIndex
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeProviderQueryIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeProviderQueryIndex
+ - wdspxe/PxeProviderQueryIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeProviderQueryIndex
 ---
 
 # PxeProviderQueryIndex function
@@ -49,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the index of the specified provider in the list of registered providers.
 
-
 ## -parameters
-
-
-
 
 ### -param pszProviderName [in]
 
 Friendly name for the provider from the call to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a> function.
-
+      <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a> function.
 
 ### -param puIndex [out]
 
 Address of a <b>ULONG</b> that will receive the index of the provider.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -remarks
-
-
 
 If a provider wants to insert itself in the list of registered providers in a specific order (that is, wants to 
     service client requests before or after a certain provider), it can query the index of another provider and then use 
@@ -110,21 +97,10 @@ if (dwError == ERROR_SUCCESS)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

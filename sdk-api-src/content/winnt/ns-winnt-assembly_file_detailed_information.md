@@ -2,15 +2,12 @@
 UID: NS:winnt._ASSEMBLY_FILE_DETAILED_INFORMATION
 title: ASSEMBLY_FILE_DETAILED_INFORMATION (winnt.h)
 description: The ASSEMBLY_FILE_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
+helpviewer_keywords: ["*PASSEMBLY_FILE_DETAILED_INFORMATION","ASSEMBLY_FILE_DETAILED_INFORMATION","ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies]","PASSEMBLY_FILE_DETAILED_INFORMATION","PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies]","_ASSEMBLY_FILE_DETAILED_INFORMATION","_win32_assembly_file_detailed_information","setup.assembly_file_detailed_information","winnt/ASSEMBLY_FILE_DETAILED_INFORMATION","winnt/PASSEMBLY_FILE_DETAILED_INFORMATION"]
 old-location: setup\assembly_file_detailed_information.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 7f1e5155-a6c1-4b6a-be47-37fab337186c
 ms.date: 12/05/2018
 ms.keywords: '*PASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION, ASSEMBLY_FILE_DETAILED_INFORMATION structure [Side-by-side Assemblies], PASSEMBLY_FILE_DETAILED_INFORMATION, PASSEMBLY_FILE_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ASSEMBLY_FILE_DETAILED_INFORMATION, _win32_assembly_file_detailed_information, setup.assembly_file_detailed_information, winnt/ASSEMBLY_FILE_DETAILED_INFORMATION, winnt/PASSEMBLY_FILE_DETAILED_INFORMATION'
-f1_keywords:
-- winnt/ASSEMBLY_FILE_DETAILED_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- ASSEMBLY_FILE_DETAILED_INFORMATION
 targetos: Windows
 req.typenames: ASSEMBLY_FILE_DETAILED_INFORMATION, *PASSEMBLY_FILE_DETAILED_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ASSEMBLY_FILE_DETAILED_INFORMATION
+ - winnt/_ASSEMBLY_FILE_DETAILED_INFORMATION
+ - PASSEMBLY_FILE_DETAILED_INFORMATION
+ - winnt/PASSEMBLY_FILE_DETAILED_INFORMATION
+ - ASSEMBLY_FILE_DETAILED_INFORMATION
+ - winnt/ASSEMBLY_FILE_DETAILED_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - ASSEMBLY_FILE_DETAILED_INFORMATION
 ---
 
 # ASSEMBLY_FILE_DETAILED_INFORMATION structure
@@ -48,48 +54,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ASSEMBLY_FILE_DETAILED_INFORMATION</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field ulFlags
 
 This value is always 0.
 
-
 ### -field ulFilenameLength
 
 Length in bytes of the file name pointed to by <b>lpFileName</b>. The count does not include the terminating null character.
-
 
 ### -field ulPathLength
 
 Length in bytes of the path string pointed to by <b>lpFilePath</b> The count does not include the terminating null character.
 
-
 ### -field lpFileName
 
 Null-terminated string that specifies the name of the file.
-
 
 ### -field lpFilePath
 
 Null-terminated string that specifies the path to the file named in <b>lpFileName</b>.
 
-
 ## -remarks
 
-
-
 If 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the FileInformationInAssemblyOfAssemblyInActivationContext option, and the function succeeds, the information in the returned buffer is in form of the 
+<a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> is called with the FileInformationInAssemblyOfAssemblyInActivationContext option, and the function succeeds, the information in the returned buffer is in form of the 
 <b>ASSEMBLY_FILE_DETAILED_INFORMATION</b> structure. The following is an example of a structure used to hold detailed information about the activation context and a call from 
 <b>QueryActCtxW</b>.
 
@@ -162,7 +156,3 @@ DoneQuerying:
     }
 
 ```
-
-
-
-

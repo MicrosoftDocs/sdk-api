@@ -2,15 +2,12 @@
 UID: NF:wpcapi.IWPCSettings.IsLoggingRequired
 title: IWPCSettings::IsLoggingRequired (wpcapi.h)
 description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
+helpviewer_keywords: ["IWPCSettings interface","IsLoggingRequired method","IWPCSettings.IsLoggingRequired","IWPCSettings::IsLoggingRequired","IsLoggingRequired","IsLoggingRequired method","IsLoggingRequired method","IWPCSettings interface","parcon.iwpcsettings_isloggingrequired","wpcapi/IWPCSettings::IsLoggingRequired"]
 old-location: parcon\iwpcsettings_isloggingrequired.htm
 tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
 ms.date: 12/05/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
-f1_keywords:
-- wpcapi/IWPCSettings.IsLoggingRequired
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCSettings.IsLoggingRequired
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCSettings::IsLoggingRequired
+ - wpcapi/IWPCSettings::IsLoggingRequired
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCSettings.IsLoggingRequired
 ---
 
 # IWPCSettings::IsLoggingRequired
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether activity logging should be performed when obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface.
-
+Determines whether activity logging should be performed when obtaining the <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param pfRequired [out]
 
 Indicates whether logging is required.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,18 +112,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>

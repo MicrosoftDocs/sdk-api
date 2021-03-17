@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdState.GetDiscID
 title: IDvdState::GetDiscID (strmif.h)
 description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.
+helpviewer_keywords: ["GetDiscID","GetDiscID method [DirectShow]","GetDiscID method [DirectShow]","IDvdState interface","IDvdState interface [DirectShow]","GetDiscID method","IDvdState.GetDiscID","IDvdState::GetDiscID","IDvdStateGetDiscID","dshow.idvdstate_getdiscid","strmif/IDvdState::GetDiscID"]
 old-location: dshow\idvdstate_getdiscid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676
 ms.date: 12/05/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetDiscID method, IDvdState.GetDiscID, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
-f1_keywords:
-- strmif/IDvdState.GetDiscID
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdState.GetDiscID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdState::GetDiscID
+ - strmif/IDvdState::GetDiscID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdState.GetDiscID
 ---
 
 # IDvdState::GetDiscID
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDiscID</code> method retrieves the unique ID of the disc from which the bookmark was made.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pullUniqueID [out]
 
 Receives the ID.
 
-
 ## -returns
-
-
 
 Returns one of the values shown in the following table.
 
@@ -100,26 +91,15 @@ Invalid argument
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdstate">IDvdState Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdstate">IDvdState Interface</a>

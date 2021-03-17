@@ -2,15 +2,12 @@
 UID: NS:ntddmou._MOUSE_ATTRIBUTES
 title: MOUSE_ATTRIBUTES (ntddmou.h)
 description: MOUSE_ATTRIBUTES specifies the attributes of a mouse device.
+helpviewer_keywords: ["*PMOUSE_ATTRIBUTES","MOUSE_ATTRIBUTES","MOUSE_ATTRIBUTES structure [Human Input Devices]","PMOUSE_ATTRIBUTES","PMOUSE_ATTRIBUTES structure pointer [Human Input Devices]","hid.mouse_attributes","mref_22017a48-dbf7-430b-ad42-908dc16fbaff.xml","ntddmou/MOUSE_ATTRIBUTES","ntddmou/PMOUSE_ATTRIBUTES"]
 old-location: hid\mouse_attributes.htm
 tech.root: hid
 ms.assetid: e1054d4c-e149-4ebd-9336-2a1060e1e53d
 ms.date: 12/05/2018
 ms.keywords: '*PMOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES, MOUSE_ATTRIBUTES structure [Human Input Devices], PMOUSE_ATTRIBUTES, PMOUSE_ATTRIBUTES structure pointer [Human Input Devices], hid.mouse_attributes, mref_22017a48-dbf7-430b-ad42-908dc16fbaff.xml, ntddmou/MOUSE_ATTRIBUTES, ntddmou/PMOUSE_ATTRIBUTES'
-f1_keywords:
-- ntddmou/MOUSE_ATTRIBUTES
-dev_langs:
-- c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntddmou.h
-api_name:
-- MOUSE_ATTRIBUTES
 targetos: Windows
 req.typenames: MOUSE_ATTRIBUTES, *PMOUSE_ATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MOUSE_ATTRIBUTES
+ - ntddmou/_MOUSE_ATTRIBUTES
+ - PMOUSE_ATTRIBUTES
+ - ntddmou/PMOUSE_ATTRIBUTES
+ - MOUSE_ATTRIBUTES
+ - ntddmou/MOUSE_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntddmou.h
+api_name:
+ - MOUSE_ATTRIBUTES
 ---
 
 # MOUSE_ATTRIBUTES structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 MOUSE_ATTRIBUTES specifies the attributes of a mouse device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MouseIdentifier
 
@@ -157,40 +158,23 @@ Serial port wheel mouse
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NumberOfButtons
 
-Specifies the number of buttons supported by a mouse. A mouse can have from two to five buttons. The default value is MOUSE_NUMBER_OF_BUTTONS. 
-
+Specifies the number of buttons supported by a mouse. A mouse can have from two to five buttons. The default value is MOUSE_NUMBER_OF_BUTTONS.
 
 ### -field SampleRate
 
 Specifies the rate, in reports per second, at which input from a PS/2 mouse is sampled. The default value is MOUSE_SAMPLE_RATE. This value is not used for USB devices.
 
-
 ### -field InputDataQueueLength
 
-Specifies the size, in bytes, of the input data queue used by the port driver for a mouse device. 
-
+Specifies the size, in bytes, of the input data queue used by the port driver for a mouse device.
 
 ## -remarks
 
-
-
-This structure is used with an <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request to obtain the attributes of a mouse. 
-
-
-
+This structure is used with an <a href="/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request to obtain the attributes of a mouse.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>

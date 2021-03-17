@@ -2,15 +2,12 @@
 UID: NF:winbio.WinBioGetDomainLogonSetting
 title: WinBioGetDomainLogonSetting function (winbio.h)
 description: Retrieves a value that specifies whether users can log on to a domain by using biometric information.
+helpviewer_keywords: ["WINBIO_SETTING_SOURCE_DEFAULT","WINBIO_SETTING_SOURCE_INVALID","WINBIO_SETTING_SOURCE_LOCAL","WINBIO_SETTING_SOURCE_POLICY","WinBioGetDomainLogonSetting","WinBioGetDomainLogonSetting function [Windows Biometric Framework API]","secbiomet.winbiogetdomainlogonsetting","winbio/WinBioGetDomainLogonSetting"]
 old-location: secbiomet\winbiogetdomainlogonsetting.htm
 tech.root: SecBioMet
 ms.assetid: bc09c606-654e-4871-ae2e-09fac3982e94
 ms.date: 12/05/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetDomainLogonSetting, WinBioGetDomainLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetdomainlogonsetting, winbio/WinBioGetDomainLogonSetting
-f1_keywords:
-- winbio/WinBioGetDomainLogonSetting
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
-api_name:
-- WinBioGetDomainLogonSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioGetDomainLogonSetting
+ - winbio/WinBioGetDomainLogonSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+api_name:
+ - WinBioGetDomainLogonSetting
 ---
 
 # WinBioGetDomainLogonSetting function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that specifies whether users can log on to a domain by using biometric information.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [out]
 
 Pointer to a Boolean value that specifies whether biometric domain logons are enabled.
-
 
 ### -param Source [out]
 
@@ -115,25 +111,11 @@ The setting was created by Group Policy.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>

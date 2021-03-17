@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
 title: IMultisessionSequential::get_LastWrittenAddressOfPreviousSession (imapi2.h)
 description: Retrieves the last sector written in the previous session on the media.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_LastWrittenAddressOfPreviousSession method","IMultisessionSequential.get_LastWrittenAddressOfPreviousSession","IMultisessionSequential::get_LastWrittenAddressOfPreviousSession","get_LastWrittenAddressOfPreviousSession","get_LastWrittenAddressOfPreviousSession method [IMAPI]","get_LastWrittenAddressOfPreviousSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_lastwrittenaddressofprevioussession","imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession"]
 old-location: imapi\imultisessionsequential_get_lastwrittenaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: a37aa4d1-0862-463d-acf1-3a85e491ef26
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IMultisessionSequential.get_LastWrittenAddressOfPreviousSession, IMultisessionSequential::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_lastwrittenaddressofprevioussession, imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
-f1_keywords:
-- imapi2/IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
+ - imapi2/IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential.get_LastWrittenAddressOfPreviousSession
 ---
 
 # IMultisessionSequential::get_LastWrittenAddressOfPreviousSession
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the last sector written in the previous session on the media.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
 Sector number that identifies the last sector written in the previous write session.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,18 +81,7 @@ Value: 0x80004001
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>

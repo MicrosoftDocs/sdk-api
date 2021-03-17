@@ -2,15 +2,12 @@
 UID: NN:uiautomationcore.IAnnotationProvider
 title: IAnnotationProvider (uiautomationcore.h)
 description: Exposes the properties of an annotation in a document.
+helpviewer_keywords: ["IAnnotationProvider","IAnnotationProvider interface [Windows Accessibility]","IAnnotationProvider interface [Windows Accessibility]","described","uiautomationcore/IAnnotationProvider","winauto.uiauto_IAnnotationProvider"]
 old-location: winauto\uiauto_IAnnotationProvider.htm
 tech.root: WinAuto
 ms.assetid: EDD711F1-9D1B-4B6B-8052-E9258759F46E
 ms.date: 12/05/2018
 ms.keywords: IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], IAnnotationProvider interface [Windows Accessibility],described, uiautomationcore/IAnnotationProvider, winauto.uiauto_IAnnotationProvider
-f1_keywords:
-- uiautomationcore/IAnnotationProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IAnnotationProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAnnotationProvider
+ - uiautomationcore/IAnnotationProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IAnnotationProvider
 ---
 
 # IAnnotationProvider interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes the properties of an annotation in a document.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>

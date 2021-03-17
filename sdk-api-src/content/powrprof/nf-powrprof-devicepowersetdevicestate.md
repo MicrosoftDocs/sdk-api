@@ -2,15 +2,12 @@
 UID: NF:powrprof.DevicePowerSetDeviceState
 title: DevicePowerSetDeviceState function (powrprof.h)
 description: Modifies the specified data on the specified device.
+helpviewer_keywords: ["DEVICEPOWER_CLEAR_WAKEENABLED","DEVICEPOWER_SET_WAKEENABLED","DevicePowerSetDeviceState","DevicePowerSetDeviceState function","base.devicepowersetdevicestate","powrprof/DevicePowerSetDeviceState"]
 old-location: base\devicepowersetdevicestate.htm
-tech.root: power
+tech.root: base
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
-f1_keywords:
-- powrprof/DevicePowerSetDeviceState
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- DevicePowerSetDeviceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DevicePowerSetDeviceState
+ - powrprof/DevicePowerSetDeviceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - DevicePowerSetDeviceState
 ---
 
 # DevicePowerSetDeviceState function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies the specified data on the specified device.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceDescription [in]
 
 The name or hardware identifier string of the device to be modified.
-
 
 ### -param SetFlags [in]
 
@@ -94,33 +90,18 @@ Stops the specified device from being able to wake the system.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param SetData [in]
 
 Reserved, must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-	      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+	      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/device-power-management">Device Power Management</a>

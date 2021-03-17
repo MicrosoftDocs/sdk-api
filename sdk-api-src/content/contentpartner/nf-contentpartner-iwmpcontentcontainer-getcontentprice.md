@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentContainer.GetContentPrice
 title: IWMPContentContainer::GetContentPrice (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["GetContentPrice","GetContentPrice method [Windows Media Player]","GetContentPrice method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetContentPrice method","IWMPContentContainer.GetContentPrice","IWMPContentContainer::GetContentPrice","IWMPContentContainerGetContentPrice","contentpartner/IWMPContentContainer::GetContentPrice","wmp.iwmpcontentcontainer_getcontentprice"]
 old-location: wmp\iwmpcontentcontainer_getcontentprice.htm
 tech.root: WMP
 ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
 ms.date: 12/05/2018
 ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
-f1_keywords:
-- contentpartner/IWMPContentContainer.GetContentPrice
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentContainer.GetContentPrice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentContainer::GetContentPrice
+ - contentpartner/IWMPContentContainer::GetContentPrice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentContainer.GetContentPrice
 ---
 
 # IWMPContentContainer::GetContentPrice
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetContentPrice</b> method retrieves the price of the media item at the specified index in the content container.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param idxContent [in]
 
 Specifies the zero-based index of the media item for which to retrieve the price.
-
 
 ### -param pbstrPrice [out]
 
@@ -91,12 +84,8 @@ Pointer to a <b>BSTR</b> that receives the price or one of the following constan
 <td>The content is free.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -117,27 +106,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/purchasing-media-content">Purchasing Media Content</a>.
-
-
-
+The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="/windows/desktop/WMP/purchasing-media-content">Purchasing Media Content</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>

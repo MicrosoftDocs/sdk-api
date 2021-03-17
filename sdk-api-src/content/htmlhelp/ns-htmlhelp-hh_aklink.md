@@ -2,15 +2,12 @@
 UID: NS:htmlhelp.tagHH_AKLINK
 title: HH_AKLINK (htmlhelp.h)
 description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
+helpviewer_keywords: ["HH_AKLINK","HH_AKLINK structure [HTML Help Workshop]","htmlhelp.hh_aklink_structure","htmlhelp/HH_AKLINK","vsconStrhhaklink"]
 old-location: htmlhelp\hh_aklink_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
 ms.date: 12/05/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, vsconStrhhaklink
-f1_keywords:
-- htmlhelp/HH_AKLINK
-dev_langs:
-- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- HtmlHelp.h
-api_name:
-- HH_AKLINK
 targetos: Windows
 req.typenames: HH_AKLINK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHH_AKLINK
+ - htmlhelp/tagHH_AKLINK
+ - HH_AKLINK
+ - htmlhelp/HH_AKLINK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - HtmlHelp.h
+api_name:
+ - HH_AKLINK
 ---
 
 # HH_AKLINK structure
@@ -48,44 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbStruct
 
-Specifies the size of the structure. This value must always be filled in before passing the structure to the HTML Help API. 
-
+Specifies the size of the structure. This value must always be filled in before passing the structure to the HTML Help API.
 
 ### -field fReserved
 
-This parameter must be set to FALSE. 
-
+This parameter must be set to FALSE.
 
 ### -field pszKeywords
 
-Specifies one or more ALink names or KLink keywords to look up. Multiple entries are delimited by a semicolon. 
-
+Specifies one or more ALink names or KLink keywords to look up. Multiple entries are delimited by a semicolon.
 
 ### -field pszUrl
 
-Specifies the topic file to navigate to if the lookup fails. <i>pszURL</i> refers to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-html-help-urls">valid topic</a> within the specified compiled help (.chm) file and does not support Internet protocols that point to an HTML file. 
-
+Specifies the topic file to navigate to if the lookup fails. <i>pszURL</i> refers to a <a href="/previous-versions/windows/desktop/htmlhelp/about-html-help-urls">valid topic</a> within the specified compiled help (.chm) file and does not support Internet protocols that point to an HTML file.
 
 ### -field pszMsgText
 
-Specifies the text to display in a message box if the lookup fails and <i>fIndexOnFail</i> is FALSE and <i>pszURL</i> is NULL. 
-
+Specifies the text to display in a message box if the lookup fails and <i>fIndexOnFail</i> is FALSE and <i>pszURL</i> is NULL.
 
 ### -field pszMsgTitle
 
-Specifies the caption of the message box in which the <i>pszMsgText</i> parameter appears. 
-
+Specifies the caption of the message box in which the <i>pszMsgText</i> parameter appears.
 
 ### -field pszWindow
 
@@ -98,15 +91,11 @@ Specifies the name of the window type in which to display one of the following:
 </ul>
 The Index tab, if the lookup fails and <i>fIndexOnFail</i> is specified as TRUE.
 
-
 ### -field fIndexOnFail
 
-Specifies whether to display the keyword in the Index tab of the HTML Help Viewer if the lookup fails. The value of <i>pszWindow</i> specifies the Help Viewer. 
-
+Specifies whether to display the keyword in the Index tab of the HTML Help Viewer if the lookup fails. The value of <i>pszWindow</i> specifies the Help Viewer.
 
 ## -remarks
-
-
 
 <ul>
 <li>ALink name and KLink keyword lookups are case sensitive, and multiple keywords are delimited by a semicolon.</li>
@@ -122,22 +111,13 @@ If the lookup yields no matching topics, <b>HtmlHelp()</b> checks the values of 
 <h3><a id="Used_by"></a><a id="used_by"></a><a id="USED_BY"></a>Used by</h3>
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/hh-alink-lookup-command">HH_ALINK_LOOKUP</a>
+<a href="/previous-versions/windows/desktop/htmlhelp/hh-alink-lookup-command">HH_ALINK_LOOKUP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/hh-keyword-lookup-command">HH_KEYWORD_LOOKUP</a>
+<a href="/previous-versions/windows/desktop/htmlhelp/hh-keyword-lookup-command">HH_KEYWORD_LOOKUP</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>

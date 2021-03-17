@@ -2,15 +2,12 @@
 UID: NF:winscard.SCardEndTransaction
 title: SCardEndTransaction function (winscard.h)
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
+helpviewer_keywords: ["SCARD_EJECT_CARD","SCARD_LEAVE_CARD","SCARD_RESET_CARD","SCARD_UNPOWER_CARD","SCardEndTransaction","SCardEndTransaction function [Security]","_smart_scardendtransaction","security.scardendtransaction","winscard/SCardEndTransaction"]
 old-location: security\scardendtransaction.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
 ms.date: 12/05/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
-f1_keywords:
-- winscard/SCardEndTransaction
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardEndTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardEndTransaction
+ - winscard/SCardEndTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardEndTransaction
 ---
 
 # SCardEndTransaction function
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardEndTransaction</b> function completes a previously declared <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">transaction</a>, allowing other applications to resume interactions with the card.
-
+The <b>SCardEndTransaction</b> function completes a previously declared <a href="/windows/desktop/SecGloss/t-gly">transaction</a>, allowing other applications to resume interactions with the card.
 
 ## -parameters
-
-
-
 
 ### -param hCard [in]
 
 Reference value obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>. This value would also have been used in an earlier call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a>.
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>. This value would also have been used in an earlier call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a>.
 
 ### -param dwDisposition [in]
 
@@ -116,16 +112,12 @@ Power down the card.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.   Possible error codes follow.
+If the function fails, it returns an error code. For more information, see <a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.   Possible error codes follow.
 
 <table>
 <tr>
@@ -140,29 +132,23 @@ If the function fails, it returns an error code. For more information, see <a hr
 </dl>
 </td>
 <td width="60%">
-The transaction was released. Any future communication with the card requires a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a> function.
+The transaction was released. Any future communication with the card requires a call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a> function.
 
-<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The transaction was not released. The application must immediately call the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a> function to avoid an existing transaction blocking other threads and processes from communicating with the smart card.
+<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The transaction was not released. The application must immediately call the <a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>, <a href="/windows/desktop/api/winscard/nf-winscard-scardreconnect">SCardReconnect</a>, or <a href="/windows/desktop/api/winscard/nf-winscard-scardreleasecontext">SCardReleaseContext</a> function to avoid an existing transaction blocking other threads and processes from communicating with the smart card.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>SCardEndTransaction</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information on other access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
+The <b>SCardEndTransaction</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="/windows/desktop/SecGloss/r-gly">reader</a> access function. For more information on other access functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
 
 #### Examples
 
-The following example ends a smart card transaction. The example assumes that lReturn is a valid variable of type <b>LONG</b>, that hCard is a valid handle received from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function, and that hCard was passed to a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a> function.
+The following example ends a smart card transaction. The example assumes that lReturn is a valid variable of type <b>LONG</b>, that hCard is a valid handle received from a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function, and that hCard was passed to a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a> function.
 
 
 ```cpp
@@ -174,21 +160,10 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardbegintransaction">SCardBeginTransaction</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>

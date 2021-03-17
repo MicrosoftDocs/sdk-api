@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagNMREBAR
 title: NMREBAR (commctrl.h)
 description: Contains information used in handling various rebar notifications.
+helpviewer_keywords: ["*LPNMREBAR","LPNMREBAR","LPNMREBAR structure pointer [Windows Controls]","NMREBAR","NMREBAR structure [Windows Controls]","RBNM_ID","RBNM_LPARAM","RBNM_STYLE","_win32_NMREBAR","_win32_NMREBAR_cpp","commctrl/LPNMREBAR","commctrl/NMREBAR","controls.NMREBAR","controls._win32_NMREBAR"]
 old-location: controls\NMREBAR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMREBAR, LPNMREBAR, LPNMREBAR structure pointer [Windows Controls], NMREBAR, NMREBAR structure [Windows Controls], RBNM_ID, RBNM_LPARAM, RBNM_STYLE, _win32_NMREBAR, _win32_NMREBAR_cpp, commctrl/LPNMREBAR, commctrl/NMREBAR, controls.NMREBAR, controls._win32_NMREBAR'
-f1_keywords:
-- commctrl/NMREBAR
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMREBAR
 targetos: Windows
 req.typenames: NMREBAR, *LPNMREBAR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMREBAR
+ - commctrl/tagNMREBAR
+ - LPNMREBAR
+ - commctrl/LPNMREBAR
+ - NMREBAR
+ - commctrl/NMREBAR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMREBAR
 ---
 
 # NMREBAR structure
@@ -48,26 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used in handling various rebar notifications. 
-
+Contains information used in handling various rebar notifications.
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Set of flags that define which members of this structure contain valid information. This can be one or more of the following values: 
 
@@ -110,37 +110,31 @@ The
 </td>
 </tr>
 </table>
- 
-
 
 ### -field uBand
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Zero-based index of the band affected by the notification. This will be -1 if no band is affected. 
-
+Zero-based index of the band affected by the notification. This will be -1 if no band is affected.
 
 ### -field fStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The style of the band. This is one or more of the RBBS_ styles detailed in the 
-					<b>fStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-rebarbandinfoa">REBARBANDINFO</a> structure. This member is only valid if 
-					<b>dwMask</b> contains RBNM_STYLE. 
-
+					<b>fStyle</b> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-rebarbandinfoa">REBARBANDINFO</a> structure. This member is only valid if 
+					<b>dwMask</b> contains RBNM_STYLE.
 
 ### -field wID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Application-defined identifier of the band. This member is only valid if 
-					<b>dwMask</b> contains RBNM_ID. 
-
+					<b>dwMask</b> contains RBNM_ID.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value associated with the band. This member is only valid if 
-					<b>dwMask</b> contains RBNM_LPARAM. 
-
+					<b>dwMask</b> contains RBNM_LPARAM.

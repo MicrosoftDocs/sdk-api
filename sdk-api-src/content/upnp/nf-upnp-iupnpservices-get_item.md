@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPServices.get_Item
 title: IUPnPServices::get_Item (upnp.h)
 description: The Item property specifies the IUPnPService interface for a service, identified by the service ID, in the collection.
+helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Item method","IUPnPServices.get_Item","IUPnPServices::get_Item","_upnp_iupnpservices_item","get_Item","get_Item method [UPnP APIs]","get_Item method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_item","upnp/IUPnPServices::get_Item"]
 old-location: upnp\iupnpservices_item.htm
 tech.root: upnp
 ms.assetid: e59e9b9c-986d-46de-9ce7-19eaad824953
 ms.date: 12/05/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Item method, IUPnPServices.get_Item, IUPnPServices::get_Item, _upnp_iupnpservices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_item, upnp/IUPnPServices::get_Item
-f1_keywords:
-- upnp/IUPnPServices.get_Item
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServices.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServices::get_Item
+ - upnp/IUPnPServices::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServices.get_Item
 ---
 
 # IUPnPServices::get_Item
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Item</b> property specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for a  service, identified by the service ID, in the collection.
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for a  service, identified by the service ID, in the collection.
 
 ## -parameters
-
-
-
 
 ### -param bstrServiceId [in]
 
 Specifies a service in the collection.
 
-
 ### -param ppService [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for the specified service.
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for the specified service.
 
 ## -returns
-
-
 
 For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h, or one of the following UPnP-specific return values.
 
@@ -104,18 +97,7 @@ Failed to subscribe to the event source.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

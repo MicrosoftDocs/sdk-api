@@ -2,15 +2,12 @@
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDistanceDecay
 title: SpatialAudioHrtfDistanceDecay (spatialaudiohrtf.h)
 description: Represents the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
+helpviewer_keywords: ["SpatialAudioHrtfDistanceDecay","SpatialAudioHrtfDistanceDecay union [Core Audio]","coreaudio.spatialaudiohrtfdistancedecay","spatialaudiohrtf/SpatialAudioHrtfDistanceDecay"]
 old-location: coreaudio\spatialaudiohrtfdistancedecay.htm
 tech.root: CoreAudio
 ms.assetid: 2EBAE322-2A5F-4610-B64F-F1B8CE2DFD2D
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDistanceDecay, SpatialAudioHrtfDistanceDecay union [Core Audio], coreaudio.spatialaudiohrtfdistancedecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
-f1_keywords:
-- spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
-dev_langs:
-- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- spatialaudiohrtf.h
-api_name:
-- SpatialAudioHrtfDistanceDecay
 targetos: Windows
 req.typenames: SpatialAudioHrtfDistanceDecay
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpatialAudioHrtfDistanceDecay
+ - spatialaudiohrtf/SpatialAudioHrtfDistanceDecay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - spatialaudiohrtf.h
+api_name:
+ - SpatialAudioHrtfDistanceDecay
 ---
 
 # SpatialAudioHrtfDistanceDecay structure
@@ -48,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents the decay model that is applied over distance from the position of an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener. 
-
+Represents the decay model that is applied over distance from the position of an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
 
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 The type of decay, natural or custom. The default value for this field is  <b>SpatialAudioHrtfDistanceDecay_NaturalDecay</b>.
 
-
 ### -field MaxGain
-
- 
-
 
 ### -field MinGain
 
- 
-
-
 ### -field UnityGainDistance
-
- 
-
 
 ### -field CutoffDistance
 
@@ -93,4 +80,3 @@ The minimum gain limit applied at any distance. Applies to both natural and cust
 The distance at which the gain is 0dB. Applies to natural decay only. This value is specified in meters, with a range from 0.05 to infinity (<b>FLT_MAX</b>). The default value is 1 meter. 
 
 The distance at which  the output is silent. Applies to natural decay only. This value is specified in meters, with a range from zero (non-inclusive) to infinity (<b>FLT_MAX</b>). The default value is <b>INFINITY</b>.
-

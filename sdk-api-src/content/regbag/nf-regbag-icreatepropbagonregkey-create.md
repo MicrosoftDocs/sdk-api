@@ -2,15 +2,12 @@
 UID: NF:regbag.ICreatePropBagOnRegKey.Create
 title: ICreatePropBagOnRegKey::Create (regbag.h)
 description: The Create method creates a property bag that can store information in the system registry.
+helpviewer_keywords: ["Create","Create method [Microsoft TV Technologies]","Create method [Microsoft TV Technologies]","ICreatePropBagOnRegKey interface","ICreatePropBagOnRegKey interface [Microsoft TV Technologies]","Create method","ICreatePropBagOnRegKey.Create","ICreatePropBagOnRegKey::Create","ICreatePropBagOnRegKeyCreate","mstv.icreatepropbagonregkey_create","regbag/ICreatePropBagOnRegKey::Create"]
 old-location: mstv\icreatepropbagonregkey_create.htm
 tech.root: mstv
 ms.assetid: d6410ead-7364-4db4-a4c9-cafe5fbf2e84
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Microsoft TV Technologies], Create method [Microsoft TV Technologies],ICreatePropBagOnRegKey interface, ICreatePropBagOnRegKey interface [Microsoft TV Technologies],Create method, ICreatePropBagOnRegKey.Create, ICreatePropBagOnRegKey::Create, ICreatePropBagOnRegKeyCreate, mstv.icreatepropbagonregkey_create, regbag/ICreatePropBagOnRegKey::Create
-f1_keywords:
-- regbag/ICreatePropBagOnRegKey.Create
-dev_langs:
-- c++
 req.header: regbag.h
 req.include-header: Tuner.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- regbag.h
-api_name:
-- ICreatePropBagOnRegKey.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreatePropBagOnRegKey::Create
+ - regbag/ICreatePropBagOnRegKey::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - regbag.h
+api_name:
+ - ICreatePropBagOnRegKey.Create
 ---
 
 # ICreatePropBagOnRegKey::Create
@@ -48,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Create</b> method creates a property bag that can store information in the system registry.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hkey [in]
 
 Specifies a handle to the registry key.
 
-
 ### -param subkey [in]
 
 Specifies the subkey.
-
 
 ### -param ulOptions [in]
 
 Reserved; must be zero.
 
-
 ### -param samDesired [in]
 
 Specifies the desired access rights to the key. The value can be any combination of flags from the <i>samDesired</i> parameter in the Win32 <b>RegOpenKeyEx</b> function.
-
 
 ### -param iid
 
 Specifies the interface identifier (IID) of a property bag interface. Use the value IID_IPropertyBag or IID_IPropertyBag2.
 
-
 ### -param ppBag [out]
 
 Address of a variable that receives the interface specified by the <i>iid</i> parameter.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -146,14 +132,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates a property bag and returns a pointer to the <b>IPropertyBag</b> or <b>IPropertyBag2</b> interface, depending on the value of the <i>iid</i> parameter. The returned property bag can access the specified registry key, using the access rights given in the <i>samDesired</i> parameter. The various property bag methods require different access rights, as follows:
 
@@ -264,7 +244,7 @@ switch (var.vt)
 ```
 
 
-The following example loads the default tune request and returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer:
+The following example loads the default tune request and returns an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer:
 
 
 ```cpp
@@ -311,17 +291,6 @@ HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/regbag/nn-regbag-icreatepropbagonregkey">ICreatePropBagOnRegKey Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/regbag/nn-regbag-icreatepropbagonregkey">ICreatePropBagOnRegKey Interface</a>

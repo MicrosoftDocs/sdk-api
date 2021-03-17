@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.ExcludeItem
 title: ISyncKnowledge::ExcludeItem (winsync.h)
 description: Removes knowledge about the specified item from the knowledge.
+helpviewer_keywords: ["ExcludeItem","ExcludeItem method [Windows Sync]","ExcludeItem method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ExcludeItem method","ISyncKnowledge.ExcludeItem","ISyncKnowledge::ExcludeItem","winsync.isyncknowledge_excludeitem","winsync/ISyncKnowledge::ExcludeItem"]
 old-location: winsync\isyncknowledge_excludeitem.htm
 tech.root: winsync
 ms.assetid: db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3
 ms.date: 12/05/2018
 ms.keywords: ExcludeItem, ExcludeItem method [Windows Sync], ExcludeItem method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeItem method, ISyncKnowledge.ExcludeItem, ISyncKnowledge::ExcludeItem, winsync.isyncknowledge_excludeitem, winsync/ISyncKnowledge::ExcludeItem
-f1_keywords:
-- winsync/ISyncKnowledge.ExcludeItem
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.ExcludeItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::ExcludeItem
+ - winsync/ISyncKnowledge::ExcludeItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.ExcludeItem
 ---
 
 # ISyncKnowledge::ExcludeItem
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes knowledge about the specified item from the knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param pbItemId [in]
 
 The ID of the item to remove from the knowledge.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -101,18 +95,7 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

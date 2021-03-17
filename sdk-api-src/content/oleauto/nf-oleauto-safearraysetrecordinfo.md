@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArraySetRecordInfo
 title: SafeArraySetRecordInfo function (oleauto.h)
 description: Sets the record info in the specified safe array.
+helpviewer_keywords: ["SafeArraySetRecordInfo","SafeArraySetRecordInfo function [Automation]","_oa96_SafeArraySetRecordInfo","automat.safearraysetrecordinfo","oleauto/SafeArraySetRecordInfo"]
 old-location: automat\safearraysetrecordinfo.htm
 tech.root: automat
 ms.assetid: 85317e8e-7625-4799-9c34-73245f164f85
 ms.date: 12/05/2018
 ms.keywords: SafeArraySetRecordInfo, SafeArraySetRecordInfo function [Automation], _oa96_SafeArraySetRecordInfo, automat.safearraysetrecordinfo, oleauto/SafeArraySetRecordInfo
-f1_keywords:
-- oleauto/SafeArraySetRecordInfo
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArraySetRecordInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArraySetRecordInfo
+ - oleauto/SafeArraySetRecordInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArraySetRecordInfo
 ---
 
 # SafeArraySetRecordInfo function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the record info in the specified safe array.
 
-
 ## -parameters
-
-
-
 
 ### -param psa [in]
 
 The array descriptor.
 
-
 ### -param prinfo [in]
 
 The record info.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -101,18 +94,7 @@ The argument <i>psa</i> is null or the array descriptor does not have the FADF_R
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

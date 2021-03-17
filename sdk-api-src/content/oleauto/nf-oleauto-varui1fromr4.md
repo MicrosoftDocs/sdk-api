@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI1FromR4
 title: VarUI1FromR4 function (oleauto.h)
 description: Converts a float value to an unsigned char value.
+helpviewer_keywords: ["VarUI1FromR4","VarUI1FromR4 function [Automation]","_oa96_VarUI1FromR4","automat.varui1fromr4","oleauto/VarUI1FromR4"]
 old-location: automat\varui1fromr4.htm
 tech.root: automat
 ms.assetid: 66457140-68a1-4ec6-a9df-829cd94f127b
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromR4, VarUI1FromR4 function [Automation], _oa96_VarUI1FromR4, automat.varui1fromr4, oleauto/VarUI1FromR4
-f1_keywords:
-- oleauto/VarUI1FromR4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI1FromR4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI1FromR4
+ - oleauto/VarUI1FromR4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI1FromR4
 ---
 
 # VarUI1FromR4 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a float value to an unsigned char value.
 
-
 ## -parameters
-
-
-
 
 ### -param fltIn [in]
 
 The value to convert.
 
-
 ### -param pbOut
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

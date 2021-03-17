@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509MachineEnrollmentFactory.CreateObject
 title: IX509MachineEnrollmentFactory::CreateObject (certenroll.h)
 description: Creates an IX509EnrollmentHelper object on a webpage.
+helpviewer_keywords: ["CreateObject","CreateObject method [Security]","CreateObject method [Security]","IX509MachineEnrollmentFactory interface","IX509MachineEnrollmentFactory interface [Security]","CreateObject method","IX509MachineEnrollmentFactory.CreateObject","IX509MachineEnrollmentFactory::CreateObject","certenroll/IX509MachineEnrollmentFactory::CreateObject","security.ix509machineenrollmentfactory_createobject"]
 old-location: security\ix509machineenrollmentfactory_createobject.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: f9a45219-1c88-4946-ad57-81b95c609066
 ms.date: 12/05/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509MachineEnrollmentFactory interface, IX509MachineEnrollmentFactory interface [Security],CreateObject method, IX509MachineEnrollmentFactory.CreateObject, IX509MachineEnrollmentFactory::CreateObject, certenroll/IX509MachineEnrollmentFactory::CreateObject, security.ix509machineenrollmentfactory_createobject
-f1_keywords:
-- certenroll/IX509MachineEnrollmentFactory.CreateObject
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509MachineEnrollmentFactory.CreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509MachineEnrollmentFactory::CreateObject
+ - certenroll/IX509MachineEnrollmentFactory::CreateObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509MachineEnrollmentFactory.CreateObject
 ---
 
 # IX509MachineEnrollmentFactory::CreateObject
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CreateObject</b> method creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage. This method is web enabled.
-
+The <b>CreateObject</b> method creates an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage. This method is web enabled.
 
 ## -parameters
-
-
-
 
 ### -param strProgID [in]
 
 A <b>BSTR</b> variable that contains the ProgID value. This must be "X509Enrollment.CX509EnrollmentHelper".
 
-
 ### -param ppIHelper [out, retval]
 
-Address of a pointer to a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface.
-
+Address of a pointer to a variable that receives a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -125,27 +118,11 @@ The <i>strProgID</i> parameter exceed 64,000 characters or contains embedded nul
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method calls <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-initialize">Initialize</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject">CreateObject</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentwebclassfactory">IX509EnrollmentWebClassFactory</a> interface.
-
-
-
+This method calls <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-initialize">Initialize</a> on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> interface by using the <b>ContextAdministratorForceMachine</b> context value, thereby specifying that all certificates to be enrolled by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a> object will be requested by an administrator acting on behalf of a computer. To enroll a user certificate, call <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentwebclassfactory-createobject">CreateObject</a> on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentwebclassfactory">IX509EnrollmentWebClassFactory</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509machineenrollmentfactory">IX509MachineEnrollmentFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509machineenrollmentfactory">IX509MachineEnrollmentFactory</a>

@@ -2,15 +2,12 @@
 UID: NF:securityappcontainer.GetAppContainerNamedObjectPath
 title: GetAppContainerNamedObjectPath function (securityappcontainer.h)
 description: Retrieves the named object path for the app container.
+helpviewer_keywords: ["GetAppContainerNamedObjectPath","GetAppContainerNamedObjectPath function [Security]","security.getappcontainernamedobjectpath","securityappcontainer/GetAppContainerNamedObjectPath"]
 old-location: security\getappcontainernamedobjectpath.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath
-f1_keywords:
-- securityappcontainer/GetAppContainerNamedObjectPath
-dev_langs:
-- c++
 req.header: securityappcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Security-AppContainer-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- GetAppContainerNamedObjectPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAppContainerNamedObjectPath
+ - securityappcontainer/GetAppContainerNamedObjectPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Security-AppContainer-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - GetAppContainerNamedObjectPath
 ---
 
 # GetAppContainerNamedObjectPath function
@@ -50,56 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAppContainerNamedObjectPath</b> function retrieves the named object path for the app container. Each app container has its own named object path.
 
-
 ## -parameters
-
-
-
 
 ### -param Token [in, optional]
 
 A handle pertaining to the token. If <b>NULL</b> is passed in and no <i>AppContainerSid</i> parameter is passed in, the caller's current process token is used, or the thread token if impersonating.
 
-
 ### -param AppContainerSid [in, optional]
 
-The SID of the app container. 
-
+The SID of the app container.
 
 ### -param ObjectPathLength [in]
 
 The length of the buffer.
 
-
 ### -param ObjectPath [out, optional]
 
 Buffer that is filled with the named object path.
-
 
 ### -param ReturnLength [out]
 
 Returns the length required to accommodate the length of the named object path.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns a value of <b>TRUE</b>. 
 
-If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns a value of <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/user-interface-technologies-for-windows-applications">UI Automation APIs</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/magapi/entry-magapi-sdk">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
+For assistive technology tools that work across Windows Store apps and desktop applications and have features that get loaded in the context of Windows Store apps, at times it may be necessary for the in-context feature to synchronize with the tool. Typically such synchronization is accomplished by establishing a named object in the user's session. Windows Store apps pose a challenge for this mechanism because, by default, named objects in the user's or global session are not accessible to Windows Store apps. We recommend that you update assistive technology tools to use <a href="/windows/desktop/AppUIStart/user-interface-technologies-for-windows-applications">UI Automation APIs</a> or <a href="/previous-versions/windows/desktop/magapi/entry-magapi-sdk">Magnification APIs</a> to avoid such pitfalls. In the interim, it may be necessary to continue using named objects.
 
 
 #### Examples
@@ -302,7 +287,3 @@ Cleanup:
 }
 
 ```
-
-
-
-

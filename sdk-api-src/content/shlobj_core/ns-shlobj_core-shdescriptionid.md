@@ -2,15 +2,12 @@
 UID: NS:shlobj_core._SHDESCRIPTIONID
 title: SHDESCRIPTIONID (shlobj_core.h)
 description: Receives item data in response to a call to SHGetDataFromIDList.
+helpviewer_keywords: ["*LPSHDESCRIPTIONID","LPSHDESCRIPTIONID","LPSHDESCRIPTIONID structure pointer [Windows Shell]","SHDESCRIPTIONID","SHDESCRIPTIONID structure [Windows Shell]","SHDID_COMPUTER_AUDIO","SHDID_COMPUTER_CDROM","SHDID_COMPUTER_DRIVE35","SHDID_COMPUTER_DRIVE525","SHDID_COMPUTER_FIXED","SHDID_COMPUTER_IMAGING","SHDID_COMPUTER_NETDRIVE","SHDID_COMPUTER_OTHER","SHDID_COMPUTER_RAMDISK","SHDID_COMPUTER_REMOVABLE","SHDID_COMPUTER_SHAREDDOCS","SHDID_FS_DIRECTORY","SHDID_FS_FILE","SHDID_FS_OTHER","SHDID_MOBILE_DEVICE","SHDID_NET_DOMAIN","SHDID_NET_OTHER","SHDID_NET_RESTOFNET","SHDID_NET_SERVER","SHDID_NET_SHARE","SHDID_ROOT_REGITEM","_SHDESCRIPTIONID","_win32_SHDESCRIPTIONID_str","shell.SHDESCRIPTIONID_str","shlobj_core/LPSHDESCRIPTIONID","shlobj_core/SHDESCRIPTIONID"]
 old-location: shell\SHDESCRIPTIONID_str.htm
 tech.root: shell
 ms.assetid: dca32567-2049-4797-af87-d08a5d5d055d
 ms.date: 12/05/2018
 ms.keywords: '*LPSHDESCRIPTIONID, LPSHDESCRIPTIONID, LPSHDESCRIPTIONID structure pointer [Windows Shell], SHDESCRIPTIONID, SHDESCRIPTIONID structure [Windows Shell], SHDID_COMPUTER_AUDIO, SHDID_COMPUTER_CDROM, SHDID_COMPUTER_DRIVE35, SHDID_COMPUTER_DRIVE525, SHDID_COMPUTER_FIXED, SHDID_COMPUTER_IMAGING, SHDID_COMPUTER_NETDRIVE, SHDID_COMPUTER_OTHER, SHDID_COMPUTER_RAMDISK, SHDID_COMPUTER_REMOVABLE, SHDID_COMPUTER_SHAREDDOCS, SHDID_FS_DIRECTORY, SHDID_FS_FILE, SHDID_FS_OTHER, SHDID_MOBILE_DEVICE, SHDID_NET_DOMAIN, SHDID_NET_OTHER, SHDID_NET_RESTOFNET, SHDID_NET_SERVER, SHDID_NET_SHARE, SHDID_ROOT_REGITEM, _SHDESCRIPTIONID, _win32_SHDESCRIPTIONID_str, shell.SHDESCRIPTIONID_str, shlobj_core/LPSHDESCRIPTIONID, shlobj_core/SHDESCRIPTIONID'
-f1_keywords:
-- shlobj_core/SHDESCRIPTIONID
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- SHDESCRIPTIONID
 targetos: Windows
 req.typenames: SHDESCRIPTIONID, *LPSHDESCRIPTIONID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHDESCRIPTIONID
+ - shlobj_core/_SHDESCRIPTIONID
+ - LPSHDESCRIPTIONID
+ - shlobj_core/LPSHDESCRIPTIONID
+ - SHDESCRIPTIONID
+ - shlobj_core/SHDESCRIPTIONID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - SHDESCRIPTIONID
 ---
 
 # SHDESCRIPTIONID structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Receives item data in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista">SHGetDataFromIDList</a>.
-
+Receives item data in response to a call to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista">SHGetDataFromIDList</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwDescriptionId
 
@@ -189,10 +190,8 @@ The item is an unidentified network resource.
 
 <b>Windows Vista and later.</b> The item is a mobile device, such as a personal digital assistant (PDA).
 
-
 ### -field clsid
 
 Type: <b>CLSID</b>
 
 Receives the CLSID of the object to which the item belongs.
-

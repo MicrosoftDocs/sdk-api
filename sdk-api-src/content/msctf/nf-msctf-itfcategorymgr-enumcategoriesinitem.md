@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCategoryMgr.EnumCategoriesInItem
 title: ITfCategoryMgr::EnumCategoriesInItem (msctf.h)
 description: ITfCategoryMgr::EnumCategoriesInItem method
+helpviewer_keywords: ["EnumCategoriesInItem","EnumCategoriesInItem method [Text Services Framework]","EnumCategoriesInItem method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","EnumCategoriesInItem method","ITfCategoryMgr.EnumCategoriesInItem","ITfCategoryMgr::EnumCategoriesInItem","_tsf_itfcategorymgr_enumcategoriesinitem_ref","msctf/ITfCategoryMgr::EnumCategoriesInItem","tsf.itfcategorymgr_enumcategoriesinitem"]
 old-location: tsf\itfcategorymgr_enumcategoriesinitem.htm
 tech.root: TSF
 ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.date: 12/05/2018
 ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
-f1_keywords:
-- msctf/ITfCategoryMgr.EnumCategoriesInItem
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.EnumCategoriesInItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::EnumCategoriesInItem
+ - msctf/ITfCategoryMgr::EnumCategoriesInItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.EnumCategoriesInItem
 ---
 
 # ITfCategoryMgr::EnumCategoriesInItem
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an IEnumGUID interface that enumerates all categories to which the specified GUID belongs.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains a GUID value that identifies the item to enumerate the categories for.
 
-
 ### -param ppEnum [out]
 
 Pointer to an IEnumGUID interface pointer that receives the enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,29 +116,8 @@ There is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">ITfCategoryMgr::EnumItemsInCategory
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
-      </a>
- 
-
- 
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumItemsInCategory](nf-msctf-itfcategorymgr-enumitemsincategory.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)
 

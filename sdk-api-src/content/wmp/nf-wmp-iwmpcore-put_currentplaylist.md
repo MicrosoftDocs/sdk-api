@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCore.put_currentPlaylist
 title: IWMPCore::put_currentPlaylist (wmp.h)
 description: The put_currentPlaylist method specifies the IWMPPlaylist interface that corresponds to the current playlist.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_currentPlaylist method","IWMPCore.put_currentPlaylist","IWMPCore::put_currentPlaylist","IWMPCoreput_currentPlaylist","put_currentPlaylist","put_currentPlaylist method [Windows Media Player]","put_currentPlaylist method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_currentplaylist","wmp/IWMPCore::put_currentPlaylist"]
 old-location: wmp\iwmpcore_put_currentplaylist.htm
 tech.root: WMP
 ms.assetid: 943641ca-9733-4066-bc69-834e792d93dc
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentPlaylist method, IWMPCore.put_currentPlaylist, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
-f1_keywords:
-- wmp/IWMPCore.put_currentPlaylist
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCore.put_currentPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore::put_currentPlaylist
+ - wmp/IWMPCore::put_currentPlaylist
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCore.put_currentPlaylist
 ---
 
 # IWMPCore::put_currentPlaylist
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_currentPlaylist</b> method specifies the <b>IWMPPlaylist</b> interface that corresponds to the current playlist.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPL [in]
 
 Pointer to an <b>IWMPPlaylist</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,37 +79,21 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <b>IWMPSettings::put_autoStart</b> method was invoked with an argument of true, file playback will begin automatically whenever you invoke <b>put_currentPlaylist</b>.
 
 You can retrieve an <b>IWMPMedia</b> interface for a given media object by invoking the <b>IWMPPlaylist::get_Item</b> method.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentplaylist">IWMPCore::get_currentPlaylist</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentplaylist">IWMPCore::get_currentPlaylist</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>

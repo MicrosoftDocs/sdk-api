@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted (vsprov.h)
 description: Determines whether any shadow copies exist for the specified volume.
+helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider.IsVolumeSnapshotted","IVssSoftwareSnapshotProvider::IsVolumeSnapshotted","IsVolumeSnapshotted","IsVolumeSnapshotted method","IsVolumeSnapshotted method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_isvolumesnapshotted","vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted"]
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSnapshotted method, IVssSoftwareSnapshotProvider.IsVolumeSnapshotted, IVssSoftwareSnapshotProvider::IsVolumeSnapshotted, IsVolumeSnapshotted, IsVolumeSnapshotted method, IsVolumeSnapshotted method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesnapshotted, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
-f1_keywords:
-- vsprov/IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+ - vsprov/IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether any shadow copies exist for the specified volume.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszVolumeName [in]
 
-Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 
@@ -68,22 +65,18 @@ Null-terminated wide character string containing the volume name. The name must 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where GUID identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where GUID identifies the volume)</li>
 </ul>
 
 ### -param pbSnapshotsPresent [out]
 
 This parameter receives <b>TRUE</b> if the volume has a shadow copy, or <b>FALSE</b> if the volume does not have a shadow copy.
 
-
 ### -param plSnapshotCompatibility [out]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
-
+A bitmask of <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -155,7 +148,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -168,34 +161,18 @@ Provider error. The provider logged the error in the event log. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>

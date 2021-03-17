@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls3.put_currentAudioLanguage
 title: IWMPControls3::put_currentAudioLanguage (wmp.h)
 description: The put_currentAudioLanguage method specifies the locale identifier (LCID) of the audio language for playback.
+helpviewer_keywords: ["IWMPControls3 interface [Windows Media Player]","put_currentAudioLanguage method","IWMPControls3.put_currentAudioLanguage","IWMPControls3::put_currentAudioLanguage","IWMPControls3put_currentAudioLanguage","put_currentAudioLanguage","put_currentAudioLanguage method [Windows Media Player]","put_currentAudioLanguage method [Windows Media Player]","IWMPControls3 interface","wmp.iwmpcontrols3_put_currentaudiolanguage","wmp/IWMPControls3::put_currentAudioLanguage"]
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguage.htm
 tech.root: WMP
 ms.assetid: 7050ed77-f4bd-4c20-a661-fb0ea26af3a3
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],put_currentAudioLanguage method, IWMPControls3.put_currentAudioLanguage, IWMPControls3::put_currentAudioLanguage, IWMPControls3put_currentAudioLanguage, put_currentAudioLanguage, put_currentAudioLanguage method [Windows Media Player], put_currentAudioLanguage method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_put_currentaudiolanguage, wmp/IWMPControls3::put_currentAudioLanguage
-f1_keywords:
-- wmp/IWMPControls3.put_currentAudioLanguage
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls3.put_currentAudioLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls3::put_currentAudioLanguage
+ - wmp/IWMPControls3::put_currentAudioLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls3.put_currentAudioLanguage
 ---
 
 # IWMPControls3::put_currentAudioLanguage
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_currentAudioLanguage</b> method specifies the locale identifier (LCID) of the audio language for playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lLangID [in]
 
 <b>long</b> containing the LCID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An LCID uniquely identifies a particular language dialect, called a locale.
 
@@ -105,36 +90,26 @@ When working with DVD content, specifying an LCID will cause the first available
 
 <b>Windows Media Player 10 Mobile: </b>This method only accepts a <b>long</b> set to 0 (the language-neutral LCID), otherwise an E_INVALIDARG <b>HRESULT</b> is returned.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription">IWMPControls3::getAudioLanguageDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguagedescription">IWMPControls3::getAudioLanguageDescription</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid">IWMPControls3::getAudioLanguageID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getaudiolanguageid">IWMPControls3::getAudioLanguageID</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename">IWMPControls3::getLanguageName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-getlanguagename">IWMPControls3::getLanguageName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage">IWMPControls3::get_currentAudioLanguage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentaudiolanguage">IWMPControls3::get_currentAudioLanguage</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/aa388723(v=vs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>
- 
-
- 
-
+<a href="/previous-versions/aa388723(v=vs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>

@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPAddressFamilyControl.SetAddressFamily
 title: IUPnPAddressFamilyControl::SetAddressFamily (upnp.h)
 description: The SetAddressFamily method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.
+helpviewer_keywords: ["IUPnPAddressFamilyControl interface [UPnP APIs]","SetAddressFamily method","IUPnPAddressFamilyControl.SetAddressFamily","IUPnPAddressFamilyControl::SetAddressFamily","SetAddressFamily","SetAddressFamily method [UPnP APIs]","SetAddressFamily method [UPnP APIs]","IUPnPAddressFamilyControl interface","UPNP_ADDRESSFAMILY_BOTH","UPNP_ADDRESSFAMILY_IPv4","UPNP_ADDRESSFAMILY_IPv6","upnp.iupnpaddressfamilycontrol_setaddressfamily","upnp/IUPnPAddressFamilyControl::SetAddressFamily"]
 old-location: upnp\iupnpaddressfamilycontrol_setaddressfamily.htm
 tech.root: upnp
 ms.assetid: 2b3e5dae-68c0-431b-bef0-fa2bb5f53bdc
 ms.date: 12/05/2018
 ms.keywords: IUPnPAddressFamilyControl interface [UPnP APIs],SetAddressFamily method, IUPnPAddressFamilyControl.SetAddressFamily, IUPnPAddressFamilyControl::SetAddressFamily, SetAddressFamily, SetAddressFamily method [UPnP APIs], SetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_setaddressfamily, upnp/IUPnPAddressFamilyControl::SetAddressFamily
-f1_keywords:
-- upnp/IUPnPAddressFamilyControl.SetAddressFamily
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPAddressFamilyControl.SetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPAddressFamilyControl::SetAddressFamily
+ - upnp/IUPnPAddressFamilyControl::SetAddressFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPAddressFamilyControl.SetAddressFamily
 ---
 
 # IUPnPAddressFamilyControl::SetAddressFamily
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetAddressFamily</b> method sets the address family flag of the Device Finder object, which uses this flag to filter the devices found.
 
 The application sets the address family flag before starting a search. The application will be notified only about devices that have IP addresses that are of the specified address family.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -101,29 +98,20 @@ IPv4 and IPv6
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Setting__the_Flag"></a><a id="setting__the_flag"></a><a id="SETTING__THE_FLAG"></a>Setting  the Flag</h3>
 
 The address family flag must be set at the appropriate time in order to affect the search:
 
 <ul>
-<li>For an asynchronous search, set the address family flag prior to calling the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a> method.</li>
-<li>For a synchronous search, set the address family flag prior to calling either the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a> or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a> method.</li>
+<li>For an asynchronous search, set the address family flag prior to calling the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a> method.</li>
+<li>For a synchronous search, set the address family flag prior to calling either the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbyudn">IUPnPDeviceFinder::FindByUDN</a> or <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-findbytype">IUPnPDeviceFinder::FindByType</a> method.</li>
 </ul>
 
 
@@ -158,21 +146,10 @@ Scenario 3: an application sets the address family flag to UPNP_ADDRESSFAMILY_BO
 <li>If a device that is known to the application leaves the network, Device Finder will notify the application.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily">GetAddressFamily</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-getaddressfamily">GetAddressFamily</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>

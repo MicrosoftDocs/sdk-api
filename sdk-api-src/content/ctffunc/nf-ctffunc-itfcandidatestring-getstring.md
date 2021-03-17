@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfCandidateString.GetString
 title: ITfCandidateString::GetString (ctffunc.h)
 description: ITfCandidateString::GetString method
+helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfCandidateString interface","ITfCandidateString interface [Text Services Framework]","GetString method","ITfCandidateString.GetString","ITfCandidateString::GetString","_tsf_itfcandidatestring_getstring_ref","ctffunc/ITfCandidateString::GetString","tsf.itfcandidatestring_getstring"]
 old-location: tsf\itfcandidatestring_getstring.htm
 tech.root: TSF
 ms.assetid: 157dc848-858c-462f-8e41-78d6bfe20705
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
-f1_keywords:
-- ctffunc/ITfCandidateString.GetString
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateString.GetString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateString::GetString
+ - ctffunc/ITfCandidateString::GetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateString.GetString
 ---
 
 # ITfCandidateString::GetString
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the text of the candidate string object.
 
 ## -parameters
 
-
-
-
 ### -param pbstr [out]
 
-Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
-
+Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,22 +101,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

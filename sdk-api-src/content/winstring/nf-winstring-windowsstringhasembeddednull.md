@@ -2,15 +2,12 @@
 UID: NF:winstring.WindowsStringHasEmbeddedNull
 title: WindowsStringHasEmbeddedNull function (winstring.h)
 description: Indicates whether the specified string has embedded null characters.
+helpviewer_keywords: ["WindowsStringHasEmbeddedNull","WindowsStringHasEmbeddedNull function [Windows Runtime]","winrt.windowsstringhasembeddednull","winstring/WindowsStringHasEmbeddedNull"]
 old-location: winrt\windowsstringhasembeddednull.htm
 tech.root: WinRT
 ms.assetid: BE3B0198-C6D1-4F3C-A9E2-F186FB025DCE
 ms.date: 12/05/2018
 ms.keywords: WindowsStringHasEmbeddedNull, WindowsStringHasEmbeddedNull function [Windows Runtime], winrt.windowsstringhasembeddednull, winstring/WindowsStringHasEmbeddedNull
-f1_keywords:
-- winstring/WindowsStringHasEmbeddedNull
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -28,55 +25,48 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsStringHasEmbeddedNull
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsStringHasEmbeddedNull
+ - winstring/WindowsStringHasEmbeddedNull
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsStringHasEmbeddedNull
 ---
-
-# WindowsStringHasEmbeddedNull function
-
 
 ## -description
 
-
 Indicates whether the specified string has embedded null characters.
-
 
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to test for embedded null characters.
 
+### -param hasEmbedNull
 
-### -param hasEmbedNull [out]
-
-Type: <b>BOOL*</b>
+Type: [out] <b>BOOL*</b>
 
 <b>TRUE</b> if <i>string</i> has one or more embedded null characters; otherwise, <b>FALSE</b>. <b>FALSE</b> if  <i>string</i> is <b>NULL</b> or the empty string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -110,7 +100,4 @@ The test completed  successfully.
 </td>
 </tr>
 </table>
- 
-
-
 

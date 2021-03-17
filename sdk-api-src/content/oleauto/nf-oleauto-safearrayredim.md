@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArrayRedim
 title: SafeArrayRedim function (oleauto.h)
 description: Changes the right-most (least significant) bound of the specified safe array.
+helpviewer_keywords: ["SafeArrayRedim","SafeArrayRedim function [Automation]","_oa96_SafeArrayRedim","automat.safearrayredim","oleauto/SafeArrayRedim"]
 old-location: automat\safearrayredim.htm
 tech.root: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8
 ms.date: 12/05/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
-f1_keywords:
-- oleauto/SafeArrayRedim
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArrayRedim
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArrayRedim
+ - oleauto/SafeArrayRedim
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArrayRedim
 ---
 
 # SafeArrayRedim function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the right-most (least significant) bound of the specified safe array.
 
-
 ## -parameters
-
-
-
 
 ### -param psa [in, out]
 
 A safe array descriptor.
 
-
 ### -param psaboundNew [in]
 
 A new safe array bound structure that contains the new array boundary. You can change only the least significant dimension of an array.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -112,16 +105,8 @@ The array is locked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you reduce the bound of an array, <b>SafeArrayRedim</b> deallocates the array elements outside the new array boundary. If the bound of an array is increased, <b>SafeArrayRedim</b> allocates and initializes the new array elements. The data is preserved for elements that exist in both the old and new array.
-
-
 

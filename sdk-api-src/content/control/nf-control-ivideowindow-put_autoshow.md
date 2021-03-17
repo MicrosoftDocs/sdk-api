@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.put_AutoShow
 title: IVideoWindow::put_AutoShow (control.h)
 description: The put_AutoShow method specifies whether the video renderer automatically shows the video window when it receives video data.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_AutoShow method","IVideoWindow.put_AutoShow","IVideoWindow::put_AutoShow","IVideoWindowput_AutoShow","control/IVideoWindow::put_AutoShow","dshow.ivideowindow_put_autoshow","put_AutoShow","put_AutoShow method [DirectShow]","put_AutoShow method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_autoshow.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7481a7e8-4b57-43cc-8304-b70616bbd532
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_AutoShow method, IVideoWindow.put_AutoShow, IVideoWindow::put_AutoShow, IVideoWindowput_AutoShow, control/IVideoWindow::put_AutoShow, dshow.ivideowindow_put_autoshow, put_AutoShow, put_AutoShow method [DirectShow], put_AutoShow method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_AutoShow
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_AutoShow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_AutoShow
+ - control/IVideoWindow::put_AutoShow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_AutoShow
 ---
 
 # IVideoWindow::put_AutoShow
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_AutoShow</code> method specifies whether the video renderer automatically shows the video window when it receives video data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param AutoShow [in]
 
@@ -83,12 +77,8 @@ Specifies whether the video renderer automatically shows the video window. Must 
 <td>The video renderer will not automatically show the video window.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -131,35 +121,19 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 By default, when the filter graph changes state to paused or running, the video renderer shows the video window and moves it to the foreground. If the user closes the window, it will not automatically reappear.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_autoshow">IVideoWindow::get_AutoShow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_autoshow">IVideoWindow::get_AutoShow</a>

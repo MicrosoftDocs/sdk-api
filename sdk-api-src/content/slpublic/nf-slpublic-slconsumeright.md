@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLConsumeRight
 title: SLConsumeRight function (slpublic.h)
 description: Let an application to exercise rights on a locally-stored licenses.
+helpviewer_keywords: ["SLConsumeRight","SLConsumeRight function [Security]","security.slconsumeright","slpublic/SLConsumeRight"]
 old-location: security\slconsumeright.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
 ms.date: 12/05/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
-f1_keywords:
-- slpublic/SLConsumeRight
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLConsumeRight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLConsumeRight
+ - slpublic/SLConsumeRight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLConsumeRight
 ---
 
 # SLConsumeRight function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Let an application to exercise rights on a locally-stored licenses. Calling this function binds a license to the right.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
 Type: <b>HSLC</b>
 
 The handle to the current SLC context.
-
 
 ### -param pAppId [in]
 
@@ -71,7 +67,6 @@ Type: <b>const SLID*</b>
 A pointer to the identifier of the application who's right is going to be          
 		consumed.
 
-
 ### -param pProductSkuId [in, optional]
 
 Type: <b>const SLID*</b>
@@ -79,13 +74,11 @@ Type: <b>const SLID*</b>
 A pointer to the identifier of product SKU. If set to <b>NULL</b>, all of the  product  SKU's          
 		licenses will be consumed.
 
-
 ### -param pwszRightName [in, optional]
 
 Type: <b>PCWSTR</b>
 
 The name of right to be consumed.
-
 
 ### -param pvReserved
 
@@ -93,10 +86,7 @@ Type: <b>PVOID</b>
 
 Reserved.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -144,7 +134,4 @@ The license is not installed.
 </td>
 </tr>
 </table>
- 
-
-
 

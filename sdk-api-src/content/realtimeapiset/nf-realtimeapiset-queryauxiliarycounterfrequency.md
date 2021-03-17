@@ -2,15 +2,12 @@
 UID: NF:realtimeapiset.QueryAuxiliaryCounterFrequency
 title: QueryAuxiliaryCounterFrequency function (realtimeapiset.h)
 description: Queries the auxiliary counter frequency.
+helpviewer_keywords: ["QueryAuxiliaryCounterFrequency","QueryAuxiliaryCounterFrequency function","base.queryauxiliarycounterfrequency","realtimeapiset/QueryAuxiliaryCounterFrequency"]
 old-location: base\queryauxiliarycounterfrequency.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
 ms.date: 12/05/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
-f1_keywords:
-- realtimeapiset/QueryAuxiliaryCounterFrequency
-dev_langs:
-- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- QueryAuxiliaryCounterFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryAuxiliaryCounterFrequency
+ - realtimeapiset/QueryAuxiliaryCounterFrequency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - QueryAuxiliaryCounterFrequency
 ---
 
 # QueryAuxiliaryCounterFrequency function
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the auxiliary counter frequency.
-
 
 ## -parameters
 
-
-
-
 ### -param lpAuxiliaryCounterFrequency [out]
 
-Long pointer to an output buffer that contains the specified auxiliary counter frequency. If the auxiliary counter is not supported, the value in the output buffer will be undefined. 
-
+Long pointer to an output buffer that contains the specified auxiliary counter frequency. If the auxiliary counter is not supported, the value in the output buffer will be undefined.
 
 ## -returns
 
-
-
-Returns <b>S_OK</b> if the auxiliary counter is supported and <b>E_NOTIMPL</b> if the auxiliary counter is not supported. 
-
-
-
+Returns <b>S_OK</b> if the auxiliary counter is supported and <b>E_NOTIMPL</b> if the auxiliary counter is not supported.
 
 ## -remarks
-
-
 
 You can determine the availability of the auxiliary counter by comparing the returned value against <b>E_NOTIMPL</b>.
 
@@ -108,7 +97,4 @@ wmain (int argc, wchar_t* argv[])
 } 
 
 ```
-
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:perflib.PerfQueryCounterSetRegistrationInfo
 title: PerfQueryCounterSetRegistrationInfo function (perflib.h)
 description: Gets information about a counter set on the specified system.
+helpviewer_keywords: ["PerfQueryCounterSetRegistrationInfo","PerfQueryCounterSetRegistrationInfo function [Perf]","perf.perfquerycountersetregistrationinfo","perflib/PerfQueryCounterSetRegistrationInfo"]
 old-location: perf\perfquerycountersetregistrationinfo.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: E8E83E47-2445-42AE-855F-6710FC8F789E
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
-f1_keywords:
-- perflib/PerfQueryCounterSetRegistrationInfo
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- AdvAPI32.dll
-- api-ms-win-perf-legacy-l1-1-0.dll
-api_name:
-- PerfQueryCounterSetRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PerfQueryCounterSetRegistrationInfo
+ - perflib/PerfQueryCounterSetRegistrationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - AdvAPI32.dll
+ - api-ms-win-perf-legacy-l1-1-0.dll
+api_name:
+ - PerfQueryCounterSetRegistrationInfo
 ---
 
 # PerfQueryCounterSetRegistrationInfo function
@@ -49,30 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about a counter set on the specified system.
 
-
-
 ## -parameters
-
-
-
 
 ### -param szMachine [in, optional]
 
 The name of the machine for which to get the information about the counter set  that the <i>pCounterSet</i> parameter specifies. If NULL, the function retrieves information about the specified counter set for the local machine.
 
-
 ### -param pCounterSetId [in]
 
 The counter set identifier of the counter set for which you want to get information.
 
-
 ### -param requestCode
 
-The type of information that you want to get about the counter set. See <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-perfreginfotype">PerfRegInfoType</a> for a list of possible values.
-
+The type of information that you want to get about the counter set. See <a href="/windows/desktop/api/perflib/ne-perflib-perfreginfotype">PerfRegInfoType</a> for a list of possible values.
 
 ### -param requestLangId
 
@@ -86,20 +79,15 @@ The counter identifier of the counter for which you want data, if <i>requestCode
 
 Set to 0 for all other values of <i>requestCode</i>.
 
-
 ### -param pbRegInfo [out, optional]
 
 Pointer to a buffer that is large enough to receive the amount of data that the <i>cbRegInfo</i> parameter specifies, in bytes. May be  
 
-NULL if <i>cbRegInfo</i> is 0.  
-
-
+NULL if <i>cbRegInfo</i> is 0.
 
 ### -param cbRegInfo
 
-The size of the buffer that the <i>pbRegInfo</i> parameter specifies, in bytes.  
-
-
+The size of the buffer that the <i>pbRegInfo</i> parameter specifies, in bytes.
 
 ### -param pcbRegInfoActual [out]
 
@@ -133,12 +121,8 @@ returns.
 <td>The value is undefined and should not be used.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -175,20 +159,10 @@ The function successfully stored all of the information about the counter set in
  
 
 For other types of failures, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
-					
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
+See  <a href="/windows/desktop/api/perflib/ne-perflib-perfreginfotype">PerfRegInfoType</a>  for the types of data that you can request and  
 
-
-See  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-perfreginfotype">PerfRegInfoType</a>  for the types of data that you can request and  
-
-the formats of the data provided for each type of request. 
-
-
-
-
+the formats of the data provided for each type of request.

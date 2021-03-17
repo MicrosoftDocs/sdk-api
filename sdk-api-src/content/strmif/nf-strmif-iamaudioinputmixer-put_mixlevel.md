@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAudioInputMixer.put_MixLevel
 title: IAMAudioInputMixer::put_MixLevel (strmif.h)
 description: The put_MixLevel method sets the recording level for this input.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","put_MixLevel method","IAMAudioInputMixer.put_MixLevel","IAMAudioInputMixer::put_MixLevel","IAMAudioInputMixerput_MixLevel","dshow.iamaudioinputmixer_put_mixlevel","put_MixLevel","put_MixLevel method [DirectShow]","put_MixLevel method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::put_MixLevel"]
 old-location: dshow\iamaudioinputmixer_put_mixlevel.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 07fd327f-d78b-4fc0-9c6a-69cdaa2bcdf6
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_MixLevel method, IAMAudioInputMixer.put_MixLevel, IAMAudioInputMixer::put_MixLevel, IAMAudioInputMixerput_MixLevel, dshow.iamaudioinputmixer_put_mixlevel, put_MixLevel, put_MixLevel method [DirectShow], put_MixLevel method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_MixLevel
-f1_keywords:
-- strmif/IAMAudioInputMixer.put_MixLevel
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioInputMixer.put_MixLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioInputMixer::put_MixLevel
+ - strmif/IAMAudioInputMixer::put_MixLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioInputMixer.put_MixLevel
 ---
 
 # IAMAudioInputMixer::put_MixLevel
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_MixLevel</code> method sets the recording level for this input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Level [in]
 
@@ -81,12 +75,8 @@ Specifies the recording level. The following values are possible.
 <td>Enable automatic adjustment of the recording level.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -129,26 +119,15 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mixlevel">IAMAudioInputMixer::get_MixLevel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_mixlevel">IAMAudioInputMixer::get_MixLevel</a>

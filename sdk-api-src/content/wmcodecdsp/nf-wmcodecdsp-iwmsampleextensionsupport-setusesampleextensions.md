@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IWMSampleExtensionSupport.SetUseSampleExtensions
 title: IWMSampleExtensionSupport::SetUseSampleExtensions (wmcodecdsp.h)
 description: Configures whether the codec supports sample extensions.
+helpviewer_keywords: ["IWMSampleExtensionSupport interface [Media Foundation]","SetUseSampleExtensions method","IWMSampleExtensionSupport.SetUseSampleExtensions","IWMSampleExtensionSupport::SetUseSampleExtensions","SetUseSampleExtensions","SetUseSampleExtensions method [Media Foundation]","SetUseSampleExtensions method [Media Foundation]","IWMSampleExtensionSupport interface","codecapi.iwmsampleextensionsupportsetusesampleextensions","mf.iwmsampleextensionsupportsetusesampleextensions","wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions"]
 old-location: mf\iwmsampleextensionsupportsetusesampleextensions.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e268167e-4c29-45ec-9ce3-733374268113
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions
-f1_keywords:
-- wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMSampleExtensionSupport.SetUseSampleExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSampleExtensionSupport::SetUseSampleExtensions
+ - wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMSampleExtensionSupport.SetUseSampleExtensions
 ---
 
 # IWMSampleExtensionSupport::SetUseSampleExtensions
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures whether the codec supports sample extensions.
 
-
-
 ## -parameters
-
-
-
 
 ### -param fUseExtensions [in]
 
 Flag, true indicating to use extensions.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmsampleextensionsupport">IWMSampleExtensionSupport Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmsampleextensionsupport">IWMSampleExtensionSupport Interface</a>

@@ -1,13 +1,18 @@
 ---
 UID: NA:windows.graphics.directx.direct3d11.interop
+title: Windows.Graphics.DirectX.Direct3D11.Interop.h header
 ms.assetid: e45ccbbd-1294-40d9-93ab-e4f6553dd39b
 ms.date: 04/25/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: direct3d11
+f1_keywords:
+ - windows.graphics.directx.direct3d11.interop
+ - windows.graphics.directx.direct3d11.interop/windows.graphics.directx.direct3d11.interop
 ---
 
 # Windows.Graphics.DirectX.Direct3D11.Interop.h header
+
 
 ## -description
 

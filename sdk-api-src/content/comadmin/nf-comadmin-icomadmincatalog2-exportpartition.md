@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog2.ExportPartition
 title: ICOMAdminCatalog2::ExportPartition (comadmin.h)
 description: Exports a partition to a file.
+helpviewer_keywords: ["COMAdminExportApplicationProxy","COMAdminExportForceOverwriteOfFile","COMAdminExportIn10Format","COMAdminExportNoUsers","COMAdminExportUsers","ExportPartition","ExportPartition method [COM+]","ExportPartition method [COM+]","ICOMAdminCatalog2 interface","ICOMAdminCatalog2 interface [COM+]","ExportPartition method","ICOMAdminCatalog2.ExportPartition","ICOMAdminCatalog2::ExportPartition","_cos_icomadmincatalog2_ExportPartition","comadmin/ICOMAdminCatalog2::ExportPartition","cos.icomadmincatalog2_exportpartition"]
 old-location: cos\icomadmincatalog2_exportpartition.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cc793025-e8d9-4dcb-a55d-81dec38d05b9
 ms.date: 12/05/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportPartition, ExportPartition method [COM+], ExportPartition method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],ExportPartition method, ICOMAdminCatalog2.ExportPartition, ICOMAdminCatalog2::ExportPartition, _cos_icomadmincatalog2_ExportPartition, comadmin/ICOMAdminCatalog2::ExportPartition, cos.icomadmincatalog2_exportpartition
-f1_keywords:
-- comadmin/ICOMAdminCatalog2.ExportPartition
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog2.ExportPartition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog2::ExportPartition
+ - comadmin/ICOMAdminCatalog2::ExportPartition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog2.ExportPartition
 ---
 
 # ICOMAdminCatalog2::ExportPartition
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exports a partition to a file.
 
-An exported partition can be imported using the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-installpartition">InstallPartition</a> method.
-
+An exported partition can be imported using the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-installpartition">InstallPartition</a> method.
 
 ## -parameters
-
-
-
 
 ### -param bstrPartitionIDOrName [in]
 
 The partition GUID or name of the partition.
 
-
 ### -param bstrPartitionFileName [in]
 
 The file to which the specified partition is exported. If no path is specified, the current directory is used. If no file name is specified, the application name is used.
-
 
 ### -param lOptions [in]
 
@@ -136,12 +131,8 @@ Export in COM+ 1.0 format.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -173,18 +164,7 @@ The specified partition does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IComCRMEvents.OnCRMRelease
 title: IComCRMEvents::OnCRMRelease (comsvcs.h)
 description: Generated when the CRM clerk is finished and releases its resource locks.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRelease method","IComCRMEvents.OnCRMRelease","IComCRMEvents::OnCRMRelease","OnCRMRelease","OnCRMRelease method [COM+]","OnCRMRelease method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRelease","comsvcs/IComCRMEvents::OnCRMRelease","cos.icomcrmevents_oncrmrelease"]
 old-location: cos\icomcrmevents_oncrmrelease.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRelease method, IComCRMEvents.OnCRMRelease, IComCRMEvents::OnCRMRelease, OnCRMRelease, OnCRMRelease method [COM+], OnCRMRelease method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRelease, comsvcs/IComCRMEvents::OnCRMRelease, cos.icomcrmevents_oncrmrelease
-f1_keywords:
-- comsvcs/IComCRMEvents.OnCRMRelease
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComCRMEvents.OnCRMRelease
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComCRMEvents::OnCRMRelease
+ - comsvcs/IComCRMEvents::OnCRMRelease
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComCRMEvents.OnCRMRelease
 ---
 
 # IComCRMEvents::OnCRMRelease
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when the CRM clerk is finished and releases its resource locks.
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
-
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 ### -param guidClerkCLSID [in]
 
 The identifier of the CRM clerk.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomcrmevents">IComCRMEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomcrmevents">IComCRMEvents</a>

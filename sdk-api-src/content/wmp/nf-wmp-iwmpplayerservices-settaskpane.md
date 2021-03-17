@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayerServices.setTaskPane
 title: IWMPPlayerServices::setTaskPane (wmp.h)
 description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
+helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","setTaskPane method","IWMPPlayerServices.setTaskPane","IWMPPlayerServices::setTaskPane","IWMPPlayerServicessetTaskPane","setTaskPane","setTaskPane method [Windows Media Player]","setTaskPane method [Windows Media Player]","IWMPPlayerServices interface","wmp.iwmpplayerservices_settaskpane","wmp/IWMPPlayerServices::setTaskPane"]
 old-location: wmp\iwmpplayerservices_settaskpane.htm
 tech.root: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane method, IWMPPlayerServices.setTaskPane, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
-f1_keywords:
-- wmp/IWMPPlayerServices.setTaskPane
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayerServices.setTaskPane
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerServices::setTaskPane
+ - wmp/IWMPPlayerServices::setTaskPane
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayerServices.setTaskPane
 ---
 
 # IWMPPlayerServices::setTaskPane
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>setTaskPane</b> method displays the specified task pane in the full mode of Windows Media Player.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrTaskPane [in]
 
@@ -170,12 +164,8 @@ Opens Windows Media Player in the <b>Skin Chooser</b> feature.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -191,37 +181,21 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The method succeeded.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is used only when remoting the Windows Media Player control.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl">IWMPPlayerServices::setTaskPaneURL(deprecated)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl">IWMPPlayerServices::setTaskPaneURL(deprecated)</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServicesInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServicesInterface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>

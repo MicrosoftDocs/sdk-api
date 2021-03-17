@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACPSink.OnStatusChange
 title: ITextStoreACPSink::OnStatusChange (textstor.h)
 description: ITextStoreACPSink::OnStatusChange method
+helpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnStatusChange method","ITextStoreACPSink.OnStatusChange","ITextStoreACPSink::OnStatusChange","OnStatusChange","OnStatusChange method [Text Services Framework]","OnStatusChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onstatuschange_ref","textstor/ITextStoreACPSink::OnStatusChange","tsf.itextstoreacpsink_onstatuschange"]
 old-location: tsf\itextstoreacpsink_onstatuschange.htm
 tech.root: TSF
 ms.assetid: 44ecc116-e6f3-48dd-9bff-16d3c1e4cc97
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnStatusChange method, ITextStoreACPSink.OnStatusChange, ITextStoreACPSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onstatuschange_ref, textstor/ITextStoreACPSink::OnStatusChange, tsf.itextstoreacpsink_onstatuschange
-f1_keywords:
-- textstor/ITextStoreACPSink.OnStatusChange
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPSink.OnStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPSink::OnStatusChange
+ - textstor/ITextStoreACPSink::OnStatusChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPSink.OnStatusChange
 ---
 
 # ITextStoreACPSink::OnStatusChange
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the status of the document changes.
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-Contains a value that specifies the new status. For more information about possible values, see the <b>dwDynamicFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
-
+Contains a value that specifies the new status. For more information about possible values, see the <b>dwDynamicFlags</b> member of the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,23 +79,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
- 
-
- 
-

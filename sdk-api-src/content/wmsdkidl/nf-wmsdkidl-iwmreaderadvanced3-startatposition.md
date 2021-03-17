@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StartAtPosition
 title: IWMReaderAdvanced3::StartAtPosition (wmsdkidl.h)
 description: The StartAtPosition method enables you to specify a starting position for a file using one of several offset formats.
+helpviewer_keywords: ["IWMReaderAdvanced3 interface [windows Media Format]","StartAtPosition method","IWMReaderAdvanced3.StartAtPosition","IWMReaderAdvanced3::StartAtPosition","IWMReaderAdvanced3StartAtPosition","StartAtPosition","StartAtPosition method [windows Media Format]","StartAtPosition method [windows Media Format]","IWMReaderAdvanced3 interface","wmformat.iwmreaderadvanced3_startatposition","wmsdkidl/IWMReaderAdvanced3::StartAtPosition"]
 old-location: wmformat\iwmreaderadvanced3_startatposition.htm
 tech.root: wmformat
 ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced3.StartAtPosition
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced3.StartAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced3::StartAtPosition
+ - wmsdkidl/IWMReaderAdvanced3::StartAtPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced3.StartAtPosition
 ---
 
 # IWMReaderAdvanced3::StartAtPosition
@@ -51,22 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
-
-
-
+The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
 
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number for which <i>pvOffsetStart</i> and <i>pvDuration</i> apply. Passing zero signifies that the offset start and duration apply for all streams in the file. If you pass zero, the only valid values for <i>dwOffsetFormat</i> are WMT_OFFSET_FORMAT_100NS and WMT_OFFSET_FORMAT_PLAYLIST_OFFSET.
-
 
 ### -param pvOffsetStart [in]
 
@@ -94,7 +87,7 @@ Void pointer to the address containing the offset start. The unit of measurement
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -102,8 +95,6 @@ Void pointer to the address containing the offset start. The unit of measurement
 <td><b>QWORD</b></td>
 </tr>
 </table>
- 
-
 
 ### -param pvDuration [in]
 
@@ -131,7 +122,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_timecode_extension_data">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -139,12 +130,10 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <td><b>QWORD</b></td>
 </tr>
 </table>
- 
-
 
 ### -param dwOffsetFormat [in]
 
-<b>DWORD</b> containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
+<b>DWORD</b> containing one member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_offset_format">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
 
 <table>
 <tr>
@@ -174,22 +163,16 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <td>The offset and duration are specified in 100-nanosecond units. When this format is used, playback begins with the closest clean point prior to the time provided. This format is intended to decrease seeking time when the exact sample is not required, such as in a player application's seek bar.</td>
 </tr>
 </table>
- 
-
 
 ### -param fRate [in]
 
 Floating point number indicating playback rate. Normal-speed playback is 1.0; higher numbers cause faster playback, and lower numbers cause slower playback. Numbers less than zero indicate reverse rate (rewinding). The valid range is 1.0 through 10.0, and -1.0 through -10.0.
 
-
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a>.
-
+Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -260,14 +243,8 @@ The method is unable to allocate memory for a message structure required interna
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Frame-based access is available only for local files. You cannot use <b>StartAtPosition</b> to specify starting frame numbers for streamed content, even if the file is indexed by frame.
 
@@ -275,16 +252,6 @@ You can pass <b>NULL</b> for <i>pvOffsetStart</i> if you are making a call to re
 
 If an invalid duration is specified, <b>StartAtPosition</b> will not fail. As many samples as possible will be delivered.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>

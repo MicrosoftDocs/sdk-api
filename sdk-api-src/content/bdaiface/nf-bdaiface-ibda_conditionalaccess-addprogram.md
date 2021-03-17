@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_ConditionalAccess.AddProgram
 title: IBDA_ConditionalAccess::AddProgram (bdaiface.h)
 description: Currently not implemented.
+helpviewer_keywords: ["AddProgram","AddProgram method [Microsoft TV Technologies]","AddProgram method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","IBDA_ConditionalAccess interface [Microsoft TV Technologies]","AddProgram method","IBDA_ConditionalAccess.AddProgram","IBDA_ConditionalAccess::AddProgram","IBDA_ConditionalAccessAddProgram","bdaiface/IBDA_ConditionalAccess::AddProgram","mstv.ibda_conditionalaccess_addprogram"]
 old-location: mstv\ibda_conditionalaccess_addprogram.htm
 tech.root: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.date: 12/05/2018
 ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
-f1_keywords:
-- bdaiface/IBDA_ConditionalAccess.AddProgram
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_ConditionalAccess.AddProgram
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_ConditionalAccess::AddProgram
+ - bdaiface/IBDA_ConditionalAccess::AddProgram
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_ConditionalAccess.AddProgram
 ---
 
 # IBDA_ConditionalAccess::AddProgram
@@ -48,38 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Currently not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param usProgramNumber [in]
 
 Reserved.
-          
-
 
 ## -returns
 
-
-
 Returns E_NOTIMPL.
-          
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>

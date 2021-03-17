@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_CHAIN_ENGINE_CONFIG
 title: CERT_CHAIN_ENGINE_CONFIG (wincrypt.h)
 description: Sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
+helpviewer_keywords: ["*PCERT_CHAIN_ENGINE_CONFIG","CERT_CHAIN_CACHE_END_CERT","CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL","CERT_CHAIN_DISABLE_AIA","CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE","CERT_CHAIN_ENABLE_SHARE_STORE","CERT_CHAIN_ENGINE_CONFIG","CERT_CHAIN_ENGINE_CONFIG structure [Security]","CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG","CERT_CHAIN_USE_LOCAL_MACHINE_STORE","PCERT_CHAIN_ENGINE_CONFIG","PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security]","_crypto2_cert_chain_engine_config","security.cert_chain_engine_config","wincrypt/CERT_CHAIN_ENGINE_CONFIG","wincrypt/PCERT_CHAIN_ENGINE_CONFIG"]
 old-location: security\cert_chain_engine_config.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9e010eb9-2cbb-4fca-ba5c-4a5a50f23786
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_CACHE_END_CERT, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_DISABLE_AIA, CERT_CHAIN_ENABLE_CACHE_AUTO_UPDATE, CERT_CHAIN_ENABLE_SHARE_STORE, CERT_CHAIN_ENGINE_CONFIG, CERT_CHAIN_ENGINE_CONFIG structure [Security], CERT_CHAIN_EXCLUSIVE_ENABLE_CA_FLAG, CERT_CHAIN_USE_LOCAL_MACHINE_STORE, PCERT_CHAIN_ENGINE_CONFIG, PCERT_CHAIN_ENGINE_CONFIG structure pointer [Security], _crypto2_cert_chain_engine_config, security.cert_chain_engine_config, wincrypt/CERT_CHAIN_ENGINE_CONFIG, wincrypt/PCERT_CHAIN_ENGINE_CONFIG'
-f1_keywords:
-- wincrypt/CERT_CHAIN_ENGINE_CONFIG
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_CHAIN_ENGINE_CONFIG
 targetos: Windows
 req.typenames: CERT_CHAIN_ENGINE_CONFIG, *PCERT_CHAIN_ENGINE_CONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_CHAIN_ENGINE_CONFIG
+ - wincrypt/_CERT_CHAIN_ENGINE_CONFIG
+ - PCERT_CHAIN_ENGINE_CONFIG
+ - wincrypt/PCERT_CHAIN_ENGINE_CONFIG
+ - CERT_CHAIN_ENGINE_CONFIG
+ - wincrypt/CERT_CHAIN_ENGINE_CONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_CHAIN_ENGINE_CONFIG
 ---
 
 # CERT_CHAIN_ENGINE_CONFIG structure
@@ -48,44 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_CHAIN_ENGINE_CONFIG</b> structure sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size of this structure in bytes.
 
-
 ### -field hRestrictedRoot
 
 This configuration parameter can be used to restrict the root store. If used, it can be the handle of any HCERTSTORE containing only a proper subset of the certificates in the root store.
-
 
 ### -field hRestrictedTrust
 
 Store handle. If used, restricts the stores searched to find CTLs.
 
-
 ### -field hRestrictedOther
 
-Store handle. If used, restricts the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">stores</a> searched for certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRLs</a>.
-
+Store handle. If used, restricts the <a href="/windows/desktop/SecGloss/c-gly">stores</a> searched for certificates and <a href="/windows/desktop/SecGloss/c-gly">CRLs</a>.
 
 ### -field cAdditionalStore
 
 Count of additional stores to be searched for certificates and CRLs needed to build chains.
 
-
 ### -field rghAdditionalStore
 
-A pointer to an array of store handles for any additional stores to be searched in building chains. 
-
+A pointer to an array of store handles for any additional stores to be searched in building chains.
 
 ### -field dwFlags
 
@@ -163,18 +158,14 @@ Turn off  Authority Information Access (AIA) retrievals explicitly.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwUrlRetrievalTimeout
 
 Number of milliseconds before a time-out for network based–URL object retrievals. Can be set to zero to use the default limit.
 
-
 ### -field MaximumCachedCertificates
 
 Limit on the number of certificates that can be cached as a chain is built. Can be set to 0 to use the default limit.
-
 
 ### -field CycleDetectionModulus
 
@@ -185,20 +176,17 @@ Number of certificates added to the chain before a check is made to determine wh
 
 The lower the number, the more frequently checks will be made. Extra checking for cycles of certificates will slow the process considerably. This parameter can be set to zero to use the default limit.
 
-
 ### -field hExclusiveRoot
 
 Handle to a  certificate store that contains exclusive trust anchors.  If either the <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member points to a valid store, exclusive trust mode is used for the chain building.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>Support for this member begins.
 
-
 ### -field hExclusiveTrustedPeople
 
 Handle to a certificate store that contains  application-specific peer trusted certificates. If either the <b>hExclusiveRoot</b> or <b>hExclusiveTrustedPeople</b> member points to a valid store, exclusive trust mode is used for the chain building.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>Support for this member begins.
-
 
 ### -field dwExclusiveFlags
 
@@ -222,17 +210,13 @@ Indicates that a non-self-signed intermediate CA certificate in the <b>hExclusiv
 
 By default, if this flag is not set, only self-signed certificates in the <b>hExclusiveRoot</b> store are treated as trust anchors.
 
-See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.
+See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The chain-building engine uses four certificate stores in building chains. These are hRoot, hWorld, hTrust, and hOther. These stores' handles are established by using information in this structure when a chain engine is created.
 
@@ -246,20 +230,10 @@ hOther is <b>hRestrictedOther</b> plus hRoot or, if <b>hRestrictedTrust</b> is n
 
 Exclusive trust mode allows applications to specify trust anchors and peer-trusted certificates  for certificate chain validation. In the exclusive trust mode, the root store and the trusted people store on the system are ignored, and the anchors and certificates pointed to by the <b>hExclusiveRoot</b> and <b>hExclusiveTrustedPeople</b> members are used instead.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>

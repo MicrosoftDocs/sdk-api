@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelper.GetAttributes
 title: INetDiagHelper::GetAttributes (ndhelper.h)
 description: Retrieves additional information about a problem that the helper class extension has diagnosed.
+helpviewer_keywords: ["GetAttributes","GetAttributes method [NDF]","GetAttributes method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetAttributes method","INetDiagHelper.GetAttributes","INetDiagHelper::GetAttributes","ndf.inetdiaghelpe_getattributes","ndhelper/INetDiagHelper::GetAttributes"]
 old-location: ndf\inetdiaghelpe_getattributes.htm
 tech.root: NDF
 ms.assetid: 4f1f371a-853f-4022-808b-eea01aee4a52
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [NDF], GetAttributes method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetAttributes method, INetDiagHelper.GetAttributes, INetDiagHelper::GetAttributes, ndf.inetdiaghelpe_getattributes, ndhelper/INetDiagHelper::GetAttributes
-f1_keywords:
-- ndhelper/INetDiagHelper.GetAttributes
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::GetAttributes
+ - ndhelper/INetDiagHelper::GetAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.GetAttributes
 ---
 
 # INetDiagHelper::GetAttributes
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAttributes</b> method retrieves additional information about a problem that the helper class extension has diagnosed.
 
-
 ## -parameters
-
-
-
 
 ### -param pcelt [out]
 
 A pointer to a count of elements in the <b>HELPER_ATTRIBUTE</b> array.
 
-
 ### -param pprgAttributes [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> structures.
-
+A pointer to an array of <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> structures.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -147,12 +140,7 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 This method is not required when building a Helper Class Extension.
 
@@ -197,20 +185,7 @@ Helper Classes can often diagnose more than one problem at once.  Analysis of th
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

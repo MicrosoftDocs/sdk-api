@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionProfileManager.CreateConnectionProfile
 title: IMbnConnectionProfileManager::CreateConnectionProfile (mbnapi.h)
 description: Creates a new connection profile for the device.
+helpviewer_keywords: ["CreateConnectionProfile","CreateConnectionProfile method [Microsoft Broadband Networks]","CreateConnectionProfile method [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","CreateConnectionProfile method","IMbnConnectionProfileManager.CreateConnectionProfile","IMbnConnectionProfileManager::CreateConnectionProfile","mbn.imbnconnectionprofilemanager_createconnectionprofile","mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile"]
 old-location: mbn\imbnconnectionprofilemanager_createconnectionprofile.htm
 tech.root: mbn
 ms.assetid: b9c191cc-aa6f-4548-ad4a-f2b9808c5f23
 ms.date: 12/05/2018
 ms.keywords: CreateConnectionProfile, CreateConnectionProfile method [Microsoft Broadband Networks], CreateConnectionProfile method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],CreateConnectionProfile method, IMbnConnectionProfileManager.CreateConnectionProfile, IMbnConnectionProfileManager::CreateConnectionProfile, mbn.imbnconnectionprofilemanager_createconnectionprofile, mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
-f1_keywords:
-- mbnapi/IMbnConnectionProfileManager.CreateConnectionProfile
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionProfileManager.CreateConnectionProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionProfileManager::CreateConnectionProfile
+ - mbnapi/IMbnConnectionProfileManager::CreateConnectionProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionProfileManager.CreateConnectionProfile
 ---
 
 # IMbnConnectionProfileManager::CreateConnectionProfile
@@ -53,20 +55,13 @@ ms.custom: 19H1
 
 Creates a new connection profile for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param xmlProfile [in]
 
-A null-terminated string that contains the profile data in XML format compliant with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
-
+A null-terminated string that contains the profile data in XML format compliant with the <a href="/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -131,31 +126,14 @@ The calling application specified the default profile flag in the XML data, howe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This is a synchronous operation. If this function call is successful, then a new profile will be created and the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival">OnConnectionProfileArrival</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface. 
 
 
-This is a synchronous operation. If this function call is successful, then a new profile will be created and the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofilearrival">OnConnectionProfileArrival</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface. 
-
-
-If the icon file location is specified in the profile data then the Mobile Broadband service will copy the icon file from the specified location in its own store. A subsequent query on the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> object for the icon file location will return the file location where the Mobile Broadband service stored the icon file. Whenever a profile is deleted from the system, its icon file is also deleted from the system. The icon file should be in bmp file format file with 32x32 pixel dimensions.
-
-
-
-
+If the icon file location is specified in the profile data then the Mobile Broadband service will copy the icon file from the specified location in its own store. A subsequent query on the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> object for the icon file location will return the file location where the Mobile Broadband service stored the icon file. Whenever a profile is deleted from the system, its icon file is also deleted from the system. The icon file should be in bmp file format file with 32x32 pixel dimensions.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>

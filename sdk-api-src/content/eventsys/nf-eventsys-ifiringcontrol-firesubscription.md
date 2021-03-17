@@ -2,15 +2,12 @@
 UID: NF:eventsys.IFiringControl.FireSubscription
 title: IFiringControl::FireSubscription (eventsys.h)
 description: Fires an event to a single subscriber.
+helpviewer_keywords: ["FireSubscription","FireSubscription method [COM+]","FireSubscription method [COM+]","IFiringControl interface","IFiringControl interface [COM+]","FireSubscription method","IFiringControl.FireSubscription","IFiringControl::FireSubscription","_cos_IFiringControl_FireSubscriptio","cos.ifiringcontrol_firesubscription","eventsys/IFiringControl::FireSubscription"]
 old-location: cos\ifiringcontrol_firesubscription.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 64aaa99c-70e0-4a96-ab16-2f5b5666d1c4
 ms.date: 12/05/2018
 ms.keywords: FireSubscription, FireSubscription method [COM+], FireSubscription method [COM+],IFiringControl interface, IFiringControl interface [COM+],FireSubscription method, IFiringControl.FireSubscription, IFiringControl::FireSubscription, _cos_IFiringControl_FireSubscriptio, cos.ifiringcontrol_firesubscription, eventsys/IFiringControl::FireSubscription
-f1_keywords:
-- eventsys/IFiringControl.FireSubscription
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IFiringControl.FireSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFiringControl::FireSubscription
+ - eventsys/IFiringControl::FireSubscription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IFiringControl.FireSubscription
 ---
 
 # IFiringControl::FireSubscription
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fires an event to a single subscriber.
-
 
 ## -parameters
 
-
-
-
 ### -param subscription [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> interface on a subscription object.
-
+A pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> interface on a subscription object.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FireSubscription</b> method fires an event to the subscriber associated with the subscription object identified by the <i>subscription</i> parameter. A publisher filter typically iterates through a filtered list of subscriptions and calls <b>FireSubscription</b> for each associated subscriber. All standard delivery processing is done by the event object for the subscription, including the following: 
 
@@ -88,15 +77,6 @@ The <b>FireSubscription</b> method fires an event to the subscriber associated w
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a>

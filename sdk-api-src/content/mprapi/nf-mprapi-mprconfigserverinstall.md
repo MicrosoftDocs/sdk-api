@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprConfigServerInstall
 title: MprConfigServerInstall function (mprapi.h)
 description: The MprConfigServerInstall function configures Routing and Remote Access Service with a default configuration.
+helpviewer_keywords: ["MprConfigServerInstall","MprConfigServerInstall function [RAS]","_mpr_mprconfigserverinstall","mprapi/MprConfigServerInstall","rras.mprconfigserverinstall"]
 old-location: rras\mprconfigserverinstall.htm
 tech.root: RRAS
 ms.assetid: a261aaf8-abb0-4580-850b-f447017e07b9
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
-f1_keywords:
-- mprapi/MprConfigServerInstall
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigServerInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigServerInstall
+ - mprapi/MprConfigServerInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigServerInstall
 ---
 
 # MprConfigServerInstall function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigServerInstall</b> function configures Routing and Remote Access Service with a default configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLevel [in]
 
 This parameter is reserved for future use, and should be zero.
 
-
 ### -param pBuffer [in]
 
 This parameter is reserved for future use, and should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the functions succeeds, the return value is ERROR_SUCCESS.
 
@@ -100,14 +93,8 @@ One of the following is true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MprConfigServerInstall</b> function performs the following tasks:
@@ -135,16 +122,6 @@ ROUTER_TYPE_LAN
 The 
 <b>MprConfigServerInstall</b> function does not start Routing and RAS or  set the service start type for Routing and RAS.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-registry-layout">Windows 2000 Registry Layout</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-and-remote-access-registry-layout">Windows 2000 Registry Layout</a>

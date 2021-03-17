@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFAttributes.GetBlob
 title: IMFAttributes::GetBlob (mfobjects.h)
 description: Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
+helpviewer_keywords: ["68528db7-90df-4abe-a957-ffb8c3f12cef","GetBlob","GetBlob method [Media Foundation]","GetBlob method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetBlob method","IMFAttributes.GetBlob","IMFAttributes::GetBlob","mf.imfattributes_getblob","mfobjects/IMFAttributes::GetBlob"]
 old-location: mf\imfattributes_getblob.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 68528db7-90df-4abe-a957-ffb8c3f12cef
 ms.date: 12/05/2018
 ms.keywords: 68528db7-90df-4abe-a957-ffb8c3f12cef, GetBlob, GetBlob method [Media Foundation], GetBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetBlob method, IMFAttributes.GetBlob, IMFAttributes::GetBlob, mf.imfattributes_getblob, mfobjects/IMFAttributes::GetBlob
-f1_keywords:
-- mfobjects/IMFAttributes.GetBlob
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAttributes.GetBlob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAttributes::GetBlob
+ - mfobjects/IMFAttributes::GetBlob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAttributes.GetBlob
 ---
 
 # IMFAttributes::GetBlob
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a byte array associated with a key. This method copies the array into a caller-allocated buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidKey [in]
 
 GUID that identifies which value to retrieve. The attribute type must be <b>MF_ATTRIBUTE_BLOB</b>.
 
-
 ### -param pBuf [out]
 
-Pointer to a buffer allocated by the caller. If the key is found and the value is a byte array, the method copies the array into this buffer. To find the required size of the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblobsize">IMFAttributes::GetBlobSize</a>.
-
+Pointer to a buffer allocated by the caller. If the key is found and the value is a byte array, the method copies the array into this buffer. To find the required size of the buffer, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblobsize">IMFAttributes::GetBlobSize</a>.
 
 ### -param cbBufSize [in]
 
 The size of the <i>pBuf</i> buffer, in bytes.
 
-
 ### -param pcbBlobSize [out]
 
 Receives the size of the byte array. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -137,16 +125,10 @@ The attribute value is not a byte array.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedblob">IMFAttributes::GetAllocatedBlob</a> method, which allocates the buffer to hold the byte array.
+You can also use the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedblob">IMFAttributes::GetAllocatedBlob</a> method, which allocates the buffer to hold the byte array.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -191,25 +173,14 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>

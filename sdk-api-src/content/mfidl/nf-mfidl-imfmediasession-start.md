@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSession.Start
 title: IMFMediaSession::Start (mfidl.h)
 description: Starts the Media Session.
+helpviewer_keywords: ["1bdec0c0-b042-4e5e-a72b-b15942750ced","GUID_NULL","IMFMediaSession interface [Media Foundation]","Start method","IMFMediaSession.Start","IMFMediaSession::Start","MF_TIME_FORMAT_ENTRY_RELATIVE","MF_TIME_FORMAT_SEGMENT_OFFSET","Start","Start method [Media Foundation]","Start method [Media Foundation]","IMFMediaSession interface","mf.imfmediasession_start","mfidl/IMFMediaSession::Start"]
 old-location: mf\imfmediasession_start.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1bdec0c0-b042-4e5e-a72b-b15942750ced
 ms.date: 12/05/2018
 ms.keywords: 1bdec0c0-b042-4e5e-a72b-b15942750ced, GUID_NULL, IMFMediaSession interface [Media Foundation],Start method, IMFMediaSession.Start, IMFMediaSession::Start, MF_TIME_FORMAT_ENTRY_RELATIVE, MF_TIME_FORMAT_SEGMENT_OFFSET, Start, Start method [Media Foundation], Start method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_start, mfidl/IMFMediaSession::Start
-f1_keywords:
-- mfidl/IMFMediaSession.Start
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSession.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSession::Start
+ - mfidl/IMFMediaSession::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSession.Start
 ---
 
 # IMFMediaSession::Start
@@ -49,15 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts the Media Session.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pguidTimeFormat [in]
 
@@ -92,9 +88,9 @@ All media sources support this time format.
 </dl>
 </td>
 <td width="60%">
-Segment offset. This time format is supported by the <a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The starting time is an offset within a segment.
+Segment offset. This time format is supported by the <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>. The starting time is an offset within a segment.
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersegmentoffset">MFCreateSequencerSegmentOffset</a> function to create the <b>PROPVARIANT</b> value for the 
+Call the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesequencersegmentoffset">MFCreateSequencerSegmentOffset</a> function to create the <b>PROPVARIANT</b> value for the 
 <i>pvarStartPosition</i> parameter.
 
 </td>
@@ -109,7 +105,7 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-
 <div> </div>
 Skip to a playlist entry. The <i>pvarStartPosition</i> parameter specifies the index of the playlist entry, relative to the current entry. For example, the value 2 skips forward two entries. To skip backward, pass a negative value. The <b>PROPVARIANT</b> type is <b>VT_I4</b>.
 
-If a media source supports this time format, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns one or both of the following flags:
+If a media source supports this time format, the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-getcharacteristics">IMFMediaSource::GetCharacteristics</a> method returns one or both of the following flags:
 
 <ul>
 <li><b>MFMEDIASOURCE_CAN_SKIPFORWARD</b></li>
@@ -118,18 +114,12 @@ If a media source supports this time format, the <a href="https://docs.microsoft
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarStartPosition [in]
 
 Pointer to a <b>PROPVARIANT</b> that specifies the starting position for playback. The meaning and data type of this parameter are indicated by the <i>pguidTimeFormat</i> parameter.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -176,29 +166,13 @@ The Media Session has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When this method is called, the Media Session starts the presentation clock and begins to process media samples.
 
-This method is asynchronous. When the method completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionstarted">MESessionStarted</a> event.
-
-
-
+This method is asynchronous. When the method completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessionstarted">MESessionStarted</a> event.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

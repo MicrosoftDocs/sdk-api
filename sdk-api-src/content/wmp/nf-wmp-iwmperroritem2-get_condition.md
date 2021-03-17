@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPErrorItem2.get_condition
 title: IWMPErrorItem2::get_condition (wmp.h)
 description: The get_condition method retrieves a value indicating the condition for the error.
+helpviewer_keywords: ["IWMPErrorItem2 interface [Windows Media Player]","get_condition method","IWMPErrorItem2.get_condition","IWMPErrorItem2::get_condition","IWMPErrorItem2get_condition","get_condition","get_condition method [Windows Media Player]","get_condition method [Windows Media Player]","IWMPErrorItem2 interface","wmp.iwmperroritem2_get_condition","wmp/IWMPErrorItem2::get_condition"]
 old-location: wmp\iwmperroritem2_get_condition.htm
 tech.root: WMP
 ms.assetid: fe72bb1c-78ac-4a10-9abf-81722139d842
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem2 interface [Windows Media Player],get_condition method, IWMPErrorItem2.get_condition, IWMPErrorItem2::get_condition, IWMPErrorItem2get_condition, get_condition, get_condition method [Windows Media Player], get_condition method [Windows Media Player],IWMPErrorItem2 interface, wmp.iwmperroritem2_get_condition, wmp/IWMPErrorItem2::get_condition
-f1_keywords:
-- wmp/IWMPErrorItem2.get_condition
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPErrorItem2.get_condition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPErrorItem2::get_condition
+ - wmp/IWMPErrorItem2::get_condition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPErrorItem2.get_condition
 ---
 
 # IWMPErrorItem2::get_condition
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_condition</b> method retrieves a value indicating the condition for the error.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plCondition [out]
 
 Pointer to a <b>long</b> containing the condition code.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,29 +79,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The condition code is a value that is used by Microsoft to provide additional information for technical support personnel.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>long</b> set to 0.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>

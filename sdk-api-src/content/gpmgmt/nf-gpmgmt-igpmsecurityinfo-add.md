@@ -2,15 +2,12 @@
 UID: NF:gpmgmt.IGPMSecurityInfo.Add
 title: IGPMSecurityInfo::Add (gpmgmt.h)
 description: Adds the permission specified in a GPMPermission object to the GPMSecurityInfo collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
+helpviewer_keywords: ["Add","Add method [GPMC]","Add method [GPMC]","GPMSecurityInfo class","Add method [GPMC]","IGPMSecurityInfo interface","GPMSecurityInfo class [GPMC]","Add method","IGPMSecurityInfo interface [GPMC]","Add method","IGPMSecurityInfo.Add","IGPMSecurityInfo::Add","_win32_igpmsecurityinfo_add","gpmc.igpmsecurityinfo_add","gpmgmt/IGPMSecurityInfo::Add"]
 old-location: gpmc\igpmsecurityinfo_add.htm
 tech.root: gpmc
 ms.assetid: d180a4ed-7c7d-4df9-a2a4-7aab46446283
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMSecurityInfo class, Add method [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Add method, IGPMSecurityInfo interface [GPMC],Add method, IGPMSecurityInfo.Add, IGPMSecurityInfo::Add, _win32_igpmsecurityinfo_add, gpmc.igpmsecurityinfo_add, gpmgmt/IGPMSecurityInfo::Add
-f1_keywords:
-- gpmgmt/IGPMSecurityInfo.Add
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,51 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSecurityInfo.Add
-- GPMSecurityInfo.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSecurityInfo::Add
+ - gpmgmt/IGPMSecurityInfo::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSecurityInfo.Add
+ - GPMSecurityInfo.Add
 ---
-
-# IGPMSecurityInfo::Add
-
 
 ## -description
 
-
 Adds the permission specified in a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object to the 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
 
 ## -parameters
-
-
-
 
 ### -param pPerm [in]
 
 Pointer to the <b>GPMPermission</b> object to add to the collection.
 
-
-#### - objGPMPermission
-
-<b>GPMPermission</b> object to add.
-
-
 ## -returns
-
-
 
 <h3>JScript</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -80,12 +66,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 <h3>VB</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
-
-
-
 ## -remarks
-
-
 
 A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.
 
@@ -109,35 +90,25 @@ If a permission that you are adding for a trustee overlaps (as defined above) wi
 <li>If the current permission is inheritable, and the permission you are adding sets the Inheritable property to FALSE, the method returns S_FALSE.</li>
 </ol>
 Note that you cannot add Denied, Inherited, or custom permissions using the GPMC, but you can add Inheritable permissions. You can delete Denied and custom permissions. If you attempt to add a Denied permission, it results in an error. Custom permissions are those that do not match any of the permission levels defined by the GPMC. For example, if a trustee is granted the "Apply" ACE for a GPO, but not the "Read" ACE, the permission is a custom permission. To determine if a permission is Denied or Inherited you can call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmpermission-property-methods">IGPMPermission Property Methods</a>.
+<a href="/previous-versions/windows/desktop/gpmc/igpmpermission-property-methods">IGPMPermission Property Methods</a>.
 
 For more information about predefined policy-related permissions, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>. For information about permission categories and levels, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>. For information about permission categories and levels, see 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>.
 
 When adding permissions on a GPO, the value of the Inheritable property is ignored and set to <b>TRUE</b>. This is because all GPO permissions should be inheritable to the User and Computer child containers in the directory service and to subdirectories in the system volume folder (SysVol). When adding permissions on WMI filters, the value of the Inheritable property is always set to <b>FALSE</b>.
 
 For more information about security groups, see 
-<a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
-
-
-
+<a href="/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>

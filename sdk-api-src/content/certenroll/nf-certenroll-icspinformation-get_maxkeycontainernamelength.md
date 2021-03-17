@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspInformation.get_MaxKeyContainerNameLength
 title: ICspInformation::get_MaxKeyContainerNameLength (certenroll.h)
 description: Retrieves the maximum supported length for the name of the private key container associated with the provider.
+helpviewer_keywords: ["ICspInformation interface [Security]","MaxKeyContainerNameLength property","ICspInformation.MaxKeyContainerNameLength","ICspInformation.get_MaxKeyContainerNameLength","ICspInformation::MaxKeyContainerNameLength","ICspInformation::get_MaxKeyContainerNameLength","MaxKeyContainerNameLength property [Security]","MaxKeyContainerNameLength property [Security]","ICspInformation interface","certenroll/ICspInformation::MaxKeyContainerNameLength","certenroll/ICspInformation::get_MaxKeyContainerNameLength","get_MaxKeyContainerNameLength","security.icspinformation_maxkeycontainernamelength_property"]
 old-location: security\icspinformation_maxkeycontainernamelength_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation.get_MaxKeyContainerNameLength, ICspInformation::MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security],ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
-f1_keywords:
-- certenroll/ICspInformation.MaxKeyContainerNameLength
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.MaxKeyContainerNameLength
-- ICspInformation.get_MaxKeyContainerNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::get_MaxKeyContainerNameLength
+ - certenroll/ICspInformation::get_MaxKeyContainerNameLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.MaxKeyContainerNameLength
+ - ICspInformation.get_MaxKeyContainerNameLength
 ---
 
 # ICspInformation::get_MaxKeyContainerNameLength
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MaxKeyContainerNameLength</b> property retrieves the maximum supported length for the name of the private key container associated with the provider.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The key container name can be specified and retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface. The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.<table>
+The key container name can be specified and retrieved by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface. The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.<table>
 <tr>
 <th>Provider</th>
 <th>MaxKeyContainerNameLength value</th>
@@ -116,20 +113,7 @@ The key container name can be specified and retrieved by calling the <a href="ht
 <td>261</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

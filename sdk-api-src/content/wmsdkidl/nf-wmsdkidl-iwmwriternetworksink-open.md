@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Open
 title: IWMWriterNetworkSink::Open (wmsdkidl.h)
 description: The Open method opens a network port, and starts listening for network connections.
+helpviewer_keywords: ["IWMWriterNetworkSink interface [windows Media Format]","Open method","IWMWriterNetworkSink.Open","IWMWriterNetworkSink::Open","IWMWriterNetworkSinkOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMWriterNetworkSink interface","wmformat.iwmwriternetworksink_open","wmsdkidl/IWMWriterNetworkSink::Open"]
 old-location: wmformat\iwmwriternetworksink_open.htm
 tech.root: wmformat
 ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
-f1_keywords:
-- wmsdkidl/IWMWriterNetworkSink.Open
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterNetworkSink.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterNetworkSink::Open
+ - wmsdkidl/IWMWriterNetworkSink::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterNetworkSink.Open
 ---
 
 # IWMWriterNetworkSink::Open
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Open</b> method opens a network port, and starts listening for network connections.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwPortNum [in, out]
 
 On input, pointer to a variable that specifies the port number. Set this value to zero if you want the network sink to select a suitable port. On output, the variable receives the port number that was used.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, the values shown in the following table.
 
@@ -124,29 +115,13 @@ The port number specified is already in use.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method binds the port. To release the port, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a>.
 
-
-This method binds the port. To release the port, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a>.
-
-See the Remarks and Example Code sections for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
-
-
-
+See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>

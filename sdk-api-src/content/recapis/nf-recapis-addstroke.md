@@ -2,15 +2,12 @@
 UID: NF:recapis.AddStroke
 title: AddStroke function (recapis.h)
 description: Adds an ink stroke to the RecognizerContext.
+helpviewer_keywords: ["1db3dbef-41bf-4b00-8e6c-07c7c414e595","AddStroke","AddStroke function [Tablet PC]","recapis/AddStroke","tablet.addstroke"]
 old-location: tablet\addstroke.htm
 tech.root: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
 ms.date: 12/05/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
-f1_keywords:
-- recapis/AddStroke
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- AddStroke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddStroke
+ - recapis/AddStroke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - AddStroke
 ---
 
 # AddStroke function
@@ -48,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Adds an ink stroke to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">RecognizerContext</a>.
-
-
-
+Adds an ink stroke to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">RecognizerContext</a>.
 
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ### -param pPacketDesc
 
-Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a> function.
-
+Describes the contents of the packets. The description must match the contents of the packets in <i>pPacket</i>. If <b>NULL</b>, this function uses the <a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a> function.
 
 ### -param cbPacket
 
 Size, in bytes, of the <i>pPacket</i> buffer.
 
-
 ### -param pPacket
 
 Array of packets that contain tablet space coordinates.
-
 
 ### -param pXForm
 
 Describes the transform that can be applied to ink to transform it from tablet space into ink space. A recognizer may choose to ignore this transform and implement their own ink rotation algorithms. These recognizers should still return properties calculated in the lattice data relative to this transform.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -174,35 +161,19 @@ An invalid argument was received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The recognizer must return properties such as <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a> in ink space coordinates rather than tablet coordinates.
+The recognizer must return properties such as <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_baseline">Baseline</a> in ink space coordinates rather than tablet coordinates.
 
 It is recommended that your recognizer place a limit on the number of strokes per context and/or the points allowed in a given stroke. Limit input to 1024 strokes per context and 32767 points per stroke.
 
 Strokes with zero points are not allowed. You should return E_FAIL in such a case.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getpreferredpacketdescription">GetPreferredPacketDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>

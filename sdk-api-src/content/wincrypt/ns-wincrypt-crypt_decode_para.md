@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPT_DECODE_PARA
 title: CRYPT_DECODE_PARA (wincrypt.h)
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
+helpviewer_keywords: ["*PCRYPT_DECODE_PARA","CRYPT_DECODE_PARA","CRYPT_DECODE_PARA structure [Security]","PCRYPT_DECODE_PARA","PCRYPT_DECODE_PARA structure pointer [Security]","security.crypt_decode_para","wincrypt/CRYPT_DECODE_PARA","wincrypt/PCRYPT_DECODE_PARA"]
 old-location: security\crypt_decode_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_DECODE_PARA, CRYPT_DECODE_PARA, CRYPT_DECODE_PARA structure [Security], PCRYPT_DECODE_PARA, PCRYPT_DECODE_PARA structure pointer [Security], security.crypt_decode_para, wincrypt/CRYPT_DECODE_PARA, wincrypt/PCRYPT_DECODE_PARA'
-f1_keywords:
-- wincrypt/CRYPT_DECODE_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_DECODE_PARA
 targetos: Windows
 req.typenames: CRYPT_DECODE_PARA, *PCRYPT_DECODE_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_DECODE_PARA
+ - wincrypt/_CRYPT_DECODE_PARA
+ - PCRYPT_DECODE_PARA
+ - wincrypt/PCRYPT_DECODE_PARA
+ - CRYPT_DECODE_PARA
+ - wincrypt/CRYPT_DECODE_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_DECODE_PARA
 ---
 
 # CRYPT_DECODE_PARA structure
@@ -48,26 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_DECODE_PARA</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
-
+The <b>CRYPT_DECODE_PARA</b> structure is used by the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobjectex">CryptDecodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field pfnAlloc
 
 This member is an optional pointer to a callback function used to allocate memory.
 
-
 ### -field pfnFree
 
 This member is an optional pointer to a callback function used to free memory allocated by the allocate callback function.
-

@@ -2,15 +2,12 @@
 UID: NS:mfapi._MF_FLOAT2
 title: MF_FLOAT2 (mfapi.h)
 description: A vector with two components.
+helpviewer_keywords: ["MF_FLOAT2","MF_FLOAT2 structure [Media Foundation]","PMF_FLOAT2","PMF_FLOAT2 structure pointer [Media Foundation]","mf.mf_float2","mfapi/MF_FLOAT2","mfapi/PMF_FLOAT2"]
 old-location: mf\mf_float2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
 ms.date: 12/05/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
-f1_keywords:
-- mfapi/MF_FLOAT2
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- MF_FLOAT2
 targetos: Windows
 req.typenames: MF_FLOAT2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MF_FLOAT2
+ - mfapi/_MF_FLOAT2
+ - MF_FLOAT2
+ - mfapi/MF_FLOAT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - MF_FLOAT2
 ---
 
 # MF_FLOAT2 structure
@@ -48,32 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 A vector with two components.
 
-
 ## -struct-fields
-
-
-
 
 ### -field x
 
 X component of the vector.
 
-
 ### -field y
 
 Y component of the vector.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:npapi.NPCancelConnection
 title: NPCancelConnection function (npapi.h)
 description: Disconnects a network connection.
+helpviewer_keywords: ["NPCancelConnection","NPCancelConnection function [Security]","_mnp_npcancelconnection","npapi/NPCancelConnection","security.npcancelconnection"]
 old-location: security\npcancelconnection.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.date: 12/05/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
-f1_keywords:
-- npapi/NPCancelConnection
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPCancelConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPCancelConnection
+ - npapi/NPCancelConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPCancelConnection
 ---
 
 # NPCancelConnection function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NPCancelConnection</b> function disconnects a network connection. The changes you make to the connection are remembered if the connection is to a device. If, however, the connection is to a remote network resource, changes are not remembered.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 Pointer to the name of either the redirected local device or the remote network resource to disconnect from.
 
-
 ### -param fForce [in]
 
 Indicates whether the disconnect should continue in the event of open files or jobs on the connection. If <b>FALSE</b> is specified, the call will fail if there are open files or jobs.
 
-
 ## -returns
-
-
 
 If the function succeeds, it will return WN_SUCCESS. Otherwise, it will return an error. This can be one of the following.
 
@@ -101,7 +94,4 @@ There are open files, and <i>fForce</i> was set to <b>FALSE</b>.
 </td>
 </tr>
 </table>
- 
-
-
 

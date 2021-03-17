@@ -2,15 +2,12 @@
 UID: NF:dwmapi.DwmTetherContact
 title: DwmTetherContact function (dwmapi.h)
 description: Enables the graphical feedback of touch and drag interactions to the user.
+helpviewer_keywords: ["DwmTetherContact","DwmTetherContact function [Desktop Window Manager]","dwm.dwmtethercontact","dwmapi/DwmTetherContact"]
 old-location: dwm\dwmtethercontact.htm
 tech.root: dwm
 ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB
 ms.date: 12/05/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
-f1_keywords:
-- dwmapi/DwmTetherContact
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-api_name:
-- DwmTetherContact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmTetherContact
+ - dwmapi/DwmTetherContact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+api_name:
+ - DwmTetherContact
 ---
 
 # DwmTetherContact function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the graphical feedback of touch and drag interactions to the user.
 
-
 ## -parameters
-
-
-
 
 ### -param dwPointerID
 
 The pointer ID.
 
-
 ### -param fEnable
 
 Indicates whether the contact is enabled.
-
 
 ### -param ptTether
 

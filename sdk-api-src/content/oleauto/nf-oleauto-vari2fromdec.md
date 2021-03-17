@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI2FromDec
 title: VarI2FromDec function (oleauto.h)
 description: Converts a decimal value to a short value.
+helpviewer_keywords: ["VarI2FromDec","VarI2FromDec function [Automation]","_oa96_VarI2FromDec","automat.vari2fromdec","oleauto/VarI2FromDec"]
 old-location: automat\vari2fromdec.htm
 tech.root: automat
 ms.assetid: 1bcba279-15ec-4733-8f76-6576b6e389ee
 ms.date: 12/05/2018
 ms.keywords: VarI2FromDec, VarI2FromDec function [Automation], _oa96_VarI2FromDec, automat.vari2fromdec, oleauto/VarI2FromDec
-f1_keywords:
-- oleauto/VarI2FromDec
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI2FromDec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI2FromDec
+ - oleauto/VarI2FromDec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI2FromDec
 ---
 
 # VarI2FromDec function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a decimal value to a short value.
 
-
 ## -parameters
-
-
-
 
 ### -param pdecIn [in]
 
 The value to convert.
 
-
 ### -param psOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

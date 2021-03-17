@@ -2,15 +2,12 @@
 UID: NF:lmshare.NetFileClose
 title: NetFileClose function (lmshare.h)
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
+helpviewer_keywords: ["NetFileClose","NetFileClose function [Files]","_win32_netfileclose","fs.netfileclose","lmshare/NetFileClose","netmgmt.netfileclose"]
 old-location: fs\netfileclose.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
 ms.date: 12/05/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
-f1_keywords:
-- lmshare/NetFileClose
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetFileClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetFileClose
+ - lmshare/NetFileClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetFileClose
 ---
 
 # NetFileClose function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use 
 <b>NetFileClose</b> with caution because it does not write data cached on the client system to the file before closing the file.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
@@ -67,15 +64,11 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> is defined.
 
-
 ### -param fileid [in]
 
 Specifies the file identifier of the opened resource instance to close.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
@@ -109,39 +102,23 @@ The file was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators or Server Operators local group can successfully execute the 
 <b>NetFileClose</b> function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile
+<a href="/windows/desktop/NetShare/netfile-functions">NetFile
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
-

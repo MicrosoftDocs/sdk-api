@@ -2,15 +2,12 @@
 UID: NF:tom.ITextSelection.HomeKey
 title: ITextSelection::HomeKey (tom.h)
 description: Generalizes the functionality of the Home key.
+helpviewer_keywords: ["HomeKey","HomeKey method [Windows Controls]","HomeKey method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","HomeKey method","ITextSelection.HomeKey","ITextSelection::HomeKey","_win32_ITextSelection_HomeKey","_win32_ITextSelection_HomeKey_cpp","controls.ITextSelection_HomeKey","controls._win32_ITextSelection_HomeKey","tom/ITextSelection::HomeKey","tomColumn","tomLine","tomRow","tomStory"]
 old-location: controls\ITextSelection_HomeKey.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.date: 12/05/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
-f1_keywords:
-- tom/ITextSelection.HomeKey
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.HomeKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::HomeKey
+ - tom/ITextSelection::HomeKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.HomeKey
 ---
 
 # ITextSelection::HomeKey
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Generalizes the functionality of the Home key. 
-
+Generalizes the functionality of the Home key.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
@@ -113,8 +110,6 @@ Depending on
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Extend
 
@@ -122,24 +117,20 @@ Type: <b>long</b>
 
 Flag that indicates how to change the selection. If 
 					<i>Extend</i> is zero (or <b>tomMove</b>), the method collapses the selection to an insertion point. If 
-					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero. 
-
+					<i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero.
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
-Pointer to a variable that receives the count of characters that the insertion point or the active end is moved. This parameter can be null. 
-
+Pointer to a variable that receives the count of characters that the insertion point or the active end is moved. This parameter can be null.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -169,16 +160,10 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>ITextSelection::HomeKey</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
+The <b>ITextSelection::HomeKey</b> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">ITextSelection::EndKey</a> methods are used to mimic the standard Home/End key behavior.
 
 <b>tomLine</b> mimics the Home or End key behavior 
 				<i>without</i> the Ctrl key pressed, while <b>tomStory</b> mimics the behavior 
@@ -188,46 +173,40 @@ The <b>ITextSelection::HomeKey</b> and <a href="https://docs.microsoft.com/windo
 				<code>HomeKey(tomStory)</code> converts the selection into an insertion point at the beginning of the associated story, while <b>HomeKey</b>(tomStory, tomExtend) moves the active end of the selection to the beginning of the story and leaves the other end where it was.
 
 The <b>HomeKey</b> and 
-				<b>EndKey</b> methods are logical methods like the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
-				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods are different than the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
+				<b>EndKey</b> methods are logical methods like the <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a> methods, rather than directional methods. Thus, they depend on the language that is involved. For example, in Arabic text, <b>HomeKey</b> moves to the right end of a line, whereas in English text, it moves to the left. Thus, <b>HomeKey</b> and 
+				<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods are different than the <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">ITextSelection::MoveLeft</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">ITextSelection::MoveRight</a> methods. Also, note that the <b>HomeKey</b> method is quite different from the 
 				<b>Start</b> property, which is the cp at the beginning of the selection. <b>HomeKey</b> and 
-				<b>EndKey</b> also differ from the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> methods in that they extend from the active end, whereas 
+				<b>EndKey</b> also differ from the <a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a> methods in that they extend from the active end, whereas 
 				<b>StartOf</b> extends from Start and 
 				<b>EndOf</b> extends from End.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
@@ -235,12 +214,8 @@ The <b>HomeKey</b> and
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

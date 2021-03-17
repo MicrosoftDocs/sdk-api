@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.GetObject
 title: IMFTopologyNode::GetObject (mfidl.h)
 description: Gets the object associated with this node.
+helpviewer_keywords: ["039d8009-5e5a-4503-9908-7317bc2bf412","GetObject","GetObject method [Media Foundation]","GetObject method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetObject method","IMFTopologyNode.GetObject","IMFTopologyNode::GetObject","mf.imftopologynode_getobject","mfidl/IMFTopologyNode::GetObject"]
 old-location: mf\imftopologynode_getobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 039d8009-5e5a-4503-9908-7317bc2bf412
 ms.date: 12/05/2018
 ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
-f1_keywords:
-- mfidl/IMFTopologyNode.GetObject
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::GetObject
+ - mfidl/IMFTopologyNode::GetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.GetObject
 ---
 
 # IMFTopologyNode::GetObject
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the object associated with this node.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param ppObject [out]
 
 Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,22 +93,11 @@ There is no object associated with this node.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

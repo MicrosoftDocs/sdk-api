@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 title: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES (webservices.h)
 description: An array of XML prefixes that should be treated as inclusive prefixes during exclusive XML canonicalization. The treatment of inclusive prefixes is defined in RFC 3741.
+helpviewer_keywords: ["WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES","WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows]","webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES","wsw.ws_xml_canonicalization_inclusive_prefixes"]
 old-location: wsw\ws_xml_canonicalization_inclusive_prefixes.htm
 tech.root: wsw
 ms.assetid: 792ab726-6309-4f77-b40c-95dad2d991d9
 ms.date: 12/05/2018
 ms.keywords: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure [Web Services for Windows], webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES, wsw.ws_xml_canonicalization_inclusive_prefixes
-f1_keywords:
-- webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 targetos: Windows
 req.typenames: WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
+ - webservices/_WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
+ - WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
+ - webservices/WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES
 ---
 
 # WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES structure
@@ -48,27 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 An array of XML prefixes that should be treated as
         inclusive prefixes during exclusive XML canonicalization.  The
         treatment of inclusive prefixes is defined in 
         RFC 3741.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field prefixCount
 
 The number of prefixes.
-        
-
 
 ### -field prefixes
 
 The array of prefixes.
-        
 

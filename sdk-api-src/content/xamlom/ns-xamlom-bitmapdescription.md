@@ -2,15 +2,12 @@
 UID: NS:xamlom.BitmapDescription
 title: BitmapDescription (xamlom.h)
 description: Represents information about the bitmap stored in IBitmapData.
+helpviewer_keywords: ["BitmapDescription","BitmapDescription structure","PBitmapDescription","PBitmapDescription structure pointer","xaml_diagnostics.bitmapdescription","xamlom/BitmapDescription","xamlom/PBitmapDescription"]
 old-location: xaml_diagnostics\bitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
 ms.date: 12/05/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
-f1_keywords:
-- xamlom/BitmapDescription
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xamlom.h
-api_name:
-- BitmapDescription
 targetos: Windows
 req.typenames: BitmapDescription
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BitmapDescription
+ - xamlom/BitmapDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xamlom.h
+api_name:
+ - BitmapDescription
 ---
 
 # BitmapDescription structure
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents information about the bitmap stored in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>.
-
+Represents information about the bitmap stored in <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ibitmapdata">IBitmapData</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Width
 
 The width of the bitmap.
 
-
 ### -field Height
 
 The height of the bitmap.
-
 
 ### -field Format
 
 The format of the bitmap.
 
-
 ### -field AlphaMode
 
 The alpha mode of the bitmap.
-

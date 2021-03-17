@@ -2,15 +2,12 @@
 UID: NF:xapo.XAPOAlloc
 title: XAPOAlloc macro (xapo.h)
 description: Memory allocation macro used by IXAPO methods that must allocate arbitrary sized structures that are subsequently returned to the application.
+helpviewer_keywords: ["XAPOAlloc","XAPOAlloc macro [XAudio2 Audio Mixing APIs]","xapo/XAPOAlloc","xaudio2.xapoalloc"]
 old-location: xaudio2\xapoalloc.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapo.XAPOAlloc(ULONG)
 ms.date: 12/05/2018
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
-f1_keywords:
-- xapo/XAPOAlloc
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- XAPO.h
-api_name:
-- XAPOAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAPOAlloc
+ - xapo/XAPOAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - XAPO.h
+api_name:
+ - XAPOAlloc
 ---
 
 # XAPOAlloc macro
@@ -48,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Memory allocation macro used by IXAPO methods that must allocate arbitrary sized structures that are subsequently returned to the application.
 
-
 ## -parameters
-
-
-
 
 ### -param size
 
 Size, in bytes, of the memory block to be allocated.
 
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
+<a href="/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> are memory allocation macros that allow one module to allocate memory and another to free it, by guaranteeing that the same heap manager is used regardless of differences between the build environments of the two modules.
 
 <table>
 <tr>
@@ -75,7 +68,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
+<a href="/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>XMemAlloc</b> and <b>XMemFree</b> on Xbox 360.</td>
 </tr>
 </table>
  
@@ -86,7 +79,7 @@ Size, in bytes, of the memory block to be allocated.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
+<a href="/windows/desktop/api/xapo/nf-xapo-xapofree">XAPOFree</a> and <b>XAPOAlloc</b> resolve to <b>CoTaskMemAlloc</b> and <b>CoTaskMemFree</b>.</td>
 </tr>
 </table>
  
@@ -94,16 +87,6 @@ Size, in bytes, of the memory block to be allocated.
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/macros">Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/macros">Macros</a>

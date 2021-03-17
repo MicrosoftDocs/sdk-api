@@ -2,15 +2,12 @@
 UID: NF:vfw.capPreview
 title: capPreview macro (vfw.h)
 description: The capPreview macro enables or disables preview mode.
+helpviewer_keywords: ["_win32_capPreview","capPreview","capPreview macro [Windows Multimedia]","multimedia.cappreview","vfw/capPreview"]
 old-location: multimedia\cappreview.htm
 tech.root: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
 ms.date: 12/05/2018
 ms.keywords: _win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview
-f1_keywords:
-- vfw/capPreview
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- capPreview
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - capPreview
+ - vfw/capPreview
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - capPreview
 ---
 
 # capPreview macro
@@ -48,50 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-preview">WM_CAP_SET_PREVIEW</a> message.
-
-
-
+The <b>capPreview</b> macro enables or disables preview mode. In preview mode, frames are transferred from the capture hardware to system memory and then displayed in the capture window using GDI functions. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-preview">WM_CAP_SET_PREVIEW</a> message.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle to a capture window. 
-
+Handle to a capture window.
 
 ### -param f
 
-Preview flag. Specify <b>TRUE</b> for this parameter to enable preview mode or <b>FALSE</b> to disable it. 
-
+Preview flag. Specify <b>TRUE</b> for this parameter to enable preview mode or <b>FALSE</b> to disable it.
 
 ## -remarks
 
-
-
-The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
+The preview mode uses substantial CPU resources. Applications can disable preview or lower the preview rate when another application has the focus. The <b>fLiveWindow</b> member of the <a href="/windows/desktop/api/vfw/ns-vfw-capstatus">CAPSTATUS</a> structure indicates if preview mode is currently enabled.
 
 Enabling preview mode automatically disables overlay mode.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

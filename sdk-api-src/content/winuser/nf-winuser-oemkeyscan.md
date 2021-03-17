@@ -2,15 +2,12 @@
 UID: NF:winuser.OemKeyScan
 title: OemKeyScan function (winuser.h)
 description: Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input.
+helpviewer_keywords: ["OemKeyScan","OemKeyScan function [Keyboard and Mouse Input]","_win32_OemKeyScan","_win32_oemkeyscan_cpp","inputdev.oemkeyscan","winui._win32_oemkeyscan","winuser/OemKeyScan"]
 old-location: inputdev\oemkeyscan.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\oemkeyscan.htm
 ms.date: 12/05/2018
 ms.keywords: OemKeyScan, OemKeyScan function [Keyboard and Mouse Input], _win32_OemKeyScan, _win32_oemkeyscan_cpp, inputdev.oemkeyscan, winui._win32_oemkeyscan, winuser/OemKeyScan
-f1_keywords:
-- winuser/OemKeyScan
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- OemKeyScan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OemKeyScan
+ - winuser/OemKeyScan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - OemKeyScan
 ---
 
 # OemKeyScan function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input. 
-
+Maps OEMASCII codes 0 through 0x0FF into the OEM scan codes and shift states. The function provides information that allows a program to send OEM text to another program by simulating keyboard input.
 
 ## -parameters
-
-
-
 
 ### -param wOemChar [in]
 
 Type: <b>WORD</b>
 
-The ASCII value of the OEM character. 
-
+The ASCII value of the OEM character.
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -147,34 +141,23 @@ Reserved (defined by the keyboard layout driver).
  
 
 If the character cannot be produced by a single keystroke using the current keyboard layout, the return value is 
-						–1. 
-
-
-
+						–1.
 
 ## -remarks
-
-
 
 This function does not provide translations for characters that require CTRL+ALT or dead keys. Characters not translated by this function must be copied by simulating input using the ALT+ keypad mechanism. The NUMLOCK key must be off. 
 
 This function does not provide translations for characters that cannot be typed with one keystroke using the current keyboard layout, such as characters with diacritics requiring dead keys. Characters not translated by this function may be simulated using the ALT+ keypad mechanism. The NUMLOCK key must be on. 
 
-This function is implemented using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a> function. 
-
-
-
+This function is implemented using the <a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a> function.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -182,8 +165,4 @@ This function is implemented using the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-vkkeyscana">VkKeyScan</a>

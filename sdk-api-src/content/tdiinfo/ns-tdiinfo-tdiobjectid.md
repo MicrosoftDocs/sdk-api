@@ -2,15 +2,12 @@
 UID: NS:tdiinfo.TDIObjectID
 title: TDIObjectID (tdiinfo.h)
 description: Contains a part of the TCP_REQUEST_QUERY_INFORMATION_EX structure that is used with the IOCTL_TCP_QUERY_INFORMATION_EX control code to specify the kind of information being requested from the TCP driver.
+helpviewer_keywords: ["ENTITY_LIST_ID","ENTITY_TYPE_ID","IF_MIB_STATS_ID","INFO_CLASS_GENERIC","INFO_CLASS_PROTOCOL","INFO_TYPE_ADDRESS_OBJECT","INFO_TYPE_CONNECTION","INFO_TYPE_PROVIDER","IP_INTFC_INFO_ID","IP_MIB_ADDRTABLE_ENTRY_ID","IP_MIB_STATS_ID","TDIObjectID","TDIObjectID structure [Windows API]","tdiinfo/TDIObjectID","winprog.tdiobjectid"]
 old-location: winprog\tdiobjectid.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 79d34f1c-2ea7-4867-9fb2-80401b0859bf
 ms.date: 12/05/2018
 ms.keywords: ENTITY_LIST_ID, ENTITY_TYPE_ID, IF_MIB_STATS_ID, INFO_CLASS_GENERIC, INFO_CLASS_PROTOCOL, INFO_TYPE_ADDRESS_OBJECT, INFO_TYPE_CONNECTION, INFO_TYPE_PROVIDER, IP_INTFC_INFO_ID, IP_MIB_ADDRTABLE_ENTRY_ID, IP_MIB_STATS_ID, TDIObjectID, TDIObjectID structure [Windows API], tdiinfo/TDIObjectID, winprog.tdiobjectid
-f1_keywords:
-- tdiinfo/TDIObjectID
-dev_langs:
-- c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- tdiinfo.h
-api_name:
-- TDIObjectID
 targetos: Windows
 req.typenames: TDIObjectID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TDIObjectID
+ - tdiinfo/TDIObjectID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - tdiinfo.h
+api_name:
+ - TDIObjectID
 ---
 
 # TDIObjectID structure
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This structure may be altered or unavailable in future versions of Windows.]
 
-Contains a part of the  <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code to specify the kind of  information being requested from the TCP driver.
-
+Contains a part of the  <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure that is used with the <a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code to specify the kind of  information being requested from the TCP driver.
 
 ## -struct-fields
 
-
-
-
 ### -field toi_entity
 
-This is a <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> structure.
-
+This is a <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> structure.
 
 ### -field toi_class
 
@@ -94,8 +90,6 @@ Used when requesting information about a specific interface or IP entity.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field toi_type
 
@@ -112,7 +106,7 @@ The type of object being queried. The value can be one of the following.
 </dl>
 </td>
 <td width="60%">
-A service provider. All queries described in the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> topic use this type value.
+A service provider. All queries described in the <a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> topic use this type value.
 
 </td>
 </tr>
@@ -137,8 +131,6 @@ A connection object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field toi_id
 
@@ -185,7 +177,7 @@ If <b>toi_class</b> is <b>INFO_CLASS_PROTOCOL</b>, <b>toi_id</b> can be one of t
 </dl>
 </td>
 <td width="60%">
-When the entity being queried is an interface supporting MIB-II, causes the query to return an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure that contains information about the interface.
+When the entity being queried is an interface supporting MIB-II, causes the query to return an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure that contains information about the interface.
 
 </td>
 </tr>
@@ -195,7 +187,7 @@ When the entity being queried is an interface supporting MIB-II, causes the quer
 </dl>
 </td>
 <td width="60%">
-When the entity being queried is a network-layer IP entity, causes the query to return an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure that contains information about the entity.
+When the entity being queried is a network-layer IP entity, causes the query to return an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure that contains information about the entity.
 
 </td>
 </tr>
@@ -205,7 +197,7 @@ When the entity being queried is a network-layer IP entity, causes the query to 
 </dl>
 </td>
 <td width="60%">
-When the entity being queried is a network-layer IP entity on which one or more IP addresses are active, causes the query to return an array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures that contain information about those addresses.
+When the entity being queried is a network-layer IP entity on which one or more IP addresses are active, causes the query to return an array of <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures that contain information about those addresses.
 
 </td>
 </tr>
@@ -215,26 +207,17 @@ When the entity being queried is a network-layer IP entity on which one or more 
 </dl>
 </td>
 <td width="60%">
-Causes an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> structure to be returned with information about a specific IP address specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure.
+Causes an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> structure to be returned with information about a specific IP address specified in the <b>Context</b> member of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
- 
-
- 
-

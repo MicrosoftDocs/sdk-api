@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidVideoRenderer.put_ClippedSourceRect
 title: IMSVidVideoRenderer::put_ClippedSourceRect (segment.h)
 description: The put_ClippedSourceRect method specifies the clipping rectangle on the video source.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put_ClippedSourceRect method","IMSVidVideoRenderer.put_ClippedSourceRect","IMSVidVideoRenderer::put_ClippedSourceRect","IMSVidVideoRendererput_ClippedSourceRect","mstv.imsvidvideorenderer_put_clippedsourcerect","put_ClippedSourceRect","put_ClippedSourceRect method [Microsoft TV Technologies]","put_ClippedSourceRect method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put_ClippedSourceRect"]
 old-location: mstv\imsvidvideorenderer_put_clippedsourcerect.htm
 tech.root: mstv
 ms.assetid: c72d8134-ff6c-46b4-b567-35638aef53cd
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_ClippedSourceRect method, IMSVidVideoRenderer.put_ClippedSourceRect, IMSVidVideoRenderer::put_ClippedSourceRect, IMSVidVideoRendererput_ClippedSourceRect, mstv.imsvidvideorenderer_put_clippedsourcerect, put_ClippedSourceRect, put_ClippedSourceRect method [Microsoft TV Technologies], put_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_ClippedSourceRect
-f1_keywords:
-- segment/IMSVidVideoRenderer.put_ClippedSourceRect
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRenderer.put_ClippedSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRenderer::put_ClippedSourceRect
+ - segment/IMSVidVideoRenderer::put_ClippedSourceRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRenderer.put_ClippedSourceRect
 ---
 
 # IMSVidVideoRenderer::put_ClippedSourceRect
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_ClippedSourceRect</b> method specifies the clipping rectangle on the video source.
-
 
 ## -parameters
 
-
-
-
 ### -param pRect [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface that specifies the rectangle.
-
+Pointer to an <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface that specifies the rectangle.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
-
-
-
 
 ## -remarks
 
-
-
-If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle and stretches this to fill the Video Control's video window. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>.
+If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle and stretches this to fill the Video Control's video window. For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_sourcesize">IMSVidVideoRenderer::put_SourceSize</a>.
 
 
 #### Examples
@@ -104,21 +93,10 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_clippedsourcerect">IMSVidVideoRenderer::get_ClippedSourceRect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_clippedsourcerect">IMSVidVideoRenderer::get_ClippedSourceRect</a>

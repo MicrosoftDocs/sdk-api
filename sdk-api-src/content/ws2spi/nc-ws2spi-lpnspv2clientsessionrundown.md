@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPV2CLIENTSESSIONRUNDOWN
 title: LPNSPV2CLIENTSESSIONRUNDOWN (ws2spi.h)
 description: Notifies a namespace service provider version-2 (NSPv2) provider that the client session is terminating.
+helpviewer_keywords: ["LPNSPV2CLIENTSESSIONRUNDOWN","NSPv2ClientSessionRundown","NSPv2ClientSessionRundown function [Winsock]","winsock.nspv2clientsessionrundown","ws2spi/NSPv2ClientSessionRundown"]
 old-location: winsock\nspv2clientsessionrundown.htm
 tech.root: WinSock
 ms.assetid: 7379b502-129a-4dac-b7eb-e6fae8fb23f8
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2CLIENTSESSIONRUNDOWN, NSPv2ClientSessionRundown, NSPv2ClientSessionRundown function [Winsock], winsock.nspv2clientsessionrundown, ws2spi/NSPv2ClientSessionRundown
-f1_keywords:
-- ws2spi/NSPv2ClientSessionRundown
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPv2ClientSessionRundown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPV2CLIENTSESSIONRUNDOWN
+ - ws2spi/LPNSPV2CLIENTSESSIONRUNDOWN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPv2ClientSessionRundown
 ---
 
 # LPNSPV2CLIENTSESSIONRUNDOWN callback function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPv2ClientSessionRundown** function notifies a namespace service provider version-2 (NSPv2) provider that the client session is terminating.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the specific namespace provider to notify.
 
-
 ### -param pvClientSessionArg [in]
 
-A pointer to the client session that is terminating. 
-
+A pointer to the client session that is terminating.
 
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (that is, 1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -138,14 +131,8 @@ Service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **NSPv2ClientSessionRundown** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -158,15 +145,9 @@ client session argument pointed to by the <i>ppvClientSessionArg</i> parameter t
 
 The <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a>,  **NSPv2ClientSessionRundown**, and  <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2cleanup">NSPv2Cleanup</a> functions are optional, dependent on the requirements of the NSPv2 provider.
 
- If the **NSPv2ClientSessionRundown** function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented **NSPv2ClientSessionRundown** function in the <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function. 
-
-
-
+ If the **NSPv2ClientSessionRundown** function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented **NSPv2ClientSessionRundown** function in the <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function.
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>
 
@@ -201,7 +182,4 @@ The <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup<
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

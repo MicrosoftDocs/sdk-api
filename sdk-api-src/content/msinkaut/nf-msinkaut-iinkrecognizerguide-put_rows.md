@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognizerGuide.put_Rows
 title: IInkRecognizerGuide::put_Rows (msinkaut.h)
 description: Gets or sets the number of rows in the recognition guide.
+helpviewer_keywords: ["5b1204ca-40b0-4752-8294-6f94412e8e7c","IInkRecognizerGuide interface [Tablet PC]","Rows property","IInkRecognizerGuide.Rows","IInkRecognizerGuide.put_Rows","IInkRecognizerGuide::Rows","IInkRecognizerGuide::get_Rows","IInkRecognizerGuide::put_Rows","InkRecognizerGuide.get_Rows","InkRecognizerGuide.put_Rows","Rows property [Tablet PC]","Rows property [Tablet PC]","IInkRecognizerGuide interface","get_Rows","msinkaut/IInkRecognizerGuide::Rows","msinkaut/IInkRecognizerGuide::get_Rows","msinkaut/IInkRecognizerGuide::put_Rows","put_Rows","tablet.inkrecognizerguide_rows"]
 old-location: tablet\inkrecognizerguide_rows.htm
 tech.root: tablet
 ms.assetid: 5b1204ca-40b0-4752-8294-6f94412e8e7c
 ms.date: 12/05/2018
 ms.keywords: 5b1204ca-40b0-4752-8294-6f94412e8e7c, IInkRecognizerGuide interface [Tablet PC],Rows property, IInkRecognizerGuide.Rows, IInkRecognizerGuide.put_Rows, IInkRecognizerGuide::Rows, IInkRecognizerGuide::get_Rows, IInkRecognizerGuide::put_Rows, InkRecognizerGuide.get_Rows, InkRecognizerGuide.put_Rows, Rows property [Tablet PC], Rows property [Tablet PC],IInkRecognizerGuide interface, get_Rows, msinkaut/IInkRecognizerGuide::Rows, msinkaut/IInkRecognizerGuide::get_Rows, msinkaut/IInkRecognizerGuide::put_Rows, put_Rows, tablet.inkrecognizerguide_rows
-f1_keywords:
-- msinkaut/IInkRecognizerGuide.Rows
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerGuide.Rows
-- IInkRecognizerGuide.get_Rows
-- IInkRecognizerGuide.put_Rows
-- InkRecognizerGuide.get_Rows
-- InkRecognizerGuide.put_Rows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerGuide::put_Rows
+ - msinkaut/IInkRecognizerGuide::put_Rows
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerGuide.Rows
+ - IInkRecognizerGuide.get_Rows
+ - IInkRecognizerGuide.put_Rows
+ - InkRecognizerGuide.get_Rows
+ - InkRecognizerGuide.put_Rows
 ---
 
 # IInkRecognizerGuide::put_Rows
@@ -53,25 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets or sets the number of rows in the recognition guide.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+Row height is determined by the size of the drawn box. To get or set the drawn box, use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property.
 
-
-Row height is determined by the size of the drawn box. To get or set the drawn box, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property.
-
-Use the values of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns</a> and <b>Rows</b> properties to control the kind of recognition input that you use. When the <b>Columns</b> and <b>Rows</b> properties are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
+Use the values of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns</a> and <b>Rows</b> properties to control the kind of recognition input that you use. When the <b>Columns</b> and <b>Rows</b> properties are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
 
 <table>
 <tr>
@@ -192,17 +188,10 @@ z
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
 
 
 
@@ -210,8 +199,4 @@ z
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>

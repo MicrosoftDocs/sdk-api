@@ -1,9 +1,10 @@
 ---
 UID: TP:winrt
+title: Windows Runtime C++ reference
 ms.assetid: 19ccb9a3-b0f9-3246-95d5-0d1c2650a2d5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows Runtime C++ reference
@@ -37,6 +38,7 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [weakreference.h](../weakreference/index.md)
  * [webauthenticationcoremanagerinterop.h](../webauthenticationcoremanagerinterop/index.md)
  * [windows.data.pdf.interop.h](../windows.data.pdf.interop/index.md)
+ * [windows.devices.display.core.interop.h](../windows.devices.display.core.interop/index.md)
  * [windows.foundation.h](../windows.foundation/index.md)
  * [windows.graphics.capture.interop.h](../windows.graphics.capture.interop/index.md)
  * [windows.graphics.effects.interop.h](../windows.graphics.effects.interop/index.md)

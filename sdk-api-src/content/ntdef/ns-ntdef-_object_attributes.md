@@ -2,15 +2,12 @@
 UID: NS:ntdef._OBJECT_ATTRIBUTES
 title: _OBJECT_ATTRIBUTES (ntdef.h)
 description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
+helpviewer_keywords: ["*POBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture]","POBJECT_ATTRIBUTES","POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture]","_OBJECT_ATTRIBUTES","kernel.object_attributes","kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml","ntdef/OBJECT_ATTRIBUTES","ntdef/POBJECT_ATTRIBUTES"]
 old-location: kernel\object_attributes.htm
 tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.date: 04/30/2018
 ms.keywords: '*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, ntdef/OBJECT_ATTRIBUTES, ntdef/POBJECT_ATTRIBUTES'
-f1_keywords:
-- ntdef/- OBJECT_ATTRIBUTES
-dev_langs:
-- c++
 req.header: ntdef.h
 req.include-header: D3dkmthk.h, Ntdef.h, Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -28,17 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ntdef.h
-api_name:
-- OBJECT_ATTRIBUTES
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
+f1_keywords:
+ - _OBJECT_ATTRIBUTES
+ - ntdef/_OBJECT_ATTRIBUTES
+ - OBJECT_ATTRIBUTES
+ - ntdef/OBJECT_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ntdef.h
+api_name:
+ - OBJECT_ATTRIBUTES
 ---
 
 # _OBJECT_ATTRIBUTES structure
@@ -46,29 +50,21 @@ req.typenames: OBJECT_ATTRIBUTES
 
 ## -description
 
-
 The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Length
 
-The number of bytes of data contained in this structure. The [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
-
+The number of bytes of data contained in this structure. The [InitializeObjectAttributes](./nf-ntdef-initializeobjectattributes.md) macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
 ### -field RootDirectory
 
 Optional handle to the root object directory for the path name specified by the <b>ObjectName</b> member. If <b>RootDirectory</b> is <b>NULL</b>, <b>ObjectName</b> must point to a fully qualified object name that includes the full path to the target object. If <b>RootDirectory</b> is non-<b>NULL</b>, <b>ObjectName</b> specifies an object name relative to the <b>RootDirectory</b> directory. The <b>RootDirectory</b> handle can refer to a file system directory or an object directory in the object manager namespace.
 
-
 ### -field ObjectName
 
-Pointer to a [Unicode string](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
-
+Pointer to a [Unicode string](./ns-ntdef-_unicode_string.md) that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
 
 ### -field Attributes
 
@@ -95,7 +91,7 @@ OBJ_PERMANENT
 
 </td>
 <td>
-This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
+This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
 
 </td>
 </tr>
@@ -163,6 +159,25 @@ The routine that opens the handle should enforce all access checks for the objec
 </tr>
 <tr>
 <td>
+OBJ_DONT_REPARSE
+
+</td>
+<td>
+If this flag is set, no reparse points will be followed when parsing the name of the associated object. If any reparses are encountered the attempt will fail and return an <b>STATUS_REPARSE_POINT_ENCOUNTERED</b> result. This can be used to determine if there are any reparse points in the object's path, in security scenarios.
+
+</td>
+</tr>
+<tr>
+<td>
+OBJ_IGNORE_IMPERSONATED_DEVICEMAP
+
+</td>
+<td>
+A device map is a mapping between DOS device names and devices in the system, and is used when resolving DOS names. Separate device maps exists for each user in the system, and users can manage their own device maps. Typically during impersonation, the impersonated user's device map would be used. However, when this flag is set, the process user's device map is used instead.  
+</td>
+</tr>
+<tr>
+<td>
 OBJ_VALID_ATTRIBUTES
 
 </td>
@@ -172,79 +187,67 @@ Reserved.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SecurityDescriptor
 
-Specifies a security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
-
+Specifies a security descriptor (<a href="/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
 
 ### -field SecurityQualityOfService
 
-Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro sets this member to <b>NULL</b>.
-
+Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the [InitializeObjectAttributes](./nf-ntdef-initializeobjectattributes.md) macro sets this member to <b>NULL</b>.
 
 ## -remarks
 
+Use the [InitializeObjectAttributes](./nf-ntdef-initializeobjectattributes.md) macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
-
-Use the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
-
-To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>.
+To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>.
 
 All members of this structure are read-only. If a member of this structure is a pointer, the object that this member points to is read-only as well. Read-only members and objects can be used to acquire relevant information but must not be modified. To set the members of this structure, use the <b>InitializeObjectAttributes</b> macro.
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the <b>Attributes</b> member (by using the <b>InitializeObjectAttributes</b> macro). This restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
+[InitializeObjectAttributes](./nf-ntdef-initializeobjectattributes.md)
 
 
 
-[InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
+<a href="/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+<a href="/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>
+<a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
+�
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
- 
-
- 
+�
 
 
 f1_keywords: 

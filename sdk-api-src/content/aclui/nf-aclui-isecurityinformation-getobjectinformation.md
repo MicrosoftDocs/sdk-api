@@ -2,15 +2,12 @@
 UID: NF:aclui.ISecurityInformation.GetObjectInformation
 title: ISecurityInformation::GetObjectInformation (aclui.h)
 description: The GetObjectInformation method requests information that the access control editor uses to initialize its pages and to determine the editing options available to the user.
+helpviewer_keywords: ["GetObjectInformation","GetObjectInformation method [Security]","GetObjectInformation method [Security]","ISecurityInformation interface","ISecurityInformation interface [Security]","GetObjectInformation method","ISecurityInformation.GetObjectInformation","ISecurityInformation::GetObjectInformation","_win32_isecurityinformation_getobjectinformation","aclui/ISecurityInformation::GetObjectInformation","security.isecurityinformation_getobjectinformation"]
 old-location: security\isecurityinformation_getobjectinformation.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2bc63aa0-dada-4962-a381-6b0f8332e564
 ms.date: 12/05/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [Security], GetObjectInformation method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetObjectInformation method, ISecurityInformation.GetObjectInformation, ISecurityInformation::GetObjectInformation, _win32_isecurityinformation_getobjectinformation, aclui/ISecurityInformation::GetObjectInformation, security.isecurityinformation_getobjectinformation
-f1_keywords:
-- aclui/ISecurityInformation.GetObjectInformation
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation.GetObjectInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation::GetObjectInformation
+ - aclui/ISecurityInformation::GetObjectInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation.GetObjectInformation
 ---
 
 # ISecurityInformation::GetObjectInformation
@@ -48,61 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetObjectInformation</b> method requests information that the access control editor uses to initialize its pages and to determine the editing options available to the user.
 
-
 ## -parameters
-
-
-
 
 ### -param pObjectInfo [out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
-
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure. Your implementation must fill this structure to pass information back to the access control editor.
 
 ## -returns
-
-
 
 Returns S_OK if successful.
 
 Returns a nonzero error code if an error occurs.
 
-
-
-
 ## -remarks
 
-
-
 The system does not free the string pointers that you return in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure.
-
-
-
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/aclui/ns-aclui-si_object_info">SI_OBJECT_INFO</a>

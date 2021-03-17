@@ -1,16 +1,13 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptionsFT
 title: MI_SubscriptionDeliveryOptionsFT (mi.h)
-description: A support structure used in the MI_SubscriptionDeliveryOptions structure. Use the functions with the name prefix &#0034;MI_SubscriptionDeliveryOptions_&#0034; to manipulate these structures.
+description: A support structure used in the MI_SubscriptionDeliveryOptions structure. Use the functions with the name prefix &quot;MI_SubscriptionDeliveryOptions_&quot; to manipulate these structures.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptionsFT","MI_SubscriptionDeliveryOptionsFT structure [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptionsFT","wmi_v2.mi_subscriptiondeliveryoptionsft"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptionsft.htm
 tech.root: wmi_v2
 ms.assetid: b6f5406a-2abe-4cab-b257-185d77e1fb0e
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptionsFT, MI_SubscriptionDeliveryOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptionsFT, wmi_v2.mi_subscriptiondeliveryoptionsft
-f1_keywords:
-- mi/MI_SubscriptionDeliveryOptionsFT
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,123 +25,98 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_SubscriptionDeliveryOptionsFT
 targetos: Windows
 req.typenames: MI_SubscriptionDeliveryOptionsFT
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_SubscriptionDeliveryOptionsFT
+ - mi/_MI_SubscriptionDeliveryOptionsFT
+ - MI_SubscriptionDeliveryOptionsFT
+ - mi/MI_SubscriptionDeliveryOptionsFT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_SubscriptionDeliveryOptionsFT
 ---
-
-# MI_SubscriptionDeliveryOptionsFT structure
-
 
 ## -description
 
-
-A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.  Use the functions with the name prefix "MI_SubscriptionDeliveryOptions_" to manipulate these structures.
-
+A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure.  Use the functions with the name prefix "MI_SubscriptionDeliveryOptions_" to manipulate these structures.
 
 ## -struct-fields
 
-
-
-
-### -field MI_Result
-
-TBD 
-
-
-
-
-#### - AddCredentials
+### -field AddCredentials
 
 Used Internally.
 
+### -field Clone
 
-#### - Clone
+Creates a copy of a <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_clone">MI_SubscriptionDeliveryOptions_Clone</a>.
 
-Creates a copy of a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_clone">MI_SubscriptionDeliveryOptions_Clone</a>.
+### -field Delete
 
+Deletes the specified subscription delivery options structure. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a>.
 
-#### - Delete
+### -field GetCredentialsAt
 
-Deletes the specified subscription delivery options structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_delete">MI_SubscriptionDeliveryOptions_Delete</a>.
+Gets a previously added credential based on a specified index. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialsat">MI_SubscriptionDeliveryOptions_GetCredentialsAt</a>.
 
+### -field GetCredentialsCount
 
-#### - GetCredentialsAt
+Gets the number of previously added credentials. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialscount">MI_SubscriptionDeliveryOptions_GetCredentialsCount</a>.
 
-Gets a previously added credential based on a specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialsat">MI_SubscriptionDeliveryOptions_GetCredentialsAt</a>.
+### -field GetCredentialsPasswordAt
 
+Gets a previously added credential password based on a specified index. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialspasswordat">MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt</a>.
 
-#### - GetCredentialsCount
+### -field GetDateTime
 
-Gets the number of previously added credentials. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialscount">MI_SubscriptionDeliveryOptions_GetCredentialsCount</a>.
+Gets a previously set DateTime option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getdatetime">MI_SubscriptionDeliveryOptions_GetDateTime</a>.
 
+### -field GetInterval
 
-#### - GetCredentialsPasswordAt
+Gets the delivery interval for a specified option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getinterval">MI_SubscriptionDeliveryOptions_GetInterval</a>.
 
-Gets a previously added credential password based on a specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getcredentialspasswordat">MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt</a>.
+### -field GetNumber
 
+Gets the value of the named numeric option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getnumber">MI_SubscriptionDeliveryOptions_GetNumber</a>.
 
-#### - GetDateTime
+### -field GetOption
 
-Gets a previously set DateTime option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getdatetime">MI_SubscriptionDeliveryOptions_GetDateTime</a>.
+Gets the value of the named option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoption">MI_SubscriptionDeliveryOptions_GetOption</a>.
 
+### -field GetOptionAt
 
-#### - GetInterval
+Gets the option at the specified index. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoptionat">MI_SubscriptionDeliveryOptions_GetOptionAt</a>.
 
-Gets the delivery interval for a specified option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getinterval">MI_SubscriptionDeliveryOptions_GetInterval</a>.
+### -field GetOptionCount
 
+Gets the number of previously set options. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoptioncount">MI_SubscriptionDeliveryOptions_GetOptionCount</a>.
 
-#### - GetNumber
+### -field GetString
 
-Gets the value of the named numeric option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getnumber">MI_SubscriptionDeliveryOptions_GetNumber</a>.
+Gets the value of the named string option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getstring">MI_SubscriptionDeliveryOptions_GetString</a>.
 
+### -field SetDateTime
 
-#### - GetOption
+Sets the value of a named DateTime option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setdatetime">MI_SubscriptionDeliveryOptions_SetDateTime</a>.
 
-Gets the value of the named option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoption">MI_SubscriptionDeliveryOptions_GetOption</a>.
+### -field SetInterval
 
+Sets the value of a named interval option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setinterval">MI_SubscriptionDeliveryOptions_SetInterval</a>.
 
-#### - GetOptionAt
+### -field SetNumber
 
-Gets the option at the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoptionat">MI_SubscriptionDeliveryOptions_GetOptionAt</a>.
+Sets the value of a named numeric option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setnumber">MI_SubscriptionDeliveryOptions_SetNumber</a>.
 
+### -field SetString
 
-#### - GetOptionCount
-
-Gets the number of previously set options. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getoptioncount">MI_SubscriptionDeliveryOptions_GetOptionCount</a>.
-
-
-#### - GetString
-
-Gets the value of the named string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_getstring">MI_SubscriptionDeliveryOptions_GetString</a>.
-
-
-#### - SetDateTime
-
-Sets the value of a named DateTime option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setdatetime">MI_SubscriptionDeliveryOptions_SetDateTime</a>.
-
-
-#### - SetInterval
-
-Sets the value of a named interval option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setinterval">MI_SubscriptionDeliveryOptions_SetInterval</a>.
-
-
-#### - SetNumber
-
-Sets the value of a named numeric option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setnumber">MI_SubscriptionDeliveryOptions_SetNumber</a>.
-
-
-#### - SetString
-
-Sets the value of a named string option. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setstring">MI_SubscriptionDeliveryOptions_SetString</a>.
-
+Sets the value of a named string option. See <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_subscriptiondeliveryoptions_setstring">MI_SubscriptionDeliveryOptions_SetString</a>.

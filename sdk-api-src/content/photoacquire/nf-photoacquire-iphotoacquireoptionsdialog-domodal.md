@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
 title: IPhotoAcquireOptionsDialog::DoModal (photoacquire.h)
 description: The DoModal method creates and displays the options dialog box as a modal dialog box.
+helpviewer_keywords: ["DoModal","DoModal method [Picture Acquisition]","DoModal method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","DoModal method","IPhotoAcquireOptionsDialog.DoModal","IPhotoAcquireOptionsDialog::DoModal","IPhotoAcquireOptionsDialogDoModal","photoacquire/IPhotoAcquireOptionsDialog::DoModal","picacq.iphotoacquireoptionsdialog_domodal"]
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe
 ms.date: 12/05/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
-f1_keywords:
-- photoacquire/IPhotoAcquireOptionsDialog.DoModal
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireOptionsDialog.DoModal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireOptionsDialog::DoModal
+ - photoacquire/IPhotoAcquireOptionsDialog::DoModal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireOptionsDialog.DoModal
 ---
 
 # IPhotoAcquireOptionsDialog::DoModal
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>DoModal</code> method creates and displays the options dialog box as a modal dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hWndParent [in]
 
 Handle to the dialog's parent window.
 
-
 ### -param ppnReturnCode [out]
 
 Specifies the code returned when the window is closed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,27 +84,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</b> buttons, whereas the <b>OK</b> and <b>Cancel</b> buttons of the modeless dialog displayed by <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> must be provided by the parent window.
-
-
-
+The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</b> buttons, whereas the <b>OK</b> and <b>Cancel</b> buttons of the modeless dialog displayed by <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> must be provided by the parent window.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptDeleteContext
 title: BCryptDeleteContext function (bcrypt.h)
 description: Deletes an existing CNG configuration context.
+helpviewer_keywords: ["BCryptDeleteContext","BCryptDeleteContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptDeleteContext","security.bcryptdeletecontext"]
 old-location: security\bcryptdeletecontext.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 6a250bed-0ea4-4cae-86e6-f0cea95dc56e
 ms.date: 12/05/2018
 ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext
-f1_keywords:
-- bcrypt/BCryptDeleteContext
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptDeleteContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptDeleteContext
+ - bcrypt/BCryptDeleteContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptDeleteContext
 ---
 
 # BCryptDeleteContext function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptDeleteContext</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptDeleteContext</b> function deletes an existing CNG configuration context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,17 +86,12 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to delete.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -147,16 +139,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptDeleteContext</b> can be called only in user mode.
-
-
 

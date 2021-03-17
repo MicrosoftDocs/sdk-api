@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateNetSchemePlugin
 title: MFCreateNetSchemePlugin function (mfidl.h)
 description: Creates the scheme handler for the network source.
+helpviewer_keywords: ["MFCreateNetSchemePlugin","MFCreateNetSchemePlugin function [Media Foundation]","f08de332-2b05-4fee-be45-d4928f5f4ef2","mf.mfcreatenetschemeplugin","mfidl/MFCreateNetSchemePlugin"]
 old-location: mf\mfcreatenetschemeplugin.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f08de332-2b05-4fee-be45-d4928f5f4ef2
 ms.date: 12/05/2018
 ms.keywords: MFCreateNetSchemePlugin, MFCreateNetSchemePlugin function [Media Foundation], f08de332-2b05-4fee-be45-d4928f5f4ef2, mf.mfcreatenetschemeplugin, mfidl/MFCreateNetSchemePlugin
-f1_keywords:
-- mfidl/MFCreateNetSchemePlugin
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateNetSchemePlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateNetSchemePlugin
+ - mfidl/MFCreateNetSchemePlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateNetSchemePlugin
 ---
 
 # MFCreateNetSchemePlugin function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates the scheme handler for the network source.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 Interface identifier (IID) of the interface to retrieve.
 
-
 ### -param ppvHandler [out]
 
-Receives a pointer to the requested interface. The caller must release the interface. The scheme handler exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a> interface.
-
+Receives a pointer to the requested interface. The caller must release the interface. The scheme handler exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a> interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,18 +83,7 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

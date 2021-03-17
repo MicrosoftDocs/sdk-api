@@ -2,15 +2,12 @@
 UID: NF:control.IBasicVideo.put_SourceTop
 title: IBasicVideo::put_SourceTop (control.h)
 description: The put_SourceTop method sets the y-coordinate of the source rectangle.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_SourceTop method","IBasicVideo.put_SourceTop","IBasicVideo::put_SourceTop","IBasicVideoput_SourceTop","control/IBasicVideo::put_SourceTop","dshow.ibasicvideo_put_sourcetop","put_SourceTop","put_SourceTop method [DirectShow]","put_SourceTop method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_sourcetop.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0a76518d-f79d-45ef-8e19-a3e5ee1e4db0
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceTop method, IBasicVideo.put_SourceTop, IBasicVideo::put_SourceTop, IBasicVideoput_SourceTop, control/IBasicVideo::put_SourceTop, dshow.ibasicvideo_put_sourcetop, put_SourceTop, put_SourceTop method [DirectShow], put_SourceTop method [DirectShow],IBasicVideo interface
-f1_keywords:
-- control/IBasicVideo.put_SourceTop
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.put_SourceTop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::put_SourceTop
+ - control/IBasicVideo::put_SourceTop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.put_SourceTop
 ---
 
 # IBasicVideo::put_SourceTop
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_SourceTop</code> method sets the y-coordinate of the source rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param SourceTop [in]
 
 Specifies the y-coordinate, in pixels.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,31 +102,15 @@ The video renderer's input pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method moves the entire source rectangle up or down. It does not change the height of the source rectangle. If the value of <i>SourceTop</i> would place the bottom edge of the rectangle beyond the edge of the video frame, the method returns E_INVALIDARG. To crop the video, call <b>put_SourceHeight</b> to adjust the width, before calling <code>put_SourceTop</code>. (Or call <b>SetSourcePosition</b> to set the entire source rectangle at once.)
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

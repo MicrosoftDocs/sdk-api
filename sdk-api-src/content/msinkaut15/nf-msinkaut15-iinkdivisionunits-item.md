@@ -2,15 +2,12 @@
 UID: NF:msinkaut15.IInkDivisionUnits.Item
 title: IInkDivisionUnits::Item (msinkaut15.h)
 description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
+helpviewer_keywords: ["332a9365-526e-43df-841f-20eed07762e7","IInkDivisionUnits interface [Tablet PC]","Item method","IInkDivisionUnits.Item","IInkDivisionUnits::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkDivisionUnits interface","msinkaut15/IInkDivisionUnits::Item","tablet.iinkdivisionunits_item"]
 old-location: tablet\iinkdivisionunits_item.htm
 tech.root: tablet
 ms.assetid: 332a9365-526e-43df-841f-20eed07762e7
 ms.date: 12/05/2018
 ms.keywords: 332a9365-526e-43df-841f-20eed07762e7, IInkDivisionUnits interface [Tablet PC],Item method, IInkDivisionUnits.Item, IInkDivisionUnits::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkDivisionUnits interface, msinkaut15/IInkDivisionUnits::Item, tablet.iinkdivisionunits_item
-f1_keywords:
-- msinkaut15/IInkDivisionUnits.Item
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inkdiv.dll
-- Inkdiv.dll.dll
-api_name:
-- IInkDivisionUnits.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivisionUnits::Item
+ - msinkaut15/IInkDivisionUnits::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
+api_name:
+ - IInkDivisionUnits.Item
 ---
 
 # IInkDivisionUnits::Item
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
-
-
-
+Retrieves the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-The zero-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object to get.
-
+The zero-based index of the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object to get.
 
 ### -param InkDivisionUnit [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,31 +128,15 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An error occurs if the index doesn't match any existing member of the collection.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>

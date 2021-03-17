@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.InjectNtmsMedia
 title: InjectNtmsMedia function (ntmsapi.h)
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
+helpviewer_keywords: ["InjectNtmsMedia","InjectNtmsMedia function [Files]","NTMS_INJECT_RETRACT","NTMS_INJECT_START","NTMS_INJECT_START_MANY","NTMS_INJECT_STOP","_zaw_injectntmsmedia","base.injectntmsmedia","fs.injectntmsmedia","ntmsapi/InjectNtmsMedia"]
 old-location: fs\injectntmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
-f1_keywords:
-- ntmsapi/InjectNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- InjectNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InjectNtmsMedia
+ - ntmsapi/InjectNtmsMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - InjectNtmsMedia
 ---
 
 # InjectNtmsMedia function
@@ -48,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>InjectNtmsMedia</b> function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues 
 <b>InjectNtmsMedia</b> and returns success.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpLibraryId [in]
 
 Unique identifier of a library object.
 
-
 ### -param lpInjectOperation [out]
 
 GUID of the insert library operation. If <i>dwAction</i> is NTMS_INJECT_START, this parameter receives the GUID for the operation. If <i>dwAction</i> is NTMS_INJECT_STOP, this parameter must be set to the GUID for the operation to be stopped.
-
 
 ### -param dwAction [in]
 
@@ -129,12 +123,8 @@ Direct the insert/eject port to open continually and check for media placed ther
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -254,20 +244,14 @@ The insert is queued.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function returns to the application as soon as the insert request is queued.
 
 If the library specified by the 
 <b>InjectNtmsMedia</b> function does not have a port, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a> function to insert and eject media.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a> function to insert and eject media.
 
 This function cannot be used with the offline library.
 
@@ -285,20 +269,10 @@ If there are not enough slots for the media in the NTMS_IEPORT object, the media
 If there are no free slots, the 
 <b>InjectNtmsMedia</b> function receives an error.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:winsnmp.SnmpStartup
 title: SnmpStartup function (winsnmp.h)
 description: The SnmpStartup function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
+helpviewer_keywords: ["SNMPAPI_OFF","SNMPAPI_ON","SNMPAPI_TRANSLATED","SNMPAPI_UNTRANSLATED_V1","SNMPAPI_UNTRANSLATED_V2","SnmpStartup","SnmpStartup function [SNMP]","_snmp_snmpstartup","snmp.snmpstartup","winsnmp/SnmpStartup"]
 old-location: snmp\snmpstartup.htm
 tech.root: SNMP
 ms.assetid: 7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartup, SnmpStartup function [SNMP], _snmp_snmpstartup, snmp.snmpstartup, winsnmp/SnmpStartup
-f1_keywords:
-- winsnmp/SnmpStartup
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpStartup
+ - winsnmp/SnmpStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpStartup
 ---
 
 # SnmpStartup function
@@ -48,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpStartup</b> function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services. The WinSNMP 
@@ -59,30 +60,24 @@ The
 
 ## -parameters
 
-
-
-
 ### -param nMajorVersion [out]
 
 Pointer to an unsigned long integer variable to receive the major version number of the WinSNMP API that the implementation supports. For example, to indicate that the implementation supports WinSNMP version 2.0, the function returns a value of 2.
-
 
 ### -param nMinorVersion [out]
 
 Pointer to an unsigned long integer variable to receive the minor version number of the WinSNMP API that the implementation supports. For example, to indicate that the implementation supports WinSNMP version 2.0, the function returns a value of 0.
 
-
 ### -param nLevel [out]
 
 Pointer to an unsigned long integer variable to receive the highest level of SNMP communications the implementation supports. Upon successful return, this parameter contains a value of 2. For a description of level 2 support, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a>.
-
+<a href="/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a>.
 
 ### -param nTranslateMode [out]
 
 Pointer to an unsigned long integer variable to receive the default translation mode in effect for the implementation. The translation mode applies to the implementation's interpretation of the <i>entity</i> parameter that the WinSNMP application passes to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function. The translation mode also applies to the <i>string</i> parameter that the WinSNMP application passes to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a> function. This parameter can be one of the following values. 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function. The translation mode also applies to the <i>string</i> parameter that the WinSNMP application passes to the 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a> function. This parameter can be one of the following values. 
 
 
 
@@ -125,8 +120,7 @@ The implementation interprets SNMP entity parameters as SNMP transport addresses
  
 
 For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
-
+<a href="/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
 ### -param nRetransmitMode [out]
 
@@ -163,17 +157,14 @@ The implementation is executing the retransmission policy of the WinSNMP applica
  
 
 For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/about-retransmission">About Retransmission</a>.
-
+<a href="/windows/desktop/SNMP/about-retransmission">About Retransmission</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS, and the parameters contain appropriate values, as indicated in the preceding parameter descriptions.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a <b>NULL</b> value in its <i>session</i> parameter. The 
 <b>SnmpGetLastError</b> function can return one of the following errors. For additional information, see the Remarks section that follows.
 
 <table>
@@ -216,21 +207,15 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A WinSNMP application must call the 
 <b>SnmpStartup</b> function successfully at least once, before it calls any other WinSNMP function. If a WinSNMP application does call another WinSNMP function, before it successfully calls 
 <b>SnmpStartup</b>, the implementation returns the error SNMPAPI_NOT_INITIALIZED.
 
 The WinSNMP application can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> for error information, or retry 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> for error information, or retry 
 <b>SnmpStartup</b> if a call to the 
 <b>SnmpStartup</b> function fails. When 
 <b>SnmpStartup</b> returns SNMPAPI_FAILURE, and a subsequent call to 
@@ -239,41 +224,31 @@ The WinSNMP application can call
 
 A WinSNMP application can call 
 <b>SnmpStartup</b> multiple times. For example, it may need to retry the function call for the reasons discussed preceding. A WinSNMP application must also call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> at least once, as the last WinSNMP function call before it terminates. Multiple 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a> at least once, as the last WinSNMP function call before it terminates. Multiple 
 <b>SnmpStartup</b> calls do not require multiple 
 <b>SnmpCleanup</b> calls.
 
 For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp-versions">About SNMP Versions</a>.
-
-
-
+<a href="/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a> and 
+<a href="/windows/desktop/SNMP/about-snmp-versions">About SNMP Versions</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanup">SnmpCleanup</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>

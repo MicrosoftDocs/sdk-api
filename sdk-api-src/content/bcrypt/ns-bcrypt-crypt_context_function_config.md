@@ -2,15 +2,12 @@
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_CONFIG
 title: CRYPT_CONTEXT_FUNCTION_CONFIG (bcrypt.h)
 description: Contains configuration information for a cryptographic function of a CNG context.
+helpviewer_keywords: ["*PCRYPT_CONTEXT_FUNCTION_CONFIG","CRYPT_CONTEXT_FUNCTION_CONFIG","CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security]","CRYPT_EXCLUSIVE","PCRYPT_CONTEXT_FUNCTION_CONFIG","PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security]","bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG","bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG","security.crypt_context_function_config"]
 old-location: security\crypt_context_function_config.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config'
-f1_keywords:
-- bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- CRYPT_CONTEXT_FUNCTION_CONFIG
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_FUNCTION_CONFIG, *PCRYPT_CONTEXT_FUNCTION_CONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_CONTEXT_FUNCTION_CONFIG
+ - bcrypt/_CRYPT_CONTEXT_FUNCTION_CONFIG
+ - PCRYPT_CONTEXT_FUNCTION_CONFIG
+ - bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG
+ - CRYPT_CONTEXT_FUNCTION_CONFIG
+ - bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - CRYPT_CONTEXT_FUNCTION_CONFIG
 ---
 
 # CRYPT_CONTEXT_FUNCTION_CONFIG structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_CONTEXT_FUNCTION_CONFIG</b> structure contains configuration information for a cryptographic function of a CNG context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -77,23 +78,9 @@ Restricts the set of usable providers for this function to only those that this 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved
 
- 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontextfunction">BCryptConfigureContextFunction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontextfunction">BCryptConfigureContextFunction</a>

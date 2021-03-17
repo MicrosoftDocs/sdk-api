@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetMops
 title: ITypeInfo::GetMops (oaidl.h)
 description: Retrieves marshaling information.
+helpviewer_keywords: ["GetMops","GetMops method [Automation]","GetMops method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetMops method","ITypeInfo.GetMops","ITypeInfo::GetMops","_oa96_ITypeInfo_GetMops","automat.itypeinfo_getmops","oaidl/ITypeInfo::GetMops"]
 old-location: automat\itypeinfo_getmops.htm
 tech.root: automat
 ms.assetid: 6f8f4d4a-c51d-46d3-ad0f-1ee357bb7104
 ms.date: 12/05/2018
 ms.keywords: GetMops, GetMops method [Automation], GetMops method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetMops method, ITypeInfo.GetMops, ITypeInfo::GetMops, _oa96_ITypeInfo_GetMops, automat.itypeinfo_getmops, oaidl/ITypeInfo::GetMops
-f1_keywords:
-- oaidl/ITypeInfo.GetMops
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetMops
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetMops
+ - oaidl/ITypeInfo::GetMops
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetMops
 ---
 
 # ITypeInfo::GetMops
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves marshaling information.
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The member ID that indicates which marshaling information is needed.
 
-
-
-
 ### -param pBstrMops [out]
 
 The opcode string used in marshaling the fields of the structure described by the referenced type description, or null if there is no information to return.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,14 +108,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the passed-in member ID is MEMBERID_NIL, the function returns the opcode string for marshaling the fields of the structure described by the type description. Otherwise, it returns the opcode string for marshaling the function specified by the index.
 
@@ -132,16 +117,6 @@ If the passed-in member ID is MEMBERID_NIL, the function returns the opcode stri
 
 If the type description inherits from another type description, this function recurses on the base type description, if necessary, to find the item with the requested member ID.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_IsGroupViewEnabled
 title: ListView_IsGroupViewEnabled macro (commctrl.h)
 description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.
+helpviewer_keywords: ["ListView_IsGroupViewEnabled","ListView_IsGroupViewEnabled macro [Windows Controls]","_win32_ListView_IsGroupViewEnabled","_win32_ListView_IsGroupViewEnabled_cpp","commctrl/ListView_IsGroupViewEnabled","controls.ListView_IsGroupViewEnabled","controls._win32_ListView_IsGroupViewEnabled"]
 old-location: controls\ListView_IsGroupViewEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isgroupviewenabled.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_IsGroupViewEnabled, ListView_IsGroupViewEnabled macro [Windows Controls], _win32_ListView_IsGroupViewEnabled, _win32_ListView_IsGroupViewEnabled_cpp, commctrl/ListView_IsGroupViewEnabled, controls.ListView_IsGroupViewEnabled, controls._win32_ListView_IsGroupViewEnabled
-f1_keywords:
-- commctrl/ListView_IsGroupViewEnabled
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_IsGroupViewEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_IsGroupViewEnabled
+ - commctrl/ListView_IsGroupViewEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_IsGroupViewEnabled
 ---
 
 # ListView_IsGroupViewEnabled macro
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks whether the list-view control has group view
- enabled. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-isgroupviewenabled">LVM_ISGROUPVIEWENABLED</a> message explicitly. 
-
+ enabled. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-isgroupviewenabled">LVM_ISGROUPVIEWENABLED</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ## -remarks
 
-
-
-To use <b>ListView_IsGroupViewEnabled</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_IsGroupViewEnabled</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

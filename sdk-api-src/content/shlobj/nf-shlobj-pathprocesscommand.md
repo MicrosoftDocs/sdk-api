@@ -2,15 +2,12 @@
 UID: NF:shlobj.PathProcessCommand
 title: PathProcessCommand function (shlobj.h)
 description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
+helpviewer_keywords: ["PPCF_ADDARGUMENTS","PPCF_ADDQUOTES","PPCF_FORCEQUALIFY","PPCF_LONGESTPOSSIBLE","PPCF_NODIRECTORIES","PathProcessCommand","PathProcessCommand function [Windows Shell]","_win32_PathProcessCommand","shell.PathProcessCommand","shlobj/PathProcessCommand"]
 old-location: shell\PathProcessCommand.htm
 tech.root: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
 ms.date: 12/05/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
-f1_keywords:
-- shlobj/PathProcessCommand
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- PathProcessCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathProcessCommand
+ - shlobj/PathProcessCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - PathProcessCommand
 ---
 
 # PathProcessCommand function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSrc [in]
 
@@ -63,20 +60,17 @@ Type: <b>PCWSTR</b>
 
 A pointer to a null-terminated string that contains the command line to process.
 
-
 ### -param pszDest [out]
 
 Type: <b>PWSTR</b>
 
 Pointer to a buffer that receives a null-terminated Unicode string with the appropriate quotation marks. To determine how large this buffer must be, set this parameter to <b>NULL</b>. The function returns the required buffer size.
 
-
 ### -param cchDest
 
 Type: <b>int</b>
 
 The maximum number of characters that can be put in <i>pszDest</i>, not including the terminating null character. If this value is too small, the function fails.
-
 
 ### -param dwFlags
 
@@ -114,23 +108,14 @@ Qualify even non-relative file names.
 
 Always choose the longest possible executable name.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
 Returns a positive value if successful. If <i>lpDest</i> is set to <b>NULL</b>, the function returns the required buffer size in characters, including the terminating null character. If the call fails, the function returns a negative value.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It is not supported in Windows Vista and later versions of Windows.</div>
 <div> </div>
-
 

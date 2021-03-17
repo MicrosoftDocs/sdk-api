@@ -2,15 +2,12 @@
 UID: NS:winnt._SID_IDENTIFIER_AUTHORITY
 title: SID_IDENTIFIER_AUTHORITY (winnt.h)
 description: Represents the top-level authority of a security identifier (SID).
+helpviewer_keywords: ["*PSID_IDENTIFIER_AUTHORITY","PSID_IDENTIFIER_AUTHORITY","PSID_IDENTIFIER_AUTHORITY structure pointer [Security]","SID_IDENTIFIER_AUTHORITY","SID_IDENTIFIER_AUTHORITY structure [Security]","_SID_IDENTIFIER_AUTHORITY","_win32_sid_identifier_authority_str","security.sid_identifier_authority","winnt/PSID_IDENTIFIER_AUTHORITY","winnt/SID_IDENTIFIER_AUTHORITY"]
 old-location: security\sid_identifier_authority.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5
 ms.date: 12/05/2018
 ms.keywords: '*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY structure pointer [Security], SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Security], _SID_IDENTIFIER_AUTHORITY, _win32_sid_identifier_authority_str, security.sid_identifier_authority, winnt/PSID_IDENTIFIER_AUTHORITY, winnt/SID_IDENTIFIER_AUTHORITY'
-f1_keywords:
-- winnt/SID_IDENTIFIER_AUTHORITY
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SID_IDENTIFIER_AUTHORITY
 targetos: Windows
 req.typenames: SID_IDENTIFIER_AUTHORITY, *PSID_IDENTIFIER_AUTHORITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SID_IDENTIFIER_AUTHORITY
+ - winnt/_SID_IDENTIFIER_AUTHORITY
+ - PSID_IDENTIFIER_AUTHORITY
+ - winnt/PSID_IDENTIFIER_AUTHORITY
+ - SID_IDENTIFIER_AUTHORITY
+ - winnt/SID_IDENTIFIER_AUTHORITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SID_IDENTIFIER_AUTHORITY
 ---
 
 # SID_IDENTIFIER_AUTHORITY structure
@@ -48,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SID_IDENTIFIER_AUTHORITY</b> structure represents the top-level authority of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
-
+The <b>SID_IDENTIFIER_AUTHORITY</b> structure represents the top-level authority of a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ## -struct-fields
-
-
-
 
 ### -field Value
 
 An array of 6 bytes specifying a SID's top-level authority.
 
-
 ## -remarks
-
-
 
 The identifier authority value identifies the agency that issued the SID. The following identifier authorities are predefined.
 
@@ -104,30 +102,20 @@ The identifier authority value identifies the agency that issued the SID. The fo
 </table>
  
 
-A SID must contain a top-level authority and at least one <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative identifier</a> (RID) value.
-
-
-
+A SID must contain a top-level authority and at least one <a href="/windows/desktop/SecGloss/r-gly">relative identifier</a> (RID) value.
 
 ## -see-also
 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

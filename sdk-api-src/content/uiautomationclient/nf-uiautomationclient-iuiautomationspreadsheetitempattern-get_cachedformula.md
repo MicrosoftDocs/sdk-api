@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 title: IUIAutomationSpreadsheetItemPattern::get_CachedFormula (uiautomationclient.h)
 description: Retrieves the cached formula for this cell.
+helpviewer_keywords: ["CachedFormula property [Windows Accessibility]","CachedFormula property [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","CachedFormula property","IUIAutomationSpreadsheetItemPattern.CachedFormula","IUIAutomationSpreadsheetItemPattern.get_CachedFormula","IUIAutomationSpreadsheetItemPattern::CachedFormula","IUIAutomationSpreadsheetItemPattern::get_CachedFormula","get_CachedFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula.htm
 tech.root: WinAuto
 ms.assetid: BA4A13A3-6BB3-45B9-87A7-8239F148B1CE
 ms.date: 12/05/2018
 ms.keywords: CachedFormula property [Windows Accessibility], CachedFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CachedFormula property, IUIAutomationSpreadsheetItemPattern.CachedFormula, IUIAutomationSpreadsheetItemPattern.get_CachedFormula, IUIAutomationSpreadsheetItemPattern::CachedFormula, IUIAutomationSpreadsheetItemPattern::get_CachedFormula, get_CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula
-f1_keywords:
-- uiautomationclient/IUIAutomationSpreadsheetItemPattern.CachedFormula
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSpreadsheetItemPattern.CachedFormula
-- IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSpreadsheetItemPattern::get_CachedFormula
+ - uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSpreadsheetItemPattern.CachedFormula
+ - IUIAutomationSpreadsheetItemPattern.get_CachedFormula
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CachedFormula
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached formula for this cell.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetitempattern">IUIAutomationSpreadsheetItemPattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetitempattern">IUIAutomationSpreadsheetItemPattern</a>

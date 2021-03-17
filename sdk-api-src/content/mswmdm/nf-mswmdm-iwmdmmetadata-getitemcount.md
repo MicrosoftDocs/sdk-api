@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMMetaData.GetItemCount
 title: IWMDMMetaData::GetItemCount (mswmdm.h)
 description: The GetItemCount method retrieves the total number of properties held by the interface.
+helpviewer_keywords: ["GetItemCount","GetItemCount method [windows Media Device Manager]","GetItemCount method [windows Media Device Manager]","IWMDMMetaData interface","IWMDMMetaData interface [windows Media Device Manager]","GetItemCount method","IWMDMMetaData.GetItemCount","IWMDMMetaData::GetItemCount","IWMDMMetaDataGetItemCount","mswmdm/IWMDMMetaData::GetItemCount","wmdm.iwmdmmetadata_getitemcount"]
 old-location: wmdm\iwmdmmetadata_getitemcount.htm
 tech.root: WMDM
 ms.assetid: 9f7f9661-d632-4502-940b-6d83fc32cdad
 ms.date: 12/05/2018
 ms.keywords: GetItemCount, GetItemCount method [windows Media Device Manager], GetItemCount method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],GetItemCount method, IWMDMMetaData.GetItemCount, IWMDMMetaData::GetItemCount, IWMDMMetaDataGetItemCount, mswmdm/IWMDMMetaData::GetItemCount, wmdm.iwmdmmetadata_getitemcount
-f1_keywords:
-- mswmdm/IWMDMMetaData.GetItemCount
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMMetaData.GetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMMetaData::GetItemCount
+ - mswmdm/IWMDMMetaData::GetItemCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMMetaData.GetItemCount
 ---
 
 # IWMDMMetaData::GetItemCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetItemCount</b> method retrieves the total number of properties held by the interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param iCount [out]
 
 Pointer to an integer that receives the total number of metadata properties stored by the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,16 +68,11 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
-This method could be used along with <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a> to enumerate all properties on a storage or device.
+This method could be used along with <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a> to enumerate all properties on a storage or device.
 
 
 #### Examples
@@ -166,29 +152,18 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

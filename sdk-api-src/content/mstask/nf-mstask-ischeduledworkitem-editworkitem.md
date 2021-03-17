@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.EditWorkItem
 title: IScheduledWorkItem::EditWorkItem (mstask.h)
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
+helpviewer_keywords: ["EditWorkItem","EditWorkItem method [Task Scheduler]","EditWorkItem method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","EditWorkItem method","IScheduledWorkItem.EditWorkItem","IScheduledWorkItem::EditWorkItem","_msb_ischeduledworkitem_editworkitem","mstask/IScheduledWorkItem::EditWorkItem","taskschd.ischeduledworkitem_editworkitem"]
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
 tech.root: taskschd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
 ms.date: 12/05/2018
 ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
-f1_keywords:
-- mstask/IScheduledWorkItem.EditWorkItem
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.EditWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::EditWorkItem
+ - mstask/IScheduledWorkItem::EditWorkItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.EditWorkItem
 ---
 
 # IScheduledWorkItem::EditWorkItem
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Displays the Task, Schedule, and settings property pages for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>, allowing a user set the properties on those pages.
-
+Displays the Task, Schedule, and settings property pages for the <a href="/windows/desktop/TaskSchd/w">work item</a>, allowing a user set the properties on those pages.
 
 ## -parameters
-
-
-
 
 ### -param hParent [in]
 
 Reserved for future use. Set this parameter to <b>NULL</b>.
 
-
 ### -param dwReserved [in]
 
 Reserved for internal use; this parameter must be set to zero.
 
-
 ## -returns
-
-
 
 The 
 <b>EditWorkItem</b> method returns one of the following values.
@@ -126,18 +119,7 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>

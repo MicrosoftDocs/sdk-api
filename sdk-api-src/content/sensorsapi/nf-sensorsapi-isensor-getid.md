@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.GetID
 title: ISensor::GetID (sensorsapi.h)
 description: Retrieves the unique identifier of the sensor.
+helpviewer_keywords: ["GetID","GetID method","GetID method","ISensor interface","ISensor interface","GetID method","ISensor.GetID","ISensor::GetID","sensorsapi/ISensor::GetID","winsensors_com_ref.isensor_getid"]
 old-location: winsensors_com_ref\isensor_getid.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
-f1_keywords:
-- sensorsapi/ISensor.GetID
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetID
+ - sensorsapi/ISensor::GetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetID
 ---
 
 # ISensor::GetID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the unique identifier of the sensor.
 
-
 ## -parameters
-
-
-
 
 ### -param pID [out]
 
 Address of a <b>SENSOR_ID</b> that receives the ID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,34 +101,17 @@ NULL was passed in for pID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A <b>SENSOR_ID</b> is a <b>GUID</b> that uniquely identifies the sensor on the current computer. This ID corresponds to the constant named SENSOR_PROPERTY_PERSISTENT_UNIQUE_ID.
 
-You can use an ID to retrieve a pointer to a particular sensor by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>.
-
-
-
-
+You can use an ID to retrieve a pointer to a particular sensor by calling <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/about-sensor-constants">Sensor Constants</a>
- 
-
- 
-
+<a href="/windows/desktop/SensorsAPI/about-sensor-constants">Sensor Constants</a>

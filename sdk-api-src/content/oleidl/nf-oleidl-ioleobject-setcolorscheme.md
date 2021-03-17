@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleObject.SetColorScheme
 title: IOleObject::SetColorScheme (oleidl.h)
 description: Specifies the color palette that the object application should use when it edits the specified object.
+helpviewer_keywords: ["IOleObject interface [COM]","SetColorScheme method","IOleObject.SetColorScheme","IOleObject::SetColorScheme","SetColorScheme","SetColorScheme method [COM]","SetColorScheme method [COM]","IOleObject interface","_ole_ioleobject_setcolorscheme","com.ioleobject_setcolorscheme","oleidl/IOleObject::SetColorScheme"]
 old-location: com\ioleobject_setcolorscheme.htm
 tech.root: com
 ms.assetid: 655ba4ea-941d-4389-9ee8-756dfa3c5448
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetColorScheme method, IOleObject.SetColorScheme, IOleObject::SetColorScheme, SetColorScheme, SetColorScheme method [COM], SetColorScheme method [COM],IOleObject interface, _ole_ioleobject_setcolorscheme, com.ioleobject_setcolorscheme, oleidl/IOleObject::SetColorScheme
-f1_keywords:
-- oleidl/IOleObject.SetColorScheme
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.SetColorScheme
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::SetColorScheme
+ - oleidl/IOleObject::SetColorScheme
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.SetColorScheme
 ---
 
 # IOleObject::SetColorScheme
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the color palette that the object application should use when it edits the specified object.
-
 
 ## -parameters
 
-
-
-
 ### -param pLogpal [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that specifies the recommended palette.
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that specifies the recommended palette.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -107,27 +101,11 @@ Object must be running to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>IOleObject::SetColorScheme</b> method sends the container application's recommended color palette to the object application, which is not obliged to use it.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>

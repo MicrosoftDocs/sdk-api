@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
 title: IMFASFIndexer::SetFlags (wmcontainer.h)
 description: Sets indexer options.
+helpviewer_keywords: ["7df6aba2-d63f-4a1a-b6e8-6894f92993b1","IMFASFIndexer interface [Media Foundation]","SetFlags method","IMFASFIndexer.SetFlags","IMFASFIndexer::SetFlags","SetFlags","SetFlags method [Media Foundation]","SetFlags method [Media Foundation]","IMFASFIndexer interface","mf.imfasfindexer_setflags","wmcontainer/IMFASFIndexer::SetFlags"]
 old-location: mf\imfasfindexer_setflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
 ms.date: 12/05/2018
 ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Media Foundation],SetFlags method, IMFASFIndexer.SetFlags, IMFASFIndexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFIndexer interface, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
-f1_keywords:
-- wmcontainer/IMFASFIndexer.SetFlags
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFIndexer.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFIndexer::SetFlags
+ - wmcontainer/IMFASFIndexer::SetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFIndexer.SetFlags
 ---
 
 # IMFASFIndexer::SetFlags
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets indexer options.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags)a> enumeration specifying the indexer options to use.
-
+Bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](./ne-wmcontainer-mfasf_indexer_flags.md) enumeration specifying the indexer options to use.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,31 +91,15 @@ The indexer object was  initialized before setting flags for it.  For more infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>IMFASFIndexer::SetFlags</b> must be called before <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>. Attempting to call <b>SetFlags</b> after <b>Initialize</b> will return MF_E_INVALIDREQUEST as a result.
-
-
-
+<b>IMFASFIndexer::SetFlags</b> must be called before <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>. Attempting to call <b>SetFlags</b> after <b>Initialize</b> will return MF_E_INVALIDREQUEST as a result.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:pathcch.PathCchStripToRoot
 title: PathCchStripToRoot function (pathcch.h)
-description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
+helpviewer_keywords: ["PathCchStripToRoot","PathCchStripToRoot function [Windows Shell]","pathcch/PathCchStripToRoot","shell.PathCchStripToRoot"]
 old-location: shell\PathCchStripToRoot.htm
 tech.root: shell
 ms.assetid: e0539478-8c64-4445-ab99-22f1df70afe8
 ms.date: 12/05/2018
 ms.keywords: PathCchStripToRoot, PathCchStripToRoot function [Windows Shell], pathcch/PathCchStripToRoot, shell.PathCchStripToRoot
-f1_keywords:
-- pathcch/PathCchStripToRoot
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchStripToRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchStripToRoot
+ - pathcch/PathCchStripToRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchStripToRoot
 ---
 
 # PathCchStripToRoot function
@@ -50,46 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes all file and directory elements in a path except for the root information.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
 A pointer to the path string. When this function returns successfully, this string contains only the root information taken from that path.
 
-
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
-
 ## -returns
 
-
-
-This function returns S_OK if the path was truncated, S_FALSE if the path was already just a root, or an HRESULT failure code.
-
-
-
+This function returns <b>S_OK</b> if the path was truncated, <b>S_FALSE</b> if the path was already just a root, or an <b>HRESULT</b> failure code.
 
 ## -remarks
 
-
-
 Some examples of the effect of this function:
-            
-                
 
 <table class="clsStd">
 <tr>
@@ -109,7 +94,3 @@ Some examples of the effect of this function:
 <td>"\"</td>
 </tr>
 </table>
- 
-
-
-

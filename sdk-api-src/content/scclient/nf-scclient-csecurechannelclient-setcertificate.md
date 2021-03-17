@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.SetCertificate
 title: CSecureChannelClient::SetCertificate (scclient.h)
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) client.
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","SetCertificate method","CSecureChannelClient.SetCertificate","CSecureChannelClient::SetCertificate","CSecureChannelClientSetCertificate","SetCertificate","SetCertificate method [windows Media Device Manager]","SetCertificate method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::SetCertificate","wmdm.csecurechannelclient_setcertificate"]
 old-location: wmdm\csecurechannelclient_setcertificate.htm
 tech.root: WMDM
 ms.assetid: 58e8f428-f9b9-438b-8f92-e901537e1076
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetCertificate method, CSecureChannelClient.SetCertificate, CSecureChannelClient::SetCertificate, CSecureChannelClientSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetCertificate, wmdm.csecurechannelclient_setcertificate
-f1_keywords:
-- scclient/CSecureChannelClient.SetCertificate
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.SetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::SetCertificate
+ - scclient/CSecureChannelClient::SetCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.SetCertificate
 ---
 
 # CSecureChannelClient::SetCertificate
@@ -49,46 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetCertificate</b> method specifies the certificate and private key of the secure authenticated channel (SAC) client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Specifies the type of certificate being passed to this method. It must be set to SAC_CERT_V1.
 
-
 ### -param pbAppCert [in]
 
 Pointer to the first byte of the certificate of the SAC client.
-
 
 ### -param dwCertLen [in]
 
 <b>DWORD</b> specifying the length of the certificate to which <i>pbAppCert</i> points.
 
-
 ### -param pbAppPVK [in]
 
 Pointer to the first byte of the private key of the SAC client.
-
 
 ### -param dwPVKLen [in]
 
 <b>DWORD</b> specifying the length of the private key to which <i>pbAppPVK</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -97,7 +84,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +106,8 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the <b>SetCertificate</b> method immediately after creating the <b>CsecureChannelClient</b> object, as in the following Example Code.
 
@@ -141,7 +122,7 @@ BYTE abCert[] = {0x00};
 ```
 
 
-You can request a key and certificate from Microsoft as described in <a href="https://docs.microsoft.com/windows/desktop/WMDM/tools-for-development">Tools for Development</a>.
+You can request a key and certificate from Microsoft as described in <a href="/windows/desktop/WMDM/tools-for-development">Tools for Development</a>.
 
 
 #### Examples
@@ -203,20 +184,13 @@ HRESULT MyClass::Authenticate()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
@@ -224,8 +198,4 @@ HRESULT MyClass::Authenticate()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

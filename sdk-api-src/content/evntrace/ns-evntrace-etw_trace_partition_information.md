@@ -2,15 +2,12 @@
 UID: NS:evntrace._ETW_TRACE_PARTITION_INFORMATION
 title: ETW_TRACE_PARTITION_INFORMATION (evntrace.h)
 description: Contains partition information pulled from an ETW trace.
+helpviewer_keywords: ["*PETW_TRACE_PARTITION_INFORMATION","ETW_TRACE_PARTITION_INFORMATION","ETW_TRACE_PARTITION_INFORMATION structure [ETW]","PETW_TRACE_PARTITION_INFORMATION","PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW]","Process","VmDirectUvm","VmHost","VmHostedUvm","_ETW_TRACE_PARTITION_INFORMATION","etw.etw_trace_partition_information","evntrace/ETW_TRACE_PARTITION_INFORMATION","evntrace/PETW_TRACE_PARTITION_INFORMATION"]
 old-location: etw\etw_trace_partition_information.htm
 tech.root: ETW
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
 ms.date: 12/05/2018
 ms.keywords: '*PETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION, ETW_TRACE_PARTITION_INFORMATION structure [ETW], PETW_TRACE_PARTITION_INFORMATION, PETW_TRACE_PARTITION_INFORMATION structure pointer [ETW], Process, VmDirectUvm, VmHost, VmHostedUvm, _ETW_TRACE_PARTITION_INFORMATION, etw.etw_trace_partition_information, evntrace/ETW_TRACE_PARTITION_INFORMATION, evntrace/PETW_TRACE_PARTITION_INFORMATION'
-f1_keywords:
-- evntrace/ETW_TRACE_PARTITION_INFORMATION
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -28,51 +25,47 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- evntrace.h
-api_name:
-- ETW_TRACE_PARTITION_INFORMATION
 targetos: Windows
 req.typenames: ETW_TRACE_PARTITION_INFORMATION, *PETW_TRACE_PARTITION_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ETW_TRACE_PARTITION_INFORMATION
+ - evntrace/_ETW_TRACE_PARTITION_INFORMATION
+ - PETW_TRACE_PARTITION_INFORMATION
+ - evntrace/PETW_TRACE_PARTITION_INFORMATION
+ - ETW_TRACE_PARTITION_INFORMATION
+ - evntrace/ETW_TRACE_PARTITION_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - evntrace.h
+api_name:
+ - ETW_TRACE_PARTITION_INFORMATION
 ---
-
-# ETW_TRACE_PARTITION_INFORMATION structure
-
 
 ## -description
 
-
-Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="https://docs.microsoft.com/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
-
+Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field PartitionId
 
-GUID to identify the machine. 
-
-
-
+GUID to identify the machine.
 
 ### -field ParentId
 
-GUID that identifies the partition instance that contains the traced partition.  If the traced partition is a host, then <b>ParentId</b> will be 0.
-
+GUID that identifies the partition instance that contains the traced partition. If the traced partition is a host, then <b>ParentId</b> will be 0.
 
 ### -field QpcOffsetFromRoot
 
- 
-
+Reserved for future use.
 
 ### -field PartitionType
 
@@ -123,15 +116,8 @@ For events originating from a “Hyper-V Container” template virtual machine.
 </dl>
 </td>
 <td width="60%">
-For events originating from applications running with  <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
+For events originating from applications running with  <a href="/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-#### - Reserved
-
-Reserved for future use.
-

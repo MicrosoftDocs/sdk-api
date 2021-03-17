@@ -2,15 +2,12 @@
 UID: NF:xapo.IXAPO.Initialize
 title: IXAPO::Initialize (xapo.h)
 description: Performs any effect-specific initialization.
+helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","Initialize method","IXAPO.Initialize","IXAPO::Initialize","Initialize","Initialize method [XAudio2 Audio Mixing APIs]","Initialize method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::Initialize","xaudio2.ixapo_interface_initialize"]
 old-location: xaudio2\ixapo_interface_initialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Initialize(const void,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Initialize method, IXAPO.Initialize, IXAPO::Initialize, Initialize, Initialize method [XAudio2 Audio Mixing APIs], Initialize method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Initialize, xaudio2.ixapo_interface_initialize
-f1_keywords:
-- xapo/IXAPO.Initialize
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XAPO.h
-api_name:
-- IXAPO.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPO::Initialize
+ - xapo/IXAPO::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XAPO.h
+api_name:
+ - IXAPO.Initialize
 ---
 
 # IXAPO::Initialize
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs any effect-specific initialization.
 
-
 ## -parameters
-
-
-
 
 ### -param pData
 
 Effect-specific initialization parameters, may be NULL if <i>DataByteSize</i> is 0.
 
-
 ### -param DataByteSize
 
 Size of <i>pData</i> in bytes, may be 0 if <i>pData</i> is NULL.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful, an error code otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The contents of <i>pData</i> are defined by a given XAPO. Immutable parameters (constant for the lifetime of the XAPO) should be set in this method. Once initialized, an XAPO cannot be initialized again. An XAPO should be initialized before passing it to XAudio2 as part of an effect chain.
 
@@ -89,16 +77,6 @@ The contents of <i>pData</i> are defined by a given XAPO. Immutable parameters (
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomation6.CreateEventHandlerGroup
 title: IUIAutomation6::CreateEventHandlerGroup (uiautomationclient.h)
 description: Registers one or more event listeners in a single method call.
+helpviewer_keywords: ["CreateEventHandlerGroup","CreateEventHandlerGroup method [Windows Accessibility]","CreateEventHandlerGroup method [Windows Accessibility]","IUIAutomation6 interface","IUIAutomation6 interface [Windows Accessibility]","CreateEventHandlerGroup method","IUIAutomation6.CreateEventHandlerGroup","IUIAutomation6::CreateEventHandlerGroup","uiautomationclient/IUIAutomation6::CreateEventHandlerGroup","winauto.uiauto_IUIAutomation6_CreateEventHandlerGroup"]
 old-location: winauto\uiauto_IUIAutomation6_CreateEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: C15C5099-B409-4F75-B6BB-D3ECFBE0B762
 ms.date: 12/05/2019
 ms.keywords: CreateEventHandlerGroup, CreateEventHandlerGroup method [Windows Accessibility], CreateEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CreateEventHandlerGroup method, IUIAutomation6.CreateEventHandlerGroup, IUIAutomation6::CreateEventHandlerGroup, uiautomationclient/IUIAutomation6::CreateEventHandlerGroup, winauto.uiauto_IUIAutomation6_CreateEventHandlerGroup
-f1_keywords:
-- uiautomationclient/IUIAutomation6.CreateEventHandlerGroup
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.CreateEventHandlerGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::CreateEventHandlerGroup
+ - uiautomationclient/IUIAutomation6::CreateEventHandlerGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.CreateEventHandlerGroup
 ---
 
 # IUIAutomation6::CreateEventHandlerGroup
+
 
 ## -description
 
@@ -64,7 +67,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 ## -see-also
 

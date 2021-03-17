@@ -2,15 +2,12 @@
 UID: NS:winddi.tagDRVENABLEDATA
 title: DRVENABLEDATA (winddi.h)
 description: The DRVENABLEDATA structure contains a pointer to an array of DRVFN structures and the graphics DDI version number of an NT-based operating system.
+helpviewer_keywords: ["*PDRVENABLEDATA","DRVENABLEDATA","DRVENABLEDATA structure [Display Devices]","PDRVENABLEDATA","PDRVENABLEDATA structure pointer [Display Devices]","display.drvenabledata","grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml","winddi/DRVENABLEDATA","winddi/PDRVENABLEDATA"]
 old-location: display\drvenabledata.htm
 tech.root: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.date: 12/05/2018
 ms.keywords: '*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA'
-f1_keywords:
-- winddi/DRVENABLEDATA
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DRVENABLEDATA
 targetos: Windows
 req.typenames: DRVENABLEDATA, *PDRVENABLEDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagDRVENABLEDATA
+ - winddi/tagDRVENABLEDATA
+ - PDRVENABLEDATA
+ - winddi/PDRVENABLEDATA
+ - DRVENABLEDATA
+ - winddi/DRVENABLEDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DRVENABLEDATA
 ---
 
 # DRVENABLEDATA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DRVENABLEDATA structure contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
-
+The DRVENABLEDATA structure contains a pointer to an array of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures and the graphics DDI version number of an NT-based operating system.
 
 ## -struct-fields
-
-
-
 
 ### -field iDriverVersion
 
@@ -121,20 +122,15 @@ Windows XP Service Pack 1
 
 See the Remarks section for more information.
 
-
 ### -field c
 
-Specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
-
+Specifies the number of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures in the buffer pointed to by the <b>pdrvfn</b> member.
 
 ### -field pdrvfn
 
-Pointer to a buffer containing an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures.
-
+Pointer to a buffer containing an array of <a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a> structures.
 
 ## -remarks
-
-
 
 To run on these NT-based operating systems versions, the <b>iDriverVersion</b> member must be set as follows:
 
@@ -201,19 +197,10 @@ As the table shows, a driver can run on any of these operating system versions i
 <div class="alert"><b>Note</b>  If a driver implements a <i>DrvXxx</i> graphics DDI that is not supported in all versions of Windows, the driver cannot specify a DRVFN entry for that graphics DDI when running on versions of Windows that do not support it. If the driver does specify a DRVFN entry for such a graphics DDI, Windows will reject the driver. The <i>permedia2</i> sample demonstrates how to specify different DRVFN structures for different versions of Windows.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-drvfn">DRVFN</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>

@@ -2,15 +2,12 @@
 UID: NF:eventsys.IPublisherFilter.PrepareToFire
 title: IPublisherFilter::PrepareToFire (eventsys.h)
 description: Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
+helpviewer_keywords: ["IPublisherFilter interface [COM+]","PrepareToFire method","IPublisherFilter.PrepareToFire","IPublisherFilter::PrepareToFire","PrepareToFire","PrepareToFire method [COM+]","PrepareToFire method [COM+]","IPublisherFilter interface","_cos_IPublisherFilter_PrepareToFire","cos.ipublisherfilter_preparetofire","eventsys/IPublisherFilter::PrepareToFire"]
 old-location: cos\ipublisherfilter_preparetofire.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3
 ms.date: 12/05/2018
 ms.keywords: IPublisherFilter interface [COM+],PrepareToFire method, IPublisherFilter.PrepareToFire, IPublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
-f1_keywords:
-- eventsys/IPublisherFilter.PrepareToFire
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IPublisherFilter.PrepareToFire
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublisherFilter::PrepareToFire
+ - eventsys/IPublisherFilter::PrepareToFire
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IPublisherFilter.PrepareToFire
 ---
 
 # IPublisherFilter::PrepareToFire
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 
-This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
-
+This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param methodName [in]
 
 The name of the event method to be fired.
 
-
 ### -param firingControl [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a> interface on the firing control object.
-
+A pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a> interface on the firing control object.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -235,22 +228,11 @@ COM+ is required for this operation, but it is not installed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>

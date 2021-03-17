@@ -2,15 +2,12 @@
 UID: NF:oleauto.UnRegisterTypeLibForUser
 title: UnRegisterTypeLibForUser function (oleauto.h)
 description: Removes type library information that was registered by using RegisterTypeLibForUser.
+helpviewer_keywords: ["UnRegisterTypeLibForUser","UnRegisterTypeLibForUser function [Automation]","_oa96_UnRegisterTypeLibForUser","automat.unregistertypelibforuser","oleauto/UnRegisterTypeLibForUser"]
 old-location: automat\unregistertypelibforuser.htm
 tech.root: automat
 ms.assetid: 2d88f97b-b1f6-4682-abf5-304ee752e2ae
 ms.date: 12/05/2018
 ms.keywords: UnRegisterTypeLibForUser, UnRegisterTypeLibForUser function [Automation], _oa96_UnRegisterTypeLibForUser, automat.unregistertypelibforuser, oleauto/UnRegisterTypeLibForUser
-f1_keywords:
-- oleauto/UnRegisterTypeLibForUser
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- UnRegisterTypeLibForUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnRegisterTypeLibForUser
+ - oleauto/UnRegisterTypeLibForUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - UnRegisterTypeLibForUser
 ---
 
 # UnRegisterTypeLibForUser function
@@ -48,44 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Removes type library information that was registered by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a>.
-
+Removes type library information that was registered by using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a>.
 
 ## -parameters
-
-
-
 
 ### -param libID
 
 The GUID of the library.
 
-
 ### -param wMajorVerNum
 
 The major version of the type library.
-
 
 ### -param wMinorVerNum
 
 The minor version of the type library.
 
-
 ### -param lcid
 
 The locale identifier.
-
 
 ### -param syskind
 
 The target operating system.
 
-
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -170,16 +159,7 @@ The type library could not be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a> function.
-
-
-
+Use <b>UnRegisterTypeLibForUser</b> to remove type library information for type libraries that were registered using the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelibforuser">RegisterTypeLibForUser</a> function.

@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDTransportAddress.GetPort
 title: IWSDTransportAddress::GetPort (wsdbase.h)
 description: Gets the IP port number associated with this transport address.
+helpviewer_keywords: ["GetPort","GetPort method","GetPort method","IWSDTransportAddress interface","IWSDTransportAddress interface","GetPort method","IWSDTransportAddress.GetPort","IWSDTransportAddress::GetPort","ncd.iwsdtransportaddress_getport","wsdbase/IWSDTransportAddress::GetPort"]
 old-location: ncd\iwsdtransportaddress_getport.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
 ms.date: 12/05/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
-f1_keywords:
-- wsdbase/IWSDTransportAddress.GetPort
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDTransportAddress.GetPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDTransportAddress::GetPort
+ - wsdbase/IWSDTransportAddress::GetPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDTransportAddress.GetPort
 ---
 
 # IWSDTransportAddress::GetPort
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the IP port number associated with this transport address.
 
-
 ## -parameters
-
-
-
 
 ### -param pwPort [out]
 
 Port number associated with the address object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +95,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>

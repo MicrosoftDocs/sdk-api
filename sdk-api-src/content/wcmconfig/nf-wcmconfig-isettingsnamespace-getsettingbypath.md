@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsNamespace.GetSettingByPath
 title: ISettingsNamespace::GetSettingByPath (wcmconfig.h)
 description: Gets the setting object specified by a path.
+helpviewer_keywords: ["GetSettingByPath","GetSettingByPath method [SMI]","GetSettingByPath method [SMI]","ISettingsNamespace interface","ISettingsNamespace interface [SMI]","GetSettingByPath method","ISettingsNamespace.GetSettingByPath","ISettingsNamespace::GetSettingByPath","smi.isettingsnamespace_getsettingbypath","wcmconfig/ISettingsNamespace::GetSettingByPath"]
 old-location: smi\isettingsnamespace_getsettingbypath.htm
 tech.root: SMI
 ms.assetid: 7deadfed-036d-40cd-88b6-7afaf8fc7d41
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetSettingByPath method, ISettingsNamespace.GetSettingByPath, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
-f1_keywords:
-- wcmconfig/ISettingsNamespace.GetSettingByPath
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsNamespace.GetSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsNamespace::GetSettingByPath
+ - wcmconfig/ISettingsNamespace::GetSettingByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsNamespace.GetSettingByPath
 ---
 
 # ISettingsNamespace::GetSettingByPath
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the setting object specified by a path.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 The path of the object.
 
-
 ### -param Setting [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that represents the retrieved object.
-
+A pointer to an <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that represents the retrieved object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,18 +127,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>

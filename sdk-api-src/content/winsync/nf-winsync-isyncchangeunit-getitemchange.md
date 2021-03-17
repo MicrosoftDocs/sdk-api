@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
 title: ISyncChangeUnit::GetItemChange (winsync.h)
 description: Gets the item change that contains this change unit change.
+helpviewer_keywords: ["GetItemChange","GetItemChange method [Windows Sync]","GetItemChange method [Windows Sync]","ISyncChangeUnit interface","ISyncChangeUnit interface [Windows Sync]","GetItemChange method","ISyncChangeUnit.GetItemChange","ISyncChangeUnit::GetItemChange","winsync.isyncchangeunit_getitemchange","winsync/ISyncChangeUnit::GetItemChange"]
 old-location: winsync\isyncchangeunit_getitemchange.htm
 tech.root: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b
 ms.date: 12/05/2018
 ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
-f1_keywords:
-- winsync/ISyncChangeUnit.GetItemChange
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeUnit.GetItemChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeUnit::GetItemChange
+ - winsync/ISyncChangeUnit::GetItemChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeUnit.GetItemChange
 ---
 
 # ISyncChangeUnit::GetItemChange
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the item change that contains this change unit change.
 
-
 ## -parameters
-
-
-
 
 ### -param ppSyncChange [out]
 
 Returns the item change that contains this change unit change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>

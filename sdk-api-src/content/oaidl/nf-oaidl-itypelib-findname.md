@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeLib.FindName
 title: ITypeLib::FindName (oaidl.h)
 description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
+helpviewer_keywords: ["FindName","FindName method [Automation]","FindName method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","FindName method","ITypeLib.FindName","ITypeLib::FindName","_oa96_ITypeLib_FindName","automat.itypelib_findname","oaidl/ITypeLib::FindName"]
 old-location: automat\itypelib_findname.htm
 tech.root: automat
 ms.assetid: 932014a8-3a35-487a-b035-788fc28dacc2
 ms.date: 12/05/2018
 ms.keywords: FindName, FindName method [Automation], FindName method [Automation],ITypeLib interface, ITypeLib interface [Automation],FindName method, ITypeLib.FindName, ITypeLib::FindName, _oa96_ITypeLib_FindName, automat.itypelib_findname, oaidl/ITypeLib::FindName
-f1_keywords:
-- oaidl/ITypeLib.FindName
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeLib.FindName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeLib::FindName
+ - oaidl/ITypeLib::FindName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeLib.FindName
 ---
 
 # ITypeLib::FindName
@@ -48,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
 
-
 ## -parameters
-
-
-
 
 ### -param szNameBuf [in, out]
 
 The name to search for.
 
-
 ### -param lHashVal [in]
 
-A hash value to speed up the search, computed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
-
-
-
+A hash value to speed up the search, computed by the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
 
 ### -param ppTInfo [out]
 
 An array of pointers to the type descriptions that contain the name specified in <i>szNameBuf</i>. This parameter cannot be null.
 
-
-
 ### -param rgMemId [out]
 
 An array of the found items; <i>rgMemId</i>[<i>i</i>] is the MEMBERID that indexes into the type description specified by <i>ppTInfo</i>[<i>i</i>]. This parameter cannot be null.
-
-
-
 
 ### -param pcFound [in, out]
 
@@ -88,10 +76,7 @@ On entry, indicates how many instances to look for. For example, *<i>pcFound</i>
 
 On exit, indicates the number of instances that were found. If the in and out values of *<i>pcFound</i> are identical, there may be more type descriptions that contain the name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -137,28 +122,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Passing *<i>pcFound</i> = <i>n</i> indicates that there is enough room in the <i>ppTInfo</i> and <i>rgMemId</i> arrays for <i>n</i> (<i>ptinfo</i>, <i>memid</i>) pairs. The function returns MEMBERID_NIL in <i>rgMemId</i>[<i>i</i>], if the name in <i>szNameBuf</i> is the name of the type information in <i>ppTInfo</i>[<i>i</i>].
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

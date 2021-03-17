@@ -2,12 +2,10 @@
 UID: NF:directxcollision.BoundingSphere.Contains
 title: BoundingSphere::Contains
 description: Tests whether the BoundingSphere contains a specified point.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingSphere::Contains"]
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Contains
-f1_keywords:
-- directxcollision/BoundingSphere::Contains
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,17 +26,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingSphere::Contains
+ - directxcollision/BoundingSphere::Contains
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingSphere::Contains
+ - BoundingSphere::Contains
 ---
 
 # BoundingSphere.Contains(XMVECTOR) method
+
 
 ## -description
 
@@ -64,3 +68,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingSphere](ns-directxcollision-boundingsphere.md)
+

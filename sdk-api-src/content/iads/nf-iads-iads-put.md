@@ -2,15 +2,12 @@
 UID: NF:iads.IADs.Put
 title: IADs::Put (iads.h)
 description: Sets the values of an attribute in the ADSI attribute cache.
+helpviewer_keywords: ["IADs interface [ADSI]","Put method","IADs.Put","IADs::Put","Put","Put method [ADSI]","Put method [ADSI]","IADs interface","_ds_iads_put","adsi.iads__put","adsi.iads_put","iads/IADs::Put"]
 old-location: adsi\iads_put.htm
 tech.root: adsi
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
 ms.date: 12/05/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
-f1_keywords:
-- iads/IADs.Put
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.Put
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::Put
+ - iads/IADs::Put
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.Put
 ---
 
 # IADs::Put
@@ -48,42 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::Put</b> method sets the values of an attribute in the ADSI attribute cache.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Contains a <b>BSTR</b> that specifies the property name.
 
-
 ### -param vProp [in]
 
 Contains a <b>VARIANT</b> that specifies the new values of the property.
 
-
 ## -returns
-
-
 
 This method supports the standard return values, as well as the following.
       
 
-For more information, and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information, and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
-The assignment of the new property values, performed by <b>Put</b> takes place in the property cache only. To propagate the changes to the directory store, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> on the object after calling <b>Put</b>.
+The assignment of the new property values, performed by <b>Put</b> takes place in the property cache only. To propagate the changes to the directory store, call  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> on the object after calling <b>Put</b>.
 
 To manipulate the property values beyond a simple assignment, use  <b>Put</b> to append  or remove a value from an existing array of attribute values.
 
@@ -157,34 +145,23 @@ if(SUCCEEDED(hr))
 CoUninitialize();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
+<a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
- 
-
- 
-

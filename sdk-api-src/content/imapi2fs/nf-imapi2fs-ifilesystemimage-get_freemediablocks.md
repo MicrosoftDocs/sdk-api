@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.get_FreeMediaBlocks
 title: IFileSystemImage::get_FreeMediaBlocks (imapi2fs.h)
 description: Retrieves the maximum number of blocks available for the image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FreeMediaBlocks method","IFileSystemImage.get_FreeMediaBlocks","IFileSystemImage::get_FreeMediaBlocks","get_FreeMediaBlocks","get_FreeMediaBlocks method [IMAPI]","get_FreeMediaBlocks method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_freemediablocks","imapi2fs/IFileSystemImage::get_FreeMediaBlocks"]
 old-location: imapi\ifilesystemimage_get_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 4942d86d-0cc7-4f4e-b257-dc59d3896b38
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFileSystemImage.get_FreeMediaBlocks, IFileSystemImage::get_FreeMediaBlocks, get_FreeMediaBlocks, get_FreeMediaBlocks method [IMAPI], get_FreeMediaBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_freemediablocks, imapi2fs/IFileSystemImage::get_FreeMediaBlocks
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_FreeMediaBlocks
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_FreeMediaBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_FreeMediaBlocks
+ - imapi2fs/IFileSystemImage::get_FreeMediaBlocks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_FreeMediaBlocks
 ---
 
 # IFileSystemImage::get_FreeMediaBlocks
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the maximum number of blocks available for the image.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-Number of blocks to use in creating the file system image. 
-
+Number of blocks to use in creating the file system image.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,30 +81,19 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_freemediablocks">IFileSystemImage::put_FreeMediaBlocks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_freemediablocks">IFileSystemImage::put_FreeMediaBlocks</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaults">IFilesystemImage::ChooseImageDefaults</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaults">IFilesystemImage::ChooseImageDefaults</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype">IFilesystemImage::ChooseImageDefaultsForMediaType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype">IFilesystemImage::ChooseImageDefaultsForMediaType</a>

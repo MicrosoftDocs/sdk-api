@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetItemState
 title: ListView_GetItemState macro (commctrl.h)
 description: Gets the state of a list-view item. You can use this macro or send the LVM_GETITEMSTATE message explicitly.
+helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAYMASK","LVIS_SELECTED","LVIS_STATEIMAGEMASK","ListView_GetItemState","ListView_GetItemState macro [Windows Controls]","_win32_ListView_GetItemState","_win32_ListView_GetItemState_cpp","commctrl/ListView_GetItemState","controls.ListView_GetItemState","controls._win32_ListView_GetItemState"]
 old-location: controls\ListView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm
 ms.date: 12/05/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_GetItemState, ListView_GetItemState macro [Windows Controls], _win32_ListView_GetItemState, _win32_ListView_GetItemState_cpp, commctrl/ListView_GetItemState, controls.ListView_GetItemState, controls._win32_ListView_GetItemState
-f1_keywords:
-- commctrl/ListView_GetItemState
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetItemState
+ - commctrl/ListView_GetItemState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetItemState
 ---
 
 # ListView_GetItemState macro
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the state of a list-view item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> message explicitly. 
-
+Gets the state of a list-view item. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param i
 
 Type: <b>int</b>
 
-The index of the list-view item. 
-
+The index of the list-view item.
 
 ### -param mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The state information to retrieve. This parameter can be a combination of the following values: 
 
@@ -143,25 +138,11 @@ Use this mask to retrieve the item's state image index.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-An item's state information includes a set of bit flags as well as image list indexes that indicate the item's state image and overlay image. 
-
-
-
+An item's state information includes a set of bit flags as well as image list indexes that indicate the item's state image and overlay image.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setitemstate">ListView_SetItemState</a>

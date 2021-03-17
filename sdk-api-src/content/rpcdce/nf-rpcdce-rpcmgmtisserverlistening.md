@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcMgmtIsServerListening
 title: RpcMgmtIsServerListening function (rpcdce.h)
 description: The RpcMgmtIsServerListening function tells whether a server is listening for remote procedure calls.
+helpviewer_keywords: ["RpcMgmtIsServerListening","RpcMgmtIsServerListening function [RPC]","_rpc_rpcmgmtisserverlistening","rpc.rpcmgmtisserverlistening","rpcdce/RpcMgmtIsServerListening"]
 old-location: rpc\rpcmgmtisserverlistening.htm
 tech.root: Rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
-f1_keywords:
-- rpcdce/RpcMgmtIsServerListening
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtIsServerListening
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtIsServerListening
+ - rpcdce/RpcMgmtIsServerListening
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtIsServerListening
 ---
 
 # RpcMgmtIsServerListening function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtIsServerListening</b> function tells whether a server is listening for remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 To determine whether a remote application is listening for remote procedure calls, specify a server binding handle for that application. To determine whether your own (local) application is listening for remote procedure calls, specify a value of <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -120,7 +114,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 <div> </div>
@@ -131,36 +125,21 @@ The
 <b>RpcMgmtIsServerListening</b> function, 
 <b>RpcMgmtIsServerListening</b> returns RPC_SERVER_NOT_LISTENING, yet the server may be listening, and subsequent RPC calls may succeed.
 
-
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcMgmtIsServerListening</b> function to determine whether the server specified in the <i>Binding</i> parameter is listening for remote procedure calls.
 
 The 
 <b>RpcMgmtIsServerListening</b> function returns a value of <b>RPC_S_OK</b> if the server has called 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>.
 
 The server must be listening for remote procedure calls for this function to succeed.  If the server is not listening, the function fails.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>

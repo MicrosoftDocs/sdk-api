@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferInitialize.SetSIDs
 title: IStreamBufferInitialize::SetSIDs (sbe.h)
 description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
+helpviewer_keywords: ["IStreamBufferInitialize interface [Microsoft TV Technologies]","SetSIDs method","IStreamBufferInitialize.SetSIDs","IStreamBufferInitialize::SetSIDs","IStreamBufferInitializeSetSIDs","SetSIDs","SetSIDs method [Microsoft TV Technologies]","SetSIDs method [Microsoft TV Technologies]","IStreamBufferInitialize interface","mstv.istreambufferinitialize_setsids","sbe/IStreamBufferInitialize::SetSIDs"]
 old-location: mstv\istreambufferinitialize_setsids.htm
 tech.root: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSIDs method, IStreamBufferInitialize.SetSIDs, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
-f1_keywords:
-- sbe/IStreamBufferInitialize.SetSIDs
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferInitialize.SetSIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferInitialize::SetSIDs
+ - sbe/IStreamBufferInitialize::SetSIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferInitialize.SetSIDs
 ---
 
 # IStreamBufferInitialize::SetSIDs
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetSIDs</b> method sets the security identifiers (SIDs) that are used to protect access to the backing files.
 
-
 ## -parameters
-
-
-
 
 ### -param cSIDs [in]
 
 Specifies the size of the array given in the <i>ppSID</i> parameter.
 
-
 ### -param ppSID [in]
 
 Pointer to an array of <b>SID</b> structures, of size <i>cSIDs</i>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -112,14 +105,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 At run time, the Stream Buffer Source and Sink filters create various Win32 objects, such as mutexes, so that access to the backing files is synchronized across threads. Each of the filters maintains a list of SIDs that are used to protect these objects. By default, the filters inherit their SIDs from the hosting process. An application can use the <b>SetSIDs</b> method to override the default SIDs.
 
@@ -133,16 +120,6 @@ If you call this method, do so before locking the sink filter or loading a file 
 </ul>
 Note that this method does not apply to content recording files, which are protected by the discretionary access-control lists (DACLs) of the directory structure.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>

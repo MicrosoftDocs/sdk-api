@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateServiceManager.SetOption
 title: IUpdateServiceManager::SetOption (wuapi.h)
 description: Set options for the object that specifies the service ID. The SetOption method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
+helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","SetOption method","IUpdateServiceManager.SetOption","IUpdateServiceManager::SetOption","SetOption","SetOption method [Windows Update Agent]","SetOption method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_setoption","wuapi/IUpdateServiceManager::SetOption"]
 old-location: wua\iupdateservicemanager_setoption.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: dbf0b70c-5be0-4acc-9c44-bf32f6f752fd
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],SetOption method, IUpdateServiceManager.SetOption, IUpdateServiceManager::SetOption, SetOption, SetOption method [Windows Update Agent], SetOption method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_setoption, wuapi/IUpdateServiceManager::SetOption
-f1_keywords:
-- wuapi/IUpdateServiceManager.SetOption
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager.SetOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager::SetOption
+ - wuapi/IUpdateServiceManager::SetOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager.SetOption
 ---
 
 # IUpdateServiceManager::SetOption
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set options for the object that specifies the service ID. The <b>SetOption</b> method is also used to determine whether a warning is displayed when you change the registration of Automatic Updates.
 
-
 ## -parameters
-
-
-
 
 ### -param optionName [in]
 
 Set this parameter to AllowedServiceID to specify the form of the service ID that is provided to the object. 
 
 Set to AllowWarningUI to display a warning when changing the Automatic Updates registration.
-
 
 ### -param optionValue [in]
 
@@ -72,10 +68,7 @@ If <i>optionName</i> is set to AllowWarningUI,    <i>optionValue</i> is a <b>VT_
 
 Set the optionValue parameter to VARIANT_TRUE to display the warning UI. Set it to VARIANT_FALSE to suppress the warning UI.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows 
 
@@ -109,18 +102,7 @@ An argument of the method is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

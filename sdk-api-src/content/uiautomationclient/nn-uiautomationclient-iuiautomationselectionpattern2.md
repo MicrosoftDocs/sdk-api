@@ -2,15 +2,12 @@
 UID: NN:uiautomationclient.IUIAutomationSelectionPattern2
 title: IUIAutomationSelectionPattern2 (uiautomationclient.h)
 description: Extends the IUIAutomationSelectionPattern interface to provide information about selected items.
+helpviewer_keywords: ["IUIAutomationSelectionPattern2","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationSelectionPattern2","winauto.uiauto_IUIAutomationSelectionPattern2"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2.htm
 tech.root: WinAuto
 ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionPattern2
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.dll
-api_name:
-- IUIAutomationSelectionPattern2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionPattern2
+ - uiautomationclient/IUIAutomationSelectionPattern2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.dll
+api_name:
+ - IUIAutomationSelectionPattern2
 ---
 
 # IUIAutomationSelectionPattern2 interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a> interface to provide information about selected items.
-
+Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a> interface to provide information about selected items.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>

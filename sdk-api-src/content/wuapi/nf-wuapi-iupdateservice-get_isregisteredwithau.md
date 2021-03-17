@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateService.get_IsRegisteredWithAU
 title: IUpdateService::get_IsRegisteredWithAU (wuapi.h)
 description: Gets a Boolean value that indicates whether a service is registered with Automatic Updates.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","IsRegisteredWithAU property","IUpdateService.IsRegisteredWithAU","IUpdateService.get_IsRegisteredWithAU","IUpdateService::IsRegisteredWithAU","IUpdateService::get_IsRegisteredWithAU","IsRegisteredWithAU property [Windows Update Agent]","IsRegisteredWithAU property [Windows Update Agent]","IUpdateService interface","get_IsRegisteredWithAU","wua.iupdateservice_isregisteredwithau","wuapi/IUpdateService::IsRegisteredWithAU","wuapi/IUpdateService::get_IsRegisteredWithAU"]
 old-location: wua\iupdateservice_isregisteredwithau.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 17b51a04-69f6-4a96-880b-ef57f75253ae
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsRegisteredWithAU property, IUpdateService.IsRegisteredWithAU, IUpdateService.get_IsRegisteredWithAU, IUpdateService::IsRegisteredWithAU, IUpdateService::get_IsRegisteredWithAU, IsRegisteredWithAU property [Windows Update Agent], IsRegisteredWithAU property [Windows Update Agent],IUpdateService interface, get_IsRegisteredWithAU, wua.iupdateservice_isregisteredwithau, wuapi/IUpdateService::IsRegisteredWithAU, wuapi/IUpdateService::get_IsRegisteredWithAU
-f1_keywords:
-- wuapi/IUpdateService.IsRegisteredWithAU
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.IsRegisteredWithAU
-- IUpdateService.get_IsRegisteredWithAU
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_IsRegisteredWithAU
+ - wuapi/IUpdateService::get_IsRegisteredWithAU
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.IsRegisteredWithAU
+ - IUpdateService.get_IsRegisteredWithAU
 ---
 
 # IUpdateService::get_IsRegisteredWithAU
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether a service is registered with Automatic Updates.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

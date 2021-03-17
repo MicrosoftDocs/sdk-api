@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMVfwCaptureDialogs.ShowDialog
 title: IAMVfwCaptureDialogs::ShowDialog (strmif.h)
 description: The ShowDialog method displays the specified VFW dialog box.
+helpviewer_keywords: ["IAMVfwCaptureDialogs interface [DirectShow]","ShowDialog method","IAMVfwCaptureDialogs.ShowDialog","IAMVfwCaptureDialogs::ShowDialog","IAMVfwCaptureDialogsShowDialog","ShowDialog","ShowDialog method [DirectShow]","ShowDialog method [DirectShow]","IAMVfwCaptureDialogs interface","dshow.iamvfwcapturedialogs_showdialog","strmif/IAMVfwCaptureDialogs::ShowDialog"]
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
-f1_keywords:
-- strmif/IAMVfwCaptureDialogs.ShowDialog
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVfwCaptureDialogs.ShowDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVfwCaptureDialogs::ShowDialog
+ - strmif/IAMVfwCaptureDialogs::ShowDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVfwCaptureDialogs.ShowDialog
 ---
 
 # IAMVfwCaptureDialogs::ShowDialog
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ShowDialog</code> method displays the specified VFW dialog box.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param iDialog [in]
 
-Dialog box to display. This is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs">VfwCaptureDialogs</a> enumeration.
-
+Dialog box to display. This is a member of the <a href="/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs">VfwCaptureDialogs</a> enumeration.
 
 ### -param hwnd [in]
 
 Handle of the dialog box's parent window.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -127,33 +117,17 @@ The filter graph is not stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Stop the filter graph before calling this method. Otherwise, the method fails and returns VFW_E_NOT_STOPPED.
 
 The Video Format dialog (VfwCaptureDialog_Format) may change the video format. If so, the method tries to reconnect the capture filter. If the downstream filter rejects the new format, the method returns VFW_E_CANNOT_CONNECT.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvfwcapturedialogs">IAMVfwCaptureDialogs Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcapturedialogs">IAMVfwCaptureDialogs Interface</a>

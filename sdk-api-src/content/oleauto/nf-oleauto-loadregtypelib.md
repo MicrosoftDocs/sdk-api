@@ -2,15 +2,12 @@
 UID: NF:oleauto.LoadRegTypeLib
 title: LoadRegTypeLib function (oleauto.h)
 description: Uses registry information to load a type library.
+helpviewer_keywords: ["LoadRegTypeLib","LoadRegTypeLib function [Automation]","_oa96_LoadRegTypeLib","automat.loadregtypelib","oleauto/LoadRegTypeLib"]
 old-location: automat\loadregtypelib.htm
 tech.root: automat
 ms.assetid: 444b7768-2a4e-4de3-9f28-ef63ac23e8bc
 ms.date: 12/05/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
-f1_keywords:
-- oleauto/LoadRegTypeLib
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LoadRegTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadRegTypeLib
+ - oleauto/LoadRegTypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LoadRegTypeLib
 ---
 
 # LoadRegTypeLib function
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Uses registry information to load a type library.
 
-
 ## -parameters
-
-
-
 
 ### -param rguid
 
 The GUID of the library.
 
-
 ### -param wVerMajor
 
 The major version of the library.
-
 
 ### -param wVerMinor
 
 The minor version of the library.
 
-
 ### -param lcid
 
 The national language code of the library.
-
 
 ### -param pptlib
 
 The loaded type library.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -206,16 +196,10 @@ The type library or DLL could not be loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The function <b>LoadRegTypeLib</b> defers to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> to load the file.
+The function <b>LoadRegTypeLib</b> defers to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib">LoadTypeLib</a> to load the file.
 
 
 
@@ -242,5 +226,3 @@ If none of the registered type libraries exactly match the requested major versi
 
 </li>
 </ul>
-
-

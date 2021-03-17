@@ -2,15 +2,12 @@
 UID: NN:wuapi.IInstallationCompletedCallbackArgs
 title: IInstallationCompletedCallbackArgs (wuapi.h)
 description: Contains information about the completion of an installation and acts as a parameter to the IInstallationCompletedCallback delegate. The download and installation of the update is asynchronous.
+helpviewer_keywords: ["IInstallationCompletedCallbackArgs","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","IInstallationCompletedCallbackArgs interface [Windows Update Agent]","described","wua.iinstallationcompletedcallbackargs","wuapi/IInstallationCompletedCallbackArgs"]
 old-location: wua\iinstallationcompletedcallbackargs.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 89499136-ae6e-48ff-ad33-6247c8659f82
 ms.date: 12/05/2018
 ms.keywords: IInstallationCompletedCallbackArgs, IInstallationCompletedCallbackArgs interface [Windows Update Agent], IInstallationCompletedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationcompletedcallbackargs, wuapi/IInstallationCompletedCallbackArgs
-f1_keywords:
-- wuapi/IInstallationCompletedCallbackArgs
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationCompletedCallbackArgs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationCompletedCallbackArgs
+ - wuapi/IInstallationCompletedCallbackArgs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationCompletedCallbackArgs
 ---
 
 # IInstallationCompletedCallbackArgs interface
@@ -48,15 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the completion of an installation and acts as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationcompletedcallback">IInstallationCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
-
+Contains information about the completion of an installation and acts as a parameter to the <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationcompletedcallback">IInstallationCompletedCallback</a> delegate. The download and installation of the update is asynchronous.
 
 ## -remarks
 
-
-
 The <b>IInstallationCompletedCallbackArgs</b> interface is reserved for future use. It  has no properties or methods.
-
-
-

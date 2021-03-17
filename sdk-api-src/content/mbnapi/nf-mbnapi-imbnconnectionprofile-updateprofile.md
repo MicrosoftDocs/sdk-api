@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionProfile.UpdateProfile
 title: IMbnConnectionProfile::UpdateProfile (mbnapi.h)
 description: Updates the contents of the profile.
+helpviewer_keywords: ["IMbnConnectionProfile interface [Microsoft Broadband Networks]","UpdateProfile method","IMbnConnectionProfile.UpdateProfile","IMbnConnectionProfile::UpdateProfile","UpdateProfile","UpdateProfile method [Microsoft Broadband Networks]","UpdateProfile method [Microsoft Broadband Networks]","IMbnConnectionProfile interface","mbn.imbnconnectionprofile_updateprofile","mbnapi/IMbnConnectionProfile::UpdateProfile"]
 old-location: mbn\imbnconnectionprofile_updateprofile.htm
 tech.root: mbn
 ms.assetid: 3243ffec-1897-4f26-853d-81a7198a892d
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfile interface [Microsoft Broadband Networks],UpdateProfile method, IMbnConnectionProfile.UpdateProfile, IMbnConnectionProfile::UpdateProfile, UpdateProfile, UpdateProfile method [Microsoft Broadband Networks], UpdateProfile method [Microsoft Broadband Networks],IMbnConnectionProfile interface, mbn.imbnconnectionprofile_updateprofile, mbnapi/IMbnConnectionProfile::UpdateProfile
-f1_keywords:
-- mbnapi/IMbnConnectionProfile.UpdateProfile
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionProfile.UpdateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionProfile::UpdateProfile
+ - mbnapi/IMbnConnectionProfile::UpdateProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionProfile.UpdateProfile
 ---
 
 # IMbnConnectionProfile::UpdateProfile
@@ -53,20 +55,13 @@ ms.custom: 19H1
 
 Updates the contents of the profile.
 
-
 ## -parameters
-
-
-
 
 ### -param strProfile [in]
 
-A string that contains the profile data in XML format compliant with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
-
+A string that contains the profile data in XML format compliant with the <a href="/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -131,31 +126,15 @@ The Mobile Broadband service is not running on this system.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The data provided by this method complies with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
+The data provided by this method complies with the <a href="/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.
 
 This method should be called when the device for the profile is present in the system.
 
-This is a synchronous operation.  If successful, the Mobile Broadband service will notify the calling application by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate">OnProfileUpdate</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents">IMbnConnectionProfileEvents</a> interface.
-
-
-
+This is a synchronous operation.  If successful, the Mobile Broadband service will notify the calling application by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofileevents-onprofileupdate">OnProfileUpdate</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofileevents">IMbnConnectionProfileEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>

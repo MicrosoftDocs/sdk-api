@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMHALF2.XMHALF2(const float)
+UID: NF:directxpackedvector.XMHALF2.XMHALF2(constfloat)
 title: XMHALF2::XMHALF2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMHALF2 from a two element float array argument.
+helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2()","XMHALF2.XMHALF2(const float)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(const float)","dxmath.xmhalf2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 6f2f9747-e00e-4217-a144-3d476c09b62e
 ms.date: 05/06/2019
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2.XMHALF2(const float), XMHALF2::XMHALF2, XMHALF2::XMHALF2(const float), dxmath.xmhalf2_ctor_1
-f1_keywords:
-- directxpackedvector/XMHALF2.XMHALF2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMHALF2.XMHALF2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMHALF2::XMHALF2
+ - directxpackedvector/XMHALF2::XMHALF2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMHALF2.XMHALF2
 ---
 
 # XMHALF2::XMHALF2(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a> from a two element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a> from a two element <code>float</code> array argument.
 
 This constructor initializes a new instance of** XMHALF2** from a two element <code>float</code> array argument.
 
@@ -56,6 +59,7 @@ This constructor initializes a new instance of** XMHALF2** from a two element <c
 ## -parameters
 
 ### -param pArray
+
 Two element <code>float</code> array containing the values used to initialize the two components of a new instance of **XMHALF2**.
 
 ## -remarks
@@ -73,7 +77,6 @@ instance.y = XMConvertFloatToHalf(pArray[1]);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>
- 
+<a href="/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>

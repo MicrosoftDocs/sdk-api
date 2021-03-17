@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFSourceBuffer.SetAppendWindowEnd
 title: IMFSourceBuffer::SetAppendWindowEnd (mfmediaengine.h)
 description: Sets the timestamp for the end of the append window.
+helpviewer_keywords: ["IMFSourceBuffer interface [Media Foundation]","SetAppendWindowEnd method","IMFSourceBuffer.SetAppendWindowEnd","IMFSourceBuffer::SetAppendWindowEnd","SetAppendWindowEnd","SetAppendWindowEnd method [Media Foundation]","SetAppendWindowEnd method [Media Foundation]","IMFSourceBuffer interface","mf.imfsourcebuffer_setappendwindowend","mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd"]
 old-location: mf\imfsourcebuffer_setappendwindowend.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 80cae375-b3f4-4947-98dd-26338d4a0486
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd method, IMFSourceBuffer.SetAppendWindowEnd, IMFSourceBuffer::SetAppendWindowEnd, SetAppendWindowEnd, SetAppendWindowEnd method [Media Foundation], SetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowend, mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
-f1_keywords:
-- mfmediaengine/IMFSourceBuffer.SetAppendWindowEnd
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBuffer.SetAppendWindowEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBuffer::SetAppendWindowEnd
+ - mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBuffer.SetAppendWindowEnd
 ---
 
 # IMFSourceBuffer::SetAppendWindowEnd
@@ -48,34 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the timestamp for the end of the append window.
-
 
 ## -parameters
 
-
-
-
 ### -param time [in]
-
 
 ## -returns
 
-
-
 The timestamp for the end of the append window.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>

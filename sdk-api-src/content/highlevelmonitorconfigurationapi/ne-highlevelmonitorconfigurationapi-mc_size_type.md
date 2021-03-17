@@ -2,15 +2,12 @@
 UID: NE:highlevelmonitorconfigurationapi._MC_SIZE_TYPE
 title: MC_SIZE_TYPE (highlevelmonitorconfigurationapi.h)
 description: Specifies whether to get or set the width or height of a monitor's display area.
+helpviewer_keywords: ["MC_HEIGHT","MC_SIZE_TYPE","MC_SIZE_TYPE","MC_SIZE_TYPE enumeration [Monitor Configuration]","MC_WIDTH","highlevelmonitorconfigurationapi/MC_HEIGHT","highlevelmonitorconfigurationapi/MC_SIZE_TYPE","highlevelmonitorconfigurationapi/MC_WIDTH","monitor.mc_size_type"]
 old-location: monitor\mc_size_type.htm
 tech.root: Monitor
 ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
 ms.date: 12/05/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
-f1_keywords:
-- highlevelmonitorconfigurationapi/MC_SIZE_TYPE
-dev_langs:
-- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- HighLevelMonitorConfigurationAPI.h
-api_name:
-- MC_SIZE_TYPE
 targetos: Windows
 req.typenames: MC_SIZE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MC_SIZE_TYPE
+ - highlevelmonitorconfigurationapi/_MC_SIZE_TYPE
+ - MC_SIZE_TYPE
+ - highlevelmonitorconfigurationapi/MC_SIZE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - HighLevelMonitorConfigurationAPI.h
+api_name:
+ - MC_SIZE_TYPE
 ---
 
 # MC_SIZE_TYPE enumeration
@@ -48,38 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether to get or set the width or height of a monitor's display area.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MC_WIDTH
 
 Width.
-          
-
 
 ### -field MC_HEIGHT
 
 Height.
-          
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
- 
-
- 
-
+<a href="/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>

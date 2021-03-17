@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMPushSource.SetPushSourceFlags
 title: IAMPushSource::SetPushSourceFlags (strmif.h)
 description: The SetPushSourceFlags method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
+helpviewer_keywords: ["IAMPushSource interface [DirectShow]","SetPushSourceFlags method","IAMPushSource.SetPushSourceFlags","IAMPushSource::SetPushSourceFlags","IAMPushSourceSetPushSourceFlags","SetPushSourceFlags","SetPushSourceFlags method [DirectShow]","SetPushSourceFlags method [DirectShow]","IAMPushSource interface","dshow.iampushsource_setpushsourceflags","strmif/IAMPushSource::SetPushSourceFlags"]
 old-location: dshow\iampushsource_setpushsourceflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c07bbf7e-8d81-4eba-a5a1-fde02e8e8c35
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource interface [DirectShow],SetPushSourceFlags method, IAMPushSource.SetPushSourceFlags, IAMPushSource::SetPushSourceFlags, IAMPushSourceSetPushSourceFlags, SetPushSourceFlags, SetPushSourceFlags method [DirectShow], SetPushSourceFlags method [DirectShow],IAMPushSource interface, dshow.iampushsource_setpushsourceflags, strmif/IAMPushSource::SetPushSourceFlags
-f1_keywords:
-- strmif/IAMPushSource.SetPushSourceFlags
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMPushSource.SetPushSourceFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPushSource::SetPushSourceFlags
+ - strmif/IAMPushSource::SetPushSourceFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMPushSource.SetPushSourceFlags
 ---
 
 # IAMPushSource::SetPushSourceFlags
@@ -49,43 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetPushSourceFlags</code> method sets flags that specify the behavior of the filter. Currently, applications should not call this method, because request flags are not supported and an application should not override the flags set by the filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Flags [in]
 
-Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
-
+Combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>

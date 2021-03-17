@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.ISectionList.GetNumberOfSections
 title: ISectionList::GetNumberOfSections (mpeg2data.h)
 description: The GetNumberOfSections method returns the number of MPEG-2 sections that were received.
+helpviewer_keywords: ["GetNumberOfSections","GetNumberOfSections method [Microsoft TV Technologies]","GetNumberOfSections method [Microsoft TV Technologies]","ISectionList interface","ISectionList interface [Microsoft TV Technologies]","GetNumberOfSections method","ISectionList.GetNumberOfSections","ISectionList::GetNumberOfSections","ISectionListGetNumberOfSections","mpeg2data/ISectionList::GetNumberOfSections","mstv.isectionlist_getnumberofsections"]
 old-location: mstv\isectionlist_getnumberofsections.htm
 tech.root: mstv
 ms.assetid: 4b9e3383-7b84-4c4e-87cf-8e3a37d3b81b
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfSections, GetNumberOfSections method [Microsoft TV Technologies], GetNumberOfSections method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetNumberOfSections method, ISectionList.GetNumberOfSections, ISectionList::GetNumberOfSections, ISectionListGetNumberOfSections, mpeg2data/ISectionList::GetNumberOfSections, mstv.isectionlist_getnumberofsections
-f1_keywords:
-- mpeg2data/ISectionList.GetNumberOfSections
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.GetNumberOfSections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::GetNumberOfSections
+ - mpeg2data/ISectionList::GetNumberOfSections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.GetNumberOfSections
 ---
 
 # ISectionList::GetNumberOfSections
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetNumberOfSections</b> method returns the number of MPEG-2 sections that were received.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCount [out]
 
 Receives the number of sections.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -110,18 +101,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

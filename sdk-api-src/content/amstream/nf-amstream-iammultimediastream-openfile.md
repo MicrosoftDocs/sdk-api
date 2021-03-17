@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMultiMediaStream.OpenFile
 title: IAMMultiMediaStream::OpenFile (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The OpenFile method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
+helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","OpenFile method","IAMMultiMediaStream.OpenFile","IAMMultiMediaStream::OpenFile","IAMMultiMediaStreamOpenFile","OpenFile","OpenFile method [DirectShow]","OpenFile method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::OpenFile","dshow.iammultimediastream_openfile"]
 old-location: dshow\iammultimediastream_openfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
-f1_keywords:
-- amstream/IAMMultiMediaStream.OpenFile
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMultiMediaStream.OpenFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMultiMediaStream::OpenFile
+ - amstream/IAMMultiMediaStream::OpenFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMultiMediaStream.OpenFile
 ---
 
 # IAMMultiMediaStream::OpenFile
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>OpenFile</code> method opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszFileName [in]
 
 Pointer to the name of the file you want to open.
-
 
 ### -param dwFlags [in]
 
@@ -99,12 +92,8 @@ Value that modifies how the filter graph will render the specified file. This va
 <td>Set the stream into the run state.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -147,27 +136,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getmediastream">IStreamSample::GetMediaStream</a> method.
-
-
-
+The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getmediastream">IStreamSample::GetMediaStream</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

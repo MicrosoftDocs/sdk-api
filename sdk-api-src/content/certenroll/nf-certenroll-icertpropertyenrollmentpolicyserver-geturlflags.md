@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 title: ICertPropertyEnrollmentPolicyServer::GetUrlFlags (certenroll.h)
 description: Retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetUrlFlags","GetUrlFlags method [Security]","GetUrlFlags method [Security]","ICertPropertyEnrollmentPolicyServer interface","ICertPropertyEnrollmentPolicyServer interface [Security]","GetUrlFlags method","ICertPropertyEnrollmentPolicyServer.GetUrlFlags","ICertPropertyEnrollmentPolicyServer::GetUrlFlags","PsfAllowUnTrustedCA","PsfAutoEnrollmentEnabled","PsfLocationGroupPolicy","PsfLocationRegistry","PsfNone","PsfUseClientId","certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags","security.icertpropertyenrollmentpolicyserver_geturlflags"]
 old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.date: 12/05/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
-f1_keywords:
-- certenroll/ICertPropertyEnrollmentPolicyServer.GetUrlFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPropertyEnrollmentPolicyServer::GetUrlFlags
+ - certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetUrlFlags
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
-
+The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a> method.
 
 ## -parameters
 
-
-
-
 ### -param pValue [out, retval]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
+Pointer to a <a href="/windows/desktop/api/certenroll/ne-certenroll-policyserverurlflags">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -127,16 +124,12 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -156,18 +149,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>

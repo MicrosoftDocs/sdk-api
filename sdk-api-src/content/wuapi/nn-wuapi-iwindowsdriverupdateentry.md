@@ -2,15 +2,12 @@
 UID: NN:wuapi.IWindowsDriverUpdateEntry
 title: IWindowsDriverUpdateEntry (wuapi.h)
 description: Contains the properties that are available only from a Windows driver update.
+helpviewer_keywords: ["IWindowsDriverUpdateEntry","IWindowsDriverUpdateEntry interface [Windows Update Agent]","IWindowsDriverUpdateEntry interface [Windows Update Agent]","described","wua.iwindowsdriverupdateentry","wuapi/IWindowsDriverUpdateEntry"]
 old-location: wua\iwindowsdriverupdateentry.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 91b8ed77-70f7-400f-a887-b3cf9f573c76
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntry, IWindowsDriverUpdateEntry interface [Windows Update Agent], IWindowsDriverUpdateEntry interface [Windows Update Agent],described, wua.iwindowsdriverupdateentry, wuapi/IWindowsDriverUpdateEntry
-f1_keywords:
-- wuapi/IWindowsDriverUpdateEntry
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdateEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdateEntry
+ - wuapi/IWindowsDriverUpdateEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdateEntry
 ---
 
 # IWindowsDriverUpdateEntry interface
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the properties that are available only from a Windows driver update.
-
 
 ## -remarks
 
-
-
 None of the IWindowsDriverUpdateEntry properties are expected to return any errors (other than E_POINTER if <b>NULL</b> is passed to the property).
-
-
 

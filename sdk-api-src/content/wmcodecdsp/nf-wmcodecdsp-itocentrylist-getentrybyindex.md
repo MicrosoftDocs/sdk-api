@@ -2,16 +2,12 @@
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryByIndex
 title: ITocEntryList::GetEntryByIndex (wmcodecdsp.h)
 description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
+helpviewer_keywords: ["GetEntryByIndex","GetEntryByIndex method [Media Foundation]","GetEntryByIndex method [Media Foundation]","ITocEntryList interface","ITocEntryList interface [Media Foundation]","GetEntryByIndex method","ITocEntryList.GetEntryByIndex","ITocEntryList::GetEntryByIndex","codecapi.itocentrylist_getentrybyindex","mf.itocentrylist_getentrybyindex","wmcodecdsp/ITocEntryList::GetEntryByIndex"]
 old-location: mf\itocentrylist_getentrybyindex.htm
 tech.root: medfound
 ms.assetid: cf2171c9-67ce-4acb-97cc-af17203e815b
 ms.date: 12/05/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryByIndex method, ITocEntryList.GetEntryByIndex, ITocEntryList::GetEntryByIndex, codecapi.itocentrylist_getentrybyindex, mf.itocentrylist_getentrybyindex, wmcodecdsp/ITocEntryList::GetEntryByIndex
-ms.topic: method
-f1_keywords:
-- wmcodecdsp/ITocEntryList.GetEntryByIndex
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntryList.GetEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntryList::GetEntryByIndex
+ - wmcodecdsp/ITocEntryList::GetEntryByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntryList.GetEntryByIndex
 ---
 
 # ITocEntryList::GetEntryByIndex
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetEntryByIndex</b> method retrieves an entry, specified by an index, from the list.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEntryIndex [in]
 
 The index of the entry to retrieve.
 
-
 ### -param ppEntry [out]
 
-Pointer to a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a> interface that represents the entry.
-
+Pointer to a variable that receives a pointer to an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a> interface that represents the entry.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,22 +83,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>

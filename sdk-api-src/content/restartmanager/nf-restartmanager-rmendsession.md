@@ -2,15 +2,12 @@
 UID: NF:restartmanager.RmEndSession
 title: RmEndSession function (restartmanager.h)
 description: Ends the Restart Manager session.
+helpviewer_keywords: ["RmEndSession","RmEndSession function [Restart Mgr]","restartmanager/RmEndSession","rstmgr.rmendsession"]
 old-location: rstmgr\rmendsession.htm
 tech.root: rstmgr
 ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
 ms.date: 12/05/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
-f1_keywords:
-- restartmanager/RmEndSession
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmEndSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmEndSession
+ - restartmanager/RmEndSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmEndSession
 ---
 
 # RmEndSession function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Ends the Restart Manager session. This function should be called by the primary installer that has previously started the session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function. The <b>RmEndSession</b> function can be called by a secondary installer that is joined to the session once no more resources need to be registered by the secondary installer.   
-
+Ends the Restart Manager session. This function should be called by the primary installer that has previously started the session by calling the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function. The <b>RmEndSession</b> function can be called by a secondary installer that is joined to the session once no more resources need to be registered by the secondary installer.
 
 ## -parameters
-
-
-
 
 ### -param dwSessionHandle [in]
 
 A handle to an existing Restart Manager session.
 
-
 ## -returns
 
-
-
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -134,22 +128,11 @@ An invalid handle was passed to the function. No Restart Manager session exists 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a>

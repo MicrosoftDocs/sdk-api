@@ -2,15 +2,12 @@
 UID: NF:amvideo.IQualProp.get_DevSyncOffset
 title: IQualProp::get_DevSyncOffset (amvideo.h)
 description: The get_DevSyncOffset method retrieves the average time difference between when the video frames should have been displayed and when they actually were.
+helpviewer_keywords: ["IQualProp interface [DirectShow]","get_DevSyncOffset method","IQualProp.get_DevSyncOffset","IQualProp::get_DevSyncOffset","IQualPropget_DevSyncOffset","amvideo/IQualProp::get_DevSyncOffset","dshow.iqualprop_get_devsyncoffset","get_DevSyncOffset","get_DevSyncOffset method [DirectShow]","get_DevSyncOffset method [DirectShow]","IQualProp interface"]
 old-location: dshow\iqualprop_get_devsyncoffset.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 69160479-7c72-46ed-9421-2a6c2c2861db
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_DevSyncOffset method, IQualProp.get_DevSyncOffset, IQualProp::get_DevSyncOffset, IQualPropget_DevSyncOffset, amvideo/IQualProp::get_DevSyncOffset, dshow.iqualprop_get_devsyncoffset, get_DevSyncOffset, get_DevSyncOffset method [DirectShow], get_DevSyncOffset method [DirectShow],IQualProp interface
-f1_keywords:
-- amvideo/IQualProp.get_DevSyncOffset
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IQualProp.get_DevSyncOffset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQualProp::get_DevSyncOffset
+ - amvideo/IQualProp::get_DevSyncOffset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IQualProp.get_DevSyncOffset
 ---
 
 # IQualProp::get_DevSyncOffset
@@ -49,52 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgsyncoffset">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
-
-
-
+The <code>get_DevSyncOffset</code> method retrieves the average time difference between when the video frames should have been displayed and when they actually were. This method is the same as the <a href="/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgsyncoffset">IQualProp::get_AvgSyncOffset</a> method except that the value returned is calculated as a standard deviation rather than as a simple average.
 
 ## -parameters
-
-
-
 
 ### -param piDev
 
 Pointer to a value denoting the accuracy of the video frames displayed.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -remarks
-
-
 
 When playing video from networks, the presentation can often be disrupted by network glitches. For this reason, expressing the accuracy of video frames by a simple average is inappropriate. Looking at a standard deviation provides a better idea of the overall accuracy.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>

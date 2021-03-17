@@ -2,15 +2,12 @@
 UID: NF:winuser.AnimateWindow
 title: AnimateWindow function (winuser.h)
 description: Enables you to produce special effects when showing or hiding windows. There are four types of animation:\_roll, slide, collapse or expand, and alpha-blended fade.
+helpviewer_keywords: ["AW_ACTIVATE","AW_BLEND","AW_CENTER","AW_HIDE","AW_HOR_NEGATIVE","AW_HOR_POSITIVE","AW_SLIDE","AW_VER_NEGATIVE","AW_VER_POSITIVE","AnimateWindow","AnimateWindow function [Windows and Messages]","_win32_AnimateWindow","_win32_animatewindow_cpp","winmsg.animatewindow","winui._win32_animatewindow","winuser/AnimateWindow"]
 old-location: winmsg\animatewindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\animatewindow.htm
 ms.date: 12/05/2018
 ms.keywords: AW_ACTIVATE, AW_BLEND, AW_CENTER, AW_HIDE, AW_HOR_NEGATIVE, AW_HOR_POSITIVE, AW_SLIDE, AW_VER_NEGATIVE, AW_VER_POSITIVE, AnimateWindow, AnimateWindow function [Windows and Messages], _win32_AnimateWindow, _win32_animatewindow_cpp, winmsg.animatewindow, winui._win32_animatewindow, winuser/AnimateWindow
-f1_keywords:
-- winuser/AnimateWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- AnimateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AnimateWindow
+ - winuser/AnimateWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - AnimateWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # AnimateWindow function
@@ -53,28 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables you to produce special effects when showing or hiding windows. There are four types of animation: roll, slide, collapse or expand, and alpha-blended fade. 
-
+Enables you to produce special effects when showing or hiding windows. There are four types of animation: roll, slide, collapse or expand, and alpha-blended fade.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window to animate. The calling thread must own this window. 
-
+A handle to the window to animate. The calling thread must own this window.
 
 ### -param dwTime [in]
 
 Type: <b>DWORD</b>
 
-The time it takes to play the animation, in milliseconds. Typically, an animation takes 200 milliseconds to play. 
-
+The time it takes to play the animation, in milliseconds. Typically, an animation takes 200 milliseconds to play.
 
 ### -param dwFlags [in]
 
@@ -187,15 +183,10 @@ Animates the window from bottom to top. This flag can be used with roll or slide
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
@@ -206,38 +197,27 @@ If the function fails, the return value is zero. The function will fail in the f
 <li>If the window is already hidden and you are trying to hide the window.</li>
 <li>If there is no direction specified for the slide or roll animation.</li>
 <li>When trying to animate a child window with <b>AW_BLEND</b>. </li>
-<li>If the thread does not own the window. Note that, in this case, <b>AnimateWindow</b> fails but <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.</li>
+<li>If the thread does not own the window. Note that, in this case, <b>AnimateWindow</b> fails but <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_SUCCESS</b>.</li>
 </ul>
-To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. 
-
-
-
+To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-
-
-To show or hide a window without special effects, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
+To show or hide a window without special effects, use <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>.
 
 When using slide or roll animation, you must specify the direction. It can be either <b>AW_HOR_POSITIVE</b>, <b>AW_HOR_NEGATIVE</b>, AW_VER_POSITIVE, or AW_VER_NEGATIVE. 
 
 You can combine <b>AW_HOR_POSITIVE</b> or <b>AW_HOR_NEGATIVE</b> with <b>AW_VER_POSITIVE</b> or <b>AW_VER_NEGATIVE</b> to animate a window diagonally. 
 
-The window procedures for the window and its child windows should handle any <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a> or <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> messages. Dialog boxes, controls, and common controls already handle <b>WM_PRINTCLIENT</b>. The default window procedure already handles <b>WM_PRINT</b>. 
+The window procedures for the window and its child windows should handle any <a href="/windows/desktop/gdi/wm-print">WM_PRINT</a> or <a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> messages. Dialog boxes, controls, and common controls already handle <b>WM_PRINTCLIENT</b>. The default window procedure already handles <b>WM_PRINT</b>. 
 
 If a child window is displayed partially clipped, when it is animated it will have holes where it is clipped. 
 
 <b>AnimateWindow</b> supports RTL windows.
 
-Avoid animating a window that has a drop shadow because it produces visually distracting, jerky animations. 
-
-
-
+Avoid animating a window that has a drop shadow because it produces visually distracting, jerky animations.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -251,20 +231,16 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a>
+<a href="/windows/desktop/gdi/wm-print">WM_PRINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
+<a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

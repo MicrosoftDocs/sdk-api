@@ -2,15 +2,12 @@
 UID: NS:winuser.tagKBDLLHOOKSTRUCT
 title: KBDLLHOOKSTRUCT (winuser.h)
 description: Contains information about a low-level keyboard input event.
+helpviewer_keywords: ["*LPKBDLLHOOKSTRUCT","*PKBDLLHOOKSTRUCT","KBDLLHOOKSTRUCT","KBDLLHOOKSTRUCT structure [Windows and Messages]","LLKHF_ALTDOWN","LLKHF_EXTENDED","LLKHF_INJECTED","LLKHF_LOWER_IL_INJECTED","LLKHF_UP","LPKBDLLHOOKSTRUCT","LPKBDLLHOOKSTRUCT structure pointer [Windows and Messages]","PKBDLLHOOKSTRUCT","PKBDLLHOOKSTRUCT structure pointer [Windows and Messages]","_win32_KBDLLHOOKSTRUCT_str","_win32_kbdllhookstruct_str_cpp","winmsg.kbdllhookstruct","winui._win32_kbdllhookstruct_str","winuser/KBDLLHOOKSTRUCT","winuser/LPKBDLLHOOKSTRUCT","winuser/PKBDLLHOOKSTRUCT"]
 old-location: winmsg\kbdllhookstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\kbdllhookstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT, KBDLLHOOKSTRUCT structure [Windows and Messages], LLKHF_ALTDOWN, LLKHF_EXTENDED, LLKHF_INJECTED, LLKHF_LOWER_IL_INJECTED, LLKHF_UP, LPKBDLLHOOKSTRUCT, LPKBDLLHOOKSTRUCT structure pointer [Windows and Messages], PKBDLLHOOKSTRUCT, PKBDLLHOOKSTRUCT structure pointer [Windows and Messages], _win32_KBDLLHOOKSTRUCT_str, _win32_kbdllhookstruct_str_cpp, winmsg.kbdllhookstruct, winui._win32_kbdllhookstruct_str, winuser/KBDLLHOOKSTRUCT, winuser/LPKBDLLHOOKSTRUCT, winuser/PKBDLLHOOKSTRUCT'
-f1_keywords:
-- winuser/KBDLLHOOKSTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- KBDLLHOOKSTRUCT
 targetos: Windows
 req.typenames: KBDLLHOOKSTRUCT, *LPKBDLLHOOKSTRUCT, *PKBDLLHOOKSTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagKBDLLHOOKSTRUCT
+ - winuser/tagKBDLLHOOKSTRUCT
+ - LPKBDLLHOOKSTRUCT
+ - winuser/LPKBDLLHOOKSTRUCT
+ - KBDLLHOOKSTRUCT
+ - winuser/KBDLLHOOKSTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - KBDLLHOOKSTRUCT
 ---
 
 # KBDLLHOOKSTRUCT structure
@@ -48,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a low-level keyboard input event. 
-
+Contains information about a low-level keyboard input event.
 
 ## -struct-fields
-
-
-
 
 ### -field vkCode
 
 Type: <b>DWORD</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a>. The code must be a value in the range 1 to 254. 
-
+A <a href="/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a>. The code must be a value in the range 1 to 254.
 
 ### -field scanCode
 
 Type: <b>DWORD</b>
 
-A hardware scan code for the key. 
-
+A hardware scan code for the key.
 
 ### -field flags
 
@@ -176,37 +175,30 @@ The following table describes the layout of this value.
 <td>The transition state. The value is 0 if the key is pressed and 1 if it is being released.</td>
 </tr>
 </table>
- 
-
 
 ### -field time
 
 Type: <b>DWORD</b>
 
-The time stamp for this message, equivalent to what <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagetime">GetMessageTime</a> would return for this message.
-
+The time stamp for this message, equivalent to what <a href="/windows/desktop/api/winuser/nf-winuser-getmessagetime">GetMessageTime</a> would return for this message.
 
 ### -field dwExtraInfo
 
 Type: <b>ULONG_PTR</b>
 
-Additional information associated with the message. 
-
+Additional information associated with the message.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
 
 
 
@@ -214,8 +206,4 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

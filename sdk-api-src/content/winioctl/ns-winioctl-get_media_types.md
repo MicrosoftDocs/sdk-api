@@ -2,15 +2,12 @@
 UID: NS:winioctl._GET_MEDIA_TYPES
 title: GET_MEDIA_TYPES
 description: Contains information about the media types supported by a device.
+helpviewer_keywords: ["*PGET_MEDIA_TYPES","FILE_DEVICE_8042_PORT","FILE_DEVICE_ACPI","FILE_DEVICE_BATTERY","FILE_DEVICE_BEEP","FILE_DEVICE_BLUETOOTH","FILE_DEVICE_BUS_EXTENDER","FILE_DEVICE_CD_ROM","FILE_DEVICE_CD_ROM_FILE_SYSTEM","FILE_DEVICE_CHANGER","FILE_DEVICE_CONTROLLER","FILE_DEVICE_CRYPT_PROVIDER","FILE_DEVICE_DATALINK","FILE_DEVICE_DFS","FILE_DEVICE_DFS_FILE_SYSTEM","FILE_DEVICE_DFS_VOLUME","FILE_DEVICE_DISK","FILE_DEVICE_DISK_FILE_SYSTEM","FILE_DEVICE_DVD","FILE_DEVICE_FILE_SYSTEM","FILE_DEVICE_FIPS","FILE_DEVICE_FULLSCREEN_VIDEO","FILE_DEVICE_INFINIBAND","FILE_DEVICE_INPORT_PORT","FILE_DEVICE_KEYBOARD","FILE_DEVICE_KS","FILE_DEVICE_KSEC","FILE_DEVICE_MAILSLOT","FILE_DEVICE_MASS_STORAGE","FILE_DEVICE_MIDI_IN","FILE_DEVICE_MIDI_OUT","FILE_DEVICE_MODEM","FILE_DEVICE_MOUSE","FILE_DEVICE_MULTI_UNC_PROVIDER","FILE_DEVICE_NAMED_PIPE","FILE_DEVICE_NETWORK","FILE_DEVICE_NETWORK_BROWSER","FILE_DEVICE_NETWORK_FILE_SYSTEM","FILE_DEVICE_NETWORK_REDIRECTOR","FILE_DEVICE_NULL","FILE_DEVICE_PARALLEL_PORT","FILE_DEVICE_PHYSICAL_NETCARD","FILE_DEVICE_PRINTER","FILE_DEVICE_SCANNER","FILE_DEVICE_SCREEN","FILE_DEVICE_SERENUM","FILE_DEVICE_SERIAL_MOUSE_PORT","FILE_DEVICE_SERIAL_PORT","FILE_DEVICE_SMARTCARD","FILE_DEVICE_SMB","FILE_DEVICE_SOUND","FILE_DEVICE_STREAMS","FILE_DEVICE_TAPE","FILE_DEVICE_TAPE_FILE_SYSTEM","FILE_DEVICE_TERMSRV","FILE_DEVICE_TRANSPORT","FILE_DEVICE_UNKNOWN","FILE_DEVICE_VDM","FILE_DEVICE_VIDEO","FILE_DEVICE_VIRTUAL_DISK","FILE_DEVICE_VMBUS","FILE_DEVICE_WAVE_IN","FILE_DEVICE_WAVE_OUT","FILE_DEVICE_WPD","GET_MEDIA_TYPES","GET_MEDIA_TYPES structure","PGET_MEDIA_TYPES","PGET_MEDIA_TYPES structure pointer","_win32_get_media_types_str","base.get_media_types_str","winioctl/GET_MEDIA_TYPES","winioctl/PGET_MEDIA_TYPES"]
 old-location: base\get_media_types_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 07d1ccc5-5f8a-4272-a9be-74fa7a9e1bbc
 ms.date: 12/05/2018
 ms.keywords: '*PGET_MEDIA_TYPES, FILE_DEVICE_8042_PORT, FILE_DEVICE_ACPI, FILE_DEVICE_BATTERY, FILE_DEVICE_BEEP, FILE_DEVICE_BLUETOOTH, FILE_DEVICE_BUS_EXTENDER, FILE_DEVICE_CD_ROM, FILE_DEVICE_CD_ROM_FILE_SYSTEM, FILE_DEVICE_CHANGER, FILE_DEVICE_CONTROLLER, FILE_DEVICE_CRYPT_PROVIDER, FILE_DEVICE_DATALINK, FILE_DEVICE_DFS, FILE_DEVICE_DFS_FILE_SYSTEM, FILE_DEVICE_DFS_VOLUME, FILE_DEVICE_DISK, FILE_DEVICE_DISK_FILE_SYSTEM, FILE_DEVICE_DVD, FILE_DEVICE_FILE_SYSTEM, FILE_DEVICE_FIPS, FILE_DEVICE_FULLSCREEN_VIDEO, FILE_DEVICE_INFINIBAND, FILE_DEVICE_INPORT_PORT, FILE_DEVICE_KEYBOARD, FILE_DEVICE_KS, FILE_DEVICE_KSEC, FILE_DEVICE_MAILSLOT, FILE_DEVICE_MASS_STORAGE, FILE_DEVICE_MIDI_IN, FILE_DEVICE_MIDI_OUT, FILE_DEVICE_MODEM, FILE_DEVICE_MOUSE, FILE_DEVICE_MULTI_UNC_PROVIDER, FILE_DEVICE_NAMED_PIPE, FILE_DEVICE_NETWORK, FILE_DEVICE_NETWORK_BROWSER, FILE_DEVICE_NETWORK_FILE_SYSTEM, FILE_DEVICE_NETWORK_REDIRECTOR, FILE_DEVICE_NULL, FILE_DEVICE_PARALLEL_PORT, FILE_DEVICE_PHYSICAL_NETCARD, FILE_DEVICE_PRINTER, FILE_DEVICE_SCANNER, FILE_DEVICE_SCREEN, FILE_DEVICE_SERENUM, FILE_DEVICE_SERIAL_MOUSE_PORT, FILE_DEVICE_SERIAL_PORT, FILE_DEVICE_SMARTCARD, FILE_DEVICE_SMB, FILE_DEVICE_SOUND, FILE_DEVICE_STREAMS, FILE_DEVICE_TAPE, FILE_DEVICE_TAPE_FILE_SYSTEM, FILE_DEVICE_TERMSRV, FILE_DEVICE_TRANSPORT, FILE_DEVICE_UNKNOWN, FILE_DEVICE_VDM, FILE_DEVICE_VIDEO, FILE_DEVICE_VIRTUAL_DISK, FILE_DEVICE_VMBUS, FILE_DEVICE_WAVE_IN, FILE_DEVICE_WAVE_OUT, FILE_DEVICE_WPD, GET_MEDIA_TYPES, GET_MEDIA_TYPES structure, PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer, _win32_get_media_types_str, base.get_media_types_str, winioctl/GET_MEDIA_TYPES, winioctl/PGET_MEDIA_TYPES'
-f1_keywords:
-- winioctl/GET_MEDIA_TYPES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- GET_MEDIA_TYPES
 targetos: Windows
 req.typenames: GET_MEDIA_TYPES, *PGET_MEDIA_TYPES
 req.redist: 
+f1_keywords:
+ - _GET_MEDIA_TYPES
+ - winioctl/_GET_MEDIA_TYPES
+ - PGET_MEDIA_TYPES
+ - winioctl/PGET_MEDIA_TYPES
+ - GET_MEDIA_TYPES
+ - winioctl/GET_MEDIA_TYPES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - GET_MEDIA_TYPES
 ---
 
 # GET_MEDIA_TYPES structure
@@ -47,14 +53,9 @@ req.redist:
 
 ## -description
 
-
 Contains information about the media types supported by a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceType
 
@@ -438,29 +439,19 @@ The type of device. Values from 0 through 32,767 are reserved for use by Microso
 
 #### FILE_DEVICE_WPD
 
-
 ### -field MediaInfoCount
 
 The number of elements in the <b>MediaInfo</b> array.
 
-
 ### -field MediaInfo
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a> structure in the array. There is one structure for each media type supported by the device.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_media_info">DEVICE_MEDIA_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>

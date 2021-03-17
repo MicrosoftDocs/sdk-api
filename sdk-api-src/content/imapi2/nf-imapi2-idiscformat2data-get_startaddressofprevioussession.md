@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_StartAddressOfPreviousSession
 title: IDiscFormat2Data::get_StartAddressOfPreviousSession (imapi2.h)
 description: Retrieves the first sector of the previous write session.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_StartAddressOfPreviousSession method","IDiscFormat2Data.get_StartAddressOfPreviousSession","IDiscFormat2Data::get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession","get_StartAddressOfPreviousSession method [IMAPI]","get_StartAddressOfPreviousSession method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_startaddressofprevioussession","imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession"]
 old-location: imapi\idiscformat2data_get_startaddressofprevioussession.htm
 tech.root: imapi
 ms.assetid: a2f75240-9334-42a3-82d6-5ce9ddf1f3a2
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_StartAddressOfPreviousSession method, IDiscFormat2Data.get_StartAddressOfPreviousSession, IDiscFormat2Data::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_startaddressofprevioussession, imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_StartAddressOfPreviousSession
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_StartAddressOfPreviousSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_StartAddressOfPreviousSession
+ - imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_StartAddressOfPreviousSession
 ---
 
 # IDiscFormat2Data::get_StartAddressOfPreviousSession
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the first sector of the previous write session.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
@@ -63,10 +60,7 @@ Address where the previous write operation began.
 
 The value is -1 if the media is blank or does not support multi-session writing (indicates that no previous session could be detected).
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -362,35 +356,20 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  This property should not be used. Instead, you should use an interface derived from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>, such as <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>, for importing file data from the previous session.</div>
+<div class="alert"><b>Note</b>  This property should not be used. Instead, you should use an interface derived from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>, such as <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>, for importing file data from the previous session.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_nextwritableaddress">IDiscFormat2Data::get_NextWritableAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_nextwritableaddress">IDiscFormat2Data::get_NextWritableAddress</a>

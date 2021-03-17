@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_NextWritableAddress
 title: IDiscFormat2Data::get_NextWritableAddress (imapi2.h)
 description: Retrieves the location for the next write operation.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_NextWritableAddress method","IDiscFormat2Data.get_NextWritableAddress","IDiscFormat2Data::get_NextWritableAddress","get_NextWritableAddress","get_NextWritableAddress method [IMAPI]","get_NextWritableAddress method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_nextwritableaddress","imapi2/IDiscFormat2Data::get_NextWritableAddress"]
 old-location: imapi\idiscformat2data_get_nextwritableaddress.htm
 tech.root: imapi
 ms.assetid: bdbab74c-80bd-4dca-8d64-6d30452a5876
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_NextWritableAddress method, IDiscFormat2Data.get_NextWritableAddress, IDiscFormat2Data::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_nextwritableaddress, imapi2/IDiscFormat2Data::get_NextWritableAddress
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_NextWritableAddress
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_NextWritableAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_NextWritableAddress
+ - imapi2/IDiscFormat2Data::get_NextWritableAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_NextWritableAddress
 ---
 
 # IDiscFormat2Data::get_NextWritableAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the location for the next write operation.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-Address where the next write operation begins.   
-
+Address where the next write operation begins.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,37 +354,21 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Blank media begin writing at location zero.
 
 In multi-session writing, the next writable address is useful for setting up a correct file system.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_lastwrittenaddressofprevioussession">IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>

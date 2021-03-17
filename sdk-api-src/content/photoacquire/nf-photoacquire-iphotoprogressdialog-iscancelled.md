@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoProgressDialog.IsCancelled
 title: IPhotoProgressDialog::IsCancelled (photoacquire.h)
 description: The IsCancelled method indicates whether the operation has been canceled via the progress dialog box.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","IsCancelled method","IPhotoProgressDialog.IsCancelled","IPhotoProgressDialog::IsCancelled","IPhotoProgressDialogIsCancelled","IsCancelled","IsCancelled method [Picture Acquisition]","IsCancelled method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::IsCancelled","picacq.iphotoprogressdialog_iscancelled"]
 old-location: picacq\iphotoprogressdialog_iscancelled.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 0bd84b1f-7a2a-40eb-ba77-21a8f701e5e0
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],IsCancelled method, IPhotoProgressDialog.IsCancelled, IPhotoProgressDialog::IsCancelled, IPhotoProgressDialogIsCancelled, IsCancelled, IsCancelled method [Picture Acquisition], IsCancelled method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::IsCancelled, picacq.iphotoprogressdialog_iscancelled
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.IsCancelled
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.IsCancelled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::IsCancelled
+ - photoacquire/IPhotoProgressDialog::IsCancelled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.IsCancelled
 ---
 
 # IPhotoProgressDialog::IsCancelled
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsCancelled</code> method indicates whether the operation has been canceled via the progress dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfCancelled [out]
 
 Pointer to a flag that, if set to <b>TRUE</b>, indicates the action has been canceled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +91,7 @@ A <b>NULL</b> pointer was passed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>

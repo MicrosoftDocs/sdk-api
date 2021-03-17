@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwRules.Item
 title: INetFwRules::Item (netfw.h)
 description: The Item method returns the specified rule if it is in the collection.
+helpviewer_keywords: ["INetFwRules interface [ICS/ICF]","Item method","INetFwRules.Item","INetFwRules::Item","Item","Item method [ICS/ICF]","Item method [ICS/ICF]","INetFwRules interface","ics.inetfwrules_item","netfw/INetFwRules::Item"]
 old-location: ics\inetfwrules_item.htm
 tech.root: ics
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
-f1_keywords:
-- netfw/INetFwRules.Item
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRules.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRules::Item
+ - netfw/INetFwRules::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRules.Item
 ---
 
 # INetFwRules::Item
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Item</b> method returns the specified rule if it is in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 Name of the rule to retrieve.
 
-
 ### -param rule [out]
 
-Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> object.
-
+Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> object.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds the return value is S_OK.
@@ -205,22 +198,11 @@ The requested item does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>

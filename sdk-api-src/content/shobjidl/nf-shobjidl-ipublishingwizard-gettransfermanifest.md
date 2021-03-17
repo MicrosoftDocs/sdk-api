@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IPublishingWizard.GetTransferManifest
 title: IPublishingWizard::GetTransferManifest (shobjidl.h)
 description: Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.
+helpviewer_keywords: ["GetTransferManifest","GetTransferManifest method [Windows Shell]","GetTransferManifest method [Windows Shell]","IPublishingWizard interface","IPublishingWizard interface [Windows Shell]","GetTransferManifest method","IPublishingWizard.GetTransferManifest","IPublishingWizard::GetTransferManifest","_shell_IPublishingWizard_GetTransferManifest","shell.IPublishingWizard_GetTransferManifest","shobjidl/IPublishingWizard::GetTransferManifest"]
 old-location: shell\IPublishingWizard_GetTransferManifest.htm
 tech.root: shell
 ms.assetid: 1c595526-f810-4a33-82c3-785727153b16
 ms.date: 12/05/2018
 ms.keywords: GetTransferManifest, GetTransferManifest method [Windows Shell], GetTransferManifest method [Windows Shell],IPublishingWizard interface, IPublishingWizard interface [Windows Shell],GetTransferManifest method, IPublishingWizard.GetTransferManifest, IPublishingWizard::GetTransferManifest, _shell_IPublishingWizard_GetTransferManifest, shell.IPublishingWizard_GetTransferManifest, shobjidl/IPublishingWizard::GetTransferManifest
-f1_keywords:
-- shobjidl/IPublishingWizard.GetTransferManifest
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Netplwiz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netplwiz.dll
-api_name:
-- IPublishingWizard.GetTransferManifest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPublishingWizard::GetTransferManifest
+ - shobjidl/IPublishingWizard::GetTransferManifest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netplwiz.dll
+api_name:
+ - IPublishingWizard.GetTransferManifest
 ---
 
 # IPublishingWizard::GetTransferManifest
 
 
 ## -description
-
 
 Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.  
 
@@ -56,26 +57,19 @@ Gets a transfer manifest for a file transfer operation performed by a publishing
 
 ## -parameters
 
-
-
-
 ### -param phrFromTransfer [out]
 
 Type: <b>HRESULT*</b>
 
 A pointer to a variable of type <b>HRESULT</b> that, when this method returns, is set to S_OK if the transfer operation was successful, S_FALSE if the transfer has not yet begun, or a standard error value if the transfer has failed or has been canceled. This value can be <b>NULL</b> if you do not require this information.
 
-
 ### -param pdocManifest [out]
 
 Type: <b>IXMLDOMDocument**</b>
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd892951(v=vs.85)">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
-
+Address of an <a href="/previous-versions/windows/desktop/dd892951(v=vs.85)">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -98,35 +92,19 @@ The transfer manifest has not yet been created.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic.
-
-
-
+The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a>
+<a href="/windows/desktop/shell/interfaces">Transfer Manifest Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/interfaces">Transfer Manifest Schema</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>
- 
-
- 
-
+<a href="/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>

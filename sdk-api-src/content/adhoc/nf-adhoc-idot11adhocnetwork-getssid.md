@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetwork.GetSSID
 title: IDot11AdHocNetwork::GetSSID (adhoc.h)
 description: Gets the SSID of the network.
+helpviewer_keywords: ["GetSSID","GetSSID method [NativeWIFI]","GetSSID method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetSSID method","IDot11AdHocNetwork.GetSSID","IDot11AdHocNetwork::GetSSID","adhoc/IDot11AdHocNetwork::GetSSID","nwifi.idot11adhocnetwork_getssid"]
 old-location: nwifi\idot11adhocnetwork_getssid.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: a1a190a2-038b-4353-8dc9-76950b1da9ff
 ms.date: 12/05/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.GetSSID
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.GetSSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::GetSSID
+ - adhoc/IDot11AdHocNetwork::GetSSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.GetSSID
 ---
 
 # IDot11AdHocNetwork::GetSSID
@@ -48,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the SSID of the network.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszwSSID [out]
 
 The SSID of the network.
 
-You must free this string using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
-
-
+You must free this string using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -133,18 +125,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

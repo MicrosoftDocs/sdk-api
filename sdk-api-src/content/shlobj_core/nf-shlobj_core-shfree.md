@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.SHFree
 title: SHFree function (shlobj_core.h)
 description: Frees the memory allocated by SHAlloc.
+helpviewer_keywords: ["SHFree","SHFree function [Windows Shell]","_win32_SHFree","shell.SHFree","shlobj_core/SHFree"]
 old-location: shell\SHFree.htm
 tech.root: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441
 ms.date: 12/05/2018
 ms.keywords: SHFree, SHFree function [Windows Shell], _win32_SHFree, shell.SHFree, shlobj_core/SHFree
-f1_keywords:
-- shlobj_core/SHFree
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Windows.Storage.dll
-api_name:
-- SHFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHFree
+ - shlobj_core/SHFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Windows.Storage.dll
+api_name:
+ - SHFree
 ---
 
 # SHFree function
@@ -49,31 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> instead.]
 
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> instead.]
-
-Frees the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
-        
-   		    
-
+Frees the memory allocated by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
 
 ## -parameters
-
-
-
 
 ### -param pv [in]
 
 Type: <b>void*</b>
 
-A pointer to the memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
+A pointer to the memory allocated by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shalloc">SHAlloc</a>.

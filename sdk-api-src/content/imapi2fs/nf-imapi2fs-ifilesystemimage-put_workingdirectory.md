@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.put_WorkingDirectory
 title: IFileSystemImage::put_WorkingDirectory (imapi2fs.h)
 description: Sets the temporary directory in which stash files are built.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_WorkingDirectory method","IFileSystemImage.put_WorkingDirectory","IFileSystemImage::put_WorkingDirectory","imapi.ifilesystemimage_put_workingdirectory","imapi2fs/IFileSystemImage::put_WorkingDirectory","put_WorkingDirectory","put_WorkingDirectory method [IMAPI]","put_WorkingDirectory method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_workingdirectory.htm
 tech.root: imapi
 ms.assetid: bfe37cfe-654d-4923-b667-e44be7ce4715
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_WorkingDirectory method, IFileSystemImage.put_WorkingDirectory, IFileSystemImage::put_WorkingDirectory, imapi.ifilesystemimage_put_workingdirectory, imapi2fs/IFileSystemImage::put_WorkingDirectory, put_WorkingDirectory, put_WorkingDirectory method [IMAPI], put_WorkingDirectory method [IMAPI],IFileSystemImage interface
-f1_keywords:
-- imapi2fs/IFileSystemImage.put_WorkingDirectory
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.put_WorkingDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::put_WorkingDirectory
+ - imapi2fs/IFileSystemImage::put_WorkingDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.put_WorkingDirectory
 ---
 
 # IFileSystemImage::put_WorkingDirectory
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the temporary directory in which stash files are built. 
-
+Sets the temporary directory in which stash files are built.
 
 ## -parameters
-
-
-
 
 ### -param newVal [in]
 
 String that contains the path to the temporary working directory. The default is the current temp directory.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -113,14 +107,8 @@ Value: 0xC0AAB141
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
   
 Stash files are the temporary files used to build the file-system image.
@@ -129,20 +117,10 @@ An exception results if the existing stash files cannot move to the new working 
 
 You cannot change the working directory if a result stream exists for the file-system image.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory">IFileSystemImage::get_WorkingDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory">IFileSystemImage::get_WorkingDirectory</a>

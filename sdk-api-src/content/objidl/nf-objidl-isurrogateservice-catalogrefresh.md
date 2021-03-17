@@ -2,15 +2,12 @@
 UID: NF:objidl.ISurrogateService.CatalogRefresh
 title: ISurrogateService::CatalogRefresh (objidl.h)
 description: Refreshes the catalog.
+helpviewer_keywords: ["CatalogRefresh","CatalogRefresh method [COM]","CatalogRefresh method [COM]","ISurrogateService interface","ISurrogateService interface [COM]","CatalogRefresh method","ISurrogateService.CatalogRefresh","ISurrogateService::CatalogRefresh","_com_isurrogateservice_catalogrefresh","com.isurrogateservice_catalogrefresh","objidl/ISurrogateService::CatalogRefresh"]
 old-location: com\isurrogateservice_catalogrefresh.htm
 tech.root: com
 ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa
 ms.date: 12/05/2018
 ms.keywords: CatalogRefresh, CatalogRefresh method [COM], CatalogRefresh method [COM],ISurrogateService interface, ISurrogateService interface [COM],CatalogRefresh method, ISurrogateService.CatalogRefresh, ISurrogateService::CatalogRefresh, _com_isurrogateservice_catalogrefresh, com.isurrogateservice_catalogrefresh, objidl/ISurrogateService::CatalogRefresh
-f1_keywords:
-- objidl/ISurrogateService.CatalogRefresh
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- ISurrogateService.CatalogRefresh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISurrogateService::CatalogRefresh
+ - objidl/ISurrogateService::CatalogRefresh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - ISurrogateService.CatalogRefresh
 ---
 
 # ISurrogateService::CatalogRefresh
@@ -48,56 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Refreshes the catalog.
 
-
 ## -parameters
-
-
-
 
 ### -param ulReserved [in]
 
 This parameter is reserved.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, it is E_UNEXPECTED.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/callobj/nf-callobj-cogetinterceptor">CoGetInterceptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-cogetinterceptor">CoGetInterceptor</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>

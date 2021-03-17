@@ -2,15 +2,12 @@
 UID: NS:winbase.FILE_ID_DESCRIPTOR
 title: FILE_ID_DESCRIPTOR (winbase.h)
 description: Specifies the type of ID that is being used.
+helpviewer_keywords: ["*LPFILE_ID_DESCRIPTOR","ExtendedFileIdType","FILE_ID_DESCRIPTOR","FILE_ID_DESCRIPTOR structure [Files]","FileIdType","ObjectIdType","fileextd/FILE_ID_DESCRIPTOR","fs.file_id_descriptor","winbase/FILE_ID_DESCRIPTOR"]
 old-location: fs\file_id_descriptor.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9092a701-3b47-4c4c-8221-54fa3220d322
 ms.date: 12/05/2018
 ms.keywords: '*LPFILE_ID_DESCRIPTOR, ExtendedFileIdType, FILE_ID_DESCRIPTOR, FILE_ID_DESCRIPTOR structure [Files], FileIdType, ObjectIdType, fileextd/FILE_ID_DESCRIPTOR, fs.file_id_descriptor, winbase/FILE_ID_DESCRIPTOR'
-f1_keywords:
-- winbase/FILE_ID_DESCRIPTOR
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-- FileExtd.h
-api_name:
-- FILE_ID_DESCRIPTOR
 targetos: Windows
 req.typenames: FILE_ID_DESCRIPTOR, *LPFILE_ID_DESCRIPTOR
 req.redist: Windows SDK on     Windows Server 2003 and Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - FILE_ID_DESCRIPTOR
+ - winbase/FILE_ID_DESCRIPTOR
+ - LPFILE_ID_DESCRIPTOR
+ - winbase/LPFILE_ID_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+ - FileExtd.h
+api_name:
+ - FILE_ID_DESCRIPTOR
 ---
 
 # FILE_ID_DESCRIPTOR structure
@@ -49,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of ID that is being used.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size of this <b>FILE_ID_DESCRIPTOR</b> 
       structure.
-
 
 ### -field Type
 
@@ -110,49 +108,36 @@ Use the <b>ExtendedFileId</b> member of the union.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
 
 ### -field DUMMYUNIONNAME.FileId
 
 The ID of the file to open.
 
-
 ### -field DUMMYUNIONNAME.ObjectId
 
 The ID of the object to open.
 
-
 ### -field DUMMYUNIONNAME.ExtendedFileId
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
+A <a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a> structure containing the 128-bit file ID of the file. This is used on ReFS file systems.
        
 
 <b>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008, Windows 7 and Windows Server 2008 R2:  </b>This member is not supported before Windows 8 and Windows Server 2012.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
+<a href="/windows/desktop/api/winbase/ne-winbase-file_id_type">FILE_ID_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-file_id_type">FILE_ID_TYPE</a>
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>

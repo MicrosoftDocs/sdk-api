@@ -2,15 +2,12 @@
 UID: NF:wsdevlicensing.RemoveDeveloperLicense
 title: RemoveDeveloperLicense function (wsdevlicensing.h)
 description: Removes a developer license.
+helpviewer_keywords: ["RemoveDeveloperLicense","RemoveDeveloperLicense function","devlic.removedeveloperlicense","wsdevlicensing/RemoveDeveloperLicense"]
 old-location: devlic\removedeveloperlicense.htm
 tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0
 ms.date: 12/05/2018
 ms.keywords: RemoveDeveloperLicense, RemoveDeveloperLicense function, devlic.removedeveloperlicense, wsdevlicensing/RemoveDeveloperLicense
-f1_keywords:
-- wsdevlicensing/RemoveDeveloperLicense
-dev_langs:
-- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WSClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WSClient.dll
-api_name:
-- RemoveDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveDeveloperLicense
+ - wsdevlicensing/RemoveDeveloperLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WSClient.dll
+api_name:
+ - RemoveDeveloperLicense
 ---
 
 # RemoveDeveloperLicense function
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a developer license.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in, optional]
 
 The handler to the parent window.
 
-
 ## -returns
 
-
-
-Returns an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
-
-
-
+Returns an <a href="/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
 
 ## -remarks
-
-
 
 The following is a list of common error codes that this function returns:
 
@@ -111,7 +100,3 @@ The following is a list of common error codes that this function returns:
 <td>The caller doesn’t have access to the resource (license).</td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFrameDirtyRects
 title: IDXGIOutputDuplication::GetFrameDirtyRects (dxgi1_2.h)
 description: Gets information about dirty rectangles for the current desktop frame.
+helpviewer_keywords: ["GetFrameDirtyRects","GetFrameDirtyRects method [DXGI]","GetFrameDirtyRects method [DXGI]","IDXGIOutputDuplication interface","IDXGIOutputDuplication interface [DXGI]","GetFrameDirtyRects method","IDXGIOutputDuplication.GetFrameDirtyRects","IDXGIOutputDuplication::GetFrameDirtyRects","direct3ddxgi.idxgioutputduplication_getframedirtyrects","dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects"]
 old-location: direct3ddxgi\idxgioutputduplication_getframedirtyrects.htm
 tech.root: direct3ddxgi
 ms.assetid: F242E7C8-6A39-4B39-A811-243E17408577
 ms.date: 12/05/2018
 ms.keywords: GetFrameDirtyRects, GetFrameDirtyRects method [DXGI], GetFrameDirtyRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameDirtyRects method, IDXGIOutputDuplication.GetFrameDirtyRects, IDXGIOutputDuplication::GetFrameDirtyRects, direct3ddxgi.idxgioutputduplication_getframedirtyrects, dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
-f1_keywords:
-- dxgi1_2/IDXGIOutputDuplication.GetFrameDirtyRects
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutputDuplication.GetFrameDirtyRects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutputDuplication::GetFrameDirtyRects
+ - dxgi1_2/IDXGIOutputDuplication::GetFrameDirtyRects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutputDuplication.GetFrameDirtyRects
 ---
 
 # IDXGIOutputDuplication::GetFrameDirtyRects
@@ -49,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about dirty rectangles for the current desktop frame.
 
-
 ## -parameters
-
-
-
 
 ### -param DirtyRectsBufferSize [in]
 
 The size in bytes of the buffer that the caller passed to the  <i>pDirtyRectsBuffer</i> 
        parameter.
 
-
 ### -param pDirtyRectsBuffer [out]
 
 A pointer to an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures 
         that identifies the dirty rectangle regions for the desktop frame.
-
 
 ### -param pDirtyRectsBufferSizeRequired [out]
 
@@ -79,10 +74,7 @@ Pointer to a variable that receives the number of bytes that
 
 For more information about returning the required buffer size, see Remarks.
 
-
 ## -returns
-
-
 
 <b>GetFrameDirtyRects</b> 
         returns:
@@ -96,7 +88,7 @@ For more information about returning the required buffer size, see Remarks.
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
 </ul>In this situation, the application must release the 
-          <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and 
+          <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and 
           create a new 
           <b>IDXGIOutputDuplication</b> for the new 
           content.</li>
@@ -107,16 +99,10 @@ For more information about returning the required buffer size, see Remarks.
 <li>E_INVALIDARG if one of the parameters to 
           <b>GetFrameDirtyRects</b> 
           is incorrect; for example, if <i>pDirtyRectsBuffer</i> is NULL.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
-
-
-
-
 ## -remarks
-
-
 
 <b>GetFrameDirtyRects</b> stores a size value in the variable at <i>pDirtyRectsBufferSizeRequired</i>. This  value specifies the number of bytes that <b>GetFrameDirtyRects</b> needs to store information about dirty regions. You can use this value 
        in the following situations to determine the amount of memory to allocate for future buffers that you pass to <i>pDirtyRectsBuffer</i>:
@@ -139,15 +125,6 @@ The buffer contains the list of dirty <a href="/windows/desktop/api/windef/ns-wi
      it processes dirty <b>RECT</b>s.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>

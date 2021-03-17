@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateErrorInfo.SetHelpContext
 title: ICreateErrorInfo::SetHelpContext (oaidl.h)
 description: Sets the Help context identifier (ID) for the error.
+helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetHelpContext method","ICreateErrorInfo.SetHelpContext","ICreateErrorInfo::SetHelpContext","SetHelpContext","SetHelpContext method [Automation]","SetHelpContext method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetHelpContext","automat.icreateerrorinfo_sethelpcontext","oaidl/ICreateErrorInfo::SetHelpContext"]
 old-location: automat\icreateerrorinfo_sethelpcontext.htm
 tech.root: automat
 ms.assetid: 5c65f4bd-21ad-4118-bbe8-e2ff65b96213
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpContext method, ICreateErrorInfo.SetHelpContext, ICreateErrorInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpContext, automat.icreateerrorinfo_sethelpcontext, oaidl/ICreateErrorInfo::SetHelpContext
-f1_keywords:
-- oaidl/ICreateErrorInfo.SetHelpContext
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateErrorInfo.SetHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateErrorInfo::SetHelpContext
+ - oaidl/ICreateErrorInfo::SetHelpContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateErrorInfo.SetHelpContext
 ---
 
 # ICreateErrorInfo::SetHelpContext
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Help context identifier (ID) for the error.
 
-
 ## -parameters
-
-
-
 
 ### -param dwHelpContext [in]
 
 The Help context ID for the error.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,28 +91,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method sets the Help context ID for the error. To establish the Help file to which it applies, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpfile">ICreateErrorInfo::SetHelpFile</a>.
-
-
-
-
+This method sets the Help context ID for the error. To establish the Help file to which it applies, use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpfile">ICreateErrorInfo::SetHelpFile</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>

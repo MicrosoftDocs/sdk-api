@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFAttributes.GetItem
 title: IMFAttributes::GetItem (mfobjects.h)
 description: Retrieves the value associated with a key.
+helpviewer_keywords: ["8cc4e529-d5a0-4342-82ac-ae5b28bfd61d","GetItem","GetItem method [Media Foundation]","GetItem method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetItem method","IMFAttributes.GetItem","IMFAttributes::GetItem","mf.imfattributes_getitem","mfobjects/IMFAttributes::GetItem"]
 old-location: mf\imfattributes_getitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d
 ms.date: 12/05/2018
 ms.keywords: 8cc4e529-d5a0-4342-82ac-ae5b28bfd61d, GetItem, GetItem method [Media Foundation], GetItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItem method, IMFAttributes.GetItem, IMFAttributes::GetItem, mf.imfattributes_getitem, mfobjects/IMFAttributes::GetItem
-f1_keywords:
-- mfobjects/IMFAttributes.GetItem
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAttributes.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAttributes::GetItem
+ - mfobjects/IMFAttributes::GetItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAttributes.GetItem
 ---
 
 # IMFAttributes::GetItem
@@ -49,32 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the value associated with a key.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidKey [in]
 
 A GUID that identifies which value to retrieve.
-          
-
 
 ### -param pValue [in, out]
 
 A pointer to a <b>PROPVARIANT</b> that receives the value. The method fills the <b>PROPVARIANT</b> with a copy of the stored value, if the value is found. Call <b>PropVariantClear</b> to free the memory allocated by this method. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the method searches for the key and returns S_OK if the key is found, but does not copy the value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -108,14 +97,8 @@ The specified key was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -150,21 +133,10 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

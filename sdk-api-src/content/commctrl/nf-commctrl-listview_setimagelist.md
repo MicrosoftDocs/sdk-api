@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_SetImageList
 title: ListView_SetImageList macro (commctrl.h)
 description: Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["LVSIL_GROUPHEADER","LVSIL_NORMAL","LVSIL_SMALL","LVSIL_STATE","ListView_SetImageList","ListView_SetImageList macro [Windows Controls]","_win32_ListView_SetImageList","_win32_ListView_SetImageList_cpp","commctrl/ListView_SetImageList","controls.ListView_SetImageList","controls._win32_ListView_SetImageList"]
 old-location: controls\ListView_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: LVSIL_GROUPHEADER, LVSIL_NORMAL, LVSIL_SMALL, LVSIL_STATE, ListView_SetImageList, ListView_SetImageList macro [Windows Controls], _win32_ListView_SetImageList, _win32_ListView_SetImageList_cpp, commctrl/ListView_SetImageList, controls.ListView_SetImageList, controls._win32_ListView_SetImageList
-f1_keywords:
-- commctrl/ListView_SetImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetImageList
+ - commctrl/ListView_SetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetImageList
 ---
 
 # ListView_SetImageList macro
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Assigns an image list to a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message explicitly. 
-
+Assigns an image list to a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-A handle to the image list to assign. 
-
+A handle to the image list to assign.
 
 ### -param iImageList
 
@@ -123,14 +118,7 @@ Image list for group header.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
-
-
-
+The current image list will be destroyed when the list-view control is destroyed unless the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.

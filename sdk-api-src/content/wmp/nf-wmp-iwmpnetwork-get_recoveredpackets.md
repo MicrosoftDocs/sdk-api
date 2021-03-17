@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_recoveredPackets
 title: IWMPNetwork::get_recoveredPackets (wmp.h)
 description: The get_recoveredPackets method retrieves the number of recovered packets.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_recoveredPackets method","IWMPNetwork.get_recoveredPackets","IWMPNetwork::get_recoveredPackets","IWMPNetworkget_recoveredPackets","get_recoveredPackets","get_recoveredPackets method [Windows Media Player]","get_recoveredPackets method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_recoveredpackets","wmp/IWMPNetwork::get_recoveredPackets"]
 old-location: wmp\iwmpnetwork_get_recoveredpackets.htm
 tech.root: WMP
 ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
-f1_keywords:
-- wmp/IWMPNetwork.get_recoveredPackets
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_recoveredPackets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_recoveredPackets
+ - wmp/IWMPNetwork::get_recoveredPackets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_recoveredPackets
 ---
 
 # IWMPNetwork::get_recoveredPackets
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_recoveredPackets</b> method retrieves the number of recovered packets.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plRecoveredPackets [out]
 
 Pointer to a <b>long</b> containing the recovered packets.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,33 +79,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each time playback is stopped and restarted, the value retrieved from this method is reset to zero. The value is not reset if playback is paused.
 
 This method retrieves valid information only during run time when the URL for playback is set by using the <b>IWMPCore::put_URL</b> method. The value will be zero when using the HTTP protocol, which is lossless.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

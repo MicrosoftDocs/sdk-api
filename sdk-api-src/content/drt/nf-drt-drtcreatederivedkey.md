@@ -2,15 +2,12 @@
 UID: NF:drt.DrtCreateDerivedKey
 title: DrtCreateDerivedKey function (drt.h)
 description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.
+helpviewer_keywords: ["DrtCreateDerivedKey","DrtCreateDerivedKey function [Peer Networking]","drt/DrtCreateDerivedKey","p2p.drtcreatederivedkey"]
 old-location: p2p\drtcreatederivedkey.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
-f1_keywords:
-- drt/DrtCreateDerivedKey
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,53 +25,41 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtCreateDerivedKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtCreateDerivedKey
+ - drt/DrtCreateDerivedKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtCreateDerivedKey
 ---
-
-# DrtCreateDerivedKey function
-
 
 ## -description
 
-
-The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the DRT is using a derived key security provider.
-
+The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the DRT is using a derived key security provider.
 
 ## -parameters
 
-
-
-
 ### -param pLocalCert [in]
 
-Pointer to the certificate that is the "local" portion of the chain.  The root of this chain must match the root specified by <i>pRootCert</i> in <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>. This certificate is used to generate a key that is used to register and prove "key ownership" with the DRT.
-
+Pointer to the certificate that is the "local" portion of the chain.  The root of this chain must match the root specified by <i>pRootCert</i> in <a href="/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>. This certificate is used to generate a key that is used to register and prove "key ownership" with the DRT.
 
 ### -param pKey [out]
 
 Pointer to the created key.
 
-
-#### - pRootCert [in]
-
-Pointer to the certificate that is the "root" portion of the chain. The local cert must be signed by a chain of certificates including the root cert.  This root cert will be used to verify certificates presented by other members of the mesh.
-
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -93,8 +78,8 @@ This function returns S_OK on success. Other possible values include:
 <ul>
 <li><i>pLocalCert</i> is <b>NULL</b>.</li>
 <li><i>pKey</i> is <b>NULL</b>.</li>
-<li>The <b>pb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure  is <b>NULL</b>.</li>
-<li>The <b>cb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure is not equal to 32 bytes.</li>
+<li>The <b>pb</b> member in the <a href="/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure  is <b>NULL</b>.</li>
+<li>The <b>cb</b> member in the <a href="/windows/desktop/api/drt/ns-drt-drt_data">DRT_DATA</a> structure is not equal to 32 bytes.</li>
 </ul>
 </td>
 </tr>
@@ -107,32 +92,21 @@ This function returns S_OK on success. Other possible values include:
 <td width="60%">
 <ul>
 <li>The requested security algorithms are not available ( ie. BCRYPT_SHA256_ALGORITHM or  BCRYPT_AES_ALGORITHM).</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> operation failed.</li>
+<li>The <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> operation failed.</li>
 <li>The <i>dwProvType</i> parameter  indicates that the certificate provider is not AES capable.</li>
 </ul>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>

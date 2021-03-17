@@ -2,15 +2,12 @@
 UID: NS:rpcasync.tagRPC_EE_INFO_PARAM
 title: RPC_EE_INFO_PARAM (rpcasync.h)
 description: The RPC_EE_INFO_PARAM structure is used to store extended error information.
+helpviewer_keywords: ["RPC_EE_INFO_PARAM","RPC_EE_INFO_PARAM structure [RPC]","_rpc_rpc_ee_info_param","rpc.rpc_ee_info_param","rpcasync/RPC_EE_INFO_PARAM"]
 old-location: rpc\rpc_ee_info_param.htm
 tech.root: Rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
 ms.date: 12/05/2018
 ms.keywords: RPC_EE_INFO_PARAM, RPC_EE_INFO_PARAM structure [RPC], _rpc_rpc_ee_info_param, rpc.rpc_ee_info_param, rpcasync/RPC_EE_INFO_PARAM
-f1_keywords:
-- rpcasync/RPC_EE_INFO_PARAM
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcasync.h
-api_name:
-- RPC_EE_INFO_PARAM
 targetos: Windows
 req.typenames: RPC_EE_INFO_PARAM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRPC_EE_INFO_PARAM
+ - rpcasync/tagRPC_EE_INFO_PARAM
+ - RPC_EE_INFO_PARAM
+ - rpcasync/RPC_EE_INFO_PARAM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcasync.h
+api_name:
+ - RPC_EE_INFO_PARAM
 ---
 
 # RPC_EE_INFO_PARAM structure
@@ -48,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_EE_INFO_PARAM</b> structure is used to store extended error information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ParameterType
 
@@ -77,98 +76,79 @@ Type of parameter being provided as extended error information. This value deter
 
 ### -field u
 
-
 ### -field u.AnsiString
 
 ANSI string representing the extended error information.
-
 
 ### -field u.UnicodeString
 
 Unicode string representing the extended error information.
 
-
 ### -field u.LVal
 
 Long value representing the extended error information.
-
 
 ### -field u.SVal
 
 Short value representing the extended error information.
 
-
 ### -field u.PVal
 
 ULONGLONG value representing the extended error information.
-
 
 ### -field u.BVal
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The 
 <b>RPC_EE_INFO_PARAM</b> structure is used in conjunction with the <b>RpcError</b>* functions to investigate and create extended RPC error information.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerroraddrecord">RpcErrorAddRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerroraddrecord">RpcErrorAddRecord</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorclearinformation">RpcErrorClearInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorclearinformation">RpcErrorClearInformation</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnextrecord">RpcErrorGetNextRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnextrecord">RpcErrorGetNextRecord</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnumberofrecords">RpcErrorGetNumberOfRecords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorgetnumberofrecords">RpcErrorGetNumberOfRecords</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorloaderrorinfo">RpcErrorLoadErrorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorloaderrorinfo">RpcErrorLoadErrorInfo</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorresetenumeration">RpcErrorResetEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorresetenumeration">RpcErrorResetEnumeration</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>

@@ -2,15 +2,12 @@
 UID: NF:recapis.GetEnabledUnicodeRanges
 title: GetEnabledUnicodeRanges function (recapis.h)
 description: Retrieves a list of Unicode point ranges enabled on the context. If you do not call the SetEnabledUnicodeRanges function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
+helpviewer_keywords: ["047a72f9-a627-4c8b-b271-13d3c873abc9","GetEnabledUnicodeRanges","GetEnabledUnicodeRanges function [Tablet PC]","recapis/GetEnabledUnicodeRanges","tablet.getenabledunicoderanges"]
 old-location: tablet\getenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 047a72f9-a627-4c8b-b271-13d3c873abc9
 ms.date: 12/05/2018
 ms.keywords: 047a72f9-a627-4c8b-b271-13d3c873abc9, GetEnabledUnicodeRanges, GetEnabledUnicodeRanges function [Tablet PC], recapis/GetEnabledUnicodeRanges, tablet.getenabledunicoderanges
-f1_keywords:
-- recapis/GetEnabledUnicodeRanges
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- GetEnabledUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetEnabledUnicodeRanges
+ - recapis/GetEnabledUnicodeRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - GetEnabledUnicodeRanges
 ---
 
 # GetEnabledUnicodeRanges function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves a list of Unicode point ranges enabled on the context. If you do not call the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges</a> function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
-
-
-
+Retrieves a list of Unicode point ranges enabled on the context. If you do not call the <a href="/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges</a> function to specify the enabled ranges, this function returns the recognizer's default Unicode point ranges.
 
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ### -param pcRanges
 
-On input, the number of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE</a> structures the <i>pcr</i> buffer can contain. On output, the number of ranges the <i>pcr</i> buffer contains.
-
+On input, the number of <a href="/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE</a> structures the <i>pcr</i> buffer can contain. On output, the number of ranges the <i>pcr</i> buffer contains.
 
 ### -param pcr
 
 An array of CHARACTER_RANGE structures. Each structure contains a range of Unicode points enabled on the context. The order of the array is arbitrary. To determine the size of the buffer, set <i>pcr</i> to <b>NULL</b>; use the number of ranges to allocate the <i>pcr</i> buffer.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -153,39 +142,23 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function is optional.
 
-Some recognizers do not support enabling and disabling specific Unicode points, but may still include the <b>GetEnabledUnicodeRanges</b> function. For such recognizers the <b>GetEnabledUnicodeRanges</b> function returns the same ranges as the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges</a> function.
+Some recognizers do not support enabling and disabling specific Unicode points, but may still include the <b>GetEnabledUnicodeRanges</b> function. For such recognizers the <b>GetEnabledUnicodeRanges</b> function returns the same ranges as the <a href="/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges</a> function.
 
-Microsoft gesture recognizers use Unicode characters from 0xF000 to 0xF0FF. Each single Unicode value in this range represents a single gesture. For a complete list of Unicode values for gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/unicode-range-values-of-gestures">Unicode Range Values of Gestures</a>.
-
-
-
+Microsoft gesture recognizers use Unicode characters from 0xF000 to 0xF0FF. Each single Unicode value in this range represents a single gesture. For a complete list of Unicode values for gestures, see <a href="/windows/desktop/tablet/unicode-range-values-of-gestures">Unicode Range Values of Gestures</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-character_range">CHARACTER_RANGE Structure</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>
- 
-
- 
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>

@@ -2,15 +2,12 @@
 UID: NF:certenroll.ISmimeCapability.get_ObjectId
 title: ISmimeCapability::get_ObjectId (certenroll.h)
 description: Retrieves the object identifier (OID) of the symmetric encryption algorithm.
+helpviewer_keywords: ["ISmimeCapability interface [Security]","ObjectId property","ISmimeCapability.ObjectId","ISmimeCapability.get_ObjectId","ISmimeCapability::ObjectId","ISmimeCapability::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","ISmimeCapability interface","certenroll/ISmimeCapability::ObjectId","certenroll/ISmimeCapability::get_ObjectId","get_ObjectId","security.ismimecapability_objectid_property"]
 old-location: security\ismimecapability_objectid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 3bd773f2-f3ea-45e5-9b37-8346070049d8
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability interface [Security],ObjectId property, ISmimeCapability.ObjectId, ISmimeCapability.get_ObjectId, ISmimeCapability::ObjectId, ISmimeCapability::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ISmimeCapability interface, certenroll/ISmimeCapability::ObjectId, certenroll/ISmimeCapability::get_ObjectId, get_ObjectId, security.ismimecapability_objectid_property
-f1_keywords:
-- certenroll/ISmimeCapability.ObjectId
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISmimeCapability.ObjectId
-- ISmimeCapability.get_ObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISmimeCapability::get_ObjectId
+ - certenroll/ISmimeCapability::get_ObjectId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISmimeCapability.ObjectId
+ - ISmimeCapability.get_ObjectId
 ---
 
 # ISmimeCapability::get_ObjectId
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ObjectId</b> property retrieves the object identifier (OID) of the symmetric encryption algorithm.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-initialize">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-initialize">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
 
 <ul>
 <li>XCN_OID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2)</li>
@@ -79,23 +76,14 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-c
 <li>XCN_OID_RSA_SMIMEalgCMSRC2wrap (1.2.840.113549.1.9.16.3.7)</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>

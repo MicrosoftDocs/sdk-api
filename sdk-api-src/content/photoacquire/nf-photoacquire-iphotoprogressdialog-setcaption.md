@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoProgressDialog.SetCaption
 title: IPhotoProgressDialog::SetCaption (photoacquire.h)
 description: Sets the caption of the progress dialog box.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCaption method","IPhotoProgressDialog.SetCaption","IPhotoProgressDialog::SetCaption","IPhotoProgressDialogSetCaption","SetCaption","SetCaption method [Picture Acquisition]","SetCaption method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCaption","picacq.iphotoprogressdialog_setcaption"]
 old-location: picacq\iphotoprogressdialog_setcaption.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.SetCaption
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.SetCaption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::SetCaption
+ - photoacquire/IPhotoProgressDialog::SetCaption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.SetCaption
 ---
 
 # IPhotoProgressDialog::SetCaption
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the caption of the progress dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszTitle [in]
 
 Pointer to a null-terminated string containing the title of the progress dialog box.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caption text is displayed above the progress indicator bar in the dialog box.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>

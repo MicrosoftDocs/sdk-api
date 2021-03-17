@@ -1,9 +1,10 @@
 ---
 UID: TP:ndisimplatcim
+title: MsNetImPlatform Provider
 ms.assetid: 782c2620-daaf-30da-8533-e393ec24da9b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # MsNetImPlatform Provider

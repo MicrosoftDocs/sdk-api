@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509PolicyServerUrl.UpdateRegistry
 title: IX509PolicyServerUrl::UpdateRegistry (certenroll.h)
 description: Registers a certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509PolicyServerUrl interface [Security]","UpdateRegistry method","IX509PolicyServerUrl.UpdateRegistry","IX509PolicyServerUrl::UpdateRegistry","UpdateRegistry","UpdateRegistry method [Security]","UpdateRegistry method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::UpdateRegistry","security.ix509policyserverurl_updateregistry"]
 old-location: security\ix509policyserverurl_updateregistry.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
-f1_keywords:
-- certenroll/IX509PolicyServerUrl.UpdateRegistry
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509PolicyServerUrl.UpdateRegistry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PolicyServerUrl::UpdateRegistry
+ - certenroll/IX509PolicyServerUrl::UpdateRegistry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509PolicyServerUrl.UpdateRegistry
 ---
 
 # IX509PolicyServerUrl::UpdateRegistry
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>UpdateRegistry</b> method registers a certificate enrollment policy (CEP) server.
-
 
 ## -parameters
 
-
-
-
 ### -param context [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the policy server is being registered. This can be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies the nature of the end entity for which the policy server is being registered. This can be one of the following values.
 
 <table>
 <tr>
@@ -97,16 +94,12 @@ An administrator acting on the behalf of a computer.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -136,27 +129,11 @@ You do not have sufficient access rights to register the CEP.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>UpdateRegistry</b> method is called by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver">AddPolicyServer</a> method.
-
-
-
+The <b>UpdateRegistry</b> method is called by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver">AddPolicyServer</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>

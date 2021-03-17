@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCollection2.Remove
 title: ITCollection2::Remove (tapi3if.h)
 description: The Remove method deletes an item from the collection at the specified index.
+helpviewer_keywords: ["ITCollection2 interface [TAPI 2.2]","Remove method","ITCollection2.Remove","ITCollection2::Remove","Remove","Remove method [TAPI 2.2]","Remove method [TAPI 2.2]","ITCollection2 interface","_tapi3_itcollection2_remove","tapi3.itcollection2_remove","tapi3if/ITCollection2::Remove"]
 old-location: tapi3\itcollection2_remove.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c
 ms.date: 12/05/2018
 ms.keywords: ITCollection2 interface [TAPI 2.2],Remove method, ITCollection2.Remove, ITCollection2::Remove, Remove, Remove method [TAPI 2.2], Remove method [TAPI 2.2],ITCollection2 interface, _tapi3_itcollection2_remove, tapi3.itcollection2_remove, tapi3if/ITCollection2::Remove
-f1_keywords:
-- tapi3if/ITCollection2.Remove
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCollection2.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCollection2::Remove
+ - tapi3if/ITCollection2::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCollection2.Remove
 ---
 
 # ITCollection2::Remove
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Remove</b> method deletes an item from the collection at the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 Specifies the location in the collection of the item to remove.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,22 +102,11 @@ There is not enough memory to reallocate the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-add">Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-add">Add</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>

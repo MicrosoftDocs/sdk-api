@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreAnchor.RequestLock
 title: ITextStoreAnchor::RequestLock (textstor.h)
 description: ITextStoreAnchor::RequestLock method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestLock method","ITextStoreAnchor.RequestLock","ITextStoreAnchor::RequestLock","RequestLock","RequestLock method [Text Services Framework]","RequestLock method [Text Services Framework]","ITextStoreAnchor interface","TS_LF_READ","TS_LF_READWRITE","TS_LF_SYNC","textstor/ITextStoreAnchor::RequestLock","tsf.itextstoreanchor_requestlock"]
 old-location: tsf\itextstoreanchor_requestlock.htm
 tech.root: TSF
 ms.assetid: 4cace5bd-d111-4a9a-af10-9ad454d4f2eb
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestLock method, ITextStoreAnchor.RequestLock, ITextStoreAnchor::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreAnchor interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, textstor/ITextStoreAnchor::RequestLock, tsf.itextstoreanchor_requestlock
-f1_keywords:
-- textstor/ITextStoreAnchor.RequestLock
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.RequestLock
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::RequestLock
+ - textstor/ITextStoreAnchor::RequestLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.RequestLock
 ---
 
 # ITextStoreAnchor::RequestLock
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Used by the TSF manager to provide a document lock in order to modify the text stream.
 
 ## -parameters
-
-
-
 
 ### -param dwLockFlags [in]
 
@@ -96,19 +94,14 @@ The document has a synchronous-lock if this flag is combined with other flags.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phrSession [out]
 
-If the lock request is synchronous, receives an HRESULT value from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">ITextStoreAnchorSink::OnLockGranted</a> method that specifies the result of the lock request.
+If the lock request is synchronous, receives an HRESULT value from the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">ITextStoreAnchorSink::OnLockGranted</a> method that specifies the result of the lock request.
 
-If the lock request is asynchronous and the result is <a href="https://docs.microsoft.com/windows/desktop/TSF/text-store-return-values">TS_S_ASYNC</a>, the document receives an asynchronous lock. If the lock request is asynchronous and the result is TS_E_SYNCHRONOUS, the document cannot be locked synchronously.
-
+If the lock request is asynchronous and the result is <a href="/windows/desktop/TSF/text-store-return-values">TS_S_ASYNC</a>, the document receives an asynchronous lock. If the lock request is asynchronous and the result is TS_E_SYNCHRONOUS, the document cannot be locked synchronously.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -140,16 +133,10 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method uses the <b>ITextStoreAnchorSink::OnLockGranted</b> method to lock the document. Applications must never modify the document or send change notifications using the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange</a> method from within the <b>ITextStoreAnchor::RequestLock</b> method. If the application has pending changes to report, the application can only respond to the asynchronous lock request.
+This method uses the <b>ITextStoreAnchorSink::OnLockGranted</b> method to lock the document. Applications must never modify the document or send change notifications using the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange</a> method from within the <b>ITextStoreAnchor::RequestLock</b> method. If the application has pending changes to report, the application can only respond to the asynchronous lock request.
 
 Applications should not attempt to queue multiple <b>ITextStoreAnchor::RequestLock</b> method calls, because the application requires only a single callback. If the caller makes several read requests and one or more write requests, however, the callback should be for write access.
 
@@ -159,37 +146,27 @@ If the lock is granted before the <b>ITextStoreAnchor::RequestLock</b> method re
 
 A caller should never call this method reentrantly, except in the case that the caller holds a read-only lock. In this case the method can be called reentrantly to ask for an asynchronous write lock. The write lock will be granted later, after the read-only lock ends.
 
-For more information about document locks, see <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>.
-
-
-
+For more information about document locks, see <a href="/windows/desktop/TSF/document-locks">Document Locks</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">ITextStoreAnchorSink::OnLockGranted
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">ITextStoreAnchorSink::OnLockGranted
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
+<a href="/windows/desktop/TSF/ts-lf--constants">TS_LF_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-store-return-values">Text Store Return Values
+<a href="/windows/desktop/TSF/text-store-return-values">Text Store Return Values
       </a>
- 
-
- 
-

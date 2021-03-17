@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
 title: IRecordInfo::GetTypeInfo (oaidl.h)
 description: Retrieves the type information that describes a UDT or safearray of UDTs.
+helpviewer_keywords: ["GetTypeInfo","GetTypeInfo method [Automation]","GetTypeInfo method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetTypeInfo method","IRecordInfo.GetTypeInfo","IRecordInfo::GetTypeInfo","_oa96_IRecordInfo_GetTypeInfo","automat.irecordinfo_gettypeinfo","oaidl/IRecordInfo::GetTypeInfo"]
 old-location: automat\irecordinfo_gettypeinfo.htm
 tech.root: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
-f1_keywords:
-- oaidl/IRecordInfo.GetTypeInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.GetTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::GetTypeInfo
+ - oaidl/IRecordInfo::GetTypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.GetTypeInfo
 ---
 
 # IRecordInfo::GetTypeInfo
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type information that describes a UDT or safearray of UDTs.
 
-
 ## -parameters
-
-
-
 
 ### -param ppTypeInfo [out]
 
 The information type of the record.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,31 +104,15 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>AddRef</b> is called on the pointer <i>ppTypeInfo</i>.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

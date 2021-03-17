@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilSetPrivatePropertyList
 title: ResUtilSetPrivatePropertyList function (resapi.h)
 description: Sets the private properties of a cluster object.
+helpviewer_keywords: ["PRESUTIL_SET_PRIVATE_PROPERTY_LIST","PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster]","ResUtilSetPrivatePropertyList","ResUtilSetPrivatePropertyList function [Failover Cluster]","_wolf_resutilsetprivatepropertylist","mscs.resutilsetprivatepropertylist","resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST","resapi/ResUtilSetPrivatePropertyList"]
 old-location: mscs\resutilsetprivatepropertylist.htm
 tech.root: MsCS
 ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PRIVATE_PROPERTY_LIST, PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilSetPrivatePropertyList, ResUtilSetPrivatePropertyList function [Failover Cluster], _wolf_resutilsetprivatepropertylist, mscs.resutilsetprivatepropertylist, resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST, resapi/ResUtilSetPrivatePropertyList
-f1_keywords:
-- resapi/ResUtilSetPrivatePropertyList
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilSetPrivatePropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilSetPrivatePropertyList
+ - resapi/ResUtilSetPrivatePropertyList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilSetPrivatePropertyList
 ---
 
 # ResUtilSetPrivatePropertyList function
@@ -48,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a> of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>.
-
+Sets the  <a href="/previous-versions/windows/desktop/mscs/private-properties">private properties</a> of a  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>.
 
 ## -parameters
 
-
-
-
 ### -param hkeyClusterKey [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the properties to set.
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the properties to set.
 
 ### -param pInPropertyList [in]
 
-Pointer to an input buffer containing a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> with the names and values of the properties to set.
-
+Pointer to an input buffer containing a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> with the names and values of the properties to set.
 
 ### -param cbInPropertyListSize [in]
 
 Pointer to the size in bytes of the input buffer pointed to by <i>pInPropertyList</i>.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -132,48 +123,32 @@ The syntax of a property name was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The properties that are set in the  <b>ResUtilSetPrivatePropertyList</b> utility function are placed in the portion of the cluster database below the specified key for the object exactly as specified by the names in the property list. If the name of a property contains backslash characters (\), each string preceding a backslash character is interpreted as a subkey name, and the last string following the last backslash character is interpreted as the value name.
+The properties that are set in the  <b>ResUtilSetPrivatePropertyList</b> utility function are placed in the portion of the cluster database below the specified key for the object exactly as specified by the names in the property list. If the name of a property contains backslash characters (\\), each string preceding a backslash character is interpreted as a subkey name, and the last string following the last backslash character is interpreted as the value name.
 
 Do not call  <b>ResUtilSetPrivatePropertyList</b> from the following resource DLL entry point functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
-<b>ResUtilSetPrivatePropertyList</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
-
-
-
+<b>ResUtilSetPrivatePropertyList</b> can be safely called from any other resource DLL entry point function or from a worker thread. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilverifyprivatepropertylist">ResUtilVerifyPrivatePropertyList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilverifyprivatepropertylist">ResUtilVerifyPrivatePropertyList</a>

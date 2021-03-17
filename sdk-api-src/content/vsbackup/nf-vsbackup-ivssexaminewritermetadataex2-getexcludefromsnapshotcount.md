@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount (vsbackup.h)
 description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.
+helpviewer_keywords: ["GetExcludeFromSnapshotCount","GetExcludeFromSnapshotCount method","GetExcludeFromSnapshotCount method","IVssExamineWriterMetadataEx2 interface","IVssExamineWriterMetadataEx2 interface","GetExcludeFromSnapshotCount method","IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount","IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount","base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount","vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount"]
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
+ - vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Obtains the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
-
+Obtains the number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 ## -parameters
 
-
-
-
 ### -param pcExcludedFromSnapshot [out]
 
-A pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> explicitly excluded from the shadow copy.
-
+A pointer to the number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> explicitly excluded from the shadow copy.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -81,7 +75,7 @@ The following are the valid return codes for this method.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> was successfully returned.
+The number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> was successfully returned.
 
 </td>
 </tr>
@@ -115,33 +109,22 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>

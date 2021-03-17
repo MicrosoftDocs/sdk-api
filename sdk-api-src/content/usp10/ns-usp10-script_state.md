@@ -2,15 +2,12 @@
 UID: NS:usp10.tag_SCRIPT_STATE
 title: SCRIPT_STATE (usp10.h)
 description: Contains script state information.
+helpviewer_keywords: ["FALSE","SCRIPT_STATE","SCRIPT_STATE structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_STATE_str","intl.script_state","usp10/SCRIPT_STATE"]
 old-location: intl\script_state.htm
 tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, usp10/SCRIPT_STATE
-f1_keywords:
-- usp10/SCRIPT_STATE
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_STATE
 targetos: Windows
 req.typenames: SCRIPT_STATE
 req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - tag_SCRIPT_STATE
+ - usp10/tag_SCRIPT_STATE
+ - SCRIPT_STATE
+ - usp10/SCRIPT_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_STATE
 ---
 
 # SCRIPT_STATE structure
@@ -48,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains script state information.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field uBidiLevel
 
-Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
-
+Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
 
 ### -field fOverrideDirection
 
@@ -95,8 +90,6 @@ Do not use an override level that reflects the embedding level.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInhibitSymSwap
 
@@ -128,8 +121,6 @@ Do not bypass mirroring of Unicode mirrored glyphs.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCharShape
 
@@ -161,8 +152,6 @@ Do not shape character codes in the Arabic Presentation Forms areas of Unicode.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fDigitSubstitute
 
@@ -194,8 +183,6 @@ Character codes U+0030 through U+0039 are  not substituted by national digits.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInhibitLigate
 
@@ -227,8 +214,6 @@ Use ligatures in the shaping of Arabic or Hebrew characters.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fDisplayZWG
 
@@ -261,8 +246,6 @@ Do not shape control characters as representational glyphs.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fArabicNumContext
 
@@ -294,12 +277,10 @@ Do not consider prior strong characters to be Arabic for the purposes of rule P0
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fGcpClusters
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
+For <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
 
 <table>
 <tr>
@@ -312,7 +293,7 @@ For <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-get
 </dl>
 </td>
 <td width="60%">
-Generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
+Generate the array the same way as <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
@@ -322,52 +303,36 @@ Generate the array the same way as <a href="https://docs.microsoft.com/windows/d
 </dl>
 </td>
 <td width="60%">
-Do not generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
+Do not generate the array the same way as <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fReserved
 
 Reserved; always initialize to 0.
 
-
 ### -field fEngineReserved
 
 Reserved; always initialize to 0.
 
-
 ## -remarks
 
-
-
-This structure is used to initialize the Unicode algorithm state as an input to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
-
-
-
+This structure is used to initialize the Unicode algorithm state as an input to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextFormat.SetTextAlignment
 title: IDWriteTextFormat::SetTextAlignment (dwrite.h)
 description: Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a IDWriteTextFormat interface.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetTextAlignment method","IDWriteTextFormat.SetTextAlignment","IDWriteTextFormat::SetTextAlignment","SetTextAlignment","SetTextAlignment method [Direct Write]","SetTextAlignment method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetTextAlignment","dwrite/IDWriteTextFormat::SetTextAlignment"]
 old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 2e7554e3-4e0c-45b1-a874-a3054b0e91dc
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTextAlignment method, IDWriteTextFormat.SetTextAlignment, IDWriteTextFormat::SetTextAlignment, SetTextAlignment, SetTextAlignment method [Direct Write], SetTextAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTextAlignment, dwrite/IDWriteTextFormat::SetTextAlignment
-f1_keywords:
-- dwrite/IDWriteTextFormat.SetTextAlignment
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat.SetTextAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat::SetTextAlignment
+ - dwrite/IDWriteTextFormat::SetTextAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat.SetTextAlignment
 ---
 
 # IDWriteTextFormat::SetTextAlignment
@@ -48,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> interface.
 
-
 ## -parameters
-
-
-
 
 ### -param textAlignment
 
 Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT</a></b>
 
 The text alignment option being set for the paragraph of type DWRITE_TEXT_ALIGNMENT.  For more information, see Remarks.
-				  
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -101,14 +94,8 @@ The textAlignment argument is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The text can be aligned to the leading or trailing edge of the layout box, or it can be centered.  The following illustration shows text with the alignment set to <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_text_alignment">DWRITE_TEXT_ALIGNMENT_LEADING</a>, <b>DWRITE_TEXT_ALIGNMENT_CENTER</b>, and <b>DWRITE_TEXT_ALIGNMENT_TRAILING</b>, respectively.  
 
@@ -131,17 +118,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

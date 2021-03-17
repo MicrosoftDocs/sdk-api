@@ -1,17 +1,20 @@
 ---
 UID: NA:accctrl
+title: Accctrl.h header
 ms.assetid: aef287f5-bd2b-3608-a837-33f1afcbaa69
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: com
+f1_keywords:
+ - accctrl
+ - accctrl/accctrl
 ---
 
 # Accctrl.h header
 
 
 ## -description
-
 
 This header is used by Component Object Model (COM). For more information, see:
 

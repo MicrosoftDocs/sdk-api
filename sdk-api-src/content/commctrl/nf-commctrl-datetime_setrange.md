@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_SetRange
 title: DateTime_SetRange macro (commctrl.h)
 description: Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the DTM_SETRANGE message explicitly.
+helpviewer_keywords: ["DateTime_SetRange","DateTime_SetRange macro [Windows Controls]","GDTR_MAX","GDTR_MIN","_win32_DateTime_SetRange","_win32_DateTime_SetRange_cpp","commctrl/DateTime_SetRange","controls.DateTime_SetRange","controls._win32_DateTime_SetRange"]
 old-location: controls\DateTime_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setrange.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange
-f1_keywords:
-- commctrl/DateTime_SetRange
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_SetRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_SetRange
+ - commctrl/DateTime_SetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_SetRange
 ---
 
 # DateTime_SetRange macro
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setrange">DTM_SETRANGE</a> message explicitly. 
-
+Sets the minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-setrange">DTM_SETRANGE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.
 
 ### -param gd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A value that specifies which range values are valid. This value can be a combination of the following: 
 
@@ -81,7 +77,7 @@ A value that specifies which range values are valid. This value can be a combina
 </dl>
 </td>
 <td width="60%">
-The first element in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the minimum allowable system time.
+The first element in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the minimum allowable system time.
 
 </td>
 </tr>
@@ -91,26 +87,18 @@ The first element in the <a href="https://docs.microsoft.com/windows/desktop/api
 </dl>
 </td>
 <td width="60%">
-The second element in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the maximum allowable system time.
+The second element in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure array is valid and will be used to set the maximum allowable system time.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param rgst
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>flags</i> parameter. 
-
+A pointer to a two-element array of <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. The first element of the <b>SYSTEMTIME</b> array contains the minimum allowable time. The second element of the <b>SYSTEMTIME</b> array contains the maximum allowable time. It is not necessary to fill an array element that is not specified in the <i>flags</i> parameter.
 
 ## -remarks
 
-
-
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
-
-
-
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.

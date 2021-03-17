@@ -2,15 +2,12 @@
 UID: NF:winnt.RtlVirtualUnwind
 title: RtlVirtualUnwind function (winnt.h)
 description: Retrieves the invocation context of the function that precedes the specified function context.
+helpviewer_keywords: ["RtlVirtualUnwind","RtlVirtualUnwind function","UNW_FLAG_CHAININFO","UNW_FLAG_EHANDLER","UNW_FLAG_NHANDLER","UNW_FLAG_UHANDLER","base.rtlvirtualunwind","winnt/RtlVirtualUnwind"]
 old-location: base\rtlvirtualunwind.htm
 tech.root: Debug
 ms.assetid: 78d60f7a-0e16-4856-8aca-c251ab066b83
 ms.date: 12/05/2018
 ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind
-f1_keywords:
-- winnt/RtlVirtualUnwind
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-rtlsupport-l1-1-0.dll
-- ntdll.dll
-- API-MS-Win-Core-rtlsupport-l1-2-0.dll
-api_name:
-- RtlVirtualUnwind
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ms.custom: 19H1
+f1_keywords:
+ - RtlVirtualUnwind
+ - winnt/RtlVirtualUnwind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-rtlsupport-l1-1-0.dll
+ - ntdll.dll
+ - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+api_name:
+ - RtlVirtualUnwind
 ---
 
 # RtlVirtualUnwind function
 
 
 ## -description
-
 
 Retrieves 
    the invocation context of the function that precedes the specified function context.
@@ -60,12 +61,7 @@ Retrieves
 <div class="alert"><b>Note</b>  This function is not implemented on all processor platforms and the implementation is different on each platform that supports it.  The following prototype lists all the potential parameters and their application.  Read further for processor-specific function prototypes.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param HandlerType [in]
 
@@ -123,30 +119,24 @@ The <b>FunctionEntry</b> member is the contents of a previous function table ent
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ImageBase [in]
 
 The base address of the module to which the function belongs.
 
-
 ### -param ControlPc [in]
 
 The virtual address where control left the specified function.
 
-
 ### -param FunctionEntry [in]
 
 The address of the function table entry for the specified function. To obtain the function table entry, call 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a> function.
-
+      the <a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a> function.
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that represents the 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that represents the 
       context of the previous frame.
-
 
 ### -param HandlerData [out]
 
@@ -155,7 +145,6 @@ The location of the PC. If this parameter is 0, the PC is in the prologue, epilo
 
 This parameter is not present on x64.
 
-
 ### -param EstablisherFrame [out]
 
 A pointer to a <b>FRAME_POINTERS</b> structure that receives the establisher frame 
@@ -163,25 +152,16 @@ A pointer to a <b>FRAME_POINTERS</b> structure that receives the establisher fra
 
 This parameter is of type <b>PULONG64</b> on x64.
 
-
 ### -param ContextPointers [in, out, optional]
 
 An optional pointer to a context pointers structure.
 
-
 ## -returns
-
-
 
 This function returns a pointer to an <i>EXCEPTION_ROUTINE</i> callback 
        function.
 
-
-
-
 ## -remarks
-
-
 
 The complete list of epilogue markers for x64 is as follows:
 
@@ -194,23 +174,14 @@ The complete list of epilogue markers for x64 is as follows:
 <li>rex.w jmp <i>reg</i></li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/nf-winnt-rtllookupfunctionentry">RtlLookupFunctionEntry</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfSource.AdviseSink
 title: ITfSource::AdviseSink (msctf.h)
 description: ITfSource::AdviseSink method
+helpviewer_keywords: ["AdviseSink","AdviseSink method [Text Services Framework]","AdviseSink method [Text Services Framework]","ITfSource interface","IID_ITfActiveLanguageProfileNotifySink","IID_ITfDisplayAttributeNotifySink","IID_ITfKeyTraceEventSink","IID_ITfPreservedKeyNotifySink","IID_ITfThreadFocusSink","IID_ITfThreadMgrEventSink","ITfSource interface [Text Services Framework]","AdviseSink method","ITfSource.AdviseSink","ITfSource::AdviseSink","_tsf_itfsource_advisesink_ref","msctf/ITfSource::AdviseSink","tsf.itfsource_advisesink"]
 old-location: tsf\itfsource_advisesink.htm
 tech.root: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
-f1_keywords:
-- msctf/ITfSource.AdviseSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSource.AdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSource::AdviseSink
+ - msctf/ITfSource::AdviseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSource.AdviseSink
 ---
 
 # ITfSource::AdviseSink
@@ -48,21 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Installs an advise sink.
 
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 Identifies the type of advise sink to install.
 
-This parameter can be one of the following values when the <b>ITfSource</b> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object.
+This parameter can be one of the following values when the <b>ITfSource</b> object is obtained from an <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object.
 
-This parameter can be one of the following values when the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object.
+This parameter can be one of the following values when the <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object is obtained from an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object.
 
 <table>
 <tr>
@@ -75,7 +73,7 @@ This parameter can be one of the following values when the <a href="https://docs
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -85,7 +83,7 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -95,7 +93,7 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink</a> advise sink.
 
 </td>
 </tr>
@@ -105,7 +103,7 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -115,7 +113,7 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink</a> advise sink.
 
 </td>
 </tr>
@@ -125,27 +123,21 @@ Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msc
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a> advise sink.
+Installs an <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a> advise sink.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punk [in]
 
 The advise sink <b>IUnknown</b> pointer.
 
-
 ### -param pdwCookie [out]
 
-Address of a DWORD value that receives an identifying cookie. This value is used to uninstall the advise sink in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink</a>. Receives (DWORD)-1 if a failure occurs.
-
+Address of a DWORD value that receives an identifying cookie. This value is used to uninstall the advise sink in a subsequent call to <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink</a>. Receives (DWORD)-1 if a failure occurs.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -221,42 +213,35 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink
       </a>
 
 
@@ -265,78 +250,74 @@ ITfEditTransactionSink
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itflanguageprofilenotifysink">ITfLanguageProfileNotifySink
+<a href="/windows/desktop/api/msctf/nn-msctf-itflanguageprofilenotifysink">ITfLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftexteditsink">ITfTextEditSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itftexteditsink">ITfTextEditSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink
       </a>
- 
-
- 
-

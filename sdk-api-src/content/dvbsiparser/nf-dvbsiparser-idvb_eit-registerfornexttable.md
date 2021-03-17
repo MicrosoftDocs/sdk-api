@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDVB_EIT.RegisterForNextTable
 title: IDVB_EIT::RegisterForNextTable (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IDVB_EIT interface [Microsoft TV Technologies]","RegisterForNextTable method","IDVB_EIT.RegisterForNextTable","IDVB_EIT::RegisterForNextTable","IDVB_EITRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","IDVB_EIT interface","dvbsiparser/IDVB_EIT::RegisterForNextTable","mstv.idvb_eit_registerfornexttable"]
 old-location: mstv\idvb_eit_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 3e54a2bc-c112-4c06-96ff-37de9758df01
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_EIT.RegisterForNextTable, IDVB_EIT::RegisterForNextTable, IDVB_EITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForNextTable, mstv.idvb_eit_registerfornexttable
-f1_keywords:
-- dvbsiparser/IDVB_EIT.RegisterForNextTable
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT::RegisterForNextTable
+ - dvbsiparser/IDVB_EIT::RegisterForNextTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT.RegisterForNextTable
 ---
 
 # IDVB_EIT::RegisterForNextTable
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>RegisterForNextTable</b> method registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
 
-
 ## -parameters
-
-
-
 
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the next table arrives. When the event is signaled, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getnexttable">IDVB_EIT::GetNextTable</a> method to retrieve the table.
-
+Handle to an event created by the caller. The object signals the event when the next table arrives. When the event is signaled, call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getnexttable">IDVB_EIT::GetNextTable</a> method to retrieve the table.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -124,27 +117,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>current</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:d3d11shadertracing.D3DDisassemble11Trace
 title: D3DDisassemble11Trace function (d3d11shadertracing.h)
 description: Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
+helpviewer_keywords: ["D3DDisassemble11Trace","D3DDisassemble11Trace function [Direct3D 11]","d3d11shadertracing/D3DDisassemble11Trace","direct3d11.d3ddisassemble11trace"]
 old-location: direct3d11\d3ddisassemble11trace.htm
 tech.root: direct3d11
 ms.assetid: 874A83C2-99DD-47EA-AF93-C3A47B61C4E5
 ms.date: 12/05/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
-f1_keywords:
-- d3d11shadertracing/D3DDisassemble11Trace
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D11SDKLayers.dll
-- D3D11_1SDKLayers.dll
-- D3D11_2SDKLayers.dll
-api_name:
-- D3DDisassemble11Trace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3DDisassemble11Trace
+ - d3d11shadertracing/D3DDisassemble11Trace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D11SDKLayers.dll
+ - D3D11_1SDKLayers.dll
+ - D3D11_2SDKLayers.dll
+api_name:
+ - D3DDisassemble11Trace
 ---
 
 # D3DDisassemble11Trace function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcData [in]
 
@@ -65,15 +62,11 @@ Type: <b>LPCVOID</b>
 
 A pointer to compiled shader data.
 
-
-
 ### -param SrcDataSize [in]
 
 Type: <b>SIZE_T</b>
 
 The size, in bytes, of the block of memory that pSrcData points to.
-
-
 
 ### -param pTrace [in]
 
@@ -81,24 +74,17 @@ Type: <b>ID3D11ShaderTrace*</b>
 
 A pointer to the ID3D11ShaderTrace interface for the shader trace information object.
 
-          
-
-
 ### -param StartStep [in]
 
 Type: <b>UINT</b>
 
 The number of the step in the trace from which D3DDisassemble11Trace starts the disassembly.
 
-
-
 ### -param NumSteps [in]
 
 Type: <b>UINT</b>
 
 The number of trace steps to disassemble.
-
-
 
 ### -param Flags [in]
 
@@ -146,8 +132,6 @@ This flag has no effect in the D3DDisassembleRegion function. Cycle information 
  </td>
 </tr>
 </table>
- 
-
 
 ### -param ppDisassembly [out]
 
@@ -155,34 +139,16 @@ Type: <b>ID3D10Blob**</b>
 
 A pointer to a buffer that receives the ID3DBlob interface that accesses the disassembled HLSL code.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns an HRESULT error code.
 
-
-
-
 ## -remarks
-
-
 
 D3DDisassemble11Trace walks the steps of a shader trace and outputs appropriate disassembly for each step that is based on the step's instruction index. The disassembly is annotated with register-value information from the trace. The behavior of D3DDisassemble11Trace differs from D3DDisassemble in that instead of the static disassembly of a compiled shader that D3DDisassemble performs, D3DDisassemble11Trace provides an execution trace that is based on the shader trace information.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-functions">Shader Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-functions">Shader Functions</a>

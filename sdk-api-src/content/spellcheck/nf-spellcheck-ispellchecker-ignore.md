@@ -2,15 +2,12 @@
 UID: NF:spellcheck.ISpellChecker.Ignore
 title: ISpellChecker::Ignore (spellcheck.h)
 description: Ignores the provided word for the rest of this session.
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","Ignore method","ISpellChecker.Ignore","ISpellChecker::Ignore","Ignore","Ignore method [Internationalization for Windows Applications]","Ignore method [Internationalization for Windows Applications]","ISpellChecker interface","intl.ispellchecker_ignore","spellcheck/ISpellChecker::Ignore"]
 old-location: intl\ispellchecker_ignore.htm
 tech.root: Intl
 ms.assetid: e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Ignore method, ISpellChecker.Ignore, ISpellChecker::Ignore, Ignore, Ignore method [Internationalization for Windows Applications], Ignore method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_ignore, spellcheck/ISpellChecker::Ignore
-f1_keywords:
-- spellcheck/ISpellChecker.Ignore
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellChecker.Ignore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellChecker::Ignore
+ - spellcheck/ISpellChecker::Ignore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellChecker.Ignore
 ---
 
 # ISpellChecker::Ignore
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ignores the provided word for the rest of this session.
 
-Until this <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
-
+Until this <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> interface is released, the word  will no longer be considered misspelled, but it will not be considered as a candidate for suggestions.
 
 ## -parameters
-
-
-
 
 ### -param word [in]
 
 The word to ignore.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,18 +103,7 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>

@@ -2,15 +2,12 @@
 UID: NF:smbclnt.SetAppInstanceCsvFlags
 title: SetAppInstanceCsvFlags function (smbclnt.h)
 description: Sets the flags that affect connections from the application instance.
+helpviewer_keywords: ["SET_APP_INSTANCE_CSV_FLAGS","SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster]","SetAppInstanceCsvFlags","SetAppInstanceCsvFlags function [Failover Cluster]","mscs.setappinstancecsvflags","smbclnt/SET_APP_INSTANCE_CSV_FLAGS","smbclnt/SetAppInstanceCsvFlags"]
 old-location: mscs\setappinstancecsvflags.htm
 tech.root: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.date: 12/05/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS function [Failover Cluster], SetAppInstanceCsvFlags, SetAppInstanceCsvFlags function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS, smbclnt/SetAppInstanceCsvFlags
-f1_keywords:
-- smbclnt/SetAppInstanceCsvFlags
-dev_langs:
-- c++
 req.header: smbclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: NTLanMan.lib
 req.dll: NTLanMan.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NTLanMan.dll
-api_name:
-- SetAppInstanceCsvFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetAppInstanceCsvFlags
+ - smbclnt/SetAppInstanceCsvFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NTLanMan.dll
+api_name:
+ - SetAppInstanceCsvFlags
 ---
 
 # SetAppInstanceCsvFlags function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the flags that affect connections from the application instance.
 
-
 ## -parameters
-
-
-
 
 ### -param ProcessHandle [in]
 
@@ -63,20 +60,15 @@ A process handle for the current process or a remote process to be tagged with t
       application instance. To tag a remote process, the handle must have 
       <b>PROCESS_TERMINATE</b> access to that process.
 
-
 ### -param Mask [in]
 
 A bitmask that indicates the flags that are modified by the <i>Flags</i> parameter.
-
 
 ### -param Flags [in]
 
 New values of the flags.
 
-
 ## -returns
-
-
 
 Returns "0" if the operation is successful; otherwise, one of the following error codes is returned:
 
@@ -121,18 +113,7 @@ The CCF mini-filter was                  not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:vswriter.CVssWriter.OnIdentify
 title: CVssWriter::OnIdentify (vswriter.h)
 description: The OnIdentify method is called by a writer following receipt of an Identify event.
+helpviewer_keywords: ["CVssWriter interface [VSS]","OnIdentify method","CVssWriter.OnIdentify","CVssWriter::OnIdentify","OnIdentify","OnIdentify method [VSS]","OnIdentify method [VSS]","CVssWriter interface","_win32_cvsswriter_onidentify","base.cvsswriter_onidentify","vswriter/CVssWriter::OnIdentify"]
 old-location: base\cvsswriter_onidentify.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 542d479a-695a-4b1f-94e7-f2ffa08440b7
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnIdentify method, CVssWriter.OnIdentify, CVssWriter::OnIdentify, OnIdentify, OnIdentify method [VSS], OnIdentify method [VSS],CVssWriter interface, _win32_cvsswriter_onidentify, base.cvsswriter_onidentify, vswriter/CVssWriter::OnIdentify
-f1_keywords:
-- vswriter/CVssWriter.OnIdentify
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.OnIdentify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::OnIdentify
+ - vswriter/CVssWriter::OnIdentify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.OnIdentify
 ---
 
 # CVssWriter::OnIdentify
@@ -49,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>OnIdentify</b> method is called by a writer following receipt of an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event.
+<b>OnIdentify</b> method is called by a writer following receipt of an <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event.
 
 <b>OnIdentify</b> is a virtual method. It is implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class, but can be overridden by derived classes.
 
 ## -parameters
-
-
-
 
 ### -param pMetadata [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object used to construct the writer's metadata.
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object used to construct the writer's metadata.
 
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnIdentify</b> always returns <b>true</b>.
@@ -80,31 +74,26 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, including nonfatal errors, the method should write a detailed entry to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
 
-
-
 The default implementation of this method by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without performing any other operation.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class returns <b>true</b> without performing any other operation.
 
 Writers should never throw an exception from this method or any other <b>CVssWriter(Ex)::On<i>Xxx</i></b> callback method.
 
-Writers should never call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a> method from the <b>OnIdentify</b> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a> method.
+Writers should never call the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a> method from the <b>OnIdentify</b> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a> method.
 
-If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
+If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a> method, it must do so in  the same thread that called this method. For more information, see 
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
 In response to an Identify event generated by another application, a writer uses the <b>OnIdentify</b> handler to create a Writer Metadata Document containing information about the components it manages using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface.
 
 The application that generated the Identify event then retrieves the Writer Metadata Document and examines the writer's component information using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
 
 An Identify event is required before the events that make up a backup or restore sequence. Therefore, <b>OnIdentify</b> is perhaps most typically invoked to handle an Identify event in response to a requester's call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> as part of a backup or restore operation.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> as part of a backup or restore operation.
 
 However, an Identify event is not itself part of the sequence of events that makes up a backup or restore and the VSS service does not prevent its generation, even while a backup or restore sequence is in progress. For instance, VSS management applications use the Identify event to determine and display the state of the writers on the system.
 
@@ -115,29 +104,19 @@ This being the case, writers should never use their implementation of <b>OnIdent
 <li>To set or maintain information about the writer's state</li>
 </ul>
 See 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a> for more information on writer interactions with events.
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a> for more information on writer interactions with events.
 
 The life cycle of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object passed into <b>OnIdentify</b> is managed by the VSS infrastructure.
-
-
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> object passed into <b>OnIdentify</b> is managed by the VSS infrastructure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>

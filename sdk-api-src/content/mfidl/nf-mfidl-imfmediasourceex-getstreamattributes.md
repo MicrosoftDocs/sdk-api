@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSourceEx.GetStreamAttributes
 title: IMFMediaSourceEx::GetStreamAttributes (mfidl.h)
 description: Gets an attribute store for a stream on the media source.
+helpviewer_keywords: ["GetStreamAttributes","GetStreamAttributes method [Media Foundation]","GetStreamAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetStreamAttributes method","IMFMediaSourceEx.GetStreamAttributes","IMFMediaSourceEx::GetStreamAttributes","mf.imfmediasourceex_getstreamattributes","mfidl/IMFMediaSourceEx::GetStreamAttributes"]
 old-location: mf\imfmediasourceex_getstreamattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttributes, GetStreamAttributes method [Media Foundation], GetStreamAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetStreamAttributes method, IMFMediaSourceEx.GetStreamAttributes, IMFMediaSourceEx::GetStreamAttributes, mf.imfmediasourceex_getstreamattributes, mfidl/IMFMediaSourceEx::GetStreamAttributes
-f1_keywords:
-- mfidl/IMFMediaSourceEx.GetStreamAttributes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFMediaSourceEx.GetStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceEx::GetStreamAttributes
+ - mfidl/IMFMediaSourceEx::GetStreamAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFMediaSourceEx.GetStreamAttributes
 ---
 
 # IMFMediaSourceEx::GetStreamAttributes
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an attribute store for a stream on the media source.
-
 
 ## -parameters
 
-
-
-
 ### -param dwStreamIdentifier [in]
 
-The identifier of the stream. To get the identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a> on the stream descriptor.
-
+The identifier of the stream. To get the identifier, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a> on the stream descriptor.
 
 ### -param ppAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,27 +105,11 @@ Invalid stream identifier.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the specified stream. For attributes that apply to the entire source, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">IMFMediaSourceEx::GetSourceAttributes</a> method instead.
-
-
-
+Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the specified stream. For attributes that apply to the entire source, use the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">IMFMediaSourceEx::GetSourceAttributes</a> method instead.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>

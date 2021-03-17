@@ -2,15 +2,12 @@
 UID: NF:clusapi.GetClusterGroupState
 title: GetClusterGroupState function (clusapi.h)
 description: Returns the current state of a group.
+helpviewer_keywords: ["GetClusterGroupState","GetClusterGroupState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_GROUP_STATE","PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster]","_wolf_getclustergroupstate","clusapi/GetClusterGroupState","clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE","mscs.getclustergroupstate"]
 old-location: mscs\getclustergroupstate.htm
 tech.root: MsCS
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.date: 12/05/2018
 ms.keywords: GetClusterGroupState, GetClusterGroupState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_GROUP_STATE, PCLUSAPI_GET_CLUSTER_GROUP_STATE function [Failover Cluster], _wolf_getclustergroupstate, clusapi/GetClusterGroupState, clusapi/PCLUSAPI_GET_CLUSTER_GROUP_STATE, mscs.getclustergroupstate
-f1_keywords:
-- clusapi/GetClusterGroupState
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- GetClusterGroupState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterGroupState
+ - clusapi/GetClusterGroupState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - GetClusterGroupState
 ---
 
 # GetClusterGroupState function
@@ -52,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the 
-    current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>. The <b>PCLUSAPI_GET_CLUSTER_GROUP_STATE</b> type defines a pointer to this function.
-
+    current state of a <a href="/previous-versions/windows/desktop/mscs/groups">group</a>. The <b>PCLUSAPI_GET_CLUSTER_GROUP_STATE</b> type defines a pointer to this function.
 
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group for which state information should be returned.
 
-
 ### -param lpszNodeName [out, optional]
 
 Pointer to a null-terminated Unicode string containing the name of the node that currently owns the group.
-
 
 ### -param lpcchNodeName [in, out, optional]
 
@@ -79,10 +74,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>GetClusterGroupState</b> returns the current 
        state of the group, which is represented by one of the following values.
@@ -101,7 +93,7 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -113,7 +105,7 @@ The operation was not successful. For more information about the error, call the
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">online</a>.
+All of the resources in the group are <a href="/previous-versions/windows/desktop/mscs/o-gly">online</a>.
 
 </td>
 </tr>
@@ -125,7 +117,7 @@ All of the resources in the group are <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">offline</a> or 
+All of the resources in the group are <a href="/previous-versions/windows/desktop/mscs/o-gly">offline</a> or 
          there are no resources in the group.
 
 </td>
@@ -138,8 +130,8 @@ All of the resources in the group are <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-At least one <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in the group has failed (set a state 
-         of <b>ClusterResourceFailed</b> from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration).
+At least one <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> in the group has failed (set a state 
+         of <b>ClusterResourceFailed</b> from the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration).
 
 </td>
 </tr>
@@ -152,8 +144,8 @@ At least one <a href="https://docs.microsoft.com/previous-versions/windows/deskt
 </td>
 <td width="60%">
 At least one resource in the group is online. No resources are 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">pending</a> or 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
+         <a href="/previous-versions/windows/desktop/mscs/p-gly">pending</a> or 
+         <a href="/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 </td>
 </tr>
@@ -170,48 +162,32 @@ At least one resource in the group is in a pending state. There are no failed re
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+     <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 Do not call <b>GetClusterGroupState</b> from any 
      resource DLL entry point function. 
      <b>GetClusterGroupState</b> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
-
-
-
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_group_state">CLUSTER_GROUP_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_group_state">CLUSTER_GROUP_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
+<a href="/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>

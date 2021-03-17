@@ -2,15 +2,12 @@
 UID: NS:ntmsapi._NTMS_NOTIFICATIONINFORMATION
 title: NTMS_NOTIFICATIONINFORMATION (ntmsapi.h)
 description: The NTMS_NOTIFICATIONINFORMATION structure defines an object and operation that occurred in the RSM database.
+helpviewer_keywords: ["*LPNTMS_NOTIFICATIONINFORMATION","LPNTMS_NOTIFICATIONINFORMATION","LPNTMS_NOTIFICATIONINFORMATION structure pointer [Files]","NTMS_NOTIFICATIONINFORMATION","NTMS_NOTIFICATIONINFORMATION structure [Files]","NTMS_OBJ_DELETE","NTMS_OBJ_INSERT","NTMS_OBJ_UPDATE","_zaw_ntms_notificationinformation","base.ntms_notificationinformation","fs.ntms_notificationinformation","ntmsapi/LPNTMS_NOTIFICATIONINFORMATION","ntmsapi/NTMS_NOTIFICATIONINFORMATION"]
 old-location: fs\ntms_notificationinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: d9c6904b-260d-4598-9575-49c7d7b6e66d
 ms.date: 12/05/2018
 ms.keywords: '*LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION structure pointer [Files], NTMS_NOTIFICATIONINFORMATION, NTMS_NOTIFICATIONINFORMATION structure [Files], NTMS_OBJ_DELETE, NTMS_OBJ_INSERT, NTMS_OBJ_UPDATE, _zaw_ntms_notificationinformation, base.ntms_notificationinformation, fs.ntms_notificationinformation, ntmsapi/LPNTMS_NOTIFICATIONINFORMATION, ntmsapi/NTMS_NOTIFICATIONINFORMATION'
-f1_keywords:
-- ntmsapi/NTMS_NOTIFICATIONINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_NOTIFICATIONINFORMATION
 targetos: Windows
 req.typenames: NTMS_NOTIFICATIONINFORMATION, *LPNTMS_NOTIFICATIONINFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_NOTIFICATIONINFORMATION
+ - ntmsapi/_NTMS_NOTIFICATIONINFORMATION
+ - LPNTMS_NOTIFICATIONINFORMATION
+ - ntmsapi/LPNTMS_NOTIFICATIONINFORMATION
+ - NTMS_NOTIFICATIONINFORMATION
+ - ntmsapi/NTMS_NOTIFICATIONINFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_NOTIFICATIONINFORMATION
 ---
 
 # NTMS_NOTIFICATIONINFORMATION structure
@@ -48,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_NOTIFICATIONINFORMATION</b> structure defines an object and operation that occurred in the RSM database.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOperation
 
@@ -102,21 +103,11 @@ Object was updated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ObjectId
 
 Object Identifier.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>

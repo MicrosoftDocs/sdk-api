@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.CredReadFn
 title: CredReadFn (ntsecpkg.h)
 description: Reads a credential from the Credential Manager.
+helpviewer_keywords: ["CREDP_FLAGS_CLEAR_PASSWORD","CREDP_FLAGS_DONT_CACHE_TI","CREDP_FLAGS_IN_PROCESS","CREDP_FLAGS_TRUSTED_CALLER","CREDP_FLAGS_USER_ENCRYPTED_PASSWORD","CREDP_FLAGS_USE_MIDL_HEAP","CredReadFn","CredReadFn callback","CrediRead","CrediRead callback function [Security]","ntsecpkg/CrediRead","security.crediread"]
 old-location: security\crediread.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b6abfde9-74ac-4af0-b8ab-4f6be937f17f
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadFn, CredReadFn callback, CrediRead, CrediRead callback function [Security], ntsecpkg/CrediRead, security.crediread
-f1_keywords:
-- ntsecpkg/CrediRead
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CrediRead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredReadFn
+ - ntsecpkg/CredReadFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CrediRead
 ---
 
 # CredReadFn callback function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Reads a credential from the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
-
+Reads a credential from the <a href="/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
 
 ## -parameters
-
-
-
 
 ### -param LogonId [in]
 
 The logon ID for which to read credentials.
-
 
 ### -param CredFlags [in]
 
@@ -89,7 +85,7 @@ The caller is in-process.
 </dl>
 </td>
 <td width="60%">
-The caller should use the <a href="https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
+The caller should use the <a href="/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
 
 </td>
 </tr>
@@ -122,7 +118,7 @@ The credential data is passed as clear text.
 </dl>
 </td>
 <td width="60%">
-The credential data is encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+The credential data is encrypted by using the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
 
 </td>
 </tr>
@@ -138,58 +134,35 @@ The caller is a trusted process.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TargetName [in]
 
 The name of the target computer.
 
-
 ### -param Type [in]
 
-Specifies the type of the credential to read. The possible values for this parameter are the same as the possible values of the <i>Type</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure.
-
+Specifies the type of the credential to read. The possible values for this parameter are the same as the possible values of the <i>Type</i> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure.
 
 ### -param Flags [in]
 
 Reserved. This parameter must be set to zero.
 
+### -param Credential [out]
 
-### -param *Credential [out]
-
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that receives the credentials that this function reads.
-
+A pointer to a pointer to an <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structure that receives the credentials that this function reads.
 
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS, or an informational status code.
 
 If the function fails, return an NTSTATUS error code that indicates the reason it failed.
 
-
-
-
 ## -remarks
 
-
-
 A pointer to the <b>CrediRead</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

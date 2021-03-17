@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_SetInfoTip
 title: ListView_SetInfoTip macro (commctrl.h)
 description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.
+helpviewer_keywords: ["ListView_SetInfoTip","ListView_SetInfoTip macro [Windows Controls]","_win32_ListView_SetInfoTip","_win32_ListView_SetInfoTip_cpp","commctrl/ListView_SetInfoTip","controls.ListView_SetInfoTip","controls._win32_ListView_SetInfoTip"]
 old-location: controls\ListView_SetInfoTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
-f1_keywords:
-- commctrl/ListView_SetInfoTip
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetInfoTip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetInfoTip
+ - commctrl/ListView_SetInfoTip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetInfoTip
 ---
 
 # ListView_SetInfoTip macro
@@ -48,33 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets tooltip text. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setinfotip">LVM_SETINFOTIP</a> message explicitly. 
-
+Sets tooltip text. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setinfotip">LVM_SETINFOTIP</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param plvInfoTip
 
 Type: <b>PLVSETINFOTIP</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvsetinfotip">LVSETINFOTIP</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvsetinfotip">LVSETINFOTIP</a>
 
 ## -remarks
 
-
-
-To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_SetInfoTip</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

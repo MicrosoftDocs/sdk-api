@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormatCount
 title: IWMCodecInfo::GetCodecFormatCount (wmsdkidl.h)
 description: The GetCodecFormatCount method retrieves the number of formats supported by the specified codec. Each codec format is a stream configuration that is valid for use with the codec.
+helpviewer_keywords: ["GetCodecFormatCount","GetCodecFormatCount method [windows Media Format]","GetCodecFormatCount method [windows Media Format]","IWMCodecInfo interface","IWMCodecInfo interface [windows Media Format]","GetCodecFormatCount method","IWMCodecInfo.GetCodecFormatCount","IWMCodecInfo::GetCodecFormatCount","IWMCodecInfoGetCodecFormatCount","wmformat.iwmcodecinfo_getcodecformatcount","wmsdkidl/IWMCodecInfo::GetCodecFormatCount"]
 old-location: wmformat\iwmcodecinfo_getcodecformatcount.htm
 tech.root: wmformat
 ms.assetid: b93bfb01-4179-4a0b-bca0-92b1a9a8e605
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormatCount, GetCodecFormatCount method [windows Media Format], GetCodecFormatCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormatCount method, IWMCodecInfo.GetCodecFormatCount, IWMCodecInfo::GetCodecFormatCount, IWMCodecInfoGetCodecFormatCount, wmformat.iwmcodecinfo_getcodecformatcount, wmsdkidl/IWMCodecInfo::GetCodecFormatCount
-f1_keywords:
-- wmsdkidl/IWMCodecInfo.GetCodecFormatCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMCodecInfo.GetCodecFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMCodecInfo::GetCodecFormatCount
+ - wmsdkidl/IWMCodecInfo::GetCodecFormatCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMCodecInfo.GetCodecFormatCount
 ---
 
 # IWMCodecInfo::GetCodecFormatCount
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCodecFormatCount</b> method retrieves the number of formats supported by the specified codec. Each codec format is a stream configuration that is valid for use with the codec.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidType [in]
 
@@ -83,22 +77,16 @@ The <b>GetCodecFormatCount</b> method retrieves the number of formats supported 
 <td>Specifies an audio codec.</td>
 </tr>
 </table>
- 
-
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
-
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 ### -param pcFormat [out]
 
 Pointer to a count of the formats supported by the codec.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -141,35 +129,19 @@ Other unspecified failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method along with <b>GetCodecFormat</b> to enumerate the formats supported by the codec.
 
 The Windows Media Format SDK provides codecs only for audio and video. If you specify another major type, this method will return an error.
 
-You do not need to call this method for the Windows Media Video codecs; each video codec supports only a single format. For more information see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
-
-
-
+You do not need to call this method for the Windows Media Video codecs; each video codec supports only a single format. For more information see <a href="/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">IWMCodecInfo::GetCodecFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">IWMCodecInfo::GetCodecFormat</a>

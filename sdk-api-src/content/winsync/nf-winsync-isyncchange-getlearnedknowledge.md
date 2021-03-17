@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChange.GetLearnedKnowledge
 title: ISyncChange::GetLearnedKnowledge (winsync.h)
 description: Gets the knowledge that a replica will learn when this change is applied to its item store.
+helpviewer_keywords: ["GetLearnedKnowledge","GetLearnedKnowledge method [Windows Sync]","GetLearnedKnowledge method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetLearnedKnowledge method","ISyncChange.GetLearnedKnowledge","ISyncChange::GetLearnedKnowledge","winsync.isyncchange_getlearnedknowledge","winsync/ISyncChange::GetLearnedKnowledge"]
 old-location: winsync\isyncchange_getlearnedknowledge.htm
 tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
-f1_keywords:
-- winsync/ISyncChange.GetLearnedKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChange.GetLearnedKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChange::GetLearnedKnowledge
+ - winsync/ISyncChange::GetLearnedKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChange.GetLearnedKnowledge
 ---
 
 # ISyncChange::GetLearnedKnowledge
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the knowledge that a replica will learn when this change is applied to its item store.
 
-
 ## -parameters
-
-
-
 
 ### -param ppLearnedKnowledge [out]
 
 Returns the knowledge that a replica will learn when this change is applied to its item store. This knowledge is valid only when the current knowledge of the replica contains the prerequisite knowledge of the change batch that contains this change. This knowledge is only meaningful when the <b>ISyncChange</b> object represents a change from the source provider.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -118,31 +112,15 @@ When the change has not been added to a change batch group or if the change batc
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>GetLearnedKnowledge</b> can be used by a provider that uses a custom change applier.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

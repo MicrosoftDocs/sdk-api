@@ -2,15 +2,12 @@
 UID: NF:peerdist.PeerDistShutdown
 title: PeerDistShutdown function (peerdist.h)
 description: PeerDistShutdown function releases resources allocated by a call to PeerDistStartup. Each handle returned by a PeerDistStartup call must be closed by a matching call to PeerDistShutdown.
+helpviewer_keywords: ["PeerDistShutdown","PeerDistShutdown function [Peer Networking]","p2p.peerdistshutdown","peerdist/PeerDistShutdown"]
 old-location: p2p\peerdistshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 47fe4a77-2895-4d5b-beff-995e12fb0644
 ms.date: 12/05/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown
-f1_keywords:
-- peerdist/PeerDistShutdown
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PeerDist.dll
-api_name:
-- PeerDistShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistShutdown
+ - peerdist/PeerDistShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PeerDist.dll
+api_name:
+ - PeerDistShutdown
 ---
 
 # PeerDistShutdown function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PeerDistShutdown</b> function releases resources allocated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>. Each handle returned by a <b>PeerDistStartup</b> call must be closed by a matching call to <b>PeerDistShutdown</b>
-
+The <b>PeerDistShutdown</b> function releases resources allocated by a call to <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>. Each handle returned by a <b>PeerDistStartup</b> call must be closed by a matching call to <b>PeerDistShutdown</b>
 
 ## -parameters
 
-
-
-
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned  by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
-
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned  by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function may return one of the following values:
 
@@ -85,28 +79,12 @@ The <i>hPeerDist</i> handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  
 This function will remove all publications that were created  with the specified <i>hPeerDist</i> handle. It is recommended that this function is called after all pending operations have completed, as <b>PeerDistShutdown</b> cancel all pending Peer Distribution client and server operations associated with the supplied <b>PEERDIST_INSTANCE_HANDLE</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

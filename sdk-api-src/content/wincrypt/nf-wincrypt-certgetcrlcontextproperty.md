@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertGetCRLContextProperty
 title: CertGetCRLContextProperty function (wincrypt.h)
 description: Gets an extended property for the specified certificate revocation list (CRL) context.
+helpviewer_keywords: ["CERT_ACCESS_STATE_PROP_ID","CERT_ARCHIVED_PROP_ID","CERT_AUTO_ENROLL_PROP_ID","CERT_CTL_USAGE_PROP_ID","CERT_DESCRIPTION_PROP_ID","CERT_ENHKEY_USAGE_PROP_ID","CERT_FRIENDLY_NAME_PROP_ID","CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID","CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID","CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID","CERT_KEY_CONTEXT_PROP_ID","CERT_KEY_IDENTIFIER_PROP_ID","CERT_KEY_PROV_HANDLE_PROP_ID","CERT_KEY_PROV_INFO_PROP_ID","CERT_KEY_SPEC_PROP_ID","CERT_MD5_HASH_PROP_ID","CERT_NEXT_UPDATE_LOCATION_PROP_ID","CERT_PVK_FILE_PROP_ID","CERT_SHA1_HASH_PROP_ID","CERT_SIGNATURE_HASH_PROP_ID","CERT_SIGN_HASH_CNG_ALG_PROP_ID","CertGetCRLContextProperty","CertGetCRLContextProperty function [Security]","_crypto2_certgetcrlcontextproperty","security.certgetcrlcontextproperty","wincrypt/CertGetCRLContextProperty"]
 old-location: security\certgetcrlcontextproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 16c2cc06-28fd-42d9-a377-0df2eaeeae56
 ms.date: 12/05/2018
 ms.keywords: CERT_ACCESS_STATE_PROP_ID, CERT_ARCHIVED_PROP_ID, CERT_AUTO_ENROLL_PROP_ID, CERT_CTL_USAGE_PROP_ID, CERT_DESCRIPTION_PROP_ID, CERT_ENHKEY_USAGE_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_ISSUER_CHAIN_PUB_KEY_CNG_ALG_BIT_LENGTH_PROP_ID, CERT_ISSUER_CHAIN_SIGN_HASH_CNG_ALG_PROP_ID, CERT_ISSUER_PUB_KEY_BIT_LENGTH_PROP_ID, CERT_KEY_CONTEXT_PROP_ID, CERT_KEY_IDENTIFIER_PROP_ID, CERT_KEY_PROV_HANDLE_PROP_ID, CERT_KEY_PROV_INFO_PROP_ID, CERT_KEY_SPEC_PROP_ID, CERT_MD5_HASH_PROP_ID, CERT_NEXT_UPDATE_LOCATION_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_SHA1_HASH_PROP_ID, CERT_SIGNATURE_HASH_PROP_ID, CERT_SIGN_HASH_CNG_ALG_PROP_ID, CertGetCRLContextProperty, CertGetCRLContextProperty function [Security], _crypto2_certgetcrlcontextproperty, security.certgetcrlcontextproperty, wincrypt/CertGetCRLContextProperty
-f1_keywords:
-- wincrypt/CertGetCRLContextProperty
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetCRLContextProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetCRLContextProperty
+ - wincrypt/CertGetCRLContextProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetCRLContextProperty
 ---
 
 # CertGetCRLContextProperty function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertGetCRLContextProperty</b> function gets an extended property for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context.
-
+The <b>CertGetCRLContextProperty</b> function gets an extended property for the specified <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context.
 
 ## -parameters
-
-
-
 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
 
 ### -param dwPropId [in]
 
@@ -122,7 +118,7 @@ Returns a <b>null</b>-terminated Unicode string naming the certificate type for 
 <td width="60%">
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
-Returns an array of bytes containing an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
+Returns an array of bytes containing an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 </td>
 </tr>
@@ -146,7 +142,7 @@ Returns the property displayed by the certificate UI. This property allows the u
 <td width="60%">
 Data type for <i>pvData</i>: 
 
-Returns an array of bytes containing an ASN.1 encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
+Returns an array of bytes containing an ASN.1 encoded <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
 
 </td>
 </tr>
@@ -244,11 +240,11 @@ Returns the length, in bits, of the public key in the CRL issuer certificate. Th
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>: pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a>
+Data type for <i>pvData</i>: pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a>
 
 
 Returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 </td>
 </tr>
@@ -270,7 +266,7 @@ If nonexistent, searches for the szOID_SUBJECT_KEY_IDENTIFIER extension. If that
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>:  pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>
+Data type for <i>pvData</i>:  pointer to an <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>
 
 
 Returns the provider handle obtained from the CERT_KEY_CONTEXT_PROP_ID.
@@ -283,10 +279,10 @@ Returns the provider handle obtained from the CERT_KEY_CONTEXT_PROP_ID.
 </dl>
 </td>
 <td width="60%">
-Data type for <i>pvData</i>:  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+Data type for <i>pvData</i>:  pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>.
+Returns a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>.
 
 </td>
 </tr>
@@ -312,7 +308,7 @@ Returns a <b>DWORD</b> value specifying the private key obtained from CERT_KEY_C
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
 Returns the MD5 hash. If the hash does not exist, it is computed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>.
 
 </td>
 </tr>
@@ -325,7 +321,7 @@ Returns the MD5 hash. If the hash does not exist, it is computed using
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
 Returns the ASN.1 encoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. 
 
 
 
@@ -355,7 +351,7 @@ Returns a <b>null</b>-terminated Unicode, wide character string specifying the f
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
 Returns the SHA1 hash. If the hash does not exist, it is computed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>.
 
 </td>
 </tr>
@@ -405,18 +401,17 @@ This property is also applicable to an OCSP response that has been converted to 
 Data type for <i>pvData</i>: pointer to a <b>BYTE</b> array
 
 Returns the signature hash. If the hash does not exist, it is computed with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashtobesigned">CryptHashToBeSigned</a>. The length of the hash is 20 bytes for SHA and 16 for MD5.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashtobesigned">CryptHashToBeSigned</a>. The length of the hash is 20 bytes for SHA and 16 for MD5.
 
 </td>
 </tr>
 </table>
  
 
-For many property identifiers, <i>pvData</i> points to an array of bytes and not a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> as pointed to by the <i>pvData</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty">CertSetCRLContextProperty</a>.
+For many property identifiers, <i>pvData</i> points to an array of bytes and not a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> as pointed to by the <i>pvData</i> parameter in <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcrlcontextproperty">CertSetCRLContextProperty</a>.
 
 For more information about each property identifier, see the documentation on the <i>dwPropId</i> parameter in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 
 ### -param pvData [out]
 
@@ -426,8 +421,7 @@ A pointer to a buffer to receive the data as determined by <i>dwPropId</i>. Stru
 
 
 This parameter can be <b>NULL</b> to set the size of the information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbData [in, out]
 
@@ -441,15 +435,13 @@ A pointer to a <b>DWORD</b> value specifying the size, in bytes, of the buffer p
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. 
 
 Note that errors from the called function 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> can be propagated to this function. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> can be propagated to this function. For extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -479,30 +471,19 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties">CertEnumCRLContextProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcrlcontextproperties">CertEnumCRLContextProperties</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>

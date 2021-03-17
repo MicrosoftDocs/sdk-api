@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo2.SetCustData
 title: ICreateTypeInfo2::SetCustData (oaidl.h)
 description: Sets a value for custom data.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetCustData method","ICreateTypeInfo2.SetCustData","ICreateTypeInfo2::SetCustData","SetCustData","SetCustData method [Automation]","SetCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetCustData","automat.icreatetypeinfo2_setcustdata","oaidl/ICreateTypeInfo2::SetCustData"]
 old-location: automat\icreatetypeinfo2_setcustdata.htm
 tech.root: automat
 ms.assetid: 52a947c8-2860-4803-9df2-7b71b8b8ef87
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetCustData method, ICreateTypeInfo2.SetCustData, ICreateTypeInfo2::SetCustData, SetCustData, SetCustData method [Automation], SetCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetCustData, automat.icreatetypeinfo2_setcustdata, oaidl/ICreateTypeInfo2::SetCustData
-f1_keywords:
-- oaidl/ICreateTypeInfo2.SetCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.SetCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::SetCustData
+ - oaidl/ICreateTypeInfo2::SetCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.SetCustData
 ---
 
 # ICreateTypeInfo2::SetCustData
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a value for custom data.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
 The unique identifier that can be used to identify the data.
 
-
 ### -param pVarVal [in]
 
 The data to store (any variant except an object).
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

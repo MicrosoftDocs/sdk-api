@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabParseContact
 title: PeerCollabParseContact function (p2p.h)
 description: Parses a Unicode string buffer containing contact XML data into a PEER_CONTACT data structure.
+helpviewer_keywords: ["PeerCollabParseContact","PeerCollabParseContact function [Peer Networking]","p2p.peercollabparsecontact","p2p/PeerCollabParseContact"]
 old-location: p2p\peercollabparsecontact.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.date: 12/05/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
-f1_keywords:
-- p2p/PeerCollabParseContact
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabParseContact
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabParseContact
+ - p2p/PeerCollabParseContact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabParseContact
 ---
 
 # PeerCollabParseContact function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> data structure.
-
+The <b>PeerCollabParseContact</b> function parses a Unicode string buffer containing contact XML data into a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> data structure.
 
 ## -parameters
 
-
-
-
 ### -param pwzContactData [in]
 
-Pointer to zero-terminated Unicode string buffer that contains XML contact data as returned by functions like <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>.
-
+Pointer to zero-terminated Unicode string buffer that contains XML contact data as returned by functions like <a href="/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>.
 
 ### -param ppContact [out]
 
-Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
-
+Pointer to the address of a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure that contain the peer contact information parsed from <i>pwzContactData</i>. Free the memory allocated by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -112,22 +105,11 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

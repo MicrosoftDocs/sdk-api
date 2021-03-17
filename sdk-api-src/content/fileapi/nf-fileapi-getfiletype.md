@@ -2,15 +2,12 @@
 UID: NF:fileapi.GetFileType
 title: GetFileType function (fileapi.h)
 description: Retrieves the file type of the specified file.
+helpviewer_keywords: ["GetFileType","GetFileType function [Files]","_win32_getfiletype","base.getfiletype","fileapi/GetFileType","fs.getfiletype","winbase/GetFileType"]
 old-location: fs\getfiletype.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa
 ms.date: 12/05/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
-f1_keywords:
-- fileapi/GetFileType
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileType
+ - fileapi/GetFileType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileType
 ---
 
 # GetFileType function
@@ -55,23 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the file type of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -145,21 +139,15 @@ Either the type of the specified file is unknown, or the function failed.
 
 You can distinguish between a "valid" return of <b>FILE_TYPE_UNKNOWN</b> and its return due to a calling error (for example, passing an invalid handle to 
 <b>GetFileType</b>) by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function worked properly and <b>FILE_TYPE_UNKNOWN</b> was returned, a call to <b>GetLastError</b> will return <b>NO_ERROR</b>.
 
 If the function returned <b>FILE_TYPE_UNKNOWN</b> due to an error in calling 
 <b>GetFileType</b>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the error code.
-                  
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the error code.
 
 ## -remarks
-
-
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -219,26 +207,15 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>

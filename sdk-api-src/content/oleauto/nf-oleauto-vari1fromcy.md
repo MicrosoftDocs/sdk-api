@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI1FromCy
 title: VarI1FromCy function (oleauto.h)
 description: Converts a currency value to a char value.
+helpviewer_keywords: ["VarI1FromCy","VarI1FromCy function [Automation]","_oa96_VarI1FromCy","automat.vari1fromcy","oleauto/VarI1FromCy"]
 old-location: automat\vari1fromcy.htm
 tech.root: automat
 ms.assetid: 9ceaabd0-8d36-4706-92a1-73a675b2ae34
 ms.date: 12/05/2018
 ms.keywords: VarI1FromCy, VarI1FromCy function [Automation], _oa96_VarI1FromCy, automat.vari1fromcy, oleauto/VarI1FromCy
-f1_keywords:
-- oleauto/VarI1FromCy
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI1FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI1FromCy
+ - oleauto/VarI1FromCy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI1FromCy
 ---
 
 # VarI1FromCy function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a currency value to a char value.
 
-
 ## -parameters
-
-
-
 
 ### -param cyIn [in]
 
 The value to convert.
 
-
 ### -param pcOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

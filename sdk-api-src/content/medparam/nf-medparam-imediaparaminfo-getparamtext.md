@@ -2,15 +2,12 @@
 UID: NF:medparam.IMediaParamInfo.GetParamText
 title: IMediaParamInfo::GetParamText (medparam.h)
 description: The GetParamText method retrieves a series of text strings that describe the parameter.
+helpviewer_keywords: ["GetParamText","GetParamText method [DirectShow]","GetParamText method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamText method","IMediaParamInfo.GetParamText","IMediaParamInfo::GetParamText","IMediaParamInfoGetParamText","dshow.imediaparaminfo_getparamtext","medparam/IMediaParamInfo::GetParamText"]
 old-location: dshow\imediaparaminfo_getparamtext.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
 ms.date: 12/05/2018
 ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
-f1_keywords:
-- medparam/IMediaParamInfo.GetParamText
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParamInfo.GetParamText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParamInfo::GetParamText
+ - medparam/IMediaParamInfo::GetParamText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParamInfo.GetParamText
 ---
 
 # IMediaParamInfo::GetParamText
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetParamText</code> method retrieves a series of text strings that describe the parameter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwParamIndex [in]
 
 Zero-based index of the parameter.
 
-
 ### -param ppwchText [out]
 
 Address of a variable that receives a pointer to a series of Unicode™ strings.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,14 +106,8 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the method succeeds, *<i>ppwchText</i> points to a string with the following format:
 
@@ -141,16 +125,6 @@ The application can display these values within its user interface. They are not
 
 The object uses the <b>CoTaskMemAlloc</b> function to allocate memory for the string. After you call this method, call <b>CoTaskMemFree</b> to free the buffer.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:recapis.SetGuide
 title: SetGuide function (recapis.h)
 description: Sets the recognition guide to use for boxed or lined input. You must call this function before you add strokes to the context.
+helpviewer_keywords: ["3ca3c743-83f9-46b0-851a-cba6e4ed980a","SetGuide","SetGuide function [Tablet PC]","recapis/SetGuide","tablet.setguide"]
 old-location: tablet\setguide.htm
 tech.root: tablet
 ms.assetid: 3ca3c743-83f9-46b0-851a-cba6e4ed980a
 ms.date: 12/05/2018
 ms.keywords: 3ca3c743-83f9-46b0-851a-cba6e4ed980a, SetGuide, SetGuide function [Tablet PC], recapis/SetGuide, tablet.setguide
-f1_keywords:
-- recapis/SetGuide
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- SetGuide
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetGuide
+ - recapis/SetGuide
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - SetGuide
 ---
 
 # SetGuide function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the recognition guide to use for boxed or lined input. You must call this function before you add strokes to the context.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 Handle to the recognizer context.
 
-
 ### -param pGuide
 
-Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
-
+Guide to use for box or line input. Setting this parameter to <b>NULL</b> means that the context has no guide. This is the default and means the recognizer is in free input mode. For guide details, see the <a href="/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE</a> structure.
 
 ### -param iIndex
 
 Index value to use for the first box or line in the context.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,36 +137,20 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setcacmode">SetCACMode</a> was called previously.
+Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="/windows/desktop/api/recapis/nf-recapis-setcacmode">SetCACMode</a> was called previously.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Guide boxes are numbered based on the <i>iIntex</i> value.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getguide">GetGuide Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rectypes/ns-rectypes-reco_guide">RECO_GUIDE Structure</a>

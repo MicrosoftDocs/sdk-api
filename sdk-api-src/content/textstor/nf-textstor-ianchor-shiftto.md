@@ -2,15 +2,12 @@
 UID: NF:textstor.IAnchor.ShiftTo
 title: IAnchor::ShiftTo (textstor.h)
 description: The IAnchor::ShiftTo method shifts the current anchor to the same position as another anchor.
+helpviewer_keywords: ["IAnchor interface [Text Services Framework]","ShiftTo method","IAnchor.ShiftTo","IAnchor::ShiftTo","ShiftTo","ShiftTo method [Text Services Framework]","ShiftTo method [Text Services Framework]","IAnchor interface","textstor/IAnchor::ShiftTo","tsf.ianchor_shiftto"]
 old-location: tsf\ianchor_shiftto.htm
 tech.root: TSF
 ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],ShiftTo method, IAnchor.ShiftTo, IAnchor::ShiftTo, ShiftTo, ShiftTo method [Text Services Framework], ShiftTo method [Text Services Framework],IAnchor interface, textstor/IAnchor::ShiftTo, tsf.ianchor_shiftto
-f1_keywords:
-- textstor/IAnchor.ShiftTo
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.ShiftTo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::ShiftTo
+ - textstor/IAnchor::ShiftTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.ShiftTo
 ---
 
 # IAnchor::ShiftTo
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAnchor::ShiftTo</b> method shifts the current anchor to the same position as another anchor.
 
-
 ## -parameters
-
-
-
 
 ### -param paSite [in]
 
 Anchor occupying a position that the current anchor will be moved to.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -91,7 +85,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-An <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
+An <a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
 
 </td>
 </tr>
@@ -107,32 +101,16 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Implementing this method is usually more efficient than an equivalent <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift</a> operation.
-
-
-
+Implementing this method is usually more efficient than an equivalent <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift</a> operation.
 
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
- 
-
- 
-

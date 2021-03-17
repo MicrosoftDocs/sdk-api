@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.AddPartialFile
 title: IVssComponent::AddPartialFile (vswriter.h)
 description: The AddPartialFile method indicates that only portions of a given file are to be backed up and which portions those are.
+helpviewer_keywords: ["AddPartialFile","AddPartialFile method [VSS]","AddPartialFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","AddPartialFile method","IVssComponent.AddPartialFile","IVssComponent::AddPartialFile","_win32_ivsscomponent_addpartialfile","base.ivsscomponent_addpartialfile","vswriter/IVssComponent::AddPartialFile"]
 old-location: base\ivsscomponent_addpartialfile.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 318dc1ee-e63f-4e79-96b9-8a8bd83facd3
 ms.date: 12/05/2018
 ms.keywords: AddPartialFile, AddPartialFile method [VSS], AddPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddPartialFile method, IVssComponent.AddPartialFile, IVssComponent::AddPartialFile, _win32_ivsscomponent_addpartialfile, base.ivsscomponent_addpartialfile, vswriter/IVssComponent::AddPartialFile
-f1_keywords:
-- vswriter/IVssComponent.AddPartialFile
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.AddPartialFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::AddPartialFile
+ - vswriter/IVssComponent::AddPartialFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.AddPartialFile
 ---
 
 # IVssComponent::AddPartialFile
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
    <b>AddPartialFile</b> method indicates that only
    portions of a given file are to be backed up and which portions those are.
 
 Only a writer can call this method, and only during a backup operation.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPath [in]
 
@@ -76,13 +73,11 @@ There is no requirement that the path end with a backslash ("\"). It is up to ap
 This path should match or be beneath the path of a file set already in the component (or one of its
      subcomponents if the component defines a component set).
 
-
 ### -param wszFilename [in]
 
 <b>Null</b>-terminated wide character string containing the name of the file involved in partial file operations.
      The name of the file (<i>wszFilename</i>) cannot contain wildcard characters (* or ?) and must be consistent with the
      file specification of a file set containing the source path (<i>wszPath</i>).
-
 
 ### -param wszRanges [in]
 
@@ -93,7 +88,6 @@ This path should match or be beneath the path of a file set already in the compo
 
 Specifying the partial file support range is required, and this value cannot be <b>NULL</b>.
 
-
 ### -param wszMetadata [in]
 
 <b>Null</b>-terminated wide character string containing any additional metadata required by a writer to validate a
@@ -102,10 +96,7 @@ Specifying the partial file support range is required, and this value cannot be 
 
 If additional metadata is not required, this value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -160,14 +151,8 @@ The method was not called by a writer or, if called by a writer, was not called 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only a writer can call this method, and the writer cannot call this method during a restore operation.
 
@@ -191,7 +176,7 @@ In either case, a range indicates a subsection of a given file that is to be bac
    of the file.
 
 Requesters can retrieve the partial file information using 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a> and use the
+   <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a> and use the
    offset and length information returned by 
    <b>GetPartialFile</b> to restore backed-up sections to
    the appropriate location within the copy of the file on disk at restore time.
@@ -206,28 +191,18 @@ When indicating that the file to participate is a new file, that file must exist
 
 Any newly added files will not support alternate location mappings.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>

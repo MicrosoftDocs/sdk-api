@@ -2,15 +2,12 @@
 UID: NF:winuser.GetWindowRgn
 title: GetWindowRgn function (winuser.h)
 description: The GetWindowRgn function obtains a copy of the window region of a window.
+helpviewer_keywords: ["GetWindowRgn","GetWindowRgn function [Windows GDI]","_win32_GetWindowRgn","gdi.getwindowrgn","winuser/GetWindowRgn"]
 old-location: gdi\getwindowrgn.htm
 tech.root: gdi
 ms.assetid: c8a8fa46-354b-489e-b016-fd2e728958ce
 ms.date: 12/05/2018
 ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindowRgn, gdi.getwindowrgn, winuser/GetWindowRgn
-f1_keywords:
-- winuser/GetWindowRgn
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Draw-L1-1-2.dll
-api_name:
-- GetWindowRgn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetWindowRgn
+ - winuser/GetWindowRgn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Draw-L1-1-2.dll
+api_name:
+ - GetWindowRgn
+req.apiset: ext-ms-win-ntuser-draw-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetWindowRgn function
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetWindowRgn</b> function obtains a copy of the window region of a window. The window region of a window is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function. The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region
-
+The <b>GetWindowRgn</b> function obtains a copy of the window region of a window. The window region of a window is set by calling the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function. The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to the window whose window region is to be obtained.
 
-
 ### -param hRgn [in]
 
 Handle to the region which will be modified to represent the window region.
 
-
 ## -returns
-
-
 
 The return value specifies the type of the region that the function obtains. It can be one of the following values.
 
@@ -124,18 +118,12 @@ The specified window does not have a region, or an error occurred while attempti
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-To set the window region of a window, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function.
+To set the window region of a window, call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function.
 
 
 #### Examples
@@ -155,25 +143,14 @@ DeleteObject(hrgn); /* finished with region */
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>

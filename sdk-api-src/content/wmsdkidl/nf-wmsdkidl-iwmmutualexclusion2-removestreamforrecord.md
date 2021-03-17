@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMutualExclusion2.RemoveStreamForRecord
 title: IWMMutualExclusion2::RemoveStreamForRecord (wmsdkidl.h)
 description: The RemoveStreamForRecord method removes a stream from a record's list.
+helpviewer_keywords: ["IWMMutualExclusion2 interface [windows Media Format]","RemoveStreamForRecord method","IWMMutualExclusion2.RemoveStreamForRecord","IWMMutualExclusion2::RemoveStreamForRecord","IWMMutualExclusion2RemoveStreamForRecord","RemoveStreamForRecord","RemoveStreamForRecord method [windows Media Format]","RemoveStreamForRecord method [windows Media Format]","IWMMutualExclusion2 interface","wmformat.iwmmutualexclusion2_removestreamforrecord","wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord"]
 old-location: wmformat\iwmmutualexclusion2_removestreamforrecord.htm
 tech.root: wmformat
 ms.assetid: a32d78b7-47a3-45b6-9575-c290adf86094
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveStreamForRecord method, IWMMutualExclusion2.RemoveStreamForRecord, IWMMutualExclusion2::RemoveStreamForRecord, IWMMutualExclusion2RemoveStreamForRecord, RemoveStreamForRecord, RemoveStreamForRecord method [windows Media Format], RemoveStreamForRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removestreamforrecord, wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord
-f1_keywords:
-- wmsdkidl/IWMMutualExclusion2.RemoveStreamForRecord
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMutualExclusion2.RemoveStreamForRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMutualExclusion2::RemoveStreamForRecord
+ - wmsdkidl/IWMMutualExclusion2::RemoveStreamForRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMutualExclusion2.RemoveStreamForRecord
 ---
 
 # IWMMutualExclusion2::RemoveStreamForRecord
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RemoveStreamForRecord</b> method removes a stream from a record's list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wRecordNumber [in]
 
 <b>WORD</b> containing the record number from which you want to remove a stream.
 
-
 ### -param wStreamNumber [in]
 
 <b>WORD</b> containing the stream number you want to remove from the record.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,31 +119,15 @@ The method is unable to access the record for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Do not pass <b>NULL</b> for either argument. It will result in exception errors.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">IWMMutualExclusion2::AddStreamForRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">IWMMutualExclusion2::AddStreamForRecord</a>

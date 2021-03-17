@@ -2,15 +2,12 @@
 UID: NF:wsdbase.WSDCreateUdpMessageParameters
 title: WSDCreateUdpMessageParameters function (wsdbase.h)
 description: Retrieves a pointer to the IWSDUdpMessageParameters interface.
+helpviewer_keywords: ["WSDCreateUdpMessageParameters","WSDCreateUdpMessageParameters function","ncd.wsdcreateudpmessageparameters","wsdbase/WSDCreateUdpMessageParameters"]
 old-location: ncd\wsdcreateudpmessageparameters.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a183a5f8-edd9-4881-84d4-b23701c40f36
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters function, ncd.wsdcreateudpmessageparameters, wsdbase/WSDCreateUdpMessageParameters
-f1_keywords:
-- wsdbase/WSDCreateUdpMessageParameters
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateUdpMessageParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateUdpMessageParameters
+ - wsdbase/WSDCreateUdpMessageParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateUdpMessageParameters
 ---
 
 # WSDCreateUdpMessageParameters function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface.
-
+Retrieves a pointer to the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param ppTxParams [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
-
+Pointer to the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -96,7 +90,3 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-

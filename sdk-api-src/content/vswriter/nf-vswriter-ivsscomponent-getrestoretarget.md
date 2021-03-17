@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetRestoreTarget
 title: IVssComponent::GetRestoreTarget (vswriter.h)
 description: The GetRestoreTarget method returns the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
+helpviewer_keywords: ["GetRestoreTarget","GetRestoreTarget method [VSS]","GetRestoreTarget method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetRestoreTarget method","IVssComponent.GetRestoreTarget","IVssComponent::GetRestoreTarget","_win32_ivsscomponent_getrestoretarget","base.ivsscomponent_getrestoretarget","vswriter/IVssComponent::GetRestoreTarget"]
 old-location: base\ivsscomponent_getrestoretarget.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: e2361e38-8757-4a29-bbaf-7f659d1095d9
 ms.date: 12/05/2018
 ms.keywords: GetRestoreTarget, GetRestoreTarget method [VSS], GetRestoreTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreTarget method, IVssComponent.GetRestoreTarget, IVssComponent::GetRestoreTarget, _win32_ivsscomponent_getrestoretarget, base.ivsscomponent_getrestoretarget, vswriter/IVssComponent::GetRestoreTarget
-f1_keywords:
-- vswriter/IVssComponent.GetRestoreTarget
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetRestoreTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetRestoreTarget
+ - vswriter/IVssComponent::GetRestoreTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetRestoreTarget
 ---
 
 # IVssComponent::GetRestoreTarget
@@ -49,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetRestoreTarget</b> method returns the restore target (in terms of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
 
 Either a writer or a requester can call this method. It can be called only during a restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param pTarget [out]
 
 The address of a caller-allocated variable that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration value that specifies the restore target.
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration value that specifies the restore target.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -120,7 +114,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -136,18 +130,7 @@ The specified item was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

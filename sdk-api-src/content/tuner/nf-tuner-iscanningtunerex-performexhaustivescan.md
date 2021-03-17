@@ -2,15 +2,12 @@
 UID: NF:tuner.IScanningTunerEx.PerformExhaustiveScan
 title: IScanningTunerEx::PerformExhaustiveScan (tuner.h)
 description: This topic applies to Windows Vista and later.
+helpviewer_keywords: ["IScanningTunerEx interface [Microsoft TV Technologies]","PerformExhaustiveScan method","IScanningTunerEx.PerformExhaustiveScan","IScanningTunerEx::PerformExhaustiveScan","IScanningTunerExPerformExhaustiveScan","PerformExhaustiveScan","PerformExhaustiveScan method [Microsoft TV Technologies]","PerformExhaustiveScan method [Microsoft TV Technologies]","IScanningTunerEx interface","mstv.iscanningtunerex_performexhaustivescan","tuner/IScanningTunerEx::PerformExhaustiveScan"]
 old-location: mstv\iscanningtunerex_performexhaustivescan.htm
 tech.root: mstv
 ms.assetid: 35ed1b43-020e-4baa-9f15-eb316d9a137b
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],PerformExhaustiveScan method, IScanningTunerEx.PerformExhaustiveScan, IScanningTunerEx::PerformExhaustiveScan, IScanningTunerExPerformExhaustiveScan, PerformExhaustiveScan, PerformExhaustiveScan method [Microsoft TV Technologies], PerformExhaustiveScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_performexhaustivescan, tuner/IScanningTunerEx::PerformExhaustiveScan
-f1_keywords:
-- tuner/IScanningTunerEx.PerformExhaustiveScan
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tuner.h
-api_name:
-- IScanningTunerEx.PerformExhaustiveScan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IScanningTunerEx::PerformExhaustiveScan
+ - tuner/IScanningTunerEx::PerformExhaustiveScan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tuner.h
+api_name:
+ - IScanningTunerEx.PerformExhaustiveScan
 ---
 
 # IScanningTunerEx::PerformExhaustiveScan
 
 
 ## -description
-
-
 
 This topic applies to Windows Vista and later.
         
@@ -57,35 +57,25 @@ This topic applies to Windows Vista and later.
 
 The <b>PerformExhaustiveScan</b> method scans a range of frequencies until the tuner locks onto a signal.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLowerFreq [in]
 
 Lowest frequency in the range of frequencies to scan. A value of -1 specifies the minimum frequency as determined by the device.
 
-
 ### -param dwHigherFreq [in]
 
 Highest frequency in the range of frequencies to scan. A value of -1 specifies the maximum frequency as determined by the device.
-
 
 ### -param bFineTune [in]
 
 Specifies whether the tuner performs fine tuning. When the tuner locks onto a frequency, if this parameter is <b>VARIANT_TRUE</b>, the tuner does fine tuning to find the best possible signal around that frequency.
 
-
 ### -param hEvent [in]
 
 Handle to an event created by the application. When the tuner locks onto a signal, it signals this event.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -128,27 +118,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is asynchronous.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>

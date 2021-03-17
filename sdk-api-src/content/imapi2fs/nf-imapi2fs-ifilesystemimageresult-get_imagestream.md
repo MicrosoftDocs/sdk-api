@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImageResult.get_ImageStream
 title: IFileSystemImageResult::get_ImageStream (imapi2fs.h)
 description: Retrieves the burn image stream.
+helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_ImageStream method","IFileSystemImageResult.get_ImageStream","IFileSystemImageResult::get_ImageStream","get_ImageStream","get_ImageStream method [IMAPI]","get_ImageStream method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_imagestream","imapi2fs/IFileSystemImageResult::get_ImageStream"]
 old-location: imapi\ifilesystemimageresult_get_imagestream.htm
 tech.root: imapi
 ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
-f1_keywords:
-- imapi2fs/IFileSystemImageResult.get_ImageStream
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImageResult.get_ImageStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImageResult::get_ImageStream
+ - imapi2fs/IFileSystemImageResult::get_ImageStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImageResult.get_ImageStream
 ---
 
 # IFileSystemImageResult::get_ImageStream
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the burn image stream.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the burn image.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the burn image.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -80,7 +74,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 </dl>
 </td>
 <td width="60%">
-Pointer is not valid or the  <i>pstatstgis</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is <b>NULL</b>.
+Pointer is not valid or the  <i>pstatstgis</i> parameter of the <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is <b>NULL</b>.
 
 Value: 0x80004003
 
@@ -106,27 +100,16 @@ Value: 0x8007000E
 </dl>
 </td>
 <td width="60%">
-The <i>grfStateFlag</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is invalid.
+The <i>grfStateFlag</i> parameter of the <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is invalid.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>

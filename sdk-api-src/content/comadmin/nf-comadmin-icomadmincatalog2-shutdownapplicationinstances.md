@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog2.ShutdownApplicationInstances
 title: ICOMAdminCatalog2::ShutdownApplicationInstances (comadmin.h)
 description: Initiates shutdown of the specified application server processes.
+helpviewer_keywords: ["ICOMAdminCatalog2 interface [COM+]","ShutdownApplicationInstances method","ICOMAdminCatalog2.ShutdownApplicationInstances","ICOMAdminCatalog2::ShutdownApplicationInstances","ShutdownApplicationInstances","ShutdownApplicationInstances method [COM+]","ShutdownApplicationInstances method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_ShutdownApplicationInstances","comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances","cos.icomadmincatalog2_shutdownapplicationinstances"]
 old-location: cos\icomadmincatalog2_shutdownapplicationinstances.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 1de6c76b-f6f1-44d3-9bd4-4b6ac921893a
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ShutdownApplicationInstances method, ICOMAdminCatalog2.ShutdownApplicationInstances, ICOMAdminCatalog2::ShutdownApplicationInstances, ShutdownApplicationInstances, ShutdownApplicationInstances method [COM+], ShutdownApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ShutdownApplicationInstances, comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances, cos.icomadmincatalog2_shutdownapplicationinstances
-f1_keywords:
-- comadmin/ICOMAdminCatalog2.ShutdownApplicationInstances
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog2.ShutdownApplicationInstances
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog2::ShutdownApplicationInstances
+ - comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog2.ShutdownApplicationInstances
 ---
 
 # ICOMAdminCatalog2::ShutdownApplicationInstances
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates shutdown of the specified application server processes.
-
 
 ## -parameters
 
-
-
-
 ### -param pVarApplicationInstanceID [in]
 
-The application instances to be shut down. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance GUID (for example, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getapplicationinstanceidfromprocessid">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
-
+The application instances to be shut down. Each element of the <b>Variant</b> may be a <b>String</b> containing an application instance GUID (for example, as returned by the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getapplicationinstanceidfromprocessid">GetApplicationInstanceIDFromProcessID</a> method), a single catalog object, or a catalog collection (for example, as returned by the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -96,18 +90,7 @@ A specified application instance does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

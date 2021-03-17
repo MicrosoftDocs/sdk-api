@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink.Open
 title: IWMWriterFileSink::Open (wmsdkidl.h)
 description: The Open method opens a file that acts as the writer sink.
+helpviewer_keywords: ["IWMWriterFileSink interface [windows Media Format]","Open method","IWMWriterFileSink.Open","IWMWriterFileSink::Open","IWMWriterFileSinkOpen","Open","Open method [windows Media Format]","Open method [windows Media Format]","IWMWriterFileSink interface","wmformat.iwmwriterfilesink_open","wmsdkidl/IWMWriterFileSink::Open"]
 old-location: wmformat\iwmwriterfilesink_open.htm
 tech.root: wmformat
 ms.assetid: 14a36fe9-8293-4079-8189-8a8e0720c100
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink interface [windows Media Format],Open method, IWMWriterFileSink.Open, IWMWriterFileSink::Open, IWMWriterFileSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterFileSink interface, wmformat.iwmwriterfilesink_open, wmsdkidl/IWMWriterFileSink::Open
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink.Open
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink::Open
+ - wmsdkidl/IWMWriterFileSink::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink.Open
 ---
 
 # IWMWriterFileSink::Open
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Open</b> method opens a file that acts as the writer sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFilename [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the file name. URLs are not supported.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,29 +93,13 @@ The <i>pwszFilename</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+There is no close method in this interface as the closing of the writer sink file is done automatically by a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>.
 
-
-There is no close method in this interface as the closing of the writer sink file is done automatically by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>.
-
-See the Remarks and Example Code sections for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
-
-
-
+See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink Interface</a>

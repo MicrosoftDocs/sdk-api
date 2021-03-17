@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetDuplicate
 title: ITextFont::SetDuplicate (tom.h)
 description: Sets the character formatting by copying another text font object.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetDuplicate method","ITextFont.SetDuplicate","ITextFont::SetDuplicate","SetDuplicate","SetDuplicate method [Windows Controls]","SetDuplicate method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetDuplicate","_win32_ITextFont_SetDuplicate_cpp","controls.ITextFont_SetDuplicate","controls._win32_ITextFont_SetDuplicate","tom/ITextFont::SetDuplicate"]
 old-location: controls\ITextFont_SetDuplicate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetduplicate.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetDuplicate method, ITextFont.SetDuplicate, ITextFont::SetDuplicate, SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls],ITextFont interface, _win32_ITextFont_SetDuplicate, _win32_ITextFont_SetDuplicate_cpp, controls.ITextFont_SetDuplicate, controls._win32_ITextFont_SetDuplicate, tom/ITextFont::SetDuplicate
-f1_keywords:
-- tom/ITextFont.SetDuplicate
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetDuplicate
+ - tom/ITextFont::SetDuplicate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetDuplicate
 ---
 
 # ITextFont::SetDuplicate
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the character formatting by copying another text font object. 
-
+Sets the character formatting by copying another text font object.
 
 ## -parameters
 
-
-
-
 ### -param pFont [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>*</b>
 
-The text font object to apply to this font object. 
-
+The text font object to apply to this font object.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -122,36 +116,24 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Values with the <b>tomUndefined</b> attribute have no effect.
 
-For an example of how to use font duplicates, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>.
-
-
-
+For an example of how to use font duplicates, see <a href="/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">GetDuplicate</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">GetDuplicate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -159,12 +141,8 @@ For an example of how to use font duplicates, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

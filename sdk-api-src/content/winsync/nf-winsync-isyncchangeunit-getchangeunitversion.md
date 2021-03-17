@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeUnit.GetChangeUnitVersion
 title: ISyncChangeUnit::GetChangeUnitVersion (winsync.h)
 description: Gets the version for the change unit change.
+helpviewer_keywords: ["GetChangeUnitVersion","GetChangeUnitVersion method [Windows Sync]","GetChangeUnitVersion method [Windows Sync]","ISyncChangeUnit interface","ISyncChangeUnit interface [Windows Sync]","GetChangeUnitVersion method","ISyncChangeUnit.GetChangeUnitVersion","ISyncChangeUnit::GetChangeUnitVersion","winsync.isyncchangeunit_getchangeunitversion","winsync/ISyncChangeUnit::GetChangeUnitVersion"]
 old-location: winsync\isyncchangeunit_getchangeunitversion.htm
 tech.root: winsync
 ms.assetid: b40ec132-0459-4ddf-9156-bce2a1dfbc4d
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitVersion, GetChangeUnitVersion method [Windows Sync], GetChangeUnitVersion method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitVersion method, ISyncChangeUnit.GetChangeUnitVersion, ISyncChangeUnit::GetChangeUnitVersion, winsync.isyncchangeunit_getchangeunitversion, winsync/ISyncChangeUnit::GetChangeUnitVersion
-f1_keywords:
-- winsync/ISyncChangeUnit.GetChangeUnitVersion
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeUnit.GetChangeUnitVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeUnit::GetChangeUnitVersion
+ - winsync/ISyncChangeUnit::GetChangeUnitVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeUnit.GetChangeUnitVersion
 ---
 
 # ISyncChangeUnit::GetChangeUnitVersion
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the version for the change unit change.
 
-
 ## -parameters
-
-
-
 
 ### -param pbCurrentReplicaId [in]
 
 The ID of the replica that originated the change to retrieve.
 
-
 ### -param pVersion [out]
 
 Returns the version of the change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,22 +105,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

@@ -2,15 +2,12 @@
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.SynchronizeCompleted
 title: ISyncMgrSynchronizeCallback::SynchronizeCompleted (mobsync.h)
 description: Called by an application when its Synchronize method is complete.
+helpviewer_keywords: ["ISyncMgrSynchronizeCallback interface [Windows Shell]","SynchronizeCompleted method","ISyncMgrSynchronizeCallback.SynchronizeCompleted","ISyncMgrSynchronizeCallback::SynchronizeCompleted","SynchronizeCompleted","SynchronizeCompleted method [Windows Shell]","SynchronizeCompleted method [Windows Shell]","ISyncMgrSynchronizeCallback interface","mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted","shell.syncmgr_isyncmgrsynchronizecallback_synchronizecompleted","syncmgr.isyncmgrsynchronizecallback_synchronizecompleted"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_synchronizecompleted.htm
 tech.root: shell
 ms.assetid: df0f0e20-6b84-4ff1-badb-40006a4b8e2c
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],SynchronizeCompleted method, ISyncMgrSynchronizeCallback.SynchronizeCompleted, ISyncMgrSynchronizeCallback::SynchronizeCompleted, SynchronizeCompleted, SynchronizeCompleted method [Windows Shell], SynchronizeCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted, shell.syncmgr_isyncmgrsynchronizecallback_synchronizecompleted, syncmgr.isyncmgrsynchronizecallback_synchronizecompleted
-f1_keywords:
-- mobsync/ISyncMgrSynchronizeCallback.SynchronizeCompleted
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronizeCallback.SynchronizeCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronizeCallback::SynchronizeCompleted
+ - mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronizeCallback.SynchronizeCompleted
 ---
 
 # ISyncMgrSynchronizeCallback::SynchronizeCompleted
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called by an application when its <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method is complete.
-
+Called by an application when its <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method is complete.
 
 ## -parameters
-
-
-
 
 ### -param hr [in]
 
 Type: <b>HRESULT</b>
 
-The returned result from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
-
+The returned result from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -89,36 +83,20 @@ The call is completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A registered handler of an application should return from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method as soon as possible, and then call this method to notify the synchronization manager that the synchronization process is complete.
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method as soon as possible, and then call this method to notify the synchronization manager that the synchronization process is complete.
 
-It is acceptable for a registered handler of an application to call this method before returning from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
+It is acceptable for a registered handler of an application to call this method before returning from the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
 
-However, the registered handler of an application should not call this method if the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method returns any value that is different from S_OK.
-
-
-
+However, the registered handler of an application should not call this method if the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method returns any value that is different from S_OK.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>

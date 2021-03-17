@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryPublisher.SetAddressFamily
 title: IWSDiscoveryPublisher::SetAddressFamily (wsddisco.h)
 description: Specifies the IP address family (IPv4, IPv6, or both) over which the host will be published.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","SetAddressFamily method","IWSDiscoveryPublisher.SetAddressFamily","IWSDiscoveryPublisher::SetAddressFamily","SetAddressFamily","SetAddressFamily method","SetAddressFamily method","IWSDiscoveryPublisher interface","WSDAPI_ADDRESSFAMILY_IPV4","WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6","WSDAPI_ADDRESSFAMILY_IPV6","ncd.iwsdiscoverypublisher_setaddressfamily","wsddisco/IWSDiscoveryPublisher::SetAddressFamily"]
 old-location: ncd\iwsdiscoverypublisher_setaddressfamily.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 01d16205-ca4c-44bb-865c-7fc9fb1db2e1
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,SetAddressFamily method, IWSDiscoveryPublisher.SetAddressFamily, IWSDiscoveryPublisher::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryPublisher interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoverypublisher_setaddressfamily, wsddisco/IWSDiscoveryPublisher::SetAddressFamily
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisher.SetAddressFamily
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDiscoveryPublisher.SetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisher::SetAddressFamily
+ - wsddisco/IWSDiscoveryPublisher::SetAddressFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisher.SetAddressFamily
 ---
 
 # IWSDiscoveryPublisher::SetAddressFamily
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the IP address family (IPv4, IPv6, or both) over which the host will be published.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAddressFamily [in]
 
@@ -97,12 +94,8 @@ Publish the host over IPv4 and IPv6 addresses.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -156,27 +149,11 @@ The system does not support the address family specified by <i>dwAddressFamily</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method must be called before a notification sink is attached to the publisher.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

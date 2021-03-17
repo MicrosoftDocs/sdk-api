@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTEndReliableWrite
 title: BluetoothGATTEndReliableWrite function (bluetoothleapis.h)
 description: Specifies the end of reliable writes, and the writes should be committed.
+helpviewer_keywords: ["BluetoothGATTEndReliableWrite","BluetoothGATTEndReliableWrite function [Bluetooth Devices]","bltooth.bluetoothgattendreliablewrite","bluetoothleapis/BluetoothGATTEndReliableWrite"]
 old-location: bltooth\bluetoothgattendreliablewrite.htm
 tech.root: bltooth
 ms.assetid: 4A3CB135-55D7-41BA-8067-D4B865D05733
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTEndReliableWrite, BluetoothGATTEndReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattendreliablewrite, bluetoothleapis/BluetoothGATTEndReliableWrite
-f1_keywords:
-- bluetoothleapis/BluetoothGATTEndReliableWrite
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTEndReliableWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTEndReliableWrite
+ - bluetoothleapis/BluetoothGATTEndReliableWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTEndReliableWrite
 ---
 
 # BluetoothGATTEndReliableWrite function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTEndReliableWrite</b> function specifies the end of reliable writes, and the writes should be committed.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the service.
 
-
 ### -param ReliableWriteContext [in]
 
-The context describing the reliable write operation returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
-
+The context describing the reliable write operation returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
 
 ### -param Flags [in]
 
@@ -88,12 +83,8 @@ The client does not have specific GATT requirements (default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>BluetoothGATTEndReliableWrite</b> function returns the following values:
 
@@ -368,7 +359,3 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
- 
-
-
-

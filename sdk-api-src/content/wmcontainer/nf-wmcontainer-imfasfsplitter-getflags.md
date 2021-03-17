@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFSplitter.GetFlags
 title: IMFASFSplitter::GetFlags (wmcontainer.h)
 description: Retrieves the option flags that are set on the ASF splitter.
+helpviewer_keywords: ["GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetFlags method","IMFASFSplitter.GetFlags","IMFASFSplitter::GetFlags","ba008e4a-98ad-4633-8b80-1d2ffce04b9c","mf.imfasfsplitter_getflags","wmcontainer/IMFASFSplitter::GetFlags"]
 old-location: mf\imfasfsplitter_getflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetFlags method, IMFASFSplitter.GetFlags, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
-f1_keywords:
-- wmcontainer/IMFASFSplitter.GetFlags
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter::GetFlags
+ - wmcontainer/IMFASFSplitter::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter.GetFlags
 ---
 
 # IMFASFSplitter::GetFlags
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the option flags that are set on the ASF splitter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pdwFlags [out]
 
-Receives the option flags. This value is a bitwise <b>OR</b> of zero or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags">MFASF_SPLITTERFLAGS</a> enumeration.
-
+Receives the option flags. This value is a bitwise <b>OR</b> of zero or more members of the <a href="/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags">MFASF_SPLITTERFLAGS</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,22 +91,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>

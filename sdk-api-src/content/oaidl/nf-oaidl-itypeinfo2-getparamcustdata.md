@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetParamCustData
 title: ITypeInfo2::GetParamCustData (oaidl.h)
 description: Gets the custom data of the specified parameter.
+helpviewer_keywords: ["GetParamCustData","GetParamCustData method [Automation]","GetParamCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetParamCustData method","ITypeInfo2.GetParamCustData","ITypeInfo2::GetParamCustData","_oa96_ITypeInfo2_GetParamCustData","automat.itypeinfo2_getparamcustdata","oaidl/ITypeInfo2::GetParamCustData"]
 old-location: automat\itypeinfo2_getparamcustdata.htm
 tech.root: automat
 ms.assetid: 9342c364-58bb-47fa-b2c0-aae7df1ccdb5
 ms.date: 12/05/2018
 ms.keywords: GetParamCustData, GetParamCustData method [Automation], GetParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetParamCustData method, ITypeInfo2.GetParamCustData, ITypeInfo2::GetParamCustData, _oa96_ITypeInfo2_GetParamCustData, automat.itypeinfo2_getparamcustdata, oaidl/ITypeInfo2::GetParamCustData
-f1_keywords:
-- oaidl/ITypeInfo2.GetParamCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetParamCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetParamCustData
+ - oaidl/ITypeInfo2::GetParamCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetParamCustData
 ---
 
 # ITypeInfo2::GetParamCustData
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the custom data of the specified parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param indexFunc [in]
 
 The index of the function for which to get the custom data.
 
-
 ### -param indexParam [in]
 
 The index of the parameter of this function for which to get the custom data.
-
-
-
 
 ### -param guid [in]
 
 The GUID used to identify the data.
 
-
-
-
 ### -param pVarVal [out]
 
 The retrieved data.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,18 +116,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

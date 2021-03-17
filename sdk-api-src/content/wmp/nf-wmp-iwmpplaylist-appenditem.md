@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlaylist.appendItem
 title: IWMPPlaylist::appendItem (wmp.h)
 description: The appendItem method adds a media item to the end of the playlist.
+helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","appendItem method","IWMPPlaylist.appendItem","IWMPPlaylist::appendItem","IWMPPlaylistappendItem","appendItem","appendItem method [Windows Media Player]","appendItem method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_appenditem","wmp/IWMPPlaylist::appendItem"]
 old-location: wmp\iwmpplaylist_appenditem.htm
 tech.root: WMP
 ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],appendItem method, IWMPPlaylist.appendItem, IWMPPlaylist::appendItem, IWMPPlaylistappendItem, appendItem, appendItem method [Windows Media Player], appendItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_appenditem, wmp/IWMPPlaylist::appendItem
-f1_keywords:
-- wmp/IWMPPlaylist.appendItem
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlaylist.appendItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylist::appendItem
+ - wmp/IWMPPlaylist::appendItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlaylist.appendItem
 ---
 
 # IWMPPlaylist::appendItem
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>appendItem</b> method adds a media item to the end of the playlist.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIWMPMedia [in]
 
 Pointer to an <b>IWMPMedia</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
-
-
-
+Before calling this method, you must have full access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_OPTION
 title: DHCP_OPTION (dhcpsapi.h)
 description: The DHCP_OPTION structure defines a single DHCP option and any data elements associated with it.
+helpviewer_keywords: ["*LPDHCP_OPTION","DHCP_OPTION","DHCP_OPTION structure [DHCP]","LPDHCP_OPTION","LPDHCP_OPTION structure pointer [DHCP]","dhcp.dhcp_option","dhcpsapi/DHCP_OPTION","dhcpsapi/LPDHCP_OPTION"]
 old-location: dhcp\dhcp_option.htm
 tech.root: DHCP
 ms.assetid: 1be34eb4-a226-4f07-b763-173a4f8a0671
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION, DHCP_OPTION, DHCP_OPTION structure [DHCP], LPDHCP_OPTION, LPDHCP_OPTION structure pointer [DHCP], dhcp.dhcp_option, dhcpsapi/DHCP_OPTION, dhcpsapi/LPDHCP_OPTION'
-f1_keywords:
-- dhcpsapi/DHCP_OPTION
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_OPTION
 targetos: Windows
 req.typenames: DHCP_OPTION, *LPDHCP_OPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_OPTION
+ - dhcpsapi/_DHCP_OPTION
+ - LPDHCP_OPTION
+ - dhcpsapi/LPDHCP_OPTION
+ - DHCP_OPTION
+ - dhcpsapi/DHCP_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_OPTION
 ---
 
 # DHCP_OPTION structure
@@ -48,58 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_OPTION</b> structure defines a single DHCP option and any data elements associated with it.
-
 
 ## -struct-fields
 
-
-
-
 ### -field OptionID
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies a unique ID number (also called a "code") for this option.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies a unique ID number (also called a "code") for this option.
 
 ### -field OptionName
 
 Unicode string that contains the name of this option.
 
-
 ### -field OptionComment
 
 Unicode string that contains a comment about this option.
 
-
 ### -field DefaultValue
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a> structure that contains the data associated with this option.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a> structure that contains the data associated with this option.
 
 ### -field OptionType
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_type">DHCP_OPTION_TYPE</a> enumeration value that indicates whether this option is a single unary item or an element in an array of options.
-
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_type">DHCP_OPTION_TYPE</a> enumeration value that indicates whether this option is a single unary item or an element in an array of options.
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_array">DHCP_OPTION_ARRAY</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data">DHCP_OPTION_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_type">DHCP_OPTION_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_type">DHCP_OPTION_TYPE</a>

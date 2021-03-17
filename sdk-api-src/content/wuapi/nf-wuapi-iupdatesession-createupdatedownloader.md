@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSession.CreateUpdateDownloader
 title: IUpdateSession::CreateUpdateDownloader (wuapi.h)
 description: Returns an IUpdateDownloader interface for this session.
+helpviewer_keywords: ["CreateUpdateDownloader","CreateUpdateDownloader method [Windows Update Agent]","CreateUpdateDownloader method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateDownloader method","IUpdateSession.CreateUpdateDownloader","IUpdateSession::CreateUpdateDownloader","wua.iupdatesession_createupdatedownloader","wuapi/IUpdateSession::CreateUpdateDownloader"]
 old-location: wua\iupdatesession_createupdatedownloader.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
-f1_keywords:
-- wuapi/IUpdateSession.CreateUpdateDownloader
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession.CreateUpdateDownloader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession::CreateUpdateDownloader
+ - wuapi/IUpdateSession::CreateUpdateDownloader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession.CreateUpdateDownloader
 ---
 
 # IUpdateSession::CreateUpdateDownloader
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
-
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 ## -parameters
 
-
-
-
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -98,27 +92,11 @@ This  method cannot be called from a remote computer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
-
-
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface can also be created by using the UpdateDownloader coclass.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>

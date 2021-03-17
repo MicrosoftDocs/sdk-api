@@ -2,15 +2,12 @@
 UID: NF:netcon.INetConnection.Rename
 title: INetConnection::Rename (netcon.h)
 description: The Rename method renames this connection.
+helpviewer_keywords: ["INetConnection interface [ICS/ICF]","Rename method","INetConnection.Rename","INetConnection::Rename","Rename","Rename method [ICS/ICF]","Rename method [ICS/ICF]","INetConnection interface","_ics_inetconnection_rename","ics.inetconnection_rename","netcon/INetConnection::Rename"]
 old-location: ics\inetconnection_rename.htm
 tech.root: ics
 ms.assetid: 741261cd-f86f-4889-aa3a-df3598938883
 ms.date: 12/05/2018
 ms.keywords: INetConnection interface [ICS/ICF],Rename method, INetConnection.Rename, INetConnection::Rename, Rename, Rename method [ICS/ICF], Rename method [ICS/ICF],INetConnection interface, _ics_inetconnection_rename, ics.inetconnection_rename, netcon/INetConnection::Rename
-f1_keywords:
-- netcon/INetConnection.Rename
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetConnection.Rename
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetConnection::Rename
+ - netcon/INetConnection::Rename
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetConnection.Rename
 ---
 
 # INetConnection::Rename
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Rename</b> method renames this connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pszwNewName [in]
 
 Pointer to a Unicode string that contains the new name for the connection.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,26 +161,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

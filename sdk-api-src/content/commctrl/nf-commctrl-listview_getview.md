@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetView
 title: ListView_GetView macro (commctrl.h)
 description: Gets the current view of a list-view control. You can use this macro or send the LVM_GETVIEW message explicitly.
+helpviewer_keywords: ["ListView_GetView","ListView_GetView macro [Windows Controls]","_win32_ListView_GetView","_win32_ListView_GetView_cpp","commctrl/ListView_GetView","controls.ListView_GetView","controls._win32_ListView_GetView"]
 old-location: controls\ListView_GetView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getview.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetView, ListView_GetView macro [Windows Controls], _win32_ListView_GetView, _win32_ListView_GetView_cpp, commctrl/ListView_GetView, controls.ListView_GetView, controls._win32_ListView_GetView
-f1_keywords:
-- commctrl/ListView_GetView
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetView
+ - commctrl/ListView_GetView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetView
 ---
 
 # ListView_GetView macro
@@ -48,27 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the current view of a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getview">LVM_GETVIEW</a> message explicitly. 
-
+Gets the current view of a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getview">LVM_GETVIEW</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ## -remarks
 
-
-
-To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_GetView</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

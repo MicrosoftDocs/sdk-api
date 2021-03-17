@@ -2,15 +2,12 @@
 UID: NS:winioctl._GET_CHANGER_PARAMETERS
 title: GET_CHANGER_PARAMETERS
 description: Represents the parameters of a changer.
+helpviewer_keywords: ["*PGET_CHANGER_PARAMETERS","CHANGER_BAR_CODE_SCANNER_INSTALLED","CHANGER_CARTRIDGE_MAGAZINE","CHANGER_CLEANER_ACCESS_NOT_VALID","CHANGER_CLEANER_AUTODISMOUNT","CHANGER_CLEANER_OPS_NOT_SUPPORTED","CHANGER_CLEANER_SLOT","CHANGER_CLOSE_IEPORT","CHANGER_DEVICE_REINITIALIZE_CAPABLE","CHANGER_DRIVE_CLEANING_REQUIRED","CHANGER_DRIVE_EMPTY_ON_DOOR_ACCESS","CHANGER_EXCHANGE_MEDIA","CHANGER_IEPORT_USER_CONTROL_CLOSE","CHANGER_IEPORT_USER_CONTROL_OPEN","CHANGER_INIT_ELEM_STAT_WITH_RANGE","CHANGER_KEYPAD_ENABLE_DISABLE","CHANGER_LOCK_UNLOCK","CHANGER_MEDIUM_FLIP","CHANGER_MOVE_EXTENDS_IEPORT","CHANGER_MOVE_RETRACTS_IEPORT","CHANGER_OPEN_IEPORT","CHANGER_POSITION_TO_ELEMENT","CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE","CHANGER_PREDISMOUNT_ALIGN_TO_SLOT","CHANGER_PREDISMOUNT_EJECT_REQUIRED","CHANGER_PREMOUNT_EJECT_REQUIRED","CHANGER_REPORT_IEPORT_STATE","CHANGER_RTN_MEDIA_TO_ORIGINAL_ADDR","CHANGER_SERIAL_NUMBER_VALID","CHANGER_SLOTS_USE_TRAYS","CHANGER_STATUS_NON_VOLATILE","CHANGER_STORAGE_DRIVE","CHANGER_STORAGE_IEPORT","CHANGER_STORAGE_SLOT","CHANGER_STORAGE_TRANSPORT","CHANGER_TO_DRIVE","CHANGER_TO_IEPORT","CHANGER_TO_SLOT","CHANGER_TO_TRANSPORT","CHANGER_TRUE_EXCHANGE_CAPABLE","CHANGER_VOLUME_ASSERT","CHANGER_VOLUME_IDENTIFICATION","CHANGER_VOLUME_REPLACE","CHANGER_VOLUME_SEARCH","CHANGER_VOLUME_UNDEFINE","GET_CHANGER_PARAMETERS","GET_CHANGER_PARAMETERS structure","LOCK_UNLOCK_DOOR","LOCK_UNLOCK_IEPORT","LOCK_UNLOCK_KEYPAD","PGET_CHANGER_PARAMETERS","PGET_CHANGER_PARAMETERS structure pointer","_win32_get_changer_parameters_str","base.get_changer_parameters_str","winioctl/GET_CHANGER_PARAMETERS","winioctl/PGET_CHANGER_PARAMETERS"]
 old-location: base\get_changer_parameters_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: ad5b6cc3-19f1-4196-9f03-791f342d0cf9
 ms.date: 12/05/2018
 ms.keywords: '*PGET_CHANGER_PARAMETERS, CHANGER_BAR_CODE_SCANNER_INSTALLED, CHANGER_CARTRIDGE_MAGAZINE, CHANGER_CLEANER_ACCESS_NOT_VALID, CHANGER_CLEANER_AUTODISMOUNT, CHANGER_CLEANER_OPS_NOT_SUPPORTED, CHANGER_CLEANER_SLOT, CHANGER_CLOSE_IEPORT, CHANGER_DEVICE_REINITIALIZE_CAPABLE, CHANGER_DRIVE_CLEANING_REQUIRED, CHANGER_DRIVE_EMPTY_ON_DOOR_ACCESS, CHANGER_EXCHANGE_MEDIA, CHANGER_IEPORT_USER_CONTROL_CLOSE, CHANGER_IEPORT_USER_CONTROL_OPEN, CHANGER_INIT_ELEM_STAT_WITH_RANGE, CHANGER_KEYPAD_ENABLE_DISABLE, CHANGER_LOCK_UNLOCK, CHANGER_MEDIUM_FLIP, CHANGER_MOVE_EXTENDS_IEPORT, CHANGER_MOVE_RETRACTS_IEPORT, CHANGER_OPEN_IEPORT, CHANGER_POSITION_TO_ELEMENT, CHANGER_PREDISMOUNT_ALIGN_TO_DRIVE, CHANGER_PREDISMOUNT_ALIGN_TO_SLOT, CHANGER_PREDISMOUNT_EJECT_REQUIRED, CHANGER_PREMOUNT_EJECT_REQUIRED, CHANGER_REPORT_IEPORT_STATE, CHANGER_RTN_MEDIA_TO_ORIGINAL_ADDR, CHANGER_SERIAL_NUMBER_VALID, CHANGER_SLOTS_USE_TRAYS, CHANGER_STATUS_NON_VOLATILE, CHANGER_STORAGE_DRIVE, CHANGER_STORAGE_IEPORT, CHANGER_STORAGE_SLOT, CHANGER_STORAGE_TRANSPORT, CHANGER_TO_DRIVE, CHANGER_TO_IEPORT, CHANGER_TO_SLOT, CHANGER_TO_TRANSPORT, CHANGER_TRUE_EXCHANGE_CAPABLE, CHANGER_VOLUME_ASSERT, CHANGER_VOLUME_IDENTIFICATION, CHANGER_VOLUME_REPLACE, CHANGER_VOLUME_SEARCH, CHANGER_VOLUME_UNDEFINE, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure, LOCK_UNLOCK_DOOR, LOCK_UNLOCK_IEPORT, LOCK_UNLOCK_KEYPAD, PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer, _win32_get_changer_parameters_str, base.get_changer_parameters_str, winioctl/GET_CHANGER_PARAMETERS, winioctl/PGET_CHANGER_PARAMETERS'
-f1_keywords:
-- winioctl/GET_CHANGER_PARAMETERS
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- GET_CHANGER_PARAMETERS
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 req.redist: 
+f1_keywords:
+ - _GET_CHANGER_PARAMETERS
+ - winioctl/_GET_CHANGER_PARAMETERS
+ - PGET_CHANGER_PARAMETERS
+ - winioctl/PGET_CHANGER_PARAMETERS
+ - GET_CHANGER_PARAMETERS
+ - winioctl/GET_CHANGER_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - GET_CHANGER_PARAMETERS
 ---
 
 # GET_CHANGER_PARAMETERS structure
@@ -47,84 +53,65 @@ req.redist:
 
 ## -description
 
-
 Represents the parameters of a changer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size of this structure, in bytes. The caller must set this member to <code>sizeof(GET_CHANGER_PARAMETERS)</code>.
 
-
 ### -field NumberTransportElements
 
 The number of transport elements in the changer. For a SCSI changer, this is defined in the element address page. This value is almost always 1, because most changers have a single transport element with one or two picker mechanisms. A changer that has two picker mechanisms on its transport must not be represented as having two transports, because pickers are not individually addressable. High-end media libraries can have dual and multiple transport elements for fault tolerance.
-
 
 ### -field NumberStorageElements
 
 The number of storage elements (slots) in the changer. For a SCSI changer, this is defined in the element address page. This value represents the maximum number of slots available for this changer including those in removable magazines, whether or not the magazines are installed. If <b>NumberCleanerSlots</b> is 1, then <b>NumberStorageElements</b> is 1 less than the maximum number of slots in the changer.
 
-
 ### -field NumberCleanerSlots
 
 The number of storage elements (slots) for cleaner cartridges in the changer. If <b>NumberCleanerSlots</b> is 1, then <b>FirstCleanerSlotAddress</b> indicates the zero-based address of the slot in which a drive cleaner should be inserted. If the changer does not support drive cleaning by programmatically moving the cleaner cartridge from its slot to a drive, <b>NumberCleanerSlots</b> is 0. <b>NumberCleanerSlots</b> cannot be greater than 1.
-
 
 ### -field NumberIEElements
 
 The number of import/export elements (insert/eject ports) the changer has for inserting and ejecting media. For a SCSI changer, this is defined in the element address page. An import/export element must not be part of the storage element (slot) space, and it must be possible to transport media between the import/export element and a slot using a MOVE MEDIUM command. If the changer has a door and not a true import/export element, <b>NumberIEElements</b> is 0.
 
-
 ### -field NumberDataTransferElements
 
 The number of data transfer elements (drives) in the changer. For a SCSI changer, this is defined in the element address page. Unlike <b>NumberStorageElements</b>, which indicates the total number of possible slots whether or not the slots are actually present, <b>NumberDataTransferElements</b> indicates the number of drives that are actually present in the changer.
-
 
 ### -field NumberOfDoors
 
 The number of doors in the changer. A door provides access to all media in the changer at once, unlike an insert/eject port, which provides access to one or more, but not all, media. A changer's door can be a physical front door or a single magazine that contains all media. If a changer supports only an insert/eject port for inserting and ejecting media, <b>NumberOfDoors</b> is 0.
 
-
 ### -field FirstSlotNumber
 
 The number used by the changer vendor to identify the first storage element (slot) in the changer to the end user, either by marking a magazine or by defining a slot numbering scheme in the changer's operators guide. <b>FirstSlotNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of slot addresses defined by the vendor.
-
 
 ### -field FirstDriveNumber
 
 The number used by the changer vendor to identify the first data transfer element (drive) in the changer to the end user. <b>FirstDriveNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of drive addresses defined by the vendor.
 
-
 ### -field FirstTransportNumber
 
 The number used by the changer vendor to identify the first (and usually only) transport element in the changer to the end user. <b>FirstTransportNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of transport addresses defined by the vendor.
-
 
 ### -field FirstIEPortNumber
 
 The number used by the changer vendor to identify the first (and usually only) insert/eject port in the changer to the end user. <b>FirstIEPortNumber</b> is typically 0 or 1, but it can be the first address in a consecutive range of insert/eject port addresses defined by the vendor. If <b>NumberIEElements</b> is 0, <b>FirstIEPortNumber</b> must also be 0.
 
-
 ### -field FirstCleanerSlotAddress
 
 The number used by the changer vendor to identify the first (and only) slot address assigned to a drive cleaner cartridge to the end user. This must be the value defined by the vendor in the changer's operators guide. For example, if a changer has 8 slots numbered 1 through 8 and its operator's guide designates slot 8 as the drive cleaner slot, <b>FirstSlotNumber</b> would be 1 and <b>FirstCleanerSlotAddress</b> would be 8. If the same 8 slots were numbered 0 through 7, <b>FirstSlotNumber</b> would be 0 and <b>FirstCleanerSlotAddress</b> would be 7. If <b>NumberCleanerSlots</b> is 0, <b>FirstCleanerSlotAddress</b> must be 0.
-
 
 ### -field MagazineSize
 
 The number of slots in the removable magazines in the changer. This member is valid only if CHANGER_CARTRIDGE_MAGAZINE is set in <b>Features0</b>.
 
-
 ### -field DriveCleanTimeout
 
 Twice the maximum number of seconds a cleaning is expected to take. The changer's drives should be cleaned by its cleaner cartridge in half the time specified by <b>DriveCleanTimeout</b>. For example, if a drive is typically cleaned in 300 seconds (5 minutes), <b>DriveCleanTimeout</b> should be set to 600.
-
 
 ### -field Features0
 
@@ -165,7 +152,7 @@ The changer uses removable cartridge magazines for some or all storage slots.
 </td>
 <td width="60%">
 The ELEMENT_STATUS_ACCESS flag in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element_status">CHANGER_ELEMENT_STATUS</a> structure for a data transport element is invalid when the transport element contains a cleaning cartridge.
 
 </td>
 </tr>
@@ -456,8 +443,6 @@ The changer can clear existing volume information. For a SCSI changer, this flag
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Features1
 
@@ -590,8 +575,6 @@ The changer can exchange media between a source and a destination in a single op
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MoveFromTransport
 
@@ -652,43 +635,34 @@ The changer can carry out the operation from the specified element to a transpor
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MoveFromSlot
 
 Indicates whether the changer supports moving medium from a storage slot to a transport element, another storage slot, an insert/eject port, or a drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the move.
 
-
 ### -field MoveFromIePort
 
 Indicates whether the changer supports moving medium from an insert/eject port to a transport element, a storage slot, another insert/eject port, or a drive. For a SCSI changer, this is defined in the device capabilities page. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the move.
-
 
 ### -field MoveFromDrive
 
 Indicates whether the changer supports moving medium from a drive to a transport element, a storage slot, an insert/eject port, or another drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the move.
 
-
 ### -field ExchangeFromTransport
 
 Indicates whether the changer supports exchanging medium between a transport element and another transport element, a storage slot, an insert/eject port, or a drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
-
 
 ### -field ExchangeFromSlot
 
 Indicates whether the changer supports exchanging medium between a storage slot and a transport element, another storage slot, an insert/eject port, or a drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
-
 ### -field ExchangeFromIePort
 
 Indicates whether the changer supports exchanging medium between an insert/eject port and a transport element, a storage slot, another insert/eject port, or a drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
 
-
 ### -field ExchangeFromDrive
 
 Indicates whether the changer supports exchanging medium between a drive and a transport element, a storage slot, an insert/eject port, or another drive. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports the exchange.
-
 
 ### -field LockUnlockCapabilities
 
@@ -738,31 +712,19 @@ The changer can lock or unlock its keypad.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PositionCapabilities
 
 The elements to which a changer can position its transport. Use the flags described under <b>MoveFromTransport</b> to determine whether the changer supports positioning the transport to a particular element. This member is valid only if CHANGER_POSITION_TO_ELEMENT is set in <b>Features0</b>.
 
-
 ### -field Reserved1
 
 Reserved for future use.
-
 
 ### -field Reserved2
 
 Reserved for future use.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_parameters">IOCTL_CHANGER_GET_PARAMETERS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_parameters">IOCTL_CHANGER_GET_PARAMETERS</a>

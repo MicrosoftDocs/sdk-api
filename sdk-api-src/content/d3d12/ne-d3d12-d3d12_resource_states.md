@@ -2,15 +2,12 @@
 UID: NE:d3d12.D3D12_RESOURCE_STATES
 title: D3D12_RESOURCE_STATES
 description: Defines constants that specify the state of a resource regarding how the resource is being used.
+helpviewer_keywords: ["D3D12_RESOURCE_STATES","D3D12_RESOURCE_STATES enumeration","D3D12_RESOURCE_STATE_COMMON","D3D12_RESOURCE_STATE_COPY_DEST","D3D12_RESOURCE_STATE_COPY_SOURCE","D3D12_RESOURCE_STATE_DEPTH_READ","D3D12_RESOURCE_STATE_DEPTH_WRITE","D3D12_RESOURCE_STATE_GENERIC_READ","D3D12_RESOURCE_STATE_INDEX_BUFFER","D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT","D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE","D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE","D3D12_RESOURCE_STATE_PREDICATION","D3D12_RESOURCE_STATE_PRESENT","D3D12_RESOURCE_STATE_RENDER_TARGET","D3D12_RESOURCE_STATE_RESOLVE_DEST","D3D12_RESOURCE_STATE_RESOLVE_SOURCE","D3D12_RESOURCE_STATE_STREAM_OUT","D3D12_RESOURCE_STATE_UNORDERED_ACCESS","D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER","D3D12_RESOURCE_STATE_VIDEO_DECODE_READ","D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE","D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ","D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE","d3d12/D3D12_RESOURCE_STATES","d3d12/D3D12_RESOURCE_STATE_COMMON","d3d12/D3D12_RESOURCE_STATE_COPY_DEST","d3d12/D3D12_RESOURCE_STATE_COPY_SOURCE","d3d12/D3D12_RESOURCE_STATE_DEPTH_READ","d3d12/D3D12_RESOURCE_STATE_DEPTH_WRITE","d3d12/D3D12_RESOURCE_STATE_GENERIC_READ","d3d12/D3D12_RESOURCE_STATE_INDEX_BUFFER","d3d12/D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT","d3d12/D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE","d3d12/D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE","d3d12/D3D12_RESOURCE_STATE_PREDICATION","d3d12/D3D12_RESOURCE_STATE_PRESENT","d3d12/D3D12_RESOURCE_STATE_RENDER_TARGET","d3d12/D3D12_RESOURCE_STATE_RESOLVE_DEST","d3d12/D3D12_RESOURCE_STATE_RESOLVE_SOURCE","d3d12/D3D12_RESOURCE_STATE_STREAM_OUT","d3d12/D3D12_RESOURCE_STATE_UNORDERED_ACCESS","d3d12/D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER","d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_READ","d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE","d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ","d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE","direct3d12.d3d12_resource_states"]
 old-location: direct3d12\d3d12_resource_states.htm
 tech.root: direct3d12
 ms.assetid: AB14DE3E-97EA-47BE-8917-805B9651ED3A
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_STATES, D3D12_RESOURCE_STATES enumeration, D3D12_RESOURCE_STATE_COMMON, D3D12_RESOURCE_STATE_COPY_DEST, D3D12_RESOURCE_STATE_COPY_SOURCE, D3D12_RESOURCE_STATE_DEPTH_READ, D3D12_RESOURCE_STATE_DEPTH_WRITE, D3D12_RESOURCE_STATE_GENERIC_READ, D3D12_RESOURCE_STATE_INDEX_BUFFER, D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, D3D12_RESOURCE_STATE_PREDICATION, D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_RESOLVE_DEST, D3D12_RESOURCE_STATE_RESOLVE_SOURCE, D3D12_RESOURCE_STATE_STREAM_OUT, D3D12_RESOURCE_STATE_UNORDERED_ACCESS, D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER, D3D12_RESOURCE_STATE_VIDEO_DECODE_READ, D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE, D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ, D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE, d3d12/D3D12_RESOURCE_STATES, d3d12/D3D12_RESOURCE_STATE_COMMON, d3d12/D3D12_RESOURCE_STATE_COPY_DEST, d3d12/D3D12_RESOURCE_STATE_COPY_SOURCE, d3d12/D3D12_RESOURCE_STATE_DEPTH_READ, d3d12/D3D12_RESOURCE_STATE_DEPTH_WRITE, d3d12/D3D12_RESOURCE_STATE_GENERIC_READ, d3d12/D3D12_RESOURCE_STATE_INDEX_BUFFER, d3d12/D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT, d3d12/D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE, d3d12/D3D12_RESOURCE_STATE_PREDICATION, d3d12/D3D12_RESOURCE_STATE_PRESENT, d3d12/D3D12_RESOURCE_STATE_RENDER_TARGET, d3d12/D3D12_RESOURCE_STATE_RESOLVE_DEST, d3d12/D3D12_RESOURCE_STATE_RESOLVE_SOURCE, d3d12/D3D12_RESOURCE_STATE_STREAM_OUT, d3d12/D3D12_RESOURCE_STATE_UNORDERED_ACCESS, d3d12/D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER, d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_READ, d3d12/D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE, d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ, d3d12/D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE, direct3d12.d3d12_resource_states
-f1_keywords:
-- d3d12/D3D12_RESOURCE_STATES
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_RESOURCE_STATES
 targetos: Windows
 req.typenames: D3D12_RESOURCE_STATES
 req.redist: 
+f1_keywords:
+ - D3D12_RESOURCE_STATES
+ - d3d12/D3D12_RESOURCE_STATES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_RESOURCE_STATES
 ---
 
 ## -description
@@ -60,7 +62,7 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
 ### -field D3D12_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER
 
-A subresource must be in this state when it is accessed by the 3D pipeline as a vertex buffer or constant buffer. This is a read-only state.
+A subresource must be in this state when it is accessed by the GPU as a vertex buffer or constant buffer. This is a read-only state.
 
 ### -field D3D12_RESOURCE_STATE_INDEX_BUFFER
 
@@ -74,7 +76,7 @@ This is a write-only state. To read from a render target as a shader resource th
 
 ### -field D3D12_RESOURCE_STATE_UNORDERED_ACCESS
 
-The resource is used for unordered access. A subresource must be in this state when it is accessed by the 3D pipeline via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
+The resource is used for unordered access. A subresource must be in this state when it is accessed by the GPU via an unordered access view. A subresource must also be in this state when it is cleared with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint">ID3D12GraphicsCommandList::ClearUnorderedAccessViewInt</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat">ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat</a>. This is a read/write state.
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_WRITE
 
@@ -86,8 +88,7 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 ### -field D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
 
-The resource is used with a shader other than the pixel shader. A subresource must be in this state before being read by any stage (except for the pixel shader stage) via a shader resource view. You can still use the resource in a pixel shader with this flag as long as it also has the flag D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE set. This is a read-only state.        
-
+The resource is used with a shader other than the pixel shader. A subresource must be in this state before being read by any stage (except for the pixel shader stage) via a shader resource view. You can still use the resource in a pixel shader with this flag as long as it also has the flag D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE set. This is a read-only state.
 
 ### -field D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE
 
@@ -96,49 +97,32 @@ The resource is used with a pixel shader. A subresource must be in this state be
 ### -field D3D12_RESOURCE_STATE_STREAM_OUT
 
 The resource is used with stream output. A subresource must be in this state when it is accessed by the 3D pipeline as a stream-out target. This is a write-only state.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT
-
 
             The resource is used as an indirect argument.
             Subresources must be in this state when they are used as the argument buffer passed to the indirect drawing method <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect">ID3D12GraphicsCommandList::ExecuteIndirect</a>.
             This is a read-only state.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_COPY_DEST
-
 
             The resource is used as the destination in a copy operation.
             Subresources must be in this state when they are used as the destination of copy operation, or a blt operation.
             This is a write-only state.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_COPY_SOURCE
-
 
             The resource is used as the source in a copy operation.
             Subresources must be in this state when they are used as the source of copy operation, or a blt operation.
             This is a read-only state.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_RESOLVE_DEST
 
-
             The resource is used as the destination in a resolve operation.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_RESOLVE_SOURCE
 
-
             The resource is used as the source in a resolve operation.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE
 
@@ -154,60 +138,38 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 
 ### -field D3D12_RESOURCE_STATE_PRESENT
 
-
             Synonymous with D3D12_RESOURCE_STATE_COMMON.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_PREDICATION
 
-
             The resource is used for <a href="/windows/win32/direct3d12/predication">Predication</a>.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_DECODE_READ
 
-
             The resource is used as a source in a decode operation. Examples include reading the compressed bitstream and reading from decode references,
-          
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_DECODE_WRITE
 
-
             The resource is used as a destination in the decode operation. This state is used for decode output and histograms.
-          
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_PROCESS_READ
 
-
             The resource is used to read video data during video processing; that is, the resource is used as the source in a processing operation such as video encoding (compression).
-          
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_PROCESS_WRITE
 
-
             The resource is used to write video data during video processing; that is, the resource is used as the destination in a processing operation such as video encoding (compression).
-          
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_READ
+
         
             The resource is used as the source in an encode operation. This state is used for the input and reference of motion estimation.
-
 
 ### -field D3D12_RESOURCE_STATE_VIDEO_ENCODE_WRITE
 
             This resource is used as the destination in an encode operation. This state is used for the destination texture of a resolve motion vector heap operation.
 
-
 ## -remarks
-
-
-
 
         This enum is used by the following methods:
         
@@ -224,19 +186,11 @@ D3D12_RESOURCE_STATE_GENERIC_READ is a logically OR'd combination of other read-
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
 <a href="/windows/win32/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
- 
-
- 
 

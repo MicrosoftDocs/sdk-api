@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPMediaCollection.getByGenre
 title: IWMPMediaCollection::getByGenre (wmp.h)
 description: The getByGenre method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items with the specified genre.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByGenre method","IWMPMediaCollection.getByGenre","IWMPMediaCollection::getByGenre","IWMPMediaCollectiongetByGenre","getByGenre","getByGenre method [Windows Media Player]","getByGenre method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbygenre","wmp/IWMPMediaCollection::getByGenre"]
 old-location: wmp\iwmpmediacollection_getbygenre.htm
 tech.root: WMP
 ms.assetid: 292189a5-06ec-4870-b279-5190c57c77c9
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByGenre method, IWMPMediaCollection.getByGenre, IWMPMediaCollection::getByGenre, IWMPMediaCollectiongetByGenre, getByGenre, getByGenre method [Windows Media Player], getByGenre method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbygenre, wmp/IWMPMediaCollection::getByGenre
-f1_keywords:
-- wmp/IWMPMediaCollection.getByGenre
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPMediaCollection.getByGenre
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMediaCollection::getByGenre
+ - wmp/IWMPMediaCollection::getByGenre
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPMediaCollection.getByGenre
 ---
 
 # IWMPMediaCollection::getByGenre
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getByGenre</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface. This interface contains the media items with the specified genre.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrGenre [in]
 
 String containing the genre.
 
-
 ### -param ppMediaItems [out]
 
 Pointer to a pointer to an <b>IWMPPlaylist</b> interface for the retrieved media items.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,33 +83,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Before calling this method, you must have read access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
-
-Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
-
-There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> interface, and the behavior of the <b>getByGenre</b> method depends on which of those two ways you use. If you retrieve the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_mediacollection">IWMPCore::get_mediaCollection</a>, then the <b>getByGenre</b> method returns all the media items in the library that belong to the specified genre. If you retrieve the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">IWMPLibrary::get_mediaCollection</a>, then the <b>getByGenre</b> method returns only the audio items in the library that belong to the specified genre.
-
-
-
+There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> interface, and the behavior of the <b>getByGenre</b> method depends on which of those two ways you use. If you retrieve the interface by calling <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_mediacollection">IWMPCore::get_mediaCollection</a>, then the <b>getByGenre</b> method returns all the media items in the library that belong to the specified genre. If you retrieve the interface by calling <a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">IWMPLibrary::get_mediaCollection</a>, then the <b>getByGenre</b> method returns only the audio items in the library that belong to the specified genre.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>

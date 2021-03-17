@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPStorageGlobals.GetCapabilities
 title: IMDSPStorageGlobals::GetCapabilities (mswmdm.h)
 description: The GetCapabilities method retrieves the capabilities of the storage medium that an instance of this interface is associated with.
+helpviewer_keywords: ["GetCapabilities","GetCapabilities method [windows Media Device Manager]","GetCapabilities method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetCapabilities method","IMDSPStorageGlobals.GetCapabilities","IMDSPStorageGlobals::GetCapabilities","IMDSPStorageGlobalsGetCapabilities","mswmdm/IMDSPStorageGlobals::GetCapabilities","wmdm.imdspstorageglobals_getcapabilities"]
 old-location: wmdm\imdspstorageglobals_getcapabilities.htm
 tech.root: WMDM
 ms.assetid: 83204c04-503d-4687-8a4d-3c95a6def8d1
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IMDSPStorageGlobals.GetCapabilities, IMDSPStorageGlobals::GetCapabilities, IMDSPStorageGlobalsGetCapabilities, mswmdm/IMDSPStorageGlobals::GetCapabilities, wmdm.imdspstorageglobals_getcapabilities
-f1_keywords:
-- mswmdm/IMDSPStorageGlobals.GetCapabilities
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorageGlobals.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorageGlobals::GetCapabilities
+ - mswmdm/IMDSPStorageGlobals::GetCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorageGlobals.GetCapabilities
 ---
 
 # IMDSPStorageGlobals::GetCapabilities
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCapabilities</b> method retrieves the capabilities of the storage medium that an instance of this interface is associated with.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwCapabilities [out]
 
@@ -135,12 +129,8 @@ For secured device implementations, the following flags describing the rights ca
 <td>The medium supports a named serial identifier for the file.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -149,31 +139,16 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 Attempts to perform unsupported operations on the storage medium with the <b>IMDSPObject</b> interface return an error code. The <b>GetCapabilities</b> method can be called in order to determine whether an operation can be expected to succeed under normal circumstances.
 
 If either the WMDM_STORAGECAP_FILELIMITEXISTS flag or the WMDM_STORAGECAP_FOLDERLIMITEXISTS flag is true, there are arbitrary limits on the number of files or folders that can be created. Operations through the <b>IMDSPObject</b> interface that exceed these limits will fail.
 
-This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
-
-
-
+This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals">IMDSPStorageGlobals Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals">IMDSPStorageGlobals Interface</a>

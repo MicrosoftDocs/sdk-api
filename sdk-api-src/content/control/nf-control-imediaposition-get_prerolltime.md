@@ -2,15 +2,12 @@
 UID: NF:control.IMediaPosition.get_PrerollTime
 title: IMediaPosition::get_PrerollTime (control.h)
 description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.
+helpviewer_keywords: ["IMediaPosition interface [DirectShow]","get_PrerollTime method","IMediaPosition.get_PrerollTime","IMediaPosition::get_PrerollTime","IMediaPositionget_PrerollTime","control/IMediaPosition::get_PrerollTime","dshow.imediaposition_get_prerolltime","get_PrerollTime","get_PrerollTime method [DirectShow]","get_PrerollTime method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_get_prerolltime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface
-f1_keywords:
-- control/IMediaPosition.get_PrerollTime
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.get_PrerollTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::get_PrerollTime
+ - control/IMediaPosition::get_PrerollTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.get_PrerollTime
 ---
 
 # IMediaPosition::get_PrerollTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_PrerollTime</code> method retrieves the amount of data that will be queued before the start position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pllTime [out]
 
 Pointer to a variable that receives the preroll time, in seconds.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,33 +102,17 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>preroll</i> is the time prior to the start position at which nonrandom access devices, such as tape players, should start rolling.
 
 If no filter in the graph implements this method, the Filter Graph Manager sets the value of <i>*pllTime</i> to zero and returns S_OK.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

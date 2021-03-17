@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_PduData
 title: IMbnSmsReadMsgPdu::get_PduData (mbnapi.h)
 description: The PDU message in hexadecimal format as used by GSM devices.
+helpviewer_keywords: ["IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","PduData property","IMbnSmsReadMsgPdu.PduData","IMbnSmsReadMsgPdu.get_PduData","IMbnSmsReadMsgPdu::PduData","IMbnSmsReadMsgPdu::get_PduData","PduData property [Microsoft Broadband Networks]","PduData property [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface","get_PduData","mbn.imbnsmsreadmsgpdu_pdudata","mbnapi/IMbnSmsReadMsgPdu::PduData","mbnapi/IMbnSmsReadMsgPdu::get_PduData"]
 old-location: mbn\imbnsmsreadmsgpdu_pdudata.htm
 tech.root: mbn
 ms.assetid: 709dd6dd-c54d-4a46-bc29-f68229feb97d
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],PduData property, IMbnSmsReadMsgPdu.PduData, IMbnSmsReadMsgPdu.get_PduData, IMbnSmsReadMsgPdu::PduData, IMbnSmsReadMsgPdu::get_PduData, PduData property [Microsoft Broadband Networks], PduData property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_PduData, mbn.imbnsmsreadmsgpdu_pdudata, mbnapi/IMbnSmsReadMsgPdu::PduData, mbnapi/IMbnSmsReadMsgPdu::get_PduData
-f1_keywords:
-- mbnapi/IMbnSmsReadMsgPdu.PduData
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsReadMsgPdu.PduData
-- IMbnSmsReadMsgPdu.get_PduData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsReadMsgPdu::get_PduData
+ - mbnapi/IMbnSmsReadMsgPdu::get_PduData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsReadMsgPdu.PduData
+ - IMbnSmsReadMsgPdu.get_PduData
 ---
 
 # IMbnSmsReadMsgPdu::get_PduData
@@ -56,13 +58,9 @@ The PDU message in hexadecimal format as used by GSM devices.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
   For GSM devices, this data in <i>PduData</i> is compliant to the PDU structure defined in 3GPP TS 27.005 and 3GPP TS 23.040.
 
@@ -95,16 +93,6 @@ The table below shows an example of how a PDU message containing the message "He
 
 For CDMA devices, this property returns <b>NULL</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a>

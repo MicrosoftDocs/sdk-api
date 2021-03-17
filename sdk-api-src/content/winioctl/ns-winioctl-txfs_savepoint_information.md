@@ -2,15 +2,12 @@
 UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
 title: TXFS_SAVEPOINT_INFORMATION
 description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
+helpviewer_keywords: ["*PTXFS_SAVEPOINT_INFORMATION","PTXFS_SAVEPOINT_INFORMATION","PTXFS_SAVEPOINT_INFORMATION structure pointer [Files]","TXFS_SAVEPOINT_CLEAR","TXFS_SAVEPOINT_CLEAR_ALL","TXFS_SAVEPOINT_INFORMATION","TXFS_SAVEPOINT_INFORMATION structure [Files]","TXFS_SAVEPOINT_ROLLBACK","TXFS_SAVEPOINT_SET","fs.txfs_savepoint_information","winioctl/PTXFS_SAVEPOINT_INFORMATION","winioctl/TXFS_SAVEPOINT_INFORMATION"]
 old-location: fs\txfs_savepoint_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4ea6d069-832a-4771-8cc0-fd75e82c94b5
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION structure pointer [Files], TXFS_SAVEPOINT_CLEAR, TXFS_SAVEPOINT_CLEAR_ALL, TXFS_SAVEPOINT_INFORMATION, TXFS_SAVEPOINT_INFORMATION structure [Files], TXFS_SAVEPOINT_ROLLBACK, TXFS_SAVEPOINT_SET, fs.txfs_savepoint_information, winioctl/PTXFS_SAVEPOINT_INFORMATION, winioctl/TXFS_SAVEPOINT_INFORMATION'
-f1_keywords:
-- winioctl/TXFS_SAVEPOINT_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- TXFS_SAVEPOINT_INFORMATION
 targetos: Windows
 req.typenames: TXFS_SAVEPOINT_INFORMATION, *PTXFS_SAVEPOINT_INFORMATION
 req.redist: 
+f1_keywords:
+ - _TXFS_SAVEPOINT_INFORMATION
+ - winioctl/_TXFS_SAVEPOINT_INFORMATION
+ - PTXFS_SAVEPOINT_INFORMATION
+ - winioctl/PTXFS_SAVEPOINT_INFORMATION
+ - TXFS_SAVEPOINT_INFORMATION
+ - winioctl/TXFS_SAVEPOINT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - TXFS_SAVEPOINT_INFORMATION
 ---
 
 # TXFS_SAVEPOINT_INFORMATION structure
@@ -47,27 +53,21 @@ req.redist:
 
 ## -description
 
-
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 The 
     <b>FSCTL_TXFS_SAVEPOINT_INFORMATION</b> structure 
     specifies the action to perform, and on which transaction.
 
-
 ## -struct-fields
-
-
-
 
 ### -field KtmTransaction
 
 Handle to the transaction on which to perform the savepoint operation.
-
 
 ### -field ActionCode
 
@@ -123,8 +123,6 @@ Clears all savepoints for the transaction.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SavepointId
 
@@ -138,14 +136,6 @@ If <b>ActionCode</b> is <b>TXFS_SAVEPOINT_CLEAR</b> or
       <b>TXFS_SAVEPOINT_CLEAR_ALL</b>, this member is not used; therefore, on input, specify 
       <b>NULL</b>.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information">FSCTL_TXFS_SAVEPOINT_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information">FSCTL_TXFS_SAVEPOINT_INFORMATION</a>

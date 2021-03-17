@@ -2,15 +2,12 @@
 UID: NF:winbase.ReOpenFile
 title: ReOpenFile function (winbase.h)
 description: Reopens the specified file system object with different access rights, sharing mode, and flags.
+helpviewer_keywords: ["FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_DELETE_ON_CLOSE","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_POSIX_SEMANTICS","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","ReOpenFile","ReOpenFile function [Files]","SECURITY_ANONYMOUS","SECURITY_CONTEXT_TRACKING","SECURITY_DELEGATION","SECURITY_EFFECTIVE_ONLY","SECURITY_IDENTIFICATION","SECURITY_IMPERSONATION","base.reopenfile","fs.reopenfile","winbase/ReOpenFile"]
 old-location: fs\reopenfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 56d8a4b1-e3b5-4134-8d21-bf40761e9dcc
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_DELETE_ON_CLOSE, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_POSIX_SEMANTICS, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, ReOpenFile, ReOpenFile function [Files], SECURITY_ANONYMOUS, SECURITY_CONTEXT_TRACKING, SECURITY_DELEGATION, SECURITY_EFFECTIVE_ONLY, SECURITY_IDENTIFICATION, SECURITY_IMPERSONATION, base.reopenfile, fs.reopenfile, winbase/ReOpenFile
-f1_keywords:
-- winbase/ReOpenFile
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-api_name:
-- ReOpenFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReOpenFile
+ - winbase/ReOpenFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - ReOpenFile
 ---
 
 # ReOpenFile function
@@ -53,26 +55,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reopens the specified file system object with different access rights, sharing mode, and 
     flags.
 
-
 ## -parameters
-
-
-
 
 ### -param hOriginalFile [in]
 
 A handle to the object to be reopened. The object must have been created by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwDesiredAccess [in]
 
 The required access to the object. For a list of values, see 
-	      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>. You 
+	      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>. You 
 	      cannot request an access mode that conflicts with the sharing mode specified in a previous open request whose 
 	      handle is still open.
 
@@ -80,13 +76,12 @@ If this parameter is zero (0), the application can query device attributes witho
        is useful if an application wants to determine the size of a floppy disk drive and the formats it supports 
        without requiring a floppy in the drive.
 
-
 ### -param dwShareMode [in]
 
 The sharing mode of the object. You cannot request a sharing mode that conflicts with the access mode 
        specified in a previous open request whose handle is still open.
 
-If this parameter is zero (0) and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> succeeds, 
+If this parameter is zero (0) and <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> succeeds, 
        the object cannot be shared and cannot be opened again until the handle is closed.
 
 To enable other processes to share the object while your process has it open, use a combination of one or 
@@ -141,8 +136,6 @@ If the object has already been opened with write access, the sharing mode must i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -164,7 +157,7 @@ Indicates that the file is being opened or created for a backup or restore opera
          that the calling process overrides file security checks, provided it has the 
          <b>SE_BACKUP_NAME</b> and <b>SE_RESTORE_NAME</b> privileges. For more 
          information, see 
-         <a href="https://docs.microsoft.com/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
+         <a href="/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
 
 You can also set this flag to obtain a handle to a directory. Where indicated, a directory handle can be 
          passed to some functions in place of a file handle.
@@ -211,14 +204,14 @@ An application must meet specific requirements when working with files opened wi
           enforced.</li>
 </ul>
 One way to align buffers on integer multiples of the volume sector size is to use 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to allocate the buffers. It allocates 
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to allocate the buffers. It allocates 
          memory that is aligned on addresses that are integer multiples of the operating system memory page size. 
          Because both memory page and volume sector sizes are powers of 2, this memory is also aligned on addresses 
          that are integer multiples of a volume sector size. Memory pages are 4-8 KB in size; sectors are 512 bytes 
          (hard disks) or 2048 bytes (CD), and therefore, volume sectors can never be larger than memory pages.
 
 An application can determine a volume sector size by calling the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
 
 </td>
 </tr>
@@ -241,7 +234,7 @@ Indicates that the file data is requested, but it should continue to reside in r
 </dl>
 </td>
 <td width="60%">
-When this flag is used, normal <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">reparse point</a> 
+When this flag is used, normal <a href="/windows/desktop/FileIO/reparse-points">reparse point</a> 
          processing does not occur, and <b>ReOpenFile</b> attempts to 
          open the reparse point. When a file is opened, a file handle is returned, whether or not the filter that 
          controls the reparse point is operational. This flag cannot be used with the 
@@ -262,13 +255,13 @@ Instructs the system to initialize the object, so that operations that take a si
 
 When you specify <b>FILE_FLAG_OVERLAPPED</b>, the file read and write functions 
          <b>must</b> specify an 
-         <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. That is, when 
+         <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. That is, when 
          <b>FILE_FLAG_OVERLAPPED</b> is specified, an application <b>must</b> 
          perform overlapped reading and writing.
 
 When <b>FILE_FLAG_OVERLAPPED</b> is specified, the system does not maintain the file 
          pointer. The file position must be passed as part of the <i>lpOverlapped</i> parameter 
-         (pointing to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure) to the file 
+         (pointing to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure) to the file 
          read and write functions.
 
 This flag also enables more than one operation to be performed simultaneously with the handle (a 
@@ -279,7 +272,7 @@ This flag also enables more than one operation to be performed simultaneously wi
 <tr>
 <td width="40%"><a id="FILE_FLAG_POSIX_SEMANTICS"></a><a id="file_flag_posix_semantics"></a><dl>
 <dt><b>FILE_FLAG_POSIX_SEMANTICS</b></dt>
-<dt>0x0100000</dt>
+<dt>0x01000000</dt>
 </dl>
 </td>
 <td width="60%">
@@ -336,7 +329,7 @@ Instructs the system to write through any intermediate cache and go directly to 
 
 If the handle represents the client side of a named pipe, the <i>dwFlags</i> parameter can 
        also contain Security Quality of Service information. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the calling 
+       <a href="/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the calling 
        application specifies the <b>SECURITY_SQOS_PRESENT</b> flag, the 
        <i>dwFlags</i> parameter can contain one or more of the following values.
 
@@ -411,24 +404,15 @@ Impersonate the client at the Impersonation impersonation level.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The <i>dwFlags</i> parameter cannot contain any of the file attribute flags 
     (<b>FILE_ATTRIBUTE_*</b>). These can only be specified when the file is created.
@@ -491,22 +475,11 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

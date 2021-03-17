@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndSession
 title: IPhotoAcquireProgressCB::EndSession (photoacquire.h)
 description: The EndSession method provides extended functionality when an acquisition session is completed. The application provides the implementation of the EndSession method.
+helpviewer_keywords: ["EndSession","EndSession method [Picture Acquisition]","EndSession method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","EndSession method","IPhotoAcquireProgressCB.EndSession","IPhotoAcquireProgressCB::EndSession","IPhotoAcquireProgressCBEndSession","photoacquire/IPhotoAcquireProgressCB::EndSession","picacq.iphotoacquireprogresscb_endsession"]
 old-location: picacq\iphotoacquireprogresscb_endsession.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: fb22709a-c1f8-4608-b984-46181e7c704e
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Picture Acquisition], EndSession method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndSession method, IPhotoAcquireProgressCB.EndSession, IPhotoAcquireProgressCB::EndSession, IPhotoAcquireProgressCBEndSession, photoacquire/IPhotoAcquireProgressCB::EndSession, picacq.iphotoacquireprogresscb_endsession
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB.EndSession
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireProgressCB.EndSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB::EndSession
+ - photoacquire/IPhotoAcquireProgressCB::EndSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireProgressCB.EndSession
 ---
 
 # IPhotoAcquireProgressCB::EndSession
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>EndSession</code> method provides extended functionality when an acquisition session is completed. The application provides the implementation of the <code>EndSession</code> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hr [in]
 
 Specifies the result of the acquisition.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values. Any failing HRESULT other than E_NOTIMPL is fatal and will cause the transfer to abort.
 
@@ -100,18 +91,7 @@ The method is not yet implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnhancedStorageACT2.IsDeviceRemovable
 title: IEnhancedStorageACT2::IsDeviceRemovable (ehstorapi.h)
 description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.
+helpviewer_keywords: ["IEnhancedStorageACT2 interface [Enhanced Storage]","IsDeviceRemovable method","IEnhancedStorageACT2.IsDeviceRemovable","IEnhancedStorageACT2::IsDeviceRemovable","IsDeviceRemovable","IsDeviceRemovable method [Enhanced Storage]","IsDeviceRemovable method [Enhanced Storage]","IEnhancedStorageACT2 interface","ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable","enstor.ienhancedstorageact2_isdeviceremovable"]
 old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
 tech.root: enstor
 ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT2 interface [Enhanced Storage],IsDeviceRemovable method, IEnhancedStorageACT2.IsDeviceRemovable, IEnhancedStorageACT2::IsDeviceRemovable, IsDeviceRemovable, IsDeviceRemovable method [Enhanced Storage], IsDeviceRemovable method [Enhanced Storage],IEnhancedStorageACT2 interface, ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable, enstor.ienhancedstorageact2_isdeviceremovable
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT2.IsDeviceRemovable
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT2.IsDeviceRemovable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT2::IsDeviceRemovable
+ - ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT2.IsDeviceRemovable
 ---
 
 # IEnhancedStorageACT2::IsDeviceRemovable
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnhancedStorageACT2::IsDeviceRemovable</b> method returns information that indicates if the device associated with the ACT is removable.
 
-
 ## -parameters
-
-
-
 
 ### -param pIsDeviceRemovable
 
 Pointer to a boolean value that indicates if the device associated with the ACT is removable.
 
-
 ## -returns
-
-
 
 This method can return one of the following values:
 
@@ -96,18 +90,7 @@ The information was successfully retrieved.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>

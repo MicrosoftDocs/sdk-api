@@ -2,15 +2,12 @@
 UID: NF:ocidl.IOleUndoManager.EnumUndoable
 title: IOleUndoManager::EnumUndoable (ocidl.h)
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
+helpviewer_keywords: ["EnumUndoable","EnumUndoable method [COM]","EnumUndoable method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","EnumUndoable method","IOleUndoManager.EnumUndoable","IOleUndoManager::EnumUndoable","_ole_ioleundomanager_enumundoable","com.ioleundomanager_enumundoable","ocidl/IOleUndoManager::EnumUndoable"]
 old-location: com\ioleundomanager_enumundoable.htm
 tech.root: com
 ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c
 ms.date: 12/05/2018
 ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumUndoable method, IOleUndoManager.EnumUndoable, IOleUndoManager::EnumUndoable, _ole_ioleundomanager_enumundoable, com.ioleundomanager_enumundoable, ocidl/IOleUndoManager::EnumUndoable
-f1_keywords:
-- ocidl/IOleUndoManager.EnumUndoable
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleUndoManager.EnumUndoable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUndoManager::EnumUndoable
+ - ocidl/IOleUndoManager::EnumUndoable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleUndoManager.EnumUndoable
 ---
 
 # IOleUndoManager::EnumUndoable
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Address of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a> pointer variable that receives the interface pointer to the enumerator object.
-
+Address of <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a> pointer variable that receives the interface pointer to the enumerator object.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -85,34 +79,17 @@ The undo manager is disabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A new enumerator object is created each time this method is called. If the series of enumerated items changes over time, the results of enumeration operations can vary from one call to the next.
 
-This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the new enumerator object to increment its reference count. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the enumerator object when it is no longer needed.
-
-
-
-
+This method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the new enumerator object to increment its reference count. The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the enumerator object when it is no longer needed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>

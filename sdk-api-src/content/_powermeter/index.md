@@ -1,9 +1,10 @@
 ---
 UID: TP:powermeter
+title: Power Metering and Budgeting Reference
 ms.assetid: 87d19931-d859-3aff-b7ce-1b0060d965a5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Power Metering and Budgeting Reference
@@ -17,5 +18,4 @@ To develop Power Metering and Budgeting Reference, you need these headers:
  * [emi.h](../emi/index.md)
 
 For programming guidance for this technology, see:
-* [Power Metering and Budgeting Reference](https://docs.microsoft.com/windows-hardware/drivers/powermeter/)
-
+* [Power Metering and Budgeting Reference](/windows-hardware/drivers/powermeter/)

@@ -2,15 +2,12 @@
 UID: NF:ndfapi.NdfCreateConnectivityIncident
 title: NdfCreateConnectivityIncident function (ndfapi.h)
 description: Diagnoses generic Internet connectivity problems.
+helpviewer_keywords: ["NdfCreateConnectivityIncident","NdfCreateConnectivityIncident function [NDF]","ndf.ndfcreateconnectivityincident","ndfapi/NdfCreateConnectivityIncident"]
 old-location: ndf\ndfcreateconnectivityincident.htm
 tech.root: NDF
 ms.assetid: 7cc4f85a-04ea-44c0-9516-6b43a4dd51c0
 ms.date: 12/05/2018
 ms.keywords: NdfCreateConnectivityIncident, NdfCreateConnectivityIncident function [NDF], ndf.ndfcreateconnectivityincident, ndfapi/NdfCreateConnectivityIncident
-f1_keywords:
-- ndfapi/NdfCreateConnectivityIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateConnectivityIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateConnectivityIncident
+ - ndfapi/NdfCreateConnectivityIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateConnectivityIncident
 ---
 
 # NdfCreateConnectivityIncident function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCreateConnectivityIncident</b> function diagnoses generic Internet connectivity problems.
 
-
 ## -parameters
-
-
-
 
 ### -param handle [out]
 
@@ -63,10 +60,7 @@ Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -122,7 +116,4 @@ The handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

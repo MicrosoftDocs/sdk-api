@@ -2,15 +2,12 @@
 UID: NF:msxml6.IXMLHTTPRequest2.SetProperty
 title: IXMLHTTPRequest2::SetProperty (msxml6.h)
 description: Sets a property on an outgoing HTTP request.
+helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","SetProperty method","IXMLHTTPRequest2.SetProperty","IXMLHTTPRequest2::SetProperty","SetProperty","SetProperty method [XMLHttpRequest2]","SetProperty method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","XHR_PROP_EXTENDED_ERROR","XHR_PROP_IGNORE_CERT_ERRORS","XHR_PROP_NO_AUTH","XHR_PROP_NO_CACHE","XHR_PROP_NO_CRED_PROMPT","XHR_PROP_NO_DEFAULT_HEADERS","XHR_PROP_QUERY_STRING_UTF8","XHR_PROP_REPORT_REDIRECT_STATUS","XHR_PROP_TIMEOUT","ixhr2.ixmlhttprequest2_setproperty","msxml6/IXMLHTTPRequest2::SetProperty"]
 old-location: ixhr2\ixmlhttprequest2_setproperty.htm
 tech.root: ixhr2
 ms.assetid: 4BBA4E21-29ED-413D-90D6-161D31CC13C9
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],SetProperty method, IXMLHTTPRequest2.SetProperty, IXMLHTTPRequest2::SetProperty, SetProperty, SetProperty method [XMLHttpRequest2], SetProperty method [XMLHttpRequest2],IXMLHTTPRequest2 interface, XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.ixmlhttprequest2_setproperty, msxml6/IXMLHTTPRequest2::SetProperty
-f1_keywords:
-- msxml6/IXMLHTTPRequest2.SetProperty
-dev_langs:
-- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msxml6.h
-api_name:
-- IXMLHTTPRequest2.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLHTTPRequest2::SetProperty
+ - msxml6/IXMLHTTPRequest2::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msxml6.h
+api_name:
+ - IXMLHTTPRequest2.SetProperty
 ---
 
 # IXMLHTTPRequest2::SetProperty
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a property on an outgoing HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param eProperty [in]
 
@@ -112,7 +109,7 @@ Suppresses adding default headers to the HTTP request.
 </dl>
 </td>
 <td width="60%">
-Causes the HTTP stack to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> method will be called again for additional redirects and the final destination status code.
+Causes the HTTP stack to call the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> method will be called again for additional redirects and the final destination status code.
 
 </td>
 </tr>
@@ -124,7 +121,7 @@ Causes the HTTP stack to call the <a href="https://docs.microsoft.com/previous-v
 <td width="60%">
 Suppresses cache reads and writes for the HTTP request.
 
-This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -134,9 +131,9 @@ This property is supported by the <a href="https://docs.microsoft.com/previous-v
 </dl>
 </td>
 <td width="60%">
-Causes the HTTP stack to provide HRESULTS with the underlying Win32 error code to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> method in case of failure.
+Causes the HTTP stack to provide HRESULTS with the underlying Win32 error code to the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> method in case of failure.
 
-This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -148,7 +145,7 @@ This property is supported by the <a href="https://docs.microsoft.com/previous-v
 <td width="60%">
 Causes the query string to be encoded in UTF-8 instead of ACP for the HTTP request.
 
-This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
@@ -160,13 +157,11 @@ This property is supported by the <a href="https://docs.microsoft.com/previous-v
 <td width="60%">
 Suppresses certain certificate errors.
 
-This property is supported by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
+This property is supported by the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ullValue [in]
 
@@ -183,7 +178,7 @@ Specifies the number of milliseconds that the application waits before timing ou
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_CRED_PROMPT</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_CRED_PROMPT_ALL</b> if credential prompting should be enabled <b>(default)</b>.</li>
@@ -198,7 +193,7 @@ This parameter can be one of the values from the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
+This parameter can be one of the values from the <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cred_prompt">XHR_AUTH</a> enumeration type defined in the <i>Msxml6.h</i>  header file.
 
 <ul>
 <li><b>XHR_AUTH_ALL</b> if authentication is enabled <b>(default)</b>.
@@ -304,23 +299,14 @@ The number of milliseconds, up to 0xFFFFFFFF, that the app waits before timing o
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> on success.
-
-
-
 
 ## -remarks
 
-
-
-The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface is extended on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface with new properties to support new scenarios:
+The <b>SetProperty</b> method on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface is extended on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface with new properties to support new scenarios:
 
 
 <ul>
@@ -330,33 +316,22 @@ The <b>SetProperty</b> method on the <a href="https://docs.microsoft.com/previou
 <li>XHR_PROP_IGNORE_CERT_ERRORS – Suppresses certain server certificate errors.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
+<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml6/ne-msxml6-xhr_property">XHR_PROPERTY Enumeration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_property">XHR_PROPERTY Enumeration</a>

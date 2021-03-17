@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetLoggingUrl
 title: IWMReaderNetworkConfig::GetLoggingUrl (wmsdkidl.h)
 description: The GetLoggingUrl method retrieves a URL from the list of servers that receive logging information from the reader object. Use the IWMReaderNetworkConfig::GetLoggingUrl method to add servers to the list.
+helpviewer_keywords: ["GetLoggingUrl","GetLoggingUrl method [windows Media Format]","GetLoggingUrl method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetLoggingUrl method","IWMReaderNetworkConfig.GetLoggingUrl","IWMReaderNetworkConfig::GetLoggingUrl","IWMReaderNetworkConfigGetLoggingUrl","wmformat.iwmreadernetworkconfig_getloggingurl","wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl"]
 old-location: wmformat\iwmreadernetworkconfig_getloggingurl.htm
 tech.root: wmformat
 ms.assetid: 27c5a97b-e04b-4d15-b19a-3c0d78feee95
 ms.date: 12/05/2018
 ms.keywords: GetLoggingUrl, GetLoggingUrl method [windows Media Format], GetLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrl method, IWMReaderNetworkConfig.GetLoggingUrl, IWMReaderNetworkConfig::GetLoggingUrl, IWMReaderNetworkConfigGetLoggingUrl, wmformat.iwmreadernetworkconfig_getloggingurl, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetLoggingUrl
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetLoggingUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetLoggingUrl
+ - wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetLoggingUrl
 ---
 
 # IWMReaderNetworkConfig::GetLoggingUrl
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLoggingUrl</b> method retrieves a URL from the list of servers that receive logging information from the reader object. Use the <b>IWMReaderNetworkConfig::GetLoggingUrl</b> method to add servers to the list.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-Specifies which URL to retrieve, indexed from zero. To get the number of URLs, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurlcount">IWMReaderNetworkConfig::GetLoggingUrlCount</a> method.
-
+Specifies which URL to retrieve, indexed from zero. To get the number of URLs, call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurlcount">IWMReaderNetworkConfig::GetLoggingUrlCount</a> method.
 
 ### -param pwszUrl [out]
 
 Pointer to a buffer that receives a string containing the URL. The caller must allocate the buffer.
 
-
 ### -param pcchUrl [in, out]
 
 On input, specifies the length of the <i>pwszUrl</i> buffer, in characters. On output, receives the length of the URL, including the terminating <b>null</b> character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,31 +112,15 @@ Size passed in to <i>pcchUrl</i> is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should make two calls to <b>GetLoggingUrl</b>. On the first call, pass <b>NULL</b> for <i>pwszUrl</i>. On return, the value pointed to by <i>pcchUrl</i> is set to the number of wide characters, including the terminating <b>null</b>, required to hold the URL. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszUrl</i> on the second call.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

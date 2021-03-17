@@ -2,15 +2,12 @@
 UID: NS:ntmsapi._NTMS_IEDOORINFORMATION
 title: NTMS_IEDOORINFORMATION (ntmsapi.h)
 description: The NTMS_IEDOORINFORMATION structure defines properties specific to an insert/eject door object.
+helpviewer_keywords: ["NTMS_DOORSTATE_CLOSED","NTMS_DOORSTATE_OPEN","NTMS_DOORSTATE_UNKNOWN","NTMS_IEDOORINFORMATION","NTMS_IEDOORINFORMATION structure [Files]","_zaw_ntms_iedoorinformation","base.ntms_iedoorinformation","fs.ntms_iedoorinformation","ntmsapi/NTMS_IEDOORINFORMATION"]
 old-location: fs\ntms_iedoorinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: a0619420-f391-4695-a87e-8cbf8d3a3742
 ms.date: 12/05/2018
 ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN, NTMS_IEDOORINFORMATION, NTMS_IEDOORINFORMATION structure [Files], _zaw_ntms_iedoorinformation, base.ntms_iedoorinformation, fs.ntms_iedoorinformation, ntmsapi/NTMS_IEDOORINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_IEDOORINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_IEDOORINFORMATION
 targetos: Windows
 req.typenames: NTMS_IEDOORINFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_IEDOORINFORMATION
+ - ntmsapi/_NTMS_IEDOORINFORMATION
+ - NTMS_IEDOORINFORMATION
+ - ntmsapi/NTMS_IEDOORINFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_IEDOORINFORMATION
 ---
 
 # NTMS_IEDOORINFORMATION structure
@@ -48,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_IEDOORINFORMATION</b> structure defines properties specific to an insert/eject door object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Number
 
 Number of the door in the library. Typically, libraries have one door.
-
 
 ### -field State
 
@@ -107,39 +105,23 @@ State of the library is unknown.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxOpenSecs
 
 Maximum number of seconds the door is to remain open. Valid values are between 0-65,535 seconds This member is writable.
 
-
 ### -field Library
 
 Library that contains this door.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_IEDOORINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 If the <b>MaxOpenSecs</b> member is zero, an operator request to close the door is generated as soon as the door is open.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

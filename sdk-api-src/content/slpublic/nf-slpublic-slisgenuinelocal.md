@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLIsGenuineLocal
 title: SLIsGenuineLocal function (slpublic.h)
 description: Checks whether the specified application is a genuine Windows installation.
+helpviewer_keywords: ["SLIsGenuineLocal","SLIsGenuineLocal function [Security]","security.slisgenuinelocal","slpublic/SLIsGenuineLocal"]
 old-location: security\slisgenuinelocal.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: e1983777-13c1-4bf5-834d-471db3bfa0f6
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocal, SLIsGenuineLocal function [Security], security.slisgenuinelocal, slpublic/SLIsGenuineLocal
-f1_keywords:
-- slpublic/SLIsGenuineLocal
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slwga.lib
 req.dll: Slwga.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slwga.dll
-api_name:
-- SLIsGenuineLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLIsGenuineLocal
+ - slpublic/SLIsGenuineLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slwga.dll
+api_name:
+ - SLIsGenuineLocal
 ---
 
 # SLIsGenuineLocal function
@@ -48,46 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks whether the specified application is a genuine Windows installation.
 
-
 ## -parameters
-
-
-
 
 ### -param pAppId [in]
 
 A pointer to an <b>SLID</b> structure that specifies the application to check.
 
-
 ### -param pGenuineState [out]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
-
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
 
 ### -param pUIOptions [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_nongenuine_ui_options">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
-
+A pointer to an <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_nongenuine_ui_options">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
 
 ## -returns
 
-
-
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
 This function checks the <b>Tampered</b> flag of the license associated with the specified application. If the license is not valid, or if the <b>Tampered</b> flag of the license is set, the installation is not considered valid.
-
-
-

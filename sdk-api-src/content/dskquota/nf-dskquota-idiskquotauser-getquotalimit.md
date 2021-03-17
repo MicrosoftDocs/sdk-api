@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaLimit
 title: IDiskQuotaUser::GetQuotaLimit (dskquota.h)
 description: Retrieves the user's quota limit value on the volume.
+helpviewer_keywords: ["GetQuotaLimit","GetQuotaLimit method [Files]","GetQuotaLimit method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaLimit method","IDiskQuotaUser.GetQuotaLimit","IDiskQuotaUser::GetQuotaLimit","_win32_idiskquotauser_getquotalimit","base.idiskquotauser_getquotalimit","dskquota/IDiskQuotaUser::GetQuotaLimit","fs.idiskquotauser_getquotalimit"]
 old-location: fs\idiskquotauser_getquotalimit.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 77b9099c-7696-47d8-ac08-b58a329909ee
 ms.date: 12/05/2018
 ms.keywords: GetQuotaLimit, GetQuotaLimit method [Files], GetQuotaLimit method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimit method, IDiskQuotaUser.GetQuotaLimit, IDiskQuotaUser::GetQuotaLimit, _win32_idiskquotauser_getquotalimit, base.idiskquotauser_getquotalimit, dskquota/IDiskQuotaUser::GetQuotaLimit, fs.idiskquotauser_getquotalimit
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaLimit
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaLimit
+ - dskquota/IDiskQuotaUser::GetQuotaLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaLimit
 ---
 
 # IDiskQuotaUser::GetQuotaLimit
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's quota limit value on the volume. The limit is set as the maximum amount of disk space available to the volume user.
 
-
 ## -parameters
-
-
-
 
 ### -param pllLimit [out]
 
 The limit value. If this value is –1, the user has an unlimited quota.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -151,26 +145,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

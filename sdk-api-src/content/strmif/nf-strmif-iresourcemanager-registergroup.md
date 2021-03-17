@@ -2,15 +2,12 @@
 UID: NF:strmif.IResourceManager.RegisterGroup
 title: IResourceManager::RegisterGroup (strmif.h)
 description: The RegisterGroup method registers a named resource group with the resource manager.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","RegisterGroup method","IResourceManager.RegisterGroup","IResourceManager::RegisterGroup","IResourceManagerRegisterGroup","RegisterGroup","RegisterGroup method [DirectShow]","RegisterGroup method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_registergroup","strmif/IResourceManager::RegisterGroup"]
 old-location: dshow\iresourcemanager_registergroup.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2d3deb2-8f22-42ac-846c-2f158f347ca7
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],RegisterGroup method, IResourceManager.RegisterGroup, IResourceManager::RegisterGroup, IResourceManagerRegisterGroup, RegisterGroup, RegisterGroup method [DirectShow], RegisterGroup method [DirectShow],IResourceManager interface, dshow.iresourcemanager_registergroup, strmif/IResourceManager::RegisterGroup
-f1_keywords:
-- strmif/IResourceManager.RegisterGroup
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IResourceManager.RegisterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResourceManager::RegisterGroup
+ - strmif/IResourceManager::RegisterGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IResourceManager.RegisterGroup
 ---
 
 # IResourceManager::RegisterGroup
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RegisterGroup</code> method registers a named resource group with the resource manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pName [in]
 
 Named resource group.
 
-
 ### -param cResource [in]
 
 Number of resources in the group.
-
 
 ### -param palTokens [in]
 
 Pointer to an array of resources in the group.
 
-
 ### -param plToken [out]
 
 Pointer to the returned group resource identifier.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -148,22 +136,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

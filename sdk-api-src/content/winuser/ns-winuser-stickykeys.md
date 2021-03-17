@@ -2,15 +2,12 @@
 UID: NS:winuser.tagSTICKYKEYS
 title: STICKYKEYS (winuser.h)
 description: Contains information about the StickyKeys accessibility feature.
+helpviewer_keywords: ["*LPSTICKYKEYS","LPSTICKYKEYS","LPSTICKYKEYS structure pointer [Windows Accessibility]","SKF_AUDIBLEFEEDBACK","SKF_AVAILABLE","SKF_CONFIRMHOTKEY","SKF_HOTKEYACTIVE","SKF_HOTKEYSOUND","SKF_INDICATOR","SKF_LALTLATCHED","SKF_LALTLOCKED","SKF_LCTLLATCHED","SKF_LCTLLOCKED","SKF_LSHIFTLATCHED","SKF_LSHIFTLOCKED","SKF_LWINLATCHED","SKF_LWINLOCKED","SKF_RALTLATCHED","SKF_RALTLOCKED","SKF_RCTLLATCHED","SKF_RCTLLOCKED","SKF_RSHIFTLATCHED","SKF_RSHIFTLOCKED","SKF_RWINLATCHED","SKF_RWINLOCKED","SKF_STICKYKEYSON","SKF_TRISTATE","SKF_TWOKEYSOFF","STICKYKEYS","STICKYKEYS structure [Windows Accessibility]","_win32_STICKYKEYS_str","msaa.stickykeys","tagSTICKYKEYS","winauto.stickykeys","winuser/LPSTICKYKEYS","winuser/STICKYKEYS"]
 old-location: winauto\stickykeys.htm
 tech.root: WinAuto
 ms.assetid: 92fedb82-fff5-447f-b240-5dba8bb2eaea
 ms.date: 12/05/2018
 ms.keywords: '*LPSTICKYKEYS, LPSTICKYKEYS, LPSTICKYKEYS structure pointer [Windows Accessibility], SKF_AUDIBLEFEEDBACK, SKF_AVAILABLE, SKF_CONFIRMHOTKEY, SKF_HOTKEYACTIVE, SKF_HOTKEYSOUND, SKF_INDICATOR, SKF_LALTLATCHED, SKF_LALTLOCKED, SKF_LCTLLATCHED, SKF_LCTLLOCKED, SKF_LSHIFTLATCHED, SKF_LSHIFTLOCKED, SKF_LWINLATCHED, SKF_LWINLOCKED, SKF_RALTLATCHED, SKF_RALTLOCKED, SKF_RCTLLATCHED, SKF_RCTLLOCKED, SKF_RSHIFTLATCHED, SKF_RSHIFTLOCKED, SKF_RWINLATCHED, SKF_RWINLOCKED, SKF_STICKYKEYSON, SKF_TRISTATE, SKF_TWOKEYSOFF, STICKYKEYS, STICKYKEYS structure [Windows Accessibility], _win32_STICKYKEYS_str, msaa.stickykeys, tagSTICKYKEYS, winauto.stickykeys, winuser/LPSTICKYKEYS, winuser/STICKYKEYS'
-f1_keywords:
-- winuser/STICKYKEYS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- STICKYKEYS
 targetos: Windows
 req.typenames: STICKYKEYS, *LPSTICKYKEYS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSTICKYKEYS
+ - winuser/tagSTICKYKEYS
+ - LPSTICKYKEYS
+ - winuser/LPSTICKYKEYS
+ - STICKYKEYS
+ - winuser/STICKYKEYS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - STICKYKEYS
 ---
 
 # STICKYKEYS structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the StickyKeys accessibility feature. When the StickyKeys feature is on, the user can press a modifier key (SHIFT, CTRL, or ALT) and then another key in sequence rather than at the same time, to enter shifted (modified) characters and other key combinations. Pressing a modifier key once <i>latches</i> the key down until the user presses a non-modifier key or clicks a mouse button. Pressing a modifier key twice <i>locks</i> the key until the user presses the key a third time.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit-flags that specify properties of the StickyKeys feature. The following bit-flag values are defined:
@@ -354,16 +354,12 @@ If this flag is set, releasing a modifier key that has been pressed in combinati
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+An application uses a <b>STICKYKEYS</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSTICKYKEYS</b> or <b>SPI_SETSTICKYKEYS</b>. When using <b>SPI_GETSTICKYKEYS</b>, you must specify the <b>cbSize</b> member of the <b>STICKYKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. You must specify all structure members when using the <b>SPI_SETSTICKYKEYS</b> value.
 
-
-An application uses a <b>STICKYKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSTICKYKEYS</b> or <b>SPI_SETSTICKYKEYS</b>. When using <b>SPI_GETSTICKYKEYS</b>, you must specify the <b>cbSize</b> member of the <b>STICKYKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. You must specify all structure members when using the <b>SPI_SETSTICKYKEYS</b> value.
-
-If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSTICKYKEYS</b> value, the following flags are ignored:
+If you call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSTICKYKEYS</b> value, the following flags are ignored:
 
 <ul>
 <li>SKF_LALTLATCHED</li>
@@ -380,19 +376,10 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-w
 <li>SKF_RSHIFTLOCKED</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

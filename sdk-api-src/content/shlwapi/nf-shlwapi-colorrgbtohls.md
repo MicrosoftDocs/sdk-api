@@ -2,15 +2,12 @@
 UID: NF:shlwapi.ColorRGBToHLS
 title: ColorRGBToHLS function (shlwapi.h)
 description: Converts colors from RGB to hue-luminance-saturation (HLS) format.
+helpviewer_keywords: ["ColorRGBToHLS","ColorRGBToHLS function [Windows Shell]","_win32_ColorRGBToHLS","shell.ColorRGBToHLS","shlwapi/ColorRGBToHLS"]
 old-location: shell\ColorRGBToHLS.htm
 tech.root: shell
 ms.assetid: ed000f53-cc7e-4693-994c-a5dd7c789f1f
 ms.date: 12/05/2018
 ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_ColorRGBToHLS, shell.ColorRGBToHLS, shlwapi/ColorRGBToHLS
-f1_keywords:
-- shlwapi/ColorRGBToHLS
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- ColorRGBToHLS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ColorRGBToHLS
+ - shlwapi/ColorRGBToHLS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - ColorRGBToHLS
 ---
 
 # ColorRGBToHLS function
@@ -50,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts colors from RGB to hue-luminance-saturation (HLS) format.
-
 
 ## -parameters
 
-
-
-
 ### -param clrRGB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 The original RGB color.
-
 
 ### -param pwHue [out]
 
@@ -72,26 +68,14 @@ Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS hue value.
 
-
 ### -param pwLuminance [out]
 
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS luminance value.
 
-
 ### -param pwSaturation [out]
 
 Type: <b>WORD*</b>
 
 A pointer to a value that, when this method returns successfully, receives the HLS saturation value.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-

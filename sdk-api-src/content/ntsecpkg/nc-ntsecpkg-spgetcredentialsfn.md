@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.SpGetCredentialsFn
 title: SpGetCredentialsFn (ntsecpkg.h)
 description: Retrieves the primary and supplemental credentials from the user object.
+helpviewer_keywords: ["SpGetCredentials","SpGetCredentials callback function [Security]","SpGetCredentialsFn","SpGetCredentialsFn callback","_ssp_spgetcredentials","ntsecpkg/SpGetCredentials","security.spgetcredentials"]
 old-location: security\spgetcredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: bdf96b19-30eb-4cb2-b3ec-bd6f406233c5
 ms.date: 12/05/2018
 ms.keywords: SpGetCredentials, SpGetCredentials callback function [Security], SpGetCredentialsFn, SpGetCredentialsFn callback, _ssp_spgetcredentials, ntsecpkg/SpGetCredentials, security.spgetcredentials
-f1_keywords:
-- ntsecpkg/SpGetCredentials
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpGetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpGetCredentialsFn
+ - ntsecpkg/SpGetCredentialsFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpGetCredentials
 ---
 
 # SpGetCredentialsFn callback function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SpGetCredentials</b> function retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from the user object.
-
+The <b>SpGetCredentials</b> function retrieves the <a href="/windows/desktop/SecGloss/p-gly">primary</a> and <a href="/windows/desktop/SecGloss/s-gly">supplemental credentials</a> from the user object.
 
 ## -parameters
-
-
-
 
 ### -param CredentialHandle [in]
 
 A handle to the credentials to be retrieved.
 
-
 ### -param Credentials [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the credentials.
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives the credentials.
 
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -104,35 +97,19 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpGetCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpGetCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

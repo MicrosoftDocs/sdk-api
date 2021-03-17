@@ -2,15 +2,12 @@
 UID: NF:control.IBasicAudio.get_Balance
 title: IBasicAudio::get_Balance (control.h)
 description: The get_Balance method retrieves the balance for the audio signal.
+helpviewer_keywords: ["IBasicAudio interface [DirectShow]","get_Balance method","IBasicAudio.get_Balance","IBasicAudio::get_Balance","IBasicAudioget_Balance","control/IBasicAudio::get_Balance","dshow.ibasicaudio_get_balance","get_Balance","get_Balance method [DirectShow]","get_Balance method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_get_balance.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
-f1_keywords:
-- control/IBasicAudio.get_Balance
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicAudio.get_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicAudio::get_Balance
+ - control/IBasicAudio::get_Balance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicAudio.get_Balance
 ---
 
 # IBasicAudio::get_Balance
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Balance</code> method retrieves the balance for the audio signal.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plBalance [out]
 
 Pointer to a variable that receives the balance.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,31 +102,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The balance ranges from -10,000 to 10,000. The value -10,000 means the right channel is attenuated by 100 dB and is effectively silent. The value 10,000 means the left channel is silent. The neutral value is 0, which means that both channels are at full volume. When one channel is attenuated, the other remains at full volume.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:winuser.tagSCROLLBARINFO
 title: SCROLLBARINFO (winuser.h)
 description: The SCROLLBARINFO structure contains scroll bar information.
+helpviewer_keywords: ["*LPSCROLLBARINFO","*PSCROLLBARINFO","LPSCROLLBARINFO","LPSCROLLBARINFO structure pointer [Windows Controls]","PSCROLLBARINFO","PSCROLLBARINFO structure pointer [Windows Controls]","SCROLLBARINFO","SCROLLBARINFO structure [Windows Controls]","STATE_SYSTEM_INVISIBLE","STATE_SYSTEM_OFFSCREEN","STATE_SYSTEM_PRESSED","STATE_SYSTEM_UNAVAILABLE","_win32_SCROLLBARINFO_str","_win32_SCROLLBARINFO_str_cpp","controls.SCROLLBARINFO","controls._win32_SCROLLBARINFO_str","winuser/LPSCROLLBARINFO","winuser/PSCROLLBARINFO","winuser/SCROLLBARINFO"]
 old-location: controls\SCROLLBARINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollbarinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSCROLLBARINFO, *PSCROLLBARINFO, LPSCROLLBARINFO, LPSCROLLBARINFO structure pointer [Windows Controls], PSCROLLBARINFO, PSCROLLBARINFO structure pointer [Windows Controls], SCROLLBARINFO, SCROLLBARINFO structure [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, _win32_SCROLLBARINFO_str, _win32_SCROLLBARINFO_str_cpp, controls.SCROLLBARINFO, controls._win32_SCROLLBARINFO_str, winuser/LPSCROLLBARINFO, winuser/PSCROLLBARINFO, winuser/SCROLLBARINFO'
-f1_keywords:
-- winuser/SCROLLBARINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- SCROLLBARINFO
 targetos: Windows
 req.typenames: SCROLLBARINFO, *PSCROLLBARINFO, *LPSCROLLBARINFO
 req.redist: Service Pack 6
 ms.custom: 19H1
+f1_keywords:
+ - tagSCROLLBARINFO
+ - winuser/tagSCROLLBARINFO
+ - PSCROLLBARINFO
+ - winuser/PSCROLLBARINFO
+ - SCROLLBARINFO
+ - winuser/SCROLLBARINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - SCROLLBARINFO
 ---
 
 # SCROLLBARINFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCROLLBARINFO</b> structure contains scroll bar information.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Specifies the size, in bytes, of the structure. Before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
-
+Specifies the size, in bytes, of the structure. Before calling the <a href="/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>).
 
 ### -field rcScrollBar
 
@@ -70,38 +70,33 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 Coordinates of the scroll bar as specified in a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure.
 
-
 ### -field dxyLineButton
 
 Type: <b>int</b>
 
-Height or width of the thumb. 
-
+Height or width of the thumb.
 
 ### -field xyThumbTop
 
 Type: <b>int</b>
 
-Position of the top or left of the thumb. 
-
+Position of the top or left of the thumb.
 
 ### -field xyThumbBottom
 
 Type: <b>int</b>
 
-Position of the bottom or right of the thumb. 
-
+Position of the bottom or right of the thumb.
 
 ### -field reserved
 
 Type: <b>int</b>
 
-Reserved. 
-
+Reserved.
 
 ### -field rgstate
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>[CCHILDREN_SCROLLBAR+1]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>[CCHILDREN_SCROLLBAR+1]</b>
 
 An array of <b>DWORD</b> elements. Each element indicates the state of a scroll bar component. The following values show the scroll bar component that corresponds to each array index.
 					
@@ -186,19 +181,14 @@ The component is disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getscrollbarinfo">GetScrollBarInfo</a>
 
 
 
@@ -214,8 +204,4 @@ The component is disabled.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/scroll-bars">Scroll Bars</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/scroll-bars">Scroll Bars</a>

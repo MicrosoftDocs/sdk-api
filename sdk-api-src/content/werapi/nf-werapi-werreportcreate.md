@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportCreate
 title: WerReportCreate function (werapi.h)
 description: Creates a problem report that describes an application event.
+helpviewer_keywords: ["WerReportApplicationCrash","WerReportApplicationHang","WerReportCreate","WerReportCreate function [Windows Error Reporting]","WerReportCritical","WerReportInvalid","WerReportKernel","WerReportNonCritical","base.werreportcreate","wer.werreportcreate","werapi/WerReportCreate"]
 old-location: wer\werreportcreate.htm
 tech.root: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
 ms.date: 12/05/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
-f1_keywords:
-- werapi/WerReportCreate
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportCreate
+ - werapi/WerReportCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportCreate
 ---
 
 # WerReportCreate function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a problem report that describes an application event.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzEventType [in]
 
 A pointer to a Unicode string that specifies the name of the event.
-
 
 ### -param repType [in]
 
@@ -141,73 +137,52 @@ An error that is not critical has occurred. This type of report shows no UI; the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReportInformation [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
-
+A pointer to a <a href="/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
 
 ### -param phReportHandle [out]
 
 A handle to the report. If the function fails, this handle is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 Use the following functions to specify additional information to be submitted:
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsetparameter">WerReportSetParameter</a>
-To submit the information, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function. When you have finished with the report handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a> function.
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportsetparameter">WerReportSetParameter</a>
+To submit the information, call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function. When you have finished with the report handle, call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a> function.
 
-Applications can also indicate that they would like the opportunity to recover data or restart on failure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>.
+Applications can also indicate that they would like the opportunity to recover data or restart on failure. For more information, see <a href="/windows/desktop/wsw/portal">Application Recovery and Restart</a>.
 
 To view the reports submitted by your application, go to Windows Quality Online Services.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wsw/portal">Application Recovery and Restart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-wer_report_information">WER_REPORT_INFORMATION</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

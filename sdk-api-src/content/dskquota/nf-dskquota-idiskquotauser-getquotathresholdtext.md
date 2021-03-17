@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaThresholdText
 title: IDiskQuotaUser::GetQuotaThresholdText (dskquota.h)
 description: Retrieves the user's warning threshold for the volume.
+helpviewer_keywords: ["GetQuotaThresholdText","GetQuotaThresholdText method [Files]","GetQuotaThresholdText method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaThresholdText method","IDiskQuotaUser.GetQuotaThresholdText","IDiskQuotaUser::GetQuotaThresholdText","_win32_idiskquotauser_getquotathresholdtext","base.idiskquotauser_getquotathresholdtext","dskquota/IDiskQuotaUser::GetQuotaThresholdText","fs.idiskquotauser_getquotathresholdtext"]
 old-location: fs\idiskquotauser_getquotathresholdtext.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 19391a9e-e64c-4e6f-8b52-efe59ed45ae5
 ms.date: 12/05/2018
 ms.keywords: GetQuotaThresholdText, GetQuotaThresholdText method [Files], GetQuotaThresholdText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaThresholdText method, IDiskQuotaUser.GetQuotaThresholdText, IDiskQuotaUser::GetQuotaThresholdText, _win32_idiskquotauser_getquotathresholdtext, base.idiskquotauser_getquotathresholdtext, dskquota/IDiskQuotaUser::GetQuotaThresholdText, fs.idiskquotauser_getquotathresholdtext
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaThresholdText
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaThresholdText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaThresholdText
+ - dskquota/IDiskQuotaUser::GetQuotaThresholdText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaThresholdText
 ---
 
 # IDiskQuotaUser::GetQuotaThresholdText
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's warning threshold for the volume. This threshold is expressed as a text string, for example "10.5 MB". If the user's threshold is unlimited, the string returned is "No Limit" (localized). If the destination buffer is too small, the string is truncated to fit the buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param pszText [out]
 
 The text string.
-					
-
 
 ### -param cchText [in]
 
 The size of the destination buffer, in characters.
 
-
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -157,26 +149,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

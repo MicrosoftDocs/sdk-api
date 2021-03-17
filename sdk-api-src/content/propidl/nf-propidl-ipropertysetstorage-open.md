@@ -2,15 +2,12 @@
 UID: NF:propidl.IPropertySetStorage.Open
 title: IPropertySetStorage::Open (propidl.h)
 description: Opens a property set contained in the property set storage object.
+helpviewer_keywords: ["IPropertySetStorage interface [Structured Storage]","Open method","IPropertySetStorage.Open","IPropertySetStorage::Open","Open","Open method [Structured Storage]","Open method [Structured Storage]","IPropertySetStorage interface","_stg_ipropertysetstorage_open","propidl/IPropertySetStorage::Open","stg.ipropertysetstorage_open"]
 old-location: stg\ipropertysetstorage_open.htm
 tech.root: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
-f1_keywords:
-- propidl/IPropertySetStorage.Open
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IPropertySetStorage.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySetStorage::Open
+ - propidl/IPropertySetStorage::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IPropertySetStorage.Open
 ---
 
 # IPropertySetStorage::Open
@@ -48,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Open</b> method opens a property set contained in the property set storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param rfmtid [in]
 
 The format identifier (FMTID) of the property set to be opened. For more information about well-known and predefined FMTIDs in the Platform SDK, see 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/predefined-property-set-format-identifiers">Predefined Property Set Format Identifiers</a>.
-
+<a href="/windows/desktop/Stg/predefined-property-set-format-identifiers">Predefined Property Set Format Identifiers</a>.
 
 ### -param grfMode [in]
 
-The access mode in which the newly created property set is to be opened. These flags are taken from <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>. Flags that may be used and their meanings in the context of this method are described in the following Remarks section.
-
+The access mode in which the newly created property set is to be opened. These flags are taken from <a href="/windows/desktop/Stg/stgm-constants">STGM Constants</a>. Flags that may be used and their meanings in the context of this method are described in the following Remarks section.
 
 ### -param ppprstg [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer variable that receives the interface pointer to the requested property storage subobject.
-
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> pointer variable that receives the interface pointer to the requested property storage subobject.
 
 ## -returns
 
-
-
 This method supports the standard return value E_UNEXPECTED, in addition to the following:
-
-
-
 
 ## -remarks
 
-
-
-The mode in which the property set is to be opened is specified in the parameter <i>grfMode</i>. These flags are taken from <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>, but, for this method, legal values and their meanings are as follows (only certain combinations of these flag values are legal).
+The mode in which the property set is to be opened is specified in the parameter <i>grfMode</i>. These flags are taken from <a href="/windows/desktop/Stg/stgm-constants">STGM Constants</a>, but, for this method, legal values and their meanings are as follows (only certain combinations of these flag values are legal).
 
 <table>
 <tr>
@@ -100,7 +87,7 @@ The mode in which the property set is to be opened is specified in the parameter
 </tr>
 <tr>
 <td>STGM_TRANSACTED</td>
-<td>Opens the property set with an additional level of transaction nesting (beyond the transaction, if any, on this property set storage object). Transacted mode is available only for nonsimple property sets. Changes in the property set must be committed with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">IPropertyStorage::Commit</a> before they are visible to the transaction on this property set storage.</td>
+<td>Opens the property set with an additional level of transaction nesting (beyond the transaction, if any, on this property set storage object). Transacted mode is available only for nonsimple property sets. Changes in the property set must be committed with a call to <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">IPropertyStorage::Commit</a> before they are visible to the transaction on this property set storage.</td>
 </tr>
 <tr>
 <td>STGM_READ</td>
@@ -109,7 +96,7 @@ The mode in which the property set is to be opened is specified in the parameter
 <tr>
 <td>STGM_WRITE</td>
 <td>Opens the property set with write access. Not all implementations of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> support this mode.</td>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> support this mode.</td>
 </tr>
 <tr>
 <td>STGM_READWRITE</td>
@@ -134,42 +121,32 @@ The mode in which the property set is to be opened is specified in the parameter
 </table>
  
 
-This method is subject to the constraints of the underlying <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a> (for simple property sets) or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a> (for nonsimple property sets). For more information about simple and nonsimple property sets, see 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/storage-vs--stream-for-a-property-set">Storage and Stream Objects for a Property Set</a>. For example, when using the 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-compound-file-implementation">IPropertySetStorage-Compound File Implementation</a>, you must specify STGM_SHARE_EXCLUSIVE in the <i>grfMode</i> parameter to <b>IPropertySetStorage::Open</b>. Conversely, if using the 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>, <b>IPropertySetStorage::Open</b> is subject to constraints that apply to the caller-specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>.
-
-
-
+This method is subject to the constraints of the underlying <a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a> (for simple property sets) or <a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a> (for nonsimple property sets). For more information about simple and nonsimple property sets, see 
+<a href="/windows/desktop/Stg/storage-vs--stream-for-a-property-set">Storage and Stream Objects for a Property Set</a>. For example, when using the 
+<a href="/windows/desktop/Stg/ipropertysetstorage-compound-file-implementation">IPropertySetStorage-Compound File Implementation</a>, you must specify STGM_SHARE_EXCLUSIVE in the <i>grfMode</i> parameter to <b>IPropertySetStorage::Open</b>. Conversely, if using the 
+<a href="/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>, <b>IPropertySetStorage::Open</b> is subject to constraints that apply to the caller-specified 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertysetstorage-create">IPropertySetStorage::Create</a>
+<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
+<a href="/windows/desktop/Stg/samples">Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
- 
-
- 
-
+<a href="/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>

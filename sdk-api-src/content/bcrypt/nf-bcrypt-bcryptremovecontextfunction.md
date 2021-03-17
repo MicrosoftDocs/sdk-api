@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptRemoveContextFunction
 title: BCryptRemoveContextFunction function (bcrypt.h)
 description: Removes a cryptographic function from the list of functions that are supported by an existing CNG context.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptRemoveContextFunction","BCryptRemoveContextFunction function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","NCRYPT_SCHANNEL_SIGNATURE_INTERFACE","bcrypt/BCryptRemoveContextFunction","security.bcryptremovecontextfunction"]
 old-location: security\bcryptremovecontextfunction.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: b8b1df66-f66f-4efc-9c8e-fca32e0278c5
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptRemoveContextFunction, BCryptRemoveContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptRemoveContextFunction, security.bcryptremovecontextfunction
-f1_keywords:
-- bcrypt/BCryptRemoveContextFunction
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptRemoveContextFunction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptRemoveContextFunction
+ - bcrypt/BCryptRemoveContextFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptRemoveContextFunction
 ---
 
 # BCryptRemoveContextFunction function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptRemoveContextFunction</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptRemoveContextFunction</b> function removes a cryptographic function from the list of functions that are supported by an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,13 +86,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to remove the function from.
-
 
 ### -param dwInterface [in]
 
@@ -199,17 +193,12 @@ Remove the function from the list of signature suites that Schannel accepts for 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to remove.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -257,27 +246,11 @@ The specified context or function could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptRemoveContextFunction</b> can be called only in user mode.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction">BCryptAddContextFunction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptaddcontextfunction">BCryptAddContextFunction</a>

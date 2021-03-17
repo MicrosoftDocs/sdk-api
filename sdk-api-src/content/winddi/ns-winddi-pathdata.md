@@ -2,15 +2,12 @@
 UID: NS:winddi._PATHDATA
 title: PATHDATA (winddi.h)
 description: The PATHDATA structure describes all or part of a subpath.
+helpviewer_keywords: ["*PPATHDATA","PATHDATA","PATHDATA structure [Display Devices]","PPATHDATA","PPATHDATA structure pointer [Display Devices]","display.pathdata","grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml","winddi/PATHDATA","winddi/PPATHDATA"]
 old-location: display\pathdata.htm
 tech.root: display
 ms.assetid: ba86d245-1ec2-42aa-9502-256981109700
 ms.date: 12/05/2018
 ms.keywords: '*PPATHDATA, PATHDATA, PATHDATA structure [Display Devices], PPATHDATA, PPATHDATA structure pointer [Display Devices], display.pathdata, grstrcts_43da3a1c-2330-4cdf-81d6-aefa9d61eda3.xml, winddi/PATHDATA, winddi/PPATHDATA'
-f1_keywords:
-- winddi/PATHDATA
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- PATHDATA
 targetos: Windows
 req.typenames: PATHDATA, *PPATHDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PATHDATA
+ - winddi/_PATHDATA
+ - PPATHDATA
+ - winddi/PPATHDATA
+ - PATHDATA
+ - winddi/PATHDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - PATHDATA
 ---
 
 # PATHDATA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The PATHDATA structure describes all or part of a subpath.
 
-
 ## -struct-fields
-
-
-
 
 ### -field flags
 
@@ -127,39 +128,23 @@ This bit is defined only if this record begins a new subpath. If set, it indicat
 </td>
 </tr>
 </table>
- 
-
 
 ### -field count
 
 Specifies the count of POINTFIX structures pointed to by <b>pptfx</b>.
 
-
 ### -field pptfx
 
-Pointer to an array of POINTFIX structures that define the control points for the curves. These structures must not be modified. For a description of the POINTFIX structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
-
+Pointer to an array of POINTFIX structures that define the control points for the curves. These structures must not be modified. For a description of the POINTFIX structure, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -remarks
 
-
-
-The PATHDATA structure describes all or part of a subpath. For example, a <b>MoveTo</b> call by an application within a path begins a new subpath. 
-
-
-
+The PATHDATA structure describes all or part of a subpath. For example, a <b>MoveTo</b> call by an application within a path begins a new subpath.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>

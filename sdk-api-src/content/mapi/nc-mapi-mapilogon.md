@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPILOGON
 title: MAPILOGON (mapi.h)
 description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
+helpviewer_keywords: ["MAPILogon","MAPILogon callback","MAPILogon callback function","MAPI_FORCE_DOWNLOAD","MAPI_LOGON_UI","MAPI_NEW_SESSION","MAPI_PASSWORD_UI","mapi.mapilogon","mapi/MAPILogon"]
 old-location: mapi\mapilogon.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
 ms.date: 12/05/2018
 ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
-f1_keywords:
-- mapi/MAPILogon
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPILogon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPILOGON
+ - mapi/MAPILOGON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPILogon
 ---
 
 # MAPILOGON callback function
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPILogon</b> function begins a Simple MAPI session, loading the default message store and address book providers.
 
-
 ## -parameters
-
-
-
 
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a ULONG_PTR). If no dialog box is displayed during the call, <i> ulUIParam</i> is ignored.
 
-
 ### -param lpszProfileName [in, optional]
 
-Pointer to a <b>null</b>-terminated profile name string, limited to 256 characters or less. This is the profile to use when logging on. If the <i>lpszProfileName</i> parameter is <b>NULL</b> or points to an empty string, and the <i>flFlags</i> parameter is set to MAPI_LOGON_UI, <b>MAPILogon</b> displays a logon dialog box with an empty name field. 
-
+Pointer to a <b>null</b>-terminated profile name string, limited to 256 characters or less. This is the profile to use when logging on. If the <i>lpszProfileName</i> parameter is <b>NULL</b> or points to an empty string, and the <i>flFlags</i> parameter is set to MAPI_LOGON_UI, <b>MAPILogon</b> displays a logon dialog box with an empty name field.
 
 ### -param lpszPassword [in, optional]
 
 Pointer to a <b>null</b>-terminated credential string, limited to 256 characters or less. If the messaging system does not require password credentials, or if it requires that the user enter them, the <i>lpszPassword</i> parameter should be <b>NULL</b> or point to an empty string. When the user must enter credentials, the <i>flFlags</i> parameter must be set to MAPI_LOGON_UI to allow a logon dialog box to be displayed.
-
 
 ### -param flFlags [in]
 
@@ -124,22 +118,16 @@ A logon dialog box should be displayed to prompt the user for logon information.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved
 
-Reserved; must be zero. 
-
+Reserved; must be zero.
 
 ### -param lplhSession [out]
 
 Simple MAPI session handle.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -215,33 +203,17 @@ The call succeeded and a Simple MAPI session was established.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>MAPILogon</b> function begins a session with the messaging system, returning a handle that can be used in subsequent MAPI calls to explicitly provide user credentials to the messaging system. To request the display of a logon dialog box if the credentials presented fail to validate the session, set the <i>flFlags</i> parameter to MAPI_LOGON_UI. 
 
 The client application tests for an existing session by calling <b>MAPILogon</b> with a <b>NULL</b> value for the <i>lpszProfileName</i> parameter, a <b>NULL</b> value for the <i>lpszPassword</i> parameter and by not setting the MAPI_LOGON_UI flag in <i>flFlags</i>. If there is an existing session, the call succeeds and returns a valid LHANDLE for the session. Otherwise, the call fails.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

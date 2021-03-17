@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMIStreamProps.GetProperty
 title: IWMIStreamProps::GetProperty (wmsdkidl.h)
 description: The GetProperty method retrieves a named property from the IStream.
+helpviewer_keywords: ["GetProperty","GetProperty method [windows Media Format]","GetProperty method [windows Media Format]","IWMIStreamProps interface","IWMIStreamProps interface [windows Media Format]","GetProperty method","IWMIStreamProps.GetProperty","IWMIStreamProps::GetProperty","IWMIStreamPropsGetProperty","wmformat.iwmistreamprops_getproperty","wmsdkidl/IWMIStreamProps::GetProperty"]
 old-location: wmformat\iwmistreamprops_getproperty.htm
 tech.root: wmformat
 ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
-f1_keywords:
-- wmsdkidl/IWMIStreamProps.GetProperty
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMIStreamProps.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMIStreamProps::GetProperty
+ - wmsdkidl/IWMIStreamProps::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMIStreamProps.GetProperty
 ---
 
 # IWMIStreamProps::GetProperty
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetProperty</b> method retrieves a named property from the <b>IStream</b>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszName [in]
 
@@ -103,27 +97,20 @@ Pointer to a <b>null</b>-terminated string containing the name of the property t
 <td>g_wszSourceMaxBytesAtOnce</td>
 </tr>
 </table>
- 
-
 
 ### -param pType [out]
 
-Pointer to a variable that will receive one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
-
+Pointer to a variable that will receive one member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
 
 ### -param pValue [out]
 
 Pointer to a byte buffer that will receive the property value. The type of data returned to the buffer is indicated by the value pointed to by <i>pType</i>.
 
-
 ### -param pdwSize [in, out]
 
 Pointer to a <b>DWORD</b> containing the size of the buffer at <i>pValue</i>. On return, this value will be set to the correct size of the property value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -170,27 +157,11 @@ The buffer is not big enough to hold the requested value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should make two calls to <b>GetProperty</b> for each property you want to retrieve. On the first call, pass <b>NULL</b> as <i>pValue</i>. On return, the value pointed to by <i>pdwSize</i> will be set to the buffer size required to hold the property value. Then you can allocate the required amount of memory for the buffer and pass a pointer to it as <i>pValue</i> on the second call.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmistreamprops">IWMIStreamProps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmistreamprops">IWMIStreamProps Interface</a>

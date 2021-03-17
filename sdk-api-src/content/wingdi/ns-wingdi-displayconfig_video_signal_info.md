@@ -2,15 +2,12 @@
 UID: NS:wingdi.DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO (wingdi.h)
 description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
+helpviewer_keywords: ["CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml","DISPLAYCONFIG_VIDEO_SIGNAL_INFO","DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices]","display.displayconfig_video_signal_info","wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO"]
 old-location: display\displayconfig_video_signal_info.htm
 tech.root: display
 ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-f1_keywords:
-- wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wingdi.h
-api_name:
-- DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+ - wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wingdi.h
+api_name:
+ - DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 ---
 
 # DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure
@@ -48,56 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
-
 
 ## -struct-fields
 
-
-
-
 ### -field pixelRate
 
-The pixel clock rate. 
-
+The pixel clock rate.
 
 ### -field hSyncFreq
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a> structure that represents horizontal sync.
-
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a> structure that represents horizontal sync.
 
 ### -field vSyncFreq
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a> structure that represents vertical sync. 
-
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a> structure that represents vertical sync.
 
 ### -field activeSize
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a> structure that specifies the width and height (in pixels) of the active portion of the video signal.
-
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a> structure that specifies the width and height (in pixels) of the active portion of the video signal.
 
 ### -field totalSize
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
-
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.AdditionalSignalInfo
 
 Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1 and later.
 
-
 ### -field DUMMYUNIONNAME.AdditionalSignalInfo.videoStandard
 
-The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
+The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
 
 Supported starting with Windows 8.1.
-
 
 ### -field DUMMYUNIONNAME.AdditionalSignalInfo.vSyncFreqDivider
 
@@ -111,43 +98,32 @@ For a non-Miracast target, the driver should set <b>vSyncFreqDivider</b> to zero
 
 Supported starting with Windows 8.1.
 
-
 ### -field DUMMYUNIONNAME.AdditionalSignalInfo.reserved
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.1.
 
-
 ### -field DUMMYUNIONNAME.videoStandard
 
-The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
-
+The video standard (if any) that defines the video signal. For a list of possible values, see the  <a href="/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumerated type.
 
 ### -field scanLineOrdering
 
-The scan-line ordering (for example, progressive or interlaced) of the video signal. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_scanline_ordering">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type.
-
+The scan-line ordering (for example, progressive or interlaced) of the video signal. For a list of possible values, see the <a href="/windows/desktop/api/wingdi/ne-wingdi-displayconfig_scanline_ordering">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type.
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_2dregion">DISPLAYCONFIG_2DREGION</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_rational">DISPLAYCONFIG_RATIONAL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_scanline_ordering">DISPLAYCONFIG_SCANLINE_ORDERING</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/ne-wingdi-displayconfig_scanline_ordering">DISPLAYCONFIG_SCANLINE_ORDERING</a>

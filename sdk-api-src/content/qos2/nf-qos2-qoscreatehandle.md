@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSCreateHandle
 title: QOSCreateHandle function (qos2.h)
 description: This function initializes the QOS subsystem and the QOSHandle parameter. The QOSHandle parameter is used when calling other QOS functions. QOSCreateHandle must be called before any other functions.
+helpviewer_keywords: ["QOSCreateHandle","QOSCreateHandle function [QOS]","qos.qoscreatehandle","qos2/QOSCreateHandle"]
 old-location: qos\qoscreatehandle.htm
 tech.root: QOS
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b
 ms.date: 12/05/2018
 ms.keywords: QOSCreateHandle, QOSCreateHandle function [QOS], qos.qoscreatehandle, qos2/QOSCreateHandle
-f1_keywords:
-- qos2/QOSCreateHandle
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSCreateHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSCreateHandle
+ - qos2/QOSCreateHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSCreateHandle
 ---
 
 # QOSCreateHandle function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function initializes the QOS subsystem and the <i>QOSHandle</i> parameter.  The  <i>QOSHandle</i> parameter is used when calling other QOS functions.  <b>QOSCreateHandle</b> must be called before any other functions.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> closes handles created by this function.
-
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> closes handles created by this function.
 
 ## -parameters
 
-
-
-
 ### -param Version [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
-
+Pointer to a <a href="/windows/desktop/api/qos2/ns-qos2-qos_version">QOS_VERSION</a> structure that indicates the version of QOS being used.  The <b>MajorVersion</b> member must be set to 1, and the <b>MinorVersion</b> member must be set to 0.
 
 ### -param QOSHandle [out]
 
 Pointer to a variable that receives a QOS handle.  This handle is used when calling other QOS functions.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -150,25 +143,19 @@ One of the dependencies of this service is unavailable.  The qWAVE service could
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Every process intending to use qWAVE must first call <b>QOSCreateHandle</b>. The handle returned can be used for performing overlapped I/O. For example, this handle can be associated with an I/O completion port (IOCP) to receive overlapped completion notifications. This function can be  called multiple times to obtain multiple handles although a single handle is sufficient for most applications.
 
-If a machine enters a power save mode that interrupts connectivity such as sleep or standby, existing and active network experiments such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> must be reinitiated.  This recreation of the flow mirrors the cleanup and creation activities also necessary for existing sockets. A new handle must be created, and the flow must be recreated and readmitted.
+If a machine enters a power save mode that interrupts connectivity such as sleep or standby, existing and active network experiments such as <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> must be reinitiated.  This recreation of the flow mirrors the cleanup and creation activities also necessary for existing sockets. A new handle must be created, and the flow must be recreated and readmitted.
 
 
 #### Examples
 
 The following code illustrates function use and required parameter initializations. Actual values will vary depending on QoS version.
 
-Winsock.h must be included to use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
+Winsock.h must be included to use the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -197,17 +184,6 @@ if (QoSResult != TRUE)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

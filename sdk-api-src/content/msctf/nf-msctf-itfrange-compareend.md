@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfRange.CompareEnd
 title: ITfRange::CompareEnd (msctf.h)
 description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.
+helpviewer_keywords: ["+1","-1","0","CompareEnd","CompareEnd method [Text Services Framework]","CompareEnd method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","CompareEnd method","ITfRange.CompareEnd","ITfRange::CompareEnd","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_compareend_ref","msctf/ITfRange::CompareEnd","tsf.itfrange_compareend"]
 old-location: tsf\itfrange_compareend.htm
 tech.root: TSF
 ms.assetid: 23841f07-f2ea-4365-a8cb-128c4fb210ab
 ms.date: 12/05/2018
 ms.keywords: +1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend
-f1_keywords:
-- msctf/ITfRange.CompareEnd
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.CompareEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::CompareEnd
+ - msctf/ITfRange::CompareEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.CompareEnd
 ---
 
 # ITfRange::CompareEnd
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::CompareEnd</b> method compares the end anchor position of this range of text to an anchor in another range.
-
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pWith [in]
 
 Pointer to a specified range in which an anchor is to be compared with this range end anchor.
-
 
 ### -param aPos [in]
 
@@ -97,8 +92,6 @@ Compare this range end anchor with the specified range end anchor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param plResult [out]
 
@@ -140,12 +133,8 @@ This end anchor is ahead of the anchor of the specified range (position of this 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -199,58 +188,42 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method will never return 0 unless the two anchors are in a single region. If the caller only requires information about whether the two anchors are positioned at the same location, <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange::IsEqualEnd</a> is more efficient.
 
-
-This method will never return 0 unless the two anchors are in a single region. If the caller only requires information about whether the two anchors are positioned at the same location, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange::IsEqualEnd</a> is more efficient.
-
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalstart">ITfRange::CompareStart</a>, except that the end anchor of this range is compared to an anchor of another specified range.
-
-
-
+This method is identical to <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-isequalstart">ITfRange::CompareStart</a>, except that the end anchor of this range is compared to an anchor of another specified range.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange::IsEqualEnd
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange::IsEqualEnd
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
- 
-
- 
-

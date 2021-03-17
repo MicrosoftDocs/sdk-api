@@ -2,15 +2,12 @@
 UID: NS:usp10.tag_SCRIPT_LOGATTR
 title: SCRIPT_LOGATTR (usp10.h)
 description: Contains attributes of logical characters that are useful when editing and formatting text.
+helpviewer_keywords: ["FALSE","SCRIPT_LOGATTR","SCRIPT_LOGATTR structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_LOGATTR_str","intl.script_logattr","usp10/SCRIPT_LOGATTR"]
 old-location: intl\script_logattr.htm
 tech.root: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_LOGATTR_str, intl.script_logattr, usp10/SCRIPT_LOGATTR
-f1_keywords:
-- usp10/SCRIPT_LOGATTR
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_LOGATTR
 targetos: Windows
 req.typenames: SCRIPT_LOGATTR
 req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - tag_SCRIPT_LOGATTR
+ - usp10/tag_SCRIPT_LOGATTR
+ - SCRIPT_LOGATTR
+ - usp10/SCRIPT_LOGATTR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_LOGATTR
 ---
 
 # SCRIPT_LOGATTR structure
@@ -48,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains attributes of logical characters that are useful when editing and formatting text.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field fSoftBreak
 
@@ -90,8 +86,6 @@ A soft break is not valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fWhiteSpace
 
@@ -123,8 +117,6 @@ The character is not breakable white space.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fCharStop
 
@@ -156,8 +148,6 @@ The character is not a valid position for showing the caret upon a character mov
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fWordStop
 
@@ -189,12 +179,10 @@ The character is not a valid position for showing the caret upon a word movement
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fInvalid
 
-Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> structure.
+Value used to mark characters that form an invalid or undisplayable combination. Possible values are defined in the following table. A script that can set this member has the <b>fInvalidLogAttr</b> member set in its <a href="/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> structure.
 
 <table>
 <tr>
@@ -222,33 +210,23 @@ The character does not form an invalid or undisplayable combination.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fReserved
 
 Reserved.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

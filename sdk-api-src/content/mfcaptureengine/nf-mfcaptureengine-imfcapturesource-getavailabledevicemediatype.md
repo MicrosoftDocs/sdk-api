@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureSource.GetAvailableDeviceMediaType
 title: IMFCaptureSource::GetAvailableDeviceMediaType (mfcaptureengine.h)
 description: Gets a format that is supported by one of the capture streams.
+helpviewer_keywords: ["GetAvailableDeviceMediaType","GetAvailableDeviceMediaType method [Media Foundation]","GetAvailableDeviceMediaType method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetAvailableDeviceMediaType method","IMFCaptureSource.GetAvailableDeviceMediaType","IMFCaptureSource::GetAvailableDeviceMediaType","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesource_getavailabledevicemediatype","mfcaptureengine/IMFCaptureSource::GetAvailableDeviceMediaType"]
 old-location: mf\imfcapturesource_getavailabledevicemediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B122C2DE-9544-47C7-8F4F-DBD4C1DE54C0
 ms.date: 12/05/2018
 ms.keywords: GetAvailableDeviceMediaType, GetAvailableDeviceMediaType method [Media Foundation], GetAvailableDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetAvailableDeviceMediaType method, IMFCaptureSource.GetAvailableDeviceMediaType, IMFCaptureSource::GetAvailableDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getavailabledevicemediatype, mfcaptureengine/IMFCaptureSource::GetAvailableDeviceMediaType
-f1_keywords:
-- mfcaptureengine/IMFCaptureSource.GetAvailableDeviceMediaType
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSource.GetAvailableDeviceMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSource::GetAvailableDeviceMediaType
+ - mfcaptureengine/IMFCaptureSource::GetAvailableDeviceMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSource.GetAvailableDeviceMediaType
 ---
 
 # IMFCaptureSource::GetAvailableDeviceMediaType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a format that is supported by one of the capture streams.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSourceStreamIndex [in]
 
@@ -73,7 +70,7 @@ The stream to query. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -111,24 +108,16 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwMediaTypeIndex [in]
 
 The zero-based index of the media type to retrieve.
 
-
 ### -param ppMediaType [in]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-
-
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -172,29 +161,13 @@ The <i>dwMediaTypeIndex</i> parameter is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To enumerate all of the available formats on a stream, call this method in a loop while incrementing <i>dwMediaTypeIndex</i>, until the method returns <b>MF_E_NO_MORE_TYPES</b>.
 
-Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
-
-
-
+Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

@@ -2,15 +2,12 @@
 UID: NF:vfw.ICLocate
 title: ICLocate function (vfw.h)
 description: The ICLocate function finds a compressor or decompressor that can handle images with the specified formats, or finds a driver that can decompress an image with a specified format directly to hardware.
+helpviewer_keywords: ["ICLocate","ICLocate function [Windows Multimedia]","ICMODE_COMPRESS","ICMODE_DECOMPRESS","ICMODE_DRAW","ICMODE_FASTCOMPRESS","ICMODE_FASTDECOMPRESS","_win32_ICLocate","multimedia.iclocate","vfw/ICLocate"]
 old-location: multimedia\iclocate.htm
 tech.root: Multimedia
 ms.assetid: df7b14fe-9a6a-41d3-ba61-46b2e1df0b00
 ms.date: 12/05/2018
 ms.keywords: ICLocate, ICLocate function [Windows Multimedia], ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_FASTCOMPRESS, ICMODE_FASTDECOMPRESS, _win32_ICLocate, multimedia.iclocate, vfw/ICLocate
-f1_keywords:
-- vfw/ICLocate
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- ICLocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICLocate
+ - vfw/ICLocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - ICLocate
 ---
 
 # ICLocate function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICLocate</b> function finds a compressor or decompressor that can handle images with the specified formats, or finds a driver that can decompress an image with a specified format directly to hardware.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fccType
 
 Four-character code indicating the type of compressor or decompressor to open. For video streams, the value of this parameter is 'VIDC'.
-          
-
 
 ### -param fccHandler
 
 Preferred handler of the specified type. Typically, the handler type is stored in the stream header in an AVI file. Specify <b>NULL</b> if your application can use any handler type or it does not know the handler type to use.
-          
-
 
 ### -param lpbiIn
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
 
 ### -param lpbiOut
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure defining an optional decompressed format. You can also specify zero to use the default output format associated with the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure defining an optional decompressed format. You can also specify zero to use the default output format associated with the input format.
 
 If this parameter is nonzero, a compressor handle is not returned unless it can create this output format.
-
 
 ### -param wFlags
 
@@ -150,29 +137,15 @@ Has the same meaning as <b>ICMODE_DECOMPRESS</b> except the decompressor is used
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a handle to a compressor or decompressor if successful or zero otherwise.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_downloadProgress
 title: IWMPNetwork::get_downloadProgress (wmp.h)
 description: The get_downloadProgress method retrieves the percentage of the download completed.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_downloadProgress method","IWMPNetwork.get_downloadProgress","IWMPNetwork::get_downloadProgress","IWMPNetworkget_downloadProgress","get_downloadProgress","get_downloadProgress method [Windows Media Player]","get_downloadProgress method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_downloadprogress","wmp/IWMPNetwork::get_downloadProgress"]
 old-location: wmp\iwmpnetwork_get_downloadprogress.htm
 tech.root: WMP
 ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_downloadProgress method, IWMPNetwork.get_downloadProgress, IWMPNetwork::get_downloadProgress, IWMPNetworkget_downloadProgress, get_downloadProgress, get_downloadProgress method [Windows Media Player], get_downloadProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_downloadprogress, wmp/IWMPNetwork::get_downloadProgress
-f1_keywords:
-- wmp/IWMPNetwork.get_downloadProgress
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_downloadProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_downloadProgress
+ - wmp/IWMPNetwork::get_downloadProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_downloadProgress
 ---
 
 # IWMPNetwork::get_downloadProgress
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_downloadProgress</b> method retrieves the percentage of the download completed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plDownloadProgress [out]
 
 Pointer to a <b>long</b> containing the download progress.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the Windows Media Player control is connected to a digital media file that can be played and downloaded at the same time, the <b>get_downloadProgress</b> method retrieves the percentage of the total file that has been downloaded. This feature is currently supported only for digital media files downloaded from web servers. The following file formats can be downloaded and played simultaneously:
 
@@ -111,20 +96,10 @@ In addition, some AVI files can be downloaded and played simultaneously.
 
 Use the <b>IWMPEvents::Buffering</b> event to determine when buffering starts or stops.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering">IWMPEvents::Buffering</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering">IWMPEvents::Buffering</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

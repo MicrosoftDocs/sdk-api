@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.IsCursorHidden
 title: IVideoWindow::IsCursorHidden (control.h)
 description: The IsCursorHidden method queries whether the cursor is hidden.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","IsCursorHidden method","IVideoWindow.IsCursorHidden","IVideoWindow::IsCursorHidden","IVideoWindowIsCursorHidden","IsCursorHidden","IsCursorHidden method [DirectShow]","IsCursorHidden method [DirectShow]","IVideoWindow interface","control/IVideoWindow::IsCursorHidden","dshow.ivideowindow_iscursorhidden"]
 old-location: dshow\ivideowindow_iscursorhidden.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 240040d8-433e-4398-a20a-66cc5a27bdae
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],IsCursorHidden method, IVideoWindow.IsCursorHidden, IVideoWindow::IsCursorHidden, IVideoWindowIsCursorHidden, IsCursorHidden, IsCursorHidden method [DirectShow], IsCursorHidden method [DirectShow],IVideoWindow interface, control/IVideoWindow::IsCursorHidden, dshow.ivideowindow_iscursorhidden
-f1_keywords:
-- control/IVideoWindow.IsCursorHidden
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.IsCursorHidden
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::IsCursorHidden
+ - control/IVideoWindow::IsCursorHidden
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.IsCursorHidden
 ---
 
 # IVideoWindow::IsCursorHidden
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsCursorHidden</code> method queries whether the cursor is hidden.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param CursorHidden [out]
 
 Receives the value OATRUE if the cursor is hidden, or OAFALSE if the cursor is displayed.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,26 +102,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-hidecursor">IVideoWindow::HideCursor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-hidecursor">IVideoWindow::HideCursor</a>

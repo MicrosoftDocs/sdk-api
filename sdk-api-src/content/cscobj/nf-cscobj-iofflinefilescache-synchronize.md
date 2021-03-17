@@ -2,15 +2,12 @@
 UID: NF:cscobj.IOfflineFilesCache.Synchronize
 title: IOfflineFilesCache::Synchronize (cscobj.h)
 description: Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
+helpviewer_keywords: ["IOfflineFilesCache interface [Offline Files]","Synchronize method","IOfflineFilesCache.Synchronize","IOfflineFilesCache::Synchronize","OFFLINEFILES_SYNC_CONTROL_CR_KEEPLATEST","OFFLINEFILES_SYNC_CONTROL_CR_KEEPLOCAL","OFFLINEFILES_SYNC_CONTROL_CR_KEEPREMOTE","OFFLINEFILES_SYNC_CONTROL_FLAG_ASYNCPROGRESS","OFFLINEFILES_SYNC_CONTROL_FLAG_BACKGROUND","OFFLINEFILES_SYNC_CONTROL_FLAG_CONSOLE","OFFLINEFILES_SYNC_CONTROL_FLAG_FILLSPARSE","OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE","OFFLINEFILES_SYNC_CONTROL_FLAG_LOWPRIORITY","OFFLINEFILES_SYNC_CONTROL_FLAG_NONEWFILESOUT","OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORALL","OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORREDIR","OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER","OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER_POLICY","OFFLINEFILES_SYNC_CONTROL_FLAG_PINNEWFILES","OFFLINEFILES_SYNC_CONTROL_FLAG_SKIPSUSPENDEDDIRS","OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCIN","OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT","OFFLINEFILES_SYNC_CONTROL_PINLINKTARGETS","Synchronize","Synchronize method [Offline Files]","Synchronize method [Offline Files]","IOfflineFilesCache interface","cscobj/IOfflineFilesCache::Synchronize","of.iofflinefilescache_synchronize"]
 old-location: of\iofflinefilescache_synchronize.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 4a9dd105-ea68-40ce-b1cb-6126ca932095
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Synchronize method, IOfflineFilesCache.Synchronize, IOfflineFilesCache::Synchronize, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLATEST, OFFLINEFILES_SYNC_CONTROL_CR_KEEPLOCAL, OFFLINEFILES_SYNC_CONTROL_CR_KEEPREMOTE, OFFLINEFILES_SYNC_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_SYNC_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_SYNC_CONTROL_FLAG_CONSOLE, OFFLINEFILES_SYNC_CONTROL_FLAG_FILLSPARSE, OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_SYNC_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_SYNC_CONTROL_FLAG_NONEWFILESOUT, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORALL, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORREDIR, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER, OFFLINEFILES_SYNC_CONTROL_FLAG_PINFORUSER_POLICY, OFFLINEFILES_SYNC_CONTROL_FLAG_PINNEWFILES, OFFLINEFILES_SYNC_CONTROL_FLAG_SKIPSUSPENDEDDIRS, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCIN, OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT, OFFLINEFILES_SYNC_CONTROL_PINLINKTARGETS, Synchronize, Synchronize method [Offline Files], Synchronize method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Synchronize, of.iofflinefilescache_synchronize
-f1_keywords:
-- cscobj/IOfflineFilesCache.Synchronize
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache.Synchronize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache::Synchronize
+ - cscobj/IOfflineFilesCache::Synchronize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache.Synchronize
 ---
 
 # IOfflineFilesCache::Synchronize
@@ -49,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Synchronizes files and directories in the Offline Files cache with their corresponding copies in the 
     applicable network shared folders.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
@@ -65,16 +62,13 @@ Identifies the parent window for any user interface elements displayed. This par
      <b>OFFLINEFILES_SYNC_CONTROL_FLAG_INTERACTIVE</b> flag is not set in the <i>dwSyncControl</i> 
      parameter.
 
-
 ### -param rgpszPaths [in]
 
 Array of pointers, each to a fully qualified UNC path of a file or directory to be synchronized.
 
-
 ### -param cPaths [in]
 
 Number of paths in the <i>rgpszPaths</i> array.
-
 
 ### -param bAsync [in]
 
@@ -82,7 +76,6 @@ Indicates if the operation is to be performed asynchronously. If this parameter 
       <b>TRUE</b>, the operation is placed on a separate thread in the system thread pool and the 
       function returns immediately.  If this parameter is <b>FALSE</b>, the function returns when 
       the operation is complete.
-
 
 ### -param dwSyncControl [in]
 
@@ -97,7 +90,7 @@ Flags to control the behavior of the entire sync operation. Behaviors such as sy
 Fill sparse files in the cache.  Setting this flag results in an enumeration of the local copies in the 
         cache. Any sparsely cached files that are found are filled so that they are no longer sparse. Sparsely cached 
         files are not available for offline use. For more information, see the 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a> 
+        <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a> 
         method.
 
 
@@ -219,7 +212,7 @@ This flag is ignored if the <b>OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT</b> flag i
          <b>OFFLINEFILES_SYNC_CONTROL_FLAG_SYNCOUT</b> flag is set, this flag indicates that new files that exist only on the client will not be created on the server.
 
 If, rather than providing an implementation of 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncconflicthandler">IOfflineFilesSyncConflictHandler</a>, you 
+       <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncconflicthandler">IOfflineFilesSyncConflictHandler</a>, you 
        want all sync conflicts to be resolved in a "keep local", "keep remote" or 
        "keep latest" manner, set one (and only one) of the following flag values. Note that these 
        flag values are ignored if the <i>pISyncConflictHandler</i> parameter is not <b>NULL</b>.
@@ -242,10 +235,9 @@ Synchronize the remote copy to the local cache.
 
 Keep the copy with the latest last-change time. This resolution is sometimes called "last writer wins."
 
-
 ### -param pISyncConflictHandler [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncconflicthandler">IOfflineFilesSyncConflictHandler</a> 
+An <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncconflicthandler">IOfflineFilesSyncConflictHandler</a> 
      interface pointer to a conflict handler implementation. If provided, the sync operation calls the conflict 
      handler to resolve sync conflicts as they are encountered during the operation.  The handler receives a code 
      describing the type of conflict then returns a code indicating if the conflict has been resolved or some other 
@@ -253,42 +245,32 @@ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/csc
      the default action is taken in the Offline Files service. Normally this results in the conflict being recorded in 
      the user's sync conflict store for later presentation in Sync Center.
 
-
 ### -param pIProgress [in]
 
 Interface to an event sink that will receive progress events during the operation.  This parameter is optional and can  be <b>NULL</b>.
 
-
 ### -param pSyncId [in]
 
 A unique ID applied to this sync operation.  This ID will be included with all published events 
-     (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) related to this operation. This 
+     (<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) related to this operation. This 
      parameter is optional and can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code> if the operation is canceled.
 
-Monitor <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a> events to 
+Monitor <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a> events to 
        detect failures associated with individual files.
 
-
-
-
 ## -remarks
-
-
 
 If the <i>bAsync</i> parameter is <b>TRUE</b>, the caller is required to provide an event interface through the <i>pIProgress</i> parameter.  The <b>Synchronize</b> method will increment the reference count on the event interface at the start of the operation and decrement the reference count when the operation has completed.  It is therefore recommended that the event sink implementation increment the reference count of its hosting module so that the module remains in memory throughout the operation.
 
 If a sync operation is canceled while in progress, files that have been synchronized up to that point remain synchronized.
 
-If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single synchronization operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
+If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single synchronization operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
 
 <table>
 <tr>
@@ -298,46 +280,46 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-begin">Begin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-begin">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitembegin">SyncItemBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitembegin">SyncItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">SyncItemResult</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">SyncItemResult</a>
 </td>
 <td>Called after each file is synchronized.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-queryabort">QueryAbort</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-queryabort">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-end">End</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-end">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
@@ -345,32 +327,22 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
  
 
 If the calling code also listens for published sync events, the Sync ID may be specified through the 
-    <i>pSyncId</i> parameter.  The same ID value is transmitted through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">SyncBegin</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">SyncFileResult</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">SyncEnd</a> published events 
-    (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) generated from this operation.
-
-
-
+    <i>pSyncId</i> parameter.  The same ID value is transmitted through the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncbegin">SyncBegin</a>, 
+    <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncfileresult">SyncFileResult</a>, and <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents-syncend">SyncEnd</a> published events 
+    (<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>) generated from this operation.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">IOfflineFilesEvents2::BackgroundSyncBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncbegin">IOfflineFilesEvents2::BackgroundSyncBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">IOfflineFilesEvents2::BackgroundSyncEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesevents2-backgroundsyncend">IOfflineFilesEvents2::BackgroundSyncEnd</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesfileitem-issparse">IOfflineFilesFileItem::IsSparse</a>

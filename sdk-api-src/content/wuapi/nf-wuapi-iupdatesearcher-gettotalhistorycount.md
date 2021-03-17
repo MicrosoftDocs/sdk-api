@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSearcher.GetTotalHistoryCount
 title: IUpdateSearcher::GetTotalHistoryCount (wuapi.h)
 description: Returns the number of update events on the computer.
+helpviewer_keywords: ["GetTotalHistoryCount","GetTotalHistoryCount method [Windows Update Agent]","GetTotalHistoryCount method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","GetTotalHistoryCount method","IUpdateSearcher.GetTotalHistoryCount","IUpdateSearcher::GetTotalHistoryCount","wua.iupdatesearchergettotalhistorycount","wuapi/IUpdateSearcher::GetTotalHistoryCount"]
 old-location: wua\iupdatesearchergettotalhistorycount.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 895f60c2-c106-4088-9a4f-7c1d159d8a9b
 ms.date: 12/05/2018
 ms.keywords: GetTotalHistoryCount, GetTotalHistoryCount method [Windows Update Agent], GetTotalHistoryCount method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],GetTotalHistoryCount method, IUpdateSearcher.GetTotalHistoryCount, IUpdateSearcher::GetTotalHistoryCount, wua.iupdatesearchergettotalhistorycount, wuapi/IUpdateSearcher::GetTotalHistoryCount
-f1_keywords:
-- wuapi/IUpdateSearcher.GetTotalHistoryCount
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher.GetTotalHistoryCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher::GetTotalHistoryCount
+ - wuapi/IUpdateSearcher::GetTotalHistoryCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher.GetTotalHistoryCount
 ---
 
 # IUpdateSearcher::GetTotalHistoryCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the number of update events on the computer.
 
-
 ## -parameters
-
-
-
 
 ### -param retval [out]
 
 The number of update events on the computer.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -87,18 +81,7 @@ A parameter value is invalid or <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

@@ -2,15 +2,12 @@
 UID: NF:winbase.GetTapeStatus
 title: GetTapeStatus function (winbase.h)
 description: Determines whether the tape device is ready to process tape commands.
+helpviewer_keywords: ["GetTapeStatus","GetTapeStatus function [Backup]","_win32_gettapestatus","backup.gettapestatus","base.gettapestatus","winbase/GetTapeStatus"]
 old-location: backup\gettapestatus.htm
 tech.root: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.date: 12/05/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
-f1_keywords:
-- winbase/GetTapeStatus
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GetTapeStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTapeStatus
+ - winbase/GetTapeStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GetTapeStatus
 ---
 
 # GetTapeStatus function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTapeStatus</b> function determines whether the tape device is ready to process tape commands.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device for which to get the device status. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ## -returns
-
-
 
 If the tape device is ready to accept appropriate tape-access commands without returning errors, the return value is NO_ERROR.
 
@@ -270,18 +264,7 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>

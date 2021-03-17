@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
 title: IWMDMDeviceSession::BeginSession (mswmdm.h)
 description: The BeginSession method begins a device session.
+helpviewer_keywords: ["BeginSession","BeginSession method [windows Media Device Manager]","BeginSession method [windows Media Device Manager]","IWMDMDeviceSession interface","IWMDMDeviceSession interface [windows Media Device Manager]","BeginSession method","IWMDMDeviceSession.BeginSession","IWMDMDeviceSession::BeginSession","IWMDMDeviceSessionBeginSession","mswmdm/IWMDMDeviceSession::BeginSession","wmdm.iwmdmdevicesession_beginsession"]
 old-location: wmdm\iwmdmdevicesession_beginsession.htm
 tech.root: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
-f1_keywords:
-- mswmdm/IWMDMDeviceSession.BeginSession
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDeviceSession.BeginSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDeviceSession::BeginSession
+ - mswmdm/IWMDMDeviceSession::BeginSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDeviceSession.BeginSession
 ---
 
 # IWMDMDeviceSession::BeginSession
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BeginSession</b> method begins a device session.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param type [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>.
-
+A <a href="/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a> describing the type of session to begin. This is a bitwise <b>OR</b> of any values except WMDM_SESSION_NONE. The same type (or combination of types) must be specified during <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">EndSession</a>.
 
 ### -param pCtx [in]
 
 Optional pointer to a caller-allocated session context buffer for private communication between the application and the service provider. Applications having knowledge of the underlying service provider can use this buffer to pass context-specific data to it. Windows Media Device Manager does not do anything with this context. The caller is responsible for freeing this buffer.
 
-
 ### -param dwSizeCtx [in]
 
 Size of the context buffer, in bytes. If the size is 0, <i>pCtx</i> is ignored. If the size is non-zero, <i>pCtx</i> must be a valid pointer.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -87,14 +76,9 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 Bundling several operations into a session does not cause all actions to be postponed and performed in a group; all actions (such as a call to <b>Insert</b>) will still be performed synchronously as called. Rather, using a session allows Windows Media Device Manager components (such as the secure content provider and service provider) to perform some of the operations only once per session, which provides performance improvements. For example, during file transfer to a device, the secure content provider can acquire the device certificate once at the beginning of the session instead of once for every file transfer.
 
@@ -181,25 +165,14 @@ CHECK_HR(hr,"Closed the session.","Couldn't close the session.");
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession">IWMDMDeviceSession Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession">IWMDMDeviceSession Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">IWMDMDeviceSession::EndSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicesession-endsession">IWMDMDeviceSession::EndSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>

@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryProvider.SetAddressFamily
 title: IWSDiscoveryProvider::SetAddressFamily (wsddisco.h)
 description: Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
+helpviewer_keywords: ["IWSDiscoveryProvider interface","SetAddressFamily method","IWSDiscoveryProvider.SetAddressFamily","IWSDiscoveryProvider::SetAddressFamily","SetAddressFamily","SetAddressFamily method","SetAddressFamily method","IWSDiscoveryProvider interface","WSDAPI_ADDRESSFAMILY_IPV4","WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6","WSDAPI_ADDRESSFAMILY_IPV6","ncd.iwsdiscoveryprovider_setaddressfamily","wsddisco/IWSDiscoveryProvider::SetAddressFamily"]
 old-location: ncd\iwsdiscoveryprovider_setaddressfamily.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 33b13cd5-ea60-4928-a220-db563c00a43c
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SetAddressFamily method, IWSDiscoveryProvider.SetAddressFamily, IWSDiscoveryProvider::SetAddressFamily, SetAddressFamily, SetAddressFamily method, SetAddressFamily method,IWSDiscoveryProvider interface, WSDAPI_ADDRESSFAMILY_IPV4, WSDAPI_ADDRESSFAMILY_IPV4 | WSDAPI_ADDRESSFAMILY_IPV6, WSDAPI_ADDRESSFAMILY_IPV6, ncd.iwsdiscoveryprovider_setaddressfamily, wsddisco/IWSDiscoveryProvider::SetAddressFamily
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider.SetAddressFamily
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDiscoveryProvider.SetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider::SetAddressFamily
+ - wsddisco/IWSDiscoveryProvider::SetAddressFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider.SetAddressFamily
 ---
 
 # IWSDiscoveryProvider::SetAddressFamily
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAddressFamily [in]
 
@@ -97,12 +94,8 @@ Search over IPv4 and IPv6 addresses.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -161,27 +154,11 @@ The system does not support the address family specified by <i>dwAddressFamily</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method can be called only once on a provider. This method must be called before a notification sink is attached to the provider. That means <b>SetAddressFamily</b> must be called before <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> is called on a provider.
-
-
-
+This method can be called only once on a provider. This method must be called before a notification sink is attached to the provider. That means <b>SetAddressFamily</b> must be called before <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> is called on a provider.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

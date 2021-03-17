@@ -2,15 +2,12 @@
 UID: NF:propvarutil.VariantToBooleanArray
 title: VariantToBooleanArray function (propvarutil.h)
 description: Extracts an array of Boolean values from a VARIANT structure.
+helpviewer_keywords: ["VariantToBooleanArray","VariantToBooleanArray function [Windows Properties]","_shell_VariantToBooleanArray","properties.VariantToBooleanArray","propvarutil/VariantToBooleanArray","shell.VariantToBooleanArray"]
 old-location: properties\VariantToBooleanArray.htm
 tech.root: properties
 ms.assetid: 80a1e7d4-ec11-4b16-ba05-b97f3bbf02d0
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Properties], _shell_VariantToBooleanArray, properties.VariantToBooleanArray, propvarutil/VariantToBooleanArray, shell.VariantToBooleanArray
-f1_keywords:
-- propvarutil/VariantToBooleanArray
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- VariantToBooleanArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - VariantToBooleanArray
+ - propvarutil/VariantToBooleanArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - VariantToBooleanArray
 ---
 
 # VariantToBooleanArray function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts an array of Boolean values from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+Extracts an array of Boolean values from a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param var [in]
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+Reference to a source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param prgf [out]
 
 Type: <b>BOOL*</b>
 
-Pointer to a buffer that contains <i>crgn</i> Boolean values. When this function returns, the buffer has been initialized with *<i>pcElem</i> <b>BOOL</b> elements extracted from the source  <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+Pointer to a buffer that contains <i>crgn</i> Boolean values. When this function returns, the buffer has been initialized with *<i>pcElem</i> <b>BOOL</b> elements extracted from the source  <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param crgn [in]
 
@@ -77,17 +72,13 @@ Type: <b>ULONG</b>
 
 The number of elements in the buffer pointed to by <i>prgf</i>.
 
-
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains a pointer to the count of <b>BOOL</b> elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+When this function returns, contains a pointer to the count of <b>BOOL</b> elements extracted from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -105,7 +96,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise, including the fo
 </dl>
 </td>
 <td width="60%">
-The source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contained more than <i>crgn</i> values.
+The source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contained more than <i>crgn</i> values.
 
 </td>
 </tr>
@@ -116,28 +107,22 @@ The source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaid
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> was not of the appropriate type.
+The <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This helper function is used when the calling application expects a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array that consists of a fixed number of Boolean values.
 
-
-This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array that consists of a fixed number of Boolean values.
-
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_ARRAY | VT_BOOL, this function extracts up to <i>crgn</i> <b>BOOL</b> values and places them into the buffer pointed to by <i>prgf</i>. If the <b>VARIANT</b> contains more elements than will fit into the <i>prgf</i> buffer, this function returns an error and sets *<i>pcElem</i> to 0.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_ARRAY | VT_BOOL, this function extracts up to <i>crgn</i> <b>BOOL</b> values and places them into the buffer pointed to by <i>prgf</i>. If the <b>VARIANT</b> contains more elements than will fit into the <i>prgf</i> buffer, this function returns an error and sets *<i>pcElem</i> to 0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanarray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanarray">VariantToBooleanArray</a> to access an array of <b>BOOL</b> values stored in a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 
 ```cpp
@@ -162,33 +147,22 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfrombooleanarray">InitVariantFromBooleanArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfrombooleanarray">InitVariantFromBooleanArray</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanvector">PropVariantToBooleanVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanvector">PropVariantToBooleanVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-variantgetbooleanelem">VariantGetBooleanElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-variantgetbooleanelem">VariantGetBooleanElem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoboolean">VariantToBoolean</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoboolean">VariantToBoolean</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanarrayalloc">VariantToBooleanArrayAlloc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanarrayalloc">VariantToBooleanArrayAlloc</a>

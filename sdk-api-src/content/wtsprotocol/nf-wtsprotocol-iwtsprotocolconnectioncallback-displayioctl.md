@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.DisplayIOCtl
 title: IWTSProtocolConnectionCallback::DisplayIOCtl (wtsprotocol.h)
 description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
+helpviewer_keywords: ["DisplayIOCtl","DisplayIOCtl method [Remote Desktop Services]","DisplayIOCtl method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","IWTSProtocolConnectionCallback interface [Remote Desktop Services]","DisplayIOCtl method","IWTSProtocolConnectionCallback.DisplayIOCtl","IWTSProtocolConnectionCallback::DisplayIOCtl","termserv.iwtsprotocolconnectioncallback_displayioctl","wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl"]
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm
 tech.root: TermServ
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61
 ms.date: 12/05/2018
 ms.keywords: DisplayIOCtl, DisplayIOCtl method [Remote Desktop Services], DisplayIOCtl method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, IWTSProtocolConnectionCallback interface [Remote Desktop Services],DisplayIOCtl method, IWTSProtocolConnectionCallback.DisplayIOCtl, IWTSProtocolConnectionCallback::DisplayIOCtl, termserv.iwtsprotocolconnectioncallback_displayioctl, wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
-f1_keywords:
-- wtsprotocol/IWTSProtocolConnectionCallback.DisplayIOCtl
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolConnectionCallback.DisplayIOCtl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolConnectionCallback::DisplayIOCtl
+ - wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolConnectionCallback.DisplayIOCtl
 ---
 
 # IWTSProtocolConnectionCallback::DisplayIOCtl
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::DisplayIOCtl</b> is no longer available for use as of Windows Server 2012.]
 
 Requests that the Remote Desktop Services service send data to the display driver loaded in the session.
 
-
 ## -parameters
-
-
-
 
 ### -param DisplayIOCtl [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_display_ioctl">WTS_DISPLAY_IOCTL</a> structure that contains data to be sent to the display driver loaded in the session.
-
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_display_ioctl">WTS_DISPLAY_IOCTL</a> structure that contains data to be sent to the display driver loaded in the session.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
-
-
 
 To avoid deadlocks when calling this method:
 
@@ -86,19 +75,10 @@ To avoid deadlocks when calling this method:
 <li>Do not block on this method before replying to another call by the Remote Desktop Services service.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_display_ioctl">WTS_DISPLAY_IOCTL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_display_ioctl">WTS_DISPLAY_IOCTL</a>

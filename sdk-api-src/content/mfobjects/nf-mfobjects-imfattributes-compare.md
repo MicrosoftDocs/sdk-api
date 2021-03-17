@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFAttributes.Compare
 title: IMFAttributes::Compare (mfobjects.h)
 description: Compares the attributes on this object with the attributes on another object.
+helpviewer_keywords: ["1d0c9d1c-448d-4851-b183-94b04acb2ab5","Compare","Compare method [Media Foundation]","Compare method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","Compare method","IMFAttributes.Compare","IMFAttributes::Compare","mf.imfattributes_compare","mfobjects/IMFAttributes::Compare"]
 old-location: mf\imfattributes_compare.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1d0c9d1c-448d-4851-b183-94b04acb2ab5
 ms.date: 12/05/2018
 ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare, Compare method [Media Foundation], Compare method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],Compare method, IMFAttributes.Compare, IMFAttributes::Compare, mf.imfattributes_compare, mfobjects/IMFAttributes::Compare
-f1_keywords:
-- mfobjects/IMFAttributes.Compare
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAttributes.Compare
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAttributes::Compare
+ - mfobjects/IMFAttributes::Compare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAttributes.Compare
 ---
 
 # IMFAttributes::Compare
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Compares the attributes on this object with the attributes on another object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pTheirs [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the object to compare with this object.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the object to compare with this object.
 
 ### -param MatchType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attributes_match_type">MF_ATTRIBUTES_MATCH_TYPE</a> enumeration, specifying the type of comparison to make.
-
+Member of the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_attributes_match_type">MF_ATTRIBUTES_MATCH_TYPE</a> enumeration, specifying the type of comparison to make.
 
 ### -param pbResult [out]
 
 Receives a Boolean value. The value is <b>TRUE</b> if the two sets of attributes match in the way specified by the <i>MatchType</i> parameter. Otherwise, the value is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +88,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>pThis</i> is the object whose <b>Compare</b> method is called, and <i>pTheirs</i> is the object passed in as the <i>pTheirs</i> parameter, the following comparisons are defined by <i>MatchType</i>.
 
@@ -147,19 +130,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

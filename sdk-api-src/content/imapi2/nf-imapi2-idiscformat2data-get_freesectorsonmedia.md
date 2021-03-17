@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_FreeSectorsOnMedia
 title: IDiscFormat2Data::get_FreeSectorsOnMedia (imapi2.h)
 description: Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_FreeSectorsOnMedia method","IDiscFormat2Data.get_FreeSectorsOnMedia","IDiscFormat2Data::get_FreeSectorsOnMedia","get_FreeSectorsOnMedia","get_FreeSectorsOnMedia method [IMAPI]","get_FreeSectorsOnMedia method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_freesectorsonmedia","imapi2/IDiscFormat2Data::get_FreeSectorsOnMedia"]
 old-location: imapi\idiscformat2data_get_freesectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 33313831-859c-4e35-9a43-cde2220b43d1
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_FreeSectorsOnMedia method, IDiscFormat2Data.get_FreeSectorsOnMedia, IDiscFormat2Data::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_freesectorsonmedia, imapi2/IDiscFormat2Data::get_FreeSectorsOnMedia
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_FreeSectorsOnMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_FreeSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_FreeSectorsOnMedia
+ - imapi2/IDiscFormat2Data::get_FreeSectorsOnMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_FreeSectorsOnMedia
 ---
 
 # IDiscFormat2Data::get_FreeSectorsOnMedia
@@ -48,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).<div class="alert"><b>Note</b>  When this method is called for DVD-/+RW, DVD-RAM, and BD-RE media, the reported free sector <i>value</i> represents total  capacity, rather than the current number of free sectors. To retrieve free sectors for these media types, the file system must  be imported via <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>, which will allow the use of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a> method to retrieve the value.</div>
+Retrieves the number of free sectors on the disc for incremental recording (without overwriting existing data).<div class="alert"><b>Note</b>  When this method is called for DVD-/+RW, DVD-RAM, and BD-RE media, the reported free sector <i>value</i> represents total  capacity, rather than the current number of free sectors. To retrieve free sectors for these media types, the file system must  be imported via <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a> or <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>, which will allow the use of the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a> method to retrieve the value.</div>
 <div> </div>
-
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-Number of free sectors on the media in the device. 
-
+Number of free sectors on the media in the device.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -362,35 +355,19 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The value of this property is effectively the number of sectors available on disc for the write operation. The value filters sectors consumed in  managing the disc space and data quality, such as run-out blocks and postgaps.
 
 <div class="alert"><b>Note</b>  For overwritable discs, which have only one physical session, the number of free sectors indicated by <i>value</i> will always be the total number of sectors on the disc.</div>
 <div> </div>
-If <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite">IDiscFormat2Data::put_ForceOverwrite</a> is set to VARIANT_TRUE, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a> property instead.
-
-
-
+If <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceoverwrite">IDiscFormat2Data::put_ForceOverwrite</a> is set to VARIANT_TRUE, use the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a> property instead.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a>

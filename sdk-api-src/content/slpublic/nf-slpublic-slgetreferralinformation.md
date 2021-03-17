@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetReferralInformation
 title: SLGetReferralInformation function (slpublic.h)
 description: Gets referral information for the specified product.
+helpviewer_keywords: ["SLGetReferralInformation","SLGetReferralInformation function [Security]","SL_DOWNLOADURL","SL_INSTALLATIONPARAMETERS","SL_MERCHANTCOMMERCEURL","SL_MERCHANTSUPPORTEMAIL","SL_MERCHANTSUPPORTPHONENUMBER","SL_MERCHANTSUPPORTURL","SL_MERCHANTUPGRADEURL","SL_PARTNERID","SL_REFERRALID","SL_SERIALIZEDDATA","security.slgetreferralinformation","slpublic/SLGetReferralInformation"]
 old-location: security\slgetreferralinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 880ee26d-4deb-415c-b1dd-f17d802ea8e8
 ms.date: 12/05/2018
 ms.keywords: SLGetReferralInformation, SLGetReferralInformation function [Security], SL_DOWNLOADURL, SL_INSTALLATIONPARAMETERS, SL_MERCHANTCOMMERCEURL, SL_MERCHANTSUPPORTEMAIL, SL_MERCHANTSUPPORTPHONENUMBER, SL_MERCHANTSUPPORTURL, SL_MERCHANTUPGRADEURL, SL_PARTNERID, SL_REFERRALID, SL_SERIALIZEDDATA, security.slgetreferralinformation, slpublic/SLGetReferralInformation
-f1_keywords:
-- slpublic/SLGetReferralInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetReferralInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetReferralInformation
+ - slpublic/SLGetReferralInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetReferralInformation
 ---
 
 # SLGetReferralInformation function
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets referral information for the specified product.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
 Type: <b>HSLC</b>
 
-The handle retrieved by previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
-
+The handle retrieved by previous call to the <a href="/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
 
 ### -param eReferralType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-slreferraltype">SLREFERRALTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-slreferraltype">SLREFERRALTYPE</a></b>
 
 The referral type.
-
 
 ### -param pSkuOrAppId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the <b>SLID</b> of the application or SKU from which to obtain information.
-
 
 ### -param pwszValueName [in]
 
@@ -200,19 +194,14 @@ A generic data BLOB
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppwszValue [out]
 
 Type: <b>PWSTR*</b>
 
-The value to store. When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+The value to store. When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -236,7 +225,3 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-

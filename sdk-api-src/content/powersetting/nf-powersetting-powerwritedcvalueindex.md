@@ -2,16 +2,12 @@
 UID: NF:powersetting.PowerWriteDCValueIndex
 title: PowerWriteDCValueIndex function (powersetting.h)
 description: Sets the DC index of the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteDCValueIndex","PowerWriteDCValueIndex function","base.powerwritedcvalueindex","powersetting/PowerWriteDCValueIndex","powrprof/PowerWriteDCValueIndex"]
 old-location: base\powerwritedcvalueindex.htm
 tech.root: power
 ms.assetid: 268cb000-659f-449c-bcbb-16c5f7e4e8bc
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteDCValueIndex, PowerWriteDCValueIndex function, base.powerwritedcvalueindex, powersetting/PowerWriteDCValueIndex, powrprof/PowerWriteDCValueIndex
-ms.topic: function
-f1_keywords:
-- powersetting/PowerWriteDCValueIndex
-dev_langs:
-- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-- API-MS-Win-power-setting-l1-1-0.dll
-api_name:
-- PowerWriteDCValueIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWriteDCValueIndex
+ - powersetting/PowerWriteDCValueIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+ - API-MS-Win-power-setting-l1-1-0.dll
+api_name:
+ - PowerWriteDCValueIndex
 ---
 
 # PowerWriteDCValueIndex function
@@ -50,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the DC index of the specified power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in]
 
 The identifier of the power scheme.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -168,46 +162,25 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param DcValueIndex [in]
 
 The DC value index.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
 	      the call failed.
 
-
-
-
 ## -remarks
 
-
-
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

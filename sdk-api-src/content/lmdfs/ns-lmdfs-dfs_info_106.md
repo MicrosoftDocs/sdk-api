@@ -2,15 +2,12 @@
 UID: NS:lmdfs._DFS_INFO_106
 title: DFS_INFO_106 (lmdfs.h)
 description: Contains the storage state and priority for a DFS root target or link target. This structure is only for use with the NetDfsSetInfo function.
+helpviewer_keywords: ["*LPDFS_INFO_106","*PDFS_INFO_106","DFS_INFO_106","DFS_INFO_106 structure [Distributed File System]","DFS_STORAGE_STATES","DFS_STORAGE_STATE_OFFLINE","DFS_STORAGE_STATE_ONLINE","LPDFS_INFO_106","LPDFS_INFO_106 structure pointer [Distributed File System]","PDFS_INFO_106","PDFS_INFO_106 structure pointer [Distributed File System]","dfs.dfs_info_106","fs.dfs_info_106","lmdfs/DFS_INFO_106","lmdfs/LPDFS_INFO_106","lmdfs/PDFS_INFO_106","netmgmt.dfs_info_106"]
 old-location: dfs\dfs_info_106.htm
 tech.root: Dfs
 ms.assetid: 12c114e4-f978-4423-85a8-ec0cf9c9e8c5
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_INFO_106, *PDFS_INFO_106, DFS_INFO_106, DFS_INFO_106 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_INFO_106, LPDFS_INFO_106 structure pointer [Distributed File System], PDFS_INFO_106, PDFS_INFO_106 structure pointer [Distributed File System], dfs.dfs_info_106, fs.dfs_info_106, lmdfs/DFS_INFO_106, lmdfs/LPDFS_INFO_106, lmdfs/PDFS_INFO_106, netmgmt.dfs_info_106'
-f1_keywords:
-- lmdfs/DFS_INFO_106
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LmDfs.h
-api_name:
-- DFS_INFO_106
 targetos: Windows
 req.typenames: DFS_INFO_106, *PDFS_INFO_106, *LPDFS_INFO_106
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DFS_INFO_106
+ - lmdfs/_DFS_INFO_106
+ - PDFS_INFO_106
+ - lmdfs/PDFS_INFO_106
+ - DFS_INFO_106
+ - lmdfs/DFS_INFO_106
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LmDfs.h
+api_name:
+ - DFS_INFO_106
 ---
 
 # DFS_INFO_106 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the storage state and priority for a DFS root target or link target. This structure is only for use with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
-
+Contains the storage state and priority for a DFS root target or link target. This structure is only for use with the <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field State
 
@@ -79,32 +80,22 @@ The DFS storage is online.
 
 Mask value that indicates which storage flags are set.
 
-
 ### -field TargetPriority
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_target_priority">DFS_TARGET_PRIORITY</a> structure that contains the specific priority class and rank of a DFS target.
-
+<a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_target_priority">DFS_TARGET_PRIORITY</a> structure that contains the specific priority class and rank of a DFS target.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

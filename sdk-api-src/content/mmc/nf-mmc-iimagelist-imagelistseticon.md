@@ -2,15 +2,12 @@
 UID: NF:mmc.IImageList.ImageListSetIcon
 title: IImageList::ImageListSetIcon (mmc.h)
 description: The IImageList::ImageListSetIcon method enables a user to set an icon in the image list or to create an icon if it is not there.
+helpviewer_keywords: ["IImageList interface [MMC]","ImageListSetIcon method","IImageList.ImageListSetIcon","IImageList::ImageListSetIcon","ImageListSetIcon","ImageListSetIcon method [MMC]","ImageListSetIcon method [MMC]","IImageList interface","_slate_iimagelist_imagelistseticon","mmc.iimagelist_imagelistseticon","mmc/IImageList::ImageListSetIcon"]
 old-location: mmc\iimagelist_imagelistseticon.htm
 tech.root: mmc
 ms.assetid: 3bdb166e-e78a-41a8-9bb7-904d0462f976
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [MMC],ImageListSetIcon method, IImageList.ImageListSetIcon, IImageList::ImageListSetIcon, ImageListSetIcon, ImageListSetIcon method [MMC], ImageListSetIcon method [MMC],IImageList interface, _slate_iimagelist_imagelistseticon, mmc.iimagelist_imagelistseticon, mmc/IImageList::ImageListSetIcon
-f1_keywords:
-- mmc/IImageList.ImageListSetIcon
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IImageList.ImageListSetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList::ImageListSetIcon
+ - mmc/IImageList::ImageListSetIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IImageList.ImageListSetIcon
 ---
 
 # IImageList::ImageListSetIcon
@@ -48,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IImageList::ImageListSetIcon</b> method enables a user to set an icon in the image list or to create an icon if it is not there.
 
-
 ## -parameters
-
-
-
 
 ### -param pIcon [in]
 
 A value that specifies the Win32
       HICON handle to the icon to set. The type must be cast as a pointer to a LONG_PTR. The snap-in owns this resource and must free it when finished. A resource memory leak will occur if the snap-in does not free Icon.
 
-
 ### -param nLoc [in]
 
 A value that specifies the index assigned to the entry. This is a virtual index that is internally mapped to the actual index.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 If the index specified by <i>nLoc</i> has been used before, 
 <b>ImageListSetIcon</b> replaces the icon stored at <i>nLoc</i>. If it has not been previously used, a new entry in the image list is added. The icon being inserted must have both the 32x32 and 16x16 pixel sizes defined.
@@ -111,16 +99,6 @@ pImageList->ImageListSetIcon((LONG_PTR*) hLargeIcon, ILSI_LARGE_ICON (nLoc)); //
 Before using either ILSI_LARGE_ICON or ILSI_SMALL_ICON, the snap-in must first insert an image at nLoc. The 
 ImageListSetIcon method will fail if the ILSI_LARGE_ICON or ILSI_SMALL_ICON macro is used and nLoc does not refer to an existing image.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>

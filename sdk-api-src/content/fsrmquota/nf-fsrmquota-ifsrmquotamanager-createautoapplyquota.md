@@ -2,15 +2,12 @@
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateAutoApplyQuota
 title: IFsrmQuotaManager::CreateAutoApplyQuota (fsrmquota.h)
 description: Creates an automatic quota for the specified directory.
+helpviewer_keywords: ["CreateAutoApplyQuota","CreateAutoApplyQuota method [File Server Resource Manager]","CreateAutoApplyQuota method [File Server Resource Manager]","FsrmQuotaManager class","CreateAutoApplyQuota method [File Server Resource Manager]","IFsrmQuotaManager interface","CreateAutoApplyQuota method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","FsrmQuotaManager class [File Server Resource Manager]","CreateAutoApplyQuota method","IFsrmQuotaManager interface [File Server Resource Manager]","CreateAutoApplyQuota method","IFsrmQuotaManager.CreateAutoApplyQuota","IFsrmQuotaManager::CreateAutoApplyQuota","IFsrmQuotaManagerEx interface [File Server Resource Manager]","CreateAutoApplyQuota method","IFsrmQuotaManagerEx::CreateAutoApplyQuota","fs.ifsrmquotamanager_createautoapplyquota","fsrm.ifsrmquotamanager_createautoapplyquota","fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota","fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota"]
 old-location: fsrm\ifsrmquotamanager_createautoapplyquota.htm
 tech.root: fsrm
 ms.assetid: faaa55ca-a0b1-4cd4-9c73-20d80879b10c
 ms.date: 12/05/2018
 ms.keywords: CreateAutoApplyQuota, CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager.CreateAutoApplyQuota, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
-f1_keywords:
-- fsrmquota/IFsrmQuotaManager.CreateAutoApplyQuota
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuotaManager.CreateAutoApplyQuota
-- IFsrmQuotaManagerEx.CreateAutoApplyQuota
-- FsrmQuotaManager.CreateAutoApplyQuota
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuotaManager::CreateAutoApplyQuota
+ - fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuotaManager.CreateAutoApplyQuota
+ - IFsrmQuotaManagerEx.CreateAutoApplyQuota
+ - FsrmQuotaManager.CreateAutoApplyQuota
 ---
 
 # IFsrmQuotaManager::CreateAutoApplyQuota
@@ -50,50 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Creates an automatic quota for the specified directory.
 
-
 ## -parameters
-
-
-
 
 ### -param quotaTemplateName [in]
 
 The name of a template from which to derive the quota; automatic quotas must derive from a template. The 
       string is limited to 4,000 characters.
 
-
 ### -param path [in]
 
 The local directory path to which the quota applies. The string is limited to 260 characters.
 
-
 ### -param quota [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmautoapplyquota">IFsrmAutoApplyQuota</a> interface to the newly 
+An <a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmautoapplyquota">IFsrmAutoApplyQuota</a> interface to the newly 
       created quota object. The specified template is used to initialize the quota. Use this interface to change the 
       quota and to exclude specific subdirectories from the quota. To add the quota to FSRM, call 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmAutoApplyQuota::Commit</a> method.
-
+      <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmAutoApplyQuota::Commit</a> method.
 
 ## -returns
 
-
-
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 When you save the automatic quota, FSRM creates quotas for all existing subdirectories under the specified 
     directory that do not already contain a quota. When a new subdirectory is created under the specified directory, 
@@ -105,31 +92,22 @@ If you are creating both the automatic quota and the subdirectories at the same 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanager">IFsrmQuotaManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanager">IFsrmQuotaManager</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanagerex">IFsrmQuotaManagerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanagerex">IFsrmQuotaManagerEx</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>

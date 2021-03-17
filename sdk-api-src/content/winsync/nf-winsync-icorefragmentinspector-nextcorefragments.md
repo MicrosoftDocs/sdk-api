@@ -2,15 +2,12 @@
 UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
 title: ICoreFragmentInspector::NextCoreFragments (winsync.h)
 description: Returns the next ICoreFragment objects in the knowledge, if they are available.
+helpviewer_keywords: ["ICoreFragmentInspector interface [Windows Sync]","NextCoreFragments method","ICoreFragmentInspector.NextCoreFragments","ICoreFragmentInspector::NextCoreFragments","NextCoreFragments","NextCoreFragments method [Windows Sync]","NextCoreFragments method [Windows Sync]","ICoreFragmentInspector interface","winsync.icorefragmentinspector_nextcorefragments","winsync/ICoreFragmentInspector::NextCoreFragments"]
 old-location: winsync\icorefragmentinspector_nextcorefragments.htm
 tech.root: winsync
 ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a
 ms.date: 12/05/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],NextCoreFragments method, ICoreFragmentInspector.NextCoreFragments, ICoreFragmentInspector::NextCoreFragments, NextCoreFragments, NextCoreFragments method [Windows Sync], NextCoreFragments method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_nextcorefragments, winsync/ICoreFragmentInspector::NextCoreFragments
-f1_keywords:
-- winsync/ICoreFragmentInspector.NextCoreFragments
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ICoreFragmentInspector.NextCoreFragments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICoreFragmentInspector::NextCoreFragments
+ - winsync/ICoreFragmentInspector::NextCoreFragments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ICoreFragmentInspector.NextCoreFragments
 ---
 
 # ICoreFragmentInspector::NextCoreFragments
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are available.
 
-
 ## -parameters
-
-
-
 
 ### -param requestedCount [in]
 
 The number of <b>ICoreFragment</b> objects to retrieve.
 
-
 ### -param ppiCoreFragments [out]
 
 Receives a pointer to the next <i>pFetchedCount</i> <b>ICoreFragment</b> objects. The size of the array is the value specified in the <i>requestedCount</i> parameter. The length is <code>*(pFetchedCount)</code>. The caller must release the interface pointer.
-
 
 ### -param pFetchedCount [in, out]
 
 Receives the number of <b>ICoreFragment</b> objects that were retrieved in the <i>ppiCoreFragments</i> parameter. This value can be <b>NULL</b> only if <i> requestedCount</i> is 1.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -128,18 +120,7 @@ The knowledge object contained in this object has changed since this object was 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>

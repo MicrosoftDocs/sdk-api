@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactProperties.SetDate
 title: IContactProperties::SetDate (icontact.h)
 description: Sets the date and time value at a specified property to a given FILETIME. All times are stored and returned as Coordinated Universal Time (UTC).
+helpviewer_keywords: ["IContactProperties interface [Windows Contacts]","SetDate method","IContactProperties.SetDate","IContactProperties::SetDate","SetDate","SetDate method [Windows Contacts]","SetDate method [Windows Contacts]","IContactProperties interface","_wincontacts_IContactProperties_SetDate","icontact/IContactProperties::SetDate","wincontacts._wincontacts_IContactProperties_SetDate"]
 old-location: wincontacts\_wincontacts_IContactProperties_SetDate.htm
 tech.root: wincontacts
 ms.assetid: bbe0a788-7291-48f7-a36a-88e5b6b971dc
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetDate method, IContactProperties.SetDate, IContactProperties::SetDate, SetDate, SetDate method [Windows Contacts], SetDate method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetDate, icontact/IContactProperties::SetDate, wincontacts._wincontacts_IContactProperties_SetDate
-f1_keywords:
-- icontact/IContactProperties.SetDate
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactProperties.SetDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactProperties::SetDate
+ - icontact/IContactProperties::SetDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactProperties.SetDate
 ---
 
 # IContactProperties::SetDate
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the date and time value at a specified property to a given 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
-
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 ## -parameters
-
-
-
 
 ### -param pszPropertyName [in]
 
@@ -64,25 +61,20 @@ Type: <b>LPCWSTR</b>
 
 Specifies the property to set.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>. 
-
+CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to use for date. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to use for date.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -127,7 +119,3 @@ Unable to set the value for this property due to schema.
 </td>
 </tr>
 </table>
- 
-
-
-

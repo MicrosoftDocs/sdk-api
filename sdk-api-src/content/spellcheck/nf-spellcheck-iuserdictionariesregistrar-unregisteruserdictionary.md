@@ -2,15 +2,12 @@
 UID: NF:spellcheck.IUserDictionariesRegistrar.UnregisterUserDictionary
 title: IUserDictionariesRegistrar::UnregisterUserDictionary (spellcheck.h)
 description: Unregisters a previously registered user dictionary.
+helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","UnregisterUserDictionary method","IUserDictionariesRegistrar.UnregisterUserDictionary","IUserDictionariesRegistrar::UnregisterUserDictionary","UnregisterUserDictionary","UnregisterUserDictionary method [Internationalization for Windows Applications]","UnregisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_unregisteruserdictionary","spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary"]
 old-location: intl\iuserdictionariesregistrar_unregisteruserdictionary.htm
 tech.root: Intl
 ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
-f1_keywords:
-- spellcheck/IUserDictionariesRegistrar.UnregisterUserDictionary
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- IUserDictionariesRegistrar.UnregisterUserDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserDictionariesRegistrar::UnregisterUserDictionary
+ - spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - IUserDictionariesRegistrar.UnregisterUserDictionary
 ---
 
 # IUserDictionariesRegistrar::UnregisterUserDictionary
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a previously registered user dictionary. The dictionary will no longer be used by the spell checking functionality.
 
-
 ## -parameters
-
-
-
 
 ### -param dictionaryPath [in]
 
 The path of the dictionary file to be unregistered.
 
-
 ### -param languageTag [in]
 
-The language for which this dictionary was used. It must match the language passed to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>.
-
+The language for which this dictionary was used. It must match the language passed to <a href="/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +94,12 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  To unregister a given file, this method must be passed the same arguments that were previously used to register it.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>

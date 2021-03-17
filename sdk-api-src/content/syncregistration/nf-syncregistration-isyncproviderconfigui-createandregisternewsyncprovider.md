@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider (syncregistration.h)
 description: Creates and registers a new synchronization provider.
+helpviewer_keywords: ["CreateAndRegisterNewSyncProvider","CreateAndRegisterNewSyncProvider method [Windows Sync]","CreateAndRegisterNewSyncProvider method [Windows Sync]","ISyncProviderConfigUI interface","ISyncProviderConfigUI interface [Windows Sync]","CreateAndRegisterNewSyncProvider method","ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider","ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider","winsync.isyncproviderconfigui_createandregisternewsyncprovider"]
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
 tech.root: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
 ms.date: 12/05/2018
 ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
-f1_keywords:
-- syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
+ - syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 ---
 
 # ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider
@@ -48,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates and registers a new  synchronization provider.
 
-    
-  
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
-
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 ### -param pUnkContext [in]
 
 Pointer to an interface containing additional information needed to generate the synchronization provider. The pointer will be <b>NULL</b> if no additional information is needed.
 
-
 ### -param ppProviderInfo [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
-
+An <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object that contains information about the newly created and registered synchronization provider.
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -121,18 +110,7 @@ There was not enough memory available to create and register the synchronization
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPClosedCaption.put_SAMIFileName
 title: IWMPClosedCaption::put_SAMIFileName (wmp.h)
 description: The put_SAMIFileName method specifies the name of the file containing the information needed for closed captioning.
+helpviewer_keywords: ["IWMPClosedCaption interface [Windows Media Player]","put_SAMIFileName method","IWMPClosedCaption.put_SAMIFileName","IWMPClosedCaption::put_SAMIFileName","IWMPClosedCaptionput_SAMIFileName","put_SAMIFileName","put_SAMIFileName method [Windows Media Player]","put_SAMIFileName method [Windows Media Player]","IWMPClosedCaption interface","wmp.iwmpclosedcaption_put_samifilename","wmp/IWMPClosedCaption::put_SAMIFileName"]
 old-location: wmp\iwmpclosedcaption_put_samifilename.htm
 tech.root: WMP
 ms.assetid: ebc05983-3375-4ace-b192-f427b9685310
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName method, IWMPClosedCaption.put_SAMIFileName, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
-f1_keywords:
-- wmp/IWMPClosedCaption.put_SAMIFileName
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPClosedCaption.put_SAMIFileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPClosedCaption::put_SAMIFileName
+ - wmp/IWMPClosedCaption::put_SAMIFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPClosedCaption.put_SAMIFileName
 ---
 
 # IWMPClosedCaption::put_SAMIFileName
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_SAMIFileName</b> method specifies the name of the file containing the information needed for closed captioning.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrSAMIFileName [in]
 
 <b>BSTR</b> containing the SAMI file name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The SAMI file must use an .smi or .sami file name extension.
 
@@ -103,28 +88,18 @@ Once you specify a value using <b>put_SAMIFileName</b>, that value persists unti
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samifilename">IWMPClosedCaption::get_SAMIFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samifilename">IWMPClosedCaption::get_SAMIFileName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IHolder.FreeResource
 title: IHolder::FreeResource (comsvcs.h)
 description: Returns a resource to the inventory.
+helpviewer_keywords: ["FreeResource","FreeResource method [COM+]","FreeResource method [COM+]","IHolder interface","IHolder interface [COM+]","FreeResource method","IHolder.FreeResource","IHolder::FreeResource","_dtc_IHolder_FreeResource","comsvcs/IHolder::FreeResource","cos.iholder_freeresource"]
 old-location: cos\iholder_freeresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 1d110bf6-7204-4fbb-abb7-ced7cf885e5b
 ms.date: 12/05/2018
 ms.keywords: FreeResource, FreeResource method [COM+], FreeResource method [COM+],IHolder interface, IHolder interface [COM+],FreeResource method, IHolder.FreeResource, IHolder::FreeResource, _dtc_IHolder_FreeResource, comsvcs/IHolder::FreeResource, cos.iholder_freeresource
-f1_keywords:
-- comsvcs/IHolder.FreeResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.FreeResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::FreeResource
+ - comsvcs/IHolder::FreeResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.FreeResource
 ---
 
 # IHolder::FreeResource
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a resource to the inventory.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0002 [in]
 
 The handle of the resource to be freed.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,36 +101,19 @@ The method failed. The resource has not been freed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A resource originally returned by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
-
-
-
-
+A resource originally returned by <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>

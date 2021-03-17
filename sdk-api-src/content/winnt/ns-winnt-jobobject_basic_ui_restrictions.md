@@ -2,15 +2,12 @@
 UID: NS:winnt._JOBOBJECT_BASIC_UI_RESTRICTIONS
 title: JOBOBJECT_BASIC_UI_RESTRICTIONS (winnt.h)
 description: Contains basic user-interface restrictions for a job object.
+helpviewer_keywords: ["*PJOBOBJECT_BASIC_UI_RESTRICTIONS","JOBOBJECT_BASIC_UI_RESTRICTIONS","JOBOBJECT_BASIC_UI_RESTRICTIONS structure","JOB_OBJECT_UILIMIT_DESKTOP","JOB_OBJECT_UILIMIT_DISPLAYSETTINGS","JOB_OBJECT_UILIMIT_EXITWINDOWS","JOB_OBJECT_UILIMIT_GLOBALATOMS","JOB_OBJECT_UILIMIT_HANDLES","JOB_OBJECT_UILIMIT_READCLIPBOARD","JOB_OBJECT_UILIMIT_SYSTEMPARAMETERS","JOB_OBJECT_UILIMIT_WRITECLIPBOARD","PJOBOBJECT_BASIC_UI_RESTRICTIONS","PJOBOBJECT_BASIC_UI_RESTRICTIONS structure pointer","_JOBOBJECT_BASIC_UI_RESTRICTIONS","_win32_jobobject_basic_ui_restrictions_str","base.jobobject_basic_ui_restrictions_str","winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS","winnt/PJOBOBJECT_BASIC_UI_RESTRICTIONS"]
 old-location: base\jobobject_basic_ui_restrictions_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 69ce908c-fb15-40ba-8bd3-3dae3ee1539a
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS structure, JOB_OBJECT_UILIMIT_DESKTOP, JOB_OBJECT_UILIMIT_DISPLAYSETTINGS, JOB_OBJECT_UILIMIT_EXITWINDOWS, JOB_OBJECT_UILIMIT_GLOBALATOMS, JOB_OBJECT_UILIMIT_HANDLES, JOB_OBJECT_UILIMIT_READCLIPBOARD, JOB_OBJECT_UILIMIT_SYSTEMPARAMETERS, JOB_OBJECT_UILIMIT_WRITECLIPBOARD, PJOBOBJECT_BASIC_UI_RESTRICTIONS, PJOBOBJECT_BASIC_UI_RESTRICTIONS structure pointer, _JOBOBJECT_BASIC_UI_RESTRICTIONS, _win32_jobobject_basic_ui_restrictions_str, base.jobobject_basic_ui_restrictions_str, winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS, winnt/PJOBOBJECT_BASIC_UI_RESTRICTIONS'
-f1_keywords:
-- winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- JOBOBJECT_BASIC_UI_RESTRICTIONS
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_UI_RESTRICTIONS, *PJOBOBJECT_BASIC_UI_RESTRICTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_BASIC_UI_RESTRICTIONS
+ - winnt/_JOBOBJECT_BASIC_UI_RESTRICTIONS
+ - PJOBOBJECT_BASIC_UI_RESTRICTIONS
+ - winnt/PJOBOBJECT_BASIC_UI_RESTRICTIONS
+ - JOBOBJECT_BASIC_UI_RESTRICTIONS
+ - winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - JOBOBJECT_BASIC_UI_RESTRICTIONS
 ---
 
 # JOBOBJECT_BASIC_UI_RESTRICTIONS structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains basic user-interface restrictions for a job object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UIRestrictionsClass
 
@@ -74,8 +75,8 @@ The restriction class for the user interface. This member can be one or more of 
 </td>
 <td width="60%">
 Prevents processes associated with the job from creating desktops and switching desktops using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a> functions.
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
+<a href="/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a> functions.
 
 </td>
 </tr>
@@ -87,7 +88,7 @@ Prevents processes associated with the job from creating desktops and switching 
 </td>
 <td width="60%">
 Prevents processes associated with the job from calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function.
 
 </td>
 </tr>
@@ -99,8 +100,8 @@ Prevents processes associated with the job from calling the
 </td>
 <td width="60%">
 Prevents processes associated with the job from calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a> or 
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function.
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ Prevents processes associated with the job from reading data from the clipboard.
 </td>
 <td width="60%">
 Prevents processes associated with the job from changing system parameters by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function.
 
 </td>
 </tr>
@@ -161,48 +162,34 @@ Prevents processes associated with the job from writing data to the clipboard.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 If you specify the JOB_OBJECT_UILIMIT_HANDLES flag, when a process associated with the job broadcasts messages, they are only sent to top-level windows owned by processes associated with the same job. In addition, hooks can be installed only on threads belonging to processes associated with the job.
 
 To grant access to a User handle to a job that has a user-interface restriction, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a> function.
-
-
-
+<a href="/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a>

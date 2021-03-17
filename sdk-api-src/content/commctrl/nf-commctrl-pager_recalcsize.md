@@ -2,15 +2,12 @@
 UID: NF:commctrl.Pager_RecalcSize
 title: Pager_RecalcSize macro (commctrl.h)
 description: Forces the pager control to recalculate the size of the contained window. Using this macro will result in a PGN_CALCSIZE notification being sent. You can use this macro or send the PGM_RECALCSIZE message explicitly.
+helpviewer_keywords: ["Pager_RecalcSize","Pager_RecalcSize macro [Windows Controls]","_win32_Pager_RecalcSize","_win32_Pager_RecalcSize_cpp","commctrl/Pager_RecalcSize","controls.Pager_RecalcSize","controls._win32_Pager_RecalcSize"]
 old-location: controls\Pager_RecalcSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
-f1_keywords:
-- commctrl/Pager_RecalcSize
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Pager_RecalcSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Pager_RecalcSize
+ - commctrl/Pager_RecalcSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Pager_RecalcSize
 ---
 
 # Pager_RecalcSize macro
@@ -48,18 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-calcsize">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-recalcsize">PGM_RECALCSIZE</a> message explicitly. 
-
+Forces the pager control to recalculate the size of the contained window. Using this macro will result in a <a href="/windows/desktop/Controls/pgn-calcsize">PGN_CALCSIZE</a> notification being sent. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-recalcsize">PGM_RECALCSIZE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the pager control. 
-
+Handle to the pager control.

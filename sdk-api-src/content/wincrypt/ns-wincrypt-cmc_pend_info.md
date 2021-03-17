@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CMC_PEND_INFO
 title: CMC_PEND_INFO (wincrypt.h)
 description: A possible member of a CMC_STATUS_INFO structure.
+helpviewer_keywords: ["*PCMC_PEND_INFO","CMC_PEND_INFO","CMC_PEND_INFO structure [Security]","PCMC_PEND_INFO","PCMC_PEND_INFO structure pointer [Security]","_crypto2_cmc_pend_info","security.cmc_pend_info","wincrypt/CMC_PEND_INFO","wincrypt/PCMC_PEND_INFO"]
 old-location: security\cmc_pend_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ac3dcd19-caed-4453-bac7-55ffa3a02f54
 ms.date: 12/05/2018
 ms.keywords: '*PCMC_PEND_INFO, CMC_PEND_INFO, CMC_PEND_INFO structure [Security], PCMC_PEND_INFO, PCMC_PEND_INFO structure pointer [Security], _crypto2_cmc_pend_info, security.cmc_pend_info, wincrypt/CMC_PEND_INFO, wincrypt/PCMC_PEND_INFO'
-f1_keywords:
-- wincrypt/CMC_PEND_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMC_PEND_INFO
 targetos: Windows
 req.typenames: CMC_PEND_INFO, *PCMC_PEND_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMC_PEND_INFO
+ - wincrypt/_CMC_PEND_INFO
+ - PCMC_PEND_INFO
+ - wincrypt/PCMC_PEND_INFO
+ - CMC_PEND_INFO
+ - wincrypt/CMC_PEND_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMC_PEND_INFO
 ---
 
 # CMC_PEND_INFO structure
@@ -48,22 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMC_PEND_INFO</b> structure is a possible member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_status_info">CMC_STATUS_INFO</a> structure.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_status_info">CMC_STATUS_INFO</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field PendToken
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending request information.
-
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending request information.
 
 ### -field PendTime
 
 <b>FILETIME</b> containing the request.
-

@@ -2,15 +2,12 @@
 UID: NF:ddstream.IDirectDrawMediaStream.GetFormat
 title: IDirectDrawMediaStream::GetFormat (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the current media stream's format and, optionally, its desired format.
+helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","GetFormat method","IDirectDrawMediaStream.GetFormat","IDirectDrawMediaStream::GetFormat","IDirectDrawMediaStreamGetFormat","ddstream/IDirectDrawMediaStream::GetFormat","dshow.idirectdrawmediastream_getformat"]
 old-location: dshow\idirectdrawmediastream_getformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3729bbe6-3504-46b3-9978-e66afc56344f
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetFormat method, IDirectDrawMediaStream.GetFormat, IDirectDrawMediaStream::GetFormat, IDirectDrawMediaStreamGetFormat, ddstream/IDirectDrawMediaStream::GetFormat, dshow.idirectdrawmediastream_getformat
-f1_keywords:
-- ddstream/IDirectDrawMediaStream.GetFormat
-dev_langs:
-- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddstream.h
-api_name:
-- IDirectDrawMediaStream.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawMediaStream::GetFormat
+ - ddstream/IDirectDrawMediaStream::GetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddstream.h
+api_name:
+ - IDirectDrawMediaStream.GetFormat
 ---
 
 # IDirectDrawMediaStream::GetFormat
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Retrieves the current media stream's format and, optionally, its desired format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDDSDCurrent [out]
 
 Pointer to a DirectDraw surface description that will contain the current media stream's format.
 
-
 ### -param ppDirectDrawPalette [out]
 
 Address of a pointer to an <b>IDirectDrawPalette</b> interface if one exists.
 
-
 ### -param pDDSDDesired [out]
 
 Pointer to a DirectDraw surface description that will contain the current media stream's desired format.
-
 
 ### -param pdwFlags [out]
 
@@ -105,12 +96,8 @@ Pointer to the flags set in a <b>DDSURFACEDESC</b> structure. Flags of interest 
 <td>Indicates that the width member of the structure is valid.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -153,16 +140,10 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method.
+After you call this method, you can either conform to the current format or attempt to change the format by calling the <a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method.
 
 All of this method's parameters are optional; set any of them to <b>NULL</b> to indicate that you don't want to retrieve that information.
 
@@ -172,16 +153,6 @@ You must initialize the <i>dwSize</i> member of the <b>DDSURFACEDESC</b> structu
 
 The DDSD_CAPS flag will return one of the values listed in the <b>DDSCAPS</b> structure or DDSCAPS_DATAEXCHANGE, which is defined as DDSCAPS_SYSTEMMEMORY|DDSCAPS_VIDEOMEMORY in Ddrawex.h.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

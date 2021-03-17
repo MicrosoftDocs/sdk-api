@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmReleaseRoutes
 title: RtmReleaseRoutes function (rtmv2.h)
 description: The RtmReleaseRoutes function releases the route handles.
+helpviewer_keywords: ["RtmReleaseRoutes","RtmReleaseRoutes function [RAS]","_rtmv2ref_rtmreleaseroutes","rras.rtmreleaseroutes","rtmv2/RtmReleaseRoutes"]
 old-location: rras\rtmreleaseroutes.htm
 tech.root: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
-f1_keywords:
-- rtmv2/RtmReleaseRoutes
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmReleaseRoutes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmReleaseRoutes
+ - rtmv2/RtmReleaseRoutes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmReleaseRoutes
 ---
 
 # RtmReleaseRoutes function
@@ -48,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmReleaseRoutes</b> function releases the route handles.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param NumRoutes [in]
 
 Specifies the number of routes in <i>RouteHandles</i>.
 
-
 ### -param RouteHandles [in]
 
 Pointer to an array of route handles to release. The handles were obtained with a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -105,25 +97,14 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>

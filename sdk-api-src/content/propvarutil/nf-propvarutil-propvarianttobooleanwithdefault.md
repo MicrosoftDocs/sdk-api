@@ -2,15 +2,12 @@
 UID: NF:propvarutil.PropVariantToBooleanWithDefault
 title: PropVariantToBooleanWithDefault function (propvarutil.h)
 description: Extracts the Boolean property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
+helpviewer_keywords: ["PropVariantToBooleanWithDefault","PropVariantToBooleanWithDefault function [Windows Properties]","properties.PropVariantToBooleanWithDefault","propvarutil/PropVariantToBooleanWithDefault","shell.PropVariantToBooleanWithDefault","shell_PropVariantToBooleanWithDefault"]
 old-location: properties\PropVariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 223767a7-a4de-4e7e-ad8b-2a6bdcea0a47
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBooleanWithDefault, PropVariantToBooleanWithDefault function [Windows Properties], properties.PropVariantToBooleanWithDefault, propvarutil/PropVariantToBooleanWithDefault, shell.PropVariantToBooleanWithDefault, shell_PropVariantToBooleanWithDefault
-f1_keywords:
-- propvarutil/PropVariantToBooleanWithDefault
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToBooleanWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToBooleanWithDefault
+ - propvarutil/PropVariantToBooleanWithDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToBooleanWithDefault
 ---
 
 # PropVariantToBooleanWithDefault function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts the Boolean property value of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value exists, then the specified default value is returned.
-
+Extracts the Boolean property value of a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. If no value exists, then the specified default value is returned.
 
 ## -parameters
-
-
-
 
 ### -param propvarIn [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param fDefault [in]
 
@@ -70,30 +66,22 @@ Type: <b>BOOL</b>
 
 Specifies the default property value, for use where no value currently exists.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 The extracted Boolean value or the default value.
 
-
-
-
 ## -remarks
 
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a Boolean value and would like to use a default value if it does not. For instance, an application that obtains values from a property store can use this to safely extract the Boolean value for Boolean properties.
 
-
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a Boolean value and would like to use a default value if it does not. For instance, an application that obtains values from a property store can use this to safely extract the Boolean value for Boolean properties.
-
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_BOOL</b>, this helper function extracts the Boolean value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a Boolean. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanwithdefault">PropVariantToBooleanWithDefault</a> returns the default provided by <i>fDefault</i>. See <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type <b>VT_BOOL</b>, this helper function extracts the Boolean value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a Boolean. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanwithdefault">PropVariantToBooleanWithDefault</a> returns the default provided by <i>fDefault</i>. See <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanwithdefault">PropVariantToBooleanWithDefault</a> to access a Boolean value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobooleanwithdefault">PropVariantToBooleanWithDefault</a> to access a Boolean value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -112,7 +100,3 @@ if (SUCCEEDED(hr))
      PropVariantClear(&propvar);
 }
 ```
-
-
-
-

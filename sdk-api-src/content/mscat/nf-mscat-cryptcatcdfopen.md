@@ -2,15 +2,12 @@
 UID: NF:mscat.CryptCATCDFOpen
 title: CryptCATCDFOpen function (mscat.h)
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
+helpviewer_keywords: ["CryptCATCDFOpen","CryptCATCDFOpen function [Security]","mscat/CryptCATCDFOpen","security.cryptcatcdfopen"]
 old-location: security\cryptcatcdfopen.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
-f1_keywords:
-- mscat/CryptCATCDFOpen
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATCDFOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATCDFOpen
+ - mscat/CryptCATCDFOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATCDFOpen
 ---
 
 # CryptCATCDFOpen function
@@ -48,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CryptCATCDFOpen</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.   <b>CryptCATCDFOpen</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
-
+The [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.   <b>CryptCATCDFOpen</b> is called by <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 ## -parameters
-
-
-
 
 ### -param pwszFilePath [in]
 
 A pointer to a null-terminated string that contains the path of the CDF file to open.
 
-
 ### -param pfnParseError [in, optional]
 
 A pointer to a user-defined function to handle file parse errors.
 
-
 ## -returns
 
-
-
-Upon success, this function returns a pointer to the newly created [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
-
-
-
+Upon success, this function returns a pointer to the newly created [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
 
 ## -remarks
-
-
 
 The following default values are used by the <b>CryptCATCDFOpen</b> function for given conditions in the CDF <b>CatalogHeader</b> section.
 
@@ -141,11 +129,11 @@ If specified by the caller, the <b>CryptCATCDFOpen</b> function calls the functi
 </tr>
 <tr>
 <td>
-The <b>CryptCATCDFOpen</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function to get a handle to the catalog (.cat) output file, but it gets an invalid or <b>NULL</b> handle.
+The <b>CryptCATCDFOpen</b> function calls the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function to get a handle to the catalog (.cat) output file, but it gets an invalid or <b>NULL</b> handle.
 
 </td>
 <td>
-Calls the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a> function and returns a <b>NULL</b> pointer.
+Calls the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a> function and returns a <b>NULL</b> pointer.
 
 </td>
 </tr>
@@ -182,28 +170,18 @@ CAT_MEMBERINFO2_OBJID
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The additional 	Catalog OIDs are not available.
 
-
-
-
 ## -see-also
 
+[CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>

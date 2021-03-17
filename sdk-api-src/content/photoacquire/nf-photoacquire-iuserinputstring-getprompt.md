@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IUserInputString.GetPrompt
 title: IUserInputString::GetPrompt (photoacquire.h)
 description: The GetPrompt method retrieves the title of a prompt if the prompt is a modal dialog box.
+helpviewer_keywords: ["GetPrompt","GetPrompt method [Picture Acquisition]","GetPrompt method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetPrompt method","IUserInputString.GetPrompt","IUserInputString::GetPrompt","IUserInputStringGetPrompt","photoacquire/IUserInputString::GetPrompt","picacq.iuserinputstring_getprompt"]
 old-location: picacq\iuserinputstring_getprompt.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: f2fdb18d-5af8-45c8-8f92-7fc8c836082d
 ms.date: 12/05/2018
 ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetPrompt method, IUserInputString.GetPrompt, IUserInputString::GetPrompt, IUserInputStringGetPrompt, photoacquire/IUserInputString::GetPrompt, picacq.iuserinputstring_getprompt
-f1_keywords:
-- photoacquire/IUserInputString.GetPrompt
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetPrompt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetPrompt
+ - photoacquire/IUserInputString::GetPrompt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetPrompt
 ---
 
 # IUserInputString::GetPrompt
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetPrompt</code> method retrieves the title of a prompt if the prompt is a modal dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrPromptTitle [out]
 
 Pointer to a string containing the title of the prompt.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +91,7 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

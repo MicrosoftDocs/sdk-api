@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.HideOnDeactivate
 title: IFullScreenVideoEx::HideOnDeactivate (amvideo.h)
 description: The HideOnDeactivate method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
+helpviewer_keywords: ["HideOnDeactivate","HideOnDeactivate method [DirectShow]","HideOnDeactivate method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","HideOnDeactivate method","IFullScreenVideoEx.HideOnDeactivate","IFullScreenVideoEx::HideOnDeactivate","IFullScreenVideoHideOnDeactivate","amvideo/IFullScreenVideoEx::HideOnDeactivate","dshow.ifullscreenvideoex_hideondeactivate"]
 old-location: dshow\ifullscreenvideoex_hideondeactivate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b2839876-40b1-4b41-a3a4-99e5cbdd9ef1
 ms.date: 12/05/2018
 ms.keywords: HideOnDeactivate, HideOnDeactivate method [DirectShow], HideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],HideOnDeactivate method, IFullScreenVideoEx.HideOnDeactivate, IFullScreenVideoEx::HideOnDeactivate, IFullScreenVideoHideOnDeactivate, amvideo/IFullScreenVideoEx::HideOnDeactivate, dshow.ifullscreenvideoex_hideondeactivate
-f1_keywords:
-- amvideo/IFullScreenVideoEx.HideOnDeactivate
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.HideOnDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::HideOnDeactivate
+ - amvideo/IFullScreenVideoEx::HideOnDeactivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.HideOnDeactivate
 ---
 
 # IFullScreenVideoEx::HideOnDeactivate
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>HideOnDeactivate</code> method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Hide [in]
 
@@ -81,12 +75,8 @@ Value that specifies the behavior when the application is deactivated. Set to OA
 <td>Minimize the video window. (Default)</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -118,22 +108,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

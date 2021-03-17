@@ -2,15 +2,12 @@
 UID: NF:locationapi.ILatLongReport.GetAltitudeError
 title: ILatLongReport::GetAltitudeError (locationapi.h)
 description: Retrieves the altitude error, in meters.
+helpviewer_keywords: ["GetAltitudeError","GetAltitudeError method [WinLocation]","GetAltitudeError method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetAltitudeError method","ILatLongReport.GetAltitudeError","ILatLongReport::GetAltitudeError","WinLocation_COM_Ref.ilatlongreport_getaltitudeerror","locationapi/ILatLongReport::GetAltitudeError"]
 old-location: winlocation_com_ref\ilatlongreport_getaltitudeerror.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 313aefda-785c-43ce-a71c-cacfd929e27e
 ms.date: 12/05/2018
 ms.keywords: GetAltitudeError, GetAltitudeError method [WinLocation], GetAltitudeError method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitudeError method, ILatLongReport.GetAltitudeError, ILatLongReport::GetAltitudeError, WinLocation_COM_Ref.ilatlongreport_getaltitudeerror, locationapi/ILatLongReport::GetAltitudeError
-f1_keywords:
-- locationapi/ILatLongReport.GetAltitudeError
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILatLongReport.GetAltitudeError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILatLongReport::GetAltitudeError
+ - locationapi/ILatLongReport::GetAltitudeError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILatLongReport.GetAltitudeError
 ---
 
 # ILatLongReport::GetAltitudeError
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>
 API.
 ]
 
 Retrieves the altitude error, in meters.
 
-
 ## -parameters
-
-
-
 
 ### -param pAltitudeError [out]
 
 Address of a <b>DOUBLE</b> that receives the altitude error, in meters. May be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +94,7 @@ The location report does not include data for the requested field. This result i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>

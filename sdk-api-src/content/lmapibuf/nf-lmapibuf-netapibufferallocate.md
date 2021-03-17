@@ -2,15 +2,12 @@
 UID: NF:lmapibuf.NetApiBufferAllocate
 title: NetApiBufferAllocate function (lmapibuf.h)
 description: The NetApiBufferAllocate function allocates memory from the heap. Use this function only when compatibility with the NetApiBufferFree function is required. Otherwise, use the memory management functions.
+helpviewer_keywords: ["NetApiBufferAllocate","NetApiBufferAllocate function [Network Management]","_win32_netapibufferallocate","lmapibuf/NetApiBufferAllocate","netmgmt.netapibufferallocate"]
 old-location: netmgmt\netapibufferallocate.htm
 tech.root: NetMgmt
 ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
-f1_keywords:
-- lmapibuf/NetApiBufferAllocate
-dev_langs:
-- c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetApiBufferAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetApiBufferAllocate
+ - lmapibuf/NetApiBufferAllocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetApiBufferAllocate
 ---
 
 # NetApiBufferAllocate function
@@ -48,61 +50,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>NetApiBufferAllocate</b> function allocates memory from the heap. Use this function only when compatibility with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function is required. Otherwise, use the 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">memory management functions</a>.
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function is required. Otherwise, use the 
+<a href="/windows/desktop/Memory/memory-management-functions">memory management functions</a>.
 
 ## -parameters
-
-
-
 
 ### -param ByteCount [in]
 
 Number of bytes to be allocated.
 
-
 ### -param Buffer [out]
 
 Receives a pointer to the allocated buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the ApiBuffer functions.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 #### Examples
 
 The following code sample demonstrates how to use the network management 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">ApiBuffer functions</a>.
+<a href="/windows/desktop/NetMgmt/apibuffer-functions">ApiBuffer functions</a>.
 
 The sample first calls the 
 <b>NetApiBufferAllocate</b> function to allocate memory and then the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibuffersize">NetApiBufferSize</a> function to retrieve the size of the allocated memory. Following this, the sample calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a> to change the size of the memory allocation. Finally, the sample calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> to free the memory. In each case, the sample prints a message indicating success or failure.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibuffersize">NetApiBufferSize</a> function to retrieve the size of the allocated memory. Following this, the sample calls 
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a> to change the size of the memory allocation. Finally, the sample calls 
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> to free the memory. In each case, the sample prints a message indicating success or failure.
 
 
 ```cpp
@@ -178,36 +166,25 @@ void PrintError(LPSTR lpszApi, DWORD res)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
+<a href="/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a>
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
-

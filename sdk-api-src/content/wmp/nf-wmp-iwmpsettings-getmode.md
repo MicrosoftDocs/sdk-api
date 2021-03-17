@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSettings.getMode
 title: IWMPSettings::getMode (wmp.h)
 description: The getMode method determines whether the loop mode or shuffle mode is active.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","getMode method","IWMPSettings.getMode","IWMPSettings::getMode","IWMPSettingsgetMode","getMode","getMode method [Windows Media Player]","getMode method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_getmode","wmp/IWMPSettings::getMode"]
 old-location: wmp\iwmpsettings_getmode.htm
 tech.root: WMP
 ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
-f1_keywords:
-- wmp/IWMPSettings.getMode
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.getMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::getMode
+ - wmp/IWMPSettings::getMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.getMode
 ---
 
 # IWMPSettings::getMode
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getMode</b> method determines whether the loop mode or shuffle mode is active.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrMode [in]
 
@@ -88,17 +82,12 @@ The <b>getMode</b> method determines whether the loop mode or shuffle mode is ac
 <td>Tracks are played in random order.</td>
 </tr>
 </table>
- 
-
 
 ### -param pvarfMode [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether the specified mode is active.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,22 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">IWMPSettings::setMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">IWMPSettings::setMode</a>

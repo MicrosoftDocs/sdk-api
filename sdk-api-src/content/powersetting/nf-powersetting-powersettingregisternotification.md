@@ -2,15 +2,12 @@
 UID: NF:powersetting.PowerSettingRegisterNotification
 title: PowerSettingRegisterNotification function (powersetting.h)
 description: Registers to receive notification when a power setting changes.
+helpviewer_keywords: ["DEVICE_NOTIFY_CALLBACK","DEVICE_NOTIFY_SERVICE_HANDLE","PowerSettingRegisterNotification","PowerSettingRegisterNotification function","base.powersettingregisternotification","powersetting/PowerSettingRegisterNotification","powrprof/PowerSettingRegisterNotification"]
 old-location: base\powersettingregisternotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: 0fbca717-2367-4407-8094-3eb2b717b59c
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK, DEVICE_NOTIFY_SERVICE_HANDLE, PowerSettingRegisterNotification, PowerSettingRegisterNotification function, base.powersettingregisternotification, powersetting/PowerSettingRegisterNotification, powrprof/PowerSettingRegisterNotification
-f1_keywords:
-- powersetting/PowerSettingRegisterNotification
-dev_langs:
-- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Powrprof.dll
-- API-MS-Win-power-setting-l1-1-0.dll
-api_name:
-- PowerSettingRegisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerSettingRegisterNotification
+ - powersetting/PowerSettingRegisterNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Powrprof.dll
+ - API-MS-Win-power-setting-l1-1-0.dll
+api_name:
+ - PowerSettingRegisterNotification
 ---
 
 # PowerSettingRegisterNotification function
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers to receive notification when a power setting changes.
 
-
 ## -parameters
-
-
-
 
 ### -param SettingGuid [in]
 
 A GUID that represents the power setting.
-
 
 ### -param Flags [in]
 
@@ -78,7 +74,7 @@ Information about the recipient of the notification. This parameter can be one o
 </dl>
 </td>
 <td width="60%">
-The <i>Recipient</i> parameter is a handle to a service.Use the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function to obtain this handle.
+The <i>Recipient</i> parameter is a handle to a service.Use the <a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or <a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function to obtain this handle.
 
 </td>
 </tr>
@@ -93,48 +89,27 @@ The <i>Recipient</i> parameter is a pointer to a callback function to call when 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Recipient [in]
 
 A handle to the recipient of the notifications.
 
-
 ### -param RegistrationHandle [out]
 
 A handle to the registration. Use this handle to unregister for notifications.
 
-
 ## -returns
 
-
-
-Returns ERROR_SUCCESS (zero) if the call was successful, and a nonzero value if the call failed. 
-
-
-
+Returns ERROR_SUCCESS (zero) if the call was successful, and a nonzero value if the call failed.
 
 ## -remarks
 
-
-
-Immediately after registration, the callback will be invoked with the current value of the power setting. If the registration occurs while the power setting is changing, you may receive multiple callbacks; the last callback is the most recent update. 
-
-
-
+Immediately after registration, the callback will be invoked with the current value of the power setting. If the registration occurs while the power setting is changing, you may receive multiple callbacks; the last callback is the most recent update.
 
 ## -see-also
 
+<a href="/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersettingunregisternotification">PowerSettingUnregisterNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/powersetting/nf-powersetting-powersettingunregisternotification">PowerSettingUnregisterNotification</a>

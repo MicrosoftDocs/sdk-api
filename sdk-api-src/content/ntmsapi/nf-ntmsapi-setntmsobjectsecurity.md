@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.SetNtmsObjectSecurity
 title: SetNtmsObjectSecurity function (ntmsapi.h)
 description: The SetNtmsObjectSecurity function writes the security descriptor for the specified RSM object.
+helpviewer_keywords: ["SetNtmsObjectSecurity","SetNtmsObjectSecurity function [Files]","_zaw_setntmsobjectsecurity","base.setntmsobjectsecurity","fs.setntmsobjectsecurity","ntmsapi/SetNtmsObjectSecurity"]
 old-location: fs\setntmsobjectsecurity.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: ea6be316-6188-46a2-b12a-fe8426bc5fac
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
-f1_keywords:
-- ntmsapi/SetNtmsObjectSecurity
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsObjectSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsObjectSecurity
+ - ntmsapi/SetNtmsObjectSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsObjectSecurity
 ---
 
 # SetNtmsObjectSecurity function
@@ -48,50 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsObjectSecurity</b> function writes the security descriptor for the specified RSM object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpObjectId [in]
 
 Unique identifier of the RSM object.
 
-
 ### -param dwType [in]
 
 RSM object type. For a list of object types, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
-
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 ### -param SecurityInformation [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the security information to write to the RSM object.
 
 ### -param lpSecurityDescriptor [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that specifies the security descriptor to write to the RSM object: NTMS_USE_ACCESS, NTMS_CONTROL_ACCESS, or NTMS_MODIFY_ACCESS.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that specifies the security descriptor to write to the RSM object: NTMS_USE_ACCESS, NTMS_CONTROL_ACCESS, or NTMS_MODIFY_ACCESS.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -189,40 +179,24 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If an application uses 
 <b>SetNtmsObjectSecurity</b> to set the discretionary access-control list (ACL) of an object, the application must have WRITE_DAC permission or be the owner of the object.
 
 If an application uses 
-<b>SetNtmsObjectSecurity</b> to set the system ACL of an object, the SE_SECURITY_NAME privilege must be enabled for the application. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function. For more information on RSM security, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/rsm-security">RSM Security</a>.
-
-
-
+<b>SetNtmsObjectSecurity</b> to set the system ACL of an object, the SE_SECURITY_NAME privilege must be enabled for the application. For more information, see the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function. For more information on RSM security, see 
+<a href="/previous-versions/windows/desktop/rsm/rsm-security">RSM Security</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>

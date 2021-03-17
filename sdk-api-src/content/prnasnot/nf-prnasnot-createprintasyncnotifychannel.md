@@ -2,15 +2,12 @@
 UID: NF:prnasnot.CreatePrintAsyncNotifyChannel
 title: CreatePrintAsyncNotifyChannel function (prnasnot.h)
 description: Creates a communication channel between a Print Spooler-hosted printing component, such as a print driver or port monitor, and an application that receives notifications from the component.
+helpviewer_keywords: ["CreatePrintAsyncNotifyChannel","CreatePrintAsyncNotifyChannel function [Windows GDI]","_win32_CreatePrintAsyncNotifyChannel","gdi.createprintasyncnotifychannel","prnasnot/CreatePrintAsyncNotifyChannel"]
 old-location: gdi\createprintasyncnotifychannel.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 52cc586a-a565-46c6-b1b7-8613ad111ed3
 ms.date: 12/05/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
-f1_keywords:
-- prnasnot/CreatePrintAsyncNotifyChannel
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winspool.lib
 req.dll: Spoolss.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Spoolss.dll
-api_name:
-- CreatePrintAsyncNotifyChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePrintAsyncNotifyChannel
+ - prnasnot/CreatePrintAsyncNotifyChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Spoolss.dll
+api_name:
+ - CreatePrintAsyncNotifyChannel
 ---
 
 # CreatePrintAsyncNotifyChannel function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a communication channel between a Print Spooler-hosted printing component, such as a print driver or port monitor, and an application that receives notifications from the component.
 
-
 ## -parameters
-
-
-
 
 ### -param pszName [in]
 
 A pointer to the name of a print server or print queue.
 
-
 ### -param pNotificationType [in]
 
 A pointer to the GUID of the data schema for the type of notifications to be sent in the channel.
-
 
 ### -param eUserFilter [in]
 
@@ -80,20 +75,15 @@ A value specifying whether notifications will be sent to:
 
 A value specifying whether communication is bidirectional or unidirectional.
 
-
 ### -param pCallback [in]
 
 A pointer to an object that the listening application will use to call back the Print Spooler-hosted component. This should be <b>NULL</b> if <i>directionality</i> is <b>kUniDirectional</b>.
-
 
 ### -param ppIAsynchNotification [out]
 
 A pointer to the new channel.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -153,22 +143,17 @@ if (FAILED(hr)) {
 ```
 
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
-
-
-
+See <a href="/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
 A component can open a channel only if it runs in the Print Spooler's process. For example, if an application loads a printer driver, the driver cannot open a channel, but a printer driver loaded inside the Print Spooler can open a channel. Listening applications can either be inside or outside the Print Spooler's process.
 
-To close a channel, call <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>; however, <b>IPrintAsyncNotifyChannel::CloseChannel</b> cannot be called immediately after the call to <b>CreatePrintAsyncNotifyChannel</b>.
+To close a channel, call <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>; however, <b>IPrintAsyncNotifyChannel::CloseChannel</b> cannot be called immediately after the call to <b>CreatePrintAsyncNotifyChannel</b>.
 
 Call IPrintAsyncNotifyChannel::Release() only:
 
@@ -184,23 +169,14 @@ Call IPrintAsyncNotifyChannel::Release() only:
 </li>
 </ol>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

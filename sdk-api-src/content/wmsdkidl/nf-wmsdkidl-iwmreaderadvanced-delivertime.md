@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced.DeliverTime
 title: IWMReaderAdvanced::DeliverTime (wmsdkidl.h)
 description: The DeliverTime method provides the reader with a clock time. Use this method only when the application is providing the clock.
+helpviewer_keywords: ["DeliverTime","DeliverTime method [windows Media Format]","DeliverTime method [windows Media Format]","IWMReaderAdvanced interface","DeliverTime method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced interface [windows Media Format]","DeliverTime method","IWMReaderAdvanced.DeliverTime","IWMReaderAdvanced2 interface [windows Media Format]","DeliverTime method","IWMReaderAdvanced2::DeliverTime","IWMReaderAdvanced::DeliverTime","IWMReaderAdvancedDeliverTime","wmformat.iwmreaderadvanced_delivertime","wmsdkidl/IWMReaderAdvanced2::DeliverTime","wmsdkidl/IWMReaderAdvanced::DeliverTime"]
 old-location: wmformat\iwmreaderadvanced_delivertime.htm
 tech.root: wmformat
 ms.assetid: 5e47ef96-9971-47b0-a003-b38f4045da7a
 ms.date: 12/05/2018
 ms.keywords: DeliverTime, DeliverTime method [windows Media Format], DeliverTime method [windows Media Format],IWMReaderAdvanced interface, DeliverTime method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced interface [windows Media Format],DeliverTime method, IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced2 interface [windows Media Format],DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.DeliverTime
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMReaderAdvanced.DeliverTime
-- IWMReaderAdvanced2.DeliverTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::DeliverTime
+ - wmsdkidl/IWMReaderAdvanced::DeliverTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMReaderAdvanced.DeliverTime
+ - IWMReaderAdvanced2.DeliverTime
 ---
 
 # IWMReaderAdvanced::DeliverTime
@@ -53,26 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DeliverTime</b> method provides the reader with a clock time. Use this method only when the application is providing the clock.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsTime [in]
 
 The time, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,39 +95,23 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Before making the first call to this method, call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setuserprovidedclock">IWMReaderAdvanced::SetUserProvidedClock</a> method with the value <b>TRUE</b>, to specify that the application is providing the clock. Otherwise, the <b>DeliverTime</b> method returns E_UNEXPECTED.
 
-
-Before making the first call to this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setuserprovidedclock">IWMReaderAdvanced::SetUserProvidedClock</a> method with the value <b>TRUE</b>, to specify that the application is providing the clock. Otherwise, the <b>DeliverTime</b> method returns E_UNEXPECTED.
-
-After <b>DeliverTime</b> is called, the reader reads data as fast as possible until it reaches the specified time. When the reader reaches that time, it calls <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-ontime">IWMReaderCallbackAdvanced::OnTime</a>, and then sends samples to the callback.
+After <b>DeliverTime</b> is called, the reader reads data as fast as possible until it reaches the specified time. When the reader reaches that time, it calls <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-ontime">IWMReaderCallbackAdvanced::OnTime</a>, and then sends samples to the callback.
 
 In general, the value of <i>cnsTime</i> should increase each time the method is called (that is, the clock should run forward). However, sometimes it may be possible to pass a smaller value. The <b>DeliverTime</b> method is asynchronous, meaning the reader object reads the data on another thread. The application can specify a smaller time value only if the reader object has not reached that point in the file. For example, if the application calls <b>DeliverTime</b> with the value 100 seconds, and immediately calls it again with the value 50 seconds, the call would probably succeed, because the reader object will not reach the 50-second point in the file. However, you cannot be sure the call will succeed in this case, because the application does not control the reader's thread.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wmformat/broadcasting-asf-data">Broadcasting ASF Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/broadcasting-asf-data">Broadcasting ASF Data</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2</a>

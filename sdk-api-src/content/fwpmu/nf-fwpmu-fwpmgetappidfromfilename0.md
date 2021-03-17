@@ -2,15 +2,12 @@
 UID: NF:fwpmu.FwpmGetAppIdFromFileName0
 title: FwpmGetAppIdFromFileName0 function (fwpmu.h)
 description: Retrieves an application identifier from a file name.
+helpviewer_keywords: ["FwpmGetAppIdFromFileName0","FwpmGetAppIdFromFileName0 function [Filtering]","fwp.fwpmgetappidfromfilename0","fwpmu/FwpmGetAppIdFromFileName0"]
 old-location: fwp\fwpmgetappidfromfilename0.htm
 tech.root: fwp
 ms.assetid: 9bf3a101-7782-4075-bc77-a003184d0cbe
 ms.date: 12/05/2018
 ms.keywords: FwpmGetAppIdFromFileName0, FwpmGetAppIdFromFileName0 function [Filtering], fwp.fwpmgetappidfromfilename0, fwpmu/FwpmGetAppIdFromFileName0
-f1_keywords:
-- fwpmu/FwpmGetAppIdFromFileName0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmGetAppIdFromFileName0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmGetAppIdFromFileName0
+ - fwpmu/FwpmGetAppIdFromFileName0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmGetAppIdFromFileName0
 ---
 
 # FwpmGetAppIdFromFileName0 function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmGetAppIdFromFileName0 </b> function retrieves an application identifier from a file name.
 
-
 ## -parameters
-
-
-
 
 ### -param fileName [in]
 
@@ -63,17 +60,13 @@ Type: <b>const wchar_t*</b>
 
 File name from which the application identifier will be retrieved.
 
-
 ### -param appId [out]
 
-Type: [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>**</b>
+Type: [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)**</b>
 
 The  retrieved application identifier.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -102,7 +95,7 @@ The application identifier  was retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -119,18 +112,12 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The caller must free the returned object by a call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
-
-The caller must free the returned object by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
-
-<b>FwpmGetAppIdFromFileName0 </b> is a specific implementation of FwpmGetAppIdFromFileName. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmGetAppIdFromFileName0 </b> is a specific implementation of FwpmGetAppIdFromFileName. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 #### Examples
@@ -175,17 +162,6 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
- 
-
- 
-
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)

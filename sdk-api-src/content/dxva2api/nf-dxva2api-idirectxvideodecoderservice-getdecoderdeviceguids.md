@@ -2,15 +2,12 @@
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderDeviceGuids
 title: IDirectXVideoDecoderService::GetDecoderDeviceGuids (dxva2api.h)
 description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
+helpviewer_keywords: ["53980b1f-2be1-4267-a581-a4b09255b89f","GetDecoderDeviceGuids","GetDecoderDeviceGuids method [Media Foundation]","GetDecoderDeviceGuids method [Media Foundation]","IDirectXVideoDecoderService interface","IDirectXVideoDecoderService interface [Media Foundation]","GetDecoderDeviceGuids method","IDirectXVideoDecoderService.GetDecoderDeviceGuids","IDirectXVideoDecoderService::GetDecoderDeviceGuids","dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids","mf.idirectxvideodecoderservice_getdecoderdeviceguids"]
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
 ms.date: 12/05/2018
 ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
-f1_keywords:
-- dxva2api/IDirectXVideoDecoderService.GetDecoderDeviceGuids
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoDecoderService.GetDecoderDeviceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoDecoderService::GetDecoderDeviceGuids
+ - dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoDecoderService.GetDecoderDeviceGuids
 ---
 
 # IDirectXVideoDecoderService::GetDecoderDeviceGuids
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCount [out]
 
 Receives the number of GUIDs.
 
-
 ### -param pGuids [out]
 
-Receives an array of GUIDs. The size of the array is retrieved in the <i>Count</i> parameter. The method allocates the memory for the array. The caller must free the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Receives an array of GUIDs. The size of the array is retrieved in the <i>Count</i> parameter. The method allocates the memory for the array. The caller must free the memory by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,14 +105,8 @@ If the Microsoft Basic Display Adapter is being used or the Direct3D 11 device 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following decoder GUIDs are defined. Some of these GUIDs have alternate names, shown in parentheses.
 
@@ -212,22 +196,11 @@ The following decoder GUIDs are defined. Some of these GUIDs have alternate name
 <td>Windows Media Video 9 IDCT.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>

@@ -2,15 +2,12 @@
 UID: NF:drt.DrtCreateDnsBootstrapResolver
 title: DrtCreateDnsBootstrapResolver function (drt.h)
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
+helpviewer_keywords: ["DrtCreateDnsBootstrapResolver","DrtCreateDnsBootstrapResolver function [Distributed Routing Tables]","drt/DrtCreateDnsBootstrapResolver","p2p.drtcreatednsbootstrapresolver"]
 old-location: p2p\drtcreatednsbootstrapresolver.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
-f1_keywords:
-- drt/DrtCreateDnsBootstrapResolver
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtCreateDnsBootstrapResolver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtCreateDnsBootstrapResolver
+ - drt/DrtCreateDnsBootstrapResolver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtCreateDnsBootstrapResolver
 ---
 
 # DrtCreateDnsBootstrapResolver function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
-
+The <b>DrtCreateDnsBootstrapResolver</b> function creates a bootstrap resolver that will use the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfo</a> system function to resolve the hostname of a will known node already present in the DRT mesh.
 
 ## -parameters
-
-
-
 
 ### -param port [in]
 
 Specifies the port to which the DRT protocol is bound on the well known node.
 
-
 ### -param pwszAddress [in]
 
 Specifies the hostname of the well known node.
 
-
 ### -param ppModule [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
-
+Pointer to the <a href="/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a> module to be included in the <a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -108,22 +100,13 @@ The system could not allocate memory for the provider.
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> and StringCbPrintfW.</div>
+<div class="alert"><b>Note</b>  This function may also return errors from underlying calls to <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> and StringCbPrintfW.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver">DrtDeleteDnsBootstrapResolver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtdeletednsbootstrapresolver">DrtDeleteDnsBootstrapResolver</a>

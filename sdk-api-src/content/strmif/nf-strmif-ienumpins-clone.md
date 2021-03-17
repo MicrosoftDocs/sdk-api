@@ -2,15 +2,12 @@
 UID: NF:strmif.IEnumPins.Clone
 title: IEnumPins::Clone (strmif.h)
 description: The Clone method makes a copy of the enumerator with the same enumeration state.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumPins interface","IEnumPins interface [DirectShow]","Clone method","IEnumPins.Clone","IEnumPins::Clone","IEnumPinsClone","dshow.ienumpins_clone","strmif/IEnumPins::Clone"]
 old-location: dshow\ienumpins_clone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 946bb08e-6866-46b3-b2d7-de2ab6c5e608
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumPins interface, IEnumPins interface [DirectShow],Clone method, IEnumPins.Clone, IEnumPins::Clone, IEnumPinsClone, dshow.ienumpins_clone, strmif/IEnumPins::Clone
-f1_keywords:
-- strmif/IEnumPins.Clone
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEnumPins.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPins::Clone
+ - strmif/IEnumPins::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEnumPins.Clone
 ---
 
 # IEnumPins::Clone
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Clone</code> method makes a copy of the enumerator with the same enumeration state.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface of the new enumerator. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface of the new enumerator. The caller must release the interface.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b>
 
@@ -122,31 +113,15 @@ The filter's state has changed and is now inconsistent with the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Clone</code> method safely.
-
-
-
+If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Clone</code> method safely.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>

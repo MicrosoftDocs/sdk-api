@@ -2,15 +2,12 @@
 UID: NF:vfw.ICDecompressEx
 title: ICDecompressEx function (vfw.h)
 description: The ICDecompressEx function decompresses a single video frame.
+helpviewer_keywords: ["ICDecompressEx","ICDecompressEx function [Windows Multimedia]","_win32_ICDecompressEx","multimedia.icdecompressex","vfw/ICDecompressEx"]
 old-location: multimedia\icdecompressex.htm
 tech.root: Multimedia
 ms.assetid: a7ae0409-e89d-400a-a601-edc8e6e3fbcc
 ms.date: 12/05/2018
 ms.keywords: ICDecompressEx, ICDecompressEx function [Windows Multimedia], _win32_ICDecompressEx, multimedia.icdecompressex, vfw/ICDecompressEx
-f1_keywords:
-- vfw/ICDecompressEx
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDecompressEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDecompressEx
+ - vfw/ICDecompressEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDecompressEx
 ---
 
 # ICDecompressEx function
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDecompressEx</b> function decompresses a single video frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hic
 
 Handle to the decompressor.
-
 
 ### -param dwFlags
 
@@ -97,111 +90,67 @@ Decompression flags. The following values are defined.
 <td>Screen is being updated or refreshed.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpbiSrc
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
 
 ### -param lpSrc
 
 Pointer to the input data.
-          
-
 
 ### -param xSrc
 
 The x-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
-          
-
 
 ### -param ySrc
 
 The y-coordinate of the source rectangle for the DIB specified by <i>lpbiSrc</i>.
-          
-
 
 ### -param dxSrc
 
 Width of the source rectangle.
-          
-
 
 ### -param dySrc
 
 Height of the source rectangle.
-          
-
 
 ### -param lpbiDst
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
 
 ### -param lpDst
 
 Pointer to a buffer that is large enough to contain the decompressed data.
-          
-
 
 ### -param xDst
 
 The x-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
-          
-
 
 ### -param yDst
 
 The y-coordinate of the destination rectangle for the DIB specified by <i>lpbiDst</i>.
-          
-
 
 ### -param dxDst
 
 Width of the destination rectangle.
-          
-
 
 ### -param dyDst
 
 Height of the destination rectangle.
-          
-
 
 ## -returns
 
-
-
 Returns <b>ICERR_OK</b> if successful or an error otherwise.
-          
-
-
-
 
 ## -remarks
 
-
-
 Typically, applications use the <b>ICDECOMPRESS_PREROLL</b> flag to seek to a key frame in a compressed stream. The flag is sent with the key frame and with subsequent frames required to decompress the desired frame.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

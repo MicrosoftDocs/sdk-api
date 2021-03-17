@@ -2,15 +2,12 @@
 UID: NF:strmif.IDDrawExclModeVideo.GetDDrawSurface
 title: IDDrawExclModeVideo::GetDDrawSurface (strmif.h)
 description: The GetDDrawSurface method retrieves the DirectDraw surface being used by the Overlay Mixer.
+helpviewer_keywords: ["GetDDrawSurface","GetDDrawSurface method [DirectShow]","GetDDrawSurface method [DirectShow]","IDDrawExclModeVideo interface","IDDrawExclModeVideo interface [DirectShow]","GetDDrawSurface method","IDDrawExclModeVideo.GetDDrawSurface","IDDrawExclModeVideo::GetDDrawSurface","IDDrawExclModeVideoGetDDrawSurface","dshow.iddrawexclmodevideo_getddrawsurface","strmif/IDDrawExclModeVideo::GetDDrawSurface"]
 old-location: dshow\iddrawexclmodevideo_getddrawsurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0fb29af3-5f6f-4502-8785-72c64f72fec4
 ms.date: 12/05/2018
 ms.keywords: GetDDrawSurface, GetDDrawSurface method [DirectShow], GetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawSurface method, IDDrawExclModeVideo.GetDDrawSurface, IDDrawExclModeVideo::GetDDrawSurface, IDDrawExclModeVideoGetDDrawSurface, dshow.iddrawexclmodevideo_getddrawsurface, strmif/IDDrawExclModeVideo::GetDDrawSurface
-f1_keywords:
-- strmif/IDDrawExclModeVideo.GetDDrawSurface
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDDrawExclModeVideo.GetDDrawSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDDrawExclModeVideo::GetDDrawSurface
+ - strmif/IDDrawExclModeVideo::GetDDrawSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDDrawExclModeVideo.GetDDrawSurface
 ---
 
 # IDDrawExclModeVideo::GetDDrawSurface
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDDrawSurface</code> method retrieves the DirectDraw surface being used by the Overlay Mixer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppDDrawSurface [out]
 
 Address of a pointer to the <b>IDirectDrawSurface</b> interface that is being used by the Overlay Mixer.
 
-
 ### -param pbUsingExternal [out]
 
-Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw surface specified by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface">IDDrawExclModeVideo::SetDDrawSurface</a>, or <b>FALSE</b> otherwise.
-
+Pointer to a variable that receives a Boolean value. It receives the value <b>TRUE</b> if the Overlay Mixer is using a DirectDraw surface specified by <a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawsurface">IDDrawExclModeVideo::SetDDrawSurface</a>, or <b>FALSE</b> otherwise.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,31 +106,15 @@ A DirectDraw error is encountered when trying to set the specified surface on th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the filter graph has not set a DirectDraw surface and the Overlay Mixer has not yet allocated one, then <i>pDDrawSurface</i> will be set to <b>NULL</b> and <i>pdUsingExternal</i> will be set to <b>FALSE</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>

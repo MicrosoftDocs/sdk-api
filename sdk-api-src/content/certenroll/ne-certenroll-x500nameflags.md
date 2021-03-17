@@ -2,15 +2,12 @@
 UID: NE:certenroll.X500NameFlags
 title: X500NameFlags (certenroll.h)
 description: Specifies the display and encoding characteristics of a distinguished name or relative distinguished name (RDN).
+helpviewer_keywords: ["X500NameFlags","X500NameFlags enumeration [Security]","XCN_CERT_NAME_STR_COMMA_FLAG","XCN_CERT_NAME_STR_CRLF_FLAG","XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG","XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG","XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG","XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG","XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG","XCN_CERT_NAME_STR_FORWARD_FLAG","XCN_CERT_NAME_STR_NONE","XCN_CERT_NAME_STR_NO_PLUS_FLAG","XCN_CERT_NAME_STR_NO_QUOTING_FLAG","XCN_CERT_NAME_STR_REVERSE_FLAG","XCN_CERT_NAME_STR_SEMICOLON_FLAG","XCN_CERT_OID_NAME_STR","XCN_CERT_SIMPLE_NAME_STR","XCN_CERT_X500_NAME_STR","XCN_CERT_XML_NAME_STR","certenroll/X500NameFlags","certenroll/XCN_CERT_NAME_STR_COMMA_FLAG","certenroll/XCN_CERT_NAME_STR_CRLF_FLAG","certenroll/XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG","certenroll/XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG","certenroll/XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG","certenroll/XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG","certenroll/XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG","certenroll/XCN_CERT_NAME_STR_FORWARD_FLAG","certenroll/XCN_CERT_NAME_STR_NONE","certenroll/XCN_CERT_NAME_STR_NO_PLUS_FLAG","certenroll/XCN_CERT_NAME_STR_NO_QUOTING_FLAG","certenroll/XCN_CERT_NAME_STR_REVERSE_FLAG","certenroll/XCN_CERT_NAME_STR_SEMICOLON_FLAG","certenroll/XCN_CERT_OID_NAME_STR","certenroll/XCN_CERT_SIMPLE_NAME_STR","certenroll/XCN_CERT_X500_NAME_STR","certenroll/XCN_CERT_XML_NAME_STR","security.x500nameflags_enum"]
 old-location: security\x500nameflags_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 8961f21c-1aab-4bbf-a696-e5bc0f37724a
 ms.date: 12/05/2018
 ms.keywords: X500NameFlags, X500NameFlags enumeration [Security], XCN_CERT_NAME_STR_COMMA_FLAG, XCN_CERT_NAME_STR_CRLF_FLAG, XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, XCN_CERT_NAME_STR_FORWARD_FLAG, XCN_CERT_NAME_STR_NONE, XCN_CERT_NAME_STR_NO_PLUS_FLAG, XCN_CERT_NAME_STR_NO_QUOTING_FLAG, XCN_CERT_NAME_STR_REVERSE_FLAG, XCN_CERT_NAME_STR_SEMICOLON_FLAG, XCN_CERT_OID_NAME_STR, XCN_CERT_SIMPLE_NAME_STR, XCN_CERT_X500_NAME_STR, XCN_CERT_XML_NAME_STR, certenroll/X500NameFlags, certenroll/XCN_CERT_NAME_STR_COMMA_FLAG, certenroll/XCN_CERT_NAME_STR_CRLF_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, certenroll/XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG, certenroll/XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG, certenroll/XCN_CERT_NAME_STR_FORWARD_FLAG, certenroll/XCN_CERT_NAME_STR_NONE, certenroll/XCN_CERT_NAME_STR_NO_PLUS_FLAG, certenroll/XCN_CERT_NAME_STR_NO_QUOTING_FLAG, certenroll/XCN_CERT_NAME_STR_REVERSE_FLAG, certenroll/XCN_CERT_NAME_STR_SEMICOLON_FLAG, certenroll/XCN_CERT_OID_NAME_STR, certenroll/XCN_CERT_SIMPLE_NAME_STR, certenroll/XCN_CERT_X500_NAME_STR, certenroll/XCN_CERT_XML_NAME_STR, security.x500nameflags_enum
-f1_keywords:
-- certenroll/X500NameFlags
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X500NameFlags
 targetos: Windows
 req.typenames: X500NameFlags
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X500NameFlags
+ - certenroll/X500NameFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X500NameFlags
 ---
 
 # X500NameFlags enumeration
@@ -48,33 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>X500NameFlags</b> enumeration type specifies the display and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoding</a> characteristics of a distinguished name or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
-
+The <b>X500NameFlags</b> enumeration type specifies the display and <a href="/windows/desktop/SecGloss/e-gly">encoding</a> characteristics of a distinguished name or <a href="/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN).  This enumeration is used to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
 
 ## -enum-fields
-
-
-
 
 ### -field XCN_CERT_NAME_STR_NONE
 
 Display characteristics are not identified.
 
-
 ### -field XCN_CERT_SIMPLE_NAME_STR
 
-All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
-
+All <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. <a href="/windows/desktop/SecGloss/r-gly">Relative distinguished names</a> (RDNs) are separated by commas followed by a space (, ). RDN attributes are separated by a plus sign enclosed within spaces ( + ).
 
 ### -field XCN_CERT_OID_NAME_STR
 
 OIDs are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
-
 ### -field XCN_CERT_X500_NAME_STR
 
-OIDs are converted to their <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
+OIDs are converted to their <a href="/windows/desktop/SecGloss/x-gly">X.500</a> key names. They are separated from their associated attribute value by using an equal sign (=). RDNs are separated by a comma followed by a space (, ). RDN attributes are separated by a plus sign followed by a space (+ ).
 
 If an OID does not have a corresponding X.500 name, the OID is used with a prefix of OID. The RDN is enclosed within quotation marks (" ") if it contains leading or trailing white space or one of the following characters:<ul>
 <li>Comma (,)</li>
@@ -88,8 +82,6 @@ If an OID does not have a corresponding X.500 name, the OID is used with a prefi
 <li>Semicolon (;)</li>
 <li>Embedded quotation mark (")</li>
 </ul>
-
-
 
 ### -field XCN_CERT_XML_NAME_STR
 
@@ -116,60 +108,47 @@ The Unicode XML markup characters are escaped in the following manner. Character
 <li>\" becomes L"&amp;quot;"</li>
 </ul>
 
-
-
 ### -field XCN_CERT_NAME_STR_SEMICOLON_FLAG
 
 The comma (,) separator used between RDNs is replaced with a semicolon (;) character.
-
 
 ### -field XCN_CERT_NAME_STR_NO_PLUS_FLAG
 
 The (+) separator used between RDN attributes is replaced with a single space character.
 
-
 ### -field XCN_CERT_NAME_STR_NO_QUOTING_FLAG
 
 Inhibits the use of quotation marks for the XCN_CERT_X500_NAME_ST value.
-
 
 ### -field XCN_CERT_NAME_STR_CRLF_FLAG
 
 The comma (,) separator used between RDNs is replaced with a carriage return/line feed (\r\n) sequence.
 
-
 ### -field XCN_CERT_NAME_STR_COMMA_FLAG
 
 Specifies that the separator between RDNs is a comma (,).
 
-
 ### -field XCN_CERT_NAME_STR_REVERSE_FLAG
 
-Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
-
+Specifies that the order of the RDNs that make up the distinguished name (DN) is reversed for encoding. The typical DN display order is CN=<i>name</i>,...,DC=<i>com</i>. Use this flag to change the encoding order to DC=<i>com</i>,...,CN=<i>name</i>. An <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object sets this flag by default unless you specify  XCN_CERT_NAME_STR_FORWARD_FLAG.
 
 ### -field XCN_CERT_NAME_STR_FORWARD_FLAG
 
 Use to undo the encoding order specified by setting the XCN_CERT_NAME_STR_REVERSE_FLAG value.
 
-
 ### -field XCN_CERT_NAME_STR_AMBIGUOUS_SEPARATOR_FLAGS
-
 
 ### -field XCN_CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG
 
 Skips the initial attempt to decode T.61 Teletex character values to UTF-8 values. By default, T.61 values are initially decoded to UTF-8, but if UTF-8 decoding fails, the values are decoded as 8-bit characters.
 
-
 ### -field XCN_CERT_NAME_STR_ENABLE_T61_UNICODE_FLAG
 
 T.61 is used rather than Unicode character encoding for all characters less than 0xFF. LDAP, for example, uses T.61.
 
-
 ### -field XCN_CERT_NAME_STR_ENABLE_UTF8_UNICODE_FLAG
 
 UTF-8 is used for the DN instead of Unicode character encoding.
-
 
 ### -field XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG
 
@@ -241,37 +220,23 @@ Forces the following X.500 keys to be encoded as UTF-8 strings rather than print
 <td>XCN_OID_TITLE</td>
 </tr>
 </table>
- 
-
 
 ### -field XCN_CERT_NAME_STR_DISABLE_UTF8_DIR_STR_FLAG
 
 Prevents forcing printable Unicode strings to be encoded by using UTF-8. Use when desired when  XCN_CERT_NAME_STR_FORCE_UTF8_DIR_STR_FLAG is the default behavior.
 
-
 ### -field XCN_CERT_NAME_STR_ENABLE_PUNYCODE_FLAG
-
 
 ### -field XCN_CERT_NAME_STR_DS_ESCAPED
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>

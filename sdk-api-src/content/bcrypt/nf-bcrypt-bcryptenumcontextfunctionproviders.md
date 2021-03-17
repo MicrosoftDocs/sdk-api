@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptEnumContextFunctionProviders
 title: BCryptEnumContextFunctionProviders function (bcrypt.h)
 description: Obtains the providers for the cryptographic functions for a context in the specified configuration table.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptEnumContextFunctionProviders","BCryptEnumContextFunctionProviders function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptEnumContextFunctionProviders","security.bcryptenumcontextfunctionproviders"]
 old-location: security\bcryptenumcontextfunctionproviders.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 82776e61-03bb-463b-8767-fa4f70fe1341
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctionProviders, BCryptEnumContextFunctionProviders function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctionProviders, security.bcryptenumcontextfunctionproviders
-f1_keywords:
-- bcrypt/BCryptEnumContextFunctionProviders
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptEnumContextFunctionProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptEnumContextFunctionProviders
+ - bcrypt/BCryptEnumContextFunctionProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptEnumContextFunctionProviders
 ---
 
 # BCryptEnumContextFunctionProviders function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptEnumContextFunctionProviders</b> function obtains the providers for the cryptographic functions for a context in the specified configuration table.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -87,13 +84,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to enumerate the function providers for.
-
 
 ### -param dwInterface [in]
 
@@ -130,7 +124,7 @@ Retrieve the cipher function providers.
 </dl>
 </td>
 <td width="60%">
-Retrieve the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> function providers.
+Retrieve the <a href="/windows/desktop/SecGloss/h-gly">hash</a> function providers.
 
 </td>
 </tr>
@@ -185,13 +179,10 @@ Retrieve the Schannel function providers.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the function to enumerate the providers for.
-
 
 ### -param pcbBuffer [in, out]
 
@@ -199,19 +190,15 @@ The address of a <b>ULONG</b> variable that, on entry, contains the size, in byt
 
 After this function returns, this value contains the number of bytes that were copied to the <i>ppBuffer</i> buffer.
 
-
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
-If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the variable pointed to by the <i>pcbBuffer</i> parameter and return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -281,14 +268,8 @@ No context function providers that match the specified criteria were found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>BCryptEnumContextFunctionProviders</b> can be called only in user mode.
 
@@ -390,21 +371,10 @@ NTSTATUS EnumContextFunctionProviders()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_providers">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>

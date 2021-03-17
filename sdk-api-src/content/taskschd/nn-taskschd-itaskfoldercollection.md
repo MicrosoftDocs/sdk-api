@@ -2,15 +2,12 @@
 UID: NN:taskschd.ITaskFolderCollection
 title: ITaskFolderCollection (taskschd.h)
 description: Provides information and control for a collection of folders that contain tasks.
+helpviewer_keywords: ["ITaskFolderCollection","ITaskFolderCollection interface [Task Scheduler]","ITaskFolderCollection interface [Task Scheduler]","described","taskschd.itaskfoldercollection","taskschd/ITaskFolderCollection"]
 old-location: taskschd\itaskfoldercollection.htm
 tech.root: taskschd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
 ms.date: 12/05/2018
 ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], ITaskFolderCollection interface [Task Scheduler],described, taskschd.itaskfoldercollection, taskschd/ITaskFolderCollection
-f1_keywords:
-- taskschd/ITaskFolderCollection
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskFolderCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskFolderCollection
+ - taskschd/ITaskFolderCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskFolderCollection
 ---
 
 # ITaskFolderCollection interface
@@ -48,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides information and control for a collection of folders that contain tasks. 
-
+Provides information and control for a collection of folders that contain tasks.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">ITaskFolder::GetFolders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">ITaskFolder::GetFolders</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

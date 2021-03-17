@@ -2,15 +2,12 @@
 UID: NF:traffic.TcCloseInterface
 title: TcCloseInterface function (traffic.h)
 description: The TcCloseInterface function closes an interface previously opened with a call to TcOpenInterface. All flows and filters on a particular interface should be closed before closing the interface with a call to TcCloseInterface.
+helpviewer_keywords: ["TcCloseInterface","TcCloseInterface function [QOS]","_gqos_tccloseinterface","qos.tccloseinterface","traffic/TcCloseInterface"]
 old-location: qos\tccloseinterface.htm
 tech.root: QOS
 ms.assetid: c7c78f98-0890-4889-994e-bbac08ba9c44
 ms.date: 12/05/2018
 ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseinterface, qos.tccloseinterface, traffic/TcCloseInterface
-f1_keywords:
-- traffic/TcCloseInterface
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcCloseInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcCloseInterface
+ - traffic/TcCloseInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcCloseInterface
 ---
 
 # TcCloseInterface function
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcCloseInterface</b> function closes an interface previously opened with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>. All flows and filters on a particular interface should be closed before closing the interface with a call to 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>. All flows and filters on a particular interface should be closed before closing the interface with a call to 
 <b>TcCloseInterface</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be closed. This handle is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -109,14 +103,8 @@ Not all flows have been deleted for this interface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Regardless of whether 
 <b>TcCloseInterface</b> is called, an interface will be closed following a TC_NOTIFY_IFC_CLOSE notification event. If the 
@@ -127,15 +115,6 @@ Regardless of whether
 <b>TcCloseInterface</b> requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>

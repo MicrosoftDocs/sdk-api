@@ -2,15 +2,12 @@
 UID: NF:certenc.ICertEncodeAltName.Reset
 title: ICertEncodeAltName::Reset (certenc.h)
 description: Specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
+helpviewer_keywords: ["CCertEncodeAltName object [Security]","Reset method","ICertEncodeAltName interface [Security]","Reset method","ICertEncodeAltName.Reset","ICertEncodeAltName::Reset","Reset","Reset method [Security]","Reset method [Security]","CCertEncodeAltName object","Reset method [Security]","ICertEncodeAltName interface","certenc/ICertEncodeAltName::Reset","security.icertencodealtname_reset"]
 old-location: security\icertencodealtname_reset.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 99aa43fe-534b-4696-8bfc-7049b16be1cf
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],Reset method, ICertEncodeAltName interface [Security],Reset method, ICertEncodeAltName.Reset, ICertEncodeAltName::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeAltName object, Reset method [Security],ICertEncodeAltName interface, certenc/ICertEncodeAltName::Reset, security.icertencodealtname_reset
-f1_keywords:
-- certenc/ICertEncodeAltName.Reset
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeAltName.Reset
-- CCertEncodeAltName.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeAltName::Reset
+ - certenc/ICertEncodeAltName::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeAltName.Reset
+ - CCertEncodeAltName.Reset
 ---
 
 # ICertEncodeAltName::Reset
@@ -49,39 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Reset</b> method specifies the size of the alternate name array in this object. The value of all elements in the array are set to zero.
 
-
 ## -parameters
-
-
-
 
 ### -param NameCount [in]
 
 Specifies the number of elements in the array.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodealtname">ICertEncodeAltName</a>

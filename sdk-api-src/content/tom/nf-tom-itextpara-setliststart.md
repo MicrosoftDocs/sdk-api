@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.SetListStart
 title: ITextPara::SetListStart (tom.h)
 description: Sets the starting number or Unicode value for a numbered list.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetListStart method","ITextPara.SetListStart","ITextPara::SetListStart","SetListStart","SetListStart method [Windows Controls]","SetListStart method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetListStart","_win32_ITextPara_SetListStart_cpp","controls.ITextPara_SetListStart","controls._win32_ITextPara_SetListStart","tom/ITextPara::SetListStart"]
 old-location: controls\ITextPara_SetListStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setliststart.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListStart method, ITextPara.SetListStart, ITextPara::SetListStart, SetListStart, SetListStart method [Windows Controls], SetListStart method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListStart, _win32_ITextPara_SetListStart_cpp, controls.ITextPara_SetListStart, controls._win32_ITextPara_SetListStart, tom/ITextPara::SetListStart
-f1_keywords:
-- tom/ITextPara.SetListStart
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetListStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetListStart
+ - tom/ITextPara::SetListStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetListStart
 ---
 
 # ITextPara::SetListStart
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the starting number or Unicode value for a numbered list.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-New starting number or Unicode value for a numbered list. 
-
+New starting number or Unicode value for a numbered list.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -133,30 +127,18 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Other characteristics of a list are specified by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">ITextPara::SetListType</a>.
-
-
-
+Other characteristics of a list are specified by <a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">ITextPara::SetListType</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -164,12 +146,8 @@ Other characteristics of a list are specified by <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

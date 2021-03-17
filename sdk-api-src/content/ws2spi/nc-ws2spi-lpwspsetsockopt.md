@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPSETSOCKOPT
 title: LPWSPSETSOCKOPT
 description: The LPWSPSetSockOpt function sets a socket option.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPSETSOCKOPT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSETSOCKOPT
 targetos: Windows
@@ -25,39 +27,50 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSETSOCKOPT
+ - LPWSPSETSOCKOPT
+f1_keywords:
+ - LPWSPSETSOCKOPT
+ - ws2spi/LPWSPSETSOCKOPT
 ---
 
 ## -description
+
 The **LPWSPSetSockOpt** function sets a socket option.
 
 ## -parameters
 
 ### -param s [in]
+
 The descriptor that identifies a socket.
 
 ### -param level [in]
-The level at which the option is defined; the supported levels include <b><a href="/windows/win32/winsock/sol-socket-socket-options">SOL_SOCKET</a></b>. For more information, see [Winsock Annexes](winsock-annexes.md).
+
+The level at which the option is defined; the supported levels include <b><a href="/windows/win32/winsock/sol-socket-socket-options">SOL_SOCKET</a></b>. For more information, see [Winsock Annexes](/windows/win32/winsock/winsock-annexes).
 
 ### -param optname [in]
+
 The socket option for which the value is to be set.
 
 ### -param optval [in]
+
 A pointer to the buffer in which the value for the requested option is supplied.
 
 ### -param optlen [in]
+
 The size, in bytes, of the <i>optval</i> buffer.
 
 ### -param lpErrno [out]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPSetSockOpt** returns zero. Otherwise, a value of **SOCKET_ERROR** is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -164,8 +177,9 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
+
 The **LPWSPSetSockOpt** function sets the current value for a socket option associated with a socket of any type, in any state. Although options can exist at multiple protocol levels, they are always present at the uppermost socket level. Options affect socket operations, such as whether broadcast messages can be sent on the socket.
 
 There are two types of socket options: Boolean options that enable or disable a feature or behavior, and options that require an integer value or structure. To enable a Boolean option, <i>optval</i> points to a nonzero integer. To disable the option, <i>optval</i> points to an integer equal to zero. The <i>optlen</i> parameter should be equal to sizeof (int) for Boolean options. For other options, <i>optval</i> points to an integer or structure that contains the desired value for the option, and <i>optlen</i> is the length of the integer or structure.
@@ -223,7 +237,7 @@ A Windows Sockets SPI client can request that a TCP/IP provider enable the use o
 <span id="SO_LINGER"></span><span id="so_linger"></span>SO_LINGER
 </dt> <dd>
 
-SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the **SO_LINGER** settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements.
+SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the **SO_LINGER** settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client sets the desired behavior by creating a <b><a href="/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure, pointed to by the <i>optval</i> parameter, with the following elements.
 
 ```cpp
 struct linger {
@@ -232,7 +246,7 @@ struct linger {
 }
 ```
 
-To enable **SO_LINGER**, a Windows Sockets SPI client should set **l_onoff** to a nonzero value, set **l_linger** to zero or the desired time-out, in seconds, and call **LPWSPSetSockOpt**. To enable **SO_DONTLINGER**, that is, disable SO_LINGER, **l_onoff** should be set to zero and **LPWSPSetSockOpt** should be called. Be aware that enabling **SO_LINGER** with a nonzero time-out on a nonblocking socket is not recommended. For more information, see <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>.
+To enable **SO_LINGER**, a Windows Sockets SPI client should set **l_onoff** to a nonzero value, set **l_linger** to zero or the desired time-out, in seconds, and call **LPWSPSetSockOpt**. To enable **SO_DONTLINGER**, that is, disable SO_LINGER, **l_onoff** should be set to zero and **LPWSPSetSockOpt** should be called. Be aware that enabling **SO_LINGER** with a nonzero time-out on a nonblocking socket is not recommended. For more information, see <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b>.
 
 Enabling **SO_LINGER** also disables **SO_DONTLINGER**, and vice versa. Be aware that if **SO_DONTLINGER** is disabled (that is, **SO_LINGER** is enabled) then no time-out value is specified. In this case, the time-out used is implementation dependent. If a previous time-out has been established for a socket (by enabling **SO_LINGER**), then this time-out value should be reinstated by the service provider.
 
@@ -258,6 +272,7 @@ When a Windows Sockets implementation supports the **SO_RCVBUF** and **SO_SNDBUF
 This object stores the configuration information for the service provider associated with socket <i>s</i>. The exact format of this data structure is service provider specific.
 
 ## -see-also
+
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b>
    
 
@@ -270,4 +285,4 @@ This object stores the configuration information for the service provider associ
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-  
+

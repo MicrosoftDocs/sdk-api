@@ -2,15 +2,12 @@
 UID: NF:commctrl.Button_SetDropDownState
 title: Button_SetDropDownState macro (commctrl.h)
 description: Sets the drop down state for a specified button with style of BS_SPLITBUTTON. Use this macro or send the BCM_SETDROPDOWNSTATE message explicitly.
+helpviewer_keywords: ["Button_SetDropDownState","Button_SetDropDownState macro [Windows Controls]","_shell_Button_SetDropDownState","_shell_Button_SetDropDownState_cpp","commctrl/Button_SetDropDownState","controls.Button_SetDropDownState","controls._shell_Button_SetDropDownState"]
 old-location: controls\Button_SetDropDownState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
 ms.date: 12/05/2018
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
-f1_keywords:
-- commctrl/Button_SetDropDownState
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Button_SetDropDownState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Button_SetDropDownState
+ - commctrl/Button_SetDropDownState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Button_SetDropDownState
 ---
 
 # Button_SetDropDownState macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the drop down state for a specified button with style of <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setdropdownstate">BCM_SETDROPDOWNSTATE</a> message explicitly. 
-
+Sets the drop down state for a specified button with style of <a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a>. Use this macro or send the <a href="/windows/desktop/Controls/bcm-setdropdownstate">BCM_SETDROPDOWNSTATE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the button control. 
-
+A handle to the button control.
 
 ### -param fDropDown [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> for state of  BST_DROPDOWNPUSHED, or <b>FALSE</b> otherwise.
-

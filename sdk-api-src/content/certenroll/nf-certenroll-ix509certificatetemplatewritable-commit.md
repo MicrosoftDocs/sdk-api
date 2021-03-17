@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509CertificateTemplateWritable.Commit
 title: IX509CertificateTemplateWritable::Commit (certenroll.h)
 description: Deletes a template from or saves it to Active Directory.
+helpviewer_keywords: ["Commit","Commit method [Security]","Commit method [Security]","IX509CertificateTemplateWritable interface","CommitFlagDeleteTemplate","CommitFlagSaveTemplateGenerateOID","CommitFlagSaveTemplateOverwrite","CommitFlagSaveTemplateUseCurrentOID","IX509CertificateTemplateWritable interface [Security]","Commit method","IX509CertificateTemplateWritable.Commit","IX509CertificateTemplateWritable::Commit","certenroll/IX509CertificateTemplateWritable::Commit","security.ix509certificatetemplatewritable_commit"]
 old-location: security\ix509certificatetemplatewritable_commit.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: ee7d5640-8d06-4a1a-bce2-f76ee6276207
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Security], Commit method [Security],IX509CertificateTemplateWritable interface, CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, IX509CertificateTemplateWritable interface [Security],Commit method, IX509CertificateTemplateWritable.Commit, IX509CertificateTemplateWritable::Commit, certenroll/IX509CertificateTemplateWritable::Commit, security.ix509certificatetemplatewritable_commit
-f1_keywords:
-- certenroll/IX509CertificateTemplateWritable.Commit
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateTemplateWritable.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplateWritable::Commit
+ - certenroll/IX509CertificateTemplateWritable::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateTemplateWritable.Commit
 ---
 
 # IX509CertificateTemplateWritable::Commit
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Commit</b> method deletes a template from or saves it to Active Directory.
-
 
 ## -parameters
 
-
-
-
 ### -param commitFlags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-committemplateflags">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
+A <a href="/windows/desktop/api/certenroll/ne-certenroll-committemplateflags">CommitTemplateFlags</a> enumeration value that specifies how to save or delete the template. This must be one of the following values.
 
 <table>
 <tr>
@@ -107,21 +104,16 @@ Delete the template.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strServerContext [in]
 
 A <b>BSTR</b> variable that contains the DNS name of the Active Directory server to which the changes will be applied. If this value is <b>NULL</b>, the changes will be applied to the default domain controller.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -190,7 +182,7 @@ Either <b>CommitFlagSaveTemplateUseCurrentOID</b> or <b>CommitFlagSaveTemplateOv
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-commit">Commit</a> method is not supported for default templates.
+The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-commit">Commit</a> method is not supported for default templates.
 
 </td>
 </tr>
@@ -201,19 +193,13 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certen
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object has not been initialized.
+The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object has not been initialized.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When <b>CommitFlagSaveTemplateGenerateOID</b> is specified in the <i>commitFlags</i> argument, this method will not succeed unless the template and OID containers have already been created. These containers can be created in any of the following ways:
 
@@ -223,15 +209,6 @@ When <b>CommitFlagSaveTemplateGenerateOID</b> is specified in the <i>commitFlags
 <li>Using the <b>Certutil.exe -installDefaultTemplates</b> command to install the default templates.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>

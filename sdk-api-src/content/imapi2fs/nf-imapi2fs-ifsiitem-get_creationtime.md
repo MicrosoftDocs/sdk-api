@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiItem.get_CreationTime
 title: IFsiItem::get_CreationTime (imapi2fs.h)
 description: Retrieves the date and time that the directory or file item was created and added to the file system image.
+helpviewer_keywords: ["IFsiItem interface [IMAPI]","get_CreationTime method","IFsiItem.get_CreationTime","IFsiItem::get_CreationTime","get_CreationTime","get_CreationTime method [IMAPI]","get_CreationTime method [IMAPI]","IFsiItem interface","imapi.ifsiitem_get_creationtime","imapi2fs/IFsiItem::get_CreationTime"]
 old-location: imapi\ifsiitem_get_creationtime.htm
 tech.root: imapi
 ms.assetid: c172bbed-6573-4b11-9aa6-9d4dde9cd94a
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],get_CreationTime method, IFsiItem.get_CreationTime, IFsiItem::get_CreationTime, get_CreationTime, get_CreationTime method [IMAPI], get_CreationTime method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_creationtime, imapi2fs/IFsiItem::get_CreationTime
-f1_keywords:
-- imapi2fs/IFsiItem.get_CreationTime
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiItem.get_CreationTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiItem::get_CreationTime
+ - imapi2fs/IFsiItem::get_CreationTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiItem.get_CreationTime
 ---
 
 # IFsiItem::get_CreationTime
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the date and time that the directory or file item was created and added to the file system image.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-Date and time that the  directory or file item was created and added to the file system image, according to UTC time. 
-
+Date and time that the  directory or file item was created and added to the file system image, according to UTC time.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,33 +81,17 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The creation date and time are propagated to the attributes that users see when listing the contents of a directory.
 
 IMAPI does not support the extended attribute for <i>CreationTime</i>, and as a result, UDFS populates the <i>CreationTime</i> with the value expressed by the <i>LastAccessed</i> property from the file entry.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">IFsiItem::put_CreationTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-put_creationtime">IFsiItem::put_CreationTime</a>

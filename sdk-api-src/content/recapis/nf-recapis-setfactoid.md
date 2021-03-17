@@ -2,15 +2,12 @@
 UID: NF:recapis.SetFactoid
 title: SetFactoid function (recapis.h)
 description: Specifies the factoid a recognizer uses to constrain its search for the result.You specify a factoid if an input field is of a known type, such as if the input field contains a date.
+helpviewer_keywords: ["SetFactoid","SetFactoid function [Tablet PC]","f805b364-1e7b-4995-bda9-47bff87fcdfa","recapis/SetFactoid","tablet.setfactoid"]
 old-location: tablet\setfactoid.htm
 tech.root: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.date: 12/05/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
-f1_keywords:
-- recapis/SetFactoid
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- SetFactoid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFactoid
+ - recapis/SetFactoid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - SetFactoid
 ---
 
 # SetFactoid function
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the factoid a recognizer uses to constrain its search for the result.
 
-You specify a factoid if an input field is of a known type, such as if the input field contains a date. You call this function before processing the ink for the first time. Therefore, call the <b>SetFactoid</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
-
-
-
+You specify a factoid if an input field is of a known type, such as if the input field contains a date. You call this function before processing the ink for the first time. Therefore, call the <b>SetFactoid</b> function before calling the <a href="/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hrc
 
 Handle to the recognizer context.
 
-
 ### -param cwcFactoid
 
 Number of characters in <i>pwcFactoid</i>.
-
 
 ### -param pwcFactoid
 
 Identifies the factoid to use on the recognizer context. The string is not <b>NULL</b>-terminated.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -177,29 +166,13 @@ The context contains an invalid value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a list of factoids that can be passed in the <i>cwcFactoid</i> parameter, see <a href="https://docs.microsoft.com/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>. The DEFAULT factoid listed in that topic is not a valid value to pass to <b>SetFactoid</b>; the Tablet PC Platform API's internally convert DEFAULT to <b>NULL</b> before calling the <b>SetFactoid</b> function.
+For a list of factoids that can be passed in the <i>cwcFactoid</i> parameter, see <a href="/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>. The DEFAULT factoid listed in that topic is not a valid value to pass to <b>SetFactoid</b>; the Tablet PC Platform API's internally convert DEFAULT to <b>NULL</b> before calling the <b>SetFactoid</b> function.
 
 It is recommended that you limit the length of the factoid string to no more than 32768 characters.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setflags">SetFlags Function</a>
- 
-
- 
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setflags">SetFlags Function</a>

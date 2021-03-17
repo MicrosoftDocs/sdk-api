@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitId
 title: IChangeUnitListFilterInfo::GetChangeUnitId (winsync.h)
 description: Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
+helpviewer_keywords: ["GetChangeUnitId","GetChangeUnitId method [Windows Sync]","GetChangeUnitId method [Windows Sync]","IChangeUnitListFilterInfo interface","IChangeUnitListFilterInfo interface [Windows Sync]","GetChangeUnitId method","IChangeUnitListFilterInfo.GetChangeUnitId","IChangeUnitListFilterInfo::GetChangeUnitId","winsync.ichangeunitlistfilterinfo_getchangeunitid","winsync/IChangeUnitListFilterInfo::GetChangeUnitId"]
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 67420b58-b3c9-4500-8395-4d176133c142
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitId method, IChangeUnitListFilterInfo.GetChangeUnitId, IChangeUnitListFilterInfo::GetChangeUnitId, winsync.ichangeunitlistfilterinfo_getchangeunitid, winsync/IChangeUnitListFilterInfo::GetChangeUnitId
-f1_keywords:
-- winsync/IChangeUnitListFilterInfo.GetChangeUnitId
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitListFilterInfo.GetChangeUnitId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitListFilterInfo::GetChangeUnitId
+ - winsync/IChangeUnitListFilterInfo::GetChangeUnitId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitListFilterInfo.GetChangeUnitId
 ---
 
 # IChangeUnitListFilterInfo::GetChangeUnitId
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the change unit ID that is stored at the specified index in the array of change unit IDs that define the filter.
 
-
 ## -parameters
-
-
-
 
 ### -param dwChangeUnitIdIndex [in]
 
 The index of the change unit ID to look up.
 
-
 ### -param pbChangeUnitId [in, out]
 
 Returns the change unit ID that is stored at the index that is specified by <i>dwChangeUnitIdIndex</i>.
-
 
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbChangeUnitId</i>. Returns the number of bytes that are required to retrieve the ID when <i>pbChangeUnitId</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -140,18 +132,7 @@ The change unit ID to be returned is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>

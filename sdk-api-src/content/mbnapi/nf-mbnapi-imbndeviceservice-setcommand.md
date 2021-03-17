@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceService.SetCommand
 title: IMbnDeviceService::SetCommand (mbnapi.h)
 description: Sends a SET control command to the device service of a Mobile Broadband device.
+helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","SetCommand method","IMbnDeviceService.SetCommand","IMbnDeviceService::SetCommand","SetCommand","SetCommand method [Microsoft Broadband Networks]","SetCommand method [Microsoft Broadband Networks]","IMbnDeviceService interface","mbn.imbndeviceservice_setcommand","mbnapi/IMbnDeviceService::SetCommand"]
 old-location: mbn\imbndeviceservice_setcommand.htm
 tech.root: mbn
 ms.assetid: DA45B319-4E6A-4999-85A7-7F5A4F9BED7B
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],SetCommand method, IMbnDeviceService.SetCommand, IMbnDeviceService::SetCommand, SetCommand, SetCommand method [Microsoft Broadband Networks], SetCommand method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_setcommand, mbnapi/IMbnDeviceService::SetCommand
-f1_keywords:
-- mbnapi/IMbnDeviceService.SetCommand
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceService.SetCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceService::SetCommand
+ - mbnapi/IMbnDeviceService::SetCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceService.SetCommand
 ---
 
 # IMbnDeviceService::SetCommand
@@ -53,30 +55,21 @@ ms.custom: 19H1
 
 Sends a <b>SET</b> control command to the device service of a Mobile Broadband device.
 
-
 ## -parameters
-
-
-
 
 ### -param commandID [in]
 
 An identifier for the command.
 
-
 ### -param deviceServiceData [in]
 
 A byte array that is passed in to the device.
-
 
 ### -param requestID [out]
 
 A unique request ID assigned by the Mobile Broadband service to identify this request.
 
-
 ## -returns
-
-
 
 The method can return one of the following values.
 
@@ -119,31 +112,15 @@ An error was encountered when executing this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>SetCommand</b> exists to implement vendor-specific device service functionality which is not otherwise covered in the Mobile Broadband API. A command session on a device service must be opened before the application can call <b>SetCommand</b>.
 
-The Mobile Broadband service will issue a <b>SET</b> request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize">MaxCommandSize</a> bytes.
+The Mobile Broadband service will issue a <b>SET</b> request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize">MaxCommandSize</a> bytes.
 
-This is an asynchronous operation and <b>SetCommand</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete">OnSetCommandComplete</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
-
-
-
+This is an asynchronous operation and <b>SetCommand</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onsetcommandcomplete">OnSetCommandComplete</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>

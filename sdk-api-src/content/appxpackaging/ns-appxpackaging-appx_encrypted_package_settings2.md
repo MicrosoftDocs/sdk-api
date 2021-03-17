@@ -2,15 +2,12 @@
 UID: NS:appxpackaging.APPX_ENCRYPTED_PACKAGE_SETTINGS2
 title: APPX_ENCRYPTED_PACKAGE_SETTINGS2 (appxpackaging.h)
 description: Encrypted Windows app package settings.
+helpviewer_keywords: ["APPX_ENCRYPTED_PACKAGE_SETTINGS2","APPX_ENCRYPTED_PACKAGE_SETTINGS2 structure [App packaging and management]","PAPPX_ENCRYPTED_PACKAGE_SETTINGS2","PAPPX_ENCRYPTED_PACKAGE_SETTINGS2 structure pointer [App packaging and management]","appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2","appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS2","appxpkg.appx_encrypted_package_settings2"]
 old-location: appxpkg\appx_encrypted_package_settings2.htm
 tech.root: appxpkg
 ms.assetid: 6FAF4B40-0C52-4B9C-8353-1BE4F3D309C4
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS2, APPX_ENCRYPTED_PACKAGE_SETTINGS2 structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, PAPPX_ENCRYPTED_PACKAGE_SETTINGS2 structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS2, appxpkg.appx_encrypted_package_settings2
-f1_keywords:
-- appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AppxPackaging.h
-api_name:
-- APPX_ENCRYPTED_PACKAGE_SETTINGS2
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_PACKAGE_SETTINGS2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - APPX_ENCRYPTED_PACKAGE_SETTINGS2
+ - appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AppxPackaging.h
+api_name:
+ - APPX_ENCRYPTED_PACKAGE_SETTINGS2
 ---
 
 # APPX_ENCRYPTED_PACKAGE_SETTINGS2 structure
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Encrypted Windows app package settings. This structure expands on <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_encrypted_package_settings">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
-
+Encrypted Windows app package settings. This structure expands on <a href="/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_encrypted_package_settings">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field keyLength
 
 The key length.
 
-
 ### -field encryptionAlgorithm
 
 The encryption algorithm used.
-
 
 ### -field blockMapHashAlgorithm
 
 The Uri of the block map hash algorithm.
 
-
 ### -field options
 
-Additional options for encrypted packages. Options come from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_encrypted_package_options">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.
-
+Additional options for encrypted packages. Options come from the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_encrypted_package_options">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.

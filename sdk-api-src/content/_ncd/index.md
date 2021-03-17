@@ -1,9 +1,10 @@
 ---
 UID: TP:ncd
+title: Other Devices Technologies
 ms.assetid: e1a7e0e3-7a4f-305f-9c8c-47beba62ae6d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Other Devices Technologies
@@ -29,6 +30,5 @@ To develop Other Devices Technologies, you need these headers:
  * [wsdxmldom.h](../wsdxmldom/index.md)
 
 For programming guidance for this technology, see:
-* [Function Discovery](https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/fd-portal)
+* [Function Discovery](/previous-versions/windows/desktop/fundisc/fd-portal)
 * [Web Services on Devices](/windows/desktop/wsdapi)
-

@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.AddFile
 title: IFsiDirectoryItem::AddFile (imapi2fs.h)
 description: Adds a file to the file system image.
+helpviewer_keywords: ["AddFile","AddFile method [IMAPI]","AddFile method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddFile method","IFsiDirectoryItem.AddFile","IFsiDirectoryItem::AddFile","imapi.ifsidirectoryitem_addfile","imapi2fs/IFsiDirectoryItem::AddFile"]
 old-location: imapi\ifsidirectoryitem_addfile.htm
 tech.root: imapi
 ms.assetid: 82f62372-3c79-4bf5-a723-cd09a5444ffc
 ms.date: 12/05/2018
 ms.keywords: AddFile, AddFile method [IMAPI], AddFile method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddFile method, IFsiDirectoryItem.AddFile, IFsiDirectoryItem::AddFile, imapi.ifsidirectoryitem_addfile, imapi2fs/IFsiDirectoryItem::AddFile
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.AddFile
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.AddFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::AddFile
+ - imapi2fs/IFsiDirectoryItem::AddFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.AddFile
 ---
 
 # IFsiDirectoryItem::AddFile
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a file to the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -63,15 +60,11 @@ String that contains the relative path of the directory to contain the new file.
 
 Specify the full path when calling this method from the root directory item.
 
-
 ### -param fileData [in]
 
 An <b>IStream</b> interface of the file (data stream) to write to the media.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -146,40 +139,23 @@ Value: 0xC0AAB102
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The directory that will contain the new file must already exist within the file system image.
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>

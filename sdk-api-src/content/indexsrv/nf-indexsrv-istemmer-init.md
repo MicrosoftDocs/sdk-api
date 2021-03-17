@@ -2,15 +2,12 @@
 UID: NF:indexsrv.IStemmer.Init
 title: IStemmer::Init (indexsrv.h)
 description: Initializes the stemmer.
+helpviewer_keywords: ["IStemmer interface [search]","Init method","IStemmer.Init","IStemmer::Init","Init","Init method [search]","Init method [search]","IStemmer interface","_search_IStemmer_Init","indexsrv/IStemmer::Init","search._search_IStemmer_Init"]
 old-location: search\_search_IStemmer_Init.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\init.htm
 ms.date: 12/05/2018
 ms.keywords: IStemmer interface [search],Init method, IStemmer.Init, IStemmer::Init, Init, Init method [search], Init method [search],IStemmer interface, _search_IStemmer_Init, indexsrv/IStemmer::Init, search._search_IStemmer_Init
-f1_keywords:
-- indexsrv/IStemmer.Init
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Indexsrv.h
-api_name:
-- IStemmer.Init
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack
 ms.custom: 19H1
+f1_keywords:
+ - IStemmer::Init
+ - indexsrv/IStemmer::Init
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Indexsrv.h
+api_name:
+ - IStemmer.Init
 ---
 
 # IStemmer::Init
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the stemmer.
 
-
 ## -parameters
-
-
-
 
 ### -param ulMaxTokenSize [in]
 
 Type: <b>ULONG</b>
 
-Maximum number of characters for words that are added to the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object. Words that exceed this limit may be truncated.
-
+Maximum number of characters for words that are added to the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordformsink">IWordFormSink</a> object. Words that exceed this limit may be truncated.
 
 ### -param pfLicense [out]
 
 Type: <b>BOOL</b>
 
-Pointer to an output variable that receives a flag that indicates whether there are license restrictions for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IStemmer</b> implementation can be used freely.
-
+Pointer to an output variable that receives a flag that indicates whether there are license restrictions for this <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IStemmer</b> implementation can be used freely.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -129,27 +122,11 @@ Unsuccessful completion.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called before any other method of <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and you want more information about possible license restrictions, call the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">IStemmer::GetLicenseToUse</a> method.
-
-
-
+You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called before any other method of <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and you want more information about possible license restrictions, call the <a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-getlicensetouse">IStemmer::GetLicenseToUse</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>

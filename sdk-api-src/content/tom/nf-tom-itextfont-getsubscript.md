@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.GetSubscript
 title: ITextFont::GetSubscript (tom.h)
 description: Gets whether characters are displayed as subscript.
+helpviewer_keywords: ["GetSubscript","GetSubscript method [Windows Controls]","GetSubscript method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSubscript method","ITextFont.GetSubscript","ITextFont::GetSubscript","_win32_ITextFont_GetSubscript","_win32_ITextFont_GetSubscript_cpp","controls.ITextFont_GetSubscript","controls._win32_ITextFont_GetSubscript","tom/ITextFont::GetSubscript"]
 old-location: controls\ITextFont_GetSubscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
 ms.date: 12/05/2018
 ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSubscript method, ITextFont.GetSubscript, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
-f1_keywords:
-- tom/ITextFont.GetSubscript
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetSubscript
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetSubscript
+ - tom/ITextFont::GetSubscript
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetSubscript
 ---
 
 # ITextFont::GetSubscript
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets whether characters are displayed as subscript.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -81,16 +78,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The Subscript property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -120,26 +113,14 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure.
-
-
-
+This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a href="/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
 
 
 
@@ -147,7 +128,7 @@ This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -155,12 +136,8 @@ This property corresponds to the <b>CFE_SUBSCRIPT</b> effect described in the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsubscript">SetSubscript</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setsubscript">SetSubscript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

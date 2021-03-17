@@ -2,15 +2,12 @@
 UID: NS:ifdef._NET_LUID_LH
 title: NET_LUID_LH (ifdef.h)
 description: The locally unique identifier (LUID) for a network interface.
+helpviewer_keywords: ["*PIF_LUID","*PNET_LUID","*PNET_LUID_LH","IF_LUID","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","NET_LUID","NET_LUID union [IP Helper]","NET_LUID_LH","PNET_LUID","PNET_LUID union pointer [IP Helper]","ifdef/NET_LUID","ifdef/PNET_LUID","iphlp.net_luid"]
 old-location: iphlp\net_luid.htm
 tech.root: IpHlp
 ms.assetid: c4956c5a-3c6c-4f1c-b9d7-2e377b66f197
 ms.date: 12/05/2018
 ms.keywords: '*PIF_LUID, *PNET_LUID, *PNET_LUID_LH, IF_LUID, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, NET_LUID, NET_LUID union [IP Helper], NET_LUID_LH, PNET_LUID, PNET_LUID union pointer [IP Helper], ifdef/NET_LUID, ifdef/PNET_LUID, iphlp.net_luid'
-f1_keywords:
-- ifdef/NET_LUID
-dev_langs:
-- c++
 req.header: ifdef.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ifdef.h
-api_name:
-- NET_LUID
 targetos: Windows
 req.typenames: NET_LUID_LH, *PNET_LUID_LH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NET_LUID_LH
+ - ifdef/_NET_LUID_LH
+ - PNET_LUID_LH
+ - ifdef/PNET_LUID_LH
+ - NET_LUID_LH
+ - ifdef/NET_LUID_LH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ifdef.h
+api_name:
+ - NET_LUID
 ---
 
 # NET_LUID_LH structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NET_LUID</b> union is the locally unique identifier (LUID) for a network interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Value
 
@@ -63,11 +64,9 @@ Type: <b>ULONG64</b>
 
 A 64-bit value that represents the LUID.
 
-
 ### -field Info
 
 A named union containing the component fields in the 64-bit LUID  <b>Value</b> member.
-
 
 ### -field Info.Reserved
 
@@ -75,13 +74,11 @@ A named union containing the component fields in the 64-bit LUID  <b>Value</b> m
 </b>
 This field is reserved.
 
-
 ### -field Info.NetLuidIndex
 
 <b>Type: <b>ULONG64</b>
 </b>
 The network interface LUID index.
-
 
 ### -field Info.IfType
 
@@ -196,12 +193,8 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The <b>NET_LUID</b> structure is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol. The <b>NET_LUID</b> structure is defined on Windows Vista and later. 
 
@@ -209,56 +202,46 @@ The <b>IF_LUID</b> and <b>NET_LUID_LH</b> structures are other names that can be
 
 The values for the <b>IfType</b> bitfield are defined in the <i>Ipifcons.h</i> include file. Only the possible values listed in the description of the <b>IfType</b> member are currently supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid">ConvertInterfaceAliasToLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacealiastoluid">ConvertInterfaceAliasToLuid</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceguidtoluid">ConvertInterfaceGuidToLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceguidtoluid">ConvertInterfaceGuidToLuid</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceindextoluid">ConvertInterfaceIndexToLuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceindextoluid">ConvertInterfaceIndexToLuid</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoguid">ConvertInterfaceLuidToGuid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoguid">ConvertInterfaceLuidToGuid</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoindex">ConvertInterfaceLuidToIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtoindex">ConvertInterfaceLuidToIndex</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamea">ConvertInterfaceLuidToNameA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamea">ConvertInterfaceLuidToNameA</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamew">ConvertInterfaceLuidToNameW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfaceluidtonamew">ConvertInterfaceLuidToNameW</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluida">ConvertInterfaceNameToLuidA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluida">ConvertInterfaceNameToLuidA</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluidw">ConvertInterfaceNameToLuidW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertinterfacenametoluidw">ConvertInterfaceNameToLuidW</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>

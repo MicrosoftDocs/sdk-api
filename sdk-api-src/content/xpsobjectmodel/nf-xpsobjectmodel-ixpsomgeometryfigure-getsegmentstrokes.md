@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokes
 title: IXpsOMGeometryFigure::GetSegmentStrokes (xpsobjectmodel.h)
 description: Gets stroke definitions for the figure's segments.
+helpviewer_keywords: ["FALSE","GetSegmentStrokes","GetSegmentStrokes method [XPS Documents and Packaging]","GetSegmentStrokes method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentStrokes method","IXpsOMGeometryFigure.GetSegmentStrokes","IXpsOMGeometryFigure::GetSegmentStrokes","TRUE","xps.ixpsomgeometryfigure_getsegmentstrokes","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes"]
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokes.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 97832bcb-c193-48e2-84f5-21b9c5a55cc9
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetSegmentStrokes, GetSegmentStrokes method [XPS Documents and Packaging], GetSegmentStrokes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokes method, IXpsOMGeometryFigure.GetSegmentStrokes, IXpsOMGeometryFigure::GetSegmentStrokes, TRUE, xps.ixpsomgeometryfigure_getsegmentstrokes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentStrokes
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.GetSegmentStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::GetSegmentStrokes
+ - xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.GetSegmentStrokes
 ---
 
 # IXpsOMGeometryFigure::GetSegmentStrokes
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets stroke definitions for the figure's segments.
 
-
 ## -parameters
-
-
-
 
 ### -param segmentCount [in, out]
 
@@ -66,7 +63,6 @@ If the method returns successfully, <i>segmentCount</i> will contain the number 
 If <i>segmentStrokes</i> is <b>NULL</b> when the method is called,   <i>segmentCount</i> must be set to zero.
 
   If a <b>NULL</b> pointer is returned in <i>segmentStrokes</i>, the value of  <i>segmentCount</i> will contain the required buffer size, specified as the number of elements.
-
 
 ### -param segmentStrokes [in, out]
 
@@ -102,12 +98,8 @@ The segment is not stroked.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -150,22 +142,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

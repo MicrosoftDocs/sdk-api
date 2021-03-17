@@ -2,15 +2,12 @@
 UID: NF:lmremutl.NetRemoteComputerSupports
 title: NetRemoteComputerSupports function (lmremutl.h)
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
+helpviewer_keywords: ["NetRemoteComputerSupports","NetRemoteComputerSupports function [Network Management]","SUPPORTS_LOCAL","SUPPORTS_REMOTE_ADMIN_PROTOCOL","SUPPORTS_RPC","SUPPORTS_SAM_PROTOCOL","SUPPORTS_UNICODE","_win32_netremotecomputersupports","lmremutl/NetRemoteComputerSupports","netmgmt.netremotecomputersupports"]
 old-location: netmgmt\netremotecomputersupports.htm
 tech.root: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
 ms.date: 12/05/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
-f1_keywords:
-- lmremutl/NetRemoteComputerSupports
-dev_langs:
-- c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetRemoteComputerSupports
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetRemoteComputerSupports
+ - lmremutl/NetRemoteComputerSupports
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetRemoteComputerSupports
 ---
 
 # NetRemoteComputerSupports function
@@ -48,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 				<b>NetRemoteComputerSupports</b> function queries the redirector to retrieve the optional features the remote system supports. Features include Unicode, Remote Procedure Call (RPC), and Remote Administration Protocol support. The function establishes a network connection if one does not exist.
 
-
 ## -parameters
-
-
-
 
 ### -param UncServerName [in]
 
-Pointer to a constant string that specifies the name of the remote server to query. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a constant string that specifies the name of the remote server to query. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param OptionsWanted [in]
 
@@ -129,8 +121,6 @@ Requests support for the first three values listed in this table. If UNICODE is 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OptionsSupported [out]
 
@@ -142,10 +132,7 @@ Pointer to a value that receives a set of bit flags. The flags indicate which fe
 The value of this parameter is valid only when the 
 <b>NetRemoteComputerSupports</b> function returns NERR_Success.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -179,43 +166,27 @@ Insufficient memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the 
 <b>NetRemoteComputerSupports</b> function.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/remote-utility-functions">Remote
+<a href="/windows/desktop/NetMgmt/remote-utility-functions">Remote
 		  Utility Functions</a>
- 
-
- 
-

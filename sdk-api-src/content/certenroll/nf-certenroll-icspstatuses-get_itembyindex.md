@@ -2,16 +2,12 @@
 UID: NF:certenroll.ICspStatuses.get_ItemByIndex
 title: ICspStatuses::get_ItemByIndex (certenroll.h)
 description: Retrieves an ICspStatus object from the collection by index number.
+helpviewer_keywords: ["ICspStatuses interface [Security]","ItemByIndex property","ICspStatuses.ItemByIndex","ICspStatuses.get_ItemByIndex","ICspStatuses::ItemByIndex","ICspStatuses::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","ICspStatuses interface","certenroll/ICspStatuses::ItemByIndex","certenroll/ICspStatuses::get_ItemByIndex","get_ItemByIndex","security.icspstatuses_itembyindex_property"]
 old-location: security\icspstatuses_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 41ccbe27-165d-42d1-95b4-0b96565818aa
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByIndex property, ICspStatuses.ItemByIndex, ICspStatuses.get_ItemByIndex, ICspStatuses::ItemByIndex, ICspStatuses::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByIndex, certenroll/ICspStatuses::get_ItemByIndex, get_ItemByIndex, security.icspstatuses_itembyindex_property
-ms.topic: method
-f1_keywords:
-- certenroll/ICspStatuses.ItemByIndex
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspStatuses.ItemByIndex
-- ICspStatuses.get_ItemByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspStatuses::get_ItemByIndex
+ - certenroll/ICspStatuses::get_ItemByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspStatuses.ItemByIndex
+ - ICspStatuses.get_ItemByIndex
 ---
 
 # ICspStatuses::get_ItemByIndex
@@ -50,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ItemByIndex</b> property retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object from the collection by index number. This property is web enabled.
+The <b>ItemByIndex</b> property retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object from the collection by index number. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>

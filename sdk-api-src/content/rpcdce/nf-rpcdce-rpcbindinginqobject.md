@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcBindingInqObject
 title: RpcBindingInqObject function (rpcdce.h)
 description: The RpcBindingInqObject function returns the object UUID from a binding handle.
+helpviewer_keywords: ["RpcBindingInqObject","RpcBindingInqObject function [RPC]","_rpc_rpcbindinginqobject","rpc.rpcbindinginqobject","rpcdce/RpcBindingInqObject"]
 old-location: rpc\rpcbindinginqobject.htm
 tech.root: Rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165
 ms.date: 12/05/2018
 ms.keywords: RpcBindingInqObject, RpcBindingInqObject function [RPC], _rpc_rpcbindinginqobject, rpc.rpcbindinginqobject, rpcdce/RpcBindingInqObject
-f1_keywords:
-- rpcdce/RpcBindingInqObject
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingInqObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingInqObject
+ - rpcdce/RpcBindingInqObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingInqObject
 ---
 
 # RpcBindingInqObject function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingInqObject</b> function returns the object UUID from a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Client or server binding handle.
-
 
 ### -param ObjectUuid
 
 Returns a pointer to the object 
 <a href="https://msdn.microsoft.com/">UUID</a> found in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -104,29 +97,15 @@ The binding handle was invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcBindingInqObject</b> function to see the object 
 <a href="https://msdn.microsoft.com/">UUID</a> associated with a client or server binding handle.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a>

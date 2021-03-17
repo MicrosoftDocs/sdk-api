@@ -1,14 +1,11 @@
 ---
-UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,UINT32,UINT32,UINT32)
+UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGEconst,UINT32,BOOL,UINT32,UINT32,UINT32)
 title: IDWriteFontSet1::GetFilteredFontIndices
 description: Retrives all the item indices, filtered by the given ranges.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFontIndices method","IDWriteFontSet1.GetFilteredFontIndices","IDWriteFontSet1::GetFilteredFontIndices","GetFilteredFontIndices","GetFilteredFontIndices method [Direct Write]","GetFilteredFontIndices method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfontindices","dwrite_3/IDWriteFontSet1::GetFilteredFontIndices"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetFilteredFontIndices
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetFilteredFontIndices
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetFilteredFontIndices
+ - dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetFilteredFontIndices
 ---
 
 ## -description
@@ -50,7 +52,7 @@ Retrives all the item indices, filtered by the given ranges.
 
 ### -param fontAxisRanges
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) const \***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md) const \***
 
 List of axis value ranges to filter by.
 
@@ -70,7 +72,7 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)\***
 
-An ascending array of indices, in the range 0 to [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount) minus 1.
+An ascending array of indices, in the range 0 to [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md) minus 1.
 
 ### -param maxIndexCount
 
@@ -82,7 +84,7 @@ The number of indices.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)\***
 
-The actual number of indices written or needed, in the range 0 to [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount) minus 1.
+The actual number of indices written or needed, in the range 0 to [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md) minus 1.
 
 ## -returns
 
@@ -92,7 +94,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 |Return value|Description|
 |-|-|
-|E_NOT_SUFFICIENT_BUFFER|The buffer is too small, with *actualIndexCount* set to the needed size. The *actualIndexCount* will always be <= [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount).|
+|E_NOT_SUFFICIENT_BUFFER|The buffer is too small, with *actualIndexCount* set to the needed size. The *actualIndexCount* will always be <= [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md).|
 
 ## -remarks
 

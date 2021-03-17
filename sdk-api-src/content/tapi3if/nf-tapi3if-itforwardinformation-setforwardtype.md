@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITForwardInformation.SetForwardType
 title: ITForwardInformation::SetForwardType (tapi3if.h)
 description: The SetForwardType method sets the forwarding mode and destination by caller address.
+helpviewer_keywords: ["ITForwardInformation interface [TAPI 2.2]","SetForwardType method","ITForwardInformation.SetForwardType","ITForwardInformation::SetForwardType","SetForwardType","SetForwardType method [TAPI 2.2]","SetForwardType method [TAPI 2.2]","ITForwardInformation interface","_tapi3_itforwardinformation_setforwardtype","tapi3.itforwardinformation_setforwardtype","tapi3if/ITForwardInformation::SetForwardType"]
 old-location: tapi3\itforwardinformation_setforwardtype.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5f7972a8-c9b0-4033-8b00-a107a513ee66
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],SetForwardType method, ITForwardInformation.SetForwardType, ITForwardInformation::SetForwardType, SetForwardType, SetForwardType method [TAPI 2.2], SetForwardType method [TAPI 2.2],ITForwardInformation interface, _tapi3_itforwardinformation_setforwardtype, tapi3.itforwardinformation_setforwardtype, tapi3if/ITForwardInformation::SetForwardType
-f1_keywords:
-- tapi3if/ITForwardInformation.SetForwardType
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITForwardInformation.SetForwardType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITForwardInformation::SetForwardType
+ - tapi3if/ITForwardInformation::SetForwardType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITForwardInformation.SetForwardType
 ---
 
 # ITForwardInformation::SetForwardType
@@ -48,35 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetForwardType</b> method sets the forwarding mode and destination by caller address.
 
-
 ## -parameters
-
-
-
 
 ### -param ForwardType [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Line forward mode</a>.
-
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">Line forward mode</a>.
 
 ### -param pDestAddress [in]
 
 Pointer to <b>BSTR</b> representation of destination address for forwarding.
 
-
 ### -param pCallerAddress [in]
 
 Pointer to <b>BSTR</b> representation of caller address.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,45 +121,29 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> and <i>pCallerAddress</i> parameters. The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variables are no longer needed.
-
-
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> and <i>pCallerAddress</i> parameters. The application must use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variables are no longer needed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPV2SETSERVICEEX
 title: LPNSPV2SETSERVICEEX (ws2spi.h)
 description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
+helpviewer_keywords: ["LPNSPV2SETSERVICEEX","NSPv2SetServiceEx","NSPv2SetServiceEx function [Winsock]","RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","winsock.nspv2setserviceex","ws2spi/NSPv2SetServiceEx"]
 old-location: winsock\nspv2setserviceex.htm
 tech.root: WinSock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, winsock.nspv2setserviceex, ws2spi/NSPv2SetServiceEx
-f1_keywords:
-- ws2spi/NSPv2SetServiceEx
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPv2SetServiceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPV2SETSERVICEEX
+ - ws2spi/LPNSPV2SETSERVICEEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPv2SetServiceEx
 ---
 
 # LPNSPV2SETSERVICEEX callback function
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPv2SetServiceEx** function registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hAsyncCall [in]
 
 A handle returned from the previous call to 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> used for asynchronous calls.
 
-
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the specific namespace provider in which the name or service is registered.
 
-
 ### -param lpqsRegInfo [in]
 
 The property information to be updated upon registration.
-
 
 ### -param essOperation [in]
 
@@ -120,8 +114,6 @@ Delete the service from dynamic name and persistent spaces. For services represe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwControlFlags [in]
 
@@ -150,17 +142,12 @@ When this value is absent, service addresses are managed as a group. A register 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpvClientSessionArg [in]
 
-A pointer to the client session. 
-
+A pointer to the client session.
 
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (that is, 1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -228,14 +215,8 @@ Service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **NSPv2SetServiceEx** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -403,12 +384,7 @@ This member is optional, dependent on the requirements of the NSPv2 service prov
 <a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant **IPROTOCOL_ANY**, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
@@ -447,7 +423,4 @@ This member is optional, dependent on the requirements of the NSPv2 service prov
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

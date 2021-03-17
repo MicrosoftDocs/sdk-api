@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetRemoteTransportAddress
 title: IWSDiscoveredService::GetRemoteTransportAddress (wsddisco.h)
 description: Retrieves the string representation of the remote transport (IP) address.
+helpviewer_keywords: ["GetRemoteTransportAddress","GetRemoteTransportAddress method","GetRemoteTransportAddress method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetRemoteTransportAddress method","IWSDiscoveredService.GetRemoteTransportAddress","IWSDiscoveredService::GetRemoteTransportAddress","ncd.iwsdiscoveredservice_getremotetransportaddress","wsddisco/IWSDiscoveredService::GetRemoteTransportAddress"]
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
 ms.date: 12/05/2018
 ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRemoteTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetRemoteTransportAddress method, IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetRemoteTransportAddress
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetRemoteTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetRemoteTransportAddress
+ - wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetRemoteTransportAddress
 ---
 
 # IWSDiscoveredService::GetRemoteTransportAddress
@@ -48,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the string representation of the remote transport (IP) address.
 
-
-
 ## -parameters
-
-
-
 
 ### -param ppszRemoteTransportAddress [out]
 
 String representation of the remote transport (IP) address. Is <b>NULL</b> if not available.
 Do not deallocate the output string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -103,29 +96,13 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-The string returned by this method may contain an IPv4 or unbracketed IPv6 address such as "fe80::1".  It may also contain a bracketed IPv6 address that includes the port such as "[fe80::1]:1234".  The caller should parse the string carefully to account for both possibilities. 
-
-
-
+The string returned by this method may contain an IPv4 or unbracketed IPv6 address such as "fe80::1".  It may also contain a bracketed IPv6 address that includes the port such as "[fe80::1]:1234".  The caller should parse the string carefully to account for both possibilities.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

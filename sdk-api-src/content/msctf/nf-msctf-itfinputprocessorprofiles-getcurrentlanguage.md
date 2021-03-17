@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.GetCurrentLanguage
 title: ITfInputProcessorProfiles::GetCurrentLanguage (msctf.h)
 description: ITfInputProcessorProfiles::GetCurrentLanguage method
+helpviewer_keywords: ["GetCurrentLanguage","GetCurrentLanguage method [Text Services Framework]","GetCurrentLanguage method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetCurrentLanguage method","ITfInputProcessorProfiles.GetCurrentLanguage","ITfInputProcessorProfiles::GetCurrentLanguage","_tsf_itfinputprocessorprofiles_getcurrentlanguage_ref","msctf/ITfInputProcessorProfiles::GetCurrentLanguage","tsf.itfinputprocessorprofiles_getcurrentlanguage"]
 old-location: tsf\itfinputprocessorprofiles_getcurrentlanguage.htm
 tech.root: TSF
 ms.assetid: c770872f-752f-4c34-8d0d-cdf3d5c7d6b4
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLanguage, GetCurrentLanguage method [Text Services Framework], GetCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetCurrentLanguage method, ITfInputProcessorProfiles.GetCurrentLanguage, ITfInputProcessorProfiles::GetCurrentLanguage, _tsf_itfinputprocessorprofiles_getcurrentlanguage_ref, msctf/ITfInputProcessorProfiles::GetCurrentLanguage, tsf.itfinputprocessorprofiles_getcurrentlanguage
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.GetCurrentLanguage
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.GetCurrentLanguage
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::GetCurrentLanguage
+ - msctf/ITfInputProcessorProfiles::GetCurrentLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.GetCurrentLanguage
 ---
 
 # ITfInputProcessorProfiles::GetCurrentLanguage
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the identifier of the currently active language.
 
 ## -parameters
-
-
-
 
 ### -param plangid [out]
 
 Pointer to a <b>LANGID</b> value that receives the language identifier of the currently active language.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

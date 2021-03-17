@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreAnchor.GetStart
 title: ITextStoreAnchor::GetStart (textstor.h)
 description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
+helpviewer_keywords: ["GetStart","GetStart method [Text Services Framework]","GetStart method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","GetStart method","ITextStoreAnchor.GetStart","ITextStoreAnchor::GetStart","textstor/ITextStoreAnchor::GetStart","tsf.itextstoreanchor_getstart"]
 old-location: tsf\itextstoreanchor_getstart.htm
 tech.root: TSF
 ms.assetid: 431ca3b0-920b-4a4e-b475-32175555a789
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Text Services Framework], GetStart method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStart method, ITextStoreAnchor.GetStart, ITextStoreAnchor::GetStart, textstor/ITextStoreAnchor::GetStart, tsf.itextstoreanchor_getstart
-f1_keywords:
-- textstor/ITextStoreAnchor.GetStart
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.GetStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::GetStart
+ - textstor/ITextStoreAnchor::GetStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.GetStart
 ---
 
 # ITextStoreAnchor::GetStart
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::GetStart</b> method returns an anchor positioned at the start of the text stream.
 
-
 ## -parameters
-
-
-
 
 ### -param ppaStart [out]
 
 Pointer to an anchor object located at the start of the text stream.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,4 @@ The attempt to instantiate an anchor at the start of the text stream failed.
 </td>
 </tr>
 </table>
- 
-
-
 

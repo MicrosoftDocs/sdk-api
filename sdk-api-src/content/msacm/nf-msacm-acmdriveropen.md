@@ -2,15 +2,12 @@
 UID: NF:msacm.acmDriverOpen
 title: acmDriverOpen function (msacm.h)
 description: The acmDriverOpen function opens the specified ACM driver and returns a driver instance handle that can be used to communicate with the driver.
+helpviewer_keywords: ["_win32_acmDriverOpen","acmDriverOpen","acmDriverOpen function [Windows Multimedia]","msacm/acmDriverOpen","multimedia.acmdriveropen"]
 old-location: multimedia\acmdriveropen.htm
 tech.root: Multimedia
 ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverOpen, acmDriverOpen, acmDriverOpen function [Windows Multimedia], msacm/acmDriverOpen, multimedia.acmdriveropen
-f1_keywords:
-- msacm/acmDriverOpen
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmDriverOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmDriverOpen
+ - msacm/acmDriverOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmDriverOpen
 ---
 
 # acmDriverOpen function
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmDriverOpen</b> function opens the specified ACM driver and returns a driver instance handle that can be used to communicate with the driver.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phad
 
 Pointer to a buffer that receives the new driver instance handle that can be used to communicate with the driver.
 
-
 ### -param hadid
 
 Handle to the driver identifier of an installed and enabled ACM driver.
-
 
 ### -param fdwOpen
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -143,22 +132,11 @@ The driver is not enabled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

@@ -2,15 +2,12 @@
 UID: NF:ocidl.IFont.IsEqual
 title: IFont::IsEqual (ocidl.h)
 description: Compares this font object to another for equivalence.
+helpviewer_keywords: ["IFont interface [COM]","IsEqual method","IFont.IsEqual","IFont::IsEqual","IsEqual","IsEqual method [COM]","IsEqual method [COM]","IFont interface","_ctrl_ifont_isequal","com.ifont_isequal","ocidl/IFont::IsEqual"]
 old-location: com\ifont_isequal.htm
 tech.root: com
 ms.assetid: becef75d-8342-4b4f-82e2-f1cca4eb619e
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],IsEqual method, IFont.IsEqual, IFont::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IFont interface, _ctrl_ifont_isequal, com.ifont_isequal, ocidl/IFont::IsEqual
-f1_keywords:
-- ocidl/IFont.IsEqual
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFont.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFont::IsEqual
+ - ocidl/IFont::IsEqual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFont.IsEqual
 ---
 
 # IFont::IsEqual
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares this font object to another for equivalence.
-
 
 ## -parameters
 
-
-
-
 ### -param pFontOther [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
-     
-
+A pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> interface on the font object to be compared to this font. The reference count of the object referred to by this pointer is not affected by the comparison operation.
 
 ## -returns
-
-
 
 The method supports the standard return value <b>E_UNEXPECTED</b>, as well as the 
       following values.
@@ -110,18 +103,7 @@ The address in the <i>pFontOther</i> parameter is not valid. For example, it may
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>

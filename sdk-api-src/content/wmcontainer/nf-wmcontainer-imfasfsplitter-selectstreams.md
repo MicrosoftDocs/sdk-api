@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFSplitter.SelectStreams
 title: IMFASFSplitter::SelectStreams (wmcontainer.h)
 description: Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
+helpviewer_keywords: ["IMFASFSplitter interface [Media Foundation]","SelectStreams method","IMFASFSplitter.SelectStreams","IMFASFSplitter::SelectStreams","SelectStreams","SelectStreams method [Media Foundation]","SelectStreams method [Media Foundation]","IMFASFSplitter interface","a241f8a4-7609-4a6c-825f-a7b882bfc25f","mf.imfasfsplitter_selectstreams","wmcontainer/IMFASFSplitter::SelectStreams"]
 old-location: mf\imfasfsplitter_selectstreams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a241f8a4-7609-4a6c-825f-a7b882bfc25f
 ms.date: 12/05/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],SelectStreams method, IMFASFSplitter.SelectStreams, IMFASFSplitter::SelectStreams, SelectStreams, SelectStreams method [Media Foundation], SelectStreams method [Media Foundation],IMFASFSplitter interface, a241f8a4-7609-4a6c-825f-a7b882bfc25f, mf.imfasfsplitter_selectstreams, wmcontainer/IMFASFSplitter::SelectStreams
-f1_keywords:
-- wmcontainer/IMFASFSplitter.SelectStreams
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter.SelectStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter::SelectStreams
+ - wmcontainer/IMFASFSplitter::SelectStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter.SelectStreams
 ---
 
 # IMFASFSplitter::SelectStreams
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the streams to be parsed by the Advanced Systems Format (ASF) splitter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwStreamNumbers [in]
 
 An array of variables containing the list of stream numbers to select.
 
-
 ### -param wNumStreams [in]
 
 The number of valid elements in the stream number array.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -116,35 +106,19 @@ Invalid stream number was passed in the array.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method supersedes any previous stream selections; only the streams specified in the <i>pwStreamNumbers</i> array will be selected.
 
 By default, no streams are selected by the splitter.
 
-You can obtain a list of the currently selected streams by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getselectedstreams">IMFASFSplitter::GetSelectedStreams</a> method.
-
-
-
+You can obtain a list of the currently selected streams by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getselectedstreams">IMFASFSplitter::GetSelectedStreams</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>

@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerIdentityGetDefault
 title: PeerIdentityGetDefault function (p2p.h)
 description: The PeerIdentityGetDefault function retrieves the default peer name set for the current user.
+helpviewer_keywords: ["PeerIdentityGetDefault","PeerIdentityGetDefault function [Peer Networking]","p2p.peeridentitygetdefault","p2p/PeerIdentityGetDefault"]
 old-location: p2p\peeridentitygetdefault.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 195052a2-eaae-4b8c-bc13-0667ce50a967
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
-f1_keywords:
-- p2p/PeerIdentityGetDefault
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerIdentityGetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerIdentityGetDefault
+ - p2p/PeerIdentityGetDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerIdentityGetDefault
 ---
 
 # PeerIdentityGetDefault function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerIdentityGetDefault</b> function retrieves the default peer name set for the current user.
 
-
 ## -parameters
-
-
-
 
 ### -param ppwzPeerName [out]
 
 Pointer to the address of a zero-terminated Unicode string that contains the default name of the current user.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -107,7 +101,4 @@ A peer identity that matches the specified name cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
 

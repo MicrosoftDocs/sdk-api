@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerIdentitySetFriendlyName
 title: PeerIdentitySetFriendlyName function (p2p.h)
 description: The PeerIdentitySetFriendlyName function modifies the friendly name for a specified peer identity. The friendly name is the human-readable name.
+helpviewer_keywords: ["PeerIdentitySetFriendlyName","PeerIdentitySetFriendlyName function [Peer Networking]","p2p.peeridentitysetfriendlyname","p2p/PeerIdentitySetFriendlyName"]
 old-location: p2p\peeridentitysetfriendlyname.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 018e95b5-b817-44f8-909f-cc7c3edb84c8
 ms.date: 12/05/2018
 ms.keywords: PeerIdentitySetFriendlyName, PeerIdentitySetFriendlyName function [Peer Networking], p2p.peeridentitysetfriendlyname, p2p/PeerIdentitySetFriendlyName
-f1_keywords:
-- p2p/PeerIdentitySetFriendlyName
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerIdentitySetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerIdentitySetFriendlyName
+ - p2p/PeerIdentitySetFriendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerIdentitySetFriendlyName
 ---
 
 # PeerIdentitySetFriendlyName function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerIdentitySetFriendlyName</b> function modifies the  friendly name for a specified peer identity. The friendly name is the human-readable name.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzIdentity [in]
 
 Specifies a peer identity to modify.
 
-
 ### -param pwzFriendlyName [in]
 
 Specifies a new friendly name. Specify <b>NULL</b> or an empty string to reset a friendly name to the default value, which is the Unicode version of the peer name.
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -123,18 +116,7 @@ A peer identity that matches a specified name cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetfriendlyname">PeerIdentityGetFriendlyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetfriendlyname">PeerIdentityGetFriendlyName</a>

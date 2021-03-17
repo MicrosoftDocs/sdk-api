@@ -2,15 +2,12 @@
 UID: NF:winstring.WindowsSubstring
 title: WindowsSubstring function (winstring.h)
 description: Retrieves a substring from the specified string. The substring starts at the specified character position.
+helpviewer_keywords: ["WindowsSubstring","WindowsSubstring function [Windows Runtime]","winrt.windowssubstring","winstring/WindowsSubstring"]
 old-location: winrt\windowssubstring.htm
 tech.root: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
-f1_keywords:
-- winstring/WindowsSubstring
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -28,62 +25,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- winstring.h
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsSubstring
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsSubstring
+ - winstring/WindowsSubstring
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - winstring.h
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsSubstring
 ---
-
-# WindowsSubstring function
-
 
 ## -description
 
-
 Retrieves a substring from the specified string. The substring starts at the specified character position.
-
 
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The original string.
 
+### -param startIndex
 
-### -param startIndex [in]
-
-Type: <b>UINT32</b>
+Type: [in] <b>UINT32</b>
 
 The zero-based starting character position of a substring in this instance.
 
+### -param newString
 
-### -param newString [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: [out] <b>[**HSTRING**](/windows/win32/winrt/hstring)*</b>
 
 A string that is equivalent to the substring that begins at <i>startIndex</i> in <i>string</i>, or <b>NULL</b> if <i>startIndex</i> is equal to the length of <i>string</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -139,27 +128,12 @@ Failed to allocate the new substring.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each call to the <b>WindowsSubstring</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
-
-
-
+Each call to the <b>WindowsSubstring</b> function must be matched with a corresponding call to <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
- 
-
- 
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
 

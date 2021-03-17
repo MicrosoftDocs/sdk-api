@@ -2,15 +2,12 @@
 UID: NF:scserver.CSecureChannelServer.DecryptParam
 title: CSecureChannelServer::DecryptParam (scserver.h)
 description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","DecryptParam method","CSecureChannelServer.DecryptParam","CSecureChannelServer::DecryptParam","CSecureChannelServerDecryptParam","DecryptParam","DecryptParam method [windows Media Device Manager]","DecryptParam method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::DecryptParam","wmdm.csecurechannelserver_decryptparam"]
 old-location: wmdm\csecurechannelserver_decryptparam.htm
 tech.root: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
-f1_keywords:
-- scserver/CSecureChannelServer.DecryptParam
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.DecryptParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::DecryptParam
+ - scserver/CSecureChannelServer::DecryptParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.DecryptParam
 ---
 
 # CSecureChannelServer::DecryptParam
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <b>DecryptParam</b> uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbData [in, out]
 
 Pointer to the first byte of a data buffer containing the encrypted parameter that is to be decrypted.
 
-
 ### -param dwDataLen [in]
 
 Pointer to a <b>DWORD</b> specifying the length of the buffer to which <i>pbData</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -82,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -104,21 +94,15 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
+Components should copy the data to a temporary buffer before calling <b>DecryptParam</b> and then decrypt the temporary buffer. This method only needs to be called for encrypted parameters. See <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
 
 
 #### Examples
 
-The following code shows a service provider's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
+The following code shows a service provider's implementation of the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a> method, which requires a service provider to decrypt data sent to it.
 
 
 ```cpp
@@ -188,29 +172,18 @@ Error:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
+<a href="/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
 <a href="/previous-versions/ms868509(v=msdn.10)">CSecureChannelServer::EncryptParam</a>
- 
-
- 
-

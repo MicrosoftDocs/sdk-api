@@ -2,6 +2,8 @@
 UID: NS:wlanapi._WLAN_DEVICE_SERVICE_GUID_LIST
 title: WLAN_DEVICE_SERVICE_GUID_LIST
 description: Contains an array of device service GUIDs.
+tech.root: nwifi
+helpviewer_keywords: ["_WLAN_DEVICE_SERVICE_GUID_LIST"]
 ms.date: 12/18/2019
 targetos: Windows
 req.construct-type: structure
@@ -29,7 +31,11 @@ api_name:
  - _WLAN_DEVICE_SERVICE_GUID_LIST
  - WLAN_DEVICE_SERVICE_GUID_LIST
 f1_keywords:
+ - _WLAN_DEVICE_SERVICE_GUID_LIST
  - wlanapi/_WLAN_DEVICE_SERVICE_GUID_LIST
+ - PWLAN_DEVICE_SERVICE_GUID_LIST
+ - wlanapi/PWLAN_DEVICE_SERVICE_GUID_LIST
+ - WLAN_DEVICE_SERVICE_GUID_LIST
  - wlanapi/WLAN_DEVICE_SERVICE_GUID_LIST
 dev_langs:
  - c++
@@ -55,7 +61,7 @@ The index of the current item. The index of the first item is 0. *dwIndex* must 
 
 ### -field DeviceService
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)\[1\]**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)\[1\]**
 
 A pointer to an array containing **GUID**s; each corresponds to a WLAN device service that the driver supports.
 

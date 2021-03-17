@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_KBArticleIDs
 title: IUpdate::get_KBArticleIDs (wuapi.h)
 description: Gets a collection of Microsoft Knowledge Base article IDs that are associated with the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","KBArticleIDs property","IUpdate.KBArticleIDs","IUpdate.get_KBArticleIDs","IUpdate::KBArticleIDs","IUpdate::get_KBArticleIDs","KBArticleIDs property [Windows Update Agent]","KBArticleIDs property [Windows Update Agent]","IUpdate interface","get_KBArticleIDs","wua.iupdate_kbarticleids","wuapi/IUpdate::KBArticleIDs","wuapi/IUpdate::get_KBArticleIDs"]
 old-location: wua\iupdate_kbarticleids.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 3f30f356-6534-40b7-b3e5-18ab2980a610
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],KBArticleIDs property, IUpdate.KBArticleIDs, IUpdate.get_KBArticleIDs, IUpdate::KBArticleIDs, IUpdate::get_KBArticleIDs, KBArticleIDs property [Windows Update Agent], KBArticleIDs property [Windows Update Agent],IUpdate interface, get_KBArticleIDs, wua.iupdate_kbarticleids, wuapi/IUpdate::KBArticleIDs, wuapi/IUpdate::get_KBArticleIDs
-f1_keywords:
-- wuapi/IUpdate.KBArticleIDs
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.KBArticleIDs
-- IUpdate.get_KBArticleIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_KBArticleIDs
+ - wuapi/IUpdate::get_KBArticleIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.KBArticleIDs
+ - IUpdate.get_KBArticleIDs
 ---
 
 # IUpdate::get_KBArticleIDs
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a collection of Microsoft Knowledge Base article IDs that are associated with the update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

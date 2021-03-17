@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContextView.GetScreenExt
 title: ITfContextView::GetScreenExt (msctf.h)
 description: The ITfContextView::GetScreenExt method returns the bounding box, in screen coordinates, of the document display.
+helpviewer_keywords: ["GetScreenExt","GetScreenExt method [Text Services Framework]","GetScreenExt method [Text Services Framework]","ITfContextView interface","ITfContextView interface [Text Services Framework]","GetScreenExt method","ITfContextView.GetScreenExt","ITfContextView::GetScreenExt","_tsf_itfcontextview_getscreenext_ref","msctf/ITfContextView::GetScreenExt","tsf.itfcontextview_getscreenext"]
 old-location: tsf\itfcontextview_getscreenext.htm
 tech.root: TSF
 ms.assetid: 86dde611-4c46-418c-aa89-728081a28943
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetScreenExt method, ITfContextView.GetScreenExt, ITfContextView::GetScreenExt, _tsf_itfcontextview_getscreenext_ref, msctf/ITfContextView::GetScreenExt, tsf.itfcontextview_getscreenext
-f1_keywords:
-- msctf/ITfContextView.GetScreenExt
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextView.GetScreenExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextView::GetScreenExt
+ - msctf/ITfContextView::GetScreenExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextView.GetScreenExt
 ---
 
 # ITfContextView::GetScreenExt
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextView::GetScreenExt</b> method returns the bounding box, in screen coordinates, of the document display.
 
-
 ## -parameters
-
-
-
 
 ### -param prc [out]
 
 Receives the bounding box, in screen coordinates, of the display surface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -85,42 +79,26 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>prc</i> parameter is cleared to {0,0,0,0} if the document is not currently displayed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getscreenext">ITextStoreACP::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getscreenext">ITfContextOwner::GetScreenExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getscreenext">ITfContextOwner::GetScreenExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
-

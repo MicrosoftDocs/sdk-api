@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.AccessNtmsLibraryDoor
 title: AccessNtmsLibraryDoor function (ntmsapi.h)
 description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
+helpviewer_keywords: ["AccessNtmsLibraryDoor","AccessNtmsLibraryDoor function [Files]","NTMS_INVENTORY_DEFAULT","NTMS_INVENTORY_FAST","NTMS_INVENTORY_NONE","NTMS_INVENTORY_OMID","_zaw_accessntmslibrarydoor","base.accessntmslibrarydoor","fs.accessntmslibrarydoor","ntmsapi/AccessNtmsLibraryDoor"]
 old-location: fs\accessntmslibrarydoor.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
 ms.date: 12/05/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
-f1_keywords:
-- ntmsapi/AccessNtmsLibraryDoor
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- AccessNtmsLibraryDoor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AccessNtmsLibraryDoor
+ - ntmsapi/AccessNtmsLibraryDoor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - AccessNtmsLibraryDoor
 ---
 
 # AccessNtmsLibraryDoor function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>AccessNtmsLibraryDoor</b> function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpLibraryId [in]
 
 Unique identifier of the library object. This library must support door access.
-
 
 ### -param dwAction [in]
 
@@ -119,17 +114,13 @@ If the library has a bar-code reader installed, this flag causes bar-code invent
 </td>
 <td width="60%">
 Use the <b>InventoryMethod</b> specified in the library object (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a>).
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_libraryinformation">NTMS_LIBRARYINFORMATION</a>).
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -249,35 +240,19 @@ Door access is queued.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some libraries provide no means for RSM to programmatically lock and unlock their doors. The behavior of this function with these libraries is identical to its behavior with libraries that RSM can unlock and lock.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmsmedia">EjectNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmsmedia">InjectNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmsmedia">InjectNtmsMedia</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

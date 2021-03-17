@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscMaster2.get_Item
 title: IDiscMaster2::get_Item (imapi2.h)
 description: Retrieves the unique identifier of the specified disc device.
+helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_Item method","IDiscMaster2.get_Item","IDiscMaster2::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_item","imapi2/IDiscMaster2::get_Item"]
 old-location: imapi\idiscmaster2_get_item.htm
 tech.root: imapi
 ms.assetid: e909acb9-850b-404d-a2f7-efb37faf3506
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Item method, IDiscMaster2.get_Item, IDiscMaster2::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_item, imapi2/IDiscMaster2::get_Item
-f1_keywords:
-- imapi2/IDiscMaster2.get_Item
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscMaster2.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscMaster2::get_Item
+ - imapi2/IDiscMaster2::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscMaster2.get_Item
 ---
 
 # IDiscMaster2::get_Item
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the unique identifier of the specified disc device.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
@@ -63,15 +60,11 @@ Zero-based index of the device whose unique identifier you want to retrieve.
 
 The index value can change during PNP activity when devices are added or removed from the computer,  or across boot sessions.
 
-
 ### -param value [out]
 
-String that contains the unique identifier of the disc device associated with the specified index. 
-
+String that contains the unique identifier of the disc device associated with the specified index.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -120,19 +113,12 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To enumerate all identifiers, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
 
-
-To enumerate all identifiers, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
-
-    The following sample demonstrates how to re-enumerate optical 
-    drives in order to accurately account for drives added or removed  after the initial creation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> object. This is accomplished via the <b>IDiscMaster2::get_Item</b> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a> methods:
+The following sample demonstrates how to re-enumerate optical drives in order to accurately account for drives added or removed  after the initial creation of the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> object. This is accomplished via the <b>IDiscMaster2::get_Item</b> and <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a> methods:
 
 
 ```cpp
@@ -208,25 +194,14 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>

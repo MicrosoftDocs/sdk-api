@@ -2,15 +2,12 @@
 UID: NF:mstask.ITask.GetMaxRunTime
 title: ITask::GetMaxRunTime (mstask.h)
 description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.
+helpviewer_keywords: ["GetMaxRunTime","GetMaxRunTime method [Task Scheduler]","GetMaxRunTime method [Task Scheduler]","ITask interface","ITask interface [Task Scheduler]","GetMaxRunTime method","ITask.GetMaxRunTime","ITask::GetMaxRunTime","_msb_itask_getmaxruntime","mstask/ITask::GetMaxRunTime","taskschd.itask_getmaxruntime"]
 old-location: taskschd\itask_getmaxruntime.htm
 tech.root: taskschd
 ms.assetid: a9f27929-d304-4696-bb36-0c0a34c71388
 ms.date: 12/05/2018
 ms.keywords: GetMaxRunTime, GetMaxRunTime method [Task Scheduler], GetMaxRunTime method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetMaxRunTime method, ITask.GetMaxRunTime, ITask::GetMaxRunTime, _msb_itask_getmaxruntime, mstask/ITask::GetMaxRunTime, taskschd.itask_getmaxruntime
-f1_keywords:
-- mstask/ITask.GetMaxRunTime
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITask.GetMaxRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITask::GetMaxRunTime
+ - mstask/ITask::GetMaxRunTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITask.GetMaxRunTime
 ---
 
 # ITask::GetMaxRunTime
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-This method retrieves the maximum length of time, in milliseconds, the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a> can run before terminating.
-
+This method retrieves the maximum length of time, in milliseconds, the <a href="/windows/desktop/TaskSchd/t">task</a> can run before terminating.
 
 ## -parameters
-
-
-
 
 ### -param pdwMaxRunTimeMS [out]
 
@@ -68,10 +65,7 @@ A pointer to a <b>DWORD</b> that contains the maximum run time of the current ta
 
 If the maximum run time is reached during the execution of a task, the Task Scheduler first sends a WM_CLOSE message to the associated application. If the application does not  exit within three minutes, <b>TerminateProcess</b> is run.
 
-
 ## -returns
-
-
 
 The 
 <b>GetMaxRunTime</b> method returns one of the following values.
@@ -115,22 +109,11 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setmaxruntime">SetMaxRunTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-setmaxruntime">SetMaxRunTime</a>

@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITAddress2.DeviceSpecific
 title: ITAddress2::DeviceSpecific (tapi3if.h)
 description: The DeviceSpecific method enables service providers to provide access to features not offered by other TAPI functions.
+helpviewer_keywords: ["DeviceSpecific","DeviceSpecific method [TAPI 2.2]","DeviceSpecific method [TAPI 2.2]","ITAddress2 interface","ITAddress2 interface [TAPI 2.2]","DeviceSpecific method","ITAddress2.DeviceSpecific","ITAddress2::DeviceSpecific","_tapi3_itaddress2_devicespecific","tapi3.itaddress2_devicespecific","tapi3if/ITAddress2::DeviceSpecific"]
 old-location: tapi3\itaddress2_devicespecific.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d3b9e04d-ec20-4e30-847f-eb77f426f0f3
 ms.date: 12/05/2018
 ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],DeviceSpecific method, ITAddress2.DeviceSpecific, ITAddress2::DeviceSpecific, _tapi3_itaddress2_devicespecific, tapi3.itaddress2_devicespecific, tapi3if/ITAddress2::DeviceSpecific
-f1_keywords:
-- tapi3if/ITAddress2.DeviceSpecific
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddress2.DeviceSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddress2::DeviceSpecific
+ - tapi3if/ITAddress2::DeviceSpecific
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddress2.DeviceSpecific
 ---
 
 # ITAddress2::DeviceSpecific
@@ -48,38 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeviceSpecific</b> method enables service providers to provide access to features not offered by other TAPI functions. The meaning of the extensions are device specific, and taking advantage of these extensions requires the application to be fully aware of them.
 
 This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a> method.
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a> method.
 
 ## -parameters
-
-
-
 
 ### -param pCall [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the call object.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the call object.
 
 ### -param pParams [in]
 
 Pointer to a memory area used to hold a parameter block. The format of this parameter block is device specific; TAPI passes its contents between the application and the service provider.
 
-
 ### -param dwSize [in]
 
 Size, in bytes, of the parameter block area.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,30 +114,19 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-negotiateextversion">NegotiateExtVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-negotiateextversion">NegotiateExtVersion</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>

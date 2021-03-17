@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPLibrary.get_type
 title: IWMPLibrary::get_type (wmp.h)
 description: The get_type method retrieves a value that indicates the library type.
+helpviewer_keywords: ["IWMPLibrary interface [Windows Media Player]","get_type method","IWMPLibrary.get_type","IWMPLibrary::get_type","IWMPLibraryget_type","get_type","get_type method [Windows Media Player]","get_type method [Windows Media Player]","IWMPLibrary interface","wmp.iwmplibrary_get_type","wmp/IWMPLibrary::get_type"]
 old-location: wmp\iwmplibrary_get_type.htm
 tech.root: WMP
 ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_type method, IWMPLibrary.get_type, IWMPLibrary::get_type, IWMPLibraryget_type, get_type, get_type method [Windows Media Player], get_type method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
-f1_keywords:
-- wmp/IWMPLibrary.get_type
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPLibrary.get_type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibrary::get_type
+ - wmp/IWMPLibrary::get_type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPLibrary.get_type
 ---
 
 # IWMPLibrary::get_type
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_type</b> method retrieves a value that indicates the library type.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwmplt [out]
 
 Pointer to a variable that receives a value from the <b>WMPLibraryType</b> enumeration that indicates the library type.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,35 +79,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name">IWMPLibrary::get_name</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_name">IWMPLibrary::get_name</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>

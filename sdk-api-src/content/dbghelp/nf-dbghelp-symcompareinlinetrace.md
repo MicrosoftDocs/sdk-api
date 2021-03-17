@@ -2,15 +2,12 @@
 UID: NF:dbghelp.SymCompareInlineTrace
 title: SymCompareInlineTrace function (dbghelp.h)
 description: Compares two inline traces.
+helpviewer_keywords: ["SymCompareInlineTrace","SymCompareInlineTrace function","base.symcompareinlinetrace","dbghelp/SymCompareInlineTrace"]
 old-location: base\symcompareinlinetrace.htm
 tech.root: Debug
 ms.assetid: 24daca16-834c-424a-8569-e448f515d76f
 ms.date: 12/05/2018
 ms.keywords: SymCompareInlineTrace, SymCompareInlineTrace function, base.symcompareinlinetrace, dbghelp/SymCompareInlineTrace
-f1_keywords:
-- dbghelp/SymCompareInlineTrace
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DbgHelp.dll
-api_name:
-- SymCompareInlineTrace
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymCompareInlineTrace
+ - dbghelp/SymCompareInlineTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DbgHelp.dll
+api_name:
+ - SymCompareInlineTrace
 ---
 
 # SymCompareInlineTrace function
@@ -48,49 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two inline traces.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param Address1 [in]
 
 The first address to be compared.
 
-
 ### -param InlineContext1 [in]
 
 The inline context for the first trace to be compared.
-
 
 ### -param RetAddress1 [in]
 
 The return address of the first trace to be compared.
 
-
 ### -param Address2 [in]
 
 The second address to be compared.
-
 
 ### -param RetAddress2 [in]
 
 The return address of the second trace to be compared.
 
-
 ## -returns
-
-
 
 Indicates the result of the comparison.
 
@@ -172,7 +161,3 @@ The inline contexts are different.
 </td>
 </tr>
 </table>
- 
-
-
-

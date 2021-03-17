@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.PreRestore
 title: IVssBackupComponents::PreRestore (vsbackup.h)
 description: The PreRestore method will cause VSS to generate a PreRestore event, signaling writers to prepare for an upcoming restore operation.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","PreRestore method","IVssBackupComponents.PreRestore","IVssBackupComponents::PreRestore","PreRestore","PreRestore method [VSS]","PreRestore method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_prerestore","base.ivssbackupcomponents_prerestore","vsbackup/IVssBackupComponents::PreRestore"]
 old-location: base\ivssbackupcomponents_prerestore.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PreRestore method, IVssBackupComponents.PreRestore, IVssBackupComponents::PreRestore, PreRestore, PreRestore method [VSS], PreRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_prerestore, base.ivssbackupcomponents_prerestore, vsbackup/IVssBackupComponents::PreRestore
-f1_keywords:
-- vsbackup/IVssBackupComponents.PreRestore
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.PreRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::PreRestore
+ - vsbackup/IVssBackupComponents::PreRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.PreRestore
 ---
 
 # IVssBackupComponents::PreRestore
@@ -49,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PreRestore</b> method will cause VSS to generate a 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
-
+<a href="/windows/desktop/VSS/vssgloss-p">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
 
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing status data for the signaled event.
-
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing status data for the signaled event.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -85,7 +79,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes returned in the <i>pHrResult</i> parameter.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes returned in the <i>pHrResult</i> parameter.
 
 </td>
 </tr>
@@ -130,49 +124,33 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer.
 
-Special consideration should be given to EFI systems when the requester has selected the Automated System Recovery (ASR) writer for restore.  If you are restoring to a disk that contains the EFI partition, and one of the following conditions exists, you must first clean the disk by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a> method:
+Special consideration should be given to EFI systems when the requester has selected the Automated System Recovery (ASR) writer for restore.  If you are restoring to a disk that contains the EFI partition, and one of the following conditions exists, you must first clean the disk by calling the <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a> method:
 
 <ul>
 <li>You are restoring to an EFI system disk whose partitioning has changed since the last ASR backup.</li>
 <li>You are restoring to a different physical drive than the one from which the backup was taken.</li>
 </ul>
-Failure to perform this disk-cleaning step may result in unexpected results during <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a>.
+Failure to perform this disk-cleaning step may result in unexpected results during <a href="/windows/desktop/VSS/vssgloss-p">PreRestore</a>.
 
-For more information about the ASR writer, see <a href="https://docs.microsoft.com/windows/desktop/VSS/in-box-vss-writers">In-Box VSS Writers</a>.
-
-
-
+For more information about the ASR writer, see <a href="/windows/desktop/VSS/in-box-vss-writers">In-Box VSS Writers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>

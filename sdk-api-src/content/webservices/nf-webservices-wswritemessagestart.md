@@ -2,15 +2,12 @@
 UID: NF:webservices.WsWriteMessageStart
 title: WsWriteMessageStart function (webservices.h)
 description: Write out all the headers of the message to the channel, and prepare to write the body elements.
+helpviewer_keywords: ["WsWriteMessageStart","WsWriteMessageStart function [Web Services for Windows]","webservices/WsWriteMessageStart","wsw.wswritemessagestart"]
 old-location: wsw\wswritemessagestart.htm
 tech.root: wsw
 ms.assetid: 43cc43a5-7853-4170-911d-e514ac722da5
 ms.date: 12/05/2018
 ms.keywords: WsWriteMessageStart, WsWriteMessageStart function [Web Services for Windows], webservices/WsWriteMessageStart, wsw.wswritemessagestart
-f1_keywords:
-- webservices/WsWriteMessageStart
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsWriteMessageStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsWriteMessageStart
+ - webservices/WsWriteMessageStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsWriteMessageStart
 ---
 
 # WsWriteMessageStart function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Write out all the headers of the message to the channel, and prepare to write the body elements.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to use to write the message.
-                
-
 
 ### -param message [in]
 
 The message to write.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -479,34 +466,24 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The start of the message, including the current set of headers that exist in the message, 
                 are written to the channel.
             
 
-This function is like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> but is used with channels.
+This function is like <a href="/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> but is used with channels.
             
 
-The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
+The message must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.  Upon success,
                 the message will have transitioned to <b>WS_MESSAGE_STATE_WRITING</b> state.
             
 
-To serialize an element of the message body, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
+To serialize an element of the message body, use <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
                 directly to the XML Writer of the message, first get the reader using
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
+                the <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_WRITER</a> property.
             
 
-If the channel output is streamed (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> must be called to actually transmit each part of the body.
-            
-
-
-
+If the channel output is streamed (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>), then
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsflushbody">WsFlushBody</a> must be called to actually transmit each part of the body.

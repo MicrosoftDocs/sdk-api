@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo3.AddCodecInfo
 title: IWMHeaderInfo3::AddCodecInfo (wmsdkidl.h)
 description: The AddCodecInfo method adds codec information to a file. When you copy a compressed stream from one file to another, use this method to include the information about the encoding codec in the file header.
+helpviewer_keywords: ["AddCodecInfo","AddCodecInfo method [windows Media Format]","AddCodecInfo method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo3 interface [windows Media Format]","AddCodecInfo method","IWMHeaderInfo3.AddCodecInfo","IWMHeaderInfo3::AddCodecInfo","IWMHeaderInfo3AddCodecInfo","wmformat.iwmheaderinfo3_addcodecinfo","wmsdkidl/IWMHeaderInfo3::AddCodecInfo"]
 old-location: wmformat\iwmheaderinfo3_addcodecinfo.htm
 tech.root: wmformat
 ms.assetid: 4c5bc019-e4bb-419b-91ce-779fd36d7b4c
 ms.date: 12/05/2018
 ms.keywords: AddCodecInfo, AddCodecInfo method [windows Media Format], AddCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddCodecInfo method, IWMHeaderInfo3.AddCodecInfo, IWMHeaderInfo3::AddCodecInfo, IWMHeaderInfo3AddCodecInfo, wmformat.iwmheaderinfo3_addcodecinfo, wmsdkidl/IWMHeaderInfo3::AddCodecInfo
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo3.AddCodecInfo
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMHeaderInfo3.AddCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo3::AddCodecInfo
+ - wmsdkidl/IWMHeaderInfo3::AddCodecInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMHeaderInfo3.AddCodecInfo
 ---
 
 # IWMHeaderInfo3::AddCodecInfo
@@ -51,46 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AddCodecInfo</b> method adds codec information to a file. When you copy a compressed stream from one file to another, use this method to include the information about the encoding codec in the file header.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszName [in]
 
 Pointer to a wide-character null-terminated string containing the name.
 
-
 ### -param pwszDescription [in]
 
 Pointer to a wide-character null-terminated string containing the description.
 
-
 ### -param codecType [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_codec_info_type">WMT_CODEC_INFO_TYPE</a> enumeration specifying the codec type.
-
+A value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_codec_info_type">WMT_CODEC_INFO_TYPE</a> enumeration specifying the codec type.
 
 ### -param cbCodecInfo [in]
 
 The size of the codec information, in bytes.
 
-
 ### -param pbCodecInfo [in]
 
 Pointer to an array of bytes that contains the codec information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,27 +98,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The parameters passed to this method should be obtained from the original file with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfo">IWMHeaderInfo2::GetCodecInfo</a>.
-
-
-
+The parameters passed to this method should be obtained from the original file with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfo">IWMHeaderInfo2::GetCodecInfo</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>

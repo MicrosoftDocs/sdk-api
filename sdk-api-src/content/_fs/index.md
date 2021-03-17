@@ -1,9 +1,10 @@
 ---
 UID: TP:fs
+title: Data Access and Storage
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Data Access and Storage
@@ -33,9 +34,8 @@ To develop Data Access and Storage, you need these headers:
  * [wow64apiset.h](../wow64apiset/index.md)
 
 For programming guidance for this technology, see:
-* [Removable Storage Manager](https://docs.microsoft.com/windows/desktop/data-access-and-storage)
-* [Common Log File System](https://docs.microsoft.com/windows/desktop/data-access-and-storage)
+* [Removable Storage Manager](/windows/desktop/data-access-and-storage)
+* [Common Log File System](/windows/desktop/data-access-and-storage)
 * [Local File Systems](/windows/desktop/fileio)
 * [Kernel Transaction Manager](/windows/desktop/ktm)
 * [Network Share Management](/windows/desktop/netshare)
-

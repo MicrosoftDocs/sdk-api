@@ -2,15 +2,12 @@
 UID: NF:ws2tcpip.getipv4sourcefilter
 title: getipv4sourcefilter function (ws2tcpip.h)
 description: Retrieves the multicast filter state for an IPv4 socket.
+helpviewer_keywords: ["getipv4sourcefilter","getipv4sourcefilter function [Winsock]","winsock.getipv4sourcefilter","ws2tcpip/getipv4sourcefilter"]
 old-location: winsock\getipv4sourcefilter.htm
 tech.root: WinSock
 ms.assetid: 17D35D24-C419-4787-AB93-E6B1B6B13807
 ms.date: 12/05/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
-f1_keywords:
-- ws2tcpip/getipv4sourcefilter
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getipv4sourcefilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getipv4sourcefilter
+ - ws2tcpip/getipv4sourcefilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getipv4sourcefilter
 ---
 
 # getipv4sourcefilter function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getipv4sourcefilter</b> inline function  retrieves the multicast filter state for an IPv4  socket.
 
-
 ## -parameters
-
-
-
 
 ### -param Socket [in]
 
 A descriptor that identifies a multicast socket.
-
 
 ### -param Interface [in]
 
@@ -71,25 +67,21 @@ This value is in network byte order. If this member specifies an IPv4 address of
 
 Any IP address in the 0.x.x.x block (first octet of 0) except IPv4 address 0.0.0.0 is treated as an interface index. An interface index is a 24-bit number, and the 0.0.0.0/8 IPv4 address block is not used (this range is reserved). 
 
-To use an interface index of 1 would be the same as an IP address of 0.0.0.1. 
-
+To use an interface index of 1 would be the same as an IP address of 0.0.0.1.
 
 ### -param Group [in]
 
 The IPv4 address of the multicast group.
 
-
 ### -param FilterMode [out]
 
 A pointer to a value to receive the multicast filter mode for multicast group address when the function returns.
-
 
 ### -param SourceCount [in, out]
 
 On input, a pointer to a value that indicates the maximum number of source addresses that will fit in the buffer pointed to by the <i>SourceList</i> parameter.
 
 On output, a pointer to a value that indicates the total number of source addresses associated with the multicast filter.
-
 
 ### -param SourceList [out]
 
@@ -98,14 +90,10 @@ A pointer to a buffer to receive the list of IP addresses associated with the mu
 If <i>SourceCount</i> is zero on input, a <b>NULL</b> pointer
    may be supplied.
 
-
-
 ## -returns
 
-
-
 On success,  <b>getipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -115,7 +103,7 @@ On success,  <b>getipv4sourcefilter</b> returns NO_ERROR (0). Any nonzero return
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +114,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -135,14 +123,8 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getipv4sourcefilter</b> inline function is used to retrieve the multicast filter state for an IPv4  socket.
@@ -167,32 +149,22 @@ This function is part of socket interface extensions for multicast source filter
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getsourcefilter">getsourcefilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getsourcefilter">getsourcefilter</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setipv4sourcefilter">setipv4sourcefilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setipv4sourcefilter">setipv4sourcefilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setsourcefilter">setsourcefilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setsourcefilter">setsourcefilter</a>

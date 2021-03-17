@@ -2,15 +2,12 @@
 UID: NF:amaudio.IAMDirectSound.ReleaseSecondaryBufferInterface
 title: IAMDirectSound::ReleaseSecondaryBufferInterface (amaudio.h)
 description: The ReleaseSecondaryBufferInterface method is not implemented.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseSecondaryBufferInterface method","IAMDirectSound.ReleaseSecondaryBufferInterface","IAMDirectSound::ReleaseSecondaryBufferInterface","IAMDirectSoundReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface","ReleaseSecondaryBufferInterface method [DirectShow]","ReleaseSecondaryBufferInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface","dshow.iamdirectsound_releasesecondarybufferinterface"]
 old-location: dshow\iamdirectsound_releasesecondarybufferinterface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface
-f1_keywords:
-- amaudio/IAMDirectSound.ReleaseSecondaryBufferInterface
-dev_langs:
-- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDirectSound.ReleaseSecondaryBufferInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDirectSound::ReleaseSecondaryBufferInterface
+ - amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDirectSound.ReleaseSecondaryBufferInterface
 ---
 
 # IAMDirectSound::ReleaseSecondaryBufferInterface
@@ -49,41 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ReleaseSecondaryBufferInterface</code> method is not implemented.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpdsb [in]
-
 
 ## -returns
 
-
-
 Returns E_NOTIMPL.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>

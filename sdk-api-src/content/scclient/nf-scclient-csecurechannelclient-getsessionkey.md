@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.GetSessionKey
 title: CSecureChannelClient::GetSessionKey (scclient.h)
 description: The GetSessionKey method retrieves the current session key. This method is not used by applications.
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","GetSessionKey method","CSecureChannelClient.GetSessionKey","CSecureChannelClient::GetSessionKey","CSecureChannelClientGetSessionKey","GetSessionKey","GetSessionKey method [windows Media Device Manager]","GetSessionKey method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::GetSessionKey","wmdm.csecurechannelclient_getsessionkey"]
 old-location: wmdm\csecurechannelclient_getsessionkey.htm
 tech.root: WMDM
 ms.assetid: b5963027-ef6e-44e0-a1ed-31ac82477002
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],GetSessionKey method, CSecureChannelClient.GetSessionKey, CSecureChannelClient::GetSessionKey, CSecureChannelClientGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::GetSessionKey, wmdm.csecurechannelclient_getsessionkey
-f1_keywords:
-- scclient/CSecureChannelClient.GetSessionKey
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.GetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::GetSessionKey
+ - scclient/CSecureChannelClient::GetSessionKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.GetSessionKey
 ---
 
 # CSecureChannelClient::GetSessionKey
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSessionKey</b> method retrieves the current session key. This method is not used by applications.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pbSPSessionKey [out]
 
-Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">EncryptParam</a> and <a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">DecryptParam</a> methods.
-
+Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="/previous-versions/bb231587(v=vs.85)">EncryptParam</a> and <a href="/previous-versions/bb231586(v=vs.85)">DecryptParam</a> methods.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -99,22 +90,11 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
 <a href="/previous-versions/ms868506(v=msdn.10)">CSecureChannelClient::SetSessionKey</a>
- 
-
- 
-

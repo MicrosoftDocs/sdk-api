@@ -2,15 +2,12 @@
 UID: NF:certcli.ICertConfig.GetField
 title: ICertConfig::GetField (certcli.h)
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
+helpviewer_keywords: ["Authority","CCertConfig object [Security]","GetField method","CommonName","Config","Country","Description","ExchangeCertificate","Flags","GetField","GetField method [Security]","GetField method [Security]","CCertConfig object","GetField method [Security]","ICertConfig interface","GetField method [Security]","ICertConfig2 interface","ICertConfig interface [Security]","GetField method","ICertConfig.GetField","ICertConfig2 interface [Security]","GetField method","ICertConfig2::GetField","ICertConfig::GetField","Locality","OrgUnit","Organization","SanitizedName","SanitizedShortName","Server","ShortName","SignatureCertificate","State","WebEnrollmentServers","_certsrv_icertconfig_getfield","certcli/ICertConfig2::GetField","certcli/ICertConfig::GetField","security.icertconfig2_getfield"]
 old-location: security\icertconfig2_getfield.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.date: 12/05/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
-f1_keywords:
-- certcli/ICertConfig2.GetField
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertConfig2.GetField
-- ICertConfig.GetField
-- CCertConfig.GetField
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertConfig::GetField
+ - certcli/ICertConfig::GetField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertConfig2.GetField
+ - ICertConfig.GetField
+ - CCertConfig.GetField
 ---
 
 # ICertConfig::GetField
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
-
+The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param strFieldName [in]
 
@@ -174,8 +171,8 @@ Organizational unit.
 </dl>
 </td>
 <td width="60%">
-CA name that is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> according to the rules described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
+CA name that is <a href="/windows/desktop/SecGloss/s-gly">sanitized</a> according to the rules described in 
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -186,7 +183,7 @@ CA name that is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-g
 </td>
 <td width="60%">
 CA name that is sanitized and shortened according to the rules described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -207,7 +204,7 @@ Reference computer name.
 </td>
 <td width="60%">
 SanitizedShortName, but with the '!xxx' sequences, as described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>, translated back into the original text.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>, translated back into the original text.
 
 </td>
 </tr>
@@ -217,7 +214,7 @@ SanitizedShortName, but with the '!xxx' sequences, as described in
 </dl>
 </td>
 <td width="60%">
-Name of the file that contains the CA certificate (also known as the CA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature certificate</a>); this may or may not be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
+Name of the file that contains the CA certificate (also known as the CA <a href="/windows/desktop/SecGloss/s-gly">signature certificate</a>); this may or may not be a <a href="/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
 </td>
 </tr>
@@ -244,32 +241,22 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pstrOut [out, retval]
 
-A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
-
+A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the data for the field.
 
-
-
-
 ## -remarks
-
-
 
 This method returns the field data for the specified field.
 
@@ -312,21 +299,10 @@ error:
         SysFreeString(bstrFieldValue);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>

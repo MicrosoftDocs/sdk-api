@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITDispatchMapper.QueryDispatchInterface
 title: ITDispatchMapper::QueryDispatchInterface (tapi3if.h)
 description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
+helpviewer_keywords: ["ITDispatchMapper interface [TAPI 2.2]","QueryDispatchInterface method","ITDispatchMapper.QueryDispatchInterface","ITDispatchMapper::QueryDispatchInterface","QueryDispatchInterface","QueryDispatchInterface method [TAPI 2.2]","QueryDispatchInterface method [TAPI 2.2]","ITDispatchMapper interface","_tapi3_itdispatchmapper_querydispatchinterface","tapi3.itdispatchmapper_querydispatchinterface","tapi3if/ITDispatchMapper::QueryDispatchInterface"]
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b
 ms.date: 12/05/2018
 ms.keywords: ITDispatchMapper interface [TAPI 2.2],QueryDispatchInterface method, ITDispatchMapper.QueryDispatchInterface, ITDispatchMapper::QueryDispatchInterface, QueryDispatchInterface, QueryDispatchInterface method [TAPI 2.2], QueryDispatchInterface method [TAPI 2.2],ITDispatchMapper interface, _tapi3_itdispatchmapper_querydispatchinterface, tapi3.itdispatchmapper_querydispatchinterface, tapi3if/ITDispatchMapper::QueryDispatchInterface
-f1_keywords:
-- tapi3if/ITDispatchMapper.QueryDispatchInterface
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITDispatchMapper.QueryDispatchInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDispatchMapper::QueryDispatchInterface
+ - tapi3if/ITDispatchMapper::QueryDispatchInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITDispatchMapper.QueryDispatchInterface
 ---
 
 # ITDispatchMapper::QueryDispatchInterface
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QueryDispatchInterface</b> method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
 
-
 ## -parameters
-
-
-
 
 ### -param pIID [in]
 
 Pointer to <b>BSTR</b> representation of GUID for needed interface.
 
-
 ### -param pInterfaceToMap [in]
 
 <b>IDispatch</b> pointer of starting interface.
-
 
 ### -param ppReturnedInterface [out]
 
 <b>IDispatch</b> pointer of interface corresponding the GUID contained in <i>pIID</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,31 +121,15 @@ The interface requested is not exposed or the object does not implement the <b>I
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pIID</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make sure the object is safe for scripting on the requested interface. If the object does not implement <b>IObjectSafety</b>, or if the object is not safe on this particular interface, the call will fail.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper">ITDispatchMapper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper">ITDispatchMapper</a>

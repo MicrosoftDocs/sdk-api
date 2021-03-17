@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfKeystrokeMgr.UnadviseKeyEventSink
 title: ITfKeystrokeMgr::UnadviseKeyEventSink (msctf.h)
 description: ITfKeystrokeMgr::UnadviseKeyEventSink method
+helpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","UnadviseKeyEventSink method","ITfKeystrokeMgr.UnadviseKeyEventSink","ITfKeystrokeMgr::UnadviseKeyEventSink","UnadviseKeyEventSink","UnadviseKeyEventSink method [Text Services Framework]","UnadviseKeyEventSink method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_unadvisekeyeventsink_ref","msctf/ITfKeystrokeMgr::UnadviseKeyEventSink","tsf.itfkeystrokemgr_unadvisekeyeventsink"]
 old-location: tsf\itfkeystrokemgr_unadvisekeyeventsink.htm
 tech.root: TSF
 ms.assetid: 72250972-0a0b-4e83-8603-0fb5adc9a2c9
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],UnadviseKeyEventSink method, ITfKeystrokeMgr.UnadviseKeyEventSink, ITfKeystrokeMgr::UnadviseKeyEventSink, UnadviseKeyEventSink, UnadviseKeyEventSink method [Text Services Framework], UnadviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_unadvisekeyeventsink_ref, msctf/ITfKeystrokeMgr::UnadviseKeyEventSink, tsf.itfkeystrokemgr_unadvisekeyeventsink
-f1_keywords:
-- msctf/ITfKeystrokeMgr.UnadviseKeyEventSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfKeystrokeMgr.UnadviseKeyEventSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeystrokeMgr::UnadviseKeyEventSink
+ - msctf/ITfKeystrokeMgr::UnadviseKeyEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfKeystrokeMgr.UnadviseKeyEventSink
 ---
 
 # ITfKeystrokeMgr::UnadviseKeyEventSink
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes a key event sink.
 
 ## -parameters
 
-
-
-
 ### -param tid [in]
 
-Identifier of the client that owns the key event sink. This value was passed when the advise sink was installed using <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
-
+Identifier of the client that owns the key event sink. This value was passed when the advise sink was installed using <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,23 +101,12 @@ The advise sink identified by <i>tid</i> was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
       </a>
- 
-
- 
-

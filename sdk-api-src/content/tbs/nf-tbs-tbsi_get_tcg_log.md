@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsi_Get_TCG_Log
 title: Tbsi_Get_TCG_Log function (tbs.h)
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
+helpviewer_keywords: ["Tbsi_Get_TCG_Log","Tbsi_Get_TCG_Log function [TBS]","tbs.tbsi_get_tcg_log","tbs/Tbsi_Get_TCG_Log"]
 old-location: tbs\tbsi_get_tcg_log.htm
 tech.root: TBS
 ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
-f1_keywords:
-- tbs/Tbsi_Get_TCG_Log
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsi_Get_TCG_Log
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsi_Get_TCG_Log
+ - tbs/Tbsi_Get_TCG_Log
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsi_Get_TCG_Log
 ---
 
 # Tbsi_Get_TCG_Log function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
-
 
 ## -parameters
 
-
-
-
 ### -param hContext [in]
 
-The TBS handle of the context that is retrieving the log. You get this parameter from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
-
+The TBS handle of the context that is retrieving the log. You get this parameter from a previous call to the <a href="/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
 
 ### -param pOutputBuf [out]
 
 A pointer to a buffer to receive  and store the WBCL. This parameter may be NULL to estimate the required buffer when the location pointed to by <i>pcbOutput</i> is also 0 on input.
-
 
 ### -param pOutputBufLen [in, out]
 
@@ -73,12 +68,7 @@ A pointer to an unsigned long integer that, on input, specifies the size, in byt
 
 Calling the <b>Tbsi_Get_TCG_Log</b> function with a zero length buffer will return the size of the buffer required. <b>Windows Vista with SP1 and Windows Server 2008:  </b>This functionality is not available.
 
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -186,14 +176,8 @@ The Trusted Platform Module (TPM) Security Device is deactivated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Tbsi_Get_TCG_Log</b> function returns the TCG Event Log for the system, and the buffer size depends on the number of events.
 
@@ -340,7 +324,3 @@ void main()
 }
 
 ```
-
-
-
-

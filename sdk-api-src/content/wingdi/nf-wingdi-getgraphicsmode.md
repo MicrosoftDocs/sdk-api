@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetGraphicsMode
 title: GetGraphicsMode function (wingdi.h)
 description: The GetGraphicsMode function retrieves the current graphics mode for the specified device context.
+helpviewer_keywords: ["GetGraphicsMode","GetGraphicsMode function [Windows GDI]","_win32_GetGraphicsMode","gdi.getgraphicsmode","wingdi/GetGraphicsMode"]
 old-location: gdi\getgraphicsmode.htm
 tech.root: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.date: 12/05/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
-f1_keywords:
-- wingdi/GetGraphicsMode
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetGraphicsMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetGraphicsMode
+ - wingdi/GetGraphicsMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetGraphicsMode
 ---
 
 # GetGraphicsMode function
@@ -50,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetGraphicsMode</b> function retrieves the current graphics mode for the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the current graphics mode. It can be one of the following values.
 
@@ -88,33 +82,18 @@ If the function succeeds, the return value is the current graphics mode. It can 
 
 Otherwise, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
-An application can set the graphics mode for a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function.
-
-
-
+An application can set the graphics mode for a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>

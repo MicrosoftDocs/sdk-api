@@ -2,15 +2,12 @@
 UID: NC:batclass.BCLASS_QUERY_TAG_CALLBACK
 title: BCLASS_QUERY_TAG_CALLBACK (batclass.h)
 description: BatteryMiniQueryTag returns the current battery tag.
+helpviewer_keywords: ["BCLASS_QUERY_TAG_CALLBACK","BCLASS_QUERY_TAG_CALLBACK callback","BatteryMiniQueryTag","BatteryMiniQueryTag callback function [Battery Devices]","bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml","batclass/BatteryMiniQueryTag","battery.batteryminiquerytag"]
 old-location: battery\batteryminiquerytag.htm
 tech.root: battery
 ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
 ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
-f1_keywords:
-- batclass/BatteryMiniQueryTag
-dev_langs:
-- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Batclass.h
-api_name:
-- BatteryMiniQueryTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCLASS_QUERY_TAG_CALLBACK
+ - batclass/BCLASS_QUERY_TAG_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Batclass.h
+api_name:
+ - BatteryMiniQueryTag
 ---
 
 # BCLASS_QUERY_TAG_CALLBACK callback function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <i>BatteryMiniQueryTag</i> returns the current battery tag.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 A pointer to the context area allocated by the miniclass driver for the battery device.
 
-
 ### -param BatteryTag [out]
 
 A pointer to a caller-allocated variable in which the miniclass driver returns the battery tag.
 
-
 ## -returns
-
-
 
 <i>BatteryMiniQueryTag</i> returns one of the following:
 
@@ -101,20 +94,12 @@ No battery is present.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The battery class driver calls <i>BatteryMiniQueryTag</i> to get the value of the current battery tag. If a battery is present, <i>BatteryMiniQueryTag</i> should return the tag in <i>BatteryTag</i> and return STATUS_SUCCESS. 
 
 Each time a battery is inserted, the miniclass driver must increment the value of the tag, regardless of whether this is a new battery or the same battery that was previously present. 
 
-If no battery is present, or if the miniclass driver cannot determine whether a battery is present, it should return STATUS_NO_SUCH_DEVICE and set the value of the tag to BATTERY_TAG_INVALID. 
-
-
+If no battery is present, or if the miniclass driver cannot determine whether a battery is present, it should return STATUS_NO_SUCH_DEVICE and set the value of the tag to BATTERY_TAG_INVALID.
 

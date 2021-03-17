@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetFuncDesc
 title: ITypeInfo::GetFuncDesc (oaidl.h)
 description: Retrieves the FUNCDESC structure that contains information about a specified function.
+helpviewer_keywords: ["GetFuncDesc","GetFuncDesc method [Automation]","GetFuncDesc method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetFuncDesc method","ITypeInfo.GetFuncDesc","ITypeInfo::GetFuncDesc","_oa96_ITypeInfo_GetFuncDesc","automat.itypeinfo_getfuncdesc","oaidl/ITypeInfo::GetFuncDesc"]
 old-location: automat\itypeinfo_getfuncdesc.htm
 tech.root: automat
 ms.assetid: 1e3331a2-0156-4d8f-aa7f-e32cecd3eb74
 ms.date: 12/05/2018
 ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetFuncDesc method, ITypeInfo.GetFuncDesc, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
-f1_keywords:
-- oaidl/ITypeInfo.GetFuncDesc
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetFuncDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetFuncDesc
+ - oaidl/ITypeInfo::GetFuncDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetFuncDesc
 ---
 
 # ITypeInfo::GetFuncDesc
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function.
-
+Retrieves the <a href="/windows/desktop/api/oaidl/ns-oaidl-funcdesc">FUNCDESC</a> structure that contains information about a specified function.
 
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the function whose description is to be returned. The <i>index</i> should be in the range of 0 to 1 less than the number of functions in this type.
 
-
-
-
 ### -param ppFuncDesc [out]
 
 A FUNCDESC structure that describes the specified function.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,16 +108,10 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structure that describes the function with the specified <i>index</i>. The FUNCDESC structure should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ITypeInfo::ReleaseFuncDesc</a>. The number of functions in the type is one of the attributes contained in the TYPEATTR structure.
+The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structure that describes the function with the specified <i>index</i>. The FUNCDESC structure should be freed with <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasefuncdesc">ITypeInfo::ReleaseFuncDesc</a>. The number of functions in the type is one of the attributes contained in the TYPEATTR structure.
 
 
 
@@ -143,17 +128,6 @@ ptypeinfo->ReleaseFuncDesc(pfuncdesc);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

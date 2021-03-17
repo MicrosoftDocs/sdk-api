@@ -2,15 +2,12 @@
 UID: NS:richedit._gettextlengthex
 title: GETTEXTLENGTHEX (richedit.h)
 description: Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the wParam in the EM_GETTEXTLENGTHEX message.
+helpviewer_keywords: ["GETTEXTLENGTHEX","GETTEXTLENGTHEX structure [Windows Controls]","GTL_CLOSE","GTL_DEFAULT","GTL_NUMBYTES","GTL_NUMCHARS","GTL_PRECISE","GTL_USECRLF","_win32_GETTEXTLENGTHEX_str","_win32_GETTEXTLENGTHEX_str_cpp","controls.GETTEXTLENGTHEX","controls._win32_GETTEXTLENGTHEX_str","richedit/GETTEXTLENGTHEX"]
 old-location: controls\GETTEXTLENGTHEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextlengthex.htm
 ms.date: 12/05/2018
 ms.keywords: GETTEXTLENGTHEX, GETTEXTLENGTHEX structure [Windows Controls], GTL_CLOSE, GTL_DEFAULT, GTL_NUMBYTES, GTL_NUMCHARS, GTL_PRECISE, GTL_USECRLF, _win32_GETTEXTLENGTHEX_str, _win32_GETTEXTLENGTHEX_str_cpp, controls.GETTEXTLENGTHEX, controls._win32_GETTEXTLENGTHEX_str, richedit/GETTEXTLENGTHEX
-f1_keywords:
-- richedit/GETTEXTLENGTHEX
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- GETTEXTLENGTHEX
 targetos: Windows
 req.typenames: GETTEXTLENGTHEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _gettextlengthex
+ - richedit/_gettextlengthex
+ - GETTEXTLENGTHEX
+ - richedit/GETTEXTLENGTHEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - GETTEXTLENGTHEX
 ---
 
 # GETTEXTLENGTHEX structure
@@ -48,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the <b>wParam</b> in the <a href="https://msdn.microsoft.com/42c89b7b-e48d-4517-9993-ce58ff9e4e40">EM_GETTEXTLENGTHEX</a> message.
-
 
 ## -struct-fields
 
-
-
-
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value specifying the method to be used in determining the text length. This member can be one or more of the following values (some values are mutually exclusive). 
 
@@ -129,23 +128,13 @@ Returns the number of bytes. This flag cannot be used with the GTL_NUMCHARS flag
 </td>
 </tr>
 </table>
- 
-
 
 ### -field codepage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Code page used in the translation. It is CP_ACP for ANSI Code Page and 1200 for Unicode. 
-
+Code page used in the translation. It is CP_ACP for ANSI Code Page and 1200 for Unicode.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/42c89b7b-e48d-4517-9993-ce58ff9e4e40">EM_GETTEXTLENGTHEX</a>
- 
-
- 
-

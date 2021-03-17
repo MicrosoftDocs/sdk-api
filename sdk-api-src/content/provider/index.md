@@ -1,17 +1,20 @@
 ---
 UID: NA:provider
+title: Provider.h header
 ms.assetid: 09eb144e-543b-3fbc-978b-78648fe423f5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: lwef
+f1_keywords:
+ - provider
+ - provider/provider
 ---
 
 # Provider.h header
 
 
 ## -description
-
 
 This header is used by Legacy Windows Environment Features. For more information, see:
 

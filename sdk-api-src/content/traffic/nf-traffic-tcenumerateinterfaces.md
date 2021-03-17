@@ -1,16 +1,13 @@
 ---
 UID: NF:traffic.TcEnumerateInterfaces
 title: TcEnumerateInterfaces function (traffic.h)
-description: The TcEnumerateInterfaces function enumerates all traffic control&#8211;enabled network interfaces. Clients are notified of interface changes through the ClNotifyHandler function.
+description: The TcEnumerateInterfaces function enumerates all traffic control�enabled network interfaces. Clients are notified of interface changes through the ClNotifyHandler function.
+helpviewer_keywords: ["TcEnumerateInterfaces","TcEnumerateInterfaces function [QOS]","_gqos_tcenumerateinterfaces","qos.tcenumerateinterfaces","traffic/TcEnumerateInterfaces"]
 old-location: qos\tcenumerateinterfaces.htm
 tech.root: QOS
 ms.assetid: e6fbaa17-6b4b-45a2-baf7-898864a797b7
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces
-f1_keywords:
-- traffic/TcEnumerateInterfaces
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcEnumerateInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcEnumerateInterfaces
+ - traffic/TcEnumerateInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcEnumerateInterfaces
 ---
 
 # TcEnumerateInterfaces function
@@ -48,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcEnumerateInterfaces</b> function enumerates all traffic control–enabled network interfaces. Clients are notified of interface changes through the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> function.
 
 ## -parameters
-
-
-
 
 ### -param ClientHandle [in]
 
 Handle used by traffic control to identify the client. Clients receive handles when registering with traffic control through the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a> function.
 
 ### -param pBufferSize [in, out]
 
 Pointer to a value indicating the size of the buffer. For input, this value is the size of the buffer, in bytes, allocated by the caller. For output, this value is the actual size of the buffer, in bytes, used or needed by traffic control. A value of zero on output indicates that no traffic control interfaces are available, indicating that the QOS Packet Scheduler is not installed.
 
-
 ### -param InterfaceBuffer [out]
 
 Pointer to the buffer containing the returned list of interface descriptors.
 
-
 ## -returns
-
-
 
 Successful completion returns the device name of the interface.
 
@@ -142,14 +134,8 @@ The system is out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The client calling the 
 <b>TcEnumerateInterfaces</b> function must first allocate a buffer, then pass the buffer to traffic control through <i>InterfaceBuffer</i>. Traffic control returns a pointer to an array of interface descriptors in <i>InterfaceBuffer</i>. Each interface descriptor contains two elements:
@@ -175,19 +161,10 @@ The network address list descriptor includes the media type, as well as a list o
 <b>TcEnumerateInterfaces</b> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>

@@ -2,15 +2,12 @@
 UID: NS:ntdsapi._DS_REPL_NEIGHBORW
 title: DS_REPL_NEIGHBORW (ntdsapi.h)
 description: Contains inbound replication state data for a particular naming context and source server pair, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
+helpviewer_keywords: ["DS_REPL_NBR_COMPRESS_CHANGES","DS_REPL_NBR_DISABLE_SCHEDULED_SYNC","DS_REPL_NBR_DO_SCHEDULED_SYNCS","DS_REPL_NBR_FULL_SYNC_IN_PROGRESS","DS_REPL_NBR_FULL_SYNC_NEXT_PACKET","DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS","DS_REPL_NBR_NEVER_SYNCED","DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS","DS_REPL_NBR_PARTIAL_ATTRIBUTE_SET","DS_REPL_NBR_PREEMPTED","DS_REPL_NBR_RETURN_OBJECT_PARENTS","DS_REPL_NBR_SYNC_ON_STARTUP","DS_REPL_NBR_TWO_WAY_SYNC","DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT","DS_REPL_NBR_WRITEABLE","DS_REPL_NEIGHBOR","DS_REPL_NEIGHBOR structure [Active Directory]","DS_REPL_NEIGHBORW","_DS_REPL_NEIGHBORW","_glines_ds_repl_neighbor","ad.ds__repl__neighbor","ad.ds_repl_neighbor","ntdsapi/DS_REPL_NEIGHBOR"]
 old-location: ad\ds_repl_neighbor.htm
 tech.root: ad
 ms.assetid: acab74f4-5739-4310-895b-081062c0360b
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_FULL_SYNC_IN_PROGRESS, DS_REPL_NBR_FULL_SYNC_NEXT_PACKET, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NEVER_SYNCED, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_PARTIAL_ATTRIBUTE_SET, DS_REPL_NBR_PREEMPTED, DS_REPL_NBR_RETURN_OBJECT_PARENTS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT, DS_REPL_NBR_WRITEABLE, DS_REPL_NEIGHBOR, DS_REPL_NEIGHBOR structure [Active Directory], DS_REPL_NEIGHBORW, _DS_REPL_NEIGHBORW, _glines_ds_repl_neighbor, ad.ds__repl__neighbor, ad.ds_repl_neighbor, ntdsapi/DS_REPL_NEIGHBOR
-f1_keywords:
-- ntdsapi/DS_REPL_NEIGHBOR
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntdsapi.h
-api_name:
-- DS_REPL_NEIGHBOR
 targetos: Windows
 req.typenames: DS_REPL_NEIGHBORW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DS_REPL_NEIGHBORW
+ - ntdsapi/_DS_REPL_NEIGHBORW
+ - DS_REPL_NEIGHBORW
+ - ntdsapi/DS_REPL_NEIGHBORW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntdsapi.h
+api_name:
+ - DS_REPL_NEIGHBOR
 ---
 
 # DS_REPL_NEIGHBORW structure
@@ -48,35 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DS_REPL_NEIGHBOR</b> structure contains  inbound replication state data for a particular naming context and source server pair, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field pszNamingContext
 
 Pointer to a null-terminated string that contains the naming context to which this replication state data pertains. Each naming context is replicated independently and has different associated neighbor data, even if the naming contexts are replicated from the same source server.
 
-
 ### -field pszSourceDsaDN
 
 Pointer to  a null-terminated string that contains the distinguished name of the directory service agent corresponding to the source server to which this replication state data pertains.  Each source server has different associated neighbor data.
-
 
 ### -field pszSourceDsaAddress
 
 Pointer to  a null-terminated string that contains the transport-specific network address of the source server. That is, a directory name service name for RPC/IP replication, or an SMTP address for an SMTP replication.
 
-
 ### -field pszAsyncIntersiteTransportDN
 
 Pointer to  a null-terminated string that contains the distinguished name of the <b>interSiteTransport</b> object that corresponds to the transport over which replication is performed. This member contains <b>NULL</b> for RPC/IP replication.
-
 
 ### -field dwReplicaFlags
 
@@ -122,7 +117,7 @@ This neighbor is in a state where it returns parent objects before children obje
 
 #### DS_REPL_NBR_FULL_SYNC_IN_PROGRESS (65536 (0x10000))
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
 
 
 
@@ -172,81 +167,62 @@ No change notifications should be received from this source. Normally set if, an
 
 This neighbor is in a state where it is rebuilding the contents of this replica because of a change in the partial attribute set.
 
-
 ### -field dwReserved
 
 Reserved for future use.
-
 
 ### -field uuidNamingContextObjGuid
 
 Contains the <b>objectGuid</b> of the naming context corresponding to <b>pszNamingContext</b>.
 
-
 ### -field uuidSourceDsaObjGuid
 
 Contains the <b>objectGuid</b> of the <b>nTDSDSA</b> object corresponding to <b>pszSourceDsaDN</b>.
-
 
 ### -field uuidSourceDsaInvocationID
 
 Contains the invocation identifier used by the source server as of the last replication attempt.
 
-
 ### -field uuidAsyncIntersiteTransportObjGuid
 
 Contains the <b>objectGuid</b> of the inter-site transport object corresponding to <b>pszAsyncIntersiteTransportDN</b>.
-
 
 ### -field usnLastObjChangeSynced
 
 Contains the update sequence number of the last object update received.
 
-
 ### -field usnAttributeFilter
 
 Contains the <b>usnLastObjChangeSynced</b> value at the end of the last complete, successful replication cycle, or 0 if none. Attributes at the source last updated at a update sequence number less than or equal to this value have already been received and applied by the destination.
 
-
 ### -field ftimeLastSyncSuccess
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
-
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
 
 ### -field ftimeLastSyncAttempt
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
-
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
 
 ### -field dwLastSyncResult
 
 Contains an error code associated with the last replication attempt from this source. Contains <b>ERROR_SUCCESS</b> if the last attempt succeeded.
 
-
 ### -field cNumConsecutiveSyncFailures
 
 Contains the number of failed replication attempts from this source since the last successful replication attempt - or since the source was added as a neighbor, if no previous attempt was successful.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
- 
-
- 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>

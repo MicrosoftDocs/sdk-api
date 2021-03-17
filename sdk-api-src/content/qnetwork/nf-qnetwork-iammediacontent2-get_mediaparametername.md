@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMMediaContent2.get_MediaParameterName
 title: IAMMediaContent2::get_MediaParameterName (qnetwork.h)
 description: The get_MediaParameterName method retrieves the name of a custom parameter in an ASX file.
+helpviewer_keywords: ["IAMMediaContent2 interface [DirectShow]","get_MediaParameterName method","IAMMediaContent2.get_MediaParameterName","IAMMediaContent2::get_MediaParameterName","IAMMediaContent2get_MediaParameterName","dshow.iammediacontent2_get_mediaparametername","get_MediaParameterName","get_MediaParameterName method [DirectShow]","get_MediaParameterName method [DirectShow]","IAMMediaContent2 interface","qnetwork/IAMMediaContent2::get_MediaParameterName"]
 old-location: dshow\iammediacontent2_get_mediaparametername.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 67eb8a01-312a-45ee-8da3-59a1f9f952ec
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameterName method, IAMMediaContent2.get_MediaParameterName, IAMMediaContent2::get_MediaParameterName, IAMMediaContent2get_MediaParameterName, dshow.iammediacontent2_get_mediaparametername, get_MediaParameterName, get_MediaParameterName method [DirectShow], get_MediaParameterName method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameterName
-f1_keywords:
-- qnetwork/IAMMediaContent2.get_MediaParameterName
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent2.get_MediaParameterName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent2::get_MediaParameterName
+ - qnetwork/IAMMediaContent2::get_MediaParameterName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent2.get_MediaParameterName
 ---
 
 # IAMMediaContent2::get_MediaParameterName
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_MediaParameterName</code> method retrieves the name of a custom parameter in an ASX file.
 
 
 
 This interface is not supported.
 
-
 ## -parameters
-
-
-
 
 ### -param EntryNum
 
@@ -82,44 +78,23 @@ Specifies the location of the parameter in the ASX file.
 <td>The parameter is located inside an ENTRY tag; <i>EntryNum</i> specifies the entry, indexed from 1.</td>
 </tr>
 </table>
- 
-
 
 ### -param Index
 
 Specifies the index of the parameter to retrieve, indexed from 1.
 
-
 ### -param pbstrName
 
 Pointer to a variable that receives the parameter name.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent2">IAMMediaContent2 Interface</a>

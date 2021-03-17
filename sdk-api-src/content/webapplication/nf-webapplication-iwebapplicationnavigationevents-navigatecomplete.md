@@ -2,15 +2,12 @@
 UID: NF:webapplication.IWebApplicationNavigationEvents.NavigateComplete
 title: IWebApplicationNavigationEvents::NavigateComplete (webapplication.h)
 description: Fired when the document being navigated to becomes visible and enters the navigation stack.
+helpviewer_keywords: ["IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","NavigateComplete method","IWebApplicationNavigationEvents.NavigateComplete","IWebApplicationNavigationEvents::NavigateComplete","NavigateComplete","NavigateComplete method [Debugging Windows Store apps]","NavigateComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","debug.iwebapplicationnavigationevents_navigatecomplete","webapplication/IWebApplicationNavigationEvents::NavigateComplete"]
 old-location: debug\iwebapplicationnavigationevents_navigatecomplete.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 51a80227-69ec-4f12-8d19-d2b932fbbfc0
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationNavigationEvents interface [Debugging Windows Store apps],NavigateComplete method, IWebApplicationNavigationEvents.NavigateComplete, IWebApplicationNavigationEvents::NavigateComplete, NavigateComplete, NavigateComplete method [Debugging Windows Store apps], NavigateComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, debug.iwebapplicationnavigationevents_navigatecomplete, webapplication/IWebApplicationNavigationEvents::NavigateComplete
-f1_keywords:
-- webapplication/IWebApplicationNavigationEvents.NavigateComplete
-dev_langs:
-- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- webapplication.h
-api_name:
-- IWebApplicationNavigationEvents.NavigateComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebApplicationNavigationEvents::NavigateComplete
+ - webapplication/IWebApplicationNavigationEvents::NavigateComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - webapplication.h
+api_name:
+ - IWebApplicationNavigationEvents.NavigateComplete
 ---
 
 # IWebApplicationNavigationEvents::NavigateComplete
@@ -48,47 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fired when the document being navigated to becomes visible and enters the navigation stack.
-
 
 ## -parameters
 
-
-
-
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is occurred.
-
 
 ### -param url [in]
 
 Type: <b>LPCWSTR</b>
 
-The URL which was navigated to 
-
+The URL which was navigated to
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Ignored by the host. If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>

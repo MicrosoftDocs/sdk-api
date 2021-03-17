@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPServiceAsync.BeginSCPDDownload
 title: IUPnPServiceAsync::BeginSCPDDownload (upnp.h)
 description: BeginSCPDDownload method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.
+helpviewer_keywords: ["BeginSCPDDownload","BeginSCPDDownload method [UPnP APIs]","BeginSCPDDownload method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","BeginSCPDDownload method","IUPnPServiceAsync.BeginSCPDDownload","IUPnPServiceAsync::BeginSCPDDownload","upnp.iupnpserviceasync_beginscpddownload","upnp/IUPnPServiceAsync::BeginSCPDDownload"]
 old-location: upnp\iupnpserviceasync_beginscpddownload.htm
 tech.root: upnp
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3
 ms.date: 12/05/2018
 ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSCPDDownload method, IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
-f1_keywords:
-- upnp/IUPnPServiceAsync.BeginSCPDDownload
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceAsync.BeginSCPDDownload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceAsync::BeginSCPDDownload
+ - upnp/IUPnPServiceAsync::BeginSCPDDownload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceAsync.BeginSCPDDownload
 ---
 
 # IUPnPServiceAsync::BeginSCPDDownload
@@ -48,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BeginSCPDDownload</b> method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.
-
 
 ## -parameters
 
-
-
-
 ### -param pAsyncResult [in, optional]
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginSCPDDownload</b> call is complete, 
-	UPnP will use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
+Specifies a pointer to an <a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a> object. When the <b>BeginSCPDDownload</b> call is complete, 
+	UPnP will use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a> method to notify the control 
 	point.
-
-
 
 ### -param pullRequestID [out]
 
 Pointer to a 64-bit <b>ULONG</b> value used to identify the <b>BeginSCPDDownload</b> operation requested prior to this call.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code defined in <b>WinError.h</b> or one of the following values:
 
@@ -104,26 +96,15 @@ Failed to initiate the SCPD download.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">IUPnPAsyncResult::AsyncOperationComplete</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>

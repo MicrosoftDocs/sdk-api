@@ -2,16 +2,12 @@
 UID: NF:mpeg2psiparser.IPMT.GetTableDescriptorByIndex
 title: IPMT::GetTableDescriptorByIndex (mpeg2psiparser.h)
 description: The GetTableDescriptorByIndex method retrieves a table-wide descriptor for the PMT.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IPMT.GetTableDescriptorByIndex","IPMT::GetTableDescriptorByIndex","IPMTGetTableDescriptorByIndex","mpeg2psiparser/IPMT::GetTableDescriptorByIndex","mstv.ipmt_gettabledescriptorbyindex"]
 old-location: mstv\ipmt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
-ms.topic: method
-f1_keywords:
-- mpeg2psiparser/IPMT.GetTableDescriptorByIndex
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.GetTableDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::GetTableDescriptorByIndex
+ - mpeg2psiparser/IPMT::GetTableDescriptorByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.GetTableDescriptorByIndex
 ---
 
 # IPMT::GetTableDescriptorByIndex
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetTableDescriptorByIndex</b> method retrieves a table-wide descriptor for the PMT.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountoftabledescriptors">IPMT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the PMT.
-
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipmt-getcountoftabledescriptors">IPMT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the PMT.
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
-
+Address of a variable that receives an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -116,18 +105,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>

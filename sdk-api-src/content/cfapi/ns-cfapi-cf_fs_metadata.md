@@ -2,15 +2,12 @@
 UID: NS:cfapi.CF_FS_METADATA
 title: CF_FS_METADATA (cfapi.h)
 description: Placeholder file or directory metadata.
+helpviewer_keywords: ["CF_FS_METADATA","CF_FS_METADATA structure","cfapi/CF_FS_METADATA","cloudApi.cf_fs_metadata"]
 old-location: cloudapi\cf_fs_metadata.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: A6D4473A-C93A-4B56-9EB0-9B44A56E5D28
 ms.date: 12/05/2018
 ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, cloudApi.cf_fs_metadata
-f1_keywords:
-- cfapi/CF_FS_METADATA
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_FS_METADATA
 targetos: Windows
 req.typenames: CF_FS_METADATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_FS_METADATA
+ - cfapi/CF_FS_METADATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_FS_METADATA
 ---
 
 # CF_FS_METADATA structure
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Placeholder file or directory metadata.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BasicInfo
 
 Basic file information.
-
 
 ### -field FileSize
 

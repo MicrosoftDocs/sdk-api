@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.getProxySettings
 title: IWMPNetwork::getProxySettings (wmp.h)
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","getProxySettings method","IWMPNetwork.getProxySettings","IWMPNetwork::getProxySettings","IWMPNetworkgetProxySettings","getProxySettings","getProxySettings method [Windows Media Player]","getProxySettings method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_getproxysettings","wmp/IWMPNetwork::getProxySettings"]
 old-location: wmp\iwmpnetwork_getproxysettings.htm
 tech.root: WMP
 ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxySettings method, IWMPNetwork.getProxySettings, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
-f1_keywords:
-- wmp/IWMPNetwork.getProxySettings
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.getProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::getProxySettings
+ - wmp/IWMPNetwork::getProxySettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.getProxySettings
 ---
 
 # IWMPNetwork::getProxySettings
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getProxySettings</b> method retrieves the proxy setting for a given protocol.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param bstrProtocol [in]
 
-<b>BSTR</b> containing the protocol name. For a list of supported protocols, see <a href="https://docs.microsoft.com/windows/desktop/WMP/supported-protocols-and-file-types">Supported Protocols and File Types</a>.
-
+<b>BSTR</b> containing the protocol name. For a list of supported protocols, see <a href="/windows/desktop/WMP/supported-protocols-and-file-types">Supported Protocols and File Types</a>.
 
 ### -param plProxySetting [out]
 
@@ -93,12 +86,8 @@ Pointer to a <b>long</b> containing one of the following values.
 <td>The proxy settings are being auto-detected.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,33 +108,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method fails unless the calling application is running on the local computer or intranet.
 
 <b>Windows Media Player 10 Mobile:</b> This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxysettings">IWMPNetwork::setProxySettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxysettings">IWMPNetwork::setProxySettings</a>

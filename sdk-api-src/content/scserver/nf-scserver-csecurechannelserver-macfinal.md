@@ -2,15 +2,12 @@
 UID: NF:scserver.CSecureChannelServer.MACFinal
 title: CSecureChannelServer::MACFinal (scserver.h)
 description: The MACFinal method releases the message authentication code (MAC) channel and retrieves a final MAC value.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","MACFinal method","CSecureChannelServer.MACFinal","CSecureChannelServer::MACFinal","CSecureChannelServerMACFinal","MACFinal","MACFinal method [windows Media Device Manager]","MACFinal method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::MACFinal","wmdm.csecurechannelserver_macfinal"]
 old-location: wmdm\csecurechannelserver_macfinal.htm
 tech.root: WMDM
 ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACFinal method, CSecureChannelServer.MACFinal, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
-f1_keywords:
-- scserver/CSecureChannelServer.MACFinal
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.MACFinal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::MACFinal
+ - scserver/CSecureChannelServer::MACFinal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.MACFinal
 ---
 
 # CSecureChannelServer::MACFinal
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MACFinal</b> method releases the message authentication code (MAC) channel and retrieves a final MAC value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hMAC [in]
 
 Handle to the MAC for the current parameter data. The handle is returned from the <b>MACInit</b> method. The handle is no longer valid after this method call.
 
-
 ### -param abData [out]
 
 Pointer to an 8-byte buffer to receive the final MAC value for the current parameter data.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -82,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -104,17 +94,10 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
@@ -126,8 +109,4 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

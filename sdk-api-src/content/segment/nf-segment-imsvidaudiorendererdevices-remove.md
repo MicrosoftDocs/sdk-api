@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidAudioRendererDevices.Remove
 title: IMSVidAudioRendererDevices::Remove (segment.h)
 description: The Remove method removes an item from the collection.
+helpviewer_keywords: ["IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","Remove method","IMSVidAudioRendererDevices.Remove","IMSVidAudioRendererDevices::Remove","IMSVidAudioRendererDevicesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface","mstv.imsvidaudiorendererdevices_remove","segment/IMSVidAudioRendererDevices::Remove"]
 old-location: mstv\imsvidaudiorendererdevices_remove.htm
 tech.root: mstv
 ms.assetid: 5a9cf752-e3f8-40bf-89e8-e223654e4080
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidAudioRendererDevices.Remove, IMSVidAudioRendererDevices::Remove, IMSVidAudioRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_remove, segment/IMSVidAudioRendererDevices::Remove
-f1_keywords:
-- segment/IMSVidAudioRendererDevices.Remove
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidAudioRendererDevices.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidAudioRendererDevices::Remove
+ - segment/IMSVidAudioRendererDevices::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidAudioRendererDevices.Remove
 ---
 
 # IMSVidAudioRendererDevices::Remove
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Remove</b> method removes an item from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
 <b>VARIANT</b> that specifies the index of the item to remove.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -129,31 +123,15 @@ Unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-get_count">IMSVidAudioRendererDevices::get_Count</a> - 1.
-
-
-
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-get_count">IMSVidAudioRendererDevices::get_Count</a> - 1.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidaudiorendererdevices">IMSVidAudioRendererDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorendererdevices">IMSVidAudioRendererDevices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-add">IMSVidAudioRendererDevices::Add</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorendererdevices-add">IMSVidAudioRendererDevices::Add</a>

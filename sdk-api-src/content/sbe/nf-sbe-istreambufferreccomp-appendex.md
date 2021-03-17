@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferRecComp.AppendEx
 title: IStreamBufferRecComp::AppendEx (sbe.h)
 description: The AppendEx method appends part of a recording to the target file.
+helpviewer_keywords: ["AppendEx","AppendEx method [Microsoft TV Technologies]","AppendEx method [Microsoft TV Technologies]","IStreamBufferRecComp interface","IStreamBufferRecComp interface [Microsoft TV Technologies]","AppendEx method","IStreamBufferRecComp.AppendEx","IStreamBufferRecComp::AppendEx","IStreamBufferRecCompAppendEx","mstv.istreambufferreccomp_appendex","sbe/IStreamBufferRecComp::AppendEx"]
 old-location: mstv\istreambufferreccomp_appendex.htm
 tech.root: mstv
 ms.assetid: 9ff4c918-64f7-4c64-b79b-7fe7d7783550
 ms.date: 12/05/2018
 ms.keywords: AppendEx, AppendEx method [Microsoft TV Technologies], AppendEx method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],AppendEx method, IStreamBufferRecComp.AppendEx, IStreamBufferRecComp::AppendEx, IStreamBufferRecCompAppendEx, mstv.istreambufferreccomp_appendex, sbe/IStreamBufferRecComp::AppendEx
-f1_keywords:
-- sbe/IStreamBufferRecComp.AppendEx
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferRecComp.AppendEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferRecComp::AppendEx
+ - sbe/IStreamBufferRecComp::AppendEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferRecComp.AppendEx
 ---
 
 # IStreamBufferRecComp::AppendEx
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AppendEx</b> method appends part of a recording to the target file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszSBRecording [in]
 
 Null-terminated, wide character string that contains the name of the file to append.
 
-
 ### -param rtStart [in]
 
 Specifies the start time of the segment to append, in 100-nanosecond units.
-
 
 ### -param rtStop [in]
 
 Specifies the stop time of the segment to append, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -98,14 +87,8 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The file specified in <i>pszSBRecording</i> must be completed. If the file is live, the method fails. Also, the file's profile must match the one that was configured in the <b>Initialize</b> method.
 
@@ -113,16 +96,6 @@ The value of <i>rtStop</i> must be at least 2 seconds (20000000) greater than <i
 
 The caller must validate <i>rtStart</i> and <i>rtStop</i> before calling this method. The method will not automatically correct the times if they fall past the end of the file.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>

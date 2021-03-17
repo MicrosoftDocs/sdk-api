@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetVarDesc
 title: ITypeInfo::GetVarDesc (oaidl.h)
 description: Retrieves a VARDESC structure that describes the specified variable.
+helpviewer_keywords: ["GetVarDesc","GetVarDesc method [Automation]","GetVarDesc method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetVarDesc method","ITypeInfo.GetVarDesc","ITypeInfo::GetVarDesc","_oa96_ITypeInfo_GetVarDesc","automat.itypeinfo_getvardesc","oaidl/ITypeInfo::GetVarDesc"]
 old-location: automat\itypeinfo_getvardesc.htm
 tech.root: automat
 ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
 ms.date: 12/05/2018
 ms.keywords: GetVarDesc, GetVarDesc method [Automation], GetVarDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetVarDesc method, ITypeInfo.GetVarDesc, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
-f1_keywords:
-- oaidl/ITypeInfo.GetVarDesc
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetVarDesc
+ - oaidl/ITypeInfo::GetVarDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetVarDesc
 ---
 
 # ITypeInfo::GetVarDesc
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a VARDESC structure that describes the specified variable.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable whose description is to be returned. The index should be in the range of 0 to 1 less than the number of variables in this type.
 
-
 ### -param ppVarDesc [out]
 
 A VARDESC that describes the specified variable.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,16 +108,10 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To free the VARDESC structure, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasevardesc">ReleaseVarDesc</a>.
+To free the VARDESC structure, use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasevardesc">ReleaseVarDesc</a>.
 
 
 
@@ -142,17 +129,6 @@ ptypeinfo->ReleaseVarDesc(pvardesc);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

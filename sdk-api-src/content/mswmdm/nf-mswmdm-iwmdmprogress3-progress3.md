@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMProgress3.Progress3
 title: IWMDMProgress3::Progress3 (mswmdm.h)
 description: The Progress3 method is called by Windows Media Device Manager to indicate the status of an action in progress.
+helpviewer_keywords: ["IWMDMProgress3 interface [windows Media Device Manager]","Progress3 method","IWMDMProgress3.Progress3","IWMDMProgress3::Progress3","IWMDMProgress3Progress3","Progress3","Progress3 method [windows Media Device Manager]","Progress3 method [windows Media Device Manager]","IWMDMProgress3 interface","mswmdm/IWMDMProgress3::Progress3","wmdm.iwmdmprogress3_progress3"]
 old-location: wmdm\iwmdmprogress3_progress3.htm
 tech.root: WMDM
 ms.assetid: 33f1de9c-f2eb-4b83-89a1-404a8c50ee08
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress3 interface [windows Media Device Manager],Progress3 method, IWMDMProgress3.Progress3, IWMDMProgress3::Progress3, IWMDMProgress3Progress3, Progress3, Progress3 method [windows Media Device Manager], Progress3 method [windows Media Device Manager],IWMDMProgress3 interface, mswmdm/IWMDMProgress3::Progress3, wmdm.iwmdmprogress3_progress3
-f1_keywords:
-- mswmdm/IWMDMProgress3.Progress3
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMProgress3.Progress3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMProgress3::Progress3
+ - mswmdm/IWMDMProgress3::Progress3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMProgress3.Progress3
 ---
 
 # IWMDMProgress3::Progress3
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Progress3</b> method is called by Windows Media Device Manager to indicate the status of an action in progress. This method extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the context of the commands.
-
-
-
+The <b>Progress3</b> method is called by Windows Media Device Manager to indicate the status of an action in progress. This method extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the context of the commands.
 
 ## -parameters
-
-
-
 
 ### -param EventId [in]
 
@@ -102,22 +96,16 @@ WMDM_SCP_DRMINFO_V2HEADER
 <td>Content is being transferred to or from the device.</td>
 </tr>
 </table>
- 
-
 
 ### -param dwTranspiredTicks [in]
 
 <b>DWORD</b> specifying the number of ticks that have transpired so far.
 
-
 ### -param pContext [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing a command sent directly to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>. If the event is SCP_EVENTID_DRMINFO, the data in this parameter will have the SCP_PARAMID_DRMVERSION GUID.
-
+Pointer to an <a href="/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing a command sent directly to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>. If the event is SCP_EVENTID_DRMINFO, the data in this parameter will have the SCP_PARAMID_DRMVERSION GUID.
 
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -149,14 +137,8 @@ Windows Media Device Manager should cancel the current operation without waiting
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The interface that owns the method that is implementing an operation calls the <b>Progress3</b> method as the operation defined by the method is carried out. The intention is that <b>Progress3</b> will be called once per estimated tick. However, the <i>dwTranspiredTicks</i> parameter must be checked on each call because the operation being performed may not guarantee one call for each estimated tick.
 
@@ -185,25 +167,14 @@ HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pCont
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a>

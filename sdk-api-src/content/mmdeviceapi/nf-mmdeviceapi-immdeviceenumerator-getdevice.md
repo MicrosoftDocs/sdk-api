@@ -2,15 +2,12 @@
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDevice
 title: IMMDeviceEnumerator::GetDevice (mmdeviceapi.h)
 description: The GetDevice method retrieves an audio endpoint device that is identified by an endpoint ID string.
+helpviewer_keywords: ["GetDevice","GetDevice method [Core Audio]","GetDevice method [Core Audio]","IMMDeviceEnumerator interface","IMMDeviceEnumerator interface [Core Audio]","GetDevice method","IMMDeviceEnumerator.GetDevice","IMMDeviceEnumerator::GetDevice","IMMDeviceEnumeratorGetDevice","coreaudio.immdeviceenumerator_getdevice","mmdeviceapi/IMMDeviceEnumerator::GetDevice"]
 old-location: coreaudio\immdeviceenumerator_getdevice.htm
 tech.root: CoreAudio
 ms.assetid: 88cd7acc-a5d7-406d-ac73-bae357ad2ee2
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDevice method, IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
-f1_keywords:
-- mmdeviceapi/IMMDeviceEnumerator.GetDevice
-dev_langs:
-- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmdeviceapi.h
-api_name:
-- IMMDeviceEnumerator.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMDeviceEnumerator::GetDevice
+ - mmdeviceapi/IMMDeviceEnumerator::GetDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmdeviceapi.h
+api_name:
+ - IMMDeviceEnumerator.GetDevice
 ---
 
 # IMMDeviceEnumerator::GetDevice
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetDevice</b> method retrieves an audio endpoint device that is identified by an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a>.
-
-
-
+The <b>GetDevice</b> method retrieves an audio endpoint device that is identified by an <a href="/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a>.
 
 ## -parameters
 
-
-
-
 ### -param pwstrId [in]
 
-Pointer to a string containing the endpoint ID. The caller typically obtains this string from the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid">IMMDevice::GetId</a> method or from one of the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> interface.
-
+Pointer to a string containing the endpoint ID. The caller typically obtains this string from the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid">IMMDevice::GetId</a> method or from one of the methods in the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient</a> interface.
 
 ### -param ppDevice [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface for the specified device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDevice</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
-
+Pointer to a pointer variable into which the method writes the address of the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface for the specified device. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetDevice</b> call fails,  <i>*ppDevice</i> is <b>NULL</b>.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -115,14 +105,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If two programs are running in two different processes and both need to access the same audio endpoint device, one program cannot simply pass the device's <b>IMMDevice</b> interface to the other program. However, the programs can access the same device by following these steps:
 
@@ -135,47 +119,38 @@ For more information about the <b>GetDevice</b> method, see the following topics
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">Endpoint ID Strings</a>
+<a href="/windows/desktop/CoreAudio/endpoint-id-strings">Endpoint ID Strings</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>
+<a href="/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>
 </li>
 </ul>
 For code examples that use the <b>GetDevice</b> method, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>
+<a href="/windows/desktop/CoreAudio/device-properties">Device Properties</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-events">Device Events</a>
+<a href="/windows/desktop/CoreAudio/device-events">Device Events</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-ikscontrol-interface-to-access-audio-properties">Using the IKsControl Interface to Access Audio Properties</a>
+<a href="/windows/desktop/CoreAudio/using-the-ikscontrol-interface-to-access-audio-properties">Using the IKsControl Interface to Access Audio Properties</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid">IMMDevice::GetId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid">IMMDevice::GetId</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>

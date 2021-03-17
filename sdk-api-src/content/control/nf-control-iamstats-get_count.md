@@ -2,15 +2,12 @@
 UID: NF:control.IAMStats.get_Count
 title: IAMStats::get_Count (control.h)
 description: The get_Count method retrieves the number of statistics.
+helpviewer_keywords: ["IAMStats interface [DirectShow]","get_Count method","IAMStats.get_Count","IAMStats::get_Count","IAMStatsget_Count","control/IAMStats::get_Count","dshow.iamstats_get_count","get_Count","get_Count method [DirectShow]","get_Count method [DirectShow]","IAMStats interface"]
 old-location: dshow\iamstats_get_count.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 48f2543a-7c93-4d4f-a568-b8066e9545fd
 ms.date: 12/05/2018
 ms.keywords: IAMStats interface [DirectShow],get_Count method, IAMStats.get_Count, IAMStats::get_Count, IAMStatsget_Count, control/IAMStats::get_Count, dshow.iamstats_get_count, get_Count, get_Count method [DirectShow], get_Count method [DirectShow],IAMStats interface
-f1_keywords:
-- control/IAMStats.get_Count
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStats.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStats::get_Count
+ - control/IAMStats::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStats.get_Count
 ---
 
 # IAMStats::get_Count
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Count</code> method retrieves the number of statistics.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 Receives the number of statistics.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,22 +91,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>

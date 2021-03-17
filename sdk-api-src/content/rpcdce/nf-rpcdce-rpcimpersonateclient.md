@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcImpersonateClient
 title: RpcImpersonateClient function (rpcdce.h)
 description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.
+helpviewer_keywords: ["RpcImpersonateClient","RpcImpersonateClient function [RPC]","_rpc_rpcimpersonateclient","rpc.rpcimpersonateclient","rpcdce/RpcImpersonateClient"]
 old-location: rpc\rpcimpersonateclient.htm
 tech.root: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
 ms.date: 12/05/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
-f1_keywords:
-- rpcdce/RpcImpersonateClient
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcImpersonateClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcImpersonateClient
+ - rpcdce/RpcImpersonateClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcImpersonateClient
 ---
 
 # RpcImpersonateClient function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 A server thread that is processing client remote procedure calls can call the 
 <b>RpcImpersonateClient</b> function to impersonate the active client.
 
-
 ## -parameters
-
-
-
 
 ### -param BindingHandle
 
 Binding handle on the server that represents a binding to a client. The server impersonates the client indicated by this handle. If a value of zero is specified, the server impersonates the client that is being served by this server thread.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -142,18 +136,14 @@ The server does not have permission to impersonate the client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 In a multithreaded application, if the call to 
 <b>RpcImpersonateClient</b> is with a handle to another client thread, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
 
 All  functions that impersonate check to determine whether the caller of this function (the RPC Server) has the SeImpersonatePrivilege privilege. If the caller has the SeImpersonatePrivilege, or if the authenticated identity is the same as the identity of the caller of this function, the requested impersonation is allowed. Otherwise, the impersonation succeeds at Identify level only.
 
@@ -163,21 +153,11 @@ All  functions that impersonate check to determine whether the caller of this fu
 If the call to 
 <b>RpcImpersonateClient</b> fails for any reason, the client connection is not impersonated and the client request is made in the security context of the process. If the process is running as a highly privileged account, such as LocalSystem, or as a member of an administrative group, the user may be able to perform actions they would otherwise be disallowed. Therefore it is important to always check the return value of the call, and if it fails, raise an error; do not continue execution of the client request.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
+<a href="/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoself">RpcRevertToSelf</a>

@@ -2,15 +2,12 @@
 UID: NF:powrprof.DevicePowerEnumDevices
 title: DevicePowerEnumDevices function (powrprof.h)
 description: Enumerates devices on the system that meet the specified criteria.
+helpviewer_keywords: ["DEVICEPOWER_AND_OPERATION","DEVICEPOWER_FILTER_DEVICES_PRESENT","DEVICEPOWER_FILTER_ON_NAME","DEVICEPOWER_FILTER_WAKEENABLED","DEVICEPOWER_HARDWAREID","DevicePowerEnumDevices","DevicePowerEnumDevices function","PDCAP_D0_SUPPORTED","PDCAP_D1_SUPPORTED","PDCAP_D2_SUPPORTED","PDCAP_D3_SUPPORTED","PDCAP_S0_SUPPORTED","PDCAP_S1_SUPPORTED","PDCAP_S2_SUPPORTED","PDCAP_S3_SUPPORTED","PDCAP_S4_SUPPORTED","PDCAP_S5_SUPPORTED","PDCAP_WAKE_FROM_D0_SUPPORTED","PDCAP_WAKE_FROM_D1_SUPPORTED","PDCAP_WAKE_FROM_D2_SUPPORTED","PDCAP_WAKE_FROM_D3_SUPPORTED","PDCAP_WAKE_FROM_S0_SUPPORTED","PDCAP_WAKE_FROM_S1_SUPPORTED","PDCAP_WAKE_FROM_S2_SUPPORTED","PDCAP_WAKE_FROM_S3_SUPPORTED","PDCAP_WARM_EJECT_SUPPORTED","base.devicepowerenumdevices","powrprof/DevicePowerEnumDevices"]
 old-location: base\devicepowerenumdevices.htm
-tech.root: power
+tech.root: base
 ms.assetid: bb67634c-69d9-4194-ac27-4f9740d73a1a
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_AND_OPERATION, DEVICEPOWER_FILTER_DEVICES_PRESENT, DEVICEPOWER_FILTER_ON_NAME, DEVICEPOWER_FILTER_WAKEENABLED, DEVICEPOWER_HARDWAREID, DevicePowerEnumDevices, DevicePowerEnumDevices function, PDCAP_D0_SUPPORTED, PDCAP_D1_SUPPORTED, PDCAP_D2_SUPPORTED, PDCAP_D3_SUPPORTED, PDCAP_S0_SUPPORTED, PDCAP_S1_SUPPORTED, PDCAP_S2_SUPPORTED, PDCAP_S3_SUPPORTED, PDCAP_S4_SUPPORTED, PDCAP_S5_SUPPORTED, PDCAP_WAKE_FROM_D0_SUPPORTED, PDCAP_WAKE_FROM_D1_SUPPORTED, PDCAP_WAKE_FROM_D2_SUPPORTED, PDCAP_WAKE_FROM_D3_SUPPORTED, PDCAP_WAKE_FROM_S0_SUPPORTED, PDCAP_WAKE_FROM_S1_SUPPORTED, PDCAP_WAKE_FROM_S2_SUPPORTED, PDCAP_WAKE_FROM_S3_SUPPORTED, PDCAP_WARM_EJECT_SUPPORTED, base.devicepowerenumdevices, powrprof/DevicePowerEnumDevices
-f1_keywords:
-- powrprof/DevicePowerEnumDevices
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- DevicePowerEnumDevices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DevicePowerEnumDevices
+ - powrprof/DevicePowerEnumDevices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - DevicePowerEnumDevices
 ---
 
 # DevicePowerEnumDevices function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates devices on the system that meet the specified criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param QueryIndex [in]
 
 The index of the requested device. For initial calls, this value should be zero.
-
 
 ### -param QueryInterpretationFlags [in]
 
@@ -128,8 +124,6 @@ Find a device whose name matches the string passed in <i>pReturnBuffer</i> and c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param QueryFlags [in]
 
@@ -350,13 +344,10 @@ The device supports warm eject.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReturnBuffer [out, optional]
 
 Pointer to a buffer that receives the requested information.
-
 
 ### -param pBufferSize [in, out]
 
@@ -369,18 +360,11 @@ The size, in bytes, of the return buffer.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The values of the <i>QueryFlags</i> parameter may be combined to query for devices that 
      support two or more criteria. For example; if <b>PDCAP_D3_SUPPORTED</b> | 
@@ -399,19 +383,10 @@ The values of the <i>QueryFlags</i> parameter may be combined to query for devic
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Power/using-the-device-power-api">Using the Device Power API</a>.
+     <a href="/windows/desktop/Power/using-the-device-power-api">Using the Device Power API</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/device-power-management">Device Power Management</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/device-power-management">Device Power Management</a>

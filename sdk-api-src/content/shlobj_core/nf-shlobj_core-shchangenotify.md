@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.SHChangeNotify
 title: SHChangeNotify function (shlobj_core.h)
 description: Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.
+helpviewer_keywords: ["SHCNE_ALLEVENTS","SHCNE_ASSOCCHANGED","SHCNE_ATTRIBUTES","SHCNE_CREATE","SHCNE_DELETE","SHCNE_DISKEVENTS","SHCNE_DRIVEADD","SHCNE_DRIVEADDGUI","SHCNE_DRIVEREMOVED","SHCNE_EXTENDED_EVENT","SHCNE_FREESPACE","SHCNE_GLOBALEVENTS","SHCNE_INTERRUPT","SHCNE_MEDIAINSERTED","SHCNE_MEDIAREMOVED","SHCNE_MKDIR","SHCNE_NETSHARE","SHCNE_NETUNSHARE","SHCNE_RENAMEFOLDER","SHCNE_RENAMEITEM","SHCNE_RMDIR","SHCNE_SERVERDISCONNECT","SHCNE_UPDATEDIR","SHCNE_UPDATEIMAGE","SHCNE_UPDATEITEM","SHCNF_DWORD","SHCNF_FLUSH","SHCNF_FLUSHNOWAIT","SHCNF_IDLIST","SHCNF_NOTIFYRECURSIVE","SHCNF_PATH","SHCNF_PRINTER","SHChangeNotify","SHChangeNotify function [Windows Shell]","_win32_SHChangeNotify","shell.SHChangeNotify","shlobj_core/SHChangeNotify"]
 old-location: shell\SHChangeNotify.htm
 tech.root: shell
 ms.assetid: a9222ce9-0d06-4fd0-af3a-fd0e979713ce
 ms.date: 12/05/2018
 ms.keywords: SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_EXTENDED_EVENT, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, SHCNF_DWORD, SHCNF_FLUSH, SHCNF_FLUSHNOWAIT, SHCNF_IDLIST, SHCNF_NOTIFYRECURSIVE, SHCNF_PATH, SHCNF_PRINTER, SHChangeNotify, SHChangeNotify function [Windows Shell], _win32_SHChangeNotify, shell.SHChangeNotify, shlobj_core/SHChangeNotify
-f1_keywords:
-- shlobj_core/SHChangeNotify
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-Shell-Changenotify-L1-1-0.dll
-- Ext-Ms-Win-Shell-Directory-L1-1-0.dll
-- Ext-MS-Win-Shell-Shell32-L1-1-0.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-0.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-- Windows.Storage.dll
-api_name:
-- SHChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHChangeNotify
+ - shlobj_core/SHChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-Shell-Changenotify-L1-1-0.dll
+ - Ext-Ms-Win-Shell-Directory-L1-1-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-1-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-0.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - Windows.Storage.dll
+api_name:
+ - SHChangeNotify
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHChangeNotify function
@@ -55,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.
 
-
 ## -parameters
-
-
-
 
 ### -param wEventId
 
@@ -224,7 +222,6 @@ Specifies a combination of all of the global event identifiers.
 
 The specified event occurred as a result of a system interrupt. As this value modifies other event values, it cannot be used alone.
 
-
 ### -param uFlags
 
 Type: <b>UINT</b>
@@ -241,7 +238,7 @@ The <i>dwItem1</i> and <i>dwItem2</i> parameters are <b>DWORD</b> values.
 
 #### SHCNF_IDLIST
 
-<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
+<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
 
 
 
@@ -273,13 +270,11 @@ The function should begin delivering notifications to all affected components bu
 
 Notify clients registered for all children.
 
-
 ### -param dwItem1 [in, optional]
 
 Type: <b>LPCVOID</b>
 
 Optional. First event-dependent value.
-
 
 ### -param dwItem2 [in, optional]
 
@@ -287,23 +282,8 @@ Type: <b>LPCVOID</b>
 
 Optional. Second event-dependent value.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 Applications that register new handlers of any type must call <b>SHChangeNotify</b> with the <b>SHCNE_ASSOCCHANGED</b> flag to instruct the Shell to invalidate the icon and thumbnail cache. This will also load new icon and thumbnail handlers that have been registered. Note, however, that icon overlay handlers are not reloaded.
 
 The strings pointed to by <i>dwItem1</i> and <i>dwItem2</i> can be either ANSI or Unicode.
-
-
-

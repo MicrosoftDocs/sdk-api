@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsNamespace.RemoveSettingByPath
 title: ISettingsNamespace::RemoveSettingByPath (wcmconfig.h)
 description: Removes the setting object specified by a path.
+helpviewer_keywords: ["ISettingsNamespace interface [SMI]","RemoveSettingByPath method","ISettingsNamespace.RemoveSettingByPath","ISettingsNamespace::RemoveSettingByPath","RemoveSettingByPath","RemoveSettingByPath method [SMI]","RemoveSettingByPath method [SMI]","ISettingsNamespace interface","smi.isettingsnamespace_removesettingbypath","wcmconfig/ISettingsNamespace::RemoveSettingByPath"]
 old-location: smi\isettingsnamespace_removesettingbypath.htm
 tech.root: SMI
 ms.assetid: 6c2cf0be-9c9f-46d6-9108-47d2ad405645
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISettingsNamespace.RemoveSettingByPath, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
-f1_keywords:
-- wcmconfig/ISettingsNamespace.RemoveSettingByPath
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsNamespace.RemoveSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsNamespace::RemoveSettingByPath
+ - wcmconfig/ISettingsNamespace::RemoveSettingByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsNamespace.RemoveSettingByPath
 ---
 
 # ISettingsNamespace::RemoveSettingByPath
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the setting object specified by a path.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 The path of the setting object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -151,18 +145,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>

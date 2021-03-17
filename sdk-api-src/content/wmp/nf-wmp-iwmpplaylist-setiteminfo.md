@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlaylist.setItemInfo
 title: IWMPPlaylist::setItemInfo (wmp.h)
 description: The setItemInfo method specifies the value of an attribute of the current playlist. .
+helpviewer_keywords: ["IWMPPlaylist interface [Windows Media Player]","setItemInfo method","IWMPPlaylist.setItemInfo","IWMPPlaylist::setItemInfo","IWMPPlaylistsetItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPPlaylist interface","wmp.iwmpplaylist_setiteminfo","wmp/IWMPPlaylist::setItemInfo"]
 old-location: wmp\iwmpplaylist_setiteminfo.htm
 tech.root: WMP
 ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
-f1_keywords:
-- wmp/IWMPPlaylist.setItemInfo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlaylist.setItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylist::setItemInfo
+ - wmp/IWMPPlaylist::setItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlaylist.setItemInfo
 ---
 
 # IWMPPlaylist::setItemInfo
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>setItemInfo</b> method specifies the value of an attribute of the current playlist. .
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 String containing the attribute name.
 
-
 ### -param bstrValue [in]
 
 String containing the attribute value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,33 +83,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have full access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-getiteminfo">IWMPPlaylist::getItemInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-getiteminfo">IWMPPlaylist::getItemInfo</a>

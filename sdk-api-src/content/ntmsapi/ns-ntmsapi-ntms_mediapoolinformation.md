@@ -2,15 +2,12 @@
 UID: NS:ntmsapi._NTMS_MEDIAPOOLINFORMATION
 title: NTMS_MEDIAPOOLINFORMATION (ntmsapi.h)
 description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.
+helpviewer_keywords: ["NTMS_ALLOCATE_FROMSCRATCH","NTMS_DEALLOCATE_TOSCRATCH","NTMS_MEDIAPOOLINFORMATION","NTMS_MEDIAPOOLINFORMATION structure [Files]","NTMS_POOLTYPE_APPLICATION","NTMS_POOLTYPE_FOREIGN","NTMS_POOLTYPE_IMPORT","NTMS_POOLTYPE_SCRATCH","NTMS_POOLTYPE_UNKNOWN","_zaw_ntms_mediapoolinformation","base.ntms_mediapoolinformation","fs.ntms_mediapoolinformation","ntmsapi/NTMS_MEDIAPOOLINFORMATION"]
 old-location: fs\ntms_mediapoolinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 4feb9d68-f88b-4515-9c59-64fe9c5594d6
 ms.date: 12/05/2018
 ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOOLINFORMATION, NTMS_MEDIAPOOLINFORMATION structure [Files], NTMS_POOLTYPE_APPLICATION, NTMS_POOLTYPE_FOREIGN, NTMS_POOLTYPE_IMPORT, NTMS_POOLTYPE_SCRATCH, NTMS_POOLTYPE_UNKNOWN, _zaw_ntms_mediapoolinformation, base.ntms_mediapoolinformation, fs.ntms_mediapoolinformation, ntmsapi/NTMS_MEDIAPOOLINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_MEDIAPOOLINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_MEDIAPOOLINFORMATION
 targetos: Windows
 req.typenames: NTMS_MEDIAPOOLINFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_MEDIAPOOLINFORMATION
+ - ntmsapi/_NTMS_MEDIAPOOLINFORMATION
+ - NTMS_MEDIAPOOLINFORMATION
+ - ntmsapi/NTMS_MEDIAPOOLINFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_MEDIAPOOLINFORMATION
 ---
 
 # NTMS_MEDIAPOOLINFORMATION structure
@@ -48,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_MEDIAPOOLINFORMATION</b> structure defines the properties specific to a media pool object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PoolType
 
@@ -122,18 +121,14 @@ Media pool created by an application. One or more application media pools can be
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MediaType
 
 Single media type that makes up each media pool.
 
-
 ### -field Parent
 
 Parent media pool or <b>NULL</b>.
-
 
 ### -field AllocationPolicy
 
@@ -157,8 +152,6 @@ Draw media from free if none is available in the pool. The default is not to dra
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DeallocationPolicy
 
@@ -182,47 +175,29 @@ Return media to free when available. The default is not to return to free.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwMaxAllocates
 
 Number of times the medium can be allocated and deallocated. This member is writable.
 
-
 ### -field dwNumberOfPhysicalMedia
 
 Number of physical media in this media pool.
-
 
 ### -field dwNumberOfLogicalMedia
 
 Number of logical media in this media pool.
 
-
 ### -field dwNumberOfMediaPools
 
 Number of media pools in this media pool.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_MEDIAPOOLINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
-
-
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

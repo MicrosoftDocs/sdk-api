@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPDeviceControl.GetCapabilities
 title: IMDSPDeviceControl::GetCapabilities (mswmdm.h)
 description: The GetCapabilities method retrieves the capabilities mask for the device with which this control interface is associated. The capabilities describe the methods of the device control that are supported by the media device.
+helpviewer_keywords: ["GetCapabilities","GetCapabilities method [windows Media Device Manager]","GetCapabilities method [windows Media Device Manager]","IMDSPDeviceControl interface","IMDSPDeviceControl interface [windows Media Device Manager]","GetCapabilities method","IMDSPDeviceControl.GetCapabilities","IMDSPDeviceControl::GetCapabilities","IMDSPDeviceControlGetCapabilities","mswmdm/IMDSPDeviceControl::GetCapabilities","wmdm.imdspdevicecontrol_getcapabilities"]
 old-location: wmdm\imdspdevicecontrol_getcapabilities.htm
 tech.root: WMDM
 ms.assetid: 5d4e433a-fb2a-43c4-ab7f-fb7168636455
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPDeviceControl interface, IMDSPDeviceControl interface [windows Media Device Manager],GetCapabilities method, IMDSPDeviceControl.GetCapabilities, IMDSPDeviceControl::GetCapabilities, IMDSPDeviceControlGetCapabilities, mswmdm/IMDSPDeviceControl::GetCapabilities, wmdm.imdspdevicecontrol_getcapabilities
-f1_keywords:
-- mswmdm/IMDSPDeviceControl.GetCapabilities
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPDeviceControl.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDeviceControl::GetCapabilities
+ - mswmdm/IMDSPDeviceControl::GetCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPDeviceControl.GetCapabilities
 ---
 
 # IMDSPDeviceControl::GetCapabilities
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCapabilities</b> method retrieves the capabilities mask for the device with which this control interface is associated. The capabilities describe the methods of the device control that are supported by the media device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwCapabilitiesMask [out]
 
@@ -105,12 +99,8 @@ Pointer to a <b>DWORD</b> containing the capabilities of the device. The followi
 <td>The media device can seek to a position other than the beginning of a file.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,18 +143,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>

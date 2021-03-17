@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshowOptions
 title: IDesktopWallpaper::GetSlideshowOptions (shobjidl_core.h)
 description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.
+helpviewer_keywords: ["DSO_SHUFFLEIMAGES","GetSlideshowOptions","GetSlideshowOptions method [Windows Shell]","GetSlideshowOptions method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetSlideshowOptions method","IDesktopWallpaper.GetSlideshowOptions","IDesktopWallpaper::GetSlideshowOptions","shell.IDesktopWallpaper_GetSlideshowOptions","shobjidl_core/IDesktopWallpaper::GetSlideshowOptions"]
 old-location: shell\IDesktopWallpaper_GetSlideshowOptions.htm
 tech.root: shell
 ms.assetid: 2EB99E61-F5B4-4f07-8A87-793BE59D309B
 ms.date: 12/05/2018
 ms.keywords: DSO_SHUFFLEIMAGES, GetSlideshowOptions, GetSlideshowOptions method [Windows Shell], GetSlideshowOptions method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetSlideshowOptions method, IDesktopWallpaper.GetSlideshowOptions, IDesktopWallpaper::GetSlideshowOptions, shell.IDesktopWallpaper_GetSlideshowOptions, shobjidl_core/IDesktopWallpaper::GetSlideshowOptions
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper.GetSlideshowOptions
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper.GetSlideshowOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper::GetSlideshowOptions
+ - shobjidl_core/IDesktopWallpaper::GetSlideshowOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper.GetSlideshowOptions
 ---
 
 # IDesktopWallpaper::GetSlideshowOptions
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 
-
 ## -parameters
-
-
-
 
 ### -param options [out]
 
@@ -69,17 +66,13 @@ A pointer to a value that, when this method returns successfully, receives eithe
 
 Shuffle is enabled; the images are shown in a random order.
 
-
 ### -param slideshowTick [out]
 
 Type: <b>UINT*</b>
 
 A pointer to a value that, when this method returns successfully, receives the interval between image transitions, in milliseconds.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -102,22 +95,11 @@ A <b>NULL</b> pointer was provided in one of the parameters.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>

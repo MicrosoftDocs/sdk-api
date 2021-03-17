@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarNumFromParseNum
 title: VarNumFromParseNum function (oleauto.h)
 description: Converts parsed results to a variant.
+helpviewer_keywords: ["VTBIT_CY","VTBIT_DECIMAL","VTBIT_I1","VTBIT_I2","VTBIT_I4","VTBIT_R4","VTBIT_R8","VTBIT_UI1","VTBIT_UI2","VTBIT_UI4","VarNumFromParseNum","VarNumFromParseNum function [Automation]","_oa96_VarNumFromParseNum","automat.varnumfromparsenum","oleauto/VarNumFromParseNum"]
 old-location: automat\varnumfromparsenum.htm
 tech.root: automat
 ms.assetid: 6a01a779-ab1b-4fd5-a550-449b19358b7a
 ms.date: 12/05/2018
 ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VTBIT_R8, VTBIT_UI1, VTBIT_UI2, VTBIT_UI4, VarNumFromParseNum, VarNumFromParseNum function [Automation], _oa96_VarNumFromParseNum, automat.varnumfromparsenum, oleauto/VarNumFromParseNum
-f1_keywords:
-- oleauto/VarNumFromParseNum
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarNumFromParseNum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarNumFromParseNum
+ - oleauto/VarNumFromParseNum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarNumFromParseNum
 ---
 
 # VarNumFromParseNum function
@@ -48,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts parsed results to a variant.
 
-
 ## -parameters
-
-
-
 
 ### -param pnumprs [in]
 
 The parsed results. The <b>cDig</b> member of this argument specifies the number of digits present in <i>rgbDig</i>.
 
-
-
 ### -param rgbDig [in]
 
 The values of the digits. The <b>cDig</b> field of <i>pnumprs</i> contains the number of digits.
-
-
 
 ### -param dwVtBits [in]
 
@@ -133,15 +126,11 @@ One bit set for each type that is acceptable as a return value (in many cases, j
 
 #### VTBIT_DECIMAL
 
-
 ### -param pvar [out]
 
 The variant result.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -185,17 +174,8 @@ The number is too large to be represented in an allowed type. There is no error 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For rounding decimal numbers, the digit array must be at least one digit longer than the maximum required for data types. The maximum number of digits required for the DECIMAL data type is 29, so the digit array must have room for 30 digits. There must also be enough digits to accept the number in octal, if that parsing options is selected. (Hexadecimal and octal numbers are limited by <b>VarNumFromParseNum</b> to the magnitude of an unsigned long [32 bits], so they need 11 octal digits.)
-
-
-
 

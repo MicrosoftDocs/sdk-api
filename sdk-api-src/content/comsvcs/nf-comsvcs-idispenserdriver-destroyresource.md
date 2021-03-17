@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IDispenserDriver.DestroyResource
 title: IDispenserDriver::DestroyResource (comsvcs.h)
 description: Destroys a resource.
+helpviewer_keywords: ["DestroyResource","DestroyResource method [COM+]","DestroyResource method [COM+]","IDispenserDriver interface","IDispenserDriver interface [COM+]","DestroyResource method","IDispenserDriver.DestroyResource","IDispenserDriver::DestroyResource","_dtc_IDispenserDriver_DestroyResource","comsvcs/IDispenserDriver::DestroyResource","cos.idispenserdriver_destroyresource"]
 old-location: cos\idispenserdriver_destroyresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 94e3e340-7dde-4b7f-82a9-83cd2400bde5
 ms.date: 12/05/2018
 ms.keywords: DestroyResource, DestroyResource method [COM+], DestroyResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResource method, IDispenserDriver.DestroyResource, IDispenserDriver::DestroyResource, _dtc_IDispenserDriver_DestroyResource, comsvcs/IDispenserDriver::DestroyResource, cos.idispenserdriver_destroyresource
-f1_keywords:
-- comsvcs/IDispenserDriver.DestroyResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IDispenserDriver.DestroyResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispenserDriver::DestroyResource
+ - comsvcs/IDispenserDriver::DestroyResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IDispenserDriver.DestroyResource
 ---
 
 # IDispenserDriver::DestroyResource
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param ResId [in]
 
 The resource that the Dispenser Manager is asking the Resource Dispenser to destroy.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,18 +101,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>

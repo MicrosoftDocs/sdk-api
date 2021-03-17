@@ -2,15 +2,12 @@
 UID: NS:ddrawint._DD_SURFACE_MORE
 title: DD_SURFACE_MORE (ddrawint.h)
 description: The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object.
+helpviewer_keywords: ["*PDD_SURFACE_MORE","DD_SURFACE_MORE","DD_SURFACE_MORE structure [Display Devices]","PDD_SURFACE_MORE","PDD_SURFACE_MORE structure pointer [Display Devices]","ddrawint/DD_SURFACE_MORE","ddrawint/PDD_SURFACE_MORE","ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml","display.dd_surface_more"]
 old-location: display\dd_surface_more.htm
 tech.root: display
 ms.assetid: 4b000d0f-4ff1-4155-92be-b56793978b1f
 ms.date: 12/05/2018
 ms.keywords: '*PDD_SURFACE_MORE, DD_SURFACE_MORE, DD_SURFACE_MORE structure [Display Devices], PDD_SURFACE_MORE, PDD_SURFACE_MORE structure pointer [Display Devices], ddrawint/DD_SURFACE_MORE, ddrawint/PDD_SURFACE_MORE, ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml, display.dd_surface_more'
-f1_keywords:
-- ddrawint/DD_SURFACE_MORE
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_SURFACE_MORE
 targetos: Windows
 req.typenames: '*PDD_SURFACE_MORE, DD_SURFACE_MORE'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_SURFACE_MORE
+ - ddrawint/_DD_SURFACE_MORE
+ - PDD_SURFACE_MORE
+ - ddrawint/PDD_SURFACE_MORE
+ - DD_SURFACE_MORE
+ - ddrawint/DD_SURFACE_MORE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_SURFACE_MORE
 ---
 
 # DD_SURFACE_MORE structure
@@ -48,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object. 
-
+The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object.
 
 ## -struct-fields
 
-
-
-
 ### -field dwMipMapCount
 
-Contains the number of mipmap levels in the chain. 
-
+Contains the number of mipmap levels in the chain.
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object currently writing data to this surface. 
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure of the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object currently writing data to this surface.
 
 ### -field dwOverlayFlags
 
-Specifies a set of flags that indicate the overlay flags most recently passed to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
+Specifies a set of flags that indicate the overlay flags most recently passed to <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>. This member is a bitwise OR of any of the following values:
 
 <table>
 <tr>
@@ -317,34 +316,23 @@ Turn this overlay on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ddsCapsEx
 
-Specifies a DDSCAPSEX structure that is used to expose extended surface capabilities. A DDSCAPSEX structure is the same as a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure without the <b>dwCaps</b> member. 
-
+Specifies a DDSCAPSEX structure that is used to expose extended surface capabilities. A DDSCAPSEX structure is the same as a <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a> structure without the <b>dwCaps</b> member.
 
 ### -field dwSurfaceHandle
 
-Specifies a cookie for <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> so that it can associate a texture handle with the surface. 
-
+Specifies a cookie for <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a> so that it can associate a texture handle with the surface.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurfaceex">D3dCreateSurfaceEx</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>

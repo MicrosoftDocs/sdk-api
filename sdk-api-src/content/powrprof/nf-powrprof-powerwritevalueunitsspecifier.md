@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerWriteValueUnitsSpecifier
 title: PowerWriteValueUnitsSpecifier function (powrprof.h)
 description: Writes the string used to describe the units of a power setting that supports a range of values.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueUnitsSpecifier","PowerWriteValueUnitsSpecifier function","base.powerwritevalueunitsspecifier","powrprof/PowerWriteValueUnitsSpecifier"]
 old-location: base\powerwritevalueunitsspecifier.htm
-tech.root: power
+tech.root: base
 ms.assetid: d9a81077-23e8-4bae-8e70-ffaaaf1ecda3
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueUnitsSpecifier, PowerWriteValueUnitsSpecifier function, base.powerwritevalueunitsspecifier, powrprof/PowerWriteValueUnitsSpecifier
-f1_keywords:
-- powrprof/PowerWriteValueUnitsSpecifier
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerWriteValueUnitsSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWriteValueUnitsSpecifier
+ - powrprof/PowerWriteValueUnitsSpecifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerWriteValueUnitsSpecifier
 ---
 
 # PowerWriteValueUnitsSpecifier function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes the string used to describe the units of a power setting that supports a range of 
     values. For example "minutes" may be used to describe a timeout setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -162,51 +158,29 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param Buffer [in]
 
 The units specifier, in wide (Unicode) characters.
-
 
 ### -param BufferSize [in]
 
 The size of the buffer pointed to by the <i>Buffer</i> parameter.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -remarks
 
-
-
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

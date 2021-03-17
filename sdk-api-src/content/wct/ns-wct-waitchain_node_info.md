@@ -2,15 +2,12 @@
 UID: NS:wct._WAITCHAIN_NODE_INFO
 title: WAITCHAIN_NODE_INFO (wct.h)
 description: Represents a node in a wait chain.
+helpviewer_keywords: ["*PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO","PWAITCHAIN_NODE_INFO structure pointer","WAITCHAIN_NODE_INFO","WAITCHAIN_NODE_INFO structure","WctAlpcType","WctComActivationType","WctComType","WctCriticalSectionType","WctMutexType","WctProcessWaitType","WctSendMessageType","WctStatusAbandoned","WctStatusBlocked","WctStatusError","WctStatusNoAccess","WctStatusNotOwned","WctStatusOwned","WctStatusPidOnly","WctStatusPidOnlyRpcss","WctStatusRunning","WctStatusUnknown","WctThreadType","WctThreadWaitType","WctUnknownType","base.waitchain_node_info","wct/PWAITCHAIN_NODE_INFO","wct/WAITCHAIN_NODE_INFO"]
 old-location: base\waitchain_node_info.htm
 tech.root: Debug
 ms.assetid: 7a333924-79a3-4522-aa5a-4fc60690667d
 ms.date: 12/05/2018
 ms.keywords: '*PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO structure pointer, WAITCHAIN_NODE_INFO, WAITCHAIN_NODE_INFO structure, WctAlpcType, WctComActivationType, WctComType, WctCriticalSectionType, WctMutexType, WctProcessWaitType, WctSendMessageType, WctStatusAbandoned, WctStatusBlocked, WctStatusError, WctStatusNoAccess, WctStatusNotOwned, WctStatusOwned, WctStatusPidOnly, WctStatusPidOnlyRpcss, WctStatusRunning, WctStatusUnknown, WctThreadType, WctThreadWaitType, WctUnknownType, base.waitchain_node_info, wct/PWAITCHAIN_NODE_INFO, wct/WAITCHAIN_NODE_INFO'
-f1_keywords:
-- wct/WAITCHAIN_NODE_INFO
-dev_langs:
-- c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wct.h
-api_name:
-- WAITCHAIN_NODE_INFO
 targetos: Windows
 req.typenames: WAITCHAIN_NODE_INFO, *PWAITCHAIN_NODE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WAITCHAIN_NODE_INFO
+ - wct/_WAITCHAIN_NODE_INFO
+ - PWAITCHAIN_NODE_INFO
+ - wct/PWAITCHAIN_NODE_INFO
+ - WAITCHAIN_NODE_INFO
+ - wct/WAITCHAIN_NODE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wct.h
+api_name:
+ - WAITCHAIN_NODE_INFO
 ---
 
 # WAITCHAIN_NODE_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a node in a wait chain.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ObjectType
 
@@ -131,7 +132,6 @@ The object type. This member is one of the following values from the <b>WCT_OBJE
 
 #### WctUnknownType
 
-
 ### -field ObjectStatus
 
 The object status.  This member is one of the following values from the <b>WCT_OBJECT_STATUS</b> enumeration type.
@@ -206,59 +206,42 @@ The object status.  This member is one of the following values from the <b>WCT_O
 
 #### WctStatusError
 
-
 ### -field LockObject
-
 
 ### -field LockObject.ObjectName
 
 The name of the object. Object names are only available for certain object, such as mutexes. If the object does not have a name, this member is an empty string.
 
-
 ### -field LockObject.Timeout
 
 This member is reserved for future use.
-
 
 ### -field LockObject.Alertable
 
 This member is reserved for future use.
 
-
 ### -field ThreadObject
-
 
 ### -field ThreadObject.ProcessId
 
 The process identifier.
 
-
 ### -field ThreadObject.ThreadId
 
 The thread identifier. For COM and ALPC, this member can be 0.
-
 
 ### -field ThreadObject.WaitTime
 
 The wait time.
 
-
 ### -field ThreadObject.ContextSwitches
 
 The number of context switches.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-getthreadwaitchain">GetThreadWaitChain</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>

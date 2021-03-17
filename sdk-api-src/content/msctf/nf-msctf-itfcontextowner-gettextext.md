@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContextOwner.GetTextExt
 title: ITfContextOwner::GetTextExt (msctf.h)
 description: The ITfContextOwner::GetTextExt method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
+helpviewer_keywords: ["GetTextExt","GetTextExt method [Text Services Framework]","GetTextExt method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetTextExt method","ITfContextOwner.GetTextExt","ITfContextOwner::GetTextExt","_tsf_itfcontextowner_gettextext_ref","msctf/ITfContextOwner::GetTextExt","tsf.itfcontextowner_gettextext"]
 old-location: tsf\itfcontextowner_gettextext.htm
 tech.root: TSF
 ms.assetid: edde0ba7-1d88-4c32-b794-761b66d73507
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
-f1_keywords:
-- msctf/ITfContextOwner.GetTextExt
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msimtf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msimtf.dll
-api_name:
-- ITfContextOwner.GetTextExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwner::GetTextExt
+ - msctf/ITfContextOwner::GetTextExt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msimtf.dll
+api_name:
+ - ITfContextOwner.GetTextExt
 ---
 
 # ITfContextOwner::GetTextExt
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextOwner::GetTextExt</b> method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 
-
 ## -parameters
-
-
-
 
 ### -param acpStart [in]
 
 Specifies the starting character position of the text to get in the document.
 
-
 ### -param acpEnd [in]
 
 Specifies the ending character position of the text to get in the document.
-
 
 ### -param prc [out]
 
 Receives the bounding box, in screen coordinates, of the text at the specified character positions.
 
-
 ### -param pfClipped [out]
 
 Receives the Boolean value that specifies if the text in the bounding box has been clipped. If this parameter is <b>TRUE</b>, the bounding box contains clipped text and does not include the entire requested range of text. The bounding box is clipped because of the requested range is not visible.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,37 +135,21 @@ The caller does not have a read-only lock on the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the document window is minimized, or if the specified text is not currently visible, the method returns S_OK with the <i>prc</i> parameter set to {0,0,0,0}.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITextStoreACP::GetTextExt
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITextStoreACP::GetTextExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
- 
-
- 
-

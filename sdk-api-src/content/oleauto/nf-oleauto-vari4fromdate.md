@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI4FromDate
 title: VarI4FromDate function (oleauto.h)
 description: Converts a date value to a long value.
+helpviewer_keywords: ["VarI4FromDate","VarI4FromDate function [Automation]","_oa96_VarI4FromDate","automat.vari4fromdate","oleauto/VarI4FromDate"]
 old-location: automat\vari4fromdate.htm
 tech.root: automat
 ms.assetid: 97ef1fb3-11c8-4889-82d4-9be4734a95ba
 ms.date: 12/05/2018
 ms.keywords: VarI4FromDate, VarI4FromDate function [Automation], _oa96_VarI4FromDate, automat.vari4fromdate, oleauto/VarI4FromDate
-f1_keywords:
-- oleauto/VarI4FromDate
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI4FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI4FromDate
+ - oleauto/VarI4FromDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI4FromDate
 ---
 
 # VarI4FromDate function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a date value to a long value.
 
-
 ## -parameters
-
-
-
 
 ### -param dateIn [in]
 
 The value to convert.
 
-
 ### -param plOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

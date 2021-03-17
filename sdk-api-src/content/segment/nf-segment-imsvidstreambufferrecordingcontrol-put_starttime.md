@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferRecordingControl.put_StartTime
 title: IMSVidStreamBufferRecordingControl::put_StartTime (segment.h)
 description: The put_StartTime method sets the start time for the recording.
+helpviewer_keywords: ["IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies]","put_StartTime method","IMSVidStreamBufferRecordingControl.put_StartTime","IMSVidStreamBufferRecordingControl::put_StartTime","IMSVidStreamBufferRecordingControlput_StartTime","mstv.imsvidstreambufferrecordingcontrol_put_starttime","put_StartTime","put_StartTime method [Microsoft TV Technologies]","put_StartTime method [Microsoft TV Technologies]","IMSVidStreamBufferRecordingControl interface","segment/IMSVidStreamBufferRecordingControl::put_StartTime"]
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_starttime.htm
 tech.root: mstv
 ms.assetid: 923fecbb-00f4-445f-a5cb-ef898580396e
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StartTime method, IMSVidStreamBufferRecordingControl.put_StartTime, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StartTime
-f1_keywords:
-- segment/IMSVidStreamBufferRecordingControl.put_StartTime
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferRecordingControl.put_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferRecordingControl::put_StartTime
+ - segment/IMSVidStreamBufferRecordingControl::put_StartTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferRecordingControl.put_StartTime
 ---
 
 # IMSVidStreamBufferRecordingControl::put_StartTime
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_StartTime</b> method sets the start time for the recording.
 
-
 ## -parameters
-
-
-
 
 ### -param rtStart [in]
 
 Specifies the start time, in hundredths of seconds.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -96,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>

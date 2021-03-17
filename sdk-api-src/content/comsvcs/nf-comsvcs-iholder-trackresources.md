@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IHolder.TrackResourceS
 title: IHolder::TrackResourceS (comsvcs.h)
 description: Tracks the resource (string version).
+helpviewer_keywords: ["IHolder interface [COM+]","TrackResourceS method","IHolder.TrackResourceS","IHolder::TrackResourceS","TrackResourceS","TrackResourceS method [COM+]","TrackResourceS method [COM+]","IHolder interface","_dtc_IHolder_TrackResourceS","comsvcs/IHolder::TrackResourceS","cos.iholder_trackresources"]
 old-location: cos\iholder_trackresources.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 1971820f-49aa-455d-a533-1a88fd8c28b8
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],TrackResourceS method, IHolder.TrackResourceS, IHolder::TrackResourceS, TrackResourceS, TrackResourceS method [COM+], TrackResourceS method [COM+],IHolder interface, _dtc_IHolder_TrackResourceS, comsvcs/IHolder::TrackResourceS, cos.iholder_trackresources
-f1_keywords:
-- comsvcs/IHolder.TrackResourceS
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.TrackResourceS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::TrackResourceS
+ - comsvcs/IHolder::TrackResourceS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.TrackResourceS
 ---
 
 # IHolder::TrackResourceS
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tracks the resource (string version).
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0004 [in]
 
 The handle of the resource to be tracked. The Resource Dispenser has already created this resource before calling <b>TrackResourceS</b>.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,26 +101,15 @@ The method failed. The resource has not been tracked. The likely cause is that t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>

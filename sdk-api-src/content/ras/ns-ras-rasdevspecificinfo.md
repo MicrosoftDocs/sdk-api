@@ -2,15 +2,12 @@
 UID: NS:ras.tagRASDEVSPECIFICINFO
 title: RASDEVSPECIFICINFO (ras.h)
 description: Used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
+helpviewer_keywords: ["*PRASDEVSPECIFICINFO","PRASDEVSPECIFICINFO","PRASDEVSPECIFICINFO structure pointer [RAS]","RASDEVSPECIFICINFO","RASDEVSPECIFICINFO structure [RAS]","ras/PRASDEVSPECIFICINFO","ras/RASDEVSPECIFICINFO","rras.rasdevspecificinfo"]
 old-location: rras\rasdevspecificinfo.htm
 tech.root: RRAS
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.date: 12/05/2018
 ms.keywords: '*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo'
-f1_keywords:
-- ras/RASDEVSPECIFICINFO
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ras.h
-api_name:
-- RASDEVSPECIFICINFO
 targetos: Windows
 req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRASDEVSPECIFICINFO
+ - ras/tagRASDEVSPECIFICINFO
+ - PRASDEVSPECIFICINFO
+ - ras/PRASDEVSPECIFICINFO
+ - RASDEVSPECIFICINFO
+ - ras/RASDEVSPECIFICINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ras.h
+api_name:
+ - RASDEVSPECIFICINFO
 ---
 
 # RASDEVSPECIFICINFO structure
@@ -48,40 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RASDEVSPECIFICINFO</b> structure is used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of the cookie in <b>pbDevSpecificInfo</b>.
 
-
 ### -field pbDevSpecificInfo
 
 A pointer to a BLOB that contains the authentication cookie.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

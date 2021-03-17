@@ -2,15 +2,12 @@
 UID: NF:mmc.MMCPropPageCallback
 title: MMCPropPageCallback function (mmc.h)
 description: The MMCPropPageCallback function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.
+helpviewer_keywords: ["MMCPropPageCallback","MMCPropPageCallback callback","MMCPropPageCallback callback function [MMC]","_slate_mmcproppagecallback","mmc.mmcproppagecallback","mmc/MMCPropPageCallback"]
 old-location: mmc\mmcproppagecallback.htm
 tech.root: mmc
 ms.assetid: c1f952c5-df0f-4cc5-8d20-66a3a6701060
 ms.date: 12/05/2018
 ms.keywords: MMCPropPageCallback, MMCPropPageCallback callback, MMCPropPageCallback callback function [MMC], _slate_mmcproppagecallback, mmc.mmcproppagecallback, mmc/MMCPropPageCallback
-f1_keywords:
-- mmc/MMCPropPageCallback
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mmc.h
-api_name:
-- MMCPropPageCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MMCPropPageCallback
+ - mmc/MMCPropPageCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mmc.h
+api_name:
+ - MMCPropPageCallback
 ---
 
 # MMCPropPageCallback function
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MMCPropPageCallback</b> function is only required by Microsoft Foundation Classes (MFC)-based snap-ins. The function sets the correct module state during page creation.
 
-
 ## -parameters
-
-
-
 
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
-
+<a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 ## -returns
 
-
-
 This callback function can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 This function should not be called by snap-ins that statically link MFC libraries. A call to this function by such a snap-in will not link correctly.
 
@@ -97,18 +86,8 @@ AFX_MANAGE_STATE(AfxGetStaticModuleState( ))
 
 For an operating system call, MFC does this automatically. Because MMC's property sheet is not an MFC <b>CPropertySheet</b>, the operating system call due to the callback is in the wrong module state. As a result, you need to make sure that the module state is correctly set during the page creation. This is the purpose of 
 <b>MMCPropPageCallback</b>. After the module state has been set, the only AFX_MANAGE_STATE calls that need to be made are those exposed by the COM interfaces implemented by the snap-in (for example 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>). To determine whether the application has the correct module state, look at <b>CWinApp</b> and note the application name.
-
-
-
+<a href="/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>). To determine whether the application has the correct module state, look at <b>CWinApp</b> and note the application name.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a>

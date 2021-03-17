@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssExpressWriter.Unregister
 title: IVssExpressWriter::Unregister (vswriter.h)
 description: Causes VSS to delete the writer's metadata from the express writer metadata store.
+helpviewer_keywords: ["IVssExpressWriter interface","Unregister method","IVssExpressWriter.Unregister","IVssExpressWriter::Unregister","Unregister","Unregister method","Unregister method","IVssExpressWriter interface","base.ivssexpresswriter_unregister","vswriter/IVssExpressWriter::Unregister"]
 old-location: base\ivssexpresswriter_unregister.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Unregister method, IVssExpressWriter.Unregister, IVssExpressWriter::Unregister, Unregister, Unregister method, Unregister method,IVssExpressWriter interface, base.ivssexpresswriter_unregister, vswriter/IVssExpressWriter::Unregister
-f1_keywords:
-- vswriter/IVssExpressWriter.Unregister
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsWriter.h
-api_name:
-- IVssExpressWriter.Unregister
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExpressWriter::Unregister
+ - vswriter/IVssExpressWriter::Unregister
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsWriter.h
+api_name:
+ - IVssExpressWriter.Unregister
 ---
 
 # IVssExpressWriter::Unregister
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes VSS to delete the writer's metadata from the express writer metadata store.
 
-
 ## -parameters
-
-
-
 
 ### -param writerId [in]
 
 The globally unique identifier (GUID) of the writer class.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -98,27 +92,11 @@ The <i>writerId</i> parameter specified a writer that does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before using this method, the caller must have used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
-
-
-
+Before using this method, the caller must have used the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>

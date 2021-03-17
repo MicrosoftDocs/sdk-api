@@ -2,15 +2,12 @@
 UID: NS:minwinbase._RIP_INFO
 title: RIP_INFO (minwinbase.h)
 description: Contains the error that caused the RIP debug event.
+helpviewer_keywords: ["*LPRIP_INFO","LPRIP_INFO","LPRIP_INFO structure pointer","RIP_INFO","RIP_INFO structure","SLE_ERROR","SLE_MINORERROR","SLE_WARNING","_RIP_INFO","_win32_rip_info_str","base.rip_info_str","winbase/LPRIP_INFO","winbase/RIP_INFO"]
 old-location: base\rip_info_str.htm
 tech.root: Debug
 ms.assetid: 2aef4de7-bf3d-4add-9801-e26081f0f76b
 ms.date: 12/05/2018
 ms.keywords: '*LPRIP_INFO, LPRIP_INFO, LPRIP_INFO structure pointer, RIP_INFO, RIP_INFO structure, SLE_ERROR, SLE_MINORERROR, SLE_WARNING, _RIP_INFO, _win32_rip_info_str, base.rip_info_str, winbase/LPRIP_INFO, winbase/RIP_INFO'
-f1_keywords:
-- minwinbase/RIP_INFO
-dev_langs:
-- c++
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- RIP_INFO
 targetos: Windows
 req.typenames: RIP_INFO, *LPRIP_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RIP_INFO
+ - minwinbase/_RIP_INFO
+ - LPRIP_INFO
+ - minwinbase/LPRIP_INFO
+ - RIP_INFO
+ - minwinbase/RIP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - RIP_INFO
 ---
 
 # RIP_INFO structure
@@ -48,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the error that caused the RIP debug event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwError
 
 The error that caused the RIP debug event. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling">Error Handling</a>.
-
+<a href="/windows/desktop/Debug/error-handling">Error Handling</a>.
 
 ### -field dwType
 
@@ -117,16 +117,7 @@ Indicates that only <b>dwError</b> was set.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>

@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetId
 title: IBitsPeerCacheRecord::GetId (bits3_0.h)
 description: Gets the identifier that uniquely identifies the record in the cache.
+helpviewer_keywords: ["GetId","GetId method [BITS]","GetId method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetId method","IBitsPeerCacheRecord.GetId","IBitsPeerCacheRecord::GetId","bits.ibitspeercacherecord_getid","bits3_0/IBitsPeerCacheRecord::GetId"]
 old-location: bits\ibitspeercacherecord_getid.htm
 tech.root: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [BITS], GetId method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetId method, IBitsPeerCacheRecord.GetId, IBitsPeerCacheRecord::GetId, bits.ibitspeercacherecord_getid, bits3_0/IBitsPeerCacheRecord::GetId
-f1_keywords:
-- bits3_0/IBitsPeerCacheRecord.GetId
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheRecord.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheRecord::GetId
+ - bits3_0/IBitsPeerCacheRecord::GetId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheRecord.GetId
 ---
 
 # IBitsPeerCacheRecord::GetId
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the identifier that uniquely identifies the record in the cache.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Identifier that uniquely identifies the record in the cache.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -86,18 +80,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>

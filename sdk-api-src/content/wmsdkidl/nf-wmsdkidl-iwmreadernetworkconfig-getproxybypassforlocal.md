@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyBypassForLocal
 title: IWMReaderNetworkConfig::GetProxyBypassForLocal (wmsdkidl.h)
 description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.
+helpviewer_keywords: ["GetProxyBypassForLocal","GetProxyBypassForLocal method [windows Media Format]","GetProxyBypassForLocal method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxyBypassForLocal method","IWMReaderNetworkConfig.GetProxyBypassForLocal","IWMReaderNetworkConfig::GetProxyBypassForLocal","IWMReaderNetworkConfigGetProxyBypassForLocal","wmformat.iwmreadernetworkconfig_getproxybypassforlocal","wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal"]
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
 ms.date: 12/05/2018
 ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetProxyBypassForLocal
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetProxyBypassForLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetProxyBypassForLocal
+ - wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetProxyBypassForLocal
 ---
 
 # IWMReaderNetworkConfig::GetProxyBypassForLocal
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetProxyBypassForLocal</b> method queries whether the reader object bypasses the proxy server for local URLs.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszProtocol [in]
 
 Pointer to a string that contains a protocol name, such as "http" or "mms". The string is not case-sensitive.
 
-
 ### -param pfBypassForLocal [out]
 
 Pointer to a variable that receives a Boolean value. If the value is <b>TRUE</b>, the reader bypasses the proxy server when it retrieves a URL from a local host. If the value is <b>FALSE</b>, the reader always goes through the proxy server (if any). The returned value applies only to the protocol specified in <i>pwszProtocol</i>; the reader object supports separate settings for each protocol.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,22 +108,11 @@ Insufficient memory to complete task
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxybypassforlocal">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxybypassforlocal">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>

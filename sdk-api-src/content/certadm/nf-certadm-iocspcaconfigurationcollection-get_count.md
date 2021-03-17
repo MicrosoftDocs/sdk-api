@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_Count
 title: IOCSPCAConfigurationCollection::get_Count (certadm.h)
 description: Gets the number of certification authority (CA) configurations in the configuration set.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","IOCSPCAConfigurationCollection interface","IOCSPCAConfigurationCollection interface [Security]","Count property","IOCSPCAConfigurationCollection.Count","IOCSPCAConfigurationCollection.get_Count","IOCSPCAConfigurationCollection::Count","IOCSPCAConfigurationCollection::get_Count","certadm/IOCSPCAConfigurationCollection::Count","certadm/IOCSPCAConfigurationCollection::get_Count","get_Count","security.iocspcaconfigurationcollection_count_method"]
 old-location: security\iocspcaconfigurationcollection_count_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection.get_Count, IOCSPCAConfigurationCollection::Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count, security.iocspcaconfigurationcollection_count_method
-f1_keywords:
-- certadm/IOCSPCAConfigurationCollection.Count
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfigurationCollection.Count
-- IOCSPCAConfigurationCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfigurationCollection::get_Count
+ - certadm/IOCSPCAConfigurationCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfigurationCollection.Count
+ - IOCSPCAConfigurationCollection.get_Count
 ---
 
 # IOCSPCAConfigurationCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Count</b> property gets the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configurations  in the configuration set.
+The <b>Count</b> property gets the number of <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configurations  in the configuration set.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>

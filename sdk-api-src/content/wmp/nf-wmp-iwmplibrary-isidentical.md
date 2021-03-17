@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPLibrary.isIdentical
 title: IWMPLibrary::isIdentical (wmp.h)
 description: The isIdentical method retrieves a value that indicates whether the supplied object is the same as the current one.
+helpviewer_keywords: ["IWMPLibrary interface [Windows Media Player]","isIdentical method","IWMPLibrary.isIdentical","IWMPLibrary::isIdentical","IWMPLibraryisIdentical","isIdentical","isIdentical method [Windows Media Player]","isIdentical method [Windows Media Player]","IWMPLibrary interface","wmp.iwmplibrary_isidentical","wmp/IWMPLibrary::isIdentical"]
 old-location: wmp\iwmplibrary_isidentical.htm
 tech.root: WMP
 ms.assetid: af121fc7-6a9a-4c1a-bea4-433e62ca19e3
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],isIdentical method, IWMPLibrary.isIdentical, IWMPLibrary::isIdentical, IWMPLibraryisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_isidentical, wmp/IWMPLibrary::isIdentical
-f1_keywords:
-- wmp/IWMPLibrary.isIdentical
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPLibrary.isIdentical
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPLibrary::isIdentical
+ - wmp/IWMPLibrary::isIdentical
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPLibrary.isIdentical
 ---
 
 # IWMPLibrary::isIdentical
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>isIdentical</b> method retrieves a value that indicates whether the supplied object is the same as the current one.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pIWMPLibrary [in]
 
 Pointer to an <b>IWMPLibrary</b> interface that represents the object to compare with current one.
 
-
 ### -param pvbool [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that receives the result of the comparison. VARIANT_TRUE indicates that the objects are the same.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,27 +83,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile:</b> This method is not supported.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>

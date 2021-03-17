@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions
 title: IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordRatedDimensions","GetRecordRatedDimensions method [Microsoft TV Technologies]","GetRecordRatedDimensions method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatedDimensions method","IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions","IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions","IAtscContentAdvisoryDescriptorGetRecordRatedDimensions","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions","mstv.iatsccontentadvisorydescriptor_getrecordrateddimensions"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordrateddimensions.htm
 tech.root: mstv
 ms.assetid: 6f0a8073-0361-4320-a5d9-7c536a07e9c3
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatedDimensions, GetRecordRatedDimensions method [Microsoft TV Technologies], GetRecordRatedDimensions method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatedDimensions method, IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions, IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, IAtscContentAdvisoryDescriptorGetRecordRatedDimensions, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions, mstv.iatsccontentadvisorydescriptor_getrecordrateddimensions
-f1_keywords:
-- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions
+ - atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscContentAdvisoryDescriptor.GetRecordRatedDimensions
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordRatedDimensions</b> method returns the number of rating dimensions for a specified rating region.
 
-
 ## -parameters
-
-
-
 
 ### -param bIndex [in]
 
-Zero-based index of the rating region. To get the number of rating regions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
-
+Zero-based index of the rating region. To get the number of rating regions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
 
 ### -param pbVal [out]
 
 Receives the rated_dimensions field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,18 +99,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>

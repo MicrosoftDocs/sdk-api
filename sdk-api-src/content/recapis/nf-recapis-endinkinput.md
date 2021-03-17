@@ -2,15 +2,12 @@
 UID: NF:recapis.EndInkInput
 title: EndInkInput function (recapis.h)
 description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.
+helpviewer_keywords: ["EndInkInput","EndInkInput function [Tablet PC]","e8aa252d-6b24-4864-9b3e-8edd30895303","recapis/EndInkInput","tablet.endinkinput"]
 old-location: tablet\endinkinput.htm
 tech.root: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.date: 12/05/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
-f1_keywords:
-- recapis/EndInkInput
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- EndInkInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EndInkInput
+ - recapis/EndInkInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - EndInkInput
 ---
 
 # EndInkInput function
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Indicates that no more ink will be added to the context.
 
 You cannot add strokes to the context after calling this function.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -123,14 +114,8 @@ The recognizer context handle is invalid or null.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The recognition results you receive after calling this function may be different from previous recognition results that were based on partial ink input.
 
@@ -138,5 +123,4 @@ The Ink Analysis API queries for the implementation of this method. If implement
 
 <div class="alert"><b>Note</b>  This function is not guaranteed to be called by all applications or operating system components, such as the Tablet PC Input Panel. Therefore, recognizers should not rely on it being called.</div>
 <div> </div>
-
 

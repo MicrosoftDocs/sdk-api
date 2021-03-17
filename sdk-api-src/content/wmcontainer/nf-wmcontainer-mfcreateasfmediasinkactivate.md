@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.MFCreateASFMediaSinkActivate
 title: MFCreateASFMediaSinkActivate function (wmcontainer.h)
 description: Creates an activation object that can be used to create the ASF media sink.
+helpviewer_keywords: ["513d0a33-1504-4b88-9629-9e3e0dde3617","MFCreateASFMediaSinkActivate","MFCreateASFMediaSinkActivate function [Media Foundation]","mf.mfcreateasfmediasinkactivate","wmcontainer/MFCreateASFMediaSinkActivate"]
 old-location: mf\mfcreateasfmediasinkactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 513d0a33-1504-4b88-9629-9e3e0dde3617
 ms.date: 12/05/2018
 ms.keywords: 513d0a33-1504-4b88-9629-9e3e0dde3617, MFCreateASFMediaSinkActivate, MFCreateASFMediaSinkActivate function [Media Foundation], mf.mfcreateasfmediasinkactivate, wmcontainer/MFCreateASFMediaSinkActivate
-f1_keywords:
-- wmcontainer/MFCreateASFMediaSinkActivate
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateASFMediaSinkActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateASFMediaSinkActivate
+ - wmcontainer/MFCreateASFMediaSinkActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateASFMediaSinkActivate
 ---
 
 # MFCreateASFMediaSinkActivate function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates an activation object that can be used to create the ASF media sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFileName
 
 Null-terminated wide-character string that contains the output file name.
 
-
 ### -param pContentInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of an initialized <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-file-structure">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
-
+A pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of an initialized <a href="/windows/desktop/medfound/asf-file-structure">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
 
 ### -param ppIActivate
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,22 +87,11 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

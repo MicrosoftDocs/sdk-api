@@ -2,15 +2,12 @@
 UID: NS:winuser.tagANIMATIONINFO
 title: ANIMATIONINFO (winuser.h)
 description: Describes the animation effects associated with user actions.
+helpviewer_keywords: ["*LPANIMATIONINFO","ANIMATIONINFO","ANIMATIONINFO structure [Windows and Messages]","LPANIMATIONINFO","LPANIMATIONINFO structure pointer [Windows and Messages]","_win32_animationinfo_str","animationinfo_str_cpp","base.animationinfo_str","tagANIMATIONINFO","winmsg.animationinfo_str","winui.animationinfo_str","winuser/ANIMATIONINFO","winuser/LPANIMATIONINFO"]
 old-location: winmsg\animationinfo_str.htm
 tech.root: winmsg
 ms.assetid: 37f2e434-d98a-42f5-b9a8-90f93768faae
 ms.date: 12/05/2018
 ms.keywords: '*LPANIMATIONINFO, ANIMATIONINFO, ANIMATIONINFO structure [Windows and Messages], LPANIMATIONINFO, LPANIMATIONINFO structure pointer [Windows and Messages], _win32_animationinfo_str, animationinfo_str_cpp, base.animationinfo_str, tagANIMATIONINFO, winmsg.animationinfo_str, winui.animationinfo_str, winuser/ANIMATIONINFO, winuser/LPANIMATIONINFO'
-f1_keywords:
-- winuser/ANIMATIONINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- ANIMATIONINFO
 targetos: Windows
 req.typenames: ANIMATIONINFO, *LPANIMATIONINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagANIMATIONINFO
+ - winuser/tagANIMATIONINFO
+ - LPANIMATIONINFO
+ - winuser/LPANIMATIONINFO
+ - ANIMATIONINFO
+ - winuser/ANIMATIONINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - ANIMATIONINFO
 ---
 
 # ANIMATIONINFO structure
@@ -48,33 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the animation effects associated with user actions. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure, in bytes. The caller must set this to <code>sizeof(ANIMATIONINFO)</code>.
 
-
 ### -field iMinAnimate
 
 If this member is nonzero, minimize and restore animation is enabled; otherwise it is disabled.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

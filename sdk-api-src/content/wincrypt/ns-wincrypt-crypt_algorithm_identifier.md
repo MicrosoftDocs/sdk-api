@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPT_ALGORITHM_IDENTIFIER
 title: CRYPT_ALGORITHM_IDENTIFIER (wincrypt.h)
 description: Specifies an algorithm used to encrypt a private key.
+helpviewer_keywords: ["*PCRYPT_ALGORITHM_IDENTIFIER","CRYPT_ALGORITHM_IDENTIFIER","CRYPT_ALGORITHM_IDENTIFIER structure [Security]","PCRYPT_ALGORITHM_IDENTIFIER","PCRYPT_ALGORITHM_IDENTIFIER structure pointer [Security]","_crypto2_crypt_algorithm_identifier","security.crypt_algorithm_identifier","szOID_ANSI_x942","szOID_ANSI_x942_DH","szOID_DATA STRUCTURE","szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF","szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF","szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF","szOID_DS","szOID_DSALG","szOID_DSALG_CRPT","szOID_DSALG_HASH","szOID_DSALG_RSA","szOID_DSALG_SIGN","szOID_ECC_CURVE_P256","szOID_ECC_CURVE_P384","szOID_ECC_CURVE_P521","szOID_ECC_PUBLIC_KEY","szOID_ECDSA_SHA1","szOID_ECDSA_SHA256","szOID_ECDSA_SHA384","szOID_ECDSA_SHA512","szOID_ECDSA_SPECIFIED","szOID_INFOSEC","szOID_INFOSEC_SuiteAConfidentiality","szOID_INFOSEC_SuiteAIntegrity","szOID_INFOSEC_SuiteAKMandSig","szOID_INFOSEC_SuiteAKeyManagement","szOID_INFOSEC_SuiteASignature","szOID_INFOSEC_SuiteATokenProtection","szOID_INFOSEC_mosaicConfidentiality","szOID_INFOSEC_mosaicIntegrity","szOID_INFOSEC_mosaicKMandSig","szOID_INFOSEC_mosaicKMandUpdSig","szOID_INFOSEC_mosaicKeyManagement","szOID_INFOSEC_mosaicSignature","szOID_INFOSEC_mosaicTokenProtection","szOID_INFOSEC_mosaicUpdatedInteg","szOID_INFOSEC_mosaicUpdatedSig","szOID_INFOSEC_sdnsConfidentiality","szOID_INFOSEC_sdnsIntegrity","szOID_INFOSEC_sdnsKMandSig","szOID_INFOSEC_sdnsKeyManagement","szOID_INFOSEC_sdnsSignature","szOID_INFOSEC_sdnsTokenProtection","szOID_NIST_AES128_CBC","szOID_NIST_AES128_WRAP","szOID_NIST_AES192_CBC","szOID_NIST_AES192_WRAP","szOID_NIST_AES256_CBC","szOID_NIST_AES256_WRAP","szOID_NIST_sha256","szOID_NIST_sha384","szOID_NIST_sha512","szOID_OIW","szOID_OIWDIR","szOID_OIWDIR_CRPT","szOID_OIWDIR_HASH","szOID_OIWDIR_SIGN","szOID_OIWDIR_md2","szOID_OIWDIR_md2RSA","szOID_OIWSEC","szOID_OIWSEC_desCBC","szOID_OIWSEC_desCFB","szOID_OIWSEC_desECB","szOID_OIWSEC_desEDE","szOID_OIWSEC_desMAC","szOID_OIWSEC_desOFB","szOID_OIWSEC_dhCommMod","szOID_OIWSEC_dsa","szOID_OIWSEC_dsaComm","szOID_OIWSEC_dsaCommSHA","szOID_OIWSEC_dsaCommSHA1","szOID_OIWSEC_dsaSHA1","szOID_OIWSEC_keyHashSeal","szOID_OIWSEC_md2RSASign","szOID_OIWSEC_md4RSA","szOID_OIWSEC_md4RSA2","szOID_OIWSEC_md5RSA","szOID_OIWSEC_md5RSASign","szOID_OIWSEC_mdc2","szOID_OIWSEC_mdc2RSA","szOID_OIWSEC_rsaSign","szOID_OIWSEC_rsaXchg","szOID_OIWSEC_sha","szOID_OIWSEC_sha1","szOID_OIWSEC_sha1RSASign","szOID_OIWSEC_shaDSA","szOID_OIWSEC_shaRSA","szOID_PKCS","szOID_PKCS_1","szOID_PKCS_10","szOID_PKCS_12","szOID_PKCS_2","szOID_PKCS_3","szOID_PKCS_4","szOID_PKCS_5","szOID_PKCS_6","szOID_PKCS_7","szOID_PKCS_8","szOID_PKCS_9","szOID_PKIX_NO_SIGNATURE","szOID_RFC3161_counterSign","szOID_RSA","szOID_RSAES_OAEP","szOID_RSA_DES_EDE3_CBC","szOID_RSA_DH","szOID_RSA_ENCRYPT","szOID_RSA_HASH","szOID_RSA_MD2","szOID_RSA_MD2RSA","szOID_RSA_MD4","szOID_RSA_MD4RSA","szOID_RSA_MD5","szOID_RSA_MD5RSA","szOID_RSA_MGF1","szOID_RSA_PSPECIFIED","szOID_RSA_RC2CBC","szOID_RSA_RC4","szOID_RSA_RC5_CBCPad","szOID_RSA_RSA","szOID_RSA_SETOAEP_RSA","szOID_RSA_SHA1RSA","szOID_RSA_SHA256RSA","szOID_RSA_SHA384RSA","szOID_RSA_SHA512RSA","szOID_RSA_SMIMECapabilities","szOID_RSA_SMIMEalg","szOID_RSA_SMIMEalgCMS3DESwrap","szOID_RSA_SMIMEalgCMSRC2wrap","szOID_RSA_SMIMEalgESDH","szOID_RSA_SSA_PSS","szOID_RSA_certExtensions","szOID_RSA_challengePwd","szOID_RSA_contentType","szOID_RSA_counterSign","szOID_RSA_data","szOID_RSA_digestedData","szOID_RSA_emailAddr","szOID_RSA_encryptedData","szOID_RSA_envelopedData","szOID_RSA_extCertAttrs","szOID_RSA_hashedData","szOID_RSA_messageDigest","szOID_RSA_preferSignedData","szOID_RSA_signEnvData","szOID_RSA_signedData","szOID_RSA_signingTime","szOID_RSA_unstructAddr","szOID_RSA_unstructName","szOID_TIMESTAMP_TOKEN","szOID_X957","szOID_X957_DSA","szOID_X957_SHA1DSA","wincrypt/CRYPT_ALGORITHM_IDENTIFIER","wincrypt/PCRYPT_ALGORITHM_IDENTIFIER"]
 old-location: security\crypt_algorithm_identifier.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ef0d3aa6-6b36-426f-a14c-2fdf7543deb9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_ALGORITHM_IDENTIFIER, CRYPT_ALGORITHM_IDENTIFIER, CRYPT_ALGORITHM_IDENTIFIER structure [Security], PCRYPT_ALGORITHM_IDENTIFIER, PCRYPT_ALGORITHM_IDENTIFIER structure pointer [Security], _crypto2_crypt_algorithm_identifier, security.crypt_algorithm_identifier, szOID_ANSI_x942, szOID_ANSI_x942_DH, szOID_DATA STRUCTURE, szOID_DH_SINGLE_PASS_STDDH_SHA1_KDF, szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF, szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF, szOID_DS, szOID_DSALG, szOID_DSALG_CRPT, szOID_DSALG_HASH, szOID_DSALG_RSA, szOID_DSALG_SIGN, szOID_ECC_CURVE_P256, szOID_ECC_CURVE_P384, szOID_ECC_CURVE_P521, szOID_ECC_PUBLIC_KEY, szOID_ECDSA_SHA1, szOID_ECDSA_SHA256, szOID_ECDSA_SHA384, szOID_ECDSA_SHA512, szOID_ECDSA_SPECIFIED, szOID_INFOSEC, szOID_INFOSEC_SuiteAConfidentiality, szOID_INFOSEC_SuiteAIntegrity, szOID_INFOSEC_SuiteAKMandSig, szOID_INFOSEC_SuiteAKeyManagement, szOID_INFOSEC_SuiteASignature, szOID_INFOSEC_SuiteATokenProtection, szOID_INFOSEC_mosaicConfidentiality, szOID_INFOSEC_mosaicIntegrity, szOID_INFOSEC_mosaicKMandSig, szOID_INFOSEC_mosaicKMandUpdSig, szOID_INFOSEC_mosaicKeyManagement, szOID_INFOSEC_mosaicSignature, szOID_INFOSEC_mosaicTokenProtection, szOID_INFOSEC_mosaicUpdatedInteg, szOID_INFOSEC_mosaicUpdatedSig, szOID_INFOSEC_sdnsConfidentiality, szOID_INFOSEC_sdnsIntegrity, szOID_INFOSEC_sdnsKMandSig, szOID_INFOSEC_sdnsKeyManagement, szOID_INFOSEC_sdnsSignature, szOID_INFOSEC_sdnsTokenProtection, szOID_NIST_AES128_CBC, szOID_NIST_AES128_WRAP, szOID_NIST_AES192_CBC, szOID_NIST_AES192_WRAP, szOID_NIST_AES256_CBC, szOID_NIST_AES256_WRAP, szOID_NIST_sha256, szOID_NIST_sha384, szOID_NIST_sha512, szOID_OIW, szOID_OIWDIR, szOID_OIWDIR_CRPT, szOID_OIWDIR_HASH, szOID_OIWDIR_SIGN, szOID_OIWDIR_md2, szOID_OIWDIR_md2RSA, szOID_OIWSEC, szOID_OIWSEC_desCBC, szOID_OIWSEC_desCFB, szOID_OIWSEC_desECB, szOID_OIWSEC_desEDE, szOID_OIWSEC_desMAC, szOID_OIWSEC_desOFB, szOID_OIWSEC_dhCommMod, szOID_OIWSEC_dsa, szOID_OIWSEC_dsaComm, szOID_OIWSEC_dsaCommSHA, szOID_OIWSEC_dsaCommSHA1, szOID_OIWSEC_dsaSHA1, szOID_OIWSEC_keyHashSeal, szOID_OIWSEC_md2RSASign, szOID_OIWSEC_md4RSA, szOID_OIWSEC_md4RSA2, szOID_OIWSEC_md5RSA, szOID_OIWSEC_md5RSASign, szOID_OIWSEC_mdc2, szOID_OIWSEC_mdc2RSA, szOID_OIWSEC_rsaSign, szOID_OIWSEC_rsaXchg, szOID_OIWSEC_sha, szOID_OIWSEC_sha1, szOID_OIWSEC_sha1RSASign, szOID_OIWSEC_shaDSA, szOID_OIWSEC_shaRSA, szOID_PKCS, szOID_PKCS_1, szOID_PKCS_10, szOID_PKCS_12, szOID_PKCS_2, szOID_PKCS_3, szOID_PKCS_4, szOID_PKCS_5, szOID_PKCS_6, szOID_PKCS_7, szOID_PKCS_8, szOID_PKCS_9, szOID_PKIX_NO_SIGNATURE, szOID_RFC3161_counterSign, szOID_RSA, szOID_RSAES_OAEP, szOID_RSA_DES_EDE3_CBC, szOID_RSA_DH, szOID_RSA_ENCRYPT, szOID_RSA_HASH, szOID_RSA_MD2, szOID_RSA_MD2RSA, szOID_RSA_MD4, szOID_RSA_MD4RSA, szOID_RSA_MD5, szOID_RSA_MD5RSA, szOID_RSA_MGF1, szOID_RSA_PSPECIFIED, szOID_RSA_RC2CBC, szOID_RSA_RC4, szOID_RSA_RC5_CBCPad, szOID_RSA_RSA, szOID_RSA_SETOAEP_RSA, szOID_RSA_SHA1RSA, szOID_RSA_SHA256RSA, szOID_RSA_SHA384RSA, szOID_RSA_SHA512RSA, szOID_RSA_SMIMECapabilities, szOID_RSA_SMIMEalg, szOID_RSA_SMIMEalgCMS3DESwrap, szOID_RSA_SMIMEalgCMSRC2wrap, szOID_RSA_SMIMEalgESDH, szOID_RSA_SSA_PSS, szOID_RSA_certExtensions, szOID_RSA_challengePwd, szOID_RSA_contentType, szOID_RSA_counterSign, szOID_RSA_data, szOID_RSA_digestedData, szOID_RSA_emailAddr, szOID_RSA_encryptedData, szOID_RSA_envelopedData, szOID_RSA_extCertAttrs, szOID_RSA_hashedData, szOID_RSA_messageDigest, szOID_RSA_preferSignedData, szOID_RSA_signEnvData, szOID_RSA_signedData, szOID_RSA_signingTime, szOID_RSA_unstructAddr, szOID_RSA_unstructName, szOID_TIMESTAMP_TOKEN, szOID_X957, szOID_X957_DSA, szOID_X957_SHA1DSA, wincrypt/CRYPT_ALGORITHM_IDENTIFIER, wincrypt/PCRYPT_ALGORITHM_IDENTIFIER'
-f1_keywords:
-- wincrypt/CRYPT_ALGORITHM_IDENTIFIER
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_ALGORITHM_IDENTIFIER
 targetos: Windows
 req.typenames: CRYPT_ALGORITHM_IDENTIFIER, *PCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_ALGORITHM_IDENTIFIER
+ - wincrypt/_CRYPT_ALGORITHM_IDENTIFIER
+ - PCRYPT_ALGORITHM_IDENTIFIER
+ - wincrypt/PCRYPT_ALGORITHM_IDENTIFIER
+ - CRYPT_ALGORITHM_IDENTIFIER
+ - wincrypt/CRYPT_ALGORITHM_IDENTIFIER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_ALGORITHM_IDENTIFIER
 ---
 
 # CRYPT_ALGORITHM_IDENTIFIER structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The structure includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> are encoded.
-
+The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. The structure includes the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> are encoded.
 
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
@@ -1783,18 +1784,16 @@ Elliptic Curve Digital Signature Algorithm (ECDSA).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Parameters
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
+A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
 
 
 
 
 The following algorithms have the specified encoded parameters. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
+<a href="/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
 <table>
 <tr>
@@ -1807,7 +1806,7 @@ The following algorithms have the specified encoded parameters. For more informa
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_dss_parameters">CERT_DSS_PARAMETERS</a> structure.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_dss_parameters">CERT_DSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1817,7 +1816,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-c
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1827,7 +1826,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-c
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1837,7 +1836,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1847,7 +1846,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1857,7 +1856,7 @@ A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1872,72 +1871,63 @@ A <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_info">CRL_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>

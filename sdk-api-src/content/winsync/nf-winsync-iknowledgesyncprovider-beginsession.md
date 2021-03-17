@@ -2,15 +2,12 @@
 UID: NF:winsync.IKnowledgeSyncProvider.BeginSession
 title: IKnowledgeSyncProvider::BeginSession (winsync.h)
 description: Notifies the provider that it is joining a synchronization session.
+helpviewer_keywords: ["BeginSession","BeginSession method [Windows Sync]","BeginSession method [Windows Sync]","IKnowledgeSyncProvider interface","IKnowledgeSyncProvider interface [Windows Sync]","BeginSession method","IKnowledgeSyncProvider.BeginSession","IKnowledgeSyncProvider::BeginSession","winsync.iknowledgesyncprovider_beginsession","winsync/IKnowledgeSyncProvider::BeginSession"]
 old-location: winsync\iknowledgesyncprovider_beginsession.htm
 tech.root: winsync
 ms.assetid: 15aae98e-96c6-45f3-906f-1729fa79ebdb
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [Windows Sync], BeginSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],BeginSession method, IKnowledgeSyncProvider.BeginSession, IKnowledgeSyncProvider::BeginSession, winsync.iknowledgesyncprovider_beginsession, winsync/IKnowledgeSyncProvider::BeginSession
-f1_keywords:
-- winsync/IKnowledgeSyncProvider.BeginSession
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IKnowledgeSyncProvider.BeginSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnowledgeSyncProvider::BeginSession
+ - winsync/IKnowledgeSyncProvider::BeginSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IKnowledgeSyncProvider.BeginSession
 ---
 
 # IKnowledgeSyncProvider::BeginSession
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the provider that it is joining a synchronization session.
 
-
 ## -parameters
-
-
-
 
 ### -param role [in]
 
 The role of this provider, relative to the other provider in the session.
 
-
 ### -param pSessionState [in]
 
 The current status of the corresponding session.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -98,27 +91,11 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The provider must return an error if it cannot begin a session. This can occur when the provider has not been initialized, has an invalid configuration, or is already enlisted in an active session.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>

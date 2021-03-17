@@ -2,15 +2,12 @@
 UID: NF:vfw.MCIWndStep
 title: MCIWndStep macro (vfw.h)
 description: The MCIWndStep macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the MCI_STEP command.
+helpviewer_keywords: ["MCIWndStep","MCIWndStep macro [Windows Multimedia]","_win32_MCIWndStep","multimedia.mciwndstep","vfw/MCIWndStep"]
 old-location: multimedia\mciwndstep.htm
 tech.root: Multimedia
 ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
 ms.date: 12/05/2018
 ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndStep, multimedia.mciwndstep, vfw/MCIWndStep
-f1_keywords:
-- vfw/MCIWndStep
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndStep
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndStep
+ - vfw/MCIWndStep
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndStep
 ---
 
 # MCIWndStep macro
@@ -48,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-step">MCI_STEP</a> command.
-
-
-
+The <b>MCIWndStep</b> macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-step">MCI_STEP</a> command.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param n
 
-Step value. Negative values step the device through the content in reverse. The units for the step value depend on the current time format. 
-
+Step value. Negative values step the device through the content in reverse. The units for the step value depend on the current time format.

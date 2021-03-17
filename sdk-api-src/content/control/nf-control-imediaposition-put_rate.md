@@ -2,15 +2,12 @@
 UID: NF:control.IMediaPosition.put_Rate
 title: IMediaPosition::put_Rate (control.h)
 description: The put_Rate method sets the playback rate.
+helpviewer_keywords: ["IMediaPosition interface [DirectShow]","put_Rate method","IMediaPosition.put_Rate","IMediaPosition::put_Rate","IMediaPositionput_Rate","control/IMediaPosition::put_Rate","dshow.imediaposition_put_rate","put_Rate","put_Rate method [DirectShow]","put_Rate method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_put_rate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
-f1_keywords:
-- control/IMediaPosition.put_Rate
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.put_Rate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::put_Rate
+ - control/IMediaPosition::put_Rate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.put_Rate
 ---
 
 # IMediaPosition::put_Rate
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The put_Rate method sets the playback rate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dRate [in]
 
 Playback rate. Must not be zero.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,33 +102,17 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is normal playback speed, 0.5 is half speed, and 2.0 is twice speed. For audio streams, changing the rate also changes the pitch.
 
-For more information, see the remarks in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-setrate">IMediaSeeking::SetRate</a>.
-
-
-
+For more information, see the remarks in <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-setrate">IMediaSeeking::SetRate</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

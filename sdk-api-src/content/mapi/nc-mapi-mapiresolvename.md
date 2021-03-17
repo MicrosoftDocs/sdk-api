@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPIRESOLVENAME
 title: MAPIRESOLVENAME (mapi.h)
 description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
+helpviewer_keywords: ["MAPIResolveName","MAPIResolveName callback","MAPIResolveName callback function","MAPI_AB_NOMODIFY","MAPI_DIALOG","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapiresolvename","mapi/MAPIResolveName"]
 old-location: mapi\mapiresolvename.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83
 ms.date: 12/05/2018
 ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback function, MAPI_AB_NOMODIFY, MAPI_DIALOG, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiresolvename, mapi/MAPIResolveName
-f1_keywords:
-- mapi/MAPIResolveName
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPIResolveName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPIRESOLVENAME
+ - mapi/MAPIRESOLVENAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPIResolveName
 ---
 
 # MAPIRESOLVENAME callback function
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPIResolveName</b> function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
 
-
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
 Handle that represents a Simple MAPI session or zero. If the value of the <i>lhSession</i> parameter is zero, MAPI logs on the user and creates a session that exists only for the duration of the call. This temporary session can be an existing shared session or a new one. If necessary, the logon dialog box is displayed.
 
-
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type <b>HWND</b> (cast to a <b>ULONG_PTR</b>). If no dialog box is displayed during the call, <i> ulUIParam</i> is ignored.
 
-
 ### -param lpszName [in]
 
 Pointer to the name to be resolved.
-
 
 ### -param flFlags [in]
 
@@ -124,22 +118,16 @@ An attempt should be made to create a new session rather than acquire the enviro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved
 
 Reserved; must be zero.
 
-
 ### -param *lppRecip [out]
 
-Pointer to a recipient structure if the resolution results in a single match. The recipient structure contains the resolved name and related information. Memory for this structure must be freed using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function.
-
+Pointer to a recipient structure if the resolution results in a single match. The recipient structure contains the resolved name and related information. Memory for this structure must be freed using the <a href="/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -237,39 +225,23 @@ The call succeeded and the name was resolved.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure at some point by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
-
-
-
+The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure at some point by calling the <a href="/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nf-mapi-mapifreebuffer">MAPIFreeBuffer</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

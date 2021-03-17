@@ -2,15 +2,12 @@
 UID: NF:fwpmu.FwpmFilterSubscriptionsGet0
 title: FwpmFilterSubscriptionsGet0 function (fwpmu.h)
 description: Retrieves an array of all the current filter change notification subscriptions.
+helpviewer_keywords: ["FwpmFilterSubscriptionsGet0","FwpmFilterSubscriptionsGet0 function [Filtering]","fwp.fwpmfiltersubscriptionsget0_func","fwpmu/FwpmFilterSubscriptionsGet0"]
 old-location: fwp\fwpmfiltersubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 347c7792-12bc-4a2c-b4c2-7a71ee4a3709
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterSubscriptionsGet0, FwpmFilterSubscriptionsGet0 function [Filtering], fwp.fwpmfiltersubscriptionsget0_func, fwpmu/FwpmFilterSubscriptionsGet0
-f1_keywords:
-- fwpmu/FwpmFilterSubscriptionsGet0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmFilterSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmFilterSubscriptionsGet0
+ - fwpmu/FwpmFilterSubscriptionsGet0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmFilterSubscriptionsGet0
 ---
 
 # FwpmFilterSubscriptionsGet0 function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmFilterSubscriptionsGet0</b> function retrieves an array of all the current filter change notification subscriptions.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param entries [out]
 
-Type: [FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>***</b>
+Type: [FWPM_FILTER_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)***</b>
 
 The current filter change notification subscriptions.
-
 
 ### -param numEntries [out]
 
@@ -77,10 +72,7 @@ Type: <b>UINT32*</b>
 
 The number of entries returned.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -109,7 +101,7 @@ The subscriptions were retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -126,31 +118,15 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The returned array (but not the individual entries in the array) must be freed through a call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the filter's container. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
-The returned array (but not the individual entries in the array) must be freed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
-
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the filter's container. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
-
-<b>FwpmFilterSubscriptionsGet0</b> is a specific implementation of FwpmFilterSubscriptionsGet. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>FwpmFilterSubscriptionsGet0</b> is a specific implementation of FwpmFilterSubscriptionsGet. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-
-
-
-[FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)a>
- 
-
- 
-
+[FWPM_FILTER_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)

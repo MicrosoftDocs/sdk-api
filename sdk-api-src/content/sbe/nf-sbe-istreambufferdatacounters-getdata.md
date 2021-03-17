@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferDataCounters.GetData
 title: IStreamBufferDataCounters::GetData (sbe.h)
 description: The GetData method returns performance data for the Stream Buffer Engine.
+helpviewer_keywords: ["GetData","GetData method [Microsoft TV Technologies]","GetData method [Microsoft TV Technologies]","IStreamBufferDataCounters interface","IStreamBufferDataCounters interface [Microsoft TV Technologies]","GetData method","IStreamBufferDataCounters.GetData","IStreamBufferDataCounters::GetData","IStreamBufferDataCountersGetData","mstv.istreambufferdatacounters_getdata","sbe/IStreamBufferDataCounters::GetData"]
 old-location: mstv\istreambufferdatacounters_getdata.htm
 tech.root: mstv
 ms.assetid: 15895ff3-37e5-4f89-bcce-3b9f060c0746
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, IStreamBufferDataCounters interface [Microsoft TV Technologies],GetData method, IStreamBufferDataCounters.GetData, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
-f1_keywords:
-- sbe/IStreamBufferDataCounters.GetData
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferDataCounters.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferDataCounters::GetData
+ - sbe/IStreamBufferDataCounters::GetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferDataCounters.GetData
 ---
 
 # IStreamBufferDataCounters::GetData
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetData</b> method returns performance data for the Stream Buffer Engine.
-
 
 ## -parameters
 
-
-
-
 ### -param pPinData [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe_pin_data">SBE_PIN_DATA</a> structure. The method fills the structure with the current performance data.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe_pin_data">SBE_PIN_DATA</a> structure. The method fills the structure with the current performance data.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>

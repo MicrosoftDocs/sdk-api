@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArrayDestroyDescriptor
 title: SafeArrayDestroyDescriptor function (oleauto.h)
 description: Destroys the descriptor of the specified safe array.
+helpviewer_keywords: ["SafeArrayDestroyDescriptor","SafeArrayDestroyDescriptor function [Automation]","_oa96_SafeArrayDestroyDescriptor","automat.safearraydestroydescriptor","oleauto/SafeArrayDestroyDescriptor"]
 old-location: automat\safearraydestroydescriptor.htm
 tech.root: automat
 ms.assetid: f1e8de45-673b-4f20-a639-18c724c82df1
 ms.date: 12/05/2018
 ms.keywords: SafeArrayDestroyDescriptor, SafeArrayDestroyDescriptor function [Automation], _oa96_SafeArrayDestroyDescriptor, automat.safearraydestroydescriptor, oleauto/SafeArrayDestroyDescriptor
-f1_keywords:
-- oleauto/SafeArrayDestroyDescriptor
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArrayDestroyDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArrayDestroyDescriptor
+ - oleauto/SafeArrayDestroyDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArrayDestroyDescriptor
 ---
 
 # SafeArrayDestroyDescriptor function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys the descriptor of the specified safe array.
 
-
 ## -parameters
-
-
-
 
 ### -param psa [in]
 
 A safe array descriptor.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -107,17 +101,7 @@ The array is locked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function is typically used to destroy the descriptor of a safe array that contains elements with data types other than variants. Destroying the array descriptor does not destroy the elements in the array. Before destroying the array descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a> to free the elements.
-
-
-
-
+This function is typically used to destroy the descriptor of a safe array that contains elements with data types other than variants. Destroying the array descriptor does not destroy the elements in the array. Before destroying the array descriptor, call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a> to free the elements.

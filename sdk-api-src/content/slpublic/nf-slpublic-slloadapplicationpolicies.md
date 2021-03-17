@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLLoadApplicationPolicies
 title: SLLoadApplicationPolicies function (slpublic.h)
 description: Loads the application policies set with the SLPersistApplicationPolicies function for use by the SLGetApplicationPolicy function.
+helpviewer_keywords: ["SLLoadApplicationPolicies","SLLoadApplicationPolicies function [Security]","security.slloadapplicationpolicies","slpublic/SLLoadApplicationPolicies"]
 old-location: security\slloadapplicationpolicies.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a0852c0c-3d7d-4cca-a30b-b413c653b284
 ms.date: 12/05/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies
-f1_keywords:
-- slpublic/SLLoadApplicationPolicies
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLLoadApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLLoadApplicationPolicies
+ - slpublic/SLLoadApplicationPolicies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLLoadApplicationPolicies
 ---
 
 # SLLoadApplicationPolicies function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-Loads the application policies set with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function   
-	for use by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function.
-
+Loads the application policies set with the <a href="/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function   
+	for use by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function.
 
 ## -parameters
-
-
-
 
 ### -param pApplicationId [in]
 
@@ -64,13 +61,11 @@ Type: <b>const SLID*</b>
 
 A pointer to the identifier of the application ID to be used for the fast policy queries.
 
-
 ### -param pProductSkuId [in, optional]
 
 Type: <b>const SLID*</b>
 
 A pointer to the identifier of the ACID to be used for the fast policy queries.
-
 
 ### -param dwFlags [in]
 
@@ -78,18 +73,14 @@ Type: <b>DWORD</b>
 
 Additional flags.
 
-
 ### -param phPolicyContext [out]
 
 Type: <b>HSLP*</b>
 
-A pointer to a policy context for use in the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function and    
-		the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slunloadapplicationpolicies">SLUnloadApplicationPolicies</a> function.
-
+A pointer to a policy context for use in the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function and    
+		the <a href="/windows/desktop/api/slpublic/nf-slpublic-slunloadapplicationpolicies">SLUnloadApplicationPolicies</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -125,7 +116,3 @@ The license policies for fast query could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-

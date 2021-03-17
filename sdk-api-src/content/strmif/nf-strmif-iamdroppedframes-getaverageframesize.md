@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMDroppedFrames.GetAverageFrameSize
 title: IAMDroppedFrames::GetAverageFrameSize (strmif.h)
 description: The GetAverageFrameSize method retrieves the average size of the frames that the filter has captured.
+helpviewer_keywords: ["GetAverageFrameSize","GetAverageFrameSize method [DirectShow]","GetAverageFrameSize method [DirectShow]","IAMDroppedFrames interface","IAMDroppedFrames interface [DirectShow]","GetAverageFrameSize method","IAMDroppedFrames.GetAverageFrameSize","IAMDroppedFrames::GetAverageFrameSize","IAMDroppedFramesGetAverageFrameSize","dshow.iamdroppedframes_getaverageframesize","strmif/IAMDroppedFrames::GetAverageFrameSize"]
 old-location: dshow\iamdroppedframes_getaverageframesize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49b63a9f-8192-4fce-8cfe-c92bd39ca2b0
 ms.date: 12/05/2018
 ms.keywords: GetAverageFrameSize, GetAverageFrameSize method [DirectShow], GetAverageFrameSize method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetAverageFrameSize method, IAMDroppedFrames.GetAverageFrameSize, IAMDroppedFrames::GetAverageFrameSize, IAMDroppedFramesGetAverageFrameSize, dshow.iamdroppedframes_getaverageframesize, strmif/IAMDroppedFrames::GetAverageFrameSize
-f1_keywords:
-- strmif/IAMDroppedFrames.GetAverageFrameSize
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDroppedFrames.GetAverageFrameSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDroppedFrames::GetAverageFrameSize
+ - strmif/IAMDroppedFrames::GetAverageFrameSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDroppedFrames.GetAverageFrameSize
 ---
 
 # IAMDroppedFrames::GetAverageFrameSize
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAverageFrameSize</code> method retrieves the average size of the frames that the filter has captured.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plAverageSize [out]
 
 Pointer to a variable that receives the average frame size, in bytes, since the filter began streaming.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,31 +102,15 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the device does not report a value, the method might succeed but return zero in the <i>plAverageSize</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdroppedframes">IAMDroppedFrames Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamdroppedframes">IAMDroppedFrames Interface</a>

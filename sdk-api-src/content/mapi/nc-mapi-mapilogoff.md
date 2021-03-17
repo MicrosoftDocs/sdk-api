@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPILOGOFF
 title: MAPILOGOFF (mapi.h)
 description: The MAPILogoff function ends a session with the messaging system.
+helpviewer_keywords: ["MAPILogoff","MAPILogoff callback","MAPILogoff callback function","mapi.mapilogoff","mapi/MAPILogoff"]
 old-location: mapi\mapilogoff.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c
 ms.date: 12/05/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
-f1_keywords:
-- mapi/MAPILogoff
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPILogoff
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPILOGOFF
+ - mapi/MAPILOGOFF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPILogoff
 ---
 
 # MAPILOGOFF callback function
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPILogoff</b> function ends a session with the messaging system.
 
-
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
-Handle for the Simple MAPI session to be terminated. Session handles are returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function and invalidated by <b>MAPILogoff</b>. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
-
+Handle for the Simple MAPI session to be terminated. Session handles are returned by the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function and invalidated by <b>MAPILogoff</b>. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
 
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a ULONG_PTR). If no dialog box is displayed during the call, <i>ulUIParam</i> is ignored.
 
-
 ### -param flFlags
 
 Reserved; must be zero.
-
 
 ### -param ulReserved
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -135,22 +126,11 @@ The call succeeded and the session was terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

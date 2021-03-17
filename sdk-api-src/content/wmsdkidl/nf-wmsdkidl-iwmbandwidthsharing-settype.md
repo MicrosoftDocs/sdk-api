@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetType
 title: IWMBandwidthSharing::SetType (wmsdkidl.h)
 description: The SetType method sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
+helpviewer_keywords: ["IWMBandwidthSharing interface [windows Media Format]","SetType method","IWMBandwidthSharing.SetType","IWMBandwidthSharing::SetType","IWMBandwidthSharingSetType","SetType","SetType method [windows Media Format]","SetType method [windows Media Format]","IWMBandwidthSharing interface","wmformat.iwmbandwidthsharing_settype","wmsdkidl/IWMBandwidthSharing::SetType"]
 old-location: wmformat\iwmbandwidthsharing_settype.htm
 tech.root: wmformat
 ms.assetid: 3f4fc06a-ffbe-4854-8e64-d369acfac271
 ms.date: 12/05/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetType method, IWMBandwidthSharing.SetType, IWMBandwidthSharing::SetType, IWMBandwidthSharingSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_settype, wmsdkidl/IWMBandwidthSharing::SetType
-f1_keywords:
-- wmsdkidl/IWMBandwidthSharing.SetType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMBandwidthSharing.SetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMBandwidthSharing::SetType
+ - wmsdkidl/IWMBandwidthSharing::SetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMBandwidthSharing.SetType
 ---
 
 # IWMBandwidthSharing::SetType
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetType</b> method sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidType [in]
 
@@ -83,12 +77,8 @@ Globally unique identifier specifying the type of combined stream to be used. Th
 <td>The constituent streams can be active simultaneously.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -120,31 +110,15 @@ The GUID passed in <i>guidType</i> is any value other than CLSID_BandwidthSharin
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The settings of a bandwidth sharing object are purely informational. They are not checked for accuracy.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype">IWMBandwidthSharing::GetType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-gettype">IWMBandwidthSharing::GetType</a>

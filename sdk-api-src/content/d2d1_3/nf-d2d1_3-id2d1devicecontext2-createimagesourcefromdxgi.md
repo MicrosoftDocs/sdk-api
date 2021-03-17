@@ -2,15 +2,12 @@
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateImageSourceFromDxgi
 title: ID2D1DeviceContext2::CreateImageSourceFromDxgi (d2d1_3.h)
 description: Creates an image source from a set of DXGI surface(s). The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
+helpviewer_keywords: ["CreateImageSourceFromDxgi","CreateImageSourceFromDxgi method [Direct2D]","CreateImageSourceFromDxgi method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","CreateImageSourceFromDxgi method","ID2D1DeviceContext2.CreateImageSourceFromDxgi","ID2D1DeviceContext2::CreateImageSourceFromDxgi","d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi","direct2d.id2d1devicecontext2_createimagesourcefromdxgi"]
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromdxgi.htm
 tech.root: Direct2D
 ms.assetid: 5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e
 ms.date: 12/05/2018
 ms.keywords: CreateImageSourceFromDxgi, CreateImageSourceFromDxgi method [Direct2D], CreateImageSourceFromDxgi method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromDxgi method, ID2D1DeviceContext2.CreateImageSourceFromDxgi, ID2D1DeviceContext2::CreateImageSourceFromDxgi, d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi, direct2d.id2d1devicecontext2_createimagesourcefromdxgi
-f1_keywords:
-- d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromDxgi
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,41 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext2.CreateImageSourceFromDxgi
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext2::CreateImageSourceFromDxgi
+ - d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext2.CreateImageSourceFromDxgi
 ---
-
-# ID2D1DeviceContext2::CreateImageSourceFromDxgi
-
 
 ## -description
 
-
 Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
-
 
 ## -parameters
 
+### -param surfaces
 
-
-
-### -param surfaces [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
+Type: [in] <b><a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
 
 The DXGI surfaces to create the image source from.
-
 
 ### -param surfaceCount
 
@@ -70,55 +63,35 @@ Type: <b>UINT32</b>
 
 The number of surfaces provided; must be between one and three.
 
-
 ### -param colorSpace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
 
 The color space of the input.
 
-
 ### -param options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options">D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_image_source_from_dxgi_options">D2D1_IMAGE_SOURCE_FROM_DXGI_OPTIONS</a></b>
 
 Options controlling color space conversions.
 
+### -param imageSource
 
-### -param imageSource [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
+Type: [out] <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>**</b>
 
 Receives the new image source instance.
 
-
-#### - sourceRectangles [in, optional]
-
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
-
-The regions of the surfaces to create the image source from.
-
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
-
-
-
 ## -remarks
 
+This method creates an image source, which can be used to draw the image.
 
-
-This method creates an image source which can be used to draw the image.
-
-        This method supports surfaces that use a limited set of DXGI formats and DXGI color space types.  Only the below set of combinations of color space types, surface formats, and surface counts are supported:
-
-        
+This method supports surfaces that use a limited set of DXGI formats and DXGI color space types.  Only the below set of combinations of color space types, surface formats, and surface counts are supported:
 
 <table>
 <tr>
@@ -221,18 +194,7 @@ If multiple surfaces are provided, this method infers whether chroma planes are 
 
 If provided, the source rectangles must be within the bounds of the corresponding surface.  The source rectangles may have different origins.
           In this case, this method shifts the data from each plane to align with one another.
-        
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>

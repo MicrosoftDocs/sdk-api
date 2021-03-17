@@ -2,15 +2,12 @@
 UID: NF:imapi2.IWriteEngine2.put_EndingSectorsPerSecond
 title: IWriteEngine2::put_EndingSectorsPerSecond (imapi2.h)
 description: Sets the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_EndingSectorsPerSecond method","IWriteEngine2.put_EndingSectorsPerSecond","IWriteEngine2::put_EndingSectorsPerSecond","imapi.iwriteengine2_put_endingsectorspersecond","imapi2/IWriteEngine2::put_EndingSectorsPerSecond","put_EndingSectorsPerSecond","put_EndingSectorsPerSecond method [IMAPI]","put_EndingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7060578d-c6d5-4155-9ab8-7185bde38f64
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_EndingSectorsPerSecond method, IWriteEngine2.put_EndingSectorsPerSecond, IWriteEngine2::put_EndingSectorsPerSecond, imapi.iwriteengine2_put_endingsectorspersecond, imapi2/IWriteEngine2::put_EndingSectorsPerSecond, put_EndingSectorsPerSecond, put_EndingSectorsPerSecond method [IMAPI], put_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
-f1_keywords:
-- imapi2/IWriteEngine2.put_EndingSectorsPerSecond
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.put_EndingSectorsPerSecond
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::put_EndingSectorsPerSecond
+ - imapi2/IWriteEngine2::put_EndingSectorsPerSecond
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.put_EndingSectorsPerSecond
 ---
 
 # IWriteEngine2::put_EndingSectorsPerSecond
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 Approximate number of sectors per second that the recording device can write to the media at the end of the writing process. The default is -1 for maximum speed.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -100,47 +94,31 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This is used to optimize sleep time in the write engine.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">IWriteEngine2::get_BytesPerSector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">IWriteEngine2::get_BytesPerSector</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">IWriteEngine2::get_EndingSectorsPerSecond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">IWriteEngine2::get_EndingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">IWriteEngine2::get_StartingSectorsPerSecond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">IWriteEngine2::get_StartingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">IWriteEngine2::put_BytesPerSector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_bytespersector">IWriteEngine2::put_BytesPerSector</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>

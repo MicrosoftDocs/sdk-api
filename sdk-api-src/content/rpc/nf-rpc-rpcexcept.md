@@ -2,15 +2,12 @@
 UID: NF:rpc.RpcExcept
 title: RpcExcept macro (rpc.h)
 description: The RpcExcept statement provides structured exception handling for RPC applications.
+helpviewer_keywords: ["RpcExcept","RpcExcept macro [RPC]","_rpc_rpcexcept","rpc.rpcexcept","rpc/RpcExcept"]
 old-location: rpc\rpcexcept.htm
 tech.root: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
 ms.date: 12/05/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
-f1_keywords:
-- rpc/RpcExcept
-dev_langs:
-- c++
 req.header: rpc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpc.h
-api_name:
-- RpcExcept
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcExcept
+ - rpc/RpcExcept
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpc.h
+api_name:
+ - RpcExcept
 ---
 
 # RpcExcept macro
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcExcept</b> statement provides structured exception handling for RPC applications.
 
-<b>Windows Vista and later versions of Windows:  </b><a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcexceptionfilter">RpcExceptionFilter</a> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <b>RpcExcept</b>. Custom exception filters must still use <b>RpcExcept</b>, however.
-
+<b>Windows Vista and later versions of Windows:  </b><a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcexceptionfilter">RpcExceptionFilter</a> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <b>RpcExcept</b>. Custom exception filters must still use <b>RpcExcept</b>, however.
 
 ## -parameters
-
-
-
 
 ### -param expr
 
 Expression that is evaluated when an exception occurs. If <i>expression</i> evaluates to a nonzero value, the exception statements are executed. If <i>expression</i> evaluates to a zero value, unwinding continues to the next 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpctryfinally">RpcTryFinally</a> function.
-
+<a href="/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a> or 
+<a href="/windows/desktop/Rpc/rpctryfinally">RpcTryFinally</a> function.
 
 ## -remarks
 
-
-
 If an exception does not occur, the <i>expression</i> and <i>exception statements</i> are skipped and execution continues at the statement following the 
-<a href="https://docs.microsoft.com/previous-versions/aa375629(v=vs.80)">RpcEndExcept</a> statement.
+<a href="/previous-versions/aa375629(v=vs.80)">RpcEndExcept</a> statement.
 
 The compound statement after the 
 <b>RpcTryExcept</b> clause is the body or guarded section. The compound statement after the 
@@ -96,7 +90,7 @@ Because the
 <b>RpcExcept</b> expression is evaluated as a C expression, it is limited to a single value, the conditional-expression operator, or the comma operator. If more extensive processing is required, the expression can call a routine that returns one of the three values listed above.
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a> can be used in both <i>expression</i> and <i>exception statements</i> to determine which exception occurred.
+<a href="/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a> can be used in both <i>expression</i> and <i>exception statements</i> to determine which exception occurred.
 
 The following restrictions apply:
 
@@ -107,31 +101,22 @@ The following restrictions apply:
 <li>Returning or jumping (through a <b>goto</b>) from <i>exception statements</i> is not allowed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Rpc/exception-handling">Exception Handling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/exception-handling">Exception Handling</a>
+<a href="/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcexceptionfilter">RpcExceptionFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcexceptionfilter">RpcExceptionFilter</a>
+<a href="/previous-versions/aa375699(v=vs.80)">RpcFinally</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa375699(v=vs.80)">RpcFinally</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcraiseexception">RpcRaiseException</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcraiseexception">RpcRaiseException</a>

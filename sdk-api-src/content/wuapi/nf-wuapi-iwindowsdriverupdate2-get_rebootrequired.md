@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWindowsDriverUpdate2.get_RebootRequired
 title: IWindowsDriverUpdate2::get_RebootRequired (wuapi.h)
 description: Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.
+helpviewer_keywords: ["IWindowsDriverUpdate2 interface [Windows Update Agent]","RebootRequired property","IWindowsDriverUpdate2.RebootRequired","IWindowsDriverUpdate2.get_RebootRequired","IWindowsDriverUpdate2::RebootRequired","IWindowsDriverUpdate2::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IWindowsDriverUpdate2 interface","get_RebootRequired","wua.iwindowsdriverupdate2_rebootrequired","wuapi/IWindowsDriverUpdate2::RebootRequired","wuapi/IWindowsDriverUpdate2::get_RebootRequired"]
 old-location: wua\iwindowsdriverupdate2_rebootrequired.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 32c6982e-9654-4f8f-acca-ba1e4d52b210
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],RebootRequired property, IWindowsDriverUpdate2.RebootRequired, IWindowsDriverUpdate2.get_RebootRequired, IWindowsDriverUpdate2::RebootRequired, IWindowsDriverUpdate2::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_RebootRequired, wua.iwindowsdriverupdate2_rebootrequired, wuapi/IWindowsDriverUpdate2::RebootRequired, wuapi/IWindowsDriverUpdate2::get_RebootRequired
-f1_keywords:
-- wuapi/IWindowsDriverUpdate2.RebootRequired
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate2.RebootRequired
-- IWindowsDriverUpdate2.get_RebootRequired
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate2::get_RebootRequired
+ - wuapi/IWindowsDriverUpdate2::get_RebootRequired
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate2.RebootRequired
+ - IWindowsDriverUpdate2.get_RebootRequired
 ---
 
 # IWindowsDriverUpdate2::get_RebootRequired
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether the computer must be restarted after you install or uninstall an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>

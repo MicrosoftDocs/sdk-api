@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecord
 title: ICrmMonitorLogRecords::GetLogRecord (comsvcs.h)
 description: Retrieves an unstructured log record given its numeric index.
+helpviewer_keywords: ["GetLogRecord","GetLogRecord method [COM+]","GetLogRecord method [COM+]","ICrmMonitorLogRecords interface","ICrmMonitorLogRecords interface [COM+]","GetLogRecord method","ICrmMonitorLogRecords.GetLogRecord","ICrmMonitorLogRecords::GetLogRecord","_dtc_ICrmMonitorLogRecords_GetLogRecord","comsvcs/ICrmMonitorLogRecords::GetLogRecord","cos.icrmmonitorlogrecords_getlogrecord"]
 old-location: cos\icrmmonitorlogrecords_getlogrecord.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9b5b566a-e98c-482d-9959-3498000875d3
 ms.date: 12/05/2018
 ms.keywords: GetLogRecord, GetLogRecord method [COM+], GetLogRecord method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecord method, ICrmMonitorLogRecords.GetLogRecord, ICrmMonitorLogRecords::GetLogRecord, _dtc_ICrmMonitorLogRecords_GetLogRecord, comsvcs/ICrmMonitorLogRecords::GetLogRecord, cos.icrmmonitorlogrecords_getlogrecord
-f1_keywords:
-- comsvcs/ICrmMonitorLogRecords.GetLogRecord
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorLogRecords.GetLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorLogRecords::GetLogRecord
+ - comsvcs/ICrmMonitorLogRecords::GetLogRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorLogRecords.GetLogRecord
 ---
 
 # ICrmMonitorLogRecords::GetLogRecord
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an unstructured log record given its numeric index.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIndex [in]
 
 The index of the required log record.
 
-
 ### -param pCrmLogRec [in, out]
 
-The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
-
+The log record, as a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -134,18 +127,7 @@ The transaction has completed, and the log records have been discarded from the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>

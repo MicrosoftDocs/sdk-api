@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateReader
 title: WMCreateReader function (wmsdkidl.h)
 description: The WMCreateReader function creates a reader object.
+helpviewer_keywords: ["WMCreateReader","WMCreateReader function [windows Media Format]","wmformat.wmcreatereader","wmsdkidl/WMCreateReader"]
 old-location: wmformat\wmcreatereader.htm
 tech.root: wmformat
 ms.assetid: f40d4b43-529d-4a78-80ec-4c339a91b28c
 ms.date: 12/05/2018
 ms.keywords: WMCreateReader, WMCreateReader function [windows Media Format], wmformat.wmcreatereader, wmsdkidl/WMCreateReader
-f1_keywords:
-- wmsdkidl/WMCreateReader
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateReader
+ - wmsdkidl/WMCreateReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateReader
 ---
 
 # WMCreateReader function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateReader</b> function creates a reader object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pUnkCert [in]
 
 This value must be set to <b>NULL</b>.
 
-
 ### -param dwRights [in]
 
-<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_rights">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
-
+<b>DWORD</b> indicating the desired operation. Set to one of the values from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_rights">WMT_RIGHTS</a> enumeration type, indicating the operation that is performed on this file. If multiple operations are being performed, <i>dwRights</i> must consist of multiple values from <b>WMT_RIGHTS</b> combined by using the bitwise <b>OR</b> operator.
 
 ### -param ppReader [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader</a> interface of the newly created reader object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader</a> interface of the newly created reader object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -109,45 +98,29 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a> with the <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-rights">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
+After this object has been created, you can modify the rights that will be requested for the next file opened by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">IWMDRMReader::SetDRMProperty</a> with the <a href="/windows/desktop/wmformat/drm-rights">DRM_Rights</a> property. Note that when using this property, the rights are specified as strings, not as <b>DWORD</b> values.
 
 The <i>dwRights</i> parameter may be set to 0 when reading non-DRM content. If <i>dwRights</i> is set to 0 and you open a protected file, you can access license related metadata, but you cannot read data from any streams in the file.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
+<a href="/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
+<a href="/windows/desktop/wmformat/enabling-drm-support">Enabling DRM Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-drm-support">Enabling DRM Support</a>
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/reader-object">Reader Object</a>

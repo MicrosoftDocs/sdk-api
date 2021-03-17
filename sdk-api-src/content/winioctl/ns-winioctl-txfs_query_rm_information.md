@@ -2,15 +2,12 @@
 UID: NS:winioctl._TXFS_QUERY_RM_INFORMATION
 title: TXFS_QUERY_RM_INFORMATION
 description: Contains information about the resource manager (RM).
+helpviewer_keywords: ["*PTXFS_QUERY_RM_INFORMATION","PTXFS_QUERY_RM_INFORMATION","PTXFS_QUERY_RM_INFORMATION structure pointer [Files]","TXFS_LOGGING_MODE_FULL","TXFS_LOGGING_MODE_SIMPLE","TXFS_QUERY_RM_INFORMATION","TXFS_QUERY_RM_INFORMATION structure [Files]","TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START","TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT","TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX","TXFS_RM_FLAG_PREFER_AVAILABILITY","TXFS_RM_FLAG_PREFER_CONSISTENCY","TXFS_RM_FLAG_RESET_RM_AT_NEXT_START","TXFS_RM_STATE_ACTIVE","TXFS_RM_STATE_NOT_STARTED","TXFS_RM_STATE_SHUTTING_DOWN","TXFS_RM_STATE_STARTING","base.txfs_query_rm_information","fs.txfs_query_rm_information","winioctl/PTXFS_QUERY_RM_INFORMATION","winioctl/TXFS_QUERY_RM_INFORMATION"]
 old-location: fs\txfs_query_rm_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a8dc6b69-306a-4843-b7b5-ea6a1e5068cb
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION, PTXFS_QUERY_RM_INFORMATION structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_QUERY_RM_INFORMATION, TXFS_QUERY_RM_INFORMATION structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_STATE_ACTIVE, TXFS_RM_STATE_NOT_STARTED, TXFS_RM_STATE_SHUTTING_DOWN, TXFS_RM_STATE_STARTING, base.txfs_query_rm_information, fs.txfs_query_rm_information, winioctl/PTXFS_QUERY_RM_INFORMATION, winioctl/TXFS_QUERY_RM_INFORMATION'
-f1_keywords:
-- winioctl/TXFS_QUERY_RM_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- TXFS_QUERY_RM_INFORMATION
 targetos: Windows
 req.typenames: TXFS_QUERY_RM_INFORMATION, *PTXFS_QUERY_RM_INFORMATION
 req.redist: 
+f1_keywords:
+ - _TXFS_QUERY_RM_INFORMATION
+ - winioctl/_TXFS_QUERY_RM_INFORMATION
+ - PTXFS_QUERY_RM_INFORMATION
+ - winioctl/PTXFS_QUERY_RM_INFORMATION
+ - TXFS_QUERY_RM_INFORMATION
+ - winioctl/TXFS_QUERY_RM_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - TXFS_QUERY_RM_INFORMATION
 ---
 
 # TXFS_QUERY_RM_INFORMATION structure
@@ -47,80 +53,64 @@ req.redist:
 
 ## -description
 
-
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains information about the resource manager (RM).
 
-
 ## -struct-fields
-
-
-
 
 ### -field BytesRequired
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a> 
+If <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a> 
       returns <b>ERROR_BUFFER_TOO_SMALL</b>, this member specifies the minimum number of bytes 
       needed to return the information requested, including the <b>NULL</b> terminating 
       character.
-
 
 ### -field TailLsn
 
 The oldest log sequence number (LSN) currently used by the RM.
 
-
 ### -field CurrentLsn
 
 The LSN most recently used by the RM in its log.
-
 
 ### -field ArchiveTailLsn
 
 The LSN of the archive tail of the log.
 
-
 ### -field LogContainerSize
 
 The actual size of a log container, in bytes.
-
 
 ### -field HighestVirtualClock
 
 The highest timestamp associated with a log record.
 
-
 ### -field LogContainerCount
 
 The number of log containers.
-
 
 ### -field LogContainerCountMax
 
 The maximum number of log containers.
 
-
 ### -field LogContainerCountMin
 
 The minimum number of containers allowed in the log.
-
 
 ### -field LogGrowthIncrement
 
 The amount the log will grow by, which is either a number of containers or percentage of the log size; the 
       growth type used is specified by the flags set in <b>Flags</b> member.
 
-
 ### -field LogAutoShrinkPercentage
 
 If the auto-shrink policy is active, this member specifies the maximum allowable amount of free space in 
       the log. If this member is zero, the auto-shrink policy is not active.
-
 
 ### -field Flags
 
@@ -238,8 +228,6 @@ Indicates that the RM is to prefer system
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LoggingMode
 
@@ -273,13 +261,10 @@ Full logging is used
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
-
 
 ### -field RmState
 
@@ -335,76 +320,56 @@ The RM is shutting down.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LogCapacity
 
 The total capacity of the log, in bytes.
 
-
 ### -field LogFree
 
 The number of bytes free in the log.
-
 
 ### -field TopsSize
 
 The size of the $Tops file, in bytes.
 
-
 ### -field TopsUsed
 
 The amount of the $Tops file that is in use, in bytes.
-
 
 ### -field TransactionCount
 
 The number of active transactions, at the time the query was issued.
 
-
 ### -field OnePCCount
 
 The number of single-phase commit operations that have occurred on this RM.
-
 
 ### -field TwoPCCount
 
 The number of two-phase commit operations that have occurred on this RM.
 
-
 ### -field NumberLogFileFull
 
 The number of times this RM's log has become full.
-
 
 ### -field OldestTransactionAge
 
 The length of the oldest active transaction, in milliseconds.
 
-
 ### -field RMName
 
 The <b>GUID</b> that indicates the name of this RM.
-
 
 ### -field TmLogPathOffset
 
 The offset from the beginning of this structure to a <b>NULL</b>-terminated Unicode 
       string that contains the path to the TM's log.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_query_rm_information">FSCTL_TXFS_QUERY_RM_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-structures">TxF Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-structures">TxF Structures</a>

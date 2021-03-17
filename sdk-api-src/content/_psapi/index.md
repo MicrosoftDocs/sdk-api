@@ -1,9 +1,10 @@
 ---
 UID: TP:psapi
+title: Process Status API (PSAPI)
 ms.assetid: 957b2319-c806-3914-844e-95dc41196ab4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Process Status API (PSAPI)

@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_MsrcSeverity
 title: IUpdate::get_MsrcSeverity (wuapi.h)
 description: Gets the Microsoft Security Response Center severity rating of the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","MsrcSeverity property","IUpdate.MsrcSeverity","IUpdate.get_MsrcSeverity","IUpdate::MsrcSeverity","IUpdate::get_MsrcSeverity","MsrcSeverity property [Windows Update Agent]","MsrcSeverity property [Windows Update Agent]","IUpdate interface","get_MsrcSeverity","wua.iupdate_msrcseverity","wuapi/IUpdate::MsrcSeverity","wuapi/IUpdate::get_MsrcSeverity"]
 old-location: wua\iupdate_msrcseverity.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate.get_MsrcSeverity, IUpdate::MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent],IUpdate interface, get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
-f1_keywords:
-- wuapi/IUpdate.MsrcSeverity
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.MsrcSeverity
-- IUpdate.get_MsrcSeverity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_MsrcSeverity
+ - wuapi/IUpdate::get_MsrcSeverity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.MsrcSeverity
+ - IUpdate.get_MsrcSeverity
 ---
 
 # IUpdate::get_MsrcSeverity
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the Microsoft Security Response Center severity rating of the update.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The following ratings are the possible severity ratings of a security issue that is fixed by an update. These ratings were revised by the Microsoft Security Response Center in November 2002.
 
@@ -113,18 +109,7 @@ A security issue whose exploitation is extremely difficult, or whose impact is m
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

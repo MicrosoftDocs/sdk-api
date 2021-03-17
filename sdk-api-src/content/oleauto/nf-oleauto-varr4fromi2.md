@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarR4FromI2
 title: VarR4FromI2 function (oleauto.h)
 description: Converts a short value to a float value.
+helpviewer_keywords: ["VarR4FromI2","VarR4FromI2 function [Automation]","_oa96_VarR4FromI2","automat.varr4fromi2","oleauto/VarR4FromI2"]
 old-location: automat\varr4fromi2.htm
 tech.root: automat
 ms.assetid: 0857de74-47f9-42a1-ab41-23f75fa416f0
 ms.date: 12/05/2018
 ms.keywords: VarR4FromI2, VarR4FromI2 function [Automation], _oa96_VarR4FromI2, automat.varr4fromi2, oleauto/VarR4FromI2
-f1_keywords:
-- oleauto/VarR4FromI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarR4FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarR4FromI2
+ - oleauto/VarR4FromI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarR4FromI2
 ---
 
 # VarR4FromI2 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a short value to a float value.
 
-
 ## -parameters
-
-
-
 
 ### -param sIn [in]
 
 The value to convert.
 
-
 ### -param pfltOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

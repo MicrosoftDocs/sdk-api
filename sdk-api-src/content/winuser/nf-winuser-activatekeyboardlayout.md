@@ -2,15 +2,12 @@
 UID: NF:winuser.ActivateKeyboardLayout
 title: ActivateKeyboardLayout function (winuser.h)
 description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
+helpviewer_keywords: ["ActivateKeyboardLayout","ActivateKeyboardLayout function [Keyboard and Mouse Input]","HKL_NEXT","HKL_PREV","KLF_REORDER","KLF_RESET","KLF_SETFORPROCESS","KLF_SHIFTLOCK","KLF_UNLOADPREVIOUS","_win32_ActivateKeyboardLayout","_win32_activatekeyboardlayout_cpp","inputdev.activatekeyboardlayout","winui._win32_activatekeyboardlayout","winuser/ActivateKeyboardLayout"]
 old-location: inputdev\activatekeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\activatekeyboardlayout.htm
 ms.date: 12/05/2018
 ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard and Mouse Input], HKL_NEXT, HKL_PREV, KLF_REORDER, KLF_RESET, KLF_SETFORPROCESS, KLF_SHIFTLOCK, KLF_UNLOADPREVIOUS, _win32_ActivateKeyboardLayout, _win32_activatekeyboardlayout_cpp, inputdev.activatekeyboardlayout, winui._win32_activatekeyboardlayout, winuser/ActivateKeyboardLayout
-f1_keywords:
-- winuser/ActivateKeyboardLayout
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
-- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
-- ext-ms-win-ntuser-keyboard-l1-1-2.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
-- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
-api_name:
-- ActivateKeyboardLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ActivateKeyboardLayout
+ - winuser/ActivateKeyboardLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+ - ext-ms-win-ntuser-keyboard-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+ - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+api_name:
+ - ActivateKeyboardLayout
 ---
 
 # ActivateKeyboardLayout function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
 
-
 ## -parameters
-
-
-
 
 ### -param hkl [in]
 
@@ -69,7 +66,7 @@ Type: <b>HKL</b>
 
 Input locale identifier to be activated.
 
-The input locale identifier must have been loaded by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
+The input locale identifier must have been loaded by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
 
 <table>
 <tr>
@@ -99,8 +96,6 @@ Selects the previous locale identifier in the circular list of loaded locale ide
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -149,7 +144,7 @@ These two methods are mutually exclusive, and the setting persists as part of th
 </td>
 <td width="60%">
 Activates the specified locale identifier for the entire process and sends the 
-      <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
+      <a href="/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
 
 </td>
 </tr>
@@ -170,31 +165,22 @@ This is used with <b>KLF_RESET</b>. See <b>KLF_RESET</b> for an explanation.
 </dl>
 </td>
 <td width="60%">
-This flag is unsupported. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a> function instead.
+This flag is unsupported. Use the <a href="/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a> function instead.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HKL</b>
 
 The return value is of type 
       <b>HKL</b>. If the function succeeds, the return value is the previous input locale identifier. Otherwise, it is zero.
 
-To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
-
-
 
 This function only affects the layout for the current process or thread.
 
@@ -205,27 +191,21 @@ When multiple IMEs are allowed for each locale, passing an input locale identifi
 
 The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which the Caps Lock state is turned off. By default, the Caps Lock state is turned off by hitting the Caps Lock key again. If only <b>KLF_RESET</b> is set, the default state is reestablished. If <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> are set, the Caps Lock state is turned off by pressing either Caps Lock key. This feature is used to conform to local keyboard behavior standards as well as for personal preferences.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
@@ -233,8 +213,4 @@ The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>

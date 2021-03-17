@@ -1,9 +1,10 @@
 ---
 UID: TP:virtual
+title: Hyper-V WMI Provider
 ms.assetid: 9f53b2f8-af0e-3819-8ce3-76941cb66831
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Hyper-V WMI Provider
@@ -18,5 +19,4 @@ To develop Hyper-V WMI Provider, you need these headers:
  * [mpconfig.h](../mpconfig/index.md)
 
 For programming guidance for this technology, see:
-* [Hyper-V WMI Provider](/windows/desktop/virtual)
-
+* [Hyper-V WMI Provider](/previous-versions/windows/desktop/virtual)

@@ -2,15 +2,12 @@
 UID: NF:ocidl.IPropertyPage.TranslateAccelerator
 title: IPropertyPage::TranslateAccelerator (ocidl.h)
 description: Passes a keystroke to the property page for processing.
+helpviewer_keywords: ["IPropertyPage interface [COM]","TranslateAccelerator method","IPropertyPage.TranslateAccelerator","IPropertyPage::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [COM]","TranslateAccelerator method [COM]","IPropertyPage interface","_ctrl_ipropertypage_translateaccelerator","com.ipropertypage_translateaccelerator","ocidl/IPropertyPage::TranslateAccelerator"]
 old-location: com\ipropertypage_translateaccelerator.htm
 tech.root: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
-f1_keywords:
-- ocidl/IPropertyPage.TranslateAccelerator
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPropertyPage.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyPage::TranslateAccelerator
+ - ocidl/IPropertyPage::TranslateAccelerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPropertyPage.TranslateAccelerator
 ---
 
 # IPropertyPage::TranslateAccelerator
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes a keystroke to the property page for processing.
-
 
 ## -parameters
 
-
-
-
 ### -param pMsg [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure describing the keystroke to be processed.
-
+A pointer to the <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure describing the keystroke to be processed.
 
 ## -returns
-
-
 
 This method can return the standard return value E_UNEXPECTED, as well as the following values.
 
@@ -118,28 +112,12 @@ The address in <i>pMsg</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Calls to this method must occur after a call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a> and before the corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
-
-
-
+Calls to this method must occur after a call to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-activate">IPropertyPage::Activate</a> and before the corresponding call to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>

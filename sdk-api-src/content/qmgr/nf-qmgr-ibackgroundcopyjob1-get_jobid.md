@@ -2,15 +2,12 @@
 UID: NF:qmgr.IBackgroundCopyJob1.get_JobID
 title: IBackgroundCopyJob1::get_JobID (qmgr.h)
 description: Use the get_JobID method to retrieve the job's identifier.
+helpviewer_keywords: ["IBackgroundCopyJob1 interface [BITS]","get_JobID method","IBackgroundCopyJob1.get_JobID","IBackgroundCopyJob1::get_JobID","bits.ibackgroundcopyjob1_get_jobid","get_JobID","get_JobID method [BITS]","get_JobID method [BITS]","IBackgroundCopyJob1 interface","qmgr/IBackgroundCopyJob1::get_JobID"]
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm
 tech.root: Bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
-f1_keywords:
-- qmgr/IBackgroundCopyJob1.get_JobID
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob1.get_JobID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob1::get_JobID
+ - qmgr/IBackgroundCopyJob1::get_JobID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob1.get_JobID
 ---
 
 # IBackgroundCopyJob1::get_JobID
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>get_JobID</b> method to retrieve the job's identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidJobID [out]
 
 GUID that uniquely identifies the job.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -87,18 +81,7 @@ Successfully retrieved the GUID that identifies the job.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>

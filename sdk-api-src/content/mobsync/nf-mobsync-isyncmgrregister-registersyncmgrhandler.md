@@ -2,15 +2,12 @@
 UID: NF:mobsync.ISyncMgrRegister.RegisterSyncMgrHandler
 title: ISyncMgrRegister::RegisterSyncMgrHandler (mobsync.h)
 description: Registers a handler with the synchronization manager when the handler has items to synchronize.
+helpviewer_keywords: ["ISyncMgrRegister interface [Windows Shell]","RegisterSyncMgrHandler method","ISyncMgrRegister.RegisterSyncMgrHandler","ISyncMgrRegister::RegisterSyncMgrHandler","RegisterSyncMgrHandler","RegisterSyncMgrHandler method [Windows Shell]","RegisterSyncMgrHandler method [Windows Shell]","ISyncMgrRegister interface","mobsync/ISyncMgrRegister::RegisterSyncMgrHandler","shell.syncmgr_isyncmgrregister_registersyncmgrhandler","syncmgr.isyncmgrregister_registersyncmgrhandler"]
 old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister interface [Windows Shell],RegisterSyncMgrHandler method, ISyncMgrRegister.RegisterSyncMgrHandler, ISyncMgrRegister::RegisterSyncMgrHandler, RegisterSyncMgrHandler, RegisterSyncMgrHandler method [Windows Shell], RegisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::RegisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_registersyncmgrhandler, syncmgr.isyncmgrregister_registersyncmgrhandler
-f1_keywords:
-- mobsync/ISyncMgrRegister.RegisterSyncMgrHandler
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrRegister.RegisterSyncMgrHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrRegister::RegisterSyncMgrHandler
+ - mobsync/ISyncMgrRegister::RegisterSyncMgrHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrRegister.RegisterSyncMgrHandler
 ---
 
 # ISyncMgrRegister::RegisterSyncMgrHandler
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a handler with the synchronization manager when the handler has items to synchronize.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param clsidHandler [in]
 
@@ -64,22 +60,17 @@ Type: <b>REFCLSID</b>
 
 The CLSID of the handler that should be registered to do synchronizations.
 
-
 ### -param pwszDescription [in]
 
 Type: <b>LPCWSTR</b>
 
 Text identifying the handler. This parameter may be <b>NULL</b>.
 
-
 ### -param dwSyncMgrRegisterFlags [in]
 
 Type: <b>DWORD</b>
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -102,18 +93,7 @@ The handler was successfully registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>

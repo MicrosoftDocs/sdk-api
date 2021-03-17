@@ -2,15 +2,12 @@
 UID: NF:msiquery.MsiSetMode
 title: MsiSetMode function (msiquery.h)
 description: The MsiSetMode function sets an internal engine Boolean state.
+helpviewer_keywords: ["MSIRUNMODE_REBOOTATEND","MSIRUNMODE_REBOOTNOW","MsiSetMode","MsiSetMode function","_msi_msisetmode","msiquery/MsiSetMode","setup.msisetmode"]
 old-location: setup\msisetmode.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.date: 12/05/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
-f1_keywords:
-- msiquery/MsiSetMode
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetMode
+ - msiquery/MsiSetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSetMode
 ---
 
 # MsiSetMode function
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSetMode</b> function sets an internal engine Boolean state.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param eRunMode [in]
 
 Specifies the run mode. This parameter must be one of the following values. While there are many values for this parameter, as described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetmode">MsiGetMode</a>, only one of the following values can be set. 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msigetmode">MsiGetMode</a>, only one of the following values can be set. 
 
 
 
@@ -96,30 +92,15 @@ A reboot is necessary to continue installation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fState [in]
 
 Specifies the state to set to <b>TRUE</b> or <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">Installer State Access Functions</a>

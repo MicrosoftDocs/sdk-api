@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_DeploymentAction
 title: IUpdate::get_DeploymentAction (wuapi.h)
 description: Gets the action for which the update is deployed.
+helpviewer_keywords: ["DeploymentAction property [Windows Update Agent]","DeploymentAction property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DeploymentAction property","IUpdate.DeploymentAction","IUpdate.get_DeploymentAction","IUpdate::DeploymentAction","IUpdate::get_DeploymentAction","get_DeploymentAction","wua.iupdate_deploymentaction","wuapi/IUpdate::DeploymentAction","wuapi/IUpdate::get_DeploymentAction"]
 old-location: wua\iupdate_deploymentaction.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.date: 12/05/2018
 ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeploymentAction property, IUpdate.DeploymentAction, IUpdate.get_DeploymentAction, IUpdate::DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
-f1_keywords:
-- wuapi/IUpdate.DeploymentAction
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.DeploymentAction
-- IUpdate.get_DeploymentAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_DeploymentAction
+ - wuapi/IUpdate::get_DeploymentAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.DeploymentAction
+ - IUpdate.get_DeploymentAction
 ---
 
 # IUpdate::get_DeploymentAction
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the action for which the update is deployed.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorEvents.OnStateChanged
 title: ISensorEvents::OnStateChanged (sensorsapi.h)
 description: Provides a notification that a sensor state has changed.
+helpviewer_keywords: ["ISensorEvents interface","OnStateChanged method","ISensorEvents.OnStateChanged","ISensorEvents::OnStateChanged","OnStateChanged","OnStateChanged method","OnStateChanged method","ISensorEvents interface","sensorsapi/ISensorEvents::OnStateChanged","winsensors_com_ref.isensorevents_onstatechanged"]
 old-location: winsensors_com_ref\isensorevents_onstatechanged.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: fb995dba-23aa-4a09-b411-7e95019535ce
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnStateChanged method, ISensorEvents.OnStateChanged, ISensorEvents::OnStateChanged, OnStateChanged, OnStateChanged method, OnStateChanged method,ISensorEvents interface, sensorsapi/ISensorEvents::OnStateChanged, winsensors_com_ref.isensorevents_onstatechanged
-f1_keywords:
-- sensorsapi/ISensorEvents.OnStateChanged
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorEvents.OnStateChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorEvents::OnStateChanged
+ - sensorsapi/ISensorEvents::OnStateChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorEvents.OnStateChanged
 ---
 
 # ISensorEvents::OnStateChanged
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a notification that a sensor state has changed.
-
 
 ## -parameters
 
-
-
-
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that raised the event.
-
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that raised the event.
 
 ### -param state [in]
 
-
-<a href="https://docs.microsoft.com/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> containing the new state.
-
+<a href="/windows/win32/api/sensorsapi/ne-sensorsapi-sensorstate">SensorState</a> containing the new state.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +83,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>

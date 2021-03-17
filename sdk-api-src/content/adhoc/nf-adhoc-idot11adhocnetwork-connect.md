@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetwork.Connect
 title: IDot11AdHocNetwork::Connect (adhoc.h)
 description: Connects to a previously created wireless ad hoc network.
+helpviewer_keywords: ["Connect","Connect method [NativeWIFI]","Connect method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","Connect method","IDot11AdHocNetwork.Connect","IDot11AdHocNetwork::Connect","adhoc/IDot11AdHocNetwork::Connect","nwifi.idot11adhocnetwork_connect"]
 old-location: nwifi\idot11adhocnetwork_connect.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Connect method, IDot11AdHocNetwork.Connect, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.Connect
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::Connect
+ - adhoc/IDot11AdHocNetwork::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.Connect
 ---
 
 # IDot11AdHocNetwork::Connect
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Connects to a previously created wireless ad hoc network. Before an application can connect to a network, the network must have been created using <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a> and committed using <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">IDot11AdHocManager::CommitCreatedNetwork</a>.
-
+Connects to a previously created wireless ad hoc network. Before an application can connect to a network, the network must have been created using <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a> and committed using <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">IDot11AdHocManager::CommitCreatedNetwork</a>.
 
 ## -parameters
-
-
-
 
 ### -param Passphrase [in]
 
 The password string used to authenticate the user or machine on the network.
 
-The length of the password string depends on the security settings passed in the <i>pSecurity</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">CreateNetwork</a> call. The following table shows the password length associated with various security settings.
+The length of the password string depends on the security settings passed in the <i>pSecurity</i> parameter of the <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">CreateNetwork</a> call. The following table shows the password length associated with various security settings.
 
 <table>
 <tr>
@@ -83,33 +80,27 @@ The length of the password string depends on the security settings passed in the
 </table>
  
 
-For the enumerated values that correspond to the security settings pair above, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> and <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>.
-
+For the enumerated values that correspond to the security settings pair above, see <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> and <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a>.
 
 ### -param GeographicalId [in]
 
-The geographical location in which the network was created. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
-
+The geographical location in which the network was created. For a list of possible values, see <a href="/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
 
 ### -param fSaveProfile [in]
 
-An optional parameter that specifies whether a wireless profile should  be saved. If <b>TRUE</b>, the profile is saved to the profile store. Once a profile is saved, the user can modify the profile using the <b>Manage Wireless Network</b> user interface. Profiles can also be modified using the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi Functions</a>.
+An optional parameter that specifies whether a wireless profile should  be saved. If <b>TRUE</b>, the profile is saved to the profile store. Once a profile is saved, the user can modify the profile using the <b>Manage Wireless Network</b> user interface. Profiles can also be modified using the <a href="/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi Functions</a>.
 
-Saving a profile modifies the network signature returned by <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
-
+Saving a profile modifies the network signature returned by <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
 
 ### -param fMakeSavedProfileUserSpecific [in]
 
 An optional parameter that specifies whether the profile to be saved is an all-user profile.  If set to <b>TRUE</b>, the profile is specific to the current user. If set to <b>FALSE</b>, the profile is an all-user profile and can be used by any user logged into the machine. This parameter is ignored if <i>fSaveProfile</i> is <b>FALSE</b>.
 
-By default, only members of the Administrators group can save an all-user profile. These security settings can be altered using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> function. Your application must be launched by a user with sufficient privileges for an all-user profile to be saved successfully.
+By default, only members of the Administrators group can save an all-user profile. These security settings can be altered using the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> function. Your application must be launched by a user with sufficient privileges for an all-user profile to be saved successfully.
 
 If your application is running in a Remote Desktop window, you can only save an all-user profile. User-specific profiles cannot be saved from an application running remotely.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -185,31 +176,15 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is asynchronous. <b>Connect</b> returns S_OK immediately if the parameters passed to the method are valid. However, a return code of S_OK does not indicate that the connection was successful. You must register for notifications on the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a> interface to be notified of connection success or failure. The <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onstatuschange">IDot11AdHocNetworkNotificationSink::OnStatusChange</a> method returns the connection status. For more information about registering for notifications, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>.
-
-
-
+This method is asynchronous. <b>Connect</b> returns S_OK immediately if the parameters passed to the method are valid. However, a return code of S_OK does not indicate that the connection was successful. You must register for notifications on the <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a> interface to be notified of connection success or failure. The <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetworknotificationsink-onstatuschange">IDot11AdHocNetworkNotificationSink::OnStatusChange</a> method returns the connection status. For more information about registering for notifications, see <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-disconnect">IDot11AdHocNetwork::Disconnect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-disconnect">IDot11AdHocNetwork::Disconnect</a>

@@ -2,15 +2,12 @@
 UID: NF:rend.IEnumDialableAddrs.Reset
 title: IEnumDialableAddrs::Reset (rend.h)
 description: The Reset method resets to the beginning of the enumeration sequence.
+helpviewer_keywords: ["IEnumDialableAddrs interface [TAPI 2.2]","Reset method","IEnumDialableAddrs.Reset","IEnumDialableAddrs::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumDialableAddrs interface","_tapi3_ienumdialableaddrs_reset","rend/IEnumDialableAddrs::Reset","tapi3.ienumdialableaddrs_reset"]
 old-location: tapi3\ienumdialableaddrs_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: c996ea76-bf72-40bd-996b-335448ceb93c
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Reset method, IEnumDialableAddrs.Reset, IEnumDialableAddrs::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_reset, rend/IEnumDialableAddrs::Reset, tapi3.ienumdialableaddrs_reset
-f1_keywords:
-- rend/IEnumDialableAddrs.Reset
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- IEnumDialableAddrs.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDialableAddrs::Reset
+ - rend/IEnumDialableAddrs::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - IEnumDialableAddrs.Reset
 ---
 
 # IEnumDialableAddrs::Reset
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence.
 
-
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -86,18 +79,7 @@ Method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>

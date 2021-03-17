@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 title: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout (msctf.h)
 description: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout method
+helpviewer_keywords: ["GetSubstituteKeyboardLayout","GetSubstituteKeyboardLayout method [Text Services Framework]","GetSubstituteKeyboardLayout method [Text Services Framework]","ITfInputProcessorProfileSubstituteLayout interface","ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework]","GetSubstituteKeyboardLayout method","ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout","ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","tsf.getsubstitutekeyboardlayout"]
 old-location: tsf\getsubstitutekeyboardlayout.htm
 tech.root: TSF
 ms.assetid: 9006a76f-11db-4e8c-9133-c335af7fe5ff
 ms.date: 12/05/2018
 ms.keywords: GetSubstituteKeyboardLayout, GetSubstituteKeyboardLayout method [Text Services Framework], GetSubstituteKeyboardLayout method [Text Services Framework],ITfInputProcessorProfileSubstituteLayout interface, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],GetSubstituteKeyboardLayout method, ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout, ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout, tsf.getsubstitutekeyboardlayout
-f1_keywords:
-- msctf/ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
+ - msctf/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 ---
 
 # ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Retrieves the input locale identifier (keyboard layout).
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the class identifier of the text service.
 
-
 ### -param langid [in]
 
-Specifies the language of the profile. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
-
+Specifies the language of the profile. See <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
 
 ### -param guidProfile [in]
 
 Identifies the profile GUID.
 
-
 ### -param phKL [out]
 
 Pointer to an <b>HKL</b> value that specifies the substitute input locale identifier.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,30 +91,19 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout">ITfInputProcessorProfileSubstituteLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout">ITfInputProcessorProfileSubstituteLayout</a>
+<a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-service-registration">Text Service Registration</a>
- 
-
- 
-
+<a href="/windows/desktop/TSF/text-service-registration">Text Service Registration</a>

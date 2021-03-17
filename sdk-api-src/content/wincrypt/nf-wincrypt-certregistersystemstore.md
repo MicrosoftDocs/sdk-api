@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertRegisterSystemStore
 title: CertRegisterSystemStore function (wincrypt.h)
 description: Registers a system store.
+helpviewer_keywords: ["CERT_STORE_CREATE_NEW_FLAG","CERT_SYSTEM_STORE_CURRENT_SERVICE","CERT_SYSTEM_STORE_CURRENT_USER","CERT_SYSTEM_STORE_LOCAL_MACHINE","CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY","CERT_SYSTEM_STORE_RELOCATE_FLAG","CERT_SYSTEM_STORE_SERVICES","CERT_SYSTEM_STORE_USERS","CertRegisterSystemStore","CertRegisterSystemStore function [Security]","_crypto2_certregistersystemstore","security.certregistersystemstore","wincrypt/CertRegisterSystemStore"]
 old-location: security\certregistersystemstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b6f72826-92ab-4e21-8db9-eb053663148b
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_CREATE_NEW_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_USERS, CertRegisterSystemStore, CertRegisterSystemStore function [Security], _crypto2_certregistersystemstore, security.certregistersystemstore, wincrypt/CertRegisterSystemStore
-f1_keywords:
-- wincrypt/CertRegisterSystemStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertRegisterSystemStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertRegisterSystemStore
+ - wincrypt/CertRegisterSystemStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertRegisterSystemStore
 ---
 
 # CertRegisterSystemStore function
@@ -48,19 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertRegisterSystemStore</b> function registers a system store.
 
-
 ## -parameters
-
-
-
 
 ### -param pvSystemStore [in]
 
 Identifies the system store to be registered. If CERT_SYSTEM_STORE_RELOCATE_FLAG is set in the <i>dwFlags</i> parameter, <i>pvSystemStore</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure. Otherwise, it points to a <b>null</b>-terminated Unicode string that names the system store. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure. Otherwise, it points to a <b>null</b>-terminated Unicode string that names the system store. 
 
 
 
@@ -68,7 +65,6 @@ Identifies the system store to be registered. If CERT_SYSTEM_STORE_RELOCATE_FLAG
 With appropriate settings in <i>dwFlags</i>, the identified store can be a system store on a remote local computer. Stores on remote computers can be registered with the computer name as a prefix to the name of the system store. For example, a remote local computer store can be registered with <i>pvSystemStore</i> pointing to the string "\\ComputerName\Trust" or "ComputerName\Trust".
 
 Leading "\\" backslashes are optional before a ComputerName.
-
 
 ### -param dwFlags [in]
 
@@ -174,7 +170,7 @@ The following low-word values are also defined and can be combined using a bitwi
 </td>
 <td width="60%">
 The system store is not in its default register location and <i>pvSystemStore</i> must be a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure.
 
 </td>
 </tr>
@@ -189,40 +185,29 @@ The function fails if the system store already exists in the store location.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pStoreInfo [in]
 
 Reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param pvReserved [in]
 
 Reserved for future use and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero.
 
-
-
-
 ## -remarks
 
-
-
-To unregister a system store that has been registered by this function, call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore">CertUnregisterSystemStore</a>.
+To unregister a system store that has been registered by this function, call <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore">CertUnregisterSystemStore</a>.
 
 
 #### Examples
 
-The following example shows adding a system store to a registry system store collection. For an example that includes the complete context for this example, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-listing-system-and-physical-stores">Example C Program: Listing System and Physical Stores</a>.
+The following example shows adding a system store to a registry system store collection. For an example that includes the complete context for this example, see <a href="/windows/desktop/SecCrypto/example-c-program-listing-system-and-physical-stores">Example C Program: Listing System and Physical Stores</a>.
 
 
 ```cpp
@@ -250,41 +235,30 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumphysicalstore">CertEnumPhysicalStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumphysicalstore">CertEnumPhysicalStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certunregisterphysicalstore">CertUnregisterPhysicalStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregisterphysicalstore">CertUnregisterPhysicalStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore">CertUnregisterSystemStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certunregistersystemstore">CertUnregisterSystemStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>

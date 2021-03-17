@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeUnitException.GetChangeUnitId
 title: IChangeUnitException::GetChangeUnitId (winsync.h)
 description: Gets the change unit ID for the change unit that is associated with the exception.
+helpviewer_keywords: ["GetChangeUnitId","GetChangeUnitId method [Windows Sync]","GetChangeUnitId method [Windows Sync]","IChangeUnitException interface","IChangeUnitException interface [Windows Sync]","GetChangeUnitId method","IChangeUnitException.GetChangeUnitId","IChangeUnitException::GetChangeUnitId","winsync.ichangeunitexception_getchangeunitid","winsync/IChangeUnitException::GetChangeUnitId"]
 old-location: winsync\ichangeunitexception_getchangeunitid.htm
 tech.root: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
-f1_keywords:
-- winsync/IChangeUnitException.GetChangeUnitId
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitException.GetChangeUnitId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitException::GetChangeUnitId
+ - winsync/IChangeUnitException::GetChangeUnitId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitException.GetChangeUnitId
 ---
 
 # IChangeUnitException::GetChangeUnitId
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the change unit ID for the change unit that is associated with the exception.
 
-
 ## -parameters
-
-
-
 
 ### -param pbChangeUnitId [in, out]
 
 Returns the change unit ID that is associated with the exception.
 
-
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbChangeUnitId</i>. Returns the number of bytes required to retrieve the ID when <i>pbChangeUnitId</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,18 +105,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>

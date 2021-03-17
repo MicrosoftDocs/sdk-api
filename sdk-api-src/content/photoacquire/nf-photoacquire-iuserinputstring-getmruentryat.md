@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IUserInputString.GetMruEntryAt
 title: IUserInputString::GetMruEntryAt (photoacquire.h)
 description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.
+helpviewer_keywords: ["GetMruEntryAt","GetMruEntryAt method [Picture Acquisition]","GetMruEntryAt method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetMruEntryAt method","IUserInputString.GetMruEntryAt","IUserInputString::GetMruEntryAt","IUserInputStringGetMruEntryAt","photoacquire/IUserInputString::GetMruEntryAt","picacq.iuserinputstring_getmruentryat"]
 old-location: picacq\iuserinputstring_getmruentryat.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: d03c3eba-e55c-421d-acfa-fea6aa645cc5
 ms.date: 12/05/2018
 ms.keywords: GetMruEntryAt, GetMruEntryAt method [Picture Acquisition], GetMruEntryAt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruEntryAt method, IUserInputString.GetMruEntryAt, IUserInputString::GetMruEntryAt, IUserInputStringGetMruEntryAt, photoacquire/IUserInputString::GetMruEntryAt, picacq.iuserinputstring_getmruentryat
-f1_keywords:
-- photoacquire/IUserInputString.GetMruEntryAt
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetMruEntryAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetMruEntryAt
+ - photoacquire/IUserInputString::GetMruEntryAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetMruEntryAt
 ---
 
 # IUserInputString::GetMruEntryAt
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMruEntryAt</code> method retrieves the entry at the given index in the most recently used list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
 Integer containing the index at which to retrieve the entry.
 
-
 ### -param pbstrMruEntry [out]
 
 Pointer to a string containing the most recently used entry.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -105,18 +95,7 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

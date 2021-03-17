@@ -2,15 +2,12 @@
 UID: NF:rtscom.IStylusPlugin.CustomStylusDataAdded
 title: IStylusPlugin::CustomStylusDataAdded (rtscom.h)
 description: Notifies the implementing plug-in that custom stylus data is available.
+helpviewer_keywords: ["0d3f556c-b0a8-4346-b7da-82f1a3c2603c","CustomStylusDataAdded","CustomStylusDataAdded method [Tablet PC]","CustomStylusDataAdded method [Tablet PC]","IStylusPlugin interface","IStylusPlugin interface [Tablet PC]","CustomStylusDataAdded method","IStylusPlugin.CustomStylusDataAdded","IStylusPlugin::CustomStylusDataAdded","rtscom/IStylusPlugin::CustomStylusDataAdded","tablet.istylusplugin_customstylusdataadded"]
 old-location: tablet\istylusplugin_customstylusdataadded.htm
 tech.root: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c
 ms.date: 12/05/2018
 ms.keywords: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c, CustomStylusDataAdded, CustomStylusDataAdded method [Tablet PC], CustomStylusDataAdded method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],CustomStylusDataAdded method, IStylusPlugin.CustomStylusDataAdded, IStylusPlugin::CustomStylusDataAdded, rtscom/IStylusPlugin::CustomStylusDataAdded, tablet.istylusplugin_customstylusdataadded
-f1_keywords:
-- rtscom/IStylusPlugin.CustomStylusDataAdded
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IStylusPlugin.CustomStylusDataAdded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStylusPlugin::CustomStylusDataAdded
+ - rtscom/IStylusPlugin::CustomStylusDataAdded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IStylusPlugin.CustomStylusDataAdded
 ---
 
 # IStylusPlugin::CustomStylusDataAdded
@@ -48,50 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Notifies the implementing plug-in that custom stylus data is available.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
-
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 ### -param pGuidId [in]
 
 The globally unique identifier (GUID) for the custom data.
 
-
 ### -param cbData [in]
 
 The size, in chars, of the buffer, <i>pbData</i>. Valid values are 0 through 0x7FFF, inclusive.
-
 
 ### -param pbData [in]
 
 A pointer to the buffer containing the custom data sent by the RTS object.
 
-
 ## -returns
 
-
-
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
-
-
-
+For a description of return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
-
-
 
 This method is called when <b>IStylusPlugin::CustomStylusDataAdded Method</b> is being processed. The custom data is passed in the <i>pbData</i> member, with a GUID in the <i>pGuidId</i> member to pass type information. This class cannot be inherited.
 
@@ -142,33 +125,22 @@ STDMETHODIMP CGestureHandler::CustomStylusDataAdded(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>

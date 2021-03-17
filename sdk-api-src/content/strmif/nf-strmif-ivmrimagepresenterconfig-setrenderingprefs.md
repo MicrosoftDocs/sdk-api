@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRImagePresenterConfig.SetRenderingPrefs
 title: IVMRImagePresenterConfig::SetRenderingPrefs (strmif.h)
 description: The SetRenderingPrefs method sets the rendering preferences on the VMR-7 filter's allocator-presenter.
+helpviewer_keywords: ["IVMRImagePresenterConfig interface [DirectShow]","SetRenderingPrefs method","IVMRImagePresenterConfig.SetRenderingPrefs","IVMRImagePresenterConfig::SetRenderingPrefs","IVMRImagePresenterConfigSetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig interface","dshow.ivmrimagepresenterconfig_setrenderingprefs","strmif/IVMRImagePresenterConfig::SetRenderingPrefs"]
 old-location: dshow\ivmrimagepresenterconfig_setrenderingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 22bb6d52-2201-429d-bd1a-d031c9b017ae
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterConfig interface [DirectShow],SetRenderingPrefs method, IVMRImagePresenterConfig.SetRenderingPrefs, IVMRImagePresenterConfig::SetRenderingPrefs, IVMRImagePresenterConfigSetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig interface, dshow.ivmrimagepresenterconfig_setrenderingprefs, strmif/IVMRImagePresenterConfig::SetRenderingPrefs
-f1_keywords:
-- strmif/IVMRImagePresenterConfig.SetRenderingPrefs
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenterConfig.SetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenterConfig::SetRenderingPrefs
+ - strmif/IVMRImagePresenterConfig::SetRenderingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenterConfig.SetRenderingPrefs
 ---
 
 # IVMRImagePresenterConfig::SetRenderingPrefs
@@ -49,45 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetRenderingPrefs</code> method sets the rendering preferences on the VMR-7 filter's allocator-presenter.
 
 
 
-The VMR-7 filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs">IVMRFilterConfig::SetRenderingPrefs</a> method calls through to this method.
-
+The VMR-7 filter's <a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs">IVMRFilterConfig::SetRenderingPrefs</a> method calls through to this method.
 
 ## -parameters
 
-
-
-
 ### -param dwRenderFlags [in]
 
-A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrrenderprefs">VMRRenderPrefs</a> flags that will be used to configure the allocator-presenter.
-
+A bitwise OR combination of <a href="/windows/desktop/api/strmif/ne-strmif-vmrrenderprefs">VMRRenderPrefs</a> flags that will be used to configure the allocator-presenter.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

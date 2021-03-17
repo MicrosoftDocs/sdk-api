@@ -2,15 +2,12 @@
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Disconnect
 title: IPortableDeviceConnector::Disconnect (portabledeviceconnectapi.h)
 description: Sends an asynchronous disconnect request to the MTP/Bluetooth device.
+helpviewer_keywords: ["Disconnect","Disconnect method [Windows Portable Devices SDK]","Disconnect method [Windows Portable Devices SDK]","IPortableDeviceConnector interface","IPortableDeviceConnector interface [Windows Portable Devices SDK]","Disconnect method","IPortableDeviceConnector.Disconnect","IPortableDeviceConnector::Disconnect","devpkey/IPortableDeviceConnector::Disconnect","portabledeviceconnectapi/IPortableDeviceConnector::Disconnect","wpdsdk.iportabledeviceconnector_disconnect"]
 old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Disconnect method, IPortableDeviceConnector.Disconnect, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
-f1_keywords:
-- portabledeviceconnectapi/IPortableDeviceConnector.Disconnect
-dev_langs:
-- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGuids.lib
-- PortableDeviceGuids.dll
-api_name:
-- IPortableDeviceConnector.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceConnector::Disconnect
+ - portabledeviceconnectapi/IPortableDeviceConnector::Disconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGuids.lib
+ - PortableDeviceGuids.dll
+api_name:
+ - IPortableDeviceConnector.Disconnect
 ---
 
 # IPortableDeviceConnector::Disconnect
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Disconnect</b> method sends an asynchronous disconnect request to the MTP/Bluetooth device.
-
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface.
-
+A pointer to an <a href="/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will queue a disconnect request and then return immediately.
 
-To be notified when the request is complete, applications should provide a pointer to the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface. This will disconnect the MTP/Bluetooth link and remove the Windows Portable Devices (WPD) class driver stack for that device.
+To be notified when the request is complete, applications should provide a pointer to the <a href="/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface. This will disconnect the MTP/Bluetooth link and remove the Windows Portable Devices (WPD) class driver stack for that device.
 
 Once the disconnection completes, the WPD API will no longer enumerate this device.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>

@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferConfigure3.GetNamespace
 title: IStreamBufferConfigure3::GetNamespace (sbe.h)
 description: The GetNamespace method retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
+helpviewer_keywords: ["GetNamespace","GetNamespace method [Microsoft TV Technologies]","GetNamespace method [Microsoft TV Technologies]","IStreamBufferConfigure3 interface","IStreamBufferConfigure3 interface [Microsoft TV Technologies]","GetNamespace method","IStreamBufferConfigure3.GetNamespace","IStreamBufferConfigure3::GetNamespace","IStreamBufferConfigure3GetNamespace","mstv.istreambufferconfigure3_getnamespace","sbe/IStreamBufferConfigure3::GetNamespace"]
 old-location: mstv\istreambufferconfigure3_getnamespace.htm
 tech.root: mstv
 ms.assetid: c03b5edd-e2b2-4ac9-b2e7-080f3796a6cc
 ms.date: 12/05/2018
 ms.keywords: GetNamespace, GetNamespace method [Microsoft TV Technologies], GetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetNamespace method, IStreamBufferConfigure3.GetNamespace, IStreamBufferConfigure3::GetNamespace, IStreamBufferConfigure3GetNamespace, mstv.istreambufferconfigure3_getnamespace, sbe/IStreamBufferConfigure3::GetNamespace
-f1_keywords:
-- sbe/IStreamBufferConfigure3.GetNamespace
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferConfigure3.GetNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferConfigure3::GetNamespace
+ - sbe/IStreamBufferConfigure3::GetNamespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferConfigure3.GetNamespace
 ---
 
 # IStreamBufferConfigure3::GetNamespace
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNamespace</b> method retrieves the prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszNamespace [out]
 
 Receives a pointer to a null-terminated, wide-character string. The caller must free the string by calling <b>CoTaskMemFree</b>. If no prefix is defined, this variable receives a <b>NULL</b> pointer.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>

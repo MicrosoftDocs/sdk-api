@@ -2,15 +2,12 @@
 UID: NF:winbase.CreateTapePartition
 title: CreateTapePartition function (winbase.h)
 description: Reformats a tape.
+helpviewer_keywords: ["CreateTapePartition","CreateTapePartition function [Backup]","TAPE_FIXED_PARTITIONS","TAPE_INITIATOR_PARTITIONS","TAPE_SELECT_PARTITIONS","_win32_createtapepartition","backup.createtapepartition","base.createtapepartition","winbase/CreateTapePartition"]
 old-location: backup\createtapepartition.htm
 tech.root: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043
 ms.date: 12/05/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
-f1_keywords:
-- winbase/CreateTapePartition
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- CreateTapePartition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateTapePartition
+ - winbase/CreateTapePartition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - CreateTapePartition
 ---
 
 # CreateTapePartition function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateTapePartition</b> function reformats a tape.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device where the new partition is to be created. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwPartitionMethod [in]
 
@@ -109,23 +105,17 @@ Partitions the tape into the number of partitions specified by <i>dwCount</i>. T
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCount [in]
 
 Number of partitions to create. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function provides the maximum number of partitions a tape can support.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function provides the maximum number of partitions a tape can support.
 
 ### -param dwSize [in]
 
 Size of each partition, in megabytes. This value is ignored if the <i>dwPartitionMethod</i> parameter is <b>TAPE_SELECT_PARTITIONS</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -317,31 +307,15 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Creating partitions reformats the tape. All previous information recorded on the tape is destroyed. 
-
-
-
+Creating partitions reformats the tape. All previous information recorded on the tape is destroyed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

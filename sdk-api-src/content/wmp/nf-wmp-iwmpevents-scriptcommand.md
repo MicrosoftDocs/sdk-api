@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPEvents.ScriptCommand
 title: IWMPEvents::ScriptCommand (wmp.h)
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","ScriptCommand method","IWMPEvents.ScriptCommand","IWMPEvents::ScriptCommand","IWMPEventsScriptCommand","ScriptCommand","ScriptCommand method [Windows Media Player]","ScriptCommand method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__scriptcommand","wmp/IWMPEvents::ScriptCommand"]
 old-location: wmp\iwmpevents_iwmpevents__scriptcommand.htm
 tech.root: WMP
 ms.assetid: 1010961f-6d06-455a-9c14-bc06702e9e89
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ScriptCommand method, IWMPEvents.ScriptCommand, IWMPEvents::ScriptCommand, IWMPEventsScriptCommand, ScriptCommand, ScriptCommand method [Windows Media Player], ScriptCommand method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__scriptcommand, wmp/IWMPEvents::ScriptCommand
-f1_keywords:
-- wmp/IWMPEvents.ScriptCommand
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPEvents.ScriptCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEvents::ScriptCommand
+ - wmp/IWMPEvents::ScriptCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPEvents.ScriptCommand
 ---
 
 # IWMPEvents::ScriptCommand
@@ -48,40 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ScriptCommand</b> event occurs when a synchronized command or URL is received.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param scType [in]
 
 Specifies the type of script command.
 
-
 ### -param Param [in]
 
 Specifies the script command.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 Commands can be embedded along with the audio, video, or other data within a Windows Media file. The commands are comprised of a pair of Unicode strings associated with a designated time in the stream.
 
@@ -157,37 +138,26 @@ Param = http://myweb/mypage.html&&myframe
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">IWMPClosedCaption::get_captioningId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">IWMPClosedCaption::get_captioningId</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls">IWMPSettings::get_invokeURLs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_invokeurls">IWMPSettings::get_invokeURLs</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_baseurl">IWMPSettings::put_baseURL</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">IWMPSettings::put_defaultFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_defaultframe">IWMPSettings::put_defaultFrame</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettings::put_invokeURLs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettings::put_invokeURLs</a>

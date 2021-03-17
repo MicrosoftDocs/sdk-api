@@ -2,15 +2,12 @@
 UID: NF:dbghelp.SymSetExtendedOption
 title: SymSetExtendedOption function (dbghelp.h)
 description: Turns the specified extended symbol option on or off.
+helpviewer_keywords: ["SYMOPT_EX_DISABLEACCESSTIMEUPDATE","SymSetExtendedOption","SymSetExtendedOption function","base.symsetextendedoption","dbghelp/SymSetExtendedOption"]
 old-location: base\symsetextendedoption.htm
 tech.root: Debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
-f1_keywords:
-- dbghelp/SymSetExtendedOption
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DbgHelp.dll
-- ImageHlp.dll
-api_name:
-- SymSetExtendedOption
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.16232.1000 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymSetExtendedOption
+ - dbghelp/SymSetExtendedOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DbgHelp.dll
+ - ImageHlp.dll
+api_name:
+ - SymSetExtendedOption
 ---
 
 # SymSetExtendedOption function
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Turns the specified extended symbol option on or off.
 
-
 ## -parameters
-
-
-
 
 ### -param option [in]
 
@@ -79,34 +76,19 @@ When set to TRUE, turns off explicitly updating the last access time of a symbol
 </td>
 </tr>
 </table>
- 
-
 
 ### -param value [in]
 
 The value to set for the specified option, either TRUE or FALSE.
 
-
 ## -returns
 
-
-
-The previous value of the specified extended option. 
-
-
-
+The previous value of the specified extended option.
 
 ## -see-also
 
+<a href="/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_extended_options">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-imagehlp_extended_options">IMAGEHLP_EXTENDED_OPTIONS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>

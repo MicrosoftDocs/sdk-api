@@ -2,12 +2,10 @@
 UID: NE:d3d11_4.D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 title: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 description: Specifies indices for arrays of per component histogram infromation.
+tech.root: direct3d11
+helpviewer_keywords: ["D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT"]
 ms.date: 4/26/2019
 ms.keywords: D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
-f1_keywords:
-- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -20,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
+ - d3d11_4/D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d11_4.h
+ - d3d11_4.h
 api_name:
-- D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
+ - D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT
 ---
 
 ## -description
@@ -66,7 +69,7 @@ If the format has an alpha channel, indicates a histogram for the A component.
 
 ## -remarks
 
-The [D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS](ne-d3d11_4-d3d11_video_decoder_histogram_component_flags) is the flags enumeration used by [D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM](ns-d3d11_4-d3d11_feature_data_video_decoder_histogram) to allow you to specify one or more components for which histogram data is queried.
+The [D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS](ne-d3d11_4-d3d11_video_decoder_histogram_component_flags.md) is the flags enumeration used by [D3D11_FEATURE_DATA_VIDEO_DECODER_HISTOGRAM](ns-d3d11_4-d3d11_feature_data_video_decoder_histogram.md) to allow you to specify one or more components for which histogram data is queried.
 
 ## -see-also
 

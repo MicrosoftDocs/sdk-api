@@ -2,12 +2,10 @@
 UID: NF:directxcollision.BoundingBox.Transform
 title: BoundingBox::Transform
 description: Transforms the BoundingBox.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingBox::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Transform
-f1_keywords:
-- directxcollision/BoundingBox::Transform
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,17 +26,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingBox::Transform
+ - directxcollision/BoundingBox::Transform
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingBox::Transform
+ - BoundingBox::Transform
 ---
 
 # BoundingBox.Transform(BoundingBox&, XMMATRIX) method
+
 
 ## -description
 
@@ -66,3 +70,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingBox](ns-directxcollision-boundingbox.md)
+

@@ -2,15 +2,12 @@
 UID: NS:clusapi._CLUS_CHKDSK_INFO
 title: CLUS_CHKDSK_INFO (clusapi.h)
 description: Represents information about a Chkdsk operation.
+helpviewer_keywords: ["*PCLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO","CLUS_CHKDSK_INFO structure [Failover Cluster]","PCLUS_CHKDSK_INFO","PCLUS_CHKDSK_INFO structure pointer [Failover Cluster]","clusapi/CLUS_CHKDSK_INFO","clusapi/PCLUS_CHKDSK_INFO","mscs.clus_chkdsk_info"]
 old-location: mscs\clus_chkdsk_info.htm
 tech.root: MsCS
 ms.assetid: 455DD59C-B54D-4B42-B661-2E3994E69718
 ms.date: 12/05/2018
 ms.keywords: '*PCLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO, CLUS_CHKDSK_INFO structure [Failover Cluster], PCLUS_CHKDSK_INFO, PCLUS_CHKDSK_INFO structure pointer [Failover Cluster], clusapi/CLUS_CHKDSK_INFO, clusapi/PCLUS_CHKDSK_INFO, mscs.clus_chkdsk_info'
-f1_keywords:
-- clusapi/CLUS_CHKDSK_INFO
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUS_CHKDSK_INFO
 targetos: Windows
 req.typenames: CLUS_CHKDSK_INFO, *PCLUS_CHKDSK_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUS_CHKDSK_INFO
+ - clusapi/_CLUS_CHKDSK_INFO
+ - PCLUS_CHKDSK_INFO
+ - clusapi/PCLUS_CHKDSK_INFO
+ - CLUS_CHKDSK_INFO
+ - clusapi/CLUS_CHKDSK_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUS_CHKDSK_INFO
 ---
 
 # CLUS_CHKDSK_INFO structure
@@ -48,42 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about a Chkdsk operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PartitionNumber
 
 The ID of the partition on which the Chkdsk operation is being performed.
 
-
 ### -field ChkdskState
 
 The state of the Chkdsk operation.
-
 
 ### -field FileIdCount
 
 The number of files that were identified by the Chkdsk operation.
 
-
 ### -field FileIdList
 
 A list of file IDs that were identified by the Chkdsk operation.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

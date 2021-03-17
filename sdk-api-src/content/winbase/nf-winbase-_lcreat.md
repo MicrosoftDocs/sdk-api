@@ -2,15 +2,12 @@
 UID: NF:winbase._lcreat
 title: _lcreat function (winbase.h)
 description: Creates or opens the specified file.
+helpviewer_keywords: ["_lcreat","_lcreat function [Windows API]","winbase/_lcreat","winprog._lcreat"]
 old-location: winprog\_lcreat.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 89e19823-c720-4bfc-95d5-18942573dd94
 ms.date: 12/05/2018
 ms.keywords: _lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat
-f1_keywords:
-- winbase/_lcreat
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
-api_name:
-- _lcreat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _lcreat
+ - winbase/_lcreat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Private-l1-1-2.dll
+api_name:
+ - _lcreat
 ---
 
 # _lcreat function
@@ -52,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is provided for compatibility with 16-bit versions of Windows. New applications should use the <b>CreateFile</b> function.]
 
 Creates or opens the specified file. This documentation is included only for troubleshooting existing code.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName
 
 The name of the file. The string must consist of characters from the Windows ANSI character set.
-
 
 ### -param iAttribute
 
@@ -127,21 +123,12 @@ System. Not found by directory search.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If the function succeeds, the return value is a file handle. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+If the function succeeds, the return value is a file handle. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
-
-
 
 If the file does not exist, <b>_lcreat</b> creates and opens a new file for writing. If the file does exist, <b>_lcreat</b> truncates the file size to zero and opens it for reading and writing.
 
@@ -149,16 +136,6 @@ When the function opens a file, the pointer is set to the beginning of the file.
 
 Use the <b>_lcreat</b> function with care. It can open any file, even one already opened by another function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>

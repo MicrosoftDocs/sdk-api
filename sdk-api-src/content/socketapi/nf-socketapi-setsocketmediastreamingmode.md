@@ -2,15 +2,12 @@
 UID: NF:socketapi.SetSocketMediaStreamingMode
 title: SetSocketMediaStreamingMode function (socketapi.h)
 description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
+helpviewer_keywords: ["SetSocketMediaStreamingMode","SetSocketMediaStreamingMode function [Winsock]","socketapi/SetSocketMediaStreamingMode","winsock.setsocketmediastreamingmode"]
 old-location: winsock\setsocketmediastreamingmode.htm
 tech.root: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
 ms.date: 12/05/2018
 ms.keywords: SetSocketMediaStreamingMode, SetSocketMediaStreamingMode function [Winsock], socketapi/SetSocketMediaStreamingMode, winsock.setsocketmediastreamingmode
-f1_keywords:
-- socketapi/SetSocketMediaStreamingMode
-dev_langs:
-- c++
 req.header: socketapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windows.Networking.lib
 req.dll: Windows.Networking.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Windows.Networking.dll
-api_name:
-- SetSocketMediaStreamingMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetSocketMediaStreamingMode
+ - socketapi/SetSocketMediaStreamingMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Windows.Networking.dll
+api_name:
+ - SetSocketMediaStreamingMode
 ---
 
 # SetSocketMediaStreamingMode function
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetSocketMediaStreamingMode</b> function indicates whether the network is to be used for transferring streaming media that requires quality of service.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
-Indicates whether the network is to be used for transferring streaming media that requires quality of service. This ensures that sockets opened as low latency will get the right quality of service over 802.11 wireless networks. 
-
+Indicates whether the network is to be used for transferring streaming media that requires quality of service. This ensures that sockets opened as low latency will get the right quality of service over 802.11 wireless networks.
 
 ## -returns
-
-
 
 If no error occurs, 
 <b>SetSocketMediaStreamingMode</b> returns S_OK. Otherwise, an error code is returned as an HRESULT.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SetSocketMediaStreamingMode</b> function is used to indicate whether the network is to be used for transferring streaming media that requires quality of service. This function is normally used by Voice over IP (VoIP) or similar apps that require a consistent quality of service.  The <b>SetSocketMediaStreamingMode</b> function can be used by Windows Store apps or desktop apps.
@@ -90,24 +79,14 @@ A VoIP or similar app should close all low latency sockets to restore the media 
 
 The <b>SetSocketMediaStreamingMode</b> function has no effect if the socket will not be sending or receiving packets over an 802.11 wireless adapter.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/apps/hh452752(v=win.10)">Adding support for networking</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh452752(v=win.10)">Adding support for networking</a>
+<a href="/uwp/api/windows.networking.backgroundtransfer">Windows.Networking.BackgroundTransfer</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.backgroundtransfer">Windows.Networking.BackgroundTransfer</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.sockets">Windows.Networking.Sockets</a>
- 
-
- 
-
+<a href="/uwp/api/windows.networking.sockets">Windows.Networking.Sockets</a>

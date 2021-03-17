@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCallerSID
 title: ISecurityProperty::GetOriginalCallerSID (comsvcs.h)
 description: Retrieves the security identifier of the base process that initiated the call sequence from which the current method was called.
+helpviewer_keywords: ["GetOriginalCallerSID","GetOriginalCallerSID method [COM+]","GetOriginalCallerSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetOriginalCallerSID method","ISecurityProperty.GetOriginalCallerSID","ISecurityProperty::GetOriginalCallerSID","_cos_ISecurityProperty_GetOriginalCallerSID","comsvcs/ISecurityProperty::GetOriginalCallerSID","cos.isecurityproperty_getoriginalcallersid"]
 old-location: cos\isecurityproperty_getoriginalcallersid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e8700635-94cb-4d1a-9325-f93d00c5181f
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerSID, GetOriginalCallerSID method [COM+], GetOriginalCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCallerSID method, ISecurityProperty.GetOriginalCallerSID, ISecurityProperty::GetOriginalCallerSID, _cos_ISecurityProperty_GetOriginalCallerSID, comsvcs/ISecurityProperty::GetOriginalCallerSID, cos.isecurityproperty_getoriginalcallersid
-f1_keywords:
-- comsvcs/ISecurityProperty.GetOriginalCallerSID
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityProperty.GetOriginalCallerSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityProperty::GetOriginalCallerSID
+ - comsvcs/ISecurityProperty::GetOriginalCallerSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityProperty.GetOriginalCallerSID
 ---
 
 # ISecurityProperty::GetOriginalCallerSID
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the security identifier of the base process that initiated the call sequence from which the 
     current method was called.
 
 The preferred way to obtain information about the original caller is to use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a> interface.
-
+    <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param pSID [out]
 
 A reference to the security ID of the base process that initiated the call sequence from which the current 
       method was called.
 
-
 ## -returns
-
-
 
 This method can return the standard return values <b>E_INVALIDARG</b>, 
       <b>E_OUTOFMEMORY</b>, <b>E_UNEXPECTED</b>, and 
@@ -106,14 +100,8 @@ The current object does not have a context associated with it because either the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You use the 
      <b>GetOriginalCallerSID</b> method to 
@@ -125,7 +113,7 @@ You use the
      The following scenario illustrates the functionality of the 
      <b>GetOriginalCallerSID</b> method.
 
-<img alt="" src="./images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png"/>
+:::image type="content" source="./images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png" border="false" alt-text="Diagram showing the results of the GetOriginalCallerSID method for object references passed between four servers running two base processes.":::
 
 <ol>
 <li>Base Process 1, running on Server A as user A, creates Object X, on Server B, running as user B.</li>
@@ -141,9 +129,9 @@ You use the
      example).</div>
 <div> </div>
 The path to the original caller is broken if any object along the chain was created by some means other than 
-     <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">IObjectContext::CreateInstance</a> or 
-     <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. 
-     For example, if Base Process 1 uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> 
+     <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-createinstance">IObjectContext::CreateInstance</a> or 
+     <a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. 
+     For example, if Base Process 1 uses <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> 
      to create Object X, when Object Y calls 
      <b>GetOriginalCallerSID</b> the security 
      ID it gets back is the security ID of user B, not user D. This is because the call sequence is traced back 
@@ -151,19 +139,9 @@ The path to the original caller is broken if any object along the chain was crea
      <b>IObjectContext::CreateInstance</b> or 
      <b>ITransactionContext::CreateInstance</b>.
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ReleaseSID</a> on a security 
+You must call <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ReleaseSID</a> on a security 
     ID when you finish using it.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>

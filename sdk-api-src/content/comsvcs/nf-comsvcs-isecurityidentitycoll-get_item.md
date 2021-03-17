@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISecurityIdentityColl.get_Item
 title: ISecurityIdentityColl::get_Item (comsvcs.h)
 description: Retrieves a specified property in the security identity collection.
+helpviewer_keywords: ["ISecurityIdentityColl interface [COM+]","get_Item method","ISecurityIdentityColl.get_Item","ISecurityIdentityColl::get_Item","_cos_ISecurityIdentityColl_get_Item","comsvcs/ISecurityIdentityColl::get_Item","cos.isecurityidentitycoll_get_item","get_Item","get_Item method [COM+]","get_Item method [COM+]","ISecurityIdentityColl interface"]
 old-location: cos\isecurityidentitycoll_get_item.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0cc3a905-ec06-4d8d-8e4a-0774b7e67282
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Item method, ISecurityIdentityColl.get_Item, ISecurityIdentityColl::get_Item, _cos_ISecurityIdentityColl_get_Item, comsvcs/ISecurityIdentityColl::get_Item, cos.isecurityidentitycoll_get_item, get_Item, get_Item method [COM+], get_Item method [COM+],ISecurityIdentityColl interface
-f1_keywords:
-- comsvcs/ISecurityIdentityColl.get_Item
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityIdentityColl.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityIdentityColl::get_Item
+ - comsvcs/ISecurityIdentityColl::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityIdentityColl.get_Item
 ---
 
 # ISecurityIdentityColl::get_Item
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a specified property in the security identity collection.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 The name of the property to be retrieved. See Remarks for information about the available properties.
 
-
 ### -param pItem [out]
 
 A reference to the retrieved property.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 This collection represents a security identity, which provides information about a particular caller in the chain of calls ending with the current call. For each item in the security identity collection, the following table provides a description, the index name used to retrieve it, and the returned data type of the item.
 
@@ -130,22 +118,11 @@ This collection represents a security identity, which provides information about
 <td>V_I4</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/cossdk/com--security">COM+ Security</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--security">COM+ Security</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>

@@ -2,15 +2,12 @@
 UID: NF:d2d1helper.Matrix3x2F.TransformPoint
 title: Matrix3x2F::TransformPoint (d2d1helper.h)
 description: Uses this matrix to transform the specified point and returns the result.
+helpviewer_keywords: ["D2D1.Matrix3x2F.TransformPoint","D2D1::Matrix3x2F::TransformPoint","Matrix3x2F interface [Direct2D]","TransformPoint method","Matrix3x2F.TransformPoint","Matrix3x2F::TransformPoint","TransformPoint","TransformPoint method [Direct2D]","TransformPoint method [Direct2D]","Matrix3x2F interface","d2d1helper/Matrix3x2F::TransformPoint","direct2d.matrix3x2f_transformpoint"]
 old-location: direct2d\matrix3x2f_transformpoint.htm
 tech.root: Direct2D
 ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F interface [Direct2D],TransformPoint method, Matrix3x2F.TransformPoint, Matrix3x2F::TransformPoint, TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
-f1_keywords:
-- d2d1helper/Matrix3x2F.TransformPoint
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- Matrix3x2F.TransformPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix3x2F::TransformPoint
+ - d2d1helper/Matrix3x2F::TransformPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - Matrix3x2F.TransformPoint
 ---
 
 # Matrix3x2F::TransformPoint
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Uses this matrix to transform the specified point and returns the result.
-
 
 ## -parameters
 
-
-
-
 ### -param point
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point to transform.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The transformed point.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

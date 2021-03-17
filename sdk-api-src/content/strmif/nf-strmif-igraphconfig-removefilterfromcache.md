@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphConfig.RemoveFilterFromCache
 title: IGraphConfig::RemoveFilterFromCache (strmif.h)
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
+helpviewer_keywords: ["IGraphConfig interface [DirectShow]","RemoveFilterFromCache method","IGraphConfig.RemoveFilterFromCache","IGraphConfig::RemoveFilterFromCache","IGraphConfigRemoveFilterFromCache","RemoveFilterFromCache","RemoveFilterFromCache method [DirectShow]","RemoveFilterFromCache method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_removefilterfromcache","strmif/IGraphConfig::RemoveFilterFromCache"]
 old-location: dshow\igraphconfig_removefilterfromcache.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
-f1_keywords:
-- strmif/IGraphConfig.RemoveFilterFromCache
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphConfig.RemoveFilterFromCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphConfig::RemoveFilterFromCache
+ - strmif/IGraphConfig::RemoveFilterFromCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphConfig.RemoveFilterFromCache
 ---
 
 # IGraphConfig::RemoveFilterFromCache
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RemoveFilterFromCache</code> method removes a filter from the filter cache.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFilter [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter to remove from the cache.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter to remove from the cache.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -111,22 +102,11 @@ Filter was successfully removed from the cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>

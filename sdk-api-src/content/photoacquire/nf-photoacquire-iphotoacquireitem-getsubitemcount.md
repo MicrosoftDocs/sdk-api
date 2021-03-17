@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
 title: IPhotoAcquireItem::GetSubItemCount (photoacquire.h)
 description: The GetSubItemCount method retrieves the number of subitems contained in an item.
+helpviewer_keywords: ["GetSubItemCount","GetSubItemCount method [Picture Acquisition]","GetSubItemCount method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetSubItemCount method","IPhotoAcquireItem.GetSubItemCount","IPhotoAcquireItem::GetSubItemCount","IPhotoAcquireItemGetSubItemCount","photoacquire/IPhotoAcquireItem::GetSubItemCount","picacq.iphotoacquireitem_getsubitemcount"]
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 2790d551-42ae-4009-998e-2579687203d6
 ms.date: 12/05/2018
 ms.keywords: GetSubItemCount, GetSubItemCount method [Picture Acquisition], GetSubItemCount method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemCount method, IPhotoAcquireItem.GetSubItemCount, IPhotoAcquireItem::GetSubItemCount, IPhotoAcquireItemGetSubItemCount, photoacquire/IPhotoAcquireItem::GetSubItemCount, picacq.iphotoacquireitem_getsubitemcount
-f1_keywords:
-- photoacquire/IPhotoAcquireItem.GetSubItemCount
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireItem.GetSubItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireItem::GetSubItemCount
+ - photoacquire/IPhotoAcquireItem::GetSubItemCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireItem.GetSubItemCount
 ---
 
 # IPhotoAcquireItem::GetSubItemCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetSubItemCount</code> method retrieves the number of subitems contained in an item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pnCount [out]
 
 Pointer to an integer containing the count of subitems.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If an error occurs, <i>pnCount</i> will be set to <b>NULL</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>

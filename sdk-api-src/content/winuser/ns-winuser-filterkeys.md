@@ -2,15 +2,12 @@
 UID: NS:winuser.tagFILTERKEYS
 title: FILTERKEYS (winuser.h)
 description: Contains information about the FilterKeys accessibility feature, which enables a user with disabilities to set the keyboard repeat rate (RepeatKeys), acceptance delay (SlowKeys), and bounce rate (BounceKeys).
+helpviewer_keywords: ["*LPFILTERKEYS","FILTERKEYS","FILTERKEYS structure [Windows Accessibility]","FKF_AVAILABLE","FKF_CLICKON","FKF_CONFIRMHOTKEY","FKF_FILTERKEYSON","FKF_HOTKEYACTIVE","FKF_HOTKEYSOUND","FKF_INDICATOR","LPFILTERKEYS","LPFILTERKEYS structure pointer [Windows Accessibility]","_win32_FILTERKEYS_str","msaa.filterkeys","tagFILTERKEYS","winauto.filterkeys","winuser/FILTERKEYS","winuser/LPFILTERKEYS"]
 old-location: winauto\filterkeys.htm
 tech.root: WinAuto
 ms.assetid: 6e2526b3-ddf5-425b-8242-b302a683e0ad
 ms.date: 12/05/2018
 ms.keywords: '*LPFILTERKEYS, FILTERKEYS, FILTERKEYS structure [Windows Accessibility], FKF_AVAILABLE, FKF_CLICKON, FKF_CONFIRMHOTKEY, FKF_FILTERKEYSON, FKF_HOTKEYACTIVE, FKF_HOTKEYSOUND, FKF_INDICATOR, LPFILTERKEYS, LPFILTERKEYS structure pointer [Windows Accessibility], _win32_FILTERKEYS_str, msaa.filterkeys, tagFILTERKEYS, winauto.filterkeys, winuser/FILTERKEYS, winuser/LPFILTERKEYS'
-f1_keywords:
-- winuser/FILTERKEYS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- FILTERKEYS
 targetos: Windows
 req.typenames: FILTERKEYS, *LPFILTERKEYS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagFILTERKEYS
+ - winuser/tagFILTERKEYS
+ - LPFILTERKEYS
+ - winuser/LPFILTERKEYS
+ - FILTERKEYS
+ - winuser/FILTERKEYS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - FILTERKEYS
 ---
 
 # FILTERKEYS structure
@@ -48,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the FilterKeys accessibility feature, which enables a user with disabilities to set the keyboard repeat rate (RepeatKeys), acceptance delay (SlowKeys), and bounce rate (BounceKeys).
-      
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the structure size, in bytes.
 
-
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit flags that specify properties of the FilterKeys feature. The following bit-flag values are defined:
@@ -157,61 +156,43 @@ If this flag is set, the computer plays a siren sound when the user turns the Fi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iWaitMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that the user must hold down a key before it is accepted by the computer.
 
-
 ### -field iDelayMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that the user must hold down a key before it begins to repeat.
 
-
 ### -field iRepeatMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, between each repetition of the keystroke.
 
-
 ### -field iBounceMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that must elapse after releasing a key before the computer will accept a subsequent press of the same key.
 
-
 ## -remarks
 
-
-
-Use a <b>FILTERKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETFILTERKEYS</b> or <b>SPI_SETFILTERKEYS</b> value. When using <b>SPI_GETFILTERKEYS</b>, you must specify the <b>cbSize</b> member of the <b>FILTERKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. Specify all structure members when using the <b>SPI_SETFILTERKEYS</b> value.
+Use a <b>FILTERKEYS</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETFILTERKEYS</b> or <b>SPI_SETFILTERKEYS</b> value. When using <b>SPI_GETFILTERKEYS</b>, you must specify the <b>cbSize</b> member of the <b>FILTERKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. Specify all structure members when using the <b>SPI_SETFILTERKEYS</b> value.
 
 The <b>iBounceMSec</b> member controls the BounceKeys feature, and the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> members work together to control the RepeatKeys and SlowKeys features. If BounceKeys is on (that is, <b>iBounceMSec</b> is nonzero), the RepeatKeys and SlowKeys features are off (that is, the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> members must all be zero). Similarly, if BounceKeys is off (<b>iBounceMSec</b> is zero), the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> must all be nonzero.
 
 The maximum value of the  <b>iBounceMSec</b>, <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> members is 20,000 milliseconds.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

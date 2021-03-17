@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreAnchor.SetSelection
 title: ITextStoreAnchor::SetSelection (textstor.h)
 description: ITextStoreAnchor::SetSelection method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","SetSelection method","ITextStoreAnchor.SetSelection","ITextStoreAnchor::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::SetSelection","tsf.itextstoreanchor_setselection"]
 old-location: tsf\itextstoreanchor_setselection.htm
 tech.root: TSF
 ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],SetSelection method, ITextStoreAnchor.SetSelection, ITextStoreAnchor::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::SetSelection, tsf.itextstoreanchor_setselection
-f1_keywords:
-- textstor/ITextStoreAnchor.SetSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::SetSelection
+ - textstor/ITextStoreAnchor::SetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.SetSelection
 ---
 
 # ITextStoreAnchor::SetSelection
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Selects text within the document.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Specifies the number of text selections in <i>pSelection</i>.
 
-
 ### -param pSelection [in]
 
-Specifies the style, start, and end character positions of the text selected through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure. The start anchor member <b>paStart</b> of the structure must never follow the end anchor member <b>paEnd</b>, although they might be at the same location.
+Specifies the style, start, and end character positions of the text selected through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR</a> structure. The start anchor member <b>paStart</b> of the structure must never follow the end anchor member <b>paEnd</b>, although they might be at the same location.
 
 When <b>paStart</b> = <b>paEnd</b>, the method places a caret at the anchor location. There can be only one caret at a time in the text stream.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,28 +129,17 @@ The caller does not have a read/write lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
- 
-
- 
-

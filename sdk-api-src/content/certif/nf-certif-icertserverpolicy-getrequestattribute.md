@@ -2,15 +2,12 @@
 UID: NF:certif.ICertServerPolicy.GetRequestAttribute
 title: ICertServerPolicy::GetRequestAttribute (certif.h)
 description: Returns a named attribute from a request.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","GetRequestAttribute method","GetRequestAttribute","GetRequestAttribute method [Security]","GetRequestAttribute method [Security]","CCertServerPolicy object","GetRequestAttribute method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","GetRequestAttribute method","ICertServerPolicy.GetRequestAttribute","ICertServerPolicy::GetRequestAttribute","_certsrv_icertserverpolicy_getrequestattribute","certif/ICertServerPolicy::GetRequestAttribute","security.icertserverpolicy_getrequestattribute"]
 old-location: security\icertserverpolicy_getrequestattribute.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestAttribute method, GetRequestAttribute, GetRequestAttribute method [Security], GetRequestAttribute method [Security],CCertServerPolicy object, GetRequestAttribute method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestAttribute method, ICertServerPolicy.GetRequestAttribute, ICertServerPolicy::GetRequestAttribute, _certsrv_icertserverpolicy_getrequestattribute, certif/ICertServerPolicy::GetRequestAttribute, security.icertserverpolicy_getrequestattribute
-f1_keywords:
-- certif/ICertServerPolicy.GetRequestAttribute
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.GetRequestAttribute
-- CCertServerPolicy.GetRequestAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::GetRequestAttribute
+ - certif/ICertServerPolicy::GetRequestAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.GetRequestAttribute
+ - CCertServerPolicy.GetRequestAttribute
 ---
 
 # ICertServerPolicy::GetRequestAttribute
@@ -49,50 +51,36 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetRequestAttribute</b> method returns a named <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> from a request.
-
+The <b>GetRequestAttribute</b> method returns a named <a href="/windows/desktop/SecGloss/a-gly">attribute</a> from a request.
 
 ## -parameters
-
-
-
 
 ### -param strAttributeName [in]
 
 The name of the attribute to retrieve.
 
-
 ### -param pstrAttributeValue [out]
 
 A pointer to a <b>BSTR</b> value that will contain the attribute value.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and *<i>pstrAttributeValue</i> is set to the <b>BSTR</b> that contains the attribute value.
 
 To use this method, create a variable of type <b>BSTR</b>, set the variable equal to <b>NULL</b>, and pass the address of this variable as <i>pstrAttributeValue</i>.
 
-When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the attribute value.
 
-
-
-
 ## -remarks
 
-
-
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The following request attributes are unique to KEYGEN style requests.
 
@@ -146,21 +134,10 @@ if (NULL != bstrAttribValue)
     SysFreeString(bstrAttribValue);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>

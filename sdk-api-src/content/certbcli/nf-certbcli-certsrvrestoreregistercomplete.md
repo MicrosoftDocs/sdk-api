@@ -2,15 +2,12 @@
 UID: NF:certbcli.CertSrvRestoreRegisterComplete
 title: CertSrvRestoreRegisterComplete function (certbcli.h)
 description: Completes a registered Certificate Services restore operation.
+helpviewer_keywords: ["CertSrvRestoreRegisterComplete","CertSrvRestoreRegisterComplete function [Security]","_certsrv_certsrvrestoreregistercomplete","certbcli/CertSrvRestoreRegisterComplete","security.certsrvrestoreregistercomplete"]
 old-location: security\certsrvrestoreregistercomplete.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.date: 12/05/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-f1_keywords:
-- certbcli/CertSrvRestoreRegisterComplete
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestoreRegisterComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestoreRegisterComplete
+ - certbcli/CertSrvRestoreRegisterComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestoreRegisterComplete
 ---
 
 # CertSrvRestoreRegisterComplete function
@@ -48,38 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestoreRegisterComplete</b>  function completes a registered Certificate Services restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services restore context. You must set this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
-
+<a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
 
 ### -param hrRestoreState [in]
 
 <b>HRESULT</b> value indicating the success code for the restore operation. Set this value to S_OK if the restore operation was successful.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 If a registered restore operation is not completed, Certificate Services will not start.
 
@@ -115,21 +103,10 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvrestoreregisterw">CertSrvRestoreRegister</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>

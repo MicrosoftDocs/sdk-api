@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMixerControl.GetZOrder
 title: IVMRMixerControl::GetZOrder (strmif.h)
 description: The GetZOrder method retrieves this video stream's position in the Z order.
+helpviewer_keywords: ["GetZOrder","GetZOrder method [DirectShow]","GetZOrder method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetZOrder method","IVMRMixerControl.GetZOrder","IVMRMixerControl::GetZOrder","IVMRMixerControlGetZOrder","dshow.ivmrmixercontrol_getzorder","strmif/IVMRMixerControl::GetZOrder"]
 old-location: dshow\ivmrmixercontrol_getzorder.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 76f84c77-e528-4059-8f40-5e49db9ec567
 ms.date: 12/05/2018
 ms.keywords: GetZOrder, GetZOrder method [DirectShow], GetZOrder method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetZOrder method, IVMRMixerControl.GetZOrder, IVMRMixerControl::GetZOrder, IVMRMixerControlGetZOrder, dshow.ivmrmixercontrol_getzorder, strmif/IVMRMixerControl::GetZOrder
-f1_keywords:
-- strmif/IVMRMixerControl.GetZOrder
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl.GetZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl::GetZOrder
+ - strmif/IVMRMixerControl::GetZOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl.GetZOrder
 ---
 
 # IVMRMixerControl::GetZOrder
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetZOrder</code> method retrieves this video stream's position in the Z order.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Specifies the input stream.
 
-
 ### -param pZ [out]
 
 Pointer to a DWORD that receives the current position in the Z-order.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -105,39 +95,23 @@ The pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The default Z-order is the order in which the pins were created.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setzorder">IVMRMixerControl::SetZOrder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setzorder">IVMRMixerControl::SetZOrder</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

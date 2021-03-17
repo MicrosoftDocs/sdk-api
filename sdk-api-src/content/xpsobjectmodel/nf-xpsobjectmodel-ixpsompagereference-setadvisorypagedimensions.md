@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
 title: IXpsOMPageReference::SetAdvisoryPageDimensions (xpsobjectmodel.h)
 description: Sets the suggested dimensions of the page.
+helpviewer_keywords: ["IXpsOMPageReference interface [XPS Documents and Packaging]","SetAdvisoryPageDimensions method","IXpsOMPageReference.SetAdvisoryPageDimensions","IXpsOMPageReference::SetAdvisoryPageDimensions","SetAdvisoryPageDimensions","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","SetAdvisoryPageDimensions method [XPS Documents and Packaging]","IXpsOMPageReference interface","xps.ixpsompagereference_setadvisorypagedimensions","xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions"]
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetAdvisoryPageDimensions method, IXpsOMPageReference.SetAdvisoryPageDimensions, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference.SetAdvisoryPageDimensions
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference.SetAdvisoryPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference::SetAdvisoryPageDimensions
+ - xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference.SetAdvisoryPageDimensions
 ---
 
 # IXpsOMPageReference::SetAdvisoryPageDimensions
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the suggested dimensions of the page.
 
-
 ## -parameters
-
-
-
 
 ### -param pageDimensions [in]
 
@@ -65,10 +62,7 @@ The <b>height</b> and <b>width</b> members  must have the value of –1.0 or a v
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -95,7 +89,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
+Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
 
 </td>
 </tr>
@@ -111,35 +105,19 @@ The advisory page size described in <i>pageDimensions</i> was not valid. The <b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>height</b> and <b>width</b>  members of the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
-
-
-
+The <b>height</b> and <b>width</b>  members of the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>

@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.LSA_CANCEL_NOTIFICATION
 title: LSA_CANCEL_NOTIFICATION (ntsecpkg.h)
 description: The CancelNotification function cancels a previously registered notification.
+helpviewer_keywords: ["CancelNotification","CancelNotification callback function [Security]","LSA_CANCEL_NOTIFICATION","LSA_CANCEL_NOTIFICATION callback","_ssp_cancelnotification","ntsecpkg/CancelNotification","security.cancelnotification"]
 old-location: security\cancelnotification.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78
 ms.date: 12/05/2018
 ms.keywords: CancelNotification, CancelNotification callback function [Security], LSA_CANCEL_NOTIFICATION, LSA_CANCEL_NOTIFICATION callback, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
-f1_keywords:
-- ntsecpkg/CancelNotification
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CancelNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_CANCEL_NOTIFICATION
+ - ntsecpkg/LSA_CANCEL_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CancelNotification
 ---
 
 # LSA_CANCEL_NOTIFICATION callback function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CancelNotification</b> function cancels a previously registered notification.
 
-
 ## -parameters
-
-
-
 
 ### -param NotifyHandle [in]
 
 Handle returned by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a>.
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
@@ -88,40 +82,24 @@ The handle specified by the <i>NotifyHandle</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> function to register a notification.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> function to register a notification.
 
 A pointer to the <b>CancelNotification</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

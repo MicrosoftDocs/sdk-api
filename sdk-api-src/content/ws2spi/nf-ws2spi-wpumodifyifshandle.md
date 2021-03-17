@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUModifyIFSHandle
 title: WPUModifyIFSHandle function (ws2spi.h)
 description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.
+helpviewer_keywords: ["WPUModifyIFSHandle","WPUModifyIFSHandle function [Winsock]","_win32_wpumodifyifshandle_2","winsock.wpumodifyifshandle_2","ws2spi/WPUModifyIFSHandle"]
 old-location: winsock\wpumodifyifshandle_2.htm
 tech.root: WinSock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721
 ms.date: 12/05/2018
 ms.keywords: WPUModifyIFSHandle, WPUModifyIFSHandle function [Winsock], _win32_wpumodifyifshandle_2, winsock.wpumodifyifshandle_2, ws2spi/WPUModifyIFSHandle
-f1_keywords:
-- ws2spi/WPUModifyIFSHandle
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUModifyIFSHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUModifyIFSHandle
+ - ws2spi/WPUModifyIFSHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUModifyIFSHandle
 ---
 
 # WPUModifyIFSHandle function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUModifyIFSHandle** function receives a (possibly) modified IFS handle from Ws2_32.dll.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCatalogEntryId [in]
 
 Descriptor identifying the calling service provider.
 
-
 ### -param ProposedHandle [in]
 
 IFS handle allocated by the provider.
-
 
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUModifyIFSHandle** returns the modified socket handle. Otherwise, it returns INVALID_SOCKET, and a specific error code is available in <i>lpErrno</i>.
@@ -104,13 +96,7 @@ The proposed handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUModifyIFSHandle** handle allows the WS2_32.dll to streamline its internal operations by returning a possibly modified version of the supplied IFS handle. The returned handle is guaranteed to be indistinguishable from the proposed handle as far as the operating system is concerned. IFS providers must call this function before returning any newly created socket descriptor to a service provider. The service provider will only use the modified handle for any subsequent socket operations. This routine is only used by IFS providers whose socket descriptors are real IFS handles.
@@ -143,15 +129,9 @@ There are several limitations a layered provider should observe if it takes this
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>. Since some overlapped I/O requests can bypass the layered provider completely, the layered provider cannot reliably mark 
 **WSAOVERLAPPED** structures to determine which ones it can report results for, and which ones would have to be passed through to the underlying provider's 
 **WSPGetOverlappedResult**. This effectively means that 
-[LPWSPIoctl](nc-ws2spi-lpwspioctl.md) has to be a pass-through operation to the underlying provider. 
- 
-
-
+[LPWSPIoctl](nc-ws2spi-lpwspioctl.md) has to be a pass-through operation to the underlying provider.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
 
@@ -174,7 +154,4 @@ There are several limitations a layered provider should observe if it takes this
 
 
 [LPWSPSend](nc-ws2spi-lpwspsend.md)
- 
-
- 
 

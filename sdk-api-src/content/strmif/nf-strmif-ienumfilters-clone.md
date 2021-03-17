@@ -2,15 +2,12 @@
 UID: NF:strmif.IEnumFilters.Clone
 title: IEnumFilters::Clone (strmif.h)
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumFilters interface","IEnumFilters interface [DirectShow]","Clone method","IEnumFilters.Clone","IEnumFilters::Clone","IEnumFiltersClone","dshow.ienumfilters_clone","strmif/IEnumFilters::Clone"]
 old-location: dshow\ienumfilters_clone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ed8380af-8467-447a-a595-38fe29f9f9e6
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFilters interface, IEnumFilters interface [DirectShow],Clone method, IEnumFilters.Clone, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone
-f1_keywords:
-- strmif/IEnumFilters.Clone
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEnumFilters.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFilters::Clone
+ - strmif/IEnumFilters::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEnumFilters.Clone
 ---
 
 # IEnumFilters::Clone
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Clone</code> method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Receives a pointer to the <b>IEnumFilters</b> interface of the new enumerator. The caller must release the interface.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULTs</b>.
 
@@ -111,22 +102,11 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>

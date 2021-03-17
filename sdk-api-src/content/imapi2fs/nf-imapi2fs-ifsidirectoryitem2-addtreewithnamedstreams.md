@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem2.AddTreeWithNamedStreams
 title: IFsiDirectoryItem2::AddTreeWithNamedStreams (imapi2fs.h)
 description: Adds the contents of a directory tree along with named streams associated with all files to the file system image.
+helpviewer_keywords: ["AddTreeWithNamedStreams","AddTreeWithNamedStreams method [IMAPI]","AddTreeWithNamedStreams method [IMAPI]","IFsiDirectoryItem2 interface","IFsiDirectoryItem2 interface [IMAPI]","AddTreeWithNamedStreams method","IFsiDirectoryItem2.AddTreeWithNamedStreams","IFsiDirectoryItem2::AddTreeWithNamedStreams","imapi.ifsidirectoryitem2_addtreewithnamedstreams","imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams"]
 old-location: imapi\ifsidirectoryitem2_addtreewithnamedstreams.htm
 tech.root: imapi
 ms.assetid: d87d1932-85d4-4d7d-99a7-933a87b48b6a
 ms.date: 12/05/2018
 ms.keywords: AddTreeWithNamedStreams, AddTreeWithNamedStreams method [IMAPI], AddTreeWithNamedStreams method [IMAPI],IFsiDirectoryItem2 interface, IFsiDirectoryItem2 interface [IMAPI],AddTreeWithNamedStreams method, IFsiDirectoryItem2.AddTreeWithNamedStreams, IFsiDirectoryItem2::AddTreeWithNamedStreams, imapi.ifsidirectoryitem2_addtreewithnamedstreams, imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem2.AddTreeWithNamedStreams
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem2.AddTreeWithNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem2::AddTreeWithNamedStreams
+ - imapi2fs/IFsiDirectoryItem2::AddTreeWithNamedStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem2.AddTreeWithNamedStreams
 ---
 
 # IFsiDirectoryItem2::AddTreeWithNamedStreams
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the contents of a directory tree along with named streams associated with all files to the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param sourceDirectory [in]
 
@@ -69,10 +66,7 @@ This parameter cannot be <b>NULL</b>.
 
 Set to <b>VARIANT_TRUE</b> to include the directory in <i>sourceDirectory</i> as a subdirectory in the file system image. Otherwise, <b>VARIANT_FALSE</b>.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -149,7 +143,7 @@ Cannot read data from stream supplied for file <i>'%1!ls!'</i>.
 </dl>
 </td>
 <td width="60%">
-The referenced <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
+The referenced <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
 
 </td>
 </tr>
@@ -202,14 +196,8 @@ Failed to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The parent directory for the new sub-directory must already exist within the file system image.
 
@@ -226,16 +214,6 @@ When utilizing alternate data streams (ADS) it is important to note that the fil
 
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem2">IFsiDirectoryItem2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem2">IFsiDirectoryItem2</a>

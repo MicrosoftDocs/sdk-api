@@ -2,15 +2,12 @@
 UID: NF:oleauto.VariantCopy
 title: VariantCopy function (oleauto.h)
 description: Frees the destination variant and makes a copy of the source variant.
+helpviewer_keywords: ["VariantCopy","VariantCopy function [Automation]","_oa96_VariantCopy","automat.variantcopy","oleauto/VariantCopy"]
 old-location: automat\variantcopy.htm
 tech.root: automat
 ms.assetid: f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a
 ms.date: 12/05/2018
 ms.keywords: VariantCopy, VariantCopy function [Automation], _oa96_VariantCopy, automat.variantcopy, oleauto/VariantCopy
-f1_keywords:
-- oleauto/VariantCopy
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VariantCopy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VariantCopy
+ - oleauto/VariantCopy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VariantCopy
 ---
 
 # VariantCopy function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the destination variant and makes a copy of the source variant.
 
-
 ## -parameters
-
-
-
 
 ### -param pvargDest [out]
 
 The destination variant.
 
-
 ### -param pvargSrc [in]
 
 The source variant.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -137,16 +130,10 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-First, free any memory that is owned by pvargDest, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
+First, free any memory that is owned by pvargDest, such as <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> (pvargDest must point to a valid initialized variant, and not simply to an uninitialized memory location). Then pvargDest receives an exact copy of the contents of pvargSrc. 
 
 If pvargSrc is a VT_BSTR, a copy of the string is made. If pvargSrcis a VT_ARRAY, the entire array is copied. If pvargSrc is a VT_DISPATCH or VT_UNKNOWN, <b>AddRef</b> is called to increment the object's reference count.
 
@@ -155,15 +142,6 @@ If the variant to be copied is a COM object that is passed by reference, the vtf
 <div class="alert"><b>Note</b>  The <b>VariantCopy</b> method is not threadsafe.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>

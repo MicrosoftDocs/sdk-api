@@ -2,15 +2,12 @@
 UID: NS:winddi._PATHOBJ
 title: PATHOBJ (winddi.h)
 description: The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
+helpviewer_keywords: ["PATHOBJ","PATHOBJ structure [Display Devices]","display.pathobj","grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml","winddi/PATHOBJ"]
 old-location: display\pathobj.htm
 tech.root: display
 ms.assetid: ceccca92-3312-49b4-b0f6-a3d0cd4bbef5
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], display.pathobj, grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml, winddi/PATHOBJ
-f1_keywords:
-- winddi/PATHOBJ
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- PATHOBJ
 targetos: Windows
 req.typenames: PATHOBJ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PATHOBJ
+ - winddi/_PATHOBJ
+ - PATHOBJ
+ - winddi/PATHOBJ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - PATHOBJ
 ---
 
 # PATHOBJ structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled. 
-
+The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
 
 ## -struct-fields
-
-
-
 
 ### -field fl
 
@@ -106,7 +105,7 @@ PO_ENUM_AS_INTEGERS
 
 </td>
 <td>
-The driver can request that the vertices returned from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
+The driver can request that the vertices returned from <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> be expressed in a 32-bit integer format rather than the standard 28.4 format. The driver makes this request by ORing PO_ENUM_AS_INTEGERS into the <b>fl</b> member of the given PATHOBJ before calling <b>PATHOBJ_bEnum</b>.
 
 The driver can set PO_ENUM_AS_INTEGERS only when GDI has set the PO_ALL_INTEGERS flag. That is, the path must be known to contain only integer coordinates. Note that PO_ENUM_AS_INTEGERS is the only flag that the driver is permitted to modify.
 
@@ -115,17 +114,12 @@ When this flag is set, the driver is permitted to deviate slightly from the stan
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cCurves
 
 The number of lines and Bezier curves that make up the path.
 
-
 ## -remarks
-
-
 
 Functions associated with this structure allow the lines and curves to be enumerated for the driver.
 
@@ -134,61 +128,50 @@ The following GDI service routines are provided for PATHOBJ objects:
 
 <dl>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bclosefigure">PATHOBJ_bCloseFigure</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bclosefigure">PATHOBJ_bCloseFigure</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
 </dt>
 <dt>
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_vgetbounds">PATHOBJ_vGetBounds</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_vgetbounds">PATHOBJ_vGetBounds</a>
 </dt>
 </dl>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfillpath">DrvFillPath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokeandfillpath">DrvStrokeAndFillPath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstrokepath">DrvStrokePath</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a>

@@ -2,15 +2,12 @@
 UID: NF:ndfapi.NdfCreateWinSockIncident
 title: NdfCreateWinSockIncident function (ndfapi.h)
 description: Provides access to the Winsock Helper Class provided by Microsoft.
+helpviewer_keywords: ["NdfCreateWinSockIncident","NdfCreateWinSockIncident function [NDF]","ndf.ndfcreatewinsockincident","ndfapi/NdfCreateWinSockIncident"]
 old-location: ndf\ndfcreatewinsockincident.htm
 tech.root: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
-f1_keywords:
-- ndfapi/NdfCreateWinSockIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCreateWinSockIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCreateWinSockIncident
+ - ndfapi/NdfCreateWinSockIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCreateWinSockIncident
 ---
 
 # NdfCreateWinSockIncident function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCreateWinSockIncident</b> function provides access to the Winsock Helper Class provided by Microsoft.
 
-
 ## -parameters
-
-
-
 
 ### -param sock
 
@@ -63,13 +60,11 @@ Type: <b>SOCKET</b>
 
 A descriptor identifying a connected socket.
 
-
 ### -param host [in, optional]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to the local host.
-
 
 ### -param port
 
@@ -77,13 +72,11 @@ Type: <b>USHORT</b>
 
 The port providing Winsock access.
 
-
 ### -param appId [in, optional]
 
 Type: <b>LPCWSTR</b>
 
 Unique identifier associated with the application.
-
 
 ### -param userId [in, optional]
 
@@ -91,17 +84,13 @@ Type: <b>SID*</b>
 
 Unique identifier associated with the user.
 
-
 ### -param handle [out]
 
 Type: <b>NDFHANDLE*</b>
 
 Handle to the Network Diagnostics Framework incident.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -157,26 +146,15 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>

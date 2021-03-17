@@ -2,15 +2,12 @@
 UID: NS:richedit._encorrecttext
 title: ENCORRECTTEXT (richedit.h)
 description: Contains information about the selected text to be corrected.
+helpviewer_keywords: ["ENCORRECTTEXT","ENCORRECTTEXT structure [Windows Controls]","SEL_MULTICHAR","SEL_MULTIOBJECT","SEL_OBJECT","SEL_TEXT","_win32_ENCORRECTTEXT_str","_win32_ENCORRECTTEXT_str_cpp","controls.ENCORRECTTEXT","controls._win32_ENCORRECTTEXT_str","richedit/ENCORRECTTEXT"]
 old-location: controls\ENCORRECTTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\encorrecttext.htm
 ms.date: 12/05/2018
 ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_ENCORRECTTEXT_str, _win32_ENCORRECTTEXT_str_cpp, controls.ENCORRECTTEXT, controls._win32_ENCORRECTTEXT_str, richedit/ENCORRECTTEXT
-f1_keywords:
-- richedit/ENCORRECTTEXT
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- ENCORRECTTEXT
 targetos: Windows
 req.typenames: ENCORRECTTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _encorrecttext
+ - richedit/_encorrecttext
+ - ENCORRECTTEXT
+ - richedit/ENCORRECTTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - ENCORRECTTEXT
 ---
 
 # ENCORRECTTEXT structure
@@ -48,32 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the selected text to be corrected. 
-
+Contains information about the selected text to be corrected.
 
 ## -struct-fields
 
-
-
-
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. The <b>code</b> member of this structure identifies the notification code being sent. 
-
+An <a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure. The <b>code</b> member of this structure identifies the notification code being sent.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
-A <a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a> structure that specifies the range of selected characters. 
-
+A <a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure that specifies the range of selected characters.
 
 ### -field seltyp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the contents of the new selection. This member is SEL_EMPTY if the selection is empty or one or more of the following values. 
 
@@ -123,16 +120,7 @@ The new selection contains more than one COM object.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/d6f6278f-ff63-4f6a-a352-2b4d70df3e1a">EN_CORRECTTEXT</a>
- 
-
- 
-

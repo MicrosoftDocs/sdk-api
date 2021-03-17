@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_STRONG_SIGN_SERIALIZED_INFO
 title: CERT_STRONG_SIGN_SERIALIZED_INFO (wincrypt.h)
 description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
+helpviewer_keywords: ["*PCERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_ENABLE_CRL_CHECK","CERT_STRONG_SIGN_ENABLE_OCSP_CHECK","CERT_STRONG_SIGN_SERIALIZED_INFO","CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security]","PCERT_STRONG_SIGN_SERIALIZED_INFO","PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security]","security.cert_strong_sign_serialized_info","wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO","wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"]
 old-location: security\cert_strong_sign_serialized_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CHECK, CERT_STRONG_SIGN_ENABLE_OCSP_CHECK, CERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security], PCERT_STRONG_SIGN_SERIALIZED_INFO, PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security], security.cert_strong_sign_serialized_info, wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO, wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO'
-f1_keywords:
-- wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_STRONG_SIGN_SERIALIZED_INFO
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_SERIALIZED_INFO, *PCERT_STRONG_SIGN_SERIALIZED_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_STRONG_SIGN_SERIALIZED_INFO
+ - wincrypt/_CERT_STRONG_SIGN_SERIALIZED_INFO
+ - PCERT_STRONG_SIGN_SERIALIZED_INFO
+ - wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO
+ - CERT_STRONG_SIGN_SERIALIZED_INFO
+ - wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_STRONG_SIGN_SERIALIZED_INFO
 ---
 
 # CERT_STRONG_SIGN_SERIALIZED_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the <i>signature algorithm</i>/<i>hash algorithm</i> and <i>public key algorithm</i>/<i>bit length</i> pairs that can be used for strong signing. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure.
-
+Contains the <i>signature algorithm</i>/<i>hash algorithm</i> and <i>public key algorithm</i>/<i>bit length</i> pairs that can be used for strong signing. This structure is used by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -89,8 +90,6 @@ Enable strong signing of OCSP responses.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszCNGSignHashAlgids
 
@@ -120,8 +119,6 @@ The following hash algorithms are supported:<ul>
 <li>L"SHA512" (BCRYPT_SHA512_ALGORITHM)</li>
 </ul>
 
-
-
 ### -field pwszCNGPubKeyMinBitLengths
 
 Pointer to a null-terminated Unicode string that contains a set of <i>public key algorithm</i>/<i>bit length</i> pairs. A Unicode semicolon (L";") separates the pairs. This is shown by the following example.
@@ -134,57 +131,44 @@ The following public key algorithms are supported:<ul>
 <li>L"ECDSA" (SSL_ECDSA_ALGORITHM)</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure which is directly referenced by the following functions:
+This structure is used by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure which is directly referenced by the following functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign">CertIsStrongHashToSign</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign">CertIsStrongHashToSign</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
 </li>
 </ul>
-Also, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> is indirectly referenced by the following:
+Also, <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> is indirectly referenced by the following:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 </li>
 </ul>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>

@@ -2,15 +2,12 @@
 UID: NF:wmdxva.IWMPlayerTimestampHook.MapTimestamp
 title: IWMPlayerTimestampHook::MapTimestamp (wmdxva.h)
 description: The MapTimestamp method is called by the WMV Decoder DMO to enable the source filter to provide the decoder with a time stamp. The decoder applies the time stamp to the sample before delivering the sample to the video renderer.
+helpviewer_keywords: ["IWMPlayerTimestampHook interface [windows Media Format]","MapTimestamp method","IWMPlayerTimestampHook.MapTimestamp","IWMPlayerTimestampHook::MapTimestamp","IWMPlayerTimestampHookMapTimestamp","MapTimestamp","MapTimestamp method [windows Media Format]","MapTimestamp method [windows Media Format]","IWMPlayerTimestampHook interface","wmdxva/IWMPlayerTimestampHook::MapTimestamp","wmformat.iwmplayertimestamphook_maptimestamp"]
 old-location: wmformat\iwmplayertimestamphook_maptimestamp.htm
 tech.root: wmformat
 ms.assetid: 67da583f-85da-4a09-be2c-44cf96bf51e7
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerTimestampHook interface [windows Media Format],MapTimestamp method, IWMPlayerTimestampHook.MapTimestamp, IWMPlayerTimestampHook::MapTimestamp, IWMPlayerTimestampHookMapTimestamp, MapTimestamp, MapTimestamp method [windows Media Format], MapTimestamp method [windows Media Format],IWMPlayerTimestampHook interface, wmdxva/IWMPlayerTimestampHook::MapTimestamp, wmformat.iwmplayertimestamphook_maptimestamp
-f1_keywords:
-- wmdxva/IWMPlayerTimestampHook.MapTimestamp
-dev_langs:
-- c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmdxva.h
-api_name:
-- IWMPlayerTimestampHook.MapTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPlayerTimestampHook::MapTimestamp
+ - wmdxva/IWMPlayerTimestampHook::MapTimestamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmdxva.h
+api_name:
+ - IWMPlayerTimestampHook.MapTimestamp
 ---
 
 # IWMPlayerTimestampHook::MapTimestamp
@@ -48,48 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MapTimestamp</b> method is called by the WMV Decoder DMO to enable the source filter to provide the decoder with a time stamp. The decoder applies the time stamp to the sample before delivering the sample to the video renderer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param rtIn [in]
 
 Time stamp previously applied by the DMO.
 
-
 ### -param prtOut [out]
 
 Time stamp to be applied to the sample.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code .
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook">IWMPlayerTimestampHook Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmplayertimestamphook">IWMPlayerTimestampHook Interface</a>

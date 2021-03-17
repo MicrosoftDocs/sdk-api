@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPIDELETEMAIL
 title: MAPIDELETEMAIL (mapi.h)
 description: The MAPIDeleteMail function deletes a message.
+helpviewer_keywords: ["MAPIDeleteMail","MAPIDeleteMail callback","MAPIDeleteMail callback function","mapi.mapideletemail","mapi/MAPIDeleteMail"]
 old-location: mapi\mapideletemail.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a
 ms.date: 12/05/2018
 ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
-f1_keywords:
-- mapi/MAPIDeleteMail
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPIDeleteMail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPIDELETEMAIL
+ - mapi/MAPIDELETEMAIL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPIDeleteMail
 ---
 
 # MAPIDELETEMAIL callback function
@@ -48,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPIDeleteMail</b> function deletes a message.
 
-
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
 Session handle that represents a valid Simple MAPI session. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
 
-
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a ULONG_PTR). If no dialog box is displayed during the call, <i> ulUIParam</i> is ignored.
 
-
 ### -param lpszMessageID [in]
 
-The identifier for the message to be deleted. This identifier is messaging system-specific and will be invalid when <b>MAPIDeleteMail</b> successfully returns. 
-
+The identifier for the message to be deleted. This identifier is messaging system-specific and will be invalid when <b>MAPIDeleteMail</b> successfully returns.
 
 ### -param flFlags
 
 Reserved; must be zero.
 
-
 ### -param ulReserved
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -151,30 +141,19 @@ The call succeeded and the message was deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapifindnext">MAPIFindNext</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisavemail">MAPISaveMail</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

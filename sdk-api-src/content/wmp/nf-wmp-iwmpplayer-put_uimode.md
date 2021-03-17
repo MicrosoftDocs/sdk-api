@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayer.put_uiMode
 title: IWMPPlayer::put_uiMode (wmp.h)
 description: The put_uiMode method specifies a value indicating which controls are shown in the user interface.
+helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","put_uiMode method","IWMPPlayer.put_uiMode","IWMPPlayer::put_uiMode","IWMPPlayerput_uiMode","put_uiMode","put_uiMode method [Windows Media Player]","put_uiMode method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_put_uimode","wmp/IWMPPlayer::put_uiMode"]
 old-location: wmp\iwmpplayer_put_uimode.htm
 tech.root: WMP
 ms.assetid: 154db914-a0c3-44de-b692-e1b7f9c681f6
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_uiMode method, IWMPPlayer.put_uiMode, IWMPPlayer::put_uiMode, IWMPPlayerput_uiMode, put_uiMode, put_uiMode method [Windows Media Player], put_uiMode method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_uimode, wmp/IWMPPlayer::put_uiMode
-f1_keywords:
-- wmp/IWMPPlayer.put_uiMode
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayer.put_uiMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer::put_uiMode
+ - wmp/IWMPPlayer::put_uiMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayer.put_uiMode
 ---
 
 # IWMPPlayer::put_uiMode
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_uiMode</b> method specifies a value indicating which controls are shown in the user interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrMode [in]
 
@@ -106,12 +100,8 @@ The <b>put_uiMode</b> method specifies a value indicating which controls are sho
 <td>(Custom user interface is displayed.)</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -132,14 +122,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies the appearance of the embedded Windows Media Player. When the <b>BSTR</b> specified in <b>put_uiMode</b> is set to "none", "mini", or "full", a window is present for the display of video clips and audio visualizations. This window can be hidden in mini or full mode by setting the <b>height</b> attribute of the <b>OBJECT</b> tag to 40, which is measured from the bottom, and leaves the controls portion of the user interface visible. If no embedded interface is desired, set both the <b>width</b> and <b>height</b> attributes to zero.
 
@@ -155,32 +139,22 @@ During full-screen playback, Windows Media Player hides the mouse cursor when th
 
 <b>Windows Media Player 10 Mobile: </b>This method only specifies a <b>BSTR</b> set to "none" or "full". On Smartphone devices, only playback status and a counter are displayed when setting <b>uiMode</b> to "full".
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_uimode">IWMPPlayer::get_uiMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_uimode">IWMPPlayer::get_uiMode</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpremotemediaservices">IWMPRemoteMediaServices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode">IWMPRemoteMediaServices::GetCustomUIMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpremotemediaservices-getcustomuimode">IWMPRemoteMediaServices::GetCustomUIMode</a>

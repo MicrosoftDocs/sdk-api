@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.GetAssessmentInfo
 title: IProvideWinSATResultsInfo::GetAssessmentInfo (winsatcominterfacei.h)
 description: Retrieves summary information for a subcomponent of the assessment.
+helpviewer_keywords: ["GetAssessmentInfo","GetAssessmentInfo method [WinSAT]","GetAssessmentInfo method [WinSAT]","IProvideWinSATResultsInfo interface","IProvideWinSATResultsInfo interface [WinSAT]","GetAssessmentInfo method","IProvideWinSATResultsInfo.GetAssessmentInfo","IProvideWinSATResultsInfo::GetAssessmentInfo","winsat.iprovidewinsatresultsinfo_getassessmentinfo","winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo"]
 old-location: winsat\iprovidewinsatresultsinfo_getassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.date: 12/05/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
-f1_keywords:
-- winsatcominterfacei/IProvideWinSATResultsInfo.GetAssessmentInfo
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IProvideWinSATResultsInfo.GetAssessmentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideWinSATResultsInfo::GetAssessmentInfo
+ - winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IProvideWinSATResultsInfo.GetAssessmentInfo
 ---
 
 # IProvideWinSATResultsInfo::GetAssessmentInfo
@@ -48,43 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IProvideWinSATResultsInfo::GetAssessmentInfo may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves summary information for a subcomponent of the assessment.
 
-
 ## -parameters
-
-
-
 
 ### -param assessment [in]
 
-A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type">WINSAT_ASSESSMENT_TYPE</a> enumeration.
-
+A subcomponent of the assessment whose summary information you want to retrieve. For possible values, see the <a href="/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_assessment_type">WINSAT_ASSESSMENT_TYPE</a> enumeration.
 
 ### -param ppinfo [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a> interface that you use to get the score for the subcomponent.
-
+An <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a> interface that you use to get the score for the subcomponent.
 
 ## -returns
 
-
-
 Returns S_OK if successful.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>

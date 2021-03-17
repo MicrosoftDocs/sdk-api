@@ -2,15 +2,12 @@
 UID: NF:mftransform.IMFDeviceTransform.ProcessMessage
 title: IMFDeviceTransform::ProcessMessage (mftransform.h)
 description: The ProcessMessage method sends a message to the Device Media Foundation transform (MFT).
+helpviewer_keywords: ["IMFDeviceTransform interface [Streaming Media Devices]","ProcessMessage method","IMFDeviceTransform.ProcessMessage","IMFDeviceTransform::ProcessMessage","ProcessMessage","ProcessMessage method [Streaming Media Devices]","ProcessMessage method [Streaming Media Devices]","IMFDeviceTransform interface","mftransform/IMFDeviceTransform::ProcessMessage","stream.imfdevicetransform_processmessage"]
 old-location: stream\imfdevicetransform_processmessage.htm
 tech.root: stream
 ms.assetid: 890CAC55-CF9E-420C-ACFC-5A92E53258AA
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessMessage method, IMFDeviceTransform.ProcessMessage, IMFDeviceTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Streaming Media Devices], ProcessMessage method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessMessage, stream.imfdevicetransform_processmessage
-f1_keywords:
-- mftransform/IMFDeviceTransform.ProcessMessage
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mftransform.h
-api_name:
-- IMFDeviceTransform.ProcessMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDeviceTransform::ProcessMessage
+ - mftransform/IMFDeviceTransform::ProcessMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mftransform.h
+api_name:
+ - IMFDeviceTransform.ProcessMessage
 ---
 
 # IMFDeviceTransform::ProcessMessage
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The    <b>ProcessMessage</b> method sends a message to the Device Media Foundation transform (MFT).
-
 
 ## -parameters
 
-
-
-
 ### -param eMessage [in]
 
-The message to send, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a> enumeration.
-
+The message to send, specified as a member of the <a href="/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a> enumeration.
 
 ### -param ulParam [in]
 
 Message parameter. The meaning of this parameter depends on the message type.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include but not limited to values given in the following table.
 
@@ -145,31 +138,15 @@ Input media type has not been set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, set the media types on all input and output streams.
 
 The MFT might ignore certain message types. If so, the method returns <b>S_OK</b>. An error code indicates that the transform handles this message type but was unable to process the message in this instance.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a>.
-
-
-
+For more information, see <a href="/windows/desktop/api/mftransform/ne-mftransform-mft_message_type">MFT_MESSAGE_TYPE</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>

@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.DrawIndexedInstanced
 title: ID3D12GraphicsCommandList::DrawIndexedInstanced (d3d12.h)
 description: Draws indexed, instanced primitives.
+helpviewer_keywords: ["DrawIndexedInstanced","DrawIndexedInstanced method","DrawIndexedInstanced method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DrawIndexedInstanced method","ID3D12GraphicsCommandList.DrawIndexedInstanced","ID3D12GraphicsCommandList::DrawIndexedInstanced","d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced","direct3d12.id3d12graphicscommandlist_drawindexedinstanced"]
 old-location: direct3d12\id3d12graphicscommandlist_drawindexedinstanced.htm
 tech.root: direct3d12
 ms.assetid: 16333C88-81B7-44D8-A226-D707C8A9CCF4
 ms.date: 12/05/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced method, DrawIndexedInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawIndexedInstanced method, ID3D12GraphicsCommandList.DrawIndexedInstanced, ID3D12GraphicsCommandList::DrawIndexedInstanced, d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced, direct3d12.id3d12graphicscommandlist_drawindexedinstanced
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.DrawIndexedInstanced
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.DrawIndexedInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::DrawIndexedInstanced
+ - d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.DrawIndexedInstanced
 ---
 
 # ID3D12GraphicsCommandList::DrawIndexedInstanced
@@ -48,63 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws indexed, instanced primitives.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param IndexCountPerInstance [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of indices read from the index buffer for each instance.
 
-
 ### -param InstanceCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of instances to draw.
 
-
 ### -param StartIndexLocation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The location of the first index read by the GPU from the index buffer.
 
-
 ### -param BaseVertexLocation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 A value added to each index before reading a vertex from the vertex buffer.
 
-
 ### -param StartInstanceLocation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value added to each index before reading per-instance data from a vertex buffer.
 
-
-## -returns
-
-
-
-Returns nothing.
-
-
-
-
 ## -remarks
-
-
 
 A draw API submits work to the rendering pipeline.
 
@@ -115,7 +95,7 @@ Instancing might extend performance by reusing the same geometry to draw multipl
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::DrawIndexedInstanced</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::DrawIndexedInstanced</b> as follows:
         
 
 
@@ -166,20 +146,11 @@ void FrameResource::PopulateCommandList(ID3D12GraphicsCommandList* pCommandList,
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

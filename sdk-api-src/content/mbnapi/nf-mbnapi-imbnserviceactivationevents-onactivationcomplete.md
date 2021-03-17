@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnServiceActivationEvents.OnActivationComplete
 title: IMbnServiceActivationEvents::OnActivationComplete (mbnapi.h)
 description: Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
+helpviewer_keywords: ["E_INVALIDARG","E_MBN_BAD_SIM","E_MBN_PIN_REQUIRED","E_MBN_PROVIDER_NOT_VISIBLE","E_MBN_RADIO_POWER_OFF","E_MBN_SIM_NOT_INSERTED","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnServiceActivationEvents interface [Microsoft Broadband Networks]","OnActivationComplete method","IMbnServiceActivationEvents.OnActivationComplete","IMbnServiceActivationEvents::OnActivationComplete","OnActivationComplete","OnActivationComplete method [Microsoft Broadband Networks]","OnActivationComplete method [Microsoft Broadband Networks]","IMbnServiceActivationEvents interface","S_OK","mbn.imbnserviceactivationevents_onactivationcomplete","mbnapi/IMbnServiceActivationEvents::OnActivationComplete"]
 old-location: mbn\imbnserviceactivationevents_onactivationcomplete.htm
 tech.root: mbn
 ms.assetid: bc1c85b3-1b7b-4439-9358-801da8f4c79b
 ms.date: 12/05/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnServiceActivationEvents interface [Microsoft Broadband Networks],OnActivationComplete method, IMbnServiceActivationEvents.OnActivationComplete, IMbnServiceActivationEvents::OnActivationComplete, OnActivationComplete, OnActivationComplete method [Microsoft Broadband Networks], OnActivationComplete method [Microsoft Broadband Networks],IMbnServiceActivationEvents interface, S_OK, mbn.imbnserviceactivationevents_onactivationcomplete, mbnapi/IMbnServiceActivationEvents::OnActivationComplete
-f1_keywords:
-- mbnapi/IMbnServiceActivationEvents.OnActivationComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnServiceActivationEvents.OnActivationComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnServiceActivationEvents::OnActivationComplete
+ - mbnapi/IMbnServiceActivationEvents::OnActivationComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnServiceActivationEvents.OnActivationComplete
 ---
 
 # IMbnServiceActivationEvents::OnActivationComplete
@@ -53,26 +55,19 @@ ms.custom: 19H1
 
 Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceActivation [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a> interface representing the device on which the request was performed.
-
+Pointer to an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a> interface representing the device on which the request was performed.
 
 ### -param vendorSpecificData [in]
 
-A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
-
+A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
 
 ### -param requestID [in]
 
 The request ID assigned by the Mobile Broadband service when the request was initialized.
-
 
 ### -param status [in]
 
@@ -166,8 +161,6 @@ The device does not support this operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param networkError [in]
 
@@ -175,32 +168,14 @@ The error code returned by the network during the activation operation. This val
 
 The exact value of <i>networkError</i> is driver/network dependent.
 
-
 ## -returns
-
-
 
 This method must return <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
-Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> as notification.
-
-
-
+Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> as notification.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>

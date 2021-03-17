@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcMgmtInqStats
 title: RpcMgmtInqStats function (rpcdce.h)
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
+helpviewer_keywords: ["RpcMgmtInqStats","RpcMgmtInqStats function [RPC]","_rpc_rpcmgmtinqstats","rpc.rpcmgmtinqstats","rpcdce/RpcMgmtInqStats"]
 old-location: rpc\rpcmgmtinqstats.htm
 tech.root: Rpc
 ms.assetid: 478b9f33-db01-4a1d-9b5b-dc2662ee8d7b
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqStats, RpcMgmtInqStats function [RPC], _rpc_rpcmgmtinqstats, rpc.rpcmgmtinqstats, rpcdce/RpcMgmtInqStats
-f1_keywords:
-- rpcdce/RpcMgmtInqStats
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtInqStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtInqStats
+ - rpcdce/RpcMgmtInqStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtInqStats
 ---
 
 # RpcMgmtInqStats function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtInqStats</b> function returns RPC run-time statistics.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 To receive statistics about a remote application, specify a server binding handle for that application. To receive statistics about your own (local) application, specify a value of <b>NULL</b>.
 
-
 ### -param Statistics
 
 Returns a pointer to a pointer to the statistics about the server specified by the <i>Binding</i> parameter. Each statistic is an <b>unsigned long</b> value.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -114,14 +107,10 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcMgmtInqStats</b> function to obtain statistics about the specified server from the RPC run-time library.
@@ -157,24 +146,14 @@ Each array element in the returned statistics vector contains an <b>unsigned lon
 
 
 The RPC run-time library allocates memory for the statistics vector. The application is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> function to release the memory used by the statistics vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> function to release the memory used by the statistics vector.
 
 The server must be listening for remote procedure calls for this function to succeed.  If the server is not listening, the function fails.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>

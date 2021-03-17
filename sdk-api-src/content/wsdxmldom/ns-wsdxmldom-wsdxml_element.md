@@ -2,15 +2,12 @@
 UID: NS:wsdxmldom._WSDXML_ELEMENT
 title: WSDXML_ELEMENT (wsdxmldom.h)
 description: Describes an XML element.
+helpviewer_keywords: ["WSDXML_ELEMENT","WSDXML_ELEMENT structure","_WSDXML_ELEMENT","ncd.wsdxml_element_struct","wsdxmldom/WSDXML_ELEMENT"]
 old-location: ncd\wsdxml_element_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
 ms.date: 12/05/2018
 ms.keywords: WSDXML_ELEMENT, WSDXML_ELEMENT structure, _WSDXML_ELEMENT, ncd.wsdxml_element_struct, wsdxmldom/WSDXML_ELEMENT
-f1_keywords:
-- wsdxmldom/WSDXML_ELEMENT
-dev_langs:
-- c++
 req.header: wsdxmldom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdXmldom.h
-api_name:
-- WSDXML_ELEMENT
 targetos: Windows
 req.typenames: WSDXML_ELEMENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSDXML_ELEMENT
+ - wsdxmldom/_WSDXML_ELEMENT
+ - WSDXML_ELEMENT
+ - wsdxmldom/WSDXML_ELEMENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdXmldom.h
+api_name:
+ - WSDXML_ELEMENT
 ---
 
 # WSDXML_ELEMENT structure
@@ -48,50 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes an XML element.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Node
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node.
 
 ### -field Name
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies name. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies name.
 
 ### -field FirstAttribute
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_attribute">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_attribute">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute.
 
 ### -field FirstChild
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the first child. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structure that specifies the first child.
 
 ### -field PrefixMappings
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_prefix_mapping">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_prefix_mapping">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings.
 
 ## -remarks
 
-
-
-<b>WSDXML_ELEMENT</b> represents an XML element in the DOM tree. The <b>Name</b> member can be used to determine the name and namespace of this element. <b>FirstAttribute</b> points to any attributes, and <b>FirstChild</b> points to anything contained within the element. 
-
-
-
+<b>WSDXML_ELEMENT</b> represents an XML element in the DOM tree. The <b>Name</b> member can be used to determine the name and namespace of this element. <b>FirstAttribute</b> points to any attributes, and <b>FirstChild</b> points to anything contained within the element.

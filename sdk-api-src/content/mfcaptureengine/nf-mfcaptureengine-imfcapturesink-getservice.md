@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureSink.GetService
 title: IMFCaptureSink::GetService (mfcaptureengine.h)
 description: Queries the underlying Sink Writer object for an interface.
+helpviewer_keywords: ["GetService","GetService method [Media Foundation]","GetService method [Media Foundation]","IMFCaptureSink interface","IMFCaptureSink interface [Media Foundation]","GetService method","IMFCaptureSink.GetService","IMFCaptureSink::GetService","mf.imfcapturesink_getservice","mfcaptureengine/IMFCaptureSink::GetService"]
 old-location: mf\imfcapturesink_getservice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 591F0E3D-01A8-420F-86C6-2C610643EB69
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetService method, IMFCaptureSink.GetService, IMFCaptureSink::GetService, mf.imfcapturesink_getservice, mfcaptureengine/IMFCaptureSink::GetService
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink.GetService
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink::GetService
+ - mfcaptureengine/IMFCaptureSink::GetService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink.GetService
 ---
 
 # IMFCaptureSink::GetService
@@ -48,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Queries the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
-
+Queries the underlying <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
 
 ## -parameters
 
-
-
-
 ### -param dwSinkStreamIndex [in]
 
-The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
-
+The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
 
 ### -param rguidService [in]
 
 A service identifier GUID. Currently, the value must be <b>GUID_NULL</b>.
 
-
 ### -param riid [in]
 
 A service identifier GUID. Currently, the value must be <b>IID_IMFSinkWriter</b>.
 
-
 ### -param ppUnknown [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
-
-
-
+Receives a pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,18 +124,7 @@ Invalid stream number.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

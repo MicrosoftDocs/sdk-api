@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidAnalogTuner2.get_TVFormats
 title: IMSVidAnalogTuner2::get_TVFormats (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","get_TVFormats method","IMSVidAnalogTuner2.get_TVFormats","IMSVidAnalogTuner2::get_TVFormats","IMSVidAnalogTuner2getTVFormats","get_TVFormats","get_TVFormats method [Microsoft TV Technologies]","get_TVFormats method [Microsoft TV Technologies]","IMSVidAnalogTuner2 interface","mstv.imsvidanalogtuner2_get_tvformats","segment/IMSVidAnalogTuner2::get_TVFormats"]
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm
 tech.root: mstv
 ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
-f1_keywords:
-- segment/IMSVidAnalogTuner2.get_TVFormats
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidAnalogTuner2.get_TVFormats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidAnalogTuner2::get_TVFormats
+ - segment/IMSVidAnalogTuner2::get_TVFormats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidAnalogTuner2.get_TVFormats
 ---
 
 # IMSVidAnalogTuner2::get_TVFormats
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,11 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>get_TVFormats</b> method retrieves a flag value that indicates which TV formats the tuner supports, such as NTSC, PAL, or SECAM.
 
-
 ## -parameters
-
-
-
 
 ### -param Formats [out]
 
@@ -155,12 +151,8 @@ Pointer to a variable that receives the formats flag. Possible values are the su
 <td>Combination (N) PAL standard (Argentina)</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -192,18 +184,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner2">IMSVidAnalogTuner2 Interface</a>

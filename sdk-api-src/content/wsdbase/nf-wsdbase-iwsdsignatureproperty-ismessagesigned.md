@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSigned
 title: IWSDSignatureProperty::IsMessageSigned (wsdbase.h)
 description: Specifies if a message is signed.
+helpviewer_keywords: ["IWSDSignatureProperty interface","IsMessageSigned method","IWSDSignatureProperty.IsMessageSigned","IWSDSignatureProperty::IsMessageSigned","IsMessageSigned","IsMessageSigned method","IsMessageSigned method","IWSDSignatureProperty interface","ncd.iwsdsignatureproperty_ismessagesigned","wsdbase/IWSDSignatureProperty::IsMessageSigned"]
 old-location: ncd\iwsdsignatureproperty_ismessagesigned.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ca91bb1e-b8a6-4cfe-850c-887b39ae239e
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSigned method, IWSDSignatureProperty.IsMessageSigned, IWSDSignatureProperty::IsMessageSigned, IsMessageSigned, IsMessageSigned method, IsMessageSigned method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesigned, wsdbase/IWSDSignatureProperty::IsMessageSigned
-f1_keywords:
-- wsdbase/IWSDSignatureProperty.IsMessageSigned
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDSignatureProperty.IsMessageSigned
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDSignatureProperty::IsMessageSigned
+ - wsdbase/IWSDSignatureProperty::IsMessageSigned
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDSignatureProperty.IsMessageSigned
 ---
 
 # IWSDSignatureProperty::IsMessageSigned
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies if a message is signed.
 
-
 ## -parameters
-
-
-
 
 ### -param pbSigned [out]
 
 A pointer to a boolean that specifies if a message signature is signed.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -85,18 +79,7 @@ Method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>

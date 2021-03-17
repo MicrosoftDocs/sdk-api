@@ -2,15 +2,12 @@
 UID: NF:mi.MI_Application_NewParameterSet
 title: MI_Application_NewParameterSet function (mi.h)
 description: Creates a new parameter set.
+helpviewer_keywords: ["MI_Application_NewParameterSet","MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)]","mi/MI_Application_NewParameterSet","wmi_v2.mi_application_newparameterset"]
 old-location: wmi_v2\mi_application_newparameterset.htm
 tech.root: wmi_v2
 ms.assetid: 9704ad73-78af-4d75-8da6-f327193ea0fa
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)], mi/MI_Application_NewParameterSet, wmi_v2.mi_application_newparameterset
-f1_keywords:
-- mi/MI_Application_NewParameterSet
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Application_NewParameterSet
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_Application_NewParameterSet
+ - mi/MI_Application_NewParameterSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Application_NewParameterSet
 ---
 
 # MI_Application_NewParameterSet function
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new parameter set.
-
 
 ## -parameters
 
-
-
-
 ### -param application [in]
 
-A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
-
+A pointer to a handle returned from the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param classRTTI [in, optional]
 
-A pointer to optional run-time type information (RTTI) that defines the property set.  Generally, this is <b>NULL</b> for parameter sets.  If there is no RTTI, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_addelement">MI_Instance_AddElement</a> function to add extra parameters. If RTTI is passed in, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_setelement">MI_Instance_SetElement</a> function to set the values of the parameters.
-
+A pointer to optional run-time type information (RTTI) that defines the property set.  Generally, this is <b>NULL</b> for parameter sets.  If there is no RTTI, call the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_addelement">MI_Instance_AddElement</a> function to add extra parameters. If RTTI is passed in, use the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_setelement">MI_Instance_SetElement</a> function to set the values of the parameters.
 
 ### -param instance
 
 A pointer to a pointer to the instance returned from this function call.
 
-
 ## -returns
-
-
 
 This function returns MI_INLINE MI_Result.
 
-
-
-
 ## -remarks
 
-
-
-When you have finished using the parameter set, free the instance by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
-
-
-
+When you have finished using the parameter set, free the instance by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.

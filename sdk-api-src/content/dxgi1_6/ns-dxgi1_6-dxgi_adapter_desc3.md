@@ -2,15 +2,12 @@
 UID: NS:dxgi1_6.DXGI_ADAPTER_DESC3
 title: DXGI_ADAPTER_DESC3 (dxgi1_6.h)
 description: Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.
+helpviewer_keywords: ["DXGI_ADAPTER_DESC3","DXGI_ADAPTER_DESC3 structure [DXGI]","direct3ddxgi.dxgi_adapter_desc3","dxgi1_6/DXGI_ADAPTER_DESC3"]
 old-location: direct3ddxgi\dxgi_adapter_desc3.htm
 tech.root: direct3ddxgi
 ms.assetid: A04B37C9-9F83-4812-AAF6-14FA49976051
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_DESC3, DXGI_ADAPTER_DESC3 structure [DXGI], direct3ddxgi.dxgi_adapter_desc3, dxgi1_6/DXGI_ADAPTER_DESC3
-f1_keywords:
-- dxgi1_6/DXGI_ADAPTER_DESC3
-dev_langs:
-- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DXGI1_6.h
-api_name:
-- DXGI_ADAPTER_DESC3
 targetos: Windows
 req.typenames: DXGI_ADAPTER_DESC3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_ADAPTER_DESC3
+ - dxgi1_6/DXGI_ADAPTER_DESC3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DXGI1_6.h
+api_name:
+ - DXGI_ADAPTER_DESC3
 ---
 
 # DXGI_ADAPTER_DESC3 structure
@@ -48,95 +50,66 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes an adapter (or video card) that uses Microsoft DirectX Graphics Infrastructure (DXGI) 1.6.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Description
 
 A string that contains the adapter description.
 
-
 ### -field VendorId
 
 The PCI ID of the hardware vendor.
-
 
 ### -field DeviceId
 
 The PCI ID of the hardware device.
 
-
 ### -field SubSysId
 
 The PCI ID of the sub system.
-
 
 ### -field Revision
 
 The PCI ID of the revision number of the adapter.
 
-
 ### -field DedicatedVideoMemory
 
 The number of bytes of dedicated video memory that are not shared with the CPU.
-
 
 ### -field DedicatedSystemMemory
 
 The number of bytes of dedicated system memory that are not shared with the CPU. This memory is allocated from available system memory at boot time.
 
-
 ### -field SharedSystemMemory
 
 The number of bytes of shared system memory. This is the maximum value of system memory that may be consumed by the adapter during operation. Any incidental memory consumed by the driver as it manages and uses video memory is additional.
 
-
 ### -field AdapterLuid
 
-A unique value that identifies the adapter. See <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
-
+A unique value that identifies the adapter. See <a href="/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a> for a definition of the structure. <b>LUID</b> is defined in dxgi.h.
 
 ### -field Flags
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3">DXGI_ADAPTER_FLAG3</a> enumeration that describes the adapter type.  The <b>DXGI_ADAPTER_FLAG_REMOTE</b> flag is reserved.
-
+A value of the <a href="/windows/desktop/api/dxgi1_6/ne-dxgi1_6-dxgi_adapter_flag3">DXGI_ADAPTER_FLAG3</a> enumeration that describes the adapter type.  The <b>DXGI_ADAPTER_FLAG_REMOTE</b> flag is reserved.
 
 ### -field GraphicsPreemptionGranularity
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_graphics_preemption_granularity">DXGI_GRAPHICS_PREEMPTION_GRANULARITY</a> enumerated type that describes the granularity level at which the GPU can be preempted from performing its current graphics rendering task.
-
+A value of the <a href="/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_graphics_preemption_granularity">DXGI_GRAPHICS_PREEMPTION_GRANULARITY</a> enumerated type that describes the granularity level at which the GPU can be preempted from performing its current graphics rendering task.
 
 ### -field ComputePreemptionGranularity
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_compute_preemption_granularity">DXGI_COMPUTE_PREEMPTION_GRANULARITY</a> enumerated type that describes the granularity level at which the GPU can be preempted from performing its current compute task.
-
+A value of the <a href="/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_compute_preemption_granularity">DXGI_COMPUTE_PREEMPTION_GRANULARITY</a> enumerated type that describes the granularity level at which the GPU can be preempted from performing its current compute task.
 
 ## -remarks
 
-
-
-The <b>DXGI_ADAPTER_DESC3</b> structure provides a DXGI 1.6 description of an adapter.  This structure is initialized by using the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">IDXGIAdapter4::GetDesc3</a> method.
-
-
-
+The <b>DXGI_ADAPTER_DESC3</b> structure provides a DXGI 1.6 description of an adapter.  This structure is initialized by using the <a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">IDXGIAdapter4::GetDesc3</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">IDXGIAdapter4::GetDesc3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgiadapter4-getdesc3">IDXGIAdapter4::GetDesc3</a>

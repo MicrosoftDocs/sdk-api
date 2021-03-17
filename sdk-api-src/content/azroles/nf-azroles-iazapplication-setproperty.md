@@ -2,15 +2,12 @@
 UID: NF:azroles.IAzApplication.SetProperty
 title: IAzApplication::SetProperty (azroles.h)
 description: Sets the specified value to the IAzApplication object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID","AZ_PROP_APPLICATION_DATA","AZ_PROP_APPLICATION_INTERFACE_CLSID","AZ_PROP_APPLICATION_VERSION","AZ_PROP_APPLY_STORE_SACL","AZ_PROP_DESCRIPTION","AZ_PROP_GENERATE_AUDITS","AZ_PROP_NAME","AzApplication object [Security]","SetProperty method","IAzApplication interface [Security]","SetProperty method","IAzApplication.SetProperty","IAzApplication::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzApplication object","SetProperty method [Security]","IAzApplication interface","azroles/IAzApplication::SetProperty","security.iazapplication_setproperty"]
 old-location: security\iazapplication_setproperty.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 077ed5a9-7a38-4477-9fac-1f0b88ab0d33
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_AUTHZ_INTERFACE_CLSID, AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLICATION_INTERFACE_CLSID, AZ_PROP_APPLICATION_VERSION, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AZ_PROP_NAME, AzApplication object [Security],SetProperty method, IAzApplication interface [Security],SetProperty method, IAzApplication.SetProperty, IAzApplication::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplication object, SetProperty method [Security],IAzApplication interface, azroles/IAzApplication::SetProperty, security.iazapplication_setproperty
-f1_keywords:
-- azroles/IAzApplication.SetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication.SetProperty
-- AzApplication.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication::SetProperty
+ - azroles/IAzApplication::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication.SetProperty
+ - AzApplication.SetProperty
 ---
 
 # IAzApplication::SetProperty
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  with the specified property ID.
-
+The <b>SetProperty</b> method sets the specified value to the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  with the specified property ID.
 
 ## -parameters
 
-
-
-
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applicationdata">ApplicationData</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -83,7 +80,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_authzinterfaceclsid">AuthzInterfaceClsid</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_authzinterfaceclsid">AuthzInterfaceClsid</a> property
 
 </td>
 </tr>
@@ -93,7 +90,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_version">Version</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_version">Version</a> property
 
 </td>
 </tr>
@@ -103,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applystoresacl">ApplyStoreSacl</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_applystoresacl">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -113,7 +110,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_description">Description</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_description">Description</a> property
 
 </td>
 </tr>
@@ -123,7 +120,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_generateaudits">GenerateAudits</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_generateaudits">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -133,17 +130,15 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-get_name">Name</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_name">Name</a> property
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
-Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  specified by the <i>lPropId</i> parameter. The type of data that must be used depends on the value of the <i>lPropId</i> parameter.
+Value to set to the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object property  specified by the <i>lPropId</i> parameter. The type of data that must be used depends on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -228,30 +223,17 @@ Value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.
-
-
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">Submit</a> method to persist any changes made by this method.

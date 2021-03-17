@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCallInfo.get_Privilege
 title: ITCallInfo::get_Privilege (tapi3if.h)
 description: The get_Privilege method gets the call privilege of the application for the current call, such as CP_MONITOR.
+helpviewer_keywords: ["ITCallInfo interface [TAPI 2.2]","get_Privilege method","ITCallInfo.get_Privilege","ITCallInfo::get_Privilege","_tapi3_itcallinfo_get_privilege","get_Privilege","get_Privilege method [TAPI 2.2]","get_Privilege method [TAPI 2.2]","ITCallInfo interface","tapi3.itcallinfo_get_privilege","tapi3if/ITCallInfo::get_Privilege"]
 old-location: tapi3\itcallinfo_get_privilege.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Privilege method, ITCallInfo.get_Privilege, ITCallInfo::get_Privilege, _tapi3_itcallinfo_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_privilege, tapi3if/ITCallInfo::get_Privilege
-f1_keywords:
-- tapi3if/ITCallInfo.get_Privilege
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallInfo.get_Privilege
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallInfo::get_Privilege
+ - tapi3if/ITCallInfo::get_Privilege
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallInfo.get_Privilege
 ---
 
 # ITCallInfo::get_Privilege
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Privilege</b> method gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">call privilege</a> of the application for the current call, such as CP_MONITOR.
 
 ## -parameters
-
-
-
 
 ### -param pPrivilege [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,36 +104,19 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>TAPI 2.1 Cross-Reference: </b><a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
-
-
-
-
+<b>TAPI 2.1 Cross-Reference: </b><a href="/windows/desktop/api/tapi/ns-tapi-linecallstatus">LINECALLSTATUS</a>
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_privilege">CALL_PRIVILEGE</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>

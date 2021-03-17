@@ -2,15 +2,12 @@
 UID: NF:traceloggingprovider.TraceLoggingValue
 title: TraceLoggingValue macro (traceloggingprovider.h)
 description: Wrapper macro for event fields. Automatically deduces value type.
+helpviewer_keywords: ["TraceLoggingValue","TraceLoggingValue macro","tracelogging.traceloggingvalue","traceloggingprovider/TraceLoggingValue"]
 old-location: tracelogging\traceloggingvalue.htm
 tech.root: tracelogging
 ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
-f1_keywords:
-- traceloggingprovider/TraceLoggingValue
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingValue
+ - traceloggingprovider/TraceLoggingValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingValue
 ---
 
 # TraceLoggingValue macro
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Wrapper macro for event fields. Automatically deduces value type.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -74,5 +71,5 @@ The name of the event field. If provided, the name parameter must be a string li
 
 #### - tags [in, optional]
 
-An integer value. The low 28 bits of the value will be included in the field's metadata. The semantics of the tags  are defined by the event consumer. During event processing, this tag can be retrieved from the EVENT_PROPERTY_INFO Tags field. 
+An integer value. The low 28 bits of the value will be included in the field's metadata. The semantics of the tags  are defined by the event consumer. During event processing, this tag can be retrieved from the EVENT_PROPERTY_INFO Tags field.
 

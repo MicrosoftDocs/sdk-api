@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeIndices
 title: IWMHeaderInfo3::GetAttributeIndices (wmsdkidl.h)
 description: The GetAttributeIndices method retrieves a list of valid attribute indices within specified parameters.
+helpviewer_keywords: ["GetAttributeIndices","GetAttributeIndices method [windows Media Format]","GetAttributeIndices method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo3 interface [windows Media Format]","GetAttributeIndices method","IWMHeaderInfo3.GetAttributeIndices","IWMHeaderInfo3::GetAttributeIndices","IWMHeaderInfo3GetAttributeIndices","wmformat.iwmheaderinfo3_getattributeindices","wmsdkidl/IWMHeaderInfo3::GetAttributeIndices"]
 old-location: wmformat\iwmheaderinfo3_getattributeindices.htm
 tech.root: wmformat
 ms.assetid: 15c8f0c2-f2d4-441a-b6a9-774da820d03c
 ms.date: 12/05/2018
 ms.keywords: GetAttributeIndices, GetAttributeIndices method [windows Media Format], GetAttributeIndices method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeIndices method, IWMHeaderInfo3.GetAttributeIndices, IWMHeaderInfo3::GetAttributeIndices, IWMHeaderInfo3GetAttributeIndices, wmformat.iwmheaderinfo3_getattributeindices, wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo3.GetAttributeIndices
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMHeaderInfo3.GetAttributeIndices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo3::GetAttributeIndices
+ - wmsdkidl/IWMHeaderInfo3::GetAttributeIndices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMHeaderInfo3.GetAttributeIndices
 ---
 
 # IWMHeaderInfo3::GetAttributeIndices
@@ -51,46 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAttributeIndices</b> method retrieves a list of valid attribute indices within specified parameters. You can retrieve indices for all attributes with the same name or for all attributes in a specified language. The indices found are for a single specific stream. Alternatively, you can retrieve the specified indices for the entire file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number for which to retrieve attribute indices. Passing zero retrieves indices for file-level attributes. Passing 0xFFFF retrieves indices for all appropriate attributes, regardless of their association to streams.
 
-
 ### -param pwszName [in]
 
 Pointer to a wide-character null-terminated string containing the attribute name for which you want to retrieve indices. Pass NULL to retrieve indices for attributes based on language. Attribute names are limited to 1024 wide characters.
-
 
 ### -param pwLangIndex [in]
 
 Pointer to a <b>WORD</b> containing the language index of the language for which to retrieve attribute indices. Pass NULL to retrieve indices for attributes by name.
 
-
 ### -param pwIndices [out]
 
 Pointer to a <b>WORD</b> array containing the indices that meet the criteria described by the input parameters. Pass NULL to retrieve the size of the array, which will be returned in <i>pwCount</i>.
-
 
 ### -param pwCount [in, out]
 
 On output, pointer to a <b>WORD</b> containing the number of elements in the <i>pwIndices</i> array.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -144,14 +131,8 @@ A pointer is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must make two calls to <b>GetAttributeIndices</b> for each set of indices retrieved. On the first call, pass NULL as <i>pwIndices</i>. On return, the variable pointed to by <i>pwCount</i> is set to the number of elements required for the array of indices. Then allocate memory for the array and make the second call, passing a pointer to the array as <i>pwIndices</i>.
 
@@ -159,16 +140,6 @@ If you use 0xFFFF for the stream number, the index values returned will be globa
 
 Index values obtained by using this method are given in descending order by index. This is to aid in deleting attributes, which should always be done in descending order.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>

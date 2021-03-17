@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.put_FreeMediaBlocks
 title: IFileSystemImage::put_FreeMediaBlocks (imapi2fs.h)
 description: Sets the maximum number of blocks available for the image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_FreeMediaBlocks method","IFileSystemImage.put_FreeMediaBlocks","IFileSystemImage::put_FreeMediaBlocks","imapi.ifilesystemimage_put_freemediablocks","imapi2fs/IFileSystemImage::put_FreeMediaBlocks","put_FreeMediaBlocks","put_FreeMediaBlocks method [IMAPI]","put_FreeMediaBlocks method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 7ffa2736-6480-4bda-8144-b949bf43e580
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FreeMediaBlocks method, IFileSystemImage.put_FreeMediaBlocks, IFileSystemImage::put_FreeMediaBlocks, imapi.ifilesystemimage_put_freemediablocks, imapi2fs/IFileSystemImage::put_FreeMediaBlocks, put_FreeMediaBlocks, put_FreeMediaBlocks method [IMAPI], put_FreeMediaBlocks method [IMAPI],IFileSystemImage interface
-f1_keywords:
-- imapi2fs/IFileSystemImage.put_FreeMediaBlocks
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.put_FreeMediaBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::put_FreeMediaBlocks
+ - imapi2fs/IFileSystemImage::put_FreeMediaBlocks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.put_FreeMediaBlocks
 ---
 
 # IFileSystemImage::put_FreeMediaBlocks
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the maximum number of blocks available for the image.
 
-
 ## -parameters
-
-
-
 
 ### -param newVal [in]
 
@@ -65,10 +62,7 @@ By default, 332,800 blocks are used to create the file system image. This value 
 
 To specify an infinite number of block, set <i>newVal</i> to zero.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -91,22 +85,11 @@ Value: 0xC0AAB121
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a>

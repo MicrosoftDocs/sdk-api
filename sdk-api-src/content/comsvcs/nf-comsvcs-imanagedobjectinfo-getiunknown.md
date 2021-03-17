@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IManagedObjectInfo.GetIUnknown
 title: IManagedObjectInfo::GetIUnknown (comsvcs.h)
 description: Retrieves the IUnknown interface that is associated with the managed object.
+helpviewer_keywords: ["GetIUnknown","GetIUnknown method [COM+]","GetIUnknown method [COM+]","IManagedObjectInfo interface","IManagedObjectInfo interface [COM+]","GetIUnknown method","IManagedObjectInfo.GetIUnknown","IManagedObjectInfo::GetIUnknown","_cos_IManagedObjectInfo_GetIUnknown","comsvcs/IManagedObjectInfo::GetIUnknown","cos.imanagedobjectinfo_getiunknown"]
 old-location: cos\imanagedobjectinfo_getiunknown.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 1c0d27cb-1725-4654-ab15-0ef815ce6657
 ms.date: 12/05/2018
 ms.keywords: GetIUnknown, GetIUnknown method [COM+], GetIUnknown method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIUnknown method, IManagedObjectInfo.GetIUnknown, IManagedObjectInfo::GetIUnknown, _cos_IManagedObjectInfo_GetIUnknown, comsvcs/IManagedObjectInfo::GetIUnknown, cos.imanagedobjectinfo_getiunknown
-f1_keywords:
-- comsvcs/IManagedObjectInfo.GetIUnknown
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IManagedObjectInfo.GetIUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManagedObjectInfo::GetIUnknown
+ - comsvcs/IManagedObjectInfo::GetIUnknown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IManagedObjectInfo.GetIUnknown
 ---
 
 # IManagedObjectInfo::GetIUnknown
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that is associated with the managed object.
-
+Retrieves the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that is associated with the managed object.
 
 ## -parameters
 
-
-
-
 ### -param pUnk [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
-
+A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>

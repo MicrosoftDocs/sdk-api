@@ -2,15 +2,12 @@
 UID: NS:routprot._UPDATE_COMPLETE_MESSAGE
 title: UPDATE_COMPLETE_MESSAGE (routprot.h)
 description: The UPDATE_COMPLETE_MESSAGE structure contains information describing the completion status of an update operation.
+helpviewer_keywords: ["*PUPDATE_COMPLETE_MESSAGE","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","ERROR_CAN_NOT_COMPLETE","NO_ERROR","PUPDATE_COMPLETE_MESSAGE","PUPDATE_COMPLETE_MESSAGE structure pointer [RAS]","UPDATE_COMPLETE_MESSAGE","UPDATE_COMPLETE_MESSAGE structure [RAS]","_mpr_update_complete_message","routprot/PUPDATE_COMPLETE_MESSAGE","routprot/UPDATE_COMPLETE_MESSAGE","rras.update_complete_message"]
 old-location: rras\update_complete_message.htm
 tech.root: RRAS
 ms.assetid: 76f00da0-4f56-4a1a-977d-a3872bbe19fc
 ms.date: 12/05/2018
 ms.keywords: '*PUPDATE_COMPLETE_MESSAGE, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, ERROR_CAN_NOT_COMPLETE, NO_ERROR, PUPDATE_COMPLETE_MESSAGE, PUPDATE_COMPLETE_MESSAGE structure pointer [RAS], UPDATE_COMPLETE_MESSAGE, UPDATE_COMPLETE_MESSAGE structure [RAS], _mpr_update_complete_message, routprot/PUPDATE_COMPLETE_MESSAGE, routprot/UPDATE_COMPLETE_MESSAGE, rras.update_complete_message'
-f1_keywords:
-- routprot/UPDATE_COMPLETE_MESSAGE
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-api_name:
-- UPDATE_COMPLETE_MESSAGE
 targetos: Windows
 req.typenames: UPDATE_COMPLETE_MESSAGE, *PUPDATE_COMPLETE_MESSAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _UPDATE_COMPLETE_MESSAGE
+ - routprot/_UPDATE_COMPLETE_MESSAGE
+ - PUPDATE_COMPLETE_MESSAGE
+ - routprot/PUPDATE_COMPLETE_MESSAGE
+ - UPDATE_COMPLETE_MESSAGE
+ - routprot/UPDATE_COMPLETE_MESSAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+api_name:
+ - UPDATE_COMPLETE_MESSAGE
 ---
 
 # UPDATE_COMPLETE_MESSAGE structure
@@ -48,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>UPDATE_COMPLETE_MESSAGE</b> structure contains information describing the completion status of an update operation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceIndex
 
 Identifies the interface over which the update was performed.
-
 
 ### -field UpdateType
 
@@ -95,11 +95,8 @@ Services information that is accessible through the Services Table Management fu
 </td>
 </tr>
 </table>
- 
-
 
 ### -field UpdateStatus
-
 
 Indicates the result of the update operation. 
 
@@ -134,24 +131,15 @@ The update was unsuccessful.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>

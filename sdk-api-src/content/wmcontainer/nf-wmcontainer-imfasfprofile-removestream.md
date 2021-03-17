@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFProfile.RemoveStream
 title: IMFASFProfile::RemoveStream (wmcontainer.h)
 description: Removes a stream from the Advanced Systems Format (ASF) profile object.
+helpviewer_keywords: ["IMFASFProfile interface [Media Foundation]","RemoveStream method","IMFASFProfile.RemoveStream","IMFASFProfile::RemoveStream","RemoveStream","RemoveStream method [Media Foundation]","RemoveStream method [Media Foundation]","IMFASFProfile interface","dfe404d3-66ea-407b-a2e0-caa065f41afe","mf.imfasfprofile_removestream","wmcontainer/IMFASFProfile::RemoveStream"]
 old-location: mf\imfasfprofile_removestream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
-f1_keywords:
-- wmcontainer/IMFASFProfile.RemoveStream
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFProfile.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFProfile::RemoveStream
+ - wmcontainer/IMFASFProfile::RemoveStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFProfile.RemoveStream
 ---
 
 # IMFASFProfile::RemoveStream
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes a stream from the Advanced Systems Format (ASF) profile object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNumber [in]
 
 Stream number of the stream to remove.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,39 +80,23 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After a stream is removed, the ASF profile object reassigns stream indexes so that the index values are sequential starting from zero. Any previously stored stream index numbers are no longer valid after deleting a stream.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">IMFASFProfile::GetStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">IMFASFProfile::GetStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">IMFASFProfile::SetStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">IMFASFProfile::SetStream</a>

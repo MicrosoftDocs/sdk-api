@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectLogonError
 title: IWTSProtocolLogonErrorRedirector::RedirectLogonError (wtsprotocol.h)
 description: IWTSProtocolLogonErrorRedirector::RedirectLogonError is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectLogonError.
+helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectLogonError method","IWTSProtocolLogonErrorRedirector.RedirectLogonError","IWTSProtocolLogonErrorRedirector::RedirectLogonError","RedirectLogonError","RedirectLogonError method [Remote Desktop Services]","RedirectLogonError method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","STATUS_ACCOUNT_DISABLED","STATUS_ACCOUNT_RESTRICTION","STATUS_BAD_VALIDATION_CLASS","STATUS_INVALID_LOGON_HOURS","STATUS_INVALID_WORKSTATION","STATUS_LOGON_FAILURE","STATUS_NO_LOGON_SERVERS","STATUS_NO_SUCH_PACKAGE","STATUS_PASSWORD_EXPIRED","STATUS_QUOTA_EXCEEDED","termserv.iwtsprotocollogonerrorredirector_redirectlogonerror","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError"]
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectlogonerror.htm
 tech.root: TermServ
 ms.assetid: 10cd07c3-9617-4ef8-9b30-541a3206e7e4
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectLogonError method, IWTSProtocolLogonErrorRedirector.RedirectLogonError, IWTSProtocolLogonErrorRedirector::RedirectLogonError, RedirectLogonError, RedirectLogonError method [Remote Desktop Services], RedirectLogonError method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, STATUS_ACCOUNT_DISABLED, STATUS_ACCOUNT_RESTRICTION, STATUS_BAD_VALIDATION_CLASS, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_LOGON_FAILURE, STATUS_NO_LOGON_SERVERS, STATUS_NO_SUCH_PACKAGE, STATUS_PASSWORD_EXPIRED, STATUS_QUOTA_EXCEEDED, termserv.iwtsprotocollogonerrorredirector_redirectlogonerror, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError
-f1_keywords:
-- wtsprotocol/IWTSProtocolLogonErrorRedirector.RedirectLogonError
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolLogonErrorRedirector.RedirectLogonError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolLogonErrorRedirector::RedirectLogonError
+ - wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectLogonError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolLogonErrorRedirector.RedirectLogonError
 ---
 
 # IWTSProtocolLogonErrorRedirector::RedirectLogonError
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::RedirectLogonError</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectlogonerror">IWRdsProtocolLogonErrorRedirector::RedirectLogonError</a>.]
 
-<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector::RedirectLogonError</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollogonerrorredirector-redirectlogonerror">IWRdsProtocolLogonErrorRedirector::RedirectLogonError</a>.]
-
- Queries the protocol for the action to take in response to a logon error. The <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a> method is called by the Remote Desktop Services service  to query the protocol for the action to take in response to a logon error.
-
+ Queries the protocol for the action to take in response to a logon error. The <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a> method is called by the Remote Desktop Services service  to query the protocol for the action to take in response to a logon error.
 
 ## -parameters
-
-
-
 
 ### -param ntsStatus [in]
 
@@ -99,7 +96,6 @@ No domain controllers are available to service the authentication request.
 
 The specified authentication package is not recognized by the LSA.
 
-
 ### -param ntsSubstatus [in]
 
 An integer that contains information about why a logon attempt failed. This value is set only if the account information of the user is valid and the logon is rejected. This can contain one of the following values.
@@ -128,43 +124,26 @@ The user account password has expired.
 
 The user account is currently disabled and cannot be used to log on.
 
-
 ### -param pszCaption [in]
 
 A pointer to a string that contains the message box caption.
-
 
 ### -param pszMessage [in]
 
 A pointer to a string that contains the message.
 
-
 ### -param uType [in]
 
 An integer that contains the message box type. For more information, see the <b>MessageBox</b> function.
 
-
 ### -param pResponse [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
-
+A pointer to a <a href="/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response to the logon error.
 
 ## -returns
 
-
-
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogonerrorredirector">IWTSProtocolLogonErrorRedirector</a>

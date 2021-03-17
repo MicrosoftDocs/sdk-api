@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsip_Submit_Command
 title: Tbsip_Submit_Command function (tbs.h)
 description: Submits a Trusted Platform Module (TPM) command to TPM Base Services (TBS) for processing.
+helpviewer_keywords: ["TBS_COMMAND_LOCALITY_FOUR","TBS_COMMAND_LOCALITY_ONE","TBS_COMMAND_LOCALITY_THREE","TBS_COMMAND_LOCALITY_TWO","TBS_COMMAND_LOCALITY_ZERO","TBS_COMMAND_PRIORITY_HIGH","TBS_COMMAND_PRIORITY_LOW","TBS_COMMAND_PRIORITY_MAX","TBS_COMMAND_PRIORITY_NORMAL","TBS_COMMAND_PRIORITY_SYSTEM","Tbsip_Submit_Command","Tbsip_Submit_Command function [TBS]","tbs._tbsip_submit_command","tbs/Tbsip_Submit_Command"]
 old-location: tbs\_tbsip_submit_command.htm
 tech.root: TBS
 ms.assetid: 5d443684-b624-47dc-abaa-a7aed74ef6cc
 ms.date: 12/05/2018
 ms.keywords: TBS_COMMAND_LOCALITY_FOUR, TBS_COMMAND_LOCALITY_ONE, TBS_COMMAND_LOCALITY_THREE, TBS_COMMAND_LOCALITY_TWO, TBS_COMMAND_LOCALITY_ZERO, TBS_COMMAND_PRIORITY_HIGH, TBS_COMMAND_PRIORITY_LOW, TBS_COMMAND_PRIORITY_MAX, TBS_COMMAND_PRIORITY_NORMAL, TBS_COMMAND_PRIORITY_SYSTEM, Tbsip_Submit_Command, Tbsip_Submit_Command function [TBS], tbs._tbsip_submit_command, tbs/Tbsip_Submit_Command
-f1_keywords:
-- tbs/Tbsip_Submit_Command
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsip_Submit_Command
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsip_Submit_Command
+ - tbs/Tbsip_Submit_Command
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsip_Submit_Command
 ---
 
 # Tbsip_Submit_Command function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Submits a Trusted Platform Module (TPM) command to TPM Base Services (TBS) for processing.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 The handle of the context that is submitting the command.
-
 
 ### -param Locality [in]
 
@@ -127,8 +123,6 @@ Locality four.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Priority [in]
 
@@ -195,32 +189,24 @@ Used for tasks that originate from the power management system.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pabCommand [in]
 
 A pointer to a buffer that contains the TPM command to process.
 
-
 ### -param cbCommand [in]
 
 The length, in bytes, of the command.
-
 
 ### -param pabResult [out]
 
 A pointer to a buffer to receive the result of the TPM command.  This buffer can be the same as <i>pabCommand</i>.
 
-
 ### -param pcbResult [in, out]
 
 An integer that, on input, specifies the size, in bytes, of the result buffer.  This value is set when the submit command returns.  If the supplied buffer is too small, this parameter, on output, is set to the required size, in bytes, for the result.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns TBS_SUCCESS.
 
@@ -330,7 +316,4 @@ An error occurred while communicating with the TPM.
 </td>
 </tr>
 </table>
- 
-
-
 

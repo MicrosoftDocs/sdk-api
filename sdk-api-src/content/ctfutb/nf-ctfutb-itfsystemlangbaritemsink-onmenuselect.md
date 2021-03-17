@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfSystemLangBarItemSink.OnMenuSelect
 title: ITfSystemLangBarItemSink::OnMenuSelect (ctfutb.h)
 description: ITfSystemLangBarItemSink::OnMenuSelect method
+helpviewer_keywords: ["ITfSystemLangBarItemSink interface [Text Services Framework]","OnMenuSelect method","ITfSystemLangBarItemSink.OnMenuSelect","ITfSystemLangBarItemSink::OnMenuSelect","OnMenuSelect","OnMenuSelect method [Text Services Framework]","OnMenuSelect method [Text Services Framework]","ITfSystemLangBarItemSink interface","_tsf_itfsystemlangbaritemsink_onmenuselect_ref","ctfutb/ITfSystemLangBarItemSink::OnMenuSelect","tsf.itfsystemlangbaritemsink_onmenuselect"]
 old-location: tsf\itfsystemlangbaritemsink_onmenuselect.htm
 tech.root: TSF
 ms.assetid: 43c20f95-64b5-458a-8469-0d8b284b66dd
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],OnMenuSelect method, ITfSystemLangBarItemSink.OnMenuSelect, ITfSystemLangBarItemSink::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_onmenuselect_ref, ctfutb/ITfSystemLangBarItemSink::OnMenuSelect, tsf.itfsystemlangbaritemsink_onmenuselect
-f1_keywords:
-- ctfutb/ITfSystemLangBarItemSink.OnMenuSelect
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfSystemLangBarItemSink.OnMenuSelect
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSystemLangBarItemSink::OnMenuSelect
+ - ctfutb/ITfSystemLangBarItemSink::OnMenuSelect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfSystemLangBarItemSink.OnMenuSelect
 ---
 
 # ITfSystemLangBarItemSink::OnMenuSelect
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the user selects an item in the system menu added by the system language bar menu extension.
 
 ## -parameters
 
-
-
-
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem</a>.
-
+Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,23 +90,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>

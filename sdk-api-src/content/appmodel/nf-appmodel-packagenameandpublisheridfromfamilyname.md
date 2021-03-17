@@ -2,15 +2,12 @@
 UID: NF:appmodel.PackageNameAndPublisherIdFromFamilyName
 title: PackageNameAndPublisherIdFromFamilyName function (appmodel.h)
 description: Gets the package name and publisher identifier (ID) for the specified package family name.
+helpviewer_keywords: ["PackageNameAndPublisherIdFromFamilyName","PackageNameAndPublisherIdFromFamilyName function [App packaging and management]","appmodel/PackageNameAndPublisherIdFromFamilyName","appxpkg.packagenameandpublisheridfromfamilyname"]
 old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
 ms.date: 12/05/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
-f1_keywords:
-- appmodel/PackageNameAndPublisherIdFromFamilyName
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- PackageNameAndPublisherIdFromFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PackageNameAndPublisherIdFromFamilyName
+ - appmodel/PackageNameAndPublisherIdFromFamilyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - PackageNameAndPublisherIdFromFamilyName
 ---
 
 # PackageNameAndPublisherIdFromFamilyName function
@@ -53,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package name and publisher identifier (ID) for the specified package family name.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFamilyName [in]
 
@@ -68,13 +65,11 @@ Type: <b>PCWSTR</b>
 
 The family name of a package.
 
-
 ### -param packageNameLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of the <i>packageName</i> buffer, in characters. On output, the size of the package name returned, in characters, including the null-terminator.
-
 
 ### -param packageName [out, optional]
 
@@ -82,13 +77,11 @@ Type: <b>PWSTR</b>
 
 The package name.
 
-
 ### -param packagePublisherIdLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of the <i>packagePublishId</i> buffer, in characters. On output, the size of the publisher ID returned, in characters, including the null-terminator.
-
 
 ### -param packagePublisherId [out, optional]
 
@@ -96,10 +89,7 @@ Type: <b>PWSTR</b>
 
 The package publisher ID.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -122,16 +112,10 @@ One of the buffers is not large enough to hold the data. The required sizes are 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -213,29 +197,18 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packageidfromfullname">PackageIdFromFullName</a>

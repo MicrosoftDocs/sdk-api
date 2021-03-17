@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoProgressDialog.GetWindow
 title: IPhotoProgressDialog::GetWindow (photoacquire.h)
 description: The GetWindow method retrieves the handle to the progress dialog box.
+helpviewer_keywords: ["GetWindow","GetWindow method [Picture Acquisition]","GetWindow method [Picture Acquisition]","IPhotoProgressDialog interface","IPhotoProgressDialog interface [Picture Acquisition]","GetWindow method","IPhotoProgressDialog.GetWindow","IPhotoProgressDialog::GetWindow","IPhotoProgressDialogGetWindow","photoacquire/IPhotoProgressDialog::GetWindow","picacq.iphotoprogressdialog_getwindow"]
 old-location: picacq\iphotoprogressdialog_getwindow.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: c407e0a6-676f-419d-ab9a-85f5d0dcc480
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [Picture Acquisition], GetWindow method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetWindow method, IPhotoProgressDialog.GetWindow, IPhotoProgressDialog::GetWindow, IPhotoProgressDialogGetWindow, photoacquire/IPhotoProgressDialog::GetWindow, picacq.iphotoprogressdialog_getwindow
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.GetWindow
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.GetWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::GetWindow
+ - photoacquire/IPhotoProgressDialog::GetWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.GetWindow
 ---
 
 # IPhotoProgressDialog::GetWindow
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetWindow</code> method retrieves the handle to the progress dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phwndProgressDialog [out]
 
 Specifies the handle to the progress dialog box.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +91,7 @@ Pointer passed was <b>NULL</b>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>

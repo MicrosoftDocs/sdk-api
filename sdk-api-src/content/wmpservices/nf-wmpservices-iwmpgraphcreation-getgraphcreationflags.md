@@ -2,15 +2,12 @@
 UID: NF:wmpservices.IWMPGraphCreation.GetGraphCreationFlags
 title: IWMPGraphCreation::GetGraphCreationFlags (wmpservices.h)
 description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
+helpviewer_keywords: ["GetGraphCreationFlags","GetGraphCreationFlags method [Windows Media Player]","GetGraphCreationFlags method [Windows Media Player]","IWMPGraphCreation interface","IWMPGraphCreation interface [Windows Media Player]","GetGraphCreationFlags method","IWMPGraphCreation.GetGraphCreationFlags","IWMPGraphCreation::GetGraphCreationFlags","IWMPGraphCreationGetGraphCreationFlags","wmp.iwmpgraphcreation_getgraphcreationflags","wmpservices/IWMPGraphCreation::GetGraphCreationFlags"]
 old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
 tech.root: WMP
 ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
 ms.date: 12/05/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
-f1_keywords:
-- wmpservices/IWMPGraphCreation.GetGraphCreationFlags
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPGraphCreation.GetGraphCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPGraphCreation::GetGraphCreationFlags
+ - wmpservices/IWMPGraphCreation::GetGraphCreationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPGraphCreation.GetGraphCreationFlags
 ---
 
 # IWMPGraphCreation::GetGraphCreationFlags
 
 
 ## -description
-
-
 
 One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
         
@@ -57,20 +57,13 @@ One of the flags documented on this page is available in Windows Media Player 10
 
 The <b>GetGraphCreationFlags</b> method is called by Windows Media Player to retrieve a value that represents the graph creation preferences.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
 Address of a <b>DWORD</b> variable that receives a value that represents one or more graph creation flags combined by using bitwise OR operations.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,14 +79,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The method succeeded.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table describes the graph creation flags.
 
@@ -136,16 +123,6 @@ The following table describes the graph creation flags.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>

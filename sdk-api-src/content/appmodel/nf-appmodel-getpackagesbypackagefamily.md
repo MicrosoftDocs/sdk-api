@@ -2,15 +2,12 @@
 UID: NF:appmodel.GetPackagesByPackageFamily
 title: GetPackagesByPackageFamily function (appmodel.h)
 description: Gets the packages with the specified family name for the current user.
+helpviewer_keywords: ["GetPackagesByPackageFamily","GetPackagesByPackageFamily function [App packaging and management]","appmodel/GetPackagesByPackageFamily","appxpkg.getpackagesbypackagefamily"]
 old-location: appxpkg\getpackagesbypackagefamily.htm
 tech.root: appxpkg
 ms.assetid: C2163203-D654-4491-9090-0CC43F42EC35
 ms.date: 12/05/2018
 ms.keywords: GetPackagesByPackageFamily, GetPackagesByPackageFamily function [App packaging and management], appmodel/GetPackagesByPackageFamily, appxpkg.getpackagesbypackagefamily
-f1_keywords:
-- appmodel/GetPackagesByPackageFamily
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetPackagesByPackageFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPackagesByPackageFamily
+ - appmodel/GetPackagesByPackageFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetPackagesByPackageFamily
 ---
 
 # GetPackagesByPackageFamily function
@@ -56,23 +58,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the packages  with the specified family name for the current user.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param packageFamilyName [in]
 
 Type: <b>PCWSTR</b>
 
 The package family name.
-
 
 ### -param count [in, out]
 
@@ -82,13 +76,11 @@ A pointer to a variable that holds the number of package full names.
 
 First you pass <b>NULL</b> to <i>packageFullNames</i> to get the number of package full names. You use this number to allocate memory space for <i>packageFullNames</i>. Then you pass the address of this number to fill <i>packageFullNames</i>.
 
-
 ### -param packageFullNames [out, optional]
 
 Type: <b>PWSTR*</b>
 
 A pointer to the strings of package full names.
-
 
 ### -param bufferLength [in, out]
 
@@ -98,17 +90,13 @@ A pointer to a variable that holds the number of characters in the string of pac
 
 First you pass <b>NULL</b> to <i>buffer</i> to get the number of characters. You use this number to allocate memory space for <i>buffer</i>. Then you pass the address of this number to fill <i>buffer</i>.
 
-
 ### -param buffer [out, optional]
 
 Type: <b>WCHAR*</b>
 
 The string of characters for all of the package full names.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -131,18 +119,7 @@ One or more buffer is not large enough to hold the data. The required size is sp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkLineInfo.GetCandidate
 title: IInkLineInfo::GetCandidate (msinkaut.h)
 description: Returns one recognition alternate from the recognition result list.
+helpviewer_keywords: ["59005f51-7052-4aef-915d-4c939eecec99","GetCandidate","GetCandidate method [Tablet PC]","GetCandidate method [Tablet PC]","IInkLineInfo interface","IInkLineInfo interface [Tablet PC]","GetCandidate method","IInkLineInfo.GetCandidate","IInkLineInfo::GetCandidate","msinkaut/IInkLineInfo::GetCandidate","tablet.iinklineinfo_getcandidate"]
 old-location: tablet\iinklineinfo_getcandidate.htm
 tech.root: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
 ms.date: 12/05/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
-f1_keywords:
-- msinkaut/IInkLineInfo.GetCandidate
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkLineInfo.GetCandidate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkLineInfo::GetCandidate
+ - msinkaut/IInkLineInfo::GetCandidate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkLineInfo.GetCandidate
 ---
 
 # IInkLineInfo::GetCandidate
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns one recognition alternate from the recognition result list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nCandidateNum [in]
 
 Zero-based index of the alternate list entry to retrieve.
 
-
 ### -param pwcRecogWord [out]
 
 Buffer in which to store the selected recognition alternate. If <i>pwcRecogWord</i> is <b>NULL</b>, the method does not attempt to retrieve the recognition alternate word.
-
 
 ### -param pcwcRecogWord [out]
 
 Passes the length of the <i>pwcRecogWord</i> buffer in Unicode characters, and returns the number of Unicode characters that were copied into the buffer.
 
-
 ### -param dwFlags [in]
 
 Not used.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -126,33 +114,17 @@ The <i>pwcRecogWord</i> buffer is not large enough to accept the recognition alt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>pwcRecogWord</i> parameter is null, the method does not attempt to retrieve the recognition alternate word, but only sets <i>pwcRecogWord</i> to the number of characters in the recognition alternate.
 
 If the <i>pwcRecogWord</i> buffer is not large enough to contain the recognition alternate, then the <i>pwcRecogWord</i> buffer is filled with the first <i>pwcRecogWord</i> number of characters from the recognition alternate.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate Method</a>

@@ -2,15 +2,12 @@
 UID: NF:interactioncontext.SetInertiaParameterInteractionContext
 title: SetInertiaParameterInteractionContext function (interactioncontext.h)
 description: Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted.
+helpviewer_keywords: ["SetInertiaParameterInteractionContext","SetInertiaParameterInteractionContext function","input_intcontext.setinertiaparameterinteractioncontext","interactioncontext.setinertiaparameterinteractioncontext","interactioncontext/SetInertiaParameterInteractionContext"]
 old-location: input_intcontext\setinertiaparameterinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 5b228339-3830-407f-a8ea-55f40156cc32
 ms.date: 12/05/2018
 ms.keywords: SetInertiaParameterInteractionContext, SetInertiaParameterInteractionContext function, input_intcontext.setinertiaparameterinteractioncontext, interactioncontext.setinertiaparameterinteractioncontext, interactioncontext/SetInertiaParameterInteractionContext
-f1_keywords:
-- interactioncontext/SetInertiaParameterInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
-- IE_Shims.dll
-api_name:
-- SetInertiaParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetInertiaParameterInteractionContext
+ - interactioncontext/SetInertiaParameterInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+ - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+ - IE_Shims.dll
+api_name:
+ - SetInertiaParameterInteractionContext
 ---
 
 # SetInertiaParameterInteractionContext function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted. 
-
+Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted.
 
 ## -parameters
-
-
-
 
 ### -param interactionContext [in]
 
 The handle of the interaction context.
 
-
 ### -param inertiaParameter [in]
 
-One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
-
+One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
 
 ### -param value [in]
 
@@ -82,42 +77,24 @@ One of the following:
 
 ## -returns
 
-
-
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
+<a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> uses the inertia system setting for all manipulations (translation, rotation, scaling). This function overrides the system setting.
 
 To restore the system setting, set <i>value</i> to INERTIA_PARAMETER_INVALID_VALUE    FLT_MAX.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinertiaparameterinteractioncontext">GetInertiaParameterInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getinertiaparameterinteractioncontext">GetInertiaParameterInteractionContext</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

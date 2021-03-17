@@ -2,15 +2,12 @@
 UID: NF:directmanipulation.IDirectManipulationViewport2.RemoveBehavior
 title: IDirectManipulationViewport2::RemoveBehavior (directmanipulation.h)
 description: Removes a behavior from the viewport that matches the given cookie.
+helpviewer_keywords: ["IDirectManipulationViewport2 interface [Direct Manipulation]","RemoveBehavior method","IDirectManipulationViewport2.RemoveBehavior","IDirectManipulationViewport2::RemoveBehavior","RemoveBehavior","RemoveBehavior method [Direct Manipulation]","RemoveBehavior method [Direct Manipulation]","IDirectManipulationViewport2 interface","directmanipulation.idirectmanipulationviewport2_removebehavior","directmanipulation/IDirectManipulationViewport2::RemoveBehavior"]
 old-location: directmanipulation\idirectmanipulationviewport2_removebehavior.htm
 tech.root: directmanipulation
 ms.assetid: CA5FF0FC-6ED9-4964-9751-90387650A198
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport2 interface [Direct Manipulation],RemoveBehavior method, IDirectManipulationViewport2.RemoveBehavior, IDirectManipulationViewport2::RemoveBehavior, RemoveBehavior, RemoveBehavior method [Direct Manipulation], RemoveBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, directmanipulation.idirectmanipulationviewport2_removebehavior, directmanipulation/IDirectManipulationViewport2::RemoveBehavior
-f1_keywords:
-- directmanipulation/IDirectManipulationViewport2.RemoveBehavior
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewport2.RemoveBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewport2::RemoveBehavior
+ - directmanipulation/IDirectManipulationViewport2::RemoveBehavior
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewport2.RemoveBehavior
 ---
 
 # IDirectManipulationViewport2::RemoveBehavior
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a behavior from the viewport that matches the given cookie.
-
 
 ## -parameters
 
-
-
-
 ### -param cookie [in]
 
-A valid cookie returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior">AddBehavior</a> call on the same viewport.
-
+A valid cookie returned from the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport2-addbehavior">AddBehavior</a> call on the same viewport.
 
 ## -returns
 
-
-
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code. If the behavior has already been removed or if the behavior is not attached to this viewport a failure is returned.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>

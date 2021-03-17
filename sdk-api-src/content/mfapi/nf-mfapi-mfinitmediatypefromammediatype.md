@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFInitMediaTypeFromAMMediaType
 title: MFInitMediaTypeFromAMMediaType function (mfapi.h)
 description: Initializes a media type from a DirectShow AM_MEDIA_TYPE structure.
+helpviewer_keywords: ["MFInitMediaTypeFromAMMediaType","MFInitMediaTypeFromAMMediaType function [Media Foundation]","da5dcc32-c027-4b9a-b72f-a60b98885636","mf.mfinitmediatypefromammediatype","mfapi/MFInitMediaTypeFromAMMediaType"]
 old-location: mf\mfinitmediatypefromammediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: da5dcc32-c027-4b9a-b72f-a60b98885636
 ms.date: 12/05/2018
 ms.keywords: MFInitMediaTypeFromAMMediaType, MFInitMediaTypeFromAMMediaType function [Media Foundation], da5dcc32-c027-4b9a-b72f-a60b98885636, mf.mfinitmediatypefromammediatype, mfapi/MFInitMediaTypeFromAMMediaType
-f1_keywords:
-- mfapi/MFInitMediaTypeFromAMMediaType
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFInitMediaTypeFromAMMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFInitMediaTypeFromAMMediaType
+ - mfapi/MFInitMediaTypeFromAMMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFInitMediaTypeFromAMMediaType
 ---
 
 # MFInitMediaTypeFromAMMediaType function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Initializes a media type from a DirectShow <b>AM_MEDIA_TYPE</b> structure.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pMFType
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to initialize. To create the uninitialized media type object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to initialize. To create the uninitialized media type object, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediatype">MFCreateMediaType</a>.
 
 ### -param pAMType
 
 Pointer to an <b>AM_MEDIA_TYPE</b> structure that describes the media type. The caller must fill in the structure members before calling this function.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,14 +83,8 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function can also be used with the following format structures that are equivalent to <b>AM_MEDIA_TYPE</b>:
 
@@ -115,23 +99,14 @@ This function can also be used with the following format structures that are equ
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-type-conversions">Media Type Conversions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-conversions">Media Type Conversions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

@@ -2,15 +2,12 @@
 UID: NF:richole.IRichEditOleCallback.QueryAcceptData
 title: IRichEditOleCallback::QueryAcceptData (richole.h)
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
+helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","QueryAcceptData method","IRichEditOleCallback.QueryAcceptData","IRichEditOleCallback::QueryAcceptData","QueryAcceptData","QueryAcceptData method [Windows Controls]","QueryAcceptData method [Windows Controls]","IRichEditOleCallback interface","RECO_DROP","RECO_PASTE","_win32_IRichEditOleCallback_QueryAcceptData","_win32_IRichEditOleCallback_QueryAcceptData_cpp","controls.IRichEditOleCallback_QueryAcceptData","controls._win32_IRichEditOleCallback_QueryAcceptData","richole/IRichEditOleCallback::QueryAcceptData"]
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryacceptdata.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryAcceptData method, IRichEditOleCallback.QueryAcceptData, IRichEditOleCallback::QueryAcceptData, QueryAcceptData, QueryAcceptData method [Windows Controls], QueryAcceptData method [Windows Controls],IRichEditOleCallback interface, RECO_DROP, RECO_PASTE, _win32_IRichEditOleCallback_QueryAcceptData, _win32_IRichEditOleCallback_QueryAcceptData_cpp, controls.IRichEditOleCallback_QueryAcceptData, controls._win32_IRichEditOleCallback_QueryAcceptData, richole/IRichEditOleCallback::QueryAcceptData
-f1_keywords:
-- richole/IRichEditOleCallback.QueryAcceptData
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOleCallback.QueryAcceptData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOleCallback::QueryAcceptData
+ - richole/IRichEditOleCallback::QueryAcceptData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOleCallback.QueryAcceptData
 ---
 
 # IRichEditOleCallback::QueryAcceptData
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 
-
 ## -parameters
-
-
-
 
 ### -param lpdataobj
 
 Type: <b>LPDATAOBJECT</b>
 
-The data object being pasted or dragged. 
-
+The data object being pasted or dragged.
 
 ### -param lpcfFormat
 
@@ -70,12 +66,11 @@ Type: <b>CLIPFORMAT*</b>
 
 The clipboard format that will be used for the paste or drop operation. If the value pointed to by 
 					<i>lpcfFormat</i> is zero, the best available format will be used. If the callback changes the value pointed to by 
-					<i>lpcfFormat</i>, the rich edit control only uses that format and the operation will fail if the format is not available. 
-
+					<i>lpcfFormat</i>, the rich edit control only uses that format and the operation will fail if the format is not available.
 
 ### -param reco
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A clipboard operation flag, which can be one of these values.
 
@@ -105,52 +100,30 @@ Paste from the clipboard.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fReally
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Indicates whether the drag-drop is actually happening or if it is just a query. A nonzero value indicates the paste or drop is actually happening. A zero value indicates the operation is just a query, such as for 
-					<a href="https://docs.microsoft.com/windows/desktop/Controls/em-canpaste">EM_CANPASTE</a>.
-
+					<a href="/windows/desktop/Controls/em-canpaste">EM_CANPASTE</a>.
 
 ### -param hMetaPict
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HGLOBAL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HGLOBAL</a></b>
 
-Handle to a metafile containing the icon view of an object if <b>DVASPECT_ICON</b> is being imposed on an object by a paste special operation. 
-
+Handle to a metafile containing the icon view of an object if <b>DVASPECT_ICON</b> is being imposed on an object by a paste special operation.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. See Remarks.
 
-
-
-
 ## -remarks
 
-
-
  On failure, the rich edit control refuses the data and terminates the operation. Otherwise, the control checks the data itself for acceptable formats. A success code other than <b>S_OK</b> means that the callback either checked the data itself (if <i>fReally</i> is <b>FALSE</b>) or imported the data itself (if <i>fReally</i> is <b>TRUE</b>). If the application returns a success code other than <b>S_OK</b>, the control does not check the read-only state of the edit control.
-	
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>

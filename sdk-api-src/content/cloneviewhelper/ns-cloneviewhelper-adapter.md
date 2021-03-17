@@ -2,15 +2,12 @@
 UID: NS:cloneviewhelper.tagAdapter
 title: Adapter (cloneviewhelper.h)
 description: The Adapter structure describes a graphics adapter.
+helpviewer_keywords: ["Adapter","Adapter structure [Display Devices]","TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml","cloneviewhelper/Adapter","display.adapter"]
 old-location: display\adapter.htm
 tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1
 ms.date: 12/05/2018
 ms.keywords: Adapter, Adapter structure [Display Devices], TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml, cloneviewhelper/Adapter, display.adapter
-f1_keywords:
-- cloneviewhelper/Adapter
-dev_langs:
-- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- cloneviewhelper.h
-api_name:
-- Adapter
 targetos: Windows
 req.typenames: Adapter
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAdapter
+ - cloneviewhelper/tagAdapter
+ - Adapter
+ - cloneviewhelper/Adapter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - cloneviewhelper.h
+api_name:
+ - Adapter
 ---
 
 # Adapter structure
@@ -48,41 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The Adapter structure describes a graphics adapter. 
-
+The Adapter structure describes a graphics adapter.
 
 ## -struct-fields
 
-
-
-
 ### -field AdapterName
 
-A single wide-character string that holds the name of the graphics adapter. 
-
+A single wide-character string that holds the name of the graphics adapter.
 
 ### -field numSources
 
-The number of video present sources in the array that the <b>sources</b> member specifies. 
-
+The number of video present sources in the array that the <b>sources</b> member specifies.
 
 ### -field sources
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies. 
-
+An array of <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a> structures that specify a list of Video Present Network (VidPN) topologies.
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a>
- 
-
- 
-
+<a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a>

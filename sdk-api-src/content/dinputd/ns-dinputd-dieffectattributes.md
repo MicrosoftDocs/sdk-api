@@ -1,16 +1,13 @@
 ---
 UID: NS:dinputd.DIEFFECTATTRIBUTES
 title: DIEFFECTATTRIBUTES (dinputd.h)
-description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
+description: The DIEFFECTATTRIBUTES structure describes the information contained in the &quot;Attributes&quot; value of the registry key for each effect that is supported by a force-feedback device.
+helpviewer_keywords: ["*LPDIEFFECTATTRIBUTES","DIEFFECTATTRIBUTES","DIEFFECTATTRIBUTES structure [Human Input Devices]","di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml","dinputd/DIEFFECTATTRIBUTES","hid.dieffectattributes"]
 old-location: hid\dieffectattributes.htm
 tech.root: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
 ms.date: 12/05/2018
 ms.keywords: '*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes'
-f1_keywords:
-- dinputd/DIEFFECTATTRIBUTES
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dinputd.h
-api_name:
-- DIEFFECTATTRIBUTES
 targetos: Windows
 req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DIEFFECTATTRIBUTES
+ - dinputd/DIEFFECTATTRIBUTES
+ - LPDIEFFECTATTRIBUTES
+ - dinputd/LPDIEFFECTATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dinputd.h
+api_name:
+ - DIEFFECTATTRIBUTES
 ---
 
 # DIEFFECTATTRIBUTES structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DIEFFECTATTRIBUTES</b> structure describes the information contained in the "Attributes" value of the registry key for each effect that is supported by a force-feedback device. 
-
+The <b>DIEFFECTATTRIBUTES</b> structure describes the information contained in the "Attributes" value of the registry key for each effect that is supported by a force-feedback device.
 
 ## -struct-fields
 
-
-
-
 ### -field dwEffectId
 
-Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputeffectdriver-downloadeffect">IDirectInputEffectDriver::DownloadEffect</a> method. 
-
+Specifies an arbitrary 32-bit value that is passed to the driver to identify the effect. The driver receives this value as the <i>dwEffectID</i> parameter to the <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputeffectdriver-downloadeffect">IDirectInputEffectDriver::DownloadEffect</a> method.
 
 ### -field dwEffType
 
@@ -132,8 +130,7 @@ The effect generator for this effect supports two coefficient values for conditi
 
 #### DIEFT_POSNEGSATURATION
 
-The effect generator for the effect supports a maximum saturation for both positive and negative force output. If the device does not support both saturation values, then the negative saturation in the DICONDITION structure is ignored and the positive saturation is used in both directions. 
-
+The effect generator for the effect supports a maximum saturation for both positive and negative force output. If the device does not support both saturation values, then the negative saturation in the DICONDITION structure is ignored and the positive saturation is used in both directions.
 
 ### -field dwStaticParams
 
@@ -193,24 +190,16 @@ Indicates that the driver supports changing the lpEnvelope (see the DIEFFECT str
 
 #### DIEP_TYPESPECIFICPARAMS
 
-Indicates that the driver supports changing the <b>cbTypeSpecificParams</b> and <b>lpTypeSpecificParams</b> (see the DIEFFECT structure) of an effect when the effect is not playing. Note that the buffer pointed to by the <b>lpTypeSpecificParams</b> member of the DIEFFECT structure must remain valid for the lifetime of the effect (or until the type-specific parameter is set to a new value). DirectInput does not make a private copy of the buffer. 
-
+Indicates that the driver supports changing the <b>cbTypeSpecificParams</b> and <b>lpTypeSpecificParams</b> (see the DIEFFECT structure) of an effect when the effect is not playing. Note that the buffer pointed to by the <b>lpTypeSpecificParams</b> member of the DIEFFECT structure must remain valid for the lifetime of the effect (or until the type-specific parameter is set to a new value). DirectInput does not make a private copy of the buffer.
 
 ### -field dwDynamicParams
 
-Describes the parameters of the effect that can be modified while the effect is playing. If an application attempts to change a parameter while the effect is playing, and the driver does not support modifying that effect dynamically, then the driver will return DIERR_EFFECTPLAYING. This member uses the same flags as the <b>dwStaticParams</b> member, except that the flags are interpreted as describing whether the driver can modify the parameters of an effect while the effect is playing, rather than while it is not playing. 
-
+Describes the parameters of the effect that can be modified while the effect is playing. If an application attempts to change a parameter while the effect is playing, and the driver does not support modifying that effect dynamically, then the driver will return DIERR_EFFECTPLAYING. This member uses the same flags as the <b>dwStaticParams</b> member, except that the flags are interpreted as describing whether the driver can modify the parameters of an effect while the effect is playing, rather than while it is not playing.
 
 ### -field dwCoords
 
-One or more coordinate system flags (DIEFF_CARTESIAN, DIEFF_POLAR, DIEFF_SPHERICAL) indicating which coordinate systems are supported by the effect. At least one coordinate system must be supported. If an application attempts to set a direction in an unsupported coordinate system, DirectInput automatically converts it to a coordinate system that the device does support. 
-
+One or more coordinate system flags (DIEFF_CARTESIAN, DIEFF_POLAR, DIEFF_SPHERICAL) indicating which coordinate systems are supported by the effect. At least one coordinate system must be supported. If an application attempts to set a direction in an unsupported coordinate system, DirectInput automatically converts it to a coordinate system that the device does support.
 
 ## -remarks
 
-
-
-For information about the DIEFFECT, DICONSTANTFORCE, DIRAMPFORCE, DIPERIODIC, DICONDITION, DICUSTOMFORCE, and DIENVELOPE structures, see the DirectInput section of the DirectX SDK. 
-
-
-
+For information about the DIEFFECT, DICONSTANTFORCE, DIRAMPFORCE, DIPERIODIC, DICONDITION, DICUSTOMFORCE, and DIENVELOPE structures, see the DirectInput section of the DirectX SDK.

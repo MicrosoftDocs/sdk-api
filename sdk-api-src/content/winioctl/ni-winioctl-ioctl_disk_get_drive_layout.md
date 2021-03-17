@@ -2,15 +2,12 @@
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_LAYOUT
 title: IOCTL_DISK_GET_DRIVE_LAYOUT
 description: Retrieves information for each entry in the partition tables for a disk.
+helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT","IOCTL_DISK_GET_DRIVE_LAYOUT control","IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files]","_win32_ioctl_disk_get_drive_layout","base.ioctl_disk_get_drive_layout","fs.ioctl_disk_get_drive_layout","winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT"]
 old-location: fs\ioctl_disk_get_drive_layout.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_DRIVE_LAYOUT
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_DRIVE_LAYOUT
+ - winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_DRIVE_LAYOUT
 ---
 
 # IOCTL_DISK_GET_DRIVE_LAYOUT IOCTL
@@ -47,132 +49,81 @@ req.redist:
 
 ## -description
 
+Retrieves information for each entry in the partition tables for a disk.
 
-Retrieves information for each entry in the  partition tables for a disk.
-<div class="alert"><b>Note</b>  <b>IOCTL_DISK_GET_DRIVE_LAYOUT</b> has been superseded by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>, which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.</div><div> </div>To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters. You must have read access to the drive in order to use this control code.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,            // handle to device
-  IOCTL_DISK_GET_DRIVE_LAYOUT, // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSize(LPVOID) lpOutBuffer,        // output buffer
-  (DWORD) nOutBufferSize,      // size of output buffer
-  (LPDWORD) lpBytesReturned,   // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+> [!NOTE]
+> **IOCTL_DISK_GET_DRIVE_LAYOUT** has been superseded by [**IOCTL_DISK_GET_DRIVE_LAYOUT_EX**](ni-winioctl-ioctl_disk_get_drive_layout_ex.md), which retrieves layout information for AT and EFI (Extensible Firmware Interface) partitions.
 
-## -ioctlparameters
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters. You must have read access to the drive in order to use this control code.
 
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,             // handle to device
+  IOCTL_DISK_GET_DRIVE_LAYOUT,  // dwIoControlCode
+  NULL,                         // lpInBuffer
+  0,                            // nInBufferSize
+  (LPVOID) lpOutBuffer,         // output buffer
+  (DWORD) nOutBufferSize,       // size of output buffer
+  (LPDWORD) lpBytesReturned,    // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped   // OVERLAPPED structure
+);
+```
 
+## -parameters
 
+### -param hDevice [in]
 
-### -input-buffer
+A handle to the disk.
 
+To retrieve a device handle, call the [**CreateFile**](../fileapi/nf-fileapi-createfilew.md) function.
 
+### -param dwIoControlCode [in]
 
-<text></text>
+The control code for the operation.
 
+Use **IOCTL_DISK_GET_DRIVE_LAYOUT** for this operation.
 
+### -param lpInBuffer [in, optional]
 
+Not used with this operation. Set to **NULL**.
 
-### -input-buffer-length
+### -param nInBufferSize [in]
 
+The size of the input buffer, in bytes. Set to 0 (zero).
 
+### -param lpOutBuffer [out, optional]
 
-<text></text>
+A pointer to the output buffer that is to receive the [**DRIVE_LAYOUT_INFORMATION**](ns-winioctl-drive_layout_information.md) data returned by the operation.
 
+If the output buffer is not large enough to store the data, the function returns **FALSE** and [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md) returns **ERROR_INSUFFICIENT_BUFFER**.
 
+### -param nOutBufferSize [in]
 
+The size of the output buffer, in bytes. It must be >= **sizeof**(DRIVE_LAYOUT_INFORMATION).
 
-### -output-buffer
+### -param lpBytesReturned [out, optional]
 
+A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
+### -param lpOverlapped [in, out, optional]
 
-<text></text>
+A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure.
 
+## -returns
 
+If the operation completes successfully, the return value is nonzero.
 
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -status-block
-
-
-
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+If the operation fails or is pending, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -remarks
 
-
-
-This operation retrieves information for each primary partition as well as each logical drive. To determine whether the entry is an extended or unused partition, check the <a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-partition-types">disk partition type</a>.
-
-
-
+This operation retrieves information for each primary partition as well as each logical drive. To determine whether the entry is an extended or unused partition, check the [Disk Partition Types](/windows/desktop/FileIO/disk-partition-types).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information">DRIVE_LAYOUT_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
- 
-
- 
+* [DRIVE_LAYOUT_INFORMATION](ns-winioctl-drive_layout_information.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md)
+* [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md)
 

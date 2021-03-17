@@ -2,15 +2,12 @@
 UID: NS:winsvc._SERVICE_STATUS
 title: SERVICE_STATUS (winsvc.h)
 description: Contains status information for a service.
+helpviewer_keywords: ["*LPSERVICE_STATUS","LPSERVICE_STATUS","LPSERVICE_STATUS structure pointer","SERVICE_ACCEPT_HARDWAREPROFILECHANGE","SERVICE_ACCEPT_NETBINDCHANGE","SERVICE_ACCEPT_PARAMCHANGE","SERVICE_ACCEPT_PAUSE_CONTINUE","SERVICE_ACCEPT_POWEREVENT","SERVICE_ACCEPT_PRESHUTDOWN","SERVICE_ACCEPT_SESSIONCHANGE","SERVICE_ACCEPT_SHUTDOWN","SERVICE_ACCEPT_STOP","SERVICE_ACCEPT_TIMECHANGE","SERVICE_ACCEPT_TRIGGEREVENT","SERVICE_ACCEPT_USERMODEREBOOT","SERVICE_CONTINUE_PENDING","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_PAUSED","SERVICE_PAUSE_PENDING","SERVICE_RUNNING","SERVICE_START_PENDING","SERVICE_STATUS","SERVICE_STATUS structure","SERVICE_STOPPED","SERVICE_STOP_PENDING","SERVICE_USER_OWN_PROCESS","SERVICE_USER_SHARE_PROCESS","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_service_status_str","base.service_status_str","winsvc/LPSERVICE_STATUS","winsvc/SERVICE_STATUS"]
 old-location: base\service_status_str.htm
-tech.root: Services
+tech.root: security
 ms.assetid: d268609b-d442-4d0f-9d49-ed23fee84961
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_STATUS, LPSERVICE_STATUS, LPSERVICE_STATUS structure pointer, SERVICE_ACCEPT_HARDWAREPROFILECHANGE, SERVICE_ACCEPT_NETBINDCHANGE, SERVICE_ACCEPT_PARAMCHANGE, SERVICE_ACCEPT_PAUSE_CONTINUE, SERVICE_ACCEPT_POWEREVENT, SERVICE_ACCEPT_PRESHUTDOWN, SERVICE_ACCEPT_SESSIONCHANGE, SERVICE_ACCEPT_SHUTDOWN, SERVICE_ACCEPT_STOP, SERVICE_ACCEPT_TIMECHANGE, SERVICE_ACCEPT_TRIGGEREVENT, SERVICE_ACCEPT_USERMODEREBOOT, SERVICE_CONTINUE_PENDING, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_PAUSED, SERVICE_PAUSE_PENDING, SERVICE_RUNNING, SERVICE_START_PENDING, SERVICE_STATUS, SERVICE_STATUS structure, SERVICE_STOPPED, SERVICE_STOP_PENDING, SERVICE_USER_OWN_PROCESS, SERVICE_USER_SHARE_PROCESS, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_service_status_str, base.service_status_str, winsvc/LPSERVICE_STATUS, winsvc/SERVICE_STATUS'
-f1_keywords:
-- winsvc/SERVICE_STATUS
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_STATUS
 targetos: Windows
 req.typenames: SERVICE_STATUS, *LPSERVICE_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_STATUS
+ - winsvc/_SERVICE_STATUS
+ - LPSERVICE_STATUS
+ - winsvc/LPSERVICE_STATUS
+ - SERVICE_STATUS
+ - winsvc/SERVICE_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_STATUS
 ---
 
 # SERVICE_STATUS structure
@@ -48,19 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains status information for a service. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatus">QueryServiceStatus</a> functions use this structure. A service uses this structure in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function to report its current status to the service control manager.
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>, 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>, 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a>, and 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatus">QueryServiceStatus</a> functions use this structure. A service uses this structure in the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function to report its current status to the service control manager.
 
 ## -struct-fields
-
-
-
 
 ### -field dwServiceType
 
@@ -141,7 +142,7 @@ The service shares a process with one or more other services that run under the 
  
 
 If the service type is either SERVICE_WIN32_OWN_PROCESS or SERVICE_WIN32_SHARE_PROCESS, and the service is running in the context of the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, the following type may also be specified.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, the following type may also be specified.
 
 <table>
 <tr>
@@ -161,13 +162,11 @@ The service can interact with the desktop.
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
+<a href="/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCurrentState
 
@@ -256,18 +255,16 @@ The service is not running.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwControlsAccepted
 
 The control codes the service accepts and processes in its handler function (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>). A user interface process can control a service by specifying a control command in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> function. By default, all services accept the <b>SERVICE_CONTROL_INTERROGATE</b> value. 
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> and 
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>). A user interface process can control a service by specifying a control command in the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> function. By default, all services accept the <b>SERVICE_CONTROL_INTERROGATE</b> value. 
 
 
-To accept the <b>SERVICE_CONTROL_DEVICEEVENT</b> value, the service  must register to receive device events by using  the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> function. 
+To accept the <b>SERVICE_CONTROL_DEVICEEVENT</b> value, the service  must register to receive device events by using  the <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> function. 
 
 The following are the control codes.
 
@@ -334,7 +331,7 @@ This control code allows the service to receive <b>SERVICE_CONTROL_PAUSE</b> and
 The service can perform preshutdown tasks. 
 
 This control code enables the service to receive <b>SERVICE_CONTROL_PRESHUTDOWN</b> notifications. Note that 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -353,7 +350,7 @@ The service is notified when system shutdown occurs.
 
 
 This control code allows the service to receive <b>SERVICE_CONTROL_SHUTDOWN</b> notifications. Note that 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
 
 </td>
 </tr>
@@ -377,8 +374,8 @@ This control code allows the service to receive <b>SERVICE_CONTROL_STOP</b> noti
  
 
 This member can also contain the following extended control codes, which are supported only by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>. (Note that these control codes cannot be sent by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>.)
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>. (Note that these control codes cannot be sent by 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>.)
 
 <table>
 <tr>
@@ -458,57 +455,44 @@ The services is notified when the user initiates a reboot.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwWin32ExitCode
 
 The error code the service uses to report an error that occurs when it is starting or stopping. To return an error code specific to the service, the service must set this value to <b>ERROR_SERVICE_SPECIFIC_ERROR</b> to indicate that the <b>dwServiceSpecificExitCode</b> member contains the error code. The service should set this value to <b>NO_ERROR</b> when it is running and on normal termination.
 
-
 ### -field dwServiceSpecificExitCode
 
 A service-specific error code that the service returns when an error occurs while the service is starting or stopping. This value is ignored unless the <b>dwWin32ExitCode</b> member is set to <b>ERROR_SERVICE_SPECIFIC_ERROR</b>.
-
 
 ### -field dwCheckPoint
 
 The check-point value the service increments periodically to report its progress during a lengthy start, stop, pause, or continue operation. For example, the service should increment this value as it completes each step of its initialization when it is starting up. The user interface program that invoked the operation on the service uses this value to track the progress of the service during a lengthy operation. This value is not valid and should be zero when the service does not have a start, stop, pause, or continue operation pending.
 
-
 ### -field dwWaitHint
 
 The estimated time required for a pending start, stop, pause, or continue operation, in milliseconds. Before the specified amount of time has elapsed, the service should make its next call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function with either an incremented <b>dwCheckPoint</b> value or a change in <b>dwCurrentState</b>. If the amount of time specified by <b>dwWaitHint</b> passes, and <b>dwCheckPoint</b> has not been incremented or <b>dwCurrentState</b> has not changed, the service control manager or service control program can assume that an error has occurred and the service should be stopped. However, if the service shares a process with other services, the service control manager cannot terminate the service application because it would have to terminate the other services sharing the process as well.
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function with either an incremented <b>dwCheckPoint</b> value or a change in <b>dwCurrentState</b>. If the amount of time specified by <b>dwWaitHint</b> passes, and <b>dwCheckPoint</b> has not been incremented or <b>dwCurrentState</b> has not changed, the service control manager or service control program can assume that an error has occurred and the service should be stopped. However, if the service shares a process with other services, the service control manager cannot terminate the service application because it would have to terminate the other services sharing the process as well.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatus">QueryServiceStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatus">QueryServiceStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>

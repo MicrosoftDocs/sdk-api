@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
 title: IWSDiscoveredService::GetMetadataVersion (wsddisco.h)
 description: Retrieves the metadata version of this message.
+helpviewer_keywords: ["GetMetadataVersion","GetMetadataVersion method","GetMetadataVersion method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetMetadataVersion method","IWSDiscoveredService.GetMetadataVersion","IWSDiscoveredService::GetMetadataVersion","ncd.iwsdiscoveredservice_getmetadataversion","wsddisco/IWSDiscoveredService::GetMetadataVersion"]
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.date: 12/05/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetMetadataVersion
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetMetadataVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetMetadataVersion
+ - wsddisco/IWSDiscoveredService::GetMetadataVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetMetadataVersion
 ---
 
 # IWSDiscoveredService::GetMetadataVersion
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the metadata version of this message.
 
-
 ## -parameters
-
-
-
 
 ### -param pullMetadataVersion [out]
 
 Metadata version of this message.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Versioning is used to determine if metadata exchange should be performed again due to a state change on the device.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

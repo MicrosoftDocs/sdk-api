@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpServerBackupDatabase
 title: DhcpServerBackupDatabase function (dhcpsapi.h)
 description: Backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.
+helpviewer_keywords: ["DhcpServerBackupDatabase","DhcpServerBackupDatabase function [DHCP]","dhcp.dhcpserverbackupdatabase","dhcpsapi/DhcpServerBackupDatabase"]
 old-location: dhcp\dhcpserverbackupdatabase.htm
 tech.root: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
 ms.date: 12/05/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
-f1_keywords:
-- dhcpsapi/DhcpServerBackupDatabase
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpServerBackupDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpServerBackupDatabase
+ - dhcpsapi/DhcpServerBackupDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpServerBackupDatabase
 ---
 
 # DhcpServerBackupDatabase function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpServerBackupDatabase</b> function backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param Path [in]
 
 Unicode string that specifies the absolute path to the file where the DHCP server database will be backed up.
 
-
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -101,18 +94,7 @@ An error occurred while accessing the DHCP server's database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverrestoredatabase">DhcpServerRestoreDatabase</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverrestoredatabase">DhcpServerRestoreDatabase</a>

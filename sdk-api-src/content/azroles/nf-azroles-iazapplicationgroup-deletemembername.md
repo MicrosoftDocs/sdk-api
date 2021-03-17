@@ -2,15 +2,12 @@
 UID: NF:azroles.IAzApplicationGroup.DeleteMemberName
 title: IAzApplicationGroup::DeleteMemberName (azroles.h)
 description: Removes the specified account name from the list of accounts that belong to the application group.
+helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteMemberName method","DeleteMemberName","DeleteMemberName method [Security]","DeleteMemberName method [Security]","AzApplicationGroup object","DeleteMemberName method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteMemberName method","IAzApplicationGroup.DeleteMemberName","IAzApplicationGroup::DeleteMemberName","azroles/IAzApplicationGroup::DeleteMemberName","security.iazapplicationgroup_deletemembername"]
 old-location: security\iazapplicationgroup_deletemembername.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzApplicationGroup object, DeleteMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMemberName method, IAzApplicationGroup.DeleteMemberName, IAzApplicationGroup::DeleteMemberName, azroles/IAzApplicationGroup::DeleteMemberName, security.iazapplicationgroup_deletemembername
-f1_keywords:
-- azroles/IAzApplicationGroup.DeleteMemberName
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroup.DeleteMemberName
-- AzApplicationGroup.DeleteMemberName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup::DeleteMemberName
+ - azroles/IAzApplicationGroup::DeleteMemberName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroup.DeleteMemberName
+ - AzApplicationGroup.DeleteMemberName
 ---
 
 # IAzApplicationGroup::DeleteMemberName
@@ -49,30 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteMemberName</b> method removes  the specified account name from the list of  accounts that belong to the application group.
-
 
 ## -parameters
 
-
-
-
 ### -param bstrProp [in]
 
-String that contains the account name to remove from the list of   accounts that belong to the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
-
+String that contains the account name to remove from the list of   accounts that belong to the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -remarks
 
-
-
-To view the list of account names of  accounts that belong to this application group, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.
-
-
-
+To view the list of account names of  accounts that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property.

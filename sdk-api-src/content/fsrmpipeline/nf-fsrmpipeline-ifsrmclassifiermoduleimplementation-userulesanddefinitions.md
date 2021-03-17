@@ -2,15 +2,12 @@
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 title: IFsrmClassifierModuleImplementation::UseRulesAndDefinitions (fsrmpipeline.h)
 description: Specifies the collection of rules and relevant property definitions the classifier should expect to process.
+helpviewer_keywords: ["IFsrmClassifierModuleImplementation interface [File Server Resource Manager]","UseRulesAndDefinitions method","IFsrmClassifierModuleImplementation.UseRulesAndDefinitions","IFsrmClassifierModuleImplementation::UseRulesAndDefinitions","UseRulesAndDefinitions","UseRulesAndDefinitions method [File Server Resource Manager]","UseRulesAndDefinitions method [File Server Resource Manager]","IFsrmClassifierModuleImplementation interface","fs.ifsrmclassifiermoduleimplementation_userulesanddefinitions","fsrm.ifsrmclassifiermoduleimplementation_userulesanddefinitions","fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions"]
 old-location: fsrm\ifsrmclassifiermoduleimplementation_userulesanddefinitions.htm
 tech.root: fsrm
 ms.assetid: 8fbca8c4-7021-4183-b8f7-a32082da17fc
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],UseRulesAndDefinitions method, IFsrmClassifierModuleImplementation.UseRulesAndDefinitions, IFsrmClassifierModuleImplementation::UseRulesAndDefinitions, UseRulesAndDefinitions, UseRulesAndDefinitions method [File Server Resource Manager], UseRulesAndDefinitions method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrm.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
-f1_keywords:
-- fsrmpipeline/IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
+ - fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 ---
 
 # IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
@@ -48,35 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the collection of rules and relevant property definitions the classifier should expect to 
     process.
 
-
 ## -parameters
-
-
-
 
 ### -param rules [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>*</b>
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a> instance representing a collection 
+An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a> instance representing a collection 
        of rules that will be used during the current classification session.
-
 
 ### -param propertyDefinitions [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>*</b>
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a> instance representing a collection 
+An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a> instance representing a collection 
        of property definitions that are referenced by the specified collection of rules.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -87,20 +80,10 @@ Other values will result in the client application receiving a
 
 <b>Windows Server 2008 R2:  </b>The client application will receive a <b>FSRM_E_UNEXPECTED</b> error.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>

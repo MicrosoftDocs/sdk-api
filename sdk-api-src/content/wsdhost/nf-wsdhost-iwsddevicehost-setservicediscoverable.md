@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
 title: IWSDDeviceHost::SetServiceDiscoverable (wsdhost.h)
 description: Controls whether or not the service is advertised using WS-Discovery.
+helpviewer_keywords: ["IWSDDeviceHost interface","SetServiceDiscoverable method","IWSDDeviceHost.SetServiceDiscoverable","IWSDDeviceHost::SetServiceDiscoverable","SetServiceDiscoverable","SetServiceDiscoverable method","SetServiceDiscoverable method","IWSDDeviceHost interface","ncd.iwsddevicehost_setservicediscoverable","wsdhost/IWSDDeviceHost::SetServiceDiscoverable"]
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
-f1_keywords:
-- wsdhost/IWSDDeviceHost.SetServiceDiscoverable
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.SetServiceDiscoverable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::SetServiceDiscoverable
+ - wsdhost/IWSDDeviceHost::SetServiceDiscoverable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.SetServiceDiscoverable
 ---
 
 # IWSDDeviceHost::SetServiceDiscoverable
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls whether or not the service is advertised
     using WS-Discovery.
 
-
 ## -parameters
-
-
-
 
 ### -param pszServiceId [in]
 
 The ID for the service.
-
 
 ### -param fDiscoverable [in]
 
 <b>TRUE</b> if the service can be found
     using WS-Discovery, <b>FALSE</b> if the service is not visible to WS-Discovery.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,18 +101,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

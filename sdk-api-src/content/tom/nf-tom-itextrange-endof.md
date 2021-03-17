@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.EndOf
 title: ITextRange::EndOf (tom.h)
 description: Moves this range's ends to the end of the last overlapping Unit in the range.
+helpviewer_keywords: ["EndOf","EndOf method [Windows Controls]","EndOf method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","EndOf method","ITextRange.EndOf","ITextRange::EndOf","_win32_ITextRange_EndOf","_win32_ITextRange_EndOf_cpp","controls.ITextRange_EndOf","controls._win32_ITextRange_EndOf","tom/ITextRange::EndOf"]
 old-location: controls\ITextRange_EndOf.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
 ms.date: 12/05/2018
 ms.keywords: EndOf, EndOf method [Windows Controls], EndOf method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],EndOf method, ITextRange.EndOf, ITextRange::EndOf, _win32_ITextRange_EndOf, _win32_ITextRange_EndOf_cpp, controls.ITextRange_EndOf, controls._win32_ITextRange_EndOf, tom/ITextRange::EndOf
-f1_keywords:
-- tom/ITextRange.EndOf
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.EndOf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::EndOf
+ - tom/ITextRange::EndOf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.EndOf
 ---
 
 # ITextRange::EndOf
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Moves this range's ends to the end of the last overlapping <i>Unit</i> in the range. 
-
+Moves this range's ends to the end of the last overlapping <i>Unit</i> in the range.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
 Type: <b>long</b>
 
-Unit to use. Default value: <i>tomWord</i>. For a list of the other <i>Unit</i> values, see the discussion under <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>. 
-
+Unit to use. Default value: <i>tomWord</i>. For a list of the other <i>Unit</i> values, see the discussion under <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param Extend
 
@@ -81,8 +77,6 @@ Indicator of how the shifting of the range ends is to proceed. It can be one of 
 <td>Moves End to the end of the overlapping <i>Unit</i>. Does not move Start.</td>
 </tr>
 </table>
- 
-
 
 ### -param pDelta
 
@@ -94,16 +88,13 @@ The count of characters that End is moved past. The value of the pointer can be 
 					<i>Extend</i> = tomMove, then
 					<i>pDelta</i> is set to 
 					–1, to indicate that the collapse occurred 
-					<i>before</i> the end of the range (because an insertion point cannot exist beyond the final CR). 
-
+					<i>before</i> the end of the range (because an insertion point cannot exist beyond the final CR).
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -133,38 +124,26 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For comparison, the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">ITextRange::StartOf</a> method moves the range ends to the beginning of the first overlapping <i>Unit</i> in the range. Note, the <b>ITextRange::StartOf</b> and <b>ITextRange::EndOf</b> methods differ from the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from Start and <b>ITextRange::EndOf</b> extends from End. If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::EndOf</b> does not change End. In particular, calling <b>ITextRange::EndOf</b> (<i>tomCharacter</i>, *, *) does not change End except for an insertion point at the beginning of a story.
-
-
-
+For comparison, the <a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">ITextRange::StartOf</a> method moves the range ends to the beginning of the first overlapping <i>Unit</i> in the range. Note, the <b>ITextRange::StartOf</b> and <b>ITextRange::EndOf</b> methods differ from the <a href="/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from Start and <b>ITextRange::EndOf</b> extends from End. If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::EndOf</b> does not change End. In particular, calling <b>ITextRange::EndOf</b> (<i>tomCharacter</i>, *, *) does not change End except for an insertion point at the beginning of a story.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -172,12 +151,8 @@ For comparison, the <a href="https://docs.microsoft.com/windows/desktop/api/tom/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-startof">StartOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

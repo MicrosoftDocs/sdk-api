@@ -2,15 +2,12 @@
 UID: NF:winsxs.IAssemblyName.Clone
 title: IAssemblyName::Clone (winsxs.h)
 description: The Clone method copies the current side-by-side assembly name to a new instance of IAssemblyName.
+helpviewer_keywords: ["Clone","Clone method [Side-by-side Assemblies]","Clone method [Side-by-side Assemblies]","IAssemblyName interface","IAssemblyName interface [Side-by-side Assemblies]","Clone method","IAssemblyName.Clone","IAssemblyName::Clone","setup.iassemblyname_clone","winsxs/IAssemblyName::Clone"]
 old-location: setup\iassemblyname_clone.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 5096b7de-e53d-49fa-bb43-16d768787b4e
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Side-by-side Assemblies], Clone method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],Clone method, IAssemblyName.Clone, IAssemblyName::Clone, setup.iassemblyname_clone, winsxs/IAssemblyName::Clone
-f1_keywords:
-- winsxs/IAssemblyName.Clone
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyName.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyName::Clone
+ - winsxs/IAssemblyName::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyName.Clone
 ---
 
 # IAssemblyName::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
-
+The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 ## -parameters
 
-
-
-
 ### -param pName [out]
 
-Pointer to the location that contains the pointer to the new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
-
+Pointer to the location that contains the pointer to the new instance of <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,18 +90,7 @@ The method did not succeed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>

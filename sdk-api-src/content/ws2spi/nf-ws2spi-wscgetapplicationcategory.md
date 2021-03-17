@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCGetApplicationCategory
 title: WSCGetApplicationCategory function (ws2spi.h)
 description: Retrieves the layered service provider (LSP) categories associated with an application.
+helpviewer_keywords: ["WSCGetApplicationCategory","WSCGetApplicationCategory function [Winsock]","winsock.wscgetapplicationcategory","ws2spi/WSCGetApplicationCategory"]
 old-location: winsock\wscgetapplicationcategory.htm
 tech.root: WinSock
 ms.assetid: c4e149ce-dff9-401a-8488-23676992c04d
 ms.date: 12/05/2018
 ms.keywords: WSCGetApplicationCategory, WSCGetApplicationCategory function [Winsock], winsock.wscgetapplicationcategory, ws2spi/WSCGetApplicationCategory
-f1_keywords:
-- ws2spi/WSCGetApplicationCategory
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCGetApplicationCategory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCGetApplicationCategory
+ - ws2spi/WSCGetApplicationCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCGetApplicationCategory
 ---
 
 # WSCGetApplicationCategory function
@@ -48,49 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSCGetApplicationCategory** function retrieves the layered service provider (LSP) categories associated with an application.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
-A pointer to a Unicode string that contains the load path to the executable image for the application. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). 
-
+A pointer to a Unicode string that contains the load path to the executable image for the application. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>).
 
 ### -param PathLength [in]
 
 The length, in characters, of the <i>Path</i> parameter. This length does not include the terminating **NULL**.
 
-
 ### -param Extra [in]
 
 A pointer to a Unicode string which represents the command line arguments used when starting the application specified in the <i>Path</i> parameter. The <i>Extra</i> parameter is used to distinguish between multiple, distinct instances of an application when launched with a consistent command line.  This is to support different application categorizations for different instances of Svchost.exe or Rundll32.exe. If only the <i>Path</i> parameter is required and no command line arguments are needed to further distinguish between instances of an application, then the <i>Extra</i> parameter should be set to **NULL**.
-
 
 ### -param ExtraLength [in]
 
 The length, in characters, of the <i>Extra</i> parameter. This length does not include the terminating **NULL**.
 
-
 ### -param pPermittedLspCategories [out]
 
 A pointer to a DWORD value of permitted LSP categories which are permitted for all instances of this application. The application is identified by the combination of the values of the <i>Path</i> and <i>Extra</i> parameters.
-
 
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, **WSCGetApplicationCategory** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
@@ -147,14 +136,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCGetApplicationCategory** is used to retrieve the LSP category flags associated with an application instance. Applications can determine which LSP behaviors are acceptable within the application's context.  Therefore, by specifying permitted LSP categories, an application can permit only those layered service providers  which implement acceptable behaviors to be loaded. 
 
@@ -231,13 +214,7 @@ An LSP may belong to more than one category.  For example, a firewall/security L
 
 If an LSP does not have a category set, it is considered to be in the All Other category. This LSP category will not be loaded in services or system processes (for example, lsass, winlogon, and many svchost processes).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
 
@@ -264,7 +241,4 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
- 
-
- 
 

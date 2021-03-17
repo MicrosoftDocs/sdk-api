@@ -2,12 +2,10 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS4
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS4
 description: Indicates the level of support for 64KB-aligned MSAA textures, cross-API sharing, and native 16-bit shader operations.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS4"]
+tech.root: direct3d12
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS4
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS4
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -24,19 +22,24 @@ req.target-type:
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS4
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D12_FEATURE_DATA_D3D12_OPTIONS4
+ - d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS4
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_FEATURE_DATA_D3D12_OPTIONS4
+ - D3D12_FEATURE_DATA_D3D12_OPTIONS4
 ---
 
 ## -description
 
-Indicates the level of support for 64KB-aligned MSAA textures, cross-API sharing, and native 16-bit shader operations. 
+Indicates the level of support for 64KB-aligned MSAA textures, cross-API sharing, and native 16-bit shader operations.
 
 ## -struct-fields
 
@@ -61,3 +64,4 @@ Indicates native 16-bit shader operations are supported. These operations requir
 ## -remarks
 
 ## -see-also
+

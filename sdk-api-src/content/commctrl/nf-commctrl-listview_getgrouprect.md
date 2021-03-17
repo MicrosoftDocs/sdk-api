@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetGroupRect
 title: ListView_GetGroupRect macro (commctrl.h)
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
+helpviewer_keywords: ["LVGGR_GROUP","LVGGR_HEADER","LVGGR_LABEL","LVGGR_SUBSETLINK","ListView_GetGroupRect","ListView_GetGroupRect macro [Windows Controls]","_shell_ListView_GetGroupRect","_shell_ListView_GetGroupRect_cpp","commctrl/ListView_GetGroupRect","controls.ListView_GetGroupRect","controls._shell_ListView_GetGroupRect"]
 old-location: controls\ListView_GetGroupRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
 ms.date: 12/05/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
-f1_keywords:
-- commctrl/ListView_GetGroupRect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetGroupRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetGroupRect
+ - commctrl/ListView_GetGroupRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetGroupRect
 ---
 
 # ListView_GetGroupRect macro
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the rectangle for a specified group. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getgrouprect">LVM_GETGROUPRECT</a> message explicitly.
-
+Gets the rectangle for a specified group. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getgrouprect">LVM_GETGROUPRECT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-
 
 ### -param iGroupId [in]
 
 Type: <b>int</b>
 
-Specifies the group by <b>iGroupId</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
-
+Specifies the group by <b>iGroupId</b> (see <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a> structure).
 
 ### -param type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the type of rectangle to retrieve. This parameter must be one of the following values. 
 
@@ -118,18 +113,14 @@ Specifies the type of rectangle to retrieve. This parameter must be one of the f
 </dl>
 </td>
 <td width="60%">
- Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
+ Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group.  A link is presented to the user to allow the user to expand the group.  This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS_SUBSETED, see structure <a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>, member <b>state</b>). This flag is provided so that accessibility applications can locate the link.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param prc [in, out]
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to receive information on the group specified by <i>iGroupId</i>. The message receiver is responsible for setting the structure members with information for the group specified by <i>iGroupId</i>. The calling application is responsible for allocating memory for the structure. 
-
-
+A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure to receive information on the group specified by <i>iGroupId</i>. The message receiver is responsible for setting the structure members with information for the group specified by <i>iGroupId</i>. The calling application is responsible for allocating memory for the structure.

@@ -2,15 +2,12 @@
 UID: NC:webservices.WS_CLOSE_CHANNEL_CALLBACK
 title: WS_CLOSE_CHANNEL_CALLBACK (webservices.h)
 description: Handles the WsCloseChannel call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_CLOSE_CHANNEL_CALLBACK","WS_CLOSE_CHANNEL_CALLBACK callback","WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_CLOSE_CHANNEL_CALLBACK","wsw.ws_close_channel_callback"]
 old-location: wsw\ws_close_channel_callback.htm
 tech.root: wsw
 ms.assetid: 363ac4e0-5cfe-4c12-ad06-027ec2b735e6
 ms.date: 12/05/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
-f1_keywords:
-- webservices/WS_CLOSE_CHANNEL_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_CLOSE_CHANNEL_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_CLOSE_CHANNEL_CALLBACK
+ - webservices/WS_CLOSE_CHANNEL_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_CLOSE_CHANNEL_CALLBACK
 ---
 
 # WS_CLOSE_CHANNEL_CALLBACK callback function
@@ -48,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> call
-                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
-            
-
+Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> call
+                for a <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 ## -parameters
 
-
-
-
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 The pointer to the state specific to this channel instance,
-                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
-                
+                    as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
-
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
 
-
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -106,7 +94,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The close was aborted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> as it was closing.
+The close was aborted by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> as it was closing.
                 
 
 </td>
@@ -234,18 +222,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> for information about the contract
+See <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> for information about the contract
                 of this API.
-            
-
-
-

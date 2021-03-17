@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFQualityManager.NotifyTopology
 title: IMFQualityManager::NotifyTopology (mfidl.h)
 description: Called when the Media Session is about to start playing a new topology.
+helpviewer_keywords: ["5ff6d923-4a83-401a-a0de-0b1a732c31a5","IMFQualityManager interface [Media Foundation]","NotifyTopology method","IMFQualityManager.NotifyTopology","IMFQualityManager::NotifyTopology","NotifyTopology","NotifyTopology method [Media Foundation]","NotifyTopology method [Media Foundation]","IMFQualityManager interface","mf.imfqualitymanager_notifytopology","mfidl/IMFQualityManager::NotifyTopology"]
 old-location: mf\imfqualitymanager_notifytopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5ff6d923-4a83-401a-a0de-0b1a732c31a5
 ms.date: 12/05/2018
 ms.keywords: 5ff6d923-4a83-401a-a0de-0b1a732c31a5, IMFQualityManager interface [Media Foundation],NotifyTopology method, IMFQualityManager.NotifyTopology, IMFQualityManager::NotifyTopology, NotifyTopology, NotifyTopology method [Media Foundation], NotifyTopology method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifytopology, mfidl/IMFQualityManager::NotifyTopology
-f1_keywords:
-- mfidl/IMFQualityManager.NotifyTopology
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFQualityManager.NotifyTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityManager::NotifyTopology
+ - mfidl/IMFQualityManager::NotifyTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFQualityManager.NotifyTopology
 ---
 
 # IMFQualityManager::NotifyTopology
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Called when the Media Session is about to start playing a new topology.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pTopology [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the new topology. If this parameter is <b>NULL</b>, the quality manager should release any references to the previous topology.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the new topology. If this parameter is <b>NULL</b>, the quality manager should release any references to the previous topology.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In a typical quality manager this method does the following:
 
@@ -106,26 +91,16 @@ Enumerates the nodes in the topology.
 
 </li>
 <li>
-Calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject">IMFTopologyNode::GetObject</a> to get the node's underlying object.
+Calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getobject">IMFTopologyNode::GetObject</a> to get the node's underlying object.
 
 </li>
 <li>
-Queries for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> interface.
+Queries for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> interface.
 
 </li>
 </ol>
-The quality manager can then use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> pointers to adjust audio-video quality as needed.
-
-
-
+The quality manager can then use the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a> pointers to adjust audio-video quality as needed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>

@@ -2,15 +2,12 @@
 UID: NF:iwstdec.IAMWstDecoder.GetDrawBackgroundMode
 title: IAMWstDecoder::GetDrawBackgroundMode (iwstdec.h)
 description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.
+helpviewer_keywords: ["GetDrawBackgroundMode","GetDrawBackgroundMode method [DirectShow]","GetDrawBackgroundMode method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetDrawBackgroundMode method","IAMWstDecoder.GetDrawBackgroundMode","IAMWstDecoder::GetDrawBackgroundMode","IAMWstDecoderGetDrawBackgroundMode","dshow.iamwstdecoder_getdrawbackgroundmode","iwstdec/IAMWstDecoder::GetDrawBackgroundMode"]
 old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725
 ms.date: 12/05/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
-f1_keywords:
-- iwstdec/IAMWstDecoder.GetDrawBackgroundMode
-dev_langs:
-- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMWstDecoder.GetDrawBackgroundMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWstDecoder::GetDrawBackgroundMode
+ - iwstdec/IAMWstDecoder::GetDrawBackgroundMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMWstDecoder.GetDrawBackgroundMode
 ---
 
 # IAMWstDecoder::GetDrawBackgroundMode
@@ -49,21 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Downstream filters use the <code>GetDrawBackgroundMode</code> method to determine whether the caption text background is opaque or transparent.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpMode [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
+Receives a member of the <a href="/previous-versions/windows/desktop/api/iwstdec/ne-iwstdec-am_wst_drawbgmode">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
 
 <table>
 <tr>
@@ -81,29 +75,15 @@ Receives a member of the <a href="https://docs.microsoft.com/previous-versions/w
 <td>Caption text background is transparent.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>

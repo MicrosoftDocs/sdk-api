@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFGetAttributesAsBlobSize
 title: MFGetAttributesAsBlobSize function (mfapi.h)
 description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.
+helpviewer_keywords: ["52abfe30-a18d-45f7-93db-13f87b0647b7","MFGetAttributesAsBlobSize","MFGetAttributesAsBlobSize function [Media Foundation]","mf.mfgetattributesasblobsize","mfapi/MFGetAttributesAsBlobSize"]
 old-location: mf\mfgetattributesasblobsize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
 ms.date: 12/05/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
-f1_keywords:
-- mfapi/MFGetAttributesAsBlobSize
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFGetAttributesAsBlobSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFGetAttributesAsBlobSize
+ - mfapi/MFGetAttributesAsBlobSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFGetAttributesAsBlobSize
 ---
 
 # MFGetAttributesAsBlobSize function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the size of the buffer needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
-
-
-
+Retrieves the size of the buffer needed for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 ## -parameters
 
-
-
-
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param pcbBufSize [out]
 
 Receives the required size of the array, in bytes.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,31 +83,15 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use this function to find the size of the array that is needed for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
-
-
-
+Use this function to find the size of the array that is needed for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesasblob">MFGetAttributesAsBlob</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

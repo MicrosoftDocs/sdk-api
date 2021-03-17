@@ -2,15 +2,12 @@
 UID: NF:mmc.IToolbar.DeleteButton
 title: IToolbar::DeleteButton (mmc.h)
 description: Enables a snap-in to remove a specified toolbar button.
+helpviewer_keywords: ["DeleteButton","DeleteButton method [MMC]","DeleteButton method [MMC]","IToolbar interface","IToolbar interface [MMC]","DeleteButton method","IToolbar.DeleteButton","IToolbar::DeleteButton","_slate_itoolbar_deletebutton","mmc.itoolbar_deletebutton","mmc/IToolbar::DeleteButton"]
 old-location: mmc\itoolbar_deletebutton.htm
 tech.root: mmc
 ms.assetid: c893b3a6-a0f8-42ce-bf82-2e45f6458500
 ms.date: 12/05/2018
 ms.keywords: DeleteButton, DeleteButton method [MMC], DeleteButton method [MMC],IToolbar interface, IToolbar interface [MMC],DeleteButton method, IToolbar.DeleteButton, IToolbar::DeleteButton, _slate_itoolbar_deletebutton, mmc.itoolbar_deletebutton, mmc/IToolbar::DeleteButton
-f1_keywords:
-- mmc/IToolbar.DeleteButton
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IToolbar.DeleteButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToolbar::DeleteButton
+ - mmc/IToolbar::DeleteButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IToolbar.DeleteButton
 ---
 
 # IToolbar::DeleteButton
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IToolbar::DeleteButton</b> method enables a snap-in to remove a specified toolbar button.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
 An index of the button to be removed from the toolbar.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

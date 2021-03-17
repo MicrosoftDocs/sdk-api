@@ -2,15 +2,12 @@
 UID: NF:mmc.IExtendTaskPad.GetDescriptiveText
 title: IExtendTaskPad::GetDescriptiveText (mmc.h)
 description: The IExtendTaskPad::GetDescriptiveText method enables MMC to get the taskpad's descriptive text to display in taskpads that use MMC taskpad templates.
+helpviewer_keywords: ["GetDescriptiveText","GetDescriptiveText method [MMC]","GetDescriptiveText method [MMC]","IExtendTaskPad interface","IExtendTaskPad interface [MMC]","GetDescriptiveText method","IExtendTaskPad.GetDescriptiveText","IExtendTaskPad::GetDescriptiveText","_slate_iextendtaskpad_getdescriptivetext","mmc.iextendtaskpad_getdescriptivetext","mmc/IExtendTaskPad::GetDescriptiveText"]
 old-location: mmc\iextendtaskpad_getdescriptivetext.htm
 tech.root: mmc
 ms.assetid: e8d02b4e-703f-42fe-a55c-cc5cf84e8f74
 ms.date: 12/05/2018
 ms.keywords: GetDescriptiveText, GetDescriptiveText method [MMC], GetDescriptiveText method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetDescriptiveText method, IExtendTaskPad.GetDescriptiveText, IExtendTaskPad::GetDescriptiveText, _slate_iextendtaskpad_getdescriptivetext, mmc.iextendtaskpad_getdescriptivetext, mmc/IExtendTaskPad::GetDescriptiveText
-f1_keywords:
-- mmc/IExtendTaskPad.GetDescriptiveText
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IExtendTaskPad.GetDescriptiveText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExtendTaskPad::GetDescriptiveText
+ - mmc/IExtendTaskPad::GetDescriptiveText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IExtendTaskPad.GetDescriptiveText
 ---
 
 # IExtendTaskPad::GetDescriptiveText
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IExtendTaskPad::GetDescriptiveText</b> method enables MMC to get the taskpad's descriptive text to display in taskpads that use MMC taskpad templates.
 
-
 ## -parameters
-
-
-
 
 ### -param pszGroup [in]
 
 A pointer to a null-terminated string that contains the group name that identifies the taskpad. The group name is the string that follows the hash (#) in the string passed in the ppViewType parameter when MMC calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szGroup is a <b>NULL</b> string.
-
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> to display the taskpad. If no group name is specified, szGroup is a <b>NULL</b> string.
 
 ### -param pszDescriptiveText [out]
 
@@ -69,33 +65,15 @@ A pointer to the address of a null-terminated string that contains the descripti
 
 If pszDescriptiveText points to a <b>NULL</b> string, no descriptive text is displayed.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
 
-
-
 Allocate the pszDescriptiveText string with the COM API function 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
-
-
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>

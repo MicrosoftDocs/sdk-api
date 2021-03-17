@@ -2,15 +2,12 @@
 UID: NS:iketypes.IKEEXT_CERT_ROOT_CONFIG0_
 title: IKEEXT_CERT_ROOT_CONFIG0 (iketypes.h)
 description: Stores the IKE, AuthIP, or IKEv2 certificate root configuration.
+helpviewer_keywords: ["IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD","IKEEXT_CERT_FLAG_ENABLE_ACCOUNT_MAPPING","IKEEXT_CERT_FLAG_FOLLOW_RENEWAL_CERTIFICATE","IKEEXT_CERT_FLAG_IGNORE_INIT_CERT_MAP_FAILURE","IKEEXT_CERT_FLAG_INTERMEDIATE_CA","IKEEXT_CERT_FLAG_PREFER_NAP_CERTIFICATE_OUTBOUND","IKEEXT_CERT_FLAG_SELECT_NAP_CERTIFICATE","IKEEXT_CERT_FLAG_USE_NAP_CERTIFICATE","IKEEXT_CERT_FLAG_VERIFY_NAP_CERTIFICATE","IKEEXT_CERT_ROOT_CONFIG0","IKEEXT_CERT_ROOT_CONFIG0 structure [Filtering]","fwp.ikeext_cert_root_config0","iketypes/IKEEXT_CERT_ROOT_CONFIG0"]
 old-location: fwp\ikeext_cert_root_config0.htm
 tech.root: fwp
 ms.assetid: 820da66b-670e-490e-bba4-c2b0afb6dfd1
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD, IKEEXT_CERT_FLAG_ENABLE_ACCOUNT_MAPPING, IKEEXT_CERT_FLAG_FOLLOW_RENEWAL_CERTIFICATE, IKEEXT_CERT_FLAG_IGNORE_INIT_CERT_MAP_FAILURE, IKEEXT_CERT_FLAG_INTERMEDIATE_CA, IKEEXT_CERT_FLAG_PREFER_NAP_CERTIFICATE_OUTBOUND, IKEEXT_CERT_FLAG_SELECT_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_USE_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_VERIFY_NAP_CERTIFICATE, IKEEXT_CERT_ROOT_CONFIG0, IKEEXT_CERT_ROOT_CONFIG0 structure [Filtering], fwp.ikeext_cert_root_config0, iketypes/IKEEXT_CERT_ROOT_CONFIG0
-f1_keywords:
-- iketypes/IKEEXT_CERT_ROOT_CONFIG0
-dev_langs:
-- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iketypes.h
-api_name:
-- IKEEXT_CERT_ROOT_CONFIG0
 targetos: Windows
 req.typenames: IKEEXT_CERT_ROOT_CONFIG0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKEEXT_CERT_ROOT_CONFIG0_
+ - iketypes/IKEEXT_CERT_ROOT_CONFIG0_
+ - IKEEXT_CERT_ROOT_CONFIG0
+ - iketypes/IKEEXT_CERT_ROOT_CONFIG0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iketypes.h
+api_name:
+ - IKEEXT_CERT_ROOT_CONFIG0
 ---
 
 # IKEEXT_CERT_ROOT_CONFIG0 structure
@@ -48,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IKEEXT_CERT_ROOT_CONFIG0</b> structure stores the IKE, AuthIP, or IKEv2 certificate root configuration.
 
-
 ## -struct-fields
-
-
-
 
 ### -field certData
 
 X509/ASN.1 encoded name of the certificate root.
 
-See [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> for more information.
-
+See [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) for more information.
 
 ### -field flags
 
@@ -178,29 +176,15 @@ Available only on Windows 8 and Windows Server 2012.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-<b>IKEEXT_CERT_ROOT_CONFIG0</b> is a specific implementation of IKEEXT_CERT_ROOT_CONFIG. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>IKEEXT_CERT_ROOT_CONFIG0</b> is a specific implementation of IKEEXT_CERT_ROOT_CONFIG. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

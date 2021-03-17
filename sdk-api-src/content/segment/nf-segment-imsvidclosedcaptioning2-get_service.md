@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidClosedCaptioning2.get_Service
 title: IMSVidClosedCaptioning2::get_Service (segment.h)
 description: The get_Service method retrieves the current closed captioning service.
+helpviewer_keywords: ["IMSVidClosedCaptioning2 interface [Microsoft TV Technologies]","get_Service method","IMSVidClosedCaptioning2.get_Service","IMSVidClosedCaptioning2::get_Service","IMSVidClosedCaptioning2get_Service","get_Service","get_Service method [Microsoft TV Technologies]","get_Service method [Microsoft TV Technologies]","IMSVidClosedCaptioning2 interface","mstv.imsvidclosedcaptioning2_get_service","segment/IMSVidClosedCaptioning2::get_Service"]
 old-location: mstv\imsvidclosedcaptioning2_get_service.htm
 tech.root: mstv
 ms.assetid: 165e5c75-3ce1-4b37-b577-5aea4af65019
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],get_Service method, IMSVidClosedCaptioning2.get_Service, IMSVidClosedCaptioning2::get_Service, IMSVidClosedCaptioning2get_Service, get_Service, get_Service method [Microsoft TV Technologies], get_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, mstv.imsvidclosedcaptioning2_get_service, segment/IMSVidClosedCaptioning2::get_Service
-f1_keywords:
-- segment/IMSVidClosedCaptioning2.get_Service
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidClosedCaptioning2.get_Service
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidClosedCaptioning2::get_Service
+ - segment/IMSVidClosedCaptioning2::get_Service
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidClosedCaptioning2.get_Service
 ---
 
 # IMSVidClosedCaptioning2::get_Service
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Service</b> method retrieves the current closed captioning service.
-
 
 ## -parameters
 
-
-
-
 ### -param On [out]
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-msvidccservice">MSVidCCService</a> enumeration.
-
+Pointer to a variable that receives a member of the <a href="/windows/desktop/api/segment/ne-segment-msvidccservice">MSVidCCService</a> enumeration.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,18 +90,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>

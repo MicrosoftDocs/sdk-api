@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.GetWindowPosition
 title: IVideoWindow::GetWindowPosition (control.h)
 description: The GetWindowPosition method retrieves the position of the video window.
+helpviewer_keywords: ["GetWindowPosition","GetWindowPosition method [DirectShow]","GetWindowPosition method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetWindowPosition method","IVideoWindow.GetWindowPosition","IVideoWindow::GetWindowPosition","IVideoWindowGetWindowPosition","control/IVideoWindow::GetWindowPosition","dshow.ivideowindow_getwindowposition"]
 old-location: dshow\ivideowindow_getwindowposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: df55c10d-aec1-42f3-8bfb-207ae8804e72
 ms.date: 12/05/2018
 ms.keywords: GetWindowPosition, GetWindowPosition method [DirectShow], GetWindowPosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetWindowPosition method, IVideoWindow.GetWindowPosition, IVideoWindow::GetWindowPosition, IVideoWindowGetWindowPosition, control/IVideoWindow::GetWindowPosition, dshow.ivideowindow_getwindowposition
-f1_keywords:
-- control/IVideoWindow.GetWindowPosition
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.GetWindowPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::GetWindowPosition
+ - control/IVideoWindow::GetWindowPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.GetWindowPosition
 ---
 
 # IVideoWindow::GetWindowPosition
@@ -49,43 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetWindowPosition</code> method retrieves the position of the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pLeft [out]
 
 Receives the x-coordinate, in pixels.
 
-
 ### -param pTop [out]
 
 Receives the y-coordinate, in pixels.
 
-
 ### -param pWidth [out]
 
 Receives the width of the window, in pixels.
-          
-
 
 ### -param pHeight [out]
 
 Receives the height of the window, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -128,35 +114,19 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method has the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_left">IVideoWindow::get_Left</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_top">IVideoWindow::get_Top</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_width">IVideoWindow::get_Width</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_height">IVideoWindow::get_Height</a> methods.
-
-
-
+This method has the same effect as calling the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_left">IVideoWindow::get_Left</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_top">IVideoWindow::get_Top</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_width">IVideoWindow::get_Width</a>, and <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_height">IVideoWindow::get_Height</a> methods.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-setwindowposition">IVideoWindow::SetWindowPosition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-setwindowposition">IVideoWindow::SetWindowPosition</a>

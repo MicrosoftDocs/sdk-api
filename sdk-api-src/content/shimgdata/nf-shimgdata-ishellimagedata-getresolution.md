@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.GetResolution
 title: IShellImageData::GetResolution (shimgdata.h)
 description: Gets the resolution, in dots per inch (dpi), of the image.
+helpviewer_keywords: ["GetResolution","GetResolution method [Windows Shell]","GetResolution method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetResolution method","IShellImageData.GetResolution","IShellImageData::GetResolution","_shell_IShellImageData_GetResolution","shell.IShellImageData_GetResolution","shimgdata/IShellImageData::GetResolution"]
 old-location: shell\IShellImageData_GetResolution.htm
 tech.root: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8
 ms.date: 12/05/2018
 ms.keywords: GetResolution, GetResolution method [Windows Shell], GetResolution method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetResolution method, IShellImageData.GetResolution, IShellImageData::GetResolution, _shell_IShellImageData_GetResolution, shell.IShellImageData_GetResolution, shimgdata/IShellImageData::GetResolution
-f1_keywords:
-- shimgdata/IShellImageData.GetResolution
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.GetResolution
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::GetResolution
+ - shimgdata/IShellImageData::GetResolution
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.GetResolution
 ---
 
 # IShellImageData::GetResolution
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the resolution, in dots per inch (dpi), of the image.
 
-
 ## -parameters
-
-
-
 
 ### -param puResolutionX [out]
 
@@ -63,17 +60,13 @@ Type: <b>ULONG*</b>
 
 A pointer to the horizontal resolution.
 
-
 ### -param puResolutionY [out]
 
 Type: <b>ULONG*</b>
 
 A pointer to the vertical resolution.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,16 +100,8 @@ Both <i>puResolutionX</i> and <i>puResolutionY</i> are <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If either <i>puResolutionX</i> or <i>puResolutionY</i> are <b>NULL</b>, the method returns only the value for the non-null parameter.
-
-
 

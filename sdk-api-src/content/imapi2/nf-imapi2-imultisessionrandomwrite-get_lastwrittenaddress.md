@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionRandomWrite.get_LastWrittenAddress
 title: IMultisessionRandomWrite::get_LastWrittenAddress (imapi2.h)
 description: Retrieves the last written address on the media.
+helpviewer_keywords: ["IMultisessionRandomWrite interface [IMAPI]","get_LastWrittenAddress method","IMultisessionRandomWrite.get_LastWrittenAddress","IMultisessionRandomWrite::get_LastWrittenAddress","get_LastWrittenAddress","get_LastWrittenAddress method [IMAPI]","get_LastWrittenAddress method [IMAPI]","IMultisessionRandomWrite interface","imapi.imultisessionrandomwrite_get_lastwrittenaddress","imapi2/IMultisessionRandomWrite::get_LastWrittenAddress"]
 old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm
 tech.root: imapi
 ms.assetid: 04d5c8ad-347c-4f2d-aa3d-3db77067a51e
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_LastWrittenAddress method, IMultisessionRandomWrite.get_LastWrittenAddress, IMultisessionRandomWrite::get_LastWrittenAddress, get_LastWrittenAddress, get_LastWrittenAddress method [IMAPI], get_LastWrittenAddress method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_lastwrittenaddress, imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
-f1_keywords:
-- imapi2/IMultisessionRandomWrite.get_LastWrittenAddress
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionRandomWrite.get_LastWrittenAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionRandomWrite::get_LastWrittenAddress
+ - imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionRandomWrite.get_LastWrittenAddress
 ---
 
 # IMultisessionRandomWrite::get_LastWrittenAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the last written address on the media.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 The last written address on the media.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -368,27 +362,11 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This property can be used for wear-out leveling on the media. The property is retrieved from the drive and may not be provided for some media types. If the drive does not provide the required information, this property access method returns <b>E_NOTIMPL</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>

@@ -2,15 +2,12 @@
 UID: NS:winnt._TAPE_ERASE
 title: TAPE_ERASE (winnt.h)
 description: Describes the partition to be erased.
+helpviewer_keywords: ["*PTAPE_ERASE","PTAPE_ERASE","PTAPE_ERASE structure pointer [Backup]","TAPE_ERASE","TAPE_ERASE structure [Backup]","TAPE_ERASE_LONG","TAPE_ERASE_SHORT","_TAPE_ERASE","_win32_tape_erase_str","backup.tape_erase_str","winnt/PTAPE_ERASE","winnt/TAPE_ERASE"]
 old-location: backup\tape_erase_str.htm
 tech.root: Backup
 ms.assetid: 6b621635-7499-4819-95d8-bce17ef11146
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_ERASE, PTAPE_ERASE, PTAPE_ERASE structure pointer [Backup], TAPE_ERASE, TAPE_ERASE structure [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _TAPE_ERASE, _win32_tape_erase_str, backup.tape_erase_str, winnt/PTAPE_ERASE, winnt/TAPE_ERASE'
-f1_keywords:
-- winnt/TAPE_ERASE
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TAPE_ERASE
 targetos: Windows
 req.typenames: TAPE_ERASE, *PTAPE_ERASE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TAPE_ERASE
+ - winnt/_TAPE_ERASE
+ - PTAPE_ERASE
+ - winnt/PTAPE_ERASE
+ - TAPE_ERASE
+ - winnt/TAPE_ERASE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TAPE_ERASE
 ---
 
 # TAPE_ERASE structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TAPE_ERASE</b> structure describes the partition to be erased.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -92,8 +93,6 @@ Erases only the partition's header block.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Immediate
 

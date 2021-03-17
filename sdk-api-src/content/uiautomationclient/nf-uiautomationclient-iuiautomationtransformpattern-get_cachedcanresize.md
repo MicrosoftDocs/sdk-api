@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanResize
 title: IUIAutomationTransformPattern::get_CachedCanResize (uiautomationclient.h)
 description: Retrieves a cached value that indicates whether the element can be resized.
+helpviewer_keywords: ["CachedCanResize property [Windows Accessibility]","CachedCanResize property [Windows Accessibility]","IUIAutomationTransformPattern interface","IUIAutomationTransformPattern interface [Windows Accessibility]","CachedCanResize property","IUIAutomationTransformPattern.CachedCanResize","IUIAutomationTransformPattern.get_CachedCanResize","IUIAutomationTransformPattern::CachedCanResize","IUIAutomationTransformPattern::get_CachedCanResize","get_CachedCanResize","uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize","uiauto_IUIAutomationTransformPattern_CachedCanResize","uiautomationclient/IUIAutomationTransformPattern::CachedCanResize","uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize","winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanResize.htm
 tech.root: WinAuto
 ms.assetid: 2059daae-af25-4226-9a4d-a63e75c9ad14
 ms.date: 12/05/2018
 ms.keywords: CachedCanResize property [Windows Accessibility], CachedCanResize property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanResize property, IUIAutomationTransformPattern.CachedCanResize, IUIAutomationTransformPattern.get_CachedCanResize, IUIAutomationTransformPattern::CachedCanResize, IUIAutomationTransformPattern::get_CachedCanResize, get_CachedCanResize, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanResize, uiauto_IUIAutomationTransformPattern_CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::CachedCanResize, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize, winauto.uiauto_IUIAutomationTransformPattern_CachedCanResize
-f1_keywords:
-- uiautomationclient/IUIAutomationTransformPattern.CachedCanResize
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationTransformPattern.CachedCanResize
-- IUIAutomationTransformPattern.get_CachedCanResize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTransformPattern::get_CachedCanResize
+ - uiautomationclient/IUIAutomationTransformPattern::get_CachedCanResize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationTransformPattern.CachedCanResize
+ - IUIAutomationTransformPattern.get_CachedCanResize
 ---
 
 # IUIAutomationTransformPattern::get_CachedCanResize
@@ -49,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a cached value that indicates whether the element can be resized.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-resize">IUIAutomationTransformPattern::Resize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-resize">IUIAutomationTransformPattern::Resize</a>

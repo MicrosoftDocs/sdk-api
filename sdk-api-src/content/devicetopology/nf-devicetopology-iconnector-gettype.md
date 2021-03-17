@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IConnector.GetType
 title: IConnector::GetType (devicetopology.h)
 description: The GetType method gets the type of this connector.
+helpviewer_keywords: ["GetType","GetType method [Core Audio]","GetType method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetType method","IConnector.GetType","IConnector::GetType","IConnectorGetType","coreaudio.iconnector_gettype","devicetopology/IConnector::GetType"]
 old-location: coreaudio\iconnector_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 0e50d371-0a2e-4004-9225-4a9da7c3f139
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
-f1_keywords:
-- devicetopology/IConnector.GetType
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IConnector.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnector::GetType
+ - devicetopology/IConnector::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IConnector.GetType
 ---
 
 # IConnector::GetType
@@ -48,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetType</b> method gets the type of this connector.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pType [out]
 
-Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constants:
+Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType</a> enumeration constants:
 
 Unknown_Connector
 
@@ -76,10 +70,7 @@ Software_Fixed
 
 Network
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -100,14 +91,8 @@ Pointer <i>pType</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A connector corresponds to a "pin" in kernel streaming (KS) terminology. The mapping of KS pins to connectors is as follows:
 
@@ -119,18 +104,8 @@ A connector corresponds to a "pin" in kernel streaming (KS) terminology. The map
 </ul>
 For more information about KS pins, see the Windows DDK documentation.
 
-For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
+For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>

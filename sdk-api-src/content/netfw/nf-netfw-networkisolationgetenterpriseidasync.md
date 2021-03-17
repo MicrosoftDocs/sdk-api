@@ -2,15 +2,12 @@
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
 title: NetworkIsolationGetEnterpriseIdAsync function (netfw.h)
 description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
+helpviewer_keywords: ["NETISO_GEID_DEFAULT","NETISO_GEID_FORCE_TO_CHECK","NETISO_GEID_FOR_NEUTRAL_AWARE","NETISO_GEID_FOR_WDAG","NetworkIsolationGetEnterpriseIdAsync","NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF]","ics.networkisolationgetenterpriseidasync","netfw/NetworkIsolationGetEnterpriseIdAsync"]
 old-location: ics\networkisolationgetenterpriseidasync.htm
 tech.root: ics
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
 ms.date: 12/05/2018
 ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
-f1_keywords:
-- netfw/NetworkIsolationGetEnterpriseIdAsync
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Firewallapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- firewallapi.dll
-api_name:
-- NetworkIsolationGetEnterpriseIdAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetworkIsolationGetEnterpriseIdAsync
+ - netfw/NetworkIsolationGetEnterpriseIdAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - firewallapi.dll
+api_name:
+ - NetworkIsolationGetEnterpriseIdAsync
 ---
 
 # NetworkIsolationGetEnterpriseIdAsync function
@@ -48,19 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios. If neither WIP nor WDAG are on, the API returns NULL, unless the flag <b>NETISO_GEID_FORCE_TO_CHECK</b> is passed.  The Enterprise ID can be any string different from NULL or “*”.
 
+Example of NetworkIsolationGetEnterpriseIdAsync usage: https://github.com/microsoft/EnterpriseStateClassify
 
 ## -parameters
-
-
-
 
 ### -param wszServerName [in]
 
 The name of the Enterprise Data Protection Server.
-
 
 ### -param dwFlags [in]
 
@@ -123,29 +121,20 @@ Forces API to check the resource even in cases when neither Windows Information 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param context [in, optional]
 
-Optional context pointer. 
-
+Optional context pointer.
 
 ### -param callback [in]
 
 Function pointer that will be invoked when a notification is ready for delivery.
 
-
 ### -param hOperation [out]
 
 The handle for the Enterprise Data Protection Server endpoints.
 
-
 ## -returns
 
-
-
-Returns ERROR_SUCCESS if successful, or an error value otherwise. 
-
-
+Returns ERROR_SUCCESS if successful, or an error value otherwise.
 

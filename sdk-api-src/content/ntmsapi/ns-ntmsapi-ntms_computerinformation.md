@@ -2,15 +2,12 @@
 UID: NS:ntmsapi._NTMS_COMPUTERINFORMATION
 title: NTMS_COMPUTERINFORMATION (ntmsapi.h)
 description: The NTMS_COMPUTERINFORMATION structure defines the properties specific to the RSM server.
+helpviewer_keywords: ["NTMS_COMPUTERINFO","NTMS_COMPUTERINFO structure [Files]","NTMS_COMPUTERINFORMATION","NTMS_COMPUTERINFORMATION structure [Files]","NTMS_LIBREQFLAGS_NOAUTOPURGE","NTMS_LIBREQFLAGS_NOFAILEDPURGE","NTMS_OPREQFLAGS_NOALERTS","NTMS_OPREQFLAGS_NOAUTOPURGE","NTMS_OPREQFLAGS_NOFAILEDPURGE","NTMS_OPREQFLAGS_NOTRAYICON","NTMS_POOLPOLICY_KEEPOFFLINEIMPORT","NTMS_POOLPOLICY_PURGEOFFLINESCRATCH","_zaw_ntms_computerinformation","base.ntms_computerinformation","fs.ntms_computerinformation","ntmsapi/NTMS_COMPUTERINFORMATION"]
 old-location: fs\ntms_computerinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 11dd71eb-7193-40d5-b193-4d529eec3ca7
 ms.date: 12/05/2018
 ms.keywords: NTMS_COMPUTERINFO, NTMS_COMPUTERINFO structure [Files], NTMS_COMPUTERINFORMATION, NTMS_COMPUTERINFORMATION structure [Files], NTMS_LIBREQFLAGS_NOAUTOPURGE, NTMS_LIBREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOALERTS, NTMS_OPREQFLAGS_NOAUTOPURGE, NTMS_OPREQFLAGS_NOFAILEDPURGE, NTMS_OPREQFLAGS_NOTRAYICON, NTMS_POOLPOLICY_KEEPOFFLINEIMPORT, NTMS_POOLPOLICY_PURGEOFFLINESCRATCH, _zaw_ntms_computerinformation, base.ntms_computerinformation, fs.ntms_computerinformation, ntmsapi/NTMS_COMPUTERINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_COMPUTERINFO
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_COMPUTERINFO
 targetos: Windows
 req.typenames: NTMS_COMPUTERINFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_COMPUTERINFORMATION
+ - ntmsapi/_NTMS_COMPUTERINFORMATION
+ - NTMS_COMPUTERINFORMATION
+ - ntmsapi/NTMS_COMPUTERINFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_COMPUTERINFO
 ---
 
 # NTMS_COMPUTERINFORMATION structure
@@ -48,27 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_COMPUTERINFORMATION</b> structure defines the properties specific to the RSM server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLibRequestPurgeTime
 
 Number of seconds completed library requests are maintained in the work queue.
 
-
 ### -field dwOpRequestPurgeTime
 
 Number of seconds that completed operator requests are maintained in the operator request queue.
-
 
 ### -field dwLibRequestFlags
 
@@ -102,8 +99,6 @@ Failed work items are not purged from the work queue. Set to <b>NULL</b> by defa
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOpRequestFlags
 
@@ -157,8 +152,6 @@ The taskbar icon for operator requests is disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwMediaPoolPolicy
 
@@ -192,27 +185,13 @@ Any Import media ejected is not deleted automatically. Set to <b>NULL</b> by def
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The 
 <b>NTMS_COMPUTERINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
-
-
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

@@ -2,15 +2,12 @@
 UID: NF:combaseapi.CoGetCallerTID
 title: CoGetCallerTID function (combaseapi.h)
 description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
+helpviewer_keywords: ["CoGetCallerTID","CoGetCallerTID function [COM]","_com_CoGetCallerTID","com.cogetcallertid","combaseapi/CoGetCallerTID"]
 old-location: com\cogetcallertid.htm
 tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
 ms.date: 12/05/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
-f1_keywords:
-- combaseapi/CoGetCallerTID
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoGetCallerTID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoGetCallerTID
+ - combaseapi/CoGetCallerTID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoGetCallerTID
 ---
 
 # CoGetCallerTID function
@@ -52,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a pointer to a <b>DWORD</b> that contains the apartment ID of the caller's thread.
 
-
 ## -parameters
-
-
-
 
 ### -param lpdwTID [out]
 
 Receives the apartment ID of the caller's thread. For a single threaded apartment (STA), this is the current thread ID. For a multithreaded apartment (MTA), the value is 0.  For a neutral apartment (NA), the value is -1.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -111,18 +105,10 @@ The caller's thread ID was not set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the caller is not running on the same computer, this function does not return the apartment ID and the return value is S_FALSE.
 
 There is no guarantee that the information returned from this API is not tampered with, so do not use the ID that is returned to make security decisions. The ID can only be used for logging and diagnostic purposes.
-
-
 

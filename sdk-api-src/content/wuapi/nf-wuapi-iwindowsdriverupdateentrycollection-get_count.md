@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Count
 title: IWindowsDriverUpdateEntryCollection::get_Count (wuapi.h)
 description: Gets the number of elements contained in the collection.
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IWindowsDriverUpdateEntryCollection interface","IWindowsDriverUpdateEntryCollection interface [Windows Update Agent]","Count property","IWindowsDriverUpdateEntryCollection.Count","IWindowsDriverUpdateEntryCollection.get_Count","IWindowsDriverUpdateEntryCollection::Count","IWindowsDriverUpdateEntryCollection::get_Count","get_Count","wua.iwindowsdriverupdateentrycollection_count","wuapi/IWindowsDriverUpdateEntryCollection::Count","wuapi/IWindowsDriverUpdateEntryCollection::get_Count"]
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Count property, IWindowsDriverUpdateEntryCollection.Count, IWindowsDriverUpdateEntryCollection.get_Count, IWindowsDriverUpdateEntryCollection::Count, IWindowsDriverUpdateEntryCollection::get_Count, get_Count, wua.iwindowsdriverupdateentrycollection_count, wuapi/IWindowsDriverUpdateEntryCollection::Count, wuapi/IWindowsDriverUpdateEntryCollection::get_Count
-f1_keywords:
-- wuapi/IWindowsDriverUpdateEntryCollection.Count
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdateEntryCollection.Count
-- IWindowsDriverUpdateEntryCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdateEntryCollection::get_Count
+ - wuapi/IWindowsDriverUpdateEntryCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdateEntryCollection.Count
+ - IWindowsDriverUpdateEntryCollection.get_Count
 ---
 
 # IWindowsDriverUpdateEntryCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of elements contained in the collection
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>

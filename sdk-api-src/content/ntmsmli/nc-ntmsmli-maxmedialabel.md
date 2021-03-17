@@ -2,15 +2,12 @@
 UID: NC:ntmsmli.MAXMEDIALABEL
 title: MAXMEDIALABEL (ntmsmli.h)
 description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
+helpviewer_keywords: ["MaxMediaLabel","MaxMediaLabel callback","MaxMediaLabel callback function [Files]","_zaw_maxmedialabel","base.maxmedialabel","fs.maxmedialabel","ntmsmli/MaxMediaLabel"]
 old-location: fs\maxmedialabel.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
 ms.date: 12/05/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
-f1_keywords:
-- ntmsmli/MaxMediaLabel
-dev_langs:
-- c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- NtmsMli.h
-api_name:
-- MaxMediaLabel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAXMEDIALABEL
+ - ntmsmli/MAXMEDIALABEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - NtmsMli.h
+api_name:
+ - MaxMediaLabel
 ---
 
 # MAXMEDIALABEL callback function
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <i>MaxMediaLabel</i> callback function determines the maximum size of the media label for the applications supported by the media label library.
 
-
 ## -parameters
-
-
-
 
 ### -param pMaxSize [out]
 
 Pointer to a buffer that receives the maximum size of the buffer sent to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a> function.
-
+<a href="/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a> function.
 
 ## -returns
-
-
 
 This function returns the following value.
 
@@ -89,28 +83,12 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the media format of the media specified in the 
 <i>MaxMediaLabel</i> function does not have a theoretical size limit, the application should return the size of the largest media label the application can possibly generate.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Label Library Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Label Library Functions</a>

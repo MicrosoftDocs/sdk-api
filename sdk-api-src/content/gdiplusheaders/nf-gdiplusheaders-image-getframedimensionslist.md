@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Image.GetFrameDimensionsList
 title: Image::GetFrameDimensionsList (gdiplusheaders.h)
 description: The Image::GetFrameDimensionsList method gets the identifiers for the frame dimensions of this Image object.
+helpviewer_keywords: ["GetFrameDimensionsList","GetFrameDimensionsList method [GDI+]","GetFrameDimensionsList method [GDI+]","Image class","Image class [GDI+]","GetFrameDimensionsList method","Image.GetFrameDimensionsList","Image::GetFrameDimensionsList","_gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_","gdiplus._gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getframedimensionslist.htm
 ms.date: 12/05/2018
 ms.keywords: GetFrameDimensionsList, GetFrameDimensionsList method [GDI+], GetFrameDimensionsList method [GDI+],Image class, Image class [GDI+],GetFrameDimensionsList method, Image.GetFrameDimensionsList, Image::GetFrameDimensionsList, _gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_, gdiplus._gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_
-f1_keywords:
-- gdiplusheaders/Image.GetFrameDimensionsList
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.GetFrameDimensionsList
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::GetFrameDimensionsList
+ - gdiplusheaders/Image::GetFrameDimensionsList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.GetFrameDimensionsList
 ---
 
 # Image::GetFrameDimensionsList
@@ -49,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::GetFrameDimensionsList</b> method gets the identifiers for the frame dimensions of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
-
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -parameters
-
-
-
 
 ### -param dimensionIDs [out]
 
 Type: <b>GUID*</b>
 
 Pointer to an array that receives the identifiers. 
-					GUIDs that identify various dimensions are defined in Gdiplusimaging.h. 
-
+					GUIDs that identify various dimensions are defined in Gdiplusimaging.h.
 
 ### -param count [in]
 
@@ -73,28 +69,19 @@ Type: <b>UINT</b>
 
 Integer that specifies the number of elements in the 
 					<i>dimensionIDs</i> array. Call the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a> method to determine this number. 
-
+					<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a> method to determine this number.
 
 ## -returns
 
-
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
-
-
 
 This method returns information about multiple-frame images, which come in two styles: multiple page and multiple resolution. 
 
@@ -110,12 +97,12 @@ Windows GDI+ can support an arbitrary number of pages (or images, or frames), as
 
 
 The following console application creates an 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object based on a TIFF file. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a> method to find out how many frame dimensions the 
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object based on a TIFF file. The code calls the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a> method to find out how many frame dimensions the 
 						<b>Image</b> object has. Each of those frame dimensions is identified by a 
 						GUID, and the call to <b>GetFrameDimensionsList</b> retrieves those 
 						GUIDs. The first 
 						GUID is at index 0 in the 
-						<i>pDimensionIDs</i> array. The call to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframecount">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
+						<i>pDimensionIDs</i> array. The call to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframecount">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
 						GUID.
 
 
@@ -173,39 +160,30 @@ You can look up the displayed GUID in Gdiplusimaging.h and see that it is the id
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-copying-individual-frames-from-a-multiple-frame-image-use">Copying Individual Frames from a Multiple-Frame Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-copying-individual-frames-from-a-multiple-frame-image-use">Copying Individual Frames from a Multiple-Frame Image</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-creating-and-saving-a-multiple-frame-image-use">Creating and Saving a Multiple-Frame Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-and-saving-a-multiple-frame-image-use">Creating and Saving a Multiple-Frame Image</a>
+<a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframecount">Image::GetFrameCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframecount">Image::GetFrameCount</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getframedimensionscount">Image::GetFrameDimensionsCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>

@@ -2,15 +2,12 @@
 UID: NF:oleacc.GetOleaccVersionInfo
 title: GetOleaccVersionInfo function (oleacc.h)
 description: Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.
+helpviewer_keywords: ["GetOleaccVersionInfo","GetOleaccVersionInfo function [Windows Accessibility]","_msaa_GetOleaccVersionInfo","msaa.getoleaccversioninfo","oleacc/GetOleaccVersionInfo","winauto.getoleaccversioninfo"]
 old-location: winauto\getoleaccversioninfo.htm
 tech.root: WinAuto
 ms.assetid: 96dcdb85-4f35-4274-ba57-2f565c3ebb5f
 ms.date: 12/05/2018
 ms.keywords: GetOleaccVersionInfo, GetOleaccVersionInfo function [Windows Accessibility], _msaa_GetOleaccVersionInfo, msaa.getoleaccversioninfo, oleacc/GetOleaccVersionInfo, winauto.getoleaccversioninfo
-f1_keywords:
-- oleacc/GetOleaccVersionInfo
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-api_name:
-- GetOleaccVersionInfo
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - GetOleaccVersionInfo
+ - oleacc/GetOleaccVersionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+api_name:
+ - GetOleaccVersionInfo
 ---
 
 # GetOleaccVersionInfo function
@@ -48,43 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.
-
 
 ## -parameters
 
-
-
-
 ### -param pVer [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a <b>DWORD</b> that receives the version number. The major version number is placed in the high word, and the minor version number is placed in the low word.
 
-
 ### -param pBuild [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a <b>DWORD</b> that receives the build number. The major build number is placed in the high word, and the minor build number is placed in the low word.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
-
-
-This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="https://go.microsoft.com/fwlink/p/?linkid=178218">GetFileVersionInfoSize</a>, <a href="https://go.microsoft.com/fwlink/p/?linkid=178219">GetFileVersionInfo</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=178220">VerQueryValue</a> functions can be used to retrieve the same information.
-
-
-
+This function provides an easy way to get the version and build numbers for Oleacc.dll. The <a href="/windows/win32/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>, <a href="/windows/win32/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>, and <a href="/windows/win32/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> functions can be used to retrieve the same information.

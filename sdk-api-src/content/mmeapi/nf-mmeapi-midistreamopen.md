@@ -2,15 +2,12 @@
 UID: NF:mmeapi.midiStreamOpen
 title: midiStreamOpen function (mmeapi.h)
 description: The midiStreamOpen function opens a MIDI stream for output. By default, the device is opened in paused mode. The stream handle retrieved by this function must be used in all subsequent references to the stream.
+helpviewer_keywords: ["_win32_midiStreamOpen","midiStreamOpen","midiStreamOpen function [Windows Multimedia]","mmeapi/midiStreamOpen","multimedia.midistreamopen"]
 old-location: multimedia\midistreamopen.htm
 tech.root: Multimedia
 ms.assetid: 355cf034-e1d7-4530-b117-4c505ad0aac6
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamOpen, midiStreamOpen, midiStreamOpen function [Windows Multimedia], mmeapi/midiStreamOpen, multimedia.midistreamopen
-f1_keywords:
-- mmeapi/midiStreamOpen
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiStreamOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiStreamOpen
+ - mmeapi/midiStreamOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiStreamOpen
 ---
 
 # midiStreamOpen function
@@ -50,46 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiStreamOpen</b> function opens a MIDI stream for output. By default, the device is opened in paused mode. The stream handle retrieved by this function must be used in all subsequent references to the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phms
 
 Pointer to a variable to contain the stream handle when the function returns.
-          
-
 
 ### -param puDeviceID
 
 Pointer to a device identifier. The device is opened on behalf of the stream and closed again when the stream is closed.
-          
-
 
 ### -param cMidi
 
 Reserved; must be 1.
-          
-
 
 ### -param dwCallback
 
 Pointer to a callback function, an event handle, a thread identifier, or a handle of a window or thread called during MIDI playback to process messages related to the progress of the playback. If no callback mechanism is desired, specify <b>NULL</b> for this parameter.
-          
-
 
 ### -param dwInstance
 
 Application-specific instance data that is returned to the application with every callback function.
-
 
 ### -param fdwOpen
 
@@ -108,7 +93,7 @@ Callback flag for opening the device. One of the following callback flags must b
 </tr>
 <tr>
 <td>CALLBACK_FUNCTION</td>
-<td>The <i>dwCallback</i> parameter is a callback procedure address. For the callback signature, see <a href="https://docs.microsoft.com/previous-versions/dd798478(v=vs.85)">MidiOutProc</a>.</td>
+<td>The <i>dwCallback</i> parameter is a callback procedure address. For the callback signature, see <a href="/previous-versions/dd798478(v=vs.85)">MidiOutProc</a>.</td>
 </tr>
 <tr>
 <td>CALLBACK_NULL</td>
@@ -123,12 +108,8 @@ Callback flag for opening the device. One of the following callback flags must b
 <td>The <i>dwCallback</i> parameter is a window handle.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -171,18 +152,7 @@ The system is unable to allocate or lock memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

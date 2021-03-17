@@ -2,15 +2,12 @@
 UID: NF:certexit.ICertExit.Initialize
 title: ICertExit::Initialize (certexit.h)
 description: Called by the server engine when it initializes itself.
+helpviewer_keywords: ["CCertExit object [Security]","Initialize method","EXITEVENT_CERTDENIED","EXITEVENT_CERTISSUED","EXITEVENT_CERTPENDING","EXITEVENT_CERTRETRIEVEPENDING","EXITEVENT_CERTREVOKED","EXITEVENT_CRLISSUED","EXITEVENT_SHUTDOWN","ICertExit interface [Security]","Initialize method","ICertExit.Initialize","ICertExit2 interface [Security]","Initialize method","ICertExit2::Initialize","ICertExit::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","CCertExit object","Initialize method [Security]","ICertExit interface","Initialize method [Security]","ICertExit2 interface","_certsrv_icertexit_initialize","certexit/ICertExit2::Initialize","certexit/ICertExit::Initialize","security.icertexit2_initialize"]
 old-location: security\icertexit2_initialize.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.date: 12/05/2018
 ms.keywords: CCertExit object [Security],Initialize method, EXITEVENT_CERTDENIED, EXITEVENT_CERTISSUED, EXITEVENT_CERTPENDING, EXITEVENT_CERTRETRIEVEPENDING, EXITEVENT_CERTREVOKED, EXITEVENT_CRLISSUED, EXITEVENT_SHUTDOWN, ICertExit interface [Security],Initialize method, ICertExit.Initialize, ICertExit2 interface [Security],Initialize method, ICertExit2::Initialize, ICertExit::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertExit object, Initialize method [Security],ICertExit interface, Initialize method [Security],ICertExit2 interface, _certsrv_icertexit_initialize, certexit/ICertExit2::Initialize, certexit/ICertExit::Initialize, security.icertexit2_initialize
-f1_keywords:
-- certexit/ICertExit2.Initialize
-dev_langs:
-- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certexit.h
-api_name:
-- ICertExit2.Initialize
-- ICertExit.Initialize
-- CCertExit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertExit::Initialize
+ - certexit/ICertExit::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certexit.h
+api_name:
+ - ICertExit2.Initialize
+ - ICertExit.Initialize
+ - CCertExit.Initialize
 ---
 
 # ICertExit::Initialize
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method is called by the server engine when it initializes itself.
 
  The call to the exit module's <b>Initialize</b> method allows the exit module to perform initialization and inform the server engine which kinds of events it would like to be notified of.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
 Represents the name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>.
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>.
 
 ### -param pEventMask [out, retval]
 
@@ -113,7 +109,7 @@ Certificate pending.
 </td>
 <td width="60%">
 Successful call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>.
 
 </td>
 </tr>
@@ -133,7 +129,7 @@ Certificate revoked.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> issued.
+<a href="/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> issued.
 
 </td>
 </tr>
@@ -148,23 +144,19 @@ Certificate Services shutdown.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK and *<i>pEventMask</i> is set to a combination of the flags in the table below (or EXITEVENT_INVALID if the exit module does not want to be notified of any events).
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 If the exit module does not want to be notified of any events, then the flag EXITEVENT_INVALID should be set.
 
 <h3>VB</h3>
  The return value is a mask that contains flags that indicate the events for which the exit module requests notification. After the call, all events of those types will be signaled by the server engine to the exit module through a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>. Any or all of the following flags may be set.
+<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>. Any or all of the following flags may be set.
 
 <table>
 <tr>
@@ -216,7 +208,7 @@ Certificate pending.
 </td>
 <td width="60%">
 Successful call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>.
+<a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-retrievepending">RetrievePending</a>.
 
 </td>
 </tr>
@@ -240,7 +232,7 @@ Certificate revoked.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> issued.
+<a href="/windows/desktop/SecGloss/c-gly">Certificate revocation list</a> issued.
 
 </td>
 </tr>
@@ -269,14 +261,8 @@ Certificate Services shutdown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you write a custom exit module, implement this method.
 
@@ -325,25 +311,14 @@ STDMETHODIMP CCertExit::Initialize(
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a>
+<a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>

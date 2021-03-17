@@ -2,15 +2,12 @@
 UID: NS:winsxs._FUSION_INSTALL_REFERENCE_
 title: FUSION_INSTALL_REFERENCE (winsxs.h)
 description: The FUSION_INSTALL_REFERENCE structure contains information about the application which references the side-by-side assembly.
+helpviewer_keywords: ["*LPFUSION_INSTALL_REFERENCE","FUSION_INSTALL_REFERENCE","FUSION_INSTALL_REFERENCE","FUSION_INSTALL_REFERENCE structure [Side-by-side Assemblies]","FUSION_REFCOUNT_FILEPATH_GUID","FUSION_REFCOUNT_MSI_GUID","FUSION_REFCOUNT_OPAQUE_STRING_GUID","FUSION_REFCOUNT_OSINSTALL_GUID","FUSION_REFCOUNT_UNINSTALL_SUBKEY_GUID","LPFUSION_INSTALL_REFERENCE","LPFUSION_INSTALL_REFERENCE structure pointer [Side-by-side Assemblies]","setup.fusion_install_reference_","winsxs/FUSION_INSTALL_REFERENCE","winsxs/LPFUSION_INSTALL_REFERENCE"]
 old-location: setup\fusion_install_reference_.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: daa2b625-1522-4239-9c62-65f09b50f74c
 ms.date: 12/05/2018
 ms.keywords: '*LPFUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE , FUSION_INSTALL_REFERENCE structure [Side-by-side Assemblies], FUSION_REFCOUNT_FILEPATH_GUID, FUSION_REFCOUNT_MSI_GUID, FUSION_REFCOUNT_OPAQUE_STRING_GUID, FUSION_REFCOUNT_OSINSTALL_GUID, FUSION_REFCOUNT_UNINSTALL_SUBKEY_GUID, LPFUSION_INSTALL_REFERENCE, LPFUSION_INSTALL_REFERENCE structure pointer [Side-by-side Assemblies], setup.fusion_install_reference_, winsxs/FUSION_INSTALL_REFERENCE, winsxs/LPFUSION_INSTALL_REFERENCE'
-f1_keywords:
-- winsxs/FUSION_INSTALL_REFERENCE
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsxs.h
-api_name:
-- FUSION_INSTALL_REFERENCE
 targetos: Windows
 req.typenames: FUSION_INSTALL_REFERENCE, *LPFUSION_INSTALL_REFERENCE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FUSION_INSTALL_REFERENCE_
+ - winsxs/_FUSION_INSTALL_REFERENCE_
+ - LPFUSION_INSTALL_REFERENCE
+ - winsxs/LPFUSION_INSTALL_REFERENCE
+ - FUSION_INSTALL_REFERENCE
+ - winsxs/FUSION_INSTALL_REFERENCE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsxs.h
+api_name:
+ - FUSION_INSTALL_REFERENCE
 ---
 
 # FUSION_INSTALL_REFERENCE structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FUSION_INSTALL_REFERENCE</b> structure contains information about the application which references the side-by-side assembly. The assembly being referenced can be added to or removed from the side-by-side assembly store using the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a> methods.
-
+The <b>FUSION_INSTALL_REFERENCE</b> structure contains information about the application which references the side-by-side assembly. The assembly being referenced can be added to or removed from the side-by-side assembly store using the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a> and <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a> methods.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure in bytes.
 
-
 ### -field dwFlags
 
 Reserved, this member must be zero.
-
 
 ### -field guidScheme
 
@@ -87,7 +86,7 @@ The application  that uses the side-by-side assembly.
 </dl>
 </td>
 <td width="60%">
-The assembly is referenced by an application that has been installed by using the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>. The <b>szIdentifier</b> member is set to MSI, and <b>szNonCannonicalData</b> is set to Windows Installer. Use this value for Windows side-by-side assemblies.
+The assembly is referenced by an application that has been installed by using the <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>. The <b>szIdentifier</b> member is set to MSI, and <b>szNonCannonicalData</b> is set to Windows Installer. Use this value for Windows side-by-side assemblies.
 
 </td>
 </tr>
@@ -132,15 +131,11 @@ Reserved
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szIdentifier
 
 A pointer to a string value that identifies the application that references assembly. The meaning of this identifier depends on the <b>guidScheme</b> parameter.
 
-
 ### -field szNonCannonicalData
 
 A string that is used only by the application that reference the assembly.
-

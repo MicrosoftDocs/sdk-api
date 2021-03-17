@@ -2,15 +2,12 @@
 UID: NF:http.HttpTerminate
 title: HttpTerminate function (http.h)
 description: Cleans up resources used by the HTTP Server API to process calls by an application.
+helpviewer_keywords: ["HTTP_INITIALIZE_CONFIG","HTTP_INITIALIZE_SERVER","HttpTerminate","HttpTerminate function [HTTP]","_http_httpterminate","http.httpterminate","http/HttpTerminate"]
 old-location: http\httpterminate.htm
 tech.root: http
 ms.assetid: d1922375-3d59-45a7-9d1d-08dbce1111ff
 ms.date: 12/05/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpTerminate, HttpTerminate function [HTTP], _http_httpterminate, http.httpterminate, http/HttpTerminate
-f1_keywords:
-- http/HttpTerminate
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpTerminate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpTerminate
+ - http/HttpTerminate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpTerminate
 ---
 
 # HttpTerminate function
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>HttpTerminate</b> function cleans up resources used by the HTTP Server API to process calls by an application. An application should call 
 <b>HttpTerminate</b> once for every time it called 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>, with matching flag settings.
-
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>, with matching flag settings.
 
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -92,17 +89,12 @@ Release all resources used by server applications.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in, out]
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -131,42 +123,26 @@ One or more of the supplied parameters is in an unusable form.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Every call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> should be matched by a corresponding call to 
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> should be matched by a corresponding call to 
 <b>HttpTerminate</b>. For example, if you call 
 <b>HttpInitialize</b> with HTTP_INITIALIZE_SERVER, you must call 
 <b>HttpTerminate</b> with HTTP_INITIALIZE_SERVER. If you call 
 <b>HttpInitialize</b> twice, once with HTTP_INITIALIZE_SERVER and the second time with HTTP_INITIALIZE_CONFIG, you can call 
 <b>HttpTerminate</b> one time with both flags.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a>

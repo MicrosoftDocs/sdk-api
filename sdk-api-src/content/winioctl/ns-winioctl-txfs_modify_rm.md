@@ -2,15 +2,12 @@
 UID: NS:winioctl._TXFS_MODIFY_RM
 title: TXFS_MODIFY_RM
 description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
+helpviewer_keywords: ["*PTXFS_MODIFY_RM","PTXFS_MODIFY_RM","PTXFS_MODIFY_RM structure pointer [Files]","TXFS_LOGGING_MODE_FULL","TXFS_LOGGING_MODE_SIMPLE","TXFS_MODIFY_RM","TXFS_MODIFY_RM structure [Files]","TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START","TXFS_RM_FLAG_ENFORCE_MINIMUM_SIZE","TXFS_RM_FLAG_GROW_LOG","TXFS_RM_FLAG_LOGGING_MODE","TXFS_RM_FLAG_LOG_AUTO_SHRINK_PERCENTAGE","TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MAX","TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS","TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT","TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX","TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MIN","TXFS_RM_FLAG_PREFER_AVAILABILITY","TXFS_RM_FLAG_PREFER_CONSISTENCY","TXFS_RM_FLAG_PRESERVE_CHANGES","TXFS_RM_FLAG_RENAME_RM","TXFS_RM_FLAG_RESET_RM_AT_NEXT_START","TXFS_RM_FLAG_SHRINK_LOG","base.txfs_set_rm_information","fs.txfs_modify_rm","fs.txfs_set_rm_information","winioctl/PTXFS_MODIFY_RM","winioctl/TXFS_MODIFY_RM"]
 old-location: fs\txfs_modify_rm.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_MODIFY_RM, PTXFS_MODIFY_RM, PTXFS_MODIFY_RM structure pointer [Files], TXFS_LOGGING_MODE_FULL, TXFS_LOGGING_MODE_SIMPLE, TXFS_MODIFY_RM, TXFS_MODIFY_RM structure [Files], TXFS_RM_FLAG_DO_NOT_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_ENFORCE_MINIMUM_SIZE, TXFS_RM_FLAG_GROW_LOG, TXFS_RM_FLAG_LOGGING_MODE, TXFS_RM_FLAG_LOG_AUTO_SHRINK_PERCENTAGE, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_NUM_CONTAINERS, TXFS_RM_FLAG_LOG_GROWTH_INCREMENT_PERCENT, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MAX, TXFS_RM_FLAG_LOG_NO_CONTAINER_COUNT_MIN, TXFS_RM_FLAG_PREFER_AVAILABILITY, TXFS_RM_FLAG_PREFER_CONSISTENCY, TXFS_RM_FLAG_PRESERVE_CHANGES, TXFS_RM_FLAG_RENAME_RM, TXFS_RM_FLAG_RESET_RM_AT_NEXT_START, TXFS_RM_FLAG_SHRINK_LOG, base.txfs_set_rm_information, fs.txfs_modify_rm, fs.txfs_set_rm_information, winioctl/PTXFS_MODIFY_RM, winioctl/TXFS_MODIFY_RM'
-f1_keywords:
-- winioctl/TXFS_MODIFY_RM
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- TXFS_MODIFY_RM
 targetos: Windows
 req.typenames: TXFS_MODIFY_RM, *PTXFS_MODIFY_RM
 req.redist: 
+f1_keywords:
+ - _TXFS_MODIFY_RM
+ - winioctl/_TXFS_MODIFY_RM
+ - PTXFS_MODIFY_RM
+ - winioctl/PTXFS_MODIFY_RM
+ - TXFS_MODIFY_RM
+ - winioctl/TXFS_MODIFY_RM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - TXFS_MODIFY_RM
 ---
 
 # TXFS_MODIFY_RM structure
@@ -47,21 +53,16 @@ req.redist:
 
 ## -description
 
-
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the information required when modifying log parameters and logging mode for a secondary 
    resource manager.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -262,7 +263,7 @@ This flag is only valid for default RMs, not secondary RMs. If this flag is set,
 </td>
 <td width="60%">
 This flag is only valid for default RMs, not secondary RMs. If this flag is set, a previous call to 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a> is canceled with 
+        <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a> is canceled with 
         the <b>TXFS_RM_FLAG_RESET_RM_AT_NEXT_START</b> flag set.
 
 </td>
@@ -298,28 +299,22 @@ Indicates that the RM is to prefer system
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LogContainerCountMax
 
 The maximum size of the log, in containers.
 
-
 ### -field LogContainerCountMin
 
 The minimum size of the log, in containers.
-
 
 ### -field LogContainerCount
 
 The actual size of the log, in containers.
 
-
 ### -field LogGrowthIncrement
 
 The number of containers or percentage of space that should be added to the log.
-
 
 ### -field LogAutoShrinkPercentage
 
@@ -328,11 +323,9 @@ The percentage of log space to keep free. This member is used when the
       automatically shrink itself, so no more than <b>LogAutoShrinkPercentage</b> of the log is 
       free at any given time.
 
-
 ### -field Reserved
 
 Reserved.
-
 
 ### -field LoggingMode
 
@@ -366,16 +359,7 @@ Full logging is used
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_modify_rm">FSCTL_TXFS_MODIFY_RM</a>

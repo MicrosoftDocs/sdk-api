@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateWriterPushSink
 title: WMCreateWriterPushSink function (wmsdkidl.h)
 description: The WMCreateWriterPushSink function creates a writer push sink object. Push sinks are used to deliver streaming content to other media servers for distribution.
+helpviewer_keywords: ["WMCreateWriterPushSink","WMCreateWriterPushSink function [windows Media Format]","wmformat.wmcreatewriterpushsink","wmsdkidl/WMCreateWriterPushSink"]
 old-location: wmformat\wmcreatewriterpushsink.htm
 tech.root: wmformat
 ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink
-f1_keywords:
-- wmsdkidl/WMCreateWriterPushSink
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateWriterPushSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateWriterPushSink
+ - wmsdkidl/WMCreateWriterPushSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateWriterPushSink
 ---
 
 # WMCreateWriterPushSink function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateWriterPushSink</b> function creates a writer push sink object. Push sinks are used to deliver streaming content to other media servers for distribution.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink</a> interface of the newly created writer push sink object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink</a> interface of the newly created writer push sink object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,22 +90,11 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/writer-push-sink-object">Writer Push Sink Object</a>

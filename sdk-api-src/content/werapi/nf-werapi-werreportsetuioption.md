@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportSetUIOption
 title: WerReportSetUIOption function (werapi.h)
 description: Sets the user interface options for the specified report.
+helpviewer_keywords: ["WerReportSetUIOption","WerReportSetUIOption function [Windows Error Reporting]","WerUIAdditionalDataDlgHeader","WerUICloseDlgBody","WerUICloseDlgButtonText","WerUICloseDlgHeader","WerUICloseText","WerUIConsentDlgBody","WerUIConsentDlgHeader","WerUIIconFilePath","WerUIOfflineSolutionCheckText","WerUIOnlineSolutionCheckText","base.werreportsetuioption","wer.werreportsetuioption","werapi/WerReportSetUIOption"]
 old-location: wer\werreportsetuioption.htm
 tech.root: wer
 ms.assetid: c8816782-faec-490e-898f-a40df8fb205b
 ms.date: 12/05/2018
 ms.keywords: WerReportSetUIOption, WerReportSetUIOption function [Windows Error Reporting], WerUIAdditionalDataDlgHeader, WerUICloseDlgBody, WerUICloseDlgButtonText, WerUICloseDlgHeader, WerUICloseText, WerUIConsentDlgBody, WerUIConsentDlgHeader, WerUIIconFilePath, WerUIOfflineSolutionCheckText, WerUIOnlineSolutionCheckText, base.werreportsetuioption, wer.werreportsetuioption, werapi/WerReportSetUIOption
-f1_keywords:
-- werapi/WerReportSetUIOption
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-api_name:
-- WerReportSetUIOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportSetUIOption
+ - werapi/WerReportSetUIOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+api_name:
+ - WerReportSetUIOption
 ---
 
 # WerReportSetUIOption function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the user interface options for the specified report.
-
 
 ## -parameters
 
-
-
-
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param repUITypeID [in]
 
@@ -172,38 +168,23 @@ The text for the link to check for a solution when online.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwzValue [in]
 
 A pointer to a Unicode string that specifies the custom text. For more information, see the description of <i>repUITypeID</i>.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

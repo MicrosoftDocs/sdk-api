@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStatusCallback.OnStatus
 title: IWMStatusCallback::OnStatus (wmsdkidl.h)
 description: The OnStatus method is called when status information must be communicated to the application.
+helpviewer_keywords: ["IWMStatusCallback interface [windows Media Format]","OnStatus method","IWMStatusCallback.OnStatus","IWMStatusCallback::OnStatus","IWMStatusCallbackOnStatus","OnStatus","OnStatus method [windows Media Format]","OnStatus method [windows Media Format]","IWMStatusCallback interface","wmformat.iwmstatuscallback_onstatus","wmsdkidl/IWMStatusCallback::OnStatus"]
 old-location: wmformat\iwmstatuscallback_onstatus.htm
 tech.root: wmformat
 ms.assetid: 7b8cdb21-96e1-4cf9-8422-72bce693afb1
 ms.date: 12/05/2018
 ms.keywords: IWMStatusCallback interface [windows Media Format],OnStatus method, IWMStatusCallback.OnStatus, IWMStatusCallback::OnStatus, IWMStatusCallbackOnStatus, OnStatus, OnStatus method [windows Media Format], OnStatus method [windows Media Format],IWMStatusCallback interface, wmformat.iwmstatuscallback_onstatus, wmsdkidl/IWMStatusCallback::OnStatus
-f1_keywords:
-- wmsdkidl/IWMStatusCallback.OnStatus
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmsdkidl.h
-api_name:
-- IWMStatusCallback.OnStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStatusCallback::OnStatus
+ - wmsdkidl/IWMStatusCallback::OnStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - IWMStatusCallback.OnStatus
 ---
 
 # IWMStatusCallback::OnStatus
@@ -48,55 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>OnStatus</b> method is called when status information must be communicated to the application.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Status [in]
 
-One member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
-
+One member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
 
 ### -param hr [in]
 
-<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="https://docs.microsoft.com/windows/desktop/wmformat/error-codes">Error Codes</a> for a list of possible results.
-
+<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="/windows/desktop/wmformat/error-codes">Error Codes</a> for a list of possible results.
 
 ### -param dwType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
-
+Member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
 
 ### -param pValue [in]
 
 Pointer to a byte array containing the value. The contents of this array depend on the value of <i>Status</i> and the value of <i>dwType</i>.
 
-
 ### -param pvContext [in]
 
-Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
-
+Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
 
 ## -returns
 
-
-
 This method is implemented by the application. It should always return S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The contents of <i>pParam</i> depend on those of <i>Status</i>.
 
@@ -111,7 +93,7 @@ The following <b>WMT_STATUS</b> values can be passed to this method by the reade
 </tr>
 <tr>
 <td>WMT_ACQUIRE_LICENSE</td>
-<td>The license acquisition process is complete. If the license acquisition is unsuccessful, an error is returned in the <i>hr</i> parameter. If the license acquisition is successful, S_OK is returned in the <i>hr</i> parameter, and a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> data structure is returned in the <i>pvalue</i> parameter.</td>
+<td>The license acquisition process is complete. If the license acquisition is unsuccessful, an error is returned in the <i>hr</i> parameter. If the license acquisition is successful, S_OK is returned in the <i>hr</i> parameter, and a <a href="/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> data structure is returned in the <i>pvalue</i> parameter.</td>
 </tr>
 <tr>
 <td>WMT_BUFFERING_START</td>
@@ -151,7 +133,7 @@ The following <b>WMT_STATUS</b> values can be passed to this method by the reade
 </tr>
 <tr>
 <td>WMT_INDIVIDUALIZE</td>
-<td>The individualization process is in progress or has completed. This event is sent repeatedly during the individualization process. <i>pvalue</i> contains a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a> structure that contains status information about the progress of the download.</td>
+<td>The individualization process is in progress or has completed. This event is sent repeatedly during the individualization process. <i>pvalue</i> contains a <a href="/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a> structure that contains status information about the progress of the download.</td>
 </tr>
 <tr>
 <td>WMT_LOCATING</td>
@@ -255,7 +237,7 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 </tr>
 <tr>
 <td>WMT_CLIENT_CONNECT</td>
-<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.</td>
+<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.</td>
 </tr>
 <tr>
 <td>WMT_CLIENT_DISCONNECT</td>
@@ -334,22 +316,11 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 <td>Sent only when backing up licenses to indicate the licenses are restricted and cannot be backed up.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>

@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo2.SetVarCustData
 title: ICreateTypeInfo2::SetVarCustData (oaidl.h)
 description: Sets a value for custom data for the specified variable.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetVarCustData method","ICreateTypeInfo2.SetVarCustData","ICreateTypeInfo2::SetVarCustData","SetVarCustData","SetVarCustData method [Automation]","SetVarCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetVarCustData","automat.icreatetypeinfo2_setvarcustdata","oaidl/ICreateTypeInfo2::SetVarCustData"]
 old-location: automat\icreatetypeinfo2_setvarcustdata.htm
 tech.root: automat
 ms.assetid: 7055ad6b-89d8-47d9-bdfa-26b323e53133
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarCustData method, ICreateTypeInfo2.SetVarCustData, ICreateTypeInfo2::SetVarCustData, SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
-f1_keywords:
-- oaidl/ICreateTypeInfo2.SetVarCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.SetVarCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::SetVarCustData
+ - oaidl/ICreateTypeInfo2::SetVarCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.SetVarCustData
 ---
 
 # ICreateTypeInfo2::SetVarCustData
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a value for custom data for the specified variable.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable for which to set the custom data.
 
-
 ### -param guid [in]
 
 The globally unique ID (GUID) used to identify the data.
-
-
-
 
 ### -param pVarVal [in]
 
 The data to store (any variant except an object).
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,18 +112,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

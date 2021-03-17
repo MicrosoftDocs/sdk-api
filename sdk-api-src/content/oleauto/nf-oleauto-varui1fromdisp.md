@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI1FromDisp
 title: VarUI1FromDisp function (oleauto.h)
 description: Converts the default property of an IDispatch instance to an unsigned char value.
+helpviewer_keywords: ["VarUI1FromDisp","VarUI1FromDisp function [Automation]","_oa96_VarUI1FromDisp","automat.varui1fromdisp","oleauto/VarUI1FromDisp"]
 old-location: automat\varui1fromdisp.htm
 tech.root: automat
 ms.assetid: 2bc73f66-ce91-47b1-950a-0ad226dcbf36
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromDisp, VarUI1FromDisp function [Automation], _oa96_VarUI1FromDisp, automat.varui1fromdisp, oleauto/VarUI1FromDisp
-f1_keywords:
-- oleauto/VarUI1FromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI1FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI1FromDisp
+ - oleauto/VarUI1FromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI1FromDisp
 ---
 
 # VarUI1FromDisp function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to an unsigned char value.
-
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to an unsigned char value.
 
 ## -parameters
-
-
-
 
 ### -param pdispIn
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param pbOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -152,7 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

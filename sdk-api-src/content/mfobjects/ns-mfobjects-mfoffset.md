@@ -2,15 +2,12 @@
 UID: NS:mfobjects._MFOffset
 title: MFOffset (mfobjects.h)
 description: Specifies an offset as a fixed-point real number.
+helpviewer_keywords: ["MFOffset","MFOffset structure [Media Foundation]","e93539fe-3e4a-4b34-8d6a-b3f300a70ffc","mf.mfoffset","mfobjects/MFOffset"]
 old-location: mf\mfoffset.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.date: 12/05/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
-f1_keywords:
-- mfobjects/MFOffset
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfobjects.h
-api_name:
-- MFOffset
 targetos: Windows
 req.typenames: MFOffset
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFOffset
+ - mfobjects/_MFOffset
+ - MFOffset
+ - mfobjects/MFOffset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfobjects.h
+api_name:
+ - MFOffset
 ---
 
 # MFOffset structure
@@ -48,31 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an offset as a fixed-point real number.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field fract
 
 The fractional part of the number.
-          
-
 
 ### -field value
 
 The integer part of the number.
-          
-
 
 ## -remarks
-
-
 
 The value of the number is <b>value</b> + (<b>fract</b> / 65536.0f).
 
@@ -91,17 +83,6 @@ MFOffset MakeOffset(float v)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

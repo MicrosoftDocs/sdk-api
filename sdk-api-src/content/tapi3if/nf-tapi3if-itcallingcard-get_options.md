@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCallingCard.get_Options
 title: ITCallingCard::get_Options (tapi3if.h)
 description: The get_Options method gets the translation options for this address and card.
+helpviewer_keywords: ["ITCallingCard interface [TAPI 2.2]","get_Options method","ITCallingCard.get_Options","ITCallingCard::get_Options","_tapi3_itcallingcard_get_options","get_Options","get_Options method [TAPI 2.2]","get_Options method [TAPI 2.2]","ITCallingCard interface","tapi3.itcallingcard_get_options","tapi3if/ITCallingCard::get_Options"]
 old-location: tapi3\itcallingcard_get_options.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0daa0058-759b-4f4c-8fb4-ce65e4fa9682
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_Options method, ITCallingCard.get_Options, ITCallingCard::get_Options, _tapi3_itcallingcard_get_options, get_Options, get_Options method [TAPI 2.2], get_Options method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_options, tapi3if/ITCallingCard::get_Options
-f1_keywords:
-- tapi3if/ITCallingCard.get_Options
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallingCard.get_Options
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallingCard::get_Options
+ - tapi3if/ITCallingCard::get_Options
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallingCard.get_Options
 ---
 
 # ITCallingCard::get_Options
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Options</b> method gets the translation options for this address and card.
 
-
 ## -parameters
-
-
-
 
 ### -param plOptions [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION</a> flags.
-
+<a href="/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION</a> flags.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,18 +103,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>

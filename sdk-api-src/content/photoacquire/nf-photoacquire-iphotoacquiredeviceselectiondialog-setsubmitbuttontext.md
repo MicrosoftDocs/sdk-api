@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
 title: IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText (photoacquire.h)
 description: The SetPrompt method sets the text displayed in the dialog box that prompts the user to select a device.
+helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","SetSubmitButtonText method","IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText","IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText","IPhotoAcquireDeviceSelectionDialogSetPrompt","SetSubmitButtonText","SetSubmitButtonText method [Picture Acquisition]","SetSubmitButtonText method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText","picacq.iphotoacquiredeviceselectiondialog_setprompt"]
 old-location: picacq\iphotoacquiredeviceselectiondialog_setprompt.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 4685c4b8-8c56-4be1-a73f-6d984449d227
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetSubmitButtonText method, IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialogSetPrompt, SetSubmitButtonText, SetSubmitButtonText method [Picture Acquisition], SetSubmitButtonText method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, picacq.iphotoacquiredeviceselectiondialog_setprompt
-f1_keywords:
-- photoacquire/IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
+ - photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetPrompt</code> method sets the text displayed in the dialog box that prompts the user to select a device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszSubmitButtonText [in]
 
 Pointer to a null-terminated string containing the prompt.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>

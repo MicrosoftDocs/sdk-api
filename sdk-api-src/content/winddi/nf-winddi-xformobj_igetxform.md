@@ -2,15 +2,12 @@
 UID: NF:winddi.XFORMOBJ_iGetXform
 title: XFORMOBJ_iGetXform function (winddi.h)
 description: The XFORMOBJ_iGetXform function downloads a transform to the driver.
+helpviewer_keywords: ["XFORMOBJ_iGetXform","XFORMOBJ_iGetXform function [Display Devices]","display.xformobj_igetxform","gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml","winddi/XFORMOBJ_iGetXform"]
 old-location: display\xformobj_igetxform.htm
 tech.root: display
 ms.assetid: 0a78663c-15c9-4fed-b758-fea0f2571971
 ms.date: 12/05/2018
 ms.keywords: XFORMOBJ_iGetXform, XFORMOBJ_iGetXform function [Display Devices], display.xformobj_igetxform, gdifncs_b011606a-15e6-4f4f-a6ce-37ad087788c4.xml, winddi/XFORMOBJ_iGetXform
-f1_keywords:
-- winddi/XFORMOBJ_iGetXform
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- XFORMOBJ_iGetXform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XFORMOBJ_iGetXform
+ - winddi/XFORMOBJ_iGetXform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - XFORMOBJ_iGetXform
 ---
 
 # XFORMOBJ_iGetXform function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>XFORMOBJ_iGetXform</b> function downloads a transform to the driver.
-
 
 ## -parameters
 
-
-
-
 ### -param pxo
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure that defines the transform to be downloaded to the driver.
-
+Pointer to the <a href="/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure that defines the transform to be downloaded to the driver.
 
 ### -param pxform
 
-Pointer to the buffer that is to receive the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570616(v=vs.85)">XFORML</a> structure. This parameter can be <b>NULL</b>.
-
+Pointer to the buffer that is to receive the <a href="/previous-versions/windows/hardware/drivers/ff570616(v=vs.85)">XFORML</a> structure. This parameter can be <b>NULL</b>.
 
 ## -returns
-
-
 
 If an error occurs, the return value is DDI_ERROR. Otherwise, the return value is a complexity hint about the transform object. The value of this transform characterization can be one of the following:
 
@@ -123,26 +116,15 @@ Off-diagonal matrix elements are zero.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff570616(v=vs.85)">XFORML</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570616(v=vs.85)">XFORML</a>
+<a href="/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xformobj_bapplyxform">XFORMOBJ_bApplyXform</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-xformobj_bapplyxform">XFORMOBJ_bApplyXform</a>

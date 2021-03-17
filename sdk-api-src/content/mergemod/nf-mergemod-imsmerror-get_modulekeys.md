@@ -2,15 +2,12 @@
 UID: NF:mergemod.IMsmError.get_ModuleKeys
 title: IMsmError::get_ModuleKeys (mergemod.h)
 description: The get_ModuleKeys method retrieves the ModuleKeys property of the Error object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
+helpviewer_keywords: ["IMsmError interface","get_ModuleKeys method","IMsmError.get_ModuleKeys","IMsmError::get_ModuleKeys","_msi_get_modulekeys_function","get_ModuleKeys","get_ModuleKeys method","get_ModuleKeys method","IMsmError interface","mergemod/IMsmError::get_ModuleKeys","setup.imsmerror_get_modulekeys"]
 old-location: setup\imsmerror_get_modulekeys.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f2f483c7-8d38-416e-af92-fd7ab6aef459
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleKeys method, IMsmError.get_ModuleKeys, IMsmError::get_ModuleKeys, _msi_get_modulekeys_function, get_ModuleKeys, get_ModuleKeys method, get_ModuleKeys method,IMsmError interface, mergemod/IMsmError::get_ModuleKeys, setup.imsmerror_get_modulekeys
-f1_keywords:
-- mergemod/IMsmError.get_ModuleKeys
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmError.get_ModuleKeys
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmError::get_ModuleKeys
+ - mergemod/IMsmError::get_ModuleKeys
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmError.get_ModuleKeys
 ---
 
 # IMsmError::get_ModuleKeys
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_ModuleKeys</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-modulekeys">ModuleKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
-
+<a href="/windows/desktop/Msi/error-modulekeys">ModuleKeys</a> property of the <a href="/windows/desktop/Msi/error-object">Error</a> object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
 
 ## -parameters
-
-
-
 
 ### -param ErrorKeys [out]
 
 A pointer to a location in memory that receives a pointer to a string collection.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,29 +92,13 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The client is responsible for releasing the string collection when it is no longer required.
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
-
-
-
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

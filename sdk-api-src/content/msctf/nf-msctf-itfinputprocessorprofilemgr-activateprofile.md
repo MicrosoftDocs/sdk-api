@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfileMgr.ActivateProfile
 title: ITfInputProcessorProfileMgr::ActivateProfile (msctf.h)
 description: The ITfInputProcessorProfileMgr::ActivateProfile method activates the specified text service's profile or keyboard layout.
+helpviewer_keywords: ["ActivateProfile","ActivateProfile method [Text Services Framework]","ActivateProfile method [Text Services Framework]","ITfInputProcessorProfileMgr interface","ITfInputProcessorProfileMgr interface [Text Services Framework]","ActivateProfile method","ITfInputProcessorProfileMgr.ActivateProfile","ITfInputProcessorProfileMgr::ActivateProfile","TF_IPPMF_DISABLEPROFILE","TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE","TF_IPPMF_ENABLEPROFILE","TF_IPPMF_FORPROCESS","TF_IPPMF_FORSESSION","TF_PROFILETYPE_INPUTPROCESSOR","TF_PROFILETYPE_KEYBOARDLAYOUT","msctf/ITfInputProcessorProfileMgr::ActivateProfile","tsf.itfinputprocessorprofilemgr_activateprofile"]
 old-location: tsf\itfinputprocessorprofilemgr_activateprofile.htm
 tech.root: TSF
 ms.assetid: 5e5b3f26-332a-456e-875f-12e440ae67ba
 ms.date: 12/05/2018
 ms.keywords: ActivateProfile, ActivateProfile method [Text Services Framework], ActivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],ActivateProfile method, ITfInputProcessorProfileMgr.ActivateProfile, ITfInputProcessorProfileMgr::ActivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE, TF_IPPMF_ENABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::ActivateProfile, tsf.itfinputprocessorprofilemgr_activateprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfileMgr.ActivateProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfileMgr.ActivateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileMgr::ActivateProfile
+ - msctf/ITfInputProcessorProfileMgr::ActivateProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfileMgr.ActivateProfile
 ---
 
 # ITfInputProcessorProfileMgr::ActivateProfile
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfInputProcessorProfileMgr::ActivateProfile</b> method activates the specified text service's profile or keyboard layout.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProfileType [in]
 
@@ -87,28 +84,22 @@ This is a keyboard layout.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param langid [in]
 
 [in] The language id of the profile to be activated.
 
-
 ### -param clsid [in]
 
 [in] The CLSID of the text service of the profile to be activated. This must be CLSID_NULL if <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT.
-
 
 ### -param guidProfile [in]
 
 [in] The guidProfile of the profile to be activated. This must be GUID_NULL if <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT.
 
-
 ### -param hkl [in]
 
 [in] The handle of the keyboard layout. This must be <b>NULL</b> if dwProfileType is TF_PROFILETYPE_INPUTPROCESSOR.
-
 
 ### -param dwFlags [in]
 
@@ -167,12 +158,8 @@ If the current input language does not match with the requested profile's langua
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -226,23 +213,12 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">ITfInputProcessorProfileMgr::DeactivateProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-deactivateprofile">ITfInputProcessorProfileMgr::DeactivateProfile
       </a>
- 
-
- 
-

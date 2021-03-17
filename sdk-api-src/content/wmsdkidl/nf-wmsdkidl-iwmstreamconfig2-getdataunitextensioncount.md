@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtensionCount
 title: IWMStreamConfig2::GetDataUnitExtensionCount (wmsdkidl.h)
 description: The GetDataUnitExtensionCount method retrieves the total number of data unit extension systems that have been added to the stream.
+helpviewer_keywords: ["GetDataUnitExtensionCount","GetDataUnitExtensionCount method [windows Media Format]","GetDataUnitExtensionCount method [windows Media Format]","IWMStreamConfig2 interface","IWMStreamConfig2 interface [windows Media Format]","GetDataUnitExtensionCount method","IWMStreamConfig2.GetDataUnitExtensionCount","IWMStreamConfig2::GetDataUnitExtensionCount","IWMStreamConfig2GetDataUnitExtensionCount","wmformat.iwmstreamconfig2_getdataunitextensioncount","wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount"]
 old-location: wmformat\iwmstreamconfig2_getdataunitextensioncount.htm
 tech.root: wmformat
 ms.assetid: f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce
 ms.date: 12/05/2018
 ms.keywords: GetDataUnitExtensionCount, GetDataUnitExtensionCount method [windows Media Format], GetDataUnitExtensionCount method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtensionCount method, IWMStreamConfig2.GetDataUnitExtensionCount, IWMStreamConfig2::GetDataUnitExtensionCount, IWMStreamConfig2GetDataUnitExtensionCount, wmformat.iwmstreamconfig2_getdataunitextensioncount, wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
-f1_keywords:
-- wmsdkidl/IWMStreamConfig2.GetDataUnitExtensionCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamConfig2.GetDataUnitExtensionCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig2::GetDataUnitExtensionCount
+ - wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamConfig2.GetDataUnitExtensionCount
 ---
 
 # IWMStreamConfig2::GetDataUnitExtensionCount
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDataUnitExtensionCount</b> method retrieves the total number of data unit extension systems that have been added to the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcDataUnitExtensions [out]
 
 Pointer to a <b>WORD</b> that receives the count of data unit extensions.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>

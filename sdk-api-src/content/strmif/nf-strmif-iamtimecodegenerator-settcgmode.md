@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMTimecodeGenerator.SetTCGMode
 title: IAMTimecodeGenerator::SetTCGMode (strmif.h)
 description: The SetTCGMode method sets the SMPTE timecode generator properties.
+helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTCGMode method","IAMTimecodeGenerator.SetTCGMode","IAMTimecodeGenerator::SetTCGMode","IAMTimecodeGeneratorSetTCGMode","SetTCGMode","SetTCGMode method [DirectShow]","SetTCGMode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settcgmode","strmif/IAMTimecodeGenerator::SetTCGMode"]
 old-location: dshow\iamtimecodegenerator_settcgmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
-f1_keywords:
-- strmif/IAMTimecodeGenerator.SetTCGMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeGenerator.SetTCGMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeGenerator::SetTCGMode
+ - strmif/IAMTimecodeGenerator::SetTCGMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeGenerator.SetTCGMode
 ---
 
 # IAMTimecodeGenerator::SetTCGMode
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTCGMode</code> method sets the SMPTE timecode generator properties.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
@@ -89,8 +83,6 @@ Timecode generator mode. Specify one of the following modes.
 <td>SMPTE timecode format of the generator</td>
 </tr>
 </table>
- 
-
 
 ### -param Value [in]
 
@@ -194,42 +186,23 @@ If ED_TCG_TIMECODE_TYPE is specified in <i>Param</i>, set one of the following.
 <td>Vertical interval timecode</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
-
-
-
 
 ## -remarks
 
-
-
-For more information on ED_TCG_TIMECODE_TYPE, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method.
-
-
-
+For more information on ED_TCG_TIMECODE_TYPE, see the <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>

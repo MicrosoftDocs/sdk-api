@@ -2,15 +2,12 @@
 UID: NS:winuser.tagUSEROBJECTFLAGS
 title: USEROBJECTFLAGS (winuser.h)
 description: Contains information about a window station or desktop handle.
+helpviewer_keywords: ["*PUSEROBJECTFLAGS","DF_ALLOWOTHERACCOUNTHOOK","PUSEROBJECTFLAGS","PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops]","USEROBJECTFLAGS","USEROBJECTFLAGS structure [Windows Stations and Desktops]","WSF_VISIBLE","_win32_userobjectflags_str","base.userobjectflags_str","tagUSEROBJECTFLAGS","winstation.userobjectflags_str","winuser/PUSEROBJECTFLAGS","winuser/USEROBJECTFLAGS"]
 old-location: winstation\userobjectflags_str.htm
 tech.root: winstation
 ms.assetid: 5a973d45-5ff4-47e7-a927-72d3fdd61dc9
 ms.date: 12/05/2018
 ms.keywords: '*PUSEROBJECTFLAGS, DF_ALLOWOTHERACCOUNTHOOK, PUSEROBJECTFLAGS, PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops], USEROBJECTFLAGS, USEROBJECTFLAGS structure [Windows Stations and Desktops], WSF_VISIBLE, _win32_userobjectflags_str, base.userobjectflags_str, tagUSEROBJECTFLAGS, winstation.userobjectflags_str, winuser/PUSEROBJECTFLAGS, winuser/USEROBJECTFLAGS'
-f1_keywords:
-- winuser/USEROBJECTFLAGS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- USEROBJECTFLAGS
 targetos: Windows
 req.typenames: USEROBJECTFLAGS, *PUSEROBJECTFLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUSEROBJECTFLAGS
+ - winuser/tagUSEROBJECTFLAGS
+ - PUSEROBJECTFLAGS
+ - winuser/PUSEROBJECTFLAGS
+ - USEROBJECTFLAGS
+ - winuser/USEROBJECTFLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - USEROBJECTFLAGS
 ---
 
 # USEROBJECTFLAGS structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a window station or desktop handle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field fInherit
 
 If this member is TRUE, new processes inherit the handle. Otherwise, the handle is not inherited.
 
-
 ### -field fReserved
 
 Reserved for future use. This member must be FALSE.
-
 
 ### -field dwFlags
 
@@ -109,32 +108,23 @@ Allows processes running in other accounts on the desktop to set hooks in this p
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>

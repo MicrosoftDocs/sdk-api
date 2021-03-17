@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetPartialFileCount
 title: IVssComponent::GetPartialFileCount (vswriter.h)
 description: The GetPartialFileCount method returns the number of partial files associated with a component.
+helpviewer_keywords: ["GetPartialFileCount","GetPartialFileCount method [VSS]","GetPartialFileCount method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetPartialFileCount method","IVssComponent.GetPartialFileCount","IVssComponent::GetPartialFileCount","_win32_ivsscomponent_getpartialfilecount","base.ivsscomponent_getpartialfilecount","vswriter/IVssComponent::GetPartialFileCount"]
 old-location: base\ivsscomponent_getpartialfilecount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 7be84c00-49c4-4c44-9c12-7994247726a5
 ms.date: 12/05/2018
 ms.keywords: GetPartialFileCount, GetPartialFileCount method [VSS], GetPartialFileCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFileCount method, IVssComponent.GetPartialFileCount, IVssComponent::GetPartialFileCount, _win32_ivsscomponent_getpartialfilecount, base.ivsscomponent_getpartialfilecount, vswriter/IVssComponent::GetPartialFileCount
-f1_keywords:
-- vswriter/IVssComponent.GetPartialFileCount
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetPartialFileCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetPartialFileCount
+ - vswriter/IVssComponent::GetPartialFileCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetPartialFileCount
 ---
 
 # IVssComponent::GetPartialFileCount
@@ -49,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPartialFileCount</b> method returns the number of partial files associated with a component.
 
-
 ## -parameters
-
-
-
 
 ### -param pcPartialFiles [out]
 
 The address of a caller-allocated variable that receives the number of partial files.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -109,30 +103,19 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfile">IVssComponent::GetPartialFile</a>

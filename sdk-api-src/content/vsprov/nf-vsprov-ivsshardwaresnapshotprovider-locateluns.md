@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssHardwareSnapshotProvider.LocateLuns
 title: IVssHardwareSnapshotProvider::LocateLuns (vsprov.h)
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
+helpviewer_keywords: ["IVssHardwareSnapshotProvider interface [VSS]","LocateLuns method","IVssHardwareSnapshotProvider.LocateLuns","IVssHardwareSnapshotProvider::LocateLuns","LocateLuns","LocateLuns method [VSS]","LocateLuns method [VSS]","IVssHardwareSnapshotProvider interface","base.ivsshardwaresnapshotprovider_locateluns","vsprov/IVssHardwareSnapshotProvider::LocateLuns"]
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],LocateLuns method, IVssHardwareSnapshotProvider.LocateLuns, IVssHardwareSnapshotProvider::LocateLuns, LocateLuns, LocateLuns method [VSS], LocateLuns method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_locateluns, vsprov/IVssHardwareSnapshotProvider::LocateLuns
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.LocateLuns
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.LocateLuns
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::LocateLuns
+ - vsprov/IVssHardwareSnapshotProvider::LocateLuns
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.LocateLuns
 ---
 
 # IVssHardwareSnapshotProvider::LocateLuns
 
 
 ## -description
-
 
 The <b>LocateLuns</b> method prompts the hardware provider to make the shadow copy LUNs visible to the computer. The <b>LocateLuns</b> method is called by VSS when a hardware shadow copy set is imported to a computer. 
     The provider is 
@@ -56,23 +57,16 @@ The <b>LocateLuns</b> method prompts the hardware provider to make the shadow co
 
 ## -parameters
 
-
-
-
 ### -param lLunCount [in]
 
 Number of LUNs that contribute to this shadow copy set.
 
-
 ### -param rgSourceLuns [in]
 
-Pointer to an array of <i>iLunCount</i><a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
+Pointer to an array of <i>iLunCount</i><a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures, one for each LUN 
       that is part of the shadow copy set to be imported.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -131,17 +125,11 @@ An unexpected provider error occurred. The provider must report an event in the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-In the  <i>rgSourceLuns</i> parameter, VSS supplies the same array of <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
-    structures that the provider previously initialized in its <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">IVssHardwareSnapshotProvider::GetTargetLuns</a> method. For each <b>VDS_LUN_INFORMATION</b> 
+In the  <i>rgSourceLuns</i> parameter, VSS supplies the same array of <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
+    structures that the provider previously initialized in its <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">IVssHardwareSnapshotProvider::GetTargetLuns</a> method. For each <b>VDS_LUN_INFORMATION</b> 
     structure in the array, the provider should unmask (or "surface") the corresponding shadow copy LUN to the computer.
 
 Immediately after this method returns, VSS will perform a rescan and enumeration to detect any arrived 
@@ -150,39 +138,29 @@ Immediately after this method returns, VSS will perform a rescan and enumeration
     appear in the system or a time-out occurs. If some disk or volume devices fail to appear in this window, the 
     requester will be told that only some of the shadow copies were imported by VSS returning 
     <b>VSS_S_SOME_SNAPSHOTS_NOT_IMPORTED</b> to the requester. The requester will also receive the 
-    same error from VSS if the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
+    same error from VSS if the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
     structures received from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">IVssHardwareSnapshotProvider::FillInLunInfo</a> methods do not match.
+    <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> and 
+    <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">IVssHardwareSnapshotProvider::FillInLunInfo</a> methods do not match.
 
 This method cannot be used to map shadow copy LUNs as read-only.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">FillInLunInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-fillinluninfo">FillInLunInfo</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>

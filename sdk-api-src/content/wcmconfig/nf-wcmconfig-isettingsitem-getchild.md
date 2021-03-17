@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.GetChild
 title: ISettingsItem::GetChild (wcmconfig.h)
 description: Gets the child item that has the specified name.
+helpviewer_keywords: ["GetChild","GetChild method [SMI]","GetChild method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetChild method","ISettingsItem.GetChild","ISettingsItem::GetChild","smi.isettingsitem_getchild","wcmconfig/ISettingsItem::GetChild"]
 old-location: smi\isettingsitem_getchild.htm
 tech.root: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
-f1_keywords:
-- wcmconfig/ISettingsItem.GetChild
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetChild
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetChild
+ - wcmconfig/ISettingsItem::GetChild
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetChild
 ---
 
 # ISettingsItem::GetChild
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the child item that has the specified name.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 The name of the child item.
 
-
 ### -param Child [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that corresponds to the child item.
-
+A pointer to an <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that corresponds to the child item.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,18 +138,7 @@ Indicates that the item does not support children.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

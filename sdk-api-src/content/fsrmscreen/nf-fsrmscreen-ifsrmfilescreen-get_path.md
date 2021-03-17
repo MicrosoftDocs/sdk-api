@@ -2,15 +2,12 @@
 UID: NF:fsrmscreen.IFsrmFileScreen.get_Path
 title: IFsrmFileScreen::get_Path (fsrmscreen.h)
 description: Retrieves the directory path associated with the file screen object.
+helpviewer_keywords: ["IFsrmFileScreen interface [File Server Resource Manager]","Path property","IFsrmFileScreen.Path","IFsrmFileScreen.get_Path","IFsrmFileScreen::Path","IFsrmFileScreen::get_Path","Path property [File Server Resource Manager]","Path property [File Server Resource Manager]","IFsrmFileScreen interface","fs.ifsrmfilescreen_path","fsrm.ifsrmfilescreen_path","fsrmscreen/IFsrmFileScreen::Path","fsrmscreen/IFsrmFileScreen::get_Path","get_Path"]
 old-location: fsrm\ifsrmfilescreen_path.htm
 tech.root: fsrm
 ms.assetid: 383e829c-5089-4404-a6bd-429812069e85
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],Path property, IFsrmFileScreen.Path, IFsrmFileScreen.get_Path, IFsrmFileScreen::Path, IFsrmFileScreen::get_Path, Path property [File Server Resource Manager], Path property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_path, fsrm.ifsrmfilescreen_path, fsrmscreen/IFsrmFileScreen::Path, fsrmscreen/IFsrmFileScreen::get_Path, get_Path
-f1_keywords:
-- fsrmscreen/IFsrmFileScreen.Path
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreen.Path
-- IFsrmFileScreen.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreen::get_Path
+ - fsrmscreen/IFsrmFileScreen::get_Path
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreen.Path
+ - IFsrmFileScreen.get_Path
 ---
 
 # IFsrmFileScreen::get_Path
@@ -49,22 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a> class.]
 
 Retrieves the directory path associated with the file screen object.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Note that the file screen remains associated with the directory if the directory is renamed. If the directory 
     is deleted, so is the file screen.
@@ -73,23 +70,14 @@ Note that the file screen remains associated with the directory if the directory
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a>.
+     <a href="/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>

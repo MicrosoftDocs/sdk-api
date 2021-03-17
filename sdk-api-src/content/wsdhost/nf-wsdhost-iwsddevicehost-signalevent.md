@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.SignalEvent
 title: IWSDDeviceHost::SignalEvent (wsdhost.h)
 description: Notifies all subscribed clients that an event has occurred.
+helpviewer_keywords: ["IWSDDeviceHost interface","SignalEvent method","IWSDDeviceHost.SignalEvent","IWSDDeviceHost::SignalEvent","SignalEvent","SignalEvent method","SignalEvent method","IWSDDeviceHost interface","ncd.iwsddevicehost_signalevent_method","wsdhost/IWSDDeviceHost::SignalEvent"]
 old-location: ncd\iwsddevicehost_signalevent_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: c4cba7f0-6f08-43d7-b255-d3dfb1b5287d
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
-f1_keywords:
-- wsdhost/IWSDDeviceHost.SignalEvent
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.SignalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::SignalEvent
+ - wsdhost/IWSDDeviceHost::SignalEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.SignalEvent
 ---
 
 # IWSDDeviceHost::SignalEvent
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies all subscribed clients that an event has occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param pszServiceId [in]
 
 The ID of the service that generates the event.
 
-
 ### -param pBody [in]
 
-The body of the event. 
-
-
+The body of the event.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -103,7 +93,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The host is not started. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> to start the device host.
+The host is not started. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> to start the device host.
 
 </td>
 </tr>
@@ -119,27 +109,11 @@ The host is not started. Call <a href="https://docs.microsoft.com/windows/deskto
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>SignalEvent</b> blocks until the event is sent to all clients. Since clients are contacted sequentially, it is possible that <b>SignalEvent</b> will block for a long time if any client responds slowly or is unreachable.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

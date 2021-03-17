@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUGetProviderPath
 title: WPUGetProviderPath function (ws2spi.h)
 description: The WPUGetProviderPath function retrieves the DLL path for the specified provider.
+helpviewer_keywords: ["WPUGetProviderPath","WPUGetProviderPath function [Winsock]","_win32_wpugetproviderpath_2","winsock.wpugetproviderpath_2","ws2spi/WPUGetProviderPath"]
 old-location: winsock\wpugetproviderpath_2.htm
 tech.root: WinSock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
 ms.date: 12/05/2018
 ms.keywords: WPUGetProviderPath, WPUGetProviderPath function [Winsock], _win32_wpugetproviderpath_2, winsock.wpugetproviderpath_2, ws2spi/WPUGetProviderPath
-f1_keywords:
-- ws2spi/WPUGetProviderPath
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUGetProviderPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUGetProviderPath
+ - ws2spi/WPUGetProviderPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUGetProviderPath
 ---
 
 # WPUGetProviderPath function
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUGetProviderPath** function retrieves the DLL path for the specified provider.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 Locally unique identifier of the provider. This must be a value obtained by using 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>.
 
-
 ### -param lpszProviderDllPath [out]
 
 Pointer to a buffer containing a string that identifies the provider DLL's path. This path is a null-terminated string and any embedded environment strings (such as %SystemRoot%) have not been expanded.
-
 
 ### -param lpProviderDllPathLen [in, out]
 
 Size of the buffer pointed to by <i>lpszProviderDllPath</i>, in characters.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUGetProviderPath** returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -121,31 +112,16 @@ Either <i>lpszProviderDllPath</i> or <i>lpErrno</i> is not in a valid part of th
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUGetProviderPath** function retrieves the DLL path for the specified provider. The DLL path is null-terminated and may contain embedded environment strings (such as %SystemRoot%). Thus, the string should be expanded prior to being used with <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>. For more information, see **LoadLibrary**.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
 
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
- 
-
- 
 

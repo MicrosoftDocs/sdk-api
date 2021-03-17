@@ -2,15 +2,12 @@
 UID: NS:wingdi.tagBITMAPCOREINFO
 title: BITMAPCOREINFO (wingdi.h)
 description: The BITMAPCOREINFO structure defines the dimensions and color information for a DIB.
+helpviewer_keywords: ["*LPBITMAPCOREINFO","*PBITMAPCOREINFO","BITMAPCOREINFO","BITMAPCOREINFO structure [Windows GDI]","PBITMAPCOREINFO","PBITMAPCOREINFO structure pointer [Windows GDI]","_win32_BITMAPCOREINFO_str","gdi.bitmapcoreinfo","wingdi/BITMAPCOREINFO","wingdi/PBITMAPCOREINFO"]
 old-location: gdi\bitmapcoreinfo.htm
 tech.root: gdi
 ms.assetid: cb6cb9da-8f7f-47e9-980a-aa77fe04c80c
 ms.date: 12/05/2018
 ms.keywords: '*LPBITMAPCOREINFO, *PBITMAPCOREINFO, BITMAPCOREINFO, BITMAPCOREINFO structure [Windows GDI], PBITMAPCOREINFO, PBITMAPCOREINFO structure pointer [Windows GDI], _win32_BITMAPCOREINFO_str, gdi.bitmapcoreinfo, wingdi/BITMAPCOREINFO, wingdi/PBITMAPCOREINFO'
-f1_keywords:
-- wingdi/BITMAPCOREINFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BITMAPCOREINFO
 targetos: Windows
 req.typenames: BITMAPCOREINFO, *LPBITMAPCOREINFO, *PBITMAPCOREINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBITMAPCOREINFO
+ - wingdi/tagBITMAPCOREINFO
+ - LPBITMAPCOREINFO
+ - wingdi/LPBITMAPCOREINFO
+ - BITMAPCOREINFO
+ - wingdi/BITMAPCOREINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BITMAPCOREINFO
 ---
 
 # BITMAPCOREINFO structure
@@ -48,35 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BITMAPCOREINFO</b> structure defines the dimensions and color information for a DIB.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field bmciHeader
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a> structure that contains information about the dimensions and color format of a DIB.
-
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a> structure that contains information about the dimensions and color format of a DIB.
 
 ### -field bmciColors
 
-Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a> structures that define the colors in the bitmap.
-
+Specifies an array of <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a> structures that define the colors in the bitmap.
 
 ## -remarks
 
-
-
 A DIB consists of two parts: a <b>BITMAPCOREINFO</b> structure describing the dimensions and colors of the bitmap, and an array of bytes defining the pixels of the bitmap. The bits in the array are packed together, but each scan line must be padded with zeros to end on a <b>LONG</b> boundary. The origin of the bitmap is the lower-left corner.
 
-The <b>bcBitCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a> structure determines the number of bits that define each pixel and the maximum number of colors in the bitmap. This member can be one of the following values.
+The <b>bcBitCount</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a> structure determines the number of bits that define each pixel and the maximum number of colors in the bitmap. This member can be one of the following values.
 
 <table>
 <tr>
@@ -104,46 +98,37 @@ The <b>bcBitCount</b> member of the <a href="https://docs.microsoft.com/windows/
 
 The colors in the <b>bmciColors</b> table should appear in order of importance.
 
-Alternatively, for functions that use DIBs, the <b>bmciColors</b> member can be an array of 16-bit unsigned integers that specify indexes into the currently realized logical palette, instead of explicit RGB values. In this case, an application using the bitmap must call the DIB functions ( <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> ) with the <i>iUsage</i> parameter set to DIB_PAL_COLORS.
+Alternatively, for functions that use DIBs, the <b>bmciColors</b> member can be an array of 16-bit unsigned integers that specify indexes into the currently realized logical palette, instead of explicit RGB values. In this case, an application using the bitmap must call the DIB functions ( <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> ) with the <i>iUsage</i> parameter set to DIB_PAL_COLORS.
 
 <div class="alert"><b>Note</b>  <p class="note">The <b>bmciColors</b> member should not contain palette indexes if the bitmap is to be stored in a file or transferred to another application. Unless the application has exclusive use and control of the bitmap, the bitmap color table should contain explicit RGB values.
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreheader">BITMAPCOREHEADER</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a>

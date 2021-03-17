@@ -2,15 +2,12 @@
 UID: NF:d2d1.ID2D1DrawingStateBlock.GetTextRenderingParams
 title: ID2D1DrawingStateBlock::GetTextRenderingParams (d2d1.h)
 description: Retrieves the text-rendering configuration of the drawing state.
+helpviewer_keywords: ["GetTextRenderingParams","GetTextRenderingParams method [Direct2D]","GetTextRenderingParams method [Direct2D]","ID2D1DrawingStateBlock interface","ID2D1DrawingStateBlock interface [Direct2D]","GetTextRenderingParams method","ID2D1DrawingStateBlock.GetTextRenderingParams","ID2D1DrawingStateBlock::GetTextRenderingParams","d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams","direct2d.ID2D1DrawingStateBlock_GetTextRenderingParams"]
 old-location: direct2d\ID2D1DrawingStateBlock_GetTextRenderingParams.htm
 tech.root: Direct2D
 ms.assetid: 86822497-e256-445b-8da9-9ead229f89ee
 ms.date: 12/05/2018
 ms.keywords: GetTextRenderingParams, GetTextRenderingParams method [Direct2D], GetTextRenderingParams method [Direct2D],ID2D1DrawingStateBlock interface, ID2D1DrawingStateBlock interface [Direct2D],GetTextRenderingParams method, ID2D1DrawingStateBlock.GetTextRenderingParams, ID2D1DrawingStateBlock::GetTextRenderingParams, d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams, direct2d.ID2D1DrawingStateBlock_GetTextRenderingParams
-f1_keywords:
-- d2d1/ID2D1DrawingStateBlock.GetTextRenderingParams
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DrawingStateBlock.GetTextRenderingParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DrawingStateBlock::GetTextRenderingParams
+ - d2d1/ID2D1DrawingStateBlock::GetTextRenderingParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DrawingStateBlock.GetTextRenderingParams
 ---
 
 # ID2D1DrawingStateBlock::GetTextRenderingParams
@@ -48,38 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the text-rendering configuration of the drawing state.
-
 
 ## -parameters
 
-
-
-
 ### -param textRenderingParams [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
+Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
+When this method returns, contains the address of a pointer to an <a href="/windows/win32/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a> object that describes the text-rendering configuration of the drawing state.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
 

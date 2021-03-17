@@ -3,10 +3,6 @@ UID: NS:heapapi._HEAP_SUMMARY
 title: HEAP_SUMMARY
 ms.date: 4/26/2019
 ms.keywords: _HEAP_SUMMARY, HEAP_SUMMARY
-f1_keywords:
-- _HEAP_SUMMARY
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -23,26 +19,35 @@ req.target-type:
 req.typenames: HEAP_SUMMARY, *PHEAP_SUMMARY
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _HEAP_SUMMARY
+ - heapapi/_HEAP_SUMMARY
+ - PHEAP_SUMMARY
+ - heapapi/PHEAP_SUMMARY
+ - HEAP_SUMMARY
+ - heapapi/HEAP_SUMMARY
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- heapapi.h
+ - heapapi.h
 api_name:
-- _HEAP_SUMMARY
-- HEAP_SUMMARY
+ - _HEAP_SUMMARY
+ - HEAP_SUMMARY
 ---
 
 ## -description
 
-Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary)
+Represents a heap summary retrieved with a call to [HeapSummary](nf-heapapi-heapsummary.md)
 
 ## -struct-fields
 
 ### -field cb
 
-Address of a continuous block of memory.
+The size of this data structure, in bytes. Set this member to sizeof(HEAP_SUMMARY).
 
 ### -field cbAllocated
 
@@ -51,7 +56,6 @@ The size of the allocated memory.
 ### -field cbCommitted
 
 The size of the committed memory.
-
 
 ### -field cbReserved
 

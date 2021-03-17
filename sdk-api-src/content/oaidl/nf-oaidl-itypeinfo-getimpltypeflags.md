@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetImplTypeFlags
 title: ITypeInfo::GetImplTypeFlags (oaidl.h)
 description: Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
+helpviewer_keywords: ["GetImplTypeFlags","GetImplTypeFlags method [Automation]","GetImplTypeFlags method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetImplTypeFlags method","ITypeInfo.GetImplTypeFlags","ITypeInfo::GetImplTypeFlags","_oa96_ITypeInfo_GetImplTypeFlags","automat.itypeinfo_getimpltypeflags","oaidl/ITypeInfo::GetImplTypeFlags"]
 old-location: automat\itypeinfo_getimpltypeflags.htm
 tech.root: automat
 ms.assetid: b3773111-b09d-4ae0-9a91-3c4adff5b803
 ms.date: 12/05/2018
 ms.keywords: GetImplTypeFlags, GetImplTypeFlags method [Automation], GetImplTypeFlags method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetImplTypeFlags method, ITypeInfo.GetImplTypeFlags, ITypeInfo::GetImplTypeFlags, _oa96_ITypeInfo_GetImplTypeFlags, automat.itypeinfo_getimpltypeflags, oaidl/ITypeInfo::GetImplTypeFlags
-f1_keywords:
-- oaidl/ITypeInfo.GetImplTypeFlags
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetImplTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetImplTypeFlags
+ - oaidl/ITypeInfo::GetImplTypeFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetImplTypeFlags
 ---
 
 # ITypeInfo::GetImplTypeFlags
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the IMPLTYPEFLAGS enumeration for one implemented interface or base interface in a type description.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the implemented interface or base interface for which to get the flags.
 
-
-
-
 ### -param pImplTypeFlags [out]
 
 The IMPLTYPEFLAGS enumeration value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,28 +108,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The flags are associated with the act of inheritance, and not with the inherited interface.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

@@ -2,15 +2,12 @@
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetObjectCount
 title: IMFSpatialAudioSample::GetObjectCount (mfspatialaudio.h)
 description: Gets the count of spatial audio objects, represented by IMFSpatialAudioObjectBuffer objects, in the sample.
+helpviewer_keywords: ["GetObjectCount","GetObjectCount method [Media Foundation]","GetObjectCount method [Media Foundation]","IMFSpatialAudioSample interface","IMFSpatialAudioSample interface [Media Foundation]","GetObjectCount method","IMFSpatialAudioSample.GetObjectCount","IMFSpatialAudioSample::GetObjectCount","mf.imfspatialaudiosample_getobjectcount","mfspatialaudio/IMFSpatialAudioSample::GetObjectCount"]
 old-location: mf\imfspatialaudiosample_getobjectcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D386E482-4C5A-4F8A-801F-EA1AD4C9157C
 ms.date: 12/05/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Media Foundation], GetObjectCount method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetObjectCount method, IMFSpatialAudioSample.GetObjectCount, IMFSpatialAudioSample::GetObjectCount, mf.imfspatialaudiosample_getobjectcount, mfspatialaudio/IMFSpatialAudioSample::GetObjectCount
-f1_keywords:
-- mfspatialaudio/IMFSpatialAudioSample.GetObjectCount
-dev_langs:
-- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.lib
-- mfobjects.dll
-api_name:
-- IMFSpatialAudioSample.GetObjectCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSpatialAudioSample::GetObjectCount
+ - mfspatialaudio/IMFSpatialAudioSample::GetObjectCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.lib
+ - mfobjects.dll
+api_name:
+ - IMFSpatialAudioSample.GetObjectCount
 ---
 
 # IMFSpatialAudioSample::GetObjectCount
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the count of spatial audio objects, represented by <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
-
+Gets the count of spatial audio objects, represented by <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
 
 ## -parameters
-
-
-
 
 ### -param pdwObjectCount [out]
 
 A pointer to a 32 bit variable where the total number of audio objects in the sample will be stored.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,18 +91,7 @@ The supplied pointer is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IResourceManager.NotifyAcquire
 title: IResourceManager::NotifyAcquire (strmif.h)
 description: The NotifyAcquire method notifies the resource manager that an attempt to acquire a resource has completed.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","NotifyAcquire method","IResourceManager.NotifyAcquire","IResourceManager::NotifyAcquire","IResourceManagerNotifyAcquire","NotifyAcquire","NotifyAcquire method [DirectShow]","NotifyAcquire method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_notifyacquire","strmif/IResourceManager::NotifyAcquire"]
 old-location: dshow\iresourcemanager_notifyacquire.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
-f1_keywords:
-- strmif/IResourceManager.NotifyAcquire
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IResourceManager.NotifyAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResourceManager::NotifyAcquire
+ - strmif/IResourceManager::NotifyAcquire
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IResourceManager.NotifyAcquire
 ---
 
 # IResourceManager::NotifyAcquire
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>NotifyAcquire</code> method notifies the resource manager that an attempt to acquire a resource has completed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param idResource [in]
 
 Token for the registered resource.
 
-
 ### -param pConsumer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface of the object requesting the resource.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface of the object requesting the resource.
 
 ### -param hr [in]
 
 Value indicating the success of the acquisition; S_OK if the resource was acquired, or an error value if not.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -143,31 +132,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use this method after an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-acquireresource">IResourceConsumer::AcquireResource</a> method returns an S_FALSE value, indicating that the acquisition will be asynchronous (that is, handled by a callback mechanism). If the <i>hr</i> parameter is S_OK, the resource manager will assume that the resource is now held by the caller. If the <i>hr</i> parameter is anything other than S_OK, the resource manager will assume that the attempt to acquire the resource failed and will reassign the resource elsewhere.
-
-
-
+Use this method after an <a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-acquireresource">IResourceConsumer::AcquireResource</a> method returns an S_FALSE value, indicating that the acquisition will be asynchronous (that is, handled by a callback mechanism). If the <i>hr</i> parameter is S_OK, the resource manager will assume that the resource is now held by the caller. If the <i>hr</i> parameter is anything other than S_OK, the resource manager will assume that the attempt to acquire the resource failed and will reassign the resource elsewhere.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

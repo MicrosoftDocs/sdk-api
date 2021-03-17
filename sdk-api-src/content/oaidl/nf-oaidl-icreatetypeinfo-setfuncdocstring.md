@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetFuncDocString
 title: ICreateTypeInfo::SetFuncDocString (oaidl.h)
 description: Sets the documentation string for the function with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetFuncDocString method","ICreateTypeInfo.SetFuncDocString","ICreateTypeInfo::SetFuncDocString","SetFuncDocString","SetFuncDocString method [Automation]","SetFuncDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetFuncDocString","automat.icreatetypeinfo_setfuncdocstring","oaidl/ICreateTypeInfo::SetFuncDocString"]
 old-location: automat\icreatetypeinfo_setfuncdocstring.htm
 tech.root: automat
 ms.assetid: e2377502-b26f-401f-82f1-d65f739a684f
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncDocString method, ICreateTypeInfo.SetFuncDocString, ICreateTypeInfo::SetFuncDocString, SetFuncDocString, SetFuncDocString method [Automation], SetFuncDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncDocString, automat.icreatetypeinfo_setfuncdocstring, oaidl/ICreateTypeInfo::SetFuncDocString
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetFuncDocString
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetFuncDocString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetFuncDocString
+ - oaidl/ICreateTypeInfo::SetFuncDocString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetFuncDocString
 ---
 
 # ICreateTypeInfo::SetFuncDocString
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the documentation string for the function with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the function.
 
-
 ### -param szDocString [in]
 
 The documentation string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -151,28 +144,11 @@ The element cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The documentation string is a brief description of the function intended for use by tools such as type browsers. <b>SetFuncDocString</b> only needs to be used once for each property, because all property accessor functions are identified by one name.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

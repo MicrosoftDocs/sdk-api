@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSensorDevice.GetDeviceType
 title: IMFSensorDevice::GetDeviceType (mfidl.h)
 description: Gets a value that specifies the type of sensor device represented by the object.
+helpviewer_keywords: ["GetDeviceType","GetDeviceType method [Media Foundation]","GetDeviceType method [Media Foundation]","IMFSensorDevice interface","IMFSensorDevice interface [Media Foundation]","GetDeviceType method","IMFSensorDevice.GetDeviceType","IMFSensorDevice::GetDeviceType","mf.imfsensordevice_getdevicetype","mfidl/IMFSensorDevice::GetDeviceType"]
 old-location: mf\imfsensordevice_getdevicetype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
 ms.date: 12/05/2018
 ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
-f1_keywords:
-- mfidl/IMFSensorDevice.GetDeviceType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorDevice.GetDeviceType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorDevice::GetDeviceType
+ - mfidl/IMFSensorDevice::GetDeviceType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorDevice.GetDeviceType
 ---
 
 # IMFSensorDevice::GetDeviceType
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that specifies the type of sensor device represented by the object.
 
-
 ## -parameters
-
-
-
 
 ### -param pType
 
 A value that specifies the type of sensor device represented by the object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -112,18 +106,7 @@ The sensor group has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>

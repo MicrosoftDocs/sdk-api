@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphConfig.AddFilterToCache
 title: IGraphConfig::AddFilterToCache (strmif.h)
 description: The AddFilterToCache method adds a filter to the filter cache.
+helpviewer_keywords: ["AddFilterToCache","AddFilterToCache method [DirectShow]","AddFilterToCache method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","AddFilterToCache method","IGraphConfig.AddFilterToCache","IGraphConfig::AddFilterToCache","IGraphConfigAddFilterToCache","dshow.igraphconfig_addfiltertocache","strmif/IGraphConfig::AddFilterToCache"]
 old-location: dshow\igraphconfig_addfiltertocache.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8d5c6d55-1628-462b-828a-50541b6da3e7
 ms.date: 12/05/2018
 ms.keywords: AddFilterToCache, AddFilterToCache method [DirectShow], AddFilterToCache method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],AddFilterToCache method, IGraphConfig.AddFilterToCache, IGraphConfig::AddFilterToCache, IGraphConfigAddFilterToCache, dshow.igraphconfig_addfiltertocache, strmif/IGraphConfig::AddFilterToCache
-f1_keywords:
-- strmif/IGraphConfig.AddFilterToCache
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphConfig.AddFilterToCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphConfig::AddFilterToCache
+ - strmif/IGraphConfig::AddFilterToCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphConfig.AddFilterToCache
 ---
 
 # IGraphConfig::AddFilterToCache
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>AddFilterToCache</code> method adds a filter to the filter cache.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFilter [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -122,31 +113,15 @@ Filter was added to the cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must disconnect all of the filter's pins before calling this method, or the method will fail. If the filter is in the filter graph, this method will remove it. This method will also put the filter into a stopped state, if it is not already.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>

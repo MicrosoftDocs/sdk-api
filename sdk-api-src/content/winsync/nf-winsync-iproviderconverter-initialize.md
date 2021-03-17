@@ -2,15 +2,12 @@
 UID: NF:winsync.IProviderConverter.Initialize
 title: IProviderConverter::Initialize (winsync.h)
 description: When implemented by a derived class, initializes the IProviderConverter object with the ISyncProvider object to be converted to IKnowledgeSyncProvider.
+helpviewer_keywords: ["IProviderConverter interface [Windows Sync]","Initialize method","IProviderConverter.Initialize","IProviderConverter::Initialize","Initialize","Initialize method [Windows Sync]","Initialize method [Windows Sync]","IProviderConverter interface","winsync.iproviderconverter_initialize","winsync/IProviderConverter::Initialize"]
 old-location: winsync\iproviderconverter_initialize.htm
 tech.root: winsync
 ms.assetid: 5bdb8b16-cda3-4f0d-b147-4dcfce81f592
 ms.date: 12/05/2018
 ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IProviderConverter.Initialize, IProviderConverter::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IProviderConverter interface, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
-f1_keywords:
-- winsync/IProviderConverter.Initialize
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IProviderConverter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderConverter::Initialize
+ - winsync/IProviderConverter::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IProviderConverter.Initialize
 ---
 
 # IProviderConverter::Initialize
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 When implemented by a derived class, initializes the <b>IProviderConverter</b> object with the <b>ISyncProvider</b> object to be converted to <b>IKnowledgeSyncProvider</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param pISyncProvider [in]
 
 The <b>ISyncProvider</b> object to be converted.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,18 +87,7 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iproviderconverter">IProviderConverter Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iproviderconverter">IProviderConverter Interface</a>

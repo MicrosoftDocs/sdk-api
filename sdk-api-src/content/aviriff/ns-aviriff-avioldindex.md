@@ -2,16 +2,12 @@
 UID: NS:aviriff._avioldindex
 title: AVIOLDINDEX (aviriff.h)
 description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
+helpviewer_keywords: ["AVIIF_KEYFRAME","AVIIF_LIST","AVIIF_NO_TIME","AVIOLDINDEX","AVIOLDINDEX structure [DirectShow]","AVIOLDINDEXStructure","aviriff/AVIOLDINDEX","db","dc","dshow.avioldindex","pc","wb"]
 old-location: dshow\avioldindex.htm
 tech.root: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
-ms.topic: struct
-f1_keywords:
-- aviriff/AVIOLDINDEX
-dev_langs:
-- c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Aviriff.h
-api_name:
-- AVIOLDINDEX
 targetos: Windows
 req.typenames: AVIOLDINDEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _avioldindex
+ - aviriff/_avioldindex
+ - AVIOLDINDEX
+ - aviriff/AVIOLDINDEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Aviriff.h
+api_name:
+ - AVIOLDINDEX
 ---
 
 # AVIOLDINDEX structure
@@ -49,52 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIOLDINDEX</b> structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field fcc
 
 Specifies a FOURCC code. The value must be 'idx1'.
 
-
 ### -field cb
 
 Specifies the size of the structure, not including the initial 8 bytes.
 
-
 ### -field _avioldindex_entry
-
- 
-
 
 ### -field _avioldindex_entry.dwChunkId
 
- 
-
-
 ### -field _avioldindex_entry.dwFlags
-
- 
-
 
 ### -field _avioldindex_entry.dwOffset
 
- 
-
-
 ### -field _avioldindex_entry.dwSize
-
- 
-
 
 ### -field aIndex
 
@@ -178,27 +156,14 @@ Specifies the location of the data chunk in the file. The value should be specif
 
 Specifies the size of the data chunk, in bytes.
 
-
 ## -remarks
-
-
 
 This structure consists of the initial RIFF chunk (the <b>fcc</b> and <b>cb</b> members) followed by one index entry for each data chunk in the 'movi' list.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

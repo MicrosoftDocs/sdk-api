@@ -2,15 +2,12 @@
 UID: NF:lmaccess.NetUserModalsSet
 title: NetUserModalsSet function (lmaccess.h)
 description: The NetUserModalsSet function sets global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
+helpviewer_keywords: ["0","1","1001","1002","1003","1004","1005","1006","1007","2","3","NetUserModalsSet","NetUserModalsSet function [Network Management]","_win32_netusermodalsset","lmaccess/NetUserModalsSet","netmgmt.netusermodalsset"]
 old-location: netmgmt\netusermodalsset.htm
 tech.root: NetMgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
-f1_keywords:
-- lmaccess/NetUserModalsSet
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserModalsSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserModalsSet
+ - lmaccess/NetUserModalsSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserModalsSet
 ---
 
 # NetUserModalsSet function
@@ -48,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserModalsSet</b> function sets global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param level [in]
 
@@ -85,7 +77,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies global password parameters. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -96,7 +88,7 @@ Specifies global password parameters. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies logon server and domain controller information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -107,7 +99,7 @@ Specifies logon server and domain controller information. The <i>buf</i> paramet
 </td>
 <td width="60%">
 Specifies the domain name and identifier. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -118,7 +110,7 @@ Specifies the domain name and identifier. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies lockout information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -129,7 +121,7 @@ Specifies lockout information. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the minimum allowable password length. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a> structure.
 
 </td>
 </tr>
@@ -140,7 +132,7 @@ Specifies the minimum allowable password length. The <i>buf</i> parameter points
 </td>
 <td width="60%">
 Specifies the maximum allowable password age. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a> structure.
 
 </td>
 </tr>
@@ -151,7 +143,7 @@ Specifies the maximum allowable password age. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies the minimum allowable password age. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a> structure.
 
 </td>
 </tr>
@@ -162,7 +154,7 @@ Specifies the minimum allowable password age. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies forced logoff information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a> structure.
 
 </td>
 </tr>
@@ -173,7 +165,7 @@ Specifies forced logoff information. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies the length of the password history. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a> structure.
 
 </td>
 </tr>
@@ -184,7 +176,7 @@ Specifies the length of the password history. The <i>buf</i> parameter points to
 </td>
 <td width="60%">
 Specifies the role of the logon server. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a> structure.
 
 </td>
 </tr>
@@ -195,28 +187,22 @@ Specifies the role of the logon server. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 Specifies domain controller information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param buf [in]
 
 Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
-
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 ### -param parm_err [out]
 
 Pointer to a value that receives the index of the first member of the information structure that causes ERROR_INVALID_PARAMETER. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -272,21 +258,15 @@ The user name could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain">IADsDomain</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsdomain">IADsDomain</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
+<a href="/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the Domain object is used to perform the access check for this function. Typically, callers must have write access to the entire object for calls to this function to succeed.
 
@@ -354,7 +334,7 @@ If the
 
 The following code sample demonstrates how to set the global information for all users and global groups with a call to the 
 <b>NetUserModalsSet</b> function. The sample fills in the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure and calls 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure and calls 
 <b>NetUserModalsSet</b>, specifying information level 0.
 
 
@@ -415,76 +395,65 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusermodalsget">NetUserModalsGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusermodalsget">NetUserModalsGet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1001">USER_MODALS_INFO_1001</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1002">USER_MODALS_INFO_1002</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1003">USER_MODALS_INFO_1003</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1004">USER_MODALS_INFO_1004</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1005">USER_MODALS_INFO_1005</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1006">USER_MODALS_INFO_1006</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1007">USER_MODALS_INFO_1007</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-modal-functions">User Modals
+<a href="/windows/desktop/NetMgmt/user-modal-functions">User Modals
 		  Functions</a>
- 
-
- 
-

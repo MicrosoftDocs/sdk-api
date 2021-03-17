@@ -2,6 +2,7 @@
 UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
 title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter (traceloggingactivity.h)
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
+helpviewer_keywords: ["TraceLoggingThreadActivityIdSetter","TraceLoggingThreadActivityIdSetter interface","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter interface","TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter","TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter","tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter","traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter"]
 old-location: tracelogging\traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter.htm
 tech.root: tracelogging
 ms.assetid: F950256A-27A8-4C8F-B4A3-974F0E095103
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
+Creates a new <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
 
 
 ## -parameters
@@ -64,22 +65,12 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 A reference to the unique identifier that should be associated with this instance.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
  
 
  
-

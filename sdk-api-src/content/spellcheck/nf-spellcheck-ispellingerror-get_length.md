@@ -2,15 +2,12 @@
 UID: NF:spellcheck.ISpellingError.get_Length
 title: ISpellingError::get_Length (spellcheck.h)
 description: Gets the length of the erroneous text.
+helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","Length property","ISpellingError.Length","ISpellingError.get_Length","ISpellingError::Length","ISpellingError::get_Length","Length property [Internationalization for Windows Applications]","Length property [Internationalization for Windows Applications]","ISpellingError interface","get_Length","intl.ispellingerror_length","spellcheck/ISpellingError::Length","spellcheck/ISpellingError::get_Length"]
 old-location: intl\ispellingerror_length.htm
 tech.root: Intl
 ms.assetid: 641f8dbc-2cb2-448a-9382-9512cb91edb0
 ms.date: 12/05/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Length property, ISpellingError.Length, ISpellingError.get_Length, ISpellingError::Length, ISpellingError::get_Length, Length property [Internationalization for Windows Applications], Length property [Internationalization for Windows Applications],ISpellingError interface, get_Length, intl.ispellingerror_length, spellcheck/ISpellingError::Length, spellcheck/ISpellingError::get_Length
-f1_keywords:
-- spellcheck/ISpellingError.Length
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellingError.Length
-- ISpellingError.get_Length
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellingError::get_Length
+ - spellcheck/ISpellingError::get_Length
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellingError.Length
+ - ISpellingError.get_Length
 ---
 
 # ISpellingError::get_Length
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the length of the erroneous text.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>

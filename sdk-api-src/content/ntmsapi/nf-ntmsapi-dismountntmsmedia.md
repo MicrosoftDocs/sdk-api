@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.DismountNtmsMedia
 title: DismountNtmsMedia function (ntmsapi.h)
 description: The DismountNtmsMedia function queues a command to move the specified media in a drive to its storage. This function should be paired with the MountNtmsMedia function.
+helpviewer_keywords: ["DismountNtmsMedia","DismountNtmsMedia function [Files]","NTMS_DISMOUNT_DEFERRED","NTMS_DISMOUNT_IMMEDIATE","_zaw_dismountntmsmedia","base.dismountntmsmedia","fs.dismountntmsmedia","ntmsapi/DismountNtmsMedia"]
 old-location: fs\dismountntmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 95336487-ca50-4003-a155-eb70173f8604
 ms.date: 12/05/2018
 ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_dismountntmsmedia, base.dismountntmsmedia, fs.dismountntmsmedia, ntmsapi/DismountNtmsMedia
-f1_keywords:
-- ntmsapi/DismountNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- DismountNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DismountNtmsMedia
+ - ntmsapi/DismountNtmsMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - DismountNtmsMedia
 ---
 
 # DismountNtmsMedia function
@@ -48,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>DismountNtmsMedia</b> function queues a command to move the specified media in a drive to its storage. This function should be paired with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Array of at least one logical medium or side.
 
-
 ### -param dwCount [in]
 
 Number of media identifiers in the <i>lpMediaId</i> parameter.
-
 
 ### -param dwOptions [in]
 
@@ -109,12 +103,8 @@ Dismount the drive immediately.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -256,14 +246,8 @@ The time-out event expired while the application attempted to acquire one or mor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application must use the 
 <b>DismountNtmsMedia</b> function to release the drive resource after the application has used the specified medium. Unreleased media cannot be used by other RSM sessions.
@@ -271,20 +255,10 @@ An application must use the
 The 
 <b>DismountNtmsMedia</b> function returns as soon as the operation is queued with RSM. The application can wait for the side state to become idle.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>

@@ -2,15 +2,12 @@
 UID: NF:commctrl.ImageList_Copy
 title: ImageList_Copy function (commctrl.h)
 description: Copies images within a given image list.
+helpviewer_keywords: ["ILCF_MOVE","ILCF_SWAP","ImageList_Copy","ImageList_Copy function [Windows Controls]","_win32_ImageList_Copy","_win32_ImageList_Copy_cpp","commctrl/ImageList_Copy","controls.ImageList_Copy","controls._win32_ImageList_Copy"]
 old-location: controls\ImageList_Copy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm
 ms.date: 12/05/2018
 ms.keywords: ILCF_MOVE, ILCF_SWAP, ImageList_Copy, ImageList_Copy function [Windows Controls], _win32_ImageList_Copy, _win32_ImageList_Copy_cpp, commctrl/ImageList_Copy, controls.ImageList_Copy, controls._win32_ImageList_Copy
-f1_keywords:
-- commctrl/ImageList_Copy
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.70 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- ImageList_Copy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_Copy
+ - commctrl/ImageList_Copy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - ImageList_Copy
 ---
 
 # ImageList_Copy function
@@ -48,46 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies images within a given image list. 
-
+Copies images within a given image list.
 
 ## -parameters
-
-
-
 
 ### -param himlDst
 
 Type: <b>HIMAGELIST</b>
 
-A handle to an image list that is the target of the copy operation. In current versions of Windows, both <i>himlDst</i> and <i>himlSrc</i> must be identical. 
-
+A handle to an image list that is the target of the copy operation. In current versions of Windows, both <i>himlDst</i> and <i>himlSrc</i> must be identical.
 
 ### -param iDst
 
 Type: <b>int</b>
 
-The zero-based index of the image to be used as the destination of the copy operation. 
-
+The zero-based index of the image to be used as the destination of the copy operation.
 
 ### -param himlSrc
 
 Type: <b>HIMAGELIST</b>
 
-A handle to an image list that is the target of the copy operation. In current versions of Windows, both <i>himlDst</i> and <i>himlSrc</i> must be identical. 
-
+A handle to an image list that is the target of the copy operation. In current versions of Windows, both <i>himlDst</i> and <i>himlSrc</i> must be identical.
 
 ### -param iSrc
 
 Type: <b>int</b>
 
-The zero-based index of the image to be used as the source of the copy operation. 
-
+The zero-based index of the image to be used as the source of the copy operation.
 
 ### -param uFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 the bit flag value that specifies the type of copy operation to be made. This parameter can be one of the following values: 
 
@@ -117,16 +110,9 @@ The source and destination images exchange positions within the image list.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
-
-Returns nonzero if successful, or zero otherwise. 
-
-
-
+Returns nonzero if successful, or zero otherwise.

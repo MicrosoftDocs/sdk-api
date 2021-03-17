@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMNetShowPreroll.get_Preroll
 title: IAMNetShowPreroll::get_Preroll (qnetwork.h)
 description: The get_Preroll method queries whether the filter is currently prerolling.
+helpviewer_keywords: ["IAMNetShowPreroll interface [DirectShow]","get_Preroll method","IAMNetShowPreroll.get_Preroll","IAMNetShowPreroll::get_Preroll","IAMNetShowPrerollget_Preroll","dshow.iamnetshowpreroll_get_preroll","get_Preroll","get_Preroll method [DirectShow]","get_Preroll method [DirectShow]","IAMNetShowPreroll interface","qnetwork/IAMNetShowPreroll::get_Preroll"]
 old-location: dshow\iamnetshowpreroll_get_preroll.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
-f1_keywords:
-- qnetwork/IAMNetShowPreroll.get_Preroll
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMNetShowPreroll.get_Preroll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMNetShowPreroll::get_Preroll
+ - qnetwork/IAMNetShowPreroll::get_Preroll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMNetShowPreroll.get_Preroll
 ---
 
 # IAMNetShowPreroll::get_Preroll
@@ -48,39 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Preroll</code> method queries whether the filter is currently prerolling.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfPreroll
 
 Pointer to a variable that receives a Boolean value.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowpreroll">IAMNetShowPreroll Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowpreroll">IAMNetShowPreroll Interface</a>

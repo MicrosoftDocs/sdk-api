@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.RemoveDynamicService
 title: IWSDDeviceHost::RemoveDynamicService (wsdhost.h)
 description: Unregisters a service object that was registered using AddDynamicService.
+helpviewer_keywords: ["IWSDDeviceHost interface","RemoveDynamicService method","IWSDDeviceHost.RemoveDynamicService","IWSDDeviceHost::RemoveDynamicService","RemoveDynamicService","RemoveDynamicService method","RemoveDynamicService method","IWSDDeviceHost interface","ncd.iwsddevicehost_removedynamicservice_method","wsdhost/IWSDDeviceHost::RemoveDynamicService"]
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
-f1_keywords:
-- wsdhost/IWSDDeviceHost.RemoveDynamicService
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.RemoveDynamicService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::RemoveDynamicService
+ - wsdhost/IWSDDeviceHost::RemoveDynamicService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.RemoveDynamicService
 ---
 
 # IWSDDeviceHost::RemoveDynamicService
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unregisters a service object that was registered using <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>. An unregistered service object does not receive incoming requests.
-
+Unregisters a service object that was registered using <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">AddDynamicService</a>. An unregistered service object does not receive incoming requests.
 
 ## -parameters
-
-
-
 
 ### -param pszServiceId [in]
 
 The ID for the dynamic service to be removed.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -102,32 +96,16 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The device host releases its reference to the service object after the service is unregistered. The service object will not receive callbacks after <b>RemoveDynamicService</b> has completed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

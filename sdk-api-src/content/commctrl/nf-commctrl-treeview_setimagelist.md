@@ -2,15 +2,12 @@
 UID: NF:commctrl.TreeView_SetImageList
 title: TreeView_SetImageList macro (commctrl.h)
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the TVM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["TVSIL_NORMAL","TVSIL_STATE","TreeView_SetImageList","TreeView_SetImageList macro [Windows Controls]","_win32_TreeView_SetImageList","_win32_TreeView_SetImageList_cpp","commctrl/TreeView_SetImageList","controls.TreeView_SetImageList","controls._win32_TreeView_SetImageList"]
 old-location: controls\TreeView_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: TVSIL_NORMAL, TVSIL_STATE, TreeView_SetImageList, TreeView_SetImageList macro [Windows Controls], _win32_TreeView_SetImageList, _win32_TreeView_SetImageList_cpp, commctrl/TreeView_SetImageList, controls.TreeView_SetImageList, controls._win32_TreeView_SetImageList
-f1_keywords:
-- commctrl/TreeView_SetImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_SetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_SetImageList
+ - commctrl/TreeView_SetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_SetImageList
 ---
 
 # TreeView_SetImageList macro
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message explicitly. 
-
+Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tree-view control. 
-
+Handle to the tree-view control.
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-The HIMAGELIST handle to the image list. If <i>himl</i> is <b>NULL</b>, the message removes the specified image list from the tree-view control. 
-
+The HIMAGELIST handle to the image list. If <i>himl</i> is <b>NULL</b>, the message removes the specified image list from the tree-view control.
 
 ### -param iImage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Type of image list to set. This parameter can be one of the following values: 
 
@@ -103,33 +98,19 @@ Indicates the state image list. You can use state images to indicate application
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The tree-view control will not destroy the image list specified with this message. Your application must destroy the image list when it is no longer needed. 
-
-
-
+The tree-view control will not destroy the image list specified with this message. Your application must destroy the image list when it is no longer needed.
 
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a>
+<a href="/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getimagelist">TreeView_GetImageList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getimagelist">TreeView_GetImageList</a>

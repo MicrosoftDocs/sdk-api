@@ -2,15 +2,12 @@
 UID: NF:lmjoin.NetRemoveAlternateComputerName
 title: NetRemoveAlternateComputerName function (lmjoin.h)
 description: Removes an alternate name for the specified computer.
+helpviewer_keywords: ["NetRemoveAlternateComputerName","NetRemoveAlternateComputerName function [Network Management]","lmjoin/NetRemoveAlternateComputerName","netmgmt.netremovealternatecomputername"]
 old-location: netmgmt\netremovealternatecomputername.htm
 tech.root: NetMgmt
 ms.assetid: 3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5
 ms.date: 12/05/2018
 ms.keywords: NetRemoveAlternateComputerName, NetRemoveAlternateComputerName function [Network Management], lmjoin/NetRemoveAlternateComputerName, netmgmt.netremovealternatecomputername
-f1_keywords:
-- lmjoin/NetRemoveAlternateComputerName
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetRemoveAlternateComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetRemoveAlternateComputerName
+ - lmjoin/NetRemoveAlternateComputerName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetRemoveAlternateComputerName
 ---
 
 # NetRemoveAlternateComputerName function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetRemoveAlternateComputerName</b> function removes an alternate name for the specified computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Server [in, optional]
 
 A pointer to a constant string that specifies the name of the computer on which to execute this function. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param AlternateName [in]
 
 A pointer to a constant string that specifies the alternate name to remove. This name must be in the form of a fully qualified DNS name.
-
 
 ### -param DomainAccount [in, optional]
 
@@ -74,8 +69,7 @@ A pointer to a constant string that specifies the domain account to use for acce
         machine account object for the computer specified in the <i>Server</i> parameter in Active Directory. If this parameter is <b>NULL</b>, then the credentials of the user executing
         this routine are used. 
 
-This parameter is not used if the server to execute this function is not joined to a domain. 
-
+This parameter is not used if the server to execute this function is not joined to a domain.
 
 ### -param DomainAccountPassword [in, optional]
 
@@ -83,22 +77,18 @@ A pointer to a constant string that specifies the password matching the domain a
         If this parameter is <b>NULL</b>, then the credentials of the user executing
         this routine are used. 
 
-This parameter is ignored if the <i>DomainAccount</i> parameter is <b>NULL</b>. This parameter is not used if the server to execute this function is not joined to a domain. 
-
+This parameter is ignored if the <i>DomainAccount</i> parameter is <b>NULL</b>. This parameter is not used if the server to execute this function is not joined to a domain.
 
 ### -param Reserved [in]
 
 Reserved for future use.   This parameter should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -194,14 +184,8 @@ The remote procedure call protocol sequence is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>NetRemoveAlternateComputerName</b> function is supported on Windows XP and later.  
 
@@ -209,40 +193,30 @@ The <b>NetRemoveAlternateComputerName</b> function is used to remove secondary c
 
 The <b>NetRemoveAlternateComputerName</b> function requires that the caller is a member of the Administrators local group on the target computer.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netaddalternatecomputername">NetAddAlternateComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netenumeratecomputernames">NetEnumerateComputerNames</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netsetprimarycomputername">NetSetPrimaryComputerName</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>

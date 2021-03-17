@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPreprocess.SetNumPreprocessingPasses
 title: IWMWriterPreprocess::SetNumPreprocessingPasses (wmsdkidl.h)
 description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.
+helpviewer_keywords: ["IWMWriterPreprocess interface [windows Media Format]","SetNumPreprocessingPasses method","IWMWriterPreprocess.SetNumPreprocessingPasses","IWMWriterPreprocess::SetNumPreprocessingPasses","IWMWriterPreprocessSetNumPreprocessingPasses","SetNumPreprocessingPasses","SetNumPreprocessingPasses method [windows Media Format]","SetNumPreprocessingPasses method [windows Media Format]","IWMWriterPreprocess interface","wmformat.iwmwriterpreprocess_setnumpreprocessingpasses","wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses"]
 old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm
 tech.root: wmformat
 ms.assetid: 81ff36e1-cce5-4c99-bf3a-ee2f1050c026
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],SetNumPreprocessingPasses method, IWMWriterPreprocess.SetNumPreprocessingPasses, IWMWriterPreprocess::SetNumPreprocessingPasses, IWMWriterPreprocessSetNumPreprocessingPasses, SetNumPreprocessingPasses, SetNumPreprocessingPasses method [windows Media Format], SetNumPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_setnumpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
-f1_keywords:
-- wmsdkidl/IWMWriterPreprocess.SetNumPreprocessingPasses
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPreprocess.SetNumPreprocessingPasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPreprocess::SetNumPreprocessingPasses
+ - wmsdkidl/IWMWriterPreprocess::SetNumPreprocessingPasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPreprocess.SetNumPreprocessingPasses
 ---
 
 # IWMWriterPreprocess::SetNumPreprocessingPasses
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetNumPreprocessingPasses</b> method sets the number of passes to perform on an input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number for which you want to set the number of passes.
 
-
 ### -param dwFlags [in]
 
 Reserved. Set to zero.
-
 
 ### -param dwNumPasses [in]
 
 <b>DWORD</b> containing the number of preprocessing passes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -135,18 +124,7 @@ The preprocessor has already been configured.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

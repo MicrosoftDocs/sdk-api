@@ -2,15 +2,12 @@
 UID: NS:wingdi._BLENDFUNCTION
 title: BLENDFUNCTION (wingdi.h)
 description: The BLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps.
+helpviewer_keywords: ["*PBLENDFUNCTION","BLENDFUNCTION","BLENDFUNCTION structure [Windows GDI]","LPBLENDFUNCTION","LPBLENDFUNCTION structure pointer [Windows GDI]","PBLENDFUNCTION","PBLENDFUNCTION structure pointer [Windows GDI]","_win32_BLENDFUNCTION_str","gdi.blendfunction","wingdi/BLENDFUNCTION","wingdi/LPBLENDFUNCTION","wingdi/PBLENDFUNCTION"]
 old-location: gdi\blendfunction.htm
 tech.root: gdi
 ms.assetid: d1371d72-c408-4484-845e-d4ea2bc3115d
 ms.date: 12/05/2018
 ms.keywords: '*PBLENDFUNCTION, BLENDFUNCTION, BLENDFUNCTION structure [Windows GDI], LPBLENDFUNCTION, LPBLENDFUNCTION structure pointer [Windows GDI], PBLENDFUNCTION, PBLENDFUNCTION structure pointer [Windows GDI], _win32_BLENDFUNCTION_str, gdi.blendfunction, wingdi/BLENDFUNCTION, wingdi/LPBLENDFUNCTION, wingdi/PBLENDFUNCTION'
-f1_keywords:
-- wingdi/BLENDFUNCTION
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- BLENDFUNCTION
 targetos: Windows
 req.typenames: BLENDFUNCTION, *PBLENDFUNCTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BLENDFUNCTION
+ - wingdi/_BLENDFUNCTION
+ - PBLENDFUNCTION
+ - wingdi/PBLENDFUNCTION
+ - BLENDFUNCTION
+ - wingdi/BLENDFUNCTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - BLENDFUNCTION
 ---
 
 # BLENDFUNCTION structure
@@ -48,32 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BLENDFUNCTION</b> structure controls blending by specifying the blending functions for source and destination bitmaps.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field BlendOp
 
 The source blend operation. Currently, the only source and destination blend operation that has been defined is AC_SRC_OVER. For details, see the following Remarks section.
 
-
 ### -field BlendFlags
 
 Must be zero.
 
-
 ### -field SourceConstantAlpha
 
 Specifies an alpha transparency value to be used on the entire source bitmap. The <b>SourceConstantAlpha</b> value is combined with any per-pixel alpha values in the source bitmap. If you set <b>SourceConstantAlpha</b> to 0, it is assumed that your image is transparent. Set the <b>SourceConstantAlpha</b> value to 255 (opaque) when you only want to use per-pixel alpha values.
-
 
 ### -field AlphaFormat
 
@@ -89,14 +84,10 @@ This member controls the way the source and destination bitmaps are interpreted.
 <td>This flag is set when the bitmap has an Alpha channel (that is, per-pixel alpha). Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value. For example, if the alpha channel value is x, the red, green and blue channels must be multiplied by x and divided by 0xff prior to the call.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-When the <b>AlphaFormat</b> member is AC_SRC_ALPHA, the source bitmap must be 32 bpp. If it is not, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function will fail.
+When the <b>AlphaFormat</b> member is AC_SRC_ALPHA, the source bitmap must be 32 bpp. If it is not, the <a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a> function will fail.
 
 When the <b>BlendOp</b> member is AC_SRC_OVER, the source bitmap is placed over the destination bitmap based on the alpha values of the source pixels.
 
@@ -208,26 +199,15 @@ If the source has both the <b>SourceConstantAlpha</b> (that is, it is not 0xFF) 
 <td>+ (1 - Src.Alpha) * Dst.Alpha</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-alphablend">AlphaBlend</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>

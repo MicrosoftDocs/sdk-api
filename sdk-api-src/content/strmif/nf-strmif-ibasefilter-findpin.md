@@ -2,15 +2,12 @@
 UID: NF:strmif.IBaseFilter.FindPin
 title: IBaseFilter::FindPin (strmif.h)
 description: The FindPin method retrieves the pin with the specified identifier.
+helpviewer_keywords: ["FindPin","FindPin method [DirectShow]","FindPin method [DirectShow]","IBaseFilter interface","IBaseFilter interface [DirectShow]","FindPin method","IBaseFilter.FindPin","IBaseFilter::FindPin","IBaseFilterFindPin","dshow.ibasefilter_findpin","strmif/IBaseFilter::FindPin"]
 old-location: dshow\ibasefilter_findpin.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0bdefaeb-f631-4b79-9965-c1c570e0ff80
 ms.date: 12/05/2018
 ms.keywords: FindPin, FindPin method [DirectShow], FindPin method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],FindPin method, IBaseFilter.FindPin, IBaseFilter::FindPin, IBaseFilterFindPin, dshow.ibasefilter_findpin, strmif/IBaseFilter::FindPin
-f1_keywords:
-- strmif/IBaseFilter.FindPin
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBaseFilter.FindPin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBaseFilter::FindPin
+ - strmif/IBaseFilter::FindPin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBaseFilter.FindPin
 ---
 
 # IBaseFilter::FindPin
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>FindPin</code> method retrieves the pin with the specified identifier.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Id [in]
 
-Pointer to a constant wide-character string that identifies the pin. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to retrieve a pin's identifier.
-
+Pointer to a constant wide-character string that identifies the pin. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to retrieve a pin's identifier.
 
 ### -param ppPin [out]
 
-Address of a variable that receives a pointer to the pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
-
+Address of a variable that receives a pointer to the pin's <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,33 +106,17 @@ Could not find a pin with this identifier.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method supports graph persistence. Use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
+This method supports graph persistence. Use the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
 
 If the method succeeds, the <b>IPin</b> interface that it returns has an outstanding reference count. Be sure to release the interface when you are done.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>

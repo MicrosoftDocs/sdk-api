@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSubscriberInformation.get_TelephoneNumbers
 title: IMbnSubscriberInformation::get_TelephoneNumbers (mbnapi.h)
 description: The telephone numbers associated with the device.
+helpviewer_keywords: ["IMbnSubscriberInformation interface [Microsoft Broadband Networks]","TelephoneNumbers property","IMbnSubscriberInformation.TelephoneNumbers","IMbnSubscriberInformation.get_TelephoneNumbers","IMbnSubscriberInformation::TelephoneNumbers","IMbnSubscriberInformation::get_TelephoneNumbers","TelephoneNumbers property [Microsoft Broadband Networks]","TelephoneNumbers property [Microsoft Broadband Networks]","IMbnSubscriberInformation interface","get_TelephoneNumbers","mbn.imbnsubscriberinformation_telephonenumbers","mbnapi/IMbnSubscriberInformation::TelephoneNumbers","mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers"]
 old-location: mbn\imbnsubscriberinformation_telephonenumbers.htm
 tech.root: mbn
 ms.assetid: 0f50735e-e57b-4724-8754-1fc4a5634cb3
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],TelephoneNumbers property, IMbnSubscriberInformation.TelephoneNumbers, IMbnSubscriberInformation.get_TelephoneNumbers, IMbnSubscriberInformation::TelephoneNumbers, IMbnSubscriberInformation::get_TelephoneNumbers, TelephoneNumbers property [Microsoft Broadband Networks], TelephoneNumbers property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_TelephoneNumbers, mbn.imbnsubscriberinformation_telephonenumbers, mbnapi/IMbnSubscriberInformation::TelephoneNumbers, mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
-f1_keywords:
-- mbnapi/IMbnSubscriberInformation.TelephoneNumbers
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSubscriberInformation.TelephoneNumbers
-- IMbnSubscriberInformation.get_TelephoneNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSubscriberInformation::get_TelephoneNumbers
+ - mbnapi/IMbnSubscriberInformation::get_TelephoneNumbers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSubscriberInformation.TelephoneNumbers
+ - IMbnSubscriberInformation.get_TelephoneNumbers
 ---
 
 # IMbnSubscriberInformation::get_TelephoneNumbers
@@ -56,28 +58,14 @@ The telephone numbers associated with the device.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 This property provides the list of telephone numbers (TNs) assigned to the subscriber. In GSM the numbers are called Mobile Station ISDN Numbers (MSISDNs).  In CDMA they are called Mobile Directory Numbers (MDNs).
 
 This value is not populated until the ready state reaches <b>MBN_READY_STATE_INITIALIZED</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>

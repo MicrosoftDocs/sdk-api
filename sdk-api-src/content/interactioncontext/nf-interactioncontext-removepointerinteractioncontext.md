@@ -2,15 +2,12 @@
 UID: NF:interactioncontext.RemovePointerInteractionContext
 title: RemovePointerInteractionContext function (interactioncontext.h)
 description: Remove the specified pointer from the set of pointers processed by the Interaction Context object.
+helpviewer_keywords: ["RemovePointerInteractionContext","RemovePointerInteractionContext function","input_intcontext.removepointerinteractioncontext","interactioncontext.removepointerinteractioncontext","interactioncontext/RemovePointerInteractionContext"]
 old-location: input_intcontext\removepointerinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: d17f329b-f633-4aec-806f-3643206fce29
 ms.date: 12/05/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext
-f1_keywords:
-- interactioncontext/RemovePointerInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
-- IE_Shims.dll
-api_name:
-- RemovePointerInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemovePointerInteractionContext
+ - interactioncontext/RemovePointerInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+ - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+ - IE_Shims.dll
+api_name:
+ - RemovePointerInteractionContext
 ---
 
 # RemovePointerInteractionContext function
@@ -50,47 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Remove  the specified pointer from the set of pointers processed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
-
+Remove  the specified pointer from the set of pointers processed by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -parameters
 
-
-
-
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object. 
-
+Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ### -param pointerId [in]
 
 ID of the pointer.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-addpointerinteractioncontext">AddPointerInteractionContext</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

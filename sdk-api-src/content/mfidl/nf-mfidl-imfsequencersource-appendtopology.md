@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSequencerSource.AppendTopology
 title: IMFSequencerSource::AppendTopology (mfidl.h)
 description: Adds a topology to the end of the queue.
+helpviewer_keywords: ["4ff20d56-6095-495d-89ee-9086c61da8ac","AppendTopology","AppendTopology method [Media Foundation]","AppendTopology method [Media Foundation]","IMFSequencerSource interface","IMFSequencerSource interface [Media Foundation]","AppendTopology method","IMFSequencerSource.AppendTopology","IMFSequencerSource::AppendTopology","mf.imfsequencersource_appendtopology","mfidl/IMFSequencerSource::AppendTopology"]
 old-location: mf\imfsequencersource_appendtopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4ff20d56-6095-495d-89ee-9086c61da8ac
 ms.date: 12/05/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],AppendTopology method, IMFSequencerSource.AppendTopology, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
-f1_keywords:
-- mfidl/IMFSequencerSource.AppendTopology
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSequencerSource.AppendTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSequencerSource::AppendTopology
+ - mfidl/IMFSequencerSource::AppendTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSequencerSource.AppendTopology
 ---
 
 # IMFSequencerSource::AppendTopology
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds a topology to the end of the queue.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pTopology [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. This pointer cannot be <b>NULL</b>. If an application passes <b>NULL</b>, the call fails with an E_INVALIDARG error code.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. This pointer cannot be <b>NULL</b>. If an application passes <b>NULL</b>, the call fails with an E_INVALIDARG error code.
 
 ### -param dwFlags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
-
+A combination of flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfsequencertopologyflags">MFSequencerTopologyFlags</a> enumeration.
 
 ### -param pdwId [out]
 
 Receives the sequencer element identifier for this topology.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -110,19 +99,19 @@ The source topology node is missing one of the following attributes:
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-stream-descriptor-attribute">MF_TOPONODE_STREAM_DESCRIPTOR</a>
+<a href="/windows/desktop/medfound/mf-toponode-stream-descriptor-attribute">MF_TOPONODE_STREAM_DESCRIPTOR</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-presentation-descriptor-attribute">MF_TOPONODE_PRESENTATION_DESCRIPTOR</a>
+<a href="/windows/desktop/medfound/mf-toponode-presentation-descriptor-attribute">MF_TOPONODE_PRESENTATION_DESCRIPTOR</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-source-attribute">MF_TOPONODE_SOURCE</a>
+<a href="/windows/desktop/medfound/mf-toponode-source-attribute">MF_TOPONODE_SOURCE</a>
 
 
 </li>
@@ -130,37 +119,21 @@ The source topology node is missing one of the following attributes:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The sequencer plays topologies in the order they are queued. You can queue as many topologies as you want to preroll.
 
 The application must indicate to the sequencer when it has queued the last topology on the Media Session. To specify the last topology, set the SequencerTopologyFlags_Last flag in the <i>dwFlags</i> parameter when you append the topology. The sequencer uses this information to end playback with the pipeline. Otherwise, the sequencer waits indefinitely for a new topology to be queued.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/about-the-sequencer-source">About the Sequencer Source</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-the-sequencer-source">About the Sequencer Source</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetopologynode">MFCreateTopologyNode</a>

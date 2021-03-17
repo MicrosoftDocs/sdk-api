@@ -2,15 +2,12 @@
 UID: NS:lmserver._SERVER_INFO_1540
 title: SERVER_INFO_1540 (lmserver.h)
 description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.
+helpviewer_keywords: ["*LPSERVER_INFO_1540","*PSERVER_INFO_1540","LPSERVER_INFO_1540","LPSERVER_INFO_1540 structure pointer [Network Management]","PSERVER_INFO_1540","PSERVER_INFO_1540 structure pointer [Network Management]","SERVER_INFO_1540","SERVER_INFO_1540 structure [Network Management]","_win32_server_info_1540_str","lmserver/LPSERVER_INFO_1540","lmserver/PSERVER_INFO_1540","lmserver/SERVER_INFO_1540","netmgmt.server_info_1540_str"]
 old-location: netmgmt\server_info_1540_str.htm
 tech.root: NetMgmt
 ms.assetid: 918c568d-392a-4efc-9c32-fa6b01614040
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_1540, *PSERVER_INFO_1540, LPSERVER_INFO_1540, LPSERVER_INFO_1540 structure pointer [Network Management], PSERVER_INFO_1540, PSERVER_INFO_1540 structure pointer [Network Management], SERVER_INFO_1540, SERVER_INFO_1540 structure [Network Management], _win32_server_info_1540_str, lmserver/LPSERVER_INFO_1540, lmserver/PSERVER_INFO_1540, lmserver/SERVER_INFO_1540, netmgmt.server_info_1540_str'
-f1_keywords:
-- lmserver/SERVER_INFO_1540
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_1540
 targetos: Windows
 req.typenames: SERVER_INFO_1540, *PSERVER_INFO_1540, *LPSERVER_INFO_1540
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_1540
+ - lmserver/_SERVER_INFO_1540
+ - PSERVER_INFO_1540
+ - lmserver/PSERVER_INFO_1540
+ - SERVER_INFO_1540
+ - lmserver/SERVER_INFO_1540
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_1540
 ---
 
 # SERVER_INFO_1540 structure
@@ -48,40 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_1540</b> structure specifies whether the server allows redirected server drives to be shared.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv1540_enablesharednetdrives
 
 Specifies whether the server allows redirected server drives to be shared.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>

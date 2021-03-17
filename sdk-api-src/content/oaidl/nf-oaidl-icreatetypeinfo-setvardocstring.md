@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetVarDocString
 title: ICreateTypeInfo::SetVarDocString (oaidl.h)
 description: Sets the documentation string for the variable with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVarDocString method","ICreateTypeInfo.SetVarDocString","ICreateTypeInfo::SetVarDocString","SetVarDocString","SetVarDocString method [Automation]","SetVarDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVarDocString","automat.icreatetypeinfo_setvardocstring","oaidl/ICreateTypeInfo::SetVarDocString"]
 old-location: automat\icreatetypeinfo_setvardocstring.htm
 tech.root: automat
 ms.assetid: 6bea2b52-30d8-454c-ad96-f94417640ce5
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarDocString method, ICreateTypeInfo.SetVarDocString, ICreateTypeInfo::SetVarDocString, SetVarDocString, SetVarDocString method [Automation], SetVarDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarDocString, automat.icreatetypeinfo_setvardocstring, oaidl/ICreateTypeInfo::SetVarDocString
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetVarDocString
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetVarDocString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetVarDocString
+ - oaidl/ICreateTypeInfo::SetVarDocString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetVarDocString
 ---
 
 # ICreateTypeInfo::SetVarDocString
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the documentation string for the variable with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable.
 
-
 ### -param szDocString [in]
 
 The documentation string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,18 +132,7 @@ The element cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

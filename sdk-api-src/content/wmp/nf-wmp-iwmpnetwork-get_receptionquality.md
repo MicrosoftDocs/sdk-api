@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_receptionQuality
 title: IWMPNetwork::get_receptionQuality (wmp.h)
 description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_receptionQuality method","IWMPNetwork.get_receptionQuality","IWMPNetwork::get_receptionQuality","IWMPNetworkget_receptionQuality","get_receptionQuality","get_receptionQuality method [Windows Media Player]","get_receptionQuality method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_receptionquality","wmp/IWMPNetwork::get_receptionQuality"]
 old-location: wmp\iwmpnetwork_get_receptionquality.htm
 tech.root: WMP
 ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receptionQuality method, IWMPNetwork.get_receptionQuality, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
-f1_keywords:
-- wmp/IWMPNetwork.get_receptionQuality
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_receptionQuality
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_receptionQuality
+ - wmp/IWMPNetwork::get_receptionQuality
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_receptionQuality
 ---
 
 # IWMPNetwork::get_receptionQuality
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_receptionQuality</b> method retrieves the percentage of packets received in the last 30 seconds.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plReceptionQuality [out]
 
 Pointer to a <b>long</b> containing the reception quality.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The number of packets received, lost, and recovered during streaming is monitored once every second. The <b>get_receptionQuality</b> method retrieves the percentage of packets not lost during the last 30 seconds.
 
@@ -103,20 +88,10 @@ Each time playback is stopped and restarted, the value retrieved from this metho
 
 This method retrieves valid information only during run time when the URL for playback is set by using the <b>IWMPCore::put_URL</b> method.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

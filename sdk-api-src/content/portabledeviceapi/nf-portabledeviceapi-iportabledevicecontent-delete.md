@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceContent.Delete
 title: IPortableDeviceContent::Delete (portabledeviceapi.h)
 description: The Delete method deletes one or more objects from the device.
+helpviewer_keywords: ["Delete","Delete method [Windows Portable Devices SDK]","Delete method [Windows Portable Devices SDK]","IPortableDeviceContent interface","IPortableDeviceContent interface [Windows Portable Devices SDK]","Delete method","IPortableDeviceContent.Delete","IPortableDeviceContent::Delete","IPortableDeviceContentDelete","portabledeviceapi/IPortableDeviceContent::Delete","wpdsdk.iportabledevicecontent_delete"]
 old-location: wpdsdk\iportabledevicecontent_delete.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
-f1_keywords:
-- portabledeviceapi/IPortableDeviceContent.Delete
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceContent.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceContent::Delete
+ - portabledeviceapi/IPortableDeviceContent::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceContent.Delete
 ---
 
 # IPortableDeviceContent::Delete
@@ -49,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Delete</b> method deletes one or more objects from the device.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param dwOptions [in]
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/delete-object-options">DELETE_OBJECT_OPTIONS</a> enumerators.
-          
-
+One of the <a href="/windows/desktop/wpd_sdk/delete-object-options">DELETE_OBJECT_OPTIONS</a> enumerators.
 
 ### -param pObjectIDs [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
-          
-
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to delete.
 
 ### -param ppResults [in, out]
 
 Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
           
@@ -178,16 +166,10 @@ The object could not be deleted because it does not exist on the device.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To see if recursive deletion is supported, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
+To see if recursive deletion is supported, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions">IPortableDeviceCapabilities::GetCommandOptions</a>. If the retrieved <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface contains a property value called WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED with a <i>boolVal</i> value of True, the device supports recursive deletion.
       
 
 The following table lists the possible return codes that may appear in the collection at which <i>ppResults</i> points.
@@ -196,23 +178,14 @@ The following table lists the possible return codes that may appear in the colle
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/deleting-content-from-the-device">Deleting Content from the Device</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>

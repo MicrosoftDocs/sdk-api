@@ -2,15 +2,12 @@
 UID: NS:shtypes._SHITEMID
 title: SHITEMID (shtypes.h)
 description: Defines an item identifier.
+helpviewer_keywords: ["*LPSHITEMID","SHITEMID","SHITEMID structure [Windows Shell]","_win32_SHITEMID","shell.SHITEMID","shtypes/SHITEMID"]
 old-location: shell\SHITEMID.htm
 tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
 ms.date: 12/05/2018
 ms.keywords: '*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID'
-f1_keywords:
-- shtypes/SHITEMID
-dev_langs:
-- c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shtypes.h
-api_name:
-- SHITEMID
 targetos: Windows
 req.typenames: SHITEMID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHITEMID
+ - shtypes/_SHITEMID
+ - SHITEMID
+ - shtypes/SHITEMID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shtypes.h
+api_name:
+ - SHITEMID
 ---
 
 # SHITEMID structure
@@ -48,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines an item identifier.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 Type: <b>USHORT</b>
 
 The size of identifier, in bytes, including <b>cb</b> itself.
-
 
 ### -field abID
 

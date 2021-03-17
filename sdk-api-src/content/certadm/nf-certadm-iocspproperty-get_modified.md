@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPProperty.get_Modified
 title: IOCSPProperty::get_Modified (certadm.h)
 description: Gets a value that indicates whether an OCSPProperty object has been modified since it was instantiated.
+helpviewer_keywords: ["IOCSPProperty interface [Security]","Modified property","IOCSPProperty.Modified","IOCSPProperty.get_Modified","IOCSPProperty::Modified","IOCSPProperty::get_Modified","Modified property [Security]","Modified property [Security]","IOCSPProperty interface","certadm/IOCSPProperty::Modified","certadm/IOCSPProperty::get_Modified","get_Modified","security.iocspproperty_modified_method"]
 old-location: security\iocspproperty_modified_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3e965ee2-4b6f-4c95-b048-b9e9c7701306
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty interface [Security],Modified property, IOCSPProperty.Modified, IOCSPProperty.get_Modified, IOCSPProperty::Modified, IOCSPProperty::get_Modified, Modified property [Security], Modified property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Modified, certadm/IOCSPProperty::get_Modified, get_Modified, security.iocspproperty_modified_method
-f1_keywords:
-- certadm/IOCSPProperty.Modified
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPProperty.Modified
-- IOCSPProperty.get_Modified
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPProperty::get_Modified
+ - certadm/IOCSPProperty::get_Modified
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPProperty.Modified
+ - IOCSPProperty.get_Modified
 ---
 
 # IOCSPProperty::get_Modified
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Modified</b> property gets a value that indicates whether an <b>OCSPProperty</b> object has been modified since it was instantiated.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>

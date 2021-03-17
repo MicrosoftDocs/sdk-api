@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderRegistration.EnumerateSyncProviders
 title: ISyncProviderRegistration::EnumerateSyncProviders (syncregistration.h)
 description: Returns an IEnumSyncProviderInfos enumeration interface that enumerates all registered ISyncProviderInfo objects for the specified criteria.
+helpviewer_keywords: ["EnumerateSyncProviders","EnumerateSyncProviders method [Windows Sync]","EnumerateSyncProviders method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","EnumerateSyncProviders method","ISyncProviderRegistration.EnumerateSyncProviders","ISyncProviderRegistration::EnumerateSyncProviders","syncregistration/ISyncProviderRegistration::EnumerateSyncProviders","winsync.isyncproviderregistration_enumeratesyncproviders"]
 old-location: winsync\isyncproviderregistration_enumeratesyncproviders.htm
 tech.root: winsync
 ms.assetid: 36a2b498-237e-418a-b5b8-5f9bcdfbe734
 ms.date: 12/05/2018
 ms.keywords: EnumerateSyncProviders, EnumerateSyncProviders method [Windows Sync], EnumerateSyncProviders method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviders method, ISyncProviderRegistration.EnumerateSyncProviders, ISyncProviderRegistration::EnumerateSyncProviders, syncregistration/ISyncProviderRegistration::EnumerateSyncProviders, winsync.isyncproviderregistration_enumeratesyncproviders
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.EnumerateSyncProviders
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.EnumerateSyncProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::EnumerateSyncProviders
+ - syncregistration/ISyncProviderRegistration::EnumerateSyncProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.EnumerateSyncProviders
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviders
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos</a> enumeration interface that enumerates all registered <b>ISyncProviderInfo</b> objects for the specified  criteria.
-
+Returns an <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos</a> enumeration interface that enumerates all registered <b>ISyncProviderInfo</b> objects for the specified  criteria.
 
 ## -parameters
-
-
-
 
 ### -param pguidContentType [in]
 
 The LPCGUID of the specified content type. If this parameter is <b>NULL</b>, all content types will be enumerated.
 
-
 ### -param dwStateFlagsToFilterMask [in]
 
 A synchronization provider state flag that can be used to mask (preserve or remove) the existing state. If this parameter is set to zero, all synchronization provider states will be enumerated. See the <i>dwStateFlagsToFilter</i> parameter description for a list of flags.
-
 
 ### -param dwStateFlagsToFilter [in]
 
@@ -81,11 +76,9 @@ One of the following flags that represent the synchronization provider state.
 </ul>
 If this parameter is set to zero, all synchronization provider states will be enumerated.
 
-
 ### -param refProviderClsId [in]
 
 The REFCLSID of a particular provider. If this parameter is set to <b>CLSID_NULL</b>, all providers will be enumerated.
-
 
 ### -param dwSupportedArchitecture [in]
 
@@ -97,15 +90,11 @@ One, or a combination  of, the following flags that represent the architectures 
 </ul>
 If this parameter is set to zero, synchronization providers for all architectures will be enumerated.
 
-
 ### -param ppEnumSyncProviderInfos [out]
 
 The <b>IEnumSyncProviderInfos</b> enumeration interface that will enumerate all <b>ISyncProviderInfo</b> objects that match the specified criteria.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -148,22 +137,11 @@ There was not enough memory available to return the enumeration interface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

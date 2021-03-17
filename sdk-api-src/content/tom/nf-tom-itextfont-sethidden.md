@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetHidden
 title: ITextFont::SetHidden (tom.h)
 description: Sets whether characters are hidden.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetHidden method","ITextFont.SetHidden","ITextFont::SetHidden","SetHidden","SetHidden method [Windows Controls]","SetHidden method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetHidden","_win32_ITextFont_SetHidden_cpp","controls.ITextFont_SetHidden","controls._win32_ITextFont_SetHidden","tom/ITextFont::SetHidden"]
 old-location: controls\ITextFont_SetHidden.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethidden.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetHidden method, ITextFont.SetHidden, ITextFont::SetHidden, SetHidden, SetHidden method [Windows Controls], SetHidden method [Windows Controls],ITextFont interface, _win32_ITextFont_SetHidden, _win32_ITextFont_SetHidden_cpp, controls.ITextFont_SetHidden, controls._win32_ITextFont_SetHidden, tom/ITextFont::SetHidden
-f1_keywords:
-- tom/ITextFont.SetHidden
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetHidden
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetHidden
+ - tom/ITextFont::SetHidden
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetHidden
 ---
 
 # ITextFont::SetHidden
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether characters are hidden.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -85,16 +82,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The Hidden property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -146,25 +139,18 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-gethidden">GetHidden</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-gethidden">GetHidden</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -172,8 +158,4 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

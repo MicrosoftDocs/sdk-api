@@ -2,15 +2,12 @@
 UID: NS:winioctl._FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
+helpviewer_keywords: ["*PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER","CHECKSUM_TYPE_CRC64","CHECKSUM_TYPE_NONE","CHECKSUM_TYPE_UNCHANGED","FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF","FSCTL_SET_INTEGRITY_INFORMATION_BUFFER","FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure [Files]","PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER","PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files]","fs.fsctl_set_integrity_information_buffer","winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER","winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER"]
 old-location: fs\fsctl_set_integrity_information_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8
 ms.date: 12/05/2018
 ms.keywords: '*PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHECKSUM_TYPE_NONE, CHECKSUM_TYPE_UNCHANGED, FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure [Files], PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER, PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files], fs.fsctl_set_integrity_information_buffer, winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER'
-f1_keywords:
-- winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 targetos: Windows
 req.typenames: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 
+f1_keywords:
+ - _FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/_FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 ---
 
 # FSCTL_SET_INTEGRITY_INFORMATION_BUFFER structure
@@ -47,16 +53,11 @@ req.redist:
 
 ## -description
 
-
 Input buffer passed with the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
      code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ChecksumAlgorithm
 
@@ -112,13 +113,10 @@ The checksum algorithm is to remain the same.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Must be 0
-
 
 ### -field Flags
 
@@ -144,35 +142,21 @@ If set, the checksum enforcement is disabled and reads will succeed even if the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the file is opened 
     with sharing permissions such that subsequent opens can succeed, it's possible for corrupt data to be read by an 
     application that did not specify <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

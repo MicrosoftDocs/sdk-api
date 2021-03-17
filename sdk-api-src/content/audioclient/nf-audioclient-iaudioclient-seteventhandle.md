@@ -2,15 +2,12 @@
 UID: NF:audioclient.IAudioClient.SetEventHandle
 title: IAudioClient::SetEventHandle (audioclient.h)
 description: The SetEventHandle method sets the event handle that the system signals when an audio buffer is ready to be processed by the client.
+helpviewer_keywords: ["IAudioClient interface [Core Audio]","SetEventHandle method","IAudioClient.SetEventHandle","IAudioClient::SetEventHandle","IAudioClientSetEventHandle","SetEventHandle","SetEventHandle method [Core Audio]","SetEventHandle method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::SetEventHandle","coreaudio.iaudioclient_seteventhandle"]
 old-location: coreaudio\iaudioclient_seteventhandle.htm
 tech.root: CoreAudio
 ms.assetid: 7bca0c00-5157-43bf-98bd-3bfb23abe860
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],SetEventHandle method, IAudioClient.SetEventHandle, IAudioClient::SetEventHandle, IAudioClientSetEventHandle, SetEventHandle, SetEventHandle method [Core Audio], SetEventHandle method [Core Audio],IAudioClient interface, audioclient/IAudioClient::SetEventHandle, coreaudio.iaudioclient_seteventhandle
-f1_keywords:
-- audioclient/IAudioClient.SetEventHandle
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioclient.h
-api_name:
-- IAudioClient.SetEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient::SetEventHandle
+ - audioclient/IAudioClient::SetEventHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioclient.h
+api_name:
+ - IAudioClient.SetEventHandle
 ---
 
 # IAudioClient::SetEventHandle
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetEventHandle</b> method sets the event handle that the system signals when an audio buffer is ready to be processed by the client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param eventHandle [in]
 
 The event handle.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -132,45 +123,29 @@ The Windows audio service is not running.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method requires prior initialization of the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
+During stream initialization, the client can, as an option, enable event-driven buffering. To do so, the client calls the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag set. After enabling event-driven buffering, and before calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a> method to start the stream, the client must call <b>SetEventHandle</b> to register the event handle that the system will signal each time a buffer becomes ready to be processed by the client.
 
-This method requires prior initialization of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient</a> interface. All calls to this method will fail with the error AUDCLNT_E_NOT_INITIALIZED until the client initializes the audio stream by successfully calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
+The event handle should be in the nonsignaled state at the time that the client calls the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">Start</a> method.
 
-During stream initialization, the client can, as an option, enable event-driven buffering. To do so, the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method with the AUDCLNT_STREAMFLAGS_EVENTCALLBACK flag set. After enabling event-driven buffering, and before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a> method to start the stream, the client must call <b>SetEventHandle</b> to register the event handle that the system will signal each time a buffer becomes ready to be processed by the client.
-
-The event handle should be in the nonsignaled state at the time that the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">Start</a> method.
-
-If the client has enabled event-driven buffering of a stream, but the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">Start</a> method for that stream without first calling <b>SetEventHandle</b>, the <b>Start</b> call will fail and return an error code.
+If the client has enabled event-driven buffering of a stream, but the client calls the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">Start</a> method for that stream without first calling <b>SetEventHandle</b>, the <b>Start</b> call will fail and return an error code.
 
 If the client does not enable event-driven buffering of a stream but attempts to set an event handle for the stream by calling <b>SetEventHandle</b>, the call will fail and return an error code.
 
-For a code example that calls the <b>SetEventHandle</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>.
-
-
-
+For a code example that calls the <b>SetEventHandle</b> method, see <a href="/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>

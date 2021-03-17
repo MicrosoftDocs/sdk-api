@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDateFromUI1
 title: VarDateFromUI1 function (oleauto.h)
 description: Converts an unsigned char value to a date value.
+helpviewer_keywords: ["VarDateFromUI1","VarDateFromUI1 function [Automation]","_oa96_VarDateFromUI1","automat.vardatefromui1","oleauto/VarDateFromUI1"]
 old-location: automat\vardatefromui1.htm
 tech.root: automat
 ms.assetid: 9ab0cee6-7eea-4594-bdf1-77d21307a30c
 ms.date: 12/05/2018
 ms.keywords: VarDateFromUI1, VarDateFromUI1 function [Automation], _oa96_VarDateFromUI1, automat.vardatefromui1, oleauto/VarDateFromUI1
-f1_keywords:
-- oleauto/VarDateFromUI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDateFromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDateFromUI1
+ - oleauto/VarDateFromUI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDateFromUI1
 ---
 
 # VarDateFromUI1 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned char value to a date value.
 
-
 ## -parameters
-
-
-
 
 ### -param bIn [in]
 
 The value to convert.
 
-
 ### -param pdateOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

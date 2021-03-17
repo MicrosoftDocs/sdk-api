@@ -2,15 +2,12 @@
 UID: NF:winbio.WinBioOpenSession
 title: WinBioOpenSession function (winbio.h)
 description: Connects to a biometric service provider and one or more biometric units.
+helpviewer_keywords: ["WINBIO_DB_BOOTSTRAP","WINBIO_DB_DEFAULT","WINBIO_DB_ONCHIP","WINBIO_FLAG_ADVANCED","WINBIO_FLAG_BASIC","WINBIO_FLAG_DEFAULT","WINBIO_FLAG_MAINTENANCE","WINBIO_FLAG_RAW","WINBIO_POOL_PRIVATE","WINBIO_POOL_SYSTEM","WinBioOpenSession","WinBioOpenSession function [Windows Biometric Framework API]","secbiomet.winbioopensession","winbio/WinBioOpenSession"]
 old-location: secbiomet\winbioopensession.htm
 tech.root: SecBioMet
 ms.assetid: e9a0bb5f-4bbd-4dc4-9cd8-c26f5e4f74cf
 ms.date: 12/05/2018
 ms.keywords: WINBIO_DB_BOOTSTRAP, WINBIO_DB_DEFAULT, WINBIO_DB_ONCHIP, WINBIO_FLAG_ADVANCED, WINBIO_FLAG_BASIC, WINBIO_FLAG_DEFAULT, WINBIO_FLAG_MAINTENANCE, WINBIO_FLAG_RAW, WINBIO_POOL_PRIVATE, WINBIO_POOL_SYSTEM, WinBioOpenSession, WinBioOpenSession function [Windows Biometric Framework API], secbiomet.winbioopensession, winbio/WinBioOpenSession
-f1_keywords:
-- winbio/WinBioOpenSession
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioOpenSession
+ - winbio/WinBioOpenSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioOpenSession
 ---
 
 # WinBioOpenSession function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects to a biometric service provider and one or more biometric units.
-
 
 ## -parameters
 
-
-
-
 ### -param Factor [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
-
+A bitmask of <a href="/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_sensor_attributes">WINBIO_BIOMETRIC_TYPE</a> flags that specifies the biometric unit types to be enumerated. Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported.
 
 ### -param PoolType [in]
 
@@ -95,8 +91,6 @@ The session connects to a collection of biometric units that are managed by the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -151,7 +145,7 @@ The biometric units use internal processing and storage capabilities.
 <td width="60%">
 Group: access
 
-The client application captures raw biometric data using <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>.
+The client application captures raw biometric data using <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>.
 
 </td>
 </tr>
@@ -163,23 +157,19 @@ The client application captures raw biometric data using <a href="https://docs.m
 <td width="60%">
 Group: access
 
-The client performs vendor-defined control operations on a biometric unit by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>.
+The client performs vendor-defined control operations on a biometric unit by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param UnitArray [in]
 
-Pointer to an array of biometric unit identifiers to be included in the session. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> to enumerate the biometric units. Set this value to <b>NULL</b> if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
-
+Pointer to an array of biometric unit identifiers to be included in the session. You can call <a href="/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a> to enumerate the biometric units. Set this value to <b>NULL</b> if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
 
 ### -param UnitCount [in]
 
 A value that specifies the number of elements in the array pointed to by the <i>UnitArray</i> parameter. Set this value to zero if the <i>PoolType</i> parameter is <b>WINBIO_POOL_SYSTEM</b>.
-
 
 ### -param DatabaseId [in]
 
@@ -221,19 +211,14 @@ The database is on the sensor chip and is available for enrollment and matching.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param SessionHandle [out]
 
 Pointer to the new session handle. If the function does not succeed, the handle is set to zero.
 
-
 ## -returns
 
-
-
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -318,18 +303,7 @@ Current administrative policy prohibits use of the Windows Biometric Framework A
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioclosesession">WinBioCloseSession</a>

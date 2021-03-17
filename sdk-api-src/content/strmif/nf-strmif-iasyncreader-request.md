@@ -2,15 +2,12 @@
 UID: NF:strmif.IAsyncReader.Request
 title: IAsyncReader::Request (strmif.h)
 description: The Request method queues an asynchronous request for data.
+helpviewer_keywords: ["IAsyncReader interface [DirectShow]","Request method","IAsyncReader.Request","IAsyncReader::Request","IAsyncReaderRequest","Request","Request method [DirectShow]","Request method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_request","strmif/IAsyncReader::Request"]
 old-location: dshow\iasyncreader_request.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d0eab370-bb17-48fa-9926-6a6eeaba5603
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],Request method, IAsyncReader.Request, IAsyncReader::Request, IAsyncReaderRequest, Request, Request method [DirectShow], Request method [DirectShow],IAsyncReader interface, dshow.iasyncreader_request, strmif/IAsyncReader::Request
-f1_keywords:
-- strmif/IAsyncReader.Request
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAsyncReader.Request
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsyncReader::Request
+ - strmif/IAsyncReader::Request
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAsyncReader.Request
 ---
 
 # IAsyncReader::Request
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Request</code> method queues an asynchronous request for data.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pSample
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
 
 ### -param dwUser [in]
 
 Specifies an arbitrary value that is returned when the request completes.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -149,14 +139,8 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, retrieve a media sample from the pin's allocator. Time stamp the sample with the byte offsets you are requesting, first and last inclusive, multiplied by 10,000,000. Byte offsets are relative to the start of the stream.
 
@@ -164,7 +148,7 @@ The start and stop positions should match the alignment that was decided when th
 
 Although it is technically a violation of COM rules, the caller must leave an outstanding reference count on the sample. The <code>Request</code> method does not call <b>AddRef</b> or <b>Release</b>, so the reference count is needed to keep the sample active.
 
-The method returns before the request completes. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method to wait for the request. Do not reuse the original media sample while the request is pending. The <b>WaitForNext</b> method returns a pointer to the original sample. If the request succeeded, the sample contains the requested data. The <b>WaitForNext</b> method also returns whatever value is specified in the <i>dwUser</i> parameter. The caller can use this value to identify the sample.
+The method returns before the request completes. Call the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method to wait for the request. Do not reuse the original media sample while the request is pending. The <b>WaitForNext</b> method returns a pointer to the original sample. If the request succeeded, the sample contains the requested data. The <b>WaitForNext</b> method also returns whatever value is specified in the <i>dwUser</i> parameter. The caller can use this value to identify the sample.
 
 
 #### Examples
@@ -205,19 +189,10 @@ CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>

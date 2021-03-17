@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_CLIENT_SEARCH_INFO
 title: DHCP_SEARCH_INFO (dhcpsapi.h)
 description: The DHCP_SEARCH_INFO structure defines the DHCP client record data used to search against for particular server operations.
+helpviewer_keywords: ["*LPDHCP_SEARCH_INFO","DHCP_SEARCH_INFO","DHCP_SEARCH_INFO structure [DHCP]","LPDHCP_SEARCH_INFO","LPDHCP_SEARCH_INFO structure pointer [DHCP]","dhcp.dhcp_search_info","dhcpsapi/LPDHCP_SEARCH_INFO","dhcpsapi/_DHCP_CLIENT_SEARCH_INFO"]
 old-location: dhcp\dhcp_search_info.htm
 tech.root: DHCP
 ms.assetid: 3c6f85d7-c156-4379-bad9-0705698f12e5
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SEARCH_INFO, DHCP_SEARCH_INFO, DHCP_SEARCH_INFO structure [DHCP], LPDHCP_SEARCH_INFO, LPDHCP_SEARCH_INFO structure pointer [DHCP], dhcp.dhcp_search_info, dhcpsapi/LPDHCP_SEARCH_INFO, dhcpsapi/_DHCP_CLIENT_SEARCH_INFO'
-f1_keywords:
-- dhcpsapi/DHCP_SEARCH_INFO
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_SEARCH_INFO
 targetos: Windows
 req.typenames: DHCP_SEARCH_INFO, *LPDHCP_SEARCH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_CLIENT_SEARCH_INFO
+ - dhcpsapi/_DHCP_CLIENT_SEARCH_INFO
+ - LPDHCP_SEARCH_INFO
+ - dhcpsapi/LPDHCP_SEARCH_INFO
+ - DHCP_SEARCH_INFO
+ - dhcpsapi/DHCP_SEARCH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_SEARCH_INFO
 ---
 
 # DHCP_SEARCH_INFO structure
@@ -48,113 +54,54 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_SEARCH_INFO</b> structure defines the DHCP client record data used to search against for particular server operations.
-
 
 ## -struct-fields
 
-
-
-
 ### -field SearchType
 
-
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
-
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a> enumeration value that specifies the data included in the subsequent member of this structure.
 
 ### -field SearchInfo.ClientIpAddress.case
 
- 
-
-
 ### -field SearchInfo.ClientIpAddress.case.DhcpClientIpAddress
-
- 
-
 
 ### -field SearchInfo.ClientHardwareAddress.case
 
- 
-
-
 ### -field SearchInfo.ClientHardwareAddress.case.DhcpClientHardwareAddress
-
- 
-
 
 ### -field SearchInfo.ClientName.case
 
- 
-
-
 ### -field SearchInfo.ClientName.case.DhcpClientName
 
- 
 
 
-### -field SearchInfo.switch_is
-
- 
-
-
-### -field SearchInfo.switch_is.SearchType
-
- 
-
-
-### -field SearchInfo.switch_type
-
- 
-
-
-### -field SearchInfo.switch_type.DHCP_SEARCH_INFO_TYPE
-
- 
 
 
 ### -field SearchInfo
 
-
 ### -field SearchInfo.ClientIpAddress
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies a client IP address. This field is populated if <b>SearchType</b> is set to <b>DhcpClientIpAddress</b>.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies a client IP address. This field is populated if <b>SearchType</b> is set to <b>DhcpClientIpAddress</b>.
 
 ### -field SearchInfo.ClientHardwareAddress
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains a hardware MAC address.  This field is populated if <b>SearchType</b> is set to <b>DhcpClientHardwareAddress</b>.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains a hardware MAC address.  This field is populated if <b>SearchType</b> is set to <b>DhcpClientHardwareAddress</b>.
 
 ### -field SearchInfo.ClientName
 
 Unicode string that specifies the network name of the DHCP client.  This field is populated if <b>SearchType</b> is set to <b>DhcpClientName</b>.
 
-
 ### -field _DHCP_CLIENT_SEARCH_UNION
-
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type">DHCP_SEARCH_INFO_TYPE</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:msports.ComDBClaimPort
 title: ComDBClaimPort function (msports.h)
-description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.
+description: ComDBClaimPort logs an unused COM port number as &quot;in use&quot; in the COM port database.
+helpviewer_keywords: ["ComDBClaimPort","ComDBClaimPort function [Serial Ports]","comdb_e636ae45-1105-4322-9429-f8bf24333432.xml","msports/ComDBClaimPort","serports.comdbclaimport"]
 old-location: serports\comdbclaimport.htm
 tech.root: serports
 ms.assetid: d0baa783-1039-41a4-8bb1-78c977ed62b6
 ms.date: 12/05/2018
 ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636ae45-1105-4322-9429-f8bf24333432.xml, msports/ComDBClaimPort, serports.comdbclaimport
-f1_keywords:
-- msports/ComDBClaimPort
-dev_langs:
-- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msports.dll
-api_name:
-- ComDBClaimPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComDBClaimPort
+ - msports/ComDBClaimPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msports.dll
+api_name:
+ - ComDBClaimPort
 ---
 
 # ComDBClaimPort function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ComDBClaimPort</b> logs an unused COM port number as "in use" in the COM port database.
-
 
 ## -parameters
 
-
-
-
 ### -param HComDB [in]
 
-Handle to the COM port database that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
-
+Handle to the COM port database that is returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param ComNumber [in]
 
 Specifies which COM port number the caller attempts to claim. A port number is an integer that can range from 1 to COMDB_MAX_PORTS_ARBITRATED.
 
-
 ### -param ForceClaim [in]
 
 Reserved for internal use only.
-
 
 ### -param Forced [out, optional]
 
 Reserved for internal use only.
 
-
 ## -returns
-
-
 
 <b>ComDBClaimPort</b> returns one of the following status values.
 
@@ -155,35 +146,19 @@ An internal error occurred; call <b>GetLastError</b> to get extended error infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>Claiming</i> a COM port number in the COM port database logs the port number as "in use". Note that the database does not contain information about the caller or device that claims a port number.
 
 <b>ComDBClaimPort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
-
-
-
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbreleaseport">ComDBReleasePort</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbreleaseport">ComDBReleasePort</a>

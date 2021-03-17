@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._KERB_BINDING_CACHE_ENTRY_DATA
 title: KERB_BINDING_CACHE_ENTRY_DATA (ntsecapi.h)
 description: Specifies the data for the binding cache entry.
+helpviewer_keywords: ["*PKERB_BINDING_CACHE_ENTRY_DATA","DS_INET_ADDRESS","DS_NETBIOS_ADDRESS","KERB_BINDING_CACHE_ENTRY_DATA","KERB_BINDING_CACHE_ENTRY_DATA structure [Security]","KERB_NO_DC_FLAGS","PKERB_BINDING_CACHE_ENTRY_DATA","PKERB_BINDING_CACHE_ENTRY_DATA structure pointer [Security]","ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA","ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA","security.kerb_binding_cache_entry_data"]
 old-location: security\kerb_binding_cache_entry_data.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: C5452477-B412-4E0C-B692-D79A47B8025A
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_BINDING_CACHE_ENTRY_DATA, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_BINDING_CACHE_ENTRY_DATA, KERB_BINDING_CACHE_ENTRY_DATA structure [Security], KERB_NO_DC_FLAGS, PKERB_BINDING_CACHE_ENTRY_DATA, PKERB_BINDING_CACHE_ENTRY_DATA structure pointer [Security], ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA, security.kerb_binding_cache_entry_data'
-f1_keywords:
-- ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_BINDING_CACHE_ENTRY_DATA
 targetos: Windows
 req.typenames: KERB_BINDING_CACHE_ENTRY_DATA, *PKERB_BINDING_CACHE_ENTRY_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_BINDING_CACHE_ENTRY_DATA
+ - ntsecapi/_KERB_BINDING_CACHE_ENTRY_DATA
+ - PKERB_BINDING_CACHE_ENTRY_DATA
+ - ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA
+ - KERB_BINDING_CACHE_ENTRY_DATA
+ - ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_BINDING_CACHE_ENTRY_DATA
 ---
 
 # KERB_BINDING_CACHE_ENTRY_DATA structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the data for the binding cache entry. You must have the <b>SeTcbPrivilege</b> privilege set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DiscoveryTime
 
 The time elapsed to find the domain controller to bind to.
 
-
 ### -field RealmName
 
 The 	name of the realm for which to obtain a binding handle.
 
-
 ### -field KdcAddress
 
 The address of the Key Distribution Center (KDC) of the server to  which you want to bind.
-
 
 ### -field AddressType
 
@@ -102,18 +100,14 @@ The address is a NetBIOS name of the domain controller, for example, "\\phoenix"
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
-The domain controller flags that the caller provides. These flags are needed to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
-
+The domain controller flags that the caller provides. These flags are needed to pass to the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
 
 ### -field DcFlags
 
-The domain controller flags. These flags are returned from the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
-
+The domain controller flags. These flags are returned from the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
 
 ### -field CacheFlags
 
@@ -136,11 +130,7 @@ No flags are found for the binding cache.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field KdcName
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the name of the KDC.
-
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the name of the KDC.

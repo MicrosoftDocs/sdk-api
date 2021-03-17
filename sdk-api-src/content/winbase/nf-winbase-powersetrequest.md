@@ -2,15 +2,12 @@
 UID: NF:winbase.PowerSetRequest
 title: PowerSetRequest function (winbase.h)
 description: Increments the count of power requests of the specified type for a power request object.
+helpviewer_keywords: ["PowerRequestAwayModeRequired","PowerRequestDisplayRequired","PowerRequestExecutionRequired","PowerRequestSystemRequired","PowerSetRequest","PowerSetRequest function","base.powersetrequest","winbase/PowerSetRequest"]
 old-location: base\powersetrequest.htm
-tech.root: power
+tech.root: base
 ms.assetid: 85249de8-5832-4f25-bbd9-3576cfd1caa0
 ms.date: 12/05/2018
 ms.keywords: PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, PowerSetRequest, PowerSetRequest function, base.powersetrequest, winbase/PowerSetRequest
-f1_keywords:
-- winbase/PowerSetRequest
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- PowerSetRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerSetRequest
+ - winbase/PowerSetRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - PowerSetRequest
 ---
 
 # PowerSetRequest function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Increments the count of power requests of the specified type for a power request object.
 
-
 ## -parameters
-
-
-
 
 ### -param PowerRequest [in]
 
 A handle to a power request object.
-
 
 ### -param RequestType [in]
 
@@ -107,45 +103,29 @@ On systems not capable of connected standby, an active <b>PowerRequestExecutionR
 
 ## -returns
 
-
-
 If the function succeeds, it returns a nonzero value.
                     
                         
 
-If the function fails, it returns zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 To conserve power and provide the best user experience, applications that use power requests should follow these best practices:
             
                 
 
 <ul>
-<li>When creating a power request, provide a localized text string that describes the reason for the request in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.</li>
+<li>When creating a power request, provide a localized text string that describes the reason for the request in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.</li>
 <li>Call <b>PowerSetRequest</b> immediately before the scenario that requires the request.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.</li>
+<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.</li>
 <li>Clean up all request objects and associated handles before the process exits or the service stops.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>

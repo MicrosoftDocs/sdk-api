@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDMetadataExchange.GetMetadata
 title: IWSDMetadataExchange::GetMetadata (wsdclient.h)
 description: Retrieves metadata for an object.
+helpviewer_keywords: ["GetMetadata","GetMetadata method","GetMetadata method","IWSDMetadataExchange interface","IWSDMetadataExchange interface","GetMetadata method","IWSDMetadataExchange.GetMetadata","IWSDMetadataExchange::GetMetadata","ncd.iwsdmetadataexchange_getmetadata_method","wsdclient/IWSDMetadataExchange::GetMetadata"]
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
-f1_keywords:
-- wsdclient/IWSDMetadataExchange.GetMetadata
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDMetadataExchange.GetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMetadataExchange::GetMetadata
+ - wsdclient/IWSDMetadataExchange::GetMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDMetadataExchange.GetMetadata
 ---
 
 # IWSDMetadataExchange::GetMetadata
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves metadata for an object.
 
-
 ## -parameters
-
-
-
 
 ### -param MetadataOut [out]
 
 Pointer to a linked list of structures containing the requested metadata.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -96,18 +90,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdmetadataexchange">IWSDMetadataExchange</a>

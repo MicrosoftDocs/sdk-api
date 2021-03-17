@@ -2,15 +2,12 @@
 UID: NF:vfw.MCIWndSaveDialog
 title: MCIWndSaveDialog macro (vfw.h)
 description: The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.
+helpviewer_keywords: ["MCIWndSaveDialog","MCIWndSaveDialog macro [Windows Multimedia]","_win32_MCIWndSaveDialog","multimedia.mciwndsavedialog","vfw/MCIWndSaveDialog"]
 old-location: multimedia\mciwndsavedialog.htm
 tech.root: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
 ms.date: 12/05/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
-f1_keywords:
-- vfw/MCIWndSaveDialog
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndSaveDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndSaveDialog
+ - vfw/MCIWndSaveDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndSaveDialog
 ---
 
 # MCIWndSaveDialog macro
@@ -48,19 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCIWndSaveDialog</b> macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-save">MCI_SAVE</a> command.
-
-
-
+The <b>MCIWndSaveDialog</b> macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-save">MCI_SAVE</a> command.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.

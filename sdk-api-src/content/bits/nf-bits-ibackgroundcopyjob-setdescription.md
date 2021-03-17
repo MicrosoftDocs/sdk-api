@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyJob.SetDescription
 title: IBackgroundCopyJob::SetDescription (bits.h)
 description: Provides a description of the job.
+helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetDescription method","IBackgroundCopyJob.SetDescription","IBackgroundCopyJob::SetDescription","SetDescription","SetDescription method [BITS]","SetDescription method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setdescription","bits.ibackgroundcopyjob_setdescription","bits/IBackgroundCopyJob::SetDescription"]
 old-location: bits\ibackgroundcopyjob_setdescription.htm
 tech.root: Bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
-f1_keywords:
-- bits/IBackgroundCopyJob.SetDescription
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::SetDescription
+ - bits/IBackgroundCopyJob::SetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.SetDescription
 ---
 
 # IBackgroundCopyJob::SetDescription
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a description of the job.
 
-
 ## -parameters
-
-
-
 
 ### -param Val [in]
 
 Null-terminated string that provides additional information about the job. The length of the string is limited to 1,024 characters, not including the null terminator.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -118,18 +112,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdescription">IBackgroundCopyJob::GetDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getdescription">IBackgroundCopyJob::GetDescription</a>

@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminIsServiceRunning
 title: MprAdminIsServiceRunning function (mprapi.h)
 description: The MprAdminIsServiceRunning function checks whether the RRAS service is running on a specified server if the calling process has access.
+helpviewer_keywords: ["MprAdminIsServiceRunning","MprAdminIsServiceRunning function [RAS]","_mpr_mpradminisservicerunning","mprapi/MprAdminIsServiceRunning","rras.mpradminisservicerunning"]
 old-location: rras\mpradminisservicerunning.htm
 tech.root: RRAS
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
-f1_keywords:
-- mprapi/MprAdminIsServiceRunning
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminIsServiceRunning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminIsServiceRunning
+ - mprapi/MprAdminIsServiceRunning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminIsServiceRunning
 ---
 
 # MprAdminIsServiceRunning function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MprAdminIsServiceRunning</b> function checks whether the RRAS service is running on a specified server  if the calling process has access. 
-
+<b>MprAdminIsServiceRunning</b> function checks whether the RRAS service is running on a specified server  if the calling process has access.
 
 ## -parameters
-
-
-
 
 ### -param lpwsServerName [in]
 
 A pointer to a <b>null</b>-terminated Unicode string that specifies the name of the server to query. If this parameter is <b>NULL</b>, the function queries the local machine.
 
-
 ## -returns
-
-
 
 The return value is one of the following Boolean values.
 
@@ -97,31 +91,15 @@ The service is not running on the specified server and/or the calling process do
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function returns <b>FALSE</b> if the RRAS service is running, but the calling process does not have  sufficient privileges to access the service. If the access rights of the calling process on the server are unknown, it is recommended that <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a> is called prior to calling this function. Doing so will determine  if the process has the required access rights to the server.
-
-
-
+This function returns <b>FALSE</b> if the RRAS service is running, but the calling process does not have  sufficient privileges to access the service. If the access rights of the calling process on the server are unknown, it is recommended that <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a> is called prior to calling this function. Doing so will determine  if the process has the required access rights to the server.
 
 ## -see-also
 
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

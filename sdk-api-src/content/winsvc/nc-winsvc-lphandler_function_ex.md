@@ -2,15 +2,12 @@
 UID: NC:winsvc.LPHANDLER_FUNCTION_EX
 title: LPHANDLER_FUNCTION_EX (winsvc.h)
 description: An application-defined callback function used with the RegisterServiceCtrlHandlerEx function. A service program can use it as the control handler function of a particular service.
+helpviewer_keywords: ["HandlerEx","HandlerEx callback","HandlerEx callback function","LPHANDLER_FUNCTION_EX","SERVICE_CONTROL_CONTINUE","SERVICE_CONTROL_DEVICEEVENT","SERVICE_CONTROL_HARDWAREPROFILECHANGE","SERVICE_CONTROL_INTERROGATE","SERVICE_CONTROL_NETBINDADD","SERVICE_CONTROL_NETBINDDISABLE","SERVICE_CONTROL_NETBINDENABLE","SERVICE_CONTROL_NETBINDREMOVE","SERVICE_CONTROL_PARAMCHANGE","SERVICE_CONTROL_PAUSE","SERVICE_CONTROL_POWEREVENT","SERVICE_CONTROL_PRESHUTDOWN","SERVICE_CONTROL_SESSIONCHANGE","SERVICE_CONTROL_SHUTDOWN","SERVICE_CONTROL_STOP","SERVICE_CONTROL_TIMECHANGE","SERVICE_CONTROL_TRIGGEREVENT","SERVICE_CONTROL_USERMODEREBOOT","_win32_handlerex","base.handlerex","winsvc/HandlerEx"]
 old-location: base\handlerex.htm
-tech.root: Services
+tech.root: security
 ms.assetid: bb1b863f-e29f-496f-a50e-9ea524fe8603
 ms.date: 12/05/2018
 ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDLER_FUNCTION_EX, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_DEVICEEVENT, SERVICE_CONTROL_HARDWAREPROFILECHANGE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_POWEREVENT, SERVICE_CONTROL_PRESHUTDOWN, SERVICE_CONTROL_SESSIONCHANGE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, SERVICE_CONTROL_TIMECHANGE, SERVICE_CONTROL_TRIGGEREVENT, SERVICE_CONTROL_USERMODEREBOOT, _win32_handlerex, base.handlerex, winsvc/HandlerEx
-f1_keywords:
-- winsvc/HandlerEx
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WinSvc.h
-api_name:
-- HandlerEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPHANDLER_FUNCTION_EX
+ - winsvc/LPHANDLER_FUNCTION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WinSvc.h
+api_name:
+ - HandlerEx
 ---
 
 # LPHANDLER_FUNCTION_EX callback function
@@ -48,26 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A 
+    <a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A 
     service program can use it as the control handler function of a particular service.
 
 The <b>LPHANDLER_FUNCTION_EX</b> type defines a pointer to this function. 
     <b>HandlerEx</b> is a placeholder for the application-defined 
     name.
 
-This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> control handler 
+This function supersedes the <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> control handler 
     function used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a> function. A 
+    <a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a> function. A 
     service can use either control handler, but the new control handler supports user-defined context data and 
     additional extended control codes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwControl [in]
 
@@ -200,7 +197,7 @@ Notifies a service that the system will be shutting down. Services that need add
 
 A service that handles this notification blocks system shutdown until the service stops or the preshutdown 
          time-out interval specified through 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because 
+         <a href="/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> expires. Because 
          this affects the user experience, services should use this feature only if it is absolutely necessary to avoid 
          data loss or significant recovery time at the next system start.
 
@@ -250,7 +247,7 @@ If a service accepts this control code, it must stop upon receipt and return <b>
  
 
 This parameter can also be one of the following extended control codes. Note that these control codes are not 
-       supported by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> function.
+       supported by the <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> function.
 
 <table>
 <tr>
@@ -265,7 +262,7 @@ This parameter can also be one of the following extended control codes. Note tha
 </td>
 <td width="60%">
 Notifies a service of device events. (The service must have registered to receive these notifications 
-        using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> 
+        using the <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> 
         function.) The <i>dwEventType</i> and <i>lpEventData</i> parameters contain additional information.
 
 </td>
@@ -288,7 +285,7 @@ Notifies a service that the computer's hardware profile has changed.  The <i>dwE
 </dl>
 </td>
 <td width="60%">
-Notifies a service of system power events.  The <i>dwEventType</i> parameter contains additional information. If <i>dwEventType</i> is <a href="https://docs.microsoft.com/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>, the <i>lpEventData</i> parameter also contains additional information.
+Notifies a service of system power events.  The <i>dwEventType</i> parameter contains additional information. If <i>dwEventType</i> is <a href="/windows/desktop/Power/pbt-powersettingchange">PBT_POWERSETTINGCHANGE</a>, the <i>lpEventData</i> parameter also contains additional information.
 
 </td>
 </tr>
@@ -325,7 +322,7 @@ Notifies a service that the system time has changed. The <i>lpEventData</i> para
 </dl>
 </td>
 <td width="60%">
-Notifies a service registered for a <a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">service trigger event</a> that the event has occurred. 
+Notifies a service registered for a <a href="/windows/desktop/Services/service-trigger-events">service trigger event</a> that the event has occurred. 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This control code is not supported.
 
@@ -366,8 +363,6 @@ The service defines the action associated with the control code.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwEventType [in]
 
@@ -381,22 +376,22 @@ If <i>dwControl</i> is <b>SERVICE_CONTROL_DEVICEEVENT</b>, this parameter can be
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-devicearrival">DBT_DEVICEARRIVAL</a>
+<a href="/windows/desktop/DevIO/dbt-devicearrival">DBT_DEVICEARRIVAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a>
+<a href="/windows/desktop/DevIO/dbt-deviceremovecomplete">DBT_DEVICEREMOVECOMPLETE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-devicequeryremove">DBT_DEVICEQUERYREMOVE</a>
+<a href="/windows/desktop/DevIO/dbt-devicequeryremove">DBT_DEVICEQUERYREMOVE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-devicequeryremovefailed">DBT_DEVICEQUERYREMOVEFAILED</a>
+<a href="/windows/desktop/DevIO/dbt-devicequeryremovefailed">DBT_DEVICEQUERYREMOVEFAILED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-deviceremovepending">DBT_DEVICEREMOVEPENDING</a>
+<a href="/windows/desktop/DevIO/dbt-deviceremovepending">DBT_DEVICEREMOVEPENDING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>
+<a href="/windows/desktop/DevIO/dbt-customevent">DBT_CUSTOMEVENT</a>
 </li>
 </ul>
 If <i>dwControl</i> is <b>SERVICE_CONTROL_HARDWAREPROFILECHANGE</b>, this parameter can be 
@@ -404,21 +399,20 @@ If <i>dwControl</i> is <b>SERVICE_CONTROL_HARDWAREPROFILECHANGE</b>, this parame
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-configchanged">DBT_CONFIGCHANGED</a>
+<a href="/windows/desktop/DevIO/dbt-configchanged">DBT_CONFIGCHANGED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-querychangeconfig">DBT_QUERYCHANGECONFIG</a>
+<a href="/windows/desktop/DevIO/dbt-querychangeconfig">DBT_QUERYCHANGECONFIG</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-configchangecanceled">DBT_CONFIGCHANGECANCELED</a>
+<a href="/windows/desktop/DevIO/dbt-configchangecanceled">DBT_CONFIGCHANGECANCELED</a>
 </li>
 </ul>
-If <i>dwControl</i> is <b>SERVICE_CONTROL_POWEREVENT</b>, this parameter can be one of the values specified in the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a> message.
+If <i>dwControl</i> is <b>SERVICE_CONTROL_POWEREVENT</b>, this parameter can be one of the values specified in the <i>wParam</i> parameter of the <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a> message.
 
 If <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter can be one of the 
        values specified in the <i>wParam</i> parameter of the 
- 	     <a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> message.
-
+ 	     <a href="/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> message.
 
 ### -param lpEventData [in]
 
@@ -428,31 +422,27 @@ Additional device information, if required. The format of this data depends on t
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_DEVICEEVENT</b>, this data corresponds to the 
       <i>lParam</i> parameter that applications receive as part of a 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message. 
+      <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message. 
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_POWEREVENT</b> and <i>dwEventType</i> is PBT_POWERSETTINGCHANGE, this data is a pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-powerbroadcast_setting">POWERBROADCAST_SETTING</a> structure. 
+      <a href="/windows/desktop/api/winuser/ns-winuser-powerbroadcast_setting">POWERBROADCAST_SETTING</a> structure. 
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter is a pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a> 
+      <a href="/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a> 
       structure.
 
-If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
-
+If <i>dwControl</i> is <b>SERVICE_CONTROL_TIMECHANGE</b>, this data is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_timechange_info">SERVICE_TIMECHANGE_INFO</a> structure.
 
 ### -param lpContext [in]
 
 User-defined data passed from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>.
+      <a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>.
       When multiple services share a process, the <i>lpContext</i> parameter can help identify the 
       service.
 
-
 ## -returns
-
-
 
 The return value for this function depends on the control code received.
 
@@ -470,24 +460,20 @@ The following list identifies the rules for this return value:
 <li>For all other control codes your service handles, return <b>NO_ERROR</b>.</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-When a service is started, its <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function 
+When a service is started, its <a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function 
     should immediately call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> 
+    <a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> 
     function to specify a <b>HandlerEx</b> function to process control 
     requests. To specify the control codes to be accepted, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> functions.
+    <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> and 
+    <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> functions.
 
 The control dispatcher in the main thread of a service invokes the control handler function for the specified 
     service whenever it receives a control request from the service control manager. After processing the control 
     request, the control handler must call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> if the service state changes to 
+    <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> if the service state changes to 
     report its new status to the service control manager.
 
 The control handler function is intended to receive notification and return immediately. The 
@@ -521,60 +507,50 @@ Be sure to handle Plug and Play device events as quickly as possible; otherwise,
     to start another thread to perform the operation asynchronously.
 
 Services can also use the 
-    <a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive 
+    <a href="/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive 
     shutdown notification. This notification is received when the running applications are shutting down, which occurs 
     before services are shut down.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/ns-winuser-powerbroadcast_setting">POWERBROADCAST_SETTING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-powerbroadcast_setting">POWERBROADCAST_SETTING</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>
+<a href="/windows/desktop/Services/service-control-handler-function">Service Control Handler Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-handler-function">Service Control Handler Function</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
+<a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
+<a href="/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/ns-winuser-wtssession_notification">WTSSESSION_NOTIFICATION</a>

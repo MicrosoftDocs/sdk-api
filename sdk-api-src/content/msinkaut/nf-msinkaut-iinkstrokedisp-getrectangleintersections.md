@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkStrokeDisp.GetRectangleIntersections
 title: IInkStrokeDisp::GetRectangleIntersections (msinkaut.h)
 description: Finds the points where a IInkStrokeDisp object intersects a given rectangle.
+helpviewer_keywords: ["GetRectangleIntersections","GetRectangleIntersections method [Tablet PC]","GetRectangleIntersections method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetRectangleIntersections method","IInkStrokeDisp.GetRectangleIntersections","IInkStrokeDisp::GetRectangleIntersections","fe042e12-21fa-4dae-988c-d082aa867520","msinkaut/IInkStrokeDisp::GetRectangleIntersections","tablet.iinkstrokedisp_getrectangleintersections"]
 old-location: tablet\iinkstrokedisp_getrectangleintersections.htm
 tech.root: tablet
 ms.assetid: fe042e12-21fa-4dae-988c-d082aa867520
 ms.date: 12/05/2018
 ms.keywords: GetRectangleIntersections, GetRectangleIntersections method [Tablet PC], GetRectangleIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetRectangleIntersections method, IInkStrokeDisp.GetRectangleIntersections, IInkStrokeDisp::GetRectangleIntersections, fe042e12-21fa-4dae-988c-d082aa867520, msinkaut/IInkStrokeDisp::GetRectangleIntersections, tablet.iinkstrokedisp_getrectangleintersections
-f1_keywords:
-- msinkaut/IInkStrokeDisp.GetRectangleIntersections
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp.GetRectangleIntersections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp::GetRectangleIntersections
+ - msinkaut/IInkStrokeDisp::GetRectangleIntersections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp.GetRectangleIntersections
 ---
 
 # IInkStrokeDisp::GetRectangleIntersections
@@ -49,33 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Finds the points where a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object intersects a given rectangle.
-
-
-
+Finds the points where a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object intersects a given rectangle.
 
 ## -parameters
-
-
-
 
 ### -param Rectangle [in]
 
 The rectangle in <b>ink space</b> coordinates, that describes the hit test area.
 
-
 ### -param Intersections [out, retval]
 
 When this method returns, contains a VARIANT array that indicates where the stroke intersects the <i>rectangle</i>. The beginning floating point indices are stored in the even indices. The ending floating point indices are stored in the odd indices. The first pair of indices represents the first intersection.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -140,37 +130,21 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns an array that indicates where the stroke intersects the specified rectangle. Each segment of the stroke that intersects the rectangle is one pair of indices, alternating with a beginning index followed by an ending index.
 
 If the stroke begins within the test rectangle, the first index is set to -1. If the stroke ends within the test rectangle, the last index is set to -1. If the stroke is wholly outside the test rectangle, an empty array is returned. For example, if a stroke begins inside the test rectangle, leaves the boundaries of the rectangle, returns inside, and leaves again, then the <b>GetRectangleIntersections</b> method might return {-1, 1.4, 5.5, 10.1} to describe the two segments of the stroke falling within the rectangle.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip">Clip Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip">Clip Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections">FindIntersections Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-findintersections">FindIntersections Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
 title: IWMWriterPostView::SetPostViewProps (wmsdkidl.h)
 description: The SetPostViewProps method specifies the format for the specified output stream.
+helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetPostViewProps method","IWMWriterPostView.SetPostViewProps","IWMWriterPostView::SetPostViewProps","IWMWriterPostViewSetPostViewProps","SetPostViewProps","SetPostViewProps method [windows Media Format]","SetPostViewProps method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setpostviewprops","wmsdkidl/IWMWriterPostView::SetPostViewProps"]
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
 tech.root: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
-f1_keywords:
-- wmsdkidl/IWMWriterPostView.SetPostViewProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPostView.SetPostViewProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPostView::SetPostViewProps
+ - wmsdkidl/IWMWriterPostView::SetPostViewProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPostView.SetPostViewProps
 ---
 
 # IWMWriterPostView::SetPostViewProps
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetPostViewProps</b> method specifies the format for the specified output stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNumber [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param pOutput [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
-
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,33 +108,17 @@ The method was unable to create an internal structure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 It is not possible to resize the video output using postview properties.
 
-<b>SetPostViewProps</b> fails if <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called. If any postview properties need to be changed, this should be done before calling <b>BeginWriting</b>.
-
-
-
+<b>SetPostViewProps</b> fails if <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called. If any postview properties need to be changed, this should be done before calling <b>BeginWriting</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewprops">IWMWriterPostView::GetPostViewProps</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewprops">IWMWriterPostView::GetPostViewProps</a>

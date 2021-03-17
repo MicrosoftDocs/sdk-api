@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.EndPlaylistBurn
 title: IWMReaderPlaylistBurn::EndPlaylistBurn (wmsdkidl.h)
 description: The EndPlaylistBurn method completes the playlist burn process. This includes releasing resources and adjusting counts associated with rights in DRM licenses.
+helpviewer_keywords: ["EndPlaylistBurn","EndPlaylistBurn method [windows Media Format]","EndPlaylistBurn method [windows Media Format]","IWMReaderPlaylistBurn interface","IWMReaderPlaylistBurn interface [windows Media Format]","EndPlaylistBurn method","IWMReaderPlaylistBurn.EndPlaylistBurn","IWMReaderPlaylistBurn::EndPlaylistBurn","IWMReaderPlaylistBurnEndPlaylistBurn","wmformat.iwmreaderplaylistburn_endplaylistburn","wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn"]
 old-location: wmformat\iwmreaderplaylistburn_endplaylistburn.htm
 tech.root: wmformat
 ms.assetid: 355f23eb-3cdb-4c27-bc48-499f349aef2b
 ms.date: 12/05/2018
 ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], EndPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],EndPlaylistBurn method, IWMReaderPlaylistBurn.EndPlaylistBurn, IWMReaderPlaylistBurn::EndPlaylistBurn, IWMReaderPlaylistBurnEndPlaylistBurn, wmformat.iwmreaderplaylistburn_endplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
-f1_keywords:
-- wmsdkidl/IWMReaderPlaylistBurn.EndPlaylistBurn
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderPlaylistBurn.EndPlaylistBurn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderPlaylistBurn::EndPlaylistBurn
+ - wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderPlaylistBurn.EndPlaylistBurn
 ---
 
 # IWMReaderPlaylistBurn::EndPlaylistBurn
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EndPlaylistBurn</b> method completes the playlist burn process. This includes releasing resources and adjusting counts associated with rights in DRM licenses.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrBurnResult [in]
 
 Result of the playlist burn. Set to S_OK if the files in the playlist were successfully copied to CD. Otherwise, set to an appropriate <b>HRESULT</b> error code.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,27 +82,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To abort the playlist burn process after your status callback receives the WMT_INIT_PLAYLIST_BURN message, pass the E_ABORT error code. To stop the process before initialization is complete, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-cancel">Cancel</a> method.
-
-
-
+To abort the playlist burn process after your status callback receives the WMT_INIT_PLAYLIST_BURN message, pass the E_ABORT error code. To stop the process before initialization is complete, call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-cancel">Cancel</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>

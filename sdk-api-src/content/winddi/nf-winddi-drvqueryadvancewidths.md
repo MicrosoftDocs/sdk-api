@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvQueryAdvanceWidths
 title: DrvQueryAdvanceWidths function (winddi.h)
 description: The DrvQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
+helpviewer_keywords: ["DrvQueryAdvanceWidths","DrvQueryAdvanceWidths function [Display Devices]","ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml","display.drvqueryadvancewidths","winddi/DrvQueryAdvanceWidths"]
 old-location: display\drvqueryadvancewidths.htm
 tech.root: display
 ms.assetid: b97114b5-6cc7-4af6-badb-d6aa5fc581ef
 ms.date: 12/05/2018
 ms.keywords: DrvQueryAdvanceWidths, DrvQueryAdvanceWidths function [Display Devices], ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml, display.drvqueryadvancewidths, winddi/DrvQueryAdvanceWidths
-f1_keywords:
-- winddi/DrvQueryAdvanceWidths
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryAdvanceWidths
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryAdvanceWidths
+ - winddi/DrvQueryAdvanceWidths
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryAdvanceWidths
 ---
 
 # DrvQueryAdvanceWidths function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryAdvanceWidths</b> function returns character advance widths for a specified set of glyphs.
-
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
-
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a> that was previously returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 ### -param iMode
 
@@ -97,44 +92,27 @@ The character advance widths are recorded as an array of 12.4 fixed-point number
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phg [in]
 
 Pointer to an array of glyph handles that specify the glyphs for which the driver will return character advance widths.
 
-
 ### -param pvWidths [out]
 
 Pointer to a buffer where the driver will record data.
-
 
 ### -param cGlyphs
 
 Specifies the number of glyphs in the input buffer pointed to by <i>phg</i>.
 
-
 ## -returns
-
-
 
 The return value is dependent on the value of the <i>iMode</i> parameter.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

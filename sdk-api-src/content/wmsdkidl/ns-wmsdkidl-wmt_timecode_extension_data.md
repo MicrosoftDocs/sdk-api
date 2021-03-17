@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl._WMT_TIMECODE_EXTENSION_DATA
 title: WMT_TIMECODE_EXTENSION_DATA (wmsdkidl.h)
 description: The WMT_TIMECODE_EXTENSION_DATA structure contains information needed for a single SMPTE time code sample extension. One of these structures will be attached to every video frame that requires a SMPTE time code.
+helpviewer_keywords: ["WMT_TIMECODE_EXTENSION_DATA","WMT_TIMECODE_EXTENSION_DATA structure [windows Media Format]","structure [windows Media Format]","wmformat.wmt_timecode_extension_data","wmsdkidl/WMT_TIMECODE_EXTENSION_DATA"]
 old-location: wmformat\wmt_timecode_extension_data.htm
 tech.root: wmformat
 ms.assetid: 039c352c-d1f0-443f-acef-f730e949725c
 ms.date: 12/05/2018
 ms.keywords: WMT_TIMECODE_EXTENSION_DATA, WMT_TIMECODE_EXTENSION_DATA structure [windows Media Format], structure [windows Media Format], wmformat.wmt_timecode_extension_data, wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
-f1_keywords:
-- wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_TIMECODE_EXTENSION_DATA
 targetos: Windows
 req.typenames: WMT_TIMECODE_EXTENSION_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WMT_TIMECODE_EXTENSION_DATA
+ - wmsdkidl/_WMT_TIMECODE_EXTENSION_DATA
+ - WMT_TIMECODE_EXTENSION_DATA
+ - wmsdkidl/WMT_TIMECODE_EXTENSION_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_TIMECODE_EXTENSION_DATA
 ---
 
 # WMT_TIMECODE_EXTENSION_DATA structure
@@ -48,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMT_TIMECODE_EXTENSION_DATA</b> structure contains information needed for a single SMPTE time code sample extension. One of these structures will be attached to every video frame that requires a SMPTE time code.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field wRange
 
 <b>WORD</b> specifying the range to which the time code belongs. See Remarks.
 
-
 ### -field dwTimecode
-
- 
-
 
 ### -field dwUserbits
 
 <b>DWORD</b> containing any information that the user desires. Typically, this member is used to store shot or take numbers, or other information pertinent to the production process.
-
 
 ### -field dwAmFlags
 
@@ -84,10 +75,7 @@ The <b>WMT_TIMECODE_EXTENSION_DATA</b> structure contains information needed for
 
 <b>DWORD</b> containing the time code. Time code is stored so that the hexadecimal value is read as if it were a decimal value. That is, the time code value 0x01133512 does not represent decimal 18035986, rather it specifies 1 hour, 13 minutes, 35 seconds, and 12 frames.
 
-
 ## -remarks
-
-
 
 One of the more common SMPTE user scenarios is assembling a bunch of clips from their source reels into a prospective edit, and preserving the source reel time code in the edit. The time code in this type of file consists of a set of disjointed SMPTE ranges, where each range corresponds to the linear time code from its source reel.
 
@@ -95,16 +83,6 @@ Because these ranges are not guaranteed to be in any sort of time-related order 
 
 Ranges are guaranteed to be monotonically increasing (in other words, 0, 1, 2, 3, … ) with a WMV file. SMPTE time code values are guaranteed to be increasing within a given range in a WMV file, but not across ranges.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

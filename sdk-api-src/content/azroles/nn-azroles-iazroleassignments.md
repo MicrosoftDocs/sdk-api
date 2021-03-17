@@ -2,15 +2,12 @@
 UID: NN:azroles.IAzRoleAssignments
 title: IAzRoleAssignments (azroles.h)
 description: Represents a collection of IAzRoleAssignment objects.
+helpviewer_keywords: ["IAzRoleAssignments","IAzRoleAssignments interface [Security]","IAzRoleAssignments interface [Security]","described","azroles/IAzRoleAssignments","security.iazroleassignments"]
 old-location: security\iazroleassignments.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], IAzRoleAssignments interface [Security],described, azroles/IAzRoleAssignments, security.iazroleassignments
-f1_keywords:
-- azroles/IAzRoleAssignments
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzRoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzRoleAssignments
+ - azroles/IAzRoleAssignments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzRoleAssignments
 ---
 
 # IAzRoleAssignments interface
@@ -48,6 +50,4 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects.
-
+The <b>IAzRoleAssignments</b> interface represents a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects.

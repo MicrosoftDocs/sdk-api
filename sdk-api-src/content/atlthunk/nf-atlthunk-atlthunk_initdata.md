@@ -2,15 +2,12 @@
 UID: NF:atlthunk.AtlThunk_InitData
 title: AtlThunk_InitData function (atlthunk.h)
 description: Initializes an ATL thunk.
+helpviewer_keywords: ["AtlThunk_InitData","AtlThunk_InitData function","atlthunk/AtlThunk_InitData","base.atlthunk_initdata"]
 old-location: base\atlthunk_initdata.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
-f1_keywords:
-- atlthunk/AtlThunk_InitData
-dev_langs:
-- c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Atlthunk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- atlthunk.dll
-api_name:
-- AtlThunk_InitData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AtlThunk_InitData
+ - atlthunk/AtlThunk_InitData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - atlthunk.dll
+api_name:
+ - AtlThunk_InitData
 ---
 
 # AtlThunk_InitData function
@@ -48,42 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an ATL thunk.
-
 
 ## -parameters
 
-
-
-
 ### -param Thunk
 
-A non-null return value from <a href="https://docs.microsoft.com/windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata">AtlThunk_AllocateData</a>.
-
+A non-null return value from <a href="/windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata">AtlThunk_AllocateData</a>.
 
 ### -param Proc
 
 See the example in remarks for more info.
 
-
 ### -param FirstParameter
 
 See the example in remarks for more info.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 An ATL thunk has a signature of WNDPROC. See the following sample for more info on an implementation.
 
@@ -105,6 +88,3 @@ An ATL thunk has a signature of WNDPROC. See the following sample for more info 
 
 
 An arbitrary number of AtlThunk functions can be created; FirstParameter and Proc are set (differently) for each one.
-
-
-

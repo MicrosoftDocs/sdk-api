@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.RedrawWindow
 title: IWRdsProtocolConnectionCallback::RedrawWindow (wtsprotocol.h)
 description: Requests that the Remote Desktop Services service redraw the client window.
+helpviewer_keywords: ["IWRdsProtocolConnectionCallback interface [Remote Desktop Services]","RedrawWindow method","IWRdsProtocolConnectionCallback.RedrawWindow","IWRdsProtocolConnectionCallback::RedrawWindow","RedrawWindow","RedrawWindow method [Remote Desktop Services]","RedrawWindow method [Remote Desktop Services]","IWRdsProtocolConnectionCallback interface","termserv.iwrdsprotocolconnectioncallback_redrawwindow","wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow"]
 old-location: termserv\iwrdsprotocolconnectioncallback_redrawwindow.htm
 tech.root: TermServ
 ms.assetid: 92d52015-c5b9-472e-898b-aca6f6e83620
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWRdsProtocolConnectionCallback.RedrawWindow, IWRdsProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnectionCallback.RedrawWindow
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolConnectionCallback.RedrawWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnectionCallback::RedrawWindow
+ - wtsprotocol/IWRdsProtocolConnectionCallback::RedrawWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnectionCallback.RedrawWindow
 ---
 
 # IWRdsProtocolConnectionCallback::RedrawWindow
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that the Remote Desktop Services service redraw the client window.
-
 
 ## -parameters
 
-
-
-
 ### -param rect [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_small_rect">WRDS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
-
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_small_rect">WRDS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
-This method is typically called after the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a> method.
+This method is typically called after the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a> method.
 
 To avoid deadlocks when calling this method:
 
@@ -86,15 +75,6 @@ To avoid deadlocks when calling this method:
 <li>Do not block on this method before replying to another call by the Remote Desktop Services service.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>

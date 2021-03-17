@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzFreeResourceManager
 title: AuthzFreeResourceManager function (authz.h)
 description: Frees a resource manager object.
+helpviewer_keywords: ["AuthzFreeResourceManager","AuthzFreeResourceManager function [Security]","_win32_authzfreeresourcemanager","authz/AuthzFreeResourceManager","security.authzfreeresourcemanager"]
 old-location: security\authzfreeresourcemanager.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
-f1_keywords:
-- authz/AuthzFreeResourceManager
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-- Ext-MS-Win-authz-context-l1-1-0.dll
-api_name:
-- AuthzFreeResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzFreeResourceManager
+ - authz/AuthzFreeResourceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+ - Ext-MS-Win-authz-context-l1-1-0.dll
+api_name:
+ - AuthzFreeResourceManager
 ---
 
 # AuthzFreeResourceManager function
@@ -49,39 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzFreeResourceManager</b> function frees a resource manager object.
 
-
 ## -parameters
-
-
-
 
 ### -param hAuthzResourceManager [in]
 
 The <b>AUTHZ_RESOURCE_MANAGER_HANDLE</b> to be freed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

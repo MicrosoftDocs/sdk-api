@@ -2,15 +2,12 @@
 UID: NF:rend.ITRendezvous.EnumerateDefaultDirectories
 title: ITRendezvous::EnumerateDefaultDirectories (rend.h)
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
+helpviewer_keywords: ["EnumerateDefaultDirectories","EnumerateDefaultDirectories method [TAPI 2.2]","EnumerateDefaultDirectories method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","EnumerateDefaultDirectories method","ITRendezvous.EnumerateDefaultDirectories","ITRendezvous::EnumerateDefaultDirectories","_tapi3_itrendezvous_enumeratedefaultdirectories","rend/ITRendezvous::EnumerateDefaultDirectories","tapi3.itrendezvous_enumeratedefaultdirectories"]
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
 ms.date: 12/05/2018
 ms.keywords: EnumerateDefaultDirectories, EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],EnumerateDefaultDirectories method, ITRendezvous.EnumerateDefaultDirectories, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
-f1_keywords:
-- rend/ITRendezvous.EnumerateDefaultDirectories
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITRendezvous.EnumerateDefaultDirectories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITRendezvous::EnumerateDefaultDirectories
+ - rend/ITRendezvous::EnumerateDefaultDirectories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITRendezvous.EnumerateDefaultDirectories
 ---
 
 # ITRendezvous::EnumerateDefaultDirectories
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>EnumerateDefaultDirectories</b> method enumerates all configured default directories. This method is similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a> but is designed for C/C++.
-
+<a href="/windows/desktop/api/rend/nf-rend-itrendezvous-get_defaultdirectories">get_DefaultDirectories</a> but is designed for C/C++.
 
 ## -parameters
-
-
-
 
 ### -param ppEnumDirectory [out]
 
 Pointer to receive 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> enumerator listing default directories.
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> enumerator listing default directories.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,33 +107,17 @@ Pointer is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>ITRendezvous::EnumerateDefaultDirectories</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>ITRendezvous::EnumerateDefaultDirectories</b>. The application must call <b>Release</b> on the 
 <b>IEnumDirectory</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>

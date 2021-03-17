@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetRecord
 title: IBitsPeerCacheAdministration::GetRecord (bits3_0.h)
 description: Gets a record from the cache.
+helpviewer_keywords: ["GetRecord","GetRecord method [BITS]","GetRecord method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","GetRecord method","IBitsPeerCacheAdministration.GetRecord","IBitsPeerCacheAdministration::GetRecord","bits.ibitspeercacheadministration_getrecord","bits3_0/IBitsPeerCacheAdministration::GetRecord"]
 old-location: bits\ibitspeercacheadministration_getrecord.htm
 tech.root: Bits
 ms.assetid: 7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c
 ms.date: 12/05/2018
 ms.keywords: GetRecord, GetRecord method [BITS], GetRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetRecord method, IBitsPeerCacheAdministration.GetRecord, IBitsPeerCacheAdministration::GetRecord, bits.ibitspeercacheadministration_getrecord, bits3_0/IBitsPeerCacheAdministration::GetRecord
-f1_keywords:
-- bits3_0/IBitsPeerCacheAdministration.GetRecord
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheAdministration.GetRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheAdministration::GetRecord
+ - bits3_0/IBitsPeerCacheAdministration::GetRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheAdministration.GetRecord
 ---
 
 # IBitsPeerCacheAdministration::GetRecord
@@ -49,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a record from the cache.
-
 
 ## -parameters
 
-
-
-
 ### -param id [in]
 
-Identifier of the record to get from the cache. The <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getid">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
-
+Identifier of the record to get from the cache. The <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-getid">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
 
 ### -param ppRecord [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a> interface of the cache record. Release <i>ppRecord</i> when done.
-
+An <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a> interface of the cache record. Release <i>ppRecord</i> when done.
 
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -91,26 +84,15 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">IBitsPeerCacheAdministration::DeleteRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">IBitsPeerCacheAdministration::DeleteRecord</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">IBitsPeerCacheAdministration::EnumRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">IBitsPeerCacheAdministration::EnumRecords</a>

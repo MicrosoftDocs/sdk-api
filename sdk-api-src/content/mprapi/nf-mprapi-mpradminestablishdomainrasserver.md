@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminEstablishDomainRasServer
 title: MprAdminEstablishDomainRasServer function (mprapi.h)
 description: The MprAdminEstablishDomainRasServer function establishes the given machine as a Remote Access Server in the domain. This function must be executed only on a machine joined to a domain.
+helpviewer_keywords: ["MprAdminEstablishDomainRasServer","MprAdminEstablishDomainRasServer function [RAS]","mprapi/MprAdminEstablishDomainRasServer","rras.mpradminestablishdomainrasserver"]
 old-location: rras\mpradminestablishdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
 ms.date: 12/05/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
-f1_keywords:
-- mprapi/MprAdminEstablishDomainRasServer
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminEstablishDomainRasServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminEstablishDomainRasServer
+ - mprapi/MprAdminEstablishDomainRasServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminEstablishDomainRasServer
 ---
 
 # MprAdminEstablishDomainRasServer function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminEstablishDomainRasServer</a> function establishes the given machine as a Remote Access  Server in the domain. This function must be executed only on a machine joined to a domain.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminEstablishDomainRasServer</a> function establishes the given machine as a Remote Access  Server in the domain. This function must be executed only on a machine joined to a domain.
 
 ## -parameters
 
-
-
-
 ### -param pszDomain [in]
 
-The domain  in which you want the server to be advertised. 
-
+The domain  in which you want the server to be advertised.
 
 ### -param pszMachine [in]
 
 The name of the RAS server.
 
-
 ### -param bEnable [in]
 
 A <b>BOOL</b> that is <b>TRUE</b> if the RAS server should be advertised in the domain. Otherwise, it is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -131,22 +123,11 @@ Function executed on a machine not joined to any domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

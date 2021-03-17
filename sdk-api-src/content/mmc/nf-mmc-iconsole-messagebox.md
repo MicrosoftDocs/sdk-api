@@ -2,15 +2,12 @@
 UID: NF:mmc.IConsole.MessageBox
 title: IConsole::MessageBox (mmc.h)
 description: Displays a message box.
+helpviewer_keywords: ["IConsole interface [MMC]","MessageBox method","IConsole.MessageBox","IConsole::MessageBox","MB_ABORTRETRYIGNORE","MB_APPLMODAL","MB_DEFAULT_DESKTOP_ONLY","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_DEFBUTTON4","MB_HELP","MB_ICONEXCLAMATION","MB_ICONWARNING","MB_ICONINFORMATION","MB_ICONASTERISK","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONERROR","MB_ICONHAND","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_RIGHT","MB_RTLREADING","MB_SERVICE_NOTIFICATION","MB_SERVICE_NOTIFICATION_NT3x","MB_SETFOREGROUND","MB_SYSTEMMODAL","MB_TASKMODAL","MB_TOPMOST","MB_YESNO","MB_YESNOCANCEL","MessageBox","MessageBox method [MMC]","MessageBox method [MMC]","IConsole interface","mmc.iconsole_messagebox","mmc/IConsole::MessageBox"]
 old-location: mmc\iconsole_messagebox.htm
 tech.root: mmc
 ms.assetid: 37F5BF57-A2F6-41BB-822D-298BBCF28B45
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],MessageBox method, IConsole.MessageBox, IConsole::MessageBox, MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SERVICE_NOTIFICATION_NT3x, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox method [MMC], MessageBox method [MMC],IConsole interface, mmc.iconsole_messagebox, mmc/IConsole::MessageBox
-f1_keywords:
-- mmc/IConsole.MessageBox
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IConsole.MessageBox
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConsole::MessageBox
+ - mmc/IConsole::MessageBox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IConsole.MessageBox
 ---
 
 # IConsole::MessageBox
@@ -48,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a message box.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszText [in]
 
 A pointer to a null-terminated string that contains the message to be displayed.
 
-
 ### -param lpszTitle [in]
 
 A pointer to a null-terminated string used for the message box title. If this parameter is <b>NULL</b>, the default title "Error" is used.
 
-
 ### -param fuStyle [in]
 
 A value that specifies a set of bit flags that determine the contents and behavior of the message box. This parameter can be a combination of flags from the following groups of flags taken from the documentation for the Windows API 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>.
 
 Specify one of the following flags to indicate which buttons appear in the message box.
 
@@ -219,7 +214,7 @@ Displays message and caption text using right-to-left reading order for Hebrew a
 
 #### MB_SETFOREGROUND
 
-The message box becomes the foreground window. Internally, the operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the operating system calls the <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
 
 
 
@@ -233,7 +228,7 @@ The message box is created with the <b>WS_EX_TOPMOST</b> window style.
 
 The caller is a service notifying the user of an event. The function displays a message box on the current active desktop, even if there is no user logged on to the computer.
 
-For more information about using this flag, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
+For more information about using this flag, see the <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
 
 
 
@@ -241,42 +236,23 @@ For more information about using this flag, see the <a href="https://docs.micros
 
 This value corresponds to the value defined for <b>MB_SERVICE_NOTIFICATION</b> for earlier versions of Windows.
 
-
 ### -param piRetval [out]
 
 A pointer to the return value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
-
-
 
 <b>MessageBox</b> should not be used for that displays errors that occur when the snap-in does not have the focus. Generally, 
 
-    <b>MessageBox</b> should be used only when the error demands user attention and when the result pane contains useful information despite the error.
+<b>MessageBox</b> should be used only when the error demands user attention and when the result pane contains useful information despite the error.
 
 In most cases, the MMC message OCX control is a more appropriate way of that displays error messages. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.
-
-
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>

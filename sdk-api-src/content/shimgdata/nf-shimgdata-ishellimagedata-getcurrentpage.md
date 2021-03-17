@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.GetCurrentPage
 title: IShellImageData::GetCurrentPage (shimgdata.h)
 description: Gets the current page of a multipage image.
+helpviewer_keywords: ["GetCurrentPage","GetCurrentPage method [Windows Shell]","GetCurrentPage method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetCurrentPage method","IShellImageData.GetCurrentPage","IShellImageData::GetCurrentPage","_shell_IShellImageData_GetCurrentPage","shell.IShellImageData_GetCurrentPage","shimgdata/IShellImageData::GetCurrentPage"]
 old-location: shell\IShellImageData_GetCurrentPage.htm
 tech.root: shell
 ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetCurrentPage method, IShellImageData.GetCurrentPage, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
-f1_keywords:
-- shimgdata/IShellImageData.GetCurrentPage
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.GetCurrentPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::GetCurrentPage
+ - shimgdata/IShellImageData::GetCurrentPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.GetCurrentPage
 ---
 
 # IShellImageData::GetCurrentPage
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current page of a multipage image.
 
-
 ## -parameters
-
-
-
 
 ### -param pnPage [out]
 
@@ -63,14 +60,9 @@ Type: <b>ULONG*</b>
 
 A pointer to the page number.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK. If the image is not a multipage image, such as a .jpg file, the method returns S_OK with a page number of 0.
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingPublicConnectionCollection.get__NewEnum
 title: INetSharingPublicConnectionCollection::get__NewEnum (netcon.h)
 description: The get__NewEnum method retrieves an enumerator for the public connections collection.
+helpviewer_keywords: ["INetSharingPublicConnectionCollection interface [ICS/ICF]","get__NewEnum method","INetSharingPublicConnectionCollection.get__NewEnum","INetSharingPublicConnectionCollection::get__NewEnum","_ics_inetsharingpublicconnectioncollection_get__newenum","get__NewEnum","get__NewEnum method [ICS/ICF]","get__NewEnum method [ICS/ICF]","INetSharingPublicConnectionCollection interface","ics.inetsharingpublicconnectioncollection_get__newenum","netcon/INetSharingPublicConnectionCollection::get__NewEnum"]
 old-location: ics\inetsharingpublicconnectioncollection_get__newenum.htm
 tech.root: ics
 ms.assetid: 169de955-d53d-410e-b2e6-911ab0a78bba
 ms.date: 12/05/2018
 ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPublicConnectionCollection.get__NewEnum, INetSharingPublicConnectionCollection::get__NewEnum, _ics_inetsharingpublicconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPublicConnectionCollection interface, ics.inetsharingpublicconnectioncollection_get__newenum, netcon/INetSharingPublicConnectionCollection::get__NewEnum
-f1_keywords:
-- netcon/INetSharingPublicConnectionCollection.get__NewEnum
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPublicConnectionCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPublicConnectionCollection::get__NewEnum
+ - netcon/INetSharingPublicConnectionCollection::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPublicConnectionCollection.get__NewEnum
 ---
 
 # INetSharingPublicConnectionCollection::get__NewEnum
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get__NewEnum</b> method retrieves an enumerator for the public connections collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
-Pointer to an interface pointer that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
-
+Pointer to an interface pointer that receives a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the collection.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,26 +161,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingpublicconnectioncollection">INetSharingPublicConnectionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingpublicconnectioncollection">INetSharingPublicConnectionCollection</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

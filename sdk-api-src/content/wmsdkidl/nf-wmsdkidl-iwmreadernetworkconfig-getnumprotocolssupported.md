@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetNumProtocolsSupported
 title: IWMReaderNetworkConfig::GetNumProtocolsSupported (wmsdkidl.h)
 description: The GetNumProtocolsSupported method retrieves the number of supported protocols.
+helpviewer_keywords: ["GetNumProtocolsSupported","GetNumProtocolsSupported method [windows Media Format]","GetNumProtocolsSupported method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetNumProtocolsSupported method","IWMReaderNetworkConfig.GetNumProtocolsSupported","IWMReaderNetworkConfig::GetNumProtocolsSupported","IWMReaderNetworkConfigGetNumProtocolsSupported","wmformat.iwmreadernetworkconfig_getnumprotocolssupported","wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported"]
 old-location: wmformat\iwmreadernetworkconfig_getnumprotocolssupported.htm
 tech.root: wmformat
 ms.assetid: 6e249d8f-0351-452f-9b53-86f77df2fd70
 ms.date: 12/05/2018
 ms.keywords: GetNumProtocolsSupported, GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetNumProtocolsSupported method, IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetNumProtocolsSupported
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetNumProtocolsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetNumProtocolsSupported
+ - wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetNumProtocolsSupported
 ---
 
 # IWMReaderNetworkConfig::GetNumProtocolsSupported
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetNumProtocolsSupported</b> method retrieves the number of supported protocols.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcProtocols [out]
 
 Pointer to a count of the protocols.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,29 +93,13 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use this method along with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
+Use this method along with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getprotocolname">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
 
 This method counts the number of protocols that the reader can use when receiving a stream. It does not indicate the protocols that are available for sending a stream.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceUnitsStream.SeekInUnits
 title: IPortableDeviceUnitsStream::SeekInUnits (portabledeviceapi.h)
 description: The SeekInUnits method performs a seek on a stream, based on alternate units.
+helpviewer_keywords: ["IPortableDeviceUnitsStream interface [Windows Portable Devices SDK]","SeekInUnits method","IPortableDeviceUnitsStream.SeekInUnits","IPortableDeviceUnitsStream::SeekInUnits","SeekInUnits","SeekInUnits method [Windows Portable Devices SDK]","SeekInUnits method [Windows Portable Devices SDK]","IPortableDeviceUnitsStream interface","portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits","wpdsdk.iportabledeviceunitsstream_seekinunits"]
 old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceUnitsStream interface [Windows Portable Devices SDK],SeekInUnits method, IPortableDeviceUnitsStream.SeekInUnits, IPortableDeviceUnitsStream::SeekInUnits, SeekInUnits, SeekInUnits method [Windows Portable Devices SDK], SeekInUnits method [Windows Portable Devices SDK],IPortableDeviceUnitsStream interface, portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits, wpdsdk.iportabledeviceunitsstream_seekinunits
-f1_keywords:
-- portabledeviceapi/IPortableDeviceUnitsStream.SeekInUnits
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceUnitsStream.SeekInUnits
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceUnitsStream::SeekInUnits
+ - portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceUnitsStream.SeekInUnits
 ---
 
 # IPortableDeviceUnitsStream::SeekInUnits
@@ -49,40 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SeekInUnits</b> method performs a seek on a stream, based on alternate units.
-
 
 ## -parameters
 
-
-
-
 ### -param dlibMove [in]
 
-The displacement to add to the location indicated by the <i>dwOrigin</i> parameter. The units for the displacement are specified by <i>units</i>. If <i>dwOrigin</i> is <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK_SET</a>, this is interpreted as an unsigned value rather than a signed value.
-
+The displacement to add to the location indicated by the <i>dwOrigin</i> parameter. The units for the displacement are specified by <i>units</i>. If <i>dwOrigin</i> is <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK_SET</a>, this is interpreted as an unsigned value rather than a signed value.
 
 ### -param units [in]
 
-The units of the <i>dlibMove</i> and <i>plibNewPosition</i> parameters.  See <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a> for more details.
-
+The units of the <i>dlibMove</i> and <i>plibNewPosition</i> parameters.  See <a href="/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a> for more details.
 
 ### -param dwOrigin [in]
 
-The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). For more information about values, see the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK</a> enumeration.
-
+The origin for the displacement specified in <i>dlibMove</i>. The origin can be the beginning of the file (STREAM_SEEK_SET), the current seek pointer (STREAM_SEEK_CUR), or the end of the file (STREAM_SEEK_END). For more information about values, see the <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">STREAM_SEEK</a> enumeration.
 
 ### -param plibNewPosition [out, optional]
 
 A pointer to the location where this method writes the value of the new seek pointer from the beginning of the stream. The units are given by units.
 You can set this pointer to NULL. In this case, this method does not provide the new seek pointer.
 
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -125,22 +115,11 @@ The <i>dwUnits</i> or <i>dwOrigin</i> parameter contains an invalid value, or th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceunitsstream">IPortableDeviceUnitsStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceunitsstream">IPortableDeviceUnitsStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a>

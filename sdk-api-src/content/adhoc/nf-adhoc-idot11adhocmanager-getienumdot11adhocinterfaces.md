@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces (adhoc.h)
 description: Returns the set of wireless network interface cards (NICs) available on the machine.
+helpviewer_keywords: ["GetIEnumDot11AdHocInterfaces","GetIEnumDot11AdHocInterfaces method [NativeWIFI]","GetIEnumDot11AdHocInterfaces method [NativeWIFI]","IDot11AdHocManager interface","IDot11AdHocManager interface [NativeWIFI]","GetIEnumDot11AdHocInterfaces method","IDot11AdHocManager.GetIEnumDot11AdHocInterfaces","IDot11AdHocManager::GetIEnumDot11AdHocInterfaces","adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces","nwifi.idot11adhocmanager_getienumdot11adhocinterfaces"]
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocinterfaces.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2e705533-3657-4997-ae84-e18defbbc02a
 ms.date: 12/05/2018
 ms.keywords: GetIEnumDot11AdHocInterfaces, GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
-f1_keywords:
-- adhoc/IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
+ - adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 ---
 
 # IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the set of wireless network interface cards (NICs) available on the machine.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a> interface that contains the list of NICs.
-
+A pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a> interface that contains the list of NICs.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -140,18 +134,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>

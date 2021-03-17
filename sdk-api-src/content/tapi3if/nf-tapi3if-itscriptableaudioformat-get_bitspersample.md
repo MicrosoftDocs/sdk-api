@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITScriptableAudioFormat.get_BitsPerSample
 title: ITScriptableAudioFormat::get_BitsPerSample (tapi3if.h)
 description: The get_BitsPerSample method returns the value for the wBitsPerSample member in the WAVEFORMATEX structure.
+helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_BitsPerSample method","ITScriptableAudioFormat.get_BitsPerSample","ITScriptableAudioFormat::get_BitsPerSample","_tapi3_itscriptableaudioformat_get_bitspersample","get_BitsPerSample","get_BitsPerSample method [TAPI 2.2]","get_BitsPerSample method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_bitspersample","tapi3if/ITScriptableAudioFormat::get_BitsPerSample"]
 old-location: tapi3\itscriptableaudioformat_get_bitspersample.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a98a3571-89bf-4625-b495-2d080c86c4b5
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BitsPerSample method, ITScriptableAudioFormat.get_BitsPerSample, ITScriptableAudioFormat::get_BitsPerSample, _tapi3_itscriptableaudioformat_get_bitspersample, get_BitsPerSample, get_BitsPerSample method [TAPI 2.2], get_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_bitspersample, tapi3if/ITScriptableAudioFormat::get_BitsPerSample
-f1_keywords:
-- tapi3if/ITScriptableAudioFormat.get_BitsPerSample
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITScriptableAudioFormat.get_BitsPerSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITScriptableAudioFormat::get_BitsPerSample
+ - tapi3if/ITScriptableAudioFormat::get_BitsPerSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITScriptableAudioFormat.get_BitsPerSample
 ---
 
 # ITScriptableAudioFormat::get_BitsPerSample
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_BitsPerSample</b> method returns the value for the <b>wBitsPerSample</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
-
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to the value of the <b>wBitsPerSample</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
-
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,22 +93,11 @@ The <i>pVal</i> argument is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_bitspersample">put_BitsPerSample</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_bitspersample">put_BitsPerSample</a>

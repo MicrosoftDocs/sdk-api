@@ -2,15 +2,12 @@
 UID: NF:control.IMediaPosition.CanSeekForward
 title: IMediaPosition::CanSeekForward (control.h)
 description: The CanSeekForward method determines whether the filter graph can seek forward in the stream.
+helpviewer_keywords: ["CanSeekForward","CanSeekForward method [DirectShow]","CanSeekForward method [DirectShow]","IMediaPosition interface","IMediaPosition interface [DirectShow]","CanSeekForward method","IMediaPosition.CanSeekForward","IMediaPosition::CanSeekForward","IMediaPositionCanSeekForward","control/IMediaPosition::CanSeekForward","dshow.imediaposition_canseekforward"]
 old-location: dshow\imediaposition_canseekforward.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0647d629-79f0-4c62-a346-8d99646469c6
 ms.date: 12/05/2018
 ms.keywords: CanSeekForward, CanSeekForward method [DirectShow], CanSeekForward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekForward method, IMediaPosition.CanSeekForward, IMediaPosition::CanSeekForward, IMediaPositionCanSeekForward, control/IMediaPosition::CanSeekForward, dshow.imediaposition_canseekforward
-f1_keywords:
-- control/IMediaPosition.CanSeekForward
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.CanSeekForward
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::CanSeekForward
+ - control/IMediaPosition::CanSeekForward
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.CanSeekForward
 ---
 
 # IMediaPosition::CanSeekForward
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>CanSeekForward</code> method determines whether the filter graph can seek forward in the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCanSeekForward [out]
 
 Pointer to a variable that receives the value OATRUE if the graph can seek forward, or OAFALSE otherwise.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

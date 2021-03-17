@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMultiMediaStream.Initialize
 title: IAMMultiMediaStream::Initialize (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The Initialize method initializes the multimedia stream object.
+helpviewer_keywords: ["IAMMultiMediaStream interface [DirectShow]","Initialize method","IAMMultiMediaStream.Initialize","IAMMultiMediaStream::Initialize","IAMMultiMediaStreamInitialize","Initialize","Initialize method [DirectShow]","Initialize method [DirectShow]","IAMMultiMediaStream interface","amstream/IAMMultiMediaStream::Initialize","dshow.iammultimediastream_initialize"]
 old-location: dshow\iammultimediastream_initialize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
 ms.date: 12/05/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
-f1_keywords:
-- amstream/IAMMultiMediaStream.Initialize
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMultiMediaStream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMultiMediaStream::Initialize
+ - amstream/IAMMultiMediaStream::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMultiMediaStream.Initialize
 ---
 
 # IAMMultiMediaStream::Initialize
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>Initialize</code> method initializes the multimedia stream object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param StreamType [in]
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
-
+Member of the <a href="/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_type">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
 
 ### -param dwFlags [in]
 
@@ -87,17 +80,12 @@ Must be one of the following values:
 <td>Create a filter graph that runs on the calling thread.</td>
 </tr>
 </table>
- 
-
 
 ### -param pFilterGraph [in]
 
-[optional] Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
-
+[optional] Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -129,27 +117,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you specify AMMSF_NOGRAPHTHREAD in the <i>dwFlags</i> parameter, the calling thread must process window messages, and it must release all multimedia streaming objects before the thread exits. Otherwise, the application might deadlock.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

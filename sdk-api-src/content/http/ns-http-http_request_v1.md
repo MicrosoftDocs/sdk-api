@@ -2,15 +2,12 @@
 UID: NS:http._HTTP_REQUEST_V1
 title: HTTP_REQUEST_V1 (http.h)
 description: Uses the HTTP_REQUEST structure to return data associated with a specific request.
+helpviewer_keywords: ["*PHTTP_REQUEST","*PHTTP_REQUEST_V1","HTTP_REQUEST","HTTP_REQUEST_FLAG_HTTP2","HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS","HTTP_REQUEST_FLAG_IP_ROUTED","HTTP_REQUEST_V1","HTTP_REQUEST_V1 structure [HTTP]","PHTTP_REQUEST_V1","PHTTP_REQUEST_V1 structure pointer [HTTP]","http.http_request_v1","http/HTTP_REQUEST_V1","http/PHTTP_REQUEST_V1"]
 old-location: http\http_request_v1.htm
 tech.root: http
 ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_FLAG_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1'
-f1_keywords:
-- http/HTTP_REQUEST_V1
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_REQUEST_V1
 targetos: Windows
 req.typenames: HTTP_REQUEST_V1, *PHTTP_REQUEST_V1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_REQUEST_V1
+ - http/_HTTP_REQUEST_V1
+ - PHTTP_REQUEST_V1
+ - http/PHTTP_REQUEST_V1
+ - HTTP_REQUEST_V1
+ - http/HTTP_REQUEST_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_REQUEST_V1
 ---
 
 ## -description
 
 Uses the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure to return data associated with a specific request.
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure to return data associated with a specific request.
 
-Do not use <b>HTTP_REQUEST_V1</b> directly in your code; using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> instead ensures that the proper version, based on the operating system the code is compiled under, is used.
+Do not use <b>HTTP_REQUEST_V1</b> directly in your code; using <a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> instead ensures that the proper version, based on the operating system the code is compiled under, is used.
 
 ## -struct-fields
 
@@ -101,15 +107,15 @@ Indicates the request was received over HTTP/2.
 ### -field ConnectionId
 
 An identifier for the connection on which the request was received. Use this value when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a>.
+<a href="/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> or 
+<a href="/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a>.
 
 ### -field RequestId
 
 A value used to identify the request when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>, and/or 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>.
+<a href="/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>, 
+<a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>, and/or 
+<a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>.
 
 ### -field UrlContext
 
@@ -120,12 +126,12 @@ The context that is associated with the URL in the <i>pRawUrl</i> parameter.
 ### -field Version
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure that contains the version of HTTP specified by this request.
+<a href="/windows/desktop/api/http/ns-http-http_version">HTTP_VERSION</a> structure that contains the version of HTTP specified by this request.
 
 ### -field Verb
 
 An HTTP verb associated with this request. This member can be one of the values from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a> enumeration.
+<a href="/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a> enumeration.
 
 ### -field UnknownVerbLength
 
@@ -146,17 +152,17 @@ A pointer to a string of octets that contains the original, unprocessed URL targ
 ### -field CookedUrl
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a> structure that contains a parsed canonical wide-character version of the URL targeted by this request. This is the version of the URL HTTP Listeners should act upon, rather than the raw URL.
+<a href="/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a> structure that contains a parsed canonical wide-character version of the URL targeted by this request. This is the version of the URL HTTP Listeners should act upon, rather than the raw URL.
 
 ### -field Address
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a> structure that contains the transport addresses for the connection for this request.
+<a href="/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a> structure that contains the transport addresses for the connection for this request.
 
 ### -field Headers
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> structure that contains the headers specified in this request.
+<a href="/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> structure that contains the headers specified in this request.
 
 ### -field BytesReceived
 
@@ -169,8 +175,8 @@ The number of elements in the <b>pEntityChunks</b> array. If no entity body was 
 ### -field pEntityChunks
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures that contains the data blocks making up the entity body. 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> does not copy the entity body unless called with the HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY flag set.
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures that contains the data blocks making up the entity body. 
+<a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> does not copy the entity body unless called with the HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY flag set.
 
 ### -field RawConnectionId
 
@@ -179,7 +185,7 @@ Raw connection ID for an Secure Sockets Layer (SSL) request.
 ### -field pSslInfo
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a> structure that contains Secure Sockets Layer (SSL) information about the connection on which the request was received.
+<a href="/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a> structure that contains Secure Sockets Layer (SSL) information about the connection on which the request was received.
 
 ## -remarks
 
@@ -187,53 +193,52 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 ## -see-also
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="/windows/desktop/api/http/ns-http-http_cooked_url">HTTP_COOKED_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
+<a href="/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a>
+<a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a>
+<a href="/windows/desktop/api/http/ns-http-http_ssl_info">HTTP_SSL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a>
+<a href="/windows/desktop/api/http/ns-http-http_transport_address">HTTP_TRANSPORT_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a>
+<a href="/windows/desktop/api/http/ne-http-http_verb">HTTP_VERB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>
+<a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
+<a href="/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
+<a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
+
+
+
+<a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>

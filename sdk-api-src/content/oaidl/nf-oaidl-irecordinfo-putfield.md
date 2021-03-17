@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.PutField
 title: IRecordInfo::PutField (oaidl.h)
 description: Puts a variant into a field.
+helpviewer_keywords: ["IRecordInfo interface [Automation]","PutField method","IRecordInfo.PutField","IRecordInfo::PutField","PutField","PutField method [Automation]","PutField method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_PutField","automat.irecordinfo_putfield","oaidl/IRecordInfo::PutField"]
 old-location: automat\irecordinfo_putfield.htm
 tech.root: automat
 ms.assetid: 784bb283-b381-405e-b793-d070105b778f
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],PutField method, IRecordInfo.PutField, IRecordInfo::PutField, PutField, PutField method [Automation], PutField method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutField, automat.irecordinfo_putfield, oaidl/IRecordInfo::PutField
-f1_keywords:
-- oaidl/IRecordInfo.PutField
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.PutField
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::PutField
+ - oaidl/IRecordInfo::PutField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.PutField
 ---
 
 # IRecordInfo::PutField
@@ -48,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Puts a variant into a field.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wFlags [in]
 
@@ -65,27 +60,21 @@ The only legal values for the wFlags parameter is INVOKE_PROPERTYPUT or INVOKE_P
 
 If INVOKE_PROPERTYPUTREF is passed in then <b>PutField</b> just assigns the value of the variant that is passed in to the field using normal coercion rules.
 
-If INVOKE_PROPERTYPUT is passed in then specific rules apply. If the field is declared as a class that derives from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and the field's value is NULL then an error will be returned. If the field's value is not NULL then the variant will be passed to the default property supported by the object referenced by the field. If the field is not declared as a class derived from <b>IDispatch</b> then an error will be returned. If the field is declared as a variant of type VT_Dispatch then the default value of the object is assigned to the field. Otherwise, the variant's value is assigned to the field. 
-
+If INVOKE_PROPERTYPUT is passed in then specific rules apply. If the field is declared as a class that derives from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and the field's value is NULL then an error will be returned. If the field's value is not NULL then the variant will be passed to the default property supported by the object referenced by the field. If the field is not declared as a class derived from <b>IDispatch</b> then an error will be returned. If the field is declared as a variant of type VT_Dispatch then the default value of the object is assigned to the field. Otherwise, the variant's value is assigned to the field.
 
 ### -param pvData [in, out]
 
 The pointer to an instance of the record.
 
-
 ### -param szFieldName [in]
 
 The name of the field of the record.
-
 
 ### -param pvarField [in]
 
 The pointer to the variant.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -119,18 +108,7 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

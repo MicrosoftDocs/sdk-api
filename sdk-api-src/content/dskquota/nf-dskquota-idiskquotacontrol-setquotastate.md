@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.SetQuotaState
 title: IDiskQuotaControl::SetQuotaState (dskquota.h)
 description: Sets the state of the quota system.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetQuotaState method","IDiskQuotaControl.SetQuotaState","IDiskQuotaControl::SetQuotaState","SetQuotaState","SetQuotaState method [Files]","SetQuotaState method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setquotastate","base.idiskquotacontrol_setquotastate","dskquota/IDiskQuotaControl::SetQuotaState","fs.idiskquotacontrol_setquotastate"]
 old-location: fs\idiskquotacontrol_setquotastate.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0bbacc3c-e212-4801-95d8-1e260123665d
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaState method, IDiskQuotaControl.SetQuotaState, IDiskQuotaControl::SetQuotaState, SetQuotaState, SetQuotaState method [Files], SetQuotaState method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotastate, base.idiskquotacontrol_setquotastate, dskquota/IDiskQuotaControl::SetQuotaState, fs.idiskquotacontrol_setquotastate
-f1_keywords:
-- dskquota/IDiskQuotaControl.SetQuotaState
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.SetQuotaState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::SetQuotaState
+ - dskquota/IDiskQuotaControl::SetQuotaState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.SetQuotaState
 ---
 
 # IDiskQuotaControl::SetQuotaState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the state of the quota system.
 
-
 ## -parameters
-
-
-
 
 ### -param dwState [in]
 
@@ -88,12 +85,8 @@ State to be applied to the volume. Use the following macros to set the proper bi
 <td>Yes</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -180,35 +173,19 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Not all state attributes can be modified. The enable, track, and enforce attributes can be modified.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

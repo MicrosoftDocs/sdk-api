@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanIhvControl
 title: WlanIhvControl function (wlanapi.h)
 description: Provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
+helpviewer_keywords: ["WlanIhvControl","WlanIhvControl function [NativeWIFI]","nwifi.wlanihvcontrol","wlanapi/WlanIhvControl"]
 old-location: nwifi\wlanihvcontrol.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.date: 12/05/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
-f1_keywords:
-- wlanapi/WlanIhvControl
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanIhvControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanIhvControl
+ - wlanapi/WlanIhvControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanIhvControl
 ---
 
 # WlanIhvControl function
@@ -48,59 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanIhvControl</b> function provides a mechanism for independent hardware vendor (IHV) control of WLAN drivers or services.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
-The GUID of the interface. 
-
-
+The GUID of the interface.
 
 ### -param Type [in]
 
- A <a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function. 
-
+ A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1">WLAN_IHV_CONTROL_TYPE</a> structure that specifies the type of software bypassed by the IHV control function.
 
 ### -param dwInBufferSize [in]
 
 The size, in bytes, of the input buffer.
 
-
 ### -param pInBuffer [in]
 
 A generic buffer for driver or service interface input.
-
 
 ### -param dwOutBufferSize [in]
 
 The size, in bytes, of the output buffer.
 
-
 ### -param pOutBuffer [in, out, optional]
 
 A generic buffer for driver or service interface output.
-
 
 ### -param pdwBytesReturned [out]
 
 The number of bytes returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -118,7 +104,7 @@ If the function fails, the return value may be one of the following return codes
 </dl>
 </td>
 <td width="60%">
-The caller does not have sufficient permissions to perform this operation. When called, <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
+The caller does not have sufficient permissions to perform this operation. When called, <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_ihv_control</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanIhvControl</b>    returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -167,18 +153,7 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type~r1">WLAN_IHV_CONTROL_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1">WLAN_IHV_CONTROL_TYPE</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamConfig.GetBitrate
 title: IWMStreamConfig::GetBitrate (wmsdkidl.h)
 description: The GetBitrate method retrieves the bit rate for the stream.
+helpviewer_keywords: ["GetBitrate","GetBitrate method [windows Media Format]","GetBitrate method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetBitrate method","IWMStreamConfig.GetBitrate","IWMStreamConfig::GetBitrate","IWMStreamConfigGetBitrate","wmformat.iwmstreamconfig_getbitrate","wmsdkidl/IWMStreamConfig::GetBitrate"]
 old-location: wmformat\iwmstreamconfig_getbitrate.htm
 tech.root: wmformat
 ms.assetid: d34bea45-758e-4c4a-928f-229ce6b4241c
 ms.date: 12/05/2018
 ms.keywords: GetBitrate, GetBitrate method [windows Media Format], GetBitrate method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBitrate method, IWMStreamConfig.GetBitrate, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
-f1_keywords:
-- wmsdkidl/IWMStreamConfig.GetBitrate
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamConfig.GetBitrate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig::GetBitrate
+ - wmsdkidl/IWMStreamConfig::GetBitrate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamConfig.GetBitrate
 ---
 
 # IWMStreamConfig::GetBitrate
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetBitrate</b> method retrieves the bit rate for the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwBitrate [out]
 
 Pointer to a <b>DWORD</b> containing the bit rate, in bits per second.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ The <i>pdwbitrate</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">IWMStreamConfig::SetBitrate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate">IWMStreamConfig::SetBitrate</a>

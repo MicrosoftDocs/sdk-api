@@ -2,15 +2,12 @@
 UID: NS:mprapi._RAS_USER_0
 title: RAS_USER_0 (mprapi.h)
 description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
+helpviewer_keywords: ["*PRAS_USER_0","PRAS_USER_0","PRAS_USER_0 structure pointer [RAS]","RASPRIV_AdminSetCallback","RASPRIV_CallerSetCallback","RASPRIV_DialinPrivilege","RASPRIV_NoCallback","RAS_USER_0","RAS_USER_0 structure [RAS]","_mpr_ras_user_0","mprapi/PRAS_USER_0","mprapi/RAS_USER_0","rras.ras_user_0"]
 old-location: rras\ras_user_0.htm
 tech.root: RRAS
 ms.assetid: f034c6c2-2dac-40bf-b810-9bf6f3eb3c41
 ms.date: 12/05/2018
 ms.keywords: '*PRAS_USER_0, PRAS_USER_0, PRAS_USER_0 structure pointer [RAS], RASPRIV_AdminSetCallback, RASPRIV_CallerSetCallback, RASPRIV_DialinPrivilege, RASPRIV_NoCallback, RAS_USER_0, RAS_USER_0 structure [RAS], _mpr_ras_user_0, mprapi/PRAS_USER_0, mprapi/RAS_USER_0, rras.ras_user_0'
-f1_keywords:
-- mprapi/RAS_USER_0
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- RAS_USER_0
 targetos: Windows
 req.typenames: RAS_USER_0, *PRAS_USER_0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RAS_USER_0
+ - mprapi/_RAS_USER_0
+ - PRAS_USER_0
+ - mprapi/PRAS_USER_0
+ - RAS_USER_0
+ - mprapi/RAS_USER_0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - RAS_USER_0
 ---
 
 # RAS_USER_0 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RAS_USER_0</b> structure contains information for a particular Remote Access Service user.
 
-
 ## -struct-fields
-
-
-
 
 ### -field bfPrivilege
 
@@ -124,36 +125,27 @@ Use the following constant as a mask to isolate the call-back privilege. (This c
 
 RASPRIV_CallbackType
 
-
 ### -field wszPhoneNumber
 
 Pointer to a Unicode string containing the phone number at which the RAS user should be called back.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminusergetinfo">MprAdminUserGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusergetinfo">MprAdminUserGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminusersetinfo">MprAdminUserSetInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS
 		  Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_user_1">RAS_USER_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

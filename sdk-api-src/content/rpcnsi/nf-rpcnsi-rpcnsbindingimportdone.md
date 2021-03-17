@@ -2,15 +2,12 @@
 UID: NF:rpcnsi.RpcNsBindingImportDone
 title: RpcNsBindingImportDone function (rpcnsi.h)
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
+helpviewer_keywords: ["RpcNsBindingImportDone","RpcNsBindingImportDone function [RPC]","_rpc_rpcnsbindingimportdone","rpc.rpcnsbindingimportdone","rpcnsi/RpcNsBindingImportDone"]
 old-location: rpc\rpcnsbindingimportdone.htm
 tech.root: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
-f1_keywords:
-- rpcnsi/RpcNsBindingImportDone
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingImportDone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingImportDone
+ - rpcnsi/RpcNsBindingImportDone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingImportDone
 ---
 
 # RpcNsBindingImportDone function
@@ -48,30 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingImportDone</b> function signals that a client has finished looking for a compatible server and deletes the import context.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param ImportContext
 
 Pointer to a name-service handle to free. The name-service handle <i>ImportContext</i> points to is created by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> function. 
 
 
 
 
 An argument value of <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -93,36 +88,22 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 Typically, a client application calls 
 <b>RpcNsBindingImportDone</b> after completing remote procedure calls to a server using a binding handle returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> function. However, a client application is responsible for calling 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> function. However, a client application is responsible for calling 
 <b>RpcNsBindingImportDone</b> for each import context that was created by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>, regardless of the status returned from 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>, regardless of the status returned from 
 <b>RpcNsBindingImportNext</b> or the success in making remote procedure calls.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>

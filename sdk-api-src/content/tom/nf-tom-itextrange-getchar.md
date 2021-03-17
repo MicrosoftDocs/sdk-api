@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.GetChar
 title: ITextRange::GetChar (tom.h)
 description: Gets the character at the start position of the range.
+helpviewer_keywords: ["GetChar","GetChar method [Windows Controls]","GetChar method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetChar method","ITextRange.GetChar","ITextRange::GetChar","_win32_ITextRange_GetChar","_win32_ITextRange_GetChar_cpp","controls.ITextRange_GetChar","controls._win32_ITextRange_GetChar","tom/ITextRange::GetChar"]
 old-location: controls\ITextRange_GetChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
 ms.date: 12/05/2018
 ms.keywords: GetChar, GetChar method [Windows Controls], GetChar method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetChar method, ITextRange.GetChar, ITextRange::GetChar, _win32_ITextRange_GetChar, _win32_ITextRange_GetChar_cpp, controls.ITextRange_GetChar, controls._win32_ITextRange_GetChar, tom/ITextRange::GetChar
-f1_keywords:
-- tom/ITextRange.GetChar
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.GetChar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::GetChar
+ - tom/ITextRange::GetChar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.GetChar
 ---
 
 # ITextRange::GetChar
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the character at the start position of the range.
 
-
 ## -parameters
-
-
-
 
 ### -param pChar
 
 Type: <b>long*</b>
 
-The start character position of the range. 
-
+The start character position of the range.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If <i>pChar</i> is null, the method fails and it returns E_INVALIDARG.
 
-
-
-
 ## -remarks
-
-
 
 The following Microsoft Visual Basic example sets <i>ch</i> equal to the character at the start of the range.
 
@@ -85,7 +74,7 @@ The following Microsoft Visual Basic example sets <i>ch</i> equal to the charact
 
 <code>ch = r.Char</code>
 
-Similarly, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setchar">ITextRange::SetChar</a> overwrites the character at the start of the range with the specified character. The characters retrieved and set by these methods are <b>LONG</b> variables, which hide the way that they are stored in the backing store (as bytes, words, variable-length, and so forth), and they do not require using a <b>BSTR</b>.
+Similarly, <a href="/windows/desktop/api/tom/nf-tom-itextrange-setchar">ITextRange::SetChar</a> overwrites the character at the start of the range with the specified character. The characters retrieved and set by these methods are <b>LONG</b> variables, which hide the way that they are stored in the backing store (as bytes, words, variable-length, and so forth), and they do not require using a <b>BSTR</b>.
 
 The Char property, which can do most things that a characters collection can, has two big advantages: 
 
@@ -95,19 +84,13 @@ The Char property, which can do most things that a characters collection can, ha
 </ul>
 Accordingly, the Text Object Model (TOM) does not support a characters collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -115,12 +98,8 @@ Accordingly, the Text Object Model (TOM) does not support a characters collectio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setchar">SetChar</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setchar">SetChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

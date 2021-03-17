@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetTypes
 title: IWSDiscoveredService::GetTypes (wsddisco.h)
 description: Retrieves a list of WS-Discovery Types.
+helpviewer_keywords: ["GetTypes","GetTypes method","GetTypes method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetTypes method","IWSDiscoveredService.GetTypes","IWSDiscoveredService::GetTypes","ncd.iwsdiscoveredservice_gettypes","wsddisco/IWSDiscoveredService::GetTypes"]
 old-location: ncd\iwsdiscoveredservice_gettypes.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fda4def4-4c1d-49a7-bfc1-56ff744a7a9d
 ms.date: 12/05/2018
 ms.keywords: GetTypes, GetTypes method, GetTypes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetTypes method, IWSDiscoveredService.GetTypes, IWSDiscoveredService::GetTypes, ncd.iwsdiscoveredservice_gettypes, wsddisco/IWSDiscoveredService::GetTypes
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetTypes
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetTypes
+ - wsddisco/IWSDiscoveredService::GetTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetTypes
 ---
 
 # IWSDiscoveredService::GetTypes
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of WS-Discovery Types.
-
 
 ## -parameters
 
-
-
-
 ### -param ppTypesList [in]
 
-List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a>. Do not deallocate the output structure.
-
+List of WS-Discovery Types provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a>. Do not deallocate the output structure.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-
-
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

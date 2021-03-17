@@ -2,15 +2,12 @@
 UID: NF:callobj.ICallIndirect.CallIndirect
 title: ICallIndirect::CallIndirect (callobj.h)
 description: Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
+helpviewer_keywords: ["CallIndirect","CallIndirect method [COM]","CallIndirect method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","CallIndirect method","ICallIndirect.CallIndirect","ICallIndirect::CallIndirect","_com_icallindirect_callindirect","callobj/ICallIndirect::CallIndirect","com.icallindirect_callindirect"]
 old-location: com\icallindirect_callindirect.htm
 tech.root: com
 ms.assetid: d017ad36-8779-4107-8ee3-f44589f9e802
 ms.date: 12/05/2018
 ms.keywords: CallIndirect, CallIndirect method [COM], CallIndirect method [COM],ICallIndirect interface, ICallIndirect interface [COM],CallIndirect method, ICallIndirect.CallIndirect, ICallIndirect::CallIndirect, _com_icallindirect_callindirect, callobj/ICallIndirect::CallIndirect, com.icallindirect_callindirect
-f1_keywords:
-- callobj/ICallIndirect.CallIndirect
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallIndirect.CallIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallIndirect::CallIndirect
+ - callobj/ICallIndirect::CallIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallIndirect.CallIndirect
 ---
 
 # ICallIndirect::CallIndirect
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
 
-
 ## -parameters
-
-
-
 
 ### -param phrReturn [out]
 
 The value returned from the invocation of the method.
 
-
 ### -param iMethod [in]
 
 The method number to be invoked.
-
 
 ### -param pvArgs [in]
 
 A pointer to the stack frame with which to make the invocation. Details of the exact representation of this stack frame are processor-architecture specific.
 
-
 ### -param cbArgs [out]
 
 The number of bytes to be popped from the stack to clear the stack of arguments to this invocation.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -111,18 +102,7 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>

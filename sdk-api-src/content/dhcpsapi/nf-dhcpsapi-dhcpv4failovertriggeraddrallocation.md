@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpV4FailoverTriggerAddrAllocation
 title: DhcpV4FailoverTriggerAddrAllocation function (dhcpsapi.h)
 description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
+helpviewer_keywords: ["DhcpV4FailoverTriggerAddrAllocation","DhcpV4FailoverTriggerAddrAllocation function [DHCP]","dhcp.dhcpv4failovertriggeraddrallocation","dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"]
 old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm
 tech.root: DHCP
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
-f1_keywords:
-- dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4FailoverTriggerAddrAllocation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4FailoverTriggerAddrAllocation
+ - dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4FailoverTriggerAddrAllocation
 ---
 
 # DhcpV4FailoverTriggerAddrAllocation function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV4FailoverTriggerAddrAllocation</b> function redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param pFailRelName [in]
 
 Pointer to a null-terminated Unicode string that represents the name of the failover relationship for which free addresses are to be redistributed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -114,7 +107,3 @@ The <b>serverType</b> member of failover relationship is <b>SecondaryServer</b>.
 </td>
 </tr>
 </table>
- 
-
-
-

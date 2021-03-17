@@ -2,15 +2,12 @@
 UID: NS:winnetwk._NETINFOSTRUCT
 title: NETINFOSTRUCT (winnetwk.h)
 description: Contains information describing the network provider returned by the WNetGetNetworkInformation function.
+helpviewer_keywords: ["*LPNETINFOSTRUCT","ERROR_BUSY","ERROR_NO_NETWORK","LPNETINFOSTRUCT","LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)]","NETINFOSTRUCT","NETINFOSTRUCT structure [Windows Networking (WNet)]","NETINFO_DISKRED","NETINFO_DLL16","NETINFO_PRINTERRED","NO_ERROR","_win32_netinfostruct_str","winnetwk/LPNETINFOSTRUCT","winnetwk/NETINFOSTRUCT","wnet.netinfostruct_str"]
 old-location: wnet\netinfostruct_str.htm
 tech.root: WNet
 ms.assetid: 2f60209f-7777-4130-b212-245673dd0055
 ms.date: 12/05/2018
 ms.keywords: '*LPNETINFOSTRUCT, ERROR_BUSY, ERROR_NO_NETWORK, LPNETINFOSTRUCT, LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)], NETINFOSTRUCT, NETINFOSTRUCT structure [Windows Networking (WNet)], NETINFO_DISKRED, NETINFO_DLL16, NETINFO_PRINTERRED, NO_ERROR, _win32_netinfostruct_str, winnetwk/LPNETINFOSTRUCT, winnetwk/NETINFOSTRUCT, wnet.netinfostruct_str'
-f1_keywords:
-- winnetwk/NETINFOSTRUCT
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnetwk.h
-api_name:
-- NETINFOSTRUCT
 targetos: Windows
 req.typenames: NETINFOSTRUCT, *LPNETINFOSTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NETINFOSTRUCT
+ - winnetwk/_NETINFOSTRUCT
+ - LPNETINFOSTRUCT
+ - winnetwk/LPNETINFOSTRUCT
+ - NETINFOSTRUCT
+ - winnetwk/NETINFOSTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnetwk.h
+api_name:
+ - NETINFOSTRUCT
 ---
 
 # NETINFOSTRUCT structure
@@ -48,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NETINFOSTRUCT</b> structure contains information describing the network provider returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a> function.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field cbStructure
 
@@ -66,13 +67,11 @@ Type: <b>DWORD</b>
 The size, in bytes, of the 
 <b>NETINFOSTRUCT</b> structure. The caller must supply this value to indicate the size of the structure passed in. Upon return, it has the size of the structure filled in.
 
-
 ### -field dwProviderVersion
 
 Type: <b>DWORD</b>
 
 The version number of the network provider software.
-
 
 ### -field dwStatus
 
@@ -118,8 +117,6 @@ The network is not currently able to service requests, but it should become avai
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCharacteristics
 
@@ -168,8 +165,6 @@ The network provider requires a redirected local printer port to access server f
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwHandle
 
@@ -177,13 +172,11 @@ Type: <b>ULONG_PTR</b>
 
 An instance handle for the network provider or for the 16-bit Windows network driver.
 
-
 ### -field wNetType
 
 Type: <b>WORD</b>
 
 The network type unique to the running network. This value associates resources with a specific network when the resources are persistent or stored in links. You can find a complete list of network types in the header file Winnetwk.h.
-
 
 ### -field dwPrinters
 
@@ -196,7 +189,6 @@ A set of bit flags indicating the valid print numbers for redirecting local prin
 
 <b>Windows Me/98/95:  </b>This value is always set to –1.
 
-
 ### -field dwDrives
 
 Type: <b>DWORD</b>
@@ -208,31 +200,18 @@ A set of bit flags indicating the valid local disk devices for redirecting disk 
 
 <b>Windows Me/98/95:  </b>This value is always set to –1.
 
-
 ## -remarks
-
-
 
 The <b>NETINFOSTRUCT</b> structure contains information describing the network, such as the version of the network provider software and the network's current status.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>

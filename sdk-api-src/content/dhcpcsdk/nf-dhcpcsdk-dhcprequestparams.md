@@ -2,15 +2,12 @@
 UID: NF:dhcpcsdk.DhcpRequestParams
 title: DhcpRequestParams function (dhcpcsdk.h)
 description: The DhcpRequestParams function enables callers to synchronously, or synchronously and persistently obtain DHCP data from a DHCP server.
+helpviewer_keywords: ["DHCPCAPI_REQUEST_PERSISTENT","DHCPCAPI_REQUEST_SYNCHRONOUS","DhcpRequestParams","DhcpRequestParams function [DHCP]","_dhcp_dhcprequestparams","dhcp.dhcprequestparams","dhcpcsdk/DhcpRequestParams"]
 old-location: dhcp\dhcprequestparams.htm
 tech.root: DHCP
 ms.assetid: 5fcbd1d9-8170-4c2b-ac98-6c04107c46e7
 ms.date: 12/05/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
-f1_keywords:
-- dhcpcsdk/DhcpRequestParams
-dev_langs:
-- c++
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpcsvc.lib
 req.dll: Dhcpcsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpcsvc.dll
-api_name:
-- DhcpRequestParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRequestParams
+ - dhcpcsdk/DhcpRequestParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpcsvc.dll
+api_name:
+ - DhcpRequestParams
 ---
 
 # DhcpRequestParams function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DhcpRequestParams</b> function enables callers to synchronously, or synchronously and persistently obtain DHCP data from a DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -88,39 +85,31 @@ Options will be fetched from the server.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ### -param AdapterName [in]
 
-Name of the adapter on which requested data is being made. Must be under 256 characters.
-
+GUID of the adapter on which requested data is being made. Must be under 256 characters.
 
 ### -param ClassId [in]
 
 Class identifier (ID) that should be used if DHCP INFORM messages are being transmitted onto the network. This parameter is optional.
 
-
 ### -param SendParams [in]
 
 Optional data to be requested, in addition to the data requested in the <i>RecdParams</i> array. The <i>SendParams</i> parameter cannot contain any of the standard options that the DHCP client sends by default.
-
 
 ### -param RecdParams [in, out]
 
 Array of DHCP data the caller is interested in receiving. This array must be empty prior to the 
 <b>DhcpRequestParams</b> function call.
 
-
 ### -param Buffer [in]
 
 Buffer used for storing the data associated with requests made in <i>RecdParams</i>.
-
 
 ### -param pSize [in, out]
 
@@ -131,16 +120,12 @@ Size of <i>Buffer</i>.
 
 Required size of the buffer, if it is insufficiently sized to hold the data, otherwise indicates size of the buffer which was successfully filled.
 
-
 ### -param RequestIdStr [in]
 
 Application identifier (ID) used to facilitate a persistent request. Must be a printable string with no special characters (commas, backslashes, colons, or other illegal characters may not be used). The specified application identifier (ID) is used in a subsequent 
 <b>DhcpUndoRequestParams</b> function call to clear the persistent request, as necessary.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS upon successful completion.
 
@@ -177,14 +162,8 @@ Returned if the AdapterName parameter is over 256 characters long.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 DHCP clients store data obtained from a DHCP server in their local cache. If the DHCP client cache contains all data requested in the <i>RecdParams</i> array of a 
 <b>DhcpRequestParams</b> function call, the client returns data from its cache. If requested data is not available in the client cache, the client processes the 
@@ -198,34 +177,24 @@ Clients can also specify that DHCP data be retrieved from the DHCP server each t
 <div class="alert"><b>Note</b>  The callers of this API must not make blocking calls to this API, since it can take up to a maximum of 2 minutes to return a code or status. UI behaviors in particular should not block on the return of this call, since it can introduce a significant delay in UI response time.</div>
 <div> </div>
 For more information about DHCP INFORM messages, and other standards-based information about DHCP, consult 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/about-dynamic-host-configuration-protocol">DHCP Standards</a>.
+<a href="/previous-versions/windows/desktop/dhcp/about-dynamic-host-configuration-protocol">DHCP Standards</a>.
 
 To see the 
 <b>DhcpRequestParams</b> function in use, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-client-api-examples">DHCP Examples</a>.
-
-
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-client-api-examples">DHCP Examples</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
+<a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>

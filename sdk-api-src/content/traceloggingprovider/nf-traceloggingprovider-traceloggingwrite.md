@@ -2,15 +2,12 @@
 UID: NF:traceloggingprovider.TraceLoggingWrite
 title: TraceLoggingWrite macro (traceloggingprovider.h)
 description: Emits an event.
+helpviewer_keywords: ["TraceLoggingWrite","TraceLoggingWrite macro","tracelogging.traceloggingwrite","traceloggingprovider/TraceLoggingWrite"]
 old-location: tracelogging\traceloggingwrite.htm
 tech.root: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
-f1_keywords:
-- traceloggingprovider/TraceLoggingWrite
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingWrite
+ - traceloggingprovider/TraceLoggingWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingWrite
 ---
 
 # TraceLoggingWrite macro
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Emits an event.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 A provider registration handle.
-
 
 ### -param eventName [in]
 
@@ -69,12 +65,9 @@ The name of the event. This must be a string literal and not a variable. It cann
 
 #### - args [in, optional]
 
-Additional parameters added to the event. Up to 99 optional parameters may be specified. All parameters must be wrapper from <a href="https://docs.microsoft.com/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
-
+Additional parameters added to the event. Up to 99 optional parameters may be specified. All parameters must be wrapper from <a href="/windows/desktop/tracelogging/tracelogging-wrapper-macros">TraceLogging Wrapper Macros</a>.
 
 ## -remarks
-
-
 
 You might get an error that a line is too long or the compiler is out of heap space when you submit optional parameters. This may occur because a line of code is longer than the maximum length allowed by the compiler. In this case, the parameters are too complex and you need to remove some from the macro to get it to work. 
      
@@ -94,7 +87,3 @@ TraceLoggingWrite(
 	TraceLoggingInt32(value2, "MyValue2")); // Field name MyValue2
 
 ```
-
-
-
-

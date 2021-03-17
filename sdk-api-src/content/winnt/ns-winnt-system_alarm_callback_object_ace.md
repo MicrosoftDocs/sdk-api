@@ -2,15 +2,12 @@
 UID: NS:winnt._SYSTEM_ALARM_CALLBACK_OBJECT_ACE
 title: SYSTEM_ALARM_CALLBACK_OBJECT_ACE (winnt.h)
 description: The SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure is reserved for future use.
+helpviewer_keywords: ["*PSYSTEM_ALARM_CALLBACK_OBJECT_ACE","ACE_INHERITED_OBJECT_TYPE_PRESENT","ACE_OBJECT_TYPE_PRESENT","ADS_RIGHT_DS_CONTROL_ACCESS","ADS_RIGHT_DS_CREATE_CHILD","ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP","ADS_RIGHT_DS_SELF","SYSTEM_ALARM_CALLBACK_OBJECT_ACE","SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure [Security]","security.system_alarm_callback_object_ace","winnt/SYSTEM_ALARM_CALLBACK_OBJECT_ACE"]
 old-location: security\system_alarm_callback_object_ace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3fdd0b75-666a-4064-95ed-9e708f34bed6
 ms.date: 12/05/2018
 ms.keywords: '*PSYSTEM_ALARM_CALLBACK_OBJECT_ACE, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, ADS_RIGHT_DS_CONTROL_ACCESS, ADS_RIGHT_DS_CREATE_CHILD, ADS_RIGHT_DS_READ_PROP and/or ADS_RIGHT_DS_WRITE_PROP, ADS_RIGHT_DS_SELF, SYSTEM_ALARM_CALLBACK_OBJECT_ACE, SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure [Security], security.system_alarm_callback_object_ace, winnt/SYSTEM_ALARM_CALLBACK_OBJECT_ACE'
-f1_keywords:
-- winnt/SYSTEM_ALARM_CALLBACK_OBJECT_ACE
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- SYSTEM_ALARM_CALLBACK_OBJECT_ACE
 targetos: Windows
 req.typenames: SYSTEM_ALARM_CALLBACK_OBJECT_ACE, *PSYSTEM_ALARM_CALLBACK_OBJECT_ACE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+ - winnt/_SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+ - PSYSTEM_ALARM_CALLBACK_OBJECT_ACE
+ - winnt/PSYSTEM_ALARM_CALLBACK_OBJECT_ACE
+ - SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+ - winnt/SYSTEM_ALARM_CALLBACK_OBJECT_ACE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - SYSTEM_ALARM_CALLBACK_OBJECT_ACE
 ---
 
 # SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure
@@ -48,28 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 The <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure is reserved for future use.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The structure also contains flags that indicate whether the ACE audits successful access attempts, failed access attempts, or both. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure that specifies the size and type of ACE. It contains flags that control inheritance of the ACE by child objects. The structure also contains flags that indicate whether the ACE audits successful access attempts, failed access attempts, or both. The <b>AceType</b> member of the <b>ACE_HEADER</b> structure should be set to SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE.
 
 ### -field Mask
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that specifies the access rights the system will audit for access attempts by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trustee</a>.
-
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that specifies the access rights the system will audit for access attempts by the <a href="/windows/desktop/SecGloss/t-gly">trustee</a>.
 
 ### -field Flags
 
@@ -106,8 +104,6 @@ The <b>InheritedObjectType</b> member contains a GUID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ObjectType
 
@@ -167,8 +163,6 @@ The <b>ObjectType</b> GUID identifies a validated write.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InheritedObjectType
 
@@ -178,23 +172,16 @@ A <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that i
 
 
 This member is valid only if the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is set in the <b>Flags</b> member. If that bit is not set, <b>InheritedObjectType</b> is ignored and all types of child objects can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>, as well as by any protection against inheritance placed on the child objects.
 
 ### -field SidStart
 
-The first <b>DWORD</b> of a trustee's ACE. This ACE can be appended with application data. When the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> function is called, this ACE is passed as the <i>pAce</i> parameter of that function.
-
+The first <b>DWORD</b> of a trustee's ACE. This ACE can be appended with application data. When the <a href="/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> function is called, this ACE is passed as the <i>pAce</i> parameter of that function.
 
 ## -remarks
 
-
-
-If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specified, the <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure has the same semantics as the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_ace">SYSTEM_ALARM_CALLBACK_ACE</a> structure. In that case, use the 
+If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specified, the <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> structure has the same semantics as the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_ace">SYSTEM_ALARM_CALLBACK_ACE</a> structure. In that case, use the 
 <b>SYSTEM_ALARM_CALLBACK_ACE</b> structure because it is smaller and more efficient.
 
 An ACL that contains an <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
-
-
-
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.

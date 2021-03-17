@@ -2,15 +2,12 @@
 UID: NF:winwlx.WlxLoggedOnSAS
 title: WlxLoggedOnSAS function (winwlx.h)
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while the user is logged on and the workstation is not locked.
+helpviewer_keywords: ["WLX_SAS_TYPE_CTRL_ALT_DEL","WLX_SAS_TYPE_SC_INSERT","WLX_SAS_TYPE_SC_REMOVE","WLX_SAS_TYPE_TIMEOUT","WlxLoggedOnSAS","WlxLoggedOnSAS function [Security]","_gina_wlxloggedonsas","security.wlxloggedonsas","winwlx/WlxLoggedOnSAS"]
 old-location: security\wlxloggedonsas.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
-f1_keywords:
-- winwlx/WlxLoggedOnSAS
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxLoggedOnSAS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxLoggedOnSAS
+ - winwlx/WlxLoggedOnSAS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxLoggedOnSAS
 ---
 
 # WlxLoggedOnSAS function
@@ -48,22 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The WlxLoggedOnSAS function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxLoggedOnSAS</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when it receives a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event while the user is logged on and the workstation is not locked.
+The <b>WlxLoggedOnSAS</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when it receives a <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event while the user is logged on and the workstation is not locked.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 ### -param dwSasType [in]
 
@@ -94,7 +91,7 @@ Indicates that no user input was received within the specified time-out period.
 </dl>
 </td>
 <td width="60%">
-Indicates that a user has typed the standard CTRL+ALT+DEL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
+Indicates that a user has typed the standard CTRL+ALT+DEL <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
 
 </td>
 </tr>
@@ -105,7 +102,7 @@ Indicates that a user has typed the standard CTRL+ALT+DEL <a href="https://docs.
 </dl>
 </td>
 <td width="60%">
-Indicates that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> has been inserted into a compatible device.
+Indicates that a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> has been inserted into a compatible device.
 
 </td>
 </tr>
@@ -121,17 +118,12 @@ Indicates that a smart card has been removed from a compatible device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved [in]
 
 This parameter is reserved and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The <b>WlxLoggedOnSAS</b> function should return one of the following values.
 
@@ -213,7 +205,7 @@ If hardware allows, logs the user off, shuts down the computer, and then turns o
 </dl>
 </td>
 <td width="60%">
-Notifies network providers that the user changed their password. Obsolete GINA DLLs should call <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify">WlxChangePasswordNotify</a> whenever a password is changed.
+Notifies network providers that the user changed their password. Obsolete GINA DLLs should call <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify">WlxChangePasswordNotify</a> whenever a password is changed.
 
 </td>
 </tr>
@@ -273,34 +265,18 @@ Shuts down the system into the hibernate mode. If the system was not configured 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Winlogon calls <b>WlxLoggedOnSAS</b> when the logged-on user wants to shut down, log out, or lock the workstation. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL can lock the workstation by returning WLX_SAS_ACTION_LOCK_WKSTA. When this value is returned, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> locks the workstation and calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a> the next time it receives an SAS.
+Winlogon calls <b>WlxLoggedOnSAS</b> when the logged-on user wants to shut down, log out, or lock the workstation. The <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL can lock the workstation by returning WLX_SAS_ACTION_LOCK_WKSTA. When this value is returned, <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> locks the workstation and calls 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a> the next time it receives an SAS.
 
 Before calling <b>WlxLoggedOnSAS</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>

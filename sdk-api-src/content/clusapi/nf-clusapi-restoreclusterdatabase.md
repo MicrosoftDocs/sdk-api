@@ -2,15 +2,12 @@
 UID: NF:clusapi.RestoreClusterDatabase
 title: RestoreClusterDatabase function (clusapi.h)
 description: Restores the cluster database and restarts the Cluster service on the node from which the function is called. This node is called the restoring node.
+helpviewer_keywords: ["RestoreClusterDatabase","RestoreClusterDatabase function [Failover Cluster]","_wolf_restoreclusterdatabase","clusapi/RestoreClusterDatabase","mscs.restoreclusterdatabase"]
 old-location: mscs\restoreclusterdatabase.htm
 tech.root: MsCS
 ms.assetid: a0524363-c5dc-449a-aaf6-9bcd9522c9eb
 ms.date: 12/05/2018
 ms.keywords: RestoreClusterDatabase, RestoreClusterDatabase function [Failover Cluster], _wolf_restoreclusterdatabase, clusapi/RestoreClusterDatabase, mscs.restoreclusterdatabase
-f1_keywords:
-- clusapi/RestoreClusterDatabase
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- RestoreClusterDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RestoreClusterDatabase
+ - clusapi/RestoreClusterDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - RestoreClusterDatabase
 ---
 
 # RestoreClusterDatabase function
@@ -48,29 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems specified in the Requirements 
     section. Support for this function was removed in Windows Server 2008 and this function does nothing and returns 
     <b>ERROR_CALL_NOT_IMPLEMENTED</b>.]
 
 Restores 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and restarts the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> on the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> from which the function is called. This node is called the 
+    the <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> and restarts the 
+    <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> on the 
+    <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> from which the function is called. This node is called the 
     restoring node.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszPathName [in]
 
 Null-terminated Unicode string specifying the path to the backup file. Cluster configuration information is 
        contained in this location; this is sensitive data that should be protected. For example, this data can be 
        protected by using an access control list to restrict access to the location where the data is stored.
-
 
 ### -param bForce [in]
 
@@ -87,11 +83,10 @@ If <b>FALSE</b>, the restore operation will not be completed if either of the fo
 Setting <i>bForce</i> to <b>TRUE</b> causes the operation to proceed 
        regardless of these preceding circumstances; however, the operation may still fail for other reasons.
 
-
 ### -param lpszQuorumDriveLetter [in, optional]
 
 Optional. Identifies the drive letter of the quorum resource on which the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> will be restored. Use this 
+       <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> will be restored. Use this 
        parameter only if the quorum resource has been replaced since the backup was made. The string must be formatted 
        as follows:
 
@@ -103,12 +98,10 @@ Optional. Identifies the drive letter of the quorum resource on which the
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -124,7 +117,7 @@ If the operation fails, the function returns a
 </td>
 <td width="60%">
 The operation failed because other cluster nodes are currently active. If you call 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a> again with 
+         <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a> again with 
          <i>bForce</i> set to <b>TRUE</b>, the cluster will attempt to shut down 
          the Cluster service on the other active nodes.
 
@@ -138,33 +131,27 @@ The operation failed because other cluster nodes are currently active. If you ca
 </td>
 <td width="60%">
 The operation failed because the quorum disk described in the backup does not match the current quorum 
-         disk. If you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a> 
+         disk. If you call <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-restoreclusterdatabase">RestoreClusterDatabase</a> 
          again with <i>bForce</i> set to <b>TRUE</b>, the cluster will attempt 
          to change the signature and drive letter of the current quorum disk to the values stored in the backup.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the restore operation is successful, the restoring node forms a 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> according to the configuration data in the 
+     <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> according to the configuration data in the 
      restored cluster database. As other nodes join the cluster, they update their cluster databases from the database 
      on the restoring node.
 
-Note that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster disks</a> other than the quorum 
+Note that <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster disks</a> other than the quorum 
      resource that have added or changed since the backup was made will not be recognized by the restored cluster 
-     database and will remain <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">offline</a> even if the restore 
-     operation is successful. New <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> must be created for these 
+     database and will remain <a href="/previous-versions/windows/desktop/mscs/o-gly">offline</a> even if the restore 
+     operation is successful. New <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> must be created for these 
      disks (see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-physical-disk-resources">Creating a Physical Disk Resource</a>).
+    <a href="/previous-versions/windows/desktop/mscs/creating-physical-disk-resources">Creating a Physical Disk Resource</a>).
 
 The following general procedure is recommended for any cluster restore routine:
 
@@ -227,9 +214,9 @@ If the user agrees to force continuation, call
 #### Examples
 
 The following example illustrates the procedure described above. For a more complete example that includes 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-backupclusterdatabase">BackupClusterDatabase</a>, see the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-cluster-configuration">Backing Up and Restoring the Cluster Configuration</a>. 
-     This example uses the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
+     <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-backupclusterdatabase">BackupClusterDatabase</a>, see the 
+     <a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-cluster-configuration">Backing Up and Restoring the Cluster Configuration</a>. 
+     This example uses the  <a href="/previous-versions/windows/desktop/mscs/clusdocex-h">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
 
@@ -290,17 +277,6 @@ int main( void )
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-backupclusterdatabase">BackupClusterDatabase</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-backupclusterdatabase">BackupClusterDatabase</a>

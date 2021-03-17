@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.GetNodeType
 title: IMFTopologyNode::GetNodeType (mfidl.h)
 description: Retrieves the node type.
+helpviewer_keywords: ["64b2d2b4-1f00-412d-8188-fa361dc317a1","GetNodeType","GetNodeType method [Media Foundation]","GetNodeType method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetNodeType method","IMFTopologyNode.GetNodeType","IMFTopologyNode::GetNodeType","mf.imftopologynode_getnodetype","mfidl/IMFTopologyNode::GetNodeType"]
 old-location: mf\imftopologynode_getnodetype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 64b2d2b4-1f00-412d-8188-fa361dc317a1
 ms.date: 12/05/2018
 ms.keywords: 64b2d2b4-1f00-412d-8188-fa361dc317a1, GetNodeType, GetNodeType method [Media Foundation], GetNodeType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetNodeType method, IMFTopologyNode.GetNodeType, IMFTopologyNode::GetNodeType, mf.imftopologynode_getnodetype, mfidl/IMFTopologyNode::GetNodeType
-f1_keywords:
-- mfidl/IMFTopologyNode.GetNodeType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.GetNodeType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::GetNodeType
+ - mfidl/IMFTopologyNode::GetNodeType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.GetNodeType
 ---
 
 # IMFTopologyNode::GetNodeType
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the node type.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pType [out]
 
-Receives the node type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_topology_type">MF_TOPOLOGY_TYPE</a> enumeration.
-
+Receives the node type, specified as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_topology_type">MF_TOPOLOGY_TYPE</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,22 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

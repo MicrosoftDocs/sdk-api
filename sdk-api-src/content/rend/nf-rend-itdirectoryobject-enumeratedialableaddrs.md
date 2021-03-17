@@ -2,15 +2,12 @@
 UID: NF:rend.ITDirectoryObject.EnumerateDialableAddrs
 title: ITDirectoryObject::EnumerateDialableAddrs (rend.h)
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
+helpviewer_keywords: ["EnumerateDialableAddrs","EnumerateDialableAddrs method [TAPI 2.2]","EnumerateDialableAddrs method [TAPI 2.2]","ITDirectoryObject interface","ITDirectoryObject interface [TAPI 2.2]","EnumerateDialableAddrs method","ITDirectoryObject.EnumerateDialableAddrs","ITDirectoryObject::EnumerateDialableAddrs","_tapi3_itdirectoryobject_enumeratedialableaddrs","rend/ITDirectoryObject::EnumerateDialableAddrs","tapi3.itdirectoryobject_enumeratedialableaddrs"]
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.date: 12/05/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
-f1_keywords:
-- rend/ITDirectoryObject.EnumerateDialableAddrs
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectoryObject.EnumerateDialableAddrs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectoryObject::EnumerateDialableAddrs
+ - rend/ITDirectoryObject::EnumerateDialableAddrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectoryObject.EnumerateDialableAddrs
 ---
 
 # ITDirectoryObject::EnumerateDialableAddrs
@@ -48,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>EnumerateDialableAddrs</b> method creates an enumerator of all dialable addresses of a given type from the directory.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAddressType [in]
 
 Indicator of the address type.
 
-
 ### -param ppEnumDialableAddrs [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface.
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,33 +110,17 @@ Method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface returned by <b>ITDirectoryObject::EnumerateDialableAddrs</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface returned by <b>ITDirectoryObject::EnumerateDialableAddrs</b>. The application must call <b>Release</b> on the 
 <b>IEnumDialableAddrs</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>

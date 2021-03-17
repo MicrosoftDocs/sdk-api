@@ -2,15 +2,12 @@
 UID: NF:webservices.WsReadNode
 title: WsReadNode function (webservices.h)
 description: This operation advances the Reader to the next node in the input stream.
+helpviewer_keywords: ["WsReadNode","WsReadNode function [Web Services for Windows]","webservices/WsReadNode","wsw.wsreadnode"]
 old-location: wsw\wsreadnode.htm
 tech.root: wsw
 ms.assetid: 60dacf3e-ebde-4247-be58-835565874ab6
 ms.date: 12/05/2018
 ms.keywords: WsReadNode, WsReadNode function [Web Services for Windows], webservices/WsReadNode, wsw.wsreadnode
-f1_keywords:
-- webservices/WsReadNode
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadNode
+ - webservices/WsReadNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadNode
 ---
 
 # WsReadNode function
@@ -48,33 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-This operation advances the Reader to the next <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> in the input stream.
+This operation advances the Reader to the next <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node">node</a> in the input stream.
       If there is an error parsing the input the function will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
-
-
-
 
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> object to advance.
-          The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> and it may not be <b>NULL</b>.
-                
-
+          The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> and it may not be <b>NULL</b>.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -106,24 +97,14 @@ An element was read that exceeded some limit such as <b>WS_XML_READER_PROPERTY_M
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Other exception conditions include: <ul>
 <li>If an XML declaration is found and <b>WS_XML_READER_PROPERTY_READ_DECLARATION</b> is <b>FALSE</b>,
         <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
-<li>If the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
+<li>If the Reader is using <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
         <b>WS_E_QUOTA_EXCEEDED</b>.
       </li>
 </ul>
-
-
-
-

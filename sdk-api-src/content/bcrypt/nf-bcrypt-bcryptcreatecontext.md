@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptCreateContext
 title: BCryptCreateContext function (bcrypt.h)
 description: Creates a new CNG configuration context.
+helpviewer_keywords: ["BCryptCreateContext","BCryptCreateContext function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptCreateContext","security.bcryptcreatecontext"]
 old-location: security\bcryptcreatecontext.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 68f71010-0089-4433-bc89-f61f190e0bff
 ms.date: 12/05/2018
 ms.keywords: BCryptCreateContext, BCryptCreateContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptCreateContext, security.bcryptcreatecontext
-f1_keywords:
-- bcrypt/BCryptCreateContext
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptCreateContext
+ - bcrypt/BCryptCreateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptCreateContext
 ---
 
 # BCryptCreateContext function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptCreateContext</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptCreateContext</b> function creates a new CNG configuration context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,22 +86,16 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to create.
 
-
 ### -param pConfig [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
-
+A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -152,16 +143,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptCreateContext</b> can be called only in user mode.
-
-
-

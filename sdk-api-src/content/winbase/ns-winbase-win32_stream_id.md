@@ -2,15 +2,12 @@
 UID: NS:winbase._WIN32_STREAM_ID
 title: WIN32_STREAM_ID (winbase.h)
 description: Contains stream data.
+helpviewer_keywords: ["*LPWIN32_STREAM_ID","BACKUP_ALTERNATE_DATA","BACKUP_DATA","BACKUP_EA_DATA","BACKUP_LINK","BACKUP_OBJECT_ID","BACKUP_PROPERTY_DATA","BACKUP_REPARSE_DATA","BACKUP_SECURITY_DATA","BACKUP_SPARSE_BLOCK","BACKUP_TXFS_DATA","LPWIN32_STREAM_ID","LPWIN32_STREAM_ID structure pointer [Backup]","STREAM_CONTAINS_SECURITY","STREAM_MODIFIED_WHEN_READ","WIN32_STREAM_ID","WIN32_STREAM_ID structure [Backup]","_WIN32_STREAM_ID","_win32_win32_stream_id_str","backup.win32_stream_id_str","base.win32_stream_id_str","winbase/LPWIN32_STREAM_ID","winbase/WIN32_STREAM_ID"]
 old-location: backup\win32_stream_id_str.htm
 tech.root: Backup
 ms.assetid: 8beb4315-ec0e-4f6f-abfe-369094f7bedd
 ms.date: 12/05/2018
 ms.keywords: '*LPWIN32_STREAM_ID, BACKUP_ALTERNATE_DATA, BACKUP_DATA, BACKUP_EA_DATA, BACKUP_LINK, BACKUP_OBJECT_ID, BACKUP_PROPERTY_DATA, BACKUP_REPARSE_DATA, BACKUP_SECURITY_DATA, BACKUP_SPARSE_BLOCK, BACKUP_TXFS_DATA, LPWIN32_STREAM_ID, LPWIN32_STREAM_ID structure pointer [Backup], STREAM_CONTAINS_SECURITY, STREAM_MODIFIED_WHEN_READ, WIN32_STREAM_ID, WIN32_STREAM_ID structure [Backup], _WIN32_STREAM_ID, _win32_win32_stream_id_str, backup.win32_stream_id_str, base.win32_stream_id_str, winbase/LPWIN32_STREAM_ID, winbase/WIN32_STREAM_ID'
-f1_keywords:
-- winbase/WIN32_STREAM_ID
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbase.h
-api_name:
-- WIN32_STREAM_ID
 targetos: Windows
 req.typenames: WIN32_STREAM_ID, *LPWIN32_STREAM_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WIN32_STREAM_ID
+ - winbase/_WIN32_STREAM_ID
+ - LPWIN32_STREAM_ID
+ - winbase/LPWIN32_STREAM_ID
+ - WIN32_STREAM_ID
+ - winbase/WIN32_STREAM_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbase.h
+api_name:
+ - WIN32_STREAM_ID
 ---
 
 # WIN32_STREAM_ID structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WIN32_STREAM_ID</b> structure contains stream data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwStreamId
 
@@ -173,7 +174,7 @@ Sparse file. This corresponds to the NTFS $DATA stream type for a sparse file.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a> data stream. 
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a> data stream. 
          This corresponds to the NTFS $TXF_DATA stream type.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
@@ -181,8 +182,6 @@ Sparse file. This corresponds to the NTFS $DATA stream type for a sparse file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwStreamAttributes
 
@@ -217,39 +216,27 @@ Stream contains security data (general attributes). Allows the stream to be igno
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Size
 
 Size of data, in bytes.
 
-
 ### -field dwStreamNameSize
 
 Length of the name of the alternative data stream, in bytes.
-
 
 ### -field cStreamName
 
 Unicode string that specifies the name of the alternative data stream.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupseek">BackupSeek</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>

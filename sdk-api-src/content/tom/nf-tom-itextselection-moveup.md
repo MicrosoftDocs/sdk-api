@@ -2,15 +2,12 @@
 UID: NF:tom.ITextSelection.MoveUp
 title: ITextSelection::MoveUp (tom.h)
 description: Mimics the functionality of the Up Arrow and Page Up keys.
+helpviewer_keywords: ["ITextSelection interface [Windows Controls]","MoveUp method","ITextSelection.MoveUp","ITextSelection::MoveUp","MoveUp","MoveUp method [Windows Controls]","MoveUp method [Windows Controls]","ITextSelection interface","_win32_ITextSelection_MoveUp","_win32_ITextSelection_MoveUp_cpp","controls.ITextSelection_MoveUp","controls._win32_ITextSelection_MoveUp","tom/ITextSelection::MoveUp"]
 old-location: controls\ITextSelection_MoveUp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
-f1_keywords:
-- tom/ITextSelection.MoveUp
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextSelection.MoveUp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextSelection::MoveUp
+ - tom/ITextSelection::MoveUp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextSelection.MoveUp
 ---
 
 # ITextSelection::MoveUp
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Mimics the functionality of the  Up Arrow and Page Up keys. 
-
+Mimics the functionality of the  Up Arrow and Page Up keys.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
@@ -91,8 +88,6 @@ Unit to use in the operation. It can be one of the following.
 <td>Moves to first character in window.</td>
 </tr>
 </table>
- 
-
 
 ### -param Count
 
@@ -100,31 +95,26 @@ Type: <b>long</b>
 
 Number of <i>Units</i> to move past. The default value is 1.
 
-
 ### -param Extend
 
 Type: <b>long</b>
 
 Flag that indicates how to change the selection. If 
 					<i>Extend</i> is zero (or <b>tomMove</b>), the method collapses the selection to an insertion point and then moves. If <i>Extend</i> is 1 (or <b>tomExtend</b>), the method moves the active end and leaves the other end alone. The default value is zero. A nonzero <i>Extend</i> value corresponds to the Shift key being pressed in addition to the key combination described in 
-<i>Unit</i>. 
-
+<i>Unit</i>.
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
-The actual count of units the insertion point or active end is moved down. This parameter can be null. Collapsing the selection counts as one unit. 
-
+The actual count of units the insertion point or active end is moved down. This parameter can be null. Collapsing the selection counts as one unit.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -154,42 +144,30 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>MoveUp</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a> methods are similar to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
-
-
-
+The <b>MoveUp</b> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a> methods are similar to the <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
@@ -197,8 +175,4 @@ The <b>MoveUp</b> and <a href="https://docs.microsoft.com/windows/desktop/api/to
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

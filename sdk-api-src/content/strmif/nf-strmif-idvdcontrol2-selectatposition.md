@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.SelectAtPosition
 title: IDvdControl2::SelectAtPosition (strmif.h)
 description: The SelectAtPosition method highlights the menu button under the mouse pointer position.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectAtPosition method","IDvdControl2.SelectAtPosition","IDvdControl2::SelectAtPosition","IDvdControl2SelectAtPosition","SelectAtPosition","SelectAtPosition method [DirectShow]","SelectAtPosition method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectatposition","strmif/IDvdControl2::SelectAtPosition"]
 old-location: dshow\idvdcontrol2_selectatposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f6cb9cb4-0792-43f5-b53b-02a38ccf0398
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition
-f1_keywords:
-- strmif/IDvdControl2.SelectAtPosition
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectAtPosition
+ - strmif/IDvdControl2::SelectAtPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectAtPosition
 ---
 
 # IDvdControl2::SelectAtPosition
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectAtPosition</code> method highlights the menu button under the mouse pointer position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param point [in]
 
 Point on the screen, in screen pixel coordinates.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -111,18 +102,12 @@ The DVD Navigator is in the Stop domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Note that angle and menu button indexes are one-based while audio stream and subpicture stream indexes are zero-based.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activatebutton">IDvdControl2::ActivateButton</a> in response to a mouse click when the pointer is over a menu button.
+Call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-activatebutton">IDvdControl2::ActivateButton</a> in response to a mouse click when the pointer is over a menu button.
 
 The following table shows the Annex J command name to which this method name corresponds, and the domains in which this method is valid.
 
@@ -147,30 +132,19 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::OnMouse
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.GetFunctionProvider
 title: ITfThreadMgr2::GetFunctionProvider (msctf.h)
 description: Obtains the specified function provider object.
+helpviewer_keywords: ["GUID_APP_FUNCTIONPROVIDER","GUID_SYSTEM_FUNCTIONPROVIDER","GetFunctionProvider","GetFunctionProvider method [Text Services Framework]","GetFunctionProvider method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","GetFunctionProvider method","ITfThreadMgr2.GetFunctionProvider","ITfThreadMgr2::GetFunctionProvider","msctf/ITfThreadMgr2::GetFunctionProvider","tsf.itfthreadmgr2_getfunctionprovider"]
 old-location: tsf\itfthreadmgr2_getfunctionprovider.htm
 tech.root: TSF
 ms.assetid: 4B2B2098-ECA1-454F-8F7F-978893C466F7
 ms.date: 12/05/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr2.GetFunctionProvider, ITfThreadMgr2::GetFunctionProvider, msctf/ITfThreadMgr2::GetFunctionProvider, tsf.itfthreadmgr2_getfunctionprovider
-f1_keywords:
-- msctf/ITfThreadMgr2.GetFunctionProvider
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.GetFunctionProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::GetFunctionProvider
+ - msctf/ITfThreadMgr2::GetFunctionProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.GetFunctionProvider
 ---
 
 # ITfThreadMgr2::GetFunctionProvider
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Obtains the specified function provider object.
 
-
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
@@ -87,17 +84,12 @@ Obtains the function provider implemented by the current application. This objec
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppFuncProv [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -140,27 +132,11 @@ GUID_SYSTEM_FUNCTIONPROVIDER was requested, but cannot be obtained.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A function provider registers by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
-
-
-
+A function provider registers by calling the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_SetGroupInfo
 title: ListView_SetGroupInfo macro (commctrl.h)
 description: Sets group information. You can use this macro or send the LVM_SETGROUPINFO message explicitly.
+helpviewer_keywords: ["ListView_SetGroupInfo","ListView_SetGroupInfo macro [Windows Controls]","_win32_ListView_SetGroupInfo","_win32_ListView_SetGroupInfo_cpp","commctrl/ListView_SetGroupInfo","controls.ListView_SetGroupInfo","controls._win32_ListView_SetGroupInfo"]
 old-location: controls\ListView_SetGroupInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupinfo.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Controls], _win32_ListView_SetGroupInfo, _win32_ListView_SetGroupInfo_cpp, commctrl/ListView_SetGroupInfo, controls.ListView_SetGroupInfo, controls._win32_ListView_SetGroupInfo
-f1_keywords:
-- commctrl/ListView_SetGroupInfo
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetGroupInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetGroupInfo
+ - commctrl/ListView_SetGroupInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetGroupInfo
 ---
 
 # ListView_SetGroupInfo macro
@@ -48,38 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets group information. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setgroupinfo">LVM_SETGROUPINFO</a> message explicitly. 
-
+Sets group information. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setgroupinfo">LVM_SETGROUPINFO</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param iGroupId
 
 Type: <b>int</b>
 
-
 ### -param pgrp
 
 Type: <b>PLVGROUP</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a>
 
 ## -remarks
 
-
-
-To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_SetGroupInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

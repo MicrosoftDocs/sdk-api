@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetOutline
 title: ITextFont::SetOutline (tom.h)
 description: Sets whether characters are displayed as outlined characters.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetOutline method","ITextFont.SetOutline","ITextFont::SetOutline","SetOutline","SetOutline method [Windows Controls]","SetOutline method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetOutline","_win32_ITextFont_SetOutline_cpp","controls.ITextFont_SetOutline","controls._win32_ITextFont_SetOutline","tom/ITextFont::SetOutline"]
 old-location: controls\ITextFont_SetOutline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setoutline.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetOutline method, ITextFont.SetOutline, ITextFont::SetOutline, SetOutline, SetOutline method [Windows Controls], SetOutline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetOutline, _win32_ITextFont_SetOutline_cpp, controls.ITextFont_SetOutline, controls._win32_ITextFont_SetOutline, tom/ITextFont::SetOutline
-f1_keywords:
-- tom/ITextFont.SetOutline
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetOutline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetOutline
+ - tom/ITextFont::SetOutline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetOutline
 ---
 
 # ITextFont::SetOutline
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether characters are displayed as outlined characters.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -85,16 +82,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The Outline property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -146,21 +139,14 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -168,12 +154,8 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setoutline">SetOutline</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setoutline">SetOutline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

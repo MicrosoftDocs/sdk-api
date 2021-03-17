@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyHostName
 title: IWMReaderNetworkConfig::SetProxyHostName (wmsdkidl.h)
 description: The SetProxyHostName method specifies the proxy host name.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxyHostName method","IWMReaderNetworkConfig.SetProxyHostName","IWMReaderNetworkConfig::SetProxyHostName","IWMReaderNetworkConfigSetProxyHostName","SetProxyHostName","SetProxyHostName method [windows Media Format]","SetProxyHostName method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxyhostname","wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName"]
 old-location: wmformat\iwmreadernetworkconfig_setproxyhostname.htm
 tech.root: wmformat
 ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyHostName method, IWMReaderNetworkConfig.SetProxyHostName, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.SetProxyHostName
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.SetProxyHostName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::SetProxyHostName
+ - wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.SetProxyHostName
 ---
 
 # IWMReaderNetworkConfig::SetProxyHostName
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetProxyHostName</b> method specifies the proxy host name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszProtocol [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the protocol.
 
-
 ### -param pwszHostName [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the host name. Host names are limited to 1024 wide characters.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,31 +97,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 By default, the proxy host name is <b>NULL</b>, and must be set if a proxy is being used.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyhostname">IWMReaderNetworkConfig::GetProxyHostName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyhostname">IWMReaderNetworkConfig::GetProxyHostName</a>

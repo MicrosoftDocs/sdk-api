@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATComplete
 title: IWinSATInitiateEvents::WinSATComplete (winsatcominterfacei.h)
 description: Receives notification when an assessment succeeds, fails, or is canceled.
+helpviewer_keywords: ["IWinSATInitiateEvents interface [WinSAT]","WinSATComplete method","IWinSATInitiateEvents.WinSATComplete","IWinSATInitiateEvents::WinSATComplete","WINSAT_ERROR_ACCESS_DENIED","WINSAT_ERROR_ASSESSMENT_INTERFERENCE","WINSAT_ERROR_COMMAND_LINE_INVALID","WINSAT_ERROR_COMPLETED_ERROR","WINSAT_ERROR_WINSAT_ALREADY_RUNNING","WINSAT_ERROR_WINSAT_CANCELED","WINSAT_STATUS_COMPLETED_SUCCESS","WinSATComplete","WinSATComplete method [WinSAT]","WinSATComplete method [WinSAT]","IWinSATInitiateEvents interface","winsat.iwinsatinitiateevents_winsatcomplete","winsatcominterfacei/IWinSATInitiateEvents::WinSATComplete"]
 old-location: winsat\iwinsatinitiateevents_winsatcomplete.htm
 tech.root: WinSAT
 ms.assetid: a7bcd7e6-b8d7-4ec3-84e8-8ccbcd0b4ada
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATComplete method, IWinSATInitiateEvents.WinSATComplete, IWinSATInitiateEvents::WinSATComplete, WINSAT_ERROR_ACCESS_DENIED, WINSAT_ERROR_ASSESSMENT_INTERFERENCE, WINSAT_ERROR_COMMAND_LINE_INVALID, WINSAT_ERROR_COMPLETED_ERROR, WINSAT_ERROR_WINSAT_ALREADY_RUNNING, WINSAT_ERROR_WINSAT_CANCELED, WINSAT_STATUS_COMPLETED_SUCCESS, WinSATComplete, WinSATComplete method [WinSAT], WinSATComplete method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatcomplete, winsatcominterfacei/IWinSATInitiateEvents::WinSATComplete
-f1_keywords:
-- winsatcominterfacei/IWinSATInitiateEvents.WinSATComplete
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IWinSATInitiateEvents.WinSATComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWinSATInitiateEvents::WinSATComplete
+ - winsatcominterfacei/IWinSATInitiateEvents::WinSATComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IWinSATInitiateEvents.WinSATComplete
 ---
 
 # IWinSATInitiateEvents::WinSATComplete
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IWinSATInitiateEvents::WinSATComplete may be altered or unavailable for releases after Windows 8.1.]
 
 Receives notification when an assessment succeeds, fails, or is canceled.
 
-
 ## -parameters
-
-
-
 
 ### -param hresult [in]
 
@@ -146,38 +143,23 @@ Another copy of WinSAT.exe is already running; only one instance of WinSAT.exe c
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strDescription [in]
 
 The description of the completion status. This string is valid during the life of this callback. Copy the string if you need it after the callback returns.
 
-
 ## -returns
-
-
 
 This method should return  S_OK; the value is ignored.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatupdate">IWinSATInitiateEvents::WinSATUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatupdate">IWinSATInitiateEvents::WinSATUpdate</a>

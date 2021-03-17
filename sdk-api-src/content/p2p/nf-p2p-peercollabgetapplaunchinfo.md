@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabGetAppLaunchInfo
 title: PeerCollabGetAppLaunchInfo function (p2p.h)
 description: Obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.
+helpviewer_keywords: ["PeerCollabGetAppLaunchInfo","PeerCollabGetAppLaunchInfo function [Peer Networking]","p2p.peercollabgetapplaunchinfo","p2p/PeerCollabGetAppLaunchInfo"]
 old-location: p2p\peercollabgetapplaunchinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
-f1_keywords:
-- p2p/PeerCollabGetAppLaunchInfo
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabGetAppLaunchInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabGetAppLaunchInfo
+ - p2p/PeerCollabGetAppLaunchInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabGetAppLaunchInfo
 ---
 
 # PeerCollabGetAppLaunchInfo function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabGetAppLaunchInfo</b> function obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.
-
 
 ## -parameters
 
-
-
-
 ### -param ppLaunchInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info">PEER_APP_LAUNCH_INFO</a> structure that receives the peer application launch data.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info">PEER_APP_LAUNCH_INFO</a> structure that receives the peer application launch data.
 
-Free the memory associated with this structure by passing it to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
-
+Free the memory associated with this structure by passing it to <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -109,31 +103,15 @@ The requested data does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When an application invite is accepted, the application is launched with  the information sent as part of the application invite. This information can be obtained by calling <b>PeerCollabGetAppLaunchInfo</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info">PEER_APP_LAUNCH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info">PEER_APP_LAUNCH_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

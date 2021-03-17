@@ -2,15 +2,12 @@
 UID: NS:cryptxml._CRYPT_XML_STATUS
 title: CRYPT_XML_STATUS (cryptxml.h)
 description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
+helpviewer_keywords: ["*PCRYPT_XML_STATUS","CRYPT_XML_STATUS","CRYPT_XML_STATUS structure [Security]","CRYPT_XML_STATUS_DIGESTING","CRYPT_XML_STATUS_DIGEST_VALID","CRYPT_XML_STATUS_ERROR_DIGEST_INVALID","CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED","CRYPT_XML_STATUS_ERROR_NOT_RESOLVED","CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM","CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM","CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID","CRYPT_XML_STATUS_INTERNAL_REFERENCE","CRYPT_XML_STATUS_KEY_AVAILABLE","CRYPT_XML_STATUS_OPENED_TO_ENCODE","CRYPT_XML_STATUS_SIGNATURE_VALID","PCRYPT_XML_STATUS","PCRYPT_XML_STATUS structure pointer [Security]","cryptxml/CRYPT_XML_STATUS","cryptxml/PCRYPT_XML_STATUS","security.crypt_xml_status"]
 old-location: security\crypt_xml_status.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_STATUS, CRYPT_XML_STATUS, CRYPT_XML_STATUS structure [Security], CRYPT_XML_STATUS_DIGESTING, CRYPT_XML_STATUS_DIGEST_VALID, CRYPT_XML_STATUS_ERROR_DIGEST_INVALID, CRYPT_XML_STATUS_ERROR_KEYINFO_NOT_PARSED, CRYPT_XML_STATUS_ERROR_NOT_RESOLVED, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_ALGORITHM, CRYPT_XML_STATUS_ERROR_NOT_SUPPORTED_TRANSFORM, CRYPT_XML_STATUS_ERROR_SIGNATURE_INVALID, CRYPT_XML_STATUS_INTERNAL_REFERENCE, CRYPT_XML_STATUS_KEY_AVAILABLE, CRYPT_XML_STATUS_OPENED_TO_ENCODE, CRYPT_XML_STATUS_SIGNATURE_VALID, PCRYPT_XML_STATUS, PCRYPT_XML_STATUS structure pointer [Security], cryptxml/CRYPT_XML_STATUS, cryptxml/PCRYPT_XML_STATUS, security.crypt_xml_status'
-f1_keywords:
-- cryptxml/CRYPT_XML_STATUS
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptxml.h
-api_name:
-- CRYPT_XML_STATUS
 targetos: Windows
 req.typenames: CRYPT_XML_STATUS, *PCRYPT_XML_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_XML_STATUS
+ - cryptxml/_CRYPT_XML_STATUS
+ - PCRYPT_XML_STATUS
+ - cryptxml/PCRYPT_XML_STATUS
+ - CRYPT_XML_STATUS
+ - cryptxml/CRYPT_XML_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptxml.h
+api_name:
+ - CRYPT_XML_STATUS
 ---
 
 # CRYPT_XML_STATUS structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_XML_STATUS</b> structure returns information about the signature validation status, 
   summary status information about a <b>SignedInfo</b> element, or summary status information 
-  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlgetstatus">CryptXmlGetStatus</a> function.
-
+  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlgetstatus">CryptXmlGetStatus</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwErrorStatus
 
@@ -145,8 +145,6 @@ Unable to parse the <b>KeyInfo</b> element.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwInfoStatus
 
@@ -230,5 +228,3 @@ The document is open for encoding.
 </td>
 </tr>
 </table>
- 
-

@@ -2,15 +2,12 @@
 UID: NF:mmeapi.waveOutReset
 title: waveOutReset function (mmeapi.h)
 description: The waveOutReset function stops playback on the given waveform-audio output device and resets the current position to zero. All pending playback buffers are marked as done (WHDR_DONE) and returned to the application.
+helpviewer_keywords: ["_win32_waveOutReset","mmeapi/waveOutReset","multimedia.waveoutreset","waveOutReset","waveOutReset function [Windows Multimedia]"]
 old-location: multimedia\waveoutreset.htm
 tech.root: Multimedia
 ms.assetid: 8a057dcd-985b-4ec7-be5b-c1cc2a6d1e72
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutReset, mmeapi/waveOutReset, multimedia.waveoutreset, waveOutReset, waveOutReset function [Windows Multimedia]
-f1_keywords:
-- mmeapi/waveOutReset
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- waveOutReset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveOutReset
+ - mmeapi/waveOutReset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - waveOutReset
 ---
 
 # waveOutReset function
@@ -50,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>waveOutReset</b> function stops playback on the given waveform-audio output device and resets the current position to zero. All pending playback buffers are marked as done (WHDR_DONE) and returned to the application.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwo
 
 Handle to the waveform-audio output device.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -123,31 +114,15 @@ Specified device is synchronous and does not support pausing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After this function returns, the application can send new playback buffers to the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743856(v=vs.85)">waveOutClose</a>.
-
-
-
+After this function returns, the application can send new playback buffers to the device by calling <a href="/previous-versions/dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="/previous-versions/dd743856(v=vs.85)">waveOutClose</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

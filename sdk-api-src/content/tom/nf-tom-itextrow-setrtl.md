@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRow.SetRTL
 title: ITextRow::SetRTL (tom.h)
 description: Sets whether this row has right-to-left orientation.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetRTL method","ITextRow.SetRTL","ITextRow::SetRTL","SetRTL","SetRTL method [Windows Controls]","SetRTL method [Windows Controls]","ITextRow interface","controls.itextrow_setrtl","tom/ITextRow::SetRTL","tomFalse","tomToggle","tomTrue"]
 old-location: controls\itextrow_setrtl.htm
 tech.root: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetRTL method, ITextRow.SetRTL, ITextRow::SetRTL, SetRTL, SetRTL method [Windows Controls], SetRTL method [Windows Controls],ITextRow interface, controls.itextrow_setrtl, tom/ITextRow::SetRTL, tomFalse, tomToggle, tomTrue
-f1_keywords:
-- tom/ITextRow.SetRTL
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRow.SetRTL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRow::SetRTL
+ - tom/ITextRow::SetRTL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRow.SetRTL
 ---
 
 # ITextRow::SetRTL
@@ -48,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether this row has right-to-left orientation.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 
 
@@ -102,31 +99,17 @@ Toggles the orientation.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-getrtl">ITextRow::GetRTL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrow-getrtl">ITextRow::GetRTL</a>

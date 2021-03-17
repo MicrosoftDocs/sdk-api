@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameJoliet
 title: IFileSystemImage::get_VolumeNameJoliet (imapi2fs.h)
 description: Retrieves the volume name for the Joliet system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_VolumeNameJoliet method","IFileSystemImage.get_VolumeNameJoliet","IFileSystemImage::get_VolumeNameJoliet","get_VolumeNameJoliet","get_VolumeNameJoliet method [IMAPI]","get_VolumeNameJoliet method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_volumenamejoliet","imapi2fs/IFileSystemImage::get_VolumeNameJoliet"]
 old-location: imapi\ifilesystemimage_get_volumenamejoliet.htm
 tech.root: imapi
 ms.assetid: 5300763d-9f2f-4562-bb5e-61fcf485b086
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameJoliet method, IFileSystemImage.get_VolumeNameJoliet, IFileSystemImage::get_VolumeNameJoliet, get_VolumeNameJoliet, get_VolumeNameJoliet method [IMAPI], get_VolumeNameJoliet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenamejoliet, imapi2fs/IFileSystemImage::get_VolumeNameJoliet
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_VolumeNameJoliet
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_VolumeNameJoliet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_VolumeNameJoliet
+ - imapi2fs/IFileSystemImage::get_VolumeNameJoliet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_VolumeNameJoliet
 ---
 
 # IFileSystemImage::get_VolumeNameJoliet
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the volume name for the Joliet system image.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 String that contains the volume name for the Joliet system image.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,30 +81,19 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">IFileSystemImage::get_VolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">IFileSystemImage::get_VolumeName</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameiso9660">IFileSystemImage::get_VolumeNameISO9660</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameiso9660">IFileSystemImage::get_VolumeNameISO9660</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf">IFileSystemImage::get_VolumeNameUDF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf">IFileSystemImage::get_VolumeNameUDF</a>

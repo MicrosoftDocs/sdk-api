@@ -2,15 +2,12 @@
 UID: NF:wmpplug.IWMPPluginUI.GetProperty
 title: IWMPPluginUI::GetProperty (wmpplug.h)
 description: The GetProperty method is called by Windows Media Player to retrieve name/value property pairs from the plug-in.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Player]","GetProperty method [Windows Media Player]","IWMPPluginUI interface","IWMPPluginUI interface [Windows Media Player]","GetProperty method","IWMPPluginUI.GetProperty","IWMPPluginUI::GetProperty","IWMPPluginUIGetProperty","wmp.iwmppluginui_getproperty","wmpplug/IWMPPluginUI::GetProperty"]
 old-location: wmp\iwmppluginui_getproperty.htm
 tech.root: WMP
 ms.assetid: f01d0700-2399-4e33-8a0c-59bb1f0f2495
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Player], GetProperty method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],GetProperty method, IWMPPluginUI.GetProperty, IWMPPluginUI::GetProperty, IWMPPluginUIGetProperty, wmp.iwmppluginui_getproperty, wmpplug/IWMPPluginUI::GetProperty
-f1_keywords:
-- wmpplug/IWMPPluginUI.GetProperty
-dev_langs:
-- c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpplug.h
-api_name:
-- IWMPPluginUI.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPluginUI::GetProperty
+ - wmpplug/IWMPPluginUI::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpplug.h
+api_name:
+ - IWMPPluginUI.GetProperty
 ---
 
 # IWMPPluginUI::GetProperty
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetProperty</b> method is called by Windows Media Player to retrieve name/value property pairs from the plug-in.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszName [in]
 
@@ -116,26 +110,16 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 <td>The out parameter is set to a <b>Boolean</b> (<b>VT_BOOL</b>) value that indicates whether the plug-in window is resizable. This property is requested only for plug-ins in separate windows.</td>
 </tr>
 </table>
- 
-
 
 ### -param pvarProperty [out]
 
 Pointer to a <b>VARIANT</b> to contain the value of the property.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Windows Media Player determines the type and capabilities of a plug-in by checking the Windows registry, and will retrieve only properties that the plug-in supports.
 
@@ -147,16 +131,6 @@ This method is not called when a display area, settings area, or metadata area p
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>

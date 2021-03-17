@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUPostMessage
 title: WPUPostMessage function (ws2spi.h)
 description: The WPUPostMessage function performs the standard Windows PostMessage function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+helpviewer_keywords: ["WPUPostMessage","WPUPostMessage function [Winsock]","_win32_wpupostmessage_2","winsock.wpupostmessage_2","ws2spi/WPUPostMessage"]
 old-location: winsock\wpupostmessage_2.htm
 tech.root: WinSock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828
 ms.date: 12/05/2018
 ms.keywords: WPUPostMessage, WPUPostMessage function [Winsock], _win32_wpupostmessage_2, winsock.wpupostmessage_2, ws2spi/WPUPostMessage
-f1_keywords:
-- ws2spi/WPUPostMessage
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUPostMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUPostMessage
+ - ws2spi/WPUPostMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUPostMessage
 ---
 
 # WPUPostMessage function
@@ -48,42 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUPostMessage** function performs the standard Windows <a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to the window that will receive the message.
 
-
 ### -param Msg [in]
 
 Message that will be posted.
-
 
 ### -param wParam [in]
 
 First parameter containing additional message-specific information.
 
-
 ### -param lParam [in]
 
 Second parameter containing additional message-specific information.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUPostMessage** returns the **TRUE** value. Otherwise, the **FALSE** value is returned.
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarBstrFromBool
 title: VarBstrFromBool function (oleauto.h)
 description: Converts a Boolean value to a BSTR value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_LOCALBOOL","VarBstrFromBool","VarBstrFromBool function [Automation]","_oa96_VarBstrFromBool","automat.varbstrfrombool","oleauto/VarBstrFromBool"]
 old-location: automat\varbstrfrombool.htm
 tech.root: automat
 ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
-f1_keywords:
-- oleauto/VarBstrFromBool
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarBstrFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarBstrFromBool
+ - oleauto/VarBstrFromBool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarBstrFromBool
 ---
 
 # VarBstrFromBool function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a Boolean value to a BSTR value.
 
-
 ## -parameters
-
-
-
 
 ### -param boolIn [in]
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param dwFlags [in]
 
@@ -97,17 +92,12 @@ Uses localized Boolean names.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbstrOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -185,7 +175,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

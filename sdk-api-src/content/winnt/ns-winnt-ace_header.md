@@ -2,15 +2,12 @@
 UID: NS:winnt._ACE_HEADER
 title: ACE_HEADER (winnt.h)
 description: Defines the type and size of an access control entry (ACE).
+helpviewer_keywords: ["*PACE_HEADER","ACCESS_ALLOWED_ACE_TYPE","ACCESS_ALLOWED_CALLBACK_ACE_TYPE","ACCESS_ALLOWED_CALLBACK_OBJECT_ACE_TYPE","ACCESS_ALLOWED_COMPOUND_ACE_TYPE","ACCESS_ALLOWED_OBJECT_ACE_TYPE","ACCESS_DENIED_ACE_TYPE","ACCESS_DENIED_CALLBACK_ACE_TYPE","ACCESS_DENIED_CALLBACK_OBJECT_ACE_TYPE","ACCESS_DENIED_OBJECT_ACE_TYPE","ACCESS_MAX_MS_ACE_TYPE","ACCESS_MAX_MS_OBJECT_ACE_TYPE","ACCESS_MAX_MS_V2_ACE_TYPE","ACCESS_MAX_MS_V3_ACE_TYPE","ACCESS_MAX_MS_V4_ACE_TYPE","ACCESS_MIN_MS_ACE_TYPE","ACCESS_MIN_MS_OBJECT_ACE_TYPE","ACE_HEADER","ACE_HEADER structure [Security]","CONTAINER_INHERIT_ACE","FAILED_ACCESS_ACE_FLAG","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","PACE_HEADER","PACE_HEADER structure pointer [Security]","SUCCESSFUL_ACCESS_ACE_FLAG","SYSTEM_ALARM_ACE_TYPE","SYSTEM_ALARM_CALLBACK_ACE_TYPE","SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE","SYSTEM_ALARM_OBJECT_ACE_TYPE","SYSTEM_AUDIT_ACE_TYPE","SYSTEM_AUDIT_CALLBACK_ACE_TYPE","SYSTEM_AUDIT_CALLBACK_OBJECT_ACE_TYPE","SYSTEM_AUDIT_OBJECT_ACE_TYPE","SYSTEM_MANDATORY_LABEL_ACE_TYPE","_ACE_HEADER","_win32_ace_header_str","security.ace_header","winnt/ACE_HEADER","winnt/PACE_HEADER"]
 old-location: security\ace_header.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d23f15d6-0453-4aaf-a2db-7528b551a992
 ms.date: 12/05/2018
 ms.keywords: '*PACE_HEADER, ACCESS_ALLOWED_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_ACE_TYPE, ACCESS_ALLOWED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_ALLOWED_COMPOUND_ACE_TYPE, ACCESS_ALLOWED_OBJECT_ACE_TYPE, ACCESS_DENIED_ACE_TYPE, ACCESS_DENIED_CALLBACK_ACE_TYPE, ACCESS_DENIED_CALLBACK_OBJECT_ACE_TYPE, ACCESS_DENIED_OBJECT_ACE_TYPE, ACCESS_MAX_MS_ACE_TYPE, ACCESS_MAX_MS_OBJECT_ACE_TYPE, ACCESS_MAX_MS_V2_ACE_TYPE, ACCESS_MAX_MS_V3_ACE_TYPE, ACCESS_MAX_MS_V4_ACE_TYPE, ACCESS_MIN_MS_ACE_TYPE, ACCESS_MIN_MS_OBJECT_ACE_TYPE, ACE_HEADER, ACE_HEADER structure [Security], CONTAINER_INHERIT_ACE, FAILED_ACCESS_ACE_FLAG, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, PACE_HEADER, PACE_HEADER structure pointer [Security], SUCCESSFUL_ACCESS_ACE_FLAG, SYSTEM_ALARM_ACE_TYPE, SYSTEM_ALARM_CALLBACK_ACE_TYPE, SYSTEM_ALARM_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_ALARM_OBJECT_ACE_TYPE, SYSTEM_AUDIT_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_ACE_TYPE, SYSTEM_AUDIT_CALLBACK_OBJECT_ACE_TYPE, SYSTEM_AUDIT_OBJECT_ACE_TYPE, SYSTEM_MANDATORY_LABEL_ACE_TYPE, _ACE_HEADER, _win32_ace_header_str, security.ace_header, winnt/ACE_HEADER, winnt/PACE_HEADER'
-f1_keywords:
-- winnt/ACE_HEADER
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- ACE_HEADER
 targetos: Windows
 req.typenames: ACE_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ACE_HEADER
+ - winnt/_ACE_HEADER
+ - ACE_HEADER
+ - winnt/ACE_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - ACE_HEADER
 ---
 
 # ACE_HEADER structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ACE_HEADER</b> structure defines the type and size of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
-
+The <b>ACE_HEADER</b> structure defines the type and size of an <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 ## -struct-fields
-
-
-
 
 ### -field AceType
 
@@ -78,7 +77,7 @@ Specifies the ACE type. This member can be one of the following values.
 </td>
 <td width="60%">
 Access-allowed ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
 </td>
 </tr>
@@ -89,7 +88,7 @@ Access-allowed ACE that uses the
 </td>
 <td width="60%">
 Access-allowed callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_ace">ACCESS_ALLOWED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -100,7 +99,7 @@ Access-allowed callback ACE that uses the
 </td>
 <td width="60%">
 Object-specific access-allowed callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_object_ace">ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_callback_object_ace">ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -121,7 +120,7 @@ Reserved.
 </td>
 <td width="60%">
 Object-specific access-allowed ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace">ACCESS_ALLOWED_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace">ACCESS_ALLOWED_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -132,7 +131,7 @@ Object-specific access-allowed ACE that uses the
 </td>
 <td width="60%">
 Access-denied ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a> structure.
 
 </td>
 </tr>
@@ -143,7 +142,7 @@ Access-denied ACE that uses the
 </td>
 <td width="60%">
 Access-denied callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -154,7 +153,7 @@ Access-denied callback ACE that uses the
 </td>
 <td width="60%">
 Object-specific access-denied callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_callback_ace">ACCESS_DENIED_CALLBACK_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -165,7 +164,7 @@ Object-specific access-denied callback ACE that uses the
 </td>
 <td width="60%">
 Object-specific access-denied ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -245,7 +244,7 @@ Same as ACCESS_ALLOWED_OBJECT_ACE_TYPE.
 </dl>
 </td>
 <td width="60%">
-Reserved for future use. System-alarm ACE that uses the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a> structure.
+Reserved for future use. System-alarm ACE that uses the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a> structure.
 
 </td>
 </tr>
@@ -255,7 +254,7 @@ Reserved for future use. System-alarm ACE that uses the <a href="https://docs.mi
 </dl>
 </td>
 <td width="60%">
-Reserved for future use. System-alarm callback ACE that uses the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_ace">SYSTEM_ALARM_CALLBACK_ACE</a> structure.
+Reserved for future use. System-alarm callback ACE that uses the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_ace">SYSTEM_ALARM_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -265,7 +264,7 @@ Reserved for future use. System-alarm callback ACE that uses the <a href="https:
 </dl>
 </td>
 <td width="60%">
-Reserved for future use. Object-specific system-alarm callback ACE that uses the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_object_ace">SYSTEM_ALARM_CALLBACK_OBJECT_ACE</a> structure.
+Reserved for future use. Object-specific system-alarm callback ACE that uses the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_callback_object_ace">SYSTEM_ALARM_CALLBACK_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -275,7 +274,7 @@ Reserved for future use. Object-specific system-alarm callback ACE that uses the
 </dl>
 </td>
 <td width="60%">
-Reserved for future use. Object-specific system-alarm ACE that uses the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_ALARM_OBJECT_ACE</a> structure.
+Reserved for future use. Object-specific system-alarm ACE that uses the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_ALARM_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -286,7 +285,7 @@ Reserved for future use. Object-specific system-alarm ACE that uses the <a href=
 </td>
 <td width="60%">
 System-audit ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a> structure.
 
 </td>
 </tr>
@@ -297,7 +296,7 @@ System-audit ACE that uses the
 </td>
 <td width="60%">
 System-audit callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_callback_ace">SYSTEM_AUDIT_CALLBACK_ACE</a> structure.
 
 </td>
 </tr>
@@ -308,7 +307,7 @@ System-audit callback ACE that uses the
 </td>
 <td width="60%">
 Object-specific system-audit callback ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_callback_object_ace">SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_callback_object_ace">SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -319,7 +318,7 @@ Object-specific system-audit callback ACE that uses the
 </td>
 <td width="60%">
 Object-specific system-audit ACE that uses the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a> structure.
 
 </td>
 </tr>
@@ -330,13 +329,11 @@ Object-specific system-audit ACE that uses the
 </dl>
 </td>
 <td width="60%">
-Mandatory label ACE that uses the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
+Mandatory label ACE that uses the <a href="/windows/desktop/api/winnt/ns-winnt-system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceFlags
 
@@ -368,7 +365,7 @@ Child objects that are containers, such as directories, inherit the ACE as an ef
 </dl>
 </td>
 <td width="60%">
-Used with system-audit ACEs in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) to generate audit messages for failed access attempts.
+Used with system-audit ACEs in a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) to generate audit messages for failed access attempts.
 
 </td>
 </tr>
@@ -433,56 +430,41 @@ Used with system-audit ACEs in a SACL to generate audit messages for successful 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AceSize
 
 Specifies the size, in bytes, of the ACE.
 
-
 ## -remarks
 
+The <b>ACE_HEADER</b> structure is the first member of the various types of ACE structures, such as <a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>.
 
-
-The <b>ACE_HEADER</b> structure is the first member of the various types of ACE structures, such as <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>.
-
-System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE or SYSTEM_ALARM_OBJECT_ACE_TYPE values. Do not use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_ALARM_OBJECT_ACE</a> structures.
-
-
-
+System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot specify the SYSTEM_ALARM_ACE_TYPE or SYSTEM_ALARM_OBJECT_ACE_TYPE values. Do not use the <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_ace">SYSTEM_ALARM_ACE</a> or <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_ALARM_OBJECT_ACE</a> structures.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace">ACCESS_ALLOWED_OBJECT_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_object_ace">ACCESS_ALLOWED_OBJECT_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_ace">ACCESS_DENIED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_denied_object_ace">ACCESS_DENIED_OBJECT_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>

@@ -2,6 +2,7 @@
 UID: NN:appxpackaging.IAppxPackageReader2
 title: IAppxPackageReader2 (appxpackaging.h)
 description: Provides a read-only object model for app packages.
+helpviewer_keywords: ["IAppxPackageReader2","IAppxPackageReader2 interface [App packaging and management]","IAppxPackageReader2 interface [App packaging and management]","described","appxpackaging/IAppxPackageReader2","appxpkg.iappxpackagereader2"]
 old-location: appxpkg\iappxpackagereader2.htm
 tech.root: appxpkg
 ms.assetid: 8E46CFB5-1F48-41E8-85AD-C03685D4EA5F
@@ -54,7 +55,7 @@ Provides a read-only object model for app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageReader2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>. <b>IAppxPackageReader2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxPackageReader2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>. <b>IAppxPackageReader2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +70,7 @@ The <b>IAppxPackageReader2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader2-getcontentgroupmap">GetContentGroupMap</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader2-getcontentgroupmap">GetContentGroupMap</a>
 </td>
 <td align="left" width="63%">
 Gets a content group map reader.
@@ -84,8 +85,7 @@ Gets a content group map reader.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
  
 
  
-

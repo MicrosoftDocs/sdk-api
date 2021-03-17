@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchBase.BeginOrderedGroup
 title: ISyncChangeBatchBase::BeginOrderedGroup (winsync.h)
 description: Opens an ordered group in the change batch. This group is ordered by item ID.
+helpviewer_keywords: ["BeginOrderedGroup","BeginOrderedGroup method [Windows Sync]","BeginOrderedGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","BeginOrderedGroup method","ISyncChangeBatchBase.BeginOrderedGroup","ISyncChangeBatchBase::BeginOrderedGroup","winsync.isyncchangebatchbase_beginorderedgroup","winsync/ISyncChangeBatchBase::BeginOrderedGroup"]
 old-location: winsync\isyncchangebatchbase_beginorderedgroup.htm
 tech.root: winsync
 ms.assetid: 093c0014-fa03-4609-a38f-5e69a3d3c4d6
 ms.date: 12/05/2018
 ms.keywords: BeginOrderedGroup, BeginOrderedGroup method [Windows Sync], BeginOrderedGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],BeginOrderedGroup method, ISyncChangeBatchBase.BeginOrderedGroup, ISyncChangeBatchBase::BeginOrderedGroup, winsync.isyncchangebatchbase_beginorderedgroup, winsync/ISyncChangeBatchBase::BeginOrderedGroup
-f1_keywords:
-- winsync/ISyncChangeBatchBase.BeginOrderedGroup
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.BeginOrderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::BeginOrderedGroup
+ - winsync/ISyncChangeBatchBase::BeginOrderedGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.BeginOrderedGroup
 ---
 
 # ISyncChangeBatchBase::BeginOrderedGroup
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an ordered group in the change batch. This group is ordered by item ID.
 
-
 ## -parameters
-
-
-
 
 ### -param pbLowerBound [in]
 
 The closed lower bound of item IDs for this ordered group. To specify a lower bound of zero, use <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -118,29 +112,13 @@ The object is an <b>ISyncFullEnumerationChangeBatch</b> object and <i>pbLowerBou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Item changes that are added to the change batch after this method is called are added to the open group. Item changes that are added to an ordered group must be added in increasing order by item ID.
 
 Item changes cannot be added to the change batch until a group is opened.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>

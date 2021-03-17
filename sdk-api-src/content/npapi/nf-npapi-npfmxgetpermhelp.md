@@ -2,15 +2,12 @@
 UID: NF:npapi.NPFMXGetPermHelp
 title: NPFMXGetPermHelp function (npapi.h)
 description: Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the Security menu of File Manager is selected and F1 is pressed.
+helpviewer_keywords: ["NPFMXGetPermHelp","NPFMXGetPermHelp function [Security]","WNPERM_DLG_AUDIT","WNPERM_DLG_OWNER","WNPERM_DLG_PERM","_mnp_npfmxgetpermhelp","npapi/NPFMXGetPermHelp","security.npfmxgetpermhelp"]
 old-location: security\npfmxgetpermhelp.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a7bf24fb-a775-4a13-a808-86a0d4d25332
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermHelp, NPFMXGetPermHelp function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxgetpermhelp, npapi/NPFMXGetPermHelp, security.npfmxgetpermhelp
-f1_keywords:
-- npapi/NPFMXGetPermHelp
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPFMXGetPermHelp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPFMXGetPermHelp
+ - npapi/NPFMXGetPermHelp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPFMXGetPermHelp
 ---
 
 # NPFMXGetPermHelp function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the <b>Security</b> menu of File Manager is selected and F1 is pressed.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDriveName [in]
 
 Pointer to the name of the drive currently selected in File Manager.
-
 
 ### -param nDialogType [in]
 
@@ -107,37 +103,29 @@ Show help on the <b>Owner</b> menu item.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fDirectory [in]
 
 Specifies whether the selected item is a directory. This should be set to <b>TRUE</b> if the selected item in File Manager is a directory, and <b>FALSE</b> if it is a file.
 
-
 ### -param lpFileNameBuffer [in, out]
 
 Pointer to a buffer that will receive the help file name.
-
 
 ### -param lpBufferSize [in, out]
 
 Pointer to a <b>DWORD</b> that specifies the size of the buffer passed in. If <i>lpBuffer</i> is not large enough, on return, this contains the size of buffer needed.
 
-
 ### -param lpnHelpContext [out]
 
 Pointer to a <b>DWORD</b> that will receive the help context for the given <i>nType</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function should return WN_SUCCESS.
 
 If the function fails, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
 					
 
 <table>
@@ -152,7 +140,7 @@ If the function fails, it should call
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npfmxgetpermhelp">NPFMXGetPermHelp</a> function is not supported in the provider.
+The <a href="/windows/desktop/api/npapi/nf-npapi-npfmxgetpermhelp">NPFMXGetPermHelp</a> function is not supported in the provider.
 
 </td>
 </tr>
@@ -179,7 +167,3 @@ The input buffer is too small.
 </td>
 </tr>
 </table>
- 
-
-
-

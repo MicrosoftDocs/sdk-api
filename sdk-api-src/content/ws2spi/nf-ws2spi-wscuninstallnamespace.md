@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCUnInstallNameSpace
 title: WSCUnInstallNameSpace function (ws2spi.h)
 description: Uninstalls the indicated name-space provider.
+helpviewer_keywords: ["WSCUnInstallNameSpace","WSCUnInstallNameSpace function [Winsock]","_win32_wscuninstallnamespace_2","winsock.wscuninstallnamespace_2","ws2spi/WSCUnInstallNameSpace"]
 old-location: winsock\wscuninstallnamespace_2.htm
 tech.root: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
 ms.date: 12/05/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
-f1_keywords:
-- ws2spi/WSCUnInstallNameSpace
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCUnInstallNameSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCUnInstallNameSpace
+ - ws2spi/WSCUnInstallNameSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCUnInstallNameSpace
 ---
 
 # WSCUnInstallNameSpace function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WSCUnInstallNameSpace** function uninstalls the indicated name-space provider.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the name-space provider to be uninstalled.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCUnInstallNameSpace** returns **NO_ERROR** (zero). Otherwise, it returns **SOCKET_ERROR** if the function fails, and you must retrieve the appropriate error code using the 
@@ -121,14 +115,8 @@ The specified namespace–provider identifier is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The namespace configuration functions do not affect applications that are already running. Newly installed name-space providers will not be visible to applications nor will the changes in a name-space provider's activation state. Applications launched after the call to 
 **WSCUnInstallNameSpace** will see the changes.
@@ -144,13 +132,7 @@ For computers running on Windows Vista or Windows Server 2008, this function c
 
 The caller of this function must remove any additional files or service provider–specific configuration information that is required to completely uninstall the service provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>
 
@@ -169,7 +151,4 @@ The caller of this function must remove any additional files or service provider
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace32">WSCUnInstallNameSpace32</a>
- 
-
- 
 

@@ -2,15 +2,12 @@
 UID: NF:mobsync.ISyncMgrSynchronizeInvoke.UpdateItems
 title: ISyncMgrSynchronizeInvoke::UpdateItems (mobsync.h)
 description: Programmatically starts an update for specified items.
+helpviewer_keywords: ["ISyncMgrSynchronizeInvoke interface [Windows Shell]","UpdateItems method","ISyncMgrSynchronizeInvoke.UpdateItems","ISyncMgrSynchronizeInvoke::UpdateItems","UpdateItems","UpdateItems method [Windows Shell]","UpdateItems method [Windows Shell]","ISyncMgrSynchronizeInvoke interface","mobsync/ISyncMgrSynchronizeInvoke::UpdateItems","shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems","syncmgr.isyncmgrsynchronizeinvoke_updateitems"]
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke_updateitems.htm
 tech.root: shell
 ms.assetid: 7a646d11-a84c-44c1-b52b-ffd364cc2ac3
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeInvoke interface [Windows Shell],UpdateItems method, ISyncMgrSynchronizeInvoke.UpdateItems, ISyncMgrSynchronizeInvoke::UpdateItems, UpdateItems, UpdateItems method [Windows Shell], UpdateItems method [Windows Shell],ISyncMgrSynchronizeInvoke interface, mobsync/ISyncMgrSynchronizeInvoke::UpdateItems, shell.syncmgr_isyncmgrsynchronizeinvoke_updateitems, syncmgr.isyncmgrsynchronizeinvoke_updateitems
-f1_keywords:
-- mobsync/ISyncMgrSynchronizeInvoke.UpdateItems
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrSynchronizeInvoke.UpdateItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSynchronizeInvoke::UpdateItems
+ - mobsync/ISyncMgrSynchronizeInvoke::UpdateItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrSynchronizeInvoke.UpdateItems
 ---
 
 # ISyncMgrSynchronizeInvoke::UpdateItems
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Programmatically starts an update for specified items.
 
-
 ## -parameters
-
-
-
 
 ### -param dwInvokeFlags [in]
 
 Type: <b>DWORD</b>
 
-Specifies how an item should be invoked using the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a> enumeration values.
-
+Specifies how an item should be invoked using the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a> enumeration values.
 
 ### -param clsid [in]
 
@@ -70,24 +66,19 @@ Type: <b>REFCLSID</b>
 
 The CLSID of a registered application to be invoked for an update.
 
-
 ### -param cbCookie [in]
 
 Type: <b>DWORD</b>
 
 The size of <i>pCookie</i> data, in bytes.
 
-
 ### -param pCookie [in]
 
 Type: <b>const BYTE*</b>
 
-A pointer to a private token that identifies an application. The token is passed in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a> method.
-
+A pointer to a private token that identifies an application. The token is passed in the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a> method.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -121,26 +112,15 @@ The errors occur during a synchronization update.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizeinvoke">ISyncMgrSynchronizeInvoke</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">Initialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrinvokeflags">SYNCMGRINVOKEFLAGS</a>

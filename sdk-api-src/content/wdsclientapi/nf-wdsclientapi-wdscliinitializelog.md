@@ -2,15 +2,12 @@
 UID: NF:wdsclientapi.WdsCliInitializeLog
 title: WdsCliInitializeLog function (wdsclientapi.h)
 description: Initializes logging for the WDS client.
+helpviewer_keywords: ["PROCESSOR_ARCHITECTURE_AMD64","PROCESSOR_ARCHITECTURE_IA64","PROCESSOR_ARCHITECTURE_INTEL","WdsCliInitializeLog","WdsCliInitializeLog function [Windows Deployment Services]","wds.wdscliinitializelog","wdsclientapi/WdsCliInitializeLog"]
 old-location: wds\wdscliinitializelog.htm
 tech.root: wds
 ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
-f1_keywords:
-- wdsclientapi/WdsCliInitializeLog
-dev_langs:
-- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsClientAPI.dll
-api_name:
-- WdsCliInitializeLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsCliInitializeLog
+ - wdsclientapi/WdsCliInitializeLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsClientAPI.dll
+api_name:
+ - WdsCliInitializeLog
 ---
 
 # WdsCliInitializeLog function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes logging for the WDS client.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 A handle to a session   with a WDS server. This was a handle returned by 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a> function.
-
+      the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a> function.
 
 ### -param ulClientArchitecture [in]
 
@@ -111,51 +107,35 @@ The image is a 32-bit Intel x86 image.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszClientId [in]
 
 A pointer to a string value that contains a GUID that represents this WDS client. This is typically the GUID for the System Management BIOS (SMBIOS.)
-
 
 ### -param pwszClientAddress [in]
 
 A pointer to a string value that contains the network address of the WDS client. This is typically the IP address in string form, for example, 
       "127.0.0.1".
 
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>. 
 
 If logging has already been initialize for the session, the return value is 
       <b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a>
+<a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindfirstimage">WdsCliFindFirstImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindfirstimage">WdsCliFindFirstImage</a>
+<a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindnextimage">WdsCliFindNextImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclifindnextimage">WdsCliFindNextImage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>

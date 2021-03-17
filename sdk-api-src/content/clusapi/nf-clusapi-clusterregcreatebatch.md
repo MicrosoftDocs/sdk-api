@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterRegCreateBatch
 title: ClusterRegCreateBatch function (clusapi.h)
 description: Creates a batch that will execute commands on a cluster registry key.
+helpviewer_keywords: ["ClusterRegCreateBatch","ClusterRegCreateBatch function [Failover Cluster]","PCLUSTER_REG_CREATE_BATCH","clusapi/ClusterRegCreateBatch","mscs.clusterregcreatebatch"]
 old-location: mscs\clusterregcreatebatch.htm
 tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCreateBatch, ClusterRegCreateBatch function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH, clusapi/ClusterRegCreateBatch, mscs.clusterregcreatebatch
-f1_keywords:
-- clusapi/ClusterRegCreateBatch
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- ClusterRegCreateBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegCreateBatch
+ - clusapi/ClusterRegCreateBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - ClusterRegCreateBatch
 ---
 
 # ClusterRegCreateBatch function
@@ -50,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a batch that will execute commands on a cluster registry key. These commands will 
     be added to the batch by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function and 
     either executed or ignored by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
-
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hKey [in, optional]
 
 The handle of the opened cluster registry key.  All the operations on the batch are relative to this cluster 
        registry key.
 
-
 ### -param pHREGBATCH [out]
 
 The pointer to the handle of the created batch.
 
-
 ## -returns
 
-
-
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -136,37 +129,21 @@ The parameter is incorrect. This value will be returned if the <i>hKey</i> param
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The key should not be closed until the batch has been submitted for execution.
 
 The <b>PCLUSTER_REG_CREATE_BATCH</b> type defines a pointer to this function.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>

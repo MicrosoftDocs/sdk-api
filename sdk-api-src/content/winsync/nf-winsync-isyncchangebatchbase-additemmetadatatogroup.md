@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchBase.AddItemMetadataToGroup
 title: ISyncChangeBatchBase::AddItemMetadataToGroup (winsync.h)
 description: Adds a specified item change to the group that is currently open.
+helpviewer_keywords: ["AddItemMetadataToGroup","AddItemMetadataToGroup method [Windows Sync]","AddItemMetadataToGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","AddItemMetadataToGroup method","ISyncChangeBatchBase.AddItemMetadataToGroup","ISyncChangeBatchBase::AddItemMetadataToGroup","winsync.isyncchangebatchbase_additemmetadatatogroup","winsync/ISyncChangeBatchBase::AddItemMetadataToGroup"]
 old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm
 tech.root: winsync
 ms.assetid: cb5b5a35-70d9-413d-8bf6-7003fe7681c8
 ms.date: 12/05/2018
 ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync], AddItemMetadataToGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],AddItemMetadataToGroup method, ISyncChangeBatchBase.AddItemMetadataToGroup, ISyncChangeBatchBase::AddItemMetadataToGroup, winsync.isyncchangebatchbase_additemmetadatatogroup, winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
-f1_keywords:
-- winsync/ISyncChangeBatchBase.AddItemMetadataToGroup
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.AddItemMetadataToGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::AddItemMetadataToGroup
+ - winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.AddItemMetadataToGroup
 ---
 
 # ISyncChangeBatchBase::AddItemMetadataToGroup
@@ -48,53 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a specified item change to the group that is currently open.
-
 
 ## -parameters
 
-
-
-
 ### -param pbOwnerReplicaId [in]
 
-The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
-
+The replica ID of the replica where <i>pChangeVersion</i> and <i>pCreationVersion</i> are valid. The ID format must match the format that is specified by the <a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 ### -param pbItemId [in]
 
-The ID of the item. The ID format must match the format that is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
-
+The ID of the item. The ID format must match the format that is specified by the <a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS</a> structure of the provider.
 
 ### -param pChangeVersion [in]
 
 The version of this change.
 
-
 ### -param pCreationVersion [in]
 
 The creation version of the item.
 
-
 ### -param dwFlags [in]
 
-Flags that specify the state of the item change. For the flag values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">ISyncChange::GetFlags</a>.
-
+Flags that specify the state of the item change. For the flag values, see <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getflags">ISyncChange::GetFlags</a>.
 
 ### -param dwWorkForChange [in]
 
 The work estimate for the change. This value is used during change application to report completed work to the application.
 
-
 ### -param ppChangeBuilder [in, out]
 
 Returns an object that can be used to add change unit information to the change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -159,27 +147,16 @@ The <b>ISyncChangeBatchBase</b> object has been sent to a change applier or to t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure
 </a>
- 
-
- 
-

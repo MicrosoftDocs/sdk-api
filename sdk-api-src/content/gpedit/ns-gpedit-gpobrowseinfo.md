@@ -2,15 +2,12 @@
 UID: NS:gpedit.tag_GPOBROWSEINFO
 title: GPOBROWSEINFO (gpedit.h)
 description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
+helpviewer_keywords: ["*LPGPOBROWSEINFO","GPHintDomain","GPHintMachine","GPHintOrganizationalUnit","GPHintSite","GPHintUnknown","GPOBROWSEINFO","GPOBROWSEINFO structure [Group Policy]","GPOTypeDS","GPOTypeLocal","GPOTypeRemote","GPO_BROWSE_DISABLE_NEW","GPO_BROWSE_INITTOALL","GPO_BROWSE_NOCOMPUTERS","GPO_BROWSE_NODSGPOS","GPO_BROWSE_OPENBUTTON","LPGPOBROWSEINFO","LPGPOBROWSEINFO structure pointer [Group Policy]","_win32_gpobrowseinfo_str","gpedit/GPOBROWSEINFO","gpedit/LPGPOBROWSEINFO","policy.gpobrowseinfo_str"]
 old-location: policy\gpobrowseinfo_str.htm
 tech.root: Policy
 ms.assetid: a0d038f2-66f1-4a79-b9e7-189cb57b80a9
 ms.date: 12/05/2018
 ms.keywords: '*LPGPOBROWSEINFO, GPHintDomain, GPHintMachine, GPHintOrganizationalUnit, GPHintSite, GPHintUnknown, GPOBROWSEINFO, GPOBROWSEINFO structure [Group Policy], GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GPO_BROWSE_DISABLE_NEW, GPO_BROWSE_INITTOALL, GPO_BROWSE_NOCOMPUTERS, GPO_BROWSE_NODSGPOS, GPO_BROWSE_OPENBUTTON, LPGPOBROWSEINFO, LPGPOBROWSEINFO structure pointer [Group Policy], _win32_gpobrowseinfo_str, gpedit/GPOBROWSEINFO, gpedit/LPGPOBROWSEINFO, policy.gpobrowseinfo_str'
-f1_keywords:
-- gpedit/GPOBROWSEINFO
-dev_langs:
-- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gpedit.h
-api_name:
-- GPOBROWSEINFO
 targetos: Windows
 req.typenames: GPOBROWSEINFO, *LPGPOBROWSEINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tag_GPOBROWSEINFO
+ - gpedit/tag_GPOBROWSEINFO
+ - LPGPOBROWSEINFO
+ - gpedit/LPGPOBROWSEINFO
+ - GPOBROWSEINFO
+ - gpedit/GPOBROWSEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gpedit.h
+api_name:
+ - GPOBROWSEINFO
 ---
 
 # GPOBROWSEINFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>GPOBROWSEINFO</b> structure contains information that the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a> function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a> function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size of the structure, in bytes.
-
 
 ### -field dwFlags
 
@@ -98,31 +98,25 @@ Changes the <b>OK</b> button to <b>Open</b>.
 
 Initializes the dialog box with focus on the <b>All</b> tab.
 
-
 ### -field hwndOwner
 
 Specifies the handle to the parent window. If this member is <b>NULL</b>, the dialog box has no owner.
-
 
 ### -field lpTitle
 
 Specifies the title bar text. If this member is <b>NULL</b>, the title bar text is <b>Browse for a Group Policy Object</b>.
 
-
 ### -field lpInitialOU
 
 Specifies the initial domain or organizational unit.
-
 
 ### -field lpDSPath
 
 Pointer to a buffer that receives the Active Directory path of the GPO.
 
-
 ### -field dwDSPathSize
 
 Specifies the size, in characters, of the <b>lpDSPath</b> buffer.
-
 
 ### -field lpName
 
@@ -130,11 +124,9 @@ Pointer to a buffer that receives either the computer name or the friendly (disp
 
 This member can be <b>NULL</b>.
 
-
 ### -field dwNameSize
 
 Specifies the size, in characters, of the <b>lpName</b> buffer.
-
 
 ### -field gpoType
 
@@ -157,7 +149,6 @@ Remote
 #### GPOTypeDS
 
 Active Directory
-
 
 ### -field gpoHint
 
@@ -193,22 +184,14 @@ The object might be linked to a domain.
 
 The object might be linked to an organizational unit.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-browseforgpo">BrowseForGPO</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMPushSource.GetPushSourceFlags
 title: IAMPushSource::GetPushSourceFlags (strmif.h)
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
+helpviewer_keywords: ["GetPushSourceFlags","GetPushSourceFlags method [DirectShow]","GetPushSourceFlags method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetPushSourceFlags method","IAMPushSource.GetPushSourceFlags","IAMPushSource::GetPushSourceFlags","IAMPushSourceGetPushSourceFlags","dshow.iampushsource_getpushsourceflags","strmif/IAMPushSource::GetPushSourceFlags"]
 old-location: dshow\iampushsource_getpushsourceflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.date: 12/05/2018
 ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
-f1_keywords:
-- strmif/IAMPushSource.GetPushSourceFlags
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMPushSource.GetPushSourceFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPushSource::GetPushSourceFlags
+ - strmif/IAMPushSource::GetPushSourceFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMPushSource.GetPushSourceFlags
 ---
 
 # IAMPushSource::GetPushSourceFlags
@@ -49,52 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetPushSourceFlags</code> method retrieves a combination of flags describing the behavior of the filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFlags [out]
 
-Pointer to a variable that receives a combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
-
+Pointer to a variable that receives a combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
-
-
-
 
 ## -remarks
 
-
-
 Call this method to determine whether a renderer filter can safely match clock rates with this source filter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>

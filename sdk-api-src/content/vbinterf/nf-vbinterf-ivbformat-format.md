@@ -2,15 +2,12 @@
 UID: NF:vbinterf.IVBFormat.Format
 title: IVBFormat::Format (vbinterf.h)
 description: Formats a string according to a pattern.
+helpviewer_keywords: ["Format","Format method [COM]","Format method [COM]","IVBFormat interface","IVBFormat interface [COM]","Format method","IVBFormat.Format","IVBFormat::Format","_com_IVBFormat_Format","com.ivbformat_format","vbFirstFourDays","vbFirstFullWeek","vbFirstJan1","vbFriday","vbMonday","vbSaturday","vbSunday","vbThursday","vbTuesday","vbUseSystem","vbWednesday","vbinterf/IVBFormat::Format"]
 old-location: com\ivbformat_format.htm
 tech.root: com
 ms.assetid: 62200cb0-3704-4caf-9152-1b7b0c43856a
 ms.date: 12/05/2018
 ms.keywords: Format, Format method [COM], Format method [COM],IVBFormat interface, IVBFormat interface [COM],Format method, IVBFormat.Format, IVBFormat::Format, _com_IVBFormat_Format, com.ivbformat_format, vbFirstFourDays, vbFirstFullWeek, vbFirstJan1, vbFriday, vbMonday, vbSaturday, vbSunday, vbThursday, vbTuesday, vbUseSystem, vbWednesday, vbinterf/IVBFormat::Format
-f1_keywords:
-- vbinterf/IVBFormat.Format
-dev_langs:
-- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VbInterf.h
-api_name:
-- IVBFormat.Format
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVBFormat::Format
+ - vbinterf/IVBFormat::Format
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VbInterf.h
+api_name:
+ - IVBFormat.Format
 ---
 
 # IVBFormat::Format
@@ -48,40 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats a string according to a pattern.
 <div class="alert"><b>Note</b>  The use of this method is no longer recommended because containers other than Visual Basic do not support 
     it.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param vData [in]
 
 Data to be formatted.
-
 
 ### -param bstrFormat [in]
 
 Format string to be applied to the data.
 
-
 ### -param lpBuffer [in]
 
 Pointer to result buffer.
-
 
 ### -param cb [in]
 
 Length of result buffer.
 
-
 ### -param lcid [in]
 
 Locale ID.
-
 
 ### -param sFirstDayOfWeek [in]
 
@@ -174,8 +167,6 @@ Saturday
 </td>
 </tr>
 </table>
- 
-
 
 ### -param sFirstWeekOfYear [in]
 
@@ -228,43 +219,23 @@ Start with the first full week.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param rcb [out]
 
 Number of bytes copied to the result buffer.
 
-
 ## -returns
-
-
 
 This method supports the standard return values <b>E_INVALIDARG</b>, 
       <b>E_OUTOFMEMORY</b>, and <b>E_UNEXPECTED</b>, as well as the 
       following:
 
-
-
-
 ## -remarks
-
-
 
 When migrating a VBX control to an OLE control, 
     <b>Format</b> replaces the Visual Basic 
     <b>VBFormat</b>, which is no longer supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a>

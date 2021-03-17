@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSampleProtection.GetInputProtectionVersion
 title: IMFSampleProtection::GetInputProtectionVersion (mfidl.h)
 description: Retrieves the version of sample protection that the component implements on input.
+helpviewer_keywords: ["26f92775-f8a0-4b85-8cfc-353349325706","GetInputProtectionVersion","GetInputProtectionVersion method [Media Foundation]","GetInputProtectionVersion method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetInputProtectionVersion method","IMFSampleProtection.GetInputProtectionVersion","IMFSampleProtection::GetInputProtectionVersion","mf.imfsampleprotection_getinputprotectionversion","mfidl/IMFSampleProtection::GetInputProtectionVersion"]
 old-location: mf\imfsampleprotection_getinputprotectionversion.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 26f92775-f8a0-4b85-8cfc-353349325706
 ms.date: 12/05/2018
 ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion, GetInputProtectionVersion method [Media Foundation], GetInputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetInputProtectionVersion method, IMFSampleProtection.GetInputProtectionVersion, IMFSampleProtection::GetInputProtectionVersion, mf.imfsampleprotection_getinputprotectionversion, mfidl/IMFSampleProtection::GetInputProtectionVersion
-f1_keywords:
-- mfidl/IMFSampleProtection.GetInputProtectionVersion
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSampleProtection.GetInputProtectionVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSampleProtection::GetInputProtectionVersion
+ - mfidl/IMFSampleProtection::GetInputProtectionVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSampleProtection.GetInputProtectionVersion
 ---
 
 # IMFSampleProtection::GetInputProtectionVersion
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the version of sample protection that the component implements on input.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pdwVersion [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration.
-
+Receives a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>

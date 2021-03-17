@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFSample.GetSampleTime
 title: IMFSample::GetSampleTime (mfobjects.h)
 description: Retrieves the presentation time of the sample.
+helpviewer_keywords: ["GetSampleTime","GetSampleTime method [Media Foundation]","GetSampleTime method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleTime method","IMFSample.GetSampleTime","IMFSample::GetSampleTime","fc4aac9e-e7a9-43f0-af7b-54a39666044a","mf.imfsample_getsampletime","mfobjects/IMFSample::GetSampleTime"]
 old-location: mf\imfsample_getsampletime.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fc4aac9e-e7a9-43f0-af7b-54a39666044a
 ms.date: 12/05/2018
 ms.keywords: GetSampleTime, GetSampleTime method [Media Foundation], GetSampleTime method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleTime method, IMFSample.GetSampleTime, IMFSample::GetSampleTime, fc4aac9e-e7a9-43f0-af7b-54a39666044a, mf.imfsample_getsampletime, mfobjects/IMFSample::GetSampleTime
-f1_keywords:
-- mfobjects/IMFSample.GetSampleTime
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSample.GetSampleTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSample::GetSampleTime
+ - mfobjects/IMFSample::GetSampleTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSample.GetSampleTime
 ---
 
 # IMFSample::GetSampleTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the presentation time of the sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phnsSampleTime [out]
 
 Receives the presentation time, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,14 +91,8 @@ The sample does not have a presentation time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -116,19 +101,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

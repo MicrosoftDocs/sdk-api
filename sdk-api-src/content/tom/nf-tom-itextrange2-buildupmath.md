@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange2.BuildUpMath
 title: ITextRange2::BuildUpMath (tom.h)
 description: Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
+helpviewer_keywords: ["BuildUpMath","BuildUpMath method [Windows Controls]","BuildUpMath method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","BuildUpMath method","ITextRange2.BuildUpMath","ITextRange2::BuildUpMath","controls.itextrange2_buildupmath","tom/ITextRange2::BuildUpMath","tomChemicalFormula","tomHaveDelimiter","tomMathAlphabetics","tomMathApplyTemplate","tomMathArabicAlphabetics","tomMathAutoCorrect","tomMathAutoCorrectExt","tomMathAutoCorrectOpPairs","tomMathBackspace","tomMathBuildDown","tomMathBuildDownOutermost","tomMathBuildUpArgOrZone","tomMathBuildUpRecurse","tomMathChangeMask","tomMathCollapseSel","tomMathDeleteArg","tomMathDeleteArg1","tomMathDeleteArg2","tomMathDeleteCol","tomMathDeleteRow","tomMathEnter","tomMathInsColAfter","tomMathInsColBefore","tomMathInsRowAfter","tomMathInsRowBefore","tomMathMakeFracLinear","tomMathMakeFracSlashed","tomMathMakeFracStacked","tomMathMakeLeftSubSup","tomMathMakeSubSup","tomMathRemoveOutermost","tomMathRichEdit","tomMathShiftTab","tomMathSingleChar","tomMathSubscript","tomMathSuperscript","tomMathTab","tomNeedTermOp","tomPlain","tomShowEmptyArgPlaceholders","tomTeX"]
 old-location: controls\itextrange2_buildupmath.htm
 tech.root: Controls
 ms.assetid: b6382f09-126e-4107-a4b9-288777549181
 ms.date: 12/05/2018
 ms.keywords: BuildUpMath, BuildUpMath method [Windows Controls], BuildUpMath method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],BuildUpMath method, ITextRange2.BuildUpMath, ITextRange2::BuildUpMath, controls.itextrange2_buildupmath, tom/ITextRange2::BuildUpMath, tomChemicalFormula, tomHaveDelimiter, tomMathAlphabetics, tomMathApplyTemplate, tomMathArabicAlphabetics, tomMathAutoCorrect, tomMathAutoCorrectExt, tomMathAutoCorrectOpPairs, tomMathBackspace, tomMathBuildDown, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathBuildUpRecurse, tomMathChangeMask, tomMathCollapseSel, tomMathDeleteArg, tomMathDeleteArg1, tomMathDeleteArg2, tomMathDeleteCol, tomMathDeleteRow, tomMathEnter, tomMathInsColAfter, tomMathInsColBefore, tomMathInsRowAfter, tomMathInsRowBefore, tomMathMakeFracLinear, tomMathMakeFracSlashed, tomMathMakeFracStacked, tomMathMakeLeftSubSup, tomMathMakeSubSup, tomMathRemoveOutermost, tomMathRichEdit, tomMathShiftTab, tomMathSingleChar, tomMathSubscript, tomMathSuperscript, tomMathTab, tomNeedTermOp, tomPlain, tomShowEmptyArgPlaceholders, tomTeX
-f1_keywords:
-- tom/ITextRange2.BuildUpMath
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange2.BuildUpMath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange2::BuildUpMath
+ - tom/ITextRange2::BuildUpMath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange2.BuildUpMath
 ---
 
 # ITextRange2::BuildUpMath
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -350,21 +347,13 @@ A combination of the following flags.
 
 #### tomTeX
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 If the <b>ITextRange2::BuildUpMath</b> method is called on a nondegenerate range, the method checks the text for math italic conversions (if <b>tomMathAlphabetics</b> is specified) and math autocorrect conversions (if <b>tomMathAutoCorrect</b> or <b>tomMathAutoCorrectExt</b> is specified). Then, the method attempts to build up the selected text. If successful, the method replaces the previous text in the range with the built-up text. If the method makes any changes to the range, the function returns <b>NOERROR</b> and the range selects the result. If the method does change the range, it returns <b>S_FALSE</b> or a Component Object Model (COM) error code.
 
@@ -386,22 +375,12 @@ If this full build-up attempt fails, the <b>BuildUpMath</b> method does a partia
 If full and partial build-up attempts fail, the function returns as described previously for the cases where no build-up text was found. Other possible return values include <b>E_INVALIDARG</b> (if either interface pointer is <b>NULL</b>) and <b>E_OUTOFMEMORY</b>. 
 
 
-You should set the <b>tomNeedTermOp</b> flag should for formula autobuildup unless autocorrection has occurred that deletes the terminating blank. Autocorrection can occur when correcting text like \alpha when the user types a blank to force autocorrection. 
-
-
-
+You should set the <b>tomNeedTermOp</b> flag should for formula autobuildup unless autocorrection has occurred that deletes the terminating blank. Autocorrection can occur when correcting text like \alpha when the user types a blank to force autocorrection.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-linearize">ITextRange2::Linearize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-linearize">ITextRange2::Linearize</a>

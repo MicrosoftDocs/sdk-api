@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
 title: PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN (winbio_adapter.h)
 description: Retrieves an array of object identifiers that represent the hash algorithms supported by the engine adapter.
+helpviewer_keywords: ["EngineAdapterQueryHashAlgorithms","EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN","PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback","secbiomet.engineadapterqueryhashalgorithms","winbio_adapter/EngineAdapterQueryHashAlgorithms"]
 old-location: secbiomet\engineadapterqueryhashalgorithms.htm
 tech.root: SecBioMet
 ms.assetid: 66766c80-44b5-4bec-b8cc-32adf1ddae8a
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryHashAlgorithms, EngineAdapterQueryHashAlgorithms callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN, PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback, secbiomet.engineadapterqueryhashalgorithms, winbio_adapter/EngineAdapterQueryHashAlgorithms
-f1_keywords:
-- winbio_adapter/EngineAdapterQueryHashAlgorithms
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterQueryHashAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
+ - winbio_adapter/PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterQueryHashAlgorithms
 ---
 
 # PIBIO_ENGINE_QUERY_HASH_ALGORITHMS_FN callback function
@@ -48,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to retrieve an array of  object identifiers (OIDs) that represent the hash algorithms supported by the engine adapter.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param AlgorithmCount [out]
 
 Pointer to a value that receives the number of algorithm OID strings in the buffer specified by the <i>AlgorithmBuffer</i> parameter.
 
-
-
 ### -param AlgorithmBufferSize [out]
 
 Pointer to a value that contains the size, in bytes, of the buffer specified by the <i>AlgorithmBuffer</i> parameter. The size includes the two <b>NULL</b> values that terminate the buffer.
 
-
-### -param *AlgorithmBuffer [out]
+### -param AlgorithmBuffer [out]
 
 Address of a variable that receives a pointer to a buffer that contains packed, <b>NULL</b>-terminated ANSI strings. Each string represents an OID for a hash algorithm. The final string in the buffer must be terminated by two successive <b>NULL</b> values.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -112,14 +102,8 @@ The engine adapter does not support template hash generation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only the SHA1 hash algorithm is used by the Windows Biometric Framework. Therefore, this OID must be included in the buffer. Other OID strings are optional and can be included for future Windows versions. In Wincrypt.h, included with the Windows SDK, the symbol for the SHA1 algorithm is szOID_OIWSEC_sha1 and the associated string value is "1.3.14.3.2.26". This string value must be in the buffer. See Wincrypt.h for other OID values.
 
@@ -219,21 +203,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

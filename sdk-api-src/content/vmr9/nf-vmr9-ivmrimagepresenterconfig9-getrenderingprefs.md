@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRImagePresenterConfig9.GetRenderingPrefs
 title: IVMRImagePresenterConfig9::GetRenderingPrefs (vmr9.h)
 description: The GetRenderingPrefs method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
+helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig9 interface","IVMRImagePresenterConfig9 interface [DirectShow]","GetRenderingPrefs method","IVMRImagePresenterConfig9.GetRenderingPrefs","IVMRImagePresenterConfig9::GetRenderingPrefs","IVMRImagePresenterConfig9GetRenderingPrefs","dshow.ivmrimagepresenterconfig9_getrenderingprefs","vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs"]
 old-location: dshow\ivmrimagepresenterconfig9_getrenderingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: dfa9c81d-cfc8-401b-b4d1-50f21b528135
 ms.date: 12/05/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, IVMRImagePresenterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRImagePresenterConfig9.GetRenderingPrefs, IVMRImagePresenterConfig9::GetRenderingPrefs, IVMRImagePresenterConfig9GetRenderingPrefs, dshow.ivmrimagepresenterconfig9_getrenderingprefs, vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
-f1_keywords:
-- vmr9/IVMRImagePresenterConfig9.GetRenderingPrefs
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenterConfig9.GetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenterConfig9::GetRenderingPrefs
+ - vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenterConfig9.GetRenderingPrefs
 ---
 
 # IVMRImagePresenterConfig9::GetRenderingPrefs
@@ -49,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetRenderingPrefs</code> method gets the current rendering preferences from the VMR-9 filter's allocator-presenter.
 
 
 
-The VMR-9 filter's <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> method calls through to this method.
-
+The VMR-9 filter's <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> method calls through to this method.
 
 ## -parameters
 
-
-
-
 ### -param dwRenderFlags [out]
 
-Receives a bitwise OR of flag from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
-
+Receives a bitwise OR of flag from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -91,31 +84,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

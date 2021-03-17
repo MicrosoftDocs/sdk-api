@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetAllParamCustData
 title: ITypeInfo2::GetAllParamCustData (oaidl.h)
 description: Gets all of the custom data for the specified function parameter.
+helpviewer_keywords: ["GetAllParamCustData","GetAllParamCustData method [Automation]","GetAllParamCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllParamCustData method","ITypeInfo2.GetAllParamCustData","ITypeInfo2::GetAllParamCustData","_oa96_ITypeInfo2_GetAllParamCustData","automat.itypeinfo2_getallparamcustdata","oaidl/ITypeInfo2::GetAllParamCustData"]
 old-location: automat\itypeinfo2_getallparamcustdata.htm
 tech.root: automat
 ms.assetid: cb5ab67e-b5ff-40fd-a25f-d8dfb1e2c636
 ms.date: 12/05/2018
 ms.keywords: GetAllParamCustData, GetAllParamCustData method [Automation], GetAllParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllParamCustData method, ITypeInfo2.GetAllParamCustData, ITypeInfo2::GetAllParamCustData, _oa96_ITypeInfo2_GetAllParamCustData, automat.itypeinfo2_getallparamcustdata, oaidl/ITypeInfo2::GetAllParamCustData
-f1_keywords:
-- oaidl/ITypeInfo2.GetAllParamCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetAllParamCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetAllParamCustData
+ - oaidl/ITypeInfo2::GetAllParamCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetAllParamCustData
 ---
 
 # ITypeInfo2::GetAllParamCustData
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets all of the custom data for the specified function parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param indexFunc [in]
 
 The index of the function for which to get the custom data.
 
-
-
-
 ### -param indexParam [in]
 
 The index of the parameter of this function for which to get the custom data.
-
 
 ### -param pCustData [out]
 
 The custom data items.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,18 +112,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

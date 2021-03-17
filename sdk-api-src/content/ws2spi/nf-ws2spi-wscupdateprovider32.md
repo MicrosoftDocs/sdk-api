@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCUpdateProvider32
 title: WSCUpdateProvider32 function (ws2spi.h)
 description: Modifies the specified 32-bit transport provider in the system configuration database.Note  This call is a strictly 32-bit version of WSCUpdateProvider for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
+helpviewer_keywords: ["WSCUpdateProvider32","WSCUpdateProvider32 function [Winsock]","winsock.wscupdateprovider32","ws2spi/WSCUpdateProvider32"]
 old-location: winsock\wscupdateprovider32.htm
 tech.root: WinSock
 ms.assetid: 803ef58a-853b-491c-bed1-e02275fef258
 ms.date: 12/05/2018
 ms.keywords: WSCUpdateProvider32, WSCUpdateProvider32 function [Winsock], winsock.wscupdateprovider32, ws2spi/WSCUpdateProvider32
-f1_keywords:
-- ws2spi/WSCUpdateProvider32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCUpdateProvider32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCUpdateProvider32
+ - ws2spi/WSCUpdateProvider32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCUpdateProvider32
 ---
 
 # WSCUpdateProvider32 function
@@ -48,46 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **WSCUpdateProvider32** function modifies the specified 32-bit transport provider in the system configuration database.<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider">WSCUpdateProvider</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
-A pointer to a globally unique identifier (GUID)  for the provider. 
-
+A pointer to a globally unique identifier (GUID)  for the provider.
 
 ### -param lpszProviderDllPath [in]
 
 A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the Ws2_32.dll must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the Ws2_32.dll passes the resulting string to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see **LoadLibrary**.
-
 
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structures. Each structure specifies or modifies a protocol, address family, and socket type supported by the provider.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of entries in the <i>lpProtocolInfoList</i> array.
-
 
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCUpdateProvider32** returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -142,14 +131,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCUpdateProvider32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider">WSCUpdateProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -169,13 +152,7 @@ For computers running Windows Vista or Windows Server 2008, this function can 
 
 Any file installation or service provider-specific configuration must be performed by the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
@@ -206,7 +183,4 @@ Any file installation or service provider-specific configuration must be perform
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider">WSCUpdateProvider</a>
- 
-
- 
 

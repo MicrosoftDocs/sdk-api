@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMOverlayFX.QueryOverlayFXCaps
 title: IAMOverlayFX::QueryOverlayFXCaps (strmif.h)
 description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
+helpviewer_keywords: ["IAMOverlayFX interface [DirectShow]","QueryOverlayFXCaps method","IAMOverlayFX.QueryOverlayFXCaps","IAMOverlayFX::QueryOverlayFXCaps","IAMOverlayFXQueryOverlayFXCaps","QueryOverlayFXCaps","QueryOverlayFXCaps method [DirectShow]","QueryOverlayFXCaps method [DirectShow]","IAMOverlayFX interface","dshow.iamoverlayfx_queryoverlayfxcaps","strmif/IAMOverlayFX::QueryOverlayFXCaps"]
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
-f1_keywords:
-- strmif/IAMOverlayFX.QueryOverlayFXCaps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMOverlayFX.QueryOverlayFXCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMOverlayFX::QueryOverlayFXCaps
+ - strmif/IAMOverlayFX::QueryOverlayFXCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMOverlayFX.QueryOverlayFXCaps
 ---
 
 # IAMOverlayFX::QueryOverlayFXCaps
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>QueryOverlayFXCaps</code> method retrieves information about which overlay effects are available to the Overlay Mixer filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpdwOverlayFXCaps [out]
 
-Pointer to a variable that receives a value indicating the overlay effects capabilities of the overlay surface. The value is a logical combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-amoverlayfx">AMOVERLAYFX</a> enumeration.
-
+Pointer to a variable that receives a value indicating the overlay effects capabilities of the overlay surface. The value is a logical combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-amoverlayfx">AMOVERLAYFX</a> enumeration.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. The DirectShow implementation returns one of the following values.
 
@@ -111,22 +102,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>

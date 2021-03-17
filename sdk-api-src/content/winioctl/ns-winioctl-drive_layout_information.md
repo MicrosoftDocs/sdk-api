@@ -2,15 +2,12 @@
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION
 title: DRIVE_LAYOUT_INFORMATION
 description: Contains information about the partitions of a drive.
+helpviewer_keywords: ["*PDRIVE_LAYOUT_INFORMATION","DRIVE_LAYOUT_INFORMATION","DRIVE_LAYOUT_INFORMATION structure [Files]","PDRIVE_LAYOUT_INFORMATION","PDRIVE_LAYOUT_INFORMATION structure pointer [Files]","_win32_drive_layout_information_str","base.drive_layout_information_str","fs.drive_layout_information_str","winioctl/DRIVE_LAYOUT_INFORMATION","winioctl/PDRIVE_LAYOUT_INFORMATION"]
 old-location: fs\drive_layout_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e67ccaa7-a735-4695-8385-28f57b41821c
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Files], PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Files], _win32_drive_layout_information_str, base.drive_layout_information_str, fs.drive_layout_information_str, winioctl/DRIVE_LAYOUT_INFORMATION, winioctl/PDRIVE_LAYOUT_INFORMATION'
-f1_keywords:
-- winioctl/DRIVE_LAYOUT_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DRIVE_LAYOUT_INFORMATION
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION, *PDRIVE_LAYOUT_INFORMATION
 req.redist: 
+f1_keywords:
+ - _DRIVE_LAYOUT_INFORMATION
+ - winioctl/_DRIVE_LAYOUT_INFORMATION
+ - PDRIVE_LAYOUT_INFORMATION
+ - winioctl/PDRIVE_LAYOUT_INFORMATION
+ - DRIVE_LAYOUT_INFORMATION
+ - winioctl/DRIVE_LAYOUT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DRIVE_LAYOUT_INFORMATION
 ---
 
 # DRIVE_LAYOUT_INFORMATION structure
@@ -47,53 +53,28 @@ req.redist:
 
 ## -description
 
-
 Contains information about the partitions of a drive.
-<div class="alert"><b>Note</b>  <b>DRIVE_LAYOUT_INFORMATION</b> is superseded 
-    by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a> 
-    structure.</div><div> </div>
+
+> [!NOTE]
+> **DRIVE_LAYOUT_INFORMATION** is superseded [**DRIVE_LAYOUT_INFORMATION_EX**](ns-winioctl-drive_layout_information_ex.md) structure.
 
 ## -struct-fields
-
-
-
 
 ### -field PartitionCount
 
 The number of partitions on a drive.
 
-On disks with the MBR layout, this value is always a multiple of 4. Any partitions that are unused have a 
-       partition type of <b>PARTITION_ENTRY_UNUSED</b> (0).
-
+On disks with the MBR layout, this value is always a multiple of 4. Any partitions that are unused have a partition type of **PARTITION_ENTRY_UNUSED** (0).
 
 ### -field Signature
 
-The drive signature value. 
-     
-
+The drive signature value.
 
 ### -field PartitionEntry
 
-A variable-sized array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information">PARTITION_INFORMATION</a> structures, one 
-      structure for each partition on a drive.
-
+A variable-sized array of [**PARTITION_INFORMATION**](ns-winioctl-partition_information.md) structures, one structure for each partition on a drive.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
- 
-
- 
+[DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md), [IOCTL_DISK_GET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_get_drive_layout.md), [IOCTL_DISK_SET_DRIVE_LAYOUT](ni-winioctl-ioctl_disk_set_drive_layout.md)
 

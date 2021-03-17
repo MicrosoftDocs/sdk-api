@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.InWriteSession
 title: ITfContext::InWriteSession (msctf.h)
 description: ITfContext::InWriteSession method
+helpviewer_keywords: ["ITfContext interface [Text Services Framework]","InWriteSession method","ITfContext.InWriteSession","ITfContext::InWriteSession","InWriteSession","InWriteSession method [Text Services Framework]","InWriteSession method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_inwritesession_ref","msctf/ITfContext::InWriteSession","tsf.itfcontext_inwritesession"]
 old-location: tsf\itfcontext_inwritesession.htm
 tech.root: TSF
 ms.assetid: 88a8a2c1-bd5f-47d2-8612-c7e0cabfe254
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],InWriteSession method, ITfContext.InWriteSession, ITfContext::InWriteSession, InWriteSession, InWriteSession method [Text Services Framework], InWriteSession method [Text Services Framework],ITfContext interface, _tsf_itfcontext_inwritesession_ref, msctf/ITfContext::InWriteSession, tsf.itfcontext_inwritesession
-f1_keywords:
-- msctf/ITfContext.InWriteSession
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.InWriteSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::InWriteSession
+ - msctf/ITfContext::InWriteSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.InWriteSession
 ---
 
 # ITfContext::InWriteSession
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a client has a read/write lock on the context.
 
 ## -parameters
-
-
-
 
 ### -param tid [in]
 
 Contains a <b>TfClientID</b> value that identifies the client.
 
-
 ### -param pfWriteSession [out]
 
 Pointer to a <b>BOOL</b> that receives a nonzero value if the client has a read/write lock on the context. Receives zero if the client does not have an edit session or has a read-only edit session.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,16 +94,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A client uses this method, from inside a notification callback, to determine if it must make the change.
 
+## -see-also
 
+[ITfContext interface](nn-msctf-itfcontext.md)
 

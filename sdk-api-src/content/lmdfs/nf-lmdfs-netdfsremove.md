@@ -2,15 +2,12 @@
 UID: NF:lmdfs.NetDfsRemove
 title: NetDfsRemove function (lmdfs.h)
 description: Removes a Distributed File System (DFS) link or a specific link target of a DFS link in a DFS namespace. When removing a specific link target, the link itself is removed if the last link target of the link is removed.
+helpviewer_keywords: ["NetDfsRemove","NetDfsRemove function [Distributed File System]","_win32_netdfsremove","dfs.netdfsremove","fs.netdfsremove","lmdfs/NetDfsRemove","netmgmt.netdfsremove"]
 old-location: dfs\netdfsremove.htm
 tech.root: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
 ms.date: 12/05/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
-f1_keywords:
-- lmdfs/NetDfsRemove
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetDfsRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetDfsRemove
+ - lmdfs/NetDfsRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetDfsRemove
 ---
 
 # NetDfsRemove function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a Distributed File System (DFS) link or a specific link target of a DFS link in a DFS 
     namespace. When removing a specific link target, the link itself is removed if the last link target of the link is 
     removed.
 
-
 ## -parameters
-
-
-
 
 ### -param DfsEntryPath [in]
 
@@ -65,7 +62,7 @@ Pointer to a string that specifies the Universal Naming Convention (UNC) path of
 
 The string can be in one of two forms. The first form is as follows:
 
-\\<i>ShareName</i>\<i>DfsName</i>\<i>link_path</i>
+&#92;&#92;<i>ShareName</i>&#92;<i>DfsName</i>&#92;<i>link_path</i>
 
 where <i>ShareName</i> is the name of the root target server that hosts the stand-alone 
        DFS namespace; <i>DfsName</i> is the name of the DFS namespace; and 
@@ -73,7 +70,7 @@ where <i>ShareName</i> is the name of the root target server that hosts the stan
 
 The second form is as follows:
 
-\\<i>DomainName</i>\<i>DomDfsname</i>\<i>link_path</i>
+&#92;&#92;<i>DomainName</i>&#92;<i>DomDfsname</i>&#92;<i>link_path</i>
 
 where <i>DomainName</i> is the name of the domain that hosts the domain-based DFS 
        namespace; <i>DomDfsname</i> is the name of the DFS namespace; and 
@@ -81,39 +78,29 @@ where <i>DomainName</i> is the name of the domain that hosts the domain-based DF
 
 This parameter is required.
 
-
 ### -param ServerName [in, optional]
 
 Pointer to a string that specifies the server name of the link target. For more information, see the 
       following Remarks section. Set this parameter to <b>NULL</b> if the link and all link targets 
       are to be removed.
 
-
 ### -param ShareName [in, optional]
 
 Pointer to a string that specifies the share name of the link target. Set this parameter to 
       <b>NULL</b> if the link and all link targets are to be removed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
-
-
 The caller must have Administrator privilege on the DFS server. For more information about calling functions 
     that require administrator privileges, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+    <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 When you call <b>NetDfsRemove</b> to remove a target from a 
     link, you must specify the same target server name in the <i>ServerName</i> parameter that you 
@@ -163,41 +150,30 @@ void wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd">NetDfsAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd">NetDfsAdd</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot">NetDfsRemoveFtRoot</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot">NetDfsRemoveStdRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot">NetDfsRemoveStdRoot</a>
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>

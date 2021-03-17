@@ -2,15 +2,12 @@
 UID: NS:virtdisk._VIRTUAL_STORAGE_TYPE
 title: VIRTUAL_STORAGE_TYPE (virtdisk.h)
 description: Contains the type and provider (vendor) of the virtual storage device.
+helpviewer_keywords: ["*PVIRTUAL_STORAGE_TYPE","PVIRTUAL_STORAGE_TYPE","PVIRTUAL_STORAGE_TYPE structure pointer [VHD]","VIRTUAL_STORAGE_TYPE","VIRTUAL_STORAGE_TYPE structure [VHD]","VIRTUAL_STORAGE_TYPE_DEVICE_ISO","VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN","VIRTUAL_STORAGE_TYPE_DEVICE_VHD","VIRTUAL_STORAGE_TYPE_DEVICE_VHDX","VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT","VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN","_VIRTUAL_STORAGE_TYPE","vdssys/PVIRTUAL_STORAGE_TYPE","vdssys/VIRTUAL_STORAGE_TYPE","vhd.virtual_storage_type","virtdisk/PVIRTUAL_STORAGE_TYPE","virtdisk/VIRTUAL_STORAGE_TYPE"]
 old-location: vhd\virtual_storage_type.htm
 tech.root: VStor
 ms.assetid: 9f0c1848-fa8e-4747-a3b1-71a274695280
 ms.date: 12/05/2018
 ms.keywords: '*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE structure pointer [VHD], VIRTUAL_STORAGE_TYPE, VIRTUAL_STORAGE_TYPE structure [VHD], VIRTUAL_STORAGE_TYPE_DEVICE_ISO, VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN, VIRTUAL_STORAGE_TYPE_DEVICE_VHD, VIRTUAL_STORAGE_TYPE_DEVICE_VHDX, VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT, VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN, _VIRTUAL_STORAGE_TYPE, vdssys/PVIRTUAL_STORAGE_TYPE, vdssys/VIRTUAL_STORAGE_TYPE, vhd.virtual_storage_type, virtdisk/PVIRTUAL_STORAGE_TYPE, virtdisk/VIRTUAL_STORAGE_TYPE'
-f1_keywords:
-- virtdisk/VIRTUAL_STORAGE_TYPE
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VirtDisk.h
-- vdssys.h
-api_name:
-- VIRTUAL_STORAGE_TYPE
 targetos: Windows
 req.typenames: VIRTUAL_STORAGE_TYPE, *PVIRTUAL_STORAGE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VIRTUAL_STORAGE_TYPE
+ - virtdisk/_VIRTUAL_STORAGE_TYPE
+ - PVIRTUAL_STORAGE_TYPE
+ - virtdisk/PVIRTUAL_STORAGE_TYPE
+ - VIRTUAL_STORAGE_TYPE
+ - virtdisk/VIRTUAL_STORAGE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VirtDisk.h
+ - vdssys.h
+api_name:
+ - VIRTUAL_STORAGE_TYPE
 ---
 
 # VIRTUAL_STORAGE_TYPE structure
@@ -49,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the type and provider (vendor) of the virtual storage device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceId
 
@@ -116,8 +117,6 @@ VHDX format virtual hard disk device type. (.vhdx file)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field VendorId
 
@@ -131,26 +130,18 @@ Vendor-unique identifier.
 
 #### VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN (0)
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">IVdsVdProvider::CreateVDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">IVdsVdProvider::CreateVDisk</a>
+<a href="/windows/desktop/api/vds/ns-vds-vds_vdisk_properties">VDS_VDISK_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_vdisk_properties">VDS_VDISK_PROPERTIES</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

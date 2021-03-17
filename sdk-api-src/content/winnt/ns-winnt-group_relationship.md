@@ -2,15 +2,12 @@
 UID: NS:winnt._GROUP_RELATIONSHIP
 title: GROUP_RELATIONSHIP (winnt.h)
 description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
+helpviewer_keywords: ["*PGROUP_RELATIONSHIP","GROUP_RELATIONSHIP","GROUP_RELATIONSHIP structure","PGROUP_RELATIONSHIP","PGROUP_RELATIONSHIP structure pointer","_GROUP_RELATIONSHIP","base.group_relationship","winnt/GROUP_RELATIONSHIP","winnt/PGROUP_RELATIONSHIP"]
 old-location: base\group_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
 ms.date: 12/05/2018
 ms.keywords: '*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP'
-f1_keywords:
-- winnt/GROUP_RELATIONSHIP
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- GROUP_RELATIONSHIP
 targetos: Windows
 req.typenames: GROUP_RELATIONSHIP, *PGROUP_RELATIONSHIP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GROUP_RELATIONSHIP
+ - winnt/_GROUP_RELATIONSHIP
+ - PGROUP_RELATIONSHIP
+ - winnt/PGROUP_RELATIONSHIP
+ - GROUP_RELATIONSHIP
+ - winnt/GROUP_RELATIONSHIP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - GROUP_RELATIONSHIP
 ---
 
 # GROUP_RELATIONSHIP structure
@@ -48,50 +54,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents information about processor groups. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
-
+Represents information about processor groups. This structure is used with the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field MaximumGroupCount
 
 The maximum number of processor groups on the system.
 
-
 ### -field ActiveGroupCount
 
-The number of active groups on the system. This member indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
-
+The number of active groups on the system. This member indicates the number of <a href="/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
 
 ### -field Reserved
 
 This member is reserved.
 
-
 ### -field GroupInfo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
-
+An array of <a href="/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_group_info">PROCESSOR_GROUP_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
- 
-
- 
-
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>

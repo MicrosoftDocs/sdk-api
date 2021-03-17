@@ -2,15 +2,12 @@
 UID: NF:werapi.WerRegisterFile
 title: WerRegisterFile function (werapi.h)
 description: Registers a file to be collected when WER creates an error report.
+helpviewer_keywords: ["WER_FILE_ANONYMOUS_DATA","WER_FILE_DELETE_WHEN_DONE","WerRegFileTypeMax","WerRegFileTypeOther","WerRegFileTypeUserDocument","WerRegisterFile","WerRegisterFile function [Windows Error Reporting]","base.werregisterfile","wer.werregisterfile","werapi/WerRegisterFile"]
 old-location: wer\werregisterfile.htm
 tech.root: wer
 ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907
 ms.date: 12/05/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerRegFileTypeMax, WerRegFileTypeOther, WerRegFileTypeUserDocument, WerRegisterFile, WerRegisterFile function [Windows Error Reporting], base.werregisterfile, wer.werregisterfile, werapi/WerRegisterFile
-f1_keywords:
-- werapi/WerRegisterFile
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- WerRegisterFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerRegisterFile
+ - werapi/WerRegisterFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - WerRegisterFile
 ---
 
 # WerRegisterFile function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a file to be collected when WER creates an error report.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzFile [in]
 
 The full path to the file. The maximum length of this path is MAX_PATH characters.
-
 
 ### -param regFileType [in]
 
@@ -107,8 +103,6 @@ The document in use by the application at the time of the event. This document i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -140,12 +134,8 @@ Automatically deletes the file after it is added to the report.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure, including the following error codes.
 
@@ -161,7 +151,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -177,43 +167,27 @@ The number of registered memory blocks and files exceeds the limit.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The registered file is added to the report only when additional data is requested by the server.
 
 For crashes and non-responses, the operating system automatically provides error reporting (you do not need to provide any error reporting code in your application). If you use this function to register a file, the operating system will add the file to the error report created at the time of a crash or non-response (this file is added in addition to the files the operating system already collects).
 
 
-For generic event reporting, the application has to use the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a> function instead. Alternatively, calling the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
+For generic event reporting, the application has to use the <a href="/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a> function instead. Alternatively, calling the <a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
 
 
-To remove the file from the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a> function.
-
-
-
+To remove the file from the list, call the <a href="/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

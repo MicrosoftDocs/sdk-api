@@ -2,15 +2,12 @@
 UID: NF:micaut.IMathInputControl.SetPosition
 title: IMathInputControl::SetPosition (micaut.h)
 description: Modifies the location and size of the control.
+helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","SetPosition method","IMathInputControl.SetPosition","IMathInputControl::SetPosition","SetPosition","SetPosition method [Tablet PC]","SetPosition method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::SetPosition","tablet.imathinputcontrol_setposition"]
 old-location: tablet\imathinputcontrol_setposition.htm
 tech.root: tablet
 ms.assetid: 9b5fc988-7c93-47d4-8661-4cef56cab0d0
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPosition method, IMathInputControl.SetPosition, IMathInputControl::SetPosition, SetPosition, SetPosition method [Tablet PC], SetPosition method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPosition, tablet.imathinputcontrol_setposition
-f1_keywords:
-- micaut/IMathInputControl.SetPosition
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl::SetPosition
+ - micaut/IMathInputControl::SetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl.SetPosition
 ---
 
 # IMathInputControl::SetPosition
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies the location and size of the control.
 
-
 ## -parameters
-
-
-
 
 ### -param Left [in]
 
 The leftmost position of the control.
 
-
 ### -param Top [in]
 
 The highest position of the control.
-
 
 ### -param Right [in]
 
 The rightmost position of the control.
 
-
 ### -param Bottom [in]
 
 The lowest position of the control.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -122,36 +113,20 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called regardless of the control visibility state.
 
 This method will succeed even if parameters are not valid. If the rectangle is larger than the maximum allowed size of the control (desktop window), the maximum possible size is used instead. If the rectangle is smaller than the minimal size of the control, or too small to keep the ink and result preview intact, the minimal possible size is used instead.
 
 
-If  the method returns <b>S_FALSE</b>, the  <a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a> method will return the actual size characteristics of the control.
-
-
-
+If  the method returns <b>S_FALSE</b>, the  <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a> method will return the actual size characteristics of the control.
 
 ## -see-also
 
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

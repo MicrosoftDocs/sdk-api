@@ -2,15 +2,12 @@
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPostRender
 title: IWMPGraphCreation::GraphCreationPostRender (wmpservices.h)
 description: The GraphCreationPostRender method is called by Windows Media Player after a file has been rendered.
+helpviewer_keywords: ["GraphCreationPostRender","GraphCreationPostRender method [Windows Media Player]","GraphCreationPostRender method [Windows Media Player]","IWMPGraphCreation interface","IWMPGraphCreation interface [Windows Media Player]","GraphCreationPostRender method","IWMPGraphCreation.GraphCreationPostRender","IWMPGraphCreation::GraphCreationPostRender","IWMPGraphCreationGraphCreationPostRenderdeprecated","wmp.iwmpgraphcreation_graphcreationpostrender","wmpservices/IWMPGraphCreation::GraphCreationPostRender"]
 old-location: wmp\iwmpgraphcreation_graphcreationpostrender.htm
 tech.root: WMP
 ms.assetid: 243fc72e-ef97-49a6-9a50-05ec338e5faa
 ms.date: 12/05/2018
 ms.keywords: GraphCreationPostRender, GraphCreationPostRender method [Windows Media Player], GraphCreationPostRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPostRender method, IWMPGraphCreation.GraphCreationPostRender, IWMPGraphCreation::GraphCreationPostRender, IWMPGraphCreationGraphCreationPostRenderdeprecated, wmp.iwmpgraphcreation_graphcreationpostrender, wmpservices/IWMPGraphCreation::GraphCreationPostRender
-f1_keywords:
-- wmpservices/IWMPGraphCreation.GraphCreationPostRender
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPGraphCreation.GraphCreationPostRender
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPGraphCreation::GraphCreationPostRender
+ - wmpservices/IWMPGraphCreation::GraphCreationPostRender
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPGraphCreation.GraphCreationPostRender
 ---
 
 # IWMPGraphCreation::GraphCreationPostRender
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GraphCreationPostRender</b> method is called by Windows Media Player after a file has been rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param pFilterGraph [in]
 
 Pointer to the <b>IUnknown</b> interface of the Windows Media Player control's DirectShow filter graph.
 
-
 ## -returns
-
-
 
 Return a success <b>HRESULT</b> code to allow playback to continue or a failure code to terminate playback.
 
-
-
-
 ## -remarks
-
-
 
 You can call <b>QueryInterface</b> through <i>pFilterGraph</i> to retrieve the DirectShow filter graph interfaces you need.
 
@@ -82,16 +71,6 @@ There is no guarantee that this method will be invoked for all files.  Only file
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:d2d1_1.ID2D1PrintControl.AddPage
 title: ID2D1PrintControl::AddPage (d2d1_1.h)
 description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.
+helpviewer_keywords: ["AddPage","AddPage method [Direct2D]","AddPage method [Direct2D]","ID2D1PrintControl interface","ID2D1PrintControl interface [Direct2D]","AddPage method","ID2D1PrintControl.AddPage","ID2D1PrintControl::AddPage","d2d1_1/ID2D1PrintControl::AddPage","direct2d.id2d1printcontrol_addpage"]
 old-location: direct2d\id2d1printcontrol_addpage.htm
 tech.root: Direct2D
 ms.assetid: 6B157EE8-36C8-4054-9975-3D3B82B3D013
 ms.date: 12/05/2018
 ms.keywords: AddPage, AddPage method [Direct2D], AddPage method [Direct2D],ID2D1PrintControl interface, ID2D1PrintControl interface [Direct2D],AddPage method, ID2D1PrintControl.AddPage, ID2D1PrintControl::AddPage, d2d1_1/ID2D1PrintControl::AddPage, direct2d.id2d1printcontrol_addpage
-f1_keywords:
-- d2d1_1/ID2D1PrintControl.AddPage
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1PrintControl.AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1PrintControl::AddPage
+ - d2d1_1/ID2D1PrintControl::AddPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1PrintControl.AddPage
 ---
 
 # ID2D1PrintControl::AddPage
@@ -49,54 +51,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts Direct2D primitives in the passed-in command list into a fixed page representation for use  by the print subsystem. 
-
+Converts Direct2D primitives in the passed-in command list into a fixed page representation for use  by the print subsystem.
 
 ## -parameters
 
-
-
-
 ### -param commandList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>*</b>
 
 The command list that contains the rendering operations.
 
-
 ### -param pageSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_size_f">D2D_SIZE_F</a></b>
 
 The size of the page to add.
 
-
 ### -param pagePrintTicketStream [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The print ticket stream.
 
-
 ### -param tag1 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 Contains the first label for subsequent drawing operations. This parameter is passed uninitialized. If NULL is specified, no value is retrieved for this parameter.
 
-
 ### -param tag2 [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-tag">D2D1_TAG</a>*</b>
 
 Contains the second label for subsequent drawing operations. This parameter is passed uninitialized. If NULL is specified, no value is retrieved for this parameter.
 
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -124,18 +113,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The print job is already finished.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>

@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordRatingDescriptionText","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","GetRecordRatingDescriptionText method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingDescriptionText method","IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText","mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdescriptiontext.htm
 tech.root: mstv
 ms.assetid: 8a94a7ee-1909-4853-a72b-1174ee3c7803
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatingDescriptionText, GetRecordRatingDescriptionText method [Microsoft TV Technologies], GetRecordRatingDescriptionText method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDescriptionText method, IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext
-f1_keywords:
-- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText
+ - atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,30 +57,21 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordRatingDescriptionText</b> method returns the rating description for a specified rating region.
 
-
 ## -parameters
-
-
-
 
 ### -param bIndex [in]
 
-Zero-based index of the rating region. To get the number of rating regions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
-
+Zero-based index of the rating region. To get the number of rating regions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
 
 ### -param pbLength [out]
 
 Receives the rating_description_length field.
 
-
 ### -param ppText [out]
 
 Receives a pointer to a buffer that contains the rating_description_text field. The text is formatted as a Multiple String Structure as defined by ATSC PSIP Standard A/65. The caller must free the buffer by calling the <b>CoTaskMemFree</b> function.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,18 +103,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>

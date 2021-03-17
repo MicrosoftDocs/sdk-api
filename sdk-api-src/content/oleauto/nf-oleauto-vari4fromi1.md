@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI4FromI1
 title: VarI4FromI1 function (oleauto.h)
 description: Converts a char value to a long value.
+helpviewer_keywords: ["VarI4FromI1","VarI4FromI1 function [Automation]","_oa96_VarI4FromI1","automat.vari4fromi1","oleauto/VarI4FromI1"]
 old-location: automat\vari4fromi1.htm
 tech.root: automat
 ms.assetid: 15bf9ed3-acb6-4cd1-bbcb-184fdd21ddfd
 ms.date: 12/05/2018
 ms.keywords: VarI4FromI1, VarI4FromI1 function [Automation], _oa96_VarI4FromI1, automat.vari4fromi1, oleauto/VarI4FromI1
-f1_keywords:
-- oleauto/VarI4FromI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI4FromI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI4FromI1
+ - oleauto/VarI4FromI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI4FromI1
 ---
 
 # VarI4FromI1 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a char value to a long value.
 
-
 ## -parameters
-
-
-
 
 ### -param cIn [in]
 
 The value to convert.
 
-
 ### -param plOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

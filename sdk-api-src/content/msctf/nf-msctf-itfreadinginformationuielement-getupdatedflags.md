@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReadingInformationUIElement.GetUpdatedFlags
 title: ITfReadingInformationUIElement::GetUpdatedFlags (msctf.h)
 description: This method returns the flag that tells which part of this element was updated.
+helpviewer_keywords: ["GetUpdatedFlags","GetUpdatedFlags method [Text Services Framework]","GetUpdatedFlags method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetUpdatedFlags method","ITfReadingInformationUIElement.GetUpdatedFlags","ITfReadingInformationUIElement::GetUpdatedFlags","TF_RIUIE_CONTEXT","TF_RIUIE_ERRORINDEX","TF_RIUIE_MAXREADINGSTRINGLENGTH","TF_RIUIE_STRING","TF_RIUIE_VERTICALORDER","msctf/ITfReadingInformationUIElement::GetUpdatedFlags","tsf.iitfreadinginformationuielement_getupdatedflags","tsf.itfreadinginformationuielement_getupdatedflags"]
 old-location: tsf\itfreadinginformationuielement_getupdatedflags.htm
 tech.root: TSF
 ms.assetid: 6a5b1a50-9d0b-440a-a98f-80fd33c6cd95
 ms.date: 12/05/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfReadingInformationUIElement.GetUpdatedFlags, ITfReadingInformationUIElement::GetUpdatedFlags, TF_RIUIE_CONTEXT, TF_RIUIE_ERRORINDEX, TF_RIUIE_MAXREADINGSTRINGLENGTH, TF_RIUIE_STRING, TF_RIUIE_VERTICALORDER, msctf/ITfReadingInformationUIElement::GetUpdatedFlags, tsf.iitfreadinginformationuielement_getupdatedflags, tsf.itfreadinginformationuielement_getupdatedflags
-f1_keywords:
-- msctf/ITfReadingInformationUIElement.GetUpdatedFlags
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfReadingInformationUIElement.GetUpdatedFlags
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadingInformationUIElement::GetUpdatedFlags
+ - msctf/ITfReadingInformationUIElement::GetUpdatedFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfReadingInformationUIElement.GetUpdatedFlags
 ---
 
 # ITfReadingInformationUIElement::GetUpdatedFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method returns the flag that tells which part of this element was updated.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
@@ -72,7 +69,7 @@ This method returns the flag that tells which part of this element was updated.
 </dl>
 </td>
 <td width="60%">
-The target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> was changed.
+The target <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> was changed.
 
 </td>
 </tr>
@@ -117,12 +114,8 @@ The vertical order preference was changed.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -165,7 +158,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

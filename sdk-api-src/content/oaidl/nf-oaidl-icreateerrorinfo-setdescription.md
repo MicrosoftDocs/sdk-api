@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateErrorInfo.SetDescription
 title: ICreateErrorInfo::SetDescription (oaidl.h)
 description: Sets the textual description of the error.
+helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetDescription method","ICreateErrorInfo.SetDescription","ICreateErrorInfo::SetDescription","SetDescription","SetDescription method [Automation]","SetDescription method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetDescription","automat.icreateerrorinfo_setdescription","oaidl/ICreateErrorInfo::SetDescription"]
 old-location: automat\icreateerrorinfo_setdescription.htm
 tech.root: automat
 ms.assetid: 32d10343-4be4-4ebc-b2fd-43a292c006b2
 ms.date: 12/05/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetDescription method, ICreateErrorInfo.SetDescription, ICreateErrorInfo::SetDescription, SetDescription, SetDescription method [Automation], SetDescription method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetDescription, automat.icreateerrorinfo_setdescription, oaidl/ICreateErrorInfo::SetDescription
-f1_keywords:
-- oaidl/ICreateErrorInfo.SetDescription
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateErrorInfo.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateErrorInfo::SetDescription
+ - oaidl/ICreateErrorInfo::SetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateErrorInfo.SetDescription
 ---
 
 # ICreateErrorInfo::SetDescription
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the textual description of the error.
 
-
 ## -parameters
-
-
-
 
 ### -param szDescription [in]
 
 A brief description of the error.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,31 +91,15 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The text should be supplied in the language specified by the locale ID (LCID) that was passed to the method raising the error. For more information, see LCID Attribute in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>. 
+The text should be supplied in the language specified by the locale ID (LCID) that was passed to the method raising the error. For more information, see LCID Attribute in <a href="/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>. 
 
 
 
 Use of this function is demonstrated in the file Main.cpp of the COM Fundamentals Hello sample.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>

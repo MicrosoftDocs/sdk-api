@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCInstallProvider64_32
 title: WSCInstallProvider64_32 function (ws2spi.h)
 description: Installs the specified transport service provider into the 32-bit and 64-bit system configuration databases on a 64-bit computer.
+helpviewer_keywords: ["WSCInstallProvider64_32","WSCInstallProvider64_32 function [Winsock]","winsock.wscinstallprovider64_32","ws2spi/WSCInstallProvider64_32"]
 old-location: winsock\wscinstallprovider64_32.htm
 tech.root: WinSock
 ms.assetid: 50d3a5d1-18f2-439e-a16c-6f31becb1e65
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock], winsock.wscinstallprovider64_32, ws2spi/WSCInstallProvider64_32
-f1_keywords:
-- ws2spi/WSCInstallProvider64_32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCInstallProvider64_32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCInstallProvider64_32
+ - ws2spi/WSCInstallProvider64_32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCInstallProvider64_32
 ---
 
 # WSCInstallProvider64_32 function
@@ -48,46 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[**WSCInstallProvider64_32** is no longer available for use as of Windows Vista. Instead, use <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a> or <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains">WSCInstallProviderAndChains</a>.]
 
 The **WSCInstallProvider64_32** function installs the specified transport service provider into the 32-bit and 64-bit system configuration databases on a 64-bit computer.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider.
 
-
 ### -param lpszProviderDllPath [in]
 
 A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as %SystemRoot%). Such environment strings are expanded when the Ws2_32.dll must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the Ws2_32.dll passes the resulting string to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see **LoadLibrary**.
-
 
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structures. Each structure defines a protocol, address family, and socket type supported by the provider.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of entries in the <i>lpProtocolInfoList</i> array.
-
 
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If **WSCInstallProvider64_32** succeeds, it returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
@@ -163,14 +153,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCInstallProvider64_32** is a basic version of the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains64_32">WSCInstallProviderAndChains64_32</a> function that only installs a single transport service provider. **WSCInstallProvider64_32** can be used to install a base protocol, a layered protocol, or a protocol chain. If a layered service provider is being installed, then **WSCInstallProviderAndChains64_32** should be used because this function allows a layered protocol and one or more protocol chains to be installed with a single function call. To accomplish the same work using **WSCInstallProvider64_32** would require multiple function calls to install each service provider component.
 
@@ -201,13 +185,7 @@ Any file installation or service provider-specific configuration must be perform
 
 If the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a> or <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains">WSCInstallProviderAndChains</a> function is used, the function must be called once to install the provider in the 32-bit catalog and once to install the provider in the 64-bit catalog on a 64-bit platform.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
@@ -254,7 +232,4 @@ If the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCIns
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallproviderandchains64_32">WSCInstallProviderAndChains64_32</a>
- 
-
- 
 

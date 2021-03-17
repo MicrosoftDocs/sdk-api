@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilPaxosComparer
 title: ResUtilPaxosComparer function (resapi.h)
 description: Compares two Paxos tags and indicates whether they have the same values.
+helpviewer_keywords: ["ResUtilPaxosComparer","ResUtilPaxosComparer function [Failover Cluster]","mscs.resutilpaxoscomparer","resapi/ResUtilPaxosComparer"]
 old-location: mscs\resutilpaxoscomparer.htm
 tech.root: MsCS
 ms.assetid: 414F9BB0-2490-43A9-BE38-877B283573E1
 ms.date: 12/05/2018
 ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Cluster], mscs.resutilpaxoscomparer, resapi/ResUtilPaxosComparer
-f1_keywords:
-- resapi/ResUtilPaxosComparer
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilPaxosComparer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilPaxosComparer
+ - resapi/ResUtilPaxosComparer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilPaxosComparer
 ---
 
 # ResUtilPaxosComparer function
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two Paxos tags and indicates whether they have the same values.
-
 
 ## -parameters
 
-
-
-
 ### -param left [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
-
+The <a href="/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
 
 ### -param right [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the second  Paxos tag to use in the comparison.
-
+The <a href="/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure that represents the second  Paxos tag to use in the comparison.
 
 ## -returns
 
-
-
 <b>TRUE</b> if the Paxos tags have the same values; otherwise <b>FALSE</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>

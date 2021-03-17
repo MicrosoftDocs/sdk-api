@@ -2,15 +2,12 @@
 UID: NS:qos2._QOS_VERSION
 title: QOS_VERSION (qos2.h)
 description: The QOS_VERSION structure indicates the version of the QOS protocol.
+helpviewer_keywords: ["*PQOS_VERSION","PQOS_VERSION","PQOS_VERSION structure pointer [QOS]","QOS_VERSION","QOS_VERSION structure [QOS]","qos.qos_version","qos2/PQOS_VERSION","qos2/QOS_VERSION"]
 old-location: qos\qos_version.htm
 tech.root: QOS
 ms.assetid: cc8d6dc3-87e9-46c7-8192-78053b4932a3
 ms.date: 12/05/2018
 ms.keywords: '*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS], QOS_VERSION, QOS_VERSION structure [QOS], qos.qos_version, qos2/PQOS_VERSION, qos2/QOS_VERSION'
-f1_keywords:
-- qos2/QOS_VERSION
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos2.h
-api_name:
-- QOS_VERSION
 targetos: Windows
 req.typenames: QOS_VERSION, *PQOS_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_VERSION
+ - qos2/_QOS_VERSION
+ - PQOS_VERSION
+ - qos2/PQOS_VERSION
+ - QOS_VERSION
+ - qos2/QOS_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos2.h
+api_name:
+ - QOS_VERSION
 ---
 
 # QOS_VERSION structure
@@ -48,36 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOS_VERSION</b> structure indicates the version of the QOS protocol.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 Major version of the QOS protocol.
 
-
 ### -field MinorVersion
 
 Minor version of the QOS protocol.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

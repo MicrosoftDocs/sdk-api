@@ -2,15 +2,12 @@
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_OwnerSid
 title: IFsrmPropertyBag::get_OwnerSid (fsrmpipeline.h)
 description: The SID of the owner of the file.
+helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","OwnerSid property","IFsrmPropertyBag.OwnerSid","IFsrmPropertyBag.get_OwnerSid","IFsrmPropertyBag::OwnerSid","IFsrmPropertyBag::get_OwnerSid","OwnerSid property [File Server Resource Manager]","OwnerSid property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_ownersid","fsrm.ifsrmpropertybag_ownersid","fsrmpipeline/IFsrmPropertyBag::OwnerSid","fsrmpipeline/IFsrmPropertyBag::get_OwnerSid","get_OwnerSid"]
 old-location: fsrm\ifsrmpropertybag_ownersid.htm
 tech.root: fsrm
 ms.assetid: bb2b0872-9553-40d3-a9b0-7602266c28da
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],OwnerSid property, IFsrmPropertyBag.OwnerSid, IFsrmPropertyBag.get_OwnerSid, IFsrmPropertyBag::OwnerSid, IFsrmPropertyBag::get_OwnerSid, OwnerSid property [File Server Resource Manager], OwnerSid property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_ownersid, fsrm.ifsrmpropertybag_ownersid, fsrmpipeline/IFsrmPropertyBag::OwnerSid, fsrmpipeline/IFsrmPropertyBag::get_OwnerSid, get_OwnerSid
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyBag.OwnerSid
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyBag.OwnerSid
-- IFsrmPropertyBag.get_OwnerSid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyBag::get_OwnerSid
+ - fsrmpipeline/IFsrmPropertyBag::get_OwnerSid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyBag.OwnerSid
+ - IFsrmPropertyBag.get_OwnerSid
 ---
 
 # IFsrmPropertyBag::get_OwnerSid
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The SID of the owner of the file.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>

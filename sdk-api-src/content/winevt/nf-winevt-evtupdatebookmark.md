@@ -2,15 +2,12 @@
 UID: NF:winevt.EvtUpdateBookmark
 title: EvtUpdateBookmark function (winevt.h)
 description: Updates the bookmark with information that identifies the specified event.
+helpviewer_keywords: ["EvtUpdateBookmark","EvtUpdateBookmark function [EventLog]","wes.evtupdatebookmark","winevt/EvtUpdateBookmark"]
 old-location: wes\evtupdatebookmark.htm
 tech.root: wes
 ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
 ms.date: 12/05/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
-f1_keywords:
-- winevt/EvtUpdateBookmark
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtUpdateBookmark
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtUpdateBookmark
+ - winevt/EvtUpdateBookmark
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtUpdateBookmark
 ---
 
 # EvtUpdateBookmark function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the bookmark with information that identifies the specified event.
-
 
 ## -parameters
 
-
-
-
 ### -param Bookmark [in]
 
-The handle to the bookmark to be updated. The <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns this handle.
-
+The handle to the bookmark to be updated. The <a href="/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns this handle.
 
 ### -param Event [in]
 
 The handle to the event to bookmark.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -96,23 +89,12 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+The function failed. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a>

@@ -2,15 +2,12 @@
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_TAP
 title: INTERACTION_ARGUMENTS_TAP (interactioncontext.h)
 description: Defines the state of the tap interaction.
+helpviewer_keywords: ["INTERACTION_ARGUMENTS_TAP","INTERACTION_ARGUMENTS_TAP structure","input_intcontext.interaction_arguments_tap","interactioncontext.interaction_arguments_tap","interactioncontext/INTERACTION_ARGUMENTS_TAP"]
 old-location: input_intcontext\interaction_arguments_tap.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: 162f35a0-5053-46ad-a7ca-ce314d584e34
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_TAP, INTERACTION_ARGUMENTS_TAP structure, input_intcontext.interaction_arguments_tap, interactioncontext.interaction_arguments_tap, interactioncontext/INTERACTION_ARGUMENTS_TAP
-f1_keywords:
-- interactioncontext/INTERACTION_ARGUMENTS_TAP
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- interactioncontext.h
-api_name:
-- INTERACTION_ARGUMENTS_TAP
 targetos: Windows
 req.typenames: INTERACTION_ARGUMENTS_TAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INTERACTION_ARGUMENTS_TAP
+ - interactioncontext/INTERACTION_ARGUMENTS_TAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - interactioncontext.h
+api_name:
+ - INTERACTION_ARGUMENTS_TAP
 ---
 
 # INTERACTION_ARGUMENTS_TAP structure
@@ -48,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the state of the tap interaction.
-
 
 ## -struct-fields
 
-
-
-
 ### -field count
 
-The number of taps detected. 
-
+The number of taps detected.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>

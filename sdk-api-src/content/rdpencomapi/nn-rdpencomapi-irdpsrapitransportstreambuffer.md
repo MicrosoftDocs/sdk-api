@@ -2,15 +2,12 @@
 UID: NN:rdpencomapi.IRDPSRAPITransportStreamBuffer
 title: IRDPSRAPITransportStreamBuffer (rdpencomapi.h)
 description: Created and used by the IRDPSRAPITransportStream interface for sending and receiving data.
+helpviewer_keywords: ["IRDPSRAPITransportStreamBuffer","IRDPSRAPITransportStreamBuffer interface [RDP]","IRDPSRAPITransportStreamBuffer interface [RDP]","described","rdp.irdpsrapitransportstreambuffer","rdpencomapi/IRDPSRAPITransportStreamBuffer"]
 old-location: rdp\irdpsrapitransportstreambuffer.htm
 tech.root: rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
-f1_keywords:
-- rdpencomapi/IRDPSRAPITransportStreamBuffer
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPITransportStreamBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPITransportStreamBuffer
+ - rdpencomapi/IRDPSRAPITransportStreamBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPITransportStreamBuffer
 ---
 
 # IRDPSRAPITransportStreamBuffer interface
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Created and used by the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a> interface for sending and receiving data.
-
+Created and used by the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a> interface for sending and receiving data.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreamevents">IRDPSRAPITransportStreamEvents</a>

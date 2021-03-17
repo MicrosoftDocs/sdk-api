@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMClientConnections.GetClientProperties
 title: IWMClientConnections::GetClientProperties (wmsdkidl.h)
 description: The GetClientProperties method retrieves information, including the IP address and protocol, about a connected client.
+helpviewer_keywords: ["GetClientProperties","GetClientProperties method [windows Media Format]","GetClientProperties method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientProperties method","IWMClientConnections.GetClientProperties","IWMClientConnections::GetClientProperties","IWMClientConnectionsGetClientProperties","wmformat.iwmclientconnections_getclientproperties","wmsdkidl/IWMClientConnections::GetClientProperties"]
 old-location: wmformat\iwmclientconnections_getclientproperties.htm
 tech.root: wmformat
 ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143
 ms.date: 12/05/2018
 ms.keywords: GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties
-f1_keywords:
-- wmsdkidl/IWMClientConnections.GetClientProperties
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMClientConnections.GetClientProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMClientConnections::GetClientProperties
+ - wmsdkidl/IWMClientConnections::GetClientProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMClientConnections.GetClientProperties
 ---
 
 # IWMClientConnections::GetClientProperties
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetClientProperties</b> method retrieves information, including the IP address and protocol, about a connected client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwClientNum [in]
 
 <b>DWORD</b> containing the client's index number.
 
-
 ### -param pClientProperties [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.
-
+Pointer to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a> structure.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,18 +123,7 @@ Failed to get client information for unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>

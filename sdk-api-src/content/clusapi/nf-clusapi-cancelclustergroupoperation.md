@@ -2,15 +2,12 @@
 UID: NF:clusapi.CancelClusterGroupOperation
 title: CancelClusterGroupOperation function (clusapi.h)
 description: Enables a client to cancel a MoveClusterGroup or MoveClusterGroupEx operation that is pending for a group. The group is then returned to its persistent state.
+helpviewer_keywords: ["CancelClusterGroupOperation","CancelClusterGroupOperation function [Failover Cluster]","clusapi/CancelClusterGroupOperation","mscs.cancelclustergroupoperation"]
 old-location: mscs\cancelclustergroupoperation.htm
 tech.root: MsCS
 ms.assetid: F7710CD6-2B02-48A5-B089-7F174B18463C
 ms.date: 12/05/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
-f1_keywords:
-- clusapi/CancelClusterGroupOperation
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- CancelClusterGroupOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CancelClusterGroupOperation
+ - clusapi/CancelClusterGroupOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - CancelClusterGroupOperation
 ---
 
 # CancelClusterGroupOperation function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a client to cancel a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> operation that is pending for a 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
+    <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> operation that is pending for a 
     group. The group is then returned to its persistent state.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 The handle to a cluster group.
 
-
 ### -param dwCancelFlags_RESERVED [in]
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ## -returns
-
-
 
 <b>CancelClusterGroupOperation</b> returns 
       <b>ERROR_SUCCESS</b> if the move operation on the group was successfully cancelled.
@@ -84,17 +77,12 @@ This parameter is reserved for future use and must be set to zero.
       different nonzero error code if there was a failure issuing the cancellation for the move group operation on the 
       designated group.
 
-
-
-
 ## -remarks
-
-
 
 <b>CancelClusterGroupOperation</b> attempts to 
     cancel a pending move operation on a cluster group that was issued through a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> call that returned 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
+    <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> call that returned 
     <b>ERROR_IO_PENDING</b> and is still in progress. The call attempts to cancel the pending move 
     operation and bring the group to its persistent state.
 
@@ -185,7 +173,3 @@ Cleanup:
     return (int)error;
 }
 ```
-
-
-
-

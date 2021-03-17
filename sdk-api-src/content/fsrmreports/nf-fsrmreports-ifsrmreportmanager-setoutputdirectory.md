@@ -2,15 +2,12 @@
 UID: NF:fsrmreports.IFsrmReportManager.SetOutputDirectory
 title: IFsrmReportManager::SetOutputDirectory (fsrmreports.h)
 description: Sets the local directory path where reports are stored.
+helpviewer_keywords: ["FsrmReportManager class [File Server Resource Manager]","SetOutputDirectory method","IFsrmReportManager interface [File Server Resource Manager]","SetOutputDirectory method","IFsrmReportManager.SetOutputDirectory","IFsrmReportManager::SetOutputDirectory","SetOutputDirectory","SetOutputDirectory method [File Server Resource Manager]","SetOutputDirectory method [File Server Resource Manager]","FsrmReportManager class","SetOutputDirectory method [File Server Resource Manager]","IFsrmReportManager interface","fs.ifsrmreportmanager_setoutputdirectory","fsrm.ifsrmreportmanager_setoutputdirectory","fsrmreports/IFsrmReportManager::SetOutputDirectory"]
 old-location: fsrm\ifsrmreportmanager_setoutputdirectory.htm
 tech.root: fsrm
 ms.assetid: 5bbc4255-1fed-45c5-bb13-41ee7c47ed56
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager interface [File Server Resource Manager],SetOutputDirectory method, IFsrmReportManager.SetOutputDirectory, IFsrmReportManager::SetOutputDirectory, SetOutputDirectory, SetOutputDirectory method [File Server Resource Manager], SetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, SetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setoutputdirectory, fsrm.ifsrmreportmanager_setoutputdirectory, fsrmreports/IFsrmReportManager::SetOutputDirectory
-f1_keywords:
-- fsrmreports/IFsrmReportManager.SetOutputDirectory
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportManager.SetOutputDirectory
-- FsrmReportManager.SetOutputDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportManager::SetOutputDirectory
+ - fsrmreports/IFsrmReportManager::SetOutputDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportManager.SetOutputDirectory
+ - FsrmReportManager.SetOutputDirectory
 ---
 
 # IFsrmReportManager::SetOutputDirectory
@@ -49,40 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the local directory path where reports are stored.
 
-
 ## -parameters
-
-
-
 
 ### -param context [in]
 
 The report context (for example, if the report is scheduled or runs on demand). For possible values, see 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> 
+      the <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportgenerationcontext">FsrmReportGenerationContext</a> 
       enumeration.
-
 
 ### -param path [in]
 
 The full path to the local directory where the reports are stored. The path can contain environment 
       variables. The path is limited to 150 characters.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -remarks
-
-
 
 The reports are stored in the following folders under the given path.
 
@@ -119,19 +107,10 @@ The default output directories are:
 <li>"%systemdrive%\StorageReports\Interactive"</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>

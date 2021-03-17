@@ -2,15 +2,12 @@
 UID: NF:processthreadsapi.IsProcessorFeaturePresent
 title: IsProcessorFeaturePresent function (processthreadsapi.h)
 description: Determines whether the specified processor feature is supported by the current computer.
+helpviewer_keywords: ["IsProcessorFeaturePresent","IsProcessorFeaturePresent function","PF_3DNOW_INSTRUCTIONS_AVAILABLE","PF_ARM_64BIT_LOADSTORE_ATOMIC","PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE","PF_ARM_EXTERNAL_CACHE_AVAILABLE","PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE","PF_ARM_VFP_32_REGISTERS_AVAILABLE","PF_CHANNELS_ENABLED","PF_COMPARE64_EXCHANGE128","PF_COMPARE_EXCHANGE128","PF_COMPARE_EXCHANGE_DOUBLE","PF_FASTFAIL_AVAILABLE","PF_FLOATING_POINT_EMULATED","PF_FLOATING_POINT_PRECISION_ERRATA","PF_MMX_INSTRUCTIONS_AVAILABLE","PF_NX_ENABLED","PF_PAE_ENABLED","PF_RDTSC_INSTRUCTION_AVAILABLE","PF_RDWRFSGSBASE_AVAILABLE","PF_SECOND_LEVEL_ADDRESS_TRANSLATION","PF_SSE3_INSTRUCTIONS_AVAILABLE","PF_VIRT_FIRMWARE_ENABLED","PF_XMMI64_INSTRUCTIONS_AVAILABLE","PF_XMMI_INSTRUCTIONS_AVAILABLE","PF_XSAVE_ENABLED","_win32_isprocessorfeaturepresent","base.isprocessorfeaturepresent","processthreadsapi/IsProcessorFeaturePresent"]
 old-location: base\isprocessorfeaturepresent.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: c58cfb0a-f40f-429c-abe9-83b6f038f612
 ms.date: 12/05/2018
 ms.keywords: IsProcessorFeaturePresent, IsProcessorFeaturePresent function, PF_3DNOW_INSTRUCTIONS_AVAILABLE, PF_ARM_64BIT_LOADSTORE_ATOMIC, PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE, PF_ARM_EXTERNAL_CACHE_AVAILABLE, PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE, PF_ARM_VFP_32_REGISTERS_AVAILABLE, PF_CHANNELS_ENABLED, PF_COMPARE64_EXCHANGE128, PF_COMPARE_EXCHANGE128, PF_COMPARE_EXCHANGE_DOUBLE, PF_FASTFAIL_AVAILABLE, PF_FLOATING_POINT_EMULATED, PF_FLOATING_POINT_PRECISION_ERRATA, PF_MMX_INSTRUCTIONS_AVAILABLE, PF_NX_ENABLED, PF_PAE_ENABLED, PF_RDTSC_INSTRUCTION_AVAILABLE, PF_RDWRFSGSBASE_AVAILABLE, PF_SECOND_LEVEL_ADDRESS_TRANSLATION, PF_SSE3_INSTRUCTIONS_AVAILABLE, PF_VIRT_FIRMWARE_ENABLED, PF_XMMI64_INSTRUCTIONS_AVAILABLE, PF_XMMI_INSTRUCTIONS_AVAILABLE, PF_XSAVE_ENABLED, _win32_isprocessorfeaturepresent, base.isprocessorfeaturepresent, processthreadsapi/IsProcessorFeaturePresent
-f1_keywords:
-- processthreadsapi/IsProcessorFeaturePresent
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- IsProcessorFeaturePresent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsProcessorFeaturePresent
+ - processthreadsapi/IsProcessorFeaturePresent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - IsProcessorFeaturePresent
 ---
 
 # IsProcessorFeaturePresent function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified processor feature is supported by the current computer.
 
-
 ## -parameters
-
-
-
 
 ### -param ProcessorFeature [in]
 
@@ -243,7 +240,7 @@ The MMX instruction set is available.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
+<a href="/windows/desktop/Memory/data-execution-prevention">Data execution prevention</a> is enabled.
 
 <b>Windows XP/2000:  </b>This feature is not supported until Windows XP with SP2 and Windows Server 2003 with SP1.
 
@@ -257,7 +254,7 @@ The MMX instruction set is available.
 </td>
 <td width="60%">
 The processor is PAE-enabled. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
+<a href="/windows/desktop/Memory/physical-address-extension">Physical Address Extension</a>.
 
 All x64 processors always return a nonzero value for this feature.
 
@@ -316,7 +313,7 @@ The SSE3 instruction set is available.
 </dl>
 </td>
 <td width="60%">
-Virtualization is enabled in the firmware. 
+Virtualization is enabled in the firmware and made available by the operating system.
 
 </td>
 </tr>
@@ -357,30 +354,61 @@ The processor implements the XSAVE and XRSTOR instructions.
 
 </td>
 </tr>
-</table>
- 
 
+<tr>
+<td width="40%"><a id="PF_ARM_V8_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>29</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the the ARM v8 instructions set.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crypto_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRYPTO_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>30</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra cryptographic instructions (i.e. AES, SHA1 and SHA2).
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v8_crc32_instructions_available"></a><dl>
+<dt><b>PF_ARM_V8_CRC32_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>31</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8 extra CRC32 instructions.
+</td>
+</tr>
+
+<tr>
+<td width="40%"><a id="PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE"></a><a id="pf_arm_v81_atomic_instructions_available"></a><dl>
+<dt><b>PF_ARM_V81_ATOMIC_INSTRUCTIONS_AVAILABLE</b></dt>
+<dt>34</dt>
+</dl>
+</td>
+<td width="60%">
+This ARM processor implements the ARM v8.1 atomic instructions (e.g. CAS, SWP).
+</td>
+</tr>
+
+</table>
 
 ## -returns
-
-
 
 If the feature is supported, the return value is a nonzero value.
 
 If the feature is not supported, the return value is zero.
 
-If the HAL does not support detection of the feature, whether or not the hardware supports the feature, the return value is also zero. 
-
-
-
+If the HAL does not support detection of the feature, whether or not the hardware supports the feature, the return value is also zero.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

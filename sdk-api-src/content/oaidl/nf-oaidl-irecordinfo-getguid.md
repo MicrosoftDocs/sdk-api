@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.GetGuid
 title: IRecordInfo::GetGuid (oaidl.h)
 description: Gets the GUID of the record type.
+helpviewer_keywords: ["GetGuid","GetGuid method [Automation]","GetGuid method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetGuid method","IRecordInfo.GetGuid","IRecordInfo::GetGuid","_oa96_IRecordInfo_GetGuid","automat.irecordinfo_getguid","oaidl/IRecordInfo::GetGuid"]
 old-location: automat\irecordinfo_getguid.htm
 tech.root: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
-f1_keywords:
-- oaidl/IRecordInfo.GetGuid
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.GetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::GetGuid
+ - oaidl/IRecordInfo::GetGuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.GetGuid
 ---
 
 # IRecordInfo::GetGuid
@@ -48,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the GUID of the record type.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pguid [out]
 
 The class GUID of the TypeInfo that describes the UDT.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +104,7 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

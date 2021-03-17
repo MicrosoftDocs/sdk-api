@@ -2,15 +2,12 @@
 UID: NF:rpcnsi.RpcNsMgmtHandleSetExpAge
 title: RpcNsMgmtHandleSetExpAge function (rpcnsi.h)
 description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.
+helpviewer_keywords: ["RpcNsMgmtHandleSetExpAge","RpcNsMgmtHandleSetExpAge function [RPC]","_rpc_rpcnsmgmthandlesetexpage","rpc.rpcnsmgmthandlesetexpage","rpcnsi/RpcNsMgmtHandleSetExpAge"]
 old-location: rpc\rpcnsmgmthandlesetexpage.htm
 tech.root: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
-f1_keywords:
-- rpcnsi/RpcNsMgmtHandleSetExpAge
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsMgmtHandleSetExpAge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsMgmtHandleSetExpAge
+ - rpcnsi/RpcNsMgmtHandleSetExpAge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsMgmtHandleSetExpAge
 ---
 
 # RpcNsMgmtHandleSetExpAge function
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsMgmtHandleSetExpAge</b> function sets the expiration age of a name-service handle for local copies of name-service data.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param NsHandle
 
 Name-service handle for which an expiration age is set. A name-service handle is returned from a name service begin operation.
-
 
 ### -param ExpirationAge
 
@@ -72,10 +69,7 @@ Integer value, in seconds, that sets the expiration age of local name-service da
 
 An expiration age of 0 causes an immediate update of the local name-service data.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -108,14 +102,10 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsMgmtHandleSetExpAge</b> function sets a handle-expiration age for a specified name–service handle (<i>NsHandle</i>). The expiration age is the amount of time that a local copy of data from a name-service attribute can exist before a request from the application for the attribute requires updating the local copy. When an application begins running, the RPC run-time library specifies a default expiration age of two hours. The default is global to the application. A handle-expiration age applies only to a specific name-service handle and temporarily overrides the current global expiration age.
@@ -150,29 +140,20 @@ For example, during management operations to update a profile, you may need to a
 
 
 For example, a client application using name service import operations should first try to obtain bindings using the application's default expiration age. However, sometimes the import-next operation returns either no binding handles or an insufficient number of them. In this case, the client could retry the import operation and, after the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> call, include an 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a> call, include an 
 <b>RpcNsMgmtHandleSetExpAge</b> call and specify 0 for the <i>ExpirationAge</i> parameter. When the client calls the import-next function again, the small handle-expiration age causes the import-next operation to update the local attribute data.
 
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtinqexpage">RpcNsMgmtInqExpAge</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtinqexpage">RpcNsMgmtInqExpAge</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage">RpcNsMgmtSetExpAge</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage">RpcNsMgmtSetExpAge</a>

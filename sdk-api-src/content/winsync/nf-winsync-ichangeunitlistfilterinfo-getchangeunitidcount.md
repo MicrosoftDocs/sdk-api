@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitIdCount
 title: IChangeUnitListFilterInfo::GetChangeUnitIdCount (winsync.h)
 description: Gets the number of change unit IDs that define the filter.
+helpviewer_keywords: ["GetChangeUnitIdCount","GetChangeUnitIdCount method [Windows Sync]","GetChangeUnitIdCount method [Windows Sync]","IChangeUnitListFilterInfo interface","IChangeUnitListFilterInfo interface [Windows Sync]","GetChangeUnitIdCount method","IChangeUnitListFilterInfo.GetChangeUnitIdCount","IChangeUnitListFilterInfo::GetChangeUnitIdCount","winsync.ichangeunitlistfilterinfo_getchangeunitidcount","winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount"]
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitidcount.htm
 tech.root: winsync
 ms.assetid: 23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2
 ms.date: 12/05/2018
 ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
-f1_keywords:
-- winsync/IChangeUnitListFilterInfo.GetChangeUnitIdCount
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitListFilterInfo.GetChangeUnitIdCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitListFilterInfo::GetChangeUnitIdCount
+ - winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitListFilterInfo.GetChangeUnitIdCount
 ---
 
 # IChangeUnitListFilterInfo::GetChangeUnitIdCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of change unit IDs that define the filter.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwChangeUnitIdCount [out, retval]
 
 Returns the number of change unit IDs that define the filter.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>

@@ -2,15 +2,12 @@
 UID: NE:d3d12.D3D12_TEXTURE_LAYOUT
 title: D3D12_TEXTURE_LAYOUT (d3d12.h)
 description: Specifies texture layout options.
+helpviewer_keywords: ["D3D12_TEXTURE_LAYOUT","D3D12_TEXTURE_LAYOUT enumeration","D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE","D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE","D3D12_TEXTURE_LAYOUT_ROW_MAJOR","D3D12_TEXTURE_LAYOUT_UNKNOWN","d3d12/D3D12_TEXTURE_LAYOUT","d3d12/D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE","d3d12/D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE","d3d12/D3D12_TEXTURE_LAYOUT_ROW_MAJOR","d3d12/D3D12_TEXTURE_LAYOUT_UNKNOWN","direct3d12.d3d12_texture_layout"]
 old-location: direct3d12\d3d12_texture_layout.htm
 tech.root: direct3d12
 ms.assetid: 1C61B658-9CA1-493C-8DBC-86313D0D302F
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXTURE_LAYOUT, D3D12_TEXTURE_LAYOUT enumeration, D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, D3D12_TEXTURE_LAYOUT_ROW_MAJOR, D3D12_TEXTURE_LAYOUT_UNKNOWN, d3d12/D3D12_TEXTURE_LAYOUT, d3d12/D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_ROW_MAJOR, d3d12/D3D12_TEXTURE_LAYOUT_UNKNOWN, direct3d12.d3d12_texture_layout
-f1_keywords:
-- d3d12/D3D12_TEXTURE_LAYOUT
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_TEXTURE_LAYOUT
 targetos: Windows
 req.typenames: D3D12_TEXTURE_LAYOUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_TEXTURE_LAYOUT
+ - d3d12/D3D12_TEXTURE_LAYOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_TEXTURE_LAYOUT
 ---
 
 # D3D12_TEXTURE_LAYOUT enumeration
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies texture layout options.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D3D12_TEXTURE_LAYOUT_UNKNOWN
 
@@ -66,8 +62,6 @@ Indicates that the layout is unknown, and is likely adapter-dependent.
             
 
 Zero-copy texture upload optimizations exist for UMA architectures; see <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">ID3D12Resource::WriteToSubresource</a>.
-            
-
 
 ### -field D3D12_TEXTURE_LAYOUT_ROW_MAJOR
 
@@ -199,8 +193,6 @@ The restrictions for this layout are that the following aren't supported:
 
 ## -remarks
 
-
-
 This enum is used by the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a> structure.
       
 
@@ -226,12 +218,7 @@ To compute the swizzled address, the following code could be used (where the <b>
                       _pdep_u32(xOffset, xBytesMask) +
                       _pdep_u32(yOffset, yBytesMask);</code></pre>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/cd3dx12-resource-desc">CD3DX12_RESOURCE_DESC</a>
 
@@ -242,7 +229,4 @@ To compute the swizzled address, the following code could be used (where the <b>
 
 
 <a href="/windows/win32/direct3d12/default-texture-mapping">UMA Optimizations: CPU Accessible Textures and Standard Swizzle</a>
- 
-
- 
 

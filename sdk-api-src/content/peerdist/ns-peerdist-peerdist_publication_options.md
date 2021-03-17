@@ -2,15 +2,12 @@
 UID: NS:peerdist.peerdist_publication_options_tag
 title: PEERDIST_PUBLICATION_OPTIONS (peerdist.h)
 description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
+helpviewer_keywords: ["*PPEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking]","PPEERDIST_PUBLICATION_OPTIONS","PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking]","p2p.peerdist_publication_options","peerdist/PEERDIST_PUBLICATION_OPTIONS","peerdist/PPEERDIST_PUBLICATION_OPTIONS"]
 old-location: p2p\peerdist_publication_options.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b
 ms.date: 12/05/2018
 ms.keywords: '*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS'
-f1_keywords:
-- peerdist/PEERDIST_PUBLICATION_OPTIONS
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- peerdist.h
-api_name:
-- PEERDIST_PUBLICATION_OPTIONS
 targetos: Windows
 req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - peerdist_publication_options_tag
+ - peerdist/peerdist_publication_options_tag
+ - PPEERDIST_PUBLICATION_OPTIONS
+ - peerdist/PPEERDIST_PUBLICATION_OPTIONS
+ - PEERDIST_PUBLICATION_OPTIONS
+ - peerdist/PEERDIST_PUBLICATION_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - peerdist.h
+api_name:
+ - PEERDIST_PUBLICATION_OPTIONS
 ---
 
 # PEERDIST_PUBLICATION_OPTIONS structure
@@ -48,17 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PEERDIST_PUBLICATION_OPTIONS</b> structure contains publication options, including the API version information and possible option flags.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwVersion
-
 
 The following possible values reflect the version number of the client:
 
@@ -92,8 +92,6 @@ Version 2.0
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFlags
 

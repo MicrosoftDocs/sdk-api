@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionSequential.get_FreeSectorsOnMedia
 title: IMultisessionSequential::get_FreeSectorsOnMedia (imapi2.h)
 description: Retrieves the number of free sectors available on the media.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_FreeSectorsOnMedia method","IMultisessionSequential.get_FreeSectorsOnMedia","IMultisessionSequential::get_FreeSectorsOnMedia","get_FreeSectorsOnMedia","get_FreeSectorsOnMedia method [IMAPI]","get_FreeSectorsOnMedia method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_freesectorsonmedia","imapi2/IMultisessionSequential::get_FreeSectorsOnMedia"]
 old-location: imapi\imultisessionsequential_get_freesectorsonmedia.htm
 tech.root: imapi
 ms.assetid: d308a080-8858-4d80-8203-bce9f8d9bed6
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_FreeSectorsOnMedia method, IMultisessionSequential.get_FreeSectorsOnMedia, IMultisessionSequential::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_freesectorsonmedia, imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
-f1_keywords:
-- imapi2/IMultisessionSequential.get_FreeSectorsOnMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential.get_FreeSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential::get_FreeSectorsOnMedia
+ - imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential.get_FreeSectorsOnMedia
 ---
 
 # IMultisessionSequential::get_FreeSectorsOnMedia
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of free sectors available on the media.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
 Number of sectors on the disc that are available for use.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,18 +354,7 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>

@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
 title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN (winbio_adapter.h)
 description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
+helpviewer_keywords: ["EngineAdapterCheckForDuplicate","EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API]","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN","PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback","secbiomet.engineadaptercheckforduplicate","winbio_adapter/EngineAdapterCheckForDuplicate"]
 old-location: secbiomet\engineadaptercheckforduplicate.htm
 tech.root: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API], PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN, PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback, secbiomet.engineadaptercheckforduplicate, winbio_adapter/EngineAdapterCheckForDuplicate
-f1_keywords:
-- winbio_adapter/EngineAdapterCheckForDuplicate
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterCheckForDuplicate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
+ - winbio_adapter/PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterCheckForDuplicate
 ---
 
 # PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback function
@@ -48,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called by the Windows Biometric Framework to determine whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates. 
-
+Called by the Windows Biometric Framework to determine whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Identity [out]
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that receives the GUID or SID of the duplicate template stored in the database.
-
-
+Pointer to a  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that receives the GUID or SID of the duplicate template stored in the database.
 
 ### -param SubFactor [out]
 
 Pointer to a  <b>WINBIO_BIOMETRIC_SUBTYPE</b> variable that receives the sub-factor associated with the duplicate template in the database.
 
-
-
 ### -param Duplicate [out]
 
 A pointer to a Boolean value that specifies whether a matching template was found in the database.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -111,14 +100,8 @@ There is no enrollment template in the pipeline engine context.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Windows Biometric Framework calls this function before committing a new enrollment template to the  database of a biometric unit. The purpose of this function is to prevent collisions in the engine adapter matching space. Collisions can result in false-positive matches.
 
@@ -329,17 +312,6 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

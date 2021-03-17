@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.SendDvdStructure
 title: IDiscRecorder2Ex::SendDvdStructure (imapi2.h)
 description: Sends a DVD structure to the media.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendDvdStructure method","IDiscRecorder2Ex.SendDvdStructure","IDiscRecorder2Ex::SendDvdStructure","SendDvdStructure","SendDvdStructure method [IMAPI]","SendDvdStructure method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_senddvdstructure","imapi2/IDiscRecorder2Ex::SendDvdStructure"]
 old-location: imapi\idiscrecorder2ex_senddvdstructure.htm
 tech.root: imapi
 ms.assetid: 4e9b83ee-69f6-42b8-bd6b-546c4ffe2002
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendDvdStructure method, IDiscRecorder2Ex.SendDvdStructure, IDiscRecorder2Ex::SendDvdStructure, SendDvdStructure, SendDvdStructure method [IMAPI], SendDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_senddvdstructure, imapi2/IDiscRecorder2Ex::SendDvdStructure
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.SendDvdStructure
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.SendDvdStructure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::SendDvdStructure
+ - imapi2/IDiscRecorder2Ex::SendDvdStructure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.SendDvdStructure
 ---
 
 # IDiscRecorder2Ex::SendDvdStructure
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a DVD structure to the media.
 
-
 ## -parameters
-
-
-
 
 ### -param format [in]
 
 Format field of the command packet. Acceptable values range from zero to 0xFF.
 
-
 ### -param data [in]
 
 Data buffer that contains the DVD structure to send to the media. Do not include a header; this method generates and prepends a header to the DVD structure.
-
 
 ### -param count [in]
 
 Size, in bytes, of the data buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -383,31 +375,15 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For details on specifying the fields of  the structure, see the SEND DISC STRUCTURE command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure">IDiscRecorder2Ex::ReadDvdStructure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-readdvdstructure">IDiscRecorder2Ex::ReadDvdStructure</a>

@@ -2,15 +2,12 @@
 UID: NS:wlanapi._WLAN_PROFILE_INFO
 title: WLAN_PROFILE_INFO (wlanapi.h)
 description: Basic information about a profile.
+helpviewer_keywords: ["*PWLAN_PROFILE_INFO","PWLAN_PROFILE_INFO","PWLAN_PROFILE_INFO structure pointer [NativeWIFI]","WLAN_PROFILE_GROUP_POLICY","WLAN_PROFILE_INFO","WLAN_PROFILE_INFO structure [NativeWIFI]","WLAN_PROFILE_USER","nwifi.wlan_profile_info","wlanapi/PWLAN_PROFILE_INFO","wlanapi/WLAN_PROFILE_INFO"]
 old-location: nwifi\wlan_profile_info.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: ca45278c-2e1e-4080-825a-d6a05e463858
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO structure pointer [NativeWIFI], WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_INFO, WLAN_PROFILE_INFO structure [NativeWIFI], WLAN_PROFILE_USER, nwifi.wlan_profile_info, wlanapi/PWLAN_PROFILE_INFO, wlanapi/WLAN_PROFILE_INFO'
-f1_keywords:
-- wlanapi/WLAN_PROFILE_INFO
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_PROFILE_INFO
 targetos: Windows
 req.typenames: WLAN_PROFILE_INFO, *PWLAN_PROFILE_INFO
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_PROFILE_INFO
+ - wlanapi/_WLAN_PROFILE_INFO
+ - PWLAN_PROFILE_INFO
+ - wlanapi/PWLAN_PROFILE_INFO
+ - WLAN_PROFILE_INFO
+ - wlanapi/WLAN_PROFILE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_PROFILE_INFO
 ---
 
 # WLAN_PROFILE_INFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_PROFILE_INFO</b> structure contains basic information about a profile.
 
-
 ## -struct-fields
-
-
-
 
 ### -field strProfileName
 
 The name of the profile.  This value may be the name of a domain if the profile is for provisioning. Profile names are case-sensitive. This string must be NULL-terminated.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The name of the profile is derived automatically from the SSID of the wireless network. For infrastructure network profiles, the name of the profile is the SSID of the network. For ad hoc network profiles, the name of the profile is the SSID of the ad hoc network followed by <code>-adhoc</code>.
-
 
 ### -field dwFlags
 
@@ -101,24 +101,15 @@ This flag indicates that the profile is a per-user profile.  If not set, this pr
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info_list">WLAN_PROFILE_INFO_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info_list">WLAN_PROFILE_INFO_LIST</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>

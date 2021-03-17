@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureSink2.SetOutputMediaType
 title: IMFCaptureSink2::SetOutputMediaType (mfcaptureengine.h)
 description: Dynamically sets the output media type of the record sink or preview sink.
+helpviewer_keywords: ["IMFCaptureSink2 interface [Media Foundation]","SetOutputMediaType method","IMFCaptureSink2.SetOutputMediaType","IMFCaptureSink2::SetOutputMediaType","SetOutputMediaType","SetOutputMediaType method [Media Foundation]","SetOutputMediaType method [Media Foundation]","IMFCaptureSink2 interface","mf.imfcapturesink2_setoutputmediatype","mfcaptureengine/IMFCaptureSink2::SetOutputMediaType"]
 old-location: mf\imfcapturesink2_setoutputmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink2.SetOutputMediaType
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink2.SetOutputMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink2::SetOutputMediaType
+ - mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink2.SetOutputMediaType
 ---
 
 # IMFCaptureSink2::SetOutputMediaType
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Dynamically sets the output media type of the record sink or preview sink.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
 The stream index to change the output media type on.
 
-
 ### -param pMediaType [in]
 
 The new output media type.
-
 
 ### -param pEncodingAttributes [in]
 
 The new encoder attributes. This can be  <b>null</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -106,28 +98,12 @@ The sink does not support the media type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This is an asynchronous call.  Listen to the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-capture-engine-output-media-type-set">MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET</a> event
+This is an asynchronous call.  Listen to the <a href="/windows/desktop/medfound/mf-capture-engine-output-media-type-set">MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET</a> event
 to be notified when the output media type has been set.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink2">IMFCaptureSink2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink2">IMFCaptureSink2</a>

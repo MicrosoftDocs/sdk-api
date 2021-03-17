@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidDevice.get_Power
 title: IMSVidDevice::get_Power (segment.h)
 description: The get_Power method queries whether the device is off or on.
+helpviewer_keywords: ["IMSVidDevice interface [Microsoft TV Technologies]","get_Power method","IMSVidDevice.get_Power","IMSVidDevice::get_Power","IMSVidDeviceget_Power","get_Power","get_Power method [Microsoft TV Technologies]","get_Power method [Microsoft TV Technologies]","IMSVidDevice interface","mstv.imsviddevice_get_power","segment/IMSVidDevice::get_Power"]
 old-location: mstv\imsviddevice_get_power.htm
 tech.root: mstv
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
-f1_keywords:
-- segment/IMSVidDevice.get_Power
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidDevice.get_Power
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidDevice::get_Power
+ - segment/IMSVidDevice::get_Power
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidDevice.get_Power
 ---
 
 # IMSVidDevice::get_Power
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Power</b> method queries whether the device is off or on.
 
-
 ## -parameters
-
-
-
 
 ### -param Power [out]
 
@@ -78,12 +75,8 @@ Pointer to a variable that receives one of the following values.
 <td>The device is off.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -126,31 +119,15 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Not all device types implement this method.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">IMSVidDevice::put_Power</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">IMSVidDevice::put_Power</a>

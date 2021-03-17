@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFPresentationDescriptor.DeselectStream
 title: IMFPresentationDescriptor::DeselectStream (mfidl.h)
 description: Deselects a stream in the presentation.
+helpviewer_keywords: ["3de1f0d5-10fc-415b-898b-4643a391ba79","DeselectStream","DeselectStream method [Media Foundation]","DeselectStream method [Media Foundation]","IMFPresentationDescriptor interface","IMFPresentationDescriptor interface [Media Foundation]","DeselectStream method","IMFPresentationDescriptor.DeselectStream","IMFPresentationDescriptor::DeselectStream","mf.imfpresentationdescriptor_deselectstream","mfidl/IMFPresentationDescriptor::DeselectStream"]
 old-location: mf\imfpresentationdescriptor_deselectstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3de1f0d5-10fc-415b-898b-4643a391ba79
 ms.date: 12/05/2018
 ms.keywords: 3de1f0d5-10fc-415b-898b-4643a391ba79, DeselectStream, DeselectStream method [Media Foundation], DeselectStream method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],DeselectStream method, IMFPresentationDescriptor.DeselectStream, IMFPresentationDescriptor::DeselectStream, mf.imfpresentationdescriptor_deselectstream, mfidl/IMFPresentationDescriptor::DeselectStream
-f1_keywords:
-- mfidl/IMFPresentationDescriptor.DeselectStream
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPresentationDescriptor.DeselectStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPresentationDescriptor::DeselectStream
+ - mfidl/IMFPresentationDescriptor::DeselectStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPresentationDescriptor.DeselectStream
 ---
 
 # IMFPresentationDescriptor::DeselectStream
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Deselects a stream in the presentation.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwDescriptorIndex [in]
 
-The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
-          
-
+The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,19 +93,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">IMFPresentationDescriptor::SelectStream</a>.
+If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">IMFPresentationDescriptor::SelectStream</a>.
       
 
-To query whether a stream is selected, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
+To query whether a stream is selected, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -125,19 +109,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>

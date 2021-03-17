@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCUpdateProvider
 title: WSCUpdateProvider function (ws2spi.h)
 description: Modifies the specified transport provider in the system configuration database.
+helpviewer_keywords: ["WSCUpdateProvider","WSCUpdateProvider function [Winsock]","_win32_wscupdateprovider_2","winsock.wscupdateprovider_2","ws2spi/WSCUpdateProvider"]
 old-location: winsock\wscupdateprovider_2.htm
 tech.root: WinSock
 ms.assetid: 7777a2ff-2ece-4f28-88af-87fc96fdda9f
 ms.date: 12/05/2018
 ms.keywords: WSCUpdateProvider, WSCUpdateProvider function [Winsock], _win32_wscupdateprovider_2, winsock.wscupdateprovider_2, ws2spi/WSCUpdateProvider
-f1_keywords:
-- ws2spi/WSCUpdateProvider
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCUpdateProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCUpdateProvider
+ - ws2spi/WSCUpdateProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCUpdateProvider
 ---
 
 # WSCUpdateProvider function
@@ -48,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WSCUpdateProvider** function modifies the specified transport provider in the system configuration database.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider.
 
-
 ### -param lpszProviderDllPath [in]
 
 A pointer to a Unicode string that contains the load path to the provider 64-bit DLL. This string observes the usual rules for path resolution and can contain embedded environment strings (such as <i>%SystemRoot%</i>). Such environment strings are expanded when the Ws2_32.dll must subsequently load the provider DLL on behalf of an application. After any embedded environment strings are expanded, the Ws2_32.dll passes the resulting string to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function which loads the provider into memory. For more information, see **LoadLibrary**.
-
 
 ### -param lpProtocolInfoList [in]
 
 A pointer to an array of 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structures. Each structure specifies or modifies a protocol, address family, and socket type supported by the provider.
 
-
 ### -param dwNumberOfEntries [in]
 
 The number of entries in the <i>lpProtocolInfoList</i> array.
-
 
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCUpdateProvider** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
@@ -141,14 +131,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **WSCUpdateProvider** function modifies Windows Sockets 2 configuration information for the specified provider. It is applicable to base protocols, layered protocols, and protocol chains.
@@ -165,13 +149,7 @@ For computers running on Windows Vista or Windows Server 2008, this function c
 
 Any file installation or service provider-specific configuration must be performed by the caller.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
@@ -194,7 +172,4 @@ Any file installation or service provider-specific configuration must be perform
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
- 
-
- 
 

@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMStorage3.CreateEmptyMetadataObject
 title: IWMDMStorage3::CreateEmptyMetadataObject (mswmdm.h)
 description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.
+helpviewer_keywords: ["CreateEmptyMetadataObject","CreateEmptyMetadataObject method [windows Media Device Manager]","CreateEmptyMetadataObject method [windows Media Device Manager]","IWMDMStorage3 interface","IWMDMStorage3 interface [windows Media Device Manager]","CreateEmptyMetadataObject method","IWMDMStorage3.CreateEmptyMetadataObject","IWMDMStorage3::CreateEmptyMetadataObject","IWMDMStorage3CreateEmptyMetadataObject","mswmdm/IWMDMStorage3::CreateEmptyMetadataObject","wmdm.iwmdmstorage3_createemptymetadataobject"]
 old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm
 tech.root: WMDM
 ms.assetid: e46b5f30-3dd9-4e5a-bd75-c7716a1d8a2a
 ms.date: 12/05/2018
 ms.keywords: CreateEmptyMetadataObject, CreateEmptyMetadataObject method [windows Media Device Manager], CreateEmptyMetadataObject method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],CreateEmptyMetadataObject method, IWMDMStorage3.CreateEmptyMetadataObject, IWMDMStorage3::CreateEmptyMetadataObject, IWMDMStorage3CreateEmptyMetadataObject, mswmdm/IWMDMStorage3::CreateEmptyMetadataObject, wmdm.iwmdmstorage3_createemptymetadataobject
-f1_keywords:
-- mswmdm/IWMDMStorage3.CreateEmptyMetadataObject
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMStorage3.CreateEmptyMetadataObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorage3::CreateEmptyMetadataObject
+ - mswmdm/IWMDMStorage3::CreateEmptyMetadataObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMStorage3.CreateEmptyMetadataObject
 ---
 
 # IWMDMStorage3::CreateEmptyMetadataObject
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>CreateEmptyMetadataObject</b> method creates a new <b>IWMDMMetaData</b> interface. This interface is used to set or retrieve metadata properties of a storage.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppMetadata [out]
 
-Receives the new <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface. The caller must release this interface when done with it.
-
+Receives the new <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface. The caller must release this interface when done with it.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,14 +68,9 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 The metadata interface created is not implicitly connected to the storage that created it; it is merely an empty metadata container. You must submit the interface to a method to set or retrieve metadata values.
 
@@ -187,29 +173,18 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

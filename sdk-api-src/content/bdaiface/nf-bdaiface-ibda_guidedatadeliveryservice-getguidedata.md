@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideData
 title: IBDA_GuideDataDeliveryService::GetGuideData (bdaiface.h)
 description: Gets the next set of guide data that is available.
+helpviewer_keywords: ["GetGuideData","GetGuideData method [Microsoft TV Technologies]","GetGuideData method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideData method","IBDA_GuideDataDeliveryService.GetGuideData","IBDA_GuideDataDeliveryService::GetGuideData","bdaiface/IBDA_GuideDataDeliveryService::GetGuideData","mstv.ibda_guidedatadeliveryservice_getguidedata"]
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm
 tech.root: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b
 ms.date: 12/05/2018
 ms.keywords: GetGuideData, GetGuideData method [Microsoft TV Technologies], GetGuideData method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideData method, IBDA_GuideDataDeliveryService.GetGuideData, IBDA_GuideDataDeliveryService::GetGuideData, bdaiface/IBDA_GuideDataDeliveryService::GetGuideData, mstv.ibda_guidedatadeliveryservice_getguidedata
-f1_keywords:
-- bdaiface/IBDA_GuideDataDeliveryService.GetGuideData
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_GuideDataDeliveryService.GetGuideData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_GuideDataDeliveryService::GetGuideData
+ - bdaiface/IBDA_GuideDataDeliveryService::GetGuideData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_GuideDataDeliveryService.GetGuideData
 ---
 
 # IBDA_GuideDataDeliveryService::GetGuideData
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the next set of guide data that is available.
 
-
 ## -parameters
-
-
-
 
 ### -param pulcbBufferLen [in, out]
 
 Size of the <i>pbBuffer</i> array, in bytes.
 
-
 ### -param pbBuffer [out]
 
 Pointer to a byte array that receives the guide data.
 
-
 ### -param pulGuideDataPercentageProgress [out]
 
-Receives a value from 0 to 100. The value specifies the percent of guide data that was transferred from the media transform device (MTD) to the media sink device (MSD) since the last call to <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-requestguidedataupdate">IBDA_GuideDataDeliveryService::RequestGuideDataUpdate</a>.
-
+Receives a value from 0 to 100. The value specifies the percent of guide data that was transferred from the media transform device (MTD) to the media sink device (MSD) since the last call to <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-requestguidedataupdate">IBDA_GuideDataDeliveryService::RequestGuideDataUpdate</a>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -106,18 +98,7 @@ The MTD has no more data to return.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>

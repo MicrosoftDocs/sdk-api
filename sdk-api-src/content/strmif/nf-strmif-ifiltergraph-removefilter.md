@@ -2,15 +2,12 @@
 UID: NF:strmif.IFilterGraph.RemoveFilter
 title: IFilterGraph::RemoveFilter (strmif.h)
 description: The RemoveFilter method removes a filter from the graph.
+helpviewer_keywords: ["IFilterGraph interface [DirectShow]","RemoveFilter method","IFilterGraph.RemoveFilter","IFilterGraph::RemoveFilter","IFilterGraphRemoveFilter","RemoveFilter","RemoveFilter method [DirectShow]","RemoveFilter method [DirectShow]","IFilterGraph interface","dshow.ifiltergraph_removefilter","strmif/IFilterGraph::RemoveFilter"]
 old-location: dshow\ifiltergraph_removefilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ec681340-0fb9-4eba-8211-d5fa07fb076b
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGraph.RemoveFilter, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter
-f1_keywords:
-- strmif/IFilterGraph.RemoveFilter
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterGraph.RemoveFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph::RemoveFilter
+ - strmif/IFilterGraph::RemoveFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph.RemoveFilter
 ---
 
 # IFilterGraph::RemoveFilter
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RemoveFilter</code> method removes a filter from the graph.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pFilter [in]
 
 Pointer to the filter to be removed from the graph.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -111,31 +102,15 @@ Failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The Filter Graph Manager notifies the filter that it is being removed by calling the filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-joinfiltergraph">IBaseFilter::JoinFilterGraph</a> method with a <b>NULL</b> argument. It is not necessary to disconnect the filter's pins before calling <code>RemoveFilter</code>, but the filter graph should be in the Stopped state. If the filters are not stopped, <code>RemoveFilter</code> may fail to disconnect the pins and then fail to remove the filter from the graph. <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-removefilterex">IGraphConfig::RemoveFilterEx</a> enables an application to remove a filter without disconnecting the pins automatically, which improves performance if you want to move groups of connected filters into a new graph.
-
-
-
+The Filter Graph Manager notifies the filter that it is being removed by calling the filter's <a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-joinfiltergraph">IBaseFilter::JoinFilterGraph</a> method with a <b>NULL</b> argument. It is not necessary to disconnect the filter's pins before calling <code>RemoveFilter</code>, but the filter graph should be in the Stopped state. If the filters are not stopped, <code>RemoveFilter</code> may fail to disconnect the pins and then fail to remove the filter from the graph. <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-removefilterex">IGraphConfig::RemoveFilterEx</a> enables an application to remove a filter without disconnecting the pins automatically, which improves performance if you want to move groups of connected filters into a new graph.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>

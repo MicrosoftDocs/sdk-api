@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceSerialNumber
 title: IWMRegisteredDevice::GetDeviceSerialNumber (wmsdkidl.h)
 description: The GetDeviceID method retrieves the 128-bit value that identifies the device.
+helpviewer_keywords: ["GetDeviceSerialNumber","GetDeviceSerialNumber method [windows Media Format]","GetDeviceSerialNumber method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetDeviceSerialNumber method","IWMRegisteredDevice.GetDeviceSerialNumber","IWMRegisteredDevice::GetDeviceSerialNumber","IWMRegisteredDeviceGetDeviceID","wmformat.iwmregistereddevice_getdeviceserialnumber","wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber"]
 old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm
 tech.root: wmformat
 ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
 ms.date: 12/05/2018
 ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.GetDeviceSerialNumber
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.GetDeviceSerialNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::GetDeviceSerialNumber
+ - wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.GetDeviceSerialNumber
 ---
 
 # IWMRegisteredDevice::GetDeviceSerialNumber
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDeviceID</b> method retrieves the 128-bit value that identifies the device.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pSerialNumber [out]
 
-Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device serial number.
-
+Address of a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device serial number.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,29 +80,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The serial number can be any value that can be stored in 128 bits of memory.
 
 Together, the device serial number and the device certificate uniquely identify the device. Manufacturers are encouraged to use a separate certificate for each device. However, a manufacturer may share a certificate between all devices of a particular type, differentiating individual devices by serial number.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>

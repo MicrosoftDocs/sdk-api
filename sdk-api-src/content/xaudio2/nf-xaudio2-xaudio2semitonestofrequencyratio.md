@@ -2,15 +2,12 @@
 UID: NF:xaudio2.XAudio2SemitonesToFrequencyRatio
 title: XAudio2SemitonesToFrequencyRatio function (xaudio2.h)
 description: Inline function that converts a semitone value to a frequency ratio value.
+helpviewer_keywords: ["XAudio2SemitonesToFrequencyRatio","XAudio2SemitonesToFrequencyRatio function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2semitonestofrequencyratio","xaudio2/XAudio2SemitonesToFrequencyRatio"]
 old-location: xaudio2\xaudio2semitonestofrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2SemitonesToFrequencyRatio(float)
 ms.date: 12/05/2018
 ms.keywords: XAudio2SemitonesToFrequencyRatio, XAudio2SemitonesToFrequencyRatio function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2semitonestofrequencyratio, xaudio2/XAudio2SemitonesToFrequencyRatio
-f1_keywords:
-- xaudio2/XAudio2SemitonesToFrequencyRatio
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xaudio2.h
-api_name:
-- XAudio2SemitonesToFrequencyRatio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAudio2SemitonesToFrequencyRatio
+ - xaudio2/XAudio2SemitonesToFrequencyRatio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xaudio2.h
+api_name:
+ - XAudio2SemitonesToFrequencyRatio
 ---
 
 # XAudio2SemitonesToFrequencyRatio function
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inline function that converts a semitone value to a frequency ratio value.
 
-
 ## -parameters
-
-
-
 
 ### -param Semitones
 
 Floating point value representing the semitone value.
 
-
 ## -returns
-
-
 
 Returns a floating point value that represents the frequency ratio.
 
-
-
-
 ## -remarks
 
-
-
-<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">IXAudio2SourceVoice::SetFrequencyRatio</a>.
+<b>XAudio2SemitonesToFrequencyRatio</b> can be used to calculate the Ratio parameter value passed to the function <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">IXAudio2SourceVoice::SetFrequencyRatio</a>.
 
 
 
@@ -85,16 +74,6 @@ You must explicitly define XAUDIO2_HELPER_FUNCTIONS in your build for this funct
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/functions">XAudio2 Functions</a>

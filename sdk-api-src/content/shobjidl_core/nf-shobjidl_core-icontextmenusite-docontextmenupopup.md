@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IContextMenuSite.DoContextMenuPopup
 title: IContextMenuSite::DoContextMenuPopup (shobjidl_core.h)
 description: DoContextMenuPopup is no longer available for use as of Windows Server 2003.
+helpviewer_keywords: ["CMF_ASYNCVERBSTATE","CMF_CANRENAME","CMF_DEFAULTONLY","CMF_DISABLEDVERBS","CMF_DONOTPICKDEFAULT","CMF_EXPLORE","CMF_EXTENDEDVERBS","CMF_INCLUDESTATIC","CMF_ITEMMENU","CMF_NODEFAULT","CMF_NORMAL","CMF_NOVERBS","CMF_OPTIMIZEFORINVOKE","CMF_RESERVED","CMF_SYNCCASCADEMENU","CMF_VERBSONLY","DoContextMenuPopup","DoContextMenuPopup method [Windows Shell]","DoContextMenuPopup method [Windows Shell]","IContextMenuSite interface","IContextMenuSite interface [Windows Shell]","DoContextMenuPopup method","IContextMenuSite.DoContextMenuPopup","IContextMenuSite::DoContextMenuPopup","_shell_IContextMenuSite_DoContextMenuPopup","shell.IContextMenuSite_DoContextMenuPopup","shobjidl_core/IContextMenuSite::DoContextMenuPopup"]
 old-location: shell\IContextMenuSite_DoContextMenuPopup.htm
 tech.root: shell
 ms.assetid: 5601dc9c-e008-4387-b0d3-4cbdf29b7849
 ms.date: 12/05/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, DoContextMenuPopup, DoContextMenuPopup method [Windows Shell], DoContextMenuPopup method [Windows Shell],IContextMenuSite interface, IContextMenuSite interface [Windows Shell],DoContextMenuPopup method, IContextMenuSite.DoContextMenuPopup, IContextMenuSite::DoContextMenuPopup, _shell_IContextMenuSite_DoContextMenuPopup, shell.IContextMenuSite_DoContextMenuPopup, shobjidl_core/IContextMenuSite::DoContextMenuPopup
-f1_keywords:
-- shobjidl_core/IContextMenuSite.DoContextMenuPopup
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenuSite.DoContextMenuPopup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuSite::DoContextMenuPopup
+ - shobjidl_core/IContextMenuSite::DoContextMenuPopup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenuSite.DoContextMenuPopup
 ---
 
 # IContextMenuSite::DoContextMenuPopup
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>DoContextMenuPopup</b> is no longer available for use as of Windows Server 2003.]
 
 Creates and displays a shortcut menu, tracks the selection of items on that menu, and invokes a chosen command.
 
-
 ## -parameters
-
-
-
 
 ### -param punkContextMenu [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the shortcut menu's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation.
-
+A pointer to the shortcut menu's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation.
 
 ### -param fFlags [in]
 
@@ -156,7 +152,7 @@ This value is not available.
 
 #### CMF_OPTIMIZEFORINVOKE (0x00000800)
 
-0x00000800. Informs context menu handlers that do not support the invocation of a verb through a canonical verb name to bypass that processing in their <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> implementation.
+0x00000800. Informs context menu handlers that do not support the invocation of a verb through a canonical verb name to bypass that processing in their <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> implementation.
 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
@@ -183,21 +179,14 @@ This value is not available.
 
 0xffff0000. This flag is a bitmask that specifies all bits that should not be used. This is to be used only as a mask. Do not pass this as a parameter value.
 
-
 ### -param pt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Location where you want the shortcut menu to appear. This point specifies the location of the menu's upper left corner in screen coordinates.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

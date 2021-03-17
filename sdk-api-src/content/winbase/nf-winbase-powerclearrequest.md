@@ -2,15 +2,12 @@
 UID: NF:winbase.PowerClearRequest
 title: PowerClearRequest function (winbase.h)
 description: Decrements the count of power requests of the specified type for a power request object.
+helpviewer_keywords: ["PowerClearRequest","PowerClearRequest function","PowerRequestAwayModeRequired","PowerRequestDisplayRequired","PowerRequestExecutionRequired","PowerRequestSystemRequired","base.powerclearrequest","winbase/PowerClearRequest"]
 old-location: base\powerclearrequest.htm
-tech.root: power
+tech.root: base
 ms.assetid: 794248b1-5aa8-495e-aca6-1a1f35dc9c7f
 ms.date: 12/05/2018
 ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, base.powerclearrequest, winbase/PowerClearRequest
-f1_keywords:
-- winbase/PowerClearRequest
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- PowerClearRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerClearRequest
+ - winbase/PowerClearRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - PowerClearRequest
 ---
 
 # PowerClearRequest function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements the count of power requests of the specified type for a power request object.
 
-
 ## -parameters
-
-
-
 
 ### -param PowerRequest [in]
 
 A handle to a power request object.
-
 
 ### -param RequestType [in]
 
@@ -124,32 +120,18 @@ The <b>PowerRequestExecutionRequired</b> request type can be used only by applic
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns a nonzero value.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>

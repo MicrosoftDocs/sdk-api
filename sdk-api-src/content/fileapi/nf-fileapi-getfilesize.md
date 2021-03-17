@@ -2,15 +2,12 @@
 UID: NF:fileapi.GetFileSize
 title: GetFileSize function (fileapi.h)
 description: Retrieves the size of the specified file, in bytes.
+helpviewer_keywords: ["GetFileSize","GetFileSize function [Files]","_win32_getfilesize","base.getfilesize","fileapi/GetFileSize","fs.getfilesize","winbase/GetFileSize"]
 old-location: fs\getfilesize.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize function [Files], _win32_getfilesize, base.getfilesize, fileapi/GetFileSize, fs.getfilesize, winbase/GetFileSize
-f1_keywords:
-- fileapi/GetFileSize
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileSize
+ - fileapi/GetFileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileSize
 ---
 
 # GetFileSize function
@@ -55,31 +57,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of the specified file, in bytes.
 
-It is recommended that you use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>.
-
+It is recommended that you use <a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file.
-
 
 ### -param lpFileSizeHigh [out, optional]
 
 A pointer to the variable where the high-order doubleword of the file size is returned. This parameter can 
       be <b>NULL</b> if the application does not require the high-order doubleword.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the low-order doubleword of the file size, and, if 
        <i>lpFileSizeHigh</i> is non-<b>NULL</b>, the function puts the 
@@ -87,39 +80,34 @@ If the function succeeds, the return value is the low-order doubleword of the fi
 
 If the function fails and <i>lpFileSizeHigh</i> is <b>NULL</b>, the 
        return value is <b>INVALID_FILE_SIZE</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. When 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. When 
        <i>lpFileSizeHigh</i> is <b>NULL</b>, the results returned for large 
        files are ambiguous, and you will not be able to determine the actual size of the file. It is recommended that 
-       you use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a> instead.
+       you use <a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a> instead.
 
 If the function fails and <i>lpFileSizeHigh</i> is non-<b>NULL</b>, the 
        return value is <b>INVALID_FILE_SIZE</b> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return a value other than 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return a value other than 
        <b>NO_ERROR</b>.
-
-
-
 
 ## -remarks
 
-
-
 You cannot use the <b>GetFileSize</b> function with a handle of 
     a nonseeking device such as a pipe or a communications device. To determine the file type for 
-    <i>hFile</i>, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a> 
+    <i>hFile</i>, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a> 
     function.
 
 The <b>GetFileSize</b> function retrieves the uncompressed size 
-    of a file. Use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a> 
+    of a file. Use the <a href="/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a> 
     function to obtain the compressed size of a file.
 
 Note that if the return value is <b>INVALID_FILE_SIZE</b> (0xffffffff), an application must 
-    call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether the function has 
+    call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether the function has 
     succeeded or failed. The reason the function may appear to fail when it has not is that 
     <i>lpFileSizeHigh</i> could be non-<b>NULL</b> or the file size could be 
     0xffffffff. In this case, <b>GetLastError</b> will return 
     <b>NO_ERROR</b> (0) upon success. Because of this behavior, it is recommended that you use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a> instead.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a> instead.
 
 <b>Transacted Operations:  </b>If there is a transaction bound to the file handle, then the function returns information for the isolated 
       file view.
@@ -188,31 +176,22 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-view-within-a-file">Creating a View Within a File</a>.
+     <a href="/windows/desktop/Memory/creating-a-view-within-a-file">Creating a View Within a File</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>

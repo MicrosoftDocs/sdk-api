@@ -2,15 +2,12 @@
 UID: NS:ipsectypes._IPSEC_KEY_MANAGER0
 title: IPSEC_KEY_MANAGER0 (ipsectypes.h)
 description: Used to register key management callbacks with IPsec.
+helpviewer_keywords: ["IPSEC_KEY_MANAGER0","IPSEC_KEY_MANAGER0 structure [Filtering]","IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY","fwp.ipsec_key_manager0","ipsectypes/IPSEC_KEY_MANAGER0"]
 old-location: fwp\ipsec_key_manager0.htm
 tech.root: fwp
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
-f1_keywords:
-- ipsectypes/IPSEC_KEY_MANAGER0
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ipsectypes.h
-api_name:
-- IPSEC_KEY_MANAGER0
 targetos: Windows
 req.typenames: IPSEC_KEY_MANAGER0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IPSEC_KEY_MANAGER0
+ - ipsectypes/_IPSEC_KEY_MANAGER0
+ - IPSEC_KEY_MANAGER0
+ - ipsectypes/IPSEC_KEY_MANAGER0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ipsectypes.h
+api_name:
+ - IPSEC_KEY_MANAGER0
 ---
 
 # IPSEC_KEY_MANAGER0 structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_KEY_MANAGER0</b> structure is  used to register key management callbacks with IPsec.
 
-
 ## -struct-fields
-
-
-
 
 ### -field keyManagerKey
 
@@ -63,13 +62,11 @@ Type: <b>GUID</b>
 
 Uniquely identifies the Key Manager.
 
-
 ### -field displayData
 
-Type: [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a></b>
+Type: [FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)</b>
 
 Contains annotations associated with the filter.
-
 
 ### -field flags
 
@@ -93,35 +90,25 @@ Specifies that the TIA will be able to accept key notifications and also potenti
 </td>
 </tr>
 </table>
- 
-
 
 ### -field keyDictationTimeoutHint
 
 Type: <b>UINT8</b>
 
-Time, in seconds, after which the <b>keyDictation</b> callback must return in order for registration to succeed. Set this field to <b>0</b> in order to use the default timeout (5 seconds). 
-
+Time, in seconds, after which the <b>keyDictation</b> callback must return in order for registration to succeed. Set this field to <b>0</b> in order to use the default timeout (5 seconds).
 
 ## -see-also
 
+[FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
+<a href="/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0">IPSEC_KEY_MANAGER_CALLBACKS0</a>
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

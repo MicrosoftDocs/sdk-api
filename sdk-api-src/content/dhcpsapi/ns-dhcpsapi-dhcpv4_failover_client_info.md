@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCPV4_FAILOVER_CLIENT_INFO
 title: DHCPV4_FAILOVER_CLIENT_INFO (dhcpsapi.h)
 description: The DHCPV4_FAILOVER_CLIENT_INFO structure defines DHCP server scope statistics that are part of a failover relationship.
+helpviewer_keywords: ["*LPDHCPV4_FAILOVER_CLIENT_INFO","ADDRESS_BIT_BOTH_REC","ADDRESS_BIT_CLEANUP","ADDRESS_BIT_DELETED","ADDRESS_BIT_DHCID_NO_CLIENTIDOPTION","ADDRESS_BIT_DHCID_WITH_CLIENTIDOPTION","ADDRESS_BIT_DHCID_WITH_DUID","ADDRESS_BIT_NO_DHCID","ADDRESS_BIT_UNREGISTERED","ADDRESS_STATE_ACTIVE","ADDRESS_STATE_DECLINED","ADDRESS_STATE_DOOM","ADDRESS_STATE_OFFERED","CLIENT_TYPE_BOOTP","CLIENT_TYPE_BOTH","CLIENT_TYPE_DHCP","CLIENT_TYPE_NONE","CLIENT_TYPE_RESERVATION_FLAG","CLIENT_TYPE_UNSPECIFIED","DHCPV4_FAILOVER_CLIENT_INFO","DHCPV4_FAILOVER_CLIENT_INFO structure [DHCP]","LPDHCPV4_FAILOVER_CLIENT_INFO","LPDHCPV4_FAILOVER_CLIENT_INFO structure pointer [DHCP]","dhcp.dhcpv4_failover_client_info","dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO","dhcpsapi/LPDHCPV4_FAILOVER_CLIENT_INFO"]
 old-location: dhcp\dhcpv4_failover_client_info.htm
 tech.root: DHCP
 ms.assetid: 46e4fb62-5b8e-44f8-b3a0-92535ca690f0
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCPV4_FAILOVER_CLIENT_INFO, ADDRESS_BIT_BOTH_REC, ADDRESS_BIT_CLEANUP, ADDRESS_BIT_DELETED, ADDRESS_BIT_DHCID_NO_CLIENTIDOPTION, ADDRESS_BIT_DHCID_WITH_CLIENTIDOPTION, ADDRESS_BIT_DHCID_WITH_DUID, ADDRESS_BIT_NO_DHCID, ADDRESS_BIT_UNREGISTERED, ADDRESS_STATE_ACTIVE, ADDRESS_STATE_DECLINED, ADDRESS_STATE_DOOM, ADDRESS_STATE_OFFERED, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_RESERVATION_FLAG, CLIENT_TYPE_UNSPECIFIED, DHCPV4_FAILOVER_CLIENT_INFO, DHCPV4_FAILOVER_CLIENT_INFO structure [DHCP], LPDHCPV4_FAILOVER_CLIENT_INFO, LPDHCPV4_FAILOVER_CLIENT_INFO structure pointer [DHCP], dhcp.dhcpv4_failover_client_info, dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO, dhcpsapi/LPDHCPV4_FAILOVER_CLIENT_INFO'
-f1_keywords:
-- dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,78 +25,67 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dhcpsapi.h
-api_name:
-- DHCPV4_FAILOVER_CLIENT_INFO
 targetos: Windows
 req.typenames: DHCPV4_FAILOVER_CLIENT_INFO, *LPDHCPV4_FAILOVER_CLIENT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCPV4_FAILOVER_CLIENT_INFO
+ - dhcpsapi/_DHCPV4_FAILOVER_CLIENT_INFO
+ - LPDHCPV4_FAILOVER_CLIENT_INFO
+ - dhcpsapi/LPDHCPV4_FAILOVER_CLIENT_INFO
+ - DHCPV4_FAILOVER_CLIENT_INFO
+ - dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dhcpsapi.h
+api_name:
+ - DHCPV4_FAILOVER_CLIENT_INFO
 ---
-
-# DHCPV4_FAILOVER_CLIENT_INFO structure
-
 
 ## -description
 
-
- The <b>DHCPV4_FAILOVER_CLIENT_INFO</b> structure defines DHCP server scope statistics that are part of a failover relationship.
-
+The <b>DHCPV4_FAILOVER_CLIENT_INFO</b> structure defines DHCP server scope statistics that are part of a failover relationship.
 
 ## -struct-fields
 
-
-
-
 ### -field ClientIpAddress
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the DHCPv4 client IPv4 address.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the DHCPv4 client IPv4 address.
 
 ### -field SubnetMask
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_MASK</a> structure that contains the DHCPv4 client IPv4 subnet mask.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_MASK</a> structure that contains the DHCPv4 client IPv4 subnet mask.
 
 ### -field ClientHardwareAddress
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure that contains the hardware address (MAC address) of the DHCPv4 client.
 
 ### -field ClientName
 
 Pointer to a null-terminated Unicode string that represents the DHCPv4 client machine name.
 
-
 ### -field ClientComment
 
 Pointer to a null-terminated Unicode string that represents the description of the DHCPv4 client.
 
-
 ### -field ClientLeaseExpires
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the lease expiry time for the DHCPv4 client. This is UTC time represented in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 ### -field OwnerHost
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server) that provided a lease to the DHCPv4 client.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information about the host machine (DHCPv4 server) that provided a lease to the DHCPv4 client.
 
 ### -field bClientType
 
-Value that specifies the DHCPv4 client type. The possible values are below:
+Value that specifies the DHCPv4 client type. The possible values are below.
 
 <table>
 <tr>
@@ -173,12 +159,10 @@ Backward compatibility for manual addressing.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AddressState
 
-Value that specifies various states of the IPv4 address. The LSB is bit 0 and the MSB is bit 7. The possible values are below:
+Value that specifies various states of the IPv4 address. The LSB is bit 0 and the MSB is bit 7. The possible values are below.
 
 BIT 0 and BIT 1 signify the DHCPv4 client IPv4 address state, as shown in the following table.
 
@@ -313,7 +297,7 @@ The DNS update for the DHCPv4 client lease record needs to be deleted from the D
 </dl>
 </td>
 <td width="60%">
-The DNS update needs to be sent for both <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a> and <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_ptr_dataw">DNS_PTR_DATA</a> type resource records.
+The DNS update needs to be sent for both <a href="/windows/win32/api/windns/ns-windns-dns_a_data">DNS_A_DATA</a> and <a href="/windows/win32/api/windns/ns-windns-dns_ptr_dataw">DNS_PTR_DATA</a> type resource records.
 
 </td>
 </tr>
@@ -340,90 +324,55 @@ The address lease is expired, but the DNS updates for the lease record have not 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Status
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client as validated at the NAP server.
-
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-quarantinestatus">QuarantineStatus</a> enumeration that specifies possible health status values for the DHCPv4 client as validated at the NAP server.
 
 ### -field ProbationEnds
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the probation end time if the DHCPv4 client is on probation. The DHCPv4 client has full access to the network for this time period. This is UTC time represented in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the probation end time if the DHCPv4 client is on probation. The DHCPv4 client has full access to the network for this time period. This is UTC time represented in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> format.
 
 ### -field QuarantineCapable
 
-<b>TRUE</b>, if the DHCPv4 client is quarantine-enabled; Otherwise, it is <b>FALSE</b>. 
-
+<b>TRUE</b>, if the DHCPv4 client is quarantine-enabled; Otherwise, it is <b>FALSE</b>.
 
 ### -field SentPotExpTime
 
 Time, in seconds, of potential-expiration-time sent to the partner server.
 
-
 ### -field AckPotExpTime
 
 Time, in seconds, of potential-expiration-time acknowledged by the partner server.
-
 
 ### -field RecvPotExpTime
 
 Time, in seconds, of potential-expiration-time received from the partner server.
 
-
 ### -field StartTime
 
 Time, in seconds, since the client lease first entered into its current state.
-
 
 ### -field CltLastTransTime
 
 Time, in seconds, since the client-last-transaction-time.
 
-
 ### -field LastBndUpdTime
 
 Time, in seconds, since the partner server last updated the DHCPv4 client lease.
 
-
 ### -field BndMsgStatus
 
- 
-
+Reserved. Do not use.
 
 ### -field PolicyName
 
 Pointer to a null-terminated Unicode string that represents the DHCP server policy name that resulted in the IPv4 address assignment to the DHCPv4 client in the lease.
 
-
 ### -field Flags
 
- 
-
-
-
-
-#### - bndMsgStatus
-
 Reserved. Do not use.
-
-
-#### - flags
-
-Reserved. Do not use.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcpv4_failover_client_info_array">DHCPV4_FAILOVER_CLIENT_INFO_ARRAY</a>
- 
-
- 
-
+<a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcpv4_failover_client_info_array">DHCPV4_FAILOVER_CLIENT_INFO_ARRAY</a>

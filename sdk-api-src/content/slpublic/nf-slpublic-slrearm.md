@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLReArm
 title: SLReArm function (slpublic.h)
 description: This function is rearm application activation.
+helpviewer_keywords: ["SLReArm","SLReArm function [Security]","security.slrearm","slpublic/SLReArm"]
 old-location: security\slrearm.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
 ms.date: 12/05/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm
-f1_keywords:
-- slpublic/SLReArm
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLReArm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLReArm
+ - slpublic/SLReArm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLReArm
 ---
 
 # SLReArm function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function is rearm application activation.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,20 +60,17 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pApplicationId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the application ID.
 
-
 ### -param pProductSkuId [in, optional]
 
 Type: <b>const SLID*</b>
 
 A pointer to the product SKU ID.
-
 
 ### -param dwFlags [in]
 
@@ -87,10 +81,7 @@ Flags for ReArm behavior.  Valid values are 0 or
 		require a reboot before a function using the security processor can     
 		succeed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -114,7 +105,4 @@ One or more arguments are not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

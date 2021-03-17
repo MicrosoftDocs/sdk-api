@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMutualExclusion.GetType
 title: IWMMutualExclusion::GetType (wmsdkidl.h)
 description: The GetType method retrieves the GUID of the type of mutual exclusion required.
+helpviewer_keywords: ["GetType","GetType method [windows Media Format]","GetType method [windows Media Format]","IWMMutualExclusion interface","IWMMutualExclusion interface [windows Media Format]","GetType method","IWMMutualExclusion.GetType","IWMMutualExclusion::GetType","IWMMutualExclusionGetType","wmformat.iwmmutualexclusion_gettype","wmsdkidl/IWMMutualExclusion::GetType"]
 old-location: wmformat\iwmmutualexclusion_gettype.htm
 tech.root: wmformat
 ms.assetid: 546bb0d1-a11e-4bf7-92fc-cef938d792bb
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMutualExclusion interface, IWMMutualExclusion interface [windows Media Format],GetType method, IWMMutualExclusion.GetType, IWMMutualExclusion::GetType, IWMMutualExclusionGetType, wmformat.iwmmutualexclusion_gettype, wmsdkidl/IWMMutualExclusion::GetType
-f1_keywords:
-- wmsdkidl/IWMMutualExclusion.GetType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMutualExclusion.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMutualExclusion::GetType
+ - wmsdkidl/IWMMutualExclusion::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMutualExclusion.GetType
 ---
 
 # IWMMutualExclusion::GetType
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetType</b> method retrieves the GUID of the type of mutual exclusion required.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pguidType [out]
 
 Pointer to a GUID that specifies the type of mutual exclusion.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,14 +93,8 @@ The <i>pguidType</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following constants represent the GUIDs supported by this SDK.
 
@@ -139,22 +124,13 @@ The following constants represent the GUIDs supported by this SDK.
 </table>
  
 
-<div class="alert"><b>Note</b>  If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.</div>
+<div class="alert"><b>Note</b>  If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype">IWMMutualExclusion::SetType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype">IWMMutualExclusion::SetType</a>

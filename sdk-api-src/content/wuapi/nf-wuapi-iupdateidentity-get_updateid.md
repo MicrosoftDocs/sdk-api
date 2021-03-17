@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateIdentity.get_UpdateID
 title: IUpdateIdentity::get_UpdateID (wuapi.h)
 description: Gets the revision-independent identifier of an update.
+helpviewer_keywords: ["IUpdateIdentity interface [Windows Update Agent]","UpdateID property","IUpdateIdentity.UpdateID","IUpdateIdentity.get_UpdateID","IUpdateIdentity::UpdateID","IUpdateIdentity::get_UpdateID","UpdateID property [Windows Update Agent]","UpdateID property [Windows Update Agent]","IUpdateIdentity interface","get_UpdateID","wua.iupdateidentity_updateid","wuapi/IUpdateIdentity::UpdateID","wuapi/IUpdateIdentity::get_UpdateID"]
 old-location: wua\iupdateidentity_updateid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 072c85a7-bcac-4323-97df-75aa2b89f1ba
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],UpdateID property, IUpdateIdentity.UpdateID, IUpdateIdentity.get_UpdateID, IUpdateIdentity::UpdateID, IUpdateIdentity::get_UpdateID, UpdateID property [Windows Update Agent], UpdateID property [Windows Update Agent],IUpdateIdentity interface, get_UpdateID, wua.iupdateidentity_updateid, wuapi/IUpdateIdentity::UpdateID, wuapi/IUpdateIdentity::get_UpdateID
-f1_keywords:
-- wuapi/IUpdateIdentity.UpdateID
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateIdentity.UpdateID
-- IUpdateIdentity.get_UpdateID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateIdentity::get_UpdateID
+ - wuapi/IUpdateIdentity::get_UpdateID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateIdentity.UpdateID
+ - IUpdateIdentity.get_UpdateID
 ---
 
 # IUpdateIdentity::get_UpdateID
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the revision-independent identifier of an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>

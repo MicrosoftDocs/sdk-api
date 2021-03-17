@@ -2,15 +2,12 @@
 UID: NF:libloaderapi.LoadLibraryW
 title: LoadLibraryW function (libloaderapi.h)
 description: Loads the specified module into the address space of the calling process.
+helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
 old-location: base\loadlibrary.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
 ms.date: 12/05/2018
 ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win32_loadlibrary, base.loadlibrary, libloaderapi/LoadLibrary, libloaderapi/LoadLibraryA, libloaderapi/LoadLibraryW, winbase/LoadLibrary, winbase/LoadLibraryA, winbase/LoadLibraryW
-f1_keywords:
-- libloaderapi/LoadLibrary
-dev_langs:
-- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,33 +25,38 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Libraryloader-l1-2-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
-api_name:
-- LoadLibrary
-- LoadLibraryA
-- LoadLibraryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadLibraryW
+ - libloaderapi/LoadLibraryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Libraryloader-l1-2-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+ - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+api_name:
+ - LoadLibrary
+ - LoadLibraryA
+ - LoadLibraryW
 ---
 
 # LoadLibraryW function
@@ -62,18 +64,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the specified  module into the address space of the calling process. The specified 
     module may cause other modules to be loaded.
 
 For additional load options, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> function.
-
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpLibFileName [in]
 
@@ -88,45 +85,37 @@ If the string specifies a relative path or a module name without a path, the fun
        strategy to find the module; for more information, see the Remarks.
 
 If the function cannot find the  module, the function fails. When specifying a path, be sure to use 
-       backslashes (\), not forward slashes (/). For more information about paths, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File or Directory</a>.
+       backslashes (\\), not forward slashes (/). For more information about paths, see 
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File or Directory</a>.
 
 If the string specifies a module name without a path and the file name extension is omitted, the function 
        appends the default library extension .dll to the module name. To prevent the function from appending 
        .dll to the module name, include a trailing point character (.) in the module name string.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the module.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 To enable or disable error messages displayed by the loader during DLL loads, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function.
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function.
 
 <b>LoadLibrary</b> can be used to load a library module into 
     the address space of the process and return a handle that can be used in 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to get the address of a DLL function. 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to get the address of a DLL function. 
     <b>LoadLibrary</b> can also be used to load other executable 
     modules. For example, the function can specify an .exe file to get a handle that can be used in 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>. However, do not use 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> or 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>. However, do not use 
     <b>LoadLibrary</b> to run an .exe file. Instead, use 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.
+    the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.
 
 If the specified module is a DLL that is not already loaded for the calling process, the system calls the 
-    DLL's <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> function with the 
+    DLL's <a href="/windows/desktop/Dlls/dllmain">DllMain</a> function with the 
     <b>DLL_PROCESS_ATTACH</b> value. If 
     <b>DllMain</b> returns <b>TRUE</b>, 
     <b>LoadLibrary</b> returns a handle to the module. If 
@@ -140,7 +129,7 @@ If the specified module is a DLL that is not already loaded for the calling proc
 Module handles are not global or inheritable. A call to 
     <b>LoadLibrary</b> by one process does not produce a handle that 
     another process can use — for example, in calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. The other process must make its own 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. The other process must make its own 
     call to <b>LoadLibrary</b> for the module before calling 
     <b>GetProcAddress</b>.
 
@@ -155,19 +144,19 @@ If no file name extension is specified in the <i>lpFileName</i> parameter, the d
 
 The first directory searched is the directory containing the image file used to create the calling process 
     (for more information, see the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function). Doing this allows 
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function). Doing this allows 
     private dynamic-link library (DLL) files associated with a process to be found without adding the process's 
     installed directory to the PATH environment variable. If a relative path is 
     specified, the entire relative path is appended to every token in the DLL search path list. To load a module from 
     a relative path without searching any other path, use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> to get a nonrelative path and call 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> to get a nonrelative path and call 
     <b>LoadLibrary</b> with the nonrelative path. For more 
     information on the DLL search order, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>.
+    <a href="/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>.
 
 The search path can be altered using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a> function. This solution is recommended 
-    instead of using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> or 
+    <a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a> function. This solution is recommended 
+    instead of using <a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> or 
     hard-coding the full path to the DLL.
 
 If a path is specified and there is a redirection file for the application, the function searches for the 
@@ -176,7 +165,7 @@ If a path is specified and there is a redirection file for the application, the 
     module from the application's directory. If the module does not exist in the application's directory, 
     <b>LoadLibrary</b> loads the module from the specified 
     directory. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-redirection">Dynamic Link Library Redirection</a>.
+    <a href="/windows/desktop/Dlls/dynamic-link-library-redirection">Dynamic Link Library Redirection</a>.
 
  If you call <b>LoadLibrary</b> with the name of an assembly 
     without a path specification and the assembly is listed in the system compatible manifest, the call is 
@@ -184,8 +173,8 @@ If a path is specified and there is a redirection file for the application, the 
 
 The system maintains a per-process reference 
     count on all loaded modules. Calling <b>LoadLibrary</b> 
-    increments the reference count. Calling the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a> function decrements 
+    increments the reference count. Calling the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a> or 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread">FreeLibraryAndExitThread</a> function decrements 
     the reference count. The system unloads a module when its reference count reaches zero or when the process 
     terminates (regardless of the reference count).
 
@@ -194,16 +183,16 @@ The system maintains a per-process reference
       DLL explicitly using <b>LoadLibrary</b> on versions of Windows 
       prior to Windows Vista. If your DLL will be loaded explicitly, you must use the thread local 
       storage functions instead of <b>_declspec(thread)</b>. For an example, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage 
+      <a href="/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage 
       in a Dynamic Link Library</a>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
-Do not use the <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function to retrieve a path to 
+Do not use the <a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function to retrieve a path to 
       a DLL for a subsequent <b>LoadLibrary</b> call. The 
       <b>SearchPath</b> function uses a different search order than 
       <b>LoadLibrary</b> and it does not use safe process search mode 
       unless this is explicitly enabled by calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a> with 
+      <a href="/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a> with 
       <b>BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE</b>. Therefore, 
       <b>SearchPath</b> is likely to first search the user’s current 
       working directory for the specified DLL. If an attacker has copied a malicious version of a DLL into the current 
@@ -216,69 +205,66 @@ Do not make assumptions about the operating system version based on a
       application is running in an environment where the DLL is legitimately not present but a malicious version of 
       the DLL is in the search path, the malicious version of the DLL may be loaded. Instead, use the recommended 
       techniques described in 
-      <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
+      <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking">Using Run-Time Dynamic Linking</a>.
+     <a href="/windows/desktop/Dlls/using-run-time-dynamic-linking">Using Run-Time Dynamic Linking</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The libloaderapi.h header defines LoadLibrary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Dlls/dllmain">DllMain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
+<a href="/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/run-time-dynamic-linking">Run-Time Dynamic Linking</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>

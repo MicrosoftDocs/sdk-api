@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.CredReadDomainCredentialsFn
 title: CredReadDomainCredentialsFn (ntsecpkg.h)
 description: Reads a domain credential from the Credential Manager.
+helpviewer_keywords: ["CREDP_FLAGS_CLEAR_PASSWORD","CREDP_FLAGS_DONT_CACHE_TI","CREDP_FLAGS_IN_PROCESS","CREDP_FLAGS_TRUSTED_CALLER","CREDP_FLAGS_USER_ENCRYPTED_PASSWORD","CREDP_FLAGS_USE_MIDL_HEAP","CredReadDomainCredentialsFn","CredReadDomainCredentialsFn callback","CrediReadDomainCredentials","CrediReadDomainCredentials callback function [Security]","ntsecpkg/CrediReadDomainCredentials","security.credireaddomaincredentials"]
 old-location: security\credireaddomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: fa5c92be-c74b-4143-8526-b60c25461b8c
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadDomainCredentialsFn, CredReadDomainCredentialsFn callback, CrediReadDomainCredentials, CrediReadDomainCredentials callback function [Security], ntsecpkg/CrediReadDomainCredentials, security.credireaddomaincredentials
-f1_keywords:
-- ntsecpkg/CrediReadDomainCredentials
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- CrediReadDomainCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredReadDomainCredentialsFn
+ - ntsecpkg/CredReadDomainCredentialsFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - CrediReadDomainCredentials
 ---
 
 # CredReadDomainCredentialsFn callback function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Reads a domain credential from the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
-
+Reads a domain credential from the <a href="/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
 
 ## -parameters
-
-
-
 
 ### -param LogonId [in]
 
 The logon ID for which to read credentials.
-
 
 ### -param CredFlags [in]
 
@@ -89,7 +85,7 @@ The caller is in-process.
 </dl>
 </td>
 <td width="60%">
-The caller should use the <a href="https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
+The caller should use the <a href="/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
 
 </td>
 </tr>
@@ -122,7 +118,7 @@ The credential data is passed as clear text.
 </dl>
 </td>
 <td width="60%">
-The credential data is encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+The credential data is encrypted by using the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
 
 </td>
 </tr>
@@ -138,63 +134,35 @@ The caller is a trusted process.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param TargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
-
+A pointer to a <a href="/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
 
 ### -param Flags
 
 Reserved. This parameter must be set to zero.
 
-
 ### -param Count
 
 The number of elements in the <i>Credential</i> array.
 
+### -param Credential [out]
 
-#### - **Credential [out]
-
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
-
-
-#### - Credential [out]
-
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
-
+A pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS, or an informational status code.
 
 If the function fails, return an NTSTATUS error code that indicates the reason it failed.
 
-
-
-
 ## -remarks
 
-
-
 A pointer to the <b>CrediReadDomainCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

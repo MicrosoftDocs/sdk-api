@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetSpacing
 title: ITextFont::SetSpacing (tom.h)
 description: Sets the amount of horizontal spacing between characters.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetSpacing method","ITextFont.SetSpacing","ITextFont::SetSpacing","SetSpacing","SetSpacing method [Windows Controls]","SetSpacing method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetSpacing","_win32_ITextFont_SetSpacing_cpp","controls.ITextFont_SetSpacing","controls._win32_ITextFont_SetSpacing","tom/ITextFont::SetSpacing"]
 old-location: controls\ITextFont_SetSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSpacing method, ITextFont.SetSpacing, ITextFont::SetSpacing, SetSpacing, SetSpacing method [Windows Controls], SetSpacing method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSpacing, _win32_ITextFont_SetSpacing_cpp, controls.ITextFont_SetSpacing, controls._win32_ITextFont_SetSpacing, tom/ITextFont::SetSpacing
-f1_keywords:
-- tom/ITextFont.SetSpacing
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetSpacing
+ - tom/ITextFont::SetSpacing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetSpacing
 ---
 
 # ITextFont::SetSpacing
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the amount of horizontal spacing between characters.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>float</b>
 
-The new amount of horizontal spacing between characters, in floating-point points. 
-
+The new amount of horizontal spacing between characters, in floating-point points.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -122,34 +116,22 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Displayed text typically has an intercharacter spacing value of zero. Positive values expand the spacing, and negative values compress it.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getspacing">GetSpacing</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getspacing">GetSpacing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -157,8 +139,4 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlaylistCollection.newPlaylist
 title: IWMPPlaylistCollection::newPlaylist (wmp.h)
 description: The newPlaylist method creates a new, empty playlist in the library.
+helpviewer_keywords: ["IWMPPlaylistCollection interface [Windows Media Player]","newPlaylist method","IWMPPlaylistCollection.newPlaylist","IWMPPlaylistCollection::newPlaylist","IWMPPlaylistCollectionnewPlaylist","newPlaylist","newPlaylist method [Windows Media Player]","newPlaylist method [Windows Media Player]","IWMPPlaylistCollection interface","wmp.iwmpplaylistcollection_newplaylist","wmp/IWMPPlaylistCollection::newPlaylist"]
 old-location: wmp\iwmpplaylistcollection_newplaylist.htm
 tech.root: WMP
 ms.assetid: 5ad51469-a150-4322-ac16-782ef0d96a57
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],newPlaylist method, IWMPPlaylistCollection.newPlaylist, IWMPPlaylistCollection::newPlaylist, IWMPPlaylistCollectionnewPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_newplaylist, wmp/IWMPPlaylistCollection::newPlaylist
-f1_keywords:
-- wmp/IWMPPlaylistCollection.newPlaylist
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlaylistCollection.newPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylistCollection::newPlaylist
+ - wmp/IWMPPlaylistCollection::newPlaylist
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlaylistCollection.newPlaylist
 ---
 
 # IWMPPlaylistCollection::newPlaylist
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>newPlaylist</b> method creates a new, empty playlist in the library.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 String containing the name of the new playlist.
 
-
 ### -param ppItem [out]
 
 Pointer to a pointer to an <b>IWMPPlaylist</b> interface for the new playlist.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,14 +83,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates an empty playlist in the library. To fill the playlist with media items, use <b>IWMPPlaylist::appendItem</b> or <b>IWMPPlaylist::insertItem</b>.
 
@@ -108,38 +92,28 @@ Multiple playlists having the same name are permitted in the library. To avoid c
 
 Leading and trailing spaces are not permitted in playlist names, and are automatically removed from the value specified for the bstrName parameter.
 
-Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
-
-
-
+Before calling this method, you must have full access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-appenditem">IWMPPlaylist::appendItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-appenditem">IWMPPlaylist::appendItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-insertitem">IWMPPlaylist::insertItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-insertitem">IWMPPlaylist::insertItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">IWMPPlaylistArray::get_count</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">IWMPPlaylistArray::get_count</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>

@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.Authenticate
 title: CSecureChannelClient::Authenticate (scclient.h)
 description: The Authenticate method authenticates communication between components to establish trust.
+helpviewer_keywords: ["Authenticate","Authenticate method [windows Media Device Manager]","Authenticate method [windows Media Device Manager]","CSecureChannelClient class","CSecureChannelClient class [windows Media Device Manager]","Authenticate method","CSecureChannelClient.Authenticate","CSecureChannelClient::Authenticate","CSecureChannelClientAuthenticate","scclient/CSecureChannelClient::Authenticate","wmdm.csecurechannelclient_authenticate"]
 old-location: wmdm\csecurechannelclient_authenticate.htm
 tech.root: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
 ms.date: 12/05/2018
 ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient class, CSecureChannelClient class [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
-f1_keywords:
-- scclient/CSecureChannelClient.Authenticate
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.Authenticate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::Authenticate
+ - scclient/CSecureChannelClient::Authenticate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.Authenticate
 ---
 
 # CSecureChannelClient::Authenticate
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Authenticate</b> method authenticates communication between components to establish trust. In applications, it is used to establish trust between the application and Windows Media Device Manager. Messages are exchanged and trust established if both the client and server certificates are validated.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwProtocolID [in]
 
 <b>DWORD</b> specifying the protocol identifier. Currently, the only value accepted is SAC_PROTOCOL_V1, defined in the SDK in ...\inc\sac.h.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -99,24 +90,18 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies which protocol method is to be used. That method is then called. In this version of Windows Media Device Manager, SAC_PROTOCOL_V1 must be used.
 
 
-<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
+<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
 
 
 #### Examples
 
-The following C++ code authenticates the Windows Media Device Manager session and acquires an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface.
+The following C++ code authenticates the Windows Media Device Manager session and acquires an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager</a> interface.
 
 
 ```cpp
@@ -174,21 +159,10 @@ HRESULT MyClass::Authenticate()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormat
 title: IWMWriterPostView::GetPostViewFormat (wmsdkidl.h)
 description: The GetPostViewFormat method retrieves the media properties for the specified output stream and output format.
+helpviewer_keywords: ["GetPostViewFormat","GetPostViewFormat method [windows Media Format]","GetPostViewFormat method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewFormat method","IWMWriterPostView.GetPostViewFormat","IWMWriterPostView::GetPostViewFormat","IWMWriterPostViewGetPostViewFormat","wmformat.iwmwriterpostview_getpostviewformat","wmsdkidl/IWMWriterPostView::GetPostViewFormat"]
 old-location: wmformat\iwmwriterpostview_getpostviewformat.htm
 tech.root: wmformat
 ms.assetid: 3636833d-3c96-45d9-bf82-e3ff930c7d9b
 ms.date: 12/05/2018
 ms.keywords: GetPostViewFormat, GetPostViewFormat method [windows Media Format], GetPostViewFormat method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormat method, IWMWriterPostView.GetPostViewFormat, IWMWriterPostView::GetPostViewFormat, IWMWriterPostViewGetPostViewFormat, wmformat.iwmwriterpostview_getpostviewformat, wmsdkidl/IWMWriterPostView::GetPostViewFormat
-f1_keywords:
-- wmsdkidl/IWMWriterPostView.GetPostViewFormat
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPostView.GetPostViewFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPostView::GetPostViewFormat
+ - wmsdkidl/IWMWriterPostView::GetPostViewFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPostView.GetPostViewFormat
 ---
 
 # IWMWriterPostView::GetPostViewFormat
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPostViewFormat</b> method retrieves the media properties for the specified output stream and output format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNumber [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param dwFormatNumber [in]
 
 <b>DWORD</b> containing the format number.
 
-
 ### -param ppProps [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,27 +112,11 @@ Not enough memory to complete the task.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method can be used along with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewformatcount">GetPostViewFormatCount</a> to determine all possible format types supported by this output on the reader.
-
-
-
+This method can be used along with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewformatcount">GetPostViewFormatCount</a> to determine all possible format types supported by this output on the reader.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>

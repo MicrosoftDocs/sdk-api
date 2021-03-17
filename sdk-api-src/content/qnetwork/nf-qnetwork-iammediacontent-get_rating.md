@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMMediaContent.get_Rating
 title: IAMMediaContent::get_Rating (qnetwork.h)
 description: The get_Rating method retrieves the rating.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_Rating method","IAMMediaContent.get_Rating","IAMMediaContent::get_Rating","IAMMediaContentget_Rating","dshow.iammediacontent_get_rating","get_Rating","get_Rating method [DirectShow]","get_Rating method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_Rating"]
 old-location: dshow\iammediacontent_get_rating.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
-f1_keywords:
-- qnetwork/IAMMediaContent.get_Rating
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent.get_Rating
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent::get_Rating
+ - qnetwork/IAMMediaContent::get_Rating
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent.get_Rating
 ---
 
 # IAMMediaContent::get_Rating
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Rating</code> method retrieves the rating.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrRating
 
 Pointer to a variable that receives a <b>BSTR</b> with the information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -121,31 +112,15 @@ Item not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the method succeeds, the caller must free the returned <b>BSTR</b> by calling the <b>SysFreeString</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>

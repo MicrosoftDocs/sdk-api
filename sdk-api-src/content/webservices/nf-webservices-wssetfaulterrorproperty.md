@@ -2,15 +2,12 @@
 UID: NF:webservices.WsSetFaultErrorProperty
 title: WsSetFaultErrorProperty function (webservices.h)
 description: Set a Fault property of a WS_ERROR object.
+helpviewer_keywords: ["WsSetFaultErrorProperty","WsSetFaultErrorProperty function [Web Services for Windows]","webservices/WsSetFaultErrorProperty","wsw.wssetfaulterrorproperty"]
 old-location: wsw\wssetfaulterrorproperty.htm
 tech.root: wsw
 ms.assetid: 193664ab-4688-49c9-97e7-ccf2b3e2d7e8
 ms.date: 12/05/2018
 ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Services for Windows], webservices/WsSetFaultErrorProperty, wsw.wssetfaulterrorproperty
-f1_keywords:
-- webservices/WsSetFaultErrorProperty
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetFaultErrorProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetFaultErrorProperty
+ - webservices/WsSetFaultErrorProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetFaultErrorProperty
 ---
 
 # WsSetFaultErrorProperty function
@@ -48,45 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Set a Fault property of a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
-            
-
+Set a Fault property of a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
 
 ## -parameters
 
-
-
-
 ### -param error [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object in which to set the property.  The pointer must reference a valid WS_ERROR object.
-                
-
+A pointer to the <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object in which to set the property.  The pointer must reference a valid WS_ERROR object.
 
 ### -param id [in]
 
 Identifier of the property to set.
-                
-
 
 ### -param value
 
 The property value to set.
                     The pointer must have an alignment compatible with the type
                     of the property.
-                
-
 
 ### -param valueSize [in]
 
 The size in bytes of the property value.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -131,7 +117,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

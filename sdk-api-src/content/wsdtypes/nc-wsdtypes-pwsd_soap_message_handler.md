@@ -2,15 +2,12 @@
 UID: NC:wsdtypes.PWSD_SOAP_MESSAGE_HANDLER
 title: PWSD_SOAP_MESSAGE_HANDLER (wsdtypes.h)
 description: References a SOAP message handler for incoming messages.
+helpviewer_keywords: ["PWSD_SOAP_MESSAGE_HANDLER","PWSD_SOAP_MESSAGE_HANDLER callback","PWSD_SOAP_MESSAGE_HANDLER callback function","callback function pointer","ncd.pwsd_soap_message_handler_func","wsdtypes/PWSD_SOAP_MESSAGE_HANDLER"]
 old-location: ncd\pwsd_soap_message_handler_func.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123
 ms.date: 12/05/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
-f1_keywords:
-- wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wsdtypes.h
-api_name:
-- PWSD_SOAP_MESSAGE_HANDLER
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWSD_SOAP_MESSAGE_HANDLER
+ - wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wsdtypes.h
+api_name:
+ - PWSD_SOAP_MESSAGE_HANDLER
 ---
 
 # PWSD_SOAP_MESSAGE_HANDLER callback function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 References a SOAP message handler for incoming messages. This is an internal function pointer, and it should not be used by WSDAPI clients or services.
-
 
 ## -parameters
 
-
-
-
-### -param *thisUnknown
+### -param thisUnknown
 
 Pointer to the object calling this function.
 
+### -param event
 
-### -param *event
-
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure containing the message to be handled.
-
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure containing the message to be handled.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -90,7 +83,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-

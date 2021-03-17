@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocInterface.IsAdHocCapable
 title: IDot11AdHocInterface::IsAdHocCapable (adhoc.h)
 description: Specifies whether a NIC supports the creation or use of an ad hoc network.
+helpviewer_keywords: ["IDot11AdHocInterface interface [NativeWIFI]","IsAdHocCapable method","IDot11AdHocInterface.IsAdHocCapable","IDot11AdHocInterface::IsAdHocCapable","IsAdHocCapable","IsAdHocCapable method [NativeWIFI]","IsAdHocCapable method [NativeWIFI]","IDot11AdHocInterface interface","adhoc/IDot11AdHocInterface::IsAdHocCapable","nwifi.idot11adhocinterface_isadhoccapable"]
 old-location: nwifi\idot11adhocinterface_isadhoccapable.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 18e3419f-500e-40bb-b7f1-125e95c55690
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsAdHocCapable method, IDot11AdHocInterface.IsAdHocCapable, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
-f1_keywords:
-- adhoc/IDot11AdHocInterface.IsAdHocCapable
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocInterface.IsAdHocCapable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocInterface::IsAdHocCapable
+ - adhoc/IDot11AdHocInterface::IsAdHocCapable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocInterface.IsAdHocCapable
 ---
 
 # IDot11AdHocInterface::IsAdHocCapable
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether a NIC supports the  creation or use of an ad hoc network.
 
-
 ## -parameters
-
-
-
 
 ### -param pfAdHocCapable [in, out]
 
 A pointer to a boolean that specifies the NIC's ad hoc network capabilities. The boolean value is set to  <b>TRUE</b> if the NIC supports the creation and use of ad hoc networks and <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,14 +123,8 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>pfAdHocCapable</i> can be set to <b>FALSE</b> for many reasons, including the following:
 
@@ -146,15 +134,6 @@ A pointer passed as a parameter is not valid.
 <li>The NIC does not support ad hoc networks</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>

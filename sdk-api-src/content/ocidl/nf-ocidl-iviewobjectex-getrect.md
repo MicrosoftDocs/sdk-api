@@ -2,15 +2,12 @@
 UID: NF:ocidl.IViewObjectEx.GetRect
 title: IViewObjectEx::GetRect (ocidl.h)
 description: Retrieves a rectangle describing a requested drawing aspect.
+helpviewer_keywords: ["GetRect","GetRect method [COM]","GetRect method [COM]","IViewObjectEx interface","IViewObjectEx interface [COM]","GetRect method","IViewObjectEx.GetRect","IViewObjectEx::GetRect","_ole_iviewobjectex_getrect","com.iviewobjectex_getrect","ocidl/IViewObjectEx::GetRect"]
 old-location: com\iviewobjectex_getrect.htm
 tech.root: com
 ms.assetid: ff060cd2-c7e4-4c12-842a-663415b80c17
 ms.date: 12/05/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetRect method, IViewObjectEx.GetRect, IViewObjectEx::GetRect, _ole_iviewobjectex_getrect, com.iviewobjectex_getrect, ocidl/IViewObjectEx::GetRect
-f1_keywords:
-- ocidl/IViewObjectEx.GetRect
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IViewObjectEx.GetRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewObjectEx::GetRect
+ - ocidl/IViewObjectEx::GetRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IViewObjectEx.GetRect
 ---
 
 # IViewObjectEx::GetRect
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a rectangle describing a requested drawing aspect.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAspect [in]
 
 The drawing aspect requested.
 
-
 ### -param pRect [out]
 
 A pointer to the rectangle describing the requested drawing aspect.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -90,14 +83,8 @@ The method does not support the specified aspect. Either the object does not sup
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns a rectangle describing the specified drawing aspect. The returned rectangle is in <b>HIMETRIC</b> units, relative to the object's origin. The rectangle returned depends on the drawing aspect as follows.
 
@@ -112,7 +99,7 @@ DVASPECT_CONTENT
 
 </td>
 <td>
-Objects should return the bounding rectangle of the whole object. The top-left corner is at the object's origin and the size is equal to the extent returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a>.
+Objects should return the bounding rectangle of the whole object. The top-left corner is at the object's origin and the size is equal to the extent returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject2-getextent">IViewObject2::GetExtent</a>.
 
 </td>
 </tr>
@@ -124,7 +111,7 @@ DVASPECT_OPAQUE
 <td>
 Objects with a rectangular opaque region should return that rectangle. Others should fail and return error code DV_E_DVASPECT.
 
-If a rectangle is returned, it is guaranteed to be completely obscured by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> for that aspect. The container should use that rectangle to clip out the object's opaque parts before drawing any object behind it during the back to front pass. If this method fails on an object with a non-rectangular opaque region, the container should draw the entire object in the back to front part using the DVASPECT_CONTENT aspect.
+If a rectangle is returned, it is guaranteed to be completely obscured by calling <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> for that aspect. The container should use that rectangle to clip out the object's opaque parts before drawing any object behind it during the back to front pass. If this method fails on an object with a non-rectangular opaque region, the container should draw the entire object in the back to front part using the DVASPECT_CONTENT aspect.
 
 </td>
 </tr>
@@ -139,18 +126,7 @@ Objects should return the rectangle covering all transparent or irregular parts.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a>

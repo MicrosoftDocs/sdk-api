@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPService.InvokeAction
 title: IUPnPService::InvokeAction (upnp.h)
 description: Invokes a method on the device.
+helpviewer_keywords: ["IUPnPService interface [UPnP APIs]","InvokeAction method","IUPnPService.InvokeAction","IUPnPService::InvokeAction","InvokeAction","InvokeAction method [UPnP APIs]","InvokeAction method [UPnP APIs]","IUPnPService interface","_upnp_iupnpservice_invokeaction","upnp.iupnpservice_invokeaction","upnp/IUPnPService::InvokeAction"]
 old-location: upnp\iupnpservice_invokeaction.htm
 tech.root: upnp
 ms.assetid: fe8b4761-63cb-46a9-a7d0-5603cc1a5a58
 ms.date: 12/05/2018
 ms.keywords: IUPnPService interface [UPnP APIs],InvokeAction method, IUPnPService.InvokeAction, IUPnPService::InvokeAction, InvokeAction, InvokeAction method [UPnP APIs], InvokeAction method [UPnP APIs],IUPnPService interface, _upnp_iupnpservice_invokeaction, upnp.iupnpservice_invokeaction, upnp/IUPnPService::InvokeAction
-f1_keywords:
-- upnp/IUPnPService.InvokeAction
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPService.InvokeAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPService::InvokeAction
+ - upnp/IUPnPService::InvokeAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPService.InvokeAction
 ---
 
 # IUPnPService::InvokeAction
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>InvokeAction</b> method invokes a method on the device.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrActionName [in]
 
 Specifies the method to invoke.
-
 
 ### -param vInActionArgs [in]
 
@@ -72,7 +68,6 @@ Specifies an array of input arguments to the method. If the action has no input 
 
 The contents of this array are service-specific.
 
-
 ### -param pvOutActionArgs [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to the array of output arguments. If the action has no output arguments, this parameter contains an empty array. 
@@ -80,25 +75,19 @@ On input, contains a reference to an empty array. On output, receives a referenc
 
 The contents of this parameter are service-specific.
 
-Free this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
-						
-
+Free this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ### -param pvRetVal [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to a <b>VARIANT</b> that contains the return value of this action.
 
-If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a> documentation.
+If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a> documentation.
 
-Free this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
-						
-
+Free this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ## -returns
 
-
-
-If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in WinError.h or one of the UPnP-specific return values shown in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in WinError.h or one of the UPnP-specific return values shown in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
 
 <table>
 <tr>
@@ -189,21 +178,15 @@ An error occurred at the UPnP control-protocol level.
 </dl>
 </td>
 <td width="60%">
-An HTTP error occurred. Use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.
+An HTTP error occurred. Use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.
 
 <div class="alert"><b>Note</b>  This error code is also returned when the SOAP response exceeds 100 kilobytes.</div>
 <div> </div>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an application invokes the method <b>InvokeAction</b>, it includes a list of arguments that should match the arguments expected by the service. The Control Point maps these <b>VARIANT</b> arguments to the required type. The following table shows the mappings that are used.
 
@@ -324,15 +307,6 @@ When an application invokes the method <b>InvokeAction</b>, it includes a list o
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>

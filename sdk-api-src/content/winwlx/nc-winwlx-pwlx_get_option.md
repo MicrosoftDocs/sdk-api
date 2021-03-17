@@ -2,15 +2,12 @@
 UID: NC:winwlx.PWLX_GET_OPTION
 title: PWLX_GET_OPTION (winwlx.h)
 description: Called by GINA to retrieve the current value of an option.
+helpviewer_keywords: ["PWLX_GET_OPTION","PWLX_GET_OPTION callback","WlxGetOption","WlxGetOption callback function [Security]","_gina_wlxgetoption","security.wlxgetoption","winwlx/WlxGetOption"]
 old-location: security\wlxgetoption.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 724477d4-ec56-44bd-801e-23c225bafd03
 ms.date: 12/05/2018
 ms.keywords: PWLX_GET_OPTION, PWLX_GET_OPTION callback, WlxGetOption, WlxGetOption callback function [Security], _gina_wlxgetoption, security.wlxgetoption, winwlx/WlxGetOption
-f1_keywords:
-- winwlx/WlxGetOption
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxGetOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_GET_OPTION
+ - winwlx/PWLX_GET_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxGetOption
 ---
 
 # PWLX_GET_OPTION callback function
@@ -48,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The WlxGetOption function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to retrieve the current value of an option.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to retrieve the current value of an option.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param Option [in]
 
-Specifies one of the following options: 
+Specifies one of the following options:
 
-
-
-
-
-### -param *Value [out]
+### -param Value [out]
 
 Returns the current value of the option.
 
-
 ## -returns
-
-
 
 The <b>WlxGetOption</b> function returns one of the following values.
 
@@ -112,41 +102,25 @@ Winlogon did not return the value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In order to access this function, the GINA DLL must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a> structure and set the Winlogon version to at least WLX_VERSION_1_3 in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a> call.
-
-
-
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a> structure and set the Winlogon version to at least WLX_VERSION_1_3 in its 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a> call.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_dispatch_version_1_3">WLX_DISPATCH_VERSION_1_3</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>

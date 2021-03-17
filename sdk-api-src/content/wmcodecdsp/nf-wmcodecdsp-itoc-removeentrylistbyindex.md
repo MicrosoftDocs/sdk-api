@@ -2,16 +2,12 @@
 UID: NF:wmcodecdsp.IToc.RemoveEntryListByIndex
 title: IToc::RemoveEntryListByIndex (wmcodecdsp.h)
 description: The RemoveEntryListByIndex method removes an entry list, specified by an index, from the table of contents.
+helpviewer_keywords: ["IToc interface [Media Foundation]","RemoveEntryListByIndex method","IToc.RemoveEntryListByIndex","IToc::RemoveEntryListByIndex","RemoveEntryListByIndex","RemoveEntryListByIndex method [Media Foundation]","RemoveEntryListByIndex method [Media Foundation]","IToc interface","codecapi.itoc_removeentrylistbyindex","mf.itoc_removeentrylistbyindex","wmcodecdsp/IToc::RemoveEntryListByIndex"]
 old-location: mf\itoc_removeentrylistbyindex.htm
 tech.root: medfound
 ms.assetid: 63137b67-dc00-48e7-88b0-2f7159c1d829
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],RemoveEntryListByIndex method, IToc.RemoveEntryListByIndex, IToc::RemoveEntryListByIndex, RemoveEntryListByIndex, RemoveEntryListByIndex method [Media Foundation], RemoveEntryListByIndex method [Media Foundation],IToc interface, codecapi.itoc_removeentrylistbyindex, mf.itoc_removeentrylistbyindex, wmcodecdsp/IToc::RemoveEntryListByIndex
-ms.topic: method
-f1_keywords:
-- wmcodecdsp/IToc.RemoveEntryListByIndex
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- IToc.RemoveEntryListByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToc::RemoveEntryListByIndex
+ - wmcodecdsp/IToc::RemoveEntryListByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - IToc.RemoveEntryListByIndex
 ---
 
 # IToc::RemoveEntryListByIndex
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveEntryListByIndex</b> method removes an entry list, specified by an index, from the table of contents.
 
-
 ## -parameters
-
-
-
 
 ### -param wEntryListIndex [in]
 
 The index of the entry list to be removed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. 
 
@@ -87,22 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/ee264281(v=vs.85)">AddEntryListByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264281(v=vs.85)">AddEntryListByIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

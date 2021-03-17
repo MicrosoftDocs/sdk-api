@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationTextPattern.get_SupportedTextSelection
 title: IUIAutomationTextPattern::get_SupportedTextSelection (uiautomationclient.h)
 description: Retrieves a value that specifies the type of text selection that is supported by the control.
+helpviewer_keywords: ["IUIAutomationTextPattern interface [Windows Accessibility]","SupportedTextSelection property","IUIAutomationTextPattern.SupportedTextSelection","IUIAutomationTextPattern.get_SupportedTextSelection","IUIAutomationTextPattern::SupportedTextSelection","IUIAutomationTextPattern::get_SupportedTextSelection","SupportedTextSelection property [Windows Accessibility]","SupportedTextSelection property [Windows Accessibility]","IUIAutomationTextPattern interface","get_SupportedTextSelection","uiauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection","uiauto_IUIAutomationTextPattern_SupportedTextSelection","uiautomationclient/IUIAutomationTextPattern::SupportedTextSelection","uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection","winauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection"]
 old-location: winauto\uiauto_IUIAutomationTextPattern_SupportedTextSelection.htm
 tech.root: WinAuto
 ms.assetid: 794c08d4-9305-4fdd-8ca0-188e1e9b6547
-ms.date: 12/05/2018
+ms.date: 01/30/2020
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],SupportedTextSelection property, IUIAutomationTextPattern.SupportedTextSelection, IUIAutomationTextPattern.get_SupportedTextSelection, IUIAutomationTextPattern::SupportedTextSelection, IUIAutomationTextPattern::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],IUIAutomationTextPattern interface, get_SupportedTextSelection, uiauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection, winauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection
-f1_keywords:
-- uiautomationclient/IUIAutomationTextPattern.SupportedTextSelection
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationTextPattern.SupportedTextSelection
-- IUIAutomationTextPattern.get_SupportedTextSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationTextPattern::get_SupportedTextSelection
+ - uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationTextPattern.SupportedTextSelection
+ - IUIAutomationTextPattern.get_SupportedTextSelection
 ---
 
 # IUIAutomationTextPattern::get_SupportedTextSelection
@@ -49,27 +51,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value that specifies the type of text selection that is supported by the control.
-        
 
 This property is read-only.
 
-
 ## -parameters
 
+*supportedTextSelection*
+
+Type: **[SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md)\***
+
+When this function returns, contains a pointer to the [SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md) object.
+
+## -returns
+
+Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
+
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+## -syntax
+
+```cpp
+HRESULT SupportedTextSelection (SupportedTextSelection *supportedTextSelection);
+```
+
+## -remarks
+
+> ### Parameters
+>
+> `supportedTextSelection` [out]
+>
+> Type: **[SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md)\***
+>
+> When this function returns, contains a pointer to the [SupportedTextSelection](../uiautomationcore/ne-uiautomationcore-supportedtextselection.md) object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
- 
-
- 
-
+[IUIAutomationTextPattern interface](nn-uiautomationclient-iuiautomationtextpattern.md), [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)

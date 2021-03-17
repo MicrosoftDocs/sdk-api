@@ -2,15 +2,12 @@
 UID: NF:combaseapi.CoInvalidateRemoteMachineBindings
 title: CoInvalidateRemoteMachineBindings function (combaseapi.h)
 description: Tells the service control manager to flush any cached RPC binding handles for the specified computer.
+helpviewer_keywords: ["CoInvalidateRemoteMachineBindings","CoInvalidateRemoteMachineBindings function [COM]","_com_CoInvalidateRemoteMachineBindings","com.coinvalidateremotemachinebindings","combaseapi/CoInvalidateRemoteMachineBindings"]
 old-location: com\coinvalidateremotemachinebindings.htm
 tech.root: com
 ms.assetid: 6d0fa512-a9e9-44ff-929d-00b9c826da99
 ms.date: 12/05/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
-f1_keywords:
-- combaseapi/CoInvalidateRemoteMachineBindings
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoInvalidateRemoteMachineBindings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoInvalidateRemoteMachineBindings
+ - combaseapi/CoInvalidateRemoteMachineBindings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoInvalidateRemoteMachineBindings
 ---
 
 # CoInvalidateRemoteMachineBindings function
@@ -52,25 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Tells the <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">service control manager</a> to flush any cached RPC binding handles for the specified computer.
+Tells the <a href="/windows/desktop/Services/service-control-manager">service control manager</a> to flush any cached RPC binding handles for the specified computer.
 
 Only administrators may call this function.
 
-
 ## -parameters
-
-
-
 
 ### -param pszMachineName [in]
 
 The computer name for which binding handles should be flushed, or an empty string to signify that all handles in the cache should be flushed.
 
-
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -125,18 +119,9 @@ Indicates that a <b>NULL</b> value was passed for <i>pszMachineName</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The OLE Service Control Manager is used by COM to send component activation requests to other machines. To do this, the OLE Service Control Manager maintains a cache of RPC binding handles to send activation requests to computer, keyed by computer name. Under normal circumstances, this works well, but in some scenarios, such as Web farms and load-balancing situations, the ability to purge this cache of specific handles might be needed in order to facilitate rebinding to a different physical server by the same name. <b>CoInvalidateRemoteMachineBindings</b> is used for this purpose.
 
 The OLE Service Control Manager will flush unused binding handles over time. It is not necessary to call <b>CoInvalidateRemoteMachineBindings</b> to do this.
-
-
-

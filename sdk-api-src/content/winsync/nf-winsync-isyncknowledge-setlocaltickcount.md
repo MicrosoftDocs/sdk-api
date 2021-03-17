@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.SetLocalTickCount
 title: ISyncKnowledge::SetLocalTickCount (winsync.h)
 description: Sets the tick count for the replica that owns this knowledge.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","SetLocalTickCount method","ISyncKnowledge.SetLocalTickCount","ISyncKnowledge::SetLocalTickCount","SetLocalTickCount","SetLocalTickCount method [Windows Sync]","SetLocalTickCount method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_setlocaltickcount","winsync/ISyncKnowledge::SetLocalTickCount"]
 old-location: winsync\isyncknowledge_setlocaltickcount.htm
 tech.root: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
-f1_keywords:
-- winsync/ISyncKnowledge.SetLocalTickCount
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.SetLocalTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::SetLocalTickCount
+ - winsync/ISyncKnowledge::SetLocalTickCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.SetLocalTickCount
 ---
 
 # ISyncKnowledge::SetLocalTickCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the tick count for the replica that owns this knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param ullTickCount [in]
 
 The current tick count for the replica that owns this knowledge.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -104,27 +98,11 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The tick count must be current before the knowledge is sent to another replica. Typically, a provider calls this method immediately before it sends its knowledge; however, the method can be called at any time.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

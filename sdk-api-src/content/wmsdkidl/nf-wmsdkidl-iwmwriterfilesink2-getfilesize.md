@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileSize
 title: IWMWriterFileSink2::GetFileSize (wmsdkidl.h)
 description: The GetFileSize method retrieves the size of the file.
+helpviewer_keywords: ["GetFileSize","GetFileSize method [windows Media Format]","GetFileSize method [windows Media Format]","IWMWriterFileSink2 interface","IWMWriterFileSink2 interface [windows Media Format]","GetFileSize method","IWMWriterFileSink2.GetFileSize","IWMWriterFileSink2::GetFileSize","IWMWriterFileSink2GetFileSize","wmformat.iwmwriterfilesink2_getfilesize","wmsdkidl/IWMWriterFileSink2::GetFileSize"]
 old-location: wmformat\iwmwriterfilesink2_getfilesize.htm
 tech.root: wmformat
 ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileSize method, IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink2.GetFileSize
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink2.GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink2::GetFileSize
+ - wmsdkidl/IWMWriterFileSink2::GetFileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink2.GetFileSize
 ---
 
 # IWMWriterFileSink2::GetFileSize
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetFileSize</b> method retrieves the size of the file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcbFile [out]
 
 Pointer to a count of the bytes in the file.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +93,7 @@ The <i>pcbFile</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>

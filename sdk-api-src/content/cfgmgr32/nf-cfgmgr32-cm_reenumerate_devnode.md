@@ -2,15 +2,12 @@
 UID: NF:cfgmgr32.CM_Reenumerate_DevNode
 title: CM_Reenumerate_DevNode function (cfgmgr32.h)
 description: The CM_Reenumerate_DevNode function enumerates the devices identified by a specified device node and all of its children.
+helpviewer_keywords: ["CM_Reenumerate_DevNode","CM_Reenumerate_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Reenumerate_DevNode","cfgmgrfn_9ed0f83c-4b63-425f-b80b-9be5d69bb43a.xml","devinst.cm_reenumerate_devnode"]
 old-location: devinst\cm_reenumerate_devnode.htm
 tech.root: devinst
 ms.assetid: dcba5021-7517-4922-9c50-ebfa7375e258
 ms.date: 12/05/2018
 ms.keywords: CM_Reenumerate_DevNode, CM_Reenumerate_DevNode function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode, cfgmgrfn_9ed0f83c-4b63-425f-b80b-9be5d69bb43a.xml, devinst.cm_reenumerate_devnode
-f1_keywords:
-- cfgmgr32/CM_Reenumerate_DevNode
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-api_name:
-- CM_Reenumerate_DevNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Reenumerate_DevNode
+ - cfgmgr32/CM_Reenumerate_DevNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+api_name:
+ - CM_Reenumerate_DevNode
 ---
 
 # CM_Reenumerate_DevNode function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Reenumerate_DevNode</b> function enumerates the devices identified by a specified device node and all of its children.
 
-
 ## -parameters
-
-
-
 
 ### -param dnDevInst [in]
 
 Caller-supplied device instance handle that is bound to the local machine.
-
 
 ### -param ulFlags [in]
 
@@ -94,44 +90,26 @@ This flag must be used with extreme caution, because it can cause the PnP manage
 
 Reenumeration should occur synchronously. The call to this function returns when all devices in the specified subtree have been reenumerated. If this flag is set, the CM_REENUMERATE_ASYNCHRONOUS flag should not also be set. This flag is functionally equivalent to CM_REENUMERATE_NORMAL.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
 
-
-
-If the specified device node represents a hardware or software bus device, the PnP manager queries the device's drivers for a list of children, then attempts to configure and start any child devices that were not previously configured. The PnP manager also initiates surprise-removal of devices that are no longer present (see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>).
+If the specified device node represents a hardware or software bus device, the PnP manager queries the device's drivers for a list of children, then attempts to configure and start any child devices that were not previously configured. The PnP manager also initiates surprise-removal of devices that are no longer present (see <a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>).
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
-
-
-
+For information about using device instance handles that are bound to the local machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex">CM_Reenumerate_DevNode_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex">CM_Reenumerate_DevNode_Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/irp-mn-surprise-removal">IRP_MN_SURPRISE_REMOVAL</a>

@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcMgmtSetServerStackSize
 title: RpcMgmtSetServerStackSize function (rpcdce.h)
 description: The RpcMgmtSetServerStackSize function specifies the stack size for server threads created by the RPC run time.
+helpviewer_keywords: ["RpcMgmtSetServerStackSize","RpcMgmtSetServerStackSize function [RPC]","_rpc_rpcmgmtsetserverstacksize","rpc.rpcmgmtsetserverstacksize","rpcdce/RpcMgmtSetServerStackSize"]
 old-location: rpc\rpcmgmtsetserverstacksize.htm
 tech.root: Rpc
 ms.assetid: 5cf04ff5-d25b-42f5-a14e-2e73225765e9
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
-f1_keywords:
-- rpcdce/RpcMgmtSetServerStackSize
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtSetServerStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtSetServerStackSize
+ - rpcdce/RpcMgmtSetServerStackSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtSetServerStackSize
 ---
 
 # RpcMgmtSetServerStackSize function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtSetServerStackSize</b> function specifies the stack size for server threads created by the RPC run time.
 
-
 ## -parameters
-
-
-
 
 ### -param ThreadStackSize
 
 Stack size allocated for each thread created by the RPC run time, in bytes. This value is applied to all threads created for the server, but not to threads already created. Select this value based on the stack requirements of the remote procedures offered by the server.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,14 +92,10 @@ The argument was invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls the 
 <b>RpcMgmtSetServerStackSize</b> function to specify the thread stack size to use when the RPC run-time library creates call threads for executing remote procedure calls.
@@ -117,16 +107,6 @@ Calling
 <b>RpcMgmtSetServerStackSize</b> is optional. If a server does not call 
 <b>RpcMgmtSetServerStackSize</b>, the default thread stack size from the executable image is used.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>

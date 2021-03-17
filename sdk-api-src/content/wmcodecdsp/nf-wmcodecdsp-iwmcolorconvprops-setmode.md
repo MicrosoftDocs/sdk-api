@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IWMColorConvProps.SetMode
 title: IWMColorConvProps::SetMode (wmcodecdsp.h)
 description: Specifies whether the input video stream is interlaced.
+helpviewer_keywords: ["IWMColorConvProps interface [Media Foundation]","SetMode method","IWMColorConvProps.SetMode","IWMColorConvProps::SetMode","SetMode","SetMode method [Media Foundation]","SetMode method [Media Foundation]","IWMColorConvProps interface","codecapi.iwmcolorconvpropssetmode","mf.iwmcolorconvpropssetmode","wmcodecdsp/IWMColorConvProps::SetMode"]
 old-location: mf\iwmcolorconvpropssetmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMColorConvProps.SetMode, IWMColorConvProps::SetMode, SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/IWMColorConvProps::SetMode
-f1_keywords:
-- wmcodecdsp/IWMColorConvProps.SetMode
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMColorConvProps.SetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMColorConvProps::SetMode
+ - wmcodecdsp/IWMColorConvProps::SetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMColorConvProps.SetMode
 ---
 
 # IWMColorConvProps::SetMode
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether the input video stream is interlaced.
 
-
-
 ## -parameters
-
-
-
 
 ### -param lMode [in]
 
@@ -90,12 +86,8 @@ Interlaced video
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -116,29 +108,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 By default, the color converter uses the input media type to determine whether the video is interlaced. You can call this method to override the media type setting. 
 
-This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-mode">MFPKEY_COLORCONV_MODE</a> property.
-
-
-
+This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpkey-colorconv-mode">MFPKEY_COLORCONV_MODE</a> property.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops">IWMColorConvProps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops">IWMColorConvProps Interface</a>

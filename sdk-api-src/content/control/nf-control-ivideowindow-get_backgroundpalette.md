@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_BackgroundPalette
 title: IVideoWindow::get_BackgroundPalette (control.h)
 description: The get_BackgroundPalette method queries whether the video window realizes its palette in the background..
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_BackgroundPalette method","IVideoWindow.get_BackgroundPalette","IVideoWindow::get_BackgroundPalette","IVideoWindowget_BackgroundPalette","control/IVideoWindow::get_BackgroundPalette","dshow.ivideowindow_get_backgroundpalette","get_BackgroundPalette","get_BackgroundPalette method [DirectShow]","get_BackgroundPalette method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_backgroundpalette.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cdd11f60-e042-4aad-a867-d1e12a88ebfe
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BackgroundPalette method, IVideoWindow.get_BackgroundPalette, IVideoWindow::get_BackgroundPalette, IVideoWindowget_BackgroundPalette, control/IVideoWindow::get_BackgroundPalette, dshow.ivideowindow_get_backgroundpalette, get_BackgroundPalette, get_BackgroundPalette method [DirectShow], get_BackgroundPalette method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_BackgroundPalette
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_BackgroundPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_BackgroundPalette
+ - control/IVideoWindow::get_BackgroundPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_BackgroundPalette
 ---
 
 # IVideoWindow::get_BackgroundPalette
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_BackgroundPalette</code> method queries whether the video window realizes its palette in the background..
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pBackgroundPalette [out]
 
@@ -83,12 +77,8 @@ Receives one of the following values.
 <td>The video window does not realize the palette in the background.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -131,26 +121,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_backgroundpalette">IVideoWindow::put_BackgroundPalette</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_backgroundpalette">IVideoWindow::put_BackgroundPalette</a>

@@ -2,15 +2,12 @@
 UID: NS:wcsplugin._PrimaryXYZColors
 title: PrimaryXYZColors (wcsplugin.h)
 description: This structure contains eight primary colors in XYZ coordinates.
+helpviewer_keywords: ["PrimaryXYZColors","PrimaryXYZColors structure [Windows Color System]","_color_PrimaryXYZColors_str","wcs.primaryxyzcolors","wcsplugin/PrimaryXYZColors"]
 old-location: wcs\primaryxyzcolors.htm
 tech.root: WCS
 ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
 ms.date: 12/05/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
-f1_keywords:
-- wcsplugin/PrimaryXYZColors
-dev_langs:
-- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WcsPlugIn.h
-api_name:
-- PrimaryXYZColors
 targetos: Windows
 req.typenames: PrimaryXYZColors
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PrimaryXYZColors
+ - wcsplugin/_PrimaryXYZColors
+ - PrimaryXYZColors
+ - wcsplugin/PrimaryXYZColors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WcsPlugIn.h
+api_name:
+ - PrimaryXYZColors
 ---
 
 # PrimaryXYZColors structure
@@ -48,69 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This structure contains eight primary colors in XYZ coordinates.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field red
 
 Red primary.
 
-
 ### -field yellow
 
 Yellow primary.
-
 
 ### -field green
 
 Green primary.
 
-
 ### -field cyan
 
 Cyan primary.
-
 
 ### -field blue
 
 Blue primary.
 
-
 ### -field magenta
 
 Magenta primary.
-
 
 ### -field black
 
 Black primary.
 
-
 ### -field white
 
 White primary.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/structures">Structures</a>
- 
-
- 
-
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Structures](/windows/win32/wcs/structures)

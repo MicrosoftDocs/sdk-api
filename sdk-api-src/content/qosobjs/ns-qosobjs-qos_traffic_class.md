@@ -2,15 +2,12 @@
 UID: NS:qosobjs._QOS_TRAFFIC_CLASS
 title: QOS_TRAFFIC_CLASS (qosobjs.h)
 description: The traffic control object QOS_TRAFFIC_CLASS is used to override the default UserPriority value ascribed to packets that classify the traffic of a given flow.
+helpviewer_keywords: ["*LPQOS_TRAFFIC_CLASS","LPQOS_TRAFFIC_CLASS","LPQOS_TRAFFIC_CLASS structure pointer [QOS]","QOS_TRAFFIC_CLASS","QOS_TRAFFIC_CLASS structure [QOS]","SERVICETYPE_BESTEFFORT","SERVICETYPE_CONTROLLEDLOAD","SERVICETYPE_GUARANTEED","SERVICETYPE_NETWORK_CONTROL","SERVICETYPE_NONCONFORMING","SERVICETYPE_QUALITATIVE","_gqos_qos_traffic_class","qos.qos_traffic_class","qosobjs/LPQOS_TRAFFIC_CLASS","qosobjs/QOS_TRAFFIC_CLASS"]
 old-location: qos\qos_traffic_class.htm
 tech.root: QOS
 ms.assetid: 60c6492f-ddcf-401c-8121-2349b89eb223
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS, LPQOS_TRAFFIC_CLASS structure pointer [QOS], QOS_TRAFFIC_CLASS, QOS_TRAFFIC_CLASS structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NONCONFORMING, SERVICETYPE_QUALITATIVE, _gqos_qos_traffic_class, qos.qos_traffic_class, qosobjs/LPQOS_TRAFFIC_CLASS, qosobjs/QOS_TRAFFIC_CLASS'
-f1_keywords:
-- qosobjs/QOS_TRAFFIC_CLASS
-dev_langs:
-- c++
 req.header: qosobjs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- QosObjs.h
-api_name:
-- QOS_TRAFFIC_CLASS
 targetos: Windows
 req.typenames: QOS_TRAFFIC_CLASS, *LPQOS_TRAFFIC_CLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_TRAFFIC_CLASS
+ - qosobjs/_QOS_TRAFFIC_CLASS
+ - LPQOS_TRAFFIC_CLASS
+ - qosobjs/LPQOS_TRAFFIC_CLASS
+ - QOS_TRAFFIC_CLASS
+ - qosobjs/QOS_TRAFFIC_CLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - QosObjs.h
+api_name:
+ - QOS_TRAFFIC_CLASS
 ---
 
 # QOS_TRAFFIC_CLASS structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The traffic control object 
 <b>QOS_TRAFFIC_CLASS</b> is used to override the default UserPriority value ascribed to packets that classify the  traffic of a given flow. 
 
-By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
+By default, the UserPriority value of a flow is derived from the ServiceType (see: <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>). Therefore, it is often necessary to override the default UserPriority because packets can be tagged in their Layer 2 headers (such as an 802.1p header) to specify their priority to Layer-2 devices. Using 
 <b>QOS_TRAFFIC_CLASS</b> enables application developers to override the default UserPriority setting.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this traffic control object should be 
 <b>QOS_OBJECT_TRAFFIC_CLASS</b>.
-
 
 ### -field TrafficClass
 
@@ -104,10 +104,7 @@ ServiceType to 802.1 TrafficClass.</div>
 
 #### SERVICETYPE_QUALITATIVE (0x0000000D)
 
-
 ## -remarks
-
-
 
 <b>Traffic Control:  </b>The following <b>ServiceType</b> enumeration values are invalid when specifically working with Traffic Control. <dl>
 <dd>SERVICE_NO_TRAFFIC_CONTROL</dd>
@@ -118,33 +115,22 @@ ServiceType to 802.1 TrafficClass.</div>
 <dd>SERVICETYPE_NOTRAFFIC</dd>
 </dl>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv_rule">QOS_DIFFSERV_RULE</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

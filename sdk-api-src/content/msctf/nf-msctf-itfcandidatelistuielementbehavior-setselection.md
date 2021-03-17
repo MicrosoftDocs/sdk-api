@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCandidateListUIElementBehavior.SetSelection
 title: ITfCandidateListUIElementBehavior::SetSelection (msctf.h)
 description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
+helpviewer_keywords: ["ITfCandidateListUIElementBehavior interface [Text Services Framework]","SetSelection method","ITfCandidateListUIElementBehavior.SetSelection","ITfCandidateListUIElementBehavior::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITfCandidateListUIElementBehavior interface","msctf/ITfCandidateListUIElementBehavior::SetSelection","tsf.itfcandidatelistuielementbehavior_setselection"]
 old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
 tech.root: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
-f1_keywords:
-- msctf/ITfCandidateListUIElementBehavior.SetSelection
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfCandidateListUIElementBehavior.SetSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateListUIElementBehavior::SetSelection
+ - msctf/ITfCandidateListUIElementBehavior::SetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfCandidateListUIElementBehavior.SetSelection
 ---
 
 # ITfCandidateListUIElementBehavior::SetSelection
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCandidateListUIElementBehavior::SetSelection</b> method set the selection of the candidate list.
 
-
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
 [in] An index for the candidate string to be selected.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,7 +90,4 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMClientConnections.GetClientCount
 title: IWMClientConnections::GetClientCount (wmsdkidl.h)
 description: The GetClientCount method retrieves the number of connected clients.
+helpviewer_keywords: ["GetClientCount","GetClientCount method [windows Media Format]","GetClientCount method [windows Media Format]","IWMClientConnections interface","IWMClientConnections interface [windows Media Format]","GetClientCount method","IWMClientConnections.GetClientCount","IWMClientConnections::GetClientCount","IWMClientConnectionsGetClientCount","wmformat.iwmclientconnections_getclientcount","wmsdkidl/IWMClientConnections::GetClientCount"]
 old-location: wmformat\iwmclientconnections_getclientcount.htm
 tech.root: wmformat
 ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a
 ms.date: 12/05/2018
 ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
-f1_keywords:
-- wmsdkidl/IWMClientConnections.GetClientCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMClientConnections.GetClientCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMClientConnections::GetClientCount
+ - wmsdkidl/IWMClientConnections::GetClientCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMClientConnections.GetClientCount
 ---
 
 # IWMClientConnections::GetClientCount
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetClientCount</b> method retrieves the number of connected clients.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcClients [out]
 
 Pointer to a count of the clients that are connected.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,18 +104,7 @@ Streaming has not yet begun.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections">IWMClientConnections Interface</a>

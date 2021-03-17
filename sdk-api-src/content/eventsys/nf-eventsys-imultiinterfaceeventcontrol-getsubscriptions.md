@@ -2,15 +2,12 @@
 UID: NF:eventsys.IMultiInterfaceEventControl.GetSubscriptions
 title: IMultiInterfaceEventControl::GetSubscriptions (eventsys.h)
 description: Retrieves the collection of subscription objects associated with an event method.
+helpviewer_keywords: ["GetSubscriptions","GetSubscriptions method [COM+]","GetSubscriptions method [COM+]","IMultiInterfaceEventControl interface","IMultiInterfaceEventControl interface [COM+]","GetSubscriptions method","IMultiInterfaceEventControl.GetSubscriptions","IMultiInterfaceEventControl::GetSubscriptions","_cos_IMultiInterfaceEventControl_GetSubscriptions","cos.imultiinterfaceeventcontrol_getsubscriptions","eventsys/IMultiInterfaceEventControl::GetSubscriptions"]
 old-location: cos\imultiinterfaceeventcontrol_getsubscriptions.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 38b1d0fe-c32e-41d5-a0c1-2b4e72908fce
 ms.date: 12/05/2018
 ms.keywords: GetSubscriptions, GetSubscriptions method [COM+], GetSubscriptions method [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],GetSubscriptions method, IMultiInterfaceEventControl.GetSubscriptions, IMultiInterfaceEventControl::GetSubscriptions, _cos_IMultiInterfaceEventControl_GetSubscriptions, cos.imultiinterfaceeventcontrol_getsubscriptions, eventsys/IMultiInterfaceEventControl::GetSubscriptions
-f1_keywords:
-- eventsys/IMultiInterfaceEventControl.GetSubscriptions
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IMultiInterfaceEventControl.GetSubscriptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiInterfaceEventControl::GetSubscriptions
+ - eventsys/IMultiInterfaceEventControl::GetSubscriptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IMultiInterfaceEventControl.GetSubscriptions
 ---
 
 # IMultiInterfaceEventControl::GetSubscriptions
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the collection of subscription objects associated with an event method.
 
-
 ## -parameters
-
-
-
 
 ### -param eventIID [in]
 
 The interface identifier of the firing interface.
 
-
 ### -param bstrMethodName [in]
 
 The event method associated with the subscription collection.
 
-
 ### -param optionalCriteria [in]
 
-A string specifying the query criteria. If this parameter is <b>NULL</b>, the default query specified by the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a> method is used. For details on forming a valid expression for this parameter, see the Remarks section below.
-
+A string specifying the query criteria. If this parameter is <b>NULL</b>, the default query specified by the <a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a> method is used. For details on forming a valid expression for this parameter, see the Remarks section below.
 
 ### -param optionalErrorIndex [in]
 
 The location, expressed as an offset, of an error in the <i>optionalCriteria</i> parameter. This parameter cannot be <b>NULL</b>.
 
-
 ### -param ppCollection [out, retval]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a> interface on a collection object that enumerates the subscriptions associated with the event object.
-
+The address of a pointer to an <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a> interface on a collection object that enumerates the subscriptions associated with the event object.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -149,16 +139,10 @@ An unexpected internal error was detected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is a more specialized form of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <b>GetSubscriptions</b> is automatically updated whenever the subscription collection changes.
+This method is a more specialized form of the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <b>GetSubscriptions</b> is automatically updated whenever the subscription collection changes.
 
 The query criteria specified by the <i>optionalCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -174,16 +158,6 @@ Following are some examples of valid query criteria:
 
 "EventClassID == {F89859D1-6565-11D1-88C8-0080C7D771BF} AND MethodName = 'StockPriceChange'"
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>

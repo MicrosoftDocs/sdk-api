@@ -2,15 +2,12 @@
 UID: NE:sdoias._RADIUSSERVERGROUPPROPERTIES
 title: RADIUSSERVERGROUPPROPERTIES (sdoias.h)
 description: The values in the RADIUSSERVERGROUPPROPERTIES enumeration type enumerate properties of a RADIUS server group.
+helpviewer_keywords: ["PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION","RADIUSSERVERGROUPPROPERTIES","RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server]","_sdo_radiusservergroupproperties","nps.SDO_radiusservergroupproperties","sdo.radiusservergroupproperties","sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION","sdoias/RADIUSSERVERGROUPPROPERTIES"]
 old-location: nps\SDO_radiusservergroupproperties.htm
 tech.root: Nps
 ms.assetid: b78aacfb-2e79-4c25-bc0c-acecb1a12993
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
-f1_keywords:
-- sdoias/RADIUSSERVERGROUPPROPERTIES
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SdoIas.h
-api_name:
-- RADIUSSERVERGROUPPROPERTIES
 targetos: Windows
 req.typenames: RADIUSSERVERGROUPPROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RADIUSSERVERGROUPPROPERTIES
+ - sdoias/_RADIUSSERVERGROUPPROPERTIES
+ - RADIUSSERVERGROUPPROPERTIES
+ - sdoias/RADIUSSERVERGROUPPROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SdoIas.h
+api_name:
+ - RADIUSSERVERGROUPPROPERTIES
 ---
 
 # RADIUSSERVERGROUPPROPERTIES enumeration
@@ -48,42 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The values in the 
 <b>RADIUSSERVERGROUPPROPERTIES</b> enumeration type enumerate properties of a RADIUS server group.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION
 
 The collection of servers in the RADIUS server group.
 
-
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
-
-
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>

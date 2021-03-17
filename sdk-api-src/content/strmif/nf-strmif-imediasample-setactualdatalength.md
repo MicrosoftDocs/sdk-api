@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSample.SetActualDataLength
 title: IMediaSample::SetActualDataLength (strmif.h)
 description: The SetActualDataLength method sets the length of the valid data in the buffer.
+helpviewer_keywords: ["IMediaSample interface [DirectShow]","SetActualDataLength method","IMediaSample.SetActualDataLength","IMediaSample::SetActualDataLength","IMediaSampleSetActualDataLength","SetActualDataLength","SetActualDataLength method [DirectShow]","SetActualDataLength method [DirectShow]","IMediaSample interface","dshow.imediasample_setactualdatalength","strmif/IMediaSample::SetActualDataLength"]
 old-location: dshow\imediasample_setactualdatalength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMediaSample.SetActualDataLength, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IMediaSample interface, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength
-f1_keywords:
-- strmif/IMediaSample.SetActualDataLength
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSample.SetActualDataLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSample::SetActualDataLength
+ - strmif/IMediaSample::SetActualDataLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSample.SetActualDataLength
 ---
 
 # IMediaSample::SetActualDataLength
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetActualDataLength</code> method sets the length of the valid data in the buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IMediaSample0000
 
 Length of the data in the media sample, in bytes.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -100,22 +91,11 @@ Length specified in <i>lLen</i> is larger than the buffer size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>

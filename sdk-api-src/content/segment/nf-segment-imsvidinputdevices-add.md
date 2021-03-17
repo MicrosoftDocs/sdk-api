@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidInputDevices.Add
 title: IMSVidInputDevices::Add (segment.h)
 description: The Add method adds an input device to the collection.
+helpviewer_keywords: ["Add","Add method [Microsoft TV Technologies]","Add method [Microsoft TV Technologies]","IMSVidInputDevices interface","IMSVidInputDevices interface [Microsoft TV Technologies]","Add method","IMSVidInputDevices.Add","IMSVidInputDevices::Add","IMSVidInputDevicesAdd","mstv.imsvidinputdevices_add","segment/IMSVidInputDevices::Add"]
 old-location: mstv\imsvidinputdevices_add.htm
 tech.root: mstv
 ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
-f1_keywords:
-- segment/IMSVidInputDevices.Add
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidInputDevices.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidInputDevices::Add
+ - segment/IMSVidInputDevices::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidInputDevices.Add
 ---
 
 # IMSVidInputDevices::Add
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Add</b> method adds an input device to the collection.
-
 
 ## -parameters
 
-
-
-
 ### -param pDB [in]
 
-Pointer to the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface.
-
+Pointer to the device's <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -118,22 +112,11 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-remove">IMSVidInputDevices::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-remove">IMSVidInputDevices::Remove</a>

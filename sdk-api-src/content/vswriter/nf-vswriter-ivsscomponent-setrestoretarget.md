@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.SetRestoreTarget
 title: IVssComponent::SetRestoreTarget (vswriter.h)
 description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetRestoreTarget method","IVssComponent.SetRestoreTarget","IVssComponent::SetRestoreTarget","SetRestoreTarget","SetRestoreTarget method [VSS]","SetRestoreTarget method [VSS]","IVssComponent interface","_win32_ivsscomponent_setrestoretarget","base.ivsscomponent_setrestoretarget","vswriter/IVssComponent::SetRestoreTarget"]
 old-location: base\ivsscomponent_setrestoretarget.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 6e8b9322-6611-4a47-aa7a-876be01d33b8
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreTarget method, IVssComponent.SetRestoreTarget, IVssComponent::SetRestoreTarget, SetRestoreTarget, SetRestoreTarget method [VSS], SetRestoreTarget method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoretarget, base.ivsscomponent_setrestoretarget, vswriter/IVssComponent::SetRestoreTarget
-f1_keywords:
-- vswriter/IVssComponent.SetRestoreTarget
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.SetRestoreTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::SetRestoreTarget
+ - vswriter/IVssComponent::SetRestoreTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.SetRestoreTarget
 ---
 
 # IVssComponent::SetRestoreTarget
@@ -49,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetRestoreTarget</b> method sets the restore target (in terms of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
 
 Only a writer can call this method, and only during a restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param target [in]
 
 A value from 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> containing the restore target information.
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> containing the restore target information.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -124,28 +118,12 @@ The caller is not in the correct state (either backup or restore) for the operat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The restore target set by 
 <b>SetRestoreTarget</b> applies to all files in the component and any nonselectable subcomponents.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

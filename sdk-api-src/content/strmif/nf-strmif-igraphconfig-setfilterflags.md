@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphConfig.SetFilterFlags
 title: IGraphConfig::SetFilterFlags (strmif.h)
 description: The SetFilterFlags method sets a filter's configuration information.
+helpviewer_keywords: ["IGraphConfig interface [DirectShow]","SetFilterFlags method","IGraphConfig.SetFilterFlags","IGraphConfig::SetFilterFlags","IGraphConfigSetFilterFlags","SetFilterFlags","SetFilterFlags method [DirectShow]","SetFilterFlags method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_setfilterflags","strmif/IGraphConfig::SetFilterFlags"]
 old-location: dshow\igraphconfig_setfilterflags.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphConfig.SetFilterFlags, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow],IGraphConfig interface, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
-f1_keywords:
-- strmif/IGraphConfig.SetFilterFlags
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphConfig.SetFilterFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphConfig::SetFilterFlags
+ - strmif/IGraphConfig::SetFilterFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphConfig.SetFilterFlags
 ---
 
 # IGraphConfig::SetFilterFlags
@@ -49,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetFilterFlags</code> method sets a filter's configuration information.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFilter [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of a filter in the filter graph.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of a filter in the filter graph.
 
 ### -param dwFlags [in]
 
@@ -86,12 +79,8 @@ Value specifying the new configuration flags. Must be one of the following value
 <td>The filter is removable during a dynamic reconnection. For more information, see Remarks.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -145,31 +134,15 @@ The filter is not in the graph.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The AM_FILTER_FLAGS_REMOVABLE flag changes the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. The <b>Reconnect</b> method performs a dynamic reconnection between two pins. If the caller specifies one pin, but leaves the other pin unspecified, <b>Reconnect</b> searches upstream or downstream from the specified pin to find a suitable match. By default, however, the search fails if it reaches a filter that was added to the graph by means of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-addfilter">IFilterGraph::AddFilter</a> method. To override this behavior, call <code>SetFilterFlags</code> and set the AM_FILTER_FLAGS_REMOVABLE flag on the filter.
-
-
-
+The AM_FILTER_FLAGS_REMOVABLE flag changes the behavior of the <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. The <b>Reconnect</b> method performs a dynamic reconnection between two pins. If the caller specifies one pin, but leaves the other pin unspecified, <b>Reconnect</b> searches upstream or downstream from the specified pin to find a suitable match. By default, however, the search fails if it reaches a filter that was added to the graph by means of the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-addfilter">IFilterGraph::AddFilter</a> method. To override this behavior, call <code>SetFilterFlags</code> and set the AM_FILTER_FLAGS_REMOVABLE flag on the filter.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>

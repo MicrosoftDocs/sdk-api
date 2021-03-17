@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO
 title: IWMWriterFileSink3::GetUnbufferedIO (wmsdkidl.h)
 description: The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.
+helpviewer_keywords: ["GetUnbufferedIO","GetUnbufferedIO method [windows Media Format]","GetUnbufferedIO method [windows Media Format]","IWMWriterFileSink3 interface","IWMWriterFileSink3 interface [windows Media Format]","GetUnbufferedIO method","IWMWriterFileSink3.GetUnbufferedIO","IWMWriterFileSink3::GetUnbufferedIO","IWMWriterFileSink3GetUnbufferedIO","wmformat.iwmwriterfilesink3_getunbufferedio","wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO"]
 old-location: wmformat\iwmwriterfilesink3_getunbufferedio.htm
 tech.root: wmformat
 ms.assetid: e87222eb-6ed1-49b7-a544-27703ba9806b
 ms.date: 12/05/2018
 ms.keywords: GetUnbufferedIO, GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetUnbufferedIO method, IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3.GetUnbufferedIO
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink3.GetUnbufferedIO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3::GetUnbufferedIO
+ - wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink3.GetUnbufferedIO
 ---
 
 # IWMWriterFileSink3::GetUnbufferedIO
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetUnbufferedIO</b> method ascertains whether unbuffered I/O is used for the file sink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfUnbufferedIO [out]
 
 Pointer to a Boolean value that is set to True if unbuffered I/O is used with this file sink.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a>

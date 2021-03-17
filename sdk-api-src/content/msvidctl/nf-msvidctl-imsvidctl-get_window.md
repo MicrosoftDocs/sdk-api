@@ -2,15 +2,12 @@
 UID: NF:msvidctl.IMSVidCtl.get_Window
 title: IMSVidCtl::get_Window (msvidctl.h)
 description: The get_Window method retrieves the window associated with the Video Control.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get_Window method","IMSVidCtl.get_Window","IMSVidCtl::get_Window","IMSVidCtlget_Window","get_Window","get_Window method [Microsoft TV Technologies]","get_Window method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get_window","msvidctl/IMSVidCtl::get_Window"]
 old-location: mstv\imsvidctl_get_window.htm
 tech.root: mstv
 ms.assetid: 88121bed-c626-4c1a-b415-8d162c43df9d
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_Window method, IMSVidCtl.get_Window, IMSVidCtl::get_Window, IMSVidCtlget_Window, get_Window, get_Window method [Microsoft TV Technologies], get_Window method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_window, msvidctl/IMSVidCtl::get_Window
-f1_keywords:
-- msvidctl/IMSVidCtl.get_Window
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl.get_Window
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl::get_Window
+ - msvidctl/IMSVidCtl::get_Window
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl.get_Window
 ---
 
 # IMSVidCtl::get_Window
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Window</b> method retrieves the window associated with the Video Control.
 
-
 ## -parameters
-
-
-
 
 ### -param phwnd [out]
 
 Receives a handle to the window.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,18 +90,7 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>

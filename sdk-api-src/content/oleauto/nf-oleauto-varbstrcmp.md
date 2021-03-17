@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarBstrCmp
 title: VarBstrCmp function (oleauto.h)
 description: Compares two variants of type BSTR.
+helpviewer_keywords: ["NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNOREKASHIDA","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","VarBstrCmp","VarBstrCmp function [Automation]","_oa96_VarBstrCmp","automat.varbstrcmp","oleauto/VarBstrCmp"]
 old-location: automat\varbstrcmp.htm
 tech.root: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarBstrCmp, VarBstrCmp function [Automation], _oa96_VarBstrCmp, automat.varbstrcmp, oleauto/VarBstrCmp
-f1_keywords:
-- oleauto/VarBstrCmp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarBstrCmp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarBstrCmp
+ - oleauto/VarBstrCmp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarBstrCmp
 ---
 
 # VarBstrCmp function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two variants of type BSTR.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrLeft [in]
 
 The first variant.
 
-
 ### -param bstrRight [in]
 
 The second variant.
 
-
 ### -param lcid [in]
 
 The locale identifier of the program to determine whether UNICODE or ANSI strings are being used.
-
 
 ### -param dwFlags [in]
 
@@ -148,12 +142,8 @@ Ignore Arabic kashida characters.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -199,16 +189,8 @@ The parameters are equal.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function will not compare arrays or records.
-
-
 

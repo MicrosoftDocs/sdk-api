@@ -2,15 +2,12 @@
 UID: NF:ddstream.IDirectDrawStreamSample.SetRect
 title: IDirectDrawStreamSample::SetRect (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Changes the clipping rectangle for a sample.
+helpviewer_keywords: ["IDirectDrawStreamSample interface [DirectShow]","SetRect method","IDirectDrawStreamSample.SetRect","IDirectDrawStreamSample::SetRect","IDirectDrawStreamSampleSetRect","SetRect","SetRect method [DirectShow]","SetRect method [DirectShow]","IDirectDrawStreamSample interface","ddstream/IDirectDrawStreamSample::SetRect","dshow.idirectdrawstreamsample_setrect"]
 old-location: dshow\idirectdrawstreamsample_setrect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 10b25552-e923-4cd5-afb7-52164057f2e0
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawStreamSample interface [DirectShow],SetRect method, IDirectDrawStreamSample.SetRect, IDirectDrawStreamSample::SetRect, IDirectDrawStreamSampleSetRect, SetRect, SetRect method [DirectShow], SetRect method [DirectShow],IDirectDrawStreamSample interface, ddstream/IDirectDrawStreamSample::SetRect, dshow.idirectdrawstreamsample_setrect
-f1_keywords:
-- ddstream/IDirectDrawStreamSample.SetRect
-dev_langs:
-- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddstream.h
-api_name:
-- IDirectDrawStreamSample.SetRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawStreamSample::SetRect
+ - ddstream/IDirectDrawStreamSample::SetRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddstream.h
+api_name:
+ - IDirectDrawStreamSample.SetRect
 ---
 
 # IDirectDrawStreamSample::SetRect
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Changes the clipping rectangle for a sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pRect [in]
 
 Pointer to a <b>RECT</b> structure that specifies the stream's new clipping rectangle.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -145,29 +136,13 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Both parameters are optional; set either to <b>NULL</b> to avoid changing that value. If the surface format doesn't match the stream format, this method fails.
 
 If the new rectangle's size isn't the same as the current rectangle, a call to this method will fail.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataImport.EnumPermissionSets
 title: IMetaDataImport::EnumPermissionSets (rometadataapi.h)
 description: Enumerates permissions for the objects in a specified metadata scope.
+helpviewer_keywords: ["EnumPermissionSets","EnumPermissionSets method [Windows Runtime]","EnumPermissionSets method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumPermissionSets method","IMetaDataImport.EnumPermissionSets","IMetaDataImport::EnumPermissionSets","rometadataapi/IMetaDataImport::EnumPermissionSets","winrt.imetadataimport_enumpermissionsets"]
 old-location: winrt\imetadataimport_enumpermissionsets.htm
 tech.root: WinRT
 ms.assetid: 20fec6e8-02f8-4158-8d61-550653e99dad
 ms.date: 12/05/2018
 ms.keywords: EnumPermissionSets, EnumPermissionSets method [Windows Runtime], EnumPermissionSets method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumPermissionSets method, IMetaDataImport.EnumPermissionSets, IMetaDataImport::EnumPermissionSets, rometadataapi/IMetaDataImport::EnumPermissionSets, winrt.imetadataimport_enumpermissionsets
-f1_keywords:
-- rometadataapi/IMetaDataImport.EnumPermissionSets
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataImport.EnumPermissionSets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataImport::EnumPermissionSets
+ - rometadataapi/IMetaDataImport::EnumPermissionSets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataImport.EnumPermissionSets
 ---
 
 # IMetaDataImport::EnumPermissionSets
@@ -48,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates permissions for the objects in a specified metadata scope.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
 A pointer to the enumerator. This must be NULL for the first call of this method.
 
-
 ### -param tk [in]
 
 A metadata token that limits the scope of the search, or NULL to search the widest scope possible.
 
-
 ### -param dwActions [in]
 
- Flags representing the <a href="https://docs.microsoft.com/dotnet/api/system.security.permissions.securityaction?redirectedfrom=MSDN">SecurityAction</a> values to include in <i>rPermission</i>, or zero to return all actions.
-
+ Flags representing the <a href="/dotnet/api/system.security.permissions.securityaction">SecurityAction</a> values to include in <i>rPermission</i>, or zero to return all actions.
 
 ### -param rPermission [out]
 
 The array used to store the Permission tokens.
 
-
 ### -param cMax [in]
 
 The maximum size of the <i>rPermission</i> array.
-
 
 ### -param pcTokens [out]
 
 The number of Permission tokens returned in <i>rPermission</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -108,18 +97,7 @@ The number of Permission tokens returned in <i>rPermission</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

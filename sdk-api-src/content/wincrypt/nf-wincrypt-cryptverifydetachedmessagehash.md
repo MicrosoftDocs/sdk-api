@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptVerifyDetachedMessageHash
 title: CryptVerifyDetachedMessageHash function (wincrypt.h)
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
+helpviewer_keywords: ["CryptVerifyDetachedMessageHash","CryptVerifyDetachedMessageHash function [Security]","_crypto2_cryptverifydetachedmessagehash","security.cryptverifydetachedmessagehash","wincrypt/CryptVerifyDetachedMessageHash"]
 old-location: security\cryptverifydetachedmessagehash.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
-f1_keywords:
-- wincrypt/CryptVerifyDetachedMessageHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptVerifyDetachedMessageHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifyDetachedMessageHash
+ - wincrypt/CryptVerifyDetachedMessageHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptVerifyDetachedMessageHash
 ---
 
 # CryptVerifyDetachedMessageHash function
@@ -48,46 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptVerifyDetachedMessageHash</b> function verifies a detached <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>.
-
+The <b>CryptVerifyDetachedMessageHash</b> function verifies a detached <a href="/windows/desktop/SecGloss/h-gly">hash</a>.
 
 ## -parameters
-
-
-
 
 ### -param pHashPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a> structure containing the hash parameters.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a> structure containing the hash parameters.
 
 ### -param pbDetachedHashBlob [in]
 
 A pointer to the encoded, detached hash.
 
-
 ### -param cbDetachedHashBlob [in]
 
 The size, in bytes, of the detached hash.
-
 
 ### -param cToBeHashed [in]
 
 Number of elements in the <i>rgpbToBeHashed</i> and <i>rgcbToBeHashed</i> arrays.
 
-
 ### -param rgpbToBeHashed [in]
 
 Array of pointers to content buffers to be hashed.
 
-
 ### -param rgcbToBeHashed [in]
 
 Array of sizes, in bytes, for the content buffers pointed to by the elements of the <i>rgcbToBeHashed</i> array.
-					
-
 
 ### -param pbComputedHash [out]
 
@@ -97,8 +87,7 @@ A pointer to a buffer to receive the computed hash.
 
 
 This parameter can be <b>NULL</b> if the newly created hash is not needed for additional processing, or to set the size of the hash for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbComputedHash [in, out]
 
@@ -112,17 +101,15 @@ A pointer to a <b>DWORD</b> specifying the size, in bytes, of the <i>pbComputedH
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE).
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following lists the error codes most commonly returned by the 
-		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+		       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -147,7 +134,7 @@ Not a hashed cryptographic message.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pHashPara</i> is not valid.
+The <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pHashPara</i> is not valid.
 
 </td>
 </tr>
@@ -166,27 +153,18 @@ If the buffer specified by the <i>pbComputedHash</i> parameter is not large enou
  
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a> might be propagated to this function. <p class="note">If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>, and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a> might be propagated to this function. <p class="note">If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>. 
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagehash">CryptVerifyMessageHash</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

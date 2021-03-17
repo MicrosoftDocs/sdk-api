@@ -2,15 +2,12 @@
 UID: NF:werapi.WerGetFlags
 title: WerGetFlags function (werapi.h)
 description: Retrieves the fault reporting settings for the specified process.
+helpviewer_keywords: ["WER_FAULT_REPORTING_ALWAYS_SHOW_UI","WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION","WER_FAULT_REPORTING_FLAG_NOHEAP","WER_FAULT_REPORTING_FLAG_QUEUE","WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD","WerGetFlags","WerGetFlags function [Windows Error Reporting]","base.wergetflags","wer.wergetflags","werapi/WerGetFlags"]
 old-location: wer\wergetflags.htm
 tech.root: wer
 ms.assetid: 8c5f08c0-e2d1-448c-9a57-ef19897f64c6
 ms.date: 12/05/2018
 ms.keywords: WER_FAULT_REPORTING_ALWAYS_SHOW_UI, WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION, WER_FAULT_REPORTING_FLAG_NOHEAP, WER_FAULT_REPORTING_FLAG_QUEUE, WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD, WerGetFlags, WerGetFlags function [Windows Error Reporting], base.wergetflags, wer.wergetflags, werapi/WerGetFlags
-f1_keywords:
-- werapi/WerGetFlags
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- WerGetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerGetFlags
+ - werapi/WerGetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - WerGetFlags
 ---
 
 # WerGetFlags function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the fault reporting settings for the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the PROCESS_VM_READ or PROCESS_QUERY_INFORMATION access right.
-
 
 ### -param pdwFlags [out]
 
@@ -124,33 +120,19 @@ Always show error reporting UI for this process. This is applicable for interact
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This function returns <b>S_OK</b> on success or an error code on failure.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceParens
 title: ITextFont2::SetAutospaceParens (tom.h)
-description: Sets the East Asian &#0034;autospace parentheses&#0034; state.
+description: Sets the East Asian &quot;autospace parentheses&quot; state.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetAutospaceParens method","ITextFont2.SetAutospaceParens","ITextFont2::SetAutospaceParens","SetAutospaceParens","SetAutospaceParens method [Windows Controls]","SetAutospaceParens method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setautospaceparens","tom/ITextFont2::SetAutospaceParens"]
 old-location: controls\itextfont2_setautospaceparens.htm
 tech.root: Controls
 ms.assetid: 9a9290e0-221e-454a-af9c-9d1bf5d37b5e
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
-f1_keywords:
-- tom/ITextFont2.SetAutospaceParens
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2.SetAutospaceParens
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2::SetAutospaceParens
+ - tom/ITextFont2::SetAutospaceParens
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2.SetAutospaceParens
 ---
 
 # ITextFont2::SetAutospaceParens
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the East Asian "autospace parentheses" state.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -85,31 +82,17 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 <td>The AutospaceParens property is undefined.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-getautospaceparens">ITextFont2::GetAutospaceParens</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-getautospaceparens">ITextFont2::GetAutospaceParens</a>

@@ -2,15 +2,12 @@
 UID: NF:certif.ICertServerPolicy.GetRequestProperty
 title: ICertServerPolicy::GetRequestProperty (certif.h)
 description: Retrieves a specific property from a request.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","GetRequestProperty method","GetRequestProperty","GetRequestProperty method [Security]","GetRequestProperty method [Security]","CCertServerPolicy object","GetRequestProperty method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","GetRequestProperty method","ICertServerPolicy.GetRequestProperty","ICertServerPolicy::GetRequestProperty","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","RawRequest","RequestAttributes","RequestID","RequestType","RequesterName","SubmittedWhen","_certsrv_icertserverpolicy_getrequestproperty","certif/ICertServerPolicy::GetRequestProperty","security.icertserverpolicy_getrequestproperty"]
 old-location: security\icertserverpolicy_getrequestproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestProperty method, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerPolicy object, GetRequestProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestProperty method, ICertServerPolicy.GetRequestProperty, ICertServerPolicy::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, SubmittedWhen, _certsrv_icertserverpolicy_getrequestproperty, certif/ICertServerPolicy::GetRequestProperty, security.icertserverpolicy_getrequestproperty
-f1_keywords:
-- certif/ICertServerPolicy.GetRequestProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerPolicy.GetRequestProperty
-- CCertServerPolicy.GetRequestProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerPolicy::GetRequestProperty
+ - certif/ICertServerPolicy::GetRequestProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerPolicy.GetRequestProperty
+ - CCertServerPolicy.GetRequestProperty
 ---
 
 # ICertServerPolicy::GetRequestProperty
@@ -49,21 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRequestProperty</b> method retrieves a specific property from a request.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
 Specifies the name of the property to retrieve. This parameter can be set to a name property or  a request property.
 
 Name properties include  a stock set of certificate properties that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
 
 Request properties are unique to requests and include the following possible values.
 
@@ -136,7 +133,7 @@ When arrived.
 </dl>
 </td>
 <td width="60%">
-The name of the requester in the form "<i>DomainName</i>\<i>UserID</i>".
+The name of the requester in the form "<i>DomainName</i>&#92;<i>UserID</i>".
 
 </td>
 </tr>
@@ -144,9 +141,6 @@ The name of the requester in the form "<i>DomainName</i>\<i>UserID</i>".
  
 
 <b>Note</b>  There are additional request properties that cannot be accessed by <b>GetRequestProperty</b> because they  are not set until after the policy module finishes processing the request.In addition, other properties may be set by a specific request type, request extensions, or by named attributes set in the header of a request.
-
-
-
 
 ### -param PropertyType [in]
 
@@ -193,40 +187,30 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data.
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 A pointer to the <b>VARIANT</b> that contains the request property type.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pvarPropertyValue</i> parameter contains the  request property.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property.
 
-
-
-
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
 
 Requests  hold all the associated states for the request and the eventual granted certificate that is not a part of the certificate. Thus, data such as revocation times and disposition data are kept in the request data object.
 
@@ -286,25 +270,14 @@ if ( NULL != bstrPropName )
     SysFreeString( bstrPropName );
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>

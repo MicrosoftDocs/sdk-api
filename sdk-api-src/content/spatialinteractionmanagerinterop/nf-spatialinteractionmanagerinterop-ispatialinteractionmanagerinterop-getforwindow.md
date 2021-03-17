@@ -2,15 +2,12 @@
 UID: NF:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop.GetForWindow
 title: ISpatialInteractionManagerInterop::GetForWindow (spatialinteractionmanagerinterop.h)
 description: Retrieves a SpatialInteractionManager object bound to the active application.
+helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","ISpatialInteractionManagerInterop interface","ISpatialInteractionManagerInterop interface","GetForWindow method","ISpatialInteractionManagerInterop.GetForWindow","ISpatialInteractionManagerInterop::GetForWindow","MixedReality.ispatialinteractionmanager_getforwindow","spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow"]
 old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
 tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
 ms.date: 01/25/2019
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
-f1_keywords:
-- spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop.GetForWindow
-dev_langs:
-- c++
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SpatialInteractionManagerInterop.h
-api_name:
-- ISpatialInteractionManagerInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ISpatialInteractionManagerInterop::GetForWindow
+ - spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SpatialInteractionManagerInterop.h
+api_name:
+ - ISpatialInteractionManagerInterop.GetForWindow
 ---
 
 # ISpatialInteractionManagerInterop::GetForWindow
+
 
 ## -description
 
@@ -121,3 +124,4 @@ if (!hWnd)
 * [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager)
 * [Mixed Reality Dev Center](/windows/mixed-reality)
 * [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)
+

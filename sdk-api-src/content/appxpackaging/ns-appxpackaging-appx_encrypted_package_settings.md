@@ -2,15 +2,12 @@
 UID: NS:appxpackaging.APPX_ENCRYPTED_PACKAGE_SETTINGS
 title: APPX_ENCRYPTED_PACKAGE_SETTINGS (appxpackaging.h)
 description: Settings for encrypted Windows app packages.
+helpviewer_keywords: ["APPX_ENCRYPTED_PACKAGE_SETTINGS","APPX_ENCRYPTED_PACKAGE_SETTINGS structure [App packaging and management]","PAPPX_ENCRYPTED_PACKAGE_SETTINGS","PAPPX_ENCRYPTED_PACKAGE_SETTINGS structure pointer [App packaging and management]","appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS","appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS","appxpkg.appx_encrypted_package_settings"]
 old-location: appxpkg\appx_encrypted_package_settings.htm
 tech.root: appxpkg
 ms.assetid: B5502C1D-2C92-4AE6-BC01-50A853D25CE5
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS, APPX_ENCRYPTED_PACKAGE_SETTINGS structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS, PAPPX_ENCRYPTED_PACKAGE_SETTINGS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS, appxpkg.appx_encrypted_package_settings
-f1_keywords:
-- appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AppxPackaging.h
-api_name:
-- APPX_ENCRYPTED_PACKAGE_SETTINGS
 targetos: Windows
 req.typenames: APPX_ENCRYPTED_PACKAGE_SETTINGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - APPX_ENCRYPTED_PACKAGE_SETTINGS
+ - appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AppxPackaging.h
+api_name:
+ - APPX_ENCRYPTED_PACKAGE_SETTINGS
 ---
 
 # APPX_ENCRYPTED_PACKAGE_SETTINGS structure
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Settings for encrypted Windows app packages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field keyLength
 
 The key length.
 
-
 ### -field encryptionAlgorithm
 
 The encryption algorithm used.
 
-
 ### -field useDiffusion
 
 True is diffusion is used, false otherwise.
-
 
 ### -field blockMapHashAlgorithm
 

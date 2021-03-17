@@ -2,13 +2,10 @@
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_ATTRIBUTES
 title: DWRITE_FONT_AXIS_ATTRIBUTES
 description: Defines constants that specify attributes for a font axis.
+helpviewer_keywords: ["DWRITE_FONT_AXIS_ATTRIBUTES","DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write]","directwrite.dwrite_font_axis_attributes","dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_AXIS_ATTRIBUTES, DWRITE_FONT_AXIS_ATTRIBUTES enumeration [Direct Write], directwrite.dwrite_font_axis_attributes, dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
-f1_keywords:
-- dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_AXIS_ATTRIBUTES
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_AXIS_ATTRIBUTES
+ - dwrite_3/DWRITE_FONT_AXIS_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_AXIS_ATTRIBUTES
 ---
 
 ## -description
@@ -62,3 +64,4 @@ Specifies that this axis is recommended to be remain hidden in user interfaces. 
 ## -remarks
 
 ## -see-also
+

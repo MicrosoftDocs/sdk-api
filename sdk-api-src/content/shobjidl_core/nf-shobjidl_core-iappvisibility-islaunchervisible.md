@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IAppVisibility.IsLauncherVisible
 title: IAppVisibility::IsLauncherVisible (shobjidl_core.h)
 description: Gets a value that indicates whether the Start screen is displayed.
+helpviewer_keywords: ["IAppVisibility interface [Windows Shell]","IsLauncherVisible method","IAppVisibility.IsLauncherVisible","IAppVisibility::IsLauncherVisible","IsLauncherVisible","IsLauncherVisible method [Windows Shell]","IsLauncherVisible method [Windows Shell]","IAppVisibility interface","shell.IAppVisibility_IsLauncherVisible","shobjidl_core/IAppVisibility::IsLauncherVisible"]
 old-location: shell\IAppVisibility_IsLauncherVisible.htm
 tech.root: shell
 ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
 ms.date: 12/05/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
-f1_keywords:
-- shobjidl_core/IAppVisibility.IsLauncherVisible
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IAppVisibility.IsLauncherVisible
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppVisibility::IsLauncherVisible
+ - shobjidl_core/IAppVisibility::IsLauncherVisible
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IAppVisibility.IsLauncherVisible
 ---
 
 # IAppVisibility::IsLauncherVisible
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that indicates whether the Start screen is displayed.
 
-
 ## -parameters
-
-
-
 
 ### -param pfVisible [out]
 
 <b>TRUE</b> if the Start screen is displayed; otherwise, <b>FALSE.</b>
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -85,18 +79,7 @@ This method can return one of these values.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>

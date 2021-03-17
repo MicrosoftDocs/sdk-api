@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRFilterConfig9.SetImageCompositor
 title: IVMRFilterConfig9::SetImageCompositor (vmr9.h)
 description: The SetImageCompositor method installs an application-provided image compositor object.
+helpviewer_keywords: ["IVMRFilterConfig9 interface [DirectShow]","SetImageCompositor method","IVMRFilterConfig9.SetImageCompositor","IVMRFilterConfig9::SetImageCompositor","IVMRFilterConfig9SetImageCompositor","SetImageCompositor","SetImageCompositor method [DirectShow]","SetImageCompositor method [DirectShow]","IVMRFilterConfig9 interface","dshow.ivmrfilterconfig9_setimagecompositor","vmr9/IVMRFilterConfig9::SetImageCompositor"]
 old-location: dshow\ivmrfilterconfig9_setimagecompositor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e4a66e8-d4ab-49e0-8773-c79b5965124b
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetImageCompositor method, IVMRFilterConfig9.SetImageCompositor, IVMRFilterConfig9::SetImageCompositor, IVMRFilterConfig9SetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setimagecompositor, vmr9/IVMRFilterConfig9::SetImageCompositor
-f1_keywords:
-- vmr9/IVMRFilterConfig9.SetImageCompositor
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRFilterConfig9.SetImageCompositor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRFilterConfig9::SetImageCompositor
+ - vmr9/IVMRFilterConfig9::SetImageCompositor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRFilterConfig9.SetImageCompositor
 ---
 
 # IVMRFilterConfig9::SetImageCompositor
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetImageCompositor</code> method installs an application-provided image compositor object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpVMRImgCompositor [in]
 
 Pointer to the image compositor object provided by the application.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -122,33 +113,17 @@ The VMR is not in mixing mode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">IVMRFilterConfig9::SetNumberOfStreams</a>,
 
-
-Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">IVMRFilterConfig9::SetNumberOfStreams</a>,
-
-before the compositor can be specified. The VMR manages all reference counting on the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9</a> interface.
-
-
-
+before the compositor can be specified. The VMR manages all reference counting on the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9</a> interface.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

@@ -2,15 +2,12 @@
 UID: NN:wdstptmgmt.IWdsTransportDiagnosticsPolicy
 title: IWdsTransportDiagnosticsPolicy (wdstptmgmt.h)
 description: Represents the diagnostics policy part of the WDS transport server's configuration.
+helpviewer_keywords: ["IWdsTransportDiagnosticsPolicy","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","described","wds.iwdstransportdiagnosticspolicy","wdstptmgmt/IWdsTransportDiagnosticsPolicy"]
 old-location: wds\iwdstransportdiagnosticspolicy.htm
 tech.root: wds
 ms.assetid: 01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],described, wds.iwdstransportdiagnosticspolicy, wdstptmgmt/IWdsTransportDiagnosticsPolicy
-f1_keywords:
-- wdstptmgmt/IWdsTransportDiagnosticsPolicy
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportDiagnosticsPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportDiagnosticsPolicy
+ - wdstptmgmt/IWdsTransportDiagnosticsPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportDiagnosticsPolicy
 ---
 
 # IWdsTransportDiagnosticsPolicy interface
 
 
 ## -description
-
 
 Represents the diagnostics policy part of the WDS transport server's configuration.
 

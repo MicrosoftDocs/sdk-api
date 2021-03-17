@@ -2,15 +2,12 @@
 UID: NF:msctfmonitorapi.InitLocalMsCtfMonitor
 title: InitLocalMsCtfMonitor function (msctfmonitorapi.h)
 description: The InitLocalMsCtfMonitor function initializes TextServicesFramework on the current desktop and prepares the floating language bar, if necessary. This function must be called on the app's desktop.
+helpviewer_keywords: ["ILMCM_CHECKLAYOUTANDTIPENABLED","ILMCM_LANGUAGEBAROFF","InitLocalMsCtfMonitor","InitLocalMsCtfMonitor function [Text Services Framework]","msctfmonitorapi/InitLocalMsCtfMonitor","tsf.InitLocalMsCtfMonitor"]
 old-location: tsf\InitLocalMsCtfMonitor.htm
 tech.root: TSF
 ms.assetid: d382afea-e30a-4aeb-a357-551fee6229ae
 ms.date: 12/05/2018
 ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCtfMonitor, InitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/InitLocalMsCtfMonitor, tsf.InitLocalMsCtfMonitor
-f1_keywords:
-- msctfmonitorapi/InitLocalMsCtfMonitor
-dev_langs:
-- c++
 req.header: msctfmonitorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: MsCtfMonitor.lib
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- msctf.dll
-api_name:
-- InitLocalMsCtfMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitLocalMsCtfMonitor
+ - msctfmonitorapi/InitLocalMsCtfMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - msctf.dll
+api_name:
+ - InitLocalMsCtfMonitor
 ---
 
 # InitLocalMsCtfMonitor function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitLocalMsCtfMonitor</b> function initializes TextServicesFramework on the current desktop and prepares the floating language bar, if necessary. This function must be called on the app's desktop.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -87,12 +84,8 @@ This is a combination of the following flags:
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -108,16 +101,7 @@ This is a combination of the following flags:
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If this function was successful, <a href="https://docs.microsoft.com/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.
-
-
-
+If this function was successful, <a href="/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.

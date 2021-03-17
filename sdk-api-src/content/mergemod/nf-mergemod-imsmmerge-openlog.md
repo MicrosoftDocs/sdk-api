@@ -2,15 +2,12 @@
 UID: NF:mergemod.IMsmMerge.OpenLog
 title: IMsmMerge::OpenLog (mergemod.h)
 description: The OpenLog method opens a log file that receives progress and error messages.
+helpviewer_keywords: ["IMsmMerge interface","OpenLog method","IMsmMerge.OpenLog","IMsmMerge::OpenLog","OpenLog","OpenLog method","OpenLog method","IMsmMerge interface","_msi_openlog_function","mergemod/IMsmMerge::OpenLog","setup.imsmmerge_openlog"]
 old-location: setup\imsmmerge_openlog.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: b34e7f28-2cf3-4cc7-9a39-e1da6fb8c788
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenLog method, IMsmMerge.OpenLog, IMsmMerge::OpenLog, OpenLog, OpenLog method, OpenLog method,IMsmMerge interface, _msi_openlog_function, mergemod/IMsmMerge::OpenLog, setup.imsmmerge_openlog
-f1_keywords:
-- mergemod/IMsmMerge.OpenLog
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmMerge.OpenLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmMerge::OpenLog
+ - mergemod/IMsmMerge::OpenLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmMerge.OpenLog
 ---
 
 # IMsmMerge::OpenLog
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>OpenLog</b> method opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openlog">OpenLog</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
+<a href="/windows/desktop/Msi/merge-openlog">OpenLog</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::OpenLog</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::OpenLog</b>      All Mergemod.dll versions.
-			
-
 
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 Fully qualified file name pointing to a file to open or create. A <b>LPCWSTR</b> may be used in place of a <b>BSTR</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,29 +106,13 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function opens a log file to receive progress and error messages. If the log file already exists, new messages get appended to the log. If the log file does not exist it is created.
 
-Clients may send their own messages to this log file using <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log">Log</a>.
-
-
-
+Clients may send their own messages to this log file using <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log">Log</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

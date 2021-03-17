@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont2.GetCharRep
 title: ITextFont2::GetCharRep (tom.h)
 description: Gets the character repertoire (writing system).
+helpviewer_keywords: ["GetCharRep","GetCharRep method [Windows Controls]","GetCharRep method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetCharRep method","ITextFont2.GetCharRep","ITextFont2::GetCharRep","controls.itextfont2_getcharrep","tom/ITextFont2::GetCharRep","tomAboriginal","tomAnsi","tomArabic","tomArmenian","tomBIG5","tomBaltic","tomBengali","tomBraille","tomCherokee","tomCyrillic","tomDefaultCharRep","tomDevanagari","tomEastEurope","tomEmoji","tomEthiopic","tomGB2312","tomGeorgian","tomGreek","tomGujarati","tomGurmukhi","tomHangul","tomHebrew","tomJamo","tomKannada","tomKayahli","tomKharoshthi","tomKhmer","tomLao","tomLimbu","tomMac","tomMalayalam","tomMongolian","tomMyanmar","tomNewTaiLu","tomOEM","tomOgham","tomOriya","tomPC437","tomRunic","tomShiftJIS","tomSinhala","tomSylotinagr","tomSymbol","tomSyriac","tomTaiLe","tomTamil","tomTelugu","tomThaana","tomThai","tomTibetan","tomTurkish","tomUsymbol","tomVietnamese","tomYi"]
 old-location: controls\itextfont2_getcharrep.htm
 tech.root: Controls
 ms.assetid: 250b9fe9-8f63-4f6f-9b14-d6fdac3580b0
 ms.date: 12/05/2018
 ms.keywords: GetCharRep, GetCharRep method [Windows Controls], GetCharRep method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCharRep method, ITextFont2.GetCharRep, ITextFont2::GetCharRep, controls.itextfont2_getcharrep, tom/ITextFont2::GetCharRep, tomAboriginal, tomAnsi, tomArabic, tomArmenian, tomBIG5, tomBaltic, tomBengali, tomBraille, tomCherokee, tomCyrillic, tomDefaultCharRep, tomDevanagari, tomEastEurope, tomEmoji, tomEthiopic, tomGB2312, tomGeorgian, tomGreek, tomGujarati, tomGurmukhi, tomHangul, tomHebrew, tomJamo, tomKannada, tomKayahli, tomKharoshthi, tomKhmer, tomLao, tomLimbu, tomMac, tomMalayalam, tomMongolian, tomMyanmar, tomNewTaiLu, tomOEM, tomOgham, tomOriya, tomPC437, tomRunic, tomShiftJIS, tomSinhala, tomSylotinagr, tomSymbol, tomSyriac, tomTaiLe, tomTamil, tomTelugu, tomThaana, tomThai, tomTibetan, tomTurkish, tomUsymbol, tomVietnamese, tomYi
-f1_keywords:
-- tom/ITextFont2.GetCharRep
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2.GetCharRep
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2::GetCharRep
+ - tom/ITextFont2::GetCharRep
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2.GetCharRep
 ---
 
 # ITextFont2::GetCharRep
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the character repertoire (writing system).
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -442,29 +439,16 @@ The character repertoire. It can be one of the following values.
 
 #### tomYi
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setcharrep">ITextFont2::SetCharRep</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-setcharrep">ITextFont2::SetCharRep</a>

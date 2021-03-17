@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICertProperty.RemoveFromCertificate
 title: ICertProperty::RemoveFromCertificate (certenroll.h)
 description: Disassociates a property from a certificate.
+helpviewer_keywords: ["ICertProperty interface [Security]","RemoveFromCertificate method","ICertProperty.RemoveFromCertificate","ICertProperty::RemoveFromCertificate","RemoveFromCertificate","RemoveFromCertificate method [Security]","RemoveFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::RemoveFromCertificate","security.icertproperty_removefromcertificate_method"]
 old-location: security\icertproperty_removefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
-f1_keywords:
-- certenroll/ICertProperty.RemoveFromCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertProperty.RemoveFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertProperty::RemoveFromCertificate
+ - certenroll/ICertProperty::RemoveFromCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertProperty.RemoveFromCertificate
 ---
 
 # ICertProperty::RemoveFromCertificate
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>RemoveFromCertificate</b> method disassociates a property from a certificate. Specify the property to remove by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> property.
-
+The <b>RemoveFromCertificate</b> method disassociates a property from a certificate. Specify the property to remove by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> property.
 
 ## -parameters
-
-
-
 
 ### -param MachineContext [in]
 
 A <b>VARIANT_BOOL</b> value that indicates  whether the certificate store is located on the local computer. Specify <b>VARIANT_TRUE</b> if the store is local.
 
-
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the certificate string identified by the <i>strCertificate</i> parameter.
-
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the certificate string identified by the <i>strCertificate</i> parameter.
 
 ### -param strCertificate [in]
 
@@ -84,11 +79,9 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -120,22 +113,11 @@ The certificate was found but the private key could not be loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>

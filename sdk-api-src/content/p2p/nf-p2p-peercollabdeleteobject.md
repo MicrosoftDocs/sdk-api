@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabDeleteObject
 title: PeerCollabDeleteObject function (p2p.h)
 description: Deletes a peer object from the calling endpoint.
+helpviewer_keywords: ["PeerCollabDeleteObject","PeerCollabDeleteObject function [Peer Networking]","p2p.peercollabdeleteobject","p2p/PeerCollabDeleteObject"]
 old-location: p2p\peercollabdeleteobject.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 4849f8da-7f8a-4951-94eb-624ee186ec83
 ms.date: 12/05/2018
 ms.keywords: PeerCollabDeleteObject, PeerCollabDeleteObject function [Peer Networking], p2p.peercollabdeleteobject, p2p/PeerCollabDeleteObject
-f1_keywords:
-- p2p/PeerCollabDeleteObject
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabDeleteObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabDeleteObject
+ - p2p/PeerCollabDeleteObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabDeleteObject
 ---
 
 # PeerCollabDeleteObject function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabDeleteObject</b> function deletes a peer object from the calling endpoint.
 
-
 ## -parameters
-
-
-
 
 ### -param pObjectId [in]
 
 Pointer to a GUID value that uniquely identifies the peer object to delete from the calling endpoint.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -118,14 +112,8 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Peer objects are run-time data items associated with a particular application, such as a picture, an avatar, a certificate, or a specific description. Each peer object must be smaller than 3216K in size.
 
@@ -133,16 +121,6 @@ Trusted contacts watching this peer object and the subscriber of the "Me" contac
 
 Pre-defined objects, like Picture objects, cannot be deleted by calling this API.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFStreamConfig.GetMediaType
 title: IMFASFStreamConfig::GetMediaType (wmcontainer.h)
 description: Retrieves the media type of the stream.
+helpviewer_keywords: ["6311115a-26e6-47b7-b724-0209a5bf45d7","GetMediaType","GetMediaType method [Media Foundation]","GetMediaType method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetMediaType method","IMFASFStreamConfig.GetMediaType","IMFASFStreamConfig::GetMediaType","mf.imfasfstreamconfig_getmediatype","wmcontainer/IMFASFStreamConfig::GetMediaType"]
 old-location: mf\imfasfstreamconfig_getmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6311115a-26e6-47b7-b724-0209a5bf45d7
 ms.date: 12/05/2018
 ms.keywords: 6311115a-26e6-47b7-b724-0209a5bf45d7, GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetMediaType method, IMFASFStreamConfig.GetMediaType, IMFASFStreamConfig::GetMediaType, mf.imfasfstreamconfig_getmediatype, wmcontainer/IMFASFStreamConfig::GetMediaType
-f1_keywords:
-- wmcontainer/IMFASFStreamConfig.GetMediaType
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamConfig.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamConfig::GetMediaType
+ - wmcontainer/IMFASFStreamConfig::GetMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamConfig.GetMediaType
 ---
 
 # IMFASFStreamConfig::GetMediaType
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the media type of the stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppIMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type object associated with the stream. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type object associated with the stream. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,35 +80,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To reduce unnecessary copying, the method returns a pointer to the media type  that is stored internally by the object. Do not modify the returned media type,  as the results are not defined.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setmediatype">IMFASFStreamConfig::SetMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setmediatype">IMFASFStreamConfig::SetMediaType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

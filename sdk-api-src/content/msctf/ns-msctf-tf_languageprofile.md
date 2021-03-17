@@ -2,15 +2,12 @@
 UID: NS:msctf.TF_LANGUAGEPROFILE
 title: TF_LANGUAGEPROFILE (msctf.h)
 description: The TF_LANGUAGEPROFILE structure contains information about a language profile.
+helpviewer_keywords: ["TF_LANGUAGEPROFILE","TF_LANGUAGEPROFILE structure [Text Services Framework]","_tsf_tf_languageprofile_ref","msctf/TF_LANGUAGEPROFILE","tsf.tf_languageprofile"]
 old-location: tsf\tf_languageprofile.htm
 tech.root: TSF
 ms.assetid: f9dbd701-d893-409b-b033-3e37d12ccaa7
 ms.date: 12/05/2018
 ms.keywords: TF_LANGUAGEPROFILE, TF_LANGUAGEPROFILE structure [Text Services Framework], _tsf_tf_languageprofile_ref, msctf/TF_LANGUAGEPROFILE, tsf.tf_languageprofile
-f1_keywords:
-- msctf/TF_LANGUAGEPROFILE
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msctf.h
-api_name:
-- TF_LANGUAGEPROFILE
 targetos: Windows
 req.typenames: TF_LANGUAGEPROFILE
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TF_LANGUAGEPROFILE
+ - msctf/TF_LANGUAGEPROFILE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msctf.h
+api_name:
+ - TF_LANGUAGEPROFILE
 ---
 
 # TF_LANGUAGEPROFILE structure
@@ -48,51 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TF_LANGUAGEPROFILE</b> structure contains information about a language profile.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field clsid
 
 Specifies the class identifier of the text service within the language profile.
 
-
 ### -field langid
 
 Specifies the language identifier of the profile.
-
 
 ### -field catid
 
 Specifies the identifier of the category that the text service belongs to.
 
-
 ### -field fActive
 
 A Boolean value, when <b>TRUE</b>, indicates that the language is activated.
-
 
 ### -field guidProfile
 
 Specifies the identifier of the language profile.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtflanguageprofiles-next">IEnumTfLanguageProfiles::Next
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtflanguageprofiles-next">IEnumTfLanguageProfiles::Next
       </a>
- 
-
- 
-

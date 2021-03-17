@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLUnregisterEvent
 title: SLUnregisterEvent function (slpublic.h)
 description: Unregisters a registered event in the SL service.
+helpviewer_keywords: ["SLUnregisterEvent","SLUnregisterEvent function [Security]","security.slunregisterevent","slpublic/SLUnregisterEvent"]
 old-location: security\slunregisterevent.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
 ms.date: 12/05/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
-f1_keywords:
-- slpublic/SLUnregisterEvent
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLUnregisterEvent
+ - slpublic/SLUnregisterEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLUnregisterEvent
 ---
 
 # SLUnregisterEvent function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a registered event in the SL service.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in, optional]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC session.
 
-
 ### -param pwszEventId [in]
 
 Type: <b>PCWSTR</b>
 
 The predefined SL event identifier that will be unregistered.
-
 
 ### -param pApplicationId [in]
 
@@ -77,17 +72,13 @@ Type: <b>const SLID*</b>
 
 A pointer to the application ID that the event will be unregistered from.
 
-
 ### -param hEvent [in]
 
 Type: <b>HANDLE</b>
 
 The registered event handle.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -135,7 +126,4 @@ The requested event is not registered with the service.
 </td>
 </tr>
 </table>
- 
-
-
 

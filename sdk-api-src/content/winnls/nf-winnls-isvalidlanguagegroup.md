@@ -2,15 +2,12 @@
 UID: NF:winnls.IsValidLanguageGroup
 title: IsValidLanguageGroup function (winnls.h)
 description: Determines if a language group is installed or supported on the operating system. For more information, see NLS Terminology.
+helpviewer_keywords: ["IsValidLanguageGroup","IsValidLanguageGroup function [Internationalization for Windows Applications]","LGRPID_INSTALLED","LGRPID_SUPPORTED","_win32_IsValidLanguageGroup","intl.isvalidlanguagegroup","winnls/IsValidLanguageGroup"]
 old-location: intl\isvalidlanguagegroup.htm
 tech.root: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
 ms.date: 12/05/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
-f1_keywords:
-- winnls/IsValidLanguageGroup
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- IsValidLanguageGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsValidLanguageGroup
+ - winnls/IsValidLanguageGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - IsValidLanguageGroup
 ---
 
 # IsValidLanguageGroup function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines if a language group is installed or supported on the operating system. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
-
+Determines if a language group is installed or supported on the operating system. For more information, see <a href="/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
 ## -parameters
-
-
-
 
 ### -param LanguageGroup [in]
 
@@ -123,48 +120,29 @@ Determine if language group identifier is supported.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the language group identifier passes the specified validity test, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If the LGRPID_INSTALLED flag is specified and this function returns <b>TRUE</b>, the language group identifier is both supported and installed on the operating system.
 
 If the LGRPID_SUPPORTED flag is specified and this function returns <b>TRUE</b>, the language group identifier is supported in the release, but not necessarily installed on the operating system.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumlanguagegrouplocalesa">EnumLanguageGroupLocales</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

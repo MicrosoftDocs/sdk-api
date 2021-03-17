@@ -2,15 +2,12 @@
 UID: NF:wsdevlicensing.CheckDeveloperLicense
 title: CheckDeveloperLicense function (wsdevlicensing.h)
 description: Checks to see if a developer license exists.
+helpviewer_keywords: ["CheckDeveloperLicense","CheckDeveloperLicense function","devlic.checkdeveloperlicense","wsdevlicensing/CheckDeveloperLicense"]
 old-location: devlic\checkdeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344
 ms.date: 12/05/2018
 ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.checkdeveloperlicense, wsdevlicensing/CheckDeveloperLicense
-f1_keywords:
-- wsdevlicensing/CheckDeveloperLicense
-dev_langs:
-- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: WSClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WSClient.dll
-- Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
-- Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
-api_name:
-- CheckDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CheckDeveloperLicense
+ - wsdevlicensing/CheckDeveloperLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WSClient.dll
+ - Ext-MS-Win-WSClient-devlicense-l1-1-0.dll
+ - Ext-MS-Win-WSClient-devlicense-l1-1-1.dll
+api_name:
+ - CheckDeveloperLicense
 ---
 
 # CheckDeveloperLicense function
@@ -50,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks to see if a developer license exists.
 
-
 ## -parameters
-
-
-
 
 ### -param pExpiration [out]
 
 Indicates when the developer license expires.
 
-
 ## -returns
 
-
-
-Returns an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
-
-
-
+Returns an <a href="/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
 
 ## -remarks
-
-
 
 The following is a list of common error codes that this function returns:
 
@@ -118,7 +107,3 @@ The following is a list of common error codes that this function returns:
 <td>License is expired.</td>
 </tr>
 </table>
- 
-
-
-

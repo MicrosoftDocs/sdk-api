@@ -2,15 +2,12 @@
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin
 title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin (wmpservices.h)
 description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.
+helpviewer_keywords: ["IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin","IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin function [Windows Media Player]","wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin","wmpservices/WMPRegisterPlayerPlugin"]
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
-f1_keywords:
-- wmpservices/WMPRegisterPlayerPlugin
-dev_langs:
-- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wmp.dll
-api_name:
-- WMPRegisterPlayerPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
+ - wmpservices/IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wmp.dll
+api_name:
+ - WMPRegisterPlayerPlugin
 ---
 
 # IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
@@ -48,70 +50,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin</b> function adds information to the registry that identifies a Windows Media Player plug-in.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFriendlyName
 
 Pointer to a wide character null-terminated string containing the friendly name of the plug-in. This is also the name that displays to the user.
 
-
 ### -param pwszDescription
 
 Pointer to a wide character null-terminated string containing the description of the plug-in. This information also displays to the user.
-
 
 ### -param pwszUninstallString
 
 Pointer to a wide character null-terminated string containing the uninstall string.
 
-
 ### -param dwPriority
 
 Integer value containing the priority position of the plug-in in the chain of currently enabled plug-ins.
-
 
 ### -param guidPluginType
 
 GUID specifying plug-in type. For DSP plug-ins, specify WMP_PLUGINTYPE_DSP to register for DirectShow playback and WMP_PLUGINTYPE_DSP_OUTOFPROC for Media Foundation playback. See Remarks.
 
-
 ### -param clsid
 
 The class ID of the plug-in.
-
 
 ### -param cMediaTypes
 
 Count of media types supported by the plug-in.
 
-
 ### -param pMediaTypes
 
 Pointer to an array of media types that enumerates the supported media types. Media types are stored as type/subtype pairs.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Implement this function in the exported <b>DllRegisterServer</b> function.
 
@@ -123,20 +102,10 @@ DSP plug-ins registered with identical values for <b>dwPriority</b> are ordered 
 
 DSP plug-ins designed to work with Windows Media Player 11 must call this method twice. The first call must specify <i>guidPluginType</i> as WMP_PLUGINTYPE_DSP. The second call must specify <i>guidPluginType</i> as WMP_PLUGINTYPE_DSP_OUTOFPROC. For plug-ins designed to be backward compatible, you should avoid making the second call when installing for earlier versions of Windows Media Player. To accomplish this, check the Windows version. If the Windows operating system major version is greater than or equal to 6, you can safely register the plug-in for Media Foundation playback.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar">IWMPMediaPluginRegistrar Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar">IWMPMediaPluginRegistrar Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin</a>

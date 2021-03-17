@@ -2,15 +2,12 @@
 UID: NF:recapis.MakeWordList
 title: MakeWordList function (recapis.h)
 description: Creates a word list.
+helpviewer_keywords: ["MakeWordList","MakeWordList function [Tablet PC]","b406a646-ab98-4852-af6d-9f4864ad8cf9","recapis/MakeWordList","tablet.makewordlist"]
 old-location: tablet\makewordlist.htm
 tech.root: tablet
 ms.assetid: b406a646-ab98-4852-af6d-9f4864ad8cf9
 ms.date: 12/05/2018
 ms.keywords: MakeWordList, MakeWordList function [Tablet PC], b406a646-ab98-4852-af6d-9f4864ad8cf9, recapis/MakeWordList, tablet.makewordlist
-f1_keywords:
-- recapis/MakeWordList
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- MakeWordList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MakeWordList
+ - recapis/MakeWordList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - MakeWordList
 ---
 
 # MakeWordList function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a word list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrec
 
 Handle to the recognizer.
 
-
 ### -param pBuffer
 
 Words to insert into the new word list. Separate words in this list with a \0 character and end the list with two \0 characters.
-
 
 ### -param phwl
 
 Handle to the new word list.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -153,22 +142,11 @@ An error is found in one of the words in the list. Possible errors include unsup
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addwordstowordlist">AddWordsToWordList Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>
- 
-
- 
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>

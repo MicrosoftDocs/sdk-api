@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.EnumerateNtmsObject
 title: EnumerateNtmsObject function (ntmsapi.h)
 description: The EnumerateNtmsObject function enumerates the RSM objects contained in the lpContainerId parameter.
+helpviewer_keywords: ["EnumerateNtmsObject","EnumerateNtmsObject function [Files]","NTMS_CHANGER","NTMS_CHANGER_TYPE","NTMS_COMPUTER","NTMS_DRIVE","NTMS_DRIVE_TYPE","NTMS_ENUM_DEFAULT","NTMS_ENUM_ROOTPOOL","NTMS_IEDOOR","NTMS_IEPORT","NTMS_LIBRARY","NTMS_LIBREQUEST","NTMS_LOGICAL_MEDIA","NTMS_MEDIA_POOL","NTMS_MEDIA_TYPE","NTMS_OPREQUEST","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_STORAGESLOT","_zaw_enumeratentmsobject","base.enumeratentmsobject","fs.enumeratentmsobject","ntmsapi/EnumerateNtmsObject"]
 old-location: fs\enumeratentmsobject.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: bbbb2888-36f5-4667-90f0-088382ad32f5
 ms.date: 12/05/2018
 ms.keywords: EnumerateNtmsObject, EnumerateNtmsObject function [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_ENUM_DEFAULT, NTMS_ENUM_ROOTPOOL, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, _zaw_enumeratentmsobject, base.enumeratentmsobject, fs.enumeratentmsobject, ntmsapi/EnumerateNtmsObject
-f1_keywords:
-- ntmsapi/EnumerateNtmsObject
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- EnumerateNtmsObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumerateNtmsObject
+ - ntmsapi/EnumerateNtmsObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - EnumerateNtmsObject
 ---
 
 # EnumerateNtmsObject function
@@ -48,44 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EnumerateNtmsObject</b> function enumerates the RSM objects contained in the <i>lpContainerId</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpContainerId [in]
 
 Unique identifier of the RSM object container whose objects are to be enumerated. This parameter can be the GUID of a library, media pool, partition ID, physical media, or logical media. To enumerate all objects of the type specified by the <i>dwType</i> parameter, regardless of the container, set this parameter to <b>NULL</b>. For more information about the object-container relationship, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
-
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 ### -param lpList [out]
 
 Buffer for the array of libraries, drives, media or other RSM object IDs.
 
-
 ### -param lpdwListSize [in, out]
 
 Pointer to a variable that specifies the maximum number of IDs the function can return through the <i>lpList</i> parameter. At return time, the number of IDs in <i>lpList</i> is returned in <i>lpdwListSize</i>.
 
-
 ### -param dwType [in]
 
 Type of objects to be enumerated in the <i>lpContainerId</i> container. If <i>lpContainerId</i> is <b>NULL</b>, all objects of this type supported by RSM are enumerated. This parameter can be one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type. 
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type. 
 
 
 
@@ -335,8 +328,6 @@ The <i>lpContainerId</i> parameter must be <b>NULL</b> or a library GUID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -372,10 +363,7 @@ Does not include enumeration of the root pool when enumerating the media pools.
 
 <b>Windows XP:  </b>This parameter is reserved and must be set to zero.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -451,14 +439,8 @@ The function was successful. If <i>lpContainerId</i> contains no objects of the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Security functions are also available to get and set specific access rights on RSM objects.
 
@@ -470,36 +452,26 @@ If the <i>lpContainerId</i> parameter is set to <b>NULL</b>, RSM enumerates top-
 
 If more than one object is listed, the object may be enumerated from more than one container. The <b>NULL</b> container is the highest-level container and enumerates all objects in a system. For example, you can enumerate media in a particular library or all media in the system.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-createntmsmediapool">CreateNtmsMediaPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-createntmsmediapool">CreateNtmsMediaPool</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>

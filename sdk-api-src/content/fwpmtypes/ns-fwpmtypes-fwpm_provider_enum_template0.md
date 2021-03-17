@@ -2,15 +2,12 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER_ENUM_TEMPLATE0_
 title: FWPM_PROVIDER_ENUM_TEMPLATE0 (fwpmtypes.h)
 description: Used for enumerating providers.
+helpviewer_keywords: ["FWPM_PROVIDER_ENUM_TEMPLATE0","FWPM_PROVIDER_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_provider_enum_template0_struct","fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_provider_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 9369becc-f766-444a-8056-a3c3bc610553
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_ENUM_TEMPLATE0, FWPM_PROVIDER_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_provider_enum_template0_struct, fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0
-f1_keywords:
-- fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_PROVIDER_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_PROVIDER_ENUM_TEMPLATE0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_PROVIDER_ENUM_TEMPLATE0_
+ - fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0_
+ - FWPM_PROVIDER_ENUM_TEMPLATE0
+ - fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_PROVIDER_ENUM_TEMPLATE0
 ---
 
 # FWPM_PROVIDER_ENUM_TEMPLATE0 structure
@@ -48,39 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_PROVIDER_ENUM_TEMPLATE0</b> structure is used for enumerating providers.
 
-
 ## -struct-fields
-
-
-
 
 ### -field reserved
 
 Reserved for system use.
 
-
 ## -remarks
-
-
 
 Currently, there is no way to limit the
 enumeration — all providers are returned.
 
-<b>FWPM_PROVIDER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_PROVIDER_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>FWPM_PROVIDER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_PROVIDER_ENUM_TEMPLATE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

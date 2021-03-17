@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptGetUserKey
 title: CryptGetUserKey function (wincrypt.h)
 description: Retrieves a handle of one of a user's two public/private key pairs.
+helpviewer_keywords: ["CryptGetUserKey","CryptGetUserKey function [Security]","_crypto2_cryptgetuserkey","security.cryptgetuserkey","wincrypt/CryptGetUserKey"]
 old-location: security\cryptgetuserkey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.date: 12/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
-f1_keywords:
-- wincrypt/CryptGetUserKey
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetUserKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetUserKey
+ - wincrypt/CryptGetUserKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetUserKey
 ---
 
 # CryptGetUserKey function
@@ -50,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetUserKey</b> function retrieves a handle of one of a user's two <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pairs</a>. This function is used only by the owner of the public/private key pairs and only when the handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and its associated <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> is available. If the CSP handle is not available and the user's certificate is, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>.
-
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetUserKey</b> function retrieves a handle of one of a user's two <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a>. This function is used only by the owner of the public/private key pairs and only when the handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and its associated <a href="/windows/desktop/SecGloss/k-gly">key container</a> is available. If the CSP handle is not available and the user's certificate is, use 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>.
 
 ## -parameters
 
-
-
-
 ### -param hProv [in]
 
-<b>HCRYPTPROV</b> handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) created by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
+<b>HCRYPTPROV</b> handle of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) created by a call to 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ### -param dwKeySpec [in]
 
@@ -75,21 +71,17 @@ Identifies the private key to use from the key container. It can be AT_KEYEXCHAN
 
 Additionally, some providers allow access to other user-specific keys through this function. For details, see the documentation on the specific provider.
 
-
 ### -param phUserKey [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptkey">HCRYPTKEY</a> handle of the retrieved keys. When you have finished using the key, delete the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function. 
-
+<a href="/windows/desktop/SecCrypto/hcryptkey">HCRYPTKEY</a> handle of the retrieved keys. When you have finished using the key, delete the handle by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP being used. Some possible error codes follow.
 
@@ -154,30 +146,19 @@ The key requested by the <i>dwKeySpec</i> parameter does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>

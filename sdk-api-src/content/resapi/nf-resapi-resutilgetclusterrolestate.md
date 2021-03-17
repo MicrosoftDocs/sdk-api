@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilGetClusterRoleState
 title: ResUtilGetClusterRoleState function (resapi.h)
 description: Determines whether or not a specific role has been assigned to a cluster.
+helpviewer_keywords: ["ClusterRoleDHCP","ClusterRoleDTC","ClusterRoleFileServer","ClusterRoleGenericApplication","ClusterRoleGenericScript","ClusterRoleGenericService","ClusterRoleISCSINameServer","ClusterRoleMSMQ","ClusterRoleNFS","ClusterRolePrintServer","ClusterRoleStandAloneNamespaceServer","ClusterRoleVolumeShadowCopyServiceTask","ClusterRoleWINS","ResUtilGetClusterRoleState","ResUtilGetClusterRoleState function [Failover Cluster]","mscs.resutilgetclusterrolestate","resapi/ResUtilGetClusterRoleState"]
 old-location: mscs\resutilgetclusterrolestate.htm
 tech.root: MsCS
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
 ms.date: 12/05/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
-f1_keywords:
-- resapi/ResUtilGetClusterRoleState
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetClusterRoleState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetClusterRoleState
+ - resapi/ResUtilGetClusterRoleState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetClusterRoleState
 ---
 
 # ResUtilGetClusterRoleState function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether or not a specific role has been assigned to a cluster.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 The handle of the queried cluster.
 
-
 ### -param eClusterRole [in]
 
-The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
+The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
 
 
 
@@ -144,12 +140,9 @@ This enumerator represents the Volume Shadow Copy Service Task cluster role.
 
 This enumerator represents the WINS Service cluster role.
 
-
 ## -returns
 
-
-
-The possible return values for this function are enumerators from the  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
+The possible return values for this function are enumerators from the  <a href="/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
 
 <table>
 <tr>
@@ -164,7 +157,7 @@ The possible return values for this function are enumerators from the  <a href="
 </dl>
 </td>
 <td width="60%">
-It is unknown whether or not the role is clustered.  If this value is returned then an error has occurred.  For more information call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+It is unknown whether or not the role is clustered.  If this value is returned then an error has occurred.  For more information call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -193,26 +186,15 @@ The role is not clustered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a>
+<a href="/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>

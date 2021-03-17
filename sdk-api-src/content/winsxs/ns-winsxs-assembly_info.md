@@ -2,15 +2,12 @@
 UID: NS:winsxs._ASSEMBLY_INFO
 title: ASSEMBLY_INFO (winsxs.h)
 description: The ASSEMBLY_INFO structure contains information about an assembly in the side-by-side assembly store. The information is used by the QueryAssemblyInfo method.
+helpviewer_keywords: ["ASSEMBLYINFO_FLAG_INSTALLED","ASSEMBLY_INFO","ASSEMBLY_INFO structure [Side-by-side Assemblies]","setup.assembly_info_","winsxs/ASSEMBLY_INFO"]
 old-location: setup\assembly_info_.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 4281b375-0edd-453b-9505-e7dc5bd586fc
 ms.date: 12/05/2018
 ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], setup.assembly_info_, winsxs/ASSEMBLY_INFO
-f1_keywords:
-- winsxs/ASSEMBLY_INFO
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsxs.h
-api_name:
-- ASSEMBLY_INFO
 targetos: Windows
 req.typenames: ASSEMBLY_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ASSEMBLY_INFO
+ - winsxs/_ASSEMBLY_INFO
+ - ASSEMBLY_INFO
+ - winsxs/ASSEMBLY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsxs.h
+api_name:
+ - ASSEMBLY_INFO
 ---
 
 # ASSEMBLY_INFO structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a> method.
-
+The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a> method.
 
 ## -struct-fields
-
-
-
 
 ### -field cbAssemblyInfo
 
 The size of the structure in bytes.
-
 
 ### -field dwAssemblyFlags
 
@@ -82,20 +80,15 @@ Set this flag when using Windows Vista and later or Windows Server 2008 and la
 </td>
 </tr>
 </table>
- 
-
 
 ### -field uliAssemblySizeInKB
 
 The size of the files that comprise the assembly in kilobytes (KB).
 
-
 ### -field pszCurrentAssemblyPathBuf
 
 A pointer to a null-terminated string that contains the path to the manifest file.
 
-
 ### -field cchBuf
 
 The number  of characters, including the null terminator, in the string specified by <i>pszCurrentAssemblyPathBuf</i>.
-

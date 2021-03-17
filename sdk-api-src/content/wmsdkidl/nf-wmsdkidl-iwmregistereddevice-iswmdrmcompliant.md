@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsWmdrmCompliant
 title: IWMRegisteredDevice::IsWmdrmCompliant (wmsdkidl.h)
 description: The IsWmdrmCompliant method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.
+helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsWmdrmCompliant method","IWMRegisteredDevice.IsWmdrmCompliant","IWMRegisteredDevice::IsWmdrmCompliant","IWMRegisteredDeviceIsWmdrmCompliant","IsWmdrmCompliant","IsWmdrmCompliant method [windows Media Format]","IsWmdrmCompliant method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_iswmdrmcompliant","wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant"]
 old-location: wmformat\iwmregistereddevice_iswmdrmcompliant.htm
 tech.root: wmformat
 ms.assetid: 45bc7abb-1d39-4988-a9f0-867eaefe148f
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsWmdrmCompliant method, IWMRegisteredDevice.IsWmdrmCompliant, IWMRegisteredDevice::IsWmdrmCompliant, IWMRegisteredDeviceIsWmdrmCompliant, IsWmdrmCompliant, IsWmdrmCompliant method [windows Media Format], IsWmdrmCompliant method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_iswmdrmcompliant, wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.IsWmdrmCompliant
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.IsWmdrmCompliant
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::IsWmdrmCompliant
+ - wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.IsWmdrmCompliant
 ---
 
 # IWMRegisteredDevice::IsWmdrmCompliant
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IsWmdrmCompliant</b> method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfCompliant [out]
 
 Address of a variable that receives the device DRM compliance status. <b>TRUE</b> indicates that Windows Media DRM 10 for Network Devices is supported.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>

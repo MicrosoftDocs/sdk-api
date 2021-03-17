@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionManager.GetConnection
 title: IMbnConnectionManager::GetConnection (mbnapi.h)
 description: Gets a connection.
+helpviewer_keywords: ["GetConnection","GetConnection method [Microsoft Broadband Networks]","GetConnection method [Microsoft Broadband Networks]","IMbnConnectionManager interface","IMbnConnectionManager interface [Microsoft Broadband Networks]","GetConnection method","IMbnConnectionManager.GetConnection","IMbnConnectionManager::GetConnection","mbn.imbnconnectionmanager_getconnection","mbnapi/IMbnConnectionManager::GetConnection"]
 old-location: mbn\imbnconnectionmanager_getconnection.htm
 tech.root: mbn
 ms.assetid: fbeac057-77e3-438e-a7a9-b6f223a09dbe
 ms.date: 12/05/2018
 ms.keywords: GetConnection, GetConnection method [Microsoft Broadband Networks], GetConnection method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnection method, IMbnConnectionManager.GetConnection, IMbnConnectionManager::GetConnection, mbn.imbnconnectionmanager_getconnection, mbnapi/IMbnConnectionManager::GetConnection
-f1_keywords:
-- mbnapi/IMbnConnectionManager.GetConnection
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionManager.GetConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionManager::GetConnection
+ - mbnapi/IMbnConnectionManager::GetConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionManager.GetConnection
 ---
 
 # IMbnConnectionManager::GetConnection
@@ -53,25 +55,17 @@ ms.custom: 19H1
 
 Gets a connection.
 
-
 ## -parameters
-
-
-
 
 ### -param connectionID [in]
 
 A string containing the connection ID.
 
-
 ### -param mbnConnection [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the requested connection.  If the method returns anything other than S_OK, then this is <b>NULL</b>.
-
+A pointer to an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the requested connection.  If the method returns anything other than S_OK, then this is <b>NULL</b>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,18 +108,7 @@ Could not allocate the required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager">IMbnConnectionManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanager">IMbnConnectionManager</a>

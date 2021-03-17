@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDateFromDec
 title: VarDateFromDec function (oleauto.h)
 description: Converts a decimal value to a date value.
+helpviewer_keywords: ["VarDateFromDec","VarDateFromDec function [Automation]","_oa96_VarDateFromDec","automat.vardatefromdec","oleauto/VarDateFromDec"]
 old-location: automat\vardatefromdec.htm
 tech.root: automat
 ms.assetid: 37cba5ec-5e17-474a-8d63-422f7e828ab3
 ms.date: 12/05/2018
 ms.keywords: VarDateFromDec, VarDateFromDec function [Automation], _oa96_VarDateFromDec, automat.vardatefromdec, oleauto/VarDateFromDec
-f1_keywords:
-- oleauto/VarDateFromDec
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDateFromDec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDateFromDec
+ - oleauto/VarDateFromDec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDateFromDec
 ---
 
 # VarDateFromDec function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a decimal value to a date value.
 
-
 ## -parameters
-
-
-
 
 ### -param pdecIn [in]
 
 The value to convert.
 
-
 ### -param pdateOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

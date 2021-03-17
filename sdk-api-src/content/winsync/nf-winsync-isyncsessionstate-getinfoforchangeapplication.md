@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncSessionState.GetInfoForChangeApplication
 title: ISyncSessionState::GetInfoForChangeApplication (winsync.h)
 description: Retrieves stored data for a serialized change applier.
+helpviewer_keywords: ["GetInfoForChangeApplication","GetInfoForChangeApplication method [Windows Sync]","GetInfoForChangeApplication method [Windows Sync]","ISyncSessionState interface","ISyncSessionState interface [Windows Sync]","GetInfoForChangeApplication method","ISyncSessionState.GetInfoForChangeApplication","ISyncSessionState::GetInfoForChangeApplication","winsync.isyncsessionstate_getinfoforchangeapplication","winsync/ISyncSessionState::GetInfoForChangeApplication"]
 old-location: winsync\isyncsessionstate_getinfoforchangeapplication.htm
 tech.root: winsync
 ms.assetid: 88f7f8f7-468f-4d9d-9593-0d3f92cb458f
 ms.date: 12/05/2018
 ms.keywords: GetInfoForChangeApplication, GetInfoForChangeApplication method [Windows Sync], GetInfoForChangeApplication method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetInfoForChangeApplication method, ISyncSessionState.GetInfoForChangeApplication, ISyncSessionState::GetInfoForChangeApplication, winsync.isyncsessionstate_getinfoforchangeapplication, winsync/ISyncSessionState::GetInfoForChangeApplication
-f1_keywords:
-- winsync/ISyncSessionState.GetInfoForChangeApplication
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionState.GetInfoForChangeApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState::GetInfoForChangeApplication
+ - winsync/ISyncSessionState::GetInfoForChangeApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionState.GetInfoForChangeApplication
 ---
 
 # ISyncSessionState::GetInfoForChangeApplication
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves stored data for a serialized change applier.
 
-
 ## -parameters
-
-
-
 
 ### -param pbChangeApplierInfo [in, out]
 
 Returns the serialized change applier data.
 
-
 ### -param pcbChangeApplierInfo [in, out]
 
 Specifies the number of bytes in <i>pbChangeApplierInfo</i>. Returns the number of bytes required to retrieve the change applier data when <i>pcbChangeApplierInfo</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,18 +113,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>

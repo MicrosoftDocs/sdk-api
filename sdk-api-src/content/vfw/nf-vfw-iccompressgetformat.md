@@ -2,15 +2,12 @@
 UID: NF:vfw.ICCompressGetFormat
 title: ICCompressGetFormat macro (vfw.h)
 description: The ICCompressGetFormat macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.
+helpviewer_keywords: ["ICCompressGetFormat","ICCompressGetFormat macro [Windows Multimedia]","_win32_ICCompressGetFormat","multimedia.iccompressgetformat","vfw/ICCompressGetFormat"]
 old-location: multimedia\iccompressgetformat.htm
 tech.root: Multimedia
 ms.assetid: d6552dc0-21fb-475c-9ec4-cb3ef1f3a70e
 ms.date: 12/05/2018
 ms.keywords: ICCompressGetFormat, ICCompressGetFormat macro [Windows Multimedia], _win32_ICCompressGetFormat, multimedia.iccompressgetformat, vfw/ICCompressGetFormat
-f1_keywords:
-- vfw/ICCompressGetFormat
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICCompressGetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICCompressGetFormat
+ - vfw/ICCompressGetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICCompressGetFormat
 ---
 
 # ICCompressGetFormat macro
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ICCompressGetFormat</b> macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-get-format">ICM_COMPRESS_GET_FORMAT</a> message.
-
-
-
+The <b>ICCompressGetFormat</b> macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-compress-get-format">ICM_COMPRESS_GET_FORMAT</a> message.
 
 ## -parameters
 
-
-
-
 ### -param hic
 
-Handle of the compressor. 
-
+Handle of the compressor.
 
 ### -param lpbiInput
 
 Pointer to a BITMAPINFO structure containing the input format.
 
-
 ### -param lpbiOutput
 
-Pointer to a BITMAPINFO structure containing the output format. 
-
+Pointer to a BITMAPINFO structure containing the output format.
 
 ## -remarks
 
-
-
 If <i>lpbiOutput</i> is nonzero, the driver should fill the <b>BITMAPINFO</b> structure with the default output format corresponding to the input format specified for <i>lpbiInput</i>. If the compressor can produce several formats, the default format should be the one that preserves the greatest amount of information.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

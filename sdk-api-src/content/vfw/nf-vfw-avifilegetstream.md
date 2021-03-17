@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIFileGetStream
 title: AVIFileGetStream function (vfw.h)
 description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.
+helpviewer_keywords: ["AVIFileGetStream","AVIFileGetStream function [Windows Multimedia]","_win32_AVIFileGetStream","multimedia.avifilegetstream","vfw/AVIFileGetStream"]
 old-location: multimedia\avifilegetstream.htm
 tech.root: Multimedia
 ms.assetid: b51a823c-6904-4942-883f-bda347541757
 ms.date: 12/05/2018
 ms.keywords: AVIFileGetStream, AVIFileGetStream function [Windows Multimedia], _win32_AVIFileGetStream, multimedia.avifilegetstream, vfw/AVIFileGetStream
-f1_keywords:
-- vfw/AVIFileGetStream
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-- Ext-MS-Win-Media-Avi-L1-1-0.dll
-api_name:
-- AVIFileGetStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIFileGetStream
+ - vfw/AVIFileGetStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+ - Ext-MS-Win-Media-Avi-L1-1-0.dll
+api_name:
+ - AVIFileGetStream
 ---
 
 # AVIFileGetStream function
@@ -49,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIFileGetStream</b> function returns the address of a stream interface that is associated with a specified AVI file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfile
 
 Handle to an open AVI file.
 
-
 ### -param ppavi
 
 Pointer to the new stream interface.
-
 
 ### -param fccType
 
@@ -99,17 +91,12 @@ Four-character code indicating the type of stream to open. Zero indicates any st
 <td>Indicates a video stream.</td>
 </tr>
 </table>
- 
-
 
 ### -param lParam
 
 Count of the stream type. Identifies which occurrence of the specified stream type to access.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -141,31 +128,15 @@ Not enough memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The argument <i>pfile</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>ppavi</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
-
-
-
+The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface. The argument <i>ppavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

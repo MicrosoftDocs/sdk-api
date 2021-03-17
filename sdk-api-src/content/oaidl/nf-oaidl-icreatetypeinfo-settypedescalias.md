@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetTypeDescAlias
 title: ICreateTypeInfo::SetTypeDescAlias (oaidl.h)
 description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetTypeDescAlias method","ICreateTypeInfo.SetTypeDescAlias","ICreateTypeInfo::SetTypeDescAlias","SetTypeDescAlias","SetTypeDescAlias method [Automation]","SetTypeDescAlias method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetTypeDescAlias","automat.icreatetypeinfo_settypedescalias","oaidl/ICreateTypeInfo::SetTypeDescAlias"]
 old-location: automat\icreatetypeinfo_settypedescalias.htm
 tech.root: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeDescAlias method, ICreateTypeInfo.SetTypeDescAlias, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetTypeDescAlias
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetTypeDescAlias
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetTypeDescAlias
+ - oaidl/ICreateTypeInfo::SetTypeDescAlias
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetTypeDescAlias
 ---
 
 # ICreateTypeInfo::SetTypeDescAlias
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
 
-
 ## -parameters
-
-
-
 
 ### -param pTDescAlias [in]
 
 The type description.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -146,27 +140,11 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To set the type for an alias, call <b>SetTypeDescAlias</b> for a type description whose TYPEKIND is TKIND_ALIAS.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

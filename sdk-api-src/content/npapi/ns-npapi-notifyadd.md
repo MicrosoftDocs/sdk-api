@@ -2,15 +2,12 @@
 UID: NS:npapi._NOTIFYADD
 title: NOTIFYADD (npapi.h)
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
+helpviewer_keywords: ["*LPNOTIFYADD","CONNECT_INTERACTIVE","CONNECT_PROMPT","CONNECT_TEMPORARY","CONNECT_UPDATE_PROFILE","CONNECT_UPDATE_RECENT","LPNOTIFYADD","LPNOTIFYADD structure pointer [Security]","NOTIFYADD","NOTIFYADD structure [Security]","_mnp_notifyadd","npapi/LPNOTIFYADD","npapi/NOTIFYADD","security.notifyadd"]
 old-location: security\notifyadd.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
 ms.date: 12/05/2018
 ms.keywords: '*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd'
-f1_keywords:
-- npapi/NOTIFYADD
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Npapi.h
-api_name:
-- NOTIFYADD
 targetos: Windows
 req.typenames: NOTIFYADD, *LPNOTIFYADD
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NOTIFYADD
+ - npapi/_NOTIFYADD
+ - LPNOTIFYADD
+ - npapi/LPNOTIFYADD
+ - NOTIFYADD
+ - npapi/NOTIFYADD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Npapi.h
+api_name:
+ - NOTIFYADD
 ---
 
 # NOTIFYADD structure
@@ -48,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NOTIFYADD</b> structure contains the details of a network connect operation. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> function.
-
+<a href="/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field hwndOwner
 
 A handle to a window which should own any messages or dialog boxes the application receiving the notification might display.
 
-
 ### -field NetResource
 
 Specifies the network resource to connect to. The valid fields are the same as for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> function.
-
+<a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> function.
 
 ### -field dwAddFlags
 
@@ -129,5 +128,3 @@ The connection is being added to the recent connection list.
 </td>
 </tr>
 </table>
- 
-

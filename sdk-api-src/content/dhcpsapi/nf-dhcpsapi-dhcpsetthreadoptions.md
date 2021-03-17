@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpSetThreadOptions
 title: DhcpSetThreadOptions function (dhcpsapi.h)
 description: The DhcpSetThreadOptions function sets options on the currently executing DHCP thread.
+helpviewer_keywords: ["DHCP_FLAGS_DONT_ACCESS_DS","DhcpSetThreadOptions","DhcpSetThreadOptions function [DHCP]","dhcp.dhcpsetthreadoptions","dhcpsapi/DhcpSetThreadOptions"]
 old-location: dhcp\dhcpsetthreadoptions.htm
 tech.root: DHCP
 ms.assetid: aadca143-6fdd-4b25-9bd5-1ba177be148e
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions
-f1_keywords:
-- dhcpsapi/DhcpSetThreadOptions
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpSetThreadOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpSetThreadOptions
+ - dhcpsapi/DhcpSetThreadOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpSetThreadOptions
 ---
 
 # DhcpSetThreadOptions function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpSetThreadOptions</b> function sets options on the currently executing DHCP thread.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -76,51 +73,31 @@ Do not access the directory service while the DHCP thread is executing. After th
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumservers">DhcpEnumServers</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddserver">DhcpAddServer</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdeleteserver">DhcpDeleteServer</a>
 </li>
 </ul>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
 Reserved. This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
-
-
-
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -remarks
 
-
-
 <b>DhcpSetThreadOptions</b> currently allows only one option to be set.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetthreadoptions">DhcpGetThreadOptions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetthreadoptions">DhcpGetThreadOptions</a>

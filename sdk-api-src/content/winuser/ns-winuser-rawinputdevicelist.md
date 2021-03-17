@@ -2,15 +2,12 @@
 UID: NS:winuser.tagRAWINPUTDEVICELIST
 title: RAWINPUTDEVICELIST (winuser.h)
 description: Contains information about a raw input device.
+helpviewer_keywords: ["*PRAWINPUTDEVICELIST","PRAWINPUTDEVICELIST","PRAWINPUTDEVICELIST structure pointer [Keyboard and Mouse Input]","RAWINPUTDEVICELIST","RAWINPUTDEVICELIST structure [Keyboard and Mouse Input]","RIM_TYPEHID","RIM_TYPEKEYBOARD","RIM_TYPEMOUSE","_win32_RAWINPUTDEVICELIST_str","_win32_rawinputdevicelist_str_cpp","inputdev.rawinputdevicelist","winui._win32_rawinputdevicelist_str","winuser/PRAWINPUTDEVICELIST","winuser/RAWINPUTDEVICELIST"]
 old-location: inputdev\rawinputdevicelist.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinputdevicelist.htm
 ms.date: 12/05/2018
 ms.keywords: '*PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST, PRAWINPUTDEVICELIST structure pointer [Keyboard and Mouse Input], RAWINPUTDEVICELIST, RAWINPUTDEVICELIST structure [Keyboard and Mouse Input], RIM_TYPEHID, RIM_TYPEKEYBOARD, RIM_TYPEMOUSE, _win32_RAWINPUTDEVICELIST_str, _win32_rawinputdevicelist_str_cpp, inputdev.rawinputdevicelist, winui._win32_rawinputdevicelist_str, winuser/PRAWINPUTDEVICELIST, winuser/RAWINPUTDEVICELIST'
-f1_keywords:
-- winuser/RAWINPUTDEVICELIST
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RAWINPUTDEVICELIST
 targetos: Windows
 req.typenames: RAWINPUTDEVICELIST, *PRAWINPUTDEVICELIST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRAWINPUTDEVICELIST
+ - winuser/tagRAWINPUTDEVICELIST
+ - PRAWINPUTDEVICELIST
+ - winuser/PRAWINPUTDEVICELIST
+ - RAWINPUTDEVICELIST
+ - winuser/RAWINPUTDEVICELIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RAWINPUTDEVICELIST
 ---
 
 # RAWINPUTDEVICELIST structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a raw input device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hDevice
 
 Type: <b>HANDLE</b>
 
-A handle to the raw input device. 
-
+A handle to the raw input device.
 
 ### -field dwType
 
@@ -109,28 +109,19 @@ The device is a mouse.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

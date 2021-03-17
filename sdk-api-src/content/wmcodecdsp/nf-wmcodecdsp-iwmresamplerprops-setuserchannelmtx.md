@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IWMResamplerProps.SetUserChannelMtx
 title: IWMResamplerProps::SetUserChannelMtx (wmcodecdsp.h)
 description: Specifies the channel matrix.
+helpviewer_keywords: ["IWMResamplerProps interface [Media Foundation]","SetUserChannelMtx method","IWMResamplerProps.SetUserChannelMtx","IWMResamplerProps::SetUserChannelMtx","SetUserChannelMtx","SetUserChannelMtx method [Media Foundation]","SetUserChannelMtx method [Media Foundation]","IWMResamplerProps interface","codecapi.iwmresamplerpropssetuserchannelmtx","mf.iwmresamplerpropssetuserchannelmtx","wmcodecdsp/IWMResamplerProps::SetUserChannelMtx"]
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d7f225a9-c63d-4b4e-b75a-ed6156e594a0
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps interface [Media Foundation],SetUserChannelMtx method, IWMResamplerProps.SetUserChannelMtx, IWMResamplerProps::SetUserChannelMtx, SetUserChannelMtx, SetUserChannelMtx method [Media Foundation], SetUserChannelMtx method [Media Foundation],IWMResamplerProps interface, codecapi.iwmresamplerpropssetuserchannelmtx, mf.iwmresamplerpropssetuserchannelmtx, wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
-f1_keywords:
-- wmcodecdsp/IWMResamplerProps.SetUserChannelMtx
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMResamplerProps.SetUserChannelMtx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMResamplerProps::SetUserChannelMtx
+ - wmcodecdsp/IWMResamplerProps::SetUserChannelMtx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMResamplerProps.SetUserChannelMtx
 ---
 
 # IWMResamplerProps::SetUserChannelMtx
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the channel matrix.
 
-
-
 ## -parameters
-
-
-
 
 ### -param userChannelMtx [in]
 
 Pointer to an array of floating-point values that represents a channel conversion matrix.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,16 +79,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmresamp-channelmtx">MFPKEY_WMRESAMP_CHANNELMTX</a> property, except that the matrix is represented differently:
+This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpkey-wmresamp-channelmtx">MFPKEY_WMRESAMP_CHANNELMTX</a> property, except that the matrix is represented differently:
 
 <ul>
 <li>Values are floating point.</li>
@@ -107,16 +94,6 @@ To convert from the integer values given in the MFPKEY_WMRESAMP_CHANNELMTX prope
 
 where <i>Coeff</i> is an integer coefficient.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:ntsecpkg.CredMarshalTargetInfo
 title: CredMarshalTargetInfo function (ntsecpkg.h)
 description: Serializes the specified target into an array of byte values.
+helpviewer_keywords: ["CredMarshalTargetInfo","CredMarshalTargetInfo function [Security]","ntsecpkg/CredMarshalTargetInfo","security.credmarshaltargetinfo"]
 old-location: security\credmarshaltargetinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1e50a135-e8b3-4aa6-a3b0-f4b1490310e5
 ms.date: 12/05/2018
 ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo
-f1_keywords:
-- ntsecpkg/CredMarshalTargetInfo
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- CredMarshalTargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredMarshalTargetInfo
+ - ntsecpkg/CredMarshalTargetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - CredMarshalTargetInfo
 ---
 
 # CredMarshalTargetInfo function
@@ -48,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the specified target into an array of byte values.
-
 
 ## -parameters
 
-
-
-
 ### -param InTargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that specifies the target to serialize.
-
+A pointer to a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> version of the <a href="/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that specifies the target to serialize.
 
 ### -param Buffer [out]
 
 The serialized array of byte values that represents the target specified by the <i>InTargetInfo</i> parameter.
 
-
 ### -param BufferSize
 
 The size, in bytes, of the <i>Buffer</i> array.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>STATUS_SUCCESS</b>.
 
 If the function fails, it returns an error code that indicates the reason it failed.
-
-
-

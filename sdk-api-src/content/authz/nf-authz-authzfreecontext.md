@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzFreeContext
 title: AuthzFreeContext function (authz.h)
 description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
+helpviewer_keywords: ["AuthzFreeContext","AuthzFreeContext function [Security]","_win32_authzfreecontext","authz/AuthzFreeContext","security.authzfreecontext"]
 old-location: security\authzfreecontext.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
-f1_keywords:
-- authz/AuthzFreeContext
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-- Ext-MS-Win-authz-context-l1-1-0.dll
-api_name:
-- AuthzFreeContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzFreeContext
+ - authz/AuthzFreeContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+ - Ext-MS-Win-authz-context-l1-1-0.dll
+api_name:
+ - AuthzFreeContext
 ---
 
 # AuthzFreeContext function
@@ -49,41 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzFreeContext</b> function frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
 
 Starting with Windows Server 2012 and Windows 8, this function also frees the memory associated with device groups, user claims, and device claims.
 
-
 ## -parameters
-
-
-
 
 ### -param hAuthzClientContext [in]
 
 The <b>AUTHZ_CLIENT_CONTEXT_HANDLE</b> structure to be freed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

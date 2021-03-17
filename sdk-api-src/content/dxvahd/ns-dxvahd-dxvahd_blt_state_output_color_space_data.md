@@ -2,15 +2,12 @@
 UID: NS:dxvahd._DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 title: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA (dxvahd.h)
 description: Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation]","dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA","mf.dxvahd_blt_state_output_color_space_data"]
 old-location: mf\dxvahd_blt_state_output_color_space_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ec817ebc-dc3f-4101-863a-218f0a8c998a
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Media Foundation], dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, mf.dxvahd_blt_state_output_color_space_data
-f1_keywords:
-- dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 targetos: Windows
 req.typenames: DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - dxvahd/_DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+ - dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 ---
 
 # DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the output color space for blit operations, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field Usage
 
@@ -89,8 +88,6 @@ Video processing.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RGB_Range
 
@@ -124,8 +121,6 @@ Limited range (16-235).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_Matrix
 
@@ -159,8 +154,6 @@ ITU-R BT.709.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field YCbCr_xvYCC
 
@@ -194,30 +187,18 @@ Extended YCbCr (xvYCC).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
- 
-
-
 ### -field Value
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>RGB_Range</b> member applies to RGB output, while the <b>YCbCr_Matrix</b> and <b>YCbCr_xvYCC</b> members apply to YCbCr (YUV) output. If the device performs color-space conversion on the background color, it uses the values that apply to  both color spaces.
 
 Extended YCbCr can be used with either transfer matrix. Extended YCbCr does not change the black point or white point—the black point is still 16 and the white point is still 235. However, extended YCbCr explicitly allows blacker-than-black values in the range 1–15, and whiter-than-white values in the range 236–254. When extended YCbCr is used, the driver should not clip the luma values to the nominal 16–235 range.
 
-If the device supports extended YCbCr, it sets the <b>DXVAHD_DEVICE_CAPS_xvYCC</b> capability flag in the <b>DeviceCaps</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Otherwise, the device ignores the value of the <b>YCbCr_xvYCC</b> member and treats all YCbCr output as conventional YCbCr. To get the device's capabilities, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a>.
+If the device supports extended YCbCr, it sets the <b>DXVAHD_DEVICE_CAPS_xvYCC</b> capability flag in the <b>DeviceCaps</b>  member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. Otherwise, the device ignores the value of the <b>YCbCr_xvYCC</b> member and treats all YCbCr output as conventional YCbCr. To get the device's capabilities, call <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessordevicecaps">IDXVAHD_Device::GetVideoProcessorDeviceCaps</a>.
 
 If the output format is a wide-gamut RGB format, output might fall outside the nominal [0...1] range of sRGB. This is particularly true if one or more input streams use extended YCbCr.
 
@@ -253,33 +234,22 @@ HRESULT DXVAHD_SetOutputColorSpace(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_blt_state">DXVAHD_BLT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_blt_state">DXVAHD_BLT_STATE</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher
 title: WSDCreateDiscoveryPublisher function (wsddisco.h)
 description: Creates an IWSDiscoveryPublisher object.
+helpviewer_keywords: ["WSDCreateDiscoveryPublisher","WSDCreateDiscoveryPublisher function","ncd.wsdcreatediscoverypublisher_func","wsddisco/WSDCreateDiscoveryPublisher"]
 old-location: ncd\wsdcreatediscoverypublisher_func.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 18abde49-2ea7-4c49-9afe-1b7c7182aeeb
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryPublisher, WSDCreateDiscoveryPublisher function, ncd.wsdcreatediscoverypublisher_func, wsddisco/WSDCreateDiscoveryPublisher
-f1_keywords:
-- wsddisco/WSDCreateDiscoveryPublisher
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDiscoveryPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDiscoveryPublisher
+ - wsddisco/WSDCreateDiscoveryPublisher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDiscoveryPublisher
 ---
 
 # WSDCreateDiscoveryPublisher function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object.
-
+Creates an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object.
 
 ## -parameters
 
-
-
-
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param ppPublisher [out]
 
-Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object. Cannot be <b>NULL</b>.
-
+Returns a reference to the initialized <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object. Cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -114,7 +107,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

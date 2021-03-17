@@ -2,15 +2,12 @@
 UID: NF:comcat.ICatInformation.EnumClassesOfCategories
 title: ICatInformation::EnumClassesOfCategories (comcat.h)
 description: Retrieves an enumerator for the classes that implement one or more specified category identifiers.
+helpviewer_keywords: ["EnumClassesOfCategories","EnumClassesOfCategories method [COM]","EnumClassesOfCategories method [COM]","ICatInformation interface","ICatInformation interface [COM]","EnumClassesOfCategories method","ICatInformation.EnumClassesOfCategories","ICatInformation::EnumClassesOfCategories","_com_icatinformation_enumclassesofcategories","com.icatinformation_enumclassesofcategories","comcat/ICatInformation::EnumClassesOfCategories"]
 old-location: com\icatinformation_enumclassesofcategories.htm
 tech.root: com
 ms.assetid: 13d470ff-77e6-4a17-b2c9-c53676e21fba
 ms.date: 12/05/2018
 ms.keywords: EnumClassesOfCategories, EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumClassesOfCategories method, ICatInformation.EnumClassesOfCategories, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
-f1_keywords:
-- comcat/ICatInformation.EnumClassesOfCategories
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatInformation.EnumClassesOfCategories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatInformation::EnumClassesOfCategories
+ - comcat/ICatInformation::EnumClassesOfCategories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatInformation.EnumClassesOfCategories
 ---
 
 # ICatInformation::EnumClassesOfCategories
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an enumerator for the classes that implement one or more specified category identifiers.
 
-
 ## -parameters
-
-
-
 
 ### -param cImplemented [in]
 
 The number of category IDs in the <i>rgcatidImpl</i> array. This value cannot be zero. If this value is -1, classes are included in the enumeration, regardless of the categories they implement.
-
 
 ### -param rgcatidImpl [in]
 
@@ -68,38 +64,22 @@ An array of category identifiers.
 
 If a class requires a category identifier that is not specified, it is not included in the enumeration.
 
-
 ### -param cRequired [in]
 
 The number of category IDs in the <i>rgcatidReq</i> array. This value can be zero. If this value is -1, classes are included in the enumeration, regardless of the categories they require.
-
 
 ### -param rgcatidReq [in]
 
 An array of category identifiers.
 
-
 ### -param ppenumClsid [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> interface pointer that can be used to enumerate the CLSIDs of the classes that implement the specified category.
-
+A pointer to an <a href="/previous-versions/windows/desktop/legacy/dd542667(v=vs.85)">IEnumCLSID</a> interface pointer that can be used to enumerate the CLSIDs of the classes that implement the specified category.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>

@@ -2,15 +2,12 @@
 UID: NF:winsync.IForgottenKnowledge.ForgetToVersion
 title: IForgottenKnowledge::ForgetToVersion (winsync.h)
 description: Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.
+helpviewer_keywords: ["ForgetToVersion","ForgetToVersion method [Windows Sync]","ForgetToVersion method [Windows Sync]","IForgottenKnowledge interface","IForgottenKnowledge interface [Windows Sync]","ForgetToVersion method","IForgottenKnowledge.ForgetToVersion","IForgottenKnowledge::ForgetToVersion","winsync.iforgottenknowledge_forgettoversion","winsync/IForgottenKnowledge::ForgetToVersion"]
 old-location: winsync\iforgottenknowledge_forgettoversion.htm
 tech.root: winsync
 ms.assetid: 63ea1fdc-5200-40d4-a42a-dcda0318f602
 ms.date: 12/05/2018
 ms.keywords: ForgetToVersion, ForgetToVersion method [Windows Sync], ForgetToVersion method [Windows Sync],IForgottenKnowledge interface, IForgottenKnowledge interface [Windows Sync],ForgetToVersion method, IForgottenKnowledge.ForgetToVersion, IForgottenKnowledge::ForgetToVersion, winsync.iforgottenknowledge_forgettoversion, winsync/IForgottenKnowledge::ForgetToVersion
-f1_keywords:
-- winsync/IForgottenKnowledge.ForgetToVersion
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IForgottenKnowledge.ForgetToVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IForgottenKnowledge::ForgetToVersion
+ - winsync/IForgottenKnowledge::ForgetToVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IForgottenKnowledge.ForgetToVersion
 ---
 
 # IForgottenKnowledge::ForgetToVersion
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the forgotten knowledge to reflect that all versions that are less than or equal to the specified version might have been forgotten, and that corresponding tombstones might have been deleted.
 
-
 ## -parameters
-
-
-
 
 ### -param pKnowledge [in]
 
 The current knowledge of the replica that owns this forgotten knowledge object.
 
-
 ### -param pVersion [in]
 
 The version of the tombstone that has been cleaned up.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -106,31 +99,15 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When a replica cleans up the tombstone for an item, its associated provider must call this method and specify the version of the tombstone that was removed.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

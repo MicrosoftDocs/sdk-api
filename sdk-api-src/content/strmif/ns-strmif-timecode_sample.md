@@ -2,15 +2,12 @@
 UID: NS:strmif.tagTIMECODE_SAMPLE
 title: TIMECODE_SAMPLE (strmif.h)
 description: The TIMECODE_SAMPLE structure contains complete timecode information.
+helpviewer_keywords: ["*PTIMECODE_SAMPLE","AM_TIMECODE_COLORFRAME","AM_TIMECODE_COLORSEQUENCE","AM_TIMECODE_FILMSEQUENCE_TYPE","AM_TIMECODE_FLAG_CF","AM_TIMECODE_FLAG_DF","AM_TIMECODE_FLAG_FCM","AM_TIMECODE_FLAG_FIELD","ED_DEVCAP_ATN_READ","ED_DEVCAP_RTC_READ","ED_DEVCAP_TIMECODE_READ","TIMECODE_SAMPLE","TIMECODE_SAMPLE structure [DirectShow]","TIMECODE_SAMPLEStructure","dshow.timecode_sample","strmif/TIMECODE_SAMPLE","tagTIMECODE_SAMPLE"]
 old-location: dshow\timecode_sample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be
 ms.date: 12/05/2018
 ms.keywords: '*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, dshow.timecode_sample, strmif/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE'
-f1_keywords:
-- strmif/TIMECODE_SAMPLE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- TIMECODE_SAMPLE
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTIMECODE_SAMPLE
+ - strmif/tagTIMECODE_SAMPLE
+ - TIMECODE_SAMPLE
+ - strmif/TIMECODE_SAMPLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - TIMECODE_SAMPLE
 ---
 
 # TIMECODE_SAMPLE structure
@@ -48,33 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>TIMECODE_SAMPLE</code> structure contains complete timecode information.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field qwTick
 
 Reference time, in 100-nanosecond units.
 
-
 ### -field timecode
 
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure.
-
+<a href="/windows/desktop/DirectShow/getting-timecode-from-the-device">TIMECODE</a> structure.
 
 ### -field dwUser
 
 Packed SMPTE userbits.
-
 
 ### -field dwFlags
 
@@ -186,29 +178,15 @@ Read the relative time counter (RTC); applies to MPEG camcorders. This constant 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The upper 16 bits in <b>dwFlags</b> are reserved; set to zero.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">IAMTimecodeReader::GetTimecode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">IAMTimecodeReader::GetTimecode</a>

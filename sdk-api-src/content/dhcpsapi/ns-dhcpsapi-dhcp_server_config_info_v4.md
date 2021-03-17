@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_V4
 title: DHCP_SERVER_CONFIG_INFO_V4 (dhcpsapi.h)
 description: Defines the data used to configure the DHCP server.
+helpviewer_keywords: ["*LPDHCP_SERVER_CONFIG_INFO_V4","DHCP_SERVER_CONFIG_INFO_V4","DHCP_SERVER_CONFIG_INFO_V4 structure [DHCP]","DHCP_SERVER_USE_RPC_OVER_LPC","DHCP_SERVER_USE_RPC_OVER_NP","DHCP_SERVER_USE_RPC_OVER_TCPIP","LPDHCP_SERVER_CONFIG_INFO_V4","LPDHCP_SERVER_CONFIG_INFO_V4 structure pointer [DHCP]","dhcp.dhcp_server_config_info_v4","dhcpsapi/LPDHCP_SERVER_CONFIG_INFO_V4","dhcpsapi/_DHCP_SERVER_CONFIG_INFO_V4"]
 old-location: dhcp\dhcp_server_config_info_v4.htm
 tech.root: DHCP
 ms.assetid: a2a78c19-3161-431a-b1af-31dac994c3f6
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO_V4, DHCP_SERVER_CONFIG_INFO_V4, DHCP_SERVER_CONFIG_INFO_V4 structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO_V4, LPDHCP_SERVER_CONFIG_INFO_V4 structure pointer [DHCP], dhcp.dhcp_server_config_info_v4, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO_V4, dhcpsapi/_DHCP_SERVER_CONFIG_INFO_V4'
-f1_keywords:
-- dhcpsapi/DHCP_SERVER_CONFIG_INFO_V4
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_SERVER_CONFIG_INFO_V4
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO_V4, *LPDHCP_SERVER_CONFIG_INFO_V4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_SERVER_CONFIG_INFO_V4
+ - dhcpsapi/_DHCP_SERVER_CONFIG_INFO_V4
+ - LPDHCP_SERVER_CONFIG_INFO_V4
+ - dhcpsapi/LPDHCP_SERVER_CONFIG_INFO_V4
+ - DHCP_SERVER_CONFIG_INFO_V4
+ - dhcpsapi/DHCP_SERVER_CONFIG_INFO_V4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_SERVER_CONFIG_INFO_V4
 ---
 
 # DHCP_SERVER_CONFIG_INFO_V4 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DHCP_SERVER_CONFIG_INFO_V4</b> structure defines the data used to configure the DHCP server. 
-
+The <b>DHCP_SERVER_CONFIG_INFO_V4</b> structure defines the data used to configure the DHCP server.
 
 ## -struct-fields
-
-
-
 
 ### -field APIProtocolSupport
 
@@ -100,28 +101,22 @@ Local Procedure Call (LPC) can be used for local DHCP API RPC calls.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DatabaseName
 
 Unicode string that specifies the  file name of the client lease JET database.
 
-
 ### -field DatabasePath
 
 Unicode string that specifies the absolute path to <b>DatabaseName</b>.
-
 
 ### -field BackupPath
 
 Unicode string that specifies the absolute path and file name of the backup client lease JET database.
 
-
 ### -field BackupInterval
 
 Specifies the interval, in minutes,  between backups of the client lease database.
-
 
 ### -field DatabaseLoggingFlag
 
@@ -144,8 +139,6 @@ All database operations will be logged.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RestoreFlag
 
@@ -168,60 +161,39 @@ The client lease database should be restored from the path and file specified in
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DatabaseCleanupInterval
 
 Specifies the interval, in minutes,  between cleanup operations  performed on the client lease database.
 
-
 ### -field DebugFlag
 
 Reserved. This field should be set to 0x00000000.
-
 
 ### -field dwPingRetries
 
 Specifies a value equal to or greater than 0 or less than 6 that indicates the number of times to ping an unresponsive client before determining unavailability.
 
-
 ### -field cbBootTableString
 
 Specifies the size of <b>wszBootTableString</b>, in bytes.
-
 
 ### -field wszBootTableString
 
 Unicode string that contains the boot table string for the DHCP server. ?? More information needed. ??
 
-
 ### -field wszBootTableString.size_is
 
- 
-
-
 ### -field wszBootTableString.size_is.cbBootTableString/2
-
- 
-
 
 ### -field fAuditLog
 
 Specifies whether or not to enable audit logging on the DHCP server. A value of <b>TRUE</b> indicates that an audit log is generated; <b>FALSE</b> indicates that audit logging is not performed.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigv4">DhcpServerSetConfigV4</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfigv4">DhcpServerSetConfigV4</a>

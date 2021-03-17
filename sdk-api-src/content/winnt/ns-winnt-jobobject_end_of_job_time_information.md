@@ -2,15 +2,12 @@
 UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 title: JOBOBJECT_END_OF_JOB_TIME_INFORMATION (winnt.h)
 description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
+helpviewer_keywords: ["*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","JOB_OBJECT_POST_AT_END_OF_JOB","JOB_OBJECT_TERMINATE_AT_END_OF_JOB","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","_JOBOBJECT_END_OF_JOB_TIME_INFORMATION","_win32_jobobject_end_of_job_time_information_str","base.jobobject_end_of_job_time_information_str","winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION","winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"]
 old-location: base\jobobject_end_of_job_time_information_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION, JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, JOB_OBJECT_POST_AT_END_OF_JOB, JOB_OBJECT_TERMINATE_AT_END_OF_JOB, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION, PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure, _JOBOBJECT_END_OF_JOB_TIME_INFORMATION, _win32_jobobject_end_of_job_time_information_str, base.jobobject_end_of_job_time_information_str, winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION, winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION'
-f1_keywords:
-- winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_END_OF_JOB_TIME_INFORMATION, *PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - winnt/_JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+ - winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 ---
 
 # JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the action the system will perform when an end-of-job time limit is exceeded.
 
-
 ## -struct-fields
-
-
-
 
 ### -field EndOfJobTimeAction
 
@@ -92,7 +93,7 @@ This is the default termination action.
 </td>
 <td width="60%">
 Posts a completion packet to the completion port using the 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function. After the completion packet is posted, the system clears the end-of-job time limit, and processes in the job can continue their execution. 
 
 
 
@@ -102,45 +103,31 @@ If no completion port is associated with the job when the time limit has been ex
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The end-of-job time limit is specified in the <b>PerJobUserTimeLimit</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
 
 To associate a completion port with a job, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a> structure.
-
-
-
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_associate_completion_port">JOBOBJECT_ASSOCIATE_COMPLETION_PORT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

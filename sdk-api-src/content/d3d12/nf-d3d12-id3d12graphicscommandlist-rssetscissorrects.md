@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetScissorRects
 title: ID3D12GraphicsCommandList::RSSetScissorRects (d3d12.h)
 description: Binds an array of scissor rectangles to the rasterizer stage.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","RSSetScissorRects method","ID3D12GraphicsCommandList.RSSetScissorRects","ID3D12GraphicsCommandList::RSSetScissorRects","RSSetScissorRects","RSSetScissorRects method","RSSetScissorRects method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::RSSetScissorRects","direct3d12.id3d12graphicscommandlist_rssetscissorrects"]
 old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm
 tech.root: direct3d12
 ms.assetid: 5A636CCB-34EB-4642-B588-4107D79F46F5
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetScissorRects method, ID3D12GraphicsCommandList.RSSetScissorRects, ID3D12GraphicsCommandList::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method, RSSetScissorRects method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetScissorRects, direct3d12.id3d12graphicscommandlist_rssetscissorrects
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.RSSetScissorRects
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.RSSetScissorRects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::RSSetScissorRects
+ - d3d12/ID3D12GraphicsCommandList::RSSetScissorRects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.RSSetScissorRects
 ---
 
 # ID3D12GraphicsCommandList::RSSetScissorRects
@@ -48,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds an array of scissor rectangles to the rasterizer stage.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param NumRects [in]
 
 Type: <b>UINT</b>
 
 The number of scissor rectangles to bind.
-          
-
 
 ### -param pRects [in]
 
 Type: <b>const D3D12_RECT*</b>
 
 An array of scissor rectangles.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
-
-
 
 All scissor rectangles must be set atomically as one operation. Any scissor rectangles not defined by the call are disabled.
         
@@ -94,13 +74,13 @@ All scissor rectangles must be set atomically as one operation. Any scissor rect
 Which scissor rectangle to use is determined by the <code>SV_ViewportArrayIndex</code> semantic output by a geometry shader (see shader semantic syntax). If a geometry shader does not make use of the <code>SV_ViewportArrayIndex</code> semantic then Direct3D will use the first scissor rectangle in the array.
         
 
-Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">RSSetViewports</a>).
+Each scissor rectangle in the array corresponds to a viewport in an array of viewports (see <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports">RSSetViewports</a>).
         
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
         
 
 
@@ -159,20 +139,11 @@ ThrowIfFailed(m_commandList->Close());
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

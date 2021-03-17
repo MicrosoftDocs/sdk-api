@@ -2,15 +2,12 @@
 UID: NS:wsdtypes._WSD_REFERENCE_PROPERTIES
 title: WSD_REFERENCE_PROPERTIES (wsdtypes.h)
 description: Specifies additional data used to uniquely identify an endpoint.
+helpviewer_keywords: ["WSD_REFERENCE_PROPERTIES","WSD_REFERENCE_PROPERTIES structure","ncd.wsd_reference_properties_struct","wsdtypes/WSD_REFERENCE_PROPERTIES"]
 old-location: ncd\wsd_reference_properties_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 7573683c-e02c-488d-be2f-f549113e78d9
 ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, ncd.wsd_reference_properties_struct, wsdtypes/WSD_REFERENCE_PROPERTIES
-f1_keywords:
-- wsdtypes/WSD_REFERENCE_PROPERTIES
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- WSD_REFERENCE_PROPERTIES
 targetos: Windows
 req.typenames: WSD_REFERENCE_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSD_REFERENCE_PROPERTIES
+ - wsdtypes/_WSD_REFERENCE_PROPERTIES
+ - WSD_REFERENCE_PROPERTIES
+ - wsdtypes/WSD_REFERENCE_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - WSD_REFERENCE_PROPERTIES
 ---
 
 # WSD_REFERENCE_PROPERTIES structure
@@ -48,27 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies additional data used to uniquely identify an endpoint.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>

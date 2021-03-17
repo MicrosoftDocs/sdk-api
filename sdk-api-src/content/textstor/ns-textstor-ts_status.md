@@ -2,15 +2,12 @@
 UID: NS:textstor.TS_STATUS
 title: TS_STATUS (textstor.h)
 description: The TS_STATUS structure contains document status data.
+helpviewer_keywords: ["TS_STATUS","TS_STATUS structure [Text Services Framework]","_tsf_ts_status_ref","textstor/TS_STATUS","tsf.ts_status"]
 old-location: tsf\ts_status.htm
 tech.root: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
 ms.date: 12/05/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
-f1_keywords:
-- textstor/TS_STATUS
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Textstor.h
-api_name:
-- TS_STATUS
 targetos: Windows
 req.typenames: TS_STATUS
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TS_STATUS
+ - textstor/TS_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Textstor.h
+api_name:
+ - TS_STATUS
 ---
 
 # TS_STATUS structure
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TS_STATUS</b> structure contains document status data.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwDynamicFlags
 
@@ -78,8 +72,6 @@ Contains a set of flags that can be changed by an app at run time. For example, 
 <td>The document is read-only.</td>
 </tr>
 </table>
- 
-
 
 ### -field dwStaticFlags
 
@@ -115,17 +107,13 @@ Contains a set of flags that cannot be changed at run time. This member can cont
 <td><b>Starting with Windows 8:</b> The document supports text suggestions provided by the touch keyboard.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+The <a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure contains document status data.
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure contains document status data.
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
+<a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
 
 <b>dwDynamicFlags</b> contains a set of flags that can be changed by an app at run time. For example, an app can enable a check box for the user to reset the status of documentation. This member can contain zero, or one or more of the following values.
 
@@ -188,34 +176,23 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 <td><b>Starting with Windows 8:</b> The document supports text suggestions provided by the touch keyboard.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstatuschange">ITextStoreACPSink::OnStatusChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstatuschange">ITextStoreACPSink::OnStatusChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
       </a>
- 
-
- 
-

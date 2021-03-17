@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMDevice.GetType
 title: IWMDMDevice::GetType (mswmdm.h)
 description: The GetType method retrieves the operations supported by the device.
+helpviewer_keywords: ["GetType","GetType method [windows Media Device Manager]","GetType method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetType method","IWMDMDevice.GetType","IWMDMDevice::GetType","IWMDMDeviceGetType","mswmdm/IWMDMDevice::GetType","wmdm.iwmdmdevice_gettype"]
 old-location: wmdm\iwmdmdevice_gettype.htm
 tech.root: WMDM
 ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
-f1_keywords:
-- mswmdm/IWMDMDevice.GetType
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDevice.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDevice::GetType
+ - mswmdm/IWMDMDevice::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDevice.GetType
 ---
 
 # IWMDMDevice::GetType
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetType</b> method retrieves the operations supported by the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwType [out]
 
@@ -117,12 +111,8 @@ Pointer to a <b>DWORD</b> specifying the device type attributes. The possible va
 <td>The media device prefers metadata views while its storages are enumerated.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -131,31 +121,16 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
 The current Microsoft service providers may not provide reliable information about devices, except WMDM_DEVICE_TYPE_NONSDMI or WMDM_DEVICE_TYPE_SDMI. All devices will be reported as supporting the former; devices that support serial numbers also return the latter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname">IWMDMDevice::GetName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname">IWMDMDevice::GetName</a>

@@ -2,15 +2,12 @@
 UID: NF:mi.MI_SubscriptionDeliveryOptions_Delete
 title: MI_SubscriptionDeliveryOptions_Delete function (mi.h)
 description: Deletes the specified subscription delivery options structure.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_Delete","MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_Delete","wmi_v2.mi_subscriptiondeliveryoptions_delete"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_delete.htm
 tech.root: wmi_v2
 ms.assetid: 658dcb26-4ba1-42ef-a404-b431d0c92864
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_Delete, MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_Delete, wmi_v2.mi_subscriptiondeliveryoptions_delete
-f1_keywords:
-- mi/MI_SubscriptionDeliveryOptions_Delete
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_SubscriptionDeliveryOptions_Delete
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_SubscriptionDeliveryOptions_Delete
+ - mi/MI_SubscriptionDeliveryOptions_Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_SubscriptionDeliveryOptions_Delete
 ---
 
 # MI_SubscriptionDeliveryOptions_Delete function
@@ -48,25 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified subscription delivery options structure.
-
 
 ## -parameters
 
-
-
-
 ### -param self [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure to be deleted.
-
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_subscriptiondeliveryoptions">MI_SubscriptionDeliveryOptions</a> structure to be deleted.
 
 ## -returns
 
-
-
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
-
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.

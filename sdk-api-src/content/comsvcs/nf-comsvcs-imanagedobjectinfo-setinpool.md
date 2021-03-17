@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IManagedObjectInfo.SetInPool
 title: IManagedObjectInfo::SetInPool (comsvcs.h)
 description: Sets whether the managed object belongs to the COM+ object pool.
+helpviewer_keywords: ["IManagedObjectInfo interface [COM+]","SetInPool method","IManagedObjectInfo.SetInPool","IManagedObjectInfo::SetInPool","SetInPool","SetInPool method [COM+]","SetInPool method [COM+]","IManagedObjectInfo interface","_cos_IManagedObjectInfo_SetInPool","comsvcs/IManagedObjectInfo::SetInPool","cos.imanagedobjectinfo_setinpool"]
 old-location: cos\imanagedobjectinfo_setinpool.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: fef3842f-acf7-4aff-801d-17343633be8c
 ms.date: 12/05/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetInPool method, IManagedObjectInfo.SetInPool, IManagedObjectInfo::SetInPool, SetInPool, SetInPool method [COM+], SetInPool method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetInPool, comsvcs/IManagedObjectInfo::SetInPool, cos.imanagedobjectinfo_setinpool
-f1_keywords:
-- comsvcs/IManagedObjectInfo.SetInPool
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IManagedObjectInfo.SetInPool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManagedObjectInfo::SetInPool
+ - comsvcs/IManagedObjectInfo::SetInPool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IManagedObjectInfo.SetInPool
 ---
 
 # IManagedObjectInfo::SetInPool
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether the managed object belongs to the COM+ object pool.
 
-
 ## -parameters
-
-
-
 
 ### -param bInPool [in]
 
 Indicates whether the managed object belongs to the COM+ object pool.
 
-
 ### -param pPooledObj [in]
 
-A reference to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a> that describes how this managed object is used in the COM+ object pool.
-
+A reference to <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a> that describes how this managed object is used in the COM+ object pool.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>

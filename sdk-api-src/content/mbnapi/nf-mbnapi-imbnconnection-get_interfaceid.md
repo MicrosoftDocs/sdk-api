@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnection.get_InterfaceID
 title: IMbnConnection::get_InterfaceID (mbnapi.h)
 description: Gets the interface identifier.
+helpviewer_keywords: ["IMbnConnection interface [Microsoft Broadband Networks]","InterfaceID property","IMbnConnection.InterfaceID","IMbnConnection.get_InterfaceID","IMbnConnection::InterfaceID","IMbnConnection::get_InterfaceID","InterfaceID property [Microsoft Broadband Networks]","InterfaceID property [Microsoft Broadband Networks]","IMbnConnection interface","get_InterfaceID","mbn.imbnconnection_interfaceid","mbnapi/IMbnConnection::InterfaceID","mbnapi/IMbnConnection::get_InterfaceID"]
 old-location: mbn\imbnconnection_interfaceid.htm
 tech.root: mbn
 ms.assetid: c98f1f69-1df1-4d72-8df4-166284dcb880
 ms.date: 12/05/2018
 ms.keywords: IMbnConnection interface [Microsoft Broadband Networks],InterfaceID property, IMbnConnection.InterfaceID, IMbnConnection.get_InterfaceID, IMbnConnection::InterfaceID, IMbnConnection::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnConnection interface, get_InterfaceID, mbn.imbnconnection_interfaceid, mbnapi/IMbnConnection::InterfaceID, mbnapi/IMbnConnection::get_InterfaceID
-f1_keywords:
-- mbnapi/IMbnConnection.InterfaceID
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnection.InterfaceID
-- IMbnConnection.get_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnection::get_InterfaceID
+ - mbnapi/IMbnConnection::get_InterfaceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnection.InterfaceID
+ - IMbnConnection.get_InterfaceID
 ---
 
 # IMbnConnection::get_InterfaceID
@@ -56,17 +58,8 @@ Gets the interface identifier.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>

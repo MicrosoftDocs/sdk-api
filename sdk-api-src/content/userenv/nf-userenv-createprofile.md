@@ -2,15 +2,12 @@
 UID: NF:userenv.CreateProfile
 title: CreateProfile function (userenv.h)
 description: Creates a new user profile.
+helpviewer_keywords: ["CreateProfile","CreateProfile function [Windows Shell]","_shell_CreateProfile","shell.CreateProfile","userenv/CreateProfile"]
 old-location: shell\CreateProfile.htm
 tech.root: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
 ms.date: 12/05/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
-f1_keywords:
-- userenv/CreateProfile
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- CreateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateProfile
+ - userenv/CreateProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - CreateProfile
 ---
 
 # CreateProfile function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new user profile.
 
-
 ## -parameters
-
-
-
 
 ### -param pszUserSid [in]
 
@@ -63,13 +60,11 @@ Type: <b>LPCWSTR</b>
 
 Pointer to the SID of the user as a string.
 
-
 ### -param pszUserName [in]
 
 Type: <b>LPCWSTR</b>
 
 The user name of the new user. This name is used as the base name for the profile directory.
-
 
 ### -param pszProfilePath [out]
 
@@ -77,17 +72,13 @@ Type: <b>LPWSTR</b>
 
 When this function returns, contains a pointer to the full path of the profile.
 
-
 ### -param cchProfilePath [in]
 
 Type: <b>DWORD</b>
 
 Size of the buffer pointed to by <i>pszProfilePath</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -121,16 +112,8 @@ A profile already exists for the specified user.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must have administrator privileges to call this function.
-
-
 

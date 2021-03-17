@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_framesSkipped
 title: IWMPNetwork::get_framesSkipped (wmp.h)
 description: The get_framesSkipped method retrieves the total number of frames skipped during playback.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_framesSkipped method","IWMPNetwork.get_framesSkipped","IWMPNetwork::get_framesSkipped","IWMPNetworkget_framesSkipped","get_framesSkipped","get_framesSkipped method [Windows Media Player]","get_framesSkipped method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_framesskipped","wmp/IWMPNetwork::get_framesSkipped"]
 old-location: wmp\iwmpnetwork_get_framesskipped.htm
 tech.root: WMP
 ms.assetid: 2ca3e280-4f3e-4460-884d-186199e3edd6
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_framesSkipped method, IWMPNetwork.get_framesSkipped, IWMPNetwork::get_framesSkipped, IWMPNetworkget_framesSkipped, get_framesSkipped, get_framesSkipped method [Windows Media Player], get_framesSkipped method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framesskipped, wmp/IWMPNetwork::get_framesSkipped
-f1_keywords:
-- wmp/IWMPNetwork.get_framesSkipped
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_framesSkipped
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_framesSkipped
+ - wmp/IWMPNetwork::get_framesSkipped
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_framesSkipped
 ---
 
 # IWMPNetwork::get_framesSkipped
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_framesSkipped</b> method retrieves the total number of frames skipped during playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plFrames [out]
 
 Pointer to a <b>long</b> containing the number of frames.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

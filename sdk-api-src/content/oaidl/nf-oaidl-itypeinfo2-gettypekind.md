@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetTypeKind
 title: ITypeInfo2::GetTypeKind (oaidl.h)
 description: Returns the TYPEKIND enumeration quickly, without doing any allocations.
+helpviewer_keywords: ["GetTypeKind","GetTypeKind method [Automation]","GetTypeKind method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetTypeKind method","ITypeInfo2.GetTypeKind","ITypeInfo2::GetTypeKind","_oa96_ITypeInfo2_GetTypeKind","automat.itypeinfo2_gettypekind","oaidl/ITypeInfo2::GetTypeKind"]
 old-location: automat\itypeinfo2_gettypekind.htm
 tech.root: automat
 ms.assetid: 2ad42274-1952-44b4-ac11-93eacc10a9a9
 ms.date: 12/05/2018
 ms.keywords: GetTypeKind, GetTypeKind method [Automation], GetTypeKind method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeKind method, ITypeInfo2.GetTypeKind, ITypeInfo2::GetTypeKind, _oa96_ITypeInfo2_GetTypeKind, automat.itypeinfo2_gettypekind, oaidl/ITypeInfo2::GetTypeKind
-f1_keywords:
-- oaidl/ITypeInfo2.GetTypeKind
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetTypeKind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetTypeKind
+ - oaidl/ITypeInfo2::GetTypeKind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetTypeKind
 ---
 
 # ITypeInfo2::GetTypeKind
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the TYPEKIND enumeration quickly, without doing any allocations.
 
-
 ## -parameters
-
-
-
 
 ### -param pTypeKind [out]
 
 A TYPEKIND value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,18 +104,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

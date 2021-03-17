@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
 title: ISettingsItem::GetAttribute (wcmconfig.h)
 description: Gets the value of an attribute by specifying its name.
+helpviewer_keywords: ["GetAttribute","GetAttribute method [SMI]","GetAttribute method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetAttribute method","ISettingsItem.GetAttribute","ISettingsItem::GetAttribute","smi.isettingsitem_getattribute","wcmconfig/ISettingsItem::GetAttribute"]
 old-location: smi\isettingsitem_getattribute.htm
 tech.root: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
-f1_keywords:
-- wcmconfig/ISettingsItem.GetAttribute
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetAttribute
+ - wcmconfig/ISettingsItem::GetAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetAttribute
 ---
 
 # ISettingsItem::GetAttribute
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of an attribute by specifying its name.
 
-
 ## -parameters
-
-
-
 
 ### -param Name [in]
 
 The name of the attribute.
 
-
 ### -param Value [out]
 
 The value of  the attribute.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +105,7 @@ Indicates that there are insufficient resources to return information to the use
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

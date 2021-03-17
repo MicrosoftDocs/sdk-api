@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMStoreFloat3x3
 title: XMStoreFloat3x3 function (directxmath.h)
 description: Stores an XMMATRIX in an XMFLOAT3X3.
+helpviewer_keywords: ["Use DirectX..XMStoreFloat3x3","XMStoreFloat3x3","XMStoreFloat3x3 method [DirectX Math Support APIs]","dxmath.xmstorefloat3x3"]
 old-location: dxmath\xmstorefloat3x3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3x3(XMFLOAT3X3@,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat3x3, XMStoreFloat3x3, XMStoreFloat3x3 method [DirectX Math Support APIs], dxmath.xmstorefloat3x3
-f1_keywords:
-- directxmath/XMStoreFloat3x3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMStoreFloat3x3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMStoreFloat3x3
+ - directxmath/XMStoreFloat3x3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMStoreFloat3x3
 ---
 
 # XMStoreFloat3x3 function
@@ -48,41 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Stores an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> in an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
-
+Stores an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> in an <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
 
 ## -parameters
-
-
-
 
 ### -param pDestination [out]
 
 Address at which to store the data.
 
-
 ### -param M [in]
 
 Matrix containing the data to store.
 
-
 ## -returns
-
-
 
 None.
 
-
-
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be 
-    transposed via <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be 
+    transposed via <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
 
 This function takes a matrix and writes the components out to nine single-precision floating-point values at the given
     address. The most significant component of the first row vector is written to the first four bytes of the address,
@@ -111,16 +98,6 @@ pDestination->_33 = M[2].z; // 4 bytes to address (uint8_t*)pDestination + 32
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>

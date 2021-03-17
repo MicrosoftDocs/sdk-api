@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponentsEx2.BreakSnapshotSetEx
 title: IVssBackupComponentsEx2::BreakSnapshotSetEx (vsbackup.h)
 description: Breaks a shadow copy set according to requester-specified options.
+helpviewer_keywords: ["BreakSnapshotSetEx","BreakSnapshotSetEx method","BreakSnapshotSetEx method","IVssBackupComponentsEx2 interface","IVssBackupComponentsEx2 interface","BreakSnapshotSetEx method","IVssBackupComponentsEx2.BreakSnapshotSetEx","IVssBackupComponentsEx2::BreakSnapshotSetEx","base.ivssbackupcomponentsex2_breaksnapshotsetex","vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx"]
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.date: 12/05/2018
 ms.keywords: BreakSnapshotSetEx, BreakSnapshotSetEx method, BreakSnapshotSetEx method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,BreakSnapshotSetEx method, IVssBackupComponentsEx2.BreakSnapshotSetEx, IVssBackupComponentsEx2::BreakSnapshotSetEx, base.ivssbackupcomponentsex2_breaksnapshotsetex, vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.BreakSnapshotSetEx
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx2.BreakSnapshotSetEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::BreakSnapshotSetEx
+ - vsbackup/IVssBackupComponentsEx2::BreakSnapshotSetEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx2.BreakSnapshotSetEx
 ---
 
 # IVssBackupComponentsEx2::BreakSnapshotSetEx
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Breaks a shadow copy set according to requester-specified options.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetID [in]
 
 A shadow copy set identifier.
 
-
 ### -param dwBreakFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
-
+A bitmask of <a href="/windows/desktop/api/vss/ne-vss-vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method must be called for this interface pointer.
-
+A pointer to a variable that receives an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method must be called for this interface pointer.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -175,27 +167,18 @@ The shadow copy was created by a software provider and cannot be broken.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>BreakSnapshotSetEx</b> is similar to the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">IVssBackupComponents::BreakSnapshotSet</a> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
 
+Like <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>, <b>BreakSnapshotSetEx</b> can be used only for shadow copies that were created by a hardware shadow copy provider.
 
-<b>BreakSnapshotSetEx</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">IVssBackupComponents::BreakSnapshotSet</a> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
-
-Like <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>, <b>BreakSnapshotSetEx</b> can be used only for shadow copies that were created by a hardware shadow copy provider.
-
-After this method returns, the shadow copy volume is still a volume, but it is no longer a shadow copy. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a>.
-
-
-
+After this method returns, the shadow copy volume is still a volume, but it is no longer a shadow copy. For more information, see <a href="/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a>.

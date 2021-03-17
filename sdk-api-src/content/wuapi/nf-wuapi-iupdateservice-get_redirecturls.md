@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateService.get_RedirectUrls
 title: IUpdateService::get_RedirectUrls (wuapi.h)
 description: Contains the URLs for the redirector cabinet file.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","RedirectUrls property","IUpdateService.RedirectUrls","IUpdateService.get_RedirectUrls","IUpdateService::RedirectUrls","IUpdateService::get_RedirectUrls","RedirectUrls property [Windows Update Agent]","RedirectUrls property [Windows Update Agent]","IUpdateService interface","get_RedirectUrls","wua.iupdateservice_redirecturls","wuapi/IUpdateService::RedirectUrls","wuapi/IUpdateService::get_RedirectUrls"]
 old-location: wua\iupdateservice_redirecturls.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls property, IUpdateService.RedirectUrls, IUpdateService.get_RedirectUrls, IUpdateService::RedirectUrls, IUpdateService::get_RedirectUrls, RedirectUrls property [Windows Update Agent], RedirectUrls property [Windows Update Agent],IUpdateService interface, get_RedirectUrls, wua.iupdateservice_redirecturls, wuapi/IUpdateService::RedirectUrls, wuapi/IUpdateService::get_RedirectUrls
-f1_keywords:
-- wuapi/IUpdateService.RedirectUrls
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.RedirectUrls
-- IUpdateService.get_RedirectUrls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_RedirectUrls
+ - wuapi/IUpdateService::get_RedirectUrls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.RedirectUrls
+ - IUpdateService.get_RedirectUrls
 ---
 
 # IUpdateService::get_RedirectUrls
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RedirectUrls</b> property contains the URLs for the redirector cabinet file.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

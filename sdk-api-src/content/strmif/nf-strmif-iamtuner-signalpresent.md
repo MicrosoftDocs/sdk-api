@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMTuner.SignalPresent
 title: IAMTuner::SignalPresent (strmif.h)
 description: The SignalPresent method retrieves the strength of the signal on a given channel.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","SignalPresent method","IAMTuner.SignalPresent","IAMTuner::SignalPresent","IAMTunerSignalPresent","SignalPresent","SignalPresent method [DirectShow]","SignalPresent method [DirectShow]","IAMTuner interface","dshow.iamtuner_signalpresent","strmif/IAMTuner::SignalPresent"]
 old-location: dshow\iamtuner_signalpresent.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 64a89038-4df1-4e30-8952-6dc039a2e18b
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],SignalPresent method, IAMTuner.SignalPresent, IAMTuner::SignalPresent, IAMTunerSignalPresent, SignalPresent, SignalPresent method [DirectShow], SignalPresent method [DirectShow],IAMTuner interface, dshow.iamtuner_signalpresent, strmif/IAMTuner::SignalPresent
-f1_keywords:
-- strmif/IAMTuner.SignalPresent
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTuner.SignalPresent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTuner::SignalPresent
+ - strmif/IAMTuner::SignalPresent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTuner.SignalPresent
 ---
 
 # IAMTuner::SignalPresent
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SignalPresent</code> method retrieves the strength of the signal on a given channel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plSignalStrength [out]
 
@@ -89,27 +83,14 @@ Pointer to a variable that receives a value indicating whether a signal is prese
 
 A value of AMTUNER_HASNOSIGNALSTRENGTH means the signal strength cannot be determined at this time.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

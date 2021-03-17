@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.IMpeg2Stream.Initialize
 title: IMpeg2Stream::Initialize (mpeg2data.h)
 description: The Initialize method initializes the MPEG2Stream object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetStreamOfSections method calls this method internally, so typically an application will not call it.
+helpviewer_keywords: ["IMpeg2Stream interface [Microsoft TV Technologies]","Initialize method","IMpeg2Stream.Initialize","IMpeg2Stream::Initialize","IMpeg2StreamInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IMpeg2Stream interface","mpeg2data/IMpeg2Stream::Initialize","mstv.impeg2stream_initialize"]
 old-location: mstv\impeg2stream_initialize.htm
 tech.root: mstv
 ms.assetid: a2ef2ebc-55dc-49d4-a5de-18203de113ce
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],Initialize method, IMpeg2Stream.Initialize, IMpeg2Stream::Initialize, IMpeg2StreamInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::Initialize, mstv.impeg2stream_initialize
-f1_keywords:
-- mpeg2data/IMpeg2Stream.Initialize
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- IMpeg2Stream.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpeg2Stream::Initialize
+ - mpeg2data/IMpeg2Stream::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - IMpeg2Stream.Initialize
 ---
 
 # IMpeg2Stream::Initialize
@@ -48,56 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Initialize</b> method initializes the <b>MPEG2Stream</b> object. This method should be called once, immediately after creating the object. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method calls this method internally, so typically an application will not call it.
-
-
-
+The <b>Initialize</b> method initializes the <b>MPEG2Stream</b> object. This method should be called once, immediately after creating the object. The <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method calls this method internally, so typically an application will not call it.
 
 ## -parameters
 
-
-
-
 ### -param requestType [in]
 
-Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
-
+Specifies the request type, as an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
 
 ### -param pMpeg2Data [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
 
 ### -param pContext [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
 
 ### -param pid [in]
 
 Specifies a packet identifier (PID), indicating which packets in the transport stream are requested.
 
-
 ### -param tid [in]
 
 Specifies a table identifier (TID), indicating which table sections to retrieve.
 
-
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
-
+Optional pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 ### -param hDataReadyEvent [in]
 
 Handle to an event. The filter signals this event whenever it receives new data.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -151,18 +136,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>

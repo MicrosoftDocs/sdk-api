@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscMaster2.get_Count
 title: IDiscMaster2::get_Count (imapi2.h)
 description: Retrieves the number of the CD and DVD disc devices installed on the computer.
+helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_Count method","IDiscMaster2.get_Count","IDiscMaster2::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_count","imapi2/IDiscMaster2::get_Count"]
 old-location: imapi\idiscmaster2_get_count.htm
 tech.root: imapi
 ms.assetid: b1e0ec8f-4c66-4648-ad76-2998200ea574
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get_Count method, IDiscMaster2.get_Count, IDiscMaster2::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get_count, imapi2/IDiscMaster2::get_Count
-f1_keywords:
-- imapi2/IDiscMaster2.get_Count
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscMaster2.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscMaster2::get_Count
+ - imapi2/IDiscMaster2::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscMaster2.get_Count
 ---
 
 # IDiscMaster2::get_Count
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of the CD and DVD disc devices installed on the computer.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Number of CD and DVD disc devices installed on the computer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -113,26 +107,15 @@ Value: 0x80004005
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2::get_Item</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2::get_Item</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster::__NewEnum</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster::__NewEnum</a>

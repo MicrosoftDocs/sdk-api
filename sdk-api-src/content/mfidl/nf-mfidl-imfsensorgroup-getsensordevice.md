@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSensorGroup.GetSensorDevice
 title: IMFSensorGroup::GetSensorDevice (mfidl.h)
 description: Gets the IMFSensorDevice corresponding to a device in the sensor group.
+helpviewer_keywords: ["GetSensorDevice","GetSensorDevice method [Media Foundation]","GetSensorDevice method [Media Foundation]","IMFSensorGroup interface","IMFSensorGroup interface [Media Foundation]","GetSensorDevice method","IMFSensorGroup.GetSensorDevice","IMFSensorGroup::GetSensorDevice","mf.imfsensorgroup_getsensordevice","mfidl/IMFSensorGroup::GetSensorDevice"]
 old-location: mf\imfsensorgroup_getsensordevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 78924C45-9612-4B39-B9E2-C8D2DCCBED79
 ms.date: 12/05/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice
-f1_keywords:
-- mfidl/IMFSensorGroup.GetSensorDevice
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorGroup.GetSensorDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorGroup::GetSensorDevice
+ - mfidl/IMFSensorGroup::GetSensorDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorGroup.GetSensorDevice
 ---
 
 # IMFSensorGroup::GetSensorDevice
@@ -51,28 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
-
+Gets the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a> corresponding to a device in the sensor group.
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
-
+The 0-based index of the device to be retrieved.  The index must be between 0 and the value returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
 
 ### -param ppDevice [out]
 
 If the call is successful, <i>ppDevice</i> will contain the retrieved sensor device.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -128,27 +121,11 @@ The sensor group has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The term "device" in this context could refer to a physical device, a custom media source, or a frame provider.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>

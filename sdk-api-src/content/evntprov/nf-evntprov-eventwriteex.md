@@ -2,15 +2,12 @@
 UID: NF:evntprov.EventWriteEx
 title: EventWriteEx function (evntprov.h)
 description: Use this function to write an event.
+helpviewer_keywords: ["EventWriteEx","EventWriteEx function [ETW]","etw.eventwriteex","evntprov/EventWriteEx"]
 old-location: etw\eventwriteex.htm
 tech.root: ETW
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
 ms.date: 12/05/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
-f1_keywords:
-- evntprov/EventWriteEx
-dev_langs:
-- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-eventing-provider-l1-1-0.dll
-- API-MS-Win-Eventing-Provider-L1-1-1.dll
-api_name:
-- EventWriteEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventWriteEx
+ - evntprov/EventWriteEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-eventing-provider-l1-1-0.dll
+ - API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+ - EventWriteEx
 ---
 
 # EventWriteEx function
@@ -52,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this function to write an event.
 
-
 ## -parameters
-
-
-
 
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
-
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 ### -param EventDescriptor [in]
 
 A descriptor that contains the metadata that identifies the event to write. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
-
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ### -param Filter [in]
 
@@ -79,47 +74,39 @@ The instance identifiers that identify the session to which the event will not w
       to specify multiple identifiers. Set to zero if you do not support filters or if the event is being written to 
       all sessions (no filters failed). For information on getting the identifier for a session, see the 
       <i>FilterData</i> parameter of your 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a> callback.
-
+      <a href="/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a> callback.
 
 ### -param Flags [in]
 
 Reserved. Must be zero.
 
-
 ### -param ActivityId [in, optional]
 
 GUID that uniquely identifies this activity. If <b>NULL</b>, ETW gets the identifier 
       from the thread local storage. For details on getting this identifier, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
-
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
 
 ### -param RelatedActivityId [in, optional]
 
 Activity identifier from the previous component. Use this parameter to link your component's events to the 
       previous component's events. To get the activity identifier that was set for the previous component, see the 
       descriptions for the <i>ControlCode</i> parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function.
-
 
 ### -param UserDataCount [in]
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
+Number of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
       in <i>UserData</i>. The maximum number is 128.
-
 
 ### -param UserData [in, optional]
 
 The event data to write. Allocate a block of memory that contains one or more 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
+      <a href="/windows/desktop/api/evntprov/ns-evntprov-event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
       parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must be 
       in the order specified in the manifest.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful or one of the following values on error.
 
@@ -198,14 +185,8 @@ The real-time playback file is full. Events are not logged to the session until 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Event data written with this function requires a manifest. Since the manifest is embedded in the provider, the 
     provider must be available for a consumer  to consume the data written by the provider.
@@ -222,11 +203,11 @@ If each component defined their own activity identifier, the components can make
      the events:
 
 <ul>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
+<li>Call the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function using the EVENT_ACTIVITY_CTRL_GET_SET_ID control code. The function uses your identifier to set the 
       activity identifier in the thread local storage and returns the activity identifier for the previous component, 
       if set.</li>
-<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
+<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
 <li>Set the <i>ActivityId</i> of this function to <b>NULL</b> to use the activity identifier that you set in thread local storage.</li>
 </ul>
 A provider can define filters that a session uses to filter events based on event data. With level and keywords, ETW determines whether the event is written to the session but with filters, the provider uses the filter data to determine whether it writes the event to the session. For example, if your provider generates process events, you could define a data filter that filters process events based on the process identifier. If the identifier of the process did not match the identifier that the session passed as filter data, you would set (perform a bitwise OR) the <i>Filter</i> parameter to the session's instance identifier to prevent the event from being written to that session.
@@ -234,28 +215,19 @@ A provider can define filters that a session uses to filter events based on even
 
 #### Examples
 
-For an example that uses <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>.
+For an example that uses <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>, see 
+     <a href="/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>

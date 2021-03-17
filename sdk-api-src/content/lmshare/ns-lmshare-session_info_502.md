@@ -2,15 +2,12 @@
 UID: NS:lmshare._SESSION_INFO_502
 title: SESSION_INFO_502 (lmshare.h)
 description: Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using.
+helpviewer_keywords: ["*LPSESSION_INFO_502","*PSESSION_INFO_502","DOS LM 1.0","DOS LM 2.0","LPSESSION_INFO_502","LPSESSION_INFO_502 structure pointer [Files]","OS/2 LM 1.0","OS/2 LM 2.0","PSESSION_INFO_502","PSESSION_INFO_502 structure pointer [Files]","SESSION_INFO_502","SESSION_INFO_502 structure [Files]","SESS_GUEST","SESS_NOENCRYPTION","_win32_session_info_502_str","fs.session_info_502_str","lmshare/LPSESSION_INFO_502","lmshare/PSESSION_INFO_502","lmshare/SESSION_INFO_502","netmgmt.session_info_502_str"]
 old-location: fs\session_info_502_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: a86a00ae-f60a-4b12-a9ac-4b96f9abd6a2
 ms.date: 12/05/2018
 ms.keywords: '*LPSESSION_INFO_502, *PSESSION_INFO_502, DOS LM 1.0, DOS LM 2.0, LPSESSION_INFO_502, LPSESSION_INFO_502 structure pointer [Files], OS/2 LM 1.0, OS/2 LM 2.0, PSESSION_INFO_502, PSESSION_INFO_502 structure pointer [Files], SESSION_INFO_502, SESSION_INFO_502 structure [Files], SESS_GUEST, SESS_NOENCRYPTION, _win32_session_info_502_str, fs.session_info_502_str, lmshare/LPSESSION_INFO_502, lmshare/PSESSION_INFO_502, lmshare/SESSION_INFO_502, netmgmt.session_info_502_str'
-f1_keywords:
-- lmshare/SESSION_INFO_502
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SESSION_INFO_502
 targetos: Windows
 req.typenames: SESSION_INFO_502, *PSESSION_INFO_502, *LPSESSION_INFO_502
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SESSION_INFO_502
+ - lmshare/_SESSION_INFO_502
+ - PSESSION_INFO_502
+ - lmshare/PSESSION_INFO_502
+ - SESSION_INFO_502
+ - lmshare/SESSION_INFO_502
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SESSION_INFO_502
 ---
 
 # SESSION_INFO_502 structure
@@ -48,39 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the name of the transport the client is using.
-
 
 ## -struct-fields
 
-
-
-
 ### -field sesi502_cname
 
-Pointer to a Unicode string specifying the name of the computer that established the session. This string cannot contain a backslash (\).
-
+Pointer to a Unicode string specifying the name of the computer that established the session. This string cannot contain a backslash (\\).
 
 ### -field sesi502_username
 
 Pointer to a Unicode string specifying the name of the user who established the session.
 
-
 ### -field sesi502_num_opens
 
 Specifies the number of files, devices, and pipes opened during the session.
-
 
 ### -field sesi502_time
 
 Specifies the number of seconds the session has been active.
 
-
 ### -field sesi502_idle_time
 
 Specifies the number of seconds the session has been idle.
-
 
 ### -field sesi502_user_flags
 
@@ -114,8 +110,6 @@ The user specified by the <b>sesi502_username</b> member established the session
 </td>
 </tr>
 </table>
- 
-
 
 ### -field sesi502_cltype_name
 
@@ -173,31 +167,22 @@ LAN Manager for MS-OS/2 2.0 clients.
 
 Sessions from LAN Manager servers running UNIX also will appear as LAN Manager 2.0.
 
-
 ### -field sesi502_transport
 
 Specifies the name of the transport that the client is using to communicate with the server.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetShare/session-functions">Session Functions</a>

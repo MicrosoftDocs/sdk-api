@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_receivedPackets
 title: IWMPNetwork::get_receivedPackets (wmp.h)
 description: The get_receivedPackets method retrieves the number of packets received.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_receivedPackets method","IWMPNetwork.get_receivedPackets","IWMPNetwork::get_receivedPackets","IWMPNetworkget_receivedPackets","get_receivedPackets","get_receivedPackets method [Windows Media Player]","get_receivedPackets method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_receivedpackets","wmp/IWMPNetwork::get_receivedPackets"]
 old-location: wmp\iwmpnetwork_get_receivedpackets.htm
 tech.root: WMP
 ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receivedPackets method, IWMPNetwork.get_receivedPackets, IWMPNetwork::get_receivedPackets, IWMPNetworkget_receivedPackets, get_receivedPackets, get_receivedPackets method [Windows Media Player], get_receivedPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receivedpackets, wmp/IWMPNetwork::get_receivedPackets
-f1_keywords:
-- wmp/IWMPNetwork.get_receivedPackets
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_receivedPackets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_receivedPackets
+ - wmp/IWMPNetwork::get_receivedPackets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_receivedPackets
 ---
 
 # IWMPNetwork::get_receivedPackets
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_receivedPackets</b> method retrieves the number of packets received.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plReceivedPackets [out]
 
 Pointer to a <b>long</b> containing the received packets.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Each time playback is stopped and restarted, the value retrieved from this method is reset to zero. The value is not reset if playback is paused.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

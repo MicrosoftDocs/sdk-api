@@ -2,15 +2,12 @@
 UID: NE:netioapi._MIB_NOTIFICATION_TYPE
 title: MIB_NOTIFICATION_TYPE (netioapi.h)
 description: Defines the notification type passed to a callback function when a notification occurs.
+helpviewer_keywords: ["*PMIB_NOTIFICATION_TYPE","MIB_NOTIFICATION_TYPE","MIB_NOTIFICATION_TYPE enumeration [MIB]","MibAddInstance","MibDeleteInstance","MibInitialNotification","MibParameterNotification","PMIB_NOTIFICATION_TYPE","PMIB_NOTIFICATION_TYPE enumeration pointer [MIB]","_MIB_NOTIFICATION_TYPE","mib.mib_notification_type","netioapi/MIB_NOTIFICATION_TYPE","netioapi/MibAddInstance","netioapi/MibDeleteInstance","netioapi/MibInitialNotification","netioapi/MibParameterNotification","netioapi/PMIB_NOTIFICATION_TYPE"]
 old-location: mib\mib_notification_type.htm
 tech.root: MIB
 ms.assetid: 89f6a923-d745-4f9f-82d4-c77ffc8389cd
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE enumeration [MIB], MibAddInstance, MibDeleteInstance, MibInitialNotification, MibParameterNotification, PMIB_NOTIFICATION_TYPE, PMIB_NOTIFICATION_TYPE enumeration pointer [MIB], _MIB_NOTIFICATION_TYPE, mib.mib_notification_type, netioapi/MIB_NOTIFICATION_TYPE, netioapi/MibAddInstance, netioapi/MibDeleteInstance, netioapi/MibInitialNotification, netioapi/MibParameterNotification, netioapi/PMIB_NOTIFICATION_TYPE'
-f1_keywords:
-- netioapi/MIB_NOTIFICATION_TYPE
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_NOTIFICATION_TYPE
 targetos: Windows
 req.typenames: MIB_NOTIFICATION_TYPE, *PMIB_NOTIFICATION_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_NOTIFICATION_TYPE
+ - netioapi/_MIB_NOTIFICATION_TYPE
+ - PMIB_NOTIFICATION_TYPE
+ - netioapi/PMIB_NOTIFICATION_TYPE
+ - MIB_NOTIFICATION_TYPE
+ - netioapi/MIB_NOTIFICATION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_NOTIFICATION_TYPE
 ---
 
 # MIB_NOTIFICATION_TYPE enumeration
@@ -48,39 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>MIB_NOTIFICATION_TYPE</b> enumeration defines the notification type passed to a callback function when a notification occurs. 
-
+The <b>MIB_NOTIFICATION_TYPE</b> enumeration defines the notification type passed to a callback function when a notification occurs.
 
 ## -enum-fields
-
-
-
 
 ### -field MibParameterNotification
 
 A parameter was changed.
 
-
 ### -field MibAddInstance
 
 A new MIB instance was added.
-
 
 ### -field MibDeleteInstance
 
 An existing MIB instance was deleted.
 
-
 ### -field MibInitialNotification
 
-A notification that is invoked immediately after registration for change notification completes. This initial notification does not indicate a change occurred to a MIB instance. The purpose of this initial notification type is  to provide confirmation that the callback function is properly registered. 
-
-
+A notification that is invoked immediately after registration for change notification completes. This initial notification does not indicate a change occurred to a MIB instance. The purpose of this initial notification type is  to provide confirmation that the callback function is properly registered.
 
 ## -remarks
-
-
 
 The <b>MIB_NOTIFICATION_TYPE</b> enumeration is defined on Windows Vista and later. 
 
@@ -88,24 +82,14 @@ On Windows Vista and later, new functions are provided to register to be notifi
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange">NotifyIpInterfaceChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyipinterfacechange">NotifyIpInterfaceChange</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyunicastipaddresschange">NotifyUnicastIpAddressChange</a>

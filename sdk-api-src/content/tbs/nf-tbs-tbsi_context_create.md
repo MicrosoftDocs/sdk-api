@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsi_Context_Create
 title: Tbsi_Context_Create function (tbs.h)
 description: Creates a context handle that can be used to pass commands to TBS.
+helpviewer_keywords: ["Tbsi_Context_Create","Tbsi_Context_Create function [TBS]","tbs._tbsi_context_create","tbs/Tbsi_Context_Create"]
 old-location: tbs\_tbsi_context_create.htm
 tech.root: TBS
 ms.assetid: 5f19f649-2132-4fd8-a346-4be73fb8917c
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Context_Create, Tbsi_Context_Create function [TBS], tbs._tbsi_context_create, tbs/Tbsi_Context_Create
-f1_keywords:
-- tbs/Tbsi_Context_Create
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsi_Context_Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsi_Context_Create
+ - tbs/Tbsi_Context_Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsi_Context_Create
 ---
 
 # Tbsi_Context_Create function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a context handle that can be used to pass commands to TBS.
-
 
 ## -parameters
 
-
-
-
 ### -param pContextParams [in]
 
-A parameter to a [TBS_CONTEXT_PARAMS](/windows/win32/api/tbs/ns-tbs-tbs_context_params)a> structure that contains the parameters associated with the context. 
-
+A parameter to a [TBS_CONTEXT_PARAMS](./ns-tbs-tbs_context_params.md) structure that contains the parameters associated with the context.
 
 ### -param phContext [out]
 
 A pointer to a location to store the new context handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns TBS_SUCCESS.
 
@@ -201,20 +194,11 @@ A compatible Trusted Platform Module (TPM) Security Device cannot be found on th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The [TBS_CONTEXT_PARAMS](/windows/win32/api/tbs/ns-tbs-tbs_context_params)a> structure can be provided, with the version field set to TPM_VERSION_12.
-Applications interacting with version 2.0 TPM will pass a pointer to a [TBS_CONTEXT_PARAMS2](/windows/win32/api/tbs/ns-tbs-tbs_context_params2)a> structure, with the version field set to TPM_VERSION_20. Set the reserved field to 0, and the <b>includeTPm20</b> field to 1. If the application is prepared to interact with a version 1.2 TPM as well (in case the system has no version 2.0 TPM), set the <b>includeTpm12</b> field to 1.
+The [TBS_CONTEXT_PARAMS](./ns-tbs-tbs_context_params.md) structure can be provided, with the version field set to TPM_VERSION_12.
+Applications interacting with version 2.0 TPM will pass a pointer to a [TBS_CONTEXT_PARAMS2](./ns-tbs-tbs_context_params2.md) structure, with the version field set to TPM_VERSION_20. Set the reserved field to 0, and the <b>includeTPm20</b> field to 1. If the application is prepared to interact with a version 1.2 TPM as well (in case the system has no version 2.0 TPM), set the <b>includeTpm12</b> field to 1.
 
 
 If no TPM is present on the system, or the TPM version does not match those requested by the caller, <b>Tbsi_Context_Create</b> will return the TBS_E_TPM_NOT_FOUND (0x8028400) error code.  Application programs must check for both versions and be able to interact with either TPM.
-
-
-

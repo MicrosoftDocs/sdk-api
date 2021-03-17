@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_CurrentMediaStatus
 title: IDiscFormat2Data::get_CurrentMediaStatus (imapi2.h)
 description: Retrieves the current state of the media in the device.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_CurrentMediaStatus method","IDiscFormat2Data.get_CurrentMediaStatus","IDiscFormat2Data::get_CurrentMediaStatus","get_CurrentMediaStatus","get_CurrentMediaStatus method [IMAPI]","get_CurrentMediaStatus method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_currentmediastatus","imapi2/IDiscFormat2Data::get_CurrentMediaStatus"]
 old-location: imapi\idiscformat2data_get_currentmediastatus.htm
 tech.root: imapi
 ms.assetid: b8ed119f-8976-48aa-ab9a-86c1361b6e14
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentMediaStatus method, IDiscFormat2Data.get_CurrentMediaStatus, IDiscFormat2Data::get_CurrentMediaStatus, get_CurrentMediaStatus, get_CurrentMediaStatus method [IMAPI], get_CurrentMediaStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentmediastatus, imapi2/IDiscFormat2Data::get_CurrentMediaStatus
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_CurrentMediaStatus
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_CurrentMediaStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_CurrentMediaStatus
+ - imapi2/IDiscFormat2Data::get_CurrentMediaStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_CurrentMediaStatus
 ---
 
 # IDiscFormat2Data::get_CurrentMediaStatus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current state of the media in the device.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-State of the media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_format2_data_media_state">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
-
+State of the media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_format2_data_media_state">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -347,27 +341,11 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For an example that uses this property, see <a href="https://docs.microsoft.com/windows/desktop/imapi/checking-media-support">Checking Media Support</a>.
-
-
-
+For an example that uses this property, see <a href="/windows/desktop/imapi/checking-media-support">Checking Media Support</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>

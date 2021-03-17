@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced2.SetInputSetting
 title: IWMWriterAdvanced2::SetInputSetting (wmsdkidl.h)
 description: The SetInputSetting method specifies a named setting for a particular input.
+helpviewer_keywords: ["IWMWriterAdvanced2 interface [windows Media Format]","SetInputSetting method","IWMWriterAdvanced2.SetInputSetting","IWMWriterAdvanced2::SetInputSetting","IWMWriterAdvanced2SetInputSetting","SetInputSetting","SetInputSetting method [windows Media Format]","SetInputSetting method [windows Media Format]","IWMWriterAdvanced2 interface","wmformat.iwmwriteradvanced2_setinputsetting","wmsdkidl/IWMWriterAdvanced2::SetInputSetting"]
 old-location: wmformat\iwmwriteradvanced2_setinputsetting.htm
 tech.root: wmformat
 ms.assetid: a920bfe8-1f95-4957-b6c4-9749d5e10ee3
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced2 interface [windows Media Format],SetInputSetting method, IWMWriterAdvanced2.SetInputSetting, IWMWriterAdvanced2::SetInputSetting, IWMWriterAdvanced2SetInputSetting, SetInputSetting, SetInputSetting method [windows Media Format], SetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, wmformat.iwmwriteradvanced2_setinputsetting, wmsdkidl/IWMWriterAdvanced2::SetInputSetting
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced2.SetInputSetting
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced2.SetInputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced2::SetInputSetting
+ - wmsdkidl/IWMWriterAdvanced2::SetInputSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced2.SetInputSetting
 ---
 
 # IWMWriterAdvanced2::SetInputSetting
@@ -51,46 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetInputSetting</b> method specifies a named setting for a particular input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number.
 
-
 ### -param pszName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/input-settings">Input Settings</a>.
-
+Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="/windows/desktop/wmformat/input-settings">Input Settings</a>.
 
 ### -param Type [in]
 
-Pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
-
+Pointer to a value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
 
 ### -param pValue [in]
 
 Pointer to a byte array containing the setting.
 
-
 ### -param cbLength [in]
 
 Size of <i>pValue</i>, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -159,41 +146,25 @@ Unspecified error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The encoding settings set with this method are not persisted in the output file. If you want your custom player to have access to this information, you must save the values as custom metadata attributes in the file header.
 
-Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called.
-
-
-
+Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting">IWMWriterAdvanced2::GetInputSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting">IWMWriterAdvanced2::GetInputSetting</a>
+<a href="/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>

@@ -2,15 +2,12 @@
 UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
 title: RoResolveRestrictedErrorInfoReference function
 description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
+helpviewer_keywords: ["RoResolveRestrictedErrorInfoReference","RoResolveRestrictedErrorInfoReference function [Windows Runtime]","roerrorapi/RoResolveRestrictedErrorInfoReference","winrt.roresolverestrictederrorinforeference"]
 old-location: winrt\roresolverestrictederrorinforeference.htm
 tech.root: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
 ms.date: 12/5/2018
 ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
-f1_keywords:
-- roerrorapi/RoResolveRestrictedErrorInfoReference
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- runtimeobject.lib
-- runtimeobject.dll
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoResolveRestrictedErrorInfoReference
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoResolveRestrictedErrorInfoReference
+ - roerrorapi/RoResolveRestrictedErrorInfoReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - runtimeobject.lib
+ - runtimeobject.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoResolveRestrictedErrorInfoReference
 ---
 
 # RoResolveRestrictedErrorInfoReference function
@@ -51,14 +53,9 @@ req.redist:
 
 ## -description
 
-
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface pointer based on the given reference.
-
+Returns the <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> interface pointer based on the given reference.
 
 ## -parameters
-
-
-
 
 ### -param reference [in]
 
@@ -66,17 +63,13 @@ Type: <b>PCWSTR</b>
 
 Identifies an error object which contains relevant information for the specific error.
 
-
 ### -param ppRestrictedErrorInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>**</b>
+Type: <b><a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>**</b>
 
 The output parameter for the object associated with the given reference.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -123,16 +116,10 @@ The reference is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a> method.
+The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily for debugger development. A debugger receives the reference  string and uses the reference to identify the associated <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> object, which allows the debugger to retrieve the detailed error message by calling the <a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-irestrictederrorinfo-geterrordetails">GetErrorDetails</a> method.
 
 
 

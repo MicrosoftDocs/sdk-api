@@ -2,15 +2,12 @@
 UID: NF:winsnmp.SnmpGetPduData
 title: SnmpGetPduData function (winsnmp.h)
 description: The WinSNMP SnmpGetPduData function returns selected data fields from a specified SNMP protocol data unit (PDU).
+helpviewer_keywords: ["SNMP_ERROR_AUTHORIZATIONERROR","SNMP_ERROR_BADVALUE","SNMP_ERROR_COMMITFAILED","SNMP_ERROR_GENERR","SNMP_ERROR_INCONSISTENTNAME","SNMP_ERROR_INCONSISTENTVALUE","SNMP_ERROR_NOACCESS","SNMP_ERROR_NOCREATION","SNMP_ERROR_NOERROR","SNMP_ERROR_NOSUCHNAME","SNMP_ERROR_NOTWRITABLE","SNMP_ERROR_READONLY","SNMP_ERROR_RESOURCEUNAVAILABLE","SNMP_ERROR_TOOBIG","SNMP_ERROR_UNDOFAILED","SNMP_ERROR_WRONGENCODING","SNMP_ERROR_WRONGLENGTH","SNMP_ERROR_WRONGTYPE","SNMP_ERROR_WRONGVALUE","SNMP_PDU_GET","SNMP_PDU_GETBULK","SNMP_PDU_GETNEXT","SNMP_PDU_RESPONSE","SNMP_PDU_SET","SNMP_PDU_TRAP","SnmpGetPduData","SnmpGetPduData function [SNMP]","_snmp_snmpgetpdudata","snmp.snmpgetpdudata","winsnmp/SnmpGetPduData"]
 old-location: snmp\snmpgetpdudata.htm
 tech.root: SNMP
 ms.assetid: 5dff1bc0-aac4-490f-aef0-11d090567761
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERROR_AUTHORIZATIONERROR, SNMP_ERROR_BADVALUE, SNMP_ERROR_COMMITFAILED, SNMP_ERROR_GENERR, SNMP_ERROR_INCONSISTENTNAME, SNMP_ERROR_INCONSISTENTVALUE, SNMP_ERROR_NOACCESS, SNMP_ERROR_NOCREATION, SNMP_ERROR_NOERROR, SNMP_ERROR_NOSUCHNAME, SNMP_ERROR_NOTWRITABLE, SNMP_ERROR_READONLY, SNMP_ERROR_RESOURCEUNAVAILABLE, SNMP_ERROR_TOOBIG, SNMP_ERROR_UNDOFAILED, SNMP_ERROR_WRONGENCODING, SNMP_ERROR_WRONGLENGTH, SNMP_ERROR_WRONGTYPE, SNMP_ERROR_WRONGVALUE, SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE, SNMP_PDU_SET, SNMP_PDU_TRAP, SnmpGetPduData, SnmpGetPduData function [SNMP], _snmp_snmpgetpdudata, snmp.snmpgetpdudata, winsnmp/SnmpGetPduData
-f1_keywords:
-- winsnmp/SnmpGetPduData
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpGetPduData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpGetPduData
+ - winsnmp/SnmpGetPduData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpGetPduData
 ---
 
 # SnmpGetPduData function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpGetPduData</b> function returns selected data fields from a specified SNMP protocol data unit (PDU).
 
-
 ## -parameters
-
-
-
 
 ### -param PDU [in]
 
 Handle to the SNMP PDU.
-
 
 ### -param PDU_type [out]
 
@@ -137,13 +133,10 @@ Alerts the management system to an extraordinary event under SNMPv2C.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param request_id [out]
 
 Pointer to a variable that receives the <b>request_id</b> field of the specified PDU. This parameter can be <b>NULL</b>.
-
 
 ### -param error_status [out]
 
@@ -350,8 +343,6 @@ The variable does not exist; the agent cannot create it because the named object
 </td>
 </tr>
 </table>
- 
-
 
 ### -param error_index [out]
 
@@ -362,20 +353,16 @@ Pointer to a variable that receives the <b>error_index</b> field of the specifie
 
 If the <i>PDU_type</i> parameter is equal to <b>SNMP_PDU_GETBULK</b>, this parameter receives the value of the <b>max_repetitions</b> field of the specified PDU. This parameter can be <b>NULL</b>.
 
-
 ### -param varbindlist [out]
 
 Pointer to a variable that receives a handle to the variable bindings list field of the specified PDU. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -391,7 +378,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -440,14 +427,8 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 All parameters of the 
 <b>SnmpGetPduData</b> function are required. However, all parameters, except the <i>PDU</i> parameter, can be <b>NULL</b>. In parameters that the application passes as <b>NULL</b>, the 
@@ -458,38 +439,28 @@ The
 
 When an application calls 
 <b>SnmpGetPduData</b> with a <i>varbindlist</i> parameter that is not <b>NULL</b>, but the <i>PDU</i> parameter specifies an existing PDU, the function returns a handle to a new duplicate variable bindings list. The function call does not disturb the handle attached to the existing PDU. An existing PDU is one that an application creates with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a> function, or one that the application receives and then reads using a call to 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a> function, or one that the application receives and then reads using a call to 
 <b>SnmpGetPduData</b>.
 
 When an application creates a PDU with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a>, or after the application reads a PDU using 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a>, or after the application reads a PDU using 
 <b>SnmpGetPduData</b>, the Microsoft WinSNMP implementation expects that the application "knows" the values of the PDU fields. If an application reads a PDU a second time with 
 <b>SnmpGetPduData</b>, the call results in a copy of the variable bindings list of the specified PDU. This type of call to 
 <b>SnmpGetPduData</b> also duplicates the handle to the PDU.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcreatepdu">SnmpCreatePdu</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpduplicatevbl">SnmpDuplicateVbl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpduplicatevbl">SnmpDuplicateVbl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>

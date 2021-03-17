@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument.Save
 title: ITextDocument::Save (tom.h)
 description: Saves the document.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Save method","ITextDocument.Save","ITextDocument::Save","Save","Save method [Windows Controls]","Save method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Save","_win32_ITextDocument_Save_cpp","controls.ITextDocument_Save","controls._win32_ITextDocument_Save","tom/ITextDocument::Save"]
 old-location: controls\ITextDocument_Save.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\save.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Save method, ITextDocument.Save, ITextDocument::Save, Save, Save method [Windows Controls], Save method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Save, _win32_ITextDocument_Save_cpp, controls.ITextDocument_Save, controls._win32_ITextDocument_Save, tom/ITextDocument::Save
-f1_keywords:
-- tom/ITextDocument.Save
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::Save
+ - tom/ITextDocument::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.Save
 ---
 
 # ITextDocument::Save
@@ -48,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Saves the document. 
-
+Saves the document.
 
 ## -parameters
-
-
-
 
 ### -param pVar [in]
 
 Type: <b>VARIANT*</b>
 
-The save target. This parameter is a <b>VARIANT</b>, which can be a file name, or <b>NULL</b>. 
-
+The save target. This parameter is a <b>VARIANT</b>, which can be a file name, or <b>NULL</b>.
 
 ### -param Flags [in]
 
 Type: <b>long</b>
 
-File creation, open, share, and conversion flags. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a>. 
-
+File creation, open, share, and conversion flags. For a list of possible values, see <a href="/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a>.
 
 ### -param CodePage [in]
 
 Type: <b>long</b>
 
-The specified code page. Common values are CP_ACP (zero: system ANSI code page), 1200 (Unicode), and 1208 (UTF-8). 
-
+The specified code page. Common values are CP_ACP (zero: system ANSI code page), 1200 (Unicode), and 1208 (UTF-8).
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -137,14 +129,8 @@ Feature not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To use the parameters that were specified for opening the file, use zero values for the parameters. 
 
@@ -155,32 +141,26 @@ If
 				<i>pVar</i> specifies a file name, that name should replace the current Name property. Similarly, the 
 				<i>Flags</i> and 
 				<i>CodePage</i> arguments can overrule those supplied in the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a> method and define the values to use for files created with the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method.
+				<a href="/windows/desktop/api/tom/nf-tom-itextdocument-open">ITextDocument::Open</a> method and define the values to use for files created with the 
+				<a href="/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method.
 
 Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEFF) as the first character. This character should be removed when the file is read in; that is, it is only used for import/export to identify the plain text as Unicode and to identify the byte order of that text. Microsoft Notepad adopted this convention, which is now recommended by the Unicode standard.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">New</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-new">New</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-open">Open</a>
 
 
 
@@ -188,8 +168,4 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

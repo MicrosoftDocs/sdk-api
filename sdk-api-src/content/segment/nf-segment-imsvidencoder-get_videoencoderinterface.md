@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidEncoder.get_VideoEncoderInterface
 title: IMSVidEncoder::get_VideoEncoderInterface (segment.h)
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
+helpviewer_keywords: ["IMSVidEncoder interface [Microsoft TV Technologies]","get_VideoEncoderInterface method","IMSVidEncoder.get_VideoEncoderInterface","IMSVidEncoder::get_VideoEncoderInterface","IMSVidEncoderget_VideoEncoderInterface","get_VideoEncoderInterface","get_VideoEncoderInterface method [Microsoft TV Technologies]","get_VideoEncoderInterface method [Microsoft TV Technologies]","IMSVidEncoder interface","mstv.imsvidencoder_get_videoencoderinterface","segment/IMSVidEncoder::get_VideoEncoderInterface"]
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm
 tech.root: mstv
 ms.assetid: c6ee3169-ba24-495f-b446-161c899aab16
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncoderInterface method, IMSVidEncoder.get_VideoEncoderInterface, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
-f1_keywords:
-- segment/IMSVidEncoder.get_VideoEncoderInterface
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidEncoder.get_VideoEncoderInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidEncoder::get_VideoEncoderInterface
+ - segment/IMSVidEncoder::get_VideoEncoderInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidEncoder.get_VideoEncoderInterface
 ---
 
 # IMSVidEncoder::get_VideoEncoderInterface
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_VideoEncoderInterface</b> method retrieves a pointer to the video encoder interface.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEncInt [out]
 
-Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> interface.
-
+Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> interface.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
-
-
-
 
 ## -remarks
 
-
-
 If the method succeeds, the caller must release the <b>IUnknown</b> interface.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidencoder">IMSVidEncoder Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidencoder">IMSVidEncoder Interface</a>

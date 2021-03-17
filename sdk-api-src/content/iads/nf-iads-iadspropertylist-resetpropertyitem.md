@@ -2,15 +2,12 @@
 UID: NF:iads.IADsPropertyList.ResetPropertyItem
 title: IADsPropertyList::ResetPropertyItem (iads.h)
 description: Removes the specified item from the list; that is, from the cache.
+helpviewer_keywords: ["IADsPropertyList interface [ADSI]","ResetPropertyItem method","IADsPropertyList.ResetPropertyItem","IADsPropertyList::ResetPropertyItem","ResetPropertyItem","ResetPropertyItem method [ADSI]","ResetPropertyItem method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_resetpropertyitem","adsi.iadspropertylist__resetpropertyitem","adsi.iadspropertylist_resetpropertyitem","iads/IADsPropertyList::ResetPropertyItem"]
 old-location: adsi\iadspropertylist_resetpropertyitem.htm
 tech.root: adsi
 ms.assetid: 25ee4444-476d-4146-ac22-3b0cfed3f2c0
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],ResetPropertyItem method, IADsPropertyList.ResetPropertyItem, IADsPropertyList::ResetPropertyItem, ResetPropertyItem, ResetPropertyItem method [ADSI], ResetPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_resetpropertyitem, adsi.iadspropertylist__resetpropertyitem, adsi.iadspropertylist_resetpropertyitem, iads/IADsPropertyList::ResetPropertyItem
-f1_keywords:
-- iads/IADsPropertyList.ResetPropertyItem
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyList.ResetPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyList::ResetPropertyItem
+ - iads/IADsPropertyList::ResetPropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyList.ResetPropertyItem
 ---
 
 # IADsPropertyList::ResetPropertyItem
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPropertyList::ResetPropertyItem</b> method removes the specified item from the list; that is, from the cache. You can specify the item to be removed by name (as a string) or by index (as an integer).
 
-
 ## -parameters
-
-
-
 
 ### -param varEntry [in]
 
 Entry to be reset.
 
-
 ## -returns
 
-
-
-This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports the standard <b>HRESULT</b> return values, including <b>S_OK</b>. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
-<b>ResetPropertyItem</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is calling  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a> after calling <b>ResetPropertyItem</b> does not delete the properties on the directory object.
+<b>ResetPropertyItem</b> only affects the contents of the cache and does not affect the properties on the actual object in the directory; that is calling  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a> after calling <b>ResetPropertyItem</b> does not delete the properties on the directory object.
 
 
 #### Examples
@@ -127,7 +116,7 @@ Cleanup:
 ```
 
 
-The following code example shows the effect produced by a call to <b>IADsPropertyList::ResetPropertyItem</b>. For more information and the listing of the <b>GetPropertyCache</b> function, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>. For more information and the listing of the <b>GetNextEntry</b> and <b>PropertyItem</b> functions, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a> respectively.
+The following code example shows the effect produced by a call to <b>IADsPropertyList::ResetPropertyItem</b>. For more information and the listing of the <b>GetPropertyCache</b> function, see  <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>. For more information and the listing of the <b>GetNextEntry</b> and <b>PropertyItem</b> functions, see  <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a> and  <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a> respectively.
 
 
 ```cpp
@@ -209,33 +198,22 @@ void TestResetItem()
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-item">IADsPropertyList::Item</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>

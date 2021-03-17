@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCDeinstallProvider32
 title: WSCDeinstallProvider32 function (ws2spi.h)
 description: Removes the specified 32-bit transport provider from the system configuration database.
+helpviewer_keywords: ["WSCDeinstallProvider32","WSCDeinstallProvider32 function [Winsock]","winsock.wscdeinstallprovider32","ws2spi/WSCDeinstallProvider32"]
 old-location: winsock\wscdeinstallprovider32.htm
 tech.root: WinSock
 ms.assetid: 3de74059-dbfb-49b9-830b-7b2f81f8b68c
 ms.date: 12/05/2018
 ms.keywords: WSCDeinstallProvider32, WSCDeinstallProvider32 function [Winsock], winsock.wscdeinstallprovider32, ws2spi/WSCDeinstallProvider32
-f1_keywords:
-- ws2spi/WSCDeinstallProvider32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCDeinstallProvider32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCDeinstallProvider32
+ - ws2spi/WSCDeinstallProvider32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCDeinstallProvider32
 ---
 
 # WSCDeinstallProvider32 function
@@ -48,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **WSCDeinstallProvider32** function removes the specified 32-bit transport provider from the system configuration database.<div class="alert">**Note**  This call enables a 64-bit process to manipulate the 32-bit Winsock catalog because <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>, on 64-bit computers, only manipulates the native 64-bit Windows Sockets catalog.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider. This value is stored within each 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure.
 
-
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCDeinstallProvider32** returns zero. Otherwise, it returns **SOCKET_ERROR**, and a specific error code is available in <i>lpErrno</i>.
@@ -127,14 +119,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCDeinstallProvider32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscdeinstallprovider">WSCDeinstallProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog.  Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -150,13 +136,7 @@ For computers running Windows Vista or Windows Server 2008, this function can 
 
 The caller of this function must remove any additional files or service provider–specific configuration information that is needed to completely uninstall the service provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>
 
@@ -171,7 +151,4 @@ The caller of this function must remove any additional files or service provider
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a>
- 
-
- 
 

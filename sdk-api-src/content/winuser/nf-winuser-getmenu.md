@@ -2,15 +2,12 @@
 UID: NF:winuser.GetMenu
 title: GetMenu function (winuser.h)
 description: Retrieves a handle to the menu assigned to the specified window.
+helpviewer_keywords: ["GetMenu","GetMenu function [Menus and Other Resources]","_win32_GetMenu","_win32_getmenu_cpp","menurc.getmenu","winui._win32_getmenu","winuser/GetMenu"]
 old-location: menurc\getmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenu.htm
 ms.date: 12/05/2018
 ms.keywords: GetMenu, GetMenu function [Menus and Other Resources], _win32_GetMenu, _win32_getmenu_cpp, menurc.getmenu, winui._win32_getmenu, winuser/GetMenu
-f1_keywords:
-- winuser/GetMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- GetMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetMenu
+ - winuser/GetMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - GetMenu
 ---
 
 # GetMenu function
@@ -48,62 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle to the menu assigned to the specified window. 
-
+Retrieves a handle to the menu assigned to the specified window.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window whose menu handle is to be retrieved. 
-
+A handle to the window whose menu handle is to be retrieved.
 
 ## -returns
 
-
-
 Type: <b>HMENU</b>
 
-The return value is a handle to the menu. If the specified window has no menu, the return value is <b>NULL</b>. If the window is a child window, the return value is undefined. 
-
-
-
+The return value is a handle to the menu. If the specified window has no menu, the return value is <b>NULL</b>. If the window is a child window, the return value is undefined.
 
 ## -remarks
-
-
 
 <b>GetMenu</b> does not work on floating menu bars. Floating menu bars are custom controls that mimic standard menus; they are not menus. To get the handle on a floating menu bar, use the <a href="/previous-versions/ms971350(v=msdn.10)">Active Accessibility</a> APIs.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -111,8 +95,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>

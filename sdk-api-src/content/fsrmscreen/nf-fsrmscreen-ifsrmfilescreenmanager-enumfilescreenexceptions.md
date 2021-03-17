@@ -2,15 +2,12 @@
 UID: NF:fsrmscreen.IFsrmFileScreenManager.EnumFileScreenExceptions
 title: IFsrmFileScreenManager::EnumFileScreenExceptions (fsrmscreen.h)
 description: Enumerates the file screen exceptions for the specified directory and its subdirectories.
+helpviewer_keywords: ["EnumFileScreenExceptions","EnumFileScreenExceptions method [File Server Resource Manager]","EnumFileScreenExceptions method [File Server Resource Manager]","FsrmFileScreenManager class","EnumFileScreenExceptions method [File Server Resource Manager]","IFsrmFileScreenManager interface","FsrmFileScreenManager class [File Server Resource Manager]","EnumFileScreenExceptions method","IFsrmFileScreenManager interface [File Server Resource Manager]","EnumFileScreenExceptions method","IFsrmFileScreenManager.EnumFileScreenExceptions","IFsrmFileScreenManager::EnumFileScreenExceptions","fs.ifsrmfilescreenmanager_enumfilescreenexceptions","fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions","fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions"]
 old-location: fsrm\ifsrmfilescreenmanager_enumfilescreenexceptions.htm
 tech.root: fsrm
 ms.assetid: c30377c8-d3a3-40fe-a42c-9b36d2a0b35e
 ms.date: 12/05/2018
 ms.keywords: EnumFileScreenExceptions, EnumFileScreenExceptions method [File Server Resource Manager], EnumFileScreenExceptions method [File Server Resource Manager],FsrmFileScreenManager class, EnumFileScreenExceptions method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager interface [File Server Resource Manager],EnumFileScreenExceptions method, IFsrmFileScreenManager.EnumFileScreenExceptions, IFsrmFileScreenManager::EnumFileScreenExceptions, fs.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrm.ifsrmfilescreenmanager_enumfilescreenexceptions, fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenManager.EnumFileScreenExceptions
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenManager.EnumFileScreenExceptions
-- FsrmFileScreenManager.EnumFileScreenExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenManager::EnumFileScreenExceptions
+ - fsrmscreen/IFsrmFileScreenManager::EnumFileScreenExceptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenManager.EnumFileScreenExceptions
+ - FsrmFileScreenManager.EnumFileScreenExceptions
 ---
 
 # IFsrmFileScreenManager::EnumFileScreenExceptions
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the file screen exceptions for the specified directory and its subdirectories.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -70,43 +67,28 @@ If the path does not end in "\*" or "\...", retrieve the exception for the path 
 
 If path is null or empty, the method returns all file screen exceptions.
 
-
 ### -param options [in]
 
-The options to use when enumerating the exceptions. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
-
+The options to use when enumerating the exceptions. For possible values, see the <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmenumoptions">FsrmEnumOptions</a> enumeration.
 
 ### -param fileScreenExceptions [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a> interface that contains a collection of file screen exceptions.
+An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a> interface that contains a collection of file screen exceptions.
 
-Each item of the collection is a <b>VARIANT</b> of type <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member of the variant for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenexception">IFsrmFileScreenException</a> interface.
+Each item of the collection is a <b>VARIANT</b> of type <b>VT_DISPATCH</b>. Query the <b>pdispVal</b> member of the variant for the <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenexception">IFsrmFileScreenException</a> interface.
 
 The collection contains only committed exceptions; the collection will not contain newly created exceptions that have not been committed.
 
 The collection is empty if the path does not contain file screen exceptions.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreenmanager">FsrmFileScreenManager</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>

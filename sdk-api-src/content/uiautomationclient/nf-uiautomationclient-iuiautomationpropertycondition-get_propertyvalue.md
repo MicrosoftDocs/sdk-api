@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyValue
 title: IUIAutomationPropertyCondition::get_PropertyValue (uiautomationclient.h)
 description: Retrieves the property value that must be matched for the condition to be true.
+helpviewer_keywords: ["IUIAutomationPropertyCondition interface [Windows Accessibility]","PropertyValue property","IUIAutomationPropertyCondition.PropertyValue","IUIAutomationPropertyCondition.get_PropertyValue","IUIAutomationPropertyCondition::PropertyValue","IUIAutomationPropertyCondition::get_PropertyValue","PropertyValue property [Windows Accessibility]","PropertyValue property [Windows Accessibility]","IUIAutomationPropertyCondition interface","get_PropertyValue","uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue","uiauto_IUIAutomationPropertyCondition_PropertyValue","uiautomationclient/IUIAutomationPropertyCondition::PropertyValue","uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue","winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue"]
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyValue.htm
 tech.root: WinAuto
 ms.assetid: a92a5ee7-d5b4-4b2e-9e38-846e9b07d0b7
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyValue property, IUIAutomationPropertyCondition.PropertyValue, IUIAutomationPropertyCondition.get_PropertyValue, IUIAutomationPropertyCondition::PropertyValue, IUIAutomationPropertyCondition::get_PropertyValue, PropertyValue property [Windows Accessibility], PropertyValue property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyValue, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue, uiauto_IUIAutomationPropertyCondition_PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue, winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue
-f1_keywords:
-- uiautomationclient/IUIAutomationPropertyCondition.PropertyValue
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationPropertyCondition.PropertyValue
-- IUIAutomationPropertyCondition.get_PropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationPropertyCondition::get_PropertyValue
+ - uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationPropertyCondition.PropertyValue
+ - IUIAutomationPropertyCondition.get_PropertyValue
 ---
 
 # IUIAutomationPropertyCondition::get_PropertyValue
@@ -49,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the property value that must be matched for the condition to be true.
 
 This property is read-only.
-
 
 ## -parameters
 

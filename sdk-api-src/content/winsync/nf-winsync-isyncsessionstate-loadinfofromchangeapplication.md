@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncSessionState.LoadInfoFromChangeApplication
 title: ISyncSessionState::LoadInfoFromChangeApplication (winsync.h)
 description: Stores data for a serialized change applier.
+helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","LoadInfoFromChangeApplication method","ISyncSessionState.LoadInfoFromChangeApplication","ISyncSessionState::LoadInfoFromChangeApplication","LoadInfoFromChangeApplication","LoadInfoFromChangeApplication method [Windows Sync]","LoadInfoFromChangeApplication method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_loadinfofromchangeapplication","winsync/ISyncSessionState::LoadInfoFromChangeApplication"]
 old-location: winsync\isyncsessionstate_loadinfofromchangeapplication.htm
 tech.root: winsync
 ms.assetid: 72c7947b-0eee-4b75-aff6-f208bebac3f2
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],LoadInfoFromChangeApplication method, ISyncSessionState.LoadInfoFromChangeApplication, ISyncSessionState::LoadInfoFromChangeApplication, LoadInfoFromChangeApplication, LoadInfoFromChangeApplication method [Windows Sync], LoadInfoFromChangeApplication method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_loadinfofromchangeapplication, winsync/ISyncSessionState::LoadInfoFromChangeApplication
-f1_keywords:
-- winsync/ISyncSessionState.LoadInfoFromChangeApplication
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionState.LoadInfoFromChangeApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState::LoadInfoFromChangeApplication
+ - winsync/ISyncSessionState::LoadInfoFromChangeApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionState.LoadInfoFromChangeApplication
 ---
 
 # ISyncSessionState::LoadInfoFromChangeApplication
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores data for a serialized change applier.
 
-
 ## -parameters
-
-
-
 
 ### -param pbChangeApplierInfo [in]
 
 The serialized change applier data.
 
-
 ### -param cbChangeApplierInfo [in]
 
 Specifies the number of bytes in <i>pbChangeApplierInfo</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -123,18 +116,7 @@ The serialized data is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>

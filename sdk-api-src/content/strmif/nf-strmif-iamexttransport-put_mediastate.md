@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.put_MediaState
 title: IAMExtTransport::put_MediaState (strmif.h)
 description: The put_MediaState method sets the current state of the media.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_MediaState method","IAMExtTransport.put_MediaState","IAMExtTransport::put_MediaState","IAMExtTransportput_MediaState","dshow.iamexttransport_put_mediastate","put_MediaState","put_MediaState method [DirectShow]","put_MediaState method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_MediaState"]
 old-location: dshow\iamexttransport_put_mediastate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e5a4638e-3246-44dd-a7f8-52d0da12fc9c
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_MediaState method, IAMExtTransport.put_MediaState, IAMExtTransport::put_MediaState, IAMExtTransportput_MediaState, dshow.iamexttransport_put_mediastate, put_MediaState, put_MediaState method [DirectShow], put_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_MediaState
-f1_keywords:
-- strmif/IAMExtTransport.put_MediaState
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.put_MediaState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::put_MediaState
+ - strmif/IAMExtTransport::put_MediaState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.put_MediaState
 ---
 
 # IAMExtTransport::put_MediaState
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_MediaState</code> method sets the current state of the media.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param State [in]
 
@@ -89,31 +83,18 @@ Specifies the media state as a <b>long</b> integer. Use one of the following:
 
 These constants are for disk and tape media. Other devices might need to define new constants.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mediastate">IAMExtTransport::get_MediaState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mediastate">IAMExtTransport::get_MediaState</a>

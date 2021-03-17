@@ -2,15 +2,12 @@
 UID: NF:vsadmin.IVssAdmin.RegisterProvider
 title: IVssAdmin::RegisterProvider (vsadmin.h)
 description: Registers a new shadow copy provider.
+helpviewer_keywords: ["IVssAdmin interface [VSS]","RegisterProvider method","IVssAdmin.RegisterProvider","IVssAdmin::RegisterProvider","RegisterProvider","RegisterProvider method [VSS]","RegisterProvider method [VSS]","IVssAdmin interface","base.ivssadmin_registerprovider","vsadmin/IVssAdmin::RegisterProvider"]
 old-location: base\ivssadmin_registerprovider.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.RegisterProvider, IVssAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VSS], RegisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_registerprovider, vsadmin/IVssAdmin::RegisterProvider
-f1_keywords:
-- vsadmin/IVssAdmin.RegisterProvider
-dev_langs:
-- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsAdmin.h
-api_name:
-- IVssAdmin.RegisterProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAdmin::RegisterProvider
+ - vsadmin/IVssAdmin::RegisterProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsAdmin.h
+api_name:
+ - IVssAdmin.RegisterProvider
 ---
 
 # IVssAdmin::RegisterProvider
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RegisterProvider</b> method 
   registers a new shadow copy provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pProviderId [in]
 
@@ -67,27 +64,22 @@ The <b>VSS_ID</b> that uniquely and persistently identifies the provider. After 
      <i>ProviderId</i> parameter to request that a specific provider be used in a shadow copy 
      creation.
 
-
 ### -param ClassId [in]
 
 The CLSID of the provider.
-
 
 ### -param pwszProviderName [in]
 
 The name of the provider.
 
-
 ### -param eProviderType [in]
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
-
+     <a href="/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
 
 ### -param pwszProviderVersion [in]
 
 The version of the provider.
-
 
 ### -param ProviderVersionId [in]
 
@@ -96,10 +88,7 @@ The <b>VSS_ID</b> that uniquely identifies this version of the  provider. The
      parameters should be unique. The  <i>ProviderVersionId</i> parameter can be the same as the 
      <i>ProviderVersionId</i> parameter of another provider.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -171,24 +160,18 @@ The provider has already been registered on this computer.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the hardware provider is updated, the setup application should call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a> method to unregister the 
+   <a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a> method to unregister the 
    outdated version, and then call  the 
    <b>RegisterProvider</b> method to register the 
    updated provider.
@@ -196,19 +179,10 @@ If the hardware provider is updated, the setup application should call the
 <div class="alert"><b>Note</b>  Hardware providers can only be registered on Windows Server operating systems.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>

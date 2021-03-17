@@ -2,15 +2,12 @@
 UID: NF:winsync.IRecoverableError.GetProvider
 title: IRecoverableError::GetProvider (winsync.h)
 description: Gets the role of the provider that skipped the item change.
+helpviewer_keywords: ["GetProvider","GetProvider method [Windows Sync]","GetProvider method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetProvider method","IRecoverableError.GetProvider","IRecoverableError::GetProvider","winsync.irecoverableerror_getprovider","winsync/IRecoverableError::GetProvider"]
 old-location: winsync\irecoverableerror_getprovider.htm
 tech.root: winsync
 ms.assetid: 48ecfc21-ab30-45c7-879b-c2487288419f
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetProvider method, IRecoverableError.GetProvider, IRecoverableError::GetProvider, winsync.irecoverableerror_getprovider, winsync/IRecoverableError::GetProvider
-f1_keywords:
-- winsync/IRecoverableError.GetProvider
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError::GetProvider
+ - winsync/IRecoverableError::GetProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError.GetProvider
 ---
 
 # IRecoverableError::GetProvider
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the role of the provider that skipped the item change.
 
-
 ## -parameters
-
-
-
 
 ### -param pProviderRole [out]
 
 Returns the role of the provider that skipped the item change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:cryptdlg._CTL_MODIFY_REQUEST
 title: CTL_MODIFY_REQUEST (cryptdlg.h)
 description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
+helpviewer_keywords: ["*PCTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST structure [Security]","CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED","CTL_MODIFY_REQUEST_ADD_TRUSTED","CTL_MODIFY_REQUEST_REMOVE","PCTL_MODIFY_REQUEST","PCTL_MODIFY_REQUEST structure pointer [Security]","cryptdlg/CTL_MODIFY_REQUEST","cryptdlg/PCTL_MODIFY_REQUEST","security.ctl_modify_request"]
 old-location: security\ctl_modify_request.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.date: 12/05/2018
 ms.keywords: '*PCTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST, CTL_MODIFY_REQUEST structure [Security], CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED, CTL_MODIFY_REQUEST_ADD_TRUSTED, CTL_MODIFY_REQUEST_REMOVE, PCTL_MODIFY_REQUEST, PCTL_MODIFY_REQUEST structure pointer [Security], cryptdlg/CTL_MODIFY_REQUEST, cryptdlg/PCTL_MODIFY_REQUEST, security.ctl_modify_request'
-f1_keywords:
-- cryptdlg/CTL_MODIFY_REQUEST
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CryptDlg.h
-api_name:
-- CTL_MODIFY_REQUEST
 targetos: Windows
 req.typenames: CTL_MODIFY_REQUEST, *PCTL_MODIFY_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CTL_MODIFY_REQUEST
+ - cryptdlg/_CTL_MODIFY_REQUEST
+ - PCTL_MODIFY_REQUEST
+ - cryptdlg/PCTL_MODIFY_REQUEST
+ - CTL_MODIFY_REQUEST
+ - cryptdlg/CTL_MODIFY_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CryptDlg.h
+api_name:
+ - CTL_MODIFY_REQUEST
 ---
 
 # CTL_MODIFY_REQUEST structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a> function.
-
+The <b>CTL_MODIFY_REQUEST</b> structure contains a request to modify a certificate trust list (CTL).  This structure is used in the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field pccert
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
-
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to change the trust on.
 
 ### -field dwOperation
 
@@ -103,21 +103,11 @@ Remove the certificate from the CTL. The certificate is neither explicitly trust
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwError
 
 The error code generated for this operation.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a>
- 
-
- 
-
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certmodifycertificatestotrust">CertModifyCertificatesToTrust</a>

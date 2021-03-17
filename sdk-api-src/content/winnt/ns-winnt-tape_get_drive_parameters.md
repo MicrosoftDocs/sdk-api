@@ -2,15 +2,12 @@
 UID: NS:winnt._TAPE_GET_DRIVE_PARAMETERS
 title: TAPE_GET_DRIVE_PARAMETERS (winnt.h)
 description: Describes the tape drive. It is used by the GetTapeParameters function.
+helpviewer_keywords: ["*PTAPE_GET_DRIVE_PARAMETERS","PTAPE_GET_DRIVE_PARAMETERS","PTAPE_GET_DRIVE_PARAMETERS structure pointer [Backup]","TAPE_DRIVE_ABSOLUTE_BLK","TAPE_DRIVE_ABS_BLK_IMMED","TAPE_DRIVE_CLEAN_REQUESTS","TAPE_DRIVE_COMPRESSION","TAPE_DRIVE_ECC","TAPE_DRIVE_EJECT_MEDIA","TAPE_DRIVE_END_OF_DATA","TAPE_DRIVE_ERASE_BOP_ONLY","TAPE_DRIVE_ERASE_IMMEDIATE","TAPE_DRIVE_ERASE_LONG","TAPE_DRIVE_ERASE_SHORT","TAPE_DRIVE_FILEMARKS","TAPE_DRIVE_FIXED","TAPE_DRIVE_FIXED_BLOCK","TAPE_DRIVE_GET_ABSOLUTE_BLK","TAPE_DRIVE_GET_LOGICAL_BLK","TAPE_DRIVE_INITIATOR","TAPE_DRIVE_LOAD_UNLD_IMMED","TAPE_DRIVE_LOAD_UNLOAD","TAPE_DRIVE_LOCK_UNLK_IMMED","TAPE_DRIVE_LOCK_UNLOCK","TAPE_DRIVE_LOGICAL_BLK","TAPE_DRIVE_LOG_BLK_IMMED","TAPE_DRIVE_PADDING","TAPE_DRIVE_RELATIVE_BLKS","TAPE_DRIVE_REPORT_SMKS","TAPE_DRIVE_REVERSE_POSITION","TAPE_DRIVE_REWIND_IMMEDIATE","TAPE_DRIVE_SELECT","TAPE_DRIVE_SEQUENTIAL_FMKS","TAPE_DRIVE_SEQUENTIAL_SMKS","TAPE_DRIVE_SETMARKS","TAPE_DRIVE_SET_BLOCK_SIZE","TAPE_DRIVE_SET_CMP_BOP_ONLY","TAPE_DRIVE_SET_COMPRESSION","TAPE_DRIVE_SET_ECC","TAPE_DRIVE_SET_EOT_WZ_SIZE","TAPE_DRIVE_SET_PADDING","TAPE_DRIVE_SET_REPORT_SMKS","TAPE_DRIVE_SPACE_IMMEDIATE","TAPE_DRIVE_TAPE_CAPACITY","TAPE_DRIVE_TAPE_REMAINING","TAPE_DRIVE_TENSION","TAPE_DRIVE_TENSION_IMMED","TAPE_DRIVE_VARIABLE_BLOCK","TAPE_DRIVE_WRITE_FILEMARKS","TAPE_DRIVE_WRITE_LONG_FMKS","TAPE_DRIVE_WRITE_MARK_IMMED","TAPE_DRIVE_WRITE_PROTECT","TAPE_DRIVE_WRITE_SETMARKS","TAPE_DRIVE_WRITE_SHORT_FMKS","TAPE_GET_DRIVE_PARAMETERS","TAPE_GET_DRIVE_PARAMETERS structure [Backup]","_TAPE_GET_DRIVE_PARAMETERS","_win32_tape_get_drive_parameters_str","backup.tape_get_drive_parameters_str","base.tape_get_drive_parameters_str","winnt/PTAPE_GET_DRIVE_PARAMETERS","winnt/TAPE_GET_DRIVE_PARAMETERS"]
 old-location: backup\tape_get_drive_parameters_str.htm
 tech.root: Backup
 ms.assetid: 02fc702b-3f34-47d0-b8ba-7a9f497659ad
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Backup], TAPE_DRIVE_ABSOLUTE_BLK, TAPE_DRIVE_ABS_BLK_IMMED, TAPE_DRIVE_CLEAN_REQUESTS, TAPE_DRIVE_COMPRESSION, TAPE_DRIVE_ECC, TAPE_DRIVE_EJECT_MEDIA, TAPE_DRIVE_END_OF_DATA, TAPE_DRIVE_ERASE_BOP_ONLY, TAPE_DRIVE_ERASE_IMMEDIATE, TAPE_DRIVE_ERASE_LONG, TAPE_DRIVE_ERASE_SHORT, TAPE_DRIVE_FILEMARKS, TAPE_DRIVE_FIXED, TAPE_DRIVE_FIXED_BLOCK, TAPE_DRIVE_GET_ABSOLUTE_BLK, TAPE_DRIVE_GET_LOGICAL_BLK, TAPE_DRIVE_INITIATOR, TAPE_DRIVE_LOAD_UNLD_IMMED, TAPE_DRIVE_LOAD_UNLOAD, TAPE_DRIVE_LOCK_UNLK_IMMED, TAPE_DRIVE_LOCK_UNLOCK, TAPE_DRIVE_LOGICAL_BLK, TAPE_DRIVE_LOG_BLK_IMMED, TAPE_DRIVE_PADDING, TAPE_DRIVE_RELATIVE_BLKS, TAPE_DRIVE_REPORT_SMKS, TAPE_DRIVE_REVERSE_POSITION, TAPE_DRIVE_REWIND_IMMEDIATE, TAPE_DRIVE_SELECT, TAPE_DRIVE_SEQUENTIAL_FMKS, TAPE_DRIVE_SEQUENTIAL_SMKS, TAPE_DRIVE_SETMARKS, TAPE_DRIVE_SET_BLOCK_SIZE, TAPE_DRIVE_SET_CMP_BOP_ONLY, TAPE_DRIVE_SET_COMPRESSION, TAPE_DRIVE_SET_ECC, TAPE_DRIVE_SET_EOT_WZ_SIZE, TAPE_DRIVE_SET_PADDING, TAPE_DRIVE_SET_REPORT_SMKS, TAPE_DRIVE_SPACE_IMMEDIATE, TAPE_DRIVE_TAPE_CAPACITY, TAPE_DRIVE_TAPE_REMAINING, TAPE_DRIVE_TENSION, TAPE_DRIVE_TENSION_IMMED, TAPE_DRIVE_VARIABLE_BLOCK, TAPE_DRIVE_WRITE_FILEMARKS, TAPE_DRIVE_WRITE_LONG_FMKS, TAPE_DRIVE_WRITE_MARK_IMMED, TAPE_DRIVE_WRITE_PROTECT, TAPE_DRIVE_WRITE_SETMARKS, TAPE_DRIVE_WRITE_SHORT_FMKS, TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Backup], _TAPE_GET_DRIVE_PARAMETERS, _win32_tape_get_drive_parameters_str, backup.tape_get_drive_parameters_str, base.tape_get_drive_parameters_str, winnt/PTAPE_GET_DRIVE_PARAMETERS, winnt/TAPE_GET_DRIVE_PARAMETERS'
-f1_keywords:
-- winnt/TAPE_GET_DRIVE_PARAMETERS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TAPE_GET_DRIVE_PARAMETERS
 targetos: Windows
 req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TAPE_GET_DRIVE_PARAMETERS
+ - winnt/_TAPE_GET_DRIVE_PARAMETERS
+ - PTAPE_GET_DRIVE_PARAMETERS
+ - winnt/PTAPE_GET_DRIVE_PARAMETERS
+ - TAPE_GET_DRIVE_PARAMETERS
+ - winnt/TAPE_GET_DRIVE_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TAPE_GET_DRIVE_PARAMETERS
 ---
 
 # TAPE_GET_DRIVE_PARAMETERS structure
@@ -48,55 +54,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>TAPE_GET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
-
+<b>TAPE_GET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field ECC
 
 If this member is <b>TRUE</b>, the device supports hardware error correction. Otherwise, it does not.
 
-
 ### -field Compression
 
 If this member is <b>TRUE</b>, hardware data compression is enabled. Otherwise, it is disabled.
-
 
 ### -field DataPadding
 
 If this member is <b>TRUE</b>, data padding is enabled. Otherwise, it is disabled. Data padding keeps the tape streaming at a constant speed.
 
-
 ### -field ReportSetmarks
 
 If this member is <b>TRUE</b>, setmark reporting is enabled. Otherwise, it is disabled.
-
 
 ### -field DefaultBlockSize
 
 Device's default fixed block size, in bytes.
 
-
 ### -field MaximumBlockSize
 
 Device's maximum block size, in bytes.
-
 
 ### -field MinimumBlockSize
 
 Device's minimum block size, in bytes.
 
-
 ### -field MaximumPartitionCount
 
 Maximum number of partitions that can be created on the device.
-
 
 ### -field FeaturesLow
 
@@ -352,8 +345,6 @@ The device returns an error if the tape is write-enabled or write-protected.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FeaturesHigh
 
@@ -686,21 +677,11 @@ The device writes short filemarks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EOTWarningZoneSize
 
 Indicates the number of bytes between the end-of-tape warning and the physical end of the tape.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

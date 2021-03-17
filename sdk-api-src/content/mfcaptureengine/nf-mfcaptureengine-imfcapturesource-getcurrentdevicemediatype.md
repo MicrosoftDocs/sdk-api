@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCurrentDeviceMediaType
 title: IMFCaptureSource::GetCurrentDeviceMediaType (mfcaptureengine.h)
 description: Gets the current media type for a capture stream.
+helpviewer_keywords: ["GetCurrentDeviceMediaType","GetCurrentDeviceMediaType method [Media Foundation]","GetCurrentDeviceMediaType method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetCurrentDeviceMediaType method","IMFCaptureSource.GetCurrentDeviceMediaType","IMFCaptureSource::GetCurrentDeviceMediaType","MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM","MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM","mf.imfcapturesource_getcurrentdevicemediatype","mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType"]
 old-location: mf\imfcapturesource_getcurrentdevicemediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDeviceMediaType, GetCurrentDeviceMediaType method [Media Foundation], GetCurrentDeviceMediaType method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCurrentDeviceMediaType method, IMFCaptureSource.GetCurrentDeviceMediaType, IMFCaptureSource::GetCurrentDeviceMediaType, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesource_getcurrentdevicemediatype, mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
-f1_keywords:
-- mfcaptureengine/IMFCaptureSource.GetCurrentDeviceMediaType
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSource.GetCurrentDeviceMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSource::GetCurrentDeviceMediaType
+ - mfcaptureengine/IMFCaptureSource::GetCurrentDeviceMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSource.GetCurrentDeviceMediaType
 ---
 
 # IMFCaptureSource::GetCurrentDeviceMediaType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current media type for a capture stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSourceStreamIndex [in]
 
@@ -73,7 +70,7 @@ Specifies which stream to query. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream.  To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream.  To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -111,19 +108,12 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-
-
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -155,18 +145,7 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

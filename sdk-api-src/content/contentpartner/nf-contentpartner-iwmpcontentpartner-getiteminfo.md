@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.GetItemInfo
 title: IWMPContentPartner::GetItemInfo (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["GetItemInfo","GetItemInfo method [Windows Media Player]","GetItemInfo method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetItemInfo method","IWMPContentPartner.GetItemInfo","IWMPContentPartner::GetItemInfo","IWMPContentPartnerGetItemInfo","contentpartner/IWMPContentPartner::GetItemInfo","wmp.iwmpcontentpartner_getiteminfo"]
 old-location: wmp\iwmpcontentpartner_getiteminfo.htm
 tech.root: WMP
 ms.assetid: b7355c45-fb58-45f4-b7e4-3dd2c3f8c918
 ms.date: 12/05/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Media Player], GetItemInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetItemInfo method, IWMPContentPartner.GetItemInfo, IWMPContentPartner::GetItemInfo, IWMPContentPartnerGetItemInfo, contentpartner/IWMPContentPartner::GetItemInfo, wmp.iwmpcontentpartner_getiteminfo
-f1_keywords:
-- contentpartner/IWMPContentPartner.GetItemInfo
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.GetItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::GetItemInfo
+ - contentpartner/IWMPContentPartner::GetItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.GetItemInfo
 ---
 
 # IWMPContentPartner::GetItemInfo
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetItemInfo</b> method retrieves information (for example, a URL or a caption) related to an item owned by an online store.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrInfoName [in]
 
 <b>BSTR</b> specifying the item for which information will be retrieved. See Remarks for possible values.
 
-
 ### -param pContext [in]
 
 Pointer to a <b>VARIANT</b> that supplies contextual information for the requested information.
-
 
 ### -param pData [out]
 
 Pointer to a <b>VARIANT</b> that receives the information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,14 +89,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following list gives possible values for the <i>bstrInfoName</i> parameter and corresponding values for the <i>pContext</i> and <i>pData</i> parameters.
 
@@ -121,7 +104,7 @@ g_szItemInfo_ALTLoginURL
 
 The <i>pContext</i> parameter has type <b>VT_EMPTY</b> and supplies no information.
 
-The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="https://docs.microsoft.com/windows/desktop/WMP/registry-keys-and-entries-for-a-type-1-online-store">Registry Keys and Entries for a Type 1 Online Store</a>.
+The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="/windows/desktop/WMP/registry-keys-and-entries-for-a-type-1-online-store">Registry Keys and Entries for a Type 1 Online Store</a>.
 
 The online store can specify the size of the window that hosts the alternative log-in page by appending the parameter string ?DlgX=<i>width</i>&amp;DlgY=<i>height</i> to the URL. In the parameter string, <i>width</i> and <i>height</i> are the width and height of the window in pixels. For example <b>GetItemInfo</b> could return the following string to specify that AltLogin.htm should be displayed in a window that has a width of 800 pixels and a height of 400 pixels:
 
@@ -147,7 +130,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webp
 
 g_szItemInfo_ErrorDescription
 
-The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a>.
+The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a>.
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the error description created by the online store and associated with the <b>HRESULT</b>. Windows Media Player displays the error message but does not interpret it.
 
@@ -189,7 +172,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 
 g_szItemInfo_HTMLViewURL
 
-The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="https://docs.microsoft.com/windows/desktop/WMP/param-element">PARAM</a> element in a Windows Media metafile (ASX file).
+The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="/windows/desktop/WMP/param-element">PARAM</a> element in a Windows Media metafile (ASX file).
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage that Windows Media Player will display.
 
@@ -207,7 +190,7 @@ The <i>pContext</i> parameter supplies a <b>VT_UI4</b> that is the index of a we
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage.
 
-Windows Media Player previously obtained the index when the online store's plug-in called <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
+Windows Media Player previously obtained the index when the online store's plug-in called <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
 
 g_szItemInfo_PopupURL
 
@@ -233,16 +216,6 @@ The <i>pContext</i> parameter supplies a <b>VT_UI4</b> that is the ID of a subge
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art that Windows Media Player will display for the subgenre.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

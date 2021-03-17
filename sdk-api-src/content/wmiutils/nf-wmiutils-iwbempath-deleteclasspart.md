@@ -2,15 +2,12 @@
 UID: NF:wmiutils.IWbemPath.DeleteClassPart
 title: IWbemPath::DeleteClassPart (wmiutils.h)
 description: The IWbemPath::DeleteClassPart method deletes the class portion of the path.
+helpviewer_keywords: ["DeleteClassPart","DeleteClassPart method [Windows Management Instrumentation]","DeleteClassPart method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","DeleteClassPart method","IWbemPath.DeleteClassPart","IWbemPath::DeleteClassPart","_hmm_iwbempath_deleteclasspart","wmi.iwbempath_deleteclasspart","wmiutils/IWbemPath::DeleteClassPart"]
 old-location: wmi\iwbempath_deleteclasspart.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 4b79739b-b278-424f-ac3f-2bc769f3cf93
 ms.date: 12/05/2018
 ms.keywords: DeleteClassPart, DeleteClassPart method [Windows Management Instrumentation], DeleteClassPart method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],DeleteClassPart method, IWbemPath.DeleteClassPart, IWbemPath::DeleteClassPart, _hmm_iwbempath_deleteclasspart, wmi.iwbempath_deleteclasspart, wmiutils/IWbemPath::DeleteClassPart
-f1_keywords:
-- wmiutils/IWbemPath.DeleteClassPart
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemPath.DeleteClassPart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemPath::DeleteClassPart
+ - wmiutils/IWbemPath::DeleteClassPart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemPath.DeleteClassPart
 ---
 
 # IWbemPath::DeleteClassPart
@@ -48,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemPath::DeleteClassPart</b> method deletes the class portion of the path.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
 Reserved. Must be 0 (zero).
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b> indicating the status of the method call.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>

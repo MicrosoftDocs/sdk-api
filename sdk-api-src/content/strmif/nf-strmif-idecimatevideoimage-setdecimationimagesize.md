@@ -2,15 +2,12 @@
 UID: NF:strmif.IDecimateVideoImage.SetDecimationImageSize
 title: IDecimateVideoImage::SetDecimationImageSize (strmif.h)
 description: The SetDecimationImageSize method specifies the dimensions to which the decoder should decimate its output image.
+helpviewer_keywords: ["IDecimateVideoImage interface [DirectShow]","SetDecimationImageSize method","IDecimateVideoImage.SetDecimationImageSize","IDecimateVideoImage::SetDecimationImageSize","IDecimateVideoImageSetDecimationImageSize","SetDecimationImageSize","SetDecimationImageSize method [DirectShow]","SetDecimationImageSize method [DirectShow]","IDecimateVideoImage interface","dshow.idecimatevideoimage_setdecimationimagesize","strmif/IDecimateVideoImage::SetDecimationImageSize"]
 old-location: dshow\idecimatevideoimage_setdecimationimagesize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3f165e74-768f-48e3-be0f-887962ea9bfb
 ms.date: 12/05/2018
 ms.keywords: IDecimateVideoImage interface [DirectShow],SetDecimationImageSize method, IDecimateVideoImage.SetDecimationImageSize, IDecimateVideoImage::SetDecimationImageSize, IDecimateVideoImageSetDecimationImageSize, SetDecimationImageSize, SetDecimationImageSize method [DirectShow], SetDecimationImageSize method [DirectShow],IDecimateVideoImage interface, dshow.idecimatevideoimage_setdecimationimagesize, strmif/IDecimateVideoImage::SetDecimationImageSize
-f1_keywords:
-- strmif/IDecimateVideoImage.SetDecimationImageSize
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDecimateVideoImage.SetDecimationImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDecimateVideoImage::SetDecimationImageSize
+ - strmif/IDecimateVideoImage::SetDecimationImageSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDecimateVideoImage.SetDecimationImageSize
 ---
 
 # IDecimateVideoImage::SetDecimationImageSize
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDecimationImageSize</code> method specifies the dimensions to which the decoder should decimate its output image.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lWidth [in]
 
 Specifies the width of the video image, in pixels.
 
-
 ### -param lHeight [in]
 
 Specifies the height of the video image, in pixels.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -105,22 +95,11 @@ The decoder can decimate the video to the requested size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idecimatevideoimage">IDecimateVideoImage Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idecimatevideoimage">IDecimateVideoImage Interface</a>

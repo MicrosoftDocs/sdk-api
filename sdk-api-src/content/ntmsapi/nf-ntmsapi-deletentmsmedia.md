@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.DeleteNtmsMedia
 title: DeleteNtmsMedia function (ntmsapi.h)
 description: The DeleteNtmsMedia function deletes a physical piece of offline media from RSM by removing all references to the specified media from the database.
+helpviewer_keywords: ["DeleteNtmsMedia","DeleteNtmsMedia function [Files]","_zaw_deletentmsmedia","base.deletentmsmedia","fs.deletentmsmedia","ntmsapi/DeleteNtmsMedia"]
 old-location: fs\deletentmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
-f1_keywords:
-- ntmsapi/DeleteNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- DeleteNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteNtmsMedia
+ - ntmsapi/DeleteNtmsMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - DeleteNtmsMedia
 ---
 
 # DeleteNtmsMedia function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>DeleteNtmsMedia</b> function deletes a physical piece of offline media from RSM by removing all references to the specified media from the database.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Unique identifier of a piece of physical media.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -195,14 +188,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Media specified by the 
 <b>DeleteNtmsMedia</b> function must be located in an offline library and not have a side in the Allocated, Completed, or Reserved states.
@@ -210,16 +197,6 @@ Media specified by the
 You can use 
 <b>DeleteNtmsMedia</b> to remove lost or destroyed media.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

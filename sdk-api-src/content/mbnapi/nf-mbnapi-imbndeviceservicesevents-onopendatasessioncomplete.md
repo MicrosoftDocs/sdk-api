@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnOpenDataSessionComplete
 title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete (mbnapi.h)
 description: Notification method indicating that a device service OpenDataSession request has completed.
+helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnOpenDataSessionComplete method","IMbnDeviceServicesEvents.OnOpenDataSessionComplete","IMbnDeviceServicesEvents::OnOpenDataSessionComplete","OnOpenDataSessionComplete","OnOpenDataSessionComplete method [Microsoft Broadband Networks]","OnOpenDataSessionComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onopendatasessioncomplete","mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete"]
 old-location: mbn\imbndeviceservicesevents_onopendatasessioncomplete.htm
 tech.root: mbn
 ms.assetid: 50FDF285-0C93-45C3-AB07-9BFB067DAD94
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenDataSessionComplete method, IMbnDeviceServicesEvents.OnOpenDataSessionComplete, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
-f1_keywords:
-- mbnapi/IMbnDeviceServicesEvents.OnOpenDataSessionComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesEvents.OnOpenDataSessionComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesEvents::OnOpenDataSessionComplete
+ - mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesEvents.OnOpenDataSessionComplete
 ---
 
 # IMbnDeviceServicesEvents::OnOpenDataSessionComplete
@@ -53,30 +55,21 @@ ms.custom: 19H1
 
 Notification method indicating that a device service <b>OpenDataSession</b> request has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param deviceService [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
-
+The <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object on which the <b>OpenDataSession</b>  was requested.
 
 ### -param status [in]
 
 A status code that indicates the outcome of the operation.
 
-
 ### -param requestID [in]
 
 The request ID that was assigned by the Mobile Broadband service to the <b>OpenDataSession</b> request.
 
-
 ## -returns
-
-
 
 The method must return the following value.
 
@@ -97,18 +90,7 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>

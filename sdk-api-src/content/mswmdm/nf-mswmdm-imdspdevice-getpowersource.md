@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPDevice.GetPowerSource
 title: IMDSPDevice::GetPowerSource (mswmdm.h)
 description: The GetPowerSource method reports whether the device is capable of running on batteries, external power, or both, and on which type of power source it is currently running.
+helpviewer_keywords: ["GetPowerSource","GetPowerSource method [windows Media Device Manager]","GetPowerSource method [windows Media Device Manager]","IMDSPDevice interface","IMDSPDevice interface [windows Media Device Manager]","GetPowerSource method","IMDSPDevice.GetPowerSource","IMDSPDevice::GetPowerSource","IMDSPDeviceGetPowerSource","mswmdm/IMDSPDevice::GetPowerSource","wmdm.imdspdevice_getpowersource"]
 old-location: wmdm\imdspdevice_getpowersource.htm
 tech.root: WMDM
 ms.assetid: 476e25cf-de18-4039-994c-570fa423821f
 ms.date: 12/05/2018
 ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetPowerSource method, IMDSPDevice.GetPowerSource, IMDSPDevice::GetPowerSource, IMDSPDeviceGetPowerSource, mswmdm/IMDSPDevice::GetPowerSource, wmdm.imdspdevice_getpowersource
-f1_keywords:
-- mswmdm/IMDSPDevice.GetPowerSource
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPDevice.GetPowerSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDevice::GetPowerSource
+ - mswmdm/IMDSPDevice::GetPowerSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPDevice.GetPowerSource
 ---
 
 # IMDSPDevice::GetPowerSource
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPowerSource</b> method reports whether the device is capable of running on batteries, external power, or both, and on which type of power source it is currently running. If the device is running on batteries, this method also reports the percentage of total power remaining in the batteries.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwPowerSource [out]
 
@@ -93,17 +87,12 @@ Pointer to a <b>DWORD</b> that receives a value indicating the current power sou
 <td>The percentage of power remaining was returned in <i>pdwPercentRemaining</i>.</td>
 </tr>
 </table>
- 
-
 
 ### -param pdwPercentRemaining [out]
 
 If the device is running on batteries, <i>pdwPercentRemaining</i> specifies a pointer to a <b>DWORD</b> containing the percentage of total battery power remaining.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -112,29 +101,14 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
 Only physical devices report power source capabilities and current power source. Software implementations of devices report no power capabilities or current power source.
 
-This method is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
-
-
-
+This method is optional. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>

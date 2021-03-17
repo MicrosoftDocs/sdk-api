@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_AutoSelectOnWebSites
 title: IUpdate::get_AutoSelectOnWebSites (wuapi.h)
 description: Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.
+helpviewer_keywords: ["AutoSelectOnWebSites property [Windows Update Agent]","AutoSelectOnWebSites property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","AutoSelectOnWebSites property","IUpdate.AutoSelectOnWebSites","IUpdate.get_AutoSelectOnWebSites","IUpdate::AutoSelectOnWebSites","IUpdate::get_AutoSelectOnWebSites","get_AutoSelectOnWebSites","wua.iupdate_autoselectonwebsites","wuapi/IUpdate::AutoSelectOnWebSites","wuapi/IUpdate::get_AutoSelectOnWebSites"]
 old-location: wua\iupdate_autoselectonwebsites.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a27d7144-bd76-40e3-b8a7-951ae1974afb
 ms.date: 12/05/2018
 ms.keywords: AutoSelectOnWebSites property [Windows Update Agent], AutoSelectOnWebSites property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AutoSelectOnWebSites property, IUpdate.AutoSelectOnWebSites, IUpdate.get_AutoSelectOnWebSites, IUpdate::AutoSelectOnWebSites, IUpdate::get_AutoSelectOnWebSites, get_AutoSelectOnWebSites, wua.iupdate_autoselectonwebsites, wuapi/IUpdate::AutoSelectOnWebSites, wuapi/IUpdate::get_AutoSelectOnWebSites
-f1_keywords:
-- wuapi/IUpdate.AutoSelectOnWebSites
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.AutoSelectOnWebSites
-- IUpdate.get_AutoSelectOnWebSites
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_AutoSelectOnWebSites
+ - wuapi/IUpdate::get_AutoSelectOnWebSites
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.AutoSelectOnWebSites
+ - IUpdate.get_AutoSelectOnWebSites
 ---
 
 # IUpdate::get_AutoSelectOnWebSites
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether the update is flagged to be automatically selected by Windows Update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

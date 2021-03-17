@@ -2,15 +2,12 @@
 UID: NS:winioctl._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 title: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
+helpviewer_keywords: ["*PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR","PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR","PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files]","STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR","STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files]","fs.storage_medium_product_type_descriptor","winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR","winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"]
 old-location: fs\storage_medium_product_type_descriptor.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 4845F541-D822-4DD0-8F52-9923B067A4F8
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files], fs.storage_medium_product_type_descriptor, winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR'
-f1_keywords:
-- winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winioctl.h
-api_name:
-- STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 targetos: Windows
 req.typenames: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, *PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 req.redist: 
+f1_keywords:
+ - _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - winioctl/_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+ - winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winioctl.h
+api_name:
+ - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ---
 
 # STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure
@@ -47,26 +53,19 @@ req.redist:
 
 ## -description
 
-
-Used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the product type of a storage device.
-
+Used in conjunction with the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the product type of a storage device.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Contains the size of this structure, in bytes, as defined by <code>Sizeof(STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR)</code>. The value of this member will change as members are added to 
-      the structure. 
-
+      the structure.
 
 ### -field Size
 
 Specifies the total size of the data returned, in bytes. This may include data that follows this 
-      structure. 
-
+      structure.
 
 ### -field MediumProductType
 
@@ -118,16 +117,7 @@ Specifies the product type of the storage device.
 <td>Vendor-specific</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>

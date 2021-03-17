@@ -2,12 +2,10 @@
 UID: NC:windns.MDNS_QUERY_CALLBACK
 title: MDNS_QUERY_CALLBACK callback function
 description: Used to asynchronously return the results of an mDNS query.
+tech.root: dns
+helpviewer_keywords: ["MDNS_QUERY_CALLBACK"]
 ms.date: 02/19/2019
 ms.keywords: MDNS_QUERY_CALLBACK
-f1_keywords:
-- windns/MDNS_QUERY_CALLBACK
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,18 +27,24 @@ req.type-library:
 req.typenames: MDNS_QUERY_CALLBACK
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- LibDef
-api_location:
-- windns.h
-api_name:
-- MDNS_QUERY_CALLBACK
 ms.custom: 19H1
+f1_keywords:
+ - MDNS_QUERY_CALLBACK
+ - windns/MDNS_QUERY_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - windns.h
+api_name:
+ - MDNS_QUERY_CALLBACK
 ---
 
 ## -description
+
 Used to asynchronously return the results of an mDNS query.
 
 ## -parameters
@@ -50,17 +54,18 @@ Used to asynchronously return the results of an mDNS query.
     _Inout_ PDNS_QUERY_RESULT pQueryResults
 
 ### -param pQueryContext
-A pointer to the user context that was passed to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).
+
+A pointer to the user context that was passed to [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md).
 
 ### -param pQueryHandle
+
 A pointer to the [MDNS_QUERY_HANDLE](ns-windns-mdns_query_handle.md) structure that was passed to [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md).
 
 ### -param pQueryResults
-A pointer to a [DNS_QUERY_RESULT](/windows/desktop/api/windns/ns-windns-dns_query_result) structure that contains the query results. Your application is responsible for freeing the `pQueryRecords` contained in this structure using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
-## -returns
-This callback function does not return a value.
+A pointer to a [DNS_QUERY_RESULT](/windows/desktop/api/windns/ns-windns-dns_query_result) structure that contains the query results. Your application is responsible for freeing the `pQueryRecords` contained in this structure using [DnsRecordListFree](/windows/desktop/api/windns/nf-windns-dnsrecordlistfree).
 
 ## -remarks
 
 ## -see-also
+

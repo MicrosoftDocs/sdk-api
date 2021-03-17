@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFCreateMuxStreamMediaType
 title: MFCreateMuxStreamMediaType function (mfapi.h)
 description: Creates an IMFMediaType describing the media types of multiplexed substreams.
+helpviewer_keywords: ["MFCreateMuxStreamMediaType","MFCreateMuxStreamMediaType function [Media Foundation]","mf.mfcreatemuxstreammediatype","mfapi/MFCreateMuxStreamMediaType"]
 old-location: mf\mfcreatemuxstreammediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
-f1_keywords:
-- mfapi/MFCreateMuxStreamMediaType
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFCreateMuxStreamMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateMuxStreamMediaType
+ - mfapi/MFCreateMuxStreamMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFCreateMuxStreamMediaType
 ---
 
 # MFCreateMuxStreamMediaType function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> describing the media types  of multiplexed substreams.
-
+Creates an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> describing the media types  of multiplexed substreams.
 
 ## -parameters
 
-
-
-
 ### -param pMediaTypesToMux [in]
 
-The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> for each multiplexed substream.
-
+The collection containing the  <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> for each multiplexed substream.
 
 ### -param ppMuxMediaType [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> containing the media types for the multiplexed substreams.
-
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> containing the media types for the multiplexed substreams.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,7 +94,3 @@ The <i>pMediaTypesToMux</i> parameter in null.
 </td>
 </tr>
 </table>
- 
-
-
-

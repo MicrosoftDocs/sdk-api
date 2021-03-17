@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateEditor
 title: WMCreateEditor function (wmsdkidl.h)
 description: The WMCreateEditor function creates a metadata editor object.
+helpviewer_keywords: ["WMCreateEditor","WMCreateEditor function [windows Media Format]","wmformat.wmcreateeditor","wmsdkidl/WMCreateEditor"]
 old-location: wmformat\wmcreateeditor.htm
 tech.root: wmformat
 ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
 ms.date: 12/05/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
-f1_keywords:
-- wmsdkidl/WMCreateEditor
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateEditor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateEditor
+ - wmsdkidl/WMCreateEditor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateEditor
 ---
 
 # WMCreateEditor function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateEditor</b> function creates a metadata editor object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppEditor [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a> interface of the newly created metadata editor object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor</a> interface of the newly created metadata editor object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,22 +90,11 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>

@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IDeviceTopology.GetConnectorCount
 title: IDeviceTopology::GetConnectorCount (devicetopology.h)
 description: The GetConnectorCount method gets the number of connectors in the device-topology object.
+helpviewer_keywords: ["GetConnectorCount","GetConnectorCount method [Core Audio]","GetConnectorCount method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetConnectorCount method","IDeviceTopology.GetConnectorCount","IDeviceTopology::GetConnectorCount","IDeviceTopologyGetConnectorCount","coreaudio.idevicetopology_getconnectorcount","devicetopology/IDeviceTopology::GetConnectorCount"]
 old-location: coreaudio\idevicetopology_getconnectorcount.htm
 tech.root: CoreAudio
 ms.assetid: 0b7f3b14-4c99-497b-a00e-a24535a621b7
 ms.date: 12/05/2018
 ms.keywords: GetConnectorCount, GetConnectorCount method [Core Audio], GetConnectorCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnectorCount method, IDeviceTopology.GetConnectorCount, IDeviceTopology::GetConnectorCount, IDeviceTopologyGetConnectorCount, coreaudio.idevicetopology_getconnectorcount, devicetopology/IDeviceTopology::GetConnectorCount
-f1_keywords:
-- devicetopology/IDeviceTopology.GetConnectorCount
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IDeviceTopology.GetConnectorCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceTopology::GetConnectorCount
+ - devicetopology/IDeviceTopology::GetConnectorCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IDeviceTopology.GetConnectorCount
 ---
 
 # IDeviceTopology::GetConnectorCount
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetConnectorCount</b> method gets the number of connectors in the device-topology object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCount [out]
 
 Pointer to a <b>UINT</b> pointer variable into which the method writes the connector count (the number of connectors in the device topology).
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -88,18 +79,7 @@ Pointer <i>pCount</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>

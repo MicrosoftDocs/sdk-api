@@ -2,15 +2,12 @@
 UID: NF:msdrm.DRMEncrypt
 title: DRMEncrypt function (msdrm.h)
 description: Encrypts data.
+helpviewer_keywords: ["DRMEncrypt","DRMEncrypt function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMEncrypt","rm.drmencrypt"]
 old-location: rm\drmencrypt.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 1de19409-2b14-4ab0-9853-23ee5741a7ae
 ms.date: 12/05/2018
 ms.keywords: DRMEncrypt, DRMEncrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncrypt, rm.drmencrypt
-f1_keywords:
-- msdrm/DRMEncrypt
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMEncrypt
+ - msdrm/DRMEncrypt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMEncrypt
 ---
 
 # DRMEncrypt function
@@ -49,27 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMEncrypt</b> function encrypts data.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptoProvider [in]
 
-A handle to an AD RMS encrypting object created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a> function.
-
+A handle to an AD RMS encrypting object created by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a> function.
 
 ### -param iPosition [in]
 
@@ -82,38 +78,27 @@ Position in the buffer at which to start encrypting. <b>0</b> corresponds to the
 
 The number of bytes to encrypt.
 
-
 ### -param pbInData [in]
 
 A pointer to a buffer that contains the bytes to encrypt.
-
 
 ### -param pcNumOutBytes [in, out]
 
 The number of encrypted bytes.
 
-
 ### -param pbOutData [out]
 
 A pointer to the encrypted bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
-Memory allocation and release of the encrypted content is the responsibility of the calling function. The following code sample, from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>, shows how to encrypt content in blocks. This particular example already knows the size of the content to encrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
+Memory allocation and release of the encrypted content is the responsibility of the calling function. The following code sample, from <a href="/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>, shows how to encrypt content in blocks. This particular example already knows the size of the content to encrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
 
 
 ```cpp
@@ -1023,37 +1008,26 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsencryptor">DRMCreateEnablingBitsEncryptor</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdecrypt">DRMDecrypt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmdecrypt">DRMDecrypt</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/encrypting-content-code-example">Encrypting Content Code Example</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encrypting-content-code-example">Encrypting Content Code Example</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encryption-encryptcontent-cpp">Encryption_EncryptContent.cpp</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/encryption-encryptcontent-cpp">Encryption_EncryptContent.cpp</a>

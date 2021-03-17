@@ -2,15 +2,12 @@
 UID: NF:control.IBasicVideo2.GetPreferredAspectRatio
 title: IBasicVideo2::GetPreferredAspectRatio (control.h)
 description: The GetPreferredAspectRatio method retrieves the preferred aspect ratio.
+helpviewer_keywords: ["GetPreferredAspectRatio","GetPreferredAspectRatio method [DirectShow]","GetPreferredAspectRatio method [DirectShow]","IBasicVideo2 interface","IBasicVideo2 interface [DirectShow]","GetPreferredAspectRatio method","IBasicVideo2.GetPreferredAspectRatio","IBasicVideo2::GetPreferredAspectRatio","IBasicVideo2GetPreferredAspectRatio","control/IBasicVideo2::GetPreferredAspectRatio","dshow.ibasicvideo2_getpreferredaspectratio"]
 old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef
 ms.date: 12/05/2018
 ms.keywords: GetPreferredAspectRatio, GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow],IBasicVideo2 interface, IBasicVideo2 interface [DirectShow],GetPreferredAspectRatio method, IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
-f1_keywords:
-- control/IBasicVideo2.GetPreferredAspectRatio
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo2.GetPreferredAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo2::GetPreferredAspectRatio
+ - control/IBasicVideo2::GetPreferredAspectRatio
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo2.GetPreferredAspectRatio
 ---
 
 # IBasicVideo2::GetPreferredAspectRatio
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetPreferredAspectRatio</code> method retrieves the preferred aspect ratio.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plAspectX [out]
 
 Pointer to a value that indicates the x-axis aspect ratio.
 
-
 ### -param plAspectY [out]
 
 Pointer to a value that indicates the y-axis aspect ratio.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,22 +106,11 @@ The renderer does not implement <b>IBasicVideo2</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo2">IBasicVideo2 Interface</a>

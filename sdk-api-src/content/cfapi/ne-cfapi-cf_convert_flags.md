@@ -2,15 +2,12 @@
 UID: NE:cfapi.CF_CONVERT_FLAGS
 title: CF_CONVERT_FLAGS (cfapi.h)
 description: Normal file/directory to placeholder file/directory conversion flags.
+helpviewer_keywords: ["CF_CONVERT_FLAGS","CF_CONVERT_FLAGS enumeration","CF_CONVERT_FLAG_DEHYDRATE","CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION","CF_CONVERT_FLAG_MARK_IN_SYNC","CF_CONVERT_FLAG_NONE","cfapi/CF_CONVERT_FLAGS","cfapi/CF_CONVERT_FLAG_DEHYDRATE","cfapi/CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION","cfapi/CF_CONVERT_FLAG_MARK_IN_SYNC","cfapi/CF_CONVERT_FLAG_NONE","cloudApi.cf_convert_flags"]
 old-location: cloudapi\cf_convert_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 0342BF0B-509A-4F8D-9557-54E534A3DDFE
 ms.date: 12/05/2018
 ms.keywords: CF_CONVERT_FLAGS, CF_CONVERT_FLAGS enumeration, CF_CONVERT_FLAG_DEHYDRATE, CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION, CF_CONVERT_FLAG_MARK_IN_SYNC, CF_CONVERT_FLAG_NONE, cfapi/CF_CONVERT_FLAGS, cfapi/CF_CONVERT_FLAG_DEHYDRATE, cfapi/CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION, cfapi/CF_CONVERT_FLAG_MARK_IN_SYNC, cfapi/CF_CONVERT_FLAG_NONE, cloudApi.cf_convert_flags
-f1_keywords:
-- cfapi/CF_CONVERT_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_CONVERT_FLAGS
 targetos: Windows
 req.typenames: CF_CONVERT_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_CONVERT_FLAGS
+ - cfapi/CF_CONVERT_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_CONVERT_FLAGS
 ---
 
 # CF_CONVERT_FLAGS enumeration
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Normal file/directory to placeholder file/directory conversion flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_CONVERT_FLAG_NONE
 
 No conversion flags.
 
-
 ### -field CF_CONVERT_FLAG_MARK_IN_SYNC
 
 The platform marks the converted placeholder as in sync with cloud upon a successful conversion of the file.
 
-
 ### -field CF_CONVERT_FLAG_DEHYDRATE
 
 Applicable to files only. When specified, the platform dehydrates the file after converting it to a placeholder successfully. The caller must acquire an exclusive handle when specifying this flag or data corruptions can occur. Note that the platform does not validate the exclusiveness of the handle.
-
 
 ### -field CF_CONVERT_FLAG_ENABLE_ON_DEMAND_POPULATION
 

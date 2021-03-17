@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PostCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PostCommitSnapshots (vsprov.h)
 description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.
+helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PostCommitSnapshots method","IVssProviderCreateSnapshotSet.PostCommitSnapshots","IVssProviderCreateSnapshotSet::PostCommitSnapshots","PostCommitSnapshots","PostCommitSnapshots method [VSS]","PostCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_postcommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 191b263b-1bcf-4617-95d4-5b4c1ed714ee
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PostCommitSnapshots method, IVssProviderCreateSnapshotSet.PostCommitSnapshots, IVssProviderCreateSnapshotSet::PostCommitSnapshots, PostCommitSnapshots, PostCommitSnapshots method [VSS], PostCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_postcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.PostCommitSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.PostCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::PostCommitSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::PostCommitSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.PostCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PostCommitSnapshots
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PostCommitSnapshots</b> 
    method is called after all providers involved in the shadow copy set have succeeded with 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a>. 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a>. 
    The lock on the I/O system has been lifted, but the applications have not yet been unfrozen. This is an 
    opportunity for the provider to perform additional cleanup work after the shadow copy commit.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ### -param lSnapshotsCount [in]
 
 Count of shadow copies in the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -147,16 +140,6 @@ An unexpected provider error occurred. If this is returned, the error must be de
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>

@@ -2,15 +2,12 @@
 UID: NF:winuser.HiliteMenuItem
 title: HiliteMenuItem function (winuser.h)
 description: Adds or removes highlighting from an item in a menu bar.
+helpviewer_keywords: ["HiliteMenuItem","HiliteMenuItem function [Menus and Other Resources]","MF_BYCOMMAND","MF_BYPOSITION","MF_HILITE","MF_UNHILITE","_win32_HiliteMenuItem","_win32_hilitemenuitem_cpp","menurc.hilitemenuitem","winui._win32_hilitemenuitem","winuser/HiliteMenuItem"]
 old-location: menurc\hilitemenuitem.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
 ms.date: 12/05/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
-f1_keywords:
-- winuser/HiliteMenuItem
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- HiliteMenuItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HiliteMenuItem
+ - winuser/HiliteMenuItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - HiliteMenuItem
 ---
 
 # HiliteMenuItem function
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds or removes highlighting from an item in a menu bar. 
-
+Adds or removes highlighting from an item in a menu bar.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window that contains the menu. 
-
+A handle to the window that contains the menu.
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu bar that contains the item. 
-
+A handle to the menu bar that contains the item.
 
 ### -param uIDHiliteItem [in]
 
 Type: <b>UINT</b>
 
-The menu item. This parameter is either the identifier of the menu item or the offset of the menu item in the menu bar, depending on the value of the <i>uHilite</i> parameter. 
-
+The menu item. This parameter is either the identifier of the menu item or the offset of the menu item in the menu bar, depending on the value of the <i>uHilite</i> parameter.
 
 ### -param uHilite [in]
 
@@ -134,50 +128,31 @@ Removes highlighting from the menu item.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the menu item is set to the specified highlight state, the return value is nonzero.
 
-If the menu item is not set to the specified highlight state, the return value is zero. 
-
-
-
+If the menu item is not set to the specified highlight state, the return value is zero.
 
 ## -remarks
 
-
-
-The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a> function. 
-
-
-
+The <b>MF_HILITE</b> and <b>MF_UNHILITE</b> flags can be used only with the <b>HiliteMenuItem</b> function; they cannot be used with the <a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a> function.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkExtendedProperties.Item
 title: IInkExtendedProperties::Item (msinkaut.h)
 description: Retrieves the IInkExtendedProperty object at the specified index within the IInkExtendedProperties collection.
+helpviewer_keywords: ["0355d9db-4456-4051-b611-dcb63657a0c7","IInkExtendedProperties interface [Tablet PC]","Item method","IInkExtendedProperties.Item","IInkExtendedProperties::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkExtendedProperties interface","msinkaut/IInkExtendedProperties::Item","tablet.iinkextendedproperties_item"]
 old-location: tablet\iinkextendedproperties_item.htm
 tech.root: tablet
 ms.assetid: 0355d9db-4456-4051-b611-dcb63657a0c7
 ms.date: 12/05/2018
 ms.keywords: 0355d9db-4456-4051-b611-dcb63657a0c7, IInkExtendedProperties interface [Tablet PC],Item method, IInkExtendedProperties.Item, IInkExtendedProperties::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkExtendedProperties interface, msinkaut/IInkExtendedProperties::Item, tablet.iinkextendedproperties_item
-f1_keywords:
-- msinkaut/IInkExtendedProperties.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkExtendedProperties.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkExtendedProperties::Item
+ - msinkaut/IInkExtendedProperties::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkExtendedProperties.Item
 ---
 
 # IInkExtendedProperties::Item
@@ -49,33 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
-
-
-
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Identifier [in]
 
-The zero-based index or GUID of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object to get.
+The zero-based index or GUID of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object to get.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param Item [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -206,35 +196,19 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An error occurs if the index doesn't match any existing member of the collection.
 
 The <b>Item</b> method takes an input argument of type VARIANT. However, the subtype of this variable must be integer or STRING (BSTR). This means that when you are using late binding, such as when you use a scripting language, you must pass in the argument as a STRING literal and not use a variable.
 
-For more information about the VARIANT and BSTR data types, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
-
-
+For more information about the VARIANT and BSTR data types, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty Interface</a>

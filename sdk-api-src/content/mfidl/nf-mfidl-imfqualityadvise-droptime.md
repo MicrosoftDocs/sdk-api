@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFQualityAdvise.DropTime
 title: IMFQualityAdvise::DropTime (mfidl.h)
 description: Drops samples over a specified interval of time.
+helpviewer_keywords: ["60d27190-7bed-427c-9018-2926c85815fe","DropTime","DropTime method [Media Foundation]","DropTime method [Media Foundation]","IMFQualityAdvise interface","IMFQualityAdvise interface [Media Foundation]","DropTime method","IMFQualityAdvise.DropTime","IMFQualityAdvise::DropTime","mf.imfqualityadvise_droptime","mfidl/IMFQualityAdvise::DropTime"]
 old-location: mf\imfqualityadvise_droptime.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
 ms.date: 12/05/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
-f1_keywords:
-- mfidl/IMFQualityAdvise.DropTime
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFQualityAdvise.DropTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityAdvise::DropTime
+ - mfidl/IMFQualityAdvise::DropTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFQualityAdvise.DropTime
 ---
 
 # IMFQualityAdvise::DropTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Drops samples over a specified interval of time.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hnsAmountToDrop [in]
 
 Amount of time to drop, in 100-nanosecond units. This value is always absolute. If the method is called multiple times, do not add the times from previous calls.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,14 +91,8 @@ The object does not support this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Ideally the quality manager can prevent a renderer from falling behind. But if this does occur, then simply lowering quality does not guarantee the renderer will ever catch up. As a result, audio and video might fall out of sync. To correct this problem, the quality manager can call <b>DropTime</b> to request that the renderer drop samples quickly over a specified time interval. After that period, the renderer stops dropping samples.
 
@@ -115,16 +100,6 @@ This method is primarily intended for the video renderer. Dropped audio samples 
 
 If a component does not support this method, it should return MF_E_DROPTIME_NOT_SUPPORTED.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>

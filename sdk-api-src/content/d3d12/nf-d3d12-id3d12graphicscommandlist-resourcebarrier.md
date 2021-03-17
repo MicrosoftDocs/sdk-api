@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
 description: Notifies the driver that it needs to synchronize multiple accesses to resources.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResourceBarrier method","ID3D12GraphicsCommandList.ResourceBarrier","ID3D12GraphicsCommandList::ResourceBarrier","ResourceBarrier","ResourceBarrier method","ResourceBarrier method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResourceBarrier","direct3d12.id3d12graphicscommandlist_resourcebarrier"]
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 tech.root: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResourceBarrier method, ID3D12GraphicsCommandList.ResourceBarrier, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier, ResourceBarrier method, ResourceBarrier method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ResourceBarrier
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ResourceBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ResourceBarrier
+ - d3d12/ID3D12GraphicsCommandList::ResourceBarrier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ResourceBarrier
 ---
 
 # ID3D12GraphicsCommandList::ResourceBarrier
@@ -48,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the driver that it needs to synchronize multiple accesses to resources.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param NumBarriers [in]
 
 Type: <b>UINT</b>
 
 The number of submitted barrier descriptions.
-          
-
 
 ### -param pBarriers [in]
 
 Type: <b>const <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier">D3D12_RESOURCE_BARRIER</a>*</b>
 
 Pointer to an array of barrier descriptions.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
-
-
 
 There are three types of barrier descriptions:
 
@@ -267,19 +247,11 @@ See <a href="/windows/win32/direct3d12/notes-on-example-code">Example Code in th
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
 <a href="/windows/win32/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
- 
-
- 
 

@@ -2,15 +2,12 @@
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilterStackSize
 title: IDXGIInfoQueue::GetRetrievalFilterStackSize (dxgidebug.h)
 description: Gets the size of the retrieval-filter stack in bytes.
+helpviewer_keywords: ["GetRetrievalFilterStackSize","GetRetrievalFilterStackSize method [DXGI]","GetRetrievalFilterStackSize method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetRetrievalFilterStackSize method","IDXGIInfoQueue.GetRetrievalFilterStackSize","IDXGIInfoQueue::GetRetrievalFilterStackSize","direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize","dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize"]
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilterstacksize.htm
 tech.root: direct3ddxgi
 ms.assetid: E5173EC8-483D-4A90-BDF0-7A7D115A0CF9
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method [DXGI], GetRetrievalFilterStackSize method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilterStackSize method, IDXGIInfoQueue.GetRetrievalFilterStackSize, IDXGIInfoQueue::GetRetrievalFilterStackSize, direct3ddxgi.idxgiinfoqueue_getretrievalfilterstacksize, dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
-f1_keywords:
-- dxgidebug/IDXGIInfoQueue.GetRetrievalFilterStackSize
-dev_langs:
-- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DXGIDebug.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGIDebug.dll
-api_name:
-- IDXGIInfoQueue.GetRetrievalFilterStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIInfoQueue::GetRetrievalFilterStackSize
+ - dxgidebug/IDXGIInfoQueue::GetRetrievalFilterStackSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGIDebug.dll
+api_name:
+ - IDXGIInfoQueue.GetRetrievalFilterStackSize
 ---
 
 # IDXGIInfoQueue::GetRetrievalFilterStackSize
@@ -48,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the size of the retrieval-filter stack in bytes.
-
 
 ## -parameters
 
-
-
-
 ### -param Producer [in]
 
- A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
-
+ A <a href="/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
 
 ## -returns
 
-
-
 Returns the size of the retrieval-filter stack in bytes.
 
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>

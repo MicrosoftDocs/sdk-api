@@ -2,15 +2,12 @@
 UID: NF:directmanipulation.IDirectManipulationManager.ProcessInput
 title: IDirectManipulationManager::ProcessInput (directmanipulation.h)
 description: Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.
+helpviewer_keywords: ["IDirectManipulationManager interface [Direct Manipulation]","ProcessInput method","IDirectManipulationManager.ProcessInput","IDirectManipulationManager::ProcessInput","ProcessInput","ProcessInput method [Direct Manipulation]","ProcessInput method [Direct Manipulation]","IDirectManipulationManager interface","directmanipulation.idirectmanipulationmanager_processinput","directmanipulation/IDirectManipulationManager::ProcessInput"]
 old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
 tech.root: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
-f1_keywords:
-- directmanipulation/IDirectManipulationManager.ProcessInput
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationManager.ProcessInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationManager::ProcessInput
+ - directmanipulation/IDirectManipulationManager::ProcessInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationManager.ProcessInput
 ---
 
 # IDirectManipulationManager::ProcessInput
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.
 
-
 ## -parameters
-
-
-
 
 ### -param message [in]
 
 The input message to process.
 
-
 ### -param handled [out, retval]
 
 <b>TRUE</b> if no further processing should be done with this message; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 Call this method for mouse and keyboard input.
 
@@ -128,17 +116,6 @@ LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>

@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.RtlEncryptMemory
 title: RtlEncryptMemory function (ntsecapi.h)
 description: Encrypts memory contents.
+helpviewer_keywords: ["RTL_ENCRYPT_OPTION_CROSS_PROCESS","RTL_ENCRYPT_OPTION_SAME_LOGON","RtlEncryptMemory","RtlEncryptMemory function [Security]","ntsecapi/RtlEncryptMemory","security.rtlencryptmemory"]
 old-location: security\rtlencryptmemory.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.date: 12/05/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
-f1_keywords:
-- ntsecapi/RtlEncryptMemory
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- RtlEncryptMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlEncryptMemory
+ - ntsecapi/RtlEncryptMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - RtlEncryptMemory
 ---
 
 # RtlEncryptMemory function
@@ -48,26 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.]
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptProtectMemory</a> function.]
-
-The <b>RtlEncryptMemory</b> function encrypts memory contents.   The encrypted contents can be decrypted by a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function.
-<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction040</b> in Advapi32.dll. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
+The <b>RtlEncryptMemory</b> function encrypts memory contents.   The encrypted contents can be decrypted by a subsequent call to the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtldecryptmemory">RtlDecryptMemory</a> function.
+<div class="alert"><b>Note</b>  This function has no associated import library. This function is available as a resource named <b>SystemFunction040</b> in Advapi32.dll. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Advapi32.dll.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param Memory [in, out]
 
 A pointer to the memory to encrypt. The size of the memory must be a multiple of the RTL_ENCRYPT_MEMORY_SIZE constant.
 
-
 ### -param MemorySize [in]
 
 Number of bytes to which <i>Memory</i> points. The number of bytes must be a multiple of the RTL_ENCRYPT_MEMORY_SIZE constant.
-
 
 ### -param OptionFlags [in]
 
@@ -112,16 +108,9 @@ Use the same logon credentials to encrypt and decrypt memory in different proces
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function is successful, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an <b>NTSTATUS</b> code that indicates the error.
-
-
-

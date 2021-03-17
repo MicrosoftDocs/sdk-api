@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchBase.Serialize
 title: ISyncChangeBatchBase::Serialize (winsync.h)
 description: Serializes the change batch to an array of bytes.
+helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","Serialize method","ISyncChangeBatchBase.Serialize","ISyncChangeBatchBase::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_serialize","winsync/ISyncChangeBatchBase::Serialize"]
 old-location: winsync\isyncchangebatchbase_serialize.htm
 tech.root: winsync
 ms.assetid: 785a763c-99a2-45d1-b42b-9673aedc5c5d
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],Serialize method, ISyncChangeBatchBase.Serialize, ISyncChangeBatchBase::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_serialize, winsync/ISyncChangeBatchBase::Serialize
-f1_keywords:
-- winsync/ISyncChangeBatchBase.Serialize
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchBase.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchBase::Serialize
+ - winsync/ISyncChangeBatchBase::Serialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchBase.Serialize
 ---
 
 # ISyncChangeBatchBase::Serialize
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the change batch to an array of bytes.
 
-
 ## -parameters
-
-
-
 
 ### -param pbChangeBatch [in, out]
 
 The byte array that receives the change batch data.
 
-
 ### -param pcbChangeBatch [in, out]
 
 Specifies the number of bytes in <i>pbChangeBatch</i>. Returns the number of bytes required for <i>pbChangeBatch</i> when <i>pbChangeBatch</i> is too small, or the number of bytes written to <i>pbChangeBatch</i> when data is written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -131,22 +124,11 @@ The last group added to the batch was not ended.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
- 
-
- 
-
+<a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>

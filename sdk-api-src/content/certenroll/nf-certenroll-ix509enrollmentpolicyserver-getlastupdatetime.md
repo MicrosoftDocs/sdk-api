@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetLastUpdateTime
 title: IX509EnrollmentPolicyServer::GetLastUpdateTime (certenroll.h)
 description: Retrieves the date and time at which the policy was last downloaded.
+helpviewer_keywords: ["GetLastUpdateTime","GetLastUpdateTime method [Security]","GetLastUpdateTime method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetLastUpdateTime method","IX509EnrollmentPolicyServer.GetLastUpdateTime","IX509EnrollmentPolicyServer::GetLastUpdateTime","certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime","security.ix509enrollmentpolicyserver_getlastupdatetime"]
 old-location: security\ix509enrollmentpolicyserver_getlastupdatetime.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6f0ec30a-9a93-47f9-8046-8eba6eb3b1da
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdateTime, GetLastUpdateTime method [Security], GetLastUpdateTime method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetLastUpdateTime method, IX509EnrollmentPolicyServer.GetLastUpdateTime, IX509EnrollmentPolicyServer::GetLastUpdateTime, certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime, security.ix509enrollmentpolicyserver_getlastupdatetime
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.GetLastUpdateTime
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.GetLastUpdateTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::GetLastUpdateTime
+ - certenroll/IX509EnrollmentPolicyServer::GetLastUpdateTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.GetLastUpdateTime
 ---
 
 # IX509EnrollmentPolicyServer::GetLastUpdateTime
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetLastUpdateTime</b> method retrieves the date and time at which the policy was last downloaded.
 
-
 ## -parameters
-
-
-
 
 ### -param pDate [out, retval]
 
 Pointer to a <b>DATE</b> value that identifies the time.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -98,27 +92,11 @@ The <i>pDate</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The date is stored as an 8-byte real value that represents a Coordinated Universal Time (Greenwich Mean Time) value between January 1, 1900 and December 31, 9999, inclusive. The value 2.0 represents January 1, 1900; 3.0 represents January 2, 1900. Adding 1 to the value increments the date by a day. The fractional part of the value represents the time of day. Therefore, 2.5 represents 12:00 on January 1, 1900; 3.25 represents 06:00 on January 2, 1900.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>

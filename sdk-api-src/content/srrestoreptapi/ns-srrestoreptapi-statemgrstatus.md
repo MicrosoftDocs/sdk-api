@@ -2,15 +2,12 @@
 UID: NS:srrestoreptapi._SMGRSTATUS
 title: STATEMGRSTATUS (srrestoreptapi.h)
 description: Contains status information used by the SRSetRestorePoint function.
+helpviewer_keywords: ["*PSTATEMGRSTATUS","PSTATEMGRSTATUS","PSTATEMGRSTATUS structure pointer [System Restore]","STATEMGRSTATUS","STATEMGRSTATUS structure [System Restore]","_sr_statemgrstatus_str","sr.statemgrstatus_str","srrestoreptapi/PSTATEMGRSTATUS","srrestoreptapi/STATEMGRSTATUS"]
 old-location: sr\statemgrstatus_str.htm
 tech.root: sr
 ms.assetid: 3531474b-1499-4c83-ab32-8c464c0eece0
 ms.date: 12/05/2018
 ms.keywords: '*PSTATEMGRSTATUS, PSTATEMGRSTATUS, PSTATEMGRSTATUS structure pointer [System Restore], STATEMGRSTATUS, STATEMGRSTATUS structure [System Restore], _sr_statemgrstatus_str, sr.statemgrstatus_str, srrestoreptapi/PSTATEMGRSTATUS, srrestoreptapi/STATEMGRSTATUS'
-f1_keywords:
-- srrestoreptapi/STATEMGRSTATUS
-dev_langs:
-- c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SRRestorePtAPI.h
-api_name:
-- STATEMGRSTATUS
 targetos: Windows
 req.typenames: STATEMGRSTATUS, *PSTATEMGRSTATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SMGRSTATUS
+ - srrestoreptapi/_SMGRSTATUS
+ - PSTATEMGRSTATUS
+ - srrestoreptapi/PSTATEMGRSTATUS
+ - STATEMGRSTATUS
+ - srrestoreptapi/STATEMGRSTATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SRRestorePtAPI.h
+api_name:
+ - STATEMGRSTATUS
 ---
 
 # STATEMGRSTATUS structure
@@ -48,29 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains status information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field nStatus
 
 The status code. For a list of values, see the Remarks section.
 
-
 ### -field llSequenceNumber
 
 The sequence number of the restore point.
 
-
 ## -remarks
-
-
 
 The following table lists the status codes returned in the <b>nStatus</b> member. Note that all the status codes indicate failure except ERROR_SUCCESS.
 
@@ -108,18 +105,7 @@ The following table lists the status codes returned in the <b>nStatus</b> member
 <td>The call timed out due to a wait on a mutex for setting restore points.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
- 
-
- 
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>

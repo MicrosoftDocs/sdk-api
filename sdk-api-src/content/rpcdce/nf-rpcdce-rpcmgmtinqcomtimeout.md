@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcMgmtInqComTimeout
 title: RpcMgmtInqComTimeout function (rpcdce.h)
 description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
+helpviewer_keywords: ["RpcMgmtInqComTimeout","RpcMgmtInqComTimeout function [RPC]","_rpc_rpcmgmtinqcomtimeout","rpc.rpcmgmtinqcomtimeout","rpcdce/RpcMgmtInqComTimeout"]
 old-location: rpc\rpcmgmtinqcomtimeout.htm
 tech.root: Rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
-f1_keywords:
-- rpcdce/RpcMgmtInqComTimeout
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtInqComTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtInqComTimeout
+ - rpcdce/RpcMgmtInqComTimeout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtInqComTimeout
 ---
 
 # RpcMgmtInqComTimeout function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtInqComTimeout</b> function returns the binding-communications time-out value in a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Specifies a binding.
 
-
 ### -param Timeout
 
 Returns a pointer to the time-out value from the <i>Binding</i> parameter.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -114,42 +107,28 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 A client application calls 
 <b>RpcMgmtInqComTimeout</b> to view the time-out value in a server binding handle. The time-out value specifies the relative amount of time that should be spent to wait for a response from the server before giving up. For a table of the time-out values, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>. For more information on how the COM time-out operates, and when to use it, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-and-the-network">RPC and the Network</a>.
+<a href="/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>. For more information on how the COM time-out operates, and when to use it, see 
+<a href="/windows/desktop/Rpc/rpc-and-the-network">RPC and the Network</a>.
 
 A client also calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a> to change the time-out value.
-
-
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a> to change the time-out value.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding
+<a href="/windows/desktop/Rpc/binding-time-out-constants">Binding
 		  Time-out Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a>

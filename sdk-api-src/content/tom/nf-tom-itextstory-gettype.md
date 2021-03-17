@@ -2,15 +2,12 @@
 UID: NF:tom.ITextStory.GetType
 title: ITextStory::GetType (tom.h)
 description: Gets this story's type.
+helpviewer_keywords: ["GetType","GetType method [Windows Controls]","GetType method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetType method","ITextStory.GetType","ITextStory::GetType","controls.itextstory_gettype","tom/ITextStory::GetType","tomCommentsStory","tomEndnotesStory","tomEvenPagesFooterStory","tomEvenPagesHeaderStory","tomFindStory","tomFirstPageFooterStory","tomFirstPageHeaderStory","tomFootnotesStory","tomMainTextStory","tomPrimaryFooterStory","tomPrimaryHeaderStory","tomReplaceStory","tomScratchStory","tomTextFrameStory","tomUnknownStory"]
 old-location: controls\itextstory_gettype.htm
 tech.root: Controls
 ms.assetid: 43a75284-c461-4118-834c-9ce5ded55094
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetType method, ITextStory.GetType, ITextStory::GetType, controls.itextstory_gettype, tom/ITextStory::GetType, tomCommentsStory, tomEndnotesStory, tomEvenPagesFooterStory, tomEvenPagesHeaderStory, tomFindStory, tomFirstPageFooterStory, tomFirstPageHeaderStory, tomFootnotesStory, tomMainTextStory, tomPrimaryFooterStory, tomPrimaryHeaderStory, tomReplaceStory, tomScratchStory, tomTextFrameStory, tomUnknownStory
-f1_keywords:
-- tom/ITextStory.GetType
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tom.h
-api_name:
-- ITextStory.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStory::GetType
+ - tom/ITextStory::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tom.h
+api_name:
+ - ITextStory.GetType
 ---
 
 # ITextStory::GetType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets this story's type.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -169,29 +166,16 @@ This story's type. It can be any of the following values, or a custom client val
 
 #### tomUnknownStory
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-gettype">ITextStory::SetType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextstory-gettype">ITextStory::SetType</a>

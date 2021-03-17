@@ -2,15 +2,12 @@
 UID: NF:mediaobj.IMediaObject.SetInputType
 title: IMediaObject::SetInputType (mediaobj.h)
 description: The SetInputType method sets the media type on an input stream, or tests whether a media type is acceptable.
+helpviewer_keywords: ["IMediaObject interface [DirectShow]","SetInputType method","IMediaObject.SetInputType","IMediaObject::SetInputType","IMediaObjectSetInputType","SetInputType","SetInputType method [DirectShow]","SetInputType method [DirectShow]","IMediaObject interface","dshow.imediaobject_setinputtype","mediaobj/IMediaObject::SetInputType"]
 old-location: dshow\imediaobject_setinputtype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6b466fe4-97a0-46f9-9e4b-461ee66095f1
 ms.date: 12/05/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputType method, IMediaObject.SetInputType, IMediaObject::SetInputType, IMediaObjectSetInputType, SetInputType, SetInputType method [DirectShow], SetInputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputtype, mediaobj/IMediaObject::SetInputType
-f1_keywords:
-- mediaobj/IMediaObject.SetInputType
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.SetInputType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::SetInputType
+ - mediaobj/IMediaObject::SetInputType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.SetInputType
 ---
 
 # IMediaObject::SetInputType
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetInputType</code> method sets the media type on an input stream, or tests whether a media type is acceptable.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputStreamIndex
 
 Zero-based index of an input stream on the DMO.
 
-
 ### -param pmt [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that specifies the media type.
-
+Pointer to a <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure that specifies the media type.
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_set_type_flags">DMO_SET_TYPE_FLAGS</a> enumeration.
-
+Bitwise combination of zero or more flags from the <a href="/windows/desktop/api/mediaobj/ne-mediaobj-_dmo_set_type_flags">DMO_SET_TYPE_FLAGS</a> enumeration.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -132,14 +121,8 @@ Media type was set successfully, or is acceptable
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call this method to test, set, or clear the media type on an input stream:
 
@@ -150,16 +133,6 @@ Call this method to test, set, or clear the media type on an input stream:
 </ul>
 The media types that are currently set on other streams can affect whether the media type is acceptable.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

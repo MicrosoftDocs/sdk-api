@@ -2,15 +2,12 @@
 UID: NS:x3daudio.X3DAUDIO_DSP_SETTINGS
 title: X3DAUDIO_DSP_SETTINGS (x3daudio.h)
 description: Receives the results from a call to X3DAudioCalculate.
+helpviewer_keywords: ["*LPX3DAUDIO_DSP_SETTINGS","LPX3DAUDIO_DSP_SETTINGS","LPX3DAUDIO_DSP_SETTINGS structure pointer [XAudio2 Audio Mixing APIs]","X3DAUDIO_DSP_SETTINGS","X3DAUDIO_DSP_SETTINGS structure [XAudio2 Audio Mixing APIs]","x3daudio/LPX3DAUDIO_DSP_SETTINGS","x3daudio/X3DAUDIO_DSP_SETTINGS","xaudio2.x3daudio_dsp_settings"]
 old-location: xaudio2\x3daudio_dsp_settings.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DSP_SETTINGS
 ms.date: 12/05/2018
 ms.keywords: '*LPX3DAUDIO_DSP_SETTINGS, LPX3DAUDIO_DSP_SETTINGS, LPX3DAUDIO_DSP_SETTINGS structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_DSP_SETTINGS, X3DAUDIO_DSP_SETTINGS structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_DSP_SETTINGS, x3daudio/X3DAUDIO_DSP_SETTINGS, xaudio2.x3daudio_dsp_settings'
-f1_keywords:
-- x3daudio/X3DAUDIO_DSP_SETTINGS
-dev_langs:
-- c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- x3daudio.h
-api_name:
-- X3DAUDIO_DSP_SETTINGS
 targetos: Windows
 req.typenames: X3DAUDIO_DSP_SETTINGS, *LPX3DAUDIO_DSP_SETTINGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X3DAUDIO_DSP_SETTINGS
+ - x3daudio/X3DAUDIO_DSP_SETTINGS
+ - LPX3DAUDIO_DSP_SETTINGS
+ - x3daudio/LPX3DAUDIO_DSP_SETTINGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - x3daudio.h
+api_name:
+ - X3DAUDIO_DSP_SETTINGS
 ---
 
 # X3DAUDIO_DSP_SETTINGS structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Receives the results from a call to <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
+Receives the results from a call to <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field pMatrixCoefficients
 
@@ -106,19 +105,16 @@ Note that the left and right channels are fully mapped to the output left and ri
 
 
 
-The <b>pMatrixCoefficients</b> member can be NULL if the X3DAUDIO_CALCULATE_MATRIX flag is not specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
+The <b>pMatrixCoefficients</b> member can be NULL if the X3DAUDIO_CALCULATE_MATRIX flag is not specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 
 
-When using X3DAudio with XAudio2 the value returned in the <b>pMatrixCoefficients</b> member would be applied to a voice with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">IXAudio2Voice::SetOutputMatrix</a>.
-
-
-
+When using X3DAudio with XAudio2 the value returned in the <b>pMatrixCoefficients</b> member would be applied to a voice with <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">IXAudio2Voice::SetOutputMatrix</a>.
 
 ### -field pDelayTimes
 
 Caller provided delay time array, which receives delays for each destination channel in milliseconds. This array must have at least <b>DstChannelCount</b> elements. X3DAudio doesn't actually perform the delay. It simply returns the coefficients that may be used to adjust a delay DSP effect placed in the effect chain. 
-The <b>pDelayTimes</b> member can be NULL if the X3DAUDIO_CALCULATE_DELAY flag is not specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
+The <b>pDelayTimes</b> member can be NULL if the X3DAUDIO_CALCULATE_DELAY flag is not specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 
 <div class="alert"><b>Note</b>  This member is only returned when X3DAudio is initialized for stereo output. For typical Xbox 360 usage, it will not return any data at all.</div>
@@ -126,42 +122,32 @@ The <b>pDelayTimes</b> member can be NULL if the X3DAUDIO_CALCULATE_DELAY flag i
 
 ### -field SrcChannelCount
 
-Number of source channels. This must be initialized to the number of emitter channels before calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>. 
-
+Number of source channels. This must be initialized to the number of emitter channels before calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field DstChannelCount
 
-Number of source channels. This must be initialized to the number of emitter channels before calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>. 
-
+Number of source channels. This must be initialized to the number of emitter channels before calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field LPFDirectCoefficient
 
 LPF direct-path coefficient. 
-Only calculated if the X3DAUDIO_CALCULATE_LPF_DIRECT flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
+Only calculated if the X3DAUDIO_CALCULATE_LPF_DIRECT flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 
 
-When using X3DAudio with XAudio2 the value returned in the LPFDirectCoefficient member would be applied to a low pass filter on a source voice with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters">IXAudio2Voice::SetFilterParameters</a>.
-
-
-
+When using X3DAudio with XAudio2 the value returned in the LPFDirectCoefficient member would be applied to a low pass filter on a source voice with <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters">IXAudio2Voice::SetFilterParameters</a>.
 
 ### -field LPFReverbCoefficient
 
 LPF reverb-path coefficient. 
 
 
-Only calculated if the X3DAUDIO_CALCULATE_LPF_REVERB flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
-
+Only calculated if the X3DAUDIO_CALCULATE_LPF_REVERB flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field ReverbLevel
 
 Reverb send level. 
-Only calculated if the X3DAUDIO_CALCULATE_REVERB flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
-
-
+Only calculated if the X3DAUDIO_CALCULATE_REVERB flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field DopplerFactor
 
@@ -174,52 +160,38 @@ effective_frequency = DopplerFactor × original_frequency
 ```
 
 
-Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
+Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 
 
-When using X3DAudio with XAudio2 the value returned in the DopplerFactor would be applied to a source voice with <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">IXAudio2SourceVoice::SetFrequencyRatio</a>.
-
-
-
+When using X3DAudio with XAudio2 the value returned in the DopplerFactor would be applied to a source voice with <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-setfrequencyratio">IXAudio2SourceVoice::SetFrequencyRatio</a>.
 
 ### -field EmitterToListenerAngle
 
 Emitter-to-listener interior angle, expressed in radians with respect to the emitter's front orientation. 
 
 
-Only calculated if the X3DAUDIO_CALCULATE_EMITTER_ANGLE flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
-
-
+Only calculated if the X3DAUDIO_CALCULATE_EMITTER_ANGLE flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field EmitterToListenerDistance
 
-Distance in user-defined world units from the listener to the emitter base position. 
-
+Distance in user-defined world units from the listener to the emitter base position.
 
 ### -field EmitterVelocityComponent
 
 Component of emitter velocity vector projected onto emitter-to-listener vector in user-defined world units per second. 
 
 
-Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
-
+Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ### -field ListenerVelocityComponent
 
 Component of listener velocity vector projected onto the emitter-&gt;listener vector in user-defined world units per second. 
-Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
-
-
-
+Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a>.
 
 ## -remarks
 
-
-
-The following members must be initialized before passing this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a> function:
+The following members must be initialized before passing this structure to the <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a> function:
 
 
 
@@ -261,21 +233,11 @@ The following members are returned by passing this structure to the <b>X3DAudioC
 </b></li>
 <li><b>ListenerVelocityComponent</b></li>
 </ul>
-<div class="alert"><b>Note</b>  For <b>pMatrixCoefficients</b> and <b>pDelayTimes</b>, <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a> does not allocate additional memory. <b>X3DAudioCalculate</b> merely modifies the values at the memory locations allocated for these pointers.</div>
+<div class="alert"><b>Note</b>  For <b>pMatrixCoefficients</b> and <b>pDelayTimes</b>, <a href="/windows/desktop/api/x3daudio/nf-x3daudio-x3daudiocalculate">X3DAudioCalculate</a> does not allocate additional memory. <b>X3DAudioCalculate</b> merely modifies the values at the memory locations allocated for these pointers.</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphVersion.QueryVersion
 title: IGraphVersion::QueryVersion (strmif.h)
 description: The QueryVersion method retrieves the current graph version number.
+helpviewer_keywords: ["IGraphVersion interface [DirectShow]","QueryVersion method","IGraphVersion.QueryVersion","IGraphVersion::QueryVersion","IGraphVersionQueryVersion","QueryVersion","QueryVersion method [DirectShow]","QueryVersion method [DirectShow]","IGraphVersion interface","dshow.igraphversion_queryversion","strmif/IGraphVersion::QueryVersion"]
 old-location: dshow\igraphversion_queryversion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 297e19fd-91b5-4756-9b33-6b301c74e470
 ms.date: 12/05/2018
 ms.keywords: IGraphVersion interface [DirectShow],QueryVersion method, IGraphVersion.QueryVersion, IGraphVersion::QueryVersion, IGraphVersionQueryVersion, QueryVersion, QueryVersion method [DirectShow], QueryVersion method [DirectShow],IGraphVersion interface, dshow.igraphversion_queryversion, strmif/IGraphVersion::QueryVersion
-f1_keywords:
-- strmif/IGraphVersion.QueryVersion
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphVersion.QueryVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphVersion::QueryVersion
+ - strmif/IGraphVersion::QueryVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphVersion.QueryVersion
 ---
 
 # IGraphVersion::QueryVersion
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>QueryVersion</code> method retrieves the current graph version number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pVersion
 
 Pointer to the current graph version.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -133,31 +124,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The version number is incremented every time there is a change in the set of filters in the graph or in their connections. If the version number has changed since the last enumeration, the graph must be re-enumerated.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphversion">IGraphVersion Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphversion">IGraphVersion Interface</a>

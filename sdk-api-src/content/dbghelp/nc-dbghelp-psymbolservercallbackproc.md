@@ -2,15 +2,12 @@
 UID: NC:dbghelp.PSYMBOLSERVERCALLBACKPROC
 title: PSYMBOLSERVERCALLBACKPROC (dbghelp.h)
 description: An entry point to the symbol server DLL.
+helpviewer_keywords: ["PSYMBOLSERVERCALLBACKPROC","SSRVACTION_EVENT","SSRVACTION_QUERYCANCEL","SSRVACTION_SIZE","SSRVACTION_TRACE","SymbolServerCallback","SymbolServerCallback callback","SymbolServerCallback callback function [Windows API]","_win32_symbolservercallback","base.symbolservercallback","dbghelp/SymbolServerCallback","winprog.symbolservercallback"]
 old-location: winprog\symbolservercallback.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.date: 12/05/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
-f1_keywords:
-- dbghelp/SymbolServerCallback
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- DbgHelp.h
-api_name:
-- SymbolServerCallback
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - PSYMBOLSERVERCALLBACKPROC
+ - dbghelp/PSYMBOLSERVERCALLBACKPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - DbgHelp.h
+api_name:
+ - SymbolServerCallback
 ---
 
 # PSYMBOLSERVERCALLBACKPROC callback function
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 An entry point to the symbol server DLL.
 
 The <b>PSYMBOLSERVERCALLBACKPROC</b> type defines a pointer to this callback function. 
 <i>SymbolServerCallback</i> is a placeholder for the library-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param action [in]
 
@@ -76,7 +73,7 @@ The action code. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
+Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 <b>DbgHelp 6.0 and earlier:  </b>This value is not supported.
 
@@ -118,43 +115,27 @@ Provide debug trace information. The <i>data</i> parameter is a text string.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param data [in]
 
 The format of this parameter depends on the value of the <i>action</i> parameter.
 
-
 ### -param context [in]
 
-The context information provided by calling <a href="https://docs.microsoft.com/previous-versions/ff797954(v=vs.85)">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
-
+The context information provided by calling <a href="/previous-versions/ff797954(v=vs.85)">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
 
 ## -returns
-
-
 
 To indicate success, return <b>TRUE</b>.
 
 To indicate failure, return <b>FALSE</b> and call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>

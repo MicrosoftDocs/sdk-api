@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalLocked
 title: IBDA_SignalStatistics::get_SignalLocked (bdaiface.h)
 description: The get_SignalLocked method retrieves a Boolean value indicating whether the signal is locked.
+helpviewer_keywords: ["IBDA_SignalStatistics interface [Microsoft TV Technologies]","get_SignalLocked method","IBDA_SignalStatistics.get_SignalLocked","IBDA_SignalStatistics::get_SignalLocked","IBDA_SignalStatisticsget_SignalLocked","bdaiface/IBDA_SignalStatistics::get_SignalLocked","get_SignalLocked","get_SignalLocked method [Microsoft TV Technologies]","get_SignalLocked method [Microsoft TV Technologies]","IBDA_SignalStatistics interface","mstv.ibda_signalstatistics_get_signallocked"]
 old-location: mstv\ibda_signalstatistics_get_signallocked.htm
 tech.root: mstv
 ms.assetid: 2a67ff4b-1abc-43c4-b171-f9af90c5aaf7
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalLocked method, IBDA_SignalStatistics.get_SignalLocked, IBDA_SignalStatistics::get_SignalLocked, IBDA_SignalStatisticsget_SignalLocked, bdaiface/IBDA_SignalStatistics::get_SignalLocked, get_SignalLocked, get_SignalLocked method [Microsoft TV Technologies], get_SignalLocked method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signallocked
-f1_keywords:
-- bdaiface/IBDA_SignalStatistics.get_SignalLocked
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_SignalStatistics.get_SignalLocked
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_SignalStatistics::get_SignalLocked
+ - bdaiface/IBDA_SignalStatistics::get_SignalLocked
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_SignalStatistics.get_SignalLocked
 ---
 
 # IBDA_SignalStatistics::get_SignalLocked
@@ -48,47 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_SignalLocked</b> method retrieves a Boolean value indicating whether the signal is locked.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfLocked [out]
 
 Pointer to a flag indicating whether the signal is locked.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalstatistics">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalstatistics">IBDA_SignalStatistics Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signallocked">IBDA_SignalStatistics::put_SignalLocked</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signallocked">IBDA_SignalStatistics::put_SignalLocked</a>

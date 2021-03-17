@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentRole (uiautomationclient.h)
 description: Retrieves the Microsoft Active Accessibility role identifier of the element.
+helpviewer_keywords: ["CurrentRole property [Windows Accessibility]","CurrentRole property [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","CurrentRole property","IUIAutomationLegacyIAccessiblePattern.CurrentRole","IUIAutomationLegacyIAccessiblePattern.get_CurrentRole","IUIAutomationLegacyIAccessiblePattern::CurrentRole","IUIAutomationLegacyIAccessiblePattern::get_CurrentRole","get_CurrentRole","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole","uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole","uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole.htm
 tech.root: WinAuto
 ms.assetid: 9159e114-edc6-4dfa-b32f-a5a786dabe99
 ms.date: 12/05/2018
 ms.keywords: CurrentRole property [Windows Accessibility], CurrentRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentRole property, IUIAutomationLegacyIAccessiblePattern.CurrentRole, IUIAutomationLegacyIAccessiblePattern.get_CurrentRole, IUIAutomationLegacyIAccessiblePattern::CurrentRole, IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, get_CurrentRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentRole
-f1_keywords:
-- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentRole
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationLegacyIAccessiblePattern.CurrentRole
-- IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
+ - uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationLegacyIAccessiblePattern.CurrentRole
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the Microsoft Active Accessibility role identifier of the element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>

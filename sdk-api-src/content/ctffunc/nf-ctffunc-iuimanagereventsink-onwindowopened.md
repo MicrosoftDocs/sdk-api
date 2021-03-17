@@ -2,15 +2,12 @@
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowOpened
 title: IUIManagerEventSink::OnWindowOpened (ctffunc.h)
 description: Called by the TSF after opening an IME UI.
+helpviewer_keywords: ["IUIManagerEventSink interface [Text Services Framework]","OnWindowOpened method","IUIManagerEventSink.OnWindowOpened","IUIManagerEventSink::OnWindowOpened","OnWindowOpened","OnWindowOpened method [Text Services Framework]","OnWindowOpened method [Text Services Framework]","IUIManagerEventSink interface","ctffunc/IUIManagerEventSink::OnWindowOpened","tsf.iuimanagereventsink_onwindowopened"]
 old-location: tsf\iuimanagereventsink_onwindowopened.htm
 tech.root: TSF
 ms.assetid: 525500C2-313E-4430-88B1-AA1F54A420AF
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpened method, IUIManagerEventSink.OnWindowOpened, IUIManagerEventSink::OnWindowOpened, OnWindowOpened, OnWindowOpened method [Text Services Framework], OnWindowOpened method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpened, tsf.iuimanagereventsink_onwindowopened
-f1_keywords:
-- ctffunc/IUIManagerEventSink.OnWindowOpened
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- IUIManagerEventSink.OnWindowOpened
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIManagerEventSink::OnWindowOpened
+ - ctffunc/IUIManagerEventSink::OnWindowOpened
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - IUIManagerEventSink.OnWindowOpened
 ---
 
 # IUIManagerEventSink::OnWindowOpened
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the TSF after opening an IME UI.
-
 
 ## -parameters
 
-
-
-
 ### -param prcBounds [in]
 
-Pointer to a <b>RECT</b> structure defining the affected area (in screen coordinates). 
-
+Pointer to a <b>RECT</b> structure defining the affected area (in screen coordinates).
 
 ## -returns
 
-
-
 Ignored.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-iuimanagereventsink">IUIManagerEventSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-iuimanagereventsink">IUIManagerEventSink</a>

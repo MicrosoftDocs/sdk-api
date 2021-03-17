@@ -2,15 +2,12 @@
 UID: NF:webservices.WsSetListenerProperty
 title: WsSetListenerProperty function (webservices.h)
 description: Sets a Listenerobject property.
+helpviewer_keywords: ["WsSetListenerProperty","WsSetListenerProperty function [Web Services for Windows]","webservices/WsSetListenerProperty","wsw.wssetlistenerproperty"]
 old-location: wsw\wssetlistenerproperty.htm
 tech.root: wsw
 ms.assetid: 5c494651-3944-4424-8cd4-a6e14c239e80
 ms.date: 12/05/2018
 ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services for Windows], webservices/WsSetListenerProperty, wsw.wssetlistenerproperty
-f1_keywords:
-- webservices/WsSetListenerProperty
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSetListenerProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSetListenerProperty
+ - webservices/WsSetListenerProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSetListenerProperty
 ---
 
 # WsSetListenerProperty function
@@ -48,49 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a Listenerobject property.
-
 
 ## -parameters
 
-
-
-
 ### -param listener [in]
 
-A pointer to the <b>Listener</b> object with the property to set.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> and may not be <b>NULL</b>.
-                
-
+A pointer to the <b>Listener</b> object with the property to set.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a> and may not be <b>NULL</b>.
 
 ### -param id [in]
 
 Identifier of the property to set.
-
 
 ### -param value
 
 A void pointer to the property value to set.
                     The pointer must have an alignment compatible with the type
                     of the property.
-                
-
 
 ### -param valueSize [in]
 
 The size in bytes  of the property value.
-                
-
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -135,7 +121,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NS:winuser.tagACCESSTIMEOUT
 title: ACCESSTIMEOUT (winuser.h)
 description: Contains information about the time-out period associated with the accessibility features.
+helpviewer_keywords: ["*LPACCESSTIMEOUT","ACCESSTIMEOUT","ACCESSTIMEOUT structure [Windows Accessibility]","ATF_ONOFFFEEDBACK","ATF_TIMEOUTON","LPACCESSTIMEOUT","LPACCESSTIMEOUT structure pointer [Windows Accessibility]","_win32_ACCESSTIMEOUT_str","msaa.accesstimeout","tagACCESSTIMEOUT","winauto.accesstimeout","winuser/ACCESSTIMEOUT","winuser/LPACCESSTIMEOUT"]
 old-location: winauto\accesstimeout.htm
 tech.root: WinAuto
 ms.assetid: 570a3a29-a7ce-4622-affd-7c6c4f381e36
 ms.date: 12/05/2018
 ms.keywords: '*LPACCESSTIMEOUT, ACCESSTIMEOUT, ACCESSTIMEOUT structure [Windows Accessibility], ATF_ONOFFFEEDBACK, ATF_TIMEOUTON, LPACCESSTIMEOUT, LPACCESSTIMEOUT structure pointer [Windows Accessibility], _win32_ACCESSTIMEOUT_str, msaa.accesstimeout, tagACCESSTIMEOUT, winauto.accesstimeout, winuser/ACCESSTIMEOUT, winuser/LPACCESSTIMEOUT'
-f1_keywords:
-- winuser/ACCESSTIMEOUT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- ACCESSTIMEOUT
 targetos: Windows
 req.typenames: ACCESSTIMEOUT, *LPACCESSTIMEOUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagACCESSTIMEOUT
+ - winuser/tagACCESSTIMEOUT
+ - LPACCESSTIMEOUT
+ - winuser/LPACCESSTIMEOUT
+ - ACCESSTIMEOUT
+ - winuser/ACCESSTIMEOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - ACCESSTIMEOUT
 ---
 
 # ACCESSTIMEOUT structure
 
 
 ## -description
-
-
 
 Contains information about the time-out period associated with the Microsoft Win32 accessibility features. 
 
@@ -60,24 +64,17 @@ The accessibility features affected by the time-out are
         accessibility time-out also affects the high contrast mode
         setting.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A set of bit flags that specify properties of the time-out behavior for accessibility features. The following values are defined.
 
@@ -110,36 +107,21 @@ If this flag is set, a time-out period has been set for accessibility features. 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iTimeOutMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the time-out period, in milliseconds.
 
-
 ## -remarks
 
-
-
-Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
-
-
-
+Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

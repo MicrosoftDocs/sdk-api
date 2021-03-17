@@ -2,15 +2,12 @@
 UID: NF:npapi.NPFMXGetPermCaps
 title: NPFMXGetPermCaps function (npapi.h)
 description: Retrieves the capabilities of the permission editor. The return value is a bitmask that indicates which of the Security menu items in File Manager are to be enabled.
+helpviewer_keywords: ["NPFMXGetPermCaps","NPFMXGetPermCaps function [Security]","_mnp_npfmxgetpermcaps","npapi/NPFMXGetPermCaps","security.npfmxgetpermcaps"]
 old-location: security\npfmxgetpermcaps.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.date: 12/05/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
-f1_keywords:
-- npapi/NPFMXGetPermCaps
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPFMXGetPermCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPFMXGetPermCaps
+ - npapi/NPFMXGetPermCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPFMXGetPermCaps
 ---
 
 # NPFMXGetPermCaps function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the capabilities of the permission editor. The return value is a bitmask that indicates which of the <b>Security</b> menu items in File Manager are to be enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDriveName [in]
 
 Pointer to the name of the drive currently selected in File Manager.
 
-
 ## -returns
-
-
 
 A bitmask that indicates what permission capability the user has on the selected drive. The bitmask is a combination of the following flags.
 
@@ -107,7 +101,4 @@ The <b>Owner</b> menu item is enabled.
 </td>
 </tr>
 </table>
- 
-
-
 

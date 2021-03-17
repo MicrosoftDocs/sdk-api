@@ -2,15 +2,12 @@
 UID: NF:mpconfig.IMixerPinConfig.SetColorKey
 title: IMixerPinConfig::SetColorKey (mpconfig.h)
 description: The SetColorKey method sets the color key being used by a video stream.
+helpviewer_keywords: ["IMixerPinConfig interface [DirectShow]","SetColorKey method","IMixerPinConfig.SetColorKey","IMixerPinConfig::SetColorKey","IMixerPinConfigSetColorKey","SetColorKey","SetColorKey method [DirectShow]","SetColorKey method [DirectShow]","IMixerPinConfig interface","dshow.imixerpinconfig_setcolorkey","mpconfig/IMixerPinConfig::SetColorKey"]
 old-location: dshow\imixerpinconfig_setcolorkey.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetColorKey method, IMixerPinConfig.SetColorKey, IMixerPinConfig::SetColorKey, IMixerPinConfigSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setcolorkey, mpconfig/IMixerPinConfig::SetColorKey
-f1_keywords:
-- mpconfig/IMixerPinConfig.SetColorKey
-dev_langs:
-- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMixerPinConfig.SetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMixerPinConfig::SetColorKey
+ - mpconfig/IMixerPinConfig::SetColorKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMixerPinConfig.SetColorKey
 ---
 
 # IMixerPinConfig::SetColorKey
@@ -49,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetColorKey</code> method sets the color key being used by a video stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pColorKey [in]
 
-Pointer to a [COLORKEY](/windows/win32/api/strmif/ns-strmif-colorkey)a> structure.
-
+Pointer to a [COLORKEY](../strmif/ns-strmif-colorkey.md) structure.
 
 ## -returns
 
-
-
 Returns an <code>HRESULT</code> value.
 
-
-
-
 ## -remarks
-
-
 
 The term <i>color key</i> has different meanings depending on which stream it is referring to. The color key of the primary stream refers to the destination color key being used by the overlay surface. The color key of the secondary stream refers to the source color key used, when blitting from an offscreen surface to the primary surface.
 
@@ -92,23 +78,14 @@ Valid arguments for the <i>pColorKey</i> parameter include CK_INDEX when video d
 <div class="alert"><b>Note</b>  Currently, this method is implemented only for the primary input pin.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">IMixerPinConfig::GetColorKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">IMixerPinConfig::GetColorKey</a>

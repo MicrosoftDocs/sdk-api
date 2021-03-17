@@ -2,15 +2,12 @@
 UID: NF:evntrace.UpdateTraceW
 title: UpdateTraceW function (evntrace.h)
 description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
+helpviewer_keywords: ["UpdateTrace","UpdateTrace function [ETW]","UpdateTraceA","UpdateTraceW","_evt_updatetrace","base.updatetrace","etw.updatetrace","evntrace/UpdateTrace","evntrace/UpdateTraceA","evntrace/UpdateTraceW"]
 old-location: etw\updatetrace.htm
 tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.date: 12/05/2018
 ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
-f1_keywords:
-- evntrace/UpdateTrace
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- UpdateTrace
-- UpdateTraceA
-- UpdateTraceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UpdateTraceW
+ - evntrace/UpdateTraceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-eventing-Legacy-l1-1-0.dll
+ - advapi32legacy.dll
+api_name:
+ - UpdateTrace
+ - UpdateTraceA
+ - UpdateTraceW
 ---
 
 # UpdateTraceW function
@@ -52,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>UpdateTrace</b> function updates the property setting of the specified event tracing session. 
 			
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
-
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
 ## -parameters
-
-
-
 
 ### -param TraceHandle
 
 Handle to the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
-
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 ### -param InstanceName
 
@@ -78,29 +74,23 @@ Pointer to a null-terminated string that specifies the name of the event tracing
 
 To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
 
-
 ### -param Properties
 
 Pointer to an 
 initialized 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
+<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
 
 On input, the members must specify the new values for the properties to update. For information on which properties you can update, see Remarks.
 
 On output, the structure members contains the updated settings and statistics for the event tracing session.
 
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -151,14 +141,8 @@ Only users with administrative privileges, users in the Performance Log Users gr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Controllers call this function.
 
@@ -194,33 +178,30 @@ On input, the members must specify the new values for the properties to update. 
 
 For private logger sessions, you can only update <b>LogFileNameOffset</b> and <b>FlushTimer</b>.
 
-If you are using a newly initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only members you need to specify, other than the members you are updating, are <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and <b>Wnode.Flags</b>.
+If you are using a newly initialized <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only members you need to specify, other than the members you are updating, are <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and <b>Wnode.Flags</b>.
 
-If you use the property structure you passed to <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the  <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
+If you use the property structure you passed to <a href="/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the  <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
 
-If you call the <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function to query the current session properties and then update those properties to update the session, make sure you set <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to <b>WNODE_FLAG_TRACED_GUID</b>.
+If you call the <a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function to query the current session properties and then update those properties to update the session, make sure you set <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to <b>WNODE_FLAG_TRACED_GUID</b>.
 
 To obtain the property settings and session statistics for an event tracing session, call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function.
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function.
 
 
 #### Examples
 
 For an example that uses 
 <b>UpdateTrace</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/updating-an-event-tracing-session">Updating an Event Tracing Session</a>.
+<a href="/windows/desktop/ETW/updating-an-event-tracing-session">Updating an Event Tracing Session</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The evntrace.h header defines UpdateTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a>

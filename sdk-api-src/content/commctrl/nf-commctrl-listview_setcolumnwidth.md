@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_SetColumnWidth
 title: ListView_SetColumnWidth macro (commctrl.h)
 description: Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the LVM_SETCOLUMNWIDTH message explicitly.
+helpviewer_keywords: ["LVSCW_AUTOSIZE","LVSCW_AUTOSIZE_USEHEADER","ListView_SetColumnWidth","ListView_SetColumnWidth macro [Windows Controls]","_win32_ListView_SetColumnWidth","_win32_ListView_SetColumnWidth_cpp","commctrl/ListView_SetColumnWidth","controls.ListView_SetColumnWidth","controls._win32_ListView_SetColumnWidth"]
 old-location: controls\ListView_SetColumnWidth.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnwidth.htm
 ms.date: 12/05/2018
 ms.keywords: LVSCW_AUTOSIZE, LVSCW_AUTOSIZE_USEHEADER, ListView_SetColumnWidth, ListView_SetColumnWidth macro [Windows Controls], _win32_ListView_SetColumnWidth, _win32_ListView_SetColumnWidth_cpp, commctrl/ListView_SetColumnWidth, controls.ListView_SetColumnWidth, controls._win32_ListView_SetColumnWidth
-f1_keywords:
-- commctrl/ListView_SetColumnWidth
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_SetColumnWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_SetColumnWidth
+ - commctrl/ListView_SetColumnWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_SetColumnWidth
 ---
 
 # ListView_SetColumnWidth macro
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumnwidth">LVM_SETCOLUMNWIDTH</a> message explicitly. 
-
+Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setcolumnwidth">LVM_SETCOLUMNWIDTH</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param iCol
 
 Type: <b>int</b>
 
-The zero-based index of a valid column. For list-view mode, this parameter must be set to zero. 
-
+The zero-based index of a valid column. For list-view mode, this parameter must be set to zero.
 
 ### -param cx
 
@@ -103,12 +98,8 @@ Automatically sizes the column to fit the header text. If you use this value wit
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 Assume that you have a 2-column list-view control with a width of 500 pixels. If the width of column zero is set to 200 pixels, and you make the following call.
 
@@ -117,7 +108,4 @@ Assume that you have a 2-column list-view control with a width of 500 pixels. If
 The second (and last) column will be 300 pixels wide.
 
 Note that <b>ListView_SetColumnWidth</b> converts the 
-				<i>cx</i> parameter to a 16-bit value. 
-
-
-
+				<i>cx</i> parameter to a 16-bit value.

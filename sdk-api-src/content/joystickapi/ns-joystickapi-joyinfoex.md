@@ -2,15 +2,12 @@
 UID: NS:joystickapi.joyinfoex_tag
 title: JOYINFOEX (joystickapi.h)
 description: The JOYINFOEX structure contains extended information about the joystick position, point-of-view position, and button state.
+helpviewer_keywords: ["*LPJOYINFOEX","*NPJOYINFOEX","*PJOYINFOEX","JOYINFOEX","JOYINFOEX structure [Windows Multimedia]","_win32_JOYINFOEX_str","joyinfoex_tag","joystickapi/JOYINFOEX","multimedia.joyinfoex"]
 old-location: multimedia\joyinfoex.htm
 tech.root: Multimedia
 ms.assetid: 2c07b56b-a9d5-450f-96ca-0fdaf60c52a3
 ms.date: 12/05/2018
 ms.keywords: '*LPJOYINFOEX, *NPJOYINFOEX, *PJOYINFOEX, JOYINFOEX, JOYINFOEX structure [Windows Multimedia], _win32_JOYINFOEX_str, joyinfoex_tag, joystickapi/JOYINFOEX, multimedia.joyinfoex'
-f1_keywords:
-- joystickapi/JOYINFOEX
-dev_langs:
-- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- joystickapi.h
-api_name:
-- JOYINFOEX
 targetos: Windows
 req.typenames: JOYINFOEX, *PJOYINFOEX, *NPJOYINFOEX, *LPJOYINFOEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - joyinfoex_tag
+ - joystickapi/joyinfoex_tag
+ - PJOYINFOEX
+ - joystickapi/PJOYINFOEX
+ - JOYINFOEX
+ - joystickapi/JOYINFOEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - joystickapi.h
+api_name:
+ - JOYINFOEX
 ---
 
 # JOYINFOEX structure
@@ -48,22 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>JOYINFOEX</b> structure contains extended information about the joystick position, point-of-view position, and button state.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size, in bytes, of this structure.
-
 
 ### -field dwFlags
 
@@ -181,69 +178,54 @@ The following flags provide data to calibrate a joystick and are intended for cu
 <td>Read the v-coordinate if a joystick mini-driver is present that will provide the data and store the raw value in <b>dwVpos</b>. Return zero otherwise.</td>
 </tr>
 </table>
- 
-
 
 ### -field dwXpos
 
 Current X-coordinate.
 
-
 ### -field dwYpos
 
 Current Y-coordinate.
-
 
 ### -field dwZpos
 
 Current Z-coordinate.
 
-
 ### -field dwRpos
 
 Current position of the rudder or fourth joystick axis.
-
 
 ### -field dwUpos
 
 Current fifth axis position.
 
-
 ### -field dwVpos
 
 Current sixth axis position.
-
 
 ### -field dwButtons
 
 Current state of the 32 joystick buttons. The value of this member can be set to any combination of JOY_BUTTON <i>n</i> flags, where <i>n</i> is a value in the range of 1 through 32 corresponding to the button that is pressed.
 
-
 ### -field dwButtonNumber
 
 Current button number that is pressed.
-
 
 ### -field dwPOV
 
 Current position of the point-of-view control. Values for this member are in the range 0 through 35,900. These values represent the angle, in degrees, of each view multiplied by 100.
 
-
 ### -field dwReserved1
 
 Reserved; do not use.
-
 
 ### -field dwReserved2
 
 Reserved; do not use.
 
-
 ## -remarks
 
-
-
-The value of the <b>dwSize</b> member is also used to identify the version number for the structure when it's passed to the <a href="https://docs.microsoft.com/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a> function.
+The value of the <b>dwSize</b> member is also used to identify the version number for the structure when it's passed to the <a href="/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a> function.
 
 Most devices with a point-of-view control have only five positions. When the JOY_RETURNPOV flag is set, these positions are reported by using the following constants:
 
@@ -279,13 +261,7 @@ Most devices with a point-of-view control have only five positions. When the JOY
 
 The default joystick driver currently supports these five discrete directions. If an application can accept only the defined point-of-view values, it must use the JOY_RETURNPOV flag. If an application can accept other degree readings, it should use the JOY_RETURNPOVCTS flag to obtain continuous data if it is available. The JOY_RETURNPOVCTS flag also supports the JOY_POV constants used with the JOY_RETURNPOV flag.
 
-
-
-
 ## -see-also
-
-
-
 
 Joysticks
 
@@ -295,8 +271,4 @@ Multimedia Joystick Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a>
- 
-
- 
-
+<a href="/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a>

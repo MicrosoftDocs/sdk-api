@@ -2,15 +2,12 @@
 UID: NF:davclnt.DavGetHTTPFromUNCPath
 title: DavGetHTTPFromUNCPath function (davclnt.h)
 description: Converts the specified UNC path to an equivalent HTTP path.
+helpviewer_keywords: ["DavGetHTTPFromUNCPath","DavGetHTTPFromUNCPath function [WebDAV]","davclnt/DavGetHTTPFromUNCPath","webdav.davgethttpfromuncpath"]
 old-location: webdav\davgethttpfromuncpath.htm
 tech.root: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
 ms.date: 12/05/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
-f1_keywords:
-- davclnt/DavGetHTTPFromUNCPath
-dev_langs:
-- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- netapi32.dll
-- DavHlpr.dll
-- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
-api_name:
-- DavGetHTTPFromUNCPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DavGetHTTPFromUNCPath
+ - davclnt/DavGetHTTPFromUNCPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - netapi32.dll
+ - DavHlpr.dll
+ - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+api_name:
+ - DavGetHTTPFromUNCPath
 ---
 
 # DavGetHTTPFromUNCPath function
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the specified UNC path to an equivalent HTTP path.
 
-
 ## -parameters
-
-
-
 
 ### -param UncPath [in]
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the UNC path. This path must be in the following format:
 
-\\<i>server</i>[@SSL][@<i>port</i>][\<i>path</i>]
+&#92;&#92;<i>server</i>[@SSL][@<i>port</i>][&#92;<i>path</i>]
 
 where<ul>
 <li><i>server</i> is the server name.</li>
@@ -72,25 +69,19 @@ where<ul>
 <li><i>path</i> is optional and specifies a path to a remote file or directory on the server.</li>
 </ul>
 
-
-
 ### -param Url [out]
 
 A pointer to a caller-allocated buffer  that receives the HTTP path as a <b>null</b>-terminated Unicode string.
-
 
 ### -param lpSize [in, out]
 
 A pointer to a variable that on input specifies the maximum size, in Unicode characters, of the buffer that the <i>HttpPath</i> parameter points to. If the function succeeds, on output the variable receives the number of characters that were copied into the buffer. If the function fails with ERROR_INSUFFICIENT_BUFFER, on output the variable receives the number of characters needed to store the HTTP path, including the "http://" or "https://" prefix and the terminating <b>NULL</b> character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as the following value.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as the following value.
 
 <table>
 <tr>
@@ -109,7 +100,3 @@ The buffer that the <i>HttpPath</i> parameter points to was not large enough to 
 </td>
 </tr>
 </table>
- 
-
-
-

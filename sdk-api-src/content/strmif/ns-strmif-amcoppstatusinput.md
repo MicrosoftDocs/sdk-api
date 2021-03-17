@@ -2,15 +2,12 @@
 UID: NS:strmif._AMCOPPStatusInput
 title: AMCOPPStatusInput (strmif.h)
 description: The AMCOPPStatusInput structure contains a Certified Output Protection Protocol (COPP) status request.
+helpviewer_keywords: ["*LPAMCOPPStatusInput","AMCOPPStatusInput","AMCOPPStatusInput structure [DirectShow]","AMCOPPStatusInputStructure","LPAMCOPPStatusInput","LPAMCOPPStatusInput structure pointer [DirectShow]","dshow.amcoppstatusinput","strmif/AMCOPPStatusInput","strmif/LPAMCOPPStatusInput"]
 old-location: dshow\amcoppstatusinput.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
 ms.date: 12/05/2018
 ms.keywords: '*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput'
-f1_keywords:
-- strmif/AMCOPPStatusInput
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- AMCOPPStatusInput
 targetos: Windows
 req.typenames: AMCOPPStatusInput, *LPAMCOPPStatusInput
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AMCOPPStatusInput
+ - strmif/_AMCOPPStatusInput
+ - LPAMCOPPStatusInput
+ - strmif/LPAMCOPPStatusInput
+ - AMCOPPStatusInput
+ - strmif/AMCOPPStatusInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - AMCOPPStatusInput
 ---
 
 # AMCOPPStatusInput structure
@@ -48,46 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The AMCOPPStatusInput structure contains a Certified Output Protection Protocol (COPP) status request.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field rApp
 
 128-bit random number.
 
-
 ### -field guidStatusRequestID
 
 GUID that defines the status request.
-
 
 ### -field dwSequence
 
 Sequence number. The application must keep a running count of the COPP status requests issued. For each request, increment the sequence number by one.
 
-
 ### -field cbSizeData
 
 Number of bytes of valid data in the <b>StatusData</b> member.
-
 
 ### -field StatusData
 
 Data for the status request. The meaning of the data depends on the request.
 
-
 ## -remarks
-
-
 
 The following COPP status requests are defined.
 
@@ -130,20 +121,10 @@ The following COPP status requests are defined.
 
 For more information, see the Windows DDK documentation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

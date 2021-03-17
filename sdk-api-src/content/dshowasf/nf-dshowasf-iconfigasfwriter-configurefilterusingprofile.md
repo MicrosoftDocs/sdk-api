@@ -2,15 +2,12 @@
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfile
 title: IConfigAsfWriter::ConfigureFilterUsingProfile (dshowasf.h)
 description: The ConfigureFilterUsingProfile method sets an ASF profile on the WM ASF Writer filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
+helpviewer_keywords: ["ConfigureFilterUsingProfile","ConfigureFilterUsingProfile method [DirectShow]","ConfigureFilterUsingProfile method [DirectShow]","IConfigAsfWriter interface","IConfigAsfWriter interface [DirectShow]","ConfigureFilterUsingProfile method","IConfigAsfWriter.ConfigureFilterUsingProfile","IConfigAsfWriter::ConfigureFilterUsingProfile","IConfigAsfWriterConfigureFilterUsingProfile","dshow.iconfigasfwriter_configurefilterusingprofile","dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile"]
 old-location: dshow\iconfigasfwriter_configurefilterusingprofile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 89156f64-7a20-4226-9f01-5b1bd4a1fe98
 ms.date: 12/05/2018
 ms.keywords: ConfigureFilterUsingProfile, ConfigureFilterUsingProfile method [DirectShow], ConfigureFilterUsingProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfile method, IConfigAsfWriter.ConfigureFilterUsingProfile, IConfigAsfWriter::ConfigureFilterUsingProfile, IConfigAsfWriterConfigureFilterUsingProfile, dshow.iconfigasfwriter_configurefilterusingprofile, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
-f1_keywords:
-- dshowasf/IConfigAsfWriter.ConfigureFilterUsingProfile
-dev_langs:
-- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dshowasf.h
-api_name:
-- IConfigAsfWriter.ConfigureFilterUsingProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAsfWriter::ConfigureFilterUsingProfile
+ - dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dshowasf.h
+api_name:
+ - IConfigAsfWriter.ConfigureFilterUsingProfile
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfile
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>ConfigureFilterUsingProfile</code> method sets an ASF profile on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
-
-
-
+The <code>ConfigureFilterUsingProfile</code> method sets an ASF profile on the <a href="/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
 
 ## -parameters
 
-
-
-
 ### -param pProfile [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile.
-
+Pointer to the <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface of the profile.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -105,42 +96,26 @@ The graph is stopped.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface pointer is invalid.
+The <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface pointer is invalid.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface is documented in the Windows Media Format SDK.
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface is documented in the Windows Media Format SDK.
-
-If successful, this method will cause an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-graph-changed">EC_GRAPH_CHANGED</a> event to be sent to the application.
-
-
-
+If successful, this method will cause an <a href="/windows/desktop/DirectShow/ec-graph-changed">EC_GRAPH_CHANGED</a> event to be sent to the application.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>

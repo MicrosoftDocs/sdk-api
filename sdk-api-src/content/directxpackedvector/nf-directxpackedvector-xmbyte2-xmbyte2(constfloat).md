@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(const float)
+UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(constfloat)
 title: XMBYTE2::XMBYTE2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMBYTE2 from a two-element float array argument.
+helpviewer_keywords: ["XMBYTE2","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 structure","XMBYTE2 structure [DirectX Math Support APIs]","XMBYTE2 constructor","XMBYTE2.XMBYTE2","XMBYTE2.XMBYTE2()","XMBYTE2.XMBYTE2(const float)","XMBYTE2::XMBYTE2","XMBYTE2::XMBYTE2(const float)","dxmath.xmbyte2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 958e88f3-97cb-4a26-abcf-cbb8185f4716
 ms.date: 05/06/2019
 ms.keywords: XMBYTE2, XMBYTE2 constructor [DirectX Math Support APIs], XMBYTE2 constructor [DirectX Math Support APIs],XMBYTE2 structure, XMBYTE2 structure [DirectX Math Support APIs],XMBYTE2 constructor, XMBYTE2.XMBYTE2, XMBYTE2.XMBYTE2(), XMBYTE2.XMBYTE2(const float), XMBYTE2::XMBYTE2, XMBYTE2::XMBYTE2(const float), dxmath.xmbyte2_ctor_1
-f1_keywords:
-- directxpackedvector/XMBYTE2.XMBYTE2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMBYTE2.XMBYTE2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMBYTE2::XMBYTE2
+ - directxpackedvector/XMBYTE2::XMBYTE2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMBYTE2.XMBYTE2
 ---
 
 # XMBYTE2::XMBYTE2(const float)
@@ -48,7 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a> from a two-element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a> from a two-element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMBYTE2** from a two-element <code>float</code> array argument.
 
@@ -75,6 +77,6 @@ instance.y = (int8_t)min( max( pArray[1] -127.0 ), 127.0 );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
+<a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>

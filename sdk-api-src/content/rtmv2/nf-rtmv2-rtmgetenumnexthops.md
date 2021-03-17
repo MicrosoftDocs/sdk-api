@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmGetEnumNextHops
 title: RtmGetEnumNextHops function (rtmv2.h)
 description: The RtmGetEnumNextHops function retrieves the next set of next hops in the specified enumeration.
+helpviewer_keywords: ["RtmGetEnumNextHops","RtmGetEnumNextHops function [RAS]","_rtmv2ref_rtmgetenumnexthops","rras.rtmgetenumnexthops","rtmv2/RtmGetEnumNextHops"]
 old-location: rras\rtmgetenumnexthops.htm
 tech.root: RRAS
 ms.assetid: 3e1a6064-6ba0-4ed8-b6df-1c347b098807
 ms.date: 12/05/2018
 ms.keywords: RtmGetEnumNextHops, RtmGetEnumNextHops function [RAS], _rtmv2ref_rtmgetenumnexthops, rras.rtmgetenumnexthops, rtmv2/RtmGetEnumNextHops
-f1_keywords:
-- rtmv2/RtmGetEnumNextHops
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetEnumNextHops
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetEnumNextHops
+ - rtmv2/RtmGetEnumNextHops
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetEnumNextHops
 ---
 
 # RtmGetEnumNextHops function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetEnumNextHops</b> function retrieves the next set of next hops in the specified enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param EnumHandle [in]
 
 Handle to the next-hop enumeration.
-
 
 ### -param NumNextHops [in, out]
 
@@ -78,21 +73,17 @@ On input, <i>NumNextHops</i> is a pointer to a <b>UINT</b> value specifying the 
 
 On output, <i>NumNextHops</i> receives the actual number of next hops received by <i>NextHopHandles</i>.
 
-
 ### -param NextHopHandles [out]
 
 On input, <i>NextHopHandles</i> pointers to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a> structure. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a> structure. 
 
 
 
 
 On output, <i>NextHopHandles</i> receives an array of handles to next hops.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -111,7 +102,7 @@ If the function fails, the return value is one of the following error codes.
 </td>
 <td width="60%">
 The value pointed to by <i>NumRoutes</i> is larger than the maximum number of routes a client is allowed to retrieve with one call. Check 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a> for the maximum number of next hops that the client is allowed to retrieve with one call.
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a> for the maximum number of next hops that the client is allowed to retrieve with one call.
 
 </td>
 </tr>
@@ -132,35 +123,19 @@ There are no more next hops to enumerate.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 When the next hops are no longer required, release them by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>.
-
-
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatenexthopenum">RtmCreateNextHopEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatenexthopenum">RtmCreateNextHopEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteenumhandle">RtmDeleteEnumHandle</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>

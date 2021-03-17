@@ -2,15 +2,12 @@
 UID: NS:lmshare._SHARE_INFO_2
 title: SHARE_INFO_2 (lmshare.h)
 description: Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.
+helpviewer_keywords: ["*LPSHARE_INFO_2","*PSHARE_INFO_2","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_2","LPSHARE_INFO_2 structure pointer [Files]","PSHARE_INFO_2","PSHARE_INFO_2 structure pointer [Files]","SHARE_INFO_2","SHARE_INFO_2 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","_win32_share_info_2_str","fs.share_info_2_str","lmshare/LPSHARE_INFO_2","lmshare/PSHARE_INFO_2","lmshare/SHARE_INFO_2","netmgmt.share_info_2_str"]
 old-location: fs\share_info_2_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: cd152ccd-cd60-455f-b25c-c4939c65e0ab
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_2, *PSHARE_INFO_2, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_2, LPSHARE_INFO_2 structure pointer [Files], PSHARE_INFO_2, PSHARE_INFO_2 structure pointer [Files], SHARE_INFO_2, SHARE_INFO_2 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _win32_share_info_2_str, fs.share_info_2_str, lmshare/LPSHARE_INFO_2, lmshare/PSHARE_INFO_2, lmshare/SHARE_INFO_2, netmgmt.share_info_2_str'
-f1_keywords:
-- lmshare/SHARE_INFO_2
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_2
 targetos: Windows
 req.typenames: SHARE_INFO_2, *PSHARE_INFO_2, *LPSHARE_INFO_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_2
+ - lmshare/_SHARE_INFO_2
+ - PSHARE_INFO_2
+ - lmshare/PSHARE_INFO_2
+ - SHARE_INFO_2
+ - lmshare/SHARE_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_2
 ---
 
 # SHARE_INFO_2 structure
@@ -48,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections. For more information about controlling access to securable objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>.
-
+Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections. For more information about controlling access to securable objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field shi2_netname
 
 Pointer to a Unicode string specifying the share name of a resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi2_type
 
@@ -133,7 +133,7 @@ In addition, one or both of the following values may be specified.
 </dl>
 </td>
 <td width="60%">
-Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
+Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
 
 </td>
 </tr>
@@ -148,18 +148,15 @@ A temporary share.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi2_remark
 
 Pointer to a Unicode string that contains an optional comment about the shared resource.
 
-
 ### -field shi2_permissions
 
 Specifies a DWORD value that indicates the shared resource's permissions for servers running with share-level security. A server running user-level security ignores this member. This member can be one or more of the following values. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member. 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member. 
 
 
 
@@ -252,63 +249,50 @@ Permission to read, write, create, execute, and delete resources, and to modify 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi2_max_uses
 
 Specifies a DWORD value that indicates the maximum number of concurrent connections that the shared resource can accommodate. The number of connections is unlimited if the value specified in this member is –1.
 
-
 ### -field shi2_current_uses
 
 Specifies a DWORD value that indicates the number of current connections to the resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi2_path
 
 Pointer to a Unicode string specifying the local path for the shared resource. For disks, <b>shi2_path</b> is the path being shared. For print queues, <b>shi2_path</b> is the name of the print queue being shared. Calls to the 
 <b>NetShareSetInfo</b> function ignore this member.
 
-
 ### -field shi2_passwd
 
 Pointer to a Unicode string that specifies the share's password when the server is running with share-level security. If the server is running with user-level security, this member is ignored. The <b>shi2_passwd</b> member can be no longer than SHPWLEN+1 bytes (including a terminating null character). Calls to the 
 <b>NetShareSetInfo</b> function ignore this member. Note that Windows does not support share-level security.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

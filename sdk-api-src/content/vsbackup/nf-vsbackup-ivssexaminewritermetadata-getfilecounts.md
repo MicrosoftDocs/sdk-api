@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetFileCounts
 title: IVssExamineWriterMetadata::GetFileCounts (vsbackup.h)
 description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.
+helpviewer_keywords: ["GetFileCounts","GetFileCounts method [VSS]","GetFileCounts method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetFileCounts method","IVssExamineWriterMetadata.GetFileCounts","IVssExamineWriterMetadata::GetFileCounts","_win32_ivssexaminewritermetadata_getfilecounts","base.ivssexaminewritermetadata_getfilecounts","vsbackup/IVssExamineWriterMetadata::GetFileCounts"]
 old-location: base\ivssexaminewritermetadata_getfilecounts.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
 ms.date: 12/05/2018
 ms.keywords: GetFileCounts, GetFileCounts method [VSS], GetFileCounts method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetFileCounts method, IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
-f1_keywords:
-- vsbackup/IVssExamineWriterMetadata.GetFileCounts
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssExamineWriterMetadata.GetFileCounts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExamineWriterMetadata::GetFileCounts
+ - vsbackup/IVssExamineWriterMetadata::GetFileCounts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssExamineWriterMetadata.GetFileCounts
 ---
 
 # IVssExamineWriterMetadata::GetFileCounts
@@ -49,34 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetFileCounts</b> method obtains excluded files and the number of components that a writer manages.
 
-
 ## -parameters
-
-
-
 
 ### -param pcIncludeFiles [out]
 
 Reserved for system use.
 
-
 ### -param pcExcludeFiles [out]
 
 The address of a caller-allocated variable that receives the number of file sets that are explicitly excluded from the backup.
-
 
 ### -param pcComponents [out]
 
 The address of a caller-allocated variable that receives the total number of components that are managed by the current writer.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -126,7 +118,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -138,33 +130,22 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">IVssExamineWriterMetadata::GetComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">IVssExamineWriterMetadata::GetComponent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">IVssExamineWriterMetadata::GetExcludeFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">IVssExamineWriterMetadata::GetExcludeFile</a>

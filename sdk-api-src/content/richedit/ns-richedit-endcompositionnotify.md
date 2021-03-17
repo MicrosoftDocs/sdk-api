@@ -2,15 +2,12 @@
 UID: NS:richedit._endcomposition
 title: ENDCOMPOSITIONNOTIFY (richedit.h)
 description: Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
+helpviewer_keywords: ["ECN_ENDCOMPOSITION","ECN_NEWTEXT","ENDCOMPOSITIONNOTIFY","ENDCOMPOSITIONNOTIFY structure [Windows Controls]","controls.endcompositionnotify","richedit/ENDCOMPOSITIONNOTIFY"]
 old-location: controls\endcompositionnotify.htm
 tech.root: Controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
 ms.date: 12/05/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
-f1_keywords:
-- richedit/ENDCOMPOSITIONNOTIFY
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- ENDCOMPOSITIONNOTIFY
 targetos: Windows
 req.typenames: ENDCOMPOSITIONNOTIFY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _endcomposition
+ - richedit/_endcomposition
+ - ENDCOMPOSITIONNOTIFY
+ - richedit/ENDCOMPOSITIONNOTIFY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - ENDCOMPOSITIONNOTIFY
 ---
 
 # ENDCOMPOSITIONNOTIFY structure
@@ -48,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control. 
-
-
-
+Contains information about an EN_ENDCOMPOSITION notification code from a rich edit control.
 
 ## -struct-fields
 
-
-
-
 ### -field nmhdr
 
-The <b>code</b> member of this structure identifies the notification code being sent. 
-
+The <b>code</b> member of this structure identifies the notification code being sent.
 
 ### -field dwCode
 
@@ -96,5 +92,4 @@ There are new characters in the composition.
 </td>
 </tr>
 </table>
- 
 

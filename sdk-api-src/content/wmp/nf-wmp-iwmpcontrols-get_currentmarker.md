@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls.get_currentMarker
 title: IWMPControls::get_currentMarker (wmp.h)
 description: The get_currentMarker method retrieves the current marker number.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_currentMarker method","IWMPControls.get_currentMarker","IWMPControls::get_currentMarker","IWMPControlsget_currentMarker","get_currentMarker","get_currentMarker method [Windows Media Player]","get_currentMarker method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_currentmarker","wmp/IWMPControls::get_currentMarker"]
 old-location: wmp\iwmpcontrols_get_currentmarker.htm
 tech.root: WMP
 ms.assetid: 42576961-a9bd-4f64-bf56-a5d6bd07e82f
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentMarker method, IWMPControls.get_currentMarker, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
-f1_keywords:
-- wmp/IWMPControls.get_currentMarker
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.get_currentMarker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::get_currentMarker
+ - wmp/IWMPControls::get_currentMarker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.get_currentMarker
 ---
 
 # IWMPControls::get_currentMarker
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_currentMarker</b> method retrieves the current marker number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plMarker [out]
 
 Pointer to a <b>long</b> containing the marker.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,41 +79,25 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>get_currentMarker</b> method always retrieves a pointer to the current or last marker, which means the actual file position can be either at the current marker or before the next marker. Markers are numbered beginning at 1, so if a file has markers, you can change the current playback position to zero by calling <b>IWMPControls::put_currentMarker</b> to and specifying the marker as zero .
 
 Until the current media item is set (using <b>IWMPCore::put_URL</b> or <b>IWMPCore::put_currentMedia</b>), <b>get_currentMarker</b> retrieves a marker that is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentmarker">IWMPControls::put_currentMarker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentmarker">IWMPControls::put_currentMarker</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_currentmedia">IWMPCore::put_currentMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_currentmedia">IWMPCore::put_currentMedia</a>

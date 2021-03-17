@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaLimit
 title: IDiskQuotaControl::GetDefaultQuotaLimit (dskquota.h)
 description: Retrieves the default quota limit for the volume.
+helpviewer_keywords: ["GetDefaultQuotaLimit","GetDefaultQuotaLimit method [Files]","GetDefaultQuotaLimit method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaLimit method","IDiskQuotaControl.GetDefaultQuotaLimit","IDiskQuotaControl::GetDefaultQuotaLimit","_win32_idiskquotacontrol_getdefaultquotalimit","base.idiskquotacontrol_getdefaultquotalimit","dskquota/IDiskQuotaControl::GetDefaultQuotaLimit","fs.idiskquotacontrol_getdefaultquotalimit"]
 old-location: fs\idiskquotacontrol_getdefaultquotalimit.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 05af5869-0c77-4078-b6af-601a7df44244
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaLimit, GetDefaultQuotaLimit method [Files], GetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimit method, IDiskQuotaControl.GetDefaultQuotaLimit, IDiskQuotaControl::GetDefaultQuotaLimit, _win32_idiskquotacontrol_getdefaultquotalimit, base.idiskquotacontrol_getdefaultquotalimit, dskquota/IDiskQuotaControl::GetDefaultQuotaLimit, fs.idiskquotacontrol_getdefaultquotalimit
-f1_keywords:
-- dskquota/IDiskQuotaControl.GetDefaultQuotaLimit
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.GetDefaultQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::GetDefaultQuotaLimit
+ - dskquota/IDiskQuotaControl::GetDefaultQuotaLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.GetDefaultQuotaLimit
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaLimit
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the default quota limit for the volume. This limit is applied automatically to new users of the volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pllLimit [out]
 
 A pointer to the variable to receive the quota limit. If this value is -1, the user has an unlimited quota.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -151,26 +145,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

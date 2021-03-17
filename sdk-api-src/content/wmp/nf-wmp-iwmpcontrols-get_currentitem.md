@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls.get_currentItem
 title: IWMPControls::get_currentItem (wmp.h)
 description: The get_currentItem method retrieves the current media item in a playlist.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_currentItem method","IWMPControls.get_currentItem","IWMPControls::get_currentItem","IWMPControlsget_currentItem","get_currentItem","get_currentItem method [Windows Media Player]","get_currentItem method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_currentitem","wmp/IWMPControls::get_currentItem"]
 old-location: wmp\iwmpcontrols_get_currentitem.htm
 tech.root: WMP
 ms.assetid: 1c2443cd-d7e6-466f-b728-ad04a415d192
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentItem method, IWMPControls.get_currentItem, IWMPControls::get_currentItem, IWMPControlsget_currentItem, get_currentItem, get_currentItem method [Windows Media Player], get_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentitem, wmp/IWMPControls::get_currentItem
-f1_keywords:
-- wmp/IWMPControls.get_currentItem
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.get_currentItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::get_currentItem
+ - wmp/IWMPControls::get_currentItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.get_currentItem
 ---
 
 # IWMPControls::get_currentItem
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_currentItem</b> method retrieves the current media item in a playlist.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppIWMPMedia [out]
 
 Pointer to a pointer to an <b>IWMPMedia</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,39 +79,23 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method works only with items in the current playlist.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">IWMPControls::put_currentItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">IWMPControls::put_currentItem</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>

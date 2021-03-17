@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.NotifyOwnerMessage
 title: IVideoWindow::NotifyOwnerMessage (control.h)
 description: The NotifyOwnerMessage method forwards a message to the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","NotifyOwnerMessage method","IVideoWindow.NotifyOwnerMessage","IVideoWindow::NotifyOwnerMessage","IVideoWindowNotifyOwnerMessage","NotifyOwnerMessage","NotifyOwnerMessage method [DirectShow]","NotifyOwnerMessage method [DirectShow]","IVideoWindow interface","control/IVideoWindow::NotifyOwnerMessage","dshow.ivideowindow_notifyownermessage"]
 old-location: dshow\ivideowindow_notifyownermessage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
-f1_keywords:
-- control/IVideoWindow.NotifyOwnerMessage
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.NotifyOwnerMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::NotifyOwnerMessage
+ - control/IVideoWindow::NotifyOwnerMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.NotifyOwnerMessage
 ---
 
 # IVideoWindow::NotifyOwnerMessage
@@ -49,42 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>NotifyOwnerMessage</code> method forwards a message to the video window.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-A handle to the window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
-          
-
+A handle to the window, as an <a href="/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
 
 ### -param uMsg [in]
 
 Specifies the message.
 
-
 ### -param wParam [in]
 
 Message parameter.
-
 
 ### -param lParam [in]
 
 Message parameter.
 
-
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -116,14 +103,8 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Filter Graph Manager calls this method to pass various messages to the renderer, including the following:
 
@@ -137,19 +118,10 @@ The Filter Graph Manager calls this method to pass various messages to the rende
 <li>WM_SYSCOLORCHANGE</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>

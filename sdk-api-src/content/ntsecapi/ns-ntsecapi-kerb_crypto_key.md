@@ -2,15 +2,12 @@
 UID: NS:ntsecapi.KERB_CRYPTO_KEY
 title: KERB_CRYPTO_KEY (ntsecapi.h)
 description: Contains information about a Kerberos cryptographic session key.
+helpviewer_keywords: ["*PKERB_CRYPTO_KEY","KERB_CRYPTO_KEY","KERB_CRYPTO_KEY structure [Security]","KERB_ETYPE_DES_CBC_CRC","KERB_ETYPE_DES_CBC_MD4","KERB_ETYPE_DES_CBC_MD5","KERB_ETYPE_NULL","KERB_ETYPE_RC4_HMAC_NT","KERB_ETYPE_RC4_MD4","PKERB_CRYPTO_KEY","PKERB_CRYPTO_KEY structure pointer [Security]","_lsa_kerb_crypto_key","ntsecapi/KERB_CRYPTO_KEY","ntsecapi/PKERB_CRYPTO_KEY","security.kerb_crypto_key"]
 old-location: security\kerb_crypto_key.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ac7ea61c-b1e0-4dc0-931e-81bb6fd74888
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_CRYPTO_KEY, KERB_CRYPTO_KEY, KERB_CRYPTO_KEY structure [Security], KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, PKERB_CRYPTO_KEY, PKERB_CRYPTO_KEY structure pointer [Security], _lsa_kerb_crypto_key, ntsecapi/KERB_CRYPTO_KEY, ntsecapi/PKERB_CRYPTO_KEY, security.kerb_crypto_key'
-f1_keywords:
-- ntsecapi/KERB_CRYPTO_KEY
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_CRYPTO_KEY
 targetos: Windows
 req.typenames: KERB_CRYPTO_KEY, *PKERB_CRYPTO_KEY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - KERB_CRYPTO_KEY
+ - ntsecapi/KERB_CRYPTO_KEY
+ - PKERB_CRYPTO_KEY
+ - ntsecapi/PKERB_CRYPTO_KEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_CRYPTO_KEY
 ---
 
 # KERB_CRYPTO_KEY structure
@@ -48,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
-
+The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="/windows/desktop/SecGloss/s-gly">session key</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field KeyType
 
-Indicates the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> stored in the structure. It can be one of the following values.
+Indicates the type of <a href="/windows/desktop/SecGloss/s-gly">session key</a> stored in the structure. It can be one of the following values.
 
 <table>
 <tr>
@@ -72,7 +71,7 @@ Indicates the type of <a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
+Use <a href="/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
 
 </td>
 </tr>
@@ -112,7 +111,7 @@ Use no encryption.
 </dl>
 </td>
 <td width="60%">
-Use the RC4 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC).
+Use the RC4 <a href="/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC).
 
 </td>
 </tr>
@@ -131,13 +130,10 @@ Use the RC4 stream cipher with the MD4 hash function.
 
 Values greater than 127 are reserved for local values and may change without notice.
 
-
 ### -field Length
 
-Specifies the length, in bytes, of the cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
-
+Specifies the length, in bytes, of the cryptographic <a href="/windows/desktop/SecGloss/s-gly">session key</a>.
 
 ### -field Value
 
 Contains the cryptographic session key.
-

@@ -2,15 +2,12 @@
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowCDBurn
 title: IWMPSubscriptionService::allowCDBurn (subscriptionservices.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPSubscriptionService interface [Windows Media Player]","allowCDBurn method","IWMPSubscriptionService.allowCDBurn","IWMPSubscriptionService::allowCDBurn","IWMPSubscriptionServiceallowCDBurn","allowCDBurn","allowCDBurn method [Windows Media Player]","allowCDBurn method [Windows Media Player]","IWMPSubscriptionService interface","subscriptionservices/IWMPSubscriptionService::allowCDBurn","wmp.iwmpsubscriptionservice_allowcdburn"]
 old-location: wmp\iwmpsubscriptionservice_allowcdburn.htm
 tech.root: WMP
 ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
-f1_keywords:
-- subscriptionservices/IWMPSubscriptionService.allowCDBurn
-dev_langs:
-- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- subscriptionservices.h
-api_name:
-- IWMPSubscriptionService.allowCDBurn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSubscriptionService::allowCDBurn
+ - subscriptionservices/IWMPSubscriptionService::allowCDBurn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - subscriptionservices.h
+api_name:
+ - IWMPSubscriptionService.allowCDBurn
 ---
 
 # IWMPSubscriptionService::allowCDBurn
@@ -48,47 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>allowCDBurn</b> method is implemented by the online store's plug-in to manage permission for Windows Media Player to copy content to a CD.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to a window in which the plug-in can display a user interface.
 
-
 ### -param pPlaylist [in, out]
 
 Pointer to a playlist object. The plug-in must remove from the playlist any media item that does not have a current license that includes burn rights.
-
 
 ### -param pfAllowBurn [out]
 
 Pointer to a <b>BOOL</b>. If true, copying to CD is allowed for the media items that remain in the playlist.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 The situations in which Windows Media Player calls <b>allowCDBurn</b> differ between versions of Windows Media Player.
 
@@ -100,16 +84,6 @@ Note that Windows Media Player 11 ignores the playlist and the Boolean value tha
 
 Regardless of the Player version, there is no callback mechanism that the background thread can use to notify Windows Media Player that a license renewal is complete. However, if the license renewal for a media item succeeds, then the next time the user attempts to copy the item to a CD, the copy will succeed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>

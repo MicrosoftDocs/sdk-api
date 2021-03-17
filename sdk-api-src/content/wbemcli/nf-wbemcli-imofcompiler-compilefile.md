@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IMofCompiler.CompileFile
 title: IMofCompiler::CompileFile (wbemcli.h)
 description: The IMofCompiler::CompileFile method compiles a MOF file (including binary MOFs) and stores the information in the WMI repository.
+helpviewer_keywords: ["CompileFile","CompileFile method [Windows Management Instrumentation]","CompileFile method [Windows Management Instrumentation]","IMofCompiler interface","IMofCompiler interface [Windows Management Instrumentation]","CompileFile method","IMofCompiler.CompileFile","IMofCompiler::CompileFile","WBEM_FLAG_AUTORECOVER","WBEM_FLAG_CHECK_ONLY","WBEM_FLAG_CONSOLE_PRINT","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_DONT_ADD_TO_LIST","WBEM_FLAG_UPDATE_FORCE_MODE","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_UPDATE_SAFE_MODE","_hmm_imofcompiler_compilefile","wbemcli/IMofCompiler::CompileFile","wmi.imofcompiler_compilefile"]
 old-location: wmi\imofcompiler_compilefile.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: caf13a5c-2aca-4acb-8210-909737bf1022
 ms.date: 12/05/2018
 ms.keywords: CompileFile, CompileFile method [Windows Management Instrumentation], CompileFile method [Windows Management Instrumentation],IMofCompiler interface, IMofCompiler interface [Windows Management Instrumentation],CompileFile method, IMofCompiler.CompileFile, IMofCompiler::CompileFile, WBEM_FLAG_AUTORECOVER, WBEM_FLAG_CHECK_ONLY, WBEM_FLAG_CONSOLE_PRINT, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_DONT_ADD_TO_LIST, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, _hmm_imofcompiler_compilefile, wbemcli/IMofCompiler::CompileFile, wmi.imofcompiler_compilefile
-f1_keywords:
-- wbemcli/IMofCompiler.CompileFile
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Mofd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mofd.dll
-api_name:
-- IMofCompiler.CompileFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMofCompiler::CompileFile
+ - wbemcli/IMofCompiler::CompileFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mofd.dll
+api_name:
+ - IMofCompiler.CompileFile
 ---
 
 # IMofCompiler::CompileFile
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IMofCompiler::CompileFile</b> method compiles a MOF file (including 
     binary MOFs) and stores the information in the 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. 
-    This method performs the same operation as the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">Mofcomp</a> 
+    <a href="/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. 
+    This method performs the same operation as the <a href="/windows/desktop/WmiSdk/mofcomp">Mofcomp</a> 
     command.
 
-
 ## -parameters
-
-
-
 
 ### -param FileName [in]
 
 The name of the file to be compiled.
-
 
 ### -param ServerAndNamespace [in]
 
@@ -75,13 +71,11 @@ You can specify a namespace on a remote computer ("\\computer\root", for
        auto recovery is desired. If <b>NULL</b>, then the root\default namespace on the local 
        computer is the default.
 
-
 ### -param User [in]
 
 A value that specifies the credentials used to compile on remote computers. If the value is 
       <b>NULL</b>, the user context is whatever the calling process is using. This is always 
       ignored when connecting to the local computer. For more information, see the Remarks section.
-
 
 ### -param Authority [in]
 
@@ -89,11 +83,9 @@ A value that specifies the credentials for compiling on remote computers. If the
       <b>NULL</b>, the authority context is whatever the calling process is using. This is always 
       ignored when connecting to the local computer. For more information, see the Remarks section.
 
-
 ### -param Password [in]
 
 A value that specifies the credentials for compiling on remote computers. If the value is <b>NULL</b>, the password of the current context is used. This is always ignored when connecting to the local computer.
-
 
 ### -param lOptionFlags [in]
 
@@ -127,7 +119,6 @@ Sends various useful messages to the console.
 Prevents the file from being added to the list of files compiled during automatic database recovery.
 
 This flag is not compatible with <b>WBEM_FLAG_AUTORECOVER</b>.
-
 
 ### -param lClassFlags [in]
 
@@ -167,7 +158,6 @@ Updates and resolves conflicts wherever possible. Using force mode to update a s
 
 You may combine this flag with <i>llnstanceFlags</i>.
 
-
 ### -param lInstanceFlags [in]
 
 The flags that control the creation of instances.
@@ -186,55 +176,36 @@ Only allow updates.
 
 Allow only new instances.
 
-
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
 2
 
-Warning that <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/pragma-autorecover">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
-
-
-
+Warning that <a href="/windows/desktop/WmiSdk/pragma-autorecover">#pragma autorecover</a> statement is not present. This statement should be one the first line of the MOF file.
 
 ## -remarks
 
-
-
 If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <i>Authority</i> parameter must be <b>NULL</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>

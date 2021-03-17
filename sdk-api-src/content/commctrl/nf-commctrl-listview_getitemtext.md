@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetItemText
 title: ListView_GetItemText macro (commctrl.h)
 description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
+helpviewer_keywords: ["ListView_GetItemText","ListView_GetItemText macro [Windows Controls]","_win32_ListView_GetItemText","_win32_ListView_GetItemText_cpp","commctrl/ListView_GetItemText","controls.ListView_GetItemText","controls._win32_ListView_GetItemText"]
 old-location: controls\ListView_GetItemText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
-f1_keywords:
-- commctrl/ListView_GetItemText
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,102 +25,64 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetItemText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetItemText
+ - commctrl/ListView_GetItemText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetItemText
 ---
-
-# ListView_GetItemText macro
-
 
 ## -description
 
-
-Gets the text of a list-view item or subitem. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message explicitly.
-
+Gets the text of a list-view item or subitem. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getitemtext">LVM_GETITEMTEXT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param i
 
 Type: <b>int</b>
 
-The index of the list-view item. 
+The index of the list-view item.
 
-
-#### - iSubItem_
+### -param iSubItem_
 
 Type: <b>int</b>
 
 The index of the subitem. To retrieve the item text, set 
-					<i>iSubItem</i> to zero. 
+					<i>iSubItem</i> to zero.
 
+### -param pszText_
 
-#### - pszText_
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+A pointer to a buffer that receives the item or subitem text.
 
-A pointer to a buffer that receives the item or subitem text. 
-
-
-#### - cchTextMax_
+### -param cchTextMax_
 
 Type: <b>int</b>
 
 The number of characters in the 
 					<i>pszText</i> buffer.
-
-
-#### - cchTextMax
-
-Type: <b>int</b>
-
-The number of characters in the 
-					<i>pszText</i> buffer.
-
-
-#### - iSubItem
-
-Type: <b>int</b>
-
-The index of the subitem. To retrieve the item text, set 
-					<i>iSubItem</i> to zero. 
-
-
-#### - pszText
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
-
-A pointer to a buffer that receives the item or subitem text. 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>
- 
-
- 
-
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a>

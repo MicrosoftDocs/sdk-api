@@ -2,15 +2,12 @@
 UID: NF:dsadmin.IDsAdminNotifyHandler.Begin
 title: IDsAdminNotifyHandler::Begin (dsadmin.h)
 description: The IDsAdminNotifyHandler::Begin method is called when an event that the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when IDsAdminNotifyHandler::Initialize is called.
+helpviewer_keywords: ["Begin","Begin method [Active Directory]","Begin method [Active Directory]","IDsAdminNotifyHandler interface","DSA_NOTIFY_DEL","DSA_NOTIFY_FLAG_ADDITIONAL_DATA","DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA","DSA_NOTIFY_MOV","DSA_NOTIFY_PROP","DSA_NOTIFY_REN","IDsAdminNotifyHandler interface [Active Directory]","Begin method","IDsAdminNotifyHandler.Begin","IDsAdminNotifyHandler::Begin","_glines_idsadminnotifyhandler_begin","ad.idsadminnotifyhandler__begin","ad.idsadminnotifyhandler_begin","dsadmin/IDsAdminNotifyHandler::Begin"]
 old-location: ad\idsadminnotifyhandler_begin.htm
 tech.root: ad
 ms.assetid: 443fe344-6545-45bd-8e2f-85347505d407
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Active Directory], Begin method [Active Directory],IDsAdminNotifyHandler interface, DSA_NOTIFY_DEL, DSA_NOTIFY_FLAG_ADDITIONAL_DATA, DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Begin method, IDsAdminNotifyHandler.Begin, IDsAdminNotifyHandler::Begin, _glines_idsadminnotifyhandler_begin, ad.idsadminnotifyhandler__begin, ad.idsadminnotifyhandler_begin, dsadmin/IDsAdminNotifyHandler::Begin
-f1_keywords:
-- dsadmin/IDsAdminNotifyHandler.Begin
-dev_langs:
-- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DSAdmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DSAdmin.dll
-api_name:
-- IDsAdminNotifyHandler.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsAdminNotifyHandler::Begin
+ - dsadmin/IDsAdminNotifyHandler::Begin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DSAdmin.dll
+api_name:
+ - IDsAdminNotifyHandler.Begin
 ---
 
 # IDsAdminNotifyHandler::Begin
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDsAdminNotifyHandler::Begin</b> method is called when an event that  the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">IDsAdminNotifyHandler::Initialize</a> is called.
-
+The <b>IDsAdminNotifyHandler::Begin</b> method is called when an event that  the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">IDsAdminNotifyHandler::Initialize</a> is called.
 
 ## -parameters
-
-
-
 
 ### -param uEvent [in]
 
@@ -85,16 +82,13 @@ An object is moved to another container.
 
 One or more properties of an object is  modified.
 
-
 ### -param pArg1 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a> clipboard format. The contents of the data object will vary depending on  the value of <i>uEvent</i>. For more information, see the Remarks section.
-
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that supports the <a href="/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a> clipboard format. The contents of the data object will vary depending on  the value of <i>uEvent</i>. For more information, see the Remarks section.
 
 ### -param pArg2 [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a> clipboard format. The value of this parameter and the contents of the data object will vary depending on the value of <i>uEvent</i>. For more information, see the Remarks section.
-
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that supports the <a href="/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a> clipboard format. The value of this parameter and the contents of the data object will vary depending on the value of <i>uEvent</i>. For more information, see the Remarks section.
 
 ### -param puFlags [out]
 
@@ -112,25 +106,16 @@ If this flag is set, the entry for this notification handler in the confirmation
 
 If this flag is set, the entry  for this notification handler in the confirmation dialog box is disabled and the user cannot change the selection state.
 
-
 ### -param pBstr [out]
 
-Pointer to a <b>BSTR</b> that receives a string that contains  the name and/or description of the notification handler. This string  is displayed in the confirmation dialog box. This string must be allocated by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> function. The caller must free this string when it is no longer required. If this parameter receives <b>NULL</b> or an empty string, the notification handler is not added to the confirmation dialog box and <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">IDsAdminNotifyHandler::Notify</a> is not called.
-
+Pointer to a <b>BSTR</b> that receives a string that contains  the name and/or description of the notification handler. This string  is displayed in the confirmation dialog box. This string must be allocated by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> function. The caller must free this string when it is no longer required. If this parameter receives <b>NULL</b> or an empty string, the notification handler is not added to the confirmation dialog box and <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">IDsAdminNotifyHandler::Notify</a> is not called.
 
 ## -returns
-
-
 
 If the method succeeds, 
       <b>S_OK</b> is returned. If the method fails, a standard <b>HRESULT</b> value is returned.
 
-
-
-
 ## -remarks
-
-
 
 The value and contents of <i>pArg1</i> and <i>pArg2</i> vary depending upon the event processed as indicated by <i>uEvent</i>. The following list explains what <i>pArg1</i> and <i>pArg2</i> will contain for each different event type.
 
@@ -161,34 +146,23 @@ The value and contents of <i>pArg1</i> and <i>pArg2</i> vary depending upon the 
 <td>Not used. This will be <b>NULL</b>.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format">CFSTR_DSOBJECTNAMES</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">IDsAdminNotifyHandler::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-initialize">IDsAdminNotifyHandler::Initialize</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>

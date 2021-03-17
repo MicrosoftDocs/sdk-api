@@ -2,15 +2,12 @@
 UID: NF:msiquery.MsiRecordGetFieldCount
 title: MsiRecordGetFieldCount function (msiquery.h)
 description: Returns the number of fields in a record.
+helpviewer_keywords: ["MsiRecordGetFieldCount","MsiRecordGetFieldCount function","_msi_msirecordgetfieldcount","msiquery/MsiRecordGetFieldCount","setup.msirecordgetfieldcount"]
 old-location: setup\msirecordgetfieldcount.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msirecordgetfieldcount, msiquery/MsiRecordGetFieldCount, setup.msirecordgetfieldcount
-f1_keywords:
-- msiquery/MsiRecordGetFieldCount
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiRecordGetFieldCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiRecordGetFieldCount
+ - msiquery/MsiRecordGetFieldCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiRecordGetFieldCount
 ---
 
 # MsiRecordGetFieldCount function
@@ -49,47 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiRecordGetFieldCount</b> function returns the number of fields in a record.
 
-
 ## -parameters
-
-
-
 
 ### -param hRecord [in]
 
 Handle to a record.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of fields in the record.
 
-
-
-
 ## -remarks
-
-
 
 The count returned by the 
 <b>MsiRecordGetFieldCount</b> parameter does not include field 0. Read access to fields beyond this count returns null values. Write access fails.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Record Processing Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>

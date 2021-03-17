@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerPnrpStartup
 title: PeerPnrpStartup function (p2p.h)
 description: Starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.
+helpviewer_keywords: ["PeerPnrpStartup","PeerPnrpStartup function [Peer Networking]","p2p.peerpnrpstartup","p2p/PeerPnrpStartup"]
 old-location: p2p\peerpnrpstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup
-f1_keywords:
-- p2p/PeerPnrpStartup
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerPnrpStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerPnrpStartup
+ - p2p/PeerPnrpStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerPnrpStartup
 ---
 
 # PeerPnrpStartup function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerPnrpStartup</b> function starts the Peer Name Resolution Protocol (PNRP) service for the calling peer.
 
-
 ## -parameters
-
-
-
 
 ### -param wVersionRequested
 
 The version of PNRP to use for this service instance. The default value is PNRP_VERSION (2).
 
-
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -118,27 +112,11 @@ The Peer Collaboration infrastructure, which includes People Near Me, is not ava
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To shutdown the PNRP service for the calling peer and release all resources associated with it, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>.
-
-
-
+To shutdown the PNRP service for the calling peer and release all resources associated with it, call <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>

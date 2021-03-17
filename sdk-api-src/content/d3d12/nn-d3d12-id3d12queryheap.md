@@ -2,15 +2,12 @@
 UID: NN:d3d12.ID3D12QueryHeap
 title: ID3D12QueryHeap (d3d12.h)
 description: Manages a query heap. A query heap holds an array of queries, referenced by indexes.
+helpviewer_keywords: ["ID3D12QueryHeap","ID3D12QueryHeap interface","ID3D12QueryHeap interface","described","d3d12/ID3D12QueryHeap","direct3d12.id3d12queryheap"]
 old-location: direct3d12\id3d12queryheap.htm
 tech.root: direct3d12
 ms.assetid: 330DE59A-8098-4255-85DD-0C439DD48250
 ms.date: 12/05/2018
 ms.keywords: ID3D12QueryHeap, ID3D12QueryHeap interface, ID3D12QueryHeap interface,described, d3d12/ID3D12QueryHeap, direct3d12.id3d12queryheap
-f1_keywords:
-- d3d12/ID3D12QueryHeap
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12QueryHeap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12QueryHeap
+ - d3d12/ID3D12QueryHeap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12QueryHeap
 ---
 
 # ID3D12QueryHeap interface
@@ -48,20 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manages a query heap. A query heap holds an array of queries, referenced by indexes.
-
 
 ## -remarks
 
-
-
-For more information, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
+For more information, refer to <a href="/windows/desktop/direct3d12/queries">Queries</a>.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12QueryHeap</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12QueryHeap</b> as follows:
         
 
 Create a query heap and a query result buffer.
@@ -112,23 +110,14 @@ ThrowIfFailed(m_device->CreateQueryHeap(&queryHeapDesc, IID_PPV_ARGS(&m_queryHea
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>

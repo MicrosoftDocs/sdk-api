@@ -2,15 +2,12 @@
 UID: NF:fhcfg.IFhConfigMgr.AddRemoveExcludeRule
 title: IFhConfigMgr::AddRemoveExcludeRule (fhcfg.h)
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
+helpviewer_keywords: ["AddRemoveExcludeRule","AddRemoveExcludeRule method [Windows API]","AddRemoveExcludeRule method [Windows API]","FhConfigMgr class","AddRemoveExcludeRule method [Windows API]","IFhConfigMgr interface","FhConfigMgr class [Windows API]","AddRemoveExcludeRule method","IFhConfigMgr interface [Windows API]","AddRemoveExcludeRule method","IFhConfigMgr.AddRemoveExcludeRule","IFhConfigMgr::AddRemoveExcludeRule","fhcfg/IFhConfigMgr::AddRemoveExcludeRule","winprog.ifhconfigmgr_addremoveexcluderule"]
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.date: 12/05/2018
 ms.keywords: AddRemoveExcludeRule, AddRemoveExcludeRule method [Windows API], AddRemoveExcludeRule method [Windows API],FhConfigMgr class, AddRemoveExcludeRule method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],AddRemoveExcludeRule method, IFhConfigMgr interface [Windows API],AddRemoveExcludeRule method, IFhConfigMgr.AddRemoveExcludeRule, IFhConfigMgr::AddRemoveExcludeRule, fhcfg/IFhConfigMgr::AddRemoveExcludeRule, winprog.ifhconfigmgr_addremoveexcluderule
-f1_keywords:
-- fhcfg/IFhConfigMgr.AddRemoveExcludeRule
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr.AddRemoveExcludeRule
-- FhConfigMgr.AddRemoveExcludeRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr::AddRemoveExcludeRule
+ - fhcfg/IFhConfigMgr::AddRemoveExcludeRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr.AddRemoveExcludeRule
+ - FhConfigMgr.AddRemoveExcludeRule
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule
 
 
 ## -description
-
 
 Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 
@@ -57,37 +58,24 @@ Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 
 ## -parameters
 
-
-
-
 ### -param Add [in]
 
 If this parameter is <b>TRUE</b>, a new exclusion rule is added.
 If it is set to <b>FALSE</b>, an existing exclusion rule is removed.
 
-
 ### -param Category [in]
 
-Specifies the type of the exclusion rule. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
-
+Specifies the type of the exclusion rule. See the <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration for possible values.
 
 ### -param Item [in]
 
 The folder path or library name or GUID of the item that the exclusion rule applies to.
 
-
 ## -returns
-
-
 
 <b>S_OK</b> on success, or an unsuccessful <b>HRESULT</b> value on failure. Possible unsuccessful <b>HRESULT</b> values include values defined in the FhErrors.h header file.
 
-
-
-
 ## -remarks
-
-
 
 The File History protection scope is the set of files that are backed up by the File History feature.  It contains inclusion rules and exclusion rules. Inclusion rules specify the files and folders that are included. Exclusion rules specify the files and folders that are excluded.
 
@@ -99,34 +87,24 @@ To reduce the protection scope, use the <b>IFhConfigMgr::AddRemoveExcludeRule</b
 
 This method can be used to add or remove exclusion rules. It cannot be used to modify inclusion rules.
 
-User libraries can be enumerated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem">SHGetKnownFolderItem</a> function and the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> interfaces.
+User libraries can be enumerated by calling the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderitem">SHGetKnownFolderItem</a> function and the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumshellitems">IEnumShellItems</a> interfaces.
 
-Standard folders and libraries are specified by a GUID, prefixed with an asterisk. For example,  *a990ae9f-a03b-4e80-94bc-9912d7504104 specifies the Pictures library. For a list of standard folders and libraries and their GUIDs, see the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> documentation. 
+Standard folders and libraries are specified by a GUID, prefixed with an asterisk. For example,  *a990ae9f-a03b-4e80-94bc-9912d7504104 specifies the Pictures library. For a list of standard folders and libraries and their GUIDs, see the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> documentation. 
 
 Custom libraries are specified by name. Folders are specified by their full path (for example, C:\Users\Public\Videos).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>

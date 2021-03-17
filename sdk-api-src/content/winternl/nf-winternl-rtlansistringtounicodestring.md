@@ -2,15 +2,12 @@
 UID: NF:winternl.RtlAnsiStringToUnicodeString
 title: RtlAnsiStringToUnicodeString function (winternl.h)
 description: Converts the specified ANSI source string into a Unicode string.
+helpviewer_keywords: ["FALSE","RtlAnsiStringToUnicodeString","RtlAnsiStringToUnicodeString function [Windows API]","TRUE","winprog.rtlansistringtounicodestring","winternl/RtlAnsiStringToUnicodeString","winui.rtlansistringtounicodestring"]
 old-location: winprog\rtlansistringtounicodestring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlansistringtounicodestring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Windows API], TRUE, winprog.rtlansistringtounicodestring, winternl/RtlAnsiStringToUnicodeString, winui.rtlansistringtounicodestring
-f1_keywords:
-- winternl/RtlAnsiStringToUnicodeString
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlAnsiStringToUnicodeString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlAnsiStringToUnicodeString
+ - winternl/RtlAnsiStringToUnicodeString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlAnsiStringToUnicodeString
 ---
 
 # RtlAnsiStringToUnicodeString function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the specified ANSI source string into a
-    Unicode string. 
-
+    Unicode string.
 
 ## -parameters
 
-
-
-
 ### -param DestinationString [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string. 
-
+A pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.
 
 ### -param SourceString [in]
 
 A pointer to the <b>ANSI_STRING</b> structure that contains the ANSI string to be converted to Unicode.
-
 
 ### -param AllocateDestinationString [in]
 
@@ -76,7 +71,7 @@ Controls allocation of buffer space for the destination string.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeunicodestring">RtlFreeUnicodeString</a>.
 
 
 
@@ -84,10 +79,7 @@ Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, t
 
 Buffer space is not allocated for <i>DestinationString</i>.
 
-
 ## -returns
-
-
 
 The various NTSTATUS values are defined in NTSTATUS.H, which is distributed with the Windows DDK.
 
@@ -108,14 +100,8 @@ The ANSI string was converted to Unicode. On failure, the routine does not alloc
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The translation is done with respect to the
     current system locale information.
@@ -124,8 +110,4 @@ The translation is done with respect to the
 If caller sets <i>AllocateDestinationString</i> to <b>TRUE</b>, the routine replaces the <b>Buffer</b> member of <i>DestinationString</i> with a pointer to the buffer it allocates. The old value can be overwritten even when the routine returns an error status code.
 		
 
-Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-		
-
-
-
+Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

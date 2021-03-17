@@ -2,15 +2,12 @@
 UID: NF:bits2_0.IBackgroundCopyJob3.GetFileACLFlags
 title: IBackgroundCopyJob3::GetFileACLFlags (bits2_0.h)
 description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
+helpviewer_keywords: ["BG_COPY_FILE_ALL","BG_COPY_FILE_DACL","BG_COPY_FILE_GROUP","BG_COPY_FILE_OWNER","BG_COPY_FILE_SACL","GetFileACLFlags","GetFileACLFlags method [BITS]","GetFileACLFlags method [BITS]","IBackgroundCopyJob3 interface","IBackgroundCopyJob3 interface [BITS]","GetFileACLFlags method","IBackgroundCopyJob3.GetFileACLFlags","IBackgroundCopyJob3::GetFileACLFlags","bits.ibackgroundcopyjob3_getfileaclflags","bits2_0/IBackgroundCopyJob3::GetFileACLFlags"]
 old-location: bits\ibackgroundcopyjob3_getfileaclflags.htm
 tech.root: Bits
 ms.assetid: 569df1e5-d45a-4f18-82ad-1e4957f47d94
 ms.date: 12/05/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, GetFileACLFlags, GetFileACLFlags method [BITS], GetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],GetFileACLFlags method, IBackgroundCopyJob3.GetFileACLFlags, IBackgroundCopyJob3::GetFileACLFlags, bits.ibackgroundcopyjob3_getfileaclflags, bits2_0/IBackgroundCopyJob3::GetFileACLFlags
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3.GetFileACLFlags
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3.GetFileACLFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3::GetFileACLFlags
+ - bits2_0/IBackgroundCopyJob3::GetFileACLFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3.GetFileACLFlags
 ---
 
 # IBackgroundCopyJob3::GetFileACLFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [out]
 
@@ -119,12 +116,8 @@ If set, BITS copies the owner and ACL information. This is the same as setting a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -145,22 +138,11 @@ Successfully retrieved the flags.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">IBackgroundCopyJob3::SetFileACLFlags</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">IBackgroundCopyJob3::SetFileACLFlags</a>

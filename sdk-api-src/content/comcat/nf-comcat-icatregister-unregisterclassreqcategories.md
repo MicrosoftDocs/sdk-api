@@ -2,15 +2,12 @@
 UID: NF:comcat.ICatRegister.UnRegisterClassReqCategories
 title: ICatRegister::UnRegisterClassReqCategories (comcat.h)
 description: Removes one or more required category identifiers from a class.
+helpviewer_keywords: ["ICatRegister interface [COM]","UnRegisterClassReqCategories method","ICatRegister.UnRegisterClassReqCategories","ICatRegister::UnRegisterClassReqCategories","UnRegisterClassReqCategories","UnRegisterClassReqCategories method [COM]","UnRegisterClassReqCategories method [COM]","ICatRegister interface","_com_icatregister_unregisterclassreqcategories","com.icatregister_unregisterclassreqcategories","comcat/ICatRegister::UnRegisterClassReqCategories"]
 old-location: com\icatregister_unregisterclassreqcategories.htm
 tech.root: com
 ms.assetid: d957bc13-f5f7-4cb3-925e-4867ba9622cd
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassReqCategories method, ICatRegister.UnRegisterClassReqCategories, ICatRegister::UnRegisterClassReqCategories, UnRegisterClassReqCategories, UnRegisterClassReqCategories method [COM], UnRegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassreqcategories, com.icatregister_unregisterclassreqcategories, comcat/ICatRegister::UnRegisterClassReqCategories
-f1_keywords:
-- comcat/ICatRegister.UnRegisterClassReqCategories
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatRegister.UnRegisterClassReqCategories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatRegister::UnRegisterClassReqCategories
+ - comcat/ICatRegister::UnRegisterClassReqCategories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatRegister.UnRegisterClassReqCategories
 ---
 
 # ICatRegister::UnRegisterClassReqCategories
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes one or more required category identifiers from a class.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The class identifier.
 
-
 ### -param cCategories [in]
 
 The number of category CATIDs to be removed.
-
 
 ### -param rgcatid [in]
 
 An array of CATIDs that are to be removed. Only the category IDs specified in this array are removed.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -106,27 +98,11 @@ One or more arguments are incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In case of an error, this method does not ensure that the registry is restored to the state prior to the call. This method will be successful even if one or more of the category IDs specified are not registered for the class.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

@@ -2,15 +2,12 @@
 UID: NS:wlanapi._WLAN_RAW_DATA_LIST
 title: WLAN_RAW_DATA_LIST (wlanapi.h)
 description: Contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.
+helpviewer_keywords: ["*PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST","PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI]","WLAN_RAW_DATA_LIST","WLAN_RAW_DATA_LIST structure [NativeWIFI]","nwifi.dot11_psd_ie_data_list","wlanapi/PWLAN_RAW_DATA_LIST","wlanapi/WLAN_RAW_DATA_LIST"]
 old-location: nwifi\dot11_psd_ie_data_list.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e0e59abf-1a78-4c7f-b044-2d4c75328329
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST, PWLAN_RAW_DATA_LIST structure pointer [NativeWIFI], WLAN_RAW_DATA_LIST, WLAN_RAW_DATA_LIST structure [NativeWIFI], nwifi.dot11_psd_ie_data_list, wlanapi/PWLAN_RAW_DATA_LIST, wlanapi/WLAN_RAW_DATA_LIST'
-f1_keywords:
-- wlanapi/WLAN_RAW_DATA_LIST
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_RAW_DATA_LIST
 targetos: Windows
 req.typenames: WLAN_RAW_DATA_LIST, *PWLAN_RAW_DATA_LIST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_RAW_DATA_LIST
+ - wlanapi/_WLAN_RAW_DATA_LIST
+ - PWLAN_RAW_DATA_LIST
+ - wlanapi/PWLAN_RAW_DATA_LIST
+ - WLAN_RAW_DATA_LIST
+ - wlanapi/WLAN_RAW_DATA_LIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_RAW_DATA_LIST
 ---
 
 # WLAN_RAW_DATA_LIST structure
@@ -48,34 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_RAW_DATA_LIST</b> structure contains raw data in the form of an array of data blobs that are used by some Native Wifi functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwTotalSize
 
 The total size, in bytes, of the <b>WLAN_RAW_DATA_LIST</b> structure.
 
-
 ### -field dwNumberOfItems
 
 The number of raw data entries or blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The maximum value of the <b>dwNumberOfItems</b> may be restricted by the type of data that is stored in the <b>WLAN_RAW_DATA_LIST</b> structure.
 
-
 ### -field dwDataOffset
 
- 
-
-
 ### -field dwDataSize
-
- 
-
 
 ### -field DataList
 
@@ -91,12 +84,9 @@ The offset, in bytes, of the data blob from the beginning of current blob descri
 
 #### dwDataSize
 
-The size, in bytes, of the data blob. 
-
+The size, in bytes, of the data blob.
 
 ## -remarks
-
-
 
 The <b>WLAN_RAW_DATA_LIST</b> structure is used to encapsulate a list of data blobs into a flat memory block. It should be interpreted as a list of headers followed by data blobs.
 
@@ -162,7 +152,7 @@ The following is the memory layout of an example <b>WLAN_RAW_DATA_LIST</b> struc
 </table>
  
 
-The <b>WLAN_RAW_DATA_LIST</b> structure is currently used by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function to set the proximity service discovery (PSD) information element (IE) data list for an application. 
+The <b>WLAN_RAW_DATA_LIST</b> structure is currently used by the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function to set the proximity service discovery (PSD) information element (IE) data list for an application. 
 
 When used to store a PSD IE data list, the <b>DOT11_PSD_IE_MAX_ENTRY_NUMBER</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwNumberOfItems</b> member for the number of blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The <b>DOT11_PSD_IE_MAX_DATA_SIZE</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwDataSize</b> member for any blob.<table>
 <tr>
@@ -185,30 +175,20 @@ When used to store a PSD IE data list, the <b>DOT11_PSD_IE_MAX_ENTRY_NUMBER</b> 
 
 
 
-For more information about PSD IEs, including a discussion of the format of an IE, see <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>.
-
-
-
+For more information about PSD IEs, including a discussion of the format of an IE, see <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>

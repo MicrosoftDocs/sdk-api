@@ -2,16 +2,12 @@
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByIndex
 title: IWMRegisteredDevice::GetAttributeByIndex (wmsdkidl.h)
 description: The GetAttributeByIndex method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.
+helpviewer_keywords: ["GetAttributeByIndex","GetAttributeByIndex method [windows Media Format]","GetAttributeByIndex method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetAttributeByIndex method","IWMRegisteredDevice.GetAttributeByIndex","IWMRegisteredDevice::GetAttributeByIndex","IWMRegisteredDeviceGetAttributeByIndex","wmformat.iwmregistereddevice_getattributebyindex","wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex"]
 old-location: wmformat\iwmregistereddevice_getattributebyindex.htm
 tech.root: wmformat
 ms.assetid: 02a582d4-329e-47e3-9dbe-dba8a3e4b4b3
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
-ms.topic: method
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.GetAttributeByIndex
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.GetAttributeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::GetAttributeByIndex
+ - wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.GetAttributeByIndex
 ---
 
 # IWMRegisteredDevice::GetAttributeByIndex
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAttributeByIndex</b> method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributecount">GetAttributeCount</a>.
-
+Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributecount">GetAttributeCount</a>.
 
 ### -param pbstrName [out]
 
 Address of a variable that receives the attribute name.
 
-
 ### -param pbstrValue [out]
 
 Address of a variable that receives the attribute value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +88,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>

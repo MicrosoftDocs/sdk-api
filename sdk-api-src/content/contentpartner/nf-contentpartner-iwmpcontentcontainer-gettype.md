@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentContainer.GetType
 title: IWMPContentContainer::GetType (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetType method retrieves the type of the content container.
+helpviewer_keywords: ["GetType","GetType method [Windows Media Player]","GetType method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetType method","IWMPContentContainer.GetType","IWMPContentContainer::GetType","IWMPContentContainerGetType","contentpartner/IWMPContentContainer::GetType","wmp.iwmpcontentcontainer_gettype"]
 old-location: wmp\iwmpcontentcontainer_gettype.htm
 tech.root: WMP
 ms.assetid: 34c8ab5a-1f9f-4a71-9bf8-3b762d065da9
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Media Player], GetType method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetType method, IWMPContentContainer.GetType, IWMPContentContainer::GetType, IWMPContentContainerGetType, contentpartner/IWMPContentContainer::GetType, wmp.iwmpcontentcontainer_gettype
-f1_keywords:
-- contentpartner/IWMPContentContainer.GetType
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentContainer.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentContainer::GetType
+ - contentpartner/IWMPContentContainer::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentContainer.GetType
 ---
 
 # IWMPContentContainer::GetType
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetType</b> method retrieves the type of the content container.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrType [out]
 
@@ -86,12 +80,8 @@ Pointer to a <b>BSTR</b> that receives one of the following values.
 <td>The content container contains a set of individual tracks.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,18 +102,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>

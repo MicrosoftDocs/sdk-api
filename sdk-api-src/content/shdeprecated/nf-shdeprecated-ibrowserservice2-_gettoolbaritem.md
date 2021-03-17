@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService2._GetToolbarItem
 title: IBrowserService2::_GetToolbarItem (shdeprecated.h)
 description: Deprecated. Gets a specific item from a toolbar.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_GetToolbarItem method","IBrowserService2._GetToolbarItem","IBrowserService2::_GetToolbarItem","_GetToolbarItem","_GetToolbarItem method [Windows Shell]","_GetToolbarItem method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_GetToolbarItem","shell.IBrowserService2__GetToolbarItem","zone_IBrowserService2__GetToolbarItem"]
 old-location: shell\IBrowserService2__GetToolbarItem.htm
 tech.root: shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
-f1_keywords:
-- shdeprecated/IBrowserService2._GetToolbarItem
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._GetToolbarItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_GetToolbarItem
+ - shdeprecated/IBrowserService2::_GetToolbarItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._GetToolbarItem
 ---
 
 # IBrowserService2::_GetToolbarItem
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Gets a specific item from a toolbar.
 
-
 ## -parameters
-
-
-
 
 ### -param itb [in]
 
@@ -64,23 +61,12 @@ Type: <b>int</b>
 
 The index of the toolbar item to retrieve.
 
-
 ## -returns
-
-
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a [TOOLBARITEM](/windows/win32/api/shdeprecated/ns-shdeprecated-toolbaritem)a> structure that represents a toolbar item.
-
-
-
+A pointer to a [TOOLBARITEM](./ns-shdeprecated-toolbaritem.md) structure that represents a toolbar item.
 
 ## -remarks
 
-
-
 This method is implemented by the derived class.
-
-
-

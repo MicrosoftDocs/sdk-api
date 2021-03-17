@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_DRM.GetDRMPairingStatus
 title: IBDA_DRM::GetDRMPairingStatus (bdaiface.h)
 description: The GetDRMPairingStatus method queries the status of the DRM handshake.
+helpviewer_keywords: ["GetDRMPairingStatus","GetDRMPairingStatus method [Microsoft TV Technologies]","GetDRMPairingStatus method [Microsoft TV Technologies]","IBDA_DRM interface","IBDA_DRM interface [Microsoft TV Technologies]","GetDRMPairingStatus method","IBDA_DRM.GetDRMPairingStatus","IBDA_DRM::GetDRMPairingStatus","IBDA_DRMGetDRMPairingStatus","bdaiface/IBDA_DRM::GetDRMPairingStatus","mstv.ibda_drm_getdrmpairingstatus"]
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm
 tech.root: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
 ms.date: 12/05/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
-f1_keywords:
-- bdaiface/IBDA_DRM.GetDRMPairingStatus
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_DRM.GetDRMPairingStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_DRM::GetDRMPairingStatus
+ - bdaiface/IBDA_DRM::GetDRMPairingStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_DRM.GetDRMPairingStatus
 ---
 
 # IBDA_DRM::GetDRMPairingStatus
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDRMPairingStatus</b> method queries the status of the DRM handshake.
-
 
 ## -parameters
 
-
-
-
 ### -param pdwStatus [out]
 
-Receives a value from the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-bda_drmpairingerror">BDA_DrmPairingError</a> enumeration.
-
+Receives a value from the <a href="/windows/desktop/api/bdaiface/ne-bdaiface-bda_drmpairingerror">BDA_DrmPairingError</a> enumeration.
 
 ### -param phError [out]
 
 Receives an <b>HRESULT</b> value indicating the success or failure of the DRM handshake.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -101,18 +94,7 @@ The device does not support this functionality, or the handshake is still in pro
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_drm">IBDA_DRM Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_drm">IBDA_DRM Interface</a>

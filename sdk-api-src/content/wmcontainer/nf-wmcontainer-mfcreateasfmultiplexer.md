@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.MFCreateASFMultiplexer
 title: MFCreateASFMultiplexer function (wmcontainer.h)
 description: Creates the ASF Multiplexer.
+helpviewer_keywords: ["4c3ded7e-51ef-4141-98f2-48b318ba9453","MFCreateASFMultiplexer","MFCreateASFMultiplexer function [Media Foundation]","mf.mfcreateasfmultiplexer","wmcontainer/MFCreateASFMultiplexer"]
 old-location: mf\mfcreateasfmultiplexer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4c3ded7e-51ef-4141-98f2-48b318ba9453
 ms.date: 12/05/2018
 ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCreateASFMultiplexer function [Media Foundation], mf.mfcreateasfmultiplexer, wmcontainer/MFCreateASFMultiplexer
-f1_keywords:
-- wmcontainer/MFCreateASFMultiplexer
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateASFMultiplexer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateASFMultiplexer
+ - wmcontainer/MFCreateASFMultiplexer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateASFMultiplexer
 ---
 
 # MFCreateASFMultiplexer function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates the ASF Multiplexer.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppIMultiplexer
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

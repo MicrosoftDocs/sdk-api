@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionArrival
 title: IMbnConnectionManagerEvents::OnConnectionArrival (mbnapi.h)
 description: Notification method that indicates a new connection was added to the system.
+helpviewer_keywords: ["IMbnConnectionManagerEvents interface [Microsoft Broadband Networks]","OnConnectionArrival method","IMbnConnectionManagerEvents.OnConnectionArrival","IMbnConnectionManagerEvents::OnConnectionArrival","OnConnectionArrival","OnConnectionArrival method [Microsoft Broadband Networks]","OnConnectionArrival method [Microsoft Broadband Networks]","IMbnConnectionManagerEvents interface","mbn.imbnconnectionmanagerevents_onconnectionarrival","mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival"]
 old-location: mbn\imbnconnectionmanagerevents_onconnectionarrival.htm
 tech.root: mbn
 ms.assetid: 88e48ce0-b2eb-431e-be0f-03b1d22ca61b
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionManagerEvents interface [Microsoft Broadband Networks],OnConnectionArrival method, IMbnConnectionManagerEvents.OnConnectionArrival, IMbnConnectionManagerEvents::OnConnectionArrival, OnConnectionArrival, OnConnectionArrival method [Microsoft Broadband Networks], OnConnectionArrival method [Microsoft Broadband Networks],IMbnConnectionManagerEvents interface, mbn.imbnconnectionmanagerevents_onconnectionarrival, mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
-f1_keywords:
-- mbnapi/IMbnConnectionManagerEvents.OnConnectionArrival
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionManagerEvents.OnConnectionArrival
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionManagerEvents::OnConnectionArrival
+ - mbnapi/IMbnConnectionManagerEvents::OnConnectionArrival
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionManagerEvents.OnConnectionArrival
 ---
 
 # IMbnConnectionManagerEvents::OnConnectionArrival
@@ -53,33 +55,16 @@ ms.custom: 19H1
 
 Notification method that indicates a new connection was added to the system.
 
-
 ## -parameters
-
-
-
 
 ### -param newConnection [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device added to the system.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device added to the system.
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a>

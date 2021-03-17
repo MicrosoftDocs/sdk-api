@@ -2,15 +2,12 @@
 UID: NS:lmshare._SHARE_INFO_1005
 title: SHARE_INFO_1005 (lmshare.h)
 description: Contains information about the shared resource.
+helpviewer_keywords: ["*LPSHARE_INFO_1005","*PSHARE_INFO_1005","CSC_MASK","CSC_MASK_EXT","LPSHARE_INFO_1005","LPSHARE_INFO_1005 structure pointer [Files]","PSHARE_INFO_1005","PSHARE_INFO_1005 structure pointer [Files]","SHARE_INFO_1005","SHARE_INFO_1005 structure [Files]","SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM","SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING","SHI1005_FLAGS_DFS","SHI1005_FLAGS_DFS_ROOT","SHI1005_FLAGS_ENABLE_CA","SHI1005_FLAGS_ENABLE_HASH","SHI1005_FLAGS_FORCE_LEVELII_OPLOCK","SHI1005_FLAGS_FORCE_SHARED_DELETE","SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS","_win32_share_info_1005_str","fs.share_info_1005_str","lmshare/LPSHARE_INFO_1005","lmshare/PSHARE_INFO_1005","lmshare/SHARE_INFO_1005","netmgmt.share_info_1005_str"]
 old-location: fs\share_info_1005_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 9fb3e0ae-76b5-4432-80dd-f3361738aa7c
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_1005, *PSHARE_INFO_1005, CSC_MASK, CSC_MASK_EXT, LPSHARE_INFO_1005, LPSHARE_INFO_1005 structure pointer [Files], PSHARE_INFO_1005, PSHARE_INFO_1005 structure pointer [Files], SHARE_INFO_1005, SHARE_INFO_1005 structure [Files], SHI1005_FLAGS_ACCESS_BASED_DIRECTORY_ENUM, SHI1005_FLAGS_ALLOW_NAMESPACE_CACHING, SHI1005_FLAGS_DFS, SHI1005_FLAGS_DFS_ROOT, SHI1005_FLAGS_ENABLE_CA, SHI1005_FLAGS_ENABLE_HASH, SHI1005_FLAGS_FORCE_LEVELII_OPLOCK, SHI1005_FLAGS_FORCE_SHARED_DELETE, SHI1005_FLAGS_RESTRICT_EXCLUSIVE_OPENS, _win32_share_info_1005_str, fs.share_info_1005_str, lmshare/LPSHARE_INFO_1005, lmshare/PSHARE_INFO_1005, lmshare/SHARE_INFO_1005, netmgmt.share_info_1005_str'
-f1_keywords:
-- lmshare/SHARE_INFO_1005
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_1005
 targetos: Windows
 req.typenames: SHARE_INFO_1005, *PSHARE_INFO_1005, *LPSHARE_INFO_1005
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_1005
+ - lmshare/_SHARE_INFO_1005
+ - PSHARE_INFO_1005
+ - lmshare/PSHARE_INFO_1005
+ - SHARE_INFO_1005
+ - lmshare/SHARE_INFO_1005
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_1005
 ---
 
 # SHARE_INFO_1005 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the shared resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field shi1005_flags
 
@@ -74,7 +75,7 @@ A bitmask of flags that specify information about the shared resource.
 </td>
 <td width="60%">
 The specified share is present in a Dfs tree structure. This flag cannot be set with 
-        <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
+        <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
 
 </td>
 </tr>
@@ -86,7 +87,7 @@ The specified share is present in a Dfs tree structure. This flag cannot be set 
 </td>
 <td width="60%">
 The specified share is the root volume in a Dfs tree structure. This flag cannot be set with 
-        <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
+        <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>.
 
 </td>
 </tr>
@@ -133,9 +134,9 @@ Clients are allowed to cache the namespace of the specified share.
 The server will filter directory entries based on the access permissions that the user on the  client computer has for the server on which the files reside. 
         Only files for which the user has read access and directories for which the user has FILE_LIST_DIRECTORY access will be returned. If the user has SeBackupPrivilege, all available information will be returned.
 
-For more information about file and directory access, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+For more information about file and directory access, see <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-For more information about SeBackupPrivilege, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
+For more information about SeBackupPrivilege, see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 <div class="alert"><b>Note</b>  This flag is supported only on servers running Windows Server 2003 with SP1 or later.</div>
 <div> </div>
@@ -269,42 +270,28 @@ Enables server-side functionality needed for peer caching support.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 This structure can be retrieved by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function. It can be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function.
-
-
-
+    <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function. It can be set by calling the <a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:lmmsg.NetMessageNameAdd
 title: NetMessageNameAdd function (lmmsg.h)
 description: The NetMessageNameAdd function registers a message alias in the message name table. The function requires that the messenger service be started.
+helpviewer_keywords: ["NetMessageNameAdd","NetMessageNameAdd function [Network Management]","_win32_netmessagenameadd","lmmsg/NetMessageNameAdd","netmgmt.netmessagenameadd"]
 old-location: netmgmt\netmessagenameadd.htm
 tech.root: NetMgmt
 ms.assetid: 5330e883-5439-46af-b4ae-b0926feadb70
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameAdd, NetMessageNameAdd function [Network Management], _win32_netmessagenameadd, lmmsg/NetMessageNameAdd, netmgmt.netmessagenameadd
-f1_keywords:
-- lmmsg/NetMessageNameAdd
-dev_langs:
-- c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetMessageNameAdd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetMessageNameAdd
+ - lmmsg/NetMessageNameAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetMessageNameAdd
 ---
 
 # NetMessageNameAdd function
@@ -48,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is not supported as of Windows Vista because the messenger service is not supported.]
 
 The
 				<b>NetMessageNameAdd</b> function registers a message alias in the message name table. The function requires that the messenger service be started.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
-
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 ### -param msgname [in]
 
 Pointer to a constant string that specifies the message alias to add. The string cannot be more than 15 characters long.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -166,14 +155,8 @@ The maximum number of message aliases has been exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only members of the Administrators local group can successfully execute the 
 <b>NetMessageNameAdd</b> function on a remote server.
@@ -181,31 +164,21 @@ Only members of the Administrators local group can successfully execute the
 The forward action flag is no longer a parameter to the LAN Manager 2.<i>x</i><b>NetMessageNameAdd</b> function because message forwarding is no longer supported. If the 
 <b>NetMessageNameAdd</b> function detects that a forwarded version of <i>msgname</i> exists on the network, the function will fail with error NERR_Already_Exists.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
+<a href="/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamedel">NetMessageNameDel</a>
+<a href="/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamedel">NetMessageNameDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
-

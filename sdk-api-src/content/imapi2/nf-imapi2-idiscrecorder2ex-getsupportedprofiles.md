@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedProfiles
 title: IDiscRecorder2Ex::GetSupportedProfiles (imapi2.h)
 description: Retrieves the supported profiles or the current profiles of the device.
+helpviewer_keywords: ["GetSupportedProfiles","GetSupportedProfiles method [IMAPI]","GetSupportedProfiles method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetSupportedProfiles method","IDiscRecorder2Ex.GetSupportedProfiles","IDiscRecorder2Ex::GetSupportedProfiles","imapi.idiscrecorder2ex_getsupportedprofiles","imapi2/IDiscRecorder2Ex::GetSupportedProfiles"]
 old-location: imapi\idiscrecorder2ex_getsupportedprofiles.htm
 tech.root: imapi
 ms.assetid: 1295d536-8531-4470-a8b4-1e589736e0b1
 ms.date: 12/05/2018
 ms.keywords: GetSupportedProfiles, GetSupportedProfiles method [IMAPI], GetSupportedProfiles method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedProfiles method, IDiscRecorder2Ex.GetSupportedProfiles, IDiscRecorder2Ex::GetSupportedProfiles, imapi.idiscrecorder2ex_getsupportedprofiles, imapi2/IDiscRecorder2Ex::GetSupportedProfiles
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetSupportedProfiles
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetSupportedProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetSupportedProfiles
+ - imapi2/IDiscRecorder2Ex::GetSupportedProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetSupportedProfiles
 ---
 
 # IDiscRecorder2Ex::GetSupportedProfiles
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the supported profiles or the current profiles of the device. 
-
+Retrieves the supported profiles or the current profiles of the device.
 
 ## -parameters
-
-
-
 
 ### -param currentOnly [in]
 
 Set to True to retrieve the current profiles. Otherwise, False to return all supported profiles of the device.
 
-
 ### -param profileTypes [out]
 
-Data buffer that contains one or more profile types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type. 
+Data buffer that contains one or more profile types. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration type. 
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param validProfiles [out]
 
-Number of supported profiles in the <i>profileTypes</i> data buffer. 
-
+Number of supported profiles in the <i>profileTypes</i> data buffer.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -385,30 +377,19 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">IDiscRecorder2::get_CurrentProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentprofiles">IDiscRecorder2::get_CurrentProfiles</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a>

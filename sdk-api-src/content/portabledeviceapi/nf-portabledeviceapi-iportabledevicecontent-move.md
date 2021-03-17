@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceContent.Move
 title: IPortableDeviceContent::Move (portabledeviceapi.h)
 description: The Move method moves one or more objects from one location on the device to another.
+helpviewer_keywords: ["IPortableDeviceContent interface [Windows Portable Devices SDK]","Move method","IPortableDeviceContent.Move","IPortableDeviceContent::Move","IPortableDeviceContentMove","Move","Move method [Windows Portable Devices SDK]","Move method [Windows Portable Devices SDK]","IPortableDeviceContent interface","portabledeviceapi/IPortableDeviceContent::Move","wpdsdk.iportabledevicecontent_move"]
 old-location: wpdsdk\iportabledevicecontent_move.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
-f1_keywords:
-- portabledeviceapi/IPortableDeviceContent.Move
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceContent.Move
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceContent::Move
+ - portabledeviceapi/IPortableDeviceContent::Move
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceContent.Move
 ---
 
 # IPortableDeviceContent::Move
@@ -49,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Move</b> method moves one or more objects from one location on the device to another.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param pObjectIDs [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
-          
-
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds one or more null-terminated strings (type VT_LPWSTR) specifying the object IDs of the objects to be moved.
 
 ### -param pszDestinationFolderObjectID [in]
 
 Pointer to a null-terminated string that specifies the ID of the destination.
-          
-
 
 ### -param ppResults [in, out]
 
 Optional. On return, this parameter contains a collection of VT_ERROR values indicating the success or failure of the operation. The first element returned in <i>ppResults</i> corresponds to the first object in the <i>pObjectIDs</i> collection, the second element returned in <i>ppResults</i> corresponds to the second object in the <i>pObjectIDs</i> collection, and so on. This parameter can be <b>NULL</b> if the application is not concerned with the results.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table. If any error value is returned, no objects were deleted on the device.
           
@@ -134,14 +122,8 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the specified device supports move operations on a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
       
@@ -149,23 +131,14 @@ If the specified device supports move operations on a functional storage, the <i
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/moving-content-on-the-device">Moving Content on the Device</a>

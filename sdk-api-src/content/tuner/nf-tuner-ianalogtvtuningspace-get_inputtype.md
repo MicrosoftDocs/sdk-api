@@ -2,15 +2,12 @@
 UID: NF:tuner.IAnalogTVTuningSpace.get_InputType
 title: IAnalogTVTuningSpace::get_InputType (tuner.h)
 description: The get_InputType method gets the input type (antenna or cable) intended for the tuning space.
+helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","get_InputType method","IAnalogTVTuningSpace.get_InputType","IAnalogTVTuningSpace::get_InputType","IAnalogTVTuningSpaceget_InputType","get_InputType","get_InputType method [Microsoft TV Technologies]","get_InputType method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","mstv.ianalogtvtuningspace_get_inputtype","tuner/IAnalogTVTuningSpace::get_InputType"]
 old-location: mstv\ianalogtvtuningspace_get_inputtype.htm
 tech.root: mstv
 ms.assetid: c016a61b-6b4f-4101-a357-38b8be754a57
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_InputType method, IAnalogTVTuningSpace.get_InputType, IAnalogTVTuningSpace::get_InputType, IAnalogTVTuningSpaceget_InputType, get_InputType, get_InputType method [Microsoft TV Technologies], get_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_inputtype, tuner/IAnalogTVTuningSpace::get_InputType
-f1_keywords:
-- tuner/IAnalogTVTuningSpace.get_InputType
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IAnalogTVTuningSpace.get_InputType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAnalogTVTuningSpace::get_InputType
+ - tuner/IAnalogTVTuningSpace::get_InputType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IAnalogTVTuningSpace.get_InputType
 ---
 
 # IAnalogTVTuningSpace::get_InputType
@@ -48,39 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_InputType</b> method gets the input type (antenna or cable) intended for the tuning space.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param InputTypeVal [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> that receives the input type.
-
+Pointer to a variable of type <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-tunerinputtype">TunerInputType</a> that receives the input type.
 
 ## -returns
 
-
-
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>

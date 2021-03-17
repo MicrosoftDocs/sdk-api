@@ -2,15 +2,12 @@
 UID: NF:winuser.GetAncestor
 title: GetAncestor function (winuser.h)
 description: Retrieves the handle to the ancestor of the specified window.
+helpviewer_keywords: ["GA_PARENT","GA_ROOT","GA_ROOTOWNER","GetAncestor","GetAncestor function [Windows and Messages]","_win32_GetAncestor","_win32_getancestor_cpp","winmsg.getancestor","winui._win32_getancestor","winuser/GetAncestor"]
 old-location: winmsg\getancestor.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getancestor.htm
 ms.date: 12/05/2018
 ms.keywords: GA_PARENT, GA_ROOT, GA_ROOTOWNER, GetAncestor, GetAncestor function [Windows and Messages], _win32_GetAncestor, _win32_getancestor_cpp, winmsg.getancestor, winui._win32_getancestor, winuser/GetAncestor
-f1_keywords:
-- winuser/GetAncestor
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- GetAncestor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAncestor
+ - winuser/GetAncestor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - GetAncestor
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetAncestor function
@@ -57,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the handle to the ancestor of the specified window. 
-
+Retrieves the handle to the ancestor of the specified window.
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window whose ancestor is to be retrieved. If this parameter is the desktop window, the function returns <b>NULL</b>. 
-
+A handle to the window whose ancestor is to be retrieved. If this parameter is the desktop window, the function returns <b>NULL</b>.
 
 ### -param gaFlags [in]
 
@@ -91,7 +88,7 @@ The ancestor to be retrieved. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent window. This does not include the owner, as it does with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function. 
+Retrieves the parent window. This does not include the owner, as it does with the <a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function. 
 
 </td>
 </tr>
@@ -113,36 +110,25 @@ Retrieves the root window by walking the chain of parent windows.
 </dl>
 </td>
 <td width="60%">
-Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>. 
+Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>. 
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is the handle to the ancestor window.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -150,8 +136,4 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

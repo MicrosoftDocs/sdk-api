@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.AddressOfMember
 title: ITypeInfo::AddressOfMember (oaidl.h)
 description: Retrieves the addresses of static functions or variables, such as those defined in a DLL.
+helpviewer_keywords: ["AddressOfMember","AddressOfMember method [Automation]","AddressOfMember method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","AddressOfMember method","ITypeInfo.AddressOfMember","ITypeInfo::AddressOfMember","_oa96_ITypeInfo_AddressOfMember","automat.itypeinfo_addressofmember","oaidl/ITypeInfo::AddressOfMember"]
 old-location: automat\itypeinfo_addressofmember.htm
 tech.root: automat
 ms.assetid: cf351457-13ff-4e40-9d92-89c6db42627c
 ms.date: 12/05/2018
 ms.keywords: AddressOfMember, AddressOfMember method [Automation], AddressOfMember method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],AddressOfMember method, ITypeInfo.AddressOfMember, ITypeInfo::AddressOfMember, _oa96_ITypeInfo_AddressOfMember, automat.itypeinfo_addressofmember, oaidl/ITypeInfo::AddressOfMember
-f1_keywords:
-- oaidl/ITypeInfo.AddressOfMember
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.AddressOfMember
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::AddressOfMember
+ - oaidl/ITypeInfo::AddressOfMember
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.AddressOfMember
 ---
 
 # ITypeInfo::AddressOfMember
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the addresses of static functions or variables, such as those defined in a DLL.
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The member ID of the static member whose address is to be retrieved. The member ID is defined by the DISPID.
 
-
-
-
 ### -param invKind [in]
 
 Indicates whether the member is a property, and if so, what kind.
-
-
-
 
 ### -param ppv [out]
 
 The static member.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,30 +112,13 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The addresses are valid until the caller releases its reference to the type description. The <i>invKind</i> parameter can be ignored unless the address of a property function is being requested.
 
 If the type description inherits from another type description, this function is recursive to the base type description, if necessary, to find the item with the requested member ID.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

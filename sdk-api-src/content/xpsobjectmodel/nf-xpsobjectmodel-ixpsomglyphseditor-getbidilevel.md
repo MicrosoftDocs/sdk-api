@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetBidiLevel
 title: IXpsOMGlyphsEditor::GetBidiLevel (xpsobjectmodel.h)
 description: Gets the bidirectional text level of the parent IXpsOMGlyphs interface.
+helpviewer_keywords: ["GetBidiLevel","GetBidiLevel method [XPS Documents and Packaging]","GetBidiLevel method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetBidiLevel method","IXpsOMGlyphsEditor.GetBidiLevel","IXpsOMGlyphsEditor::GetBidiLevel","xps.ixpsomglyphseditor_getbidilevel","xpsobjectmodel/IXpsOMGlyphsEditor::GetBidiLevel"]
 old-location: xps\ixpsomglyphseditor_getbidilevel.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 86021e6e-5a91-44f5-814d-602705b97fb2
 ms.date: 12/05/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphsEditor.GetBidiLevel, IXpsOMGlyphsEditor::GetBidiLevel, xps.ixpsomglyphseditor_getbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::GetBidiLevel
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphsEditor.GetBidiLevel
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphsEditor.GetBidiLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphsEditor::GetBidiLevel
+ - xpsobjectmodel/IXpsOMGlyphsEditor::GetBidiLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphsEditor.GetBidiLevel
 ---
 
 # IXpsOMGlyphsEditor::GetBidiLevel
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the bidirectional text level  of the parent  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interface.
-
+Gets the bidirectional text level  of the parent  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param bidiLevel [out, retval]
 
@@ -63,12 +60,9 @@ The bidirectional text level.
 
 Range: 0–61
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -98,37 +92,21 @@ bidiLevel is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>BidiLevel</b> property specifies the bidirectional nesting level of the Unicode algorithm. Even values imply the left-to-right layout and odd values the right-to-left layout. Right-to-left layout places the run origin at the right side of the first glyph.  Advance widths that are positive will move to the left, allowing subsequent glyphs to be placed to the left of the previous glyph.
 
 The range of allowed values for this property is  between 0 and  61, inclusive, and the default value is 0.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

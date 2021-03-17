@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPreprocess.EndPreprocessingPass
 title: IWMWriterPreprocess::EndPreprocessingPass (wmsdkidl.h)
 description: The EndPreprocessingPass method ends a preprocessing pass started with a call to IWMWriterPreprocess::BeginPreprocessingPass.
+helpviewer_keywords: ["EndPreprocessingPass","EndPreprocessingPass method [windows Media Format]","EndPreprocessingPass method [windows Media Format]","IWMWriterPreprocess interface","IWMWriterPreprocess interface [windows Media Format]","EndPreprocessingPass method","IWMWriterPreprocess.EndPreprocessingPass","IWMWriterPreprocess::EndPreprocessingPass","IWMWriterPreprocessEndPreprocessingPass","wmformat.iwmwriterpreprocess_endpreprocessingpass","wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass"]
 old-location: wmformat\iwmwriterpreprocess_endpreprocessingpass.htm
 tech.root: wmformat
 ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
 ms.date: 12/05/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
-f1_keywords:
-- wmsdkidl/IWMWriterPreprocess.EndPreprocessingPass
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPreprocess.EndPreprocessingPass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPreprocess::EndPreprocessingPass
+ - wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPreprocess.EndPreprocessingPass
 ---
 
 # IWMWriterPreprocess::EndPreprocessingPass
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">IWMWriterPreprocess::BeginPreprocessingPass</a>.
-
-
-
+The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">IWMWriterPreprocess::BeginPreprocessingPass</a>.
 
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number for which you want to halt preprocessing.
 
-
 ### -param dwFlags [in]
 
 Reserved. Set to zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,18 +123,7 @@ There was an error ending the preprocessing path.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

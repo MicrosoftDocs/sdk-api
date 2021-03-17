@@ -2,15 +2,12 @@
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.FindProxyForURLEx2
 title: IWMSInternalAdminNetSource3::FindProxyForURLEx2 (wmsinternaladminnetsource.h)
 description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.
+helpviewer_keywords: ["FindProxyForURLEx2","FindProxyForURLEx2 method [windows Media Format]","FindProxyForURLEx2 method [windows Media Format]","IWMSInternalAdminNetSource3 interface","IWMSInternalAdminNetSource3 interface [windows Media Format]","FindProxyForURLEx2 method","IWMSInternalAdminNetSource3.FindProxyForURLEx2","IWMSInternalAdminNetSource3::FindProxyForURLEx2","IWMSInternalAdminNetSource3FindProxyForURLEx2","wmformat.iwmsinternaladminnetsource3_findproxyforurlex2","wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2"]
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
 tech.root: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056
 ms.date: 12/05/2018
 ms.keywords: FindProxyForURLEx2, FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],FindProxyForURLEx2 method, IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource3.FindProxyForURLEx2
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSInternalAdminNetSource3.FindProxyForURLEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource3::FindProxyForURLEx2
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSInternalAdminNetSource3.FindProxyForURLEx2
 ---
 
 # IWMSInternalAdminNetSource3::FindProxyForURLEx2
@@ -51,47 +53,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>FindProxyForURLEx2</b> method finds a proxy server name and port to use for the user.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrProtocol [in]
 
 String containing the protocol for which to find the proxy server. Typically, this is either "http" or "mms".
 
-
 ### -param bstrHost [in]
 
 String containing the DNS name, or IP address, of the server with which you want to communicate. Depending upon the server, the proxy might be different.
-
 
 ### -param bstrUrl [in]
 
 String containing the full URL of the site to which you want to connect.
 
-
 ### -param pfProxyEnabled [out]
 
 Pointer to a Boolean value that is set to True if the user has enabled a proxy that applies to the specified protocol, host, and site.
-
 
 ### -param pbstrProxyServer [out]
 
 Pointer to a string containing the proxy server DNS name.
 
-
 ### -param pdwProxyPort [out]
 
 Pointer to a <b>DWORD</b> containing the proxy port number.
-
 
 ### -param pqwProxyContext [in, out]
 
@@ -99,10 +87,7 @@ Pointer to a <b>DWORD</b> containing the proxy port number.
 
 This method has internal algorithms that determine how it looks for proxy servers. You can override this and make it find the proxy server set by the client's Web browser, by setting the context to 3.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -134,18 +119,7 @@ When calling this method multiple times to find all proxies configured, this val
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource3">IWMSInternalAdminNetSource3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource3">IWMSInternalAdminNetSource3 Interface</a>

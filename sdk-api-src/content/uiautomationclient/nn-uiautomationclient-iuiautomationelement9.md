@@ -2,15 +2,12 @@
 UID: NN:uiautomationclient.IUIAutomationElement9
 title: IUIAutomationElement9 (uiautomationclient.h)
 description: Extends the IUIAutomationElement8 interface.
+helpviewer_keywords: ["IUIAutomationElement9","IUIAutomationElement9 interface [Windows Accessibility]","IUIAutomationElement9 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement9","winauto.uiauto_IUIAutomationElement9"]
 old-location: winauto\uiauto_IUIAutomationElement9.htm
 tech.root: WinAuto
 ms.assetid: 
 ms.date: 04/29/2019
 ms.keywords: IUIAutomationElement9, IUIAutomationElement9 interface [Windows Accessibility], IUIAutomationElement9 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement9, winauto.uiauto_IUIAutomationElement9
-f1_keywords:
-- uiautomationclient/IUIAutomationElement9
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationElement9
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement9
+ - uiautomationclient/IUIAutomationElement9
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationElement9
 ---
 
 # IUIAutomationElement9 interface
+
 
 ## -description
 
@@ -53,4 +56,4 @@ ms.custom: 19H1
 
 [IUIAutomationElement8](nn-uiautomationclient-iuiautomationelement8.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

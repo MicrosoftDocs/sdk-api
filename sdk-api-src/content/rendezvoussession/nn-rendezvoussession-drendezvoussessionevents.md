@@ -2,15 +2,12 @@
 UID: NN:rendezvoussession.DRendezvousSessionEvents
 title: DRendezvousSessionEvents (rendezvoussession.h)
 description: Handles events that are generated or received by a IRendezvousSession object.
+helpviewer_keywords: ["DRendezvousSessionEvents","DRendezvousSessionEvents interface [Remote Assistance]","DRendezvousSessionEvents interface [Remote Assistance]","described","remoteassist.remoteassist_DRendezvousSessionEvents","remoteassist_DRendezvousSessionEvents","rendezvoussession/DRendezvousSessionEvents"]
 old-location: remoteassist\remoteassist_DRendezvousSessionEvents.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\events\drendezvoussessionevents\drendezvoussessionevents.htm
 ms.date: 12/05/2018
 ms.keywords: DRendezvousSessionEvents, DRendezvousSessionEvents interface [Remote Assistance], DRendezvousSessionEvents interface [Remote Assistance],described, remoteassist.remoteassist_DRendezvousSessionEvents, remoteassist_DRendezvousSessionEvents, rendezvoussession/DRendezvousSessionEvents
-f1_keywords:
-- rendezvoussession/DRendezvousSessionEvents
-dev_langs:
-- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RendezvousSession.tlb
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RendezvousSession.tlb
-api_name:
-- DRendezvousSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DRendezvousSessionEvents
+ - rendezvoussession/DRendezvousSessionEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RendezvousSession.tlb
+api_name:
+ - DRendezvousSessionEvents
 ---
 
 # DRendezvousSessionEvents interface
@@ -48,6 +50,4 @@ ms.custom: 19H1
 
 ## -description
 
-
-Handles events that are generated or received by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> object.
-
+Handles events that are generated or received by a <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> object.

@@ -2,15 +2,12 @@
 UID: NF:tuner.IATSCChannelTuneRequest.get_MinorChannel
 title: IATSCChannelTuneRequest::get_MinorChannel (tuner.h)
 description: The get_MinorChannel method gets the current minor channel.
+helpviewer_keywords: ["IATSCChannelTuneRequest interface [Microsoft TV Technologies]","get_MinorChannel method","IATSCChannelTuneRequest.get_MinorChannel","IATSCChannelTuneRequest::get_MinorChannel","IATSCChannelTuneRequestget_MinorChannel","get_MinorChannel","get_MinorChannel method [Microsoft TV Technologies]","get_MinorChannel method [Microsoft TV Technologies]","IATSCChannelTuneRequest interface","mstv.iatscchanneltunerequest_get_minorchannel","tuner/IATSCChannelTuneRequest::get_MinorChannel"]
 old-location: mstv\iatscchanneltunerequest_get_minorchannel.htm
 tech.root: mstv
 ms.assetid: 2b8aa006-faba-472b-836b-0ff1ae134232
 ms.date: 12/05/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],get_MinorChannel method, IATSCChannelTuneRequest.get_MinorChannel, IATSCChannelTuneRequest::get_MinorChannel, IATSCChannelTuneRequestget_MinorChannel, get_MinorChannel, get_MinorChannel method [Microsoft TV Technologies], get_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, mstv.iatscchanneltunerequest_get_minorchannel, tuner/IATSCChannelTuneRequest::get_MinorChannel
-f1_keywords:
-- tuner/IATSCChannelTuneRequest.get_MinorChannel
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IATSCChannelTuneRequest.get_MinorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSCChannelTuneRequest::get_MinorChannel
+ - tuner/IATSCChannelTuneRequest::get_MinorChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IATSCChannelTuneRequest.get_MinorChannel
 ---
 
 # IATSCChannelTuneRequest::get_MinorChannel
@@ -48,39 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_MinorChannel</b> method gets the current minor channel.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param MinorChannel [out]
 
 Receives the current minor channel. If the value received is -1, the tuner should tune to the first valid minor channel it finds.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatscchanneltunerequest">IATSCChannelTuneRequest Interface</a>

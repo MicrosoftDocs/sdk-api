@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignature
 title: IWSDSignatureProperty::GetSignature (wsdbase.h)
 description: Gets the signature of a message.
+helpviewer_keywords: ["GetSignature","GetSignature method","GetSignature method","IWSDSignatureProperty interface","IWSDSignatureProperty interface","GetSignature method","IWSDSignatureProperty.GetSignature","IWSDSignatureProperty::GetSignature","ncd.iwsdsignatureproperty_getsignature","wsdbase/IWSDSignatureProperty::GetSignature"]
 old-location: ncd\iwsdsignatureproperty_getsignature.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
-f1_keywords:
-- wsdbase/IWSDSignatureProperty.GetSignature
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDSignatureProperty.GetSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDSignatureProperty::GetSignature
+ - wsdbase/IWSDSignatureProperty::GetSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDSignatureProperty.GetSignature
 ---
 
 # IWSDSignatureProperty::GetSignature
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the signature of a message.
-
 
 ## -parameters
 
-
-
-
 ### -param pbSignature [out]
 
-A pointer to a buffer that will be filled with the signature  of the message. 
-
+A pointer to a buffer that will be filled with the signature  of the message.
 
 ### -param pdwSignatureSize [in, out]
 
-On input, the size of <i>pbSignature</i> in bytes. On output, <i>pdwSignatureSize</i> contains the actual size of the buffer that was written. 
-
+On input, the size of <i>pbSignature</i> in bytes. On output, <i>pdwSignatureSize</i> contains the actual size of the buffer that was written.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -112,27 +105,11 @@ The message is not signed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <b>NULL</b> is passed to <i>pbSignature</i>, then <b>GetSignature</b> will return the size of the buffer to allocate in the <i>pdwSignatureSize</i> parameter.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>

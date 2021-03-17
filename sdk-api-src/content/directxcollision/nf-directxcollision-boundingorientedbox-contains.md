@@ -2,12 +2,10 @@
 UID: NF:directxcollision.BoundingOrientedBox.Contains
 title: BoundingOrientedBox::Contains
 description: Tests whether the BoundingOrientedBox contains a specified point.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingOrientedBox::Contains"]
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Contains
-f1_keywords:
-- directxcollision/BoundingOrientedBox::Contains
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,17 +26,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingOrientedBox::Contains
+ - directxcollision/BoundingOrientedBox::Contains
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingOrientedBox::Contains
+ - BoundingOrientedBox::Contains
 ---
 
 # BoundingOrientedBox.Contains(XMVECTOR) method
+
 
 ## -description
 
@@ -64,3 +68,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingOrientedBox](ns-directxcollision-boundingorientedbox.md)
+

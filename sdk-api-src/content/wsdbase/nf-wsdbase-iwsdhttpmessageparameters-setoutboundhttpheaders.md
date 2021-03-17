@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetOutboundHttpHeaders
 title: IWSDHttpMessageParameters::SetOutboundHttpHeaders (wsdbase.h)
 description: Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetOutboundHttpHeaders method","IWSDHttpMessageParameters.SetOutboundHttpHeaders","IWSDHttpMessageParameters::SetOutboundHttpHeaders","SetOutboundHttpHeaders","SetOutboundHttpHeaders method","SetOutboundHttpHeaders method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setoutboundhttpheaders","wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders"]
 old-location: ncd\iwsdhttpmessageparameters_setoutboundhttpheaders.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: f54f86dc-4b25-4faa-8a37-b241e9ba8c6c
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetOutboundHttpHeaders method, IWSDHttpMessageParameters.SetOutboundHttpHeaders, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.SetOutboundHttpHeaders
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.SetOutboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::SetOutboundHttpHeaders
+ - wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.SetOutboundHttpHeaders
 ---
 
 # IWSDHttpMessageParameters::SetOutboundHttpHeaders
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 
-
 ## -parameters
-
-
-
 
 ### -param pszHeaders [in]
 
 The HTTP headers to be set.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,18 +101,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

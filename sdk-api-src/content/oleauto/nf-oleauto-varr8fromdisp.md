@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarR8FromDisp
 title: VarR8FromDisp function (oleauto.h)
 description: Converts the default property of an IDispatch instance to a double value.
+helpviewer_keywords: ["VarR8FromDisp","VarR8FromDisp function [Automation]","_oa96_VarR8FromDisp","automat.varr8fromdisp","oleauto/VarR8FromDisp"]
 old-location: automat\varr8fromdisp.htm
 tech.root: automat
 ms.assetid: d342ef5a-eb5f-431a-9ea2-f6361836c92e
 ms.date: 12/05/2018
 ms.keywords: VarR8FromDisp, VarR8FromDisp function [Automation], _oa96_VarR8FromDisp, automat.varr8fromdisp, oleauto/VarR8FromDisp
-f1_keywords:
-- oleauto/VarR8FromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarR8FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarR8FromDisp
+ - oleauto/VarR8FromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarR8FromDisp
 ---
 
 # VarR8FromDisp function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a double value.
-
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a double value.
 
 ## -parameters
-
-
-
 
 ### -param pdispIn
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param pdblOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -152,7 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

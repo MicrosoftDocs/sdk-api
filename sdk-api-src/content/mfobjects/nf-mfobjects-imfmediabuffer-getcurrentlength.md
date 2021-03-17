@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaBuffer.GetCurrentLength
 title: IMFMediaBuffer::GetCurrentLength (mfobjects.h)
 description: Retrieves the length of the valid data in the buffer.
+helpviewer_keywords: ["772e3e6c-0616-41f6-a681-d76da97d85fb","GetCurrentLength","GetCurrentLength method [Media Foundation]","GetCurrentLength method [Media Foundation]","IMFMediaBuffer interface","IMFMediaBuffer interface [Media Foundation]","GetCurrentLength method","IMFMediaBuffer.GetCurrentLength","IMFMediaBuffer::GetCurrentLength","mf.imfmediabuffer_getcurrentlength","mfobjects/IMFMediaBuffer::GetCurrentLength"]
 old-location: mf\imfmediabuffer_getcurrentlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 772e3e6c-0616-41f6-a681-d76da97d85fb
 ms.date: 12/05/2018
 ms.keywords: 772e3e6c-0616-41f6-a681-d76da97d85fb, GetCurrentLength, GetCurrentLength method [Media Foundation], GetCurrentLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetCurrentLength method, IMFMediaBuffer.GetCurrentLength, IMFMediaBuffer::GetCurrentLength, mf.imfmediabuffer_getcurrentlength, mfobjects/IMFMediaBuffer::GetCurrentLength
-f1_keywords:
-- mfobjects/IMFMediaBuffer.GetCurrentLength
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaBuffer.GetCurrentLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaBuffer::GetCurrentLength
+ - mfobjects/IMFMediaBuffer::GetCurrentLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaBuffer.GetCurrentLength
 ---
 
 # IMFMediaBuffer::GetCurrentLength
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the length of the valid data in the buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcbCurrentLength [out]
 
 Receives the length of the valid data, in bytes. If the buffer does not contain any valid data, the value is zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -105,19 +90,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

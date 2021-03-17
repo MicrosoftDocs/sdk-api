@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoProgressDialog.SetImage
 title: IPhotoProgressDialog::SetImage (photoacquire.h)
 description: Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetImage method","IPhotoProgressDialog.SetImage","IPhotoProgressDialog::SetImage","IPhotoProgressDialogSetImage","PROGRESS_DIALOG_BITMAP_THUMBNAIL","PROGRESS_DIALOG_ICON_LARGE","PROGRESS_DIALOG_ICON_SMALL","PROGRESS_DIALOG_ICON_THUMBNAIL","SetImage","SetImage method [Picture Acquisition]","SetImage method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetImage","picacq.iphotoprogressdialog_setimage"]
 old-location: picacq\iphotoprogressdialog_setimage.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 45b795c4-4f95-4132-86a7-cda47e534e9c
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetImage method, IPhotoProgressDialog.SetImage, IPhotoProgressDialog::SetImage, IPhotoProgressDialogSetImage, PROGRESS_DIALOG_BITMAP_THUMBNAIL, PROGRESS_DIALOG_ICON_LARGE, PROGRESS_DIALOG_ICON_SMALL, PROGRESS_DIALOG_ICON_THUMBNAIL, SetImage, SetImage method [Picture Acquisition], SetImage method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetImage, picacq.iphotoprogressdialog_setimage
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.SetImage
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.SetImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::SetImage
+ - photoacquire/IPhotoProgressDialog::SetImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.SetImage
 ---
 
 # IPhotoProgressDialog::SetImage
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets either the thumbnail image displayed in the progress dialog box, the icon in the title bar of the progress dialog box, or the icon in ALT+TAB key combination windows.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nImageType [in]
 
@@ -113,22 +107,16 @@ A bitmap thumbnail (up to 128 x 128 pixels, although it will be scaled to fit if
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hIcon [in]
 
 Handle to an icon object.
 
-
 ### -param hBitmap [in]
 
 Handle to a bitmap object representing the thumbnail image.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -149,18 +137,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>

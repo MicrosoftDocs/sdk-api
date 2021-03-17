@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr.AssociateFocus
 title: ITfThreadMgr::AssociateFocus (msctf.h)
 description: ITfThreadMgr::AssociateFocus method
+helpviewer_keywords: ["AssociateFocus","AssociateFocus method [Text Services Framework]","AssociateFocus method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","AssociateFocus method","ITfThreadMgr.AssociateFocus","ITfThreadMgr::AssociateFocus","_tsf_itfthreadmgr_associatefocus_ref","msctf/ITfThreadMgr::AssociateFocus","tsf.itfthreadmgr_associatefocus"]
 old-location: tsf\itfthreadmgr_associatefocus.htm
 tech.root: TSF
 ms.assetid: e2e0ef4e-5254-42c3-aebf-9d46cdee7e67
 ms.date: 12/05/2018
 ms.keywords: AssociateFocus, AssociateFocus method [Text Services Framework], AssociateFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],AssociateFocus method, ITfThreadMgr.AssociateFocus, ITfThreadMgr::AssociateFocus, _tsf_itfthreadmgr_associatefocus_ref, msctf/ITfThreadMgr::AssociateFocus, tsf.itfthreadmgr_associatefocus
-f1_keywords:
-- msctf/ITfThreadMgr.AssociateFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.AssociateFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::AssociateFocus
+ - msctf/ITfThreadMgr::AssociateFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.AssociateFocus
 ---
 
 # ITfThreadMgr::AssociateFocus
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Associates the focus for a window with a document manager object.
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Handle of the window to associate the focus with.
 
-
 ### -param pdimNew [in]
 
 Pointer to the document manager to associate the focus with. The TSF manager does not increment the object reference count. This value can be <b>NULL</b>.
-
 
 ### -param ppdimPrev [out]
 
 Receives the document manager previously associated with the window. Receives <b>NULL</b> if there is no previous association. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,16 +98,10 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is provided as a convenience to the application developer. Associating the focus for a window with a document manager causes the TSF manager to automatically call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus</a> with the associated document manager when the associated window receives the focus.
+This method is provided as a convenience to the application developer. Associating the focus for a window with a document manager causes the TSF manager to automatically call <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus</a> with the associated document manager when the associated window receives the focus.
 
 This method can only associate a single window with a single document manager. If the implementation associates multiple document managers with a single window, or the opposite, the implementation must call <b>ITfThreadMgr::SetFocus</b> to set the focus to the proper document manager.
 
@@ -145,27 +132,16 @@ if(m_pPrevDocMgr)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
- 
-
- 
-

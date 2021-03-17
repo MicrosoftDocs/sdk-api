@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetDescriptorHeaps
 title: ID3D12GraphicsCommandList::SetDescriptorHeaps (d3d12.h)
 description: Changes the currently bound descriptor heaps that are associated with a command list.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetDescriptorHeaps method","ID3D12GraphicsCommandList.SetDescriptorHeaps","ID3D12GraphicsCommandList::SetDescriptorHeaps","SetDescriptorHeaps","SetDescriptorHeaps method","SetDescriptorHeaps method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps","direct3d12.id3d12graphicscommandlist_setdescriptorheaps"]
 old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 tech.root: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetDescriptorHeaps method, ID3D12GraphicsCommandList.SetDescriptorHeaps, ID3D12GraphicsCommandList::SetDescriptorHeaps, SetDescriptorHeaps, SetDescriptorHeaps method, SetDescriptorHeaps method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps, direct3d12.id3d12graphicscommandlist_setdescriptorheaps
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.SetDescriptorHeaps
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,74 +25,59 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.SetDescriptorHeaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::SetDescriptorHeaps
+ - d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.SetDescriptorHeaps
 ---
-
-# ID3D12GraphicsCommandList::SetDescriptorHeaps
-
 
 ## -description
 
-
 Changes the currently bound descriptor heaps that are associated with a command list.
-        
-
 
 ## -parameters
 
+### -param NumDescriptorHeaps
 
-
-
-### -param NumDescriptorHeaps [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: [in] <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of descriptor heaps to bind.
-          
 
+### -param ppDescriptorHeaps
 
-### -param ppDescriptorHeaps [in]
+Type: [in] <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>*</b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>*</b>
+A pointer to an array of <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> objects for the heaps to set on the command list.
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a> objects for the heaps to set on the command list.
-            
+You can only bind descriptor heaps of type [**D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps) and [**D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps).
 
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
+Only one descriptor heap of each type can be set at one time, which means a maximum of 2 heaps (one sampler, one CBV/SRV/UAV) can be set at one time.
 
 ## -remarks
 
+<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="/windows/desktop/direct3d12/recording-command-lists-and-bundles">Creating and Recording Command Lists and Bundles</a>.
 
+All previously set heaps are unset by the call. At most one heap of each shader-visible type can be set in the call.
 
-<b>SetDescriptorHeaps</b> can be called on a bundle, but the bundle descriptor heaps must match the calling command list descriptor heap. For more information on bundle restrictions, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/recording-command-lists-and-bundles">Creating and Recording Command Lists and Bundles</a>.
+Changing descriptor heaps can incur a pipeline flush on some hardware. Because of this, it is recommended to use a single shader-visible heap of each type, and set it once per frame, rather than regularly changing the bound descriptor heaps. Instead, use [**ID3D12Device::CopyDescriptors**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptors) and [**ID3D12Device::CopyDescriptorsSimple**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple) to copy the required descriptors from shader-opaque heaps to the single shader-visible heap as required during rendering.
 
+## Examples
 
-#### Examples
-
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::SetDescriptorHeaps</b> as follows:
-        
-
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::SetDescriptorHeaps</b> as follows:
 
 ```cpp
 void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
@@ -148,28 +130,12 @@ void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 
     ThrowIfFailed(m_commandList->Close());
 }
-
 ```
 
-
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
-        
-
-<div class="code"></div>
-
-
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

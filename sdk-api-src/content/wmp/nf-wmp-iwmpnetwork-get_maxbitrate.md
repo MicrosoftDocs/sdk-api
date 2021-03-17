@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_maxBitRate
 title: IWMPNetwork::get_maxBitRate (wmp.h)
 description: The get_maxBitRate method retrieves the maximum possible video bit rate.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_maxBitRate method","IWMPNetwork.get_maxBitRate","IWMPNetwork::get_maxBitRate","IWMPNetworkget_maxBitRate","get_maxBitRate","get_maxBitRate method [Windows Media Player]","get_maxBitRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_maxbitrate","wmp/IWMPNetwork::get_maxBitRate"]
 old-location: wmp\iwmpnetwork_get_maxbitrate.htm
 tech.root: WMP
 ms.assetid: 42917ca3-07d3-4d32-a2f3-5f0ef9d387d7
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_maxBitRate method, IWMPNetwork.get_maxBitRate, IWMPNetwork::get_maxBitRate, IWMPNetworkget_maxBitRate, get_maxBitRate, get_maxBitRate method [Windows Media Player], get_maxBitRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_maxbitrate, wmp/IWMPNetwork::get_maxBitRate
-f1_keywords:
-- wmp/IWMPNetwork.get_maxBitRate
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_maxBitRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_maxBitRate
+ - wmp/IWMPNetwork::get_maxBitRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_maxBitRate
 ---
 
 # IWMPNetwork::get_maxBitRate
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_maxBitRate</b> method retrieves the maximum possible video bit rate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plBitRate [out]
 
 Pointer to a <b>long</b> containing the bit rate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

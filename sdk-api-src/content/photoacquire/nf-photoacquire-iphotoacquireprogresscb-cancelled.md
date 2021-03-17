@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireProgressCB.Cancelled
 title: IPhotoAcquireProgressCB::Cancelled (photoacquire.h)
 description: The Cancelled method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the Cancelled method.
+helpviewer_keywords: ["Cancelled","Cancelled method [Picture Acquisition]","Cancelled method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","Cancelled method","IPhotoAcquireProgressCB.Cancelled","IPhotoAcquireProgressCB::Cancelled","IPhotoAcquireProgressCBCancelled","photoacquire/IPhotoAcquireProgressCB::Cancelled","picacq.iphotoacquireprogresscb_cancelled"]
 old-location: picacq\iphotoacquireprogresscb_cancelled.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 7a37934c-dc0b-433e-99cf-6c26341e582c
 ms.date: 12/05/2018
 ms.keywords: Cancelled, Cancelled method [Picture Acquisition], Cancelled method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],Cancelled method, IPhotoAcquireProgressCB.Cancelled, IPhotoAcquireProgressCB::Cancelled, IPhotoAcquireProgressCBCancelled, photoacquire/IPhotoAcquireProgressCB::Cancelled, picacq.iphotoacquireprogresscb_cancelled
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB.Cancelled
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireProgressCB.Cancelled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB::Cancelled
+ - photoacquire/IPhotoAcquireProgressCB::Cancelled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireProgressCB.Cancelled
 ---
 
 # IPhotoAcquireProgressCB::Cancelled
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Cancelled</code> method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the <code>Cancelled</code> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfCancelled [out]
 
 Pointer to a flag that, when set to <b>TRUE</b>, indicates that the operation was canceled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values. Any failing HRESULT other than E_NOTIMPL is fatal and will cause the transfer to abort.
 
@@ -100,18 +91,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

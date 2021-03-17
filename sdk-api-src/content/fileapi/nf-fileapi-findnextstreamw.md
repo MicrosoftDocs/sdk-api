@@ -2,15 +2,12 @@
 UID: NF:fileapi.FindNextStreamW
 title: FindNextStreamW function (fileapi.h)
 description: Continues a stream search started by a previous call to the FindFirstStreamW function.
+helpviewer_keywords: ["FindNextStreamW","FindNextStreamW function [Files]","_win32_findnextstreamw","base.findnextstreamw","fileapi/FindNextStreamW","fs.findnextstreamw"]
 old-location: fs\findnextstreamw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e
 ms.date: 12/05/2018
 ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnextstreamw, base.findnextstreamw, fileapi/FindNextStreamW, fs.findnextstreamw
-f1_keywords:
-- fileapi/FindNextStreamW
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- FindNextStreamW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextStreamW
+ - fileapi/FindNextStreamW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - FindNextStreamW
 ---
 
 # FindNextStreamW function
@@ -51,46 +53,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Continues a stream search started by a previous call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
-
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFindStream [in]
 
 The search handle returned by a previous call to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
-
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
 
 ### -param lpFindStreamData [out]
 
 A pointer to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure that 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure that 
       receives information about the stream.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no  more streams can be found, 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no  more streams can be found, 
        <b>GetLastError</b> returns 
        <b>ERROR_HANDLE_EOF</b> (38).
 
-
-
-
 ## -remarks
-
-
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -150,26 +138,15 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>

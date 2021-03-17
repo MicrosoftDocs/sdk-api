@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr.EnumFunctionProviders
 title: ITfThreadMgr::EnumFunctionProviders (msctf.h)
 description: ITfThreadMgr::EnumFunctionProviders method
+helpviewer_keywords: ["EnumFunctionProviders","EnumFunctionProviders method [Text Services Framework]","EnumFunctionProviders method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","EnumFunctionProviders method","ITfThreadMgr.EnumFunctionProviders","ITfThreadMgr::EnumFunctionProviders","_tsf_itfthreadmgr_enumfunctionproviders_ref","msctf/ITfThreadMgr::EnumFunctionProviders","tsf.itfthreadmgr_enumfunctionproviders"]
 old-location: tsf\itfthreadmgr_enumfunctionproviders.htm
 tech.root: TSF
 ms.assetid: 6581cd4d-75ad-4a2c-a919-8e2eed6b3939
 ms.date: 12/05/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
-f1_keywords:
-- msctf/ITfThreadMgr.EnumFunctionProviders
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.EnumFunctionProviders
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::EnumFunctionProviders
+ - msctf/ITfThreadMgr::EnumFunctionProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.EnumFunctionProviders
 ---
 
 # ITfThreadMgr::EnumFunctionProviders
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator for all of the function providers registered for the calling thread.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders</a> interface that receives the function provider enumerator.
-
+Address of a <a href="/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders</a> interface that receives the function provider enumerator.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,44 +112,28 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The enumerator only contains the registered function providers. The enumerator will not contain the predefined function providers as described in <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a>.
 
-
-The enumerator only contains the registered function providers. The enumerator will not contain the predefined function providers as described in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider</a>.
-
-A function provider registers itself by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
-
-
-
+A function provider registers itself by calling the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getfunctionprovider">ITfThreadMgr::GetFunctionProvider
       </a>
- 
-
- 
-

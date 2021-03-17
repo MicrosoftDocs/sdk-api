@@ -2,15 +2,12 @@
 UID: NF:iads.IDirectoryObject.CreateDSObject
 title: IDirectoryObject::CreateDSObject (iads.h)
 description: Creates a child of the current directory service object.
+helpviewer_keywords: ["CreateDSObject","CreateDSObject method [ADSI]","CreateDSObject method [ADSI]","IDirectoryObject interface","IDirectoryObject interface [ADSI]","CreateDSObject method","IDirectoryObject.CreateDSObject","IDirectoryObject::CreateDSObject","_ds_idirectoryobject_createdsobject","adsi.idirectoryobject__createdsobject","adsi.idirectoryobject_createdsobject","iads/IDirectoryObject::CreateDSObject"]
 old-location: adsi\idirectoryobject_createdsobject.htm
 tech.root: adsi
 ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
 ms.date: 12/05/2018
 ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
-f1_keywords:
-- iads/IDirectoryObject.CreateDSObject
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IDirectoryObject.CreateDSObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectoryObject::CreateDSObject
+ - iads/IDirectoryObject::CreateDSObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IDirectoryObject.CreateDSObject
 ---
 
 # IDirectoryObject::CreateDSObject
@@ -48,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectoryObject::CreateDSObject</b> method creates a child of the current directory service object.
 
-
 ## -parameters
-
-
-
 
 ### -param pszRDNName [in]
 
 Provides the relative distinguished name (relative path) of the object to be created.
 
-
 ### -param pAttributeEntries [in]
 
-An array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain attribute definitions to be set when the object is created.
-
+An array of  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structures that contain attribute definitions to be set when the object is created.
 
 ### -param dwNumAttributes [in]
 
 Provides a number of attributes set when the object is created.
 
-
 ### -param ppObject [out]
 
-Provides a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the created object.
-
+Provides a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the created object.
 
 ## -returns
 
-
-
-This method returns the standard return values, including S_OK for a successful operation. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method returns the standard return values, including S_OK for a successful operation. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 Specify all attributes to be initialized on creation in the <i>pAttributeEntries</i> array. You may also specify optional attributes. When creating a directory object with this method, attributes with any of the string data types cannot be empty or zero-length.
 
@@ -146,25 +132,14 @@ if ( SUCCEEDED(hr) )
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

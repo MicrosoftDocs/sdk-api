@@ -2,15 +2,12 @@
 UID: NF:certview.ICertView2.SetTable
 title: ICertView2::SetTable (certview.h)
 description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
+helpviewer_keywords: ["CCertView object [Security]","SetTable method","CVRC_TABLE_ATTRIBUTES","CVRC_TABLE_CRL","CVRC_TABLE_EXTENSIONS","CVRC_TABLE_REQCERT","ICertView interface [Security]","SetTable method","ICertView2 interface [Security]","SetTable method","ICertView2.SetTable","ICertView2::SetTable","ICertView::SetTable","SetTable","SetTable method [Security]","SetTable method [Security]","CCertView object","SetTable method [Security]","ICertView interface","SetTable method [Security]","ICertView2 interface","_certsrv_icertview2_settable","certview/ICertView2::SetTable","certview/ICertView::SetTable","security.icertview2_settable"]
 old-location: security\icertview2_settable.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetTable method, CVRC_TABLE_ATTRIBUTES, CVRC_TABLE_CRL, CVRC_TABLE_EXTENSIONS, CVRC_TABLE_REQCERT, ICertView interface [Security],SetTable method, ICertView2 interface [Security],SetTable method, ICertView2.SetTable, ICertView2::SetTable, ICertView::SetTable, SetTable, SetTable method [Security], SetTable method [Security],CCertView object, SetTable method [Security],ICertView interface, SetTable method [Security],ICertView2 interface, _certsrv_icertview2_settable, certview/ICertView2::SetTable, certview/ICertView::SetTable, security.icertview2_settable
-f1_keywords:
-- certview/ICertView2.SetTable
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2.SetTable
-- ICertView.SetTable
-- CCertView.SetTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView2::SetTable
+ - certview/ICertView2::SetTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2.SetTable
+ - ICertView.SetTable
+ - CCertView.SetTable
 ---
 
 # ICertView2::SetTable
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface.
-
+The <b>SetTable</b> method  specifies which Certificate Services database table is used for subsequent calls to  the methods of the <a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param Table [in]
 
@@ -79,7 +76,7 @@ Specifies the Certificate Services database table to use for subsequent calls. T
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> table is used for subsequent calls.
+The <a href="/windows/desktop/SecGloss/a-gly">attributes</a> table is used for subsequent calls.
 
 </td>
 </tr>
@@ -89,7 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribut
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) table is used for subsequent calls.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) table is used for subsequent calls.
 
 </td>
 </tr>
@@ -114,27 +111,18 @@ The table of pending requests, denied requests, issued certificates, and revoked
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
 Before calling the <b>SetTable</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first. After the <b>OpenConnection</b> and <b>SetTable</b> calls are made, subsequent calls to the <a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a> interface methods will use the Certificate Services database table specified by the <b>SetTable</b> method.
 
 If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_REQCERT is used.
 
@@ -153,7 +141,3 @@ if (FAILED(hr))
     exit(1);  // Or other error action.
 }
 ```
-
-
-
-

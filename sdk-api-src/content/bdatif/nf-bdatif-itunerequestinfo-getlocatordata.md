@@ -2,15 +2,12 @@
 UID: NF:bdatif.ITuneRequestInfo.GetLocatorData
 title: ITuneRequestInfo::GetLocatorData (bdatif.h)
 description: The GetLocatorData method fills in channel or program locator information for the specified tune request.
+helpviewer_keywords: ["GetLocatorData","GetLocatorData method [Microsoft TV Technologies]","GetLocatorData method [Microsoft TV Technologies]","ITuneRequestInfo interface","ITuneRequestInfo interface [Microsoft TV Technologies]","GetLocatorData method","ITuneRequestInfo.GetLocatorData","ITuneRequestInfo::GetLocatorData","ITuneRequestInfoGetLocatorData","bdatif/ITuneRequestInfo::GetLocatorData","mstv.itunerequestinfo_getlocatordata"]
 old-location: mstv\itunerequestinfo_getlocatordata.htm
 tech.root: mstv
 ms.assetid: c325d61d-c99b-4033-bd16-36b74fc38d07
 ms.date: 12/05/2018
 ms.keywords: GetLocatorData, GetLocatorData method [Microsoft TV Technologies], GetLocatorData method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetLocatorData method, ITuneRequestInfo.GetLocatorData, ITuneRequestInfo::GetLocatorData, ITuneRequestInfoGetLocatorData, bdatif/ITuneRequestInfo::GetLocatorData, mstv.itunerequestinfo_getlocatordata
-f1_keywords:
-- bdatif/ITuneRequestInfo.GetLocatorData
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdatif.h
-api_name:
-- ITuneRequestInfo.GetLocatorData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuneRequestInfo::GetLocatorData
+ - bdatif/ITuneRequestInfo::GetLocatorData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdatif.h
+api_name:
+ - ITuneRequestInfo.GetLocatorData
 ---
 
 # ITuneRequestInfo::GetLocatorData
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLocatorData</b> method fills in channel or program locator information for the specified tune request.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Request [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface on the tune request.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface on the tune request.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -110,31 +101,15 @@ The method succeeded but no new locator data was acquired.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After the TIF fills in the locator information, the Network Provider uses that information to configure the tuner and demodulator. It is expected that the TIF will always know everything about a locator. If it doesn't know how to locate a specific tune request, it can always fall back to the default locator for the tuning space. As soon as the TIF starts getting tables from the default stream, it signals the Network Provider, which then asks for the new locator data. When the TIF fills that in, it signals the Network Provider, which tunes again using the new information. When the TIF begins getting tables on the new stream, it signals the Network Provider again, and the process is repeated.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>

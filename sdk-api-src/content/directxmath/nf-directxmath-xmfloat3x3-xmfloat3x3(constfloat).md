@@ -1,16 +1,13 @@
 ---
-UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(const float)
+UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(constfloat)
 title: XMFLOAT3X3::XMFLOAT3X3(const float) (directxmath.h)
 description: Initializes a new instance of the XMFLOAT3X3 structure from a nine element float array.
+helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 structure","XMFLOAT3X3 structure [DirectX Math Support APIs]","XMFLOAT3X3 constructor","XMFLOAT3X3.XMFLOAT3X3","XMFLOAT3X3.XMFLOAT3X3(const float)","XMFLOAT3X3.XMFLOAT3X3(const float*)","XMFLOAT3X3::XMFLOAT3X3","XMFLOAT3X3::XMFLOAT3X3(const float)","dxmath.xmfloat3x3_ctor_3"]
 old-location: dxmath\xmfloat3x3_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(const float)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(const float), XMFLOAT3X3.XMFLOAT3X3(const float*), XMFLOAT3X3::XMFLOAT3X3, XMFLOAT3X3::XMFLOAT3X3(const float), dxmath.xmfloat3x3_ctor_3
-f1_keywords:
-- directxmath/XMFLOAT3X3.XMFLOAT3X3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT3X3.XMFLOAT3X3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3X3::XMFLOAT3X3
+ - directxmath/XMFLOAT3X3::XMFLOAT3X3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT3X3.XMFLOAT3X3
 ---
 
 # XMFLOAT3X3::XMFLOAT3X3(const float)
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new instance of the <code>XMFLOAT3X3</code> structure from a nine element
 	<code>float</code> array.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from a nine
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from a nine
 	element <code>float</code> array.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pArray
 
 Address of a 9 element <code>float</code> array, specifying the value of each member
-		of a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
-	    
-
+		of a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
 
 ## -remarks
-
-
 
 The matrix elements are stored in <b>pArray</b> in <i>row-major</i> order.
 
@@ -113,25 +107,14 @@ Or
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>

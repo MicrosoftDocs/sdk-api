@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2Crossbar.EnumStreams
 title: ISBE2Crossbar::EnumStreams (sbe.h)
 description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.
+helpviewer_keywords: ["EnumStreams","EnumStreams method [Microsoft TV Technologies]","EnumStreams method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnumStreams method","ISBE2Crossbar.EnumStreams","ISBE2Crossbar::EnumStreams","mstv.isbe2crossbar_enumstreams","sbe/ISBE2Crossbar::EnumStreams"]
 old-location: mstv\isbe2crossbar_enumstreams.htm
 tech.root: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
 ms.date: 12/05/2018
 ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnumStreams method, ISBE2Crossbar.EnumStreams, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
-f1_keywords:
-- sbe/ISBE2Crossbar.EnumStreams
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2Crossbar.EnumStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2Crossbar::EnumStreams
+ - sbe/ISBE2Crossbar::EnumStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2Crossbar.EnumStreams
 ---
 
 # ISBE2Crossbar::EnumStreams
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
+Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, manages the mappings between the streams in the WTV file and the filter output pins.
 
-Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface, manages the mappings between the streams in the WTV file and the filter output pins.
-
-The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe2_stream_desc">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
-
+The WTV file format supports dynamic creation and deletion of streams within the file. An <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe2_stream_desc">SBE2_STREAM_DESC</a> global spanning event in the file signals when a stream is created or deleted.
 
 ## -parameters
 
-
-
-
 ### -param ppStreams [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface that the crossbar implements.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a> interface that the crossbar implements.
           You can use the methods that are defined by the <b>ISBE2EnumStream</b>  interface to enumerate the streams that can be mapped to output pins in the current profile. The caller is responsible for releasing the interface.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -110,26 +104,15 @@ No streams found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>

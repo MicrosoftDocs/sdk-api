@@ -2,15 +2,12 @@
 UID: NF:strmif.IConfigAviMux.GetMasterStream
 title: IConfigAviMux::GetMasterStream (strmif.h)
 description: The GetMasterStream method queries which stream will be used to synchronize the other streams in the file.
+helpviewer_keywords: ["GetMasterStream","GetMasterStream method [DirectShow]","GetMasterStream method [DirectShow]","IConfigAviMux interface","IConfigAviMux interface [DirectShow]","GetMasterStream method","IConfigAviMux.GetMasterStream","IConfigAviMux::GetMasterStream","IConfigAviMuxGetMasterStream","dshow.iconfigavimux_getmasterstream","strmif/IConfigAviMux::GetMasterStream"]
 old-location: dshow\iconfigavimux_getmasterstream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2085a510-16d5-4a82-b372-824026203ef6
 ms.date: 12/05/2018
 ms.keywords: GetMasterStream, GetMasterStream method [DirectShow], GetMasterStream method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetMasterStream method, IConfigAviMux.GetMasterStream, IConfigAviMux::GetMasterStream, IConfigAviMuxGetMasterStream, dshow.iconfigavimux_getmasterstream, strmif/IConfigAviMux::GetMasterStream
-f1_keywords:
-- strmif/IConfigAviMux.GetMasterStream
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IConfigAviMux.GetMasterStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAviMux::GetMasterStream
+ - strmif/IConfigAviMux::GetMasterStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IConfigAviMux.GetMasterStream
 ---
 
 # IConfigAviMux::GetMasterStream
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMasterStream</code> method queries which stream will be used to synchronize the other streams in the file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pStream [out]
 
 Receives the index of the master stream, or -1 if no master stream was set.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,26 +91,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">IConfigAviMux::SetMasterStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">IConfigAviMux::SetMasterStream</a>

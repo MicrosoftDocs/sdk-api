@@ -2,15 +2,12 @@
 UID: NF:stringapiset.CompareStringEx
 title: CompareStringEx function (stringapiset.h)
 description: Compares two Unicode (wide character) strings, for a locale specified by name.Caution  Using CompareStringEx incorrectly can compromise the security of your application.
+helpviewer_keywords: ["CompareStringEx","CompareStringEx function [Internationalization for Windows Applications]","LINGUISTIC_IGNORECASE","LINGUISTIC_IGNOREDIACRITIC","NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","NORM_LINGUISTIC_CASING","SORT_DIGITSASNUMBERS","SORT_STRINGSORT","_win32_CompareStringEx","_win32_CompareStringEx_cpp","intl.comparestringex","stringapiset/CompareStringEx","winui._win32_CompareStringEx"]
 old-location: intl\comparestringex.htm
 tech.root: Intl
 ms.assetid: 264c67b6-848d-48ef-9bfa-4990bfa2fbf5
 ms.date: 12/05/2018
 ms.keywords: CompareStringEx, CompareStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_CompareStringEx, _win32_CompareStringEx_cpp, intl.comparestringex, stringapiset/CompareStringEx, winui._win32_CompareStringEx
-f1_keywords:
-- stringapiset/CompareStringEx
-dev_langs:
-- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- CompareStringEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CompareStringEx
+ - stringapiset/CompareStringEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - CompareStringEx
 ---
 
 # CompareStringEx function
@@ -52,28 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Compares two Unicode (wide character) strings, for a <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">locale</a> specified by name.
-<div class="alert"><b>Caution</b>  Using <b>CompareStringEx</b> incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them, and provide error handlers. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div><div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> if designed to run only on Windows Vista and later.</div><div> </div>
+Compares two Unicode (wide character) strings, for a <a href="/windows/desktop/Intl/locales-and-languages">locale</a> specified by name.
+<div class="alert"><b>Caution</b>  Using <b>CompareStringEx</b> incorrectly can compromise the security of your application. Strings that are not compared correctly can produce invalid input. Test strings to make sure they are valid before using them, and provide error handlers. For more information, see <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.</div><div> </div><div class="alert"><b>Note</b>  The application should call this function in preference to <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> if designed to run only on Windows Vista and later.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
@@ -172,7 +170,7 @@ Ignore the difference between half-width and full-width characters, for example,
 </dl>
 </td>
 <td width="60%">
-Use the default linguistic rules for casing, instead of file system rules. Note that most scenarios for <b>CompareStringEx</b> use this flag. This flag does not have to be used when your application calls <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>.
+Use the default linguistic rules for casing, instead of file system rules. Note that most scenarios for <b>CompareStringEx</b> use this flag. This flag does not have to be used when your application calls <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>.
 
 </td>
 </tr>
@@ -197,49 +195,38 @@ Treat punctuation the same as symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpString1 [in]
 
 Pointer to the first string to compare.
 
-
 ### -param cchCount1 [in]
 
 Length of the string indicated by <i>lpString1</i>, excluding the terminating null character. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
-
 
 ### -param lpString2 [in]
 
 Pointer to the second string to compare.
 
-
 ### -param cchCount2 [in]
 
 Length of the string indicated by <i>lpString2</i>, excluding the terminating null character. The application can supply a negative value if the string is null-terminated. In this case, the function determines the length automatically.
 
-
 ### -param lpVersionInformation [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
+Pointer to an <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
 
 <b>Windows Vista, Windows 7:</b> Reserved; must set to <b>NULL</b>.
-
 
 ### -param lpReserved [in, optional]
 
 Reserved; must set to <b>NULL</b>.
 
-
 ### -param lParam [in, optional]
 
 Reserved; must be set to 0.
 
-
 ## -returns
-
-
 
 Returns one of the following values if successful. To maintain the C runtime convention of comparing strings, the value 2 can be subtracted from a nonzero return value. Then, the meaning of &lt;0, ==0, and &gt;0 is consistent with the C runtime.
 
@@ -248,75 +235,62 @@ Returns one of the following values if successful. To maintain the C runtime con
 <li>CSTR_EQUAL. The string indicated by <i>lpString1</i> is equivalent in lexical value to the string indicated by <i>lpString2</i>. The two strings are equivalent for sorting purposes, although not necessarily identical.</li>
 <li>CSTR_GREATER_THAN. The string indicated by <i>lpString1</i> is greater in lexical value than the string indicated by <i>lpString2</i>.</li>
 </ul>
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were invalid.</li>
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid. </li>
 </ul>
 
-
-
 ## -remarks
 
+Both <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> are optimized to run at the highest speed when <i>dwCmpFlags</i> is set to 0 or NORM_IGNORECASE, <i>cchCount1</i> and <i>cchCount2</i> are set to -1, and the locale does not support any linguistic compressions, as when traditional Spanish sorting treats "ch" as a single character.
 
-
-Both <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> are optimized to run at the highest speed when <i>dwCmpFlags</i> is set to 0 or NORM_IGNORECASE, <i>cchCount1</i> and <i>cchCount2</i> are set to -1, and the locale does not support any linguistic compressions, as when traditional Spanish sorting treats "ch" as a single character.
-
-Both <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> ignore Arabic kashidas during the comparison. Thus, if two strings are identical except for the presence of kashidas, the function returns CSTR_EQUAL.
+Both <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> ignore Arabic kashidas during the comparison. Thus, if two strings are identical except for the presence of kashidas, the function returns CSTR_EQUAL.
       
 
 When the application uses the NORM_IGNORENONSPACE and NORM_IGNORECASE flags with the sorting function, the flags can sometimes interfere with string comparisons. This situation might result for a locale that does not support non-spacing characters or case, but uses equivalent weight levels to handle other important operations. In such cases, your application should use the LINGUISTIC_IGNOREDIACRITIC and LINGUISTIC_IGNORECASE flags. These flags provide linguistically appropriate results for sorting code points that use case and diacritic marks, and have no impact on other code points.
 
-<b>Beginning in Windows Vista: </b> Both <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+<b>Beginning in Windows Vista: </b> Both <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> and <b>CompareStringEx</b> can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
       
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 <b>Beginning in Windows 8: </b><b>CompareStringEx</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
 
-<div class="alert"><b>Note</b>  The behavior of sorting can change between Windows releases. For example, there may be new Unicode code points created. Use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNlsVersionEx</a> to discover if the sort version has changed.</div>
+<div class="alert"><b>Note</b>  The behavior of sorting can change between Windows releases. For example, there may be new Unicode code points created. Use <a href="/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNlsVersionEx</a> to discover if the sort version has changed.</div>
 <div> </div>
 
 #### Examples
 
-An example showing the use of this function can be found in <a href="https://docs.microsoft.com/windows/desktop/Intl/nls--name-based-apis-sample">NLS: Name-based APIs Sample</a>.
+An example showing the use of this function can be found in <a href="/windows/desktop/Intl/nls--name-based-apis-sample">NLS: Name-based APIs Sample</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/Intl/custom-locales">Custom Locales</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">Custom Locales</a>
+<a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>

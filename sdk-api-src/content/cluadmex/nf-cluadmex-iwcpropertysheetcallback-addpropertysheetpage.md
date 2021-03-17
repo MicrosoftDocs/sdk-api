@@ -2,15 +2,12 @@
 UID: NF:cluadmex.IWCPropertySheetCallback.AddPropertySheetPage
 title: IWCPropertySheetCallback::AddPropertySheetPage (cluadmex.h)
 description: Adds a property page to a Failover Cluster Administrator property sheet.
+helpviewer_keywords: ["AddPropertySheetPage","AddPropertySheetPage method [Failover Cluster]","AddPropertySheetPage method [Failover Cluster]","IWCPropertySheetCallback interface","IWCPropertySheetCallback interface [Failover Cluster]","AddPropertySheetPage method","IWCPropertySheetCallback.AddPropertySheetPage","IWCPropertySheetCallback::AddPropertySheetPage","_wolf_iwcpropertysheetcallback_addpropertysheetpage","cluadmex/IWCPropertySheetCallback::AddPropertySheetPage","mscs.iwcpropertysheetcallback_addpropertysheetpage"]
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
 tech.root: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.date: 12/05/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
-f1_keywords:
-- cluadmex/IWCPropertySheetCallback.AddPropertySheetPage
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCPropertySheetCallback.AddPropertySheetPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCPropertySheetCallback::AddPropertySheetPage
+ - cluadmex/IWCPropertySheetCallback::AddPropertySheetPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCPropertySheetCallback.AddPropertySheetPage
 ---
 
 # IWCPropertySheetCallback::AddPropertySheetPage
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a property page to a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> property sheet.
-
+    <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> property sheet.
 
 ## -parameters
-
-
-
 
 ### -param hpage [in]
 
 Handle to the property page to be added.
 
-
 ## -returns
-
-
 
 If 
        <b>AddPropertySheetPage</b> 
@@ -101,38 +95,22 @@ The <i>hpage</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call the 
      <b>AddPropertySheetPage</b> 
      method from your 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
+     <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a> 
      implementation. However, before you call 
      <b>AddPropertySheetPage</b>, 
-     call the function <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> 
+     call the function <a href="/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a> 
      to retrieve a handle to pass in the <i>hpage</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcpropertysheetcallback">IWCPropertySheetCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwcpropertysheetcallback">IWCPropertySheetCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a>

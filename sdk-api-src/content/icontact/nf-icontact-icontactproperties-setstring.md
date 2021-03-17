@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactProperties.SetString
 title: IContactProperties::SetString (icontact.h)
 description: Sets the string value of a specified property to that of a specified null-terminated string.
+helpviewer_keywords: ["IContactProperties interface [Windows Contacts]","SetString method","IContactProperties.SetString","IContactProperties::SetString","SetString","SetString method [Windows Contacts]","SetString method [Windows Contacts]","IContactProperties interface","_wincontacts_IContactProperties_SetString","icontact/IContactProperties::SetString","wincontacts._wincontacts_IContactProperties_SetString"]
 old-location: wincontacts\_wincontacts_IContactProperties_SetString.htm
 tech.root: wincontacts
 ms.assetid: 6e8379cc-a5dd-4ffd-b478-a14e649f5f0b
 ms.date: 12/05/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetString method, IContactProperties.SetString, IContactProperties::SetString, SetString, SetString method [Windows Contacts], SetString method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetString, icontact/IContactProperties::SetString, wincontacts._wincontacts_IContactProperties_SetString
-f1_keywords:
-- icontact/IContactProperties.SetString
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactProperties.SetString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactProperties::SetString
+ - icontact/IContactProperties::SetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactProperties.SetString
 ---
 
 # IContactProperties::SetString
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the string value of a specified property to that of a specified null-terminated string. 
-
+Sets the string value of a specified property to that of a specified null-terminated string.
 
 ## -parameters
-
-
-
 
 ### -param pszPropertyName [in]
 
@@ -63,24 +60,19 @@ Type: <b>LPCWSTR</b>
 
 Specifies the property to set.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>. 
-
+CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param pszValue [in]
 
 Type: <b>LPWSTR</b>
 
-Specifies null-terminated string to store. 
-
+Specifies null-terminated string to store.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -125,19 +117,11 @@ Unable to set value for this property due to schema.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To set a single-level property, set <i>pszPropertyName</i> to the property name. 
 
 To set a property from a multi-value property, set <i>pszPropertyName</i> to the form: 
 		toplevel/secondlevel[4]/thirdlevel.
-
-
 

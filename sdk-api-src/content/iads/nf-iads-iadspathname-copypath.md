@@ -2,15 +2,12 @@
 UID: NF:iads.IADsPathname.CopyPath
 title: IADsPathname::CopyPath (iads.h)
 description: Creates a copy of the Pathname object.
+helpviewer_keywords: ["CopyPath","CopyPath method [ADSI]","CopyPath method [ADSI]","IADsPathname interface","IADsPathname interface [ADSI]","CopyPath method","IADsPathname.CopyPath","IADsPathname::CopyPath","_ds_iadspathname_copypath","adsi.iadspathname__copypath","adsi.iadspathname_copypath","iads/IADsPathname::CopyPath"]
 old-location: adsi\iadspathname_copypath.htm
 tech.root: adsi
 ms.assetid: 00c4a0b8-4961-4ceb-86fe-5cdc4e0a45c0
 ms.date: 12/05/2018
 ms.keywords: CopyPath, CopyPath method [ADSI], CopyPath method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],CopyPath method, IADsPathname.CopyPath, IADsPathname::CopyPath, _ds_iadspathname_copypath, adsi.iadspathname__copypath, adsi.iadspathname_copypath, iads/IADsPathname::CopyPath
-f1_keywords:
-- iads/IADsPathname.CopyPath
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPathname.CopyPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPathname::CopyPath
+ - iads/IADsPathname::CopyPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPathname.CopyPath
 ---
 
 # IADsPathname::CopyPath
@@ -48,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPathname::CopyPath</b> method 
    creates a copy of the Pathname object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAdsPath [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the 
-      returned <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> object.
-
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the 
+      returned <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> object.
 
 ## -returns
 
-
-
 This method supports the standard return values, as well as the following:
 
-For more information and other return values, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error 
+For more information and other return values, see <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error 
        Codes</a>.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to modify the object path and retain the original object path.
 
@@ -115,7 +104,7 @@ Response.Write y.Retrieve(ADS_FORMAT_WINDOWS)
 
 The following C++ code example creates a copy of a pathname object. For more information and a code example 
      of the <b>GetPathnameObject</b> function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>.
+     <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>.
 
 
 ```cpp
@@ -137,21 +126,10 @@ hr = pDisp->QueryInterface(IID_IADsPathname,(void**)&pPathCopy);
 // ...
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>

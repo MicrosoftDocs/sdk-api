@@ -2,15 +2,12 @@
 UID: NF:scserver.CSecureChannelServer.MACUpdate
 title: CSecureChannelServer::MACUpdate (scserver.h)
 description: The MACUpdate method updates the message authentication code (MAC) value with a parameter value.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","MACUpdate method","CSecureChannelServer.MACUpdate","CSecureChannelServer::MACUpdate","CSecureChannelServerMACUpdate","MACUpdate","MACUpdate method [windows Media Device Manager]","MACUpdate method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::MACUpdate","wmdm.csecurechannelserver_macupdate"]
 old-location: wmdm\csecurechannelserver_macupdate.htm
 tech.root: WMDM
 ms.assetid: f8b5548d-ffd5-4dc3-8d08-61a65841a997
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACUpdate method, CSecureChannelServer.MACUpdate, CSecureChannelServer::MACUpdate, CSecureChannelServerMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACUpdate, wmdm.csecurechannelserver_macupdate
-f1_keywords:
-- scserver/CSecureChannelServer.MACUpdate
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.MACUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::MACUpdate
+ - scserver/CSecureChannelServer::MACUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.MACUpdate
 ---
 
 # CSecureChannelServer::MACUpdate
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MACUpdate</b> method updates the message authentication code (MAC) value with a parameter value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hMAC [in]
 
 Handle to the array containing the MAC for the current parameter data. The handle is returned by the <b>MACInit</b> method.
 
-
 ### -param pbData [in]
 
 Pointer to the data to be added to the MAC value for the current parameter data.
-
 
 ### -param dwDataLen
 
 <b>DWORD</b> specifying the length of the data to which <i>pbData</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -87,7 +76,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -109,14 +98,8 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>MACUpdate</b> must be called repeatedly with each piece of data to add to the message authentication code (MAC) . <b>MACUpdate</b> must be called after <b>MACInit</b> because <b>MACInit</b> acquires the MAC handle. <b>MACFinal</b> must be called after <b>MACUpdate</b>.
 
@@ -127,14 +110,9 @@ See the example code for <a href="/previous-versions/ms868514(v=msdn.10)">MACIni
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
@@ -142,8 +120,4 @@ See the example code for <a href="/previous-versions/ms868514(v=msdn.10)">MACIni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

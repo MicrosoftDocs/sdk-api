@@ -2,15 +2,12 @@
 UID: NF:msacm.acmDriverPriority
 title: acmDriverPriority function (msacm.h)
 description: The acmDriverPriority function modifies the priority and state of an ACM driver.
+helpviewer_keywords: ["_win32_acmDriverPriority","acmDriverPriority","acmDriverPriority function [Windows Multimedia]","msacm/acmDriverPriority","multimedia.acmdriverpriority"]
 old-location: multimedia\acmdriverpriority.htm
 tech.root: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
 ms.date: 12/05/2018
 ms.keywords: _win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority
-f1_keywords:
-- msacm/acmDriverPriority
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmDriverPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmDriverPriority
+ - msacm/acmDriverPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmDriverPriority
 ---
 
 # acmDriverPriority function
@@ -49,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmDriverPriority</b> function modifies the priority and state of an ACM driver.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hadid
 
 Handle to the driver identifier of an installed ACM driver. If the ACM_DRIVERPRIORITYF_BEGIN and ACM_DRIVERPRIORITYF_END flags are specified, this parameter must be <b>NULL</b>.
 
-
 ### -param dwPriority
 
 New priority for a global ACM driver identifier. A zero value specifies that the priority of the driver identifier should remain unchanged. A value of 1 specifies that the driver should be placed as the highest search priority driver. A value of –1 specifies that the driver should be placed as the lowest search priority driver. Priorities are used only for global drivers.
-
 
 ### -param fdwPriority
 
@@ -99,12 +91,8 @@ Flags for setting priorities of ACM drivers. The following values are defined.
 <td>Calling task wants to reenable change notification broadcasts. An application must call <b>acmDriverPriority</b> with ACM_DRIVERPRIORITYF_END for each successful call with the ACM_DRIVERPRIORITYF_BEGIN flag. Note that <i>hadid</i> must be <b>NULL</b>, <i>dwPriority</i> must be zero, and only the ACM_DRIVERPRIORITYF_END flag can be set.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -169,14 +157,8 @@ The requested operation is not supported for the specified driver. For example, 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 All driver identifiers can be enabled and disabled, including global, local and notification driver identifiers.
 
@@ -188,20 +170,10 @@ All enabled driver identifiers will receive change notifications. An application
 
 Priorities are simply used for the search order when an application does not specify a driver. Boosting the priority of a driver will have no effect on the performance of a driver.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

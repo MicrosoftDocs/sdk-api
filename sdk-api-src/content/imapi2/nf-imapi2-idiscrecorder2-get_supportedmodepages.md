@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_SupportedModePages
 title: IDiscRecorder2::get_SupportedModePages (imapi2.h)
 description: Retrieves the list of MMC mode pages that the device supports.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_SupportedModePages method","IDiscRecorder2.get_SupportedModePages","IDiscRecorder2::get_SupportedModePages","get_SupportedModePages","get_SupportedModePages method [IMAPI]","get_SupportedModePages method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_supportedmodepages","imapi2/IDiscRecorder2::get_SupportedModePages"]
 old-location: imapi\idiscrecorder2_get_supportedmodepages.htm
 tech.root: imapi
 ms.assetid: 2a6fe1c3-7ce2-4877-93e6-de4ab87685a0
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_SupportedModePages method, IDiscRecorder2.get_SupportedModePages, IDiscRecorder2::get_SupportedModePages, get_SupportedModePages, get_SupportedModePages method [IMAPI], get_SupportedModePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_supportedmodepages, imapi2/IDiscRecorder2::get_SupportedModePages
-f1_keywords:
-- imapi2/IDiscRecorder2.get_SupportedModePages
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_SupportedModePages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_SupportedModePages
+ - imapi2/IDiscRecorder2::get_SupportedModePages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_SupportedModePages
 ---
 
 # IDiscRecorder2::get_SupportedModePages
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the list of MMC mode pages that the device supports.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-List of MMC mode pages that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the mode page type value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
-
+List of MMC mode pages that the device supports. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the mode page type value. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,30 +354,19 @@ Value: 0xC0AA0201
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
 IMAPI_MODE_PAGE_TYPE
- 
-
- 
-

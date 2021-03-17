@@ -2,15 +2,12 @@
 UID: NS:fwpmtypes.FWPM_CONNECTION_ENUM_TEMPLATE0_
 title: FWPM_CONNECTION_ENUM_TEMPLATE0 (fwpmtypes.h)
 description: Used for limiting connection object enumerations.
+helpviewer_keywords: ["FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED","FWPM_CONNECTION_ENUM_TEMPLATE0","FWPM_CONNECTION_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_connection_enum_template0","fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_connection_enum_template0.htm
 tech.root: fwp
 ms.assetid: 1939e4ae-9ff8-4ee7-895b-2ed992204b5c
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED, FWPM_CONNECTION_ENUM_TEMPLATE0, FWPM_CONNECTION_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_connection_enum_template0, fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0
-f1_keywords:
-- fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_CONNECTION_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_CONNECTION_ENUM_TEMPLATE0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_CONNECTION_ENUM_TEMPLATE0_
+ - fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0_
+ - FWPM_CONNECTION_ENUM_TEMPLATE0
+ - fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_CONNECTION_ENUM_TEMPLATE0
 ---
 
 # FWPM_CONNECTION_ENUM_TEMPLATE0 structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_CONNECTION_ENUM_TEMPLATE0</b> structure is used for limiting connection object enumerations.
 
-
 ## -struct-fields
-
-
-
 
 ### -field connectionId
 
 Uniquely identifies a connection object.
-
 
 ### -field flags
 
@@ -81,5 +79,4 @@ If set, the IPsec driver will be queried for the current bytes transferred via t
 </td>
 </tr>
 </table>
- 
 

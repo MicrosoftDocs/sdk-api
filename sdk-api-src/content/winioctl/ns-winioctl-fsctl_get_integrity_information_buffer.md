@@ -2,15 +2,12 @@
 UID: NS:winioctl._FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 description: Contains the integrity information for a file or directory.
+helpviewer_keywords: ["*PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER","CHECKSUM_TYPE_CRC64","CHECKSUM_TYPE_NONE","FSCTL_GET_INTEGRITY_INFORMATION_BUFFER","FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure [Files]","FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF","PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER","PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files]","fs.fsctl_get_integrity_information_buffer","winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER","winioctl/PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER"]
 old-location: fs\fsctl_get_integrity_information_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ab87f987-b734-4ad0-af16-1ba967db48d7
 ms.date: 12/05/2018
 ms.keywords: '*PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER, CHECKSUM_TYPE_CRC64, CHECKSUM_TYPE_NONE, FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure [Files], FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF, PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER, PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure pointer [Files], fs.fsctl_get_integrity_information_buffer, winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, winioctl/PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER'
-f1_keywords:
-- winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 targetos: Windows
 req.typenames: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER, *PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 req.redist: 
+f1_keywords:
+ - _FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/_FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/PFSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+ - winioctl/FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 ---
 
 # FSCTL_GET_INTEGRITY_INFORMATION_BUFFER structure
@@ -47,14 +53,9 @@ req.redist:
 
 ## -description
 
-
-Contains the integrity information for a file or directory. Returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a> control code.
-
+Contains the integrity information for a file or directory. Returned from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field ChecksumAlgorithm
 
@@ -99,13 +100,10 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved for future use.  Set to 0.
-
 
 ### -field Flags
 
@@ -128,35 +126,24 @@ If set, the checksum enforcement is disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ChecksumChunkSizeInBytes
 
 Size in bytes of the chunks used to calculate checksums.
-
 
 ### -field ClusterSizeInBytes
 
 Size in bytes of a cluster for this volume. This value must be a power of 2, must be greater than or equal 
       to the sector size of the underlying hardware and must be a power of 2 multiple of the sector size.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

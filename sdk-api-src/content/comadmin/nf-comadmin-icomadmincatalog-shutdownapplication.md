@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.ShutdownApplication
 title: ICOMAdminCatalog::ShutdownApplication (comadmin.h)
 description: Initiates shutdown of a COM+ server application process.
+helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","ShutdownApplication method","ICOMAdminCatalog.ShutdownApplication","ICOMAdminCatalog::ShutdownApplication","ShutdownApplication","ShutdownApplication method [COM+]","ShutdownApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_ShutdownApplication","comadmin/ICOMAdminCatalog::ShutdownApplication","cos.icomadmincatalog_shutdownapplication"]
 old-location: cos\icomadmincatalog_shutdownapplication.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 79f3af18-0924-4e09-85aa-54a6886b65b3
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ShutdownApplication method, ICOMAdminCatalog.ShutdownApplication, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
-f1_keywords:
-- comadmin/ICOMAdminCatalog.ShutdownApplication
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.ShutdownApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::ShutdownApplication
+ - comadmin/ICOMAdminCatalog::ShutdownApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.ShutdownApplication
 ---
 
 # ICOMAdminCatalog::ShutdownApplication
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates shutdown of a COM+ server application process.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrApplIDOrName [in]
 
 The GUID or name of the application.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -96,18 +90,7 @@ The application does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

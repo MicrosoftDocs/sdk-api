@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMNotification.WMDMMessage
 title: IWMDMNotification::WMDMMessage (mswmdm.h)
 description: The WMDMMessage method is a callback method implemented by a client, and called by Windows Media Device Manager when a Plug and Play compliant device or storage medium is connected or removed.
+helpviewer_keywords: ["IWMDMNotification interface [windows Media Device Manager]","WMDMMessage method","IWMDMNotification.WMDMMessage","IWMDMNotification::WMDMMessage","IWMDMNotificationWMDMMessage","WMDMMessage","WMDMMessage method [windows Media Device Manager]","WMDMMessage method [windows Media Device Manager]","IWMDMNotification interface","mswmdm/IWMDMNotification::WMDMMessage","wmdm.iwmdmnotification_wmdmmessage"]
 old-location: wmdm\iwmdmnotification_wmdmmessage.htm
 tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
 ms.date: 12/05/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
-f1_keywords:
-- mswmdm/IWMDMNotification.WMDMMessage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMNotification.WMDMMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMNotification::WMDMMessage
+ - mswmdm/IWMDMNotification::WMDMMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMNotification.WMDMMessage
 ---
 
 # IWMDMNotification::WMDMMessage
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMDMMessage</b> method is a callback method implemented by a client, and called by Windows Media Device Manager when a Plug and Play compliant device or storage medium is connected or removed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwMessageType [in]
 
@@ -91,28 +85,18 @@ The possible values for the event types are the following:
 <td>A storage medium has been removed from a connected device.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwszCanonicalName [in]
 
 Pointer to a wide-character, null-terminated string specifying the canonical name of the device for which this event is generated. The application does not release this value.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b> in which application can return results of its processing of the message. The return value is ignored by WMDM.
 
-
-
-
 ## -remarks
 
-
-
-To learn how an application subscribes to receive notifications through this method, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>.
+To learn how an application subscribes to receive notifications through this method, see <a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>.
 
 
 #### Examples
@@ -147,21 +131,10 @@ HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification Interface</a>

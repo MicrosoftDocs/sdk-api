@@ -2,15 +2,12 @@
 UID: NF:control.IBasicVideo.put_DestinationTop
 title: IBasicVideo::put_DestinationTop (control.h)
 description: The put_DestinationTop method sets the y-coordinate of the destination rectangle.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_DestinationTop method","IBasicVideo.put_DestinationTop","IBasicVideo::put_DestinationTop","IBasicVideoput_DestinationTop","control/IBasicVideo::put_DestinationTop","dshow.ibasicvideo_put_destinationtop","put_DestinationTop","put_DestinationTop method [DirectShow]","put_DestinationTop method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_destinationtop.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 254fb104-c080-411d-9795-edcd4da41bdc
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationTop method, IBasicVideo.put_DestinationTop, IBasicVideo::put_DestinationTop, IBasicVideoput_DestinationTop, control/IBasicVideo::put_DestinationTop, dshow.ibasicvideo_put_destinationtop, put_DestinationTop, put_DestinationTop method [DirectShow], put_DestinationTop method [DirectShow],IBasicVideo interface
-f1_keywords:
-- control/IBasicVideo.put_DestinationTop
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.put_DestinationTop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::put_DestinationTop
+ - control/IBasicVideo::put_DestinationTop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.put_DestinationTop
 ---
 
 # IBasicVideo::put_DestinationTop
@@ -49,43 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_DestinationTop</code> method sets the y-coordinate of the destination rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param DestinationTop [in]
 
 Specifies the y-coordinate, in pixels.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

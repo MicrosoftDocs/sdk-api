@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwOpenPorts.Remove
 title: INetFwOpenPorts::Remove (netfw.h)
 description: Closes a port and removes it from the collection.
+helpviewer_keywords: ["INetFwOpenPorts interface [ICS/ICF]","Remove method","INetFwOpenPorts.Remove","INetFwOpenPorts::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","INetFwOpenPorts interface","ics.inetfwopenports_remove","netfw/INetFwOpenPorts::Remove"]
 old-location: ics\inetfwopenports_remove.htm
 tech.root: ics
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
-f1_keywords:
-- netfw/INetFwOpenPorts.Remove
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwOpenPorts.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwOpenPorts::Remove
+ - netfw/INetFwOpenPorts::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwOpenPorts.Remove
 ---
 
 # INetFwOpenPorts::Remove
@@ -49,30 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
-
-Closes a port and removes it from the collection. 
-
+Closes a port and removes it from the collection.
 
 ## -parameters
-
-
-
 
 ### -param portNumber [in]
 
 Port number to remove.
 
-
 ### -param ipProtocol [in]
 
 Protocol of the port to remove.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 <table>
@@ -160,36 +153,20 @@ The method was unable to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the port is already
    closed ,the <b>Remove</b> method has no effect.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>

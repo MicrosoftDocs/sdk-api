@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI2FromStr
 title: VarI2FromStr function (oleauto.h)
 description: Converts an OLECHAR string to a short value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarI2FromStr","VarI2FromStr function [Automation]","_oa96_VarI2FromStr","automat.vari2fromstr","oleauto/VarI2FromStr"]
 old-location: automat\vari2fromstr.htm
 tech.root: automat
 ms.assetid: a4f43356-5681-4926-aa2a-471fa2198a2c
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI2FromStr, VarI2FromStr function [Automation], _oa96_VarI2FromStr, automat.vari2fromstr, oleauto/VarI2FromStr
-f1_keywords:
-- oleauto/VarI2FromStr
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI2FromStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI2FromStr
+ - oleauto/VarI2FromStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI2FromStr
 ---
 
 # VarI2FromStr function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an OLECHAR string to a short value.
 
-
 ## -parameters
-
-
-
 
 ### -param strIn [in]
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param dwFlags [in]
 
@@ -107,17 +102,12 @@ Omits the time portion of a VT_DATE and returns only the date. Applies to conver
 </td>
 </tr>
 </table>
- 
-
 
 ### -param psOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -195,7 +185,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

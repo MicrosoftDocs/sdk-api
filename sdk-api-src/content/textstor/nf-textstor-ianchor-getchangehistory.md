@@ -2,15 +2,12 @@
 UID: NF:textstor.IAnchor.GetChangeHistory
 title: IAnchor::GetChangeHistory (textstor.h)
 description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
+helpviewer_keywords: ["GetChangeHistory","GetChangeHistory method [Text Services Framework]","GetChangeHistory method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","GetChangeHistory method","IAnchor.GetChangeHistory","IAnchor::GetChangeHistory","TS_CH_FOLLOWING_DEL","TS_CH_PRECEDING_DEL","textstor/IAnchor::GetChangeHistory","tsf.ianchor_getchangehistory"]
 old-location: tsf\ianchor_getchangehistory.htm
 tech.root: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790
 ms.date: 12/05/2018
 ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
-f1_keywords:
-- textstor/IAnchor.GetChangeHistory
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.GetChangeHistory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::GetChangeHistory
+ - textstor/IAnchor::GetChangeHistory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.GetChangeHistory
 ---
 
 # IAnchor::GetChangeHistory
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAnchor::GetChangeHistory</b> method gets the history of deletions that have occurred immediately preceding or following the anchor.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwHistory [out]
 
@@ -87,12 +84,8 @@ Text following the anchor has been deleted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,34 +117,18 @@ The value of <i>pdwHistory</i> is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>pdwHistory</i> change flags must be set when deletions adjacent to the anchor have occurred.
 
-The change flags remain set until they are cleared with a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory</a>.
-
-
-
+The change flags remain set until they are cleared with a call to <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">IAnchor::ClearChangeHistory
       </a>
- 
-
- 
-

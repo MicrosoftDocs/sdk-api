@@ -2,15 +2,12 @@
 UID: NS:shobjidl_core.tagBANDSITEINFO
 title: BANDSITEINFO (shobjidl_core.h)
 description: Contains information about a band site. This structure is used with the IBandSite::GetBandSiteInfo and IBandSite::SetBandSiteInfo methods.
+helpviewer_keywords: ["BANDSITEINFO","BANDSITEINFO structure [Windows Shell]","BSIM_STATE","BSIM_STYLE","BSIS_ALWAYSGRIPPER","BSIS_AUTOGRIPPER","BSIS_FIXEDORDER","BSIS_LEFTALIGN","BSIS_LOCKED","BSIS_NOCAPTION","BSIS_NOCONTEXTMENU","BSIS_NODROPTARGET","BSIS_NOGRIPPER","BSIS_PREFERNOLINEBREAK","BSIS_PRESERVEORDERDURINGLAYOUT","BSIS_SINGLECLICK","BSSF_NOTITLE","BSSF_UNDELETEABLE","BSSF_VISIBLE","_win32_BANDSITEINFO","shell.BANDSITEINFO","shobjidl_core/BANDSITEINFO","tagBANDSITEINFO"]
 old-location: shell\BANDSITEINFO.htm
 tech.root: shell
 ms.assetid: 86e4afce-594a-441e-b6d9-ce05c8234150
 ms.date: 12/05/2018
 ms.keywords: BANDSITEINFO, BANDSITEINFO structure [Windows Shell], BSIM_STATE, BSIM_STYLE, BSIS_ALWAYSGRIPPER, BSIS_AUTOGRIPPER, BSIS_FIXEDORDER, BSIS_LEFTALIGN, BSIS_LOCKED, BSIS_NOCAPTION, BSIS_NOCONTEXTMENU, BSIS_NODROPTARGET, BSIS_NOGRIPPER, BSIS_PREFERNOLINEBREAK, BSIS_PRESERVEORDERDURINGLAYOUT, BSIS_SINGLECLICK, BSSF_NOTITLE, BSSF_UNDELETEABLE, BSSF_VISIBLE, _win32_BANDSITEINFO, shell.BANDSITEINFO, shobjidl_core/BANDSITEINFO, tagBANDSITEINFO
-f1_keywords:
-- shobjidl_core/BANDSITEINFO
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shobjidl_core.h
-api_name:
-- BANDSITEINFO
 targetos: Windows
 req.typenames: BANDSITEINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBANDSITEINFO
+ - shobjidl_core/tagBANDSITEINFO
+ - BANDSITEINFO
+ - shobjidl_core/BANDSITEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - BANDSITEINFO
 ---
 
 # BANDSITEINFO structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a band site. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">IBandSite::GetBandSiteInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">IBandSite::SetBandSiteInfo</a> methods.
-
+Contains information about a band site. This structure is used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">IBandSite::GetBandSiteInfo</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">IBandSite::SetBandSiteInfo</a> methods.
 
 ## -struct-fields
-
-
-
 
 ### -field dwMask
 
@@ -74,7 +73,6 @@ The <b>dwState</b> value is being requested or set.
 #### BSIM_STYLE
 
 The <b>dwStyle</b> value is being requested or set.
-
 
 ### -field dwState
 
@@ -99,7 +97,6 @@ The band's title is not shown.
 #### BSSF_UNDELETEABLE
 
 The band cannot be deleted.
-
 
 ### -field dwStyle
 
@@ -147,7 +144,7 @@ Disables the band-specific context menu (typically "Close Toolbar").
 
 #### BSIS_NODROPTARGET
 
-Prevents wrapping of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface provided by the band.
+Prevents wrapping of the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface provided by the band.
 
 
 
@@ -178,4 +175,3 @@ Removes the "Close Toolbar" and "Show Title" choices from the menu.
 #### BSIS_FIXEDORDER (0x00000400)
 
 <b>Internet Explorer 7 and later</b>. Prevents items from being reordered.
-

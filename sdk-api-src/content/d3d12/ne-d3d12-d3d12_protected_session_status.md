@@ -2,12 +2,10 @@
 UID: NE:d3d12.D3D12_PROTECTED_SESSION_STATUS
 title: D3D12_PROTECTED_SESSION_STATUS
 description: Defines constants that specify protected session status.
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_PROTECTED_SESSION_STATUS"]
 ms.date: 08/13/2019
 ms.keywords: D3D12_PROTECTED_SESSION_STATUS
-f1_keywords:
-- d3d12/D3D12_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -20,14 +18,19 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - D3D12_PROTECTED_SESSION_STATUS
+ - d3d12/D3D12_PROTECTED_SESSION_STATUS
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_PROTECTED_SESSION_STATUS
+ - D3D12_PROTECTED_SESSION_STATUS
 ---
 
 ## -description

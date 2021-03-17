@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDMessageParameters.GetLocalAddress
 title: IWSDMessageParameters::GetLocalAddress (wsdbase.h)
 description: Retrieves the generic address object representing the local address that received the message.
+helpviewer_keywords: ["GetLocalAddress","GetLocalAddress method","GetLocalAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetLocalAddress method","IWSDMessageParameters.GetLocalAddress","IWSDMessageParameters::GetLocalAddress","ncd.iwsdmessageparameters_getlocaladdress","wsdbase/IWSDMessageParameters::GetLocalAddress"]
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.date: 12/05/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
-f1_keywords:
-- wsdbase/IWSDMessageParameters.GetLocalAddress
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDMessageParameters.GetLocalAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMessageParameters::GetLocalAddress
+ - wsdbase/IWSDMessageParameters::GetLocalAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDMessageParameters.GetLocalAddress
 ---
 
 # IWSDMessageParameters::GetLocalAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the generic address object representing the local address that received the message.
-
 
 ## -parameters
 
-
-
-
 ### -param ppAddress [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the local address that received the message.
-
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the local address that received the message.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing memory allocated to <i>ppAddress</i>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

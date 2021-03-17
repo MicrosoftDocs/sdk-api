@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateInstaller.RunWizard
 title: IUpdateInstaller::RunWizard (wuapi.h)
 description: Starts a wizard that guides the local user through the steps to install the updates.
+helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","RunWizard method","IUpdateInstaller.RunWizard","IUpdateInstaller::RunWizard","RunWizard","RunWizard method [Windows Update Agent]","RunWizard method [Windows Update Agent]","IUpdateInstaller interface","wua.iupdateinstaller_runwizard","wuapi/IUpdateInstaller::RunWizard"]
 old-location: wua\iupdateinstaller_runwizard.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method, IUpdateInstaller.RunWizard, IUpdateInstaller::RunWizard, RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
-f1_keywords:
-- wuapi/IUpdateInstaller.RunWizard
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstaller.RunWizard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstaller::RunWizard
+ - wuapi/IUpdateInstaller::RunWizard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstaller.RunWizard
 ---
 
 # IUpdateInstaller::RunWizard
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a wizard that guides the local user through the steps to install the updates.
 
-
 ## -parameters
-
-
-
 
 ### -param dialogTitle [in, optional]
 
@@ -63,15 +60,11 @@ An optional string value to be displayed in the title bar of the wizard.
 
 If an empty string value is used, the following text is displayed: Download and Install Updates.
 
-
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a> interface that represents the results of an installation operation for each update that is specified in the request.
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a> interface that represents the results of an installation operation for each update that is specified in the request.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values and other COM or Windows 
 
@@ -95,27 +88,11 @@ There are no updates in a collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method returns WU_E_NO_UPDATE if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_updates">Updates</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> is not set. This method also returns WU_E_NO_UPDATE if the  <b>Updates</b> property is set to an empty collection.
-
-
-
+This method returns WU_E_NO_UPDATE if the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-get_updates">Updates</a> property of <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> is not set. This method also returns WU_E_NO_UPDATE if the  <b>Updates</b> property is set to an empty collection.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>

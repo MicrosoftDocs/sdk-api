@@ -1,17 +1,20 @@
 ---
 UID: NA:winreg
+title: Winreg.h header
 ms.assetid: 7eb36e33-d454-3b76-a359-7d06c195c1ee
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: winprog
+f1_keywords:
+ - winreg
+ - winreg/winreg
 ---
 
 # Winreg.h header
 
 
 ## -description
-
 
 This header is used by Developer Notes. For more information, see:
 

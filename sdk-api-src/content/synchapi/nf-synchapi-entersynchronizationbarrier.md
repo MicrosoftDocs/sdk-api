@@ -2,15 +2,12 @@
 UID: NF:synchapi.EnterSynchronizationBarrier
 title: EnterSynchronizationBarrier function (synchapi.h)
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
+helpviewer_keywords: ["EnterSynchronizationBarrier","EnterSynchronizationBarrier function","SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY","SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE","SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY","base.entersynchronizationbarrier","synchapi/EnterSynchronizationBarrier"]
 old-location: base\entersynchronizationbarrier.htm
-tech.root: Sync
+tech.root: base
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
 ms.date: 12/05/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
-f1_keywords:
-- synchapi/EnterSynchronizationBarrier
-dev_langs:
-- c++
 req.header: synchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Synch-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Synch-l1-2-1.dll
-- MinKernelBase.dll
-api_name:
-- EnterSynchronizationBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnterSynchronizationBarrier
+ - synchapi/EnterSynchronizationBarrier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Synch-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Synch-l1-2-1.dll
+ - MinKernelBase.dll
+api_name:
+ - EnterSynchronizationBarrier
 ---
 
 # EnterSynchronizationBarrier function
@@ -52,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes the calling thread to wait at a synchronization barrier until the maximum number of threads 
     have entered the barrier.
 
-
 ## -parameters
-
-
-
 
 ### -param lpBarrier [in, out]
 
 A pointer to an initialized synchronization barrier. Use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a> 
+      <a href="/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a> 
       function to initialize the barrier. <b>SYNCHRONIZATION_BARRIER</b> is an opaque 
       structure that should not be modified by the application.
-
 
 ### -param dwFlags [in]
 
@@ -118,22 +114,13 @@ Specifies that the function can skip the work required to ensure that it is safe
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>TRUE</b> for the last thread to signal the barrier. Threads that signal the barrier 
       before the last thread signals it receive a return value of <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The default behavior for threads entering a synchronization barrier is to spin until the maximum spin count of 
     the barrier is reached, and then block. This allows threads to resume quickly if the last thread enters the 
@@ -148,24 +135,14 @@ A thread can override the default behavior of the barrier by specifying
     swapping it back onto the processor again. In general it is better to allow the barrier to manage threads and use 
     these flags only if performance testing indicates the application would benefit from them.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>
- 
-
- 
-
+<a href="/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>

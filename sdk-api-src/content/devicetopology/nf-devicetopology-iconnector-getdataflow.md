@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IConnector.GetDataFlow
 title: IConnector::GetDataFlow (devicetopology.h)
 description: The GetDataFlow method gets the direction of data flow through this connector.
+helpviewer_keywords: ["GetDataFlow","GetDataFlow method [Core Audio]","GetDataFlow method [Core Audio]","IConnector interface","IConnector interface [Core Audio]","GetDataFlow method","IConnector.GetDataFlow","IConnector::GetDataFlow","IConnectorGetDataFlow","coreaudio.iconnector_getdataflow","devicetopology/IConnector::GetDataFlow"]
 old-location: coreaudio\iconnector_getdataflow.htm
 tech.root: CoreAudio
 ms.assetid: 55078775-2921-45c2-af27-c8ad53688293
 ms.date: 12/05/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDataFlow method, IConnector.GetDataFlow, IConnector::GetDataFlow, IConnectorGetDataFlow, coreaudio.iconnector_getdataflow, devicetopology/IConnector::GetDataFlow
-f1_keywords:
-- devicetopology/IConnector.GetDataFlow
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IConnector.GetDataFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnector::GetDataFlow
+ - devicetopology/IConnector::GetDataFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IConnector.GetDataFlow
 ---
 
 # IConnector::GetDataFlow
@@ -48,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDataFlow</b> method gets the direction of data flow through this connector.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://docs.microsoft.com/windows/win32/api/devicetopology/ne-devicetopology-dataflow">DataFlow</a> enumeration values:
+Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="/windows/win32/api/devicetopology/ne-devicetopology-dataflow">DataFlow</a> enumeration values:
 
 In
 
@@ -70,10 +64,7 @@ Out
 
 If data flows into the device through the connector, the data-flow direction is In. Otherwise, the data-flow direction is Out.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -94,27 +85,11 @@ Pointer <i>pFlow</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a code example that calls this method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
-
-
-
+For a code example that calls this method, see the implementation of the SelectCaptureDevice function in <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>

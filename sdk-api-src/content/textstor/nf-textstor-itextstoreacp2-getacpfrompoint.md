@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACP2.GetACPFromPoint
 title: ITextStoreACP2::GetACPFromPoint (textstor.h)
 description: Converts a point in screen coordinates to an application character position.
+helpviewer_keywords: ["GXFPF_NEAREST","GXFPF_ROUND_NEAREST","GetACPFromPoint","GetACPFromPoint method [Text Services Framework]","GetACPFromPoint method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","GetACPFromPoint method","ITextStoreACP2.GetACPFromPoint","ITextStoreACP2::GetACPFromPoint","textstor/ITextStoreACP2::GetACPFromPoint","tsf.itextstoreacp2_getacpfrompoint"]
 old-location: tsf\itextstoreacp2_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: 2907cd34-6ebe-45b4-afd6-8062212c3dc9
 ms.date: 12/05/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP2.GetACPFromPoint, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
-f1_keywords:
-- textstor/ITextStoreACP2.GetACPFromPoint
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.GetACPFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::GetACPFromPoint
+ - textstor/ITextStoreACP2::GetACPFromPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.GetACPFromPoint
 ---
 
 # ITextStoreACP2::GetACPFromPoint
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a point in screen coordinates to an application character position.
 
-
 ## -parameters
-
-
-
 
 ### -param vcView [in]
 
 Specifies the context view.
 
-
 ### -param ptScreen [in]
 
 Pointer to the <b>POINT</b> structure with the screen coordinates of the point.
 
-
 ### -param dwFlags [in]
 
-Specifies the character position to return based upon the screen coordinates of the point relative to a character bounding box. By default, the character position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
+Specifies the character position to return based upon the screen coordinates of the point relative to a character bounding box. By default, the character position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
 
 The bit flags can be combined.
 
@@ -99,17 +94,12 @@ If the screen coordinates of the point are not contained in a character bounding
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pacp [out]
 
 Receives the character position that corresponds to the screen coordinates of the point.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -152,43 +142,32 @@ The application has not calculated a text layout.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/gxfpf--constants">GXFPF_* Constants
+<a href="/windows/desktop/TSF/gxfpf--constants">GXFPF_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getacpfrompoint">ITfContextOwner::GetACPFromPoint
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getacpfrompoint">ITfContextOwner::GetACPFromPoint
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">ITfContextView::GetRangeFromPoint
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">Manager Return Values
+<a href="/windows/desktop/TSF/manager-return-values">Manager Return Values
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
-

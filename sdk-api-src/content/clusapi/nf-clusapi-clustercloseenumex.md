@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterCloseEnumEx
 title: ClusterCloseEnumEx function (clusapi.h)
 description: Closes a handle to an enumeration that was opened by the ClusterOpenEnumEx function.
+helpviewer_keywords: ["ClusterCloseEnumEx","ClusterCloseEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster]","clusapi/ClusterCloseEnumEx","clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX","mscs.clustercloseenumex"]
 old-location: mscs\clustercloseenumex.htm
 tech.root: MsCS
 ms.assetid: B62F1259-C4FF-45FC-9EA1-24CABFE1C0F3
 ms.date: 12/05/2018
 ms.keywords: ClusterCloseEnumEx, ClusterCloseEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_CLOSE_ENUM_EX function [Failover Cluster], clusapi/ClusterCloseEnumEx, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM_EX, mscs.clustercloseenumex
-f1_keywords:
-- clusapi/ClusterCloseEnumEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterCloseEnumEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterCloseEnumEx
+ - clusapi/ClusterCloseEnumEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterCloseEnumEx
 ---
 
 # ClusterCloseEnumEx function
@@ -48,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Closes a handle to an enumeration that was opened by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a> function.
-
+Closes a handle to an enumeration that was opened by the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a> function.
 
 ## -parameters
 
-
-
-
 ### -param hClusterEnum [in]
 
-The handle to the cluster enumeration  to close. This is a handle that originally was returned by <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a>.
-
+The handle to the cluster enumeration  to close. This is a handle that originally was returned by <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a>.
 
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
-
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IEnumPins.Skip
 title: IEnumPins::Skip (strmif.h)
 description: The Skip method skips over a specified number of pins.
+helpviewer_keywords: ["IEnumPins interface [DirectShow]","Skip method","IEnumPins.Skip","IEnumPins::Skip","IEnumPinsSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumPins interface","dshow.ienumpins_skip","strmif/IEnumPins::Skip"]
 old-location: dshow\ienumpins_skip.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Skip method, IEnumPins.Skip, IEnumPins::Skip, IEnumPinsSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPins interface, dshow.ienumpins_skip, strmif/IEnumPins::Skip
-f1_keywords:
-- strmif/IEnumPins.Skip
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEnumPins.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPins::Skip
+ - strmif/IEnumPins::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEnumPins.Skip
 ---
 
 # IEnumPins::Skip
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Skip</code> method skips over a specified number of pins.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cPins [in]
 
 Number of pins to skip.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b>
 
@@ -111,31 +102,15 @@ The filter's state has changed and is now inconsistent with the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Skip</code> method safely.
-
-
-
+If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Skip</code> method safely.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>

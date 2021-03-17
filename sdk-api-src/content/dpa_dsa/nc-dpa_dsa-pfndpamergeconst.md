@@ -2,15 +2,12 @@
 UID: NC:dpa_dsa.PFNDPAMERGECONST
 title: PFNDPAMERGECONST (dpa_dsa.h)
 description: Defines the prototype for the merge function used by DPA_Merge, using constant values.
+helpviewer_keywords: ["DPAMM_DELETE","DPAMM_INSERT","DPAMM_MERGE","PFNDPAMERGECONST","PFNDPAMERGECONST callback","PFNDPAMERGECONST callback function [Windows Controls]","_shell_PFNDPAMERGECONST","_shell_PFNDPAMERGECONST_cpp","controls.PFNDPAMERGECONST","controls._shell_PFNDPAMERGECONST","dpa_dsa/PFNDPAMERGECONST"]
 old-location: controls\PFNDPAMERGECONST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
 ms.date: 12/05/2018
 ms.keywords: DPAMM_DELETE, DPAMM_INSERT, DPAMM_MERGE, PFNDPAMERGECONST, PFNDPAMERGECONST callback, PFNDPAMERGECONST callback function [Windows Controls], _shell_PFNDPAMERGECONST, _shell_PFNDPAMERGECONST_cpp, controls.PFNDPAMERGECONST, controls._shell_PFNDPAMERGECONST, dpa_dsa/PFNDPAMERGECONST
-f1_keywords:
-- dpa_dsa/PFNDPAMERGECONST
-dev_langs:
-- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dpa_dsa.h
-api_name:
-- PFNDPAMERGECONST
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNDPAMERGECONST
+ - dpa_dsa/PFNDPAMERGECONST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dpa_dsa.h
+api_name:
+ - PFNDPAMERGECONST
 ---
 
 # PFNDPAMERGECONST callback function
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines the prototype for the merge function used by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_merge">DPA_Merge</a>, using constant values.
-
+Defines the prototype for the merge function used by <a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_merge">DPA_Merge</a>, using constant values.
 
 ## -parameters
 
-
-
-
 ### -param uMsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A message that instructs this function how to handle the merge. One of the following values.
 
@@ -102,48 +99,31 @@ Perform any user-defined processing when the merge results in an item being inse
 </td>
 </tr>
 </table>
- 
 
-
-### -param *pvDest [in]
+### -param pvDest [in]
 
 Type: <b>const void*</b>
 
 A pointer to the destination item in the merge.
 
-
-### -param *pvSrc [in]
+### -param pvSrc [in]
 
 Type: <b>const void*</b>
 
 A pointer to the source item in the merge.
 
-
 ### -param lParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional data that can be used by the merge callback.
 
-
 ## -returns
-
-
 
 Type: <b>const void*</b>
 
 A pointer to constant data which results from the merge, or <b>NULL</b> if there is a failure when DPAMM_MERGE or DPAMM_INSERT is used.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a>

@@ -2,15 +2,12 @@
 UID: NF:roerrorapi.RoOriginateLanguageException
 title: RoOriginateLanguageException function
 description: Reports an error, an informative string, and an error object to an attached debugger.
+helpviewer_keywords: ["RoOriginateLanguageException","RoOriginateLanguageException function [Windows Runtime]","roerrorapi/RoOriginateLanguageException","winrt.rooriginatelanguageexception"]
 old-location: winrt\rooriginatelanguageexception.htm
 tech.root: WinRT
 ms.assetid: 573A9209-31EF-4FD4-A504-16795BA42337
 ms.date: 12/5/2018
 ms.keywords: RoOriginateLanguageException, RoOriginateLanguageException function [Windows Runtime], roerrorapi/RoOriginateLanguageException, winrt.rooriginatelanguageexception
-f1_keywords:
-- roerrorapi/RoOriginateLanguageException
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoOriginateLanguageException
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoOriginateLanguageException
+ - roerrorapi/RoOriginateLanguageException
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoOriginateLanguageException
 ---
 
 # RoOriginateLanguageException function
@@ -48,19 +50,13 @@ req.redist:
 
 ## -description
 
-
 Reports an error, an informative string, and an error object to an attached debugger.
 
-
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 The error code associated with the error condition. If <i>error</i> is a success code, like <b>S_OK</b>, the function has no effect and returns <b>FALSE</b>. This behavior enables calling the function when no error has occurred without causing an unwanted error message.
-
 
 ### -param message [in, optional]
 
@@ -74,15 +70,11 @@ This function does not support embedded <b>NUL</b> characters, so only the chara
 
 The <i>message</i> string should be localized.
 
-
 ### -param languageException [in]
 
-An error object that's apartment-agile, in-proc, and marshal-by-value across processes. This object should implement <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace">ILanguageExceptionStackBackTrace</a> and <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform">ILanguageExceptionTransform</a> if necessary.
-
+An error object that's apartment-agile, in-proc, and marshal-by-value across processes. This object should implement <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace">ILanguageExceptionStackBackTrace</a> and <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform">ILanguageExceptionTransform</a> if necessary.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -112,29 +104,13 @@ The  error message was reported successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <b>RoOriginateLanguageException</b>  function behaves like <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> but takes another parameter that stores extra information about the error. Language projections use this function to store exception information alongside the COM error information. Language projections need to create an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object that contains all the information necessary recreate it the exception a later point.
 
-
-The <b>RoOriginateLanguageException</b>  function behaves like <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a> but takes another parameter that stores extra information about the error. Language projections use this function to store exception information alongside the COM error information. Language projections need to create an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object that contains all the information necessary recreate it the exception a later point.
-
-The error object must be apartment-agile, in-proc, and marshal-by-value across processes. The reason for this restriction is that the thread from which the error object is originated may no longer exist, for example due to a <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> call, by the time the error information is retrieved.
-
-
-
+The error object must be apartment-agile, in-proc, and marshal-by-value across processes. The reason for this restriction is that the thread from which the error object is originated may no longer exist, for example due to a <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> call, by the time the error information is retrieved.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>

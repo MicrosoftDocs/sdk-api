@@ -2,15 +2,12 @@
 UID: NF:wdsclientapi.WdsCliRegisterTrace
 title: WdsCliRegisterTrace function (wdsclientapi.h)
 description: Registers a callback function that will receive debugging messages.
+helpviewer_keywords: ["WdsCliRegisterTrace","WdsCliRegisterTrace function [Windows Deployment Services]","wds.wdscliregistertrace","wdsclientapi/WdsCliRegisterTrace"]
 old-location: wds\wdscliregistertrace.htm
 tech.root: wds
 ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18
 ms.date: 12/05/2018
 ms.keywords: WdsCliRegisterTrace, WdsCliRegisterTrace function [Windows Deployment Services], wds.wdscliregistertrace, wdsclientapi/WdsCliRegisterTrace
-f1_keywords:
-- wdsclientapi/WdsCliRegisterTrace
-dev_langs:
-- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsClientAPI.dll
-api_name:
-- WdsCliRegisterTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsCliRegisterTrace
+ - wdsclientapi/WdsCliRegisterTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsClientAPI.dll
+api_name:
+ - WdsCliRegisterTrace
 ---
 
 # WdsCliRegisterTrace function
@@ -48,25 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a callback function that will receive debugging messages.
-
 
 ## -parameters
 
-
-
-
 ### -param pfn [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nc-wdsclientapi-pfn_wdsclitracefunction">PFN_WdsCliTraceFunction</a> callback function that receives debugging messages.
-
+A pointer to a <a href="/windows/desktop/api/wdsclientapi/nc-wdsclientapi-pfn_wdsclitracefunction">PFN_WdsCliTraceFunction</a> callback function that receives debugging messages.
 
 ## -returns
 
-
-
 If the function succeeds, the return is <b>S_OK</b>.
-
-
-

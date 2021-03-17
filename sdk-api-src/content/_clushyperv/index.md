@@ -1,9 +1,10 @@
 ---
 UID: TP:clushyperv
+title: Failover Clustering Hyper-V WMI Provider
 ms.assetid: 09a832ff-7219-3268-86c1-02f6fc739622
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Failover Clustering Hyper-V WMI Provider
@@ -15,5 +16,4 @@ Overview of the Failover Clustering Hyper-V WMI Provider technology.
 The Failover Clustering Hyper-V WMI Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Failover Clustering Hyper-V WMI Provider](/windows/desktop/clushyperv)
-
+* [Failover Clustering Hyper-V WMI Provider](/previous-versions/windows/desktop/clushyperv)

@@ -2,15 +2,12 @@
 UID: NF:d2d1_1.ID2D1CommandList.Stream
 title: ID2D1CommandList::Stream (d2d1_1.h)
 description: Streams the contents of the command list to the specified command sink.
+helpviewer_keywords: ["ID2D1CommandList interface [Direct2D]","Stream method","ID2D1CommandList.Stream","ID2D1CommandList::Stream","Stream","Stream method [Direct2D]","Stream method [Direct2D]","ID2D1CommandList interface","d2d1_1/ID2D1CommandList::Stream","direct2d.id2d1commandlist_stream"]
 old-location: direct2d\id2d1commandlist_stream.htm
 tech.root: Direct2D
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
-f1_keywords:
-- d2d1_1/ID2D1CommandList.Stream
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1CommandList.Stream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1CommandList::Stream
+ - d2d1_1/ID2D1CommandList::Stream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandList.Stream
 ---
 
 # ID2D1CommandList::Stream
@@ -48,39 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Streams the contents of the command list  to the specified command sink. 
-
+Streams the contents of the command list  to the specified command sink.
 
 ## -parameters
 
-
-
-
 ### -param sink [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>*</b>
 
 The sink into which the command list will be streamed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
 
 
-The return value indicates any failures the command sink implementation  returns through its <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-enddraw">EndDraw</a> method.
-
-
-
+The return value indicates any failures the command sink implementation  returns through its <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-enddraw">EndDraw</a> method.
 
 ## -remarks
-
-
 
 The command sink can be implemented by any caller of the API.
 
@@ -119,17 +108,6 @@ StreamToMyCommandSink(
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>

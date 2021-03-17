@@ -2,15 +2,12 @@
 UID: NF:interactioncontext.SetMouseWheelParameterInteractionContext
 title: SetMouseWheelParameterInteractionContext function (interactioncontext.h)
 description: Sets the parameter values for mouse wheel input.
+helpviewer_keywords: ["SetMouseWheelParameterInteractionContext","SetMouseWheelParameterInteractionContext function","input_intcontext.setmousewheelparameterinteractioncontext","interactioncontext.setmousewheelparameterinteractioncontext","interactioncontext/SetMouseWheelParameterInteractionContext"]
 old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
 ms.date: 12/05/2018
 ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
-f1_keywords:
-- interactioncontext/SetMouseWheelParameterInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-api_name:
-- SetMouseWheelParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetMouseWheelParameterInteractionContext
+ - interactioncontext/SetMouseWheelParameterInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+api_name:
+ - SetMouseWheelParameterInteractionContext
 ---
 
 # SetMouseWheelParameterInteractionContext function
@@ -48,56 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the parameter values for mouse wheel input. 
-
+Sets the parameter values for mouse wheel input.
 
 ## -parameters
 
-
-
-
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
-
+Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 ### -param value [in]
 
-The value for <i>parameter</i>. 
-
+The value for <i>parameter</i>.
 
 ### -param parameter [in]
 
-One of the constants identified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-mouse_wheel_parameter">MOUSE_WHEEL_PARAMETER</a>.
-
+One of the constants identified by <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-mouse_wheel_parameter">MOUSE_WHEEL_PARAMETER</a>.
 
 ## -returns
-
-
 
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getmousewheelparameterinteractioncontext">GetMouseWheelParameterInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getmousewheelparameterinteractioncontext">GetMouseWheelParameterInteractionContext</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

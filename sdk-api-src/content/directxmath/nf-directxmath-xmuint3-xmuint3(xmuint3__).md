@@ -1,16 +1,13 @@
 ---
-UID: NF:directxmath.XMUINT3.XMUINT3(XMUINT3 &&)
+UID: NF:directxmath.XMUINT3.XMUINT3(XMUINT3&&)
 title: XMUINT3::XMUINT3(XMUINT3 &&) (directxmath.h)
 description: A constructor for XMUINT3.
+helpviewer_keywords: ["XMUINT3","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 structure","XMUINT3 structure [DirectX Math Support APIs]","XMUINT3 constructor","XMUINT3.XMUINT3","XMUINT3.XMUINT3()","XMUINT3.XMUINT3(XMUINT3 &&)","XMUINT3::XMUINT3","XMUINT3::XMUINT3(XMUINT3 &&)","dxmath.xmuint3_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 
 ms.date: 05/13/2019
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3.XMUINT3(XMUINT3 &&), XMUINT3::XMUINT3, XMUINT3::XMUINT3(XMUINT3 &&), dxmath.xmuint3_ctor_1
-f1_keywords:
-- directxmath/XMUINT3.XMUINT3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMUINT3.XMUINT3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUINT3::XMUINT3
+ - directxmath/XMUINT3::XMUINT3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMUINT3.XMUINT3
 ---
 
 # XMUINT3::XMUINT3(XMUINT3 &&)
+
 
 ## -description
 
 A constructor for <code>XMUINT3</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>.
+A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
 ## -parameters
@@ -62,6 +65,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>

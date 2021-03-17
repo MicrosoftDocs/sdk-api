@@ -2,15 +2,12 @@
 UID: NF:mswmdm.ISCPSecureExchange3.TransferCompleteForDevice
 title: ISCPSecureExchange3::TransferCompleteForDevice (mswmdm.h)
 description: The TransferCompleteForDevice method is called by Windows Media Device Manager to signal the end of a data transfer for a specific device.
+helpviewer_keywords: ["ISCPSecureExchange3 interface [windows Media Device Manager]","TransferCompleteForDevice method","ISCPSecureExchange3.TransferCompleteForDevice","ISCPSecureExchange3::TransferCompleteForDevice","ISCPSecureExchange3TransferCompleteForDevice","TransferCompleteForDevice","TransferCompleteForDevice method [windows Media Device Manager]","TransferCompleteForDevice method [windows Media Device Manager]","ISCPSecureExchange3 interface","mswmdm/ISCPSecureExchange3::TransferCompleteForDevice","wmdm.iscpsecureexchange3__transfercompletefordevice"]
 old-location: wmdm\iscpsecureexchange3__transfercompletefordevice.htm
 tech.root: WMDM
 ms.assetid: 5144d290-444d-4a8c-ad3d-292bb8168e99
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange3 interface [windows Media Device Manager],TransferCompleteForDevice method, ISCPSecureExchange3.TransferCompleteForDevice, ISCPSecureExchange3::TransferCompleteForDevice, ISCPSecureExchange3TransferCompleteForDevice, TransferCompleteForDevice, TransferCompleteForDevice method [windows Media Device Manager], TransferCompleteForDevice method [windows Media Device Manager],ISCPSecureExchange3 interface, mswmdm/ISCPSecureExchange3::TransferCompleteForDevice, wmdm.iscpsecureexchange3__transfercompletefordevice
-f1_keywords:
-- mswmdm/ISCPSecureExchange3.TransferCompleteForDevice
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- ISCPSecureExchange3.TransferCompleteForDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureExchange3::TransferCompleteForDevice
+ - mswmdm/ISCPSecureExchange3::TransferCompleteForDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - ISCPSecureExchange3.TransferCompleteForDevice
 ---
 
 # ISCPSecureExchange3::TransferCompleteForDevice
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TransferCompleteForDevice</b> method is called by Windows Media Device Manager to signal the end of a data transfer for a specific device.
 
-
 ## -parameters
-
-
-
 
 ### -param pDevice
 
 Pointer to a device object.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If the method fails, it returns an <b>HRESULT</b> error code.
 
@@ -119,33 +113,17 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a> except that this method is called when transfer is completed within a transfer session.
+This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a> except that this method is called when transfer is completed within a transfer session.
 
 In that case, the secure content provider needs to know which device the transfer was completed for, so this method accepts a <i>pDevice</i> parameter.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a>

@@ -2,15 +2,12 @@
 UID: NF:tapi.lineGenerateDigitsA
 title: lineGenerateDigitsA function (tapi.h)
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
+helpviewer_keywords: ["_tapi2_linegeneratedigits","lineGenerateDigits","lineGenerateDigits function [TAPI 2.2]","lineGenerateDigitsA","lineGenerateDigitsW","tapi/lineGenerateDigits","tapi/lineGenerateDigitsA","tapi/lineGenerateDigitsW","tapi2.linegeneratedigits"]
 old-location: tapi2\linegeneratedigits.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
 ms.date: 12/05/2018
 ms.keywords: _tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits
-f1_keywords:
-- tapi/lineGenerateDigits
-dev_langs:
-- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tapi32.dll
-api_name:
-- lineGenerateDigits
-- lineGenerateDigitsA
-- lineGenerateDigitsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lineGenerateDigitsA
+ - tapi/lineGenerateDigitsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tapi32.dll
+api_name:
+ - lineGenerateDigits
+ - lineGenerateDigitsA
+ - lineGenerateDigitsW
 ---
 
 # lineGenerateDigitsA function
@@ -50,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>lineGenerateDigits</b> function initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode. Calling this function with a <b>NULL</b> value for <i>lpszDigits</i> aborts any digit generation currently in progress. Invoking 
 <b>lineGenerateDigits</b> or 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> while digit generation is in progress aborts the current digit generation or tone generation and initiates the generation of the most recently specified digits or tone.
 
-
 ## -parameters
-
-
-
 
 ### -param hCall
 
 Handle to the call. The application must be an owner of the call. Call state of <i>hCall</i> can be any state. TAPI does not impose any callstate requirements, however some Tapi Service Providers may require that the hCall be in the LINECALLSTATE_CONNECTED state.
 
-
 ### -param dwDigitMode
 
 Format to be used for signaling these digits. Be aware that <i>dwDigitMode</i> can only have a single flag set. This parameter uses one of the 
 <a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
-
 
 ### -param lpszDigits
 
@@ -83,29 +78,20 @@ Pointer to a <b>null</b>-terminated character buffer that contains the digits to
 
 In addition, the comma (,)  is also a valid character. A comma injects an extra delay between the signaling of the previous and next digits it separates. The duration of this pause is configuration defined, and the line device capabilities indicate this duration. Multiple commas can be used to inject longer pauses. Invalid digits are ignored during the generation, rather than being reported as errors.
 
-The exclamation (!) is a valid character. This character causes a "hookflash" operation, as described for <a href="https://docs.microsoft.com/windows/win32/tapi/address-ovr">dialable addresses</a>.
-
+The exclamation (!) is a valid character. This character causes a "hookflash" operation, as described for <a href="/windows/win32/tapi/address-ovr">dialable addresses</a>.
 
 ### -param dwDuration
 
 Both the duration in milliseconds of DTMF digits and pulse and DTMF inter-digit spacing. A value of 0 uses a default value. The <i>dwDuration</i> parameter must be within the range specified by <b>MinDialParams</b> and <b>MaxDialParams</b> in 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>. If out of range, the actual value is set to the nearest value in the range.
 
-
 ## -returns
-
-
 
 Returns zero if the request succeeds or a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALCALLHANDLE, LINEERR_NOTOWNER, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALDIGITMODE, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_RESOURCEUNAVAIL, LINEERR_NOMEM, LINEERR_UNINITIALIZED.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>lineGenerateDigits</b> function is considered to have completed successfully when the digit generation has been successfully initiated, not when all digits have been generated. In contrast to 
@@ -124,10 +110,11 @@ Depending on the service provider and hardware, the application can monitor the 
 
 
 
+
+> [!NOTE]
+> The tapi.h header defines lineGenerateDigits as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
@@ -150,7 +137,4 @@ Depending on the service provider and hardware, the application can monitor the 
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
- 
-
- 
 

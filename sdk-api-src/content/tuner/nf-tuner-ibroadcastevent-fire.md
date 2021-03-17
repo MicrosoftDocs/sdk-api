@@ -2,6 +2,7 @@
 UID: NF:tuner.IBroadcastEvent.Fire
 title: IBroadcastEvent::Fire (tuner.h)
 description: The Fire method fires a broadcast event.
+helpviewer_keywords: ["Fire","Fire method [Microsoft TV Technologies]","Fire method [Microsoft TV Technologies]","IBroadcastEvent interface","IBroadcastEvent interface [Microsoft TV Technologies]","Fire method","IBroadcastEvent.Fire","IBroadcastEvent::Fire","IBroadcastEventFire","mstv.ibroadcastevent_fire","tuner/IBroadcastEvent::Fire"]
 old-location: mstv\ibroadcastevent_fire.htm
 tech.root: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
@@ -94,7 +95,7 @@ For television tuning, the following event is defined.
 </table>
  
 
-For a list of events fired by the TV ratings components, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
+For a list of events fired by the TV ratings components, see <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
 
 
 
@@ -104,12 +105,11 @@ For a list of events fired by the TV ratings components, see <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
  
 
  
-

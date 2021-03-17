@@ -2,15 +2,12 @@
 UID: NF:commctrl.MonthCal_SetColor
 title: MonthCal_SetColor macro (commctrl.h)
 description: Sets the color for a given portion of a month calendar control. You can use this macro or send the MCM_SETCOLOR message explicitly.
+helpviewer_keywords: ["MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK","MCSC_TITLETEXT","MCSC_TRAILINGTEXT","MonthCal_SetColor","MonthCal_SetColor macro [Windows Controls]","_win32_MonthCal_SetColor","_win32_MonthCal_SetColor_cpp","commctrl/MonthCal_SetColor","controls.MonthCal_SetColor","controls._win32_MonthCal_SetColor"]
 old-location: controls\MonthCal_SetColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcolor.htm
 ms.date: 12/05/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_SetColor, MonthCal_SetColor macro [Windows Controls], _win32_MonthCal_SetColor, _win32_MonthCal_SetColor_cpp, commctrl/MonthCal_SetColor, controls.MonthCal_SetColor, controls._win32_MonthCal_SetColor
-f1_keywords:
-- commctrl/MonthCal_SetColor
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_SetColor
+ - commctrl/MonthCal_SetColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_SetColor
 ---
 
 # MonthCal_SetColor macro
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcolor">MCM_SETCOLOR</a> message explicitly. 
-
+Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setcolor">MCM_SETCOLOR</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to a month calendar control. 
-
+Handle to a month calendar control.
 
 ### -param iColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value of type <b>int</b> specifying which month calendar color to set. This value can be one of the following: 
 
@@ -136,22 +132,13 @@ Set the color used to display header day and trailing day text. Header and trail
 </td>
 </tr>
 </table>
- 
-
 
 ### -param clr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-<b>COLORREF</b> value that represents the color that will be set for the specified area of the month calendar. 
-
+<b>COLORREF</b> value that represents the color that will be set for the specified area of the month calendar.
 
 ## -remarks
 
-
-
 If visual styles are active, this macro has no effect except when <i>iColor</i> is MCSC_BACKGROUND.
-            
-
-
-

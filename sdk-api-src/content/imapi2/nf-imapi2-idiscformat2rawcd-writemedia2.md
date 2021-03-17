@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2RawCD.WriteMedia2
 title: IDiscFormat2RawCD::WriteMedia2 (imapi2.h)
 description: Writes a DAO-96 raw image to the blank media using a specified starting address.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","WriteMedia2 method","IDiscFormat2RawCD.WriteMedia2","IDiscFormat2RawCD::WriteMedia2","WriteMedia2","WriteMedia2 method [IMAPI]","WriteMedia2 method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_writemedia2","imapi2/IDiscFormat2RawCD::WriteMedia2"]
 old-location: imapi\idiscformat2rawcd_writemedia2.htm
 tech.root: imapi
 ms.assetid: 636d04dd-081d-407c-827e-55e443516d9b
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia2 method, IDiscFormat2RawCD.WriteMedia2, IDiscFormat2RawCD::WriteMedia2, WriteMedia2, WriteMedia2 method [IMAPI], WriteMedia2 method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia2, imapi2/IDiscFormat2RawCD::WriteMedia2
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.WriteMedia2
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.WriteMedia2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::WriteMedia2
+ - imapi2/IDiscFormat2RawCD::WriteMedia2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.WriteMedia2
 ---
 
 # IDiscFormat2RawCD::WriteMedia2
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes a DAO-96 raw image to the blank media using a specified starting address.
 
-
 ## -parameters
-
-
-
 
 ### -param data [in]
 
 An <b>IStream</b> interface of the data stream to write.
 
-
 ### -param streamLeadInSectors [in]
 
-Starting address at which to begin writing the data stream. 
-
+Starting address at which to begin writing the data stream.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -438,31 +431,15 @@ Value: 0xC0AA0002
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b> method, except that it allows for a starting time other than 95:00:00. For details, please see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> method. 
-
-
-
+This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b> method, except that it allows for a starting time other than 95:00:00. For details, please see the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a>

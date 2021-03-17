@@ -2,15 +2,12 @@
 UID: NF:ddeml.DdeGetLastError
 title: DdeGetLastError function (ddeml.h)
 description: Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR.
+helpviewer_keywords: ["DdeGetLastError","DdeGetLastError function [Data Exchange]","_win32_DdeGetLastError","_win32_ddegetlasterror_cpp","dataxchg.ddegetlasterror","ddeml/DdeGetLastError","winui._win32_ddegetlasterror"]
 old-location: dataxchg\ddegetlasterror.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetlasterror.htm
 ms.date: 12/05/2018
 ms.keywords: DdeGetLastError, DdeGetLastError function [Data Exchange], _win32_DdeGetLastError, _win32_ddegetlasterror_cpp, dataxchg.ddegetlasterror, ddeml/DdeGetLastError, winui._win32_ddegetlasterror
-f1_keywords:
-- ddeml/DdeGetLastError
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeGetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeGetLastError
+ - ddeml/DdeGetLastError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeGetLastError
 ---
 
 # DdeGetLastError function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR. 
-
+Retrieves the most recent error code set by the failure of a Dynamic Data Exchange Management Library (DDEML) function and resets the error code to DMLERR_NO_ERROR.
 
 ## -parameters
-
-
-
 
 ### -param idInst [in]
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
-
+The application instance identifier obtained by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -121,7 +115,7 @@ A request for a synchronous data transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-A DDEML function was called without first calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function, or an invalid instance identifier was passed to a DDEML function.
+A DDEML function was called without first calling the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function, or an invalid instance identifier was passed to a DDEML function.
 
 </td>
 </tr>
@@ -239,7 +233,7 @@ A request for a synchronous poke transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-An internal call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function has failed.
+An internal call to the <a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function has failed.
 
 </td>
 </tr>
@@ -251,7 +245,7 @@ An internal call to the <a href="https://docs.microsoft.com/windows/desktop/api/
 </dl>
 </td>
 <td width="60%">
-An application instance with a synchronous transaction already in progress attempted to initiate another synchronous transaction, or the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a> function was called from within a DDEML callback function.
+An application instance with a synchronous transaction already in progress attempted to initiate another synchronous transaction, or the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a> function was called from within a DDEML callback function.
 
 </td>
 </tr>
@@ -299,43 +293,32 @@ A request to end an advise transaction has timed out.
 </dl>
 </td>
 <td width="60%">
-An invalid transaction identifier was passed to a DDEML function. Once the application has returned from an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> callback, the transaction identifier for that callback function is no longer valid.
+An invalid transaction identifier was passed to a DDEML function. Once the application has returned from an <a href="/windows/desktop/dataxchg/xtyp-xact-complete">XTYP_XACT_COMPLETE</a> callback, the transaction identifier for that callback function is no longer valid.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeenablecallback">DdeEnableCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

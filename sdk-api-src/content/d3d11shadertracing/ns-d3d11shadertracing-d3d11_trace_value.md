@@ -2,15 +2,12 @@
 UID: NS:d3d11shadertracing.D3D11_TRACE_VALUE
 title: D3D11_TRACE_VALUE (d3d11shadertracing.h)
 description: Describes a trace value.
+helpviewer_keywords: ["D3D11_TRACE_VALUE","D3D11_TRACE_VALUE structure [Direct3D 11]","d3d11shadertracing/D3D11_TRACE_VALUE","direct3d11.d3d11_trace_value"]
 old-location: direct3d11\d3d11_trace_value.htm
 tech.root: direct3d11
 ms.assetid: 15AFA648-DCAC-42A1-9606-6E292E92C217
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_VALUE, D3D11_TRACE_VALUE structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_VALUE, direct3d11.d3d11_trace_value
-f1_keywords:
-- d3d11shadertracing/D3D11_TRACE_VALUE
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11ShaderTracing.h
-api_name:
-- D3D11_TRACE_VALUE
 targetos: Windows
 req.typenames: D3D11_TRACE_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TRACE_VALUE
+ - d3d11shadertracing/D3D11_TRACE_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11ShaderTracing.h
+api_name:
+ - D3D11_TRACE_VALUE
 ---
 
 # D3D11_TRACE_VALUE structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a trace value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Bits
 
@@ -99,26 +96,11 @@ A combination of the following component values that are combined by using a bit
  
 
 Ignore unmasked values, particularly if deltas are accumulated.
-          
-
 
 ## -remarks
 
-
-
 This API requires the Windows Software Development Kit (SDK) for Windows 8.
-      
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentContainerList.GetContainerCount
 title: IWMPContentContainerList::GetContainerCount (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContainerCount method retrieves the count of content containers in the container list.
+helpviewer_keywords: ["GetContainerCount","GetContainerCount method [Windows Media Player]","GetContainerCount method [Windows Media Player]","IWMPContentContainerList interface","IWMPContentContainerList interface [Windows Media Player]","GetContainerCount method","IWMPContentContainerList.GetContainerCount","IWMPContentContainerList::GetContainerCount","IWMPContentContainerListGetContainerCount","contentpartner/IWMPContentContainerList::GetContainerCount","wmp.iwmpcontentcontainerlist_getcontainercount"]
 old-location: wmp\iwmpcontentcontainerlist_getcontainercount.htm
 tech.root: WMP
 ms.assetid: e1ed4873-5d07-4a96-bd99-31ceeb423f98
 ms.date: 12/05/2018
 ms.keywords: GetContainerCount, GetContainerCount method [Windows Media Player], GetContainerCount method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainerCount method, IWMPContentContainerList.GetContainerCount, IWMPContentContainerList::GetContainerCount, IWMPContentContainerListGetContainerCount, contentpartner/IWMPContentContainerList::GetContainerCount, wmp.iwmpcontentcontainerlist_getcontainercount
-f1_keywords:
-- contentpartner/IWMPContentContainerList.GetContainerCount
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentContainerList.GetContainerCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentContainerList::GetContainerCount
+ - contentpartner/IWMPContentContainerList::GetContainerCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentContainerList.GetContainerCount
 ---
 
 # IWMPContentContainerList::GetContainerCount
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetContainerCount</b> method retrieves the count of content containers in the container list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcContainer [out]
 
 Address of a <b>ULONG</b> that receives the count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,22 +81,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">IWMPContentContainerList::GetContainer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">IWMPContentContainerList::GetContainer</a>

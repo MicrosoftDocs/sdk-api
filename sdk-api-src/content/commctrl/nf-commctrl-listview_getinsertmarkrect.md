@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetInsertMarkRect
 title: ListView_GetInsertMarkRect macro (commctrl.h)
 description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.
+helpviewer_keywords: ["ListView_GetInsertMarkRect","ListView_GetInsertMarkRect macro [Windows Controls]","_win32_ListView_GetInsertMarkRect","_win32_ListView_GetInsertMarkRect_cpp","commctrl/ListView_GetInsertMarkRect","controls.ListView_GetInsertMarkRect","controls._win32_ListView_GetInsertMarkRect"]
 old-location: controls\ListView_GetInsertMarkRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetInsertMarkRect, ListView_GetInsertMarkRect macro [Windows Controls], _win32_ListView_GetInsertMarkRect, _win32_ListView_GetInsertMarkRect_cpp, commctrl/ListView_GetInsertMarkRect, controls.ListView_GetInsertMarkRect, controls._win32_ListView_GetInsertMarkRect
-f1_keywords:
-- commctrl/ListView_GetInsertMarkRect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetInsertMarkRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetInsertMarkRect
+ - commctrl/ListView_GetInsertMarkRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetInsertMarkRect
 ---
 
 # ListView_GetInsertMarkRect macro
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getinsertmarkrect">LVM_GETINSERTMARKRECT</a> message explicitly. 
-
+Gets the rectangle that bounds the insertion point. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getinsertmarkrect">LVM_GETINSERTMARKRECT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param rc
 
@@ -72,9 +68,4 @@ Type: <b>LPRECT</b>
 
 ## -remarks
 
-
-
-To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_GetInsertMarkRect</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

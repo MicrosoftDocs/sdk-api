@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmMonitorClerks.ProgIdCompensator
 title: ICrmMonitorClerks::ProgIdCompensator (comsvcs.h)
 description: Retrieves the ProgId of the CRM Compensator for the specified index.
+helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","ProgIdCompensator method","ICrmMonitorClerks.ProgIdCompensator","ICrmMonitorClerks::ProgIdCompensator","ProgIdCompensator","ProgIdCompensator method [COM+]","ProgIdCompensator method [COM+]","ICrmMonitorClerks interface","_dtc_ICrmMonitorClerks_ProgIdCompensator","comsvcs/ICrmMonitorClerks::ProgIdCompensator","cos.icrmmonitorclerks_progidcompensator"]
 old-location: cos\icrmmonitorclerks_progidcompensator.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c174908b-293e-4481-b35d-455ee4f52eea
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],ProgIdCompensator method, ICrmMonitorClerks.ProgIdCompensator, ICrmMonitorClerks::ProgIdCompensator, ProgIdCompensator, ProgIdCompensator method [COM+], ProgIdCompensator method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_ProgIdCompensator, comsvcs/ICrmMonitorClerks::ProgIdCompensator, cos.icrmmonitorclerks_progidcompensator
-f1_keywords:
-- comsvcs/ICrmMonitorClerks.ProgIdCompensator
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorClerks.ProgIdCompensator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorClerks::ProgIdCompensator
+ - comsvcs/ICrmMonitorClerks::ProgIdCompensator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorClerks.ProgIdCompensator
 ---
 
 # ICrmMonitorClerks::ProgIdCompensator
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the ProgId of the CRM Compensator for the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 The index of the required CRM clerk as a numeric <b>Variant</b>, or the instance CLSID as a <b>Variant</b> string.
 
-
 ### -param pItem [out]
 
 The ProgId of the CRM Compensator.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +105,7 @@ One of the arguments is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>

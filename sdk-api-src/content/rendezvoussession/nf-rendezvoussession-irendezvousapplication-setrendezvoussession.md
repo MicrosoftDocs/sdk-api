@@ -2,15 +2,12 @@
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
 title: IRendezvousApplication::SetRendezvousSession (rendezvoussession.h)
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
+helpviewer_keywords: ["IRendezvousApplication interface [Remote Assistance]","SetRendezvousSession method","IRendezvousApplication.SetRendezvousSession","IRendezvousApplication::SetRendezvousSession","SetRendezvousSession","SetRendezvousSession method [Remote Assistance]","SetRendezvousSession method [Remote Assistance]","IRendezvousApplication interface","remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession","remoteassist_IRendezvousApplication_SetRendezvousSession","remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp","rendezvoussession/IRendezvousApplication::SetRendezvousSession"]
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
-f1_keywords:
-- rendezvoussession/IRendezvousApplication.SetRendezvousSession
-dev_langs:
-- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RendezvousSession.tlb
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RendezvousSession.tlb
-api_name:
-- IRendezvousApplication.SetRendezvousSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRendezvousApplication::SetRendezvousSession
+ - rendezvoussession/IRendezvousApplication::SetRendezvousSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RendezvousSession.tlb
+api_name:
+ - IRendezvousApplication.SetRendezvousSession
 ---
 
 # IRendezvousApplication::SetRendezvousSession
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Passes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application. 
-
+Passes <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> to the Windows Remote Assistance application. This method is used by the instant messaging application.
 
 ## -parameters
 
-
-
-
 ### -param pRendezvousSession [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a>
+<a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a>
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -79,7 +74,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
+The <a href="/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> was passed to the Windows Remote Assistance application successfully. 
 
 </td>
 </tr>
@@ -106,7 +101,3 @@ A catastrophic error occurred while trying to pass the session to the Windows Re
 </td>
 </tr>
 </table>
- 
-
-
-

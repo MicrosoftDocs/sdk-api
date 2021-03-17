@@ -2,15 +2,12 @@
 UID: NS:wcndevice.tagWCN_VENDOR_EXTENSION_SPEC
 title: WCN_VENDOR_EXTENSION_SPEC (wcndevice.h)
 description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
+helpviewer_keywords: ["PWCN_VENDOR_EXTENSION_SPEC","PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now]","WCN_FLAG_AUTHENTICATED_VE","WCN_FLAG_DISCOVERY_VE","WCN_FLAG_ENCRYPTED_VE","WCN_VENDOR_EXTENSION_SPEC","WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now]","wcn.wcn_vendor_extension_spec","wcndevice/PWCN_VENDOR_EXTENSION_SPEC","wcndevice/WCN_VENDOR_EXTENSION_SPEC"]
 old-location: wcn\wcn_vendor_extension_spec.htm
 tech.root: wcn
 ms.assetid: 8ba35c4a-a644-4c6d-8334-d459e7196b6f
 ms.date: 12/05/2018
 ms.keywords: PWCN_VENDOR_EXTENSION_SPEC, PWCN_VENDOR_EXTENSION_SPEC structure pointer [Windows Connect Now], WCN_FLAG_AUTHENTICATED_VE, WCN_FLAG_DISCOVERY_VE, WCN_FLAG_ENCRYPTED_VE, WCN_VENDOR_EXTENSION_SPEC, WCN_VENDOR_EXTENSION_SPEC structure [Windows Connect Now], wcn.wcn_vendor_extension_spec, wcndevice/PWCN_VENDOR_EXTENSION_SPEC, wcndevice/WCN_VENDOR_EXTENSION_SPEC
-f1_keywords:
-- wcndevice/WCN_VENDOR_EXTENSION_SPEC
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wcndevice.h
-api_name:
-- WCN_VENDOR_EXTENSION_SPEC
 targetos: Windows
 req.typenames: WCN_VENDOR_EXTENSION_SPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWCN_VENDOR_EXTENSION_SPEC
+ - wcndevice/tagWCN_VENDOR_EXTENSION_SPEC
+ - WCN_VENDOR_EXTENSION_SPEC
+ - wcndevice/WCN_VENDOR_EXTENSION_SPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wcndevice.h
+api_name:
+ - WCN_VENDOR_EXTENSION_SPEC
 ---
 
 # WCN_VENDOR_EXTENSION_SPEC structure
@@ -48,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>WCN_VENDOR_EXTENSION_SPEC</b> structure contains data that defines a vendor extension. 
-
+The <b>WCN_VENDOR_EXTENSION_SPEC</b> structure contains data that defines a vendor extension.
 
 ## -struct-fields
-
-
-
 
 ### -field VendorId
 
 Set this value to the SMI Enterprise ID Number of the vendor that defines the vendor extension. For example, the Microsoft ID is '311' (WCN_MICROSOFT_VENDOR_ID).
 
-
 ### -field SubType
 
-The subtype, as defined by the first two bytes of the vendor extension. If the vendor has  not provided the two-byte subtype prefix, use WCN_NO_SUBTYPE. 
-
+The subtype, as defined by the first two bytes of the vendor extension. If the vendor has  not provided the two-byte subtype prefix, use WCN_NO_SUBTYPE.
 
 ### -field Index
 
 Distinguishes between multiple vendor extensions with the same VendorID and SubType. The index begins at zero.
-
 
 ### -field Flags
 
@@ -115,5 +111,4 @@ The vendor extension is authentic and encrypted. In addition to the guarantee of
 </td>
 </tr>
 </table>
- 
 

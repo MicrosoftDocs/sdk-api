@@ -2,15 +2,12 @@
 UID: NF:mergemod.IMsmError.get_ModuleTable
 title: IMsmError::get_ModuleTable (mergemod.h)
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
+helpviewer_keywords: ["IMsmError interface","get_ModuleTable method","IMsmError.get_ModuleTable","IMsmError::get_ModuleTable","_msi_get_moduletable_function","get_ModuleTable","get_ModuleTable method","get_ModuleTable method","IMsmError interface","mergemod/IMsmError::get_ModuleTable","setup.imsmerror_get_moduletable"]
 old-location: setup\imsmerror_get_moduletable.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
-f1_keywords:
-- mergemod/IMsmError.get_ModuleTable
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmError.get_ModuleTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmError::get_ModuleTable
+ - mergemod/IMsmError::get_ModuleTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmError.get_ModuleTable
 ---
 
 # IMsmError::get_ModuleTable
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_ModuleTable</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This method returns the name of the table in the module that caused the error.
-
+<a href="/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
+<a href="/windows/desktop/Msi/error-object">Error</a> object. This method returns the name of the table in the module that caused the error.
 
 ## -parameters
-
-
-
 
 ### -param ErrorTable [out]
 
 A pointer to a location in memory that is filled in with a <b>BSTR</b> value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,29 +104,13 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
-
-
-
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

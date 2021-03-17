@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDAsyncResult.SetCallback
 title: IWSDAsyncResult::SetCallback (wsdclient.h)
 description: Specifies a callback interface to call when the asynchronous operation has completed.
+helpviewer_keywords: ["IWSDAsyncResult interface","SetCallback method","IWSDAsyncResult.SetCallback","IWSDAsyncResult::SetCallback","SetCallback","SetCallback method","SetCallback method","IWSDAsyncResult interface","ncd.iwsdasyncresult_setcallback","wsdclient/IWSDAsyncResult::SetCallback"]
 old-location: ncd\iwsdasyncresult_setcallback.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
-f1_keywords:
-- wsdclient/IWSDAsyncResult.SetCallback
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDAsyncResult.SetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::SetCallback
+ - wsdclient/IWSDAsyncResult::SetCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDAsyncResult.SetCallback
 ---
 
 # IWSDAsyncResult::SetCallback
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies a callback interface to call when the asynchronous operation has completed. 
-
+Specifies a callback interface to call when the asynchronous operation has completed.
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that contains the callback implemented by the user. 
-
+Pointer to a <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object that contains the callback implemented by the user.
 
 ### -param pAsyncState [in]
 
 User-defined state information to pass to the callback.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,29 +99,13 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method is passed the result object associated with the completing message and the state. 
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method is passed the result object associated with the completing message and the state. 
-
-<i>pCallback</i> is released when the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object is destroyed.
-
-
-
+<i>pCallback</i> is released when the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object is destroyed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

@@ -2,15 +2,12 @@
 UID: NF:winternl.RtlUnicodeStringToAnsiString
 title: RtlUnicodeStringToAnsiString function (winternl.h)
 description: Converts the specified Unicode source string into an ANSI string.
+helpviewer_keywords: ["FALSE","RtlUnicodeStringToAnsiString","RtlUnicodeStringToAnsiString function [Windows API]","TRUE","winprog.rtlunicodestringtoansistring","winternl/RtlUnicodeStringToAnsiString","winui.rtlunicodestringtoansistring"]
 old-location: winprog\rtlunicodestringtoansistring.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtoansistring.htm
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring
-f1_keywords:
-- winternl/RtlUnicodeStringToAnsiString
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: NtosKrnl.lib
 req.dll: Ntdll.dll; NtosKrnl.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-- NtosKrnl.exe
-api_name:
-- RtlUnicodeStringToAnsiString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlUnicodeStringToAnsiString
+ - winternl/RtlUnicodeStringToAnsiString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+ - NtosKrnl.exe
+api_name:
+ - RtlUnicodeStringToAnsiString
 ---
 
 # RtlUnicodeStringToAnsiString function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the specified Unicode source string into an ANSI string. 
-
+Converts the specified Unicode source string into an ANSI string.
 
 ## -parameters
 
-
-
-
 ### -param DestinationString [in, out]
 
-A pointer to an <b>ANSI_STRING</b> structure to hold the converted ANSI string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string. 
-
+A pointer to an <b>ANSI_STRING</b> structure to hold the converted ANSI string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently specified buffer to hold the string.
 
 ### -param SourceString [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
-
+The <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure that contains the source string to be converted to ANSI.
 
 ### -param AllocateDestinationString [in]
 
@@ -76,7 +71,7 @@ Controls allocation of the buffer space for the <i>DestinationString</i>.
 
 #### TRUE
 
-Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlfreeansistring">RtlFreeAnsiString</a>.
+Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, the buffer must be deallocated using <a href="/windows/desktop/api/winternl/nf-winternl-rtlfreeansistring">RtlFreeAnsiString</a>.
 
 
 
@@ -84,10 +79,7 @@ Buffer space is allocated for <i>DestinationString</i>. If set to <b>TRUE</b>, t
 
 Buffer space is not allocated for <i>DestinationString</i>.
 
-
 ## -returns
-
-
 
 The various NTSTATUS values are defined in NTSTATUS.H, which is distributed with the DDK.
 
@@ -103,26 +95,16 @@ The various NTSTATUS values are defined in NTSTATUS.H, which is distributed with
 </dl>
 </td>
 <td width="60%">
-The ANSI string was converted to Unicode. Otherwise, no storage was allocated and no conversion was done.
+The Unicode string was converted to ANSI. Otherwise, no storage was allocated and no conversion was done.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The translation is done with respect to the
     current system locale information.
 		
 
-Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-		
-
-
-
+Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

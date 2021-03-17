@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeChangeEvents.RequestTypeChange
 title: ITypeChangeEvents::RequestTypeChange (oaidl.h)
 description: Raised when a request has been made to change a type. The change can be disallowed.
+helpviewer_keywords: ["CHANGEKIND_ADDMEMBER","CHANGEKIND_CHANGEFAILED","CHANGEKIND_DELETEMEMBER","CHANGEKIND_GENERAL","CHANGEKIND_INVALIDATE","CHANGEKIND_SETDOCUMENTATION","CHANGEKIND_SETNAMES","ITypeChangeEvents interface [Automation]","RequestTypeChange method","ITypeChangeEvents.RequestTypeChange","ITypeChangeEvents::RequestTypeChange","RequestTypeChange","RequestTypeChange method [Automation]","RequestTypeChange method [Automation]","ITypeChangeEvents interface","_oa96_ITypeChangeEvents_RequestTypeChange","automat.itypechangeevents_requesttypechange","oaidl/ITypeChangeEvents::RequestTypeChange"]
 old-location: automat\itypechangeevents_requesttypechange.htm
 tech.root: automat
 ms.assetid: 5f968395-263f-41fc-ab75-dbcc34dd50a0
 ms.date: 12/05/2018
 ms.keywords: CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],RequestTypeChange method, ITypeChangeEvents.RequestTypeChange, ITypeChangeEvents::RequestTypeChange, RequestTypeChange, RequestTypeChange method [Automation], RequestTypeChange method [Automation],ITypeChangeEvents interface, _oa96_ITypeChangeEvents_RequestTypeChange, automat.itypechangeevents_requesttypechange, oaidl/ITypeChangeEvents::RequestTypeChange
-f1_keywords:
-- oaidl/ITypeChangeEvents.RequestTypeChange
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeChangeEvents.RequestTypeChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeChangeEvents::RequestTypeChange
+ - oaidl/ITypeChangeEvents::RequestTypeChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeChangeEvents.RequestTypeChange
 ---
 
 # ITypeChangeEvents::RequestTypeChange
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Raised when a request has been made to change a type. The change can be disallowed.
 
-
 ## -parameters
-
-
-
 
 ### -param changeKind [in]
 
@@ -103,27 +100,19 @@ The type of change.
 
 #### CHANGEKIND_CHANGEFAILED
 
-
 ### -param pTInfoBefore [in]
 
-An object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a> interface and that contains the type information before the change was made. The client subscribes to this object to receive notifications about any changes. 
-
-
+An object that implements the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>, <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>, or <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a> interface and that contains the type information before the change was made. The client subscribes to this object to receive notifications about any changes.
 
 ### -param pStrName [in]
 
 The name of the change. This value may be null.
 
-
 ### -param pfCancel [out]
 
 False to disallow the change; otherwise, true.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -168,18 +157,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypechangeevents">ITypeChangeEvents</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypechangeevents">ITypeChangeEvents</a>

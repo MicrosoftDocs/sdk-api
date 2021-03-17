@@ -2,15 +2,12 @@
 UID: NN:wuapi.IUpdateHistoryEntryCollection
 title: IUpdateHistoryEntryCollection (wuapi.h)
 description: Represents an ordered read-only list of IUpdateHistoryEntry interfaces.
+helpviewer_keywords: ["IUpdateHistoryEntryCollection","IUpdateHistoryEntryCollection interface [Windows Update Agent]","IUpdateHistoryEntryCollection interface [Windows Update Agent]","described","wua.iupdatehistoryentrycollection","wuapi/IUpdateHistoryEntryCollection"]
 old-location: wua\iupdatehistoryentrycollection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent],described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
-f1_keywords:
-- wuapi/IUpdateHistoryEntryCollection
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateHistoryEntryCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateHistoryEntryCollection
+ - wuapi/IUpdateHistoryEntryCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateHistoryEntryCollection
 ---
 
 # IUpdateHistoryEntryCollection interface
@@ -48,6 +50,4 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a> interfaces.
-
+Represents an ordered read-only list of <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a> interfaces.

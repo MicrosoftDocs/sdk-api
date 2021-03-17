@@ -2,15 +2,12 @@
 UID: NF:msime.IFEDictionary.ExistWord
 title: IFEDictionary::ExistWord (msime.h)
 description: Determines if the specified word exists in IFEDictionary.
+helpviewer_keywords: ["ExistWord","ExistWord method [Internationalization for Windows Applications]","ExistWord method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","ExistWord method","IFEDictionary.ExistWord","IFEDictionary::ExistWord","intl.ifedictionary_existword","msime/IFEDictionary::ExistWord"]
 old-location: intl\ifedictionary_existword.htm
 tech.root: Intl
 ms.assetid: 70BBC94A-97D6-4237-A0C9-F6861ED6C95D
 ms.date: 12/05/2018
 ms.keywords: ExistWord, ExistWord method [Internationalization for Windows Applications], ExistWord method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],ExistWord method, IFEDictionary.ExistWord, IFEDictionary::ExistWord, intl.ifedictionary_existword, msime/IFEDictionary::ExistWord
-f1_keywords:
-- msime/IFEDictionary.ExistWord
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFEDictionary.ExistWord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::ExistWord
+ - msime/IFEDictionary::ExistWord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFEDictionary.ExistWord
 ---
 
 # IFEDictionary::ExistWord
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines if the specified word exists in <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
-
+Determines if the specified word exists in <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
 
 ## -parameters
 
-
-
-
 ### -param pwrd [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to check.
-
+An <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to check.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,22 +101,11 @@ An unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTrustedOutput.IsFinal
 title: IMFTrustedOutput::IsFinal (mfidl.h)
 description: Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
+helpviewer_keywords: ["085cac9c-f8c1-45b9-a8fe-c2c5cc941439","IMFTrustedOutput interface [Media Foundation]","IsFinal method","IMFTrustedOutput.IsFinal","IMFTrustedOutput::IsFinal","IsFinal","IsFinal method [Media Foundation]","IsFinal method [Media Foundation]","IMFTrustedOutput interface","mf.imftrustedoutput_isfinal","mfidl/IMFTrustedOutput::IsFinal"]
 old-location: mf\imftrustedoutput_isfinal.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439
 ms.date: 12/05/2018
 ms.keywords: 085cac9c-f8c1-45b9-a8fe-c2c5cc941439, IMFTrustedOutput interface [Media Foundation],IsFinal method, IMFTrustedOutput.IsFinal, IMFTrustedOutput::IsFinal, IsFinal, IsFinal method [Media Foundation], IsFinal method [Media Foundation],IMFTrustedOutput interface, mf.imftrustedoutput_isfinal, mfidl/IMFTrustedOutput::IsFinal
-f1_keywords:
-- mfidl/IMFTrustedOutput.IsFinal
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTrustedOutput.IsFinal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTrustedOutput::IsFinal
+ - mfidl/IMFTrustedOutput::IsFinal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTrustedOutput.IsFinal
 ---
 
 # IMFTrustedOutput::IsFinal
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Queries whether this output is a policy sink, meaning it handles the rights and restrictions required by the input trust authority (ITA).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfIsFinal [out]
 
 Receives a Boolean value. If <b>TRUE</b>, this object is a policy sink. If <b>FALSE</b>, the policy must be enforced further downstream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A trusted output is generally considered to be a policy sink if it does not pass the media content that it receives anywhere else; or, if it does pass the media content elsewhere, either it protects the content using some proprietary method such as encryption, or it sufficiently devalues the content so as not to require protection.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>

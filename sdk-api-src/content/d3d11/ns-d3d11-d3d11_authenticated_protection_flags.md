@@ -2,13 +2,11 @@
 UID: NS:d3d11.D3D11_AUTHENTICATED_PROTECTION_FLAGS
 title: D3D11_AUTHENTICATED_PROTECTION_FLAGS
 description: Specifies the protection level for video content.
+tech.root: direct3d11
+helpviewer_keywords: ["D3D11_AUTHENTICATED_PROTECTION_FLAGS"]
 ms.assetid: 037AB541-2E68-460C-8626-7F22C6C3E425
 ms.date: 05/13/2019
 ms.keywords: D3D11_AUTHENTICATED_PROTECTION_FLAGS
-f1_keywords:
-- d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,17 +23,23 @@ req.target-type:
 req.typenames: D3D11_AUTHENTICATED_PROTECTION_FLAGS
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D11_AUTHENTICATED_PROTECTION_FLAGS
+ - d3d11/D3D11_AUTHENTICATED_PROTECTION_FLAGS
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d11.h
+ - d3d11.h
 api_name:
-- D3D11_AUTHENTICATED_PROTECTION_FLAGS
+ - D3D11_AUTHENTICATED_PROTECTION_FLAGS
 ---
 
 # D3D11_AUTHENTICATED_PROTECTION_FLAGS
+
 
 ## -description
 
@@ -67,4 +71,4 @@ Use this member to access all of the bits in the union.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

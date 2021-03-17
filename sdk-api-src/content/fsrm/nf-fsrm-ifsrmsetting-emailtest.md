@@ -2,15 +2,12 @@
 UID: NF:fsrm.IFsrmSetting.EmailTest
 title: IFsrmSetting::EmailTest (fsrm.h)
 description: Send an email message to the specified email address.
+helpviewer_keywords: ["EmailTest","EmailTest method [File Server Resource Manager]","EmailTest method [File Server Resource Manager]","FsrmSetting class","EmailTest method [File Server Resource Manager]","IFsrmSetting interface","FsrmSetting class [File Server Resource Manager]","EmailTest method","IFsrmSetting interface [File Server Resource Manager]","EmailTest method","IFsrmSetting.EmailTest","IFsrmSetting::EmailTest","fs.ifsrmsetting_emailtest","fsrm.ifsrmsetting_emailtest","fsrm/IFsrmSetting::EmailTest"]
 old-location: fsrm\ifsrmsetting_emailtest.htm
 tech.root: fsrm
 ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5
 ms.date: 12/05/2018
 ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager],FsrmSetting class, EmailTest method [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EmailTest method, IFsrmSetting interface [File Server Resource Manager],EmailTest method, IFsrmSetting.EmailTest, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
-f1_keywords:
-- fsrm/IFsrmSetting.EmailTest
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmSetting.EmailTest
-- FsrmSetting.EmailTest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmSetting::EmailTest
+ - fsrm/IFsrmSetting::EmailTest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmSetting.EmailTest
+ - FsrmSetting.EmailTest
 ---
 
 # IFsrmSetting::EmailTest
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Send an email message to the specified email address.
 
-
 ## -parameters
-
-
-
 
 ### -param mailTo [in]
 
 The email address. The string is limited to 255 characters.
 
-
 ## -returns
-
-
 
 The method returns the following return codes:
 
-
-
-
 ## -remarks
 
-
-
 Use this method to test the SMTP server specified in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a> property. The sender is specified in 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a> property (cannot be set to 
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a> property. The sender is specified in 
+    the <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a> property (cannot be set to 
     "[Admin Email]").
 
 The subject and message body are predefined, localized text.
@@ -163,21 +152,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>

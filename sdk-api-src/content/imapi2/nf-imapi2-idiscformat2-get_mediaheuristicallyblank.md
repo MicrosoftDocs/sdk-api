@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2.get_MediaHeuristicallyBlank
 title: IDiscFormat2::get_MediaHeuristicallyBlank (imapi2.h)
 description: Attempts to determine if the media is blank using heuristics (mainly for DVD+RW and DVD-RAM media).
+helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","get_MediaHeuristicallyBlank method","IDiscFormat2.get_MediaHeuristicallyBlank","IDiscFormat2::get_MediaHeuristicallyBlank","get_MediaHeuristicallyBlank","get_MediaHeuristicallyBlank method [IMAPI]","get_MediaHeuristicallyBlank method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_get_mediaheuristicallyblank","imapi2/IDiscFormat2::get_MediaHeuristicallyBlank"]
 old-location: imapi\idiscformat2_get_mediaheuristicallyblank.htm
 tech.root: imapi
 ms.assetid: 28c410cc-5135-4443-8b86-e34676f14f51
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaHeuristicallyBlank method, IDiscFormat2.get_MediaHeuristicallyBlank, IDiscFormat2::get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank method [IMAPI], get_MediaHeuristicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaheuristicallyblank, imapi2/IDiscFormat2::get_MediaHeuristicallyBlank
-f1_keywords:
-- imapi2/IDiscFormat2.get_MediaHeuristicallyBlank
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2.get_MediaHeuristicallyBlank
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2::get_MediaHeuristicallyBlank
+ - imapi2/IDiscFormat2::get_MediaHeuristicallyBlank
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2.get_MediaHeuristicallyBlank
 ---
 
 # IDiscFormat2::get_MediaHeuristicallyBlank
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to determine if the media is blank using heuristics (mainly for DVD+RW and DVD-RAM media).
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Is VARIANT_TRUE if the disc is likely to be blank; otherwise; VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,33 +354,17 @@ The device associated with this recorder during the last operation has been excl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method checks, for example, for a mounted file system on the device, verifying the first and last 2MB of the disc are filled with zeros, and other media-specific checks.  These checks can help to determine if the media may have files on it for media that cannot be erased physically to a blank status.
 
-For a positive check that a disc is blank, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a> method.
-
-
-
+For a positive check that a disc is blank, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a>

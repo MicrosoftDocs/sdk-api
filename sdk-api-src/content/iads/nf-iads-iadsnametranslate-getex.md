@@ -2,15 +2,12 @@
 UID: NF:iads.IADsNameTranslate.GetEx
 title: IADsNameTranslate::GetEx (iads.h)
 description: Gets the object names in the specified format.
+helpviewer_keywords: ["GetEx","GetEx method [ADSI]","GetEx method [ADSI]","IADsNameTranslate interface","IADsNameTranslate interface [ADSI]","GetEx method","IADsNameTranslate.GetEx","IADsNameTranslate::GetEx","_ds_iadsnametranslate_getex","adsi.iadsnametranslate__getex","adsi.iadsnametranslate_getex","iads/IADsNameTranslate::GetEx"]
 old-location: adsi\iadsnametranslate_getex.htm
 tech.root: adsi
 ms.assetid: 01c4fc79-ed5b-4a24-9b97-25b4095a9c8f
 ms.date: 12/05/2018
 ms.keywords: GetEx, GetEx method [ADSI], GetEx method [ADSI],IADsNameTranslate interface, IADsNameTranslate interface [ADSI],GetEx method, IADsNameTranslate.GetEx, IADsNameTranslate::GetEx, _ds_iadsnametranslate_getex, adsi.iadsnametranslate__getex, adsi.iadsnametranslate_getex, iads/IADsNameTranslate::GetEx
-f1_keywords:
-- iads/IADsNameTranslate.GetEx
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNameTranslate.GetEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNameTranslate::GetEx
+ - iads/IADsNameTranslate::GetEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNameTranslate.GetEx
 ---
 
 # IADsNameTranslate::GetEx
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>.
-
+The <b>IADsNameTranslate::GetEx</b> method gets the object names in the specified format. The  object names must be set by  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>.
 
 ## -parameters
 
-
-
-
 ### -param lnFormatType
 
-The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
-
+The format type used for  the output names. For more information about the various types of formats you can use, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>. This method does not support the ADS_NAME_TYPE_SID_OR_SID_HISTORY_NAME element in <b>ADS_NAME_TYPE_ENUM</b>.
 
 ### -param pvar
 
 A variant array of strings that hold names of the objects returned.
 
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> return values, including:
 
-
-
-
 ## -remarks
-
-
 
 This method gets the names of multiple objects. However, all of the  names returned use a single format.
 
@@ -190,25 +178,14 @@ The following VBScript/ASP code example translates two distinguished names compl
 </html>
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>

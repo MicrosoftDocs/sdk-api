@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.IsUsingTimeFormat
 title: IMediaSeeking::IsUsingTimeFormat (strmif.h)
 description: The IsUsingTimeFormat method determines whether seek operations are currently using a specified time format.
+helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","IsUsingTimeFormat method","IMediaSeeking.IsUsingTimeFormat","IMediaSeeking::IsUsingTimeFormat","IMediaSeekingIsUsingTimeFormat","IsUsingTimeFormat","IsUsingTimeFormat method [DirectShow]","IsUsingTimeFormat method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_isusingtimeformat","strmif/IMediaSeeking::IsUsingTimeFormat"]
 old-location: dshow\imediaseeking_isusingtimeformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
-f1_keywords:
-- strmif/IMediaSeeking.IsUsingTimeFormat
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.IsUsingTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::IsUsingTimeFormat
+ - strmif/IMediaSeeking::IsUsingTimeFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.IsUsingTimeFormat
 ---
 
 # IMediaSeeking::IsUsingTimeFormat
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsUsingTimeFormat</code> method determines whether seek operations are currently using a specified time format.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pFormat [in]
 
-Pointer to a GUID that specifies the time format. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
-
+Pointer to a GUID that specifies the time format. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -122,35 +113,19 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is slightly more efficient than the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-gettimeformat">IMediaSeeking::GetTimeFormat</a> method, because it does not require copying the GUID.
-
-
-
+This method is slightly more efficient than the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-gettimeformat">IMediaSeeking::GetTimeFormat</a> method, because it does not require copying the GUID.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>

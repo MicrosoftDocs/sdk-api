@@ -2,15 +2,12 @@
 UID: NS:winddi._GDIINFO
 title: GDIINFO (winddi.h)
 description: The GDIINFO structure describes the graphics capabilities of a given device.
+helpviewer_keywords: ["*PGDIINFO","GDIINFO","GDIINFO structure [Display Devices]","PGDIINFO","PGDIINFO structure pointer [Display Devices]","display.gdiinfo","grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml","winddi/GDIINFO","winddi/PGDIINFO"]
 old-location: display\gdiinfo.htm
 tech.root: display
 ms.assetid: f75f599f-43ea-4da6-a6e3-6591cf6d69f1
 ms.date: 12/05/2018
 ms.keywords: '*PGDIINFO, GDIINFO, GDIINFO structure [Display Devices], PGDIINFO, PGDIINFO structure pointer [Display Devices], display.gdiinfo, grstrcts_181c0d6e-5908-4505-8093-956eefc87c85.xml, winddi/GDIINFO, winddi/PGDIINFO'
-f1_keywords:
-- winddi/GDIINFO
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- GDIINFO
 targetos: Windows
 req.typenames: GDIINFO, *PGDIINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _GDIINFO
+ - winddi/_GDIINFO
+ - PGDIINFO
+ - winddi/PGDIINFO
+ - GDIINFO
+ - winddi/GDIINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - GDIINFO
 ---
 
 # GDIINFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The GDIINFO structure describes the graphics capabilities of a given device. 
-
+The GDIINFO structure describes the graphics capabilities of a given device.
 
 ## -struct-fields
-
-
-
 
 ### -field ulVersion
 
@@ -66,7 +67,6 @@ Specifies the driver version number. The byte ordering of <b>ulVersion</b> has t
 The high-order 16 bits must be set to zero. Bits 8 through 15 specify the version number of the Microsoft operating system for which the driver is designed. The high-order 4 bits of this range specify the major number of the version, the low-order 4 bits contain the minor number of the version. The low-order 8 bits of <b>ulVersion</b> specify the version number of the display driver; this value should be incremented for each release of the display driver binary file.
 
 The Display program in Control Panel indicates the version number contained in <b>ulVersion</b>, along with other driver-specific information.
-
 
 ### -field ulTechnology
 
@@ -128,50 +128,40 @@ Raster printer
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ulHorzSize
 
 Specifies the width of the physical surface. A positive value indicates that the width is in units of millimeters, while a negative value denotes that the width is in units of micrometers.
 
-
 ### -field ulVertSize
 
 Specifies the height of the physical surface. A positive value indicates that the height is in units of millimeters, while a negative value denotes that the height is in units of micrometers.
-
 
 ### -field ulHorzRes
 
 Specifies the width in pixels of the physical surface (display devices), or of the printable surface (printers). 
 
-See also <b>ulDesktopHorzRes</b>. 
-
+See also <b>ulDesktopHorzRes</b>.
 
 ### -field ulVertRes
 
-Specifies the height in pixels of the physical surface (display devices), or of the printable surface (printers).  
-
+Specifies the height in pixels of the physical surface (display devices), or of the printable surface (printers).
 
 ### -field cBitsPixel
 
 Specifies the number of adjacent bits in each color plane. The total number of bits per pixel is the product of <b>cBitsPixel</b> and <b>cPlanes</b>.
 
-
 ### -field cPlanes
 
 Specifies the number of color planes.
-
 
 ### -field ulNumColors
 
 For palettized devices, <b>ulNumColors</b> specifies the number of entries in the default color palette. For nonpalettized devices (which do not include printers), <b>ulNumColors</b> is set to -1.
 
-
 ### -field flRaster
 
 Is reserved and must be left set to zero.
-
 
 ### -field ulLogPixelsX
 
@@ -181,7 +171,6 @@ For printers, this member should be set to the printer's resolution in dpi.
 
 For displays, this member must be set to 96.
 
-
 ### -field ulLogPixelsY
 
 Specifies the height resolution of the device in logical pixels per inch.
@@ -190,72 +179,57 @@ For printers, this member should be set to the printer's resolution in dpi.
 
 For displays, this member must be set to 96.
 
-
 ### -field flTextCaps
 
-Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function rather than the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
-
+Specifies a flag describing Windows 3.1 text capabilities. If the driver TC_SCROLLBLT flag is in this member, it indicates that the console should perform text scrolling by redrawing the entire screen, using the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function rather than the <a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a> or <a href="/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> functions. The driver should set this flag if screen-to-screen bit-block transfers are slow. If this flag is not set, the driver is implicitly requesting that the console perform text scrolls through <i>DrvBitBlt</i><b>/</b><i>DrvCopyBits</i>.
 
 ### -field ulDACRed
 
-
 ### -field ulDACGreen
-
 
 ### -field ulDACBlue
 
 Specifies the display number of DAC bits for the specified color.
 
-
 ### -field ulAspectX
 
 Specifies the relative width of a device pixel, in the range of one to 1000.
-
 
 ### -field ulAspectY
 
 Specifies the relative height of a device pixel, in the range of one to 1000.
 
-
 ### -field ulAspectXY
 
 Specifies the square root of the sum of the squares of <b>ulAspectX</b> and <b>ulAspectY</b>.
 
-
 ### -field xStyleStep
 
-Specifies the numerator of style advance for x-major lines, <i>dx</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
-
+Specifies the numerator of style advance for x-major lines, <i>dx</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field yStyleStep
 
-Specifies the numerator of style advance for y-major lines, <i>dy</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
-
+Specifies the numerator of style advance for y-major lines, <i>dy</i>. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field denStyleStep
 
-Specifies the denominator of style advance, D. For additional information, refer to the following <b>Remarks</b> section and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
-
+Specifies the denominator of style advance, D. For additional information, refer to the following <b>Remarks</b> section and <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 ### -field ptlPhysOffset
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
-
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the size, in pixels, of the unwritable margin of a surface.
 
 ### -field szlPhysSize
 
-Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
-
+Specifies a SIZEL structure that contains the size, in pixels, of the entire surface, including unwritable margins. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -field ulNumPalReg
 
 Specifies the number of palette registers for an indexed device.
 
-
 ### -field ciDevice
 
-Is a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
-
+Is a <a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a> structure that defines the device's colors in CIE coordinate space.
 
 ### -field ulDevicePelsDPI
 
@@ -264,7 +238,6 @@ For printers, specifies the number of pixels (or dots, or nozzles) per inch if t
 Because the physical dot size for most printers is larger than the measured dot size, GDI uses this value to approximate how many physical dots can be placed, based on the cell size (pattern size). A log regression is then performed to determine what is most linear; that is, where the dots should be placed for the best coverage to optimize the overlapped device pixels coverage (dot gain).
 
 For displays, this member should be set to zero.
-
 
 ### -field ulPrimaryOrder
 
@@ -336,8 +309,6 @@ Device output order is BRG or YCM. Blue or yellow is in the least significant bi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ulHTPatternSize
 
@@ -368,8 +339,6 @@ Specifies the size of the halftone pattern. The values ending with <i>A</i>x<i>B
 <dt>HT_PATSIZE_DEFAULT</dt>
 </dl>
 
-
-
 ### -field ulHTOutputFormat
 
 Specifies the preferred output format for halftone. HT_FORMAT_4BPP uses only 8 full intensity colors while HT_FORMATP_IRGB uses all the 16 colors including the half-intensity colors. It is assumed that a 5 x 5 x 5 format (5 bits per color) is used for HT_FORMAT_16BPP. This member can be one of the following values:
@@ -384,8 +353,6 @@ Specifies the preferred output format for halftone. HT_FORMAT_4BPP uses only 8 f
 <dt>HT_FORMAT_24BPP</dt>
 <dt>HT_FORMAT_32BPP</dt>
 </dl>
-
-
 
 ### -field flHTFlags
 
@@ -402,7 +369,7 @@ HT_FLAG_8BPP_CMY332_MASK
 
 </td>
 <td>
-Flag used to clear the upper eight bits of <b>flHTFlags</b> (bits 24 to 31). The <b>MAKE_CMY332_MASK</b> macro can then be used to set these bits with 8-bit-per-pixel CMY mode ink level information. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information.
+Flag used to clear the upper eight bits of <b>flHTFlags</b> (bits 24 to 31). The <b>MAKE_CMY332_MASK</b> macro can then be used to set these bits with 8-bit-per-pixel CMY mode ink level information. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information.
 
 </td>
 </tr>
@@ -485,7 +452,7 @@ HT_FLAG_INVERT_8BPP_BITMASK_IDX
 
 </td>
 <td>
-GDI halftone should render 8-bit-per-pixel ask mode surface bitmap using a CMY_INVERTED mode palette. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for CMY_INVERTED mode palette description and requirements.
+GDI halftone should render 8-bit-per-pixel ask mode surface bitmap using a CMY_INVERTED mode palette. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for CMY_INVERTED mode palette description and requirements.
 
 </td>
 </tr>
@@ -556,8 +523,6 @@ Device uses monochrome printing.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ulVRefresh
 
@@ -565,58 +530,45 @@ The video refresh rate for the current display mode. This is the value returned 
 
 The Display program in Control Panel displays the refresh rate contained in the <b>ulVRefresh</b> member.
 
-
 ### -field ulBltAlignment
 
 This member indicates the preferred x-alignment for bit block transfers to the device. A value of zero indicates that bit block transfers are accelerated; any other nonnegative number indicates that bit block transfers are not accelerated, and gives the preferred horizontal alignment as a pixel multiple.
 
 This value is used by the system to determine the default alignment for window positions and is also used to set the initial full-drag default during setup. A value of zero indicates that full-drag should be on by default; any value other than zero indicates that full-drag should be off by default.
 
-
 ### -field ulPanningHorzRes
-
 
 ### -field ulPanningVertRes
 
 Should be ignored by the driver and remain zero-initialized.
-     
-
 
 ### -field xPanningAlignment
-
 
 ### -field yPanningAlignment
 
 Should be ignored by the driver and remain zero-initialized.
 
-
 ### -field cxHTPat
-
 
 ### -field cyHTPat
 
 Specify the width and height, respectively, in pixels, of the user-supplied halftone dither pattern. The value of <b>cxHTPat</b> must be in the range HT_USERPAT_CX_MIN to HT_USERPAT_CX_MAX, inclusive. The value of <b>cyHTPat</b> must be in the range HT_USERPAT_CY_MIN to HT_USERPAT_CY_MAX, inclusive. These constants are defined in <i>winddi.h</i>. See the following <b>Remarks</b> section for more information.
 
-
 ### -field pHTPatA
 
-
 ### -field pHTPatB
-
 
 ### -field pHTPatC
 
 Point to the user-defined halftone dither patterns for primary colors A, B, and C, respectively, as defined by the PRIMARY_ORDER_XXX value in the <b>ulPrimaryOrder</b> member. Each dither pattern must be a valid two-dimensional byte array of size <b>cxHTPat</b> by <b>cyHTPat</b>. See the following <b>Remarks</b> section for more information.
 
-
 ### -field flShadeBlend
 
 Specifies a set of flags that indicate the shading and blending capabilities of the device. Display drivers should ignore this member and should leave it set to zero. For printer drivers, the value that the driver places in this member is the value that GDI reports when an application calls <b>GetDeviceCaps</b>(hdc, SHADEBLENDCAPS). The <b>GetDeviceCaps</b> function is described in the Microsoft Window SDK documentation.
 
-
 ### -field ulPhysicalPixelCharacteristics
 
-Specifies the way that color fragments are configured to form pixels on the display device. The color fragments on the display device can be arranged in RGB order, or in BGR order, completely independent of the RGB ordering in the <a href="https://docs.microsoft.com/windows-hardware/drivers/">frame buffer</a>. The color fragments can be configured in horizontal stripes in which all of the fragments in one row are the same color. Alternatively, the color fragments can be configured in vertical stripes, in which all fragments in one column are the same color. Vertical striping is preferred, since it effectively provides three separate fragments in a row for each pixel, thereby giving greater horizontal subpixel resolution.  
+Specifies the way that color fragments are configured to form pixels on the display device. The color fragments on the display device can be arranged in RGB order, or in BGR order, completely independent of the RGB ordering in the <a href="/windows-hardware/drivers/">frame buffer</a>. The color fragments can be configured in horizontal stripes in which all of the fragments in one row are the same color. Alternatively, the color fragments can be configured in vertical stripes, in which all fragments in one column are the same color. Vertical striping is preferred, since it effectively provides three separate fragments in a row for each pixel, thereby giving greater horizontal subpixel resolution.  
 
 The <b>ulPhysicalPixelCharacteristics</b> member must be set to one of the values shown in the following table:
 
@@ -696,8 +648,6 @@ The device is an LCD device but the resolution of the frame buffer is different 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ulPhysicalPixelGamma
 
@@ -729,14 +679,10 @@ The device uses an sRGB gamma.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-GDI zero-initializes this structure before calling the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
+GDI zero-initializes this structure before calling the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
 
 The <b>xStyleStep</b>, <b>yStyleStep</b>, and <b>denStyleStep</b> members define how a cosmetic line style should advance as it draws each pixel of a cosmetic line. The amount advanced along the style for each pixel is defined as a fraction that depends on whether the line is x-styled or y-styled. If the line is x-styled, the style advances by the fractional amount <b>dx/D</b> for each pixel moved in the x direction. Otherwise the style advances by <b>dy/D</b> for each pixel moved in the y direction.
 
@@ -756,42 +702,32 @@ In this case, horizontal dotted lines are 4-pixels-on, 4-pixels-off, because the
 
 Styled lines look better if both the x and y style steps divide evenly into the style denominator, as they do in the preceding example. This gives dashes and dots that are always the same length.
 
-GDI needs this information so that its bitmap functions can emulate exactly what the device does on its own surface. Applications can access this information to determine exactly which pixels will be turned on for styled lines. Refer also to <a href="https://docs.microsoft.com/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
+GDI needs this information so that its bitmap functions can emulate exactly what the device does on its own surface. Applications can access this information to determine exactly which pixels will be turned on for styled lines. Refer also to <a href="/windows-hardware/drivers/display/styled-cosmetic-lines">Styled Cosmetic Lines</a>.
 
 The halftone-related members, <b>cxHTPat</b>, <b>cyHTPat</b>, <b>pHTPatA</b>, <b>pHTPatB</b>, and <b>pHTPatC</b>, can be used in an OEM Unidrv rendering plug-in to define a custom halftone pattern consisting of either one or three colors. These members are checked only if the <b>ulHTPatternSize</b> member is set to HT_PATSIZE_USER. In this case an OEM can use these members to define a custom halftone pattern, based on data stored in a resource file or generated by an OEM customization module. The <b>cxHTPat</b> and <b>cyHTPat</b> members define the size of each of the three two-dimensional halftone pattern arrays. The <b>pHTPatA</b>, <b>pHTPatB</b>, and <b>pHTPatC</b> members point to the respective pattern arrays for each color. If only one pattern array is used, <b>pHTPatA</b>, <b>pHTPatB</b>, and<b> pHTPatC</b> point to it.
 
-Each byte threshold at a particular location in a halftone dither pattern determines whether the pixel at the corresponding output plane location will be on or off. A zero threshold value at a particular location in the pattern array indicates that the corresponding pixel location is ignored (is black). Threshold values from 1 to 255 provide the dither pattern with 255 levels of gray; if the pixel value in the output plane is greater than or equal to the threshold value for that location, the pixel is turned on. A pixel value less than its corresponding threshold value causes its pixel to be turned off in the output plane. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-halftoning">Customized Halftoning</a> in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a> for more information.
-
-
-
+Each byte threshold at a particular location in a halftone dither pattern determines whether the pixel at the corresponding output plane location will be on or off. A zero threshold value at a particular location in the pattern array indicates that the corresponding pixel location is ignored (is black). Threshold values from 1 to 255 provide the dither pattern with 255 levels of gray; if the pixel value in the output plane is greater than or equal to the threshold value for that location, the pixel is turned on. A pixel value less than its corresponding threshold value causes its pixel to be turned off in the output plane. See <a href="/windows-hardware/drivers/print/customized-halftoning">Customized Halftoning</a> in <a href="/windows-hardware/drivers/print/customizing-microsoft-s-printer-drivers">Customizing Microsoft's Printer Drivers</a> for more information.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ciechroma">CIECHROMA</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-colorinfo">COLORINFO</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>

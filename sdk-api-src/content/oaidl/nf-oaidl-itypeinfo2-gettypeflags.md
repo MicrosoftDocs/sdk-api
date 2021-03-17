@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetTypeFlags
 title: ITypeInfo2::GetTypeFlags (oaidl.h)
 description: Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
+helpviewer_keywords: ["GetTypeFlags","GetTypeFlags method [Automation]","GetTypeFlags method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetTypeFlags method","ITypeInfo2.GetTypeFlags","ITypeInfo2::GetTypeFlags","_oa96_ITypeInfo2_GetTypeFlags","automat.itypeinfo2_gettypeflags","oaidl/ITypeInfo2::GetTypeFlags"]
 old-location: automat\itypeinfo2_gettypeflags.htm
 tech.root: automat
 ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
 ms.date: 12/05/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
-f1_keywords:
-- oaidl/ITypeInfo2.GetTypeFlags
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetTypeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetTypeFlags
+ - oaidl/ITypeInfo2::GetTypeFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetTypeFlags
 ---
 
 # ITypeInfo2::GetTypeFlags
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
 
-
 ## -parameters
-
-
-
 
 ### -param pTypeFlags [out]
 
 A TYPEFLAG value.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,18 +104,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.get_deviceName
 title: IWMPSyncDevice::get_deviceName (wmp.h)
 description: The get_deviceName method retrieves the name of the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_deviceName method","IWMPSyncDevice.get_deviceName","IWMPSyncDevice::get_deviceName","IWMPSyncDeviceget_deviceName","get_deviceName","get_deviceName method [Windows Media Player]","get_deviceName method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_devicename","wmp/IWMPSyncDevice::get_deviceName"]
 old-location: wmp\iwmpsyncdevice_get_devicename.htm
 tech.root: WMP
 ms.assetid: daa490a9-d7b8-4162-a4e2-f88b8f091fa3
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceName method, IWMPSyncDevice.get_deviceName, IWMPSyncDevice::get_deviceName, IWMPSyncDeviceget_deviceName, get_deviceName, get_deviceName method [Windows Media Player], get_deviceName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_devicename, wmp/IWMPSyncDevice::get_deviceName
-f1_keywords:
-- wmp/IWMPSyncDevice.get_deviceName
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.get_deviceName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::get_deviceName
+ - wmp/IWMPSyncDevice::get_deviceName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.get_deviceName
 ---
 
 # IWMPSyncDevice::get_deviceName
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_deviceName</b> method retrieves the name of the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrName [out]
 
 Pointer to a <b>BSTR</b> that contains the name of the device.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,37 +90,21 @@ Windows Media Player is currently busy initializing devices. Please try again la
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method retrieves the device name that appears in the Windows XP user interface.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>

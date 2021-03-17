@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPGETSOCKOPT
 title: LPWSPGETSOCKOPT
 description: The LPWSPGetSockOpt function retrieves a socket option.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPGETSOCKOPT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETSOCKOPT
 targetos: Windows
@@ -25,39 +27,50 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPGETSOCKOPT
+ - LPWSPGETSOCKOPT
+f1_keywords:
+ - LPWSPGETSOCKOPT
+ - ws2spi/LPWSPGETSOCKOPT
 ---
 
 ## -description
+
 The **LPWSPGetSockOpt** function retrieves a socket option.
 
 ## -parameters
 
 ### -param s
+
 A descriptor identifying a socket.
 
 ### -param level
+
 The level at which the option is defined; the supported levels include <b><a href="/windows/win32/winsock/sol-socket-socket-options">SOL_SOCKET</a></b>. (See annex for more protocol-specific levels.)
 
 ### -param optname
+
 The socket option for which the value is to be retrieved.
 
 ### -param optval
+
 A pointer to the buffer in which the value for the requested option is to be returned.
 
 ### -param optlen
+
 A pointer to the size, in bytes, of the <i>optval</i> buffer.
 
 ### -param lpErrno
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPGetSockOpt** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -132,8 +145,9 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
-    
+
 ## -remarks
+
 The **LPWSPGetSockOpt** function retrieves the current value for a socket option associated with a socket of any type, in any state, and stores the result in <i>optval</i>. Options can exist at multiple protocol levels, but they are always present at the uppermost socket' level. Options affect socket operations, such as the routing of packets and OOB data transfer.
 
 The value associated with the selected option is returned in the buffer <i>optval</i>. The integer pointed to by <i>optlen</i> should originally contain the size of this buffer; on return, it will be set to the size of the value returned. For SO_LINGER, this will be the size of a structure linger; for most other options it will be the size of an integer.
@@ -215,7 +229,7 @@ A Windows Sockets SPI client can request that a TCP/IP service provider enable t
 <span id="SO_LINGER"></span><span id="so_linger"></span>SO_LINGER
 </dt> <dd>
 
-SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the SO_LINGER settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client obtains the desired behavior by creating a <b><a href="/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure (pointed to by the *<i>optval</i>* parameter) with the following elements:
+SO_LINGER controls the action taken when unsent data is queued on a socket and a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> is performed. See **LPWSPCloseSocket** for a description of the way in which the SO_LINGER settings affect the semantics of **LPWSPCloseSocket**. The Windows Sockets SPI client obtains the desired behavior by creating a <b><a href="/windows/win32/api/winsock2/ns-winsock2-linger">LINGER</a></b> structure (pointed to by the *<i>optval</i>* parameter) with the following elements:
 
 
 ```C++
@@ -265,5 +279,4 @@ This option retrieves an opaque data structure object from the service provider 
    
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>
-  
 

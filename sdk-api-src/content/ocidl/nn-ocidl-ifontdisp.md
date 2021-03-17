@@ -2,15 +2,12 @@
 UID: NN:ocidl.IFontDisp
 title: IFontDisp (ocidl.h)
 description: Exposes a font object's properties through Automation. It provides a subset of the IFont methods.
+helpviewer_keywords: ["IFontDisp","IFontDisp interface [COM]","IFontDisp interface [COM]","described","_ctrl_ifontdisp","com.ifontdisp","ocidl/IFontDisp"]
 old-location: com\ifontdisp.htm
 tech.root: com
 ms.assetid: c2ee251e-2419-4436-96e4-caaf6acc2550
 ms.date: 12/05/2018
 ms.keywords: IFontDisp, IFontDisp interface [COM], IFontDisp interface [COM],described, _ctrl_ifontdisp, com.ifontdisp, ocidl/IFontDisp
-f1_keywords:
-- ocidl/IFontDisp
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFontDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFontDisp
+ - ocidl/IFontDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFontDisp
 ---
 
 # IFontDisp interface
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes a font object's properties through Automation. It provides a subset of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> methods.
-
+Exposes a font object's properties through Automation. It provides a subset of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> methods.
 
 ## -remarks
-
-
 
 The following table describes the dispIDs for the various font properties.
 
@@ -176,18 +174,8 @@ Each property in the <b>IFontDisp</b> interface includes a <b>get_PropertyName</
  
 
 <h3><a id="OLE_Implementation"></a><a id="ole_implementation"></a><a id="OLE_IMPLEMENTATION"></a>OLE Implementation</h3>
-The system provides a standard implementation of a font object with the <b>IFontDisp</b> interface on top of the underlying system font support. A font object is created through the function <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>. A font object supports a number of read/write properties as well as a set of methods through its interface <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> and supports the same set of properties (but not the methods) through a dispatch interface <b>IFontDisp</b> which is derived from <b>IDispatch</b> to provide access to the font's properties through Automation. The system implementation of the font object supplies both interfaces.
-
-
-
+The system provides a standard implementation of a font object with the <b>IFontDisp</b> interface on top of the underlying system font support. A font object is created through the function <a href="/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>. A font object supports a number of read/write properties as well as a set of methods through its interface <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> and supports the same set of properties (but not the methods) through a dispatch interface <b>IFontDisp</b> which is derived from <b>IDispatch</b> to provide access to the font's properties through Automation. The system implementation of the font object supplies both interfaces.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>

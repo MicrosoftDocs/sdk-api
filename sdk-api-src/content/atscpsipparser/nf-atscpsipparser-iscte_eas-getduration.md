@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ISCTE_EAS.GetDuration
 title: ISCTE_EAS::GetDuration (atscpsipparser.h)
 description: The GetDuration method returns the expected duration of the alert.
+helpviewer_keywords: ["GetDuration","GetDuration method [Microsoft TV Technologies]","GetDuration method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetDuration method","ISCTE_EAS.GetDuration","ISCTE_EAS::GetDuration","ISCTE_EASGetDuration","atscpsipparser/ISCTE_EAS::GetDuration","mstv.iscte_eas_getduration"]
 old-location: mstv\iscte_eas_getduration.htm
 tech.root: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
-f1_keywords:
-- atscpsipparser/ISCTE_EAS.GetDuration
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ISCTE_EAS.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCTE_EAS::GetDuration
+ - atscpsipparser/ISCTE_EAS::GetDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ISCTE_EAS.GetDuration
 ---
 
 # ISCTE_EAS::GetDuration
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDuration</b> method returns the expected duration of the alert.
 
-
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the event_duration field. The value of the field is the expected duration in minutes, most significant bit first.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -81,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -97,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

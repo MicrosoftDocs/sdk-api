@@ -2,15 +2,12 @@
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceName
 title: IWdsTransportSession::get_NetworkInterfaceName (wdstptmgmt.h)
 description: Receives the name of the server network interface used by this transport session.
+helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","NetworkInterfaceName property","IWdsTransportSession.NetworkInterfaceName","IWdsTransportSession.get_NetworkInterfaceName","IWdsTransportSession::NetworkInterfaceName","IWdsTransportSession::get_NetworkInterfaceName","NetworkInterfaceName property [Windows Deployment Services]","NetworkInterfaceName property [Windows Deployment Services]","IWdsTransportSession interface","get_NetworkInterfaceName","wds.iwdstransportsession_networkinterfacename","wdstptmgmt/IWdsTransportSession::NetworkInterfaceName","wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName"]
 old-location: wds\iwdstransportsession_networkinterfacename.htm
 tech.root: wds
 ms.assetid: 2408b109-6878-4c66-ba44-196c10b2ae96
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceName property, IWdsTransportSession.NetworkInterfaceName, IWdsTransportSession.get_NetworkInterfaceName, IWdsTransportSession::NetworkInterfaceName, IWdsTransportSession::get_NetworkInterfaceName, NetworkInterfaceName property [Windows Deployment Services], NetworkInterfaceName property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceName, wds.iwdstransportsession_networkinterfacename, wdstptmgmt/IWdsTransportSession::NetworkInterfaceName, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
-f1_keywords:
-- wdstptmgmt/IWdsTransportSession.NetworkInterfaceName
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportSession.NetworkInterfaceName
-- IWdsTransportSession.get_NetworkInterfaceName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportSession::get_NetworkInterfaceName
+ - wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportSession.NetworkInterfaceName
+ - IWdsTransportSession.get_NetworkInterfaceName
 ---
 
 # IWdsTransportSession::get_NetworkInterfaceName
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives the name of the server network interface used by this transport session.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>

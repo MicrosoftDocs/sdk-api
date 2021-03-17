@@ -2,15 +2,12 @@
 UID: NF:audiopolicy.IAudioSessionManager.GetAudioSessionControl
 title: IAudioSessionManager::GetAudioSessionControl (audiopolicy.h)
 description: The GetAudioSessionControl method retrieves an audio session control.
+helpviewer_keywords: ["GetAudioSessionControl","GetAudioSessionControl method [Core Audio]","GetAudioSessionControl method [Core Audio]","IAudioSessionManager interface","IAudioSessionManager interface [Core Audio]","GetAudioSessionControl method","IAudioSessionManager.GetAudioSessionControl","IAudioSessionManager::GetAudioSessionControl","IAudioSessionManagerGetAudioSessionControl","audiopolicy/IAudioSessionManager::GetAudioSessionControl","coreaudio.iaudiosessionmanager_getaudiosessioncontrol"]
 old-location: coreaudio\iaudiosessionmanager_getaudiosessioncontrol.htm
 tech.root: CoreAudio
 ms.assetid: 42de66dd-46df-40af-9d8a-39ee9f91b468
 ms.date: 12/05/2018
 ms.keywords: GetAudioSessionControl, GetAudioSessionControl method [Core Audio], GetAudioSessionControl method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetAudioSessionControl method, IAudioSessionManager.GetAudioSessionControl, IAudioSessionManager::GetAudioSessionControl, IAudioSessionManagerGetAudioSessionControl, audiopolicy/IAudioSessionManager::GetAudioSessionControl, coreaudio.iaudiosessionmanager_getaudiosessioncontrol
-f1_keywords:
-- audiopolicy/IAudioSessionManager.GetAudioSessionControl
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audiopolicy.h
-api_name:
-- IAudioSessionManager.GetAudioSessionControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionManager::GetAudioSessionControl
+ - audiopolicy/IAudioSessionManager::GetAudioSessionControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audiopolicy.h
+api_name:
+ - IAudioSessionManager.GetAudioSessionControl
 ---
 
 # IAudioSessionManager::GetAudioSessionControl
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAudioSessionControl</b> method retrieves an audio session control.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param AudioSessionGuid [in]
 
 Pointer to a session GUID. If the GUID does not identify a session that has been previously opened, the call opens a new but empty session. The Sndvol program does not display a volume-level control for a session unless it contains one or more active streams. If this parameter is <b>NULL</b> or points to the value GUID_NULL, the method assigns the stream to the default session.
 
-
 ### -param StreamFlags [in]
 
 Specifies the status of the flags for the audio stream.
 
-
 ### -param SessionControl [out]
 
-Pointer to a pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session control object. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the call fails, <i>*SessionControl</i> is <b>NULL</b>.
-
+Pointer to a pointer variable into which the method writes a pointer to the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session control object. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the call fails, <i>*SessionControl</i> is <b>NULL</b>.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -142,31 +131,15 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a code example that calls this method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
-
-
-
+For a code example that calls this method, see <a href="/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager Interface</a>

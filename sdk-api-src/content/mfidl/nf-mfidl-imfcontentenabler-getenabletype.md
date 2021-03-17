@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFContentEnabler.GetEnableType
 title: IMFContentEnabler::GetEnableType (mfidl.h)
 description: Retrieves the type of operation that this content enabler performs.
+helpviewer_keywords: ["9fe597d8-788c-48c4-a21a-0b91a890710f","GetEnableType","GetEnableType method [Media Foundation]","GetEnableType method [Media Foundation]","IMFContentEnabler interface","IMFContentEnabler interface [Media Foundation]","GetEnableType method","IMFContentEnabler.GetEnableType","IMFContentEnabler::GetEnableType","mf.imfcontentenabler_getenabletype","mfidl/IMFContentEnabler::GetEnableType"]
 old-location: mf\imfcontentenabler_getenabletype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
 ms.date: 12/05/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
-f1_keywords:
-- mfidl/IMFContentEnabler.GetEnableType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFContentEnabler.GetEnableType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentEnabler::GetEnableType
+ - mfidl/IMFContentEnabler::GetEnableType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFContentEnabler.GetEnableType
 ---
 
 # IMFContentEnabler::GetEnableType
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the type of operation that this content enabler performs.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pType [out]
 
 Receives a GUID that identifies the type of operation. An application can tailor its user interface (UI) strings for known operation types. See Remarks.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following GUIDs are defined for the <i>pType</i> parameter.
 
@@ -130,22 +115,11 @@ The following GUIDs are defined for the <i>pType</i> parameter.
 <td>License acquisition for Windows Media DRM version 7 or later.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>

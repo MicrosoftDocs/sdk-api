@@ -2,15 +2,12 @@
 UID: NF:traffic.TcDeleteFilter
 title: TcDeleteFilter function (traffic.h)
 description: The TcDeleteFilter function deletes a filter previously added with the TcAddFilter function.
+helpviewer_keywords: ["TcDeleteFilter","TcDeleteFilter function [QOS]","_gqos_tcdeletefilter","qos.tcdeletefilter","traffic/TcDeleteFilter"]
 old-location: qos\tcdeletefilter.htm
 tech.root: QOS
 ms.assetid: 3a9eaffc-78d8-4473-a2d3-c060b104abd3
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFilter, TcDeleteFilter function [QOS], _gqos_tcdeletefilter, qos.tcdeletefilter, traffic/TcDeleteFilter
-f1_keywords:
-- traffic/TcDeleteFilter
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcDeleteFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcDeleteFilter
+ - traffic/TcDeleteFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcDeleteFilter
 ---
 
 # TcDeleteFilter function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcDeleteFilter</b> function deletes a filter previously added with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 ## -parameters
-
-
-
 
 ### -param FilterHandle [in]
 
 Handle to the filter to be deleted, as received in a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -103,15 +97,6 @@ The filter handle is invalid.
 <b>TcDeleteFilter</b> function requires administrative privilege.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>

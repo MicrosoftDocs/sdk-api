@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceServices
 title: IPortableDeviceServiceManager::GetDeviceServices (portabledeviceapi.h)
 description: Retrieves a list of the services associated with the specified device.
+helpviewer_keywords: ["GetDeviceServices","GetDeviceServices method [Windows Portable Devices SDK]","GetDeviceServices method [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","GetDeviceServices method","IPortableDeviceServiceManager.GetDeviceServices","IPortableDeviceServiceManager::GetDeviceServices","portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices","wpdsdk.iportabledeviceservicemanager_getdeviceservices"]
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceservices.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: d6b06f4d-c07e-4cd4-b96e-e8b9b4f98df8
 ms.date: 12/05/2018
 ms.keywords: GetDeviceServices, GetDeviceServices method [Windows Portable Devices SDK], GetDeviceServices method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceServices method, IPortableDeviceServiceManager.GetDeviceServices, IPortableDeviceServiceManager::GetDeviceServices, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices, wpdsdk.iportabledeviceservicemanager_getdeviceservices
-f1_keywords:
-- portabledeviceapi/IPortableDeviceServiceManager.GetDeviceServices
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceServiceManager.GetDeviceServices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceServiceManager::GetDeviceServices
+ - portabledeviceapi/IPortableDeviceServiceManager::GetDeviceServices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceServiceManager.GetDeviceServices
 ---
 
 # IPortableDeviceServiceManager::GetDeviceServices
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDeviceServices</b> method retrieves a list of the services associated with the specified device.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPnPDeviceID [in]
 
 The Plug and Play (PnP) identifier of the device.
 
-
 ### -param guidServiceCategory [in]
 
-A reference to a globally unique identifier (GUID) that specifies the category of services to retrieve. If the  referenced identifier is <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/device-interface-guids">GUID_DEVINTERFACE_WPD_SERVICE</a>, this method will retrieve all services supported by the device.
-
+A reference to a globally unique identifier (GUID) that specifies the category of services to retrieve. If the  referenced identifier is <a href="/windows/desktop/wpd_sdk/device-interface-guids">GUID_DEVINTERFACE_WPD_SERVICE</a>, this method will retrieve all services supported by the device.
 
 ### -param pServices [in, out]
 
 A user-allocated array of pointers to strings. When the method returns, the array contains the retrieved PnP service identifiers.
 
-
 ### -param pcServices [in, out]
 
 The number of elements in the array specified by the <i>pServices</i> parameter. This value represents the maximum number of service identifiers that will be retrieved. When the method returns,  this parameter contains the number of identifiers actually retrieved.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -123,18 +114,12 @@ The <i>pcServices</i> parameter was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If this method succeeds, the application should call the <a href="/windows/desktop/wpd_sdk/freeportabledevicepnpids">FreePortableDevicePnPIDs</a> function to free the array referenced by the <i>pServices</i> parameter.
 
-
-If this method succeeds, the application should call the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/freeportabledevicepnpids">FreePortableDevicePnPIDs</a> function to free the array referenced by the <i>pServices</i> parameter.
-
-An application can retrieve the PnP identifier for a device by calling the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a> method.
+An application can retrieve the PnP identifier for a device by calling the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a> method.
   
 
 Applications that use Single Threaded Apartments should use <b>CLSID_PortableDeviceServiceFTM</b> as this eliminates the overhead of interface pointer marshaling.  <b>CLSID_PortableDeviceService</b> is still supported for legacy applications.
@@ -385,29 +370,18 @@ HRESULT GetServiceName( LPCWSTR    pszPnpServiceID,
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>
+<a href="/windows/desktop/wpd_sdk/enumerating-services">Enumerating Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>

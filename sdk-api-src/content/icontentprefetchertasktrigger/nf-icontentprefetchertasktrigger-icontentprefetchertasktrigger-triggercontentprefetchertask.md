@@ -2,15 +2,12 @@
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask (icontentprefetchertasktrigger.h)
 description: Triggers a content prefetch background task for the specified app package.
+helpviewer_keywords: ["IContentPrefetcherTaskTrigger interface [Web Services for Windows]","TriggerContentPrefetcherTask method","IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask","IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","TriggerContentPrefetcherTask","TriggerContentPrefetcherTask method [Web Services for Windows]","TriggerContentPrefetcherTask method [Web Services for Windows]","IContentPrefetcherTaskTrigger interface","icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","wsw.icontentprefetchertasktrigger_triggercontentprefetchertask"]
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm
 tech.root: wsw
 ms.assetid: F7AC2CA1-3726-4685-ABA8-5F9EE8FD54FF
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],TriggerContentPrefetcherTask method, IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask, IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, TriggerContentPrefetcherTask, TriggerContentPrefetcherTask method [Web Services for Windows], TriggerContentPrefetcherTask method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask, wsw.icontentprefetchertasktrigger_triggercontentprefetchertask
-f1_keywords:
-- icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
-dev_langs:
-- c++
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IContentPrefetcherTaskTrigger.h
-api_name:
-- IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
+ - icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IContentPrefetcherTaskTrigger.h
+api_name:
+ - IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 ---
 
 # IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Triggers a content prefetch background task for the specified app package.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
 The package ID.
 
-
 ## -returns
-
-
 
 Returns S_OK on success. Other possible values include:
 
@@ -97,18 +91,7 @@ The method call was not made at the required Medium Integrity Level (Medium IL).
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger">IContentPrefetcherTaskTrigger</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger">IContentPrefetcherTaskTrigger</a>

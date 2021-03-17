@@ -2,15 +2,12 @@
 UID: NF:iads.IDirectoryObject.SetObjectAttributes
 title: IDirectoryObject::SetObjectAttributes (iads.h)
 description: The IDirectoryObject::SetObjectAttributes method modifies data in one or more specified object attributes defined in the ADS_ATTR_INFO structure.
+helpviewer_keywords: ["IDirectoryObject interface [ADSI]","SetObjectAttributes method","IDirectoryObject.SetObjectAttributes","IDirectoryObject::SetObjectAttributes","SetObjectAttributes","SetObjectAttributes method [ADSI]","SetObjectAttributes method [ADSI]","IDirectoryObject interface","_ds_idirectoryobject_setobjectattributes","adsi.idirectoryobject__setobjectattributes","adsi.idirectoryobject_setobjectattributes","iads/IDirectoryObject::SetObjectAttributes"]
 old-location: adsi\idirectoryobject_setobjectattributes.htm
 tech.root: adsi
 ms.assetid: 999e6766-52cf-4087-bb17-72de487975c2
 ms.date: 12/05/2018
 ms.keywords: IDirectoryObject interface [ADSI],SetObjectAttributes method, IDirectoryObject.SetObjectAttributes, IDirectoryObject::SetObjectAttributes, SetObjectAttributes, SetObjectAttributes method [ADSI], SetObjectAttributes method [ADSI],IDirectoryObject interface, _ds_idirectoryobject_setobjectattributes, adsi.idirectoryobject__setobjectattributes, adsi.idirectoryobject_setobjectattributes, iads/IDirectoryObject::SetObjectAttributes
-f1_keywords:
-- iads/IDirectoryObject.SetObjectAttributes
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IDirectoryObject.SetObjectAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectoryObject::SetObjectAttributes
+ - iads/IDirectoryObject::SetObjectAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IDirectoryObject.SetObjectAttributes
 ---
 
 # IDirectoryObject::SetObjectAttributes
@@ -48,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
-
+The <b>IDirectoryObject::SetObjectAttributes</b> method modifies data in one or more specified object attributes defined in the  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 ## -parameters
 
-
-
-
 ### -param pAttributeEntries [in]
 
-Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
-
+Provides an array of attributes to be modified. Each attribute contains the name of the attribute, the operation to perform, and the attribute value, if applicable. For more information, see the  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure.
 
 ### -param dwNumAttributes [in]
 
 Provides the number of attributes to be modified. This value should correspond to the size of the <i>pAttributeEntries</i> array.
 
-
 ### -param pdwNumAttributesModified [out]
 
 Provides a pointer to a <b>DWORD</b> variable that contains the number of attributes modified by the <b>SetObjectAttributes</b> method.
 
-
 ## -returns
-
-
 
 This method returns the standard return values, including S_OK when the attributes are set successfully.
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 In Active Directory (LDAP provider), the <b>IDirectoryObject::SetObjectAttributes</b> method is a transacted call. The attributes are either all committed or discarded. Other directory providers may not transact the call.
 
@@ -123,25 +110,14 @@ if ( SUCCEEDED(hr) )
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

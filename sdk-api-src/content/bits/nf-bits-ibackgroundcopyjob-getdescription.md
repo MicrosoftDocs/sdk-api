@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyJob.GetDescription
 title: IBackgroundCopyJob::GetDescription (bits.h)
 description: Retrieves the description of the job.
+helpviewer_keywords: ["GetDescription","GetDescription method [BITS]","GetDescription method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetDescription method","IBackgroundCopyJob.GetDescription","IBackgroundCopyJob::GetDescription","_drz_ibackgroundcopyjob_getdescription","bits.ibackgroundcopyjob_getdescription","bits/IBackgroundCopyJob::GetDescription"]
 old-location: bits\ibackgroundcopyjob_getdescription.htm
 tech.root: Bits
 ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [BITS], GetDescription method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDescription method, IBackgroundCopyJob.GetDescription, IBackgroundCopyJob::GetDescription, _drz_ibackgroundcopyjob_getdescription, bits.ibackgroundcopyjob_getdescription, bits/IBackgroundCopyJob::GetDescription
-f1_keywords:
-- bits/IBackgroundCopyJob.GetDescription
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetDescription
+ - bits/IBackgroundCopyJob::GetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetDescription
 ---
 
 # IBackgroundCopyJob::GetDescription
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the description of the job.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Null-terminated string that contains a short description of the job. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -97,18 +91,7 @@ The parameter, <i>ppDescription</i>, cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">IBackgroundCopyJob::SetDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">IBackgroundCopyJob::SetDescription</a>

@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetIsSideways
 title: IXpsOMGlyphsEditor::SetIsSideways (xpsobjectmodel.h)
 description: Sets the value that indicates whether the text is to be rendered with the glyphs rotated sideways.
+helpviewer_keywords: ["FALSE","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetIsSideways method","IXpsOMGlyphsEditor.SetIsSideways","IXpsOMGlyphsEditor::SetIsSideways","SetIsSideways","SetIsSideways method [XPS Documents and Packaging]","SetIsSideways method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","TRUE","xps.ixpsomglyphseditor_setissideways","xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways"]
 old-location: xps\ixpsomglyphseditor_setissideways.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 67866971-fe2b-4354-a7e9-a43678443790
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetIsSideways method, IXpsOMGlyphsEditor.SetIsSideways, IXpsOMGlyphsEditor::SetIsSideways, SetIsSideways, SetIsSideways method [XPS Documents and Packaging], SetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, TRUE, xps.ixpsomglyphseditor_setissideways, xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphsEditor.SetIsSideways
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphsEditor.SetIsSideways
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphsEditor::SetIsSideways
+ - xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphsEditor.SetIsSideways
 ---
 
 # IXpsOMGlyphsEditor::SetIsSideways
@@ -48,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param isSideways [in]
 
@@ -89,29 +84,15 @@ Do not rotate the glyphs sideways. Produces normal text.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

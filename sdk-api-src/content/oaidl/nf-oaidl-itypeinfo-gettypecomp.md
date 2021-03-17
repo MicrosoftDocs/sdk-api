@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetTypeComp
 title: ITypeInfo::GetTypeComp (oaidl.h)
 description: Retrieves the ITypeComp interface for the type description, which enables a client compiler to bind to the type description's members.
+helpviewer_keywords: ["GetTypeComp","GetTypeComp method [Automation]","GetTypeComp method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetTypeComp method","ITypeInfo.GetTypeComp","ITypeInfo::GetTypeComp","_oa96_ITypeInfo_GetTypeComp","automat.itypeinfo_gettypecomp","oaidl/ITypeInfo::GetTypeComp"]
 old-location: automat\itypeinfo_gettypecomp.htm
 tech.root: automat
 ms.assetid: 094cf9d5-2d9b-4c3c-844e-45737e905099
 ms.date: 12/05/2018
 ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeComp method, ITypeInfo.GetTypeComp, ITypeInfo::GetTypeComp, _oa96_ITypeInfo_GetTypeComp, automat.itypeinfo_gettypecomp, oaidl/ITypeInfo::GetTypeComp
-f1_keywords:
-- oaidl/ITypeInfo.GetTypeComp
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetTypeComp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetTypeComp
+ - oaidl/ITypeInfo::GetTypeComp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetTypeComp
 ---
 
 # ITypeInfo::GetTypeComp
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
-
+Retrieves the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface for the type description, which enables a client compiler to bind to the type description's members.
 
 ## -parameters
 
-
-
-
 ### -param ppTComp [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> of the containing type library.
-
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> of the containing type library.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,28 +104,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A client compiler can use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface to bind to members of the type.
-
-
-
-
+A client compiler can use the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface to bind to members of the type.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

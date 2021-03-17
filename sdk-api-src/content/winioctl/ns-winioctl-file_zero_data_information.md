@@ -2,15 +2,12 @@
 UID: NS:winioctl._FILE_ZERO_DATA_INFORMATION
 title: FILE_ZERO_DATA_INFORMATION
 description: Contains a range of a file to set to zeros.
+helpviewer_keywords: ["*PFILE_ZERO_DATA_INFORMATION","FILE_ZERO_DATA_INFORMATION","FILE_ZERO_DATA_INFORMATION structure [Files]","PFILE_ZERO_DATA_INFORMATION","PFILE_ZERO_DATA_INFORMATION structure pointer [Files]","_win32_file_zero_data_information_str","base.file_zero_data_information_str","fs.file_zero_data_information_str","winioctl/FILE_ZERO_DATA_INFORMATION","winioctl/PFILE_ZERO_DATA_INFORMATION"]
 old-location: fs\file_zero_data_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ad2c4e2d-7f41-45e8-beff-2f6d735f152e
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Files], PFILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION structure pointer [Files], _win32_file_zero_data_information_str, base.file_zero_data_information_str, fs.file_zero_data_information_str, winioctl/FILE_ZERO_DATA_INFORMATION, winioctl/PFILE_ZERO_DATA_INFORMATION'
-f1_keywords:
-- winioctl/FILE_ZERO_DATA_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FILE_ZERO_DATA_INFORMATION
 targetos: Windows
 req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 req.redist: 
+f1_keywords:
+ - _FILE_ZERO_DATA_INFORMATION
+ - winioctl/_FILE_ZERO_DATA_INFORMATION
+ - PFILE_ZERO_DATA_INFORMATION
+ - winioctl/PFILE_ZERO_DATA_INFORMATION
+ - FILE_ZERO_DATA_INFORMATION
+ - winioctl/FILE_ZERO_DATA_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FILE_ZERO_DATA_INFORMATION
 ---
 
 # FILE_ZERO_DATA_INFORMATION structure
@@ -47,37 +53,23 @@ req.redist:
 
 ## -description
 
-
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a> control code
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a> control code
 
 ## -struct-fields
-
-
-
 
 ### -field FileOffset
 
 The file offset of the start of the range to set to zeros, in bytes.
 
-
 ### -field BeyondFinalZero
 
 The byte offset of the first byte beyond the last zeroed byte.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/sparse-files">Sparse Files</a>

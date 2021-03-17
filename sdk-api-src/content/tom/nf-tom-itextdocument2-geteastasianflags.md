@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument2.GetEastAsianFlags
 title: ITextDocument2::GetEastAsianFlags (tom.h)
 description: Gets the East Asian flags.
+helpviewer_keywords: ["GetEastAsianFlags","GetEastAsianFlags method [Windows Controls]","GetEastAsianFlags method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetEastAsianFlags method","ITextDocument2.GetEastAsianFlags","ITextDocument2::GetEastAsianFlags","controls.itextdocument2_geteastasianflags","tom/ITextDocument2::GetEastAsianFlags","tomNoIME","tomRE10Mode","tomSelfIME","tomTextFlowMask","tomUseAtFont","tomUsePassword"]
 old-location: controls\itextdocument2_geteastasianflags.htm
 tech.root: Controls
 ms.assetid: 730c869d-cac0-40ce-b6c5-ca3be2c94419
 ms.date: 12/05/2018
 ms.keywords: GetEastAsianFlags, GetEastAsianFlags method [Windows Controls], GetEastAsianFlags method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetEastAsianFlags method, ITextDocument2.GetEastAsianFlags, ITextDocument2::GetEastAsianFlags, controls.itextdocument2_geteastasianflags, tom/ITextDocument2::GetEastAsianFlags, tomNoIME, tomRE10Mode, tomSelfIME, tomTextFlowMask, tomUseAtFont, tomUsePassword
-f1_keywords:
-- tom/ITextDocument2.GetEastAsianFlags
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument2.GetEastAsianFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument2::GetEastAsianFlags
+ - tom/ITextDocument2::GetEastAsianFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument2.GetEastAsianFlags
 ---
 
 # ITextDocument2::GetEastAsianFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the East Asian flags.
 
-
 ## -parameters
-
-
-
 
 ### -param pFlags [out, retval]
 
@@ -136,7 +133,7 @@ Use password control.
 </dl>
 </td>
 <td width="60%">
-Turn off IME operation (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
+Turn off IME operation (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
 
 </td>
 </tr>
@@ -146,32 +143,18 @@ Turn off IME operation (see <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-The rich edit host handles IME operation (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>) .
+The rich edit host handles IME operation (see <a href="/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>) .
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>

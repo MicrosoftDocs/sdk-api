@@ -2,15 +2,12 @@
 UID: NC:webservices.WS_READ_MESSAGE_END_CALLBACK
 title: WS_READ_MESSAGE_END_CALLBACK (webservices.h)
 description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_READ_MESSAGE_END_CALLBACK","WS_READ_MESSAGE_END_CALLBACK callback","WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_READ_MESSAGE_END_CALLBACK","wsw.ws_read_message_end_callback"]
 old-location: wsw\ws_read_message_end_callback.htm
 tech.root: wsw
 ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b
 ms.date: 12/05/2018
 ms.keywords: WS_READ_MESSAGE_END_CALLBACK, WS_READ_MESSAGE_END_CALLBACK callback, WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_END_CALLBACK, wsw.ws_read_message_end_callback
-f1_keywords:
-- webservices/WS_READ_MESSAGE_END_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_READ_MESSAGE_END_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_READ_MESSAGE_END_CALLBACK
+ - webservices/WS_READ_MESSAGE_END_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_READ_MESSAGE_END_CALLBACK
 ---
 
 # WS_READ_MESSAGE_END_CALLBACK callback function
@@ -48,44 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> call
-                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
-            
-
+Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> call
+                for a <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 ## -parameters
 
-
-
-
-### -param *channelInstance [in]
+### -param channelInstance [in]
 
 The pointer to the state specific to this channel instance,
-                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
-                
+                    as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
-
-### -param *message [in]
+### -param message [in]
 
 The message to read the end of.
-                
 
-
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -446,18 +433,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> for information about the contract
+See <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> for information about the contract
                 of this API.
-            
-
-
-

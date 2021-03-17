@@ -2,15 +2,12 @@
 UID: NS:timeprov.TimeSample
 title: TimeSample (timeprov.h)
 description: Represents a time sample.
+helpviewer_keywords: ["TSF_Authenticated","TSF_Hardware","TimeSample","TimeSample structure","_win32_timesample_str","base.timesample_str","timeprov/TimeSample"]
 old-location: base\timesample_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.date: 12/05/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
-f1_keywords:
-- timeprov/TimeSample
-dev_langs:
-- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Timeprov.h
-api_name:
-- TimeSample
 targetos: Windows
 req.typenames: TimeSample
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TimeSample
+ - timeprov/TimeSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Timeprov.h
+api_name:
+ - TimeSample
 ---
 
 # TimeSample structure
@@ -48,51 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a time sample.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size of the structure, in bytes.
 
-
 ### -field dwRefid
 
 A reference identifier for the time source, in NTP format (either an IP address or a four character ASCII string that describes the hardware source, such as GPS or WWVB).
-
 
 ### -field toOffset
 
 The difference between local and remote clocks, in (10^-7)s.
 
-
 ### -field toDelay
 
 The total roundtrip delay, in (10^-7)s. This is the time packets spent in transit from the root time source to the client, including root delay. For NTP providers, this means roundtrip delay to the peer, plus the peer's root delay. The hardware providers, this value is probably zero.
-
 
 ### -field tpDispersion
 
 The total measurement error of the clock offset, including root dispersion, in (10^-7)s. This includes errors in reading the local clock, uncertainty in the local clock frequency, and error from filters. For NTP providers, this includes the peer's root dispersion.
 
-
 ### -field nSysTickCount
 
 The value returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_TickCount.
-
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_TickCount.
 
 ### -field nSysPhaseOffset
 
 The value returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_PhaseOffset.
-
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> with TSI_PhaseOffset.
 
 ### -field nLeapFlags
 
@@ -148,13 +138,10 @@ Not synchronized.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nStratum
 
 The number of network hops separating this computer from the root source. Hardware providers should return zero. NTP providers should return the stratum of the peer that provided the sample.
-
 
 ### -field dwTSFlags
 
@@ -188,25 +175,15 @@ The sample is from a hardware device such as a GPS or radio receiver.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wszUniqueName
 
 The name that uniquely identifies the source of the sample. For network providers, the name should include the protocol and IP addresses. For hardware devices, the name should include the device name and communication port.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>

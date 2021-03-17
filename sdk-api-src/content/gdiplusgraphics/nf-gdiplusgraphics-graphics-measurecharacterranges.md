@@ -2,15 +2,12 @@
 UID: NF:gdiplusgraphics.Graphics.MeasureCharacterRanges
 title: Graphics::MeasureCharacterRanges (gdiplusgraphics.h)
 description: The Graphics::MeasureCharacterRanges method gets a set of regions each of which bounds a range of character positions within a string.
+helpviewer_keywords: ["Graphics class [GDI+]","MeasureCharacterRanges method","Graphics.MeasureCharacterRanges","Graphics::MeasureCharacterRanges","MeasureCharacterRanges","MeasureCharacterRanges method [GDI+]","MeasureCharacterRanges method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun","gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measurecharacterranges.htm
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MeasureCharacterRanges method, Graphics.MeasureCharacterRanges, Graphics::MeasureCharacterRanges, MeasureCharacterRanges, MeasureCharacterRanges method [GDI+], MeasureCharacterRanges method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun, gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun
-f1_keywords:
-- gdiplusgraphics/Graphics.MeasureCharacterRanges
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.MeasureCharacterRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::MeasureCharacterRanges
+ - gdiplusgraphics/Graphics::MeasureCharacterRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.MeasureCharacterRanges
 ---
 
 # Graphics::MeasureCharacterRanges
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Graphics::MeasureCharacterRanges</b> method gets a set of regions each of which bounds a range of character positions within a string. 
-
+The <b>Graphics::MeasureCharacterRanges</b> method gets a set of regions each of which bounds a range of character positions within a string.
 
 ## -parameters
-
-
-
 
 ### -param string [in]
 
@@ -71,63 +68,49 @@ Pointer to a wide-character string.
 
 Type: <b>INT</b>
 
-Integer that specifies the number of characters in the <i>string</i> array. If the <i>string</i> parameter points to a <b>NULL</b>-terminated string, this parameter can be set to –1. 
-
+Integer that specifies the number of characters in the <i>string</i> array. If the <i>string</i> parameter points to a <b>NULL</b>-terminated string, this parameter can be set to –1.
 
 ### -param font [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>*</b>
 
-Pointer to a <i>Font</i> object that specifies the font characteristics (the family name, size, and style of the font) to be applied to the string. 
-
+Pointer to a <i>Font</i> object that specifies the font characteristics (the family name, size, and style of the font) to be applied to the string.
 
 ### -param layoutRect [in, ref]
 
 Type: <b>const Rectf</b>
 
-Reference to a rectangle that bounds the string. 
-
+Reference to a rectangle that bounds the string.
 
 ### -param stringFormat [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>*</b>
 
-Pointer to a <i>StringFormat</i> object that specifies the character ranges and layout information, such as alignment, trimming, tab stops, and so forth. 
-
+Pointer to a <i>StringFormat</i> object that specifies the character ranges and layout information, such as alignment, trimming, tab stops, and so forth.
 
 ### -param regionCount [in]
 
 Type: <b>INT</b>
 
-Integer that specifies the number of regions that are expected to be received into the <i>regions</i> array. This number should be equal to the number of character ranges currently in the <i>StringFormat</i> object. 
-
+Integer that specifies the number of regions that are expected to be received into the <i>regions</i> array. This number should be equal to the number of character ranges currently in the <i>StringFormat</i> object.
 
 ### -param regions [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
-Pointer to an array of <i>Region</i> objects that receives the regions, each of which bounds a range of text. 
-
+Pointer to an array of <i>Region</i> objects that receives the regions, each of which bounds a range of text.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
-
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-
-
-A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
+A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
 
 
 #### Examples
@@ -218,29 +201,18 @@ VOID MeasureCharRanges(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>

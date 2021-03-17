@@ -2,15 +2,12 @@
 UID: NS:richedit._formatrange
 title: FORMATRANGE (richedit.h)
 description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
+helpviewer_keywords: ["FORMATRANGE","FORMATRANGE structure [Windows Controls]","_win32_FORMATRANGE_str","_win32_FORMATRANGE_str_cpp","controls.FORMATRANGE","controls._win32_FORMATRANGE_str","richedit/FORMATRANGE"]
 old-location: controls\FORMATRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
 ms.date: 12/05/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
-f1_keywords:
-- richedit/FORMATRANGE
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- FORMATRANGE
 targetos: Windows
 req.typenames: FORMATRANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _formatrange
+ - richedit/_formatrange
+ - FORMATRANGE
+ - richedit/FORMATRANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - FORMATRANGE
 ---
 
 # FORMATRANGE structure
@@ -48,69 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Information that a rich edit control uses to format its output for a particular device. This structure is used with the <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> message.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hdcTarget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-An HDC for the target device to format for. 
-
+An HDC for the target device to format for.
 
 ### -field hdc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A HDC for the device to render to, if <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a> is being used to send the output to a device.
-
 
 ### -field rc
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The area within the <i>rcPage</i> rectangle to render to. Units are measured in twips. 
-
+The area within the <i>rcPage</i> rectangle to render to. Units are measured in twips.
 
 ### -field rcPage
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The entire area of a page on the rendering device. Units are measured in twips. 
-
+The entire area of a page on the rendering device. Units are measured in twips.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of characters to format.
 
-
 ## -remarks
-
-
 
 <b>hdcTarget</b> contains the HDC to format for, which is usually the same as the HDC specified by <b>hdc</b> but can be different. For example, if you create a print preview module, <b>hdc</b> is the HDC of the window in which the output is viewed, and <b>hdcTarget</b> is the HDC for the printer. 
 	
 
-The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>. 
-
-
-
+The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a>
- 
-
- 
-

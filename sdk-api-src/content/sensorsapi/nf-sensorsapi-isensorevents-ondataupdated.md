@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorEvents.OnDataUpdated
 title: ISensorEvents::OnDataUpdated (sensorsapi.h)
 description: Provides sensor event data.
+helpviewer_keywords: ["ISensorEvents interface","OnDataUpdated method","ISensorEvents.OnDataUpdated","ISensorEvents::OnDataUpdated","OnDataUpdated","OnDataUpdated method","OnDataUpdated method","ISensorEvents interface","sensorsapi/ISensorEvents::OnDataUpdated","winsensors_com_ref.isensorevents_ondataupdated"]
 old-location: winsensors_com_ref\isensorevents_ondataupdated.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: dda03a66-ffdb-4f1f-a6e4-17075eab7e00
 ms.date: 12/05/2018
 ms.keywords: ISensorEvents interface,OnDataUpdated method, ISensorEvents.OnDataUpdated, ISensorEvents::OnDataUpdated, OnDataUpdated, OnDataUpdated method, OnDataUpdated method,ISensorEvents interface, sensorsapi/ISensorEvents::OnDataUpdated, winsensors_com_ref.isensorevents_ondataupdated
-f1_keywords:
-- sensorsapi/ISensorEvents.OnDataUpdated
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorEvents.OnDataUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorEvents::OnDataUpdated
+ - sensorsapi/ISensorEvents::OnDataUpdated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorEvents.OnDataUpdated
 ---
 
 # ISensorEvents::OnDataUpdated
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides sensor event data.
-
 
 ## -parameters
 
-
-
-
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that raised the event.
-
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface of the sensor that raised the event.
 
 ### -param pNewData [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a> interface that contains the event data.
-
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a> interface that contains the event data.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,18 +83,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>

@@ -2,15 +2,12 @@
 UID: NS:dxmini._DDENABLEIRQINFO
 title: DDENABLEIRQINFO (dxmini.h)
 description: The DDENABLEIRQINFO structure contains the information required to enable interrupts.
+helpviewer_keywords: ["*PDDENABLEIRQINFO","DDENABLEIRQINFO","DDENABLEIRQINFO structure [Display Devices]","PDDENABLEIRQINFO","PDDENABLEIRQINFO structure pointer [Display Devices]","Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml","display.ddenableirqinfo","dxmini/DDENABLEIRQINFO","dxmini/PDDENABLEIRQINFO"]
 old-location: display\ddenableirqinfo.htm
 tech.root: display
 ms.assetid: f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8
 ms.date: 12/05/2018
 ms.keywords: '*PDDENABLEIRQINFO, DDENABLEIRQINFO, DDENABLEIRQINFO structure [Display Devices], PDDENABLEIRQINFO, PDDENABLEIRQINFO structure pointer [Display Devices], Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml, display.ddenableirqinfo, dxmini/DDENABLEIRQINFO, dxmini/PDDENABLEIRQINFO'
-f1_keywords:
-- dxmini/DDENABLEIRQINFO
-dev_langs:
-- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxmini.h
-api_name:
-- DDENABLEIRQINFO
 targetos: Windows
 req.typenames: DDENABLEIRQINFO, *PDDENABLEIRQINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDENABLEIRQINFO
+ - dxmini/_DDENABLEIRQINFO
+ - PDDENABLEIRQINFO
+ - dxmini/PDDENABLEIRQINFO
+ - DDENABLEIRQINFO
+ - dxmini/DDENABLEIRQINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxmini.h
+api_name:
+ - DDENABLEIRQINFO
 ---
 
 # DDENABLEIRQINFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDENABLEIRQINFO structure contains the information required to enable interrupts. 
-
+The DDENABLEIRQINFO structure contains the information required to enable interrupts.
 
 ## -struct-fields
-
-
-
 
 ### -field dwIRQSources
 
@@ -277,48 +278,31 @@ The device can generate V-sync IRQs for hardware video port number 9.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLine
 
-Indicates which line should generate the IRQ. If the hardware does not have the ability to generate an IRQ based on a programmable line, the value in this member is meaningless. 
-
+Indicates which line should generate the IRQ. If the hardware does not have the ability to generate an IRQ based on a programmable line, the value in this member is meaningless.
 
 ### -field IRQCallback
 
-Points to an <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a> that the video miniport driver calls when the miniport driver is managing IRQs, and an IRQ occurs. 
-
+Points to an <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a> that the video miniport driver calls when the miniport driver is managing IRQs, and an IRQ occurs.
 
 ### -field lpIRQData
 
-Points to the data to be sent to <b>IRQCallback</b> when <b>IRQCallback</b> is called. 
-
+Points to the data to be sent to <b>IRQCallback</b> when <b>IRQCallback</b> is called.
 
 ## -remarks
 
-
-
-The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs. 
-
-
-
+The <b>dwIRQSources</b> member of this structure does not use the DDIRQ_BUSMASTER flag. However, the DDIRQ_BUSMASTER flag can be set in the <b>dwIrqFlags</b> member of the <a href="/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a> structure. The driver passes this DX_IRQDATA to the <b>IRQCallback</b> function when an IRQ occurs.
 
 ## -see-also
 
+<a href="/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-dx_irqdata">DX_IRQDATA</a>
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>

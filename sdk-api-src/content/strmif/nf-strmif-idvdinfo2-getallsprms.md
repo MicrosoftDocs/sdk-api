@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetAllSPRMs
 title: IDvdInfo2::GetAllSPRMs (strmif.h)
 description: The GetAllSPRMs method retrieves the current contents of all system parameter registers (SPRMs).
+helpviewer_keywords: ["GetAllSPRMs","GetAllSPRMs method [DirectShow]","GetAllSPRMs method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetAllSPRMs method","IDvdInfo2.GetAllSPRMs","IDvdInfo2::GetAllSPRMs","IDvdInfo2GetAllSPRMs","dshow.idvdinfo2_getallsprms","strmif/IDvdInfo2::GetAllSPRMs"]
 old-location: dshow\idvdinfo2_getallsprms.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4a5fb447-670d-4f1f-838e-266843185efe
 ms.date: 12/05/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllSPRMs method, IDvdInfo2.GetAllSPRMs, IDvdInfo2::GetAllSPRMs, IDvdInfo2GetAllSPRMs, dshow.idvdinfo2_getallsprms, strmif/IDvdInfo2::GetAllSPRMs
-f1_keywords:
-- strmif/IDvdInfo2.GetAllSPRMs
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetAllSPRMs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetAllSPRMs
+ - strmif/IDvdInfo2::GetAllSPRMs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetAllSPRMs
 ---
 
 # IDvdInfo2::GetAllSPRMs
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAllSPRMs</b> method retrieves the current contents of all system parameter registers (SPRMs).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pRegisterArray [out]
 
-Pointer to an array of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/sprmarray">SPRMARRAY</a> that receives the address of an array of SPRMs.
-          
-
+Pointer to an array of type <a href="/windows/desktop/DirectShow/sprmarray">SPRMARRAY</a> that receives the address of an array of SPRMs.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -101,14 +91,8 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 24 SPRMs are used to hold information on current language, subpicture, and other navigation data.
 
@@ -206,26 +190,15 @@ The 24 SPRMs are used to hold information on current language, subpicture, and o
 <td>Low 8 bits (b0-b7) contain region code (1 to 8).</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

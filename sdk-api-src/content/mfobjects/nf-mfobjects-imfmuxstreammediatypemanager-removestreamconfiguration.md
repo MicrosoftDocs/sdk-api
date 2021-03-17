@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
 title: IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration (mfobjects.h)
 description: Unregisters a stream configuration, which defines a set of substreams that can be included the multiplexed output.
+helpviewer_keywords: ["IMFMuxStreamMediaTypeManager interface [Media Foundation]","RemoveStreamConfiguration method","IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration","IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration","RemoveStreamConfiguration","RemoveStreamConfiguration method [Media Foundation]","RemoveStreamConfiguration method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","mf.imfmuxstreammediatypemanager_removestreamconfiguration","mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration"]
 old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8808DC0A-7675-4913-B4F1-B2FCCB3AFBBF
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStreamConfiguration method, IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration, IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration, RemoveStreamConfiguration, RemoveStreamConfiguration method [Media Foundation], RemoveStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, mf.imfmuxstreammediatypemanager_removestreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
-f1_keywords:
-- mfobjects/IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
+ - mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
 ---
 
 # IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a stream configuration, which defines a set of substreams that can be included  the  multiplexed output.
 
-
 ## -parameters
-
-
-
 
 ### -param ullStreamMask [in]
 
 A bitmask value where the bits that are on represent the indices of the substreams that are included in the stream configuration.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -113,18 +107,7 @@ There is insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:resapi.ResUtilGetCoreClusterResources
 title: ResUtilGetCoreClusterResources function (resapi.h)
-description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
+description: Returns handles to the core Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_CORE_CLUSTER_RESOURCES","PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster]","ResUtilGetCoreClusterResources","ResUtilGetCoreClusterResources function [Failover Cluster]","_wolf_resutilgetcoreclusterresources","mscs.resutilgetcoreclusterresources","resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES","resapi/ResUtilGetCoreClusterResources"]
 old-location: mscs\resutilgetcoreclusterresources.htm
 tech.root: MsCS
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES function [Failover Cluster], ResUtilGetCoreClusterResources, ResUtilGetCoreClusterResources function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES, resapi/ResUtilGetCoreClusterResources
-f1_keywords:
-- resapi/ResUtilGetCoreClusterResources
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.Dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.Dll
-- Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
-- ext-ms-win-cluster-resutils-l1-1-1.dll
-api_name:
-- ResUtilGetCoreClusterResources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetCoreClusterResources
+ - resapi/ResUtilGetCoreClusterResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.Dll
+ - Ext-MS-Win-Cluster-ResUtils-l1-1-0.dll
+ - ext-ms-win-cluster-resutils-l1-1-1.dll
+api_name:
+ - ResUtilGetCoreClusterResources
 ---
 
 # ResUtilGetCoreClusterResources function
@@ -50,60 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns handles to the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/core-resources">core</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES</b> type defines a pointer to this function.
-
+    <a href="/previous-versions/windows/desktop/mscs/core-resources">core</a> <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
+    <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> and 
+    <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES</b> type defines a pointer to this function.
 
 ## -parameters
 
-
-
-
 ### -param hCluster [in]
 
-Cluster handle (see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
-
+Cluster handle (see <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
 
 ### -param phClusterNameResource [out]
 
 Pointer to a resource handle to the core 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
-
+      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
+      <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
 
 ### -param phClusterIPAddressResource [out]
 
 Not used.
 
-
 ### -param phClusterQuorumResource [out]
 
 Pointer to a resource handle to the cluster's 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
-
+      <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
 
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
-
-
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

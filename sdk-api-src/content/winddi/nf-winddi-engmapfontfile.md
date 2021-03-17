@@ -2,15 +2,12 @@
 UID: NF:winddi.EngMapFontFile
 title: EngMapFontFile function (winddi.h)
 description: The EngMapFontFile function is obsolete. Use EngMapFontFileFD instead.
+helpviewer_keywords: ["EngMapFontFile","EngMapFontFile function [Display Devices]","display.engmapfontfile","gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml","winddi/EngMapFontFile"]
 old-location: display\engmapfontfile.htm
 tech.root: display
 ms.assetid: 86b869fe-679a-42d1-83a4-293ad790366d
 ms.date: 12/05/2018
 ms.keywords: EngMapFontFile, EngMapFontFile function [Display Devices], display.engmapfontfile, gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml, winddi/EngMapFontFile
-f1_keywords:
-- winddi/EngMapFontFile
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngMapFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngMapFontFile
+ - winddi/EngMapFontFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngMapFontFile
 ---
 
 # EngMapFontFile function
@@ -48,20 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EngMapFontFile</b> function is <b>obsolete</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a> instead.
-
+The <b>EngMapFontFile</b> function is <b>obsolete</b>. Use <a href="/windows/desktop/api/winddi/nf-winddi-engmapfontfilefd">EngMapFontFileFD</a> instead.
 
 ## -parameters
 
-
-
-
 ### -param iFile
-
 
 ### -param ppjBuf
 
-
 ### -param pcjBuf
-

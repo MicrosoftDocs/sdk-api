@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITSubStreamControl.RemoveSubStream
 title: ITSubStreamControl::RemoveSubStream (tapi3if.h)
 description: The RemoveSubStream method removes a substream.
+helpviewer_keywords: ["ITSubStreamControl interface [TAPI 2.2]","RemoveSubStream method","ITSubStreamControl.RemoveSubStream","ITSubStreamControl::RemoveSubStream","RemoveSubStream","RemoveSubStream method [TAPI 2.2]","RemoveSubStream method [TAPI 2.2]","ITSubStreamControl interface","_tapi3_itsubstreamcontrol_removesubstream","tapi3.itsubstreamcontrol_removesubstream","tapi3if/ITSubStreamControl::RemoveSubStream"]
 old-location: tapi3\itsubstreamcontrol_removesubstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],RemoveSubStream method, ITSubStreamControl.RemoveSubStream, ITSubStreamControl::RemoveSubStream, RemoveSubStream, RemoveSubStream method [TAPI 2.2], RemoveSubStream method [TAPI 2.2],ITSubStreamControl interface, _tapi3_itsubstreamcontrol_removesubstream, tapi3.itsubstreamcontrol_removesubstream, tapi3if/ITSubStreamControl::RemoveSubStream
-f1_keywords:
-- tapi3if/ITSubStreamControl.RemoveSubStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITSubStreamControl.RemoveSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSubStreamControl::RemoveSubStream
+ - tapi3if/ITSubStreamControl::RemoveSubStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITSubStreamControl.RemoveSubStream
 ---
 
 # ITSubStreamControl::RemoveSubStream
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RemoveSubStream</b> method removes a substream.
 
-
 ## -parameters
-
-
-
 
 ### -param pSubStream [in]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a> to be removed.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a> to be removed.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,31 +114,15 @@ The <i>pSubStream</i> parameter does not point to a valid substream.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some MSPs may not support the advanced concept of creating and removing substreams, and simply return TAPI_E_NOTSUPPORTED.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

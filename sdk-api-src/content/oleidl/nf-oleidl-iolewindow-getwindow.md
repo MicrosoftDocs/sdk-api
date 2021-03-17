@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleWindow.GetWindow
 title: IOleWindow::GetWindow (oleidl.h)
 description: Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
+helpviewer_keywords: ["GetWindow","GetWindow method [COM]","GetWindow method [COM]","IOleWindow interface","IOleWindow interface [COM]","GetWindow method","IOleWindow.GetWindow","IOleWindow::GetWindow","_ole_iolewindow_getwindow","com.iolewindow_getwindow","oleidl/IOleWindow::GetWindow"]
 old-location: com\iolewindow_getwindow.htm
 tech.root: com
 ms.assetid: 833adc81-be58-44a1-88f1-9aa28808e67b
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [COM], GetWindow method [COM],IOleWindow interface, IOleWindow interface [COM],GetWindow method, IOleWindow.GetWindow, IOleWindow::GetWindow, _ole_iolewindow_getwindow, com.iolewindow_getwindow, oleidl/IOleWindow::GetWindow
-f1_keywords:
-- oleidl/IOleWindow.GetWindow
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleWindow.GetWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleWindow::GetWindow
+ - oleidl/IOleWindow::GetWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleWindow.GetWindow
 ---
 
 # IOleWindow::GetWindow
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
 
-
 ## -parameters
-
-
-
 
 ### -param phwnd [out]
 
 A pointer to a variable that receives the window handle.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -118,14 +112,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Five types of windows comprise the windows hierarchy. When a object is active in place, it has access to some or all of these windows.
 
@@ -189,16 +177,6 @@ The window containing the active in-place object. The object application creates
 
 Each type of window has a different role in the in-place activation architecture. However, it is not necessary to employ a separate physical window for each type. Many container applications use the same window for their frame, document, pane, and parent windows.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>

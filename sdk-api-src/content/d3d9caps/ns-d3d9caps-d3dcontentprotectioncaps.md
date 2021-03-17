@@ -2,15 +2,12 @@
 UID: NS:d3d9caps._D3DCONTENTPROTECTIONCAPS
 title: D3DCONTENTPROTECTIONCAPS (d3d9caps.h)
 description: Describes the content protection capabilities of a display driver.
+helpviewer_keywords: ["D3DCONTENTPROTECTIONCAPS","D3DCONTENTPROTECTIONCAPS structure [Media Foundation]","D3DCPCAPS_CONTENTKEY","D3DCPCAPS_ENCRYPTEDREADBACK","D3DCPCAPS_ENCRYPTEDREADBACKKEY","D3DCPCAPS_FRESHENSESSIONKEY","D3DCPCAPS_HARDWARE","D3DCPCAPS_PARTIALDECRYPTION","D3DCPCAPS_PROTECTIONALWAYSON","D3DCPCAPS_SEQUENTIAL_CTR_IV","D3DCPCAPS_SOFTWARE","D3DKEYEXCHANGE_DXVA","D3DKEYEXCHANGE_RSAES_OAEP","d3d9caps/D3DCONTENTPROTECTIONCAPS","mf.d3dcontentprotectioncaps"]
 old-location: mf\d3dcontentprotectioncaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e
 ms.date: 12/05/2018
 ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media Foundation], D3DCPCAPS_CONTENTKEY, D3DCPCAPS_ENCRYPTEDREADBACK, D3DCPCAPS_ENCRYPTEDREADBACKKEY, D3DCPCAPS_FRESHENSESSIONKEY, D3DCPCAPS_HARDWARE, D3DCPCAPS_PARTIALDECRYPTION, D3DCPCAPS_PROTECTIONALWAYSON, D3DCPCAPS_SEQUENTIAL_CTR_IV, D3DCPCAPS_SOFTWARE, D3DKEYEXCHANGE_DXVA, D3DKEYEXCHANGE_RSAES_OAEP, d3d9caps/D3DCONTENTPROTECTIONCAPS, mf.d3dcontentprotectioncaps
-f1_keywords:
-- d3d9caps/D3DCONTENTPROTECTIONCAPS
-dev_langs:
-- c++
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d9caps.h
-api_name:
-- D3DCONTENTPROTECTIONCAPS
 targetos: Windows
 req.typenames: D3DCONTENTPROTECTIONCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3DCONTENTPROTECTIONCAPS
+ - d3d9caps/_D3DCONTENTPROTECTIONCAPS
+ - D3DCONTENTPROTECTIONCAPS
+ - d3d9caps/D3DCONTENTPROTECTIONCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d9caps.h
+api_name:
+ - D3DCONTENTPROTECTIONCAPS
 ---
 
 # D3DCONTENTPROTECTIONCAPS structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes the content protection capabilities of a display driver. To get the capabilities, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>.
-
+Describes the content protection capabilities of a display driver. To get the capabilities, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Caps
 
@@ -117,7 +116,7 @@ The driver can use partially encrypted buffers. If this capability is not presen
 </dl>
 </td>
 <td width="60%">
-The driver can encrypt data using a separate content key that is encrypted using the session key. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">IDirect3DCryptoSession9::DecryptionBlt</a>.
+The driver can encrypt data using a separate content key that is encrypted using the session key. For more information, see <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-decryptionblt">IDirect3DCryptoSession9::DecryptionBlt</a>.
 
 </td>
 </tr>
@@ -128,7 +127,7 @@ The driver can encrypt data using a separate content key that is encrypted using
 </dl>
 </td>
 <td width="60%">
-The driver can refresh the session key without renegotiating the key. To refresh the session key, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">IDirect3DCryptoSession9::StartSessionKeyRefresh</a>.
+The driver can refresh the session key without renegotiating the key. To refresh the session key, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-startsessionkeyrefresh">IDirect3DCryptoSession9::StartSessionKeyRefresh</a>.
 
 </td>
 </tr>
@@ -139,7 +138,7 @@ The driver can refresh the session key without renegotiating the key. To refresh
 </dl>
 </td>
 <td width="60%">
-The driver can read back encrypted data from a protected surface, using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
+The driver can read back encrypted data from a protected surface, using the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-encryptionblt">IDirect3DCryptoSession9::EncryptionBlt</a> method.
 
 </td>
 </tr>
@@ -150,7 +149,7 @@ The driver can read back encrypted data from a protected surface, using the <a h
 </dl>
 </td>
 <td width="60%">
-The driver requires a separate key to read encrypted data from a protected surface. To get this second key, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">IDirect3DCryptoSession9::GetEncryptionBltKey</a>. 
+The driver requires a separate key to read encrypted data from a protected surface. To get this second key, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getencryptionbltkey">IDirect3DCryptoSession9::GetEncryptionBltKey</a>. 
 
 </td>
 </tr>
@@ -161,13 +160,11 @@ The driver requires a separate key to read encrypted data from a protected surfa
 </dl>
 </td>
 <td width="60%">
-If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_aes_ctr_iv">DXVA2_AES_CTR_IV</a>  structure. For more information, see the remarks for <b>DXVA2_AES_CTR_IV</b>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field KeyExchangeType
 
@@ -199,35 +196,23 @@ Use the key exchange mechanism defined for DirectX Video Acceleration 2 (DXVA-2)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field BufferAlignmentStart
 
 The memory alignment required for buffers used by the GPU cryptographic engine. If the application uses a system memory buffer to pass encrypted content to the GPU, or to read back encrypted content from the GPU, the buffer's starting address must be a multiple of this value.
 
-
 ### -field BlockAlignmentSize
 
 The block alignment required by the GPU cryptographic engine. The size of data to be encrypted must be a multiple of this value.
-
 
 ### -field ProtectedMemorySize
 
 The total amount of memory that can be used to hold protected surfaces.
 
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>

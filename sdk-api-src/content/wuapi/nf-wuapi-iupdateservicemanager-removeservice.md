@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateServiceManager.RemoveService
 title: IUpdateServiceManager::RemoveService (wuapi.h)
 description: Removes a service registration from Windows Update Agent (WUA).
+helpviewer_keywords: ["IUpdateServiceManager interface [Windows Update Agent]","RemoveService method","IUpdateServiceManager.RemoveService","IUpdateServiceManager::RemoveService","RemoveService","RemoveService method [Windows Update Agent]","RemoveService method [Windows Update Agent]","IUpdateServiceManager interface","wua.iupdateservicemanager_removeservice","wuapi/IUpdateServiceManager::RemoveService"]
 old-location: wua\iupdateservicemanager_removeservice.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: fedd0979-1cc1-40c7-93d1-ade2f069ee76
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveService method, IUpdateServiceManager.RemoveService, IUpdateServiceManager::RemoveService, RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
-f1_keywords:
-- wuapi/IUpdateServiceManager.RemoveService
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager.RemoveService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager::RemoveService
+ - wuapi/IUpdateServiceManager::RemoveService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager.RemoveService
 ---
 
 # IUpdateServiceManager::RemoveService
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a service registration from Windows Update Agent (WUA).
 
-
 ## -parameters
-
-
-
 
 ### -param serviceID [in]
 
 An identifier for the service to be unregistered.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. This method can also return the following error codes.
 
@@ -131,18 +125,7 @@ Attempt to register  or remove an unknown service.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

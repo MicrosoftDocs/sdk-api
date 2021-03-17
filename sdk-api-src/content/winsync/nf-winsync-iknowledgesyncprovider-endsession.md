@@ -2,15 +2,12 @@
 UID: NF:winsync.IKnowledgeSyncProvider.EndSession
 title: IKnowledgeSyncProvider::EndSession (winsync.h)
 description: Notifies the provider that a synchronization session to which it was enlisted has finished.
+helpviewer_keywords: ["EndSession","EndSession method [Windows Sync]","EndSession method [Windows Sync]","IKnowledgeSyncProvider interface","IKnowledgeSyncProvider interface [Windows Sync]","EndSession method","IKnowledgeSyncProvider.EndSession","IKnowledgeSyncProvider::EndSession","winsync.iknowledgesyncprovider_endsession","winsync/IKnowledgeSyncProvider::EndSession"]
 old-location: winsync\iknowledgesyncprovider_endsession.htm
 tech.root: winsync
 ms.assetid: b726c902-6ccb-4c73-85f1-7256b92ef7e2
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],EndSession method, IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
-f1_keywords:
-- winsync/IKnowledgeSyncProvider.EndSession
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IKnowledgeSyncProvider.EndSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnowledgeSyncProvider::EndSession
+ - winsync/IKnowledgeSyncProvider::EndSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IKnowledgeSyncProvider.EndSession
 ---
 
 # IKnowledgeSyncProvider::EndSession
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the provider that a synchronization session to which it was enlisted has finished.
 
-
 ## -parameters
-
-
-
 
 ### -param pSessionState [in]
 
 The current status of the corresponding session.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,33 +87,18 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<i>pSessionState</i> will be equal to the <b>ISyncSessionState</b> object that was provided to the previous corresponding call to <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">IKnowledgeSyncProvider::BeginSession</a>.
 
-
-<i>pSessionState</i> will be equal to the <b>ISyncSessionState</b> object that was provided to the previous corresponding call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">IKnowledgeSyncProvider::BeginSession</a>.
-
-<div class="alert"><b>Note</b>  This method must return an error, typically <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_INVALIDOPERATION</a>, if the provider did not receive a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a> for the specified session.
+<div class="alert"><b>Note</b>  This method must return an error, typically <a href="/previous-versions/windows/desktop/winsync/windows-sync-error-codes">SYNC_E_INVALIDOPERATION</a>, if the provider did not receive a previous call to <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a> for the specified session.
 
 <p class="note">When this method is called, the provider must release any references it has to the <b>ISyncSessionState</b> object that is specified by <i>pSessionState</i>.
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>

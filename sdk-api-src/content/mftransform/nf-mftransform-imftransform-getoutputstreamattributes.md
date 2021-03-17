@@ -2,15 +2,12 @@
 UID: NF:mftransform.IMFTransform.GetOutputStreamAttributes
 title: IMFTransform::GetOutputStreamAttributes (mftransform.h)
 description: Gets the attribute store for an output stream on this Media Foundation transform (MFT).
+helpviewer_keywords: ["GetOutputStreamAttributes","GetOutputStreamAttributes method [Media Foundation]","GetOutputStreamAttributes method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStreamAttributes method","IMFTransform.GetOutputStreamAttributes","IMFTransform::GetOutputStreamAttributes","d54ce20c-8ef9-4480-9ddd-908751fc0a7e","mf.imftransform_getoutputstreamattributes","mftransform/IMFTransform::GetOutputStreamAttributes"]
 old-location: mf\imftransform_getoutputstreamattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d54ce20c-8ef9-4480-9ddd-908751fc0a7e
 ms.date: 12/05/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Media Foundation], GetOutputStreamAttributes method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamAttributes method, IMFTransform.GetOutputStreamAttributes, IMFTransform::GetOutputStreamAttributes, d54ce20c-8ef9-4480-9ddd-908751fc0a7e, mf.imftransform_getoutputstreamattributes, mftransform/IMFTransform::GetOutputStreamAttributes
-f1_keywords:
-- mftransform/IMFTransform.GetOutputStreamAttributes
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.GetOutputStreamAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::GetOutputStreamAttributes
+ - mftransform/IMFTransform::GetOutputStreamAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.GetOutputStreamAttributes
 ---
 
 # IMFTransform::GetOutputStreamAttributes
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the attribute store for an output stream on this Media Foundation transform (MFT).
-        
-
 
 ## -parameters
 
-
-
-
 ### -param dwOutputStreamID [in]
 
-Output stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
-          
-
+Output stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
 
 ### -param pAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
-          
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -120,38 +110,21 @@ Invalid stream identifier.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Implementation of this method is optional unless the MFT needs to support a particular set of attributes. 
 
-To get the attribute store for the entire MFT, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a>.
-      
-
-
-
+To get the attribute store for the entire MFT, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes">IMFTransform::GetAttributes</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transform-attributes">Transform Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/transform-attributes">Transform Attributes</a>

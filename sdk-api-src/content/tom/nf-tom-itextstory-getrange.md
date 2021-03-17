@@ -2,15 +2,12 @@
 UID: NF:tom.ITextStory.GetRange
 title: ITextStory::GetRange (tom.h)
 description: Gets a text range object for the story.
+helpviewer_keywords: ["GetRange","GetRange method [Windows Controls]","GetRange method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetRange method","ITextStory.GetRange","ITextStory::GetRange","controls.itextstory_getrange","tom/ITextStory::GetRange"]
 old-location: controls\itextstory_getrange.htm
 tech.root: Controls
 ms.assetid: 7cc02056-c431-470a-83ef-99e47123da1e
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Windows Controls], GetRange method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetRange method, ITextStory.GetRange, ITextStory::GetRange, controls.itextstory_getrange, tom/ITextStory::GetRange
-f1_keywords:
-- tom/ITextStory.GetRange
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tom.h
-api_name:
-- ITextStory.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStory::GetRange
+ - tom/ITextStory::GetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tom.h
+api_name:
+ - ITextStory.GetRange
 ---
 
 # ITextStory::GetRange
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a text range object for the story.
 
-
 ## -parameters
-
-
-
 
 ### -param cpActive [in]
 
@@ -63,28 +60,23 @@ Type: <b>long</b>
 
 The active end of the range.
 
-
 ### -param cpAnchor [in]
 
 Type: <b>long</b>
 
 The anchor end of the range.
 
-
 ### -param ppRange [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>**</b>
 
 The text range object.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -114,18 +106,7 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>

@@ -2,15 +2,12 @@
 UID: NF:shlwapi.IsOS
 title: IsOS function (shlwapi.h)
 description: Checks for specified operating systems and operating system features.
+helpviewer_keywords: ["IsOS","IsOS function [Windows Shell]","_win32_IsOS","shell.IsOS","shlwapi/IsOS"]
 old-location: shell\IsOS.htm
 tech.root: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.date: 12/05/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
-f1_keywords:
-- shlwapi/IsOS
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
-- ShCore.dll
-- API-MS-Win-ShCore-SysInfo-l1-1-0.dll
-api_name:
-- IsOS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsOS
+ - shlwapi/IsOS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+ - ShCore.dll
+ - API-MS-Win-ShCore-SysInfo-l1-1-0.dll
+api_name:
+ - IsOS
 ---
 
 # IsOS function
@@ -51,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks for specified operating systems and operating system features.
 
-
 ## -parameters
-
-
-
 
 ### -param dwOS [in]
 
@@ -84,7 +81,7 @@ A value that specifies which operating system or operating system feature to che
 <li>Windows 98</li>
 <li>Windows Me</li>
 </ul>
-Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_PLATFORM_WIN32_WINDOWS</a>. Note that none of those systems are supported at this time. <b>OS_WINDOWS</b> returns <b>FALSE</b> on all supported systems.
+Equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_PLATFORM_WIN32_WINDOWS</a>. Note that none of those systems are supported at this time. <b>OS_WINDOWS</b> returns <b>FALSE</b> on all supported systems.
 
 </td>
 </tr>
@@ -146,17 +143,17 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <tr>
 <td>OS_EMBEDDED</td>
 <td>13</td>
-<td>The program is running on Windows Embedded, any version. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_EMBEDDEDNT</a>.</td>
+<td>The program is running on Windows Embedded, any version. Equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_EMBEDDEDNT</a>.</td>
 </tr>
 <tr>
 <td>OS_TERMINALCLIENT</td>
 <td>14</td>
-<td>The program is running as a Terminal Server client. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_REMOTESESSION).</td>
+<td>The program is running as a Terminal Server client. Equivalent to <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_REMOTESESSION).</td>
 </tr>
 <tr>
 <td>OS_TERMINALREMOTEADMIN</td>
 <td>15</td>
-<td>The program is running on Windows 2000 Terminal Server in the Remote Administration mode or Windows Server 2003 (or one of its successors) in the Remote Desktop for Administration mode (these are the default installation modes). This is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a> &amp;&amp; <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a>.</td>
+<td>The program is running on Windows 2000 Terminal Server in the Remote Administration mode or Windows Server 2003 (or one of its successors) in the Remote Desktop for Administration mode (these are the default installation modes). This is equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a> &amp;&amp; <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a>.</td>
 </tr>
 <tr>
 <td>OS_WIN95_GOLD</td>
@@ -181,32 +178,32 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <tr>
 <td>OS_PROFESSIONAL</td>
 <td>20</td>
-<td>The program is running on Windows NT Workstation or Windows 2000 (or one of its successors) Professional. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_PLATFORM_WIN32_NT</a> &amp;&amp; <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_WORKSTATION</a>.</td>
+<td>The program is running on Windows NT Workstation or Windows 2000 (or one of its successors) Professional. Equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_PLATFORM_WIN32_NT</a> &amp;&amp; <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_WORKSTATION</a>.</td>
 </tr>
 <tr>
 <td>OS_DATACENTER</td>
 <td>21</td>
-<td>The program is running on Windows Datacenter Server or Windows Server Datacenter Edition, any version. Equivalent to (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>) &amp;&amp; <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>.</td>
+<td>The program is running on Windows Datacenter Server or Windows Server Datacenter Edition, any version. Equivalent to (<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>) &amp;&amp; <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>.</td>
 </tr>
 <tr>
 <td>OS_ADVSERVER</td>
 <td>22</td>
-<td>The program is running on Windows Advanced Server or Windows Server Enterprise Edition, any version. Equivalent to (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>) &amp;&amp; <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_ENTERPRISE</a> &amp;&amp; !<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>.</td>
+<td>The program is running on Windows Advanced Server or Windows Server Enterprise Edition, any version. Equivalent to (<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>) &amp;&amp; <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_ENTERPRISE</a> &amp;&amp; !<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>.</td>
 </tr>
 <tr>
 <td>OS_SERVER</td>
 <td>23</td>
-<td>The program is running on Windows Server (Standard) or Windows Server Standard Edition, any version. This value will not return <b>true</b> for <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_ENTERPRISE</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS_RESTRICTED</a>.</td>
+<td>The program is running on Windows Server (Standard) or Windows Server Standard Edition, any version. This value will not return <b>true</b> for <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_DATACENTER</a>, <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_ENTERPRISE</a>, <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS</a>, or <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS_RESTRICTED</a>.</td>
 </tr>
 <tr>
 <td>OS_TERMINALSERVER</td>
 <td>24</td>
-<td>The program is running on Windows 2000 Terminal Server in Application Server mode, or on Windows Server 2003  (or one of its successors) in Terminal Server mode. This is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a> &amp;&amp; <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a>.</td>
+<td>The program is running on Windows 2000 Terminal Server in Application Server mode, or on Windows Server 2003  (or one of its successors) in Terminal Server mode. This is equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a> &amp;&amp; <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a>.</td>
 </tr>
 <tr>
 <td>OS_PERSONALTERMINALSERVER</td>
 <td>25</td>
-<td>The program is running on Windows XP (or one of its successors), Home Edition or Professional. This is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a> &amp;&amp; !<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a>.</td>
+<td>The program is running on Windows XP (or one of its successors), Home Edition or Professional. This is equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SINGLEUSERTS</a> &amp;&amp; !<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_TERMINAL</a>.</td>
 </tr>
 <tr>
 <td>OS_FASTUSERSWITCHING</td>
@@ -226,7 +223,7 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <tr>
 <td>OS_ANYSERVER</td>
 <td>29</td>
-<td>The program is running on any Windows Server product. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>.</td>
+<td>The program is running on any Windows Server product. Equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_SERVER</a> || <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_NT_DOMAIN_CONTROLLER</a>.</td>
 </tr>
 <tr>
 <td>OS_WOW6432</td>
@@ -241,7 +238,7 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <tr>
 <td>OS_SMALLBUSINESSSERVER</td>
 <td>32</td>
-<td>The program is running on Microsoft Small Business Server with restrictive client license in force. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS_RESTRICTED</a>.</td>
+<td>The program is running on Microsoft Small Business Server with restrictive client license in force. Equivalent to <a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">VER_SUITE_SMALLBUSINESS_RESTRICTED</a>.</td>
 </tr>
 <tr>
 <td>OS_TABLETPC</td>
@@ -256,7 +253,7 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <tr>
 <td>OS_MEDIACENTER</td>
 <td>35</td>
-<td>The program is running on Windows XP Media Center Edition, or one of its successors. Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_MEDIACENTER).</td>
+<td>The program is running on Windows XP Media Center Edition, or one of its successors. Equivalent to <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_MEDIACENTER).</td>
 </tr>
 <tr>
 <td>OS_APPLIANCE</td>
@@ -264,48 +261,29 @@ Equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-w
 <td>The program is running on Windows Appliance Server.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns a nonzero value if the specified operating system or operating system feature is detected, otherwise <b>FALSE</b>.
 
-
-
-
 ## -remarks
 
+Values are not provided for Windows Vista and Windows 7. To determine whether either of those operating systems are present, use <a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>.
 
-
-Values are not provided for Windows Vista and Windows 7. To determine whether either of those operating systems are present, use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>.
-
-In Windows versions earlier than Windows Vista, <b>IsOS</b> was not exported by name or declared in a public header file. To use it in those cases, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 437 from Shlwapi.dll to obtain a function pointer. Under Windows Vista, <b>IsOS</b> is included in Shlwapi.h and this is not necessary.
+In Windows versions earlier than Windows Vista, <b>IsOS</b> was not exported by name or declared in a public header file. To use it in those cases, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 437 from Shlwapi.dll to obtain a function pointer. Under Windows Vista, <b>IsOS</b> is included in Shlwapi.h and this is not necessary.
 
 When referring to server products, "Windows Server" refers only to the Standard Edition server. If all server products are covered by a particular flag, it is called out explicitly in the table.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>

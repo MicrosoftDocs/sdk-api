@@ -2,15 +2,12 @@
 UID: NS:mfobjects._MFARGB
 title: MFARGB (mfobjects.h)
 description: Describes an ARGB color value.
+helpviewer_keywords: ["MFARGB","MFARGB structure [Media Foundation]","ce7ac174-9f00-42a4-9b48-ed86b406d83e","mf.mfargb","mfobjects/MFARGB"]
 old-location: mf\mfargb.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
 ms.date: 12/05/2018
 ms.keywords: MFARGB, MFARGB structure [Media Foundation], ce7ac174-9f00-42a4-9b48-ed86b406d83e, mf.mfargb, mfobjects/MFARGB
-f1_keywords:
-- mfobjects/MFARGB
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfobjects.h
-api_name:
-- MFARGB
 targetos: Windows
 req.typenames: MFARGB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFARGB
+ - mfobjects/_MFARGB
+ - MFARGB
+ - mfobjects/MFARGB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfobjects.h
+api_name:
+ - MFARGB
 ---
 
 # MFARGB structure
@@ -48,49 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Describes an ARGB color value.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field rgbBlue
 
 Blue value.
 
-
 ### -field rgbGreen
 
 Green value.
-
 
 ### -field rgbRed
 
 Red value.
 
-
 ### -field rgbAlpha
 
 Alpha value.
 
-
 ## -see-also
 
+<a href="/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry">MFPaletteEntry Union</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetStreamsForRecord
 title: IWMMutualExclusion2::GetStreamsForRecord (wmsdkidl.h)
 description: The GetStreamsForRecord method retrieves the list of streams that are present in a record.
+helpviewer_keywords: ["GetStreamsForRecord","GetStreamsForRecord method [windows Media Format]","GetStreamsForRecord method [windows Media Format]","IWMMutualExclusion2 interface","IWMMutualExclusion2 interface [windows Media Format]","GetStreamsForRecord method","IWMMutualExclusion2.GetStreamsForRecord","IWMMutualExclusion2::GetStreamsForRecord","IWMMutualExclusion2GetStreamsForRecord","wmformat.iwmmutualexclusion2_getstreamsforrecord","wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord"]
 old-location: wmformat\iwmmutualexclusion2_getstreamsforrecord.htm
 tech.root: wmformat
 ms.assetid: a94a64e9-96c6-4aba-a5b4-f50d14c19b73
 ms.date: 12/05/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [windows Media Format], GetStreamsForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetStreamsForRecord method, IWMMutualExclusion2.GetStreamsForRecord, IWMMutualExclusion2::GetStreamsForRecord, IWMMutualExclusion2GetStreamsForRecord, wmformat.iwmmutualexclusion2_getstreamsforrecord, wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord
-f1_keywords:
-- wmsdkidl/IWMMutualExclusion2.GetStreamsForRecord
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMutualExclusion2.GetStreamsForRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMutualExclusion2::GetStreamsForRecord
+ - wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMutualExclusion2.GetStreamsForRecord
 ---
 
 # IWMMutualExclusion2::GetStreamsForRecord
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamsForRecord</b> method retrieves the list of streams that are present in a record.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wRecordNumber [in]
 
 <b>WORD</b> containing the record number for which to retrieve the streams.
 
-
 ### -param pwStreamNumArray [out]
 
 Pointer to an array that will receive the stream numbers. If it is <b>NULL</b>, <b>GetStreamsForRecord</b> will return the number of streams to <i>pcStreams</i>.
-
 
 ### -param pcStreams [in, out]
 
 Pointer to a <b>WORD</b> containing the number of streams in the record.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -138,29 +127,13 @@ The method is unable to access the record for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>GetStreamsForRecord</b>. On the first call, pass <b>NULL</b> as <i>pwStreamNumArray</i>. On return, the value of <i>pcStreams</i> is set to the number of streams. Then you can allocate the amount of memory needed to hold the array and pass a pointer to it as <i>pwStreamNumArray</i> on the second call.
 
 If you pass an array that is not large enough to contain all of the streams, an error code of ASF_E_BUFFERTOOSMALL is returned. When returning this error code, the method still sets the value at <i>pcStreams</i> to the correct number of streams.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>

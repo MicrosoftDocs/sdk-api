@@ -2,15 +2,12 @@
 UID: NS:cryptxml._CRYPT_XML_X509DATA_ITEM
 title: CRYPT_XML_X509DATA_ITEM (cryptxml.h)
 description: Represents X.509 data that is to be encoded in an X509Data named element.
+helpviewer_keywords: ["CRYPT_XML_X509DATA_ITEM","CRYPT_XML_X509DATA_ITEM structure [Security]","CRYPT_XML_X509DATA_TYPE_CERTIFICATE","CRYPT_XML_X509DATA_TYPE_CRL","CRYPT_XML_X509DATA_TYPE_CUSTOM","CRYPT_XML_X509DATA_TYPE_ISSUER_SERIAL","CRYPT_XML_X509DATA_TYPE_SKI","CRYPT_XML_X509DATA_TYPE_SUBJECT_NAME","cryptxml/CRYPT_XML_X509DATA_ITEM","security.crypt_xml_x509data_item"]
 old-location: security\crypt_xml_x509data_item.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 118371c7-9b75-4330-9897-bd352b072fa4
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_X509DATA_ITEM, CRYPT_XML_X509DATA_ITEM structure [Security], CRYPT_XML_X509DATA_TYPE_CERTIFICATE, CRYPT_XML_X509DATA_TYPE_CRL, CRYPT_XML_X509DATA_TYPE_CUSTOM, CRYPT_XML_X509DATA_TYPE_ISSUER_SERIAL, CRYPT_XML_X509DATA_TYPE_SKI, CRYPT_XML_X509DATA_TYPE_SUBJECT_NAME, cryptxml/CRYPT_XML_X509DATA_ITEM, security.crypt_xml_x509data_item
-f1_keywords:
-- cryptxml/CRYPT_XML_X509DATA_ITEM
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptxml.h
-api_name:
-- CRYPT_XML_X509DATA_ITEM
 targetos: Windows
 req.typenames: CRYPT_XML_X509DATA_ITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_XML_X509DATA_ITEM
+ - cryptxml/_CRYPT_XML_X509DATA_ITEM
+ - CRYPT_XML_X509DATA_ITEM
+ - cryptxml/CRYPT_XML_X509DATA_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptxml.h
+api_name:
+ - CRYPT_XML_X509DATA_ITEM
 ---
 
 # CRYPT_XML_X509DATA_ITEM structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_XML_X509DATA_ITEM</b> structure represents  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> data that is to be encoded in an X509Data named element.
-
+The <b>CRYPT_XML_X509DATA_ITEM</b> structure represents  <a href="/windows/desktop/SecGloss/x-gly">X.509</a> data that is to be encoded in an X509Data named element.
 
 ## -struct-fields
-
-
-
 
 ### -field dwType
 
@@ -122,7 +121,7 @@ The X.509 data is a certificate.
 </dl>
 </td>
 <td width="60%">
-The X.509 data is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The X.509 data is a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -138,35 +137,27 @@ The X.509 data is a custom format.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IssuerSerial
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_issuer_serial">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_issuer_serial">CRYPT_XML_ISSUER_SERIAL</a> structure that contains serial number data.
 
 ### -field SKI
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains SKI data.
 
 ### -field wszSubjectName
 
 A pointer to a null-terminated Unicode string that contains the subject name.
 
-
 ### -field Certificate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains certificate data.
 
 ### -field CRL
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> that contains a CRL.
 
 ### -field Custom
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.

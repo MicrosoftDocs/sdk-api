@@ -2,15 +2,12 @@
 UID: NF:winuser.CharNextExA
 title: CharNextExA function (winuser.h)
 description: Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
+helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CharNextExA","CharNextExA function [Menus and Other Resources]","_win32_CharNextExA","_win32_charnextexa_cpp","menurc.charnextexa","winui._win32_charnextexa","winuser/CharNextExA"]
 old-location: menurc\charnextexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menus and Other Resources], _win32_CharNextExA, _win32_charnextexa_cpp, menurc.charnextexa, winui._win32_charnextexa, winuser/CharNextExA
-f1_keywords:
-- winuser/CharNextExA
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-Core-Stringansi-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-user32-l1-1-0.dll
-- API-MS-Win-DownLevel-user32-l1-1-1.dll
-api_name:
-- CharNextExA
-- CharNextExA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CharNextExA
+ - winuser/CharNextExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-Core-Stringansi-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-user32-l1-1-0.dll
+ - API-MS-Win-DownLevel-user32-l1-1-1.dll
+api_name:
+ - CharNextExA
+ - CharNextExA
 ---
 
 # CharNextExA function
@@ -53,20 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 
-
 ## -parameters
-
-
-
 
 ### -param CodePage [in]
 
 Type: <b>WORD</b>
 
-The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>, or one of the following predefined values. 
+The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>, or one of the following predefined values. 
 
 <table>
 <tr>
@@ -107,8 +104,6 @@ Use system default OEM code page.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpCurrentChar [in]
 
@@ -116,17 +111,13 @@ Type: <b>LPCSTR</b>
 
 A character in a null-terminated string.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Type: <b>LPSTR</b>
 
@@ -136,28 +127,17 @@ If
 						<i>lpCurrentChar</i> points to the terminating null character, the return value is equal to 
 						<i>lpCurrentChar</i>.
 
-
-
-
 ## -remarks
 
-
-
-<b>CharNextExA</b> specifies a code-page to use, whereas <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a> (if called as an ANSI function) uses the system default code-page.
-
-
-
+<b>CharNextExA</b> specifies a code-page to use, whereas <a href="/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a> (if called as an ANSI function) uses the system default code-page.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnexta">CharNext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-charprevexa">CharPrevExA</a>
 
 
 
@@ -169,8 +149,4 @@ If
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

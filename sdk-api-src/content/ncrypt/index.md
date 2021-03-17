@@ -1,17 +1,20 @@
 ---
 UID: NA:ncrypt
+title: Ncrypt.h header
 ms.assetid: 9d9ca017-f280-36f9-bfa9-e3f802095a19
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 tech.root: security
+f1_keywords:
+ - ncrypt
+ - ncrypt/ncrypt
 ---
 
 # Ncrypt.h header
 
 
 ## -description
-
 
 This header is used by Security and Identity. For more information, see:
 

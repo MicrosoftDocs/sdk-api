@@ -2,15 +2,12 @@
 UID: NC:routprot.PSET_INTERFACE_INFO
 title: PSET_INTERFACE_INFO (routprot.h)
 description: The SetInterfaceInfo function sets the configuration of a specific interface managed by the routing protocol.
+helpviewer_keywords: ["PSET_INTERFACE_INFO","PSET_INTERFACE_INFO callback","SetInterfaceInfo","SetInterfaceInfo callback function [RAS]","_mpr_setinterfaceinfo","routprot/SetInterfaceInfo","rras.setinterfaceinfo"]
 old-location: rras\setinterfaceinfo.htm
 tech.root: RRAS
 ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
 ms.date: 12/05/2018
 ms.keywords: PSET_INTERFACE_INFO, PSET_INTERFACE_INFO callback, SetInterfaceInfo, SetInterfaceInfo callback function [RAS], _mpr_setinterfaceinfo, routprot/SetInterfaceInfo, rras.setinterfaceinfo
-f1_keywords:
-- routprot/SetInterfaceInfo
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- SetInterfaceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSET_INTERFACE_INFO
+ - routprot/PSET_INTERFACE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - SetInterfaceInfo
 ---
 
 # PSET_INTERFACE_INFO callback function
@@ -48,45 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetInterfaceInfo</b> function sets the configuration of a specific interface managed by the routing protocol.
-			
-
 
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies the interface in the set of interfaces configured on the router.
 
-
 ### -param InterfaceInfo [in]
 
 Pointer to a buffer that holds the protocol-defined configuration information associated with the interface. This information is private to the routing protocol.
-
 
 ### -param StructureVersion [in]
 
 Specifies the version of the information structures pointed to by the <i>InterfaceInfo</i> parameter. In some cases, this is equal to the version of the routing protocol.
 
-
 ### -param StructureSize [in]
 
 Specifies the size of each of the information structures pointed to by the <i>InterfaceInfo</i> parameter. Since some information structures contain variable length members, the routing protocol is not necessarily able to determine the size of the information from the version.
-
 
 ### -param StructureCount [in]
 
 Specifies a count of the number of information structures pointed to by the <i>InterfaceInfo</i> parameter. This parameter is always one.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -125,25 +114,14 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

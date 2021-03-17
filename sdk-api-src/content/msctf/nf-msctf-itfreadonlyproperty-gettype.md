@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReadOnlyProperty.GetType
 title: ITfReadOnlyProperty::GetType (msctf.h)
 description: ITfReadOnlyProperty::GetType method
+helpviewer_keywords: ["GUID_TFCAT_PROPSTYLE_CUSTOM","GUID_TFCAT_PROPSTYLE_STATIC","GUID_TFCAT_PROPSTYLE_STATICCOMPACT","GetType","GetType method [Text Services Framework]","GetType method [Text Services Framework]","ITfReadOnlyProperty interface","ITfReadOnlyProperty interface [Text Services Framework]","GetType method","ITfReadOnlyProperty.GetType","ITfReadOnlyProperty::GetType","_tsf_itfreadonlyproperty_gettype_ref","msctf/ITfReadOnlyProperty::GetType","tsf.itfreadonlyproperty_gettype"]
 old-location: tsf\itfreadonlyproperty_gettype.htm
 tech.root: TSF
 ms.assetid: a0c47d13-c290-4efe-ad73-6dcb654dc18f
 ms.date: 12/05/2018
 ms.keywords: GUID_TFCAT_PROPSTYLE_CUSTOM, GUID_TFCAT_PROPSTYLE_STATIC, GUID_TFCAT_PROPSTYLE_STATICCOMPACT, GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetType method, ITfReadOnlyProperty.GetType, ITfReadOnlyProperty::GetType, _tsf_itfreadonlyproperty_gettype_ref, msctf/ITfReadOnlyProperty::GetType, tsf.itfreadonlyproperty_gettype
-f1_keywords:
-- msctf/ITfReadOnlyProperty.GetType
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReadOnlyProperty.GetType
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadOnlyProperty::GetType
+ - msctf/ITfReadOnlyProperty::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReadOnlyProperty.GetType
 ---
 
 # ITfReadOnlyProperty::GetType
@@ -48,17 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the property identifier.
 
 ## -parameters
 
-
-
-
 ### -param pguid [out]
 
-Pointer to a <b>GUID</b> value that receives the property type identifier. This is the value that the property provider passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> when the property was registered. This can be one of the following values.
+Pointer to a <b>GUID</b> value that receives the property type identifier. This is the value that the property provider passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a> when the property was registered. This can be one of the following values.
 
 <table>
 <tr>
@@ -96,12 +94,8 @@ The property is a custom property.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,27 +138,16 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/properties">Properties</a>
- 
-
- 
-
+<a href="/windows/desktop/TSF/properties">Properties</a>

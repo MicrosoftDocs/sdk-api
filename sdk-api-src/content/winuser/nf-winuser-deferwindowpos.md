@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.DeferWindowPos
 title: DeferWindowPos function (winuser.h)
-description: Updates the specified multiple-window &#8211; position structure for the specified window.
+description: Updates the specified multiple-window � position structure for the specified window.
+helpviewer_keywords: ["DeferWindowPos","DeferWindowPos function [Windows and Messages]","HWND_BOTTOM","HWND_NOTOPMOST","HWND_TOP","HWND_TOPMOST","SWP_DRAWFRAME","SWP_FRAMECHANGED","SWP_HIDEWINDOW","SWP_NOACTIVATE","SWP_NOCOPYBITS","SWP_NOMOVE","SWP_NOOWNERZORDER","SWP_NOREDRAW","SWP_NOREPOSITION","SWP_NOSENDCHANGING","SWP_NOSIZE","SWP_NOZORDER","SWP_SHOWWINDOW","_win32_DeferWindowPos","_win32_deferwindowpos_cpp","winmsg.deferwindowpos","winui._win32_deferwindowpos","winuser/DeferWindowPos"]
 old-location: winmsg\deferwindowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\deferwindowpos.htm
 ms.date: 12/05/2018
 ms.keywords: DeferWindowPos, DeferWindowPos function [Windows and Messages], HWND_BOTTOM, HWND_NOTOPMOST, HWND_TOP, HWND_TOPMOST, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOOWNERZORDER, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, _win32_DeferWindowPos, _win32_deferwindowpos_cpp, winmsg.deferwindowpos, winui._win32_deferwindowpos, winuser/DeferWindowPos
-f1_keywords:
-- winuser/DeferWindowPos
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-api_name:
-- DeferWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeferWindowPos
+ - winuser/DeferWindowPos
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+api_name:
+ - DeferWindowPos
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DeferWindowPos function
@@ -53,31 +56,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the specified multiple-window 
-			– position structure for the specified window. The function then returns a handle to the updated structure. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function uses the information in this structure to change the position and size of a number of windows simultaneously. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> function creates the structure. 
-
+			– position structure for the specified window. The function then returns a handle to the updated structure. The <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function uses the information in this structure to change the position and size of a number of windows simultaneously. The <a href="/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> function creates the structure.
 
 ## -parameters
-
-
-
 
 ### -param hWinPosInfo [in]
 
 Type: <b>HDWP</b>
 
 A handle to a multiple-window 
-					– position structure that contains size and position information for one or more windows. This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> or by the most recent call to <b>DeferWindowPos</b>. 
-
+					– position structure that contains size and position information for one or more windows. This structure is returned by <a href="/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> or by the most recent call to <b>DeferWindowPos</b>.
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window for which update information is stored in the structure. All windows in a multiple-window 
-					– position structure must have the same parent. 
-
+					– position structure must have the same parent.
 
 ### -param hWndInsertAfter [in, optional]
 
@@ -135,36 +131,30 @@ Places the window above all non-topmost windows. The window maintains its topmos
 </td>
 </tr>
 </table>
- 
-
 
 ### -param x [in]
 
 Type: <b>int</b>
 
-The x-coordinate of the window's upper-left corner. 
-
+The x-coordinate of the window's upper-left corner.
 
 ### -param y [in]
 
 Type: <b>int</b>
 
-The y-coordinate of the window's upper-left corner. 
-
+The y-coordinate of the window's upper-left corner.
 
 ### -param cx [in]
 
 Type: <b>int</b>
 
-The window's new width, in pixels. 
-
+The window's new width, in pixels.
 
 ### -param cy [in]
 
 Type: <b>int</b>
 
-The window's new height, in pixels. 
-
+The window's new height, in pixels.
 
 ### -param uFlags [in]
 
@@ -195,7 +185,7 @@ Draws a frame (defined in the window's class description) around the window.
 </dl>
 </td>
 <td width="60%">
-Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
+Sends a <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
 
 </td>
 </tr>
@@ -283,7 +273,7 @@ Same as the <b>SWP_NOOWNERZORDER</b> flag.
 </dl>
 </td>
 <td width="60%">
-Prevents the window from receiving the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
+Prevents the window from receiving the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
 
 </td>
 </tr>
@@ -321,29 +311,19 @@ Displays the window.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>HDWP</b>
-</strong>
+Type: <b>HDWP</b>
 
 The return value identifies the updated multiple-window 
-						– position structure. The handle returned by this function may differ from the handle passed to the function. The new handle that this function returns should be passed during the next call to the <b>DeferWindowPos</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function. 
+						– position structure. The handle returned by this function may differ from the handle passed to the function. The new handle that this function returns should be passed during the next call to the <b>DeferWindowPos</b> or <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function. 
 
-If insufficient system resources are available for the function to succeed, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If insufficient system resources are available for the function to succeed, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-If a call to <b>DeferWindowPos</b> fails, the application should abandon the window-positioning operation and not call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>. 
+If a call to <b>DeferWindowPos</b> fails, the application should abandon the window-positioning operation and not call <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>. 
 
 If <b>SWP_NOZORDER</b> is not specified, the system places the window identified by the <i>hWnd</i> parameter in the position following the window identified by the <i>hWndInsertAfter</i> parameter. If <i>hWndInsertAfter</i> is <b>NULL</b> or <b>HWND_TOP</b>, the system places the <i>hWnd</i> window at the top of the Z order. If <i>hWndInsertAfter</i> is set to <b>HWND_BOTTOM</b>, the system places the <i>hWnd</i> window at the bottom of the Z order. 
 
@@ -361,17 +341,11 @@ An application cannot activate an inactive window without also bringing it to th
 
 A topmost window is no longer topmost if it is repositioned to the bottom (<b>HWND_BOTTOM</b>) of the Z order or after any non-topmost window. When a topmost window is made non-topmost, its owners and its owned windows are also made non-topmost windows. 
 
-A non-topmost window may own a topmost window, but not vice versa. Any window (for example, a dialog box) owned by a topmost window is itself made a topmost window to ensure that all owned windows stay above their owner. 
-
-
-
+A non-topmost window may own a topmost window, but not vice versa. Any window (for example, a dialog box) owned by a topmost window is itself made a topmost window to ensure that all owned windows stay above their owner.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a>
 
 
 
@@ -379,7 +353,7 @@ A non-topmost window may own a topmost window, but not vice versa. Any window (f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -387,12 +361,8 @@ A non-topmost window may own a topmost window, but not vice versa. Any window (f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

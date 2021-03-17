@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetServiceInformation
 title: SLGetServiceInformation function (slpublic.h)
 description: Gets global data information.
+helpviewer_keywords: ["SLGetServiceInformation","SLGetServiceInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_MULTI_SZ","SL_DATA_SZ","SL_INFO_KEY_ACTIVE_PLUGINS","SL_INFO_KEY_SECURE_STORE_ID","SL_INFO_KEY_SESSION_MACHINE_ID","SL_INFO_KEY_SYSTEM_STATE","SL_INFO_KEY_VERSION","security.slgetserviceinformation","slpublic/SLGetServiceInformation"]
 old-location: security\slgetserviceinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: c8c932af-c716-425a-8c37-ad3b749dd985
 ms.date: 12/05/2018
 ms.keywords: SLGetServiceInformation, SLGetServiceInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_MULTI_SZ, SL_DATA_SZ, SL_INFO_KEY_ACTIVE_PLUGINS, SL_INFO_KEY_SECURE_STORE_ID, SL_INFO_KEY_SESSION_MACHINE_ID, SL_INFO_KEY_SYSTEM_STATE, SL_INFO_KEY_VERSION, security.slgetserviceinformation, slpublic/SLGetServiceInformation
-f1_keywords:
-- slpublic/SLGetServiceInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetServiceInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetServiceInformation
+ - slpublic/SLGetServiceInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetServiceInformation
 ---
 
 # SLGetServiceInformation function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets global data information.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
 Type: <b>HSLC</b>
 
 The handle to the current SLC context.
-
 
 ### -param pwszValueName [in]
 
@@ -132,14 +128,12 @@ Session machine ID (Binary BLOB)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 <table>
 <tr>
@@ -191,8 +185,6 @@ Double null-terminated <b>UNICODE</b> string array
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbValue [out]
 
@@ -200,18 +192,14 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>PBYTE*</b>
 
 If successful, the data is returned in the buffer allocated by SLC.    
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -247,7 +235,3 @@ The value for the input key was not found.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncCallback.OnProgress
 title: ISyncCallback::OnProgress (winsync.h)
 description: Occurs periodically during the synchronization session to report progress.
+helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnProgress method","ISyncCallback.OnProgress","ISyncCallback::OnProgress","OnProgress","OnProgress method [Windows Sync]","OnProgress method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onprogress","winsync/ISyncCallback::OnProgress"]
 old-location: winsync\isynccallback_onprogress.htm
 tech.root: winsync
 ms.assetid: 4a4dad07-b169-4767-a118-3b5c6c8b9764
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnProgress method, ISyncCallback.OnProgress, ISyncCallback::OnProgress, OnProgress, OnProgress method [Windows Sync], OnProgress method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onprogress, winsync/ISyncCallback::OnProgress
-f1_keywords:
-- winsync/ISyncCallback.OnProgress
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncCallback.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncCallback::OnProgress
+ - winsync/ISyncCallback::OnProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncCallback.OnProgress
 ---
 
 # ISyncCallback::OnProgress
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Occurs periodically during the synchronization session to report progress.
 
-
 ## -parameters
-
-
-
 
 ### -param provider [in]
 
 The role of the provider that is associated with this event.
 
-
 ### -param syncStage [in]
 
 The current stage of the synchronization session.
-
 
 ### -param dwCompletedWork [in]
 
 The amount of work that is currently completed in the session. This value is interpreted as being a part of <i>dwTotalWork</i>.
 
-
 ### -param dwTotalWork [in]
 
 The total work for the session.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -108,27 +99,11 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Exactly when <b>OnProgress</b> is sent and with what values depends on the providers.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>

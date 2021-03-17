@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableMulticast
 title: IWMReaderNetworkConfig::GetEnableMulticast (wmsdkidl.h)
 description: The GetEnableMulticast method ascertains whether multicast is enabled.
+helpviewer_keywords: ["GetEnableMulticast","GetEnableMulticast method [windows Media Format]","GetEnableMulticast method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableMulticast method","IWMReaderNetworkConfig.GetEnableMulticast","IWMReaderNetworkConfig::GetEnableMulticast","IWMReaderNetworkConfigGetEnableMulticast","wmformat.iwmreadernetworkconfig_getenablemulticast","wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast"]
 old-location: wmformat\iwmreadernetworkconfig_getenablemulticast.htm
 tech.root: wmformat
 ms.assetid: 2fc51a74-18b6-4ddd-9089-9a8bdfce70ea
 ms.date: 12/05/2018
 ms.keywords: GetEnableMulticast, GetEnableMulticast method [windows Media Format], GetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableMulticast method, IWMReaderNetworkConfig.GetEnableMulticast, IWMReaderNetworkConfig::GetEnableMulticast, IWMReaderNetworkConfigGetEnableMulticast, wmformat.iwmreadernetworkconfig_getenablemulticast, wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetEnableMulticast
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetEnableMulticast
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetEnableMulticast
+ - wmsdkidl/IWMReaderNetworkConfig::GetEnableMulticast
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetEnableMulticast
 ---
 
 # IWMReaderNetworkConfig::GetEnableMulticast
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetEnableMulticast</b> method ascertains whether multicast is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfEnableMulticast [out]
 
 Pointer to a Boolean value that is set to True if multicast has been enabled.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablemulticast">IWMReaderNetworkConfig::SetEnableMulticast</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablemulticast">IWMReaderNetworkConfig::SetEnableMulticast</a>

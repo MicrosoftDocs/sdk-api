@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarCmp
 title: VarCmp function (oleauto.h)
 description: Compares two variants.
+helpviewer_keywords: ["NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNOREKASHIDA","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","VarCmp","VarCmp function [Automation]","_oa96_VarCmp","automat.varcmp","oleauto/VarCmp"]
 old-location: automat\varcmp.htm
 tech.root: automat
 ms.assetid: 00b96fa7-446c-450b-bd06-a966e1acb5ce
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarCmp, VarCmp function [Automation], _oa96_VarCmp, automat.varcmp, oleauto/VarCmp
-f1_keywords:
-- oleauto/VarCmp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarCmp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarCmp
+ - oleauto/VarCmp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarCmp
 ---
 
 # VarCmp function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two variants.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarLeft [in]
 
 The first variant.
 
-
 ### -param pvarRight [in]
 
 The second variant.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param dwFlags [in]
 
@@ -148,12 +142,8 @@ Ignore Arabic kashida characters.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -211,14 +201,8 @@ Either expression is NULL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function only compares the value of the variant types. It compares strings, integers, and floating points, but not arrays or records.
 
@@ -228,24 +212,14 @@ NORM_IGNOREWIDTH causes <b>VarCmp</b> to ignore the difference between half-widt
 
 The full-width form is a formatting distinction used in Chinese and Japanese scripts.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/automat/automation-programming-reference">Automation Programming Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/automation-programming-reference">Automation Programming Reference</a>
+<a href="/previous-versions/windows/desktop/automat/conversion-and-manipulation-functions">Conversion and Manipulation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/conversion-and-manipulation-functions">Conversion and Manipulation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-arithmetic-functions">Variant Arithmetic Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/automat/variant-arithmetic-functions">Variant Arithmetic Functions</a>

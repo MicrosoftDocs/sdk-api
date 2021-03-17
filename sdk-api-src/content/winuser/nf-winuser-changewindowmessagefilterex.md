@@ -2,15 +2,12 @@
 UID: NF:winuser.ChangeWindowMessageFilterEx
 title: ChangeWindowMessageFilterEx function (winuser.h)
 description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
+helpviewer_keywords: ["ChangeWindowMessageFilterEx","ChangeWindowMessageFilterEx function [Windows and Messages]","MSGFLT_ALLOW","MSGFLT_DISALLOW","MSGFLT_RESET","_win32_ChangeWindowMessageFilterEx","_win32_changewindowmessagefilterex_cpp","winmsg.changewindowmessagefilterex","winui._win32_changewindowmessagefilterex","winuser/ChangeWindowMessageFilterEx"]
 old-location: winmsg\changewindowmessagefilterex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
 ms.date: 12/05/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
-f1_keywords:
-- winuser/ChangeWindowMessageFilterEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
-- ext-ms-win-ntuser-gui-l1-1-0.dll
-- ext-ms-win-ntuser-gui-l1-1-1.dll
-- ext-ms-win-ntuser-gui-l1-2-0.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
-api_name:
-- ChangeWindowMessageFilterEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeWindowMessageFilterEx
+ - winuser/ChangeWindowMessageFilterEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-0.dll
+ - ext-ms-win-ntuser-gui-l1-1-1.dll
+ - ext-ms-win-ntuser-gui-l1-2-0.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+ - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+api_name:
+ - ChangeWindowMessageFilterEx
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ChangeWindowMessageFilterEx function
@@ -55,30 +58,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
 A handle to the window whose UIPI message filter is to be modified.
-				
-
 
 ### -param message [in]
 
 Type: <b>UINT</b>
 
 The message that the message filter allows through or blocks.
-				
-
 
 ### -param action [in]
 
@@ -113,7 +107,7 @@ Allows the message through the filter. This enables the message to be received b
 </td>
 <td width="60%">
 Blocks the message to be delivered to <i>hWnd</i> if it comes from a lower privileged process, 
-					unless the message is allowed process-wide by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function 
+					unless the message is allowed process-wide by using the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function 
 					or globally.
 					
 
@@ -134,40 +128,28 @@ Resets the window message filter for <i>hWnd</i> to the default.   Any message a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pChangeFilterStruct [in, out, optional]
 
 Type: <b>PCHANGEFILTERSTRUCT</b>
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-changefilterstruct">CHANGEFILTERSTRUCT</a> structure.
-
+Optional pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-changefilterstruct">CHANGEFILTERSTRUCT</a> structure.
 
 ## -returns
 
+Type: <b>BOOL</b>
 
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
-
-If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-				
-
-
-
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.
 		You can use this function to allow specific messages to be delivered to a window even 
-		if the message originates from a process at a lower integrity level. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function, 
+		if the message originates from a process at a lower integrity level. Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function, 
 		which controls the process message filter, the <b>ChangeWindowMessageFilterEx</b> function controls the window message filter. 
 		
 
-An application may use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
@@ -179,18 +161,11 @@ Note that processes at or below <b>SECURITY_MANDATORY_LOW_RID</b> are not allowe
 
 Certain messages whose value is smaller than <b>WM_USER</b> are required to be passed through the filter, 
 		regardless of the filter setting. There will be no effect when you attempt to use this function to 
-		allow or block such messages. 
-		
-
-
-
+		allow or block such messages.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a>
 
 
 
@@ -202,8 +177,4 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to be p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

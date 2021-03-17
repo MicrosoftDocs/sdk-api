@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamWrite
 title: AVIStreamWrite function (vfw.h)
 description: The AVIStreamWrite function writes data to a stream.
+helpviewer_keywords: ["AVIIF_KEYFRAME","AVIStreamWrite","AVIStreamWrite function [Windows Multimedia]","_win32_AVIStreamWrite","multimedia.avistreamwrite","vfw/AVIStreamWrite"]
 old-location: multimedia\avistreamwrite.htm
 tech.root: Multimedia
 ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
-f1_keywords:
-- vfw/AVIStreamWrite
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-api_name:
-- AVIStreamWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamWrite
+ - vfw/AVIStreamWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+api_name:
+ - AVIStreamWrite
 ---
 
 # AVIStreamWrite function
@@ -48,42 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamWrite</b> function writes data to a stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pavi
 
 Handle to an open stream.
 
-
 ### -param lStart
 
 First sample to write.
-
 
 ### -param lSamples
 
 Number of samples to write.
 
-
 ### -param lpBuffer
 
 Pointer to a buffer containing the data to write.
 
-
 ### -param cbBuffer
 
 Size of the buffer referenced by <i>lpBuffer</i>.
-
 
 ### -param dwFlags
 
@@ -105,52 +94,31 @@ Indicates this data does not rely on preceding data in the file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param plSampWritten
 
 Pointer to a buffer that receives the number of samples written. This can be set to <b>NULL</b>.
 
-
 ### -param plBytesWritten
 
 Pointer to a buffer that receives the number of bytes written. This can be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The default AVI file handler supports writing only at the end of a stream. The "WAVE" file handler supports writing anywhere.
 
 This function overwrites existing data, rather than inserting new data.
 
-The argument <i>pavi</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
-
-
-
+The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Initialize
 title: IX509EnrollmentPolicyServer::Initialize (certenroll.h)
 description: Initializes an IX509EnrollmentPolicyServer object.
+helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509EnrollmentPolicyServer interface [Security]","Initialize method","IX509EnrollmentPolicyServer.Initialize","IX509EnrollmentPolicyServer::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","IX509EnrollmentPolicyServer interface","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509EnrollmentPolicyServer::Initialize","security.ix509enrollmentpolicyserver_initialize"]
 old-location: security\ix509enrollmentpolicyserver_initialize.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b0d848a2-1bac-4a30-ae02-26d5af719688
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
-f1_keywords:
-- certenroll/IX509EnrollmentPolicyServer.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509EnrollmentPolicyServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509EnrollmentPolicyServer::Initialize
+ - certenroll/IX509EnrollmentPolicyServer::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509EnrollmentPolicyServer.Initialize
 ---
 
 # IX509EnrollmentPolicyServer::Initialize
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object.
-
+The <b>Initialize</b> method initializes an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object.
 
 ## -parameters
-
-
-
 
 ### -param bstrPolicyServerUrl [in]
 
 A <b>BSTR</b> variable that contains the URL for the certificate enrollment policy server.
 
-
 ### -param bstrPolicyServerId [in]
 
 A <b>BSTR</b> variable that contains a unique ID for the certificate enrollment policy server. If this value is not <b>NULL</b>, it must match the ID string returned by the CEP response.
 
-
 ### -param authFlags [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. This can be one of the following values.
+An <a href="/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. This can be one of the following values.
 
 <table>
 <tr>
@@ -119,17 +114,14 @@ Client authentication certificate installed on the local computer and used by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fIsUnTrusted [in]
 
 A Boolean value that specifies whether to allow an untrusted certification authority certificates.
 
-
 ### -param context [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration  value that specifies the nature of the end entity for which certificate enrollment is intended. This can be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration  value that specifies the nature of the end entity for which certificate enrollment is intended. This can be one of the following values.
 
 <table>
 <tr>
@@ -167,16 +159,12 @@ The certificate is being requested by an administrator acting on the behalf of a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -212,7 +200,7 @@ There was not sufficient memory available for the strings specified in the <i>bs
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object has already been initialized.
+The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object has already been initialized.
 
 </td>
 </tr>
@@ -228,18 +216,7 @@ The value specified in the <i>bstrPolicyServerId</i> parameter is not <b>NULL</b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>

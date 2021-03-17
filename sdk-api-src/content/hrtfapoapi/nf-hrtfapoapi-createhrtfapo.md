@@ -2,15 +2,12 @@
 UID: NF:hrtfapoapi.CreateHrtfApo
 title: CreateHrtfApo function (hrtfapoapi.h)
 description: Creates an instance of the IXAPO interface for head-related transfer function (HRTF) processing.
+helpviewer_keywords: ["CreateHrtfApo","CreateHrtfApo function [XAudio2 Audio Mixing APIs]","hrtfapoapi/CreateHrtfApo","xaudio2.createhrtfapo"]
 old-location: xaudio2\createhrtfapo.htm
 tech.root: xaudio2
 ms.assetid: 24E3CD0D-FC0D-4B1B-961F-BE48935F7B71
 ms.date: 12/05/2018
 ms.keywords: CreateHrtfApo, CreateHrtfApo function [XAudio2 Audio Mixing APIs], hrtfapoapi/CreateHrtfApo, xaudio2.createhrtfapo
-f1_keywords:
-- hrtfapoapi/CreateHrtfApo
-dev_langs:
-- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: HrtfApo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- HrtfApo.dll
-api_name:
-- CreateHrtfApo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateHrtfApo
+ - hrtfapoapi/CreateHrtfApo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - HrtfApo.dll
+api_name:
+ - CreateHrtfApo
 ---
 
 # CreateHrtfApo function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface for head-related transfer function (HRTF) processing.
-
+Creates an instance of the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface for head-related transfer function (HRTF) processing.
 
 ## -parameters
 
-
-
-
 ### -param init [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
-
+Pointer to an <a href="/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfapoinit">HrtfApoInit</a> struct. Specifies parameters for XAPO interface initialization.
 
 ### -param xApo [out]
 
-The new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
-
+The new instance of the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> interface.
 
 ## -returns
-
-
 
 This function can return the following values.
 
@@ -101,14 +94,8 @@ HRTF is not supported on the current platform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Audio is processed in blocks of 1024 samples.
 
@@ -118,25 +105,15 @@ Format requirements:
 <li>Input: mono, 48 kHz, 32-bit float PCM.</li>
 <li>Output: stereo, 48 kHz, 32-bit float PCM.</li>
 </ul>
-The source and environment parameters of the HRTF XAPO are controlled through the <a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a> interface.
+The source and environment parameters of the HRTF XAPO are controlled through the <a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a> interface.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
-Windows 10 (XAudio2.9); 
-
-
-
+Windows 10 (XAudio2.9);
 
 ## -see-also
 
+<a href="/windows/desktop/xaudio2/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

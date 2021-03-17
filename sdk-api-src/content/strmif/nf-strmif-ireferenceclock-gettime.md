@@ -2,15 +2,12 @@
 UID: NF:strmif.IReferenceClock.GetTime
 title: IReferenceClock::GetTime (strmif.h)
 description: The GetTime method retrieves the current reference time.
+helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IReferenceClock interface","IReferenceClock interface [DirectShow]","GetTime method","IReferenceClock.GetTime","IReferenceClock::GetTime","IReferenceClockGetTime","dshow.ireferenceclock_gettime","strmif/IReferenceClock::GetTime"]
 old-location: dshow\ireferenceclock_gettime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1fcf8b8a-f449-4f42-8061-cc4116867d9d
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],GetTime method, IReferenceClock.GetTime, IReferenceClock::GetTime, IReferenceClockGetTime, dshow.ireferenceclock_gettime, strmif/IReferenceClock::GetTime
-f1_keywords:
-- strmif/IReferenceClock.GetTime
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IReferenceClock.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceClock::GetTime
+ - strmif/IReferenceClock::GetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IReferenceClock.GetTime
 ---
 
 # IReferenceClock::GetTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTime</code> method retrieves the current reference time.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTime [out]
 
 Pointer to a variable that receives the current time, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>

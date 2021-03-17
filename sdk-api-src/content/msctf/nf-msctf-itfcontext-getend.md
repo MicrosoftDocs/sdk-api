@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.GetEnd
 title: ITfContext::GetEnd (msctf.h)
 description: ITfContext::GetEnd method
+helpviewer_keywords: ["GetEnd","GetEnd method [Text Services Framework]","GetEnd method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetEnd method","ITfContext.GetEnd","ITfContext::GetEnd","_tsf_itfcontext_getend_ref","msctf/ITfContext::GetEnd","tsf.itfcontext_getend"]
 old-location: tsf\itfcontext_getend.htm
 tech.root: TSF
 ms.assetid: 4fdae76d-ad02-43a4-8a39-418cae847ae8
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetEnd method, ITfContext.GetEnd, ITfContext::GetEnd, _tsf_itfcontext_getend_ref, msctf/ITfContext::GetEnd, tsf.itfcontext_getend
-f1_keywords:
-- msctf/ITfContext.GetEnd
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetEnd
+ - msctf/ITfContext::GetEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetEnd
 ---
 
 # ITfContext::GetEnd
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range of text positioned at the end of the document.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param ppEnd [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface pointer that receives an empty range positioned at the end of the document.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface pointer that receives an empty range positioned at the end of the document.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -155,28 +149,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md)

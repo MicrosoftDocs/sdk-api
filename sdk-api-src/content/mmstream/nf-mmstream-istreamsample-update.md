@@ -2,15 +2,12 @@
 UID: NF:mmstream.IStreamSample.Update
 title: IStreamSample::Update (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Performs a synchronous or an asynchronous update on the current sample.
+helpviewer_keywords: ["IStreamSample interface [DirectShow]","Update method","IStreamSample.Update","IStreamSample::Update","IStreamSampleUpdate","Update","Update method [DirectShow]","Update method [DirectShow]","IStreamSample interface","dshow.istreamsample_update","mmstream/IStreamSample::Update"]
 old-location: dshow\istreamsample_update.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5f56e3f9-443b-4d67-bfed-3210e691ad4b
 ms.date: 12/05/2018
 ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.Update, IStreamSample::Update, IStreamSampleUpdate, Update, Update method [DirectShow], Update method [DirectShow],IStreamSample interface, dshow.istreamsample_update, mmstream/IStreamSample::Update
-f1_keywords:
-- mmstream/IStreamSample.Update
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IStreamSample.Update
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamSample::Update
+ - mmstream/IStreamSample::Update
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IStreamSample.Update
 ---
 
 # IStreamSample::Update
@@ -48,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Performs a synchronous or an asynchronous update on the current sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
-Flag that specifies whether the update is synchronous or asynchronous. The SSUPDATE_ASYNC flag specifies an asynchronous update, which you can set if both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b>. Use SSUPDATE_CONTINUOUS to continuously update the sample until you call the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-completionstatus">IStreamSample::CompletionStatus</a> method.
-
+Flag that specifies whether the update is synchronous or asynchronous. The SSUPDATE_ASYNC flag specifies an asynchronous update, which you can set if both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b>. Use SSUPDATE_CONTINUOUS to continuously update the sample until you call the <a href="/windows/desktop/api/mmstream/nf-mmstream-istreamsample-completionstatus">IStreamSample::CompletionStatus</a> method.
 
 ### -param hEvent [in]
 
 Handle to an event that this method will trigger when the update is complete.
 
-
 ### -param pfnAPC [in]
 
 Pointer to a Win32 asynchronous procedure call (APC) function that this method will call after it completes the sample update.
-
 
 ### -param dwAPCData [in]
 
 Value that this method passes to the function specified by the <i>pfnAPC</i> parameter.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -182,14 +170,8 @@ Cannot allocate a sample because the allocator is not committed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be used to perform a synchronous or asynchronous update of a sample. If both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b> then the update will be synchronous unless either of the SSUPDATE_ASYNC or SSUPDATE_CONTINUOUS flags is specified. When a synchronous update returns, the result of the function contains the I/O completion status.
 
@@ -201,16 +183,6 @@ Asynchronous updates that don't complete prior to returning will return a value 
 
 If an application creates multiple streams, it must perform an asynchronous update on each stream. Call <b>WaitForMultipleObjects</b> to wait for each stream update to complete, before making the next update. Otherwise, the application might block.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>

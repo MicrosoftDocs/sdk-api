@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.GetIdealVideoSize
 title: IMFVideoDisplayControl::GetIdealVideoSize (evr.h)
 description: Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
+helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetIdealVideoSize method","IMFVideoDisplayControl.GetIdealVideoSize","IMFVideoDisplayControl::GetIdealVideoSize","c580778b-fe7c-4c62-9bcd-8a5fde370b9d","evr/IMFVideoDisplayControl::GetIdealVideoSize","mf.imfvideodisplaycontrol_getidealvideosize"]
 old-location: mf\imfvideodisplaycontrol_getidealvideosize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c580778b-fe7c-4c62-9bcd-8a5fde370b9d
 ms.date: 12/05/2018
 ms.keywords: GetIdealVideoSize, GetIdealVideoSize method [Media Foundation], GetIdealVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetIdealVideoSize method, IMFVideoDisplayControl.GetIdealVideoSize, IMFVideoDisplayControl::GetIdealVideoSize, c580778b-fe7c-4c62-9bcd-8a5fde370b9d, evr/IMFVideoDisplayControl::GetIdealVideoSize, mf.imfvideodisplaycontrol_getidealvideosize
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetIdealVideoSize
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetIdealVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetIdealVideoSize
+ - evr/IMFVideoDisplayControl::GetIdealVideoSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetIdealVideoSize
 ---
 
 # IMFVideoDisplayControl::GetIdealVideoSize
@@ -49,29 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the range of sizes that the enhanced video renderer (EVR) can display without significantly degrading performance or image quality.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pszMin [in, out]
 
 Receives the minimum ideal size. This parameter can be <b>NULL</b>.
 
-
 ### -param pszMax [in, out]
 
 Receives the maximum ideal size. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,35 +106,19 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You can set <i>pszMin</i> or <i>pszMax</i> to <b>NULL</b>, but not both.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsi_Get_TCG_Log_Ex
 title: Tbsi_Get_TCG_Log_Ex function (tbs.h)
 description: Gets the Windows Boot Configuration Log (WBCL), also referred to as the TCG log, of the specified type.
+helpviewer_keywords: ["TBS_TCGLOG_DRTM_CURRENT","TBS_TCGLOG_SRTM_BOOT","TBS_TCGLOG_SRTM_CURRENT","TBS_TCGLOG_SRTM_RESUME","Tbsi_Get_TCG_Log_Ex","Tbsi_Get_TCG_Log_Ex function [TBS]","tbs.tbsi_get_tcg_log_ex","tbs/Tbsi_Get_TCG_Log_Ex"]
 old-location: tbs\tbsi_get_tcg_log_ex.htm
 tech.root: TBS
 ms.assetid: 7895D501-97A7-4813-B997-B7D8C6F7C0C6
 ms.date: 12/05/2018
 ms.keywords: TBS_TCGLOG_DRTM_CURRENT, TBS_TCGLOG_SRTM_BOOT, TBS_TCGLOG_SRTM_CURRENT, TBS_TCGLOG_SRTM_RESUME, Tbsi_Get_TCG_Log_Ex, Tbsi_Get_TCG_Log_Ex function [TBS], tbs.tbsi_get_tcg_log_ex, tbs/Tbsi_Get_TCG_Log_Ex
-f1_keywords:
-- tbs/Tbsi_Get_TCG_Log_Ex
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsi_Get_TCG_Log_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsi_Get_TCG_Log_Ex
+ - tbs/Tbsi_Get_TCG_Log_Ex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsi_Get_TCG_Log_Ex
 ---
 
 # Tbsi_Get_TCG_Log_Ex function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the Windows Boot Configuration Log (WBCL), also referred to as the TCG log, of the specified type.
 
-
 ## -parameters
-
-
-
 
 ### -param logType [in]
 
@@ -111,13 +108,10 @@ The log associated with PCRs 0-15 for the most recent resume from hibernation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbOutput [out, optional]
 
                 Pointer to a buffer that receives and stores the WBCL. Set to <b>NULL</b> to estimate the required buffer when the location pointed to by <i>pcbOutput</i> is also 0 on input.
-
 
 ### -param pcbOutput [in, out]
 
@@ -125,10 +119,7 @@ Pointer to an unsigned long integer that specifies the size, in bytes, of the ou
 
 <b>Note</b>  If <i>pbOutput</i> is <b>NULL</b> and the location pointed to by <i>pcbOutput</i> is 0, the function returns <b>TBS_E_BUFFER_TOO_SMALL</b>. In that case, <i>pcbOutput</i> will point to the required size of <i>pbOutput</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -234,14 +225,8 @@ The Trusted Platform Module (TPM) Security Device is deactivated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Tbsi_Get_TCG_Log_Ex</b> function returns the TCG Event Log for the system, and the buffer size depends on the number of events.
 
@@ -353,6 +338,4 @@ typedef struct {
 
 
 The memory size required for the <i>pOutputBuf</i> parameter should either be the constant in <b>TBS_IN_OUT_BUF_SIZE_MAX</b>, defined in the Tbs.h header file, or it should be obtained by calling the <b>Tbsi_Get_TCG_Log_Ex</b> function with a zero length buffer to get the required buffer size.
-
-
 

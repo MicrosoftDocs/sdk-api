@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMMediaContent.get_AuthorName
 title: IAMMediaContent::get_AuthorName (qnetwork.h)
 description: The get_AuthorName method retrieves the author name.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_AuthorName method","IAMMediaContent.get_AuthorName","IAMMediaContent::get_AuthorName","IAMMediaContentget_AuthorName","dshow.iammediacontent_get_authorname","get_AuthorName","get_AuthorName method [DirectShow]","get_AuthorName method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_AuthorName"]
 old-location: dshow\iammediacontent_get_authorname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49ccb07c-1f20-47e9-a05b-f8f3b77acc99
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_AuthorName method, IAMMediaContent.get_AuthorName, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_AuthorName
-f1_keywords:
-- qnetwork/IAMMediaContent.get_AuthorName
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent.get_AuthorName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent::get_AuthorName
+ - qnetwork/IAMMediaContent::get_AuthorName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent.get_AuthorName
 ---
 
 # IAMMediaContent::get_AuthorName
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_AuthorName</code> method retrieves the author name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrAuthorName
 
 Pointer to a variable that receives a <b>BSTR</b> with the information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -121,31 +112,15 @@ Item not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the method succeeds, the caller must free the returned <b>BSTR</b> by calling the <b>SysFreeString</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>

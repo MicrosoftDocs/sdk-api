@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.SetPrintTicketResource
 title: IXpsOMDocumentSequence::SetPrintTicketResource (xpsobjectmodel.h)
 description: Sets the job-level print ticket resource for the document sequence.
+helpviewer_keywords: ["IXpsOMDocumentSequence interface [XPS Documents and Packaging]","SetPrintTicketResource method","IXpsOMDocumentSequence.SetPrintTicketResource","IXpsOMDocumentSequence::SetPrintTicketResource","SetPrintTicketResource","SetPrintTicketResource method [XPS Documents and Packaging]","SetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocumentSequence interface","xps.ixpsomdocumentsequence_setprintticketresource","xpsobjectmodel/IXpsOMDocumentSequence::SetPrintTicketResource"]
 old-location: xps\ixpsomdocumentsequence_setprintticketresource.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: bfc5889d-ab1d-4dbe-af11-625ee5e8c95f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence interface [XPS Documents and Packaging],SetPrintTicketResource method, IXpsOMDocumentSequence.SetPrintTicketResource, IXpsOMDocumentSequence::SetPrintTicketResource, SetPrintTicketResource, SetPrintTicketResource method [XPS Documents and Packaging], SetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, xps.ixpsomdocumentsequence_setprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::SetPrintTicketResource
-f1_keywords:
-- xpsobjectmodel/IXpsOMDocumentSequence.SetPrintTicketResource
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMDocumentSequence.SetPrintTicketResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMDocumentSequence::SetPrintTicketResource
+ - xpsobjectmodel/IXpsOMDocumentSequence::SetPrintTicketResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMDocumentSequence.SetPrintTicketResource
 ---
 
 # IXpsOMDocumentSequence::SetPrintTicketResource
@@ -48,50 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the job-level print ticket resource for the document sequence.
-
 
 ## -parameters
 
-
-
-
 ### -param printTicketResource [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface of the job-level print ticket that will be set for the document sequence.
+A pointer to the  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface of the job-level print ticket that will be set for the document sequence.
           If the document sequence has a print ticket resource, a <b>NULL</b> pointer will release it.
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
-If the document contains an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface when this method is called, that interface is released before the new <b>IXpsOMPrintTicketResource</b> interface, which is passed in <i>printTicketResource</i>, is set.
-
-
-
+If the document contains an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface when this method is called, that interface is released before the new <b>IXpsOMPrintTicketResource</b> interface, which is passed in <i>printTicketResource</i>, is set.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence">IXpsOMDocumentSequence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentsequence">IXpsOMDocumentSequence</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

@@ -2,15 +2,12 @@
 UID: NF:casetup.IMSCEPSetup.SetAccountInformation
 title: IMSCEPSetup::SetAccountInformation (casetup.h)
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
+helpviewer_keywords: ["IMSCEPSetup interface [Security]","SetAccountInformation method","IMSCEPSetup.SetAccountInformation","IMSCEPSetup::SetAccountInformation","SetAccountInformation","SetAccountInformation method [Security]","SetAccountInformation method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::SetAccountInformation","security.imscepsetup_setaccountinformation"]
 old-location: security\imscepsetup_setaccountinformation.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],SetAccountInformation method, IMSCEPSetup.SetAccountInformation, IMSCEPSetup::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Security], SetAccountInformation method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetAccountInformation, security.imscepsetup_setaccountinformation
-f1_keywords:
-- casetup/IMSCEPSetup.SetAccountInformation
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- IMSCEPSetup.SetAccountInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSCEPSetup::SetAccountInformation
+ - casetup/IMSCEPSetup::SetAccountInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - IMSCEPSetup.SetAccountInformation
 ---
 
 # IMSCEPSetup::SetAccountInformation
@@ -48,43 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetAccountInformation</b> method sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrUserName [in]
 
 A string that contains the name of the user account to use with the IIS extension in the form [<i>DomainName</i>\]<i>UserName</i>.
 
-
 ### -param bstrPassword [in]
 
 A string that contains the password for the user account.
 
-
 ## -remarks
-
-
 
 The account must be a member of the <b>IIS_USRS</b> group on the computer.
 
-If NDES is configured for an enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
-
-
-
+If NDES is configured for an enterprise <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

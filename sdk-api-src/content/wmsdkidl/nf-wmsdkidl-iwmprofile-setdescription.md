@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfile.SetDescription
 title: IWMProfile::SetDescription (wmsdkidl.h)
 description: The SetDescription method specifies the description of a profile. The description is a string that contains an explanation of what the profile should be used for.
+helpviewer_keywords: ["IWMProfile interface [windows Media Format]","SetDescription method","IWMProfile.SetDescription","IWMProfile2 interface [windows Media Format]","SetDescription method","IWMProfile2::SetDescription","IWMProfile3 interface [windows Media Format]","SetDescription method","IWMProfile3::SetDescription","IWMProfile::SetDescription","IWMProfileSetDescription","SetDescription","SetDescription method [windows Media Format]","SetDescription method [windows Media Format]","IWMProfile interface","SetDescription method [windows Media Format]","IWMProfile2 interface","SetDescription method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile_setdescription","wmsdkidl/IWMProfile2::SetDescription","wmsdkidl/IWMProfile3::SetDescription","wmsdkidl/IWMProfile::SetDescription"]
 old-location: wmformat\iwmprofile_setdescription.htm
 tech.root: wmformat
 ms.assetid: 79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, IWMProfile.SetDescription, IWMProfile2 interface [windows Media Format],SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format],SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format],IWMProfile interface, SetDescription method [windows Media Format],IWMProfile2 interface, SetDescription method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
-f1_keywords:
-- wmsdkidl/IWMProfile.SetDescription
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMProfile.SetDescription
-- IWMProfile2.SetDescription
-- IWMProfile3.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile::SetDescription
+ - wmsdkidl/IWMProfile::SetDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMProfile.SetDescription
+ - IWMProfile2.SetDescription
+ - IWMProfile3.SetDescription
 ---
 
 # IWMProfile::SetDescription
@@ -54,26 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetDescription</b> method specifies the description of a profile. The description is a string that contains an explanation of what the profile should be used for.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszDescription [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the description. Profile descriptions are limited to 1024 wide characters.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -105,30 +96,19 @@ The <i>pwszDescription</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getdescription">IWMProfile::GetDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-getdescription">IWMProfile::GetDescription</a>

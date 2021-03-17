@@ -2,15 +2,12 @@
 UID: NF:realtimeapiset.ConvertPerformanceCounterToAuxiliaryCounter
 title: ConvertPerformanceCounterToAuxiliaryCounter function (realtimeapiset.h)
 description: Converts the specified performance counter value to the corresponding auxiliary counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
+helpviewer_keywords: ["ConvertPerformanceCounterToAuxiliaryCounter","ConvertPerformanceCounterToAuxiliaryCounter function","base.convertperformancecountertoauxiliarycounter","realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter"]
 old-location: base\convertperformancecountertoauxiliarycounter.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 2499981B-6C13-4A3D-836A-D4CCD11C8D50
 ms.date: 12/05/2018
 ms.keywords: ConvertPerformanceCounterToAuxiliaryCounter, ConvertPerformanceCounterToAuxiliaryCounter function, base.convertperformancecountertoauxiliarycounter, realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
-f1_keywords:
-- realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
-dev_langs:
-- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- ConvertPerformanceCounterToAuxiliaryCounter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ConvertPerformanceCounterToAuxiliaryCounter
+ - realtimeapiset/ConvertPerformanceCounterToAuxiliaryCounter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - ConvertPerformanceCounterToAuxiliaryCounter
 ---
 
 # ConvertPerformanceCounterToAuxiliaryCounter function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the specified performance counter value to the corresponding auxiliary counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift. 
-
+Converts the specified performance counter value to the corresponding auxiliary counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 
 ## -parameters
-
-
-
 
 ### -param ullPerformanceCounterValue [in]
 
 The performance counter value to convert.
 
-
 ### -param lpAuxiliaryCounterValue [out]
 
 On success, contains the converted auxiliary counter value. Will be undefined if the function fails.
-
 
 ### -param lpConversionError [out, optional]
 
 On success, contains the estimated conversion error, in nanoseconds. Will be undefined if the function fails.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if the conversion succeeds; otherwise, returns another <b>HRESULT</b> specifying the error. 
 
@@ -128,7 +120,4 @@ The value to convert is prior to the last system boot or S3/S4 transition.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
 title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetCADistinguishedName method","ICertSrvSetup.SetCADistinguishedName","ICertSrvSetup::SetCADistinguishedName","SetCADistinguishedName","SetCADistinguishedName method [Security]","SetCADistinguishedName method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetCADistinguishedName","security.icertsrvsetup_setcadistinguishedname"]
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
-f1_keywords:
-- casetup/ICertSrvSetup.SetCADistinguishedName
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetup.SetCADistinguishedName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetup::SetCADistinguishedName
+ - casetup/ICertSrvSetup::SetCADistinguishedName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetup.SetCADistinguishedName
 ---
 
 # ICertSrvSetup::SetCADistinguishedName
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetCADistinguishedName</b> method sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) common name and an optional distinguished name suffix.
-
+The <b>SetCADistinguishedName</b> method sets a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) common name and an optional distinguished name suffix.
 
 ## -parameters
-
-
-
 
 ### -param bstrCADN [in]
 
@@ -105,46 +102,29 @@ Distinguished name including the optional suffix
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bIgnoreUnicode [in]
 
 A value that indicates whether to allow Unicode encoding of the name information. A value of <b>VARIANT_TRUE</b> enables Unicode encoding.
 
-
 ### -param bOverwriteExistingKey [in]
 
-A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
-
+A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a <a href="/windows/desktop/SecGloss/p-gly">private key</a> with the same name exists on the computer. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing key.
 
 ### -param bOverwriteExistingCAInDS [in]
 
 A value that indicates whether to allow the name in <i>bstrCADN</i>, even though a CA with the same distinguished name exists in the directory service. A value of <b>VARIANT_TRUE</b> enables the method to overwrite the existing directory service entry.
 
-
 ## -remarks
 
+Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
+Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
 
-Upon success, the <b>SetCADistinguishedName</b> method changes the <b>ENUM_SETUPPROP_CANAME</b> and <b>ENUM_SETUPPROP_CADSSUFFIX</b> property values to reflect the <i>bstrCADN</i> name. For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
-
-Upon failure, the <b>SetCADistinguishedName</b> method might set additional error information in the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorid">CAErrorId</a> and <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-get_caerrorstring">CAErrorString</a> properties.
-
-If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> <b>ContainerName</b> of the key. 
+If an existing key and its associated certificate are being used to configure the CA, this method must not be called. If an existing key is being used  to configure the CA, without using the associated certificate, the common name in <i>bstrCADN</i> must match the <a href="/windows/desktop/SecGloss/s-gly">sanitized</a> <b>ContainerName</b> of the key. 
 
 If <i>bstrCADN</i> includes UTF8 encoding, set the appropriate flag in CAPolicy.inf and place it in the  %windir%.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

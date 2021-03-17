@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriter.GetInputFormat
 title: IWMWriter::GetInputFormat (wmsdkidl.h)
 description: The GetInputFormat method retrieves possible media formats for the specified input.
+helpviewer_keywords: ["GetInputFormat","GetInputFormat method [windows Media Format]","GetInputFormat method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","GetInputFormat method","IWMWriter.GetInputFormat","IWMWriter::GetInputFormat","IWMWriterGetInputFormat","wmformat.iwmwriter_getinputformat","wmsdkidl/IWMWriter::GetInputFormat"]
 old-location: wmformat\iwmwriter_getinputformat.htm
 tech.root: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
 ms.date: 12/05/2018
 ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormat method, IWMWriter.GetInputFormat, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
-f1_keywords:
-- wmsdkidl/IWMWriter.GetInputFormat
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.GetInputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::GetInputFormat
+ - wmsdkidl/IWMWriter::GetInputFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.GetInputFormat
 ---
 
 # IWMWriter::GetInputFormat
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetInputFormat</b> method retrieves possible media formats for the specified input.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNumber [in]
 
 <b>DWORD</b> containing the input number.
 
-
 ### -param dwFormatNumber [in]
 
 <b>DWORD</b> containing the format number.
 
-
 ### -param pProps [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,26 +101,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount">IWMWriter::GetInputFormatCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount">IWMWriter::GetInputFormatCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>

@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2StreamMap.MapStream
 title: ISBE2StreamMap::MapStream (sbe.h)
 description: Maps a stream to an output pin for a Stream Buffer Source filter.
+helpviewer_keywords: ["ISBE2StreamMap interface [Microsoft TV Technologies]","MapStream method","ISBE2StreamMap.MapStream","ISBE2StreamMap::MapStream","MapStream","MapStream method [Microsoft TV Technologies]","MapStream method [Microsoft TV Technologies]","ISBE2StreamMap interface","mstv.isbe2streammap_mapstream","sbe/ISBE2StreamMap::MapStream"]
 old-location: mstv\isbe2streammap_mapstream.htm
 tech.root: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
-f1_keywords:
-- sbe/ISBE2StreamMap.MapStream
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2StreamMap.MapStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2StreamMap::MapStream
+ - sbe/ISBE2StreamMap::MapStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2StreamMap.MapStream
 ---
 
 # ISBE2StreamMap::MapStream
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
+Maps a stream to an output pin for a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
-Maps a stream to an output pin for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
-
-By default, the stream mappings cannot be changed. Before calling this method, disable the default mapping mode by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a> method without the <b>DEF_MODE_STREAMS</b> flag.
-
+By default, the stream mappings cannot be changed. Before calling this method, disable the default mapping mode by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a> method without the <b>DEF_MODE_STREAMS</b> flag.
 
 ## -parameters
-
-
-
 
 ### -param Stream [in]
 
 Identifier for the stream mapped to an output pin. The major type of the stream must match the major type of the pin.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -119,39 +113,23 @@ No stream exists with the specified stream identifier.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the new stream has different media type from the previously mapped stream, the output pin follows the dynamic format change procedure described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>, and flushes downstream pins as described in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/flushing">Flushing</a>.
-
-
-
+If the new stream has different media type from the previously mapped stream, the output pin follows the dynamic format change procedure described in <a href="/windows/desktop/DirectShow/dynamic-format-changes">Dynamic Format Changes</a>, and flushes downstream pins as described in <a href="/windows/desktop/DirectShow/flushing">Flushing</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2streammap">ISBE2StreamMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2streammap">ISBE2StreamMap</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>

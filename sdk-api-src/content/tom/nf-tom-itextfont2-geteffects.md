@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont2.GetEffects
 title: ITextFont2::GetEffects (tom.h)
 description: Gets the character format effects.
+helpviewer_keywords: ["GetEffects","GetEffects method [Windows Controls]","GetEffects method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetEffects method","ITextFont2.GetEffects","ITextFont2::GetEffects","controls.itextfont2_geteffects","tom/ITextFont2::GetEffects","tomAllCaps","tomBold","tomDisabled","tomEmboss","tomHidden","tomImprint","tomInlineObjectStart","tomItalic","tomLink","tomLinkProtected","tomMathZone","tomMathZoneDisplay","tomMathZoneNoBuildUp","tomMathZoneOrdinary","tomOutline","tomProtected","tomRevised","tomShadow","tomSmallCaps","tomStrikeout","tomUnderline"]
 old-location: controls\itextfont2_geteffects.htm
 tech.root: Controls
 ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
 ms.date: 12/05/2018
 ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetEffects method, ITextFont2.GetEffects, ITextFont2::GetEffects, controls.itextfont2_geteffects, tom/ITextFont2::GetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
-f1_keywords:
-- tom/ITextFont2.GetEffects
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont2.GetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont2::GetEffects
+ - tom/ITextFont2::GetEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont2.GetEffects
 ---
 
 # ITextFont2::GetEffects
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the character format effects.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out]
 
@@ -210,9 +207,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
-
-
+If the  <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
 
 ### -param pMask [out]
 
@@ -220,29 +215,16 @@ Type: <b>long*</b>
 
 The differences in these flags over the range. A value of zero indicates that the properties are the same over the range. For an insertion point, this value is always zero.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-seteffects">ITextFont2::SetEffects</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-seteffects">ITextFont2::SetEffects</a>

@@ -2,15 +2,12 @@
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
 title: IRendezvousSession::SendContextData (rendezvoussession.h)
 description: Sends the context data to the remote RendezvousApplication.
+helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","SendContextData method","IRendezvousSession.SendContextData","IRendezvousSession::SendContextData","SendContextData","SendContextData method [Remote Assistance]","SendContextData method [Remote Assistance]","IRendezvousSession interface","remoteassist.remoteassist_IRendezvousSession_SendContextData","remoteassist_IRendezvousSession_SendContextData","rendezvoussession/IRendezvousSession::SendContextData"]
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm
 ms.date: 12/05/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
-f1_keywords:
-- rendezvoussession/IRendezvousSession.SendContextData
-dev_langs:
-- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RendezvousSession.tlb
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RendezvousSession.tlb
-api_name:
-- IRendezvousSession.SendContextData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRendezvousSession::SendContextData
+ - rendezvoussession/IRendezvousSession::SendContextData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RendezvousSession.tlb
+api_name:
+ - IRendezvousSession.SendContextData
 ---
 
 # IRendezvousSession::SendContextData
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sends the context data to the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
-
+Sends the context data to the remote <a href="/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 ## -parameters
 
-
-
-
 ### -param bstrData [in]
 
-A <b>BSTR</b> specifying context data for the application. 
-
+A <b>BSTR</b> specifying context data for the application.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,3 @@ There is not enough memory available to send the context data.
 </td>
 </tr>
 </table>
- 
-
-
-

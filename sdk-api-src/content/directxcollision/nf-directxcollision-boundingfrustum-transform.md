@@ -2,12 +2,10 @@
 UID: NF:directxcollision.BoundingFrustum.Transform
 title: BoundingFrustum::Transform
 description: Transforms the BoundingFrustum by the specified transformation matrix.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingFrustum::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Transform
-f1_keywords:
-- directxcollision/BoundingFrustum::Transform
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,17 +26,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingFrustum::Transform
+ - directxcollision/BoundingFrustum::Transform
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingFrustum::Transform
+ - BoundingFrustum::Transform
 ---
 
 # BoundingFrustum.Transform(BoundingFrustum&, XMMATRIX) method
+
 
 ## -description
 
@@ -69,4 +73,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)

@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDescByMemId
 title: ICreateTypeInfo2::DeleteFuncDescByMemId (oaidl.h)
 description: Deletes the specified function description (FUNCDESC).
+helpviewer_keywords: ["DeleteFuncDescByMemId","DeleteFuncDescByMemId method [Automation]","DeleteFuncDescByMemId method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteFuncDescByMemId method","ICreateTypeInfo2.DeleteFuncDescByMemId","ICreateTypeInfo2::DeleteFuncDescByMemId","_oa96_ICreateTypeInfo2_DeleteFuncDescByMemId","automat.icreatetypeinfo2_deletefuncdescbymemid","oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId"]
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
 tech.root: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f
 ms.date: 12/05/2018
 ms.keywords: DeleteFuncDescByMemId, DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDescByMemId method, ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
-f1_keywords:
-- oaidl/ICreateTypeInfo2.DeleteFuncDescByMemId
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.DeleteFuncDescByMemId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::DeleteFuncDescByMemId
+ - oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.DeleteFuncDescByMemId
 ---
 
 # ICreateTypeInfo2::DeleteFuncDescByMemId
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified function description (FUNCDESC).
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The member identifier of the FUNCDESC to delete.
 
-
-
-
 ### -param invKind [in]
 
 The type of the invocation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

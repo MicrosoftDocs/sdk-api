@@ -2,15 +2,12 @@
 UID: NS:usp10.tag_SCRIPT_ITEM
 title: SCRIPT_ITEM (usp10.h)
 description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
+helpviewer_keywords: ["SCRIPT_ITEM","SCRIPT_ITEM structure [Internationalization for Windows Applications]","_win32_SCRIPT_ITEM_str","intl.script_item","usp10/SCRIPT_ITEM"]
 old-location: intl\script_item.htm
 tech.root: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, usp10/SCRIPT_ITEM
-f1_keywords:
-- usp10/SCRIPT_ITEM
-dev_langs:
-- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Usp10.h
-api_name:
-- SCRIPT_ITEM
 targetos: Windows
 req.typenames: SCRIPT_ITEM
 req.redist: Internet Explorer 5 or later onWindows Me/98/95
 ms.custom: 19H1
+f1_keywords:
+ - tag_SCRIPT_ITEM
+ - usp10/tag_SCRIPT_ITEM
+ - SCRIPT_ITEM
+ - usp10/SCRIPT_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Usp10.h
+api_name:
+ - SCRIPT_ITEM
 ---
 
 # SCRIPT_ITEM structure
@@ -48,51 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Contains a script item, including a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
-
-
-
+Contains a script item, including a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure with the string offset of the first character of the item.
 
 ## -struct-fields
-
-
-
 
 ### -field iCharPos
 
 Offset from the beginning of the itemized string to the first character of the item, counted in Unicode code points (WCHAR values).
 
-
 ### -field a
 
-A <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
-
+A <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure containing the analysis of the item.
 
 ## -see-also
 
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

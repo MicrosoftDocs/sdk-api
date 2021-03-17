@@ -2,15 +2,12 @@
 UID: NF:snmp.SnmpUtilIdsToA
 title: SnmpUtilIdsToA function (snmp.h)
 description: The SnmpUtilIdsToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilIdsToA","SnmpUtilIdsToA function [SNMP]","_snmp_snmputilidstoa","snmp.snmputilidstoa","snmp/SnmpUtilIdsToA"]
 old-location: snmp\snmputilidstoa.htm
 tech.root: SNMP
 ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
-f1_keywords:
-- snmp/SnmpUtilIdsToA
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpUtilIdsToA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpUtilIdsToA
+ - snmp/SnmpUtilIdsToA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpUtilIdsToA
 ---
 
 # SnmpUtilIdsToA function
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilIdsToA</b> function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param Ids [in]
 
@@ -69,15 +66,11 @@ Pointer to an array of unsigned integers. The array contains the sequence of num
 
 For more information, see the following Return Values and Remarks sections.
 
-
 ### -param IdLength [in]
 
 Specifies the number of elements in the array pointed to by the <i>Ids</i> parameter.
 
-
 ## -returns
-
-
 
 The function returns a null-terminated string that contains the string representation of the array of numbers pointed to by the <i>Ids</i> parameter. The string contains a sequence of numbers separated by periods ('.'); for example, 1.3.6.1.4.1.311.
 
@@ -85,12 +78,7 @@ If the <i>Ids</i> parameter is null, or if the <i>IdLength</i> parameter specifi
 
 The maximum length of the returned string is 256 characters. If the string's length exceeds 256 characters, the string is truncated and terminated with a sequence of three periods ('...').
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>SnmpUtilIdsToA</b> function can assist with the debugging of SNMP applications.
@@ -105,23 +93,14 @@ Note that the following memory restrictions apply when you call
 <b>SnmpUtilIdsToA</b> again, so before calling the function again you should copy the data to another location.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidtoa">SnmpUtilOidToA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloidtoa">SnmpUtilOidToA</a>

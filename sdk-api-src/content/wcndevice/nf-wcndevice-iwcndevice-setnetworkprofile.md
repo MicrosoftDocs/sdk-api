@@ -2,15 +2,12 @@
 UID: NF:wcndevice.IWCNDevice.SetNetworkProfile
 title: IWCNDevice::SetNetworkProfile (wcndevice.h)
 description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetNetworkProfile method","IWCNDevice.SetNetworkProfile","IWCNDevice::SetNetworkProfile","SetNetworkProfile","SetNetworkProfile method [Windows Connect Now]","SetNetworkProfile method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_setnetworkprofile","wcndevice/IWCNDevice::SetNetworkProfile"]
 old-location: wcn\iwcndevice_setnetworkprofile.htm
 tech.root: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
-f1_keywords:
-- wcndevice/IWCNDevice.SetNetworkProfile
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNDevice.SetNetworkProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNDevice::SetNetworkProfile
+ - wcndevice/IWCNDevice::SetNetworkProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNDevice.SetNetworkProfile
 ---
 
 # IWCNDevice::SetNetworkProfile
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IWCNDevice::SetNetworkProfile</b> method queues an XML WLAN profile to be provisioned to the device.  This method may  only be called prior to <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
-
+The <b>IWCNDevice::SetNetworkProfile</b> method queues an XML WLAN profile to be provisioned to the device.  This method may  only be called prior to <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
 ## -parameters
-
-
-
 
 ### -param pszProfileXml [in]
 
 The XML WLAN profile XML string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,14 +101,8 @@ The provided XML profile cannot be read.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Currently, the <b>Windows Connect Now API</b> (WCNAPI) supports the following profile types: <ul>
 <li>None (Open or Shared)</li>
@@ -123,16 +111,6 @@ Currently, the <b>Windows Connect Now API</b> (WCNAPI) supports the following pr
 <li>WPA2-PSK (TKIP or AES)</li>
 </ul>   If  the specified WLAN profile has extraneous settings (like IHV settings), these settings will be ignored. In the event a WLAN profile is not  compatible with the WCNAPI, an <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b> value is returned.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>

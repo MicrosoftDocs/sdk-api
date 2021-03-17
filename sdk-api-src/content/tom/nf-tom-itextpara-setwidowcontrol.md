@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.SetWidowControl
 title: ITextPara::SetWidowControl (tom.h)
 description: Controls the suppression of widows and orphans.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetWidowControl method","ITextPara.SetWidowControl","ITextPara::SetWidowControl","SetWidowControl","SetWidowControl method [Windows Controls]","SetWidowControl method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetWidowControl","_win32_ITextPara_SetWidowControl_cpp","controls.ITextPara_SetWidowControl","controls._win32_ITextPara_SetWidowControl","tom/ITextPara::SetWidowControl"]
 old-location: controls\ITextPara_SetWidowControl.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetWidowControl method, ITextPara.SetWidowControl, ITextPara::SetWidowControl, SetWidowControl, SetWidowControl method [Windows Controls], SetWidowControl method [Windows Controls],ITextPara interface, _win32_ITextPara_SetWidowControl, _win32_ITextPara_SetWidowControl_cpp, controls.ITextPara_SetWidowControl, controls._win32_ITextPara_SetWidowControl, tom/ITextPara::SetWidowControl
-f1_keywords:
-- tom/ITextPara.SetWidowControl
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetWidowControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetWidowControl
+ - tom/ITextPara::SetWidowControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetWidowControl
 ---
 
 # ITextPara::SetWidowControl
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the suppression of widows and orphans.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -113,16 +110,12 @@ No change.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetWidowControl</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetWidowControl</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -185,32 +178,20 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is included for compatibility with Microsoft Word; it does not affect how the rich edit control displays text.
 
 A widow is created when the last line of a paragraph is printed by itself at the top of a page. An orphan is when the first line of a paragraph is printed by itself at the bottom of a page.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -218,8 +199,4 @@ A widow is created when the last line of a paragraph is printed by itself at the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

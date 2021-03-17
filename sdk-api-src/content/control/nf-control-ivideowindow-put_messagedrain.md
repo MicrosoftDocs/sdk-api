@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.put_MessageDrain
 title: IVideoWindow::put_MessageDrain (control.h)
 description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_MessageDrain method","IVideoWindow.put_MessageDrain","IVideoWindow::put_MessageDrain","IVideoWindowput_MessageDrain","control/IVideoWindow::put_MessageDrain","dshow.ivideowindow_put_messagedrain","put_MessageDrain","put_MessageDrain method [DirectShow]","put_MessageDrain method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_messagedrain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: aaf8624c-b3ea-4034-845a-6cd74c725c44
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_MessageDrain method, IVideoWindow.put_MessageDrain, IVideoWindow::put_MessageDrain, IVideoWindowput_MessageDrain, control/IVideoWindow::put_MessageDrain, dshow.ivideowindow_put_messagedrain, put_MessageDrain, put_MessageDrain method [DirectShow], put_MessageDrain method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_MessageDrain
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_MessageDrain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_MessageDrain
+ - control/IVideoWindow::put_MessageDrain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_MessageDrain
 ---
 
 # IVideoWindow::put_MessageDrain
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_MessageDrain</code> method specifies a window to receive mouse and keyboard messages from the video window.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Drain [in]
 
-A handle to the window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
-          
-
+A handle to the window, as an <a href="/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -101,18 +91,12 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method enables an application to respond to mouse and keyboard events generated within the video window.
 
-If <i>Drain</i> is non-<b>NULL</b>, the video renderer forwards certain messages to the specified window, using the <b>PostMessage</b> function. Which messages are forwarded might depend on the video renderer in use. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> and Video Mixing Renderer (VMR) filters forward the following messages:
+If <i>Drain</i> is non-<b>NULL</b>, the video renderer forwards certain messages to the specified window, using the <b>PostMessage</b> function. Which messages are forwarded might depend on the video renderer in use. The <a href="/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> and Video Mixing Renderer (VMR) filters forward the following messages:
 
 <ul>
 <li>WM_CHAR</li>
@@ -147,24 +131,14 @@ If <i>Drain</i> is non-<b>NULL</b>, the video renderer forwards certain messages
 </ul>
 The message drain window does not need to be a parent of the video window, so full-screen applications can use this method.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a>

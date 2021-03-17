@@ -2,15 +2,12 @@
 UID: NF:wia_xp.IWiaDataTransfer.idtQueryGetData
 title: IWiaDataTransfer::idtQueryGetData (wia_xp.h)
 description: The IWiaDataTransfer::idtQueryGetData method is used by applications to query a Windows Image Acquisition (WIA) device to determine what types of data formats it supports.
+helpviewer_keywords: ["IWiaDataTransfer interface [WIA]","idtQueryGetData method","IWiaDataTransfer.idtQueryGetData","IWiaDataTransfer::idtQueryGetData","_wia_IWiaDataTransfer_idtQueryGetData","idtQueryGetData","idtQueryGetData method [WIA]","idtQueryGetData method [WIA]","IWiaDataTransfer interface","wia._wia_IWiaDataTransfer_idtQueryGetData","wia_xp/IWiaDataTransfer::idtQueryGetData"]
 old-location: wia\_wia_IWiaDataTransfer_idtQueryGetData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtquerygetdata.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtQueryGetData method, IWiaDataTransfer.idtQueryGetData, IWiaDataTransfer::idtQueryGetData, _wia_IWiaDataTransfer_idtQueryGetData, idtQueryGetData, idtQueryGetData method [WIA], idtQueryGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtQueryGetData, wia_xp/IWiaDataTransfer::idtQueryGetData
-f1_keywords:
-- wia_xp/IWiaDataTransfer.idtQueryGetData
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDataTransfer.idtQueryGetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDataTransfer::idtQueryGetData
+ - wia_xp/IWiaDataTransfer::idtQueryGetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDataTransfer.idtQueryGetData
 ---
 
 # IWiaDataTransfer::idtQueryGetData
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaDataTransfer::idtQueryGetData</b> method is used by applications to query a Windows Image Acquisition (WIA) device to determine what types of data formats it supports.
-
-
 
 ## -parameters
 
-
-
-
 ### -param pfe [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
-
+Pointer to a <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error.
-
-
-
-
+If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error.
 
 ## -remarks
 
-
-
-This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.
-
-
-
+This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.

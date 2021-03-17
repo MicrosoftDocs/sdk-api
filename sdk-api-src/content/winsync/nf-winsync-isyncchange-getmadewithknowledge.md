@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
 title: ISyncChange::GetMadeWithKnowledge (winsync.h)
 description: Gets the made-with knowledge for this change.
+helpviewer_keywords: ["GetMadeWithKnowledge","GetMadeWithKnowledge method [Windows Sync]","GetMadeWithKnowledge method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetMadeWithKnowledge method","ISyncChange.GetMadeWithKnowledge","ISyncChange::GetMadeWithKnowledge","winsync.isyncchange_getmadewithknowledge","winsync/ISyncChange::GetMadeWithKnowledge"]
 old-location: winsync\isyncchange_getmadewithknowledge.htm
 tech.root: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba
 ms.date: 12/05/2018
 ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetMadeWithKnowledge method, ISyncChange.GetMadeWithKnowledge, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
-f1_keywords:
-- winsync/ISyncChange.GetMadeWithKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChange.GetMadeWithKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChange::GetMadeWithKnowledge
+ - winsync/ISyncChange::GetMadeWithKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChange.GetMadeWithKnowledge
 ---
 
 # ISyncChange::GetMadeWithKnowledge
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the made-with knowledge for this change.
 
-
 ## -parameters
-
-
-
 
 ### -param ppMadeWithKnowledge [out]
 
 Returns the made-with knowledge for this change. The made-with knowledge for a change is typically the knowledge that the replica had when this change was made. This knowledge is only meaningful when the <b>ISyncChange</b> object represents a change from the source provider.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -107,18 +101,7 @@ This item does not contain made-with knowledge.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>

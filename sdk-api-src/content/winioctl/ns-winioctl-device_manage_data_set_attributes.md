@@ -2,15 +2,12 @@
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 description: Input structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PDEVICE_DSM_INPUT","*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES","DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING","DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC","DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED","DEVICE_DSM_INPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES","DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure","DeviceDsmAction_Allocation","DeviceDsmAction_Notification","DeviceDsmAction_OffloadRead","DeviceDsmAction_OffloadWrite","DeviceDsmAction_Repair","DeviceDsmAction_Resiliency","DeviceDsmAction_Scrub","DeviceDsmAction_Trim","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer","base.device_manage_data_set_attributes","winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES","winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES"]
 old-location: base\device_manage_data_set_attributes.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 328902b7-97e3-40dc-9771-f5e64ccf3364
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_RESILIENCY_START_LOAD_BALANCING, DEVICE_DSM_FLAG_RESILIENCY_START_RESYNC, DEVICE_DSM_FLAG_TRIM_NOT_FS_ALLOCATED, DEVICE_DSM_INPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer, base.device_manage_data_set_attributes, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES'
-f1_keywords:
-- winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_INPUT, *PDEVICE_DSM_INPUT
 req.redist: 
+f1_keywords:
+ - _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/_DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ - winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
 # DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
@@ -47,27 +53,21 @@ req.redist:
 
 ## -description
 
-
 Input structure for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of this data structure. Must be set to 
       <code>sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES)</code>.
 
-
 ### -field Action
 
 A valid value of type 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+      <a href="/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
 
 <table>
 <tr>
@@ -93,7 +93,7 @@ A trim action is performed. This value is not supported for user-mode applicatio
 </td>
 <td width="60%">
 A notification action is performed. The additional parameters are in a 
-        <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
+        <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_notification_parameters">DEVICE_DSM_NOTIFICATION_PARAMETERS</a> 
         structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
         indicate to the driver stack that this operation is non-destructive.
 
@@ -107,7 +107,7 @@ A notification action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload read action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -123,7 +123,7 @@ An offload read action is performed. The additional parameters are in a
 </td>
 <td width="60%">
 An offload write action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_dsm_offload_write_parameters">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a> 
          structure.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This value is not supported before Windows 8 and Windows Server 2012.
@@ -153,7 +153,7 @@ An allocation bitmap is retrieved for the first data set range specified. The
 </td>
 <td width="60%">
 A repair action is performed. The additional parameters are in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_repair_parameters">DEVICE_DATA_SET_REPAIR_PARAMETERS</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> 
          (0x80000000) is a bit flag to indicate to the driver stack that this operation is non-destructive.
 
@@ -190,8 +190,6 @@ A resiliency action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -239,8 +237,6 @@ Starts a load balancing operation on the storage device. This flag is specific t
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ParameterBlockOffset
 
@@ -248,54 +244,38 @@ Byte offset to the start of the parameter block stored in the buffer contiguous 
       aligned to the corresponding structure alignment. A value of zero indicates there is no parameter block and the 
       <b>ParameterBlockLength</b> member must also be zero.
 
-
 ### -field ParameterBlockLength
 
 Length of the parameter block, in bytes. A value of zero indicates there is no parameter block and the 
       <b>ParameterBlockOffset</b> member must also be zero.
 
-
 ### -field DataSetRangesOffset
 
 Byte offset to the start of the data set ranges block made up of an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures stored in the 
+      <a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures stored in the 
       buffer contiguous to this structure. Must be aligned to the 
       <b>DEVICE_DATA_SET_RANGE</b> structure alignment. A 
       value of zero indicates there is no data set ranges block and the 
       <b>DataSetRangesLength</b> member must also be zero.
-
 
 ### -field DataSetRangesLength
 
 Length of the data set ranges block, in bytes. A value of zero indicates there is no data set ranges block 
       and the <b>DataSetRangesOffset</b> member must also be zero.
 
-
 ## -remarks
-
-
 
 The total length of the buffer that contains this structure must be at least 
     <code>(sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES) + ParameterBlockLength + DataSetRangesLength)</code>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

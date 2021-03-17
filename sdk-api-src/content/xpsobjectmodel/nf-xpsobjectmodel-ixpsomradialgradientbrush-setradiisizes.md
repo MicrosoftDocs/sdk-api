@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetRadiiSizes
 title: IXpsOMRadialGradientBrush::SetRadiiSizes (xpsobjectmodel.h)
 description: Sets the sizes of the radii that define ellipse of the radial gradient region.
+helpviewer_keywords: ["IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","SetRadiiSizes method","IXpsOMRadialGradientBrush.SetRadiiSizes","IXpsOMRadialGradientBrush::SetRadiiSizes","SetRadiiSizes","SetRadiiSizes method [XPS Documents and Packaging]","SetRadiiSizes method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","xps.ixpsomradialgradientbrush_setradiisizes","xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes"]
 old-location: xps\ixpsomradialgradientbrush_setradiisizes.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2d32c0a7-1069-4c76-ba5c-5978e3fd7125
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetRadiiSizes method, IXpsOMRadialGradientBrush.SetRadiiSizes, IXpsOMRadialGradientBrush::SetRadiiSizes, SetRadiiSizes, SetRadiiSizes method [XPS Documents and Packaging], SetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
-f1_keywords:
-- xpsobjectmodel/IXpsOMRadialGradientBrush.SetRadiiSizes
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRadialGradientBrush.SetRadiiSizes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRadialGradientBrush::SetRadiiSizes
+ - xpsobjectmodel/IXpsOMRadialGradientBrush::SetRadiiSizes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRadialGradientBrush.SetRadiiSizes
 ---
 
 # IXpsOMRadialGradientBrush::SetRadiiSizes
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the sizes of the radii that define ellipse of the radial gradient region.
-
 
 ## -parameters
 
-
-
-
 ### -param radiiSizes [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
 
 <table>
 <tr>
@@ -91,12 +88,9 @@ Size of the radius along the y-axis.
 
 Size is described in XPS units. There are 96 XPS units per inch. For example, a 1" radius is 96 XPS units.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -121,7 +115,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
+One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure must contain valid, finite, and non-negative floating-point values.
 
 </td>
 </tr>
@@ -137,40 +131,25 @@ One of the sizes described by <i>radiiSizes</i> is not valid. The <a href="https
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The following illustration identifies the parts of a radial gradient.    <i>radiiSizes.width</i> sets the x-radius,  and <i>radiiSizes.height</i> the y-radius. For a more detailed description of this diagram, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
+The following illustration identifies the parts of a radial gradient.    <i>radiiSizes.width</i> sets the x-radius,  and <i>radiiSizes.height</i> the y-radius. For a more detailed description of this diagram, see <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>

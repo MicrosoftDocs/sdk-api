@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidDevice.put_Power
 title: IMSVidDevice::put_Power (segment.h)
 description: The put_Power method turns the device on or off.
+helpviewer_keywords: ["IMSVidDevice interface [Microsoft TV Technologies]","put_Power method","IMSVidDevice.put_Power","IMSVidDevice::put_Power","IMSVidDeviceput_Power","mstv.imsviddevice_put_power","put_Power","put_Power method [Microsoft TV Technologies]","put_Power method [Microsoft TV Technologies]","IMSVidDevice interface","segment/IMSVidDevice::put_Power"]
 old-location: mstv\imsviddevice_put_power.htm
 tech.root: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
-f1_keywords:
-- segment/IMSVidDevice.put_Power
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidDevice.put_Power
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidDevice::put_Power
+ - segment/IMSVidDevice::put_Power
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidDevice.put_Power
 ---
 
 # IMSVidDevice::put_Power
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_Power</b> method turns the device on or off.
 
-
 ## -parameters
-
-
-
 
 ### -param Power [in]
 
@@ -77,12 +74,8 @@ Specifies whether to turn the power on or off. Use one of the following values.
 <td>Turn the device off.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -114,31 +107,15 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Not all device types implement this method.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddevice-get_power">IMSVidDevice::get_Power</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsviddevice-get_power">IMSVidDevice::get_Power</a>

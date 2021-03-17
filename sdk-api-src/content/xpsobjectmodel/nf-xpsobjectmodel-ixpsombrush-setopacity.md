@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMBrush.SetOpacity
 title: IXpsOMBrush::SetOpacity (xpsobjectmodel.h)
 description: Sets the opacity of the brush.
+helpviewer_keywords: ["IXpsOMBrush interface [XPS Documents and Packaging]","SetOpacity method","IXpsOMBrush.SetOpacity","IXpsOMBrush::SetOpacity","SetOpacity","SetOpacity method [XPS Documents and Packaging]","SetOpacity method [XPS Documents and Packaging]","IXpsOMBrush interface","xps.ixpsombrush_setopacity","xpsobjectmodel/IXpsOMBrush::SetOpacity"]
 old-location: xps\ixpsombrush_setopacity.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e0249796-298f-4e26-a767-cd57903e5da0
 ms.date: 12/05/2018
 ms.keywords: IXpsOMBrush interface [XPS Documents and Packaging],SetOpacity method, IXpsOMBrush.SetOpacity, IXpsOMBrush::SetOpacity, SetOpacity, SetOpacity method [XPS Documents and Packaging], SetOpacity method [XPS Documents and Packaging],IXpsOMBrush interface, xps.ixpsombrush_setopacity, xpsobjectmodel/IXpsOMBrush::SetOpacity
-f1_keywords:
-- xpsobjectmodel/IXpsOMBrush.SetOpacity
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMBrush.SetOpacity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMBrush::SetOpacity
+ - xpsobjectmodel/IXpsOMBrush::SetOpacity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMBrush.SetOpacity
 ---
 
 # IXpsOMBrush::SetOpacity
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the opacity of the brush.
 
-
 ## -parameters
-
-
-
 
 ### -param opacity [in]
 
 The opacity value of the brush.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,37 +90,21 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>opacity</i> is expressed as a value between 0.0 and 1.0; 0.0 indicates that the brush is completely transparent, 0.5  that it is 50 percent opaque, and 1.0 that it is completely opaque.
 
 If <i>opacity</i> is less than 0.0 or greater than 1.0, the method  returns an error.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsombrush">IXpsOMBrush</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsSendComplete
 title: IMbnSmsEvents::OnSmsSendComplete (mbnapi.h)
 description: Notification method that indicates the completion of a message send operation.
+helpviewer_keywords: ["E_INVALIDARG","E_MBN_BAD_SIM","E_MBN_NOT_REGISTERED","E_MBN_PIN_REQUIRED","E_MBN_SERVICE_NOT_ACTIVATED","E_MBN_SIM_NOT_INSERTED","E_MBN_SMS_ENCODING_NOT_SUPPORTED","E_MBN_SMS_LANG_NOT_SUPPORTED","E_MBN_SMS_MEMORY_FAILURE","E_MBN_SMS_MEMORY_FULL","E_MBN_SMS_NETWORK_TIMEOUT","E_MBN_SMS_OPERATION_NOT_ALLOWED","E_MBN_SMS_UNKNOWN_SMSC_ADDRESS","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsSendComplete method","IMbnSmsEvents.OnSmsSendComplete","IMbnSmsEvents::OnSmsSendComplete","OnSmsSendComplete","OnSmsSendComplete method [Microsoft Broadband Networks]","OnSmsSendComplete method [Microsoft Broadband Networks]","IMbnSmsEvents interface","S_OK","mbn.imbnsmsevents_onsmssendcomplete","mbnapi/IMbnSmsEvents::OnSmsSendComplete"]
 old-location: mbn\imbnsmsevents_onsmssendcomplete.htm
 tech.root: mbn
 ms.assetid: 4c08b173-7e9e-4b4f-8068-1a90c57eea90
 ms.date: 12/05/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_NOT_REGISTERED, E_MBN_PIN_REQUIRED, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_ENCODING_NOT_SUPPORTED, E_MBN_SMS_LANG_NOT_SUPPORTED, E_MBN_SMS_MEMORY_FAILURE, E_MBN_SMS_MEMORY_FULL, E_MBN_SMS_NETWORK_TIMEOUT, E_MBN_SMS_OPERATION_NOT_ALLOWED, E_MBN_SMS_UNKNOWN_SMSC_ADDRESS, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsSendComplete method, IMbnSmsEvents.OnSmsSendComplete, IMbnSmsEvents::OnSmsSendComplete, OnSmsSendComplete, OnSmsSendComplete method [Microsoft Broadband Networks], OnSmsSendComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmssendcomplete, mbnapi/IMbnSmsEvents::OnSmsSendComplete
-f1_keywords:
-- mbnapi/IMbnSmsEvents.OnSmsSendComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsEvents.OnSmsSendComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsEvents::OnSmsSendComplete
+ - mbnapi/IMbnSmsEvents::OnSmsSendComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsEvents.OnSmsSendComplete
 ---
 
 # IMbnSmsEvents::OnSmsSendComplete
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 Notification method that indicates the completion of a message send operation.
 
-
 ## -parameters
-
-
-
 
 ### -param sms [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device from which the operation completed.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device from which the operation completed.
 
 ### -param requestID [in]
 
 A  request ID assigned by the Mobile Broadband service to identify the operation.
-
 
 ### -param status [in]
 
@@ -231,34 +227,15 @@ The device/SIM memory is full.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -remarks
 
-
-
 A send operation should be tried only after the device is successfully registered to the network.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>

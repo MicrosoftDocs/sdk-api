@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509CertificateTemplates.Remove
 title: IX509CertificateTemplates::Remove (certenroll.h)
 description: Removes an IX509CertificateTemplate object from the collection by index number.
+helpviewer_keywords: ["IX509CertificateTemplates interface [Security]","Remove method","IX509CertificateTemplates.Remove","IX509CertificateTemplates::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509CertificateTemplates interface","certenroll/IX509CertificateTemplates::Remove","security.ix509certificatetemplates_remove"]
 old-location: security\ix509certificatetemplates_remove.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e30aaeab-4130-40ab-9b50-32a119fdb794
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],Remove method, IX509CertificateTemplates.Remove, IX509CertificateTemplates::Remove, Remove, Remove method [Security], Remove method [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::Remove, security.ix509certificatetemplates_remove
-f1_keywords:
-- certenroll/IX509CertificateTemplates.Remove
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateTemplates.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateTemplates::Remove
+ - certenroll/IX509CertificateTemplates::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateTemplates.Remove
 ---
 
 # IX509CertificateTemplates::Remove
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Remove</b> method removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by index number.
-
+The <b>Remove</b> method removes an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a> object from the collection by index number.
 
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 A <b>LONG</b> variable that contains the index of the object to remove.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>

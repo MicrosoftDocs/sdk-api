@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiFileItem2.AddStream
 title: IFsiFileItem2::AddStream (imapi2fs.h)
 description: Associates a named stream with a specific file in the file system image.
+helpviewer_keywords: ["AddStream","AddStream method [IMAPI]","AddStream method [IMAPI]","IFsiFileItem2 interface","IFsiFileItem2 interface [IMAPI]","AddStream method","IFsiFileItem2.AddStream","IFsiFileItem2::AddStream","imapi.ifsifileitem2_addstream","imapi2fs/IFsiFileItem2::AddStream"]
 old-location: imapi\ifsifileitem2_addstream.htm
 tech.root: imapi
 ms.assetid: 5235fc56-4ab6-4ecb-95b4-2498c7463bf2
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [IMAPI], AddStream method [IMAPI],IFsiFileItem2 interface, IFsiFileItem2 interface [IMAPI],AddStream method, IFsiFileItem2.AddStream, IFsiFileItem2::AddStream, imapi.ifsifileitem2_addstream, imapi2fs/IFsiFileItem2::AddStream
-f1_keywords:
-- imapi2fs/IFsiFileItem2.AddStream
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiFileItem2.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiFileItem2::AddStream
+ - imapi2fs/IFsiFileItem2::AddStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiFileItem2.AddStream
 ---
 
 # IFsiFileItem2::AddStream
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates a named stream with a specific file in the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A string represents the name of the named stream. This should not include the path and should only contain valid characters as per file system naming conventions.
 
-
 ### -param streamData [in]
 
 An <b>IStream</b> interface of the named stream used to write to the resultant file system image.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -134,7 +127,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 </dl>
 </td>
 <td width="60%">
-The referenced <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
+The referenced <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
 
 </td>
 </tr>
@@ -211,14 +204,8 @@ Failed to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The file to which the named stream will be added must already exist within the file system image. If this method is called with a <i>name</i> that already exists for a named stream, it will return an error and will not replace the existing named stream.
 
@@ -228,16 +215,6 @@ Currently, <b>IMAPI_E_READONLY</b> is returned when this method is called on an 
 
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>

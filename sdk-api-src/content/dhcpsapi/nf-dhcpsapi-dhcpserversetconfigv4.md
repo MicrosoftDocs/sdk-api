@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpServerSetConfigV4
 title: DhcpServerSetConfigV4 function (dhcpsapi.h)
 description: The DhcpServerSetConfigV4 function configures a DHCP server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
+helpviewer_keywords: ["DhcpServerSetConfigV4","DhcpServerSetConfigV4 function [DHCP]","Set_APIProtocolSupport","Set_AuditLogState","Set_BackupInterval","Set_BackupPath","Set_BootFileTable","Set_DatabaseCleanupInterval","Set_DatabaseLoggingFlag","Set_DatabaseName","Set_DatabasePath","Set_DebugFlag","Set_PingRetries","Set_RestoreFlag","dhcp.dhcpserversetconfigv4","dhcpsapi/DhcpServerSetConfigV4"]
 old-location: dhcp\dhcpserversetconfigv4.htm
 tech.root: DHCP
 ms.assetid: b2d74c43-5c17-4988-be70-fa152e7f848a
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigV4, DhcpServerSetConfigV4 function [DHCP], Set_APIProtocolSupport, Set_AuditLogState, Set_BackupInterval, Set_BackupPath, Set_BootFileTable, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_DebugFlag, Set_PingRetries, Set_RestoreFlag, dhcp.dhcpserversetconfigv4, dhcpsapi/DhcpServerSetConfigV4
-f1_keywords:
-- dhcpsapi/DhcpServerSetConfigV4
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpServerSetConfigV4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpServerSetConfigV4
+ - dhcpsapi/DhcpServerSetConfigV4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpServerSetConfigV4
 ---
 
 # DhcpServerSetConfigV4 function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpServerSetConfigV4</b> function configures a DHCP server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param FieldsToSet [in]
 
-Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
+Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
 
 <table>
 <tr>
@@ -204,20 +200,14 @@ The <b>AuditLogState</b> field is populated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ConfigInfo [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -258,22 +248,11 @@ One of the parameters provides an invalid value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>

@@ -2,15 +2,12 @@
 UID: NF:newdev.DiRollbackDriver
 title: DiRollbackDriver function (newdev.h)
 description: The DiRollbackDriver function rolls back the driver that is installed on a specified device.
+helpviewer_keywords: ["DiRollbackDriver","DiRollbackDriver function [Device and Driver Installation]","devinst.dirollbackdriver","di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml","newdev/DiRollbackDriver"]
 old-location: devinst\dirollbackdriver.htm
 tech.root: devinst
 ms.assetid: 12296991-cbf9-421e-a16e-ca8a22fc29a1
 ms.date: 12/05/2018
 ms.keywords: DiRollbackDriver, DiRollbackDriver function [Device and Driver Installation], devinst.dirollbackdriver, di-rtns_982c291b-0aad-475c-ba3a-0e08ab0f584a.xml, newdev/DiRollbackDriver
-f1_keywords:
-- newdev/DiRollbackDriver
-dev_langs:
-- c++
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Newdev.dll
-api_name:
-- DiRollbackDriver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiRollbackDriver
+ - newdev/DiRollbackDriver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Newdev.dll
+api_name:
+ - DiRollbackDriver
 ---
 
 # DiRollbackDriver function
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DiRollbackDriver</b> function rolls back the driver that is installed on a specified device.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
-
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
 
 ### -param hwndParent [in, optional]
 
 A handle to the top-level window that <b>DiRollbackDriver</b> uses to display any user interface component that is associated with a driver rollback for the specified device. This parameter is optional and can be set to <b>NULL</b>.
 
-
 ### -param Flags [in]
 
 A value of type DWORD that can be set to zero or ROLLBACK_FLAG_NO_UI. 
 
-Typically, this flag should be set to zero, in which case <b>DiRollbackDriver</b> does not suppress the default user interface components that are associated with a driver rollback. However, if this flag is set to ROLLBACK_FLAG_NO_UI, <b>DiRollbackDriver</b> suppresses the display of user interface components that are associated with a driver rollback. 
-
+Typically, this flag should be set to zero, in which case <b>DiRollbackDriver</b> does not suppress the default user interface components that are associated with a driver rollback. However, if this flag is set to ROLLBACK_FLAG_NO_UI, <b>DiRollbackDriver</b> suppresses the display of user interface components that are associated with a driver rollback.
 
 ### -param NeedReboot [out, optional]
 
@@ -87,12 +80,9 @@ If the parameter is supplied and a system restart is required to complete the ro
 
 If the parameter is <b>NULL</b> and a system restart is required to complete the rollback, <b>DiRollbackDriver</b> displays a system restart dialog box. 
 
-For more information about this parameter, see the following <b>Remarks</b> section. 
-
+For more information about this parameter, see the following <b>Remarks</b> section.
 
 ## -returns
-
-
 
 <b>DiRollbackDriver</b> returns <b>TRUE</b> if the function successfully rolled back the driver for the device; otherwise, <b>DiRollbackDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
@@ -108,7 +98,7 @@ For more information about this parameter, see the following <b>Remarks</b> sect
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to roll back a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to roll back a <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
 
 </td>
 </tr>
@@ -119,7 +109,7 @@ The caller does not have Administrator privileges. By default, Windows requires 
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -146,14 +136,8 @@ A backup driver is not set for the device.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a previously installed backup driver is set for a device, a driver rollback for the device replaces the driver that is currently installed on the device with the backup driver. Windows maintains at most one backup driver for a device. Windows sets a driver as the backup driver for a device immediately after the driver is successfully installed on the device and Windows determines that the device is functioning correctly. However, if a driver does not install successfully on a device or the device does not function correctly after the installation, Windows does not set the driver as the backup driver for the device. For more information about driver rollback, see information about Device Manager in Help and Support Center.
 
@@ -187,22 +171,12 @@ The application must perform required operations, other than calling <b>DiRollba
 
 </li>
 </ul>
-To install a new driver for a device instead of rolling back the driver for the device, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
-
-
-
+To install a new driver for a device instead of rolling back the driver for the device, call <a href="/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>

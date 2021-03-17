@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICBitmapCodecInfo.MatchesMimeType
 title: IWICBitmapCodecInfo::MatchesMimeType (wincodec.h)
 description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.
+helpviewer_keywords: ["IWICBitmapCodecInfo interface [Windows Imaging Component]","MatchesMimeType method","IWICBitmapCodecInfo.MatchesMimeType","IWICBitmapCodecInfo::MatchesMimeType","MatchesMimeType","MatchesMimeType method [Windows Imaging Component]","MatchesMimeType method [Windows Imaging Component]","IWICBitmapCodecInfo interface","_wic_codec_iwicbitmapcodecinfo_matchesmimetype","wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype","wincodec/IWICBitmapCodecInfo::MatchesMimeType"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_matchesmimetype.htm
 tech.root: wic
 ms.assetid: 43704d5c-d2c2-4817-b61b-a752d32105aa
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapCodecInfo interface [Windows Imaging Component],MatchesMimeType method, IWICBitmapCodecInfo.MatchesMimeType, IWICBitmapCodecInfo::MatchesMimeType, MatchesMimeType, MatchesMimeType method [Windows Imaging Component], MatchesMimeType method [Windows Imaging Component],IWICBitmapCodecInfo interface, _wic_codec_iwicbitmapcodecinfo_matchesmimetype, wic._wic_codec_iwicbitmapcodecinfo_matchesmimetype, wincodec/IWICBitmapCodecInfo::MatchesMimeType
-f1_keywords:
-- wincodec/IWICBitmapCodecInfo.MatchesMimeType
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapCodecInfo.MatchesMimeType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapCodecInfo::MatchesMimeType
+ - wincodec/IWICBitmapCodecInfo::MatchesMimeType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapCodecInfo.MatchesMimeType
 ---
 
 # IWICBitmapCodecInfo::MatchesMimeType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a value indicating whether the given mime type matches the mime type of the codec.
 
-
 ## -parameters
-
-
-
 
 ### -param wzMimeType [in]
 
@@ -63,17 +60,13 @@ Type: <b>LPCWSTR</b>
 
 The mime type to compare.
 
-
 ### -param pfMatches [out]
 
 Type: <b>BOOL*</b>
 
 Receives <b>TRUE</b> if the mime types match; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,16 +100,9 @@ The codec does not implement this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  The Windows provided codecs do not implement this method and return E_NOTIMPL.</div>
 <div> </div>
-
 

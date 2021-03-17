@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 title: CRYPTNET_URL_CACHE_PRE_FETCH_INFO (wincrypt.h)
 description: Contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
+helpviewer_keywords: ["*PCRYPTNET_URL_CACHE_PRE_FETCH_INFO","CRYPTNET_URL_CACHE_PRE_FETCH_AUTOROOT_CAB","CRYPTNET_URL_CACHE_PRE_FETCH_BLOB","CRYPTNET_URL_CACHE_PRE_FETCH_CRL","CRYPTNET_URL_CACHE_PRE_FETCH_INFO","CRYPTNET_URL_CACHE_PRE_FETCH_INFO structure [Security]","CRYPTNET_URL_CACHE_PRE_FETCH_NONE","CRYPTNET_URL_CACHE_PRE_FETCH_OCSP","ERROR_FILE_OFFLINE","ERROR_INVALID_DATA","ERROR_MEDIA_OFFLINE","Other values","PCRYPTNET_URL_CACHE_PRE_FETCH_INFO","PCRYPTNET_URL_CACHE_PRE_FETCH_INFO structure pointer [Security]","S_OK","security.cryptnet_url_cache_pre_fetch_info","szOID_CRL_NEXT_PUBLISH","wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO","wincrypt/PCRYPTNET_URL_CACHE_PRE_FETCH_INFO"]
 old-location: security\cryptnet_url_cache_pre_fetch_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4c3e3248-83d2-45f4-84a5-a73f0434b804
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTNET_URL_CACHE_PRE_FETCH_INFO, CRYPTNET_URL_CACHE_PRE_FETCH_AUTOROOT_CAB, CRYPTNET_URL_CACHE_PRE_FETCH_BLOB, CRYPTNET_URL_CACHE_PRE_FETCH_CRL, CRYPTNET_URL_CACHE_PRE_FETCH_INFO, CRYPTNET_URL_CACHE_PRE_FETCH_INFO structure [Security], CRYPTNET_URL_CACHE_PRE_FETCH_NONE, CRYPTNET_URL_CACHE_PRE_FETCH_OCSP, ERROR_FILE_OFFLINE, ERROR_INVALID_DATA, ERROR_MEDIA_OFFLINE, Other values, PCRYPTNET_URL_CACHE_PRE_FETCH_INFO, PCRYPTNET_URL_CACHE_PRE_FETCH_INFO structure pointer [Security], S_OK, security.cryptnet_url_cache_pre_fetch_info, szOID_CRL_NEXT_PUBLISH, wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO, wincrypt/PCRYPTNET_URL_CACHE_PRE_FETCH_INFO'
-f1_keywords:
-- wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_PRE_FETCH_INFO, *PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - wincrypt/_CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - wincrypt/PCRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+ - wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 ---
 
 # CRYPTNET_URL_CACHE_PRE_FETCH_INFO structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPTNET_URL_CACHE_PRE_FETCH_INFO</b> structure contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pPreFetchInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function as the <i>pAuxInfo</i> parameter.
-
+The <b>CRYPTNET_URL_CACHE_PRE_FETCH_INFO</b> structure contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pPreFetchInfo</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function as the <i>pAuxInfo</i> parameter.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwObjectType
 
@@ -89,7 +89,7 @@ Prefetch information does not yet exist.
 </dl>
 </td>
 <td width="60%">
-The object is a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The object is a memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The object is a memory <a href="https://docs.microsoft.com/windows/desktop/SecGl
 </dl>
 </td>
 <td width="60%">
-The object is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The object is a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The object is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-g
 </dl>
 </td>
 <td width="60%">
-The object is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
+The object is an <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
 
 </td>
 </tr>
@@ -127,8 +127,6 @@ The object is a CAB file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwError
 
@@ -194,31 +192,26 @@ The service is unable to retrieve prefetch content.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved
 
 This parameter is not used. It must be zero.
 
-
 ### -field ThisUpdateTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates when the CRL was published. For an OCSP response, this indicates when the indicated status is known to be correct.
-
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates when the CRL was published. For an OCSP response, this indicates when the indicated status is known to be correct.
 
 ### -field NextUpdateTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates the next scheduled update for the CRL. For an OCSP response, this indicates when newer information will be available for the certificate status.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates the next scheduled update for the CRL. For an OCSP response, this indicates when newer information will be available for the certificate status.
 
 This is effectively an expiry date for the object. A value of zero indicates that the information has no expiration date.
 
-
 ### -field PublishTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time interval before expiry that a new CRL will be published. This value can be zero.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time interval before expiry that a new CRL will be published. This value can be zero.
 
-This value is based on a nonstandard CRL extension with the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+This value is based on a nonstandard CRL extension with the following <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 <table>
 <tr>
@@ -237,5 +230,3 @@ NextPublishTime
 </td>
 </tr>
 </table>
- 
-

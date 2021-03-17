@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCdromBurn.get_burnProgress
 title: IWMPCdromBurn::get_burnProgress (wmp.h)
 description: The get_burnProgress method retrieves the CD burning progress as percent complete.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","get_burnProgress method","IWMPCdromBurn.get_burnProgress","IWMPCdromBurn::get_burnProgress","IWMPCdromBurnget_burnProgress","get_burnProgress","get_burnProgress method [Windows Media Player]","get_burnProgress method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_get_burnprogress","wmp/IWMPCdromBurn::get_burnProgress"]
 old-location: wmp\iwmpcdromburn_get_burnprogress.htm
 tech.root: WMP
 ms.assetid: 4941e1be-1ed2-4d8e-ad16-79ddbdcd71bf
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnProgress method, IWMPCdromBurn.get_burnProgress, IWMPCdromBurn::get_burnProgress, IWMPCdromBurnget_burnProgress, get_burnProgress, get_burnProgress method [Windows Media Player], get_burnProgress method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnprogress, wmp/IWMPCdromBurn::get_burnProgress
-f1_keywords:
-- wmp/IWMPCdromBurn.get_burnProgress
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCdromBurn.get_burnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromBurn::get_burnProgress
+ - wmp/IWMPCdromBurn::get_burnProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCdromBurn.get_burnProgress
 ---
 
 # IWMPCdromBurn::get_burnProgress
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_burnProgress</b> method retrieves the CD burning progress as percent complete.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plProgress [out]
 
 Pointer to a <b>long</b> that receives the progress value. Progress values range from 0 to 100.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,29 +79,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The progress value represents the completed percentage of the entire burning process, including any staging operations.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDMessageParameters.GetLowerParameters
 title: IWSDMessageParameters::GetLowerParameters (wsdbase.h)
 description: Retrieves message parameters from the layer below this layer in the protocol stack.
+helpviewer_keywords: ["GetLowerParameters","GetLowerParameters method","GetLowerParameters method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetLowerParameters method","IWSDMessageParameters.GetLowerParameters","IWSDMessageParameters::GetLowerParameters","ncd.iwsdmessageparameters_getlowerparameters","wsdbase/IWSDMessageParameters::GetLowerParameters"]
 old-location: ncd\iwsdmessageparameters_getlowerparameters.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 24f4be83-adf4-4742-8a1e-4304870a16dc
 ms.date: 12/05/2018
 ms.keywords: GetLowerParameters, GetLowerParameters method, GetLowerParameters method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLowerParameters method, IWSDMessageParameters.GetLowerParameters, IWSDMessageParameters::GetLowerParameters, ncd.iwsdmessageparameters_getlowerparameters, wsdbase/IWSDMessageParameters::GetLowerParameters
-f1_keywords:
-- wsdbase/IWSDMessageParameters.GetLowerParameters
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDMessageParameters.GetLowerParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMessageParameters::GetLowerParameters
+ - wsdbase/IWSDMessageParameters::GetLowerParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDMessageParameters.GetLowerParameters
 ---
 
 # IWSDMessageParameters::GetLowerParameters
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves message parameters from the layer below this layer in the protocol stack. 
-
+Retrieves message parameters from the layer below this layer in the protocol stack.
 
 ## -parameters
 
-
-
-
 ### -param ppTxParams [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> interface that you use to communicate message specific information up and down the protocol stack.
-
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> interface that you use to communicate message specific information up and down the protocol stack.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +95,7 @@ The method was not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

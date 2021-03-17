@@ -2,15 +2,12 @@
 UID: NF:ole2.RevokeDragDrop
 title: RevokeDragDrop function (ole2.h)
 description: Revokes the registration of the specified application window as a potential target for OLE drag-and-drop operations.
+helpviewer_keywords: ["RevokeDragDrop","RevokeDragDrop function [COM]","_ole_RevokeDragDrop","com.revokedragdrop","ole2/RevokeDragDrop"]
 old-location: com\revokedragdrop.htm
 tech.root: com
 ms.assetid: c0fa963c-ed06-426c-8ffc-31b02f083a23
 ms.date: 12/05/2018
 ms.keywords: RevokeDragDrop, RevokeDragDrop function [COM], _ole_RevokeDragDrop, com.revokedragdrop, ole2/RevokeDragDrop
-f1_keywords:
-- ole2/RevokeDragDrop
-dev_langs:
-- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-COM-OLE32-l1-1-0.dll
-- Ext-MS-Win-COM-OLE32-l1-1-1.dll
-- Ext-MS-Win-COM-OLE32-l1-1-2.dll
-- ext-ms-win-com-ole32-l1-1-3.dll
-- Ext-MS-Win-Com-Ole32-L1-1-4.dll
-api_name:
-- RevokeDragDrop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RevokeDragDrop
+ - ole2/RevokeDragDrop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-0.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-1.dll
+ - Ext-MS-Win-COM-OLE32-l1-1-2.dll
+ - ext-ms-win-com-ole32-l1-1-3.dll
+ - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+api_name:
+ - RevokeDragDrop
 ---
 
 # RevokeDragDrop function
@@ -53,23 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Revokes the registration of the specified application window as a potential target for OLE drag-and-drop operations.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Handle to a window previously registered as a target for an OLE drag-and-drop operation.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include the following.
 
@@ -112,29 +106,13 @@ There is insufficient memory for the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When your application window is no longer available as a potential target for an OLE drag-and-drop operation, you must call <b>RevokeDragDrop</b>.
 
-This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for your drop target interface.
-
-
-
+This function calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for your drop target interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>

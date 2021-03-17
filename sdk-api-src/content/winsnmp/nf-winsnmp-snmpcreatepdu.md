@@ -2,15 +2,12 @@
 UID: NF:winsnmp.SnmpCreatePdu
 title: SnmpCreatePdu function (winsnmp.h)
 description: The WinSNMP SnmpCreatePdu function creates and initializes an SNMP protocol data unit (PDU).
+helpviewer_keywords: ["SNMP_PDU_GET","SNMP_PDU_GETBULK","SNMP_PDU_GETNEXT","SNMP_PDU_RESPONSE","SNMP_PDU_SET","SNMP_PDU_TRAP","SnmpCreatePdu","SnmpCreatePdu function [SNMP]","_snmp_snmpcreatepdu","snmp.snmpcreatepdu","winsnmp/SnmpCreatePdu"]
 old-location: snmp\snmpcreatepdu.htm
 tech.root: SNMP
 ms.assetid: 1c73e8ab-ac66-43cd-8eec-e97dd3a98071
 ms.date: 12/05/2018
 ms.keywords: SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE, SNMP_PDU_SET, SNMP_PDU_TRAP, SnmpCreatePdu, SnmpCreatePdu function [SNMP], _snmp_snmpcreatepdu, snmp.snmpcreatepdu, winsnmp/SnmpCreatePdu
-f1_keywords:
-- winsnmp/SnmpCreatePdu
-dev_langs:
-- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsnmp32.dll
-api_name:
-- SnmpCreatePdu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpCreatePdu
+ - winsnmp/SnmpCreatePdu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsnmp32.dll
+api_name:
+ - SnmpCreatePdu
 ---
 
 # SnmpCreatePdu function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpCreatePdu</b> function creates and initializes an SNMP protocol data unit (PDU).
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
 Handle to the WinSNMP session.
-
 
 ### -param PDU_type [in]
 
@@ -138,37 +134,29 @@ Alerts the management system to an event under SNMPv2C.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param request_id [in]
 
 Specifies a unique numeric value that the WinSNMP application supplies to identify the PDU. If this parameter is <b>NULL</b>, the implementation assigns a value.
 
-
 ### -param error_status [in]
 
 If the <i>PDU_type</i> parameter is equal to <b>SNMP_PDU_GETBULK</b>, this parameter specifies a value for the <b>non_repeaters</b> field of the PDU. For other PDU types, this parameter specifies a value for the <b>error_status</b> field of the PDU. This parameter can be <b>NULL</b>.
-
 
 ### -param error_index [in]
 
 If the <i>PDU_type</i> parameter is equal to <b>SNMP_PDU_GETBULK</b>, this parameter specifies a value for the <b>max_repetitions</b> field of the PDU. For other PDU types, this parameter specifies a value for the <b>error_index</b> field of the PDU. This parameter can be <b>NULL</b>.
 
-
 ### -param varbindlist [in]
 
 Handle to a structure that represents an SNMP variable bindings list. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the handle to a new SNMP PDU.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -184,7 +172,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -244,18 +232,12 @@ An unknown or undefined error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A WinSNMP application must create a PDU before it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpencodemsg">SnmpEncodeMsg</a> functions.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a> or the 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpencodemsg">SnmpEncodeMsg</a> functions.
 
 All of the parameters of the 
 <b>SnmpCreatePdu</b> function are required. However, all parameters, except the <i>session</i> parameter, can be <b>NULL</b>. In this instance, the new PDU has the following default values.
@@ -289,36 +271,26 @@ All of the parameters of the
  
 
 The application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreepdu">SnmpFreePdu</a> function to release the resources that the 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreepdu">SnmpFreePdu</a> function to release the resources that the 
 <b>SnmpCreatePdu</b> function allocates for the new PDU.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpencodemsg">SnmpEncodeMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpencodemsg">SnmpEncodeMsg</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreepdu">SnmpFreePdu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreepdu">SnmpFreePdu</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpsendmsg">SnmpSendMsg</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>

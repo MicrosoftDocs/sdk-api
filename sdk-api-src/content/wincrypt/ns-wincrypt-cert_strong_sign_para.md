@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_STRONG_SIGN_PARA
 title: CERT_STRONG_SIGN_PARA (wincrypt.h)
 description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS
+helpviewer_keywords: ["*PCERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA","CERT_STRONG_SIGN_PARA structure [Security]","PCCERT_STRONG_SIGN_PARA","PCCERT_STRONG_SIGN_PARA structure pointer [Security]","PCERT_STRONG_SIGN_PARA","PCERT_STRONG_SIGN_PARA structure pointer [Security]","security.cert_strong_sign_para","szOID_CERT_STRONG_KEY_OS_1","szOID_CERT_STRONG_SIGN_OS_1","wincrypt/CERT_STRONG_SIGN_PARA","wincrypt/PCCERT_STRONG_SIGN_PARA","wincrypt/PCERT_STRONG_SIGN_PARA"]
 old-location: security\cert_strong_sign_para.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA, CERT_STRONG_SIGN_PARA structure [Security], PCCERT_STRONG_SIGN_PARA, PCCERT_STRONG_SIGN_PARA structure pointer [Security], PCERT_STRONG_SIGN_PARA, PCERT_STRONG_SIGN_PARA structure pointer [Security], security.cert_strong_sign_para, szOID_CERT_STRONG_KEY_OS_1, szOID_CERT_STRONG_SIGN_OS_1, wincrypt/CERT_STRONG_SIGN_PARA, wincrypt/PCCERT_STRONG_SIGN_PARA, wincrypt/PCERT_STRONG_SIGN_PARA'
-f1_keywords:
-- wincrypt/CERT_STRONG_SIGN_PARA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_STRONG_SIGN_PARA
 targetos: Windows
 req.typenames: CERT_STRONG_SIGN_PARA, *PCERT_STRONG_SIGN_PARA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_STRONG_SIGN_PARA
+ - wincrypt/_CERT_STRONG_SIGN_PARA
+ - PCERT_STRONG_SIGN_PARA
+ - wincrypt/PCERT_STRONG_SIGN_PARA
+ - CERT_STRONG_SIGN_PARA
+ - wincrypt/CERT_STRONG_SIGN_PARA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_STRONG_SIGN_PARA
 ---
 
 # CERT_STRONG_SIGN_PARA structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains parameters used to check for strong signatures on <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) responses, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> messages.
-
+Contains parameters used to check for strong signatures on <a href="/windows/desktop/SecGloss/c-gly">certificates</a>, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) responses, and <a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> messages.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of this structure.
-
 
 ### -field dwInfoChoice
 
@@ -86,23 +86,18 @@ Specifies the <b>pszOID</b> member.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
 
 Union that contains the parameters that can be used for checking whether a signature is strong. The parameters consist of <i>signature algorithm</i> / <i>hash algorithm</i> pairs and <i>public key algorithm</i> / <i>bit length</i> pairs.
 
-
 ### -field DUMMYUNIONNAME.pvInfo
 
 Reserved.
 
-
 ### -field DUMMYUNIONNAME.pSerializedInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
-
+Pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure that specifies the parameters.
 
 ### -field DUMMYUNIONNAME.pszOID
 
@@ -144,12 +139,8 @@ Strong signing of CRLs and OCSP responses are enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The parameters needed to check for a strong signature include the following:
 
@@ -165,51 +156,42 @@ The <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the followi
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign">CertIsStrongHashToSign</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certisstronghashtosign">CertIsStrongHashToSign</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencodedex">CryptMsgVerifyCountersignatureEncodedEx</a>
 </li>
 </ul>
-The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
+The <b>CERT_STRONG_SIGN_PARA</b> structure is also directly referenced by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodemessage">CryptDecodeMessage</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifydetachedmessagesignature">CryptVerifyDetachedMessageSignature</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
 </li>
 </ul>
-Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
+Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_para">CERT_CHAIN_PARA</a> structure and is therefore available for use by the following functions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certselectcertificatechains">CertSelectCertificateChains</a>
 </li>
 </ul>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>

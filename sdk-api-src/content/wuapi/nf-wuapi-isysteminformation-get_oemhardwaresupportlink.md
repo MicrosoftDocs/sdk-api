@@ -2,15 +2,12 @@
 UID: NF:wuapi.ISystemInformation.get_OemHardwareSupportLink
 title: ISystemInformation::get_OemHardwareSupportLink (wuapi.h)
 description: Gets a hyperlink to technical support information for OEM hardware.
+helpviewer_keywords: ["ISystemInformation interface [Windows Update Agent]","OemHardwareSupportLink property","ISystemInformation.OemHardwareSupportLink","ISystemInformation.get_OemHardwareSupportLink","ISystemInformation::OemHardwareSupportLink","ISystemInformation::get_OemHardwareSupportLink","OemHardwareSupportLink property [Windows Update Agent]","OemHardwareSupportLink property [Windows Update Agent]","ISystemInformation interface","get_OemHardwareSupportLink","wua.isysteminformation_oemhardwaresupportlink","wuapi/ISystemInformation::OemHardwareSupportLink","wuapi/ISystemInformation::get_OemHardwareSupportLink"]
 old-location: wua\isysteminformation_oemhardwaresupportlink.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 38d7b629-39e1-4265-8f1b-7fb187e1cab3
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],OemHardwareSupportLink property, ISystemInformation.OemHardwareSupportLink, ISystemInformation.get_OemHardwareSupportLink, ISystemInformation::OemHardwareSupportLink, ISystemInformation::get_OemHardwareSupportLink, OemHardwareSupportLink property [Windows Update Agent], OemHardwareSupportLink property [Windows Update Agent],ISystemInformation interface, get_OemHardwareSupportLink, wua.isysteminformation_oemhardwaresupportlink, wuapi/ISystemInformation::OemHardwareSupportLink, wuapi/ISystemInformation::get_OemHardwareSupportLink
-f1_keywords:
-- wuapi/ISystemInformation.OemHardwareSupportLink
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISystemInformation.OemHardwareSupportLink
-- ISystemInformation.get_OemHardwareSupportLink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISystemInformation::get_OemHardwareSupportLink
+ - wuapi/ISystemInformation::get_OemHardwareSupportLink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISystemInformation.OemHardwareSupportLink
+ - ISystemInformation.get_OemHardwareSupportLink
 ---
 
 # ISystemInformation::get_OemHardwareSupportLink
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a hyperlink to technical support information for OEM hardware.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isysteminformation">ISystemInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isysteminformation">ISystemInformation</a>

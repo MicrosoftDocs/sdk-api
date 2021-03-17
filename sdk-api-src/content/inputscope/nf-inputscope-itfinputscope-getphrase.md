@@ -2,15 +2,12 @@
 UID: NF:inputscope.ITfInputScope.GetPhrase
 title: ITfInputScope::GetPhrase (inputscope.h)
 description: ITfInputScope::GetPhrase method
+helpviewer_keywords: ["GetPhrase","GetPhrase method [Text Services Framework]","GetPhrase method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetPhrase method","ITfInputScope.GetPhrase","ITfInputScope::GetPhrase","inputscope/ITfInputScope::GetPhrase","tsf.itfinputscope_getphrase"]
 old-location: tsf\itfinputscope_getphrase.htm
 tech.root: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
 ms.date: 12/05/2018
 ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetPhrase method, ITfInputScope.GetPhrase, ITfInputScope::GetPhrase, inputscope/ITfInputScope::GetPhrase, tsf.itfinputscope_getphrase
-f1_keywords:
-- inputscope/ITfInputScope.GetPhrase
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputScope.GetPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope::GetPhrase
+ - inputscope/ITfInputScope::GetPhrase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputScope.GetPhrase
 ---
 
 # ITfInputScope::GetPhrase
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the phrase list set to this context.
 
 ## -parameters
-
-
-
 
 ### -param ppbstrPhrases [out]
 
 Pointer to an array of pointers to strings containing phrases. The calling function must call <b>SystFreeString()</b> to free the memory allocated to the strings and <b>CoTaskMemFree</b> to free the buffer.
 
-
 ### -param pcCount [out]
 
 Pointer to the number of phrases returned.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -89,7 +83,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

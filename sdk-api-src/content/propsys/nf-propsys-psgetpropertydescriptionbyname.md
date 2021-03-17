@@ -2,15 +2,12 @@
 UID: NF:propsys.PSGetPropertyDescriptionByName
 title: PSGetPropertyDescriptionByName function (propsys.h)
 description: Gets an instance of a property description interface for a specified property name.
+helpviewer_keywords: ["PSGetPropertyDescriptionByName","PSGetPropertyDescriptionByName function [Windows Properties]","properties.PSGetPropertyDescriptionByName","propsys/PSGetPropertyDescriptionByName","shell.PSGetPropertyDescriptionByName","shell_PSGetPropertyDescriptionByName"]
 old-location: properties\PSGetPropertyDescriptionByName.htm
 tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
-f1_keywords:
-- propsys/PSGetPropertyDescriptionByName
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetPropertyDescriptionByName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetPropertyDescriptionByName
+ - propsys/PSGetPropertyDescriptionByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetPropertyDescriptionByName
 ---
 
 # PSGetPropertyDescriptionByName function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an instance of a property description interface for a specified property name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCanonicalName [in]
 
@@ -63,25 +60,19 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated, Unicode string that identifies the property.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 Reference to the interface ID of the requested property.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>, or  <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionsearchinfo">IPropertyDescriptionSearchInfo</a>.
-
-
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionaliasinfo">IPropertyDescriptionAliasInfo</a>, or  <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionsearchinfo">IPropertyDescriptionSearchInfo</a>.
 
 ## -returns
-
-
 
 Type: <b>PSSTDAPI</b>
 
@@ -126,14 +117,8 @@ The canonical name does not exist in the schema subsystem cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
 
@@ -636,7 +621,7 @@ In addition to the new canonical names, callers can pass a legacy name for a pro
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a> to retrieve the description for the ratings property.
 
 
 ```cpp
@@ -652,21 +637,10 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>

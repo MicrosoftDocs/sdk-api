@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetControlStream
 title: IWMWriterFileSink3::SetControlStream (wmsdkidl.h)
 description: The SetControlStream method enables you to specify that a stream should be used as a control stream. You can also use this method to indicate that a previously specified control stream should no longer be used as a control stream.
+helpviewer_keywords: ["IWMWriterFileSink3 interface [windows Media Format]","SetControlStream method","IWMWriterFileSink3.SetControlStream","IWMWriterFileSink3::SetControlStream","IWMWriterFileSink3SetControlStream","SetControlStream","SetControlStream method [windows Media Format]","SetControlStream method [windows Media Format]","IWMWriterFileSink3 interface","wmformat.iwmwriterfilesink3_setcontrolstream","wmsdkidl/IWMWriterFileSink3::SetControlStream"]
 old-location: wmformat\iwmwriterfilesink3_setcontrolstream.htm
 tech.root: wmformat
 ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3.SetControlStream
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink3.SetControlStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3::SetControlStream
+ - wmsdkidl/IWMWriterFileSink3::SetControlStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink3.SetControlStream
 ---
 
 # IWMWriterFileSink3::SetControlStream
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetControlStream</b> method enables you to specify that a stream should be used as a control stream. You can also use this method to indicate that a previously specified control stream should no longer be used as a control stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNumber [in]
 
 A <b>WORD</b> specifying the stream number to configure. Stream numbers must be in the range of 1 through 63.
 
-
 ### -param fShouldControlStartAndStop [in]
 
 A BOOL specifying whether or not the stream should be used as a control stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,29 +97,13 @@ The stream number specified by <i>wStreamNumber</i> is greater than the maximum.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Control streams add accuracy to <b>Start</b> and <b>Stop</b> calls. Instead of trying to find the best starting or stopping place for the file based on times in interleaved streams, the file sink starts and stops the file at exactly the specified time in the control stream. The other streams are then synchronized with the control stream.
 
 You can have more than one control stream, by making multiple calls to this method. The file sink will start or stop at the first encountered instance of the desired time.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>

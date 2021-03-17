@@ -2,15 +2,12 @@
 UID: NF:shellscalingapi.GetProcessDpiAwareness
 title: GetProcessDpiAwareness function (shellscalingapi.h)
 description: Retrieves the dots per inch (dpi) awareness of the specified process.
+helpviewer_keywords: ["GetProcessDpiAwareness","GetProcessDpiAwareness function [High DPI]","hidpi.getprocessdpiawareness","shellscalingapi/GetProcessDpiAwareness","winmsg.GetProcessDpiAwareness"]
 old-location: hidpi\getprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
 ms.date: 12/05/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
-f1_keywords:
-- shellscalingapi/GetProcessDpiAwareness
-dev_langs:
-- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- shcore.dll
-- api-ms-win-shcore-scaling-l1-1-1.dll
-- API-MS-Win-ShCore-Scaling-L1-1-2.dll
-api_name:
-- GetProcessDpiAwareness
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProcessDpiAwareness
+ - shellscalingapi/GetProcessDpiAwareness
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - shcore.dll
+ - api-ms-win-shcore-scaling-l1-1-1.dll
+ - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+api_name:
+ - GetProcessDpiAwareness
 ---
 
 # GetProcessDpiAwareness function
@@ -50,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the dots per inch (dpi) awareness of the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hprocess [in]
 
 Handle of the process that is being queried. If this parameter is NULL, the current process is queried.
 
-
 ### -param value [out]
 
-The DPI awareness of the specified process. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
-
+The DPI awareness of the specified process. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -114,37 +107,21 @@ The application does not have sufficient privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is identical to the following code: 
 
 <code>GetAwarenessFromDpiAwarenessContext(GetThreadDpiAwarenessContext());</code>
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getawarenessfromdpiawarenesscontext">GetAwarenessFromDpiAwarenessContext</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext">GetThreadDpiAwarenessContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext">GetThreadDpiAwarenessContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>

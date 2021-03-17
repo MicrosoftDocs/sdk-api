@@ -2,15 +2,12 @@
 UID: NF:winbase.WriteTapemark
 title: WriteTapemark function (winbase.h)
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
+helpviewer_keywords: ["TAPE_FILEMARKS","TAPE_LONG_FILEMARKS","TAPE_SETMARKS","TAPE_SHORT_FILEMARKS","WriteTapemark","WriteTapemark function [Backup]","_win32_writetapemark","backup.writetapemark","base.writetapemark","winbase/WriteTapemark"]
 old-location: backup\writetapemark.htm
 tech.root: Backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
 ms.date: 12/05/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
-f1_keywords:
-- winbase/WriteTapemark
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- WriteTapemark
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WriteTapemark
+ - winbase/WriteTapemark
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - WriteTapemark
 ---
 
 # WriteTapemark function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WriteTapemark</b> function writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device. These tapemarks divide a tape partition into smaller areas.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device on which to write tapemarks. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwTapemarkType [in]
 
@@ -120,22 +116,16 @@ Writes the number of short filemarks specified by <i>dwTapemarkCount</i>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwTapemarkCount [in]
 
 Number of tapemarks to write.
 
-
 ### -param bImmediate [in]
 
 If this parameter is <b>TRUE</b>, the function returns immediately; if it is <b>FALSE</b>, the function does not return until the operation has been completed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -327,14 +317,8 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Filemarks, setmarks, short filemarks, and long filemarks are special recorded elements that denote the linear organization of the tape. None of these marks contain user data. Filemarks are the most general marks; setmarks provide a hierarchy not available with filemarks.
 
@@ -342,16 +326,6 @@ A short filemark contains a short erase gap that cannot be overwritten unless th
 
 A long filemark contains a long erase gap that allows an application to position the tape at the beginning of the filemark and to overwrite the filemark and the erase gap.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>

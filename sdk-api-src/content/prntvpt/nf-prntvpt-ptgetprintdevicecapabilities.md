@@ -2,15 +2,12 @@
 UID: NF:prntvpt.PTGetPrintDeviceCapabilities
 title: PTGetPrintDeviceCapabilities function (prntvpt.h)
 description: Retrieves the device printer's capabilities formatted in compliance with the XML Print Schema.
+helpviewer_keywords: ["PTGetPrintDeviceCapabilities","PTGetPrintDeviceCapabilities function [XPS Documents and Packaging]","prntvpt/PTGetPrintDeviceCapabilities","xps.ptgetprintdevicecapabilities"]
 old-location: xps\ptgetprintdevicecapabilities.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: DB9D63B1-2703-47F7-8F31-30FA0110E1E9
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceCapabilities, PTGetPrintDeviceCapabilities function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceCapabilities, xps.ptgetprintdevicecapabilities
-f1_keywords:
-- prntvpt/PTGetPrintDeviceCapabilities
-dev_langs:
-- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- prntvpt.dll
-api_name:
-- PTGetPrintDeviceCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PTGetPrintDeviceCapabilities
+ - prntvpt/PTGetPrintDeviceCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - prntvpt.dll
+api_name:
+ - PTGetPrintDeviceCapabilities
 ---
 
 # PTGetPrintDeviceCapabilities function
@@ -48,51 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the device printer's capabilities formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
-
+Retrieves the device printer's capabilities formatted in compliance with the XML <a href="/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 ## -parameters
 
-
-
-
 ### -param hProvider [in]
 
-A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
-
+A handle to an open device provider whose print capabilities are to be retrieved. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param pPrintTicket [in, optional]
 
 An optional pointer to a stream with its seek position at the beginning of the print ticket content. This parameter can be <b>NULL</b>.
 
-
 ### -param pDeviceCapabilities
 
 A pointer to the stream where the device print capabilities will be written, starting at the current seek position.
-
 
 ### -param pbstrErrorMessage [out, optional]
 
 A pointer to a PDC file or string that specifies what, if anything, is invalid about <i>pPrintTicket</i>. If it is valid, this value is <b>NULL</b>.The function uses this parameter only used if <i>pPrintTicket</i> is used.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the return value is S_OK. Otherwise, returns an error message.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
- 
-
- 
-
+<a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>

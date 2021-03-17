@@ -2,15 +2,12 @@
 UID: NF:certbcli.CertSrvServerControlW
 title: CertSrvServerControlW function (certbcli.h)
 description: Issues a service control command to programmatically stop Certificate Services.
+helpviewer_keywords: ["CSCONTROL_SHUTDOWN","CertSrvServerControl","CertSrvServerControl function [Security]","CertSrvServerControlW","_certsrv_certsrvservercontrol","certbcli/CertSrvServerControl","certbcli/CertSrvServerControlW","security.certsrvservercontrol"]
 old-location: security\certsrvservercontrol.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6f32e7f4-60d5-4370-b240-46aa2475e279
 ms.date: 12/05/2018
 ms.keywords: CSCONTROL_SHUTDOWN, CertSrvServerControl, CertSrvServerControl function [Security], CertSrvServerControlW, _certsrv_certsrvservercontrol, certbcli/CertSrvServerControl, certbcli/CertSrvServerControlW, security.certsrvservercontrol
-f1_keywords:
-- certbcli/CertSrvServerControl
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvServerControl
-- CertSrvServerControlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvServerControlW
+ - certbcli/CertSrvServerControlW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvServerControl
+ - CertSrvServerControlW
 ---
 
 # CertSrvServerControlW function
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvServerControl</b>  function issues a service control command to programmatically stop Certificate Services.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszServerName [in]
 
 A pointer to a name or a configuration string of the server to be issued the control command.
-
 
 ### -param dwControlFlags [in]
 
@@ -83,35 +79,24 @@ Stop Certificate Services.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbOut [out]
 
 For future use, this parameter will be the number of bytes allocated to <i>ppbOut</i>. The current implementation does not allocate memory to <i>ppbOut</i>. You can set this value to <b>NULL</b>.
 
-
 ### -param ppbOut [out]
 
 For future use, this parameter will be the pointer to pointer to bytes representing the output from the issued command. The current implementation does not allocate memory to <i>ppbOut</i>. You can set this value to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
-
-
 
 The purpose of this function is to allow a backup or restore application to programmatically stop the Certificate Services application (thereby not requiring the use of the service controller APIs). Stopping Certificate Services in this manner will also work when Certificate Services is running in console mode; the service controller APIs cannot control applications running in console mode.
 
-This function's name in Certadm.dll is <b>CertSrvServerControlW</b>. You must use this form of the name when calling <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVSERVERCONTROLW</b> in the Certbcli.h header file.
+This function's name in Certadm.dll is <b>CertSrvServerControlW</b>. You must use this form of the name when calling <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVSERVERCONTROLW</b> in the Certbcli.h header file.
 
 
 #### Examples
@@ -147,17 +132,6 @@ if ( FAILED( hr ) )
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>

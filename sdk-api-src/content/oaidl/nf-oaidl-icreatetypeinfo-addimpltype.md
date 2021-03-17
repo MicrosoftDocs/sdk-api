@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.AddImplType
 title: ICreateTypeInfo::AddImplType (oaidl.h)
 description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).
+helpviewer_keywords: ["AddImplType","AddImplType method [Automation]","AddImplType method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddImplType method","ICreateTypeInfo.AddImplType","ICreateTypeInfo::AddImplType","_oa96_ICreateTypeInfo_AddImplType","automat.icreatetypeinfo_addimpltype","oaidl/ICreateTypeInfo::AddImplType"]
 old-location: automat\icreatetypeinfo_addimpltype.htm
 tech.root: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e
 ms.date: 12/05/2018
 ms.keywords: AddImplType, AddImplType method [Automation], AddImplType method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddImplType method, ICreateTypeInfo.AddImplType, ICreateTypeInfo::AddImplType, _oa96_ICreateTypeInfo_AddImplType, automat.icreatetypeinfo_addimpltype, oaidl/ICreateTypeInfo::AddImplType
-f1_keywords:
-- oaidl/ICreateTypeInfo.AddImplType
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.AddImplType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::AddImplType
+ - oaidl/ICreateTypeInfo::AddImplType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.AddImplType
 ---
 
 # ICreateTypeInfo::AddImplType
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an inherited interface, or an interface implemented by a component object class (coclass).
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the implementation class to be added. Specifies the order of the type relative to the other type.
 
-
-
-
 ### -param hRefType [in]
 
-A handle to the referenced type description obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">AddRefType</a> description.
-
-
+A handle to the referenced type description obtained from the <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">AddRefType</a> description.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -153,28 +143,11 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To specify an inherited interface, use index = 0. For a dispinterface with Syntax 2, call <b>ICreateTypeInfo::AddImplType</b> twice, once with <i>index</i> = 0 for the inherited <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and once with <i>index</i> = 1 for the interface that is being wrapped. For a dual interface, call <b>ICreateTypeInfo::AddImplType</b> with <i>index</i> = -1 for the TKIND_INTERFACE type information component of the dual interface.
-
-
-
-
+To specify an inherited interface, use index = 0. For a dispinterface with Syntax 2, call <b>ICreateTypeInfo::AddImplType</b> twice, once with <i>index</i> = 0 for the inherited <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and once with <i>index</i> = 1 for the interface that is being wrapped. For a dual interface, call <b>ICreateTypeInfo::AddImplType</b> with <i>index</i> = -1 for the TKIND_INTERFACE type information component of the dual interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

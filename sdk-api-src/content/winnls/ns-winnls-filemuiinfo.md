@@ -2,15 +2,12 @@
 UID: NS:winnls._FILEMUIINFO
 title: FILEMUIINFO (winnls.h)
 description: Contains information about a file, related to its use with MUI.
+helpviewer_keywords: ["*PFILEMUIINFO","FILEMUIINFO","FILEMUIINFO structure [Internationalization for Windows Applications]","PFILEMUIINFO","PFILEMUIINFO structure pointer [Internationalization for Windows Applications]","_win32_FILEMUIINFO","intl.filemuiinfo","winnls/FILEMUIINFO","winnls/PFILEMUIINFO"]
 old-location: intl\filemuiinfo.htm
 tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.date: 12/05/2018
 ms.keywords: '*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO'
-f1_keywords:
-- winnls/FILEMUIINFO
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnls.h
-api_name:
-- FILEMUIINFO
 targetos: Windows
 req.typenames: FILEMUIINFO, *PFILEMUIINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILEMUIINFO
+ - winnls/_FILEMUIINFO
+ - PFILEMUIINFO
+ - winnls/PFILEMUIINFO
+ - FILEMUIINFO
+ - winnls/FILEMUIINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnls.h
+api_name:
+ - FILEMUIINFO
 ---
 
 # FILEMUIINFO structure
@@ -48,32 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Contains information about a file, related to its use with MUI. Most of this data is stored in the resource configuration data for the particular file. When this structure is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>, not all fields are necessarily filled in. The fields used depend on the flags that the application has passed to that function.
+Contains information about a file, related to its use with MUI. Most of this data is stored in the resource configuration data for the particular file. When this structure is retrieved by <a href="/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>, not all fields are necessarily filled in. The fields used depend on the flags that the application has passed to that function.
 
 
 <div class="alert"><b>Note</b>  Your MUI applications can use the MUI macros to access this structure.</div>
 <div> </div>
 
-
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Size of the structure, including the buffer, which can be extended past the 8 bytes declared. The minimum value allowed is <code>sizeof(FILEMUIINFO)</code>.
 
-
 ### -field dwVersion
 
 Version of the structure. The current version is 0x001.
-
 
 ### -field dwFileType
 
@@ -89,55 +84,43 @@ The file type. Possible values are:
 
 Pointer to a 128-bit checksum for the file, if it is either an LN file or a language-specific resource file.
 
-
 ### -field pServiceChecksum
 
 Pointer to a 128-bit checksum for the file, used for servicing.
-
 
 ### -field dwLanguageNameOffset
 
 Offset, in bytes, from the beginning of the structure to the language name string for a language-specific resource file, or to the ultimate fallback language name string for an LN file.
 
-
 ### -field dwTypeIDMainSize
 
 Size of the array for which the offset is indicated by <i>dwTypeIDMainOffset</i>. The size also corresponds to the number of strings in the multi-string array indicated by <i>dwTypeNameMainOffset</i>.
-
 
 ### -field dwTypeIDMainOffset
 
 Offset, in bytes, from the beginning of the structure to a DWORD array enumerating the resource types contained in the LN file.
 
-
 ### -field dwTypeNameMainOffset
 
 Offset, in bytes, from the beginning of the structure to a series of null-terminated strings in a multi-string array enumerating the resource names contained in the LN file.
-
 
 ### -field dwTypeIDMUISize
 
 Size of the array with the offset indicated by <i>dwTypeIDMUIOffset</i>. The size also corresponds to the number of strings in the series of strings indicated by <i>dwTypeNameMUIOffset</i>.
 
-
 ### -field dwTypeIDMUIOffset
 
 Offset, in bytes, from the beginning of the structure to a DWORD array enumerating the resource types contained in the LN file.
-
 
 ### -field dwTypeNameMUIOffset
 
 Offset, in bytes, from the beginning of the structure to a multi-string array enumerating the resource names contained in the LN file.
 
-
 ### -field abBuffer
 
 Remainder of the allocated memory for this structure. See the Remarks section for correct use of this array.
 
-
 ## -remarks
-
-
 
 All offsets are from the base of the structure. An offset of 0 indicates that the data is not available.
 
@@ -192,29 +175,18 @@ unsafe public struct FILEMUIINFO
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getfilemuiinfo">GetFileMUIInfo</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-structures">Multilingual User Interface Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-structures">Multilingual User Interface Structures</a>

@@ -2,15 +2,12 @@
 UID: NS:dxva2api._DXVA2_ProcAmpValues
 title: DXVA2_ProcAmpValues (dxva2api.h)
 description: Contains values for DirectX Video Acceleration (DXVA) video processing operations.
+helpviewer_keywords: ["DXVA2_ProcAmpValues","DXVA2_ProcAmpValues structure [Media Foundation]","c84acd34-e922-46bb-9913-0f94c7c47155","dxva2api/DXVA2_ProcAmpValues","mf.dxva2_procampvalues"]
 old-location: mf\dxva2_procampvalues.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c84acd34-e922-46bb-9913-0f94c7c47155
 ms.date: 12/05/2018
 ms.keywords: DXVA2_ProcAmpValues, DXVA2_ProcAmpValues structure [Media Foundation], c84acd34-e922-46bb-9913-0f94c7c47155, dxva2api/DXVA2_ProcAmpValues, mf.dxva2_procampvalues
-f1_keywords:
-- dxva2api/DXVA2_ProcAmpValues
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_ProcAmpValues
 targetos: Windows
 req.typenames: DXVA2_ProcAmpValues
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_ProcAmpValues
+ - dxva2api/_DXVA2_ProcAmpValues
+ - DXVA2_ProcAmpValues
+ - dxva2api/DXVA2_ProcAmpValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_ProcAmpValues
 ---
 
 # DXVA2_ProcAmpValues structure
@@ -48,53 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains values for DirectX Video Acceleration (DXVA) video processing operations.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field Brightness
 
 Brightness value.
 
-
 ### -field Contrast
 
 Contrast value.
-
 
 ### -field Hue
 
 Hue value.
 
-
 ### -field Saturation
 
 Saturation value.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a>
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfEditRecord.GetTextAndPropertyUpdates
 title: ITfEditRecord::GetTextAndPropertyUpdates (msctf.h)
 description: ITfEditRecord::GetTextAndPropertyUpdates method
+helpviewer_keywords: ["0","GetTextAndPropertyUpdates","GetTextAndPropertyUpdates method [Text Services Framework]","GetTextAndPropertyUpdates method [Text Services Framework]","ITfEditRecord interface","ITfEditRecord interface [Text Services Framework]","GetTextAndPropertyUpdates method","ITfEditRecord.GetTextAndPropertyUpdates","ITfEditRecord::GetTextAndPropertyUpdates","TF_GTP_INCL_TEXT","_tsf_itfeditrecord_gettextandpropertyupdates_ref","msctf/ITfEditRecord::GetTextAndPropertyUpdates","tsf.itfeditrecord_gettextandpropertyupdates"]
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm
 tech.root: TSF
 ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
 ms.date: 12/05/2018
 ms.keywords: 0, GetTextAndPropertyUpdates, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetTextAndPropertyUpdates method, ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
-f1_keywords:
-- msctf/ITfEditRecord.GetTextAndPropertyUpdates
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfEditRecord.GetTextAndPropertyUpdates
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfEditRecord::GetTextAndPropertyUpdates
+ - msctf/ITfEditRecord::GetTextAndPropertyUpdates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfEditRecord.GetTextAndPropertyUpdates
 ---
 
 # ITfEditRecord::GetTextAndPropertyUpdates
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains a collection of range objects that cover the specified properties and/or text that changed during the edit session.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -86,8 +84,6 @@ Specifies that the method will obtain the collection of range objects that cover
 </td>
 </tr>
 </table>
- 
-
 
 ### -param prgProperties [in]
 
@@ -97,22 +93,17 @@ This array must be at least <i>cProperties</i> elements in size.
 
 This parameter is ignored if <i>dwFlags</i> contains TF_GTP_INCL_TEXT and <i>cProperties</i> is zero.
 
-
 ### -param cProperties [in]
 
 Specifies the number of elements in the <i>prgProperties</i> array.
 
 This parameter can be zero if <i>dwFlags</i> contains TF_GTP_INCL_TEXT. This indicates that no property changes are obtained.
 
-
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the enumerator object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the enumerator object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -155,23 +146,12 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a>

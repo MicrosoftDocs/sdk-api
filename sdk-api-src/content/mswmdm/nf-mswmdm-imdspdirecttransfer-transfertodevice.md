@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPDirectTransfer.TransferToDevice
 title: IMDSPDirectTransfer::TransferToDevice (mswmdm.h)
 description: The TransferToDevice method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
+helpviewer_keywords: ["IMDSPDirectTransfer interface [windows Media Device Manager]","TransferToDevice method","IMDSPDirectTransfer.TransferToDevice","IMDSPDirectTransfer::TransferToDevice","IMDSPDirectTransferTransferToDevice","TransferToDevice","TransferToDevice method [windows Media Device Manager]","TransferToDevice method [windows Media Device Manager]","IMDSPDirectTransfer interface","mswmdm/IMDSPDirectTransfer::TransferToDevice","wmdm.imdspdirecttransfer_transfertodevice"]
 old-location: wmdm\imdspdirecttransfer_transfertodevice.htm
 tech.root: WMDM
 ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.date: 12/05/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
-f1_keywords:
-- mswmdm/IMDSPDirectTransfer.TransferToDevice
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPDirectTransfer.TransferToDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDirectTransfer::TransferToDevice
+ - mswmdm/IMDSPDirectTransfer::TransferToDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPDirectTransfer.TransferToDevice
 ---
 
 # IMDSPDirectTransfer::TransferToDevice
@@ -49,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TransferToDevice</b> method is called by Windows Media Device Manager to delegate content transfer content to the service provider. The source can be specified either as a file or as an operation interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszSourceFilePath [in]
 
 Source file name. The value contained in this parameter should be ignored if WMDM_CONTENT_OPERATIONINTERFACE is specified.
 
-
 ### -param pSourceOperation [in]
 
 Operation interface pointer that serves as the source. The value contained in this parameter should be ignored unless WMDM_CONTENT_OPERATIONINTERFACE is specified.
-
 
 ### -param fuFlags [in]
 
@@ -95,32 +87,24 @@ Flags that affect behavior of this method. The <i>fuFlags</i> parameter must be 
 <td>Overwrite the destination file if it already exists.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwszDestinationName [in]
 
 Content should be transferred to the device with this name. This parameter is required.
 
-
 ### -param pSourceMetaData [in]
 
 Metadata interface pointer. The metadata object contains the source properties. This parameter is optional.
-
 
 ### -param pTransferProgress [in]
 
 Progress callback interface. The service provider should update the information during the progress of the transfer. This parameter is optional.
 
-
 ### -param ppNewObject [out]
 
 Newly created storage object. This parameter is optional. This can be <b>NULL</b> if the caller does not need to have the new object returned.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -191,14 +175,8 @@ Transfer of the specified content is not supported on the device.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Windows Media Device Manager queries for <b>IMDSPDirectTransfer</b> interface during every transfer.
 
@@ -208,44 +186,34 @@ If the service provider does not support the <b>IMDSPDirectTransfer</b> interfac
 
 If <b>IMDSPDirectTransfer</b> is supported, Windows Media Device Manager delegates handling of the content to the service provider. This provides flexibility to the service provider for handling the content. In this case, the service provider is responsible for handling the protected content.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdirecttransfer">IMDSPDirectTransfer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdirecttransfer">IMDSPDirectTransfer Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">IMDSPObject::Close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">IMDSPObject::Close</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">IMDSPObject::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">IMDSPObject::Open</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>

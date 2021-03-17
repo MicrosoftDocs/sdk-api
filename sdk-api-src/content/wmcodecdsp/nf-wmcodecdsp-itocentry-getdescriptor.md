@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptor
 title: ITocEntry::GetDescriptor (wmcodecdsp.h)
 description: The GetDescriptor method retrieves the descriptor, previously set by a call to SetDescriptor, of the entry.
+helpviewer_keywords: ["GetDescriptor","GetDescriptor method [Media Foundation]","GetDescriptor method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetDescriptor method","ITocEntry.GetDescriptor","ITocEntry::GetDescriptor","codecapi.itocentry_getdescriptor","mf.itocentry_getdescriptor","wmcodecdsp/ITocEntry::GetDescriptor"]
 old-location: mf\itocentry_getdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
 ms.date: 12/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
-f1_keywords:
-- wmcodecdsp/ITocEntry.GetDescriptor
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntry.GetDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntry::GetDescriptor
+ - wmcodecdsp/ITocEntry::GetDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntry.GetDescriptor
 ---
 
 # ITocEntry::GetDescriptor
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetDescriptor</b> method retrieves the descriptor, previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>, of the entry.
-
+The <b>GetDescriptor</b> method retrieves the descriptor, previously set by a call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>, of the entry.
 
 ## -parameters
 
-
-
-
 ### -param pDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that receives the descriptor.
-
+Pointer to a <a href="/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_entry_descriptor">TOC_ENTRY_DESCRIPTOR</a> structure that receives the descriptor.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,22 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>

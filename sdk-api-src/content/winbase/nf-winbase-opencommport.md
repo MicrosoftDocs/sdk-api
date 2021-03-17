@@ -2,15 +2,12 @@
 UID: NF:winbase.OpenCommPort
 title: OpenCommPort function (winbase.h)
 description: Attempts to open a communication device.
+helpviewer_keywords: ["FILE_FLAG_OVERLAPPED","OpenCommPort","OpenCommPort function","base.opencommport","winbase/OpenCommPort"]
 old-location: base\opencommport.htm
-tech.root: devio
+tech.root: base
 ms.assetid: D96D3F6D-2158-4E6A-84A8-DC3BAE9624FA
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
-f1_keywords:
-- winbase/OpenCommPort
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: OneCore.lib
 req.dll: KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- KernelBase.dll
-- API-MS-Win-Core-comm-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- OpenCommPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenCommPort
+ - winbase/OpenCommPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - KernelBase.dll
+ - API-MS-Win-Core-comm-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - OpenCommPort
 ---
 
 # OpenCommPort function
@@ -51,26 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to open a communication device.
 
-
 ## -parameters
-
-
-
 
 ### -param uPortNumber [in]
 
 A one-based port number for the communication device to open.
 
-
 ### -param dwDesiredAccess [in]
 
 The requested access to the device.
 
-For more information about requested access, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
-
+For more information about requested access, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -97,46 +92,27 @@ The file or device is being opened or created for asynchronous I/O.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+If the function succeeds, the function returns a valid <b>HANDLE</b>. Use <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to close that handle.
 
-
-If the function succeeds, the function returns a valid <b>HANDLE</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to close that handle.
-
-If an error occurs, the function returns <b>INVALID_HANDLE_VALUE</b>. 
-
-
-
+If an error occurs, the function returns <b>INVALID_HANDLE_VALUE</b>.
 
 ## -remarks
 
-
-
 The <i>uPortNumber</i> parameter accepts one-based values. A value of 1 for <i>uPortNumber</i> causes this function to attempt to open COM1.
 
-To support UWP, link against WindowsApp.lib. 
-
-
-
+To support UWP, link against WindowsApp.lib.
 
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>

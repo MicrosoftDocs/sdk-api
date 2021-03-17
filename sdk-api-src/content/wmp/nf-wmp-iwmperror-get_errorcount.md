@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPError.get_errorCount
 title: IWMPError::get_errorCount (wmp.h)
 description: The get_errorCount method retrieves the number of errors in the error queue.
+helpviewer_keywords: ["IWMPError interface [Windows Media Player]","get_errorCount method","IWMPError.get_errorCount","IWMPError::get_errorCount","IWMPErrorget_errorCount","get_errorCount","get_errorCount method [Windows Media Player]","get_errorCount method [Windows Media Player]","IWMPError interface","wmp.iwmperror_get_errorcount","wmp/IWMPError::get_errorCount"]
 old-location: wmp\iwmperror_get_errorcount.htm
 tech.root: WMP
 ms.assetid: 0ad21e08-4566-4f3a-8506-308432996481
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_errorCount method, IWMPError.get_errorCount, IWMPError::get_errorCount, IWMPErrorget_errorCount, get_errorCount, get_errorCount method [Windows Media Player], get_errorCount method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_errorcount, wmp/IWMPError::get_errorCount
-f1_keywords:
-- wmp/IWMPError.get_errorCount
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPError.get_errorCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPError::get_errorCount
+ - wmp/IWMPError::get_errorCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPError.get_errorCount
 ---
 
 # IWMPError::get_errorCount
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_errorCount</b> method retrieves the number of errors in the error queue.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plNumErrors [out]
 
 Pointer to a <b>long</b> containing the number of errors.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSettings::put_enableErrorDialogs</b> if you choose to display custom error messages.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>

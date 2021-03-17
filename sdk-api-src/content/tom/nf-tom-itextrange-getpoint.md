@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.GetPoint
 title: ITextRange::GetPoint (tom.h)
 description: Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
+helpviewer_keywords: ["GetPoint","GetPoint method [Windows Controls]","GetPoint method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetPoint method","ITextRange.GetPoint","ITextRange::GetPoint","_win32_ITextRange_GetPoint","_win32_ITextRange_GetPoint_cpp","controls.ITextRange_GetPoint","controls._win32_ITextRange_GetPoint","tom/ITextRange::GetPoint","tomAllowOffClient","tomClientCoord","tomEnd","tomObjectArg","tomStart","tomTransform"]
 old-location: controls\ITextRange_GetPoint.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpoint.htm
 ms.date: 12/05/2018
 ms.keywords: GetPoint, GetPoint method [Windows Controls], GetPoint method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetPoint method, ITextRange.GetPoint, ITextRange::GetPoint, _win32_ITextRange_GetPoint, _win32_ITextRange_GetPoint_cpp, controls.ITextRange_GetPoint, controls._win32_ITextRange_GetPoint, tom/ITextRange::GetPoint, tomAllowOffClient, tomClientCoord, tomEnd, tomObjectArg, tomStart, tomTransform
-f1_keywords:
-- tom/ITextRange.GetPoint
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.GetPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::GetPoint
+ - tom/ITextRange::GetPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.GetPoint
 ---
 
 # ITextRange::GetPoint
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
 
-
 ## -parameters
-
-
-
 
 ### -param Type
 
@@ -142,32 +139,24 @@ Use one of the following values to indicate the horizontal position.
 <td>Right edge of the bounding rectangle.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param px
 
 Type: <b>long*</b>
 
-The x-coordinate. 
-
+The x-coordinate.
 
 ### -param py
 
 Type: <b>long*</b>
 
-The y-coordinate. 
-
+The y-coordinate.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -197,30 +186,18 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>ITextRange::GetPoint</b> method gives <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes. 
-
-
-
+The <b>ITextRange::GetPoint</b> method gives <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> the ability to emulate UI-pointer commands; it is also handy for accessibility purposes.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -232,16 +209,12 @@ The <b>ITextRange::GetPoint</b> method gives <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setpoint">SetPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

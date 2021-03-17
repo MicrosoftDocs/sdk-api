@@ -2,15 +2,12 @@
 UID: NC:stm.PBLOCK_CONVERT_SERVICES_TO_STATIC
 title: PBLOCK_CONVERT_SERVICES_TO_STATIC (stm.h)
 description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
+helpviewer_keywords: ["BlockConvertServicesToStatic","BlockConvertServicesToStatic callback function [RAS]","PBLOCK_CONVERT_SERVICES_TO_STATIC","PBLOCK_CONVERT_SERVICES_TO_STATIC callback","_mpr_blockconvertservicestostatic","rras.blockconvertservicestostatic","stm/BlockConvertServicesToStatic"]
 old-location: rras\blockconvertservicestostatic.htm
 tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
 ms.date: 12/05/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
-f1_keywords:
-- stm/BlockConvertServicesToStatic
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- BlockConvertServicesToStatic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PBLOCK_CONVERT_SERVICES_TO_STATIC
+ - stm/PBLOCK_CONVERT_SERVICES_TO_STATIC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - BlockConvertServicesToStatic
 ---
 
 # PBLOCK_CONVERT_SERVICES_TO_STATIC callback function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>BlockConvertServicesToStatic</b> function converts all services received on a specified interface to static.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies the unique number that identifies the interface associated with the services intended for conversion.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -104,25 +98,14 @@ The parameter is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_delete_static_services">BlockDeleteStaticServices</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

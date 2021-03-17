@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateBackupRestorer
 title: WMCreateBackupRestorer function (wmsdkidl.h)
 description: The WMCreateBackupRestorer function creates a backup restorer object.
+helpviewer_keywords: ["WMCreateBackupRestorer","WMCreateBackupRestorer function [windows Media Format]","wmformat.wmcreatebackuprestorer","wmsdkidl/WMCreateBackupRestorer"]
 old-location: wmformat\wmcreatebackuprestorer.htm
 tech.root: wmformat
 ms.assetid: 529a5066-df03-4747-bca5-10e3f223d4d2
 ms.date: 12/05/2018
 ms.keywords: WMCreateBackupRestorer, WMCreateBackupRestorer function [windows Media Format], wmformat.wmcreatebackuprestorer, wmsdkidl/WMCreateBackupRestorer
-f1_keywords:
-- wmsdkidl/WMCreateBackupRestorer
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateBackupRestorer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateBackupRestorer
+ - wmsdkidl/WMCreateBackupRestorer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateBackupRestorer
 ---
 
 # WMCreateBackupRestorer function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateBackupRestorer</b> function creates a backup restorer object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface containing the <b>OnStatus</b> callback method to be used by the new backup restorer object.
-
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface containing the <b>OnStatus</b> callback method to be used by the new backup restorer object.
 
 ### -param ppBackup [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup</a> interface of the newly created backup restorer object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup</a> interface of the newly created backup restorer object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,31 +94,15 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use <b>IWMLicenseBackup::QueryInterface</b> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a> interface.
-
-
-
+Use <b>IWMLicenseBackup::QueryInterface</b> to obtain a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/backup-restorer-object">Backup Restorer Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

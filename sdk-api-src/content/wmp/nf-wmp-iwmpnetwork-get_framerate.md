@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_frameRate
 title: IWMPNetwork::get_frameRate (wmp.h)
 description: The get_frameRate method retrieves the current video frame rate.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_frameRate method","IWMPNetwork.get_frameRate","IWMPNetwork::get_frameRate","IWMPNetworkget_frameRate","get_frameRate","get_frameRate method [Windows Media Player]","get_frameRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_framerate","wmp/IWMPNetwork::get_frameRate"]
 old-location: wmp\iwmpnetwork_get_framerate.htm
 tech.root: WMP
 ms.assetid: 1521c462-b054-46d6-8646-4d20a836eadc
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_frameRate method, IWMPNetwork.get_frameRate, IWMPNetwork::get_frameRate, IWMPNetworkget_frameRate, get_frameRate, get_frameRate method [Windows Media Player], get_frameRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framerate, wmp/IWMPNetwork::get_frameRate
-f1_keywords:
-- wmp/IWMPNetwork.get_frameRate
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_frameRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_frameRate
+ - wmp/IWMPNetwork::get_frameRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_frameRate
 ---
 
 # IWMPNetwork::get_frameRate
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_frameRate</b> method retrieves the current video frame rate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plFrameRate [out]
 
 Pointer to a <b>long</b> containing the frame rate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,31 +79,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The frame rate value is returned in frames per hundred seconds. For example, a value of 2998 indicates 29.98 frames per second (fps).
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_encodedframerate">IWMPNetwork::get_encodedFrameRate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_encodedframerate">IWMPNetwork::get_encodedFrameRate</a>

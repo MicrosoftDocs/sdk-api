@@ -1,16 +1,13 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
 title: DWRITE_LINE_SPACING (dwrite_3.h)
-description: .
+description: Sets the vertical spacing between lines of text.
+helpviewer_keywords: ["DWRITE_LINE_SPACING","DWRITE_LINE_SPACING structure [Direct Write]","directwrite.dwrite_line_spacing","dwrite_3/DWRITE_LINE_SPACING"]
 old-location: directwrite\dwrite_line_spacing.htm
 tech.root: DirectWrite
 ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
-f1_keywords:
-- dwrite_3/DWRITE_LINE_SPACING
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dwrite_3.h
-api_name:
-- DWRITE_LINE_SPACING
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_LINE_SPACING
+ - dwrite_3/DWRITE_LINE_SPACING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dwrite_3.h
+api_name:
+ - DWRITE_LINE_SPACING
 ---
-
-# DWRITE_LINE_SPACING structure
-
 
 ## -description
 
-
-
-
+Sets the vertical spacing between lines of text.
 
 ## -struct-fields
-
-
-
 
 ### -field method
 
@@ -63,13 +57,11 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_line_spacing_method
 
 Method used to determine line spacing.
 
-
 ### -field height
 
 Type: <b>FLOAT</b>
 
 Spacing between lines. The interpretation of this parameter depends upon the line spacing method, as follows:
-       
 
 <ul>
 <li>Line spacing: ignored</li>
@@ -84,7 +76,6 @@ Type: <b>FLOAT</b>
 
 Distance from top of line to baseline. 
        The interpretation of this parameter depends upon the line spacing method, as follows:
-       
 
 <ul>
 <li>default line spacing: ignored</li>
@@ -101,7 +92,6 @@ Proportion of the entire leading distributed before the line. The allowed value 
      leading is distributed after the line. It is ignored for the default and uniform line spacing methods.
      The leading that is available to distribute before or after the line depends on the values of the height and
      baseline parameters.
-
 
 ### -field fontLineGapUsage
 

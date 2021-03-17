@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferInitialize.SetHKEY
 title: IStreamBufferInitialize::SetHKEY (sbe.h)
 description: The SetHKEY method sets the registry key where the stream buffer object stores its configuration information.
+helpviewer_keywords: ["IStreamBufferInitialize interface [Microsoft TV Technologies]","SetHKEY method","IStreamBufferInitialize.SetHKEY","IStreamBufferInitialize::SetHKEY","IStreamBufferInitializeSetHKEY","SetHKEY","SetHKEY method [Microsoft TV Technologies]","SetHKEY method [Microsoft TV Technologies]","IStreamBufferInitialize interface","mstv.istreambufferinitialize_sethkey","sbe/IStreamBufferInitialize::SetHKEY"]
 old-location: mstv\istreambufferinitialize_sethkey.htm
 tech.root: mstv
 ms.assetid: f8d85180-2575-4525-9b8a-bec354e2cd4c
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetHKEY method, IStreamBufferInitialize.SetHKEY, IStreamBufferInitialize::SetHKEY, IStreamBufferInitializeSetHKEY, SetHKEY, SetHKEY method [Microsoft TV Technologies], SetHKEY method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_sethkey, sbe/IStreamBufferInitialize::SetHKEY
-f1_keywords:
-- sbe/IStreamBufferInitialize.SetHKEY
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferInitialize.SetHKEY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferInitialize::SetHKEY
+ - sbe/IStreamBufferInitialize::SetHKEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferInitialize.SetHKEY
 ---
 
 # IStreamBufferInitialize::SetHKEY
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetHKEY</b> method sets the registry key where the stream buffer object stores its configuration information.
 
-
 ## -parameters
-
-
-
 
 ### -param hkeyRoot [in]
 
 Handle to the registry key.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -96,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables an application to specify a registry key where the stream buffer objects will save configuration information, including the location of the backing files, the number of backing files, and their size.
 
@@ -164,17 +152,6 @@ hr = pInit->SetHKEY(hkey);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>

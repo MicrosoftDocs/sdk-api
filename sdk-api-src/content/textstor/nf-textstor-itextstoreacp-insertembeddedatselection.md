@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACP.InsertEmbeddedAtSelection
 title: ITextStoreACP::InsertEmbeddedAtSelection (textstor.h)
 description: The ITextStoreACP::InsertEmbeddedAtSelection method inserts an IDataObject object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject object into the document.
+helpviewer_keywords: ["0","ITextStoreACP interface [Text Services Framework]","InsertEmbeddedAtSelection method","ITextStoreACP.InsertEmbeddedAtSelection","ITextStoreACP::InsertEmbeddedAtSelection","InsertEmbeddedAtSelection","InsertEmbeddedAtSelection method [Text Services Framework]","InsertEmbeddedAtSelection method [Text Services Framework]","ITextStoreACP interface","TF_IAS_NOQUERY","TF_IAS_QUERYONLY","_tsf_itextstoreacp_insertembeddedatselection_ref","acpNewEnd","acpOldEnd","acpStart","textstor/ITextStoreACP::InsertEmbeddedAtSelection","tsf.itextstoreacp_insertembeddedatselection"]
 old-location: tsf\itextstoreacp_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 5a2ecd77-a99e-4476-8485-a44aa88cf563
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP.InsertEmbeddedAtSelection, ITextStoreACP::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_insertembeddedatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertEmbeddedAtSelection, tsf.itextstoreacp_insertembeddedatselection
-f1_keywords:
-- textstor/ITextStoreACP.InsertEmbeddedAtSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.InsertEmbeddedAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::InsertEmbeddedAtSelection
+ - textstor/ITextStoreACP::InsertEmbeddedAtSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.InsertEmbeddedAtSelection
 ---
 
 # ITextStoreACP::InsertEmbeddedAtSelection
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
-
+The <b>ITextStoreACP::InsertEmbeddedAtSelection</b> method inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> object into the document.
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure will contain the results of the object insertion.
+Specifies whether the <i>pacpStart</i> and <i>pacpEnd</i> parameters and the <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a> structure will contain the results of the object insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -101,23 +98,18 @@ Use this flag to view the results of the text insertion without actually inserti
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDataObject [in]
 
 Pointer to the <b>IDataObject</b> object to be inserted.
 
-
 ### -param pacpStart [out]
 
 Pointer to the starting application character position where the object insertion will occur.
 
-
 ### -param pacpEnd [out]
 
 Pointer to the ending application character position where the object insertion will occur. This parameter value will be the same as the value of the <i>pacpStart</i> parameter for an insertion point.
-
 
 ### -param pChange [out]
 
@@ -159,12 +151,8 @@ The ending application character position after the object insertion took place.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,41 +195,25 @@ The caller does not have a lock on the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The values of the <i>pacpStart</i> and <i>pacpEnd</i> parameters depend upon how the client application inserts an object into a document. For example, if the application sets the cursor at the start of the object after object insertion, then the value of the <i>pacpStart</i> and <i>pacpEnd</i> parameters is the same as the <b>acpStart</b> member of the <b>TS_TEXTCHANGE</b> structure.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
- 
-
- 
-

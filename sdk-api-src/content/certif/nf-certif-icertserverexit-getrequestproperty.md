@@ -2,15 +2,12 @@
 UID: NF:certif.ICertServerExit.GetRequestProperty
 title: ICertServerExit::GetRequestProperty (certif.h)
 description: Returns a named property from a request.
+helpviewer_keywords: ["CCertServerExit object [Security]","GetRequestProperty method","CR_IN_KEYGEN","CR_IN_PKCS10","CR_IN_PKCS7","Disposition","DispositionMessage","GetRequestProperty","GetRequestProperty method [Security]","GetRequestProperty method [Security]","CCertServerExit object","GetRequestProperty method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","GetRequestProperty method","ICertServerExit.GetRequestProperty","ICertServerExit::GetRequestProperty","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","RawCACertificate","RawRequest","RequestAttributes","RequestID","RequestType","RequesterName","ResolvedWhen","StatusCode","SubmittedWhen","_certsrv_icertserverexit_getrequestproperty","certif/ICertServerExit::GetRequestProperty","security.icertserverexit_getrequestproperty"]
 old-location: security\icertserverexit_getrequestproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
-f1_keywords:
-- certif/ICertServerExit.GetRequestProperty
-dev_langs:
-- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertServerExit.GetRequestProperty
-- CCertServerExit.GetRequestProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertServerExit::GetRequestProperty
+ - certif/ICertServerExit::GetRequestProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertServerExit.GetRequestProperty
+ - CCertServerExit.GetRequestProperty
 ---
 
 # ICertServerExit::GetRequestProperty
@@ -49,23 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRequestProperty</b> method returns a named property from a request.
 
 Note that the request is used to hold all associated states for the request and the eventual granted certificate that is not a part of the certificate. Thus, data such as revocation times and disposition data are kept in the request data object.
 
-
 ## -parameters
-
-
-
 
 ### -param strPropertyName [in]
 
 Specifies the property to retrieve. There is a stock set of certificate properties, referred to as the name properties, that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
 
-Other properties valid for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a> include the request properties.
+Other properties valid for <a href="/windows/desktop/SecGloss/c-gly">certificate requests</a> include the request properties.
 
 <div class="alert"><b>Note</b>  The request's <b>DistinguishedName</b> and <b>RawName</b> properties are accessible by <b>GetRequestProperty</b> only if the certificate is requested by using a PKCS #10 certificate request or another supported request format that contains encoded subject name information. Note that KeyGen requests do not contain encoded subject name information.</div>
 <div> </div>
@@ -108,7 +105,7 @@ Informational disposition message
 </dl>
 </td>
 <td width="60%">
-Certificate for the issuing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>
+Certificate for the issuing <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>
 
 </td>
 </tr>
@@ -141,7 +138,7 @@ Attribute string (can be truncated)
 </dl>
 </td>
 <td width="60%">
-The name of the requester in the form "<i>DomainName</i>\<i>UserID</i>"
+The name of the requester in the form "<i>DomainName</i>&#92;<i>UserID</i>"
 
 </td>
 </tr>
@@ -248,7 +245,6 @@ Keygen request (Netscape format)
 
 In addition, other properties may be set by a specific request type, request extensions, or by named attributes set in the header of a request.
 
-
 ### -param PropertyType [in]
 
 Specifies the property type. The type can be one of the following types.
@@ -299,35 +295,25 @@ Unicode string data
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
 A pointer to the <b>VARIANT</b> that will contain the request property type.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pvarPropertyValue</i> is set to the <b>VARIANT</b> that contains the request property value.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property value.
 
-
-
-
 ## -remarks
 
-
-
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -363,25 +349,14 @@ if ( NULL != bstrPropName )
     SysFreeString( bstrPropName );
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>

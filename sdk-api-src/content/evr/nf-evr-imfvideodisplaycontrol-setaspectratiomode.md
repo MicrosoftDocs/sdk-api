@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.SetAspectRatioMode
 title: IMFVideoDisplayControl::SetAspectRatioMode (evr.h)
 description: Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
+helpviewer_keywords: ["IMFVideoDisplayControl interface [Media Foundation]","SetAspectRatioMode method","IMFVideoDisplayControl.SetAspectRatioMode","IMFVideoDisplayControl::SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [Media Foundation]","SetAspectRatioMode method [Media Foundation]","IMFVideoDisplayControl interface","dd49a110-1c11-4eca-9e7b-6021f3bdd397","evr/IMFVideoDisplayControl::SetAspectRatioMode","mf.imfvideodisplaycontrol_setaspectratiomode"]
 old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dd49a110-1c11-4eca-9e7b-6021f3bdd397
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],SetAspectRatioMode method, IMFVideoDisplayControl.SetAspectRatioMode, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
-f1_keywords:
-- evr/IMFVideoDisplayControl.SetAspectRatioMode
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.SetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::SetAspectRatioMode
+ - evr/IMFVideoDisplayControl::SetAspectRatioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.SetAspectRatioMode
 ---
 
 # IMFVideoDisplayControl::SetAspectRatioMode
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies how the enhanced video renderer (EVR) handles the aspect ratio of the source video.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwAspectRatioMode [in]
 
-Bitwise <b>OR</b> of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-mfvideoaspectratiomode">MFVideoAspectRatioMode</a> enumeration.
-
+Bitwise <b>OR</b> of one or more flags from the <a href="/windows/desktop/api/evr/ne-evr-mfvideoaspectratiomode">MFVideoAspectRatioMode</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,26 +102,15 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

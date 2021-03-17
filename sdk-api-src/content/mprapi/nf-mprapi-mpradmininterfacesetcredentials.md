@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminInterfaceSetCredentials
 title: MprAdminInterfaceSetCredentials function (mprapi.h)
 description: Use MprAdminInterfaceSetCredentials function to set the domain, user name, and password that will be used for dialing out on the specified demand-dial interface.
+helpviewer_keywords: ["MprAdminInterfaceSetCredentials","MprAdminInterfaceSetCredentials function [RAS]","_mpr_mpradmininterfacesetcredentials","mprapi/MprAdminInterfaceSetCredentials","rras.mpradmininterfacesetcredentials"]
 old-location: rras\mpradmininterfacesetcredentials.htm
 tech.root: RRAS
 ms.assetid: a5372bfb-185c-4562-afa3-35399c8e2a46
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
-f1_keywords:
-- mprapi/MprAdminInterfaceSetCredentials
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceSetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceSetCredentials
+ - mprapi/MprAdminInterfaceSetCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceSetCredentials
 ---
 
 # MprAdminInterfaceSetCredentials function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use 
 <b>MprAdminInterfaceSetCredentials</b> function to set the domain, user name, and password that will be used for dialing out on the specified demand-dial interface.
 
-
 ## -parameters
-
-
-
 
 ### -param lpwsServer [in]
 
@@ -67,12 +64,10 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the name of th
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the call is executed on the local machine.
 
-
 ### -param lpwsInterfaceName [in]
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the name of the demand-dial interface. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to obtain the interface name.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to obtain the interface name.
 
 ### -param lpwsUserName [in]
 
@@ -83,7 +78,6 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the user name.
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not change the user name associated with this interface.
 
-
 ### -param lpwsDomainName [in]
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the domain name. 
@@ -92,7 +86,6 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the domain nam
 
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not change the domain name associated with this interface.
-
 
 ### -param lpwsPassword [in]
 
@@ -103,10 +96,7 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the password.
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not change the password associated with this interface.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -154,7 +144,7 @@ Insufficient memory to create a new data structure to contain the credentials.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -164,13 +154,7 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The <i>lpwsUserName</i>, <i>lpwsPassword</i>, and <i>lpwsDomainName</i> parameters are optional. If the calling application specifies <b>NULL</b> for all three parameters, 
 <b>MprAdminInterfaceSetCredentials</b> removes all credential information for this interface.
@@ -179,34 +163,24 @@ The constants UNLEN, PWLEN, and DNLEN are the maximum lengths for the user name,
 
 Note that the order of the parameters in 
 <b>MprAdminInterfaceSetCredentials</b> is different from 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentials">MprAdminInterfaceGetCredentials</a>.
-
-
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentials">MprAdminInterfaceGetCredentials</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentials">MprAdminInterfaceGetCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentials">MprAdminInterfaceGetCredentials</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

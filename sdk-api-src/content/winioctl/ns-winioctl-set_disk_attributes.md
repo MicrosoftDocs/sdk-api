@@ -2,15 +2,12 @@
 UID: NS:winioctl._SET_DISK_ATTRIBUTES
 title: SET_DISK_ATTRIBUTES
 description: Specifies the attributes to be set on a disk device.
+helpviewer_keywords: ["*PSET_DISK_ATTRIBUTES","DISK_ATTRIBUTE_OFFLINE","DISK_ATTRIBUTE_READ_ONLY","PSET_DISK_ATTRIBUTES","PSET_DISK_ATTRIBUTES structure pointer [Files]","SET_DISK_ATTRIBUTES","SET_DISK_ATTRIBUTES structure [Files]","fs.set_disk_attributes","winioctl/PSET_DISK_ATTRIBUTES","winioctl/SET_DISK_ATTRIBUTES"]
 old-location: fs\set_disk_attributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
 ms.date: 12/05/2018
 ms.keywords: '*PSET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, PSET_DISK_ATTRIBUTES, PSET_DISK_ATTRIBUTES structure pointer [Files], SET_DISK_ATTRIBUTES, SET_DISK_ATTRIBUTES structure [Files], fs.set_disk_attributes, winioctl/PSET_DISK_ATTRIBUTES, winioctl/SET_DISK_ATTRIBUTES'
-f1_keywords:
-- winioctl/SET_DISK_ATTRIBUTES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- SET_DISK_ATTRIBUTES
 targetos: Windows
 req.typenames: SET_DISK_ATTRIBUTES, *PSET_DISK_ATTRIBUTES
 req.redist: 
+f1_keywords:
+ - _SET_DISK_ATTRIBUTES
+ - winioctl/_SET_DISK_ATTRIBUTES
+ - PSET_DISK_ATTRIBUTES
+ - winioctl/PSET_DISK_ATTRIBUTES
+ - SET_DISK_ATTRIBUTES
+ - winioctl/SET_DISK_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - SET_DISK_ATTRIBUTES
 ---
 
 # SET_DISK_ATTRIBUTES structure
@@ -47,31 +53,23 @@ req.redist:
 
 ## -description
 
-
 Specifies the attributes to be set on a disk device. Passed as the input buffer to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a> control 
     code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Set to <code>sizeof(GET_DISK_ATTRIBUTES)</code>.
 
-
 ### -field Persist
 
 If <b>TRUE</b>, these settings are persisted across reboots.
 
-
 ### -field Reserved1
 
  Reserved. Must be set to <b>FALSE</b> (0).
-
 
 ### -field Attributes
 
@@ -105,8 +103,6 @@ The disk is read-only.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AttributesMask
 
@@ -140,29 +136,19 @@ The read-only attribute is being changed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved2
 
 Reserved. Must be set to 0.
 
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_disk_attributes">GET_DISK_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_disk_attributes">GET_DISK_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">IOCTL_DISK_SET_DISK_ATTRIBUTES</a>

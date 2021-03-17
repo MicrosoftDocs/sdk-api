@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 title: IPhotoAcquireProgressCB::GetDeleteAfterAcquire (photoacquire.h)
 description: The GetDeleteAfterAcquire method returns a value indicating whether photos should be deleted after acquisition.
+helpviewer_keywords: ["GetDeleteAfterAcquire","GetDeleteAfterAcquire method [Picture Acquisition]","GetDeleteAfterAcquire method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","GetDeleteAfterAcquire method","IPhotoAcquireProgressCB.GetDeleteAfterAcquire","IPhotoAcquireProgressCB::GetDeleteAfterAcquire","IPhotoAcquireProgressCBGetDeleteAfterAcquire","photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire","picacq.iphotoacquireprogresscb_getdeleteafteracquire"]
 old-location: picacq\iphotoacquireprogresscb_getdeleteafteracquire.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: a9e3fb54-e152-4fbd-b745-852719aabeec
 ms.date: 12/05/2018
 ms.keywords: GetDeleteAfterAcquire, GetDeleteAfterAcquire method [Picture Acquisition], GetDeleteAfterAcquire method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],GetDeleteAfterAcquire method, IPhotoAcquireProgressCB.GetDeleteAfterAcquire, IPhotoAcquireProgressCB::GetDeleteAfterAcquire, IPhotoAcquireProgressCBGetDeleteAfterAcquire, photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire, picacq.iphotoacquireprogresscb_getdeleteafteracquire
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB.GetDeleteAfterAcquire
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB::GetDeleteAfterAcquire
+ - photoacquire/IPhotoAcquireProgressCB::GetDeleteAfterAcquire
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireProgressCB.GetDeleteAfterAcquire
 ---
 
 # IPhotoAcquireProgressCB::GetDeleteAfterAcquire
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDeleteAfterAcquire</code> method returns a value indicating whether photos should be deleted after acquisition.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfDeleteAfterAcquire [out]
 
 Pointer to a flag that, when set to <b>TRUE</b>, indicates that photos should be deleted after acquisition.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values. Any failing HRESULT other than E_NOTIMPL is fatal and will cause the transfer to abort.
 
@@ -100,18 +91,7 @@ The method is not yet implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

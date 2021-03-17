@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFContentInfo.GenerateHeader
 title: IMFASFContentInfo::GenerateHeader (wmcontainer.h)
 description: Encodes the data in the MFASFContentInfo object into a binary Advanced Systems Format (ASF) header.
+helpviewer_keywords: ["972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e","GenerateHeader","GenerateHeader method [Media Foundation]","GenerateHeader method [Media Foundation]","IMFASFContentInfo interface","IMFASFContentInfo interface [Media Foundation]","GenerateHeader method","IMFASFContentInfo.GenerateHeader","IMFASFContentInfo::GenerateHeader","mf.imfasfcontentinfo_generateheader","wmcontainer/IMFASFContentInfo::GenerateHeader"]
 old-location: mf\imfasfcontentinfo_generateheader.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e
 ms.date: 12/05/2018
 ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GenerateHeader method, IMFASFContentInfo.GenerateHeader, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
-f1_keywords:
-- wmcontainer/IMFASFContentInfo.GenerateHeader
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFContentInfo.GenerateHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFContentInfo::GenerateHeader
+ - wmcontainer/IMFASFContentInfo::GenerateHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFContentInfo.GenerateHeader
 ---
 
 # IMFASFContentInfo::GenerateHeader
@@ -49,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Encodes the data in the <b>MFASFContentInfo</b> object into a binary Advanced Systems Format (ASF) header.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pIHeader [in, out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
-          
-
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
 
 ### -param pcbHeader [out]
 
 Size of the encoded ASF header in bytes. If <i>pIHeader</i> is <b>NULL</b>, this value is set to the buffer size required to hold the encoded header.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,37 +121,21 @@ The buffer passed in <i>pIHeader</i> is not large enough to hold the ASF Header 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The size received in the <i>pcbHeader</i> parameter includes the padding size. The content information shrinks or expands the padding data depending on the size of the ASF Header Objects.
 
-During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
-
-
-
+During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
+<a href="/windows/desktop/medfound/generating-a-new-asf-header-object">Generating a New ASF Header Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-a-new-asf-header-object">Generating a New ASF Header Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>

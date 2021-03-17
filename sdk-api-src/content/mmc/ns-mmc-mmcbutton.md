@@ -2,15 +2,12 @@
 UID: NS:mmc._MMCButton
 title: MMCBUTTON (mmc.h)
 description: The MMCBUTTON structure contains values used in creating buttons on a toolbar. This structure is similar to the TBBUTTON structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.
+helpviewer_keywords: ["*LPMMCBUTTON","LPMMCBUTTON","LPMMCBUTTON structure pointer [MMC]","MMCBUTTON","MMCBUTTON structure [MMC]","TBSTATE_CHECKED","TBSTATE_ENABLED","TBSTATE_HIDDEN","TBSTATE_INDETERMINATE","TBSTATE_PRESSED","TBSTYLE_BUTTON","TBSTYLE_CHECK","TBSTYLE_CHECKGROUP","TBSTYLE_GROUP","TBSTYLE_SEP","_slate_mmcbutton","mmc.mmcbutton","mmc/LPMMCBUTTON","mmc/MMCBUTTON"]
 old-location: mmc\mmcbutton.htm
 tech.root: mmc
 ms.assetid: 340fed49-3003-4dd6-80c9-6cefc8c5b750
 ms.date: 12/05/2018
 ms.keywords: '*LPMMCBUTTON, LPMMCBUTTON, LPMMCBUTTON structure pointer [MMC], MMCBUTTON, MMCBUTTON structure [MMC], TBSTATE_CHECKED, TBSTATE_ENABLED, TBSTATE_HIDDEN, TBSTATE_INDETERMINATE, TBSTATE_PRESSED, TBSTYLE_BUTTON, TBSTYLE_CHECK, TBSTYLE_CHECKGROUP, TBSTYLE_GROUP, TBSTYLE_SEP, _slate_mmcbutton, mmc.mmcbutton, mmc/LPMMCBUTTON, mmc/MMCBUTTON'
-f1_keywords:
-- mmc/MMCBUTTON
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mmc.h
-api_name:
-- MMCBUTTON
 targetos: Windows
 req.typenames: MMCBUTTON
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MMCButton
+ - mmc/_MMCButton
+ - MMCBUTTON
+ - mmc/MMCBUTTON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mmc.h
+api_name:
+ - MMCBUTTON
 ---
 
 # MMCBUTTON structure
@@ -48,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MMCBUTTON</b> structure contains values used in creating buttons on a toolbar. This structure is similar to the <b>TBBUTTON</b> structure discussed in the Platform Software Development Kit (SDK) topics related to common controls.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nBitmap
 
 A value that specifies the zero-based index of a button image.
 
-
 ### -field idCommand
 
 A value that specifies the command identifier returned when a button is clicked. This can be any integer value the user wants. Only the low word of the <b>int</b> is used.
-
 
 ### -field fsState
 
@@ -102,7 +99,6 @@ The button appears dimmed.
 
 The button is being pressed.
 
-
 ### -field fsType
 
 A value that specifies the button style. This member can be any combination of the following values:
@@ -137,25 +133,15 @@ Creates a button that stays pressed until another button in the group is pressed
 
 Creates a separator, providing a small gap between button groups. A button that has this style does not receive user input.
 
-
 ### -field lpButtonText
 
 A pointer to the text associated with a particular instance of the 
 <b>MMCBUTTON</b> structure.
 
-
 ### -field lpTooltipText
 
 A pointer to the text for a particular tooltip.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

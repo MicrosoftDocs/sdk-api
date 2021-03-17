@@ -2,15 +2,12 @@
 UID: NF:vfw.ICDecompress
 title: ICDecompress function (vfw.h)
 description: The ICDecompress function decompresses a single video frame.
+helpviewer_keywords: ["ICDecompress","ICDecompress function [Windows Multimedia]","_win32_ICDecompress","multimedia.icdecompress","vfw/ICDecompress"]
 old-location: multimedia\icdecompress.htm
 tech.root: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
 ms.date: 12/05/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
-f1_keywords:
-- vfw/ICDecompress
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- ICDecompress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDecompress
+ - vfw/ICDecompress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - ICDecompress
 ---
 
 # ICDecompress function
@@ -48,23 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDecompress</b> function decompresses a single video frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hic
 
 Handle to the decompressor to use.
-          
-
 
 ### -param dwFlags
 
@@ -98,54 +90,31 @@ Applicable decompression flags. The following values are defined.
 <td>Screen is being updated or refreshed.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpbiFormat
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the compressed data.
 
 ### -param lpData
 
 Pointer to the input data.
-          
-
 
 ### -param lpbi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
-          
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
 
 ### -param lpBits
 
 Pointer to a buffer that is large enough to contain the decompressed data.
-          
-
 
 ## -returns
 
-
-
 Returns ICERR_OK if successful or an error otherwise.
-          
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

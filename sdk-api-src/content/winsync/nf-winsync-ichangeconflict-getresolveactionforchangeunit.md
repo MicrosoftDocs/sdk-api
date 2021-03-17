@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeConflict.GetResolveActionForChangeUnit
 title: IChangeConflict::GetResolveActionForChangeUnit (winsync.h)
 description: Gets the conflict resolution action for the conflicting change unit change.
+helpviewer_keywords: ["GetResolveActionForChangeUnit","GetResolveActionForChangeUnit method [Windows Sync]","GetResolveActionForChangeUnit method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetResolveActionForChangeUnit method","IChangeConflict.GetResolveActionForChangeUnit","IChangeConflict::GetResolveActionForChangeUnit","winsync.ichangeconflict_getresolveactionforchangeunit","winsync/IChangeConflict::GetResolveActionForChangeUnit"]
 old-location: winsync\ichangeconflict_getresolveactionforchangeunit.htm
 tech.root: winsync
 ms.assetid: 206ee654-e8a6-4b71-b933-3380dc4ed0ad
 ms.date: 12/05/2018
 ms.keywords: GetResolveActionForChangeUnit, GetResolveActionForChangeUnit method [Windows Sync], GetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChangeUnit method, IChangeConflict.GetResolveActionForChangeUnit, IChangeConflict::GetResolveActionForChangeUnit, winsync.ichangeconflict_getresolveactionforchangeunit, winsync/IChangeConflict::GetResolveActionForChangeUnit
-f1_keywords:
-- winsync/IChangeConflict.GetResolveActionForChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeConflict.GetResolveActionForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeConflict::GetResolveActionForChangeUnit
+ - winsync/IChangeConflict::GetResolveActionForChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeConflict.GetResolveActionForChangeUnit
 ---
 
 # IChangeConflict::GetResolveActionForChangeUnit
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the conflict resolution action for the conflicting change unit change.
 
-
 ## -parameters
-
-
-
 
 ### -param pChangeUnit [in]
 
 The change unit for which to retrieve the conflict resolution action.
 
-
 ### -param pResolveAction [out]
 
 The conflict resolution action that is specified for <i>pChangeUnit</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -101,22 +94,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
- 
-
- 
-
+<a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>

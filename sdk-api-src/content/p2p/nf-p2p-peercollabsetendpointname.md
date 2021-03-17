@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabSetEndpointName
 title: PeerCollabSetEndpointName function (p2p.h)
 description: Sets the name of the current endpoint used by the peer application.
+helpviewer_keywords: ["PeerCollabSetEndpointName","PeerCollabSetEndpointName function [Peer Networking]","p2p.peercollabsetendpointname","p2p/PeerCollabSetEndpointName"]
 old-location: p2p\peercollabsetendpointname.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9b8d0559-c70e-4b05-bd73-1eb3b2e8f9c8
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetEndpointName, PeerCollabSetEndpointName function [Peer Networking], p2p.peercollabsetendpointname, p2p/PeerCollabSetEndpointName
-f1_keywords:
-- p2p/PeerCollabSetEndpointName
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabSetEndpointName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabSetEndpointName
+ - p2p/PeerCollabSetEndpointName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabSetEndpointName
 ---
 
 # PeerCollabSetEndpointName function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabSetEndpointName</b> function sets the name of the current endpoint used by the peer application.
 
-
 ## -parameters
-
-
-
 
 ### -param pwzEndpointName [in]
 
 Pointer to the new name of the current endpoint, represented as a zero-terminated Unicode string. An error is raised if the new name is the same as the current one. An endpoint name is limited to 255 Unicode characters.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -107,27 +101,11 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An endpoint name is set to the machine name by default. However, a new endpoint name set by the <b>PeerCollabSetEndpointName</b> function will persist across reboots. 
-
-
-
+An endpoint name is set to the machine name by default. However, a new endpoint name set by the <b>PeerCollabSetEndpointName</b> function will persist across reboots.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

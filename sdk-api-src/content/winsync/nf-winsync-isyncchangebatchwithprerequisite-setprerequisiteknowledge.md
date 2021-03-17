@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 title: ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge (winsync.h)
 description: Sets the minimum knowledge that a destination provider is required to have to process this change batch.
+helpviewer_keywords: ["ISyncChangeBatchWithPrerequisite interface [Windows Sync]","SetPrerequisiteKnowledge method","ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge","ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge","SetPrerequisiteKnowledge","SetPrerequisiteKnowledge method [Windows Sync]","SetPrerequisiteKnowledge method [Windows Sync]","ISyncChangeBatchWithPrerequisite interface","winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge","winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge"]
 old-location: winsync\isyncchangebatchwithprerequisite_setprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: a138dbd9-e498-40bf-9490-690103afbf0f
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite interface [Windows Sync],SetPrerequisiteKnowledge method, ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge, ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge, SetPrerequisiteKnowledge, SetPrerequisiteKnowledge method [Windows Sync], SetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, winsync.isyncchangebatchwithprerequisite_setprerequisiteknowledge, winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
-f1_keywords:
-- winsync/ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
+ - winsync/ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchWithPrerequisite.SetPrerequisiteKnowledge
 ---
 
 # ISyncChangeBatchWithPrerequisite::SetPrerequisiteKnowledge
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the minimum knowledge that a destination provider is required to have to process this change batch.
 
-
 ## -parameters
-
-
-
 
 ### -param pPrerequisiteKnowledge [in]
 
 The minimum knowledge that a destination provider is required to have to process this change batch.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,22 +90,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

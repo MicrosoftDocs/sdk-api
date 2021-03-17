@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.CreateDocumentMgr
 title: ITfThreadMgr2::CreateDocumentMgr (msctf.h)
 description: Creates a document manager object.
+helpviewer_keywords: ["CreateDocumentMgr","CreateDocumentMgr method [Text Services Framework]","CreateDocumentMgr method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","CreateDocumentMgr method","ITfThreadMgr2.CreateDocumentMgr","ITfThreadMgr2::CreateDocumentMgr","msctf/ITfThreadMgr2::CreateDocumentMgr","tsf.itfthreadmgr2_createdocumentmgr"]
 old-location: tsf\itfthreadmgr2_createdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 4B19EA80-9F42-4FFF-AB3D-4D0B5B2174F8
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr2.CreateDocumentMgr, ITfThreadMgr2::CreateDocumentMgr, msctf/ITfThreadMgr2::CreateDocumentMgr, tsf.itfthreadmgr2_createdocumentmgr
-f1_keywords:
-- msctf/ITfThreadMgr2.CreateDocumentMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.CreateDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::CreateDocumentMgr
+ - msctf/ITfThreadMgr2::CreateDocumentMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.CreateDocumentMgr
 ---
 
 # ITfThreadMgr2::CreateDocumentMgr
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a document manager object.
-
 
 ## -parameters
 
-
-
-
 ### -param ppdim [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the document manager object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the document manager object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,27 +101,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must release the document manager when it is no longer required.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

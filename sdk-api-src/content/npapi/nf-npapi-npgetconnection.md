@@ -2,15 +2,12 @@
 UID: NF:npapi.NPGetConnection
 title: NPGetConnection function (npapi.h)
 description: Retrieves information about a connection.
+helpviewer_keywords: ["NPGetConnection","NPGetConnection function [Security]","_mnp_npgetconnection","npapi/NPGetConnection","security.npgetconnection"]
 old-location: security\npgetconnection.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
 ms.date: 12/05/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
-f1_keywords:
-- npapi/NPGetConnection
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPGetConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPGetConnection
+ - npapi/NPGetConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPGetConnection
 ---
 
 # NPGetConnection function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a connection.
 
-
 ## -parameters
-
-
-
 
 ### -param lpLocalName [in]
 
 Pointer to the name of the local device the caller is interested in. The network provider can assume this name is syntactically valid.
 
-
 ### -param lpRemoteName [out]
 
-Pointer to a buffer that will receive the remote name used to make the connection. This buffer is allocated by the caller. 
-
+Pointer to a buffer that will receive the remote name used to make the connection. This buffer is allocated by the caller.
 
 ### -param lpnBufferLen [in, out]
 
 Pointer to the size, in characters, of the <i>lpRemoteName</i> buffer. If the call fails because the buffer is not big enough, <i>lpBufferSize</i> is set to the required buffer size.
 
-
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which can be one of the following:
 
@@ -117,17 +109,8 @@ The network is not present.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>NPGetConnection</b> function can return information only about a network connection that is currently connected. To retrieve information about a network connection that is currently disconnected, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetconnection3">NPGetConnection3</a>.
-
-
-
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetconnection3">NPGetConnection3</a>.

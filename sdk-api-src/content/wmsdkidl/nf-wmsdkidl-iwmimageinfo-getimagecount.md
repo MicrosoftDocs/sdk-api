@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMImageInfo.GetImageCount
 title: IWMImageInfo::GetImageCount (wmsdkidl.h)
 description: The GetImageCount method retrieves the number of images stored in a file using ID3v2 &#0034;APIC&#0034; frames. Images stored in the file using attributes in the Windows Media namespace, or any images stored in custom attributes, are not included in this count.
+helpviewer_keywords: ["GetImageCount","GetImageCount method [windows Media Format]","GetImageCount method [windows Media Format]","IWMImageInfo interface","IWMImageInfo interface [windows Media Format]","GetImageCount method","IWMImageInfo.GetImageCount","IWMImageInfo::GetImageCount","IWMImageInfoGetImageCount","wmformat.iwmimageinfo_getimagecount","wmsdkidl/IWMImageInfo::GetImageCount"]
 old-location: wmformat\iwmimageinfo_getimagecount.htm
 tech.root: wmformat
 ms.assetid: 95cf5906-9cbc-4bba-8892-236672cf4068
 ms.date: 12/05/2018
 ms.keywords: GetImageCount, GetImageCount method [windows Media Format], GetImageCount method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImageCount method, IWMImageInfo.GetImageCount, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount
-f1_keywords:
-- wmsdkidl/IWMImageInfo.GetImageCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMImageInfo.GetImageCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMImageInfo::GetImageCount
+ - wmsdkidl/IWMImageInfo::GetImageCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMImageInfo.GetImageCount
 ---
 
 # IWMImageInfo::GetImageCount
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetImageCount</b> method retrieves the number of images stored in a file using ID3v2 "APIC" frames. Images stored in the file using attributes in the Windows Media namespace, or any images stored in custom attributes, are not included in this count.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcImages [out]
 
 Pointer to the number of images.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,22 +104,11 @@ One of the ID3 frames that should be in the file cannot be accessed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmimageinfo">IWMImageInfo Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimage">IWMImageInfo::GetImage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmimageinfo-getimage">IWMImageInfo::GetImage</a>

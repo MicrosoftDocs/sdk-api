@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.DeleteUser
 title: IDiskQuotaControl::DeleteUser (dskquota.h)
 description: Removes a user entry from the volume quota information file.
+helpviewer_keywords: ["DeleteUser","DeleteUser method [Files]","DeleteUser method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","DeleteUser method","IDiskQuotaControl.DeleteUser","IDiskQuotaControl::DeleteUser","_win32_idiskquotacontrol_deleteuser","base.idiskquotacontrol_deleteuser","dskquota/IDiskQuotaControl::DeleteUser","fs.idiskquotacontrol_deleteuser"]
 old-location: fs\idiskquotacontrol_deleteuser.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c7356f56-4cbb-40ed-9457-3818a3b47732
 ms.date: 12/05/2018
 ms.keywords: DeleteUser, DeleteUser method [Files], DeleteUser method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],DeleteUser method, IDiskQuotaControl.DeleteUser, IDiskQuotaControl::DeleteUser, _win32_idiskquotacontrol_deleteuser, base.idiskquotacontrol_deleteuser, dskquota/IDiskQuotaControl::DeleteUser, fs.idiskquotacontrol_deleteuser
-f1_keywords:
-- dskquota/IDiskQuotaControl.DeleteUser
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.DeleteUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::DeleteUser
+ - dskquota/IDiskQuotaControl::DeleteUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.DeleteUser
 ---
 
 # IDiskQuotaControl::DeleteUser
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a user entry from the volume quota information file, if the user's charged quota amount is zero (0) bytes.
 
-
 ## -parameters
-
-
-
 
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface of the user whose quota record is marked for deletion.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface of the user whose quota record is marked for deletion.
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -163,36 +157,20 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method does not actually remove the quota entry from the volume. It marks the entry for deletion. The NTFS file system performs the actual deletion at a later time. Following a call to <b>IDiskQuotaControl::DeleteUser</b>, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface is still active. This method does not delete the user object from memory. To release the user object, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>.
-
-
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface is still active. This method does not delete the user object from memory. To release the user object, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

@@ -2,15 +2,12 @@
 UID: NF:mmstream.IStreamSample.CompletionStatus
 title: IStreamSample::CompletionStatus (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
+helpviewer_keywords: ["CompletionStatus","CompletionStatus method [DirectShow]","CompletionStatus method [DirectShow]","IStreamSample interface","IStreamSample interface [DirectShow]","CompletionStatus method","IStreamSample.CompletionStatus","IStreamSample::CompletionStatus","IStreamSampleCompletionStatus","dshow.istreamsample_completionstatus","mmstream/IStreamSample::CompletionStatus"]
 old-location: dshow\istreamsample_completionstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.date: 12/05/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
-f1_keywords:
-- mmstream/IStreamSample.CompletionStatus
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IStreamSample.CompletionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamSample::CompletionStatus
+ - mmstream/IStreamSample::CompletionStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IStreamSample.CompletionStatus
 ---
 
 # IStreamSample::CompletionStatus
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -86,17 +80,12 @@ Value that specifies whether to forcibly complete the update. This value is a co
 <td>Forces the update to complete, even if it's currently updating. This leaves the sample data in an undefined state. Combine this value with the COMPSTAT_WAITFORCOMPLETION flag to ensure that the update canceled.</td>
 </tr>
 </table>
- 
-
 
 ### -param dwMilliseconds [in]
 
 If the <i>dwFlags</i> parameter is COMPSTAT_WAIT, this value is the number of milliseconds to wait for the update to complete. Specify INFINITE to indicate that you want to wait until the sample updates before this call returns.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -161,18 +150,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample Interface</a>

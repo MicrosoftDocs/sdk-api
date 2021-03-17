@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetConfigurationFlags
 title: IBitsPeerCacheAdministration::SetConfigurationFlags (bits3_0.h)
 description: Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
+helpviewer_keywords: ["BG_ENABLE_PEERCACHING_CLIENT","BG_ENABLE_PEERCACHING_SERVER","IBitsPeerCacheAdministration interface [BITS]","SetConfigurationFlags method","IBitsPeerCacheAdministration.SetConfigurationFlags","IBitsPeerCacheAdministration::SetConfigurationFlags","SetConfigurationFlags","SetConfigurationFlags method [BITS]","SetConfigurationFlags method [BITS]","IBitsPeerCacheAdministration interface","bits.ibitspeercacheadministration_setconfigurationflags","bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags"]
 old-location: bits\ibitspeercacheadministration_setconfigurationflags.htm
 tech.root: Bits
 ms.assetid: 1ede7c58-bc6d-4930-bca6-e4f26f97c648
 ms.date: 12/05/2018
 ms.keywords: BG_ENABLE_PEERCACHING_CLIENT, BG_ENABLE_PEERCACHING_SERVER, IBitsPeerCacheAdministration interface [BITS],SetConfigurationFlags method, IBitsPeerCacheAdministration.SetConfigurationFlags, IBitsPeerCacheAdministration::SetConfigurationFlags, SetConfigurationFlags, SetConfigurationFlags method [BITS], SetConfigurationFlags method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setconfigurationflags, bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
-f1_keywords:
-- bits3_0/IBitsPeerCacheAdministration.SetConfigurationFlags
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheAdministration.SetConfigurationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheAdministration::SetConfigurationFlags
+ - bits3_0/IBitsPeerCacheAdministration::SetConfigurationFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheAdministration.SetConfigurationFlags
 ---
 
 # IBitsPeerCacheAdministration::SetConfigurationFlags
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the configuration flags that determine if the computer can serve content to peers and can download content from peers.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -76,7 +73,7 @@ Flags that determine if the computer can serve content to peers and can download
 <td width="60%">
 The computer can download content from peers.
 
-BITS will not download files from a peer unless both the client computer and the job permit BITS to download files from a peer. To permits the job to download files from a peer, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method and set the BG_JOB_ENABLE_PEERCACHING_CLIENT flag.
+BITS will not download files from a peer unless both the client computer and the job permit BITS to download files from a peer. To permits the job to download files from a peer, call the <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method and set the BG_JOB_ENABLE_PEERCACHING_CLIENT flag.
 
 Note that changing this value can affect all jobs on the computer. If one of the following conditions exists, BITS will stop the download and reschedule the job to begin transferring from either a peer or the origin server, depending on the value for the job and the cache:<ul>
 <li>This value for the cache is <b>TRUE</b> and the value for the job toggles between <b>TRUE</b> and <b>FALSE</b>.</li>
@@ -94,17 +91,13 @@ Note that changing this value can affect all jobs on the computer. If one of the
 <td width="60%">
 The computer can serve content to peers.
 
-BITS will not cache the files and serve them to peers unless both the client computer and job permit BITS to cache and serve files. To permit the job to cache files for a job, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method and set the BG_JOB_ENABLE_PEERCACHING_SERVER flag.
+BITS will not cache the files and serve them to peers unless both the client computer and job permit BITS to cache and serve files. To permit the job to cache files for a job, call the <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method and set the BG_JOB_ENABLE_PEERCACHING_SERVER flag.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -138,37 +131,21 @@ The method returns this value if the value set is different from the group polic
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This value is used only if the EnablePeerCaching group policy is not set.
 
-A job determines if it downloads content from a peer or serves its content to peers. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method.
-
-
-
+A job determines if it downloads content from a peer or serves its content to peers. For details, see the <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags">IBackgroundCopyJob4::SetPeerCachingFlags</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getconfigurationflags">IBitsPeerCacheAdministration::GetConfigurationFlags</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getconfigurationflags">IBitsPeerCacheAdministration::GetConfigurationFlags</a>

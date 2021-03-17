@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamPrevKeyFrameTime
 title: AVIStreamPrevKeyFrameTime macro (vfw.h)
 description: The AVIStreamPrevKeyFrameTime macro returns the time of the previous key frame in the stream, starting at a given time.
+helpviewer_keywords: ["AVIStreamPrevKeyFrameTime","AVIStreamPrevKeyFrameTime macro [Windows Multimedia]","_win32_AVIStreamPrevKeyFrameTime","multimedia.avistreamprevkeyframetime","vfw/AVIStreamPrevKeyFrameTime"]
 old-location: multimedia\avistreamprevkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 0da49be2-b017-4d41-b9da-3c1310fa0289
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevKeyFrameTime, AVIStreamPrevKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrameTime, multimedia.avistreamprevkeyframetime, vfw/AVIStreamPrevKeyFrameTime
-f1_keywords:
-- vfw/AVIStreamPrevKeyFrameTime
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamPrevKeyFrameTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamPrevKeyFrameTime
+ - vfw/AVIStreamPrevKeyFrameTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamPrevKeyFrameTime
 ---
 
 # AVIStreamPrevKeyFrameTime macro
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamPrevKeyFrameTime</b> macro returns the time of the previous key frame in the stream, starting at a given time.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pavi
 
-Handle to an open stream. 
-
+Handle to an open stream.
 
 ### -param t
 
-Position in the stream to begin searching. 
-
+Position in the stream to begin searching.
 
 ## -remarks
-
-
 
 The search performed by this macro includes the frame that corresponds to the specified time.
 
@@ -87,21 +77,10 @@ The <b>AVIStreamPrevKeyFrameTime</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>

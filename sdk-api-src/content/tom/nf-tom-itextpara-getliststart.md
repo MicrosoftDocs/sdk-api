@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetListStart
 title: ITextPara::GetListStart (tom.h)
 description: Retrieves the starting value or code of a list numbering sequence.
+helpviewer_keywords: ["GetListStart","GetListStart method [Windows Controls]","GetListStart method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetListStart method","ITextPara.GetListStart","ITextPara::GetListStart","_win32_ITextPara_GetListStart","_win32_ITextPara_GetListStart_cpp","controls.ITextPara_GetListStart","controls._win32_ITextPara_GetListStart","tom/ITextPara::GetListStart"]
 old-location: controls\ITextPara_GetListStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getliststart.htm
 ms.date: 12/05/2018
 ms.keywords: GetListStart, GetListStart method [Windows Controls], GetListStart method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListStart method, ITextPara.GetListStart, ITextPara::GetListStart, _win32_ITextPara_GetListStart, _win32_ITextPara_GetListStart_cpp, controls.ITextPara_GetListStart, controls._win32_ITextPara_GetListStart, tom/ITextPara::GetListStart
-f1_keywords:
-- tom/ITextPara.GetListStart
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetListStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetListStart
+ - tom/ITextPara::GetListStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetListStart
 ---
 
 # ITextPara::GetListStart
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the starting value or code of a list numbering sequence. 
-
+Retrieves the starting value or code of a list numbering sequence.
 
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>long*</b>
 
-The starting value or code of a list numbering sequence. For the possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method. 
-
+The starting value or code of a list numbering sequence. For the possible values, see the <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetListStart</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,34 +105,22 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a discussion on which sequence to use, see the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method.
-
-
-
+For a discussion on which sequence to use, see the <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">ITextPara::GetListType</a> method.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">GetListType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttype">GetListType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -146,16 +128,12 @@ For a discussion on which sequence to use, see the <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

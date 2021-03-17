@@ -2,15 +2,12 @@
 UID: NF:winhttp.WinHttpGetProxyResult
 title: WinHttpGetProxyResult function (winhttp.h)
 description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.
+helpviewer_keywords: ["WinHttpGetProxyResult","WinHttpGetProxyResult function [WinHTTP]","http.winhttpgetproxyresult","winhttp/WinHttpGetProxyResult"]
 old-location: http\winhttpgetproxyresult.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: f594e588-b3da-4afb-a5f9-552759bca148
 ms.date: 12/05/2018
 ms.keywords: WinHttpGetProxyResult, WinHttpGetProxyResult function [WinHTTP], http.winhttpgetproxyresult, winhttp/WinHttpGetProxyResult
-f1_keywords:
-- winhttp/WinHttpGetProxyResult
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpGetProxyResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpGetProxyResult
+ - winhttp/WinHttpGetProxyResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpGetProxyResult
 ---
 
 # WinHttpGetProxyResult function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>WinHttpGetProxyResult</b> function retrieves the results of a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
-
+The <b>WinHttpGetProxyResult</b> function retrieves the results of a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
 ## -parameters
 
-
-
-
 ### -param hResolver [in]
 
-The resolver handle used to issue a previously completed call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
-
+The resolver handle used to issue a previously completed call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
 ### -param pProxyResult [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure that contains the results of a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.  The results must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>.
-
+A pointer to a <a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_proxy_result">WINHTTP_PROXY_RESULT</a> structure that contains the results of a previous call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.  The results must be freed by calling <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>.
 
 ## -returns
-
-
 
 A status code indicating the result of the operation.
 
@@ -96,12 +89,8 @@ The type of handle supplied is incorrect for this operation.
 </dl>
 </td>
 <td width="60%">
-The resolver handle has not successfully completed a call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
+The resolver handle has not successfully completed a call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-

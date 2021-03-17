@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo2.SetFuncHelpStringContext
 title: ICreateTypeInfo2::SetFuncHelpStringContext (oaidl.h)
 description: Sets a Help context value for a specified function.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetFuncHelpStringContext method","ICreateTypeInfo2.SetFuncHelpStringContext","ICreateTypeInfo2::SetFuncHelpStringContext","SetFuncHelpStringContext","SetFuncHelpStringContext method [Automation]","SetFuncHelpStringContext method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetFuncHelpStringContext","automat.icreatetypeinfo2_setfunchelpstringcontext","oaidl/ICreateTypeInfo2::SetFuncHelpStringContext"]
 old-location: automat\icreatetypeinfo2_setfunchelpstringcontext.htm
 tech.root: automat
 ms.assetid: ee0fad66-632e-48f7-bd38-b17c82be555b
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncHelpStringContext method, ICreateTypeInfo2.SetFuncHelpStringContext, ICreateTypeInfo2::SetFuncHelpStringContext, SetFuncHelpStringContext, SetFuncHelpStringContext method [Automation], SetFuncHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncHelpStringContext, automat.icreatetypeinfo2_setfunchelpstringcontext, oaidl/ICreateTypeInfo2::SetFuncHelpStringContext
-f1_keywords:
-- oaidl/ICreateTypeInfo2.SetFuncHelpStringContext
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.SetFuncHelpStringContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::SetFuncHelpStringContext
+ - oaidl/ICreateTypeInfo2::SetFuncHelpStringContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.SetFuncHelpStringContext
 ---
 
 # ICreateTypeInfo2::SetFuncHelpStringContext
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a Help context value for a specified function.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the function for which to set the help string context.
 
-
-
-
 ### -param dwHelpStringContext [in]
 
 The Help string context for a localized string.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

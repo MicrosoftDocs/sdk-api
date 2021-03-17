@@ -2,15 +2,12 @@
 UID: NF:msacm.acmStreamReset
 title: acmStreamReset function (msacm.h)
 description: The acmStreamReset function stops conversions for a given ACM stream. All pending buffers are marked as done and returned to the application.
+helpviewer_keywords: ["_win32_acmStreamReset","acmStreamReset","acmStreamReset function [Windows Multimedia]","msacm/acmStreamReset","multimedia.acmstreamreset"]
 old-location: multimedia\acmstreamreset.htm
 tech.root: Multimedia
 ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset
-f1_keywords:
-- msacm/acmStreamReset
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmStreamReset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmStreamReset
+ - msacm/acmStreamReset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmStreamReset
 ---
 
 # acmStreamReset function
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmStreamReset</b> function stops conversions for a given ACM stream. All pending buffers are marked as done and returned to the application.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param has
 
 Handle to the conversion stream.
 
-
 ### -param fdwReset
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -105,31 +95,15 @@ The specified handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Resetting an ACM conversion stream is necessary only for asynchronous conversion streams. Resetting a synchronous conversion stream will succeed, but no action will be taken.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

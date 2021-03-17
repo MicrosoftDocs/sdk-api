@@ -2,15 +2,12 @@
 UID: NF:comcat.ICatRegister.UnRegisterClassImplCategories
 title: ICatRegister::UnRegisterClassImplCategories (comcat.h)
 description: Removes one or more implemented category identifiers from a class.
+helpviewer_keywords: ["ICatRegister interface [COM]","UnRegisterClassImplCategories method","ICatRegister.UnRegisterClassImplCategories","ICatRegister::UnRegisterClassImplCategories","UnRegisterClassImplCategories","UnRegisterClassImplCategories method [COM]","UnRegisterClassImplCategories method [COM]","ICatRegister interface","_com_icatregister_unregisterclassimplcategories","com.icatregister_unregisterclassimplcategories","comcat/ICatRegister::UnRegisterClassImplCategories"]
 old-location: com\icatregister_unregisterclassimplcategories.htm
 tech.root: com
 ms.assetid: 4a227fd1-6cbc-4354-a3e2-04aceb73ab65
 ms.date: 12/05/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, ICatRegister.UnRegisterClassImplCategories, ICatRegister::UnRegisterClassImplCategories, UnRegisterClassImplCategories, UnRegisterClassImplCategories method [COM], UnRegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassimplcategories, com.icatregister_unregisterclassimplcategories, comcat/ICatRegister::UnRegisterClassImplCategories
-f1_keywords:
-- comcat/ICatRegister.UnRegisterClassImplCategories
-dev_langs:
-- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComCat.h
-api_name:
-- ICatRegister.UnRegisterClassImplCategories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatRegister::UnRegisterClassImplCategories
+ - comcat/ICatRegister::UnRegisterClassImplCategories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComCat.h
+api_name:
+ - ICatRegister.UnRegisterClassImplCategories
 ---
 
 # ICatRegister::UnRegisterClassImplCategories
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes one or more implemented category identifiers from a class.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 The class identifier.
 
-
 ### -param cCategories [in]
 
 The number of category CATIDs to be removed.
-
 
 ### -param rgcatid [in]
 
 An array of CATIDs that are to be removed. Only the category IDs specified in this array are removed.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -106,27 +98,11 @@ One or more arguments are incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In case of an error, this method does not ensure that the registry is restored to the state prior to the call. This method will be successful even if one or more of the category IDs specified are not registered for the class. This method can only be called by the owner of a class, usually as part of the de-installation of the component.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

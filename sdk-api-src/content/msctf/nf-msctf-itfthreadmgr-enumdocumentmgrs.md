@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
 title: ITfThreadMgr::EnumDocumentMgrs (msctf.h)
 description: ITfThreadMgr::EnumDocumentMgrs method
+helpviewer_keywords: ["EnumDocumentMgrs","EnumDocumentMgrs method [Text Services Framework]","EnumDocumentMgrs method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","EnumDocumentMgrs method","ITfThreadMgr.EnumDocumentMgrs","ITfThreadMgr::EnumDocumentMgrs","_tsf_itfthreadmgr_enumdocumentmgrs_ref","msctf/ITfThreadMgr::EnumDocumentMgrs","tsf.itfthreadmgr_enumdocumentmgrs"]
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
 tech.root: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
-f1_keywords:
-- msctf/ITfThreadMgr.EnumDocumentMgrs
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.EnumDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::EnumDocumentMgrs
+ - msctf/ITfThreadMgr::EnumDocumentMgrs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.EnumDocumentMgrs
 ---
 
 # ITfThreadMgr::EnumDocumentMgrs
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Returns an enumerator for all the document managers within the calling thread.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface that receives the enumerator.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs</a> interface that receives the enumerator.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,32 +112,16 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must release the enumerator when it is no longer required.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfdocumentmgrs">IEnumTfDocumentMgrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>

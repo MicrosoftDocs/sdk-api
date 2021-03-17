@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPAT.GetRecordProgramNumber
 title: IPAT::GetRecordProgramNumber (mpeg2psiparser.h)
 description: The GetRecordProgramNumber method retrieves a program number from the PAT.
+helpviewer_keywords: ["GetRecordProgramNumber","GetRecordProgramNumber method [Microsoft TV Technologies]","GetRecordProgramNumber method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetRecordProgramNumber method","IPAT.GetRecordProgramNumber","IPAT::GetRecordProgramNumber","IPATGetRecordProgramNumber","mpeg2psiparser/IPAT::GetRecordProgramNumber","mstv.ipat_getrecordprogramnumber"]
 old-location: mstv\ipat_getrecordprogramnumber.htm
 tech.root: mstv
 ms.assetid: 24a79c42-aebb-4c31-af86-508c5de3b7a3
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IPAT.GetRecordProgramNumber, IPAT::GetRecordProgramNumber, IPATGetRecordProgramNumber, mpeg2psiparser/IPAT::GetRecordProgramNumber, mstv.ipat_getrecordprogramnumber
-f1_keywords:
-- mpeg2psiparser/IPAT.GetRecordProgramNumber
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPAT.GetRecordProgramNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPAT::GetRecordProgramNumber
+ - mpeg2psiparser/IPAT::GetRecordProgramNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPAT.GetRecordProgramNumber
 ---
 
 # IPAT::GetRecordProgramNumber
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetRecordProgramNumber</b> method retrieves a program number from the PAT.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex [in]
 
-Specifies the record to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getcountofrecords">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
-
+Specifies the record to retrieve, indexed from zero. Call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getcountofrecords">IPAT::GetCountOfRecords</a> method to get the number of records in the PAT.
 
 ### -param pwVal [out]
 
 Receives the program number.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -115,18 +105,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>

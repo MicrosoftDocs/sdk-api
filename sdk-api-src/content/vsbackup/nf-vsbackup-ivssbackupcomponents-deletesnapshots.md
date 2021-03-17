@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.DeleteSnapshots
 title: IVssBackupComponents::DeleteSnapshots (vsbackup.h)
 description: The DeleteSnapshots method deletes one or more shadow copies or a shadow copy set.
+helpviewer_keywords: ["DeleteSnapshots","DeleteSnapshots method [VSS]","DeleteSnapshots method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","DeleteSnapshots method","IVssBackupComponents.DeleteSnapshots","IVssBackupComponents::DeleteSnapshots","_win32_ivssbackupcomponents_deletesnapshots","base.ivssbackupcomponents_deletesnapshots","vsbackup/IVssBackupComponents::DeleteSnapshots"]
 old-location: base\ivssbackupcomponents_deletesnapshots.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2e06f69e-8210-4773-8080-5c58e6f59792
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DeleteSnapshots method, IVssBackupComponents.DeleteSnapshots, IVssBackupComponents::DeleteSnapshots, _win32_ivssbackupcomponents_deletesnapshots, base.ivssbackupcomponents_deletesnapshots, vsbackup/IVssBackupComponents::DeleteSnapshots
-f1_keywords:
-- vsbackup/IVssBackupComponents.DeleteSnapshots
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.DeleteSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::DeleteSnapshots
+ - vsbackup/IVssBackupComponents::DeleteSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.DeleteSnapshots
 ---
 
 # IVssBackupComponents::DeleteSnapshots
@@ -49,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeleteSnapshots</b> method deletes 
     one or more shadow copies or a shadow copy set.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param SourceObjectId [in]
 
 Identifier of the shadow copy or a shadow copy set to be deleted.
 
-
 ### -param eSourceObjectType [in]
 
 Type of the object on which all shadow copies will be deleted. The value of this parameter is
       <b>VSS_OBJECT_SNAPSHOT</b> or <b>VSS_OBJECT_SNAPSHOT_SET</b>.
-     
-
 
 ### -param bForceDelete [in]
 
 If the value of this parameter is <b>TRUE</b>, the provider will do everything possible to delete the shadow copy or 
       shadow copies in a shadow copy set. If it is <b>FALSE</b>, no additional effort will be made.
-     
-
 
 ### -param plDeletedSnapshots [out]
 
 Number of deleted shadow copies.
 
-
 ### -param pNondeletedSnapshotID [out]
 
 If an error occurs, the value of this parameter is the identifier of the first shadow copy that could not be 
       deleted. Otherwise, it is <b>GUID_NULL</b>.
-     
-
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -154,7 +140,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -179,7 +165,7 @@ The specified shadow copy does not exist.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -192,54 +178,37 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Multiple shadow copies in a shadow copy set are deleted sequentially. If an error occurs during one of these 
     individual deletions, 
     <b>DeleteSnapshots</b> will return
     immediately; no attempt will be made to delete any remaining shadow copies. The 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> of the undeleted shadow copy is 
+    <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> of the undeleted shadow copy is 
     returned in <i>pNondeletedSnapshotID</i>.
    
 
 The requester is responsible for serializing the delete shadow copy operation.
 
 During a backup, shadow copies are automatically released as soon as the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> instance is released. In this 
+    <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> instance is released. In this 
     case, it is not necessary to explicitly delete shadow copies.
-   
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
- 
-
- 
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>

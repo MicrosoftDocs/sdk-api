@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IDockProvider.get_DockPosition
 title: IDockProvider::get_DockPosition (uiautomationcore.h)
 description: Indicates the current docking position of this element.
+helpviewer_keywords: ["DockPosition property [Windows Accessibility]","DockPosition property [Windows Accessibility]","IDockProvider interface","IDockProvider interface [Windows Accessibility]","DockPosition property","IDockProvider.DockPosition","IDockProvider.get_DockPosition","IDockProvider::DockPosition","IDockProvider::get_DockPosition","get_DockPosition","uiauto.uiauto_IDockProvider_DockPosition","uiauto_IDockProvider_DockPosition","uiautomationcore/IDockProvider::DockPosition","uiautomationcore/IDockProvider::get_DockPosition","winauto.uiauto_IDockProvider_DockPosition"]
 old-location: winauto\uiauto_IDockProvider_DockPosition.htm
 tech.root: WinAuto
 ms.assetid: aa170dec-a4e1-48ac-8434-a24b79006653
 ms.date: 12/05/2018
 ms.keywords: DockPosition property [Windows Accessibility], DockPosition property [Windows Accessibility],IDockProvider interface, IDockProvider interface [Windows Accessibility],DockPosition property, IDockProvider.DockPosition, IDockProvider.get_DockPosition, IDockProvider::DockPosition, IDockProvider::get_DockPosition, get_DockPosition, uiauto.uiauto_IDockProvider_DockPosition, uiauto_IDockProvider_DockPosition, uiautomationcore/IDockProvider::DockPosition, uiautomationcore/IDockProvider::get_DockPosition, winauto.uiauto_IDockProvider_DockPosition
-f1_keywords:
-- uiautomationcore/IDockProvider.DockPosition
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiautomationcore.dll
-api_name:
-- IDockProvider.DockPosition
-- IDockProvider.get_DockPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDockProvider::get_DockPosition
+ - uiautomationcore/IDockProvider::get_DockPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiautomationcore.dll
+api_name:
+ - IDockProvider.DockPosition
+ - IDockProvider.get_DockPosition
 ---
 
 # IDockProvider::get_DockPosition
@@ -49,19 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the current docking position of this element.
 				
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 A docking container is a control that allows the arrangement of child elements, both horizontally and vertically, relative to the boundaries of the docking container and other elements in the container.
 
@@ -88,21 +85,10 @@ The following example shows how to return the DockPosition property.
             
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idockprovider">IDockProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

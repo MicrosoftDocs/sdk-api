@@ -2,15 +2,12 @@
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.SaveToXML
 title: IXMLGraphBuilder::SaveToXML (amxmlgraphbuilder.h)
 description: The SaveToXML method saves a filter graph to an XML element.
+helpviewer_keywords: ["IXMLGraphBuilder interface [DirectShow]","SaveToXML method","IXMLGraphBuilder.SaveToXML","IXMLGraphBuilder::SaveToXML","IXMLGraphBuilderSaveToXML","SaveToXML","SaveToXML method [DirectShow]","SaveToXML method [DirectShow]","IXMLGraphBuilder interface","amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML","dshow.ixmlgraphbuilder_savetoxml"]
 old-location: dshow\ixmlgraphbuilder_savetoxml.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
 ms.date: 12/05/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
-f1_keywords:
-- amxmlgraphbuilder/IXMLGraphBuilder.SaveToXML
-dev_langs:
-- c++
 req.header: amxmlgraphbuilder.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amxmlgraphbuilder.h
-api_name:
-- IXMLGraphBuilder.SaveToXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXMLGraphBuilder::SaveToXML
+ - amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amxmlgraphbuilder.h
+api_name:
+ - IXMLGraphBuilder.SaveToXML
 ---
 
 # IXMLGraphBuilder::SaveToXML
 
 
 ## -description
-
-
 
 The <b>SaveToXML</b> method saves a filter graph to an XML element.
 
@@ -57,39 +57,22 @@ The <b>SaveToXML</b> method saves a filter graph to an XML element.
 
 ## -parameters
 
-
-
-
 ### -param pGraph [in]
 
-Pointer to the Filter Graph Manager's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface.
-
+Pointer to the Filter Graph Manager's <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface.
 
 ### -param pbstrxml [out]
 
 Pointer to a <b>BSTR</b> that receives the XML element. The caller must release the string by calling <b>SysFreeString</b>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder">IXMLGraphBuilder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder">IXMLGraphBuilder Interface</a>

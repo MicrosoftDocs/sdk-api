@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.RealDriveType
 title: RealDriveType function (shlobj_core.h)
 description: RealDriveType may be altered or unavailable.
+helpviewer_keywords: ["RealDriveType","RealDriveType function [Windows Shell]","_win32_RealDriveType","shell.RealDriveType","shlobj_core/RealDriveType"]
 old-location: shell\RealDriveType.htm
 tech.root: shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c
 ms.date: 12/05/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
-f1_keywords:
-- shlobj_core/RealDriveType
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- RealDriveType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RealDriveType
+ - shlobj_core/RealDriveType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - RealDriveType
 ---
 
 # RealDriveType function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>RealDriveType</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Determines the drive type based on the drive number.
 
-
 ## -parameters
-
-
-
 
 ### -param iDrive [in]
 
@@ -65,17 +62,13 @@ Type: <b>int</b>
 
 The number of the drive that you want to test. "A:" corresponds to 0, "B:" to 1, and so on.
 
-
 ### -param fOKToHitNet [in]
 
 Type: <b>BOOL</b>
 
 Reserved. Must be set to 0.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -164,22 +157,11 @@ The drive is a RAM disk.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shlobj/nf-shlobj-drivetype">DriveType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-drivetype">DriveType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>

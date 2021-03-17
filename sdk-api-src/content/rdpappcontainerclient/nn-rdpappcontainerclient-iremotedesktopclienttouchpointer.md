@@ -2,15 +2,12 @@
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientTouchPointer
 title: IRemoteDesktopClientTouchPointer (rdpappcontainerclient.h)
 description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
+helpviewer_keywords: ["IRemoteDesktopClientTouchPointer","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","described","rdpappcontainerclient/IRemoteDesktopClientTouchPointer","termserv.iremotedesktopclienttouchpointer"]
 old-location: termserv\iremotedesktopclienttouchpointer.htm
 tech.root: TermServ
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClientTouchPointer
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClientTouchPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClientTouchPointer
+ - rdpappcontainerclient/IRemoteDesktopClientTouchPointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClientTouchPointer
 ---
 
 # IRemoteDesktopClientTouchPointer interface
 
 
 ## -description
-
-
 
 Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 
@@ -57,7 +57,7 @@ Provides the properties needed to control the touch pointer feature of the Remot
 The touch pointer feature allows the Remote Desktop Protocol (RDP) app container client control to translate touch screen actions on the 
     client into equivalent mouse actions in the remote session. This feature is useful when the remote session is 
     running an operating system or application that is not optimized for touch screen. When the 
-    <a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclienttouchpointer-enabled">Enabled</a> property is set, the 
+    <a href="/windows/desktop/TermServ/iremotedesktopclienttouchpointer-enabled">Enabled</a> property is set, the 
     RDP app container client control will interpret certain touch gestures and translate them into mouse events in the 
     remote session. These translations make it easier for the user to simulate certain mouse actions that do not 
     readily translate to touch screen gestures, such as right-click and drag.
@@ -118,16 +118,8 @@ Right button click and hold
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>

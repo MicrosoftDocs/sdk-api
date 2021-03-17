@@ -2,15 +2,12 @@
 UID: NF:winbase.GetTapeParameters
 title: GetTapeParameters function (winbase.h)
 description: Retrieves information that describes the tape or the tape drive.
+helpviewer_keywords: ["GET_TAPE_DRIVE_INFORMATION","GET_TAPE_MEDIA_INFORMATION","GetTapeParameters","GetTapeParameters function [Backup]","_win32_gettapeparameters","backup.gettapeparameters","base.gettapeparameters","winbase/GetTapeParameters"]
 old-location: backup\gettapeparameters.htm
 tech.root: Backup
 ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d
 ms.date: 12/05/2018
 ms.keywords: GET_TAPE_DRIVE_INFORMATION, GET_TAPE_MEDIA_INFORMATION, GetTapeParameters, GetTapeParameters function [Backup], _win32_gettapeparameters, backup.gettapeparameters, base.gettapeparameters, winbase/GetTapeParameters
-f1_keywords:
-- winbase/GetTapeParameters
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetTapeParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTapeParameters
+ - winbase/GetTapeParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetTapeParameters
 ---
 
 # GetTapeParameters function
@@ -56,21 +58,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTapeParameters</b> function retrieves information that describes the tape or the tape drive.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device about which information is sought. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwOperation [in]
 
@@ -104,26 +100,20 @@ Retrieves information about the tape in the tape device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwSize [out]
 
 Pointer to a variable that receives the size, in bytes, of the buffer specified by the <i>lpTapeInformation</i> parameter. If the buffer is too small, this parameter receives the required size.
 
-
 ### -param lpTapeInformation [out]
 
 Pointer to a structure that contains the requested information. If the <i>dwOperation</i> parameter is <b>GET_TAPE_MEDIA_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a> structure.
 
 If <i>dwOperation</i> is <b>GET_TAPE_DRIVE_INFORMATION</b>, <i>lpTapeInformation</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a> structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -315,41 +305,24 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The block size range values (maximum and minimum) returned by the 
 <b>GetTapeParameters</b> function called with the <i>dwOperation</i> parameter set to the <b>GET_TAPE_DRIVE_INFORMATION</b> value will indicate system limits, not drive limits. However, it is the tape drive device and the media present in the drive that determine the true block size limits. Thus, an application may not be able to set all the block sizes mentioned in the range obtained by specifying <b>GET_TAPE_DRIVE_INFORMATION</b> in <i>dwOperation</i>.
-   
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_drive_parameters">TAPE_GET_DRIVE_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-tape_get_media_parameters">TAPE_GET_MEDIA_PARAMETERS</a>

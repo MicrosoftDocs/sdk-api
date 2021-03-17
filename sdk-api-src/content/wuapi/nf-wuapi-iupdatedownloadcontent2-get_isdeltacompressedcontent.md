@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateDownloadContent2.get_IsDeltaCompressedContent
 title: IUpdateDownloadContent2::get_IsDeltaCompressedContent (wuapi.h)
 description: Gets a Boolean value that indicates whether an update is a binary update or a full-file update.
+helpviewer_keywords: ["IUpdateDownloadContent2 interface [Windows Update Agent]","IsDeltaCompressedContent property","IUpdateDownloadContent2.IsDeltaCompressedContent","IUpdateDownloadContent2.get_IsDeltaCompressedContent","IUpdateDownloadContent2::IsDeltaCompressedContent","IUpdateDownloadContent2::get_IsDeltaCompressedContent","IsDeltaCompressedContent property [Windows Update Agent]","IsDeltaCompressedContent property [Windows Update Agent]","IUpdateDownloadContent2 interface","get_IsDeltaCompressedContent","wua.iupdatedownloadcontent2_isdeltacompressedcontent","wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent","wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent"]
 old-location: wua\iupdatedownloadcontent2_isdeltacompressedcontent.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 1140051f-c2cd-4fe1-b7fd-aa21bbcd7889
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContent2 interface [Windows Update Agent],IsDeltaCompressedContent property, IUpdateDownloadContent2.IsDeltaCompressedContent, IUpdateDownloadContent2.get_IsDeltaCompressedContent, IUpdateDownloadContent2::IsDeltaCompressedContent, IUpdateDownloadContent2::get_IsDeltaCompressedContent, IsDeltaCompressedContent property [Windows Update Agent], IsDeltaCompressedContent property [Windows Update Agent],IUpdateDownloadContent2 interface, get_IsDeltaCompressedContent, wua.iupdatedownloadcontent2_isdeltacompressedcontent, wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent, wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
-f1_keywords:
-- wuapi/IUpdateDownloadContent2.IsDeltaCompressedContent
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloadContent2.IsDeltaCompressedContent
-- IUpdateDownloadContent2.get_IsDeltaCompressedContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloadContent2::get_IsDeltaCompressedContent
+ - wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloadContent2.IsDeltaCompressedContent
+ - IUpdateDownloadContent2.get_IsDeltaCompressedContent
 ---
 
 # IUpdateDownloadContent2::get_IsDeltaCompressedContent
@@ -49,31 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether an update is a binary update or a full-file update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
-
-
-
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>

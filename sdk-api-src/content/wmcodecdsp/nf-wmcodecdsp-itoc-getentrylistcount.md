@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IToc.GetEntryListCount
 title: IToc::GetEntryListCount (wmcodecdsp.h)
 description: The GetEntryListCount method retrieves the number of entry lists in the table of contents.
+helpviewer_keywords: ["GetEntryListCount","GetEntryListCount method [Media Foundation]","GetEntryListCount method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetEntryListCount method","IToc.GetEntryListCount","IToc::GetEntryListCount","codecapi.itoc_getentrylistcount","mf.itoc_getentrylistcount","wmcodecdsp/IToc::GetEntryListCount"]
 old-location: mf\itoc_getentrylistcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 38348080-e188-4d58-8d46-dc954da398e6
 ms.date: 12/05/2018
 ms.keywords: GetEntryListCount, GetEntryListCount method [Media Foundation], GetEntryListCount method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetEntryListCount method, IToc.GetEntryListCount, IToc::GetEntryListCount, codecapi.itoc_getentrylistcount, mf.itoc_getentrylistcount, wmcodecdsp/IToc::GetEntryListCount
-f1_keywords:
-- wmcodecdsp/IToc.GetEntryListCount
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- IToc.GetEntryListCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToc::GetEntryListCount
+ - wmcodecdsp/IToc::GetEntryListCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - IToc.GetEntryListCount
 ---
 
 # IToc::GetEntryListCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetEntryListCount</b> method retrieves the number of entry lists in the table of contents.
 
-
 ## -parameters
-
-
-
 
 ### -param pwCount
 
 Pointer to a <b>WORD</b> that receives the number of entry lists.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,22 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/ee264285(v=vs.85)">GetEntryListByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264285(v=vs.85)">GetEntryListByIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

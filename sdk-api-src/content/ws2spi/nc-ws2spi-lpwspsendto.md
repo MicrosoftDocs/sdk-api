@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPSENDTO
 title: LPWSPSENDTO
 description: The WSPSendTo function sends data to a specific destination using overlapped I/O.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPSENDTO"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPSENDTO
 targetos: Windows
@@ -25,54 +27,72 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPSENDTO
+ - LPWSPSENDTO
+f1_keywords:
+ - LPWSPSENDTO
+ - ws2spi/LPWSPSENDTO
 ---
 
 ## -description
+
 The **LPWSPSendTo** function sends data to a specific destination using overlapped I/O.
 
 ## -parameters
 
 ### -param s [in]
+
 A descriptor identifying a socket.
 
 ### -param lpBuffers [in]
+
 A pointer to an array of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes. For a Winsock application, once the **LPWSPSendTo** function is called, the system owns these buffers and the application may not access them. Data buffers referenced in each WSABUF structure are owned by the system and your application may not access them for the lifetime of the call.
 
 ### -param dwBufferCount [in]
+
 The number of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 ### -param lpNumberOfBytesSent [out]
+
 A pointer to the number of bytes sent by this call.
 
 ### -param dwFlags [in]
+
 A set of flags that specifies the way in which the call is made.
 
 ### -param lpTo [in]
+
 An optional pointer to the address of the target socket in the <b><a href="/windows/win32/winsock/sockaddr-2">sockaddr</a></b> structure.
 
 ### -param iTolen [in]
+
 The size, in bytes, of the address pointed to by the <i>lpTo</i> parameter.
 
 ### -param lpOverlapped [in]
+
 A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for nonoverlapped sockets).
 
 ### -param lpCompletionRoutine [in]
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the send operation has been completed (ignored for nonoverlapped sockets).
 
 ### -param lpThreadId [in]
+
 A pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [out]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs and the receive operation has completed immediately, **LPWSPSendTo** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code [WSA_IO_PENDING](/windows/win32/winsock/windows-sockets-error-codes-2#wsa-io-pending) indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operation was initiated and no completion indication will occur.
 
 <table>
@@ -312,9 +332,10 @@ Overlapped operation has been canceled due to the closure of the socket, or the 
 </td>
 </tr>
 </table>
-                                             
+
 ## -remarks
-The **LPWSPSendTo** function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [**connect**](connect-2.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the **LPWSPSendTo** function is equivalent to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
+
+The **LPWSPSendTo** function is normally used on a connectionless socket specified by <i>s</i> to send a datagram contained in one or more buffers to a specific peer socket identified by the <i>lpTo</i> parameter. Even if the connectionless socket has been previously connected to a specific address with the [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) function, <i>lpTo</i> overrides the destination address for that particular datagram only. On a connection-oriented socket, the <i>lpTo</i> and <i>iToLen</i> parameters are ignored; in this case the **LPWSPSendTo** function is equivalent to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWSPSend</a></b>.
 
 For overlapped sockets (created using **LPWSPSocket** with flag WSA_FLAG_OVERLAPPED) this will occur using overlapped I/O, unless both <i>lpOverlapped</i> and <i>lpCompletionRoutine</i> are **NULL** in which case the socket is treated as a nonoverlapped socket. A completion indication will occur (invocation of the completion routine or setting of an event object) when the supplied buffer(s) have been consumed by the transport. If the operation does not complete immediately, the final completion status is retrieved through the completion routine or <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">LPWSPGetOverlappedResult</a>.
 

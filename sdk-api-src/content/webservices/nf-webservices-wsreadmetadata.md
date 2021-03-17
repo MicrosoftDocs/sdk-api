@@ -2,15 +2,12 @@
 UID: NF:webservices.WsReadMetadata
 title: WsReadMetadata function (webservices.h)
 description: Reads a Metadata element and adds it to the Metadata documents of the Metadata object.
+helpviewer_keywords: ["WsReadMetadata","WsReadMetadata function [Web Services for Windows]","webservices/WsReadMetadata","wsw.wsreadmetadata"]
 old-location: wsw\wsreadmetadata.htm
 tech.root: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
 ms.date: 12/05/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
-f1_keywords:
-- webservices/WsReadMetadata
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadMetadata
+ - webservices/WsReadMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadMetadata
 ---
 
 # WsReadMetadata function
 
 
 ## -description
-
 
 Reads a Metadata element and adds it to the Metadata
                 documents of the Metadata object.
@@ -61,30 +62,21 @@ Reads a Metadata element and adds it to the Metadata
             </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param metadata [in]
 
-A pointer to the <b>Metadata</b> object for storing the metadata read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.
-                
-
+A pointer to the <b>Metadata</b> object for storing the metadata read.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the reader must be positioned
+A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the reader must be positioned
                     on the element containing the desired metadata.
-                
-
 
 ### -param url [in]
 
 A pointer to 
-                    a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
+                    a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
                     used to track the metadata documents for resolving URL-based
                     links between documents.
                 <div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.
@@ -120,13 +112,9 @@ http://example.com/document2
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -214,14 +202,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function recognizes the following types of metadata:
             
@@ -231,5 +213,3 @@ This function recognizes the following types of metadata:
                 </li>
 <li>WS-Policy 1.2 documents </li>
 </ul>
-
-

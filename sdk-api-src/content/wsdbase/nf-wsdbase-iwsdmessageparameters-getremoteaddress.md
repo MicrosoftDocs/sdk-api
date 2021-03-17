@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDMessageParameters.GetRemoteAddress
 title: IWSDMessageParameters::GetRemoteAddress (wsdbase.h)
 description: Retrieves the generic address object representing the remote address from which the message was sent.
+helpviewer_keywords: ["GetRemoteAddress","GetRemoteAddress method","GetRemoteAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetRemoteAddress method","IWSDMessageParameters.GetRemoteAddress","IWSDMessageParameters::GetRemoteAddress","ncd.iwsdmessageparameters_getremoteaddress","wsdbase/IWSDMessageParameters::GetRemoteAddress"]
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583
 ms.date: 12/05/2018
 ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetRemoteAddress method, IWSDMessageParameters.GetRemoteAddress, IWSDMessageParameters::GetRemoteAddress, ncd.iwsdmessageparameters_getremoteaddress, wsdbase/IWSDMessageParameters::GetRemoteAddress
-f1_keywords:
-- wsdbase/IWSDMessageParameters.GetRemoteAddress
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDMessageParameters.GetRemoteAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMessageParameters::GetRemoteAddress
+ - wsdbase/IWSDMessageParameters::GetRemoteAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDMessageParameters.GetRemoteAddress
 ---
 
 # IWSDMessageParameters::GetRemoteAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the generic address object representing the remote address from which the message was sent.
-
 
 ## -parameters
 
-
-
-
 ### -param ppAddress [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the remote address from which the message was sent.
-
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the remote address from which the message was sent.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing memory allocated to <i>ppAddress</i>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

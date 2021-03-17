@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewCallback
 title: IWMWriterPostView::SetPostViewCallback (wmsdkidl.h)
 description: The SetPostViewCallback method specifies the callback interface to use for receiving postview samples.
+helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetPostViewCallback method","IWMWriterPostView.SetPostViewCallback","IWMWriterPostView::SetPostViewCallback","IWMWriterPostViewSetPostViewCallback","SetPostViewCallback","SetPostViewCallback method [windows Media Format]","SetPostViewCallback method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setpostviewcallback","wmsdkidl/IWMWriterPostView::SetPostViewCallback"]
 old-location: wmformat\iwmwriterpostview_setpostviewcallback.htm
 tech.root: wmformat
 ms.assetid: c2814f32-1787-44a6-8ffc-5d2a9aca8601
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewCallback method, IWMWriterPostView.SetPostViewCallback, IWMWriterPostView::SetPostViewCallback, IWMWriterPostViewSetPostViewCallback, SetPostViewCallback, SetPostViewCallback method [windows Media Format], SetPostViewCallback method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewcallback, wmsdkidl/IWMWriterPostView::SetPostViewCallback
-f1_keywords:
-- wmsdkidl/IWMWriterPostView.SetPostViewCallback
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPostView.SetPostViewCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPostView::SetPostViewCallback
+ - wmsdkidl/IWMWriterPostView::SetPostViewCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPostView.SetPostViewCallback
 ---
 
 # IWMWriterPostView::SetPostViewCallback
@@ -51,44 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetPostViewCallback</b> method specifies the callback interface to use for receiving postview samples.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback</a> interface.
-
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback</a> interface.
 
 ### -param pvContext [in]
 
 Generic pointer, for use by the application.
 
-
 ## -returns
-
-
 
 This method always returns S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>

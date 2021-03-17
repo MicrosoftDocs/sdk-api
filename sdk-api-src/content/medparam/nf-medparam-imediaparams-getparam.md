@@ -2,15 +2,12 @@
 UID: NF:medparam.IMediaParams.GetParam
 title: IMediaParams::GetParam (medparam.h)
 description: The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.
+helpviewer_keywords: ["GetParam","GetParam method [DirectShow]","GetParam method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","GetParam method","IMediaParams.GetParam","IMediaParams::GetParam","IMediaParamsGetParam","dshow.imediaparams_getparam","medparam/IMediaParams::GetParam"]
 old-location: dshow\imediaparams_getparam.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4fcae36a-c659-4565-9169-66d97beb26a4
 ms.date: 12/05/2018
 ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],GetParam method, IMediaParams.GetParam, IMediaParams::GetParam, IMediaParamsGetParam, dshow.imediaparams_getparam, medparam/IMediaParams::GetParam
-f1_keywords:
-- medparam/IMediaParams.GetParam
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParams.GetParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParams::GetParam
+ - medparam/IMediaParams::GetParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParams.GetParam
 ---
 
 # IMediaParams::GetParam
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetParam</code> method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwParamIndex [in]
 
 Zero-based index of the parameter.
 
-
 ### -param pValue [out]
 
 Pointer to a variable of type <b>MP_DATA</b> that receives the parameter value.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,27 +106,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
-
-
-
+To enumerate the parameters supported by this object, along with their index values, use the <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>

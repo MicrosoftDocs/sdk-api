@@ -2,15 +2,12 @@
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault (vsmgmt.h)
 description: Clears the protection fault state for the specified volume.
+helpviewer_keywords: ["ClearVolumeProtectFault","ClearVolumeProtectFault method","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault","IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault","base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.date: 12/05/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
@@ -48,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the protection fault state for the specified volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
 The name of the volume.
       This parameter is required and cannot be <b>NULL</b>.
 
-The name must be in one of the following formats and must include a trailing backslash (\):
+The name must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\ 
          </li>
-<li>A volume GUID path in the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path in the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -138,7 +131,7 @@ The provider for the volume does not support shadow copy protection.
 </dl>
 </td>
 <td width="60%">
-An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -155,27 +148,11 @@ The specified volume was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>ClearVolumeProtectFault</b> method dismounts the volume and resets the volume's protection fault member to <b>FALSE</b> to allow normal I/O to continue on the volume. If the volume is not in a faulted state, this method does nothing.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>

@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCUnInstallNameSpace32
 title: WSCUnInstallNameSpace32 function (ws2spi.h)
 description: Uninstalls a specific 32-bit namespace provider.
+helpviewer_keywords: ["WSCUnInstallNameSpace32","WSCUninstallNamespace32","WSCUninstallNamespace32 function [Winsock]","winsock.wscuninstallnamespace32","ws2spi/WSCUninstallNamespace32"]
 old-location: winsock\wscuninstallnamespace32.htm
 tech.root: WinSock
 ms.assetid: a2a08159-6ac0-493d-8f9f-d19aa199a65f
 ms.date: 12/05/2018
 ms.keywords: WSCUnInstallNameSpace32, WSCUninstallNamespace32, WSCUninstallNamespace32 function [Winsock], winsock.wscuninstallnamespace32, ws2spi/WSCUninstallNamespace32
-f1_keywords:
-- ws2spi/WSCUninstallNamespace32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCUninstallNamespace32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCUnInstallNameSpace32
+ - ws2spi/WSCUnInstallNameSpace32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCUninstallNamespace32
 ---
 
 # WSCUnInstallNameSpace32 function
@@ -48,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **WSCUnInstallNameSpace32** function uninstalls a specific 32-bit namespace provider.<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace">WSCUnInstallNameSpace</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the name-space provider to be uninstalled.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCUnInstallNameSpace32** returns **NO_ERROR** (zero). Otherwise, it returns **SOCKET_ERROR** if the function fails, and you must retrieve the appropriate error code using the 
@@ -122,14 +115,8 @@ The specified namespace–provider identifier is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCUnInstallNameSpace32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace">WSCUnInstallNameSpace</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -144,13 +131,7 @@ For computers running on Windows Vista or Windows Server 2008, this function c
 
 The caller of this function must remove any additional files or service provider–specific configuration information that is required to completely uninstall the service provider.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaproviderconfigchange">WSAProviderConfigChange</a>
 
@@ -169,7 +150,4 @@ The caller of this function must remove any additional files or service provider
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace">WSCUnInstallNameSpace</a>
- 
-
- 
 

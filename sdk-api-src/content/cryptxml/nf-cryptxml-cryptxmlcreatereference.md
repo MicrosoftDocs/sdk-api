@@ -2,15 +2,12 @@
 UID: NF:cryptxml.CryptXmlCreateReference
 title: CryptXmlCreateReference function (cryptxml.h)
 description: Creates a reference to an XML signature.
+helpviewer_keywords: ["CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT","CryptXmlCreateReference","CryptXmlCreateReference function [Security]","cryptxml/CryptXmlCreateReference","security.cryptxmlcreatereference"]
 old-location: security\cryptxmlcreatereference.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
-f1_keywords:
-- cryptxml/CryptXmlCreateReference
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptxml.dll
-api_name:
-- CryptXmlCreateReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlCreateReference
+ - cryptxml/CryptXmlCreateReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptxml.dll
+api_name:
+ - CryptXmlCreateReference
 ---
 
 # CryptXmlCreateReference function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptXmlCreateReference</b> function creates a reference to an XML signature.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptXml [in]
 
 The handle of the XML signature.
-
 
 ### -param dwFlags
 
@@ -90,8 +86,6 @@ The returned handle is an encapsulated <b>Object</b> node and can be used in sub
 </td>
 </tr>
 </table>
- 
-
 
 ### -param wszId [in, optional]
 
@@ -100,49 +94,36 @@ The returned handle is an encapsulated <b>Object</b> node and can be used in sub
 	If this parameter is an empty string, then the <b>ID</b> attribute with empty
         value is created.
 
-
 ### -param wszURI [in, optional]
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the value of the URI attribute of the <b>Reference</b> element of the signature.
     If this parameter is an empty string,
     then the URI attribute with an empty value is created.
 
-
 ### -param wszType [in, optional]
 
 A pointer to a <b>null</b>-terminated Unicode string that contains the value of the Type attribute of the <b>Reference</b> element of the signature.
     The processing engine does not check or use this attribute.
 
-
 ### -param pDigestMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
-
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
 
 ### -param cTransform
 
 The number of elements in the array pointed to by the <i>rgTransform</i> parameter.
 
-
 ### -param rgTransform [in]
 
-A pointer to an ordered array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
+A pointer to an ordered array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
     the reference data before the digest calculation.
-
-
 
 ### -param phReference [out]
 
 A pointer to a reference handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

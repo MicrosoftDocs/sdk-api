@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMixerControl9.GetProcAmpControlRange
 title: IVMRMixerControl9::GetProcAmpControlRange (vmr9.h)
 description: The GetProcAmpControlRange method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation.
+helpviewer_keywords: ["GetProcAmpControlRange","GetProcAmpControlRange method [DirectShow]","GetProcAmpControlRange method [DirectShow]","IVMRMixerControl9 interface","IVMRMixerControl9 interface [DirectShow]","GetProcAmpControlRange method","IVMRMixerControl9.GetProcAmpControlRange","IVMRMixerControl9::GetProcAmpControlRange","IVMRMixerControl9GetProcAmpControlRange","dshow.ivmrmixercontrol9_getprocampcontrolrange","vmr9/IVMRMixerControl9::GetProcAmpControlRange"]
 old-location: dshow\ivmrmixercontrol9_getprocampcontrolrange.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
 ms.date: 12/05/2018
 ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
-f1_keywords:
-- vmr9/IVMRMixerControl9.GetProcAmpControlRange
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl9.GetProcAmpControlRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl9::GetProcAmpControlRange
+ - vmr9/IVMRMixerControl9::GetProcAmpControlRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl9.GetProcAmpControlRange
 ---
 
 # IVMRMixerControl9::GetProcAmpControlRange
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetProcAmpControlRange</code> method retrieves the range of values for an image adjustment setting, such as brightness, contrast, hue, or saturation. Image adjustment is performed by the graphics device, so the valid range depends on the graphics driver. If the driver does not support hardware image adjustment, this method fails.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Specifies the input stream. This value corresponds to the input pin. For example, the first input pin is stream 0.
 
-
 ### -param lpClrControl [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9procampcontrolrange">VMR9ProcAmpControlRange</a> structure that receives the range. The caller must set the <b>dwSize</b> and <b>dwProperty</b> fields.
-
+Pointer to a <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9procampcontrolrange">VMR9ProcAmpControlRange</a> structure that receives the range. The caller must set the <b>dwSize</b> and <b>dwProperty</b> fields.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -142,31 +132,15 @@ The graphics hardware does not support ProcAmp controls.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

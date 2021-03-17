@@ -1,9 +1,10 @@
 ---
 UID: TP:gdi
+title: Windows GDI
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # Windows GDI
@@ -25,5 +26,4 @@ To develop Windows GDI, you need these headers:
 
 For programming guidance for this technology, see:
 * [Windows GDI](/windows/desktop/gdi)
-* [Documents and Printing](https://docs.microsoft.com/windows/desktop/printdocs/documents-and-printing)
-
+* [Documents and Printing](/windows/desktop/printdocs/documents-and-printing)

@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMapping.Enable
 title: IStaticPortMapping::Enable (natupnp.h)
 description: The Enable method enables or disables this port mapping.
+helpviewer_keywords: ["Enable","Enable method [ICS/ICF]","Enable method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","Enable method","IStaticPortMapping.Enable","IStaticPortMapping::Enable","_ics_istaticportmapping_enable","ics.istaticportmapping_enable","natupnp/IStaticPortMapping::Enable"]
 old-location: ics\istaticportmapping_enable.htm
 tech.root: ics
 ms.assetid: 66aa27b4-83a5-4c20-b964-084dd0e48a54
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],Enable method, IStaticPortMapping.Enable, IStaticPortMapping::Enable, _ics_istaticportmapping_enable, ics.istaticportmapping_enable, natupnp/IStaticPortMapping::Enable
-f1_keywords:
-- natupnp/IStaticPortMapping.Enable
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::Enable
+ - natupnp/IStaticPortMapping::Enable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.Enable
 ---
 
 # IStaticPortMapping::Enable
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Enable</b> method enables or disables this port mapping.
 
-
 ## -parameters
-
-
-
 
 ### -param vb [in]
 
 Specifies a value that indicates whether the port mapping should be enabled or disabled. To enable the port mapping specify VARIANT_TRUE. To disable the port mapping specify VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -165,30 +159,19 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_enabled">IStaticPortMapping::get_InternalEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-get_enabled">IStaticPortMapping::get_InternalEnabled</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

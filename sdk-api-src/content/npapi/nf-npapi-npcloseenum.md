@@ -2,15 +2,12 @@
 UID: NF:npapi.NPCloseEnum
 title: NPCloseEnum function (npapi.h)
 description: Closes an enumeration.
+helpviewer_keywords: ["NPCloseEnum","NPCloseEnum function [Security]","_mnp_npcloseenum","npapi/NPCloseEnum","security.npcloseenum"]
 old-location: security\npcloseenum.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: fc6d5fe1-0953-4912-bdbd-b1372597f61d
 ms.date: 12/05/2018
 ms.keywords: NPCloseEnum, NPCloseEnum function [Security], _mnp_npcloseenum, npapi/NPCloseEnum, security.npcloseenum
-f1_keywords:
-- npapi/NPCloseEnum
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPCloseEnum
+ - npapi/NPCloseEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPCloseEnum
 ---
 
 # NPCloseEnum function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NPCloseEnum</b> function closes an enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnum [in]
 
 Handle obtained from an 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
-
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
 
 ## -returns
-
-
 
 If the function succeeds, it will return WN_SUCCESS. Otherwise, it will return an error code, which can be one of the following:
 
@@ -97,7 +91,3 @@ The network is not present. This condition is checked  before <i>hEnum</i> is te
 </td>
 </tr>
 </table>
- 
-
-
-

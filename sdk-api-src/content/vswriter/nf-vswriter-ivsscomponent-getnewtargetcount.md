@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetNewTargetCount
 title: IVssComponent::GetNewTargetCount (vswriter.h)
 description: The GetNewTargetCount method returns the number of new target restore locations associated with a given component.
+helpviewer_keywords: ["GetNewTargetCount","GetNewTargetCount method [VSS]","GetNewTargetCount method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetNewTargetCount method","IVssComponent.GetNewTargetCount","IVssComponent::GetNewTargetCount","_win32_ivsscomponent_getnewtargetcount","base.ivsscomponent_getnewtargetcount","vswriter/IVssComponent::GetNewTargetCount"]
 old-location: base\ivsscomponent_getnewtargetcount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b41afed9-2689-469e-b3c4-83cf18c5f8a9
 ms.date: 12/05/2018
 ms.keywords: GetNewTargetCount, GetNewTargetCount method [VSS], GetNewTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTargetCount method, IVssComponent.GetNewTargetCount, IVssComponent::GetNewTargetCount, _win32_ivsscomponent_getnewtargetcount, base.ivsscomponent_getnewtargetcount, vswriter/IVssComponent::GetNewTargetCount
-f1_keywords:
-- vswriter/IVssComponent.GetNewTargetCount
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetNewTargetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetNewTargetCount
+ - vswriter/IVssComponent::GetNewTargetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetNewTargetCount
 ---
 
 # IVssComponent::GetNewTargetCount
@@ -49,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNewTargetCount</b> method returns the number of new target restore locations associated with a given component.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pcNewTarget [out]
 
 The address of a caller-allocated variable that receives the number of new target restore locations.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -111,18 +105,7 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

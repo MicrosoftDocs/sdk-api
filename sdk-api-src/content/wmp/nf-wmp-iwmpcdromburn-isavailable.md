@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCdromBurn.isAvailable
 title: IWMPCdromBurn::isAvailable (wmp.h)
 description: The isAvailable method provides information about the CD drive and media.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","isAvailable method","IWMPCdromBurn.isAvailable","IWMPCdromBurn::isAvailable","IWMPCdromBurnisAvailable","isAvailable","isAvailable method [Windows Media Player]","isAvailable method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_isavailable","wmp/IWMPCdromBurn::isAvailable"]
 old-location: wmp\iwmpcdromburn_isavailable.htm
 tech.root: WMP
 ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],isAvailable method, IWMPCdromBurn.isAvailable, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
-f1_keywords:
-- wmp/IWMPCdromBurn.isAvailable
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCdromBurn.isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromBurn::isAvailable
+ - wmp/IWMPCdromBurn::isAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCdromBurn.isAvailable
 ---
 
 # IWMPCdromBurn::isAvailable
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>isAvailable</b> method provides information about the CD drive and media.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItem [in]
 
@@ -88,17 +82,12 @@ The <b>isAvailable</b> method provides information about the CD drive and media.
 <td>The CD can be written to.</td>
 </tr>
 </table>
- 
-
 
 ### -param pIsAvailable [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that indicates the result.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,27 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>

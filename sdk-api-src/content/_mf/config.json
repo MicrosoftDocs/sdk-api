@@ -15,6 +15,7 @@
     "dxva.h",
     "uuids.h",
     "codecapi.h",
+    "icodecapi.h",
     "dxvahd.h",
     "opmapi.h",
     "ksopmapi.h",
@@ -37,7 +38,8 @@
     "evr9.h",
     "mfmediacapture.h",
     "mfspatialaudio.h",
-    "mfidl.idl"
+    "mfidl.idl",
+    "mfcontentdecryptionmodule.h"
   ],
   "displayName": "Microsoft Media Foundation"
 }

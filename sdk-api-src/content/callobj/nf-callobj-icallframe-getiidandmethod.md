@@ -2,15 +2,12 @@
 UID: NF:callobj.ICallFrame.GetIIDAndMethod
 title: ICallFrame::GetIIDAndMethod (callobj.h)
 description: Retrieves the interface ID or the method number.
+helpviewer_keywords: ["GetIIDAndMethod","GetIIDAndMethod method [COM]","GetIIDAndMethod method [COM]","ICallFrame interface","ICallFrame interface [COM]","GetIIDAndMethod method","ICallFrame.GetIIDAndMethod","ICallFrame::GetIIDAndMethod","_com_icallframe_getiidandmethod","callobj/ICallFrame::GetIIDAndMethod","com.icallframe_getiidandmethod"]
 old-location: com\icallframe_getiidandmethod.htm
 tech.root: com
 ms.assetid: 938798ef-ddc8-4182-9216-d130c4f0e4ae
 ms.date: 12/05/2018
 ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod method [COM],ICallFrame interface, ICallFrame interface [COM],GetIIDAndMethod method, ICallFrame.GetIIDAndMethod, ICallFrame::GetIIDAndMethod, _com_icallframe_getiidandmethod, callobj/ICallFrame::GetIIDAndMethod, com.icallframe_getiidandmethod
-f1_keywords:
-- callobj/ICallFrame.GetIIDAndMethod
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallFrame.GetIIDAndMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFrame::GetIIDAndMethod
+ - callobj/ICallFrame::GetIIDAndMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallFrame.GetIIDAndMethod
 ---
 
 # ICallFrame::GetIIDAndMethod
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the interface ID or the method number.
 
-
 ## -parameters
-
-
-
 
 ### -param pIID [out]
 
 A pointer to the interface ID.
 
-
 ### -param piMethod [out]
 
 A pointer to the method number.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -101,18 +94,7 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
- 
-
- 
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

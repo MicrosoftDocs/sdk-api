@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFIndexer.GetFlags
 title: IMFASFIndexer::GetFlags (wmcontainer.h)
 description: Retrieves the flags that indicate the selected indexer options.
+helpviewer_keywords: ["97809620-57ad-48f1-94ba-a2e121cdfee6","GetFlags","GetFlags method [Media Foundation]","GetFlags method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetFlags method","IMFASFIndexer.GetFlags","IMFASFIndexer::GetFlags","mf.imfasfindexer_getflags","wmcontainer/IMFASFIndexer::GetFlags"]
 old-location: mf\imfasfindexer_getflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 97809620-57ad-48f1-94ba-a2e121cdfee6
 ms.date: 12/05/2018
 ms.keywords: 97809620-57ad-48f1-94ba-a2e121cdfee6, GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetFlags method, IMFASFIndexer.GetFlags, IMFASFIndexer::GetFlags, mf.imfasfindexer_getflags, wmcontainer/IMFASFIndexer::GetFlags
-f1_keywords:
-- wmcontainer/IMFASFIndexer.GetFlags
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFIndexer.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFIndexer::GetFlags
+ - wmcontainer/IMFASFIndexer::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFIndexer.GetFlags
 ---
 
 # IMFASFIndexer::GetFlags
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the flags that indicate the selected indexer options.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pdwFlags [out]
 
-Receives a bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](/windows/win32/api/wmcontainer/ne-wmcontainer-mfasf_indexer_flags)a> enumeration.
-
+Receives a bitwise OR of zero or more flags from the [MFASF_INDEXER_FLAGS](./ne-wmcontainer-mfasf_indexer_flags.md) enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,31 +91,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You must call this method before initializing the indexer object with <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>.
-
-
-
+You must call this method before initializing the indexer object with <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

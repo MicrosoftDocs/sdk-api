@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyJob.GetType
 title: IBackgroundCopyJob::GetType (bits.h)
 description: Retrieves the type of transfer being performed, such as a file download or upload.
+helpviewer_keywords: ["GetType","GetType method [BITS]","GetType method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetType method","IBackgroundCopyJob.GetType","IBackgroundCopyJob::GetType","_drz_ibackgroundcopyjob_gettype","bits.ibackgroundcopyjob_gettype","bits/IBackgroundCopyJob::GetType"]
 old-location: bits\ibackgroundcopyjob_gettype.htm
 tech.root: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [BITS], GetType method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetType method, IBackgroundCopyJob.GetType, IBackgroundCopyJob::GetType, _drz_ibackgroundcopyjob_gettype, bits.ibackgroundcopyjob_gettype, bits/IBackgroundCopyJob::GetType
-f1_keywords:
-- bits/IBackgroundCopyJob.GetType
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetType
+ - bits/IBackgroundCopyJob::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetType
 ---
 
 # IBackgroundCopyJob::GetType
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type of transfer being performed, such as a file download or upload.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Type of transfer being performed. For a list of transfer types, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
-
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a> enumeration.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -97,32 +91,16 @@ The <i>pJobType</i> parameter cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Specify the type of transfer when you 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">create the job</a>.
-
-
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">create the job</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_type">BG_JOB_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>

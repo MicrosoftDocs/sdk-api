@@ -2,15 +2,12 @@
 UID: NF:comsvcs.RecycleSurrogate
 title: RecycleSurrogate function (comsvcs.h)
 description: Recycles the calling process.
+helpviewer_keywords: ["CRR_ACTIVATION_LIMIT","CRR_CALL_LIMIT","CRR_LIFETIME_LIMIT","CRR_MEMORY_LIMIT","CRR_NO_REASON_SUPPLIED","CRR_RECYCLED_FROM_UI","RecycleSurrogate","RecycleSurrogate function [COM+]","_cos_recyclesurrogate","comsvcs/RecycleSurrogate","cos.recyclesurrogate"]
 old-location: cos\recyclesurrogate.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
 ms.date: 12/05/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate
-f1_keywords:
-- comsvcs/RecycleSurrogate
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComSvcs.dll
-api_name:
-- RecycleSurrogate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RecycleSurrogate
+ - comsvcs/RecycleSurrogate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComSvcs.dll
+api_name:
+ - RecycleSurrogate
 ---
 
 # RecycleSurrogate function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Recycles the calling process.
 
-For similar functionality, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms679243(v=vs.85)">IMTxAS::RecycleSurrogate</a>.
-
+For similar functionality, see <a href="/previous-versions/windows/desktop/legacy/ms679243(v=vs.85)">IMTxAS::RecycleSurrogate</a>.
 
 ## -parameters
-
-
-
 
 ### -param lReasonCode [in]
 
@@ -135,25 +132,11 @@ An administrator decided to recycle the process through the Component Services a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>

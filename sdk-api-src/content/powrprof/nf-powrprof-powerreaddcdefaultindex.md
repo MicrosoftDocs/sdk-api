@@ -2,16 +2,12 @@
 UID: NF:powrprof.PowerReadDCDefaultIndex
 title: PowerReadDCDefaultIndex function (powrprof.h)
 description: Retrieves the default DC index of the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDCDefaultIndex","PowerReadDCDefaultIndex function","base.powerreaddcdefaultindex","powrprof/PowerReadDCDefaultIndex"]
 old-location: base\powerreaddcdefaultindex.htm
 tech.root: power
 ms.assetid: 32eeb0c2-ce37-4f1d-88e9-ced934740edd
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDCDefaultIndex, PowerReadDCDefaultIndex function, base.powerreaddcdefaultindex, powrprof/PowerReadDCDefaultIndex
-ms.topic: function
-f1_keywords:
-- powrprof/PowerReadDCDefaultIndex
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadDCDefaultIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadDCDefaultIndex
+ - powrprof/PowerReadDCDefaultIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadDCDefaultIndex
 ---
 
 # PowerReadDCDefaultIndex function
@@ -49,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the default DC index of the specified power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemePersonalityGuid [in]
 
 The identifier of the scheme personality for this power setting. A power setting can have different default 
      values depending on the power scheme personality.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -168,36 +162,20 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in]
 
 The identifier of the power setting.
 
-
 ### -param DcDefaultIndex [out]
 
 A pointer to a variable that receives the default DC index.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
      the call failed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

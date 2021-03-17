@@ -1,9 +1,10 @@
 ---
 UID: TP:fsrm
+title: File Server Resource Manager
 ms.assetid: d2b646ef-23b5-3964-8e20-9a28350f9b5e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # File Server Resource Manager
@@ -23,5 +24,4 @@ To develop File Server Resource Manager, you need these headers:
  * [fsrmtlb.h](../fsrmtlb/index.md)
 
 For programming guidance for this technology, see:
-* [File Server Resource Manager](/windows/desktop/fsrm)
-
+* [File Server Resource Manager](/previous-versions/windows/desktop/fsrm)

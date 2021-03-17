@@ -2,15 +2,12 @@
 UID: NF:videoacc.IAMVideoAccelerator.BeginFrame
 title: IAMVideoAccelerator::BeginFrame (videoacc.h)
 description: The BeginFrame method begins the processing to create a decoded picture.
+helpviewer_keywords: ["BeginFrame","BeginFrame method [DirectShow]","BeginFrame method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","BeginFrame method","IAMVideoAccelerator.BeginFrame","IAMVideoAccelerator::BeginFrame","IAMVideoAcceleratorBeginFrame","dshow.iamvideoaccelerator_beginframe","videoacc/IAMVideoAccelerator::BeginFrame"]
 old-location: dshow\iamvideoaccelerator_beginframe.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b
 ms.date: 12/05/2018
 ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
-f1_keywords:
-- videoacc/IAMVideoAccelerator.BeginFrame
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.BeginFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::BeginFrame
+ - videoacc/IAMVideoAccelerator::BeginFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.BeginFrame
 ---
 
 # IAMVideoAccelerator::BeginFrame
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BeginFrame</b> method begins the processing to create a decoded picture.
-
 
 ## -parameters
 
-
-
-
 ### -param amvaBeginFrameInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvabeginframeinfo">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -152,39 +146,23 @@ The pins on the decoder and video renderer filters are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
 This method might block if no frame buffer is available.
 
-For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
-
-
-
+For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

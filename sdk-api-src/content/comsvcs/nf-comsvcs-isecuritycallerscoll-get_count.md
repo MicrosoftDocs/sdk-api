@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISecurityCallersColl.get_Count
 title: ISecurityCallersColl::get_Count (comsvcs.h)
 description: Retrieves the number of callers in the security callers collection.
+helpviewer_keywords: ["ISecurityCallersColl interface [COM+]","get_Count method","ISecurityCallersColl.get_Count","ISecurityCallersColl::get_Count","_cos_ISecurityCallersColl_get_Count","comsvcs/ISecurityCallersColl::get_Count","cos.isecuritycallerscoll_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","ISecurityCallersColl interface"]
 old-location: cos\isecuritycallerscoll_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Count method, ISecurityCallersColl.get_Count, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallersColl interface
-f1_keywords:
-- comsvcs/ISecurityCallersColl.get_Count
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityCallersColl.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityCallersColl::get_Count
+ - comsvcs/ISecurityCallersColl::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityCallersColl.get_Count
 ---
 
 # ISecurityCallersColl::get_Count
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of callers in the security callers collection.
 
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 The number of callers in the security callers collection.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>

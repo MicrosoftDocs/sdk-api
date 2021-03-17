@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceContent.Copy
 title: IPortableDeviceContent::Copy (portabledeviceapi.h)
 description: The Copy method copies objects from one location on a device to another.
+helpviewer_keywords: ["Copy","Copy method [Windows Portable Devices SDK]","Copy method [Windows Portable Devices SDK]","IPortableDeviceContent interface","IPortableDeviceContent interface [Windows Portable Devices SDK]","Copy method","IPortableDeviceContent.Copy","IPortableDeviceContent::Copy","IPortableDeviceContentCopy","portabledeviceapi/IPortableDeviceContent::Copy","wpdsdk.iportabledevicecontent_copy"]
 old-location: wpdsdk\iportabledevicecontent_copy.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 46d6abad-457c-47d7-a83a-b5ba2b84b064
 ms.date: 12/05/2018
 ms.keywords: Copy, Copy method [Windows Portable Devices SDK], Copy method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Copy method, IPortableDeviceContent.Copy, IPortableDeviceContent::Copy, IPortableDeviceContentCopy, portabledeviceapi/IPortableDeviceContent::Copy, wpdsdk.iportabledevicecontent_copy
-f1_keywords:
-- portabledeviceapi/IPortableDeviceContent.Copy
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceContent.Copy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceContent::Copy
+ - portabledeviceapi/IPortableDeviceContent::Copy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceContent.Copy
 ---
 
 # IPortableDeviceContent::Copy
@@ -49,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Copy</b> method copies objects from one location on a device to another.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param pObjectIDs
 
 A collection of object identifiers for the objects that this method will copy.
-          
-
 
 ### -param pszDestinationFolderObjectID
 
 An object identifier for the destination folder (or functional storage) into which this method will copy the specified objects.
-          
-
 
 ### -param ppResults [out]
 
 A collection of VT_ERROR values indicating the success or failure of copying a particular element. The first error value corresponds to the first object in the collection of object identifiers, the second to the second element, and so on. This argument can be <b>NULL</b>.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -123,28 +111,11 @@ The application does not have the rights to copy one of the specified objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the specified device supports copy operations to a functional storage, the <i>pszDestinationFolderObjectID</i> parameter may specify the identifier for a functional storage.
-      
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>

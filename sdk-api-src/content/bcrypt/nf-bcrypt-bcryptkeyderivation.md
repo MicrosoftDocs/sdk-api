@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptKeyDerivation
 title: BCryptKeyDerivation function (bcrypt.h)
 description: Derives a key without requiring a secret agreement.
+helpviewer_keywords: ["BCryptKeyDerivation","BCryptKeyDerivation function [Security]","bcrypt/BCryptKeyDerivation","security.bcryptkeyderivation"]
 old-location: security\bcryptkeyderivation.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.date: 12/05/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
-f1_keywords:
-- bcrypt/BCryptKeyDerivation
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptKeyDerivation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptKeyDerivation
+ - bcrypt/BCryptKeyDerivation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptKeyDerivation
 ---
 
 # BCryptKeyDerivation function
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
-
+The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
 
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 Handle of the input key.
-
 
 ### -param pParameterList [in, optional]
 
@@ -166,22 +162,17 @@ CAPI_KDF<ul>
 <li>KDF_GENERIC_PARAMETER = Not Used </li>
 </ul>
 
-
-
 ### -param pbDerivedKey [out]
 
 Address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size of this buffer.
-
 
 ### -param cbDerivedKey [in]
 
 Size, in bytes, of the buffer pointed to by the <i>pbDerivedKey</i> parameter.
 
-
 ### -param pcbResult [out]
 
 Pointer to a variable that receives the number of bytes that were copied to the buffer pointed to by the <i>pbDerivedKey</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -205,23 +196,14 @@ This flag is only valid with the CAPI_KDF algorithm.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns a status code that indicates the success or failure of the function.
-
-
-
 
 ## -remarks
 
-
-
-You can use the following algorithm identifiers in the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
+You can use the following algorithm identifiers in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
 
 <ul>
 <li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
@@ -231,22 +213,10 @@ You can use the following algorithm identifiers in the <a href="https://docs.mic
 </ul>
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a>

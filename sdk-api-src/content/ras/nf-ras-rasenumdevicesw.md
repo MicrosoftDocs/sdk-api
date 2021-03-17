@@ -2,15 +2,12 @@
 UID: NF:ras.RasEnumDevicesW
 title: RasEnumDevicesW function (ras.h)
 description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
+helpviewer_keywords: ["RasEnumDevices","RasEnumDevices function [RAS]","RasEnumDevicesA","RasEnumDevicesW","_ras_rasenumdevices","ras/RasEnumDevices","ras/RasEnumDevicesA","ras/RasEnumDevicesW","rras.rasenumdevices"]
 old-location: rras\rasenumdevices.htm
 tech.root: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.date: 12/05/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
-f1_keywords:
-- ras/RasEnumDevices
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasEnumDevices
-- RasEnumDevicesA
-- RasEnumDevicesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumDevicesW
+ - ras/RasEnumDevicesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasEnumDevices
+ - RasEnumDevicesA
+ - RasEnumDevicesW
 ---
 
 # RasEnumDevicesW function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumDevices</b> function returns the name and type of all available RAS-capable devices.
 
-
 ## -parameters
-
-
-
 
 ### -param arg1 [in]
 
 Pointer to a buffer that receives an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
+<a href="/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures, one for each RAS-capable device. Before calling the function, set the <b>dwSize</b> member of the first 
 <b>RASDEVINFO</b> structure in the buffer to sizeof(<b>RASDEVINFO</b>) to identify the version of the structure.
-
 
 ### -param arg2 [in, out]
 
@@ -85,16 +81,13 @@ On output, the function sets this variable to the number of bytes required to en
 ### -param arg3 [out]
 
 Pointer to a variable that receives the number of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
-
+<a href="/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structures written to the <i>lpRasDevInfo</i> buffer.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -142,23 +135,17 @@ Indicates an invalid parameter value. The <i>lpcb</i>parameter is <b>NULL</b> or
 </td>
 <td width="60%">
 The address or buffer specified by <i>lpRasDevInfo</i> is invalid. The <b>dwSize</b>member of the 
-								<i>lpRasDevInfo</i>  parameter does not equal sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>).
+								<i>lpRasDevInfo</i>  parameter does not equal sizeof(<a href="/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>).
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The following sample code enumerates the devices on the current machine. The code initially calls 
 <b>RasEnumDevices</b> with a <i>lpRasDevInfo</i> parameter of <b>NULL</b>, to obtain the size of the buffer that should be passed in. The code also sets the <b>dwSize</b> member of the first 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structure to sizeof(<b>RASDEVINFO</b>) to specify the version of the structure.
+<a href="/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a> structure to sizeof(<b>RASDEVINFO</b>) to specify the version of the structure.
 
 
 ```cpp
@@ -221,21 +208,18 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasEnumDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377001(v=vs.85)">RASDEVINFO</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

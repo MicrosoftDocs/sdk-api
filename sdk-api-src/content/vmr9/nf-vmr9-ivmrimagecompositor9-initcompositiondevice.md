@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRImageCompositor9.InitCompositionDevice
 title: IVMRImageCompositor9::InitCompositionDevice (vmr9.h)
 description: The InitCompositionDevice method informs the compositor that a new composition target has been created.
+helpviewer_keywords: ["IVMRImageCompositor9 interface [DirectShow]","InitCompositionDevice method","IVMRImageCompositor9.InitCompositionDevice","IVMRImageCompositor9::InitCompositionDevice","IVMRImageCompositor9InitCompositionDevice","InitCompositionDevice","InitCompositionDevice method [DirectShow]","InitCompositionDevice method [DirectShow]","IVMRImageCompositor9 interface","dshow.ivmrimagecompositor9_initcompositiondevice","vmr9/IVMRImageCompositor9::InitCompositionDevice"]
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],InitCompositionDevice method, IVMRImageCompositor9.InitCompositionDevice, IVMRImageCompositor9::InitCompositionDevice, IVMRImageCompositor9InitCompositionDevice, InitCompositionDevice, InitCompositionDevice method [DirectShow], InitCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_initcompositiondevice, vmr9/IVMRImageCompositor9::InitCompositionDevice
-f1_keywords:
-- vmr9/IVMRImageCompositor9.InitCompositionDevice
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImageCompositor9.InitCompositionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImageCompositor9::InitCompositionDevice
+ - vmr9/IVMRImageCompositor9::InitCompositionDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImageCompositor9.InitCompositionDevice
 ---
 
 # IVMRImageCompositor9::InitCompositionDevice
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>InitCompositionDevice</code> method informs the compositor that a new composition target has been created. The compositor should perform any necessary configuration work in this method. This could include attaching a Z or stencil buffer for the new render target.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pD3DDevice [in]
 
 Pointer to the <b>IUnknown</b> interface of the Direct3D device object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

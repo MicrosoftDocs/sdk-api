@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetFuncHelpContext
 title: ICreateTypeInfo::SetFuncHelpContext (oaidl.h)
 description: Sets the Help context ID for the function with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetFuncHelpContext method","ICreateTypeInfo.SetFuncHelpContext","ICreateTypeInfo::SetFuncHelpContext","SetFuncHelpContext","SetFuncHelpContext method [Automation]","SetFuncHelpContext method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetFuncHelpContext","automat.icreatetypeinfo_setfunchelpcontext","oaidl/ICreateTypeInfo::SetFuncHelpContext"]
 old-location: automat\icreatetypeinfo_setfunchelpcontext.htm
 tech.root: automat
 ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetFuncHelpContext
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetFuncHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetFuncHelpContext
+ - oaidl/ICreateTypeInfo::SetFuncHelpContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetFuncHelpContext
 ---
 
 # ICreateTypeInfo::SetFuncHelpContext
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Help context ID for the function with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the function.
 
-
 ### -param dwHelpContext [in]
 
 The Help context ID for the Help topic.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -152,28 +144,11 @@ The element cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>SetFuncHelpContext</b> only needs to be set once for each property, because all property accessor functions are identified by one name.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

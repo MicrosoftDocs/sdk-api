@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptionsBuildCache
 title: IUIAutomationElement7::FindAllWithOptionsBuildCache (uiautomationclient.h)
 description: Finds all matching elements in the specified order, but also caches their properties and patterns.
+helpviewer_keywords: ["FindAllWithOptionsBuildCache","FindAllWithOptionsBuildCache method [Windows Accessibility]","FindAllWithOptionsBuildCache method [Windows Accessibility]","IUIAutomationElement7 interface","IUIAutomationElement7 interface [Windows Accessibility]","FindAllWithOptionsBuildCache method","IUIAutomationElement7.FindAllWithOptionsBuildCache","IUIAutomationElement7::FindAllWithOptionsBuildCache","uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache","winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache","winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache"]
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 92F9E34B-BFB9-48EA-A0EC-6E69EFB6307B
 ms.date: 12/05/2018
 ms.keywords: FindAllWithOptionsBuildCache, FindAllWithOptionsBuildCache method [Windows Accessibility], FindAllWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindAllWithOptionsBuildCache method, IUIAutomationElement7.FindAllWithOptionsBuildCache, IUIAutomationElement7::FindAllWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache
-f1_keywords:
-- uiautomationclient/IUIAutomationElement7.FindAllWithOptionsBuildCache
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationElement7.FindAllWithOptionsBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement7::FindAllWithOptionsBuildCache
+ - uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationElement7.FindAllWithOptionsBuildCache
 ---
 
 # IUIAutomationElement7::FindAllWithOptionsBuildCache
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds all matching elements in the specified order, but also caches their properties and patterns.
 
-
 ## -parameters
-
-
-
 
 ### -param scope [in]
 
@@ -91,24 +88,12 @@ A pointer to the element with which to begin the search.
 
 ### -param found [out, retval]
 
-Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
+Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found.
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement7">IUIAutomationElement7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement7">IUIAutomationElement7</a>

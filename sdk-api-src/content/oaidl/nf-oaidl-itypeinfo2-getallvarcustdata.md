@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetAllVarCustData
 title: ITypeInfo2::GetAllVarCustData (oaidl.h)
 description: Gets the variable for the custom data.
+helpviewer_keywords: ["GetAllVarCustData","GetAllVarCustData method [Automation]","GetAllVarCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllVarCustData method","ITypeInfo2.GetAllVarCustData","ITypeInfo2::GetAllVarCustData","_oa96_ITypeInfo2_GetAllVarCustData","automat.itypeinfo2_getallvarcustdata","oaidl/ITypeInfo2::GetAllVarCustData"]
 old-location: automat\itypeinfo2_getallvarcustdata.htm
 tech.root: automat
 ms.assetid: d123b63e-8393-4c76-914e-87aa399aae1c
 ms.date: 12/05/2018
 ms.keywords: GetAllVarCustData, GetAllVarCustData method [Automation], GetAllVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllVarCustData method, ITypeInfo2.GetAllVarCustData, ITypeInfo2::GetAllVarCustData, _oa96_ITypeInfo2_GetAllVarCustData, automat.itypeinfo2_getallvarcustdata, oaidl/ITypeInfo2::GetAllVarCustData
-f1_keywords:
-- oaidl/ITypeInfo2.GetAllVarCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetAllVarCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetAllVarCustData
+ - oaidl/ITypeInfo2::GetAllVarCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetAllVarCustData
 ---
 
 # ITypeInfo2::GetAllVarCustData
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the variable for the custom data.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable for which to get the custom data.
 
-
-
-
 ### -param pCustData [out]
 
 The custom data items.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

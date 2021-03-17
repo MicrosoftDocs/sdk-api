@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange2.Linearize
 title: ITextRange2::Linearize (tom.h)
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
+helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","Linearize method","ITextRange2.Linearize","ITextRange2::Linearize","Linearize","Linearize method [Windows Controls]","Linearize method [Windows Controls]","ITextRange2 interface","controls.itextrange2_linearize","tom/ITextRange2::Linearize","tomMathAlphabetics","tomMathBuildDownOutermost","tomMathBuildUpArgOrZone","tomMathRemoveOutermost","tomPlain","tomTeX"]
 old-location: controls\itextrange2_linearize.htm
 tech.root: Controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],Linearize method, ITextRange2.Linearize, ITextRange2::Linearize, Linearize, Linearize method [Windows Controls], Linearize method [Windows Controls],ITextRange2 interface, controls.itextrange2_linearize, tom/ITextRange2::Linearize, tomMathAlphabetics, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathRemoveOutermost, tomPlain, tomTeX
-f1_keywords:
-- tom/ITextRange2.Linearize
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange2.Linearize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange2::Linearize
+ - tom/ITextRange2::Linearize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange2.Linearize
 ---
 
 # ITextRange2::Linearize
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -105,14 +102,11 @@ A combination of the following flags.
 
 #### tomTeX
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -131,18 +125,12 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the linearization is successful, the originally selected range is replaced by the linearized version. 
 
-If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMathChangeMask</a> values.
+If the <b>tomMathRemoveOutermost</b> or <b>tomMathBuildDownOutermost</b> build down mode is specified, the build down operation can be affected by the <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMathChangeMask</a> values.
 
  The main purpose of these build-down modes is to facilitate transformations of the build-up math object as exposed by math context menus. 
 
@@ -155,22 +143,10 @@ even though internally the linear fraction still has the original numerator and 
 
 The build-down process automatically inserts the parentheses, because the linear format for this case has parentheses, and the special change is made to replace the stacked-fraction operator U+002F by the linear fraction operator U+2215. Build up doesn't discard the parentheses for U+2215, but it does for U+002F.
 
-
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>

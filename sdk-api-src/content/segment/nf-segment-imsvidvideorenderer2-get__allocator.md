@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidVideoRenderer2.get__Allocator
 title: IMSVidVideoRenderer2::get__Allocator (segment.h)
 description: The get__Allocator method retrieves the allocator-presenter from the VMR.
+helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get__Allocator method","IMSVidVideoRenderer2.get__Allocator","IMSVidVideoRenderer2::get__Allocator","IMSVidVideoRenderer2get__Allocator","get__Allocator","get__Allocator method [Microsoft TV Technologies]","get__Allocator method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get__allocator","segment/IMSVidVideoRenderer2::get__Allocator"]
 old-location: mstv\imsvidvideorenderer2_get__allocator.htm
 tech.root: mstv
 ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
-f1_keywords:
-- segment/IMSVidVideoRenderer2.get__Allocator
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRenderer2.get__Allocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRenderer2::get__Allocator
+ - segment/IMSVidVideoRenderer2::get__Allocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRenderer2.get__Allocator
 ---
 
 # IMSVidVideoRenderer2::get__Allocator
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get__Allocator</b> method retrieves the allocator-presenter from the VMR.
-
 
 ## -parameters
 
-
-
-
 ### -param AllocPresent [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface pointer.
-
+Receives an <a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface pointer.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,27 +90,11 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller must release the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface.
-
-
-
+The caller must release the <a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>

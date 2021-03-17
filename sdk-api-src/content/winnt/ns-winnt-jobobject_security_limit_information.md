@@ -2,15 +2,12 @@
 UID: NS:winnt._JOBOBJECT_SECURITY_LIMIT_INFORMATION
 title: JOBOBJECT_SECURITY_LIMIT_INFORMATION (winnt.h)
 description: Contains the security limitations for a job object.
+helpviewer_keywords: ["*PJOBOBJECT_SECURITY_LIMIT_INFORMATION","JOBOBJECT_SECURITY_LIMIT_INFORMATION","JOBOBJECT_SECURITY_LIMIT_INFORMATION structure","JOB_OBJECT_SECURITY_FILTER_TOKENS","JOB_OBJECT_SECURITY_NO_ADMIN","JOB_OBJECT_SECURITY_ONLY_TOKEN","JOB_OBJECT_SECURITY_RESTRICTED_TOKEN","PJOBOBJECT_SECURITY_LIMIT_INFORMATION","PJOBOBJECT_SECURITY_LIMIT_INFORMATION structure pointer","_JOBOBJECT_SECURITY_LIMIT_INFORMATION","_win32_jobobject_security_limit_information_str","base.jobobject_security_limit_information_str","winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION","winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION"]
 old-location: base\jobobject_security_limit_information_str.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 148f76b2-809b-4306-a943-bcc04aea547b
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION, JOBOBJECT_SECURITY_LIMIT_INFORMATION structure, JOB_OBJECT_SECURITY_FILTER_TOKENS, JOB_OBJECT_SECURITY_NO_ADMIN, JOB_OBJECT_SECURITY_ONLY_TOKEN, JOB_OBJECT_SECURITY_RESTRICTED_TOKEN, PJOBOBJECT_SECURITY_LIMIT_INFORMATION, PJOBOBJECT_SECURITY_LIMIT_INFORMATION structure pointer, _JOBOBJECT_SECURITY_LIMIT_INFORMATION, _win32_jobobject_security_limit_information_str, base.jobobject_security_limit_information_str, winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION, winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION'
-f1_keywords:
-- winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- JOBOBJECT_SECURITY_LIMIT_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_SECURITY_LIMIT_INFORMATION, *PJOBOBJECT_SECURITY_LIMIT_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - winnt/_JOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - PJOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - winnt/PJOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - JOBOBJECT_SECURITY_LIMIT_INFORMATION
+ - winnt/JOBOBJECT_SECURITY_LIMIT_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - JOBOBJECT_SECURITY_LIMIT_INFORMATION
 ---
 
 # JOBOBJECT_SECURITY_LIMIT_INFORMATION structure
@@ -48,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[JOBOBJECT_SECURITY_LIMIT_INFORMATION is available for use in the operating systems specified in the Requirements section. Support for this structure was removed starting with Windows Vista. For information, see Remarks.]
 
 Contains the security limitations for a job object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SecurityLimitFlags
 
@@ -109,13 +110,11 @@ Forces processes in the job to run under a specific token. Requires a token hand
 </td>
 <td width="60%">
 Prevents any process in the job from using a token that was not created with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field JobToken
 
@@ -125,76 +124,60 @@ A handle to the primary token that represents a user. The handle must have TOKEN
 
 
 If the token was created with 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, all processes in the job are limited to that token or a further restricted token. Otherwise, the caller must have the SE_ASSIGNPRIMARYTOKEN_NAME privilege.
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, all processes in the job are limited to that token or a further restricted token. Otherwise, the caller must have the SE_ASSIGNPRIMARYTOKEN_NAME privilege.
 
 ### -field SidsToDisable
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the SIDs to disable for access checking, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the SIDs to disable for access checking, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
 
 This member can be NULL if you do not want to disable any SIDs.
 
-
 ### -field PrivilegesToDelete
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that specifies the privileges to delete from the token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a> structure that specifies the privileges to delete from the token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
 
 This member can be NULL if you do not want to delete any privileges.
 
-
 ### -field RestrictedSids
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the deny-only SIDs that will be added to the access token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the deny-only SIDs that will be added to the access token, if <b>SecurityLimitFlags</b> is JOB_OBJECT_SECURITY_FILTER_TOKENS. 
 
 
 
 
 This member can be NULL if you do not want to specify any deny-only SIDs.
 
-
 ## -remarks
-
-
 
 After security limitations are placed on processes in a job, they cannot be revoked.
 
-Starting with Windows Vista, you must set security limitations individually for each process associated with a job object, rather than setting them for the job object by using <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>. For information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
-
-
+Starting with Windows Vista, you must set security limitations individually for each process associated with a job object, rather than setting them for the job object by using <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>. For information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>

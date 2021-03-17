@@ -2,15 +2,12 @@
 UID: NF:wsdutil.WSDXMLAddSibling
 title: WSDXMLAddSibling function (wsdutil.h)
 description: Adds a sibling element.
+helpviewer_keywords: ["WSDXMLAddSibling","WSDXMLAddSibling function","ncd.wsdxmladdsibling","wsdutil/WSDXMLAddSibling"]
 old-location: ncd\wsdxmladdsibling.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
 ms.date: 12/05/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
-f1_keywords:
-- wsdutil/WSDXMLAddSibling
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDXMLAddSibling
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDXMLAddSibling
+ - wsdutil/WSDXMLAddSibling
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDXMLAddSibling
 ---
 
 # WSDXMLAddSibling function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a sibling element.
-
 
 ## -parameters
 
-
-
-
 ### -param pFirst [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the first sibling.
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the first sibling.
 
 ### -param pSecond [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the second sibling.
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the second sibling.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -101,7 +94,3 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-

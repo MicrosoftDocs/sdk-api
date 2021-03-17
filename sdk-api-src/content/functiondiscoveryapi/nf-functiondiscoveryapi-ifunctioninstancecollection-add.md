@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Add
 title: IFunctionInstanceCollection::Add (functiondiscoveryapi.h)
 description: Adds a function instance to the collection.
+helpviewer_keywords: ["Add","Add method","Add method","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","Add method","IFunctionInstanceCollection.Add","IFunctionInstanceCollection::Add","functiondiscoveryapi/IFunctionInstanceCollection::Add","ncd.ifunctioninstancecollection_add"]
 old-location: ncd\ifunctioninstancecollection_add.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: c77729f2-2524-4502-82d6-3a3be8344d94
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Add method, IFunctionInstanceCollection.Add, IFunctionInstanceCollection::Add, functiondiscoveryapi/IFunctionInstanceCollection::Add, ncd.ifunctioninstancecollection_add
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollection.Add
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollection::Add
+ - functiondiscoveryapi/IFunctionInstanceCollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollection.Add
 ---
 
 # IFunctionInstanceCollection::Add
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Adds a function instance to the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pIFunctionInstance [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the function instance to be added to the collection.
-
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the function instance to be added to the collection.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -109,18 +103,7 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>

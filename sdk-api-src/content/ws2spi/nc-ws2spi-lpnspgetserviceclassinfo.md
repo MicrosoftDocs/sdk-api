@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPGETSERVICECLASSINFO
 title: LPNSPGETSERVICECLASSINFO (ws2spi.h)
 description: Retrieves all the pertinent class information (schema) pertaining to the namespace provider.
+helpviewer_keywords: ["LPNSPGETSERVICECLASSINFO","NSPGetServiceClassInfo","NSPGetServiceClassInfo function [Winsock]","_win32_nspgetserviceclassinfo_2","winsock.nspgetserviceclassinfo_2","ws2spi/NSPGetServiceClassInfo"]
 old-location: winsock\nspgetserviceclassinfo_2.htm
 tech.root: WinSock
 ms.assetid: babe1c96-9077-4d91-a52a-839c89d7a83b
 ms.date: 12/05/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
-f1_keywords:
-- ws2spi/NSPGetServiceClassInfo
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPGetServiceClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPGETSERVICECLASSINFO
+ - ws2spi/LPNSPGETSERVICECLASSINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPGetServiceClassInfo
 ---
 
 ## -description
@@ -51,7 +53,7 @@ The **NSPGetServiceClassInfo** function retrieves all the pertinent class inform
 
 ### -param lpProviderId [in]
 
-A pointer to the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) of the specific namespace provider from which the service class schema is to be retrieved.
+A pointer to the [GUID](../guiddef/ns-guiddef-guid.md) of the specific namespace provider from which the service class schema is to be retrieved.
 
 ### -param lpdwBufSize [in, out]
 
@@ -65,6 +67,7 @@ On output, if the function fails and the error is
 Returns a pointer to <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFOW</a> structure that contains the service class to namespace-specific mapping information. The <i>lpServiceClassId</i> parameter must be filled to indicate which **WSASERVICECLASSINFOW** record should be returned.
 
 ## -returns
+
 If no error occurs, the **NSPGetServiceClassInfo** function returns **NO_ERROR** (zero). Otherwise, **SOCKET_ERROR** (–1) is returned and the namespace provider must set the appropriate error code using <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
 
 <table>
@@ -150,7 +153,7 @@ The specified class was not found.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
 
 The W2_32.dll uses this function to implement the 
@@ -159,9 +162,6 @@ The W2_32.dll uses this function to implement the
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspsetservice">NSPSetService</a> functions.
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspinstallserviceclass">NSPInstallServiceClass</a>
 
@@ -192,7 +192,3 @@ The W2_32.dll uses this function to implement the
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
-

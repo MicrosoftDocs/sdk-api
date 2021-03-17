@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.InsertEffect
 title: IMFPMediaPlayer::InsertEffect (mfplay.h)
 description: Applies an audio or video effect to playback.
+helpviewer_keywords: ["FALSE","IMFPMediaPlayer interface [Media Foundation]","InsertEffect method","IMFPMediaPlayer.InsertEffect","IMFPMediaPlayer::InsertEffect","InsertEffect","InsertEffect method [Media Foundation]","InsertEffect method [Media Foundation]","IMFPMediaPlayer interface","TRUE","mf.imfpmediaplayer_inserteffect","mfplay/IMFPMediaPlayer::InsertEffect"]
 old-location: mf\imfpmediaplayer_inserteffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
-f1_keywords:
-- mfplay/IMFPMediaPlayer.InsertEffect
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.InsertEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::InsertEffect
+ - mfplay/IMFPMediaPlayer::InsertEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.InsertEffect
 ---
 
 # IMFPMediaPlayer::InsertEffect
@@ -48,27 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Applies an audio or video effect to playback.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffect [in]
 
 Pointer to the <b>IUnknown</b> interface for one of the following: 
 
 <ul>
-<li>A Media Foundation transform (MFT) that implements the effect. MFTs expose the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
-<li>An activation object that creates an MFT. Activation objects expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
+<li>A Media Foundation transform (MFT) that implements the effect. MFTs expose the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
+<li>An activation object that creates an MFT. Activation objects expose the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
 </ul>
 
 ### -param fOptional [in]
@@ -101,12 +97,8 @@ If the MFPlay player object cannot add the effect, a playback error occurs.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -138,20 +130,14 @@ This effect was already added.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The object specified in the <i>pEffect</i> parameter can implement either a video effect or an audio effect. The effect is applied to any media items set after the method is called. It is not applied to the current media item. 
 
 For each media item, the effect is applied to the first selected stream of the matching type (audio or video). If a media item has two selected streams of the same type, the second stream does not receive the effect. The effect is ignored if the media item does not contain a stream that matches the effect type. For example, if you set a video effect and play a file that contains just audio, the video effect is ignored, although no error is raised.
 
-The effect is applied to all subsequent media items, until the application removes the effect. To remove an effect, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removeeffect">IMFPMediaPlayer::RemoveEffect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removealleffects">IMFPMediaPlayer::RemoveAllEffects</a>.
+The effect is applied to all subsequent media items, until the application removes the effect. To remove an effect, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removeeffect">IMFPMediaPlayer::RemoveEffect</a> or <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removealleffects">IMFPMediaPlayer::RemoveAllEffects</a>.
 
 If you set multiple effects of the same type (audio or video), they are applied in the same order in which you call <b>InsertEffect</b>.
 
@@ -191,25 +177,14 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

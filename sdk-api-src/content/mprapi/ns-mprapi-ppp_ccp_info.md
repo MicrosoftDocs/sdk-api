@@ -2,15 +2,12 @@
 UID: NS:mprapi._PPP_CCP_INFO
 title: PPP_CCP_INFO (mprapi.h)
 description: The PPP_CCP_INFO structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
+helpviewer_keywords: ["PPP_CCP_COMPRESSION","PPP_CCP_ENCRYPTION128BIT","PPP_CCP_ENCRYPTION40BIT","PPP_CCP_ENCRYPTION40BITOLD","PPP_CCP_ENCRYPTION56BIT","PPP_CCP_HISTORYLESS","PPP_CCP_INFO","PPP_CCP_INFO structure [RAS]","RASCCPCA_MPPC","RASCCPCA_STAC","_mpr_ppp_ccp_info","mprapi/PPP_CCP_INFO","rras.ppp_ccp_info"]
 old-location: rras\ppp_ccp_info.htm
 tech.root: RRAS
 ms.assetid: d50493c4-8a18-4cab-8973-a752f3f7f6c2
 ms.date: 12/05/2018
 ms.keywords: PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_CCP_INFO, PPP_CCP_INFO structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, _mpr_ppp_ccp_info, mprapi/PPP_CCP_INFO, rras.ppp_ccp_info
-f1_keywords:
-- mprapi/PPP_CCP_INFO
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- PPP_CCP_INFO
 targetos: Windows
 req.typenames: PPP_CCP_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PPP_CCP_INFO
+ - mprapi/_PPP_CCP_INFO
+ - PPP_CCP_INFO
+ - mprapi/PPP_CCP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - PPP_CCP_INFO
 ---
 
 # PPP_CCP_INFO structure
@@ -48,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PPP_CCP_INFO</b> structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwError
 
 Specifies an error if the negotiation is unsuccessful.
-
 
 ### -field dwCompressionAlgorithm
 
@@ -95,8 +93,6 @@ STAC option 4
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwOptions
 
@@ -170,8 +166,6 @@ MPPE using 128-bit keys.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwRemoteCompressionAlgorithm
 
@@ -205,8 +199,6 @@ STAC option 4
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwRemoteOptions
 
@@ -280,16 +272,7 @@ MPPE using 128-bit keys.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a>

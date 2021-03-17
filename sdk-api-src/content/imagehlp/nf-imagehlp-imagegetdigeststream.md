@@ -2,15 +2,12 @@
 UID: NF:imagehlp.ImageGetDigestStream
 title: ImageGetDigestStream function (imagehlp.h)
 description: Retrieves the requested data from the specified image file.
+helpviewer_keywords: ["CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO","CERT_PE_IMAGE_DIGEST_DEBUG_INFO","CERT_PE_IMAGE_DIGEST_RESOURCES","ImageGetDigestStream","ImageGetDigestStream function","_win32_imagegetdigeststream","base.imagegetdigeststream","imagehlp/ImageGetDigestStream"]
 old-location: base\imagegetdigeststream.htm
 tech.root: Debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
 ms.date: 12/05/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
-f1_keywords:
-- imagehlp/ImageGetDigestStream
-dev_langs:
-- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imagehlp.dll
-api_name:
-- ImageGetDigestStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageGetDigestStream
+ - imagehlp/ImageGetDigestStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imagehlp.dll
+api_name:
+ - ImageGetDigestStream
 ---
 
 # ImageGetDigestStream function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the requested data from the specified image file.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
 A handle to the image file. This handle must be opened for FILE_READ_DATA access.
-
 
 ### -param DigestLevel [in]
 
@@ -107,35 +103,24 @@ Include resource information.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param DigestFunction [in]
 
 A pointer to a callback routine to process the data. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a>.
-
+<a href="/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a>.
 
 ### -param DigestHandle [in]
 
- A user-supplied handle to the digest. This parameter is passed to <a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a> as the first argument.
-
+ A user-supplied handle to the digest. This parameter is passed to <a href="/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a> as the first argument.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The 
 <b>ImageGetDigestStream</b> function returns the data to be digested from a specified image file, subject to the passed <i>DigestLevel</i> parameter. The order of the bytes will be consistent for different calls, which is required to ensure that the same message digest is always produced from the retrieved byte stream.
@@ -153,16 +138,6 @@ If any of these are not specified, the remaining parts must be returned in the s
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

@@ -2,15 +2,12 @@
 UID: NS:msctf.TF_PRESERVEDKEY
 title: TF_PRESERVEDKEY (msctf.h)
 description: The TF_PRESERVEDKEY structure represents a preserved key.
+helpviewer_keywords: ["TF_PRESERVEDKEY","TF_PRESERVEDKEY structure [Text Services Framework]","_tsf_tf_preservedkey_ref","msctf/TF_PRESERVEDKEY","tsf.tf_preservedkey"]
 old-location: tsf\tf_preservedkey.htm
 tech.root: TSF
 ms.assetid: 95d37e94-3991-49c9-bddf-4183a69d49b9
 ms.date: 12/05/2018
 ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework], _tsf_tf_preservedkey_ref, msctf/TF_PRESERVEDKEY, tsf.tf_preservedkey
-f1_keywords:
-- msctf/TF_PRESERVEDKEY
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msctf.h
-api_name:
-- TF_PRESERVEDKEY
 targetos: Windows
 req.typenames: TF_PRESERVEDKEY
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TF_PRESERVEDKEY
+ - msctf/TF_PRESERVEDKEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msctf.h
+api_name:
+ - TF_PRESERVEDKEY
 ---
 
 # TF_PRESERVEDKEY structure
@@ -48,45 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TF_PRESERVEDKEY</b> structure represents a preserved key.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field uVKey
 
 Virtual key code of the keyboard shortcut.
 
-
 ### -field uModifiers
 
-Modifies the preserved key. This can be zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants</a>.
-
+Modifies the preserved key. This can be zero or a combination of one or more of the <a href="/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants</a>.
 
 ## -remarks
 
-
-
 Preserved keys are registered by TSF text services and provide keyboard shortcuts to common commands implemented by the TSF text service.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants
+<a href="/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants
       </a>
- 
-
- 
-

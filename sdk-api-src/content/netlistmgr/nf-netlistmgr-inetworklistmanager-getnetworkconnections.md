@@ -2,15 +2,12 @@
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnections
 title: INetworkListManager::GetNetworkConnections (netlistmgr.h)
 description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.
+helpviewer_keywords: ["GetNetworkConnections","GetNetworkConnections method [Network Awareness]","GetNetworkConnections method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetworkConnections method","INetworkListManager.GetNetworkConnections","INetworkListManager::GetNetworkConnections","netlistmgr/INetworkListManager::GetNetworkConnections","nla.inetworklistmanager_getnetworkconnections"]
 old-location: nla\inetworklistmanager_getnetworkconnections.htm
 tech.root: nla
 ms.assetid: ddbf02ae-3232-4866-b4c1-e4611b680f9f
 ms.date: 12/05/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnections method, INetworkListManager.GetNetworkConnections, INetworkListManager::GetNetworkConnections, netlistmgr/INetworkListManager::GetNetworkConnections, nla.inetworklistmanager_getnetworkconnections
-f1_keywords:
-- netlistmgr/INetworkListManager.GetNetworkConnections
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkListManager.GetNetworkConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkListManager::GetNetworkConnections
+ - netlistmgr/INetworkListManager::GetNetworkConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkListManager.GetNetworkConnections
 ---
 
 # INetworkListManager::GetNetworkConnections
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNetworkConnections</b> method enumerates a complete list of the network connections that have been made.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance that enumerates all network connections on the machine.
-
+Pointer to a pointer that receives an <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance that enumerates all network connections on the machine.
 
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -85,18 +79,7 @@ The pointer passed is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSensorProcessActivity.GetProcessId
 title: IMFSensorProcessActivity::GetProcessId (mfidl.h)
 description: Gets the ID of the process with which the activity is associated.
+helpviewer_keywords: ["GetProcessId","GetProcessId method [Media Foundation]","GetProcessId method [Media Foundation]","IMFSensorProcessActivity interface","IMFSensorProcessActivity interface [Media Foundation]","GetProcessId method","IMFSensorProcessActivity.GetProcessId","IMFSensorProcessActivity::GetProcessId","mf.imfsensorprocessactivity_getprocessid","mfidl/IMFSensorProcessActivity::GetProcessId"]
 old-location: mf\imfsensorprocessactivity_getprocessid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.date: 12/05/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
-f1_keywords:
-- mfidl/IMFSensorProcessActivity.GetProcessId
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorProcessActivity.GetProcessId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProcessActivity::GetProcessId
+ - mfidl/IMFSensorProcessActivity::GetProcessId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorProcessActivity.GetProcessId
 ---
 
 # IMFSensorProcessActivity::GetProcessId
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the ID of the process with which the activity is associated.
 
-
 ## -parameters
-
-
-
 
 ### -param pPID [out]
 
 Receives the process ID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -101,18 +95,7 @@ The <i>pPID</i> parameter is null.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>

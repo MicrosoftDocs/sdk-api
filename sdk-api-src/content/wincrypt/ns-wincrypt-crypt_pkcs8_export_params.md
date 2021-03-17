@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPT_PKCS8_EXPORT_PARAMS
 title: CRYPT_PKCS8_EXPORT_PARAMS (wincrypt.h)
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS
+helpviewer_keywords: ["*PCRYPT_PKCS8_EXPORT_PARAMS","AT_KEYEXCHANGE","AT_SIGNATURE","CRYPT_PKCS8_EXPORT_PARAMS","CRYPT_PKCS8_EXPORT_PARAMS structure [Security]","PCRYPT_PKCS8_EXPORT_PARAMS","PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security]","security.crypt_pkcs8_export_params","wincrypt/CRYPT_PKCS8_EXPORT_PARAMS","wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"]
 old-location: security\crypt_pkcs8_export_params.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS'
-f1_keywords:
-- wincrypt/CRYPT_PKCS8_EXPORT_PARAMS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_PKCS8_EXPORT_PARAMS
 targetos: Windows
 req.typenames: CRYPT_PKCS8_EXPORT_PARAMS, *PCRYPT_PKCS8_EXPORT_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_PKCS8_EXPORT_PARAMS
+ - wincrypt/_CRYPT_PKCS8_EXPORT_PARAMS
+ - PCRYPT_PKCS8_EXPORT_PARAMS
+ - wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS
+ - CRYPT_PKCS8_EXPORT_PARAMS
+ - wincrypt/CRYPT_PKCS8_EXPORT_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_PKCS8_EXPORT_PARAMS
 ---
 
 # CRYPT_PKCS8_EXPORT_PARAMS structure
@@ -48,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>CRYPT_PKCS8_EXPORT_PARAMS</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PKCS8_EXPORT_PARAMS</b> structure identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and a callback function to encrypt the private key. <b>CRYPT_PKCS8_EXPORT_PARAMS</b> is used as a parameter to the  
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a> function, which exports a private key in PKCS #8 format.
-
+The <b>CRYPT_PKCS8_EXPORT_PARAMS</b> structure identifies the <a href="/windows/desktop/SecGloss/p-gly">private key</a> and a callback function to encrypt the private key. <b>CRYPT_PKCS8_EXPORT_PARAMS</b> is used as a parameter to the  
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a> function, which exports a private key in PKCS #8 format.
 
 ## -struct-fields
 
-
-
-
 ### -field hCryptProv
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> variable that contains a handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to encrypt the private key. This is a handle to the CSP obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
+An <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> variable that contains a handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used to encrypt the private key. This is a handle to the CSP obtained by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ### -field dwKeySpec
 
@@ -95,43 +95,31 @@ Keys used to create and verify digital signatures.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszPrivateKeyObjId
 
-An <b>LPSTR</b>  variable that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the private key to be exported.
-
+An <b>LPSTR</b>  variable that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the private key to be exported.
 
 ### -field pEncryptPrivateKeyFunc
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a> pointer that points to a callback to a function that encrypts the private key.  If this is <b>NULL</b>, the private key is  not  encrypted, and a PKCS #8 <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure will not be generated by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>.
-
+A <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a> pointer that points to a callback to a function that encrypts the private key.  If this is <b>NULL</b>, the private key is  not  encrypted, and a PKCS #8 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure will not be generated by <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>.
 
 ### -field pVoidEncryptFunc
 
 A <b>LPVOID</b> value that provides data used for encryption, such as key, initialization vector, and password.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>

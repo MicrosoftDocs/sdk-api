@@ -2,15 +2,12 @@
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_customSettingsApplied
 title: IWindowsMediaLibrarySharingServices::get_customSettingsApplied (wmlss.h)
 description: The get_customSettingsApplied method retrieves a value that indicates whether any custom media-sharing settings are in place for the current user.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","get_customSettingsApplied method","IWindowsMediaLibrarySharingServices.get_customSettingsApplied","IWindowsMediaLibrarySharingServices::get_customSettingsApplied","get_customSettingsApplied","get_customSettingsApplied method [Windows Media Library Sharing Services]","get_customSettingsApplied method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSget_customSettingsApplied","wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied"]
 old-location: wmlss\IWMLSSget_customSettingsApplied.htm
 tech.root: WMLSS
 ms.assetid: f0e4f5b8-2dcc-4e29-b59d-731608e5b8dd
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_customSettingsApplied method, IWindowsMediaLibrarySharingServices.get_customSettingsApplied, IWindowsMediaLibrarySharingServices::get_customSettingsApplied, get_customSettingsApplied, get_customSettingsApplied method [Windows Media Library Sharing Services], get_customSettingsApplied method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_customSettingsApplied, wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingServices.get_customSettingsApplied
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingServices.get_customSettingsApplied
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingServices::get_customSettingsApplied
+ - wmlss/IWindowsMediaLibrarySharingServices::get_customSettingsApplied
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingServices.get_customSettingsApplied
 ---
 
 # IWindowsMediaLibrarySharingServices::get_customSettingsApplied
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_customSettingsApplied</b> method retrieves a value that indicates whether any custom media-sharing settings are in place for the current user.
 
-
 ## -parameters
-
-
-
 
 ### -param customSettingsApplied [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that receives <b>VARIANT_TRUE</b> if any custom settings are in place for the current user and <b>VARIANT_FALSE</b> if the default settings are in place for the current user.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,7 +79,4 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
 

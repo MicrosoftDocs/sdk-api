@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout (ctffunc.h)
 description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
+helpviewer_keywords: ["GetLayout","GetLayout method [Text Services Framework]","GetLayout method [Text Services Framework]","ITfFnGetPreferredTouchKeyboardLayout interface","ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework]","GetLayout method","ITfFnGetPreferredTouchKeyboardLayout.GetLayout","ITfFnGetPreferredTouchKeyboardLayout::GetLayout","ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout","tsf.itffngetpreferredtouchkeyboardlayout_getlayout"]
 old-location: tsf\itffngetpreferredtouchkeyboardlayout_getlayout.htm
 tech.root: TSF
 ms.assetid: 03C14744-A4A3-4C62-8E7F-CDCC638BBCA1
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout method [Text Services Framework], GetLayout method [Text Services Framework],ITfFnGetPreferredTouchKeyboardLayout interface, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],GetLayout method, ITfFnGetPreferredTouchKeyboardLayout.GetLayout, ITfFnGetPreferredTouchKeyboardLayout::GetLayout, ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout, tsf.itffngetpreferredtouchkeyboardlayout_getlayout
-f1_keywords:
-- ctffunc/ITfFnGetPreferredTouchKeyboardLayout.GetLayout
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnGetPreferredTouchKeyboardLayout::GetLayout
+ - ctffunc/ITfFnGetPreferredTouchKeyboardLayout::GetLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfFnGetPreferredTouchKeyboardLayout.GetLayout
 ---
 
 # ITfFnGetPreferredTouchKeyboardLayout::GetLayout
@@ -48,40 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
-
 
 ## -parameters
 
-
-
-
 ### -param pTKBLayoutType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> enumeration that receives the layout type.
-
+Pointer to a <a href="/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> enumeration that receives the layout type.
 
 ### -param pwPreferredLayoutId [out]
 
 Pointer to a <b>WORD</b> value that receives the layout identifier.
 
-
 ## -returns
-
-
 
 The touch keyboard always expects S_OK.
 
-
-
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> is an enumeration with the following values.
+<a href="/windows/win32/api/ctffunc/ne-ctffunc-tkblayouttype">TKBLayoutType</a> is an enumeration with the following values.
 
 <table>
 <tr>
@@ -160,18 +147,7 @@ There is no way to request support for other layouts, or to add new touch optimi
 <td>CHT</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout">ITfFnGetPreferredTouchKeyboardLayout</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetpreferredtouchkeyboardlayout">ITfFnGetPreferredTouchKeyboardLayout</a>

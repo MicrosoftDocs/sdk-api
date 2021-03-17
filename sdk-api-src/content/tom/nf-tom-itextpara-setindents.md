@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.SetIndents
 title: ITextPara::SetIndents (tom.h)
 description: Sets the first-line indent, the left indent, and the right indent for a paragraph.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetIndents method","ITextPara.SetIndents","ITextPara::SetIndents","SetIndents","SetIndents method [Windows Controls]","SetIndents method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetIndents","_win32_ITextPara_SetIndents_cpp","controls.ITextPara_SetIndents","controls._win32_ITextPara_SetIndents","tom/ITextPara::SetIndents"]
 old-location: controls\ITextPara_SetIndents.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindents.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetIndents method, ITextPara.SetIndents, ITextPara::SetIndents, SetIndents, SetIndents method [Windows Controls], SetIndents method [Windows Controls],ITextPara interface, _win32_ITextPara_SetIndents, _win32_ITextPara_SetIndents_cpp, controls.ITextPara_SetIndents, controls._win32_ITextPara_SetIndents, tom/ITextPara::SetIndents
-f1_keywords:
-- tom/ITextPara.SetIndents
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetIndents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetIndents
+ - tom/ITextPara::SetIndents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetIndents
 ---
 
 # ITextPara::SetIndents
@@ -48,43 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the first-line indent, the left indent, and the right indent for a paragraph. 
-
+Sets the first-line indent, the left indent, and the right indent for a paragraph.
 
 ## -parameters
-
-
-
 
 ### -param First [in]
 
 Type: <b>float</b>
 
-Indent of the first line in a paragraph, relative to the left indent. The value is in floating-point points and can be positive or negative. 
-
+Indent of the first line in a paragraph, relative to the left indent. The value is in floating-point points and can be positive or negative.
 
 ### -param Left [in]
 
 Type: <b>float</b>
 
-Left indent of all lines except the first line in a paragraph, relative to left margin. The value is in floating-point points and can be positive or negative. 
-
+Left indent of all lines except the first line in a paragraph, relative to left margin. The value is in floating-point points and can be positive or negative.
 
 ### -param Right [in]
 
 Type: <b>float</b>
 
-Right indent of all lines in paragraph, relative to the right margin. The value is in floating-point points and can be positive or negative. This value is optional. 
-
+Right indent of all lines in paragraph, relative to the right margin. The value is in floating-point points and can be positive or negative. This value is optional.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetIndents</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetIndents</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -147,30 +139,18 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
-
-
-
+Line indents are not allowed to position text in the margins. If the first-line indent is set to a negative value (for an outdented paragraph) while the left indent is zero, the first-line indent is reset to zero. To avoid this problem while retaining property sets, set the first-line indent value equal to zero either explicitly or by calling the <a href="/windows/desktop/api/tom/nf-tom-itextpara-reset">ITextPara::Reset</a> method. Then, call <b>ITextPara::SetIndents</b> to set a nonnegative, left-indent value and set the desired first-line indent.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -178,12 +158,8 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-reset">Reset</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-reset">Reset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

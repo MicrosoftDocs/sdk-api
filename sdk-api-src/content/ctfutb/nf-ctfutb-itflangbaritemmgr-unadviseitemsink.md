@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarItemMgr.UnadviseItemSink
 title: ITfLangBarItemMgr::UnadviseItemSink (ctfutb.h)
 description: ITfLangBarItemMgr::UnadviseItemSink method
+helpviewer_keywords: ["ITfLangBarItemMgr interface [Text Services Framework]","UnadviseItemSink method","ITfLangBarItemMgr.UnadviseItemSink","ITfLangBarItemMgr::UnadviseItemSink","UnadviseItemSink","UnadviseItemSink method [Text Services Framework]","UnadviseItemSink method [Text Services Framework]","ITfLangBarItemMgr interface","_tsf_itflangbaritemmgr_unadviseitemsink_ref","ctfutb/ITfLangBarItemMgr::UnadviseItemSink","tsf.itflangbaritemmgr_unadviseitemsink"]
 old-location: tsf\itflangbaritemmgr_unadviseitemsink.htm
 tech.root: TSF
 ms.assetid: 20a0f69b-950e-4ad7-9357-74f0b4a75c6b
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemSink method, ITfLangBarItemMgr.UnadviseItemSink, ITfLangBarItemMgr::UnadviseItemSink, UnadviseItemSink, UnadviseItemSink method [Text Services Framework], UnadviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemsink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemSink, tsf.itflangbaritemmgr_unadviseitemsink
-f1_keywords:
-- ctfutb/ITfLangBarItemMgr.UnadviseItemSink
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemMgr.UnadviseItemSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemMgr::UnadviseItemSink
+ - ctfutb/ITfLangBarItemMgr::UnadviseItemSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemMgr.UnadviseItemSink
 ---
 
 # ITfLangBarItemMgr::UnadviseItemSink
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes a language bar item event sink.
 
 ## -parameters
 
-
-
-
 ### -param dwCookie [in]
 
-Contains a <i>DWORD</i> that identifies the advise sink to remove. This cookie is obtained when the advise sink is installed with <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">ITfLangBarItemMgr::AdviseItemSink</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">ITfLangBarItemMgr::AdviseItemsSink</a>.
-
+Contains a <i>DWORD</i> that identifies the advise sink to remove. This cookie is obtained when the advise sink is installed with <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">ITfLangBarItemMgr::AdviseItemSink</a> or <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">ITfLangBarItemMgr::AdviseItemsSink</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,28 +90,17 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">ITfLangBarItemMgr::AdviseItemSink
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemsink">ITfLangBarItemMgr::AdviseItemSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">ITfLangBarItemMgr::AdviseItemsSink
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-adviseitemssink">ITfLangBarItemMgr::AdviseItemsSink
       </a>
- 
-
- 
-

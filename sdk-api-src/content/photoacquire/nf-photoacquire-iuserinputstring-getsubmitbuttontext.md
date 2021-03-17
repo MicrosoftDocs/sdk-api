@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IUserInputString.GetSubmitButtonText
 title: IUserInputString::GetSubmitButtonText (photoacquire.h)
 description: The GetSubmitButtonText method retrieves the text for the submit button.
+helpviewer_keywords: ["GetSubmitButtonText","GetSubmitButtonText method [Picture Acquisition]","GetSubmitButtonText method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetSubmitButtonText method","IUserInputString.GetSubmitButtonText","IUserInputString::GetSubmitButtonText","IUserInputStringGetSubmitButtonText","photoacquire/IUserInputString::GetSubmitButtonText","picacq.iuserinputstring_getsubmitbuttontext"]
 old-location: picacq\iuserinputstring_getsubmitbuttontext.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 00cb081a-9077-4ecc-9a1f-002072e6ddda
 ms.date: 12/05/2018
 ms.keywords: GetSubmitButtonText, GetSubmitButtonText method [Picture Acquisition], GetSubmitButtonText method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetSubmitButtonText method, IUserInputString.GetSubmitButtonText, IUserInputString::GetSubmitButtonText, IUserInputStringGetSubmitButtonText, photoacquire/IUserInputString::GetSubmitButtonText, picacq.iuserinputstring_getsubmitbuttontext
-f1_keywords:
-- photoacquire/IUserInputString.GetSubmitButtonText
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetSubmitButtonText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetSubmitButtonText
+ - photoacquire/IUserInputString::GetSubmitButtonText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetSubmitButtonText
 ---
 
 # IUserInputString::GetSubmitButtonText
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetSubmitButtonText</code> method retrieves the text for the submit button.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrSubmitButtonText [out]
 
 Pointer to a string containing the submit button text.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +91,7 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:winioctl._SHRINK_VOLUME_INFORMATION
 title: SHRINK_VOLUME_INFORMATION
 description: Specifies the volume shrink operation to perform.
+helpviewer_keywords: ["*PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION","PSHRINK_VOLUME_INFORMATION structure pointer [Files]","SHRINK_VOLUME_INFORMATION","SHRINK_VOLUME_INFORMATION structure [Files]","ShrinkAbort","ShrinkCommit","ShrinkPrepare","fs.shrink_volume_information","winioctl/PSHRINK_VOLUME_INFORMATION","winioctl/SHRINK_VOLUME_INFORMATION"]
 old-location: fs\shrink_volume_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea
 ms.date: 12/05/2018
 ms.keywords: '*PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION, PSHRINK_VOLUME_INFORMATION structure pointer [Files], SHRINK_VOLUME_INFORMATION, SHRINK_VOLUME_INFORMATION structure [Files], ShrinkAbort, ShrinkCommit, ShrinkPrepare, fs.shrink_volume_information, winioctl/PSHRINK_VOLUME_INFORMATION, winioctl/SHRINK_VOLUME_INFORMATION'
-f1_keywords:
-- winioctl/SHRINK_VOLUME_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- SHRINK_VOLUME_INFORMATION
 targetos: Windows
 req.typenames: SHRINK_VOLUME_INFORMATION, *PSHRINK_VOLUME_INFORMATION
 req.redist: 
+f1_keywords:
+ - _SHRINK_VOLUME_INFORMATION
+ - winioctl/_SHRINK_VOLUME_INFORMATION
+ - PSHRINK_VOLUME_INFORMATION
+ - winioctl/PSHRINK_VOLUME_INFORMATION
+ - SHRINK_VOLUME_INFORMATION
+ - winioctl/SHRINK_VOLUME_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - SHRINK_VOLUME_INFORMATION
 ---
 
 # SHRINK_VOLUME_INFORMATION structure
@@ -47,14 +53,9 @@ req.redist:
 
 ## -description
 
-
 Specifies the volume shrink operation to perform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ShrinkRequestType
 
@@ -96,26 +97,15 @@ Volume should terminate the shrink operation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
 This member must be zero.
 
-
 ### -field NewNumberOfSectors
 
 The number of sectors that should be in the shrunken volume. Used only when the <b>ShrinkRequestType</b> member is <b>ShrinkPrepare</b>, otherwise this member should be initialized to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>

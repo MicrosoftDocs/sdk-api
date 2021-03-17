@@ -2,15 +2,12 @@
 UID: NF:traceloggingprovider.TraceLoggingSocketAddress
 title: TraceLoggingSocketAddress macro (traceloggingprovider.h)
 description: A wrapper macro that provides trace logging for socket addresses.
+helpviewer_keywords: ["TraceLoggingSocketAddress","TraceLoggingSocketAddress macro","tracelogging.traceloggingsocketaddress","traceloggingprovider/TraceLoggingSocketAddress"]
 old-location: tracelogging\traceloggingsocketaddress.htm
 tech.root: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
-f1_keywords:
-- traceloggingprovider/TraceLoggingSocketAddress
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingSocketAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingSocketAddress
+ - traceloggingprovider/TraceLoggingSocketAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingSocketAddress
 ---
 
 # TraceLoggingSocketAddress macro
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 A wrapper macro that provides trace logging for socket addresses.
 
-
 ## -parameters
-
-
-
 
 ### -param pSockAddr [in]
 
 A pointer to a sockaddr structure.
-
 
 ### -param cbSockAddr [in]
 

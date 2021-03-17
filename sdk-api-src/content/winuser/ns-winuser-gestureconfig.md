@@ -2,15 +2,12 @@
 UID: NS:winuser.tagGESTURECONFIG
 title: GESTURECONFIG (winuser.h)
 description: Gets and sets the configuration for enabling gesture messages and the type of this configuration.
+helpviewer_keywords: ["*PGESTURECONFIG","GESTURECONFIG","GESTURECONFIG structure [Windows Touch]","PGESTURECONFIG","PGESTURECONFIG structure pointer [Windows Touch]","tagGESTURECONFIG","wintouch.gestureconfig","winuser/GESTURECONFIG","winuser/PGESTURECONFIG"]
 old-location: wintouch\gestureconfig.htm
 tech.root: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
 ms.date: 12/05/2018
 ms.keywords: '*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG'
-f1_keywords:
-- winuser/GESTURECONFIG
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winuser.h
-api_name:
-- GESTURECONFIG
 targetos: Windows
 req.typenames: GESTURECONFIG, *PGESTURECONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagGESTURECONFIG
+ - winuser/tagGESTURECONFIG
+ - PGESTURECONFIG
+ - winuser/PGESTURECONFIG
+ - GESTURECONFIG
+ - winuser/GESTURECONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winuser.h
+api_name:
+ - GESTURECONFIG
 ---
 
 # GESTURECONFIG structure
@@ -48,35 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets the configuration for 
   enabling gesture messages and the type of this configuration.
-  
-
 
 ## -struct-fields
-
-
-
 
 ### -field dwID
 
 The identifier for the type of configuration that will have messages enabled or disabled. For more information, see Remarks.
 
-
 ### -field dwWant
 
 The messages to enable.
-
 
 ### -field dwBlock
 
 The messages to disable.
 
-
 ## -remarks
-
-
 
 It is impossible to disable two-finger panning and keep single finger panning.
       You must set the want bits for GC_PAN before you can set them for GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY 
@@ -84,7 +79,7 @@ It is impossible to disable two-finger panning and keep single finger panning.
 		
 
 An inertia vector is included in the GID_PAN message with the GF_END flag if inertia was disabled by a call to 
-		<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>.
+		<a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>.
 		
 
 When you pass this structure, the <i>dwID</i> member contains information 
@@ -200,9 +195,9 @@ The following flags are used when <i>dwID</i> is set to GID_PAN.
 </table>
  
 
-<div class="alert"><b>Note</b>  Setting the <b>GID_PAN</b> flags in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a> will affect the default gesture handler for panning.
+<div class="alert"><b>Note</b>  Setting the <b>GID_PAN</b> flags in <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a> will affect the default gesture handler for panning.
     You should not have both <b>dwWant</b> and <b>dwBlock</b> set for the same flags; this will result in unexpected behavior.  
-    See  <a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Windows Touch Gestures</a> for more information on panning 
+    See  <a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Windows Touch Gestures</a> for more information on panning 
     and legacy panning support; see <b>SetGestureConfig</b> for examples  of enabling and blocking gestures.</div>
 <div> </div>
 The following flags are used when <i>dwID</i> is set to GID_ROTATE.
@@ -272,25 +267,14 @@ The following flags are used when <i>dwID</i> is set to GID_PRESSANDTAP.
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setgestureconfig">SetGestureConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/mtstructures">Structures</a>

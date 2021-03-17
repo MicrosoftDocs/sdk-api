@@ -2,15 +2,12 @@
 UID: NS:winuser.tagTITLEBARINFO
 title: TITLEBARINFO (winuser.h)
 description: Contains title bar information.
+helpviewer_keywords: ["*LPTITLEBARINFO","*PTITLEBARINFO","LPTITLEBARINFO","LPTITLEBARINFO structure pointer [Windows and Messages]","PTITLEBARINFO","PTITLEBARINFO structure pointer [Windows and Messages]","STATE_SYSTEM_FOCUSABLE","STATE_SYSTEM_INVISIBLE","STATE_SYSTEM_OFFSCREEN","STATE_SYSTEM_PRESSED","STATE_SYSTEM_UNAVAILABLE","TITLEBARINFO","TITLEBARINFO structure [Windows and Messages]","_win32_TITLEBARINFO_str","_win32_titlebarinfo_str_cpp","winmsg.titlebarinfo","winui._win32_titlebarinfo_str","winuser/LPTITLEBARINFO","winuser/PTITLEBARINFO","winuser/TITLEBARINFO"]
 old-location: winmsg\titlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO'
-f1_keywords:
-- winuser/TITLEBARINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- TITLEBARINFO
 targetos: Windows
 req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTITLEBARINFO
+ - winuser/tagTITLEBARINFO
+ - PTITLEBARINFO
+ - winuser/PTITLEBARINFO
+ - TITLEBARINFO
+ - winuser/TITLEBARINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - TITLEBARINFO
 ---
 
 # TITLEBARINFO structure
@@ -48,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains title bar information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the structure. The caller must set this member to <code>sizeof(TITLEBARINFO)</code>. 
-
+The size, in bytes, of the structure. The caller must set this member to <code>sizeof(TITLEBARINFO)</code>.
 
 ### -field rcTitleBar
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The coordinates of the title bar. These coordinates include all title-bar elements except the window menu. 
-
+The coordinates of the title bar. These coordinates include all title-bar elements except the window menu.
 
 ### -field rgstate
 
@@ -174,19 +173,14 @@ The element is in the pressed state.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo">GetTitleBarInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo">GetTitleBarInfo</a>
 
 
 
@@ -194,8 +188,4 @@ The element is in the pressed state.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IMtsEvents.PostEvent
 title: IMtsEvents::PostEvent (comsvcs.h)
 description: Posts a user-defined event to an event sink.
+helpviewer_keywords: ["IMtsEvents interface [COM+]","PostEvent method","IMtsEvents.PostEvent","IMtsEvents::PostEvent","PostEvent","PostEvent method [COM+]","PostEvent method [COM+]","IMtsEvents interface","_dtc_IMtsEvents_PostEvent","comsvcs/IMtsEvents::PostEvent","cos.imtsevents_postevent"]
 old-location: cos\imtsevents_postevent.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 4dcbe3d9-f81b-4014-a3b4-16706e691cb0
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents interface [COM+],PostEvent method, IMtsEvents.PostEvent, IMtsEvents::PostEvent, PostEvent, PostEvent method [COM+], PostEvent method [COM+],IMtsEvents interface, _dtc_IMtsEvents_PostEvent, comsvcs/IMtsEvents::PostEvent, cos.imtsevents_postevent
-f1_keywords:
-- comsvcs/IMtsEvents.PostEvent
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IMtsEvents.PostEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMtsEvents::PostEvent
+ - comsvcs/IMtsEvents::PostEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IMtsEvents.PostEvent
 ---
 
 # IMtsEvents::PostEvent
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Posts a user-defined event to an event sink.
 
-
 ## -parameters
-
-
-
 
 ### -param vEvent [in]
 
 A pointer to the name of the event.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>

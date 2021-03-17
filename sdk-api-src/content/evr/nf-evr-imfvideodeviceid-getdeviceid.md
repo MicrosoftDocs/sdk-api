@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDeviceID.GetDeviceID
 title: IMFVideoDeviceID::GetDeviceID (evr.h)
 description: Returns the identifier of the video device supported by an EVR mixer or presenter.
+helpviewer_keywords: ["GetDeviceID","GetDeviceID method [Media Foundation]","GetDeviceID method [Media Foundation]","IMFVideoDeviceID interface","IMFVideoDeviceID interface [Media Foundation]","GetDeviceID method","IMFVideoDeviceID.GetDeviceID","IMFVideoDeviceID::GetDeviceID","e23ebce0-be58-413a-ab71-d94811c96029","evr/IMFVideoDeviceID::GetDeviceID","mf.imfvideodeviceid_getdeviceid"]
 old-location: mf\imfvideodeviceid_getdeviceid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029
 ms.date: 12/05/2018
 ms.keywords: GetDeviceID, GetDeviceID method [Media Foundation], GetDeviceID method [Media Foundation],IMFVideoDeviceID interface, IMFVideoDeviceID interface [Media Foundation],GetDeviceID method, IMFVideoDeviceID.GetDeviceID, IMFVideoDeviceID::GetDeviceID, e23ebce0-be58-413a-ab71-d94811c96029, evr/IMFVideoDeviceID::GetDeviceID, mf.imfvideodeviceid_getdeviceid
-f1_keywords:
-- evr/IMFVideoDeviceID.GetDeviceID
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDeviceID.GetDeviceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDeviceID::GetDeviceID
+ - evr/IMFVideoDeviceID::GetDeviceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDeviceID.GetDeviceID
 ---
 
 # IMFVideoDeviceID::GetDeviceID
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns the identifier of the video device supported by an EVR mixer or presenter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDeviceID [out]
 
 Receives the device identifier. Generally, the value is IID_IDirect3DDevice9.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,31 +91,15 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a mixer or presenter uses Direct3D 9, it must return the value IID_IDirect3DDevice9 in <i>pDeviceID</i>. The EVR's default mixer and presenter both return this value. If you write a custom mixer or presenter, it can return some other value. However, the mixer and presenter must use matching device identifiers.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodeviceid">IMFVideoDeviceID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodeviceid">IMFVideoDeviceID</a>

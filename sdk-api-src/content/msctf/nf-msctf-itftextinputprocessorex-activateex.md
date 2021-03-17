@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfTextInputProcessorEx.ActivateEx
 title: ITfTextInputProcessorEx::ActivateEx (msctf.h)
 description: The ITfTextInputProcessorEx::ActivateEx method activates a text service when a user session starts. If the text service implements ITfTextInputProcessorEx and ActivateEx is called, ITfTextInputProcessor::Activate will not be called.
+helpviewer_keywords: ["ActivateEx","ActivateEx method [Text Services Framework]","ActivateEx method [Text Services Framework]","ITfTextInputProcessorEx interface","ITfTextInputProcessorEx interface [Text Services Framework]","ActivateEx method","ITfTextInputProcessorEx.ActivateEx","ITfTextInputProcessorEx::ActivateEx","TF_TMAE_COMLESS","TF_TMAE_CONSOLE","TF_TMAE_SECUREMODE","TF_TMAE_WOW16","msctf/ITfTextInputProcessorEx::ActivateEx","tsf.itftextinputprocessorex_activateex"]
 old-location: tsf\itftextinputprocessorex_activateex.htm
 tech.root: TSF
 ms.assetid: b628e803-ea94-4e69-9919-94e4164d5b36
 ms.date: 12/05/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfTextInputProcessorEx interface, ITfTextInputProcessorEx interface [Text Services Framework],ActivateEx method, ITfTextInputProcessorEx.ActivateEx, ITfTextInputProcessorEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_CONSOLE, TF_TMAE_SECUREMODE, TF_TMAE_WOW16, msctf/ITfTextInputProcessorEx::ActivateEx, tsf.itftextinputprocessorex_activateex
-f1_keywords:
-- msctf/ITfTextInputProcessorEx.ActivateEx
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfTextInputProcessorEx.ActivateEx
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfTextInputProcessorEx::ActivateEx
+ - msctf/ITfTextInputProcessorEx::ActivateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfTextInputProcessorEx.ActivateEx
 ---
 
 # ITfTextInputProcessorEx::ActivateEx
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> will not be called.
-
+The <b>ITfTextInputProcessorEx::ActivateEx</b> method activates a text service when a user session starts. If the text service implements <b>ITfTextInputProcessorEx</b> and <b>ActivateEx</b> is called, <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate</a> will not be called.
 
 ## -parameters
-
-
-
 
 ### -param ptim [in]
 
 [in] Pointer to the ITfThreadMgr interface for the thread manager that owns the text service.
 
-
 ### -param tid [in]
 
 [in] Specifies the client identifier for the text service.
-
 
 ### -param dwFlags [in]
 
@@ -117,14 +112,7 @@ A text service is activated for console usage.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The TSF manager ignores the return value of this method.
-
-
-

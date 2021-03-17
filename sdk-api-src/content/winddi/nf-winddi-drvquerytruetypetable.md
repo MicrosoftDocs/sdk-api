@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvQueryTrueTypeTable
 title: DrvQueryTrueTypeTable function (winddi.h)
 description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
+helpviewer_keywords: ["DrvQueryTrueTypeTable","DrvQueryTrueTypeTable function [Display Devices]","ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml","display.drvquerytruetypetable","winddi/DrvQueryTrueTypeTable"]
 old-location: display\drvquerytruetypetable.htm
 tech.root: display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c
 ms.date: 12/05/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
-f1_keywords:
-- winddi/DrvQueryTrueTypeTable
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryTrueTypeTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryTrueTypeTable
+ - winddi/DrvQueryTrueTypeTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryTrueTypeTable
 ---
 
 # DrvQueryTrueTypeTable function
@@ -48,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryTrueTypeTable</b> function accesses specific tables in a TrueType font-description file.
-
 
 ## -parameters
 
-
-
-
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the driver-provided TrueType font file. This pointer is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
-
+Pointer to a driver-defined value that identifies the driver-provided TrueType font file. This pointer is obtained from <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param ulFont
 
 Specifies the one-based index of the driver font.
 
-
 ### -param ulTag
 
 Specifies the table to access. If <i>ulTag</i> is zero, the driver should return access to the entire file.
-
 
 ### -param dpStart
 
 Specifies the offset from the beginning of the tables from which to begin access. If <i>ulTag</i> is zero, <i>dpStart</i> is the offset from the beginning of the file.
 
-
 ### -param cjBuf
 
 Specifies the size in bytes of the buffer to which <i>pjBuf</i> points, or zero.
-
 
 ### -param pjBuf
 
 If not <b>NULL</b>, points to the buffer into which the driver should copy the table or font data.
 
-
 ### -param ppjTable
 
 If not <b>NULL</b>, points to the location in which the driver should return the address of the table or font data.
-
 
 ### -param pcjTable
 
 If not <b>NULL</b>, points to the location in which the driver should return the length in bytes of the table or font data to which *<i>ppjTable</i> points.
 
-
 ## -returns
-
-
 
 <b>DrvQueryTrueTypeTable</b> returns one of the following values:
 
@@ -109,11 +96,7 @@ If not <b>NULL</b>, points to the location in which the driver should return the
 <li>If an error occurs, FD_ERROR. </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 <b>DrvQueryTrueTypeTable</b> must be implemented in TrueType font drivers.
 
@@ -130,15 +113,6 @@ When neither <i>ppjTable</i> nor <i>pcjTable</i> are <b>NULL</b>, the driver sho
 </li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>

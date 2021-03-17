@@ -2,15 +2,12 @@
 UID: NS:ncrypt.__NCRYPT_UI_POLICY
 title: NCRYPT_UI_POLICY (ncrypt.h)
 description: Used with the NCRYPT_UI_POLICY_PROPERTY property to contain strong key user interface information for a key.
+helpviewer_keywords: ["NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG","NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG","NCRYPT_UI_POLICY","NCRYPT_UI_POLICY structure [Security]","NCRYPT_UI_PROTECT_KEY_FLAG","ncrypt/NCRYPT_UI_POLICY","security.ncrypt_ui_policy"]
 old-location: security\ncrypt_ui_policy.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 49443042-40bd-4876-8547-e5eb4de503f6
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, NCRYPT_UI_POLICY, NCRYPT_UI_POLICY structure [Security], NCRYPT_UI_PROTECT_KEY_FLAG, ncrypt/NCRYPT_UI_POLICY, security.ncrypt_ui_policy
-f1_keywords:
-- ncrypt/NCRYPT_UI_POLICY
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ncrypt.h
-api_name:
-- NCRYPT_UI_POLICY
 targetos: Windows
 req.typenames: NCRYPT_UI_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __NCRYPT_UI_POLICY
+ - ncrypt/__NCRYPT_UI_POLICY
+ - NCRYPT_UI_POLICY
+ - ncrypt/NCRYPT_UI_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ncrypt.h
+api_name:
+ - NCRYPT_UI_POLICY
 ---
 
 # NCRYPT_UI_POLICY structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptgetproperty">NCryptGetProperty</a> functions with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property.
-
+The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> and <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptgetproperty">NCryptGetProperty</a> functions with the <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property.
 
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 The version number of the structure. This member must contain 1.
-
 
 ### -field dwFlags
 
@@ -105,20 +103,15 @@ An app container has accessed a medium key that is not strongly protected. For e
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszCreationTitle
 
 A pointer to a null-terminated Unicode string that contains the text that will be used in the title of the strong key dialog box when the key is completed. If this member is <b>NULL</b>, a default creation title will be used in the strong key dialog box.  This member is only used on key finalization.
 
-
 ### -field pszFriendlyName
 
 A pointer to a null-terminated Unicode string that contains the text that will be displayed in the strong key dialog box as the name of the key. If this member is <b>NULL</b>, a default name will be used in the strong key dialog box.  This member is used both when the key is completed and when the key is used.
 
-
 ### -field pszDescription
 
 A pointer to a null-terminated Unicode string that contains the text that will be displayed in the strong key dialog box as the description of the key. If this member is <b>NULL</b>, a default description will be used in the strong key dialog box.  This member is used both when the key is completed and when the key is used.
-

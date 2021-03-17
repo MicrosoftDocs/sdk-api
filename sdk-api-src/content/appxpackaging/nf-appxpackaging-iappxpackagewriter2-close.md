@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxPackageWriter2.Close
 title: IAppxPackageWriter2::Close (appxpackaging.h)
 description: Closes the package writer object's output stream.
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter2 interface","IAppxPackageWriter2 interface [App packaging and management]","Close method","IAppxPackageWriter2.Close","IAppxPackageWriter2::Close","appxpackaging/IAppxPackageWriter2::Close","appxpkg.iappxpackagewriter2_close"]
 old-location: appxpkg\iappxpackagewriter2_close.htm
 tech.root: appxpkg
 ms.assetid: C972B7D0-9E78-4E17-AA64-C33631A57A8F
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter2 interface, IAppxPackageWriter2 interface [App packaging and management],Close method, IAppxPackageWriter2.Close, IAppxPackageWriter2::Close, appxpackaging/IAppxPackageWriter2::Close, appxpkg.iappxpackagewriter2_close
-f1_keywords:
-- appxpackaging/IAppxPackageWriter2.Close
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageWriter2.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageWriter2::Close
+ - appxpackaging/IAppxPackageWriter2::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageWriter2.Close
 ---
 
 # IAppxPackageWriter2::Close
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the package writer object's output stream.
-
 
 ## -parameters
 
-
-
-
 ### -param manifest [in]
 
-The stream that provides the contents of the manifest for the package. The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
-
+The stream that provides the contents of the manifest for the package. The stream must support <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
 
 ### -param contentGroupMap [in]
 
 The stream that provides the contents of the content group map for the package.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error code that includes, but is not limited to, those in the following table. 
 
@@ -101,18 +94,7 @@ The input stream contains a manifest that is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter2">IAppxPackageWriter2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter2">IAppxPackageWriter2</a>

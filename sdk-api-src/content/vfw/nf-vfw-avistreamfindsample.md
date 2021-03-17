@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamFindSample
 title: AVIStreamFindSample function (vfw.h)
 description: The AVIStreamFindSample function returns the position of a sample (key frame, nonempty frame, or a frame containing a format change) relative to the specified position.
+helpviewer_keywords: ["AVIStreamFindSample","AVIStreamFindSample function [Windows Multimedia]","_win32_AVIStreamFindSample","multimedia.avistreamfindsample","vfw/AVIStreamFindSample"]
 old-location: multimedia\avistreamfindsample.htm
 tech.root: Multimedia
 ms.assetid: 2bd89f50-0d3a-4c34-b7b8-dc29f2d54d55
 ms.date: 12/05/2018
 ms.keywords: AVIStreamFindSample, AVIStreamFindSample function [Windows Multimedia], _win32_AVIStreamFindSample, multimedia.avistreamfindsample, vfw/AVIStreamFindSample
-f1_keywords:
-- vfw/AVIStreamFindSample
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-api_name:
-- AVIStreamFindSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamFindSample
+ - vfw/AVIStreamFindSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+api_name:
+ - AVIStreamFindSample
 ---
 
 # AVIStreamFindSample function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamFindSample</b> function returns the position of a sample (key frame, nonempty frame, or a frame containing a format change) relative to the specified position.
 
 
 
 This function supersedes the obsolete <b>AVIStreamFindKeyFrame</b> function.
 
-
 ## -parameters
-
-
-
 
 ### -param pavi
 
 Handle to an open stream.
 
-
 ### -param lPos
 
 Starting frame for the search.
-
 
 ### -param lFlags
 
@@ -108,40 +102,21 @@ Flags that designate the type of frame to locate, the direction in the stream to
 <td>Finds first sample, frame, or format change beginning from the start of the stream. Use this flag with the FIND_ANY, FIND_KEY, or FIND_FORMAT flag.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns the position of the frame found or -1 if the search is unsuccessful.
-
-
-
 
 ## -remarks
 
-
-
 The FIND_KEY, FIND_ANY, and FIND_FORMAT flags are mutually exclusive, as are the FIND_NEXT and FIND_PREV flags.
 
-The argument <i>pavi</i> contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
-
-
-
+The argument <i>pavi</i> contains a pointer to an <a href="/windows/desktop/api/vfw/nn-vfw-iavistream">IAVIStream</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>

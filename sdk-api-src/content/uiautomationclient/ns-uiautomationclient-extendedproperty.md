@@ -2,15 +2,12 @@
 UID: NS:uiautomationclient.ExtendedProperty
 title: ExtendedProperty (uiautomationclient.h)
 description: Contains information about an extended property.
+helpviewer_keywords: ["ExtendedProperty","ExtendedProperty structure [Windows Accessibility]","uiautomationclient/ExtendedProperty","winauto.uiauto_extendedproperty"]
 old-location: winauto\uiauto_extendedproperty.htm
 tech.root: WinAuto
 ms.assetid: 3d0037f5-cff7-4502-b648-a2a60127eaff
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
-f1_keywords:
-- uiautomationclient/ExtendedProperty
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationClient.h
-api_name:
-- ExtendedProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtendedProperty
+ - uiautomationclient/ExtendedProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - ExtendedProperty
 ---
 
 # ExtendedProperty structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about an extended property. 
-
+Contains information about an extended property.
 
 ## -struct-fields
-
-
-
 
 ### -field PropertyName
 
@@ -63,19 +60,12 @@ Type: <b>BSTR</b>
 
 A localized string that contains the name of the extended property.
 
-
 ### -field PropertyValue
 
 Type: <b>BSTR</b>
 
-A string that represents the value of the extended property.   This string should be localized, if appropriate. 
-
+A string that represents the value of the extended property.   This string should be localized, if appropriate.
 
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)">IUIAutomationStylesPattern::GetCachedExtendedPropertiesArray</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)">GetCurrentExtendedPropertiesArray</a> methods.
-
-
-
+This structure is used by the <a href="/previous-versions/windows/desktop/legacy/hh437294(v=vs.85)">IUIAutomationStylesPattern::GetCachedExtendedPropertiesArray</a> and <a href="/previous-versions/windows/desktop/legacy/hh437295(v=vs.85)">GetCurrentExtendedPropertiesArray</a> methods.

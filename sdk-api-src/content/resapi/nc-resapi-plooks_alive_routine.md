@@ -2,15 +2,12 @@
 UID: NC:resapi.PLOOKS_ALIVE_ROUTINE
 title: PLOOKS_ALIVE_ROUTINE (resapi.h)
 description: Determines whether a resource appears to be available for use.
+helpviewer_keywords: ["LooksAlive","LooksAlive callback","LooksAlive callback function [Failover Cluster]","PLOOKS_ALIVE_ROUTINE","PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster]","_wolf_looksalive","mscs.looksalive","resapi/LooksAlive","resapi/PLOOKS_ALIVE_ROUTINE"]
 old-location: mscs\looksalive.htm
 tech.root: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.date: 12/05/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
-f1_keywords:
-- resapi/LooksAlive
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- LooksAlive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PLOOKS_ALIVE_ROUTINE
+ - resapi/PLOOKS_ALIVE_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - LooksAlive
 ---
 
 # PLOOKS_ALIVE_ROUTINE callback function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> appears to be available 
+Determines whether a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> appears to be available 
     for use. The <b>PLOOKS_ALIVE_ROUTINE</b> type defines a pointer to this 
     function.
 
-
 ## -parameters
-
-
-
 
 ### -param Resource [in]
 
 Resource identifier for the resource to poll.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -98,35 +92,20 @@ The resource may not be functioning properly.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For effective implementation strategies of the 
      <i>LooksAlive</i> entry-point function, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-looksalive">Implementing LooksAlive</a>.
+     <a href="/previous-versions/windows/desktop/mscs/implementing-looksalive">Implementing LooksAlive</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

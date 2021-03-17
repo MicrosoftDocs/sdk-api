@@ -2,15 +2,12 @@
 UID: NL:gdiplusbrush.TextureBrush
 title: TextureBrush (gdiplusbrush.h)
 description: The TextureBrush class defines a Brush object that contains an Image object that is used for the fill. The fill image can be transformed by using the local Matrix object contained in the Brush object.
+helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush class [GDI+]","described","_gdiplus_CLASS_TextureBrush_Class","gdiplus._gdiplus_CLASS_TextureBrush_Class","gdiplusbrush/TextureBrush"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrush.htm
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+], TextureBrush class [GDI+],described, _gdiplus_CLASS_TextureBrush_Class, gdiplus._gdiplus_CLASS_TextureBrush_Class, gdiplusbrush/TextureBrush
-f1_keywords:
-- gdiplusbrush/TextureBrush
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- gdiplusbrush.h
-api_name:
-- TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TextureBrush
+ - gdiplusbrush/TextureBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - gdiplusbrush.h
+api_name:
+ - TextureBrush
 ---
 
 # TextureBrush class
@@ -48,8 +50,6 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>TextureBrush</b> class defines a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that contains an 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object contained in the <b>Brush</b> object.
-
+The <b>TextureBrush</b> class defines a <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object that contains an 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object that is used for the fill. The fill image can be transformed by using the local 
+			<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object contained in the <b>Brush</b> object.

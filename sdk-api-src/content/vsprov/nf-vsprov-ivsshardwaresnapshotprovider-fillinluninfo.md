@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssHardwareSnapshotProvider.FillInLunInfo
 title: IVssHardwareSnapshotProvider::FillInLunInfo (vsprov.h)
 description: Prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the VDS_LUN_INFORMATION structure.
+helpviewer_keywords: ["FillInLunInfo","FillInLunInfo method [VSS]","FillInLunInfo method [VSS]","IVssHardwareSnapshotProvider interface","IVssHardwareSnapshotProvider interface [VSS]","FillInLunInfo method","IVssHardwareSnapshotProvider.FillInLunInfo","IVssHardwareSnapshotProvider::FillInLunInfo","base.ivsshardwaresnapshotprovider_fillinluninfo","vsprov/IVssHardwareSnapshotProvider::FillInLunInfo"]
 old-location: base\ivsshardwaresnapshotprovider_fillinluninfo.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 4e4e5942-5bc8-4b5e-a651-5bb354514994
 ms.date: 12/05/2018
 ms.keywords: FillInLunInfo, FillInLunInfo method [VSS], FillInLunInfo method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],FillInLunInfo method, IVssHardwareSnapshotProvider.FillInLunInfo, IVssHardwareSnapshotProvider::FillInLunInfo, base.ivsshardwaresnapshotprovider_fillinluninfo, vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProvider.FillInLunInfo
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProvider.FillInLunInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProvider::FillInLunInfo
+ - vsprov/IVssHardwareSnapshotProvider::FillInLunInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProvider.FillInLunInfo
 ---
 
 # IVssHardwareSnapshotProvider::FillInLunInfo
@@ -48,47 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
    <b>FillInLunInfo</b> 
-   method prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure. VSS calls the 
+   method prompts the hardware provider to indicate whether it supports the corresponding disk device and correct any omissions in the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure. VSS calls the 
    <b>FillInLunInfo</b> 
    method after the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">IVssHardwareSnapshotProvider::LocateLuns</a> method or before 
-   the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">IVssHardwareSnapshotProvider::OnLunEmpty</a> method to obtain the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure associated with a 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">IVssHardwareSnapshotProvider::LocateLuns</a> method or before 
+   the <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">IVssHardwareSnapshotProvider::OnLunEmpty</a> method to obtain the 
+   <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure associated with a 
    shadow copy LUN. VSS will compare the 
    <b>VDS_LUN_INFORMATION</b> structure received in 
-   the <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">IVssHardwareSnapshotProvider::GetTargetLuns</a> method to identify 
+   the <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">IVssHardwareSnapshotProvider::GetTargetLuns</a> method to identify 
    shadow copy LUNs. If the structures do not match, the requester will receive 
    <b>VSS_S_SOME_SNAPSHOTS_NOT_IMPORTED</b>, which indicates a mismatch.
 <div class="alert"><b>Note</b>  Hardware providers are only supported on Windows Server operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param wszDeviceName [in]
 
 Device corresponding to the shadow copy LUN.
 
-
 ### -param pLunInfo [in, out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure for the 
+The <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure for the 
       shadow copy LUN.
-
 
 ### -param pbIsSupported [out]
 
 The provider must return <b>TRUE</b> in the location pointed to by the 
       <i>pbIsSupported</i> parameter if the device is supported.
 
-
 ## -returns
-
-
 
 VSS  ignores this method's return value.
 
@@ -149,29 +142,23 @@ An unexpected provider error has occurred. The provider must report an event in 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+VSS calls the <b>FillInLunInfo</b> method for each <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure that the provider previously initialized in its <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> method. VSS also calls the <b>FillInLunInfo</b> method for each new disk device that arrives in the system during the import process. 
 
+The provider can correct any omissions in the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure received in the <i>pLunInfo</i>  parameter. However, the provider should not modify the value of the <b>m_rgInterconnects</b> member of this structure.
 
-VSS calls the <b>FillInLunInfo</b> method for each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure that the provider previously initialized in its <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a> method. VSS also calls the <b>FillInLunInfo</b> method for each new disk device that arrives in the system during the import process. 
-
-The provider can correct any omissions in the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure received in the <i>pLunInfo</i>  parameter. However, the provider should not modify the value of the <b>m_rgInterconnects</b> member of this structure.
-
-The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure correspond to the SCSI Inquiry Data and Vital Product Data page 80 (device serial number) information, with the following exceptions:
+The members of the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structure correspond to the SCSI Inquiry Data and Vital Product Data page 80 (device serial number) information, with the following exceptions:
 
 <ul>
 <li>The <b>m_version</b> member must be set to <b>VER_VDS_LUN_INFORMATION</b>.</li>
 <li>The <b>m_BusType</b> member is ignored in comparisons during import. This value depends on the PnP storage stack on the corresponding disk device. Usually this is <b>VDSBusTypeScsi</b>.</li>
 <li>The <b>m_diskSignature</b> member is ignored in comparisons during import. The provider must set this member to GUID_NULL.</li>
 </ul>
-The members of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
-      structure (in the <b>m_deviceIdDescriptor</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
-    structure) correspond to the page 83 information. In this structure, each <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
+The members of the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+      structure (in the <b>m_deviceIdDescriptor</b> member of the <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> 
+    structure) correspond to the page 83 information. In this structure, each <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
       structure corresponds to the STORAGE_IDENTIFIER structure for a device identifier (that is, a storage identifier with an association type of zero). For more information about the STORAGE_IDENTIFIER structure, see the Windows Driver Kit (WDK) documentation.
 
 If the <b>FillInLunInfo</b> method is 
@@ -180,40 +167,30 @@ If the <b>FillInLunInfo</b> method is
     return success. If the provider recognizes the LUN, it should set the <b>BOOL</b> value to 
     <b>TRUE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported">AreLunsSupported</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-gettargetluns">GetTargetLuns</a>
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">LocateLuns</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-locateluns">LocateLuns</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">OnLunEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-onlunempty">OnLunEmpty</a>
+<a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdslun/ns-vdslun-vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>

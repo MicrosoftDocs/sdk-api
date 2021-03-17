@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFQualityManager.NotifyPresentationClock
 title: IMFQualityManager::NotifyPresentationClock (mfidl.h)
 description: Called when the Media Session selects a presentation clock.
+helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyPresentationClock method","IMFQualityManager.NotifyPresentationClock","IMFQualityManager::NotifyPresentationClock","NotifyPresentationClock","NotifyPresentationClock method [Media Foundation]","NotifyPresentationClock method [Media Foundation]","IMFQualityManager interface","b358d98e-7b02-4c58-b556-cfa15436e435","mf.imfqualitymanager_notifypresentationclock","mfidl/IMFQualityManager::NotifyPresentationClock"]
 old-location: mf\imfqualitymanager_notifypresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b358d98e-7b02-4c58-b556-cfa15436e435
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyPresentationClock method, IMFQualityManager.NotifyPresentationClock, IMFQualityManager::NotifyPresentationClock, NotifyPresentationClock, NotifyPresentationClock method [Media Foundation], NotifyPresentationClock method [Media Foundation],IMFQualityManager interface, b358d98e-7b02-4c58-b556-cfa15436e435, mf.imfqualitymanager_notifypresentationclock, mfidl/IMFQualityManager::NotifyPresentationClock
-f1_keywords:
-- mfidl/IMFQualityManager.NotifyPresentationClock
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFQualityManager.NotifyPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityManager::NotifyPresentationClock
+ - mfidl/IMFQualityManager::NotifyPresentationClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFQualityManager.NotifyPresentationClock
 ---
 
 # IMFQualityManager::NotifyPresentationClock
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Called when the Media Session selects a presentation clock.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pClock [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface of the presentation clock. If this parameter is <b>NULL</b>, the quality manager should release any references to the presentation clock.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface of the presentation clock. If this parameter is <b>NULL</b>, the quality manager should release any references to the presentation clock.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>

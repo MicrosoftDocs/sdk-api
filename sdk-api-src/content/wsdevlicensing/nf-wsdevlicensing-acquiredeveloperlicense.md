@@ -2,15 +2,12 @@
 UID: NF:wsdevlicensing.AcquireDeveloperLicense
 title: AcquireDeveloperLicense function (wsdevlicensing.h)
 description: Acquires a developer license.
+helpviewer_keywords: ["AcquireDeveloperLicense","AcquireDeveloperLicense function","devlic.acquiredeveloperlicense","wsdevlicensing/AcquireDeveloperLicense"]
 old-location: devlic\acquiredeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 0F6316B4-3FE2-405E-B8C0-AB371F95BCE1
 ms.date: 12/05/2018
 ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.acquiredeveloperlicense, wsdevlicensing/AcquireDeveloperLicense
-f1_keywords:
-- wsdevlicensing/AcquireDeveloperLicense
-dev_langs:
-- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WSClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WSClient.dll
-api_name:
-- AcquireDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AcquireDeveloperLicense
+ - wsdevlicensing/AcquireDeveloperLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WSClient.dll
+api_name:
+ - AcquireDeveloperLicense
 ---
 
 # AcquireDeveloperLicense function
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Acquires a developer license.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in, optional]
 
 The handler to the parent window.
 
-
 ### -param pExpiration [out]
 
 Indicates when the developer license expires.
 
-
 ## -returns
 
-
-
-Returns an <a href="https://docs.microsoft.com/en-us/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
-
-
-
+Returns an <a href="/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
 
 ## -remarks
-
-
 
 The following is a list of common error codes that this function returns:
 
@@ -116,7 +104,3 @@ The following is a list of common error codes that this function returns:
 <td>The caller doesn’t have access to the resource (license).</td>
 </tr>
 </table>
- 
-
-
-

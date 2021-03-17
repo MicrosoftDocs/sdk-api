@@ -2,15 +2,12 @@
 UID: NF:strmif.IQualityControl.SetSink
 title: IQualityControl::SetSink (strmif.h)
 description: The SetSink method sets the IQualityControl object that will receive quality messages.
+helpviewer_keywords: ["IQualityControl interface [DirectShow]","SetSink method","IQualityControl.SetSink","IQualityControl::SetSink","IQualityControlSetSink","SetSink","SetSink method [DirectShow]","SetSink method [DirectShow]","IQualityControl interface","dshow.iqualitycontrol_setsink","strmif/IQualityControl::SetSink"]
 old-location: dshow\iqualitycontrol_setsink.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
-f1_keywords:
-- strmif/IQualityControl.SetSink
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IQualityControl.SetSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQualityControl::SetSink
+ - strmif/IQualityControl::SetSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IQualityControl.SetSink
 ---
 
 # IQualityControl::SetSink
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>SetSink</code> method sets the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object that will receive quality messages.
-
-
-
+The <code>SetSink</code> method sets the <a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object that will receive quality messages.
 
 ## -parameters
 
-
-
-
 ### -param piqc
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object to which the notifications should be sent.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl</a> object to which the notifications should be sent.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -133,33 +124,17 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The filter that receives a call to this method should record the <i>piqc</i> but should not add a reference count to it. The object pointed to will be a quality manager and will be a part of the filter graph (for example, a plug-in distributor). Adding a reference count to this could cause circular reference problems.
 
 The reference to the object specified in <i>piqc</i> is guaranteed to be valid until this method is called with a null value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>

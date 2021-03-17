@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptFormatObject
 title: CryptFormatObject function (wincrypt.h)
 description: The CryptFormatObject function formats the encoded data and returns a Unicode string in the allocated buffer according to the certificate encoding type.
+helpviewer_keywords: ["0","CRYPT_FORMAT_STR_MULTI_LINE","CRYPT_FORMAT_STR_NO_HEX","CryptFormatObject","CryptFormatObject function [Security]","SPC_FINANCIAL_CRITERIA_OBJID","SPC_SP_AGENCY_INFO_OBJID","_crypto2_cryptformatobject","security.cryptformatobject","szOID_AUTHORITY_INFO_ACCESS","szOID_AUTHORITY_KEY_IDENTIFIER2","szOID_BASIC_CONSTRAINTS2","szOID_CERT_POLICIES","szOID_CRL_DIST_POINTS","szOID_CRL_REASON_CODE","szOID_ENHANCED_KEY_USAGE","szOID_ISSUER_ALT_NAME2","szOID_KEY_ATTRIBUTES","szOID_KEY_USAGE","szOID_KEY_USAGE_RESTRICTION","szOID_NEXT_UPDATE_LOCATION","szOID_RSA_SMIMECapabilities","szOID_SUBJECT_ALT_NAME2","szOID_SUBJECT_KEY_IDENTIFIER","wincrypt/CryptFormatObject"]
 old-location: security\cryptformatobject.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 307e0bd5-b8a6-4d85-9775-65aae99e8dc6
 ms.date: 12/05/2018
 ms.keywords: 0, CRYPT_FORMAT_STR_MULTI_LINE, CRYPT_FORMAT_STR_NO_HEX, CryptFormatObject, CryptFormatObject function [Security], SPC_FINANCIAL_CRITERIA_OBJID, SPC_SP_AGENCY_INFO_OBJID, _crypto2_cryptformatobject, security.cryptformatobject, szOID_AUTHORITY_INFO_ACCESS, szOID_AUTHORITY_KEY_IDENTIFIER2, szOID_BASIC_CONSTRAINTS2, szOID_CERT_POLICIES, szOID_CRL_DIST_POINTS, szOID_CRL_REASON_CODE, szOID_ENHANCED_KEY_USAGE, szOID_ISSUER_ALT_NAME2, szOID_KEY_ATTRIBUTES, szOID_KEY_USAGE, szOID_KEY_USAGE_RESTRICTION, szOID_NEXT_UPDATE_LOCATION, szOID_RSA_SMIMECapabilities, szOID_SUBJECT_ALT_NAME2, szOID_SUBJECT_KEY_IDENTIFIER, wincrypt/CryptFormatObject
-f1_keywords:
-- wincrypt/CryptFormatObject
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptFormatObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptFormatObject
+ - wincrypt/CryptFormatObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptFormatObject
 ---
 
 # CryptFormatObject function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptFormatObject</b> function formats the encoded data and returns a Unicode string in the allocated buffer according to the certificate encoding type.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
 Type of encoding used on the certificate. The currently defined certificate encoding type used is X509_ASN_ENCODING.
 
-
 ### -param dwFormatType [in]
 
 Format type values. Not used. Set to zero.
-
 
 ### -param dwFormatStrType [in]
 
@@ -110,13 +105,10 @@ Disables the hexadecimal dump. For more information, see Remarks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pFormatStruct [in]
 
 A pointer to the format of the structure. Not used. Set to <b>NULL</b>.
-
 
 ### -param lpszStructType [in]
 
@@ -303,23 +295,18 @@ The following table lists supported OIDs with their associated OID extension.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbEncoded [in]
 
 A pointer to the encoded data to be formatted. If <i>lpszStructType</i> is one of the OIDs listed above, the <i>pbEncoded</i> is the encoded extension.
 
-
 ### -param cbEncoded [in]
 
 The size, in bytes, of the <i>pbEncoded</i> structure.
 
-
 ### -param pbFormat [out]
 
-A pointer to a buffer that receives the formatted string. When the buffer that is specified is not large enough to receive the decoded structure, the function sets ERROR_MORE_DATA and stores the required buffer size, in bytes, into the variable pointed to by <i>pcbFormat</i>. This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+A pointer to a buffer that receives the formatted string. When the buffer that is specified is not large enough to receive the decoded structure, the function sets ERROR_MORE_DATA and stores the required buffer size, in bytes, into the variable pointed to by <i>pcbFormat</i>. This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see <a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbFormat [in, out]
 
@@ -333,32 +320,15 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 ## -returns
 
-
-
-If the function succeeds, the return value is <b>TRUE</b>. If it does not succeed, the return value is <b>FALSE</b>. To retrieve extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+If the function succeeds, the return value is <b>TRUE</b>. If it does not succeed, the return value is <b>FALSE</b>. To retrieve extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
-
-
 
 The default behavior of this function is to return a single-line display of the encoded data, that is, each subfield is concatenated with a comma (,) on one line. If you prefer to display the data in multiple lines, set the CRYPT_FORMAT_STR_MULTI_LINE flag. Each subfield will then be displayed on a separate line.
 
 If there is no formatting routine installed or registered for the <i>lpszStructType</i> parameter, the hexadecimal dump of the encoded 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> will be returned. A user can set the CRYPT_FORMAT_STR_NO_HEX flag to disable the hexadecimal dump.
-
-
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> will be returned. A user can set the CRYPT_FORMAT_STR_NO_HEX flag to disable the hexadecimal dump.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>

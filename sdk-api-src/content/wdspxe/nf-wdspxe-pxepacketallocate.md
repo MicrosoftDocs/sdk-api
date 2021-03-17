@@ -2,15 +2,12 @@
 UID: NF:wdspxe.PxePacketAllocate
 title: PxePacketAllocate function (wdspxe.h)
 description: Allocates a packet to be sent with the PxeSendReply function.
+helpviewer_keywords: ["PxePacketAllocate","PxePacketAllocate function [Windows Deployment Services]","wds.pxepacketallocate","wdspxe/PxePacketAllocate"]
 old-location: wds\pxepacketallocate.htm
 tech.root: wds
 ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
 ms.date: 12/05/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
-f1_keywords:
-- wdspxe/PxePacketAllocate
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxePacketAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxePacketAllocate
+ - wdspxe/PxePacketAllocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxePacketAllocate
 ---
 
 # PxePacketAllocate function
@@ -48,66 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates a packet to be sent with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function.
-
+    <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
-
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param hClientRequest [in]
 
 Handle to the client request received in the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
-
+      <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 ### -param uSize [in]
 
 Size of the buffer to be allocated.
 
-
 ## -returns
 
-
-
 Address of allocated buffer, or <b>NULL</b> if the allocation failed. For extended error 
-      information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+      information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketfree">PxePacketFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketfree">PxePacketFree</a>
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

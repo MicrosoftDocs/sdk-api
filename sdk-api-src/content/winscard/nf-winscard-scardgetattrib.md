@@ -2,15 +2,12 @@
 UID: NF:winscard.SCardGetAttrib
 title: SCardGetAttrib function (winscard.h)
 description: Retrieves the current reader attributes for the given handle. It does not affect the state of the reader, driver, or card.
+helpviewer_keywords: ["SCARD_ATTR_ATR_STRING","SCARD_ATTR_CHANNEL_ID","SCARD_ATTR_CHARACTERISTICS","SCARD_ATTR_CURRENT_BWT","SCARD_ATTR_CURRENT_CLK","SCARD_ATTR_CURRENT_CWT","SCARD_ATTR_CURRENT_D","SCARD_ATTR_CURRENT_EBC_ENCODING","SCARD_ATTR_CURRENT_F","SCARD_ATTR_CURRENT_IFSC","SCARD_ATTR_CURRENT_IFSD","SCARD_ATTR_CURRENT_N","SCARD_ATTR_CURRENT_PROTOCOL_TYPE","SCARD_ATTR_CURRENT_W","SCARD_ATTR_DEFAULT_CLK","SCARD_ATTR_DEFAULT_DATA_RATE","SCARD_ATTR_DEVICE_FRIENDLY_NAME","SCARD_ATTR_DEVICE_IN_USE","SCARD_ATTR_DEVICE_SYSTEM_NAME","SCARD_ATTR_DEVICE_UNIT","SCARD_ATTR_ICC_INTERFACE_STATUS","SCARD_ATTR_ICC_PRESENCE","SCARD_ATTR_ICC_TYPE_PER_ATR","SCARD_ATTR_MAX_CLK","SCARD_ATTR_MAX_DATA_RATE","SCARD_ATTR_MAX_IFSD","SCARD_ATTR_POWER_MGMT_SUPPORT","SCARD_ATTR_PROTOCOL_TYPES","SCARD_ATTR_VENDOR_IFD_SERIAL_NO","SCARD_ATTR_VENDOR_IFD_TYPE","SCARD_ATTR_VENDOR_IFD_VERSION","SCARD_ATTR_VENDOR_NAME","SCardGetAttrib","SCardGetAttrib function [Security]","_smart_scardgetattrib","security.scardgetattrib","winscard/SCardGetAttrib"]
 old-location: security\scardgetattrib.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 309ac107-175b-489e-b428-b87bc4204f34
 ms.date: 12/05/2018
 ms.keywords: SCARD_ATTR_ATR_STRING, SCARD_ATTR_CHANNEL_ID, SCARD_ATTR_CHARACTERISTICS, SCARD_ATTR_CURRENT_BWT, SCARD_ATTR_CURRENT_CLK, SCARD_ATTR_CURRENT_CWT, SCARD_ATTR_CURRENT_D, SCARD_ATTR_CURRENT_EBC_ENCODING, SCARD_ATTR_CURRENT_F, SCARD_ATTR_CURRENT_IFSC, SCARD_ATTR_CURRENT_IFSD, SCARD_ATTR_CURRENT_N, SCARD_ATTR_CURRENT_PROTOCOL_TYPE, SCARD_ATTR_CURRENT_W, SCARD_ATTR_DEFAULT_CLK, SCARD_ATTR_DEFAULT_DATA_RATE, SCARD_ATTR_DEVICE_FRIENDLY_NAME, SCARD_ATTR_DEVICE_IN_USE, SCARD_ATTR_DEVICE_SYSTEM_NAME, SCARD_ATTR_DEVICE_UNIT, SCARD_ATTR_ICC_INTERFACE_STATUS, SCARD_ATTR_ICC_PRESENCE, SCARD_ATTR_ICC_TYPE_PER_ATR, SCARD_ATTR_MAX_CLK, SCARD_ATTR_MAX_DATA_RATE, SCARD_ATTR_MAX_IFSD, SCARD_ATTR_POWER_MGMT_SUPPORT, SCARD_ATTR_PROTOCOL_TYPES, SCARD_ATTR_VENDOR_IFD_SERIAL_NO, SCARD_ATTR_VENDOR_IFD_TYPE, SCARD_ATTR_VENDOR_IFD_VERSION, SCARD_ATTR_VENDOR_NAME, SCardGetAttrib, SCardGetAttrib function [Security], _smart_scardgetattrib, security.scardgetattrib, winscard/SCardGetAttrib
-f1_keywords:
-- winscard/SCardGetAttrib
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardGetAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardGetAttrib
+ - winscard/SCardGetAttrib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardGetAttrib
 ---
 
 # SCardGetAttrib function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardGetAttrib</b> function retrieves the current reader attributes for the given handle. It does not affect the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>, driver, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">card</a>.
-
+The <b>SCardGetAttrib</b> function retrieves the current reader attributes for the given handle. It does not affect the <a href="/windows/desktop/SecGloss/s-gly">state</a> of the <a href="/windows/desktop/SecGloss/r-gly">reader</a>, driver, or <a href="/windows/desktop/SecGloss/s-gly">card</a>.
 
 ## -parameters
 
-
-
-
 ### -param hCard [in]
 
-Reference value returned from <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
-
+Reference value returned from <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param dwAttrId [in]
 
-Identifier for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to get. The following table lists possible values for <i>dwAttrId</i>. These values are read-only. Note that vendors may not support all attributes. 
+Identifier for the <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to get. The following table lists possible values for <i>dwAttrId</i>. These values are read-only. Note that vendors may not support all attributes. 
 
 
 
@@ -232,7 +228,7 @@ Current guard time.
 </dl>
 </td>
 <td width="60%">
-<b>DWORD</b> encoded as 0x0<i>rrrpppp</i> where <i>rrr</i> is RFU and should be 0x000. <i>pppp</i> encodes the current protocol type. Whichever bit has been set indicates which ISO protocol is currently in use. (For example, if bit zero is set, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0 protocol</a> is in effect.)
+<b>DWORD</b> encoded as 0x0<i>rrrpppp</i> where <i>rrr</i> is RFU and should be 0x000. <i>pppp</i> encodes the current protocol type. Whichever bit has been set indicates which ISO protocol is currently in use. (For example, if bit zero is set, <a href="/windows/desktop/SecGloss/t-gly">T=0 protocol</a> is in effect.)
 
 </td>
 </tr>
@@ -312,7 +308,7 @@ Instance of this vendor's reader attached to the computer. The first instance wi
 </dl>
 </td>
 <td width="60%">
-Single byte. Zero if <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> electrical contact is not active; nonzero if contact is active.
+Single byte. Zero if <a href="/windows/desktop/SecGloss/s-gly">smart card</a> electrical contact is not active; nonzero if contact is active.
 
 </td>
 </tr>
@@ -404,7 +400,7 @@ Zero if device does not support power down while smart card is inserted. Nonzero
 </dl>
 </td>
 <td width="60%">
-<b>DWORD</b> encoded as 0x0<i>rrrpppp</i> where <i>rrr</i> is RFU and should be 0x000. <i>pppp</i> encodes the supported protocol types. A '1' in a given bit position indicates support for the associated ISO protocol, so if bits zero and one are set, both <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a> protocols are supported.
+<b>DWORD</b> encoded as 0x0<i>rrrpppp</i> where <i>rrr</i> is RFU and should be 0x000. <i>pppp</i> encodes the supported protocol types. A '1' in a given bit position indicates support for the associated ISO protocol, so if bits zero and one are set, both <a href="/windows/desktop/SecGloss/t-gly">T=0</a> and <a href="/windows/desktop/SecGloss/t-gly">T=1</a> protocols are supported.
 
 </td>
 </tr>
@@ -449,23 +445,17 @@ Vendor name.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbAttr [out]
 
 Pointer to a buffer that receives the attribute whose ID is supplied in <i>dwAttrId</i>. If this value is <b>NULL</b>, <b>SCardGetAttrib</b> ignores the buffer length supplied in <i>pcbAttrLen</i>, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcbAttrLen</i>, and returns a success code.
 
-
 ### -param pcbAttrLen [in, out]
 
 Length of the <i>pbAttr</i> buffer in bytes, and receives the actual length of the received attribute If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>pbAttr</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the attribute. This block of memory must be deallocated with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -504,27 +494,21 @@ ERROR_NOT_SUPPORTED.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>SCardGetAttrib</b> function is a direct card access function. For more information on other direct access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
+<a href="/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
 
 
 #### Examples
 
-The following example shows how to retrieve an attribute for a card reader. The example assumes that hCardHandle is a valid handle obtained from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function.
+The following example shows how to retrieve an attribute for a card reader. The example assumes that hCardHandle is a valid handle obtained from a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function.
 
 
 ```cpp
@@ -562,25 +546,14 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardsetattrib">SCardSetAttrib</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardsetattrib">SCardSetAttrib</a>

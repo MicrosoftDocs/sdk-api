@@ -2,15 +2,12 @@
 UID: NS:winnt._PROCESS_MITIGATION_ASLR_POLICY
 title: PROCESS_MITIGATION_ASLR_POLICY (winnt.h)
 description: Contains process mitigation policy settings for Address Space Randomization Layout (ASLR).
+helpviewer_keywords: ["*PPROCESS_MITIGATION_ASLR_POLICY","PPROCESS_MITIGATION_ASLR_POLICY","PPROCESS_MITIGATION_ASLR_POLICY structure pointer","PROCESS_MITIGATION_ASLR_POLICY","PROCESS_MITIGATION_ASLR_POLICY structure","_PROCESS_MITIGATION_ASLR_POLICY","base.process_mitigation_aslr_policy","winnt/PPROCESS_MITIGATION_ASLR_POLICY","winnt/PROCESS_MITIGATION_ASLR_POLICY"]
 old-location: base\process_mitigation_aslr_policy.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 1324d2e7-64a4-45de-856a-30c5c5bf8e7e
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY structure pointer, PROCESS_MITIGATION_ASLR_POLICY, PROCESS_MITIGATION_ASLR_POLICY structure, _PROCESS_MITIGATION_ASLR_POLICY, base.process_mitigation_aslr_policy, winnt/PPROCESS_MITIGATION_ASLR_POLICY, winnt/PROCESS_MITIGATION_ASLR_POLICY'
-f1_keywords:
-- winnt/PROCESS_MITIGATION_ASLR_POLICY
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- PROCESS_MITIGATION_ASLR_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_ASLR_POLICY, *PPROCESS_MITIGATION_ASLR_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESS_MITIGATION_ASLR_POLICY
+ - winnt/_PROCESS_MITIGATION_ASLR_POLICY
+ - PPROCESS_MITIGATION_ASLR_POLICY
+ - winnt/PPROCESS_MITIGATION_ASLR_POLICY
+ - PROCESS_MITIGATION_ASLR_POLICY
+ - winnt/PROCESS_MITIGATION_ASLR_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - PROCESS_MITIGATION_ASLR_POLICY
 ---
 
 # PROCESS_MITIGATION_ASLR_POLICY structure
@@ -48,49 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains process mitigation policy settings for Address Space Randomization Layout (ASLR). The <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
-
+Contains process mitigation policy settings for Address Space Randomization Layout (ASLR). The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.Flags
 
 This member is reserved for system use.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableBottomUpRandomization
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableForceRelocateImages
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableHighEntropy
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DisallowStrippedImages
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
@@ -122,4 +104,3 @@ Bottom-up allocations are subject to higher degrees of entropy when randomized b
 #### - ReservedFlags : 28
 
 This member is reserved for system use.
-

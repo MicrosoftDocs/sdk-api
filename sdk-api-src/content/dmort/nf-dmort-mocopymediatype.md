@@ -2,15 +2,12 @@
 UID: NF:dmort.MoCopyMediaType
 title: MoCopyMediaType function (dmort.h)
 description: The MoCopyMediaType function copies the members of one media type structure into another media type structure.
+helpviewer_keywords: ["MoCopyMediaType","MoCopyMediaType function [DirectShow]","dmort/MoCopyMediaType","dshow.mocopymediatype"]
 old-location: dshow\mocopymediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4
 ms.date: 12/05/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
-f1_keywords:
-- dmort/MoCopyMediaType
-dev_langs:
-- c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdmo.dll
-api_name:
-- MoCopyMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoCopyMediaType
+ - dmort/MoCopyMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdmo.dll
+api_name:
+ - MoCopyMediaType
 ---
 
 # MoCopyMediaType function
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MoCopyMediaType</b> function copies the members of one media type structure into another media type structure.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pmtDest
 
-Pointer to the target <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure. The caller must allocate, but not initialize, this structure.
-
+Pointer to the target <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure. The caller must allocate, but not initialize, this structure.
 
 ### -param pmtSrc
 
-Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
-
+Pointer to the source <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,16 +107,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function copies all the members of <i>pmtSrc</i> to <i>pmtDest</i> and copies the format block. The caller must free the target media type by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> function.
-
-
-
+This function copies all the members of <i>pmtSrc</i> to <i>pmtDest</i> and copies the format block. The caller must free the target media type by calling the <a href="/windows/desktop/api/dmort/nf-dmort-mofreemediatype">MoFreeMediaType</a> function.

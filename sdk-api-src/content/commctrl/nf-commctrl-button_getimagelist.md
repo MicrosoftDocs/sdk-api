@@ -2,15 +2,12 @@
 UID: NF:commctrl.Button_GetImageList
 title: Button_GetImageList macro (commctrl.h)
 description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.
+helpviewer_keywords: ["Button_GetImageList","Button_GetImageList macro [Windows Controls]","_win32_Button_GetImageList","_win32_Button_GetImageList_cpp","commctrl/Button_GetImageList","controls.Button_GetImageList","controls._win32_Button_GetImageList"]
 old-location: controls\Button_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: Button_GetImageList, Button_GetImageList macro [Windows Controls], _win32_Button_GetImageList, _win32_Button_GetImageList_cpp, commctrl/Button_GetImageList, controls.Button_GetImageList, controls._win32_Button_GetImageList
-f1_keywords:
-- commctrl/Button_GetImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Button_GetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Button_GetImageList
+ - commctrl/Button_GetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Button_GetImageList
 ---
 
 # Button_GetImageList macro
@@ -48,53 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a> message explicitly. 
-
+Gets the <a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that describes the image list that is set for a button control. You can use this macro or send the <a href="/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the button control. 
-
+A handle to the button control.
 
 ### -param pbuttonImagelist
 
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains image list information. 
-
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains image list information.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

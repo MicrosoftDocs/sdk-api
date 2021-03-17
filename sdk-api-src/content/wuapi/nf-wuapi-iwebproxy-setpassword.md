@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWebProxy.SetPassword
 title: IWebProxy::SetPassword (wuapi.h)
 description: Sets the password to submit to the proxy server for authentication.
+helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","SetPassword method","IWebProxy.SetPassword","IWebProxy::SetPassword","SetPassword","SetPassword method [Windows Update Agent]","SetPassword method [Windows Update Agent]","IWebProxy interface","wua.iwebproxy_setpassword","wuapi/IWebProxy::SetPassword"]
 old-location: wua\iwebproxy_setpassword.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 59b500f1-2015-4f72-9be5-c2f57462dff0
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],SetPassword method, IWebProxy.SetPassword, IWebProxy::SetPassword, SetPassword, SetPassword method [Windows Update Agent], SetPassword method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_setpassword, wuapi/IWebProxy::SetPassword
-f1_keywords:
-- wuapi/IWebProxy.SetPassword
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWebProxy.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebProxy::SetPassword
+ - wuapi/IWebProxy::SetPassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWebProxy.SetPassword
 ---
 
 # IWebProxy::SetPassword
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the password to submit to the proxy server for authentication.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
 The password to submit to the proxy server for authentication.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>

@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptAddContextFunction
 title: BCryptAddContextFunction function (bcrypt.h)
 description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptAddContextFunction","BCryptAddContextFunction function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","NCRYPT_SCHANNEL_SIGNATURE_INTERFACE","bcrypt/BCryptAddContextFunction","security.bcryptaddcontextfunction"]
 old-location: security\bcryptaddcontextfunction.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction
-f1_keywords:
-- bcrypt/BCryptAddContextFunction
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptAddContextFunction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptAddContextFunction
+ - bcrypt/BCryptAddContextFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptAddContextFunction
 ---
 
 # BCryptAddContextFunction function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptAddContextFunction</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptAddContextFunction</b> function adds a cryptographic function to the list of functions that are supported by an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,13 +86,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to add the function to.
-
 
 ### -param dwInterface [in]
 
@@ -199,22 +193,16 @@ Add the function to the list of signature suites that Schannel will accept for T
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to add.
 
-
 ### -param dwPosition [in]
 
 Specifies the position in the list at which to insert this function. The function is inserted at this position ahead of any existing functions. The <b>CRYPT_PRIORITY_TOP</b> value is used to insert the function at the top of the list. The <b>CRYPT_PRIORITY_BOTTOM</b> value is used to insert the function at the end of the list.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -273,29 +261,13 @@ The context could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the function added is already in the list, it will be removed and inserted at the new position.
 
 <b>BCryptAddContextFunction</b> can be called only in user mode.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptremovecontextfunction">BCryptRemoveContextFunction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptremovecontextfunction">BCryptRemoveContextFunction</a>

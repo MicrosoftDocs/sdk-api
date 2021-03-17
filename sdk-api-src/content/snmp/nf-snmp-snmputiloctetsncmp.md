@@ -2,15 +2,12 @@
 UID: NF:snmp.SnmpUtilOctetsNCmp
 title: SnmpUtilOctetsNCmp function (snmp.h)
 description: The SnmpUtilOctetsNCmp function compares two octet strings. The function compares the subidentifiers in the strings until it reaches the number of subidentifiers specified by the nChars parameter. SnmpUtilOctetsNCmp is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilOctetsNCmp","SnmpUtilOctetsNCmp function [SNMP]","_snmp_snmputiloctetsncmp","snmp.snmputiloctetsncmp","snmp/SnmpUtilOctetsNCmp"]
 old-location: snmp\snmputiloctetsncmp.htm
 tech.root: SNMP
 ms.assetid: bba13c41-1c0f-4a54-9a93-8115ef77c086
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOctetsNCmp, SnmpUtilOctetsNCmp function [SNMP], _snmp_snmputiloctetsncmp, snmp.snmputiloctetsncmp, snmp/SnmpUtilOctetsNCmp
-f1_keywords:
-- snmp/SnmpUtilOctetsNCmp
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpUtilOctetsNCmp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpUtilOctetsNCmp
+ - snmp/SnmpUtilOctetsNCmp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpUtilOctetsNCmp
 ---
 
 # SnmpUtilOctetsNCmp function
@@ -48,76 +50,50 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOctetsNCmp</b> function compares two octet strings. The function compares the subidentifiers in the strings until it reaches the number of subidentifiers specified by the <i>nChars</i> parameter. 
 <b>SnmpUtilOctetsNCmp</b> is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param pOctets1 [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to compare.
-
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to compare.
 
 ### -param pOctets2 [in]
 
 Pointer to a second 
 <b>AsnOctetString</b> structure to compare.
 
-
 ### -param nChars [in]
 
 Specifies the number of subidentifiers to compare.
 
-
 ## -returns
 
-
-
 The function returns a value greater than zero if <i>pOctets1</i> is greater than <i>pOctets2</i>, zero if <i>pOctets1</i> equals <i>pOctets2</i>, and less than zero if <i>pOctets1</i> is less than <i>pOctets2</i>.
-						
-
-
-
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetscmp">SnmpUtilOctetsCmp</a> function calls the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloctetscmp">SnmpUtilOctetsCmp</a> function calls the 
 <b>SnmpUtilOctetsNCmp</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetscmp">SnmpUtilOctetsCmp</a>
- 
-
- 
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloctetscmp">SnmpUtilOctetsCmp</a>

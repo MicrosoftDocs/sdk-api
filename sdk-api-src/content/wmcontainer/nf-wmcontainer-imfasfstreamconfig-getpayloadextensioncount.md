@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtensionCount
 title: IMFASFStreamConfig::GetPayloadExtensionCount (wmcontainer.h)
 description: Retrieves the number of payload extensions that are configured for the stream.
+helpviewer_keywords: ["3b1cb5a9-e39c-4f16-abc1-45ab516a4b80","GetPayloadExtensionCount","GetPayloadExtensionCount method [Media Foundation]","GetPayloadExtensionCount method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetPayloadExtensionCount method","IMFASFStreamConfig.GetPayloadExtensionCount","IMFASFStreamConfig::GetPayloadExtensionCount","mf.imfasfstreamconfig_getpayloadextensioncount","wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount"]
 old-location: mf\imfasfstreamconfig_getpayloadextensioncount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80
 ms.date: 12/05/2018
 ms.keywords: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80, GetPayloadExtensionCount, GetPayloadExtensionCount method [Media Foundation], GetPayloadExtensionCount method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtensionCount method, IMFASFStreamConfig.GetPayloadExtensionCount, IMFASFStreamConfig::GetPayloadExtensionCount, mf.imfasfstreamconfig_getpayloadextensioncount, wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount
-f1_keywords:
-- wmcontainer/IMFASFStreamConfig.GetPayloadExtensionCount
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamConfig.GetPayloadExtensionCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamConfig::GetPayloadExtensionCount
+ - wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamConfig.GetPayloadExtensionCount
 ---
 
 # IMFASFStreamConfig::GetPayloadExtensionCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of payload extensions that are configured for the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcPayloadExtensions [out]
 
 Receives the number of payload extensions.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,22 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension">IMFASFStreamConfig::GetPayloadExtension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextension">IMFASFStreamConfig::GetPayloadExtension</a>

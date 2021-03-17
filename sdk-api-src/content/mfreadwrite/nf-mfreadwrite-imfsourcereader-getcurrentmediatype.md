@@ -2,15 +2,12 @@
 UID: NF:mfreadwrite.IMFSourceReader.GetCurrentMediaType
 title: IMFSourceReader::GetCurrentMediaType (mfreadwrite.h)
 description: Gets the current media type for a stream.
+helpviewer_keywords: ["GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","GetCurrentMediaType method","IMFSourceReader.GetCurrentMediaType","IMFSourceReader::GetCurrentMediaType","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_getcurrentmediatype","mfreadwrite/IMFSourceReader::GetCurrentMediaType"]
 old-location: mf\imfsourcereader_getcurrentmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c0fe3b34-42ad-45e4-812d-679bbe01a200
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetCurrentMediaType method, IMFSourceReader.GetCurrentMediaType, IMFSourceReader::GetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getcurrentmediatype, mfreadwrite/IMFSourceReader::GetCurrentMediaType
-f1_keywords:
-- mfreadwrite/IMFSourceReader.GetCurrentMediaType
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.GetCurrentMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::GetCurrentMediaType
+ - mfreadwrite/IMFSourceReader::GetCurrentMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.GetCurrentMediaType
 ---
 
 # IMFSourceReader::GetCurrentMediaType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current media type for a stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -100,17 +97,12 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -142,31 +134,15 @@ The <i>dwStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

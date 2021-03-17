@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO
 title: DHCP_SERVER_CONFIG_INFO (dhcpsapi.h)
 description: The DHCP_SERVER_CONFIG_INFO structure defines the data used to configure the DHCP server.
+helpviewer_keywords: ["*LPDHCP_SERVER_CONFIG_INFO","DHCP_SERVER_CONFIG_INFO","DHCP_SERVER_CONFIG_INFO structure [DHCP]","DHCP_SERVER_USE_RPC_OVER_LPC","DHCP_SERVER_USE_RPC_OVER_NP","DHCP_SERVER_USE_RPC_OVER_TCPIP","LPDHCP_SERVER_CONFIG_INFO","LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP]","dhcp.dhcp_server_config_info","dhcpsapi/LPDHCP_SERVER_CONFIG_INFO","dhcpsapi/_DHCP_SERVER_CONFIG_INFO"]
 old-location: dhcp\dhcp_server_config_info.htm
 tech.root: DHCP
 ms.assetid: 3c7226fd-703c-4981-b82b-180b4070d671
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO, DHCP_SERVER_CONFIG_INFO structure [DHCP], DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, LPDHCP_SERVER_CONFIG_INFO, LPDHCP_SERVER_CONFIG_INFO structure pointer [DHCP], dhcp.dhcp_server_config_info, dhcpsapi/LPDHCP_SERVER_CONFIG_INFO, dhcpsapi/_DHCP_SERVER_CONFIG_INFO'
-f1_keywords:
-- dhcpsapi/DHCP_SERVER_CONFIG_INFO
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_SERVER_CONFIG_INFO
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO, *LPDHCP_SERVER_CONFIG_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_SERVER_CONFIG_INFO
+ - dhcpsapi/_DHCP_SERVER_CONFIG_INFO
+ - LPDHCP_SERVER_CONFIG_INFO
+ - dhcpsapi/LPDHCP_SERVER_CONFIG_INFO
+ - DHCP_SERVER_CONFIG_INFO
+ - dhcpsapi/DHCP_SERVER_CONFIG_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_SERVER_CONFIG_INFO
 ---
 
 # DHCP_SERVER_CONFIG_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_SERVER_CONFIG_INFO</b> structure defines the data used to configure the DHCP server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field APIProtocolSupport
 
@@ -100,28 +101,22 @@ Local Procedure Call (LPC) can be used for local DHCP API RPC calls.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DatabaseName
 
 Unicode string that specifies the  file name of the client lease JET database.
 
-
 ### -field DatabasePath
 
 Unicode string that specifies the absolute path to <b>DatabaseName</b>.
-
 
 ### -field BackupPath
 
 Unicode string that specifies the absolute path and file name of the backup client lease JET database.
 
-
 ### -field BackupInterval
 
 Specifies the interval, in minutes,  between backups of the client lease database.
-
 
 ### -field DatabaseLoggingFlag
 
@@ -144,8 +139,6 @@ All database operations will be logged.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RestoreFlag
 
@@ -168,34 +161,23 @@ The client lease database should be restored from the path and file specified in
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DatabaseCleanupInterval
 
 Specifies the interval, in minutes,  between cleanup operations  performed on the client lease database.
 
-
 ### -field DebugFlag
 
 Reserved. This field should be set to 0x00000000.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfig">DhcpServerGetConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfig">DhcpServerGetConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfig">DhcpServerSetConfig</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfig">DhcpServerSetConfig</a>

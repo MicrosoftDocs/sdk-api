@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetURL
 title: IWMReaderAdvanced4::GetURL (wmsdkidl.h)
 description: The GetURL method retrieves the URL of the file being read. This URL might be different from the URL that was passed to IWMReader::Open, because the reader might have been redirected.
+helpviewer_keywords: ["GetURL","GetURL method [windows Media Format]","GetURL method [windows Media Format]","IWMReaderAdvanced4 interface","IWMReaderAdvanced4 interface [windows Media Format]","GetURL method","IWMReaderAdvanced4.GetURL","IWMReaderAdvanced4::GetURL","IWMReaderAdvanced4GetURL","wmformat.iwmreaderadvanced4_geturl","wmsdkidl/IWMReaderAdvanced4::GetURL"]
 old-location: wmformat\iwmreaderadvanced4_geturl.htm
 tech.root: wmformat
 ms.assetid: 1c17be57-da35-40f2-a216-97d6953c7311
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [windows Media Format], GetURL method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetURL method, IWMReaderAdvanced4.GetURL, IWMReaderAdvanced4::GetURL, IWMReaderAdvanced4GetURL, wmformat.iwmreaderadvanced4_geturl, wmsdkidl/IWMReaderAdvanced4::GetURL
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced4.GetURL
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced4.GetURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced4::GetURL
+ - wmsdkidl/IWMReaderAdvanced4::GetURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced4.GetURL
 ---
 
 # IWMReaderAdvanced4::GetURL
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, because the reader might have been redirected.
-
-
-
+The <b>GetURL</b> method retrieves the URL of the file being read. This URL might be different from the URL that was passed to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, because the reader might have been redirected.
 
 ## -parameters
-
-
-
 
 ### -param pwszURL
 
 [ out ] Pointer to a wide-character <b>null</b>-terminated string containing the URL of the file.
 
-
 ### -param pcchURL [in]
 
 [ in, out ] Pointer to a variable containing the number of wide characters in <i>pwszURL</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,27 +97,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pwszURL</i>. The method returns the size of the string in the <i>pcchURL</i> parameter. Allocate the required amount of memory for the string and call the method again. This time, pass a pointer to the allocated buffer in the <i>pwszURL</i> parameter.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>

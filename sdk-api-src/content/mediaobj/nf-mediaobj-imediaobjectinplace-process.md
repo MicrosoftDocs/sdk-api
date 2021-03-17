@@ -2,15 +2,12 @@
 UID: NF:mediaobj.IMediaObjectInPlace.Process
 title: IMediaObjectInPlace::Process (mediaobj.h)
 description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
+helpviewer_keywords: ["IMediaObjectInPlace interface [DirectShow]","Process method","IMediaObjectInPlace.Process","IMediaObjectInPlace::Process","IMediaObjectInPlaceProcess","Process","Process method [DirectShow]","Process method [DirectShow]","IMediaObjectInPlace interface","dshow.imediaobjectinplace_process","mediaobj/IMediaObjectInPlace::Process"]
 old-location: dshow\imediaobjectinplace_process.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
-f1_keywords:
-- mediaobj/IMediaObjectInPlace.Process
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObjectInPlace.Process
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObjectInPlace::Process
+ - mediaobj/IMediaObjectInPlace::Process
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObjectInPlace.Process
 ---
 
 # IMediaObjectInPlace::Process
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Process</code> method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulSize [in]
 
 Size of the data, in bytes.
 
-
 ### -param pData [in, out]
 
 Pointer to a buffer of size <i>ulSize</i>. On input, the buffer holds the input data. If the method returns successfully, the buffer contains the output data.
-
 
 ### -param refTimeStart [in]
 
 Start time of the data.
 
-
 ### -param dwFlags [in]
 
 Either DMO_INPLACE_NORMAL or DMO_INPLACE_ZERO. See Remarks for more information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -126,14 +114,8 @@ Success. There is no remaining data to process.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the method fails, the buffer might contain garbage. The application should not use the contents of the buffer.
 
@@ -143,16 +125,6 @@ While the application has input data for processing, call the <code>Process</cod
 
 If the DMO has no effect tail, this method returns S_TRUE or an error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>

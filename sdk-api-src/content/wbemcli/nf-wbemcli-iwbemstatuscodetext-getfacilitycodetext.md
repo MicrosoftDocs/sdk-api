@@ -1,16 +1,13 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetFacilityCodeText
 title: IWbemStatusCodeText::GetFacilityCodeText (wbemcli.h)
-description: The IWbemStatusCodeText::GetFacilityCodeText method returns the name of the subsystem where the error occurred, such as &#0034;Windows&#0034;, &#0034;WBEM&#0034;, &#0034;SSPI&#0034;, or &#0034;RPC&#0034;.
+description: The IWbemStatusCodeText::GetFacilityCodeText method returns the name of the subsystem where the error occurred, such as &quot;Windows&quot;, &quot;WBEM&quot;, &quot;SSPI&quot;, or &quot;RPC&quot;.
+helpviewer_keywords: ["GetFacilityCodeText","GetFacilityCodeText method [Windows Management Instrumentation]","GetFacilityCodeText method [Windows Management Instrumentation]","IWbemStatusCodeText interface","IWbemStatusCodeText interface [Windows Management Instrumentation]","GetFacilityCodeText method","IWbemStatusCodeText.GetFacilityCodeText","IWbemStatusCodeText::GetFacilityCodeText","_hmm_iwbemstatuscodetext_getfacilitycodetext","wbemcli/IWbemStatusCodeText::GetFacilityCodeText","wmi.iwbemstatuscodetext_getfacilitycodetext"]
 old-location: wmi\iwbemstatuscodetext_getfacilitycodetext.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 831f8eb4-3dcd-42ec-aa43-309360e9a5ce
 ms.date: 12/05/2018
 ms.keywords: GetFacilityCodeText, GetFacilityCodeText method [Windows Management Instrumentation], GetFacilityCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetFacilityCodeText method, IWbemStatusCodeText.GetFacilityCodeText, IWbemStatusCodeText::GetFacilityCodeText, _hmm_iwbemstatuscodetext_getfacilitycodetext, wbemcli/IWbemStatusCodeText::GetFacilityCodeText, wmi.iwbemstatuscodetext_getfacilitycodetext
-f1_keywords:
-- wbemcli/IWbemStatusCodeText.GetFacilityCodeText
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemStatusCodeText.GetFacilityCodeText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemStatusCodeText::GetFacilityCodeText
+ - wbemcli/IWbemStatusCodeText::GetFacilityCodeText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemStatusCodeText.GetFacilityCodeText
 ---
 
 # IWbemStatusCodeText::GetFacilityCodeText
@@ -48,49 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
     <b>IWbemStatusCodeText::GetFacilityCodeText</b> 
     method returns the name of the subsystem where the error occurred, such as "Windows", "WBEM", "SSPI", or "RPC".
 
-
 ## -parameters
-
-
-
 
 ### -param hRes [in]
 
 Handle to the error code for which you want a description.
 
-
 ### -param LocaleId [in]
 
 Reserved. This parameter must be 0 (zero).
-
 
 ### -param lFlags [in]
 
 Reserved. This parameter must be 0 (zero).
 
-
 ### -param MessageText [out]
 
 Pointer to a string containing the descriptive text of the error code.
 
-
 ## -returns
-
-
 
 This method returns <b>WMI_S_NO_ERROR</b> if successful.
 
-
-
-
 ## -remarks
-
-
 
 To enable the 
     <b>GetFacilityCodeText</b> method to 
@@ -138,7 +124,4 @@ IWbemStatusCodeText * pStatus = NULL;
     // clean up.
     pStatus->Release();
 ```
-
-
-
 

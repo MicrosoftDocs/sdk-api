@@ -2,15 +2,12 @@
 UID: NF:objidl.IROTData.GetComparisonData
 title: IROTData::GetComparisonData (objidl.h)
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
+helpviewer_keywords: ["GetComparisonData","GetComparisonData method [COM]","GetComparisonData method [COM]","IROTData interface","IROTData interface [COM]","GetComparisonData method","IROTData.GetComparisonData","IROTData::GetComparisonData","_com_irotdata_getcomparisondata","com.irotdata_getcomparisondata","objidl/IROTData::GetComparisonData"]
 old-location: com\irotdata_getcomparisondata.htm
 tech.root: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
 ms.date: 12/05/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
-f1_keywords:
-- objidl/IROTData.GetComparisonData
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IROTData.GetComparisonData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IROTData::GetComparisonData
+ - objidl/IROTData::GetComparisonData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IROTData.GetComparisonData
 ---
 
 # IROTData::GetComparisonData
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 
-
 ## -parameters
-
-
-
 
 ### -param pbData [out]
 
 A pointer to a buffer that receives the comparison data.
 
-
 ### -param cbMax [in]
 
 The length of the buffer specified in <i>pbData</i>.
-
 
 ### -param pcbData [out]
 
 A pointer to a variable that receives the length of the comparison data.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_OUTOFMEMORY and S_OK.
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetComparisonData</b> method is primarily called by the running object table (ROT). The comparison data returned by the method is tested for binary equality against the comparison data returned by another moniker. The <i>pcbData</i> parameter enables the ROT to locate the end of the data retrieved.
 
@@ -94,16 +81,6 @@ The comparison data for a moniker cannot exceed 2048 bytes in length. For compos
 
 If your comparison data is longer than the value specified by the <i>cbMax</i> parameter, you must return an error. Note that when <b>GetComparisonData</b> is called on the components of a composite moniker, the value of <i>cbMax</i> becomes smaller for each moniker in sequence.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>

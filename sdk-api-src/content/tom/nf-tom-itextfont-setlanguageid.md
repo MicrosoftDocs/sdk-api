@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetLanguageID
 title: ITextFont::SetLanguageID (tom.h)
 description: Sets the language ID or language code identifier (LCID).
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetLanguageID method","ITextFont.SetLanguageID","ITextFont::SetLanguageID","SetLanguageID","SetLanguageID method [Windows Controls]","SetLanguageID method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetLanguageID","_win32_ITextFont_SetLanguageID_cpp","controls.ITextFont_SetLanguageID","controls._win32_ITextFont_SetLanguageID","tom/ITextFont::SetLanguageID"]
 old-location: controls\ITextFont_SetLanguageID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetLanguageID method, ITextFont.SetLanguageID, ITextFont::SetLanguageID, SetLanguageID, SetLanguageID method [Windows Controls], SetLanguageID method [Windows Controls],ITextFont interface, _win32_ITextFont_SetLanguageID, _win32_ITextFont_SetLanguageID_cpp, controls.ITextFont_SetLanguageID, controls._win32_ITextFont_SetLanguageID, tom/ITextFont::SetLanguageID
-f1_keywords:
-- tom/ITextFont.SetLanguageID
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetLanguageID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetLanguageID
+ - tom/ITextFont::SetLanguageID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetLanguageID
 ---
 
 # ITextFont::SetLanguageID
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the  language ID or language code identifier (LCID).
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-The new language identifier. The low word contains the language identifier. The high word is either zero or it contains the high word of the locale identifier LCID. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.
-
+The new language identifier. The low word contains the language identifier. The high word is either zero or it contains the high word of the locale identifier LCID. For more information, see <a href="/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -122,39 +116,27 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If the high nibble of  <i>Value</i> is <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setcharrep">ITextFont2::SetCharRep</a>. 
+
+If the high nibble of <i>Value</i> is <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">ITextFont::GetLanguageID</a> for more information. 
 
 
-If the high nibble of  <i>Value</i> is <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomCharset</a>, set the <i>charrep</i> from the <i>charset</i> in the low byte and the pitch and family from the next byte. See also <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setcharrep">ITextFont2::SetCharRep</a>. 
-
-If the high nibble of <i>Value</i> is <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomCharRepFromLcid</a>, set the <i>charrep</i> from the LCID and set the LCID as well. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">ITextFont::GetLanguageID</a> for more information. 
-
-
-To set the BCP-47 language tag, such as "en-US", call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-settext2">ITextRange2::SetText2</a> and set the <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLanguageTag</a> and <i>bstr</i> with the language tag.
-
-
-
+To set the BCP-47 language tag, such as "en-US", call <a href="/windows/desktop/api/tom/nf-tom-itextrange2-settext2">ITextRange2::SetText2</a> and set the <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomLanguageTag</a> and <i>bstr</i> with the language tag.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">GetLanguageID</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">GetLanguageID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -162,8 +144,4 @@ To set the BCP-47 language tag, such as "en-US", call <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

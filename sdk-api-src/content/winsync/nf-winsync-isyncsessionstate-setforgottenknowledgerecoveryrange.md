@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncSessionState.SetForgottenKnowledgeRecoveryRange
 title: ISyncSessionState::SetForgottenKnowledgeRecoveryRange (winsync.h)
 description: Sets the recovery range when the session is performing forgotten knowledge recovery.
+helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","SetForgottenKnowledgeRecoveryRange method","ISyncSessionState.SetForgottenKnowledgeRecoveryRange","ISyncSessionState::SetForgottenKnowledgeRecoveryRange","SetForgottenKnowledgeRecoveryRange","SetForgottenKnowledgeRecoveryRange method [Windows Sync]","SetForgottenKnowledgeRecoveryRange method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_setforgottenknowledgerecoveryrange","winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange"]
 old-location: winsync\isyncsessionstate_setforgottenknowledgerecoveryrange.htm
 tech.root: winsync
 ms.assetid: 2de6bfb3-bde9-49ee-97eb-acc1671efd0d
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],SetForgottenKnowledgeRecoveryRange method, ISyncSessionState.SetForgottenKnowledgeRecoveryRange, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
-f1_keywords:
-- winsync/ISyncSessionState.SetForgottenKnowledgeRecoveryRange
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionState.SetForgottenKnowledgeRecoveryRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState::SetForgottenKnowledgeRecoveryRange
+ - winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionState.SetForgottenKnowledgeRecoveryRange
 ---
 
 # ISyncSessionState::SetForgottenKnowledgeRecoveryRange
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the recovery range when the session is performing forgotten knowledge recovery.
 
-
 ## -parameters
-
-
-
 
 ### -param pRange [in]
 
 The lower and upper bounds that define the range of IDs to be recovered.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -115,18 +109,7 @@ An item ID in <i>pRange</i> is not in the format that is specified by the ID for
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>

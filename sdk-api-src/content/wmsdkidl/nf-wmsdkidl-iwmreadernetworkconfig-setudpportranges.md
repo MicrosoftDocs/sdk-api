@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetUDPPortRanges
 title: IWMReaderNetworkConfig::SetUDPPortRanges (wmsdkidl.h)
 description: The SetUDPPortRanges method specifies the UDP port number ranges that are used for receiving data.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetUDPPortRanges method","IWMReaderNetworkConfig.SetUDPPortRanges","IWMReaderNetworkConfig::SetUDPPortRanges","IWMReaderNetworkConfigSetUDPPortRanges","SetUDPPortRanges","SetUDPPortRanges method [windows Media Format]","SetUDPPortRanges method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setudpportranges","wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges"]
 old-location: wmformat\iwmreadernetworkconfig_setudpportranges.htm
 tech.root: wmformat
 ms.assetid: 9a61943a-8ff9-4504-b76f-25e3c5c8d4a4
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetUDPPortRanges method, IWMReaderNetworkConfig.SetUDPPortRanges, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.SetUDPPortRanges
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.SetUDPPortRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::SetUDPPortRanges
+ - wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.SetUDPPortRanges
 ---
 
 # IWMReaderNetworkConfig::SetUDPPortRanges
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetUDPPortRanges</b> method specifies the UDP port number ranges that are used for receiving data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pRangeArray [in]
 
 Pointer to an array of <b>WM_PORT_NUMBER_RANGE</b> structures.
 
-
 ### -param cRanges [in]
 
 A value indicating the length of the array passed in <i>pRangeArray</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,35 +97,19 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If no ranges are specified by the application, port numbers are selected by the reader.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getudpportranges">IWMReaderNetworkConfig::GetUDPPortRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getudpportranges">IWMReaderNetworkConfig::GetUDPPortRanges</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_port_number_range">WM_PORT_NUMBER_RANGE</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_port_number_range">WM_PORT_NUMBER_RANGE</a>

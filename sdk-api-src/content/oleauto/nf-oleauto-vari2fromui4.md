@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI2FromUI4
 title: VarI2FromUI4 function (oleauto.h)
 description: Converts an unsigned long value to a short value.
+helpviewer_keywords: ["VarI2FromUI4","VarI2FromUI4 function [Automation]","_oa96_VarI2FromUI4","automat.vari2fromui4","oleauto/VarI2FromUI4"]
 old-location: automat\vari2fromui4.htm
 tech.root: automat
 ms.assetid: 8a71f30d-7ebd-4e52-8aff-fedbd1f5c3fb
 ms.date: 12/05/2018
 ms.keywords: VarI2FromUI4, VarI2FromUI4 function [Automation], _oa96_VarI2FromUI4, automat.vari2fromui4, oleauto/VarI2FromUI4
-f1_keywords:
-- oleauto/VarI2FromUI4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI2FromUI4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI2FromUI4
+ - oleauto/VarI2FromUI4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI2FromUI4
 ---
 
 # VarI2FromUI4 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned long value to a short value.
 
-
 ## -parameters
-
-
-
 
 ### -param ulIn [in]
 
 The value to convert.
 
-
 ### -param psOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

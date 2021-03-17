@@ -2,15 +2,12 @@
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.GetProperty
 title: IPortableDeviceConnector::GetProperty (portabledeviceconnectapi.h)
 description: Retrieves a property for the given MTP/Bluetooth Bus Enumerator device.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Portable Devices SDK]","GetProperty method [Windows Portable Devices SDK]","IPortableDeviceConnector interface","IPortableDeviceConnector interface [Windows Portable Devices SDK]","GetProperty method","IPortableDeviceConnector.GetProperty","IPortableDeviceConnector::GetProperty","devpkey/IPortableDeviceConnector::GetProperty","portabledeviceconnectapi/IPortableDeviceConnector::GetProperty","wpdsdk.iportabledeviceconnector_getproperty"]
 old-location: wpdsdk\iportabledeviceconnector_getproperty.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 7503df7a-826c-4e77-b51a-6b3d618732ca
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetProperty method, IPortableDeviceConnector.GetProperty, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
-f1_keywords:
-- portabledeviceconnectapi/IPortableDeviceConnector.GetProperty
-dev_langs:
-- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGuids.lib
-- PortableDeviceGuids.dll
-api_name:
-- IPortableDeviceConnector.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceConnector::GetProperty
+ - portabledeviceconnectapi/IPortableDeviceConnector::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGuids.lib
+ - PortableDeviceGuids.dll
+api_name:
+ - IPortableDeviceConnector.GetProperty
 ---
 
 # IPortableDeviceConnector::GetProperty
@@ -49,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProperty</b> method retrieves a property for the given MTP/Bluetooth Bus Enumerator device.
 
-
 ## -parameters
-
-
-
 
 ### -param pPropertyKey [in]
 
 A pointer to a property key for the requested property.
 
-
 ### -param pPropertyType [out]
 
 A pointer to a property type.
-
 
 ### -param ppData [out]
 
 The address of a pointer to the property data.
 
-
 ### -param pcbData [out]
 
 A pointer to the size (in bytes) of the property data.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,14 +103,8 @@ The specified property key is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The properties retrieved by this method are set on the device node. An example property key is <b>DEVPKEY_MTPBTH_IsConnected</b>, which indicates whether the device is currently connected.
 
@@ -162,17 +147,6 @@ __out BOOL* pIsConnected)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>

@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactProperties.DeleteProperty
 title: IContactProperties::DeleteProperty (icontact.h)
 description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.
+helpviewer_keywords: ["DeleteProperty","DeleteProperty method [Windows Contacts]","DeleteProperty method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","DeleteProperty method","IContactProperties.DeleteProperty","IContactProperties::DeleteProperty","_wincontacts_IContactProperties_DeleteProperty","icontact/IContactProperties::DeleteProperty","wincontacts._wincontacts_IContactProperties_DeleteProperty"]
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm
 tech.root: wincontacts
 ms.assetid: 74ed72da-e82c-4257-9d16-c5204a88c9bf
 ms.date: 12/05/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Windows Contacts], DeleteProperty method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteProperty method, IContactProperties.DeleteProperty, IContactProperties::DeleteProperty, _wincontacts_IContactProperties_DeleteProperty, icontact/IContactProperties::DeleteProperty, wincontacts._wincontacts_IContactProperties_DeleteProperty
-f1_keywords:
-- icontact/IContactProperties.DeleteProperty
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactProperties.DeleteProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactProperties::DeleteProperty
+ - icontact/IContactProperties::DeleteProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactProperties.DeleteProperty
 ---
 
 # IContactProperties::DeleteProperty
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the value at a specified property. Property modification 
-		and version data can still be enumerated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.
-
+		and version data can still be enumerated with <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.
 
 ## -parameters
-
-
-
 
 ### -param pszPropertyName [in]
 
@@ -64,17 +61,13 @@ Type: <b>LPCWSTR</b>
 
 Specifies the property to delete the value for.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-Must be CGD_DEFAULT. 
-
+Must be CGD_DEFAULT.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -108,7 +101,3 @@ Property name doesn't exist for delete.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:wsdxml.WSDXMLCreateContext
 title: WSDXMLCreateContext function (wsdxml.h)
 description: Creates a new IWSDXMLContext object.
+helpviewer_keywords: ["WSDXMLCreateContext","WSDXMLCreateContext function","ncd.wsdxmlcreatecontext","wsdxml/WSDXMLCreateContext"]
 old-location: ncd\wsdxmlcreatecontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fb0d8c28-1dc3-43be-a1cf-c00de6c1f43e
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext
-f1_keywords:
-- wsdxml/WSDXMLCreateContext
-dev_langs:
-- c++
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WsdApi.lib
 req.dll: WsdApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WsdApi.dll
-api_name:
-- WSDXMLCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDXMLCreateContext
+ - wsdxml/WSDXMLCreateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WsdApi.dll
+api_name:
+ - WSDXMLCreateContext
 ---
 
 # WSDXMLCreateContext function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> 
+Creates a new <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> 
     object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppContext [out]
 
 Pointer to a newly allocated 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object. If the function fails, 
+      <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object. If the function fails, 
       this parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -110,7 +104,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

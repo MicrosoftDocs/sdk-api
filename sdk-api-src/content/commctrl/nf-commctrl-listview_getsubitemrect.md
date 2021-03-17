@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetSubItemRect
 title: ListView_GetSubItemRect macro (commctrl.h)
 description: Gets information about the rectangle that surrounds a subitem in a list-view control.
+helpviewer_keywords: ["LVIR_BOUNDS","LVIR_ICON","LVIR_LABEL","ListView_GetSubItemRect","ListView_GetSubItemRect macro [Windows Controls]","_win32_ListView_GetSubItemRect","_win32_ListView_GetSubItemRect_cpp","commctrl/ListView_GetSubItemRect","controls.ListView_GetSubItemRect","controls._win32_ListView_GetSubItemRect"]
 old-location: controls\ListView_GetSubItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.date: 12/05/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
-f1_keywords:
-- commctrl/ListView_GetSubItemRect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetSubItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetSubItemRect
+ - commctrl/ListView_GetSubItemRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetSubItemRect
 ---
 
 # ListView_GetSubItemRect macro
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getsubitemrect">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_REPORT</a> style. 
-
+Gets information about the rectangle that surrounds a subitem in a list-view control. You can use this macro (recommended) or send the <a href="/windows/desktop/Controls/lvm-getsubitemrect">LVM_GETSUBITEMRECT</a> message explicitly. This macro is intended to be used only on list-view controls that use the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_REPORT</a> style.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a list-view control. 
-
+A handle to a list-view control.
 
 ### -param iItem
 
 Type: <b>int</b>
 
-The index of the subitem's parent item. 
-
+The index of the subitem's parent item.
 
 ### -param iSubItem
 
 Type: <b>int</b>
 
-The one-based index of the subitem. 
-
+The one-based index of the subitem.
 
 ### -param code
 
@@ -120,12 +114,9 @@ Returns the bounding rectangle of the entire item, including the icon and label.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param prc
 
 Type: <b>LPRECT</b>
 
-Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the subitem bounding rectangle information. 
-
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the subitem bounding rectangle information.

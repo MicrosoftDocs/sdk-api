@@ -2,15 +2,12 @@
 UID: NF:ocidl.IFont.put_Italic
 title: IFont::put_Italic (ocidl.h)
 description: Sets the font's Italic property.
+helpviewer_keywords: ["IFont interface [COM]","put_Italic method","IFont.put_Italic","IFont::put_Italic","_ctrl_ifont_put_italic","com.ifont_put_italic","ocidl/IFont::put_Italic","put_Italic","put_Italic method [COM]","put_Italic method [COM]","IFont interface"]
 old-location: com\ifont_put_italic.htm
 tech.root: com
 ms.assetid: a59169e1-d3c4-4dc0-b228-afad0e4d4307
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Italic method, IFont.put_Italic, IFont::put_Italic, _ctrl_ifont_put_italic, com.ifont_put_italic, ocidl/IFont::put_Italic, put_Italic, put_Italic method [COM], put_Italic method [COM],IFont interface
-f1_keywords:
-- ocidl/IFont.put_Italic
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IFont.put_Italic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFont::put_Italic
+ - ocidl/IFont::put_Italic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IFont.put_Italic
 ---
 
 # IFont::put_Italic
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the font's Italic property.
 
-
 ## -parameters
-
-
-
 
 ### -param italic [in]
 
 The new Italic property for the font.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,22 +90,11 @@ The font does not support an italic state. This value is not an error condition.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_italic">IFont::get_Italic</a>

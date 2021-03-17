@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSyncTolerance
 title: IWMWriterAdvanced::GetSyncTolerance (wmsdkidl.h)
 description: The GetSyncTolerance method retrieves the amount of time during which the inputs can fall out of synchronization before the samples are discarded.
+helpviewer_keywords: ["GetSyncTolerance","GetSyncTolerance method [windows Media Format]","GetSyncTolerance method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetSyncTolerance method","IWMWriterAdvanced.GetSyncTolerance","IWMWriterAdvanced::GetSyncTolerance","IWMWriterAdvancedGetSyncTolerance","wmformat.iwmwriteradvanced_getsynctolerance","wmsdkidl/IWMWriterAdvanced::GetSyncTolerance"]
 old-location: wmformat\iwmwriteradvanced_getsynctolerance.htm
 tech.root: wmformat
 ms.assetid: f62d3405-3125-4df6-bd06-fa70358560ad
 ms.date: 12/05/2018
 ms.keywords: GetSyncTolerance, GetSyncTolerance method [windows Media Format], GetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSyncTolerance method, IWMWriterAdvanced.GetSyncTolerance, IWMWriterAdvanced::GetSyncTolerance, IWMWriterAdvancedGetSyncTolerance, wmformat.iwmwriteradvanced_getsynctolerance, wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced.GetSyncTolerance
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced.GetSyncTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::GetSyncTolerance
+ - wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced.GetSyncTolerance
 ---
 
 # IWMWriterAdvanced::GetSyncTolerance
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSyncTolerance</b> method retrieves the amount of time during which the inputs can fall out of synchronization before the samples are discarded.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pmsWindow [in]
 
 Pointer to the limit of the number of milliseconds that the inputs can be out of synchronization. Note that this parameter is in milliseconds and not 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,31 +93,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The default tolerance is 3000 milliseconds.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">IWMWriterAdvanced::SetSyncTolerance</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">IWMWriterAdvanced::SetSyncTolerance</a>

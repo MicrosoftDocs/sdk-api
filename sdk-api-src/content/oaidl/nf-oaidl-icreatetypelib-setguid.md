@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeLib.SetGuid
 title: ICreateTypeLib::SetGuid (oaidl.h)
 description: Sets the universal unique identifier (UUID) associated with the type library.
+helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetGuid method","ICreateTypeLib.SetGuid","ICreateTypeLib::SetGuid","SetGuid","SetGuid method [Automation]","SetGuid method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetGuid","automat.icreatetypelib_setguid","oaidl/ICreateTypeLib::SetGuid"]
 old-location: automat\icreatetypelib_setguid.htm
 tech.root: automat
 ms.assetid: c9afbb9e-3f0a-4862-abb6-82631bae759f
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetGuid method, ICreateTypeLib.SetGuid, ICreateTypeLib::SetGuid, SetGuid, SetGuid method [Automation], SetGuid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetGuid, automat.icreatetypelib_setguid, oaidl/ICreateTypeLib::SetGuid
-f1_keywords:
-- oaidl/ICreateTypeLib.SetGuid
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.SetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::SetGuid
+ - oaidl/ICreateTypeLib::SetGuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.SetGuid
 ---
 
 # ICreateTypeLib::SetGuid
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the universal unique identifier (UUID) associated with the type library (Also known as the globally unique identifier (GUID)).
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
 The globally unique identifier to be assigned to the library.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,22 +123,11 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>

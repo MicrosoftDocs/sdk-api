@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_VendorId
 title: IDiscRecorder2::get_VendorId (imapi2.h)
 description: Retrieves the vendor ID for the device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_VendorId method","IDiscRecorder2.get_VendorId","IDiscRecorder2::get_VendorId","get_VendorId","get_VendorId method [IMAPI]","get_VendorId method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_vendorid","imapi2/IDiscRecorder2::get_VendorId"]
 old-location: imapi\idiscrecorder2_get_vendorid.htm
 tech.root: imapi
 ms.assetid: a3e76907-1960-4c13-b6e4-9f5c86de38c6
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VendorId method, IDiscRecorder2.get_VendorId, IDiscRecorder2::get_VendorId, get_VendorId, get_VendorId method [IMAPI], get_VendorId method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_vendorid, imapi2/IDiscRecorder2::get_VendorId
-f1_keywords:
-- imapi2/IDiscRecorder2.get_VendorId
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_VendorId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_VendorId
+ - imapi2/IDiscRecorder2::get_VendorId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_VendorId
 ---
 
 # IDiscRecorder2::get_VendorId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the vendor ID for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 String that contains the vendor ID for the device.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -113,18 +107,7 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>

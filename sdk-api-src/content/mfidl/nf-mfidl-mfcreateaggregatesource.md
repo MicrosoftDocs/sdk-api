@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateAggregateSource
 title: MFCreateAggregateSource function (mfidl.h)
 description: Creates a media source that aggregates a collection of media sources.
+helpviewer_keywords: ["MFCreateAggregateSource","MFCreateAggregateSource function [Media Foundation]","mf.mfcreateaggregatesource","mfidl/MFCreateAggregateSource"]
 old-location: mf\mfcreateaggregatesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.date: 12/05/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
-f1_keywords:
-- mfidl/MFCreateAggregateSource
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateAggregateSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateAggregateSource
+ - mfidl/MFCreateAggregateSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateAggregateSource
 ---
 
 # MFCreateAggregateSource function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a media source that aggregates a collection of media sources. 
-
+Creates a media source that aggregates a collection of media sources.
 
 ## -parameters
 
-
-
-
 ### -param pSourceCollection [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of the collection object that contains a list of media sources. 
-
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of the collection object that contains a list of media sources.
 
 ### -param ppAggSource [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of the aggregated media source. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of the aggregated media source. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,14 +96,8 @@ The <i>pSourceCollection</i> collection does not contain any elements.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The aggregated media source is useful for combining  streams from separate media sources. For example, you can use it to  combine a video capture source and an audio capture source. 
 
@@ -149,21 +136,10 @@ HRESULT CreateAggregatedSource(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

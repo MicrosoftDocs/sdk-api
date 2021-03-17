@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_Update
 title: ListView_Update macro (commctrl.h)
 description: Updates a list-view item. If the list-view control has the LVS_AUTOARRANGE style, this macro causes the list-view control to be arranged. You can use this macro or send the LVM_UPDATE message explicitly.
+helpviewer_keywords: ["ListView_Update","ListView_Update macro [Windows Controls]","_win32_ListView_Update","_win32_ListView_Update_cpp","commctrl/ListView_Update","controls.ListView_Update","controls._win32_ListView_Update"]
 old-location: controls\ListView_Update.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_update.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
-f1_keywords:
-- commctrl/ListView_Update
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_Update
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_Update
+ - commctrl/ListView_Update
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_Update
 ---
 
 # ListView_Update macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Updates a list-view item. If the list-view control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-update">LVM_UPDATE</a> message explicitly. 
-
+Updates a list-view item. If the list-view control has the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-update">LVM_UPDATE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param i
 
 Type: <b>int</b>
 
-The index of the item to update. 
-
+The index of the item to update.

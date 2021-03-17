@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.CloneFrame
 title: IShellImageData::CloneFrame (shimgdata.h)
 description: Retrieves a clone of the current image or frame.
+helpviewer_keywords: ["CloneFrame","CloneFrame method [Windows Shell]","CloneFrame method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","CloneFrame method","IShellImageData.CloneFrame","IShellImageData::CloneFrame","_shell_IShellImageData_CloneFrame","shell.IShellImageData_CloneFrame","shimgdata/IShellImageData::CloneFrame"]
 old-location: shell\IShellImageData_CloneFrame.htm
 tech.root: shell
 ms.assetid: 220d307a-7969-443c-963b-80132509ad8b
 ms.date: 12/05/2018
 ms.keywords: CloneFrame, CloneFrame method [Windows Shell], CloneFrame method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],CloneFrame method, IShellImageData.CloneFrame, IShellImageData::CloneFrame, _shell_IShellImageData_CloneFrame, shell.IShellImageData_CloneFrame, shimgdata/IShellImageData::CloneFrame
-f1_keywords:
-- shimgdata/IShellImageData.CloneFrame
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.CloneFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::CloneFrame
+ - shimgdata/IShellImageData::CloneFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.CloneFrame
 ---
 
 # IShellImageData::CloneFrame
@@ -48,26 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a clone of the current image or frame.
 
-
 ## -parameters
-
-
-
 
 ### -param ppImg [in, out]
 
 Type: <b>Image**</b>
 
 The address that receives a pointer to the clone image. If this parameter is <b>NULL</b> on entry, an unhandled exception results.
-        
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -91,16 +84,8 @@ The <i>ppImg</i> parameter is <b>NULL</b> on entry or the image cannot be cloned
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In the case of a multiframed image such as a .gif file, the current frame is cloned. In the case of non-multiframed images such a .jpg file, the entire image is cloned.
-
-
 

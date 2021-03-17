@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_PAIR
 title: CERT_PAIR (wincrypt.h)
 description: The CERT_PAIR structure contains a certificate and its pair cross certificate.
+helpviewer_keywords: ["*PCERT_PAIR","CERT_PAIR","CERT_PAIR structure [Security]","PCERT_PAIR","PCERT_PAIR structure pointer [Security]","_crypto2_cert_pair","security.cert_pair","wincrypt/CERT_PAIR","wincrypt/PCERT_PAIR"]
 old-location: security\cert_pair.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b5929430-1b12-4ebf-a5ef-3669bba63f8c
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_PAIR, CERT_PAIR, CERT_PAIR structure [Security], PCERT_PAIR, PCERT_PAIR structure pointer [Security], _crypto2_cert_pair, security.cert_pair, wincrypt/CERT_PAIR, wincrypt/PCERT_PAIR'
-f1_keywords:
-- wincrypt/CERT_PAIR
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_PAIR
 targetos: Windows
 req.typenames: CERT_PAIR, *PCERT_PAIR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_PAIR
+ - wincrypt/_CERT_PAIR
+ - PCERT_PAIR
+ - wincrypt/PCERT_PAIR
+ - CERT_PAIR
+ - wincrypt/CERT_PAIR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_PAIR
 ---
 
 # CERT_PAIR structure
@@ -48,21 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_PAIR</b> structure contains a certificate and its pair cross certificate.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Forward
 
-An optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure that contains a certificate. If the <b>cbData</b> member of <b>Forward</b> is zero, the certificate may be empty.
-
+An optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure that contains a certificate. If the <b>cbData</b> member of <b>Forward</b> is zero, the certificate may be empty.
 
 ### -field Reverse
 
-An optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure that contains a certificate. If the <b>cbData</b> member of <b>Reverse</b> is zero, the certificate may be empty.
-
+An optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> structure that contains a certificate. If the <b>cbData</b> member of <b>Reverse</b> is zero, the certificate may be empty.

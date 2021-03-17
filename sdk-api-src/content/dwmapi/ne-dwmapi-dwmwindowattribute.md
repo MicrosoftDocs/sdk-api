@@ -2,15 +2,12 @@
 UID: NE:dwmapi.DWMWINDOWATTRIBUTE
 title: DWMWINDOWATTRIBUTE (dwmapi.h)
 description: Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for Desktop Window Manager (DWM) non-client rendering.
+helpviewer_keywords: ["DWMWA_ALLOW_NCPAINT","DWMWA_CAPTION_BUTTON_BOUNDS","DWMWA_CLOAK","DWMWA_CLOAKED","DWMWA_DISALLOW_PEEK","DWMWA_EXCLUDED_FROM_PEEK","DWMWA_EXTENDED_FRAME_BOUNDS","DWMWA_FLIP3D_POLICY","DWMWA_FORCE_ICONIC_REPRESENTATION","DWMWA_FREEZE_REPRESENTATION","DWMWA_HAS_ICONIC_BITMAP","DWMWA_LAST","DWMWA_NCRENDERING_ENABLED","DWMWA_NCRENDERING_POLICY","DWMWA_NONCLIENT_RTL_LAYOUT","DWMWA_TRANSITIONS_FORCEDISABLED","DWMWINDOWATTRIBUTE","DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager]","_udwm_dwmwindowattribute","_udwm_dwmwindowattribute_cpp","dwm.dwmwindowattribute","dwmapi/DWMWA_ALLOW_NCPAINT","dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS","dwmapi/DWMWA_CLOAK","dwmapi/DWMWA_CLOAKED","dwmapi/DWMWA_DISALLOW_PEEK","dwmapi/DWMWA_EXCLUDED_FROM_PEEK","dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS","dwmapi/DWMWA_FLIP3D_POLICY","dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION","dwmapi/DWMWA_FREEZE_REPRESENTATION","dwmapi/DWMWA_HAS_ICONIC_BITMAP","dwmapi/DWMWA_LAST","dwmapi/DWMWA_NCRENDERING_ENABLED","dwmapi/DWMWA_NCRENDERING_POLICY","dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT","dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED","dwmapi/DWMWINDOWATTRIBUTE","winui._udwm_dwmwindowattribute"]
 old-location: dwm\dwmwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmwindowattribute.htm
 ms.date: 05/30/2019
 ms.keywords: DWMWA_ALLOW_NCPAINT, DWMWA_CAPTION_BUTTON_BOUNDS, DWMWA_CLOAK, DWMWA_CLOAKED, DWMWA_DISALLOW_PEEK, DWMWA_EXCLUDED_FROM_PEEK, DWMWA_EXTENDED_FRAME_BOUNDS, DWMWA_FLIP3D_POLICY, DWMWA_FORCE_ICONIC_REPRESENTATION, DWMWA_FREEZE_REPRESENTATION, DWMWA_HAS_ICONIC_BITMAP, DWMWA_LAST, DWMWA_NCRENDERING_ENABLED, DWMWA_NCRENDERING_POLICY, DWMWA_NONCLIENT_RTL_LAYOUT, DWMWA_TRANSITIONS_FORCEDISABLED, DWMWINDOWATTRIBUTE, DWMWINDOWATTRIBUTE enumeration [Desktop Window Manager], _udwm_dwmwindowattribute, _udwm_dwmwindowattribute_cpp, dwm.dwmwindowattribute, dwmapi/DWMWA_ALLOW_NCPAINT, dwmapi/DWMWA_CAPTION_BUTTON_BOUNDS, dwmapi/DWMWA_CLOAK, dwmapi/DWMWA_CLOAKED, dwmapi/DWMWA_DISALLOW_PEEK, dwmapi/DWMWA_EXCLUDED_FROM_PEEK, dwmapi/DWMWA_EXTENDED_FRAME_BOUNDS, dwmapi/DWMWA_FLIP3D_POLICY, dwmapi/DWMWA_FORCE_ICONIC_REPRESENTATION, dwmapi/DWMWA_FREEZE_REPRESENTATION, dwmapi/DWMWA_HAS_ICONIC_BITMAP, dwmapi/DWMWA_LAST, dwmapi/DWMWA_NCRENDERING_ENABLED, dwmapi/DWMWA_NCRENDERING_POLICY, dwmapi/DWMWA_NONCLIENT_RTL_LAYOUT, dwmapi/DWMWA_TRANSITIONS_FORCEDISABLED, dwmapi/DWMWINDOWATTRIBUTE, winui._udwm_dwmwindowattribute
-f1_keywords:
-- dwmapi/DWMWINDOWATTRIBUTE
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dwmapi.h
-api_name:
-- DWMWINDOWATTRIBUTE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWMWINDOWATTRIBUTE
+ - dwmapi/DWMWINDOWATTRIBUTE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dwmapi.h
+api_name:
+ - DWMWINDOWATTRIBUTE
 ---
 
 # DWMWINDOWATTRIBUTE enumeration
+
 
 ## -description
 
@@ -57,7 +60,7 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">D
 
 ### -field DWMWA_NCRENDERING_POLICY
 
-Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client rendering policy. The <i>pvAttribute</i> parameter points to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmncrenderingpolicy">DWMNCRENDERINGPOLICY</a> enumeration.
+Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client rendering policy. The <i>pvAttribute</i> parameter points to a value from the <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwmncrenderingpolicy">DWMNCRENDERINGPOLICY</a> enumeration.
 
 ### -field DWMWA_TRANSITIONS_FORCEDISABLED
 
@@ -117,29 +120,12 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>. If the window is cloaked, provides one of the following values explaining why.
 
-<table class="clsStd">
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>DWM_CLOAKED_APP</td>
-<td>0x0000001</td>
-<td>The window was cloaked by its owner application.</td>
-</tr>
-<tr>
-<td>DWM_CLOAKED_SHELL</td>
-<td>0x0000002</td>
-<td>The window was cloaked by the Shell.</td>
-</tr>
-<tr>
-<td>DWM_CLOAKED_INHERITED</td>
-<td>0x0000004</td>
-<td>The cloak value was inherited from its owner window.</td>
-</tr>
-</table>
- 
+<b>DWM_CLOAKED_APP</b> (value 0x0000001). The window was cloaked by its owner application.
+
+<b>DWM_CLOAKED_SHELL</b> (value 0x0000002). The window was cloaked by the Shell.
+
+<b>DWM_CLOAKED_INHERITED</b> (value 0x0000004). The cloak value was inherited from its owner window.
+
 <b>Windows 7 and earlier: </b>This value is not supported.
 
 ### -field DWMWA_FREEZE_REPRESENTATION

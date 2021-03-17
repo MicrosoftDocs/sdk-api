@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLUninstallProofOfPurchase
 title: SLUninstallProofOfPurchase function (slpublic.h)
 description: Unregisters the product key information.
+helpviewer_keywords: ["SLUninstallProofOfPurchase","SLUninstallProofOfPurchase function [Security]","security.sluninstallproofofpurchase","slpublic/SLUninstallProofOfPurchase"]
 old-location: security\sluninstallproofofpurchase.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.date: 12/05/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
-f1_keywords:
-- slpublic/SLUninstallProofOfPurchase
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLUninstallProofOfPurchase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLUninstallProofOfPurchase
+ - slpublic/SLUninstallProofOfPurchase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLUninstallProofOfPurchase
 ---
 
 # SLUninstallProofOfPurchase function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters the product key information.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,17 +60,13 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pPKeyId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the identifier of the registered product key.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -133,7 +126,4 @@ The product key is not available.
 </td>
 </tr>
 </table>
- 
-
-
 

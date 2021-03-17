@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecordVariants
 title: ICrmLogControl::WriteLogRecordVariants (comsvcs.h)
 description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
+helpviewer_keywords: ["ICrmLogControl interface [COM+]","WriteLogRecordVariants method","ICrmLogControl.WriteLogRecordVariants","ICrmLogControl::WriteLogRecordVariants","WriteLogRecordVariants","WriteLogRecordVariants method [COM+]","WriteLogRecordVariants method [COM+]","ICrmLogControl interface","_dtc_ICrmLogControl_WriteLogRecordVariants","comsvcs/ICrmLogControl::WriteLogRecordVariants","cos.icrmlogcontrol_writelogrecordvariants"]
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
-f1_keywords:
-- comsvcs/ICrmLogControl.WriteLogRecordVariants
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmLogControl.WriteLogRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmLogControl::WriteLogRecordVariants
+ - comsvcs/ICrmLogControl::WriteLogRecordVariants
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmLogControl.WriteLogRecordVariants
 ---
 
 # ICrmLogControl::WriteLogRecordVariants
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The CRM Worker and CRM Compensator use this method to write structured log records to the log.
 
-
 ## -parameters
-
-
-
 
 ### -param pLogRecord [in]
 
 A pointer to a <b>Variant</b> array of <b>Variants</b>. This must be a single-dimension array whose lower bound is zero.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -113,7 +107,7 @@ A <b>NULL</b> pointer was provided as an argument.
 </dl>
 </td>
 <td width="60%">
-This method was called in the wrong state; either before <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
+This method was called in the wrong state; either before <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
 
 </td>
 </tr>
@@ -129,18 +123,7 @@ The transaction has aborted, most likely because of a transaction time-out.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>

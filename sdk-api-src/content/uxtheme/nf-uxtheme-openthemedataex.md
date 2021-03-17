@@ -2,15 +2,12 @@
 UID: NF:uxtheme.OpenThemeDataEx
 title: OpenThemeDataEx function (uxtheme.h)
 description: Opens the theme data associated with a window for specified theme classes.
+helpviewer_keywords: ["OTD_FORCE_RECT_SIZING","OTD_NONCLIENT","OpenThemeDataEx","OpenThemeDataEx function [Windows Controls]","controls.OpenThemeDataEx","controls.inet_OpenThemeDataEx","inet_OpenThemeDataEx","inet_OpenThemeDataEx_cpp","uxtheme/OpenThemeDataEx"]
 old-location: controls\OpenThemeDataEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.date: 12/05/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
-f1_keywords:
-- uxtheme/OpenThemeDataEx
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- OpenThemeDataEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenThemeDataEx
+ - uxtheme/OpenThemeDataEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - OpenThemeDataEx
 ---
 
 # OpenThemeDataEx function
@@ -51,32 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the theme data associated with a window for specified theme classes.
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a window or control that the theme is to be retrieved from.
 
-
 ### -param pszClassList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A semicolon-separated list of class names to match.
 
-
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Optional flags that control how to return the theme data. May be set to a combination of the following values.
 
@@ -106,38 +101,19 @@ Allows theme elements to be drawn in the non-client area of the window.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HTHEME</b>
 
 If a match is found, a valid handle to a theme is returned. Otherwise, a <b>NULL</b> value will be returned.
 
-
-
-
 ## -remarks
-
-
 
 The string specified by <i>pszClassIdList</i> will be tokenized using semicolons as a delimiter. The names are matched against class names one token at a time. If no match is found for a particular token, the next token will be matched. If a match is found, the return value of the function will be the theme handle associated with the matched class.
 
 Class names for the Aero theme are defined in AeroStyle.xml.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>

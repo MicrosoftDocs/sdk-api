@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaTypeHandler.GetCurrentMediaType
 title: IMFMediaTypeHandler::GetCurrentMediaType (mfidl.h)
 description: Retrieves the current media type of the object.
+helpviewer_keywords: ["GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFMediaTypeHandler interface","IMFMediaTypeHandler interface [Media Foundation]","GetCurrentMediaType method","IMFMediaTypeHandler.GetCurrentMediaType","IMFMediaTypeHandler::GetCurrentMediaType","b1676e40-81a2-4311-bba6-528bfa45a708","mf.imfmediatypehandler_getcurrentmediatype","mfidl/IMFMediaTypeHandler::GetCurrentMediaType"]
 old-location: mf\imfmediatypehandler_getcurrentmediatype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b1676e40-81a2-4311-bba6-528bfa45a708
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetCurrentMediaType method, IMFMediaTypeHandler.GetCurrentMediaType, IMFMediaTypeHandler::GetCurrentMediaType, b1676e40-81a2-4311-bba6-528bfa45a708, mf.imfmediatypehandler_getcurrentmediatype, mfidl/IMFMediaTypeHandler::GetCurrentMediaType
-f1_keywords:
-- mfidl/IMFMediaTypeHandler.GetCurrentMediaType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaTypeHandler.GetCurrentMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaTypeHandler::GetCurrentMediaType
+ - mfidl/IMFMediaTypeHandler::GetCurrentMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaTypeHandler.GetCurrentMediaType
 ---
 
 # IMFMediaTypeHandler::GetCurrentMediaType
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the current media type of the object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,14 +93,8 @@ No media type is set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -118,15 +103,6 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>

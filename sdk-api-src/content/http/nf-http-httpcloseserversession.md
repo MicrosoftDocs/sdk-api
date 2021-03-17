@@ -2,15 +2,12 @@
 UID: NF:http.HttpCloseServerSession
 title: HttpCloseServerSession function (http.h)
 description: Deletes the server session identified by the server session ID.
+helpviewer_keywords: ["HttpCloseServerSession","HttpCloseServerSession function [HTTP]","http.httpcloseserversession","http/HttpCloseServerSession"]
 old-location: http\httpcloseserversession.htm
 tech.root: http
 ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.date: 12/05/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
-f1_keywords:
-- http/HttpCloseServerSession
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpCloseServerSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpCloseServerSession
+ - http/HttpCloseServerSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpCloseServerSession
 ---
 
 # HttpCloseServerSession function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpCloseServerSession</b> function deletes the server session identified by the server session ID. All remaining URL Groups associated with the server session will also be closed.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerSessionId [in]
 
 The ID of the server session that is closed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -89,43 +83,27 @@ The application does not have permission to close the server session. Only the a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Applications must call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a> before calling <b>HttpCloseServerSession</b> to close the all the URL Groups associated with the server session.
-
-
-
+Applications must call <a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a> before calling <b>HttpCloseServerSession</b> to close the all the URL Groups associated with the server session.
 
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseserversession">HttpCloseServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateserversession">HttpCreateServerSession</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserversessionproperty">HttpQueryServerSessionProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpsetserversessionproperty">HttpSetServerSessionProperty</a>

@@ -2,15 +2,12 @@
 UID: NF:winternl.RtlNtStatusToDosError
 title: RtlNtStatusToDosError function (winternl.h)
 description: Converts the specified NTSTATUS code to its equivalent system error code.
+helpviewer_keywords: ["RtlNtStatusToDosError","RtlNtStatusToDosError function","base.rtlntstatustodoserror","winternl/RtlNtStatusToDosError"]
 old-location: base\rtlntstatustodoserror.htm
 tech.root: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
 ms.date: 12/05/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
-f1_keywords:
-- winternl/RtlNtStatusToDosError
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlNtStatusToDosError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlNtStatusToDosError
+ - winternl/RtlNtStatusToDosError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlNtStatusToDosError
 ---
 
 # RtlNtStatusToDosError function
@@ -48,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the specified NTSTATUS code to its equivalent system error code.
 
-
 ## -parameters
-
-
-
 
 ### -param Status [in]
 
 The NTSTATUS code to be converted.
 
-
 ## -returns
 
-
-
-The function returns the corresponding <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
-
-
+The function returns the corresponding <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
-
-
 
 There is no function that provides the inverse functionality of <b>RtlNtStatusToDosError</b>, which would convert a system error code to its corresponding NTSTATUS code.
 
 ERROR_MR_MID_NOT_FOUND is returned when the specified NTSTATUS code does not have a corresponding system error code.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
-
-
-
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMMediaContent.get_Title
 title: IAMMediaContent::get_Title (qnetwork.h)
 description: The get_Title method retrieves the title.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_Title method","IAMMediaContent.get_Title","IAMMediaContent::get_Title","IAMMediaContentget_Title","dshow.iammediacontent_get_title","get_Title","get_Title method [DirectShow]","get_Title method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_Title"]
 old-location: dshow\iammediacontent_get_title.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
-f1_keywords:
-- qnetwork/IAMMediaContent.get_Title
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent.get_Title
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent::get_Title
+ - qnetwork/IAMMediaContent::get_Title
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent.get_Title
 ---
 
 # IAMMediaContent::get_Title
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Title</code> method retrieves the title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrTitle
 
 Pointer to a variable that receives a <b>BSTR</b> with the information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -121,31 +112,15 @@ Item not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the method succeeds, the caller must free the returned <b>BSTR</b> by calling the <b>SysFreeString</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>

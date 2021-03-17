@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWindowsUpdateAgentInfo.GetInfo
 title: IWindowsUpdateAgentInfo::GetInfo (wuapi.h)
 description: Retrieves version information about Windows Update Agent (WUA).
+helpviewer_keywords: ["GetInfo","GetInfo method [Windows Update Agent]","GetInfo method [Windows Update Agent]","IWindowsUpdateAgentInfo interface","IWindowsUpdateAgentInfo interface [Windows Update Agent]","GetInfo method","IWindowsUpdateAgentInfo.GetInfo","IWindowsUpdateAgentInfo::GetInfo","wua.iwindowsupdateagentinfo_getinfo","wuapi/IWindowsUpdateAgentInfo::GetInfo"]
 old-location: wua\iwindowsupdateagentinfo_getinfo.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7798032c-b0a3-4f2a-958a-f98192204832
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Windows Update Agent],IWindowsUpdateAgentInfo interface, IWindowsUpdateAgentInfo interface [Windows Update Agent],GetInfo method, IWindowsUpdateAgentInfo.GetInfo, IWindowsUpdateAgentInfo::GetInfo, wua.iwindowsupdateagentinfo_getinfo, wuapi/IWindowsUpdateAgentInfo::GetInfo
-f1_keywords:
-- wuapi/IWindowsUpdateAgentInfo.GetInfo
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsUpdateAgentInfo.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsUpdateAgentInfo::GetInfo
+ - wuapi/IWindowsUpdateAgentInfo::GetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsUpdateAgentInfo.GetInfo
 ---
 
 # IWindowsUpdateAgentInfo::GetInfo
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves version information about Windows Update Agent (WUA).
 
-
 ## -parameters
-
-
-
 
 ### -param varInfoIdentifier [in]
 
@@ -75,8 +72,6 @@ Retrieves version information about Windows Update Agent (WUA).
 <td>Retrieves  the file version of the Wuapi.dll file in string format.</td>
 </tr>
 </table>
- 
-
 
 ### -param retval [out]
 
@@ -90,33 +85,16 @@ Retrieves version information about Windows Update Agent (WUA).
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows 
 
 error code.
 
-
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a> interface  may require you to update WUA. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a> interface  may require you to update WUA. For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 The major version is incremented one time for each release if a change occurs in the interfaces of the WUA API. The minor version is incremented one time for each release if a change occurs in the existing interfaces of the WUA API.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a>

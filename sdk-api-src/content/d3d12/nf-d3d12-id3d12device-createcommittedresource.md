@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12Device.CreateCommittedResource
 title: ID3D12Device::CreateCommittedResource (d3d12.h)
 description: Creates both a resource and an implicit heap, such that the heap is big enough to contain the entire resource, and the resource is mapped to the heap.
+helpviewer_keywords: ["CreateCommittedResource","CreateCommittedResource method","CreateCommittedResource method","ID3D12Device interface","ID3D12Device interface","CreateCommittedResource method","ID3D12Device.CreateCommittedResource","ID3D12Device::CreateCommittedResource","d3d12/ID3D12Device::CreateCommittedResource","direct3d12.id3d12device_createcommittedresource"]
 old-location: direct3d12\id3d12device_createcommittedresource.htm
 tech.root: direct3d12
 ms.assetid: FF9E8F11-F2C5-4A96-8E25-140870D15DA9
 ms.date: 12/05/2018
 ms.keywords: CreateCommittedResource, CreateCommittedResource method, CreateCommittedResource method,ID3D12Device interface, ID3D12Device interface,CreateCommittedResource method, ID3D12Device.CreateCommittedResource, ID3D12Device::CreateCommittedResource, d3d12/ID3D12Device::CreateCommittedResource, direct3d12.id3d12device_createcommittedresource
-f1_keywords:
-- d3d12/ID3D12Device.CreateCommittedResource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12Device.CreateCommittedResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12Device::CreateCommittedResource
+ - d3d12/ID3D12Device::CreateCommittedResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12Device.CreateCommittedResource
 ---
 
 ## -description
@@ -51,41 +53,41 @@ Creates both a resource and an implicit heap, such that the heap is big enough t
 
 ### -param pHeapProperties [in]
 
-Type: **const [D3D12_HEAP_PROPERTIES](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)\***
+Type: **const [D3D12_HEAP_PROPERTIES](./ns-d3d12-d3d12_heap_properties.md)\***
 
 A pointer to a **D3D12_HEAP_PROPERTIES** structure that provides properties for the resource's heap.
 
 ### -param HeapFlags [in]
 
-Type: **[D3D12_HEAP_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags)**
+Type: **[D3D12_HEAP_FLAGS](./ne-d3d12-d3d12_heap_flags.md)**
 
 Heap options, as a bitwise-OR'd combination of **D3D12_HEAP_FLAGS** enumeration constants.
 
 ### -param pDesc [in]
 
-Type: **const [D3D12_RESOURCE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_desc)\***
+Type: **const [D3D12_RESOURCE_DESC](./ns-d3d12-d3d12_resource_desc.md)\***
 
 A pointer to a **D3D12_RESOURCE_DESC** structure that describes the resource.
 
 ### -param InitialResourceState [in]
 
-Type: **[D3D12_RESOURCE_STATES](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states)**
+Type: **[D3D12_RESOURCE_STATES](./ne-d3d12-d3d12_resource_states.md)**
 
 The initial state of the resource, as a bitwise-OR'd combination of **D3D12_RESOURCE_STATES** enumeration constants.
 
-When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](./ne-d3d12-d3d12_heap_type.md) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](./ne-d3d12-d3d12_resource_states.md).
 
-When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](./ne-d3d12-d3d12_heap_type.md) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](./ne-d3d12-d3d12_resource_states.md).
 
 ### -param pOptimizedClearValue [in, optional]
 
-Type: **const [D3D12_CLEAR_VALUE](/windows/win32/api/d3d12/ns-d3d12-d3d12_clear_value)\***
+Type: **const [D3D12_CLEAR_VALUE](./ns-d3d12-d3d12_clear_value.md)\***
 
 Specifies a **D3D12_CLEAR_VALUE** structure that describes the default value for a clear color.
 
-*pOptimizedClearValue* specifies a value for which clear operations are most optimal. When the created resource is a texture with either the [D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_flags) or **D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL** flags, you should choose the value with which the clear operation will most commonly be called. You can call the clear operation with other values, but those operations won't be as efficient as when the value matches the one passed in to resource creation.
+*pOptimizedClearValue* specifies a value for which clear operations are most optimal. When the created resource is a texture with either the [D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET](./ne-d3d12-d3d12_resource_flags.md) or **D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL** flags, you should choose the value with which the clear operation will most commonly be called. You can call the clear operation with other values, but those operations won't be as efficient as when the value matches the one passed in to resource creation.
 
-When you use [D3D12_RESOURCE_DIMENSION_BUFFER](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_dimension), you must set *pOptimizedClearValue* to `nullptr`.
+When you use [D3D12_RESOURCE_DIMENSION_BUFFER](./ne-d3d12-d3d12_resource_dimension.md), you must set *pOptimizedClearValue* to `nullptr`.
 
 ### -param riidResource [in]
 
@@ -93,7 +95,7 @@ Type: **REFIID**
 
 A reference to the globally unique identifier (**GUID**) of the resource interface to return in *ppvResource*.
 
-While *riidResource* is most commonly the **GUID** of [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource), it may be the **GUID** of any interface. If the resource object doesn't support the interface for this **GUID**, then creation fails with **E_NOINTERFACE**.
+While *riidResource* is most commonly the **GUID** of [ID3D12Resource](./nn-d3d12-id3d12resource.md), it may be the **GUID** of any interface. If the resource object doesn't support the interface for this **GUID**, then creation fails with **E_NOINTERFACE**.
 
 ### -param ppvResource [out, optional]
 
@@ -121,7 +123,7 @@ This method creates both a resource and a heap, such that the heap is big enough
 
 The implicit heap is made resident for GPU access before the method returns control to your application. Also see [Residency](/windows/win32/direct3d12/residency).
 
-The resource GPU VA mapping can't be changed. See [ID3D12CommandQueue::UpdateTileMappings](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings) and [Volume tiled resources](/windows/win32/direct3d12/volume-tiled-resources).
+The resource GPU VA mapping can't be changed. See [ID3D12CommandQueue::UpdateTileMappings](./nf-d3d12-id3d12commandqueue-updatetilemappings.md) and [Volume tiled resources](/windows/win32/direct3d12/volume-tiled-resources).
 
 This method may be called by multiple threads concurrently.
 
@@ -132,10 +134,12 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12Bundles</a> sample 
 Create a vertex buffer.
 
 ```cpp
+auto heapProperties = CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT);
+auto resourceDesc = CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize);
 ThrowIfFailed(m_device->CreateCommittedResource(
-    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+    &heapProperties,
     D3D12_HEAP_FLAG_NONE,
-    &CD3DX12_RESOURCE_DESC::Buffer(SampleAssets::VertexDataSize),
+    &resourceDesc,
     D3D12_RESOURCE_STATE_COPY_DEST,
     nullptr,
     IID_PPV_ARGS(&m_vertexBuffer)));

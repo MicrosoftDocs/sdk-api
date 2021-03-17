@@ -1,16 +1,13 @@
 ---
 UID: NF:mstask.ITaskTrigger.GetTriggerString
 title: ITaskTrigger::GetTriggerString (mstask.h)
-description: The GetTriggerString method retrieves the current task trigger in the form of a string. This string appears in the Task Scheduler user interface in a form similar to &#0034;At 2PM every day, starting 5/11/97.&#0034;.
+description: The GetTriggerString method retrieves the current task trigger in the form of a string. This string appears in the Task Scheduler user interface in a form similar to &quot;At 2PM every day, starting 5/11/97.&quot;.
+helpviewer_keywords: ["GetTriggerString","GetTriggerString method [Task Scheduler]","GetTriggerString method [Task Scheduler]","ITaskTrigger interface","ITaskTrigger interface [Task Scheduler]","GetTriggerString method","ITaskTrigger.GetTriggerString","ITaskTrigger::GetTriggerString","_msb_itasktrigger_gettriggerstring","mstask/ITaskTrigger::GetTriggerString","taskschd.itasktrigger_gettriggerstring"]
 old-location: taskschd\itasktrigger_gettriggerstring.htm
 tech.root: taskschd
 ms.assetid: 5e21b61e-a43d-47b3-9380-b90d94e13cb8
 ms.date: 12/05/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTriggerString method, ITaskTrigger.GetTriggerString, ITaskTrigger::GetTriggerString, _msb_itasktrigger_gettriggerstring, mstask/ITaskTrigger::GetTriggerString, taskschd.itasktrigger_gettriggerstring
-f1_keywords:
-- mstask/ITaskTrigger.GetTriggerString
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskTrigger.GetTriggerString
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskTrigger::GetTriggerString
+ - mstask/ITaskTrigger::GetTriggerString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskTrigger.GetTriggerString
 ---
 
 # ITaskTrigger::GetTriggerString
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>GetTriggerString</b> method retrieves the current task trigger in the form of a string. This string appears in the Task Scheduler user interface in a form similar to "At 2PM every day, starting 5/11/97."
 
-
 ## -parameters
-
-
-
 
 ### -param ppwszTrigger [out]
 
 A pointer to a pointer to a null-terminated string that describes the current task trigger. The method that invokes 
 <b>GetTriggerString</b> is responsible for freeing this string using the <b>CoTaskMemFree</b> function.
 
-
 ## -returns
-
-
 
 The 
 <b>GetTriggerString</b> method returns one of the following values.
@@ -112,26 +106,15 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itasktrigger">ITaskTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>

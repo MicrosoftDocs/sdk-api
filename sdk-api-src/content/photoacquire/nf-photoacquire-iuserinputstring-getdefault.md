@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IUserInputString.GetDefault
 title: IUserInputString::GetDefault (photoacquire.h)
 description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).
+helpviewer_keywords: ["GetDefault","GetDefault method [Picture Acquisition]","GetDefault method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetDefault method","IUserInputString.GetDefault","IUserInputString::GetDefault","IUserInputStringGetDefault","photoacquire/IUserInputString::GetDefault","picacq.iuserinputstring_getdefault"]
 old-location: picacq\iuserinputstring_getdefault.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
 ms.date: 12/05/2018
 ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
-f1_keywords:
-- photoacquire/IUserInputString.GetDefault
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IUserInputString.GetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserInputString::GetDefault
+ - photoacquire/IUserInputString::GetDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IUserInputString.GetDefault
 ---
 
 # IUserInputString::GetDefault
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDefault</code> method retrieves the default string used to initialize an edit control (or equivalent).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrDefault [out]
 
 Pointer to a string containing the default value used to initialize the edit control.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +91,7 @@ The pointer passed was <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>

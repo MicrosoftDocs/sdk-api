@@ -2,15 +2,12 @@
 UID: NF:certbcli.CertSrvRestoreGetDatabaseLocationsW
 title: CertSrvRestoreGetDatabaseLocationsW function (certbcli.h)
 description: Used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
+helpviewer_keywords: ["CSBFT_CERTSERVER_DATABASE","CSBFT_CHECKPOINT_DIR","CSBFT_LOG_DIR","CertSrvRestoreGetDatabaseLocations","CertSrvRestoreGetDatabaseLocations function [Security]","CertSrvRestoreGetDatabaseLocationsW","_certsrv_certsrvrestoregetdatabaselocations","certbcli/CertSrvRestoreGetDatabaseLocations","certbcli/CertSrvRestoreGetDatabaseLocationsW","security.certsrvrestoregetdatabaselocations"]
 old-location: security\certsrvrestoregetdatabaselocations.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.date: 12/05/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
-f1_keywords:
-- certbcli/CertSrvRestoreGetDatabaseLocations
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvRestoreGetDatabaseLocations
-- CertSrvRestoreGetDatabaseLocationsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvRestoreGetDatabaseLocationsW
+ - certbcli/CertSrvRestoreGetDatabaseLocationsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvRestoreGetDatabaseLocations
+ - CertSrvRestoreGetDatabaseLocationsW
 ---
 
 # CertSrvRestoreGetDatabaseLocationsW function
@@ -49,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvRestoreGetDatabaseLocations</b> function is used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup or restore context.
 
-
 ### -param ppwszzDatabaseLocationList [out]
 
-A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
+A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## &#92;&#92;<i>Server</i>&#92;<i>SharePoint</i>\…<i>Path</i>…&#92;<i>FileName</i>.ext". The directory names will have the same form but without the trailing "&#92;<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
 
 <table>
 <tr>
@@ -105,33 +101,23 @@ Certificate Services database log directory.
 </table>
  
 
-You must free this allocated memory when done by calling <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>.
+You must free this allocated memory when done by calling <a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>.
 
 Setting *<i>ppwszzDatabaseLocationList</i> to <b>NULL</b> before calling this function is optional.
-
 
 ### -param pcbSize [out]
 
 A pointer to the <b>DWORD</b> value that specifies the number of bytes in <i>ppwszzDatabaseLocationList</i>.
-					
-
 
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
-
-
-
 
 ## -remarks
 
-
-
 Certificate Services must be running for this method to succeed.
 
-This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b>. You must use this form of the name when calling <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVRESTOREGETDATABASELOCATIONSW</b> in the Certbcli.h header file.
+This function's name in Certadm.dll is <b>CertSrvRestoreGetDatabaseLocationsW</b>. You must use this form of the name when calling <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. Also, this function is defined as type <b>FNCERTSRVRESTOREGETDATABASELOCATIONSW</b> in the Certbcli.h header file.
 
 
 #### Examples
@@ -185,21 +171,10 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackupfree">CertSrvBackupFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>

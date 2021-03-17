@@ -2,15 +2,12 @@
 UID: NF:eventsys.IEventSubscription.GetSubscriberProperty
 title: IEventSubscription::GetSubscriberProperty (eventsys.h)
 description: Retrieves the value of a property stored in the property bag to define subscriber context.
+helpviewer_keywords: ["GetSubscriberProperty","GetSubscriberProperty method [COM+]","GetSubscriberProperty method [COM+]","IEventSubscription interface","IEventSubscription interface [COM+]","GetSubscriberProperty method","IEventSubscription.GetSubscriberProperty","IEventSubscription::GetSubscriberProperty","_cos_IEventSubscription_GetSubscriberProperty","cos.ieventsubscription_getsubscriberproperty","eventsys/IEventSubscription::GetSubscriberProperty"]
 old-location: cos\ieventsubscription_getsubscriberproperty.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6e16557a-e4ea-46ae-8285-0446189cea8e
 ms.date: 12/05/2018
 ms.keywords: GetSubscriberProperty, GetSubscriberProperty method [COM+], GetSubscriberProperty method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberProperty method, IEventSubscription.GetSubscriberProperty, IEventSubscription::GetSubscriberProperty, _cos_IEventSubscription_GetSubscriberProperty, cos.ieventsubscription_getsubscriberproperty, eventsys/IEventSubscription::GetSubscriberProperty
-f1_keywords:
-- eventsys/IEventSubscription.GetSubscriberProperty
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.GetSubscriberProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::GetSubscriberProperty
+ - eventsys/IEventSubscription::GetSubscriberProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.GetSubscriberProperty
 ---
 
 # IEventSubscription::GetSubscriberProperty
@@ -48,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a property stored in the property bag to define subscriber context.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrPropertyName [in]
 
 The name of the requested property.
 
-
 ### -param propertyValue [out, retval]
 
 The value of the requested property.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>

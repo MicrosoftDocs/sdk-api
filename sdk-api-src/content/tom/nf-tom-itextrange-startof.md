@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.StartOf
 title: ITextRange::StartOf (tom.h)
 description: Moves the range ends to the start of the first overlapping Unit in the range.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","StartOf method","ITextRange.StartOf","ITextRange::StartOf","StartOf","StartOf method [Windows Controls]","StartOf method [Windows Controls]","ITextRange interface","_win32_ITextRange_StartOf","_win32_ITextRange_StartOf_cpp","controls.ITextRange_StartOf","controls._win32_ITextRange_StartOf","tom/ITextRange::StartOf"]
 old-location: controls\ITextRange_StartOf.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],StartOf method, ITextRange.StartOf, ITextRange::StartOf, StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls],ITextRange interface, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
-f1_keywords:
-- tom/ITextRange.StartOf
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.StartOf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::StartOf
+ - tom/ITextRange::StartOf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.StartOf
 ---
 
 # ITextRange::StartOf
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Moves the range ends to the start of the first overlapping <i>Unit</i> in the range. 
-
+Moves the range ends to the start of the first overlapping <i>Unit</i> in the range.
 
 ## -parameters
-
-
-
 
 ### -param Unit
 
 Type: <b>long</b>
 
-Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>. 
-
+Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>.
 
 ### -param Extend
 
@@ -81,23 +77,18 @@ How to move the ends of the range. It can be one of the following values.
 <td>Moves the start position to the beginning of the overlapping <i>Unit</i>. Does not move the end position. </td>
 </tr>
 </table>
- 
-
 
 ### -param pDelta
 
 Type: <b>long*</b>
 
-Pointer to a variable that receives the number of characters that the start position is moved. It can be null. On return, <i>pDelta</i> is the signed number of characters that the insertion point or start position is moved. This value is always less than or equal to zero, because the motion is always toward the beginning of the story. 
-
+Pointer to a variable that receives the number of characters that the start position is moved. It can be null. On return, <i>pDelta</i> is the signed number of characters that the insertion point or start position is moved. This value is always less than or equal to zero, because the motion is always toward the beginning of the story.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -127,44 +118,32 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::StartOf</b> does not change the start position. 
 
-The <b>ITextRange::StartOf</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">ITextRange::EndOf</a> methods differ from the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position. 
-
-
-
+The <b>ITextRange::StartOf</b> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">ITextRange::EndOf</a> methods differ from the <a href="/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a> and <a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -172,8 +151,4 @@ The <b>ITextRange::StartOf</b> and <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

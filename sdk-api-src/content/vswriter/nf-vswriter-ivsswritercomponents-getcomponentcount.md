@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssWriterComponents.GetComponentCount
 title: IVssWriterComponents::GetComponentCount (vswriter.h)
 description: The GetComponentCount method returns the number of a given writer's components explicitly stored in the Backup Components Document.
+helpviewer_keywords: ["GetComponentCount","GetComponentCount method [VSS]","GetComponentCount method [VSS]","IVssWriterComponents interface","IVssWriterComponents interface [VSS]","GetComponentCount method","IVssWriterComponents.GetComponentCount","IVssWriterComponents::GetComponentCount","_win32_ivsswritercomponents_getcomponentcount","base.ivsswritercomponents_getcomponentcount","vswriter/IVssWriterComponents::GetComponentCount"]
 old-location: base\ivsswritercomponents_getcomponentcount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ec89438f-4811-42f7-bda0-6df6d1b98f18
 ms.date: 12/05/2018
 ms.keywords: GetComponentCount, GetComponentCount method [VSS], GetComponentCount method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponentCount method, IVssWriterComponents.GetComponentCount, IVssWriterComponents::GetComponentCount, _win32_ivsswritercomponents_getcomponentcount, base.ivsswritercomponents_getcomponentcount, vswriter/IVssWriterComponents::GetComponentCount
-f1_keywords:
-- vswriter/IVssWriterComponents.GetComponentCount
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWriterComponents.GetComponentCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWriterComponents::GetComponentCount
+ - vswriter/IVssWriterComponents::GetComponentCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWriterComponents.GetComponentCount
 ---
 
 # IVssWriterComponents::GetComponentCount
@@ -49,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetComponentCount</b> method returns the number of a given writer's components explicitly stored in the Backup Components Document.
 
-
 ## -parameters
-
-
-
 
 ### -param pcComponents [out]
 
 Pointer to the number of a writer's components stored in the Backup Components Document.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -109,18 +103,7 @@ The caller is out of memory or other system resources.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>

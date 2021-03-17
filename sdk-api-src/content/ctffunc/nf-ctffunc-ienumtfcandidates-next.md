@@ -2,15 +2,12 @@
 UID: NF:ctffunc.IEnumTfCandidates.Next
 title: IEnumTfCandidates::Next (ctffunc.h)
 description: IEnumTfCandidates::Next method
+helpviewer_keywords: ["IEnumTfCandidates interface [Text Services Framework]","Next method","IEnumTfCandidates.Next","IEnumTfCandidates::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfCandidates interface","_tsf_ienumtfcandidates_next_ref","ctffunc/IEnumTfCandidates::Next","tsf.ienumtfcandidates_next"]
 old-location: tsf\ienumtfcandidates_next.htm
 tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
-f1_keywords:
-- ctffunc/IEnumTfCandidates.Next
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IEnumTfCandidates.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfCandidates::Next
+ - ctffunc/IEnumTfCandidates::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IEnumTfCandidates.Next
 ---
 
 # IEnumTfCandidates::Next
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains, from the current position, the specified number of elements in the enumeration sequence.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Specifies the number of elements to obtain.
 
-
 ### -param ppCand [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
-
+Pointer to an array of <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched [out]
 
 Pointer to a ULONG value that receives the number of elements obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,23 +109,12 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
- 
-
- 
-

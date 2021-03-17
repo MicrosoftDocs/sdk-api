@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSink.RemoveStreamSink
 title: IMFMediaSink::RemoveStreamSink (mfidl.h)
 description: Removes a stream sink from the media sink.
+helpviewer_keywords: ["IMFMediaSink interface [Media Foundation]","RemoveStreamSink method","IMFMediaSink.RemoveStreamSink","IMFMediaSink::RemoveStreamSink","RemoveStreamSink","RemoveStreamSink method [Media Foundation]","RemoveStreamSink method [Media Foundation]","IMFMediaSink interface","f99ee960-7fea-4867-bc24-d7e1d6fcafa5","mf.imfmediasink_removestreamsink","mfidl/IMFMediaSink::RemoveStreamSink"]
 old-location: mf\imfmediasink_removestreamsink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f99ee960-7fea-4867-bc24-d7e1d6fcafa5
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSink interface [Media Foundation],RemoveStreamSink method, IMFMediaSink.RemoveStreamSink, IMFMediaSink::RemoveStreamSink, RemoveStreamSink, RemoveStreamSink method [Media Foundation], RemoveStreamSink method [Media Foundation],IMFMediaSink interface, f99ee960-7fea-4867-bc24-d7e1d6fcafa5, mf.imfmediasink_removestreamsink, mfidl/IMFMediaSink::RemoveStreamSink
-f1_keywords:
-- mfidl/IMFMediaSink.RemoveStreamSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSink.RemoveStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSink::RemoveStreamSink
+ - mfidl/IMFMediaSink::RemoveStreamSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSink.RemoveStreamSink
 ---
 
 # IMFMediaSink::RemoveStreamSink
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes a stream sink from the media sink.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwStreamSinkIdentifier [in]
 
-Identifier of the stream to remove. The stream identifier is defined when you call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> to add the stream sink.
-
+Identifier of the stream to remove. The stream identifier is defined when you call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> to add the stream sink.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -128,7 +119,7 @@ The media sink has not been initialized.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -144,35 +135,19 @@ This media sink has a fixed set of stream sinks. Stream sinks cannot be removed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+After this method is called, the corresponding stream sink object is no longer valid. The <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">IMFMediaSink::GetStreamSinkByIndex</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">IMFMediaSink::GetStreamSinkById</a> methods will no longer return that stream sink. You can re-use the stream identifier if you add another stream (by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>).
 
-
-After this method is called, the corresponding stream sink object is no longer valid. The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">IMFMediaSink::GetStreamSinkByIndex</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">IMFMediaSink::GetStreamSinkById</a> methods will no longer return that stream sink. You can re-use the stream identifier if you add another stream (by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>).
-
-Not all media sinks support this method. If the media sink does not support this method, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
+Not all media sinks support this method. If the media sink does not support this method, the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
 
 In some cases, the media sink supports this method but does not allow every stream sink to be removed. (For example, it might not allow stream 0 to be removed.)
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>

@@ -2,15 +2,12 @@
 UID: NS:ntsecpkg._SECPKG_GSS_INFO
 title: SECPKG_GSS_INFO (ntsecpkg.h)
 description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
+helpviewer_keywords: ["*PSECPKG_GSS_INFO","PSECPKG_GSS_INFO","PSECPKG_GSS_INFO structure pointer [Security]","SECPKG_GSS_INFO","SECPKG_GSS_INFO structure [Security]","_ssp_secpkg_gss_info","ntsecpkg/PSECPKG_GSS_INFO","ntsecpkg/SECPKG_GSS_INFO","security.secpkg_gss_info"]
 old-location: security\secpkg_gss_info.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
 ms.date: 12/05/2018
 ms.keywords: '*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info'
-f1_keywords:
-- ntsecpkg/SECPKG_GSS_INFO
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecpkg.h
-api_name:
-- SECPKG_GSS_INFO
 targetos: Windows
 req.typenames: SECPKG_GSS_INFO, *PSECPKG_GSS_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SECPKG_GSS_INFO
+ - ntsecpkg/_SECPKG_GSS_INFO
+ - PSECPKG_GSS_INFO
+ - ntsecpkg/PSECPKG_GSS_INFO
+ - SECPKG_GSS_INFO
+ - ntsecpkg/SECPKG_GSS_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SECPKG_GSS_INFO
 ---
 
 # SECPKG_GSS_INFO structure
@@ -48,25 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>SECPKG_GSS_INFO</b> structure contains information used for GSS-compatible negotiations.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field EncodedIdLength
 
 The encoded GSS OID length.
 
-
 ### -field EncodedId
 
 The encoded GSS OID.
-

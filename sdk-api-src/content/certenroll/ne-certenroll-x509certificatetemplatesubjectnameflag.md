@@ -2,15 +2,12 @@
 UID: NE:certenroll.X509CertificateTemplateSubjectNameFlag
 title: X509CertificateTemplateSubjectNameFlag (certenroll.h)
 description: Contains values that specify server and client actions concerning subject names.
+helpviewer_keywords: ["SubjectAlternativeNameEnrolleeSupplies","SubjectAlternativeNameRequireDNS","SubjectAlternativeNameRequireDirectoryGUID","SubjectAlternativeNameRequireDomainDNS","SubjectAlternativeNameRequireEmail","SubjectAlternativeNameRequireSPN","SubjectAlternativeNameRequireUPN","SubjectNameAndAlternativeNameOldCertSupplies","SubjectNameEnrolleeSupplies","SubjectNameRequireCommonName","SubjectNameRequireDNS","SubjectNameRequireDirectoryPath","SubjectNameRequireEmail","X509CertificateTemplateSubjectNameFlag","X509CertificateTemplateSubjectNameFlag enumeration [Security]","certenroll/SubjectAlternativeNameEnrolleeSupplies","certenroll/SubjectAlternativeNameRequireDNS","certenroll/SubjectAlternativeNameRequireDirectoryGUID","certenroll/SubjectAlternativeNameRequireDomainDNS","certenroll/SubjectAlternativeNameRequireEmail","certenroll/SubjectAlternativeNameRequireSPN","certenroll/SubjectAlternativeNameRequireUPN","certenroll/SubjectNameAndAlternativeNameOldCertSupplies","certenroll/SubjectNameEnrolleeSupplies","certenroll/SubjectNameRequireCommonName","certenroll/SubjectNameRequireDNS","certenroll/SubjectNameRequireDirectoryPath","certenroll/SubjectNameRequireEmail","certenroll/X509CertificateTemplateSubjectNameFlag","security.x509certificatetemplatesubjectnameflag"]
 old-location: security\x509certificatetemplatesubjectnameflag.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 0880bb94-d26f-49a7-9749-f8be272fa4f6
 ms.date: 12/05/2018
 ms.keywords: SubjectAlternativeNameEnrolleeSupplies, SubjectAlternativeNameRequireDNS, SubjectAlternativeNameRequireDirectoryGUID, SubjectAlternativeNameRequireDomainDNS, SubjectAlternativeNameRequireEmail, SubjectAlternativeNameRequireSPN, SubjectAlternativeNameRequireUPN, SubjectNameAndAlternativeNameOldCertSupplies, SubjectNameEnrolleeSupplies, SubjectNameRequireCommonName, SubjectNameRequireDNS, SubjectNameRequireDirectoryPath, SubjectNameRequireEmail, X509CertificateTemplateSubjectNameFlag, X509CertificateTemplateSubjectNameFlag enumeration [Security], certenroll/SubjectAlternativeNameEnrolleeSupplies, certenroll/SubjectAlternativeNameRequireDNS, certenroll/SubjectAlternativeNameRequireDirectoryGUID, certenroll/SubjectAlternativeNameRequireDomainDNS, certenroll/SubjectAlternativeNameRequireEmail, certenroll/SubjectAlternativeNameRequireSPN, certenroll/SubjectAlternativeNameRequireUPN, certenroll/SubjectNameAndAlternativeNameOldCertSupplies, certenroll/SubjectNameEnrolleeSupplies, certenroll/SubjectNameRequireCommonName, certenroll/SubjectNameRequireDNS, certenroll/SubjectNameRequireDirectoryPath, certenroll/SubjectNameRequireEmail, certenroll/X509CertificateTemplateSubjectNameFlag, security.x509certificatetemplatesubjectnameflag
-f1_keywords:
-- certenroll/X509CertificateTemplateSubjectNameFlag
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X509CertificateTemplateSubjectNameFlag
 targetos: Windows
 req.typenames: X509CertificateTemplateSubjectNameFlag
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509CertificateTemplateSubjectNameFlag
+ - certenroll/X509CertificateTemplateSubjectNameFlag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X509CertificateTemplateSubjectNameFlag
 ---
 
 # X509CertificateTemplateSubjectNameFlag enumeration
@@ -48,74 +50,57 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>X509CertificateTemplateSubjectNameFlag</b> enumeration contains values that specify server and client actions concerning subject names.
 
-
 ## -enum-fields
-
-
-
 
 ### -field SubjectNameEnrolleeSupplies
 
 Instructs the client to provide subject information in the certificate request.
 
-
 ### -field SubjectNameRequireDirectoryPath
 
 Instructs the certification authority (CA) to specify the requestor's Active Directory distinguished name as the subject name in the issued certificate.
-
 
 ### -field SubjectNameRequireCommonName
 
 Instructs the certification authority (CA) to specify the requestor's Active Directory common name (CN) as the subject name in the issued certificate.
 
-
 ### -field SubjectNameRequireEmail
 
 Instructs the CA to specify the value of the <b>e-mail</b> attribute in the requestor's Active Directory user object as the subject name in the issued certificate.
-
 
 ### -field SubjectNameRequireDNS
 
 Instructs the CA to specify the value of the <b>DNS</b> attribute in the requestor's Active Directory user object as the subject name in the issued certificate.
 
-
 ### -field SubjectNameAndAlternativeNameOldCertSupplies
 
 Instructs the client to reuse the subject name and alternative subject name extensions from an existing valid certificate when creating a renewal certificate request.  This flag can only be used when the <b>SubjectNameEnrolleeSupplies</b> or the <b>SubjectAlternativeNameEnrolleeSupplies</b> flag is specified.
-
 
 ### -field SubjectAlternativeNameEnrolleeSupplies
 
 Instructs the client to provide subject alternative name information in the certificate request.
 
-
 ### -field SubjectAlternativeNameRequireDirectoryGUID
 
 Instructs the CA to add the value of the <b>objectGUID </b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
-
 
 ### -field SubjectAlternativeNameRequireUPN
 
 Instructs the CA to add the value of the <b>UPN</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-
 ### -field SubjectAlternativeNameRequireEmail
 
 Instructs the CA to add the value of the <b>e-mail</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
-
 
 ### -field SubjectAlternativeNameRequireSPN
 
 Instructs the CA to add the value of the <b>SPN</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension in the issued certificate.
 
-
 ### -field SubjectAlternativeNameRequireDNS
 
 Instructs the CA to add the value of the <b>DNS</b> attribute in the requestor's Active Directory user object to the Subject Alternative Name extension  in the issued certificate.
-
 
 ### -field SubjectAlternativeNameRequireDomainDNS
 

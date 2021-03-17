@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDecFromUI2
 title: VarDecFromUI2 function (oleauto.h)
 description: Converts an unsigned short value to a decimal value.
+helpviewer_keywords: ["VarDecFromUI2","VarDecFromUI2 function [Automation]","_oa96_VarDecFromUI2","automat.vardecfromui2","oleauto/VarDecFromUI2"]
 old-location: automat\vardecfromui2.htm
 tech.root: automat
 ms.assetid: 45e1e94c-365c-4844-a9d4-5e9754d49647
 ms.date: 12/05/2018
 ms.keywords: VarDecFromUI2, VarDecFromUI2 function [Automation], _oa96_VarDecFromUI2, automat.vardecfromui2, oleauto/VarDecFromUI2
-f1_keywords:
-- oleauto/VarDecFromUI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecFromUI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecFromUI2
+ - oleauto/VarDecFromUI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecFromUI2
 ---
 
 # VarDecFromUI2 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned short value to a decimal value.
 
-
 ## -parameters
-
-
-
 
 ### -param uiIn [in]
 
 The value to convert.
 
-
 ### -param pdecOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

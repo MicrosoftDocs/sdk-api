@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUCompleteOverlappedRequest
 title: WPUCompleteOverlappedRequest function (ws2spi.h)
 description: The WPUCompleteOverlappedRequest function performs overlapped I/O completion notification for overlapped I/O operations.
+helpviewer_keywords: ["WPUCompleteOverlappedRequest","WPUCompleteOverlappedRequest function [Winsock]","_win32_wpucompleteoverlappedrequest_2","winsock.wpucompleteoverlappedrequest_2","ws2spi/WPUCompleteOverlappedRequest"]
 old-location: winsock\wpucompleteoverlappedrequest_2.htm
 tech.root: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.date: 12/05/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
-f1_keywords:
-- ws2spi/WPUCompleteOverlappedRequest
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUCompleteOverlappedRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUCompleteOverlappedRequest
+ - ws2spi/WPUCompleteOverlappedRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUCompleteOverlappedRequest
 ---
 
 # WPUCompleteOverlappedRequest function
@@ -48,47 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUCompleteOverlappedRequest** function performs overlapped I/O completion notification for overlapped I/O operations.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 The service provider socket created by 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
 
-
 ### -param lpOverlapped [in]
 
 A pointer to a 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaoverlapped">WSAOVERLAPPED</a> structure associated with the overlapped I/O operation whose completion is to be notified.
 
-
 ### -param dwError [in]
 
 The completion status of the overlapped I/O operation whose completion is to be notified.
-
 
 ### -param cbTransferred [in]
 
 The number of bytes transferred to or from client buffers (the direction of the transfer depends on the send or receive nature of the overlapped I/O operation whose completion is to be notified).
 
-
 ### -param lpErrno [out]
 
 A pointer to the error code resulting from execution of this function.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUCompleteOverlappedRequest** returns zero and notifies completion of the overlapped I/O operation according to the mechanism selected by the client (signals an event found in the 
@@ -115,14 +104,8 @@ The socket passed in the <i>s</i> parameter is not a socket created by
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **WPUCompleteOverlappedRequest** function performs overlapped I/O completion notification for overlapped I/O operations where the client-specified completion mechanism is something other than user mode–asynchronous procedure call (APC). This function can only be used for socket handles created by 
@@ -163,15 +146,9 @@ The behavior of
 **WPUCompleteOverlappedRequest** eventually sets **InternalHigh** to the transfer byte count, then sets **Internal** to a value other than WSS_OPERATION_IN_PROGRESS. 
 - When 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a> is called, the service provider checks **Internal**. If it is WSS_OPERATION_IN_PROGRESS, the provider waits on the event handle in the **hEvent** member or returns an error, based on the setting of the FWAIT flag of 
-**WSPGetOverlappedResult**. If not in progress, or after completion of waiting, the provider returns the values from **InternalHigh**, **OffsetHigh**, and **Offset** as the transfer count, operation result error code, and flags respectively. 
- 
-
-
+**WSPGetOverlappedResult**. If not in progress, or after completion of waiting, the provider returns the values from **InternalHigh**, **OffsetHigh**, and **Offset** as the transfer count, operation result error code, and flags respectively.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
 
@@ -186,7 +163,4 @@ The behavior of
 
 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>
- 
-
- 
 

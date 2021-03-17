@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPENUMNETWORKEVENTS
 title: LPWSPENUMNETWORKEVENTS
 description: The LPWSPEnumNetworkEvents function reports occurrences of network events for the indicated socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPENUMNETWORKEVENTS"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPENUMNETWORKEVENTS
 targetos: Windows
@@ -25,33 +27,42 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPENUMNETWORKEVENTS
+ - LPWSPENUMNETWORKEVENTS
+f1_keywords:
+ - LPWSPENUMNETWORKEVENTS
+ - ws2spi/LPWSPENUMNETWORKEVENTS
 ---
 
 ## -description
+
 The **LPWSPEnumNetworkEvents** function reports occurrences of network events for the indicated socket.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying the socket.
 
 ### -param hEventObject [in]
+
 Optional handle identifying an associated event object to be reset.
 
 ### -param lpNetworkEvents [out]
+
 Pointer to a <a href="/windows/win32/api/winsock2/ns-winsock2-wsanetworkevents">WSANETWORKEVENTS</a> structure that is filled with a record of occurred network events and any associated error codes. The **WSANETWORKEVENTS** structure is defined in the following text.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number is available in <i>lpErrno</i>.
 
 <table>
@@ -106,7 +117,8 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
-This function is used to report which network events have occurred for the indicated socket since the last invocation of this function. It is intended for use in conjunction with [LPWSPEventSelect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect) and [LPWSPAsyncSelect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspasyncselect), which associate an event object with one or more network events. Recording of network events commences when **LPWSPEventSelect** or **LPWSPAsyncSelect** is called with a nonzero <i>lNetworkEvents</i> argument, and remains in effect until another corresponding call is made to **LPWSPEventSelect** or **LPWSPAsyncSelect** with the <i>lNetworkEvents</i> argument set to zero.
+
+This function is used to report which network events have occurred for the indicated socket since the last invocation of this function. It is intended for use in conjunction with [LPWSPEventSelect](./nc-ws2spi-lpwspeventselect.md) and [LPWSPAsyncSelect](./nc-ws2spi-lpwspasyncselect.md), which associate an event object with one or more network events. Recording of network events commences when **LPWSPEventSelect** or **LPWSPAsyncSelect** is called with a nonzero <i>lNetworkEvents</i> argument, and remains in effect until another corresponding call is made to **LPWSPEventSelect** or **LPWSPAsyncSelect** with the <i>lNetworkEvents</i> argument set to zero.
 
 **LPWSPEnumNetworkEvents** only reports network activity and errors nominated through <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a></b>. See the descriptions of <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect">LPWSPSelect</a></b> and **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** to find out how those functions report network activity and errors.
 

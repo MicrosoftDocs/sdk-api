@@ -2,15 +2,12 @@
 UID: NF:drt.DrtGetInstanceNameSize
 title: DrtGetInstanceNameSize function (drt.h)
 description: The DrtGetInstanceNameSize function returns the size of the Distributed Routing Table instance name.
+helpviewer_keywords: ["DrtGetInstanceNameSize","DrtGetInstanceNameSize function [Peer Networking]","drt/DrtGetInstanceNameSize","p2p.drtgetinstancenamesize"]
 old-location: p2p\drtgetinstancenamesize.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
-f1_keywords:
-- drt/DrtGetInstanceNameSize
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtGetInstanceNameSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtGetInstanceNameSize
+ - drt/DrtGetInstanceNameSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtGetInstanceNameSize
 ---
 
 # DrtGetInstanceNameSize function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtGetInstanceNameSize</b> function returns the size of the Distributed Routing Table instance name.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 Handle to the target DRT instance.
 
-
 ### -param pulcbInstanceNameSize [out]
 
 The length of the DRT instance name.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -101,18 +94,7 @@ This function returns S_OK on success. Other possible values include:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

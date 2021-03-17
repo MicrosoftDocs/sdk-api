@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSettings.SetGroupTag
 title: IPhotoAcquireSettings::SetGroupTag (photoacquire.h)
 description: The SetGroupTag method sets the group tag for an acquisition session.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetGroupTag method","IPhotoAcquireSettings.SetGroupTag","IPhotoAcquireSettings::SetGroupTag","IPhotoAcquireSettingsSetGroupTag","SetGroupTag","SetGroupTag method [Picture Acquisition]","SetGroupTag method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetGroupTag","picacq.iphotoacquiresettings_setgrouptag"]
 old-location: picacq\iphotoacquiresettings_setgrouptag.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: f3c8b7dc-5701-412a-a376-498c40017d8f
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetGroupTag method, IPhotoAcquireSettings.SetGroupTag, IPhotoAcquireSettings::SetGroupTag, IPhotoAcquireSettingsSetGroupTag, SetGroupTag, SetGroupTag method [Picture Acquisition], SetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetGroupTag, picacq.iphotoacquiresettings_setgrouptag
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.SetGroupTag
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.SetGroupTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::SetGroupTag
+ - photoacquire/IPhotoAcquireSettings::SetGroupTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.SetGroupTag
 ---
 
 # IPhotoAcquireSettings::SetGroupTag
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetGroupTag</code> method sets the group tag for an acquisition session.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszGroupTag [in]
 
 Pointer to a null-terminated string containing the group tag.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The group tag is stored as a keyword in each file's metadata. It is also used in the file name if the <code>$(GroupTag)</code> token is present in the format string passed to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a>.
-
-
-
+The group tag is stored as a keyword in each file's metadata. It is also used in the file name if the <code>$(GroupTag)</code> token is present in the format string passed to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getgrouptag">GetGroupTag</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getgrouptag">GetGroupTag</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>

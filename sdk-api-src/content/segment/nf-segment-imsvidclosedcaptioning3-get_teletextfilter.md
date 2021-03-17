@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidClosedCaptioning3.get_TeleTextFilter
 title: IMSVidClosedCaptioning3::get_TeleTextFilter (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidClosedCaptioning3 interface [Microsoft TV Technologies]","get_TeleTextFilter method","IMSVidClosedCaptioning3.get_TeleTextFilter","IMSVidClosedCaptioning3::get_TeleTextFilter","IMSVidClosedCaptioning3getTeleTextFilter","get_TeleTextFilter","get_TeleTextFilter method [Microsoft TV Technologies]","get_TeleTextFilter method [Microsoft TV Technologies]","IMSVidClosedCaptioning3 interface","mstv.imsvidclosedcaptioning3_get_teletextfilter","segment/IMSVidClosedCaptioning3::get_TeleTextFilter"]
 old-location: mstv\imsvidclosedcaptioning3_get_teletextfilter.htm
 tech.root: mstv
 ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_TeleTextFilter method, IMSVidClosedCaptioning3.get_TeleTextFilter, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies],IMSVidClosedCaptioning3 interface, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
-f1_keywords:
-- segment/IMSVidClosedCaptioning3.get_TeleTextFilter
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidClosedCaptioning3.get_TeleTextFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidClosedCaptioning3::get_TeleTextFilter
+ - segment/IMSVidClosedCaptioning3::get_TeleTextFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidClosedCaptioning3.get_TeleTextFilter
 ---
 
 # IMSVidClosedCaptioning3::get_TeleTextFilter
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>get_TeleTextFilter</b> method retrieves the filter that handles teletext.
 
-
 ## -parameters
-
-
-
 
 ### -param punkTTFilter [out]
 
 Pointer to a variable that receives a reference to the teletext filter.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -102,18 +95,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning3">IMSVidClosedCaptioning3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning3">IMSVidClosedCaptioning3 Interface</a>

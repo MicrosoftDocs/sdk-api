@@ -2,15 +2,12 @@
 UID: NF:identityprovider.IIdentityAdvise.IdentityUpdated
 title: IIdentityAdvise::IdentityUpdated (identityprovider.h)
 description: Is called by an identity provider to notify a calling application that an identity event occurred.
+helpviewer_keywords: ["IDENTITY_ASSOCIATED","IDENTITY_CONNECTED","IDENTITY_CREATED","IDENTITY_DELETED","IDENTITY_DISASSOCIATED","IDENTITY_DISCONNECTED","IDENTITY_IMPORTED","IDENTITY_PROPCHANGE","IIdentityAdvise interface [Security]","IdentityUpdated method","IIdentityAdvise.IdentityUpdated","IIdentityAdvise::IdentityUpdated","IdentityUpdated","IdentityUpdated method [Security]","IdentityUpdated method [Security]","IIdentityAdvise interface","identityprovider/IIdentityAdvise::IdentityUpdated","identitystore/IIdentityAdvise::IdentityUpdated","security.iidentityadvise_identityupdated"]
 old-location: security\iidentityadvise_identityupdated.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c41ca389-eac9-4c74-b0e7-950cd21f2199
 ms.date: 12/05/2018
 ms.keywords: IDENTITY_ASSOCIATED, IDENTITY_CONNECTED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_DISCONNECTED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityAdvise interface [Security],IdentityUpdated method, IIdentityAdvise.IdentityUpdated, IIdentityAdvise::IdentityUpdated, IdentityUpdated, IdentityUpdated method [Security], IdentityUpdated method [Security],IIdentityAdvise interface, identityprovider/IIdentityAdvise::IdentityUpdated, identitystore/IIdentityAdvise::IdentityUpdated, security.iidentityadvise_identityupdated
-f1_keywords:
-- identityprovider/IIdentityAdvise.IdentityUpdated
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IdentityProvider.h
-- Identitystore.h
-api_name:
-- IIdentityAdvise.IdentityUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityAdvise::IdentityUpdated
+ - identityprovider/IIdentityAdvise::IdentityUpdated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IdentityProvider.h
+ - Identitystore.h
+api_name:
+ - IIdentityAdvise.IdentityUpdated
 ---
 
 # IIdentityAdvise::IdentityUpdated
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IdentityUpdated</b> method is called by an identity provider to notify a calling application that an identity event occurred. An application calls the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a> method to specify events for which it is to be notified.
-
+The <b>IdentityUpdated</b> method is called by an identity provider to notify a calling application that an identity event occurred. An application calls the <a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-advise">IIdentityProvider::Advise</a> method to specify events for which it is to be notified.
 
 ## -parameters
-
-
-
 
 ### -param dwIdentityUpdateEvents [in]
 
@@ -156,32 +153,17 @@ The identity was disconnected from the identity provider.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszUniqueID [in]
 
 The identity associated with the events that occurred.
 
-
 ## -returns
-
-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a>
- 
-
- 
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a>

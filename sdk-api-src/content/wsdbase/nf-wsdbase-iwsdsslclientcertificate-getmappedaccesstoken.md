@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDSSLClientCertificate.GetMappedAccessToken
 title: IWSDSSLClientCertificate::GetMappedAccessToken (wsdbase.h)
 description: Gets the mapped access token.
+helpviewer_keywords: ["GetMappedAccessToken","GetMappedAccessToken method","GetMappedAccessToken method","IWSDSSLClientCertificate interface","IWSDSSLClientCertificate interface","GetMappedAccessToken method","IWSDSSLClientCertificate.GetMappedAccessToken","IWSDSSLClientCertificate::GetMappedAccessToken","ncd.iwsdsslclientcertificate_getmappedaccesstoken","wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken"]
 old-location: ncd\iwsdsslclientcertificate_getmappedaccesstoken.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 79dbd838-cffd-4571-8227-e508673c1b02
 ms.date: 12/05/2018
 ms.keywords: GetMappedAccessToken, GetMappedAccessToken method, GetMappedAccessToken method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetMappedAccessToken method, IWSDSSLClientCertificate.GetMappedAccessToken, IWSDSSLClientCertificate::GetMappedAccessToken, ncd.iwsdsslclientcertificate_getmappedaccesstoken, wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
-f1_keywords:
-- wsdbase/IWSDSSLClientCertificate.GetMappedAccessToken
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDSSLClientCertificate.GetMappedAccessToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDSSLClientCertificate::GetMappedAccessToken
+ - wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDSSLClientCertificate.GetMappedAccessToken
 ---
 
 # IWSDSSLClientCertificate::GetMappedAccessToken
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the mapped access token.
-
 
 ## -parameters
 
-
-
-
 ### -param phToken [in, out]
 
-A handle for the mapped access token. Upon completion, the caller must free the handle by  calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
-
+A handle for the mapped access token. Upon completion, the caller must free the handle by  calling <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -96,27 +90,11 @@ The  token associated with the specified handle is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the client certificate was successfully mapped to an operating system user account, then a valid access token for this user will be returned through <i>phToken</i>. This token can be used to impersonate the user. Internally, HTTP.sys will do the client certificate to user account mapping and return this information through the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure.
-
-
-
+If the client certificate was successfully mapped to an operating system user account, then a valid access token for this user will be returned through <i>phToken</i>. This token can be used to impersonate the user. Internally, HTTP.sys will do the client certificate to user account mapping and return this information through the <a href="/windows/desktop/api/http/ns-http-http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>

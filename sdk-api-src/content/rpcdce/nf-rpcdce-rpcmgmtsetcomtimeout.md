@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcMgmtSetComTimeout
 title: RpcMgmtSetComTimeout function (rpcdce.h)
 description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.
+helpviewer_keywords: ["RpcMgmtSetComTimeout","RpcMgmtSetComTimeout function [RPC]","_rpc_rpcmgmtsetcomtimeout","rpc.rpcmgmtsetcomtimeout","rpcdce/RpcMgmtSetComTimeout"]
 old-location: rpc\rpcmgmtsetcomtimeout.htm
 tech.root: Rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetComTimeout, RpcMgmtSetComTimeout function [RPC], _rpc_rpcmgmtsetcomtimeout, rpc.rpcmgmtsetcomtimeout, rpcdce/RpcMgmtSetComTimeout
-f1_keywords:
-- rpcdce/RpcMgmtSetComTimeout
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcMgmtSetComTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcMgmtSetComTimeout
+ - rpcdce/RpcMgmtSetComTimeout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcMgmtSetComTimeout
 ---
 
 # RpcMgmtSetComTimeout function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcMgmtSetComTimeout</b> function sets the binding-communications time-out value in a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding handle whose time-out value is set.
 
-
 ### -param Timeout
 
 Communications time-out value, from zero to 10. These values are not seconds; they represent a relative amount of time on a scale of zero to 10.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,14 +118,10 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 In Windows XP and Windows 2000, during bind the RPC run time uses the shorter of a 15-minute call time-out, and the time-out set using the 
 <b>RpcMgmtSetComTimeout</b> function. In exchanges subsequent to binding, the RPC run time uses only the time-out set in using the 
@@ -146,18 +135,8 @@ A client application calls
 </div>
 <div> </div>
 For convenience, constants are provided for certain values in the time-out range. For a list of the RPC-defined values that an application can use for the time-out argument, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>.
-
-
-
+<a href="/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout">RpcMgmtInqComTimeout</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout">RpcMgmtInqComTimeout</a>

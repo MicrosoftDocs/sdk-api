@@ -2,15 +2,12 @@
 UID: NF:wtsapi32.WTSWaitSystemEvent
 title: WTSWaitSystemEvent function (wtsapi32.h)
 description: Waits for a Remote Desktop Services event before returning to the caller.
+helpviewer_keywords: ["WTSWaitSystemEvent","WTSWaitSystemEvent function [Remote Desktop Services]","WTS_EVENT_ALL","WTS_EVENT_CONNECT","WTS_EVENT_CREATE","WTS_EVENT_DELETE","WTS_EVENT_DISCONNECT","WTS_EVENT_LICENSE","WTS_EVENT_LOGOFF","WTS_EVENT_LOGON","WTS_EVENT_RENAME","WTS_EVENT_STATECHANGE","_win32_wtswaitsystemevent","termserv.wtswaitsystemevent","wtsapi32/WTSWaitSystemEvent"]
 old-location: termserv\wtswaitsystemevent.htm
 tech.root: TermServ
 ms.assetid: 4139c009-6d2f-460b-b7a0-097bd2218505
 ms.date: 12/05/2018
 ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Services], WTS_EVENT_ALL, WTS_EVENT_CONNECT, WTS_EVENT_CREATE, WTS_EVENT_DELETE, WTS_EVENT_DISCONNECT, WTS_EVENT_LICENSE, WTS_EVENT_LOGOFF, WTS_EVENT_LOGON, WTS_EVENT_RENAME, WTS_EVENT_STATECHANGE, _win32_wtswaitsystemevent, termserv.wtswaitsystemevent, wtsapi32/WTSWaitSystemEvent
-f1_keywords:
-- wtsapi32/WTSWaitSystemEvent
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSWaitSystemEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSWaitSystemEvent
+ - wtsapi32/WTSWaitSystemEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSWaitSystemEvent
 ---
 
 # WTSWaitSystemEvent function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for a Remote Desktop Services event before returning to the caller.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 Handle to an RD Session Host server. Specify a handle opened by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the RD Session Host server on which your application is running.
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify WTS_CURRENT_SERVER_HANDLE to indicate the RD Session Host server on which your application is running.
 
 ### -param EventMask [in]
 
@@ -128,9 +124,8 @@ An existing WinStation was renamed.
 #### WTS_EVENT_STATECHANGE
 
 A WinStation connection state changed. For a list of connection states, see the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration 
+        <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration 
         type.
-
 
 ### -param pEventFlags [out]
 
@@ -139,26 +134,13 @@ Pointer to a variable that receives a bitmask of the event or events that occurr
       the wait terminated because of a <b>WTSWaitSystemEvent</b> call with 
       <b>WTS_EVENT_FLUSH</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>

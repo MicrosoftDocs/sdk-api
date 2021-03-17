@@ -2,15 +2,12 @@
 UID: NF:sspi.VerifySignature
 title: VerifySignature function (sspi.h)
 description: Verifies that a message signed by using the MakeSignature function was received in the correct sequence and has not been modified.
+helpviewer_keywords: ["VerifySignature","VerifySignature function [Security]","_ssp_verifysignature","security.verifysignature","sspi/VerifySignature"]
 old-location: security\verifysignature.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.date: 12/05/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
-f1_keywords:
-- sspi/VerifySignature
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- VerifySignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerifySignature
+ - sspi/VerifySignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - VerifySignature
 ---
 
 # VerifySignature function
@@ -48,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Verifies that a message signed by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function was received in the correct sequence and has not been modified.
-
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function was received in the correct sequence and has not been modified.
 
 ## -parameters
 
-
-
-
 ### -param phContext [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> to use for the message.
-
+A handle to the <a href="/windows/desktop/SecGloss/s-gly">security context</a> to use for the message.
 
 ### -param pMessage [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that references a set of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures that contain the message and signature to verify. The signature is in a <b>SecBuffer</b> structure of type SECBUFFER_TOKEN.
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that references a set of 
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures that contain the message and signature to verify. The signature is in a <b>SecBuffer</b> structure of type SECBUFFER_TOKEN.
 
 ### -param MessageSeqNo [in]
 
 Specifies the sequence number expected by the transport application, if any. If the transport application does not maintain sequence numbers, this parameter is zero.
-
 
 ### -param pfQOP [out]
 
@@ -81,10 +75,7 @@ Pointer to a <b>ULONG</b> variable that receives package-specific flags that ind
 
 Some security packages ignore this parameter.
 
-
 ## -returns
-
-
 
 If the function verifies that the message was received in the correct sequence and has not been modified, the return value is SEC_E_OK.
 
@@ -146,42 +137,27 @@ The context handle specified by <i>phContext</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-The quality of protection negotiated between the client and server did not include <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">integrity</a> checking.
+The quality of protection negotiated between the client and server did not include <a href="/windows/desktop/SecGloss/i-gly">integrity</a> checking.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Warning</b>  <p class="note">The <b>VerifySignature</b> function will fail if the message was signed using the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.core.asymmetricalgorithmnames.rsasignpsssha512">RsaSignPssSha512</a> algorithm on a different version of Windows. For example, a message that was signed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function on Windows 8 will cause the <b>VerifySignature</b> function on Windows 8.1 to fail.
+<div class="alert"><b>Warning</b>  <p class="note">The <b>VerifySignature</b> function will fail if the message was signed using the <a href="/uwp/api/windows.security.cryptography.core.asymmetricalgorithmnames.rsasignpsssha512">RsaSignPssSha512</a> algorithm on a different version of Windows. For example, a message that was signed by calling the <a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function on Windows 8 will cause the <b>VerifySignature</b> function on Windows 8.1 to fail.
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>

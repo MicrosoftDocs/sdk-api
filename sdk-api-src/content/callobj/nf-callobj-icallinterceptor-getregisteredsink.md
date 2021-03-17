@@ -2,15 +2,12 @@
 UID: NF:callobj.ICallInterceptor.GetRegisteredSink
 title: ICallInterceptor::GetRegisteredSink (callobj.h)
 description: Retrieves the registered event sink.
+helpviewer_keywords: ["GetRegisteredSink","GetRegisteredSink method [COM]","GetRegisteredSink method [COM]","ICallInterceptor interface","ICallInterceptor interface [COM]","GetRegisteredSink method","ICallInterceptor.GetRegisteredSink","ICallInterceptor::GetRegisteredSink","_com_icallinterceptor_getregisteredsink","callobj/ICallInterceptor::GetRegisteredSink","com.icallinterceptor_getregisteredsink"]
 old-location: com\icallinterceptor_getregisteredsink.htm
 tech.root: com
 ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredSink, GetRegisteredSink method [COM], GetRegisteredSink method [COM],ICallInterceptor interface, ICallInterceptor interface [COM],GetRegisteredSink method, ICallInterceptor.GetRegisteredSink, ICallInterceptor::GetRegisteredSink, _com_icallinterceptor_getregisteredsink, callobj/ICallInterceptor::GetRegisteredSink, com.icallinterceptor_getregisteredsink
-f1_keywords:
-- callobj/ICallInterceptor.GetRegisteredSink
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallInterceptor.GetRegisteredSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallInterceptor::GetRegisteredSink
+ - callobj/ICallInterceptor::GetRegisteredSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallInterceptor.GetRegisteredSink
 ---
 
 # ICallInterceptor::GetRegisteredSink
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the registered event sink.
-
 
 ## -parameters
 
-
-
-
 ### -param ppsink [out]
 
-A pointer to a pointer to the event sink. See <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>.
-
+A pointer to a pointer to the event sink. See <a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,18 +101,7 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>

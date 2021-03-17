@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSchemeHandler.CancelObjectCreation
 title: IMFSchemeHandler::CancelObjectCreation (mfidl.h)
 description: Cancels the current request to create an object from a URL.
+helpviewer_keywords: ["662a4c47-95f8-4a84-ab2b-96e51d13906c","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFSchemeHandler interface","IMFSchemeHandler interface [Media Foundation]","CancelObjectCreation method","IMFSchemeHandler.CancelObjectCreation","IMFSchemeHandler::CancelObjectCreation","mf.imfschemehandler_cancelobjectcreation","mfidl/IMFSchemeHandler::CancelObjectCreation"]
 old-location: mf\imfschemehandler_cancelobjectcreation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 662a4c47-95f8-4a84-ab2b-96e51d13906c
 ms.date: 12/05/2018
 ms.keywords: 662a4c47-95f8-4a84-ab2b-96e51d13906c, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],CancelObjectCreation method, IMFSchemeHandler.CancelObjectCreation, IMFSchemeHandler::CancelObjectCreation, mf.imfschemehandler_cancelobjectcreation, mfidl/IMFSchemeHandler::CancelObjectCreation
-f1_keywords:
-- mfidl/IMFSchemeHandler.CancelObjectCreation
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSchemeHandler.CancelObjectCreation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSchemeHandler::CancelObjectCreation
+ - mfidl/IMFSchemeHandler::CancelObjectCreation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSchemeHandler.CancelObjectCreation
 ---
 
 # IMFSchemeHandler::CancelObjectCreation
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Cancels the current request to create an object from a URL.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pIUnknownCancelCookie [in]
 
-Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">IMFSchemeHandler::BeginCreateObject</a> method.
-
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">IMFSchemeHandler::BeginCreateObject</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,33 +80,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+You can use this method to cancel a previous call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
 
-
-You can use this method to cancel a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
-
-The operation cannot be canceled if <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a> returns <b>NULL</b> in the <i>ppIUnknownCancelCookie</i> parameter.
-
-
-
+The operation cannot be canceled if <a href="/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject">BeginCreateObject</a> returns <b>NULL</b> in the <i>ppIUnknownCancelCookie</i> parameter.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>

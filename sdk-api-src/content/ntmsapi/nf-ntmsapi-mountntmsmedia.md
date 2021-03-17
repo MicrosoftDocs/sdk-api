@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.MountNtmsMedia
 title: MountNtmsMedia function (ntmsapi.h)
 description: The MountNtmsMedia function synchronously mounts one or more pieces of media.
+helpviewer_keywords: ["MountNtmsMedia","MountNtmsMedia function [Files]","NTMS_MOUNT_ERROR_NOT_AVAILABLE","NTMS_MOUNT_ERROR_OFFLINE","NTMS_MOUNT_READ","NTMS_MOUNT_SPECIFIC_DRIVE","NTMS_MOUNT_WRITE","NTMS_PRIORITY_HIGH","NTMS_PRIORITY_HIGHEST","NTMS_PRIORITY_LOW","NTMS_PRIORITY_LOWEST","NTMS_PRIORITY_NORMAL","_zaw_mountntmsmedia","base.mountntmsmedia","fs.mountntmsmedia","ntmsapi/MountNtmsMedia"]
 old-location: fs\mountntmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: f943f36c-654a-48ed-aeb2-1fc146f2d9ff
 ms.date: 12/05/2018
 ms.keywords: MountNtmsMedia, MountNtmsMedia function [Files], NTMS_MOUNT_ERROR_NOT_AVAILABLE, NTMS_MOUNT_ERROR_OFFLINE, NTMS_MOUNT_READ, NTMS_MOUNT_SPECIFIC_DRIVE, NTMS_MOUNT_WRITE, NTMS_PRIORITY_HIGH, NTMS_PRIORITY_HIGHEST, NTMS_PRIORITY_LOW, NTMS_PRIORITY_LOWEST, NTMS_PRIORITY_NORMAL, _zaw_mountntmsmedia, base.mountntmsmedia, fs.mountntmsmedia, ntmsapi/MountNtmsMedia
-f1_keywords:
-- ntmsapi/MountNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- MountNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MountNtmsMedia
+ - ntmsapi/MountNtmsMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - MountNtmsMedia
 ---
 
 # MountNtmsMedia function
@@ -48,39 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>MountNtmsMedia</b> function synchronously mounts one or more pieces of media.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Array of unique identifiers of logical media or sides.
-
 
 ### -param lpDriveId [in, out]
 
 Array of drive identifiers that corresponds to the list of media in the <i>lpMediaId</i> parameter. This array either specifies a list of drives to mount media into or receives the list of drives that media is mounted into on operation completion. See the NTMS_MOUNT_SPECIFIC_DRIVE value below. If the 
 <b>MountNtmsMedia</b> function times out prior to the completion of the mount, RSM does not return the list of drives.
 
-
 ### -param dwCount [in]
 
 Number of media identifiers and drive identifiers passed in the <i>lpMediaId</i> and <i>lpDriveId</i> parameters. Note that <i>lpMediaId</i> and <i>lpDriveId</i> must point to the first element of equal-length arrays.
-
 
 ### -param dwOptions [in]
 
@@ -149,8 +142,6 @@ Do not issue an operator request to mount offline media. Return an error if the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPriority [in]
 
@@ -214,22 +205,16 @@ Highest priority mount.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwTimeout [in]
 
 Maximum time allowed to mount the specified media, in milliseconds. Set this parameter to INFINITE to wait until the mount is completed.
 
-
 ### -param lpMountInformation
 
 This parameter is reserved and should be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -268,7 +253,7 @@ The media or drives are busy.
 </td>
 <td width="60%">
 The request was canceled by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a> function.
 
 </td>
 </tr>
@@ -427,18 +412,12 @@ The media state is set to Completed and the NTMS_MOUNT_WRITE value was specified
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
 <b>MountNtmsMedia</b> function queues a request to mount the specified media, then waits for the number of milliseconds specified in the <i>dwTimeout</i> parameter for the mount to complete or for an error to be detected. If RSM cannot complete the mount operation before <i>dwTimeout</i> expires, NTMS cancels the request and returns an error. If the specified media is in an offline library, the application might be blocked for an extended period of time. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function to determine the current location of the specified medium. You can also use the NTMS_MOUNT_ERROR_OFFLINE value to generate an immediate error instead of an operator request when the media is offline.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectinformation">GetNtmsObjectInformation</a> function to determine the current location of the specified medium. You can also use the NTMS_MOUNT_ERROR_OFFLINE value to generate an immediate error instead of an operator request when the media is offline.
 
 If the specified medium is in use or a drive is not available, the process blocks up to the time-out value and returns ERROR_BUSY. If the NTMS_MOUNT_ERROR_NOT_AVAILABLE value is specified, the function returns an immediate error when a resource (media or drive) is not available.
 
@@ -450,7 +429,7 @@ When multiple media to be mounted are specified with a single call, all the spec
 At the completion of the mount the drive state (for example, fix or variable mode) is not defined. The application must set up the drive.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a> function can be used to cancel a mount that is pending. The default behavior is:
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmssession">CloseNtmsSession</a> function can be used to cancel a mount that is pending. The default behavior is:
 
 <ul>
 <li>If the specified medium is offline, RSM posts an operator request to mount the media and the 
@@ -460,15 +439,6 @@ The
 <b>MountNtmsMedia</b> function waits for the period of time specified in the <i>dwTimeout</i> parameter.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.DeletePIDs
 title: IMPEG2_TIF_CONTROL::DeletePIDs (bdatif.h)
 description: The DeletePIDs method informs the Network Provider that the TIF no longer requires the specified PID.
+helpviewer_keywords: ["DeletePIDs","DeletePIDs method [Microsoft TV Technologies]","DeletePIDs method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","DeletePIDs method","IMPEG2_TIF_CONTROL.DeletePIDs","IMPEG2_TIF_CONTROL::DeletePIDs","IMPEG2_TIF_CONTROLDeletePIDs","bdatif/IMPEG2_TIF_CONTROL::DeletePIDs","mstv.impeg2_tif_control_deletepids"]
 old-location: mstv\impeg2_tif_control_deletepids.htm
 tech.root: mstv
 ms.assetid: d5188e30-6980-482f-a690-494855d6aeea
 ms.date: 12/05/2018
 ms.keywords: DeletePIDs, DeletePIDs method [Microsoft TV Technologies], DeletePIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],DeletePIDs method, IMPEG2_TIF_CONTROL.DeletePIDs, IMPEG2_TIF_CONTROL::DeletePIDs, IMPEG2_TIF_CONTROLDeletePIDs, bdatif/IMPEG2_TIF_CONTROL::DeletePIDs, mstv.impeg2_tif_control_deletepids
-f1_keywords:
-- bdatif/IMPEG2_TIF_CONTROL.DeletePIDs
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdatif.h
-api_name:
-- IMPEG2_TIF_CONTROL.DeletePIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMPEG2_TIF_CONTROL::DeletePIDs
+ - bdatif/IMPEG2_TIF_CONTROL::DeletePIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdatif.h
+api_name:
+ - IMPEG2_TIF_CONTROL.DeletePIDs
 ---
 
 # IMPEG2_TIF_CONTROL::DeletePIDs
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DeletePIDs</b> method informs the Network Provider that the TIF no longer requires the specified PID.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulcPIDs [in]
 
 Specifies the number of PIDs to delete. This value must equal the number of elements in the array specified by <i>pulPIDs</i>.
 
-
 ### -param pulPIDs [in]
 
 Specifies an array of PID values containing <i>ulcPIDs</i> elements.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -93,31 +83,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called if a set of tables in the transport stream goes away, in order to remove the PSI/SI MPEG2 packet IDs from the TIF's data stream.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
