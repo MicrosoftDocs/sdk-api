@@ -5,7 +5,7 @@ description: Gets or sets information that provides certificate status responses
 old-location: security\iocspcaconfiguration_providerproperties_method.htm
 tech.root: SecCrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
-ms.date: 12/05/2018
+ms.date: 3/17/2021
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderProperties property, IOCSPCAConfiguration.ProviderProperties, IOCSPCAConfiguration.get_ProviderProperties, IOCSPCAConfiguration::ProviderProperties, IOCSPCAConfiguration::get_ProviderProperties, IOCSPCAConfiguration::put_ProviderProperties, ProviderProperties property [Security], ProviderProperties property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderProperties, certadm/IOCSPCAConfiguration::get_ProviderProperties, certadm/IOCSPCAConfiguration::put_ProviderProperties, get_ProviderProperties, security.iocspcaconfiguration_providerproperties_method
 f1_keywords:
 - certadm/IOCSPCAConfiguration.ProviderProperties
@@ -63,16 +63,11 @@ This property is read/write.
 
 
 
-The <b>VARIANT</b> returned in <i>pVal</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.
+The <b>VARIANT</b> returned in <i>pVal</i> is a pointer to a safe array that contains the properties as name-value pairs.
 
-To work with revocation-information provider properties:
+This array is a two-dimensional array of elements, each of type VARIANT. The array contains one row for each named property in the collection. Each row contains two columns: the property name and the property value.
 
-<ol>
-<li>Create an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> object.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-initializefromproperties">InitializeFromProperties</a> and pass in the <b>VARIANT</b>, <i>pVal</i>, returned by the <b>ProviderProperties</b> property.</li>
-<li>Use the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/methods-of-iocsppropertycollection">Methods</a> and <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/properties-of-iocsppropertycollection">Properties</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.</li>
-</ol>
-The following table lists the possible <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a> <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a> values and their data types for the default revocation-information provider.
+The following table lists the possible named property values and their data types for the default revocation provider:
 
 <table>
 <tr>
@@ -81,7 +76,7 @@ The following table lists the possible <a href="https://docs.microsoft.com/windo
 </tr>
 <tr>
 <td>BaseCrl</td>
-<td>Depends on BaseCrlUrl</td>
+<td>REG_BINARY</td>
 </tr>
 <tr>
 <td>BaseCrlUrl </td>
@@ -93,7 +88,7 @@ The following table lists the possible <a href="https://docs.microsoft.com/windo
 </tr>
 <tr>
 <td>DeltaCrl</td>
-<td>Depends on BaseCrlUrl or DeltaCrlUrl</td>
+<td>REG_BINARY</td>
 </tr>
 <tr>
 <td>DeltaCrlUrl</td>
@@ -107,8 +102,13 @@ The following table lists the possible <a href="https://docs.microsoft.com/windo
 <td>RevocationErrorCode</td>
 <td>DWORD</td>
 </tr>
+<tr>
+<td>IssuedSerialNumberDirectories</td>
+<td>REG_MULTI_SZ</td>
+</tr>
 </table>
  
+Note: IssuedSerialNumberDirectories is not supported on Windows Server 2008.
 
 
 
