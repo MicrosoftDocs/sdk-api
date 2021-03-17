@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - mf.dll
+ - mfsrcsnk.dll
 api_name:
  - MFCreateAVIMediaSink
 ---
