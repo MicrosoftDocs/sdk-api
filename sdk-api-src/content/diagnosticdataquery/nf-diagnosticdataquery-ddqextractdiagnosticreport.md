@@ -73,8 +73,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
-For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
+For report store types, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoreopen).
+For report keys, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey).
 
 ## -see-also
 

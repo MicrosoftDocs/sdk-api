@@ -56,7 +56,7 @@ The number of events that have this privacy tag.
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data privacy tags.
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data privacy tags.
 
 ## -see-also
 

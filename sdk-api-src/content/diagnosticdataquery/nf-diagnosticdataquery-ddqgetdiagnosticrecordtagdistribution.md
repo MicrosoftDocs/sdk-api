@@ -78,8 +78,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data privacy tags.
-For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data privacy tags.
+For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description).
 
 ## -see-also
 

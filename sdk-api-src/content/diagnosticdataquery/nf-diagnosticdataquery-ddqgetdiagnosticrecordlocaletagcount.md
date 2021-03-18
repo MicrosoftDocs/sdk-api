@@ -63,8 +63,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**]("/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description").
-For details about what a privacy tag is, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+For more details about the tag description data type, see our [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description).
+For details about what a privacy tag is, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

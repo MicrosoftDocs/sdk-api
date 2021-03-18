@@ -61,7 +61,7 @@ The official description for this tag.
 
 ## -remarks
 
-For more details, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+For more details, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

@@ -34,7 +34,7 @@ api_name:
 
 ## -description
 
-ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap) and introduces support for protected resources.
+ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md) and introduces support for protected resources.
 
 ## -inheritance
 
@@ -42,5 +42,4 @@ ID3D12VideoDecoderHeap1 interits from [ID3D12VideoDecoderHeap](nn-d3d12video-id3
 
 ## -see-also
 
-[ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap)
-
+[ID3D12VideoDecoderHeap](nn-d3d12video-id3d12videodecoderheap.md)

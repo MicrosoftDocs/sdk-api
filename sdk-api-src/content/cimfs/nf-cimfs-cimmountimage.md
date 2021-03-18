@@ -57,7 +57,7 @@ Provides the name of an existing image within the same imageContainingPath that 
 
 ### -param mountImageFlags
 
-Type: **[CIM_MOUNT_IMAGE_FLAGS](ne-cimfs-cim_mount_image_flags)**
+Type: **[CIM_MOUNT_IMAGE_FLAGS](/windows/win32/api/cimfs/ne-cimfs-cim_mount_image_flags)**
 
 ### -param volumeId
 

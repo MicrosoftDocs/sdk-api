@@ -56,7 +56,7 @@ The value of this parameter.
 
 ## -remarks
 
-For more information about parameters, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werreportsetparameter").
+For more information about parameters, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werreportsetparameter).
 
 ## -see-also
 

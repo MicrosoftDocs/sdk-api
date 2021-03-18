@@ -71,7 +71,7 @@ The average number of events sent per day in this set of diagnostic data records
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data opt-in levels.
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data opt-in levels.
 
 ## -see-also
 

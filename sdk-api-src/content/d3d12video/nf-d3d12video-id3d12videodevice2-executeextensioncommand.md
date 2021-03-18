@@ -80,7 +80,6 @@ Video extension commands executed through this method must complete before this 
 
 ## -see-also
 
-[ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
-[ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](nf-d3d12video-id3d12videoencodecommandlist1-executeextensioncommand.md)
-[ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)
-
+- [ID3D12VideoDecodeComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videodecodecommandlist2-executeextensioncommand.md)
+- [ID3D12VideoEncodeComandlist1::ExecuteExtensionCommand](nf-d3d12video-id3d12videoencodecommandlist1-executeextensioncommand.md)
+- [ID3D12VideoProcessComandlist2::ExecuteExtensionCommand](nf-d3d12video-id3d12videoprocesscommandlist2-executeextensioncommand.md)

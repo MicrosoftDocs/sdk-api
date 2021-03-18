@@ -86,7 +86,7 @@ Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
 
 ## -remarks
 
-For more details on how core data is defined, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+For more details on how core data is defined, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

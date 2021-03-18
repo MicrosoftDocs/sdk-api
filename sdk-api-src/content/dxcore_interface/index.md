@@ -15,5 +15,4 @@ tech.root: dxcore
 
 This header is used by DXCore. For more information, see:
 
-- [DXCore](../_dxcore)
-
+- [DXCore](../_dxcore/index.md)
