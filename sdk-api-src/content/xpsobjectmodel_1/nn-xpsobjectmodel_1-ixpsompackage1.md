@@ -71,7 +71,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackage1</b> interface 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 The base interface is defined and documented in Windows 7 SDK.
 
-http://msdn.microsoft.com/en-us/library/dd372618(v=VS.85).aspx
+[IXpsOMPackage interface](/windows/win32/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage)
 
 ## -see-also
 
