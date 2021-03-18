@@ -51,7 +51,7 @@ The number of bytes in the *pbKeyId* paramater.
 
 ### -field eMediaKeyStatus
 
-A value from the [MF_MEDIAKEY_STATUS](ne-mfidl-mf_mediakey_status) enumeration specifying the status of the associated session key.
+A value from the [MF_MEDIAKEY_STATUS](ne-mfidl-mf_mediakey_status.md) enumeration specifying the status of the associated session key.
 
 ## -remarks
 

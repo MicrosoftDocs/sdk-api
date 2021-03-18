@@ -70,8 +70,8 @@ If this flag is specified, the caller is not interested in having the operation 
 
 
 
-[BIND_OPTS2](./ns-objidl-bind_opts2~r1.md)
+[BIND_OPTS2](ns-objidl-bind_opts2~r1.md)
 
 
 
-[BIND_OPTS3](./ns-objidl-bind_opts3~r1.md)
+[BIND_OPTS3](ns-objidl-bind_opts3~r1.md)

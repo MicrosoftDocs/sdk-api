@@ -41,13 +41,13 @@ dev_langs:
 
 ## -description
 
-Gets an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+Gets an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -parameters
 
 ### -param ppRelativePanelReport
 
-A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -returns
 

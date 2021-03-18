@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-Frees an array of [INTERNET\_COOKIE2](ns-wininet-internet-cookie2.md) structures returned by [InternetGetCookieEx2](nf-wininet-internetgetcookieex2.md).
+Frees an array of [INTERNET\_COOKIE2](ns-wininet-internet_cookie2.md) structures returned by [InternetGetCookieEx2](nf-wininet-internetgetcookieex2.md).
 
 ## -parameters
 
 ### -param pCookies
 
-Pointer to an array of [**INTERNET\_COOKIE2**](wininet/ns-wininet-internet-cookie2.md) structures.
+Pointer to an array of [**INTERNET\_COOKIE2**](ns-wininet-internet_cookie2.md) structures.
 
 ### -param dwCookieCount
 
@@ -64,7 +64,7 @@ The number of structures in the array.
 
 [Managing Cookies](/windows/win32/wininet/managing-cookies)
 
-[InternetGetCookieEx2](/nf-wininet-internetgetcookieex2.md)
+[InternetGetCookieEx2](nf-wininet-internetgetcookieex2.md)
 
 [InternetSetCookieEx2](nf-wininet-internetsetcookieex2.md)
 

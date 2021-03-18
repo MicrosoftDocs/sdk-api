@@ -53,7 +53,7 @@ The profile management scope for this operation, which can be system-wide or the
 
 A pointer to the variable that will hold the rendering intent.
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ## -returns
 
@@ -67,6 +67,6 @@ This function does not revert to the system-wide scope if you do not set the per
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
 * [Functions](/windows/win32/wcs/functions)

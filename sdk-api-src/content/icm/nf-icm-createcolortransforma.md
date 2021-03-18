@@ -87,7 +87,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 > [!Note] 
 > **SEQUENTIAL\_TRANSFORM** was inadvertently omitted from the icm.h header in the Windows Vista SDK. If you wish to use the **SEQUENTIAL\_TRANSFORM** flag, define it in your application as follows:\#define SEQUENTIAL\_TRANSFORM 0x80800000
 
-For details, see [CMM Transform Creation Flags](cmm-transform-creation-flags.md). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE, which only works in a pure ICC-to-ICC transform.
+For details, see [CMM Transform Creation Flags](/windows/win32/wcs/cmm-transform-creation-flags). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE, which only works in a pure ICC-to-ICC transform.
 
 The **CreateColorTransform** function is used outside of a device context. Colors may shift when transforming from a color profile to the same color profile. This is due to precision errors. Therefore, a color transform should not be performed under these circumstances.
 
@@ -103,5 +103,5 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](/windows/win32/wcs/functions)
+- [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+- [Functions](/windows/win32/wcs/functions)

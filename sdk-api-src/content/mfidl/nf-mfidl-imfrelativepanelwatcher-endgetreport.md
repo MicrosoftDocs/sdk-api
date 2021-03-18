@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Ends an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+Ends an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -parameters
 
@@ -51,7 +51,7 @@ Pointer to the [IMFAsyncResult](/windows/desktop/api/mfobjects/nn-mfobjects-imfa
 
 ### -param ppRelativePanelReport
 
-A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -returns
 

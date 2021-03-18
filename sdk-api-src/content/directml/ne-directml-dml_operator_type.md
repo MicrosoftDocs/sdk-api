@@ -370,75 +370,75 @@ Indicates the operator described by the <a href="/windows/win32/api/directml/ns-
 
 ### -field DML_OPERATOR_ELEMENT_WISE_SIGN
 
-Indicates the operator described by the [DML_ELEMENT_WISE_SIGN_OPERATOR_DESC](ns-directml-dml_element_wise_sign_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_SIGN_OPERATOR_DESC](ns-directml-dml_element_wise_sign_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_IS_NAN
 
-Indicates the operator described by the [DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC](ns-directml-dml_element_wise_is_nan_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_IS_NAN_OPERATOR_DESC](ns-directml-dml_element_wise_is_nan_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ERF
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ERF_OPERATOR_DESC](ns-directml-dml_element_wise_erf_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ERF_OPERATOR_DESC](ns-directml-dml_element_wise_erf_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_SINH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_SINH_OPERATOR_DESC](ns-directml-dml_element_wise_sinh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_SINH_OPERATOR_DESC](ns-directml-dml_element_wise_sinh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_COSH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_COSH_OPERATOR_DESC](ns-directml-dml_element_wise_cosh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_COSH_OPERATOR_DESC](ns-directml-dml_element_wise_cosh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_TANH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_TANH_OPERATOR_DESC](ns-directml-dml_element_wise_tanh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_TANH_OPERATOR_DESC](ns-directml-dml_element_wise_tanh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ASINH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ASINH_OPERATOR_DESC](ns-directml-dml_element_wise_asinh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ASINH_OPERATOR_DESC](ns-directml-dml_element_wise_asinh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ACOSH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ACOSH_OPERATOR_DESC](ns-directml-dml_element_wise_acosh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ACOSH_OPERATOR_DESC](ns-directml-dml_element_wise_acosh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ATANH
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ATANH_OPERATOR_DESC](ns-directml-dml_element_wise_atanh_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ATANH_OPERATOR_DESC](ns-directml-dml_element_wise_atanh_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_IF
 
-Indicates the operator described by the [DML_ELEMENT_WISE_IF_OPERATOR_DESC](ns-directml-dml_element_wise_if_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_IF_OPERATOR_DESC](ns-directml-dml_element_wise_if_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ADD1
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ADD1_OPERATOR_DESC](ns-directml-dml_element_wise_add1_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ADD1_OPERATOR_DESC](ns-directml-dml_element_wise_add1_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ACTIVATION_SHRINK
 
-Indicates the operator described by the [DML_ACTIVATION_SHRINK_OPERATOR_DESC](ns-directml-dml_activation_shrink_operator_desc) structure.
+Indicates the operator described by the [DML_ACTIVATION_SHRINK_OPERATOR_DESC](ns-directml-dml_activation_shrink_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_MAX_POOLING1
 
-Indicates the operator described by the [DML_MAX_POOLING1_OPERATOR_DESC](ns-directml-dml_max_pooling1_operator_desc) structure.
+Indicates the operator described by the [DML_MAX_POOLING1_OPERATOR_DESC](ns-directml-dml_max_pooling1_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_MAX_UNPOOLING
 
-Indicates the operator described by the [DML_MAX_UNPOOLING_OPERATOR_DESC](ns-directml-dml_max_unpooling_operator_desc) structure.
+Indicates the operator described by the [DML_MAX_UNPOOLING_OPERATOR_DESC](ns-directml-dml_max_unpooling_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_DIAGONAL_MATRIX
 
-Indicates the operator described by the [DML_DIAGONAL_MATRIX_OPERATOR_DESC](ns-directml-dml_diagonal_matrix_operator_desc) structure.
+Indicates the operator described by the [DML_DIAGONAL_MATRIX_OPERATOR_DESC](ns-directml-dml_diagonal_matrix_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_SCATTER
 
-Indicates the operator described by the [DML_SCATTER_OPERATOR_DESC](ns-directml-dml_scatter_operator_desc) structure.
+Indicates the operator described by the [DML_SCATTER_OPERATOR_DESC](ns-directml-dml_scatter_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ONE_HOT
 
-Indicates the operator described by the [DML_ONE_HOT_OPERATOR_DESC](ns-directml-dml_one_hot_operator_desc) structure.
+Indicates the operator described by the [DML_ONE_HOT_OPERATOR_DESC](ns-directml-dml_one_hot_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_RESAMPLE
 
-Indicates the operator described by the [DML_RESAMPLE_OPERATOR_DESC](ns-directml-dml_resample_operator_desc) structure.
+Indicates the operator described by the [DML_RESAMPLE_OPERATOR_DESC](ns-directml-dml_resample_operator_desc.md) structure.
 
 ### -field DML_OPERATOR_ACTIVATION_CELU
 

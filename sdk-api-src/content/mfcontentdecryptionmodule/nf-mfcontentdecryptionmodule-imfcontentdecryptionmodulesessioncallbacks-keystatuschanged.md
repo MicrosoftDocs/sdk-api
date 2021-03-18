@@ -49,7 +49,7 @@ Returns S_OK.
 
 ## -remarks
 
-Get the current status of the CDM session keys by calling [IMFContentDecryptionModuleSession::GetKeyStatuses](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses). 
+Get the current status of the CDM session keys by calling [IMFContentDecryptionModuleSession::GetKeyStatuses](nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md). 
 
 **KeyStatusChanged** is based on the Encrypted Media Extension specification's [keystatuseschange](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-evt-keystatuseschange).
 

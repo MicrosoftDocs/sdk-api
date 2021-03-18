@@ -81,4 +81,4 @@ If you set the **SuppressBackgroundThread** member to **TRUE** in the *input* pa
 * [GdiplusShutdown](./nf-gdiplusinit-gdiplusshutdown.md)
 * [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md)
 * [GdiplusStartupOutput](./ns-gdiplusinit-gdiplusstartupoutput.md)
-* [Getting started](windows/win32/gdiplus/-gdiplus-getting-started-use)
+* [Getting started](/windows/win32/gdiplus/-gdiplus-getting-started-use)

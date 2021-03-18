@@ -43,7 +43,7 @@ IMFShutdown
 
 ## -remarks
 
-Get an instance of this interface by calling [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher).
+Get an instance of this interface by calling [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher.md).
 
 ## -see-also
 

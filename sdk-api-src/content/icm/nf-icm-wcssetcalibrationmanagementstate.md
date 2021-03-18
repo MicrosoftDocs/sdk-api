@@ -61,5 +61,5 @@ This function must be called with elevated permissions for it to succeed.
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
