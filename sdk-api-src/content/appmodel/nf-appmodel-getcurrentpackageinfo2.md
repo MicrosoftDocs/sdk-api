@@ -4,7 +4,7 @@ title: GetCurrentPackageInfo2
 description: Gets the package information for the calling process.
 helpviewer_keywords: ["GetCurrentPackageInfo2"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: GetCurrentPackageInfo2
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ title: BoundingSphere::Contains
 description: Tests whether the BoundingSphere contains a specified point.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::Contains"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingSphere::Contains
 targetos: Windows
 req.assembly: 

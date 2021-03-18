@@ -5,7 +5,7 @@ description: Prints a file.
 helpviewer_keywords: ["IFileViewerW::PrintTo"]
 tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerW::PrintTo
 targetos: Windows
 req.assembly: 

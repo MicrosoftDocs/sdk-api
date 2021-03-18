@@ -6,7 +6,7 @@ helpviewer_keywords: ["EnumResourceNames","EnumResourceNames function [Menus and
 old-location: menurc\enumresourcenames.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
-ms.date: 24/09/2020
+ms.date: 09/24/2020
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 req.header: winbase.h
 req.include-header: Windows.h

@@ -4,7 +4,7 @@ title: BoundingSphere::BoundingSphere
 description: Creates an instance of the BoundingSphere class.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::BoundingSphere"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingSphere::BoundingSphere
 targetos: Windows
 req.assembly: 

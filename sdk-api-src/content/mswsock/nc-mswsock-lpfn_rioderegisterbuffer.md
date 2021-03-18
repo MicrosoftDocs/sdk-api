@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIODEREGISTERBUFFER"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 5D5C3469-0D5B-4E89-BE59-8D8AE9DBA5DE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIODEREGISTERBUFFER
 targetos: Windows
 req.assembly: 

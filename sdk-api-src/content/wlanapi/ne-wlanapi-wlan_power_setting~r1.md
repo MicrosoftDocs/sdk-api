@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_POWER_SETTING~r1
 title: WLAN_POWER_SETTING
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_POWER_SETTING, WLAN_POWER_SETTING
 targetos: Windows
 req.construct-type: enumeration

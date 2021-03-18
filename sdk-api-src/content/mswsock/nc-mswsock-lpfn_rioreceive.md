@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIORECEIVE"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 26726277-4907-47A1-BACF-868389B46EA8
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIORECEIVE
 targetos: Windows
 req.assembly: 

@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx~r1
 title: ILLoadFromStreamEx
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: ILLoadFromStreamEx
 targetos: Windows
 req.assembly: 

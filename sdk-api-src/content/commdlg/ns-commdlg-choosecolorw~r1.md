@@ -1,7 +1,7 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORW~r1
 title: CHOOSECOLORW
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagCHOOSECOLORW, CHOOSECOLORW
 targetos: Windows
 req.construct-type: structure

@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._DOT11_RADIO_STATE~r1
 title: DOT11_RADIO_STATE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
 targetos: Windows
 req.construct-type: enumeration

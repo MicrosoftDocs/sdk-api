@@ -4,7 +4,7 @@ title: BoundingOrientedBox::Intersects
 description: Tests the BoundingOrientedBox for intersection with a BoundingSphere.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingOrientedBox::Intersects"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingOrientedBox::Intersects
 targetos: Windows
 req.assembly: 

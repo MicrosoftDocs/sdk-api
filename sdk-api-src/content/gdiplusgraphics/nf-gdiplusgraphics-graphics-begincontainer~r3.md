@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.BeginContainer~r3
 title: Graphics::BeginContainer
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: Graphics::BeginContainer
 targetos: Windows
 req.assembly: 

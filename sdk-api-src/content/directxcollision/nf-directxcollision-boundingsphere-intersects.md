@@ -4,7 +4,7 @@ title: BoundingSphere::Intersects
 description: Tests the BoundingSphere for intersection with a BoundingSphere.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::Intersects"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingSphere::Intersects
 targetos: Windows
 req.assembly: 

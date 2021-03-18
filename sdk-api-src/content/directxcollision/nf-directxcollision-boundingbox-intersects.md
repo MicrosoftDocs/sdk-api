@@ -4,7 +4,7 @@ title: BoundingBox::Intersects
 description: 
 tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Intersects"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingBox::Intersects
 targetos: Windows
 req.assembly: 

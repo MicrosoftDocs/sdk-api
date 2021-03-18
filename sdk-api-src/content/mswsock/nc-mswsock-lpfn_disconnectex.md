@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_DISCONNECTEX"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 220ba610-1694-470d-8b5e-e6b5fc3b4d0b
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_DISCONNECTEX
 targetos: Windows
 req.assembly: 

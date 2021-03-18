@@ -1,7 +1,7 @@
 ---
 UID: NE:lmdfs._DFS_TARGET_PRIORITY_CLASS~r1
 title: DFS_TARGET_PRIORITY_CLASS
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
 targetos: Windows
 req.construct-type: enumeration

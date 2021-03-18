@@ -2,7 +2,7 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList5.RSSetShadingRateImage
 title: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 tech.root: direct3d12
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 targetos: Windows
 req.assembly: 

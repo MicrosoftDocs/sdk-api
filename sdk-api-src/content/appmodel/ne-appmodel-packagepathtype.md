@@ -4,7 +4,7 @@ title: PackagePathType
 description: Indicates the type of package folder to retrieve.
 helpviewer_keywords: ["PackagePathType"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: PackagePathType
 req.construct-type: enumeration
 req.ddi-compliance: 

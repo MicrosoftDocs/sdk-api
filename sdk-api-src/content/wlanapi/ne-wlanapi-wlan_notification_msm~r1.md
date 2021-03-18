@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_MSM~r1
 title: WLAN_NOTIFICATION_MSM
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 targetos: Windows
 req.construct-type: enumeration
