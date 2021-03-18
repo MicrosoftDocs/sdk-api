@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Retrieves the color profile registered for the specified standard [color space](c.md).
+Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/color-spaces).
 
 ## -parameters
 
@@ -90,6 +90,6 @@ This is executable in LUA context.
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [SetStandardColorSpaceProfile](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew)
