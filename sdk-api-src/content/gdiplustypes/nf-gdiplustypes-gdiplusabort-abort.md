@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-**Abort** is an application-defined method that is called periodically by Windows GDI+ during time-consuming rendering operations. See the [**GdiplusAbort**](ns-gdiplustypes-gdiplusabort) structure.
+**Abort** is an application-defined method that is called periodically by Windows GDI+ during time-consuming rendering operations. See the [**GdiplusAbort**](/windows/win32/api/gdiplustypes/ns-gdiplustypes-gdiplusabort) structure.
 
 ## -parameters
 
@@ -59,5 +59,5 @@ Return **S_OK** for GDI+ to continue the rendering operation. Return **E_ABORT**
 
 ## -see-also
 
-[GdiplusAbort](./ns-gdiplustypes-gdiplusabort)
+[GdiplusAbort](/windows/win32/api/gdiplustypes/ns-gdiplustypes-gdiplusabort)
 

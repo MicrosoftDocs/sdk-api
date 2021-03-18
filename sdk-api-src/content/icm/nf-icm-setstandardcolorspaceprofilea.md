@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Registers a specified profile for a given standard [color space](c.md). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew).
+Registers a specified profile for a given standard [color space](/windows/win32/wcs/c). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew).
 
 ## -parameters
 
@@ -82,6 +82,6 @@ This is executable in LUA context if the profile is already installed, fails oth
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [SetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew)

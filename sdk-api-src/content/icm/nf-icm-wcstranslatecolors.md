@@ -97,6 +97,6 @@ If the input and the output color data types are not compatible with the color t
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)

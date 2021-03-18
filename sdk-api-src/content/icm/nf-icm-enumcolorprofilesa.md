@@ -94,7 +94,7 @@ The enumeration is specific to current user. Both system wide and current user d
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [GetICMProfile](/windows/desktop/api/Wingdi/nf-wingdi-geticmprofilea)
 * [ENUMTYPEW](/windows/win32/api/icm/ns-icm-enumtypew)
