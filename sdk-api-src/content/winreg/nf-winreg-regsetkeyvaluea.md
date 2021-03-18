@@ -84,7 +84,9 @@ This handle is returned by the
 
 ### -param lpSubKey [in, optional]
 
-The name of a key and a subkey to the key identified by <i>hKey</i>. If this parameter is <b>NULL</b>, then this value is created in the key using the <i>hKey</i> value and the key gets a default security descriptor.
+The name of the subkey relative to the key identified by <i>hKey</i>.
+If the subkey does not exist, it is created as a non-volatile key with a default security descriptor.
+If this parameter is <b>NULL</b>, then the value is created in the key specified by <i>hKey</i>.
 
 ### -param lpValueName [in, optional]
 
