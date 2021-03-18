@@ -65,6 +65,6 @@ This function is required in the default CMM. It is optional for all other CMMs.
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
-* [NAMED_PROFILE_INFO](ms536850\(v=vs.85\).md)
+* [NAMED_PROFILE_INFO](/windows/win32/api/icm/ns-icm-named_profile_info)

@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes).md) method (and overloads).
+**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(constmetafile_constpointf_int_constrectf__unit_enumeratemetafileproc_void_constimageattributes).md) method (and overloads).
 
 In turn, your implementation can call [**Metafile::PlayRecord**](../gdiplusheaders/nf-gdiplusheaders-metafile-playrecord.md) to play the record that was just enumerated.
 

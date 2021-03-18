@@ -58,7 +58,7 @@ A pointer to a profile structure that specifies a WCS color appearance model pro
 
 ### -param pGMMPProfile
 
-A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). You can free the *pGMMPProfile* pointer after you create the handle. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](rendering-intents.md).
+A pointer to a profile structure that specifies a WCS gamut map model profile (GMMP). You can free the *pGMMPProfile* pointer after you create the handle. If **NULL**, the default GMMP for the default rendering intent is used, and the current user setting, WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, is used while querying the default GMMP. For a description of rendering intents, see [Rendering Intents](/windows/win32/wcs/rendering-intents).
 
 ### -param dwDesireAccess
 
@@ -127,6 +127,6 @@ Use the [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile)
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)

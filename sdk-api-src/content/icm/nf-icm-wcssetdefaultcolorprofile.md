@@ -89,8 +89,8 @@ See notes on valid profile type/subtype combinations.
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)
 * [COLORPROFILESUBTYPE](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
 * [COLORPROFILETYPE](/windows/win32/api/icm/ne-icm-colorprofiletype)

@@ -59,5 +59,5 @@ Return **S_OK** for GDI+ to continue the rendering operation. Return **E_ABORT**
 
 ## -see-also
 
-[GdiplusAbort](ns-gdiplustypes-gdiplusabort)
+[GdiplusAbort](./ns-gdiplustypes-gdiplusabort)
 
