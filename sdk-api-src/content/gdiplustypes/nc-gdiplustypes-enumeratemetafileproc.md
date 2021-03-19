@@ -47,31 +47,31 @@ In turn, your implementation can call [**Metafile::PlayRecord**](../gdiplusheade
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: **[EmfPlusRecordType](../gdiplusenums/ne-gdiplusenums-emfplusrecordtype.md)**
 
 The WMF, EMF, or EMF+ record type.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 Flags; always 0 for WMF/EMF records.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The size of the record data (in bytes), or 0 if no data.
 
-### -param Arg4
+### -param unnamedParam4
 
 Type: **[BYTE](/windows/win32/winprog/windows-data-types)***
 
 A pointer to the record data, or **NULL** if no data.
 
-### -param Arg5
+### -param unnamedParam5
 
 Type: **[VOID](/windows/win32/winprog/windows-data-types)\***
 

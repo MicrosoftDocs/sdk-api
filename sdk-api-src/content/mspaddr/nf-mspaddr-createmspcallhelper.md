@@ -87,7 +87,7 @@ Pointer to <b>IUnknown</b> interface for MSP call object.
 
 Pointer to templated MSP call class, type implementation dependent.
 
-### -param arg8
+### -param unnamedParam8
 
 TBD
 

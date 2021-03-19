@@ -50,7 +50,7 @@ Creates an instance of the BoundingSphere class.
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The BoundingSphere to use to initialize this BoundingSphere.
 

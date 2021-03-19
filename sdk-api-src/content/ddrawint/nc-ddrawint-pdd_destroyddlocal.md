@@ -51,7 +51,7 @@ The <b>D3dDestroyDDLocal</b> function destroys all the Microsoft Direct3D surfac
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddhal_destroyddlocaldata">DDHAL_DESTROYDDLOCALDATA</a> structure that contains the information required for the driver to destroy the surfaces.
 

@@ -51,15 +51,15 @@ The <i>DxBobNextField</i> callback function bobs the next field of interleaved d
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to the miniport driver's device extension.
 
-### -param Arg2
+### -param unnamedParam2
 
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddbobnextfieldinfo">DDBOBNEXTFIELDINFO</a> structure that contains the bob information for the surface.
 
-### -param Arg3
+### -param unnamedParam3
 
 Reserved for system use.
 

@@ -51,23 +51,23 @@ The <i>DDEnumCallbackEx</i> function is an application-defined callback function
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A pointer to the unique identifier of the DirectDraw object.
 
-### -param Arg2
+### -param unnamedParam2
 
 Address of a string that contains the driver name.
 
-### -param Arg3
+### -param unnamedParam3
 
 Address of a string that contains the driver description.
 
-### -param Arg4
+### -param unnamedParam4
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 
-### -param Arg5
+### -param unnamedParam5
 
 Handle of the monitor that is associated with the enumerated DirectDraw object. This parameter is NULL when the enumerated DirectDraw object is for the primary device, a nondisplay device (such as a 3-D accelerator with no 2-D capabilities), or devices not attached to the desktop.
 

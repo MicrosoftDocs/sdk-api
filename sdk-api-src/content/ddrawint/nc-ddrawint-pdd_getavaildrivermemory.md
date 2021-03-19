@@ -53,7 +53,7 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.

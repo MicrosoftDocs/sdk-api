@@ -54,31 +54,31 @@ The fax service calls the <b>FaxExtInitializeConfig</b> function to initialize t
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>PFAX_EXT_GET_DATA</b>
 
 Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> fax service callback function.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>PFAX_EXT_SET_DATA</b>
 
 Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextsetdata">FaxExtSetData</a> fax service callback function.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Type: <b>PFAX_EXT_REGISTER_FOR_EVENTS</b>
 
 Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> fax service callback function.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Type: <b>PFAX_EXT_UNREGISTER_FOR_EVENTS</b>
 
 Pointer to a <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextunregisterforevents">FaxExtUnregisterForEvents</a> fax service callback function.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Type: <b>PFAX_EXT_FREE_BUFFER</b>
 

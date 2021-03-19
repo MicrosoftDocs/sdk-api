@@ -61,7 +61,7 @@ TBD
 
 TBD
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 TBD
 

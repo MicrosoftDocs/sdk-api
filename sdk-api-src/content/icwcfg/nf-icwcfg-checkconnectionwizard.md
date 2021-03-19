@@ -57,7 +57,7 @@ The <b>CheckConnectionWizard</b> function checks that the Internet Connection Wi
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A combination of bit flags that indicates the action <b>CheckConnectionWizard</b> is to perform.
 
@@ -128,7 +128,7 @@ If the ICW is present, the retail mode ISP signup
 </tr>
 </table>
 
-### -param arg2
+### -param unnamedParam2
 
 <b>DWORD</b> in which the results of the call are returned.  The value is  a
                 combination of the following bit flags.

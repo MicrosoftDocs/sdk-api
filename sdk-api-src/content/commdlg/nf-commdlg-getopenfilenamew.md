@@ -60,7 +60,7 @@ Creates an <b>Open</b> dialog box that lets the user specify the drive, director
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>LPOPENFILENAME</b>
 

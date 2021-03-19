@@ -51,7 +51,7 @@ The <b>DdVideoPortDestroy</b> callback function notifies the driver that DirectD
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroyvportdata">DD_DESTROYVPORTDATA</a> structure that contains the information required for the driver to clean up.
 

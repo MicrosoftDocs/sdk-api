@@ -50,7 +50,7 @@ Retrieves the window handle that was previously associated with this DirectDrawC
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the window handle that was previously associated with this DirectDrawClipper object by the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">IDirectDrawClipper::SetHWnd</a> method.
 

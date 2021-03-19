@@ -45,15 +45,15 @@ TBD
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 TBD
 
-### -param Arg2
+### -param unnamedParam2
 
 TBD
 
-### -param Arg3
+### -param unnamedParam3
 
 TBD
 

@@ -52,7 +52,7 @@ Copy constructor for **CustomLineCap**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The object to copy into this object.
 

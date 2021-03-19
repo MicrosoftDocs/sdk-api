@@ -51,7 +51,7 @@ The <i>DdFlipToGDISurface</i> callback function notifies the driver when DirectD
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_fliptogdisurfacedata">DD_FLIPTOGDISURFACEDATA</a> structure that contains the notification information.

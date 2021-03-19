@@ -55,9 +55,9 @@ Specifies an application-defined callback function that a property sheet extensi
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - hpage
 

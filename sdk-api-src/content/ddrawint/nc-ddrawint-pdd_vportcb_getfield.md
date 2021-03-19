@@ -51,7 +51,7 @@ The <b>DdVideoPortGetField</b> callback function determines whether the current 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportfielddata">DD_GETVPORTFIELDDATA</a> structure that contains the information required for the driver to determine whether the current field is even or odd.
 

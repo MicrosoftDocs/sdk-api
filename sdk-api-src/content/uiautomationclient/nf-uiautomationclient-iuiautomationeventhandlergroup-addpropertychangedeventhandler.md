@@ -55,7 +55,7 @@ Registers a method that handles a property-changed event.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and children.
 

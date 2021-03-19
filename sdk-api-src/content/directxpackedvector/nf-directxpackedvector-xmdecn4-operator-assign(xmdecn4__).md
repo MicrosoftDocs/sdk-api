@@ -55,7 +55,7 @@ This operator assigns the vector component data from one instance of **XMDECN4**
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of **XMDECN4** used to update the current **XMDECN4** structure.
 

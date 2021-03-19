@@ -146,7 +146,7 @@ Class GUID or component ID that identifies the message. Depends if <i>MessageFla
 
 Number that uniquely identifies each occurrence of the message. You must define the value specified for this parameter; the value should be meaningful to the application.
 
-### -param arg5
+### -param ...
 
 A list of variable arguments to be appended to the message. Use this list to specify your provider-specific event data. The list must be composed of pairs of arguments, as described in the following table. 
 
@@ -285,3 +285,4 @@ Note that the members of the <a href="/windows/desktop/ETW/event-trace">EVENT_TR
 
 
 <a href="/windows/desktop/ETW/tracemessageva">TraceMessageVa</a>
+

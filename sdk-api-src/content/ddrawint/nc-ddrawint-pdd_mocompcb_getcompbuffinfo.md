@@ -51,7 +51,7 @@ The <b>DDMoCompGetBuffInfo</b> callback function allows the driver to specify ho
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompcompbuffdata">DD_GETMOCOMPCOMPBUFFDATA</a> structure that contains the compressed buffer information.
 

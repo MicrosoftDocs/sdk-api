@@ -58,7 +58,7 @@ Retrieves the name of the specified file.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>LPCTSTR</b>
 

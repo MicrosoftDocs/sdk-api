@@ -72,7 +72,7 @@ Type: <b>UINT32</b>
 
 The number of bytes in the data to be retrieved.
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 

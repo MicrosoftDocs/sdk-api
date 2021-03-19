@@ -45,11 +45,11 @@ dev_langs:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure that contains WCS configuration data.
 
-### -param Arg2
+### -param unnamedParam2
 
 Contains a value supplied by the application.
 

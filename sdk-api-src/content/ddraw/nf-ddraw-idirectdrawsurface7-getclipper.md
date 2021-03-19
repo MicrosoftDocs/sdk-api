@@ -50,7 +50,7 @@ Retrieves the DirectDrawClipper object that is associated with this surface, and
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable to receive a pointer to the clipper's <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface.
 

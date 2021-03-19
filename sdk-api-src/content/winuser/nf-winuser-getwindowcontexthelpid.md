@@ -54,7 +54,7 @@ Retrieves the Help context identifier, if any, associated with the specified win
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 

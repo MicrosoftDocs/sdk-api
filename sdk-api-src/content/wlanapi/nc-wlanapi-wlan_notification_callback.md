@@ -51,13 +51,13 @@ The <b>WLAN_NOTIFICATION_CALLBACK</b> callback function prototype defines the ty
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A pointer to a <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure that contains the notification information.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the wlan_notification_acm_connection_complete and wlan_notification_acm_disconnected notifications are available.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the context information provided by the client when it registered for the notification.
 

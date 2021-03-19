@@ -54,7 +54,7 @@ Destroys a property sheet page. An application must call this function for pages
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HPROPSHEETPAGE</b>
 

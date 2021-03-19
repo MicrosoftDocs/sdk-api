@@ -59,7 +59,7 @@ Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 TBD
 

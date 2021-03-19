@@ -54,23 +54,23 @@ Sets the mode of the display-device hardware.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Width of the new display mode.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Height of the new display mode.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Bits per pixel (bpp) of the new display mode.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Refresh rate of the new display mode. Set this value to 0 to request the default refresh rate for the driver.
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
 

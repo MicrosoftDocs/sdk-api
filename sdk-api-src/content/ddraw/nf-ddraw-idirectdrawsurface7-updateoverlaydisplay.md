@@ -51,7 +51,7 @@ The <b>IDirectDrawSurface7::UpdateOverlayDisplay</b> method is not currently imp
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The method is not currently implemented.
 

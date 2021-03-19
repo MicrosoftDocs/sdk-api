@@ -127,7 +127,7 @@ A pointer to the returned <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle.
 
 Must be set to zero.
 
-### -param arg10
+### -param ...
 
 Additional parameters.
 
@@ -144,3 +144,4 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 <a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+

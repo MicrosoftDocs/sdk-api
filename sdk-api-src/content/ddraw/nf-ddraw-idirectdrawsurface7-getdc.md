@@ -50,7 +50,7 @@ Creates a GDI-compatible handle of a device context for this surface.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the handle of the device context for this surface.
 

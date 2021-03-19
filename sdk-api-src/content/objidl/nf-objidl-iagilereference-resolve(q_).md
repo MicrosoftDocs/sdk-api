@@ -63,7 +63,7 @@ Gets the interface ID of an agile reference to an object.
 The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
 
 
-### -param arg2 [out, retval]
+### -param unnamedParam2 [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
 

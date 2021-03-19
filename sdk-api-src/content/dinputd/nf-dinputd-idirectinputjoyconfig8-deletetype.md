@@ -51,7 +51,7 @@ The <b>IDirectInputJoyConfig8::DeleteType </b>method removes information about a
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to the name of the type. The name of the type cannot exceed MAX_PATH characters, including the terminating null character. Also, the name cannot begin with a "#" character. Types beginning with "#" are reserved by DirectInput.
 

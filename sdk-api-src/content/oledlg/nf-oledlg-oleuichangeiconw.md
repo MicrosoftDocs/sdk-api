@@ -56,7 +56,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
  Pointer to the In/Out [OLEUICHANGEICON](./nf-oledlg-oleuichangeicona.md) structure for this dialog box.
 

@@ -55,7 +55,7 @@ This operator assigns the vector component data from one instance of **XMBYTE4**
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of **XMBYTE4** used to update the current **XMBYTE4** structure.
 

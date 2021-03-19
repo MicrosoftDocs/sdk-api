@@ -49,7 +49,7 @@ Retrieves various information about the color management module (CMM) that creat
 
 Identifies the transform for which to find CMM information.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the information to be retrieved. This parameter can take one of the following constant values.
 

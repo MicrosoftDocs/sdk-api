@@ -90,7 +90,7 @@ A SetupAPI-specific error code or a Win32 error code. The SetupAPI-specific erro
 
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry.
 
-### -param arg6
+### -param ...
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>.
 
@@ -145,3 +145,4 @@ For more information about using log tokens, see <a href="/windows-hardware/driv
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlog">SetupWriteTextLog</a>
+

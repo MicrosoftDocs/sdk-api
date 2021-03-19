@@ -61,7 +61,7 @@ Registers a method that handles when the active text position changes.
 
 A pointer to the UI Automation element associated with the event handler.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 

@@ -47,7 +47,7 @@ Copy constructor for **XMFLOAT3X4**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **const XMFLOAT3X4 &**
 

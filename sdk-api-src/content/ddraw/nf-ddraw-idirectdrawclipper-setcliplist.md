@@ -54,11 +54,11 @@ Sets or deletes the clip list that is used by the <a href="/windows/desktop/api/
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a valid <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a> structure for the clip list to set or NULL. If there is an existing clip list that is associated with the DirectDrawClipper object and this value is NULL, the clip list is deleted.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Currently not used and must be set to 0.
 

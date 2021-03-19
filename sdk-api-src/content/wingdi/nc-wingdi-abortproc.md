@@ -54,9 +54,9 @@ The <b>AbortProc</b> function is an application-defined callback function used w
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - hdc [in]
 

@@ -52,7 +52,7 @@ Retrieves an interface to the DirectDraw object that was used to create this sur
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives a valid interface pointer if the call succeeds. Cast this pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer; then query for the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a> interface.
 

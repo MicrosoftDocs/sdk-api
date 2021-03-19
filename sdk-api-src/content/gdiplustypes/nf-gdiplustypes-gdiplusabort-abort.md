@@ -45,7 +45,7 @@ dev_langs:
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **[VOID](/windows/win32/winprog/windows-data-types)**
 

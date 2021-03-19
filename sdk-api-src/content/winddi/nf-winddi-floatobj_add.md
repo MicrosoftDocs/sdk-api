@@ -54,11 +54,11 @@ The <b>FLOATOBJ_Add</b> function adds the two FLOATOBJs, and returns with the re
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to the first FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>pf1</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the second FLOATOBJ operand.
 

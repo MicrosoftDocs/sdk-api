@@ -56,19 +56,19 @@ An application-defined callback function used with the <a href="/windows/desktop
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 
 A handle to the window whose property list is being enumerated.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b>LPCTSTR</b>
 
 The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b>HANDLE</b>
 

@@ -54,11 +54,11 @@ The <b>IDirectInputJoyConfig8::SetCooperativeLevel </b>method establishes the co
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Handle to the window associated with the interface. This parameter must be non-NULL and must be a top-level window. It is an error to destroy the window while it is still associated with an <b>IDirectInputJoyConfig8</b> interface.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies one of a set of flags that describe the  level of cooperation associated with the device. The value must be DISCL_EXCLUSIVE | DISCL_BACKGROUND.
 

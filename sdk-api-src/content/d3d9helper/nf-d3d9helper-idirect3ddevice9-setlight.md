@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>const <a href="/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a>*</b>
 

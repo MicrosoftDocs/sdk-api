@@ -54,7 +54,7 @@ Gets the next element in the specified direction within the logical UI tree.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The specified direction.
 

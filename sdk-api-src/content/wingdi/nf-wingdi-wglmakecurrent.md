@@ -54,11 +54,11 @@ The <b>wglMakeCurrent</b> function makes a specified OpenGL rendering context th
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Handle to a device context. Subsequent OpenGL calls made by the calling thread are drawn on the device identified by <i>hdc</i>.
 
-### -param arg2
+### -param unnamedParam2
 
 Handle to an OpenGL rendering context that the function sets as the calling thread's rendering context.
 

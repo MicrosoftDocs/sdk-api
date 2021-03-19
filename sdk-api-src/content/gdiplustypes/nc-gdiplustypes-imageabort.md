@@ -47,7 +47,7 @@ Examples of the callback function in use are the corresponding parameters of the
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: **[VOID](/windows/win32/winprog/windows-data-types)\***
 

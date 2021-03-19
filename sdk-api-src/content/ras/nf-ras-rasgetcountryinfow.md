@@ -59,7 +59,7 @@ For more information about country/region-specific dialing information and <a hr
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)">RASCTRYINFO</a> structure that, on output, receives the country/region-specific dialing information followed by additional bytes for a country/region description string. 
@@ -71,7 +71,7 @@ On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="/prev
 
 Allocate at least 256 bytes for the buffer.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by the <i>lpRasCtryInfo</i> parameter. 
 

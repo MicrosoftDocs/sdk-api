@@ -54,7 +54,7 @@ Sets the information for a flat scroll bar. If flat scroll bars are not initiali
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 

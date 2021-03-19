@@ -54,15 +54,15 @@ Registers a TraceLogging provider with callback so that it can be used for to lo
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 The handle of the provider to register.
 
-### -param arg2 [in, optional]
+### -param unnamedParam2 [in, optional]
 
 Callback that ETW calls to notify you when a session enables or disables your provider. Defaults to <b>NULL</b>.
 
-### -param arg3 [in, optional]
+### -param unnamedParam3 [in, optional]
 
 Provider-defined context data to pass to the callback when the provider is enabled or disabled. Defaults to <b>NULL</b>.
 

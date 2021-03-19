@@ -55,7 +55,7 @@ Sets the double-click time for the mouse. A double-click is a series of two clic
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>UINT</b>
 

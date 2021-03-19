@@ -53,15 +53,15 @@ Calculates the wire size of the <a href="/windows/desktop/WinRT/hstring">HSTRING
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer offset where the object will be marshaled. The method has to account for any padding needed for the <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object to be properly aligned when it will be marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The string.
 

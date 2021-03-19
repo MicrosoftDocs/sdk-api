@@ -57,7 +57,7 @@ The <b>EngQueryLocalTime</b> function queries the local time.
 
 ## -parameters
 
-### -param Arg1 [out]
+### -param unnamedParam1 [out]
 
 Pointer to an <a href="/windows/desktop/api/winddi/ns-winddi-eng_time_fields">ENG_TIME_FIELDS</a> structure that receives the local time.
 

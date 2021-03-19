@@ -50,7 +50,7 @@ Prevents a system-memory surface from being paged out while a bit block transfer
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 

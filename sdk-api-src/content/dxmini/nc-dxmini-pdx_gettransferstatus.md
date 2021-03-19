@@ -51,13 +51,13 @@ The<i> DxGetTransferStatus</i> callback function is used by DirectDraw to determ
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 Points to the miniport driver's device extension.
 
-### -param Arg2
+### -param unnamedParam2
 Reserved for system use.
 
-### -param Arg3
+### -param unnamedParam3
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
 
 ## -returns

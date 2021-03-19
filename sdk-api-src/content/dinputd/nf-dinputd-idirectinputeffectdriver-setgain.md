@@ -54,11 +54,11 @@ The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the joystick ID number being used.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the new gain value (1 to 10,000).
 

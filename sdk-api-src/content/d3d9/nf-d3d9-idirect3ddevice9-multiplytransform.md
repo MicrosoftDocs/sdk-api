@@ -55,13 +55,13 @@ Multiplies a device's world, view, or projection matrices by a specified matrix.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a></b>
 
 Member of the <a href="/windows/desktop/direct3d9/d3dtransformstatetype">D3DTRANSFORMSTATETYPE</a> enumerated type, or the <a href="/windows/desktop/direct3d9/d3dts-worldmatrix">D3DTS_WORLDMATRIX</a> macro that identifies which device matrix is to be modified. The most common setting, <b>D3DTS_WORLDMATRIX</b>(0), modifies the world matrix, but you can specify that the method modify the view or projection matrices, if needed.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>const <a href="/windows/desktop/direct3d9/d3dmatrix">D3DMATRIX</a>*</b>
 

@@ -58,7 +58,7 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

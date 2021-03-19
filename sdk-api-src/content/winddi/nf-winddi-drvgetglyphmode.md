@@ -54,11 +54,11 @@ The <b>DrvGetGlyphMode</b> function tells GDI how to cache glyph information.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to a physical device's <a href="/windows-hardware/drivers/">PDEV</a> structure.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that can be queried to find the font size, transform, and other font attributes.
 

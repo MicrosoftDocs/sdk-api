@@ -54,15 +54,15 @@ Calculates the wire size of the <a href="/windows/desktop/api/oaidl/ns-oaidl-saf
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Sets the buffer offset so that the <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The safe array that contains the data to marshal.
 

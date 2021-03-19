@@ -54,11 +54,11 @@ The <b>IDirectInputEffectDriver::StopEffect </b>method halts the playback of an 
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be stopped.
 

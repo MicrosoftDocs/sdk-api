@@ -51,7 +51,7 @@ The <b>DdMoCompDestroy</b> callback function notifies the driver that this motio
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroymocompdata">DD_DESTROYMOCOMPDATA</a> structure that contains the information needed to finish motion compensation.
 

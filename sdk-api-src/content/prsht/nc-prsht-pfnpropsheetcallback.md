@@ -55,11 +55,11 @@ An application-defined callback function that the system calls when the property
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
-### -param Arg3
+### -param unnamedParam3
 
 #### - hwndDlg
 

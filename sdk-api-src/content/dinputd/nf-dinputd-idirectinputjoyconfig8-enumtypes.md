@@ -54,11 +54,11 @@ The <b>IDirectInputJoyConfig8::EnumTypes </b>method enumerates the joystick type
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to an application-defined callback function that receives the DirectInput joystick types. See the Remarks section for the function prototype.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies a 32-bit application-defined value to be passed to the callback function. This value can be any 32-bit value; it is prototyped as an LPVOID for convenience.
 

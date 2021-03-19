@@ -54,7 +54,7 @@ The <b>FLOATOBJ_GetFloat</b> function calculates and returns the FLOAT-equivalen
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ to be converted to a FLOAT.
 

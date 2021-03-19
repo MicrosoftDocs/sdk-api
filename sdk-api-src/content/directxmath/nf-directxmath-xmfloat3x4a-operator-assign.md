@@ -47,7 +47,7 @@ Copy assignment operator for **XMFLOAT3X4A**. Copies the argument's vector compo
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **const XMFLOAT3X4A &**
 

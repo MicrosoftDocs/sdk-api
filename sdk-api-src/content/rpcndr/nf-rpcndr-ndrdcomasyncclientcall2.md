@@ -64,7 +64,7 @@ Reserved.
 
 Reserved.
 
-### -param arg3 [in, out]
+### -param ...
 
 Reserved.
 

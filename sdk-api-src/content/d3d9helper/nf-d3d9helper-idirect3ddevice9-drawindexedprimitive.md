@@ -55,7 +55,7 @@ Based on indexing, renders the specified geometric primitive into an array of ve
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/direct3d9/d3dprimitivetype">D3DPRIMITIVETYPE</a></b>
 
