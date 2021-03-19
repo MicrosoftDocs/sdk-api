@@ -75,6 +75,11 @@ Prior to Windows 10, version 2004, this function affects a global Windows settin
 
 Setting a higher resolution can improve the accuracy of time-out intervals in wait functions. However, it can also reduce overall system performance, because the thread scheduler switches tasks more often. High resolutions can also prevent the CPU power management system from entering power-saving modes. Setting a higher resolution does not improve the accuracy of the high-resolution performance counter.
 
+Starting in Windows 10 Version 2004,
+changes to the timer resolution affect timers only in the process that called <b>timeBeginPeriod</b>.
+Prior to Windows 10 Version 2004,
+changes to the timer resolution affect timers in all processes.
+
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
