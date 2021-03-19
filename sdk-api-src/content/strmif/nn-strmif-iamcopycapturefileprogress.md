@@ -74,7 +74,8 @@ The following example shows a class that implements the interface:
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 class CProgress : public IAMCopyCaptureFileProgress 
 {
 public:
@@ -115,7 +116,7 @@ public:
         return S_OK;
     };
 };
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

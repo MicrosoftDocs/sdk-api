@@ -103,7 +103,8 @@ The application must allocate the buffers for the version and description string
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 // Get the size of the version and description strings, in bytes.
 int cbVersion, cbDesc; 
 hr = pCompress-&gt;GetInfo(NULL, &amp;cbVersion, NULL, &amp;cbDesc, 
@@ -121,7 +122,7 @@ if (SUCCEEDED(hr))
     delete [] pszVersion;
     delete [] pszDesc;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

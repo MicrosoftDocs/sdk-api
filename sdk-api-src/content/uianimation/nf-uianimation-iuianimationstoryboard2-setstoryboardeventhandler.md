@@ -58,8 +58,7 @@ Specifies a handler for storyboard events.
 
 The handler that Windows Animation should call whenever storyboard status and update events occur.
             
-            The specified object must implement the
-            <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler2">IUIAnimationStoryboardEventHandler2</a> interface or be <b>NULL</b>. See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboardeventhandler2">IUIAnimationStoryboardEventHandler2</a> interface or be <b>NULL</b>. See Remarks for more info.
 
 ### -param fRegisterStatusChangeForNextAnimationEvent [in]
 
