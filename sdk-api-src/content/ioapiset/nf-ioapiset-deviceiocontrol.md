@@ -48,15 +48,14 @@ api_location:
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
  - DeviceIoControl
+ms.custom: project-verbatim
 ---
-
-# DeviceIoControl function
-
 
 ## -description
 
-Sends a control code directly to a specified device driver, causing the corresponding device to 
-    perform the corresponding operation.
+Sends a control code directly to a specified device driver, causing the corresponding device to perform the corresponding operation.
+
+See the [Assign drive letter sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io/dledit).
 
 ## -parameters
 

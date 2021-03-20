@@ -43,14 +43,14 @@ api_location:
  - CfApi.h
 api_name:
  - CF_OPERATION_TYPE
+ms.custom: project-verbatim
 ---
-
-# CF_OPERATION_TYPE enumeration
-
 
 ## -description
 
 The types of operations that can be performed on placeholder files and directories.
+
+Also see [Cloud Mirror sample](/windows/win32/cfapi/build-a-cloud-file-sync-engine#cloud-mirror-sample).
 
 ## -enum-fields
 
