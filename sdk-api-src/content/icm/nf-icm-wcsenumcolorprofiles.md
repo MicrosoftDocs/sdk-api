@@ -41,7 +41,9 @@ dev_langs:
 
 ## -description
 
+Enumerates color profiles associated with any device, in the specified scope.
 
+> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayList**](nf-icm-colorprofilegetdisplaylist.md) for managing advanced color profiles.
 
 ## -parameters
 

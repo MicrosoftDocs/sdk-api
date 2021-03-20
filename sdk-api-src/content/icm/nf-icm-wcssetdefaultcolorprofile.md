@@ -43,6 +43,8 @@ dev_langs:
 
 Sets the default color profile name for the specified profile type in the specified profile management scope.
 
+> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileSetDisplayDefaultAssociation**](nf-icm-colorprofilesetdisplaydefaultassociation.md) for managing advanced color profiles.
+
 ## -parameters
 
 ### -param scope

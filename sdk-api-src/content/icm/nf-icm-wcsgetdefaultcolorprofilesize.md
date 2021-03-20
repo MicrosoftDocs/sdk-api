@@ -43,6 +43,8 @@ dev_langs:
 
 Returns the size, in bytes, of the default color profile name (including the **NULL** terminator), for a device.
 
+> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayDefault**](nf-icm-colorprofilegetdisplaydefault.md) for managing advanced color profiles.
+
 ## -parameters
 
 ### -param scope
