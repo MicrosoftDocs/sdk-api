@@ -242,6 +242,8 @@ The application cannot set this parameter to 0.
 
 Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer as an opaque array of byte values that can include embedded 0 bytes.
 
+Note: If the function is used for string mapping, the destination string is only null terminated if the <i>cchSrc</i> Parameter includes the terminating null character of the source string, even if the destination buffer size given by <i>cchDest</i> would allow to write a null terminator.
+
 <div class="alert"><b>Note</b>  If the function fails, the destination buffer might contain either partial results or no results at all. In this case, it is recommended for your application to consider any results invalid.</div>
 <div> </div>
 
@@ -249,7 +251,7 @@ Pointer to a buffer in which this function retrieves the mapped string or sort k
 
 Size, in characters, of the buffer indicated by <i>lpDestStr</i>. If the application is using the function for string mapping, it supplies a character count for this parameter. If space for a terminating null character is included in <i>cchSrc</i>, <i>cchDest</i> must also include space for a terminating null character.
 
-If the application is using the function to generate a sort key, it supplies a byte count for the size. This byte count must include space for the sort key 0x00 terminator.
+If the application is using the function to generate a sort key, it supplies a byte count for the size.
 
 The application can set <i>cchDest</i> to 0. In this case, the function does not use the <i>lpDestStr</i> parameter and returns the required buffer size for the mapped string or sort key.
 
@@ -272,7 +274,15 @@ Reserved; must be 0.
 
 ## -returns
 
-Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character if the input was null terminated.
+If the function was succeeds it returns a value bigger than 0:
+
+When used for string mapping it returns the number of characters in the translated string. If the <i>cchSrc</i> parameter includes the terminating null character of the source string, the terminating null character of the destination string is included in the returned number.
+
+When used for sort key generation it returns the number of bytes in the sort key.
+
+If the value of <i>cchDest</i> is 0, and used for string mapping the return value is the size in characters of the buffer required to hold the translated string, including space for the terminating null character if the <i>cchSrc</i> parameter includes the terminating null character of the source string.
+
+If the value of <i>cchDest</i> is 0, and used for sort key generation the return value is the size of the buffer required to hold the sort key.
 
 This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
