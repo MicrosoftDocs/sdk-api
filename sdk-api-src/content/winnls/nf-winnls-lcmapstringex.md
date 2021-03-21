@@ -242,9 +242,9 @@ The application cannot set this parameter to 0.
 
 Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer, which is treated as an opaque array of bytes. The stored values can include embedded 0 bytes at any position.
 
-Note: If the function is used for string mapping, the destination string is only null terminated if the <i>cchSrc</i> Parameter includes the terminating null character of the source string, even if the destination buffer size given by <i>cchDest</i> would allow to write a null terminator.
+<b>Note</b> If the function is used for string mapping, the destination string is only null terminated if the <i>cchSrc</i> Parameter includes the terminating null character of the source string, even if the destination buffer size given by <i>cchDest</i> would allow to write a null terminator.
 
-<div class="alert"><b>Note</b>  If the function fails, the destination buffer might contain either partial results or no results at all. In this case, it is recommended for your application to consider any results invalid.</div>
+<div class="alert"><b>Note</b> If the function fails, the destination buffer might contain either partial results or no results at all. In this case, it is recommended for your application to consider any results invalid.</div>
 <div> </div>
 
 ### -param cchDest [in]
