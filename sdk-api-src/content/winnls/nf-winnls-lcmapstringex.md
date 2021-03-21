@@ -240,7 +240,7 @@ The application cannot set this parameter to 0.
 
 ### -param lpDestStr [out, optional]
 
-Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer as an opaque array of byte values that can include embedded 0 bytes.
+Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer, which is treated as an opaque array of bytes. The stored values can include embedded 0 bytes at any position.
 
 Note: If the function is used for string mapping, the destination string is only null terminated if the <i>cchSrc</i> Parameter includes the terminating null character of the source string, even if the destination buffer size given by <i>cchDest</i> would allow to write a null terminator.
 
@@ -249,9 +249,9 @@ Note: If the function is used for string mapping, the destination string is only
 
 ### -param cchDest [in]
 
-Size, in characters, of the buffer indicated by <i>lpDestStr</i>. If the application is using the function for string mapping, it supplies a character count for this parameter. If space for a terminating null character is included in <i>cchSrc</i>, <i>cchDest</i> must also include space for a terminating null character.
+Size of the buffer indicated by <i>lpDestStr</i>. If the application is using the function for string mapping, it supplies a character count for this parameter. If space for a terminating null character is included in <i>cchSrc</i>, it must also include space for a terminating null character.
 
-If the application is using the function to generate a sort key, it supplies a byte count for the size.
+If the application is using the function to generate a sort key, it supplies the byte count of the buffer size.
 
 The application can set <i>cchDest</i> to 0. In this case, the function does not use the <i>lpDestStr</i> parameter and returns the required buffer size for the mapped string or sort key.
 
@@ -282,7 +282,7 @@ When used for sort key generation it returns the number of bytes in the sort key
 
 If the value of <i>cchDest</i> is 0, and used for string mapping the return value is the size in characters of the buffer required to hold the translated string, including space for the terminating null character if the <i>cchSrc</i> parameter includes the terminating null character of the source string.
 
-If the value of <i>cchDest</i> is 0, and used for sort key generation the return value is the size of the buffer required to hold the sort key.
+If the value of <i>cchDest</i> is 0, and used for sort key generation the return value is the size of the buffer in bytes required to hold the sort key.
 
 This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
@@ -298,6 +298,7 @@ The application can use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstri
 
 > [!NOTE]
 > Sort keys are opaque byte streams. Callers should treat them as a byte array of the length returned by the API and not rely on any internal structure that may appear to be present. Zero, one or more of the bytes in the returned sort key could be 0. Absence or presence of a zero byte should not be expected.
+To order sort keys, fist order them by size and for same size keys compare them with memcmp().
 
 Another way for your application to use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
