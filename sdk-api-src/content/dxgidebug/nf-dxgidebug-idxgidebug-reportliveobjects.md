@@ -43,14 +43,14 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIDebug.ReportLiveObjects
-ms.custom: project-verbatim
 ---
+
+# IDXGIDebug::ReportLiveObjects
+
 
 ## -description
 
 Reports info about the lifetime of an object or objects.
-
-See the [Memory management sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/TechniqueDemos/D3D12MemoryManagement).
 
 ## -parameters
 

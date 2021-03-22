@@ -53,7 +53,6 @@ api_name:
  - GetComputerNameEx
  - GetComputerNameExA
  - GetComputerNameExW
-ms.custom: project-verbatim
 ---
 
 # GetComputerNameExA function
@@ -248,7 +247,7 @@ void _tmain(void)
         TEXT("Physical DNS domain"), 
         TEXT("Physical DNS fully-qualified")};
     int cnf = 0;
-    DWORD dwSize = _countof(buffer);
+    DWORD dwSize = sizeof(buffer);
     
     for (cnf = 0; cnf < ComputerNameMax; cnf++)
     {
