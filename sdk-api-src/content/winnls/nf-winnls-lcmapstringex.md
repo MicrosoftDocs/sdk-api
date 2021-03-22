@@ -240,7 +240,7 @@ The application cannot set this parameter to 0.
 
 ### -param lpDestStr [out, optional]
 
-Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer, which is treated as an opaque array of bytes. The stored values can include embedded 0 bytes at any position.
+Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application is using the function to generate a sort key, the function stores the sort key in the buffer, which is treated as an opaque array of bytes. The stored values can include embedded 0 bytes at any position.
 
 <b>Note</b> If the function is used for string mapping, the destination string is only null terminated if the <i>cchSrc</i> Parameter includes the terminating null character of the source string, even if the destination buffer size given by <i>cchDest</i> would allow to write a null terminator.
 
@@ -298,7 +298,7 @@ The application can use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstri
 
 > [!NOTE]
 > Sort keys are opaque byte streams. Callers should treat them as a byte array of the length returned by the API and not rely on any internal structure that may appear to be present. Zero, one or more of the bytes in the returned sort key could be 0. Absence or presence of a zero byte should not be expected.
-To order sort keys, fist order them by size and for same size keys compare them with memcmp().
+To compare two sort keys, compare them bytewise until you find the first difference or you reached the size of the smaller of the keys. If the bytes are different, the key with the smaller byte maps the string which is considered lower. If the keys are not different until you reached the size of the smaller of them, the key with smaller size maps the string which is considered lower.
 
 Another way for your application to use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
