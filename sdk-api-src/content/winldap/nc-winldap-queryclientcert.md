@@ -43,14 +43,14 @@ api_location:
  - Winldap.h
 api_name:
  - QUERYCLIENTCERT
+ms.custom: project-verbatim
 ---
-
-# QUERYCLIENTCERT callback function
-
 
 ## -description
 
 The <b>QUERYCLIENTCERT</b> function is a client-side function that enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.
+
+Also see [Desktop Win32 code samples](/windows/win32/desktop-win32-code-samples).
 
 ## -parameters
 

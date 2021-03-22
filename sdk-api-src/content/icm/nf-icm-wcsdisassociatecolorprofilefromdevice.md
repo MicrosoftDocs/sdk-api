@@ -43,6 +43,8 @@ dev_langs:
 
 Disassociates a specified WCS color profile from a specified device on a computer.
 
+> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileRemoveDisplayAssociation**](nf-icm-colorprofileremovedisplayassociation.md) for managing advanced color profiles.
+
 ## -parameters
 
 ### -param scope

@@ -42,17 +42,30 @@ dev_langs:
 
 ## -description
 
+Gets the currently selected color profile scope of the provided display - either user or system.
+
 ## -parameters
 
 ### -param targetAdapterID
 
+An identifier assigned to the adapter (e.g. GPU) of the target display. See [Remarks](#remarks) for more details.
+
 ### -param sourceID
+
+An identifier assigned to the source of the display. See [Remarks](#remarks) for more details.
 
 ### -param scope
 
+Returns the scope of the currently selected color profile - either the current user or system.
+
 ## -returns
+
+**S_OK** for success, or a failure **HRESULT** value
 
 ## -remarks
 
+See [connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
+
 ## -see-also
 
+[Connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays)

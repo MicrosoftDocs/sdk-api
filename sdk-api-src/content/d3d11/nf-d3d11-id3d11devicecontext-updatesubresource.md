@@ -44,12 +44,12 @@ api_location:
  - D3D11.dll
 api_name:
  - ID3D11DeviceContext.UpdateSubresource
+ms.custom: project-verbatim
 ---
 
-# ID3D11DeviceContext::UpdateSubresource
-
-
 ## -description
+
+See the [Basic hologram sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/BasicHologram).
 
 The CPU copies data from memory to a subresource created in non-mappable memory.
 
