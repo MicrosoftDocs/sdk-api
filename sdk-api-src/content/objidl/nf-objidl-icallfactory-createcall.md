@@ -60,7 +60,7 @@ A reference to the identifier for the asynchronous interface.
 
 ### -param pCtrlUnk [in]
 
-A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object.
+A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the call object. If this parameter is not <b>NULL</b>, the call object is aggregated in the specified object, and the <i>riid2</i> parameter must be IID_IUnknown.
 If this parameter is <b>NULL</b>, the call object is not aggregated.
 
 ### -param riid2 [in]
