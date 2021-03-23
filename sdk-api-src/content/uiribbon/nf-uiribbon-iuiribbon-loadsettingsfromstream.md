@@ -65,14 +65,13 @@ Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or E_FAIL if the format or content of the serialized stream 
-						is empty or cannot be verified by the Ribbon framework.
+Returns S_OK if successful, or E_FAIL if the format or content of the serialized stream is empty or cannot be verified by the Ribbon framework.
 
 ## -remarks
 
 The stream is supplied by the host application.
 			
-				If the Windows Ribbon framework is unable to load a valid stream, the default ribbon layout is rendered instead.
+If the Windows Ribbon framework is unable to load a valid stream, the default ribbon layout is rendered instead.
 			
 
 The <b>LoadSettingsFromStream </b> method is useful for persisting ribbon state, such as Quick Access Toolbar (QAT) items, across application instances.

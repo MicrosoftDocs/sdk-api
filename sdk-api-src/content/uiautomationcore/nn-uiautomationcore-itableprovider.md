@@ -50,10 +50,7 @@ api_name:
 
 ## -description
 
-Provides access 
-        to controls that act as containers for a collection of child elements. The children of 
-        this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized 
-        in a two-dimensional logical coordinate system that can be traversed by using the keyboard.
+Provides access to controls that act as containers for a collection of child elements. The children of this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableitemprovider">ITableItemProvider</a> and be organized in a two-dimensional logical coordinate system that can be traversed by using the keyboard.
 
 ## -inheritance
 
@@ -65,19 +62,12 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableProvider</b> interface 
 
 ## -remarks
 
-This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with 
-            the distinction that any control that implements <b>ITableProvider</b> must 
-            also expose a column and/or row header relationship for each child element.
+This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> with the distinction that any control that implements <b>ITableProvider</b> must also expose a column and/or row header relationship for each child element.
             
 
-Controls that implement <b>ITableProvider</b> are also required to 
-            implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality 
-            of a table control.
+Controls that implement <b>ITableProvider</b> are also required to  implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a> so as to expose the inherent grid functionality of a table control.
             
-
-         
-            Implemented on a UI Automation provider that must support 
-            the <a href="/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
+Implemented on a UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingtable">Table</a> control pattern and <a href="/windows/desktop/WinAuto/uiauto-implementinggrid">Grid</a> control pattern.
 
 ## -see-also
 

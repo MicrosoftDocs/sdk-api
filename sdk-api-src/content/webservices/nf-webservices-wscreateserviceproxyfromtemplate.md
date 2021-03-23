@@ -71,14 +71,14 @@ The number of properties in the <i>properties</i> array.
 ### -param templateType [in]
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
-        Please see the <b>Remarks</b> for more information.
+
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateValue
 
-The optional template structure to be created and filled in by an application.
-          This template structure must be consistent with the input template type (in the <i>templateType</i>). When <i>templateValue</i> parameter is <b>NULL</b>, 
-          it is equivalent to the corresponding template structure initialized to zero.
-        Please see the <b>Remarks</b> for more information.
+The optional template structure to be created and filled in by an application. This template structure must be consistent with the input template type (in the <i>templateType</i>). When <i>templateValue</i> parameter is <b>NULL</b>, it is equivalent to the corresponding template structure initialized to zero.
+
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateSize [in]
 
@@ -87,7 +87,8 @@ The size, in bytes, of the template structure (in the  <i>templateValue</i> para
 ### -param templateDescription [in]
 
 The description of <i>templateValue</i>. This must match <i>templateType</i>.
-        Please see the <b>Remarks</b> for more information.
+
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateDescriptionSize [in]
 
@@ -97,7 +98,7 @@ The size of the template description.
 
 On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the new service proxy.
                 
-                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
 
 ### -param error [in, optional]
 
