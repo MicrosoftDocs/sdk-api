@@ -66,9 +66,7 @@ A handle to the event log. The
 
 The level of event log information to return. 
 
-
-
-					This parameter can be the following value. 
+This parameter can be the following value. 
 
 
 

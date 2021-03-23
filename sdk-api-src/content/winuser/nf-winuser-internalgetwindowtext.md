@@ -77,27 +77,21 @@ Type: <b>LPWSTR</b>
 
 The buffer that is to receive the text.
 				
-				If the
-				string is as long or longer than the buffer, the string is truncated and
-				terminated with a null character.
+If the string is as long or longer than the buffer, the string is truncated and terminated with a null character.
 
 ### -param cchMaxCount [in]
 
 Type: <b>int</b>
 
-The maximum number of characters to be copied to the buffer,
-				including the null character. If the text exceeds this limit,
-				it is truncated.
+The maximum number of characters to be copied to the buffer, including the null character. If the text exceeds this limit, it is truncated.
 
 ## -returns
 
 Type: <b>int</b>
 
-If the function succeeds, the return value is the length, in characters,
-				of the copied string, not including the terminating null character.
-				If the window has no title bar or text, if the title bar is empty, or if the window
-				or control handle is invalid, the return value is zero. To get extended error
-				information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the length, in characters, of the copied string, not including the terminating null character.
+
+If the window has no title bar or text, if the title bar is empty, or if the window or control handle is invalid, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 

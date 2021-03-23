@@ -81,7 +81,7 @@ Type: <b>LPCTSTR</b>
 
 The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
-					For more information, see the Remarks section below.
+For more information, see the Remarks section below.
 
 If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
 

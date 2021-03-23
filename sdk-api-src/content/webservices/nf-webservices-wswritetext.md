@@ -51,9 +51,8 @@ api_name:
 ## -description
 
 Writes the specified text to the XML writer.
-      
-        To write characters to an attribute value call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a>. Only whitespace characters may be written at the root of an xml document unless the
-        <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
+
+To write characters to an attribute value call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a>. Only whitespace characters may be written at the root of an xml document unless the <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
 
 ## -parameters
 
