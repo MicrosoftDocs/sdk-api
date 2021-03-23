@@ -45,9 +45,6 @@ api_name:
  - DXGI_SWAP_CHAIN_FLAG
 ---
 
-# DXGI_SWAP_CHAIN_FLAG enumeration
-
-
 ## -description
 
 Options for swap-chain behavior.
@@ -97,6 +94,8 @@ If you use this flag with windowed (<a href="/windows/desktop/WinProg/windows-da
 ### -field DXGI_SWAP_CHAIN_FLAG_FRAME_LATENCY_WAITABLE_OBJECT
 
 Set this flag to create a waitable object you can use to ensure rendering does not begin while a frame is still being presented. When this flag is used, the swapchain's latency must be set with the <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setmaximumframelatency">IDXGISwapChain2::SetMaximumFrameLatency</a> API instead of <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-setmaximumframelatency">IDXGIDevice1::SetMaximumFrameLatency</a>.
+
+This flag isn't supported in full-screen mode, unless the render API is Direct3D 12.
 
 <b>Note</b>  This enumeration value is supported starting with Windows 8.1.
 
