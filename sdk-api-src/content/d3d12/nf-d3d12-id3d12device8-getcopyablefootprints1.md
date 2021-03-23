@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_placed_subresource_footprint.md) and [D3D12_SUBRESOURCE_FOOTPRINT](./ns-d3d12-d3d12_subresource_footprint.md) when suballocating space in upload heaps.
+Gets a resource layout that can be copied. Helps your app fill in [D3D12_PLACED_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint) and [D3D12_SUBRESOURCE_FOOTPRINT](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_footprint) when suballocating space in upload heaps.
 
 ## -parameters
 

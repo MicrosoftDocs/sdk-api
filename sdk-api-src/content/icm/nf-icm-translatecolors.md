@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Translates an array of colors from the source [color space](/windows/win32/wcs/c) to the destination color space as defined by a color transform.
+Translates an array of colors from the source [color space](/windows/win32/wcs/c#color-space) to the destination color space as defined by a color transform.
 
 ## -parameters
 

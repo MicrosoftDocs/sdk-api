@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Translates an application-supplied RGBQuad into the device [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)).
+Translates an application-supplied RGBQuad into the device [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 

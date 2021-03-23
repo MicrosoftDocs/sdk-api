@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/color-spaces).
+Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 

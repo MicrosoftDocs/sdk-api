@@ -43,7 +43,7 @@ dev_langs:
 
 \[**CMTranslateRGBs** is no longer available for use as of Windows Vista.\]
 
-Translates a bitmap from one [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)) to another using a color transform.
+Translates a bitmap from one [color space](/windows/win32/wcs/c#color-space) to another using a color transform.
 
 ## -parameters
 

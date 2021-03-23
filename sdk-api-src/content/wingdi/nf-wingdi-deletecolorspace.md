@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DeleteColorSpace</b> function removes and destroys a specified [color space](/windows/win32/wcs/c).
+The <b>DeleteColorSpace</b> function removes and destroys a specified [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 

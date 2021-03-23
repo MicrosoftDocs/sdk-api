@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+Used to free the resources associated with a [DNS_SERVICE_INSTANCE](/windows/win32/api/windns/ns-windns-dns_service_instance) structure.
 
 ## -parameters
 

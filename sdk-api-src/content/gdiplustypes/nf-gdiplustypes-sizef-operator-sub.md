@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Subtraction operator for the [**SizeF**](./nl-gdiplustypes-sizef.md) class. Subtracts the argument from the current instance of **SizeF**.
+Subtraction operator for the [**SizeF**](/windows/win32/api/gdiplustypes/nl-gdiplustypes-sizef) class. Subtracts the argument from the current instance of **SizeF**.
 
 ## -parameters
 

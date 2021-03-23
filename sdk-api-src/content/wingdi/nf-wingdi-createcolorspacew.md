@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CreateColorSpace</b> function creates a logical [color space](/windows/win32/wcs/c).
+The <b>CreateColorSpace</b> function creates a logical [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 

@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-Registers a specified profile for a given standard [color space](/windows/win32/wcs/c). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew).
+Registers a specified profile for a given standard [color space](/windows/win32/wcs/c#color-space). The profile can be queried using [GetStandardColorSpaceProfileW](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew).
 
 ## -parameters
 

@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md) operation.
+Used to stop a running [DnsStartMulticastQuery](/windows/win32/api/windns/nf-windns-dnsstartmulticastquery) operation.
 
 ## -parameters
 

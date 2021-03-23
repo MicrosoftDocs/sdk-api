@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the query parameters used in a call to [DnsServiceBrowse](nf-windns-dnsservicebrowse.md).
+Contains the query parameters used in a call to [DnsServiceBrowse](/windows/win32/api/windns/nf-windns-dnsservicebrowse).
 
 ## -struct-fields
 
