@@ -53,11 +53,7 @@ api_name:
  - GetComputerNameEx
  - GetComputerNameExA
  - GetComputerNameExW
-ms.custom: project-verbatim
 ---
-
-# GetComputerNameExW function
-
 
 ## -description
 
@@ -308,5 +304,4 @@ void _tmain(void)
 
 
 
-<a href="/windows/desktop/SysInfo/system-information-functions">System
-		  Information Functions</a>
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

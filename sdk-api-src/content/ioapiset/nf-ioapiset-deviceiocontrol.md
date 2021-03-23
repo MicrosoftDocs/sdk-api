@@ -48,7 +48,6 @@ api_location:
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
 api_name:
  - DeviceIoControl
-ms.custom: project-verbatim
 ---
 
 ## -description
@@ -212,31 +211,20 @@ For lists of supported control codes, see the following topics:
 
 #### Examples
 
-For an example that uses <b>DeviceIoControl</b>, see 
-     <a href="/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
-
-<div class="code"></div>
+For an example that uses <b>DeviceIoControl</b>, see <a href="/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
 
 ## -see-also
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
-
-
 <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
 
 <a href="/windows/desktop/DevIO/device-input-and-output-control-ioctl-">Device Input and Output Control (IOCTL)</a>
 
-
-
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
-
-
 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
-
-
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+
+[Assign drive letter sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io/dledit)

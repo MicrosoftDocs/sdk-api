@@ -44,7 +44,6 @@ api_location:
  - D3D11.dll
 api_name:
  - ID3D11DeviceContext.UpdateSubresource
-ms.custom: project-verbatim
 ---
 
 ## -description
@@ -244,6 +243,6 @@ HRESULT UpdateSubresource_Workaround(
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
-
-
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
+
+[Basic hologram sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/BasicHologram)

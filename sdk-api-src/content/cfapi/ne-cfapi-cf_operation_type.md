@@ -43,7 +43,6 @@ api_location:
  - CfApi.h
 api_name:
  - CF_OPERATION_TYPE
-ms.custom: project-verbatim
 ---
 
 ## -description
@@ -86,3 +85,6 @@ Acknowledge and delete a placeholder.
 
 Acknowledge and rename a placeholder.
 
+## -see-also
+
+[Cloud Mirror sample](/windows/win32/cfapi/build-a-cloud-file-sync-engine#cloud-mirror-sample)

@@ -45,14 +45,13 @@ api_name:
  - InetNtop
  - InetNtopA or inet_ntop
  - InetNtopW
-ms.custom: project-verbatim
 ---
 
 ## -description
 
 See the [inet_xtoy sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/netds/winsock/inet_xtoy).
 
-The <b>InetNtop</b> function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is   <b>inet_ntop</b>.
+The <b>InetNtop</b> function converts an IPv4 or IPv6 Internet network address into a string in Internet standard format. The ANSI version of this function is <b>inet_ntop</b>.
 
 ## -parameters
 
@@ -235,3 +234,5 @@ On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2s
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+
+[inet_xtoy sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/netds/winsock/inet_xtoy)

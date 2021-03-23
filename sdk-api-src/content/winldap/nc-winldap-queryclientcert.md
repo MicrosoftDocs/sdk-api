@@ -43,7 +43,6 @@ api_location:
  - Winldap.h
 api_name:
  - QUERYCLIENTCERT
-ms.custom: project-verbatim
 ---
 
 ## -description
@@ -81,10 +80,8 @@ When the server demands a client certificate for authorization it will call <b>Q
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
-
-
 <a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
+
+[Desktop Win32 code samples](/windows/win32/desktop-win32-code-samples)

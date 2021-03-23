@@ -43,7 +43,6 @@ api_location:
  - DXGIDebug.dll
 api_name:
  - IDXGIDebug.ReportLiveObjects
-ms.custom: project-verbatim
 ---
 
 ## -description
@@ -74,3 +73,5 @@ Returns S_OK if successful; an error code otherwise. For a list of error codes, 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>
+
+[Memory management sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/TechniqueDemos/D3D12MemoryManagement)
