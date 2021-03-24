@@ -170,7 +170,11 @@ This flag is unsupported. Use the <a href="/windows/desktop/api/winuser/nf-winus
 
 Type: <b>HKL</b>
 
-If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the input locale identifier corresponding to the name specified in <i>pwszKLID</i>. If no matching locale is available, the return value is the default language of the system.
+
+If the function fails, the return value is NULL. A possible cause is the layout's library being loaded from the application's directory.
+
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
