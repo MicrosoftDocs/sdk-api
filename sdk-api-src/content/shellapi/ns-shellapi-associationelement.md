@@ -100,7 +100,7 @@ The <b>pszClass</b> member names a key found a `HKEY_CLASSES_ROOT\SystemFileAsso
                             
 #### ASSOCCLASS_APP_STR
 
-he APPID storing the application information is found at `HKEY_CLASSES_ROOT\Applications\FileName`  where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
+The APPID storing the application information is found at `HKEY_CLASSES_ROOT\Applications\FileName`  where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
 
 
 #### ASSOCCLASS_FOLDER
