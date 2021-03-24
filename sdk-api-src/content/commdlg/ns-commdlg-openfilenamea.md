@@ -87,7 +87,7 @@ Type: <b>LPCTSTR</b>
 
 A buffer containing pairs of null-terminated filter strings. The last string in the buffer must be terminated by two <b>NULL</b> characters. 
 
-The first string in each pair is a display string that describes the filter (for example, "Text Files"), and the second string specifies the filter pattern (for example, "*.TXT"). To specify multiple filter patterns for a single display string, use a semicolon to separate the patterns (for example, "*.TXT;*.DOC;*.BAK"). A pattern string can be a combination of valid file name characters and the asterisk (*) wildcard character. Do not include spaces in the pattern string.
+The first string in each pair is a display string that describes the filter (for example, "Text Files"), and the second string specifies the filter pattern (for example, <code>"*.TXT"</code>). To specify multiple filter patterns for a single display string, use a semicolon to separate the patterns (for example, <code>"*.TXT;*.DOC;*.BAK"</code>). A pattern string can be a combination of valid file name characters and the asterisk (\*) wildcard character. Do not include spaces in the pattern string.
 
 The system does not change the order of the filters. It displays them in the <b>File Types</b> combo box in the order specified in <b>lpstrFilter</b>.
 
