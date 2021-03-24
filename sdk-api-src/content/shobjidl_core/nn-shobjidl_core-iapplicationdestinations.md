@@ -71,7 +71,7 @@ An application calls the methods of this interface when it wants to remove items
 
 An application should call <b>IApplicationDestinations</b> methods in the following situations:
                 
-                    <ul>
+<ul>
 <li>When the application is uninstalled.</li>
 <li>When the user clears history.</li>
 <li>When the user disables destination tracking in the application's Settings or Options pages.</li>

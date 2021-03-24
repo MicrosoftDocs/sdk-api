@@ -82,7 +82,7 @@ Multiple <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values
 
 You can suppress the display of the <b>Customize</b> page of your known folder's Properties window. To do so, set the following registry REG_DWORD value:
 
-                <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
