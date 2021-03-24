@@ -63,8 +63,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationVariableIntegerCh
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariableintegerchangehandler-onintegervaluechanged">OnIntegerValueChanged</a> receives animation variable value updates as <b>INT32</b> values.
       
-         To receive value updates as <b>DOUBLE</b> values, use
-         the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablechangehandler-onvaluechanged">IUIAnimationVariableChangeHandler::OnValueChanged</a> method.
+ To receive value updates as <b>DOUBLE</b> values, use the <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablechangehandler-onvaluechanged">IUIAnimationVariableChangeHandler::OnValueChanged</a> method.
 
 ## -see-also
 

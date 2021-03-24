@@ -89,7 +89,9 @@ The following code example is a simple implementation of an object sink. This sa
 </tr>
 <tr>
 <td>
-<pre>#include &lt;iostream&gt;
+
+```
+#include &lt;iostream&gt;
 #include &lt;wbemidl.h&gt;
 #pragma comment(lib, "wbemuuid.lib")
 
@@ -172,7 +174,8 @@ HRESULT QuerySink::SetStatus(
 {
     printf("QuerySink::SetStatus hResult = 0x%X\n", hResult);
     return WBEM_S_NO_ERROR;
-}</pre>
+}
+```
 </td>
 </tr>
 </table></span></div>

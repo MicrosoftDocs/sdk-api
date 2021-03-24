@@ -52,7 +52,7 @@ api_name:
 
 Native interoperation interface that provides a counterpart to <a href="https://msdn.microsoft.com/c88277a4-6697-4341-9b8b-dffa470fd37e">IGraphicsEffect</a> and allows for metadata queries. 
 
-        This interface is available in C++ only.
+This interface is available in C++ only.
 
 ## -inheritance
 

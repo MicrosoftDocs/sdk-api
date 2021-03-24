@@ -56,7 +56,7 @@ You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinit
 
 In addition, each of these methods must be called before calling <b>ComputeApplicationSize</b>, or the call will fail.
 
-                <ul>
+<ul>
 <li>
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>
 </li>

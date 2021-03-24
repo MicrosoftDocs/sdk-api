@@ -1480,7 +1480,7 @@ Sets the time, in milliseconds, that the mouse pointer has to stay in the hover 
 
 The time specified should be between <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is less than <b>USER_TIMER_MINIMUM</b>, the function will use <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is greater than <b>USER_TIMER_MAXIMUM</b>, the function will be <b>USER_TIMER_MAXIMUM</b>.               
 
-                                    <b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
+<b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
 
 
 

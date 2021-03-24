@@ -92,7 +92,7 @@ The number of properties in the <i>channelProperties</i> array.
 
 On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the new service proxy.
                 
-                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
 
 ### -param error [in, optional]
 

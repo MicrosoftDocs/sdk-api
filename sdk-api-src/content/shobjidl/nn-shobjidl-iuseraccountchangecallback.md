@@ -63,7 +63,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserAccountChangeCallback</b
 
 Applications that want to notify users through this interface can add their class identifier (CLSID) strings as values under this key: 
 
-                <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>
