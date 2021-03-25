@@ -233,7 +233,7 @@ Adds AVX crash state context registers.
 
 ### -field MiniDumpWithIptTrace
 
-Adds Ipt Trace related data. 
+Adds Intel Processor Trace related data. 
 
 <b>Prior to DbgHelp 6.1:  </b>This value is not supported.
 
