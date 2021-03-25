@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.operator-mult~r2
-title: operator*
+title: operator*~r2
 description: Multiply a floating point value by an instance of XMVECTOR, returning the result a new instance of XMVECTOR.
 tech.root: dxmath
 helpviewer_keywords: ["operator*"]
