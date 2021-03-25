@@ -239,7 +239,7 @@ Adds Intel Processor Trace related data.
 
 ### -field MiniDumpScanInaccessiblePartialPages
 
-Adds Inaccessible Partial memory pages.
+Scans inaccessible partial memory pages.
 
 <b>Prior to DbgHelp 6.1:  </b>This value is not supported.
 
