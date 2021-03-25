@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetPrivateProfileStringA
  - winbase/GetPrivateProfileStringA
@@ -154,7 +154,31 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+## Example
 
+The following example demonstrates the use of **GetPrivateProfileString**.
+
+```cpp
+// Gets a profile string called "Preferred line" and converts it to an int.
+GetPrivateProfileString (
+      "Preference",
+      "Preferred Line",
+      gszNULL, 
+      szBuffer,
+      MAXBUFSIZE,
+      gszINIfilename
+);
+
+// if szBuffer is not empty.
+if ( lstrcmp ( gszNULL, szBuffer ) )
+{
+      dwPreferredPLID = (DWORD) atoi( szBuffer );	
+}
+else	
+{
+      dwPreferredPLID = (DWORD) -1;
+}
+```
 
 > [!NOTE]
 > The winbase.h header defines GetPrivateProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

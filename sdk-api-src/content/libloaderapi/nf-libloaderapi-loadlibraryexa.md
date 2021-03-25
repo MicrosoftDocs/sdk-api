@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - LoadLibraryExA
  - libloaderapi/LoadLibraryExA
@@ -626,7 +626,19 @@ For a general discussion of DLL security issues, see
 
 #### Examples
 
-For an example, see 
+The following code example demonstrates a call to **LoadLibraryExA**.
+
+```cpp
+//Load the FMAPI DLL
+hLib = ::LoadLibraryEx(L"fmapi.dll", NULL, NULL);    
+if ( !hLib )
+{
+      wprintf(L"Could not load fmapi.dll, Error #%d.\n", GetLastError());
+      return;
+}
+```
+
+For an additional example, see 
      <a href="/windows/desktop/NetMgmt/looking-up-text-for-error-code-numbers">Looking Up Text for Error Code Numbers</a>.
 
 <div class="code"></div>
