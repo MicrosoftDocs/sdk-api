@@ -32,7 +32,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - bcrypt.h
 api_name:
