@@ -34,8 +34,6 @@ dev_langs:
  - c++
 topic_type:
  - apiref
-api_type:
- - 
 api_location:
  - appmodel.h
 api_name:
