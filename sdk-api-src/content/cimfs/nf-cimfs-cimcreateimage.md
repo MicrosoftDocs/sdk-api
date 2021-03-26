@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimCreateImage
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

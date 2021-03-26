@@ -7,7 +7,7 @@ description: Frees memory allocated for tag information referenced by HDIAGNOSTI
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

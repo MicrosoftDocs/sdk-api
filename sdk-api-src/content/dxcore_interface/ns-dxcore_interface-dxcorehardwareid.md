@@ -9,7 +9,7 @@ ms.date: 06/06/2019
 ms.keywords: DXCoreHardwareID structure, dxcore_interface.dxcorehardwareid
 ms.localizationpriority: low
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

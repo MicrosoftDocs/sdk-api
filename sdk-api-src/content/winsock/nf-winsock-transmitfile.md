@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-product: Windows
+ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

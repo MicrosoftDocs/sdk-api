@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

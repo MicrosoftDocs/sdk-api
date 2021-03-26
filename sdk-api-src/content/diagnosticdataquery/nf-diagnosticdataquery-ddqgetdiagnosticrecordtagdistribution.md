@@ -7,7 +7,7 @@ description: Fetches Diagnostic Data Events per privacy tag event distribution s
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

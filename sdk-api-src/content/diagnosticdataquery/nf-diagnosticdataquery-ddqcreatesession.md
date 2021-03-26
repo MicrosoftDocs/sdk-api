@@ -7,7 +7,7 @@ description: Creates a Diagnostic Data Query API session handle to be used to un
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

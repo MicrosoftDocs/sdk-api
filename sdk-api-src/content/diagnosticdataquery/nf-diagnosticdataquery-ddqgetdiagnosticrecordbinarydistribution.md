@@ -7,7 +7,7 @@ description: Fetches binary name and associated estimated total upload of Diagno
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
