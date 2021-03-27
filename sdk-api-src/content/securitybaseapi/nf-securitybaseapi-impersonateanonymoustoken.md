@@ -62,7 +62,8 @@ The <b>ImpersonateAnonymousToken</b> function enables the specified thread to im
 
 ### -param ThreadHandle [in]
 
-A handle to the thread to impersonate the system's anonymous logon token.
+A handle to the thread to impersonate the system's anonymous logon token. The thread handle must have the THREAD_IMPERSONATE access right in order for the thread to impersonate the system's anonymous logon token.
+To grant such access, the thread must be open by calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> with desired access right to THREAD_IMPERSONATE.
 
 ## -returns
 
@@ -71,7 +72,7 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-An error of ACCESS_DENIED may indicate that the token is for a restricted process. Use OpenProcessToken and IsTokenRestricted to check if the process is restricted.
+An error of ACCESS_DENIED may indicate that the token is for a restricted process. Use OpenProcessToken and IsTokenRestricted to check if the process is restricted. ACCESS_DENIED is also returned if the thread handle lacks right access to THREAD_IMPERSONATE.
 
 ## -remarks
 
@@ -87,6 +88,10 @@ To cancel the impersonation call
 
 
 <a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+
+
+
+<a href="/windows/desktop/procthread/thread-security-and-access-rights">Thread Security and Access Rights</a>
 
 
 
