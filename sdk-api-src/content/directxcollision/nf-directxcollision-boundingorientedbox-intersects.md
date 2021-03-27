@@ -34,7 +34,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxcollision.h
 api_name:
