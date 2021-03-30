@@ -31,7 +31,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - traceloggingprovider.h
 api_name:
