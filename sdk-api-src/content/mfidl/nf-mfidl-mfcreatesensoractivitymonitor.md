@@ -41,6 +41,7 @@ api_type:
  - DllExport
 api_location:
  - mfsensorgroup.lib
+ - mfplat.dll
 api_name:
  - MFCreateSensorActivityMonitor
 ---
