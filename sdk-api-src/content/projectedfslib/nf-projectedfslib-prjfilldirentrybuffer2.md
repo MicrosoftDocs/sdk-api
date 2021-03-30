@@ -28,7 +28,6 @@ ms.custom: 20H1
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - projectedfslib.h
 api_name:
