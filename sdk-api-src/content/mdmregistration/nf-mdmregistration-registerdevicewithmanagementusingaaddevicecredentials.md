@@ -45,6 +45,8 @@ dev_langs:
 
 Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
 
+## -parameters
+
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. If the function fails, the returned value describes the error. Possible 

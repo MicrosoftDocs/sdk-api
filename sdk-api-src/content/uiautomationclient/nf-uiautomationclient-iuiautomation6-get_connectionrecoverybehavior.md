@@ -56,6 +56,8 @@ Indicates whether an accessible technology client adjusts provider request timeo
 
 This property is read/write.
 
+## -parameters
+
 ## -remarks
 
 > ### Parameters

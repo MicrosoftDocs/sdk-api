@@ -43,6 +43,8 @@ dev_langs:
 
 Gets the [D3D12_VIDEO_EXTENSION_COMMAND_DESC](ns-d3d12video-d3d12_video_extension_command_desc.md) provided when the interface was created.
 
+## -parameters
+
 ## -returns
 
 The [D3D12_VIDEO_EXTENSION_COMMAND_DESC](ns-d3d12video-d3d12_video_extension_command_desc.md) provided when the interface was created.

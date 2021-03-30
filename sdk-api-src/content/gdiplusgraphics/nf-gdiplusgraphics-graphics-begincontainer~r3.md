@@ -45,6 +45,8 @@ api_name:
 
 The <b>Graphics::BeginContainer</b> method begins a new graphics container.
 
+## -parameters
+
 ## -returns
 
 Type: <b>GraphicsContainer</b>

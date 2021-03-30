@@ -48,6 +48,8 @@ api_name:
 
 Retrieves the number of axes specified by the reference.
 
+## -parameters
+
 ## -returns
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**

@@ -44,6 +44,8 @@ api_name:
 
 Determines whether changes to this system have resulted in this DXCore adapter list object becoming out of date. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
 
+## -parameters
+
 ## -returns
 
 Type: **bool**

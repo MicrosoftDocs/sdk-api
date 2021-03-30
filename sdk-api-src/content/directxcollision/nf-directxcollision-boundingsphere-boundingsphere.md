@@ -48,6 +48,8 @@ api_name:
 
 Creates an instance of the **BoundingSphere** class.
 
+## -parameters
+
 ## -returns
 
 ## -remarks

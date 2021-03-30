@@ -43,6 +43,8 @@ dev_langs:
 
 Resets the state of a direct command list back to the state it was in when the command list was created.
 
+## -parameters
+
 ## -remarks
 
 ## -see-also

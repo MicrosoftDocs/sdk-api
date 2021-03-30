@@ -48,6 +48,8 @@ api_name:
 
 Retrieves the number of axes supported by the font resource. This includes both static and variable axes (see [DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)).
 
+## -parameters
+
 ## -returns
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**

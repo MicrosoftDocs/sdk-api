@@ -43,6 +43,8 @@ dev_langs:
 
 Queries for property flags on the capture device.
 
+## -parameters
+
 ## -returns
 
 A ULONGLONG mapping to property flags. Supported properties and flags are defined in the header file defined in ksmedia.h as constants with the naming convention **KSCAMERA_EXTENDEDPROP_**. For more information, see [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol).

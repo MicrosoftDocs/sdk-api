@@ -50,6 +50,8 @@ api_name:
 Returns the object implementing the current instance of **XMVECTORF32** cast to a <a href="/cpp/cpp/m128i">__m128i</a>i instance of.
 [Windows systems supporting SSE Only]
 
+## -parameters
+
 ## -remarks
 
 Returns the underlying implementation object for an instance of **XMVECTORF32** cast to a **__m128i** instance.

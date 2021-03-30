@@ -50,6 +50,8 @@ api_name:
 
 IDirect3DDxgiInterfaceAccess is a COM interface, which must be implemented by anything that implements [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) or [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface). **ID3D12GraphicsCommandList5** inherits from the [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown).
 
+## -struct-fields
+
 ## -see-also
 
 [Core interfaces](/windows/desktop/direct3d12/direct3d-12-interfaces)

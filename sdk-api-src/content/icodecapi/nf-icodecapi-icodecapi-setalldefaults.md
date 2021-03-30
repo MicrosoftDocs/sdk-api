@@ -44,6 +44,8 @@ dev_langs:
 
 The <b>SetAllDefaults</b> method resets all codec properties to their default values.
 
+## -parameters
+
 ## -returns
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
