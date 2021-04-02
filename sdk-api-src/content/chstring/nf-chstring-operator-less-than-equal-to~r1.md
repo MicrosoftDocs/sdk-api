@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.operator-less-than-equal-to~r1
-title: operator<=~r1
+title: operator<= (less than equal to)
 description: 
 tech.root: wmi
 helpviewer_keywords: ["operator<="]

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.operator-div-assign~r1
-title: operator/=~r1
+title: operator/= (divide)
 description: Divides an XMVECTOR instance by a floating point value and returns a reference to the updated instance.
 tech.root: dxmath
 helpviewer_keywords: ["operator/="]
