@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.operator-greater-than~r1
-title: operator>
+title: operator> (greater than)
 description: 
 tech.root: wmi
 helpviewer_keywords: ["operator>"]

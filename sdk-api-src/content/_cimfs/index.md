@@ -1,10 +1,11 @@
 ---
 UID: TP:cimfs
+title: CimFS
 ms.author: windowssdkdev
 ms.date: 09/09/2019
 ms.keywords: 
 ms.prod: windows
-ms.technology: windows-sdk
+ms.technology: windows
 ms.topic: portal
 ---
 

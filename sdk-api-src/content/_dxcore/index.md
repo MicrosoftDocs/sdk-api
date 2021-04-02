@@ -1,10 +1,11 @@
 ---
 UID: TP:dxcore
+title: DXCore
 ms.author: windowssdkdev
 ms.date: 06/12/2019
 ms.keywords: 
 ms.prod: windows
-ms.technology: windows-sdk
+ms.technology: windows
 ms.topic: portal
 ---
 

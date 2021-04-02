@@ -1,10 +1,11 @@
 ---
 UID: NA:dxcore
+title: dxcore.h header
 ms.author: windowssdkdev
 ms.date: 06/12/2019
 ms.keywords: 
 ms.prod: windows
-ms.technology: windows-sdk
+ms.technology: windows
 ms.topic: portal
 tech.root: dxcore
 ---
