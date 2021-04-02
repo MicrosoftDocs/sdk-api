@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: _CIMFS_FILE_METADATA, CIMFS_FILE_METADATA
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

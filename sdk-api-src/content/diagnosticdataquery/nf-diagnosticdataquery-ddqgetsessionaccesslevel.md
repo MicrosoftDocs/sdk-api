@@ -7,7 +7,7 @@ description: Returns the data access level of the current Diagnostic Data Query 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

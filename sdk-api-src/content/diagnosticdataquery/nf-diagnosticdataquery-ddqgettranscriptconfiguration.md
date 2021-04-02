@@ -7,7 +7,7 @@ description: Gets event transcript configuration, such as maximum storage size a
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ description: Fetches the sampled-in state of the device for an event.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

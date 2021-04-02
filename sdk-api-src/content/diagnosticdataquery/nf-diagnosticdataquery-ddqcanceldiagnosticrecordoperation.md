@@ -7,7 +7,7 @@ description: Cancels all outstanding Diagnostic Data Query API internal query op
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_SEARCH_CRITERIA, DIAGNOSTIC_DATA_SEARCH_CRITERIA
 description: This resource contains details of the search criteria when fetching a diagnostic data record.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

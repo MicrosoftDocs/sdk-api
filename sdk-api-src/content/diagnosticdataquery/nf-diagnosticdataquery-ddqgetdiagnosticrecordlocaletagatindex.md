@@ -7,7 +7,7 @@ description: Fetches tag description at the specified index in the resource poin
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

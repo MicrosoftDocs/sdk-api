@@ -7,7 +7,7 @@ description: Frees memory allocated for error reports referenced by HDIAGNOSTIC_
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

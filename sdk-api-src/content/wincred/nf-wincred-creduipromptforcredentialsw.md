@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-product: Windows
+ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

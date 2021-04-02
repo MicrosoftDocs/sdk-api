@@ -7,7 +7,7 @@ description: Fetches a page (batch) of filtered records. The filtering on record
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

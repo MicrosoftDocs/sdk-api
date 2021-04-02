@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_REPORT_PARAMETER, DIAGNOSTIC_REPORT_PARAMETER
 description: Resource that describes the parameters for an error report.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-product: Windows
+ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

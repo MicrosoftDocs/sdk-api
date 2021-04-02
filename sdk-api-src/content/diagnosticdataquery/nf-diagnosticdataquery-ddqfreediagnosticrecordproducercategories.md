@@ -7,7 +7,7 @@ description: Frees memory allocated for set of categories and the text represent
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
