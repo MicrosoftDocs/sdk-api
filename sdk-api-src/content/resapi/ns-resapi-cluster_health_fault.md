@@ -43,7 +43,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_HEALTH_FAULT
 ---
