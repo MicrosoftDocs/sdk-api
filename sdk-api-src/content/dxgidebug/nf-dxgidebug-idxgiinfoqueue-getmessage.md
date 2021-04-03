@@ -68,7 +68,7 @@ A pointer to a <a href="/windows/desktop/api/dxgidebug/ns-dxgidebug-dxgi_info_qu
 
 ### -param pMessageByteLength [in, out]
 
-A pointer to a variable that receives the size, in bytes, of the message description  that <i>pMessage</i> points to. This size includes the size of the message string that <i>pMessage</i> points to.
+A pointer to a variable that receives the size, in bytes, of the message description that <i>pMessage</i> points to.
 
 ## -returns
 
