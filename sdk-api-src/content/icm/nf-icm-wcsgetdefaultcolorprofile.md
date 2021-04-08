@@ -42,7 +42,8 @@ dev_langs:
 
 Retrieves the default color profile for a device, or for a device-independent default if the device is not specified.
 
-> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayDefault**](nf-icm-colorprofilegetdisplaydefault.md) for managing advanced color profiles.
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayDefault**](nf-icm-colorprofilegetdisplaydefault.md) for managing advanced color profiles.
 
 ## -parameters
 

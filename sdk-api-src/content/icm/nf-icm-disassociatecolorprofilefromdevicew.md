@@ -45,7 +45,8 @@ dev_langs:
 
 Disassociates a specified color profile with a specified device on a specified computer.
 
-> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileRemoveDisplayAssociation**](nf-icm-colorprofileremovedisplayassociation.md) for managing advanced color profiles.
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileRemoveDisplayAssociation**](nf-icm-colorprofileremovedisplayassociation.md) for managing advanced color profiles.
 
 ## -parameters
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **GdiplusStartupInput** structure holds a block of arguments that are required by the [GdiplusStartup](windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) function.
+The **GdiplusStartupInput** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function.
 
 ## -struct-fields
 
@@ -79,6 +79,6 @@ If you set the **SuppressBackgroundThread** member to **TRUE** in the *input* pa
 ## -see-also
 
 * [GdiplusShutdown]((windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown)
-* [GdiplusStartup](windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup)
+* [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md)
 * [GdiplusStartupOutput]((windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput)
 * [Getting started](/windows/win32/gdiplus/-gdiplus-getting-started-use)

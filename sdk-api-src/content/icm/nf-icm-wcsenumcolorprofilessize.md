@@ -42,7 +42,8 @@ dev_langs:
 
 Returns the size, in bytes, of the buffer that is required by the [**WcsEnumColorProfiles**](/windows/win32/api/icm/nf-icm-wcsenumcolorprofiles) function to enumerate color profiles.
 
-> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayList**](nf-icm-colorprofilegetdisplaylist.md) for managing advanced color profiles.
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileGetDisplayList**](nf-icm-colorprofilegetdisplaylist.md) for managing advanced color profiles.
 
 ## -parameters
 
