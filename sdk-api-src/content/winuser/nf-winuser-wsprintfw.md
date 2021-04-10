@@ -61,7 +61,7 @@ Writes formatted data to the specified buffer. Any arguments are converted and c
 
 Type: <b>LPTSTR</b>
 
-The buffer that is to receive the formatted output. The maximum size of the buffer is 1,024 bytes.
+The buffer that is to receive the formatted output. The maximum number of characters that will be written is 1,024 (2,048 bytes).
 
 ### -param unnamedParam2 [in]
 
@@ -253,7 +253,7 @@ Unsigned hexadecimal integer in lowercase or uppercase.
 
 <div class="alert"><b>Note</b>  It is important to note that <b>wsprintf</b> uses the C calling convention (<b>_cdecl</b>), rather than the standard call (<b>_stdcall</b>) calling convention. As a result, it is the responsibility of the calling process to pop arguments off the stack, and arguments are pushed on the stack from right to left. In C-language modules, the C compiler performs this task.</div>
 <div> </div>
-To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more information, see the documentation for the C run-time library. 
+To use buffers larger than 1024 characters, use <b>_snwprintf</b>. For more information, see the documentation for the C run-time library. 
 
 
 
