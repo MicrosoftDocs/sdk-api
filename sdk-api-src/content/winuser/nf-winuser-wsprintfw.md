@@ -253,7 +253,8 @@ Unsigned hexadecimal integer in lowercase or uppercase.
 
 <div class="alert"><b>Note</b>  It is important to note that <b>wsprintf</b> uses the C calling convention (<b>_cdecl</b>), rather than the standard call (<b>_stdcall</b>) calling convention. As a result, it is the responsibility of the calling process to pop arguments off the stack, and arguments are pushed on the stack from right to left. In C-language modules, the C compiler performs this task.</div>
 <div> </div>
-To use buffers larger than 1024 characters, use <b>_snwprintf</b>. For more information, see the documentation for the C run-time library. 
+
+If the resulting string would be longer than 1024 characters, then only first 1024 characters are written to the buffer, and the resulting string is not zero-terminated. To use buffers larger than 1024 characters, use <b>_snwprintf</b>. For more information, see the documentation for the C run-time library. 
 
 
 
