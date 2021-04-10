@@ -67,5 +67,5 @@ This function does not revert to the system-wide scope if you do not set the per
 ## -see-also
 
 * [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Searches a directory for a file or subdirectory with a name and attributes that match those specified. The behavior of this function is identical to [**FindFirstFileEx**](../fileapi/nf-fileapi-findfirstfileexw), except that this function adheres to the Universal Windows Platform app security model.
+Searches a directory for a file or subdirectory with a name and attributes that match those specified. The behavior of this function is identical to [**FindFirstFileEx**](../fileapi/nf-fileapi-findfirstfileexw.md), except that this function adheres to the Universal Windows Platform app security model.
 
 
 ## -parameters
