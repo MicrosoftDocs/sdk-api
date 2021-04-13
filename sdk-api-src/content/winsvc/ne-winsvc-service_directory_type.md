@@ -6,7 +6,7 @@ tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_DIRECTORY_TYPE
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winsvc.h

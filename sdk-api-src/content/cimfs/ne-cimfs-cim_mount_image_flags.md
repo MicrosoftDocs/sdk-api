@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: cimfs.h

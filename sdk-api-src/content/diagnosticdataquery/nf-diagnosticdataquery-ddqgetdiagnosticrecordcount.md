@@ -7,7 +7,7 @@ description: Fetches number (size) of elements in the resource pointed to by the
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
