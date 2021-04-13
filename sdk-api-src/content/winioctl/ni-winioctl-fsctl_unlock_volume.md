@@ -54,48 +54,18 @@ Unlocks a volume.
 
 To perform this operation, call the 
 <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to a volume
-  FSCTL_UNLOCK_VOLUME,         // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
+  FSCTL_UNLOCK_VOLUME,         // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
-
-## -ioctlparameters
-
-### -input-buffer
-
-<text></text>
-
-### -input-buffer-length
-
-<text></text>
-
-### -output-buffer
-
-<text></text>
-
-### -output-buffer-length
-
-<text></text>
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
-
-### -status-block
+);
+```
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
