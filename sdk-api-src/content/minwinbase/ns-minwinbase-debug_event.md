@@ -286,6 +286,8 @@ If the <b>dwDebugEventCode</b> is <b>RIP_EVENT</b> (9),
 If the <a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function succeeds, it 
     fills in the members of a <b>DEBUG_EVENT</b> structure.
 
+`CREATE_THREAD_DEBUG_EVENT` is not called on the creation of the main thread. Use `CREATE_PROCESS_DEBUG_EVENT` to keep track of the main thread.
+
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a>
