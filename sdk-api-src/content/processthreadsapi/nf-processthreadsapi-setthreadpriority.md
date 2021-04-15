@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: Kernel32.dll; KernelBase.dll on Windows Phone 8.1
 req.irql: 
-ms.prod: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
