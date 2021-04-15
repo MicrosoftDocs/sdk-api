@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-ms.prod: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

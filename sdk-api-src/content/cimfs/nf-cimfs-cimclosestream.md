@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimCloseStream
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

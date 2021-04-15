@@ -81,7 +81,7 @@ The vendor-specific subtype of the keyboard. See [Remarks](#remarks).
 
 Type: <b>DWORD</b>
 
-The scan code mode. Usually 1, which means that *Scan Code Set 1* is used. See [Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc).
+The scan code mode. Usually 1, which means that *Scan Code Set 1* is used. See [Keyboard Scan Code Specification](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc).
 
 ### -field dwNumberOfFunctionKeys
 

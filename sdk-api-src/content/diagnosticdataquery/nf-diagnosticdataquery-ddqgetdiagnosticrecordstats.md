@@ -7,7 +7,7 @@ description: Fetches the filtered event transcript Diagnostic Data record stats.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -7,7 +7,7 @@ description: Fetches the description of a producer at the specified index in the
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

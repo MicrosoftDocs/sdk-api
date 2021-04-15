@@ -60,7 +60,7 @@ No open file flags.
 
 ### -field CF_OPEN_FILE_FLAG_EXCLUSIVE
 
-When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
+When specified, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a> returns a share-none handle and requests an RH (OPLOCK_LEVEL_CACHE_READ\|OPLOCK_LEVEL_CACHE_HANDLE) oplock on the file.
 
 ### -field CF_OPEN_FILE_FLAG_WRITE_ACCESS
 

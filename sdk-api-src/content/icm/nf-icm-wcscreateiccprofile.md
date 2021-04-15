@@ -56,7 +56,7 @@ By default, the original WCS profiles used for the conversion are embedded in th
 
 The possible values of this parameter are as follows. Any bits not defined in this list are reserved and should be set to zero:
 
-|              |                                                                                                            |
+| Value        | Description                                                                                                |
 |--------------|------------------------------------------------------------------------------------------------------------|
 | WCS\_DEFAULT | Specifies that the new ICC profile contains the original WCS profile in a private WcsProfilesTag.          |
 | WCS\_ICCONLY | Specifies that the new ICC profile does not contain either the WcsProfilesTag or the original WCS profile. |

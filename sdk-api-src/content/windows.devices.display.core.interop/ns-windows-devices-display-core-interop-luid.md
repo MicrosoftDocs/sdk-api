@@ -6,7 +6,7 @@ helpviewer_keywords: ["interop::__LUID"]
 ms.date: 02/10/2020
 tech.root: winrt
 targetos: Windows
-ms.prod: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

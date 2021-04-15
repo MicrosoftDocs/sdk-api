@@ -63,7 +63,7 @@ A pointer to a profile structure that specifies a WCS gamut map model profile (G
 
 A flag value that specifies how to access the specified color profile. This parameter must take one of the following values:
 
-| | |
+| Value | Description |
 |-|-|
 | PROFILE\_READ | Specifies that the color profile opens for read-only access. |
 | PROFILE\_READWRITE | Specifies that the color profile opens for both read and write access. The value of this flag is ignored if the profile is a WCS profile. |
@@ -72,7 +72,7 @@ A flag value that specifies how to access the specified color profile. This para
 
 A flag value that specifies actions to take while opening a color profile contained in a file. This parameter must take one of the following values, which are defined in *winnt.h*:
 
-| | |
+| Value | Description |
 |-|-|
 | FILE\_SHARE\_READ | Specifies that you can perform other open (for read access) operations on the profile. |
 | FILE\_SHARE\_WRITE | Specifies that you can perform other open (for write access) operations on the profile. This flag value is ignored when a WCS profile is opened. |
@@ -81,7 +81,7 @@ A flag value that specifies actions to take while opening a color profile contai
 
 A flag value that specifies the actions to take while opening a color profile if it is contained in a file. This parameter must take one of the following values, which are defined in *winbase.h*:
 
-| | |
+| Value | Description |
 |-|-|
 | CREATE\_NEW | Specifies that a new profile is created. This function fails if the profile already exists. |
 | CREATE\_ALWAYS | Specifies that a new profile is created. If a profile already exists, it is overwritten. |
@@ -95,7 +95,7 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
 
 This parameter takes one of the following values:
 
-| | |
+| Value | Description |
 |-|-|
 | 0 | Specifies that the embedded WCS profile will be used and the ICC profile specfied by pCDMPProfile will be ignored. |
 | DONT\_USE\_EMBEDDED\_WCS\_PROFILES | Specifies that the ICC profile specified by pCDMPProfile will be used and the embedded WCS profile will be ignored. |
