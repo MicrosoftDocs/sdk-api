@@ -49,6 +49,7 @@ Returns an ordered list of the entry identifiers of containers to be included in
 ### -param ulFlags
 
 Value of type **ULONG** that specifies the bitmask of flags that control the type of the strings returned in the search path. The following flag is valid for the Windows Address Book (WAB):
+
 | Flag | Description |
 |------|-------------|
 | MAPI_UNICODE | Specifies that returned strings are formatted in Unicode. If this flag is not set, the strings will be in ANSI format. |
