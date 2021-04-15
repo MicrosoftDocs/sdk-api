@@ -60,7 +60,7 @@ Specifies the application extension metadata properties for a Graphics Interchan
 
 ### -field WICGifApplicationExtensionData
 
-[VT_UI1 | VT_VECTOR] Indicates data that is exposed by the application.
+[VT_UI1 \| VT_VECTOR] Indicates data that is exposed by the application.
 
 ### -field WICGifApplicationExtensionProperties_FORCE_DWORD
 

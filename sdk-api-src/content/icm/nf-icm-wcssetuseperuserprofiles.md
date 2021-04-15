@@ -52,7 +52,7 @@ A pointer to a string that contains the user-friendly name of the device.
 
 A flag value that specifies the class of the device. This parameter must take one of the following values:
 
-|                |                                    |
+|  Value         |   Description                      |
 |----------------|------------------------------------|
 | CLASS\_MONITOR | Specifies a display device.        |
 | CLASS\_PRINTER | Specifies a printer.               |

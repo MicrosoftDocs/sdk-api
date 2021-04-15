@@ -66,7 +66,7 @@ Four element floating point array containing the color values used to initialize
 
 Array elements are mapped to the vector components of a new instance of **XMCOLOR** as follows:
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | a | pArray[0] | 0.0, 1.0 | During instantiation, pArray[0] is clamped between 0 and 1, multiplied by 255.0f and assigned to a (alpha channel). |
 | r | pArray[1] | 0.0, 1.0 | During instantiation, pArray[1] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to r (red channel). |

@@ -143,10 +143,10 @@ The CompletionRoutine is a placeholder for an application-supplied function name
 
 In as much as the <i>dwIoControlCode</i> parameter is now a 32-bit entity, it is possible to adopt an encoding scheme that provides a convenient way to partition the opcode identifier space. The <i>dwIoControlCode</i> parameter is constructed to allow for protocol and vendor independence when adding new control codes, while retaining backward compatibility with Windows Sockets 1.1 and UNIX control codes. The <i>dwIoControlCode</i> parameter has the following form.
 
-|||||||
-|----|----|----|-----|-----------------------|---------------------------------|
+
 | bit 31 | bit 30 | bit 29 | bits 28 and 27 | bits 26 thru 16 | bits 15 thru 0 |
-| **I** | **O** | **V** | **T** | **Vendor/Address family** | **Code** |
+|----|----|----|-----|-----------------------|---------------------------------|
+| I | O | V | T | Vendor/Address family | Code |
 
 **I** is set if the input buffer is valid for the code, as with **IOC_IN**.
 

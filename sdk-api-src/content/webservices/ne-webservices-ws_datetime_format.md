@@ -61,7 +61,7 @@ This format displays a time in the GMT timezone.  It is formatted with a "Z" fol
 
 ### -field WS_DATETIME_FORMAT_LOCAL
 
-This format displays a time with a specific timezone.  The time is followed by "[+|-]hh:mm" indicating the
+This format displays a time with a specific timezone.  The time is followed by "[+\|-]hh:mm" indicating the
           relative difference between the local time and UTC in hours and minutes.
           For example, September 27, 2007 at 10:30AM in the Pacific timezone would be represented as
           "2007-09-27T10:30:00-07:00".
