@@ -78,5 +78,5 @@ This enumeration is with the [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus.md) st
 
 ## -see-also
 
-* [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus)
+* [MFMediaKeyStatus](ns-mfidl-mfmediakeystatus.md)
 * [IMFContentDecryptionModuleSession::GetKeyStatuses](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession-getkeystatuses.md)
