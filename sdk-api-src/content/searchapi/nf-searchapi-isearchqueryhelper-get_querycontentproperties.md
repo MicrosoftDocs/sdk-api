@@ -90,4 +90,4 @@ Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code
 
 
 
-<a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
+<a href="/windows/desktop/properties/core-bumper">System Properties</a>
