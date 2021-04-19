@@ -72,11 +72,11 @@ The x position of the right hand side of the box, plus 1. This means that <code>
 
 ### -field bottom
 
-The y position of the bottom of the box, plus 1. This means that <code>top - bottom</code> equals the height of the box.
+The y position of the bottom of the box, plus 1. This means that <code>bottom - top</code> equals the height of the box.
 
 ### -field back
 
-The z position of the back of the box, plus 1. This means that <code>front - back</code> equals the depth of the box.
+The z position of the back of the box, plus 1. This means that <code>back - front</code> equals the depth of the box.
 
 ## -remarks
 
