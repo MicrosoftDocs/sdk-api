@@ -1578,7 +1578,7 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 </dl>
 </td>
 <td width="60%">
-<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable, casted by PVOID.
+<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must be a <b>BOOL</b> variable, casted by PVOID.
 
 </td>
 </tr>
