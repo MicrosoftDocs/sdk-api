@@ -84,9 +84,20 @@ The order of the normalization (either 1 or 2).
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-*InputTensor* and *OutputTensor* must have the same *DataType* and *Sizes*.
+
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+
+### DML_FEATURE_LEVEL_3_1 and above
+
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_1_0 and above
+
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 | FLOAT32, FLOAT16 |

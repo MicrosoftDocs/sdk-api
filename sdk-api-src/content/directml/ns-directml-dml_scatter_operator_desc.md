@@ -175,4 +175,3 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
-

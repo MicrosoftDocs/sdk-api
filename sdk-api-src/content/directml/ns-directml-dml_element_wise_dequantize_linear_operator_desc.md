@@ -113,4 +113,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32 |
 
 ## -see-also
+
 [DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc)

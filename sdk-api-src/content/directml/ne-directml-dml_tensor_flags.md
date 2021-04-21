@@ -66,4 +66,3 @@ When this flag is set on a particular tensor description, the corresponding tens
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-

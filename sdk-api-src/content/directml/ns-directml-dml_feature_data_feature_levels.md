@@ -61,6 +61,9 @@ For example, DirectML version `1.4.0` supports a feature level of `DML_FEATURE_L
 This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
+
 [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
+
 [DML_FEATURE enumeration](/windows/win32/direct3d12/ne-directml-dml_feature)
+
 [DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/direct3d12/ns-directml-dml_feature_query_feature_levels)

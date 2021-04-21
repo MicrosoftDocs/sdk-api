@@ -101,5 +101,4 @@ Indicates a reduction function that computes the sum square of the input tensor'
 
 ## -see-also
 
-[DML_REDUCE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reduce_operator_desc)
-
+* [DML_REDUCE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reduce_operator_desc)
