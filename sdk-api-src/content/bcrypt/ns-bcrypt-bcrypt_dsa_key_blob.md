@@ -109,7 +109,7 @@ The 160-bit prime factor, in big-endian format.
 
 ## -remarks
 
-The structure applies to DSA keys that equal or exceed 512 bits in length but are less  than or equal to 1024 bits.
+The structure applies to DSA keys that equal or exceed 512 bits in length but are less than or equal to 1024 bits.
 
 This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Modulus, Generator, and Public numbers are in big-endian format.
 
@@ -133,6 +133,4 @@ PrivateExponent[20]   // Big-endian.
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptexportkey">BCryptExportKey</a>
 
-
-
-<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkeypair">BCryptImportKeyPair</a>
