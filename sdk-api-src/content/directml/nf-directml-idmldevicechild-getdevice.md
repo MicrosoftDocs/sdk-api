@@ -75,4 +75,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)
-

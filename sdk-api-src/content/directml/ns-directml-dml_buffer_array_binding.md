@@ -65,4 +65,3 @@ The individual buffer ranges to bind.
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
-

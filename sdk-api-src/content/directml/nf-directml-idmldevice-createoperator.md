@@ -86,7 +86,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
 
-
-
 <a href="https://msdn.microsoft.com/745DB37D-20BF-4422-B224-A6BDEF272B8D">IDMLDevice::CompileOperator</a>
-

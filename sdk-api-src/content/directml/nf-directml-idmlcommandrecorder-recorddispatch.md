@@ -113,6 +113,4 @@ A pointer to an [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlb
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
-
-
 [IDMLCommandRecorder](/windows/win32/api/directml/nn-directml-idmlcommandrecorder)
