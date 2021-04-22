@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -78,7 +77,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 
 **Windows Vista**: Three new flags have been added that can be used with *dwFlags*:
 
-| | |
+| Flag | Description |
 |-|-|
 | **PRESERVEBLACK** | If this bit is set, the transform engine inserts the appropriate black generation GMMP as the last GMMP in the transform sequence. This flag only works in a pure WCS transform. |
 | **SEQUENTIAL\_TRANSFORM** | If this bit is set, each step in the WCS processing pipeline is performed for every pixel in the image and no optimized color transform is built. This flag only works in a pure WCS transform.**Restrictions**: A transform created with the SEQUENTIAL\_TRANSFORM flag set may only be used in the thread on which it was created and only for one color translation call at a time. COM must be initialized prior to creating the sequential transform and must remain initialized for the lifetime of the transform object.<br/> |
@@ -87,7 +86,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 > [!Note] 
 > **SEQUENTIAL\_TRANSFORM** was inadvertently omitted from the icm.h header in the Windows Vista SDK. If you wish to use the **SEQUENTIAL\_TRANSFORM** flag, define it in your application as follows:\#define SEQUENTIAL\_TRANSFORM 0x80800000
 
-For details, see [CMM Transform Creation Flags](cmm-transform-creation-flags.md). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE, which only works in a pure ICC-to-ICC transform.
+For details, see [CMM Transform Creation Flags](/windows/win32/wcs/cmm-transform-creation-flags). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE, which only works in a pure ICC-to-ICC transform.
 
 The **CreateColorTransform** function is used outside of a device context. Colors may shift when transforming from a color profile to the same color profile. This is due to precision errors. Therefore, a color transform should not be performed under these circumstances.
 
@@ -103,5 +102,5 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
-* [Functions](/windows/win32/wcs/functions)
+- [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+- [Functions](/windows/win32/wcs/functions)

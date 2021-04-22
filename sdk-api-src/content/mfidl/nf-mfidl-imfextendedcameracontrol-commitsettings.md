@@ -43,6 +43,8 @@ dev_langs:
 
 Commits the configured control settings to the camera driver.
 
+## -parameters
+
 ## -returns
 
 Returns S_OK on success.

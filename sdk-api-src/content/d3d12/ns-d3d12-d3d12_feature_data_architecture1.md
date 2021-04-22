@@ -123,7 +123,7 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.
             Zero-copy UMA optimizations such those offered by 
-            <a href="windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a> are more generally encouraged as more scenarios will just benefit from shared usage.
+            <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a> are more generally encouraged as more scenarios will just benefit from shared usage.
             The memory model is very conducive to more scenarios and wider adoption.
             Some corner cases may still exist where benefits are not easily obtained, but they should be much rarer and less detrimental than other options.
             For advanced developers: <b>CacheCoherentUMA</b> means that a significant amount of the caches in the memory hierarchy are also unified or integrated between the CPU and GPU.

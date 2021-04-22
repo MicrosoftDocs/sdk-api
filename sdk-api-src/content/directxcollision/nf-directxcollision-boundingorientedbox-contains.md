@@ -4,7 +4,7 @@ title: BoundingOrientedBox::Contains
 description: Tests whether the BoundingOrientedBox contains a specified point.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingOrientedBox::Contains"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingOrientedBox::Contains
 targetos: Windows
 req.assembly: 
@@ -34,7 +34,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxcollision.h
 api_name:

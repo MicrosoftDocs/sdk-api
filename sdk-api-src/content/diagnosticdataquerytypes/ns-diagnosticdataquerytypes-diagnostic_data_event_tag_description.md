@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_TAG
 description: A resource that describes a tag, defined by the tag's name and its description.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -61,7 +61,7 @@ The official description for this tag.
 
 ## -remarks
 
-For more details, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+For more details, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

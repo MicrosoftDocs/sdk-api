@@ -101,9 +101,7 @@ This option may  not work with large log files if the function cannot determine 
 <td width="60%">
 Read the records sequentially. 
 
-
-
-							If this is the first read operation, the EVENTLOG_FORWARDS_READ EVENTLOG_BACKWARDS_READ flags determines which record is read first.
+If this is the first read operation, the EVENTLOG_FORWARDS_READ EVENTLOG_BACKWARDS_READ flags determines which record is read first.
 
 </td>
 </tr>
@@ -128,7 +126,7 @@ The log is read in chronological order (oldest to newest).
 
 
 
-							The default.
+The default.
 
 </td>
 </tr>

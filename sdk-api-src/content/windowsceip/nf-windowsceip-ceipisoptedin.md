@@ -64,6 +64,4 @@ True if SQM data collection is opted in and the machine can send data. Otherwise
 
 <a href="/windows/desktop/DevNotes/ceipenable">CEIPEnable</a>
 
-
-
-<a href="http://download.microsoft.com/download/2/C/9/2C9C7B01-A1FC-47B6-9166-2151FB6E007C/Windows and Windows Server compatibility cookbook.docx">Windows and Windows Server Compatibility Cookbook</a>
+<a href="/windows/compatibility">Windows and Windows Server Compatibility Cookbook</a>

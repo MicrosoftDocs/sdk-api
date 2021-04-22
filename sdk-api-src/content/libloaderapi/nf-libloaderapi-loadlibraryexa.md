@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - LoadLibraryExA
  - libloaderapi/LoadLibraryExA
@@ -148,7 +148,7 @@ If this value is used, the system does not check
           "TrustedInstaller"; otherwise the system ignores this flag. For more information, see 
           "You can circumvent AppLocker rules by using an Office macro on a computer that is running Windows 7 or Windows Server 2008 R2" 
           in the Help and Support Knowledge Base at 
-          <a href="Http://support.microsoft.com/kb/2532445">http://support.microsoft.com/kb/2532445</a>.
+          <a href="https://support.microsoft.com/kb/2532445">https://support.microsoft.com/kb/2532445</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker was introduced in Windows 7 and Windows Server 2008 R2.
 
@@ -626,7 +626,19 @@ For a general discussion of DLL security issues, see
 
 #### Examples
 
-For an example, see 
+The following code example demonstrates a call to **LoadLibraryExA**.
+
+```cpp
+//Load the FMAPI DLL
+hLib = ::LoadLibraryEx(L"fmapi.dll", NULL, NULL);    
+if ( !hLib )
+{
+      wprintf(L"Could not load fmapi.dll, Error #%d.\n", GetLastError());
+      return;
+}
+```
+
+For an additional example, see 
      <a href="/windows/desktop/NetMgmt/looking-up-text-for-error-code-numbers">Looking Up Text for Error Code Numbers</a>.
 
 <div class="code"></div>

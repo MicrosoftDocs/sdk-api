@@ -56,7 +56,10 @@ api_name:
 
 ## -description
 
-Defines a page in a property sheet.
+Defines a page in a property sheet. 
+
+> [!NOTE]
+> This structure is not intended to be used directly in your code. Instead, use the [PROPSHEETPAGE](/windows/win32/controls/pss-propsheetpage) structure.
 
 ## -struct-fields
 

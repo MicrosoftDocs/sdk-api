@@ -59,7 +59,7 @@ The
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to a buffer that receives, on output, an array of 
 <a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures, one for each RAS connection. 
@@ -70,7 +70,7 @@ Pointer to a buffer that receives, on output, an array of
 On input, an application must set the <b>dwSize</b> member of the first 
 <a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasconn</i>. 
 
@@ -85,7 +85,7 @@ On output, the function sets this variable to the number of bytes required to en
 </div>
 <div> </div>
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to a variable that receives the number of 
 <a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.

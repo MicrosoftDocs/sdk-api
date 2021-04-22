@@ -52,7 +52,7 @@ api_name:
 
 Moves the current position of the reader as specified by the <i>moveTo</i> parameter.
       
-        This function can only be used on a reader that is set to an XmlBuffer.
+This function can only be used on a reader that is set to an XmlBuffer.
 
 ## -parameters
 

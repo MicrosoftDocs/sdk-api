@@ -45,11 +45,11 @@ dev_langs:
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to a [**COLORMATCHSETUPW**](/windows/win32/api/icm/ns-icm-colormatchsetupw) structure that contains WCS configuration data.
 
-### -param Arg2
+### -param unnamedParam2
 
 Contains a value supplied by the application.
 
@@ -73,7 +73,7 @@ The callback function is completely optional. If it is not supplied, the **Apply
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [SetupColorMatchingW](/windows/win32/api/icm/nf-icm-setupcolormatchingw)
 * [COLORMATCHSETUPW](/windows/win32/api/icm/ns-icm-colormatchsetupw)

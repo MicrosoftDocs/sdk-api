@@ -54,7 +54,7 @@ Sets the z-order of an overlay.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 One of the following flags that determines the z-order of the overlay:
 
@@ -94,7 +94,7 @@ Moves this overlay to the back of the overlay chain.
 
 Moves this overlay to the front of the overlay chain.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDraw surface to be used as a relative position in the overlay chain. This parameter is needed only for the DDOVERZ_INSERTINBACKOF and DDOVERZ_INSERTINFRONTOF flags.
 

@@ -54,7 +54,7 @@ Retrieves the color key value for this surface.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags to specify the color key to retrieve:
 
@@ -82,7 +82,7 @@ A color key or color space to be used as a source color key for bitblt operation
 
 A color key or color space to be used as a source color key for overlay operations.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that receives the current values for the specified color key of the DirectDrawSurface object.
 

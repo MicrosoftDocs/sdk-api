@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the information for a synchronization provider configuration. This structure is passed to the <a href="ISyncProviderRegistration::CreateSyncProviderRegistrationInstance">ISyncProviderRegistration::CreateSyncProviderRegistrationInstance</a> method when a registration instance is created.
+Represents the information for a synchronization provider configuration. This structure is passed to the [ISyncProviderRegistration::CreateSyncProviderRegistrationInstance](./nf-syncregistration-isyncproviderregistration-createsyncproviderregistrationinstance.md) method when a registration instance is created.
 
 ## -struct-fields
 

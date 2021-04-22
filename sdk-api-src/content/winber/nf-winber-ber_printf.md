@@ -63,7 +63,7 @@ A pointer to the encoded <a href="/previous-versions/windows/desktop/api/winldap
 
 An encoding format string. For more information, see Remarks.
 
-### -param arg3 [in]
+### -param ...
 
 The values to be encoded as specified by the <i>fmt</i> argument.
 
@@ -156,3 +156,4 @@ Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>
 
 
 <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+

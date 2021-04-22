@@ -58,19 +58,19 @@ The <b>wglUseFontBitmaps</b> function creates <i>count</i> display lists, one fo
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the device context whose currently selected font will be used to form the glyph bitmap display lists in the current OpenGL rendering context.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the first glyph in the run of glyphs that will be used to form glyph bitmap display lists.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies the number of glyphs in the run of glyphs that will be used to form glyph bitmap display lists. The function creates <i>count</i> display lists, one for each glyph in the run.
 
-### -param arg4
+### -param unnamedParam4
 
 Specifies a starting display list.
 

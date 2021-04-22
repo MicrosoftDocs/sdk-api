@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_SEARCH_CRITERIA, DIAGNOSTIC_DATA_SEARCH_CRITERIA
 description: This resource contains details of the search criteria when fetching a diagnostic data record.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -86,7 +86,7 @@ Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
 
 ## -remarks
 
-For more details on how core data is defined, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+For more details on how core data is defined, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

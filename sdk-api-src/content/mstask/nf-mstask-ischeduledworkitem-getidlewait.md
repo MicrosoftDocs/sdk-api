@@ -54,7 +54,7 @@ api_name:
 
 Retrieves the <a href="/windows/desktop/TaskSchd/i">idle wait time</a> for the work item. 
 			
-		For information about idle conditions, see <a href="/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
+For information about idle conditions, see <a href="/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
 
 ## -parameters
 

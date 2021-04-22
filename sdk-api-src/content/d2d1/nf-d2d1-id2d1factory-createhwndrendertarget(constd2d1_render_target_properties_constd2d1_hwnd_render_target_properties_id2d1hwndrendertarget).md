@@ -69,6 +69,8 @@ Type: [out] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">I
 
 When this method returns, contains the address of the pointer to the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> object created by this method.
 
+## -parameters
+
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>

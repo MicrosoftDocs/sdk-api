@@ -107,7 +107,7 @@ INTENT\_RELATIVE\_COLORIMETRIC
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ### -field dwProofingIntent
 
@@ -121,7 +121,7 @@ INTENT\_RELATIVE\_COLORIMETRIC
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ### -field pMonitorProfile
 
@@ -169,6 +169,6 @@ Contains a value that will be passed to the function **ApplyCallbackFunction** t
 
 ## -see-also
 
-* [A common dialog for color management](what-s-new-in-version-1-0-of-wcs.md)
+* [A common dialog for color management](/windows/win32/wcs/what-s-new-in-version-1-0-of-wcs)
 * [DialogProc](https://msdn.microsoft.com/windows/desktop/37c1b0b2-cf81-45d9-9a4e-9e5f7fa58dfd)
 * [EndDialog](https://msdn.microsoft.com/windows/desktop/925e8aa8-9d8d-4bec-a19e-ba24e78b2d10)

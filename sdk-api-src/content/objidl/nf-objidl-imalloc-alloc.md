@@ -66,7 +66,7 @@ Applications should always check the return value from this method, even when re
 
 ## -remarks
 
-The initial contents of the returned memory block are undefinedâ€”there is no guarantee that the block has been initialized, so you should initialize it in your code. The allocated block may be larger than <i>cb</i> bytes because of the space required for alignment and for maintenance information.
+The initial contents of the returned memory block are undefined and there is no guarantee that the block has been initialized, so you should initialize it in your code. The allocated block may be larger than <i>cb</i> bytes because of the space required for alignment and for maintenance information.
 
 If <i>cb</i> is zero, <b>Alloc</b> allocates a zero-length item and returns a valid pointer to that item. If there is insufficient memory available, <b>Alloc</b> returns <b>NULL</b>.
 

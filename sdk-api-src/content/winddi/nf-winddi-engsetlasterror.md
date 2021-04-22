@@ -54,7 +54,7 @@ The <b>EngSetLastError</b> function causes GDI to report an error code, which ca
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the 32-bit error code to set.
 

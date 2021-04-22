@@ -56,7 +56,7 @@ The <b>DrvQueryGlyphAttrs</b> function returns information about a font's glyphs
 
 ### -param 
 
-### -param Arg1
+### -param unnamedParam1
 
 #### - iMode [in]
 

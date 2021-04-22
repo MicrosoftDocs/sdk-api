@@ -4,7 +4,7 @@ title: GetPackagePathByFullName2
 description: Gets the path of the specified package.
 helpviewer_keywords: ["GetPackagePathByFullName2"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: GetPackagePathByFullName2
 req.assembly: 
 req.construct-type: function
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - appmodel.h
 api_name:

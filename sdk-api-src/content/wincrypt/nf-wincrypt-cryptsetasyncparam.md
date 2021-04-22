@@ -31,7 +31,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - wincrypt.h
 api_name:

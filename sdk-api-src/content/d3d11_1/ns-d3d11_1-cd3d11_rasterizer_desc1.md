@@ -49,6 +49,8 @@ api_name:
 
 <div class="alert"><b>Note</b>  This structure is supported by the Direct3D 11.1 runtime, which is available on Windows 8 and later operating systems.</div><div> </div>Describes rasterizer state.
 
+## -struct-fields
+
 ## -remarks
 
 AntialiasedLineEnable

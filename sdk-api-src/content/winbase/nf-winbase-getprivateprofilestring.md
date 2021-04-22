@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - GetPrivateProfileString
  - winbase/GetPrivateProfileString
@@ -152,6 +152,32 @@ When looking at values in the registry that specify other registry locations, th
 <li>USR: - this prefix stands for <b>HKEY_CURRENT_USER</b>, and the text after the prefix is relative to that key.</li>
 <li>SYS: - this prefix stands for <b>HKEY_LOCAL_MACHINE\SOFTWARE</b>, and the text after the prefix is relative to that key.</li>
 </ul>
+
+## Example
+
+The following example demonstrates the use of **GetPrivateProfileString**.
+
+```cpp
+// Gets a profile string called "Preferred line" and converts it to an int.
+GetPrivateProfileString (
+      "Preference",
+      "Preferred Line",
+      gszNULL, 
+      szBuffer,
+      MAXBUFSIZE,
+      gszINIfilename
+);
+
+// if szBuffer is not empty.
+if ( lstrcmp ( gszNULL, szBuffer ) )
+{
+      dwPreferredPLID = (DWORD) atoi( szBuffer );	
+}
+else	
+{
+      dwPreferredPLID = (DWORD) -1;
+}
+```
 
 ## -see-also
 

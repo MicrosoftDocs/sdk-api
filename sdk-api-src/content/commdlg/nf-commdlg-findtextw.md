@@ -57,7 +57,7 @@ Creates a system-defined modeless <b>Find</b> dialog box that lets the user spec
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>LPFINDREPLACE</b>
 

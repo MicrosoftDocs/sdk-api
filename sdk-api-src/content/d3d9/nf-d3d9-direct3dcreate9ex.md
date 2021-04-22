@@ -61,7 +61,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The value of this parameter should be <b>D3D_SDK_VERSION</b>. See Remarks.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Type: <b><a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>**</b>
 

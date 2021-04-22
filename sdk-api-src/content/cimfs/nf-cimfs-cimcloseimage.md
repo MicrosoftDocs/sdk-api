@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimCloseImage
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:

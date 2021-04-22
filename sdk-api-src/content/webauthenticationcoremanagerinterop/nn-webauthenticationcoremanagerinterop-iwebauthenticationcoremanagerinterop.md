@@ -44,9 +44,9 @@ that are otherwise available only to UWP apps.
 
 ## -remarks
 
-This interface is implemented by WebAuthenticationCoreManager's [activation factory](../activation/nn-activation-iactivationfactory).
+This interface is implemented by WebAuthenticationCoreManager's [activation factory](../activation/nn-activation-iactivationfactory.md).
 To get an object of this interface, get a reference to the activation factory
-and then call [IUnknown::QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface%28refiid_void%29)
+and then call [IUnknown::QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface%28refiid_void%29.md)
 on it:
 
 ```cppwinrt

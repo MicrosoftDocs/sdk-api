@@ -209,7 +209,8 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
+
 Feature level 3_0 introduced these stand-alone operators that supersede the functionality available with [DML_REDUCE_FUNCTION_ARGMAX](/windows/win32/api/directml/ne-directml-dml_reduce_function) and **DML_REDUCE_FUNCTION_ARGMIN**.
 
-- [DML_ARGMAX_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_argmax_operator_desc)
-- [DML_ARGMIN_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_argmin_operator_desc)
+* [DML_ARGMAX_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_argmax_operator_desc)
+* [DML_ARGMIN_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_argmin_operator_desc)

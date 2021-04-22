@@ -54,7 +54,7 @@ The <i>DdGetScanLine</i> callback function returns the number of the current phy
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getscanlinedata">DD_GETSCANLINEDATA</a> structure in which the driver returns the number of the current scan line.

@@ -113,7 +113,7 @@ Specifies the Windows result code to log.
 
 Specifies the result format. This parameter uses the same format conventions as the C library function <b>printf</b>.
 
-### -param Arg1
+### -param unnamedParam1
 
 ####### - ... [in]
 

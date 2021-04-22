@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the query parameters used in a call to [DnsServiceResolve](nf-windns-dnsserviceresolve.md). Use that function, and this structure, after you've found a specific service name that you'd like to connect to.
+Contains the query parameters used in a call to [DnsServiceResolve](/windows/win32/api/windns/nf-windns-dnsserviceresolve). Use that function, and this structure, after you've found a specific service name that you'd like to connect to.
 
 ## -struct-fields
 

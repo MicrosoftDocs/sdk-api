@@ -460,7 +460,7 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -607,7 +607,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -643,7 +643,7 @@ This flag should not be used if read-behind (that is, reverse scans) will be use
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -657,7 +657,7 @@ For more information, see the <a href="#caching-behavior">Caching Behavior</a> s
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For additional information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>

@@ -54,7 +54,7 @@ Used after a call to <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-s
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 One of the following flags that indicate the status of the mode being tested:
 
@@ -70,7 +70,7 @@ The mode being tested has passed.
 
 The mode being tested has failed.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 A pointer to a variable that receives a value that denotes the seconds that remain before the current mode is failed automatically unless it is explicitly passed or failed.
 

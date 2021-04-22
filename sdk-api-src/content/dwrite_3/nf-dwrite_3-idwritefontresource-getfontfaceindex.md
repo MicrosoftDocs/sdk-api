@@ -48,6 +48,8 @@ api_name:
 
 Retrieves the zero-based index of the font face within its font file. If the font file contains a single face, then the return value is zero.
 
+## -parameters
+
 ## -returns
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**

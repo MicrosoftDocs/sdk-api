@@ -7,7 +7,7 @@ description: Used for retrieving Windows Error Reporting reports, this API extra
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -73,8 +72,8 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
-For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
+For report store types, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoreopen).
+For report keys, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey).
 
 ## -see-also
 

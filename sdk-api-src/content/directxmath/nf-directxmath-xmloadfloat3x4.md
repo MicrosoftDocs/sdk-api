@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Loads an [**XMFLOAT3X4**](./ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+Loads an [**XMFLOAT3X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4) into an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 
 ## -parameters
 

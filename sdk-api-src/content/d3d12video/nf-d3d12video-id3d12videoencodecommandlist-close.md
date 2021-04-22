@@ -43,6 +43,8 @@ dev_langs:
 
 Indicates that recording to the command list has finished.
 
+## -parameters
+
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>

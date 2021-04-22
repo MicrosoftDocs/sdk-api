@@ -54,7 +54,7 @@ The <b>FLOATOBJ_Neg</b> function negates the <a href="/windows/desktop/api/windd
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to the FLOATOBJ to be negated. When the function returns, *<i>pf</i> will contain the negated value.
 

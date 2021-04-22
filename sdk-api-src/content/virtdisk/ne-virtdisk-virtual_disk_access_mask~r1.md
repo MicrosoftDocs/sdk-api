@@ -1,7 +1,7 @@
 ---
 UID: NE:virtdisk._VIRTUAL_DISK_ACCESS_MASK~r1
 title: VIRTUAL_DISK_ACCESS_MASK
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
 targetos: Windows
 req.construct-type: enumeration

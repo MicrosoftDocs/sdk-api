@@ -49,6 +49,8 @@ api_name:
 
 Describes a <a href="/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a> resource.
 
+## -struct-fields
+
 ## -remarks
 
 `byteWidth`

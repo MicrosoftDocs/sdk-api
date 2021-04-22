@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_STATS, DIAGNOSTIC_DATA_EVENT_TAG_STATS
 description: A resource that includes a privacy tag and how many events have this privacy tag.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -56,7 +56,7 @@ The number of events that have this privacy tag.
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data privacy tags.
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data privacy tags.
 
 ## -see-also
 

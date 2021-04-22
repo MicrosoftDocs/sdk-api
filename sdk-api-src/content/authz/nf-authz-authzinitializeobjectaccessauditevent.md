@@ -123,7 +123,7 @@ Pointer that receives an <b>AUTHZ_AUDIT_EVENT_HANDLE</b> structure.
 
 Must be set to zero.
 
-### -param arg9
+### -param ...
 
 Additional parameters.
 
@@ -140,3 +140,4 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 <a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+

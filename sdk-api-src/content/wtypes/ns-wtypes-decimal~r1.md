@@ -1,7 +1,7 @@
 ---
 UID: NS:wtypes.tagDEC~r1
 title: DECIMAL
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagDEC, DECIMAL
 targetos: Windows
 req.construct-type: structure

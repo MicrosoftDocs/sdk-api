@@ -41,7 +41,9 @@ dev_langs:
 
 ## -description
 
-Destructor for the [**PathData**](./nl-gdiplustypes-pathdata.md) class.
+Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-pathdata--pathdata) class.
+
+## -parameters
 
 ## -remarks
 

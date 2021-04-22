@@ -54,13 +54,13 @@ Associates a Help context identifier with the specified window.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 
 A handle to the window with which to associate the Help context identifier.
 
-### -param arg2
+### -param unnamedParam2
 
 Type: <b>DWORD</b>
 

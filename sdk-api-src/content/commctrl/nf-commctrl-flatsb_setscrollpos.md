@@ -54,7 +54,7 @@ Sets the current position of the thumb in a flat scroll bar. If flat scroll bars
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 

@@ -21,6 +21,7 @@ To develop Data Access and Storage, you need these headers:
  * [clfsw32.h](../clfsw32/index.md)
  * [dskquota.h](../dskquota/index.md)
  * [fileapi.h](../fileapi/index.md)
+ * [fileapifromapp.h](../fileapifromapp/index.md)
  * [ktmtypes.h](../ktmtypes/index.md)
  * [ktmw32.h](../ktmw32/index.md)
  * [lmshare.h](../lmshare/index.md)

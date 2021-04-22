@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the information necessary to advertise a service using [DnsServiceRegister](nf-windns-dnsserviceregister.md), or to stop advertising it using [DnsServiceDeRegister](nf-windns-dnsservicederegister.md).
+Contains the information necessary to advertise a service using [DnsServiceRegister](/windows/win32/api/windns/nf-windns-dnsserviceregister), or to stop advertising it using [DnsServiceDeRegister](/windows/win32/api/windns/nf-windns-dnsservicederegister).
 
 ## -struct-fields
 

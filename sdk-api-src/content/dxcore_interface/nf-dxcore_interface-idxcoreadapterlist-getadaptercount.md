@@ -44,6 +44,8 @@ api_name:
 
 Retrieves the number of adapters in a DXCore adapter list object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
 
+## -parameters
+
 ## -returns
 
 Type: **uint32_t**

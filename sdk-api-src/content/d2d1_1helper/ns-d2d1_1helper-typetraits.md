@@ -49,6 +49,8 @@ api_name:
 
 Contains implementations of <b>Point</b>, <b>Size</b>, and <b>Rect</b> that store their data using the specified type.
 
+## -struct-fields
+
 ## -syntax
 
 ```cpp

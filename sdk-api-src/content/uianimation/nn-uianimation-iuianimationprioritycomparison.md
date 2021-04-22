@@ -61,12 +61,11 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationPriorityCompariso
 
 ## -remarks
 
-A single animation variable can be included in multiple storyboards, 
-         but multiple storyboards cannot animate the same variable at the same time.
+A single animation variable can be included in multiple storyboards, but multiple storyboards cannot animate the same variable at the same time.
          
-         If a newly scheduled storyboard attempts to animate one or more variables that are currently scheduled for animation by  different storyboards, a scheduling conflict occurs.
+If a newly scheduled storyboard attempts to animate one or more variables that are currently scheduled for animation by  different storyboards, a scheduling conflict occurs.
          
-         To determine which storyboard has priority, the animation manager can call <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">HasPriority</a> on one or more  priority comparison handlers provided by the application.
+To determine which storyboard has priority, the animation manager can call <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationprioritycomparison-haspriority">HasPriority</a> on one or more  priority comparison handlers provided by the application.
 
 ## -see-also
 

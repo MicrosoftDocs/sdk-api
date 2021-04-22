@@ -49,6 +49,8 @@ api_name:
  - DHCP_ALL_OPTION_VALUES
 ---
 
+# DHCP_ALL_OPTION_VALUES structure
+
 ## -description
 
 The <b>DHCP_ALL_OPTION_VALUES</b> structure defines the set of all option values defined on a DHCP server, organized according to class/vendor pairing.
@@ -77,12 +79,8 @@ Specifies whether or not this set of options is vendor-specific. This value is <
 
 ### -field OptionsArray
 
-<<<<<<< HEAD
-<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
+[DHCP_OPTION_VALUE_ARRAY](/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array) structure that contains the option values for the specified vendor/class pair.
 
 ### -field Options
 
-Pointer to a list of structures that contain the option values for specific class/vendor pairs. The structure is defined as follows.
-=======
-<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
->>>>>>> d630a335cb0... Links: SDK-API - Pass 1
+Pointer to a list of [DHCP_OPTION_VALUE_ARRAY](/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array) structures that contain the option values for specific class/vendor pairs.

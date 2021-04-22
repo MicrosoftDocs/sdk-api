@@ -83,6 +83,9 @@ The calling application must set the <b>dwSize</b> member of
 To access subsequent blocks of the same heap, use the 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32next">Heap32Next</a> function.
 
+Walking the heap with <b>Heap32First</b> and <b>Heap32Next</b> is inefficient, particularly for large heaps.
+Use
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> instead.
 
 #### Examples
 

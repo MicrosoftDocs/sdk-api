@@ -57,7 +57,7 @@ The <b>GetOpenCardName</b> function displays the <a href="/windows/desktop/SecGl
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the 
 <a href="/windows/desktop/api/winscard/ns-winscard-opencardnamea">OPENCARDNAME</a> structure for the "select card" dialog box.

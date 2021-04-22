@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -110,7 +109,7 @@ Use the [**CloseColorProfile**](/windows/win32/api/icm/nf-icm-closecolorprofile)
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [CloseColorProfile](/windows/win32/api/icm/nf-icm-closecolorprofile)
 * [PROFILE](/windows/win32/api/icm/ns-icm-profile)

@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxmath.h
 api_name:
@@ -45,7 +44,7 @@ Move assignment operator for **XMFLOAT3X4A**. Moves the argument's vector compon
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **XMFLOAT3X4A &&**
 

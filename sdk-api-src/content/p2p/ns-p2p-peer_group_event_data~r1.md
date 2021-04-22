@@ -1,7 +1,7 @@
 ---
 UID: NS:p2p.peer_group_event_data_tag~r1
 title: PEER_GROUP_EVENT_DATA
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: peer_group_event_data_tag, PEER_GROUP_EVENT_DATA
 targetos: Windows
 req.construct-type: structure

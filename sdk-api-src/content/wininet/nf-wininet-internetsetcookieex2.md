@@ -7,7 +7,7 @@ tech.root: wininet
 ms.date: 12/03/2020
 ms.keywords: InternetSetCookieEx2
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

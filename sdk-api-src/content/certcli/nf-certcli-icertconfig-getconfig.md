@@ -26,7 +26,6 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 targetos: Windows
-req.typenames: 
 req.redist: 
 ms.custom: 19H1
 f1_keywords:

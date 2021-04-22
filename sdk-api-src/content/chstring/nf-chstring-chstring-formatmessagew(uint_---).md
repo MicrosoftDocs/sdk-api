@@ -58,7 +58,7 @@ The **FormatMessageW** method formats a message string.
 
 The string resource identifier that contains the unformatted message text.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -101,3 +101,4 @@ assert(str == L"4 of 5 developers agree: Golf is Best!");
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
+

@@ -9,7 +9,7 @@ ms.date: 06/10/2019
 ms.keywords: PFN_DXCORE_NOTIFICATION_CALLBACK, dxcore_interface.pfn_dxcore_notification_callback
 ms.localizationpriority: low
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: callback
 req.ddi-compliance: 

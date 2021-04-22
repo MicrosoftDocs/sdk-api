@@ -60,7 +60,7 @@ Specifies the Portable Network Graphics (PNG) iCCP chunk metadata properties.
 
 ### -field WICPngIccpProfileData
 
-[VT_VECTOR | VT_UI1] Indicates the embedded ICC profile.
+[VT_VECTOR \| VT_UI1] Indicates the embedded ICC profile.
 
 ### -field WICPngIccpProperties_FORCE_DWORD
 

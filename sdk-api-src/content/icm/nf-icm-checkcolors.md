@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - icm.h
 api_name:
@@ -81,6 +80,6 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [COLOR structure](/windows/win32/api/icm/ns-icm-color)

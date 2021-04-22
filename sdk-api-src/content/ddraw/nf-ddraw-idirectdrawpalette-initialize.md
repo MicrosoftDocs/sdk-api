@@ -54,15 +54,15 @@ Initializes the DirectDrawPalette object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the DirectDraw object to associate with the DirectDrawPalette object.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Currently not used and must be set to 0.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Currently not used and must be set to NULL.
 

@@ -48,6 +48,8 @@ api_name:
 
 Determines whether this font face's resource supports any variable axes. When `true`, at least one [DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md) in the font resource has a non-empty range (*maxValue* > *minValue*).
 
+## -parameters
+
 ## -returns
 
 Type: **[BOOL](/windows/win32/winprog/windows-data-types)**

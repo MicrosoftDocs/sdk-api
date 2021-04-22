@@ -62,4 +62,3 @@ Specifies the cross-correlation mode. If in doubt, use this mode—it is appropr
 ## -see-also
 
 [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)
-

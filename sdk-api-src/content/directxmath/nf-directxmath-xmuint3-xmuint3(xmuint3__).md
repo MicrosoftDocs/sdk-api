@@ -57,7 +57,7 @@ A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuin
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxpackedvector.h
 api_name:
@@ -55,7 +54,7 @@ This operator assigns the vector component data from one instance of **XMUSHORT2
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of **XMUSHORT2** used to update the current **XMUSHORT2** structure.
 

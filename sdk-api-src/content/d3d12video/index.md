@@ -18,5 +18,4 @@ f1_keywords:
 
 This header is used for media playback. For more information, see:
 
-- [Microsoft Media Foundation](../_mf)
-
+- [Microsoft Media Foundation](/windows/win32/api/_mf/)

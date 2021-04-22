@@ -54,11 +54,11 @@ Duplicates a DirectDrawSurface object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Address of the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the surface to be duplicated.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Address of a variable to contain an <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface pointer for the newly duplicated DirectDrawSurface object.
 

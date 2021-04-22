@@ -54,11 +54,11 @@ The <b>FLOATOBJ_LessThan</b> function determines whether the first <a href="/win
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the first FLOATOBJ.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the second FLOATOBJ.
 

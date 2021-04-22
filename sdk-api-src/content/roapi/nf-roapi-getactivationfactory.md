@@ -64,7 +64,7 @@ The ID of the activatable class.
 
 The activation factory.
 
-### -param arg3
+### -param unnamedParam3
 
 TBD
 

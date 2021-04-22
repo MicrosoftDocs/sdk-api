@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_OPCODE_VALUE_TYPE~r1
 title: WLAN_OPCODE_VALUE_TYPE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_OPCODE_VALUE_TYPE, WLAN_OPCODE_VALUE_TYPE
 targetos: Windows
 req.construct-type: enumeration

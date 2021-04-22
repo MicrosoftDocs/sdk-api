@@ -129,7 +129,7 @@ The trace message indicates a fatal error condition.
 
 Address of a buffer that contains a printf-style format string.
 
-### -param arg4
+### -param ...
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.
@@ -145,3 +145,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 <a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
+

@@ -54,15 +54,15 @@ The <b>IDirectInputJoyConfig8::OpenConfigKey </b>method opens IDirectInputJoyCon
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates a zero-based joystick identification number.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies a registry security access mask. This can be any of the values permitted by the <b>RegOpenKeyEx</b> function. If write access is requested, then joystick configuration must first be acquired. If only read access is requested, then acquisition is not required. At least one access mask must be specified.
 
-### -param arg3
+### -param unnamedParam3
 
 Points to the opened registry key on success.
 

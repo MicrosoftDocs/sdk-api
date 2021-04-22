@@ -58,7 +58,7 @@ api_name:
 
 The handle of the window to check.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 On success, returns a pointer to a   <a href="/windows/desktop/api/dwmapi/ne-dwmapi-dwm_tab_window_requirements">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
 

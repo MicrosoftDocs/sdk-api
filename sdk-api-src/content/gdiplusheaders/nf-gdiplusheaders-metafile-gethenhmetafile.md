@@ -59,24 +59,18 @@ The <b>Metafile::GetHENHMETAFILE</b> method gets a Windows handle to an Enhanced
 
 Type: <b>HENHMETAFILE</b>
 
-This method returns a 
-
-						<b>HENHMETAFILE</b>.
+This method returns a <b>HENHMETAFILE</b>.
 
 ## -remarks
 
-This method sets the 
-
-				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object to an invalid state. The user is responsible for calling DeleteEnhMetafile, to delete the Windows handle.
+This method sets the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object to an invalid state. The user is responsible for calling DeleteEnhMetafile, to delete the Windows handle.
 
 
 #### Examples
 
 
 
-The following example creates a 
-
-						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object from an EMF+ file and gets a Windows handle to the metafile.
+The following example creates a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object from an EMF+ file and gets a Windows handle to the metafile.
 
 
 ```cpp

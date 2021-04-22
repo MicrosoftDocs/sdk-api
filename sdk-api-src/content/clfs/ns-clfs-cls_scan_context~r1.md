@@ -1,7 +1,7 @@
 ---
 UID: NS:clfs._CLS_SCAN_CONTEXT~r1
 title: CLS_SCAN_CONTEXT
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 targetos: Windows
 req.construct-type: structure

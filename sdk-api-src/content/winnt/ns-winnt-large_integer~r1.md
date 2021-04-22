@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._LARGE_INTEGER~r1
 title: LARGE_INTEGER
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
 targetos: Windows
 req.construct-type: structure

@@ -248,7 +248,7 @@ This method can return one of these values.
 
 <b>MessageBox</b> should not be used for that displays errors that occur when the snap-in does not have the focus. Generally, 
 
-    <b>MessageBox</b> should be used only when the error demands user attention and when the result pane contains useful information despite the error.
+<b>MessageBox</b> should be used only when the error demands user attention and when the result pane contains useful information despite the error.
 
 In most cases, the MMC message OCX control is a more appropriate way of that displays error messages. For more information, see 
 <a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.

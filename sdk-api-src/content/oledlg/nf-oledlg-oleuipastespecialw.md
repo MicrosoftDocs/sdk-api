@@ -56,7 +56,7 @@ Invokes the standard <b>Paste Special</b> dialog box, allowing the user to selec
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
 

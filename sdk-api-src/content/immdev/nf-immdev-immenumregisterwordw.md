@@ -53,11 +53,11 @@ Enumerates the register strings having the specified reading string, style, and 
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Input locale identifier.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to the callback function. For more information, see <a href="/windows/desktop/api/imm/nc-imm-registerwordenumproca">EnumRegisterWordProc</a>.
 
@@ -65,7 +65,7 @@ Pointer to the callback function. For more information, see <a href="/windows/de
 
 Pointer to the reading string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all available reading strings that match the <i>dwStyle</i> and <i>lpszRegister</i> settings.
 
-### -param Arg4 [in]
+### -param unnamedParam4 [in]
 
 Style to enumerate. The application specifies 0 if the function is to enumerate all available styles that match the <i>lpszReading</i> and <i>lpszRegister</i> settings.
 
@@ -73,7 +73,7 @@ Style to enumerate. The application specifies 0 if the function is to enumerate 
 
 Pointer to the register string to enumerate. The application sets this parameter to <b>NULL</b> if the function is to enumerate all register strings that match the <i>lpszReading</i> and <i>dwStyle</i> settings.
 
-### -param Arg6 [in]
+### -param unnamedParam6 [in]
 
 Pointer to application-supplied data. The function passes this data to the callback function.
 

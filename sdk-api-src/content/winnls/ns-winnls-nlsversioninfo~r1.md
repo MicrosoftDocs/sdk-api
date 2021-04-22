@@ -1,7 +1,7 @@
 ---
 UID: NS:winnls._nlsversioninfo~r1
 title: NLSVERSIONINFO
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
 targetos: Windows
 req.construct-type: structure

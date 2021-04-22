@@ -48,7 +48,7 @@ api_name:
 
 Represents a virtual adapter.
 
-This interface extends [ID3D12Device4](./nn-d3d12-id3d12device4.md).
+This interface extends [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4).
 
 > [!NOTE]
 > This interface, introduced in Windows 10, version 1809, is the latest version of the [ID3D12Device](./nn-d3d12-id3d12device.md) interface. Applications targeting Windows 10, version 1809 and later should use this interface instead of earlier versions.

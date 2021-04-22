@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_REPORT_DATA, DIAGNOSTIC_REPORT_DATA
 description: This resource contains information about a diagnostic report.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -131,7 +131,7 @@ The report key.
 
 ## -remarks
 
-For general questions about Windows Error Reporting, see the [**WER APIS**]("/windows/win32/api/_wer/").
-For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
+For general questions about Windows Error Reporting, see the [**WER APIS**](/windows/win32/api/_wer/).
+For report keys, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey).
 
 ## -see-also

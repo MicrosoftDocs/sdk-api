@@ -224,7 +224,7 @@ The return value indicates whether the function was able to check for the policy
 
 If the chain can be verified for the specified policy, <b>TRUE</b> is returned and the <b>dwError</b> member of the <i>pPolicyStatus</i> is updated. A <b>dwError</b> of 0 (ERROR_SUCCESS or S_OK) indicates the chain satisfies the specified policy.
 
- If the chain cannot be validated, the return value is  <b>TRUE</b> and you need to verify the <i>pPolicyStatus</i> parameter for the actual error.
+If the chain cannot be validated, the return value is  <b>TRUE</b> and you need to verify the <i>pPolicyStatus</i> parameter for the actual error.
 
 A value of <b>FALSE</b>  indicates that the function wasn't able to check for the policy.
 
@@ -237,7 +237,7 @@ To get the certificate element use this syntax:
 
 <code>pChainContext-&gt;rgpChain[lChainIndex]-&gt;rgpElement[lElementIndex];</code>
 
-      Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function to enable and perform certificate revocation checking.  The <b>CertVerifyCertificateChainPolicy</b> function does not check if certificates in the certificate chain are revoked.
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function to enable and perform certificate revocation checking.  The <b>CertVerifyCertificateChainPolicy</b> function does not check if certificates in the certificate chain are revoked.
 
 ## -see-also
 

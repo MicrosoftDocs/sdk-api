@@ -74,6 +74,9 @@ To retrieve information for the first block of a heap, use the
 
 The <b>Heap32Next</b> function does not maintain a reference to the target process. If the target process dies, the system may create a new process using the same process identifier. Therefore, the caller should maintain a reference to the target process as long as it is using <b>Heap32Next</b>.
 
+Walking the heap with <b>Heap32First</b> and <b>Heap32Next</b> is inefficient, particularly for large heaps.
+Use
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> instead.
 
 #### Examples
 

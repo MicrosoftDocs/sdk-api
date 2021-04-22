@@ -48,6 +48,8 @@ api_name:
 
 Retrieves the font family model used by the font collection to group families.
 
+## -parameters
+
 ## -returns
 
 Type: **[DWRITE_FONT_FAMILY_MODEL](./ne-dwrite_3-dwrite_font_family_model.md)**

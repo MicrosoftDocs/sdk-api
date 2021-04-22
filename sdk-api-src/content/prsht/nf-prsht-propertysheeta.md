@@ -58,7 +58,7 @@ Creates a property sheet and adds the pages defined in the specified property sh
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>LPCPROPSHEETHEADER</b>
 

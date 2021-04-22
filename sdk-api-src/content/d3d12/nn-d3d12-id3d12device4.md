@@ -46,7 +46,7 @@ api_name:
 
 Represents a virtual adapter.
 
-This interface extends [ID3D12Device3](./nn-d3d12-id3d12device3.md).
+This interface extends [ID3D12Device3](/windows/win32/api/d3d12/nn-d3d12-id3d12device3).
 
 ## -see-also
 

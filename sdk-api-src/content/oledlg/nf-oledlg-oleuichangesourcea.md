@@ -56,7 +56,7 @@ Invokes the <b>Change Source</b> dialog box, allowing the user to change the sou
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
 

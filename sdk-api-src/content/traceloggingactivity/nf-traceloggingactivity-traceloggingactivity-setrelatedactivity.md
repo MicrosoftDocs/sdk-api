@@ -58,7 +58,7 @@ Sets the related activity for this <a href="/windows/desktop/api/traceloggingact
 
 The activity to associate with this instance.
 
-### -param arg2
+### -param unnamedParam2
 
 TBD
 

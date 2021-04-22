@@ -54,11 +54,11 @@ The <b>FLOATOBJ_SetFloat</b> function assigns the value of type FLOATL to the <a
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 Pointer to the FLOATOBJ that will receive the value of <i>f</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the FLOATL value. This value is converted to a FLOATOBJ for the assignment.
 

@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -71,6 +70,6 @@ pIcmProfileHeader-&gt;phCMMType = '1scw' (little endian = big endian 'wcs1').
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [PROFILEHEADER](/windows/win32/api/icm/ns-icm-profileheader)

@@ -50,9 +50,7 @@ api_name:
 
 ## -description
 
-Sets the
-
-			type of underlining for the characters in a range.
+Sets thevtype of underlining for the characters in a range.
 
 ## -parameters
 
@@ -60,9 +58,7 @@ Sets the
 
 Type: <b>long</b>
 
-The
-
-			type of underlining. It can be one of the following values.
+The type of underlining. It can be one of the following values.
 
 <a id="tomNone"></a>
 <a id="tomnone"></a>

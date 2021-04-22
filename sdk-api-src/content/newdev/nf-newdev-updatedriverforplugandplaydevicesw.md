@@ -26,7 +26,7 @@ req.type-library:
 req.lib: Newdev.lib
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

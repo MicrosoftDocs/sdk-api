@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>GetLogColorSpace</b> function retrieves the [color space](/windows/win32/wcs/c) definition identified by a specified handle.
+The <b>GetLogColorSpace</b> function retrieves the [color space](/windows/win32/wcs/c#color-space) definition identified by a specified handle.
 
 ## -parameters
 

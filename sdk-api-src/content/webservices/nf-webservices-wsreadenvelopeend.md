@@ -52,7 +52,7 @@ api_name:
 
 Reads the closing elements of a message.
             
-                The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>.
+The operation allows for reading of messages from sources other than Channels.  If the source is a Channel use <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a>.
 
 ## -parameters
 

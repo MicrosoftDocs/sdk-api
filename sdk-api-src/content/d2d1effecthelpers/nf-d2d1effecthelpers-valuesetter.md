@@ -66,7 +66,7 @@ When this method returns, contains a pointer to the data requested.
 
 The number of bytes in the data to be retrieved.
 
-### -param arg4
+### -param unnamedParam4
 
 TBD
 

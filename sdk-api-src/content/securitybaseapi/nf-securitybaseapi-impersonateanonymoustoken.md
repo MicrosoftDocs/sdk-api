@@ -6,7 +6,7 @@ helpviewer_keywords: ["ImpersonateAnonymousToken","ImpersonateAnonymousToken fun
 old-location: security\impersonateanonymoustoken.htm
 tech.root: security
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
-ms.date: 12/05/2018
+ms.date: 03/28/2021
 ms.keywords: ImpersonateAnonymousToken, ImpersonateAnonymousToken function [Security], _win32_impersonateanonymoustoken, security.impersonateanonymoustoken, securitybaseapi/ImpersonateAnonymousToken
 req.header: securitybaseapi.h
 req.include-header: Windows.h
@@ -62,7 +62,9 @@ The <b>ImpersonateAnonymousToken</b> function enables the specified thread to im
 
 ### -param ThreadHandle [in]
 
-A handle to the thread to impersonate the system's anonymous logon token.
+A handle to the thread to impersonate the system's anonymous logon token. The thread handle must have the THREAD_IMPERSONATE access right in order for the thread to impersonate the system's anonymous logon token.
+
+To grant such access, the thread must be opened by calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> with the desired access right to THREAD_IMPERSONATE.
 
 ## -returns
 
@@ -71,23 +73,18 @@ If the function succeeds, the return value is nonzero.
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-An error of ACCESS_DENIED may indicate that the token is for a restricted process. Use OpenProcessToken and IsTokenRestricted to check if the process is restricted.
+An error of ACCESS_DENIED might indicate that the token is for a restricted process. Use [OpenProcessToken](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocesstoken) and [IsTokenRestricted](/windows/win32/api/securitybaseapi/nf-securitybaseapi-istokenrestricted) to check if the process is restricted. ACCESS_DENIED is also returned if the thread handle lacks right access to THREAD_IMPERSONATE.
 
 ## -remarks
 
-Anonymous tokens do not include the Everyone Group SID unless the system default has been overridden by setting the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\EveryoneIncludesAnonymous registry value to DWORD=1.
+Anonymous tokens do not include the "Everyone" Group SID unless the system default has been overridden by setting the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\EveryoneIncludesAnonymous registry value to DWORD=1.
 
-To cancel the impersonation call 
+To cancel the impersonation, call 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>.
 
 ## -see-also
 
-<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
-
-
-
-<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
-
-
-<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
+- <a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+- <a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+- <a href="/windows/desktop/procthread/thread-security-and-access-rights">Thread Security and Access Rights</a>
+- <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>

@@ -51,11 +51,11 @@ Client-provided callback function, used by <a href="/windows/desktop/api/fontsub
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Pointer to previously allocated memory block.
 
-### -param Arg2
+### -param unnamedParam2
 
 New size in bytes.
 

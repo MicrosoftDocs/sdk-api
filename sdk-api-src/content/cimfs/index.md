@@ -7,7 +7,7 @@ ms.date: 9/9/2019
 ms.keywords: cimfs
 ms.topic: portal
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

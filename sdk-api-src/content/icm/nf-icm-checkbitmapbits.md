@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - icm.h
 api_name:
@@ -75,7 +74,7 @@ Pointer to an array of bytes where the test results are to be placed. This resul
 
 ### -param pfnCallback
 
-Pointer to a callback function called periodically by **CheckBitmapBits** to report progress and allow the calling process to cancel the bitmap test. (See [**ICMProgressProcCallback**](icmprogressproccallback.md)).
+Pointer to a callback function called periodically by **CheckBitmapBits** to report progress and allow the calling process to cancel the bitmap test. (See [**ICMProgressProcCallback**](/windows/win32/wcs/icmprogressproccallback)).  
 
 ### -param lpCallbackData
 
@@ -99,7 +98,7 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
-* [ICMProgressProcCallback](icmprogressproccallback.md)
+* [ICMProgressProcCallback](/windows/win32/wcs/icmprogressproccallback)
 * [BMFORMAT](/windows/win32/api/icm/ne-icm-bmformat)

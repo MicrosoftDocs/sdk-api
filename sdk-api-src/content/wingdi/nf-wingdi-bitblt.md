@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - BitBlt
  - wingdi/BitBlt
@@ -299,7 +299,22 @@ Not all devices support the <b>BitBlt</b> function. For more information, see th
 
 #### Examples
 
-For an example, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
+The following code example demonstrates the use of **BitBlt**.
+
+```cpp
+if (!BitBlt(hdcMemDC,
+    0, 0,
+    rcClient.right - rcClient.left, rcClient.bottom - rcClient.top,
+    hdcWindow,
+    0, 0,
+    SRCCOPY))
+{
+    MessageBox(hWnd, L"BitBlt has failed", L"Failed", MB_OK);
+    goto done;
+}
+```
+
+To see this example in context, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
 
 <div class="code"></div>
 

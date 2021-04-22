@@ -128,6 +128,7 @@ If the function fails, the return value can be one of the following error codes.
 <td width="40%">
 <dl>
 <dt><b>ERROR_ACCESS_DENIED</b></dt>
+<dt>5</dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,6 +140,7 @@ The user does not have access to the requested information.
 <td width="40%">
 <dl>
 <dt><b>ERROR_INVALID_LEVEL</b></dt>
+<dt>124</dt>
 </dl>
 </td>
 <td width="60%">
@@ -150,6 +152,7 @@ The value specified for the <i>level</i> parameter is invalid.
 <td width="40%">
 <dl>
 <dt><b>ERROR_INVALID_PARAMETER</b></dt>
+<dt>87</dt>
 </dl>
 </td>
 <td width="60%">
@@ -161,10 +164,23 @@ The specified parameter is invalid.
 <td width="40%">
 <dl>
 <dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
+<dt>8</dt>
 </dl>
 </td>
 <td width="60%">
 Insufficient memory is available.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>NERR_ServerNotStarted</b></dt>
+<dt>2114</dt>
+</dl>
+</td>
+<td width="60%">
+The server service is not started.
 
 </td>
 </tr>

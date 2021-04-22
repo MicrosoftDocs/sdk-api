@@ -54,15 +54,15 @@ Initiates a test to update the system registry with refresh rate information for
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 An array of SIZE elements that describe, in terms of screen resolutions, the modes that should be tested.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The number of elements in the array that the  <i>lpModesToTest</i> parameter specifies.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Flags that specify options for starting a test. The only flag value that is currently valid is DDSMT_ISTESTREQUIRED. When this flag is specified, <b>StartModeTest</b> does not initiate a test, but instead returns a value that indicates whether it is possible or necessary to test the resolutions that the <i>lpModesToTest</i> and <i>dwNumEntries</i> parameters identify.
 

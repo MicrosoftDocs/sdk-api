@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIOSEND"]
 old-location: 
 tech.root: WinSock
 ms.assetid: A1CE9224-1E8C-46F8-AD7B-DBCBEBC670F7
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOSEND
 targetos: Windows
 req.assembly: 

@@ -59,7 +59,7 @@ The
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the remote access connection to terminate. This is a handle returned from a previous call to 
 <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 

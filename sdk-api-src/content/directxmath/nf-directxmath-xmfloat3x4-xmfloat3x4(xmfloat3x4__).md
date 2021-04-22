@@ -47,7 +47,7 @@ Move constructor for **XMFLOAT3X4**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **XMFLOAT3X4 &&**
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:wtypes.tagCY~r1
 title: CY
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagCY, CY
 targetos: Windows
 req.construct-type: structure

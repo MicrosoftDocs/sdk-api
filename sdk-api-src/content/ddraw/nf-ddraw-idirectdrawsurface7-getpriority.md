@@ -50,7 +50,7 @@ Retrieves the texture-management priority for this texture. This method succeeds
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the texture priority if the call succeeds.
 

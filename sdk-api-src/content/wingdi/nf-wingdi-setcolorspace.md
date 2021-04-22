@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetColorSpace</b> function defines the input [color space](/windows/win32/wcs/c) for a given device context.
+The <b>SetColorSpace</b> function defines the input [color space](/windows/win32/wcs/c#color-space) for a given device context.
 
 ## -parameters
 

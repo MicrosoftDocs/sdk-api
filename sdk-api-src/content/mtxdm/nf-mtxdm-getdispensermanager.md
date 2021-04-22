@@ -54,7 +54,7 @@ Retrieves the dispenser manager's <a href="/windows/desktop/api/comsvcs/nn-comsv
 
 ## -parameters
 
-### -param Arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to the location that receives the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
 

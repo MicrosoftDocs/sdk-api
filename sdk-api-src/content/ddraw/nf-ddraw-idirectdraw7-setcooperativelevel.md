@@ -54,11 +54,11 @@ Determines the top-level behavior of the application.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 This value consists of one or more of the following flags:
 

@@ -55,7 +55,7 @@ Instantiates a new instance of a <a href="/previous-versions/windows/desktop/leg
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A pointer to a **ID3D11Buffer** interface for a buffer.
 

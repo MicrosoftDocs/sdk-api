@@ -7,7 +7,7 @@ description: Fetches error reports uploaded or enqueued for upload from this PC 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
@@ -68,7 +67,7 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For report store types, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoreopen").
+For report store types, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werstoreopen).
 
 ## -see-also
 

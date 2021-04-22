@@ -54,7 +54,7 @@ The <b>wglGetProcAddress</b> function returns the address of an OpenGL extension
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <b>null</b>-terminated string that is the name of the extension function. The name of the extension function must be identical to a corresponding function implemented by OpenGL.
 

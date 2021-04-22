@@ -71,7 +71,7 @@ A handle to the thread whose context is to be retrieved. The handle must have **
 
 ### -param lpContext [in, out]
 
-A pointer to a [CONTEXT](windows/win32/api/winnt/ns-winnt-context) structure (such as [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the appropriate context of the specified thread. The value of the **ContextFlags** member of this structure specifies which portions of a thread's context are retrieved. The       **CONTEXT** structure is highly processor specific. Refer to the WinNT.h header file for processor-specific definitions of this structures and any alignment requirements.
+A pointer to a [CONTEXT](/windows/win32/api/winnt/ns-winnt-context) structure (such as [ARM64_NT_CONTEXT](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)) that receives the appropriate context of the specified thread. The value of the **ContextFlags** member of this structure specifies which portions of a thread's context are retrieved. The       **CONTEXT** structure is highly processor specific. Refer to the WinNT.h header file for processor-specific definitions of this structures and any alignment requirements.
 
 ## -returns
 
@@ -89,4 +89,10 @@ If you call **GetThreadContext** for the current thread, the function returns su
 
 ## -see-also
 
-[CONTEXT](/windows/win32/api/winnt/ns-winnt-context), [ARM64_NT_CONTEXT](/windows/desktop/api/winnt/ns-winnt-arm64_nt_context), [Debugging Functions](/windows/desktop/Debug/debugging-functions), [/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask](GetXStateFeaturesMask), [SetThreadContext](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext), [SuspendThread](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread), [Wow64GetThreadContext](/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext)
+- [CONTEXT](/windows/win32/api/winnt/ns-winnt-context)
+- [ARM64_NT_CONTEXT](/windows/desktop/api/winnt/ns-winnt-arm64_nt_context)
+- [Debugging Functions](/windows/desktop/Debug/debugging-functions)
+- [GetXStateFeaturesMask](/windows/desktop/api/winbase/nf-winbase-getxstatefeaturesmask)
+- [SetThreadContext](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext)
+- [SuspendThread](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread)
+- [Wow64GetThreadContext](/windows/desktop/api/winbase/nf-winbase-wow64getthreadcontext)

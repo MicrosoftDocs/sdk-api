@@ -62,7 +62,7 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window to apply changes to.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 

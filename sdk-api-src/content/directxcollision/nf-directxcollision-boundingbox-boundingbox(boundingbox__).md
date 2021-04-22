@@ -54,7 +54,7 @@ Creates an instance of the <code>BoundingBox</code> class.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A **BoundingBox** object to copy.
 

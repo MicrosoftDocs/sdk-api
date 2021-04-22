@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetColorSpace</b> function retrieves the handle to the input [color space](/windows/win32/wcs/c) from a specified device context.
+The <b>GetColorSpace</b> function retrieves the handle to the input [color space](/windows/win32/wcs/c#color-space) from a specified device context.
 
 ## -parameters
 

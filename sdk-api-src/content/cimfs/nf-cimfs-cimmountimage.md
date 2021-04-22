@@ -6,7 +6,7 @@ ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimMountImage
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -29,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
@@ -57,7 +56,7 @@ Provides the name of an existing image within the same imageContainingPath that 
 
 ### -param mountImageFlags
 
-Type: **[CIM_MOUNT_IMAGE_FLAGS](ne-cimfs-cim_mount_image_flags)**
+Type: **[CIM_MOUNT_IMAGE_FLAGS](/windows/win32/api/cimfs/ne-cimfs-cim_mount_image_flags)**
 
 ### -param volumeId
 

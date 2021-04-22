@@ -115,7 +115,7 @@ The identification number of the CMM that is used in the profile. Identification
 
 ### -field dwClass
 
-Indicates the profile class. For a description of profile classes, see [Using Device Profiles with WCS](using-device-profiles-with-wcs.md). A profile class may have any of the following values.
+Indicates the profile class. For a description of profile classes, see [Using Device Profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs). A profile class may have any of the following values.
 
 | Profile Class                  | Signature         |
 |--------------------------------|-------------------|
@@ -131,7 +131,7 @@ Indicates the profile class. For a description of profile classes, see [Using De
 
 ### -field dwDataColorSpace
 
-A signature value that indicates the color space in which the profile data is defined. Can be any value from the [Color Space Constants](color-space-constants.md).
+A signature value that indicates the color space in which the profile data is defined. Can be any value from the [Color Space Constants](/windows/win32/wcs/color-space-constants).
 
 ### -field dwConnectionSpace
 
@@ -198,7 +198,7 @@ INTENT\_RELATIVE\_COLORIMETRIC
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ### -field dwCreator
 
@@ -218,6 +218,6 @@ Indicates the device class. A device class may have one of the following values.
 
 ## -see-also
 
-* [Further information](further-information.md)
-* [Using device profiles with WCS](using-device-profiles-with-wcs.md)
-* [Rendering intents](rendering-intents.md)
+* [Further information](/windows/win32/wcs/further-information)
+* [Using device profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs)
+* [Rendering intents](/windows/win32/wcs/rendering-intents)

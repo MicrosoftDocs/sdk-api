@@ -1,7 +1,7 @@
 ---
 UID: NS:oaidl.tagELEMDESC~r1
 title: ELEMDESC
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagELEMDESC, ELEMDESC
 targetos: Windows
 req.construct-type: structure

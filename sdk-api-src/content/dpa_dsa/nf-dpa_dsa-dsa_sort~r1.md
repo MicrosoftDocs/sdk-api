@@ -1,7 +1,7 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort~r1
 title: DSA_Sort
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: DSA_Sort
 targetos: Windows
 req.assembly: 
@@ -31,7 +31,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - dpa_dsa.h
 api_name:

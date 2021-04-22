@@ -64,7 +64,7 @@ The resource number of the dialog box to be displayed. See Remarks.
 
 The handle to the parent window of the dialog box.
 
-### -param arg3 [in]
+### -param ...
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 
@@ -376,3 +376,4 @@ IDD_SERVERNOTFOUND </code></pre>
 
 > [!NOTE]
 > The oledlg.h header defines OleUIPromptUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+

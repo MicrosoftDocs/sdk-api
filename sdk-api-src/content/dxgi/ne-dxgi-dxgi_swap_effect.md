@@ -171,3 +171,7 @@ To create a swap chain in UWP, you just need to create a new instance of the DX1
 
 <a href="/windows/win32/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
 
+
+
+<a href="https://devblogs.microsoft.com/directx/dxgi-flip-model/">For best performance, use DXGI flip model</a>
+

@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_INTF_OPCODE~r1
 title: WLAN_INTF_OPCODE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_INTF_OPCODE, WLAN_INTF_OPCODE
 targetos: Windows
 req.construct-type: enumeration

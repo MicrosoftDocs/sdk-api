@@ -51,7 +51,7 @@ The <i>DdVideoPortCanCreate</i> callback function determines whether the driver 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatevportdata">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
 

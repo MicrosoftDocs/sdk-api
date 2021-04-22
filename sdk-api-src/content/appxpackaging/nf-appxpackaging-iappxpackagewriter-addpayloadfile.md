@@ -143,16 +143,9 @@ When the <b>AddPayloadFile</b> method succeeds the contents of the specified <i>
 
 <div class="alert"><b>Note</b>  Files with the following reserved filenames cannnot be added to the package using the <b>AddPayloadFile</b> method:
 
-    <b>\AppxManifest.xml</b>, 
-    <b>\AppxBlockMap.xml</b>, <b>\AppxStreamMap.xml
-    </b>, and <b>\AppxSignature.p7x
+`AppxManifest.xml`, `AppxBlockMap.xml`, `AppxStreamMap.xml`, and `AppxSignature.p7x`.
 
-</b>.  Also, files with the following reserved folder prefixes cannnot be added to the package using the <b>AddPayloadFile</b> method:
-
-    <b>\AppxMetadata\</b>and <b>\Microsoft.System.Package.Metadata\</b>. 
-
-</div>
-<div> </div>
+Also, files with the following reserved folder prefixes cannnot be added to the package using the <b>AddPayloadFile</b> method: `\AppxMetadata\` and `\Microsoft.System.Package.Metadata\`. 
 
 
 

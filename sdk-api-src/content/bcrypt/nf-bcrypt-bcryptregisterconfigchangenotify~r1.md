@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptRegisterConfigChangeNotify~r1
 title: BCryptRegisterConfigChangeNotify
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: BCryptRegisterConfigChangeNotify
 targetos: Windows
 req.assembly: 
@@ -32,7 +32,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - bcrypt.h
 api_name:

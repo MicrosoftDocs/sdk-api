@@ -51,13 +51,13 @@ The<i> DxLock</i> callback function is called when a client of the video minipor
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 Points to the miniport driver's device extension.
 
-### -param Arg2
+### -param unnamedParam2
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockininfo">DDLOCKININFO</a> structure that contains the surface information for the lock.
 
-### -param Arg3
+### -param unnamedParam3
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddlockoutinfo">DDLOCKOUTINFO</a> structure that contains the surface in the frame buffer.
 
 ## -returns

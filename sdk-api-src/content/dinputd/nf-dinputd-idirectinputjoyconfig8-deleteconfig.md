@@ -51,7 +51,7 @@ The <b>IDirectInputJoyConfig8::DeleteConfig </b>method deletes configuration inf
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates a zero-based joystick identification number.
 

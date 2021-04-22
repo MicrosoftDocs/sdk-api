@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Gets a value from the [ACPI_PLD_PANEL](/windows-hardware/drivers/ddi/acpitabl/ne-acpitabl-_acpi_pld_panel) enumeration indicating the location of the capture device, relative to the display provided to [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher).
+Gets a value from the [ACPI_PLD_PANEL](/windows-hardware/drivers/ddi/acpitabl/ne-acpitabl-_acpi_pld_panel) enumeration indicating the location of the capture device, relative to the display provided to [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher.md).
 
 ## -parameters
 

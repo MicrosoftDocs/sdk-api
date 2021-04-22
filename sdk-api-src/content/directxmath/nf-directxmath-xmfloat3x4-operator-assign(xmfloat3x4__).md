@@ -47,7 +47,7 @@ Move assignment operator for **XMFLOAT3X4**. Moves the argument's vector compone
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: **XMFLOAT3X4 &&**
 

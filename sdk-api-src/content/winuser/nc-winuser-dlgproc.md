@@ -54,25 +54,25 @@ Application-defined callback function used with the <a href="/windows/desktop/ap
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>HWND</b>
 
 A handle to the dialog box.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b>UINT</b>
 
 The message.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b>WPARAM</b>
 
 Additional message-specific information.
 
-### -param Arg4
+### -param unnamedParam4
 
 Type: <b>LPARAM</b>
 

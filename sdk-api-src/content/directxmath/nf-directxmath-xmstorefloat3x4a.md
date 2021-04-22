@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Stores an [**XMMATRIX**](./ns-directxmath-xmmatrix.md) in an [**XMFLOAT3X4A**](./ns-directxmath-xmfloat3x4a.md).
+Stores an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) in an [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a).
 
 ## -parameters
 

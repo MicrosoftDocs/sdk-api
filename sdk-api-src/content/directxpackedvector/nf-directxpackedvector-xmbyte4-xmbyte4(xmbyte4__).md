@@ -58,7 +58,7 @@ A constructor for <code>XMBYTE4</code>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

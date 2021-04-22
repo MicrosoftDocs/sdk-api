@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagSTGMEDIUM~r1
 title: uSTGMEDIUM
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagSTGMEDIUM, uSTGMEDIUM
 targetos: Windows
 req.construct-type: structure

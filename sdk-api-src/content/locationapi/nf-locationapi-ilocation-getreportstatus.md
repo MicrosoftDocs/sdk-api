@@ -61,7 +61,7 @@ Retrieves the status for the specified report type.
 
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
-### -param arg2 [out]
+### -param pStatus [out]
 
 Address of a <a href="/windows/desktop/api/locationapi/ne-locationapi-location_report_status">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
 

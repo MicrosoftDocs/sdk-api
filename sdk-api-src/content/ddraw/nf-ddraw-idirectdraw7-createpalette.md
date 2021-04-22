@@ -54,7 +54,7 @@ Creates a DirectDrawPalette object for this DirectDraw object.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 This value consists of one or more of the following flags:
 
@@ -124,15 +124,15 @@ This palette is the one attached to the left-eye primary surface. Changing this 
 
 This palette can have modifications to it synchronized with the monitor's refresh rate.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Address of an array of 2, 4, 16, or 256 <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Address of a variable to be set to a valid <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface pointer if the call succeeds.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Allows for future compatibility with COM aggregation features. Currently, this method returns an error if this parameter is not NULL.
 

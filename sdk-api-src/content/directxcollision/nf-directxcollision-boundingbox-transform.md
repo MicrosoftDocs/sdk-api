@@ -4,7 +4,7 @@ title: BoundingBox::Transform
 description: Transforms the BoundingBox.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Transform"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingBox::Transform
 targetos: Windows
 req.assembly: 
@@ -34,7 +34,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxcollision.h
 api_name:

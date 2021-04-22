@@ -67,7 +67,7 @@ Receives the number of text strings for the specified language.
 
 Receives a <i>locale identifier</i> (LCID) that specifies the language in which the text is written. For example, the LCID for "en-us" is 0x0409.
 
-### -param arg4 [out]
+### -param pbCharacterSet [out]
 
 Receives a member of the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_textcharset">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
 

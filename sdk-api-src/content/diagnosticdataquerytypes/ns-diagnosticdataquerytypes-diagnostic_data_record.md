@@ -6,7 +6,7 @@ ms.keywords: tagDIAGNOSTIC_DATA_RECORD, DIAGNOSTIC_DATA_RECORD
 description: This resource describes an individual diagnostic data record (event).
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -111,6 +111,6 @@ Type: **[BOOL](/windows/desktop/winprog/windows-data-types)**
 - For informtion about how a producer is defined, see [**DIAGNOSTIC_DATA_EVENT_PRODUCER_DESCRIPTION**](./ns-diagnosticdataquerytypes-diagnostic_data_event_producer_description.md).
 - For information about how a tag is defined, see [**DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION**](./ns-diagnosticdataquerytypes-diagnostic_data_event_tag_description.md).
 - For information about how a category is defined, see [**DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION**](./ns-diagnosticdataquerytypes-diagnostic_data_event_category_description.md).
-- For more details on what is core data, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+- For more details on what is core data, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also

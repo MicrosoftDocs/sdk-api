@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.operator-div-assign~r1
-title: operator/=
+title: operator/= (divide)
 description: Divides an XMVECTOR instance by a floating point value and returns a reference to the updated instance.
 tech.root: dxmath
 helpviewer_keywords: ["operator/="]
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxmath.h
 api_name:

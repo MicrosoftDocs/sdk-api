@@ -50,7 +50,7 @@ Retrieves the current uniqueness value for this surface.
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the surface's current uniqueness value if the call succeeds.
 

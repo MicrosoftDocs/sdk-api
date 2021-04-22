@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
+**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
 
 ## -parameters
 

@@ -54,7 +54,7 @@ Sets the color key value for the DirectDrawSurface object if the hardware suppor
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags to specify the requested color key:
 
@@ -88,7 +88,7 @@ A color key or color space to be used as a source color key for bitblt operation
 
 A color key or color space to be used as a source color key for overlay operations.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that contains the new color key values for the DirectDrawSurface object. This value can be NULL to remove a previously set color key.
 

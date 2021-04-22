@@ -86,7 +86,7 @@ Type: <b>LPCTSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
-### -param arg4 [in]
+### -param ...
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -214,3 +214,4 @@ HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>
+

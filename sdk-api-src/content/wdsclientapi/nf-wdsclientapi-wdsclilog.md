@@ -188,7 +188,7 @@ Used to determine an out-of-range index. Values greater than or equal to
 </tr>
 </table>
 
-### -param arg4
+### -param ...
 
 The quantity and type of the additional arguments varies with the value of the 
       <i>ulMessageCode</i> parameter.
@@ -204,3 +204,4 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 
 <a href="/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
+
