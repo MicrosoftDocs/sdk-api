@@ -2,7 +2,7 @@
 UID: NF:directxmath.XMLoadFloat3x4
 title: XMLoadFloat3x4
 ms.date: 04/23/2020
-description: Loads an [**XMFLOAT3X4**](./ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+description: Loads an [**XMFLOAT3X4**](../ns-directxmath-xmfloat3x4.md) into an [**XMMATRIX**](../ns-directxmath-xmmatrix.md).
 tech.root: dxmath
 req.header: directxmath.h
 req.include-header: 

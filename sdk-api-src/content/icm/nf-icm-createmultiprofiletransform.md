@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateMultiProfileTransform
 title: CreateMultiProfileTransform
-description: Accepts an array of profiles or a single [device link profile](d.md) and creates a color transform that applications can use to perform color mapping.
+description: Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/d) and creates a color transform that applications can use to perform color mapping.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

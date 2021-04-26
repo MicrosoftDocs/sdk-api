@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DNS_SERVICE_REGISTER_REQUEST
 title: DNS_SERVICE_REGISTER_REQUEST structure
-description: Contains the information necessary to advertise a service using [DnsServiceRegister](nf-windns-dnsserviceregister.md), or to stop advertising it using [DnsServiceDeRegister](nf-windns-dnsservicederegister.md).
+description: Contains the information necessary to advertise a service using [DnsServiceRegister](../nf-windns-dnsserviceregister.md), or to stop advertising it using [DnsServiceDeRegister](../nf-windns-dnsservicederegister.md).
 tech.root: dns
 helpviewer_keywords: ["_DNS_SERVICE_REGISTER_REQUEST","DNS_SERVICE_REGISTER_REQUEST"]
 ms.date: 02/19/2019

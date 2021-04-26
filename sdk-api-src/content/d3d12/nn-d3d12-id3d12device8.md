@@ -1,7 +1,7 @@
 ---
 UID: NN:d3d12.ID3D12Device8
 title: ID3D12Device8
-description: Represents a virtual adapter. This interface extends [ID3D12Device7](./nn-d3d12-id3d12device7.md).
+description: Represents a virtual adapter. This interface extends [ID3D12Device7](../nn-d3d12-id3d12device7.md).
 helpviewer_keywords: ["ID3D12Device8","ID3D12Device8 interface","ID3D12Device8 interface","described","d3d12/ID3D12Device8","direct3d12.id3d12device8"]
 tech.root: direct3d12
 ms.date: 09/16/2020
