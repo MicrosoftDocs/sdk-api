@@ -109,7 +109,7 @@ You cannot specify both the **MOUSEEVENTF_WHEEL** flag and either **MOUSEEVENTF_
 | **MOUSEEVENTF_XUP**<br>0x0100 | An X button was released. |
 | **MOUSEEVENTF_WHEEL**<br>0x0800 | The wheel was moved, if the mouse has a wheel. The amount of movement is specified in **mouseData**. |
 | **MOUSEEVENTF_HWHEEL**<br>0x1000 | The wheel was moved horizontally, if the mouse has a wheel. The amount of movement is specified in **mouseData**. <br>**Windows XP/2000**: This value is not supported. |
-| **MOUSEEVENTF_MOVE_NOCOALESCE**<br>0x2000 | The [WM_MOUSEMOVE](windows/desktop/inputdev/wm-mousemove) messages will not be coalesced. The default behavior is to coalesce **WM_MOUSEMOVE** messages. <br>**Windows XP/2000**: This value is not supported. |
+| **MOUSEEVENTF_MOVE_NOCOALESCE**<br>0x2000 | The [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove) messages will not be coalesced. The default behavior is to coalesce **WM_MOUSEMOVE** messages. <br>**Windows XP/2000**: This value is not supported. |
 | **MOUSEEVENTF_VIRTUALDESK**<br>0x4000 | Maps coordinates to the entire desktop. Must be used with **MOUSEEVENTF_ABSOLUTE**. |
 | **MOUSEEVENTF_ABSOLUTE**<br>0x8000 | The **dx** and **dy** members contain normalized absolute coordinates. If the flag is not set, **dx**and **dy** contain relative data (the change in position since the last reported position). This flag can be set, or not set, regardless of what kind of mouse or other pointing device, if any, is connected to the system. For further information about relative mouse motion, see the following Remarks section. |
 
