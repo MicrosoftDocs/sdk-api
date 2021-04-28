@@ -3,7 +3,7 @@ UID: NS:gdiplusinit.GdiplusStartupInputEx
 title: GdiplusStartupInputEx
 ms.date: 05/07/2020
 targetos: Windows
-description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function.
+description: The **GdiplusStartupInputEx** structure holds a block of arguments that are required by the [GdiplusStartup](../gdiplusinit/nf-gdiplusinit-gdiplusstartup.md) function.
 tech.root: gdiplus
 req.construct-type: structure
 req.ddi-compliance: 

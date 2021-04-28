@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetPS2ColorRenderingIntent
 title: GetPS2ColorRenderingIntent
-description: Retrieves the PostScript Level 2 color [rendering intent](r.md) from an ICC color profile.
+description: Retrieves the PostScript Level 2 color [rendering intent](/windows/win32/wcs/r) from an ICC color profile.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

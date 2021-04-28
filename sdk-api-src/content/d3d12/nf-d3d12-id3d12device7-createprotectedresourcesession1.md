@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device7.CreateProtectedResourceSession1
 title: ID3D12Device7::CreateProtectedResourceSession1
-description: Revises the [**ID3D12Device4::CreateProtectedResourceSession**](./nf-d3d12-id3d12device4-createprotectedresourcesession.md) method with provision **GUID** that indicates the type of protected resource session.
+description: Revises the [**ID3D12Device4::CreateProtectedResourceSession**](../d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession.md) method with provision **GUID** that indicates the type of protected resource session.
 helpviewer_keywords: ["ID3D12Device7 interface","CreateProtectedResourceSession1 method","ID3D12Device7.CreateProtectedResourceSession1","ID3D12Device7::CreateProtectedResourceSession1","CreateProtectedResourceSession1","CreateProtectedResourceSession1 method","CreateProtectedResourceSession1 method","ID3D12Device7 interface","direct3d12.id3d12device7_createprotectedresourcesssion1","d3d12/ID3D12Device7::CreateProtectedResourceSession1"]
 tech.root: direct3d12
 ms.date: 09/15/2020

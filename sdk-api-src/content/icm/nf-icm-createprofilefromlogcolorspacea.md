@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateProfileFromLogColorSpaceA
 title: CreateProfileFromLogColorSpaceA
-description: Converts a logical [color space](c.md) to a [device profile](d.md).
+description: Converts a logical [color space](/windows/win32/wcs/c) to a [device profile](/windows/win32/wcs/d).
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
