@@ -390,12 +390,27 @@ The following table shows the action of the SCM  in each of the possible service
 <td>(a)</td>
 </tr>
 </table>
- 
 
-
-
-
-
+<dl>
+<dt>(a)</dt>
+<dd>
+If the service accepts this control code, send the request to the service; otherwise, <b>ControlServiceEx</b> returns
+    zero and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_INVALID_SERVICE_CONTROL</b>.
+</dd>
+<dt>(b)</dt>
+<dd>
+The service is not in a state in which a control can be sent to it, so <b>ControlServiceEx</b> returns zero and
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_SERVICE_CANNOT_ACCEPT_CTRL</b>.
+</dd>
+<dt>(c)</dt>
+<dd>
+The service is not active, so <b>ControlServiceEx</b> returns zero and
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns
+    <b>ERROR_SERVICE_NOT_ACTIVE</b>.
+</dd>
+</dl>
 
 
 > [!NOTE]
