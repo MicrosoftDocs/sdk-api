@@ -62,10 +62,10 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreInputInterop</b> interfa
 
 ## -remarks
 
-The <a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a> object defines the basic keyboard and pointer input events  for a Windows Store app.
+The <a href="/uwp/api/windows.ui.core.coreindependentinputsource">CoreIndependentInputSource</a> or <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a> object defines the basic keyboard and pointer input events  for a Windows Store app.
 
 ## -see-also
 
 <a href="/uwp/api/windows.ui.core.corecomponentinputsource">CoreComponentInputSource</a>
 
-<a href="/dotnet/api/microsoft.toolkit.win32.ui.controls.interop.winrt.coreindependentinputsource?view=win-comm-toolkit-dotnet-stable">CoreIndependentInputSource</a>
+<a href="/uwp/api/windows.ui.core.coreindependentinputsource">CoreIndependentInputSource</a>
