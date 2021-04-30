@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIOREGISTERBUFFER"]
 old-location: 
 tech.root: WinSock
 ms.assetid: CAADCC2F-1443-410F-A860-375C9AAE208E
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOREGISTERBUFFER
 targetos: Windows
 req.assembly: 

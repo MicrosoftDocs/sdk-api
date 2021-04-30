@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidFeatures</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMSVidFeatures</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a feature to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator for the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of items in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified item from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes an item from the collection.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IMSVidFeatures)</code>.

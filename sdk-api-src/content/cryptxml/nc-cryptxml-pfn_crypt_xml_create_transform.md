@@ -54,15 +54,15 @@ The  <i>PFN_CRYPT_XML_CREATE_TRANSFORM</i>  callback function creates a transfor
 
 ## -parameters
 
-### -param *pTransform [in]
+### -param pTransform [in]
 
 A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the transform to apply.
 
-### -param *pProviderIn [in]
+### -param pProviderIn [in]
 
 A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure that specifies the data provider to use as input for the transform.
 
-### -param *pProviderOut [out]
+### -param pProviderOut [out]
 
 A pointer to a  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_provider">CRYPT_XML_DATA_PROVIDER</a> structure to receive the data provider of the transform.
 

@@ -71,8 +71,7 @@ To get a primary token that represents the specified user, call the
 <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. Alternatively, you can call the 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a> function to convert an impersonation token into a primary token. This allows a server application that is impersonating a client to create a process that has the security context of the client.
 
-<b>Terminal Services:  </b>The process is run in the session specified in the token. By default, this is the same session that called <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>. To change the session, use the 
-<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a> function.
+<b>Terminal Services:  </b>The caller's process always runs in the caller's session, not in the session specified in the token. To run a process in the session specified in the token, use the CreateProcessAsUser function.
 
 ### -param dwLogonFlags [in]
 
@@ -173,7 +172,7 @@ This parameter also controls the new process's priority class, which is used to 
 
 If the dwCreationFlags parameter has a value of 0:
 
-- The process inherits both the error mode of the caller and the parent's console. 
+- The process gets the default error mode, creates a new console and creates a new process group. 
 - The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
 - A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 

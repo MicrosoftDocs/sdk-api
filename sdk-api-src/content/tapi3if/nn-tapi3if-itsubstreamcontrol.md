@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStreamControl</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITSubStreamControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-createsubstream">CreateSubStream</a>
-</td>
-<td align="left" width="63%">
-Creates a substream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams">EnumerateSubStreams</a>
-</td>
-<td align="left" width="63%">
-Enumerates substreams.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-get_substreams">get_SubStreams</a>
-</td>
-<td align="left" width="63%">
-Creates a collection of substreams associated with the current stream. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-removesubstream">RemoveSubStream</a>
-</td>
-<td align="left" width="63%">
-Removes a substream.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -55,7 +55,7 @@ The
 
 ## -parameters
 
-### -param *Arg
+### -param Arg
 
 Pointer to a user-defined argument to the user-supplied encryption key acquisition function. The RPC run-time library uses the <i>Arg</i> parameter supplied to 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>.
@@ -74,7 +74,7 @@ Value that the RPC run-time library automatically provides for the key-version p
 
 Pointer to a pointer to the authentication key returned by the user-supplied function.
 
-### -param *Status
+### -param Status
 
 Pointer to the status returned by the acquisition function when it is called by the RPC run-time library to authenticate the client RPC request. If the status is other than RPC_S_OK, the request fails and the run-time library returns the error status to the client application.
 

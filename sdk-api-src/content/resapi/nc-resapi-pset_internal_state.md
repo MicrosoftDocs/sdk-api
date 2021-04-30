@@ -54,7 +54,7 @@ Sets the internal state of a resource
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ### -param stateType [in]
 

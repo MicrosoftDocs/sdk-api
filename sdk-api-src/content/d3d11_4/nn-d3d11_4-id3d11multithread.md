@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Multithread</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11Multithread</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-enter">Enter</a>
-</td>
-<td align="left" width="63%">
-Enter a device's critical section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-getmultithreadprotected">GetMultithreadProtected</a>
-</td>
-<td align="left" width="63%">
-Find out if multithread protection is turned on or not.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-leave">Leave</a>
-</td>
-<td align="left" width="63%">
-Leave a device's critical section.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-setmultithreadprotected">SetMultithreadProtected</a>
-</td>
-<td align="left" width="63%">
-Turns multithread protection on or off.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is obtained by querying it from an immediate device context created with the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a> (or later versions of this) interface 

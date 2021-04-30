@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupWriteTextLog
  - setupapi/SetupWriteTextLog
@@ -46,7 +47,6 @@ api_location:
  - setupapi.dll
 api_name:
  - SetupWriteTextLog
-req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupWriteTextLog function
@@ -89,7 +89,7 @@ The change, if any, to the indentation depth of the section and the current log 
 
 A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. The comma-separated parameter list that follows <i>MessageStr</i> must match the format specifiers in the format string.
 
-### -param arg5
+### -param ...
 
 A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>.
 
@@ -184,3 +184,4 @@ For more information about using log tokens, see <a href="/windows-hardware/driv
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>
+

@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfProperty</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfProperty</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Empties the property value over the specified range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-findrange">FindRange</a>
-</td>
-<td align="left" width="63%">
-Obtains a range that covers the text that contains a non-empty value for the property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets the value of the property for a range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfproperty-setvaluestore">SetValueStore</a>
-</td>
-<td align="left" width="63%">
-Sets the value of the property for a range of text using a property store object.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An instance of this interface is obtained in various ways, such as <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> or <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfproperties-next">IEnumTfProperties::Next</a>.

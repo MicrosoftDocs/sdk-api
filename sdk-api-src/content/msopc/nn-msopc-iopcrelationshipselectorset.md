@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcRelationshipSelectorSet</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOpcRelationshipSelectorSet</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorset-create">Create</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointer to represent how a subset of relationships are selected to be signed, and adds the new pointer to the set.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorset-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes a specified <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointer from the set.
-            
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorset-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets an enumerator of <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointers in the set.
-            
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Use the methods of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointers in the set to select relationships for signing.

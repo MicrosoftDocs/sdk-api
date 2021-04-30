@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateMultiProfileTransform
 title: CreateMultiProfileTransform
-description: Accepts an array of profiles or a single [device link profile](d.md) and creates a color transform that applications can use to perform color mapping.
+description: Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/d) and creates a color transform that applications can use to perform color mapping.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -41,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Accepts an array of profiles or a single [device link profile](d.md) and creates a color transform that applications can use to perform color mapping.
+Accepts an array of profiles or a single [device link profile](/windows/win32/wcs/using-device-profiles-with-wcs) and creates a color transform that applications can use to perform color mapping.
 
 ## -parameters
 
@@ -73,7 +72,7 @@ Pointer to an array of intents to use. Each intent is one of the following value
 
 GMMPs are a generalization of intents. There are two possible sources of intents: the "destination" profile and the intent list parameter to **CreateMultiProfileTransform**. The term "destination" is not used since all but two of the profiles in the profile list parameter will serve as first destination and then source.
 
-For more information, see [Rendering Intents](rendering-intents.md).
+For more information, see [Rendering Intents](/windows/win32/wcs/rendering-intents).
 
 ### -param nIntents
 
@@ -85,7 +84,7 @@ Specifies flags used to control creation of the transform. See Remarks.
 
 ### -param indexPreferredCMM
 
-Specifies the one-based index of the color profile that indicates what color management module (CMM) to use. The application developer may allow Windows to choose the CMM by setting this parameter to INDEX\_DONT\_CARE. See [Using Color Management Modules (CMM)](using-color-management-modules--cmm.md) Third party CMMs are only available for ICC workflows. Profile arrays containing WCS profiles will ignore this flag. It is also ignored when only ICC profiles are used and when the WCS\_ALWAYS flag is used.
+Specifies the one-based index of the color profile that indicates what color management module (CMM) to use. The application developer may allow Windows to choose the CMM by setting this parameter to INDEX\_DONT\_CARE. See [Using Color Management Modules (CMM)](/windows/win32/wcs/using-color-management-modules--cmm) Third party CMMs are only available for ICC workflows. Profile arrays containing WCS profiles will ignore this flag. It is also ignored when only ICC profiles are used and when the WCS\_ALWAYS flag is used.
 
 ## -returns
 
@@ -97,13 +96,13 @@ If this function fails, the return value is **NULL**. For extended error informa
 
 If a device link profile is being used, the function will fail if *nProfiles* is not set to 1.
 
-The array of intents specifies how profiles should be combined. The *n*th intent is used for combining the *n*th profile in the array. If only one intent is specified, it is used for the first profile, and all other profiles are combined using [Match intent](rendering-intents.md).
+The array of intents specifies how profiles should be combined. The *n*th intent is used for combining the *n*th profile in the array. If only one intent is specified, it is used for the first profile, and all other profiles are combined using [Match intent](/windows/win32/wcs/rendering-intents).
 
 The values in *dwFlags* are intended as hints only. The color management module must determine the best way to use them.
 
 **Windows Vista**: Three new flags have been added that can be used with *dwFlags*:
 
-| | |
+| Flag | Description |
 |-|-|
 | **PRESERVEBLACK** | If this bit is set, the transform engine inserts the appropriate black generation GMMP as the last GMMP in the transform sequence. This flag only works in a pure WCS transform. |
 | **SEQUENTIAL\_TRANSFORM** | If this bit is set, each step in the WCS processing pipeline is performed for every pixel in the image and no optimized color transform is built. This flag only works in a pure WCS transform.**Restrictions**: A transform created with the SEQUENTIAL\_TRANSFORM flag set may only be used in the thread on which it was created and only for one color translation call at a time. COM must be initialized prior to creating the sequential transform and must remain initialized for the lifetime of the transform object.<br/> |
@@ -115,7 +114,7 @@ The values in *dwFlags* are intended as hints only. The color management module 
 >
 > \#define SEQUENTIAL\_TRANSFORM 0x80800000
 
-For details, see [CMM Transform Creation Flags](cmm-transform-creation-flags.md). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE and USE\_RELATIVE\_COLORIMETRIC, which only work in a pure ICC-to-ICC transform.
+For details, see [CMM Transform Creation Flags](/windows/win32/wcs/cmm-transform-creation-flags). All of the flags mentioned there are supported for all types of transforms, except for FAST\_TRANSLATE and USE\_RELATIVE\_COLORIMETRIC, which only work in a pure ICC-to-ICC transform.
 
 The **CreateMultiProfileTransform** function is used outside of a device context. Colors may shift when transforming from a color profile to the same color profile. This is due to precision errors. Therefore, a color transform should not be performed under these circumstances.
 
@@ -145,7 +144,7 @@ WCS transform support for ICC ColorSpace profiles is limited to RGB colorspace p
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [COLOR Structure**](/windows/win32/api/icm/ns-icm-color)
-* [DeleteColorTransform](deletecolortransform.md)
+* [DeleteColorTransform](/windows/win32/api/icm/nf-icm-deletecolortransform)

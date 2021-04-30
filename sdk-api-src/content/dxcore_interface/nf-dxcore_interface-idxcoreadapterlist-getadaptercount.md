@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapterCount method, IDXCoreAdapterFactory.GetAdapterCount, IDXCoreAdapterFactory::GetAdapterCount, GetAdapterCount, GetAdapterCount method, GetAdapterCount method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapterCount, dxcore_interface.idxcoreadapterfactory_getadaptercount
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 
@@ -44,6 +43,8 @@ api_name:
 ## -description
 
 Retrieves the number of adapters in a DXCore adapter list object. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
+
+## -parameters
 
 ## -returns
 

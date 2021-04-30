@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyServiceLookupClien
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTopologyServiceLookupClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">InitServicePointers</a>
-</td>
-<td align="left" width="63%">
-Signals the mixer or presenter to query the EVR for interface pointers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers">ReleaseServicePointers</a>
-</td>
-<td align="left" width="63%">
-Signals the mixer or presenter to release the interface pointers obtained from the EVR.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When the EVR loads the video mixer and the video presenter, the EVR queries the object for this interface and calls <a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers">InitServicePointers</a>. Inside the <b>InitServicePointers</b> method, the object can query the EVR for interface pointers.

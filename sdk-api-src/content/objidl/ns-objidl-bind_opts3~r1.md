@@ -1,7 +1,7 @@
 ---
 UID: NS:objidl.tagBIND_OPTS3~r1
 title: BIND_OPTS3
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagBIND_OPTS3, BIND_OPTS3
 targetos: Windows
 req.construct-type: structure

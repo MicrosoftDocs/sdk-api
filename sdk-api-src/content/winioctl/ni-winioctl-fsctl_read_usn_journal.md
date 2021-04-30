@@ -9,7 +9,6 @@ ms.assetid: 205de464-7e96-477b-9115-e819719b160e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_USN_JOURNAL, FSCTL_READ_USN_JOURNAL control, FSCTL_READ_USN_JOURNAL control code [Files], _win32_fsctl_read_usn_journal, base.fsctl_read_usn_journal, fs.fsctl_read_usn_journal, winioctl/FSCTL_READ_USN_JOURNAL
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +26,7 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -61,7 +60,8 @@ Retrieves  the set of update sequence number (USN) change journal records betwee
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to volume
-                 (DWORD) FSCTL_READ_USN_JOURNAL, // dwIoControlCode(LPVOID)       lpInBuffer,      // input buffer
+                 (DWORD) FSCTL_READ_USN_JOURNAL, // dwIoControlCode
+                 (LPVOID)       lpInBuffer,      // input buffer
                  (DWORD)        nInBufferSize,   // size of input buffer
                  (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer

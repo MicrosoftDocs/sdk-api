@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NameValueService</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_NameValueService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-getvalue">GetValue</a>
-</td>
-<td align="left" width="63%">
-Gets a value by name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/dd376218(v=vs.85)">GetValueNameByIndex</a>
-</td>
-<td align="left" width="63%">
-Gets a name, specified by index, from the device's list of name/value pairs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_namevalueservice-setvalue">SetValue</a>
-</td>
-<td align="left" width="63%">
-Sets a name/value pair in device memory.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_NameValueService)</code>.

@@ -47,20 +47,6 @@ Represents a Direct3D 12 video decoder heap that contains resolution-dependent r
 
 ID3D12VideoDecoderHeap interits from ID3D12Pageable.
 
-## -members
-
-<p>ID3D12VideoDecoderHeap has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>GetDesc</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Get an instance of this class by calling [ID3D12VideoDevice::CreateVideoDecoderHeap](nf-d3d12video-id3d12videodevice-createvideodecoderheap.md).

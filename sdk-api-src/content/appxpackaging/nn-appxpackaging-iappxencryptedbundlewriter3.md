@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedBundleWriter3</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxEncryptedBundleWriter3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter3-addexternalpackagereference">AddExternalPackageReference</a>
-</td>
-<td align="left" width="63%">
-Adds a reference within the encrypted package bundle to an external app package.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter3-addpayloadpackageencrypted">AddPayloadPackageEncrypted</a>
-</td>
-<td align="left" width="63%">
-Encrypts a new payload package to the bundle.
-
-</td>
-</tr>
-</table>

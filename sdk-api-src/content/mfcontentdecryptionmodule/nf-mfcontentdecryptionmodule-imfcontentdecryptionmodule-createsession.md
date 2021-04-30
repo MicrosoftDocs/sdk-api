@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.CreateSession
 title: IMFContentDecryptionModule::CreateSession
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -42,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession) object representing a Content Decryption Module (CDM) session.
+Creates a [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession.md) object representing a Content Decryption Module (CDM) session.
 
 ## -parameters
 
@@ -52,7 +51,7 @@ A member of the [MF_MEDIAKEYSESSION_TYPE](../mfidl/ne-mfidl-mf_mediakeysession_t
 
 ### -param callbacks
 
-An [IMFContentDecryptionModuleSessionCallbacks](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks) object for receiving key status change updates.
+An [IMFContentDecryptionModuleSessionCallbacks](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks.md) object for receiving key status change updates.
 
 ### -param session
 

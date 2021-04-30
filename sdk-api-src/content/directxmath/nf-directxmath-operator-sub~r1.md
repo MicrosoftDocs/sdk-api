@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.operator-sub~r1
-title: operator-
+title: operator- (subtract)
 description: Subtracts one instance of XMVECTOR from a second instance, returning the result in a new instance of XMVECTOR.
 tech.root: dxmath
 helpviewer_keywords: ["operator-"]
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - directxmath.h
 api_name:

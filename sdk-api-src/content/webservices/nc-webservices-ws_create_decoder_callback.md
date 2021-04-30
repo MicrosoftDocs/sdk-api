@@ -54,7 +54,7 @@ Handles creating an decoder instance.
 
 ## -parameters
 
-### -param *createContext [in]
+### -param createContext [in]
 
 The createContext that was specified in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a>used during channel creation.
 
@@ -65,7 +65,7 @@ The function that should be used to read the message data.  This callback
                     <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_decode_callback">WS_DECODER_DECODE_CALLBACK</a> and <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> 
                     callbacks.
 
-### -param *readContext [in]
+### -param readContext [in]
 
 The read context that should be passed to the provided <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a>.
                 
@@ -76,7 +76,7 @@ The read context that should be passed to the provided <a href="/windows/desktop
 Returns the decoder instance.  This value will be
                     passed to all of the decoder callbacks.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

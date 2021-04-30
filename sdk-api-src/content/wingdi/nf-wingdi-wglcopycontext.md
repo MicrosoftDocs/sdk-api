@@ -54,15 +54,15 @@ The <b>wglCopyContext</b> function copies selected groups of rendering states fr
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the source OpenGL rendering context whose state information is to be copied.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the destination OpenGL rendering context to which state information is to be copied.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies which groups of the <i>hglrcSrc</i> rendering state are to be copied to <i>hglrcDst</i>. It contains the bitwise-OR of the same symbolic names that are passed to the <b>glPushAttrib</b> function. You can use GL_ALL_ATTRIB_BITS to copy all the rendering state information.
 

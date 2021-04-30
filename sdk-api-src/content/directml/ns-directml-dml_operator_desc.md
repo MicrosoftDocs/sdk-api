@@ -66,4 +66,3 @@ The type of the operator description. See <a href="https://msdn.microsoft.com/2D
 Type: <b>const void*</b>
 
 A pointer to the operator description. The type of the pointed-to struct must match the value specified in <i>Type.</i>
-

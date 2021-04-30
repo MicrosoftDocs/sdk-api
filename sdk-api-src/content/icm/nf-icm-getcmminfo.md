@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -49,7 +48,7 @@ Retrieves various information about the color management module (CMM) that creat
 
 Identifies the transform for which to find CMM information.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the information to be retrieved. This parameter can take one of the following constant values.
 
@@ -69,5 +68,5 @@ If this function fails, the return value is zero.
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

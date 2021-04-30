@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffect</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMILBitmapEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffect-getoutput">GetOutput</a>
-</td>
-<td align="left" width="63%">
-Gets the output of the effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffect-getparenteffect">GetParentEffect</a>
-</td>
-<td align="left" width="63%">
-Gets a parent of the effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffect-setinputsource">SetInputSource</a>
-</td>
-<td align="left" width="63%">
-Sets the effect input source.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IMILBitmapEffect</b> is a wrapper for a <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a>. A <b>IMILBitmapEffectPrimitive</b> is wrapped by a <b>IMILBitmapEffect</b> through Component Object Model (COM) aggregation.

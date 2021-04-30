@@ -60,24 +60,9 @@ CMYK color value from which the yellow color value will be retrieved.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-getcvalue">GetCValue</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-getkvalue">GetKValue</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-getmvalue">GetMValue</a>
-
-
-
-<a href="/previous-versions/windows/desktop/wcs/macros-for-cmyk-values-and-colors">Macros for CMYK Values and Colors</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [CMYK](/windows/win32/api/wingdi/nf-wingdi-cmyk)
+* [GetCValue](/windows/desktop/api/wingdi/nf-wingdi-getcvalue)
+* [GetKValue](/windows/desktop/api/wingdi/nf-wingdi-getkvalue)
+* [Macros for CMYK values and colors](/windows/win32/wcs/macros-for-cmyk-values-and-colors)

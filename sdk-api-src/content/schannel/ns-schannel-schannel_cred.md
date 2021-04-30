@@ -449,7 +449,7 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 </tr>
 <tr>
 <td width="40%"><a id="SCH_DISABLE_RECONNECTS"></a><a id="sch_disable_reconnects"></a><dl>
-<dt><b>SCH_DISABLE_RECONNECTS</b></dt>
+<dt><b>SCH_CRED_DISABLE_RECONNECTS</b></dt>
 <dt>0x00000080</dt>
 </dl>
 </td>

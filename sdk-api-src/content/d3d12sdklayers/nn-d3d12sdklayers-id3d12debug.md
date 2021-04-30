@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Debug</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D12Debug</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer">EnableDebugLayer</a>
-</td>
-<td align="left" width="63%">
-Enables the debug layer.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is obtained by querying it from <a href="/windows/desktop/api/d3d12/nf-d3d12-d3d12getdebuginterface">D3D12GetDebugInterface</a>.

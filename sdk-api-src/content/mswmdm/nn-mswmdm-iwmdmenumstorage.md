@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumStorage</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMDMEnumStorage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates another enumerator with the same enumeration state as the current enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-next">Next</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the next sibling storage
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Sets the enumeration sequence back to the beginning.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumstorage-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips over the specified number of storage devices or separate items of content in the enumeration sequence.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMDM/exploring-a-device">Exploring a Device</a>

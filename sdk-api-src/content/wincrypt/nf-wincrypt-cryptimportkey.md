@@ -87,10 +87,7 @@ A handle to the cryptographic key that decrypts the key stored in <i>pbData</i>.
 
 Currently used only when a <a href="/windows/desktop/SecGloss/p-gly">public/private key pair</a> in the form of a <b>PRIVATEKEYBLOB</b> is imported into the CSP. 
 
-
-
-						
-					This parameter can be one of the following values.
+This parameter can be one of the following values.
 
 <table>
 <tr>

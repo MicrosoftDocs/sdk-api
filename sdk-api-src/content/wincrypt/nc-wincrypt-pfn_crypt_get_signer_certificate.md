@@ -54,7 +54,7 @@ The <b>CryptGetSignerCertificateCallback</b> user supplied callback function is 
 
 ## -parameters
 
-### -param *pvGetArg [in]
+### -param pvGetArg [in]
 
 A pointer to user-defined data passed on to the verification function as specified in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_verify_message_para">CRYPT_VERIFY_MESSAGE_PARA</a> structure.
 

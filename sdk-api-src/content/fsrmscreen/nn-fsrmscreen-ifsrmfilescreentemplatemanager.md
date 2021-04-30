@@ -66,61 +66,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenTemplateManage
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFsrmFileScreenTemplateManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">CreateTemplate</a>
-</td>
-<td align="left" width="63%">
-Creates a file screen template object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">EnumTemplates</a>
-</td>
-<td align="left" width="63%">
-Enumerates the file screen templates on the server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">ExportTemplates</a>
-</td>
-<td align="left" width="63%">
-Exports the file screen templates as an XML string.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-gettemplate">GetTemplate</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified file screen template.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">ImportTemplates</a>
-</td>
-<td align="left" width="63%">
-Imports the specified file screen templates from an XML string.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Note that a new installation of the operating system includes FSRM-defined templates.

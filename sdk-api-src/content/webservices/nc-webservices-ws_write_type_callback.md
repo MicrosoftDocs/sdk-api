@@ -55,7 +55,7 @@ Invoked to write an element when <a href="/windows/desktop/api/webservices/ne-we
 
 ## -parameters
 
-### -param *writer [in]
+### -param writer [in]
 
 A  <b>WS_XML_WRITER</b> pointer to the writer that the value should be written to.
 
@@ -69,12 +69,12 @@ If a mapping does not make sense for this particular type, the callback
                     should be prepared to be passed new mapping types in future versions and should return
                     <b>WS_E_INVALID_OPERATION</b> for those cases.
 
-### -param *descriptionData [in]
+### -param descriptionData [in]
 
 This is the value of the <b>descriptionData</b> field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback uses this field to access any additional information about the type.
 
-### -param *value
+### -param value
 
 A  <b>void</b> pointer to a value to serialize.
 
@@ -82,7 +82,7 @@ A  <b>void</b> pointer to a value to serialize.
 
 The size, in bytes, of the value being serialized.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 A pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
 

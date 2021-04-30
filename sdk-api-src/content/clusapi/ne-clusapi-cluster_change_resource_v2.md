@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - CLUSTER_CHANGE_RESOURCE_V2
 ---

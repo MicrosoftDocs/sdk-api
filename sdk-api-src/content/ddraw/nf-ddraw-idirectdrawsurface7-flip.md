@@ -54,11 +54,11 @@ Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for an arbitrary surface in the flipping chain. The default for this parameter is NULL, in which case DirectDraw cycles through the buffers in the order that they are attached to each other. If this parameter is not NULL, DirectDraw flips to the specified surface, instead of the next surface in the flipping chain. <b>Flip</b> fails if the specified surface is not a member of the flipping chain.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 A combination of flags that specify flip options. The following flags are defined:
 

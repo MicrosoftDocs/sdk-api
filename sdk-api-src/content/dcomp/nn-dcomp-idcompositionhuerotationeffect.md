@@ -59,24 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionHueRotationEffec
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionHueRotationEffect</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-setangle">SetAngle</a>
-</td>
-<td align="left" width="63%">Overloaded. Sets the angle to rotate the hue.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>

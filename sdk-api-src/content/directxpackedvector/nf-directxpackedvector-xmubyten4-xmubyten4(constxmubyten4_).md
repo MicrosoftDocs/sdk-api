@@ -58,7 +58,7 @@ A constructor for <a href="/windows/win32/api/directxpackedvector/ns-directxpack
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

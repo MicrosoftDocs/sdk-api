@@ -62,39 +62,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMParse</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMParse</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-flush">Flush</a>
-</td>
-<td align="left" width="63%">
-Empties the current file buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-getparsetime">GetParseTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current stream parse time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/amparse/nf-amparse-iamparse-setparsetime">SetParseTime</a>
-</td>
-<td align="left" width="63%">
-Sets the current stream parse time.
-
-</td>
-</tr>
-</table>

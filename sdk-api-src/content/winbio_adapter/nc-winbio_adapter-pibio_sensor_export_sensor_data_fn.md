@@ -58,7 +58,7 @@ Called by the Windows Biometric Framework to retrieve a copy of the most recentl
 
 Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-### -param *SampleBuffer [out]
+### -param SampleBuffer [out]
 
 Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the sample.
 

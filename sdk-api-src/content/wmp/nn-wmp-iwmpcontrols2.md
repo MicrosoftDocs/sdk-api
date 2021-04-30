@@ -59,27 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls2</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPControls2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols2-step">step</a>
-</td>
-<td align="left" width="63%">
-Stops playback of the current DVD media item on the next or previous frame.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to an <b>IWMPControls2</b> interface by calling the <b>QueryInterface</b> method of an <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls</a> interface.
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>

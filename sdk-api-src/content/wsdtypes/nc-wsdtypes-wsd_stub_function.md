@@ -54,15 +54,15 @@ Describes a stub function used to handle an incoming message. This function shou
 
 ## -parameters
 
-### -param *server
+### -param server
 
 Pointer to the service object that was registered as a handler for messages of this type. Service objects are registered by calling one of the following methods:  <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">IWSDDeviceHost::RegisterService</a>, <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">IWSDDeviceHost::AddDynamicService</a>, or <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-subscribetooperation">IWSDServiceProxy::SubscribeToOperation</a>.
 
-### -param *session
+### -param session
 
 Pointer to an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a> object used for sending a fault or message response.
 
-### -param *event
+### -param event
 
 Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure that contains the data for the current request.
 

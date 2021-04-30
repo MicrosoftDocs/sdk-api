@@ -65,7 +65,7 @@ The version number of the profile. The version number is determined by the ICC. 
 
 ### -field phClass
 
-Indicates the profile class. For a description of profile classes, see [Using Device Profiles with WCS](using-device-profiles-with-wcs.md). A profile class may have any of the following values.
+Indicates the profile class. For a description of profile classes, see [Using Device Profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs). A profile class may have any of the following values.
 
 | Profile Class                  | Signature         |
 |--------------------------------|-------------------|
@@ -81,7 +81,7 @@ Indicates the profile class. For a description of profile classes, see [Using De
 
 ### -field phDataColorSpace
 
-A signature value that indicates the color space in which the profile data is defined. The member can be any of value from the [Color Space Constants](color-space-constants.md).
+A signature value that indicates the color space in which the profile data is defined. The member can be any of value from the [Color Space Constants](/windows/win32/wcs/color-space-constants).
 
 ### -field phConnectionSpace
 
@@ -210,7 +210,7 @@ INTENT\_RELATIVE\_COLORIMETRIC
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ### -field phIlluminant
 
@@ -228,6 +228,6 @@ Reserved.
 
 ## -see-also
 
-* [Further information](further-information.md)
-* [Using device profiles with WCS](using-device-profiles-with-wcs.md)
-* [Rendering intents](rendering-intents.md)
+* [Further information](/windows/win32/wcs/further-information)
+* [Using device profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs)
+* [Rendering intents](/windows/win32/wcs/rendering-intents)

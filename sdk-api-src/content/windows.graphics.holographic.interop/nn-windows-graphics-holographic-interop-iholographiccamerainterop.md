@@ -4,7 +4,6 @@ title: IHolographicCameraInterop
 description: Extends [HolographicCamera](/uwp/api/windows.graphics.holographic.holographiccamera) to allow 2D texture resources to be created and used as back buffers for holographic rendering in Direct3D 12.
 tech.root: direct3d12
 ms.date: 12/12/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: iface

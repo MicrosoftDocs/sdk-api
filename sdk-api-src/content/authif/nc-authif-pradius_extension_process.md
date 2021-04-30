@@ -55,7 +55,7 @@ api_name:
 
 ## -parameters
 
-### -param *pAttrs [in]
+### -param pAttrs [in]
 
 Pointer to an array of 
 <a href="/windows/desktop/api/authif/ns-authif-radius_attribute">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 

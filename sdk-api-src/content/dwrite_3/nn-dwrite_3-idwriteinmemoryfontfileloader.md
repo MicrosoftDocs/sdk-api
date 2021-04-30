@@ -65,34 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteInMemoryFontFileLoader
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteInMemoryFontFileLoader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-createinmemoryfontfilereference">CreateInMemoryFontFileReference</a>
-</td>
-<td align="left" width="63%">
-Creates a font file reference (<a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a> object) from an array of bytes. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteinmemoryfontfileloader-getfilecount">GetFileCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of font file references that have been created using this loader instance.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 [Creating a custom font set using font data loaded into memory](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-font-data-loaded-into-memory)

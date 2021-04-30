@@ -54,15 +54,15 @@ The <b>OutputProc</b> function is an application-defined callback function used 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 A handle to a device context with a bitmap of at least the width and height specified by the <i>nWidth</i> and <i>nHeight</i> parameters passed to <a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>.
 
-### -param Arg2
+### -param unnamedParam2
 
 A pointer to the string to be drawn.
 
-### -param Arg3
+### -param unnamedParam3
 
 The length, in characters, of the string.
 

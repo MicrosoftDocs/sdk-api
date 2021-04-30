@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_AUTOCONF_OPCODE~r1
 title: WLAN_AUTOCONF_OPCODE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
 targetos: Windows
 req.construct-type: enumeration

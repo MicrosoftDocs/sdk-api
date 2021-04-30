@@ -64,25 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMetadataProvider</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFMetadataProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmetadataprovider-getmfmetadata">GetMFMetadata</a>
-</td>
-<td align="left" width="63%">
-Gets a collection of metadata, either for an entire presentation, or for one stream in the presentation.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>

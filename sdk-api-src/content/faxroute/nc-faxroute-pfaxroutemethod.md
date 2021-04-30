@@ -53,19 +53,19 @@ The fax routing extension DLL can export multiple fax routing methods. The fax r
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Type: <b>const <a href="/windows/win32/api/faxroute/ns-faxroute-fax_route">FAX_ROUTE</a>*</b>
 
 Pointer to a <a href="/windows/win32/api/faxroute/ns-faxroute-fax_route">FAX_ROUTE</a> structure that contains information about the received fax document.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: <b>PVOID*</b>
 
 Pointer to a variable that receives a pointer to a buffer that contains retry information for the fax routing method. This parameter can be equal to <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: <b>LPDWORD</b>
 

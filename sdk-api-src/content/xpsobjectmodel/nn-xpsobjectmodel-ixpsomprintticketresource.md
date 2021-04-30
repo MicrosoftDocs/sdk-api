@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPrintTicketResource</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsOMPrintTicketResource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets a new, read-only copy of the stream that is associated with this resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent">SetContent</a>
-</td>
-<td align="left" width="63%">
-Sets the read-only stream to be  associated with this resource.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createprintticketresource">IXpsOMObjectFactory::CreatePrintTicketResource</a>

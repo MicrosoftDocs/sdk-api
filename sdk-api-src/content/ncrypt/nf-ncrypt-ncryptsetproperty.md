@@ -148,7 +148,7 @@ Set the SID of the object's primary group. Use the <a href="/windows/desktop/api
 </dl>
 </td>
 <td width="60%">
-Set the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the DACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the DACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ Set the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control l
 </dl>
 </td>
 <td width="60%">
-Set the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ Set the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a>
 </dl>
 </td>
 <td width="60%">
-Set the mandatory label access control entry in the SACL of the object. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="/previous-versions/dotnet/articles/bb625963(v=msdn.10)">Windows Integrity Mechanism Design</a>.
+Set the mandatory label access control entry in the SACL of the object. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="/previous-versions/dotnet/articles/bb625963(v=msdn.10)">Windows Integrity Mechanism Design</a>.
 
 </td>
 </tr>

@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTrackerConfig</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IServiceTrackerConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicetrackerconfig-trackerconfig">TrackerConfig</a>
-</td>
-<td align="left" width="63%">
-Configures the tracker property for the enclosed work.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The tracker property is a reporting mechanism used by monitoring code to watch which code is running when. It is the reporting mechanism behind the spinning balls in the Component Services administrative tool.

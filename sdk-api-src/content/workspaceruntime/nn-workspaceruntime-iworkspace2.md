@@ -61,21 +61,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace2</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWorkspace2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace2-startremoteapplicationex">StartRemoteApplicationEx</a>
-</td>
-<td align="left" width="63%">
-Starts a RemoteApp program with additional options and features.
-
-</td>
-</tr>
-</table>

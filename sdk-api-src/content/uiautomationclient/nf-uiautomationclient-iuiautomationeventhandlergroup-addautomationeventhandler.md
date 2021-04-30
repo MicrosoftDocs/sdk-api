@@ -59,7 +59,7 @@ Registers a method that handles Microsoft UI Automation events.
 
 The identifier of the event that the method handles. For a list of event IDs, see <a href="/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 

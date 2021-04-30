@@ -64,43 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl2</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITBasicCallControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal">RequestTerminal</a>
-</td>
-<td align="left" width="63%">
-Gets a suitable terminal, given the class, media, and direction required.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall">SelectTerminalOnCall</a>
-</td>
-<td align="left" width="63%">
-Selects a terminal onto the call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall">UnselectTerminalOnCall</a>
-</td>
-<td align="left" width="63%">
-Unselects a terminal from the call.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

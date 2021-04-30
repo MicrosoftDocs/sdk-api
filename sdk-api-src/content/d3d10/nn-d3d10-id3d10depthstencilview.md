@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilView</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10DepthStencilView</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10depthstencilview-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the depth-stencil <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To create a depth-stencil view, call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">ID3D10Device::CreateDepthStencilView</a>.

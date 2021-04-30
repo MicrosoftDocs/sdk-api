@@ -58,7 +58,7 @@ A constructor for <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

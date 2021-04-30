@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsQueryStateSupported method, IDXCoreAdapter.IsQueryStateSupported, IDXCoreAdapter::IsQueryStateSupported, IsQueryStateSupported, IsQueryStateSupported method, IsQueryStateSupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsQueryStateSupported, dxcore_interface.idxcoreadapterfactory_isquerystatesupported
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

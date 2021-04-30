@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallUnmarshal</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICallUnmarshal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallunmarshal-releasemarshaldata">ReleaseMarshalData</a>
-</td>
-<td align="left" width="63%">
-Releases resources that may be held by interface pointers residing in a packet of marshaled data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/callobj/nf-callobj-icallunmarshal-unmarshal">Unmarshal</a>
-</td>
-<td align="left" width="63%">
-Turns a marshaled packet of data back into an activation record that can then be invoked or manipulated in some other way.
-
-</td>
-</tr>
-</table>

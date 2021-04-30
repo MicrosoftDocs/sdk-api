@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationUIEvents</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWebApplicationUIEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationuievents-securityproblem">SecurityProblem</a>
-</td>
-<td align="left" width="63%">
-Notifies the authoring app about an authentication problem.
-
-</td>
-</tr>
-</table>

@@ -54,7 +54,7 @@ Helps the application synchronize itself with the vertical-blank interval.
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 One of the following flags that indicates how long to wait for the vertical blank:
 
@@ -76,7 +76,7 @@ Triggers an event when the vertical blank begins. This value is not currently su
 
 <b>WaitForVerticalBlank</b> returns when the vertical-blank interval ends and the display begins.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Handle of the event to be triggered when the vertical blank begins. This parameter is not currently used.
 

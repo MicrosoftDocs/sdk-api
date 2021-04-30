@@ -61,25 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewExtensionCallback</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IViewExtensionCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">AddView</a>
-</td>
-<td align="left" width="63%">
-Adds a view to the result pane, and optionally removes the standard view.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/extending-views">Extending Views</a>

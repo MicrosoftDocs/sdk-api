@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEYSESSION_MESSAGETYPE
 title: MF_MEDIAKEYSESSION_MESSAGETYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) message.
 tech.root: mf

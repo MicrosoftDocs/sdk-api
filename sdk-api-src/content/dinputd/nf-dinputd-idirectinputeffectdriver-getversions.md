@@ -51,7 +51,7 @@ The <b>IDirectInputEffectDriver::GetVersions </b>method obtains version informat
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/dinputd/ns-dinputd-didriverversions">DIDRIVERVERSIONS</a> structure that should be filled in with version information describing the hardware, firmware, and driver. DirectInput sets the <b>dwSize</b> member of the DIDRIVERVERSIONS structure to <b>sizeof</b>(DIDRIVERVERSIONS) before calling this method.
 

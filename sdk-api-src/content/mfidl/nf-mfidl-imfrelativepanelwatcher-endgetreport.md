@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFRelativePanelWatcher.EndGetReport
 title: IMFRelativePanelWatcher::EndGetReport
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Ends an asynchronous request to get an IMFRelativePanelReport interface that represents the relative panel location.
 tech.root: mf
@@ -42,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Ends an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+Ends an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -parameters
 
@@ -52,7 +51,7 @@ Pointer to the [IMFAsyncResult](/windows/desktop/api/mfobjects/nn-mfobjects-imfa
 
 ### -param ppRelativePanelReport
 
-A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+A pointer to he [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -returns
 

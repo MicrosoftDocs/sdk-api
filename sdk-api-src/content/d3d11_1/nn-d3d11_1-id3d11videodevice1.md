@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDevice1</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11VideoDevice1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-checkvideodecoderdownsampling">CheckVideoDecoderDownsampling</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getcryptosessionprivatedatasize">GetCryptoSessionPrivateDataSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves optional sizes for private driver data. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-getvideodecodercaps">GetVideoDecoderCaps</a>
-</td>
-<td align="left" width="63%">
-Retrieves capabilities and limitations of the video decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11videodevice1-recommendvideodecoderdownsampleparameters">RecommendVideoDecoderDownsampleParameters</a>
-</td>
-<td align="left" width="63%">
-Allows the driver to recommend optimal output downsample parameters from the input parameters.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The Direct3D 11 device supports this interface. To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with an <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a> interface pointer.

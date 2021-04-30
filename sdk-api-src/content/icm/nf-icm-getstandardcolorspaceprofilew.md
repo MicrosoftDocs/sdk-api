@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetStandardColorSpaceProfileW
 title: GetStandardColorSpaceProfileW
-description: Retrieves the color profile registered for the specified standard [color space](c.md).
+description: Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/c).
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -44,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Retrieves the color profile registered for the specified standard [color space](c.md).
+Retrieves the color profile registered for the specified standard [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 
@@ -90,6 +89,6 @@ This is executable in LUA context.
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [SetStandardColorSpaceProfile](/windows/win32/api/icm/nf-icm-setstandardcolorspaceprofilew)

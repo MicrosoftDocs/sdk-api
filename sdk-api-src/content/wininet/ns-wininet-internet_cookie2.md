@@ -6,9 +6,8 @@ tech.root: wininet
 helpviewer_keywords: ["INTERNET_COOKIE2","INTERNET_COOKIE2 structure [WinINet]","_inet_internet_cookie2_structure","wininet.internet_cookie2","wininet/INTERNET_COOKIE2"]
 ms.date: 12/03/2020
 ms.keywords: __unnamed_struct_37, INTERNET_COOKIE2
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.header: wininet.h

@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRadialControllerInterop</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRadialControllerInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow">CreateForWindow</a>
-</td>
-<td align="left" width="63%">
-Instantiates a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <b>Developer and UX guidance</b>

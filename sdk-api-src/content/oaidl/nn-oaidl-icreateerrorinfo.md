@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateErrorInfo</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICreateErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-setdescription">SetDescription</a>
-</td>
-<td align="left" width="63%">
-Sets the textual description of the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-setguid">SetGUID</a>
-</td>
-<td align="left" width="63%">
-Sets the globally unique identifier (GUID) of the interface that defined the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpcontext">SetHelpContext</a>
-</td>
-<td align="left" width="63%">
-Sets the Help context identifier (ID) for the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpfile">SetHelpFile</a>
-</td>
-<td align="left" width="63%">
-Sets the path of the Help file that describes the error.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/automat/source">SetSource</a>
-</td>
-<td align="left" width="63%">
-Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/automat/error-handling-interfaces">Error Handling Interfaces </a>

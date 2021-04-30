@@ -74,61 +74,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionControl2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioSessionControl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getprocessid">GetProcessId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the process identifier of the session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessionidentifier">GetSessionIdentifier</a>
-</td>
-<td align="left" width="63%">
-Retrieves the session identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">GetSessionInstanceIdentifier</a>
-</td>
-<td align="left" width="63%">
-Retrieves the identifier of the session instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-issystemsoundssession">IsSystemSoundsSession</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the session is a system sounds session.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-setduckingpreference">SetDuckingPreference</a>
-</td>
-<td align="left" width="63%">
-Enables or disables the default stream attenuation experience (auto-ducking) provided by the system.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="/windows/desktop/CoreAudio/stream-attenuation">Default Ducking Experience</a>. 

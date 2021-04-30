@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSelectorStatics</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStreamSelectorStatics</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh828954(v=vs.85)">GetStreamPropertiesAsync</a>
-</td>
-<td align="left" width="63%">
-When implemented gets the properties of the stream asynchronously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh828955(v=vs.85)">SelectBestStreamAsync</a>
-</td>
-<td align="left" width="63%">
-When implemented queries asynchronously for the best stream.
-
-</td>
-</tr>
-</table>

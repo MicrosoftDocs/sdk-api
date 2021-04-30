@@ -5,7 +5,7 @@ description: Allows a file viewer to determine whether it can display a file.
 helpviewer_keywords: ["IFileViewerA::ShowInitialize"]
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerA::ShowInitialize
 targetos: Windows
 req.assembly: 

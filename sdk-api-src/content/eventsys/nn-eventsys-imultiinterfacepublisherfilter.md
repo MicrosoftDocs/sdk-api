@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfacePublisherFilte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMultiInterfacePublisherFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Associates an event class with a publisher filter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-preparetofire">PrepareToFire</a>
-</td>
-<td align="left" width="63%">
-Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
-
-</td>
-</tr>
-</table>

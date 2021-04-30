@@ -60,36 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimer</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTimer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-canceltimer">CancelTimer</a>
-</td>
-<td align="left" width="63%">
-Cancels a timer.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">SetTimer</a>
-</td>
-<td align="left" width="63%">
-Sets a timer that invokes a callback.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The presentation clock exposes this interface. To get a pointer to the interface, call <b>QueryInterface</b>.

@@ -63,52 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsCollection</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IADsCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadscollection-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an object to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadscollection-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Gets an interface on an enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadscollection-getobject">GetObject</a>
-</td>
-<td align="left" width="63%">
-Gets the specified item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/iads/nf-iads-iadscollection-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes an object from the collection.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Of the ADSI system providers, only the WinNT provider supports this interface to handle active file service sessions, resources and print jobs.

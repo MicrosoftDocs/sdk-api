@@ -98,6 +98,8 @@ to the process.
 
 A process cannot prevent itself from being terminated.
 
+After a process has terminated, call to <b>TerminateProcess</b> with open handles to the process fails with <b>ERROR_ACCESS_DENIED</b> (5) error code.
+
 ## -see-also
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>

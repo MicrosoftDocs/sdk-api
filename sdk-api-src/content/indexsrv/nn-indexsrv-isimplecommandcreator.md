@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleCommandCreator</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISimpleCommandCreator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-createicommand">CreateICommand</a>
-</td>
-<td align="left" width="63%">
-Creates an ICommand.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-getdefaultcatalog">GetDefaultCatalog</a>
-</td>
-<td align="left" width="63%">
-Determines the default catalog for the system.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-isimplecommandcreator-verifycatalog">VerifyCatalog</a>
-</td>
-<td align="left" width="63%">
-Validates the catalog location.
-
-</td>
-</tr>
-</table>

@@ -58,6 +58,9 @@ api_name:
 
 Defines the frame and pages of a property sheet.
 
+> [!NOTE]
+> This structure is not intended to be used directly in your code. Instead, use the [PROPSHEETHEADER](/windows/win32/controls/pss-propsheetheader) structure.
+
 ## -struct-fields
 
 ### -field DUMMYUNIONNAME4

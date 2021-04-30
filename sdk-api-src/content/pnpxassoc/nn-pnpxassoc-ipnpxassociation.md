@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPNPXAssociation</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPNPXAssociation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-associate">IPNPXAssociation::Associate</a>
-</td>
-<td align="left" width="63%">
-Marks an association database entry as associated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-delete">IPNPXAssociation::Delete</a>
-</td>
-<td align="left" width="63%">
-Removes an entry from the association database.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>
-</td>
-<td align="left" width="63%">
-Marks an association database entry as unassociated. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is obtained by calling <a href="/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a> on a function instance returned by a Function Discovery query. The following pseudocode shows the parameters to use for the  <b>QueryService</b> call.

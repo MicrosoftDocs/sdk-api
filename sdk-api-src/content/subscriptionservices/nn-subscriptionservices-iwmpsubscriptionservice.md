@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPSubscriptionService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn">allowCDBurn</a>
-</td>
-<td align="left" width="63%">
-Manages permission for Windows Media Player to copy content to a CD.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer">allowPDATransfer</a>
-</td>
-<td align="left" width="63%">
-Manages permission for Windows Media Player to copy content to a device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay">allowPlay</a>
-</td>
-<td align="left" width="63%">
-Manages permission for Windows Media Player to play content.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing">startBackgroundProcessing</a>
-</td>
-<td align="left" width="63%">
-Initiates background processing tasks.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>

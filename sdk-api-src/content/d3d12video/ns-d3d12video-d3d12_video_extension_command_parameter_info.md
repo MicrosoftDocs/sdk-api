@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 title: D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a video extension command parameter.
 tech.root: mf

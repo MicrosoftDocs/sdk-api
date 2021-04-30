@@ -1,7 +1,7 @@
 ---
 UID: NS:windns._DNS_SERVICE_RESOLVE_REQUEST
 title: DNS_SERVICE_RESOLVE_REQUEST structure
-description: Contains the query parameters used in a call to [DnsServiceResolve](nf-windns-dnsserviceresolve.md).
+description: Contains the query parameters used in a call to [DnsServiceResolve](../windns/nf-windns-dnsserviceresolve.md).
 tech.root: dns
 helpviewer_keywords: ["_DNS_SERVICE_RESOLVE_REQUEST","DNS_SERVICE_RESOLVE_REQUEST"]
 ms.date: 02/19/2019
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains the query parameters used in a call to [DnsServiceResolve](nf-windns-dnsserviceresolve.md). Use that function, and this structure, after you've found a specific service name that you'd like to connect to.
+Contains the query parameters used in a call to [DnsServiceResolve](/windows/win32/api/windns/nf-windns-dnsserviceresolve). Use that function, and this structure, after you've found a specific service name that you'd like to connect to.
 
 ## -struct-fields
 

@@ -5,9 +5,8 @@ description: Returns a path for a per-service filesystem location for a service 
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: GetServiceDirectory
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,9 +5,8 @@ ms.date: 9/9/2019
 ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: _CIMFS_FILE_METADATA, CIMFS_FILE_METADATA
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

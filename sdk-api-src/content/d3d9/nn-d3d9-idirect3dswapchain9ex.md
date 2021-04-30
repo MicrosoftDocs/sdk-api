@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DSwapChain9Ex</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DSwapChain9Ex</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex">GetDisplayModeEx</a>
-</td>
-<td align="left" width="63%">
-Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount">GetLastPresentCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of times the swapchain has been processed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)">GetPresentStatistics</a>
-</td>
-<td align="left" width="63%">
-Gets presentation statistics so an application can identify frames that do not have a Present method call.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 There is always at least one swap chain for each device, known as the implicit swap chain. However, an additional swap chain for rendering multiple views from the same device can be created by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createadditionalswapchain">CreateAdditionalSwapChain</a> method.

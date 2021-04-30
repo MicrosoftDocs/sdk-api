@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensOnNow</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISensOnNow</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">BatteryLow</a>
-</td>
-<td align="left" width="63%">
-Battery power is low.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">OnACPower</a>
-</td>
-<td align="left" width="63%">
-Switched to AC power.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">OnBatteryPower</a>
-</td>
-<td align="left" width="63%">
-Switched to Battery power.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>

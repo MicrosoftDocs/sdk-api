@@ -62,25 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSinkPreroll</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFMediaSinkPreroll</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasinkpreroll-notifypreroll">NotifyPreroll</a>
-</td>
-<td align="left" width="63%">
-Notifies the media sink that the presentation clock is about to start.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Media sinks can implement this interface to support seamless playback and transitions. If a media sink exposes this interface, it can receive samples before the presentation clock starts. It can then pre-process the samples, so that rendering can begin immediately when the clock starts. Prerolling helps to avoid glitches during playback.

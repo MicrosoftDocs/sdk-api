@@ -53,7 +53,7 @@ The <i>D3dGetDriverState</i> function is used by both the Microsoft DirectDraw a
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverstatedata">DD_GETDRIVERSTATEDATA</a> structure that describes the state of the driver.

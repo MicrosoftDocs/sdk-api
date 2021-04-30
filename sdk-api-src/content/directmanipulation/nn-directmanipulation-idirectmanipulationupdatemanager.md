@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationUpdateMana
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectManipulationUpdateManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-registerwaithandlecallback">RegisterWaitHandleCallback</a>
-</td>
-<td align="left" width="63%">
-Registers a callback that is triggered by a handle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-unregisterwaithandlecallback">UnregisterWaitHandleCallback</a>
-</td>
-<td align="left" width="63%">
-Deregisters a callback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationupdatemanager-update">Update</a>
-</td>
-<td align="left" width="63%">
-Updates <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> at the current time.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>

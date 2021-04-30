@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjPrimarySite</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDsAdminNewObjPrimarySite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-commit">Commit</a>
-</td>
-<td align="left" width="63%">
-Writes a temporary object to persistent memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">CreateNew</a>
-</td>
-<td align="left" width="63%">
-Enables a primary object creation extension to create a temporary object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>

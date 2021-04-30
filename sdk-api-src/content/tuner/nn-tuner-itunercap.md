@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITunerCap</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITunerCap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_auxinputcount">get_AuxInputCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves a count of the number of auxiliary inputs on the TV tuner.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_supportednetworktypes">get_SupportedNetworkTypes</a>
-</td>
-<td align="left" width="63%">
-Retrieves a list of the network types that are supported by the TV tuner.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_supportedvideoformats">get_SupportedVideoFormats</a>
-</td>
-<td align="left" width="63%">
-Retrieves the video formats that are supported by the TV tuner.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ITunerCap)</code>.

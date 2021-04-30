@@ -60,7 +60,7 @@ An application-defined callback function used with the
 
 ## -parameters
 
-### -param *pMessage [in]
+### -param pMessage [in]
 
 Pointer to a <a href="/windows/desktop/api/winbase/ns-winbase-copyfile2_message">COPYFILE2_MESSAGE</a> structure.
 

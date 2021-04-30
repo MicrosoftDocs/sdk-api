@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDShowPlugin</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDShowPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_url">get_URL</a>
-</td>
-<td align="left" width="63%">
-Gets the URL of the current web page.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-idshowplugin-get_useragent">get_UserAgent</a>
-</td>
-<td align="left" width="63%">
-Gets the User-Agent string.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:

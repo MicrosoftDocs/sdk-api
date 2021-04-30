@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecStrings</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMCodecStrings</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecstrings-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the description of an output format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecstrings-getname">GetName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of a codec.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

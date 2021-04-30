@@ -44,6 +44,8 @@ api_name:
 
 Destructor for the [CWbemGlueFactory](./nl-wbemglue-cwbemgluefactory.md) class.
 
+## -parameters
+
 ## -remarks
 
 ## -see-also

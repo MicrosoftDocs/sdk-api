@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorTransform</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICColorTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwiccolortransform-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes an <b>IWICColorTransform</b> with a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> and transforms it from one <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> to another. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A <b>IWICColorTransform</b> is an imaging pipeline component that knows how to pull pixels obtained from a given <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> through a color transform. The color transform is defined by mapping colors from the source color context to the destination color context in a given output pixel format.

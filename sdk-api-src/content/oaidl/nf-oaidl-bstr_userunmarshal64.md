@@ -54,15 +54,15 @@ Unmarshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> 
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The object.
 

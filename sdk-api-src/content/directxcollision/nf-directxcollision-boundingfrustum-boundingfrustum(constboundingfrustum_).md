@@ -54,7 +54,7 @@ Creates an instance of [BoundingFrustum](./ns-directxcollision-boundingfrustum.m
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to use to initialize the new <b>BoundingFrustum</b>.
 

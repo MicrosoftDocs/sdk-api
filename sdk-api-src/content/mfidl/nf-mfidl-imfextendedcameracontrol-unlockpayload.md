@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.UnlockPayload
 title: IMFExtendedCameraControl::UnlockPayload
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Unlocks the raw payload contained in the capture device control.
 tech.root: mf
@@ -43,6 +42,8 @@ dev_langs:
 ## -description
 
 Unlocks the raw payload contained in the capture device control.
+
+## -parameters
 
 ## -returns
 

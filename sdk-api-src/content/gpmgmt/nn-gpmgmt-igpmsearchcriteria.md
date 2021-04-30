@@ -62,25 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGPMSearchCriteria</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsearchcriteria-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a criterion for search operations.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

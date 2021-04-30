@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexShader9</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirect3DVertexShader9</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexshader9-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-Gets the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvertexshader9-getfunction">GetFunction</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the shader data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The LPDIRECT3DVERTEXSHADER9 and PDIRECT3DVERTEXSHADER9 types are defined as pointers to the <b>IDirect3DVertexShader9</b> interface.

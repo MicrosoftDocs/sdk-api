@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.MFCreateEncryptedMediaExtensionsStoreActivate
 title: MFCreateEncryptedMediaExtensionsStoreActivate
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -28,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mfcontentdecryptionmodule.h
 api_name:

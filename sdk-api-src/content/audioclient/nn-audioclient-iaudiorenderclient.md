@@ -74,34 +74,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioRenderClient</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioRenderClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to the next available space in the rendering endpoint buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">ReleaseBuffer</a>
-</td>
-<td align="left" width="63%">
-Releases the buffer space acquired in the previous call to the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a> method.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

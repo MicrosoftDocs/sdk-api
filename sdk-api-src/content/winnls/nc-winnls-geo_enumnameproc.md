@@ -54,9 +54,9 @@ An application-defined callback function that processes enumerated geographical 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-### -param Arg2
+### -param unnamedParam2
 
 #### - GeoName [in]
 

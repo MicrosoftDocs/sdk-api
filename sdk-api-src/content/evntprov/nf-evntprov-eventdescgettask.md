@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the task from the event descriptor.
+Retrieves the task from the event descriptor.
 
 ## -parameters
 

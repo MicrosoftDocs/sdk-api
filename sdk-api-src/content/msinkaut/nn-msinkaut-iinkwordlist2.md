@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList2</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IInkWordList2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords">AddWords Method</a>
-</td>
-<td align="left" width="63%">
-Adds more than one word to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

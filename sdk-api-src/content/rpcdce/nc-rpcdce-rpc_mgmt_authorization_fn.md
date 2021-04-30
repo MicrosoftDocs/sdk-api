@@ -125,7 +125,7 @@ RPC_C_MGMT_STOP_SERVER_LISTEN
 
 The authorization function must handle all of these values.
 
-### -param *Status
+### -param Status
 
 If <i>Status</i> is either 0 (zero) or RPC_S_OK, the <i>Status</i> value RPC_S_ACCESS_DENIED is returned to the client by the remote management function. If the authorization function returns any other value for <i>Status</i>, that <i>Status</i> value is returned to the client by the remote management function.
 

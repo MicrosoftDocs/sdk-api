@@ -52,7 +52,7 @@ The <i>CreateD3DBuffer</i> callback function is used to create a driver-level co
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfacedata">DD_CREATESURFACEDATA</a> structure that contains the information required to create the buffer.
 

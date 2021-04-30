@@ -44,6 +44,8 @@ dev_langs:
 
 Retrieves a description of the protected resource session.
 
+## -parameters
+
 ## -returns
 
 A [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](./ns-d3d12-d3d12_protected_resource_session_desc1.md) that describes the protected resource session.

@@ -3,7 +3,7 @@ UID: NE:directml.DML_FEATURE_LEVEL
 title: DML_FEATURE_LEVEL
 description: Defines constants that specify a DirectML *feature level*. A feature level defines a broad umbrella of functionality supported by DirectML.
 tech.root: directml
-ms.date: 10/30/2020
+ms.date: 03/11/2021
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -72,12 +72,21 @@ Specifies feature level 2_1.
 
 Specifies feature level 3_0.
 
+### -field DML_FEATURE_LEVEL_3_1
+
+Specifies feature level 3_1.
+
+## -remarks
+
+The **DML_FEATURE_LEVEL_3_1** constant was introduced in `DML_FEATURE_LEVEL_3_1`. **DML_FEATURE_LEVEL_3_1** specifies feature level 3_1.
+
 ## Availability
 
 This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
-[DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
-[IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
-[DirectML version history](/windows/win32/direct3d12/dml-version-history)
-[DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)
+
+* [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
+* [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
+* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
+* [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)

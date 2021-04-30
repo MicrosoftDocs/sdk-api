@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedPoolAction</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IManagedPoolAction</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedpoolaction-lastrelease">LastRelease</a>
-</td>
-<td align="left" width="63%">
-Called when a COM+ object pool drops the last reference to the object that implements it.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>

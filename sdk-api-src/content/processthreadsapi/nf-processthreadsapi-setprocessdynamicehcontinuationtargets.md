@@ -2,7 +2,6 @@
 UID: NF:processthreadsapi.SetProcessDynamicEHContinuationTargets
 title: SetProcessDynamicEHContinuationTargets
 ms.date: 4/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: Sets dynamic exception handling continuation targets for the specified process.
 req.assembly: 
@@ -27,7 +26,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - processthreadsapi.h
 api_name:

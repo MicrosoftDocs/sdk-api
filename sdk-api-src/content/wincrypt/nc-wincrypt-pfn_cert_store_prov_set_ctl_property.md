@@ -74,7 +74,7 @@ Identifier of the property to be set.
 
 Any needed flag values.
 
-### -param *pvData [in]
+### -param pvData [in]
 
 A pointer to a buffer containing the property value to be set.
 

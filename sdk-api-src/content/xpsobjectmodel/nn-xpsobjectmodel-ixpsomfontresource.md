@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMFontResource</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsOMFontResource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-getembeddingoption">GetEmbeddingOption</a>
-</td>
-<td align="left" width="63%">
-Gets the embedding option that will be applied when the resource is serialized.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-getstream">GetStream</a>
-</td>
-<td align="left" width="63%">
-Gets a new, read-only copy of the stream that is associated with this resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresource-setcontent">SetContent</a>
-</td>
-<td align="left" width="63%">
-Sets the read-only stream to be associated with this resource.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The code example that follows illustrates how to create an instance of  this interface.

@@ -55,7 +55,7 @@ This operator assigns the vector component data from one instance of <a href="/w
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMBYTE2</code> used to update the current <code>XMBYTE2</code> structure.
 

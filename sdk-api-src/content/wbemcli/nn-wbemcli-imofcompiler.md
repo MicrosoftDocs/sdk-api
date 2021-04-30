@@ -62,59 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface in
 <li><a href="https://docs.microsoft.com/">Structures</a></li>
 </ul>
 
-## -members
-
-The <b>IMofCompiler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
-</td>
-<td align="left" width="63%">
-Takes the information in a buffer and stores it in Windows Management. The buffer must contain binary MOF data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
-</td>
-<td align="left" width="63%">
-Compiles a particular MOF file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
-</td>
-<td align="left" width="63%">
-Reads a MOF file and outputs binary MOF data to another file.
-
-</td>
-</tr>
-</table> 
-<h3><a id="structs"></a>Structures</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMofCompiler</b> interface has these structures.
-<table>
-<tr>
-<th align="left" width="37%">Structure</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="/windows/win32/api/wbemcli/ns-wbemcli-wbem_compile_status_info">WBEM_COMPILE_STATUS_INFO</a>
-</td>
-<td align="left" width="63%">
-Describes an error for the <b>IMofCompiler</b> interface.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>Windows 8:  </b>When installing a provider the <b>IMofCompiler</b> interface treats the [Key] and [Static] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.

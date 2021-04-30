@@ -74,7 +74,7 @@ Type: \_Maybenull\_ **const [DML_SCALE_BIAS](/windows/win32/api/directml/ns-dire
 
 An optional scale and bias to apply to the input. If present, this has the effect of applying the function `g(x) = x * scale + bias` to each *input* element prior to computing this operator.
 
-# Availability
+## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints

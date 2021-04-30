@@ -51,7 +51,7 @@ The <b>DdDestroySurface</b> callback function destroys a DirectDraw surface.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroysurfacedata">DD_DESTROYSURFACEDATA</a> structure that contains the information needed to destroy a surface.
 

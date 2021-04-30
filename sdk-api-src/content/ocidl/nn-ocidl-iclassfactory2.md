@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassFactory2</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IClassFactory2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-createinstancelic">CreateInstanceLic</a>
-</td>
-<td align="left" width="63%">
-Creates an instance of the licensed object for the specified license key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">GetLicInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the licensing capabilities of this class factory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">RequestLicKey</a>
-</td>
-<td align="left" width="63%">
-Creates a license key that the caller can save and use later to create an instance of the licensed object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>

@@ -62,23 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderPrivateMpio</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsHwProviderPrivateMpio</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderprivatempio-setallpathstatusesfromhbaport">SetAllPathStatusesFromHbaPort</a>
-</td>
-<td align="left" width="63%">
-Sets the statuses of paths originating from a particular HBA port to a specified status.</p> (Inherited from <b>IVdsHwProviderPrivateMpio</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdscontroller">IVdsController</a>

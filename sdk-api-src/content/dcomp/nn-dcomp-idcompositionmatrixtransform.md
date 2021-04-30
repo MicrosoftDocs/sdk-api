@@ -59,33 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionMatrixTransform<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionMatrixTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionmatrixtransform-setmatrix">SetMatrix</a>
-</td>
-<td align="left" width="63%">
-Changes all values of the matrix of this 2D transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh437433(v=vs.85)">SetMatrixElement</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of one element of the matrix of this 2D transform.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>

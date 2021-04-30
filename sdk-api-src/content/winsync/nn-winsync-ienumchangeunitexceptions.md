@@ -59,56 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumChangeUnitExceptions</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumChangeUnitExceptions</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Clones the enumerator and returns a new enumerator that is in the same state as the current one.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-next">Next</a>
-</td>
-<td align="left" width="63%">
-Returns the next elements in the change unit exception set, if they are available.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator to the beginning of the change unit exception set.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumchangeunitexceptions-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the specified number of change unit exceptions.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

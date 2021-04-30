@@ -4,7 +4,7 @@ title: WICHeifHdrProperties
 description: Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
 helpviewer_keywords: ["WICHeifHdrProperties"]
 tech.root: wic
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: WICHeifHdrProperties
 targetos: Windows
 req.construct-type: enumeration

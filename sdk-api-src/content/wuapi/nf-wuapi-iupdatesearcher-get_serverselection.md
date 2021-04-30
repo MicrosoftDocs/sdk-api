@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets and sets a <a href="/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ServerSelection</a> value that indicates the server to search for updates.
+Gets and sets a <a href="/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a">ServerSelection</a> value that indicates the server to search for updates.
 
 This property is read/write.
 

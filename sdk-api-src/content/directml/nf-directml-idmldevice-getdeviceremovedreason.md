@@ -63,4 +63,3 @@ An [HRESULT](/windows/desktop/winprog/windows-data-types) containing the reason 
 ## -see-also
 
 [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)
-

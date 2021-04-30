@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: IDXCoreAdapterFactory interface,CreateAdapterList method, IDXCoreAdapterFactory.CreateAdapterList, IDXCoreAdapterFactory::CreateAdapterList, CreateAdapterList, CreateAdapterList method, CreateAdapterList method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::CreateAdapterList, dxcore_interface.idxcoreadapterfactory_createadapterlist
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

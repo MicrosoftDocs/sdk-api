@@ -70,7 +70,7 @@ The Task Scheduler service registers the task as an updated version of an existi
 
 ### -field TASK_CREATE_OR_UPDATE
 
-The Task Scheduler service either registers the task as a new task or as an updated version if the task already exists. Equivalent to TASK_CREATE | TASK_UPDATE.
+The Task Scheduler service either registers the task as a new task or as an updated version if the task already exists. Equivalent to TASK_CREATE \| TASK_UPDATE.
 
 ### -field TASK_DISABLE
 

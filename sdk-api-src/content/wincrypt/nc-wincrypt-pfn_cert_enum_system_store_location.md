@@ -64,11 +64,11 @@ String that contains information on the store location found.
 
 Flag used to call for an alteration of the presentation.
 
-### -param *pvReserved [in]
+### -param pvReserved [in]
 
 Reserved for future use.
 
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
 	 passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.

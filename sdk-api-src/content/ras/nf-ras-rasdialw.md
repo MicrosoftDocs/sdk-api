@@ -59,17 +59,17 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structure that specifies a set of 
 <b>RasDial</b> extended features to enable. Set this parameter to <b>NULL</b> if there is not a need to enable these features.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Pointer to a 
 <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure that specifies calling parameters for the RAS connection. Use the 
@@ -85,7 +85,7 @@ If the <b>szPhoneNumber</b> member of the
 <a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure is an empty string, 
 <b>RasDial</b> uses the phone number stored in the phone-book entry.
 
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Specifies the nature of the <i>lpvNotifier</i> parameter. If <i>lpvNotifier</i> is <b>NULL</b>, <i>dwNotifierType</i> is ignored. If <i>lpvNotifier</i> is not <b>NULL</b>, set <i>dwNotifierType</i> to one of the following values. 
 
@@ -131,7 +131,7 @@ The <i>lpvNotifier</i> parameter points to a
 </tr>
 </table>
 
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 Specifies a window handle or a 
 <a href="/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a>, 
@@ -164,7 +164,7 @@ If <i>lpvNotifier</i> is not <b>NULL</b>, notifications to the window or callbac
 The callback notifications are made in the context of a thread captured during the initial call to 
 <b>RasDial</b>.
 
-### -param arg6 [out]
+### -param unnamedParam6 [out]
 
 Pointer to a variable of type <b>HRASCONN</b>. Set the <b>HRASCONN</b> variable to <b>NULL</b> before calling 
 <b>RasDial</b>. If 

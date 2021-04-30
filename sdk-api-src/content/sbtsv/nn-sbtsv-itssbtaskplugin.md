@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPlugin</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITsSbTaskPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-initializetaskplugin">InitializeTaskPlugin</a>
-</td>
-<td align="left" width="63%">
-Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-settaskqueue">SetTaskQueue</a>
-</td>
-<td align="left" width="63%">
-Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>

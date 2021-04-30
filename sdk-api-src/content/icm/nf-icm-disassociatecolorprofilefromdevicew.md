@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -45,6 +44,9 @@ dev_langs:
 ## -description
 
 Disassociates a specified color profile with a specified device on a specified computer.
+
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileRemoveDisplayAssociation**](nf-icm-colorprofileremovedisplayassociation.md) for managing advanced color profiles.
 
 ## -parameters
 
@@ -76,6 +78,6 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [AssociateColorProfileWithDeviceW](/windows/win32/api/icm/nf-icm-associatecolorprofilewithdevicew)

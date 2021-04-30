@@ -50,9 +50,7 @@ api_name:
 
 ## -description
 
-Gets the
-
-			type of underlining for the characters in a range.
+Gets the type of underlining for the characters in a range.
 
 ## -parameters
 

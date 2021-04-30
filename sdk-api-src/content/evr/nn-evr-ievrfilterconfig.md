@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRFilterConfig</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEVRFilterConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-ievrfilterconfig-getnumberofstreams">GetNumberOfStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of input pins.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams">SetNumberOfStreams</a>
-</td>
-<td align="left" width="63%">
-Sets the number of input pins.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The DirectShow EVR filter starts with one input pin, which corresponds to the reference stream. To create additional pins for video substreams, call <a href="/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams">SetNumberOfStreams</a>.

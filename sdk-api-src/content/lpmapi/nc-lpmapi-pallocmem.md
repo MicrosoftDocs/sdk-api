@@ -61,7 +61,7 @@ The
 
 Size of the memory buffer required by the LPM.
 
-### -param *szFileName
+### -param szFileName
 
 ### -param nLine
 

@@ -55,11 +55,11 @@ The <code>GetFocusWindow</code> method retrieves the window that is handling sou
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 Pointer to a variable that receives a handle to the window. If sound playback is not associated with a window, the returned value is <b>NULL</b>.
 
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a variable that receives one of the following values.
 

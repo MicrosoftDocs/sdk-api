@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -57,7 +56,7 @@ By default, the original WCS profiles used for the conversion are embedded in th
 
 The possible values of this parameter are as follows. Any bits not defined in this list are reserved and should be set to zero:
 
-|              |                                                                                                            |
+| Value        | Description                                                                                                |
 |--------------|------------------------------------------------------------------------------------------------------------|
 | WCS\_DEFAULT | Specifies that the new ICC profile contains the original WCS profile in a private WcsProfilesTag.          |
 | WCS\_ICCONLY | Specifies that the new ICC profile does not contain either the WcsProfilesTag or the original WCS profile. |
@@ -106,6 +105,6 @@ These are the WCS XML profiles that were used by **WcsCreateIccProfile** to crea
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)

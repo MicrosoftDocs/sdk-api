@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_DIT</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDVB_DIT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_dit-gettransitionflag">GetTransitionFlag</a>
-</td>
-<td align="left" width="63%">
-Queries whether the transition_flag bit is set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_dit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

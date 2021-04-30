@@ -64,39 +64,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDDrawExclModeVideoCallback</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDDrawExclModeVideoCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatecolorkey">OnUpdateColorKey</a>
-</td>
-<td align="left" width="63%">
-Informs the application that the color key has changed so that the application can use the new color key to overlay graphics on the video.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdateoverlay">OnUpdateOverlay</a>
-</td>
-<td align="left" width="63%">
-Informs the application when the overlay surface for the video is about to change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideocallback-onupdatesize">OnUpdateSize</a>
-</td>
-<td align="left" width="63%">
-Informs the application when the size of the video rectangle is about to change.
-
-</td>
-</tr>
-</table>

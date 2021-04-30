@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRange</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBlockRange</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">get_EndLba</a>
-</td>
-<td align="left" width="63%">
-Retrieves the end sector in the range.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">get_StartLba</a>
-</td>
-<td align="left" width="63%">
-Retrieves the start sector in the range.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The values returned by the <a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_startlba">IBlockRange::get_StartLba</a> and <a href="/windows/desktop/api/imapi2/nf-imapi2-iblockrange-get_endlba">IBlockRange::get_EndLba</a> methods define an inclusive range, i.e. both the start and end sectors belong to the range.

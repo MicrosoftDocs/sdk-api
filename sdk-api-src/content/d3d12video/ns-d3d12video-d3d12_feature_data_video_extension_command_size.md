@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SIZE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Checks the allocation size of a video extension command.
 tech.root: mf

@@ -60,7 +60,7 @@ Type: <b>REFKNOWNFOLDERID</b>
 
 The ID of the known folder in which to save the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object.
                
-               For more information, see <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
+For more information, see <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.
 
 ### -param pszLibraryName [in]
 
@@ -88,10 +88,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-save">IShellLibrary::Save</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsavelibraryinfolderpath">SHSaveLibraryInFolderPath</a> create a new library file, 
-            and save the file to disk.
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-save">IShellLibrary::Save</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsavelibraryinfolderpath">SHSaveLibraryInFolderPath</a> create a new library file, and save the file to disk.
             
-            To save changes made to a library that has an existing library file, call  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-commit">IShellLibrary::Commit</a>.
+To save changes made to a library that has an existing library file, call  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-commit">IShellLibrary::Commit</a>.
          
 
 If the library is saved in the Libraries known folder (FOLDERID_Libraries), the library's location is automatically added to the system index.

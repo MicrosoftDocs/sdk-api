@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaEventCallback</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWiaEventCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback">ImageEventCallback</a>
-</td>
-<td align="left" width="63%">
-The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaeventcallback-imageeventcallback">IWiaEventCallback::ImageEventCallback</a> method is invoked by the WIA run-time system when a hardware device event occurs.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IWiaEventCallback</b> interface, like all Component Object Model (COM) interfaces, inherits the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 

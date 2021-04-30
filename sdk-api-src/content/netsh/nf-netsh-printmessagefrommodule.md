@@ -63,7 +63,7 @@ A handle to the module from which the string should be loaded.
 
 The identifier  of the message to print.
 
-### -param arg3
+### -param ...
 
 The arguments to fill into the message.
 
@@ -82,3 +82,4 @@ Use this function when the format string, identified by the <i>dwMsgId</i> param
 
 
 <a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
+

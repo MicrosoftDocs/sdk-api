@@ -52,9 +52,7 @@ api_name:
 
 Writes a series of characters to an element or attribute.
       
-        To write characters to an attribute value, call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> first.
-      Only whitespace characters may be written at the root of an xml document unless the
-        <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
+To write characters to an attribute value, call <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> first. Only whitespace characters may be written at the root of an xml document unless the <b>WS_XML_WRITER_PROPERTY_ALLOW_FRAGMENT</b> has been set to <b>TRUE</b>.
 
 ## -parameters
 

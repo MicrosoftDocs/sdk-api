@@ -59,37 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentPersistInfo<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISceSvcAttachmentPersistInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">FreeBuffer</a>
-</td>
-<td align="left" width="63%">
-Frees memory allocated by the attachment snap-in extension.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-isdirty">IsDirty</a>
-</td>
-<td align="left" width="63%">
-Indicates whether data stored in the attachment snap-in extension has changed since the last time the snap-in extension's data was saved.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">Save</a>
-</td>
-<td align="left" width="63%">
-Gets the data that needs to be saved from the snap-in extension.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>

@@ -59,35 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceThreadPoolConfig</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IServiceThreadPoolConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-selectthreadpool">SelectThreadPool</a>
-</td>
-<td align="left" width="63%">
-Selects the thread pool in which the work submitted through the activity is to run.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicethreadpoolconfig-setbindinginfo">SetBindingInfo</a>
-</td>
-<td align="left" width="63%">
-Binds all work submitted by the activity to a single single-threaded apartment.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>

@@ -60,43 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10Resource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-getevictionpriority">GetEvictionPriority</a>
-</td>
-<td align="left" width="63%">
-Get the eviction priority of a resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Get the type of the resource.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10resource-setevictionpriority">SetEvictionPriority</a>
-</td>
-<td align="left" width="63%">
-Set the eviction priority of a resource.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A resource interface cannot be created directly; instead, <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffers</a> and textures are created that inherit from a resource interface (see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating">Creating Buffer Resources</a> or <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-creating-textures">Creating Texture Resources</a>).

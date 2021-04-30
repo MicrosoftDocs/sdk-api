@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIStreaming</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAVIStreaming</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavistreaming-begin">Begin</a>
-</td>
-<td align="left" width="63%">
-Prepares for the streaming operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vfw/nf-vfw-iavistreaming-end">End</a>
-</td>
-<td align="left" width="63%">
-Ends the streaming operation.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>

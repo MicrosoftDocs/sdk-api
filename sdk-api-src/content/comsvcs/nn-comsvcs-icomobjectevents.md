@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectEvents</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IComObjectEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectevents-ondisablecommit">OnDisableCommit</a>
-</td>
-<td align="left" width="63%">
-Generated when the client calls <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-disablecommit">DisableCommit</a> on a context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectevents-onenablecommit">OnEnableCommit</a>
-</td>
-<td align="left" width="63%">
-Generated when the client calls <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-enablecommit">EnableCommit</a> on a context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectevents-onobjectactivate">OnObjectActivate</a>
-</td>
-<td align="left" width="63%">
-Generated when an object gets an instance of a new JIT-activated object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectevents-onobjectdeactivate">OnObjectDeactivate</a>
-</td>
-<td align="left" width="63%">
-Generated when the JIT-activated object is freed by <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setabort">SetAbort</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomobjectevents-onsetcomplete">OnSetComplete</a>
-</td>
-<td align="left" width="63%">
-Generated when the client calls <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontext-setcomplete">SetComplete</a> on a context.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--events">COM+ Events</a>

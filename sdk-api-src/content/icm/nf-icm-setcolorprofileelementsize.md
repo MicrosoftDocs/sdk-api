@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -67,7 +66,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 This function will fail if *hProfile* is not a valid ICC profile.
 
-To create a new tagged element in a color profile, use **SetColorProfileElementSize** to set the size, then use [**SetColorProfileElement**](setcolorprofileelement.md) to set the element value.
+To create a new tagged element in a color profile, use **SetColorProfileElementSize** to set the size, then use [**SetColorProfileElement**](/windows/win32/api/icm/nf-icm-setcolorprofileelement) to set the element value.
 
 If the specified tag already exists in the profile, **SetColorProfileElementSize** changes the size of the element by truncating it or adding zeroes at the end as the case may be.
 
@@ -77,6 +76,6 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [SetColorProfileElement](/windows/win32/api/icm/nf-icm-setcolorprofileelement)

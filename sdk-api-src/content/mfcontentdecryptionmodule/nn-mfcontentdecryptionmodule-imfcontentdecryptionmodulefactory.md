@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleFactory
 title: IMFContentDecryptionModuleFactory
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: A factory interface for creating IMFContentDecryptionModuleAccess objects.
 tech.root: mf
@@ -36,7 +35,7 @@ dev_langs:
 
 ## -description
 
-A factory interface for creating [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess) objects.
+A factory interface for creating [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess.md) objects.
 
 ## -inheritance
 
@@ -46,5 +45,5 @@ IUnknown
 
 ## -see-also
 
-- [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess)
+- [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess.md)
 

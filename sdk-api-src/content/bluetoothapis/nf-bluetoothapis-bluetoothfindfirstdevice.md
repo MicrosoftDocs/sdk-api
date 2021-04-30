@@ -99,6 +99,13 @@ The structure pointed to by <i>pbtsp</i> or <i>pbtdi</i> is not the correct size
 </tr>
 </table>
 
+## -remarks
+
+The BluetoothFindFirstDevice function does not find Bluetooth Low Energy (LE) devices.
+To access Bluetooth LE devices, use the
+<a href="/windows/uwp/devices-sensors/bluetooth-low-energy-overview">Windows Runtime Bluetooth Low Energy APIs</a>.
+The Windows Runtime APIs for Bluetooth work in both UWP and classic desktop apps.
+
 ## -see-also
 
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a>

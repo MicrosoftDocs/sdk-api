@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICProgressiveLevelControl</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWICProgressiveLevelControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getcurrentlevel">GetCurrentLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the last level set by the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel">SetCurrentLevel</a> call.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getlevelcount">GetLevelCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of levels of progressive decoding supported by the CODEC.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel">SetCurrentLevel</a>
-</td>
-<td align="left" width="63%">
-Specifies the level to retrieve on the next call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Images can only be progressively decoded if they were progressively encoded. Progressive images automatically start at the highest (best quality) progressive level. The caller must manually set the decoder to a lower progressive level.

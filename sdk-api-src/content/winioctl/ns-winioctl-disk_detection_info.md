@@ -67,7 +67,7 @@ The detected partition type.
 
 This member can be one of the following values from the **DETECTION_TYPE** enumeration.
 
-| Value | | Meaning |
+| Value | Enumeration | Meaning |
 | --- | --- | --- |
 | **DetectExInt13** | 2 | The disk has an extended Int13 partition. |
 | **DetectInt13** | 1 | The disk has a standard Int13 partition. |

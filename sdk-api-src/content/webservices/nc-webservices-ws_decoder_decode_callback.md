@@ -54,11 +54,11 @@ Decodes a message.
 
 ## -parameters
 
-### -param *encoderContext [in]
+### -param encoderContext [in]
 
 The decoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
 
-### -param *buffer
+### -param buffer
 
 The buffer to read into.
 
@@ -66,7 +66,7 @@ The buffer to read into.
 
 The maximum number of bytes to read.
 
-### -param *length [out]
+### -param length [out]
 
 The number of bytes read should be returned here.
               
@@ -75,11 +75,11 @@ The number of bytes should be set to 0 when there are no more bytes left.  This 
                  the end of the decoded message data, and will cause <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> to
                  be invoked.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

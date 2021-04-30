@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerCompositionSer
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfContextOwnerCompositionServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionservices-terminatecomposition">TerminateComposition</a>
-</td>
-<td align="left" width="63%">
-Terminates a composition.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Normally, an application creates a context and is the context owner. On occasion a text service will create a context. In this case, the text service is the context owner. For more information, see <a href="/windows/desktop/TSF/edit-contexts">Edit Contexts</a>.

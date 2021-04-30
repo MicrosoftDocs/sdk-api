@@ -5,7 +5,7 @@ description: Allows a file viewer to determine whether it can display a file.
 helpviewer_keywords: ["IFileViewerW::ShowInitialize"]
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerW::ShowInitialize
 targetos: Windows
 req.assembly: 
@@ -54,7 +54,7 @@ A pointer to an [IFileViewerSite](nn-shlobj-ifileviewersite.md) interface. A fil
 
 ## -returns
 
-The Shell calls this method before the [IFileViewerW::Show](C:\sdk-api\sdk-api-src\content\shlobj\nf-shlobj-ifileviewerw-show) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+The Shell calls this method before the [IFileViewerW::Show](nf-shlobj-ifileviewerw-show.md) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -remarks
 

@@ -51,7 +51,7 @@ The <b>DdGetBltStatus</b> callback function queries the blit status of the speci
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
 

@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10BlendState</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D10BlendState</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10blendstate-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get the blend state.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Blending combines two pixel values. You have control over how the pixels are blended by using a predefined set of blending operations, as well as preblending operations. The <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">Blending Block Diagram</a> shows conceptually how blending works.

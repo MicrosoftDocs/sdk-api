@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - WideCharToMultiByte
  - stringapiset/WideCharToMultiByte
@@ -331,6 +331,40 @@ As discussed in <a href="/windows/desktop/Intl/using-unicode-normalization-to-re
 The WC_COMPOSITECHECK flag causes the <b>WideCharToMultiByte</b> function to test for decomposed Unicode characters and attempts to compose them before converting them to the requested code page. This flag is only available for conversion to <a href="/windows/desktop/Intl/single-byte-character-sets">single byte (SBCS)</a> or <a href="/windows/desktop/Intl/double-byte-character-sets">double byte (DBCS)</a> code pages (code pages &lt; 50000, excluding code page 42). If your application needs to convert decomposed Unicode data to single byte or double byte code pages, this flag might be useful. However, not all characters can be converted this way and it is more reliable to save and store such data as Unicode.
 
 When an application is using WC_COMPOSITECHECK, some character combinations might remain incomplete or might have additional nonspacing characters left over. For example, A + ¨ + ¨ combines to Ä + ¨. Using the WC_DISCARDNS flag causes the function to discard additional nonspacing characters. Using the WC_DEFAULTCHAR flag causes the function to use the default replacement character (typically "?") instead. Using the WC_SEPCHARS flag causes the function to attempt to convert each additional nonspacing character to the target code page. Usually this flag also causes the use of the replacement character ("?"). However, for code page 1258 (Vietnamese) and 20269, nonspacing characters exist and can be used. The conversions for these code pages are not perfect. Some combinations do not convert correctly to code page 1258, and WC_COMPOSITECHECK corrupts data in code page 20269. As mentioned earlier, it is more reliable to design your application to save and store such data as Unicode.
+
+## Examples
+
+```cpp
+ISDSC_STATUS DiscpUnicodeToAnsiSize(
+    IN __in PWCHAR UnicodeString,
+    OUT ULONG *AnsiSizeInBytes
+    )
+/*++
+Routine Description:
+    This routine will return the length needed to represent the unicode
+    string as ANSI
+Arguments:
+    UnicodeString is the unicode string whose ansi length is returned
+    *AnsiSizeInBytes is number of bytes needed to represent unicode
+        string as ANSI
+Return Value:
+    ERROR_SUCCESS or error code
+--*/
+{
+    _try
+    {
+        *AnsiSizeInBytes = WideCharToMultiByte(CP_ACP,
+                                               0,
+                                               UnicodeString,
+                                               -1,
+                                               NULL,
+                                               0, NULL, NULL);
+    } _except(EXCEPTION_EXECUTE_HANDLER) {
+        return(ERROR_NOACCESS);
+    }
+    return((*AnsiSizeInBytes == 0) ? GetLastError() : ERROR_SUCCESS);
+}
+```
 
 ## -see-also
 

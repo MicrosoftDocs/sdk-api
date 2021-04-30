@@ -59,29 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStartMenuPinnedList</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IStartMenuPinnedList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-istartmenupinnedlist-removefromlist">RemoveFromList</a>
-</td>
-<td align="left" width="63%">
-<b>Windows Vista</b>: Removes an item from the <b>Start</b> menu pinned list, which is the list in the upper left position of the <b>Start</b> menu.
-
-<b>Windows 7</b>: Removes an item from the <b>Start</b> menu pinned list and unpins the item from the taskbar.
-
-<b>Windows 8</b>: Unpins the item from the taskbar but does not remove the item from the Start screen.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

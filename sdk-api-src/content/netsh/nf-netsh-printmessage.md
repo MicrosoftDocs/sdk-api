@@ -59,7 +59,7 @@ The
 
 A string to be output to the NetShell console.
 
-### -param arg2
+### -param ...
 
 The arguments used to fill into the message.
 
@@ -79,3 +79,4 @@ Use the
 
 
 <a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
+

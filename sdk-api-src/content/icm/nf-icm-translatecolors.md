@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.TranslateColors
 title: TranslateColors
-description: Translates an array of colors from the source [color space](c.md) to the destination color space as defined by a color transform.
+description: Translates an array of colors from the source [color space](/windows/win32/wcs/c) to the destination color space as defined by a color transform.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -41,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Translates an array of colors from the source [color space](c.md) to the destination color space as defined by a color transform.
+Translates an array of colors from the source [color space](/windows/win32/wcs/c#color-space) to the destination color space as defined by a color transform.
 
 ## -parameters
 
@@ -81,5 +80,5 @@ If the input and the output color types are not compatible with the color transf
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

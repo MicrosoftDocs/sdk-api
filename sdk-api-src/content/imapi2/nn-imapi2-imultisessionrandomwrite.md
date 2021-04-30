@@ -72,43 +72,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionRandomWrite</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMultisessionRandomWrite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_lastwrittenaddress">get_LastWrittenAddress</a>
-</td>
-<td align="left" width="63%">
-Retrieves the last written address on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of sectors on the media.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_writeunitsize">get_WriteUnitSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of a writeable unit on the media.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If more than one multi-session interface exist, the application can let <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use or the application can specify the multi-session interface to use by setting the <i>put_InUse</i> property to <b>VARIANT_TRUE</b>.

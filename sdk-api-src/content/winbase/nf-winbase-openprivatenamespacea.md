@@ -9,7 +9,6 @@ ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenPrivateNamespace, OpenPrivateNamespace function, OpenPrivateNamespaceA, OpenPrivateNamespaceW, base.openprivatenamespace, winbase/OpenPrivateNamespace, winbase/OpenPrivateNamespaceA, winbase/OpenPrivateNamespaceW
-ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +26,7 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: NotifyNetworkConnectivityHintChange, NotifyNetworkConnectivityHintChange function [IP Helper], netioapi.NotifyNetworkConnectivityHintChange, netioapi/NotifyNetworkConnectivityHintChange
-ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

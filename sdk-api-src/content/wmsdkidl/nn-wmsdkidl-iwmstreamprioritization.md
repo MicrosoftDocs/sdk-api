@@ -65,34 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMStreamPrioritization</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMStreamPrioritization</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-getpriorityrecords">GetPriorityRecords</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of streams and their priorities from the profile.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-setpriorityrecords">SetPriorityRecords</a>
-</td>
-<td align="left" width="63%">
-Set the list of streams and their priorities for the profile.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>

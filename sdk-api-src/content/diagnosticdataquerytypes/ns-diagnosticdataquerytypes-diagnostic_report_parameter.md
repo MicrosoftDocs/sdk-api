@@ -5,9 +5,8 @@ ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_REPORT_PARAMETER, DIAGNOSTIC_REPORT_PARAMETER
 description: Resource that describes the parameters for an error report.
 tech.root: security
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -57,7 +56,7 @@ The value of this parameter.
 
 ## -remarks
 
-For more information about parameters, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werreportsetparameter").
+For more information about parameters, see the [**WER APIs**](/windows/win32/api/werapi/nf-werapi-werreportsetparameter).
 
 ## -see-also
 

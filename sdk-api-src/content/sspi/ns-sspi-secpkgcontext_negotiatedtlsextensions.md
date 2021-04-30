@@ -2,7 +2,6 @@
 UID: NS:sspi._SecPkgContext_NegotiatedTlsExtensions
 title: SecPkgContext_NegotiatedTlsExtensions
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: The SecPkgContext_NegotiatedTlsExtensions structure contains information about the (D)TLS extensions negotiated for the current (D)TLS connection.
 tech.root: security

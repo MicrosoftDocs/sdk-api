@@ -60,23 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBlockRangeList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>get_BlockRanges</b></td>
-<td align="left" width="63%">
-Retrieves a safe array of <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interfaces describing the sector ranges in the list.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>IBlockRangeList</b> is returned by the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult2-get_modifiedblocks">IFileSystemImageResult2::ModifiedBlocks</a> method. Alternatively, IUnknown::QueryInterface can be called on the object returned by <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream">IFileSystemImageResult::get_ImageStream</a> to get the list of modified sectors in the result image represented by that object.

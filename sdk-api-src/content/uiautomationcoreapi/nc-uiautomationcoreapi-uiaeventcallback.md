@@ -50,18 +50,17 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>A client-implemented function that is called by UI Automation when 
-		an event is raised that the client has subscribed to.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.
 
 ## -parameters
 
-### -param *pArgs [in]
+### -param pArgs [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a>*</b>
 
 The address of a <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure that contains the event arguments.
 
-### -param *pRequestedData [in]
+### -param pRequestedData [in]
 
 Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
@@ -71,18 +70,12 @@ A <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that conta
 
 Type: <b>BSTR</b>
 
-A string that contains the structure of the tree associated with the event, if the event 
-				is associated with a set of nodes. See Remarks.
+A string that contains the structure of the tree associated with the event, if the event is associated with a set of nodes. See Remarks.
 
 ## -remarks
 
- This function is passed to <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a> and <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaremoveevent">UiaRemoveEvent</a>.
+This function is passed to <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a> and <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaremoveevent">UiaRemoveEvent</a>.
 
-	The tree structure is described by a string where every character is either "p" or ")". 
-			The first character in the string always represents the root node. The string is <b>NULL</b> if 
-			no elements are returned by the function. 
+The tree structure is described by a string where every character is either "p" or ")". The first character in the string always represents the root node. The string is <b>NULL</b> if no elements are returned by the function. 
 
-A "p" represents a node (UI Automation element). When one "p" directly follows another, 
-			the second node is a child of the first. A ")" represents a step back up the tree. 
-			For example, "pp)p" represents a node followed by two child nodes that are siblings of one another. 
-			In "pp))p", the last node is a sibling of the first one.
+A "p" represents a node (UI Automation element). When one "p" directly follows another, the second node is a child of the first. A ")" represents a step back up the tree. For example, "pp)p" represents a node followed by two child nodes that are siblings of one another. In "pp))p", the last node is a sibling of the first one.

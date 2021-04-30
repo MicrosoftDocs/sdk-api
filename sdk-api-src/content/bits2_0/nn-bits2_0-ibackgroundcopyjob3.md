@@ -72,52 +72,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob3</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBackgroundCopyJob3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">AddFileWithRanges</a>
-</td>
-<td align="left" width="63%">
-Add a file to a download job and specify the ranges of the file you want to download.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-getfileaclflags">GetFileACLFlags</a>
-</td>
-<td align="left" width="63%">
-Retrieves the flags that identify the owner and ACL information to maintain when downloading a file using SMB.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">ReplaceRemotePrefix</a>
-</td>
-<td align="left" width="63%">
-Use to replace the beginning text of all  remote names in the job with the given string. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-setfileaclflags">SetFileACLFlags</a>
-</td>
-<td align="left" width="63%">
-Specifies the owner and ACL information to maintain when downloading a file using SMB.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>

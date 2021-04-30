@@ -9,7 +9,6 @@ ms.assetid: 92e737e6-dba6-47f1-a077-e303039e12eb
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CREATE_USN_JOURNAL, FSCTL_CREATE_USN_JOURNAL control, FSCTL_CREATE_USN_JOURNAL control code [Files], _win32_fsctl_create_usn_journal, base.fsctl_create_usn_journal, fs.fsctl_create_usn_journal, winioctl/FSCTL_CREATE_USN_JOURNAL
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +26,7 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

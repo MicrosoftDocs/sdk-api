@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.GetCapabilities
 title: IMFExtendedCameraControl::GetCapabilities
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Queries for property capabilities supported by the capture device.
 tech.root: mf
@@ -43,6 +42,8 @@ dev_langs:
 ## -description
 
 Queries for property capabilities supported by the capture device.
+
+## -parameters
 
 ## -returns
 

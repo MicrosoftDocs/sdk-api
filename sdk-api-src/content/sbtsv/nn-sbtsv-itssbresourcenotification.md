@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbResourceNotification</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITsSbResourceNotification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotification-notifyclientconnectionstatechange">NotifyClientConnectionStateChange</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a client connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotification-notifysessionchange">NotifySessionChange</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a session object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotification-notifytargetchange">NotifyTargetChange</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a target object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotificationex">ITsSbResourceNotificationEx</a>

@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoComplete</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAutoComplete</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete-enable">Enable</a>
-</td>
-<td align="left" width="63%">
-Enables or disables autocompletion.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete-init">Init</a>
-</td>
-<td align="left" width="63%">
-Initializes the autocomplete object.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Autocompletion expands strings that have been partially entered in an <a href="/windows/desktop/Controls/edit-controls">edit control</a> into complete strings. For example, when a user starts to type a URL in the Address edit control that is embedded in the Windows Internet Explorer toolbar, autocompletion expands the string into one or more complete URLs that are consistent with the existing partial string. A partial URL string such as "mic" might be expanded to "http://www.microsoft.com" or "http://www.microsoft.com/windows". Autocompletion is typically used with edit controls or with controls that have an embedded edit control such as the <a href="/windows/desktop/Controls/comboboxex-control-reference">comboboxex control</a>.

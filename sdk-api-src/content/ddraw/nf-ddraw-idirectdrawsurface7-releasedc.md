@@ -50,7 +50,7 @@ Releases the handle of a device context that was previously obtained by using th
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The handle of a device context that was previously obtained by <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>.
 

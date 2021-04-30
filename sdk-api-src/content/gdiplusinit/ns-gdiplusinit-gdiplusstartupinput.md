@@ -1,7 +1,7 @@
 ---
 UID: NS:gdiplusinit.GdiplusStartupInput
 title: GdiplusStartupInput
-description: The **GdiplusStartupInput** structure holds a block of arguments that are required by the [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) function.
+description: The **GdiplusStartupInput** structure holds a block of arguments that are required by the [GdiplusStartup](../gdiplusinit/nf-gdiplusinit-gdiplusstartup.md) function.
 helpviewer_keywords: ["GdiplusStartupInput"]
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupinput.htm
 old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm
@@ -62,7 +62,7 @@ Pointer to a callback function that GDI+ can call, on debug builds, for assertio
 
 Type: **BOOL**
 
-Boolean value that specifies whether to suppress the GDI+ background thread. If you set this member to **TRUE**, then [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
+Boolean value that specifies whether to suppress the GDI+ background thread. If you set this member to **TRUE**, then [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
 
 ### -field SuppressExternalCodecs
 
@@ -78,7 +78,7 @@ If you set the **SuppressBackgroundThread** member to **TRUE** in the *input* pa
 
 ## -see-also
 
-* [GdiplusShutdown](./nf-gdiplusinit-gdiplusshutdown.md)
+* [GdiplusShutdown]((windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown)
 * [GdiplusStartup](./nf-gdiplusinit-gdiplusstartup.md)
-* [GdiplusStartupOutput](./ns-gdiplusinit-gdiplusstartupoutput.md)
-* [Getting started](windows/win32/gdiplus/-gdiplus-getting-started-use)
+* [GdiplusStartupOutput]((windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput)
+* [Getting started](/windows/win32/gdiplus/-gdiplus-getting-started-use)

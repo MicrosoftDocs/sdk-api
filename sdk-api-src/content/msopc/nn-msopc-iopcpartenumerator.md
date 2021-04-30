@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPartEnumerator</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOpcPartEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the current enumerator and all its descendants.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-getcurrent">GetCurrent</a>
-</td>
-<td align="left" width="63%">
-Gets the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointer at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-movenext">MoveNext</a>
-</td>
-<td align="left" width="63%">
-Moves the current position of the enumerator to the next <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartenumerator-moveprevious">MovePrevious</a>
-</td>
-<td align="left" width="63%">
-Moves the current position of the enumerator to the previous <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface pointer.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get a pointer to this interface, call the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcpartset-getenumerator">IOpcPartSet::GetEnumerator</a> method.

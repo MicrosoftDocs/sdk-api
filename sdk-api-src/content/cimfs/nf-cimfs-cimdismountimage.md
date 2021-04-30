@@ -5,9 +5,8 @@ ms.date: 9/9/2019
 ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimDismountImage
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:

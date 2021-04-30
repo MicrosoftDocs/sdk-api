@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetColorSpace</b> function defines the input <a href="/previous-versions/windows/desktop/wcs/c">color space</a> for a given device context.
+The <b>SetColorSpace</b> function defines the input [color space](/windows/win32/wcs/c#color-space) for a given device context.
 
 ## -parameters
 
@@ -72,8 +72,5 @@ If this function fails, the return value is <b>NULL</b>.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)

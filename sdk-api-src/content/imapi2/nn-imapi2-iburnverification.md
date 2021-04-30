@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBurnVerification</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBurnVerification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iburnverification-get_burnverificationlevel">get_BurnVerificationLevel</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current Burn Verification Level.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-iburnverification-put_burnverificationlevel">put_BurnVerificationLevel</a>
-</td>
-<td align="left" width="63%">
-Sets the  Burn Verification Level.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The following example function demonstrates how the burn verification level defined by <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>, can be implemented. Burn verification level should be set prior to a burn operation.

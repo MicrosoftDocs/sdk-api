@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsJackDescription</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IKsJackDescription</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">GetJackCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of jacks required to connect to an endpoint device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">GetJackDescription</a>
-</td>
-<td align="left" width="63%">
-Gets a description of an audio jack.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If an audio endpoint device supports the <b>IKsJackDescription</b> interface, the Windows multimedia control panel, Mmsys.cpl, displays the jack information. To view the jack information, follow these steps:

@@ -3,7 +3,6 @@ UID: NA:webauthenticationcoremanagerinterop
 title: webauthenticationcoremanagerinterop.h header
 ms.date: 05/28/2019
 ms.keywords: webauthenticationcoremanagerinterop
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset

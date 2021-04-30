@@ -51,13 +51,13 @@ The<i> DxTransfer</i> callback function informs the driver to bus master data fr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 Points to the miniport driver's device extension.
 
-### -param Arg2
+### -param unnamedParam2
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
 
-### -param Arg3
+### -param unnamedParam3
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
 ## -returns

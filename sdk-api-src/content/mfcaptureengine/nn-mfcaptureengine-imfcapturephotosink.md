@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCapturePhotoSink</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFCapturePhotoSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setoutputbytestream">SetOutputByteStream</a>
-</td>
-<td align="left" width="63%">
-Specifies a byte stream that will receive the still image data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setoutputfilename">SetOutputFileName</a>
-</td>
-<td align="left" width="63%">
-Specifies the name of the output file for the still image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setsamplecallback">SetSampleCallback</a>
-</td>
-<td align="left" width="63%">
-Sets a callback to receive the still-image data.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The photo sink can deliver samples to one of the following destinations:

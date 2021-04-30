@@ -1,7 +1,7 @@
 ---
 UID: NF:windns.DnsServiceCopyInstance
 title: DnsServiceCopyInstance function
-description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+description: Used to copy a [DNS_SERVICE_INSTANCE](../windns/ns-windns-dns_service_instance.md) structure.
 tech.root: dns
 helpviewer_keywords: ["DnsServiceCopyInstance"]
 ms.date: 02/19/2019
@@ -35,7 +35,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - windns.h
 api_name:
@@ -44,7 +43,7 @@ api_name:
 
 ## -description
 
-Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+Used to copy a [DNS_SERVICE_INSTANCE](/windows/win32/api/windns/ns-windns-dns_service_instance) structure.
 
 ## -parameters
 

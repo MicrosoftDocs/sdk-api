@@ -67,34 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioSessionManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol">GetAudioSessionControl</a>
-</td>
-<td align="left" width="63%">
-Retrieves an audio session control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume">GetSimpleAudioVolume</a>
-</td>
-<td align="left" width="63%">
-Retrieves a simple audio volume control.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

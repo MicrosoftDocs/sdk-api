@@ -54,13 +54,13 @@ Enables or disables one or both flat scroll bar direction buttons. If flat scrol
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>.
 
-### -param arg2
+### -param unnamedParam2
 
 Type: <b>int</b>
 
@@ -103,7 +103,7 @@ Enables or disables the direction buttons on the vertical scroll bar.
 </tr>
 </table>
 
-### -param arg3
+### -param unnamedParam3
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 

@@ -89,20 +89,9 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nc-wingdi-icmenumproca">EnumICMProfilesProcCallback</a>
-
-
-
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
-
-
-
-<a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [DeleteColorSpaceW](/windows/win32/api/wingdi/nf-wingdi-deletecolorspace)
+* [ICMENUMPROCA callback function](/windows/win32/api/wingdi/nc-wingdi-icmenumproca)
+* [GetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-geticmprofilew)
+* [SetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-seticmprofilew)

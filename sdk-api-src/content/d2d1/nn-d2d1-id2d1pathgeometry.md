@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry</b> interfa
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1PathGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getfigurecount">GetFigureCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of figures in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getsegmentcount">GetSegmentCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of segments in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a>
-</td>
-<td align="left" width="63%">
-Retrieves the geometry sink that is used to populate the path geometry with figures and segments. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-stream">Stream</a>
-</td>
-<td align="left" width="63%">
-Copies the contents of the path geometry to the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ID2D1PathGeometry</b> object enables you to describe a geometric path. To describe an <b>ID2D1PathGeometry</b>  object's path, use the object's  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a> method to retrieve an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>. Use the sink to populate the path geometry with figures and segments. 

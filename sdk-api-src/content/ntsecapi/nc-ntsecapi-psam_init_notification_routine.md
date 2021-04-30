@@ -54,7 +54,7 @@ The <b>InitializeChangeNotify</b> function is implemented by a password filter D
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

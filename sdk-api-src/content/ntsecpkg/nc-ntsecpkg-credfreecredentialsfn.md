@@ -58,7 +58,7 @@ Frees memory used to store credentials used by a  <a href="/windows/desktop/SecG
 
 The number of elements in the <i>Credentials</i> array.
 
-### -param *Credentials [in, out]
+### -param Credentials [in, out]
 
 A pointer to a pointer that, on input, points to an array of  <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures to be freed.
 

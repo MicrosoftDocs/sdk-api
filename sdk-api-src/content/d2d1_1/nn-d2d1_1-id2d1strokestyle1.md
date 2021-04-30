@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1StrokeStyle1</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1StrokeStyle1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1strokestyle1-getstroketransformtype">GetStrokeTransformType</a>
-</td>
-<td align="left" width="63%">
-Gets the stroke transform type.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface adds functionality to <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>.

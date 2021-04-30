@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISuspensionDependencyManager<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISuspensionDependencyManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-groupchildwithparent">GroupChildWithParent</a>
-</td>
-<td align="left" width="63%">Groups the specified child process with the parent process.</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-registeraschild">RegisterAsChild</a>
-</td>
-<td align="left" width="63%">Registers the specified process as a child.</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isuspensiondependencymanager-ungroupchildfromparent">UngroupChildFromParent</a>
-</td>
-<td align="left" width="63%">Ungroups the specified child process from the parent process.</td>
-</tr>
-</table>

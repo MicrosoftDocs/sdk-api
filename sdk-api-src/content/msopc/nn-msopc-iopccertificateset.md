@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcCertificateSet</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOpcCertificateSet</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateset-add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds a certificate to the set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateset-getenumerator">GetEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets an enumerator of certificates in the set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateset-remove">Remove</a>
-</td>
-<td align="left" width="63%">
-Removes a specified certificate from the set.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Do not add the certificate that will be passed to the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-sign">IOpcDigitalSignature::Sign</a> method (the signer certificate) to this certificate set.

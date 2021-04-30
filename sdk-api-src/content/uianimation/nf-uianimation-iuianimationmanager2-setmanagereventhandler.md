@@ -58,9 +58,7 @@ Specifies a handler for animation manager status updates.
 
 The event handler to be called when the status of the animation manager changes.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a> interface or be <b>NULL</b>.
-            See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a> interface or be <b>NULL</b>. See Remarks for more info.
 
 ### -param fRegisterForNextAnimationEvent [in]
 

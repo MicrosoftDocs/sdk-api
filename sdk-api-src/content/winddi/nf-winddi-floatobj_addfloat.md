@@ -54,11 +54,11 @@ The <b>FLOATOBJ_AddFloat</b> function adds the value of type FLOATL to the <a hr
 
 ## -parameters
 
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to the FLOATOBJ operand. When the function returns, *<i>pf</i> will be reset to the sum of *<i>pf</i> and *<i>f</i>.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the FLOATL operand. This value is converted to a FLOATOBJ for the summation.
 

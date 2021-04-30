@@ -6,7 +6,7 @@ helpviewer_keywords: ["CollectPerformanceData","CollectPerformanceData callback 
 old-location: perf\collectperformancedata.htm
 tech.root: perf
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
-ms.date: 24/09/2020
+ms.date: 09/24/2020
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
 req.header: winperf.h
 req.include-header: 

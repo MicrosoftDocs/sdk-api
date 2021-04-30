@@ -59,48 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionScaleTransform</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449036(v=vs.85)">SetCenterX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449042(v=vs.85)">SetCenterY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449048(v=vs.85)">SetScaleX</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleX property of a 2D scale transform.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh449055(v=vs.85)">SetScaleY</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleY property of a 2D scale transform.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A scale transform represents the following 3-by-3 matrix:

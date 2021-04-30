@@ -54,13 +54,13 @@ Defines a pointer to an application-defined function in a dynamic-link library (
 
 ## -parameters
 
-### -param *authoringModeObject [in]
+### -param authoringModeObject [in]
 
 Type: <b><a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationauthoringmode">IWebApplicationAuthoringMode</a>*</b>
 
 An object that provides a path to the authoring binary.
 
-### -param *host [in]
+### -param host [in]
 
 Type: <b><a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>*</b>
 

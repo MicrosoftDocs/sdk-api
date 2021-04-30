@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - icm32.dll
 api_name:
@@ -63,7 +62,7 @@ The number of elements in the array of intents.
 
 ### -param dwFlags
 
-Specifies flags to used control creation of the transform. For details, see [CMM Transform Creation Flags](ms536577\(v=vs.85\).md).
+Specifies flags to used control creation of the transform. For details, see [CMM Transform Creation Flags](/windows/win32/wcs/cmm-transform-creation-flags).
 
 ### -param lpProfileData
 
@@ -81,12 +80,12 @@ Only the Windows default CMM is required to export this function; it is optional
 
 If a CMM does not support **CMCreateDeviceLinkProfile**, Windows uses the default CMM to create a device link profile.
 
-The first and the last profiles in the array must be [device profiles](ms536507\(v=vs.85\).md). The other profiles can be [color space](ms536506\(v=vs.85\).md) or abstract profiles. Each profile's output color space must be the next profile's input color space.
+The first and the last profiles in the array must be [device profiles](/windows/win32/wcs/using-device-profiles-with-wcs). The other profiles can be [color space](/windows/win32/wcs/color-spaces) or abstract profiles. Each profile's output color space must be the next profile's input color space.
 
 The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use the [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree) function to free the buffer.
 
 ## -see-also
 
-* [Basic color management concepts](https://msdn.microsoft.com/en-us/library/dd371805\(v=vs.85\))
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

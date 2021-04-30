@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionVariabl
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11ShaderReflectionVariable</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getbuffer">GetBuffer</a>
-</td>
-<td align="left" width="63%">
-This method returns the buffer of the current <b>ID3D11ShaderReflectionVariable</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getdesc">GetDesc</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable description.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-getinterfaceslot">GetInterfaceSlot</a>
-</td>
-<td align="left" width="63%">
-Gets the corresponding interface slot for a variable that represents an interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectionvariable-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Get a shader-variable type.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get a shader-reflection-variable interface, call a method like <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getvariablebyname">ID3D11ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.

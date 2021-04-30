@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRVideoStreamControl</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEVRVideoStreamControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/evr9/nf-evr9-ievrvideostreamcontrol-setstreamactivestate">SetStreamActiveState</a>
-</td>
-<td align="left" width="63%">
-<div class="alert"><b>Note</b>  This method is not supported.</div>
-<div> </div>
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>

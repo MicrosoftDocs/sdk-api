@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - Mscms.dll
 api_name:
@@ -86,7 +85,7 @@ Specifies the number of bytes from the beginning of one scan line to the beginni
 
 ### -param pfnCallBack
 
-Pointer to a callback function called periodically by **TranslateBitmapBits** to report progress and allow the calling process to cancel the translation. (See [**ICMProgressProcCallback**](icmprogressproccallback.md) )
+Pointer to a callback function called periodically by **TranslateBitmapBits** to report progress and allow the calling process to cancel the translation. (See [**ICMProgressProcCallback**](/windows/win32/wcs/icmprogressproccallback) )
 
 ### -param ulCallbackData
 
@@ -106,8 +105,8 @@ When either of the floating point BMFORMATs, BM\_32b\_scARGB or BM\_32b\_scRGB a
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
-* [ICMProgressProcCallback](icmprogressproccallback.md)
-* [Windows bitmap header structures](using-structures-in-wcs-1-0.md)
+* [ICMProgressProcCallback](/windows/win32/wcs/icmprogressproccallback)
+* [Windows bitmap header structures](/windows/win32/wcs/using-structures-in-wcs-1-0)
 * [BMFORMAT](/windows/win32/api/icm/ne-icm-bmformat)

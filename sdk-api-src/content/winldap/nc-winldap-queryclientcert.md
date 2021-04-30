@@ -45,12 +45,11 @@ api_name:
  - QUERYCLIENTCERT
 ---
 
-# QUERYCLIENTCERT callback function
-
-
 ## -description
 
 The <b>QUERYCLIENTCERT</b> function is a client-side function that enables the server to request a certificate from the client when establishing a Secure Sockets Layer (SSL) connection.
+
+Also see [Desktop Win32 code samples](/windows/win32/desktop-win32-code-samples).
 
 ## -parameters
 
@@ -62,7 +61,7 @@ The session handle.
 
 A list of server-trusted Certificate Authorities.
 
-### -param *ppCertificate [in, out]
+### -param ppCertificate [in, out]
 
 Upon receiving the callback, the user supplies an appropriate client certificate in 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> format and returns a value of <b>TRUE</b>. If the client cannot supply an appropriate certificate or wants the server to use anonymous credentials, it should return a value of <b>FALSE</b> instead. Any certificate supplied must be freed by the application after the connection is completed.
@@ -81,10 +80,8 @@ When the server demands a client certificate for authorization it will call <b>Q
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
-
-
 <a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
-
-
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
+
+[Desktop Win32 code samples](/windows/win32/desktop-win32-code-samples)

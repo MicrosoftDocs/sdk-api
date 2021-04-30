@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,GetProperty method, IDXCoreAdapter.GetProperty, IDXCoreAdapter::GetProperty, GetProperty, GetProperty method, GetProperty method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::GetProperty, dxcore_interface.idxcoreadapterfactory_getproperty
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

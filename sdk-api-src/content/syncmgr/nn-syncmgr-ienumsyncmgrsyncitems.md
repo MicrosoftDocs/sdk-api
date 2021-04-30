@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrSyncItems</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumSyncMgrSyncItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Not used. Clones an <b>IEnumSyncMgrSyncItems</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next batch of sync items from the handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the current position in the enumeration to 0.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips forward in the enumeration the specified number of items.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A handler returns a pointer to an <b>IEnumSyncMgrSyncItems</b> interface from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemenumerator">ISyncMgrSyncItemContainer::GetSyncItemEnumerator</a>.

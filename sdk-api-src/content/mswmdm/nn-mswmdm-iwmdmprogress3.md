@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMProgress3</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMDMProgress3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-begin3">Begin3</a>
-</td>
-<td align="left" width="63%">
-Indicates that an operation is about to begin.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">End3</a>
-</td>
-<td align="left" width="63%">
-Indicates that an operation is finished.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">Progress3</a>
-</td>
-<td align="left" width="63%">
-Indicates the status of an action in progress.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>

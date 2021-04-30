@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageExceptionErrorInfo</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ILanguageExceptionErrorInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo-getlanguageexception">GetLanguageException</a>
-</td>
-<td align="left" width="63%">
-Gets the stored <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
-
-</td>
-</tr>
-</table>

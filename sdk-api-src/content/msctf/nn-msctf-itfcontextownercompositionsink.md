@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwnerCompositionSin
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfContextOwnerCompositionSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">OnEndComposition</a>
-</td>
-<td align="left" width="63%">
-Called when a composition is terminated.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onstartcomposition">OnStartComposition</a>
-</td>
-<td align="left" width="63%">
-Called when a composition is started.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onupdatecomposition">OnUpdateComposition</a>
-</td>
-<td align="left" width="63%">
-Called when an existing composition is changed.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext

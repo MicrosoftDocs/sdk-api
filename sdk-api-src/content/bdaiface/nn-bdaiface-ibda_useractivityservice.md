@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_UserActivityService</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_UserActivityService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-getuseractivityinterval">GetUserActivityInterval</a>
-</td>
-<td align="left" width="63%">
-Gets or sets the timeout interval for a Media Sink Device (MSD) to inform a Media Transfer Device (MTD) about user activity.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-setcurrenttunerusereason">SetCurrentTunerUseReason</a>
-</td>
-<td align="left" width="63%">
-Specifies the reason for user activity.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_useractivityservice-useractivitydetected">UserActivityDetected</a>
-</td>
-<td align="left" width="63%">
-Tells an MTD that user activity has occured.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_UserActivityService)</code>.

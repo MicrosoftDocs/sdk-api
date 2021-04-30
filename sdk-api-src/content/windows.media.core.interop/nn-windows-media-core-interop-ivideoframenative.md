@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNative</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVideoFrameNative</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WinRT/ivideoframenative-getdata">GetData</a>
-</td>
-<td align="left" width="63%">
-This method returns an interface that provides access to the video data. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WinRT/ivideoframenative-getdevice">GetDevice</a>
-</td>
-<td align="left" width="63%">
-This method returns a device associated with the video data. 
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCWebSettings</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWPCWebSettings</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-getsettings">GetSettings</a>
-</td>
-<td align="left" width="63%">
-Retrieves the web restrictions settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-requesturloverride">RequestURLOverride</a>
-</td>
-<td align="left" width="63%">
-Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.
-
-</td>
-</tr>
-</table>

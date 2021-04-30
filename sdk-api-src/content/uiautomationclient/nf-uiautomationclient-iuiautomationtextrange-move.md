@@ -54,7 +54,7 @@ Moves the text range forward or backward by the specified number of text units .
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textunit">TextUnit</a></b>
 
@@ -96,8 +96,7 @@ For a non-degenerate (non-empty) text range, <b>IUIAutomationTextRange::Move</b>
 </ol>
 If any of the preceding steps fail, the text range is left unchanged.  If the text range cannot be moved as far as the requested number of text units, but can be moved by a smaller number of text units, the text range is moved by the smaller number of text units and <i>moved</i> is set to the number of text units moved.
 
-For a degenerate text range, <b>IUIAutomationTextRange::Move</b> simply moves the 
-            text insertion point by the specified number of text units. 
+For a degenerate text range, <b>IUIAutomationTextRange::Move</b> simply moves the text insertion point by the specified number of text units. 
 
 When moving a text range, <b>IUIAutomationTextRange::Move</b> ignores the boundaries of any embedded objects in the text.
 
@@ -106,7 +105,7 @@ When moving a text range, <b>IUIAutomationTextRange::Move</b> ignores the bounda
 
 If a text-based control does not support the text unit specified by the <i>unit</i> parameter, <b>IUIAutomationTextRange::Move</b> substitutes the next larger supported text unit. 
         
-        The size of the text units, from smallest unit to largest, is as follows.
+The size of the text units, from smallest unit to largest, is as follows.
 
 <ul>
 <li>Character

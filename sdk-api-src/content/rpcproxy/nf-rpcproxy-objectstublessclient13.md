@@ -3,7 +3,6 @@ UID: NF:rpcproxy.ObjectStublessClient13
 title: ObjectStublessClient13
 tech.root: Rpc
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Stub function for COM proxies.
 req.assembly: 
@@ -46,6 +45,8 @@ dev_langs:
 Stub function for COM proxies.
 
 As part of the implementation of COM proxies, the MIDL compiler generates code that uses these functions. The generated code is typically compiled into proxy DLLs, which allow interfaces to be marshaled. These functions are implementation details for the COM proxy infrastructure, and you should not call them directly.
+
+## -parameters
 
 ## -remarks
 

@@ -41,7 +41,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 ---

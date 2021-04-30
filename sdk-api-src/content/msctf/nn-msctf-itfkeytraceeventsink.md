@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfKeyTraceEventSink</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfKeyTraceEventSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytracedown">OnKeyTraceDown</a>
-</td>
-<td align="left" width="63%">
-Called when a key down event occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfkeytraceeventsink-onkeytraceup">OnKeyTraceUp</a>
-</td>
-<td align="left" width="63%">
-Called when a key up event occurs.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The difference between <b>ITfKeyTraceEventSink</b> and <a href="/windows/desktop/api/msctf/nn-msctf-itfkeyeventsink">ITfKeyEventSink</a> events is that <b>ITfKeyTraceEventSink</b> events occur before any filtering or processing of the key event occurs. The <b>ITfKeyTraceEventSink</b> events also occur before the target application can process the key event.

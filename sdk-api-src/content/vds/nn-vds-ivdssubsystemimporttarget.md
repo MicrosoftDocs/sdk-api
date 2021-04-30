@@ -63,30 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemImportTarget</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVdsSubSystemImportTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdssubsystemimporttarget-getimporttarget">GetImportTarget</a>
-</td>
-<td align="left" width="63%">
-Returns the VSS import target for the computer for this subsystem.</p> (Inherited from <b>IVdsSubSystemImportTarget</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vds/nf-vds-ivdssubsystemimporttarget-setimporttarget">SetImportTarget</a>
-</td>
-<td align="left" width="63%">
-Sets the VSS import target for the computer for this subsystem.</p> (Inherited from <b>IVdsSubSystemImportTarget</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

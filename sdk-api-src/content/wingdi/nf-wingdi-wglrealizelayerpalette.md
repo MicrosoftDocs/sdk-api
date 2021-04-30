@@ -54,15 +54,15 @@ The <b>wglRealizeLayerPalette</b> function maps palette entries from a given col
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the device context of a window whose layer plane palette is to be realized into the physical palette.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the overlay or underlay plane. Positive values of <i>iLayerPlane</i> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure.
 
-### -param arg3
+### -param unnamedParam3
 
 Indicates whether the palette is to be realized into the physical palette. When <i>bRealize</i> is <b>TRUE</b>, the palette entries are mapped into the physical palette where available. When <i>bRealize</i> is <b>FALSE</b>, the palette entries for the layer plane of the window are no longer needed and might be released for use by another foreground window.
 

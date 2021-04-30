@@ -48,6 +48,8 @@ api_name:
 
 Retrieves the automatic axis options.
 
+## -parameters
+
 ## -returns
 
 Type: **[DWRITE_AUTOMATIC_FONT_AXES](./ne-dwrite_3-dwrite_automatic_font_axes.md)**

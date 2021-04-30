@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/04/2019
 ms.keywords: PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK, PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK callback, PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK callback function [IP Helper], netioapi.pnetwork_connectivity_hint_change_callback, netioapi/PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK
-ms.topic: callback
 req.header: netioapi.h
 req.include-header: iphlpapi.h
 req.target-type: Windows

@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageId2</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxManifestPackageId2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid2-getarchitecture2">GetArchitecture2</a>
-</td>
-<td align="left" width="63%">
-Gets the processor architecture as defined in the manifest.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Package identity information is specified using the <b>Identity</b> element in the package manifest.

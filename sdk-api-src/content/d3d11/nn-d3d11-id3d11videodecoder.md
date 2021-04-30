@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDecoder</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID3D11VideoDecoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getcreationparameters">GetCreationParameters</a>
-</td>
-<td align="left" width="63%">
-Gets the parameters that were used to create the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getdriverhandle">GetDriverHandle</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to the driver.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To get a pointer to this interface, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.

@@ -60,30 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceProvider</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUPnPDeviceProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">Start</a>
-</td>
-<td align="left" width="63%">
-Method that is called by the device host when the device provider should start its processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">Stop</a>
-</td>
-<td align="left" width="63%">
-Method that is called by the device host when the device provider should stops its processing.
-
-</td>
-</tr>
-</table>

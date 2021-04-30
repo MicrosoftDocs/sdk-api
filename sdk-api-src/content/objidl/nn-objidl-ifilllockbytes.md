@@ -65,52 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFillLockBytes</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFillLockBytes</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillappend">FillAppend</a>
-</td>
-<td align="left" width="63%">
-Writes a new block of bytes to end of byte array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-fillat">FillAt</a>
-</td>
-<td align="left" width="63%">
-Writes a new block of bytes to specified location in byte array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-setfillsize">SetFillSize</a>
-</td>
-<td align="left" width="63%">
-Sets expected size of byte array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ifilllockbytes-terminate">Terminate</a>
-</td>
-<td align="left" width="63%">
-Notifies byte array wrapper of successful or unsuccessful termination of download.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms774966(v=vs.85)">BINDINFO</a>

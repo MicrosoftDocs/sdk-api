@@ -56,7 +56,7 @@ An application-defined function that serves as a vectored exception handler. Spe
 
 ## -parameters
 
-### -param *ExceptionInfo [in]
+### -param ExceptionInfo [in]
 
 A pointer to an 
 <a href="/windows/desktop/api/winnt/ns-winnt-exception_pointers">EXCEPTION_POINTERS</a> structure that receives the exception record.

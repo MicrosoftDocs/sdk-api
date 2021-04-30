@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_GENERAL_STATS
 title: DIAGNOSTIC_DATA_GENERAL_STATS
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_GENERAL_STATS, DIAGNOSTIC_DATA_GENERAL_STATS
-ms.topic: language-reference
 description: This resource contains general statistics about a set of diagnostic data records.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -72,7 +71,7 @@ The average number of events sent per day in this set of diagnostic data records
 
 ## -remarks
 
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data opt-in levels.
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data opt-in levels.
 
 ## -see-also
 

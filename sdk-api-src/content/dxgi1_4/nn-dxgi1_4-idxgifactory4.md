@@ -60,36 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory4</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDXGIFactory4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgifactory4-enumadapterbyluid">EnumAdapterByLuid</a>
-</td>
-<td align="left" width="63%">
-Outputs the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> for the specified LUID.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgifactory4-enumwarpadapter">EnumWarpAdapter</a>
-</td>
-<td align="left" width="63%">
-Provides an adapter which can be provided to D3D12CreateDevice to use the WARP renderer.
-        
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>

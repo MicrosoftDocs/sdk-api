@@ -61,6 +61,8 @@ Contains
     <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a> members are listed 
     explicitly.
 
+## -struct-fields
+
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a>

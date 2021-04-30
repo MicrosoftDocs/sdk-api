@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITForwardInformation2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITForwardInformation2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-get_forwardtypecalleraddresstype">get_ForwardTypeCallerAddressType</a>
-</td>
-<td align="left" width="63%">
-Gets the destination address type for a given forwarding type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-get_forwardtypedestinationaddresstype">get_ForwardTypeDestinationAddressType</a>
-</td>
-<td align="left" width="63%">
-Gets the caller address type for a given forwarding type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-getforwardtype2">GetForwardType2</a>
-</td>
-<td align="left" width="63%">
-Gets the current forwarding mode, specified by caller address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-setforwardtype2">SetForwardType2</a>
-</td>
-<td align="left" width="63%">
-Sets the current forwarding mode, specified by caller address.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

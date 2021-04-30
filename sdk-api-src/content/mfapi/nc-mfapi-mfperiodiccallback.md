@@ -54,7 +54,7 @@ Callback function for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperi
 
 ## -parameters
 
-### -param *pContext [in]
+### -param pContext [in]
 
 Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 

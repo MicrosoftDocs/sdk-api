@@ -70,25 +70,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommonQuery</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICommonQuery</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">OpenQueryWindow</a>
-</td>
-<td align="left" width="63%">
-Displays the directory service query dialog box.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active

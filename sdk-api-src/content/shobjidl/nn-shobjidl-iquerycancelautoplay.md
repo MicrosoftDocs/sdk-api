@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCancelAutoPlay</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IQueryCancelAutoPlay</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iquerycancelautoplay-allowautoplay">AllowAutoPlay</a>
-</td>
-<td align="left" width="63%">
-Determines whether to play media inserted by a user and if so using what restrictions.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  <b>IQueryCancelAutoPlay</b> is intended only for use by user-launched applications that are currently running. It should not be handled by invisible or background service applications to prevent the normal AutoPlay/AutoRun feature from being invoked. Giving the user a choice of what happens when media and devices are inserted into the system is a key feature of the platform. This feature is designed specifically to improve and personalize the user experience and should not be inhibited by background services.</div>

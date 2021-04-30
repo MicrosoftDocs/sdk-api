@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPMedia3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getattributecountbytype">getAttributeCountByType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of attributes associated with the specified attribute type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia3-getiteminfobytype">getItemInfoByType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of the attribute corresponding to the specified attribute type and index.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2 Interface</a>

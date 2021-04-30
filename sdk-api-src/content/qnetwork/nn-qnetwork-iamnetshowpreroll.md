@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetShowPreroll</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAMNetShowPreroll</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-get_preroll">get_Preroll</a>
-</td>
-<td align="left" width="63%">
-Queries whether the filter is currently prerolling.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowpreroll-put_preroll">put_Preroll</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the filter should start prerolling.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To define the interface identifier, include the header file Initguid.h before Qnetwork.h, but after Dshow.h and other header files:

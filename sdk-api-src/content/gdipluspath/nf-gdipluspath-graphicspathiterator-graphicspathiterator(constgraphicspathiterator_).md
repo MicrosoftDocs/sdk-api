@@ -52,7 +52,7 @@ Copy constructor for **GraphicsPathIterator**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 The object to copy to this object.
 

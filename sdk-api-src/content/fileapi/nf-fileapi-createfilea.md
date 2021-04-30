@@ -460,7 +460,7 @@ The file is part of or used exclusively by an operating system.
 <td width="60%">
 The file is being used for temporary storage.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -607,7 +607,7 @@ Access is intended to be random. The system can use this as a hint to optimize f
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -643,7 +643,7 @@ This flag should not be used if read-behind (that is, reverse scans) will be use
 This flag has no effect if the file system does not support cached I/O and 
          <b>FILE_FLAG_NO_BUFFERING</b>.
 
-For more information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For more information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -657,7 +657,7 @@ For more information, see the <a href="#caching-behavior">Caching Behavior</a> s
 <td width="60%">
 Write operations will not go through any intermediate cache, they will go directly to disk.
 
-For additional information, see the <a href="#caching-behavior">Caching Behavior</a> section of this 
+For additional information, see the <a href="#caching_behavior">Caching Behavior</a> section of this 
          topic.
 
 </td>
@@ -1160,14 +1160,14 @@ The <b>IOCTL_CHANGER_*</b> control codes for
       "\\.\Changer<i>x</i>" where 
       <i>x</i> is a number that indicates which device to open, starting with zero. To open 
       changer device zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\Changer0".
+      "\\.\Changer0".
 
 <h3><a id="Tape_Drives"></a><a id="tape_drives"></a><a id="TAPE_DRIVES"></a>Tape Drives</h3>
 You can open tape drives by using a file name of the following form: 
       "\\.\TAPE<i>x</i>" where 
       <i>x</i> is a number that indicates which drive to open, starting with tape drive zero. To 
       open tape drive zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\TAPE0".
+      "\\.\TAPE0".
 
 For more information, see <a href="/windows/desktop/Backup/backup">Backup</a>.
 
@@ -1181,7 +1181,7 @@ The <b>CreateFile</b> function can create a handle to a
       for overlapped I/O.
 
 To specify a COM port number greater than 9, use the following syntax: 
-      "\\.\COM10". This syntax works for all port numbers and hardware that 
+      "\\\\.\COM10". This syntax works for all port numbers and hardware that 
       allows COM port numbers to be specified.
 
 For more information about communications, see 

@@ -4,7 +4,6 @@ title: ICompositionDrawingSurfaceInterop2::CopySurface
 description: Reads back the contents of a composition drawing surface (or a composition virtual drawing surface).
 ms.date: 01/09/2020
 tech.root: winrt
-ms.topic: language-reference
 req.construct-type: function
 req.header: windows.ui.composition.interop.h
 req.include-header: 

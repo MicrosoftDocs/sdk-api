@@ -51,7 +51,7 @@ The <b>DdVideoPortGetLine</b> callback function returns the current line number 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportlinedata">DD_GETVPORTLINEDATA</a> structure that contains the information required for the driver to determine and return the current line number for the specified hardware video port.
 

@@ -89,11 +89,11 @@ A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_ke
 
 A set of flags that modify the behavior of this function. This can be zero.
 
-### -param *pvAuxInfo [in]
+### -param pvAuxInfo [in]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-### -param *phKey [out]
+### -param phKey [out]
 
 A pointer to a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the imported key.
 

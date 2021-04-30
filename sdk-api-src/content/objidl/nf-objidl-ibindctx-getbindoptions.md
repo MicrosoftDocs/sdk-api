@@ -56,7 +56,7 @@ Retrieves the binding options stored in this bind context.
 
 ### -param pbindopts [in, out]
 
-A pointer to an initialized structure that receives the current binding parameters on return. See [BIND_OPTS3](./ns-objidl-bind_opts3~r1.md).
+A pointer to an initialized structure that receives the current binding parameters on return. See [BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3-r1).
 
 ## -returns
 
@@ -77,11 +77,11 @@ You must initialize the structure that is filled in by this method. Before calli
 
 
 
-[BIND_OPTS2](./ns-objidl-bind_opts2~r1.md)
+[BIND_OPTS2](/windows/win32/api/objidl/ns-objidl-bind_opts2-r1)
 
 
 
-[BIND_OPTS3](./ns-objidl-bind_opts3~r1.md)
+[BIND_OPTS3](/windows/win32/api/objidl/ns-objidl-bind_opts3-r1)
 
 
 

@@ -100,7 +100,7 @@ The <b>dmSize</b> member of <a href="/windows/win32/api/wingdi/ns-wingdi-devmode
 
 In addition to using one or more of the preceding <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display setting.
             
-          <table>
+<table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>

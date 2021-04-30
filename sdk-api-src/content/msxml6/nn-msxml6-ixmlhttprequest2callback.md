@@ -60,61 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest2Callback</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXMLHTTPRequest2Callback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-ondataavailable">IXMLHTTPRequest2Callback::OnDataAvailable</a>
-</td>
-<td align="left" width="63%">
-Occurs when a client receives part of the HTTP response data from the server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">IXMLHTTPRequest2Callback::OnError</a>
-</td>
-<td align="left" width="63%">
-Occurs when an error is encountered or the request has been aborted.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">IXMLHTTPRequest2Callback::OnHeadersAvailable</a>
-</td>
-<td align="left" width="63%">
-Occurs after an HTTP request has been sent to the server and the server has  responded with response headers.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onredirect">IXMLHTTPRequest2Callback::OnRedirect</a>
-</td>
-<td align="left" width="63%">
-Occurs when a client sends an HTTP request that the server redirects to a new URL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onresponsereceived">IXMLHTTPRequest2Callback::OnResponseReceived</a>
-</td>
-<td align="left" width="63%">
-Occurs when a client has received a complete response from the server.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Methods on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> interface are asynchronous, so applications must pass an <b>IXMLHTTPRequest2Callback</b> object as a parameter in calls to <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a> method on the <b>IXMLHTTPRequest2</b> interface to receive callback notifications. 

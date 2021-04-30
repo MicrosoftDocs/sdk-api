@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.SetValue
 title: ICodecAPI::SetValue
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The SetValue method sets the value of a codec property.
 helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetValue method","ICodecAPI.SetValue","ICodecAPI::SetValue","ICodecAPISetValue","SetValue","SetValue method [DirectShow]","SetValue method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setvalue","icodecapi/ICodecAPI::SetValue"]

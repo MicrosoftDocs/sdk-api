@@ -61,36 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncServices</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMPSyncServices</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-get_devicecount">get_deviceCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of available devices.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncservices-getdevice">getDevice</a>
-</td>
-<td align="left" width="63%">
-Retrieves a pointer to a device interface.
-
-</td>
-</tr>
-</table> 
-
-Retrieve a pointer to <b>IWMPSyncServices</b> by calling <b>QueryInterface</b> through <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a>.
-
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>

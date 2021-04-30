@@ -59,21 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestReader6</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxManifestReader6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader6-getisnonqualifiedresourcepackage">GetIsNonQualifiedResourcePackage</a>
-</td>
-<td align="left" width="63%">
-Queries whether an app package is a non-qualified resource package.
-
-</td>
-</tr>
-</table>

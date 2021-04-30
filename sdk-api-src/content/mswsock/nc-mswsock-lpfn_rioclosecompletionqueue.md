@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIOCLOSECOMPLETIONQUEUE"]
 old-location: 
 tech.root: WinSock
 ms.assetid: A5700ACD-3F4B-4AFF-8BA1-6AC59402E06C
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOCLOSECOMPLETIONQUEUE
 targetos: Windows
 req.assembly: 

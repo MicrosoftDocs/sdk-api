@@ -51,7 +51,7 @@ The <b>DdMoCompGetFormats</b> callback function indicates the uncompressed forma
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getmocompformatsdata">DD_GETMOCOMPFORMATSDATA</a> structure that contains the uncompressed format information for the hardware.
 

@@ -54,11 +54,11 @@ Sets a property on an effect.
 
 ## -parameters
 
-### -param *effect [in]
+### -param effect [in]
 
 A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the effect on which the property will be set.
 
-### -param *data [in]
+### -param data [in]
 
 A pointer to the data to be set on the property.
 

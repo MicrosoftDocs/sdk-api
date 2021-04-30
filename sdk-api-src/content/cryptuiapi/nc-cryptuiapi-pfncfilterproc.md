@@ -58,11 +58,11 @@ The <b>PFNCFILTERPROC</b> function is an application-defined callback function t
 
 A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate to filter.
 
-### -param *pfInitialSelectedCert [in]
+### -param pfInitialSelectedCert [in]
 
 A Boolean value that specifies whether  the certificate contained in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <i>pCertContext</i> parameter should be initially selected in the dialog box. This parameter is used only if the filter process returns <b>TRUE</b>.
 
-### -param *pvCallbackData [in]
+### -param pvCallbackData [in]
 
 A pointer to user-defined data.
 

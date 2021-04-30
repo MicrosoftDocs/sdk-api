@@ -62,26 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioMediaType</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFAudioMediaType</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfaudiomediatype-getaudioformat">GetAudioFormat</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>Windows Server 2008 and Windows Vista:  </b>If the major type of a media type is <b>MFMediaType_Audio</b>, you can query the media type object for the <b>IMFAudioMediaType</b> interface.

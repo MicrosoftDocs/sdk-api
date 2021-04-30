@@ -70,23 +70,23 @@ but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webse
 
 ## -parameters
 
-### -param *passwordValidatorCallbackState [in, optional]
+### -param passwordValidatorCallbackState [in, optional]
 
 The state to be passed back when invoking this callback.
 
-### -param *username [in]
+### -param username [in]
 
 Received username.
 
-### -param *password [in]
+### -param password [in]
 
 Received password.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

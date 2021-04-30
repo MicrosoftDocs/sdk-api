@@ -86,61 +86,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputScope</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfInputScope</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getinputscopes">GetInputScopes</a>
-</td>
-<td align="left" width="63%">
-Gets the input scopes that are associated with this context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getphrase">GetPhrase</a>
-</td>
-<td align="left" width="63%">
-Gets the phrase list set to this context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getregularexpression">GetRegularExpression</a>
-</td>
-<td align="left" width="63%">
-Gets the regular expression string to be rssecognized.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getsrgs">GetSRGS</a>
-</td>
-<td align="left" width="63%">
-Gets the Speech Recognition Grammar Specification (SRGS) string to be recognized.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope-getxml">GetXML</a>
-</td>
-<td align="left" width="63%">
-Gets the custom XML string to be recognized.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To use this interface with window-less controls, an application has two options.

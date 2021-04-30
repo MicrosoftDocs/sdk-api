@@ -72,7 +72,7 @@ A handle to the bitmap that contains one or more images. The number of images is
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.
+The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is CLR_DEFAULT, then the color of the pixel at (0,0) is used as the mask.
 
 ## -returns
 

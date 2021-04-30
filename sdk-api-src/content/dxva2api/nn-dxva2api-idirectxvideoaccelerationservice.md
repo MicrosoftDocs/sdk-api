@@ -59,26 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoAccelerationServ
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDirectXVideoAccelerationService</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoaccelerationservice-createsurface">CreateSurface</a>
-</td>
-<td align="left" width="63%">
-Creates a DirectX Video Acceleration (DXVA) video processor or DXVA decoder render target.
-        
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This is the base interface for DXVA services. The Direct3D device can support any of the following DXVA services, which derive from <b>IDirectXVideoAccelerationService</b>:

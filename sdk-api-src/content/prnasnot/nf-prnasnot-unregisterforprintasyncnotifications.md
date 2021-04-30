@@ -54,7 +54,7 @@ Enables an application that has registered to receive notifications from Print S
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 The registration handle to be unregistered.
 

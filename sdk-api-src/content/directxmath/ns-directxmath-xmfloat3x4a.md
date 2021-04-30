@@ -46,6 +46,8 @@ api_name:
 
 A 3x4 column-major matrix containing 32-bit floating-point components aligned on a 16-byte boundary.
 
+## -struct-fields
+
 ## -remarks
 
 You can load an [XMMATRIX](./ns-directxmath-xmmatrix.md) from an **XMFLOAT3X4A** by using [XMLoadFloat3x4A](./nf-directxmath-xmloadfloat3x4a.md).

@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtractIcon</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IExtractIcon</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">Extract</a>
-</td>
-<td align="left" width="63%">
-Extracts an icon image from the specified location.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation">GetIconLocation</a>
-</td>
-<td align="left" width="63%">
-Gets the location and index of an icon.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 There are two ways to retrieve an object's icon. The simplest way is to call <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>. However, this approach is inflexible and may be slow. A more flexible and efficient way to retrieve an item's icon is to use <b>IExtractIcon</b>. The Shell uses <b>IExtractIcon</b> to retrieve icons when it displays the contents of a folder. To use <b>IExtractIcon</b> to retrieve an object's icon, do the following:

@@ -56,13 +56,13 @@ Defines the prototype for the callback function used by the system folder view o
 
 ## -parameters
 
-### -param *psvOuter [in]
+### -param psvOuter [in]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>*</b>
 
 A pointer to the owning instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>, if applicable. This parameter can be <b>NULL</b>.
 
-### -param *psf [in]
+### -param psf [in]
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 

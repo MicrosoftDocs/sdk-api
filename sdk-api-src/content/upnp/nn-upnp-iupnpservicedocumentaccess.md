@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceDocumentAccess</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUPnPServiceDocumentAccess</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocument">GetDocument</a>
-</td>
-<td align="left" width="63%">
-Retrieves the complete SCPD document for a service object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicedocumentaccess-getdocumenturl">GetDocumentURL</a>
-</td>
-<td align="left" width="63%">
-Retrieves the SCPD URL for a service object.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>

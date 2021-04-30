@@ -60,25 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo2</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBasicVideo2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/control/nf-control-ibasicvideo2-getpreferredaspectratio">GetPreferredAspectRatio</a>
-</td>
-<td align="left" width="63%">
-Retrieves the preferred video aspect ratio.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo</a>

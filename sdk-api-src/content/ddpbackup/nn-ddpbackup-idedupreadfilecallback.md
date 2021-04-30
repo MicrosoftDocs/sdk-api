@@ -59,44 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDedupReadFileCallback</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDedupReadFileCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">OrderContainersRestore</a>
-</td>
-<td align="left" width="63%">
-This method provides the application with the ability to influence the order of the pending reads that 
-    are required to retrieve the target file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-previewcontainerread">PreviewContainerRead</a>
-</td>
-<td align="left" width="63%">
-Provides the application with a preview of the sequence of reads that are pending for a given container file extent.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-readbackupfile">ReadBackupFile</a>
-</td>
-<td align="left" width="63%">
- Reads data from a Data Deduplication store metadata or  container file located  in the backup store.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IDedupReadFileCallback</b> interface is implemented by a backup application and passed as a parameter to the <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> method. The callback is used by Data Deduplication to read data from Data Duplication store containers in the backup store.  <b>IDedupReadFileCallback</b> also includes methods that applications can optionally implement to increase the efficiency of the Data Deduplication file restore process.

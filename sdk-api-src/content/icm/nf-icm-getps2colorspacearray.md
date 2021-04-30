@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.GetPS2ColorSpaceArray
 title: GetPS2ColorSpaceArray
-description: Retrieves the PostScript Level 2 [color space](c.md) array from an ICC color profile.
+description: Retrieves the PostScript Level 2 [color space](/windows/win32/wcs/c) array from an ICC color profile.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -41,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Retrieves the PostScript Level 2 [color space](c.md) array from an ICC color profile.
+Retrieves the PostScript Level 2 [color space](/windows/win32/wcs/color-spaces) array from an ICC color profile.
 
 ## -parameters
 
@@ -61,11 +60,11 @@ INTENT\_RELATIVE\_COLORIMETRIC
 
 INTENT\_ABSOLUTE\_COLORIMETRIC
 
-For more information, see [Rendering Intents](rendering-intents.md).
+For more information, see [Rendering Intents](/windows/win32/wcs/rendering-intents).
 
 ### -param dwCSAType
 
-Specifies the type of color space array. See [Color Space Type Identifiers](color-space-type-identifiers.md).
+Specifies the type of color space array. See [Color Space Type Identifiers](/windows/win32/wcs/color-space-type-identifiers).
 
 ### -param pPS2ColorSpaceArray
 
@@ -93,5 +92,5 @@ This method does not support WCS profiles.
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

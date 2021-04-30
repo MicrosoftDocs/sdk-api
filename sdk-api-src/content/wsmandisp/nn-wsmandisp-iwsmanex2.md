@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx2</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWSManEx2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanex2-sessionflaguseclientcertificate">IWSManEx2::SessionFlagUseClientCertificate</a>
-</td>
-<td align="left" width="63%">
-Returns the value of the authentication flag <b>WSManFlagUseClientCertificate</b>.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>

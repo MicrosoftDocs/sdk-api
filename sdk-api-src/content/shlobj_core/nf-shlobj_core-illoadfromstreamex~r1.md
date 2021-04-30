@@ -1,7 +1,7 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx~r1
 title: ILLoadFromStreamEx
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: ILLoadFromStreamEx
 targetos: Windows
 req.assembly: 
@@ -31,7 +31,6 @@ dev_langs:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - shlobj_core.h
 api_name:

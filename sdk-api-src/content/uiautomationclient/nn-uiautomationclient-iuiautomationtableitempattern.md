@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTableItemPattern
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIAutomationTableItemPattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedcolumnheaderitems">GetCachedColumnHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the cached column headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedrowheaderitems">GetCachedRowHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the cached row headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentcolumnheaderitems">GetCurrentColumnHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the column headers associated with a table item or cell.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcurrentrowheaderitems">GetCurrentRowHeaderItems</a>
-</td>
-<td align="left" width="63%">
-Retrieves the row headers associated with a table item or cell.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Elements that support this interface must also support <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>, to provide properties that are not specific to tables.

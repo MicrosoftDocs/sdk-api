@@ -57,7 +57,7 @@ Creates a system-defined modeless dialog box that lets the user specify a string
 
 ## -parameters
 
-### -param Arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Type: <b>LPFINDREPLACE</b>
 

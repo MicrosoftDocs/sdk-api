@@ -62,6 +62,11 @@ A pointer to the variable that receives a handle to the synchronization object.
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
 
+## -remarks
+
+Do not close the handle returned in the <i>ph</i> parameter.
+The lifetime of the handle is controlled by the object that implements the ISynchronizeHandle interface.
+
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">ISynchronizeEvent::SetEventHandle</a>

@@ -54,15 +54,15 @@ The <b>IDirectInputEffectDriver::StartEffect</b> method begins the playback of a
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Identifies the external joystick number being addressed
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be played.
 
-### -param arg3
+### -param unnamedParam3
 
 Specifies how the effect is to affect other effects. Only the mode listed below can be used; all other modes are reserved. For example, the driver never receives the DIES_NODOWNLOAD flag because it is managed by DirectInput and not the driver.  This parameter can be zero, one, or more of the following flags:
 
@@ -74,7 +74,7 @@ Specifies how the effect is to affect other effects. Only the mode listed below 
 
 Indicates that all other effects on the device should be stopped before the specified effect is played. If this flag is omitted, the effect is mixed with existing effects that have already started on the device.
 
-### -param arg4
+### -param unnamedParam4
 
 Specifies the number of times to perform the effect. If the value is INFINITE, then the effect should be repeated until explicitly stopped or paused.
 

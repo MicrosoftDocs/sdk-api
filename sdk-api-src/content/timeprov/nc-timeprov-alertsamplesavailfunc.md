@@ -54,7 +54,7 @@ Notifies the system that there are new time samples available.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 ## -returns
 

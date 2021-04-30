@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -42,6 +41,9 @@ dev_langs:
 ## -description
 
 Sets the default color profile name for the specified profile type in the specified profile management scope.
+
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileSetDisplayDefaultAssociation**](nf-icm-colorprofilesetdisplaydefaultassociation.md) for managing advanced color profiles.
 
 ## -parameters
 
@@ -89,8 +91,8 @@ See notes on valid profile type/subtype combinations.
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)
 * [COLORPROFILESUBTYPE](/windows/win32/api/icm/ne-icm-colorprofilesubtype)
 * [COLORPROFILETYPE](/windows/win32/api/icm/ne-icm-colorprofiletype)

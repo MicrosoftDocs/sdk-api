@@ -60,7 +60,7 @@ The DLL entry point name for this method must be <b>WSManPluginAuthzOperation</b
 
 Specifies the context that was returned by a call to <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a>. This parameter represents a specific application initialization of a WinRM plug-in.
 
-### -param *senderDetails [in]
+### -param senderDetails [in]
 
 A pointer  to the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user.
 
@@ -134,19 +134,19 @@ Specifies the action of the request received.  This parameter can be one of the 
 
 #### Get
 
-http://schemas.xmlsoap.org/ws/2004/09/transfer/Get
+`http://schemas.xmlsoap.org/ws/2004/09/transfer/Get`
 
 
 
 #### Put
 
-http://schemas.xmlsoap.org/ws/2004/09/transfer/Put
+`http://schemas.xmlsoap.org/ws/2004/09/transfer/Put`
 
 
 
 #### Create
 
-http://schemas.xmlsoap.org/ws/2004/09/transfer/Create
+`http://schemas.xmlsoap.org/ws/2004/09/transfer/Create`
 
 <div class="alert"><b>Note</b>  Shell creation will appear as Create.</div>
 <div> </div>
@@ -154,25 +154,25 @@ http://schemas.xmlsoap.org/ws/2004/09/transfer/Create
 
 #### Delete
 
-http://schemas.xmlsoap.org/ws/2004/09/transfer/Delete
+`http://schemas.xmlsoap.org/ws/2004/09/transfer/Delete`
 
 
 
 #### Enumerate
 
-http://schemas.xmlsoap.org/ws/2004/09/enumeration/Enumerate
+`http://schemas.xmlsoap.org/ws/2004/09/enumeration/Enumerate`
 
 
 
 #### Subscribe
 
-http://schemas.xmlsoap.org/ws/2004/08/eventing/Subscribe
+`http://schemas.xmlsoap.org/ws/2004/08/eventing/Subscribe`
 
 
 
 #### Command
 
-http://schemas.microsoft.com/wbem/wsman/1/windows/shell/Command
+`http://schemas.microsoft.com/wbem/wsman/1/windows/shell/Command`
 
 
 

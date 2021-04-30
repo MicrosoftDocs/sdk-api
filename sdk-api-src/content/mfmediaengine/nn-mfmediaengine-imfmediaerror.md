@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaError</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFMediaError</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">GetErrorCode</a>
-</td>
-<td align="left" width="63%">
-Gets the error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-getextendederrorcode">GetExtendedErrorCode</a>
-</td>
-<td align="left" width="63%">
-Gets the extended error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-seterrorcode">SetErrorCode</a>
-</td>
-<td align="left" width="63%">
-Sets the error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-setextendederrorcode">SetExtendedErrorCode</a>
-</td>
-<td align="left" width="63%">
-Sets the extended error code.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IMFMediaError</b> interface corresponds to the <b>MediaError</b> object in HTML5.

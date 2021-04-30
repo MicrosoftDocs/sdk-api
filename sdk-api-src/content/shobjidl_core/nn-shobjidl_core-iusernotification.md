@@ -62,61 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserNotification</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUserNotification</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-playsound">PlaySound</a>
-</td>
-<td align="left" width="63%">
-Plays a sound in conjunction with the notification.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballooninfo">SetBalloonInfo</a>
-</td>
-<td align="left" width="63%">
-Sets the information to be displayed in a balloon notification.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-setballoonretry">SetBalloonRetry</a>
-</td>
-<td align="left" width="63%">
-Specifies the conditions for trying to display user information when the first attempt fails.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-seticoninfo">SetIconInfo</a>
-</td>
-<td align="left" width="63%">
-Sets the notification area icon associated with specific user information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-show">Show</a>
-</td>
-<td align="left" width="63%">
-Displays the notification.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

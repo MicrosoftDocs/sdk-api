@@ -51,7 +51,7 @@ The <b>DdVideoPortUpdate</b> callback function starts and stops the VPE object, 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_updatevportdata">DD_UPDATEVPORTDATA</a> structure that contains the information required for the driver to update the VPE object.
 

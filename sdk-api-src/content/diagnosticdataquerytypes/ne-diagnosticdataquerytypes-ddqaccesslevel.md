@@ -3,11 +3,10 @@ UID: NE:diagnosticdataquerytypes.tagDdqAccessLevel
 title: DdqAccessLevel
 ms.date: 8/19/2019
 ms.keywords: tagDdqAccessLevel, DdqAccessLevel
-ms.topic: language-reference
 description: This resource represents the privilege level for a Diagnostic Data Query session
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: diagnosticdataquerytypes.h

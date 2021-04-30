@@ -64,34 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_TIF_REGISTRATION</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBDA_TIF_REGISTRATION</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ibda_tif_registration-registertifex">RegisterTIFEx</a>
-</td>
-<td align="left" width="63%">
-Registers the TIF with the Network Provider.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-ibda_tif_registration-unregistertif">UnregisterTIF</a>
-</td>
-<td align="left" width="63%">
-Unregisters the TIF with the Network Provider.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> 

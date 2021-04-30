@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchWithPrerequis
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncChangeBatchWithPrerequisite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedforgottenknowledge">GetLearnedForgottenKnowledge</a>
-</td>
-<td align="left" width="63%">
-Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-getlearnedknowledgewithprerequisite">GetLearnedKnowledgeWithPrerequisite</a>
-</td>
-<td align="left" width="63%">
-Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch, based on the prerequisite knowledge of the change batch.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchwithprerequisite-setprerequisiteknowledge">SetPrerequisiteKnowledge</a>
-</td>
-<td align="left" width="63%">
-Sets the minimum knowledge that a destination provider is required to have to process this change batch.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 An <b>ISyncChangeBatchWithPrerequisite</b> object can be obtained by passing <b>IID_ISyncChangeBatchWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a> object.

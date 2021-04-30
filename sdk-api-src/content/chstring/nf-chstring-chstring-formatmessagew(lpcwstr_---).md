@@ -60,7 +60,7 @@ A pointer to the formal control string.
 The control string is scanned for inserts and formatted accordingly.
 The format string is similar to the runtime function, **printf**-style format strings, except that **printf** allows the parameters to be inserted in an arbitrary order.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -103,3 +103,4 @@ assert(str == L"4 of 5 developers agree: Golf is Best!");
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
+

@@ -46,10 +46,9 @@ api_name:
  - ID3D11DeviceContext.UpdateSubresource
 ---
 
-# ID3D11DeviceContext::UpdateSubresource
-
-
 ## -description
+
+See the [Basic hologram sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/BasicHologram).
 
 The CPU copies data from memory to a subresource created in non-mappable memory.
 
@@ -244,6 +243,6 @@ HRESULT UpdateSubresource_Workaround(
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
 
-
-
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
+
+[Basic hologram sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/BasicHologram)

@@ -48,10 +48,6 @@ The <b>IDigitalLocator</b> interface serves as the base interface for <a href="/
 
 IDigitalLocator interits from .
 
-## -members
-
-	The IDigitalLocator has no additional methods.
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IDigitalLocator)</code>.

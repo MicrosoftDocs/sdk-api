@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISendMethodEvents</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISendMethodEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isendmethodevents-sendmethodcall">SendMethodCall</a>
-</td>
-<td align="left" width="63%">
-Generated when a method is called through a component interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isendmethodevents-sendmethodreturn">SendMethodReturn</a>
-</td>
-<td align="left" width="63%">
-Generated when a method called through a component interface returns control to the caller.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To send method events to the COM+ tracker property, you need to obtain a handle to it and you need to obtain its GUID, which is defined as follows.

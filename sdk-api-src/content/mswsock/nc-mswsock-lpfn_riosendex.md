@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIOSENDEX"]
 old-location: 
 tech.root: WinSock
 ms.assetid: BD246278-C2BF-48E6-97AD-65057EDA1F59
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOSENDEX
 targetos: Windows
 req.assembly: 

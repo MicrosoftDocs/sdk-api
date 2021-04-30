@@ -71,7 +71,7 @@ A handle to a layered window. A layered window is created by specifying <b>WS_EX
 
 Type: <b>HDC</b>
 
-A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> when calling the  function. It is used for palette color matching when the window contents are updated. If <i>hdcDst</i> is<b>NULL</b>, the default palette will be used.
+A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> when calling the <a href="/windows/win32/api/winuser/nf-winuser-getdc">GetDC</a> function. It is used for palette color matching when the window contents are updated. If <i>hdcDst</i> is <b>NULL</b>, the default palette will be used.
 
 If <i>hdcSrc</i> is <b>NULL</b>, <i>hdcDst</i> must be <b>NULL</b>.
 

@@ -58,7 +58,7 @@ api_name:
 
 The session handle.
 
-### -param *pServerCert
+### -param pServerCert
 
 #### - ppServerCert
 

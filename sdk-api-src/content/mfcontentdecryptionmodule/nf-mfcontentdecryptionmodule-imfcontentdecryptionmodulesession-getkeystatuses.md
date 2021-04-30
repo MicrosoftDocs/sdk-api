@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.GetKeyStatuses
 title: IMFContentDecryptionModuleSession::GetKeyStatuses
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets a reference to an array of structures that represent the key IDs known to the Content Decryption Module (CDM) session and the current status of the associated key.
 tech.root: mf

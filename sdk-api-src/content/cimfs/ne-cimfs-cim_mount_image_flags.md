@@ -5,9 +5,8 @@ ms.date: 9/9/2019
 ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: cimfs.h
@@ -44,7 +43,7 @@ When no flags are specified the mounted image will contain the entire contents o
 
 ### -field CIM_MOUNT_CHILD_ONLY
 
-Specifies that the mounted image should contain only the contents of the leaf node child of a forked image. The parent image contents are masked in the mounted image.
+This flag is ignored.
 
 ## -remarks
 

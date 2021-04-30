@@ -2,7 +2,7 @@
 UID: NF:directxmath.XMLoadFloat3x4A
 title: XMLoadFloat3x4A
 ms.date: 04/23/2020
-description: Loads an [**XMFLOAT3X4A**](./ns-directxmath-xmfloat3x4a.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+description: Loads an [**XMFLOAT3X4A**](../directxmath/ns-directxmath-xmfloat3x4a.md) into an [**XMMATRIX**](../directxmath/ns-directxmath-xmmatrix.md).
 tech.root: dxmath
 req.header: directxmath.h
 req.include-header: 
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Loads an [**XMFLOAT3X4A**](./ns-directxmath-xmfloat3x4a.md) into an [**XMMATRIX**](./ns-directxmath-xmmatrix.md).
+Loads an [**XMFLOAT3X4A**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a) into an [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).
 
 ## -parameters
 

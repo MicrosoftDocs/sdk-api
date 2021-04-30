@@ -75,7 +75,7 @@ TBD
 
 ## -remarks
 
-For a description of rendering intents, see [Rendering Intents](rendering-intents.md).
+For a description of rendering intents, see [Rendering Intents](/windows/win32/wcs/rendering-intents).
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to the **COLORPROFILESUBTYPE** enumeration:
 

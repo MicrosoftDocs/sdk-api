@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,GetAdapter method, IDXCoreAdapterFactory.GetAdapter, IDXCoreAdapterFactory::GetAdapter, GetAdapter, GetAdapter method, GetAdapter method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::GetAdapter, dxcore_interface.idxcoreadapterfactory_getadapter
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -50,9 +50,7 @@ api_name:
 
 ## -description
 
-    This function constructs two arrays of SIDs out of a capability name. 
-    One is an array group SID with NT Authority, and the other is an array of 
-    capability SIDs with AppAuthority.
+This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 
 ## -parameters
 
@@ -85,9 +83,6 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 ## -remarks
 
-    The caller is expected to free the individual SIDs returned in each array by calling LocalFree.
-    as well as memory allocated for the array itself.
+The caller is expected to free the individual SIDs returned in each array by calling `LocalFree`, as well as memory allocated for the array itself.
 
-    The SID computed for the application capability of legacy capabilities
-    (published prior to Win10) will be the same as the published SIDs but the
-    SID for the service group capability SID will be hash based.
+The SID computed for the application capability of legacy capabilities (published prior to Win10) will be the same as the published SIDs but the SID for the service group capability SID will be hash based.

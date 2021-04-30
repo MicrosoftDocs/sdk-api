@@ -3,7 +3,6 @@ UID: NA:diagnosticdataquery
 title: diagnosticdataquery
 ms.date: 8/19/2019
 ms.keywords: diagnosticdataquery
-ms.topic: language-reference
 description: 
 ms.localizationpriority: high
 tech.root: security

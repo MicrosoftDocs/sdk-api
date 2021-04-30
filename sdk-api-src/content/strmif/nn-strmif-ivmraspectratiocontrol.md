@@ -60,34 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRAspectRatioControl</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVMRAspectRatioControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-getaspectratiomode">GetAspectRatioMode</a>
-</td>
-<td align="left" width="63%">
-Queries whether the VMR will preserve the aspect ratio of the source video.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ivmraspectratiocontrol-setaspectratiomode">SetAspectRatioMode</a>
-</td>
-<td align="left" width="63%">
-Specifies whether the VMR will preserve the aspect ratio of the source video.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

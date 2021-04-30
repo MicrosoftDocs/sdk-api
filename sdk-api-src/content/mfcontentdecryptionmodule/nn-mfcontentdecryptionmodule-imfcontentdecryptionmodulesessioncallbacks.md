@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleSessionCallbacks
 title: IMFContentDecryptionModuleSessionCallbacks
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides a callback mechanism for receiving key status change updates from an IMFContentDecryptionModuleSession.
 tech.root: mf

@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
 title: DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_CATEGORY_DESCRIPTION
-ms.topic: language-reference
 description: A resource that represents a category, defined by an identifier and a name. A category is an organizational construct to categorize records for a given producer. For example, "Browsing Data" could be a category for the producer "Microsoft Edge".
 tech.root: security
 targetos: Windows
-product: Windows
+ms.product: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -2,7 +2,6 @@
 UID: NS:mfidl.MFMediaKeyStatus
 title: MFMediaKeyStatus
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Reporesents the status of a Content Decryption Module (CDM) session key.
 tech.root: mf
@@ -52,7 +51,7 @@ The number of bytes in the *pbKeyId* paramater.
 
 ### -field eMediaKeyStatus
 
-A value from the [MF_MEDIAKEY_STATUS](ne-mfidl-mf_mediakey_status) enumeration specifying the status of the associated session key.
+A value from the [MF_MEDIAKEY_STATUS](ne-mfidl-mf_mediakey_status.md) enumeration specifying the status of the associated session key.
 
 ## -remarks
 

@@ -2,7 +2,6 @@
 UID: NS:schannel._SCH_CREDENTIALS
 title: SCH_CREDENTIALS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Contains the data for an Schannel credential.
 tech.root: security
@@ -149,8 +148,8 @@ Instruct Schannel to pass the CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL flag to the <a
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="SCH_DISABLE_RECONNECTS"></a><a id="sch_disable_reconnects"></a><dl>
-<dt><b>SCH_DISABLE_RECONNECTS</b></dt>
+<td width="40%"><a id="SCH_CRED_DISABLE_RECONNECTS"></a><a id="sch_cred_disable_reconnects"></a><dl>
+<dt><b>SCH_CRED_DISABLE_RECONNECTS</b></dt>
 <dt>0x00000080</dt>
 </dl>
 </td>

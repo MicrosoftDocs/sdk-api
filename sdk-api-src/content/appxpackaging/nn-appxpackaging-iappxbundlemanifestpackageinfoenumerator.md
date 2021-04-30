@@ -59,39 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestPackageInf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxBundleManifestPackageInfoEnumerator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-getcurrent">GetCurrent</a>
-</td>
-<td align="left" width="63%">
-Gets the &lt;Package&gt; element at the current position of the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-gethascurrent">GetHasCurrent</a>
-</td>
-<td align="left" width="63%">
-Determines whether there are more elements in the enumerator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-movenext">MoveNext</a>
-</td>
-<td align="left" width="63%">
-Advances the position of the enumerator to the next &lt;Package&gt; element.
-
-</td>
-</tr>
-</table>

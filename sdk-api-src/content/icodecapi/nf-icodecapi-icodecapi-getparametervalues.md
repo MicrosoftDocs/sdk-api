@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.GetParameterValues
 title: ICodecAPI::GetParameterValues
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The GetParameterValues method gets the list of possible values for a codec property.
 helpviewer_keywords: ["GetParameterValues","GetParameterValues method [DirectShow]","GetParameterValues method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterValues method","ICodecAPI.GetParameterValues","ICodecAPI::GetParameterValues","ICodecAPIGetParameterValues","dshow.icodecapi_getparametervalues","icodecapi/ICodecAPI::GetParameterValues"]

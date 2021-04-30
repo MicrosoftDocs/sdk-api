@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLicenseRevocationAgent</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMLicenseRevocationAgent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-getlrbchallenge">GetLRBChallenge</a>
-</td>
-<td align="left" width="63%">
-Generates a response to a license revocation challenge message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlicenserevocationagent-processlrb">ProcessLRB</a>
-</td>
-<td align="left" width="63%">
-Performs license revocation.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 License revocation enables a license issuer to remove licenses from a computer.

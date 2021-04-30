@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterList, IDXCoreAdapterList interface, IDXCoreAdapterList interface,description, dxcore/IDXCoreAdapterList, dxcore.idxcoreadapterlist
 ms.localizationpriority: low
-ms.topic: interface
 targetos: Windows
 product: Windows
 req.assembly: 

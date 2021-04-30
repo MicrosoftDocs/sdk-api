@@ -59,46 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeUnit</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISyncChangeUnit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitid">GetChangeUnitId</a>
-</td>
-<td align="left" width="63%">
-Gets the change unit ID.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitversion">GetChangeUnitVersion</a>
-</td>
-<td align="left" width="63%">
-Gets the version for the change unit change.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getitemchange">GetItemChange</a>
-</td>
-<td align="left" width="63%">
-Gets the item change that contains this change unit change.
-
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement7</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUIAutomationElement7</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptions">FindAllWithOptions</a>
-</td>
-<td align="left" width="63%">
-Find all matching elements in the specified order.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptionsbuildcache">FindAllWithOptionsBuildCache</a>
-</td>
-<td align="left" width="63%">
-Finds all matching elements in the specified order, but also caches their properties and patterns.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptions">FindFirstWithOptions</a>
-</td>
-<td align="left" width="63%">
-Finds the first matching element in the specified order.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptionsbuildcache">FindFirstWithOptionsBuildCache</a>
-</td>
-<td align="left" width="63%">
-Finds the first matching element in the specified order, but also caches its properties and pattern.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-getcurrentmetadatavalue">GetCurrentMetadataValue</a>
-</td>
-<td align="left" width="63%">
-Gets metadata from the UI Automation element that indicates how the information should be interpreted.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>

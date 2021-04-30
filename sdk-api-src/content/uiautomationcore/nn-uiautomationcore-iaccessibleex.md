@@ -59,52 +59,6 @@ The **IAccessibleEx** interface inherits from the <a href="/windows/desktop/api/
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAccessibleEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessibleex-convertreturnedelement">ConvertReturnedElement</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>IAccessibleEx</b> interface of an element returned as a property value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessibleex-getiaccessiblepair">GetIAccessiblePair</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface and child ID for this item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessibleex-getobjectforchild">GetObjectForChild</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IAccessibleEx</b> interface representing the specified child of this element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iaccessibleex-getruntimeid">GetRuntimeId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the runtime identifier of this element.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface can be implemented on custom controls that also implement the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface, to provide added support for UI Automation without the cost of a full UI Automation provider implementation.

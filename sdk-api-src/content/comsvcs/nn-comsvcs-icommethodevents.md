@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComMethodEvents</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IComMethodEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodcall">OnMethodCall</a>
-</td>
-<td align="left" width="63%">
-Generated when an object's method is called.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodexception">OnMethodException</a>
-</td>
-<td align="left" width="63%">
-Generated when an object's method generates an exception.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icommethodevents-onmethodreturn">OnMethodReturn</a>
-</td>
-<td align="left" width="63%">
-Generated when an object's method returns.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/cossdk/com--events">COM+ Events</a>

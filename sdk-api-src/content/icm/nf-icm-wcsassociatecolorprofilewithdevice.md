@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -42,6 +41,9 @@ dev_langs:
 ## -description
 
 Associates a specified WCS color profile with a specified device.
+
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileAddDisplayAssociation**](nf-icm-colorprofileadddisplayassociation.md) for managing advanced color profiles.
 
 ## -parameters
 
@@ -73,7 +75,7 @@ This function is executable in Least-Privileged User Account (LUA) context if *p
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [WcsDisassociateColorProfileFromDevice**](/windows/win32/api/icm/nf-icm-wcsdisassociatecolorprofilefromdevice)

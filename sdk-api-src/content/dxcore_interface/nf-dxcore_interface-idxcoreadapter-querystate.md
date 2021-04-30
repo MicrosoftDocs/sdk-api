@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapter interface,QueryState method, IDXCoreAdapter.QueryState, IDXCoreAdapter::QueryState, QueryState, QueryState method, QueryState method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::QueryState, dxcore_interface.idxcoreadapterfactory_querystate
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -55,7 +55,7 @@ The
 
 ## -parameters
 
-### -param *Event [out]
+### -param Event [out]
 
 Pointer to an event. Information about this event is reported in the associated message. Note that this is not an event object. (The <b>ROUTING_PROTOCOL_EVENTS</b> type is declared in Routprot.h.) 
 
@@ -116,7 +116,7 @@ The routing protocol has completed an autostatic update request from the router 
 </tr>
 </table>
 
-### -param *Result [out]
+### -param Result [out]
 
 Pointer to a 
 <a href="/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a> union. The contents of the message are specific to the reported event. 

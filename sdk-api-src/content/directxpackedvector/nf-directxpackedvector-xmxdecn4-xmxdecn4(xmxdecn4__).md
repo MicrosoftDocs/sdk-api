@@ -58,7 +58,7 @@ A constructor for **XMXDECN4**.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A value.
 

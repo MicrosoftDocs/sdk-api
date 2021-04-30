@@ -8,9 +8,8 @@ ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreAdapterMemoryBudget structure, dxcore_interface.dxcoreadaptermemorybudget
 ms.localizationpriority: low
-ms.topic: structure
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

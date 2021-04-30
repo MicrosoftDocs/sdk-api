@@ -67,45 +67,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMMediaProps</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMMediaProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">GetMediaType</a>
-</td>
-<td align="left" width="63%">
-Retrieves a <b>WM_MEDIA_TYPE</b> structure describing the media type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-gettype">GetType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the major type of the media (audio, video, or script).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">SetMediaType</a>
-</td>
-<td align="left" width="63%">
-Specifies a <b>WM_MEDIA_TYPE</b> structure describing the media type.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the <b>QueryInterface</b> method of this interface, see the topic for the object on which this interface is implemented.
-
 ## -see-also
 
 <a href="/windows/desktop/wmformat/input-media-properties-object">Input Media Properties Object</a>

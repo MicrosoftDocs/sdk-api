@@ -66,7 +66,7 @@ The initial velocity.
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
             
-          See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
 

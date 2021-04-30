@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CreateProfileFromLogColorSpaceA
 title: CreateProfileFromLogColorSpaceA
-description: Converts a logical [color space](c.md) to a [device profile](d.md).
+description: Converts a logical [color space](/windows/win32/wcs/c) to a [device profile](/windows/win32/wcs/d).
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows
@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -44,13 +43,13 @@ dev_langs:
 
 ## -description
 
-Converts a logical [color space](c.md) to a [device profile](d.md).
+Converts a logical [color space](/windows/win32/wcs/color-spaces) to a [device profile](/windows/win32/wcs/using-device-profiles-with-wcs).
 
 ## -parameters
 
 ### -param pLogColorSpace
 
-A pointer to a logical color space structure. See [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) for details. The **lcsFilename** \[0\] member of the structure must be set to the **null** character ('\\0') or this function call will fail with the return value of INVALID\_PARAMETER.
+A pointer to a logical color space structure. See [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-logcolorspacea) for details. The **lcsFilename** \[0\] member of the structure must be set to the **null** character ('\\0') or this function call will fail with the return value of INVALID\_PARAMETER.
 
 ### -param pProfile
 
@@ -62,7 +61,7 @@ If this function succeeds, the return value is **TRUE**.
 
 If this function fails, the return value is **FALSE**.
 
-If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) structure pointed to by *pLogColorSpace* is not '\\0', this function returns INVALID\_PARAMETER.
+If the **lcsFilename** \[0\] member if the [**LOGCOLORSPACEA**](/windows/desktop/api/Wingdi/ns-wingdi-logcolorspacea) structure pointed to by *pLogColorSpace* is not '\\0', this function returns INVALID\_PARAMETER.
 
 ## -remarks
 
@@ -72,6 +71,6 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [GlobalFree](/windows/win32/api/winbase/nf-winbase-globalfree)

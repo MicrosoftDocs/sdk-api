@@ -60,28 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnectionCostEvents<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INetworkConnectionCostEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>ConnectionCostChanged</b></td>
-<td align="left" width="63%">
-Indicates a network cost change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncostevents-connectiondataplanstatuschanged">ConnectionDataPlanStatusChanged</a>
-</td>
-<td align="left" width="63%">
-Indicates a data plan status change.
-
-</td>
-</tr>
-</table>

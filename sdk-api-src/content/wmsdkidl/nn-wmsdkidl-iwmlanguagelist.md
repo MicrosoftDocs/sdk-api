@@ -64,45 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLanguageList</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMLanguageList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-addlanguagebyrfc1766string">AddLanguageByRFC1766String</a>
-</td>
-<td align="left" width="63%">
-Adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount">GetLanguageCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of supported languages in the language list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagedetails">GetLanguageDetails</a>
-</td>
-<td align="left" width="63%">
-Retrieves the locale identifier (LCID) and RFC 1766-compliant tag for an entry in the list of supported languages.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see the topic for the object on which this interface is implemented.
-
 ## -remarks
 
 This interface provides support for referencing languages by a string compliant with RFC 1766 – Tags for the Identification of Languages. Other interfaces in this SDK refer to the languages supported in an ASF file by language index. A language index is assigned to every language added to the language list.

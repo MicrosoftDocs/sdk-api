@@ -59,7 +59,7 @@ For session-based service contract, this notification signifies session initiati
 
 ## -parameters
 
-### -param *context [in]
+### -param context [in]
 
 The operation context.
                 
@@ -71,11 +71,11 @@ The callback may provide channel state through this parameter. This channel stat
                     made available to the service operation as part of <a href="/windows/desktop/wsw/ws-operation-context">WS_OPERATION_CONTEXT</a> through
                     the <a href="/windows/desktop/api/webservices/ne-webservices-ws_operation_context_property_id">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
 
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on whether the function is getting invoked asynchornously.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

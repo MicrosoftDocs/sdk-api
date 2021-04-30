@@ -58,15 +58,15 @@ Some of the functions included in the AD RMS SDK provide status information and 
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Specifies the action being performed. This can be one of the <a href="/windows/desktop/api/msdrmdefs/ne-msdrmdefs-drm_status_msg">DRM_STATUS_MSG</a> enumeration values.
 
-### -param Arg2
+### -param unnamedParam2
 
 The status of the current action.
 
-### -param *
+### -param 
 
 An application-defined value, such as a pointer to a callback function or a pointer to an event handle.
 

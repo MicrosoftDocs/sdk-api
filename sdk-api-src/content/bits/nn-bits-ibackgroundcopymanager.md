@@ -62,52 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyManager</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBackgroundCopyManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a>
-</td>
-<td align="left" width="63%">
-Creates a transfer job.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">EnumJobs</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator object that you use to enumerate jobs in the queue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">GetErrorDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves a description for the specified error code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-getjob">GetJob</a>
-</td>
-<td align="left" width="63%">
-Retrieves a specified job from the queue.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>Windows Vista and later:  </b>When an ActiveX control tries to instantiate this interface from an Internet Explorer process, the call will fail with access denied. This is because COM does not allow lower-integrity clients to bind to class instances at higher integrity levels. For details, see <a href="/previous-versions/windows/internet-explorer/ie-developer/">Understanding and Working in Protected Mode Internet Explorer</a> and <a href="/previous-versions/dotnet/articles/bb625962(v=msdn.10)">How the Integrity Mechanism Is Implemented in Windows Vista</a>. A user can workaround the issue by adding the website to the Trusted site zone.

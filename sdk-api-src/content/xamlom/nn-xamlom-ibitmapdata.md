@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitmapData</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBitmapData</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ibitmapdata-copybytesto">CopyBytesTo</a>
-</td>
-<td align="left" width="63%">
-Copies up to the specified maximum number of bytes from the given offset in the bitmap data into the caller’s buffer (<i>pvBytes</i>), and returns the number of bytes copied.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ibitmapdata-getbitmapdescription">GetBitmapDescription</a>
-</td>
-<td align="left" width="63%">
-Gets a <a href="/previous-versions/windows/desktop/api/xamlom/ns-xamlom-bitmapdescription">BitmapDescription</a> that describes the bitmap data stored in the <b>IBitmapData</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ibitmapdata-getsourcebitmapdescription">GetSourceBitmapDescription</a>
-</td>
-<td align="left" width="63%">
-Gets a <a href="/previous-versions/windows/desktop/api/xamlom/ns-xamlom-bitmapdescription">BitmapDescription</a> that describes the original format of the bitmap data stored in the <b>IBitmapData</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ibitmapdata-getstride">GetStride</a>
-</td>
-<td align="left" width="63%">
-Gets the stride of the data. This is the length in bytes of each row of the bitmap. 
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

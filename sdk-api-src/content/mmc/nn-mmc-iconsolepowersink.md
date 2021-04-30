@@ -60,26 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePowerSink</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IConsolePowerSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iconsolepowersink-onpowerbroadcast">OnPowerBroadcast</a>
-</td>
-<td align="left" width="63%">
-Handles 
-WM_POWERBROADCAST messages.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To receive power management notifications, your snap-in must use the <a href="/previous-versions/26k10xyy(v=vs.140)">AtlAdvise</a> function to associate an instance of the 

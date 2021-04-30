@@ -54,11 +54,11 @@ Obtains information about the device driver. This method can be used, with cauti
 
 ## -parameters
 
-### -param arg1 [out]
+### -param unnamedParam1 [out]
 
 A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-dddeviceidentifier2">DDDEVICEIDENTIFIER2</a> structure that receives information about the driver.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 This value consists of flags that specify options. The following flag is the only defined flag:
 

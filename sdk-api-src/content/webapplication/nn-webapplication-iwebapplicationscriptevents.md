@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationScriptEvents</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWebApplicationScriptEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationscriptevents-beforescriptexecuted">BeforeScriptExecuted</a>
-</td>
-<td align="left" width="63%">
-Fired before any script is executed on the page.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationscriptevents-scripterror">ScriptError</a>
-</td>
-<td align="left" width="63%">
-Fired when an unhandled script error occurs.
-
-</td>
-</tr>
-</table>

@@ -63,32 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhraseSink</b> interface inh
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPhraseSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iphrasesink-putphrase">PutPhrase</a>
-</td>
-<td align="left" width="63%">
-Puts a query-time phrase in the PhraseSink object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>PutSmallPhrase</b></td>
-<td align="left" width="63%">
-Not supported.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Indexing Service creates and initializes instances of the PhraseSink object. The PhraseSink receives the <i>fQuery</i> parameter during initialization and uses this parameter to determine the word-breaking context in which the object is being used.

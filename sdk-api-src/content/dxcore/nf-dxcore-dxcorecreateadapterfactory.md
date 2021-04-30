@@ -10,7 +10,7 @@ ms.keywords: DXCoreCreateAdapterFactory, DXCoreCreateAdapterFactory function, dx
 ms.localizationpriority: low
 ms.topic: function
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

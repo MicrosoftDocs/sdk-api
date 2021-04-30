@@ -65,7 +65,7 @@ Registers a window class for subsequent use in calls to the <a href="/windows/de
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>const WNDCLASSEX*</b>
 

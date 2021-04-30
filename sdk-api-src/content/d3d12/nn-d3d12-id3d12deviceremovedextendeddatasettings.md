@@ -54,16 +54,6 @@ This interface controls Device Removed Extended Data (DRED) settings. You should
 
 The **ID3D12DeviceRemovedExtendedDataSettings** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
 
-## -members
-
-The **ID3D12DeviceRemovedExtendedDataSettings** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[SetAutoBreadcrumbsEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setautobreadcrumbsenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.|
-|[SetPageFaultEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setpagefaultenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.|
-|[SetWatsonDumpEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setwatsondumpenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) Watson dumps.|
-
 ## -remarks
 
 ## -see-also

@@ -69,43 +69,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendPropertySheet2</b> int
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IExtendPropertySheet2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">CreatePropertyPages</a>
-</td>
-<td align="left" width="63%">
-Adds pages to a property sheet.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet2-getwatermarks">GetWatermarks</a>
-</td>
-<td align="left" width="63%">
-Gets the watermark and header bitmap for the Wizard 97 style.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/aa814849(v=vs.85)">QueryPagesFor</a>
-</td>
-<td align="left" width="63%">
-Determines whether the object needs pages.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>

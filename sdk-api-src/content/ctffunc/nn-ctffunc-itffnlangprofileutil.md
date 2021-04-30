@@ -59,30 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLangProfileUtil</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfFnLangProfileUtil</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlangprofileutil-isprofileavailableforlang">IsProfileAvailableForLang</a>
-</td>
-<td align="left" width="63%">
-Determines if the speech text service has a profile available for a specific language.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnlangprofileutil-registeractiveprofiles">RegisterActiveProfiles</a>
-</td>
-<td align="left" width="63%">
-Causes the speech text service to register its active profiles.
-
-</td>
-</tr>
-</table>

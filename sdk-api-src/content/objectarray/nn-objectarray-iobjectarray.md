@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectArray</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IObjectArray</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectarray-getat">GetAt</a>
-</td>
-<td align="left" width="63%">
-Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objectarray/nf-objectarray-iobjectarray-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Provides a count of the objects in the collection.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

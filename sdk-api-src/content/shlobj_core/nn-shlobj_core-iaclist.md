@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IACList</b> interface inherit
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IACList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iaclist-expand">Expand</a>
-</td>
-<td align="left" width="63%">
-Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Autocompletion typically requires the following three components:

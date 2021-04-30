@@ -63,25 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile4</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBackgroundCopyFile4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats">GetPeerDownloadStats</a>
-</td>
-<td align="left" width="63%">
-Specifies statistics about the amount of data downloaded from peers and origin servers.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>

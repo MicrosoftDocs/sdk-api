@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelector</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISelector</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_numsources">get_NumSources</a>
-</td>
-<td align="left" width="63%">
-Returns the number of source nodes connected to the selector node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_sourcenodeid">get_SourceNodeId</a>
-</td>
-<td align="left" width="63%">
-Returns the index of the active source node.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-put_sourcenodeid">put_SourceNodeId</a>
-</td>
-<td align="left" width="63%">
-Activates a source node.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A kernel-streaming (KS) filter contains one or more <i>nodes</i>. Each node encapsulates a processing task that is applied to the stream. In the following diagram, nodes 1 and 2 are <i>source</i> nodes and node 3 is a <i>selector</i> node.

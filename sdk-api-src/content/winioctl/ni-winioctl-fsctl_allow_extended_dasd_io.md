@@ -9,7 +9,6 @@ ms.assetid: 7d895367-f48f-47db-9ef9-cf20d0ea6782
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ALLOW_EXTENDED_DASD_IO, FSCTL_ALLOW_EXTENDED_DASD_IO control, FSCTL_ALLOW_EXTENDED_DASD_IO control code [Files], _win32_fsctl_allow_extended_dasd_io, base.fsctl_allow_extended_dasd_io, fs.fsctl_allow_extended_dasd_io, winioctl/FSCTL_ALLOW_EXTENDED_DASD_IO
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +26,7 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -2,7 +2,6 @@
 UID: NF:icodecapi.ICodecAPI.RegisterForEvent
 title: ICodecAPI::RegisterForEvent
 ms.date: 09/22/2020
-ms.topic: language-reference
 targetos: Windows
 description: The RegisterForEvent method registers the application to receive events from the codec.
 helpviewer_keywords: ["A proprietary event GUID defined by the codec.","CODECAPI_CHANGELISTS","ICodecAPI interface [DirectShow]","RegisterForEvent method","ICodecAPI.RegisterForEvent","ICodecAPI::RegisterForEvent","ICodecAPIRegisterForEvent","One of the property GUIDs defined in codecapi.h. (See Codec API Properties.)","RegisterForEvent","RegisterForEvent method [DirectShow]","RegisterForEvent method [DirectShow]","ICodecAPI interface","dshow.icodecapi_registerforevent","icodecapi/ICodecAPI::RegisterForEvent"]

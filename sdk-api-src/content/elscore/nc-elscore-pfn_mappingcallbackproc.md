@@ -54,7 +54,7 @@ An application-defined callback function that asynchronously processes data prod
 
 ## -parameters
 
-### -param *pBag [in]
+### -param pBag [in]
 
 Pointer to a <a href="/windows/desktop/api/elscore/ns-elscore-mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure containing the results of the call to <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 

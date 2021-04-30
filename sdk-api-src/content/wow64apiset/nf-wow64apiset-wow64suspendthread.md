@@ -2,7 +2,6 @@
 UID: NF:wow64apiset.Wow64SuspendThread
 title: Wow64SuspendThread
 ms.date: 08/19/2020
-ms.topic: language-reference
 targetos: Windows
 description: Suspends the specified WOW64 thread.
 tech.root: fs

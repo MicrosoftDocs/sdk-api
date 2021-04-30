@@ -59,33 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionMatrixTransform3
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDCompositionMatrixTransform3D</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionmatrixtransform3d-setmatrix">SetMatrix</a>
-</td>
-<td align="left" width="63%">
-Changes all values of the matrix of this 3D transformation effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/legacy/hh437429(v=vs.85)">SetMatrixElement</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes or animates the value of one element of the matrix of this 3D transform.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 A 3D matrix transform represents the following 4-by-4 matrix:

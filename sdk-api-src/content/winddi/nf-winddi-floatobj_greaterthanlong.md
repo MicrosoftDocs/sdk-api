@@ -54,11 +54,11 @@ The <b>FLOATOBJ_GreaterThanLong</b> function determines whether the <a href="/wi
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the FLOATOBJ.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the LONG value. This value is converted to a FLOATOBJ for the comparison.
 

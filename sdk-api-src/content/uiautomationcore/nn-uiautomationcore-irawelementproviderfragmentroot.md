@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderFragmentRo
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRawElementProviderFragmentRoot</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-elementproviderfrompoint">ElementProviderFromPoint</a>
-</td>
-<td align="left" width="63%">
-Retrieves the provider of the element that is at the specified point in this fragment.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-getfocus">GetFocus</a>
-</td>
-<td align="left" width="63%">
-Retrieves the element in this fragment that has the input focus.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is implemented by a root element within a framework; for example, a list box within a window. 

@@ -7,7 +7,6 @@ tech.root: IpHlp
 ms.author: windowssdkdev
 ms.date: 10/21/2019
 ms.keywords: _NL_NETWORK_CONNECTIVITY_LEVEL_HINT, NL_NETWORK_CONNECTIVITY_LEVEL_HINT
-ms.topic: enum
 req.header: nldef.h
 req.include-header: iphlpapi.h
 req.target-type: Windows

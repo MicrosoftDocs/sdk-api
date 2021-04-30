@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioPeakMeter</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAudioPeakMeter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">GetChannelCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of channels in the audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getlevel">GetLevel</a>
-</td>
-<td align="left" width="63%">
-Gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

@@ -70,34 +70,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectSink</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWbemObjectSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>
-</td>
-<td align="left" width="63%">
-Receives notification objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>
-</td>
-<td align="left" width="63%">
-Called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 When implementing an event subscription sink (<b>IWbemObjectSink</b> or <a href="/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a>), do  not call into WMI from within the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>  or <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a>methods on the sink object.  For example, calling <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a> to cancel the sink  from within an implementation of <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
@@ -117,7 +89,9 @@ The following code example is a simple implementation of an object sink. This sa
 </tr>
 <tr>
 <td>
-<pre>#include &lt;iostream&gt;
+
+```
+#include &lt;iostream&gt;
 #include &lt;wbemidl.h&gt;
 #pragma comment(lib, "wbemuuid.lib")
 
@@ -200,7 +174,8 @@ HRESULT QuerySink::SetStatus(
 {
     printf("QuerySink::SetStatus hResult = 0x%X\n", hResult);
     return WBEM_S_NO_ERROR;
-}</pre>
+}
+```
 </td>
 </tr>
 </table></span></div>

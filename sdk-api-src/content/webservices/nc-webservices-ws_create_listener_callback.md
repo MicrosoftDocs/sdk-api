@@ -59,7 +59,7 @@ Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelis
 
 The type of channel the listener listens for.
 
-### -param *listenerParameters
+### -param listenerParameters
 
 The pointer to the value that was specified by the
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property when the custom listener is created using <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.
@@ -86,7 +86,7 @@ A pointer to an allocated structure that represents
 
 If this callback is successful, then the <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
 
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
 

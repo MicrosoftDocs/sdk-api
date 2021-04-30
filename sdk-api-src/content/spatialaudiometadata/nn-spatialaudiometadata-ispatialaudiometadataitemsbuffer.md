@@ -62,39 +62,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItemsBuf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISpatialAudioMetadataItemsBuffer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtobuffer">AttachToBuffer</a>
-</td>
-<td align="left" width="63%">
-Attaches caller-provided memory for storage of <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtopopulatedbuffer">AttachToPopulatedBuffer</a>
-</td>
-<td align="left" width="63%">
-Attaches a previously populated buffer for storage of <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects. The metadata items already in the buffer are retained.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-detachbuffer">DetachBuffer</a>
-</td>
-<td align="left" width="63%">
-Detaches the buffer.  Memory can only be attached to a single metadata item at a time.
-
-</td>
-</tr>
-</table>

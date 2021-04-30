@@ -57,7 +57,7 @@ The <b>SwapBuffers</b> function exchanges the front and back buffers if the curr
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Specifies a device context. If the current pixel format for the window referenced by this device context includes a back buffer, the function exchanges the front and back buffers.
 

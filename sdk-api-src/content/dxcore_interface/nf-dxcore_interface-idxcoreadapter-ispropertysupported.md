@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapter interface,IsPropertySupported method, IDXCoreAdapter.IsPropertySupported, IDXCoreAdapter::IsPropertySupported, IsPropertySupported, IsPropertySupported method, IsPropertySupported method,IDXCoreAdapter interface, dxcore/IDXCoreAdapter::IsPropertySupported, dxcore_interface.idxcoreadapterfactory_ispropertysupported
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

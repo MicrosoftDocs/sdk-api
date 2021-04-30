@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistStream</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPersistStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-getsizemax">GetSizeMax</a>
-</td>
-<td align="left" width="63%">
-Retrieves the size of the stream needed to save the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-isdirty">IsDirty</a>
-</td>
-<td align="left" width="63%">
-Determines whether an object has changed since it was last saved to its stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">Load</a>
-</td>
-<td align="left" width="63%">
-Initializes an object from the stream where it was saved previously.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">Save</a>
-</td>
-<td align="left" width="63%">
-Saves an object to the specified stream.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 One way in which this interface is used is to support OLE moniker implementations. Each of the OLE-provided moniker interfaces provides an <b>IPersistStream</b> implementation through which the moniker saves or loads itself. An instance of the OLE generic composite moniker class calls the <b>IPersistStream</b> methods of its component monikers to load or save the components in the proper sequence in a single stream.

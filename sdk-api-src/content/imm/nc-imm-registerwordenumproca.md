@@ -58,7 +58,7 @@ An application-defined callback function used with the <a href="/windows/desktop
 
 Pointer to a null-terminated string specifying the matched reading string.
 
-### -param Arg2
+### -param unnamedParam2
 
 The style of the register string.
 
@@ -66,7 +66,7 @@ The style of the register string.
 
 Pointer to a null-terminated string specifying the matched register string.
 
-### -param Arg4
+### -param unnamedParam4
 
 Application-supplied data.
 

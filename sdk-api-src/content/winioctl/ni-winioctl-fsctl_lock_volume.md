@@ -9,7 +9,6 @@ ms.assetid: b59b5c5e-6719-47a8-8810-14b60204e5ed
 ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_LOCK_VOLUME, FSCTL_LOCK_VOLUME control, FSCTL_LOCK_VOLUME control code [Files], _win32_fsctl_lock_volume, base.fsctl_lock_volume, fs.fsctl_lock_volume, winioctl/FSCTL_LOCK_VOLUME
-ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -27,7 +26,7 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-product: Windows
+ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

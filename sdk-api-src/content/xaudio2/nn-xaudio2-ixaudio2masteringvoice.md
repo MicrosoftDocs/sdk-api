@@ -65,25 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2MasteringVoice</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXAudio2MasteringVoice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2masteringvoice-getchannelmask">GetChannelMask</a>
-</td>
-<td align="left" width="63%">
-Returns the channel mask for the mastering voice.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

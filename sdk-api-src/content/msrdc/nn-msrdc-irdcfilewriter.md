@@ -61,43 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileWriter</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRdcFileWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-deleteonclose">DeleteOnClose</a>
-</td>
-<td align="left" width="63%">
-Sets a file to be deleted (or truncated) on close.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-truncate">Truncate</a>
-</td>
-<td align="left" width="63%">
-Truncates a file to zero length.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-write">Write</a>
-</td>
-<td align="left" width="63%">
-Write bytes to a file starting at a given offset.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>

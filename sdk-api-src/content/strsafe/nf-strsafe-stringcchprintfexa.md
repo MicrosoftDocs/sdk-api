@@ -168,7 +168,7 @@ Type: <b>LPCTSTR</b>
 
 The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
-### -param arg7 [in]
+### -param ...
 
 The Arguments to be inserted into the <i>pszFormat</i> string.
 
@@ -277,3 +277,4 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
+

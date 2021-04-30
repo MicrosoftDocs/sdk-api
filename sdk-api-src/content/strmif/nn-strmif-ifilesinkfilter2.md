@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter2</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFileSinkFilter2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-getmode">GetMode</a>
-</td>
-<td align="left" width="63%">
-Retrieves whether the file writer destroys the file when it creates the new one.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter2-setmode">SetMode</a>
-</td>
-<td align="left" width="63%">
-Determines whether the file writer destroys the file when it creates the new one.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a>

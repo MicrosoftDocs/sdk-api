@@ -62,25 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyNodeAttributeEdito
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTopologyNodeAttributeEditor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynodeattributeeditor-updatenodeattributes">UpdateNodeAttributes</a>
-</td>
-<td align="left" width="63%">
-Updates the attributes of one or more nodes in the current topology.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Currently the only attribute that can be updated is the <a href="/windows/desktop/medfound/mf-toponode-mediastop-attribute">MF_TOPONODE_MEDIASTOP</a> attribute.

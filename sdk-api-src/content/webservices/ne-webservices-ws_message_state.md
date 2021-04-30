@@ -96,10 +96,12 @@ A message object transitions through a set of states as it
 The following are the state transitions while writing or sending:
             
 
-<img alt="" src="./images/MessageSendStates.png"/>
+:::image type="content" source="./images/MessageSendStates.png" border="false" alt-text="Diagram of the valid state transitions for a Message object as it is being written or sent.":::
+
 The following are the state transitions while reading or receiving:
             
 
-<img alt="" src="./images/MessageReceiveStates.png"/>
+:::image type="content" source="./images/MessageReceiveStates.png" border="false" alt-text="Diagram of the valid state transitions for a Message object as it is being read or received.":::
+
 Note that in the above diagrams, only valid transitions are
                 shown.

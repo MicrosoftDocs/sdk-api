@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DCRenderTarget</b> inter
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1DCRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc">BindDC</a>
-</td>
-<td align="left" width="63%">
-Binds the render target to the device context to which it issues drawing commands.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="Creating_ID2D1DCRenderTarget_Objects"></a><a id="creating_id2d1dcrendertarget_objects"></a><a id="CREATING_ID2D1DCRENDERTARGET_OBJECTS"></a>Creating ID2D1DCRenderTarget Objects</h3>

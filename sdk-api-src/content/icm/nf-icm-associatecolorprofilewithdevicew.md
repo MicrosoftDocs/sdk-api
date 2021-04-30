@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - icm.h
 api_name:
@@ -45,6 +44,9 @@ dev_langs:
 ## -description
 
 Associates a specified color profile with a specified device.
+
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileAddDisplayAssociation**](nf-icm-colorprofileadddisplayassociation.md) for managing advanced color profiles.
 
 ## -parameters
 
@@ -82,6 +84,6 @@ Scanners also have no default profile. However, it is atypical to associate more
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)
 * [DisassociateColorProfileFromDeviceW](/windows/win32/api/icm/nf-icm-disassociatecolorprofilefromdevicew)

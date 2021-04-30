@@ -54,15 +54,15 @@ The <b>IDirectInputEffectDriver::Escape </b>method escapes to the driver. This m
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Indicates the joystick ID number being used.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect at which the command is directed, or zero if the command is directed at the device itself and not any particular effect.
 
-### -param arg3
+### -param unnamedParam3
 
 Points to a <a href="/windows/desktop/api/dinput/ns-dinput-dieffescape">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used.
 

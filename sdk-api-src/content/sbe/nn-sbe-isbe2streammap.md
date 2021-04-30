@@ -61,46 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2StreamMap</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISBE2StreamMap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-enummappedstreams">EnumMappedStreams</a>
-</td>
-<td align="left" width="63%">
-Enumerates all SBE2 streams that are mapped to filter output pins.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">MapStream</a>
-</td>
-<td align="left" width="63%">
-Maps an SBE2 stream to an output pin.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-unmapstream">UnmapStream</a>
-</td>
-<td align="left" width="63%">
-Removes the mapping between an SBE2 stream and an output pin.
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 In version 1 of the Stream Buffer Engine (SBE), each output pin is mapped to a single stream for the lifetime of the filter. Starting in version 2 of SBE,   the application can change the mapping, as follows:

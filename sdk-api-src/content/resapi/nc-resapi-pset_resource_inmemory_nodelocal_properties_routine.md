@@ -39,7 +39,6 @@ topic_type:
 api_type:
  - <TBD>
 api_location:
- - 
 api_name:
  - SetResourceInMemoryNodeLocalProperties callback
 ---
@@ -57,7 +56,7 @@ TBD
 
 TBD
 
-### -param *propertyListBuffer [in] [in]
+### -param propertyListBuffer [in] [in]
 
 TBD
 

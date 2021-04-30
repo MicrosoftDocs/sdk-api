@@ -51,7 +51,7 @@ The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b>method opens the root key of
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Points to the address of a variable (of type HKEY) that will contain a registry key handle if the method succeeds. See Remarks for additional usage details.
 

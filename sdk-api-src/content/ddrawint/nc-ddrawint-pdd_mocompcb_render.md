@@ -51,7 +51,7 @@ The <b>DdMoCompRender</b> callback function tells the driver what macroblocks to
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_rendermocompdata">DD_RENDERMOCOMPDATA</a> structure that contains the information needed to render a frame.
 

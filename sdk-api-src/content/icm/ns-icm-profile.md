@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Contains information that defines a color profile. See [Using device profiles with WCS](using-device-profiles-with-wcs.md) for more information.
+Contains information that defines a color profile. See [Using device profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs) for more information.
 
 ## -struct-fields
 
@@ -65,4 +65,4 @@ The size in bytes of the data buffer pointed to by the **pProfileData** member.
 
 ## -see-also
 
-* [Using device profiles with WCS](using-device-profiles-with-wcs.md)
+* [Using device profiles with WCS](/windows/win32/wcs/using-device-profiles-with-wcs)

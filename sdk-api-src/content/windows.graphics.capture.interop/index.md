@@ -3,7 +3,6 @@ UID: NA:windows.graphics.capture.interop
 title: windows.graphics.capture.interop.h header
 ms.date: 6/24/2019
 ms.keywords: windows.graphics.capture.interop
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset

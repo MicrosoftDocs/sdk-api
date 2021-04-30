@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ICertManageModule</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-configure">Configure</a>
-</td>
-<td align="left" width="63%">
-Invokes module configuration user interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of a property in the module.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Assigns a value to a property in the module.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> and <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> interfaces, respectively). An enterprise <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.

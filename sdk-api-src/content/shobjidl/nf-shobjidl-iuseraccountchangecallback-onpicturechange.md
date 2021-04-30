@@ -70,7 +70,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 When the picture that represents a user account changes, the callback object notifies all applications that are registered under this registry subkey:
 
-                <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

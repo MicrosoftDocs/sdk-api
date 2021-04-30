@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemBackupRestore</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWbemBackupRestore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-backup">Backup</a>
-</td>
-<td align="left" width="63%">
-Backs up the contents of the repository to a specified file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbembackuprestore-restore">Restore</a>
-</td>
-<td align="left" width="63%">
-Restores the contents of the repository from a specified file.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The default mode is the same as setting the force mode flag, which breaks all active connections. This results in remote procedure call (RPC) errors from any active COM connections to WMI until new connections are established.

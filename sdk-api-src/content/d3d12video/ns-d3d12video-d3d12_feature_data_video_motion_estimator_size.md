@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes the allocation size of a video motion estimator heap.
 tech.root: mf

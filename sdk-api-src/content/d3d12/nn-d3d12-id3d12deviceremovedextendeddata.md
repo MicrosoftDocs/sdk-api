@@ -54,15 +54,6 @@ Provides runtime access to Device Removed Extended Data (DRED) data. To retrieve
 
 The **ID3D12DeviceRemovedExtendedData** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
 
-## -members
-
-The **ID3D12DeviceRemovedExtendedData** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[GetAutoBreadcrumbsOutput](nf-d3d12-id3d12deviceremovedextendeddata-getautobreadcrumbsoutput.md)|Retrieves the Device Removed Extended Data (DRED) auto-breadcrumbs output.|
-|[GetPageFaultAllocationOutput](nf-d3d12-id3d12deviceremovedextendeddata-getpagefaultallocationoutput.md)|Retrieves the Device Removed Extended Data (DRED) page fault data.|
-
 ## -remarks
 
 ## -see-also

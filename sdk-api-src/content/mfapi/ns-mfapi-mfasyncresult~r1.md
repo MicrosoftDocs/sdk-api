@@ -1,7 +1,7 @@
 ---
 UID: NS:mfapi.tagMFASYNCRESULT~r1
 title: MFASYNCRESULT
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagMFASYNCRESULT, MFASYNCRESULT
 targetos: Windows
 req.construct-type: structure

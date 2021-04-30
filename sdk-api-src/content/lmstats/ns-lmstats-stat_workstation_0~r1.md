@@ -1,7 +1,7 @@
 ---
 UID: NS:lmstats._STAT_WORKSTATION_0~r1
 title: STAT_WORKSTATION_0
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _STAT_WORKSTATION_0, STAT_WORKSTATION_0
 targetos: Windows
 req.construct-type: structure

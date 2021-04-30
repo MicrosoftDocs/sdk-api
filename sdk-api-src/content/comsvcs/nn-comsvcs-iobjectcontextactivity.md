@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextActivity</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IObjectContextActivity</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextactivity-getactivityid">GetActivityID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the GUID associated with the current activity.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:

@@ -59,36 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumPublishedApps</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEnumPublishedApps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ienumpublishedapps-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> object in the enumeration.
-		
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ienumpublishedapps-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumeration of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> objects to the first item.
-		
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To publish applications to Add/Remove Programs in the Control Panel, you must support <b>IEnumPublishedApps</b>, <a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a> and <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>.

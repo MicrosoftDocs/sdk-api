@@ -121,7 +121,7 @@ All touch injection sequences end with either UPDATE or UP.
 
 The following diagram demonstrates a touch injection sequence that starts with a hover state, transitions to interactive, and concludes with hover. 
 
-<img alt="" src="./images/inputstates.png"/>
+:::image type="content" source="./images/inputstates.png" border="false" alt-text="Diagram of a touch injection sequence showing the state transitions from hover to interactive to hover.":::
 
 For press and hold gestures, multiple frames must be sent to ensure input is not cancelled. For a press and hold at point (x,y), send <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerdown">WM_POINTERDOWN</a> at point (x,y) followed by <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> messages at point(x,y). 
 

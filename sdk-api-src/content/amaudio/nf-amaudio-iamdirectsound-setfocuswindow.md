@@ -55,11 +55,11 @@ The <code>SetFocusWindow</code> method specifies a window to handle sound playba
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies a handle to the window. If this value is <b>NULL</b>, the sound will not be associated with any window.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies whether to mix the sound when the window loses focus.
 

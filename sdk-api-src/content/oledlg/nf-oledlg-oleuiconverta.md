@@ -56,7 +56,7 @@ Invokes the standard <b>Convert</b> dialog box, allowing the user to change the 
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 

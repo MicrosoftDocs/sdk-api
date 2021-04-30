@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PKEYBOARD_ATTRIBUTES","KEYBOARD_ATTRIBUTES","KEYBOARD_AT
 old-location: hid\keyboard_attributes.htm
 tech.root: hid
 ms.assetid: 060e93de-b84e-4755-a5f8-cbc52d900310
-ms.date: 08/06/2020
+ms.date: 02/25/2021
 ms.keywords: '*PKEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES, KEYBOARD_ATTRIBUTES structure [Human Input Devices], PKEYBOARD_ATTRIBUTES, PKEYBOARD_ATTRIBUTES structure pointer [Human Input Devices], hid.keyboard_attributes, kref_430bedf0-40bc-4d93-b382-3fe4c69fcbb5.xml, ntddkbd/KEYBOARD_ATTRIBUTES, ntddkbd/PKEYBOARD_ATTRIBUTES'
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-KEYBOARD_ATTRIBUTES specifies the attributes of a keyboard.
+Specifies the attributes of a keyboard.
 
 ## -struct-fields
 
@@ -73,13 +73,20 @@ typedef struct _KEYBOARD_ID {
 
 Specifies the keyboard type.
 
+| Value | Description                                          |
+|:-----:|------------------------------------------------------|
+|  0x4  | Enhanced 101- or 102-key keyboards (and compatibles) |
+|  0x7  | Japanese Keyboard                                    |
+|  0x8  | Korean Keyboard                                      |
+| 0x51  | Unknown type or HID keyboard                         |
+
 #### Subtype
 
 Specifies the keyboard subtype, which is a vendor-specific value.
 
 ### -field KeyboardMode
 
-Specifies the scan code mode. See the [Remarks](#-remarks)  section.
+Specifies the scan code mode. See the [Remarks](#remarks) section.
 
 ### -field NumberOfFunctionKeys
 
@@ -111,7 +118,7 @@ This structure is used with a [IOCTL_KEYBOARD_QUERY_ATTRIBUTES IOCTL](ni-ntddkbd
 
 For more information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see [Keyboard and mouse HID client drivers](/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) in our drivers documentation.
 
-More details can also be found in the *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in the Windows SDK, the [USB HID to PS/2 Scan Code Translation Table](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft, and the [Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
+More details can also be found in the *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in the Windows SDK, the [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) specification from Microsoft, and the [Keyboard Layout Samples](/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ helpviewer_keywords: ["LPFN_RIORESIZEREQUESTQUEUE"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 4A20B1E3-ED99-4429-A9C1-35C9330CB108
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIORESIZEREQUESTQUEUE
 targetos: Windows
 req.assembly: 

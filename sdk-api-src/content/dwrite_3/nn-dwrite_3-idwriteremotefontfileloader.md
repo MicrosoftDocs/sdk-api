@@ -64,43 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileLoader</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteRemoteFontFileLoader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createfontfilereferencefromurl">CreateFontFileReferenceFromUrl</a>
-</td>
-<td align="left" width="63%">
-Creates a font file reference from a URL if the loader supports this capability.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-createremotestreamfromkey">CreateRemoteStreamFromKey</a>
-</td>
-<td align="left" width="63%">
-Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteremotefontfileloader-getlocalityfromkey">GetLocalityFromKey</a>
-</td>
-<td align="left" width="63%">
-Gets the locality of the file resource identified by the unique key.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 [Creating a custom font set using known, remote fonts on the Web](/windows/win32/directwrite/custom-font-sets-win10#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)

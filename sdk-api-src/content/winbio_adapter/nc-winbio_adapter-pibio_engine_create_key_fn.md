@@ -60,7 +60,7 @@ Called by the Windows Biometric Framework to push an HMAC key to the sensor. The
 
 Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
-### -param *Key
+### -param Key
 
 Pointer to a buffer that contains the HMAC key.
 

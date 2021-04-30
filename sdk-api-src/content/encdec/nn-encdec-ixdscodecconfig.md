@@ -62,34 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodecConfig</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXDSCodecConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-getsecurechannelobject">GetSecureChannelObject</a>
-</td>
-<td align="left" width="63%">
-Retrieves the secure channel object used to decrypt the stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-setpausebuffertime">SetPauseBufferTime</a>
-</td>
-<td align="left" width="63%">
-Specifies how often the XDS Codec filter attempts to generate a new license.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IXDSCodecConfig)</code>.

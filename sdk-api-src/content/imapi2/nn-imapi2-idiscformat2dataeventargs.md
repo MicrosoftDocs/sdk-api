@@ -61,52 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2DataEventArgs</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDiscFormat2DataEventArgs</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">get_CurrentAction</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current write action being performed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_elapsedtime">get_ElapsedTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total elapsed time of the write operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_remainingtime">get_RemainingTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the estimated remaining time of the write operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_totaltime">get_TotalTime</a>
-</td>
-<td align="left" width="63%">
-Retrieves the estimated total time for write operation.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>

@@ -64,34 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSinkFilter</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFileSinkFilter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-getcurfile">GetCurFile</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the current file into which media samples will be written.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">SetFileName</a>
-</td>
-<td align="left" width="63%">
-Sets the name of the file into which media samples will be written.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter2">IFileSinkFilter2</a> interface extends <b>IFileSinkFilter</b>.

@@ -50,7 +50,7 @@ The <b>IDirectDrawKernel::GetCaps</b> method returns the capabilities of this ke
 
 ## -parameters
 
-#### -param arg1
+#### -param unnamedParam1
 
 Caller-supplied pointer to a <a href="/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
 

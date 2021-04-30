@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqCloseSession
 title: DdqCloseSession
 ms.date: 8/19/2019
 ms.keywords: DdqCloseSession
-ms.topic: language-reference
 description: Closes a Diagnostic Data Query session handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

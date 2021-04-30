@@ -55,4 +55,3 @@ Represents a DirectML operator. The **IDMLOperator** interface inherits from [ID
 ## -see-also
 
 [IDMLDeviceChild](/windows/win32/api/directml/nn-directml-idmldevicechild)
-

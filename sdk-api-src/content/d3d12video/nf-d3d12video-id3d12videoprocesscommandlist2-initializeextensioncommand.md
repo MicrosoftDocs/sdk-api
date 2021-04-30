@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoProcessCommandList2.InitializeExtensionCommand
 title: ID3D12VideoProcessCommandList2::InitializeExtensionCommand
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Records a command to initializes or re-initializes a video extension command into a video processor command list.
 tech.root: mf

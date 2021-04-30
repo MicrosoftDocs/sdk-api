@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncAction</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAsyncAction</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>
-</td>
-<td align="left" width="63%">
-Gets the method that is called when the asynchronous action completes. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WinRT/iasyncaction-getresults">GetResults</a>
-</td>
-<td align="left" width="63%">
-Gets the outcome of an asynchronous action.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/WinRT/iasyncaction-put-completed">put_Completed</a>
-</td>
-<td align="left" width="63%">
-Sets the method that is called when the asynchronous action completes. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IAsyncAction</b> interface represents an asynchronous action that does not return a result and does not have progress notifications.  When the action completes, the <a href="/windows/desktop/WinRT/asyncactioncompletedhandler">AsyncActionCompletedHandler</a> specified by <a href="/windows/desktop/WinRT/iasyncaction-get-completed">get_Completed</a>  is invoked, and this is the only result from the action.

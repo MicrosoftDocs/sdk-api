@@ -104,7 +104,7 @@ Specifies that any instance of this user has access.
 
 Specifies the name of the desktop to be created.
 
-### -param *ppDesktop [out]
+### -param ppDesktop [out]
 
 If the desktop is created, returns a pointer to a 
 <a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_desktop">WLX_DESKTOP</a> structure for the new desktop. This pointer can be used in a call to 

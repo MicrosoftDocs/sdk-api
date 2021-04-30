@@ -65,34 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxPorts</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFaxPorts</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_count">IFaxPorts::get_Count</a> method retrieves the number of fax ports attached to the connected fax server.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-The <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_item">IFaxPorts::get_Item</a> method creates a <a href="/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

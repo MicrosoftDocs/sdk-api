@@ -56,9 +56,9 @@ The <b>EnhMetaFileProc</b> function is an application-defined callback function 
 
 ### -param hdc
 
-### -param *lpht
+### -param lpht
 
-### -param *lpmr
+### -param lpmr
 
 ### -param nHandles
 

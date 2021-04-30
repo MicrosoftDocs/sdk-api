@@ -45,12 +45,11 @@ api_name:
  - IDXGIDebug.ReportLiveObjects
 ---
 
-# IDXGIDebug::ReportLiveObjects
-
-
 ## -description
 
 Reports info about the lifetime of an object or objects.
+
+See the [Memory management sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/TechniqueDemos/D3D12MemoryManagement).
 
 ## -parameters
 
@@ -74,3 +73,5 @@ Returns S_OK if successful; an error code otherwise. For a list of error codes, 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>
+
+[Memory management sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/TechniqueDemos/D3D12MemoryManagement)

@@ -63,39 +63,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryProviderFac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IFunctionDiscoveryProviderFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory-createfunctioninstancecollection">CreateFunctionInstanceCollection</a>
-</td>
-<td align="left" width="63%">
-Creates a function instance collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates a function instance.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory-createpropertystore">CreatePropertyStore</a>
-</td>
-<td align="left" width="63%">
-Enables providers to reuse the in-memory property store implementation.
-
-</td>
-</tr>
-</table>

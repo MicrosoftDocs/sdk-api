@@ -60,39 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileReader</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRdcFileReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-getfileposition">GetFilePosition</a>
-</td>
-<td align="left" width="63%">
-Returns the current file position.</p> (Inherited from <b>IRdcFileReader</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-getfilesize">GetFileSize</a>
-</td>
-<td align="left" width="63%">
-Returns the 
-    size of a file.</p> (Inherited from <b>IRdcFileReader</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-read">Read</a>
-</td>
-<td align="left" width="63%">
-Reads the specified amount 
-    of data starting at the specified position.</p> (Inherited from <b>IRdcFileReader</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">IRdcLibrary::CreateComparator</a>

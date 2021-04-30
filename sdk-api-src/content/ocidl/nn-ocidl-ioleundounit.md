@@ -65,52 +65,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IOleUndoUnit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">Do</a>
-</td>
-<td align="left" width="63%">
-Instructs the undo unit to carry out its action.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Retrieves the description of the undo unit that can be used in the undo or redo user interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-getunittype">GetUnitType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the CLSID and a type identifier for the undo unit.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-onnextadd">OnNextAdd</a>
-</td>
-<td align="left" width="63%">
-Notifies the last undo unit in the collection that a new unit has been added.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>

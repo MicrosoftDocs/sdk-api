@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -65,7 +64,7 @@ DWORD\_MAX
 
 If *dwRenderingIntent* is DWORD\_MAX and *scope* is WCS\_PROFILE\_MANAGEMENT\_SCOPE\_CURRENT\_USER, the default rendering intent for the current user reverts to the system-wide default.
 
-For more information, see [Rendering intents](rendering-intents.md).
+For more information, see [Rendering intents](/windows/win32/wcs/rendering-intents).
 
 ## -returns
 
@@ -77,6 +76,6 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)

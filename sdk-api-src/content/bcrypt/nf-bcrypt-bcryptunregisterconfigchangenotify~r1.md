@@ -1,7 +1,7 @@
 ---
 UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify~r1
 title: BCryptUnregisterConfigChangeNotify
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: BCryptUnregisterConfigChangeNotify
 targetos: Windows
 req.assembly: 

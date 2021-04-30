@@ -1,7 +1,7 @@
 ---
 UID: NE:wlanapi._WLAN_ADHOC_NETWORK_STATE~r1
 title: WLAN_ADHOC_NETWORK_STATE
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _WLAN_ADHOC_NETWORK_STATE, WLAN_ADHOC_NETWORK_STATE
 targetos: Windows
 req.construct-type: enumeration

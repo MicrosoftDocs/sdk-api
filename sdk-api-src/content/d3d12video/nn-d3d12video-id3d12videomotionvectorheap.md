@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoMotionVectorHeap
 title: ID3D12VideoMotionVectorHeap
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: Represents a heap in which estimated motion vectors are stored.
 tech.root: mf

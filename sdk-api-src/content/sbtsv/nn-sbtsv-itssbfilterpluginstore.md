@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITsSbFilterPluginStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-deleteproperties">DeleteProperties</a>
-</td>
-<td align="left" width="63%">
-Deletes a property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-enumerateproperties">EnumerateProperties</a>
-</td>
-<td align="left" width="63%">
-Enumerates a property set.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbfilterpluginstore-saveproperties">SaveProperties</a>
-</td>
-<td align="left" width="63%">
-Saves a property set.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

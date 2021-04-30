@@ -54,7 +54,7 @@ Gets the thumb position in a flat scroll bar. If flat scroll bars are not initia
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 

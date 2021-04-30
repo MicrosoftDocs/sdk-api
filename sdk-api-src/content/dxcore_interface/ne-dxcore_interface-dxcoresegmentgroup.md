@@ -10,7 +10,7 @@ ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoresegmentgroup
 ms.localizationpriority: low
 ms.topic: enumeration
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -59,41 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSourceFromWic</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1ImageSourceFromWic</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-ensurecached">EnsureCached</a>
-</td>
-<td align="left" width="63%">Overloaded. Loads image data into caches of image sources if that data is not already cached.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesourcefromwic-getsource">GetSource</a>
-</td>
-<td align="left" width="63%">
-Retrieves the underlying bitmap image source from the Windows Imaging Component (WIC).
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-trimcache">TrimCache</a>
-</td>
-<td align="left" width="63%">Overloaded. Trims the populated regions of the image source cache to just the specified rectangle.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Create an an instance of ID2D1ImageSourceFromWic 

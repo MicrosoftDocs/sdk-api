@@ -64,7 +64,7 @@ Represents user-defined context passed to the WinRM (WinRM) Client Shell
 Specifies one or more flags from the 
       <a href="/windows/desktop/api/wsman/ne-wsman-wsmancallbackflags">WSManCallbackFlags</a> enumeration.
 
-### -param *error [in]
+### -param error [in]
 
 Defines the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_error">WSMAN_ERROR</a> structure, which is 
       valid in the callback only.
@@ -89,7 +89,7 @@ Defines the operation handle associated with the user context. The operation han
       by calling the <a href="/windows/desktop/api/wsman/nf-wsman-wsmancloseoperation">WSManCloseOperation</a> 
       method.
 
-### -param *data [in, optional]
+### -param data [in, optional]
 
 Defines the output data from the command or shell as a result of a 
       <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreceiveshelloutput">WSManReceiveShellOutput</a> call. For more 

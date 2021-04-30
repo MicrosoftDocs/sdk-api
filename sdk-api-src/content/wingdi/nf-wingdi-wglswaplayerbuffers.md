@@ -54,11 +54,11 @@ The <b>wglSwapLayerBuffers</b> function swaps the front and back buffers in the 
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the device context of a window whose layer plane palette is to be realized into the physical palette.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the overlay, underlay, and main planes whose front and back buffers are to be swapped. The <b>bReserved</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a> structure specifies the number of overlay and underlay planes. The <i>fuPlanes</i> parameter is a bitwise combination of the following values.<div> </div>
 

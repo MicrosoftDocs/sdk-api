@@ -58,9 +58,9 @@ Sets the priority comparison handler that determines whether  a scheduled storyb
 
 The priority comparison handler for trimming.  
                
-               The specified object must implement the
-               <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>.
-            See Remarks for more info.
+The specified object must implement the <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison">IUIAnimationPriorityComparison</a> interface or be <b>NULL</b>.
+
+See Remarks for more info.
 
 ## -returns
 

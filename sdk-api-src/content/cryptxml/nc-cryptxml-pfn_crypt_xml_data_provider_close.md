@@ -54,7 +54,7 @@ The <i>PFN_CRYPT_XML_DATA_PROVIDER_CLOSE</i> callback function releases the data
 
 ## -parameters
 
-### -param *pvCallbackState [in, out]
+### -param pvCallbackState [in, out]
 
 An application defined argument for the callback function.
 

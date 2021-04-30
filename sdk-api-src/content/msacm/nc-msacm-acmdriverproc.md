@@ -54,23 +54,23 @@ The <b>acmDriverProc</b> function specifies a callback function used with the AC
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Identifier of the installable ACM driver.
 
-### -param Arg2
+### -param unnamedParam2
 
 Handle to the installable ACM driver. This parameter is a unique handle the ACM assigns to the driver.
 
-### -param Arg3
+### -param unnamedParam3
 
 ACM driver message.
 
-### -param Arg4
+### -param unnamedParam4
 
 Message parameter.
 
-### -param Arg5
+### -param unnamedParam5
 
 Message parameter.
 

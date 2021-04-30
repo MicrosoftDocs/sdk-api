@@ -62,61 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetConnectionProps</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>INetConnectionProps</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_devicename">get_DeviceName</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the device associated with the connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_guid">get_Guid</a>
-</td>
-<td align="left" width="63%">
-Retrieves the globally-unique identifier (GUID) for the connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_mediatype">get_MediaType</a>
-</td>
-<td align="left" width="63%">
-Retrieves the media type for the connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_name">get_Name</a>
-</td>
-<td align="left" width="63%">
-Retrieves the name of the connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_status">get_Status</a>
-</td>
-<td align="left" width="63%">
-Retrieves the status of the connection.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">INetSharingManager::get_NetConnectionProps</a>

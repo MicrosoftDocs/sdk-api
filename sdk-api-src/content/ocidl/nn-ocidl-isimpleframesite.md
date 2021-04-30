@@ -61,34 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleFrameSite</b> interfac
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISimpleFrameSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-isimpleframesite-postmessagefilter">PostMessageFilter</a>
-</td>
-<td align="left" width="63%">
-Sends the simple frame site a message that is received by a control's own window after the control has processed the message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/ocidl/nf-ocidl-isimpleframesite-premessagefilter">PreMessageFilter</a>
-</td>
-<td align="left" width="63%">
-Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>

@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - mscms.dll
 api_name:
@@ -53,7 +52,7 @@ A pointer to a string that contains the user-friendly name of the device.
 
 A flag value that specifies the class of the device. This parameter must take one of the following values:
 
-|                |                                    |
+|  Value         |   Description                      |
 |----------------|------------------------------------|
 | CLASS\_MONITOR | Specifies a display device.        |
 | CLASS\_PRINTER | Specifies a printer.               |
@@ -77,7 +76,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-* [Basic color management concepts](basic-color-management-concepts.md)
-* [Windows Color System schemas and algorithms](windows-color-system-schemas-and-algorithms.md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)
 * [Functions](/windows/win32/wcs/functions)
 * [WcsGetUsePerUserProfiles](/windows/win32/api/icm/nf-icm-wcsgetdefaultrenderingintent)

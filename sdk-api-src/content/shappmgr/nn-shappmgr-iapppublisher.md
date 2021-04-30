@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppPublisher</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppPublisher</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-enumapps">EnumApps</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator for enumerating all applications published by an application publisher for a given category.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">GetCategories</a>
-</td>
-<td align="left" width="63%">
-Retrieves a structure listing the categories provided by an application publisher.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getnumberofapps">GetNumberOfApps</a>
-</td>
-<td align="left" width="63%">
-Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_NOTIMPL.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getnumberofcategories">GetNumberOfCategories</a>
-</td>
-<td align="left" width="63%">
-Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <b>Add/Remove Programs</b> in Control Panel creates a registered publisher object and requests its <b>IAppPublisher</b> interface.  You can create published application objects using the application enumerator, which you create using <b>IAppPublisher</b>.

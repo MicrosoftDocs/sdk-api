@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimecodeTranslate</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFTimecodeTranslate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverthnstotimecode">BeginConvertHNSToTimecode</a>
-</td>
-<td align="left" width="63%">
-Starts an asynchronous call to convert time in 100-nanosecond units to SMPTE time code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverttimecodetohns">BeginConvertTimecodeToHNS</a>
-</td>
-<td align="left" width="63%">
-Starts an asynchronous call to convert SMPTE time code to 100-nanosecond units.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverthnstotimecode">EndConvertHNSToTimecode</a>
-</td>
-<td align="left" width="63%">
-Completes an asynchronous request to convert time in 100-nanosecond units to SMPTE time code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverttimecodetohns">EndConvertTimecodeToHNS</a>
-</td>
-<td align="left" width="63%">
-Completes an asynchronous request to convert time in SMPTE time code to 100-nanosecond units.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 If an object supports this interface, it must expose the interface as a service. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_TIMECODE_SERVICE</b>.

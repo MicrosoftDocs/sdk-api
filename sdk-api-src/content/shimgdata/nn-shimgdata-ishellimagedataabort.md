@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageDataAbort</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IShellImageDataAbort</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedataabort-queryabort">QueryAbort</a>
-</td>
-<td align="left" width="63%">
-Aborts an <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> process such as <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">Decode</a>, <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-draw">Draw</a>, or <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-scale">Scale</a>. This is a callback method.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface is not expected to be available in later versions of Windows. It is recommended that Windows GDI+ APIs be used in place of <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> methods.

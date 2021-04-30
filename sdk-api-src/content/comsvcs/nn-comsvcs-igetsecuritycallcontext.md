@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetSecurityCallContext</b> i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IGetSecurityCallContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext">GetSecurityClassContext</a>
-</td>
-<td align="left" width="63%">
-Retrieves a reference to an object created from the <a href="/windows/desktop/cossdk/securitycallcontext">SecurityCallContext</a> class that is associated with the current call.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>

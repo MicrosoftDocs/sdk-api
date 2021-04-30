@@ -56,7 +56,7 @@ Invokes the standard <b>Insert Object</b> dialog box, which allows the user to s
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
  Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
 

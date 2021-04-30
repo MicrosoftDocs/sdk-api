@@ -57,7 +57,7 @@ This operator assigns the vector component data from one instance of <a href="ht
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of <code>XMUINT2</code> used to update the current <code>XMUINT2</code>structure.
 

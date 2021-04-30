@@ -62,11 +62,11 @@ The name of the file.
 
 User-provided data to <a href="/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>.
 
-### -param *cbFileSize [out]
+### -param cbFileSize [out]
 
 The size of the file.
 
-### -param *cbFileSizeHigh [out]
+### -param cbFileSizeHigh [out]
 
 The location to return the high <b>DWORD</b> of the file size.
 

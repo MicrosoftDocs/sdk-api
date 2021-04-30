@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,UnregisterEventNotification method, IDXCoreAdapterFactory.UnregisterEventNotification, IDXCoreAdapterFactory::UnregisterEventNotification, UnregisterEventNotification, UnregisterEventNotification method, UnregisterEventNotification method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::UnregisterEventNotification, dxcore_interface.idxcoreadapterfactory_unregistereventnotification
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

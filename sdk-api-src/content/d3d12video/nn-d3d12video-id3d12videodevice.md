@@ -47,32 +47,6 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 ID3D12VideoDevice interits from IUnknown.
 
-## -members
-
-<p>ID3D12VideoDevice has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>CheckFeatureSupport</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CreateVideoDecoder</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CreateVideoDecoderHeap</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CreateVideoProcessor</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

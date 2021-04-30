@@ -92,12 +92,6 @@ A pointer to the vertices data.
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
-
-
-
-<a href="/previous-versions/windows/desktop/wcs/windows-color-system-schemas-and-algorithms">Windows Color System Schemas and Algorithms</a>
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Structures](/windows/win32/wcs/structures)
+* [Windows Color System schemas and algorithms](/windows/win32/wcs/windows-color-system-schemas-and-algorithms)

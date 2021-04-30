@@ -59,52 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAsfWriter2</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IConfigAsfWriter2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-getparam">GetParam</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current value of the specified filter configuration parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-resetmultipassstate">ResetMultiPassState</a>
-</td>
-<td align="left" width="63%">
-Resets the filter when a preprocessing encoding pass is canceled before it is completed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-setparam">SetParam</a>
-</td>
-<td align="left" width="63%">
-Sets the value of the specified filter configuration parameter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter2-streamnumfrompin">StreamNumFromPin</a>
-</td>
-<td align="left" width="63%">
-Retrieves the stream number associated with the specified input pin.
-
-</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>

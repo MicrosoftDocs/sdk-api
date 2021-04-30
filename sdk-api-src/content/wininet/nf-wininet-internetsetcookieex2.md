@@ -6,9 +6,8 @@ helpviewer_keywords: ["InternetSetCookieEx2","InternetSetCookieEx2 function [Win
 tech.root: wininet
 ms.date: 12/03/2020
 ms.keywords: InternetSetCookieEx2
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

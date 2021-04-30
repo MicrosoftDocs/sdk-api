@@ -50,11 +50,11 @@ The <i>EnumModesCallback2</i> function is an application-defined callback functi
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a read-only <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created.
 
-### -param Arg2 [in]
+### -param unnamedParam2 [in]
 
 A pointer to an application-defined structure to be passed to the callback function each time that the function is called.
 

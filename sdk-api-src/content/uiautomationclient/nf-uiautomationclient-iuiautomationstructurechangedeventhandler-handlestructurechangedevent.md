@@ -60,7 +60,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-
 
 A pointer to the element that raised the event.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-structurechangetype">StructureChangeType</a></b>
 

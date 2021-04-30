@@ -59,61 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IEmptyVolumeCache</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-deactivate">Deactivate</a>
-</td>
-<td align="left" width="63%">
-Notifies the handler that the disk cleanup manager is shutting down. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a>
-</td>
-<td align="left" width="63%">
-Requests the amount of disk space that the disk cleanup handler can free.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the disk cleanup handler, based on the information stored under the specified registry key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a>
-</td>
-<td align="left" width="63%">
-Notifies the handler to start deleting its unneeded files.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a>
-</td>
-<td align="left" width="63%">
-Notifies the handler to display its UI. 
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 This interface must be implemented by disk cleanup handlers running on Windows 98. Handlers running on Windows 2000 should also expose <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a>.

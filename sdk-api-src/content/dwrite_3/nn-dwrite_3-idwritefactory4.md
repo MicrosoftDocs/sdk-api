@@ -60,30 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory4</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteFactory4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-computeglyphorigins">ComputeGlyphOrigins</a>
-</td>
-<td align="left" width="63%">Overloaded. Converts glyph run placements to glyph origins.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory4-translatecolorglyphrun">TranslateColorGlyphRun</a>
-</td>
-<td align="left" width="63%">
-Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original "base" run.
-
-</td>
-</tr>
-</table>
-

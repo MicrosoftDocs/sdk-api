@@ -59,23 +59,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IX509MachineEnrollmentFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509machineenrollmentfactory-createobject">CreateObject</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a> object on a webpage.
-
-[WebEnabled]
-
-</td>
-</tr>
-</table>

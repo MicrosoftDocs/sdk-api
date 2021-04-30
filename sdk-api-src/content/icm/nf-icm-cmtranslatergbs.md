@@ -27,7 +27,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - icm32.dll
 api_name:
@@ -43,7 +42,7 @@ dev_langs:
 
 \[**CMTranslateRGBs** is no longer available for use as of Windows Vista.\]
 
-Translates a bitmap from one [color space](https://msdn.microsoft.com/en-us/library/dd371818\(v=vs.85\)) to another using a color transform.
+Translates a bitmap from one [color space](/windows/win32/wcs/c#color-space) to another using a color transform.
 
 ## -parameters
 
@@ -136,5 +135,5 @@ Note that this function must support in-place translation. That is, whenever the
 
 ## -see-also
 
-* [Basic color management concepts](ms536813\(v=vs.85\).md)
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
 * [Functions](/windows/win32/wcs/functions)

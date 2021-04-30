@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.GetProtectionSystemIds
 title: IMFContentDecryptionModule::GetProtectionSystemIds
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf

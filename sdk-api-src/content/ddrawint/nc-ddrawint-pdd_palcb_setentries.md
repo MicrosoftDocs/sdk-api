@@ -51,7 +51,7 @@ The <i>DdSetEntries</i> callback function updates the palette entries in the spe
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
 

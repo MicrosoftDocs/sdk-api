@@ -61,61 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolConnectionCallba
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWRdsProtocolConnectionCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-brokenconnection">BrokenConnection</a>
-</td>
-<td align="left" width="63%">
-Informs the Remote Desktop Services service that the client connection has been lost.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-getconnectionid">GetConnectionId</a>
-</td>
-<td align="left" width="63%">
-Retrieves the connection identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-onready">OnReady</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service continue the connection process for that client.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-redrawwindow">RedrawWindow</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service redraw the client window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
-</td>
-<td align="left" width="63%">
-Requests that the Remote Desktop Services service stop updating the client screen.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.

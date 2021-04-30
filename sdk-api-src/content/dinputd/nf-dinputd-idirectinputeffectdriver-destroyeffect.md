@@ -54,11 +54,11 @@ The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Specifies the external joystick number being addressed.
 
-### -param arg2
+### -param unnamedParam2
 
 Specifies the effect to be destroyed.
 

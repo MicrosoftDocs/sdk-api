@@ -71,21 +71,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_SDT</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IISDB_SDT</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdt-getrecordeituserdefinedflags">GetRecordEITUserDefinedFlags</a>
-</td>
-<td align="left" width="63%">
-Returns the EIT_user_defined_flags field value from an SDT.
-
-</td>
-</tr>
-</table>

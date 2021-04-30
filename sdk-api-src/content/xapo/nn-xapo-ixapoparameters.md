@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAPOParameters</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXAPOParameters</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-getparameters">GetParameters</a>
-</td>
-<td align="left" width="63%">
-Gets the current values for any effect-specific parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">SetParameters</a>
-</td>
-<td align="left" width="63%">
-Sets effect-specific parameters.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

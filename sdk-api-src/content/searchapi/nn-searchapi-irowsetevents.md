@@ -59,57 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRowsetEvents</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRowsetEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onchangeditem">OnChangedItem</a>
-</td>
-<td align="left" width="63%">
-Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-ondeleteditem">OnDeletedItem</a>
-</td>
-<td align="left" width="63%">
-Called by the indexer to notify clients that an item has been deleted. This item may have matched some (or all) of the search criteria for the client rowset.
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onnewitem">OnNewItem</a>
-</td>
-<td align="left" width="63%">
-Called by the indexer to notify clients of a new item that may match some (or all) of the criteria for the client rowset.
-            
-        
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetevents-onrowsetevent">OnRowsetEvent</a>
-</td>
-<td align="left" width="63%">
-Called by the indexer to notify clients of an event related to the client rowset.
-            
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>

@@ -61,63 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPreprocess</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWMWriterPreprocess</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">BeginPreprocessingPass</a>
-</td>
-<td align="left" width="63%">
-Begins preprocessing a stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-endpreprocessingpass">EndPreprocessingPass</a>
-</td>
-<td align="left" width="63%">
-Ends preprocessing a stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-getmaxpreprocessingpasses">GetMaxPreprocessingPasses</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum number of preprocessing passes supported for a specified stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-preprocesssample">PreprocessSample</a>
-</td>
-<td align="left" width="63%">
-Retrieves a sample for preprocessing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>
-</td>
-<td align="left" width="63%">
-Sets the number of preprocessing passes to perform.
-
-</td>
-</tr>
-</table> 
-
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
-
 ## -see-also
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

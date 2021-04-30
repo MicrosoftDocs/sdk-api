@@ -60,7 +60,7 @@ The <b>CryptXmlDllFinalizeDigest</b> function is exposed through the exported <a
 
 The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a>  function.
 
-### -param *pbDigest [out]
+### -param pbDigest [out]
 
 A pointer to a buffer that receives the digest value.
 

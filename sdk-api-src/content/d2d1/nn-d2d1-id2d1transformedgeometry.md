@@ -59,34 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedGeometry</b> 
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1TransformedGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1transformedgeometry-getsourcegeometry">GetSourceGeometry</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source geometry of this transformed geometry object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1transformedgeometry-gettransform">GetTransform</a>
-</td>
-<td align="left" width="63%">
-Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> object's source geometry.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.

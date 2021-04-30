@@ -59,15 +59,15 @@ The
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a <b>null</b>-terminated string that specifies the name of a phone-book entry.
 
-### -param arg3 [in, out]
+### -param unnamedParam3 [in, out]
 
 Pointer to the 
 <a href="/previous-versions/windows/desktop/legacy/aa376730(v=vs.85)">RASCREDENTIALS</a> structure that, on output, receives the user credentials associated with the specified phone-book entry. 

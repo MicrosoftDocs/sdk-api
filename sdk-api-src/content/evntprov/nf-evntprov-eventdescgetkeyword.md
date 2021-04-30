@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the keyword from the event descriptor.
+Retrieves the keyword from the event descriptor.
 
 ## -parameters
 

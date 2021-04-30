@@ -59,25 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPreservedKeyNotifySink</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ITfPreservedKeyNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/msctf/nf-msctf-itfpreservedkeynotifysink-onupdated">OnUpdated</a>
-</td>
-<td align="left" width="63%">
-Called when a key is preserved, unpreserved, or when a preserved key description changes.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Preserved keys are keyboard shortcuts that an application or TSF text service can register with the TSF manager.

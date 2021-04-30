@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/17/2019
 ms.keywords: IDXCoreAdapterFactory interface,IsNotificationTypeSupported method, IDXCoreAdapterFactory.IsNotificationTypeSupported, IDXCoreAdapterFactory::IsNotificationTypeSupported, IsNotificationTypeSupported, IsNotificationTypeSupported method, IsNotificationTypeSupported method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::IsNotificationTypeSupported, dxcore_interface.idxcoreadapterfactory_isnotificationtypesupported
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

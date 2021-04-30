@@ -1,7 +1,7 @@
 ---
 UID: NS:winnt._ULARGE_INTEGER~r1
 title: ULARGE_INTEGER
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _ULARGE_INTEGER, ULARGE_INTEGER
 targetos: Windows
 req.construct-type: structure

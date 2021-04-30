@@ -54,7 +54,7 @@ Gets the scroll range for a flat scroll bar. If flat scroll bars are not initial
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
@@ -93,13 +93,13 @@ Retrieves the scroll range of the vertical scroll bar.
 </tr>
 </table>
 
-### -param arg3
+### -param unnamedParam3
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
 A pointer to an INT value that receives the minimum scroll range value.
 
-### -param arg4
+### -param unnamedParam4
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 

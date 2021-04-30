@@ -59,31 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSignatureReader</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRdcSignatureReader</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readheader">ReadHeader</a>
-</td>
-<td align="left" width="63%">
-Reads the signature header and returns a copy of the parameters
-   used to generate the signatures.</p> (Inherited from <b>IRdcSignatureReader</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">ReadSignatures</a>
-</td>
-<td align="left" width="63%">
-Reads a block of signatures from the current position.</p> (Inherited from <b>IRdcSignatureReader</b>)</td>
-</tr>
-</table>
-
 ## -see-also
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

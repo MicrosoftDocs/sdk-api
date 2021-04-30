@@ -56,7 +56,7 @@ Invokes the standard <b>Busy</b> dialog box, allowing the user to manage concurr
 
 ## -parameters
 
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a> structure that contains information used to initialize the dialog box.
 

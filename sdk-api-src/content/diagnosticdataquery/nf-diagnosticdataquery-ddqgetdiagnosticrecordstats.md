@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticRecordStats
 title: DdqGetDiagnosticRecordStats
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticRecordStats
-ms.topic: language-reference
 description: Fetches the filtered event transcript Diagnostic Data record stats. The filtering on statistics returned is performed using the input parameter, DIAGNOSTIC_DATA_SEARCH_CRITERIA filter. The record state describes how many records matching the search criteria are available, and returns parameters used for further querying of data. One of the uses of this API is to check if there have been changes since the last time data was queried for. A change in the output parameters indicate a change in state of the event transcript record state.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,7 +30,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

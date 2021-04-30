@@ -62,43 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRateSupport</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IMFRateSupport</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate">GetFastestRate</a>
-</td>
-<td align="left" width="63%">
-Gets the fastest playback rate supported by the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate">GetSlowestRate</a>
-</td>
-<td align="left" width="63%">
-Gets the slowest playback rate supported by the object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-isratesupported">IsRateSupported</a>
-</td>
-<td align="left" width="63%">
-Queries whether the object supports a specified playback rate.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Applications can use this interface to discover the fastest and slowest playback rates that are possible, and to query whether a given playback rate is supported. Applications obtain this interface from the Media Session. Internally, the Media Session queries the objects in the pipeline. For more information, see <a href="/windows/desktop/medfound/how-to-determine-supported-rates">How to Determine Supported Rates</a>.

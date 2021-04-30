@@ -53,7 +53,7 @@ Initializes the BoundingSphere with values from a specified BoundingSphere.
 
 ## -parameters
 
-### -param arg1 [in, ref]
+### -param unnamedParam1 [in, ref]
 
 The BoundingSphere to copy values from.
 

@@ -60,36 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderAdviseEven
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IRawElementProviderAdviseEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded">AdviseEventAdded</a>
-</td>
-<td align="left" width="63%">
-Notifies the UI Automation provider when a UI Automation client begins listening for a specific event, including a 
-		property-changed event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventremoved">AdviseEventRemoved</a>
-</td>
-<td align="left" width="63%">
-Notifies the UI Automation provider when a UI Automation client stops listening for a specific event, including a property-changed event. 
-
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Implementation of this interface is optional. It can be used to improve performance by raising events only when they are being listened for.

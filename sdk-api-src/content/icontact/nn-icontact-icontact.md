@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContact</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IContact</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-commitchanges">CommitChanges</a>
-</td>
-<td align="left" width="63%">
-Saves changes made to this contact to the contact file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the local computer unique contact ID.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getpath">GetPath</a>
-</td>
-<td align="left" width="63%">
-Retrieves the file system path used to load this contact.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 Classes that implement this interface often also implement these interfaces:

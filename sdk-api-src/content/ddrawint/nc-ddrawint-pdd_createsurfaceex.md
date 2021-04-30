@@ -51,7 +51,7 @@ The <b>D3dCreateSurfaceEx</b> function notifies about the association of a Micro
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createsurfaceexdata">DD_CREATESURFACEEXDATA</a> structure that contains the information required for the driver to create the surface.
 

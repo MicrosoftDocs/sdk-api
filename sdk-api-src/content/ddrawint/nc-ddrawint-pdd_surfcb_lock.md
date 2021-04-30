@@ -51,7 +51,7 @@ The <i>DdLock</i> callback function locks a specified area of surface memory and
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_lockdata">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 

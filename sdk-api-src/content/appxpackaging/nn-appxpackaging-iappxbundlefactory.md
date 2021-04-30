@@ -59,43 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleFactory</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAppxBundleFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlemanifestreader">CreateBundleManifestReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only bundle manifest object from a standalone stream to AppxBundleManifest.xml.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlereader">CreateBundleReader</a>
-</td>
-<td align="left" width="63%">
-Creates a read-only bundle object that reads its contents from an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlewriter">CreateBundleWriter</a>
-</td>
-<td align="left" width="63%">
-Creates a write-only bundle object to which app packages can be added.  
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
 The <b>IAppxBundleFactory</b> interface provides factory methods to create readers and writers of bundle packages as well as methods to create readers for manifests outside of a bundle. 

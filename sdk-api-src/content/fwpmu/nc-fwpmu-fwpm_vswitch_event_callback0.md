@@ -54,13 +54,13 @@ The <b>FWPM_VSWITCH_EVENT_CALLBACK0</b> function is used to add custom behavior 
 
 ## -parameters
 
-### -param *context [in, out]
+### -param context [in, out]
 
 Type: <b>void*</b>
 
 Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0">FwpmvSwitchEventSubscribe0</a> function.
 
-### -param *vSwitchEvent [in]
+### -param vSwitchEvent [in]
 
 Type: [FWPM_VSWITCH_EVENT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)*</b>
 

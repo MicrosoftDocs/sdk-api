@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/10/2019
 ms.keywords: IDXCoreAdapterFactory interface,RegisterEventNotification method, IDXCoreAdapterFactory.RegisterEventNotification, IDXCoreAdapterFactory::RegisterEventNotification, RegisterEventNotification, RegisterEventNotification method, RegisterEventNotification method,IDXCoreAdapterFactory interface, dxcore/IDXCoreAdapterFactory::RegisterEventNotification, dxcore_interface.idxcoreadapterfactory_registereventnotification
 ms.localizationpriority: low
-ms.topic: method
 targetos: Windows
 product: Windows
 req.assembly: 

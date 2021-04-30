@@ -59,38 +59,10 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchManager2</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ISearchManager2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/search/isearchmanager2-createcatalog">CreateCatalog</a>
-</td>
-<td align="left" width="63%">
-Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager2-deletecatalog">DeleteCatalog</a>
-</td>
-<td align="left" width="63%">
-Deletes an existing catalog and all associated indexed data from the Windows Search indexer.
-
-</td>
-</tr>
-</table>
-
 ## -remarks
 
-ISearchManager interface ref: http://msdn.microsoft.com/en-us/library/bb231485(VS.85).aspx
-Managing the Index ref: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
+ISearchManager interface ref: [https://msdn.microsoft.com/en-us/library/bb231485(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb231485(VS.85).aspx)
+Managing the Index ref: [https://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx](https://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx)
 
 The new functionality is exposed through the new ISearchManager2 interface. Apps can call QueryInterface on the existing ISearchManager interface to get the new interface. On older versions of Windows where this functionality does not exist the QueryInterface call will fail, and not return the new interface. The existing ISearchManager interface can be used unchanged.
 

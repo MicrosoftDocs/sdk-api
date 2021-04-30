@@ -47,10 +47,12 @@ api_name:
 
 # NPPasswordChangeNotify function
 
-> [!NOTE]
-> This API has been deprecated and will be removed in a future release.
+
 
 ## -description
+
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 MPR calls this function to notify the credential manager of a password change event. The <b>NPPasswordChangeNotify</b> function is implemented by a credential manager DLL.
 

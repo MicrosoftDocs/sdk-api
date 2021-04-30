@@ -28,7 +28,7 @@ req.irql:
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
 f1_keywords:
  - QueryPerformanceCounter
  - profileapi/QueryPerformanceCounter
@@ -71,6 +71,22 @@ If the function fails, the return value is zero. To get extended error informati
 ## -remarks
 
 For more info about this function and its usage, see <a href="/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>.
+
+## Examples 
+
+```cpp
+// Gets the current number of ticks from QueryPerformanceCounter. Throws an
+// exception if the call to QueryPerformanceCounter fails.
+static inline int64_t GetTicks()
+{
+    LARGE_INTEGER ticks;
+    if (!QueryPerformanceCounter(&ticks))
+    {
+        winrt::throw_last_error();
+    }
+    return ticks.QuadPart;
+}
+```
 
 ## -see-also
 

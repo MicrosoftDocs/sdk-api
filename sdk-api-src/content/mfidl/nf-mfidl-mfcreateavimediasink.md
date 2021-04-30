@@ -22,8 +22,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Mf.lib
-req.dll: Mf.dll
+req.lib: mfsrcsnk.lib
+req.dll: mfsrcsnk.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - mf.dll
+ - mfsrcsnk.dll
 api_name:
  - MFCreateAVIMediaSink
 ---

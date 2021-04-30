@@ -50,7 +50,7 @@ Assigns the texture-management priority for this texture. This method succeeds o
 
 ## -parameters
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that specifies the new texture-management priority for the texture.
 
