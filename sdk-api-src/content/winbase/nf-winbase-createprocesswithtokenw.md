@@ -71,8 +71,7 @@ To get a primary token that represents the specified user, call the
 <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. Alternatively, you can call the 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a> function to convert an impersonation token into a primary token. This allows a server application that is impersonating a client to create a process that has the security context of the client.
 
-<b>Terminal Services:  </b>The process is run in the session specified in the token. By default, this is the same session that called <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>. To change the session, use the 
-<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a> function.
+<b>Terminal Services:  </b>The caller's process always runs in the caller's session, not in the session specified in the token. To run a process in the session specified in the token, use the CreateProcessAsUser function.
 
 ### -param dwLogonFlags [in]
 
