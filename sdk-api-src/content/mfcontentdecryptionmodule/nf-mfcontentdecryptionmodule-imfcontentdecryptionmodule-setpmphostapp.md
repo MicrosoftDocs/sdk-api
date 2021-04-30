@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.SetPMPHostApp
 title: IMFContentDecryptionModule::SetPMPHostApp
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Allows the caller to specify the IMFPMPHostApp interface, which represents a protected process.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::SetPMPHostApp
 f1_keywords:
+ - IMFContentDecryptionModule::SetPMPHostApp
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::SetPMPHostApp
 dev_langs:
  - c++
@@ -41,8 +41,7 @@ dev_langs:
 
 ## -description
 
-Allows the caller to specify the [IMFPMPHostApp](/windows/win32/api/mfidl/nn-mfidl-imfpmphostapp) interface, which represents a protected process. The **IMFPMPHostApp** interface is used by the Content Decryption Module (CDM) to create the IMFTrustedInput object.
-
+Allows the caller to specify the [IMFPMPHostApp](../mfidl/nn-mfidl-imfpmphostapp.md) interface, which represents a protected process. The **IMFPMPHostApp** interface is used by the Content Decryption Module (CDM) to create the IMFTrustedInput object.
 
 ## -parameters
 
@@ -57,4 +56,3 @@ Returns S_OK on success.
 ## -remarks
 
 ## -see-also
-

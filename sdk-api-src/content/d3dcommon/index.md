@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3d11
+f1_keywords:
+ - d3dcommon
+ - d3dcommon/d3dcommon
 ---
 
 # D3Dcommon.h header
 
 
 ## -description
-
 
 This header is used by Direct3D 11 Graphics. For more information, see:
 

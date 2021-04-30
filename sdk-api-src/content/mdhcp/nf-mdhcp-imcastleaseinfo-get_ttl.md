@@ -8,10 +8,6 @@ tech.root: tapi3
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_TTL method, IMcastLeaseInfo.get_TTL, IMcastLeaseInfo::get_TTL, _tapi3_imcastleaseinfo_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_TTL, tapi3.imcastleaseinfo_get_ttl
-f1_keywords:
-- mdhcp/IMcastLeaseInfo.get_TTL
-dev_langs:
-- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mdhcp.dll
-api_name:
-- IMcastLeaseInfo.get_TTL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMcastLeaseInfo::get_TTL
+ - mdhcp/IMcastLeaseInfo::get_TTL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mdhcp.dll
+api_name:
+ - IMcastLeaseInfo.get_TTL
 ---
 
 # IMcastLeaseInfo::get_TTL
+
 
 ## -description
 
@@ -111,4 +113,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>

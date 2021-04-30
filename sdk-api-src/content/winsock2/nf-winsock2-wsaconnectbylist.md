@@ -8,10 +8,6 @@ tech.root: WinSock
 ms.assetid: 7323d814-e96e-44b9-8ade-a9317e4fbf17
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
-f1_keywords:
-- winsock2/WSAConnectByList
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAConnectByList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAConnectByList
+ - winsock2/WSAConnectByList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAConnectByList
 ---
 
 # WSAConnectByList function
 
 
 ## -description
-
 
 The <b>WSAConnectByList</b> function 
    establishes a connection to one out of a collection of possible endpoints represented by a set of 
@@ -59,28 +59,22 @@ The <b>WSAConnectByList</b> function
 
 This function supports both IPv4 and IPv6 addresses.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor that identifies an unbound and unconnected socket. Note that unlike other Winsock calls to 
-      establish a connection (for example, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>), 
+      establish a connection (for example, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>), 
       the <b>WSAConnectByList</b> function requires an 
       unbound socket.
 
-
 ### -param SocketAddress [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a> 
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a> 
       structure that represents the possible destination address and port pairs to connect to a peer. It is the 
       application's responsibility to fill in the port number in the each 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure in the 
+      <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure in the 
       <b>SOCKET_ADDRESS_LIST</b>.
-
 
 ### -param LocalAddressLength [in, out]
 
@@ -89,16 +83,14 @@ On input, a pointer to the size, in bytes, of the <i>LocalAddress</i> buffer pro
       local address stored in the <i>LocalAddress</i> buffer filled in by the system upon 
       successful completion of the call.
 
-
 ### -param LocalAddress [out]
 
 A pointer to the <b>SOCKADDR</b> structure that receives the local address of the 
       connection. The size of the parameter is exactly the size returned in 
       <i>LocalAddressLength</i>. This is the same information that would be returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function. This parameter can be 
+      <a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function. This parameter can be 
       <b>NULL</b>, in which case, the <i>LocalAddressLength</i> parameter is 
       ignored.
-
 
 ### -param RemoteAddressLength [in, out]
 
@@ -107,14 +99,12 @@ On input, a pointer to the size, in bytes, of the <i>RemoteAddress</i> buffer pr
       remote address stored in <i>RemoteAddress</i> buffer filled-in by the system upon successful 
       completion of the call.
 
-
 ### -param RemoteAddress [out]
 
 A pointer to the <b>SOCKADDR</b> structure that receives the remote address of the 
       connection. This is the same information that would be returned by the 
       <b>getpeername</b> function. This parameter can be <b>NULL</b>, in 
       which case, the <i>RemoteAddressLength</i> is ignored.
-
 
 ### -param timeout [in]
 
@@ -124,15 +114,11 @@ The time, in milliseconds, to wait for a response from the remote application be
       connection is successfully established or after a connection was attempted and failed on all possible 
       local-remote address pairs.
 
-
 ### -param Reserved [in]
 
 Reserved for future implementation. This parameter must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If a connection is established, 
        <b>WSAConnectByList</b> returns <b>TRUE</b> and 
@@ -140,7 +126,7 @@ If a connection is established,
        these buffers were supplied by the caller.
 
 If the call fails, <b>FALSE</b> is returned. 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can then be called to get 
+       <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> can then be called to get 
        extended error information.
 
 <table>
@@ -207,17 +193,11 @@ A response from the  remote application was not received before the <i>timeout</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>WSAConnectByList</b> is similar to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a> function.  Instead of taking a 
+     <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a> function.  Instead of taking a 
      single host name and service name (port), 
      <b>WSAConnectByList</b> takes a list of addresses (host 
      addresses and ports) and connects to one of the addresses. The 
@@ -260,12 +240,12 @@ The <i>timeout</i> parameter allows the caller to limit the time spent by the fu
 To enable both IPv6 and IPv4 addresses to be passed in the single address list accepted by the function, the 
      following steps must be performed prior to calling the function:
      <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function must be called on a 
+<li>The <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function must be called on a 
        socket created for the AF_INET6 address family to disable the <b>IPV6_V6ONLY</b> socket 
        option before calling <b>WSAConnectByList</b>. This is 
        accomplished by calling the <b>setsockopt</b> function on 
        the socket with the <i>level</i> parameter set to <b>IPPROTO_IPV6</b> 
-       (see <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>), the 
+       (see <a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>), the 
        <i>optname</i> parameter set to <b>IPV6_V6ONLY</b>, and the  
        <i>optvalue</i> parameter value set to  zero .</li>
 <li>Any IPv4 addresses must be represented in the IPv4-mapped IPv6 address format which enables an IPv6 only application to communicate with an IPv4 node.  The IPv4-mapped IPv6 address format allows the IPv4 address of an IPv4 node to be represented as an IPv6
@@ -276,7 +256,7 @@ To enable both IPv6 and IPv4 addresses to be passed in the single address list a
 
 
 The arrays of pointers passed in the <i>SocketAddressList</i> parameter point to an array of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>  structures, which are a generic 
+     <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>  structures, which are a generic 
      data type. The <i>RemoteAddress</i> and the <i>LocalAddress</i> 
      parameters also point to <b>SOCKADDR</b>  structures. When 
      <b>WSAConnectByList</b> is called, it is expected that 
@@ -296,8 +276,8 @@ The arrays of pointers passed in the <i>SocketAddressList</i> parameter point to
      structures.
 
 When the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">WSAConnectByList</a> function returns <b>TRUE</b>, the socket <i>s</i> is in the default state for a connected socket. The socket <i>s</i> does not enable previously set properties or options until SO_UPDATE_CONNECT_CONTEXT is set on the socket. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function to set the SO_UPDATE_CONNECT_CONTEXT option. 
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">WSAConnectByList</a> function returns <b>TRUE</b>, the socket <i>s</i> is in the default state for a connected socket. The socket <i>s</i> does not enable previously set properties or options until SO_UPDATE_CONNECT_CONTEXT is set on the socket. Use the 
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> function to set the SO_UPDATE_CONNECT_CONTEXT option. 
 
 For example:
 
@@ -312,7 +292,7 @@ iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
 ```
 
 
-<div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">WSAConnectByList</a> with the <i>timeout</i> parameter set to <b>NULL</b>, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
+<div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">WSAConnectByList</a> with the <i>timeout</i> parameter set to <b>NULL</b>, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -384,57 +364,46 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385467(v=vs.85)">SOCKET_ADDRESS_LIST</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getpeername">getpeername</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getpeername">getpeername</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>

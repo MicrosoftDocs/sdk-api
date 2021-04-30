@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a779a6ad-2d86-416f-8f3f-1ccc90c13572
 ms.date: 12/05/2018
 ms.keywords: CreateRoundedRectangleGeometry, CreateRoundedRectangleGeometry method [Direct2D], CreateRoundedRectangleGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateRoundedRectangleGeometry method, ID2D1Factory.CreateRoundedRectangleGeometry, ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), ID2D1Factory::CreateRoundedRectangleGeometry, ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry), d2d1/ID2D1Factory::CreateRoundedRectangleGeometry, direct2d.ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry
-f1_keywords:
-- d2d1/ID2D1Factory.CreateRoundedRectangleGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory.CreateRoundedRectangleGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory::CreateRoundedRectangleGeometry
+ - d2d1/ID2D1Factory::CreateRoundedRectangleGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory.CreateRoundedRectangleGeometry
 ---
 
 ## -description
 
-Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>.
 
 ## -parameters
 
@@ -71,3 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+

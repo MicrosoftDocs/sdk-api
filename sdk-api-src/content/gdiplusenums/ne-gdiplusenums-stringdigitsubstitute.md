@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\stringdigitsubstitute.htm
 ms.date: 12/05/2018
 ms.keywords: StringDigitSubstitute, StringDigitSubstitute enumeration [GDI+], StringDigitSubstituteNational, StringDigitSubstituteNone, StringDigitSubstituteTraditional, StringDigitSubstituteUser, _gdiplus_ENUM_StringDigitSubstitute, gdiplus._gdiplus_ENUM_StringDigitSubstitute, gdiplusenums/StringDigitSubstitute, gdiplusenums/StringDigitSubstituteNational, gdiplusenums/StringDigitSubstituteNone, gdiplusenums/StringDigitSubstituteTraditional, gdiplusenums/StringDigitSubstituteUser
-f1_keywords:
-- gdiplusenums/StringDigitSubstitute
-dev_langs:
-- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdiplusenums.h
-api_name:
-- StringDigitSubstitute
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - StringDigitSubstitute
+ - gdiplusenums/StringDigitSubstitute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdiplusenums.h
+api_name:
+ - StringDigitSubstitute
 ---
 
 # StringDigitSubstitute enumeration
@@ -50,31 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StringDigitSubstitute</b> enumeration specifies how to substitute digits in a string according to a user's locale or language.
-
 
 ## -enum-fields
 
-
-
-
 ### -field StringDigitSubstituteUser
 
-Specifies a user-defined substitution scheme. 
-
+Specifies a user-defined substitution scheme.
 
 ### -field StringDigitSubstituteNone
 
-Specifies to disable substitutions. 
-
+Specifies to disable substitutions.
 
 ### -field StringDigitSubstituteNational
 
-Specifies substitution digits that correspond with the official national language of the user's locale. 
-
+Specifies substitution digits that correspond with the official national language of the user's locale.
 
 ### -field StringDigitSubstituteTraditional
 
-Specifies substitution digits that correspond with the user's native script or language, which may be different from the official national language of the user's locale. 
+Specifies substitution digits that correspond with the user's native script or language, which may be different from the official national language of the user's locale.
 

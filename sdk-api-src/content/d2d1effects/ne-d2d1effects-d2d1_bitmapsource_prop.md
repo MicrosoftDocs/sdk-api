@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 02E1108D-FD73-4031-B709-5993D42D102F
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAPSOURCE_PROP, D2D1_BITMAPSOURCE_PROP enumeration [Direct2D], D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, D2D1_BITMAPSOURCE_PROP_ORIENTATION, D2D1_BITMAPSOURCE_PROP_SCALE, D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, d2d1effects/D2D1_BITMAPSOURCE_PROP, d2d1effects/D2D1_BITMAPSOURCE_PROP_ALPHA_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION, d2d1effects/D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_BITMAPSOURCE_PROP_ORIENTATION, d2d1effects/D2D1_BITMAPSOURCE_PROP_SCALE, d2d1effects/D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE, direct2d.d2d1_bitmapsource_prop
-f1_keywords:
-- d2d1effects/D2D1_BITMAPSOURCE_PROP
-dev_langs:
-- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1effects.h
-api_name:
-- D2D1_BITMAPSOURCE_PROP
 targetos: Windows
 req.typenames: D2D1_BITMAPSOURCE_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_BITMAPSOURCE_PROP
+ - d2d1effects/D2D1_BITMAPSOURCE_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1effects.h
+api_name:
+ - D2D1_BITMAPSOURCE_PROP
 ---
 
 # D2D1_BITMAPSOURCE_PROP enumeration
@@ -49,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
-        
-
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>.
 
 ## -enum-fields
-
-
-
 
 ### -field D2D1_BITMAPSOURCE_PROP_WIC_BITMAP_SOURCE
 
@@ -67,7 +62,6 @@ The IWICBitmapSource containing the image data to be loaded.
 The type is IWICBitmapSource.
 
 The default value is NULL.
-
 
 ### -field D2D1_BITMAPSOURCE_PROP_SCALE
 
@@ -79,17 +73,15 @@ The type is D2D1_VECTOR_2F.
 
 The default value is {1.0f, 1.0f}.
 
-
 ### -field D2D1_BITMAPSOURCE_PROP_INTERPOLATION_MODE
 
 The interpolation mode used to scale the image.
           If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_interpolation_mode">D2D1_BITMAPSOURCE_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_INTERPOLATION_MODE_LINEAR.
-
 
 ### -field D2D1_BITMAPSOURCE_PROP_ENABLE_DPI_CORRECTION
 
@@ -101,28 +93,22 @@ The type is BOOL.
 
 The default value is FALSE.
 
-
 ### -field D2D1_BITMAPSOURCE_PROP_ALPHA_MODE
 
 The alpha mode of the output. This can be either premultiplied or straight.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_alpha_mode">D2D1_BITMAPSOURCE_ALPHA_MODE</a>.
 
 The default value is D2D1_BITMAPSOURCE_ALPHA_MODE_PREMULTIPLIED.
-
 
 ### -field D2D1_BITMAPSOURCE_PROP_ORIENTATION
 
 A flip and/or rotation operation to be performed on the image.
           
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation">D2D1_BITMAPSOURCE_ORIENTATION</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_bitmapsource_orientation">D2D1_BITMAPSOURCE_ORIENTATION</a>.
 
 The default value is D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT.
 
-
 ### -field D2D1_BITMAPSOURCE_PROP_FORCE_DWORD
-
-
-

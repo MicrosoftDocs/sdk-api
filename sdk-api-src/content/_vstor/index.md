@@ -16,5 +16,4 @@ Overview of the Virtual Storage technology.
 The Virtual Storage technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Virtual Storage](https://docs.microsoft.com/windows/desktop/VStor/virtual-storage)
-
+* [Virtual Storage](/windows/desktop/VStor/virtual-storage)

@@ -1,12 +1,8 @@
 ---
 UID: NE:virtdisk._VIRTUAL_DISK_ACCESS_MASK~r1
 title: VIRTUAL_DISK_ACCESS_MASK
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: _VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK
-f1_keywords:
-- virtdisk/_VIRTUAL_DISK_ACCESS_MASK
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -19,15 +15,22 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - _VIRTUAL_DISK_ACCESS_MASK
+ - virtdisk/_VIRTUAL_DISK_ACCESS_MASK
+ - VIRTUAL_DISK_ACCESS_MASK
+ - virtdisk/VIRTUAL_DISK_ACCESS_MASK
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- virtdisk.h
+ - virtdisk.h
 api_name:
-- _VIRTUAL_DISK_ACCESS_MASK
-- VIRTUAL_DISK_ACCESS_MASK
+ - _VIRTUAL_DISK_ACCESS_MASK
+ - VIRTUAL_DISK_ACCESS_MASK
 ---
 
 # VIRTUAL_DISK_ACCESS_MASK enumeration
@@ -38,16 +41,14 @@ api_name:
 Contains the bitmask for specifying access rights to a virtual hard disk (VHD) or CD or DVD image 
     file (ISO).
 
-
 ## -enum-fields
 
 ### -field VIRTUAL_DISK_ACCESS_NONE
 
 Open the virtual disk with no access. This is the only supported value when calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a> and specifying  
+       <a href="/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a> and specifying  
        <b>CREATE_VIRTUAL_DISK_VERSION_2</b> in the 
        <i>VirtualDiskAccessMask</i> parameter.
-
 
 ### -field VIRTUAL_DISK_ACCESS_ATTACH_RO
 
@@ -61,7 +62,6 @@ If used in a request to open a virtual disk that is already open, the
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This access right is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
-
 
 ### -field VIRTUAL_DISK_ACCESS_ATTACH_RW
 
@@ -77,7 +77,6 @@ If the virtual disk is part of a differencing chain, the disk for this request c
 
 This flag is not supported for ISO virtual disks.
 
-
 ### -field VIRTUAL_DISK_ACCESS_DETACH
 
 Open the virtual disk to allow detaching of an attached virtual disk. The caller must have 
@@ -87,7 +86,6 @@ Open the virtual disk to allow detaching of an attached virtual disk. The caller
 <b>Windows 7 and Windows Server 2008 R2:  </b>This access right is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-
 ### -field VIRTUAL_DISK_ACCESS_GET_INFO
 
 Information retrieval access to the virtual disk. The caller must have <b>READ</b> 
@@ -96,13 +94,11 @@ Information retrieval access to the virtual disk. The caller must have <b>READ</
 <b>Windows 7 and Windows Server 2008 R2:  </b>This access right is not supported for opening ISO virtual disks until Windows 8 and 
         Windows Server 2012.
 
-
 ### -field VIRTUAL_DISK_ACCESS_CREATE
 
 Virtual disk creation access.
 
 This flag is not supported for ISO virtual disks.
-
 
 ### -field VIRTUAL_DISK_ACCESS_METAOPS
 
@@ -115,11 +111,9 @@ If the virtual disk is part of a differencing chain, the backing store (host vol
 
 This flag is not supported for ISO virtual disks.
 
-
 ### -field VIRTUAL_DISK_ACCESS_READ
 
 Reserved.
-
 
 ### -field VIRTUAL_DISK_ACCESS_ALL
 
@@ -128,17 +122,14 @@ Allows unrestricted access to the virtual disk. The caller must have unrestricte
 
 This flag is not supported for ISO virtual disks.
 
-
 ### -field VIRTUAL_DISK_ACCESS_WRITABLE
 
 Reserved.
-
 
 ## -remarks
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

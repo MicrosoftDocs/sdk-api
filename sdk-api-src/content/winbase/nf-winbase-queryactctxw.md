@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 7d45f63f-0baf-4236-b245-d36f9eb32e8c
 ms.date: 12/05/2018
 ms.keywords: ActivationContextBasicInformation, ActivationContextDetailedInformation, AssemblyDetailedInformationInActivationContext, CompatibilityInformationInActivationContext, FileInformationInAssemblyOfAssemblyInActivationContext, QUERY_ACTCTX_FLAG_ACTCTX_IS_ADDRESS, QUERY_ACTCTX_FLAG_ACTCTX_IS_HMODULE, QUERY_ACTCTX_FLAG_USE_ACTIVE_ACTCTX, QueryActCtxW, QueryActCtxW function [Side-by-side Assemblies], RunlevelInformationInActivationContext, _win32_queryactctxw, setup.queryactctxw, winbase/QueryActCtxW
-f1_keywords:
-- winbase/QueryActCtxW
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-sidebyside-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- QueryActCtxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryActCtxW
+ - winbase/QueryActCtxW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - QueryActCtxW
 ---
 
 # QueryActCtxW function
@@ -51,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>QueryActCtxW</b> function queries the activation context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -79,8 +75,8 @@ This parameter should be set to one of the following flag bits.
 </td>
 <td width="60%">
 <b>QueryActCtxW</b> queries the activation context active on the thread instead of the context specified by <i>hActCtx</i>. This is usually the last activation context passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. If 
-<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. If 
+<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>.
 
 </td>
 </tr>
@@ -116,13 +112,10 @@ When a DLL or EXE is loaded, the loader checks for a manifest stored in a resour
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hActCtx [in]
 
 Handle to the activation context that is being queried.
-
 
 ### -param pvSubInstance [in, optional]
 
@@ -153,15 +146,13 @@ Pointer to a <b>DWORD</b> that specifies the index of the assembly within the ac
 </td>
 <td width="60%">
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulInfoClass [in]
 
@@ -219,9 +210,9 @@ If
 </td>
 <td width="60%">
 Information about a file in one of the assemblies in Activation Context. The <i>pvSubInstance</i> parameter must point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -256,42 +247,30 @@ If
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvBuffer [out]
 
 Pointer to a buffer that holds the returned information. This parameter is optional. If <i>pvBuffer</i> is <b>null</b>, then <i>cbBuffer</i> must be zero. If the size of the buffer pointed to by <i>pvBuffer</i> is too small, 
 <b>QueryActCtxW</b> returns ERROR_INSUFFICIENT_BUFFER and no data is written into the buffer. See the Remarks section for the method you can use to determine the required size of the buffer.
 
-
 ### -param cbBuffer [in, optional]
 
 Size of the buffer in bytes pointed to by <i>pvBuffer</i>. This parameter is optional.
-
 
 ### -param pcbWrittenOrRequired [out, optional]
 
 Number of bytes written or required. The parameter <i>pcbWrittenOrRequired</i> can only be <b>NULL</b> when <i>pvBuffer</i> is <b>NULL</b>. If <i>pcbWrittenOrRequired</i> is non-<b>NULL</b>, it is filled with the number of bytes required to store the returned buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
-
-
 
 The parameter <i>cbBuffer</i> specifies the size in bytes of the buffer pointed to by <i>pvBuffer</i>. If <i>pvBuffer</i> is <b>NULL</b>, then <i>cbBuffer</i> must be 0. The parameter <i>pcbWrittenOrRequired</i> can only be <b>NULL</b> if <i>pvBuffer</i> is <b>NULL</b>. If <i>pcbWrittenOrRequired</i> is non-<b>NULL</b> on return, it is filled with the number of bytes required to store the returned information. When the information data returned is larger than the provided buffer, 
 <b>QueryActCtxW</b> returns ERROR_INSUFFICIENT_BUFFER and no data is written to the buffer pointed to by <i>pvBuffer</i>.
@@ -319,5 +298,3 @@ if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLast
     HeapFree(GetProcessHeap(), 0, pvData);
     pvData = NULL;
 }</code></pre>
-
-

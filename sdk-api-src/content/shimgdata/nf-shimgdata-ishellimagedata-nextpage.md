@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 19a2680a-f435-45c9-9573-e32f3cfdd090
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextPage method, IShellImageData.NextPage, IShellImageData::NextPage, NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
-f1_keywords:
-- shimgdata/IShellImageData.NextPage
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.NextPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::NextPage
+ - shimgdata/IShellImageData::NextPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.NextPage
 ---
 
 # IShellImageData::NextPage
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Switches to the next page of a multipage image. Any associated animations are reset.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -96,7 +88,4 @@ No further pages are available, the image was not previously decoded, or the dec
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT
 title: D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Receives output data from calls to ID3D12VideoEncodeCommandList::ResolveMotionVectorHeap.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT
 f1_keywords:
+ - D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT
  - d3d12video/D3D12_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT
 dev_langs:
  - c++
@@ -43,7 +43,7 @@ Receives output data from calls to [ID3D12VideoEncodeCommandList::ResolveMotionV
 
 ### -field pMotionVectorTexture2D
 
-An [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) representing the output resource for resolved motion vectors. Motion vectors are resolved to [DXGI_FORMAT_R16G16_SINT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 2D textures. The resolved data is a signed 16-byte integer with quarter PEL units with the X vector component stored in the R component and the Y vector component stored in the G component. Motion vectors are stored in a 2D layout that corresponds to the pixel layout of the original input textures.
+An [ID3D12Resource](../d3d12/nn-d3d12-id3d12resource.md) representing the output resource for resolved motion vectors. Motion vectors are resolved to [DXGI_FORMAT_R16G16_SINT](../dxgiformat/ne-dxgiformat-dxgi_format.md) 2D textures. The resolved data is a signed 16-byte integer with quarter PEL units with the X vector component stored in the R component and the Y vector component stored in the G component. Motion vectors are stored in a 2D layout that corresponds to the pixel layout of the original input textures.
 
 ### -field MotionVectorCoordinate
 
@@ -52,4 +52,3 @@ A [D3D12_RESOURCE_COORDINATE](ns-d3d12video-d3d12_resource_coordinate.md) struct
 ## -remarks
 
 ## -see-also
-

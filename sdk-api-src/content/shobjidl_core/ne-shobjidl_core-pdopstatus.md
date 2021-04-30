@@ -8,10 +8,6 @@ tech.root: properties
 ms.assetid: f9fd5cbe-2cb7-4ae7-9cf2-f8545095eec8
 ms.date: 12/05/2018
 ms.keywords: PDOPSTATUS, PDOPSTATUS enumeration [Windows Properties], PDOPS_CANCELLED, PDOPS_ERRORS, PDOPS_PAUSED, PDOPS_RUNNING, PDOPS_STOPPED, _shell_PDOPSTATUS, properties.PDOPSTATUS, shell.PDOPSTATUS, shobjidl_core/PDOPSTATUS, shobjidl_core/PDOPS_CANCELLED, shobjidl_core/PDOPS_ERRORS, shobjidl_core/PDOPS_PAUSED, shobjidl_core/PDOPS_RUNNING, shobjidl_core/PDOPS_STOPPED
-f1_keywords:
-- shobjidl_core/PDOPSTATUS
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shobjidl_core.h
-api_name:
-- PDOPSTATUS
 targetos: Windows
 req.typenames: PDOPSTATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDOPSTATUS
+ - shobjidl_core/PDOPSTATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - PDOPSTATUS
 ---
 
 # PDOPSTATUS enumeration
@@ -49,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides operation status flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PDOPS_RUNNING
 
 Operation is running, no user intervention.
 
-
 ### -field PDOPS_PAUSED
 
 Operation has been paused by the user.
-
 
 ### -field PDOPS_CANCELLED
 
 Operation has been canceled by the user - now go undo.
 
-
 ### -field PDOPS_STOPPED
 
 Operation has been stopped by the user - terminate completely.
-
 
 ### -field PDOPS_ERRORS
 

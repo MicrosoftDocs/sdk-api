@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- IVirtualSurfaceUpdatesCallbackNative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVirtualSurfaceUpdatesCallbackNative
+ - windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - IVirtualSurfaceUpdatesCallbackNative
 ---
 
 # IVirtualSurfaceUpdatesCallbackNative interface
@@ -49,52 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides an interface for the implementation of drawing behaviors when a <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> requests an update. 
-
+Provides an interface for the implementation of drawing behaviors when a <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> requests an update.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IVirtualSurfaceUpdatesCallbackNative</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded">UpdatesNeeded</a>
-</td>
-<td align="left" width="63%">
-Performs the drawing behaviors when an update to <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> is requested.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
-
-
-This interface is implemented by the developer to provide specific drawing behaviors for updates to a <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>. Classes that implement  this interface are provided to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>, which calls the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded">UpdatesNeeded</a> method implementation whenever an update is requested.
-
-
-
+This interface is implemented by the developer to provide specific drawing behaviors for updates to a <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>. Classes that implement  this interface are provided to the <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>, which calls the <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded">UpdatesNeeded</a> method implementation whenever an update is requested.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
+<a href="/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
@@ -102,12 +73,8 @@ This interface is implemented by the developer to provide specific drawing behav
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>

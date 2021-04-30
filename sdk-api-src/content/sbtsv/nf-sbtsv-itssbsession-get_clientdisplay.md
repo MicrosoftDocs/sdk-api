@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: cde688e4-b477-4e55-aa99-14d3f03de204
 ms.date: 12/05/2018
 ms.keywords: ClientDisplay property [Remote Desktop Services], ClientDisplay property [Remote Desktop Services],ITsSbSession interface, ITsSbSession interface [Remote Desktop Services],ClientDisplay property, ITsSbSession.ClientDisplay, ITsSbSession.get_ClientDisplay, ITsSbSession::ClientDisplay, ITsSbSession::get_ClientDisplay, ITsSbSession::put_ClientDisplay, get_ClientDisplay, sbtsv/ITsSbSession::ClientDisplay, sbtsv/ITsSbSession::get_ClientDisplay, sbtsv/ITsSbSession::put_ClientDisplay, termserv.itssbsession_clientdisplay
-f1_keywords:
-- sbtsv/ITsSbSession.ClientDisplay
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbSession.ClientDisplay
-- ITsSbSession.get_ClientDisplay
-- ITsSbSession.put_ClientDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbSession::get_ClientDisplay
+ - sbtsv/ITsSbSession::get_ClientDisplay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbSession.ClientDisplay
+ - ITsSbSession.get_ClientDisplay
+ - ITsSbSession.put_ClientDisplay
 ---
 
 # ITsSbSession::get_ClientDisplay
@@ -51,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or specifies information about the display device 
 of the client computer.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-client_display">CLIENT_DISPLAY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>

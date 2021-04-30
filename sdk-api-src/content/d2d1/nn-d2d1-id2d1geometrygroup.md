@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
 ms.date: 12/05/2018
 ms.keywords: ID2D1GeometryGroup, ID2D1GeometryGroup interface [Direct2D], ID2D1GeometryGroup interface [Direct2D],described, d2d1/ID2D1GeometryGroup, direct2d.ID2D1GeometryGroup
-f1_keywords:
-- d2d1/ID2D1GeometryGroup
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1GeometryGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1GeometryGroup
+ - d2d1/ID2D1GeometryGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1GeometryGroup
 ---
 
 # ID2D1GeometryGroup interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a composite geometry, composed of other <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a> objects.
-
 
 ## -inheritance
 
@@ -60,47 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometryGroup</b> interf
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1GeometryGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getfillmode">GetFillMode</a>
-</td>
-<td align="left" width="63%">
-Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometries">GetSourceGeometries</a>
-</td>
-<td align="left" width="63%">
-Retrieves the geometries in the geometry group. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometrygroup-getsourcegeometrycount">GetSourceGeometryCount</a>
-</td>
-<td align="left" width="63%">
-Indicates the number of geometry objects in the geometry group. 
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 Geometry groups are a convenient way to group several geometries simultaneously so all figures of several distinct geometries are concatenated into one. 
 
@@ -150,15 +109,7 @@ The following illustration shows the results of rendering the two group geometri
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
- 
-
- 
 

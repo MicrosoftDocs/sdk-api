@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.operator uint32_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMXDECN4.operator uint32_t, DirectX::PackedVector::XMXDECN4::operator uint32_t, XMXDECN4 structure [DirectX Math Support APIs],operator uint32_t method, XMXDECN4.operator uint32_t, XMXDECN4::operator uint32_t, dxmath.xmxdecn4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMXDECN4 structure
-f1_keywords:
-- directxpackedvector/XMXDECN4.operator uint32_t
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMXDECN4.operator uint32_t
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMXDECN4::operator uint32_t
+ - directxpackedvector/XMXDECN4::operator uint32_t
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMXDECN4.operator uint32_t
 ---
 
 # XMXDECN4::operator uint32_t
@@ -49,34 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMXDECN4</code>instance in a packed format.
     
 
-Returns an instance of <code>uint32_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> instance in a packed format.
+Returns an instance of <code>uint32_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Contains the four vector components of an instance of <code>XMXDECN4</code> in a packed
 		format.
-	    
-
-
-
 
 ## -remarks
-
-
 
 The values of the <code>XMXDECN4</code> components returned are not normalized, and are in
 	    the following format:
@@ -107,23 +94,14 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmxdecn4-operators">XMXDECN4 Operators</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xmxdecn4-operators">XMXDECN4 Operators</a>

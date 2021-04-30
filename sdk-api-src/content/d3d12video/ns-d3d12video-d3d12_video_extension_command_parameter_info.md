@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 title: D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a video extension command parameter.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO
 dev_langs:
  - c++
@@ -43,7 +43,7 @@ Describes a video extension command parameter.
 
 ### -field Name
 
-A pointer to a wide string containing the name of the command. 
+A pointer to a wide string containing the name of the command.
 
 ### -field Type
 

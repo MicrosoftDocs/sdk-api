@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: 0a150c37-9699-4b9e-b539-bdeb980b2f28
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_QUALITY_PARMSW, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSW, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms'
-f1_keywords:
-- digitalv/MCI_DGV_QUALITY_PARMS
-dev_langs:
-- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Digitalv.h
-api_name:
-- MCI_DGV_QUALITY_PARMS
-- MCI_DGV_QUALITY_PARMSW
 targetos: Windows
 req.typenames: MCI_DGV_QUALITY_PARMSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCI_DGV_QUALITY_PARMSW
+ - digitalv/MCI_DGV_QUALITY_PARMSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Digitalv.h
+api_name:
+ - MCI_DGV_QUALITY_PARMS
+ - MCI_DGV_QUALITY_PARMSW
 ---
 
 # MCI_DGV_QUALITY_PARMSW structure
@@ -50,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCI_DGV_QUALITY_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-quality">MCI_QUALITY</a> command for digital-video devices.
-
-
-
+The <b>MCI_DGV_QUALITY_PARMS</b> structure contains parameters for the <a href="/windows/desktop/Multimedia/mci-quality">MCI_QUALITY</a> command for digital-video devices.
 
 ## -struct-fields
-
-
-
 
 ### -field dwCallback
 
 The low-order word specifies a window handle used for the MCI_NOTIFY flag.
-
 
 ### -field dwItem
 
@@ -107,29 +99,22 @@ Definitions are for a video compression algorithm.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpstrName
 
 String naming description.
 
-
 ### -field lpstrAlgorithm
 
 String naming algorithm.
-
 
 ### -field dwHandle
 
 Handle to a structure containing information describing the quality attributes.
 
-
 ## -remarks
 
-
-
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -140,23 +125,16 @@ When assigning data to the members of this structure, set the corresponding flag
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
+<a href="/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
+<a href="/windows/desktop/Multimedia/mci-quality">MCI_QUALITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-quality">MCI_QUALITY</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
- 
-
- 
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

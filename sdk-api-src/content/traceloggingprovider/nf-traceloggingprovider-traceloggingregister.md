@@ -3,10 +3,6 @@ UID: NF:traceloggingprovider.TraceLoggingRegister
 title: TraceLoggingRegister
 ms.date: 5/7/2019
 ms.keywords: TraceLoggingRegister
-f1_keywords:
-- TraceLoggingRegister
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,18 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - TraceLoggingRegister
+ - traceloggingprovider/TraceLoggingRegister
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- traceloggingprovider.h
+ - traceloggingprovider.h
 api_name:
-- TraceLoggingRegister
+ - TraceLoggingRegister
 ---
 
 ## -description

@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFVideoCaptureSampleAllocator.InitializeCaptureSampleAllocator
 title: IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Initializes the sample allocator with parameters relevant to video capture scenarios.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
 f1_keywords:
+ - IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
  - mfidl/IMFVideoCaptureSampleAllocator::InitializeCaptureSampleAllocator
 dev_langs:
  - c++
@@ -63,7 +63,7 @@ A DWORD specifying the minimum number of pre-allocated samples. This method will
 
 ### -param pAttributes
 
-Optional. An [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattributes) store with additional configuration attributes for the sample allocator. The supported attributes are:
+Optional. An [IMFAttributes](../mfobjects/nn-mfobjects-imfattributes.md) store with additional configuration attributes for the sample allocator. The supported attributes are:
 
 - [MF_SA_BUFFERS_PER_SAMPLE](/windows/win32/medfound/mf-sa-buffers-per-sample)
 - [MF_SA_D3D11_BINDFLAGS](/windows/win32/medfound/mf-sa-d3d11-bindflags)
@@ -71,12 +71,9 @@ Optional. An [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattrib
 - [MF_SA_D3D11_SHARED](/windows/win32/medfound/mf-sa-d3d11-shared)
 - [MF_SA_D3D11_SHARED_WITHOUT_MUTEX](/windows/win32/medfound/mf-sa-d3d11-shared-without-mutex)
 
-
-
 ### -param pMediaType
 
-An [IMFMediaType](/windows/win32/api/mfobjects/nn-mfobjects-imfmediatype) specifying the media type for which samples will be allocator. The sample allocator uses this parameter to calculate the minimum required size for the media samples.
-
+An [IMFMediaType](../mfobjects/nn-mfobjects-imfmediatype.md) specifying the media type for which samples will be allocator. The sample allocator uses this parameter to calculate the minimum required size for the media samples.
 
 ## -returns
 
@@ -87,9 +84,6 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 | S_OK | The method succeeded. |
 |MF_E_INVALIDMEDIATYPE | Invalid media type. |
 
-
-
 ## -remarks
 
 ## -see-also
-

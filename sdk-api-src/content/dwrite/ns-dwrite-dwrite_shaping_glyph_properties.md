@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: debaa84f-8883-4117-9be0-962857b55020
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SHAPING_GLYPH_PROPERTIES, DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_glyph_properties, dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
-f1_keywords:
-- dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite.h
-api_name:
-- DWRITE_SHAPING_GLYPH_PROPERTIES
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_SHAPING_GLYPH_PROPERTIES
+ - dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite.h
+api_name:
+ - DWRITE_SHAPING_GLYPH_PROPERTIES
 ---
 
 # DWRITE_SHAPING_GLYPH_PROPERTIES structure
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains shaping output properties for an output glyph.
 
-
 ## -struct-fields
-
-
-
 
 ### -field justification
 
@@ -64,13 +60,11 @@ Type: <b>UINT16</b>
 
 Indicates that the glyph has justification applied.
 
-
 ### -field isClusterStart
 
 Type: <b>UINT16</b>
 
 Indicates that the glyph is the start of a cluster.
-
 
 ### -field isDiacritic
 
@@ -78,13 +72,11 @@ Type: <b>UINT16</b>
 
 Indicates that the glyph is a diacritic mark.
 
-
 ### -field isZeroWidthSpace
 
 Type: <b>UINT16</b>
 
 Indicates that the glyph is a word boundary with no visible space.
-
 
 ### -field reserved
 

@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoDecodeCommandList2
 title: ID3D12VideoDecodeCommandList2
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: Adds support for video extension commands.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - ID3D12VideoDecodeCommandList2
 f1_keywords:
+ - ID3D12VideoDecodeCommandList2
  - d3d12video/ID3D12VideoDecodeCommandList2
 dev_langs:
  - c++

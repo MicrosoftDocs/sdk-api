@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
-f1_keywords:
-- winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_RESET_SNAPSHOT_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_RESET_SNAPSHOT_INFO
+ - winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_RESET_SNAPSHOT_INFO
 ---
 
 # IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -100,7 +94,6 @@ The disk whose handle is used when this IOCTL is issued might be in the offline 
 
 > [!NOTE]
 > One side effect of using this IOCTL is that Disk Management tools will now report an additional partition on GPT disks of the type "UNKNOWN." This 256KB partition is created by using the IOCTL and is the shadow copy partition that is used in the restore process. The partition is expected and can be ignored by system administrators.
-
 
 ## -see-also
 

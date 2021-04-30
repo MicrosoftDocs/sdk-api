@@ -3,10 +3,6 @@ UID: NF:wincrypt.CryptSetAsyncParam
 title: CryptSetAsyncParam
 ms.date: 4/26/2019
 ms.keywords: CryptSetAsyncParam
-f1_keywords:
-- CryptSetAsyncParam
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,18 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CryptSetAsyncParam
+ - wincrypt/CryptSetAsyncParam
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- wincrypt.h
+ - wincrypt.h
 api_name:
-- CryptSetAsyncParam
+ - CryptSetAsyncParam
 ---
 
 ## -description

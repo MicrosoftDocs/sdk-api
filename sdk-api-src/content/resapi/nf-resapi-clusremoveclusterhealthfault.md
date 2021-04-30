@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.date: 12/05/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
-f1_keywords:
-- resapi/ClusRemoveClusterHealthFault
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,22 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- ClusRemoveClusterHealthFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusRemoveClusterHealthFault
+ - resapi/ClusRemoveClusterHealthFault
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - ClusRemoveClusterHealthFault
 ---
 
 # ClusRemoveClusterHealthFault function
@@ -48,35 +48,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 TBD
 
-
 ### -param id [in]
 
 TBD
-
 
 ### -param flags [in]
 
 TBD
 
-
 ## -returns
 
-
-
 TBD
-
-
 

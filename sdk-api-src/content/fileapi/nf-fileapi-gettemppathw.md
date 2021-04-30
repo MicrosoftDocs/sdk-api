@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
 ms.date: 12/05/2018
 ms.keywords: GetTempPath, GetTempPath function [Files], GetTempPathA, GetTempPathW, _win32_gettemppath, base.gettemppath, fileapi/GetTempPath, fileapi/GetTempPathA, fileapi/GetTempPathW, fs.gettemppath, winbase/GetTempPath, winbase/GetTempPathA, winbase/GetTempPathW
-f1_keywords:
-- fileapi/GetTempPath
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,35 +25,40 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetTempPath
-- GetTempPathA
-- GetTempPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTempPathW
+ - fileapi/GetTempPathW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetTempPath
+ - GetTempPathA
+ - GetTempPathW
 ---
 
 # GetTempPathW function
@@ -65,30 +66,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the path of the directory designated for temporary files.
 
-
 ## -parameters
-
-
-
 
 ### -param nBufferLength [in]
 
 The size of the string buffer identified by <i>lpBuffer</i>, in 
       <b>TCHARs</b>.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. 
       The returned string ends with a backslash, for example, "C:\\TEMP\\".
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the 
        string copied to <i>lpBuffer</i>, not including the terminating null character. If the 
@@ -96,16 +88,11 @@ If the function succeeds, the return value is the length, in <b>TCHARs</b>, of t
        <b>TCHARs</b>, of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The maximum possible return value is <b>MAX_PATH</b>+1 (261).
 
-
-
-
 ## -remarks
-
-
 
 The <b>GetTempPath</b> function checks for the existence of 
     environment variables in the following order and uses the first path found:
@@ -189,7 +176,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
+     <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
@@ -201,19 +188,12 @@ For an example, see
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

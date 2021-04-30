@@ -18,5 +18,4 @@ To develop Mobile Broadband, you need these headers:
  * [mbnapi.h](../mbnapi/index.md)
 
 For programming guidance for this technology, see:
-* [Mobile Broadband](https://docs.microsoft.com/windows-hardware/drivers/mobilebroadband/)
-
+* [Mobile Broadband](/windows-hardware/drivers/mobilebroadband/)

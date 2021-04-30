@@ -1,0 +1,19 @@
+{
+    "$schema": "https://whatsnewapi.azurewebsites.net/schema",
+    "docSetProductName": "sdk-api",
+    "rootDirectory": "sdk-api-src/",
+    "docLinkSettings": {
+        "linkFormat": "relative",
+        "relativeLinkPrefix": "../"
+    },
+    "areas": [
+        {
+            "names": ["winnt"],
+            "heading": "winnt"
+        },
+        {
+            "names": ["processthreadsapi"],
+            "heading": "processthreadsapi"
+        }
+    ]
+}

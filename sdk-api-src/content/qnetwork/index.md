@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: dshow
 archived: true
+f1_keywords:
+ - qnetwork
+ - qnetwork/qnetwork
 ---
 
 # Qnetwork.h header
 
 
 ## -description
-
 
 This header is used by DirectShow. For more information, see:
 

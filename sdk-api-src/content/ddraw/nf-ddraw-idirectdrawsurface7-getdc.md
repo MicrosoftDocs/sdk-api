@@ -44,30 +44,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetDC
-
-
 ## -description
-
 
 Creates a GDI-compatible handle of a device context for this surface.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - lphDC [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the handle of the device context for this surface.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -92,9 +79,9 @@ If it fails, the method can return one of the following error values:
 
 
 
-<b>GetDC</b> uses an internal version of the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> method to lock the surface. The surface remains locked until the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-releasedc">IDirectDrawSurface7::ReleaseDC</a> method is called.
+<b>GetDC</b> uses an internal version of the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">IDirectDrawSurface7::Lock</a> method to lock the surface. The surface remains locked until the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-releasedc">IDirectDrawSurface7::ReleaseDC</a> method is called.
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDC</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDC</b> method.
 
 
 
@@ -104,8 +91,7 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  
-

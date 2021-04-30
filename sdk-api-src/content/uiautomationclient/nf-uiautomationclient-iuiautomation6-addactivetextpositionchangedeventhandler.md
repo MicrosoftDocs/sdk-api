@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 05D46393-6B76-415A-A1F9-F28B5DAF2074
 ms.date: 12/05/2019
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomation6.AddActiveTextPositionChangedEventHandler, IUIAutomation6::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomation6.AddActiveTextPositionChangedEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.AddActiveTextPositionChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::AddActiveTextPositionChangedEventHandler
+ - uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.AddActiveTextPositionChangedEventHandler
 ---
 
 # IUIAutomation6::AddActiveTextPositionChangedEventHandler
+
 
 ## -description
 
@@ -59,7 +61,7 @@ Registers a method that handles when the active text position changes.
 
 A pointer to the UI Automation element associated with the event handler.
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
 
@@ -76,7 +78,6 @@ A pointer to the object that handles the active text position changed event.
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## -remarks
-
 
 Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
@@ -100,3 +101,4 @@ It is possible for an event to be delivered to an event handler after the handle
 ## -see-also
 
 [IUIAutomation6::RemoveActiveTextPositionChangedEventHandler](nf-uiautomationclient-iuiautomation6-removeactivetextpositionchangedeventhandler.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
+

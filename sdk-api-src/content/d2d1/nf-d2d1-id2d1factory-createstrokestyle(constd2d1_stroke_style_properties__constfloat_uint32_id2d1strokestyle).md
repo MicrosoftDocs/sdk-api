@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 0b567663-8067-440b-ba96-3c3f4d2580e2
 ms.date: 12/05/2018
 ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateStrokeStyle method, ID2D1Factory.CreateStrokeStyle, ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), ID2D1Factory::CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle), d2d1/ID2D1Factory::CreateStrokeStyle, direct2d.ID2D1Factory_CreateStrokeStyle_ref_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle
-f1_keywords:
-- d2d1/ID2D1Factory.CreateStrokeStyle
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory.CreateStrokeStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory::CreateStrokeStyle
+ - d2d1/ID2D1Factory::CreateStrokeStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory.CreateStrokeStyle
 ---
 
 # ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle)
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
 
-
 ## -parameters
-
-
-
 
 ### -param strokeStyleProperties [ref]
 
@@ -64,20 +60,17 @@ Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_stroke_style_proper
 
 A structure that describes the stroke's line cap, dash offset, and other details of a stroke.
 
-
 ### -param dashes [in, optional]
 
 Type: <b>const FLOAT*</b>
 
 An array whose elements are set to the length of each dash and space in the dash pattern. The first element sets the length of a dash, the second element sets the length of a space, the third element sets the length of a dash, and so on. The length of each dash and space in the dash pattern is the product of the element value in the array and the stroke width.
 
-
 ### -param dashesCount
 
 Type: <b>UINT</b>
 
-The number of elements in the <i>dashes</i> array. 
-
+The number of elements in the <i>dashes</i> array.
 
 ### -param strokeStyle [out]
 
@@ -85,25 +78,13 @@ Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeS
 
 When this method returns, contains the address of the pointer to the stroke style created by this method.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
- 
-
- 
 

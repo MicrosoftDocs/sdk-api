@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: b80cb1ad-8d28-4e38-82c4-92f1ce8fbc55
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],RequiredPrivilegeCount property, IPrincipal2.RequiredPrivilegeCount, IPrincipal2.get_RequiredPrivilegeCount, IPrincipal2::RequiredPrivilegeCount, IPrincipal2::get_RequiredPrivilegeCount, RequiredPrivilegeCount property [Task Scheduler], RequiredPrivilegeCount property [Task Scheduler],IPrincipal2 interface, get_RequiredPrivilegeCount, taskschd.iprincipal2_requiredprivilegecount, taskschd/IPrincipal2::RequiredPrivilegeCount, taskschd/IPrincipal2::get_RequiredPrivilegeCount
-f1_keywords:
-- taskschd/IPrincipal2.RequiredPrivilegeCount
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IPrincipal2.RequiredPrivilegeCount
-- IPrincipal2.get_RequiredPrivilegeCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrincipal2::get_RequiredPrivilegeCount
+ - taskschd/IPrincipal2::get_RequiredPrivilegeCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IPrincipal2.RequiredPrivilegeCount
+ - IPrincipal2.get_RequiredPrivilegeCount
 ---
 
 # IPrincipal2::get_RequiredPrivilegeCount
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of privileges in the required privileges array.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal2">IPrincipal2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iprincipal2">IPrincipal2</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: policy
+f1_keywords:
+ - gpedit
+ - gpedit/gpedit
 ---
 
 # Gpedit.h header
 
 
 ## -description
-
 
 This header is used by Group Policy API. For more information, see:
 

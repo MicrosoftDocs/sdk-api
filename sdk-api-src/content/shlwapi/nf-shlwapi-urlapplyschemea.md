@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
 ms.date: 12/05/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
-f1_keywords:
-- shlwapi/UrlApplyScheme
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- UrlApplyScheme
-- UrlApplySchemeA
-- UrlApplySchemeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlApplySchemeA
+ - shlwapi/UrlApplySchemeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - UrlApplyScheme
+ - UrlApplySchemeA
+ - UrlApplySchemeW
 ---
 
 # UrlApplySchemeA function
@@ -55,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
 
-
 ## -parameters
-
-
-
 
 ### -param pszIn [in]
 
@@ -70,20 +66,17 @@ Type: <b>PCTSTR</b>
 
 A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains a URL.
 
-
 ### -param pszOut [out]
 
 Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives a null-terminated string set to the URL specified by <i>pszIn</i> and converted to the standard <i>scheme</i>://<i>URL_string</i> format.
 
-
 ### -param pcchOut [in, out]
 
 Type: <b>DWORD*</b>
 
 The address of a value set to the number of characters in the <i>pszOut</i> buffer. When the function returns, the value depends on whether the function is successful or returns E_POINTER. For other return values, the value of this parameter is meaningless.
-
 
 ### -param dwFlags
 
@@ -115,10 +108,7 @@ Attempt to determine a file URL from <i>pszIn</i>.
 
 Force <b>UrlApplyScheme</b> to determine a scheme for pszIn.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -163,14 +153,8 @@ The buffer was too small. The value of <i>pcchOut</i> is set to the minimum numb
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the URL has a valid scheme, the string will not be modified. However, almost any combination of two or more characters followed by a colon will be parsed as a scheme. Valid characters include some common punctuation marks, such as ".". If your input string fits this description, <b>UrlApplyScheme</b> may treat it as valid and not apply a scheme. To force the function to apply a scheme to a URL, set the <b>URL_APPLY_FORCEAPPLY</b> and <b>URL_APPLY_DEFAULT</b> flags in <i>dwFlags</i>. This combination of flags forces the function to apply a scheme to the URL. Typically, the function will not be able to determine a valid scheme. The second flag guarantees that, if no valid scheme can be determined, the function will apply the default scheme to the URL.
 

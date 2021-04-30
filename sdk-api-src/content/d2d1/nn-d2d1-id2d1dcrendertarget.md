@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 6546998e-6740-413a-88c5-36fa0decec8f
 ms.date: 12/05/2018
 ms.keywords: ID2D1DCRenderTarget, ID2D1DCRenderTarget interface [Direct2D], ID2D1DCRenderTarget interface [Direct2D],described, d2d1/ID2D1DCRenderTarget, direct2d.ID2D1DCRenderTarget
-f1_keywords:
-- d2d1/ID2D1DCRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DCRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DCRenderTarget
+ - d2d1/ID2D1DCRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DCRenderTarget
 ---
 
 # ID2D1DCRenderTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Issues drawing commands to a GDI device context.
-
 
 ## -inheritance
 
@@ -60,29 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DCRenderTarget</b> inter
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1DCRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc">BindDC</a>
-</td>
-<td align="left" width="63%">
-Binds the render target to the device context to which it issues drawing commands.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 <h3><a id="Creating_ID2D1DCRenderTarget_Objects"></a><a id="creating_id2d1dcrendertarget_objects"></a><a id="CREATING_ID2D1DCRENDERTARGET_OBJECTS"></a>Creating ID2D1DCRenderTarget Objects</h3>
 To create an <b>ID2D1DCRenderTarget</b>, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdcrendertarget">ID2D1Factory::CreateDCRenderTarget</a> method.
@@ -164,19 +141,11 @@ For more information about using GDI with Direct2D, see the <a href="/windows/wi
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-and-gdi-interoperation-overview">Direct2D and GDI Interoperation Overview</a>
 
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

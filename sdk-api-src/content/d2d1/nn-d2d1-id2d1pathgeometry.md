@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: d200563c-d78e-4fa0-a8f2-242b24480e99
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry, ID2D1PathGeometry interface [Direct2D], ID2D1PathGeometry interface [Direct2D],described, d2d1/ID2D1PathGeometry, direct2d.ID2D1PathGeometry
-f1_keywords:
-- d2d1/ID2D1PathGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1PathGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1PathGeometry
+ - d2d1/ID2D1PathGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1PathGeometry
 ---
 
 # ID2D1PathGeometry interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a complex shape that may be composed of arcs, curves, and lines. 
-
+Represents a complex shape that may be composed of arcs, curves, and lines.
 
 ## -inheritance
 
@@ -60,56 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1PathGeometry</b> interfa
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1PathGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getfigurecount">GetFigureCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of figures in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-getsegmentcount">GetSegmentCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of segments in the path geometry.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a>
-</td>
-<td align="left" width="63%">
-Retrieves the geometry sink that is used to populate the path geometry with figures and segments. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-stream">Stream</a>
-</td>
-<td align="left" width="63%">
-Copies the contents of the path geometry to the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 An <b>ID2D1PathGeometry</b> object enables you to describe a geometric path. To describe an <b>ID2D1PathGeometry</b>  object's path, use the object's  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1pathgeometry-open">Open</a> method to retrieve an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>. Use the sink to populate the path geometry with figures and segments. 
 
@@ -179,12 +129,7 @@ if (SUCCEEDED(hr))
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/geometries-how-to-topics">Geometries How-to Topics</a>
 
@@ -203,7 +148,4 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/win32/Direct2D/path-geometries-overview">Path Geometries Overview</a>
- 
-
- 
 

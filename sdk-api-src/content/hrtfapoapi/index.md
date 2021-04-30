@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: xaudio2
+f1_keywords:
+ - hrtfapoapi
+ - hrtfapoapi/hrtfapoapi
 ---
 
 # Hrtfapoapi.h header
 
 
 ## -description
-
 
 This header is used by XAudio2 APIs. For more information, see:
 

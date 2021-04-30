@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c
 ms.date: 12/05/2018
 ms.keywords: GetSurfacePitch, GetSurfacePitch method [Media Foundation], GetSurfacePitch method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetSurfacePitch method, IDirect3DCryptoSession9.GetSurfacePitch, IDirect3DCryptoSession9::GetSurfacePitch, d3d9/IDirect3DCryptoSession9::GetSurfacePitch, mf.idirect3dcryptosession9_getsurfacepitch
-f1_keywords:
-- d3d9/IDirect3DCryptoSession9.GetSurfacePitch
-dev_langs:
-- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d9.h
-api_name:
-- IDirect3DCryptoSession9.GetSurfacePitch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DCryptoSession9::GetSurfacePitch
+ - d3d9/IDirect3DCryptoSession9::GetSurfacePitch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d9.h
+api_name:
+ - IDirect3DCryptoSession9.GetSurfacePitch
 ---
 
 # IDirect3DCryptoSession9::GetSurfacePitch
@@ -49,54 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the stride of a protected surface.
 
-
 ## -parameters
-
-
-
 
 ### -param pSrcSurface
 
 Pointer to the protected surface.
 
-
 ### -param pSurfacePitch
 
 Receives the stride, in bytes.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A protected surface cannot be locked, so this method provides a way to get the surface stride without locking the surface.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>

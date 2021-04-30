@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.GetFlags
 title: IMFExtendedCameraControl::GetFlags
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Queries for property flags on the capture device.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::GetFlags
 f1_keywords:
+ - IMFExtendedCameraControl::GetFlags
  - mfidl/IMFExtendedCameraControl::GetFlags
 dev_langs:
  - c++
@@ -42,6 +42,8 @@ dev_langs:
 ## -description
 
 Queries for property flags on the capture device.
+
+## -parameters
 
 ## -returns
 

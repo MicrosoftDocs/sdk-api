@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: e6183208-14c3-4f84-9ff5-a5412f8c762d
 ms.date: 12/05/2018
 ms.keywords: ShortToULongLong, ShortToULongLong function [Windows Shell], intsafe/ShortToULongLong, shell.ShortToULongLong
-f1_keywords:
-- intsafe/ShortToULongLong
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- ShortToULongLong
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ShortToULongLong
+ - intsafe/ShortToULongLong
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - ShortToULongLong
 ---
 
 # ShortToULongLong function
@@ -49,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>SHORT</b> to a value of type <b>ULONGLONG</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param sOperand [in]
 
 The value to convert.
 
-
 ### -param pullResult [out]
 
 The converted value.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

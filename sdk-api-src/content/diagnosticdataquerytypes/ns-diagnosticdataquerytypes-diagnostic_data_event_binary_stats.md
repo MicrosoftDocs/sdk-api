@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS
 title: DIAGNOSTIC_DATA_EVENT_BINARY_STATS
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS, DIAGNOSTIC_DATA_EVENT_BINARY_STATS
-ms.topic: language-reference
-description: A resource that describes this binary and the amount of diagnostic data it has sent. 
+description: A resource that describes this binary and the amount of diagnostic data it has sent.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -32,28 +31,38 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS
  - DIAGNOSTIC_DATA_EVENT_BINARY_STATS
+f1_keywords:
+ - tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_DATA_EVENT_BINARY_STATS
+ - DIAGNOSTIC_DATA_EVENT_BINARY_STATS
+ - diagnosticdataquerytypes/DIAGNOSTIC_DATA_EVENT_BINARY_STATS
 ---
 
 ## -description
-A resource that describes this binary and the amount of diagnostic data it has sent. 
+
+A resource that describes this binary and the amount of diagnostic data it has sent.
 
 ## -struct-fields
 
 ### -field moduleName
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
-The full name of the module or binary. 
+The full name of the module or binary.
 
 ### -field friendlyModuleName
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
-The friendly name of the module or binary. 
+The friendly name of the module or binary.
 
 ### -field eventCount
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
 The number of events sent by this module or binary.
 
 ### -field uploadSizeBytes
+
 Type: **[UINT64](/windows/desktop/winprog/windows-data-types)**
-The number of bytes sent by this module or binary. 
+The number of bytes sent by this module or binary.
 
 ## -remarks
 

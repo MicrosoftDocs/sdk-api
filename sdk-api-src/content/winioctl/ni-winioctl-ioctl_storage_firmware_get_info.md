@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
-f1_keywords:
-- winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoctl.h
-api_name:
-- IOCTL_STORAGE_FIRMWARE_GET_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_STORAGE_FIRMWARE_GET_INFO
+ - winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoctl.h
+api_name:
+ - IOCTL_STORAGE_FIRMWARE_GET_INFO
 ---
 
 # IOCTL_STORAGE_FIRMWARE_GET_INFO IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
@@ -101,6 +95,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 * [IOCTL_STORAGE_FIRMWARE_DOWNLOAD](ni-winioctl-ioctl_storage_firmware_download.md)
 * [STORAGE_HW_FIRMWARE_ACTIVATE](ns-winioctl-storage_hw_firmware_activate.md)
 * [STORAGE_HW_FIRMWARE_DOWNLOAD](ns-winioctl-storage_hw_firmware_download.md)
-* [STORAGE_HW_FIRMWARE_INFO](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info)
-* [STORAGE_HW_FIRMWARE_INFO_QUERY](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info-query)
-* [STORAGE_HW_FIRMWARE_SLOT_INFO](https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-slot-info)
+* [STORAGE_HW_FIRMWARE_INFO](/windows/desktop/FileIO/storage-hw-firmware-info)
+* [STORAGE_HW_FIRMWARE_INFO_QUERY](/windows/desktop/FileIO/storage-hw-firmware-info-query)
+* [STORAGE_HW_FIRMWARE_SLOT_INFO](/windows/desktop/FileIO/storage-hw-firmware-slot-info)

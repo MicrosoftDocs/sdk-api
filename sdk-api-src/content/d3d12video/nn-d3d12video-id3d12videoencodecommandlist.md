@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoEncodeCommandList
 title: ID3D12VideoEncodeCommandList
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: Encapsulates a list of graphics commands for video encoding, including motion estimation.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList
 f1_keywords:
+ - ID3D12VideoEncodeCommandList
  - d3d12video/ID3D12VideoEncodeCommandList
 dev_langs:
  - c++

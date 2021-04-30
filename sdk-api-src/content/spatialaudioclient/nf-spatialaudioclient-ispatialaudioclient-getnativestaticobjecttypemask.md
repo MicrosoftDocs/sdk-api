@@ -8,10 +8,6 @@ tech.root: CoreAudio
 ms.assetid: 29963682-AD45-4CEC-81A0-4B834505F9D5
 ms.date: 12/05/2018
 ms.keywords: GetNativeStaticObjectTypeMask, GetNativeStaticObjectTypeMask method [Core Audio], GetNativeStaticObjectTypeMask method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetNativeStaticObjectTypeMask method, ISpatialAudioClient.GetNativeStaticObjectTypeMask, ISpatialAudioClient::GetNativeStaticObjectTypeMask, coreaudio.ispatialaudioclient_getnativestaticobjecttypemask, spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
-f1_keywords:
-- spatialaudioclient/ISpatialAudioClient.GetNativeStaticObjectTypeMask
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioClient.GetNativeStaticObjectTypeMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioClient::GetNativeStaticObjectTypeMask
+ - spatialaudioclient/ISpatialAudioClient::GetNativeStaticObjectTypeMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioClient.GetNativeStaticObjectTypeMask
 ---
 
 # ISpatialAudioClient::GetNativeStaticObjectTypeMask
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a  channel mask which represents the subset of static speaker bed channels native to current rendering engine.
-
 
 ## -parameters
 
-
-
-
 ### -param mask [out]
 
-A bitwise combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> enumeration indicating a subset of static speaker channels. The values returned will only include the static channel values and will not include <b>AudioObjectType_Dynamic</b>.
-
+A bitwise combination of values from the <a href="/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> enumeration indicating a subset of static speaker channels. The values returned will only include the static channel values and will not include <b>AudioObjectType_Dynamic</b>.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>

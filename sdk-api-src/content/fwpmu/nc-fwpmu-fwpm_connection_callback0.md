@@ -8,10 +8,6 @@ tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_CALLBACK0, FWPM_CONNECTION_CALLBACK0 callback, FWPM_CONNECTION_CALLBACK0 callback function [Filtering], fwp.fwpm_connection_callback0, fwpmu/FWPM_CONNECTION_CALLBACK0
-f1_keywords:
-- fwpmu/FWPM_CONNECTION_CALLBACK0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Fwpmu.h
-api_name:
-- FWPM_CONNECTION_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_CONNECTION_CALLBACK0
+ - fwpmu/FWPM_CONNECTION_CALLBACK0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Fwpmu.h
+api_name:
+ - FWPM_CONNECTION_CALLBACK0
 ---
 
 # FWPM_CONNECTION_CALLBACK0 callback function
@@ -49,60 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_CONNECTION_CALLBACK0</b> function is used to add custom behavior to the connection object subscription process.
-
 
 ## -parameters
 
-
-
-
-### -param *context [in, out]
+### -param context [in, out]
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> function.
-
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> function.
 
 ### -param eventType [in]
 
-Type: [FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)</b>
+Type: [FWPM_CONNECTION_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)</b>
 
 The type of connection object change event.
 
+### -param connection [in]
 
-### -param *connection [in]
-
-Type: [FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)*</b>
+Type: [FWPM_CONNECTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)*</b>
 
 The connection object change information.
 
-
 ## -remarks
 
-
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> to register this callback function.
-
-
-
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> to register this callback function.
 
 ## -see-also
 
+[FWPM_CONNECTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)
 
 
 
-[FWPM_CONNECTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0)
+[FWPM_CONNECTION_EVENT_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
 
 
 
-[FWPM_CONNECTION_EVENT_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a>

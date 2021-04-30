@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wcm
+f1_keywords:
+ - wcmapi
+ - wcmapi/wcmapi
 ---
 
 # Wcmapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Connection Manager. For more information, see:
 

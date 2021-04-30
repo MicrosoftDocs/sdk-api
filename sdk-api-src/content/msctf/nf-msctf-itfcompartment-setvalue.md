@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
 ms.date: 12/05/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
-f1_keywords:
-- msctf/ITfCompartment.SetValue
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCompartment.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartment::SetValue
+ - msctf/ITfCompartment::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCompartment.SetValue
 ---
 
 # ITfCompartment::SetValue
+
 
 ## -description
 
@@ -54,7 +56,7 @@ Sets the data for a compartment.
 
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 ### -param pvarValue [in]
 
@@ -109,7 +111,7 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-The compartment was cleared by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
+The compartment was cleared by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
 
 </td>
 </tr>

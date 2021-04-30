@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: f201dfaa-d9e6-41e0-8d22-23c073b1789d
 ms.date: 12/05/2018
 ms.keywords: ClusterAddGroupToGroupSet, ClusterAddGroupToGroupSet function [Failover Cluster], PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterAddGroupToGroupSet, clusapi/PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, mscs.clusteraddgrouptogroupcollection
-f1_keywords:
-- clusapi/ClusterAddGroupToGroupSet
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterAddGroupToGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterAddGroupToGroupSet
+ - clusapi/ClusterAddGroupToGroupSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterAddGroupToGroupSet
 ---
 
 # ClusterAddGroupToGroupSet function
@@ -49,34 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified group to a groupset in the cluster. The group
     must not currently be in a groupset
 
-
 ## -parameters
-
-
-
 
 ### -param hGroupSet [in]
 
 The collection to which to add the group
 
-
 ### -param hGroup [in]
 
 The group to add to the collection
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
-
-
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.

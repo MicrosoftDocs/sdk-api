@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 45042bb8-6904-4e5e-bb35-3e8d3b313746
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT, CLUSTER_HEALTH_FAULT structure [Failover Cluster], PCLUSTER_HEALTH_FAULT, PCLUSTER_HEALTH_FAULT structure pointer [Failover Cluster], mscs.cluster_health_fault, resapi/CLUSTER_HEALTH_FAULT, resapi/PCLUSTER_HEALTH_FAULT'
-f1_keywords:
-- resapi/CLUSTER_HEALTH_FAULT
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- CLUSTER_HEALTH_FAULT
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT, *PCLUSTER_HEALTH_FAULT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_HEALTH_FAULT
+ - resapi/_CLUSTER_HEALTH_FAULT
+ - PCLUSTER_HEALTH_FAULT
+ - resapi/PCLUSTER_HEALTH_FAULT
+ - CLUSTER_HEALTH_FAULT
+ - resapi/CLUSTER_HEALTH_FAULT
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - CLUSTER_HEALTH_FAULT
 ---
 
 # CLUSTER_HEALTH_FAULT structure
@@ -48,42 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -struct-fields
-
-
-
 
 ### -field Id
 
 TBD
 
-
 ### -field ErrorType
-
 
 ### -field ErrorCode
 
 TBD
 
-
 ### -field Description
 
 TBD
-
 
 ### -field Provider
 
 TBD
 
-
 ### -field Flags
 
 TBD
-
 
 ### -field Reserved
 

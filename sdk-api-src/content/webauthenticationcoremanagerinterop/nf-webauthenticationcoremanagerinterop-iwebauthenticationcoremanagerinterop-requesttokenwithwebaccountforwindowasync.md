@@ -5,10 +5,6 @@ description: Asynchronously requests a token from a web account provider. If nec
 helpviewer_keywords: ["IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync"]
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
-f1_keywords:
-- webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,15 +25,20 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- webauthenticationcoremanagerinterop.h
-api_name:
-- IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
 tech.root: winrt
+f1_keywords:
+ - IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
+ - webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - webauthenticationcoremanagerinterop.h
+api_name:
+ - IWebAuthenticationCoreManagerInterop::RequestTokenWithWebAccountForWindowAsync
 ---
 
 ## -description
@@ -54,27 +55,27 @@ The window to be used as the owner for the window prompting the user for credent
 
 ### -param request
 
-Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
+Type: **[IInspectable](../inspectable/nn-inspectable-iinspectable.md)\***
 
 The web token request, given as an instance of the
 [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
-class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
 interface.
 
 ### -param webAccount
 
-Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
+Type: **[IInspectable](../inspectable/nn-inspectable-iinspectable.md)\***
 
 The web account for the request, given as an instance of the
 [WebAccount](/uwp/api/windows.security.credentials.webaccount)
-class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
 interface.
 
 ### -param riid
 
 Type: **REFIID**
 
-Must refer to the [interface identifier (IID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
+Must refer to the [interface identifier (IID)](/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)
 for the interface
 [IAsyncOperation](/uwp/api/windows.foundation.iasyncoperation-1)\<[WebTokenRequestResult](/uwp/api/windows.security.authentication.web.core.webtokenrequestresult)\>.
 
@@ -108,4 +109,6 @@ This method is the equivalent for desktop apps of
 [WebAuthenticationCoreManager.RequestTokenAsync(WebTokenRequest, WebAccount)](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager.requesttokenasync#Windows_Security_Authentication_Web_Core_WebAuthenticationCoreManager_RequestTokenAsync_Windows_Security_Authentication_Web_Core_WebTokenRequest_Windows_Security_Credentials_WebAccount_).
 
 ## -see-also
-[Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenForWindowAsync](nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync)
+
+- [Web account management code sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement)
+- [RequestTokenForWindowAsync](nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenforwindowasync.md)

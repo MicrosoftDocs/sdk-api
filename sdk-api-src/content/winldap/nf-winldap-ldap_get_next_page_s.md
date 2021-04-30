@@ -8,10 +8,6 @@ tech.root: ldap
 ms.assetid: 44b1b298-9796-4627-945e-4051c20f3c92
 ms.date: 12/05/2018
 ms.keywords: _ldap_ldap_get_next_page_s, ldap.ldap__get__next__page__s, ldap.ldap_get_next_page_s, ldap_get_next_page_s, ldap_get_next_page_s function [LDAP], winldap/ldap_get_next_page_s
-f1_keywords:
-- winldap/ldap_get_next_page_s
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_get_next_page_s
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_get_next_page_s
+ - winldap/ldap_get_next_page_s
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_get_next_page_s
 ---
 
 # ldap_get_next_page_s function
@@ -49,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_get_next_page_s</b> function returns the next page in a sequence of synchronous paged search results.
 
-
 ## -parameters
-
-
-
 
 ### -param ExternalHandle [in]
 
 Session handle.
 
-
 ### -param SearchHandle [in]
 
 Search block handle.
-
 
 ### -param timeout [in]
 
 The time value, in seconds, that the client will wait for the call to return.
 
-
 ### -param PageSize [in]
 
 The number of entries to return in a single page.
 
-
 ### -param TotalCount [out]
 
 The server estimate of the total number of entries in the entire result set. A value of zero indicates that the server cannot provide an estimate.
-
 
 ### -param Results [out]
 
@@ -90,17 +81,12 @@ A pointer to the
 
 ## -returns
 
-
-
 If the server returns a null cookie (non-continuation), the value is <b>LDAP_NO_RESULTS_RETURNED</b>. Otherwise, the client signals a continuation (more data available) by returning <b>LDAP_SUCCESS</b>.
 
 If the function otherwise fails, it returns the error code return value related to the failure. For more information, see 
 <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
-
 ## -remarks
-
-
 
 The <b>ldap_get_next_page_s</b> function is part of the interface for simple, synchronous paging of search results. Use the search handle returned from an initial call to 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page">ldap_search_init_page</a> and specify, in the <i>PageSize</i> parameter, the number of entries to be returned in a page. Set <i>PageSize</i> to zero to quit a search.
@@ -116,10 +102,7 @@ To retrieve paged search result asynchronously, use
 If <b>ldap_get_next_page_s</b> is used, it is not required that 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_paged_count">ldap_get_paged_count</a> is called to record the number of paged results returned by a server.
 
-
-
 ## -see-also
-
 
 <a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
@@ -146,3 +129,4 @@ If <b>ldap_get_next_page_s</b> is used, it is not required that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page">ldap_search_init_page</a>
+

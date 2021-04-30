@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawhid.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPRAWHID, *PRAWHID, LPRAWHID, LPRAWHID structure pointer [Keyboard and Mouse Input], PRAWHID, PRAWHID structure pointer [Keyboard and Mouse Input], RAWHID, RAWHID structure [Keyboard and Mouse Input], _win32_RAWHID_str, _win32_rawhid_str_cpp, inputdev.rawhid, winui._win32_rawhid_str, winuser/LPRAWHID, winuser/PRAWHID, winuser/RAWHID'
-f1_keywords:
-- winuser/RAWHID
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,26 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- RAWHID
 targetos: Windows
 req.typenames: RAWHID, *PRAWHID, *LPRAWHID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRAWHID
+ - winuser/tagRAWHID
+ - PRAWHID
+ - winuser/PRAWHID
+ - RAWHID
+ - winuser/RAWHID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - RAWHID
 ---
 
 # RAWHID structure
 
+
 ## -description
 
-Describes the format of the raw input from a Human Interface Device (HID). 
+Describes the format of the raw input from a Human Interface Device (HID).
 
 ## -struct-fields
 
@@ -56,7 +62,7 @@ Describes the format of the raw input from a Human Interface Device (HID).
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of each HID input in <b>bRawData</b>. 
+The size, in bytes, of each HID input in <b>bRawData</b>.
 
 ### -field dwCount
 
@@ -68,26 +74,26 @@ The number of HID inputs in <b>bRawData</b>.
 
 Type: <b>BYTE[1]</b>
 
-The raw input data, as an array of bytes. 
+The raw input data, as an array of bytes.
 
 ## -remarks
 
-Each <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
+Each <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
+<a href="/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
 
 <b>Reference</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
+<a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
+<a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
-f1_keywords:
-- ncrypt/NCryptEnumStorageProviders
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptEnumStorageProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptEnumStorageProviders
+ - ncrypt/NCryptEnumStorageProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptEnumStorageProviders
 ---
 
 # NCryptEnumStorageProviders function
@@ -49,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptEnumStorageProviders</b> function obtains the names of the registered key storage providers.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwProviderCount [out]
 
 The address of a <b>DWORD</b> to receive the number of elements in the <i>ppProviderList</i> array.
 
-
 ### -param ppProviderList [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncryptprovidername">NCryptProviderName</a> structure pointer to receive an array of the registered key storage provider names. The variable pointed to by the <i>pdwProviderCount</i> parameter receives the number of elements in this array.
+The address of an <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncryptprovidername">NCryptProviderName</a> structure pointer to receive an array of the registered key storage provider names. The variable pointed to by the <i>pdwProviderCount</i> parameter receives the number of elements in this array.
 
-When this memory is no longer needed, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
-
+When this memory is no longer needed, free it by passing this pointer to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 ### -param dwFlags [in]
 
@@ -90,12 +84,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -154,27 +144,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a>

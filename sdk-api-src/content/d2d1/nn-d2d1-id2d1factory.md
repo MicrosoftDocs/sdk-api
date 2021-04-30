@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory, ID2D1Factory interface [Direct2D], ID2D1Factory interface [Direct2D],described, d2d1/ID2D1Factory, direct2d.ID2D1Factory
-f1_keywords:
-- d2d1/ID2D1Factory
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory
+ - d2d1/ID2D1Factory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory
 ---
 
 # ID2D1Factory interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates Direct2D resources.
-
 
 ## -inheritance
 
@@ -60,137 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory</b> interface in
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1Factory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdcrendertarget">CreateDCRenderTarget</a>
-</td>
-<td align="left" width="63%">
-Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1factory-createdrawingstateblock">CreateDrawingStateBlock</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a> that can be used with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-savedrawingstate">SaveDrawingState</a> and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-restoredrawingstate">RestoreDrawingState</a> methods of a render target.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createellipsegeometry">CreateEllipseGeometry</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a>
-</td>
-<td align="left" width="63%">
-Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>, which is an object that holds other geometries.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createhwndrendertarget">CreateHwndRenderTarget</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry">CreatePathGeometry</a>
-</td>
-<td align="left" width="63%">
-Creates an empty <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createrectanglegeometry">CreateRectangleGeometry</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createroundedrectanglegeometry">CreateRoundedRectangleGeometry</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1factory-createstrokestyle">CreateStrokeStyle</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a>
-</td>
-<td align="left" width="63%">Overloaded. Transforms the specified geometry and stores the result as an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/Direct2D/id2d1factory-createwicbitmaprendertarget">CreateWicBitmapRenderTarget</a>
-</td>
-<td align="left" width="63%">Overloaded. Creates a render target that renders to a Microsoft Windows Imaging Component (WIC)  bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>
-</td>
-<td align="left" width="63%">
-Forces the factory to refresh any system defaults that it might have changed since factory creation.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 The <b>ID2D1Factory</b> interface is the starting point for using Direct2D; it's what you use to create other Direct2D resources that you can use to draw or describe shapes.   
 
@@ -244,14 +113,7 @@ ID2D1Factory* m_pDirect2dFactory;
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-overview">Direct2D Overview</a>
 
@@ -274,7 +136,4 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>
- 
-
- 
 

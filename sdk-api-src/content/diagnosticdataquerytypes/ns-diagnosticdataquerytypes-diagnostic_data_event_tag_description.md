@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 title: DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION, DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
-ms.topic: language-reference
-description: A resource that describes a tag, defined by the tag's name and its description. 
+description: A resource that describes a tag, defined by the tag's name and its description.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -32,27 +31,37 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
  - DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
+f1_keywords:
+ - tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
+ - DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
+ - diagnosticdataquerytypes/DIAGNOSTIC_DATA_EVENT_TAG_DESCRIPTION
 ---
 
 ## -description
-A resource that describes a tag, defined by the tag's name and its description. 
+
+A resource that describes a tag, defined by the tag's name and its description.
 
 ## -struct-fields
 
 ### -field privacyTag
+
 Type: **[INT32](/windows/desktop/winprog/windows-data-types)**
-A unique identifier for this tag.  
+A unique identifier for this tag.
 
 ### -field name
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
-The name of this tag. 
+The name of this tag.
 
 ### -field description
+
 Type: **[LPWSTR](/windows/desktop/winprog/windows-data-types)**
-The official description for this tag. 
+The official description for this tag.
 
 ## -remarks
-For more details, see our [**privacy statement**]("/windows/privacy/windows-diagnostic-data").
+
+For more details, see our [**privacy statement**](/windows/privacy/windows-diagnostic-data).
 
 ## -see-also
 

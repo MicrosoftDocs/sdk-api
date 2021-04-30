@@ -8,10 +8,6 @@ tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm
 ms.date: 12/05/2018
 ms.keywords: DXGI_SWAP_EFFECT, DXGI_SWAP_EFFECT enumeration [DXGI], DXGI_SWAP_EFFECT_DISCARD, DXGI_SWAP_EFFECT_FLIP_DISCARD, DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, DXGI_SWAP_EFFECT_SEQUENTIAL, c9248b7c-731f-95e1-6c64-22fdef69d697, direct3ddxgi.DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT, dxgi/DXGI_SWAP_EFFECT_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD, dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL, dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL
-f1_keywords:
-- dxgi/DXGI_SWAP_EFFECT
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DXGI.h
-api_name:
-- DXGI_SWAP_EFFECT
 targetos: Windows
 req.typenames: DXGI_SWAP_EFFECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DXGI_SWAP_EFFECT
+ - dxgi/DXGI_SWAP_EFFECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DXGI.h
+api_name:
+ - DXGI_SWAP_EFFECT
 ---
 
 ## -description
@@ -86,8 +87,6 @@ Use this flag to specify the flip presentation model and to specify that DXGI pe
             
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
-              
-
 
 ### -field DXGI_SWAP_EFFECT_FLIP_DISCARD
 
@@ -104,8 +103,6 @@ Use this flag to specify the flip presentation model and to specify that DXGI di
 <div> </div>
 
 ## -remarks
-
-
 
 This enumeration is used by the <a href="/windows/win32/api/dxgi/ns-dxgi-dxgi_swap_chain_desc">DXGI_SWAP_CHAIN_DESC</a> and <a href="/windows/win32/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1">DXGI_SWAP_CHAIN_DESC1</a>structures.
         
@@ -173,7 +170,8 @@ To create a swap chain in UWP, you just need to create a new instance of the DX1
 ## -see-also
 
 <a href="/windows/win32/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
- 
 
- 
+
+
+<a href="https://devblogs.microsoft.com/directx/dxgi-flip-model/">For best performance, use DXGI flip model</a>
 

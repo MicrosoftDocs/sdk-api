@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: coreaudio
+f1_keywords:
+ - audiosessiontypes
+ - audiosessiontypes/audiosessiontypes
 ---
 
 # Audiosessiontypes.h header
 
 
 ## -description
-
 
 This header is used by Core Audio APIs. For more information, see:
 

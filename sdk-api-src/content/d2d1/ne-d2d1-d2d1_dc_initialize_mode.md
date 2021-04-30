@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a7837fe4-6e11-42a0-8a85-cba42e0f123a
 ms.date: 12/05/2018
 ms.keywords: D2D1_DC_INITIALIZE_MODE, D2D1_DC_INITIALIZE_MODE enumeration [Direct2D], D2D1_DC_INITIALIZE_MODE_CLEAR, D2D1_DC_INITIALIZE_MODE_COPY, d2d1/D2D1_DC_INITIALIZE_MODE, d2d1/D2D1_DC_INITIALIZE_MODE_CLEAR, d2d1/D2D1_DC_INITIALIZE_MODE_COPY, direct2d.D2D1_DC_INITIALIZE_MODE
-f1_keywords:
-- d2d1/D2D1_DC_INITIALIZE_MODE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_DC_INITIALIZE_MODE
 targetos: Windows
 req.typenames: D2D1_DC_INITIALIZE_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_DC_INITIALIZE_MODE
+ - d2d1/D2D1_DC_INITIALIZE_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_DC_INITIALIZE_MODE
 ---
 
 # D2D1_DC_INITIALIZE_MODE enumeration
@@ -49,46 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
  Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.
-
 
 ## -enum-fields
 
-
-
-
 ### -field D2D1_DC_INITIALIZE_MODE_COPY
 
-The current contents of the render target are copied to the device context when it is initialized. 
-
+The current contents of the render target are copied to the device context when it is initialized.
 
 ### -field D2D1_DC_INITIALIZE_MODE_CLEAR
 
 The device context is cleared to transparent black when it is initialized.
 
-
 ### -field D2D1_DC_INITIALIZE_MODE_FORCE_DWORD
-
-
-
 
 ## -remarks
 
-
-
 Use this enumeration with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a> method to specify how the device context is  initialized for GDI rendering.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc">ID2D1GdiInteropRenderTarget::GetDC</a>
- 
-
- 
 

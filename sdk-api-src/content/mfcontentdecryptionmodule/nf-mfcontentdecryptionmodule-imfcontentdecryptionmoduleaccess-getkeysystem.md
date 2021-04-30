@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.GetKeySystem
 title: IMFContentDecryptionModuleAccess::GetKeySystem
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets a string identifying the Key System being used by the Content Decryption Module (CDM).
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::GetKeySystem
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::GetKeySystem
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::GetKeySystem
 dev_langs:
  - c++
@@ -55,9 +55,8 @@ Returns S_OK on success.
 
 ## -remarks
 
-The *keySystem* memory must be allocated and freed using [CoTaskMem](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc).
+The *keySystem* memory must be allocated and freed using [CoTaskMem](../combaseapi/nf-combaseapi-cotaskmemalloc.md).
 
 **GetKeySystem** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.getConfiguration](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysystemaccess-keysystem).
 
 ## -see-also
-

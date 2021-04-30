@@ -27,6 +27,5 @@ To develop Tablet PC, you need these headers:
  * [tpcshrd.h](../tpcshrd/index.md)
 
 For programming guidance for this technology, see:
-* [Mobile PC](https://docs.microsoft.com/previous-versions/windows/desktop/dd302492(v=vs.85))
+* [Mobile PC](/previous-versions/windows/desktop/dd302492(v=vs.85))
 * [Tablet PC](/windows/desktop/tablet)
-

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecapi/eVideoDecodeDisableLF, codecapi/eVideoDecodeFastest, codecapi/eVideoDecodeOptimalLF, dshow.eavfastdecodemode, eAVFastDecodeMode, eAVFastDecodeMode enumeration [DirectShow], eVideoDecodeCompliant, eVideoDecodeDisableLF, eVideoDecodeFastest, eVideoDecodeOptimalLF
-f1_keywords:
-- codecapi/eAVFastDecodeMode
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVFastDecodeMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVFastDecodeMode
+ - codecapi/eAVFastDecodeMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVFastDecodeMode
 ---
 
 # eAVFastDecodeMode enumeration
@@ -49,46 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the video decoding speed. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecvideofastdecodemode">AVDecVideoFastDecodeMode</a> property.
-
+Specifies the video decoding speed. This enumeration is used with the <a href="/windows/desktop/DirectShow/avdecvideofastdecodemode">AVDecVideoFastDecodeMode</a> property.
 
 ## -enum-fields
-
-
-
 
 ### -field eVideoDecodeCompliant
 
 Use normal decoding.
 
-
 ### -field eVideoDecodeOptimalLF
 
 Use the optimal loop filter.
-
 
 ### -field eVideoDecodeDisableLF
 
 Disable the loop filter.
 
-
 ### -field eVideoDecodeFastest
 
 Use the fastest decoding mode.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

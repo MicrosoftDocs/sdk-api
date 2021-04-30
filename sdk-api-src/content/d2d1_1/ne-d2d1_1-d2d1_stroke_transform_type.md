@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 99c2c5c8-49ce-4865-befa-e9f92905a260
 ms.date: 12/05/2018
 ms.keywords: D2D1_STROKE_TRANSFORM_TYPE, D2D1_STROKE_TRANSFORM_TYPE enumeration [Direct2D], D2D1_STROKE_TRANSFORM_TYPE_FIXED, D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, D2D1_STROKE_TRANSFORM_TYPE_NORMAL, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_FIXED, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE, d2d1_1/D2D1_STROKE_TRANSFORM_TYPE_NORMAL, direct2d.__d2d1_stroke_transform_type
-f1_keywords:
-- d2d1_1/D2D1_STROKE_TRANSFORM_TYPE
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D2d1_1.h
-api_name:
-- D2D1_STROKE_TRANSFORM_TYPE
 targetos: Windows
 req.typenames: D2D1_STROKE_TRANSFORM_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_STROKE_TRANSFORM_TYPE
+ - d2d1_1/D2D1_STROKE_TRANSFORM_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D2d1_1.h
+api_name:
+ - D2D1_STROKE_TRANSFORM_TYPE
 ---
 
 # D2D1_STROKE_TRANSFORM_TYPE enumeration
@@ -49,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines how the world transform, dots per inch (dpi), and stroke width affect the shape of the pen used to stroke a primitive.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_STROKE_TRANSFORM_TYPE_NORMAL
 
 The stroke respects the currently set world transform, the dpi, and the stroke width.
 
-
 ### -field D2D1_STROKE_TRANSFORM_TYPE_FIXED
 
 The stroke does not respect the world transform but it does respect the dpi and stroke width.
-
 
 ### -field D2D1_STROKE_TRANSFORM_TYPE_HAIRLINE
 
 The stroke is forced to 1 pixel wide (in device space) and does not respect the world transform, the dpi, or the stroke width.
 
-
 ### -field D2D1_STROKE_TRANSFORM_TYPE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 If you specify <b>D2D1_STROKE_TRANSFORM_TYPE_FIXED</b> the stroke isn't affected by the world transform.
 
@@ -101,15 +89,6 @@ And here is an illustration of a fixed width stroke which does not get transform
 
 <img alt="An illustration of a fixed width stroke which does not get transformed." src="./images/fixedwidthstroke.png"/>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>

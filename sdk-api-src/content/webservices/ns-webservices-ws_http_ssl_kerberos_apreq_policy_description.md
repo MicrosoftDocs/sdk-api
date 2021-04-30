@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: ed6448d6-17b3-448b-a376-bd882e229ae1
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION structure [Web Services for Windows], webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION, wsw.ws_http_ssl_kerberos_apreq_policy_description
-f1_keywords:
-- webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
 targetos: Windows
 req.typenames: WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
+ - webservices/_WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
+ - WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
+ - webservices/WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION
 ---
 
 # WS_HTTP_SSL_KERBEROS_APREQ_POLICY_DESCRIPTION structure
@@ -49,37 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the policy specifying http channel binding with SSL transport security 
         and KERBEROS AP_REQ message security.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field channelProperties
 
 Template description for the channel properties specified in policy.
-        
-
 
 ### -field securityProperties
 
 Template description for the security properties specified in policy.
-        
-
 
 ### -field sslTransportSecurityBinding
 
 SSL security binding description.
-        
-
 
 ### -field kerberosApreqMessageSecurityBinding
 
 kerberos message security binding description.
-        
 

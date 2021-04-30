@@ -8,10 +8,6 @@ tech.root: nwifi
 ms.assetid: a8859b8e-9d77-423e-897c-a2c8cdea38ae
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Reset method, IEnumDot11AdHocNetworks.Reset, IEnumDot11AdHocNetworks::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Reset, nwifi.ienumdot11adhocnetworks_reset
-f1_keywords:
-- adhoc/IEnumDot11AdHocNetworks.Reset
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocNetworks.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocNetworks::Reset
+ - adhoc/IEnumDot11AdHocNetworks::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocNetworks.Reset
 ---
 
 # IEnumDot11AdHocNetworks::Reset
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets to the beginning of the enumeration sequence.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -94,18 +86,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>

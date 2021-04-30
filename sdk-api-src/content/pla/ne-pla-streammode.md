@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
 ms.date: 12/05/2018
 ms.keywords: StreamMode, StreamMode enumeration [PLA], base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
-f1_keywords:
-- pla/StreamMode
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pla.h
-api_name:
-- StreamMode
 targetos: Windows
 req.typenames: StreamMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_pla_0001_0043_0006
+ - pla/__MIDL___MIDL_itf_pla_0001_0043_0006
+ - StreamMode
+ - pla/StreamMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pla.h
+api_name:
+ - StreamMode
 ---
 
 # StreamMode enumeration
@@ -49,42 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines where the trace events are delivered.
 
-
 ## -enum-fields
-
-
-
 
 ### -field plaFile
 
 Write the trace events to a log file.
 
-
 ### -field plaRealTime
 
 Deliver the trace events to a real time consumer.
-
 
 ### -field plaBoth
 
 Write the trace events to a log file and deliver them to a real-time consumer.
 
-
 ### -field plaBuffering
 
-For details, see the <a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
-
+For details, see the <a href="/windows/desktop/ETW/logging-mode-constants">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataCollector::StreamMode</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataCollector::StreamMode</a>

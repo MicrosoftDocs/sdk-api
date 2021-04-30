@@ -4,7 +4,6 @@ title: PRJ_EXTENDED_INFO (projectedfslib.h)
 description: Specifies optional extended information for directory enumeration and placeholder information.
 tech.root: ProjFS
 ms.date: 11/8/2019
-ms.topic: language-reference
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -21,6 +20,7 @@ req.target-type: Windows
 req.typenames: PRJ_EXTENDED_INFO
 req.umdf-ver: 
 req.unicode-ansi: 
+ms.custom: 20H1
 topic_type:
  - apiref
 api_type:
@@ -30,22 +30,24 @@ api_location:
 api_name:
  - PRJ_EXTENDED_INFO
 f1_keywords:
+ - PRJ_EXTENDED_INFO
  - projectedfslib/PRJ_EXTENDED_INFO
 dev_langs:
  - c++
-ms.custom: 20H1
 ---
 
 # PRJ_EXTENDED_INFO structure
 
+
 ## -description
-A provider uses PRJ_EXTENDED_INFO to provide extended information about a file when calling <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2">PrjFillDirEntryBuffer2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2">PrjWritePlaceholderInfo2</a>.
+
+A provider uses PRJ_EXTENDED_INFO to provide extended information about a file when calling <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2">PrjFillDirEntryBuffer2</a> or <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjwriteplaceholderinfo2">PrjWritePlaceholderInfo2</a>.
 
 ## -struct-fields
 
 ### -field InfoType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_ext_info_type">PRJ_EXT_INFO</a> value describing what kind of extended information this structure contains.
+A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_ext_info_type">PRJ_EXT_INFO</a> value describing what kind of extended information this structure contains.
 
 ### -field NextInfoOffset
 
@@ -64,4 +66,3 @@ Specifies the name of the target of a symbolic link.
 ## -remarks
 
 ## -see-also
-

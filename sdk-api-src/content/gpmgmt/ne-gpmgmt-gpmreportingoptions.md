@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
 ms.date: 12/05/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
-f1_keywords:
-- gpmgmt/GPMReportingOptions
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gpmgmt.h
-api_name:
-- GPMReportingOptions
 targetos: Windows
 req.typenames: GPMReportingOptions
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_gpmgmt_0000_0000_0008
+ - gpmgmt/__MIDL___MIDL_itf_gpmgmt_0000_0000_0008
+ - GPMReportingOptions
+ - gpmgmt/GPMReportingOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gpmgmt.h
+api_name:
+ - GPMReportingOptions
 ---
 
 # GPMReportingOptions enumeration
 
 
 ## -description
-
 
 <b>GPMReportingOptions</b> defines options for Group Policy Management Console  reports.
 
@@ -61,17 +63,11 @@ typedef enum {
         } GPMReportingOptions;
 ```
 
-
-
 ## -enum-fields
-
-
-
 
 ### -field opReportLegacy
 
 Use administrative template ADM files.
-
 
 ### -field opReportComments
 

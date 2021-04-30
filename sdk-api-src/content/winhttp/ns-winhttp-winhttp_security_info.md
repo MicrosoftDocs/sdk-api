@@ -2,7 +2,6 @@
 UID: NS:winhttp._WINHTTP_SECURITY_INFO
 title: WINHTTP_SECURITY_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: The WINHTTP_SECURITY_INFO structure contains a variety of timing information for an HTTP request.
 tech.root: winhttp
@@ -31,7 +30,11 @@ api_name:
  - _WINHTTP_SECURITY_INFO
  - WINHTTP_SECURITY_INFO
 f1_keywords:
+ - _WINHTTP_SECURITY_INFO
  - winhttp/_WINHTTP_SECURITY_INFO
+ - PWINHTTP_SECURITY_INFO
+ - winhttp/PWINHTTP_SECURITY_INFO
+ - WINHTTP_SECURITY_INFO
  - winhttp/WINHTTP_SECURITY_INFO
 dev_langs:
  - c++
@@ -42,7 +45,6 @@ dev_langs:
 The **WINHTTP_SECURITY_INFO** structure contains the SChannel connection and cipher information for a request.
 
 ## -struct-fields
-
 
 ### -field ConnectionInfo
 
@@ -59,3 +61,4 @@ This structure is used with [**WinHttpQueryOption**](/windows/desktop/api/winhtt
 ## -see-also
 
 [WinHttpQueryOption](/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption)
+

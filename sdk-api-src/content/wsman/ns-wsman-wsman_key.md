@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: dbd66ad3-3816-43a3-a8e4-403ff3847da0
 ms.date: 12/05/2018
 ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], winrm.wsman_key, wsman/WSMAN_KEY
-f1_keywords:
-- wsman/WSMAN_KEY
-dev_langs:
-- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wsman.h
-api_name:
-- WSMAN_KEY
 targetos: Windows
 req.typenames: WSMAN_KEY
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WSMAN_KEY
+ - wsman/_WSMAN_KEY
+ - WSMAN_KEY
+ - wsman/WSMAN_KEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wsman.h
+api_name:
+ - WSMAN_KEY
 ---
 
 # WSMAN_KEY structure
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a key and value pair within a selector set and is used to identify a particular resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field key
 
 Specifies the key name.
-
 
 ### -field value
 

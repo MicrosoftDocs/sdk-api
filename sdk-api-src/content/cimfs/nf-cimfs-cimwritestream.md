@@ -2,10 +2,11 @@
 UID: NF:cimfs.CimWriteStream
 title: CimWriteStream
 ms.date: 9/9/2019
+ms.author: windowssdkdev
+tech.root: cimfs
 ms.keywords: CimWriteStream
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -28,31 +29,38 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - cimfs.h
 api_name:
  - CimWriteStream
+f1_keywords:
+ - CimWriteStream
+ - cimfs/CimWriteStream
 ---
 
 ## -description
+
 Writes data from the specified buffer to the stream represented by the stream handle.
 
 ## -parameters
 
 ### -param cimStreamHandle
+
 Type: **CIMFS_STREAM_HANDLE**
 An opaque handle that represents a writer for the stream created with CimCreateFile or CimCreateAlternateStream.
 
 ### -param buffer
+
 TYPE: **void\***
 A caller allocated buffer that contains the data to be written
 
 ### -param bufferSize
+
 Type **[UINT32](/windows/desktop/winprog/windows-data-types)**
 The size of the caller allocated buffer. The contents of the buffer will be written to the stream up to but not exceeding the stream size provided when the stream was created.
 
 ## -returns
+
 **[HRESULT](/windows/desktop/winprog/windows-data-types)**
 E_INVALIDARG – The stream handle is invalid or the handle provided refers to a directory rather than a file or alternate stream.
 E_POINTER – The buffer pointer is NULL
@@ -61,4 +69,3 @@ HRESULT_FROM_WIN32(ERROR_HANDLE_EOF) – The write extends past the file size sp
 ## -remarks
 
 ## -see-also
-

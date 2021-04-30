@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: automat
+f1_keywords:
+ - oaidl
+ - oaidl/oaidl
 ---
 
 # Oaidl.h header
 
 
 ## -description
-
 
 This header is used by Automation. For more information, see:
 

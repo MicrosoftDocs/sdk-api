@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: cda5968b-843b-4759-ae0f-cb83e9990590
 ms.date: 12/05/2018
 ms.keywords: D2D1_GEOMETRY_SIMPLIFICATION_OPTION, D2D1_GEOMETRY_SIMPLIFICATION_OPTION enumeration [Direct2D], D2D1_GEOMETRY_SIMPLIFICATION_OPTION_CUBICS_AND_LINES, D2D1_GEOMETRY_SIMPLIFICATION_OPTION_LINES, d2d1/D2D1_GEOMETRY_SIMPLIFICATION_OPTION, d2d1/D2D1_GEOMETRY_SIMPLIFICATION_OPTION_CUBICS_AND_LINES, d2d1/D2D1_GEOMETRY_SIMPLIFICATION_OPTION_LINES, direct2d.D2D1_GEOMETRY_SIMPLIFICATION_OPTION
-f1_keywords:
-- d2d1/D2D1_GEOMETRY_SIMPLIFICATION_OPTION
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_GEOMETRY_SIMPLIFICATION_OPTION
 targetos: Windows
 req.typenames: D2D1_GEOMETRY_SIMPLIFICATION_OPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_GEOMETRY_SIMPLIFICATION_OPTION
+ - d2d1/D2D1_GEOMETRY_SIMPLIFICATION_OPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_GEOMETRY_SIMPLIFICATION_OPTION
 ---
 
 # D2D1_GEOMETRY_SIMPLIFICATION_OPTION enumeration
@@ -49,37 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how a geometry is simplified to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_CUBICS_AND_LINES
 
 The output can contain cubic Bezier curves and line segments.
 
-
 ### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_LINES
 
-The output is flattened so that it contains only line segments. 
-
+The output is flattened so that it contains only line segments.
 
 ### -field D2D1_GEOMETRY_SIMPLIFICATION_OPTION_FORCE_DWORD
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1geometry-simplify(d2d1_geometry_simplification_option_constd2d1_matrix_3x2_f_id2d1simplifiedgeometrysink)">ID2D1Geometry::Simplify</a>
- 
-
- 
 

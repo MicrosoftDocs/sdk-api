@@ -21,6 +21,5 @@ To develop Automation, you need these headers:
  * [wia_xp.h](../wia_xp/index.md)
  * [wtypes.h](../wtypes/index.md)
 
-For programming guidance for this technology, see:
-* [Automation](https://docs.microsoft.com/previous-versions/windows/desktop/automat)
 
+This documentation is related to OLE Automation. For information on UI Automation, see [Windows Automation API overview](/windows/win32/winauto/windows-automation-api-portal).

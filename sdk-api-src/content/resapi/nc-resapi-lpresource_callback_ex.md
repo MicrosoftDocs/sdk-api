@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581
 ms.date: 12/05/2018
 ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [Failover Cluster], ResourceCallbackEx, ResourceCallbackEx callback, ResourceCallbackEx callback function [Failover Cluster], mscs.lpresource_callback_ex, resapi/LPRESOURCE_CALLBACK_EX, resapi/ResourceCallbackEx
-f1_keywords:
-- resapi/ResourceCallbackEx
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- ResourceCallbackEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPRESOURCE_CALLBACK_EX
+ - resapi/LPRESOURCE_CALLBACK_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - ResourceCallbackEx
 ---
 
 # LPRESOURCE_CALLBACK_EX callback function
@@ -49,32 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
-
 
 ## -parameters
 
+### -param unnamedParam1
 
+### -param unnamedParam2
 
+### -param unnamedParam3
 
-### -param Arg1
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
+### -param unnamedParam4
 
 #### - hCluster
 

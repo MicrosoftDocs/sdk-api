@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
 ms.date: 12/05/2018
 ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CertNameToStr, CertNameToStr function [Security], CertNameToStrA, CertNameToStrW, X509_ASN_ENCODING, _crypto2_certnametostr, security.certnametostr, wincrypt/CertNameToStr, wincrypt/CertNameToStrA, wincrypt/CertNameToStrW
-f1_keywords:
-- wincrypt/CertNameToStr
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertNameToStr
-- CertNameToStrA
-- CertNameToStrW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertNameToStrA
+ - wincrypt/CertNameToStrA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertNameToStr
+ - CertNameToStrA
+ - CertNameToStrW
 ---
 
 # CertNameToStrA function
@@ -51,21 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertNameToStr</b> function converts an encoded name in a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure to a null-terminated character string.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure to a null-terminated character string.
 
 The string representation follows the distinguished name specifications in <a href="https://www.ietf.org/rfc/rfc1779.txt">RFC 1779</a>. The exceptions to this rule are listed in the Remarks section, below.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCertEncodingType [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a>   that was used to encode the name. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate encoding type</a>   that was used to encode the name. The <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -89,14 +85,11 @@ Specifies X.509 certificate encoding.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pName [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure to be converted.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure to be converted.
 
 ### -param dwStrType [in]
 
@@ -119,8 +112,8 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign enclosed within spaces ( + ),  for example, Microsoft, Kim Abercrombie + Programmer.
+All <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) are discarded. 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign enclosed within spaces ( + ),  for example, Microsoft, Kim Abercrombie + Programmer.
 
 </td>
 </tr>
@@ -131,7 +124,7 @@ All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object i
 </dl>
 </td>
 <td width="60%">
-OIDs are included with an  equal sign (=) separator from their attribute value. <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign followed by a space (+ ).
+OIDs are included with an  equal sign (=) separator from their attribute value. <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> entries are separated by a comma followed by a space (, ). Multiple attributes in a <b>CERT_RDN</b> are separated by a plus sign followed by a space (+ ).
 
 </td>
 </tr>
@@ -142,7 +135,7 @@ OIDs are included with an  equal sign (=) separator from their attribute value. 
 </dl>
 </td>
 <td width="60%">
-OIDs are converted to their <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> key names; otherwise, they are the same as <b>CERT_OID_NAME_STR</b>. If an OID does not have a corresponding X.500 name, the OID is used with a prefix of OID. 
+OIDs are converted to their <a href="/windows/desktop/SecGloss/x-gly">X.500</a> key names; otherwise, they are the same as <b>CERT_OID_NAME_STR</b>. If an OID does not have a corresponding X.500 name, the OID is used with a prefix of OID. 
 
 
  
@@ -250,41 +243,29 @@ By default,  a CERT_RDN_T61_STRING X.500 key string is decoded as UTF8. If UTF8 
 </dl>
 </td>
 <td width="60%">
-If the name pointed to by the <i>pName</i> parameter contains an email RDN, and the host name portion of the email address contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a>, the name is converted to the Unicode equivalent.
+If the name pointed to by the <i>pName</i> parameter contains an email RDN, and the host name portion of the email address contains a Punycode encoded <a href="/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a>, the name is converted to the Unicode equivalent.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param psz [out]
 
 A pointer to a character buffer that receives the returned string. The size of this buffer is specified in the <i>csz</i> parameter.
 
-
 ### -param csz [in]
 
 The size, in characters, of the <i>psz</i> buffer. The size must include the terminating null character.
 
-
 ## -returns
-
-
 
 Returns the number of characters converted, including the terminating null character. 
 
 If <i>psz</i> is <b>NULL</b> or <i>csz</i> is zero, returns the required size of the destination string.
-               
-
-
-
 
 ## -remarks
-
-
 
 If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz</i> is always a null-terminated string.
 
@@ -377,7 +358,7 @@ SN
 
 For an example that uses this function, see 
  
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-converting-names-from-certificates-to-asn1-and-back">Example C Program: Converting Names from Certificates to ASN.1 and Back</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-converting-names-from-certificates-to-asn1-and-back">Example C Program: Converting Names from Certificates to ASN.1 and Back</a>.
 
 <div class="code"></div>
 
@@ -389,19 +370,12 @@ For an example that uses this function, see
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certstrtonamea">CertStrToName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>

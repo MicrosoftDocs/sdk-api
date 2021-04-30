@@ -3,11 +3,10 @@ UID: NE:diagnosticdataquerytypes.tagDdqAccessLevel
 title: DdqAccessLevel
 ms.date: 8/19/2019
 ms.keywords: tagDdqAccessLevel, DdqAccessLevel
-ms.topic: language-reference
 description: This resource represents the privilege level for a Diagnostic Data Query session
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: diagnosticdataquerytypes.h
@@ -28,20 +27,29 @@ api_location:
 api_name:
  - tagDdqAccessLevel
  - DdqAccessLevel
+f1_keywords:
+ - tagDdqAccessLevel
+ - diagnosticdataquerytypes/tagDdqAccessLevel
+ - DdqAccessLevel
+ - diagnosticdataquerytypes/DdqAccessLevel
 ---
 
 ## -description
-This resource represents the privilege level for a Diagnostic Data Query session. 
+
+This resource represents the privilege level for a Diagnostic Data Query session.
 
 ## -enum-fields
 
 ### -field NoData:0
+
 No data can be accessed using this session.
 
 ### -field CurrentUserData:1
+
 Only the current user's data can be accessed using this session.
 
 ### -field AllUserData:2
+
 All User data can be accessed using this session.
 
 ## -remarks

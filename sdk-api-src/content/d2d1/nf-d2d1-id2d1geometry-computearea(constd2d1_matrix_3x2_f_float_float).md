@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 1efc99d7-453f-4c51-a523-00c38fa00ff4
 ms.date: 12/05/2018
 ms.keywords: ComputeArea, ComputeArea method [Direct2D], ComputeArea method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],ComputeArea method, ID2D1Geometry.ComputeArea, ID2D1Geometry::ComputeArea, ID2D1Geometry::ComputeArea,ID2D1Geometry::ComputeArea(const D2D1_MATRIX_3X2_F,FLOAT,FLOAT), d2d1/ID2D1Geometry::ComputeArea, direct2d.ID2D1Geometry_ComputeArea_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT
-f1_keywords:
-- d2d1/ID2D1Geometry.ComputeArea
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Geometry.ComputeArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Geometry::ComputeArea
+ - d2d1/ID2D1Geometry::ComputeArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Geometry.ComputeArea
 ---
 
 ## -description
@@ -60,7 +61,7 @@ The transform to apply to this geometry before computing its area, or <b>NULL</b
 
 Type: [in] <b>FLOAT</b>
 
-The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution. 
+The maximum error allowed when constructing a polygonal approximation of the geometry. No point in the polygonal representation will diverge from the original geometry by more than the flattening tolerance. Smaller values produce more accurate results but cause slower execution.
 
 ### -param area
 
@@ -77,3 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+

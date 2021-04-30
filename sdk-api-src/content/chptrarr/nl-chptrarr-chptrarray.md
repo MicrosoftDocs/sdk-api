@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 507c8262-c5e8-470e-be89-566ae732946d
 ms.date: 12/05/2018
 ms.keywords: ??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray
-f1_keywords:
-- chptrarr/CHPtrArray
-dev_langs:
-- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHPtrArray
-- ??1CHPtrArray@@QAE@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHPtrArray
+ - chptrarr/CHPtrArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHPtrArray
+ - ??1CHPtrArray@@QAE@XZ
 ---
 
 # CHPtrArray class
@@ -51,11 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>CHPtrArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray</b> is a utility interface for array pointer management used for provider handling of WMI queries.
@@ -73,7 +73,7 @@ The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-chptrarray">CHPtrArray</a>
+<a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-chptrarray">CHPtrArray</a>
 </td>
 <td align="left" width="63%">
 Constructor.
@@ -89,7 +89,7 @@ Constructor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getat">GetAt</a>
+<a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
 Accesses an element in a <b>CHPtrArray</b> array.
@@ -98,7 +98,7 @@ Accesses an element in a <b>CHPtrArray</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getsize">GetSize</a>
+<a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the pointer array size.
@@ -107,7 +107,7 @@ Obtains the pointer array size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-removeall">RemoveAll</a>
+<a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all the <b>CHPtrArray</b> members from this array.
@@ -123,32 +123,19 @@ Removes all the <b>CHPtrArray</b> members from this array.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)">operator[]</a>
+<a href="/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)">operator[]</a>
 </td>
 <td align="left" width="63%">
 Gets the element at the specified index.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for the class is <b>CHPtrArray::~CHPtrArray</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>

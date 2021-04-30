@@ -8,10 +8,6 @@ tech.root: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_IO_CAPABILITY, BLUETOOTH_IO_CAPABILITY enumeration [Bluetooth], BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, BLUETOOTH_IO_CAPABILITY_UNDEFINED, bluetooth.bluetooth_io_capability, bluetoothapis/BLUETOOTH_IO_CAPABILITY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO, bluetoothapis/BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY, bluetoothapis/BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT, bluetoothapis/BLUETOOTH_IO_CAPABILITY_UNDEFINED
-f1_keywords:
-- bluetoothapis/BLUETOOTH_IO_CAPABILITY
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BluetoothAPIs.h
-api_name:
-- BLUETOOTH_IO_CAPABILITY
 targetos: Windows
 req.typenames: BLUETOOTH_IO_CAPABILITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BLUETOOTH_IO_CAPABILITY
+ - bluetoothapis/_BLUETOOTH_IO_CAPABILITY
+ - BLUETOOTH_IO_CAPABILITY
+ - bluetoothapis/BLUETOOTH_IO_CAPABILITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BluetoothAPIs.h
+api_name:
+ - BLUETOOTH_IO_CAPABILITY
 ---
 
 # BLUETOOTH_IO_CAPABILITY enumeration
@@ -49,47 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BLUETOOTH_IO_CAPABILITY</b> enumeration defines the input/output capabilities of a Bluetooth Device.
 
-
 ## -enum-fields
-
-
-
 
 ### -field BLUETOOTH_IO_CAPABILITY_DISPLAYONLY
 
 The Bluetooth device is capable of output via display only.
 
-
 ### -field BLUETOOTH_IO_CAPABILITY_DISPLAYYESNO
 
 The Bluetooth device is capable of output via a display, and has the additional capability to presenting a yes/no question to the user.
-
 
 ### -field BLUETOOTH_IO_CAPABILITY_KEYBOARDONLY
 
 The Bluetooth device is capable of input via keyboard.
 
-
 ### -field BLUETOOTH_IO_CAPABILITY_NOINPUTNOOUTPUT
 
 The Bluetooth device is not capable of input/output.
-
 
 ### -field BLUETOOTH_IO_CAPABILITY_UNDEFINED
 
 The input/output capabilities for the Bluetooth device are undefined.
 
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_authenticate_response">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
- 
-
- 
 

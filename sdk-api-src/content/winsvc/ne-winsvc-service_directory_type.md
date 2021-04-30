@@ -5,9 +5,8 @@ description: Specifies the type of a per-service directory path.
 tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_DIRECTORY_TYPE
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winsvc.h
@@ -27,6 +26,9 @@ api_location:
  - winsvc.h
 api_name:
  - SERVICE_DIRECTORY_TYPE
+f1_keywords:
+ - SERVICE_DIRECTORY_TYPE
+ - winsvc/SERVICE_DIRECTORY_TYPE
 ---
 
 ## -description
@@ -51,3 +53,4 @@ Once the service is removed by calling [DeleteService](/windows/win32/api/winsvc
 ## -see-also
 
 [GetServiceDirectory](/windows/win32/api/winsvc/ne-winsvc-getservicedirectory)
+

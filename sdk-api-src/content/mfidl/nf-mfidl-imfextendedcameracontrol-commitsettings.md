@@ -2,9 +2,8 @@
 UID: NF:mfidl.IMFExtendedCameraControl.CommitSettings
 title: IMFExtendedCameraControl::CommitSettings
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Commits the configured control settings to the camera driver. 
+description: Commits the configured control settings to the camera driver.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::CommitSettings
 f1_keywords:
+ - IMFExtendedCameraControl::CommitSettings
  - mfidl/IMFExtendedCameraControl::CommitSettings
 dev_langs:
  - c++
@@ -41,11 +41,13 @@ dev_langs:
 
 ## -description
 
-Commits the configured control settings to the camera driver. 
+Commits the configured control settings to the camera driver.
+
+## -parameters
 
 ## -returns
 
-Returns S_OK on success. 
+Returns S_OK on success.
 
 ## -remarks
 
@@ -76,7 +78,6 @@ if (capabilities & KSCAMERA_EXTENDEDPROP_VIDEOTORCH_ON)
 }
 
 ```
-
 
 ## -see-also
 

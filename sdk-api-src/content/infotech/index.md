@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: htmlhelp
+f1_keywords:
+ - infotech
+ - infotech/infotech
 ---
 
 # Infotech.h header
 
 
 ## -description
-
 
 This header is used by Microsoft HTML Help 1.4. For more information, see:
 

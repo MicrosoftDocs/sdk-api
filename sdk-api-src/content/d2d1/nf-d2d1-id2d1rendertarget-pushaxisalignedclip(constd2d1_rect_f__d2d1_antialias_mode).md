@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: a6a0743c-e964-41f5-807f-541f00f552b5
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PushAxisAlignedClip method, ID2D1RenderTarget.PushAxisAlignedClip, ID2D1RenderTarget.PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE), ID2D1RenderTarget::PushAxisAlignedClip, ID2D1RenderTarget::PushAxisAlignedClip(const D2D1_RECT_F &,D2D1_ANTIALIAS_MODE), PushAxisAlignedClip, PushAxisAlignedClip method [Direct2D], PushAxisAlignedClip method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PushAxisAlignedClip, direct2d.ID2D1RenderTarget_PushAxisAlignedClip_ref_D2D_RECT_F_D2D1_ANTIALIAS_MODE
-f1_keywords:
-- d2d1/ID2D1RenderTarget.PushAxisAlignedClip
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.PushAxisAlignedClip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::PushAxisAlignedClip
+ - d2d1/ID2D1RenderTarget::PushAxisAlignedClip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.PushAxisAlignedClip
 ---
 
 ## -description
@@ -60,7 +61,7 @@ The size and position of the clipping area, in device-independent pixels.
 
 Type: [in] <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_antialias_mode">D2D1_ANTIALIAS_MODE</a></b>
 
-The antialiasing mode that is used to draw the edges of clip rects that have subpixel boundaries, and to blend the clip with the scene contents. The blending is performed once when the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a> method is called, and does not apply to each primitive within the layer. 
+The antialiasing mode that is used to draw the edges of clip rects that have subpixel boundaries, and to blend the clip with the scene contents. The blending is performed once when the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a> method is called, and does not apply to each primitive within the layer.
 
 ## -remarks
 
@@ -100,8 +101,9 @@ The <b>PushAxisAlignedClip</b> and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d
 
 A <b>PushAxisAlignedClip</b> and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PopAxisAlignedClip</a> pair can occur around or within a PushLayer and PopLayer, but cannot overlap. For example, the sequence of <b>PushAxisAlignedClip</b>, <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a>, <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>, <b>PopAxisAlignedClip</b> is valid, but the sequence of <b>PushAxisAlignedClip</b>, <b>PushLayer</b>, <b>PopAxisAlignedClip</b>, <b>PopLayer</b> is invalid.
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">PushAxisAlignedClip</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods.
 
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

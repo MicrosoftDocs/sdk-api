@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: e5bae825-8e42-4ecb-b891-b802ca8d3360
 ms.date: 12/05/2018
 ms.keywords: CachedMaximum property [Windows Accessibility], CachedMaximum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMaximum property, IUIAutomationRangeValuePattern.CachedMaximum, IUIAutomationRangeValuePattern.get_CachedMaximum, IUIAutomationRangeValuePattern::CachedMaximum, IUIAutomationRangeValuePattern::get_CachedMaximum, get_CachedMaximum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMaximum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum
-f1_keywords:
-- uiautomationclient/IUIAutomationRangeValuePattern.CachedMaximum
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationRangeValuePattern.CachedMaximum
-- IUIAutomationRangeValuePattern.get_CachedMaximum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationRangeValuePattern::get_CachedMaximum
+ - uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMaximum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationRangeValuePattern.CachedMaximum
+ - IUIAutomationRangeValuePattern.get_CachedMaximum
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedMaximum
@@ -50,11 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached maximum value of the control.
 
 This property is read-only.
-
 
 ## -parameters
 

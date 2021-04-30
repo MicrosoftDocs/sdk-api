@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 757ffd97-2a00-4508-817c-0bfb2f2e3a84
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DSM_ALLOCATION_OUTPUT, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure, DEVICE_DSM_ALLOCATION_OUTPUT, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer, base.device_data_set_lb_provisioning_state, winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE, winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE'
-f1_keywords:
-- winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DEVICE_DATA_SET_LB_PROVISIONING_STATE
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DSM_ALLOCATION_OUTPUT, *PDEVICE_DSM_ALLOCATION_OUTPUT
 req.redist: 
+f1_keywords:
+ - _DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - winioctl/_DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - PDEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - DEVICE_DATA_SET_LB_PROVISIONING_STATE
+ - winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
 # DEVICE_DATA_SET_LB_PROVISIONING_STATE structure
@@ -48,31 +53,23 @@ req.redist:
 
 ## -description
 
-
 Output structure for the <b>DeviceDsmAction_Allocation</b> action of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 The size of this structure, including the bitmap, in bytes.
 
-
 ### -field Version
 
 The version of this structure.
 
-
 ### -field SlabSizeInBytes
 
 The size of a slab, in bytes.
-
 
 ### -field SlabOffsetDeltaInBytes
 
@@ -81,25 +78,19 @@ If the range specified is not aligned to the <b>OptimalUnmapGranularity</b> as r
       structure then the data represented in the <b>SlabAllocationBitMap</b> is offset from the 
       specified range by this amount.
 
-
 ### -field SlabAllocationBitMapBitCount
 
 The number of relevant bits in the bitmap.
-
 
 ### -field SlabAllocationBitMapLength
 
 The number of<b> DWORD</b>s in the bitmap array.
 
-
 ### -field SlabAllocationBitMap
 
 The allocation bitmap containing one bit for each slab. If a bit is set then the corresponding slab is allocated. Otherwise, if a bit is clear, the corresponding slab is unallocated.
 
-
 ## -remarks
-
-
 
 Provisioning state information is returned when the <b>Action</b> member of the 
      <a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
@@ -128,7 +119,7 @@ Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of
 Slab size is determined by the <b>OptimalUnmapGranularity</b> member of 
      the <a href="/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> 
      structure returned from an 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> 
      control code. The length of the data set range provided should be a multiple of 
      <b>OptimalUnmapGranularity</b>. When the range length is not a multiple of 
      <b>OptimalUnmapGranularity</b>, it is reduced to be a multiple.
@@ -146,27 +137,17 @@ If the slab allocation total returned in <b>SlabAllocationBitMapBitCount</b> is 
 
 If the requested slab size is too large (for example if it is larger than the maximum transfer length of the 
     HBA) then the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     can fail with <b>ERROR_INVALID_PARAMETER</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winioctl/ns-winioctl-device_lb_provisioning_descriptor">DEVICE_LB_PROVISIONING_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

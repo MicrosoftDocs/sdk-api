@@ -2,7 +2,6 @@
 UID: NE:gdiplusinit.GdiplusStartupParams
 title: GdiplusStartupParams
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: Defines constants that specify parameters for startup.
 tech.root: gdiplus
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - GdiplusStartupParams
 f1_keywords:
+ - GdiplusStartupParams
  - gdiplusinit/GdiplusStartupParams
 dev_langs:
  - c++
@@ -56,3 +56,4 @@ Specifies a transparency mask for startup.
 ## -remarks
 
 ## -see-also
+

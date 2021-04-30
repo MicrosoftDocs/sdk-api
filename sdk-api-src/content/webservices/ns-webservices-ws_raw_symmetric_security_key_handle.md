@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
 ms.date: 12/05/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
-f1_keywords:
-- webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 targetos: Windows
 req.typenames: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+ - webservices/_WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+ - WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+ - webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 ---
 
 # WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure
@@ -49,26 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The type for specifying a symmetric cryptographic key as raw bytes.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field keyHandle
 
 The base type from which this type and all other key handle types derive.
-                
-
 
 ### -field rawKeyBytes
 
 The cryptographic key as raw bytes.  It is strongly recommended that
 after the key is supplied in this form to any API, it is immediately
 cleared using SecureZeroMemory.
-                
 

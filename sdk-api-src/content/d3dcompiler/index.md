@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3dhlsl
+f1_keywords:
+ - d3dcompiler
+ - d3dcompiler/d3dcompiler
 ---
 
 # D3Dcompiler.h header
 
 
 ## -description
-
 
 This header is used by HLSL. For more information, see:
 

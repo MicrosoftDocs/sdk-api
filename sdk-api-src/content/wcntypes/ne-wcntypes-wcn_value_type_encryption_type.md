@@ -8,10 +8,6 @@ tech.root: wcn
 ms.assetid: 4bd6ef62-82cd-4d3d-925a-637396452c03
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_ET_AES, WCN_VALUE_ET_NONE, WCN_VALUE_ET_TKIP, WCN_VALUE_ET_TKIP_AES_MIXED, WCN_VALUE_ET_WEP, WCN_VALUE_TYPE_ENCRYPTION_TYPE, WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration [Windows Connect Now], wcn.wcn_value_type_encryption_type, wcntypes/WCN_VALUE_ET_AES, wcntypes/WCN_VALUE_ET_NONE, wcntypes/WCN_VALUE_ET_TKIP, wcntypes/WCN_VALUE_ET_TKIP_AES_MIXED, wcntypes/WCN_VALUE_ET_WEP, wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE
-f1_keywords:
-- wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE
-dev_langs:
-- c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wcntypes.h
-api_name:
-- WCN_VALUE_TYPE_ENCRYPTION_TYPE
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_ENCRYPTION_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWCN_VALUE_TYPE_ENCRYPTION_TYPE
+ - wcntypes/tagWCN_VALUE_TYPE_ENCRYPTION_TYPE
+ - WCN_VALUE_TYPE_ENCRYPTION_TYPE
+ - wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wcntypes.h
+api_name:
+ - WCN_VALUE_TYPE_ENCRYPTION_TYPE
 ---
 
 # WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WCN_VALUE_TYPE_ENCRYPTION_TYPE</b> enumeration defines the supported WLAN encryption types.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WCN_VALUE_ET_NONE
 
 Specifies support for unsecured wireless activity.
-
 
 ### -field WCN_VALUE_ET_WEP
 
@@ -81,7 +78,6 @@ Specifies support for the Temporal Key Integrity Protocol (TKIP) encryption meth
 
 Specifies support for the Advanced Encryption Standard (AES) encryption method.
 
-
 ### -field WCN_VALUE_ET_TKIP_AES_MIXED
 
 Specifies support for WPAPSK/WPA2PSK mixed-mode encryption.
@@ -91,11 +87,4 @@ Specifies support for WPAPSK/WPA2PSK mixed-mode encryption.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>

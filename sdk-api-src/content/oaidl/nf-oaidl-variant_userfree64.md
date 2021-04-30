@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: d36c9c17-13b1-4f68-9406-f17ed4c39062
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserFree64, VARIANT_UserFree64 function [Automation], automat.variant_userfree64, oaidl/VARIANT_UserFree64
-f1_keywords:
-- oaidl/VARIANT_UserFree64
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VARIANT_UserFree64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VARIANT_UserFree64
+ - oaidl/VARIANT_UserFree64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VARIANT_UserFree64
 ---
 
 # VARIANT_UserFree64 function
@@ -49,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees resources on the server side when called by RPC stub files.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The object.
-
 

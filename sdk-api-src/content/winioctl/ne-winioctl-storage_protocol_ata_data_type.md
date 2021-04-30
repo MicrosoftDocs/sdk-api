@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 999CB5EB-9D19-41B9-B4ED-001B63C1A7EA
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Files], STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Files], fs.storage_protocol_ata_data_type, winioctl/AtaDataTypeIdentify, winioctl/AtaDataTypeLogPage, winioctl/AtaDataTypeUnknown, winioctl/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE'
-f1_keywords:
-- winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PROTOCOL_ATA_DATA_TYPE
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/_STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
 ---
 
 # STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration
@@ -48,11 +53,9 @@ req.redist:
 
 ## -description
 
-
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The ATA protocol data type.
-
 
 ## -enum-fields
 
@@ -60,16 +63,13 @@ The ATA protocol data type.
 
 Unknown data type.
 
-
 ### -field AtaDataTypeIdentify
 
 Identify device data type.
 
-
 ### -field AtaDataTypeLogPage
 
 Log page data type.
-
 
 ## -remarks
 
@@ -85,9 +85,9 @@ To specify a type of ATA protocol-specific information,  configure the [STORAGE_
   * Use **AtaDataTypeIdentify** to identify the ATA drive.
   * Use **AtaDataTypeLogPage** to get log pages from the ATA drive.
 
-
 ## -see-also
 
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
 * [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-winioctl-storage_protocol_specific_data.md)
+

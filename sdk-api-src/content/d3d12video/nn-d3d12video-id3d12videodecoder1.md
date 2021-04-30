@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoDecoder1
 title: ID3D12VideoDecoder1
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: Represents a Direct3D 12 video decoder that contains resolution-independent resources and state for performing the decode operation. Adds support for protected resources.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - ID3D12VideoDecoder1
 f1_keywords:
+ - ID3D12VideoDecoder1
  - d3d12video/ID3D12VideoDecoder1
 dev_langs:
  - c++

@@ -2,7 +2,6 @@
 UID: NE:processthreadsapi._PROCESS_INFORMATION_CLASS
 title: PROCESS_INFORMATION_CLASS
 ms.date: 05/05/2020
-ms.topic: language-reference
 targetos: Windows
 description: Indicates a specific class of process information.
 tech.root: security
@@ -27,7 +26,9 @@ api_name:
  - _PROCESS_INFORMATION_CLASS
  - PROCESS_INFORMATION_CLASS
 f1_keywords:
+ - _PROCESS_INFORMATION_CLASS
  - processthreadsapi/_PROCESS_INFORMATION_CLASS
+ - PROCESS_INFORMATION_CLASS
  - processthreadsapi/PROCESS_INFORMATION_CLASS
 dev_langs:
  - c++
@@ -35,7 +36,7 @@ dev_langs:
 
 ## -description
 
-Indicates a specific class of process information. Values from this enumeration are passed into the [GetProcessInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessinformation) and [SetProcessInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) functions to specify the type of process information passed in the void pointer argument of the function call.
+Indicates a specific class of process information. Values from this enumeration are passed into the [GetProcessInformation](./nf-processthreadsapi-getprocessinformation.md) and [SetProcessInformation](./nf-processthreadsapi-setprocessinformation.md) functions to specify the type of process information passed in the void pointer argument of the function call.
 
 ## -enum-fields
 
@@ -53,8 +54,7 @@ The process information is represented by a <a href="/windows/win32/api/processt
 
 ### -field ProcessInPrivateInfo
 
-If a process is set to **ProcessInPrivate** mode, and a trace session has set the [EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) flag, then the trace session will drop all events from that process.
-
+If a process is set to **ProcessInPrivate** mode, and a trace session has set the [EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE](../evntrace/ns-evntrace-enable_trace_parameters.md) flag, then the trace session will drop all events from that process.
 
 ### -field ProcessPowerThrottling
 
@@ -70,7 +70,7 @@ Reserved.
 
 ### -field ProcessProtectionLevelInfo
 
-The process information is represented by a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information">PROCESS_PROTECTION_LEVEL_INFORMATION</a> structure.
+The process information is represented by a <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-process_protection_level_information">PROCESS_PROTECTION_LEVEL_INFORMATION</a> structure.
 
 ### -field ProcessLeapSecondInfo
 
@@ -83,4 +83,3 @@ The maximum value for this enumeration. This value may change in a future versio
 ## -remarks
 
 ## -see-also
-

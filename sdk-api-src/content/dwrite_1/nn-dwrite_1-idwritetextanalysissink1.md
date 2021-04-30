@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: 46882D89-CD59-4C4F-A8BD-1ABC8B8C5C4B
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalysisSink1, IDWriteTextAnalysisSink1 interface [Direct Write], IDWriteTextAnalysisSink1 interface [Direct Write],described, directwrite.idwritetextanalysissink1, dwrite_1/IDWriteTextAnalysisSink1
-f1_keywords:
-- dwrite_1/IDWriteTextAnalysisSink1
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextAnalysisSink1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextAnalysisSink1
+ - dwrite_1/IDWriteTextAnalysisSink1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextAnalysisSink1
 ---
 
 # IDWriteTextAnalysisSink1 interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
  The interface you implement to receive the  output of the text analyzers.
-
 
 ## -inheritance
 
@@ -60,34 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSink1</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteTextAnalysisSink1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>
-</td>
-<td align="left" width="63%">
-The text analyzer calls back to this to report the actual orientation
-    of each character for shaping and drawing.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>
- 
-
- 
 

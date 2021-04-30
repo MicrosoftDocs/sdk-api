@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetAxisVal
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNames method, IDWriteFontResource.GetAxisValueNames, IDWriteFontResource::GetAxisValueNames, GetAxisValueNames, GetAxisValueNames method [Direct Write], GetAxisValueNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenames, dwrite_3/IDWriteFontResource::GetAxisValueNames
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetAxisValueNames
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetAxisValueNames
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetAxisValueNames
+ - dwrite_3/IDWriteFontResource::GetAxisValueNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetAxisValueNames
 ---
 
 ## -description
@@ -53,25 +54,25 @@ Retrieves the localized names of specific values for a font axis.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Font axis, from 0 to [GetFontAxisCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getfontaxiscount) minus 1.
+Font axis, from 0 to [GetFontAxisCount](./nf-dwrite_3-idwritefontresource-getfontaxiscount.md) minus 1.
 
 ### -param axisValueIndex
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)**
 
-Value index, from 0 to [GetAxisValueNameCount](/windows/win32/api/dwrite/nf-dwrite_3-idwritefontresource-getaxisvaluenamecount) minus 1.
+Value index, from 0 to [GetAxisValueNameCount](./nf-dwrite_3-idwritefontresource-getaxisvaluenamecount.md) minus 1.
 
 ### -param fontAxisRange [out]
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)\***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)\***
 
 Range of the named value.
 
 ### -param names [out]
 
-Type: **[IDWriteLocalizedStrings](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings)\*\***
+Type: **[IDWriteLocalizedStrings](../dwrite/nn-dwrite-idwritelocalizedstrings.md)\*\***
 
-The address of a pointer to an [IDWriteLocalizedStrings](/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings) interface. On successful completion, the function sets the pointer to a newly created localized strings object.
+The address of a pointer to an [IDWriteLocalizedStrings](../dwrite/nn-dwrite-idwritelocalizedstrings.md) interface. On successful completion, the function sets the pointer to a newly created localized strings object.
 
 ## -returns
 

@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
-f1_keywords:
-- sspi/QuerySecurityPackageInfo
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- QuerySecurityPackageInfo
-- QuerySecurityPackageInfoA
-- QuerySecurityPackageInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QuerySecurityPackageInfoA
+ - sspi/QuerySecurityPackageInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - QuerySecurityPackageInfo
+ - QuerySecurityPackageInfoA
+ - QuerySecurityPackageInfoW
 ---
 
 # QuerySecurityPackageInfoA function
@@ -51,43 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves information about a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This information includes the bounds on sizes of authentication information, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>, and contexts.
-
+Retrieves information about a specified <a href="/windows/desktop/SecGloss/s-gly">security package</a>. This information includes the bounds on sizes of authentication information, <a href="/windows/desktop/SecGloss/c-gly">credentials</a>, and contexts.
 
 ## -parameters
-
-
-
 
 ### -param pszPackageName [in]
 
 Pointer to a null-terminated string that specifies the name of the security package.
 
-
 ### -param ppPackageInfo [out]
 
 Pointer to a variable that receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure containing information about the specified security package.
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure containing information about the specified security package.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is SEC_E_OK.
 
 If the function fails, the return value is a nonzero error code.
 
-
-
-
 ## -remarks
 
-
-
 The caller must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
 
 
 
@@ -98,19 +85,12 @@ The caller must call the
 
 ## -see-also
 
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>

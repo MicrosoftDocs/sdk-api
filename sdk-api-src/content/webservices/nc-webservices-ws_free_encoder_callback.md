@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 4ef8fc85-fe98-4c1c-9f8f-77fd4ad3283f
 ms.date: 12/05/2018
 ms.keywords: WS_FREE_ENCODER_CALLBACK, WS_FREE_ENCODER_CALLBACK callback, WS_FREE_ENCODER_CALLBACK callback function [Web Services for Windows], webservices/WS_FREE_ENCODER_CALLBACK, wsw.ws_free_encoder_callback
-f1_keywords:
-- webservices/WS_FREE_ENCODER_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_FREE_ENCODER_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_FREE_ENCODER_CALLBACK
+ - webservices/WS_FREE_ENCODER_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_FREE_ENCODER_CALLBACK
 ---
 
 # WS_FREE_ENCODER_CALLBACK callback function
@@ -49,26 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles freeing an encoder instance.
-
 
 ## -parameters
 
-
-
-
-### -param *encoderContext [in]
+### -param encoderContext [in]
 
 Frees an instance of an encoder.
-                
-
 
 ## -remarks
-
-
-
-
-
-
 

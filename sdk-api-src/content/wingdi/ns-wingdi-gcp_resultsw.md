@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 7692637e-963a-4e0a-8a04-e05a6d01c417
 ms.date: 12/05/2018
 ms.keywords: '*LPGCP_RESULTSW, GCPCLASS_ARABIC, GCPCLASS_HEBREW, GCPCLASS_LATIN, GCPCLASS_LATINNUMBER, GCPCLASS_LATINNUMERICSEPARATOR, GCPCLASS_LATINNUMERICTERMINATOR, GCPCLASS_LOCALNUMBER, GCPCLASS_NEUTRAL, GCPCLASS_NUMERICSEPARATOR, GCPCLASS_POSTBOUNDLTR, GCPCLASS_POSTBOUNDRTL, GCPCLASS_PREBOUNDLTR, GCPCLASS_PREBOUNDRTL, GCP_RESULTS, GCP_RESULTS structure [Windows GDI], GCP_RESULTSA, GCP_RESULTSW, LPGCP_RESULTS, LPGCP_RESULTS structure pointer [Windows GDI], _win32_GCP_RESULTS_str, gdi.gcp_results, wingdi/GCP_RESULTS, wingdi/GCP_RESULTSA, wingdi/GCP_RESULTSW, wingdi/LPGCP_RESULTS'
-f1_keywords:
-- wingdi/GCP_RESULTS
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- GCP_RESULTS
-- GCP_RESULTSA
-- GCP_RESULTSW
 targetos: Windows
 req.typenames: GCP_RESULTSW, *LPGCP_RESULTSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagGCP_RESULTSW
+ - wingdi/tagGCP_RESULTSW
+ - LPGCP_RESULTSW
+ - wingdi/LPGCP_RESULTSW
+ - GCP_RESULTSW
+ - wingdi/GCP_RESULTSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - GCP_RESULTS
+ - GCP_RESULTSA
+ - GCP_RESULTSW
 ---
 
 # GCP_RESULTSW structure
@@ -51,26 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GCP_RESULTS</b> structure contains information about characters in a string. This structure receives the results of the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function. For some languages, the first element in the arrays may contain more, language-dependent information.
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field lStructSize
 
 The size, in bytes, of the structure.
 
-
 ### -field lpOutString
 
 A pointer to the buffer that receives the output string or is <b>NULL</b> if the output string is not needed. The output string is a version of the original string that is in the order that will be displayed on a specified device. Typically the output string is identical to the original string, but may be different if the string needs reordering and the GCP_REORDER flag is set or if the original string exceeds the maximum extent and the GCP_MAXEXTENT flag is set.
-
 
 ### -field lpOrder
 
@@ -266,7 +262,6 @@ To force the layout of a character to be carried out in a specific way, preset t
 
 If <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> does not return GCP_REORDER for the current font, only the GCPCLASS_LATIN value is meaningful.
 
-
 ### -field lpGlyphs
 
 A pointer to the array that receives the values identifying the glyphs used for rendering the string or is <b>NULL</b> if glyph rendering is not needed. The number of glyphs in the array may be less than the number of characters in the original string if the string contains ligated glyphs. Also if reordering is required, the order of the glyphs may not be sequential.
@@ -283,11 +278,9 @@ For languages such as Arabic, where <a href="/windows/desktop/api/wingdi/nf-wing
 
 On input, this member must be set to the size of the arrays pointed to by the array pointer members. On output, this is set to the number of glyphs filled in, in the output arrays. If glyph substitution is not required (that is, each input character maps to exactly one glyph), this member is the same as it is on input.
 
-
 ### -field nMaxFit
 
 The number of characters that fit within the extents specified by the <i>nMaxExtent</i> parameter of the <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> function. If the GCP_MAXEXTENT or GCP_JUSTIFY value is set, this value may be less than the number of characters in the original string. This member is set regardless of whether the GCP_MAXEXTENT or GCP_JUSTIFY value is specified. Unlike <b>nGlyphs</b>, which specifies the number of output glyphs, <b>nMaxFit</b> refers to the number of characters from the input string. For Latin SBCS languages, this will be the same.
-
 
 ## -remarks
 
@@ -304,7 +297,6 @@ In the case of languages such as Thai or Arabic, in which <a href="/windows/desk
 > The wingdi.h header defines GCP_RESULTS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
@@ -323,3 +315,4 @@ In the case of languages such as Thai or Arabic, in which <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a>
+

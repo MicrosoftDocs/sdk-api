@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6qav.htm
 ms.date: 12/05/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxInboundRoutingExtension interface, IFaxInboundRoutingExtension interface [Fax Service],Debug property, IFaxInboundRoutingExtension.Debug, IFaxInboundRoutingExtension.get_Debug, IFaxInboundRoutingExtension::Debug, IFaxInboundRoutingExtension::get_Debug, _mfax_faxinboundroutingextension.debug, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp, fax._mfax_faxinboundroutingextension_debug, faxcomex/IFaxInboundRoutingExtension::Debug, faxcomex/IFaxInboundRoutingExtension::get_Debug, get_Debug
-f1_keywords:
-- faxcomex/IFaxInboundRoutingExtension.Debug
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxInboundRoutingExtension.Debug
-- IFaxInboundRoutingExtension.get_Debug
-- IFaxInboundRoutingExtension.get_Debug
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxInboundRoutingExtension::get_Debug
+ - faxcomex/IFaxInboundRoutingExtension::get_Debug
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxInboundRoutingExtension.Debug
+ - IFaxInboundRoutingExtension.get_Debug
+ - IFaxInboundRoutingExtension.get_Debug
 ---
 
 # IFaxInboundRoutingExtension::get_Debug
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxInboundRoutingExtension::get_Debug</b> property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension">FaxInboundRoutingExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxinboundroutingextension">FaxInboundRoutingExtension</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingextension">IFaxInboundRoutingExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingextension">IFaxInboundRoutingExtension</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>

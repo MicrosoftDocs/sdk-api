@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_DESC
 title: D3D12_VIDEO_EXTENSION_COMMAND_DESC
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a video extension command.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_DESC
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_DESC
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_DESC
 dev_langs:
  - c++

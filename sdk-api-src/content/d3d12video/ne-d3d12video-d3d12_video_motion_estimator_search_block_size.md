@@ -2,7 +2,6 @@
 UID: NE:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE
 title: D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Defines supported search block sizes for video motion estimation.
 tech.root: mf
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE
 f1_keywords:
+ - D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE
  - d3d12video/D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE
 dev_langs:
  - c++

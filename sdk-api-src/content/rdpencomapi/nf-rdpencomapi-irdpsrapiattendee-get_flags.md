@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948
 ms.date: 12/05/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIAttendee interface, Flags property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee.get_Flags, IRDPSRAPIAttendee::Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP],Flags property, get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
-f1_keywords:
-- rdpencomapi/IRDPSRAPIAttendee.Flags
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIAttendee.Flags
-- IRDPSRAPIAttendee.get_Flags
-- RDPSRAPIAttendee.Flags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIAttendee::get_Flags
+ - rdpencomapi/IRDPSRAPIAttendee::get_Flags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIAttendee.Flags
+ - IRDPSRAPIAttendee.get_Flags
+ - RDPSRAPIAttendee.Flags
 ---
 
 # IRDPSRAPIAttendee::get_Flags
@@ -51,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the attendee specific flags that are defined in the <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpencomapi_attendee_flags">RDPENCOMAPI_ATTENDEE_FLAGS</a> enumeration type.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>

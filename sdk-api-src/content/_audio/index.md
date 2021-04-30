@@ -21,5 +21,4 @@ To develop Audio Devices DDI Reference, you need these headers:
  * [msapofxproxy.h](../msapofxproxy/index.md)
 
 For programming guidance for this technology, see:
-* [Audio Devices DDI Reference](https://docs.microsoft.com/windows-hardware/drivers/audio/)
-
+* [Audio Devices DDI Reference](/windows-hardware/drivers/audio/)

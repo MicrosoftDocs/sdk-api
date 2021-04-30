@@ -3,7 +3,6 @@ UID: NA:windows.devices.display.core.interop
 title: windows.devices.display.core.interop.h header
 ms.date: 04/30/2020
 ms.keywords: windows.devices.display.core.interop
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset
@@ -25,22 +24,26 @@ req.typenames:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- windows.h
-api_name:
-- windows.devices.display.core.interop
 tech.root: winrt
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - windows.h
+api_name:
+ - windows.devices.display.core.interop
+f1_keywords:
+ - windows.devices.display.core.interop
+ - windows.devices.display.core.interop/windows.devices.display.core.interop
 ---
 
 # windows.devices.display.core.interop.h header
 
+
 ## -description
 
-APIs for desktop interop with the [Windows.Devices.Display.Core](https://docs.microsoft.com/uwp/api/windows.devices.display.core) namespace.<br/><br/>
+APIs for desktop interop with the [Windows.Devices.Display.Core](/uwp/api/windows.devices.display.core) namespace.<br/><br/>
 
 ## -remarks
 
@@ -51,4 +54,3 @@ This header is used by Windows Runtime C++ reference. For more information, see:
 ## -see-also
 
 ## -examples
-

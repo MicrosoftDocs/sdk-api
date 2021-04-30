@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: a1193f0c-e53e-4e63-b801-f1237bee29a1
 ms.date: 12/05/2018
 ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, com.scode_severity, com.scode_severity_macro, winerror/SCODE_SEVERITY
-f1_keywords:
-- winerror/SCODE_SEVERITY
-dev_langs:
-- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winerror.h
-api_name:
-- SCODE_SEVERITY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCODE_SEVERITY
+ - winerror/SCODE_SEVERITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winerror.h
+api_name:
+ - SCODE_SEVERITY
 ---
 
 # SCODE_SEVERITY macro
@@ -49,37 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts the severity field of the specified <b>SCODE</b>. 
-
+Extracts the severity field of the specified <b>SCODE</b>.
 
 ## -parameters
-
-
-
 
 ### -param sc
 
 The status code.
 
-
 ## -remarks
-
-
 
 This macro is defined as follows:
 
 <pre class="syntax" xml:space="preserve"><code>#define SCODE_SEVERITY(sc)    (((sc) &gt;&gt; 31) &amp; 0x1)</code></pre>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
- 
-
- 
-
+<a href="/windows/desktop/com/error-handling-in-com">Error Handling</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: multimedia
+f1_keywords:
+ - mmeapi
+ - mmeapi/mmeapi
 ---
 
 # Mmeapi.h header
 
 
 ## -description
-
 
 This header is used by Windows Multimedia. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
 ms.date: 12/05/2018
 ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],GetTargetComputer method, ITaskScheduler.GetTargetComputer, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
-f1_keywords:
-- mstask/ITaskScheduler.GetTargetComputer
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITaskScheduler.GetTargetComputer
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITaskScheduler::GetTargetComputer
+ - mstask/ITaskScheduler::GetTargetComputer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITaskScheduler.GetTargetComputer
 ---
 
 # ITaskScheduler::GetTargetComputer
@@ -49,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
 <b>GetTargetComputer</b> method returns the name of the computer on which 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a> is currently targeted.
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a> is currently targeted.
 
 ## -parameters
-
-
-
 
 ### -param ppwszComputer [out]
 
 A pointer to a null-terminated string that contains the name of the target computer for the current task. This string is allocated by the application that invokes 
 <b>GetTargetComputer</b>, and must also be freed using <b>CoTaskMemFree</b>.
 
-
 ## -returns
-
-
 
 The 
 <b>GetTargetComputer</b> method returns one of the following values.
@@ -114,18 +107,7 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>

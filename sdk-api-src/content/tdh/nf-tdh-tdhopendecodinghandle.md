@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea
 ms.date: 12/05/2018
 ms.keywords: TdhOpenDecodingHandle, TdhOpenDecodingHandle function [ETW], etw.tdhopendecodinghandle, tdh/TdhOpenDecodingHandle
-f1_keywords:
-- tdh/TdhOpenDecodingHandle
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
-api_name:
-- TdhOpenDecodingHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhOpenDecodingHandle
+ - tdh/TdhOpenDecodingHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+api_name:
+ - TdhOpenDecodingHandle
 ---
 
 # TdhOpenDecodingHandle function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a decoding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [out]
 
@@ -65,10 +61,7 @@ Type: <b>PTDH_HANDLE</b>
 
 A valid decoding handle.
 
-
 ## -returns
-
-
 
 Type: <b>ULONG</b>
 
@@ -102,27 +95,11 @@ Memory allocations failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
-
-
-
+Call <a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>

@@ -8,10 +8,6 @@ tech.root: wmformat
 ms.assetid: 08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddSignature method, IWMSecureChannel.WMSC_AddSignature, IWMSecureChannel::WMSC_AddSignature, WMSC_AddSignature, WMSC_AddSignature method [windows Media Format], WMSC_AddSignature method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addsignature, wmsecure/IWMSecureChannel::WMSC_AddSignature
-f1_keywords:
-- wmsecure/IWMSecureChannel.WMSC_AddSignature
-dev_langs:
-- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmsecure.h
-api_name:
-- IWMSecureChannel.WMSC_AddSignature
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSecureChannel::WMSC_AddSignature
+ - wmsecure/IWMSecureChannel::WMSC_AddSignature
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmsecure.h
+api_name:
+ - IWMSecureChannel.WMSC_AddSignature
 ---
 
 # IWMSecureChannel::WMSC_AddSignature
@@ -49,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>WMSC_AddSignature</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
     The <b>WMSC_AddSignature</b> method adds signatures that this object will look for when trying to connect. 
      If no signatures are added, then this object will connect to any other object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbCertSig [in]
 
-
 ### -param cbCertSig [in]
-
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>

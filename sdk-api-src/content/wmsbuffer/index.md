@@ -7,13 +7,15 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: wmformat
 archived: true
+f1_keywords:
+ - wmsbuffer
+ - wmsbuffer/wmsbuffer
 ---
 
 # Wmsbuffer.h header
 
 
 ## -description
-
 
 This header is used by Windows Media Format 11 SDK. For more information, see:
 

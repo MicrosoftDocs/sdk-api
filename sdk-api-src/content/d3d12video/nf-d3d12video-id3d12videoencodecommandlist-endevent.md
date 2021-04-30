@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.EndEvent
 title: ID3D12VideoEncodeCommandList::EndEvent
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: For internal use only. Not intended to be called directly.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::EndEvent
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::EndEvent
  - d3d12video/ID3D12VideoEncodeCommandList::EndEvent
 dev_langs:
  - c++
@@ -42,6 +42,8 @@ dev_langs:
 ## -description
 
 For internal use only. Not intended to be called directly.
+
+## -parameters
 
 ## -remarks
 

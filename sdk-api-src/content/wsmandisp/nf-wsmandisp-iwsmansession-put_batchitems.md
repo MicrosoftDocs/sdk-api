@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
 ms.date: 12/05/2018
 ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.put_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, put_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
-f1_keywords:
-- wsmandisp/IWSManSession.BatchItems
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManSession.BatchItems
-- IWSManSession.get_BatchItems
-- IWSManSession.put_BatchItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManSession::put_BatchItems
+ - wsmandisp/IWSManSession::put_BatchItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManSession.BatchItems
+ - IWSManSession.get_BatchItems
+ - IWSManSession.put_BatchItems
 ---
 
 # IWSManSession::put_BatchItems
@@ -51,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets and gets the number of   items in each enumeration batch. This value cannot be changed during an enumeration.  The resource provider may set a limit.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-This is an optimization feature that controls how often network calls are made between the client and the server. Currently, it is used only for enumerations. For more information about enumerating resources, see  <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>.
-
-
-
+This is an optimization feature that controls how often network calls are made between the client and the server. Currently, it is used only for enumerations. For more information about enumerating resources, see  <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-batchitems">Session.BatchItems</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRM/session-batchitems">Session.BatchItems</a>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 76a51c21-b924-4919-a6bb-8c6bdec5b3f0
 ms.date: 12/05/2018
 ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW
-f1_keywords:
-- shlwapi/PathQuoteSpaces
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathQuoteSpaces
-- PathQuoteSpacesA
-- PathQuoteSpacesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathQuoteSpacesW
+ - shlwapi/PathQuoteSpacesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathQuoteSpaces
+ - PathQuoteSpacesA
+ - PathQuoteSpacesW
 ---
 
 # PathQuoteSpacesW function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks.
 
-
 ## -parameters
-
-
-
 
 ### -param lpsz [in, out]
 
@@ -69,16 +65,11 @@ Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string that contains the path to search. The size of this buffer must be set to MAX_PATH to ensure that it is large enough to hold the returned string.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if spaces were found; otherwise, <b>FALSE</b>.
-
-
 
 ## -remarks
 

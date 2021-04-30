@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: ed539638-7953-471f-ac90-ebd4c3929e8e
 ms.date: 12/05/2018
 ms.keywords: CPVIEW_ALLITEMS, CPVIEW_CATEGORY, CPVIEW_CLASSIC, CPVIEW_HOME, GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IOpenControlPanel interface, IOpenControlPanel interface [Windows Shell],GetCurrentView method, IOpenControlPanel.GetCurrentView, IOpenControlPanel::GetCurrentView, _shell_IOpenControlPanel_GetCurrentView, shell.IOpenControlPanel_GetCurrentView, shobjidl_core/IOpenControlPanel::GetCurrentView
-f1_keywords:
-- shobjidl_core/IOpenControlPanel.GetCurrentView
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IOpenControlPanel.GetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpenControlPanel::GetCurrentView
+ - shobjidl_core/IOpenControlPanel::GetCurrentView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IOpenControlPanel.GetCurrentView
 ---
 
 # IOpenControlPanel::GetCurrentView
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the most recent Control Panel view: Classic view or Category view.
 
-
 ## -parameters
-
-
-
 
 ### -param pView [out]
 
@@ -88,14 +84,9 @@ A pointer that receives the most recent view. Valid values are as follows:
 
 0x1. <b>Windows 7 and later</b>. Equivalent to CPVIEW_CATEGORY.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

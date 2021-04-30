@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: EBF14890-3F7D-4814-93E1-570E81E05DF2
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_EXTENSION_FORMAT, TOKENBINDING_EXTENSION_FORMAT enumeration [Security], TOKENBINDING_EXTENSION_FORMAT_UNDEFINED, security.tokenbinding_extension_format, tokenbinding/TOKENBINDING_EXTENSION_FORMAT, tokenbinding/TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
-f1_keywords:
-- tokenbinding/TOKENBINDING_EXTENSION_FORMAT
-dev_langs:
-- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- tokenbinding.h
-api_name:
-- TOKENBINDING_EXTENSION_FORMAT
 targetos: Windows
 req.typenames: TOKENBINDING_EXTENSION_FORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TOKENBINDING_EXTENSION_FORMAT
+ - tokenbinding/TOKENBINDING_EXTENSION_FORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - tokenbinding.h
+api_name:
+ - TOKENBINDING_EXTENSION_FORMAT
 ---
 
 # TOKENBINDING_EXTENSION_FORMAT enumeration
@@ -49,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the formats that are available to interpret extension data.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TOKENBINDING_EXTENSION_FORMAT_UNDEFINED
 
 The format for interpreting the extension data is undefined.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>

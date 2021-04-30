@@ -3,10 +3,6 @@ UID: NF:processenv.SetStdHandleEx
 title: SetStdHandleEx
 ms.date: 4/26/2019
 ms.keywords: SetStdHandleEx
-f1_keywords:
-- SetStdHandleEx
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - SetStdHandleEx
+ - processenv/SetStdHandleEx
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- api-ms-win-core-processenvironment-l1-1-0.dll
+ - api-ms-win-core-processenvironment-l1-1-0.dll
 api_name:
-- SetStdHandleEx
+ - SetStdHandleEx
 ---
 
 ## -description

@@ -6,6 +6,9 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winrt
+f1_keywords:
+ - windows.ui.composition.interop
+ - windows.ui.composition.interop/windows.ui.composition.interop
 ---
 
 # Windows.Ui.Composition.Interop.h header
@@ -13,7 +16,7 @@ tech.root: winrt
 
 ## -description
 
-
 This header is used by Windows Runtime C++ reference. For more information, see:
 
 - [Windows Runtime C++ reference](../_winrt/index.md)
+

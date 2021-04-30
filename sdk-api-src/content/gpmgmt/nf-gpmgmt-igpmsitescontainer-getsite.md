@@ -8,10 +8,6 @@ tech.root: gpmc
 ms.assetid: f8b459d0-d0f5-48b1-8870-487a1645ae7a
 ms.date: 12/05/2018
 ms.keywords: GPMSitesContainer class [GPMC],GetSite method, GetSite, GetSite method [GPMC], GetSite method [GPMC],GPMSitesContainer class, GetSite method [GPMC],IGPMSitesContainer interface, IGPMSitesContainer interface [GPMC],GetSite method, IGPMSitesContainer.GetSite, IGPMSitesContainer::GetSite, _win32_igpmsitescontainer_getsite, gpmc.igpmsitescontainer_getsite, gpmgmt/IGPMSitesContainer::GetSite
-f1_keywords:
-- gpmgmt/IGPMSitesContainer.GetSite
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMSitesContainer.GetSite
-- GPMSitesContainer.GetSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMSitesContainer::GetSite
+ - gpmgmt/IGPMSitesContainer::GetSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMSitesContainer.GetSite
+ - GPMSitesContainer.GetSite
 ---
 
 # IGPMSitesContainer::GetSite
@@ -50,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the scope of management (SOM) object that corresponds to the site.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrSiteName [in]
 
 Required. The site of interest; for example, Default-first-site-name. Use null-terminated string.
 
-
 ### -param ppSOM [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a> interface.
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a> interface.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -83,20 +75,10 @@ Returns a reference to a <b>GPMSOM</b> object.
 <h3>VB</h3>
 Returns a reference to a <b>GPMSOM</b> object.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>

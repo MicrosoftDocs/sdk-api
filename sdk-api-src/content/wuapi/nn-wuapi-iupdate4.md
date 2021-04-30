@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 44904dd6-28d2-46b4-a237-0da68535cc84
 ms.date: 12/05/2018
 ms.keywords: IUpdate4, IUpdate4 interface [Windows Update Agent], IUpdate4 interface [Windows Update Agent],described, wua.iupdate4, wuapi/IUpdate4
-f1_keywords:
-- wuapi/IUpdate4
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate4
+ - wuapi/IUpdate4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate4
 ---
 
 # IUpdate4 interface
 
 
 ## -description
-
 
 Contains the  properties and methods that are available to an update.
 

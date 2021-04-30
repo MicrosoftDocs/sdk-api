@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
-f1_keywords:
-- spellcheck/ISpellCheckerFactory.IsSupported
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellCheckerFactory.IsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckerFactory::IsSupported
+ - spellcheck/ISpellCheckerFactory::IsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellCheckerFactory.IsSupported
 ---
 
 # ISpellCheckerFactory::IsSupported
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if the specified language is supported by a registered spell checker.
 
-
 ## -parameters
-
-
-
 
 ### -param languageTag [in]
 
 A <a href="http://tools.ietf.org/html/bcp47">BCP47</a> language tag that identifies the language for the requested spell checker.
 
-
 ### -param value [out, retval]
 
 <b>TRUE</b> if supported; <b>FALSE</b> if not supported.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,15 +105,8 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="http://tools.ietf.org/html/bcp47">BCP47 Tags for Identifying Languages
 
@@ -129,8 +114,4 @@ Successful.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>

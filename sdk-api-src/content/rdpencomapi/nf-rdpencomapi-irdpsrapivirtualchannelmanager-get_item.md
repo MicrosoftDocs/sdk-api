@@ -8,10 +8,6 @@ tech.root: rdp
 ms.assetid: 749072c9-9ad9-41e7-b706-9d27eb684a07
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
-f1_keywords:
-- rdpencomapi/IRDPSRAPIVirtualChannelManager.Item
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIVirtualChannelManager.Item
-- IRDPSRAPIVirtualChannelManager.get_Item
-- RDPSRAPIVirtualChannelManager.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIVirtualChannelManager::get_Item
+ - rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIVirtualChannelManager.Item
+ - IRDPSRAPIVirtualChannelManager.get_Item
+ - RDPSRAPIVirtualChannelManager.Item
 ---
 
 # IRDPSRAPIVirtualChannelManager::get_Item
@@ -51,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 An item in the virtual channel collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>

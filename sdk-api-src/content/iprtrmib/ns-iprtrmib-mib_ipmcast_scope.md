@@ -8,10 +8,6 @@ tech.root: MIB
 ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope'
-f1_keywords:
-- iprtrmib/MIB_IPMCAST_SCOPE
-dev_langs:
-- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iprtrmib.h
-api_name:
-- MIB_IPMCAST_SCOPE
 targetos: Windows
 req.typenames: MIB_IPMCAST_SCOPE, *PMIB_IPMCAST_SCOPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPMCAST_SCOPE
+ - iprtrmib/_MIB_IPMCAST_SCOPE
+ - PMIB_IPMCAST_SCOPE
+ - iprtrmib/PMIB_IPMCAST_SCOPE
+ - MIB_IPMCAST_SCOPE
+ - iprtrmib/MIB_IPMCAST_SCOPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iprtrmib.h
+api_name:
+ - MIB_IPMCAST_SCOPE
 ---
 
 # MIB_IPMCAST_SCOPE structure
@@ -49,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MIB_IPMCAST_SCOPE</b> structure contains a multicast scope name and the associated IPv4 multicast group address and mask that define the scope.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwGroupAddress
 
@@ -71,8 +71,7 @@ A 32-bit integer representation of the IPv4 group address which, when combined w
 
 Type: <b>DWORD</b>
 
-A 32-bit integer representation of the IPv4 group address mask which, when combined with the corresponding value in <b>dwGroupAddress</b>, identifies the group range for which the multicast scope exists. 
-
+A 32-bit integer representation of the IPv4 group address mask which, when combined with the corresponding value in <b>dwGroupAddress</b>, identifies the group range for which the multicast scope exists.
 
 ### -field snNameBuffer
 
@@ -80,8 +79,7 @@ Type: <b>WCHAR[256]</b>
 
 A Unicode character array that contains the text name associated with the multicast scope. The name should be suitable for display to multicast application users.
 
-If no name is specified, the default name is the string representation of the scoped address in <b>dwGroupAddress</b> with the address and mask length appended and separated by a backslash "/" character, of the form "239.*.*.*.x/y", where <b>x</b> is the address length and<b> y</b> is the mask length.
-
+If no name is specified, the default name is the string representation of the scoped address in <b>dwGroupAddress</b> with the address and mask length appended and separated by a slash "/" character, of the form "239.*.*.*.x/y", where <b>x</b> is the address length and <b>y</b> is the mask length.
 
 ### -field dwStatus
 
@@ -161,14 +159,8 @@ Row has <b>destroy</b> status.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Iprtrmib.h</i> header files should never be used directly.
-
-
 

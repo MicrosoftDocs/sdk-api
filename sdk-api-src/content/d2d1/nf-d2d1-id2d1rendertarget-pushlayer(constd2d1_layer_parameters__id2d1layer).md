@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 905e9c76-d09e-4df8-8343-520d856ec6b8
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],PushLayer method, ID2D1RenderTarget.PushLayer, ID2D1RenderTarget.PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer), ID2D1RenderTarget::PushLayer, ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer), PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::PushLayer, direct2d.ID2D1RenderTarget_PushLayer_ref_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer
-f1_keywords:
-- d2d1/ID2D1RenderTarget.PushLayer
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.PushLayer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::PushLayer
+ - d2d1/ID2D1RenderTarget::PushLayer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.PushLayer
 ---
 
 # ID2D1RenderTarget::PushLayer(const D2D1_LAYER_PARAMETERS &,ID2D1Layer)
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the specified layer to the render target so that it receives all subsequent drawing operations until <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a> is called.
 
-
 ## -parameters
-
-
-
 
 ### -param layerParameters [ref]
 
 Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_layer_parameters">D2D1_LAYER_PARAMETERS</a></b>
 
 The content bounds, geometric mask, opacity, opacity mask, and antialiasing options for the layer.
-
 
 ### -param layer [in]
 
@@ -75,8 +70,6 @@ The layer that receives subsequent drawing operations.
 <div> </div>
 
 ## -remarks
-
-
 
 The <b>PushLayer</b> method allows a caller to begin redirecting rendering to a layer. All rendering operations are valid in a layer. The location of the layer is affected by the world transform set on the render target. 
 
@@ -132,14 +125,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
@@ -150,7 +136,4 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>
- 
-
- 
 

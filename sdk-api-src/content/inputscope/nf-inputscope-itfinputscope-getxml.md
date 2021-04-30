@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 7e7a2780-6080-4f9a-b036-bc8f6258bcb5
 ms.date: 12/05/2018
 ms.keywords: GetXML, GetXML method [Text Services Framework], GetXML method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetXML method, ITfInputScope.GetXML, ITfInputScope::GetXML, inputscope/ITfInputScope::GetXML, tsf.itfinputscope_getXML, tsf.itfinputscope_xml
-f1_keywords:
-- inputscope/ITfInputScope.GetXML
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputScope.GetXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope::GetXML
+ - inputscope/ITfInputScope::GetXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputScope.GetXML
 ---
 
 # ITfInputScope::GetXML
@@ -53,17 +54,11 @@ Gets the custom XML string to be recognized.
 
 ## -parameters
 
-
-
-
 ### -param pbstrXML [out]
 
 Pointer to a string containing the xml string. The calling function must call <b>SysFreeString()</b> to free the buffer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,7 +79,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

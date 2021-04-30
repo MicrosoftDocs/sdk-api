@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: 72528ef3-3e38-4f1f-a686-45c3caa1d9d3
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyDeepBasePropsOnly, EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management], EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeepBasePropsOnly method, IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly, IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly, winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
-f1_keywords:
-- wsmandisp/IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
+ - wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
 ---
 
 # IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly
@@ -49,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</b> method returns the value of the enumeration constant <b>EnumerationFlagHierarchyDeepBasePropsOnly</b> for use in the <i>flags</i> parameter of the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
-The <b>IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</b> method returns the value of the enumeration constant <b>EnumerationFlagHierarchyDeepBasePropsOnly</b> for use in the <i>flags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
-
-<b>EnumerationFlagHierarchyDeepBasePropsOnly</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
-
+<b>EnumerationFlagHierarchyDeepBasePropsOnly</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 ## -parameters
-
-
-
 
 ### -param flags [out]
 
 The value of the constant.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>

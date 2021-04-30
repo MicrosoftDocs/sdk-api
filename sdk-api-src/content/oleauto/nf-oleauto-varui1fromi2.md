@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 6055b933-40ad-4bcb-a875-611e77296027
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromI2, VarUI1FromI2 function [Automation], _oa96_VarUI1FromI2, automat.varui1fromi2, oleauto/VarUI1FromI2
-f1_keywords:
-- oleauto/VarUI1FromI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI1FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI1FromI2
+ - oleauto/VarUI1FromI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI1FromI2
 ---
 
 # VarUI1FromI2 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a short value to an unsigned char value.
 
-
 ## -parameters
-
-
-
 
 ### -param sIn [in]
 
 The value to convert.
 
-
 ### -param pbOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

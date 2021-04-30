@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: e17dc58f-3fa7-4069-b8ec-16331438b832
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_OBJECT_ID_EXTENDED, FSCTL_SET_OBJECT_ID_EXTENDED control, FSCTL_SET_OBJECT_ID_EXTENDED control code [Files], _win32_fsctl_set_object_id_extended, base.fsctl_set_object_id_extended, fs.fsctl_set_object_id_extended, winioctl/FSCTL_SET_OBJECT_ID_EXTENDED
-f1_keywords:
-- winioctl/FSCTL_SET_OBJECT_ID_EXTENDED
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_SET_OBJECT_ID_EXTENDED
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_SET_OBJECT_ID_EXTENDED
+ - winioctl/FSCTL_SET_OBJECT_ID_EXTENDED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_SET_OBJECT_ID_EXTENDED
 ---
 
 # FSCTL_SET_OBJECT_ID_EXTENDED IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -113,7 +108,6 @@ SMB 3.0 with Scale-out File Shares (SO) | Yes
 Cluster Shared Volume File System (CsvFS) | Yes
 Resilient File System (ReFS) | No
 
-
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
@@ -123,4 +117,4 @@ Resilient File System (ReFS) | No
 * [FSCTL_DELETE_OBJECT_ID](ni-winioctl-fsctl_delete_object_id.md)
 * [FSCTL_GET_OBJECT_ID](ni-winioctl-fsctl_get_object_id.md)
 * [FSCTL_SET_OBJECT_ID](ni-winioctl-fsctl_set_object_id.md)
-* [Object Identifiers](https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)
+* [Object Identifiers](/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers)

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
 ms.date: 12/05/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
-f1_keywords:
-- appxpackaging/IAppxBundleReader.GetPayloadPackage
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleReader.GetPayloadPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleReader::GetPayloadPackage
+ - appxpackaging/IAppxBundleReader::GetPayloadPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleReader.GetPayloadPackage
 ---
 
 # IAppxBundleReader::GetPayloadPackage
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an appx file object for the payload package with the specified file name.
-
 
 ## -parameters
 
-
-
-
 ### -param fileName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the payload file to be retrieved.
 
-
 ### -param payloadPackage [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The payload file object the that corresponds to <i>fileName</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,27 +89,11 @@ There is no payload file with the specified file name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can pass the file object’s stream into <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagereader">IAppxFactory::CreatePackageReader</a> to get a package reader object over the appx file. 
-
-
-
+You can pass the file object’s stream into <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createpackagereader">IAppxFactory::CreatePackageReader</a> to get a package reader object over the appx file.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>

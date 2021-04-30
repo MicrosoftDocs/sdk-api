@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.GetSuspendNotify
 title: IMFContentDecryptionModule::GetSuspendNotify
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves an object for IMFContentDecryptionModuleSession suspend events.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::GetSuspendNotify
 f1_keywords:
+ - IMFContentDecryptionModule::GetSuspendNotify
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::GetSuspendNotify
 dev_langs:
  - c++
@@ -47,7 +47,7 @@ Retrieves an object for [IMFContentDecryptionModuleSession](nn-mfcontentdecrypti
 
 ### -param notify
 
-Receives an [IMFCdmSuspendNotify](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify) object that notifies the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
+Receives an [IMFCdmSuspendNotify](../mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify.md) object that notifies the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
 
 ## -returns
 
@@ -56,4 +56,3 @@ Returns S_OK on success.
 ## -remarks
 
 ## -see-also
-

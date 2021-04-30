@@ -1,0 +1,13 @@
+# Enable/Disable recommender
+enabled: true
+# How many reviewers to add?
+maxReviewers: 2
+# Exclude files/paths in PR to be considered for recommendation  
+excludedPaths:
+# Only suggest reviewers that are included in the following list
+includedReviewers:
+# Do not make recommendations for reviewers that are included in the following list
+excludedReviewers:
+ - cdwilson@microsoft.com
+ - v-jiangc@microsoft.com
+ - v-jex@microsoft.com

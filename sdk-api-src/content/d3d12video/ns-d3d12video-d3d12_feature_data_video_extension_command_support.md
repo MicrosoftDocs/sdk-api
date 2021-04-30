@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT
 title: D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves video extension command support using command-defined input and output structures.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT
 f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT
  - d3d12video/D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT
 dev_langs:
  - c++

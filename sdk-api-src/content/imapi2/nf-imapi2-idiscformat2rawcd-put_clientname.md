@@ -8,10 +8,6 @@ tech.root: imapi
 ms.assetid: 49fce259-2b39-4905-a48f-a252537d8360
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],put_ClientName method, IDiscFormat2RawCD.put_ClientName, IDiscFormat2RawCD::put_ClientName, imapi.idiscformat2rawcd_put_clientname, imapi2/IDiscFormat2RawCD::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2RawCD interface
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.put_ClientName
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.put_ClientName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::put_ClientName
+ - imapi2/IDiscFormat2RawCD::put_ClientName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.put_ClientName
 ---
 
 # IDiscFormat2RawCD::put_ClientName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the friendly name of the client. 
-
+Sets the friendly name of the client.
 
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 Name of the client application. Cannot be <b>NULL</b> or an empty string.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -127,33 +120,17 @@ Value: 0xC0AA0603
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The name is used when the write operation requests exclusive access to the device. The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> property contains the name of the client that has the lock.
+The name is used when the write operation requests exclusive access to the device. The <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a> property contains the name of the client that has the lock.
 
 Because any application with read/write access to the CDROM device during the write operation can use the IOCTL_CDROM_EXCLUSIVE_ACCESS (query) control code (see the Microsoft Windows Driver Development Kit (DDK)) to access the name, it is important that the name identify the program that is using this interface to write to the media. The name is restricted to the same character set as required by the IOCTL_CDROM_EXCLUSIVE_ACCESS control code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_clientname">IDiscFormat2RawCD::get_ClientName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_clientname">IDiscFormat2RawCD::get_ClientName</a>

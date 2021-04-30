@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 91081373-60cd-4a90-a304-1e67fff9a483
 ms.date: 12/05/2018
 ms.keywords: GetNamedPipeInfo, GetNamedPipeInfo function, PIPE_CLIENT_END, PIPE_SERVER_END, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, _win32_getnamedpipeinfo, base.getnamedpipeinfo, namedpipeapi/GetNamedPipeInfo
-f1_keywords:
-- namedpipeapi/GetNamedPipeInfo
-dev_langs:
-- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-NamedPipe-l1-2-1.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-NamedPipe-L1-2-2.dll
-api_name:
-- GetNamedPipeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNamedPipeInfo
+ - namedpipeapi/GetNamedPipeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - GetNamedPipeInfo
 ---
 
 # GetNamedPipeInfo function
@@ -53,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the specified named pipe.
 
-
 ## -parameters
-
-
-
 
 ### -param hNamedPipe [in]
 
@@ -71,7 +67,6 @@ A handle to the named pipe instance. The handle must have GENERIC_READ access to
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
 <a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
-
 
 ### -param lpFlags [out, optional]
 
@@ -129,49 +124,31 @@ The named pipe is a message pipe. If this value is not specified, the pipe is a 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpOutBufferSize [out, optional]
 
 A pointer to a variable that receives the size of the buffer for outgoing data, in bytes. If the buffer size is zero, the buffer is allocated as needed. This parameter can be <b>NULL</b> if this information is not required.
 
-
 ### -param lpInBufferSize [out, optional]
 
 A pointer to a variable that receives the size of the buffer for incoming data, in bytes. If the buffer size is zero, the buffer is allocated as needed. This parameter can be <b>NULL</b> if this information is not required.
-
 
 ### -param lpMaxInstances [out, optional]
 
 A pointer to a variable that receives the maximum number of pipe instances that can be created. If the variable is set to PIPE_UNLIMITED_INSTANCES (255), the number of pipe instances that can be created is limited only by the availability of system resources. This parameter can be <b>NULL</b> if this information is not required.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 <b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\\\.\\pipe\\LOCAL\\" for the pipe name.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
@@ -186,7 +163,4 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 <a href="/windows/win32/ipc/pipes">Pipes Overview</a>
- 
-
- 
 

@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_DATA_EVENT_TAG_STATS
 title: DIAGNOSTIC_DATA_EVENT_TAG_STATS
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_DATA_EVENT_TAG_STATS, DIAGNOSTIC_DATA_EVENT_TAG_STATS
-ms.topic: language-reference
-description: A resource that includes a privacy tag and how many events have this privacy tag. 
+description: A resource that includes a privacy tag and how many events have this privacy tag.
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -32,23 +31,32 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_DATA_EVENT_TAG_STATS
  - DIAGNOSTIC_DATA_EVENT_TAG_STATS
+f1_keywords:
+ - tagDIAGNOSTIC_DATA_EVENT_TAG_STATS
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_DATA_EVENT_TAG_STATS
+ - DIAGNOSTIC_DATA_EVENT_TAG_STATS
+ - diagnosticdataquerytypes/DIAGNOSTIC_DATA_EVENT_TAG_STATS
 ---
 
 ## -description
-A resource that includes a privacy tag and how many events have this privacy tag. 
+
+A resource that includes a privacy tag and how many events have this privacy tag.
 
 ## -struct-fields
 
 ### -field privacyTag
+
 Type: **[INT32](/windows/desktop/winprog/windows-data-types)**
-The numeric identifier for this privacy tag. 
+The numeric identifier for this privacy tag.
 
 ### -field eventCount
+
 Type: **[UINT32](/windows/desktop/winprog/windows-data-types)**
-The number of events that have this privacy tag. 
+The number of events that have this privacy tag.
 
 ## -remarks
-See our [**privacy statement**]("/windows/privacy/windows-diagnostic-data") for information about diagnostic data privacy tags.
+
+See our [**privacy statement**](/windows/privacy/windows-diagnostic-data) for information about diagnostic data privacy tags.
 
 ## -see-also
 

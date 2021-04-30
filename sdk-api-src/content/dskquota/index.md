@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: fs
+f1_keywords:
+ - dskquota
+ - dskquota/dskquota
 ---
 
 # Dskquota.h header
 
 
 ## -description
-
 
 This header is used by Data Access and Storage. For more information, see:
 

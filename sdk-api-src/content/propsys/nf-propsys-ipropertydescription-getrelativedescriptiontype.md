@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: b3778988-63ac-4827-8098-c3c5b6b13e38
 ms.date: 12/05/2018
 ms.keywords: GetRelativeDescriptionType, GetRelativeDescriptionType method [Windows Properties], GetRelativeDescriptionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetRelativeDescriptionType method, IPropertyDescription.GetRelativeDescriptionType, IPropertyDescription::GetRelativeDescriptionType, properties.IPropertyDescription_GetRelativeDescriptionType, propsys/IPropertyDescription::GetRelativeDescriptionType, shell.IPropertyDescription_GetRelativeDescriptionType, shell_IPropertyDescription_GetRelativeDescriptionType
-f1_keywords:
-- propsys/IPropertyDescription.GetRelativeDescriptionType
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescription.GetRelativeDescriptionType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescription::GetRelativeDescriptionType
+ - propsys/IPropertyDescription::GetRelativeDescriptionType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescription.GetRelativeDescriptionType
 ---
 
 # IPropertyDescription::GetRelativeDescriptionType
@@ -48,53 +49,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the relative description type for a property description.
-
 
 ## -parameters
 
-
-
-
 ### -param prdt [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to the relative description type value. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
-
+When this method returns, contains a pointer to the relative description type value. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Always returns <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
-The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
-
-
-
+The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.date: 12/05/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
-f1_keywords:
-- intsafe/LongLongMult
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- LongLongMult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LongLongMult
+ - intsafe/LongLongMult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - LongLongMult
 ---
 
 # LongLongMult function
@@ -49,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Multiplies two values of type <b>LONGLONG</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param llMultiplicand [in]
 
 The first value.
 
-
 ### -param llMultiplier [in]
 
 The second value.
-
 
 ### -param pllResult [out]
 
 The result.
 
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

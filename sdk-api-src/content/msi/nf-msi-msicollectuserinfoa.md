@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.date: 12/05/2018
 ms.keywords: MsiCollectUserInfo, MsiCollectUserInfo function, MsiCollectUserInfoA, MsiCollectUserInfoW, _msi_msicollectuserinfo, msi/MsiCollectUserInfo, msi/MsiCollectUserInfoA, msi/MsiCollectUserInfoW, setup.msicollectuserinfo
-f1_keywords:
-- msi/MsiCollectUserInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiCollectUserInfo
-- MsiCollectUserInfoA
-- MsiCollectUserInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiCollectUserInfoA
+ - msi/MsiCollectUserInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiCollectUserInfo
+ - MsiCollectUserInfoA
+ - MsiCollectUserInfoW
 ---
 
 # MsiCollectUserInfoA function
@@ -51,24 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiCollectUserInfo</b> function obtains and stores the user information and product ID from an installation wizard.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code of the product for which the user information is collected.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -105,14 +98,14 @@ The function succeeded.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,24 +119,18 @@ An error relating to initialization occurred.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiCollectUserInfo</b> function is typically called by an application during the first run of the application. The application first calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetuserinfoa">MsiGetUserInfo</a>. If that call fails, the application calls 
+<a href="/windows/desktop/api/msi/nf-msi-msigetuserinfoa">MsiGetUserInfo</a>. If that call fails, the application calls 
 <b>MsiCollectUserInfo</b>. 
 <b>MsiCollectUserInfo</b> opens the product's installation package and invokes a wizard sequence that collects user information. Upon completion of the sequence, user information is registered. Since this API requires an authored user interface, the user interface level should be set to full by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> as INSTALLUILEVEL_FULL.
+<a href="/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> as INSTALLUILEVEL_FULL.
 
 The 
 <b>MsiCollectUserInfo</b> invokes a 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/firstrun-dialog">FirstRun Dialog</a>.
+<a href="/windows/desktop/Msi/firstrun-dialog">FirstRun Dialog</a>.
 
 
 
@@ -154,19 +141,12 @@ The
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>

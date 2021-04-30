@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: acefb3a0-82c7-4af6-8ef0-aba561f570c1
 ms.date: 12/05/2018
 ms.keywords: IME_CONFIG_GENERAL, IME_CONFIG_REGISTERWORD, IME_CONFIG_SELECTDICTIONARY, ImmConfigureIME, ImmConfigureIME function [Internationalization for Windows Applications], ImmConfigureIMEA, ImmConfigureIMEW, _win32_ImmConfigureIME, imm/ImmConfigureIME, imm/ImmConfigureIMEA, imm/ImmConfigureIMEW, intl.immconfigureime
-f1_keywords:
-- imm/ImmConfigureIME
-dev_langs:
-- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- imm32.dll
-api_name:
-- ImmConfigureIME
-- ImmConfigureIMEA
-- ImmConfigureIMEW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmConfigureIMEW
+ - imm/ImmConfigureIMEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - imm32.dll
+api_name:
+ - ImmConfigureIME
+ - ImmConfigureIMEA
+ - ImmConfigureIMEW
 ---
 
 # ImmConfigureIMEW function
@@ -51,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays the configuration dialog box for the IME of the specified input locale identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param HKL [in]
 
 Input locale identifier of an IME.
 
-
 ### -param HWND [in]
 
 Handle to the parent window for the dialog box.
-
 
 ### -param DWORD [in]
 
@@ -110,43 +104,28 @@ Display dictionary selection dialog box.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param LPVOID [in]
 
-Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
-
+Pointer to supplemental data. If <i>dwMode</i> is set to IME_CONFIG_REGISTERWORD, this parameter must indicate a <a href="/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a> structure. If <i>dwMode</i> is not IME_CONFIG_REGISTERWORD, this parameter is ignored.
 
 ## -returns
 
-
-
 Returns a nonzero value if successful, or 0 otherwise.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a>
- 
-
- 
+<a href="/windows/desktop/api/imm/ns-imm-registerworda">REGISTERWORD</a>
 
 ## -remarks
 
 > [!NOTE]
 > The imm.h header defines ImmConfigureIME as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

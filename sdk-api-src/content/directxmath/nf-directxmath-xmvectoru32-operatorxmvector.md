@@ -51,10 +51,12 @@ The operator **XMVECTOR** returns the instance of **XMVECTOR** implementing the 
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
+## -parameters
+
 ## -remarks
 
 Returns the instance of **XMVECTOR** implementing the current instance of XMVECTORU32.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>

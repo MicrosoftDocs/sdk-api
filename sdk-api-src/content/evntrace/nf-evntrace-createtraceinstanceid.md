@@ -8,10 +8,6 @@ tech.root: ETW
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897
 ms.date: 12/05/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
-f1_keywords:
-- evntrace/CreateTraceInstanceId
-dev_langs:
-- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- CreateTraceInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateTraceInstanceId
+ - evntrace/CreateTraceInstanceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - CreateTraceInstanceId
 ---
 
 # CreateTraceInstanceId function
@@ -49,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>CreateTraceInstanceId</b> function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
-		
-
+<b>CreateTraceInstanceId</b> function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
 
 ## -parameters
-
-
-
 
 ### -param RegHandle [in]
 
 Handle to a registered event trace class. The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function returns this handle in the <b>RegHandle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-registration">TRACE_GUID_REGISTRATION</a> structure.
-					
-
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function returns this handle in the <b>RegHandle</b> member of the <a href="/windows/desktop/ETW/trace-guid-registration">TRACE_GUID_REGISTRATION</a> structure.
 
 ### -param InstInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure. The <b>InstanceId</b> member of this structure contains the transaction identifier.
-
+<a href="/windows/desktop/ETW/event-instance-info">EVENT_INSTANCE_INFO</a> structure. The <b>InstanceId</b> member of this structure contains the transaction identifier.
 
 ## -returns
-
-
 
 If the function is successful, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -104,14 +94,8 @@ One of the following is true:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Providers call this function.
 
@@ -122,23 +106,14 @@ ETW creates the identifier in the user-mode process, thus it can return the same
 
 For an example that uses 
 <b>CreateTraceInstanceId</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/tracing-event-instances">Tracing Event Instances</a>.
+<a href="/windows/desktop/ETW/tracing-event-instances">Tracing Event Instances</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
- 
-
- 
-
+<a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>

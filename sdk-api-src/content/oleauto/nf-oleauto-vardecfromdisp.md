@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 514637e1-ae11-4fa5-9947-ca697953b344
 ms.date: 12/05/2018
 ms.keywords: VarDecFromDisp, VarDecFromDisp function [Automation], _oa96_VarDecFromDisp, automat.vardecfromdisp, oleauto/VarDecFromDisp
-f1_keywords:
-- oleauto/VarDecFromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecFromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecFromDisp
+ - oleauto/VarDecFromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecFromDisp
 ---
 
 # VarDecFromDisp function
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a decimal value.
-
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a decimal value.
 
 ## -parameters
-
-
-
 
 ### -param pdispIn [in]
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param pdecOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -153,7 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: e58216ea-e6b5-450f-a0ea-b879aa5dff38
 ms.date: 12/05/2018
 ms.keywords: ID2D1Bitmap, ID2D1Bitmap interface [Direct2D], ID2D1Bitmap interface [Direct2D],described, d2d1/ID2D1Bitmap, direct2d.ID2D1Bitmap
-f1_keywords:
-- d2d1/ID2D1Bitmap
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Bitmap
+ - d2d1/ID2D1Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Bitmap
 ---
 
 # ID2D1Bitmap interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a bitmap that has been bound to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>.
-
 
 ## -inheritance
 
@@ -60,83 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Bitmap</b> interface inh
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1Bitmap</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap">CopyFromBitmap</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from the specified bitmap into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrommemory">CopyFromMemory</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from memory into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfromrendertarget">CopyFromRenderTarget</a>
-</td>
-<td align="left" width="63%">
-Copies the specified region from the specified render target into the current bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getdpi">GetDpi</a>
-</td>
-<td align="left" width="63%">
-Return the dots per inch (DPI) of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getpixelformat">GetPixelFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the pixel format and alpha mode of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">GetPixelSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size, in device-dependent units (pixels), of the bitmap.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Returns the size, in device-independent pixels (DIPs), of the bitmap.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 <h3><a id="Creating_ID2D1Bitmap_Objects"></a><a id="creating_id2d1bitmap_objects"></a><a id="CREATING_ID2D1BITMAP_OBJECTS"></a>Creating ID2D1Bitmap Objects</h3>
 To create a bitmap, use one of the following methods of the render target on which the bitmap will be drawn: <ul>
@@ -160,12 +83,7 @@ For examples that show how to create an <b>ID2D1Bitmap</b> from a WIC bitmap, se
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a   Bitmap from a File</a>
 
@@ -180,7 +98,4 @@ For examples that show how to create an <b>ID2D1Bitmap</b> from a WIC bitmap, se
 
 
 <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
- 
-
- 
 

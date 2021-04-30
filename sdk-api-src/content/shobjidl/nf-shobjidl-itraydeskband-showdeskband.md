@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
-f1_keywords:
-- shobjidl/ITrayDeskBand.ShowDeskBand
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- ITrayDeskBand.ShowDeskBand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITrayDeskBand::ShowDeskBand
+ - shobjidl/ITrayDeskBand::ShowDeskBand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - ITrayDeskBand.ShowDeskBand
 ---
 
 # ITrayDeskBand::ShowDeskBand
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows a specified deskband.
 
-
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
@@ -64,14 +60,9 @@ Type: <b>REFCLSID</b>
 
 A reference to a deskband CLSID.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

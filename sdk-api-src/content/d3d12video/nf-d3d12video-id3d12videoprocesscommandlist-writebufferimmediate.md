@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessCommandList::WriteBufferImmediate","Wri
 tech.root: mf
 ms.assetid: adb313fe-7c4b-451e-b1a8-19b390460194
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::WriteBufferImmediate
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::WriteBufferImmediate, WriteBufferImmediate, ID3D12VideoProcessCommandList.WriteBufferImmediate, ID3D12VideoProcessCommandList::WriteBufferImmediate, ID3D12VideoProcessCommandList.WriteBufferImmediate
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::WriteBufferImmediate
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::WriteBufferImmediate
+ - d3d12video/ID3D12VideoProcessCommandList::WriteBufferImmediate
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::WriteBufferImmediate
 ---
 
 # ID3D12VideoProcessCommandList::WriteBufferImmediate
@@ -55,13 +56,14 @@ The number of elements in the *pParams* and *pModes* arrays.
 
 ### -param pParams
 
-The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_PARAMETER](https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter) structures of size *Count*.
+The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_PARAMETER](/windows/desktop/api/d3d12/ns-d3d12-d3d12_writebufferimmediate_parameter) structures of size *Count*.
 
 ### -param pModes
-The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
+
+The address of an array of [D3D12_WRITEBUFFERIMMEDIATE_MODE](/windows/desktop/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode) structures of size *Count*. The default value is <b>null</b>. Passing <b>null</b> causes the system to write all immediate values using **D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT**.
 
 ## -remarks
 
 ## -see-also
 
-[D3D12_FEATURE_DATA_D3D12_OPTIONS3::WriteBufferImmediateSupportFlags](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3)
+[D3D12_FEATURE_DATA_D3D12_OPTIONS3::WriteBufferImmediateSupportFlags](../d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3.md)

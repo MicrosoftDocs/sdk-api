@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: mapi
+f1_keywords:
+ - mapiunicodehelp
+ - mapiunicodehelp/mapiunicodehelp
 ---
 
 # Mapiunicodehelp.h header
 
 
 ## -description
-
 
 This header is used by Windows Messaging (MAPI). For more information, see:
 

@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.GetProtectionSystemIds
 title: IMFContentDecryptionModule::GetProtectionSystemIds
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::GetProtectionSystemIds
 f1_keywords:
+ - IMFContentDecryptionModule::GetProtectionSystemIds
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::GetProtectionSystemIds
 dev_langs:
  - c++
@@ -61,8 +61,6 @@ Returns S_OK on success.
 
 **SystemIDs** are identifiers used in the "cenc" Initialization Data Format. For more details, see ["cenc" Initialization Data Format](https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html).
 
-The *systemIds* memory must be allocated and freed using [CoTaskMem](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc).
-
+The *systemIds* memory must be allocated and freed using [CoTaskMem](../combaseapi/nf-combaseapi-cotaskmemalloc.md).
 
 ## -see-also
-

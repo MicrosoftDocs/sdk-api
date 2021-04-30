@@ -2,7 +2,6 @@
 UID: NS:winnt._PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
 title: PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
 ms.date: 4/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: Contains dynamic exception handling continuation targets.
 req.construct-type: structure
@@ -30,7 +29,11 @@ api_name:
  - _PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
  - PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
 f1_keywords:
+ - _PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
  - winnt/_PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
+ - PPROCESS_DYNAMIC_EH_CONTINUATION_TARGET
+ - winnt/PPROCESS_DYNAMIC_EH_CONTINUATION_TARGET
+ - PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
  - winnt/PROCESS_DYNAMIC_EH_CONTINUATION_TARGET
 dev_langs:
  - c++
@@ -40,13 +43,11 @@ dev_langs:
 
 Contains dynamic exception handling continuation targets. The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdynamicehcontinuationtargets">SetProcessDynamicEHContinuationTargets</a> function uses this structure.
 
-
 ## -struct-fields
 
 ### -field TargetAddress
 
 The address of a dynamic exception handling continuation target.
-
 
 ### -field Flags
 

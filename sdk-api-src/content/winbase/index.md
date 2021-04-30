@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: backup
+f1_keywords:
+ - winbase
+ - winbase/winbase
 ---
 
 # Winbase.h header
 
 
 ## -description
-
 
 This header is used by Backup. For more information, see:
 

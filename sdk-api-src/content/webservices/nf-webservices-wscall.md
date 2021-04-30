@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 300d25b7-6742-4bed-9786-6c599981ec22
 ms.date: 12/05/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
-f1_keywords:
-- webservices/WsCall
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCall
+ - webservices/WsCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCall
 ---
 
 # WsCall function
@@ -49,30 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Used internally by the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
+Used internally by the <a href="/windows/desktop/wsw/service-proxy">service proxy</a>  to format the specified arguments according to the specified metadata and send them in a message. The application should 
                 never call this function directly.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param serviceProxy [in]
 
 Pointer to a WS_SERVICE_PROXY structure representing the service proxy.
-            
-
 
 ### -param operation [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call. 
-                
-
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_operation_description">WS_OPERATION_DESCRIPTION</a> structure containing the metadata for the call.
 
 ### -param arguments [in, optional]
 
@@ -80,41 +69,28 @@ An array of pointers to the individual arguments for the service operation being
 
 The number of elements must correspond to the number of parameters specified as part of WS_OPERATION_DESCRIPTION in
                    the operation parameter.
-                
-
 
 ### -param heap [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which memory is allocated for the call.
-                
-
+Pointer to a <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="/windows/desktop/wsw/heap">heap</a> from which memory is allocated for the call.
 
 ### -param callProperties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
-                
-
+An array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_call_property">WS_CALL_PROPERTY</a> structures containing the call properties.
 
 ### -param callPropertyCount [in]
 
 The number of properties in the call properties array.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Pointer to information for invoking the function asynchronously. Pass <b>NULL</b> to invoke the function synchronously.
 
-
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -213,7 +189,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

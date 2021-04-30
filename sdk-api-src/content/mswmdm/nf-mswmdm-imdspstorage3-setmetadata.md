@@ -8,10 +8,6 @@ tech.root: WMDM
 ms.assetid: bfb9a1e4-3cf6-4605-9613-d93f9cce201b
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage3 interface [windows Media Device Manager],SetMetadata method, IMDSPStorage3.SetMetadata, IMDSPStorage3::SetMetadata, IMDSPStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IMDSPStorage3 interface, mswmdm/IMDSPStorage3::SetMetadata, wmdm.imdspstorage3_setmetadata
-f1_keywords:
-- mswmdm/IMDSPStorage3.SetMetadata
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorage3.SetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage3::SetMetadata
+ - mswmdm/IMDSPStorage3::SetMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorage3.SetMetadata
 ---
 
 # IMDSPStorage3::SetMetadata
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetMetadata</b> method provides the metadata associated with a specified content.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pMetadata [in]
 
 Pointer to an <b>IWMDMMetadata</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,43 +91,27 @@ The device does not support setting metadata.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A service provider calls <b>IWMDMMetaData::QueryByName</b> or <b>IWMDMMetaData::QueryByIndex</b> to retrieve the metadata.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage3">IMDSPStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata">IMDSPStorage3::GetMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage3-getmetadata">IMDSPStorage3::GetMetadata</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">IWMDMMetaData::QueryByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">IWMDMMetaData::QueryByIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">IWMDMMetaData::QueryByName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">IWMDMMetaData::QueryByName</a>

@@ -8,10 +8,6 @@ tech.root: cloudapi
 ms.assetid: F70ECFDB-8542-4395-9EDD-7DABC2E5225D
 ms.date: 12/05/2018
 ms.keywords: CF_CREATE_FLAGS, CF_CREATE_FLAGS enumeration, CF_CREATE_FLAG_NONE, CF_CREATE_FLAG_STOP_ON_ERROR, PCF_CREATE_FLAGS, PCF_CREATE_FLAGS enumeration pointer, cfapi/CF_CREATE_FLAGS, cfapi/CF_CREATE_FLAG_NONE, cfapi/CF_CREATE_FLAG_STOP_ON_ERROR, cfapi/PCF_CREATE_FLAGS, cloudApi.cf_create_flags
-f1_keywords:
-- cfapi/CF_CREATE_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_CREATE_FLAGS
 targetos: Windows
 req.typenames: CF_CREATE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_CREATE_FLAGS
+ - cfapi/CF_CREATE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_CREATE_FLAGS
 ---
 
 # CF_CREATE_FLAGS enumeration
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flags for creating a placeholder file or directory.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CF_CREATE_FLAG_NONE
 
 Default mode. All entries are processed.
-
 
 ### -field CF_CREATE_FLAG_STOP_ON_ERROR
 

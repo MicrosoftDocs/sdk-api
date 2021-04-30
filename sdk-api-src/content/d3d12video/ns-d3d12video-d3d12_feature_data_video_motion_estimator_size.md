@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes the allocation size of a video motion estimator heap.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
  - d3d12video/D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE
 dev_langs:
  - c++
@@ -47,7 +47,7 @@ In multi-adapter operation, identifies the physical adapter of the device this o
 
 ### -field InputFormat
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input and reference resources.
+A [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the input and reference resources.
 
 ### -field BlockSize
 
@@ -84,4 +84,3 @@ The allocation size of the motion estimator heap in the L1 memory pool. L1 is ty
 ## -remarks
 
 ## -see-also
-

@@ -8,10 +8,6 @@ tech.root: appxpkg
 ms.assetid: 7A1EE2CA-83CE-4E03-85A5-0061E29EB49B
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packaging and management], appmodel/GetStagedPackageOrigin, appxpkg.getstagedpackageorigin
-f1_keywords:
-- appmodel/GetStagedPackageOrigin
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Kernel.AppCore.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetStagedPackageOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetStagedPackageOrigin
+ - appmodel/GetStagedPackageOrigin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Kernel.AppCore.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetStagedPackageOrigin
 ---
 
 # GetStagedPackageOrigin function
@@ -54,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the origin of the specified package.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
@@ -69,17 +65,13 @@ Type: <b>PCWSTR</b>
 
 The full name of the package.
 
-
 ### -param origin [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>*</b>
+Type: <b><a href="/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
-
+A pointer to a variable that receives a <a href="/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -102,7 +94,3 @@ The <i>packageFullName</i> parameter isn't valid.
 </td>
 </tr>
 </table>
- 
-
-
-

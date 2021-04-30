@@ -92,7 +92,6 @@ For programming guidance for this technology, see:
 * [System Shutdown](/windows/desktop/shutdown)
 * [Synchronization](/windows/desktop/sync)
 * [Windows System Information](/windows/desktop/sysinfo)
-* [Virtual Disk Service](https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal)
-* [VDS Reference](https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal)
+* [Virtual Disk Service](/windows/desktop/VDS/virtual-disk-service-portal)
+* [VDS Reference](/windows/desktop/VDS/virtual-disk-service-portal)
 * [Volume Shadow Copy Service](/windows/desktop/vss)
-

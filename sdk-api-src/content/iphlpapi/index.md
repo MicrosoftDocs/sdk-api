@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: iphlp
+f1_keywords:
+ - iphlpapi
+ - iphlpapi/iphlpapi
 ---
 
 # Iphlpapi.h header
 
 
 ## -description
-
 
 This header is used by IP Helper. For more information, see:
 

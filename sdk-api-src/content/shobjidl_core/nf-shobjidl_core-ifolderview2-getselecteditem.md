@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
-f1_keywords:
-- shobjidl_core/IFolderView2.GetSelectedItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFolderView2.GetSelectedItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView2::GetSelectedItem
+ - shobjidl_core/IFolderView2::GetSelectedItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFolderView2.GetSelectedItem
 ---
 
 # IFolderView2::GetSelectedItem
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates the currently selected item at or after a given index.
 
-
 ## -parameters
-
-
-
 
 ### -param iStart [in]
 
@@ -64,17 +60,13 @@ Type: <b>int</b>
 
 The index position from which to start searching for the currently selected item.
 
-
 ### -param piItem [out]
 
 Type: <b>int*</b>
 
 A pointer to a value that receives the index of the item in the view.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,7 +89,4 @@ Item not found. Note that this is a success code. The operation was successful i
 </td>
 </tr>
 </table>
- 
-
-
 

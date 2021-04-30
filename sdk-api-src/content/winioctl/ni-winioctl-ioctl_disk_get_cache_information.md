@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_CACHE_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_CACHE_INFORMATION
+ - winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_CACHE_INFORMATION
 ---
 
 # IOCTL_DISK_GET_CACHE_INFORMATION IOCTL
+
 
 ## -description
 
@@ -64,26 +66,19 @@ BOOL DeviceIoControl(
 );
 ```
 
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -91,17 +86,15 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 To set the disk cache information, use the [IOCTL_DISK_SET_CACHE_INFORMATION](ni-winioctl-ioctl_disk_set_cache_information.md) control code.
 
-
 ## -see-also
 
 * [DISK_CACHE_INFORMATION](ns-winioctl-disk_cache_information.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [IOCTL_DISK_SET_CACHE_INFORMATION](ni-winioctl-ioctl_disk_set_cache_information.md)

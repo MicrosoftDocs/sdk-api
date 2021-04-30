@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: e2860015-219b-46be-921d-7ced0d95fc60
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_CLOSE_CHANNEL_CALLBACK, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback, WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK, wsw.ws_service_close_channel_callback
-f1_keywords:
-- webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_SERVICE_CLOSE_CHANNEL_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_SERVICE_CLOSE_CHANNEL_CALLBACK
+ - webservices/WS_SERVICE_CLOSE_CHANNEL_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_SERVICE_CLOSE_CHANNEL_CALLBACK
 ---
 
 # WS_SERVICE_CLOSE_CHANNEL_CALLBACK callback function
 
 
 ## -description
-
 
 Invoked when a channel is closed or aborted on an endpoint. 
                 This callback is called right before we are about to close the channel. 
@@ -67,53 +67,38 @@ The other scenario is when service host is going through an Abort Shutdown
 
 For session-based service contract, this notification 
                 signifies session tear down. Thus an application state scoped for the session 
-                can be destroyed within this callback. 
-            
-
+                can be destroyed within this callback.
 
 ## -parameters
 
-
-
-
-### -param *context [in]
+### -param context [in]
 
 The operation context.
-                
 
-
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on whether the function is getting invoked asynchornously.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The returned HRESULT is only used to see if the function is completing asynchronously. Failure or 
                 reporting failure through HRESULT does not in any way affects the service host infrastructure.
                 
             
 
-Irrespective of whether <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
+Irrespective of whether <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> competed successfully or not. This function 
                 will always be fired.
             
 
-See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
+See also <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> which can be used by the application to associate state,
                 and gets called when a channel gets accepted.
             
 
-For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="https://docs.microsoft.com/windows/desktop/wsw/sessionfullcalculatorserviceexample">sample</a>.
+For an example implementation on how to use this callback for disassociating session state, see the session based calculator <a href="/windows/desktop/wsw/sessionfullcalculatorserviceexample">sample</a>.
             
 
 This callback is cancellable.
@@ -137,5 +122,3 @@ This callback is cancellable.
      return NOERROR;
 }
 </code></pre>
-
-

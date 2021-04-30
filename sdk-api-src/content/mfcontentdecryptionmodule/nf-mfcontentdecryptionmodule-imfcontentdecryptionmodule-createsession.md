@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.CreateSession
 title: IMFContentDecryptionModule::CreateSession
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::CreateSession
 f1_keywords:
+ - IMFContentDecryptionModule::CreateSession
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::CreateSession
 dev_langs:
  - c++
@@ -41,17 +41,17 @@ dev_langs:
 
 ## -description
 
-Creates a [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession) object representing a Content Decryption Module (CDM) session.
+Creates a [IMFContentDecryptionModuleSession](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession.md) object representing a Content Decryption Module (CDM) session.
 
 ## -parameters
 
 ### -param sessionType
 
-A member of the [MF_MEDIAKEYSESSION_TYPE](/windows/win32/api/mfidl/ne-mfidl-mf_mediakeysession_type) that specifies the type of CDM session to create.
+A member of the [MF_MEDIAKEYSESSION_TYPE](../mfidl/ne-mfidl-mf_mediakeysession_type.md) that specifies the type of CDM session to create.
 
 ### -param callbacks
 
-An [IMFContentDecryptionModuleSessionCallbacks](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks) object for receiving key status change updates.
+An [IMFContentDecryptionModuleSessionCallbacks](nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks.md) object for receiving key status change updates.
 
 ### -param session
 
@@ -66,4 +66,3 @@ Returns S_OK on success.
 **CreateSession** is based on the Encrypted Media Extension specification's [createSession](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeys-createsession).
 
 ## -see-also
-

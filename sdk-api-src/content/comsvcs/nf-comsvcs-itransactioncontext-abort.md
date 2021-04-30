@@ -8,10 +8,6 @@ tech.root: cos
 ms.assetid: d7ea7c31-225c-4eb1-a358-21c4dab1a1da
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Abort method, ITransactionContext.Abort, ITransactionContext::Abort, _cos_ITransactionContext_Abort, comsvcs/ITransactionContext::Abort, cos.itransactioncontext_abort
-f1_keywords:
-- comsvcs/ITransactionContext.Abort
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionContext.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionContext::Abort
+ - comsvcs/ITransactionContext::Abort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionContext.Abort
 ---
 
 # ITransactionContext::Abort
@@ -49,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -89,34 +81,17 @@ The transaction was aborted.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontext">TransactionContext</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContext</b> component.
+The <a href="/windows/desktop/cossdk/transactioncontext">TransactionContext</a> object is not running under a COM+ process, possibly indicating a corrupted registry entry for the <b>TransactionContext</b> component.
 
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Calling <b>Abort</b> ends the transaction on return of the method and automatically deactivates all participating objects. Each resource manager enlisted in the transaction rolls back the operations performed on behalf of those objects.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>

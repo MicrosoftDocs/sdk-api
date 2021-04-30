@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
 ms.date: 12/05/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
-f1_keywords:
-- pathcch/PathCchStripPrefix
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchStripPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchStripPrefix
+ - pathcch/PathCchStripPrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchStripPrefix
 ---
 
 # PathCchStripPrefix function
+
 
 ## -description
 
@@ -65,5 +67,4 @@ The size of the buffer pointed to by <i>pszPath</i>, in characters.
 ## -returns
 
 This function returns <b>S_OK</b> if the prefix was removed, <b>S_FALSE</b> if the path did not have a prefix to remove, or an <b>HRESULT</b> failure code.
-
 

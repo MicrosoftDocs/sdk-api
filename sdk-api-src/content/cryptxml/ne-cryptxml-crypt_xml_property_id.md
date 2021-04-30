@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_PROPERTY_DOC_DECLARATION, CRYPT_XML_PROPERTY_ID, CRYPT_XML_PROPERTY_ID enumeration [Security], CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, CRYPT_XML_PROPERTY_MAX_SIGNATURES, CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, cryptxml/CRYPT_XML_PROPERTY_DOC_DECLARATION, cryptxml/CRYPT_XML_PROPERTY_ID, cryptxml/CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, cryptxml/CRYPT_XML_PROPERTY_MAX_SIGNATURES, cryptxml/CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, cryptxml/CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, security.crypt_xml_property_id
-f1_keywords:
-- cryptxml/CRYPT_XML_PROPERTY_ID
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptxml.h
-api_name:
-- CRYPT_XML_PROPERTY_ID
 targetos: Windows
 req.typenames: CRYPT_XML_PROPERTY_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CRYPT_XML_PROPERTY_ID
+ - cryptxml/CRYPT_XML_PROPERTY_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptxml.h
+api_name:
+ - CRYPT_XML_PROPERTY_ID
 ---
 
 # CRYPT_XML_PROPERTY_ID enumeration
@@ -49,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_XML_PROPERTY_ID</b> enumeration 
   specifies the type and usage of the XML property.
 
-
 ## -enum-fields
-
-
-
 
 ### -field CRYPT_XML_PROPERTY_MAX_HEAP_SIZE
 
 Specifies the maximum heap size, in bytes, that the  XML layer can use.
       This property is applied to intermediate buffers used to parse or construct XML parts. 
       By default, the limit is equal to <b>CRYPT_XML_BLOB_MAX</b>.
-
 
 ### -field CRYPT_XML_PROPERTY_SIGNATURE_LOCATION
 
@@ -89,34 +84,23 @@ The absolute path of the element to insert the signature.
 </dd>
 </dl>
 
-
-
 ### -field CRYPT_XML_PROPERTY_MAX_SIGNATURES
 
 Specifies the maximum number of <b>Signature</b> elements when parsing an XML document. 
      This property overrides the default <b>CRYPT_XML_SIGNATURES_MAX</b> value.
 
-
 ### -field CRYPT_XML_PROPERTY_DOC_DECLARATION
 
 Specifies whether to write an XML document declaration. This property is used with the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlencode">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
-
+     <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlencode">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
 
 ### -field CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET
 
 Specifies an encoding character set of XML fragments for custom elements. This property is used with the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlopentodecode">CryptXmlOpenToDecode</a> function. 
+     <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlopentodecode">CryptXmlOpenToDecode</a> function. 
      The default character set is inherited from the opened document.
-
 
 ## -remarks
 
-
-
 If a property value is defined as a pointer to data, then the pointer must be valid 
   for the entire period of the signature operation.
-
-
-
-

@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: caae9e8c-6d42-4bbc-a66a-bdde1009469d
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_ExSeekCapabilities method, IAMExtendedSeeking.get_ExSeekCapabilities, IAMExtendedSeeking::get_ExSeekCapabilities, IAMExtendedSeekingget_ExSeekCapabilities, dshow.iamextendedseeking_get_exseekcapabilities, get_ExSeekCapabilities, get_ExSeekCapabilities method [DirectShow], get_ExSeekCapabilities method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
-f1_keywords:
-- qnetwork/IAMExtendedSeeking.get_ExSeekCapabilities
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMExtendedSeeking.get_ExSeekCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtendedSeeking::get_ExSeekCapabilities
+ - qnetwork/IAMExtendedSeeking::get_ExSeekCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMExtendedSeeking.get_ExSeekCapabilities
 ---
 
 # IAMExtendedSeeking::get_ExSeekCapabilities
@@ -49,35 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_ExSeekCapabilities</code> method retrieves the extended seeking capabilities of the filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pExCapabilities [out]
 
-Pointer to a variable that receives a bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/ne-qnetwork-amextendedseekingcapabilities">AMExtendedSeekingCapabilities</a> flags.
-
+Pointer to a variable that receives a bitwise OR of <a href="/windows/desktop/api/qnetwork/ne-qnetwork-amextendedseekingcapabilities">AMExtendedSeekingCapabilities</a> flags.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The Windows Media Source filter sets the extended seeking flags as follows.
 
@@ -113,18 +98,7 @@ The Windows Media Source filter sets the extended seeking flags as follows.
 <td>If the stream contains markers.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>

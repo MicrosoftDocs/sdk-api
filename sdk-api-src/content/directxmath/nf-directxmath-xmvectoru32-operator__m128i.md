@@ -45,10 +45,12 @@ api_name:
 
 ## -description
 
-Returns the object implementing the current instance of **XMVECTORU32** cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a> instance of.
+Returns the object implementing the current instance of **XMVECTORU32** cast to a <a href="/cpp/cpp/m128i">__m128i</a> instance of.
 [Windows systems supporting SSE Only]
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
+
+## -parameters
 
 ## -remarks
 
@@ -56,4 +58,4 @@ Returns the underlying implementation object for an instance of **XMVECTORU32** 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a>
+<a href="/cpp/cpp/m128i">__m128i</a>

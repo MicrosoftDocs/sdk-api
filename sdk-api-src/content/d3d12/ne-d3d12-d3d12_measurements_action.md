@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_MEASUREMENTS_ACTION","D3D12_MEASUREMENTS_ACTION enu
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_MEASUREMENTS_ACTION, D3D12_MEASUREMENTS_ACTION enumeration, direct3d12.d3d12_measurements_action
-f1_keywords:
-- d3d12/D3D12_MEASUREMENTS_ACTION
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,18 +23,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_MEASUREMENTS_ACTION
 targetos: Windows
 req.typenames: D3D12_MEASUREMENTS_ACTION
 req.redist: 
+f1_keywords:
+ - D3D12_MEASUREMENTS_ACTION
+ - d3d12/D3D12_MEASUREMENTS_ACTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_MEASUREMENTS_ACTION
 ---
 
 ## -description
@@ -68,3 +69,4 @@ Specifies that the optimization state should be reset; hinting that whatever has
 ## -see-also
 
 [Core enumerations](/windows/win32/direct3d12/direct3d-12-enumerations)
+

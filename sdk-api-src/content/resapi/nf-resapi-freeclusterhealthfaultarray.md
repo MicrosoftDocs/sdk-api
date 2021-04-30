@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586
 ms.date: 12/05/2018
 ms.keywords: FreeClusterHealthFaultArray, FreeClusterHealthFaultArray function [Failover Cluster], mscs.freeclusterhealthfaultarray, resapi/FreeClusterHealthFaultArray
-f1_keywords:
-- resapi/FreeClusterHealthFaultArray
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,22 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- FreeClusterHealthFaultArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeClusterHealthFaultArray
+ - resapi/FreeClusterHealthFaultArray
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - FreeClusterHealthFaultArray
 ---
 
 # FreeClusterHealthFaultArray function
@@ -48,25 +48,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param clusterHealthFaultArray [in, out]
 
 TBD
 
-
 ## -returns
 
-
-
 TBD
-
-
 

@@ -1,15 +1,20 @@
 ---
 UID: NA:windows.graphics.holographic.interop
+title: Windows.Graphics.Holographic.Interop.h header
 ms.author: windowssdkdev
 ms.date: 12/12/2019
 ms.keywords: 
 ms.prod: windows
-ms.technology: windows-sdk
+ms.technology: windows
 ms.topic: portal
 tech.root: direct3d12
+f1_keywords:
+ - windows.graphics.holographic.interop
+ - windows.graphics.holographic.interop/windows.graphics.holographic.interop
 ---
 
 # Windows.Graphics.Holographic.Interop.h header
+
 
 ## -description
 
@@ -20,3 +25,4 @@ Sample code for this API set is included in the [Windows Mixed Reality Direct3D 
 This header is used by Direct3D 12 Graphics. For more information, see:
 
 - [Direct3D 12 Graphics](../_direct3d12/index.md)
+

@@ -8,10 +8,6 @@ tech.root: WCS
 ms.assetid: 705b9671-7bf2-4a47-a3a5-42dd0f334338
 ms.date: 12/05/2018
 ms.keywords: ICM_ADDPROFILE, ICM_DELETEPROFILE, ICM_QUERYMATCH, ICM_QUERYPROFILE, ICM_REGISTERICMATCHER, ICM_SETDEFAULTPROFILE, ICM_UNREGISTERICMATCHER, UpdateICMRegKey, UpdateICMRegKey function [Windows Color System], UpdateICMRegKeyA, UpdateICMRegKeyW, _color_UpdateICMRegKey, wcs.updateicmregkey, wingdi/UpdateICMRegKey, wingdi/UpdateICMRegKeyA, wingdi/UpdateICMRegKeyW
-f1_keywords:
-- wingdi/UpdateICMRegKey
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- UpdateICMRegKey
-- UpdateICMRegKeyA
-- UpdateICMRegKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UpdateICMRegKeyA
+ - wingdi/UpdateICMRegKeyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - UpdateICMRegKey
+ - UpdateICMRegKeyA
+ - UpdateICMRegKeyW
 ---
 
 # UpdateICMRegKeyA function
@@ -53,31 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <i>(Obsolete; retained for backward compatibility)</i>
 
 The <b>UpdateICMRegKey</b> function manages color profiles and Color Management Modules in the system.
 
-
 ## -parameters
-
-
-
 
 ### -param reserved
 
 Reserved, must be set to zero.
 
-
 ### -param lpszCMID
 
 Points to a string that specifies the ICC profile identifier for the color management DLL to use with the profile.
 
-
 ### -param lpszFileName
 
 Points to a fully qualified ICC color profile file name or to a <b>DEVMODE</b> structure.
-
 
 ### -param command
 
@@ -160,23 +153,14 @@ Determines whether a profile exists based on the <b>DEVMODE</b> structure pointe
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Not all parameters are used by all functions. The <i>nCommand</i> parameter specifies the function to execute.
 
@@ -193,15 +177,5 @@ This function is retained for backward compatibility and may be removed in futur
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/obsolete-wcs-functions">Obsolete WCS Functions</a>
- 
-
- 
-
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Obsolete WCS functions](/windows/win32/wcs/obsolete-wcs-functions)

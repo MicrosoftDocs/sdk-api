@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFilesFromInfSection, SetupInstallFilesFromInfSection function [Setup API], SetupInstallFilesFromInfSectionA, SetupInstallFilesFromInfSectionW, _setupapi_setupinstallfilesfrominfsection, setup.setupinstallfilesfrominfsection, setupapi/SetupInstallFilesFromInfSection, setupapi/SetupInstallFilesFromInfSectionA, setupapi/SetupInstallFilesFromInfSectionW
-f1_keywords:
-- setupapi/SetupInstallFilesFromInfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupInstallFilesFromInfSection
-- SetupInstallFilesFromInfSectionA
-- SetupInstallFilesFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupInstallFilesFromInfSectionW
+ - setupapi/SetupInstallFilesFromInfSectionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupInstallFilesFromInfSection
+ - SetupInstallFilesFromInfSectionA
+ - SetupInstallFilesFromInfSectionW
 ---
 
 # SetupInstallFilesFromInfSectionW function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -59,16 +59,11 @@ The
 
 If a file is modified, the caller of this function is required to have privileges to write to the target directory.
 
-
 ## -parameters
-
-
-
 
 ### -param InfHandle [in]
 
-The handle to an INF file that contains the section to be installed. 
-
+The handle to an INF file that contains the section to be installed.
 
 ### -param LayoutInfHandle [in]
 
@@ -76,25 +71,21 @@ An optional pointer to a handle to the INF file that contains the SourceDisksFil
 
 If <i>LayoutInfHandle</i> is not specified, then the SourceDisksFiles and SourceDisksNames sections from <i>InfHandle</i> are used.
 
-
 ### -param FileQueue [in]
 
 The handle to the queue where installation operations are to be added.
-
 
 ### -param SectionName [in]
 
 The name of the Install section in  the <i>InfHandle</i> parameter that lists the Copy Files, Delete Files, and  Rename Files sections that contain the files to install. 
 
-Use a <b>null</b>-terminated string. 
-
+Use a <b>null</b>-terminated string.
 
 ### -param SourceRootPath [in]
 
 An optional pointer to a root path to the source files to copy, for example, A:\ or \\pegasus\win\install. 
 
-Use a <b>null</b>-terminated string. 
-
+Use a <b>null</b>-terminated string.
 
 ### -param CopyFlags [in]
 
@@ -132,7 +123,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
@@ -282,7 +273,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
@@ -335,25 +326,17 @@ Warns that skipping a file may affect an installation if the user tries to skip 
 
 Use this flag  for system-critical files.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 <b>SetupInstallFilesFromInfSection</b> can be called multiple times to queue the files that are specified in multiple INF sections. After the queue is committed successfully and the files are copied, renamed, and/or deleted, 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> can be called to perform registry and INI installation operations.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> can be called to perform registry and INI installation operations.
 
 If a UNC directory is specified as the target directory of a file installation, you must ensure that the UNC directory exists before you call 
 <b>SetupInstallFilesFromInfSection</b>. The setup functions do not check for the existence of directories and do not create UNC directories. If the target UNC directory does not exist, the file installation fails.
@@ -367,23 +350,16 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
 ms.date: 12/05/2018
 ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Direct2D], D2D1_TEXT_ANTIALIAS_MODE_ALIASED, D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, d2d1/D2D1_TEXT_ANTIALIAS_MODE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, d2d1/D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, direct2d.D2D1_TEXT_ANTIALIAS_MODE
-f1_keywords:
-- d2d1/D2D1_TEXT_ANTIALIAS_MODE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_TEXT_ANTIALIAS_MODE
 targetos: Windows
 req.typenames: D2D1_TEXT_ANTIALIAS_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_TEXT_ANTIALIAS_MODE
+ - d2d1/D2D1_TEXT_ANTIALIAS_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_TEXT_ANTIALIAS_MODE
 ---
 
 # D2D1_TEXT_ANTIALIAS_MODE enumeration
@@ -49,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the antialiasing mode used for drawing text.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D2D1_TEXT_ANTIALIAS_MODE_DEFAULT
 
 Use the system default. See Remarks.
 
-
 ### -field D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE
 
 Use ClearType antialiasing.
-
 
 ### -field D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE
 
 Use grayscale antialiasing.
 
-
 ### -field D2D1_TEXT_ANTIALIAS_MODE_ALIASED
 
 Do not use antialiasing.
 
-
 ### -field D2D1_TEXT_ANTIALIAS_MODE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 This enumeration is used with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a> of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a> to specify how text and glyphs are antialiased.
 
@@ -110,19 +97,11 @@ the default text antialiasing mode is grayscale.</li>
 antialiasing mode is grayscale.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">ID2D1RenderTarget::SetTextAntialiasMode</a>
 
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">ID2D1RenderTarget::SetTextRenderingParams</a>
- 
-
- 
 

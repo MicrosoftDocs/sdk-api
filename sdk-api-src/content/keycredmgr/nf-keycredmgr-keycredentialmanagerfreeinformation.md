@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
-f1_keywords:
-- keycredmgr/KeyCredentialManagerFreeInformation
-dev_langs:
-- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Keycredmgr.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- keycredmgr.lib
-- keycredmgr.dll
-api_name:
-- KeyCredentialManagerFreeInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - KeyCredentialManagerFreeInformation
+ - keycredmgr/KeyCredentialManagerFreeInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - keycredmgr.lib
+ - keycredmgr.dll
+api_name:
+ - KeyCredentialManagerFreeInformation
 ---
 
 # KeyCredentialManagerFreeInformation function
@@ -50,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 API to free the <a href="https://msdn.microsoft.com/en-us/library/Mt830289(v=VS.85).aspx">KeyCredentialManagerInfo</a> pointer variable from the <a href="https://msdn.microsoft.com/en-us/library/Mt830287(v=VS.85).aspx">KeyCredentialManagerGetInformation</a> call.
 
-
 ## -parameters
-
-
-
 
 ### -param keyCredentialManagerInfo [in]
 

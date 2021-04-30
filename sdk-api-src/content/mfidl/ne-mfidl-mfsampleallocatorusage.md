@@ -2,7 +2,6 @@
 UID: NE:mfidl.MFSampleAllocatorUsage
 title: MFSampleAllocatorUsage
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - MFSampleAllocatorUsage
 f1_keywords:
+ - MFSampleAllocatorUsage
  - mfidl/MFSampleAllocatorUsage
 dev_langs:
  - c++
@@ -43,7 +43,7 @@ The output stream will use the camera pipeline's sample allocator to allocate ne
 
 ### -field MFSampleAllocatorUsage_UsesCustomAllocator
 
-The output stream will be use a custom allocator for its output samples.  It will not use the sample allocator provided by the camera pipeline. 
+The output stream will be use a custom allocator for its output samples.  It will not use the sample allocator provided by the camera pipeline.
 
 ### -field MFSampleAllocatorUsage_DoesNotAllocate
 

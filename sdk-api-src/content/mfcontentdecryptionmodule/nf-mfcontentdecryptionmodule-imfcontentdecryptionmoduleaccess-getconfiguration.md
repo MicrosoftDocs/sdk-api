@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess.GetConfiguration
 title: IMFContentDecryptionModuleAccess::GetConfiguration
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Returns the supported combination of configuration options.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess::GetConfiguration
 f1_keywords:
+ - IMFContentDecryptionModuleAccess::GetConfiguration
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess::GetConfiguration
 dev_langs:
  - c++
@@ -47,7 +47,7 @@ Returns the supported combination of configuration options.
 
 ### -param configuration
 
-Recevices a referebce to an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object containing the configuration options for the CDM.
+Recevices a referebce to an [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the configuration options for the CDM.
 
 ## -returns
 
@@ -55,9 +55,6 @@ Returns S_OK on success.
 
 ## -remarks
 
-
-
 **GetConfiguration** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.keySystem](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysystemaccess-getconfiguration).
 
 ## -see-also
-

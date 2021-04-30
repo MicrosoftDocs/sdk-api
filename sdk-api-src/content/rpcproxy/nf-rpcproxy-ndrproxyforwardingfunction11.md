@@ -3,7 +3,6 @@ UID: NF:rpcproxy.NdrProxyForwardingFunction11
 title: NdrProxyForwardingFunction11
 tech.root: Rpc
 ms.date: 07/14/2020
-ms.topic: language-reference
 targetos: Windows
 description: Stub function for COM proxies.
 req.assembly: 
@@ -30,11 +29,12 @@ topic_type:
 api_type:
  - DllExport
 api_location:
-- rpcproxy.dll
-- api-ms-win-core-com-midlproxystub-l1-1-0.dll
+ - rpcproxy.dll
+ - api-ms-win-core-com-midlproxystub-l1-1-0.dll
 api_name:
  - NdrProxyForwardingFunction11
 f1_keywords:
+ - NdrProxyForwardingFunction11
  - rpcproxy/NdrProxyForwardingFunction11
 dev_langs:
  - c++
@@ -46,8 +46,11 @@ Stub function for COM proxies.
 
 As part of the implementation of COM proxies, the MIDL compiler generates code that uses these functions. The generated code is typically compiled into proxy DLLs, which allow interfaces to be marshaled. These functions are implementation details for the COM proxy infrastructure, and you should not call them directly.
 
+## -parameters
+
 ## -remarks
 
 ## -see-also
 
 [Building and registering a proxy DLL](/windows/win32/com/building-and-registering-a-proxy-dll)
+

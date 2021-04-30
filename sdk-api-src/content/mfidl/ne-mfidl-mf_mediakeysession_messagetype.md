@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEYSESSION_MESSAGETYPE
 title: MF_MEDIAKEYSESSION_MESSAGETYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) message.
 tech.root: mf
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - MF_MEDIAKEYSESSION_MESSAGETYPE
 f1_keywords:
+ - MF_MEDIAKEYSESSION_MESSAGETYPE
  - mfidl/MF_MEDIAKEYSESSION_MESSAGETYPE
 dev_langs:
  - c++
@@ -55,10 +55,10 @@ The message contains a request for App-Assisted Individualization (or re-individ
 
 ## -remarks
 
-This value is used by the [IMFContentDecryptionModuleSessionCallbacks::KeyMessage](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage) callback.
+This value is used by the [IMFContentDecryptionModuleSessionCallbacks::KeyMessage](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage.md) callback.
 
 **MF_MEDIAKEYSESSION_MESSAGETYPE** is based on the Encrypted Media Extension specification's [MediaKeyStatus](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeymessagetype) enumeration.
 
 ## -see-also
-[IMFContentDecryptionModuleSessionCallbacks::KeyMessage](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage)
 
+[IMFContentDecryptionModuleSessionCallbacks::KeyMessage](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodulesessioncallbacks-keymessage.md)

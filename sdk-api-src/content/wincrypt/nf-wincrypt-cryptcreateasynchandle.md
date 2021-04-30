@@ -3,10 +3,6 @@ UID: NF:wincrypt.CryptCreateAsyncHandle
 title: CryptCreateAsyncHandle
 ms.date: 4/26/2019
 ms.keywords: CryptCreateAsyncHandle
-f1_keywords:
-- CryptCreateAsyncHandle
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CryptCreateAsyncHandle
+ - wincrypt/CryptCreateAsyncHandle
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- secforwarder.dll
+ - secforwarder.dll
 api_name:
-- CryptCreateAsyncHandle
+ - CryptCreateAsyncHandle
 ---
 
 ## -description

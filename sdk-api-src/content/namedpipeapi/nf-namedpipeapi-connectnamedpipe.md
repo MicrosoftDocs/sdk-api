@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: 50f6680f-900e-4411-a849-ec9a911c9e32
 ms.date: 12/05/2018
 ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpipe, base.connectnamedpipe, namedpipeapi/ConnectNamedPipe
-f1_keywords:
-- namedpipeapi/ConnectNamedPipe
-dev_langs:
-- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-NamedPipe-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-1.dll
-- API-MS-Win-Core-NamedPipe-L1-2-2.dll
-api_name:
-- ConnectNamedPipe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ConnectNamedPipe
+ - namedpipeapi/ConnectNamedPipe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - ConnectNamedPipe
 ---
 
 # ConnectNamedPipe function
@@ -56,22 +57,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe. A client process connects by calling either the 
 <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> or 
 <a href="/windows/win32/api/winbase/nf-winbase-callnamedpipea">CallNamedPipe</a> function.
 
-
 ## -parameters
-
-
-
 
 ### -param hNamedPipe [in]
 
 A handle to the server end of a named pipe instance. This handle is returned by the 
 <a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
-
 
 ### -param lpOverlapped [in, out, optional]
 
@@ -88,10 +83,7 @@ If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</
 
 If <i>hNamedPipe</i> was not opened with FILE_FLAG_OVERLAPPED, the function does not return until a client is connected or an error occurs. Successful synchronous operations result in the function returning a nonzero value if a client connects after the function is called.
 
-
 ## -returns
-
-
 
 If the operation is synchronous, <b>ConnectNamedPipe</b> does not return until the operation has completed. If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -103,12 +95,7 @@ If a client connects before the function is called, the function returns zero an
 <a href="/windows/win32/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> and the call to 
 <b>ConnectNamedPipe</b>. In this situation, there is a good connection between client and server, even though the function returns zero.
 
-
-
-
 ## -remarks
-
-
 
 A named pipe server process can use 
 <b>ConnectNamedPipe</b> with a newly created pipe instance. It can also be used with an instance that was previously connected to another client process; in this case, the server process must first call the 
@@ -143,12 +130,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/winbase/nf-winbase-callnamedpipea">CallNamedPipe</a>
 
@@ -191,7 +173,4 @@ For an example, see
 
 
 <a href="/windows/win32/api/synchapi/nf-synchapi-sleepex">SleepEx</a>
- 
-
- 
 

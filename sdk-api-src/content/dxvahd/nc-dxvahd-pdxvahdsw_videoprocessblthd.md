@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 94e6b59f-dd00-4d32-b1ca-a592a67cd0ec
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_VideoProcessBltHD, PDXVAHDSW_VideoProcessBltHD callback, PDXVAHDSW_VideoProcessBltHD callback function [Media Foundation], dxvahd/PDXVAHDSW_VideoProcessBltHD, mf.pdxvahdsw_videoprocessblthd
-f1_keywords:
-- dxvahd/PDXVAHDSW_VideoProcessBltHD
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxvahd.h
-api_name:
-- PDXVAHDSW_VideoProcessBltHD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDXVAHDSW_VideoProcessBltHD
+ - dxvahd/PDXVAHDSW_VideoProcessBltHD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxvahd.h
+api_name:
+ - PDXVAHDSW_VideoProcessBltHD
 ---
 
 # PDXVAHDSW_VideoProcessBltHD callback function
@@ -49,72 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a video processing blit.
 
-
 ## -parameters
-
-
-
 
 ### -param hVideoProcessor [in]
 
 A handle to the software DXVA-HD video processor.
 
-
-### -param *pOutputSurface [in]
+### -param pOutputSurface [in]
 
 A pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that receives the blit.
-
 
 ### -param OutputFrame [in]
 
 The frame number of the output video frame, indexed from zero.
 
-
 ### -param StreamCount [in]
 
-The number of input streams to process. 
+The number of input streams to process.
 
+### -param pStreams [in]
 
-
-
-### -param *pStreams [in]
-
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_data">DXVAHD_STREAM_DATA</a> structures that contain information about the input streams. The number of elements in the array is given in the <i>StreamCount</i> parameter.
-
-
-
+A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_stream_data">DXVAHD_STREAM_DATA</a> structures that contain information about the input streams. The number of elements in the array is given in the <i>StreamCount</i> parameter.
 
 ## -returns
 
-
-
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">IDXVAHD_VideoProcessor::VideoProcessBltHD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">IDXVAHD_VideoProcessor::VideoProcessBltHD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

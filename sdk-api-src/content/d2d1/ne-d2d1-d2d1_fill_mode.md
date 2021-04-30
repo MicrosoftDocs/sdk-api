@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
 ms.date: 12/05/2018
 ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
-f1_keywords:
-- d2d1/D2D1_FILL_MODE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_FILL_MODE
 targetos: Windows
 req.typenames: D2D1_FILL_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_FILL_MODE
+ - d2d1/D2D1_FILL_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_FILL_MODE
 ---
 
 # D2D1_FILL_MODE enumeration
@@ -49,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
-
 
 ## -enum-fields
 
-
-
-
 ### -field D2D1_FILL_MODE_ALTERNATE
 
-Determines whether a point is in the fill region by drawing a ray from that point to infinity in any direction, and then counting the number of path segments within the given shape that the ray crosses. If this number is odd, the point is in the fill region; if even, the point is outside the fill region. 
-
-
-
-
+Determines whether a point is in the fill region by drawing a ray from that point to infinity in any direction, and then counting the number of path segments within the given shape that the ray crosses. If this number is odd, the point is in the fill region; if even, the point is outside the fill region.
 
 ### -field D2D1_FILL_MODE_WINDING
 
-Determines whether a point is in the fill region of the path by drawing a ray from that point to infinity in any direction, and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left,  as long as left and right are seen from the perspective of the ray. After counting the crossings, if the result is zero, then the point is outside the path. Otherwise, it is inside the path. 
-
-
-
-
+Determines whether a point is in the fill region of the path by drawing a ray from that point to infinity in any direction, and then examining the places where a segment of the shape crosses the ray. Starting with a count of zero, add one each time a segment crosses the ray from left to right and subtract one each time a path segment crosses the ray from right to left,  as long as left and right are seen from the perspective of the ray. After counting the crossings, if the result is zero, then the point is outside the path. Otherwise, it is inside the path.
 
 ### -field D2D1_FILL_MODE_FORCE_DWORD
 
-
-
-
 ## -remarks
-
-
 
 Use the <b>D2D1_FILL_MODE</b> enumeration when creating an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a> method, or when modifying the fill mode of an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setfillmode">ID2D1SimplifiedGeometrySink::SetFillMode</a>  method.
 
@@ -202,21 +185,11 @@ HRESULT DemoApp::CreateGeometryResources()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/Direct2D/direct2d-geometries-overview">Geometries Overview</a>
 
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">ID2D1Factory::CreateGeometryGroup</a>
- 
-
- 
 

@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapRenderTarget, ID2D1BitmapRenderTarget interface [Direct2D], ID2D1BitmapRenderTarget interface [Direct2D],described, d2d1/ID2D1BitmapRenderTarget, direct2d.ID2D1BitmapRenderTarget
-f1_keywords:
-- d2d1/ID2D1BitmapRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1BitmapRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1BitmapRenderTarget
+ - d2d1/ID2D1BitmapRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1BitmapRenderTarget
 ---
 
 # ID2D1BitmapRenderTarget interface
@@ -49,10 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Renders to an intermediate texture created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method. 
-
-
+Renders to an intermediate texture created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method.
 
 ## -inheritance
 
@@ -61,29 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BitmapRenderTarget</b> i
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1BitmapRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmaprendertarget-getbitmap">GetBitmap</a>
-</td>
-<td align="left" width="63%">
-Retrieves the bitmap for this render target. The returned bitmap can be used for drawing operations.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 An <b>ID2D1BitmapRenderTarget</b>  writes to an intermediate texture. It's useful for creating patterns for use with an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> or caching drawing data that will be used repeatedly. 
 
@@ -173,12 +149,7 @@ Code has been omitted from this example.
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a>
 
@@ -189,7 +160,4 @@ Code has been omitted from this example.
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

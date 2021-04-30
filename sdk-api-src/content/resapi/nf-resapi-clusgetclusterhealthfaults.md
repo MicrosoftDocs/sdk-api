@@ -8,10 +8,6 @@ tech.root: MsCS
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
 ms.date: 12/05/2018
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
-f1_keywords:
-- resapi/ClusGetClusterHealthFaults
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,18 +25,22 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- ClusGetClusterHealthFaults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusGetClusterHealthFaults
+ - resapi/ClusGetClusterHealthFaults
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - ClusGetClusterHealthFaults
 ---
 
 # ClusGetClusterHealthFaults function
@@ -48,35 +48,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 TBD
 
-
 ### -param objects [out]
 
 TBD
-
 
 ### -param flags [in]
 
 TBD
 
-
 ## -returns
 
-
-
 TBD
-
-
 

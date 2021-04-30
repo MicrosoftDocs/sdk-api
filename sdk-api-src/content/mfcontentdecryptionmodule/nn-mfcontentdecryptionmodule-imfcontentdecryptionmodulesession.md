@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession
 title: IMFContentDecryptionModuleSession
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides access to the Content Decryption Module (CDM) for encrypted media extensions support.
 tech.root: mf
@@ -28,23 +27,23 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession
 f1_keywords:
+ - IMFContentDecryptionModuleSession
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IUnknown
-
 ## -description
 
 Provides access to the Content Decryption Module (CDM) for encrypted media extensions support.
 
+## -inheritance
+
+IUnknown
+
 ## -remarks
 
 **IMFContentDecryptionModuleSession** is based on the Encrypted Media Extension specification's [MediaKeySession](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysession).
-
 
 ## -see-also
 

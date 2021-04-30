@@ -8,10 +8,6 @@ tech.root: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa
 ms.date: 12/05/2018
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
-f1_keywords:
-- winnt/PRIMARYLANGID
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- PRIMARYLANGID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PRIMARYLANGID
+ - winnt/PRIMARYLANGID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - PRIMARYLANGID
 ---
 
 # PRIMARYLANGID macro
@@ -49,47 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts a primary language identifier from a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a>.
-
+Extracts a primary language identifier from a <a href="/windows/desktop/Intl/language-identifiers">language identifier</a>.
 
 ## -parameters
 
-
-
-
 ### -param lgid
 
-Language identifier. This value is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
-
+Language identifier. This value is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>

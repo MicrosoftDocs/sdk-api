@@ -2,7 +2,6 @@
 UID: NF:sysinfoapi.IsUserCetAvailableInEnvironment
 title: IsUserCetAvailableInEnvironment
 ms.date: 4/28/2020
-ms.topic: language-reference
 targetos: Windows
 description: Queries whether user-mode Hardware-enforced Stack Protection is available for the specified environment.
 req.assembly: 
@@ -27,12 +26,12 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - sysinfoapi.h
 api_name:
  - IsUserCetAvailableInEnvironment
 f1_keywords:
+ - IsUserCetAvailableInEnvironment
  - sysinfoapi/IsUserCetAvailableInEnvironment
 dev_langs:
  - c++
@@ -99,11 +98,9 @@ The virtualization-based security (VBS) basic enclave environment.
 </tr>
 </table>
 
-
 ## -returns
 
 TRUE if user-mode Hardware-enforced Stack Protection is available for the specified environment, FALSE otherwise.
-
 
 ## -remarks
 

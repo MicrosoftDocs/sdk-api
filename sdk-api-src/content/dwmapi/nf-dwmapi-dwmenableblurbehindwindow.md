@@ -8,10 +8,6 @@ tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenableblurbehindwindow.htm
 ms.date: 12/05/2018
 ms.keywords: DwmEnableBlurBehindWindow, DwmEnableBlurBehindWindow function [Desktop Window Manager], _udwm_dwmenableblurbehindwindow, _udwm_dwmenableblurbehindwindow_cpp, dwm.dwmenableblurbehindwindow, dwmapi/DwmEnableBlurBehindWindow, winui._udwm_dwmenableblurbehindwindow
-f1_keywords:
-- dwmapi/DwmEnableBlurBehindWindow
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-api_name:
-- DwmEnableBlurBehindWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmEnableBlurBehindWindow
+ - dwmapi/DwmEnableBlurBehindWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+api_name:
+ - DwmEnableBlurBehindWindow
 ---
 
 ## -description
@@ -110,3 +111,4 @@ HRESULT EnableBlurBehind(HWND hwnd)
 ## -see-also
 
 [DWM Blur Behind Overview](/windows/win32/dwm/blur-ovw)
+

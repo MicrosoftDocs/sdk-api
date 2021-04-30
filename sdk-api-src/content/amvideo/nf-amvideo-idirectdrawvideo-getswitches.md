@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
 ms.date: 12/05/2018
 ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
-f1_keywords:
-- amvideo/IDirectDrawVideo.GetSwitches
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawVideo.GetSwitches
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawVideo::GetSwitches
+ - amvideo/IDirectDrawVideo::GetSwitches
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawVideo.GetSwitches
 ---
 
 # IDirectDrawVideo::GetSwitches
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetSwitches</code> method retrieves the surface types that the renderer is allowed to use.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSwitches
 
@@ -130,29 +123,15 @@ Pointer to a bit mask containing one or more of the following DirectShow DirectD
 <td>(AMDDS_DCIPS | AMDDS_PS).</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>

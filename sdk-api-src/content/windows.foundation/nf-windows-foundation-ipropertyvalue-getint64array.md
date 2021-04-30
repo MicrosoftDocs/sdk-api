@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 8bc05817-e9d4-427a-883d-495faf5d0ab0
 ms.date: 12/05/2018
 ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64Array method, IPropertyValue.GetInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
-f1_keywords:
-- windows.foundation/IPropertyValue.GetInt64Array
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetInt64Array
+ - windows.foundation/IPropertyValue::GetInt64Array
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetInt64Array
 ---
 
 # IPropertyValue::IPropertyValue
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the array of signed 64-bit integer values that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the array of signed 64-bit integer values that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param __valueSize [out]
 
@@ -64,38 +60,24 @@ Type: <b>UINT32*</b>
 
 The number of values in the array.
 
-
 ### -param value [out]
 
 Type: <b>INT64**</b>
 
 The array of signed 64-bit integer values.
 
-The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+The returned pointer must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64array">IPropertyValueStatics::CreateInt64Array</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64array">IPropertyValueStatics::CreateInt64Array</a>

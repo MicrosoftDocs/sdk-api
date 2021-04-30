@@ -8,10 +8,6 @@ tech.root: QOS
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047
 ms.date: 12/05/2018
 ms.keywords: RSVP_SESSION, RSVP_SESSION structure [QOS], lpmapi/RSVP_SESSION, qos.rsvp_session
-f1_keywords:
-- lpmapi/RSVP_SESSION
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- RSVP_SESSION
 targetos: Windows
 req.typenames: RSVP_SESSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RSVP_SESSION
+ - lpmapi/RSVP_SESSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - RSVP_SESSION
 ---
 
 # RSVP_SESSION structure
@@ -49,48 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RSVP_SESSION</b> structure stores information about an RSVP SESSION message.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sess_header
 
-RSVP Object Header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
-
+RSVP Object Header, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field sess_u
 
-
-
 #### sess_ipv4
 
-Session information, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a> structure.
-
+Session information, in the form of a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a> structure.
 
 ### -field sess_ipv4
 
- 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-session_ipv4">Session_IPv4</a>

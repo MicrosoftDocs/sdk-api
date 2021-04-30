@@ -8,10 +8,6 @@ tech.root: directml
 ms.assetid: 1BB42D7B-D17C-4DD1-BE33-C3784DE78743
 ms.date: 12/5/2018
 ms.keywords: DML_SIZE_2D, DML_SIZE_2D structure, direct3d12.dml_size_2d, directml/DML_SIZE_2D
-f1_keywords:
-- directml/DML_SIZE_2D
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_SIZE_2D
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_SIZE_2D
+ - directml/DML_SIZE_2D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_SIZE_2D
 ---
 
 # DML_SIZE_2D structure
@@ -49,18 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-
-
 Contains values that can represent the size (as supplied to a DirectML operator) of a 2-D plane of elements within a tensor, or a 2-D scale, or any 2-D width/height value.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Width
 
@@ -68,10 +60,8 @@ Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The width.
 
-
 ### -field Height
 
 Type: [**UINT**](/windows/desktop/winprog/windows-data-types)
 
 The height.
-

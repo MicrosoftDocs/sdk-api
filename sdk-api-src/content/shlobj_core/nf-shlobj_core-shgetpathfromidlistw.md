@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: f043ffa2-37c1-465d-aed6-0475e721fbde
 ms.date: 12/05/2018
 ms.keywords: SHGetPathFromIDList, SHGetPathFromIDList function [Windows Shell], SHGetPathFromIDListA, SHGetPathFromIDListW, _win32_SHGetPathFromIDList, shell.SHGetPathFromIDList, shlobj_core/SHGetPathFromIDList, shlobj_core/SHGetPathFromIDListA, shlobj_core/SHGetPathFromIDListW
-f1_keywords:
-- shlobj_core/SHGetPathFromIDList
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-- windows.storage.dll
-api_name:
-- SHGetPathFromIDList
-- SHGetPathFromIDListA
-- SHGetPathFromIDListW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetPathFromIDListW
+ - shlobj_core/SHGetPathFromIDListW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+ - windows.storage.dll
+api_name:
+ - SHGetPathFromIDList
+ - SHGetPathFromIDListA
+ - SHGetPathFromIDListW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHGetPathFromIDListW function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an item identifier list to a file system path.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
@@ -69,28 +66,19 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 The address of an item identifier list that specifies a file or directory location relative to the root of the namespace (the desktop).
 
-
 ### -param pszPath [out]
 
 Type: <b>LPTSTR</b>
 
 The address of a buffer to receive the file system path. This buffer must be at least MAX_PATH characters in size.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the location specified by the <i>pidl</i> parameter is not part of the file system, this function will fail.
 
@@ -105,15 +93,8 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> will conta
 
 ## -see-also
 
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlistex">SHGetPathFromIDListEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlistex">SHGetPathFromIDListEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: e64cb785-9688-4aba-8017-65a8494ddb33
 ms.date: 12/05/2018
 ms.keywords: FastRecovery, FastRecovery method, FastRecovery method,IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,FastRecovery method, IVssBackupComponentsEx2.FastRecovery, IVssBackupComponentsEx2::FastRecovery, base.ivssbackupcomponentsex2_fastrecovery, vsbackup/IVssBackupComponentsEx2::FastRecovery
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.FastRecovery
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx2.FastRecovery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::FastRecovery
+ - vsbackup/IVssBackupComponentsEx2::FastRecovery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx2.FastRecovery
 ---
 
 # IVssBackupComponentsEx2::FastRecovery
@@ -49,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This method is reserved for future use.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetID
 
 This parameter is reserved for future use.
 
-
 ### -param dwFastRecoveryFlags
 
 This parameter is reserved for future use.
 
-
 ### -param ppAsync
 
 This parameter is reserved for future use.
-
-
 

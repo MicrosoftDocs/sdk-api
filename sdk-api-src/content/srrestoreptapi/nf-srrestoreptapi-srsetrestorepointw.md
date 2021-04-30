@@ -8,10 +8,6 @@ tech.root: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
 ms.date: 12/05/2018
 ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRSetRestorePointA, SRSetRestorePointW, _sr_srsetrestorepoint, sr.srsetrestorepoint, srrestoreptapi/SRSetRestorePoint, srrestoreptapi/SRSetRestorePointA, srrestoreptapi/SRSetRestorePointW
-f1_keywords:
-- srrestoreptapi/SRSetRestorePoint
-dev_langs:
-- c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: SrClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- SrClient.dll
-- sfc.dll
-api_name:
-- SRSetRestorePoint
-- SRSetRestorePointA
-- SRSetRestorePointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SRSetRestorePointW
+ - srrestoreptapi/SRSetRestorePointW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - SrClient.dll
+ - sfc.dll
+api_name:
+ - SRSetRestorePoint
+ - SRSetRestorePointA
+ - SRSetRestorePointW
 ---
 
 # SRSetRestorePointW function
@@ -52,53 +53,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
 
 For a scriptable equivalent, see 
-<a href="https://docs.microsoft.com/windows/desktop/sr/createrestorepoint-systemrestore">CreateRestorePoint</a>.
-
+<a href="/windows/desktop/sr/createrestorepoint-systemrestore">CreateRestorePoint</a>.
 
 ## -parameters
-
-
-
 
 ### -param pRestorePtSpec [in]
 
 A pointer to a 
 <a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-restorepointinfoa">RESTOREPOINTINFO</a> structure that specifies the restore point.
 
-
 ### -param pSMgrStatus [out]
 
 A pointer to a 
 <a href="/windows/win32/api/srrestoreptapi/ns-srrestoreptapi-statemgrstatus">STATEMGRSTATUS</a> structure that receives the status information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>. The <b>llSequenceNumber</b> member of <i>pSMgrStatus</i> receives the sequence number of the restore point.
 
 If the function fails, the return value is <b>FALSE</b>. The <b>nStatus</b> member of <i>pSMgrStatus</i> receives error information.
 
-
-
-
 ## -remarks
 
-
-
-You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, see <a href="https://docs.microsoft.com/windows/desktop/sr/using-system-restore">Using System Restore</a>.
+You must initialize COM security to allow NetworkService, LocalService and System to call back into any process that uses <b>SRSetRestorePoint</b>. This is necessary for <b>SRSetRestorePoint</b> to operate properly. For information on setting up the COM calls to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> and <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity">CoInitializeSecurity</a>, see <a href="/windows/desktop/sr/using-system-restore">Using System Restore</a>.
 
 This function cannot be called in safe mode. It also fails if System Restore has been disabled (see 
-<a href="https://docs.microsoft.com/windows/desktop/sr/disable-systemrestore">Disable</a>).
+<a href="/windows/desktop/sr/disable-systemrestore">Disable</a>).
 
 When you call this function, System Restore takes a full snapshot of the registry and other system databases.
 
-Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load SrClient.dll and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to call the function.
+Applications should not call System Restore functions using load-time dynamic linking. Instead, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load SrClient.dll and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to call the function.
 
 Create restore points just prior to a system change, by calling 
 <b>SRSetRestorePoint</b> with the <b>dwEventType</b> member of the 
@@ -106,12 +93,12 @@ Create restore points just prior to a system change, by calling
 <b>SRSetRestorePoint</b> with <b>dwEventType</b> set to END_SYSTEM_CHANGE.
 
 If the user cancels the application installation, the installer may remove the restore point it created when the installation began. Removing the restore point is optional and can prevent the user from recovering from unintentional changes made by the installer during the cancellation. If the installer is to remove a restore point, it can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a> function, or call 
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a> function, or call 
 <b>SRSetRestorePoint</b> with <b>dwRestorePointType</b> set to CANCELLED_OPERATION, <b>dwEventType</b> set to END_SYSTEM_CHANGE, and <b>llSequenceNumber</b> set to the value returned by the initial call to <b>SRSetRestorePoint</b>.
 
 Be careful when making nested calls to 
 <b>SRSetRestorePoint</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/sr/nested-calls-to-srsetrestorepoint">Nested calls to SRSetRestorePoint</a>.
+<a href="/windows/desktop/sr/nested-calls-to-srsetrestorepoint">Nested calls to SRSetRestorePoint</a>.
 
 
 <b>Windows 8:  </b><p class="note">A new registry key enables application developers to change the frequency of restore-point creation. 
@@ -142,7 +129,7 @@ The <b>SRSetRestorePoint</b> function returns <b>TRUE</b>.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/sr/using-system-restore">Using System Restore</a>.
+For an example, see <a href="/windows/desktop/sr/using-system-restore">Using System Restore</a>.
 
 <div class="code"></div>
 
@@ -154,11 +141,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/sr/using
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a>
- 
-
- 
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint">SRRemoveRestorePoint</a>

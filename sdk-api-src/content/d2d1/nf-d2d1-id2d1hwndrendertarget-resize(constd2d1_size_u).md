@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 1a1e7aae-9660-4c35-9d7b-374f3ff28253
 ms.date: 12/05/2018
 ms.keywords: ID2D1HwndRenderTarget interface [Direct2D],Resize method, ID2D1HwndRenderTarget.Resize, ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U), ID2D1HwndRenderTarget::Resize, ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U), Resize, Resize method [Direct2D], Resize method [Direct2D],ID2D1HwndRenderTarget interface, d2d1/ID2D1HwndRenderTarget::Resize, direct2d.ID2D1HwndRenderTarget_Resize_ptr_D2D_SIZE_U
-f1_keywords:
-- d2d1/ID2D1HwndRenderTarget.Resize
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1HwndRenderTarget.Resize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1HwndRenderTarget::Resize
+ - d2d1/ID2D1HwndRenderTarget::Resize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1HwndRenderTarget.Resize
 ---
 
 ## -description
@@ -69,3 +70,4 @@ After this method is called, the contents of the render target's back-buffer are
 ## -see-also
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>
+

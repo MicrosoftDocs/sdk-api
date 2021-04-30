@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 13df79ea-81c9-4060-8e11-ad7a24a7b5fa
 ms.date: 12/05/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentButton method, IDvdInfo.GetCurrentButton, IDvdInfo::GetCurrentButton, IDvdInfoGetCurrentButton, dshow.idvdinfo_getcurrentbutton, strmif/IDvdInfo::GetCurrentButton
-f1_keywords:
-- strmif/IDvdInfo.GetCurrentButton
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetCurrentButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetCurrentButton
+ - strmif/IDvdInfo::GetCurrentButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetCurrentButton
 ---
 
 # IDvdInfo::GetCurrentButton
@@ -49,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves the number of available buttons and the currently selected button number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pulButtonsAvailable [out]
 
 Pointer to the number of buttons available.
 
-
 ### -param pulCurrentButton [out]
 
 Pointer to the number of the current button.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value .
 
@@ -107,33 +96,17 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If buttons are not present this method returns zero for both <i>pnButtonsAvailable</i> and <i>pnCurrentButton</i>.
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
-
-
-
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

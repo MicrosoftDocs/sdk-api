@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 96b41588-d634-4cdd-aacc-0456b8e47c3b
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Identifier property, ITsSbTaskInfo.Identifier, ITsSbTaskInfo.get_Identifier, ITsSbTaskInfo::Identifier, ITsSbTaskInfo::get_Identifier, Identifier property [Remote Desktop Services], Identifier property [Remote Desktop Services],ITsSbTaskInfo interface, get_Identifier, sbtsv/ITsSbTaskInfo::Identifier, sbtsv/ITsSbTaskInfo::get_Identifier, termserv.itssbtaskinfo_identifier
-f1_keywords:
-- sbtsv/ITsSbTaskInfo.Identifier
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTaskInfo.Identifier
-- ITsSbTaskInfo.get_Identifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTaskInfo::get_Identifier
+ - sbtsv/ITsSbTaskInfo::get_Identifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTaskInfo.Identifier
+ - ITsSbTaskInfo.get_Identifier
 ---
 
 # ITsSbTaskInfo::get_Identifier
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a GUID that is used as a unique identifier by the task agent.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>

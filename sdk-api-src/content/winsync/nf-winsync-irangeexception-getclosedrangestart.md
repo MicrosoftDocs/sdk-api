@@ -8,10 +8,6 @@ tech.root: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
 ms.date: 12/05/2018
 ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
-f1_keywords:
-- winsync/IRangeException.GetClosedRangeStart
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRangeException.GetClosedRangeStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRangeException::GetClosedRangeStart
+ - winsync/IRangeException::GetClosedRangeStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRangeException.GetClosedRangeStart
 ---
 
 # IRangeException::GetClosedRangeStart
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the lower bound of the range of item IDs to exclude.
 
-
 ## -parameters
-
-
-
 
 ### -param pbClosedRangeStart [in, out]
 
 Returns the lower bound of the range of item IDs to exclude.
 
-
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbClosedRangeStart</i>. Returns the number of bytes to retrieve the ID when <i>pbClosedRangeStart</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -110,18 +102,7 @@ When<i>pbClosedRangeStart</i> is too small. In this case, the required number of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>

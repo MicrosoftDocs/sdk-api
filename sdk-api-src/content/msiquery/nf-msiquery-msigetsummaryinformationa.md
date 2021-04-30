@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.date: 12/05/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
-f1_keywords:
-- msiquery/MsiGetSummaryInformation
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSI-Misc-l1-1-0.dll
-api_name:
-- MsiGetSummaryInformation
-- MsiGetSummaryInformationA
-- MsiGetSummaryInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetSummaryInformationA
+ - msiquery/MsiGetSummaryInformationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+api_name:
+ - MsiGetSummaryInformation
+ - MsiGetSummaryInformationA
+ - MsiGetSummaryInformationW
 ---
 
 # MsiGetSummaryInformationA function
@@ -52,65 +53,49 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetSummaryInformation</b> function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 Handle to the database.
 
-
 ### -param szDatabasePath [in]
 
 Specifies the path to the database.
-
 
 ### -param uiUpdateCount [in]
 
 Specifies the maximum number of updated values.
 
-
 ### -param phSummaryInfo [out]
 
 Pointer to the location from which to receive the summary information handle.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetSummaryInformation</b> function returns the following values:
 
-
-
-
 ## -remarks
-
-
 
 If the database specified by the 
 <b>MsiGetSummaryInformation</b> function is not open, you must specify 0 for <i>hDatabase</i> and specify the path to the database in <i>szDatabasePath</i>. If the database is open, you must set <i>szDatabasePath</i> to 0.
 
 If a value of <i>uiUpdateCount</i> greater than 0 is used to open an existing summary information stream, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msisummaryinfopersist">MsiSummaryInfoPersist</a> must be called before closing the <i>phSummaryInfo</i> handle. Failing to do this will lose the existing stream information.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msisummaryinfopersist">MsiSummaryInfoPersist</a> must be called before closing the <i>phSummaryInfo</i> handle. Failing to do this will lose the existing stream information.
 
 To view the summary information of a patch using <b>MsiGetSummaryInformation</b>, set <i>szDatabasePath</i> to the path to the patch. Alternately, you can create a handle to the patch using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> and then pass that handle to 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> and then pass that handle to 
 <b>MsiGetSummaryInformation</b> as the <i>hDatabase</i> parameter.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -121,15 +106,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>

@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleFactory.CreateContentDecryptionModuleAccess
 title: IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Creates an instance of the IMFContentDecryptionModuleAccess interface.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 f1_keywords:
+ - IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleFactory::CreateContentDecryptionModuleAccess
 dev_langs:
  - c++
@@ -51,7 +51,7 @@ An **LPWSTR** identifying the Key System for which the interface is created.
 
 ### -param configurations
 
-An [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) object containing the configuration options for the CDM.
+An [IPropertyStore](../propsys/nn-propsys-ipropertystore.md) object containing the configuration options for the CDM.
 
 ### -param numConfigurations
 
@@ -69,8 +69,6 @@ Returns S_OK on success.
 
 **IMFContentDecryptionModuleAccess** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess.getConfiguration](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#mediakeysystemaccess-interface).
 
-
 ## -see-also
 
 - [IMFContentDecryptionModuleAccess](nn-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess.md)
-

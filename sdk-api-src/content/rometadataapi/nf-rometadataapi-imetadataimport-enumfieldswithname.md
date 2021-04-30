@@ -8,10 +8,6 @@ tech.root: WinRT
 ms.assetid: 6035f267-778d-4d7d-84eb-1081f33ff619
 ms.date: 12/05/2018
 ms.keywords: EnumFieldsWithName, EnumFieldsWithName method [Windows Runtime], EnumFieldsWithName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumFieldsWithName method, IMetaDataImport.EnumFieldsWithName, IMetaDataImport::EnumFieldsWithName, rometadataapi/IMetaDataImport::EnumFieldsWithName, winrt.imetadataimport_enumfieldswithname
-f1_keywords:
-- rometadataapi/IMetaDataImport.EnumFieldsWithName
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataImport.EnumFieldsWithName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataImport::EnumFieldsWithName
+ - rometadataapi/IMetaDataImport::EnumFieldsWithName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataImport.EnumFieldsWithName
 ---
 
 # IMetaDataImport::EnumFieldsWithName
@@ -49,50 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates FieldDef tokens of the specified type with the specified name.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
 A pointer to the enumerator.
 
-
 ### -param tkTypeDef [in]
 
 The token of the type whose fields are to be enumerated.
-
 
 ### -param szName [in]
 
 The field name that limits the scope of the enumeration.
 
-
 ### -param rFields [out]
 
 Array used to store the FieldDef tokens.
-
 
 ### -param cMax [in]
 
 The maximum size of the <i>rFields</i> array.
 
-
-
-
 ### -param pcTokens [out]
 
 The actual number of FieldDef tokens returned in <i>rFields</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -111,29 +97,11 @@ The actual number of FieldDef tokens returned in <i>rFields</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Unlike <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields">EnumFields</a>, <b>EnumFieldsWithName</b> discards all field tokens that do not have the specified name.
-
-
-
-
-
+Unlike <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumfields">EnumFields</a>, <b>EnumFieldsWithName</b> discards all field tokens that do not have the specified name.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

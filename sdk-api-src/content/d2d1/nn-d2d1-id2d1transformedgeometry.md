@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
-f1_keywords:
-- d2d1/ID2D1TransformedGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1TransformedGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformedGeometry
+ - d2d1/ID2D1TransformedGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1TransformedGeometry
 ---
 
 # ID2D1TransformedGeometry interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a geometry that has been transformed.
-
 
 ## -inheritance
 
@@ -60,38 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedGeometry</b> 
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1TransformedGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1transformedgeometry-getsourcegeometry">GetSourceGeometry</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source geometry of this transformed geometry object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1transformedgeometry-gettransform">GetTransform</a>
-</td>
-<td align="left" width="63%">
-Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> object's source geometry.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.
 
@@ -162,17 +130,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
- 
-
- 
 

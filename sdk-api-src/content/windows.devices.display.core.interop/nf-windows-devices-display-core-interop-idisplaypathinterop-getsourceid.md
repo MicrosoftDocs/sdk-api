@@ -5,8 +5,6 @@ description: TBD
 helpviewer_keywords: ["IDisplayPathInterop::GetSourceId"]
 ms.date: 02/10/2020
 tech.root: winrt
-dev_langs:
-- c++
 req.header: windows.devices.display.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -24,18 +22,23 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
- - IDisplayPathInterop::GetSourceId
 targetos: Windows
 req.typenames: 
 req.redist: 
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - IDisplayPathInterop::GetSourceId
+f1_keywords:
+ - IDisplayPathInterop::GetSourceId
+ - windows.devices.display.core.interop/IDisplayPathInterop::GetSourceId
 ---
 
 ## -description
@@ -52,8 +55,9 @@ The unique identifier.
 
 Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
 
-This method returns **S_OK** if it succeeded, otherwise a failure code indicating why it failed. 
+This method returns **S_OK** if it succeeded, otherwise a failure code indicating why it failed.
 
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: b5690b4f-3967-41d8-bf11-70f8b1da79ad
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_NTFS_VOLUME_DATA, FSCTL_GET_NTFS_VOLUME_DATA control, FSCTL_GET_NTFS_VOLUME_DATA control code [Files], _win32_fsctl_get_ntfs_volume_data, base.fsctl_get_ntfs_volume_data, fs.fsctl_get_ntfs_volume_data, winioctl/FSCTL_GET_NTFS_VOLUME_DATA
-f1_keywords:
-- winioctl/FSCTL_GET_NTFS_VOLUME_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_GET_NTFS_VOLUME_DATA
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_GET_NTFS_VOLUME_DATA
+ - winioctl/FSCTL_GET_NTFS_VOLUME_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_GET_NTFS_VOLUME_DATA
 ---
 
 # FSCTL_GET_NTFS_VOLUME_DATA IOCTL
+
 
 ## -description
 
@@ -68,21 +70,15 @@ BOOL DeviceIoControl(
 
 ### -input-buffer
 
-
 ### -input-buffer-length
-
 
 ### -output-buffer
 
-
 ### -output-buffer-length
-
 
 ### -in-out-buffer
 
-
 ### -inout-buffer-length
-
 
 ### -status-block
 
@@ -90,8 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -104,9 +99,9 @@ SMB 3.0 Transparent Failover (TFO) | No
 SMB 3.0 with Scale-out File Shares (SO) | No
 Cluster Shared Volume File System (CsvFS) | Yes
 
-
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_extended_volume_data.md)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
+* [NTFS_VOLUME_DATA_BUFFER](ns-winioctl-ntfs_volume_data_buffer.md)
+* [NTFS_EXTENDED_VOLUME_DATA](ns-winioctl-ntfs_extended_volume_data.md)
+* [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)

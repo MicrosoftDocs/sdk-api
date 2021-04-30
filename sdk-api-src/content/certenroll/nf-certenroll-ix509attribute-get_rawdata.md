@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: a8e67f3c-4c05-4742-8251-a03335054b2e
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute interface [Security],RawData property, IX509Attribute.RawData, IX509Attribute.get_RawData, IX509Attribute::RawData, IX509Attribute::get_RawData, RawData property [Security], RawData property [Security],IX509Attribute interface, certenroll/IX509Attribute::RawData, certenroll/IX509Attribute::get_RawData, get_RawData, security.ix509attribute_rawdata_property
-f1_keywords:
-- certenroll/IX509Attribute.RawData
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Attribute.RawData
-- IX509Attribute.get_RawData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Attribute::get_RawData
+ - certenroll/IX509Attribute::get_RawData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Attribute.RawData
+ - IX509Attribute.get_RawData
 ---
 
 # IX509Attribute::get_RawData
@@ -50,39 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RawData</b> property retrieves the attribute value.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-initialize">Initialize</a> method to specify the property value.
-
-
-
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-initialize">Initialize</a> method to specify the property value.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>

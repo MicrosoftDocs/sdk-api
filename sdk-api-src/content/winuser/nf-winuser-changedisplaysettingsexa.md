@@ -8,10 +8,6 @@ tech.root: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
 ms.date: 12/05/2018
 ms.keywords: CDS_DISABLE_UNSAFE_MODES, CDS_ENABLE_UNSAFE_MODES, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, CDS_VIDEOPARAMETERS, ChangeDisplaySettingsEx, ChangeDisplaySettingsEx function [Windows GDI], ChangeDisplaySettingsExA, ChangeDisplaySettingsExW, _win32_ChangeDisplaySettingsEx, gdi.changedisplaysettingsex, winuser/ChangeDisplaySettingsEx, winuser/ChangeDisplaySettingsExA, winuser/ChangeDisplaySettingsExW
-f1_keywords:
-- winuser/ChangeDisplaySettingsEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-api_name:
-- ChangeDisplaySettingsEx
-- ChangeDisplaySettingsExA
-- ChangeDisplaySettingsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeDisplaySettingsExA
+ - winuser/ChangeDisplaySettingsExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+api_name:
+ - ChangeDisplaySettingsEx
+ - ChangeDisplaySettingsExA
+ - ChangeDisplaySettingsExW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsExA function
@@ -54,21 +56,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ChangeDisplaySettingsEx</b> function changes the settings of the specified display device to the specified graphics mode.
-<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
+<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpszDeviceName [in]
 
-A pointer to a null-terminated string that specifies the display device whose graphics mode will change. Only display device names as returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> are valid. See <b>EnumDisplayDevices</b> for further information on the names associated with these display devices.
+A pointer to a null-terminated string that specifies the display device whose graphics mode will change. Only display device names as returned by <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> are valid. See <b>EnumDisplayDevices</b> for further information on the names associated with these display devices.
 
-The <i>lpszDeviceName</i> parameter can be <b>NULL</b>. A <b>NULL</b> value specifies the default display device. The default device can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> and checking for the DISPLAY_DEVICE_PRIMARY_DEVICE flag.
-
+The <i>lpszDeviceName</i> parameter can be <b>NULL</b>. A <b>NULL</b> value specifies the default display device. The default device can be determined by calling <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a> and checking for the DISPLAY_DEVICE_PRIMARY_DEVICE flag.
 
 ### -param lpDevMode [in]
 
@@ -140,13 +137,10 @@ In addition to using one or more of the preceding <a href="/windows/win32/api/wi
 <td>Use the <b>dmPosition</b> value.</td>
 </tr>
 </table>
- 
-
 
 ### -param hwnd
 
 Reserved; must be <b>NULL</b>.
-
 
 ### -param dwflags [in]
 
@@ -246,7 +240,7 @@ The graphics mode for the current screen will be changed dynamically and the gra
 </dl>
 </td>
 <td width="60%">
-When set, the <i>lParam</i> parameter is a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure.
+When set, the <i>lParam</i> parameter is a pointer to a <a href="/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -279,15 +273,11 @@ If CDS_UPDATEREGISTRY is specified and it is possible to change the graphics mod
 
 If CDS_UPDATEREGISTRY is specified and the information could not be stored in the registry, the graphics mode is not changed and DISP_CHANGE_NOTUPDATED is returned.
 
-
 ### -param lParam [in]
 
-If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
-
+If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
 
 ## -returns
-
-
 
 The <b>ChangeDisplaySettingsEx</b> function returns one of the following values.
 
@@ -385,20 +375,14 @@ The computer must be restarted for the graphics mode to work.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
 
+When adding a display monitor to a multiple-monitor system programmatically, set <b>DEVMODE.dmFields</b> to DM_POSITION and specify a position (in <b>DEVMODE.dmPosition</b>) for the monitor you are adding that is adjacent to at least one pixel of the display area of an existing monitor. To detach the monitor, set <b>DEVMODE.dmFields</b> to DM_POSITION but set <b>DEVMODE.dmPelsWidth</b> and <b>DEVMODE.dmPelsHeight</b> to zero. For more information, see <a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors</a>.
 
-To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettingsEx</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
-
-When adding a display monitor to a multiple-monitor system programmatically, set <b>DEVMODE.dmFields</b> to DM_POSITION and specify a position (in <b>DEVMODE.dmPosition</b>) for the monitor you are adding that is adjacent to at least one pixel of the display area of an existing monitor. To detach the monitor, set <b>DEVMODE.dmFields</b> to DM_POSITION but set <b>DEVMODE.dmPelsWidth</b> and <b>DEVMODE.dmPelsHeight</b> to zero. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors</a>.
-
-When the display mode is changed dynamically, the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
+When the display mode is changed dynamically, the <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
 
 <table>
 <tr>
@@ -444,10 +428,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
@@ -455,28 +436,24 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a>
+<a href="/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>

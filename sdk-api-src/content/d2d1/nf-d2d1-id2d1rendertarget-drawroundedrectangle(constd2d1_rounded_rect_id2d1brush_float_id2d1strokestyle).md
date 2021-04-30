@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 ms.date: 12/05/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget.DrawRoundedRectangle, ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
-f1_keywords:
-- d2d1/ID2D1RenderTarget::DrawRoundedRectangle
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget::DrawRoundedRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::DrawRoundedRectangle
+ - d2d1/ID2D1RenderTarget::DrawRoundedRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget::DrawRoundedRectangle
 ---
 
 ## -description
@@ -80,7 +81,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 ## Examples
 
-The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawroundedrectangle(constd2d1_rounded_rect_id2d1brush_float_id2d1strokestyle)">DrawRoundedRectangle</a> and <a href="/windows/win32/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
+The following example uses the **DrawRoundedRectangle** and <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillroundedrectangle(constd2d1_rounded_rect__id2d1brush)">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 
@@ -160,3 +161,4 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 <a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+

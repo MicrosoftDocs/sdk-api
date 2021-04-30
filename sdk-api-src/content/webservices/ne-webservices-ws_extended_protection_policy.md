@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: ee3685b1-0ffe-410e-a6fc-b31ed8d25b26
 ms.date: 12/05/2018
 ms.keywords: WS_EXTENDED_PROTECTION_POLICY, WS_EXTENDED_PROTECTION_POLICY enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_POLICY_ALWAYS, WS_EXTENDED_PROTECTION_POLICY_NEVER, WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, webservices/WS_EXTENDED_PROTECTION_POLICY, webservices/WS_EXTENDED_PROTECTION_POLICY_ALWAYS, webservices/WS_EXTENDED_PROTECTION_POLICY_NEVER, webservices/WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, wsw.ws_extended_protection_policy
-f1_keywords:
-- webservices/WS_EXTENDED_PROTECTION_POLICY
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_EXTENDED_PROTECTION_POLICY
 targetos: Windows
 req.typenames: WS_EXTENDED_PROTECTION_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_EXTENDED_PROTECTION_POLICY
+ - webservices/WS_EXTENDED_PROTECTION_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_EXTENDED_PROTECTION_POLICY
 ---
 
 # WS_EXTENDED_PROTECTION_POLICY enumeration
@@ -49,22 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines if <a href="https://docs.microsoft.com/windows/desktop/wsw/extended-protection">Extended Protection</a> data should be validated. This property is only available on the server,
-                and can only be set when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
-            
-
+Defines if <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a> data should be validated. This property is only available on the server,
+                and can only be set when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ns-webservices-ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a> and either <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>or <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> is used.
 
 ## -enum-fields
-
-
-
 
 ### -field WS_EXTENDED_PROTECTION_POLICY_NEVER
 
 Extended protection data is not validated.
-                
-
 
 ### -field WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED
 
@@ -80,12 +73,8 @@ NOTE: If the client supports the extended protection feature, but did not includ
                 
 
 This is the default.
-                
-
 
 ### -field WS_EXTENDED_PROTECTION_POLICY_ALWAYS
 
 Extended protection data is required to be present and is always validated. Clients that are not extended-protection-aware cannot authenticate to a server 
                     setting this flag.
-                
-

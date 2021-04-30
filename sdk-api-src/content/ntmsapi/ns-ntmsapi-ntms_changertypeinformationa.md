@@ -8,10 +8,6 @@ tech.root: fs
 ms.assetid: 49c219d7-5772-4868-80dd-ab1e1f1471b1
 ms.date: 12/05/2018
 ms.keywords: FILE_DEVICE_CHANGER, NTMS_CHANGERTYPEINFORMATION, NTMS_CHANGERTYPEINFORMATION structure [Files], NTMS_CHANGERTYPEINFORMATIONA, NTMS_CHANGERTYPEINFORMATIONW, _NTMS_CHANGERTYPEINFORMATIONA, _NTMS_CHANGERTYPEINFORMATIONW, _zaw_ntms_changertypeinformation, base.ntms_changertypeinformation, fs.ntms_changertypeinformation, ntmsapi/NTMS_CHANGERTYPEINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_CHANGERTYPEINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_CHANGERTYPEINFORMATION
-- NTMS_CHANGERTYPEINFORMATIONA
-- NTMS_CHANGERTYPEINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_CHANGERTYPEINFORMATIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_CHANGERTYPEINFORMATIONA
+ - ntmsapi/_NTMS_CHANGERTYPEINFORMATIONA
+ - NTMS_CHANGERTYPEINFORMATIONA
+ - ntmsapi/NTMS_CHANGERTYPEINFORMATIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_CHANGERTYPEINFORMATION
+ - NTMS_CHANGERTYPEINFORMATIONA
+ - NTMS_CHANGERTYPEINFORMATIONW
 ---
 
 # NTMS_CHANGERTYPEINFORMATIONA structure
@@ -51,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_CHANGERTYPEINFORMATION</b> structure defines the properties specific to a type of robotic changer supported by RSM.
 
-
 ## -struct-fields
-
-
-
 
 ### -field szVendor
 
 Name of the vendor of the changer. This is acquired directly from the device inquiry data.
 
-
 ### -field szProduct
 
 Product name of the changer. This is acquired directly from the device inquiry data.
-
 
 ### -field DeviceType
 
@@ -95,16 +91,12 @@ Changer device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The 
 <b>NTMS_CHANGERTYPEINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
@@ -115,11 +107,4 @@ The
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

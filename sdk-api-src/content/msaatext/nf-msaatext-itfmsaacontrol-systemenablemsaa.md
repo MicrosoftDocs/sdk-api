@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: fec3aa3f-3554-4c21-9557-a12388d97a94
 ms.date: 12/05/2018
 ms.keywords: ITfMSAAControl interface [Text Services Framework],SystemEnableMSAA method, ITfMSAAControl.SystemEnableMSAA, ITfMSAAControl::SystemEnableMSAA, SystemEnableMSAA, SystemEnableMSAA method [Text Services Framework], SystemEnableMSAA method [Text Services Framework],ITfMSAAControl interface, msaatext/ITfMSAAControl::SystemEnableMSAA, tsf.itfmsaacontrol_systemenablemsaa
-f1_keywords:
-- msaatext/ITfMSAAControl.SystemEnableMSAA
-dev_langs:
-- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMSAAControl.SystemEnableMSAA
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMSAAControl::SystemEnableMSAA
+ - msaatext/ITfMSAAControl::SystemEnableMSAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMSAAControl.SystemEnableMSAA
 ---
 
 # ITfMSAAControl::SystemEnableMSAA
@@ -53,14 +54,7 @@ Used by MSAA to request TSF support of an MSAA client.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -92,22 +86,11 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nn-msaatext-itfmsaacontrol">ITfMSAAControl</a>
+<a href="/windows/desktop/api/msaatext/nn-msaatext-itfmsaacontrol">ITfMSAAControl</a>
 
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
- 
-
- 
-

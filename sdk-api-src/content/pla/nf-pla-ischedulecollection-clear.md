@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
-f1_keywords:
-- pla/IScheduleCollection.Clear
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IScheduleCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IScheduleCollection::Clear
+ - pla/IScheduleCollection::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IScheduleCollection.Clear
 ---
 
 # IScheduleCollection::Clear
@@ -49,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all schedules from the collection.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Returns S_OK if successful.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">IScheduleCollection::Remove</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">IScheduleCollection::Remove</a>

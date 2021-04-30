@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFExtendedCameraControl
 title: IMFExtendedCameraControl
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: This interface is used to configure the capture device's extended properties.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl
 f1_keywords:
+ - IMFExtendedCameraControl
  - mfidl/IMFExtendedCameraControl
 dev_langs:
  - c++
@@ -98,8 +98,6 @@ if (capabilities & KSCAMERA_EXTENDEDPROP_VIDEOTORCH_ON)
 }
 
 ```
-
-
 
 ## -see-also
 

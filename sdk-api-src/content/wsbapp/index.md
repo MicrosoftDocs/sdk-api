@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wsb
+f1_keywords:
+ - wsbapp
+ - wsbapp/wsbapp
 ---
 
 # Wsbapp.h header
 
 
 ## -description
-
 
 This header is used by Windows Server Backup. For more information, see:
 

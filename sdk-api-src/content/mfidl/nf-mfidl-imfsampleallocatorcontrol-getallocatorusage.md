@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFSampleAllocatorControl.GetAllocatorUsage
 title: IMFSampleAllocatorControl::GetAllocatorUsage
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the sample allocator usage for the specified output stream.
 tech.root: mf
@@ -35,6 +34,7 @@ api_location:
 api_name:
  - IMFSampleAllocatorControl::GetAllocatorUsage
 f1_keywords:
+ - IMFSampleAllocatorControl::GetAllocatorUsage
  - mfidl/IMFSampleAllocatorControl::GetAllocatorUsage
 dev_langs:
  - c++

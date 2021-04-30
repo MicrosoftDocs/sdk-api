@@ -8,10 +8,6 @@ tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
-f1_keywords:
-- winnetwk/WNetAddConnection2
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetAddConnection2
-- WNetAddConnection2A
-- WNetAddConnection2W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetAddConnection2A
+ - winnetwk/WNetAddConnection2A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetAddConnection2
+ - WNetAddConnection2A
+ - WNetAddConnection2W
 ---
 
 # WNetAddConnection2A function
@@ -51,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetAddConnection2</b> function makes a connection to a network resource and can redirect a local device to the network resource.
 
 The 
 <b>WNetAddConnection2</b> function supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function. If you can pass a handle to a window that the provider of network resources can use as an owner window for dialog boxes, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function instead.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function. If you can pass a handle to a window that the provider of network resources can use as an owner window for dialog boxes, call the 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a> function instead.
 
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
@@ -149,7 +145,6 @@ The
 <b>WNetAddConnection2</b> function ignores the other members of the 
 <a href="/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure.
 
-
 ### -param lpPassword [in]
 
 A pointer to a constant <b>null</b>-terminated string that specifies a password to be used in making the network connection.
@@ -161,7 +156,6 @@ If <i>lpPassword</i> points to an empty string, the function does not use a pass
 If the connection fails because of an invalid password and the CONNECT_INTERACTIVE value is set in the <i>dwFlags</i> parameter, the function displays a dialog box asking the user to type the password.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param lpUserName [in]
 
@@ -175,10 +169,9 @@ If <i>lpUserName</i> is <b>NULL</b>, the function uses the default user name. (T
 The <i>lpUserName</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
 
 The user-name string represents a 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
+<a href="/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param dwFlags [in]
 
@@ -329,17 +322,13 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value can be one of the following error codes or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -487,7 +476,7 @@ The local device name has a remembered connection to another network resource. T
 </td>
 <td width="60%">
 A network-specific error occurred. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
 
 </td>
 </tr>
@@ -565,25 +554,19 @@ The network is unavailable.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 On Windows Server 2003 and Windows XP, the WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID (a  
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+<a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem calls the <b>WNetAddConnection2</b> function, then the mapped drive is visible to all user logon sessions.  
 
@@ -687,7 +670,7 @@ int wmain(int argc, wchar_t * argv[])
 
 For other code samples that illustrates how to make a connection to a network resource using the 
 <b>WNetAddConnection2</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/adding-a-network-connection">Adding a Network Connection</a> and <a href="https://docs.microsoft.com/windows/desktop/WNet/assigning-a-drive-to-a-share">Assigning a Drive to a Share</a>.
+<a href="/windows/desktop/WNet/adding-a-network-connection">Adding a Network Connection</a> and <a href="/windows/desktop/WNet/assigning-a-drive-to-a-share">Assigning a Drive to a Share</a>.
 
 <div class="code"></div>
 
@@ -699,33 +682,26 @@ For other code samples that illustrates how to make a connection to a network re
 
 ## -see-also
 
+<a href="/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
-

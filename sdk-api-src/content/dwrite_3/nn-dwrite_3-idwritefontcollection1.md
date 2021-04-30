@@ -8,10 +8,6 @@ tech.root: DirectWrite
 ms.assetid: bdee031b-53fa-321d-5cdc-4cc2c7ec58ca
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontCollection1, IDWriteFontCollection1 interface [Direct Write], IDWriteFontCollection1 interface [Direct Write],described, directwrite.idwritefontcollection1, dwrite_3/IDWriteFontCollection1
-f1_keywords:
-- dwrite_3/IDWriteFontCollection1
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontCollection1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontCollection1
+ - dwrite_3/IDWriteFontCollection1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontCollection1
 ---
 
 # IDWriteFontCollection1 interface
+
 
 ## -description
 
@@ -57,25 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollection1</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDWriteFontCollection1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset">GetFontSet</a>
-</td>
-<td align="left" width="63%">
-Gets the underlying font set used by this collection.
-
-</td>
-</tr>
-</table> 
-
 ## -see-also
 
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>
+

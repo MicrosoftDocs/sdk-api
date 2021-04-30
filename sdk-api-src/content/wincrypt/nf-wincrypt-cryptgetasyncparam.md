@@ -3,10 +3,6 @@ UID: NF:wincrypt.CryptGetAsyncParam
 title: CryptGetAsyncParam
 ms.date: 4/26/2019
 ms.keywords: CryptGetAsyncParam
-f1_keywords:
-- CryptGetAsyncParam
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,14 +23,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CryptGetAsyncParam
+ - wincrypt/CryptGetAsyncParam
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- secforwarder.dll
+ - secforwarder.dll
 api_name:
-- CryptGetAsyncParam
+ - CryptGetAsyncParam
 ---
 
 ## -description

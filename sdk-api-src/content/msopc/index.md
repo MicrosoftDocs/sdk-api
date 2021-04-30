@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: opc
+f1_keywords:
+ - msopc
+ - msopc/msopc
 ---
 
 # Msopc.h header
 
 
 ## -description
-
 
 This header is used by Packaging. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: base
 ms.assetid: cf95ba6c-b4da-4e9e-969e-58c492cf7901
 ms.date: 12/05/2018
 ms.keywords: GetProviderCapabilities, GetProviderCapabilities method, GetProviderCapabilities method,IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,GetProviderCapabilities method, IVssHardwareSnapshotProviderEx.GetProviderCapabilities, IVssHardwareSnapshotProviderEx::GetProviderCapabilities, base.ivsshardwaresnapshotproviderex_getprovidercapabilities, vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProviderEx.GetProviderCapabilities
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProviderEx.GetProviderCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProviderEx::GetProviderCapabilities
+ - vsprov/IVssHardwareSnapshotProviderEx::GetProviderCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProviderEx.GetProviderCapabilities
 ---
 
 # IVssHardwareSnapshotProviderEx::GetProviderCapabilities
@@ -49,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This method is reserved for future use.
 
-
 ## -parameters
-
-
-
 
 ### -param pllOriginalCapabilityMask
 
 This parameter is reserved for future use.
-
-
 

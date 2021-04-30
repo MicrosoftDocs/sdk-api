@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: 5899fa87-56e2-4287-9325-1d9eaedb892b
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetNumberOfChapters method, IDvdInfo2.GetNumberOfChapters, IDvdInfo2::GetNumberOfChapters, IDvdInfo2GetNumberOfChapters, dshow.idvdinfo2_getnumberofchapters, strmif/IDvdInfo2::GetNumberOfChapters
-f1_keywords:
-- strmif/IDvdInfo2.GetNumberOfChapters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetNumberOfChapters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetNumberOfChapters
+ - strmif/IDvdInfo2::GetNumberOfChapters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetNumberOfChapters
 ---
 
 # IDvdInfo2::GetNumberOfChapters
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetNumberOfChapters</code> method retrieves the number of chapters in a given title.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulTitle [in]
 
 Specifies the title.
 
-
 ### -param pulNumOfChapters [out]
 
 Receives the number of chapters for the specified title.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -123,40 +112,24 @@ A parameter is invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call this method to get the number of chapters before calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchapter">IDvdControl2::PlayChapter</a>, to ensure that you specify a valid chapter number.
-
-
-
+Call this method to get the number of chapters before calling <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchapter">IDvdControl2::PlayChapter</a>, to ensure that you specify a valid chapter number.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

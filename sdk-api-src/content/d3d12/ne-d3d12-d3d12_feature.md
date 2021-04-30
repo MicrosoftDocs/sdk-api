@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 165ECFE0-1B18-4A26-8B9C-3CE53776A349
 ms.date: 09/19/2019
 ms.keywords: D3D12_FEATURE, D3D12_FEATURE enumeration, D3D12_FEATURE_ARCHITECTURE, D3D12_FEATURE_FEATURE_LEVELS, D3D12_FEATURE_FORMAT_SUPPORT, D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_FORMAT_INFO, D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D12_FEATURE_SHADER_MODEL, D3D12_FEATURE_D3D12_OPTIONS1, D3D12_FEATURE_PROTECTED_RESOURCE_SESSION_SUPPORT, D3D12_FEATURE_ROOT_SIGNATURE, D3D12_FEATURE_ARCHITECTURE1, D3D12_FEATURE_D3D12_OPTIONS2, D3D12_FEATURE_SHADER_CACHE, D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, D3D12_FEATURE_D3D12_OPTIONS3, D3D12_FEATURE_EXISTING_HEAPS, D3D12_FEATURE_D3D12_OPTIONS4, D3D12_FEATURE_SERIALIZATION, D3D12_FEATURE_CROSS_NODE, D3D12_FEATURE_D3D12_OPTIONS5, D3D12_FEATURE_D3D12_OPTIONS6, D3D12_FEATURE_QUERY_META_COMMAND, d3d12/D3D12_FEATURE_ARCHITECTURE, d3d12/D3D12_FEATURE_FEATURE_LEVELS, d3d12/D3D12_FEATURE_FORMAT_SUPPORT, d3d12/D3D12_FEATURE_MULTISAMPLE_QUALITY_LEVELS, d3d12/D3D12_FEATURE_FORMAT_INFO, d3d12/D3D12_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT, d3d12/D3D12_FEATURE_SHADER_MODEL, d3d12/D3D12_FEATURE_D3D12_OPTIONS1, d3d12/D3D12_FEATURE_PROTECTED_RESOURCE_SESSION_SUPPORT, d3d12/D3D12_FEATURE_ROOT_SIGNATURE, d3d12/D3D12_FEATURE_ARCHITECTURE1, d3d12/D3D12_FEATURE_D3D12_OPTIONS2, d3d12/D3D12_FEATURE_SHADER_CACHE, d3d12/D3D12_FEATURE_COMMAND_QUEUE_PRIORITY, d3d12/D3D12_FEATURE_D3D12_OPTIONS3, d3d12/D3D12_FEATURE_EXISTING_HEAPS, d3d12/D3D12_FEATURE_D3D12_OPTIONS4, d3d12/D3D12_FEATURE_SERIALIZATION, d3d12/D3D12_FEATURE_CROSS_NODE, d3d12/D3D12_FEATURE_D3D12_OPTIONS5, d3d12/D3D12_FEATURE_D3D12_OPTIONS6, d3d12/D3D12_FEATURE_QUERY_META_COMMAND, direct3d12.d3d12_feature
-f1_keywords: 
- - "d3d12/D3D12_FEATURE"
-dev_langs:
- - c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,6 +25,14 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: D3D12_FEATURE
+req.redist: 
+f1_keywords:
+ - D3D12_FEATURE
+ - d3d12/D3D12_FEATURE
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,14 +42,11 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_FEATURE
-targetos: Windows
-req.typenames: D3D12_FEATURE
-req.redist: 
 ---
 
 ## -description
 
-Defines constants that specify a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to [ID3D12Device::CheckFeatureSupport](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport).
+Defines constants that specify a Direct3D 12 feature or feature set to query about. When you want to query for the level to which an adapter supports a feature, pass one of these values to [ID3D12Device::CheckFeatureSupport](./nf-d3d12-id3d12device-checkfeaturesupport.md).
 
 ## -enum-fields
 
@@ -149,10 +150,10 @@ Indicates a query for the level of support for metacommands. The corresponding d
 
 ## -remarks
 
-Use a constant from  this enumeration in a call to [ID3D12Device::CheckFeatureSupport](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) to query a driver about support for various Direct3D 12 features. Each value in this enumeration has a corresponding data structure that you must pass (by pointer reference) in the *pFeatureSupportData* parameter of **ID3D12Device::CheckFeatureSupport**.
+Use a constant from  this enumeration in a call to [ID3D12Device::CheckFeatureSupport](./nf-d3d12-id3d12device-checkfeaturesupport.md) to query a driver about support for various Direct3D 12 features. Each value in this enumeration has a corresponding data structure that you must pass (by pointer reference) in the *pFeatureSupportData* parameter of **ID3D12Device::CheckFeatureSupport**.
 
 ## -see-also
 
 [Core enumerations](/windows/win32/direct3d12/direct3d-12-enumerations)
 
-[ID3D12Device::CheckFeatureSupport](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport)
+[ID3D12Device::CheckFeatureSupport](./nf-d3d12-id3d12device-checkfeaturesupport.md)

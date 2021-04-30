@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
 ms.date: 12/05/2018
 ms.keywords: MCMV_CENTURY, MCMV_DECADE, MCMV_MONTH, MCMV_YEAR, MonthCal_SetCurrentView, MonthCal_SetCurrentView macro [Windows Controls], _shell_MonthCal_SetCurrentView, _shell_MonthCal_SetCurrentView_cpp, commctrl/MonthCal_SetCurrentView, controls.MonthCal_SetCurrentView, controls._shell_MonthCal_SetCurrentView
-f1_keywords:
-- commctrl/MonthCal_SetCurrentView
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_SetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_SetCurrentView
+ - commctrl/MonthCal_SetCurrentView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_SetCurrentView
 ---
 
 # MonthCal_SetCurrentView macro
@@ -49,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the view for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcurrentview">MCM_SETCURRENTVIEW</a> message explicitly.
-
+Sets the view for a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setcurrentview">MCM_SETCURRENTVIEW</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
-
 ### -param dwNewView
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 New view. One of the following constants.
 
@@ -117,5 +112,3 @@ Century view.
 </td>
 </tr>
 </table>
- 
-

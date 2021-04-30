@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFExtendedCameraController
 title: IMFExtendedCameraController
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - IMFExtendedCameraController
 f1_keywords:
+ - IMFExtendedCameraController
  - mfidl/IMFExtendedCameraController
 dev_langs:
  - c++
@@ -36,7 +36,6 @@ dev_langs:
 ## -description
 
 Allows apps to retrieve an instance of [IMFExtendedCameraControl](nn-mfidl-imfextendedcameracontrol.md), which is used to configure a capture device's extended properties.
-
 
 ## -remarks
 

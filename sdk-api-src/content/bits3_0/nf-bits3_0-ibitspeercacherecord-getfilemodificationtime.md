@@ -8,10 +8,6 @@ tech.root: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.date: 12/05/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
-f1_keywords:
-- bits3_0/IBitsPeerCacheRecord.GetFileModificationTime
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheRecord.GetFileModificationTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheRecord::GetFileModificationTime
+ - bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheRecord.GetFileModificationTime
 ---
 
 # IBitsPeerCacheRecord::GetFileModificationTime
@@ -50,24 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the date and time that the file was last modified on the server.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Date and time that the file was last modified on the server. The time is specified as 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -88,18 +81,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>

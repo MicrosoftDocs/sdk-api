@@ -2,7 +2,6 @@
 UID: NE:gdiplusinit.DebugEventLevel
 title: DebugEventLevel
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
 description: Defines constants that specify a debug event level.
 tech.root: gdiplus
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - DebugEventLevel
 f1_keywords:
+ - DebugEventLevel
  - gdiplusinit/DebugEventLevel
 dev_langs:
  - c++
@@ -48,3 +48,4 @@ Specifies the *warning* debug event level.
 ## -remarks
 
 ## -see-also
+

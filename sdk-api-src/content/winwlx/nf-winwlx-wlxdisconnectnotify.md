@@ -2,7 +2,6 @@
 UID: NF:winwlx.WlxDisconnectNotify
 title: WlxDisconnectNotify
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Winlogon calls this function when a Terminal Services network session is disconnected.
 helpviewer_keywords: ["WlxDisconnectNotify"]
@@ -35,6 +34,7 @@ api_location:
 api_name:
  - WlxDisconnectNotify
 f1_keywords:
+ - WlxDisconnectNotify
  - winwlx/WlxDisconnectNotify
 dev_langs:
  - c++
@@ -48,9 +48,8 @@ Winlogon calls this function when a Terminal Services network session is disconn
 
 ### -param pWlxContext
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station.
+A pointer to the <a href="/windows/desktop/SecGloss/g-gly">GINA</a> context associated with this window station.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,7 +2,6 @@
 UID: NE:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS
 title: D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the usage of the associated video extension command parameter.
 tech.root: mf
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS
 dev_langs:
  - c++

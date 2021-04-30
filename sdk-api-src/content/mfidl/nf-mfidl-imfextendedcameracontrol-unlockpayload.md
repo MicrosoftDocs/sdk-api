@@ -2,9 +2,8 @@
 UID: NF:mfidl.IMFExtendedCameraControl.UnlockPayload
 title: IMFExtendedCameraControl::UnlockPayload
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Unlocks the raw payload contained in the capture device control. 
+description: Unlocks the raw payload contained in the capture device control.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::UnlockPayload
 f1_keywords:
+ - IMFExtendedCameraControl::UnlockPayload
  - mfidl/IMFExtendedCameraControl::UnlockPayload
 dev_langs:
  - c++
@@ -41,11 +41,13 @@ dev_langs:
 
 ## -description
 
-Unlocks the raw payload contained in the capture device control. 
+Unlocks the raw payload contained in the capture device control.
+
+## -parameters
 
 ## -returns
 
-Returns S_OK on success. 
+Returns S_OK on success.
 
 ## -remarks
 

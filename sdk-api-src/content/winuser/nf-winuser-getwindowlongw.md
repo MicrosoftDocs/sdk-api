@@ -8,10 +8,6 @@ tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlong.htm
 ms.date: 12/05/2018
 ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, GWL_HWNDPARENT, GWL_ID, GWL_STYLE, GWL_USERDATA, GWL_WNDPROC, GetWindowLong, GetWindowLong function [Windows and Messages], GetWindowLongA, GetWindowLongW, _win32_GetWindowLong, _win32_getwindowlong_cpp, winmsg.getwindowlong, winui._win32_getwindowlong, winuser/GetWindowLong, winuser/GetWindowLongA, winuser/GetWindowLongW
-f1_keywords:
-- winuser/GetWindowLong
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,29 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
-- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-windowclass-l1-1-2.dll
-api_name:
-- GetWindowLong
-- GetWindowLongA
-- GetWindowLongW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetWindowLongW
+ - winuser/GetWindowLongW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+api_name:
+ - GetWindowLong
+ - GetWindowLongA
+ - GetWindowLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowLongW function
@@ -59,23 +61,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves information about the specified window. The function also retrieves the 32-bit (<b>DWORD</b>) value at the specified offset into the extra window memory. <div class="alert"><b>Note</b>  If you are retrieving a pointer or a handle, this function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a> function. (Pointers and handles are 32 bits on 32-bit Windows and 64 bits on 64-bit Windows.) To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>.</div>
+Retrieves information about the specified window. The function also retrieves the 32-bit (<b>DWORD</b>) value at the specified offset into the extra window memory. <div class="alert"><b>Note</b>  If you are retrieving a pointer or a handle, this function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a> function. (Pointers and handles are 32 bits on 32-bit Windows and 64 bits on 64-bit Windows.) To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window and, indirectly, the class to which the window belongs. 
-
+A handle to the window and, indirectly, the class to which the window belongs.
 
 ### -param nIndex [in]
 
@@ -96,7 +91,7 @@ The zero-based offset to the value to be retrieved. Valid values are in the rang
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">extended window styles</a>. 
+Retrieves the <a href="/windows/desktop/winmsg/extended-window-styles">extended window styles</a>. 
 
 </td>
 </tr>
@@ -140,7 +135,7 @@ Retrieves the identifier of the window.
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window styles</a>.
+Retrieves the <a href="/windows/desktop/winmsg/window-styles">window styles</a>.
 
 </td>
 </tr>
@@ -162,7 +157,7 @@ Retrieves the user data associated with the window. This data is intended for us
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure.
+Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure.
 
 </td>
 </tr>
@@ -186,7 +181,7 @@ The following values are also available when the <i>hWnd</i> parameter identifie
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the dialog box procedure, or a handle representing the address of the dialog box procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the dialog box procedure.
+Retrieves the address of the dialog box procedure, or a handle representing the address of the dialog box procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the dialog box procedure.
 
 </td>
 </tr>
@@ -213,35 +208,26 @@ Retrieves extra information private to the application, such as handles or point
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
 If the function succeeds, the return value is the requested value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> has not been called previously, <b>GetWindowLong</b> returns zero for values in the extra window or class memory.
-
-
-
+If <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> has not been called previously, <b>GetWindowLong</b> returns zero for values in the extra window or class memory.
 
 ## -remarks
 
-
-
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -253,10 +239,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
 
 
@@ -264,7 +247,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
 
 
 
@@ -272,24 +255,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

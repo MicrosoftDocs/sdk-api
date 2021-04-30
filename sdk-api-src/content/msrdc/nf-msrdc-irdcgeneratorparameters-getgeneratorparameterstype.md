@@ -8,10 +8,6 @@ tech.root: rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105
 ms.date: 12/05/2018
 ms.keywords: GetGeneratorParametersType, GetGeneratorParametersType method [Remote Differential Compression], GetGeneratorParametersType method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetGeneratorParametersType method, IRdcGeneratorParameters.GetGeneratorParametersType, IRdcGeneratorParameters::GetGeneratorParametersType, fs.irdcgeneratorparameters_getgeneratorparameterstype, msrdc/IRdcGeneratorParameters::GetGeneratorParametersType, rdc.irdcgeneratorparameters_getgeneratorparameterstype
-f1_keywords:
-- msrdc/IRdcGeneratorParameters.GetGeneratorParametersType
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library: MsRdc.dll
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcGeneratorParameters.GetGeneratorParametersType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcGeneratorParameters::GetGeneratorParametersType
+ - msrdc/IRdcGeneratorParameters::GetGeneratorParametersType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcGeneratorParameters.GetGeneratorParametersType
 ---
 
 # IRdcGeneratorParameters::GetGeneratorParametersType
@@ -49,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
    <b>GetGeneratorParametersType</b> 
    method returns the specific type of the parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param parametersType [out]
 
 The address of a <a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a> that will receive the type of the parameters.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/msrdc/ne-msrdc-generatorparameterstype">GeneratorParametersType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>

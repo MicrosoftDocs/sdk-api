@@ -8,10 +8,6 @@ tech.root: picacq
 ms.assetid: a347dc8b-7e95-4830-b848-ac3e7d495b3b
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Picture Acquisition], GetThumbnail method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetThumbnail method, IPhotoAcquireItem.GetThumbnail, IPhotoAcquireItem::GetThumbnail, IPhotoAcquireItemGetThumbnail, photoacquire/IPhotoAcquireItem::GetThumbnail, picacq.iphotoacquireitem_getthumbnail
-f1_keywords:
-- photoacquire/IPhotoAcquireItem.GetThumbnail
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireItem.GetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireItem::GetThumbnail
+ - photoacquire/IPhotoAcquireItem::GetThumbnail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireItem.GetThumbnail
 ---
 
 # IPhotoAcquireItem::GetThumbnail
@@ -50,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetThumbnail</code> method retrieves the thumbnail provided for an item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param sizeThumbnail [in]
 
 Specifies the size of the thumbnail.
 
-
 ### -param phbmpThumbnail [out]
 
 Specifies a handle to the thumbnail bitmap.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>

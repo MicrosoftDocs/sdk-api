@@ -3,8 +3,7 @@ UID: NA:diagnosticdataquery
 title: diagnosticdataquery
 ms.date: 8/19/2019
 ms.keywords: diagnosticdataquery
-ms.topic: language-reference
-description:
+description: 
 ms.localizationpriority: high
 tech.root: security
 targetos: Windows
@@ -37,12 +36,16 @@ api_location:
  - diagnosticdataquery.h
 api_name:
  - diagnosticdataquery
+f1_keywords:
+ - diagnosticdataquery
+ - diagnosticdataquery/diagnosticdataquery
 ---
 
 ## -description
+
 The DiagnosticDataQuery (DDQ) API allows queries for diagnostic data events uploaded from a Windows machine by the Connected User Experiences and Telemetry service. It also allows access to the error reports uploaded by Windows Error Reporting. 
 
-WinRT apps are required to have the telemetry data capability to use the DDQ API. This capability is restricted only to first party applications. Unless your application is specially provisioned to have this capability, calls to some of these APIs will fail at runtime. 
+WinRT apps are required to have the telemetry data capability to use the DDQ API. This capability is restricted only to first party applications. Unless your application is specially provisioned to have this capability, calls to some of these APIs will fail at runtime.
 
 ## -remarks
 

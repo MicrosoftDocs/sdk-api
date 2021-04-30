@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Close
 title: IMFContentDecryptionModuleSession::Close
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Indicates that the application no longer needs the session and the Content Decryption Module (CDM) should release any resources associated with the session and close it.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::Close
 f1_keywords:
+ - IMFContentDecryptionModuleSession::Close
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Close
 dev_langs:
  - c++
@@ -43,6 +43,7 @@ dev_langs:
 
 Indicates that the application no longer needs the session and the Content Decryption Module (CDM) should release any resources associated with the session and close it.
 
+## -parameters
 
 ## -returns
 

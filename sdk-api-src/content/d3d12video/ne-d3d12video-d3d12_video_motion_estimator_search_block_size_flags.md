@@ -2,9 +2,8 @@
 UID: NE:d3d12video.D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS
 title: D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Specifies the motion estimation search block sizes that a video encoder can support. 
+description: Specifies the motion estimation search block sizes that a video encoder can support.
 tech.root: mf
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS
 f1_keywords:
+ - D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS
  - d3d12video/D3D12_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS
 dev_langs:
  - c++
@@ -33,7 +33,7 @@ dev_langs:
 
 ## -description
 
-Specifies the motion estimation search block sizes that a video encoder supports. 
+Specifies the motion estimation search block sizes that a video encoder supports.
 
 ## -enum-fields
 
@@ -52,8 +52,6 @@ The encoder supports a search block size of 16x16 pixels.
 ## -remarks
 
 Query for supported block sizes by calling [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) and specifying the feature value of [D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR](ne-d3d12video-d3d12_feature_video.md).
-
-
 
 ## -see-also
 

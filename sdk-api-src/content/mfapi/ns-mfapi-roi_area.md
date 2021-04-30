@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: E808CAC4-97FE-4D03-B9FF-200D1DE12D47
 ms.date: 12/05/2018
 ms.keywords: '*PROI_AREA, PROI_AREA, PROI_AREA structure pointer [Media Foundation], ROI_AREA, ROI_AREA structure [Media Foundation], mf.roi_area, mfapi/PROI_AREA, mfapi/ROI_AREA'
-f1_keywords:
-- mfapi/ROI_AREA
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- ROI_AREA
 targetos: Windows
 req.typenames: ROI_AREA, *PROI_AREA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ROI_AREA
+ - mfapi/_ROI_AREA
+ - PROI_AREA
+ - mfapi/PROI_AREA
+ - ROI_AREA
+ - mfapi/ROI_AREA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - ROI_AREA
 ---
 
 # ROI_AREA structure
@@ -49,36 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines a regions of interest. 
-
+Defines a regions of interest.
 
 ## -struct-fields
-
-
-
 
 ### -field rect
 
 The bounds of the region.
 
-
 ### -field QPDelta
 
 Specifies the  quantization parameter delta for the specified region from the rest of the frame.
 
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/mfsampleextension-roirectangle">MFSampleExtension_ROIRectangle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-roirectangle">MFSampleExtension_ROIRectangle</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winrt
+f1_keywords:
+ - printmanagerinterop
+ - printmanagerinterop/printmanagerinterop
 ---
 
 # Printmanagerinterop.h header
 
 
 ## -description
-
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 

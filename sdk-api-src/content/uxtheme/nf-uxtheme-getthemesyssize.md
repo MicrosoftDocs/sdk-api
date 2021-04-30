@@ -8,10 +8,6 @@ tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyssize.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysSize, GetThemeSysSize function [Windows Controls], SM_CXBORDER, SM_CXHSCROLL, SM_CXMENUSIZE, SM_CXPADDEDBORDER, SM_CXSIZE, SM_CXSMSIZE, SM_CXVSCROLL, SM_CYMENUSIZE, SM_CYSIZE, SM_CYSMSIZE, controls.GetThemeSysSize, controls.inet_GetThemeSysSize, inet_GetThemeSysSize, inet_GetThemeSysSize_cpp, uxtheme/GetThemeSysSize
-f1_keywords:
-- uxtheme/GetThemeSysSize
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetThemeSysSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeSysSize
+ - uxtheme/GetThemeSysSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetThemeSysSize
 ---
 
 # GetThemeSysSize function
@@ -49,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a system size metric from theme data.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
 Handle to theme data.
-
 
 ### -param iSizeId [in]
 
@@ -177,25 +172,14 @@ Specifies the amount of border padding for captioned windows.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>int</b>
 
-Returns the size in pixels. 
-
-
-
+Returns the size in pixels.
 
 ## -remarks
 
-
-
  If <i>hTheme</i> is <b> not </b>  <b>NULL</b>, this function returns the size stored in the current visual style (SysMetrics section of the visual style) scaled to the current screen dpi.  If <i>hTheme</i> is <b>NULL</b>, this function returns the global system metric in pixels that is scaled to the current dpi only if the application is marked as dpi-aware; otherwise, the pixels returned are unscaled.
-
-
 

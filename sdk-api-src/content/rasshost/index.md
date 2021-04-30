@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: rras
+f1_keywords:
+ - rasshost
+ - rasshost/rasshost
 ---
 
 # Rasshost.h header
 
 
 ## -description
-
 
 This header is used by Routing and Remote Access Service. For more information, see:
 

@@ -8,10 +8,6 @@ tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dashcap.htm
 ms.date: 12/05/2018
 ms.keywords: DashCap, DashCap enumeration [GDI+], DashCapFlat, DashCapRound, DashCapTriangle, _gdiplus_ENUM_DashCap, gdiplus._gdiplus_ENUM_DashCap, gdiplusenums/DashCap, gdiplusenums/DashCapFlat, gdiplusenums/DashCapRound, gdiplusenums/DashCapTriangle
-f1_keywords:
-- gdiplusenums/DashCap
-dev_langs:
-- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdiplusenums.h
-api_name:
-- DashCap
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - DashCap
+ - gdiplusenums/DashCap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdiplusenums.h
+api_name:
+ - DashCap
 ---
 
 # DashCap enumeration
@@ -50,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DashCap</b> enumeration specifies the type of graphic shape to use on both ends of each dash in a dashed line.
-
 
 ## -enum-fields
 
-
-
-
 ### -field DashCapFlat
 
-Specifies a square cap that squares off both ends of each dash. 
-
+Specifies a square cap that squares off both ends of each dash.
 
 ### -field DashCapRound
 
-Specifies a circular cap that rounds off both ends of each dash. 
-
+Specifies a circular cap that rounds off both ends of each dash.
 
 ### -field DashCapTriangle
 
-Specifies a triangular cap that points both ends of each dash. 
-
+Specifies a triangular cap that points both ends of each dash.
 
 ## -remarks
 
-
-
 If you set the alignment of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.
-
-
-
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.

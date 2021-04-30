@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Update
 title: IMFContentDecryptionModuleSession::Update
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides messages, including licenses, to the Content Decryption Module (CDM) session.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::Update
 f1_keywords:
+ - IMFContentDecryptionModuleSession::Update
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Update
 dev_langs:
  - c++

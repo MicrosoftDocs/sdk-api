@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: ics
+f1_keywords:
+ - netcon
+ - netcon/netcon
 ---
 
 # Netcon.h header
 
 
 ## -description
-
 
 This header is used by Windows Firewall Technologies. For more information, see:
 

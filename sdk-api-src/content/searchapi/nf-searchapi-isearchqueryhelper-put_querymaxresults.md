@@ -8,10 +8,6 @@ tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querymaxresults.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryMaxResults method, ISearchQueryHelper.put_QueryMaxResults, ISearchQueryHelper::put_QueryMaxResults, _search_ISearchQueryHelper_put_QueryMaxResults, put_QueryMaxResults, put_QueryMaxResults method [search], put_QueryMaxResults method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryMaxResults, searchapi/ISearchQueryHelper::put_QueryMaxResults
-f1_keywords:
-- searchapi/ISearchQueryHelper.put_QueryMaxResults
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchQueryHelper.put_QueryMaxResults
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchQueryHelper::put_QueryMaxResults
+ - searchapi/ISearchQueryHelper::put_QueryMaxResults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchQueryHelper.put_QueryMaxResults
 ---
 
 # ISearchQueryHelper::put_QueryMaxResults
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the maximum number of results to be returned by a query.
 
-
 ## -parameters
-
-
-
 
 ### -param cMaxResults [in]
 
@@ -64,41 +60,28 @@ Type: <b>LONG</b>
 
 The maximum number of results to be returned. Negative numbers return all results.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
+Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querymaxresults">ISearchQueryHelper::get_QueryMaxResults</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querymaxresults">ISearchQueryHelper::get_QueryMaxResults</a>
+<a href="/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
- 
-
- 
-
+<a href="/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>

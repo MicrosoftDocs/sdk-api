@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
 ms.date: 12/05/2018
 ms.keywords: InterlockedAddAcquire, InterlockedAddAcquire function, _InlineInterlockedAdd, base.interlockedaddacquire, winnt/InterlockedAddAcquire
-f1_keywords:
-- winnt/InterlockedAddAcquire
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- InterlockedAddAcquire
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _InlineInterlockedAdd
+ - winnt/_InlineInterlockedAdd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - InterlockedAddAcquire
 ---
 
 # _InlineInterlockedAdd function
@@ -49,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an atomic addition operation on the specified <b>LONG</b> values. The operation is performed with acquire memory ordering semantics.
 
-
 ## -parameters
-
-
-
 
 ### -param Addend [in, out]
 
 A pointer to the first operand. This value will be replaced with the result of the operation.
 
-
 ### -param Value [in]
 
 The second operand.
 
-
 ## -returns
-
-
 
 The function returns the result of the operation.
 
-
-
-
 ## -remarks
-
-
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
@@ -88,12 +75,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
@@ -132,7 +114,4 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

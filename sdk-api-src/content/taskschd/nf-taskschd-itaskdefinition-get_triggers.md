@@ -8,10 +8,6 @@ tech.root: taskschd
 ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Triggers property, ITaskDefinition.Triggers, ITaskDefinition.get_Triggers, ITaskDefinition::Triggers, ITaskDefinition::get_Triggers, ITaskDefinition::put_Triggers, Triggers property [Task Scheduler], Triggers property [Task Scheduler],ITaskDefinition interface, get_Triggers, taskschd.itaskdefinition_triggers, taskschd/ITaskDefinition::Triggers, taskschd/ITaskDefinition::get_Triggers, taskschd/ITaskDefinition::put_Triggers
-f1_keywords:
-- taskschd/ITaskDefinition.Triggers
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskDefinition.Triggers
-- ITaskDefinition.get_Triggers
-- ITaskDefinition.put_Triggers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskDefinition::get_Triggers
+ - taskschd/ITaskDefinition::get_Triggers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskDefinition.Triggers
+ - ITaskDefinition.get_Triggers
+ - ITaskDefinition.put_Triggers
 ---
 
 # ITaskDefinition::get_Triggers
@@ -51,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets a collection of triggers used to start a task.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>

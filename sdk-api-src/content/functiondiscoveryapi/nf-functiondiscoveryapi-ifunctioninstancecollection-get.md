@@ -8,10 +8,6 @@ tech.root: ncd
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Get method, IFunctionInstanceCollection.Get, IFunctionInstanceCollection::Get, functiondiscoveryapi/IFunctionInstanceCollection::Get, ncd.ifunctioninstancecollection_get
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollection.Get
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollection.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollection::Get
+ - functiondiscoveryapi/IFunctionInstanceCollection::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollection.Get
 ---
 
 # IFunctionInstanceCollection::Get
@@ -49,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the specified function instance and its index from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pszInstanceIdentity [in]
 
-The identifier of the function instance to be retrieved (see <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>).
-
+The identifier of the function instance to be retrieved (see <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>).
 
 ### -param pdwIndex [out]
 
 The index number.
 
-
 ### -param ppIFunctionInstance [out]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the function instance.
-
+ A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the function instance.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -131,18 +122,7 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>

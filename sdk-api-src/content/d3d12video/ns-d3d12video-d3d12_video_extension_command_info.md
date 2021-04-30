@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_VIDEO_EXTENSION_COMMAND_INFO
 title: D3D12_VIDEO_EXTENSION_COMMAND_INFO
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Describes a video extension command.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_VIDEO_EXTENSION_COMMAND_INFO
 f1_keywords:
+ - D3D12_VIDEO_EXTENSION_COMMAND_INFO
  - d3d12video/D3D12_VIDEO_EXTENSION_COMMAND_INFO
 dev_langs:
  - c++
@@ -47,11 +47,11 @@ The unique identifier for the video extension command.
 
 ### -field Name
 
-A pointer to a wide string containing the name of the command. 
+A pointer to a wide string containing the name of the command.
 
 ### -field CommandListSupportFlags
 
-A member of the [D3D12_COMMAND_LIST_SUPPORT_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_support_flags) enumeration.  Indicates the video command queue that the video extension targets. Only one value from the enumeration can be set.
+A member of the [D3D12_COMMAND_LIST_SUPPORT_FLAGS](../d3d12/ne-d3d12-d3d12_command_list_support_flags.md) enumeration.  Indicates the video command queue that the video extension targets. Only one value from the enumeration can be set.
 
 ## -remarks
 
@@ -59,4 +59,4 @@ An array of this structure is provided in a [D3D12_FEATURE_DATA_VIDEO_EXTENSION_
 
 ## -see-also
 
-[D3D12_COMMAND_LIST_SUPPORT_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_support_flags)
+[D3D12_COMMAND_LIST_SUPPORT_FLAGS](../d3d12/ne-d3d12-d3d12_command_list_support_flags.md)

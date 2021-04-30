@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc
 ms.date: 12/05/2018
 ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services for Windows], webservices/WS_UINT8_DESCRIPTION, wsw.ws_uint8_description
-f1_keywords:
-- webservices/WS_UINT8_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_UINT8_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UINT8_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_UINT8_DESCRIPTION
+ - webservices/_WS_UINT8_DESCRIPTION
+ - WS_UINT8_DESCRIPTION
+ - webservices/WS_UINT8_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_UINT8_DESCRIPTION
 ---
 
 # WS_UINT8_DESCRIPTION structure
@@ -49,25 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UINT8_TYPE</a> to specify constraints on the set of values
+An optional type description used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UINT8_TYPE</a> to specify constraints on the set of values
                 which can be deserialized.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field minValue
 
 The minimum value.
-                
-
 
 ### -field maxValue
 
 The maximum value.
-                
-

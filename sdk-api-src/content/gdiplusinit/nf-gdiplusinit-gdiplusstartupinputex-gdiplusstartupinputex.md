@@ -2,9 +2,8 @@
 UID: NF:gdiplusinit.GdiplusStartupInputEx.GdiplusStartupInputEx
 title: GdiplusStartupInputEx::GdiplusStartupInputEx
 ms.date: 05/07/2020
-ms.topic: language-reference
 targetos: Windows
-description: Constructor for the [**GdiplusStartupInputEx**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinputex) structure.
+description: Constructor for the [**GdiplusStartupInputEx**]() structure.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -28,12 +27,12 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - gdiplusinit.h
 api_name:
  - GdiplusStartupInputEx::GdiplusStartupInputEx
 f1_keywords:
+ - GdiplusStartupInputEx::GdiplusStartupInputEx
  - gdiplusinit/GdiplusStartupInputEx::GdiplusStartupInputEx
 dev_langs:
  - c++
@@ -41,7 +40,7 @@ dev_langs:
 
 ## -description
 
-Constructor for the [**GdiplusStartupInputEx**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinputex) structure.
+Constructor for the [**GdiplusStartupInputEx**](ns-gdiplusinit-gdiplusstartupinputex.md) structure.
 
 The constructor sets the **GdiplusVersion** member to 2. All of the constructor parameters are optional, so you can declare a variable of type **GdiplusStartupInputEx** without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.
 
@@ -51,19 +50,19 @@ The constructor sets the **GdiplusVersion** member to 2. All of the constructor 
 
 Type: **INT**
 
-See [**GdiplusStartupParams**](/windows/win32/api/gdiplusinit/ne-gdiplusinit-gdiplusstartupparams). The default value is **GdiplusStartupDefault** (0).
+See [**GdiplusStartupParams**](./ne-gdiplusinit-gdiplusstartupparams.md). The default value is **GdiplusStartupDefault** (0).
 
 ### -param debugEventCallback
 
-Type: **[DebugEventProc](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc)**
+Type: **[DebugEventProc](./nc-gdiplusinit-debugeventproc.md)**
 
-Pointer to your [**DebugEventProc**](/windows/win32/api/gdiplusinit/nc-gdiplusinit-debugeventproc) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
+Pointer to your [**DebugEventProc**](./nc-gdiplusinit-debugeventproc.md) callback function, which GDI+ can call on debug builds for assertions and warnings. The default value is **NULL**.
 
 ### -param suppressBackgroundThread
 
 Type: **BOOL**
 
-Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
+Boolean value that specifies whether to suppress the GDI+ background thread. If you pass **TRUE**, then [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns (in its *output* parameter) a pointer to a hook function, and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you don't want to be responsible for calling the hook and unhook functions, then set this member to **FALSE**. The default value is **FALSE**.
 
 ### -param suppressExternalCodecs
 

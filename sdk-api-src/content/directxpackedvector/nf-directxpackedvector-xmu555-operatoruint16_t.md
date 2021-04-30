@@ -8,10 +8,6 @@ tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.operator uint16_t
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMU555.operator uint16_t, DirectX::PackedVector::XMU555::operator uint16_t, XMU555 structure [DirectX Math Support APIs],operator uint16_t method, XMU555.operator uint16_t, XMU555::operator uint16_t, dxmath.xmu555_operator_uint16_t, operator uint16_t, operator uint16_t method [DirectX Math Support APIs], operator uint16_t method [DirectX Math Support APIs],XMU555 structure
-f1_keywords:
-- directxpackedvector/XMU555.operator uint16_t
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU555.operator uint16_t
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU555::operator uint16_t
+ - directxpackedvector/XMU555::operator uint16_t
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU555.operator uint16_t
 ---
 
 # XMU555::operator uint16_t
@@ -49,35 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an instance of <code>uint16_t</code> containing the components of the
 	<code>XMU555</code> instance in a packed format.
     
 
-This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
+This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
-
-
 
 Contains the four vector components of an instance of <code>XMU555</code> in a packed
 		format.
-	    
-
-
-
 
 ## -remarks
-
-
 
 The packed format of this operators return value is:
 	
@@ -105,23 +92,14 @@ The last 1 bit (bit 15) of the return value are to the <b>w</b>component of the 
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu555-operators">XMU555 Operators</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xmu555-operators">XMU555 Operators</a>

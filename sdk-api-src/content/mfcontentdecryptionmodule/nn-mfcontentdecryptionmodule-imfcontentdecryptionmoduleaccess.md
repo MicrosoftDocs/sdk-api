@@ -2,7 +2,6 @@
 UID: NN:mfcontentdecryptionmodule.IMFContentDecryptionModuleAccess
 title: IMFContentDecryptionModuleAccess
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Provides access to a media key system.
 tech.root: mf
@@ -28,23 +27,23 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleAccess
 f1_keywords:
+ - IMFContentDecryptionModuleAccess
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleAccess
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IUnknown
-
 ## -description
 
 Provides access to a media key system.
 
+## -inheritance
+
+IUnknown
+
 ## -remarks
 
 **IMFContentDecryptionModuleAccess** is based on the Encrypted Media Extension specification's [MediaKeySystemAccess](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#mediakeysystemaccess-interface).
-
 
 ## -see-also
 

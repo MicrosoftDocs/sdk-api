@@ -8,10 +8,6 @@ tech.root: dshow
 ms.assetid: c068310e-4083-46ac-8ec6-3d57976f4a88
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_StopTime method, IMediaPosition.put_StopTime, IMediaPosition::put_StopTime, IMediaPositionput_StopTime, control/IMediaPosition::put_StopTime, dshow.imediaposition_put_stoptime, put_StopTime, put_StopTime method [DirectShow], put_StopTime method [DirectShow],IMediaPosition interface
-f1_keywords:
-- control/IMediaPosition.put_StopTime
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPosition.put_StopTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPosition::put_StopTime
+ - control/IMediaPosition::put_StopTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPosition.put_StopTime
 ---
 
 # IMediaPosition::put_StopTime
@@ -50,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_StopTime</code> method sets the time at which the playback will stop, relative to the duration of the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param llTime [in]
 
 Stop time, in seconds.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,31 +102,15 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The stop time ignores the start time and the playback rate. For example, if the start time is 2 seconds, the stop time is 12 seconds, and the playback rate is 2.0, playback will stop after 5 seconds (real time).
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>

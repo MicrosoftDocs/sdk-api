@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS","D3D12_VIDEO_PROCE
 tech.root: mf
 ms.assetid: 7f25af81-344c-4a70-9d58-9eed1604c11a
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS, D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
+ - d3d12video/D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS
 ---
 
 # D3D12_VIDEO_PROCESS_DEINTERLACE_FLAGS enumeration
+
 
 ## -description
 
@@ -56,3 +58,4 @@ The video processor can perform a custom high-quality deinterlacing, which requi
 ## -remarks
 
 ## -see-also
+

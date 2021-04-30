@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 097f21ac-a062-4ce1-bdc7-87317dbdf5be
 ms.date: 12/05/2018
 ms.keywords: FillGeometry, FillGeometry method [Direct2D], FillGeometry method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillGeometry method, ID2D1RenderTarget.FillGeometry, ID2D1RenderTarget::FillGeometry, d2d1/ID2D1RenderTarget::FillGeometry, direct2d.ID2D1RenderTarget_FillGeometry
-f1_keywords:
-- d2d1/ID2D1RenderTarget.FillGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.FillGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::FillGeometry
+ - d2d1/ID2D1RenderTarget::FillGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.FillGeometry
 ---
 
 # ID2D1RenderTarget::FillGeometry
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Paints the interior of the specified geometry.
 
-
 ## -parameters
-
-
-
 
 ### -param geometry [in]
 
@@ -64,24 +60,19 @@ Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</
 
 The geometry to paint.
 
-
 ### -param brush [in]
 
 Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the geometry's interior.
 
-
 ### -param opacityBrush [in, optional]
 
 Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
-The opacity mask to apply to the geometry, or <b>NULL</b> for no opacity mask. If an opacity mask (the <i>opacityBrush</i> parameter) is specified, <i>brush</i> must be an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> that has   its x- and y-extend modes set to <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE_CLAMP</a>. For more information, see the Remarks section. 
-
+The opacity mask to apply to the geometry, or <b>NULL</b> for no opacity mask. If an opacity mask (the <i>opacityBrush</i> parameter) is specified, <i>brush</i> must be an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> that has   its x- and y-extend modes set to <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE_CLAMP</a>. For more information, see the Remarks section.
 
 ## -remarks
-
-
 
 If the <i>opacityBrush</i> parameter is not <b>NULL</b>, the alpha value of each pixel of the mapped <i>opacityBrush</i> is used to determine the resulting opacity of each corresponding pixel of the geometry. Only the alpha value of each color in the brush is used for this processing; all other color information is ignored. 
 
@@ -97,12 +88,7 @@ For an example, see <a href="/windows/win32/Direct2D/how-to-draw-and-fill-a-comp
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE</a>
 
@@ -117,7 +103,4 @@ For an example, see <a href="/windows/win32/Direct2D/how-to-draw-and-fill-a-comp
 
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

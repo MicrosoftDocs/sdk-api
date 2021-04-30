@@ -8,10 +8,6 @@ tech.root: setup
 ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404
 ms.date: 12/05/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
-f1_keywords:
-- msi/MsiEnumClients
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumClients
-- MsiEnumClientsA
-- MsiEnumClientsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumClientsW
+ - msi/MsiEnumClientsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumClients
+ - MsiEnumClientsA
+ - MsiEnumClientsW
 ---
 
 # MsiEnumClientsW function
@@ -51,35 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnumClients</b> function enumerates the clients for a given installed component. The function retrieves one product code each time it is called.
 
-
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 Specifies the component whose clients are to be enumerated.
-
 
 ### -param iProductIndex [in]
 
 Specifies the index of the client to retrieve. This parameter should be zero for the first call to the 
 <b>MsiEnumClients</b> function and then incremented for subsequent calls. Because clients are not ordered, any new client has an arbitrary index. This means that the function can return clients in any order.
 
-
 ### -param lpProductBuf [out]
 
 Pointer to a buffer that receives the product code. This buffer must be 39 characters long. The first 38 characters are for the GUID, and the last character is for the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -153,14 +144,8 @@ The specified component is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To enumerate clients, an application should initially call the 
 <b>MsiEnumClients</b> function with the<i> iProductIndex</i> parameter set to zero. The application should then increment the <i> iProductIndex</i>parameter and call 
@@ -178,11 +163,4 @@ When making multiple calls to
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

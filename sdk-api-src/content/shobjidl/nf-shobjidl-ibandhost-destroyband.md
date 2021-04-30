@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
 ms.date: 12/05/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
-f1_keywords:
-- shobjidl/IBandHost.DestroyBand
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IBandHost.DestroyBand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBandHost::DestroyBand
+ - shobjidl/IBandHost::DestroyBand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IBandHost.DestroyBand
 ---
 
 # IBandHost::DestroyBand
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Destroys a specified band.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsidBand [in]
 
@@ -64,14 +60,9 @@ Type: <b>REFCLSID</b>
 
 A reference to the CLSID of a band.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

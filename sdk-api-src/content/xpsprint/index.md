@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: gdi
+f1_keywords:
+ - xpsprint
+ - xpsprint/xpsprint
 ---
 
 # Xpsprint.h header
 
 
 ## -description
-
 
 This header is used by Windows GDI. For more information, see:
 

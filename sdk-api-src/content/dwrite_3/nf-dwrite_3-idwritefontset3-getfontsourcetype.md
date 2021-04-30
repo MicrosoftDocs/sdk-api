@@ -6,10 +6,6 @@ helpviewer_keywords: ["IDWriteFontSet3 interface [Direct Write]","GetFontSourceT
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet3 interface [Direct Write],GetFontSourceType method, IDWriteFontSet3.GetFontSourceType, IDWriteFontSet3::GetFontSourceType, GetFontSourceType, GetFontSourceType method [Direct Write], GetFontSourceType method [Direct Write],IDWriteFontSet3 interface, directwrite.idwritefontset3_getfontsourcetype, dwrite_3/IDWriteFontSet3::GetFontSourceType
-f1_keywords:
-- dwrite_3/IDWriteFontSet3.GetFontSourceType
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet3::GetFontSourceType
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet3::GetFontSourceType
+ - dwrite_3/IDWriteFontSet3::GetFontSourceType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet3::GetFontSourceType
 ---
 
 ## -description
@@ -57,7 +58,7 @@ Zero-based index of the font.
 
 ## -returns
 
-Type: **[DWRITE_FONT_SOURCE_TYPE](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_source_type)**
+Type: **[DWRITE_FONT_SOURCE_TYPE](./ne-dwrite_3-dwrite_font_source_type.md)**
 
 The font source type of the specified font.
 

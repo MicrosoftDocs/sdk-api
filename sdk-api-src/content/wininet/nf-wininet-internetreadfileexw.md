@@ -8,10 +8,6 @@ tech.root: wininet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
 ms.date: 12/05/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
-f1_keywords:
-- wininet/InternetReadFileEx
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetReadFileEx
-- InternetReadFileExA
-- InternetReadFileExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetReadFileExW
+ - wininet/InternetReadFileExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetReadFileEx
+ - InternetReadFileExA
+ - InternetReadFileExW
 ---
 
 # InternetReadFileExW function
@@ -51,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from a handle opened by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 Handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopenurla">InternetOpenUrl</a> or 
+<a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 ### -param lpBuffersOut [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
-
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure that receives the data downloaded.
 
 ### -param dwFlags [in]
 
@@ -91,7 +85,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Identical to  <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_ASYNC</a>.
+Identical to  <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_ASYNC</a>.
 
 </td>
 </tr>
@@ -102,7 +96,7 @@ Identical to  <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-fl
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_SYNC</a>.
+Identical to <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_SYNC</a>.
 
 </td>
 </tr>
@@ -113,7 +107,7 @@ Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-fla
 </dl>
 </td>
 <td width="60%">
-Identical to <a href="https://docs.microsoft.com/windows/desktop/WinInet/api-flags">WININET_API_FLAG_USE_CONTEXT</a>.
+Identical to <a href="/windows/desktop/WinInet/api-flags">WININET_API_FLAG_USE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -129,30 +123,20 @@ Do not wait for data. If there is data available, the function returns either th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
 A caller supplied context value used for asynchronous operations.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. An application can also use 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a> when necessary.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -163,15 +147,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 
 ## -see-also
 
+<a href="/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

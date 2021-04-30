@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFRelativePanelWatcher.BeginGetReport
 title: IMFRelativePanelWatcher::BeginGetReport
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Begins an asynchronous request to get an IMFRelativePanelReport interface that represents the relative panel location.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFRelativePanelWatcher::BeginGetReport
 f1_keywords:
+ - IMFRelativePanelWatcher::BeginGetReport
  - mfidl/IMFRelativePanelWatcher::BeginGetReport
 dev_langs:
  - c++
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Begins an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport) interface that represents the relative panel location.
+Begins an asynchronous request to get an [IMFRelativePanelReport](nn-mfidl-imfrelativepanelreport.md) interface that represents the relative panel location.
 
 ## -parameters
 

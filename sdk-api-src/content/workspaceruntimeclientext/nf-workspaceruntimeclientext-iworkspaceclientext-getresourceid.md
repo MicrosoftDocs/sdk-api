@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: c7a0c77c-0579-48dd-bc06-8ffe48358661
 ms.date: 12/05/2018
 ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceId method, IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
-f1_keywords:
-- workspaceruntimeclientext/IWorkspaceClientExt.GetResourceId
-dev_langs:
-- c++
 req.header: workspaceruntimeclientext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Workspaceruntimeclientext.h
-api_name:
-- IWorkspaceClientExt.GetResourceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceClientExt::GetResourceId
+ - workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Workspaceruntimeclientext.h
+api_name:
+ - IWorkspaceClientExt.GetResourceId
 ---
 
 # IWorkspaceClientExt::GetResourceId
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the ID of the custom client in RemoteApp and Desktop Connection.
-
 
 ## -parameters
 
-
-
-
 ### -param bstrWorkspaceId [out]
 
-A pointer to a <b>BSTR</b> variable to receive the ID of the custom client. 
-
+A pointer to a <b>BSTR</b> variable to receive the ID of the custom client.
 
 ## -returns
 
-
-
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/workspaceruntimeclientext/nn-workspaceruntimeclientext-iworkspaceclientext">IWorkspaceClientExt</a>

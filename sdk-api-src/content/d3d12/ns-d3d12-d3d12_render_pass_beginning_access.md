@@ -8,10 +8,6 @@ tech.root: direct3d12
 ms.assetid: 48356954-F233-4FD5-A32B-099E83DC46C0
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_BEGINNING_ACCESS, D3D12_RENDER_PASS_BEGINNING_ACCESS structure, d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS, direct3d12.d3d12_render_pass_beginning_access
-f1_keywords:
-- d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_RENDER_PASS_BEGINNING_ACCESS
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_BEGINNING_ACCESS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_RENDER_PASS_BEGINNING_ACCESS
+ - d3d12/D3D12_RENDER_PASS_BEGINNING_ACCESS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_RENDER_PASS_BEGINNING_ACCESS
 ---
 
 ## -description
@@ -61,3 +62,4 @@ A <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_render_pass_beginning_access_
 ## -see-also
 
 <a href="/windows/win32/direct3d12/rendering">Rendering</a>
+

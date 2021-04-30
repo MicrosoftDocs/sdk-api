@@ -2,7 +2,6 @@
 UID: NF:mdmregistration.RegisterDeviceWithManagementUsingAADDeviceCredentials
 title: RegisterDeviceWithManagementUsingAADDeviceCredentials
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
 helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADDeviceCredentials"]
@@ -36,6 +35,7 @@ api_location:
 api_name:
  - RegisterDeviceWithManagementUsingAADDeviceCredentials
 f1_keywords:
+ - RegisterDeviceWithManagementUsingAADDeviceCredentials
  - mdmregistration/RegisterDeviceWithManagementUsingAADDeviceCredentials
 dev_langs:
  - c++
@@ -45,13 +45,14 @@ dev_langs:
 
 Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
 
+## -parameters
+
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. If the function fails, the returned value describes the error. Possible 
       values include those listed at 
-      <a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
+      <a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
 
 ## -remarks
 
 ## -see-also
-

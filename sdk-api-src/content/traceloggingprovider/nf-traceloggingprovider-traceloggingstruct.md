@@ -8,10 +8,6 @@ tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
-f1_keywords:
-- traceloggingprovider/TraceLoggingStruct
-dev_langs:
-- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- traceloggingprovider.h
-api_name:
-- TraceLoggingStruct
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TraceLoggingStruct
+ - traceloggingprovider/TraceLoggingStruct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - traceloggingprovider.h
+api_name:
+ - TraceLoggingStruct
 ---
 
 # TraceLoggingStruct macro
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Wrapper macro for defining a group of related fields in an event.
 
-
 ## -parameters
-
-
-
 
 ### -param fieldCount [in]
 
 The number of fields that will be considered to be part of the structure. This parameter must be a compile-time constant.
-
 
 ### -param name [in]
 
@@ -76,5 +71,4 @@ The description of the structure. If provided, the description parameter must be
 #### - tags [in, optional]
 
 An integer value. The low 28 bits of the value will be included in the field's metadata and can be used by the event consumer for any purpose.
-       
 

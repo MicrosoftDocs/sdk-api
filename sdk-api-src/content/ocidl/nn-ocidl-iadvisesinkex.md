@@ -8,10 +8,6 @@ tech.root: com
 ms.assetid: d1a52353-dd86-4083-9dbc-3a6f363a1a57
 ms.date: 12/05/2018
 ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interface [COM],described, _ole_iadvisesinkex, com.iadvisesinkex, ocidl/IAdviseSinkEx
-f1_keywords:
-- ocidl/IAdviseSinkEx
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IAdviseSinkEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdviseSinkEx
+ - ocidl/IAdviseSinkEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IAdviseSinkEx
 ---
 
 # IAdviseSinkEx interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-This interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> to provide extensions for notifying the sink of changes in an object's view status.
-
+This interface is derived from <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> to provide extensions for notifying the sink of changes in an object's view status.
 
 ## -inheritance
 
@@ -60,37 +59,10 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdviseSinkEx</b> interface i
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAdviseSinkEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iadvisesinkex-onviewstatuschange">OnViewStatusChange</a>
-</td>
-<td align="left" width="63%">
-Notifies the sink that a view status of an object has changed.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">IViewObject::SetAdvise</a>

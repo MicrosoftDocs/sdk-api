@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.Load
 title: IMFContentDecryptionModuleSession::Load
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: 
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::Load
 f1_keywords:
+ - IMFContentDecryptionModuleSession::Load
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::Load
 dev_langs:
  - c++

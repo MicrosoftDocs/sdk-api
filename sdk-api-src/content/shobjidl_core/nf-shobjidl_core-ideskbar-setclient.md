@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 26655738-a2d5-446c-af7f-866b34beb3ab
 ms.date: 12/05/2018
 ms.keywords: IDeskBar interface [Windows Shell],SetClient method, IDeskBar.SetClient, IDeskBar::SetClient, SetClient, SetClient method [Windows Shell], SetClient method [Windows Shell],IDeskBar interface, _win32_IDeskBar_SetClient, shell.IDeskBar_SetClient, shobjidl_core/IDeskBar::SetClient
-f1_keywords:
-- shobjidl_core/IDeskBar.SetClient
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDeskBar.SetClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBar::SetClient
+ - shobjidl_core/IDeskBar::SetClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDeskBar.SetClient
 ---
 
 # IDeskBar::SetClient
@@ -49,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the client specified by <i>punkClient</i>.
-
 
 ## -parameters
 
-
-
-
 ### -param punkClient [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that specifies the client used by the desk bar.
-
+A pointer to a variable of type <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that specifies the client used by the desk bar.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

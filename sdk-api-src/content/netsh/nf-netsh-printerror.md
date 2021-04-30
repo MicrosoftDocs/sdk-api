@@ -8,10 +8,6 @@ tech.root: netshell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.date: 12/05/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
-f1_keywords:
-- netsh/PrintError
-dev_langs:
-- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netsh.exe
-api_name:
-- PrintError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PrintError
+ - netsh/PrintError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netsh.exe
+api_name:
+ - PrintError
 ---
 
 # PrintError function
@@ -49,51 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PrintError</b> function displays a system or application error message to the NetShell console.
 
-
 ## -parameters
-
-
-
 
 ### -param hModule [in]
 
 A handle to the module from which the string should be loaded, or null for system error messages.
 
-
 ### -param dwErrId [in]
 
 The identifier of the message to print.
 
-
-### -param arg3
+### -param ...
 
 The arguments used to fill into the message.
 
-
 ## -returns
-
-
 
 Returns the number of characters printed. Returns zero upon failure.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessage">PrintMessage</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-printmessagefrommodule">PrintMessageFromModule</a>
 

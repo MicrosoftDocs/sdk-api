@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoMotionEstimator
 title: ID3D12VideoMotionEstimator
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: This interface maintains context for video motion estimation operations.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - ID3D12VideoMotionEstimator
 f1_keywords:
+ - ID3D12VideoMotionEstimator
  - d3d12video/ID3D12VideoMotionEstimator
 dev_langs:
  - c++

@@ -95,7 +95,7 @@ For television tuning, the following event is defined.
 </table>
  
 
-For a list of events fired by the TV ratings components, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
+For a list of events fired by the TV ratings components, see <a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>.
 
 
 
@@ -105,12 +105,11 @@ For a list of events fired by the TV ratings components, see <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-broadcast-events">TV Ratings Broadcast Events</a>
  
 
  
-

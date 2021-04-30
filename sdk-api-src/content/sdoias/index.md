@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: cimwin32
+f1_keywords:
+ - sdoias
+ - sdoias/sdoias
 ---
 
 # Sdoias.h header
 
 
 ## -description
-
 
 This header is used by CIMWin32 WMI Providers. For more information, see:
 

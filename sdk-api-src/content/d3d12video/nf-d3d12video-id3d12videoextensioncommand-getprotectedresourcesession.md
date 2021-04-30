@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoExtensionCommand.GetProtectedResourceSession
 title: ID3D12VideoExtensionCommand::GetProtectedResourceSession
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice2::CreateVideoExtensionCommand when the ID3D12VideoExtensionCommand was created.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - ID3D12VideoExtensionCommand::GetProtectedResourceSession
 f1_keywords:
+ - ID3D12VideoExtensionCommand::GetProtectedResourceSession
  - d3d12video/ID3D12VideoExtensionCommand::GetProtectedResourceSession
 dev_langs:
  - c++
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Gets the [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) that was passed into [ID3D12VideoDevice2::CreateVideoExtensionCommand](nf-d3d12video-id3d12videodevice2-createvideoextensioncommand.md) when the [ID3D12VideoExtensionCommand](nn-d3d12video-id3d12videoextensioncommand.md) was created.
+Gets the [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) that was passed into [ID3D12VideoDevice2::CreateVideoExtensionCommand](nf-d3d12video-id3d12videodevice2-createvideoextensioncommand.md) when the [ID3D12VideoExtensionCommand](nn-d3d12video-id3d12videoextensioncommand.md) was created.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
-

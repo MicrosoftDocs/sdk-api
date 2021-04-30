@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModuleSession.GetKeyStatuses
 title: IMFContentDecryptionModuleSession::GetKeyStatuses
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Gets a reference to an array of structures that represent the key IDs known to the Content Decryption Module (CDM) session and the current status of the associated key.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModuleSession::GetKeyStatuses
 f1_keywords:
+ - IMFContentDecryptionModuleSession::GetKeyStatuses
  - mfcontentdecryptionmodule/IMFContentDecryptionModuleSession::GetKeyStatuses
 dev_langs:
  - c++
@@ -41,14 +41,13 @@ dev_langs:
 
 ## -description
 
-Gets a reference to an array of structures that represent the key IDs known to the Content Decryption Module (CDM) session and the current status of the associated key. 
-
+Gets a reference to an array of structures that represent the key IDs known to the Content Decryption Module (CDM) session and the current status of the associated key.
 
 ## -parameters
 
 ### -param keyStatuses
 
-Receives a pointer to an array of [MFMediaKeyStatus](/windows/win32/api/mfidl/ns-mfidl-mfmediakeystatus) structures containing the IDs and statuses of the keys known to the CDM session.
+Receives a pointer to an array of [MFMediaKeyStatus](../mfidl/ns-mfidl-mfmediakeystatus.md) structures containing the IDs and statuses of the keys known to the CDM session.
 
 ### -param numKeyStatuses
 
@@ -63,4 +62,3 @@ Returns S_OK. If an error occurs, the returned mey status list is empty.
 **GetKeyStatuses** is based on the Encrypted Media Extension specification's [MediaKeySession.keyStatuses](https://www.w3.org/TR/2017/REC-encrypted-media-20170918/#dom-mediakeysession-keystatuses).
 
 ## -see-also
-

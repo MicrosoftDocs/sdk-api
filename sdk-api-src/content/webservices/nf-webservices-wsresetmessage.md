@@ -8,10 +8,6 @@ tech.root: wsw
 ms.assetid: 90a62cc8-a7e0-4451-8490-f6384bf3e7b6
 ms.date: 12/05/2018
 ms.keywords: WsResetMessage, WsResetMessage function [Web Services for Windows], webservices/WsResetMessage, wsw.wsresetmessage
-f1_keywords:
-- webservices/WsResetMessage
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsResetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsResetMessage
+ - webservices/WsResetMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsResetMessage
 ---
 
 # WsResetMessage function
@@ -49,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Message state back to <b>WS_MESSAGE_STATE_EMPTY</b>.  In this state the Message object can be reused.
-            
-
 
 ## -parameters
 
-
-
-
 ### -param message [in]
 
-A pointer to the Message  object to reset.  
-                    
-
+A pointer to the Message  object to reset.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -94,21 +83,11 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a message is reset, its underlying heap is reset.
             
 
 Reusing a message object to receive or send multiple messages is is generally
                 more efficient than creating and free'ing the message object for each message.
-            
-
-
-

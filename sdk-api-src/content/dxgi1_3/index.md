@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: direct3ddxgi
+f1_keywords:
+ - dxgi1_3
+ - dxgi1_3/dxgi1_3
 ---
 
 # Dxgi1_3.h header
 
 
 ## -description
-
 
 This header is used by DXGI. For more information, see:
 

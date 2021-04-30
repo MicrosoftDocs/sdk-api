@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
 ms.date: 12/05/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Windows Shell], ExtractAssociatedIconA, ExtractAssociatedIconW, _shell_ExtractAssociatedIcon, shell.ExtractAssociatedIcon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW
-f1_keywords:
-- shellapi/ExtractAssociatedIcon
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Ext-MS-Win-Shell-Shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- ExtractAssociatedIcon
-- ExtractAssociatedIconA
-- ExtractAssociatedIconW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtractAssociatedIconW
+ - shellapi/ExtractAssociatedIconW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Ext-MS-Win-Shell-Shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - ExtractAssociatedIcon
+ - ExtractAssociatedIconA
+ - ExtractAssociatedIconW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ExtractAssociatedIconW function
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
 
-
 ## -parameters
-
-
-
 
 ### -param hInst [in]
 
 Type: <b>HINSTANCE</b>
 
 A handle to the instance of the calling application.
-
 
 ### -param pszIconPath [in, out]
 
@@ -79,7 +75,6 @@ Pointer to a string that, on entry, specifies the full path and file name of the
 
 When this function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file) the function stores the full path and file name of that executable in the buffer pointed to by this parameter.
 
-
 ### -param piIcon [in, out]
 
 Type: <b>LPWORD</b>
@@ -90,10 +85,7 @@ Pointer to a <b>WORD</b> value that, on entry, specifies the index of the icon w
 
 When the function returns, if the icon handle was obtained from an executable file (either an executable file pointed to by <i>lpIconPath</i> or an associated executable file), this value points to the icon's index in that file.
 
-
 ## -returns
-
-
 
 Type: <b>HICON</b>
 
@@ -103,14 +95,9 @@ If the function succeeds, the return value is an icon handle. If the icon is ext
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
 
-
-
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions and are stored in the per-user part of the registry.
 
@@ -123,19 +110,12 @@ The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in th
 
 ## -see-also
 
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>

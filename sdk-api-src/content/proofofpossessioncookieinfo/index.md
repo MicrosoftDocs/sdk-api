@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wininet
+f1_keywords:
+ - proofofpossessioncookieinfo
+ - proofofpossessioncookieinfo/proofofpossessioncookieinfo
 ---
 
 # Proofofpossessioncookieinfo.h header
 
 
 ## -description
-
 
 This header is used by Windows Internet. For more information, see:
 

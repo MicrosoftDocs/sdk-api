@@ -8,10 +8,6 @@ tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\defrawinputproc.htm
 ms.date: 12/05/2018
 ms.keywords: DefRawInputProc, DefRawInputProc function [Keyboard and Mouse Input], _win32_DefRawInputProc, _win32_defrawinputproc_cpp, inputdev.defrawinputproc, winui._win32_defrawinputproc, winuser/DefRawInputProc
-f1_keywords:
-- winuser/DefRawInputProc
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -29,19 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DefRawInputProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DefRawInputProc
+ - winuser/DefRawInputProc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DefRawInputProc
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DefRawInputProc function
@@ -49,64 +51,48 @@ ms.custom: 19H1
 
 ## -description
 
+Unlike <a href="/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProcA</a> and <a href="/windows/win32/api/winuser/nf-winuser-defwindowprocw">DefWindowProcW</a>, this function doesn't do any processing.
 
-Unlike <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProcA</a> and <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowprocw">DefWindowProcW</a>, this function doesn't do any processing.
-
-<b>DefRawInputProc</b> only checks whether <b>cbSizeHeader</b>'s value corresponds to the expected size of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
-
+<b>DefRawInputProc</b> only checks whether <b>cbSizeHeader</b>'s value corresponds to the expected size of <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
 
 ## -parameters
-
-
-
 
 ### -param paRawInput [in]
 
 Type: <b>PRAWINPUT*</b>
 
-Ignored. 
-
+Ignored.
 
 ### -param nInput [in]
 
 Type: <b>INT</b>
 
-Ignored. 
-
+Ignored.
 
 ### -param cbSizeHeader [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure. 
-
+The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
 
 ## -returns
-
-
 
 Type: <b>LRESULT</b>
 
 If successful, the function returns <b>0</b>. Otherwise it returns <b>-1</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>

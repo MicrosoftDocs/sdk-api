@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.BeginEvent
 title: ID3D12VideoEncodeCommandList::BeginEvent
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: For internal use only. Not intended to be called directly.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::BeginEvent
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::BeginEvent
  - d3d12video/ID3D12VideoEncodeCommandList::BeginEvent
 dev_langs:
  - c++
@@ -47,15 +47,15 @@ For internal use only. Not intended to be called directly.
 
 ### -param Metadata
 
-Internal. 
+Internal.
 
 ### -param pData
 
-Internal. 
+Internal.
 
 ### -param Size
 
-Internal. 
+Internal.
 
 ## -remarks
 

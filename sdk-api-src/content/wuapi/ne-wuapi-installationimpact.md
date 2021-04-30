@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.date: 12/05/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
-f1_keywords:
-- wuapi/InstallationImpact
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- InstallationImpact
 targetos: Windows
 req.typenames: InstallationImpact
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagInstallationImpact
+ - wuapi/tagInstallationImpact
+ - InstallationImpact
+ - wuapi/InstallationImpact
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - InstallationImpact
 ---
 
 # InstallationImpact enumeration
@@ -49,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the possible levels of impact that can be caused by installing or uninstalling an update.
 
-
 ## -enum-fields
-
-
-
 
 ### -field iiNormal
 
 Installing or uninstalling an update results in a level of impact on the target computer that is typical of most updates. Therefore, the update does not qualify for any of the special impact ratings that are defined in this topic.
-
 
 ### -field iiMinor
 
@@ -76,8 +73,6 @@ The update must meet strict requirements to qualify for this rating. The require
 </ul>
  Updates that qualify for this rating may be eligible for special handling in Windows Update Agent (WUA). For example, they may be eligible for accelerated distribution.
 
-
 ### -field iiRequiresExclusiveHandling
 
-This update cannot be installed in the same <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">IUpdateInstaller::Install</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a> call as any other update.  If you make an <b>IUpdateInstaller::Install</b> or <b>IUpdateInstaller::BeginInstall</b> call that includes an exclusive update along with one or more other updates, the call will return <b>WU_E_EXCLUSIVE_INSTALL_CONFLICT</b>, and no updates will be installed.
-
+This update cannot be installed in the same <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">IUpdateInstaller::Install</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a> call as any other update.  If you make an <b>IUpdateInstaller::Install</b> or <b>IUpdateInstaller::BeginInstall</b> call that includes an exclusive update along with one or more other updates, the call will return <b>WU_E_EXCLUSIVE_INSTALL_CONFLICT</b>, and no updates will be installed.

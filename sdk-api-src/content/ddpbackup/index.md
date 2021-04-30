@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: dedup
+f1_keywords:
+ - ddpbackup
+ - ddpbackup/ddpbackup
 ---
 
 # Ddpbackup.h header
 
 
 ## -description
-
 
 This header is used by Data Deduplication API. For more information, see:
 

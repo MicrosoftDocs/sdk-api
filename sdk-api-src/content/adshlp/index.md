@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: adsi
+f1_keywords:
+ - adshlp
+ - adshlp/adshlp
 ---
 
 # Adshlp.h header
 
 
 ## -description
-
 
 This header is used by Active Directory Service Interfaces. For more information, see:
 

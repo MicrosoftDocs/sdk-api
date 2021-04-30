@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce
 ms.date: 12/05/2018
 ms.keywords: '*PWTS_SERVER_INFOA, PWTS_SERVER_INFO, PWTS_SERVER_INFO structure pointer [Remote Desktop Services], WTS_SERVER_INFO, WTS_SERVER_INFO structure [Remote Desktop Services], WTS_SERVER_INFOA, WTS_SERVER_INFOW, termserv.wts_server_info, wtsapi32/PWTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFOA, wtsapi32/WTS_SERVER_INFOW'
-f1_keywords:
-- wtsapi32/WTS_SERVER_INFO
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsapi32.h
-api_name:
-- WTS_SERVER_INFO
-- WTS_SERVER_INFOA
-- WTS_SERVER_INFOW
 targetos: Windows
 req.typenames: WTS_SERVER_INFOA, *PWTS_SERVER_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WTS_SERVER_INFOA
+ - wtsapi32/_WTS_SERVER_INFOA
+ - PWTS_SERVER_INFOA
+ - wtsapi32/PWTS_SERVER_INFOA
+ - WTS_SERVER_INFOA
+ - wtsapi32/WTS_SERVER_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsapi32.h
+api_name:
+ - WTS_SERVER_INFO
+ - WTS_SERVER_INFOA
+ - WTS_SERVER_INFOW
 ---
 
 # WTS_SERVER_INFOA structure
@@ -51,32 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a specific Remote Desktop Services server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pServerName
 
 Name of the server.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateserversa">WTSEnumerateServers</a>
- 
-
- 
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateserversa">WTSEnumerateServers</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTS_SERVER_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

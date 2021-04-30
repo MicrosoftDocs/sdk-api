@@ -18,5 +18,4 @@ To develop Gaming Device Information, you need these headers:
  * [gamingdeviceinformation.h](../gamingdeviceinformation/index.md)
 
 For programming guidance for this technology, see:
-* [Gaming Device Information](https://docs.microsoft.com/previous-versions/windows/desktop/gamingdvcinfo)
-
+* [Gaming Device Information](/previous-versions/windows/desktop/gamingdvcinfo)

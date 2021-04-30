@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: rm
+f1_keywords:
+ - msdrm
+ - msdrm/msdrm
 ---
 
 # Msdrm.h header
 
 
 ## -description
-
 
 This header is used by Active Directory Rights Management Services SDK. For more information, see:
 

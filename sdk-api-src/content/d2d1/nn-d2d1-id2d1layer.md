@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca
 ms.date: 12/05/2018
 ms.keywords: ID2D1Layer, ID2D1Layer interface [Direct2D], ID2D1Layer interface [Direct2D],described, d2d1/ID2D1Layer, direct2d.ID2D1Layer
-f1_keywords:
-- d2d1/ID2D1Layer
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Layer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Layer
+ - d2d1/ID2D1Layer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Layer
 ---
 
 # ID2D1Layer interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the backing store required to render a layer.
-
 
 ## -inheritance
 
@@ -60,29 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Layer</b> interface inhe
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1Layer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1layer-getsize">GetSize</a>
-</td>
-<td align="left" width="63%">
-Gets the size of the layer in device-independent pixels.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 To create a layer, call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(d2d1_size_f_id2d1layer)">CreateLayer</a> method of the render target where the layer will be used. To draw to a layer, push the layer to the render target stack by calling the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> method. After you have finished drawing to the layer, call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a> method.
 
@@ -142,14 +119,7 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
@@ -160,7 +130,4 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 <a href="/windows/win32/Direct2D/direct2d-layers-overview">Layers Overview</a>
- 
-
- 
 

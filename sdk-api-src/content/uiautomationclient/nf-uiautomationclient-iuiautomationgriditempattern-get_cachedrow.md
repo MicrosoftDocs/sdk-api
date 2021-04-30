@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 0a7d456f-dd7e-4a36-8434-dc4dd9de121b
 ms.date: 12/05/2018
 ms.keywords: CachedRow property [Windows Accessibility], CachedRow property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRow property, IUIAutomationGridItemPattern.CachedRow, IUIAutomationGridItemPattern.get_CachedRow, IUIAutomationGridItemPattern::CachedRow, IUIAutomationGridItemPattern::get_CachedRow, get_CachedRow, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRow, uiauto_IUIAutomationGridItemPattern_CachedRow, uiautomationclient/IUIAutomationGridItemPattern::CachedRow, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRow, winauto.uiauto_IUIAutomationGridItemPattern_CachedRow
-f1_keywords:
-- uiautomationclient/IUIAutomationGridItemPattern.CachedRow
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationGridItemPattern.CachedRow
-- IUIAutomationGridItemPattern.get_CachedRow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationGridItemPattern::get_CachedRow
+ - uiautomationclient/IUIAutomationGridItemPattern::get_CachedRow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationGridItemPattern.CachedRow
+ - IUIAutomationGridItemPattern.get_CachedRow
 ---
 
 # IUIAutomationGridItemPattern::get_CachedRow
@@ -50,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached zero-based index of the row that contains the item. 
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>

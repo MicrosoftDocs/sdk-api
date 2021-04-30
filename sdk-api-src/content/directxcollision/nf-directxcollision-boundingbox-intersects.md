@@ -4,12 +4,8 @@ title: BoundingBox::Intersects
 description: 
 tech.root: dxmath
 helpviewer_keywords: ["BoundingBox::Intersects"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingBox::Intersects
-f1_keywords:
-- directxcollision/BoundingBox::Intersects
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,17 +26,22 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingBox::Intersects
+ - directxcollision/BoundingBox::Intersects
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingBox::Intersects
+ - BoundingBox::Intersects
 ---
 
 # BoundingBox.Intersects(const BoundingSphere&) method
+
 
 ## -description
 
@@ -66,3 +67,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingBox](ns-directxcollision-boundingbox.md)
+

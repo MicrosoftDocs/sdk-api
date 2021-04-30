@@ -4,7 +4,6 @@ title: IHolographicQuadLayerUpdateParametersInterop
 description: A nano-COM interface that allows COM interop with the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) class for applications that use Direct3D 12 for holographic rendering.
 tech.root: direct3d12
 ms.date: 12/12/2019
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -29,20 +28,24 @@ api_name:
  - interop::IHolographicQuadLayerUpdateParametersInterop
  - IHolographicQuadLayerUpdateParametersInterop
 f1_keywords:
- - windows/interop::IHolographicQuadLayerUpdateParametersInterop
+ - IHolographicQuadLayerUpdateParametersInterop
+ - windows.graphics.holographic.interop/IHolographicQuadLayerUpdateParametersInterop
 dev_langs:
  - c++
 ---
 
 ## -description
+
 The **IHolographicQuadLayerUpdateParametersInterop** interface is a nano-COM interface, used to commit Direct3D 12 buffer resources for quad layer rendering in the corresponding [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe).
 
 The interface allows COM interop with the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) class for applications that use Direct3D 12 for holographic rendering. Nano-COM allows Direct3D 12 objects to be used directly as parameters for API calls, rather than going through a container object.
 
 ## -inheritance
-The **IHolographicQuadLayerUpdateParametersInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
+
+The **IHolographicQuadLayerUpdateParametersInterop** interface inherits from the [IInspectable](../inspectable/nn-inspectable-iinspectable.md) interface.
 
 ## -remarks
+
 To use this interface in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), retrieve the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) object from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe), and then QueryInterface for the **IHolographicQuadLayerUpdateParametersInterop** interface.
 
 ```cppwinrt
@@ -51,7 +54,7 @@ winrt::com_ptr<IHolographicQuadLayerUpdateParametersInterop> quadLayerParameters
     quadLayerParameters.as<IHolographicQuadLayerUpdateParametersInterop>() };
 ```
 
-To use this interface in C++/CX, first cast the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\*. Then QueryInterface for the **IHolographicQuadLayerUpdateParametersInterop** interface from the **IInspectable** pointer.
+To use this interface in C++/CX, first cast the [HolographicQuadLayerUpdateParameters](/uwp/api/windows.graphics.holographic.holographicquadlayerupdateparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](../inspectable/nn-inspectable-iinspectable.md)\*. Then QueryInterface for the **IHolographicQuadLayerUpdateParametersInterop** interface from the **IInspectable** pointer.
 
 ```cppcx
 auto quadLayerParameters = holographicFrame->GetQuadLayerUpdateParameters(m_quadLayer);

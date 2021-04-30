@@ -2,7 +2,6 @@
 UID: NF:mfidl.IMFExtendedCameraControl.SetFlags
 title: IMFExtendedCameraControl::SetFlags
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Sets the flags for a property on the capture device.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFExtendedCameraControl::SetFlags
 f1_keywords:
+ - IMFExtendedCameraControl::SetFlags
  - mfidl/IMFExtendedCameraControl::SetFlags
 dev_langs:
  - c++
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Sets the flags for a property on the capture device. 
+Sets the flags for a property on the capture device.
 
 ## -parameters
 

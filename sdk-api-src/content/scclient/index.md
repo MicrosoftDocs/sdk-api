@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wmdm
+f1_keywords:
+ - scclient
+ - scclient/scclient
 ---
 
 # Scclient.h header
 
 
 ## -description
-
 
 This header is used by Windows Media Device Manager 11 SDK. For more information, see:
 

@@ -4,12 +4,8 @@ title: BoundingSphere::BoundingSphere
 description: Creates an instance of the BoundingSphere class.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingSphere::BoundingSphere"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingSphere::BoundingSphere
-f1_keywords:
-- directxcollision/BoundingSphere::BoundingSphere
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,21 +26,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingSphere::BoundingSphere
+ - directxcollision/BoundingSphere::BoundingSphere
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingSphere::BoundingSphere
+ - BoundingSphere::BoundingSphere
 ---
 
 # BoundingSphere.DirectX.BoundingSphere() constructor
 
+
 ## -description
 
 Creates an instance of the **BoundingSphere** class.
+
+## -parameters
 
 ## -returns
 
@@ -58,3 +61,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingSphere](ns-directxcollision-boundingsphere.md)
+

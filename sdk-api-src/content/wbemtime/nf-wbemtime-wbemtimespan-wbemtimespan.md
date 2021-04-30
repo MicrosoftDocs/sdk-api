@@ -8,10 +8,6 @@ tech.root: wmi
 ms.assetid: 337dc247-9904-457a-a1f3-e1cf29b61126
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan constructors [Windows Management Instrumentation], WBEMTimeSpan::WbemTimeSpan, wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan
-f1_keywords:
-- wbemtime/WBEMTimeSpan::WbemTimeSpan
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTimeSpan::WbemTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTimeSpan::WBEMTimeSpan
+ - wbemtime/WBEMTimeSpan::WBEMTimeSpan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTimeSpan::WbemTimeSpan
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan
@@ -50,11 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 <span>The <b>WBEMTimeSpan</b> class constructor creates a 
     time span object. The constructor is overloaded.
@@ -65,7 +65,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan()</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan()</a>
 </td>
 <td align="left" width="63%">
 Creates an uninitialized time span object.
@@ -74,7 +74,7 @@ Creates an uninitialized time span object.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan(BSTR)</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan(BSTR)</a>
 </td>
 <td align="left" width="63%">
 Initializes the new time span object to value in the parameter.
@@ -83,7 +83,7 @@ Initializes the new time span object to value in the parameter.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
+<a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(int_int_int_int_int_int_int)">WBEMTimeSpan(int,int,int,int,int,int,int)</a>
 </td>
 <td align="left" width="63%">
 Initializes the new time span object to values in the parameters.
@@ -93,4 +93,3 @@ Initializes the new time span object to values in the parameters.
 </table>
 
 ## -parameters
-

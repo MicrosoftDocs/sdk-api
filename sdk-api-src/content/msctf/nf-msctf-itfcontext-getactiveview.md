@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 41f7eb74-bca2-4d53-8a70-0b872616fd1b
 ms.date: 12/05/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetActiveView method, ITfContext.GetActiveView, ITfContext::GetActiveView, _tsf_itfcontext_getactiveview_ref, msctf/ITfContext::GetActiveView, tsf.itfcontext_getactiveview
-f1_keywords:
-- msctf/ITfContext.GetActiveView
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetActiveView
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetActiveView
+ - msctf/ITfContext::GetActiveView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetActiveView
 ---
 
 # ITfContext::GetActiveView
@@ -53,17 +54,11 @@ Obtains the active view for the context.
 
 ## -parameters
 
-
-
-
 ### -param ppView [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface pointer that receives a reference to the active view.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a> interface pointer that receives a reference to the active view.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,10 +112,6 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 

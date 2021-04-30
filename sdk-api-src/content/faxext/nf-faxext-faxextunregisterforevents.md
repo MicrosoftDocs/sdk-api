@@ -8,10 +8,6 @@ tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7soj.htm
 ms.date: 12/05/2018
 ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax Service], _mfax_faxextunregisterforevents, fax._mfax_faxextunregisterforevents, faxext/FaxExtUnregisterForEvents
-f1_keywords:
-- faxext/FaxExtUnregisterForEvents
-dev_langs:
-- c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- FaxExt.h
-api_name:
-- FaxExtUnregisterForEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FaxExtUnregisterForEvents
+ - faxext/FaxExtUnregisterForEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - FaxExt.h
+api_name:
+ - FaxExtUnregisterForEvents
 ---
 
 # FaxExtUnregisterForEvents function
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FaxExtUnregisterForEvents</b> callback function unregisters the fax extension DLL for notifications about configuration data changes related to a specific device and GUID.
 
-
 ## -parameters
-
-
-
 
 ### -param hNotification
 
@@ -67,12 +63,9 @@ Specifies a <b>HANDLE</b> that indicates the registration handle from which the 
 
 
 
-The handle must be the return value from a previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> function.
-
+The handle must be the return value from a previous call to the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> function.
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -174,35 +167,19 @@ The server cannot process a request for notifications while it is sending a noti
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function.
 
+The fax extension can call the <b>FaxExtUnregisterForEvents</b> function to stop receiving notifications about device configuration data changes. An extension registers for notifications by calling the fax service's callback function <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>.
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function.
-
-The fax extension can call the <b>FaxExtUnregisterForEvents</b> function to stop receiving notifications about device configuration data changes. An extension registers for notifications by calling the fax service's callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>.
-
-The fax service passes a pointer to the <b>FaxExtUnregisterForEvents</b> callback function when the fax service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function. The PFAX_EXT_UNREGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtUnregisterForEvents</b> function.
-
-
-
+The fax service passes a pointer to the <b>FaxExtUnregisterForEvents</b> callback function when the fax service calls the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function. The PFAX_EXT_UNREGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtUnregisterForEvents</b> function.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>

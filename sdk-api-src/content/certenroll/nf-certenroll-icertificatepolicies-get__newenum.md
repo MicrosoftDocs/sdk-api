@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 99ce5d45-c2ff-45be-8eb4-e1a57bbfa2fc
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies interface [Security],_NewEnum property, ICertificatePolicies._NewEnum, ICertificatePolicies.get__NewEnum, ICertificatePolicies::_NewEnum, ICertificatePolicies::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::_NewEnum, certenroll/ICertificatePolicies::get__NewEnum, get__NewEnum, security.icertificatepolicies__newenum_property
-f1_keywords:
-- certenroll/ICertificatePolicies._NewEnum
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertificatePolicies._NewEnum
-- ICertificatePolicies.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificatePolicies::get__NewEnum
+ - certenroll/ICertificatePolicies::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertificatePolicies._NewEnum
+ - ICertificatePolicies.get__NewEnum
 ---
 
 # ICertificatePolicies::get__NewEnum
@@ -50,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>_NewEnum</b> property retrieves the enumerator for the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicies">ICertificatePolicies</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>

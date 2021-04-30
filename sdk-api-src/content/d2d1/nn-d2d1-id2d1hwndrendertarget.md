@@ -8,10 +8,6 @@ tech.root: Direct2D
 ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a
 ms.date: 12/05/2018
 ms.keywords: ID2D1HwndRenderTarget, ID2D1HwndRenderTarget interface [Direct2D], ID2D1HwndRenderTarget interface [Direct2D],described, d2d1/ID2D1HwndRenderTarget, direct2d.ID2D1HwndRenderTarget
-f1_keywords:
-- d2d1/ID2D1HwndRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1HwndRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1HwndRenderTarget
+ - d2d1/ID2D1HwndRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1HwndRenderTarget
 ---
 
 # ID2D1HwndRenderTarget interface
@@ -49,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renders drawing instructions to a window.
-
 
 ## -inheritance
 
@@ -60,46 +59,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1HwndRenderTarget</b> int
 <li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1HwndRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-checkwindowstate">CheckWindowState</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the HWND associated with this render target is occluded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-gethwnd">GetHwnd</a>
-</td>
-<td align="left" width="63%">
-Returns the HWND associated with this render target.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">Resize</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 As is the case with other render targets, you must call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>  before issuing drawing commands. After you've finished drawing, call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> to indicate that drawing is finished and to release access to the buffer backing the render target.
 
@@ -210,15 +170,7 @@ Code has been omitted from this example.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
 

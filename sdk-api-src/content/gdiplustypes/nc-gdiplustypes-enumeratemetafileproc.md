@@ -2,9 +2,8 @@
 UID: NC:gdiplustypes.EnumerateMetafileProc
 title: EnumerateMetafileProc
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)) method (and overloads).
+description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(constmetafile_constpointf_int_constrectf__unit_enumeratemetafileproc_void_constimageattributes).md) method (and overloads).
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - EnumerateMetafileProc
 f1_keywords:
+ - EnumerateMetafileProc
  - gdiplustypes/EnumerateMetafileProc
 dev_langs:
  - c++
@@ -41,37 +41,37 @@ dev_langs:
 
 ## -description
 
-**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)) method (and overloads).
+**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(constmetafile_constpointf_int_constrectf__unit_enumeratemetafileproc_void_constimageattributes)) method (and overloads).
 
-In turn, your implementation can call [**Metafile::PlayRecord**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-metafile-playrecord) to play the record that was just enumerated.
+In turn, your implementation can call [**Metafile::PlayRecord**](../gdiplusheaders/nf-gdiplusheaders-metafile-playrecord.md) to play the record that was just enumerated.
 
 ## -parameters
 
-### -param Arg1
+### -param unnamedParam1
 
-Type: **[EmfPlusRecordType](/windows/win32/api/gdiplusenums/ne-gdiplusenums-emfplusrecordtype)**
+Type: **[EmfPlusRecordType](../gdiplusenums/ne-gdiplusenums-emfplusrecordtype.md)**
 
 The WMF, EMF, or EMF+ record type.
 
-### -param Arg2
+### -param unnamedParam2
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 Flags; always 0 for WMF/EMF records.
 
-### -param Arg3
+### -param unnamedParam3
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The size of the record data (in bytes), or 0 if no data.
 
-### -param Arg4
+### -param unnamedParam4
 
 Type: **[BYTE](/windows/win32/winprog/windows-data-types)***
 
 A pointer to the record data, or **NULL** if no data.
 
-### -param Arg5
+### -param unnamedParam5
 
 Type: **[VOID](/windows/win32/winprog/windows-data-types)\***
 

@@ -8,10 +8,6 @@ tech.root: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
 ms.date: 12/05/2018
 ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, PMIB_DELETE callback, _mpr_mibdelete, routprot/MibDelete, rras.mibdelete
-f1_keywords:
-- routprot/MibDelete
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- MibDelete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMIB_DELETE
+ - routprot/PMIB_DELETE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - MibDelete
 ---
 
 # PMIB_DELETE callback function
@@ -49,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MibDelete</b> function passes an SNMP MIB-style Delete Request to the routing protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param InputDataSize [in]
 
 Specifies the size of the data for the Delete Request.
 
-
 ### -param InputData [in]
 
 Pointer to a buffer that specifies the data for the Delete Request.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -110,25 +102,14 @@ The size or content of the data is inappropriate for the request.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_create">MibCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_create">MibCreate</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

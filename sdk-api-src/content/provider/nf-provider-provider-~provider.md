@@ -3,10 +3,6 @@ UID: NF:provider.Provider.~Provider
 title: Provider::~Provider
 ms.date: 4/26/2019
 ms.keywords: Provider::~Provider
-f1_keywords:
-- provider/Provider::~Provider
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -27,24 +23,33 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Provider::~Provider
+ - provider/Provider::~Provider
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-- sqlmgmprovider.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
+ - sqlmgmprovider.dll
 api_name:
-- Provider::~Provider
+ - Provider::~Provider
 ---
 
 ## -description
 
 Destructor for the [Provider](nl-provider-provider.md) class.
 
+## -parameters
+
 ## -remarks
 
 ## -see-also
+
 f1_keywords: 
  - "provider/Provider.ValidateQueryFlags"
+

@@ -8,10 +8,6 @@ tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm
 ms.date: 12/05/2018
 ms.keywords: UI_INVALIDATIONS, UI_INVALIDATIONS enumeration [Windows Ribbon], UI_INVALIDATIONS_ALLPROPERTIES, UI_INVALIDATIONS_PROPERTY, UI_INVALIDATIONS_STATE, UI_INVALIDATIONS_VALUE, scenicintent_UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS_ALLPROPERTIES, uiribbon/UI_INVALIDATIONS_PROPERTY, uiribbon/UI_INVALIDATIONS_STATE, uiribbon/UI_INVALIDATIONS_VALUE, windowsribbon.windowsribbon_ui_invalidations
-f1_keywords:
-- uiribbon/UI_INVALIDATIONS
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_INVALIDATIONS
 targetos: Windows
 req.typenames: UI_INVALIDATIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_INVALIDATIONS
+ - uiribbon/UI_INVALIDATIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_INVALIDATIONS
 ---
 
 # UI_INVALIDATIONS enumeration
@@ -49,46 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies values that identify the aspect of a Command to invalidate.
-
 
 ## -enum-fields
 
-
-
-
 ### -field UI_INVALIDATIONS_STATE
 
-A state property, such as <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a>.
-
+A state property, such as <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a>.
 
 ### -field UI_INVALIDATIONS_VALUE
 
 The value property of a Command.
 
-
 ### -field UI_INVALIDATIONS_PROPERTY
 
 Any property.
-
 
 ### -field UI_INVALIDATIONS_ALLPROPERTIES
 
 All properties.
 
-
 ## -see-also
 
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">IUIFramework::InvalidateUICommand</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">IUIFramework::InvalidateUICommand</a>

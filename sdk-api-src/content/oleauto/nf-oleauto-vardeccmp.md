@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: ebb418c0-c15d-42c2-88a3-1ffcd36a2750
 ms.date: 12/05/2018
 ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automat.vardeccmp, oleauto/VarDecCmp
-f1_keywords:
-- oleauto/VarDecCmp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDecCmp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDecCmp
+ - oleauto/VarDecCmp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDecCmp
 ---
 
 # VarDecCmp function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Compares two variants of type decimal.
 
-
 ## -parameters
-
-
-
 
 ### -param pdecLeft [in]
 
 The first variant.
 
-
 ### -param pdecRight [in]
 
 The second variant.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -130,7 +122,4 @@ Either expression is null.
 </td>
 </tr>
 </table>
- 
-
-
 

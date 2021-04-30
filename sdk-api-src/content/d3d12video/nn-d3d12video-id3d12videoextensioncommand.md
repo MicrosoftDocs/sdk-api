@@ -2,7 +2,6 @@
 UID: NN:d3d12video.ID3D12VideoExtensionCommand
 title: ID3D12VideoExtensionCommand
 ms.date: 1/23/2020
-ms.topic: language-reference
 targetos: Windows
 description: A reference counted object representing the video extension command.
 tech.root: mf
@@ -28,6 +27,7 @@ api_location:
 api_name:
  - ID3D12VideoExtensionCommand
 f1_keywords:
+ - ID3D12VideoExtensionCommand
  - d3d12video/ID3D12VideoExtensionCommand
 dev_langs:
  - c++

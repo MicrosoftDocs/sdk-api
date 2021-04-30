@@ -3,11 +3,10 @@ UID: NS:diagnosticdataquerytypes.tagDIAGNOSTIC_REPORT_SIGNATURE
 title: DIAGNOSTIC_REPORT_SIGNATURE
 ms.date: 8/19/2019
 ms.keywords: tagDIAGNOSTIC_REPORT_SIGNATURE, DIAGNOSTIC_REPORT_SIGNATURE
-description: This resource describes the signature for a diagnostic report. 
+description: This resource describes the signature for a diagnostic report.
 tech.root: security
-ms.topic: language-reference
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -32,20 +31,28 @@ api_location:
 api_name:
  - tagDIAGNOSTIC_REPORT_SIGNATURE
  - DIAGNOSTIC_REPORT_SIGNATURE
+f1_keywords:
+ - tagDIAGNOSTIC_REPORT_SIGNATURE
+ - diagnosticdataquerytypes/tagDIAGNOSTIC_REPORT_SIGNATURE
+ - DIAGNOSTIC_REPORT_SIGNATURE
+ - diagnosticdataquerytypes/DIAGNOSTIC_REPORT_SIGNATURE
 ---
 
 ## -description
-This resource describes the signature for a diagnostic report. 
+
+This resource describes the signature for a diagnostic report.
 
 ## -struct-fields
 
 ### -field eventName
+
 Type: **[WCHAR\[\]](/windows/desktop/winprog/windows-data-types)**
-A string that specifies the name of this application event. 
+A string that specifies the name of this application event.
 
 ### -field parameters
+
 Type: **[DIAGNOSTIC_DATA_REPORT_PARAMETER\[\]](/windows/win32/api/diagnosticdataquery/ns-diagnosticdataquerytypes-diagnostic_report_parameter)**
-A list of parameters for this report. 
+A list of parameters for this report.
 
 ## -remarks
 

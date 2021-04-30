@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation'
-f1_keywords:
-- sspi/SecPkgContext_TargetInformation
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -29,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgContext_TargetInformation
 targetos: Windows
 req.typenames: SecPkgContext_TargetInformation, *PSecPkgContext_TargetInformation
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_TargetInformation
+ - sspi/_SecPkgContext_TargetInformation
+ - PSecPkgContext_TargetInformation
+ - sspi/PSecPkgContext_TargetInformation
+ - SecPkgContext_TargetInformation
+ - sspi/SecPkgContext_TargetInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgContext_TargetInformation
 ---
 
 # SecPkgContext_TargetInformation structure
@@ -49,21 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SecPkgContext_TargetInformation</b> structure returns information about the credential used for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.  This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
-
+The <b>SecPkgContext_TargetInformation</b> structure returns information about the credential used for the <a href="/windows/desktop/SecGloss/s-gly">security context</a>.  This structure is returned by the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field MarshalledTargetInfoLength
 
 Size, in bytes, of <b>MarshalledTargetInfo</b>.
 
-
 ### -field MarshalledTargetInfo
 
 Array of bytes that represent the credential, if a credential is provided by a credential manager.
-

@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: dxmath
+f1_keywords:
+ - directxmath
+ - directxmath/directxmath
 ---
 
 # Directxmath.h header
 
 
 ## -description
-
 
 This header is used by DirectXMath. For more information, see:
 

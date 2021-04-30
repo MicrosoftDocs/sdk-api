@@ -8,10 +8,6 @@ tech.root: automat
 ms.assetid: 143cd441-af97-44da-a772-936f57f1df97
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromI8, VarBoolFromI8 function [Automation], _oa96_VarBoolFromI8, automat.varboolfromi8, oleauto/VarBoolFromI8
-f1_keywords:
-- oleauto/VarBoolFromI8
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarBoolFromI8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarBoolFromI8
+ - oleauto/VarBoolFromI8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarBoolFromI8
 ---
 
 # VarBoolFromI8 function
@@ -49,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an 8-byte integer value to a Boolean value.
 
-
 ## -parameters
-
-
-
 
 ### -param i64In [in]
 
 The value to convert.
 
-
 ### -param pboolOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -148,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

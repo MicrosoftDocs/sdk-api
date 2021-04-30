@@ -8,10 +8,6 @@ tech.root: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
 ms.date: 12/05/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
-f1_keywords:
-- resourceindexer/IndexedResourceQualifier
-dev_langs:
-- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- resourceindexer.h
-api_name:
-- IndexedResourceQualifier
 targetos: Windows
 req.typenames: IndexedResourceQualifier
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IndexedResourceQualifier
+ - resourceindexer/IndexedResourceQualifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - resourceindexer.h
+api_name:
+ - IndexedResourceQualifier
 ---
 
 # IndexedResourceQualifier structure
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the context under which a resource is appropriate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field name
 
 The name of the qualifier, such as "language", "contrast", or "scale".
-
 
 ### -field value
 
@@ -80,15 +75,8 @@ The following values are examples of the qualifier values:
 
 ## -see-also
 
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults">DestroyIndexedResults</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyindexedresults">DestroyIndexedResults</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-indexfilepath">IndexFilePath</a>

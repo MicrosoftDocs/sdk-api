@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_BITSTREAM_ENCRYPTION_TYPE","D3D12_BITSTREAM_ENCRYPT
 tech.root: mf
 ms.assetid: 54de4ba4-fa73-4d1b-9d57-86387bbb90b0
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_BITSTREAM_ENCRYPTION_TYPE
-dev_langs:
-- c++
 ms.keywords: D3D12_BITSTREAM_ENCRYPTION_TYPE, D3D12_BITSTREAM_ENCRYPTION_TYPE,
 req.header: d3d12video.h
 req.include-header: 
@@ -22,18 +18,24 @@ req.umdf-ver:
 req.ddi-compliance: 
 req.max-support: 
 req.typenames: D3D12_BITSTREAM_ENCRYPTION_TYPE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_BITSTREAM_ENCRYPTION_TYPE
 targetos: Windows
+f1_keywords:
+ - D3D12_BITSTREAM_ENCRYPTION_TYPE
+ - d3d12video/D3D12_BITSTREAM_ENCRYPTION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_BITSTREAM_ENCRYPTION_TYPE
 ---
 
 # D3D12_BITSTREAM_ENCRYPTION_TYPE enumeration
+
 
 ## -description
 
@@ -48,3 +50,4 @@ The bistream is not encrypted.
 ## -remarks
 
 ## -see-also
+

@@ -8,10 +8,6 @@ tech.root: wua
 ms.assetid: 798d1392-a8dc-4063-b33d-159a507161f1
 ms.date: 12/05/2018
 ms.keywords: UpdateServiceRegistrationState, UpdateServiceRegistrationState enumeration [Windows Update Agent], usrsNotRegistered, usrsRegistered, usrsRegistrationPending, wua.updateserviceregistrationstate, wuapi/UpdateServiceRegistrationState, wuapi/usrsNotRegistered, wuapi/usrsRegistered, wuapi/usrsRegistrationPending
-f1_keywords:
-- wuapi/UpdateServiceRegistrationState
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- UpdateServiceRegistrationState
 targetos: Windows
 req.typenames: UpdateServiceRegistrationState
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUpdateServiceRegistrationState
+ - wuapi/tagUpdateServiceRegistrationState
+ - UpdateServiceRegistrationState
+ - wuapi/UpdateServiceRegistrationState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - UpdateServiceRegistrationState
 ---
 
 # UpdateServiceRegistrationState enumeration
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the possible states for an update service.
 
-
 ## -enum-fields
-
-
-
 
 ### -field usrsNotRegistered
 
 The service is not registered.
 
-
 ### -field usrsRegistrationPending
 
 The service is pending registration. Registration will be attempted the next time the update agent contacts an update service.
-
 
 ### -field usrsRegistered
 

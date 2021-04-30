@@ -7,10 +7,6 @@ helpviewer_keywords: ["XMUSHORT4::operator="]
 ms.assetid: acc868e1-ad25-4ea9-b126-d5c50be8b888
 ms.date: 05/20/2019
 ms.keywords: XMUSHORT4::operator=
-f1_keywords:
-- directxpackedvector/XMUSHORT4::operator=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,21 +27,26 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMUSHORT4::operator=
+ - directxpackedvector/XMUSHORT4::operator=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxpackedvector.h
+ - directxpackedvector.h
 api_name:
-- XMUSHORT4::operator=
+ - XMUSHORT4::operator=
 ---
 
-# XMUSHORT4::operator = 
+# XMUSHORT4::operator =
+
 
 ## -description
 
-Assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a> to the current instance of **XMUSHORT4**.
+Assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a> to the current instance of **XMUSHORT4**.
 
 This operator assigns the vector component data from one instance of **XMUSHORT4** to the current instance of **XMUSHORT4**.
 
@@ -53,7 +54,7 @@ This operator assigns the vector component data from one instance of **XMUSHORT4
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 Instance of **XMUSHORT4** used to update the current **XMUSHORT4** structure.
 
@@ -65,4 +66,4 @@ The current instance of **XMUSHORT4** whose vector component data has been updat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>

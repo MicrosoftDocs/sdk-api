@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqGetDiagnosticReportCount
 title: DdqGetDiagnosticReportCount
 ms.date: 8/19/2019
 ms.keywords: DdqGetDiagnosticReportCount
-ms.topic: language-reference
-description: Fetches the number (size) of error reports in the resource pointed to by HDIAGNOSTIC_REPORT_DATA handle. 
+description: Fetches the number (size) of error reports in the resource pointed to by HDIAGNOSTIC_REPORT_DATA handle.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,27 +30,33 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqGetDiagnosticReportCount
+f1_keywords:
+ - DdqGetDiagnosticReportCount
+ - diagnosticdataquery/DdqGetDiagnosticReportCount
 ---
 
 ## -description
-Fetches the number (size) of error reports in the resource pointed to by HDIAGNOSTIC_REPORT_DATA handle. 
+
+Fetches the number (size) of error reports in the resource pointed to by HDIAGNOSTIC_REPORT_DATA handle.
 
 ## -parameters
 
 ### -param hReport
+
 Type: **[HANDLE](/windows/desktop/com/structure-of-com-error-codes)**
-Handle to the resource that contains the set of error reports. 
+Handle to the resource that contains the set of error reports.
 
 ### -param reportCount
+
 Type: **[UINT32\*](/windows/desktop/com/structure-of-com-error-codes)**
-Pointer to the number of error reports. 
+Pointer to the number of error reports.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 

@@ -8,10 +8,6 @@ tech.root: shell
 ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
 ms.date: 12/05/2018
 ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Shell], PathUnmakeSystemFolderA, PathUnmakeSystemFolderW, _win32_PathUnmakeSystemFolder, shell.PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolderA, shlwapi/PathUnmakeSystemFolderW
-f1_keywords:
-- shlwapi/PathUnmakeSystemFolder
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- PathUnmakeSystemFolder
-- PathUnmakeSystemFolderA
-- PathUnmakeSystemFolderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathUnmakeSystemFolderW
+ - shlwapi/PathUnmakeSystemFolderW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - PathUnmakeSystemFolder
+ - PathUnmakeSystemFolderA
+ - PathUnmakeSystemFolderW
 ---
 
 # PathUnmakeSystemFolderW function
@@ -51,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -66,16 +62,11 @@ Type: <b>LPTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the name of an existing folder that will have the system folder attributes removed.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns nonzero if successful, or zero otherwise.
-
-
 
 ## -remarks
 

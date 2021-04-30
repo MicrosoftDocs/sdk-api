@@ -8,10 +8,6 @@ tech.root: security
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise
-f1_keywords:
-- identityprovider/IIdentityProvider.Advise
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Identityprovider.h
-api_name:
-- IIdentityProvider.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIdentityProvider::Advise
+ - identityprovider/IIdentityProvider::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Identityprovider.h
+api_name:
+ - IIdentityProvider.Advise
 ---
 
 # IIdentityProvider::Advise
@@ -49,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Advise</b> method allows a calling application to specify the list of identity events for which the application is to be  notified.
-
 
 ## -parameters
 
-
-
-
 ### -param pIdentityAdvise [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a> interface implemented by the calling application. This interface provides a method that the identity provider can call when one of the events specified by the <i>dwIdentityUpdateEvents</i> parameter occurs.
-
+A pointer to the <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityadvise">IIdentityAdvise</a> interface implemented by the calling application. This interface provides a method that the identity provider can call when one of the events specified by the <i>dwIdentityUpdateEvents</i> parameter occurs.
 
 ### -param dwIdentityUpdateEvents [in]
 
@@ -139,36 +134,21 @@ The value of  a property of an identity changed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwCookie [out]
 
-A pointer to a value that identifies this connection. When you have finished using this connection, delete it by passing this value to the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-unadvise">UnAdvise</a> method.
-
+A pointer to a value that identifies this connection. When you have finished using this connection, delete it by passing this value to the <a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-unadvise">UnAdvise</a> method.
 
 ## -returns
 
-
-
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IIdentityAdvise::IdentityUpdated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityadvise-identityupdated">IIdentityAdvise::IdentityUpdated</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>

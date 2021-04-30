@@ -8,10 +8,6 @@ tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtldisableprocesswindowsghosting.htm
 ms.date: 12/05/2018
 ms.keywords: DisableProcessWindowsGhosting, DisableProcessWindowsGhosting function [Windows API], winprog.disableprocesswindowsghosting, winui.disableprocesswindowsghosting, winuser/DisableProcessWindowsGhosting
-f1_keywords:
-- winuser/DisableProcessWindowsGhosting
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,25 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DisableProcessWindowsGhosting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DisableProcessWindowsGhosting
+ - winuser/DisableProcessWindowsGhosting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DisableProcessWindowsGhosting
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DisableProcessWindowsGhosting function
@@ -49,25 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.
-
 
 ## -parameters
 
-
-
-
-
-
 ## -remarks
 
-
-
 After calling <b>DisableProcessWindowsGhosting</b>, the ghosting feature is disabled for the duration of the process.
-
-
-		
-
-
 

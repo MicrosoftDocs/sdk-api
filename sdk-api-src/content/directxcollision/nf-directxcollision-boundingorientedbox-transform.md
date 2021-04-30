@@ -4,12 +4,8 @@ title: BoundingOrientedBox::Transform
 description: Transforms the BoundingOrientedBox.
 tech.root: dxmath
 helpviewer_keywords: ["BoundingOrientedBox::Transform"]
-ms.date: 04/22/19
+ms.date: 04/22/2019
 ms.keywords: BoundingOrientedBox::Transform
-f1_keywords:
-- directxcollision/BoundingOrientedBox::Transform
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,17 +26,22 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingOrientedBox::Transform
+ - directxcollision/BoundingOrientedBox::Transform
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingOrientedBox::Transform
+ - BoundingOrientedBox::Transform
 ---
 
 # BoundingOrientedBox.Transform(BoundingOrientedBox&, XMMATRIX) method
+
 
 ## -description
 
@@ -72,3 +73,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingOrientedBox](ns-directxcollision-boundingorientedbox.md)
+

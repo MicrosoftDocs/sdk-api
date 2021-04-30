@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: wmi
+f1_keywords:
+ - wbemprov
+ - wbemprov/wbemprov
 ---
 
 # Wbemprov.h header
 
 
 ## -description
-
 
 This header is used by Windows Management Instrumentation. For more information, see:
 

@@ -3,12 +3,11 @@ UID: NF:diagnosticdataquery.DdqIsDiagnosticRecordSampledIn
 title: DdqIsDiagnosticRecordSampledIn
 ms.date: 8/19/2019
 ms.keywords: DdqIsDiagnosticRecordSampledIn
-ms.topic: language-reference
-description: Fetches the sampled-in state of the device for an event.  
+description: Fetches the sampled-in state of the device for an event.
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-product: Windows
+ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -31,60 +30,73 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:
  - DdqIsDiagnosticRecordSampledIn
+f1_keywords:
+ - DdqIsDiagnosticRecordSampledIn
+ - diagnosticdataquery/DdqIsDiagnosticRecordSampledIn
 ---
 
 ## -description
-Fetches the sampled-in state of the device for an event.  
+
+Fetches the sampled-in state of the device for an event.
 
 ## -parameters
 
 ### -param hSession
+
 Type: **[HANDLE](/windows/desktop/winprog/windows-data-types)**
 Handle to the Diagnostic Data Query session.
 
 ### -param providerGroup
-Type: **[GUID\*](/windows/win32/api/guiddef/ns-guiddef-guid)**
-Pointer to the provider group GUID. 
+
+Type: **[GUID\*](../guiddef/ns-guiddef-guid.md)**
+Pointer to the provider group GUID.
 
 ### -param providerId
-Type: **[GUID\*](/windows/win32/api/guiddef/ns-guiddef-guid)**
-Pointer to the provider GUID. 
+
+Type: **[GUID\*](../guiddef/ns-guiddef-guid.md)**
+Pointer to the provider GUID.
 
 ### -param providerName
+
 Type: **[PCWSTR](/windows/win32/winprog/windows-data-types)**
-The name of the provider. 
+The name of the provider.
 
 ### -param eventId
+
 Type: **[UNI32\*](/windows/win32/winprog/windows-data-types)**
-Pointer to the event ID. 
+Pointer to the event ID.
 
 ### -param eventName
+
 Type: **[PCWSTR](/windows/win32/winprog/windows-data-types)**
-The name of the event. 
+The name of the event.
 
 ### -param eventVersion
+
 Type: **[UINT32\*](/windows/win32/winprog/windows-data-types)**
 The version of the event.
 
 ### -param eventKeywords
+
 Type: **[UINT64\*](/windows/win32/winprog/windows-data-types)**
-Pointer to the event keywords. 
+Pointer to the event keywords.
 
 ### -param isSampledIn
+
 Type: **[BOOL\*](/windows/win32/winprog/windows-data-types)**
-This output parameter is a pointer to a boolean value that is TRUE if the event is sampled in and FALSE otherwise. 
+This output parameter is a pointer to a boolean value that is TRUE if the event is sampled in and FALSE otherwise.
 
 ## -returns
+
 Type: **[HRESULT](/windows/desktop/com/structure-of-com-error-codes)**
 Returns S_OK on successful completion.
 
 ## -remarks
-For more information about events and providers, see [**Event Tracing**](/windows/win32/etw/event-tracing-portal). 
+
+For more information about events and providers, see [**Event Tracing**](/windows/win32/etw/event-tracing-portal).
 
 ## -see-also
-

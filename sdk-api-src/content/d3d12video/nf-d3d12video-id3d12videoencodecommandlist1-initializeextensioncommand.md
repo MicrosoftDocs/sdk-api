@@ -2,9 +2,8 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList1.InitializeExtensionCommand
 title: ID3D12VideoEncodeCommandList1::InitializeExtensionCommand
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
-description: Records a command to initializes or re-initializes a video extension command into a video encode command list. 
+description: Records a command to initializes or re-initializes a video extension command into a video encode command list.
 tech.root: mf
 req.assembly: 
 req.construct-type: function
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList1::InitializeExtensionCommand
 f1_keywords:
+ - ID3D12VideoEncodeCommandList1::InitializeExtensionCommand
  - d3d12video/ID3D12VideoEncodeCommandList1::InitializeExtensionCommand
 dev_langs:
  - c++
@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-Records a command to initializes or re-initializes a video extension command into a video encode command list. 
+Records a command to initializes or re-initializes a video extension command into a video encode command list.
 
 ## -parameters
 

@@ -8,10 +8,6 @@ tech.root: TermServ
 ms.assetid: 6a910269-3023-4c81-999b-7ab8bb56dcc8
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],NumPendingConnections property, ITsSbTarget.NumPendingConnections, ITsSbTarget.get_NumPendingConnections, ITsSbTarget::NumPendingConnections, ITsSbTarget::get_NumPendingConnections, ITsSbTargetEx interface [Remote Desktop Services],NumPendingConnections property, ITsSbTargetEx.NumPendingConnections, ITsSbTargetEx::get_NumPendingConnections, NumPendingConnections property [Remote Desktop Services], NumPendingConnections property [Remote Desktop Services],ITsSbTarget interface, NumPendingConnections property [Remote Desktop Services],ITsSbTargetEx interface, get_NumPendingConnections, sbtsv/ITsSbTarget::NumPendingConnections, sbtsv/ITsSbTarget::get_NumPendingConnections, sbtsv/ITsSbTargetEx::NumPendingConnections, sbtsv/ITsSbTargetEx::get_NumPendingConnections, termserv.itssbtarget_numpendingconnections
-f1_keywords:
-- sbtsv/ITsSbTarget.NumPendingConnections
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTarget.NumPendingConnections
-- ITsSbTarget.get_NumPendingConnections
-- ITsSbTargetEx.NumPendingConnections
-- ITsSbTargetEx.get_NumPendingConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTarget::get_NumPendingConnections
+ - sbtsv/ITsSbTarget::get_NumPendingConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTarget.NumPendingConnections
+ - ITsSbTarget.get_NumPendingConnections
+ - ITsSbTargetEx.NumPendingConnections
+ - ITsSbTargetEx.get_NumPendingConnections
 ---
 
 # ITsSbTarget::get_NumPendingConnections
@@ -52,26 +53,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of pending user connections for the target.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>

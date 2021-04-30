@@ -6,10 +6,6 @@ helpviewer_keywords: ["ID3D12VideoProcessor::GetInputStreamDescs","GetInputStrea
 tech.root: mf
 ms.assetid: 1973387b-966f-4a85-8a28-74a324d80697
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessor::GetInputStreamDescs
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessor::GetInputStreamDescs, GetInputStreamDescs, ID3D12VideoProcessor.GetInputStreamDescs, ID3D12VideoProcessor::GetInputStreamDescs, ID3D12VideoProcessor.GetInputStreamDescs
 req.header: d3d12video.h
 req.include-header: 
@@ -29,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessor::GetInputStreamDescs
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessor::GetInputStreamDescs
+ - d3d12video/ID3D12VideoProcessor::GetInputStreamDescs
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessor::GetInputStreamDescs
 ---
 
 # ID3D12VideoProcessor::GetInputStreamDescs
@@ -57,9 +58,11 @@ The size of the array pointed to by *pInputStreamDescs*. Get the number of input
 
 An array of [D3D12_VIDEO_PROCESS_INPUT_STREAM_DESC](ns-d3d12video-d3d12_video_process_input_stream_desc.md) structures that is populated with the input stream descriptions associated with the video processor.
 
-
 ## -returns
+
 This method returns HRESULT.
+
 ## -remarks
 
 ## -see-also
+

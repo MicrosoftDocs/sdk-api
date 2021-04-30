@@ -2,7 +2,6 @@
 UID: NE:mfidl.MF_MEDIAKEYSESSION_TYPE
 title: MF_MEDIAKEYSESSION_TYPE
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Specifies the type of a Content Decryption Module (CDM) session, represented by an IMFContentDecryptionModuleSession object.
 tech.root: mf
@@ -26,6 +25,7 @@ api_location:
 api_name:
  - MF_MEDIAKEYSESSION_TYPE
 f1_keywords:
+ - MF_MEDIAKEYSESSION_TYPE
  - mfidl/MF_MEDIAKEYSESSION_TYPE
 dev_langs:
  - c++
@@ -33,7 +33,7 @@ dev_langs:
 
 ## -description
 
-Specifies the type of a Content Decryption Module (CDM) session, represented by an [IMFContentDecryptionModuleSession](/windows/win32/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession) object.
+Specifies the type of a Content Decryption Module (CDM) session, represented by an [IMFContentDecryptionModuleSession](../mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession.md) object.
 
 ## -enum-fields
 
@@ -55,9 +55,10 @@ A record of license usage.
 
 ## -remarks
 
-Pass a member of this enumeration into [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
+Pass a member of this enumeration into [IMFContentDecryptionModule::CreateSession](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession.md)
 
 ## -see-also
+
 - IMFContentDecryptionModuleSession](/windows/win32/api/mfcontentdecryptionmodule/nn-mfcontentdecryptionmodule-imfcontentdecryptionmodulesession)
 
-- [IMFContentDecryptionModule::CreateSession](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession)
+- [IMFContentDecryptionModule::CreateSession](../mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmodule-createsession.md)

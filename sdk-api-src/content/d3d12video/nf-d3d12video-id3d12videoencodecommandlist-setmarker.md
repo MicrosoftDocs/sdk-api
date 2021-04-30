@@ -2,7 +2,6 @@
 UID: NF:d3d12video.ID3D12VideoEncodeCommandList.SetMarker
 title: ID3D12VideoEncodeCommandList::SetMarker
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: For internal use only. Not intended to be called directly.
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - ID3D12VideoEncodeCommandList::SetMarker
 f1_keywords:
+ - ID3D12VideoEncodeCommandList::SetMarker
  - d3d12video/ID3D12VideoEncodeCommandList::SetMarker
 dev_langs:
  - c++

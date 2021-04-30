@@ -8,10 +8,6 @@ tech.root: wic
 ms.assetid: 32fbf62d-0479-4ead-8246-6c757467ccaa
 ms.date: 12/05/2018
 ms.keywords: WICGifGraphicControlExtensionDelay, WICGifGraphicControlExtensionDisposal, WICGifGraphicControlExtensionProperties, WICGifGraphicControlExtensionProperties enumeration [Windows Imaging Component], WICGifGraphicControlExtensionTransparencyFlag, WICGifGraphicControlExtensionTransparentColorIndex, WICGifGraphicControlExtensionUserInputFlag, _wic_codec_wicgifgraphiccontrolextensionproperties, wic._wic_codec_wicgifgraphiccontrolextensionproperties, wincodec/WICGifGraphicControlExtensionDelay, wincodec/WICGifGraphicControlExtensionDisposal, wincodec/WICGifGraphicControlExtensionProperties, wincodec/WICGifGraphicControlExtensionTransparencyFlag, wincodec/WICGifGraphicControlExtensionTransparentColorIndex, wincodec/WICGifGraphicControlExtensionUserInputFlag
-f1_keywords:
-- wincodec/WICGifGraphicControlExtensionProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICGifGraphicControlExtensionProperties
 targetos: Windows
 req.typenames: WICGifGraphicControlExtensionProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICGifGraphicControlExtensionProperties
+ - wincodec/WICGifGraphicControlExtensionProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICGifGraphicControlExtensionProperties
 ---
 
 # WICGifGraphicControlExtensionProperties enumeration
@@ -49,41 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the graphic control extension metadata properties that define the transitions between each frame animation for Graphics Interchange Format (GIF) images.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WICGifGraphicControlExtensionDisposal
 
 [VT_UI1] Indicates  the disposal requirements. 0 - no disposal, 1 - do not dispose, 2 - restore to background color, 3 - restore to previous.
 
-
 ### -field WICGifGraphicControlExtensionUserInputFlag
 
 [VT_BOOL] Indicates the user input flag. <b>TRUE</b> if user input should advance to the next frame; otherwise, <b>FALSE</b>.
-
 
 ### -field WICGifGraphicControlExtensionTransparencyFlag
 
 [VT_BOOL] Indicates the transparency flag. <b>TRUE</b> if a transparent color in is in the color table for this frame; otherwise, <b>FALSE</b>.
 
-
 ### -field WICGifGraphicControlExtensionDelay
 
 [VT_UI2] Indicates  how long to display the next frame before advancing to the next frame, in units of 1/100th of a second.
-
 
 ### -field WICGifGraphicControlExtensionTransparentColorIndex
 
 [VT_UI1] Indicates which color in the palette should be treated as transparent.
 
-
 ### -field WICGifGraphicControlExtensionProperties_FORCE_DWORD
-
-
 

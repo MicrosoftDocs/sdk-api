@@ -8,10 +8,6 @@ tech.root: mf
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
 ms.date: 12/05/2018
 ms.keywords: MF_MSE_ERROR, MF_MSE_ERROR enumeration [Media Foundation], MF_MSE_ERROR_DECODE, MF_MSE_ERROR_NETWORK, MF_MSE_ERROR_NOERROR, MF_MSE_ERROR_UNKNOWN_ERROR, mf.mf_mse_error, mfmediaengine/MF_MSE_ERROR, mfmediaengine/MF_MSE_ERROR_DECODE, mfmediaengine/MF_MSE_ERROR_NETWORK, mfmediaengine/MF_MSE_ERROR_NOERROR, mfmediaengine/MF_MSE_ERROR_UNKNOWN_ERROR
-f1_keywords:
-- mfmediaengine/MF_MSE_ERROR
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfmediaengine.h
-api_name:
-- MF_MSE_ERROR
 targetos: Windows
 req.typenames: MF_MSE_ERROR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MF_MSE_ERROR
+ - mfmediaengine/MF_MSE_ERROR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfmediaengine.h
+api_name:
+ - MF_MSE_ERROR
 ---
 
 # MF_MSE_ERROR enumeration
@@ -49,42 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the different error states of the Media Source Extension.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MF_MSE_ERROR_NOERROR
 
 Specifies no error.
 
-
 ### -field MF_MSE_ERROR_NETWORK
 
 Specifies an error with the network.
-
 
 ### -field MF_MSE_ERROR_DECODE
 
 Specifies an error with decoding.
 
-
 ### -field MF_MSE_ERROR_UNKNOWN_ERROR
 
 Specifies an unknown error.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

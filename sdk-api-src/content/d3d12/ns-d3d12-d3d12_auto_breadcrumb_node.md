@@ -6,10 +6,6 @@ helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_NODE","D3D12_AUTO_BREADCRUMB_NODE s
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_AUTO_BREADCRUMB_NODE, D3D12_AUTO_BREADCRUMB_NODE structure, d3d12/D3D12_AUTO_BREADCRUMB_NODE, direct3d12.d3d12_auto_breadcrumb_node
-f1_keywords:
-- d3d12/D3D12_AUTO_BREADCRUMB_NODE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -27,22 +23,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_AUTO_BREADCRUMB_NODE
 targetos: Windows
 req.typenames: D3D12_AUTO_BREADCRUMB_NODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_AUTO_BREADCRUMB_NODE
+ - d3d12/D3D12_AUTO_BREADCRUMB_NODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_AUTO_BREADCRUMB_NODE
 ---
 
 # D3D12_AUTO_BREADCRUMB_NODE structure
+
 
 ## -description
 
@@ -81,15 +83,19 @@ A pointer to the [ID3D12CommandQueue interface](nn-d3d12-id3d12commandqueue.md) 
 A **UINT32** containing the count of [D3D12_AUTO_BREADCRUMB_OP](ne-d3d12-d3d12_auto_breadcrumb_op.md) values in the array pointed to by `pCommandHistory`.
 
 ### -field pLastBreadcrumbValue
+
 A pointer to a constant **UINT32** containing the index (within the array pointed to by `pCommandHistory`) of the last render/compute operation that was completed by the GPU while executing the associated command list.
 
 ### -field pCommandHistory
+
 A pointer to a constant array of [D3D12_AUTO_BREADCRUMB_OP](ne-d3d12-d3d12_auto_breadcrumb_op.md) values representing all of the render/compute operations recorded into the associated command list.
 
 ### -field pNext
+
 A pointer to a constant **D3D12_AUTO_BREADCRUMB_NODE** representing the next auto-breadcrumb node in the list, or `nullptr` if this is the last node.
 
 ## -see-also
 
 * [Core structures](/windows/desktop/direct3d12/direct3d-12-structures)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

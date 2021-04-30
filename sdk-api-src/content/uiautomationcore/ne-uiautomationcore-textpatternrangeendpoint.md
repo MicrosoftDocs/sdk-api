@@ -8,10 +8,6 @@ tech.root: WinAuto
 ms.assetid: 4a294376-a401-4380-ba5a-b899548290b7
 ms.date: 12/05/2018
 ms.keywords: TextPatternRangeEndpoint, TextPatternRangeEndpoint enumeration [Windows Accessibility], TextPatternRangeEndpoint_End, TextPatternRangeEndpoint_Start, uiauto.uiauto_TextPatternRangeEndpointEnum, uiauto_TextPatternRangeEndpointEnum, uiautomationcore/TextPatternRangeEndpoint, uiautomationcore/TextPatternRangeEndpoint_End, uiautomationcore/TextPatternRangeEndpoint_Start, winauto.uiauto_TextPatternRangeEndpointEnum
-f1_keywords:
-- uiautomationcore/TextPatternRangeEndpoint
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- TextPatternRangeEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TextPatternRangeEndpoint
+ - uiautomationcore/TextPatternRangeEndpoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - TextPatternRangeEndpoint
 ---
 
 # TextPatternRangeEndpoint enumeration
@@ -49,32 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains values that specify the endpoints of a text range.
 
-
 ## -enum-fields
-
-
-
 
 ### -field TextPatternRangeEndpoint_Start
 
 The starting endpoint of the range.
 
-
 ### -field TextPatternRangeEndpoint_End
 
 The ending endpoint of the range.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>

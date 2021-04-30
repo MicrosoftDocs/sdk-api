@@ -8,10 +8,6 @@ tech.root: directmanipulation
 ms.assetid: 0d20e7f7-aa2a-4c76-a3ff-da10d4dec3ea
 ms.date: 12/05/2018
 ms.keywords: GetViewportRect, GetViewportRect method [Direct Manipulation], GetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetViewportRect method, IDirectManipulationViewport.GetViewportRect, IDirectManipulationViewport::GetViewportRect, directmanipulation.idirectmanipulationviewport_getviewportrect, directmanipulation/IDirectManipulationViewport::GetViewportRect
-f1_keywords:
-- directmanipulation/IDirectManipulationViewport.GetViewportRect
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewport.GetViewportRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewport::GetViewportRect
+ - directmanipulation/IDirectManipulationViewport::GetViewportRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewport.GetViewportRect
 ---
 
 # IDirectManipulationViewport::GetViewportRect
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect">SetViewportRect</a>.
-
+Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setviewportrect">SetViewportRect</a>.
 
 ## -parameters
-
-
-
 
 ### -param viewport [out, retval]
 
 The bounding rectangle relative to the viewport coordinate system.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>

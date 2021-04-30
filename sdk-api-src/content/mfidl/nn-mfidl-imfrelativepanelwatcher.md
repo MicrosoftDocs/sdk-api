@@ -2,7 +2,6 @@
 UID: NN:mfidl.IMFRelativePanelWatcher
 title: IMFRelativePanelWatcher
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Monitors the panel associated with a display, so that the app receives notifications when the relative location of the panel changes.
 tech.root: mf
@@ -28,22 +27,23 @@ api_location:
 api_name:
  - IMFRelativePanelWatcher
 f1_keywords:
+ - IMFRelativePanelWatcher
  - mfidl/IMFRelativePanelWatcher
 dev_langs:
  - c++
 ---
 
-## -inheritance
-
-IMFShutdown
-
 ## -description
 
 Monitors the panel associated with a display, so that the app receives notifications when the relative location of the panel changes.
 
+## -inheritance
+
+IMFShutdown
+
 ## -remarks
 
-Get an instance of this interface by calling [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher).
+Get an instance of this interface by calling [MFCreateRelativePanelWatcher](nf-mfidl-mfcreaterelativepanelwatcher.md).
 
 ## -see-also
 

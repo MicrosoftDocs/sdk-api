@@ -8,10 +8,6 @@ tech.root: Kernel
 ms.assetid: c792d021-3c64-4341-878c-08a7e163447c
 ms.date: 12/05/2018
 ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, winnt/FIELD_OFFSET
-f1_keywords:
-- ntdef/FIELD_OFFSET
-dev_langs:
-- c++
 req.header: ntdef.h
 req.include-header: Ntdef.h, Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Desktop
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: Any level
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- FIELD_OFFSET
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FIELD_OFFSET
+ - ntdef/FIELD_OFFSET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - FIELD_OFFSET
 ---
 
 # FIELD_OFFSET macro
@@ -49,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FIELD_OFFSET</b> macro returns the byte offset of a named field in a known structure type.
-
 
 ## -parameters
 
-
-
-
 ### -param type [in]
 
-Specifies the name of a known structure type containing <i>Field</i>. 
-
+Specifies the name of a known structure type containing <i>Field</i>.
 
 ### -param field [in]
 
-Specifies the name of a field in a structure of type <i>Type</i>. 
-
+Specifies the name of a field in a structure of type <i>Type</i>.
 
 ## -remarks
 
-
-
-Used by device driver writers to symbolically determine the offset of a known field in a known structure type. 
-
-
-
+Used by device driver writers to symbolically determine the offset of a known field in a known structure type.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>

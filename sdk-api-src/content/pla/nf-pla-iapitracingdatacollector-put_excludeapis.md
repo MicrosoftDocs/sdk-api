@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: 1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0
 ms.date: 12/05/2018
 ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExcludeApis property, IApiTracingDataCollector.ExcludeApis, IApiTracingDataCollector.put_ExcludeApis, IApiTracingDataCollector::ExcludeApis, IApiTracingDataCollector::get_ExcludeApis, IApiTracingDataCollector::put_ExcludeApis, base.iapitracingdatacollector_excludeapis, pla.iapitracingdatacollector_excludeapis, pla/IApiTracingDataCollector::ExcludeApis, pla/IApiTracingDataCollector::get_ExcludeApis, pla/IApiTracingDataCollector::put_ExcludeApis, put_ExcludeApis
-f1_keywords:
-- pla/IApiTracingDataCollector.ExcludeApis
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IApiTracingDataCollector.ExcludeApis
-- IApiTracingDataCollector.get_ExcludeApis
-- IApiTracingDataCollector.put_ExcludeApis
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApiTracingDataCollector::put_ExcludeApis
+ - pla/IApiTracingDataCollector::put_ExcludeApis
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IApiTracingDataCollector.ExcludeApis
+ - IApiTracingDataCollector.get_ExcludeApis
+ - IApiTracingDataCollector.put_ExcludeApis
 ---
 
 # IApiTracingDataCollector::put_ExcludeApis
@@ -51,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the list of functions to exclude from the trace.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includeapis">IApiTracingDataCollector::IncludeApis</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_includeapis">IApiTracingDataCollector::IncludeApis</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>

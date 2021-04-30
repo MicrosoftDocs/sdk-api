@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 2b104b0a-b900-4acb-801e-d9716e3a0146
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetFormattedText method, ITextStoreAnchor.GetFormattedText, ITextStoreAnchor::GetFormattedText, textstor/ITextStoreAnchor::GetFormattedText, tsf.itextstoreanchor_getformattedtext
-f1_keywords:
-- textstor/ITextStoreAnchor.GetFormattedText
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.GetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::GetFormattedText
+ - textstor/ITextStoreAnchor::GetFormattedText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.GetFormattedText
 ---
 
 # ITextStoreAnchor::GetFormattedText
@@ -49,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITextStoreAnchor::GetFormattedText</b> method returns formatted text information from a text stream.
 
-
 ## -parameters
-
-
-
 
 ### -param paStart [in]
 
 Anchor position at which to start retrieval of formatted text.
 
-
 ### -param paEnd [in]
 
 Anchor position at which to end retrieval of formatted text.
 
-
 ### -param ppDataObject [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object that contains the formatted text.
-
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object that contains the formatted text.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,31 +120,15 @@ The caller does not have a read/write lock on the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Text, embedded objects, and any formatting are wrapped into a single <b>IDataObject</b> object. In this way private appliation-specific formatting associated with text can be preserved by a client.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>

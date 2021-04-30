@@ -8,10 +8,6 @@ tech.root: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
-f1_keywords:
-- msctf/ITfCategoryMgr.RegisterCategory
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.RegisterCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::RegisterCategory
+ - msctf/ITfCategoryMgr::RegisterCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.RegisterCategory
 ---
 
 # ITfCategoryMgr::RegisterCategory
+
 
 ## -description
 
@@ -58,7 +60,7 @@ Contains the CLSID of the text service that owns the item.
 
 ### -param rcatid [in]
 
-Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
+Contains a GUID value that identifies the category to register the item under. This can be a user-defined category or one of the <a href="/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
 
 ### -param rguid [in]
 
@@ -96,7 +98,6 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
 
 ## -see-also
 

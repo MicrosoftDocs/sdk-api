@@ -8,10 +8,6 @@ tech.root: winrm
 ms.assetid: c17c3600-6a19-4937-90ff-1a4f7cf5b123
 ms.date: 12/05/2018
 ms.keywords: WSManProxyAccessTypeFlags, WSManProxyAccessTypeFlags enumeration [Windows Remote Management], WSManProxyAutoDetect, WSManProxyIEConfig, WSManProxyNoProxyServer, WSManProxyWinHttpConfig, winrm.wsmanproxyaccesstypeflags, wsmandisp/WSManProxyAccessTypeFlags, wsmandisp/WSManProxyAutoDetect, wsmandisp/WSManProxyIEConfig, wsmandisp/WSManProxyNoProxyServer, wsmandisp/WSManProxyWinHttpConfig
-f1_keywords:
-- wsmandisp/WSManProxyAccessTypeFlags
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WSManDisp.h
-api_name:
-- WSManProxyAccessTypeFlags
 targetos: Windows
 req.typenames: WSManProxyAccessTypeFlags
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WSManProxyAccessTypeFlags
+ - wsmandisp/_WSManProxyAccessTypeFlags
+ - WSManProxyAccessTypeFlags
+ - wsmandisp/WSManProxyAccessTypeFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WSManDisp.h
+api_name:
+ - WSManProxyAccessTypeFlags
 ---
 
 # WSManProxyAccessTypeFlags enumeration
@@ -49,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the proxy access type flags.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WSManProxyIEConfig
 
 Use the Internet Explorer proxy configuration for the current user.
 
-
 ### -field WSManProxyWinHttpConfig
 
 Use the proxy settings configured for WinHTTP. This is the default setting.
 
-
 ### -field WSManProxyAutoDetect
 
 Force autodetection of a proxy.
-
 
 ### -field WSManProxyNoProxyServer
 

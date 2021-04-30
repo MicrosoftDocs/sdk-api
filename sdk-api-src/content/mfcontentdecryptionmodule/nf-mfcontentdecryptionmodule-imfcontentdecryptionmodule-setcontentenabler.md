@@ -2,7 +2,6 @@
 UID: NF:mfcontentdecryptionmodule.IMFContentDecryptionModule.SetContentEnabler
 title: IMFContentDecryptionModule::SetContentEnabler
 ms.date: 11/26/2019
-ms.topic: language-reference
 targetos: Windows
 description: Allows the caller to specify the IMFContentEnabler interface that shall be used by the Content Decryption Module (CDM).
 tech.root: mf
@@ -34,6 +33,7 @@ api_location:
 api_name:
  - IMFContentDecryptionModule::SetContentEnabler
 f1_keywords:
+ - IMFContentDecryptionModule::SetContentEnabler
  - mfcontentdecryptionmodule/IMFContentDecryptionModule::SetContentEnabler
 dev_langs:
  - c++
@@ -41,28 +41,24 @@ dev_langs:
 
 ## -description
 
-Allows the caller to specify the [IMFContentEnabler](/windows/win32/api/mfidl/nn-mfidl-imfcontentenabler) interface that shall be used by the Content Decryption Module (CDM).
-    
-
+Allows the caller to specify the [IMFContentEnabler](../mfidl/nn-mfidl-imfcontentenabler.md) interface that shall be used by the Content Decryption Module (CDM).
 
 ## -parameters
 
 ### -param contentEnabler
 
-The [IMFContentEnabler](/windows/win32/api/mfidl/nn-mfidl-imfcontentenabler) interface to be used by the CDM.
+The [IMFContentEnabler](../mfidl/nn-mfidl-imfcontentenabler.md) interface to be used by the CDM.
 
 ### -param result
 
-An [IMFAsyncResult](/windows/win32/api/mfobjects/nn-mfobjects-imfasyncresult) that provides information about the result of the operation.
+An [IMFAsyncResult](../mfobjects/nn-mfobjects-imfasyncresult.md) that provides information about the result of the operation.
 
 ## -returns
 
 Returns S_OK on success.
 
-
 ## -remarks
 
-The IMFContentEnabler is typically obtained by calling  [IMFInputTrustAuthority::RequestAccess](/windows/win32/api/mfidl/nf-mfidl-imfinputtrustauthority-requestaccess).
+The IMFContentEnabler is typically obtained by calling  [IMFInputTrustAuthority::RequestAccess](../mfidl/nf-mfidl-imfinputtrustauthority-requestaccess.md).
 
 ## -see-also
-

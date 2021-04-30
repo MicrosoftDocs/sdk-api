@@ -8,10 +8,6 @@ tech.root: Multimedia
 ms.assetid: f3105822-bdef-4e8d-912c-9d4b8d78cc47
 ms.date: 12/05/2018
 ms.keywords: '*LPMCI_DGV_RESERVE_PARMSW, MCI_DGV_RESERVE_PARMS, MCI_DGV_RESERVE_PARMS structure [Windows Multimedia], MCI_DGV_RESERVE_PARMSW, _win32_MCI_DGV_RESERVE_PARMS_str, digitalv/MCI_DGV_RESERVE_PARMS, multimedia.mci_dgv_reserve_parms'
-f1_keywords:
-- digitalv/MCI_DGV_RESERVE_PARMS
-dev_langs:
-- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Digitalv.h
-api_name:
-- MCI_DGV_RESERVE_PARMS
-- MCI_DGV_RESERVE_PARMSW
 targetos: Windows
 req.typenames: MCI_DGV_RESERVE_PARMSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCI_DGV_RESERVE_PARMSW
+ - digitalv/MCI_DGV_RESERVE_PARMSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Digitalv.h
+api_name:
+ - MCI_DGV_RESERVE_PARMS
+ - MCI_DGV_RESERVE_PARMSW
 ---
 
 # MCI_DGV_RESERVE_PARMSW structure
@@ -50,38 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCI_DGV_RESERVE_PARMS</b> structure contains information for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-reserve">MCI_RESERVE</a> command for digital-video devices.
-
-
-
+The <b>MCI_DGV_RESERVE_PARMS</b> structure contains information for the <a href="/windows/desktop/Multimedia/mci-reserve">MCI_RESERVE</a> command for digital-video devices.
 
 ## -struct-fields
-
-
-
 
 ### -field dwCallback
 
 The low-order word specifies a window handle used for the MCI_NOTIFY flag.
 
-
 ### -field lpstrPath
 
 Pointer to a null-terminated string containing the location of a temporary file. The buffer contains only the drive and directory path of the file used to hold recorded data; the filename is specified by the device driver.
-
 
 ### -field dwSize
 
 Size of reserved disk space.
 
-
 ## -remarks
 
-
-
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -92,23 +80,16 @@ When assigning data to the members of this structure, set the corresponding flag
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
+<a href="/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
+<a href="/windows/desktop/Multimedia/mci-reserve">MCI_RESERVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-reserve">MCI_RESERVE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
- 
-
- 
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

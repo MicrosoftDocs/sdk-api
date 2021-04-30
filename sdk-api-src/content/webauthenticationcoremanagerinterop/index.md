@@ -3,7 +3,6 @@ UID: NA:webauthenticationcoremanagerinterop
 title: webauthenticationcoremanagerinterop.h header
 ms.date: 05/28/2019
 ms.keywords: webauthenticationcoremanagerinterop
-ms.topic: language-reference
 targetos: Windows
 req.assembly: 
 req.construct-type: apiset
@@ -25,18 +24,22 @@ req.typenames:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- windows.h
-api_name:
-- webauthenticationcoremanagerinterop
 tech.root: winrt
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - windows.h
+api_name:
+ - webauthenticationcoremanagerinterop
+f1_keywords:
+ - webauthenticationcoremanagerinterop
+ - webauthenticationcoremanagerinterop/webauthenticationcoremanagerinterop
 ---
 
 # webauthenticationcoremanagerinterop.h header
+
 
 ## -description
 

@@ -2,7 +2,6 @@
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 title: D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 ms.date: 11/4/2019
-ms.topic: language-reference
 targetos: Windows
 description: Retrieves the list of video extension commands from the driver.
 tech.root: mf
@@ -30,6 +29,7 @@ api_location:
 api_name:
  - D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 f1_keywords:
+ - D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
  - d3d12video/D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS
 dev_langs:
  - c++
@@ -39,9 +39,7 @@ dev_langs:
 
 Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12video-id3d12videodevice-checkfeaturesupport.md) when the feature specified is [D3D12_FEATURE_VIDEO_EXTENSION_COMMANDS](ne-d3d12video-d3d12_feature_video.md). Retrieves the list of video extension commands from the driver.
 
-
 ## -struct-fields
-
 
 ### -field NodeIndex
 

@@ -22,5 +22,4 @@ To develop Indexing Service, you need these headers:
  * [oledbguid.h](../oledbguid/index.md)
 
 For programming guidance for this technology, see:
-* [Indexing Service](https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv)
-
+* [Indexing Service](/previous-versions/windows/desktop/indexsrv)

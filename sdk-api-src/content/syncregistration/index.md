@@ -6,13 +6,15 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: winsync
+f1_keywords:
+ - syncregistration
+ - syncregistration/syncregistration
 ---
 
 # Syncregistration.h header
 
 
 ## -description
-
 
 This header is used by Windows Sync. For more information, see:
 

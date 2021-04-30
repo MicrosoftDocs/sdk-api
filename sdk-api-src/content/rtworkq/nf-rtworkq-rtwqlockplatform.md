@@ -8,10 +8,6 @@ tech.root: backup
 ms.assetid: 25baa2ad-95b8-4ac0-a838-e95c6141e13b
 ms.date: 12/05/2018
 ms.keywords: RtwqLockPlatform, RtwqLockPlatform function, base.rtwqlockplatform, rtworkq/RtwqLockPlatform
-f1_keywords:
-- rtworkq/RtwqLockPlatform
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqLockPlatform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqLockPlatform
+ - rtworkq/RtwqLockPlatform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqLockPlatform
 ---
 
 # RtwqLockPlatform function
@@ -49,22 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> function if there are active asynchronous items.
-
+Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> function if there are active asynchronous items.
 
 ## -parameters
 
-
-
-
-
-
 ## -returns
 
-
-
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-

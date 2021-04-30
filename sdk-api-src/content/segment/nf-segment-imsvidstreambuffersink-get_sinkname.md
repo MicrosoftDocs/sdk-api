@@ -8,10 +8,6 @@ tech.root: mstv
 ms.assetid: a1fda0a0-7b18-4eb8-9555-19fb92fc32f2
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SinkName method, IMSVidStreamBufferSink.get_SinkName, IMSVidStreamBufferSink::get_SinkName, IMSVidStreamBufferSinkget_SinkName, get_SinkName, get_SinkName method [Microsoft TV Technologies], get_SinkName method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sinkname, segment/IMSVidStreamBufferSink::get_SinkName
-f1_keywords:
-- segment/IMSVidStreamBufferSink.get_SinkName
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink.get_SinkName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink::get_SinkName
+ - segment/IMSVidStreamBufferSink::get_SinkName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink.get_SinkName
 ---
 
 # IMSVidStreamBufferSink::get_SinkName
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_SinkName</b> method retrieves the name of the stub file that points to the backing files.
 
-
 ## -parameters
-
-
-
 
 ### -param pName [out]
 
 Pointer to a variable that receives the file name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -97,31 +90,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must release the returned string, using the <b>SysFreeString</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>

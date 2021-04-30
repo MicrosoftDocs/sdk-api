@@ -8,10 +8,6 @@ tech.root: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
 ms.date: 12/05/2018
 ms.keywords: CreateFolderAction, CreateFolderAction method [PLA], CreateFolderAction method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],CreateFolderAction method, IFolderActionCollection.CreateFolderAction, IFolderActionCollection::CreateFolderAction, pla.ifolderactioncollection_createfolderaction, pla/IFolderActionCollection::CreateFolderAction
-f1_keywords:
-- pla/IFolderActionCollection.CreateFolderAction
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IFolderActionCollection.CreateFolderAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderActionCollection::CreateFolderAction
+ - pla/IFolderActionCollection::CreateFolderAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IFolderActionCollection.CreateFolderAction
 ---
 
 # IFolderActionCollection::CreateFolderAction
@@ -49,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a folder action object.
-
 
 ## -parameters
 
-
-
-
 ### -param FolderAction [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface that you use to describe the action to be taken by the data manager.
-
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface that you use to describe the action to be taken by the data manager.
 
 ## -returns
 
-
-
 Returns S_OK if successful.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>

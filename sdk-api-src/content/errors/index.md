@@ -6,6 +6,9 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: dshow
+f1_keywords:
+ - errors
+ - errors/errors
 ---
 
 # Errors.h header
@@ -13,8 +16,7 @@ tech.root: dshow
 
 ## -description
 
-
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](../_dshow/index.md)
+- [DirectShow](/windows/win32/directshow/directshow)
 
