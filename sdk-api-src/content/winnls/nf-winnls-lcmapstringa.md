@@ -112,12 +112,16 @@ The application cannot set this parameter to 0.
 
 ### -param lpDestStr [out, optional]
 
-Pointer to a buffer in which this function retrieves the mapped string or a sort key. When the application uses this function to generate a sort key, the destination string can contain an odd number of bytes. The LCMAP_BYTEREV flag only reverses an even number of bytes. The last byte (odd-positioned) in the sort key is not reversed.
+Pointer to a buffer in which this function retrieves the mapped string or a sort key.
 
-<div class="alert"><b>Note</b>  The destination string can be the same as the source string only if LCMAP_UPPERCASE or LCMAP_LOWERCASE is set. Otherwise, the strings cannot be the same. If they are, the function fails.</div>
-<div> </div>
-<div class="alert"><b>Note</b>  Upon failure of the function, the destination buffer might contain either partial results or no results at all. In this case, it is recommended for your application to consider any results invalid.</div>
-<div> </div>
+If the caller explicitly requests a subset of the string, the destination string does not include a terminating null character unless the caller specified it in *cchDest*.
+
+When the application uses this function to generate a sort key, the destination string can contain an odd number of bytes. The LCMAP_BYTEREV flag only reverses an even number of bytes. The last byte (odd-positioned) in the sort key is not reversed.
+
+If this function fails, the destination buffer might contain either partial results or no results at all. In this case, all results should be considered invalid.
+
+> [!NOTE]
+> When setting LCMAP_UPPERCASE or LCMAP_LOWERCASE, the destination string can use the same buffer as the source string. However, this is strongly discouraged, as some conditions may cause the returned cased string to be a different length.
 
 ### -param cchDest [in]
 
