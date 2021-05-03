@@ -1,12 +1,10 @@
 ---
 UID: NF:winbase.MoveFileExW
 title: MoveFileExW function (winbase.h)
-author: windows-sdk-content
 description: Moves an existing file or directory, including its children, with various move options.
 old-location: fs\movefileex.htm
 tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileEx, MoveFileEx function [Files], MoveFileExA, MoveFileExW, _win32_movefileex, base.movefileex, fs.movefileex, rename file [Files], winbase/MoveFileEx, winbase/MoveFileExA, winbase/MoveFileExW
 req.header: winbase.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

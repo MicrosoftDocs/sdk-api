@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_WRITE_USN_CLOSE_RECORD
 title: FSCTL_WRITE_USN_CLOSE_RECORD
-author: windows-sdk-content
 description: Generates a record in the update sequence number (USN) change journal stream for the input file.
 old-location: fs\fsctl_write_usn_close_record.htm
 tech.root: FileIO
 ms.assetid: d7e0ad05-8ad5-4672-bd32-5a3b1dd0a6ea
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WRITE_USN_CLOSE_RECORD, FSCTL_WRITE_USN_CLOSE_RECORD control, FSCTL_WRITE_USN_CLOSE_RECORD control code [Files], _win32_fsctl_write_usn_close_record, base.fsctl_write_usn_close_record, fs.fsctl_write_usn_close_record, winioctl/FSCTL_WRITE_USN_CLOSE_RECORD
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 
