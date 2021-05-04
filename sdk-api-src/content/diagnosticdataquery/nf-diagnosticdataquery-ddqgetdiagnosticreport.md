@@ -7,7 +7,6 @@ description: Fetches error reports uploaded or enqueued for upload from this PC 
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

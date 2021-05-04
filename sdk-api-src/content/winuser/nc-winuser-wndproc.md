@@ -5,7 +5,6 @@ description: A callback function, which you define in your application, that pro
 tech.root: winmsg
 ms.date: 04/14/2021
 targetos: Windows
-product: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

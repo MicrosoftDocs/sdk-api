@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_READ_FILE_USN_DATA
 title: FSCTL_READ_FILE_USN_DATA
-author: windows-sdk-content
 description: Retrieves the update sequence number (USN) change-journal information for the specified file or directory.
 old-location: fs\fsctl_read_file_usn_data.htm
 tech.root: FileIO
 ms.assetid: 22c797c8-87c8-4d45-b163-4573e6ed17e1
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FILE_USN_DATA, FSCTL_READ_FILE_USN_DATA control, FSCTL_READ_FILE_USN_DATA control code [Files], base.fsctl_read_file_usn_data, fs.fsctl_read_file_usn_data, winioctl/FSCTL_READ_FILE_USN_DATA
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

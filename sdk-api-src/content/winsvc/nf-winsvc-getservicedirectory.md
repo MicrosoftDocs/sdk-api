@@ -6,7 +6,6 @@ tech.root: security
 ms.date: 4/26/2019
 ms.keywords: GetServiceDirectory
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

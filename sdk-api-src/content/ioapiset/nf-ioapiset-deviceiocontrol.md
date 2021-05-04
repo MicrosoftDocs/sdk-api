@@ -1,12 +1,10 @@
 ---
 UID: NF:ioapiset.DeviceIoControl
 title: DeviceIoControl function (ioapiset.h)
-author: windows-sdk-content
 description: Sends a control code directly to a specified device driver, causing the corresponding device to perform the corresponding operation.
 old-location: base\deviceiocontrol.htm
 tech.root: devio
 ms.assetid: 1d35c087-6672-4fc6-baa1-a886dd9d3878
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControl, DeviceIoControl function, _win32_deviceiocontrol, base.deviceiocontrol, ioapiset/DeviceIoControl
 req.header: ioapiset.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-ms.prod: windows
 targetos: Windows
 req.typenames: 
 req.redist: 

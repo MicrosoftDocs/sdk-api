@@ -2,11 +2,9 @@
 UID: NF:cimfs.CimDismountImage
 title: CimDismountImage
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimDismountImage
 targetos: Windows
-ms.prod: windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

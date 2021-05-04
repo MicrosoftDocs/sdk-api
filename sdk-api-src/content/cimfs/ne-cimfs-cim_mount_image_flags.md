@@ -2,11 +2,9 @@
 UID: NE:cimfs.CIM_MOUNT_IMAGE_FLAGS
 title: CIM_MOUNT_IMAGE_FLAGS
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CIM_MOUNT_IMAGE_FLAGS
 targetos: Windows
-ms.prod: windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: cimfs.h

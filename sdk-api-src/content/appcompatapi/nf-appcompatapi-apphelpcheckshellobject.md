@@ -68,8 +68,7 @@ This parameter is <b>TRUE</b> if a shim is needed; <b>FALSE</b> otherwise.
 
 ### -param pullFlags [out]
 
-     This parameter is filled with a 64-bit flag mask that can be used to turn
-            on   application modification flags in Explorer/IE. These are located in the application compatibility database.
+This parameter is filled with a 64-bit flag mask that can be used to turn on application modification flags in Explorer/IE. These are located in the application compatibility database.
 
 ## -returns
 
@@ -77,13 +76,11 @@ This parameter is <b>TRUE</b> if a shim is needed; <b>FALSE</b> otherwise.
 
 ## -remarks
 
-This is a helper function for Explorer and Internet Explorer that 
-            allows those applications to detect bad extension objects and either
-            block them from running or fix them.
+This is a helper function for Explorer and Internet Explorer that allows those applications to detect bad extension objects and either block them from running or fix them.
 
 
-            If the database indicates that a shim should be used to fix the extension
-            and <i>bShimIfNecessary</i> is <b>TRUE</b>, this function  loads Shimeng.dll and
-            applies the fix.
+If the database indicates that a shim should be used to fix the extension
+and <i>bShimIfNecessary</i> is <b>TRUE</b>, this function  loads Shimeng.dll and
+applies the fix.
 
 This function has no associated import library or header file; you must call it using the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions.

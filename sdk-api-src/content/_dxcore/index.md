@@ -1,12 +1,9 @@
 ---
 UID: TP:dxcore
 title: DXCore
-ms.author: windowssdkdev
 ms.date: 06/12/2019
 ms.keywords: 
-ms.prod: windows
-ms.technology: windows
-ms.topic: portal
+ms.topic: conceptual
 ---
 
 # DXCore
@@ -22,4 +19,3 @@ To develop with DXCore, you need these headers:
 
 For programming guidance for this technology, and code examples, see:
 * [DXCore](/windows/desktop/dxcore)
-
