@@ -120,13 +120,13 @@ The offset from the beginning of the file-mapping object referenced by <i>hSecti
 
 If the function succeeds, the return value is a handle to the newly created DIB, and *<i>ppvBits</i> points to the bitmap bit values.
 
-If the function fails, the return value is <b>NULL</b>, and *<i>ppvBits</i> is <b>NULL</b>.
+If the function fails, the return value is <b>NULL</b>, and *<i>ppvBits</i> is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-This function can return the following value.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can return the following value:
 
 <table>
 <tr>
-<th>Return code</th>
+<th>Error code</th>
 <th>Description</th>
 </tr>
 <tr>
