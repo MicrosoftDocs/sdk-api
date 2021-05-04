@@ -111,7 +111,7 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
 
 <b>SetTimer</b> can reuse timer IDs in the case where <i>hWnd</i> is <b>NULL</b>. 
 	
-Before using **SetTimer** or other timer-related functions, it is recommended to set **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
+Before using **SetTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
 
 #### Examples
 
