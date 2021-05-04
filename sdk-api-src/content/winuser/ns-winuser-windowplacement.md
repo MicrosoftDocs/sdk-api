@@ -2,7 +2,7 @@
 UID: NS:winuser.tagWINDOWPLACEMENT
 title: WINDOWPLACEMENT (winuser.h)
 description: Contains information about the placement of a window on the screen.
-helpviewer_keywords: ["*PWINDOWPLACEMENT","LPWINDOWPLACEMENT","LPWINDOWPLACEMENT structure pointer [Windows and Messages]","PWINDOWPLACEMENT","PWINDOWPLACEMENT structure pointer [Windows and Messages]","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","WINDOWPLACEMENT","WINDOWPLACEMENT structure [Windows and Messages]","WPF_ASYNCWINDOWPLACEMENT","WPF_RESTORETOMAXIMIZED","WPF_SETMINPOSITION","_win32_WINDOWPLACEMENT_str","_win32_windowplacement_str_cpp","winmsg.windowplacement","winui._win32_windowplacement_str","winuser/LPWINDOWPLACEMENT","winuser/PWINDOWPLACEMENT","winuser/WINDOWPLACEMENT"]
+helpviewer_keywords: ["*PWINDOWPLACEMENT","LPWINDOWPLACEMENT","LPWINDOWPLACEMENT structure pointer [Windows and Messages]","PWINDOWPLACEMENT","PWINDOWPLACEMENT structure pointer [Windows and Messages]","WINDOWPLACEMENT","WINDOWPLACEMENT structure [Windows and Messages]","WPF_ASYNCWINDOWPLACEMENT","WPF_RESTORETOMAXIMIZED","WPF_SETMINPOSITION","_win32_WINDOWPLACEMENT_str","_win32_windowplacement_str_cpp","winmsg.windowplacement","winui._win32_windowplacement_str","winuser/LPWINDOWPLACEMENT","winuser/PWINDOWPLACEMENT","winuser/WINDOWPLACEMENT"]
 old-location: winmsg\windowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowplacement.htm
@@ -122,144 +122,7 @@ This flag must be specified if the coordinates are set in the <b>ptMinPosition</
 
 Type: <b>UINT</b>
 
-The current show state of the window. This member can be one of the following values. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SW_HIDE"></a><a id="sw_hide"></a><dl>
-<dt><b>SW_HIDE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Hides the window and activates another window.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_MAXIMIZE"></a><a id="sw_maximize"></a><dl>
-<dt><b>SW_MAXIMIZE</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Maximizes the specified window.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_MINIMIZE"></a><a id="sw_minimize"></a><dl>
-<dt><b>SW_MINIMIZE</b></dt>
-<dt>6</dt>
-</dl>
-</td>
-<td width="60%">
-Minimizes the specified window and activates the next top-level window in the z-order.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_RESTORE"></a><a id="sw_restore"></a><dl>
-<dt><b>SW_RESTORE</b></dt>
-<dt>9</dt>
-</dl>
-</td>
-<td width="60%">
-Activates and displays the window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when restoring a minimized window.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOW"></a><a id="sw_show"></a><dl>
-<dt><b>SW_SHOW</b></dt>
-<dt>5</dt>
-</dl>
-</td>
-<td width="60%">
-Activates the window and displays it in its current size and position. 
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWMAXIMIZED"></a><a id="sw_showmaximized"></a><dl>
-<dt><b>SW_SHOWMAXIMIZED</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Activates the window and displays it as a maximized window.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWMINIMIZED"></a><a id="sw_showminimized"></a><dl>
-<dt><b>SW_SHOWMINIMIZED</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Activates the window and displays it as a minimized window.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWMINNOACTIVE"></a><a id="sw_showminnoactive"></a><dl>
-<dt><b>SW_SHOWMINNOACTIVE</b></dt>
-<dt>7</dt>
-</dl>
-</td>
-<td width="60%">
-Displays the window as a minimized window. 
-                        
-
-This value is similar to <b>SW_SHOWMINIMIZED</b>, except the window is not activated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWNA"></a><a id="sw_showna"></a><dl>
-<dt><b>SW_SHOWNA</b></dt>
-<dt>8</dt>
-</dl>
-</td>
-<td width="60%">
-Displays the window in its current size and position. 
-                        
-
-This value is similar to <b>SW_SHOW</b>, except the window is not activated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWNOACTIVATE"></a><a id="sw_shownoactivate"></a><dl>
-<dt><b>SW_SHOWNOACTIVATE</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-Displays a window in its most recent size and position. 
-                        
-
-This value is similar to <b>SW_SHOWNORMAL</b>, except the window is not activated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SW_SHOWNORMAL"></a><a id="sw_shownormal"></a><dl>
-<dt><b>SW_SHOWNORMAL</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Activates and displays a window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time.
-
-</td>
-</tr>
-</table>
+The current show state of the window. It can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
 
 ### -field ptMinPosition
 
