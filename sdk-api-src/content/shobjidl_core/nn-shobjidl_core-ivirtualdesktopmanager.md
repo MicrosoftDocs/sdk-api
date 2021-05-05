@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
+Exposes methods that enable an application to interact with groups of windows that form virtual workspaces. This interface is implemented by <a href="/windows/desktop/shell/virtualdesktopmanager">VirtualDesktopManager</a> (CLSID_VirtualDesktopManager).
 
 ## -inheritance
 
