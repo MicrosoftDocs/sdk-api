@@ -67,5 +67,5 @@ Returns S_OK on success.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="nn-wuapi-iupdateinstaller3.md">IUpdateInstaller3</a>
 

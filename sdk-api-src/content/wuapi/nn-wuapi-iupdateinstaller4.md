@@ -54,11 +54,11 @@ Provides methods to finalize updates that were previously staged or installed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>. <b>IUpdateInstaller4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller4</b> interface inherits from <a href="nn-wuapi-iupdateinstaller3.md">IUpdateInstaller3</a>. <b>IUpdateInstaller4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="nn-wuapi-iupdateinstaller3.md">IUpdateInstaller3</a>
