@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetVisibleBounds
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::GetVisibleBounds (windows.ui.xaml.media.dxinterop.h)
 description: Gets the boundaries of the visible region of the shared surface.
 helpviewer_keywords: ["GetVisibleBounds","GetVisibleBounds method [Windows Runtime]","GetVisibleBounds method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","IVirtualSurfaceImageSourceNative interface [Windows Runtime]","GetVisibleBounds method","IVirtualSurfaceImageSourceNative.GetVisibleBounds","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::GetVisibleBounds","IVirtualSurfaceImageSourceNative::xaml","windows/IVirtualSurfaceImageSourceNative::GetVisibleBounds","winrt.ivirtualsurfaceimagesourcenative_getvisiblebounds"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_getvisiblebounds.htm
@@ -45,7 +45,7 @@ api_name:
  - IVirtualSurfaceImageSourceNative.GetVisibleBounds
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::GetVisibleBounds (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description

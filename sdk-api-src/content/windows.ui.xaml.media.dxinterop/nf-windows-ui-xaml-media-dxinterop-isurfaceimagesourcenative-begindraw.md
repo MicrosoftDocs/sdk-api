@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNative.BeginDraw
-title: ISurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNative::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 description: Opens the supplied DXGI surface for drawing.
 helpviewer_keywords: ["BeginDraw","BeginDraw method [Windows Runtime]","BeginDraw method [Windows Runtime]","ISurfaceImageSourceNative interface","ISurfaceImageSourceNative interface [Windows Runtime]","BeginDraw method","ISurfaceImageSourceNative.BeginDraw","ISurfaceImageSourceNative.xaml","ISurfaceImageSourceNative::BeginDraw","ISurfaceImageSourceNative::xaml","windows/ISurfaceImageSourceNative::BeginDraw","winrt.isurfaceimagesourcenative_begindraw"]
 old-location: winrt\isurfaceimagesourcenative_begindraw.htm
@@ -45,7 +45,7 @@ api_name:
  - ISurfaceImageSourceNative.BeginDraw
 ---
 
-# ISurfaceImageSourceNative::xaml
+# ISurfaceImageSourceNative::BeginDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description

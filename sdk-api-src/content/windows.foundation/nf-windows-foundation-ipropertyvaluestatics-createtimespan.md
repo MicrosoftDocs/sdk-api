@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateTimeSpan
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateTimeSpan (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified TimeSpan value.
 helpviewer_keywords: ["CreateTimeSpan","CreateTimeSpan method [Windows Runtime]","CreateTimeSpan method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateTimeSpan method","IPropertyValueStatics.CreateTimeSpan","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateTimeSpan","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateTimeSpan","winrt.ipropertyvaluefactory_createtimespan","winrt.ipropertyvaluestatics_createtimespan"]
 old-location: winrt\ipropertyvaluestatics_createtimespan.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateTimeSpan
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateTimeSpan (windows.foundation.h)
 
 
 ## -description

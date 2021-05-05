@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetUInt8 (windows.foundation.h)
 description: Gets the unsigned 8-bit integer value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetUInt8","GetUInt8 method [Windows Runtime]","GetUInt8 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt8 method","IPropertyValue.GetUInt8","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt8","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt8","winrt.ipropertyvalue_getuint8"]
 old-location: winrt\ipropertyvalue_getuint8.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetUInt8
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetUInt8 (windows.foundation.h)
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ConnectFromTrackerSource
-title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTracker::ConnectFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 helpviewer_keywords: ["ConnectFromTrackerSource","ConnectFromTrackerSource method [Windows Runtime]","ConnectFromTrackerSource method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","ConnectFromTrackerSource method","IReferenceTracker.ConnectFromTrackerSource","IReferenceTracker.xaml","IReferenceTracker::ConnectFromTrackerSource","IReferenceTracker::xaml","windows/IReferenceTracker::ConnectFromTrackerSource","winrt.ireferencetracker_connectfromtrackersource"]
 old-location: winrt\ireferencetracker_connectfromtrackersource.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTracker.ConnectFromTrackerSource
 ---
 
-# IReferenceTracker::xaml
+# IReferenceTracker::ConnectFromTrackerSource (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description

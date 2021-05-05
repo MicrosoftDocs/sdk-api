@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateTimeSpanArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateTimeSpanArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of TimeSpan values.
 helpviewer_keywords: ["CreateTimeSpanArray","CreateTimeSpanArray method [Windows Runtime]","CreateTimeSpanArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateTimeSpanArray method","IPropertyValueStatics.CreateTimeSpanArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateTimeSpanArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateTimeSpanArray","winrt.ipropertyvaluefactory_createtimespanarray","winrt.ipropertyvaluestatics_createtimespanarray"]
 old-location: winrt\ipropertyvaluestatics_createtimespanarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateTimeSpanArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateTimeSpanArray (windows.foundation.h)
 
 
 ## -description

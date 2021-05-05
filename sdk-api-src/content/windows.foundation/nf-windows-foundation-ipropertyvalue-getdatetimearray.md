@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDateTimeArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetDateTimeArray (windows.foundation.h)
 description: Gets the array of DateTime values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetDateTimeArray","GetDateTimeArray method [Windows Runtime]","GetDateTimeArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetDateTimeArray method","IPropertyValue.GetDateTimeArray","IPropertyValue.IPropertyValue","IPropertyValue::GetDateTimeArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetDateTimeArray","winrt.ipropertyvalue_getdatetimearray"]
 old-location: winrt\ipropertyvalue_getdatetimearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetDateTimeArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetDateTimeArray (windows.foundation.h)
 
 
 ## -description

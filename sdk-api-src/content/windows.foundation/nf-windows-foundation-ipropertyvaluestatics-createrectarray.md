@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateRectArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateRectArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of Rect values.
 helpviewer_keywords: ["CreateRectArray","CreateRectArray method [Windows Runtime]","CreateRectArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateRectArray method","IPropertyValueStatics.CreateRectArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateRectArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateRectArray","winrt.ipropertyvaluefactory_createrectarray","winrt.ipropertyvaluestatics_createrectarray"]
 old-location: winrt\ipropertyvaluestatics_createrectarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateRectArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateRectArray (windows.foundation.h)
 
 
 ## -description

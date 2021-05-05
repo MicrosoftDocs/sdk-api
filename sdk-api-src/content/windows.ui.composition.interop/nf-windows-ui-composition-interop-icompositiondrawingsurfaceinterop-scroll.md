@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.Scroll
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::Scroll (windows.ui.composition.interop.h)
 description: Scrolls a rectangular area of the logical surface.
 helpviewer_keywords: ["ICompositionDrawingSurfaceInterop interface","Scroll method","ICompositionDrawingSurfaceInterop.Scroll","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::Scroll","ICompositionDrawingSurfaceInterop::composition","Scroll","Scroll method","Scroll method","ICompositionDrawingSurfaceInterop interface","w_ui_comp.icompositiondrawingsurfaceinterop_scroll","windows/ICompositionDrawingSurfaceInterop::Scroll"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_scroll.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositionDrawingSurfaceInterop.Scroll
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::Scroll (windows.ui.composition.interop.h)
 
 
 ## -description

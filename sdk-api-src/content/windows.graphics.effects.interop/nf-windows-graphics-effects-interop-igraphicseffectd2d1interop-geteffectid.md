@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetEffectId
-title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
+title: IGraphicsEffectD2D1Interop::GetEffectId (windows.graphics.effects.interop.h)
 description: Retrieves the ID of the effect.
 helpviewer_keywords: ["GetEffectId","GetEffectId method","GetEffectId method","IGraphicsEffectD2D1Interop interface","IGraphicsEffectD2D1Interop interface","GetEffectId method","IGraphicsEffectD2D1Interop.GetEffectId","IGraphicsEffectD2D1Interop.effects","IGraphicsEffectD2D1Interop::GetEffectId","IGraphicsEffectD2D1Interop::effects","w_graph_fx.igraphicseffectd2d1interop_geteffectid","windows/IGraphicsEffectD2D1Interop::GetEffectId"]
 old-location: w_graph_fx\igraphicseffectd2d1interop_geteffectid.htm
@@ -45,7 +45,7 @@ api_name:
  - IGraphicsEffectD2D1Interop.GetEffectId
 ---
 
-# IGraphicsEffectD2D1Interop::effects
+# IGraphicsEffectD2D1Interop::GetEffectId (windows.graphics.effects.interop.h)
 
 
 ## -description

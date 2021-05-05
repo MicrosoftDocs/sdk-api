@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDoubleArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetDoubleArray (windows.foundation.h)
 description: Gets the array of 64-bit floating point values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetDoubleArray","GetDoubleArray method [Windows Runtime]","GetDoubleArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetDoubleArray method","IPropertyValue.GetDoubleArray","IPropertyValue.IPropertyValue","IPropertyValue::GetDoubleArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetDoubleArray","winrt.ipropertyvalue_getdoublearray"]
 old-location: winrt\ipropertyvalue_getdoublearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetDoubleArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetDoubleArray (windows.foundation.h)
 
 
 ## -description

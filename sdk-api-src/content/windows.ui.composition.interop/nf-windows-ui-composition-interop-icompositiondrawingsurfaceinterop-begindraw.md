@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionDrawingSurfaceInterop.BeginDraw
-title: ICompositionDrawingSurfaceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionDrawingSurfaceInterop::BeginDraw (windows.ui.composition.interop.h)
 description: Initiates drawing on the surface.
 helpviewer_keywords: ["BeginDraw","BeginDraw method","BeginDraw method","ICompositionDrawingSurfaceInterop interface","ICompositionDrawingSurfaceInterop interface","BeginDraw method","ICompositionDrawingSurfaceInterop.BeginDraw","ICompositionDrawingSurfaceInterop.composition","ICompositionDrawingSurfaceInterop::BeginDraw","ICompositionDrawingSurfaceInterop::composition","w_ui_comp.icompositiondrawingsurfaceinterop_begindraw","windows/ICompositionDrawingSurfaceInterop::BeginDraw"]
 old-location: w_ui_comp\icompositiondrawingsurfaceinterop_begindraw.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositionDrawingSurfaceInterop.BeginDraw
 ---
 
-# ICompositionDrawingSurfaceInterop::composition
+# ICompositionDrawingSurfaceInterop::BeginDraw (windows.ui.composition.interop.h)
 
 
 ## -description
