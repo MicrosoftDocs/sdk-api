@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Exposes methods that either create or merge a shortcut menu associated with a Shell object. Note, there are several better ways to extend shell context menus, see <a href="windows/win32/shell/context-menu-handlers">Creating Shortcut Menu Handlers</a>.
+Exposes methods that either create or merge a shortcut menu associated with a Shell object. Note, there are several better ways to extend shell menus, see <a href="windows/win32/shell/context-menu-handlers">Creating Shortcut Menu Handlers</a>.
 
 ## -inheritance
 
