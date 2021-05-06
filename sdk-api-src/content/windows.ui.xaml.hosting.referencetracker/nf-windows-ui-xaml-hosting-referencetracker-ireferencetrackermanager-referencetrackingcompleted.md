@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingCompleted
-title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerManager::ReferenceTrackingCompleted (windows.ui.xaml.hosting.referencetracker.h)
 description: Indicates that a garbage collection system has finished with its collection process; at this point, XAML unblocks threads attempting to update tracked references.
 helpviewer_keywords: ["IReferenceTrackerManager interface [Windows Runtime]","ReferenceTrackingCompleted method","IReferenceTrackerManager.ReferenceTrackingCompleted","IReferenceTrackerManager.xaml","IReferenceTrackerManager::ReferenceTrackingCompleted","IReferenceTrackerManager::xaml","ReferenceTrackingCompleted","ReferenceTrackingCompleted method [Windows Runtime]","ReferenceTrackingCompleted method [Windows Runtime]","IReferenceTrackerManager interface","windows/IReferenceTrackerManager::ReferenceTrackingCompleted","winrt.ireferencetrackermanager_referencetrackingcompleted"]
 old-location: winrt\ireferencetrackermanager_referencetrackingcompleted.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTrackerManager.ReferenceTrackingCompleted
 ---
 
-# IReferenceTrackerManager::xaml
+# IReferenceTrackerManager::ReferenceTrackingCompleted (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description

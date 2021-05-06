@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSizeArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateSizeArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of Size values.
 helpviewer_keywords: ["CreateSizeArray","CreateSizeArray method [Windows Runtime]","CreateSizeArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateSizeArray method","IPropertyValueStatics.CreateSizeArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateSizeArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateSizeArray","winrt.ipropertyvaluefactory_createsizearray","winrt.ipropertyvaluestatics_createsizearray"]
 old-location: winrt\ipropertyvaluestatics_createsizearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateSizeArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateSizeArray (windows.foundation.h)
 
 
 ## -description

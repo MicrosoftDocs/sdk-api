@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToDeviceContext
-title: IPdfRendererNative::pdf (windows.data.pdf.interop.h)
+title: IPdfRendererNative::RenderPageToDeviceContext (windows.data.pdf.interop.h)
 description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
 helpviewer_keywords: ["IPdfRendererNative interface [Windows Runtime]","RenderPageToDeviceContext method","IPdfRendererNative.RenderPageToDeviceContext","IPdfRendererNative.pdf","IPdfRendererNative::RenderPageToDeviceContext","IPdfRendererNative::pdf","RenderPageToDeviceContext","RenderPageToDeviceContext method [Windows Runtime]","RenderPageToDeviceContext method [Windows Runtime]","IPdfRendererNative interface","windows/IPdfRendererNative::RenderPageToDeviceContext","winrt.ipdfrenderernative_renderpagetodevicecontext"]
 old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
@@ -45,7 +45,7 @@ api_name:
  - IPdfRendererNative.RenderPageToDeviceContext
 ---
 
-# IPdfRendererNative::pdf
+# IPdfRendererNative::RenderPageToDeviceContext (windows.data.pdf.interop.h)
 
 
 ## -description

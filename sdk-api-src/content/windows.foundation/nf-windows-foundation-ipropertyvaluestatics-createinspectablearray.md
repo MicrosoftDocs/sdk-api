@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInspectableArray
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateInspectableArray (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of IInspectable objects.
 helpviewer_keywords: ["CreateInspectableArray","CreateInspectableArray method [Windows Runtime]","CreateInspectableArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateInspectableArray method","IPropertyValueStatics.CreateInspectableArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateInspectableArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateInspectableArray","winrt.ipropertyvaluefactory_createinspectablearray","winrt.ipropertyvaluestatics_createinspectablearray"]
 old-location: winrt\ipropertyvaluestatics_createinspectablearray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateInspectableArray
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateInspectableArray (windows.foundation.h)
 
 
 ## -description

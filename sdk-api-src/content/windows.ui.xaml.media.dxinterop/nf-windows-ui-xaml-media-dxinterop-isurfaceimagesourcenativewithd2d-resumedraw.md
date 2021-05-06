@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D.ResumeDraw
-title: ISurfaceImageSourceNativeWithD2D::xaml (windows.ui.xaml.media.dxinterop.h)
+title: ISurfaceImageSourceNativeWithD2D::ResumeDraw (windows.ui.xaml.media.dxinterop.h)
 description: Resume the drawing operation.
 helpviewer_keywords: ["ISurfaceImageSourceNativeWithD2D interface [Windows Runtime]","ResumeDraw method","ISurfaceImageSourceNativeWithD2D.ResumeDraw","ISurfaceImageSourceNativeWithD2D.xaml","ISurfaceImageSourceNativeWithD2D::ResumeDraw","ISurfaceImageSourceNativeWithD2D::xaml","ResumeDraw","ResumeDraw method [Windows Runtime]","ResumeDraw method [Windows Runtime]","ISurfaceImageSourceNativeWithD2D interface","windows/ISurfaceImageSourceNativeWithD2D::ResumeDraw","winrt.isurfaceimagesourcenativewithd2d_resumedraw"]
 old-location: winrt\isurfaceimagesourcenativewithd2d_resumedraw.htm
@@ -45,7 +45,7 @@ api_name:
  - ISurfaceImageSourceNativeWithD2D.ResumeDraw
 ---
 
-# ISurfaceImageSourceNativeWithD2D::xaml
+# ISurfaceImageSourceNativeWithD2D::ResumeDraw (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description

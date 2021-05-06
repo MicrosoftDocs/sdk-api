@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSize
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSize (windows.foundation.h)
 description: Gets the Size value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetSize","GetSize method [Windows Runtime]","GetSize method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSize method","IPropertyValue.GetSize","IPropertyValue.IPropertyValue","IPropertyValue::GetSize","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSize","winrt.ipropertyvalue_getsize"]
 old-location: winrt\ipropertyvalue_getsize.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetSize
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSize (windows.foundation.h)
 
 
 ## -description

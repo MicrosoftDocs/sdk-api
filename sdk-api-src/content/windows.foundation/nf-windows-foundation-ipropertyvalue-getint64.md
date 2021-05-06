@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetInt64 (windows.foundation.h)
 description: Gets the signed 64-bit integer value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetInt64","GetInt64 method [Windows Runtime]","GetInt64 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetInt64 method","IPropertyValue.GetInt64","IPropertyValue.IPropertyValue","IPropertyValue::GetInt64","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetInt64","winrt.ipropertyvalue_getint64"]
 old-location: winrt\ipropertyvalue_getint64.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetInt64
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetInt64 (windows.foundation.h)
 
 
 ## -description
