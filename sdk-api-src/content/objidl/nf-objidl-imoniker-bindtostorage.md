@@ -160,7 +160,7 @@ Although none of the COM moniker classes call this method in their binding opera
 A client that can read the storage of the object its moniker identifies could also call this method.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation should locate the persistent storage for the object identified by the current moniker and return the desired interface pointer. Some types of monikers represent pseudo-objects, which are objects that do not have their own persistent storage. Such objects comprise some portion of the internal state of its containerâ€”as, for example, a range of cells in a spreadsheet. If your moniker class identifies this type of object, your implementation of <b>BindToStorage</b> should return the error MK_E_NOSTORAGE.
+Your implementation should locate the persistent storage for the object identified by the current moniker and return the desired interface pointer. Some types of monikers represent pseudo-objects, which are objects that do not have their own persistent storage. Such objects comprise some portion of the internal state of its container, for example, a range of cells in a spreadsheet. If your moniker class identifies this type of object, your implementation of <b>BindToStorage</b> should return the error MK_E_NOSTORAGE.
 
 If the bind context's <a href="/windows/desktop/api/objidl/ns-objidl-bind_opts">BIND_OPTS</a> structure specifies the BINDFLAGS_JUSTTESTEXISTENCE flag, your implementation has the option of returning <b>NULL</b> in <i>ppvObj</i> (although you can also ignore the flag and perform the complete binding operation).
 

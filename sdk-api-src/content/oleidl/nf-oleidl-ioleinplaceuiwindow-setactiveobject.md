@@ -86,7 +86,7 @@ An unexpected error has occurred.
 
 ## -remarks
 
-Generally, an embedded object should pass <b>NULL</b> for the <i>pszObjName</i> parameter (see Notes to Implementers below). However, if you are working in conjunction with a container that does display the name of the in-place active object in its title bar, then you should compose a string in the following form: &lt;<i>application name</i>&gt; â€“ &lt;<i>object short-type name</i>&gt;.
+Generally, an embedded object should pass <b>NULL</b> for the <i>pszObjName</i> parameter (see Notes to Implementers below). However, if you are working in conjunction with a container that does display the name of the in-place active object in its title bar, then you should compose a string in the following form: &lt;<i>application name</i>&gt; – &lt;<i>object short-type name</i>&gt;.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 <b>IOleInPlaceUIWindow::SetActiveObject</b> is called by the object to establish a direct communication link between itself and the document and frame windows.

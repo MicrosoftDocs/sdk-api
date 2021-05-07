@@ -60,7 +60,7 @@ The IID of the interface pointer that should be returned in <i>ppvSite</i>.
 
 ### -param ppvSite [out]
 
-Address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvSite</i> contains the requested interface pointer to the site last seen in <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>. The specific interface returned depends on the <i>riid</i> argumentâ€”in essence, the two arguments act identically to those in <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. If the appropriate interface pointer is available, the object must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on that pointer before returning successfully. If no site is available, or the requested interface is not supported, this method must *<i>ppvSite</i> to <b>NULL</b> and return a failure code.
+Address of pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvSite</i> contains the requested interface pointer to the site last seen in <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">SetSite</a>. The specific interface returned depends on the <i>riid</i> argument. In essence, the two arguments act identically to those in <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>. If the appropriate interface pointer is available, the object must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on that pointer before returning successfully. If no site is available, or the requested interface is not supported, this method must *<i>ppvSite</i> to <b>NULL</b> and return a failure code.
 
 ## -returns
 
@@ -97,7 +97,7 @@ There is a site, but it does not support the interface requested by <i>riid</i>.
 
 ## -remarks
 
-E_NOTIMPL is not allowedâ€”any object implementing this interface must be able to return the last site seen in <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a>.
+E_NOTIMPL is not allowed. Any object implementing this interface must be able to return the last site seen in <a href="/windows/desktop/api/ocidl/nf-ocidl-iobjectwithsite-setsite">IObjectWithSite::SetSite</a>.
 
 ## -see-also
 

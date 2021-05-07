@@ -60,7 +60,7 @@ Handle of the MCIWnd window.
 
 ### -param sz
 
-Pointer to a null-terminated string identifying the filename or MCI Device Names to open. Specify â€“1 for this parameter to display the Open dialog box.
+Pointer to a null-terminated string identifying the filename or MCI Device Names to open. Specify −1 for this parameter to display the Open dialog box.
 
 ### -param f
 
