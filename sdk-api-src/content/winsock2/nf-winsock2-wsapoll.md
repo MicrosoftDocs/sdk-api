@@ -263,6 +263,10 @@ The timeout argument specifies how long the function is to wait before returning
 
 <div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <b>WSAPoll</b> with the <i>timeout</i> parameter set to a negative number, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
+
+<div class="alert"><b>Note</b>  As of Windows 10 version 2004, when a TCP socket fails to connect, (POLLHUP \| POLLERR \| POLLWRNORM) is indicated. </div>
+<div> </div>
+
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 ## -see-also
