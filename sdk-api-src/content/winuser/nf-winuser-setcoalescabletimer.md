@@ -179,6 +179,8 @@ The timer identifier, <i>nIDEvent</i>, is specific to the associated window. Ano
 
 When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is used and   <b>SetCoalescableTimer</b>  behaves the same as <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>.
 
+Before using **SetCoalescableTimer** or other timer-related functions, it is recommended to set the **UOI_TIMERPROC_EXCEPTION_SUPPRESSION** flag to **false** through the **SetUserObjectInformationW** function, otherwise the application could behave unpredictably and could be vulnerable to security exploits. For more info, see <a href="/windows/win32/api/winuser/nf-winuser-setuserobjectinformationw">SetUserObjectInformationW</a>.
+
 ## -see-also
 
 <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Windows%208.1%20desktop%20samples/99647-Windows%208.1%20desktop%20samples/Coalescing%20timers%20sample/C%2B%2B">Coalescing timers sample</a>
