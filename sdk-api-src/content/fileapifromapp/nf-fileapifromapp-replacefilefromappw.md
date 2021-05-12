@@ -126,7 +126,7 @@ Reserved for future use.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](https://msdn.microsoft.com/en-us/library/ms679360\(v=vs.85\)). The following are possible error codes for this function.
+If the function fails, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md). The following are possible error codes for this function.
 
 <table>
 <colgroup>

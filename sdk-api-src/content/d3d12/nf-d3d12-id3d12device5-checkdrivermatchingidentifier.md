@@ -64,8 +64,8 @@ Identifier from the header of the serialized data to check with the driver. For 
 
 ## -returns
 
-The returned compatibility status. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Mt830385(v=VS.85).aspx">D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS</a>.
+The returned compatibility status. For more information, see <a href="../d3d12/ne-d3d12-d3d12_driver_matching_identifier_status.md">D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+<a href="../d3d12/nn-d3d12-id3d12device5.md">ID3D12Device5</a>

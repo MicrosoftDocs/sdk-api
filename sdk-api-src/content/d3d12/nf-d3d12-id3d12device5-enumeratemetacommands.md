@@ -71,4 +71,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an [HRESU
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
+<a href="../d3d12/nn-d3d12-id3d12device5.md">ID3D12Device5</a>

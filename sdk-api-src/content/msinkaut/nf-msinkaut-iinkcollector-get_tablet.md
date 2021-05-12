@@ -69,7 +69,7 @@ Accessing this property within certain message handlers can result in the underl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-Moves an existing file or a directory, including its children. The behavior of this function is identical to [**MoveFile**](https://msdn.microsoft.com/en-us/library/aa365239\(v=vs.85\)), except that this function adheres to the Universal Windows Platform app security model.
+Moves an existing file or a directory, including its children. The behavior of this function is identical to [**MoveFile**](../winbase/nf-winbase-movefile.md), except that this function adheres to the Universal Windows Platform app security model.
 
 
 ## -parameters

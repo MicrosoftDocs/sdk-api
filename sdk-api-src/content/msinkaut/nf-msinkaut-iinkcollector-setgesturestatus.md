@@ -169,7 +169,7 @@ For the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

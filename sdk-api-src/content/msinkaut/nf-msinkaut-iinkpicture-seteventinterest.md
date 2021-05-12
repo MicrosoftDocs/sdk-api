@@ -138,7 +138,7 @@ Use the <a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

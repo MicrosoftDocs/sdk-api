@@ -173,7 +173,7 @@ When the <i>extractFlags</i> parameter is <a href="/windows/desktop/api/msinkaut
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

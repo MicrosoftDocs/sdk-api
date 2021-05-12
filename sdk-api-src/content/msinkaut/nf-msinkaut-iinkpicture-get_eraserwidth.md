@@ -85,7 +85,7 @@ This property applies only when the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

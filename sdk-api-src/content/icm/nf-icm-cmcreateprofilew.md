@@ -78,7 +78,7 @@ If a CMM does not support **CMCreateProfileW**, Windows uses the default CMM to 
 
 The CMM should set all header fields to sensible defaults. This profile should be usable as the input profile in a transform.
 
-The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use [**GlobalFree**](https://msdn.microsoft.com/en-us/library/aa366579\(v=vs.85\)) to free the buffer.
+The calling application must free the buffer allocated by this function and pointed to by the *lpProfileData* parameter. Use [**GlobalFree**](../winbase/nf-winbase-globalfree.md) to free the buffer.
 
 ## -see-also
 

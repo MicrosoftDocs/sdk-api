@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifies the visual feedback behaviors available to <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a>.
+Identifies the visual feedback behaviors available to <a href="../winuser/nf-winuser-createsyntheticpointerdevice.md">CreateSyntheticPointerDevice</a>.
 
 ## -enum-fields
 

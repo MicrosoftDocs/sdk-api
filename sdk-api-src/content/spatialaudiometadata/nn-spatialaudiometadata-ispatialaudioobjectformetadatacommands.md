@@ -68,4 +68,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
+<a href="../spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase.md">ISpatialAudioObjectBase</a>

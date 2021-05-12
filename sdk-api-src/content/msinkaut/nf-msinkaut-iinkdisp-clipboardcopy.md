@@ -143,7 +143,7 @@ If an empty <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 

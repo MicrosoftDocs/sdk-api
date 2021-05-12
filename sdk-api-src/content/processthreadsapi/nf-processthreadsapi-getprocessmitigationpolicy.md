@@ -213,7 +213,7 @@ The <i>lpBuffer</i> parameter points to a <a href="/windows/desktop/api/winnt/ns
 Windows 10, version 1809 and above: The policy regarding isolation of side channels for the specified process.
 
 
-The <i>lpBuffer</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Mt832784(v=VS.85).aspx">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a> structure that specifies the policy flags for side channel isolation.
+The <i>lpBuffer</i> parameter points to a <a href="../winnt/ns-winnt-process_mitigation_side_channel_isolation_policy.md">PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY</a> structure that specifies the policy flags for side channel isolation.
 
 
 </td>

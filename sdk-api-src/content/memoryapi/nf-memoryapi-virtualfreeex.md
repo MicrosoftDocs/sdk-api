@@ -168,7 +168,7 @@ To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_
 </dl>
 </td>
 <td width="60%">
-Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832850(v=VS.85).aspx">Virtual2AllocFromApp</a>).
+Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using <a href="../memoryapi/nf-memoryapi-virtualalloc2.md">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832850(v=VS.85).aspx">Virtual2AllocFromApp</a>).
 
 To split a placeholder into two placeholders, specify <code>MEM_RELEASE | MEM_PRESERVE_PLACEHOLDER</code>.
 

@@ -71,5 +71,5 @@ Use <b>CoTaskMemFree</b> to free the string.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="../mfidl/nn-mfidl-imfnetcrossoriginsupport.md">IMFNetCrossOriginSupport</a>
 
