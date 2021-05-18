@@ -150,3 +150,5 @@ For an example, see <a href="/windows/desktop/winmsg/using-timers">Creating a Ti
 
 
 <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
+
+<a href="/windows/win32/api/winuser/nf-winuser-setcoalescabletimer">SetCoalescableTimer</a>
