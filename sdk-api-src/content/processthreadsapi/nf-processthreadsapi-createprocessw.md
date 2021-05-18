@@ -78,10 +78,12 @@ The string can specify the full path and file name of the module to execute or i
 
 The <i>lpApplicationName</i> parameter can be <b>NULL</b>. In that case, the module name must be the first white space–delimited token in the <i>lpCommandLine</i> string. If you are using a long file name that contains a space, use quoted strings to indicate where the file name ends and the arguments begin; otherwise, the file name is ambiguous. For example, consider the string "c:\program files\sub dir\program name". This string can be interpreted in a number of ways. The system tries to interpret the possibilities in the following order:
 
-<b>c:\program.exe</b>
-<b>c:\program files\sub.exe</b>
-<b>c:\program files\sub dir\program.exe</b>
-<b>c:\program files\sub dir\program name.exe</b>
+<ol>
+<li><b>c:\program.exe</b></li>
+<li><b>c:\program files\sub.exe</b></li>
+<li><b>c:\program files\sub dir\program.exe</b></li>
+<li><b>c:\program files\sub dir\program name.exe</b></li>
+</ol>
 If the executable module is a 16-bit application, <i>lpApplicationName</i> should be <b>NULL</b>, and the string pointed to by <i>lpCommandLine</i> should specify the executable module as well as its arguments.
 
 To run a batch file, you must start the command interpreter; set <i>lpApplicationName</i> to cmd.exe and set <i>lpCommandLine</i> to the following arguments: /c plus the name of the batch file.
