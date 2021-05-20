@@ -138,6 +138,11 @@ The following table lists the flags for the <b>dwFlags</b> member.
 <td>When received using <b>GetTouchInputInfo</b>, this input was not coalesced.</td>
 </tr>
 <tr>
+<td><b>TOUCHEVENTF_PEN</b></td>
+<td>0x0040</td>
+<td>The tuoch event came form the user's stylus device.</td>
+</tr>
+<tr>
 <td><b>TOUCHEVENTF_PALM</b></td>
 <td>0x0080</td>
 <td>The touch event came from the user's palm.</td>
