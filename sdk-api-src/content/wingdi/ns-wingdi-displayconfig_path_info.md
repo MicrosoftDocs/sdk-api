@@ -78,7 +78,7 @@ Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">Quer
 
 #### DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE
 
-Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path supports the virtual mode. Supported starting in Windows 10.
+Set by <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to indicate that the path supports the virtual mode (<-- this needs a reference link, or more explanation. Is this a reference to https://docs.microsoft.com/en-us/windows-hardware/drivers/display/gpu-virtual-memory-in-wddm-2-0, for example?). Supported starting in Windows 10.
 
 ## -see-also
 
