@@ -90,9 +90,15 @@ Specifies how to set the state of virtual mode support. If the <a href="/windows
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO
 
+**Need doc here -- there's no apparent page dedicated to DISPLAYCONFIG_GET_ADVANCED_COLOR_INFO either**.
+
 ### -field DISPLAYCONFIG_DEVICE_INFO_SET_ADVANCED_COLOR_STATE
 
+**Need doc here**.
+
 ### -field DISPLAYCONFIG_DEVICE_INFO_GET_SDR_WHITE_LEVEL
+
+**Need doc here -- there's no apparent page dedicated to DISPLAYCONFIG_DEVICE_INFO_GET_SDR_WHITE_LEVEL either**.
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32
 
