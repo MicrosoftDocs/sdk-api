@@ -58,9 +58,10 @@ The <b>GetDataFlow</b> method indicates whether the audio endpoint device is a r
 
 Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">EDataFlow</a> enumeration constants:
 
-eRender
-
-eCapture
+<ul>
+ <li>eRender</li>
+ <li>eCapture</li>
+</ul>
 
 The data-flow direction for a rendering device is eRender. The data-flow direction for a capture device is eCapture.
 
