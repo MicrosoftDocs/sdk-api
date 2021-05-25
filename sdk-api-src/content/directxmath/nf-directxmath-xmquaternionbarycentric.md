@@ -109,7 +109,7 @@ return Result;
 
 
 Note that Barycentric coordinates work for 'flat' surfaces but not for 'curved' ones. This function is therefore a bit of a work-around.
-        An alternative method for blending 3 quanterions is given by the following code:
+        An alternative method for blending 3 quaternions is given by the following code:
 
 
 ```

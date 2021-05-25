@@ -111,7 +111,7 @@ TAPI can use this operation to route certain classes of low-level line events to
 
 Call progress tones and/or messages get routed to the same place as media. For example, if audio signals are going to the phone, then so are busy signals (analog) or Q.931 messages indicating busy (digital).
 
-The service provider must determine whether the combinations of <i>dwSelect</i> and <i>dwTerminalModes </i>are legal.
+The service provider must determine whether the combinations of <i>dwSelect</i> and <i>dwTerminalModes</i> are legal.
 
 This operation can be called any time, even when a call is active on the given line device. This, for example, allows a user to switch from using the local phone set to another audio I/O device.
 

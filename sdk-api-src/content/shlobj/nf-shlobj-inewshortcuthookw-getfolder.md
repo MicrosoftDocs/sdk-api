@@ -72,5 +72,5 @@ The size of the buffer at <i>pszFolder</i>, in characters.
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, S_FALSE if no folder has been assigned, or an standard error code otherwise.
+Returns S_OK if successful, S_FALSE if no folder has been assigned, or a standard error code otherwise.
 

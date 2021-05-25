@@ -56,7 +56,7 @@ The <b>OnDemandRegisterNotification</b> function allows an application to regist
 
 ### -param callback [in]
 
-A pointer to a function of type O<b>ONDEMAND_NOTIFICATION_CALLBACK</b> to receive the notifications.
+A pointer to a function of type <b>ONDEMAND_NOTIFICATION_CALLBACK</b> to receive the notifications.
 
 ### -param callbackContext [in, optional]
 

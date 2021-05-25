@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::QueryInterface </b>method determines whether the DirectInputJoyConfig object supports a particular COM interface. If it does, the system increases the reference count for the object by 1, and the application can begin using that interface immediately. This method is part of the <b>IUnknown</b> interface inherited by DirectInputJoyConfig.
+The <b>IDirectInputJoyConfig8::QueryInterface </b> method determines whether the DirectInputJoyConfig object supports a particular COM interface. If it does, the system increases the reference count for the object by 1, and the application can begin using that interface immediately. This method is part of the <b>IUnknown</b> interface inherited by DirectInputJoyConfig.
 
 ## -parameters
 

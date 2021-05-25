@@ -60,7 +60,7 @@ Type: <b>UINT</b>
 
 Call the method with this parameter starting at 0 to
 				begin enumerating.  If this parameter is -1, the
-        <i>pdwBandID</i>parameter is ignored and this method returns the count of the
+       <i>pdwBandID</i> parameter is ignored and this method returns the count of the
 				bands in the band site.
 
 ### -param pdwBandID [out]

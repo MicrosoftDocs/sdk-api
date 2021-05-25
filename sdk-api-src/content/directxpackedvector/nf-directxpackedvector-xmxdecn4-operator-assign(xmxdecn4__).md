@@ -58,7 +58,7 @@ Assigns the vector component data from one instance of <code>XMXDECN4</code> to 
 
 ### -param unnamedParam1
 
-Instance of <code>XMXDECN4</code> used to update the current <code>XMXDECN4</code>structure.
+Instance of <code>XMXDECN4</code> used to update the current <code>XMXDECN4</code> structure.
 
 ## -returns
 

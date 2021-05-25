@@ -59,7 +59,7 @@ The size of the **BYTE** array provided in the *initData* parameter.
 
 ## -returns
 
-Rerturns S_OK on success.
+Returns S_OK on success.
 
 ## -remarks
 

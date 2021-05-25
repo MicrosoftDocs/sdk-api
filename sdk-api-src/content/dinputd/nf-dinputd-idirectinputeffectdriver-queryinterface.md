@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::QueryInterface </b>method determines whether the DirectInputEffectDriver object supports a particular COM interface. If it does, the system increases the reference count for the object by 1, and the application can begin using that interface immediately. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver.
+The <b>IDirectInputEffectDriver::QueryInterface </b> method determines whether the DirectInputEffectDriver object supports a particular COM interface. If it does, the system increases the reference count for the object by 1, and the application can begin using that interface immediately. This method is part of the <b>IUnknown</b> interface inherited by DirectInputEffectDriver.
 
 ## -parameters
 

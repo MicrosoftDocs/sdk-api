@@ -99,4 +99,4 @@ Prior to Windows 8, a visual style can be turned off in Control Panel, so that a
  In Windows 8, it is not possible to turn off visual styles.
 
 
-Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.
+Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects constructors. This may cause invalid return values.

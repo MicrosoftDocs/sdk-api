@@ -68,9 +68,9 @@ A port reservation token for a block of TCP or UDP ports.
 
 ## -remarks
 
-The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is supported on Windows Vistaand later.
+The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is supported on Windows Vista and later.
 
-The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL when acquring a runtime reservation for a block of TCP or UDP ports.
+The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL when acquiring a runtime reservation for a block of TCP or UDP ports.
 
 ## -see-also
 

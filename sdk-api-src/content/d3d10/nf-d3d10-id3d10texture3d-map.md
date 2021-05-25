@@ -59,7 +59,7 @@ Get a pointer to the data contained in a subresource, and deny GPU access to tha
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Index number of the subresource. See <a href="/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a>for more details.
+Index number of the subresource. See <a href="/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
 ### -param MapType [in]
 

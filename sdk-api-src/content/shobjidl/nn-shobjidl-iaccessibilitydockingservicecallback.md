@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IAccessibilityDockingServiceCallback
 title: IAccessibilityDockingServiceCallback (shobjidl.h)
-description: Receives Acessibility Window Docking events.
+description: Receives Accessibility Window Docking events.
 helpviewer_keywords: ["IAccessibilityDockingServiceCallback","IAccessibilityDockingServiceCallback interface [COM]","IAccessibilityDockingServiceCallback interface [COM]","described","com.iaccessibilitydockingservicecallback","shobjidl/IAccessibilityDockingServiceCallback"]
 old-location: com\iaccessibilitydockingservicecallback.htm
 tech.root: com
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Receives Acessibility Window Docking events.
+Receives Accessibility Window Docking events.
 
 ## -inheritance
 

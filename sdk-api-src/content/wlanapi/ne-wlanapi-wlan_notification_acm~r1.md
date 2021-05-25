@@ -102,7 +102,7 @@ The <b>pData</b> member of the <a href="/previous-versions/windows/desktop/legac
 
 A connection attempt has failed.
 
-A connection consists of one or more connection attempts. An application may receive zero or more <b>wlan_notification_acm_connection_attempt_fail </b>notifications between receiving the <b>wlan_notification_acm_connection_start</b> notification and the <b>wlan_notification_acm_connection_complete</b> notification.
+A connection consists of one or more connection attempts. An application may receive zero or more <b>wlan_notification_acm_connection_attempt_fail </b> notifications between receiving the <b>wlan_notification_acm_connection_start</b> notification and the <b>wlan_notification_acm_connection_complete</b> notification.
 
 The <b>pData</b> member of the <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that failed.
 

@@ -87,7 +87,7 @@ Providers that support the use of
 <li><b>VT_R8</b></li>
 <li><b>VT_BOOL</b></li>
 <li><b>VT_BSTR</b></li>
-<li><b>VT_UNKNOW</b>N</li>
+<li><b>VT_UNKNOWN</b></li>
 <li>Any of the above combined with <b>VT_ARRAY</b></li>
 </ul>
 <div class="alert"><b>Note</b>  Only objects that support 

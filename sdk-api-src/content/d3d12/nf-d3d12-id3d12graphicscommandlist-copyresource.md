@@ -58,13 +58,13 @@ Copies the entire contents of the source resource to the destination resource.
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>interface that represents the destination resource.
+A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface that represents the destination resource.
 
 ### -param pSrcResource [in]
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>interface that represents the source resource.
+A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface that represents the source resource.
 
 ## -remarks
 
@@ -77,7 +77,7 @@ A pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID
 The debug layer will issue an error if the source subresource is not in the  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_COPY_SOURCE</a> state.
           
 
-The debug layer will issue an error if the destination subresource is not in the  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_COPY_DEST </a>state.
+The debug layer will issue an error if the destination subresource is not in the  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_COPY_DEST </a> state.
           
 
 This method has a few restrictions designed for improving performance. For instance, the source and destination resources:
@@ -86,7 +86,7 @@ This method has a few restrictions designed for improving performance. For insta
 <li>Must be different resources.</li>
 <li>Must be the same type.</li>
 <li>Must have identical dimensions (including width, height, depth, and size as appropriate).</li>
-<li>Must have compatible <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
+<li>Must have compatible <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to a DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
           </li>
 <li>Can't be currently mapped.</li>
 </ul>

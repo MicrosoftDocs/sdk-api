@@ -83,7 +83,7 @@ Value of the w-coordinate of the vector, the <b>w</b> member of the new
 ## -remarks
 
 The magnitude of each argument to the constructor will be clamped to the range supported
-	    by an 16-bit unsigned integer [0.0, 65535.0].
+	    by a 16-bit unsigned integer [0.0, 65535.0].
 	
 
 The following pseudocode demonstrates the operation of this constructor:

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates a <b>Font::Font</b> object indirectly from a Windows Graphics Device Interface (GDI) logical font by using a handle to a GDI<b>LOGFONT</b> structure.
+Creates a <b>Font::Font</b> object indirectly from a Windows Graphics Device Interface (GDI) logical font by using a handle to a GDI <b>LOGFONT</b> structure.
 
 ## -parameters
 

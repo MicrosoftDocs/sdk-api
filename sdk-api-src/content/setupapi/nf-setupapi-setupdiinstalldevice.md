@@ -112,7 +112,7 @@ Copy the INF file to the system INF directory.
 <li>
 Possibly perform the other file operations, based on flag settings in the device installation parameters. 
 
-If the DI_NOFILECOPY flag and the DI_NOVCP flag are <i>clear</i>, perform any file operations specified in the <i>DDInstall </i>section. If the DI_NOVCP flag is set, queue any file operations. 
+If the DI_NOFILECOPY flag and the DI_NOVCP flag are <i>clear</i>, perform any file operations specified in the <i>DDInstall </i> section. If the DI_NOVCP flag is set, queue any file operations. 
 
 If the DI_NOFILECOPY flag is set, do not copy the files. This flag might be set if, for example, a <a href="/windows-hardware/drivers/install/dif-installdevicefiles">DIF_INSTALLDEVICEFILES</a> operation was already performed for this device installation. 
 

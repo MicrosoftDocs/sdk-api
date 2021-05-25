@@ -71,7 +71,7 @@ When creating new ports, this interface is supported by the
 <b>HNetCfg.FWOpenPort</b> COM object. 
 
 For reading or modifying existing ports,
-instances of this interface are retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>collection. 
+instances of this interface are retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a> collection. 
 
 All configuration changes take effect immediately.
 

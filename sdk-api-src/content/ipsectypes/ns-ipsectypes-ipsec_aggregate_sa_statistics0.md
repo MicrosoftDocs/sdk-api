@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>IPSEC_AGGREGATE_SA_STATISTICS0</b> structurestores aggregate IPsec kernel security association (SA) statistics.
+The <b>IPSEC_AGGREGATE_SA_STATISTICS0</b> structure stores aggregate IPsec kernel security association (SA) statistics.
 
 ## -struct-fields
 

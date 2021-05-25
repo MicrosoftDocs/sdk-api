@@ -70,7 +70,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully and the object's transactional updates can now be committed.
+The method completed successfully and the object's transactional updates can now be committed.
 
 </td>
 </tr>

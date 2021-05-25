@@ -61,7 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleOutputStream</b> int
 
 ## -remarks
 
-A writeable byte stream can optionally implement this interface. 
+A writable byte stream can optionally implement this interface. 
 
 This interface enables the caller to send media samples to the byte stream for writing, instead of using the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">IMFByteStream::BeginWrite</a> method to write blobs of untyped data. The byte stream can use the information contained in the media sample to optimize how it writes the data. For example, a byte stream that sends media data over a network can optimize based on the time stamp.
 

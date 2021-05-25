@@ -69,7 +69,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method is called whe the presentation clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called, with the following exception: If the clock is paused and <b>Start</b> is called with the value <b>PRESENTATION_CURRENT_POSITION</b>, <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> is called instead of <b>OnClockStart</b>.
+This method is called when the presentation clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">IMFPresentationClock::Start</a> method is called, with the following exception: If the clock is paused and <b>Start</b> is called with the value <b>PRESENTATION_CURRENT_POSITION</b>, <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart">IMFClockStateSink::OnClockRestart</a> is called instead of <b>OnClockStart</b>.
 
 The clock notifies the presentation time source by calling the time source's <b>OnClockStart</b> method. This call occurs synchronously within the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start">Start</a> method. If the time source returns an error from <b>OnClockStart</b>, the presentation clock's <b>Start</b> method returns an error and the state change does not take place.
 

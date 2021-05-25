@@ -320,11 +320,11 @@ Indicates a SID that matches an untrusted label.
 
 ### -field WinLowLabelSid
 
-Indicates a SID that matches an low level of trust label.
+Indicates a SID that matches a low level of trust label.
 
 ### -field WinMediumLabelSid
 
-Indicates a SID that matches an medium level of trust label.
+Indicates a SID that matches a medium level of trust label.
 
 ### -field WinHighLabelSid
 

@@ -60,7 +60,7 @@ Translates the properties of a given MailUser object into a
 
 Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>interface that 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface that 
 				specifies the address book.
 
 ### -param ulFlags

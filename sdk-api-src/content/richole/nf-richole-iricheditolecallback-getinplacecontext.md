@@ -64,7 +64,7 @@ The address of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacefra
 
 Type: <b>LPOLEINPLACEUIWINDOW*</b>
 
-The address of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a>method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
+The address of the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a> interface that represents the document window of the rich edit control client. An interface need not be returned if the frame and document windows are the same. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the reference count. The rich edit control releases the interface when it is no longer needed.
 
 ### -param lpFrameInfo
 

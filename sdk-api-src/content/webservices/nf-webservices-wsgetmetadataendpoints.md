@@ -124,7 +124,7 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-This property may be used in <b>WS_METADATA_STATE_CREATED</b>or <b>WS_METADATA_STATE_RESOLVED</b> state.
+This property may be used in <b>WS_METADATA_STATE_CREATED</b> or <b>WS_METADATA_STATE_RESOLVED</b> state.
             
 
 This function will fail if there are missing metadata documents.

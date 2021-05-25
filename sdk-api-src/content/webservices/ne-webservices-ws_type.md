@@ -1277,8 +1277,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the chars field to <b>NULL</b> and specifying a length of 0.
-                    A nil string is distinquished from an empty string based on whether or not the chars field 
-                    is <b>NULL</b> or not when the length is zero.
+                    A nil string is distinguished from an empty string based on whether or not the chars field 
+                    is <b>NULL</b> when the length is zero.
                 
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
@@ -1436,8 +1436,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.  
-                    A nil array is distinquished from an empty array based on whether or not the bytes field is 
-                    <b>NULL</b> or not when the length is zero.
+                    A nil array is distinguished from an empty array based on whether or not the bytes field is 
+                    <b>NULL</b> when the length is zero.
                 
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
@@ -1515,8 +1515,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil value is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.  
-                    A nil string is distinquished from an empty string based on whether or not the bytes field is 
-                    <b>NULL</b> or not when the length is zero.
+                    A nil string is distinguished from an empty string based on whether or not the bytes field is 
+                    <b>NULL</b> when the length is zero.
                 
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> may be specified for this type.
@@ -1715,7 +1715,7 @@ When used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_field
 <li>
 When used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, each
                         of the <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>s that are serialized in the array
-                        has the same convention as with <b>WS_ELEMENT_FIELD_MAPPING</b>described above (each WS_XML_BUFFER represents a single element
+                        has the same convention as with <b>WS_ELEMENT_FIELD_MAPPING</b> described above (each WS_XML_BUFFER represents a single element
                         in the XML content).
                     
 
@@ -1819,8 +1819,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b> | <b>WS_FIELD_NILLABLE_ITEM</b></li>
 </ul>
 A nil string is represented by setting the chars field to <b>NULL</b> and specifying a length of 0.
-                    A nil string is distinquished from an empty string based on whether or not the chars field is
-                    <b>NULL</b> or not (in both cases the length is zero).
+                    A nil string is distinguished from an empty string based on whether or not the chars field is
+                    <b>NULL</b> (in both cases the length is zero).
                 
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
@@ -1892,8 +1892,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 </ul>
 A nil string is represented by setting the bytes field to <b>NULL</b> and specifying a length of 0.
-                    A nil string is distinquished from an empty string based on whether or not the bytes field is
-                    <b>NULL</b> or not (in both cases the length is zero).
+                    A nil string is distinguished from an empty string based on whether or not the bytes field is
+                    <b>NULL</b> (in both cases the length is zero).
                 
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
@@ -1962,8 +1962,8 @@ This type can be used with the following <a href="/windows/win32/api/webservices
 <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_NILLABLE</a> | <b>WS_FIELD_OPTIONAL</b></li>
 </ul>
 A nil array is represented by setting the array pointer field to <b>NULL</b> and specifying a length of 0.
-                    A nil array is distinquished from an empty array based on whether or not the array pointer field is
-                    <b>NULL</b> or not (in both cases the length is zero).
+                    A nil array is distinguished from an empty array based on whether or not the array pointer field is
+                    <b>NULL</b> (in both cases the length is zero).
                 
 
 This type does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
@@ -2349,7 +2349,7 @@ This type can be used with the following <a href="/windows/desktop/api/webservic
 <li>If <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_POINTER</a> is not specified, then the field will
                         be set to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a> if allowed for the type and 
                         specified, otherwise it will be set to all zeros.  The size of the field is specified as part of
-                        the <a href="/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a>.  If a <b>WS_VOID_DESCRIPTION</b>is not specified, the field is interpreted as being size 0.
+                        the <a href="/windows/desktop/api/webservices/ns-webservices-ws_void_description">WS_VOID_DESCRIPTION</a>.  If a <b>WS_VOID_DESCRIPTION</b> is not specified, the field is interpreted as being size 0.
                     </li>
 </ul>
 </li>
@@ -2617,7 +2617,7 @@ Many of the <b>WS_TYPE</b>s have a corresponding type description structure
                 type.
             
 
-For example, the <b>WS_INT32_TYPE</b> has a <a href="/windows/desktop/api/webservices/ns-webservices-ws_int32_description">WS_INT32_DESCRIPTION</a>structure which allows for constraints on the deserialized values.  This is an optional
+For example, the <b>WS_INT32_TYPE</b> has a <a href="/windows/desktop/api/webservices/ns-webservices-ws_int32_description">WS_INT32_DESCRIPTION</a> structure which allows for constraints on the deserialized values.  This is an optional
                 type description (if not specified, the full 32-bit integer space is allowed).
             
 

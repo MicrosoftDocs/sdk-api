@@ -62,7 +62,7 @@ The string to convert.
 
 ### -param ppList [out]
 
- The result of the conversion: a list of the key strokes required to create the string specied by <i>lpstr</i>.
+ The result of the conversion: a list of the key strokes required to create the string specified by <i>lpstr</i>.
 
 ## -returns
 

@@ -83,7 +83,7 @@ The gamma table's red, green, and blue values are interleaved together. Each gam
 
 </td>
 <td>
-The red, green, and blue tables are packed separately; that is, the entire red table is followed by the entire green table, which is followed by the entire blue table. Individual entries are 1 byte each, making each subtable a total of <i>GammaTableEntries </i>bytes in length.
+The red, green, and blue tables are packed separately; that is, the entire red table is followed by the entire green table, which is followed by the entire blue table. Individual entries are 1 byte each, making each subtable a total of <i>GammaTableEntries </i> bytes in length.
 
 </td>
 </tr>

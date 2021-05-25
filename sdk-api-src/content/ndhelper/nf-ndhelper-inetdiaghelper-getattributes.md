@@ -144,7 +144,7 @@ Helper Class Extensions may return HRESULTS that are specific to the failures en
 
 This method is not required when building a Helper Class Extension.
 
-During the process of diagnosis and repair, a helper class may optionally return attributes to NDF that improve NDF's handling of the diagnosis.  The predefined attributes that can be retruned to NDF are as follows.
+During the process of diagnosis and repair, a helper class may optionally return attributes to NDF that improve NDF's handling of the diagnosis.  The predefined attributes that can be returned to NDF are as follows.
 
 
 
@@ -156,7 +156,7 @@ During the process of diagnosis and repair, a helper class may optionally return
 </tr>
 <tr>
 <td width="40%">
-<a id="werperameter__Type__AT_UINT32_"></a><a id="werperameter__type__at_uint32_"></a><a id="WERPERAMETER__TYPE__AT_UINT32_"></a>werperameter (Type: AT_UINT32)
+<a id="werperameter__Type__AT_UINT32_"></a><a id="werperameter__type__at_uint32_"></a><a id="WERPERAMETER__TYPE__AT_UINT32_"></a> werperameter (Type: AT_UINT32)
 
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ When diagnosis fails, an optional attribute for additional helper class specific
 </tr>
 <tr>
 <td width="40%">
-<a id="werfile__Type__AT_STRING_"></a><a id="werfile__type__at_string_"></a><a id="WERFILE__TYPE__AT_STRING_"></a>werfile (Type: AT_STRING)
+<a id="werfile__Type__AT_STRING_"></a><a id="werfile__type__at_string_"></a><a id="WERFILE__TYPE__AT_STRING_"></a> werfile (Type: AT_STRING)
 
 </td>
 <td width="60%">
@@ -176,7 +176,7 @@ An optional attribute for adding helper class-specific files to Windows Error Re
 </tr>
 <tr>
 <td width="40%">
-<a id="rootcauseid__Type__AT_GUID_"></a><a id="rootcauseid__type__at_guid_"></a><a id="ROOTCAUSEID__TYPE__AT_GUID_"></a>rootcauseid (Type: AT_GUID)
+<a id="rootcauseid__Type__AT_GUID_"></a><a id="rootcauseid__type__at_guid_"></a><a id="ROOTCAUSEID__TYPE__AT_GUID_"></a> rootcauseid (Type: AT_GUID)
 
 </td>
 <td width="60%">

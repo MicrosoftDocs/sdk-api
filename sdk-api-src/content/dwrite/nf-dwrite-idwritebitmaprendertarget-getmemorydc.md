@@ -76,7 +76,7 @@ memoryHdc = g_pBitmapRenderTarget->GetMemoryDC();
 ```
 
 
-The HDC returned here is still owned by the bitmap render targer object and should not be released or deleted by the client.
+The HDC returned here is still owned by the bitmap render target object and should not be released or deleted by the client.
 
 ## -see-also
 

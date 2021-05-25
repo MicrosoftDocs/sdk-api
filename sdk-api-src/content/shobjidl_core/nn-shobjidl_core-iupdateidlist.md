@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl_core.IUpdateIDList
 title: IUpdateIDList (shobjidl_core.h)
-description: Provides a method to update the ITEMIDLIST of the child of an folder object.
+description: Provides a method to update the ITEMIDLIST of the child of a folder object.
 helpviewer_keywords: ["IUpdateIDList","IUpdateIDList interface [Windows Shell]","IUpdateIDList interface [Windows Shell]","described","_shell_IUpdateIDList","shell.IUpdateIDList","shobjidl_core/IUpdateIDList"]
 old-location: shell\IUpdateIDList.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides a method to update the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the child of an folder object.
+Provides a method to update the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> of the child of a folder object.
 
 ## -inheritance
 

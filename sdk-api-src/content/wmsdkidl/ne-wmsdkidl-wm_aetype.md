@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WM_AETYPE </b>enumeration specifies the permissions for an entry in an IP address access list.
+The <b>WM_AETYPE </b> enumeration specifies the permissions for an entry in an IP address access list.
 
 ## -enum-fields
 

@@ -53,7 +53,7 @@ api_name:
 Flushes all accumulated message body data that has been written.
             
 
-When message uses <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or XML Writerthe data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
+When message uses <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or XML Writer, the data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
                 I/O.
             
 

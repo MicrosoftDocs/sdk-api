@@ -63,7 +63,7 @@ Instance of <code>XMUINT3</code> used to update the current <code>XMUINT3</code>
 
 ## -returns
 
-The current instance of <code>XMUINT3</code> whose vector component data has been updated to match those of the <code>XMUINT3</code> instance specified by the <b>UInt3</b>argument.
+The current instance of <code>XMUINT3</code> whose vector component data has been updated to match those of the <code>XMUINT3</code> instance specified by the <b>UInt3</b> argument.
 
 ## -see-also
 

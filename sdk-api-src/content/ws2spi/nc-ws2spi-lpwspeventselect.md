@@ -334,7 +334,7 @@ A service providers should record *only* an FD_CLOSE network event to indicate c
 
 The FD_QOS or FD_GROUP_QOS network event is recorded when there has been a change to any field in the flow spec associated with socket *s*, or the socket group that *s* belongs to, respectively. This change must be made available to Windows Sockets SPI clients via the [LPWSPIoctl](./nc-ws2spi-lpwspioctl.md) function with SIO_GET_QOS and/or SIO_GET_GROUP_QOS to retrieve the current QOS for socket *s*, or for the socket group *s* belongs to, respectively.
 
-The FD_ROUTING_INTERFACE_CHANGE nework event is recorded when the local interface that should be used to reach the destination specified in [WSAIoctl](../winsock2/nf-winsock2-wsaioctl.md) with SIO_ROUTING_INTERFACE_CHANGE changes *after* such IOCTL has been issued.
+The FD_ROUTING_INTERFACE_CHANGE network event is recorded when the local interface that should be used to reach the destination specified in [WSAIoctl](../winsock2/nf-winsock2-wsaioctl.md) with SIO_ROUTING_INTERFACE_CHANGE changes *after* such IOCTL has been issued.
 
 The FD_ADDRESS_LIST_CHANGE network event is recorded when the list of addresses of sockets' protocol family to which the Windows Sockets SPI client can bind changes *after* [WSAIoctl](../winsock2/nf-winsock2-wsaioctl.md) with SIO_ADDRESS_LIST_CHANGE has been issued.
 

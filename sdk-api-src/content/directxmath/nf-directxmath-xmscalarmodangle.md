@@ -60,7 +60,7 @@ Computes an angle between -XM_PI and XM_PI.
 
 ## -returns
 
-Returns an angle greater than or equal to -XM_PI and less than XM_PI that is congruent to <i>Value</i>modulo 2pi.
+Returns an angle greater than or equal to -XM_PI and less than XM_PI that is congruent to <i>Value</i> modulo 2pi.
 
 ## -remarks
 

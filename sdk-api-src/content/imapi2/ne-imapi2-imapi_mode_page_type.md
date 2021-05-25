@@ -95,7 +95,7 @@ The mode page contains legacy device capabilities. These are superseded by the f
 
 ## -remarks
 
-Note that the range of mode page type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multmedia Commands - 5 (MMC) specification. For a complete definition of each feature, see Mode Parameters for Multi-Media Devices in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
+Note that the range of mode page type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multimedia Commands - 5 (MMC) specification. For a complete definition of each feature, see Mode Parameters for Multi-Media Devices in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 ## -see-also
 

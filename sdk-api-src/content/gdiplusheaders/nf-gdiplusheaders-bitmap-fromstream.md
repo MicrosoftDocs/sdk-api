@@ -61,7 +61,7 @@ The <b>Bitmap::FromStream</b> method creates a
 Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 Pointer to an 
-					<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>COMCOM interface. The implementation of 
+					<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> COM interface. The implementation of 
 					IStream must include the 
 					<a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>, 
 					<b>Read</b>, and 

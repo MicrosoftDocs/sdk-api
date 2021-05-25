@@ -110,7 +110,7 @@ Returned if one of the following occurs:
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if either an IPv4 or IPv6 stack is not present on the local computer but  either an IPv4 or IPv6 address was specified by<i>destIPAddr</i>.
+The request is not supported. This error is returned if either an IPv4 or IPv6 stack is not present on the local computer but either an IPv4 or IPv6 address was specified by <i>destIPAddr</i>.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ This method was called after registering for <a href="/windows/desktop/api/netli
 
 ## -remarks
 
-This method must be called before <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. Once <b>IConnectionPoint::Advise</b> is called, this method will not complete successfully until last sink calls <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>. However, this method can be called multiple times prior to the call to<b>IConnectionPoint::Advise</b>.
+This method must be called before <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">IConnectionPoint::Advise</a>. Once <b>IConnectionPoint::Advise</b> is called, this method will not complete successfully until last sink calls <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">IConnectionPoint::UnAdvise</a>. However, this method can be called multiple times prior to the call to <b>IConnectionPoint::Advise</b>.
 
  If a list of destination addresses indicated by <i>pDestIPAddrList</i>  contains duplicate addresses, only one of each will be used to notify cost changes. Callers can clear a list of destinations by calling this function with <i>length</i> set to 0, <i>destIPAddrList</i> set NULL, and <i>bAppend</i> set FALSE.
 

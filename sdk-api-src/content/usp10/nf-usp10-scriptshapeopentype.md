@@ -161,7 +161,7 @@ For the <i>rpRangeProperties</i> parameter, the <a href="/windows/desktop/api/us
 <li>Spans of text sharing particular properties tend to "nest," and nested spans can share <a href="/windows/desktop/api/usp10/ns-usp10-opentype_feature_record">OPENTYPE_FEATURE_RECORD</a> information. For example, in the illustration below:<ul>
 <li>The rows of numbers at the top represent ranges, items, and runs, respectively.</li>
 <li>Each span labeled here with a letter represents a single OpenType feature. The features that fall into each range are stored in the <a href="/windows/desktop/api/usp10/ns-usp10-opentype_feature_record">OPENTYPE_FEATURE_RECORD</a> array of that range.</li>
-<li>For each range, the array of <a href="/windows/desktop/api/usp10/ns-usp10-opentype_feature_record">OPENTYPE_FEATURE_RECORD</a>structures corresponds to the letters for the spans that contain that range.</li>
+<li>For each range, the array of <a href="/windows/desktop/api/usp10/ns-usp10-opentype_feature_record">OPENTYPE_FEATURE_RECORD</a> structures corresponds to the letters for the spans that contain that range.</li>
 <li>In this illustration, range 2 is indirectly associated with the <a href="/windows/desktop/api/usp10/ns-usp10-opentype_feature_record">OPENTYPE_FEATURE_RECORD</a> structures for spans A, B, and C. Range 4 is associated only with the structures for spans A and D.</li>
 </ul>
 </li>

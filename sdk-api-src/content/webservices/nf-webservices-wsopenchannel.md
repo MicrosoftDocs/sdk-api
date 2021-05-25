@@ -403,7 +403,7 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-If the open is successful, then the channel must be closed using <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a>before it can be freed.
+If the open is successful, then the channel must be closed using <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> before it can be freed.
             
 
 Use <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> to create the channel.
@@ -413,7 +413,7 @@ Once a channel has been opened to an endpoint, then all communication
                 occurs with that endpoint.
             
 
-The endpoint address and it's contents are not required after the 
+The endpoint address and its contents are not required after the 
                 function returns, even if the function is invoked asynchronously 
                 (for example, it can safely be declared on the stack).
             

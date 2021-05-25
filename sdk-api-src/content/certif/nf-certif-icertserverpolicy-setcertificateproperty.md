@@ -99,7 +99,7 @@ The certificate is not valid after the given date.
 <td width="60%">
  Set this property to 0x00000400 to prevent the request from being persisted in the CA database.
 
-<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateproperty">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
+<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-getcertificateproperty">GetCertificateProperty</a> when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
 <div> </div>
 <b>Windows Storage Server 2003:  </b>This field is not supported.
 

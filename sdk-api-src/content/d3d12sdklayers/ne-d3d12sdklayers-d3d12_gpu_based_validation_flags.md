@@ -60,7 +60,7 @@ Default behavior; resource states, descriptors, and descriptor tables are all va
 
 ### -field D3D12_GPU_BASED_VALIDATION_FLAGS_DISABLE_STATE_TRACKING
 
-When set, GPU-based validation does not perform resource state validation which greatly reduces the performance cost of GPU-based validtion. Descriptors and descriptor heaps are still validated.
+When set, GPU-based validation does not perform resource state validation which greatly reduces the performance cost of GPU-based validation. Descriptors and descriptor heaps are still validated.
 
 ## -remarks
 

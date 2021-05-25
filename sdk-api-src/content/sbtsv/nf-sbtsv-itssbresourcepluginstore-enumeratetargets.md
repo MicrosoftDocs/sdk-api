@@ -77,7 +77,7 @@ The number of targets retrieved.
 
 ### -param pVal [out]
 
-Pointer to the retrieved <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>objects.
+Pointer to the retrieved <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a> objects.
 
 ## -returns
 

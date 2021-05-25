@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetComponentTag
 title: IDvbDataBroadcastDescriptor::GetComponentTag (dvbsiparser.h)
-description: Gets the component tag from a Digital Video Broadcast (DVB) data broadcast descriptor. The component tag identifies a compoment stream within the service.
+description: Gets the component tag from a Digital Video Broadcast (DVB) data broadcast descriptor. The component tag identifies a component stream within the service.
 helpviewer_keywords: ["GetComponentTag","GetComponentTag method [Microsoft TV Technologies]","GetComponentTag method [Microsoft TV Technologies]","IDvbDataBroadcastDescriptor interface","IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies]","GetComponentTag method","IDvbDataBroadcastDescriptor.GetComponentTag","IDvbDataBroadcastDescriptor::GetComponentTag","dvbsiparser/IDvbDataBroadcastDescriptor::GetComponentTag","mstv.idvbdatabroadcastdescriptor_getcomponenttag"]
 old-location: mstv\idvbdatabroadcastdescriptor_getcomponenttag.htm
 tech.root: mstv
@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Gets the component tag from a Digital Video Broadcast (DVB) data broadcast descriptor.
-   The component tag identifies a compoment stream within the service.
+   The component tag identifies a component stream within the service.
 
 ## -parameters
 

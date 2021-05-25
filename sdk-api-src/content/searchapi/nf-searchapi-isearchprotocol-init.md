@@ -64,7 +64,7 @@ Pointer to a <a href="/windows/desktop/api/searchapi/ns-searchapi-timeout_info">
 
 Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a>*</b>
 
-Pointer to an <a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a>within the filter host.
+Pointer to an <a href="/windows/desktop/api/searchapi/nn-searchapi-iprotocolhandlersite">IProtocolHandlerSite</a> interface that enables protocol handlers to access <a href="/windows-hardware/test/hlk/api/ifilter-interface">IFiltear</a> within the filter host.
 
 ### -param pProxyInfo [in]
 

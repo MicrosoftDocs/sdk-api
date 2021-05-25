@@ -202,7 +202,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">C
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method uses a GDI<b>COLORREF</b> value to set the <b>ARGB</b> value of this <b>Color</b> object.
+The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method uses a GDI <b>COLORREF</b> value to set the <b>ARGB</b> value of this <b>Color</b> object.
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setvalue">C
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a> method converts this <b>Color</b> object's <b>ARGB</b> value to a GDI<b>COLORREF</b> value.
+The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a> method converts this <b>Color</b> object's <b>ARGB</b> value to a GDI <b>COLORREF</b> value.
 
 </td>
 </tr>

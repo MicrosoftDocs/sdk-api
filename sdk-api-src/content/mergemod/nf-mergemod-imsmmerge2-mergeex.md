@@ -84,7 +84,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-There system ran out of memory and could not complete the operation.
+The system ran out of memory and could not complete the operation.
 
 </td>
 </tr>

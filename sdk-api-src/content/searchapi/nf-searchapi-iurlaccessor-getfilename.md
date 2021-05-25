@@ -73,7 +73,7 @@ Size in
 Type: <b>DWORD*</b>
 
 Receives a pointer to the number of 
-           <b>TCHAR</b><b>s</b>written to <b>wszFileName</b>, not including
+           <b>TCHAR</b><b>s</b> written to <b>wszFileName</b>, not including
                 <b>NULL</b>.
 
 ## -returns

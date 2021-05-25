@@ -107,7 +107,7 @@ The caller does not have sufficient backup privileges or is not an administrator
 </dl>
 </td>
 <td width="60%">
-<i>ppAsync</i>does not point to a valid pointer; that is, it is <b>NULL</b>.
+<i>ppAsync</i> does not point to a valid pointer; that is, it is <b>NULL</b>.
 
 </td>
 </tr>

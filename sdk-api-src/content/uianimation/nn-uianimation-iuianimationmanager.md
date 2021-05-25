@@ -66,7 +66,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationManager</b> inter
 A single instance of <b>IUIAnimationManager</b> is typically used to compose, schedule, and manage all animations for a client application.
 
 
-<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>, <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>, and <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>are the primary components for building animations.
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>, <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>, and <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a> are the primary components for building animations.
          
 Use <b>IUIAnimationManager</b> to create and manage these components.
 

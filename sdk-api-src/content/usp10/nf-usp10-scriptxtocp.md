@@ -87,7 +87,7 @@ Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_
 
 ### -param piCP [out]
 
-Pointer to a buffer in which this function retrieves the character position corrresponding to the x coordinate.
+Pointer to a buffer in which this function retrieves the character position corresponding to the x coordinate.
 
 ### -param piTrailing [out]
 

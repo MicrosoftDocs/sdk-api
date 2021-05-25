@@ -74,25 +74,25 @@ The values defining the four components of the new instance of <code>XMXDECN4</c
 <ul>
 <li>
 The first 10 bits (bits 0-9) of <b>Packed</b> assigned, as a signed
-		    integer, to the <b>x</b> member of the instance of <code>XMXDECN4</code>constructed.
+		    integer, to the <b>x</b> member of the instance of <code>XMXDECN4</code> constructed.
 		
 
 </li>
 <li>
 The second 10 bits (bits 10-19) of <b>Packed</b> assigned, as a signed
-		    integer, to the <b>y</b> member of the instance of <code>XMXDECN4</code>constructed.
+		    integer, to the <b>y</b> member of the instance of <code>XMXDECN4</code> constructed.
 		
 
 </li>
 <li>
 The third 10 bits (bits 20-29) of <b>Packed</b> assigned, as a signed
-		    integer, to the <b>z</b> member of the instance of <code>XMXDECN4</code>constructed.
+		    integer, to the <b>z</b> member of the instance of <code>XMXDECN4</code> constructed.
 		
 
 </li>
 <li>
 The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned
-		    integer, to the <b>w</b> member of the instance of <code>XMXDECN4</code>constructed.
+		    integer, to the <b>w</b> member of the instance of <code>XMXDECN4</code> constructed.
 		
 
 </li>

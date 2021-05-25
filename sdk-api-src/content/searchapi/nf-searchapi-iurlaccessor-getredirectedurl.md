@@ -64,7 +64,7 @@ Receives the redirected URL as a Unicode string, not including the terminating <
 
 Type: <b>DWORD</b>
 
-Size in <b>TCHAR</b><b>s</b>of <i>wszRedirectedURL</i>, not including the terminating <b>NULL</b>.
+Size in <b>TCHAR</b><b>s</b> of <i>wszRedirectedURL</i>, not including the terminating <b>NULL</b>.
 
 ### -param pdwLength [out]
 

@@ -64,7 +64,7 @@ The identifier of the event being removed. For a list of event IDs, see <a href=
 
 Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>*</b>
 
-A pointer to the identifiers of the properties being removed, or <b>NULL</b>if the event listener being removed is not listening for property events.
+A pointer to the identifiers of the properties being removed, or <b>NULL</b> if the event listener being removed is not listening for property events.
 
 ## -returns
 

@@ -80,7 +80,7 @@ The app is being activated for design mode, so it can't create its normal window
 
                                 
 
-Note that you must <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package to succesfully use design mode.
+Note that you must <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package to successfully use design mode.
 
 
 
@@ -102,7 +102,7 @@ The application is being activated in prelaunch mode. This value is supported st
 
 ### -param processId [out]
 
-A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfils this contract.
+A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfills this contract.
 
 ## -returns
 

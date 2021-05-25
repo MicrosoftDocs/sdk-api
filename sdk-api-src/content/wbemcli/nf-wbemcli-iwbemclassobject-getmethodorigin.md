@@ -73,7 +73,7 @@ Name of the method for the object whose owning class is being requested.
 
 ### -param pstrClassName [out]
 
-Receives the name of the class which owns the method. The user must call <b>SysFreeString </b>on the returned <i>BSTR</i> when it is no longer required.
+Receives the name of the class which owns the method. The user must call <b>SysFreeString</b> on the returned <i>BSTR</i> when it is no longer required.
 
 ## -returns
 

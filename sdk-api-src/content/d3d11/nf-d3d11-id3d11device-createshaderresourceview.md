@@ -86,7 +86,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d11/d3
 
 A resource is made up of one or more subresources; a view identifies which subresources to allow the pipeline to access. In addition, each resource is
           bound to the pipeline using a view. A shader-resource view is designed to bind any buffer or texture resource to the shader stages using the following
-          API methods: <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources">ID3D11DeviceContext::VSSetShaderResources</a>, <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshaderresources">ID3D11DeviceContext::GSSetShaderResources</a>and <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshaderresources">ID3D11DeviceContext::PSSetShaderResources</a>.
+          API methods: <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources">ID3D11DeviceContext::VSSetShaderResources</a>, <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshaderresources">ID3D11DeviceContext::GSSetShaderResources</a> and <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshaderresources">ID3D11DeviceContext::PSSetShaderResources</a>.
         
 
 Because a view is fully typed, this means that typeless resources become fully typed when bound to the pipeline.

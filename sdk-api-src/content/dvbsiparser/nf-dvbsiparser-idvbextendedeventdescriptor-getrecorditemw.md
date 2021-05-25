@@ -57,7 +57,7 @@ Gets the item and descriptor from a  Digital Videl Broadcast (DVB) extended even
 ### -param bRecordIndex [in]
 
 Specifies the item record number,
-  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbextendedeventdescriptor-getcountofrecords">IDvbExtendedEventDescriptor::GetCountOfRecords</a> method to get the number of records in the extended event descriptor.
 
 ### -param convMode [in]
 

@@ -57,7 +57,7 @@ The <b>ReadData</b> method reads file headers. Called when an application uses t
 
 ### -param ckid
 
-A chunk identfier.
+A chunk identifier.
 
 ### -param lpData
 

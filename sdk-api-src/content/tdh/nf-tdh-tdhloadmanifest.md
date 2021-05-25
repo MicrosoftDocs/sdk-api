@@ -106,7 +106,7 @@ The manifest did not pass validation. To determine the validation errors, run th
 
 ## -remarks
 
-To consume events, TDH requires the provider's manifest. Typically, you decode the log file on a computer that contains the provider. Since the provider includes the mainifest as a resource, TDH uses the provider to get the manifest. To decode the log file on a computer that does not contain the provider, you must first use the  TraceRpt.exe executable to export the manifest (see the –export switch) from the provider on a computer that does contain the provider. After you have the manifest file, you can decode the log file on a computer that does not contain the provider.
+To consume events, TDH requires the provider's manifest. Typically, you decode the log file on a computer that contains the provider. Since the provider includes the manifest as a resource, TDH uses the provider to get the manifest. To decode the log file on a computer that does not contain the provider, you must first use the  TraceRpt.exe executable to export the manifest (see the –export switch) from the provider on a computer that does contain the provider. After you have the manifest file, you can decode the log file on a computer that does not contain the provider.
 
 You need to call this function before decoding the first event. For example, you can call this function before calling the <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function. After processing all the events, call the <a href="/windows/desktop/api/tdh/nf-tdh-tdhunloadmanifest">TdhUnloadManifest</a> function.
 

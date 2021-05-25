@@ -98,7 +98,7 @@ One or more arguments are invalid.
 
 ## -remarks
 
-Use the <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a>functions to choose the encoding of the XML writer and to indicate where to direct the output.
+Use the <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> functions to choose the encoding of the XML writer and to indicate where to direct the output.
       
 
 A <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> can be reused by calling <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutputtobuffer">WsSetOutputToBuffer</a> again.

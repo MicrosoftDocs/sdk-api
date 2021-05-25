@@ -1,7 +1,7 @@
 ---
 UID: NS:mprapi._SSTP_CONFIG_PARAMS
 title: SSTP_CONFIG_PARAMS (mprapi.h)
-description: Used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
+description: Used to get and set the device configuration for Secure Socket Tunneling Protocol (SSTP) on a RAS Server.
 helpviewer_keywords: ["*PSSTP_CONFIG_PARAMS","CALG_SHA_256","MPR_ENABLE_RAS_ON_DEVICE","SSTP_CONFIG_PARAMS","SSTP_CONFIG_PARAMS structure [RAS]","mprapi/SSTP_CONFIG_PARAMS","rras.sstp_config_params"]
 old-location: rras\sstp_config_params.htm
 tech.root: RRAS
@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SSTP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
+The <b>SSTP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Secure Socket Tunneling Protocol (SSTP) on a RAS Server.
 
 ## -struct-fields
 
@@ -96,7 +96,7 @@ Windows Server 2008 Standard
 </dl>
 </td>
 <td width="60%">
-Windows Server 2008 Datacenterand Windows Server 2008 Enterprise
+Windows Server 2008 Datacenter and Windows Server 2008 Enterprise
 
 </td>
 </tr>

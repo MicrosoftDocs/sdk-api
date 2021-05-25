@@ -63,7 +63,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcRelationshipSelectorEnume
 
 When an enumerator is created, the current position precedes the first pointer.
 
-To set the current position to the first pointer of the enumerator, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorenumerator-movenext">MoveNext</a>method after creating the enumerator.
+To set the current position to the first pointer of the enumerator, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorenumerator-movenext">MoveNext</a> method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator, and all subsequent calls to it will fail.
 

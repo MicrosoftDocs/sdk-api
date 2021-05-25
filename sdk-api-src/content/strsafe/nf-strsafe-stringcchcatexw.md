@@ -76,7 +76,7 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 Type: <b>LPTSTR</b>
 
-The destination buffer, which contains the string that is to be concatened to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
+The destination buffer, which contains the string that is to be concatenated to <i>pszSrc</i>, and that will receive the entire resultant string. The string at <i>pszSrc</i> is added to the end of the string at <i>pszDest</i>.
 
 ### -param cchDest [in]
 
@@ -221,7 +221,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 ## -remarks
 
-<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b>always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
+<b>StringCchCatEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCatEx</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 

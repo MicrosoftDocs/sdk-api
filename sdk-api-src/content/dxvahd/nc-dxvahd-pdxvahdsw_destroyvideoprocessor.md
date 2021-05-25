@@ -1,7 +1,7 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_DestroyVideoProcessor
 title: PDXVAHDSW_DestroyVideoProcessor (dxvahd.h)
-description: Destroys a sofware Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+description: Destroys a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 helpviewer_keywords: ["PDXVAHDSW_DestroyVideoProcessor","PDXVAHDSW_DestroyVideoProcessor callback","PDXVAHDSW_DestroyVideoProcessor callback function [Media Foundation]","dxvahd/PDXVAHDSW_DestroyVideoProcessor","mf.pdxvahdsw_destroyvideoprocessor"]
 old-location: mf\pdxvahdsw_destroyvideoprocessor.htm
 tech.root: mf
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Destroys a sofware Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+Destroys a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 
 ## -parameters
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_NETPIPE_URL
 title: WS_NETPIPE_URL (webservices.h)
-description: The URL subtype for specifying an net.pipe URL.
+description: The URL subtype for specifying a net.pipe URL.
 helpviewer_keywords: ["WS_NETPIPE_URL","WS_NETPIPE_URL structure [Web Services for Windows]","webservices/_WS_NETPIPE_URL","wsw.ws_netpipe_url"]
 old-location: wsw\ws_netpipe_url.htm
 tech.root: wsw
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The URL subtype for specifying an net.pipe URL.
+The URL subtype for specifying a net.pipe URL.
 
 ## -struct-fields
 

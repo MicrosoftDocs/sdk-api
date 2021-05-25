@@ -1,7 +1,7 @@
 ---
 UID: NC:mssip.pCryptSIPGetCaps
 title: pCryptSIPGetCaps (mssip.h)
-description: Is implemented by an subject interface package (SIP) to report capabilities.
+description: Is implemented by a subject interface package (SIP) to report capabilities.
 helpviewer_keywords: ["mssip/pCryptSIPGetCaps","pCryptSIPGetCaps","pCryptSIPGetCaps callback","pCryptSIPGetCaps callback function [Security]","security.pfncryptsipgetcaps"]
 old-location: security\pfncryptsipgetcaps.htm
 tech.root: security

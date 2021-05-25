@@ -247,21 +247,21 @@ The following table shows the structure of the data pointed to by the <b>pValue<
 <tr>
 <td>0</td>
 <td>3</td>
-<td>Length: 4 bytesThe vendor identifier. This field always has a value of 311.
+<td>Length: 4 bytes The vendor identifier. This field always has a value of 311.
 
 </td>
 </tr>
 <tr>
 <td>4</td>
 <td>4</td>
-<td>Length: 1 byteThe type of MPPE key. If the attribute refers to a MPPE send key, then this field has a value of 16. If the attribute refers to a MPPE receive key, then this field has a value of 17. 
+<td>Length: 1 byte The type of MPPE key. If the attribute refers to a MPPE send key, then this field has a value of 16. If the attribute refers to a MPPE receive key, then this field has a value of 17. 
 
 </td>
 </tr>
 <tr>
 <td>5</td>
 <td>5</td>
-<td>Length: 1 byteThe MPPE vendor-specific attribute length. This field always has a value of 52.
+<td>Length: 1 byte The MPPE vendor-specific attribute length. This field always has a value of 52.
 
 </td>
 </tr>
@@ -275,14 +275,14 @@ The following table shows the structure of the data pointed to by the <b>pValue<
 <tr>
 <td>8</td>
 <td>8</td>
-<td>Length: 1 byteThe MPPE key length. This field always has a value of 32.
+<td>Length: 1 byte The MPPE key length. This field always has a value of 32.
 
 </td>
 </tr>
 <tr>
 <td>9</td>
 <td>40</td>
-<td>Length: 32 bytesThe MPPE key. The field contents are as follows:<ul>
+<td>Length: 32 bytes The MPPE key. The field contents are as follows:<ul>
 <li>For MPPE send keys   used on a client, this field contains the first 32 bytes (bytes 0-31) of the master session key (MSK). </li>
 <li>For MPPE send keys used on a server, this field contains the second 32 bytes (bytes 32-63) of the MSK.</li>
 <li>For MPPE receive keys   used on a client, this field contains the second 32 bytes (bytes 32-63) of the MSK. </li>
@@ -696,42 +696,42 @@ The following table shows the structure of the data pointed to by the <b>pValue<
 <tr>
 <td>0</td>
 <td>1</td>
-<td>Length: 2 bytesThe buffer type. This field always has a value of 7. 
+<td>Length: 2 bytes The buffer type. This field always has a value of 7. 
 
 </td>
 </tr>
 <tr>
 <td>2</td>
 <td>3</td>
-<td>Length: 2 bytesThe length of the remaining contents of the buffer. For SoH requests from the server, this field has a value of 6. For SoH responses from the server, calculate the length by adding 8 to the number of bytes in the SoH payload.
+<td>Length: 2 bytes The length of the remaining contents of the buffer. For SoH requests from the server, this field has a value of 6. For SoH responses from the server, calculate the length by adding 8 to the number of bytes in the SoH payload.
 
 </td>
 </tr>
 <tr>
 <td>4</td>
 <td>7</td>
-<td>Length: 4 bytesThe vendor identifier. This field always has a value of 311.
+<td>Length: 4 bytes The vendor identifier. This field always has a value of 311.
 
 </td>
 </tr>
 <tr>
 <td>8</td>
 <td>9</td>
-<td>Length: 2 bytesThe SoH type. For SoH requests from the server, this field has a value of 2. For SoH responses from the server, this field has a value of 3. 
+<td>Length: 2 bytes The SoH type. For SoH requests from the server, this field has a value of 2. For SoH responses from the server, this field has a value of 3. 
 
 </td>
 </tr>
 <tr>
 <td>10</td>
 <td>11</td>
-<td>Length: 2 bytesThe number of bytes of data in the SoH payload.
+<td>Length: 2 bytes The number of bytes of data in the SoH payload.
 
 </td>
 </tr>
 <tr>
 <td>12</td>
 <td></td>
-<td>Length: VariableThe SoH payload returned by the NAP system. The supplicant should not attempt to interpret this data.
+<td>Length: Variable The SoH payload returned by the NAP system. The supplicant should not attempt to interpret this data.
 
 </td>
 </tr>
@@ -788,7 +788,7 @@ This attribute type is exported by EAP methods and consumed by supplicants.
 
 ### -field eatMethodId
 
-A temporally unique method identifier that identifies an EAP session of a given type between an peer and a server. Any EAP method that derives keys must specify this attribute type. The <b>pValue</b> member  of  
+A temporally unique method identifier that identifies an EAP session of a given type between a peer and a server. Any EAP method that derives keys must specify this attribute type. The <b>pValue</b> member  of  
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a> for this type points to a DWORD. For more information, see the <a href="https://www.ietf.org/">Key Management Framework draft specification</a>. 
 
 This attribute type is exported by EAPHost methods and other EAP methods, and consumed by supplicants.

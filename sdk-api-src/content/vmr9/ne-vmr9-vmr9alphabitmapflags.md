@@ -78,7 +78,7 @@ Indicates that the <b>rSrc</b> member is valid and specifies a sub-rectangle of 
 
 ### -field VMR9AlphaBitmap_FilterMode
 
-Indicates that the <b>dwFilterMode</b> member is valid and should be used to overide the VMR filter's default filtering method.
+Indicates that the <b>dwFilterMode</b> member is valid and should be used to override the VMR filter's default filtering method.
 
 ## -see-also
 

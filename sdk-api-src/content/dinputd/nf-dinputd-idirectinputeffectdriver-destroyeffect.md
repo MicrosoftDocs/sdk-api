@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::DestroyEffect </b>method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
+The <b>IDirectInputEffectDriver::DestroyEffect </b> method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
 
 ## -parameters
 

@@ -60,7 +60,7 @@ Creates a <b>Bitmap::Bitmap</b> object based on a
 
 Type: <b>const <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>*</b>
 
-Pointer to a GDI<b>BITMAPINFO</b> structure. This structure defines several bitmap attributes, such as size and pixel format. The 
+Pointer to a GDI <b>BITMAPINFO</b> structure. This structure defines several bitmap attributes, such as size and pixel format. The 
 					<b>BITMAPINFO</b> structure is defined in Wingdi.h.
 
 ### -param gdiBitmapData [in]

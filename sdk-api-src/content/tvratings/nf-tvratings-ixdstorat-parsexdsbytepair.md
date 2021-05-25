@@ -115,7 +115,7 @@ This method returns S_FALSE until the <b>XDSToRat</b> object decodes a complete 
 
 Ratings values may be delivered by either the XDS Content Advisory packet, or the Composite Packet-1 packet. For details, see sections 9.5.1.5 and 9.5.1.10, respectively, of the EIA/CEA-608B specification.
 
-This method should also detect the Current Class Program Identificaton Number and Program Name packets indicating the end of show and return an S_OK value along with the values in the following table.
+This method should also detect the Current Class Program Identification Number and Program Name packets indicating the end of show and return an S_OK value along with the values in the following table.
 
 Return the following values for non-ratings packets.
 

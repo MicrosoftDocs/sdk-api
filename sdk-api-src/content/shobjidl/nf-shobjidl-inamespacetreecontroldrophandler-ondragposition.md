@@ -86,4 +86,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Failing this method prevents the item rearrangment.
+Failing this method prevents the item rearrangement.

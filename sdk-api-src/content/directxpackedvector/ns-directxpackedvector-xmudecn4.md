@@ -112,7 +112,7 @@ You can use <code>XMUDECN4</code> to load instances of <a href="/windows/desktop
 	    the components to an <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreudecn4">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreudecn4">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
 	    1023.0f, multiplies the w-component by 3.0f, and rounds the result before assigning the values 
       to the appropriate <code>XMUDECN4</code> members.
 	

@@ -96,7 +96,7 @@ public:
  
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->SetOuputNode(_pTransform2);
+            hr = pGraph->SetOutputNode(_pTransform2);
         }
 
         if (SUCCEEDED(hr))

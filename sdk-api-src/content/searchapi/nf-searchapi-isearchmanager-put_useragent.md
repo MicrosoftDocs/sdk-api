@@ -70,6 +70,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 A user agent is a client application that accesses the Internet. User agents include web browsers, search engine crawlers, download managers, and so on, and may be associated with a specific protocol such as File Transfer Protocol (FTP) or Hyper Text Transfer Protocol (HTTP).
 
-Each user agent typially has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
+Each user agent typically has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
 
 Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

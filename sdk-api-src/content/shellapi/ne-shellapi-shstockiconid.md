@@ -282,7 +282,7 @@ Used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shgetstockiconinfo">S
 ### -field SIID_MEDIACDBURN
 
 :::image type="icon" source="./images/SIID_MEDIACDBURN.jpg":::
- A writeable CD in the process of being burned.
+ A writable CD in the process of being burned.
 
 ### -field SIID_MEDIABLANKCD
 

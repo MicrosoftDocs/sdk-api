@@ -94,7 +94,7 @@ This bit is set only when OLEMISC_INSIDEOUT is set, and indicates that this obje
 
 ### -field OLEMISC_RENDERINGISDEVICEINDEPENDENT
 
-This object does not pay any attention to target devices. Its presention data will be the same in all cases.
+This object does not pay any attention to target devices. Its presentation data will be the same in all cases.
 
 ### -field OLEMISC_INVISIBLEATRUNTIME
 

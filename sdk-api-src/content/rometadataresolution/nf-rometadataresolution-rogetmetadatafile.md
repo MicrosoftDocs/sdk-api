@@ -365,7 +365,7 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
     }
     else
     {
-        wprintf(L"Error %x occured while trying to resolve %s!\n", hr, pszTypename);
+        wprintf(L"Error %x occurred while trying to resolve %s!\n", hr, pszTypename);
     }
 
     // Clean up resources.

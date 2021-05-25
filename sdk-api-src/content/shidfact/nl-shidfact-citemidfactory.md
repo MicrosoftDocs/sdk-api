@@ -61,7 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CItemIDFactory</b> class inhe
 
 ## -remarks
 
-it is recomended that all data sources use this as it manages an important issue of security when  dealing with IDList parsing.
+it is recommended that all data sources use this as it manages an important issue of security when dealing with IDList parsing.
 
 ## -see-also
 

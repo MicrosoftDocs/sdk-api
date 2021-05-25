@@ -104,7 +104,7 @@ Not enough storage is available to process this command. This error is returned 
 
 ## -remarks
 
-The <b>ConvertInterfaceLuidToAlias</b> function is available on Windows Vistaand later.
+The <b>ConvertInterfaceLuidToAlias</b> function is available on Windows Vista and later.
 
 The <b>ConvertInterfaceLuidToAlias</b> function is protocol independent and works with network interfaces for both the IPv6 and IPv4 protocol.
 

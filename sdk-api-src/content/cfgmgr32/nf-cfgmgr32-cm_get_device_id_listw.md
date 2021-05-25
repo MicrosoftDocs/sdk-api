@@ -229,7 +229,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i>device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
+Starting with Windows 7, a device that supports multiple transport paths for packet-based data is referred to as a <i>composite </i> device and is represented by a <i>composite </i><a href="/windows-hardware/drivers/">devnode</a>. A composite devnode logically represents the composite device to the user and applications as a single device, even though the composite devnode can have multiple paths to the physical device. 
 
 Each active transport path to the physical device is represented by a transport devnode and is referred to as a <i>transport relation</i> for the composite device.
 

@@ -80,4 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Component types must be enumerated seperately. Combinations of component types and <b>WICAllComponents</b> are unsupported.
+Component types must be enumerated separately. Combinations of component types and <b>WICAllComponents</b> are unsupported.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetSequencyNumber</b>method returns the sequence number.
+The <b>GetSequencyNumber</b> method returns the sequence number.
 
 ## -parameters
 

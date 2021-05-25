@@ -74,7 +74,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This helper function works for<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>structures of the following types: 
+This helper function works for<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures of the following types: 
           
 
 <ul>

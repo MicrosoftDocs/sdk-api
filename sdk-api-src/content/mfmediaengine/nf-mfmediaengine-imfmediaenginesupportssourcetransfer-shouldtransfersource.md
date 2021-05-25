@@ -1,7 +1,7 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource
 title: IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource (mfmediaengine.h)
-description: Specifies wether or not the source should be transferred.
+description: Specifies whether or not the source should be transferred.
 helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","ShouldTransferSource method","IMFMediaEngineSupportsSourceTransfer.ShouldTransferSource","IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource","ShouldTransferSource","ShouldTransferSource method [Media Foundation]","ShouldTransferSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","mf.imfmediaenginesupportssourcetransfer_shouldtransfersource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::ShouldTransferSource"]
 old-location: mf\imfmediaenginesupportssourcetransfer_shouldtransfersource.htm
 tech.root: mf
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies wether or not the source should be transferred.
+Specifies whether or not the source should be transferred.
 
 ## -parameters
 

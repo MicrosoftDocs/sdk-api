@@ -61,7 +61,7 @@ Button identifier.
 
 ### -param bstrButtonText [in]
 
-The BS<b></b>TR representation of the button text.
+The <b>BSTR</b> representation of the button text.
 
 ## -returns
 

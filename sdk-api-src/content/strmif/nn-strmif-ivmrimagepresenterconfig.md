@@ -1,7 +1,7 @@
 ---
 UID: NN:strmif.IVMRImagePresenterConfig
 title: IVMRImagePresenterConfig (strmif.h)
-description: The IVMRImagePresenterConfig interface provides methods for setting the renderering preferences on the allocator-presenter used by the Video Mixing Renderer Filter 7 (VMR-7).Applications should not use this interface directly.
+description: The IVMRImagePresenterConfig interface provides methods for setting the rendering preferences on the allocator-presenter used by the Video Mixing Renderer Filter 7 (VMR-7).Applications should not use this interface directly.
 helpviewer_keywords: ["IVMRImagePresenterConfig","IVMRImagePresenterConfig interface [DirectShow]","IVMRImagePresenterConfig interface [DirectShow]","described","IVMRImagePresenterConfigInterface","dshow.ivmrimagepresenterconfig","strmif/IVMRImagePresenterConfig"]
 old-location: dshow\ivmrimagepresenterconfig.htm
 tech.root: dshow
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IVMRImagePresenterConfig</code> interface provides methods for setting the renderering preferences on the allocator-presenter used by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
+The <code>IVMRImagePresenterConfig</code> interface provides methods for setting the rendering preferences on the allocator-presenter used by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
 
 Applications should not use this interface directly. The VMR-7 filter's <b>IVMRFilterConfig</b> interface calls methods on this interface. The default allocator-presenter implements this interface. Custom allocator-presenters can also expose this interface.
 

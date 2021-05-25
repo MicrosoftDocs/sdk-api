@@ -68,7 +68,7 @@ Type: <b>void**</b>
 
 The debug interface, as a pointer to pointer to void.
             See
-            <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug">ID3D12Debug</a>and
+            <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug">ID3D12Debug</a> and
             <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugdevice">ID3D12DebugDevice</a>.
 
 ## -returns

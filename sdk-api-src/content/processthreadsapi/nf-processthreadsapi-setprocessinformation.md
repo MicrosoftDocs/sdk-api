@@ -123,7 +123,7 @@ To help improve system performance, applications should use the
     higher priority pages. This improves overall system performance because higher priority pages are less likely to 
     be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
-**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a proces opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
+**ProcessPowerThrottling** enables throttling policies on a process, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a process opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
 
 #### Examples
 

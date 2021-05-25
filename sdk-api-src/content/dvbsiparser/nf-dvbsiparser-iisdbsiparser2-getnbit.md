@@ -66,7 +66,7 @@ Pointer to the original_network_id field for the NBIT. This field contains an id
 
 ### -param ppNBIT [out]
 
-Receives a pointer to the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_nbit">IISDB_NBIT</a>interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_nbit">IISDB_NBIT</a> interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 ## -returns

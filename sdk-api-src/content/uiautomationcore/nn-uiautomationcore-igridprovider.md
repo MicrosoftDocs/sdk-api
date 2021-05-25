@@ -67,7 +67,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGridProvider</b> interface i
 ## -remarks
 
 The <b>IGridProvider</b> interface exposes methods and properties to support UI Automation client access to controls 
-		that act as containers for a collection of child elements. The children of this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a>and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
+		that act as containers for a collection of child elements. The children of this element must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a> and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.
 		
 
 Implemented on a UI Automation provider that must support 

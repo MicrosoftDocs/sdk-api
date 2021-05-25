@@ -102,4 +102,4 @@ The operation is not allowed due to the current state of the object.
 <b>WsEndReaderCanonicalization</b> must be called at the same depth at which <a href="/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> was called.
       
 
-It is not necessary to call <b>WsEndReaderCanonicalization</b>in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.
+It is not necessary to call <b>WsEndReaderCanonicalization</b> in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.

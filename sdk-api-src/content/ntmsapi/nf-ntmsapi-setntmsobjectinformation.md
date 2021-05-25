@@ -252,7 +252,7 @@ The following is the list of objects that have members that can be updated.
 </tr>
 <tr>
 <td>NTMS_LIBRARY</td>
-<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b>Requires NTMS_CONTROL_ACCESS to the library.
+<td><b>AutoRecovery</b><div> </div><b>dwCleanerUsesRemaining</b><div> </div><b>dwFlags</b><div> </div><b>InventoryMethod</b><div> </div><b>szDescription</b><div> </div><b>szName</b> Requires NTMS_CONTROL_ACCESS to the library.
 
 </td>
 </tr>

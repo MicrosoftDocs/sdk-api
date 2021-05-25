@@ -73,7 +73,7 @@ The callback may provide channel state through this parameter. This channel stat
 
 ### -param asyncContext [in, optional]
 
-Information on whether the function is getting invoked asynchornously.
+Information on whether the function is getting invoked asynchronously.
 
 ### -param error [in, optional]
 

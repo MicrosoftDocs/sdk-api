@@ -2080,7 +2080,7 @@ Do not display the underscore (_) as subscripted, or the caret (^) as superscrip
 
 ### -field tomMathDocDiffMask
 
-Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b>tomMathDocDiffOpenItalic </b>options.
+Style mask for the <b>tomMathDocDiffUpright</b>, <b>tomMathDocDiffItalic</b>, <b>tomMathDocDiffOpenItalic </b> options.
 
 ### -field tomMathDocDiffDefault
 

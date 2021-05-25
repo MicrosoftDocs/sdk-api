@@ -101,7 +101,7 @@ The input buffer does not contain valid ASF data.
 </dl>
 </td>
 <td width="60%">
-The input buffer is to small.
+The input buffer is too small.
 
 </td>
 </tr>

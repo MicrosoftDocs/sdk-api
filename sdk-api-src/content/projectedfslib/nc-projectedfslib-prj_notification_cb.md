@@ -57,7 +57,7 @@ Delivers notifications to the provider about file system operations.
 ### -param callbackData [in]
 
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
-<dd><b>FilePathName</b>Identifies the path for the file or directory to which the notification pertains.
+<dd><b>FilePathName</b> Identifies the path for the file or directory to which the notification pertains.
 
 </dd>
 </dl>
@@ -71,11 +71,11 @@ TRUE if the <b>FilePathName</b> field in <i>callbackData</i> refers to a directo
 
 ### -param notification [in]
 
-A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
+A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a> value specifying the notification.
 
 ### -param destinationFileName [in, optional]
 
-If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICATION_PRE_SET_HARDLINK</b>, this points to a null-terminated Unicode string specifying the path, relative to the virtualization root, of the target of the rename or set-hardlink operation.
+If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b> or <b>PRJ_NOTIFICATION_PRE_SET_HARDLINK</b>, this points to a null-terminated Unicode string specifying the path, relative to the virtualization root, of the target of the rename or set-hardlink operation.
 
 ### -param operationParameters [in, out]
 

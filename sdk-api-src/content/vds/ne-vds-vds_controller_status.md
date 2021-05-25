@@ -89,7 +89,7 @@ The controller has been physically unplugged from the subsystem. When this statu
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">IVdsController::SetStatus</a>method passes a <b>VDS_CONTROLLER_STATUS</b> value as an argument to set the status of a controller, and  the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure includes a <b>VDS_CONTROLLER_STATUS</b> value as a member to indicate the current status.
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-setstatus">IVdsController::SetStatus</a> method passes a <b>VDS_CONTROLLER_STATUS</b> value as an argument to set the status of a controller, and  the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure includes a <b>VDS_CONTROLLER_STATUS</b> value as a member to indicate the current status.
 
 If your application encounters a <b>VDS_CONTROLLER_STATUS</b> value that it does not recognize, it should display the controller status as unknown. It should not attempt to map the unrecognized controller status to another controller status.
 

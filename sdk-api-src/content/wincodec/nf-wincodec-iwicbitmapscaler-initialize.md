@@ -70,7 +70,7 @@ The destination width.
 
 Type: <b>UINT</b>
 
-The desination height.
+The destination height.
 
 ### -param mode [in]
 

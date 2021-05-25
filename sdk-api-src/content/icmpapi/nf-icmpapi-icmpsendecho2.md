@@ -411,7 +411,7 @@ int __cdecl main(int argc, char **argv)
         dwError = GetLastError();
         switch (dwError) {
         case IP_BUF_TOO_SMALL:
-            printf("\tReplyBufferSize to small\n");
+            printf("\tReplyBufferSize too small\n");
             break;
         case IP_REQ_TIMED_OUT:
             printf("\tRequest timed out\n");

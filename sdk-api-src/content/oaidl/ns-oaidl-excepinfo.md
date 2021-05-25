@@ -68,7 +68,7 @@ Reserved. Should be 0.
 
 ### -field bstrSource
 
-The name of the exception source. Typically, this is an application name. This field should be filled in by the implementor of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
+The name of the exception source. Typically, this is an application name. This field should be filled in by the implementer of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 ### -field bstrDescription
 

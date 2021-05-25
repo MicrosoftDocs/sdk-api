@@ -68,7 +68,7 @@ The namespace provider is expected to be hosted by a service. This hosting model
 
 ## -remarks
 
-This enumeration is supported on Windows Vistaand later.
+This enumeration is supported on Windows Vista and later.
 
 On  Windows Vista and Windows Server 2008, the <b>NAPI_PROVIDER_TYPE</b> enumeration applies only to NS_EMAIL namespace providers. Windows Vista and Windows Server 2008 currently support only namespace providers of type <b>ProviderType_Application</b> providers. On  Windows Vista and Windows Server 2008, this value should always be set to <b>ProviderType_Application</b>.
 

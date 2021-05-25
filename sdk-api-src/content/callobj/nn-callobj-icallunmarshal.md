@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Is used on the server (receiving) side of a remote invocation. An appropriate instance of <b>ICallUnmarshal</b> can be used to transform back into an call frame a method invocation previously marshaled by a call to <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">ICallFrame::Marshal</a> on the client (sending) side. After such a reconstituted call frame is obtained, the call can be carried out on an actual object using <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-invoke">ICallFrame::Invoke</a>.
+Is used on the server (receiving) side of a remote invocation. An appropriate instance of <b>ICallUnmarshal</b> can be used to transform back into a call frame a method invocation previously marshaled by a call to <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">ICallFrame::Marshal</a> on the client (sending) side. After such a reconstituted call frame is obtained, the call can be carried out on an actual object using <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-invoke">ICallFrame::Invoke</a>.
 
 ## -inheritance
 

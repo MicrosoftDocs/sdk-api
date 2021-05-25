@@ -64,7 +64,7 @@ Reserved. Set to <b>NULL</b>.
 
 ### -param riid [in]
 
-The interface identifer (IID) of the interface being requested.
+The interface identifier (IID) of the interface being requested.
 
 ### -param ppvObject [out]
 

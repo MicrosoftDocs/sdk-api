@@ -101,7 +101,7 @@ The local token modified identifier.
 
 ### -field mmSaId
 
-Use this identifier to correlate this IPsec security assication (SA) with the Internet Key Exchange (IKE) SA that generated it.
+Use this identifier to correlate this IPsec security association (SA) with the Internet Key Exchange (IKE) SA that generated it.
 
 ### -field qmSaId
 

@@ -56,7 +56,7 @@ Indicates if the files being added to the file system image should be staged bef
 
 ### -param pVal [out]
 
-<b>VARIANT_TRUE</b> if the files being added to the file system image are required to be stageded in one or more stage files before burning. Otherwise, <b>VARIANT_FALSE</b> is returned if IMAPI is permitted to optimize the image creation process by not staging the files being added to the file system image.
+<b>VARIANT_TRUE</b> if the files being added to the file system image are required to be staged in one or more stage files before burning. Otherwise, <b>VARIANT_FALSE</b> is returned if IMAPI is permitted to optimize the image creation process by not staging the files being added to the file system image.
 
 ## -returns
 

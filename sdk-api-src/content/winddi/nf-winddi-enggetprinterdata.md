@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngGetPrinterData </b>function retrieves configuration data for the specified printer.
+The <b>EngGetPrinterData </b> function retrieves configuration data for the specified printer.
 
 ## -parameters
 

@@ -67,7 +67,7 @@ The <b>WMSC_GetValidCertificate</b> method returns a copy of the certificate tha
 
 ### -param pdwSignature [out]
 
-<i>pdwSignature</i>can be 0xFFFFFFFF if no signature was used to validate the cert.
+<i>pdwSignature</i> can be 0xFFFFFFFF if no signature was used to validate the cert.
 
 ## -returns
 

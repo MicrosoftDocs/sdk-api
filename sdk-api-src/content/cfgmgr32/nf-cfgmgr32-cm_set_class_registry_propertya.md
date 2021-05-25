@@ -80,7 +80,7 @@ A handle to a remote machine on which to set the specified <a href="/windows-har
 
 ## -returns
 
-If the operation succeeds, <b>CM_Set_Class_Registry_Property </b>returns CR_SUCCESS. Otherwise, the function returns one of the other CR_<i>Xxx</i> status codes that are defined in <i>Cfgmgr32.h</i>.
+If the operation succeeds, <b>CM_Set_Class_Registry_Property </b> returns CR_SUCCESS. Otherwise, the function returns one of the other CR_<i>Xxx</i> status codes that are defined in <i>Cfgmgr32.h</i>.
 
 ## -remarks
 

@@ -70,7 +70,7 @@ The maximum size of the <i>lineMetrics</i> array.
 
 Type: <b>UINT32*</b>
 
-When this method returns, contains the actual size of the <i>lineMetrics</i>array that is needed.
+When this method returns, contains the actual size of the <i>lineMetrics</i> array that is needed.
 
 ## -returns
 

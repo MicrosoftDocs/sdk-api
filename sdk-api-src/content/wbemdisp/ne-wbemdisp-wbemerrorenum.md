@@ -417,7 +417,7 @@ A property was redefined with a conflicting type in a derived class.
 
 ### -field wbemErrUpdateOverrideNotAllowed
 
-An attempt was made in a derived class to override a non-overrideable qualifier.
+An attempt was made in a derived class to override a non-overridable qualifier.
 
 ### -field wbemErrUpdatePropagatedMethod
 

@@ -78,7 +78,7 @@ The port number of the UDP endpoint on the local computer. This member is stored
 
 The <b>MIB_UDP6ROW</b> structure is defined on Windows Vista and later. 
 
-The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudp6table">GetUdp6Table</a>function retrieves the UDP listener table for IPv6 on the local computer and returns this information in a <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a> structure. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudp6table">GetUdp6Table</a> function retrieves the UDP listener table for IPv6 on the local computer and returns this information in a <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table">MIB_UDP6TABLE</a> structure. 
 
 An array of <b>MIB_UDP6ROW</b> structures are contained in the <b>MIB_UDP6TABLE</b> structure.  
 

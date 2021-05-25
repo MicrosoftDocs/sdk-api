@@ -221,7 +221,7 @@ Output with pseudosync pulse + four-line reversed division burst insertion.
 
 ### -param pbMaximumBitrate [out]
 
-Receives the maximum trasmission rate for transport stream packets, in units of 250 kbps.
+Receives the maximum transmission rate for transport stream packets, in units of 250 kbps.
 
 ## -returns
 

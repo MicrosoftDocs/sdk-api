@@ -61,7 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Tools</b> interface inh
 
 ## -remarks
 
-Do not use this interface in your application, its not intended or supported for any scenario other than to enable tooling such as PIX.
+Do not use this interface in your application, it's not intended or supported for any scenario other than to enable tooling such as PIX.
 
 Developer Mode must be enabled for this interface to respond.
 

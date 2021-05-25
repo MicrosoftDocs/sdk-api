@@ -112,7 +112,7 @@ This function returns the following <b>HRESULT</b> values depending on the statu
 <tr>
 <td><b>S_OK</b></td>
 <td>
-This is returned if connection that satify the parameters and internal policies exists. <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a> should be called to release the context table.
+This is returned if a connection that satisfies the parameters and internal policies exists. <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a> should be called to release the context table.
 
 </td>
 </tr>

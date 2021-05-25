@@ -51,7 +51,7 @@ Constructs an **XMFLOAT3X4A** from a 12-element array of float values.
 
 Type: **const float \***
 
-A pointer to a 12-element array of float values. The array specifyies the value of each member of the new matrix.
+A pointer to a 12-element array of float values. The array specifies the value of each member of the new matrix.
 
 ## -remarks
 

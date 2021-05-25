@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Univeral Windows Platform (UWP) [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
+Enables interoperability with a Universal Windows Platform (UWP) [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
 
 ## -see-also
 

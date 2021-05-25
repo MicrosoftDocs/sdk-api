@@ -195,7 +195,7 @@ For connection-oriented sockets, readability can also indicate that a request to
 <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>).
 
 The parameter <i>writefds</i> identifies the sockets that are to be checked for writability. If a socket is processing a 
-<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call (nonblocking), a socket is writeable if the connection establishment successfully completes. If the socket is not processing a 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> call (nonblocking), a socket is writable if the connection establishment successfully completes. If the socket is not processing a 
 <b>connect</b> call, writability means a 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>, 
 <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, or 

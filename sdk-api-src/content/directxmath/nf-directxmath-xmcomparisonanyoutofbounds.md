@@ -56,7 +56,7 @@ Tests the comparison value to determine if any of the compared components are ou
 
 ### -param CR [in]
 
-Comparison value to test. The comparison value is typically retrieved using a recording version of an DirectXMath
+Comparison value to test. The comparison value is typically retrieved using a recording version of a DirectXMath
         function such as 
         <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorinboundsr">XMVectorInBoundsR</a>. The names of the recording functions end
         with an "R".

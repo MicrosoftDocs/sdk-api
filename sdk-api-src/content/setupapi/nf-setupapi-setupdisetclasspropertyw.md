@@ -75,7 +75,7 @@ A pointer to a buffer that contains the property value of the device class. If e
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i>is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
+The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i> is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
 
 ### -param Flags [in]
 

@@ -1,7 +1,7 @@
 ---
 UID: NE:d2d1effects.D2D1_BITMAPSOURCE_ORIENTATION
 title: D2D1_BITMAPSOURCE_ORIENTATION (d2d1effects.h)
-description: Speficies whether a flip and/or rotation operation should be performed by the Bitmap source effect.
+description: Specifies whether a flip and/or rotation operation should be performed by the Bitmap source effect.
 helpviewer_keywords: ["D2D1_BITMAPSOURCE_ORIENTATION","D2D1_BITMAPSOURCE_ORIENTATION enumeration [Direct2D]","D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT","D2D1_BITMAPSOURCE_ORIENTATION_FLIP_HORIZONTAL","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90","D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_DEFAULT","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_FLIP_HORIZONTAL","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE180_FLIP_HORIZONTAL","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE270_FLIP_HORIZONTAL","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90","d2d1effects/D2D1_BITMAPSOURCE_ORIENTATION_ROTATE_CLOCKWISE90_FLIP_HORIZONTAL","direct2d.d2d1_bitmapsource_orientation"]
 old-location: direct2d\d2d1_bitmapsource_orientation.htm
 tech.root: Direct2D
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Speficies whether a flip and/or rotation operation should be performed by the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
+Specifies whether a flip and/or rotation operation should be performed by the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
 
 ## -enum-fields
 

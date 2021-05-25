@@ -62,7 +62,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTimerEventHandler
 ## -remarks
 
 Use 
-         <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-settimereventhandler">SetTimerEventHandler</a>to specify the timing events handler for an instance of
+         <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-settimereventhandler">SetTimerEventHandler</a> to specify the timing events handler for an instance of
          <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer">IUIAnimationTimer</a>. 
       
 

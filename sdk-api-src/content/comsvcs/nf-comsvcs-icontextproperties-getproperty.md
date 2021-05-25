@@ -67,7 +67,7 @@ The following are IIS intrinsic properties.
 <li>Server</li>
 <li>Session</li>
 </ul>
-The following is the COMTI instrinsic property:
+The following is the COMTI intrinsic property:
 
 <ul>
 <li>host-security-callback.cedar.microsoft.com</li>

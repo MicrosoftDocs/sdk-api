@@ -242,7 +242,7 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b> flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
 <div> </div>
 
 ## -see-also

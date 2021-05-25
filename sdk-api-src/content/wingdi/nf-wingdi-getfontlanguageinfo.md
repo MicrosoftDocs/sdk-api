@@ -99,7 +99,7 @@ The return value identifies characteristics of the currently selected font. The 
 </tr>
 <tr>
 <td>GCP_REORDER</td>
-<td>The language requires reordering for displayfor example, Hebrew or Arabic.</td>
+<td>The language requires reordering for display for example, Hebrew or Arabic.</td>
 </tr>
 </table>
  

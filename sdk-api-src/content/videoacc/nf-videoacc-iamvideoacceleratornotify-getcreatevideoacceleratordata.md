@@ -65,7 +65,7 @@ Receives the size of the data returned in <i>ppMiscData</i>, in bytes.
 
 ### -param ppMiscData [out]
 
-Receives a pointer to a buffer that contains a <b>DXVA_ConnectMode</b>structure. The decoder must call <b>CoTaskMemAlloc</b> to allocate the memory for the structure. The caller must free the memory by calling <b>CoTaskMemFree</b>.
+Receives a pointer to a buffer that contains a <b>DXVA_ConnectMode</b> structure. The decoder must call <b>CoTaskMemAlloc</b> to allocate the memory for the structure. The caller must free the memory by calling <b>CoTaskMemFree</b>.
 
 ## -returns
 

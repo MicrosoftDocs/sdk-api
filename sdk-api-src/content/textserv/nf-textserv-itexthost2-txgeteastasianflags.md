@@ -81,7 +81,7 @@ IME input is suppressed.
 </dl>
 </td>
 <td width="60%">
-The rich edit client handles IME imput.
+The rich edit client handles IME input.
 
 </td>
 </tr>

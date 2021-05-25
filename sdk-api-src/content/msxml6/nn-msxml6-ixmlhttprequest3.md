@@ -70,10 +70,10 @@ The <b>IXMLHTTPRequest3</b> and <a href="/previous-versions/windows/desktop/api/
 
 
 <ul>
-<li>Allows setting a client certificate to use for the HTTPS request with the <a href="/previous-versions/windows/desktop/ixhr2/ixmlhttprequest3-setclientcertificate">SetClientCertificate</a>method on the <b>IXMLHTTPRequest3</b> interface.</li>
-<li>Allows getting an issuer list to help filter down eligible client certificates to use for the next HTTP request with the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onclientcertificaterequested">OnClientCertificateRequested</a>method on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a> interface.</li>
+<li>Allows setting a client certificate to use for the HTTPS request with the <a href="/previous-versions/windows/desktop/ixhr2/ixmlhttprequest3-setclientcertificate">SetClientCertificate</a> method on the <b>IXMLHTTPRequest3</b> interface.</li>
+<li>Allows getting an issuer list to help filter down eligible client certificates to use for the next HTTP request with the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onclientcertificaterequested">OnClientCertificateRequested</a> method on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a> interface.</li>
 <li>Allows ignoring certain certificate errors which would have otherwise aborted the HTTPS connection. </li>
-<li>Allows getting certificate errors and the server certificate chain from the HTTPS response with the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onservercertificatereceived">OnServerCertificateReceived</a>method on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a> interface.</li>
+<li>Allows getting certificate errors and the server certificate chain from the HTTPS response with the <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onservercertificatereceived">OnServerCertificateReceived</a> method on the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a> interface.</li>
 </ul>
 
 

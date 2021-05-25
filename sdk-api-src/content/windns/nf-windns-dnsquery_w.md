@@ -61,7 +61,7 @@ The
 <li><b>DnsQuery_A</b> (for ANSI encoding)</li>
 <li><b>DnsQuery_W</b> (for Unicode encoding)</li>
 <li><b>DnsQuery_UTF8</b> (for UTF-8 encoding)</li>
-</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous querries to the DNS namespace.
+</ul>Windows 8: The <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a> function should be used if an application requires asynchronous queries to the DNS namespace.
 
 ## -parameters
 

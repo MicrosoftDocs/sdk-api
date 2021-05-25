@@ -64,7 +64,7 @@ A good value to use as an initial value for maxHitTestMetricsCount may be calcul
 
 where lineCount is obtained from the value of the output argument
      *actualLineCount (from the function <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>::GetLineLengths),
-     and the maxBidiReorderingDepth value from the <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
+     and the maxBidiReorderingDepth value from the <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a> structure of the output argument *textMetrics (from the function
      <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>::<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextlayout">CreateTextLayout</a>).
 
 ## -parameters

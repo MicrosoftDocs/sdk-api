@@ -61,7 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchBoxInfo</b> interface 
 
 ## -remarks
 
-The search box is shown here in an Windows Explorer window frame.
+The search box is shown here in a Windows Explorer window frame.
 
 
 

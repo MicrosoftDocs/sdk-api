@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Implement the <b>RequestCompletion</b> method to handle the completion of calls to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a>method.
+Implement the <b>RequestCompletion</b> method to handle the completion of calls to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
 
 ## -parameters
 

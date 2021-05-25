@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS_DESCRIPTION
 title: WS_ENDPOINT_ADDRESS_DESCRIPTION (webservices.h)
-description: Information about a mapping between an WS_ENDPOINT_ADDRESSand an XML element.
+description: Information about a mapping between a WS_ENDPOINT_ADDRESS and an XML element.
 helpviewer_keywords: ["WS_ENDPOINT_ADDRESS_DESCRIPTION","WS_ENDPOINT_ADDRESS_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION","wsw.ws_endpoint_address_description"]
 old-location: wsw\ws_endpoint_address_description.htm
 tech.root: wsw
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Information about a mapping between an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>and an XML element.
+Information about a mapping between a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> and an XML element.
 
 ## -struct-fields
 

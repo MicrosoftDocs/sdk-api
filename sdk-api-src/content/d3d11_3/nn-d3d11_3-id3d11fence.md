@@ -52,7 +52,7 @@ api_name:
 
 Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 
-This interface is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> inteface, and is also used for synchronization between Direct3D 11 and Direct3D 12 in interop scenarios.
+This interface is equivalent to the Direct3D 12 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> interface, and is also used for synchronization between Direct3D 11 and Direct3D 12 in interop scenarios.
 
 ## -inheritance
 

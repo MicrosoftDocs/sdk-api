@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If no package dependencies are found in the manifest, this method returns <b>S_OK</b> with an  empty enumerator.
+If no package dependencies are found in the manifest, this method returns <b>S_OK</b> with an empty enumerator.
 
 Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>dependencies</i> object.
 

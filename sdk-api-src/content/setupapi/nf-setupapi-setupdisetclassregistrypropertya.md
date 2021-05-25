@@ -113,7 +113,7 @@ A pointer to a buffer that supplies the specified property. This parameter is op
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer </i>buffer.
+The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 
 ### -param MachineName [in, optional]
 

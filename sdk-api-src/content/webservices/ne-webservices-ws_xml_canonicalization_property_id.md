@@ -80,6 +80,6 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_qname">WS_XML_
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
 
 A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes are accumulated.  Once at least this
-          many bytes are generated, or canonicalization is ended by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
+          many bytes are generated, or canonicalization is ended by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
           written to the output specified at the start of canonicalization.  If this is
           not specified, a default buffer size of 1024 is used.

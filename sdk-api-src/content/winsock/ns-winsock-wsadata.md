@@ -112,7 +112,7 @@ The <b>lpVendorInfo</b> member is retained for compatibility with Windows Socket
 ## -remarks
 
 The <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function initiates the use of the Windows Sockets DLL by a process.  The <b>WSAStartup</b> function returns a pointer to the  
-<b>WSADATA</b> structure in the <i>lpWSAData</i>parameter.
+<b>WSADATA</b> structure in the <i>lpWSAData</i> parameter.
 		
 
 The current version of the Windows Sockets specification returned in the <b>wHighVersion</b> member of the  

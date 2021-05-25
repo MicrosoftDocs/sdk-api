@@ -70,7 +70,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface is deprecrated, so applications should avoid using this function. To create a media type from a <b>WAVEFORMATEX</b> structure, do the following:
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfaudiomediatype">IMFAudioMediaType</a> interface is deprecated, so applications should avoid using this function. To create a media type from a <b>WAVEFORMATEX</b> structure, do the following:
       
 
 <ol>

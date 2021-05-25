@@ -253,7 +253,7 @@ The above example makes use of the following sub-properties, which will appear o
 
 The type of each sub-element will be whatever the type of the array is. In the example above, this was an array of strings.
 
-<h3><a id="Enum-Type_Sub-Poperties"></a><a id="enum-type_sub-poperties"></a><a id="ENUM-TYPE_SUB-POPERTIES"></a>Enum-Type Sub-Poperties</h3>
+<h3><a id="Enum-Type_Sub-Poperties"></a><a id="enum-type_sub-poperties"></a><a id="ENUM-TYPE_SUB-POPERTIES"></a>Enum-Type Sub-Properties</h3>
 If the property has type <b>D2D1_PROPERTY_TYPE_ENUM</b> then the property will have the value of the corresponding enumeration. There will be a sub-array of fields that will conform to the general rules for array sub-properties and consist of the name/value pairs. For example:
 
 

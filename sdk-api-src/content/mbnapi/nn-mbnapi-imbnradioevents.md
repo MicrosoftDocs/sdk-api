@@ -1,7 +1,7 @@
 ---
 UID: NN:mbnapi.IMbnRadioEvents
 title: IMbnRadioEvents (mbnapi.h)
-description: Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
+description: Notification interface used to indicate a change in the radio state as well as the completion of a programmatic change in the state .
 helpviewer_keywords: ["IMbnRadioEvents","IMbnRadioEvents interface [Microsoft Broadband Networks]","IMbnRadioEvents interface [Microsoft Broadband Networks]","described","mbn.imbnradioevents","mbnapi/IMbnRadioEvents"]
 old-location: mbn\imbnradioevents.htm
 tech.root: mbn
@@ -53,7 +53,7 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-Notification interface used to indicate a change in the radio state as well as the completion of a programatic change in the state .
+Notification interface used to indicate a change in the radio state as well as the completion of a programmatic change in the state .
 
 ## -inheritance
 

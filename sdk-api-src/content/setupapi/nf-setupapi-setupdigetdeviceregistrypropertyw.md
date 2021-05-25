@@ -91,7 +91,7 @@ The function retrieves the GUID for the device's bus type.
 
 #### SPDRP_CAPABILITIES
 
-The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
+The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i> flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
 
 <table>
 <tr>
@@ -385,7 +385,7 @@ A pointer to a buffer that receives the property that is being retrieved. If thi
 
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer </i>buffer.
+The size, in bytes, of the <i>PropertyBuffer </i> buffer.
 
 ### -param RequiredSize [out, optional]
 
@@ -409,7 +409,7 @@ The function retrieves the GUID for the device's bus type.
 
 ##### - Property.SPDRP_CAPABILITIES
 
-The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i>flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
+The function retrieves a bitwise OR of the following CM_DEVCAP_<i>Xxx </i> flags in a DWORD. The device capabilities that are represented by these flags correspond to the device capabilities that are represented by the members of the <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure. The CM_DEVCAP_Xxx constants are defined in <i>Cfgmgr32.h.</i>
 
 <table>
 <tr>
