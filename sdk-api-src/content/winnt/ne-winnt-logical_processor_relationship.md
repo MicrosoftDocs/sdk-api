@@ -82,6 +82,10 @@ The specified logical processors share a single <a href="/windows/desktop/ProcTh
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This value is not supported until Windows Server 2008 R2.
 
+### -field RelationNumaNodeEx
+
+Introduced in TBD - Release Iron.  Requests that the full affinity be returned. Unlike the other relation types, **RelationNumaNodeEx** is not used on input. It is simply a request for **RelationNumaNode** with full group information.
+
 ### -field RelationAll
 
 On input, retrieves information about all possible relationship types. This value is not used on output.

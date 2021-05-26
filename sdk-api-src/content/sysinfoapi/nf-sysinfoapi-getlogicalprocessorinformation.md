@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetLogicalProcessorInformation","GetLogicalProcessorInfor
 old-location: base\getlogicalprocessorinformation.htm
 tech.root: backup
 ms.assetid: 904d2d35-f419-4e8f-a689-f39ed926644c
-ms.date: 12/05/2018
+ms.date: 03/15/2021
 ms.keywords: GetLogicalProcessorInformation, GetLogicalProcessorInformation function, base.getlogicalprocessorinformation, sysinfoapi/GetLogicalProcessorInformation
 req.header: sysinfoapi.h
 req.include-header: 
@@ -102,6 +102,15 @@ Note that the order in which the structures are returned in the buffer  may chan
 The size of the <a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a> structure varies between processor architectures and versions of Windows. For this reason, applications should first call this function to obtain the required buffer size, then dynamically allocate memory for the buffer.
 
 On systems with more than 64 logical processors, the <b>GetLogicalProcessorInformation</b> function retrieves logical processor information about processors in the <a href="/windows/desktop/ProcThread/processor-groups">processor group</a> to which the calling thread is currently assigned. Use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function to retrieve information about processors in all processor groups on the system.
+
+> [!NOTE]
+> Starting with *TBD Release Iron*, the behavior of this and other NUMA functions has been modified to better support systems with nodes containing more that 64 processors. For more information about this change, including information about enabling the old behavior of this API, see [NUMA Support](/windows/win32/procthread/numa-support).
+
+### Behavior starting with TBD Release Iron
+
+The relationship structures for [RelationNumaNode](../winnt/ne-winnt-logical_processor_relationship.md) contain the affinity mask for the node's affinity within the calling thread's group.
+
+
 
 
 #### Examples

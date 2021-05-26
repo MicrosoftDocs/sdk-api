@@ -4,7 +4,7 @@ title: APO_CONNECTION_PROPERTY (audioapotypes.h)
 description: Contains the dynamically changing connection properties.
 helpviewer_keywords: ["APO_CONNECTION_PROPERTY","APO_CONNECTION_PROPERTY structure [Remote Desktop Services]","audioapotypes/APO_CONNECTION_PROPERTY","termserv.apo_connection_property"]
 old-location: termserv\apo_connection_property.htm
-tech.root: TermServ
+tech.root: coreaudio
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.date: 12/05/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
@@ -70,7 +70,7 @@ The connection flags for this buffer. This indicates the validity status of the 
 
 ### -field u32Signature
 
-A tag that identifies a valid <b>APO_CONNECTION_PROPERTY</b> structure. A valid structure is marked as <b>APO_CONNECTION_PROPERTY_SIGNATURE</b>.
+A tag that identifies a valid <b>APO_CONNECTION_PROPERTY</b> structure. A valid structure is marked as <b>APO_CONNECTION_PROPERTY_SIGNATURE</b>. If the value of this field is equal to **APO_CONNECTION_PROPERTY_V2_SIGNATURE**, the structure can be safely typecast to a [APO_CONNECTION_PROPERTY_V2](ns-audioapotypes-apo_connection_property_v2.md).
 
 ## -remarks
 
