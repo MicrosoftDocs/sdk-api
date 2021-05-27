@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_3
+UID: NS:winhttp._WINHTTP_PROXY_INFO
 title: WINHTTP_PROXY_INFO (winhttp.h)
 description: The WINHTTP_PROXY_INFO structure contains the session or default proxy configuration.
 helpviewer_keywords: ["*LPWINHTTP_PROXY_INFO","WINHTTP_ACCESS_TYPE_DEFAULT_PROXY","WINHTTP_ACCESS_TYPE_NAMED_PROXY","WINHTTP_ACCESS_TYPE_NO_PROXY","WINHTTP_PROXY_INFO","WINHTTP_PROXY_INFO structure [HTTP]","WINHTTP_PROXY_INFOW","http.internet_proxy_info","winhttp/WINHTTP_PROXY_INFO","winhttp_internet_proxy_info_structure"]
