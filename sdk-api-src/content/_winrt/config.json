@@ -43,6 +43,7 @@
     "windows.graphics.imaging.interop.h",
     "windows.media.core.interop.h",
     "windows.ui.composition.interop.h",
+    "windows.ui.viewmanagement.core.coreframeworkinputviewinterop.h",
     "windows.ui.xaml.hosting.referencetracker.h",
     "windows.ui.xaml.media.dxinterop.h",
     "windows.ui.xaml-coretypes.h",
