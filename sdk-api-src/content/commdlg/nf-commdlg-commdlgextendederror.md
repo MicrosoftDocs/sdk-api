@@ -399,7 +399,7 @@ The following error codes can be returned for the <a href="/previous-versions/wi
 <td width="40%">
 <dl>
 <dt><b>CFERR_MAXLESSTHANMIN</b></dt>
-<dt>CFERR_MAXLESSTHANMIN</dt>
+<dt>0x2002</dt>
 </dl>
 </td>
 <td width="60%">
