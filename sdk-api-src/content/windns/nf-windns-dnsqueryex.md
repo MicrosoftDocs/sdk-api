@@ -59,8 +59,7 @@ Like <a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>, <b
 
 ### -param pQueryRequest [in]
 
-A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_query_request">DNS_QUERY_REQUEST</a> structure that contains the query request
-                            information.
+A pointer to a <a href="/windows/desktop/api/windns/ns-windns-dns_query_request">DNS_QUERY_REQUEST</a> or <a href="/windows/win32/api/windns/ns-windns-dns_query_request3">DNS_QUERY_REQUEST3</a> structure that contains the query request information.
 
 <div class="alert"><b>Note</b>  By omitting the <a href="/windows/desktop/api/windns/nc-windns-dns_query_completion_routine">DNS_QUERY_COMPLETION_ROUTINE</a> callback from the <b>pQueryCompleteCallback</b> member of this structure, <b>DnsQueryEx</b> is called synchronously.</div>
 <div> </div>
