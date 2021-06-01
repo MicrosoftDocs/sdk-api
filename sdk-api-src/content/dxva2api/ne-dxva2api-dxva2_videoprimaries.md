@@ -118,8 +118,8 @@ Color primaries define how to convert RGB colors into the CIE XYZ color space, a
             </td>
 </tr>
 <tr>
-<td>BT.470-2 System M;
-              EBU 3212
+<td>BT.470-2 System B,G;
+              EBU 3213
             </td>
 <td>(0.64, 0.33)</td>
 <td>(0.29, 0.60)</td>
@@ -129,7 +129,7 @@ Color primaries define how to convert RGB colors into the CIE XYZ color space, a
             </td>
 </tr>
 <tr>
-<td>BT.470-4 System B,G</td>
+<td>BT.470-4 System M</td>
 <td>(0.67, 0.33)</td>
 <td>(0.21, 0.71)</td>
 <td>(0.14, 0.08)</td>
