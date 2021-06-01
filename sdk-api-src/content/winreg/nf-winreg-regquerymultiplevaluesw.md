@@ -82,7 +82,7 @@ This handle is returned by the
 ### -param val_list [out]
 
 A pointer to an array of 
-[VALENT](./ns-winreg-valenta.md) structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
+[VALENT](./ns-winreg-valentw.md) structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
 
 
 
@@ -179,4 +179,4 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
-[VALENT](./ns-winreg-valenta.md)
+[VALENT](./ns-winreg-valentw.md)
