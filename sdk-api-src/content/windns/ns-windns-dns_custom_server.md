@@ -49,6 +49,8 @@ api_name:
 
 Represents a DNS custom server. A **DNS_CUSTOM_SERVER** object is passed to [DnsQueryEx](/windows/win32/api/windns/nf-windns-dnsqueryex) via the [DNS_QUERY_REQUEST3](/windows/win32/api/windns/ns-windns-dns_query_request3) structure.
 
+To use **DNS_CUSTOM_SERVER** together with *ServerAddr*, include `ws2ipdef.h` before `windns.h`.
+
 ## -struct-fields
 
 ### -field dwServerType
@@ -90,7 +92,13 @@ A [SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet) object 
 
 ### -field MaxSa
 
-Type: **[CHAR](/windows/win32/winprog/windows-data-types)\[\]**
+Type: **[CHAR](/windows/win32/winprog/windows-data-types)\[DNS\_ADDR\_MAX\_SOCKADDR\_LENGTH\]**
+
+A byte array, which designates storage for a [SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet). *MaxSa* is a union with *ServerAddr*.
+
+To use **DNS_CUSTOM_SERVER** together with *ServerAddr*, you must include `ws2ipdef.h` before `windns.h`.
+
+Besides storage for the **SOCKADDR_INET**, *MaxSa* avoids compile errors caused by *not* including `ws2ipdef.h`. This allows you to use any functionality from `windns.h` except for the **DNS_CUSTOM_SERVER**.
 
 ## -remarks
 
