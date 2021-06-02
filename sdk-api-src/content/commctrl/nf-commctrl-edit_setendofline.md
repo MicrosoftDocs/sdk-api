@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Sets the end of line character used for the content of the edit control. You can use this macro or send the <a href="/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a> message explicitly.
 
