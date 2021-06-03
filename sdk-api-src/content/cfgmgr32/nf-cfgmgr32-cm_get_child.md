@@ -110,7 +110,7 @@ Use one of the following functions, which retrieves local and remote device inst
 
 </li>
 </ul>
-You can also use the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a> to obtain local device instance handles from a device information set that is bound to the local machine. Do the following steps: 
+You can also use the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a> to obtain local device instance handles from a device information set that is bound to the local machine. Do the following steps: 
 
 <ol>
 <li>

@@ -119,7 +119,7 @@ Use one of the following functions to retrieve a device instance handle bound to
 
 </li>
 </ul>
-You can also use the <a href="/previous-versions/ff541299(v=vs.85)">device installation functions</a> to obtain device instance handles. Do the following steps: 
+You can also use the <a href="/windows-hardware/drivers/install/using-device-installation-functions#ddk-update-driver-function-dg">device installation functions</a> to obtain device instance handles. Do the following steps: 
 
 <ol>
 <li>
