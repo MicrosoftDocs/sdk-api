@@ -61,7 +61,7 @@ The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="/windows-
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 ### -param Enumerator [in, optional]
 

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ## -parameters
 
