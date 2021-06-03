@@ -55,13 +55,13 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Class_Property</b> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
+The <b>CM_Get_Class_Property</b> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>.
 
 ## -parameters
 
 ### -param ClassGUID [in]
 
-Pointer to the GUID that identifies the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve a device property that is set for the device class. For information about specifying the class type, see the <i>ulFlags</i> parameter.
+Pointer to the GUID that identifies the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to retrieve a device property that is set for the device class. For information about specifying the class type, see the <i>ulFlags</i> parameter.
 
 ### -param PropertyKey [in]
 

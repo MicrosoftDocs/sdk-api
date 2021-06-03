@@ -113,7 +113,7 @@ If the function cannot retrieve a device-specific icon, it will then attempt to 
 
 </li>
 <li>
-If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
+If the function cannot retrieve the class icon for the device, it will then attempt to retrieve the icon for the Unknown <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>, where the icon for the Unknown device setup class includes the image of a question mark (?).
 
 </li>
 </ul>

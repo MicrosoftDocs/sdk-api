@@ -82,7 +82,7 @@ Delete the class and all of its subkeys.
 
 #### CM_DELETE_CLASS_INTERFACE (available only in Windows Vista and later)
 
-Indicates that <i>ClassGuid</i> specifies a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> and not a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
+Indicates that <i>ClassGuid</i> specifies a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> and not a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>.
 
 ## -returns
 

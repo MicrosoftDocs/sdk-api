@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassPropertyKeysEx</b> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> on a local or a remote computer.
+The <b>SetupDiGetClassPropertyKeysEx</b> function retrieves an array of the device property keys that represent the device properties that are set for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> on a local or a remote computer.
 
 ## -parameters
 

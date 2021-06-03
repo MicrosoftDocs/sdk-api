@@ -50,7 +50,7 @@ dev_langs:
 
 ## -description
 
-The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>.
+The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>.
 
 ## -parameters
 

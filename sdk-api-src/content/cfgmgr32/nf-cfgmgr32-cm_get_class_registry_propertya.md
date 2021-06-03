@@ -56,7 +56,7 @@ The <b>CM_Get_Class_Registry_Property</b> function retrieves a <a href="/windows
 
 ### -param ClassGuid [in]
 
-A pointer to the GUID that represents the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to retrieve a property.
+A pointer to the GUID that represents the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to retrieve a property.
 
 ### -param ulProperty [in]
 

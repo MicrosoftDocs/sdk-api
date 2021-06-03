@@ -76,7 +76,7 @@ Length, in bytes, of the data block whose offset is specified by <b>CSD_LegacyDa
 
 ### -field CSD_ClassGuid
 
-A globally unique identifier (GUID) identifying a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. If both <b>CSD_SignatureLength</b> and <b>CSD_LegacyDataSize</b> are zero, the GUID is null.
+A globally unique identifier (GUID) identifying a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a>. If both <b>CSD_SignatureLength</b> and <b>CSD_LegacyDataSize</b> are zero, the GUID is null.
 
 ### -field CSD_Signature
 

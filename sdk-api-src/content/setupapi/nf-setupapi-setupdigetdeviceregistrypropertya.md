@@ -211,7 +211,7 @@ The function retrieves a bitwise OR of a device's characteristics flags in a DWO
 
 #### SPDRP_CLASS
 
-The function retrieves a REG_SZ string that contains the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> of a device.
+The function retrieves a REG_SZ string that contains the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> of a device.
 
 
 

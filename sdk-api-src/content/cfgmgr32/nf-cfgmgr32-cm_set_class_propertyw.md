@@ -61,7 +61,7 @@ The <b>CM_Set_Class_Property</b> function sets a class property for a device set
 
 ### -param ClassGUID [in]
 
-Pointer to the GUID that identifies the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> for which to set a device property. For information about specifying the class type, see the <i>ulFlags</i> parameter.
+Pointer to the GUID that identifies the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> or <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> for which to set a device property. For information about specifying the class type, see the <i>ulFlags</i> parameter.
 
 ### -param PropertyKey [in]
 

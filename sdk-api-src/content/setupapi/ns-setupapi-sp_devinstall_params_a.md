@@ -226,7 +226,7 @@ This flag is read-only. Only the operating system sets this flag.
 
 #### DI_MULTMFGS
 
-Set by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> contains drivers that are provided by multiple manufacturers.
+Set by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a> if a list of drivers for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> contains drivers that are provided by multiple manufacturers.
 
 This flag is read-only. Only the operating system sets this flag.
 

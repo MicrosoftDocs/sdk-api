@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassProperty</b> function retrieves a device property that is set for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
+The <b>SetupDiGetClassProperty</b> function retrieves a device property that is set for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ## -parameters
 
