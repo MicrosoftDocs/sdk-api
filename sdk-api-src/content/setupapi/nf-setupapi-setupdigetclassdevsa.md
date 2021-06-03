@@ -221,7 +221,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
 ```
 
 
-<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/previous-versions/ff553412(v=vs.85)">device interface class</a>.
+<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 
 ```
