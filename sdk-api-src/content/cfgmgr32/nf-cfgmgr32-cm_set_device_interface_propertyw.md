@@ -69,7 +69,7 @@ Pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</
 
 ### -param PropertyType [in]
 
-A <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device interface property. To delete a property, this must be set to DEVPROP_TYPE_EMPTY.
+A <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device interface property. To delete a property, this must be set to DEVPROP_TYPE_EMPTY.
 
 ### -param PropertyBuffer [in]
 
