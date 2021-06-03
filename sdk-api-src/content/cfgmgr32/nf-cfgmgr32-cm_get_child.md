@@ -78,7 +78,7 @@ To enumerate all children of a devnode in the local machine's device tree, first
 
 <b>Using Device Instance Handles</b>
 
-Device instance handle that you use with <a href="/previous-versions/ff549713(v=vs.85)">PnP configuration manager functions</a> are bound to machine handles, as follows:
+Device instance handle that you use with <a href="/windows/win32/api/cfgmgr32/">PnP configuration manager functions</a> are bound to machine handles, as follows:
 
 <ul>
 <li>
