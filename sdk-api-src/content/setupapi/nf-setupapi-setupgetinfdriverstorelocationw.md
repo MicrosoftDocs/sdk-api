@@ -122,7 +122,7 @@ Call the <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetinfpublished
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a>
+<a href="/windows/win32/api/setupapi/ns-setupapi-sp_altplatform_info_v2">SP_ALTPLATFORM_INFO</a>
 
 
 
