@@ -213,7 +213,7 @@ Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT)
 ```
 
 
-<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a>.
+<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a>.
 
 
 ```
@@ -229,7 +229,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 ```
 
 
-<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/previous-versions/ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
+<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="/windows-hardware/drivers/install/system-defined-device-setup-classes-available-to-vendors">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>
