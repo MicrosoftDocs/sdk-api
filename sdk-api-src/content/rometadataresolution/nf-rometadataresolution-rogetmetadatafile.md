@@ -148,17 +148,6 @@ The input string is an existing namespace rather than a typename.
 
 </td>
 </tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HR_RESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called from a process that is not in a Windows Store app.
-
-</td>
-</tr>
 </table>
 
 ## -remarks
