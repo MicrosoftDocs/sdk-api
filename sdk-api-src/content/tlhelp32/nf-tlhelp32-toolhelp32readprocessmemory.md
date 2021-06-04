@@ -80,9 +80,7 @@ Returns <b>TRUE</b> if successful.
 
 ## -remarks
 
-The function opens an handle to the target process and closes it once the read operation is completed.
-
-As such, it's recommended to use [ReadProcessMemory](../memoryapi/nf-memoryapi-readprocessmemory.md) instead if you're planning to perform several reads.
+This function opens a handle to the target process and closes it once the read operation has completed. If you're planning to perform several reads, use [ReadProcessMemory](../memoryapi/nf-memoryapi-readprocessmemory.md) instead.
 
 ## -see-also
 
