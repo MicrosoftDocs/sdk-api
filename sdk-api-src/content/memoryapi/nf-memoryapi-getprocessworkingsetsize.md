@@ -1,52 +1,44 @@
 ---
-UID: NF:winbase.GetProcessWorkingSetSize
-title: GetProcessWorkingSetSize function (winbase.h)
-description: Retrieves the minimum and maximum working set sizes of the specified process.
-helpviewer_keywords: ["GetProcessWorkingSetSize","GetProcessWorkingSetSize function","_win32_getprocessworkingsetsize","base.getprocessworkingsetsize","winbase/GetProcessWorkingSetSize"]
-old-location: base\getprocessworkingsetsize.htm
+UID: NF:memoryapi.GetProcessWorkingSetSize
 tech.root: backup
-ms.assetid: 9ac2e9ae-31f4-40aa-8d23-6926fa6dec22
-ms.date: 12/05/2018
-ms.keywords: GetProcessWorkingSetSize, GetProcessWorkingSetSize function, _win32_getprocessworkingsetsize, base.getprocessworkingsetsize, winbase/GetProcessWorkingSetSize
-req.header: winbase.h
-req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+title: GetProcessWorkingSetSize
+ms.date: 06/02/2021
+targetos: Windows
+description: Retrieves the minimum and maximum working set sizes of the specified process.
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: Kernel32.dll
+req.header: memoryapi.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-targetos: Windows
-req.typenames: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - GetProcessWorkingSetSize
- - winbase/GetProcessWorkingSetSize
-dev_langs:
- - c++
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - DllExport
 api_location:
  - Kernel32.dll
 api_name:
  - GetProcessWorkingSetSize
+f1_keywords:
+ - GetProcessWorkingSetSize
+ - memoryapi/GetProcessWorkingSetSize
+dev_langs:
+ - c++
 ---
-
-# GetProcessWorkingSetSize function
-
 
 ## -description
 
