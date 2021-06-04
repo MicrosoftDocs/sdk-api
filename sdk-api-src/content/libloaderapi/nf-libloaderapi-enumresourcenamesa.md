@@ -1,42 +1,32 @@
 ---
-UID: NF:winbase.EnumResourceNamesA
-title: EnumResourceNamesA function (winbase.h)
-description: Enumerates resources of a specified type within a binary module.
-helpviewer_keywords: ["EnumResourceNames","EnumResourceNames function [Menus and Other Resources]","EnumResourceNamesA","EnumResourceNamesW","_win32_EnumResourceNames","_win32_enumresourcenames_cpp","menurc.enumresourcenames","winbase/EnumResourceNames","winbase/EnumResourceNamesA","winbase/EnumResourceNamesW","winui._win32_enumresourcenames"]
-old-location: menurc\enumresourcenames.htm
+UID: NF:libloaderapi.EnumResourceNamesA
 tech.root: menurc
-ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
-ms.date: 09/24/2020
-ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
-req.header: winbase.h
-req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+title: EnumResourceNamesA
+ms.date: 06/02/2021
+targetos: Windows
+description: Enumerates resources of a specified type within a binary module.
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: EnumResourceNamesW (Unicode) and EnumResourceNamesA (ANSI)
+req.dll: Kernel32.dll
+req.header: libloaderapi.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-targetos: Windows
-req.typenames: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - EnumResourceNamesA
- - winbase/EnumResourceNamesA
-dev_langs:
- - c++
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - DllExport
 api_location:
@@ -44,12 +34,16 @@ api_location:
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
  - KernelBase.dll
 api_name:
- - EnumResourceNames
  - EnumResourceNamesA
- - EnumResourceNamesW
+ - EnumResourceNames
+f1_keywords:
+ - EnumResourceNamesA
+ - libloaderapi/EnumResourceNamesA
+ - EnumResourceNames
+ - libloaderapi/EnumResourceNames
+dev_langs:
+ - c++
 ---
-
-# EnumResourceNamesA function
 
 ## -description
 

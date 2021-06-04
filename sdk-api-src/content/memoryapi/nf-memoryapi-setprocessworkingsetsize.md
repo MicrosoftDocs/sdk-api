@@ -1,52 +1,44 @@
 ---
-UID: NF:winbase.SetProcessWorkingSetSize
-title: SetProcessWorkingSetSize function (winbase.h)
-description: Sets the minimum and maximum working set sizes for the specified process.
-helpviewer_keywords: ["SetProcessWorkingSetSize","SetProcessWorkingSetSize function","_win32_setprocessworkingsetsize","base.setprocessworkingsetsize","winbase/SetProcessWorkingSetSize"]
-old-location: base\setprocessworkingsetsize.htm
+UID: NF:memoryapi.SetProcessWorkingSetSize
 tech.root: backup
-ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
-ms.date: 12/05/2018
-ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
-req.header: winbase.h
-req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+title: SetProcessWorkingSetSize
+ms.date: 06/02/2021
+targetos: Windows
+description: Sets the minimum and maximum working set sizes for the specified process.
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: Kernel32.dll
+req.header: memoryapi.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-targetos: Windows
-req.typenames: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - SetProcessWorkingSetSize
- - winbase/SetProcessWorkingSetSize
-dev_langs:
- - c++
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - DllExport
 api_location:
  - Kernel32.dll
 api_name:
  - SetProcessWorkingSetSize
+f1_keywords:
+ - SetProcessWorkingSetSize
+ - memoryapi/SetProcessWorkingSetSize
+dev_langs:
+ - c++
 ---
-
-# SetProcessWorkingSetSize function
-
 
 ## -description
 
@@ -59,17 +51,12 @@ Sets the minimum and maximum working set sizes for the specified process.
 A handle to the process whose working set sizes is to be set. 
 
 
-
-
 The handle must have the <b>PROCESS_SET_QUOTA</b> access right. For more information, see 
 <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param dwMinimumWorkingSetSize [in]
 
 The minimum working set size for the process, in bytes. The virtual memory manager attempts to keep at least this much memory resident in the process whenever the process is active. 
-
-
-
 
 This parameter must be greater than zero but less than or equal to the maximum working set size. The default size is 50 pages (for example, this is 204,800 bytes on systems with a 4K page size). If the value is greater than zero but less than 20 pages, the minimum value is set to 20 pages.
 
@@ -105,11 +92,10 @@ If the values of either <i>dwMinimumWorkingSetSize</i> or <i>dwMaximumWorkingSet
 
 The operating system allocates working set sizes on a first-come, first-served basis. For example, if an application successfully sets 40 megabytes as its minimum working set size on a 64-megabyte system, and a second application requests a 40-megabyte working set size, the operating system denies the second application's request.
 
-Using the 
-<b>SetProcessWorkingSetSize</b> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When the application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set. An application can use the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.
+Using the <b>SetProcessWorkingSetSize</b> function to set an application's minimum and maximum working set sizes does not guarantee that the requested memory will be reserved, or that it will remain resident at all times. When the application is idle, or a low-memory situation causes a demand for memory, the operating system can reduce the application's working set. An application can use the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>function to lock ranges of the application's virtual address space in memory; however, that can potentially degrade the performance of the system.
 
 When you increase the working set size of an application, you are taking away physical memory from the rest of the system. This can degrade the performance of other applications and the system as a whole. It can also lead to failures of operations that require physical memory to be present (for example, creating processes, threads, and kernel pool). Thus, you must use the 
-<b>SetProcessWorkingSetSize</b> function carefully. You must always consider the performance of the whole system when you are designing an application.
+**SetProcessWorkingSetSize** function carefully. You must always consider the performance of the whole system when you are designing an application.
 
 ## -see-also
 

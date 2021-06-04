@@ -49,13 +49,9 @@ api_name:
  - HTTP_DATA_CHUNK_TYPE
 ---
 
-# HTTP_DATA_CHUNK_TYPE enumeration
-
-
 ## -description
 
-The 
-<a href="/windows/desktop/api/http/ne-http-http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
+Defines the data source for a data chunk.
 
 ## -enum-fields
 

@@ -1,52 +1,44 @@
 ---
-UID: NF:winbase.DeleteTimerQueue
-title: DeleteTimerQueue function (winbase.h)
-description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
-helpviewer_keywords: ["DeleteTimerQueue","DeleteTimerQueue function","_win32_deletetimerqueue","base.deletetimerqueue","winbase/DeleteTimerQueue"]
-old-location: base\deletetimerqueue.htm
+UID: NF:threadpoollegacyapiset.DeleteTimerQueue
 tech.root: backup
-ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
-ms.date: 12/05/2018
-ms.keywords: DeleteTimerQueue, DeleteTimerQueue function, _win32_deletetimerqueue, base.deletetimerqueue, winbase/DeleteTimerQueue
-req.header: winbase.h
-req.include-header: Windows.h
-req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
+title: DeleteTimerQueue
+ms.date: 06/02/2021
+targetos: Windows
+description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: Kernel32.lib
+req.header: threadpoollegacyapiset.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
-req.irql: 
-targetos: Windows
-req.typenames: 
 req.redist: 
-ms.custom: 19H1
-f1_keywords:
- - DeleteTimerQueue
- - winbase/DeleteTimerQueue
-dev_langs:
- - c++
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+ - apiref
 api_type:
  - DllExport
 api_location:
  - Kernel32.dll
 api_name:
  - DeleteTimerQueue
+f1_keywords:
+ - DeleteTimerQueue
+ - threadpoollegacyapiset/DeleteTimerQueue
+dev_langs:
+ - c++
 ---
-
-# DeleteTimerQueue function
-
 
 ## -description
 
@@ -54,12 +46,14 @@ Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 <div class="alert"><b>Note</b>  This function is obsolete and has been replaced by the 
 <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex">DeleteTimerQueueEx</a> function.</div><div> </div>
 
+
 ## -parameters
 
-### -param TimerQueue [in]
+### -param TimerQueue
 
 A handle to the timer queue. This handle is returned by the 
 <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
+
 
 ## -returns
 
@@ -67,6 +61,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
 
 ## -remarks
 
@@ -85,6 +80,7 @@ For an example that uses
 <div class="code"></div>
 
 ## -see-also
+
 
 <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
@@ -107,3 +103,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/timer-queues">Timer Queues</a>
+
