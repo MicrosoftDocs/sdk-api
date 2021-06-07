@@ -87,8 +87,24 @@ The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quate
 The use of this method requires some setup before its use. See
    <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionsquadsetup">XMQuaternionSquadSetup</a> for details.
 
+The following example shows how to use a set of quaternion keys (Q0, Q1, Q2, Q3) to compute the inner quadrangle points (A, B, C). This ensures that the tangents are continuous across adjacent segments.
+
+```cpp
+   // Rotation about the z-axis
+   XMVECTOR Q0 = XMVectorSet(0,  0, 0.707f, -.707f);
+   XMVECTOR Q1 = XMVectorSet(0,  0, 0.000f, 1.000f);
+   XMVECTOR Q2 = XMVectorSet(0,  0, 0.707f, 0.707f);
+   XMVECTOR Q3 = XMVectorSet(0,  0, 1.000f, 0.000f);
+
+   XMVECTOR A, B, C;
+   XMQuaternionSquadSetup(&A, &B, &C, Q0, Q1, Q2, Q3);
+
+   XMVECTOR result = XMQuaternionSquad(Q1, A, B, C, 0.5f);
+   // result is a rotation of 45 degrees around the z-axis
+```
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
-Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
+Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
 ## -see-also
 
