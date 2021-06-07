@@ -4,7 +4,6 @@ title: XMVectorLog10 function (directxmath.h)
 description: Computes the base ten logarithm of each component of a vector.
 helpviewer_keywords: ["Use DirectX..XMVectorLog10","XMVectorLog10","XMVectorLog10 method [DirectX Math Support APIs]","dxmath.xmvectorlog10"]
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorLog10(XMVECTOR)
 ms.date: 06/06/2021
 ms.keywords: Use DirectX..XMVectorLog10, XMVectorLog10, XMVectorLog10 method [DirectX Math Support APIs], dxmath.xmvectorlog10
 req.header: directxmath.h

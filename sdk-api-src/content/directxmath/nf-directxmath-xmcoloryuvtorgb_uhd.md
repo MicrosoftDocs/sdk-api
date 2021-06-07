@@ -4,7 +4,6 @@ title: XMColorYUVToRGB_UHD function (directxmath.h)
 description: Converts YUV color values to RGB UHD color values.
 helpviewer_keywords: ["Use DirectX..XMColorYUVToRGB_UHD","XMColorYUVToRGB_UHD","XMColorYUVToRGB_UHD method [DirectX Math Support APIs]","dxmath.xmcoloryuvtorgb_uhd"]
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB_UHD(XMVECTOR)
 ms.date: 06/06/2021
 ms.keywords: Use DirectX..XMColorYUVToRGB_UHD, XMColorYUVToRGB_UHD, XMColorYUVToRGB_UHD method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb_uhd
 req.header: directxmath.h

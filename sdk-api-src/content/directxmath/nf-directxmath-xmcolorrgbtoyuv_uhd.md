@@ -3,9 +3,7 @@ UID: NF:directxmath.XMColorRGBToYUV_UHD
 title: XMColorRGBToYUV_UHD function (directxmath.h)
 description: Converts RGB color values to YUV UHD color values.
 helpviewer_keywords: ["Use DirectX..XMColorRGBToYUV_UHD","XMColorRGBToYUV_UHD","XMColorRGBToYUV_UHD method [DirectX Math Support APIs]","dxmath.xmcolorrgbtoyuv_uhd"]
-old-location: dxmath\xmcolorrgbtoyuv_uhd.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToYUV_UHD(XMVECTOR)
 ms.date: 06/06/2021
 ms.keywords: Use DirectX..XMColorRGBToYUV_UHD, XMColorRGBToYUV_UHD, XMColorRGBToYUV_UHD method [DirectX Math Support APIs], dxmath.xmcolorrgbtoyuv_uhd
 req.header: directxmath.h

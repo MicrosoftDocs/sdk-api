@@ -4,7 +4,6 @@ title: XMVectorExp10 function (directxmath.h)
 description: Computes ten raised to the power for each component.
 helpviewer_keywords: ["Use DirectX..XMVectorExp10","XMVectorExp10","XMVectorExp10 method [DirectX Math Support APIs]","dxmath.xmvectorexp10"]
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorExp10(XMVECTOR)
 ms.date: 06/06/2021
 ms.keywords: Use DirectX..XMVectorExp10, XMVectorExp10, XMVectorExp10 method [DirectX Math Support APIs], dxmath.xmvectorexp10
 req.header: directxmath.h

@@ -3,9 +3,7 @@ UID: NF:directxmath.XMMatrixVectorTensorProduct
 title: XMMatrixVectorTensorProduct function (directxmath.h)
 description: Builds an matrix from two vectors
 helpviewer_keywords: ["Use DirectX..XMMatrixVectorTensorProduct","XMMatrixVectorTensorProduct","XMMatrixVectorTensorProduct method [DirectX Math Support APIs]","dxmath.xmmatrixvectortensorproduct"]
-old-location: dxmath\xmmatrixaffinetransformation.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixVectorTensorProduct(XMVECTOR,XMVECTOR)
 ms.date: 06/06/2021
 ms.keywords: Use DirectX..XMMatrixVectorTensorProduct,XMMatrixVectorTensorProduct,XMMatrixVectorTensorProduct method [DirectX Math Support APIs], dxmath.xmmatrixvectortensorproduct
 req.header: directxmath.h
