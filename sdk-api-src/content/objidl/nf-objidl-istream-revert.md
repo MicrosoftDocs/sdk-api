@@ -59,6 +59,11 @@ The <b>Revert</b> method discards all changes that have been made to a transacte
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The stream was successfully reverted to its previous version.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable. |
+
 ## -remarks
 
 The <b>Revert</b> method discards changes made to a transacted stream since the last commit operation.

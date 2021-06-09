@@ -80,6 +80,22 @@ A pointer, when successful, to the location of the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The storage object was created successfully.|
+|E_PENDING | Asynchronous Storage only: Part or all of the necessary data is currently unavailable. |
+|STG_E_ACCESSDENIED | Not enough permissions to create storage object.|
+|STG_E_FILEALREADYEXISTS | The name specified for the storage object already exists in the storage object and the *grfMode* parameter includes the flag STGM_FAILIFTHERE.|
+|STG_E_INSUFFICIENTMEMORY | The storage object was not created due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value specified for the *grfMode<* parameter is not a valid *STGM* constant value.|he value specified for the grfMode parameter is not a valid
+|STG_E_INVALIDFUNCTION | The specified combination of flags in the *grfMode* parameter is not supported.|
+|STG_E_INVALIDNAME | Not a valid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the storage object was not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The storage object was not created because there are too many open files.|
+|STG_S_CONVERTED | The existing stream with the specified name was replaced with a new storage object containing a single stream called CONTENTS. The new storage object will be added.|
+
 ## -remarks
 
 If a storage with the name specified in the <i>pwcsName</i> parameter already exists within the parent storage object, and the <i>grfMode</i> parameter includes the STGM_CREATE flag, the existing storage is replaced by the new one. If the <i>grfMode</i> parameter includes the STGM_CONVERT flag, the existing element is converted to a stream object named CONTENTS and the new storage object is created containing the CONTENTS stream object. The destruction of the old element and the creation of the new storage object are both subject to the transaction mode on the parent storage object. Be aware that you cannot use STGM_CONVERT if you are also using STGM_CREATE.

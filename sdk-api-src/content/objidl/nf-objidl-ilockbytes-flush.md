@@ -60,6 +60,15 @@ The
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The flush operation was successful.|
+|STG_E_ACCESSDENIED | The caller does not have permission to access the byte array.|
+|STG_E_MEDIUMFULL | The flush operation is not completed because there is no space left on the storage device.|
+|E_FAIL | General failure writing data.|
+|STG_E_TOOMANYFILESOPEN | Under certain circumstances, the **Flush** method executes a download-and-closeto flush, which can lead to a return value of STG_E_TOOMANYFILESOPEN if no file handles are available.|
+|STG_E_INVALIDHANDLE | An underlying file has been prematurely closed, or the correct floppy disk has been replaced by an invalid one.|
+
 ## -remarks
 
 <b>ILockBytes::Flush</b> flushes internal buffers to the underlying storage device.

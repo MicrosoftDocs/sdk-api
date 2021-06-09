@@ -80,6 +80,21 @@ On return, pointer to the location of the new
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The new stream was successfully created.|
+|E_PENDING | Asynchronous Storage only: Part or all of the necessary data is currently unavailable. |
+|STG_E_ACCESSDENIED | Not enough permissions to create stream.|
+|STG_E_FILEALREADYEXISTS | The name specified for the stream already exists in the storage object and the *grfMode* parameter includes the value STGM_FAILIFTHERE.|
+|STG_E_INSUFFICIENTMEMORY | The stream was not created due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value specified for the *grfMode* parameter is not a valid **STGM** constants value.|
+|STG_E_INVALIDFUNCTION | The specified combination of flags in the *grfMode* parameter is not supported; for example, when this method is called without the STGM_SHARE_EXCLUSIVE flag.|
+|STG_E_INVALIDNAME | Invalid value for *pwcsName*.|
+|STG_E_INVALIDPOINTER | The pointer specified for the stream object was invalid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was invalid.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_TOOMANYOPENFILES | The stream was not created because there are too many open files.|
+
 ## -remarks
 
 If a stream with the name specified in the <i>pwcsName</i> parameter already exists and the <i>grfMode</i> parameter includes the STGM_CREATE flag, the existing stream is replaced by a newly created one. Both the destruction of the old stream and the creation of the new stream object are subject to the transaction mode on the parent storage object.

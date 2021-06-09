@@ -59,6 +59,10 @@ The <b>BeginMonitor</b> method is used to begin monitoring when a loading operat
 
 This method supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
 
+| Return code | Description |
+|----------------|---------------|
+| STG_E_INUSE | BeginMonitor</xref> was called while **ILayoutStorage** was already monitoring. |
+
 ## -remarks
 
 Normally an application calls 

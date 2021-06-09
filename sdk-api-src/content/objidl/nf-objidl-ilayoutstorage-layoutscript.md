@@ -72,6 +72,15 @@ Reserved for future use.
 
 This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as the following:
 
+| Return code | Description |
+|----------------|---------------|
+|STG_E_INVALIDPOINTER | The storage layout pointer is invalid.|
+|STG_E_INVALIDFLAG | The value of *glfInterleavedFlag* is invalid.|
+|STG_E_PATHNOTFOUND | The new document file name specified is invalid.|
+|STG_E_INSUFFICIENTMEMORY | There is not enough memory to complete the operation.|
+|STG_E_INVALIDPARAMETER | One of the parameters is invalid.|
+| STG_E_INUSE | The **BeginMonitor** method was called while **ILayoutStorage** was already monitoring.|
+
 ## -remarks
 
 To provide explicit layout instructions, the application calls <b>ILayoutStorage::LayoutScript</b>, passing an array of 
