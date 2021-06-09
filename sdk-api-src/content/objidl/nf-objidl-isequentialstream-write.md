@@ -68,7 +68,8 @@ A pointer to a <b>ULONG</b> variable where this method writes the actual number 
 
 ## -returns
 
-This method can return one of these values.
+This method can return one of these values. 
+S_OK in case of success.
 
 ## -remarks
 
