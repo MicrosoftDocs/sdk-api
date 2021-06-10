@@ -1,7 +1,7 @@
 ---
 UID: NF:sharewindowcommandsourceinterop.IShareWindowCommandEventArgsInterop.GetWindow
 title: IShareWindowCommandEventArgsInterop::GetWindow
-description: TBD
+description: Gets the window identifier (a window handle).
 prerelease: true
 ms.date: 06/09/2021
 tech.root: winrt
