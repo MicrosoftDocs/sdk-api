@@ -59,11 +59,27 @@ The window identifier represents the window where the call or meeting is establi
 
 ### -param appWindow
 
+Type: **[HWND](/windows/win32/winprog/windows-data-types)\***
+
+The window identifier (a window handle) of the window where the call or meeting is established.
+
 ### -param riid
+
+Type: **[REFIID](/openspecs/windows_protocols/ms-oaut/bbde795f-5398-42d8-9f59-3613da03c318)**
+
+A reference to the interface identifier of the **Windows::UI::Shell::IShareWindowCommandSource** interface.
 
 ### -param shareWindowCommandSource
 
+Type: **[void](/windows/win32/winprog/windows-data-types)\*\***
+
+The address of a **Windows::UI::Shell::IShareWindowCommandSource** pointer in which to receive the [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommandsource) object.
+
 ## -returns
+
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
 
 ## -remarks
 

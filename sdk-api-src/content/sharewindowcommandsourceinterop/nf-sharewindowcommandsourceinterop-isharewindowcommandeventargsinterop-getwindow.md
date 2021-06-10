@@ -50,7 +50,15 @@ Gets the window identifier (a window handle).
 
 ### -param value
 
+Type: **[HWND](/windows/win32/winprog/windows-data-types)\***
+
+The address of a **HWND** in which to receive the window identifier (a window handle).
+
 ## -returns
+
+Type: **[HRESULT](/windows/win32/com/structure-of-com-error-codes)**
+
+If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/win32/com/com-error-codes-10).
 
 ## -remarks
 
