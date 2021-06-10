@@ -26,6 +26,7 @@
     "rometadataresolution.h",
     "roparameterizediid.h",
     "roregistrationapi.h",
+    "sharewindowcommandsourceinterop.h",
     "shcore.h",
     "shobjidl_core.h",
     "weakreference.h",
