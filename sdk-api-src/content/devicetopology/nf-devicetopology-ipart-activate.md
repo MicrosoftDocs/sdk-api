@@ -90,6 +90,8 @@ IID_IKsFormatSupport
 
 IID_IKsJackDescription
 
+IID_IKsJackDescription2
+
 For more information, see Remarks.
 
 ### -param ppvObject [out]
@@ -186,6 +188,9 @@ The <b>Activate</b> method supports the following function-specific control inte
 </li>
 <li>
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription</a>
+</li>
+<li>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
 </li>
 </ul>
 To obtain the interface ID of the function-specific control interface of a part, call the part's <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioAutoGainControl</b> is defined as follows:
