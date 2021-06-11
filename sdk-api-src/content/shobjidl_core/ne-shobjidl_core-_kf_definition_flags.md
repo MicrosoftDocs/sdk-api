@@ -78,8 +78,6 @@ Create the folder when the user first logs on. Normally a known folder is not cr
 
 <b>Introduced in Windows 8.1</b>. Prevent showing the <b>Locations</b> tab in the property dialog of the known folder. 
 
-<b>Introduced in Windows 8.1</b>. Prevent showing the <b>Locations</b> tab in the property dialog of the known folder.
-
 ## -remarks
 
 The <b>KF_DEFINITION_FLAGS</b> type is defined in Shobjidl.h as shown here.

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt32Array
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateUInt32Array (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of unsigned 32-bit integer values.
 helpviewer_keywords: ["CreateUInt32Array","CreateUInt32Array method [Windows Runtime]","CreateUInt32Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt32Array method","IPropertyValueStatics.CreateUInt32Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt32Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt32Array","winrt.ipropertyvaluefactory_createuint32array","winrt.ipropertyvaluestatics_createuint32array"]
 old-location: winrt\ipropertyvaluestatics_createuint32array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateUInt32Array
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateUInt32Array (windows.foundation.h)
 
 
 ## -description

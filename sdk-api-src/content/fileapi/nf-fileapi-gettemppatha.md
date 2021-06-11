@@ -68,6 +68,8 @@ api_name:
 
 Retrieves the path of the directory designated for temporary files.
 
+ 
+
 ## -parameters
 
 ### -param nBufferLength [in]
@@ -93,6 +95,9 @@ If the function fails, the return value is zero. To get extended error informati
 The maximum possible return value is <b>MAX_PATH</b>+1 (261).
 
 ## -remarks
+
+> [!NOTE]
+> Apps should call [GetTempPath2](/windows/win32/api/fileapi/nf-fileapi-gettemppath2a) instead of **GetTempPath**. 
 
 The <b>GetTempPath</b> function checks for the existence of 
     environment variables in the following order and uses the first path found:

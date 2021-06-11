@@ -143,10 +143,10 @@ The CompletionRoutine is a placeholder for an application-supplied function name
 
 In as much as the <i>dwIoControlCode</i> parameter is now a 32-bit entity, it is possible to adopt an encoding scheme that provides a convenient way to partition the opcode identifier space. The <i>dwIoControlCode</i> parameter is constructed to allow for protocol and vendor independence when adding new control codes, while retaining backward compatibility with Windows Sockets 1.1 and UNIX control codes. The <i>dwIoControlCode</i> parameter has the following form.
 
-|||||||
-|----|----|----|-----|-----------------------|---------------------------------|
+
 | bit 31 | bit 30 | bit 29 | bits 28 and 27 | bits 26 thru 16 | bits 15 thru 0 |
-| **I** | **O** | **V** | **T** | **Vendor/Address family** | **Code** |
+|----|----|----|-----|-----------------------|---------------------------------|
+| I | O | V | T | Vendor/Address family | Code |
 
 **I** is set if the input buffer is valid for the code, as with **IOC_IN**.
 
@@ -457,7 +457,7 @@ For more detailed information, see the [**SIO_IDEAL_SEND_BACKLOG_QUERY**](/windo
 <span id="SIO_KEEPALIVE_VALS__opcode_setting__I__T__3_"></span><span id="sio_keepalive_vals__opcode_setting__i__t__3_"></span><span id="SIO_KEEPALIVE_VALS__OPCODE_SETTING__I__T__3_"></span>**SIO_KEEPALIVE_VALS** (opcode setting: I, T==3)
 </dt> <dd>
 
-Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the <i>Requirements for Internet Hostsâ€”Communication Layers</i> specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt).
+Enables or disables the per-connection setting of the TCP **keep-alive** option which specifies the TCP keep-alive timeout and interval. For more information on the keep-alive option, see section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the [IETF website](https://www.ietf.org/rfc/rfc1122.txt).
 
 **SIO_KEEPALIVE_VALS** can be used to enable or disable keep-alive probes and set the keep-alive timeout and interval. The keep-alive timeout specifies the timeout, in milliseconds, with no activity until the first keep-alive packet is sent. The keep-alive interval specifies the interval, in milliseconds, between when successive keep-alive packets are sent if no acknowledgement is received.
 

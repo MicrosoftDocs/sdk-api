@@ -121,7 +121,7 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="../msinkaut/nn-msinkaut-iinkpicture.md">IInkPicture</a>
 
 
 

@@ -68,7 +68,7 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 

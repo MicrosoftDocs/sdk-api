@@ -47,10 +47,9 @@ api_name:
 
 # IContextMenu interface
 
-
 ## -description
 
-Exposes methods that either create or merge a shortcut menu associated with a Shell object.
+Exposes methods that either create or merge a shortcut menu associated with a Shell object. Note that there are several better ways to extend Shell menus. For more information, see <a href="/windows/win32/shell/context-menu-handlers">Creating Shortcut Menu Handlers</a>.
 
 ## -inheritance
 
@@ -63,7 +62,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu</b> interface in
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement <b>IContextMenu</b> in the following situations.
-				
+			
 
 <ul>
 <li>

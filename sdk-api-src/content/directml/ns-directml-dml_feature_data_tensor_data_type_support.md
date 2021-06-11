@@ -59,4 +59,5 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 <b>TRUE</b> if the tensor data type is supported within tensors by the DirectML device. Otherwise, <b>FALSE</b>.
 
 ## -see-also
+
 [IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)

@@ -62,7 +62,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetwork</b> interface inheri
 
 ## -remarks
 
-The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="/previous-versions/windows/embedded/ms890661(v=msdn.10)">QueryInterface</a> for <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
+The COM Object that implements <b>INetwork</b> also implements a property bag for additional properties. To get access to this property bag you can use the <b>INetwork</b> interface and <a href="/previous-versions/windows/embedded/ms890661(v=msdn.10)">QueryInterface</a> for <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>. The property bag on this COM Object contains the following properties:
 
 <table>
 <tr>
@@ -185,4 +185,4 @@ The machine has been configured for Direct Access and access is detected to the 
 </table>
  
 
-The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="/previous-versions/windows/embedded/ms884257(v=msdn.10)">IPropertyBag::Read</a> and <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.
+The <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> interface accepts <i>LPCOLESTR</i> as part of the <a href="/previous-versions/windows/embedded/ms884257(v=msdn.10)">IPropertyBag::Read</a> and <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag::Write</a> methods. For convenience, the string values for these properties are defined inside <b>netlistmgr.h</b> using the same names.

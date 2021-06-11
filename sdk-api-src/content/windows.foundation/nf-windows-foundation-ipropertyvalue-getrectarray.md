@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRectArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetRectArray (windows.foundation.h)
 description: Gets the array of Rect values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetRectArray","GetRectArray method [Windows Runtime]","GetRectArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetRectArray method","IPropertyValue.GetRectArray","IPropertyValue.IPropertyValue","IPropertyValue::GetRectArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetRectArray","winrt.ipropertyvalue_getrectarray"]
 old-location: winrt\ipropertyvalue_getrectarray.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetRectArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetRectArray (windows.foundation.h)
 
 
 ## -description

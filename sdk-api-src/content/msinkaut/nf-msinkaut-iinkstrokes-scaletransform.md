@@ -102,7 +102,7 @@ For the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 

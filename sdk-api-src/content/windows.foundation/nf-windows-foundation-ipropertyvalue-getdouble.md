@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDouble
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetDouble (windows.foundation.h)
 description: Gets the 64-bit floating point value that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetDouble","GetDouble method [Windows Runtime]","GetDouble method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetDouble method","IPropertyValue.GetDouble","IPropertyValue.IPropertyValue","IPropertyValue::GetDouble","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetDouble","winrt.ipropertyvalue_getdouble"]
 old-location: winrt\ipropertyvalue_getdouble.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetDouble
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetDouble (windows.foundation.h)
 
 
 ## -description

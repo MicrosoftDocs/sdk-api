@@ -62,7 +62,7 @@ This property is read-only.
 
 ## -remarks
 
-For CDMA devices, this returns a byte array representing a message as defined in section 3.4.2.1 SMS Point-to-Point Messageâ€ in the 3GPP2 specification C.S0015-A â€œShort Message Service (SMS) for Wideband Spread Spectrum Systemsâ€. SMS will only support the Wireless Messaging Teleservice (WMT) format.
+For CDMA devices, this returns a byte array representing a message as defined in section 3.4.2.1 “SMS Point-to-Point Message” in the 3GPP2 specification C.S0015-A “Short Message Service (SMS) for Wideband Spread Spectrum Systems”. SMS will only support the Wireless Messaging Teleservice (WMT) format.
 
 ## -see-also
 

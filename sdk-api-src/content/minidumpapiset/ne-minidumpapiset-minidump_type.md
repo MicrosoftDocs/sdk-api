@@ -227,7 +227,21 @@ Adds filter triage related data.
 
 ### -field MiniDumpWithAvxXStateContext
 
+Adds AVX crash state context registers.
+
+<b>Prior to DbgHelp 6.1:  </b>This value is not supported.
+
 ### -field MiniDumpWithIptTrace
+
+Adds Intel Processor Trace related data. 
+
+<b>Prior to DbgHelp 6.1:  </b>This value is not supported.
+
+### -field MiniDumpScanInaccessiblePartialPages
+
+Scans inaccessible partial memory pages.
+
+<b>Prior to DbgHelp 6.1:  </b>This value is not supported.
 
 ### -field MiniDumpValidTypeFlags
 

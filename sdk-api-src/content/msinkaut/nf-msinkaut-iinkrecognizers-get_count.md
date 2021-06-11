@@ -63,7 +63,7 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizers.md">IInkRecognizers</a>
 
 
 

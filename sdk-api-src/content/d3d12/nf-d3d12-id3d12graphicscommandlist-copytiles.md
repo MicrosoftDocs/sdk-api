@@ -105,7 +105,7 @@ If a copy operation involves writing to the same memory location multiple times 
 		happens to execute the copy operation. 
 
 The tiles involved in the copy operation can't include tiles that contain packed mipmaps or results of the copy 
-		  operation are undefined. To transfer data to and from mipmaps that the hardware packs into one tile, you must 
+		  operation are undefined. To transfer data to and from mipmaps that the hardware packs into the one-or-more tiles that constitute the packed mips, you must 
 		  use the standard (that is, non-tile specific) copy APIs 
 		  like <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a>.
 

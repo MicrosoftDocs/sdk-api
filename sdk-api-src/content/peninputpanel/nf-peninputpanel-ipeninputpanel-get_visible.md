@@ -69,7 +69,7 @@ You can set the <b>Visible</b> property to <b>VARIANT_TRUE</b> only when the att
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

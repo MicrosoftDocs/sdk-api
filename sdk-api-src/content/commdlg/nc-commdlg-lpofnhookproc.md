@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="/windows/win32/shell/common-file-dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
 Receives notification messages sent from the dialog box. The function also receives messages for any additional controls that you defined by specifying a child dialog template. The <i>OFNHookProc</i> hook procedure is an application-defined or library-defined callback function that is used with the Explorer-style <b>Open</b> and <b>Save As</b> dialog boxes.
 

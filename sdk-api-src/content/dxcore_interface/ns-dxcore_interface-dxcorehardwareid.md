@@ -2,14 +2,11 @@
 UID: NS:dxcore_interface.DXCoreHardwareID
 title: DXCoreHardwareID
 description: Represents the PnP hardware ID parts for an adapter.
-author: windows-sdk-content
 tech.root: dxcore
-ms.author: windowssdkdev
 ms.date: 06/06/2019
 ms.keywords: DXCoreHardwareID structure, dxcore_interface.dxcorehardwareid
 ms.localizationpriority: low
 targetos: Windows
-ms.prod: Windows
 req.assembly: 
 req.construct-type: structure
 req.ddi-compliance: 

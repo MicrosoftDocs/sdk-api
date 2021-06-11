@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64Array
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetInt64Array (windows.foundation.h)
 description: Gets the array of signed 64-bit integer values that is stored in the current IPropertyValue object.
 helpviewer_keywords: ["GetInt64Array","GetInt64Array method [Windows Runtime]","GetInt64Array method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetInt64Array method","IPropertyValue.GetInt64Array","IPropertyValue.IPropertyValue","IPropertyValue::GetInt64Array","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetInt64Array","winrt.ipropertyvalue_getint64array"]
 old-location: winrt\ipropertyvalue_getint64array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValue.GetInt64Array
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetInt64Array (windows.foundation.h)
 
 
 ## -description

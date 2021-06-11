@@ -73,7 +73,7 @@ If the new position causes the panel to appear outside the boundary of the scree
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="../peninputpanel/nn-peninputpanel-ipeninputpanel.md">IPenInputPanel</a>
 
 
 

@@ -106,7 +106,7 @@ If this function succeeds, the return value is the same nonzero value that was p
 
 ## -remarks
 
-The **CMGetInfo** function can be called by applications directly to obtain information about the CMM. Applications should not call other CMM functions directly. To obtain CMM information, get the path to the CMM from the registry. Invoke the Windows API function [GetModuleHandle](https://msdn.microsoft.com/en-us/library/ms683199\(v=vs.85\)) and pass the file name of the CMM as the value of its parameter. Call the **CMGetInfo** function and pass it the constant CMM\_DESCRIPTION as the value of its parameter. Call the [LoadString](https://msdn.microsoft.com/en-us/library/ms647486\(v=vs.85\)) function. Pass the module handle as the first parameter, and the return value of the **CMGetInfo** function as the value of the second parameter.
+The **CMGetInfo** function can be called by applications directly to obtain information about the CMM. Applications should not call other CMM functions directly. To obtain CMM information, get the path to the CMM from the registry. Invoke the Windows API function [GetModuleHandle](../libloaderapi/nf-libloaderapi-getmodulehandlea.md) and pass the file name of the CMM as the value of its parameter. Call the **CMGetInfo** function and pass it the constant CMM\_DESCRIPTION as the value of its parameter. Call the [LoadString](../winuser/nf-winuser-loadstringa.md) function. Pass the module handle as the first parameter, and the return value of the **CMGetInfo** function as the value of the second parameter.
 
 CMMs that do not run on Windows 95 should return 0x0050000 for CMM\_WIN\_VERSION.
 

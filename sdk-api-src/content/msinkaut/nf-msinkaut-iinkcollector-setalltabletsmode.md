@@ -131,7 +131,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

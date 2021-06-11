@@ -68,5 +68,5 @@ S_OK or error code
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
+<a href="nn-wtsprotocol-iwrdswddmiddprops.md">IWRdsWddmIddProps</a>
 

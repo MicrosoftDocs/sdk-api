@@ -61,5 +61,4 @@ Specifies a linear (including bilinear, trilinear, etc.) mode.
 
 ## -see-also
 
-[DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_upsample_2d_operator_desc)
-
+* [DML_UPSAMPLE_2D_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_upsample_2d_operator_desc)

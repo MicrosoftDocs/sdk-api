@@ -310,11 +310,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
-If <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
+If <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string.
 
-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
-
-integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
 
 When you are finished using a bitmap, cursor, or icon you loaded without specifying the <b>LR_SHARED</b> flag, you can release its associated memory by calling one of the functions in the following table.
 

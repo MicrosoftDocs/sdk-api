@@ -1,7 +1,7 @@
 ---
 UID: NF:icm.CMTranslateColors
 title: CMTranslateColors
-description: Translates an array of colors from a source [color space](ms536506\(v=vs.85\).md) to a destination color space using a color transform.
+description: Translates an array of colors from a source [color space](/windows/win32/wcs/c) to a destination color space using a color transform.
 tech.root: wcs
 ms.date: 02/01/2021
 targetos: Windows

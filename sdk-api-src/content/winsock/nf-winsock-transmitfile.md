@@ -1,12 +1,10 @@
 ---
 UID: NF:winsock.TransmitFile
 title: TransmitFile function (winsock.h)
-author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm
 tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFN_TRANSMITFILE, LPFN_TRANSMITFILE function [Winsock], TF_DISCONNECT, TF_REUSE_SOCKET, TF_USE_DEFAULT_WORKER, TF_USE_KERNEL_APC, TF_USE_SYSTEM_THREAD, TF_WRITE_BEHIND, TransmitFile, TransmitFile function [Winsock], _win32_transmitfile_2, winsock.transmitfile_2, winsock/LPFN_TRANSMITFILE, winsock/TransmitFile
 req.header: winsock.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -42,7 +42,8 @@ dev_langs:
 
 Associates a specified WCS color profile with a specified device.
 
-> [!NOTE] This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileAddDisplayAssociation**](nf-icm-colorprofileadddisplayassociation.md) for managing advanced color profiles.
+> [!NOTE] 
+> This API does not support "advanced color" profiles for HDR monitors. Use [**ColorProfileAddDisplayAssociation**](nf-icm-colorprofileadddisplayassociation.md) for managing advanced color profiles.
 
 ## -parameters
 

@@ -1,5 +1,5 @@
 ---
-UID: NS:winhttp.__unnamed_struct_5
+UID: NS:winhttp._WINHTTP_CERTIFICATE_INFO
 title: WINHTTP_CERTIFICATE_INFO (winhttp.h)
 description: The WINHTTP_CERTIFICATE_INFO structure contains certificate information returned from the server. This structure is used by the WinHttpQueryOption function.
 helpviewer_keywords: ["WINHTTP_CERTIFICATE_INFO","WINHTTP_CERTIFICATE_INFO structure [HTTP]","http.internet_certificate_info","winhttp/WINHTTP_CERTIFICATE_INFO","winhttp_internet_certificate_info_structure"]

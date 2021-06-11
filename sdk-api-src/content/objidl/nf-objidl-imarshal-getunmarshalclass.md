@@ -72,7 +72,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client processâ€”the typical caseâ€”or written to a global table, where it can be retrieved by multiple clients. Possible values come from the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
+Indicates whether the data to be marshaled is to be transmitted back to the client process (the typical case) or written to a global table, where it can be retrieved by multiple clients. Possible values come from the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration.
 
 ### -param pCid [out]
 

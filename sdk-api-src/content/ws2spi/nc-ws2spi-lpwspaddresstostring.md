@@ -1,7 +1,7 @@
 ---
 UID: NC:ws2spi.LPWSPADDRESSTOSTRING
 title: LPWSPADDRESSTOSTRING (ws2spi.h)
-description: The LPWSPAddressToString function converts all components of a sockaddr structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+description: The LPWSPAddressToString function converts all components of a sockaddr structure into a human-readable numeric string representation of the address. This is used mainly for display purposes.
 helpviewer_keywords: ["LPWSPADDRESSTOSTRING","WSPAddressToString","LPWSPAddressToString function [Winsock]","_win32_wspaddresstostring_2","winsock.wspaddresstostring_2","ws2spi/LPWSPAddressToString"]
 old-location: winsock\wspaddresstostring_2.htm
 tech.root: WinSock
@@ -52,7 +52,7 @@ api_name:
 
 The 
 **LPWSPAddressToString** function converts all components of a 
-<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure into a human-readable numeric string representation of the address. This is used mainly for display purposes.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Length of the address of <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr<
 
 ### -param lpszAddressString [out]
 
-Buffer that receives the human readableâ€“address string..
+Buffer that receives the human-readable address string..
 
 ### -param lpdwAddressStringLength [in, out]
 

@@ -155,7 +155,7 @@ To set the interest of the <a href="/windows/desktop/tablet/inkcollector-class">
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 

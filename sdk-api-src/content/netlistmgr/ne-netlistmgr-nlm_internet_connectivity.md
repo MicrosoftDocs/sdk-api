@@ -80,5 +80,5 @@ These connectivity flags can be retrieved by querying  for the <i>NA_InternetCon
 
 
 
-<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>
+<a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a>
 

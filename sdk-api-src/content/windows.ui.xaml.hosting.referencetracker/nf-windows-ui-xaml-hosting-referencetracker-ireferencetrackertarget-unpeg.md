@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Unpeg
-title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerTarget::Unpeg (windows.ui.xaml.hosting.referencetracker.h)
 description: Marks that the reference tracker target is no longer in use by the XAML framework, and can be collected.
 helpviewer_keywords: ["IReferenceTrackerTarget interface [Windows Runtime]","Unpeg method","IReferenceTrackerTarget.Unpeg","IReferenceTrackerTarget.xaml","IReferenceTrackerTarget::Unpeg","IReferenceTrackerTarget::xaml","Unpeg","Unpeg method [Windows Runtime]","Unpeg method [Windows Runtime]","IReferenceTrackerTarget interface","windows/IReferenceTrackerTarget::Unpeg","winrt.ireferencetrackertarget_unpeg"]
 old-location: winrt\ireferencetrackertarget_unpeg.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTrackerTarget.Unpeg
 ---
 
-# IReferenceTrackerTarget::xaml
+# IReferenceTrackerTarget::Unpeg (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description

@@ -7,7 +7,6 @@ description: Frees memory allocated for error reports referenced by HDIAGNOSTIC_
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -30,7 +29,6 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
 api_location:
  - diagnosticdataquery.h
 api_name:

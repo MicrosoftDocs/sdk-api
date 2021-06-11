@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumeration of Error states returned by the function <a href="https://msdn.microsoft.com/en-us/library/Mt830288(v=VS.85).aspx">KeyCredentialManagerGetOperationErrorStates</a> as flags.
+Enumeration of Error states returned by the function <a href="../keycredmgr/nf-keycredmgr-keycredentialmanagergetoperationerrorstates.md">KeyCredentialManagerGetOperationErrorStates</a> as flags.
 
 ## -enum-fields
 

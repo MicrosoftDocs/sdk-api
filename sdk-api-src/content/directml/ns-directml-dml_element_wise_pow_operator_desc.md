@@ -112,4 +112,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
+
 [DML_ELEMENT_WISE_CONSTANT_POW_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_constant_pow_operator_desc)

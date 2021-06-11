@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop.GetRenderingDevice
-title: ICompositionGraphicsDeviceInterop::composition (windows.ui.composition.interop.h)
+title: ICompositionGraphicsDeviceInterop::GetRenderingDevice (windows.ui.composition.interop.h)
 description: Gets the rendering device.
 helpviewer_keywords: ["GetRenderingDevice","GetRenderingDevice method","GetRenderingDevice method","ICompositionGraphicsDeviceInterop interface","ICompositionGraphicsDeviceInterop interface","GetRenderingDevice method","ICompositionGraphicsDeviceInterop.GetRenderingDevice","ICompositionGraphicsDeviceInterop.composition","ICompositionGraphicsDeviceInterop::GetRenderingDevice","ICompositionGraphicsDeviceInterop::composition","w_ui_comp.icompositiongraphicsdeviceinterop_getrenderingdevice","windows/ICompositionGraphicsDeviceInterop::GetRenderingDevice"]
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop_getrenderingdevice.htm
@@ -45,7 +45,7 @@ api_name:
  - ICompositionGraphicsDeviceInterop.GetRenderingDevice
 ---
 
-# ICompositionGraphicsDeviceInterop::composition
+# ICompositionGraphicsDeviceInterop::GetRenderingDevice (windows.ui.composition.interop.h)
 
 
 ## -description

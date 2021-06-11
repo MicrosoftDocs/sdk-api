@@ -7,7 +7,6 @@ description: Frees memory allocated for the diagnostic record page referenced by
 ms.localizationpriority: low
 tech.root: security
 targetos: Windows
-ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

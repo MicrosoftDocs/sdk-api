@@ -6,7 +6,6 @@ ms.keywords: tagDIAGNOSTIC_REPORT_DATA, DIAGNOSTIC_REPORT_DATA
 description: This resource contains information about a diagnostic report.
 tech.root: security
 targetos: Windows
-ms.prod: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

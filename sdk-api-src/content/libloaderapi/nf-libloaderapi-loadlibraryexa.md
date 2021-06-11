@@ -352,6 +352,8 @@ This value cannot be combined with any <b>LOAD_LIBRARY_SEARCH</b> flag.
 <td width="60%">
 Specifies that the digital signature of the binary image must be checked at load time.
 
+This value requires Windows 8.1, Windows 10 or later.
+
 </td>
 </tr>
 

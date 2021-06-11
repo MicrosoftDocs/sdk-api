@@ -131,7 +131,7 @@ An exception occurred inside the method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 

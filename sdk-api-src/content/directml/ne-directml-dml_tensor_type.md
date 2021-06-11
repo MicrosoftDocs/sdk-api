@@ -58,4 +58,3 @@ Indicates an unknown tensor description type. This value is never valid.
 ### -field DML_TENSOR_TYPE_BUFFER
 
 Indicates a tensor description that is represented by a Direct3D 12 buffer. The corresponding struct type is [DML_BUFFER_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_buffer_tensor_desc).
-

@@ -1,10 +1,10 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerConfigurationInterop
 title: IRadialControllerConfigurationInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)�RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
+description: Enables interoperability with a WinRT�RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
 helpviewer_keywords: ["IRadialControllerConfigurationInterop","IRadialControllerConfigurationInterop interface","IRadialControllerConfigurationInterop interface","described","Input_Radial.iradialcontrollerconfigurationinterop","radialcontrollerinterop/IRadialControllerConfigurationInterop"]
 old-location: input_radial\iradialcontrollerconfigurationinterop.htm
-tech.root: input_radial
+tech.root: winrt
 ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Universal Windows Platform (UWP) <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> menu.
+Enables interoperability with a WinRT <a href="/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object and provides access to <b>RadialControllerConfiguration</b> members for customizing a <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> menu.
 
 ## -inheritance
 

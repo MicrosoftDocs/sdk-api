@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Returns the client's current cross-origin policy to apply to the download session.
 
@@ -67,5 +67,5 @@ Returns S_OK upon successful completion.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846740(v=VS.85).aspx">IMFNetCrossOriginSupport</a>
+<a href="../mfidl/nn-mfidl-imfnetcrossoriginsupport.md">IMFNetCrossOriginSupport</a>
 

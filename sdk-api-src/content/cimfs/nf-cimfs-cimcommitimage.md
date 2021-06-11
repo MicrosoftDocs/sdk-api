@@ -2,11 +2,9 @@
 UID: NF:cimfs.CimCommitImage
 title: CimCommitImage
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimCommitImage
 targetos: Windows
-ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

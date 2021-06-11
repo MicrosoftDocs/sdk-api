@@ -115,4 +115,5 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 | OutputTensor | Output | 4 | UINT8 |
 
 ## -see-also
+
 [DML_ELEMENT_WISE_DEQUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_dequantize_linear_operator_desc)

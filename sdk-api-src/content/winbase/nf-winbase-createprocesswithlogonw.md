@@ -182,7 +182,7 @@ This parameter also controls the new process's priority class, which is used to 
 
 If the dwCreationFlags parameter has a value of 0:
 
-- The process inherits both the error mode of the caller and the parent's console. 
+- The process gets the default error mode, creates a new console and creates a new process group. 
 - The environment block for the new process is assumed to contain ANSI characters (see *lpEnvironment* parameter for additional information).
 - A 16-bit Windows-based application runs in a shared Virtual DOS machine (VDM).
 

@@ -80,7 +80,7 @@ TRUE if the wait succeeded. If the operation fails, the function returns FALSE. 
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
+Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
 

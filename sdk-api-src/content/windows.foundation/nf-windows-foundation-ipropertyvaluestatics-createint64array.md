@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInt64Array
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateInt64Array (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified array of signed 64-bit integer values.
 helpviewer_keywords: ["CreateInt64Array","CreateInt64Array method [Windows Runtime]","CreateInt64Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateInt64Array method","IPropertyValueStatics.CreateInt64Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateInt64Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateInt64Array","winrt.ipropertyvaluefactory_createint64array","winrt.ipropertyvaluestatics_createint64array"]
 old-location: winrt\ipropertyvaluestatics_createint64array.htm
@@ -45,7 +45,7 @@ api_name:
  - IPropertyValueStatics.CreateInt64Array
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateInt64Array (windows.foundation.h)
 
 
 ## -description

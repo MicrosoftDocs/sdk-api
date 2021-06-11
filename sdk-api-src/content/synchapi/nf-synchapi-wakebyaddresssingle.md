@@ -67,7 +67,7 @@ The address to signal. If another thread has previously called
 
 ## -remarks
 
-Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://msdn.microsoft.com/en-US/windows/desktop/hh852363">Windows Software Development Kit (SDK) for Windows 8</a>.
+Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk">Windows Software Development Kit (SDK) for Windows 8</a>.
 
 Only a thread within the same process can be woken.
 

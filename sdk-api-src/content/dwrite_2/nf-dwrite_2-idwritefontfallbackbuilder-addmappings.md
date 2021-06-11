@@ -45,12 +45,9 @@ api_name:
  - IDWriteFontFallbackBuilder.AddMappings
 ---
 
-# IDWriteFontFallbackBuilder::AddMappings
-
-
 ## -description
 
-Add all the mappings from an existing font fallback object.
+Adds all the mappings from an existing font fallback object, which can be used to compose larger fallback definitions. A common scenario is to start with the system fallback from [IDWriteFactory2::GetSystemFontFallback](/windows/win32/api/dwrite_2/nf-dwrite_2-idwritefactory2-getsystemfontfallback) to cover the majority of Unicode characters, but then customize a few ranges with additional application-specific entries, either appending them first (to have priority over the system default) before calling **AddMappings**; or calling **AddMappings** first, and then appending custom ranges to fill in any custom gaps.
 
 ## -parameters
 

@@ -70,6 +70,16 @@ Specifies that this method does not return some of the members in the
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The STATSTG structure was successfully returned at the specified location.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable. |
+|STG_E_ACCESSDENIED | The caller does not have enough permissions for accessing statistics for this storage object.|
+|STG_E_INSUFFICIENTMEMORY | The STATSTG structure was not returned due to a lack of memory.|
+|STG_E_INVALIDFLAG | The value for the *grfStateFlag* parameter is not valid.|
+|STG_E_INVALIDPOINTER | The *pStatStg* pointer is not valid.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 <b>IStream::Stat</b> retrieves a pointer to the 

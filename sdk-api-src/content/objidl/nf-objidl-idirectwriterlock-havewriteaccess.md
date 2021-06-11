@@ -58,6 +58,11 @@ The <b>HaveWriteAccess</b> method indicates whether the write lock has been take
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The storage object is currently locked for write access.|
+|S_FALSE | The storage object is not currently locked for write access.|
+
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>

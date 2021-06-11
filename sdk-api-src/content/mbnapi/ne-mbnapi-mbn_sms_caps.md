@@ -66,12 +66,12 @@ The device does not support SMS.
 ### -field MBN_SMS_CAPS_PDU_RECEIVE
 
 For GSM devices, this indicates that the device is capable of receiving PDU-type SMS. 
-For CDMA devices, this indicates that the device is capable of reading the SMS in binary format as defined in â€œsection 3.4.2.1 SMS Point-to-Point Messageâ€ in 3GPP2 specification C.S0015-A â€œShort Message Service (SMS) for Wideband Spread Spectrum Systemsâ€.
+For CDMA devices, this indicates that the device is capable of reading the SMS in binary format as defined in section 3.4.2.1 “SMS Point-to-Point Message” in 3GPP2 specification C.S0015-A “Short Message Service (SMS) for Wideband Spread Spectrum Systems”.
 
 ### -field MBN_SMS_CAPS_PDU_SEND
 
 For GSM devices, this indicates that the device is capable of sending PDU-type SMS. 
-For CDMA devices, this indicates that the device is capable of sending the SMS in binary format as defined in â€œsection 3.4.2.1 SMS Point-to-Point Messageâ€ in 3GPP2 specification C.S0015-A â€œShort Message Service (SMS) for Wideband Spread Spectrum Systemsâ€.
+For CDMA devices, this indicates that the device is capable of sending the SMS in binary format as defined in section 3.4.2.1 “SMS Point-to-Point Message” in 3GPP2 specification C.S0015-A “Short Message Service (SMS) for Wideband Spread Spectrum Systems”.
 
 ### -field MBN_SMS_CAPS_TEXT_RECEIVE
 

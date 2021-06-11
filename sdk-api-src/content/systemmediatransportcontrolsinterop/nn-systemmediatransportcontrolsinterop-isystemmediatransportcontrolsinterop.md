@@ -4,7 +4,7 @@ title: ISystemMediaTransportControlsInterop (systemmediatransportcontrolsinterop
 description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
 helpviewer_keywords: ["ISystemMediaTransportControlsInterop","ISystemMediaTransportControlsInterop interface","ISystemMediaTransportControlsInterop interface","described","mediatransport.isystemmediatransportcontrolsinterop","systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"]
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
-tech.root: mediatransport
+tech.root: winrt
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3
 ms.date: 12/05/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
@@ -50,14 +50,10 @@ api_name:
 
 ## -description
 
-Allows an app to get an instance of the <a href="/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface.
+Enables interoperability with a WinRT a [SystemMediaTransportControls](/uwp/api/windows.media.systemmediatransportcontrols) object.
 
-## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemMediaTransportControlsInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>ISystemMediaTransportControlsInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+
 
 ## -see-also
 

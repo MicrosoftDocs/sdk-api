@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.DisconnectUnusedReferenceSources
-title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerHost::DisconnectUnusedReferenceSources (windows.ui.xaml.hosting.referencetracker.h)
 description: Requests that the host perform a garbage collection and remove all unnecessary reference sources.
 helpviewer_keywords: ["DisconnectUnusedReferenceSources","DisconnectUnusedReferenceSources method [Windows Runtime]","DisconnectUnusedReferenceSources method [Windows Runtime]","IReferenceTrackerHost interface","IReferenceTrackerHost interface [Windows Runtime]","DisconnectUnusedReferenceSources method","IReferenceTrackerHost.DisconnectUnusedReferenceSources","IReferenceTrackerHost.xaml","IReferenceTrackerHost::DisconnectUnusedReferenceSources","IReferenceTrackerHost::xaml","windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources","winrt.ireferencetrackerhost_disconnectunusedreferencesources"]
 old-location: winrt\ireferencetrackerhost_disconnectunusedreferencesources.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTrackerHost.DisconnectUnusedReferenceSources
 ---
 
-# IReferenceTrackerHost::xaml
+# IReferenceTrackerHost::DisconnectUnusedReferenceSources (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description

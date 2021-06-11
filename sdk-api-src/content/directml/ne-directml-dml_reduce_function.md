@@ -65,7 +65,7 @@ Indicates a reduction function that computes the mean of the input tensor's elem
 
 ### -field DML_REDUCE_FUNCTION_L1
 
-Indicates a reduction function that computes the L1 norm of the input tensor's elements along the specified axes, x = |x1| + |x2| + ... + |xn|.
+Indicates a reduction function that computes the L1 norm of the input tensor's elements along the specified axes, x = \|x1\| + \|x2\| + ... + \|xn\|.
 
 ### -field DML_REDUCE_FUNCTION_L2
 
@@ -101,5 +101,4 @@ Indicates a reduction function that computes the sum square of the input tensor'
 
 ## -see-also
 
-[DML_REDUCE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reduce_operator_desc)
-
+* [DML_REDUCE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reduce_operator_desc)

@@ -184,7 +184,7 @@ The corresponding subobject type is **[D3D12_PIPELINE_STATE_FLAGS](/windows/win3
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_DEPTH_STENCIL1
 
 Indicates an expanded depth stencil subobject type. This expansion of the depth stencil subobject supports optional depth bounds checking.
-The corresponding subobject type is **[D3D12_DEPTH_STENCIL1](/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil1)**.
+The corresponding subobject type is **[D3D12_DEPTH_STENCIL_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1)**.
 
 
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_VIEW_INSTANCING

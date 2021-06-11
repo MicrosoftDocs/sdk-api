@@ -15,6 +15,7 @@
     "objidl.h",
     "playtomanagerinterop.h",
     "printmanagerinterop.h",
+    "radialcontrollerinterop.h",
     "remotesystemadditionalinfo.h",
     "restrictederrorinfo.h",
     "roapi.h",
@@ -51,7 +52,14 @@
     "windowsstoragecom.h",
     "winnt.h",
     "winrt.h",
-    "winstring.h"
+    "winstring.h",
+    "accountssettingspaneinterop.h",
+    "print3dmanagerinterop.h",
+    "systemmediatransportcontrolsinterop.h",
+    "uiviewsettingsinterop.h",
+    "useractivityinterop.h",
+    "userconsentverifierinterop.h",
+    "dragdropinterop.h"
   ],
   "displayName": "Windows Runtime C++ reference"
 }

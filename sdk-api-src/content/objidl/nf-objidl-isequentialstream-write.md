@@ -70,6 +70,17 @@ A pointer to a <b>ULONG</b> variable where this method writes the actual number 
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The data was successfully written to the stream object.|
+|E_PENDING | Asynchronous Storage only: Part or all of the data to be written is currently unavailable.|
+|STG_E_MEDIUMFULL | The write operation failed because there is no space left on the storage device.|
+|STG_E_ACCESSDENIED | The caller does not have the required  permissions for writing to this stream object.|
+|STG_E_CANTSAVE | Data cannot be written for reasons other than improper access or insufficient space.|
+|STG_E_INVALIDPOINTER | One of the pointer values is not valid. The *pv* parameter must contain a valid pointer even if *cb* is zero.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+|STG_E_WRITEFAULT | The write operation failed due to a disk error. This value is also returned when this method attempts to write to a stream that was opened in simple mode (using the STGM_SIMPLE flag).|
+
 ## -remarks
 
 <b>ISequentialStream::Write</b> writes the specified data to a stream object. The seek pointer is adjusted for the number of bytes actually written. The number of bytes actually written is returned in the <i>pcbWritten</i> parameter. If the byte count is zero bytes, the write operation has no effect.

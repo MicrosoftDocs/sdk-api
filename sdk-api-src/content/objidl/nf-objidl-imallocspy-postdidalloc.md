@@ -72,7 +72,7 @@ The value returned to the caller of <a href="/windows/desktop/api/objidl/nf-obji
 
 ## -remarks
 
-When a spy object implementing <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> is registered using the <a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a> function, COM calls this method immediately after any call to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>. This method is included for completeness and consistencyâ€”it is not anticipated that developers will implement significant functionality in this method.
+When a spy object implementing <a href="/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> is registered using the <a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a> function, COM calls this method immediately after any call to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>. This method is included for completeness and consistency; it is not anticipated that developers will implement significant functionality in this method.
 
 For convenience, <i>pRequest</i>, the original pointer passed in the call to <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">DidAlloc</a>, is passed to <b>PostDidAlloc</b>. In addition, the parameter <i>fActual</i> is a Boolean value that indicates whether this value was actually passed to <b>DidAlloc</b>. If not, it would indicate that <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-predidalloc">IMallocSpy::PreDidAlloc</a> was implemented to alter this pointer for some debugging purpose.
 

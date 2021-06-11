@@ -1,12 +1,10 @@
 ---
 UID: NI:winioctl.FSCTL_DISMOUNT_VOLUME
 title: FSCTL_DISMOUNT_VOLUME
-author: windows-sdk-content
 description: Dismounts a volume regardless of whether or not the volume is currently in use. For more information, see the Remarks section.
 old-location: fs\fsctl_dismount_volume.htm
 tech.root: FileIO
 ms.assetid: 8828760c-9635-4c69-9867-c2f5314841e6
-ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DISMOUNT_VOLUME, FSCTL_DISMOUNT_VOLUME control, FSCTL_DISMOUNT_VOLUME control code [Files], _win32_fsctl_dismount_volume, base.fsctl_dismount_volume, fs.fsctl_dismount_volume, winioctl/FSCTL_DISMOUNT_VOLUME
 req.header: winioctl.h
@@ -26,7 +24,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-ms.prod: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

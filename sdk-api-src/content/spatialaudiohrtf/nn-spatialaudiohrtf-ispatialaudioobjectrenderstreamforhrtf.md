@@ -68,4 +68,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStre
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
+<a href="../spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase.md">ISpatialAudioObjectRenderStreamBase</a>

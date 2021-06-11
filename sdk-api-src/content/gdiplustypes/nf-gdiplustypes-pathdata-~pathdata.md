@@ -3,7 +3,7 @@ UID: NF:gdiplustypes.PathData.~PathData
 title: PathData::~PathData
 ms.date: 11/4/2019
 targetos: Windows
-description: Destructor for the [**PathData**](./nl-gdiplustypes-pathdata.md) class.
+description: Destructor for the [**PathData**](../gdiplustypes/nl-gdiplustypes-pathdata.md) class.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function

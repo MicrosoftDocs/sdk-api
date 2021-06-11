@@ -113,16 +113,6 @@ The input string is not an API contract defined in any examined .winmd file.
 The input string is an existing namespace rather than an API contract name.
 </td>
 </tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HR_RESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function was called from a process that is not in a UWP app container.
-</td>
-</tr>
 </table>
 
 ## -remarks

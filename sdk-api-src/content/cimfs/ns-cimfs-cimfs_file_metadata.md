@@ -2,11 +2,9 @@
 UID: NS:cimfs._CIMFS_FILE_METADATA
 title: CIMFS_FILE_METADATA
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: _CIMFS_FILE_METADATA, CIMFS_FILE_METADATA
 targetos: Windows
-ms.prod: Windows
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

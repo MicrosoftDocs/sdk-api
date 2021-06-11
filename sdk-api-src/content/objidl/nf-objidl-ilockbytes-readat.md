@@ -74,6 +74,14 @@ Pointer to a <b>ULONG</b> where this method writes the actual number of bytes re
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | Indicates that the specified number of bytes were read, or the maximum number of bytes were read to the end of the byte array.|
+|E_FAIL | Data could not be read from the byte array.|
+|E_PENDING | Asynchronous Storage only: Part or all of the data to be read is currently unavailable. |
+|STG_E_ACCESSDENIED | The caller does not have permission to access the byte array.|
+|STG_E_READFAULT | The number of bytes to be read does not equal the number of bytes that were actually read.|
+
 ## -remarks
 
 <b>ILockBytes::ReadAt</b> reads bytes from the byte array object. It reports the number of bytes that were actually read. This value may be less than the number of bytes requested if an error occurs or if the end of the byte array is reached during the read.

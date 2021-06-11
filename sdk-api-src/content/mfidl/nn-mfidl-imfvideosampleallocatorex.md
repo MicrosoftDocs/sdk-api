@@ -61,7 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocatorEx</b>
 
 ## -remarks
 
-You can use this interface to allocateDirect3D 11 video samples, rather than allocate the texture surfaces and media samples directly. To get a pointer to this interface, call the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideosampleallocatorex">MFCreateVideoSampleAllocatorEx</a> function. 
+You can use this interface to allocate Direct3D 11 video samples, rather than allocate the texture surfaces and media samples directly. To get a pointer to this interface, call the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideosampleallocatorex">MFCreateVideoSampleAllocatorEx</a> function. 
 
 To allocate video samples, perform the following steps:
 

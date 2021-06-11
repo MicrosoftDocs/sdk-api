@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Resize
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::Resize (windows.ui.xaml.media.dxinterop.h)
 description: Resizes the surface.
 helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","Resize method","IVirtualSurfaceImageSourceNative.Resize","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::Resize","IVirtualSurfaceImageSourceNative::xaml","Resize","Resize method [Windows Runtime]","Resize method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::Resize","winrt.ivirtualsurfaceimagesourcenative_resize"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_resize.htm
@@ -45,7 +45,7 @@ api_name:
  - IVirtualSurfaceImageSourceNative.Resize
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::Resize (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description

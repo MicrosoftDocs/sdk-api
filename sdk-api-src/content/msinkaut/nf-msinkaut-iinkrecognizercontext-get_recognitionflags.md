@@ -76,7 +76,7 @@ For a list of modes that you can use, see the <a href="/windows/desktop/api/msin
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 

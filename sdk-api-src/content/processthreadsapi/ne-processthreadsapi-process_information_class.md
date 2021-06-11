@@ -74,7 +74,7 @@ The process information is represented by a <a href="/windows/desktop/api/proces
 
 ### -field ProcessLeapSecondInfo
 
-The process information is represented by a <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
+The process information is represented by a <a href="../processthreadsapi/ns-processthreadsapi-process_leap_second_info.md">PROCESS_LEAP_SECOND_INFO</a> structure.
 
 ### -field ProcessInformationClassMax
 

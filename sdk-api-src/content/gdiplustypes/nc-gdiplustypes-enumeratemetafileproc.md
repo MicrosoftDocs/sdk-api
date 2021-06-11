@@ -3,7 +3,7 @@ UID: NC:gdiplustypes.EnumerateMetafileProc
 title: EnumerateMetafileProc
 ms.date: 11/4/2019
 targetos: Windows
-description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes).md) method (and overloads).
+description: \**EnumerateMetafileProc** is the signature of a callback function that you implement in your application for the [**Graphics::EnumerateMetafile**](../gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(constmetafile_constpointf_int_constrectf__unit_enumeratemetafileproc_void_constimageattributes).md) method (and overloads).
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function

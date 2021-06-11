@@ -47,10 +47,9 @@ api_name:
 
 # WinVerifyTrustEx function
 
-
 ## -description
 
-The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier.
 
 For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
@@ -207,6 +206,8 @@ A pointer to a
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 
 ## -returns
+
+Note, while the return type is declared as HRESULT this API returns Win32 error codes, do not use SUCCEEDED() or FAILED() to test the result.
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>.
 

@@ -65,7 +65,7 @@ When attempting to browse to a URL address that does not contain a protocol, the
 
 URL Search Hooks are registered by adding a value that contains the object's class identifier (CLSID) string under the following key in the registry: 
 				
-				<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Internet Explorer</b>

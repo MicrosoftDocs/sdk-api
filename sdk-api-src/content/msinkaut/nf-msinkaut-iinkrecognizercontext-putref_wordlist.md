@@ -77,7 +77,7 @@ Using words longer than 256 characters will result in an E_POINTER exception whe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 

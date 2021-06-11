@@ -6,7 +6,6 @@ tech.root: security
 ms.date: 4/26/2019
 ms.keywords: SERVICE_REGISTRY_STATE_TYPE
 targetos: Windows
-ms.prod: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: winsvc.h

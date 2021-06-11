@@ -74,7 +74,7 @@ To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="../msinkaut15/nn-msinkaut15-iinkdivider.md">IInkDivider</a>
 
 
 

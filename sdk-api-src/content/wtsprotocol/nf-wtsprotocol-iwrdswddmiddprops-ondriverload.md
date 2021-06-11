@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 
 Termsrv uses this method to return a handle of the loaded WDDM ID driver to 
     the protocol stack. From this point the stack owns the handle and needs to call 
@@ -72,5 +72,5 @@ S_OK or error code
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
+<a href="nn-wtsprotocol-iwrdswddmiddprops.md">IWRdsWddmIddProps</a>
 

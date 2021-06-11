@@ -11,21 +11,25 @@ ms.topic: conceptual
 
 ## -description
 
-Overview of the Windows Runtime C++ reference technology.
+The headers in this technology area are provided to allow the associated Windows Runtime APIs to be called from Desktop applications.
 
-To develop Windows Runtime C++ reference, you need these headers:
+To develop C++ apps that interoperate with the associated Windows Runtime APIs, you need these headers:
 
+ * [accountssettingspaneinterop.h](../accountssettingspaneinterop/index.md)
  * [activation.h](../activation/index.md)
  * [activationregistration.h](../activationregistration/index.md)
  * [asyncinfo.h](../asyncinfo/index.md)
  * [corewindow.h](../corewindow/index.md)
+ * [dragdropinterop.h](../dragdropinterop/index.md)
  * [eventtoken.h](../eventtoken/index.md)
  * [hstring.h](../hstring/index.md)
  * [inputpaneinterop.h](../inputpaneinterop/index.md)
  * [inspectable.h](../inspectable/index.md)
  * [memorybuffer.h](../memorybuffer/index.md)
  * [playtomanagerinterop.h](../playtomanagerinterop/index.md)
+ * [print3dmanagerinterop.h](../print3dmanagerinterop/index.md)
  * [printmanagerinterop.h](../printmanagerinterop/index.md)
+ * [radialcontrollerinterop.h](../radialcontrollerinterop/index.md)
  * [remotesystemadditionalinfo.h](../remotesystemadditionalinfo/index.md)
  * [restrictederrorinfo.h](../restrictederrorinfo/index.md)
  * [robuffer.h](../robuffer/index.md)
@@ -35,6 +39,11 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [roparameterizediid.h](../roparameterizediid/index.md)
  * [roregistrationapi.h](../roregistrationapi/index.md)
  * [sharewindowcommandsourceinterop.h](../sharewindowcommandsourceinterop/index.md)
+ * [shcore.h](../shcore/index.md)
+ * [systemmediatransportcontrolsinterop.h](../systemmediatransportcontrolsinterop/index.md)
+ * [uiviewsettingsinterop.h](../uiviewsettingsinterop/index.md)
+ * [useractivityinterop.h](../useractivityinterop/index.md)
+ * [userconsentverifierinterop.h](../userconsentverifierinterop/index.md)
  * [weakreference.h](../weakreference/index.md)
  * [webauthenticationcoremanagerinterop.h](../webauthenticationcoremanagerinterop/index.md)
  * [windows.data.pdf.interop.h](../windows.data.pdf.interop/index.md)
@@ -49,6 +58,13 @@ To develop Windows Runtime C++ reference, you need these headers:
  * [windows.ui.xaml.media.dxinterop.h](../windows.ui.xaml.media.dxinterop/index.md)
  * [windowsstoragecom.h](../windowsstoragecom/index.md)
  * [winstring.h](../winstring/index.md)
+
+
+
+
+
+
+
 
 For programming guidance for this technology, see:
 * [Windows Runtime C++ reference](/windows/desktop/winrt)

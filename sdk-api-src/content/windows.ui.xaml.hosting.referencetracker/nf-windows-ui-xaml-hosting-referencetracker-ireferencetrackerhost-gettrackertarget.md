@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.GetTrackerTarget
-title: IReferenceTrackerHost::xaml (windows.ui.xaml.hosting.referencetracker.h)
+title: IReferenceTrackerHost::GetTrackerTarget (windows.ui.xaml.hosting.referencetracker.h)
 description: Requests the host to provide a reference tracker target that references a reference tracker source. This tracker target then controls the lifetime of the tracker source.
 helpviewer_keywords: ["GetTrackerTarget","GetTrackerTarget method [Windows Runtime]","GetTrackerTarget method [Windows Runtime]","IReferenceTrackerHost interface","IReferenceTrackerHost interface [Windows Runtime]","GetTrackerTarget method","IReferenceTrackerHost.GetTrackerTarget","IReferenceTrackerHost.xaml","IReferenceTrackerHost::GetTrackerTarget","IReferenceTrackerHost::xaml","windows/IReferenceTrackerHost::GetTrackerTarget","winrt.ireferencetrackerhost_gettrackertarget"]
 old-location: winrt\ireferencetrackerhost_gettrackertarget.htm
@@ -45,7 +45,7 @@ api_name:
  - IReferenceTrackerHost.GetTrackerTarget
 ---
 
-# IReferenceTrackerHost::xaml
+# IReferenceTrackerHost::GetTrackerTarget (windows.ui.xaml.hosting.referencetracker.h)
 
 
 ## -description

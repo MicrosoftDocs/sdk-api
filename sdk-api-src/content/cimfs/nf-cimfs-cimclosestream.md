@@ -2,11 +2,9 @@
 UID: NF:cimfs.CimCloseStream
 title: CimCloseStream
 ms.date: 9/9/2019
-ms.author: windowssdkdev
 tech.root: cimfs
 ms.keywords: CimCloseStream
 targetos: Windows
-ms.prod: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

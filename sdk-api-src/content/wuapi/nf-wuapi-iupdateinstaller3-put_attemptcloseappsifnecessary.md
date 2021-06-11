@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Sets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
@@ -67,5 +67,5 @@ Returns S_OK on success.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829692(v=VS.85).aspx">IUpdateInstaller3</a>
+<a href="nn-wuapi-iupdateinstaller3.md">IUpdateInstaller3</a>
 

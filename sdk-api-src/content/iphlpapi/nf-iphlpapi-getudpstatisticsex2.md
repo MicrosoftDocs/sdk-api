@@ -61,7 +61,7 @@ The
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Mt804346(v=VS.85).aspx">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
+<a href="../udpmib/ns-udpmib-mib_udpstats2.md">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
 
 ### -param Family [in]
 

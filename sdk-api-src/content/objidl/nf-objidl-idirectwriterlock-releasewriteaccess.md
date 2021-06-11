@@ -58,6 +58,10 @@ The <b>ReleaseWriteAccess</b> method releases the write lock previously obtained
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The write lock was successfully released.|
+
 ## -remarks
 
 The writer calls this method to release exclusive access to the storage object previously taken by calling <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>.
