@@ -173,7 +173,7 @@ If this value is combined with the <b>INSTALLUILEVEL_NONE</b> value, the install
 </dl>
 </td>
 <td width="60%">
-When specified will provide a completely silent installation, but will still prompt for elevation if required.  
+If combined with the <b>INSTALLUILEVEL_NONE</b> value, the installation will be completely silent except for the prompt for elevation if it is required.
  
 </td>
 </tr>
