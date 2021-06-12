@@ -1,3 +1,5 @@
+The `InternetSetStatusCallback` function is marked as returning `void` [in the docs](https://docs.microsoft.com/en-us/windows/win32/api/wininet/nf-wininet-internetsetstatuscallback), but actually it returns `INTERNET_STATUS_CALLBACK`.
+
 ---
 UID: NF:wininet.InternetSetStatusCallback
 title: InternetSetStatusCallback function (wininet.h)
