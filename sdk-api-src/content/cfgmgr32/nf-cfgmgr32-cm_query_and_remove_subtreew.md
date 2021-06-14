@@ -89,9 +89,23 @@ The purpose of the <b>CM_Query_And_Remove_SubTree</b> function is to allow an ap
 
 <b>CM_Query_And_Remove_SubTree</b> supports setting the flags parameter <i>ulFlags</i> with one of the following two flags; these flags apply only if Windows or an installer vetoes the removal of a device: 
 
-
+| Flag | Description |
+|------|-------------|
+| CM_REMOVE_UI_OK | The function allows a user dialog box to be displayed to indicate the reason for the veto. This is the default flag setting. |
+| CM_REMOVE_UI_NOT_OK | The function suppresses the display of a user dialog box that indicates the reason for the veto. |
 
 Beginning with Windows XP, <b>CM_Query_And_Remove_SubTree</b> also supports setting the following additional flag; this flag applies only if the function successfully removes the device instance:
+
+
+| Flag | Description |
+|------|-------------|
+| CM_REMOVE_NO_RESTART | If this flag is set, the function configures the device status such that the device cannot be restarted until after the device status is reset. |
+
+The device status is reset by the one of the following:
+- Calling [CM_Setup_DevNode](nf-cfgmgr32-cm_setup_devnode.md) for the device and specifying CM_SETUP_DEVNODE_RESET. After the device status is reset in this manner, the device can be restarted by calling [CM_Reenumerate_DevNode](nf-cfgmgr32-cm_reenumerate_devnode.md) for the device instance. After resetting the device status, any other operation that enumerates the device will also restart the device, for example, if the Device Manager is used to reenumerate devices.
+- The device is detached and reattached, or the computer is restarted. In this case, the device status will be reset and the device will be restarted.
+- If this flag is not set, the device status does not have to be reset. You can restart the removed device by a calling <b>CM_Setup_DevNode</b> for the device and by specifying CM_SETUP_DEVNODE_READY. Any other operation that reenumerates the device will also restart the device. An example of an operation that reenumerates a device is calling <b>CM_Reenumerate_DevNode</b> for the device, detaching and reattaching the device, or restarting the computer. |
+
 
 
 
