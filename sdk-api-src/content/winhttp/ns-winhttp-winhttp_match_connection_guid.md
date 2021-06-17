@@ -70,7 +70,7 @@ Type: **[ULONGLONG](/windows/win32/winprog/windows-data-types)**
 
 Flags.
 
-Due to the nature of connection-matching logic, it's possible for an unmarked connection to be assigned to serve the request (if one is encountered before a matching marked connection is). Set *ullFlags* to **WINHTTP_MATCH_CONNECTION_GUID_FLAG_REQUIRE_MARKED_CONNECTION** (0x00000001) if you don't want an unmarked connection to be matched. When using that flag, if no matching marked connection is found, then a new connection is created, and the request is sent on that connection.
+Due to the nature of connection-matching logic, it's possible for an unmarked connection to be assigned to serve the request (if one is encountered before a matching marked connection is). Set *ullFlags* to **WINHTTP_MATCH_CONNECTION_GUID_FLAG_REQUIRE_MARKED_CONNECTION** if you don't want an unmarked connection to be matched. When using that flag, if no matching marked connection is found, then a new connection is created, and the request is sent on that connection.
 
 ## -remarks
 

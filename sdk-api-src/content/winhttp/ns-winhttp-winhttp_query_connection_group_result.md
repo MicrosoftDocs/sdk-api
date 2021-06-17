@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a collection of host connection groups (containing http connections and their **GUID**s). Retrieved via [WinHttpQueryConnectionGroup](nf-winhttp-winhttpqueryconnectiongroup.md).
+Represents a description of the current state of WinHttp's connections. Retrieved via [WinHttpQueryConnectionGroup](nf-winhttp-winhttpqueryconnectiongroup.md).
 
 ## -struct-fields
 

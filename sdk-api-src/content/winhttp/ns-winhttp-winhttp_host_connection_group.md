@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a collection of connection groups (containing http connections and their **GUID**s).
+Represents a collection of connection groups.
 
 ## -struct-fields
 
@@ -76,4 +76,5 @@ An array of [WINHTTP_CONNECTION_GROUP](ns-winhttp-winhttp_connection_group.md) o
 
 ## -see-also
 
+* [WINHTTP_QUERY_CONNECTION_GROUP_RESULT](ns-winhttp-winhttp_query_connection_group_result.md)
 * [WINHTTP_CONNECTION_GROUP](ns-winhttp-winhttp_connection_group.md)

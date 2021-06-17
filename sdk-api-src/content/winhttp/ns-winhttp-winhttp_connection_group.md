@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a connection group (containing http connections and their **GUID**s).
+Represents a connection group.
 
 ## -struct-fields
 
@@ -58,7 +58,7 @@ Represents a connection group (containing http connections and their **GUID**s).
 
 Type: **[ULONG](/windows/win32/winprog/windows-data-types)**
 
-A http connection identifier.
+The number of connections marked with *guidGroup*.
 
 ### -field guidGroup
 
@@ -69,3 +69,5 @@ A http connection **GUID**.
 ## -remarks
 
 ## -see-also
+
+* [WINHTTP_HOST_CONNECTION_GROUP](ns-winhttp-winhttp_host_connection_group.md)

@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-Retrieves a collection of http connections and their **GUID**s.
+Retrieves a description of the current state of WinHttp's connections.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ An optional GUID. If provided, then only connections matching the GUID are retur
 
 Type: \_In\_ **[ULONGLONG](/windows/win32/winprog/windows-data-types)**
 
-Flags. Pass **WINHTTP_QUERY_CONNECTION_GROUP_FLAG_INSECURE** (0x0000000000000001ull) to indicate that you want non-HTTPS connections (see *hInternet*).
+Flags. Pass **WINHTTP_QUERY_CONNECTION_GROUP_FLAG_INSECURE** to indicate that you want non-HTTPS connections (see *hInternet*).
 
 ### -param ppResult
 
