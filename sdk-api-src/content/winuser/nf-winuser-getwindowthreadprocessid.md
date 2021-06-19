@@ -81,7 +81,7 @@ A pointer to a variable that receives the process identifier. If this parameter 
 
 Type: <b>DWORD</b>
 
-The return value is the identifier of the thread that created the window.
+If the function succeeds, the return value is the identifier of the thread that created the window. If the window handle is invalid, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 ## -see-also
 
