@@ -10,22 +10,22 @@ tech.root: fs
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Kernel32.dll
 req.header: fileapi.h
 req.idl: 
-req.include-header: 
+req.include-header: Windows.h
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows Server Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
-req.unicode-ansi: 
+req.unicode-ansi: GetTempPath2W (Unicode) and GetTempPath2A (ANSI) 
 topic_type:
  - apiref
 api_type:
