@@ -440,8 +440,8 @@ The following C++ example shows how to align sectors for unbuffered file writes.
 int main()
 {
    // Sample data
-   long bytesPerSector = 65536; // obtained from the GetFreeDiskSpace function.
-   long size = 15536; // Buffer size of your data to write.
+   unsigned long bytesPerSector = 65536; // obtained from the GetFreeDiskSpace function.
+   unsigned long size = 15536; // Buffer size of your data to write.
    
    // Ensure you have one more sector than Size would require.
    size_t sizeNeeded = bytesPerSector + ROUND_UP_SIZE(size, bytesPerSector);
