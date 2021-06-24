@@ -16,7 +16,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Core Audio APIs. For more information, see:
+This header is part of the Audio Devices DDI Reference. For more information, see:
 
-- [Core Audio APIs](../_coreaudio/index.md)
+- [Audio Devices DDI Reference](../_audio/index.md)
 
