@@ -1,3 +1,5 @@
+`lpServiceName` should be of type `LPCSTR` according to [the code example](https://docs.microsoft.com/en-us/windows/win32/services/svc-cpp) which sets it to a string literal from readonly data section.
+
 ---
 UID: NS:winsvc._SERVICE_TABLE_ENTRYA
 title: SERVICE_TABLE_ENTRYA (winsvc.h)
