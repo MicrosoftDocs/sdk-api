@@ -50,7 +50,7 @@ api_name:
 Performs a hyperbolic tangent activation function on every element in *InputTensor*, placing the result into the corresponding element of *OutputTensor*.
 
 ```
-f(x) = tanh(x) // (1 - exp(-2 * x)) / (1 + exp(-2 * x)).
+f(x) = (1 - exp(-2 * x)) / (1 + exp(-2 * x)).
 ```
 
 This operator supports in-place execution, meaning that the output tensor is permitted to alias *InputTensor* during binding.
