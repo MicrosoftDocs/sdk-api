@@ -52,7 +52,7 @@ api_name:
 
 Captures a still image from the video stream.
 
-## -parameters
+
 
 ## -returns
 

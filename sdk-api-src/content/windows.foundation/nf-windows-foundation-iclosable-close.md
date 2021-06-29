@@ -52,7 +52,7 @@ api_name:
 
 Performs application-defined tasks associated with freeing, releasing, or resetting allocated resources.
 
-## -parameters
+
 
 ## -returns
 

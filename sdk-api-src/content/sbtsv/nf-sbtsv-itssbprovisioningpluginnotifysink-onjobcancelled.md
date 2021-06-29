@@ -52,7 +52,7 @@ api_name:
 
 Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is cancelled.
 
-## -parameters
+
 
 ## -returns
 

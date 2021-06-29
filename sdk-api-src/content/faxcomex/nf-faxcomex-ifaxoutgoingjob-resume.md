@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingJob::Resume</b> method resumes the paused outbound fax job.
 
-## -parameters
+
 
 ## -returns
 

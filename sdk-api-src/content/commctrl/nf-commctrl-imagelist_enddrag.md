@@ -52,7 +52,7 @@ api_name:
 
 Ends a drag operation.
 
-## -parameters
+
 
 ## -remarks
 

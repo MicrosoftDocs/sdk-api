@@ -52,7 +52,7 @@ api_name:
 
 The <b>RemoveAll</b> method removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 
-## -parameters
+
 
 ## -see-also
 

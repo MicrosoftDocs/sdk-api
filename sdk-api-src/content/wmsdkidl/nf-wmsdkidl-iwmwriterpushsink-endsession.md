@@ -55,7 +55,7 @@ api_name:
 
 The <b>EndSession</b> method ends the push distribution session. This method sends an end-of-stream message to the server, and then shuts down the data path on the server.
 
-## -parameters
+
 
 ## -returns
 

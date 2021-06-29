@@ -56,7 +56,7 @@ api_name:
 Prompts the 
    subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Gets the initialization flags associated with the current deferred context.
 
-## -parameters
+
 
 ## -remarks
 

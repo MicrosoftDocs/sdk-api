@@ -55,7 +55,7 @@ api_name:
 
 The <b>Close</b> method disconnects all clients from the network sink, and releases the port.
 
-## -parameters
+
 
 ## -returns
 

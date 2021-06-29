@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetAlignment</b> method gets the alignment currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

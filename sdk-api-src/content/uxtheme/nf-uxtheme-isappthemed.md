@@ -55,7 +55,7 @@ api_name:
 
 Reports whether the current application's user interface displays using visual styles.
 
-## -parameters
+
 
 ## -returns
 

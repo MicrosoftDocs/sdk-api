@@ -52,7 +52,7 @@ api_name:
 
 Disconnects the custom client in RemoteApp and Desktop Connection. The RemoteApp and Desktop Connection runtime calls this method to disconnect the client.
 
-## -parameters
+
 
 ## -returns
 

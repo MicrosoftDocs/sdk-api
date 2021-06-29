@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Resets the enumerator so that the next call to the <a href="/windows/desktop/api/strmif/nf-strmif-ienumregfilters-next">IEnumRegFilters::Next</a> method begins again at the first filter, if any.
 
-## -parameters
+
 
 ## -returns
 

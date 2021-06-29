@@ -59,7 +59,7 @@ api_name:
 
 The <b>AllocSysString</b> method allocates a new <b>BSTR</b> string that is Automation compatible. It then copies the contents of the <a href="/windows/desktop/WmiSdk/chstring">CHString</a>string into it, including the terminating <b>NULL</b> character.
 
-## -parameters
+
 
 ## -returns
 

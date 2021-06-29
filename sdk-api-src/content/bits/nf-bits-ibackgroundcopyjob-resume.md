@@ -52,7 +52,7 @@ api_name:
 
 Activates a new job or restarts a job that has been suspended.
 
-## -parameters
+
 
 ## -returns
 

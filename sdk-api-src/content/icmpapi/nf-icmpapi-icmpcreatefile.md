@@ -54,7 +54,7 @@ api_name:
 The 
 <b>IcmpCreateFile</b> function opens a handle on which IPv4 ICMP echo requests can be issued.
 
-## -parameters
+
 
 ## -returns
 

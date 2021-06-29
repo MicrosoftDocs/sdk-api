@@ -52,7 +52,7 @@ api_name:
 
 Determines whether a call has been canceled.
 
-## -parameters
+
 
 ## -returns
 

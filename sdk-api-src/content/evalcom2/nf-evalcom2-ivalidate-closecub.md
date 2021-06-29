@@ -52,7 +52,7 @@ api_name:
 
 The <b>CloseCUB</b> method closes an open <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the <a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a> method.
 
-## -parameters
+
 
 ## -returns
 

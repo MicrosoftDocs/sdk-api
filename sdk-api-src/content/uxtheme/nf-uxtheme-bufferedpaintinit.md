@@ -54,7 +54,7 @@ api_name:
 
 Initialize buffered painting for the current thread.
 
-## -parameters
+
 
 ## -returns
 

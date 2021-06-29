@@ -52,7 +52,7 @@ api_name:
 
 Hides the control.
 
-## -parameters
+
 
 ## -returns
 

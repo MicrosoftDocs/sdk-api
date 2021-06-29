@@ -52,7 +52,7 @@ api_name:
 
 Pauses all animations.
 
-## -parameters
+
 
 ## -returns
 

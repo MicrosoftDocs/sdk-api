@@ -52,7 +52,7 @@ api_name:
 
 The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object with default values to enable installation of a Network Device Enrollment Service (NDES) role. To install an NDES role, this method must be called before using the <b>CMSCEPSetup</b> object. For information about default values, see <a href="/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
 
-## -parameters
+
 
 ## -see-also
 

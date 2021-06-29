@@ -53,7 +53,7 @@ api_name:
 
 Pauses the Media Session.
 
-## -parameters
+
 
 ## -returns
 

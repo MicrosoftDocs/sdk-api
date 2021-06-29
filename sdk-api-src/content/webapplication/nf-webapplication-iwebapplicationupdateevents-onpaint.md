@@ -52,7 +52,7 @@ api_name:
 
 Notifies the authoring app that a portion of the app was painted.
 
-## -parameters
+
 
 ## -returns
 

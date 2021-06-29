@@ -57,7 +57,7 @@ api_name:
 
 The <b>CancelIndividualization</b> method cancels a current call to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize">Individualize</a> method.
 
-## -parameters
+
 
 ## -returns
 

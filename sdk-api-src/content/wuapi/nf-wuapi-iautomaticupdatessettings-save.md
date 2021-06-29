@@ -57,7 +57,7 @@ api_name:
 
 Applies the current Automatic Updates settings.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Resets the enumeration to the beginning.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Halts playback of the current program and restarts playback of the current program within the program chain (PGC).
 
-## -parameters
+
 
 ## -returns
 

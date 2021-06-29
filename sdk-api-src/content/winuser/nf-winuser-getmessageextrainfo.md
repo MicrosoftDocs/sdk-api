@@ -58,7 +58,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 Retrieves the extra message information for the current thread. Extra message information is an application- or driver-defined value associated with the current thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

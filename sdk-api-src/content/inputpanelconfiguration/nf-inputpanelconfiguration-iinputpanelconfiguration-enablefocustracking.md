@@ -52,7 +52,7 @@ api_name:
 
 Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps  that controls the invoking and dismissing semantics of the touch keyboard.
 
-## -parameters
+
 
 ## -returns
 

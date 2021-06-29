@@ -53,7 +53,7 @@ api_name:
 
 The <b>Metafile::GetHENHMETAFILE</b> method gets a Windows handle to an Enhanced Metafile (EMF) file.
 
-## -parameters
+
 
 ## -returns
 

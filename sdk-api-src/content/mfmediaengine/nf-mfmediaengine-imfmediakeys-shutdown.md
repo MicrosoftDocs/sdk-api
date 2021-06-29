@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the associated Content Decryption Module (CDM).
 
-## -parameters
+
 
 ## -returns
 

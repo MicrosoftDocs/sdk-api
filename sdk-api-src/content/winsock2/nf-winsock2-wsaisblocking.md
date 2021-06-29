@@ -57,7 +57,7 @@ The Windows Socket
 
 Blocking hooks are generally used to keep a single-threaded GUI application responsive during calls to blocking functions. Instead of using blocking hooks, an applications should use a separate thread (separate from the main GUI thread) for network activity.
 
-## -parameters
+
 
 ## -see-also
 

@@ -61,7 +61,7 @@ api_name:
 
 The <b>CWbemGlueFactory::CWbemGlueFactory</b>  constructor initializes a new instance of <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemgluefactory">CWbemGlueFactory</a>. This class is part of the WMI Provider Framework.
 
-## -parameters
+
 
 #### - plRefCount [out]
 

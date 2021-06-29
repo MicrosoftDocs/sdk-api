@@ -54,7 +54,7 @@ api_name:
 The <b>Region::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of the dashes in the array.
 
-## -parameters
+
 
 ## -returns
 

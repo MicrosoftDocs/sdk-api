@@ -52,7 +52,7 @@ api_name:
 
  Gets the direction that text lines flow.
 
-## -parameters
+
 
 ## -returns
 

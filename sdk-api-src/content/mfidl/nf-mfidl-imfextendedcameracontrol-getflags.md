@@ -43,7 +43,7 @@ dev_langs:
 
 Queries for property flags on the capture device.
 
-## -parameters
+
 
 ## -returns
 

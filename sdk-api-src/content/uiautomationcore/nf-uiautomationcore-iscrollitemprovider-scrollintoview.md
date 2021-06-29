@@ -52,7 +52,7 @@ api_name:
 
 Scrolls the content area of a container object in order to display the control within the visible region (viewport) of the container.
 
-## -parameters
+
 
 ## -returns
 

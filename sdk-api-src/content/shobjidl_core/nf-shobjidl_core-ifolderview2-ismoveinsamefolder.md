@@ -52,7 +52,7 @@ api_name:
 
 Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Resumes drawing on this Microsoft DirectComposition surface object.
 
-## -parameters
+
 
 ## -returns
 

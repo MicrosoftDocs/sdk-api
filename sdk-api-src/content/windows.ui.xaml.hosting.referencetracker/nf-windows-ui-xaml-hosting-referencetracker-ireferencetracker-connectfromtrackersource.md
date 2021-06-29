@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a reference tracker source has created its first COM reference on a reference tracker object.
 
-## -parameters
+
 
 ## -returns
 

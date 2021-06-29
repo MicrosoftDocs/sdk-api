@@ -53,7 +53,7 @@ api_name:
 
 Ends a scene that was begun by calling <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-beginscene">IDirect3DDevice9::BeginScene</a>.
 
-## -parameters
+
 
 ## -returns
 

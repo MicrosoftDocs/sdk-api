@@ -52,7 +52,7 @@ api_name:
 
 The <b>IRequiredExtensions::EnableAllExtensions</b> method enables the snap-in to specify that all extension snap-ins registered for the snap-in are required.
 
-## -parameters
+
 
 ## -returns
 

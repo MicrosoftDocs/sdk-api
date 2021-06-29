@@ -52,7 +52,7 @@ api_name:
 
 Commits all changes to the search engine.
 
-## -parameters
+
 
 ## -returns
 

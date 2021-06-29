@@ -52,7 +52,7 @@ api_name:
 
 Sets the focus to the text host window.
 
-## -parameters
+
 
 ## -remarks
 

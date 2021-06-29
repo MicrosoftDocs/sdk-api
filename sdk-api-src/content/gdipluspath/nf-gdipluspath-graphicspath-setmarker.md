@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::SetMarker</b> method designates the last point in this path as a marker point.
 
-## -parameters
+
 
 ## -returns
 

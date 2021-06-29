@@ -52,7 +52,7 @@ api_name:
 
 Notifies the protocol that the session has been disconnected.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::GetPointCount</b> method gets the number of points in this path's array of data points. This is the same as the number of types in the path's array of point types.
 
-## -parameters
+
 
 ## -returns
 

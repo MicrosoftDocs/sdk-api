@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontCollection::GetFamilyCount</b> method gets the number of font families contained in this font collection.
 
-## -parameters
+
 
 ## -returns
 

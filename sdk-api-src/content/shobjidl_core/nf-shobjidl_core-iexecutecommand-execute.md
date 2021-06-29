@@ -52,7 +52,7 @@ api_name:
 
 Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
 
-## -parameters
+
 
 ## -returns
 

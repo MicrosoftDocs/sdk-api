@@ -53,7 +53,7 @@ api_name:
 
 Get the filter type that is used for automatically generated mipmap sublevels.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Resets progress dialog timer to 0.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property has been set.
 
-## -parameters
+
 
 ## -remarks
 

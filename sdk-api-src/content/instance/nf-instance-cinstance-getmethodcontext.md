@@ -61,7 +61,7 @@ api_name:
 
 The <b>GetMethodContext</b> method returns a pointer to a <b>MethodContext</b> object.
 
-## -parameters
+
 
 ## -returns
 

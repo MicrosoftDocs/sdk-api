@@ -52,7 +52,7 @@ api_name:
 
 The <b>ITfCandidateListUIElementBehavior::Abort</b> method closes the candidate list. There is no guarantee that the current selection will be finalized.
 
-## -parameters
+
 
 ## -returns
 

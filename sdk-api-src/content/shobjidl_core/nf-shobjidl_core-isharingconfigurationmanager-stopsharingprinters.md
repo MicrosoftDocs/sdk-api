@@ -52,7 +52,7 @@ api_name:
 
 Stops sharing all local, shared printers connected to a computer.
 
-## -parameters
+
 
 ## -returns
 

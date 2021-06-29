@@ -52,7 +52,7 @@ api_name:
 
 The <b>Decompose</b> method tears down the filter graph.
 
-## -parameters
+
 
 ## -returns
 

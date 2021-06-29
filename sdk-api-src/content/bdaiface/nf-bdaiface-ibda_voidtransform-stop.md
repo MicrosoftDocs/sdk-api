@@ -52,7 +52,7 @@ api_name:
 
 The <b>Stop</b> method stops data flow through a control node.
 
-## -parameters
+
 
 ## -returns
 

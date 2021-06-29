@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetHDC</b> method gets a handle to the device context associated with this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

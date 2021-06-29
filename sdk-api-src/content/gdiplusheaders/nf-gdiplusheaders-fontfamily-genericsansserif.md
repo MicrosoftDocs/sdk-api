@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontFamily::GenericSansSerif</b> method gets a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that specifies a generic sans serif typeface.
 
-## -parameters
+
 
 ## -returns
 

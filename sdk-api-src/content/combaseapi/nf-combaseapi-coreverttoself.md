@@ -57,7 +57,7 @@ api_name:
 
 Restores the authentication information on a thread of execution.
 
-## -parameters
+
 
 ## -returns
 

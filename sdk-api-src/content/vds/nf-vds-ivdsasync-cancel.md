@@ -56,7 +56,7 @@ api_name:
 Cancels the asynchronous 
    operation.
 
-## -parameters
+
 
 ## -returns
 

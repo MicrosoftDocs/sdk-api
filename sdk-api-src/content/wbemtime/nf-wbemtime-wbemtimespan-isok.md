@@ -59,7 +59,7 @@ api_name:
 
 The <b>IsOk</b> method indicates whether the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object represents a valid time span.
 
-## -parameters
+
 
 ## -returns
 

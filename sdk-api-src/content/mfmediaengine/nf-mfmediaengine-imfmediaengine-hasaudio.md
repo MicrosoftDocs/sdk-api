@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the current media resource contains an audio stream.
 
-## -parameters
+
 
 ## -returns
 

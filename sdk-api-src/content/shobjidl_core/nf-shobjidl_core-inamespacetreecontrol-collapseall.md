@@ -52,7 +52,7 @@ api_name:
 
 Collapses all of the items in the given tree.
 
-## -parameters
+
 
 ## -returns
 

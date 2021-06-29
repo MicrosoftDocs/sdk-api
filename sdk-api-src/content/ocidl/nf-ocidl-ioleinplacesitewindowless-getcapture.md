@@ -52,7 +52,7 @@ api_name:
 
 Called by an in-place active, windowless object to determine whether it still has the mouse capture.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the current text antialiasing mode of the bitmap render target.
 
-## -parameters
+
 
 ## -returns
 

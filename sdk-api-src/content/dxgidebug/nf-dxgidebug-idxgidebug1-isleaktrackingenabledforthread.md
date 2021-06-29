@@ -52,7 +52,7 @@ api_name:
 
 Gets a value indicating whether leak tracking is turned on for the current thread.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Reports that the Offline Files service has completed its attempt to reconnect all offline scopes.
 
-## -parameters
+
 
 ## -returns
 

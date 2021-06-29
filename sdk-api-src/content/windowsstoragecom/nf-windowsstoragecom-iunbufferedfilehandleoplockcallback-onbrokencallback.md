@@ -52,7 +52,7 @@ api_name:
 
 Runs when the opportunistic lock for a handle that you get by calling the <a href="/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a> method is broken.
 
-## -parameters
+
 
 ## -returns
 

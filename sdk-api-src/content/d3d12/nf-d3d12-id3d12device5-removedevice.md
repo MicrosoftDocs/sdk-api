@@ -46,7 +46,7 @@ api_name:
 
 You can call **RemoveDevice** to indicate to the Direct3D 12 runtime that the GPU device encountered a problem, and can no longer be used. Doing so will cause all devices' monitored fences to be signaled. Your application typically doesn't need to explicitly call **RemoveDevice**.
 
-## -parameters
+
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Returns a boolean indicating wether this element represents text content.
 
-## -parameters
+
 
 ## -returns
 

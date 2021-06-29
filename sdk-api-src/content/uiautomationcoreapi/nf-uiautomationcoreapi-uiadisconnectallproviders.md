@@ -55,7 +55,7 @@ api_name:
 
 Releases all Microsoft UI Automation resources that are held by all providers associated with the calling process.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>SetDefault</code> method makes the current property settings the global default.
 
-## -parameters
+
 
 ## -returns
 

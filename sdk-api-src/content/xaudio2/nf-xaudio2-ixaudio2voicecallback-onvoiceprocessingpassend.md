@@ -52,7 +52,7 @@ api_name:
 
 Called just after the processing pass for the voice ends.
 
-## -parameters
+
 
 ## -remarks
 

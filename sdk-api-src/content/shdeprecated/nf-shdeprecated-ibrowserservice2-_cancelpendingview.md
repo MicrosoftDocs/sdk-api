@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Enables a derived class to request that the base class cancel any pending views.
 
-## -parameters
+
 
 ## -returns
 

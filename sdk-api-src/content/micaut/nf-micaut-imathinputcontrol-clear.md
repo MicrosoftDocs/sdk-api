@@ -52,7 +52,7 @@ api_name:
 
 Clears all ink from the control.
 
-## -parameters
+
 
 ## -returns
 

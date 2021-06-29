@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>Reset</b> method to reset the enumeration sequence to the beginning.
 
-## -parameters
+
 
 ## -returns
 

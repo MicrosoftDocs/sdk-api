@@ -52,7 +52,7 @@ api_name:
 
 The <code>GetActualDataLength</code> method retrieves the length of the valid data in the buffer.
 
-## -parameters
+
 
 ## -returns
 

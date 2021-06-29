@@ -56,7 +56,7 @@ api_name:
 
 Releases a thread reference before the thread procedure returns.
 
-## -parameters
+
 
 ## -returns
 

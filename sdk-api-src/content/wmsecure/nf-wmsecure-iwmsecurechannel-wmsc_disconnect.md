@@ -55,7 +55,7 @@ api_name:
 
 The <b>WMSC_Disconnect</b> method destroys the secure connection.
 
-## -parameters
+
 
 ## -returns
 

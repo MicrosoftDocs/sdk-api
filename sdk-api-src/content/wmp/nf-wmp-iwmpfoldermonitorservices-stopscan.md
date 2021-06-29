@@ -54,7 +54,7 @@ This method and all other methods of the <a href="/windows/desktop/api/wmp/nn-wm
 
 The <b>stopScan</b> method stops the scanning operation.
 
-## -parameters
+
 
 ## -returns
 

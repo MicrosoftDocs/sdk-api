@@ -52,7 +52,7 @@ api_name:
 
 Writes to the disk any dirty pages within a mapped view of a similarity traits table file.
 
-## -parameters
+
 
 ## -returns
 

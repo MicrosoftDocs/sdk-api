@@ -52,7 +52,7 @@ api_name:
 
 Called to close the channel. The <a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelevents-onclose">IWRdsGraphicsChannelEvents::OnClose</a> method will be called when the channel is completely closed.
 
-## -parameters
+
 
 ## -returns
 

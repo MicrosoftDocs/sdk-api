@@ -53,7 +53,7 @@ api_name:
 
 Gets the initialization flags associated with the deferred context that created the command list.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IsSystemSoundsSession</b> method indicates whether the session is a system sounds session.
 
-## -parameters
+
 
 ## -returns
 

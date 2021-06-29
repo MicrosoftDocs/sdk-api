@@ -52,7 +52,7 @@ api_name:
 
 Refreshes all of the local instance variables of the task.
 
-## -parameters
+
 
 ## -returns
 

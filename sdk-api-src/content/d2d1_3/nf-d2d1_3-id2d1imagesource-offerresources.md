@@ -52,7 +52,7 @@ api_name:
 
 Allows the operating system to free the video memory of resources by discarding their content.
 
-## -parameters
+
 
 ## -returns
 

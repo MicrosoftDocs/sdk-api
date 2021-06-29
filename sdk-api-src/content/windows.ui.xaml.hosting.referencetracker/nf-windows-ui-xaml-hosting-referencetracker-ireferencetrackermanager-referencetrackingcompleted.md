@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a garbage collection system has finished with its collection process;  at this point, XAML unblocks threads attempting to update tracked references.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Performs caller-implemented actions before any specific file operations are performed.
 
-## -parameters
+
 
 ## -returns
 

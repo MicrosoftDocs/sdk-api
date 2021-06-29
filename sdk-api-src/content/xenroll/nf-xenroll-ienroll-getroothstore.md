@@ -55,7 +55,7 @@ api_name:
 
 The <b>getROOTHStore</b> method is not implemented.
 
-## -parameters
+
 
 ## -returns
 

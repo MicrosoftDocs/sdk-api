@@ -52,7 +52,7 @@ api_name:
 
 The <b>IContextMenuProvider::EmptyMenuList</b> method clears a context menu.
 
-## -parameters
+
 
 ## -returns
 

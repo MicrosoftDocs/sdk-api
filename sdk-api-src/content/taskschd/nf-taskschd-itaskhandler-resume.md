@@ -52,7 +52,7 @@ api_name:
 
 Called to resume the COM handler. This method is optional and should only be implemented to give the Task Scheduler the ability to resume the handler.
 
-## -parameters
+
 
 ## -returns
 

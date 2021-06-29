@@ -52,7 +52,7 @@ api_name:
 
 Performs the default action on the control.
 
-## -parameters
+
 
 ## -returns
 

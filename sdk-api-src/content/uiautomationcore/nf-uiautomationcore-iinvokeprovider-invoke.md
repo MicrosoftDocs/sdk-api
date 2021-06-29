@@ -52,7 +52,7 @@ api_name:
 
 Sends a request to activate a control and initiate its single, unambiguous action.
 
-## -parameters
+
 
 ## -returns
 

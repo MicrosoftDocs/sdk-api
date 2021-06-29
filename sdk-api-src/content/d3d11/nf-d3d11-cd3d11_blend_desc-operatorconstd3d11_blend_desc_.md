@@ -54,7 +54,7 @@ ms.custom: 19H1
 This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">D3D11_BLEND_DESC</a> structure that contains  the data from the <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> instance.
 
 
-## -parameters
+
 
 
 

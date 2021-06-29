@@ -52,7 +52,7 @@ api_name:
 
 Displays all child nodes, controls, or content of the control.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode currently set for this 
 			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object.
 
-## -parameters
+
 
 ## -returns
 

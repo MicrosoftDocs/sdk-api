@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the number of axes specified by the reference.
 
-## -parameters
+
 
 ## -returns
 

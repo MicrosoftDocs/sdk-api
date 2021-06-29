@@ -52,7 +52,7 @@ api_name:
 
 The <b>IAnchor::ClearChangeHistory</b> method clears the anchor change history flags.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Deletes the persisted copy of the data collector set if the set is not running.
 
-## -parameters
+
 
 ## -returns
 

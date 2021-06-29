@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the Media Engine and releases the resources it is using.
 
-## -parameters
+
 
 ## -returns
 

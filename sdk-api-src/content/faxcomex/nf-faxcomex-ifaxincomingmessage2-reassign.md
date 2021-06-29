@@ -56,7 +56,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  This method is supported only in Windows Vista and later.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 The 
 <b>DisableInternetFirewall</b> method disables Internet Connection Firewall on this connection.
 
-## -parameters
+
 
 ## -returns
 

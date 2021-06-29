@@ -61,7 +61,7 @@ api_name:
 
 The <b>TrimRight</b> method trims trailing whitespace characters from the string by removing trailing newline, space, and tab characters.
 
-## -parameters
+
 
 ## -returns
 

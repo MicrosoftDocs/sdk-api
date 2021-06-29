@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::StartFigure</b> method starts a new figure without closing the current figure. Subsequent points added to this path are added to the new figure.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 This method returns the buffer of the current <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable">ID3D11ShaderReflectionVariable</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
-## -parameters
+
 
 ## -returns
 

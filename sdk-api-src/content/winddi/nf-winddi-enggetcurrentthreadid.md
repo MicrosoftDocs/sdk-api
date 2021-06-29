@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngGetCurrentThreadId</b> function identifies an application's current thread.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Waits for the composition engine to finish processing the previous call to the <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-commit">IDCompositionDevice2::Commit</a> method.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Indicates if the current OS version matches, or is greater than, the Windows 7 version.
 
-## -parameters
+
 
 ## -returns
 

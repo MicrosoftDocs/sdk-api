@@ -52,7 +52,7 @@ api_name:
 
 Indicates a change in the <a href="/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate</a> codec property.
 
-## -parameters
+
 
 ## -returns
 

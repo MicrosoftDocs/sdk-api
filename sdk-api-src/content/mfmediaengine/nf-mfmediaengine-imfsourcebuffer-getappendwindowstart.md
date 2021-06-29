@@ -52,7 +52,7 @@ api_name:
 
 Gets the timestamp for the start of the append window.
 
-## -parameters
+
 
 ## -returns
 

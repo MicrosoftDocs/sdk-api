@@ -52,7 +52,7 @@ api_name:
 
 Indicates each time that a tracker source calls <b>IUnknown::Release</b> on the reference tracker; must be called before the <b>Release</b> call.
 
-## -parameters
+
 
 ## -returns
 

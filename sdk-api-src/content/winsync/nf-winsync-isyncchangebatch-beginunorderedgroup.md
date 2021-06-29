@@ -52,7 +52,7 @@ api_name:
 
 Opens an unordered group in the change batch. Item changes in this group can be in any order.
 
-## -parameters
+
 
 ## -returns
 

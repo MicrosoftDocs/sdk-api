@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the number of axes set on the format.
 
-## -parameters
+
 
 ## -returns
 

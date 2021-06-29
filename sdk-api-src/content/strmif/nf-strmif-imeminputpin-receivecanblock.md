@@ -53,7 +53,7 @@ api_name:
 
 The <code>ReceiveCanBlock</code> method determines whether calls to the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> method might block.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
 
-## -parameters
+
 
 ## -returns
 

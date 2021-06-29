@@ -52,7 +52,7 @@ api_name:
 
 Returns the handle to the TraceLogging provider associated with this activity.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessa
 
 <div class="alert"><b>Note</b>  This method is supported only on Windows Vista and later.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

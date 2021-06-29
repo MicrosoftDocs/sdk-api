@@ -53,7 +53,7 @@ api_name:
 
 The <code>BeginFlush</code> method begins a flush operation.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Closes the Media Session and releases all of the resources it is using.
 
-## -parameters
+
 
 ## -returns
 

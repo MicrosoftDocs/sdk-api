@@ -53,7 +53,7 @@ api_name:
 
 The <b>IEnumWIA_DEV_INFO::Reset</b> method is used by applications to restart the enumeration of device information.
 
-## -parameters
+
 
 ## -returns
 

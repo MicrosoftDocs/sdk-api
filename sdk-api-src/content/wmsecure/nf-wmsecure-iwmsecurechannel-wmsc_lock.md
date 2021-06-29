@@ -55,7 +55,7 @@ api_name:
 
 The <b>WMSC_Lock</b> method locks access to the secure connection.
 
-## -parameters
+
 
 ## -returns
 

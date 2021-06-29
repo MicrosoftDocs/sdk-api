@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetNamespace</b> method returns a constant reference to the namespace name in <a href="/windows/desktop/WmiSdk/chstring">CHString</a> format. The name returned is the second parameter originally given to the provider constructor.
 
-## -parameters
+
 
 ## -returns
 

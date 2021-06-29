@@ -53,7 +53,7 @@ api_name:
 
 Instantiates a new instance of an uninitialized <a href="/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> structure.
 
-## -parameters
+
 
 ## -see-also
 

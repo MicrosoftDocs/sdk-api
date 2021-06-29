@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::IsEmfOrEmfPlus</b> method determines whether the associated metafile is in either the EMF or EMF+ format.
 
-## -parameters
+
 
 ## -returns
 

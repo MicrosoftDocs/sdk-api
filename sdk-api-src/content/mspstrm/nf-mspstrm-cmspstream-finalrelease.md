@@ -53,5 +53,5 @@ api_name:
 The 
 <b>FinalRelease</b> method releases the filter graph pointers.
 
-## -parameters
+
 

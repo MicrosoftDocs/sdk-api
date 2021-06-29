@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the handle to the window that currently has the clipboard open.
 
-## -parameters
+
 
 ## -returns
 

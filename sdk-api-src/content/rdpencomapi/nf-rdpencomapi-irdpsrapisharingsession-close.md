@@ -57,7 +57,7 @@ When the attendees are disconnected, no attendee disconnect event occurs on the 
 
 A closed session cannot be reopened by calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method.
 
-## -parameters
+
 
 ## -returns
 

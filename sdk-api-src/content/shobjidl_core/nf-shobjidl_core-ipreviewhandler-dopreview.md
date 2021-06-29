@@ -52,7 +52,7 @@ api_name:
 
 Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
 
-## -parameters
+
 
 ## -returns
 

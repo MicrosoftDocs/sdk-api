@@ -52,7 +52,7 @@ api_name:
 
 Closes and finalizes the written package stream.
 
-## -parameters
+
 
 ## -returns
 

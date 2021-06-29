@@ -55,7 +55,7 @@ api_name:
 
 Stops the sensor activity monitor.
 
-## -parameters
+
 
 ## -returns
 

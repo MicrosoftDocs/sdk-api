@@ -52,7 +52,7 @@ api_name:
 
 Queries whether the Media Engine will loop playback.
 
-## -parameters
+
 
 ## -returns
 

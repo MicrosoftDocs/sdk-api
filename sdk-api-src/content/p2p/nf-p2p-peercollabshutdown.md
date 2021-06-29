@@ -52,7 +52,7 @@ api_name:
 
 The <b>PeerCollabShutdown</b> function shuts down the Peer Collaboration infrastructure and releases any resources associated with it.
 
-## -parameters
+
 
 ## -returns
 

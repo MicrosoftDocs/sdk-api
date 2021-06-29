@@ -52,7 +52,7 @@ api_name:
 
 Informs the server-side Exception_CLSID implementation that all attempts to play back the deferred activation have failed. The message is about to be moved to the final resting queue.
 
-## -parameters
+
 
 ## -returns
 

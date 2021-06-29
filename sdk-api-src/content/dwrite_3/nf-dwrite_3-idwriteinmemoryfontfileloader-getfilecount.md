@@ -53,7 +53,7 @@ api_name:
 
 Returns the number of font file references that have been created using this loader instance.
 
-## -parameters
+
 
 ## -returns
 

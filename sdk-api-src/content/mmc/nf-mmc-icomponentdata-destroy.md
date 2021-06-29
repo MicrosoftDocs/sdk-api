@@ -52,7 +52,7 @@ api_name:
 
 The <b>IComponentData::Destroy</b> method releases all references to the console.
 
-## -parameters
+
 
 ## -returns
 

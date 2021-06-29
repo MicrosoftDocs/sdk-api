@@ -54,7 +54,7 @@ api_name:
 
 Deactivates the object, ends the in-place session, and reverts to the container's saved undo state.
 
-## -parameters
+
 
 ## -returns
 

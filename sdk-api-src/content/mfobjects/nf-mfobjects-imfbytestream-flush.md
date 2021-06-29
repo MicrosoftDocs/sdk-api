@@ -53,7 +53,7 @@ api_name:
 
 Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
 
-## -parameters
+
 
 ## -returns
 

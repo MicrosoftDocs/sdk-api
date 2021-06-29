@@ -53,7 +53,7 @@ api_name:
 
 The <b>IEnumWIA_DEV_CAPS::Reset</b> method is used by applications to restart the enumeration of device capabilities.
 
-## -parameters
+
 
 ## -returns
 

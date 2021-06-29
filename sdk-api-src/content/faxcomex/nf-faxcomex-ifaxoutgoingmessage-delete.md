@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingMessage::Delete</b> method deletes the fax message from the outbound archive.
 
-## -parameters
+
 
 ## -returns
 

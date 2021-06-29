@@ -56,7 +56,7 @@ api_name:
 Refreshes VDS's 
    internally cached data about existing subsystems that are managed by VDS providers.
 
-## -parameters
+
 
 ## -returns
 

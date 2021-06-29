@@ -52,7 +52,7 @@ api_name:
 
 Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
 
-## -parameters
+
 
 ## -returns
 

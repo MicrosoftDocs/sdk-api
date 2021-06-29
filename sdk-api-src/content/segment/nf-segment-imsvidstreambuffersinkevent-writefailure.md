@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>WriteFailure</b> method is called when a write error occurs in the Stream Buffer Sink filter.
 
-## -parameters
+
 
 ## -returns
 

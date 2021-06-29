@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StartService</b> method starts the service administered through SDO.
 
-## -parameters
+
 
 ## -returns
 

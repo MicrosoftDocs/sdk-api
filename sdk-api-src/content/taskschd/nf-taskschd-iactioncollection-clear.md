@@ -52,7 +52,7 @@ api_name:
 
 Clears all the actions from the collection.
 
-## -parameters
+
 
 ## -returns
 

@@ -59,7 +59,7 @@ api_name:
 
 The <b>IsOk</b> method indicates whether the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object represents a valid time.
 
-## -parameters
+
 
 ## -returns
 

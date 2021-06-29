@@ -52,7 +52,7 @@ api_name:
 
 Truncates a file to zero length.
 
-## -parameters
+
 
 ## -returns
 

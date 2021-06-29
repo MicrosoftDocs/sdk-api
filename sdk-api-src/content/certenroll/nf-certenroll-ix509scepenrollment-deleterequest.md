@@ -52,7 +52,7 @@ api_name:
 
 Delete any certificates or keys created for the request.
 
-## -parameters
+
 
 ## -returns
 

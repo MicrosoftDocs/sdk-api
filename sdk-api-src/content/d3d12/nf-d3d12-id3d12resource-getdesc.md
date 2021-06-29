@@ -52,7 +52,7 @@ api_name:
 
 Gets the resource description.
 
-## -parameters
+
 
 ## -returns
 

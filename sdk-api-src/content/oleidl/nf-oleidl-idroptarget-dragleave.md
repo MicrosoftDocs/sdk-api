@@ -52,7 +52,7 @@ api_name:
 
 Removes target feedback and releases the data object.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Indicates if <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> has been called since the last processing pass.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Enter a device's critical section.
 
-## -parameters
+
 
 ## -remarks
 

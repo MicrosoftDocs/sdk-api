@@ -52,7 +52,7 @@ api_name:
 
 The <b>deletePartnership</b> method terminates the partnership between Windows Media Player and the device.
 
-## -parameters
+
 
 ## -returns
 

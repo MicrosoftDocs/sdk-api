@@ -52,7 +52,7 @@ api_name:
 
 Resets both the column and range enumerators to the beginning of their respective sets.
 
-## -parameters
+
 
 ## -returns
 

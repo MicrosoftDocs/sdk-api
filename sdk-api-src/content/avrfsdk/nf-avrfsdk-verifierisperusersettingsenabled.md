@@ -52,7 +52,7 @@ api_name:
 
 Determines whether Application Verifier can use per-user settings.
 
-## -parameters
+
 
 ## -returns
 

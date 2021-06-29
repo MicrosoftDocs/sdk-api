@@ -52,7 +52,7 @@ api_name:
 
 Cancels the next pending timeline marker.
 
-## -parameters
+
 
 ## -returns
 

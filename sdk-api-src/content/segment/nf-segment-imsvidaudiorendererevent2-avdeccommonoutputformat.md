@@ -52,7 +52,7 @@ api_name:
 
 Indicates a change in the <a href="/windows/desktop/DirectShow/avdeccommonoutputformat-property">AVDecCommonOutput</a> codec property.
 
-## -parameters
+
 
 ## -returns
 

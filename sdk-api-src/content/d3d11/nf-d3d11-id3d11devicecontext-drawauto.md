@@ -53,7 +53,7 @@ api_name:
 
 Draw geometry of an unknown size.
 
-## -parameters
+
 
 ## -remarks
 

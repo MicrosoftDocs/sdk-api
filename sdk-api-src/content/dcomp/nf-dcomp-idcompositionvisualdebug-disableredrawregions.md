@@ -52,7 +52,7 @@ api_name:
 
 Disables visual redraw regions.
 
-## -parameters
+
 
 ## -returns
 

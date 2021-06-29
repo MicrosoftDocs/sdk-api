@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetTime</b> method returns the time span as a 64-bit integer.
 
-## -parameters
+
 
 ## -returns
 

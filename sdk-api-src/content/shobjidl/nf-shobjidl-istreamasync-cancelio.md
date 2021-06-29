@@ -52,7 +52,7 @@ api_name:
 
 Marks all pending input/output (I/O) operations as canceled.
 
-## -parameters
+
 
 ## -returns
 

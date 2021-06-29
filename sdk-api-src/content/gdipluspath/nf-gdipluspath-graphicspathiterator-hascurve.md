@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPathIterator::HasCurve</b> method determines whether the path has any curves.
 
-## -parameters
+
 
 ## -returns
 

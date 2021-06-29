@@ -52,7 +52,7 @@ api_name:
 
 Called before the platform is about to shutdown.
 
-## -parameters
+
 
 ## -returns
 

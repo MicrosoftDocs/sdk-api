@@ -52,7 +52,7 @@ api_name:
 
 The <b>eject</b> method ejects the CD or DVD from the drive.
 
-## -parameters
+
 
 ## -returns
 

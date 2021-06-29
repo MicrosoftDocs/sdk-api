@@ -52,7 +52,7 @@ api_name:
 
 Returns the size, in device-independent pixels (DIPs), of the bitmap.
 
-## -parameters
+
 
 ## -returns
 

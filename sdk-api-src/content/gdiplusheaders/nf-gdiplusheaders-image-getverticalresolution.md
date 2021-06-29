@@ -53,7 +53,7 @@ api_name:
 
 The <b>Image::GetVerticalResolution</b> method gets the vertical resolution, in dots per inch, of this image.
 
-## -parameters
+
 
 ## -returns
 

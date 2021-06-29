@@ -53,7 +53,7 @@ api_name:
 
 The <code>RestoreDDrawSurfaces</code> method notifies the VMR that a DirectDraw surface "loss" has been detected.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the CRM Compensator that it has received all the log records available during the abort phase. All log records for this transaction can be discarded from the log after this method has completed.
 
-## -parameters
+
 
 ## -returns
 

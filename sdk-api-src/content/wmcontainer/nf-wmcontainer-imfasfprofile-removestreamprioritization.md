@@ -53,7 +53,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  This method is not supported.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>Shutdown</b> method properly disposes of all allocated memory used by the network source creator. You must call this method when you are finished using the network source creator, to ensure that all resources are released.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of inputs to the effect.
 
-## -parameters
+
 
 ## -returns
 

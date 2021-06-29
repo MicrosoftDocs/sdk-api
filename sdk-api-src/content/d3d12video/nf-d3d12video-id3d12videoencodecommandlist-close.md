@@ -43,7 +43,7 @@ dev_langs:
 
 Indicates that recording to the command list has finished.
 
-## -parameters
+
 
 ## -returns
 

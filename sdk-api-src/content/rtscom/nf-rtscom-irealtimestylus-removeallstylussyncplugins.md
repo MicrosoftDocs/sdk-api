@@ -52,7 +52,7 @@ api_name:
 
 Removes all of the plug-ins from the synchronous plug-in collection.
 
-## -parameters
+
 
 ## -returns
 

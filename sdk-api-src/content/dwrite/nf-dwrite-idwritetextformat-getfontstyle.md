@@ -52,7 +52,7 @@ api_name:
 
  Gets the font style of the text.
 
-## -parameters
+
 
 ## -returns
 

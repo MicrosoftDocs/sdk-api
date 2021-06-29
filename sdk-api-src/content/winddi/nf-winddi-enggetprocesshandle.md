@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngGetProcessHandle</b> function retrieves a handle to the current client process.
 
-## -parameters
+
 
 ## -returns
 

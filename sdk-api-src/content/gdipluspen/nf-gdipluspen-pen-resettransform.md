@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::ResetTransform</b> method sets the world transformation matrix of this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to the identity matrix.
 
-## -parameters
+
 
 ## -returns
 

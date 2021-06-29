@@ -53,7 +53,7 @@ api_name:
 
 Unlocks a rectangle on a surface.
 
-## -parameters
+
 
 ## -returns
 

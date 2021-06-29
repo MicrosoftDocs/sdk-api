@@ -52,7 +52,7 @@ api_name:
 
 The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
 
-## -parameters
+
 
 ## -returns
 

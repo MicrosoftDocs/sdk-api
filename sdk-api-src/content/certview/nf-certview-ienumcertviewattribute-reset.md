@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method moves to the beginning of the attribute-enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

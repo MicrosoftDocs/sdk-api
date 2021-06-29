@@ -53,7 +53,7 @@ api_name:
 
 The <b>SetAllDefaults</b> method resets all codec properties to their default values.
 
-## -parameters
+
 
 ## -returns
 

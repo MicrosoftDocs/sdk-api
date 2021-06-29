@@ -57,7 +57,7 @@ api_name:
 Clears the current media item.
 <div class="alert"><b>Note</b>  This method is currently not implemented.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets a locally unique identifier for the current device (adapter).
 
-## -parameters
+
 
 ## -returns
 

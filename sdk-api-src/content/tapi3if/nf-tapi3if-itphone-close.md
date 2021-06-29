@@ -57,7 +57,7 @@ The
 This method is analogous to the TAPI 2.<i>x</i>
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
 
-## -parameters
+
 
 ## -returns
 

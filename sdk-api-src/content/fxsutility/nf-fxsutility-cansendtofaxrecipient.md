@@ -52,7 +52,7 @@ api_name:
 
 Called by an application to determine whether to make a menu item or other UI available that calls the Windows Vista function <a href="/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-sendtofaxrecipient">SendToFaxRecipient</a>.
 
-## -parameters
+
 
 ## -returns
 

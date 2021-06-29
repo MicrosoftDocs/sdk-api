@@ -52,7 +52,7 @@ api_name:
 
 Unregisters the platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Adds the filter to the registry.
 
-## -parameters
+
 
 ## -returns
 

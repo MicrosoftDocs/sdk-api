@@ -54,7 +54,7 @@ api_name:
 
 The <b>GdiGetBatchLimit</b> function returns the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.
 
-## -parameters
+
 
 ## -returns
 

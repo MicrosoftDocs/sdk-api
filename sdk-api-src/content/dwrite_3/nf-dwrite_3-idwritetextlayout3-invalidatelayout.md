@@ -55,7 +55,7 @@ Invalidates the layout, forcing layout to remeasure before calling the
    changes, and layout should be redrawn, or if the size of a client    
    implemented IDWriteInlineObject changes.
 
-## -parameters
+
 
 ## -returns
 

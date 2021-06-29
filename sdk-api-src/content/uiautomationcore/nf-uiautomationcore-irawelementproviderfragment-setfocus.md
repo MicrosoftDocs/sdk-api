@@ -52,7 +52,7 @@ api_name:
 
 Sets the focus to this element.
 
-## -parameters
+
 
 ## -returns
 

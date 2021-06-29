@@ -52,7 +52,7 @@ api_name:
 
 Binds the user-defined batch work to the current thread.
 
-## -parameters
+
 
 ## -returns
 

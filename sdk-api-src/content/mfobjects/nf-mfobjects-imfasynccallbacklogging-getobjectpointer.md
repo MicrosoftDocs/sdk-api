@@ -52,7 +52,7 @@ api_name:
 
 Gets the pointer to the parent object the async callback is associated with.
 
-## -parameters
+
 
 ## -returns
 

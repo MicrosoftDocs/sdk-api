@@ -52,7 +52,7 @@ api_name:
 
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
 
-## -parameters
+
 
 ## -returns
 

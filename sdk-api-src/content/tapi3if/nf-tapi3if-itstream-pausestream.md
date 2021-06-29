@@ -53,7 +53,7 @@ api_name:
 The 
 <b>PauseStream</b> method pauses the stream.
 
-## -parameters
+
 
 ## -returns
 

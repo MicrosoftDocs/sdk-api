@@ -52,7 +52,7 @@ api_name:
 
 Resets enumeration of properties.
 
-## -parameters
+
 
 ## -returns
 

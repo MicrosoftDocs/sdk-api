@@ -53,7 +53,7 @@ api_name:
 
 Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 2 (SP2) version.
 
-## -parameters
+
 
 ## -returns
 

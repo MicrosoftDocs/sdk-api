@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>CancelGroup</b> method to remove the group from the  queue. Files completely downloaded before calling this  method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
 
-## -parameters
+
 
 ## -returns
 

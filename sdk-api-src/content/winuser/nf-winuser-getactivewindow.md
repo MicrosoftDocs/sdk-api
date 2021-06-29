@@ -64,7 +64,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 Retrieves the window handle to the active window attached to the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

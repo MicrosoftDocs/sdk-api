@@ -52,7 +52,7 @@ api_name:
 
 Notifies the protocol handler that the thread is being shut down.
 
-## -parameters
+
 
 ## -returns
 

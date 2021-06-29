@@ -53,7 +53,7 @@ api_name:
 
 The <code>SetDefaultSyncSource</code> method sets the reference clock to the default clock.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <b>stopBackgroundProcessing</b> method is implemented by the online store to terminate background processing tasks.
 
-## -parameters
+
 
 ## -returns
 

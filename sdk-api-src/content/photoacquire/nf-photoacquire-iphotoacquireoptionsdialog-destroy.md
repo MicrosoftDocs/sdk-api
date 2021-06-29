@@ -53,7 +53,7 @@ api_name:
 
 The <code>Destroy</code> method closes and destroys the modeless dialog box created with the <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> method.
 
-## -parameters
+
 
 ## -returns
 

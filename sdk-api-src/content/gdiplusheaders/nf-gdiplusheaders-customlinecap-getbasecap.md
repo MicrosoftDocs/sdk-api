@@ -53,7 +53,7 @@ api_name:
 
 The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> object used as a cap at the end of a line along with this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object.
 
-## -parameters
+
 
 ## -returns
 

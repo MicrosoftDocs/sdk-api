@@ -52,7 +52,7 @@ api_name:
 
 The <b>ResetData</b> method resets the Stream Buffer Engine's performance counters to zero.
 
-## -parameters
+
 
 ## -returns
 

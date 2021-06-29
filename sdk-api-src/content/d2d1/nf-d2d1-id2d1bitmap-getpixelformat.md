@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the pixel format and alpha mode of the bitmap.
 
-## -parameters
+
 
 ## -returns
 

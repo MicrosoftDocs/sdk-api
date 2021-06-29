@@ -64,7 +64,7 @@ With the release of Windows 8.1, the behavior of the <b>GetVersion</b> API has 
 
 Applications not manifested for Windows 8.1 or Windows 10 will return the Windows 8 OS version value (6.2).  Once an application is manifested for a given operating system version, <b>GetVersion</b> will always return the version that the application is manifested for in future releases.  To manifest your applications for Windows 8.1 or Windows 10, refer to <a href="/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Provides the number of type descriptions that are in a type library.
 
-## -parameters
+
 
 ## -returns
 

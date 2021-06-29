@@ -54,7 +54,7 @@ api_name:
 
 Retrieves the error mode for the calling thread.
 
-## -parameters
+
 
 ## -returns
 

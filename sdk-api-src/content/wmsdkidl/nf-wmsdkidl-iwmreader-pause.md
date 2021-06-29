@@ -55,7 +55,7 @@ api_name:
 
 The <b>Pause</b> method pauses the current read operation.
 
-## -parameters
+
 
 ## -returns
 

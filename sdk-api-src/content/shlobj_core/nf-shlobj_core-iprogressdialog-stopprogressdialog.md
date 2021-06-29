@@ -52,7 +52,7 @@ api_name:
 
 Stops the progress dialog box and removes it from the screen.
 
-## -parameters
+
 
 ## -returns
 

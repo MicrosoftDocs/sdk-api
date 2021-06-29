@@ -52,7 +52,7 @@ api_name:
 
 Activates the connection between the linked object and the link source if the link source is already running.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ The <b>Reset</b> method resets the enumerator
     so that <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> starts at the first 
     enumerated object.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>Stop</code> method is called when the filter graph is entering a stopped state.
 
-## -parameters
+
 
 ## -returns
 

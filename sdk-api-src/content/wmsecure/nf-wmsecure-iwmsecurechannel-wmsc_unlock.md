@@ -55,7 +55,7 @@ api_name:
 
 The <b>WMSC_Unlock</b> method unlocks access to the secure connection.
 
-## -parameters
+
 
 ## -returns
 

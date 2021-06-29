@@ -52,7 +52,7 @@ api_name:
 
 Releases the XAML object reference marked in a previous call to <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-addreffromreferencetracker">AddRefFromReferenceTracker</a>.
 
-## -parameters
+
 
 ## -see-also
 

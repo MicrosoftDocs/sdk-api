@@ -59,7 +59,7 @@ api_name:
 
 The <b>Clear</b> method sets the time in the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object to an invalid time.
 
-## -parameters
+
 
 ## -see-also
 

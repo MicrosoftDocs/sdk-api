@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingJob::Restart</b> method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, <b>IFaxOutgoingJob::Restart</b> will restart the fax job.
 
-## -parameters
+
 
 ## -returns
 

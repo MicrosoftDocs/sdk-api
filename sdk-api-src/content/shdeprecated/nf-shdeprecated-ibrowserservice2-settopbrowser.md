@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Informs the base class when it becomes the topmost browser instance.
 
-## -parameters
+
 
 ## -returns
 

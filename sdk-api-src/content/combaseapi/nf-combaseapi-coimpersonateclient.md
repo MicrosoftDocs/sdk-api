@@ -57,7 +57,7 @@ api_name:
 
 Enables the server to impersonate the client of the current call for the duration of the call.
 
-## -parameters
+
 
 ## -returns
 

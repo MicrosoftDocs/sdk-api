@@ -52,7 +52,7 @@ api_name:
 
 Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
 
-## -parameters
+
 
 ## -returns
 

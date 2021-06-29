@@ -52,7 +52,7 @@ api_name:
 
 Closes the file currently in use.
 
-## -parameters
+
 
 ## -returns
 

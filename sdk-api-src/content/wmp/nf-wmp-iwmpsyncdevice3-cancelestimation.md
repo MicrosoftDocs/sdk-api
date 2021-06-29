@@ -52,7 +52,7 @@ api_name:
 
 The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
 
-## -parameters
+
 
 ## -returns
 

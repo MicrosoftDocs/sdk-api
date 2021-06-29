@@ -92,4 +92,4 @@ Initializes the new time span object to values in the parameters.
 </tr>
 </table>
 
-## -parameters
+

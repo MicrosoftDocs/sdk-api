@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the center of the gradient ellipse.
 
-## -parameters
+
 
 ## -returns
 

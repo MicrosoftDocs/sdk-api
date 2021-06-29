@@ -52,7 +52,7 @@ api_name:
 
 Finishes and commits the batch updates started by <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-beginfieldupdates">BeginFieldUpdates</a>.
 
-## -parameters
+
 
 ## -returns
 

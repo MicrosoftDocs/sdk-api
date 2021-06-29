@@ -52,7 +52,7 @@ api_name:
 
 Removes existing error information from the current thread environment block (TEB).
 
-## -parameters
+
 
 ## -remarks
 

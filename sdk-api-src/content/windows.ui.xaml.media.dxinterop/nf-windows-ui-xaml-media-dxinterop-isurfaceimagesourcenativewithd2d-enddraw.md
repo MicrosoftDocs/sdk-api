@@ -52,7 +52,7 @@ api_name:
 
 Closes the surface draw operation.
 
-## -parameters
+
 
 ## -returns
 

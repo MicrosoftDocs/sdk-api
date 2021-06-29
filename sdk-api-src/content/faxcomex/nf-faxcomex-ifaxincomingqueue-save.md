@@ -53,7 +53,7 @@ api_name:
 
 The <b>Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingqueue">FaxIncomingQueue</a> object's data.
 
-## -parameters
+
 
 ## -returns
 

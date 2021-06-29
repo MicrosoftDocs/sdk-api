@@ -57,7 +57,7 @@ api_name:
 
 The <b>Close</b> method unloads the file from the DRM transcryptor and releases all associated resources.
 
-## -parameters
+
 
 ## -returns
 

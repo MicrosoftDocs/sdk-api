@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxJob::Refresh</b> method updates <a href="/previous-versions/windows/desktop/fax/-mfax-faxjob">FaxJob</a> object information for the associated fax job.
 
-## -parameters
+
 
 ## -returns
 

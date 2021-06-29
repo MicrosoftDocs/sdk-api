@@ -52,7 +52,7 @@ api_name:
 
 Removes all of the source elements from the list.
 
-## -parameters
+
 
 ## -returns
 

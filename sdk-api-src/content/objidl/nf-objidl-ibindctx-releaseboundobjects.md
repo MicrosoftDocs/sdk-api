@@ -52,7 +52,7 @@ api_name:
 
 Releases all pointers to all objects that were previously registered by calls to <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
 
-## -parameters
+
 
 ## -returns
 

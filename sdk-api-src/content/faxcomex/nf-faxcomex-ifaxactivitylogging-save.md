@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxActivityLogging::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxactivitylogging">FaxActivityLogging</a> object's data.
 
-## -parameters
+
 
 ## -returns
 

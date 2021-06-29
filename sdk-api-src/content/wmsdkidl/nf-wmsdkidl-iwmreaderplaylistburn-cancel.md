@@ -55,7 +55,7 @@ api_name:
 
 The <b>Cancel</b> method cancels an initiated playlist burn before initialization is finished.
 
-## -parameters
+
 
 ## -returns
 

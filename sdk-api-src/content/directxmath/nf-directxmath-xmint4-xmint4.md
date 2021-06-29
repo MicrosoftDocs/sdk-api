@@ -56,7 +56,7 @@ Default constructor for <code>XMINT4</code>.
 Default constructor for <a href="/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

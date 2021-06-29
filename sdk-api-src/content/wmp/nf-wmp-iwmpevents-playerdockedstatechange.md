@@ -52,7 +52,7 @@ api_name:
 
 The <b>PlayerDockedStateChange</b> event occurs when a remoted Windows Media Player control docks or undocks.
 
-## -parameters
+
 
 ## -remarks
 

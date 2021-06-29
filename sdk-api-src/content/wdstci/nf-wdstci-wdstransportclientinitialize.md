@@ -52,7 +52,7 @@ api_name:
 
 Initializes the Multicast Client. This function should be called before any other function is called in the multicast client.
 
-## -parameters
+
 
 ## -returns
 

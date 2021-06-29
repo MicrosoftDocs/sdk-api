@@ -52,7 +52,7 @@ api_name:
 
 Resumes all animations.
 
-## -parameters
+
 
 ## -returns
 

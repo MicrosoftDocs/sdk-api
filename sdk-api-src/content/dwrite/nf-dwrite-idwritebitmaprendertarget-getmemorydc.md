@@ -52,7 +52,7 @@ api_name:
 
  Gets a handle to the memory device context.
 
-## -parameters
+
 
 ## -returns
 

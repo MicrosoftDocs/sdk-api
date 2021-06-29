@@ -63,7 +63,7 @@ req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 
 Closes the clipboard.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>InitNew</code> method initializes the object to receive new properties.
 
-## -parameters
+
 
 ## -returns
 

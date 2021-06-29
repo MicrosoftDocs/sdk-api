@@ -52,7 +52,7 @@ api_name:
 
 Displays the user interface through which the user  can provide a product key to upgrade or get a genuine copy of the operating system.
 
-## -parameters
+
 
 ## -returns
 

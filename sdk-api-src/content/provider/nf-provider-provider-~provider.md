@@ -44,7 +44,7 @@ api_name:
 
 Destructor for the [Provider](nl-provider-provider.md) class.
 
-## -parameters
+
 
 ## -remarks
 

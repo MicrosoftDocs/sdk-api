@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of lines of text in the timed-text cue.
 
-## -parameters
+
 
 ## -returns
 

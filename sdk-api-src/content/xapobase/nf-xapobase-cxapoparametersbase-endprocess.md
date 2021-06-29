@@ -53,7 +53,7 @@ api_name:
 
 Notifies <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a> that the XAPO has finished accessing the current process parameters.
 
-## -parameters
+
 
 ## -remarks
 

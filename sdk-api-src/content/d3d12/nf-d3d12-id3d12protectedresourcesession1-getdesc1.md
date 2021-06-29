@@ -44,7 +44,7 @@ dev_langs:
 
 Retrieves a description of the protected resource session.
 
-## -parameters
+
 
 ## -returns
 

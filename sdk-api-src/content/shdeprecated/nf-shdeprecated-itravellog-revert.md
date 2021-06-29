@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Reverts to the current entry, dropping the result of <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">ITravelLog::AddEntry</a> in the case of a failed navigation.
 
-## -parameters
+
 
 ## -returns
 

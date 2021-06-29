@@ -52,7 +52,7 @@ api_name:
 
 Programmatically starts an update for all items.
 
-## -parameters
+
 
 ## -returns
 

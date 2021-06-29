@@ -52,7 +52,7 @@ api_name:
 
 Clears all destination entries from the <b>Recent</b> and <b>Frequent</b> categories in an application's Jump List.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <code>Reassociate</code> method reassociates the KsProxy filter with the device. The Filter Graph Manager calls this method if it receives a notification that the device has returned after being removed.
 
-## -parameters
+
 
 ## -returns
 

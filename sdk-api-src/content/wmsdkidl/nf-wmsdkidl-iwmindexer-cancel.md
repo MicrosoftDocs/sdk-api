@@ -55,7 +55,7 @@ api_name:
 
 The <b>Cancel</b> method cancels the current indexing operation.
 
-## -parameters
+
 
 ## -returns
 

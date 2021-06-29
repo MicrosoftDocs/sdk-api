@@ -52,7 +52,7 @@ api_name:
 
 Closes a database.
 
-## -parameters
+
 
 ## -returns
 

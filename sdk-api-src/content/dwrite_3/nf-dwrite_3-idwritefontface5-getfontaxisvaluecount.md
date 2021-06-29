@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the number of axes defined by the font face. This includes both static and variable axes (see [DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md)).
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Disconnects the active connection.
 
-## -parameters
+
 
 ## -returns
 

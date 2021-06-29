@@ -53,7 +53,7 @@ api_name:
 
 The <b>Close</b> method closes the device, if it is open. It also releases all resources associated with the device.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxReceiptOptions::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxreceiptoptions">FaxReceiptOptions</a> object information from the fax server. When the <b>IFaxReceiptOptions::Refresh</b> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxreceiptoptions-save-vb">IFaxReceiptOptions::Save</a> method call are lost.
 
-## -parameters
+
 
 ## -returns
 

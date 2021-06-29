@@ -52,7 +52,7 @@ api_name:
 
 Restores the default table of proxy factories.
 
-## -parameters
+
 
 ## -returns
 

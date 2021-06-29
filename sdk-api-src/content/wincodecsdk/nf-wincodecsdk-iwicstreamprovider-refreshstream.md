@@ -52,7 +52,7 @@ api_name:
 
 Informs the component that the content of the stream it's holding onto may have changed. The component should respond by dirtying any cached information from the stream.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Removes the indexing from a JPEG that has been indexed using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
 
-## -parameters
+
 
 ## -returns
 

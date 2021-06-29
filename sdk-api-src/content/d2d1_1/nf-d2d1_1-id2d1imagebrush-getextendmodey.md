@@ -52,7 +52,7 @@ api_name:
 
 Gets the extend mode of the image brush on the y-axis of the image.
 
-## -parameters
+
 
 ## -returns
 

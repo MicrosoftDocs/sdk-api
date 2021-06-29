@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of time ranges contained in the object.
 
-## -parameters
+
 
 ## -returns
 

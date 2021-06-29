@@ -52,7 +52,7 @@ api_name:
 
 Indicates a change in the <a href="/windows/desktop/DirectShow/avdecaudiodualmono-property">AVDecAudioDualMono</a> codec property.
 
-## -parameters
+
 
 ## -returns
 

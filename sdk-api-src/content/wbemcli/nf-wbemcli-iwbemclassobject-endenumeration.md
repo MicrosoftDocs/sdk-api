@@ -63,7 +63,7 @@ The
 <b>IWbemClassObject::EndEnumeration</b> method terminates an enumeration sequence started with 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginenumeration">IWbemClassObject::BeginEnumeration</a>. This call is not required, but it is recommended to developers because it releases resources associated with the enumeration. However, the resources are deallocated automatically when the next enumeration is started or the object is released.
 
-## -parameters
+
 
 ## -returns
 

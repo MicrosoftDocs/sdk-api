@@ -52,7 +52,7 @@ api_name:
 
 Causes the Microsoft UI Automation provider to stop listening for mouse or keyboard input.
 
-## -parameters
+
 
 ## -returns
 

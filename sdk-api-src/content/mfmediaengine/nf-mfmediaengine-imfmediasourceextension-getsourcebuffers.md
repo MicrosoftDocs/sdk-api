@@ -52,7 +52,7 @@ api_name:
 
 Gets the collection of source buffers associated with this media source.
 
-## -parameters
+
 
 ## -returns
 

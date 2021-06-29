@@ -52,7 +52,7 @@ api_name:
 
 The <b>Validate</b> method validates the current policy information.
 
-## -parameters
+
 
 ## -returns
 

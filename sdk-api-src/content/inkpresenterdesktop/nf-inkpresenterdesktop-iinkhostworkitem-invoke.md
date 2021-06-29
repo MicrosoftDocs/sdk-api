@@ -52,7 +52,7 @@ api_name:
 
 Executes the ink operation on an <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost">IInkDesktopHost</a> object thread.
 
-## -parameters
+
 
 ## -returns
 

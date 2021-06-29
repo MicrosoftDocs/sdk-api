@@ -53,7 +53,7 @@ api_name:
 
 The Refresh method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob">FaxOutgoingJob</a> object information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

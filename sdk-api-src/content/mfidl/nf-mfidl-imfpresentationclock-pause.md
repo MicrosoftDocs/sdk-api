@@ -53,7 +53,7 @@ api_name:
 
 Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> returns the time at which the clock was paused.
 
-## -parameters
+
 
 ## -returns
 

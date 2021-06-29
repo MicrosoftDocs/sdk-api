@@ -52,7 +52,7 @@ api_name:
 
 The <b>Install</b> method installs the Certificate Enrollment Web Service (CES) configured by the <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object.
 
-## -parameters
+
 
 ## -returns
 

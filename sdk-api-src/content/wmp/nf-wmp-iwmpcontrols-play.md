@@ -52,7 +52,7 @@ api_name:
 
 The <b>play</b> method causes the current media item to start playing, or resumes play of a paused item.
 
-## -parameters
+
 
 ## -returns
 

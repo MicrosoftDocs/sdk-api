@@ -53,7 +53,7 @@ api_name:
 
 Creates a <b>CharacterRange::CharacterRange</b> object with the data members set to zero.
 
-## -parameters
+
 
 ## -see-also
 

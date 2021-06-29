@@ -53,7 +53,7 @@ api_name:
 
 The <b>Cancel</b> method cancels a pending call.
 
-## -parameters
+
 
 ## -returns
 

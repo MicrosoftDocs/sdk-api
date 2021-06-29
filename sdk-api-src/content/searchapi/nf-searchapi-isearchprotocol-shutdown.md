@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the protocol handler.
 
-## -parameters
+
 
 ## -returns
 

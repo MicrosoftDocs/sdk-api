@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetPinInactive</b> method     notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.
 
-## -parameters
+
 
 ## -returns
 

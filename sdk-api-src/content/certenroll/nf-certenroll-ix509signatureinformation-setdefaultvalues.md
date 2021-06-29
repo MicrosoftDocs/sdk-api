@@ -52,7 +52,7 @@ api_name:
 
 The <b>SetDefaultValues</b> method specifies a default hashing algorithm used to create a digest of the certificate request prior to  signing.
 
-## -parameters
+
 
 ## -returns
 

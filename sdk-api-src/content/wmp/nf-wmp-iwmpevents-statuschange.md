@@ -52,7 +52,7 @@ api_name:
 
 The <b>StatusChange</b> event occurs when the <b>status</b> property changes value.
 
-## -parameters
+
 
 ## -see-also
 

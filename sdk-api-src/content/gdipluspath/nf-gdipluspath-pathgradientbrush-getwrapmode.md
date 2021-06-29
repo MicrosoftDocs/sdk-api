@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetWrapMode</b> method gets the wrap mode currently set for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 

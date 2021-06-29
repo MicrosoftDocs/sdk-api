@@ -57,7 +57,7 @@ api_name:
 
 Gets the <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> for the current thread.
 
-## -parameters
+
 
 ## -returns
 

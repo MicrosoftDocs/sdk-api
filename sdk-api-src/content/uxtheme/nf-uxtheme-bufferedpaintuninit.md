@@ -54,7 +54,7 @@ api_name:
 
 Closes down buffered painting for the current thread. Called once for each call to <a href="/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintinit">BufferedPaintInit</a> after calls to <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a> are no longer needed.
 
-## -parameters
+
 
 ## -returns
 

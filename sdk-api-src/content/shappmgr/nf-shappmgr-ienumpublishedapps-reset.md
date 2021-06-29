@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumeration of <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a> objects to the first item.
 
-## -parameters
+
 
 ## -returns
 

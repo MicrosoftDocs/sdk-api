@@ -60,7 +60,7 @@ api_name:
 
 The <b>GetSize</b> method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.
 
-## -parameters
+
 
 ## -returns
 

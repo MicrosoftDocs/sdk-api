@@ -53,7 +53,7 @@ api_name:
 
 Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 
-## -parameters
+
 
 ## -returns
 

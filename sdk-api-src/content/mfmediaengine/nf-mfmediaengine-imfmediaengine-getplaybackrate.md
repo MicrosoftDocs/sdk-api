@@ -52,7 +52,7 @@ api_name:
 
 Gets the current playback rate.
 
-## -parameters
+
 
 ## -returns
 

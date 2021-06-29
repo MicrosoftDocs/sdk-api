@@ -52,7 +52,7 @@ api_name:
 
 Marks the end of drawing on this Microsoft DirectComposition surface object.
 
-## -parameters
+
 
 ## -returns
 

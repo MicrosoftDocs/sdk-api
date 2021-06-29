@@ -52,7 +52,7 @@ api_name:
 
 Resets the mode of the display device hardware for the primary surface to what it was before the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-setdisplaymode">IDirectDraw7::SetDisplayMode</a> method was called. Exclusive-level access is required to use this method.
 
-## -parameters
+
 
 ## -returns
 

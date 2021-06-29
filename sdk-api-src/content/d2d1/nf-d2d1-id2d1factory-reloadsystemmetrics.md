@@ -52,7 +52,7 @@ api_name:
 
 Forces the factory to refresh any system defaults that it might have changed since factory creation.
 
-## -parameters
+
 
 ## -returns
 

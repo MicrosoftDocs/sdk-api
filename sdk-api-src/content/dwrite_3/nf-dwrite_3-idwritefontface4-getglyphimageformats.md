@@ -53,7 +53,7 @@ api_name:
 
 Gets all the glyph image formats supported by the entire font.
 
-## -parameters
+
 
 ## -returns
 

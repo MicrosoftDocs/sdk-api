@@ -52,7 +52,7 @@ api_name:
 
 Stops the background transfer of data to the local cache.
 
-## -parameters
+
 
 ## -returns
 

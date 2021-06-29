@@ -52,7 +52,7 @@ api_name:
 
 Pauses progress dialog timer.
 
-## -parameters
+
 
 ## -returns
 

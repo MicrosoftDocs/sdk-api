@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxReceiptOptions::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxreceiptoptions">FaxReceiptOptions</a> object data.
 
-## -parameters
+
 
 ## -returns
 

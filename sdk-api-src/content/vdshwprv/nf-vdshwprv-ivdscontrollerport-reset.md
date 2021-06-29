@@ -56,7 +56,7 @@ api_name:
 Reinitializes the 
    controller port.
 
-## -parameters
+
 
 ## -returns
 
