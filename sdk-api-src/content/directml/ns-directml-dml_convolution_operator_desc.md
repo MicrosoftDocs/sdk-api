@@ -139,6 +139,15 @@ Type: \_Maybenull\_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/ns-d
 
 An optional fused activation layer to apply after the convolution.
 
+## Mode interactions
+
+Convolution mode                       | Convolution direction              | Filter orientation
+---------------------------------------|------------------------------------|------------------------------------
+DML_CONVOLUTION_MODE_CROSS_CORRELATION | DML_CONVOLUTION_DIRECTION_FORWARD  | filter has identity orientation
+DML_CONVOLUTION_MODE_CROSS_CORRELATION | DML_CONVOLUTION_DIRECTION_BACKWARD | filter is transposed along x,y axes
+DML_CONVOLUTION_MODE_CONVOLUTION       | DML_CONVOLUTION_DIRECTION_FORWARD  | filter is transposed along x,y axes
+DML_CONVOLUTION_MODE_CONVOLUTION       | DML_CONVOLUTION_DIRECTION_BACKWARD | filter has identity orientation
+
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
