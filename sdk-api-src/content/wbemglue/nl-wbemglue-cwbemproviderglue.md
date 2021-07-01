@@ -60,9 +60,6 @@ api_name:
 <b>CWbemProviderGlue</b>  ties the Component Object Model (COM) interfaces of the Windows Management Instrumentation (WMI) API to the classes derived from the <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class, and supplies methods for providers to use to query each other. It is not expected that provider writers ever derive from this class, or create instances of this class. Typically, the provider writer  uses the static methods listed here to retrieve information from WMI. The <b>CWbemProviderGlue</b> is a COM interface, and it relies on COM security for  interprocess communication. For more information, see <a href="/windows/desktop/WmiSdk/setting-the-security-levels-on-a-wmi-connection">Setting the Security Levels on a WMI Connection</a> and <a href="/windows/desktop/WmiSdk/setting-the-security-on-iwbemservices-and-other-proxies">Setting the Security on IWbemServices and Other Proxies</a>.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CWbemProviderGlue</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>CWbemProviderGlue</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

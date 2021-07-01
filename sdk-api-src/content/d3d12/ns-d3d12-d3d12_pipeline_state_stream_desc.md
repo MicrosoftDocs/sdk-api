@@ -116,7 +116,7 @@ The runtime will validate the PSO desc is either a compute, mesh, or graphics pi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

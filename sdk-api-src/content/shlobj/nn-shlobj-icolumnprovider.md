@@ -58,9 +58,6 @@ Exposes methods that enable the addition of custom columns in the Windows Explor
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IColumnProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IColumnProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

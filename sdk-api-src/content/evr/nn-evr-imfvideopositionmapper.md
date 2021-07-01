@@ -58,9 +58,6 @@ To obtain a pointer to this interface, call <a href="/windows/desktop/api/mfidl/
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoPositionMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoPositionMapper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

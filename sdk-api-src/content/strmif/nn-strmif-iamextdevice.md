@@ -74,9 +74,6 @@ This interface controls basic device functions. Several other interfaces exist f
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMExtDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

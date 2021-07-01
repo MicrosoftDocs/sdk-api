@@ -58,7 +58,4 @@ The Filter Graph Manager implements this interface. Applications can use it when
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph3</b> interface inherits from <b>IFilterGraph2</b>. <b>IFilterGraph3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

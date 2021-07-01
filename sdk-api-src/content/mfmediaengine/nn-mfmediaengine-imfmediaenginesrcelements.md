@@ -55,9 +55,6 @@ Provides the Media Engine with a list of media resources.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSrcElements</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

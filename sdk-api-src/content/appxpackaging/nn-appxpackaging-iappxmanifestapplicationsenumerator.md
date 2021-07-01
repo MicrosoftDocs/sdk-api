@@ -55,9 +55,6 @@ Enumerates the applications defined in the package manifest.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestApplicationsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestApplicationsEnumerator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

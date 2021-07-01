@@ -55,9 +55,6 @@ Represents the information and properties needed to create an instance of a sync
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUIInfo</b> interface inherits from <b>IPropertyStore</b>. <b>ISyncProviderConfigUIInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

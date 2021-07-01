@@ -58,9 +58,6 @@ The VMR-9 input pins expose the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrv
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRVideoStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRVideoStreamControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 
