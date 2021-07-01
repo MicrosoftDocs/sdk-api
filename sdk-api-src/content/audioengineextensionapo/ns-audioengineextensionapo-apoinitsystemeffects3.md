@@ -54,7 +54,7 @@ A pointer to an [IPropertyStore](/propsys/nn-propsys-ipropertystore.md) object.
 
 ### -field pServiceProvider
 
-An **IServiceProvider** representing a service provider such as [IAudioProcessingObjectLoggingService] or [IAudioProcessingObjectRTQueueService](nn-audioengineextensionapo-iaudioprocessingobjectrtqueueservice.md).
+An [IServiceProvider](../servprov/nn-servprov-iserviceprovider.md) representing a service provider such as [IAudioProcessingObjectLoggingService] or [IAudioProcessingObjectRTQueueService](nn-audioengineextensionapo-iaudioprocessingobjectrtqueueservice.md).
 
 ### -field pDeviceCollection
 
