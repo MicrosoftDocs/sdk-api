@@ -57,7 +57,7 @@ Specifies the convolution mode. When used along with [DML_CONVOLUTION_DIRECTION_
 
 ### -field DML_CONVOLUTION_MODE_CROSS_CORRELATION
 
-Specifies the cross-correlation mode. If in doubt, use this mode — it is appropriate for the vast majority of machine learning (ML) model inference. When used along with [DML_CONVOLUTION_DIRECTION_BACKWARD](/windows/win32/api/directml/ne-directml-dml_convolution_direction), this flips the filter along the height and width axes.
+Specifies the cross-correlation mode. If in doubt, use this mode&mdash;it is appropriate for the vast majority of machine learning (ML) model inference. When used along with [DML_CONVOLUTION_DIRECTION_BACKWARD](/windows/win32/api/directml/ne-directml-dml_convolution_direction), this flips the filter along the height and width axes.
 
 ## -see-also
 
