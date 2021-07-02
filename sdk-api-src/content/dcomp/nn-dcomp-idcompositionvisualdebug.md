@@ -55,9 +55,6 @@ Represents a debug visual.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisualDebug</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisualDebug</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

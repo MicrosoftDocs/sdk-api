@@ -68,9 +68,6 @@ This interface GUID is not properly defined in mssachlp.lib; therefore, to get t
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMLogger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMLogger</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

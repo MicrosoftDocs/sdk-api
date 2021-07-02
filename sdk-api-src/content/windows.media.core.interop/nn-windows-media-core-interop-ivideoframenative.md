@@ -55,9 +55,6 @@ Represents a frame of video data.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoFrameNative</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IVideoFrameNative</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

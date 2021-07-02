@@ -59,10 +59,6 @@ The <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-i
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyCondition</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmPropertyCondition</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
 
 ## -remarks
 

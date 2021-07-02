@@ -57,9 +57,6 @@ This interface should be implemented by the XAudio2 client. XAudio2 calls these 
 
 
 See <a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> for restrictions on callback implementation.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2EngineCallback</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

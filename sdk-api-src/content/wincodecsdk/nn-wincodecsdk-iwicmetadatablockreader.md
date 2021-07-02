@@ -55,9 +55,6 @@ Exposes methods that provide access to all of the codec's top level metadata blo
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataBlockReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataBlockReader</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

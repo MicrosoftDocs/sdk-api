@@ -56,9 +56,6 @@ Defines callbacks that notify an application with an outstanding <a href="/previ
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest3Callback</b> interface inherits from <b>IXMLHTTPRequest2Callback</b>. <b>IXMLHTTPRequest3Callback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

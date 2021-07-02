@@ -58,7 +58,4 @@ api_name:
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILatLongReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ILatLongReport</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

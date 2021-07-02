@@ -60,7 +60,4 @@ Use the <b>IBackgroundCopyJob1</b> interface to add files to the job and retriev
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyJob1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

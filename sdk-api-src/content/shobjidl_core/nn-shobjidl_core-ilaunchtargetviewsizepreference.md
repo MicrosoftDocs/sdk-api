@@ -55,9 +55,6 @@ Provides a method for retrieving the preferred view size for a new application w
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetViewSizePreference</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetViewSizePreference</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

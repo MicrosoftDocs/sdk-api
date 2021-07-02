@@ -59,9 +59,6 @@ Note that this interface does not support multithreaded object concurrency.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPEInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPEInformation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

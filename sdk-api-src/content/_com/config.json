@@ -34,7 +34,8 @@
     "messagedispatcherapi.h",
     "roapi.h",
     "guiddef.h",
-    "winddi.h"
+    "winddi.h",
+    "servprov.h"
   ],
   "displayName": "Component Object Model (COM)"
 }

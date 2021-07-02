@@ -55,9 +55,6 @@ This section describes <b>ITypeInfo</b>, an interface typically used for reading
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

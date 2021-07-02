@@ -55,9 +55,6 @@ Retrieves the <a href="/windows/desktop/api/storageprovider/nn-storageprovider-i
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

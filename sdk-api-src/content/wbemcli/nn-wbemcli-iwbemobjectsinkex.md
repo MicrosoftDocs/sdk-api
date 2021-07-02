@@ -55,7 +55,4 @@ Creates a sink interface that can receive all types of notifications within the 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectSinkEx</b> interface inherits from <b>IWbemObjectSink</b>. <b>IWbemObjectSinkEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

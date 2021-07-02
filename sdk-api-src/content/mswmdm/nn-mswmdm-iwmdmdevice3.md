@@ -55,9 +55,6 @@ The <b>IWMDMDevice3</b> interface extends <b>IWMDMDevice2</b> by providing metho
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2</a>. <b>IWMDMDevice3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

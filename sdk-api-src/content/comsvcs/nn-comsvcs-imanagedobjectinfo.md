@@ -55,9 +55,6 @@ Describes the stub for a managed object.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedObjectInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedObjectInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

@@ -55,9 +55,6 @@ Represents metadata about a change batch that is based on the prerequisite knowl
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeBatchWithPrerequisite</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase</a>. <b>ISyncChangeBatchWithPrerequisite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

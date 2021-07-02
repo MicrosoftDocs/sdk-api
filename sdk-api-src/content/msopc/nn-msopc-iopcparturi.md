@@ -55,9 +55,6 @@ Represents the part name of a part.  If the part is a Relationships part, it is 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcPartUri</b> interface inherits from <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>. <b>IOpcPartUri</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

@@ -55,9 +55,6 @@ A callback interface exposing methods used with <a href="/windows/desktop/api/sh
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INamespaceWalkCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INamespaceWalkCB</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 
