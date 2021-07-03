@@ -129,9 +129,17 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
 ## Tensor constraints
 * *InputTensor* and *OutputGradientTensor* must have the same *Sizes*.
-* *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*.
+* *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, ChannelCount, [InputDepth], InputHeight, InputWidth } | 4 to 5 | FLOAT32, FLOAT16 |
+| InputGradientTensor | Input | { BatchCount, ChannelCount, [OutputDepth], OutputHeight, OutputWidth } | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputGradientTensor | Output | { BatchCount, ChannelCount, [InputDepth], InputHeight, InputWidth } | 4 to 5 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | Input | { BatchCount, ChannelCount, InputHeight, InputWidth } | 4 | FLOAT32, FLOAT16 |

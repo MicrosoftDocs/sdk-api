@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ROI_ALIGN_OPERATOR_DESC
 title: DML_ROI_ALIGN_OPERATOR_DESC
-description: Performs an ROI Align operation, as described in the [Mask R-CNN paper](https://arxiv.org/abs/1703.06870). In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
+description: Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
 helpviewer_keywords: ["DML_ROI_ALIGN_OPERATOR_DESC","DML_ROI_ALIGN_OPERATOR_DESC structure","direct3d12.dml_roi_align_operator_desc","directml/DML_ROI_ALIGN_OPERATOR_DESC"]
 tech.root: directml
 ms.date: 11/04/2020
@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Performs an ROI Align operation, as described in the [Mask R-CNN paper](https://arxiv.org/abs/1703.06870). In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
+Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
 
 ## -struct-fields
 

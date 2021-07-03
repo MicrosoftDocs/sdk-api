@@ -106,7 +106,7 @@ The ROI pool output size (height, width), which must match the last 2 dimensions
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-*InputTensor*, *OutputTensor*, and `ROITensor` must have the same *DataType*.
+*InputTensor*, *OutputTensor*, and *ROITensor* must have the same *DataType*.
 
 ## Tensor support
 | Tensor | Kind | Supported dimension counts | Supported data types |
