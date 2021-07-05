@@ -191,7 +191,6 @@ When *AxisDirection* is set to [DML_AXIS_DIRECTION_DECREASING](/windows/win32/ap
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-
 * *InputTensor*, *OutputIndexTensor*, and *OutputValueTensor* must have the same *DimensionCount*.
 * *InputTensor* and *OutputValueTensor* must have the same *DataType*.
 

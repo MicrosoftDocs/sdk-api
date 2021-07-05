@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and `ZeroPointTensor`, placing the results in the corresponding element of *OutputTensor*.
+Performs the following linear quantization function on every element in *InputTensor* with respect to its corresponding element in *ScaleTensor* and *ZeroPointTensor*, placing the results in the corresponding element of *OutputTensor*.
 
 ```
 // For uint8 output, Min = 0, Max = 255
@@ -86,8 +86,8 @@ The output tensor to write the results to.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *OutputTensor* and `ZeroPointTensor` must have the same *DataType*.
-* *InputTensor*, *OutputTensor*, *ScaleTensor*, and `ZeroPointTensor` must have the same *DimensionCount* and *Sizes*.
+* *InputTensor*, *OutputTensor*, *ScaleTensor*, and *ZeroPointTensor* must have the same *DimensionCount* and *Sizes*.
+* *OutputTensor* and *ZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_3_0 and above

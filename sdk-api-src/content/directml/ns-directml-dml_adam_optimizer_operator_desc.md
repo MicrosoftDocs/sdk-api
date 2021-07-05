@@ -179,8 +179,7 @@ This operator supports in-place execution, meaning that each output tensor is pe
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
 ## Tensor constraints
-* *GradientTensor*, *InputFirstMomentTensor*, *InputParametersTensor*, *InputSecondMomentTensor*, *OutputFirstMomentTensor*, *OutputParametersTensor*, *OutputSecondMomentTensor*, and *TrainingStepTensor* must have the same *DataType*.
-* *GradientTensor*, *InputFirstMomentTensor*, *InputParametersTensor*, *InputSecondMomentTensor*, *OutputFirstMomentTensor*, *OutputParametersTensor*, and *OutputSecondMomentTensor* must have the same *Sizes*.
+*GradientTensor*, *InputFirstMomentTensor*, *InputParametersTensor*, *InputSecondMomentTensor*, *OutputFirstMomentTensor*, *OutputParametersTensor*, and *OutputSecondMomentTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
