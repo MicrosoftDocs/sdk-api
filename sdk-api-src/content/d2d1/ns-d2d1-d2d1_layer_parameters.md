@@ -58,7 +58,7 @@ Contains the content bounds, mask information, opacity settings, and other optio
 
 Type: <b><a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a></b>
 
-The content bounds of the layer. Content outside these bounds is not guaranteed to render.
+The content bounds of the layer. Content outside these bounds is guaranteed not to render.
 
 ### -field geometricMask
 
