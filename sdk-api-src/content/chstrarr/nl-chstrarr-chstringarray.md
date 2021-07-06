@@ -61,11 +61,7 @@ api_name:
 
 The following table lists the <b>CHStringArray</b> methods and operators.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CHStringArray</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHStringArray</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHStringArray</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

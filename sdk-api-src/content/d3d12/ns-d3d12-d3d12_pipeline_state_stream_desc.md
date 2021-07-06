@@ -60,14 +60,14 @@ Describes a pipeline state stream.
 
 ### -field SizeInBytes
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the size of the opaque data structure pointed to by the pPipelineStateSubobjectStream member, in bytes.
 
 
 ### -field pPipelineStateSubobjectStream
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_reads_(_Inexpressible_("Dependentonsizeofsubobjects"))</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_reads_(_Inexpressible_("Dependentonsizeofsubobjects"))</code>
 
 Specifies the address of a data structure that describes as a bytestream an arbitrary pipeline state subobject.
 

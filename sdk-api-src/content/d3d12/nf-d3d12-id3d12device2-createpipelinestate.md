@@ -78,7 +78,7 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to the pipeline state can be
 
 Type: <b>void**</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_COM_Outptr_</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_COM_Outptr_</code>
 
 A pointer to a memory block that receives a pointer to the <a href="../d3d12/nn-d3d12-id3d12pipelinestate.md">ID3D12PipelineState</a> interface for the pipeline state object.
 

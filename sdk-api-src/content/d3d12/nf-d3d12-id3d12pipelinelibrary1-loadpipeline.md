@@ -62,7 +62,7 @@ Retrieves the requested PSO from the library. The pipeline stream description is
 
 Type: <b>LPCWSTR</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 The unique name of the PSO.
 
@@ -71,7 +71,7 @@ The unique name of the PSO.
 
 Type: <b>const <a href="../d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc.md">D3D12_PIPELINE_STATE_STREAM_DESC</a>*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Describes the required PSO using a <a href="../d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc.md">D3D12_PIPELINE_STATE_STREAM_DESC</a> structure. This description is matched against the library database and stored in order to prevent duplication of PSO contents.
 
@@ -89,7 +89,7 @@ Applications should typically set this argument and the following argument, ppPi
 
 Type: <b>void**</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_COM_Outptr_</code>
+<a href="/cpp/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_COM_Outptr_</code>
 
 Specifies the pointer that will reference the PSO after the function successfully returns.
 

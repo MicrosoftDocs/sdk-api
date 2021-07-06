@@ -98,12 +98,6 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 ## -see-also
 
-<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/">MTP_COMMAND_DATA_OUT</a>
-
-
-
-<a href="/windows/desktop/WMDM/structures">Structures</a>
+* <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
+* <a href="/windows/win32/api/mtpext/ns-mtpext-mtp_command_data_out">MTP_COMMAND_DATA_OUT</a>
+* <a href="/windows/desktop/WMDM/structures">Structures</a>
