@@ -618,35 +618,35 @@ Indicates the operator described by the [DML_TOP_K1_OPERATOR_DESC](/windows/win3
 
 ### -field DML_OPERATOR_BATCH_NORMALIZATION_GRAD
 
-Indicates the operator described by the [DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_batch_normalization_grad_operator_desc) structure.
+Indicates the operator described by the [DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_batch_normalization_grad_operator_desc) structure.
 
 ### -field DML_OPERATOR_CUMULATIVE_PRODUCT
 
-Indicates the operator described by the [DML_CUMULATIVE_PRODUCT_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_cumulative_product_operator_desc) structure.
+Indicates the operator described by the [DML_CUMULATIVE_PRODUCT_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_cumulative_product_operator_desc) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_ATAN_YX
 
-Indicates the operator described by the [DML_ELEMENT_WISE_ATAN_YX_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_element_wise_atan_yx_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_ATAN_YX_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_atan_yx_operator_desc) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD
 
-Indicates the operator described by the [DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_element_wise_clip_grad_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_clip_grad_operator_desc) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_DIFFERENCE_SQUARE
 
-Indicates the operator described by the [DML_ELEMENT_WISE_DIFFERENCE_SQUARE_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_element_wise_difference_square_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_DIFFERENCE_SQUARE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_difference_square_operator_desc) structure.
 
 ### -field DML_OPERATOR_LOCAL_RESPONSE_NORMALIZATION_GRAD
 
-Indicates the operator described by the [DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_local_response_normalization_grad_operator_desc) structure.
+Indicates the operator described by the [DML_LOCAL_RESPONSE_NORMALIZATION_GRAD_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_local_response_normalization_grad_operator_desc) structure.
 
 ### -field DML_OPERATOR_ELEMENT_WISE_QUANTIZED_LINEAR_ADD
 
-Indicates the operator described by the [DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc) structure.
+Indicates the operator described by the [DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc) structure.
 
 ### -field DML_OPERATOR_DYNAMIC_QUANTIZE_LINEAR
 
-Indicates the operator described by the [DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc) structure.
+Indicates the operator described by the [DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc) structure.
 
 ### -field DML_OPERATOR_ROI_ALIGN1
 
