@@ -47,17 +47,16 @@ api_name:
 
 # TraceLoggingThreadActivity class
 
-
 ## -description
 
 Provides support for logging ETW events during an activity. Events will be automatically tagged with or nested in this activity.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivity</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivity</b> class has these constructors.
+**TraceLoggingThreadActivity** has these types of members:
+
+### Constructors
+
+The **TraceLoggingThreadActivity** class has these constructors.
+
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
