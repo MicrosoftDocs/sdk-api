@@ -53,7 +53,6 @@ api_name:
 
 Provides extended information about a partition on a  <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
 <ul>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul><h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ClusPartitionEx</b> object has these properties.
 <table class="members" id="memberListProperties">
 <tr>
