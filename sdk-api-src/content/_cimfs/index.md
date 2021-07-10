@@ -28,4 +28,7 @@ CIMs were originally designed and optimized to be used as a Windows Container im
 To develop with CimFS, you need this header:
 
  * [cimfs.h](../cimfs/index.md)
+ 
+ And you will need to link with this library:
+  * [cimfs.lib]
 
