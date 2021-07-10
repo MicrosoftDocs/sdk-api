@@ -90,6 +90,14 @@ The app is opting in to using Stream Output. Omitting this flag can result in on
 
 The root signature is to be used with raytracing shaders to define resource bindings sourced from shader records in shader tables.  This flag cannot be combined with any other root signature flags, which are all related to the graphics pipeline.  The absence of the flag means the root signature can be used with graphics or compute, where the compute version is also shared with raytracing’s global root signature.
 
+### -field D3D12_ROOT_SIGNATURE_FLAG_DENY_AMPLIFICATION_SHADER_ROOT_ACCESS
+
+Denies the amplification shader access to the root signature.
+
+### -field D3D12_ROOT_SIGNATURE_FLAG_DENY_MESH_SHADER_ROOT_ACCESS
+
+Denies the mesh shader access to the root signature.
+
 ### -field D3D12_ROOT_SIGNATURE_FLAG_CBV_SRV_UAV_HEAP_DIRECTLY_INDEXED
 
 The shaders are allowed to index the CBV/SRV/UAV descriptor heap directly, using the `ResourceDescriptorHeap` builtin variable.
