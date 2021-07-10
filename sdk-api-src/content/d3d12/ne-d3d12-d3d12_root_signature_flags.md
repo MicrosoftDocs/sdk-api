@@ -90,6 +90,14 @@ The app is opting in to using Stream Output. Omitting this flag can result in on
 
 The root signature is to be used with raytracing shaders to define resource bindings sourced from shader records in shader tables.  This flag cannot be combined with any other root signature flags, which are all related to the graphics pipeline.  The absence of the flag means the root signature can be used with graphics or compute, where the compute version is also shared with raytracing’s global root signature.
 
+### -field D3D12_ROOT_SIGNATURE_FLAG_CBV_SRV_UAV_HEAP_DIRECTLY_INDEXED
+
+The shaders are allowed to index the CBV/SRV/UAV descriptor heap directly, using the `ResourceDescriptorHeap` builtin variable.
+
+### -field D3D12_ROOT_SIGNATURE_FLAG_SAMPLER_HEAP_DIRECTLY_INDEXED
+
+The shaders are allowed to index the sampler descriptor heap directly, using the `SamplerDescriptorHeap` builtin variable.
+
 ## -remarks
 
 This enum is used in the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> structure.
