@@ -100,11 +100,11 @@ Denies the mesh shader access to the root signature.
 
 ### -field D3D12_ROOT_SIGNATURE_FLAG_CBV_SRV_UAV_HEAP_DIRECTLY_INDEXED
 
-The shaders are allowed to index the CBV/SRV/UAV descriptor heap directly, using the `ResourceDescriptorHeap` builtin variable.
+The shaders are allowed to index the CBV/SRV/UAV descriptor heap directly, using the *ResourceDescriptorHeap* built-in variable.
 
 ### -field D3D12_ROOT_SIGNATURE_FLAG_SAMPLER_HEAP_DIRECTLY_INDEXED
 
-The shaders are allowed to index the sampler descriptor heap directly, using the `SamplerDescriptorHeap` builtin variable.
+The shaders are allowed to index the sampler descriptor heap directly, using the *SamplerDescriptorHeap* built-in variable.
 
 ## -remarks
 
