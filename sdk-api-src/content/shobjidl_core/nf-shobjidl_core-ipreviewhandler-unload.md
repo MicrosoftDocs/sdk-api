@@ -52,7 +52,7 @@ api_name:
 
 Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.
 
-## -parameters
+
 
 ## -returns
 

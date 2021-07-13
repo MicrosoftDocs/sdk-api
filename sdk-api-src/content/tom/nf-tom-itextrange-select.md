@@ -52,7 +52,7 @@ api_name:
 
 Sets the start and end positions, and story values of the active selection, to those of this range.
 
-## -parameters
+
 
 ## -returns
 

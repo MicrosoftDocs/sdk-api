@@ -53,7 +53,7 @@ api_name:
 
 Called when the sample-grabber sink is shut down.
 
-## -parameters
+
 
 ## -returns
 

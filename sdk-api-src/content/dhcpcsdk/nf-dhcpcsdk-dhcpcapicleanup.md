@@ -55,7 +55,7 @@ The
 <b>DhcpCApiCleanup</b> function must only be called if a previous call to 
 <a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a> executed successfully.
 
-## -parameters
+
 
 ## -see-also
 

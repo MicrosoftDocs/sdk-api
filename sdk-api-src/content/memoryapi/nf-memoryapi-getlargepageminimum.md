@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the minimum size of a large page.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>Cancel</b> method cancels an append operation, if one is in progress. Otherwise, it has no effect.
 
-## -parameters
+
 
 ## -returns
 

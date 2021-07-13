@@ -61,12 +61,7 @@ api_name:
 
 The following table lists the <b>CHString</b> methods.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CHString</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Operators</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHString</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHString</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -443,7 +438,7 @@ Concatenates a new string to the end of an existing string.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385695(v=vs.85)">operator <  (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385695(v=vs.85)">operator <  (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
@@ -452,7 +447,7 @@ Compares a <b>CHString</b> with a <b>LPCWSTR</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385689(v=vs.85)">operator < (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385689(v=vs.85)">operator < (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b>.
@@ -461,7 +456,7 @@ Compares two <b>CHStrings</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385676(v=vs.85)">operator <= (CHString, CHString)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385676(v=vs.85)">operator <= (CHString, CHString)</a>
 </td>
 <td align="left" width="63%">
 Compares two <b>CHStrings</b>.
@@ -470,7 +465,7 @@ Compares two <b>CHStrings</b>.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa385683(v=vs.85)">operator <= (CHString, LPCWSTR)</a>
+<a href="/previous-versions/windows/desktop/legacy/aa385683(v=vs.85)">operator <= (CHString, LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Compares a <b>CHString</b> with a <b>LPCWSTR</b>.

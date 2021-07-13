@@ -52,7 +52,7 @@ api_name:
 
 Returns a vector, each of whose components are epsilon (1.192092896e-7).
 
-## -parameters
+
 
 ## -returns
 

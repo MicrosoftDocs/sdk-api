@@ -52,7 +52,7 @@ api_name:
 
 The <b>SwitchedToPlayerApplication</b> event occurs when a remoted Windows Media Player control switches to the full mode of the Player.
 
-## -parameters
+
 
 ## -remarks
 

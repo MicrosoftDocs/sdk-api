@@ -52,7 +52,7 @@ api_name:
 
 The <b>WSARevertImpersonation</b> function terminates the impersonation of a socket peer.  This must be called after calling <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer">WSAImpersonateSocketPeer</a> and finishing any access checks.
 
-## -parameters
+
 
 ## -returns
 

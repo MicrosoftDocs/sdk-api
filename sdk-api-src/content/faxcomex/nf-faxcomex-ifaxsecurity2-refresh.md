@@ -53,7 +53,7 @@ api_name:
 
 Refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity2">FaxSecurity2</a> object information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

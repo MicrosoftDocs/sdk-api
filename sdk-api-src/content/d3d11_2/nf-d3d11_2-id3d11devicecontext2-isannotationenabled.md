@@ -52,7 +52,7 @@ api_name:
 
 Allows apps to determine when either a capture or profiling request is enabled.
 
-## -parameters
+
 
 ## -returns
 

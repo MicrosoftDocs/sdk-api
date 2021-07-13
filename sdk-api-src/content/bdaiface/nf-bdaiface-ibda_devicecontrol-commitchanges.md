@@ -52,7 +52,7 @@ api_name:
 
 The <b>CommitChanges</b> method instructs the device to perform the changes specified in the previous call to <b>StartChanges</b>.
 
-## -parameters
+
 
 ## -returns
 

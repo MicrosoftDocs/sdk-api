@@ -52,7 +52,7 @@ api_name:
 
 Requests the device context for the text host window.
 
-## -parameters
+
 
 ## -returns
 

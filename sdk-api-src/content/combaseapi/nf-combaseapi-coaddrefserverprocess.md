@@ -56,7 +56,7 @@ api_name:
 
 Increments a global per-process reference count.
 
-## -parameters
+
 
 ## -returns
 

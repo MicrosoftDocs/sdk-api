@@ -52,7 +52,7 @@ api_name:
 
 Starts the spatial audio stream.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,5 +52,5 @@ api_name:
 
 The <b>mmGetCurrentTask</b> function is deprecated. Applications should not use this function.
 
-## -parameters
+
 

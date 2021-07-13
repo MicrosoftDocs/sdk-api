@@ -52,7 +52,7 @@ api_name:
 
 Refreshes the view's contents in response to user input.
 
-## -parameters
+
 
 ## -returns
 

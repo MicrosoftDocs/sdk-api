@@ -52,7 +52,7 @@ api_name:
 
 Notifies the host that reference tracking is no longer available on the calling thread; XAML calls this when the <b>FrameworkView</b> is uninitialized.
 
-## -parameters
+
 
 ## -returns
 

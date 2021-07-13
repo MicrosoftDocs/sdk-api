@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>EncryptionOn</b> method is called when the stream changes from not encrypted to encrypted.
 
-## -parameters
+
 
 ## -returns
 

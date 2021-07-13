@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>ResumeGroup</b> method to start a group that has been suspended in the download queue.
 
-## -parameters
+
 
 ## -returns
 

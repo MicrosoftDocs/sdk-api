@@ -56,7 +56,7 @@ api_name:
 
 This destructor is virtual and may be overridden by derived objects.
 
-## -parameters
+
 
 ## -see-also
 

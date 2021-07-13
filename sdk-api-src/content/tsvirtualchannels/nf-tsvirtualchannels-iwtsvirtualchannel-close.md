@@ -54,7 +54,7 @@ Closes the channel.
 
 If the channel has not already been closed, the <b>Close()</b> method will call the <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannelcallback-onclose">IWTSVirtualChannelCallback::OnClose()</a> method into the associated virtual channel callback interface. After a channel is closed, any <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-write">Write()</a> call on it will fail.
 
-## -parameters
+
 
 ## -returns
 

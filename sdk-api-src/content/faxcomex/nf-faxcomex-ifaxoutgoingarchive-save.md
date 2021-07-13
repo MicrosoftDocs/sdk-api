@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingArchive::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingarchive">FaxOutgoingArchive</a> object data.
 
-## -parameters
+
 
 ## -returns
 

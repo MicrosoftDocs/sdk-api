@@ -56,7 +56,4 @@ The <b>IPortableDeviceDataStream</b> interface exposes additional methods on an 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceDataStream</b> interface inherits from <b>IStream</b>. <b>IPortableDeviceDataStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

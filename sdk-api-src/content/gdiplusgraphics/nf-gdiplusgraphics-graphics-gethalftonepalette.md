@@ -53,7 +53,7 @@ api_name:
 
 The <b>Graphics::GetHalftonePalette</b> method gets a Windows halftone palette.
 
-## -parameters
+
 
 ## -returns
 

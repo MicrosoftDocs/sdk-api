@@ -52,7 +52,7 @@ api_name:
 
 The <b>IFaxDevice::AnswerCall</b> method causes the fax device to answer an incoming call.
 
-## -parameters
+
 
 ## -returns
 

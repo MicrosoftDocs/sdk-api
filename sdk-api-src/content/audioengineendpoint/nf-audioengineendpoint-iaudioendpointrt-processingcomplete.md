@@ -52,7 +52,7 @@ api_name:
 
 The <b>ProcessingComplete</b> method notifies the endpoint that a processing pass has been completed.
 
-## -parameters
+
 
 ## -remarks
 

@@ -64,7 +64,7 @@ Reserved; do not use.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT32</a></b>
 
-The processor architecture of the package. This member must be one of the values of the <b>PROCESSOR_ARCHITECTURE_...</b> constants that matches the <b><a href="https://docs.microsoft.com/uwp/api/Windows.System.ProcessorArchitecture">ProcessorArchitecture</b> enumeration</a> values. This includes:
+The processor architecture of the package. This member must be one of the values of the <b>PROCESSOR_ARCHITECTURE_...</b> constants that matches the <b><a href="/uwp/api/Windows.System.ProcessorArchitecture">ProcessorArchitecture</b> enumeration</a> values. This includes:
 
 * PROCESSOR_ARCHITECTURE_AMD64
 * PROCESSOR_ARCHITECTURE_ARM

@@ -52,7 +52,7 @@ api_name:
 
 Requests cancellation of the asynchronous operation already in progress.
 
-## -parameters
+
 
 ## -returns
 

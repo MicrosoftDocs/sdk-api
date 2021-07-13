@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message. The derived class handles the message.
 
-## -parameters
+
 
 ## -returns
 

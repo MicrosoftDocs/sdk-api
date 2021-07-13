@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Stop</b> method stops the current action and sets the current location to the beginning of the file.
 
-## -parameters
+
 
 ## -returns
 

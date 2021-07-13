@@ -52,7 +52,7 @@ api_name:
 
 Selects the span of text that corresponds to this text range, and removes any previous  selection.
 
-## -parameters
+
 
 ## -returns
 

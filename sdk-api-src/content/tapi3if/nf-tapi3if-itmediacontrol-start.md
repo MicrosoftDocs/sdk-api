@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Start</b> method starts the action at the current location.
 
-## -parameters
+
 
 ## -returns
 

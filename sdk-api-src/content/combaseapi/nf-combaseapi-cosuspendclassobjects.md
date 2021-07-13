@@ -56,7 +56,7 @@ api_name:
 
 Prevents any new activation requests from the SCM on all class objects registered within the process.
 
-## -parameters
+
 
 ## -returns
 

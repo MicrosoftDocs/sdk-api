@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetInterpolationColorCount</b> method gets the number of preset colors currently specified for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 

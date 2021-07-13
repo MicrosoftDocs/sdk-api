@@ -57,7 +57,7 @@ req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 Retrieves the time required to invert the caret's pixels.
           The user can set this value.
 
-## -parameters
+
 
 ## -returns
 

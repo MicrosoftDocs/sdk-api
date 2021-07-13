@@ -52,7 +52,7 @@ api_name:
 
 Terminates the storyboard, releases all related animation variables, and removes the storyboard from the schedule.
 
-## -parameters
+
 
 ## -returns
 

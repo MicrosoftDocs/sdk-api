@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Returns to playing back a title from a menu.
 
-## -parameters
+
 
 ## -returns
 

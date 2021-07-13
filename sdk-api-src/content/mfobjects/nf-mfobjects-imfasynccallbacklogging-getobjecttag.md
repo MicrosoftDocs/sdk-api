@@ -52,7 +52,7 @@ api_name:
 
 Gets the tag of the parent object the async callback is associated object.
 
-## -parameters
+
 
 ## -returns
 

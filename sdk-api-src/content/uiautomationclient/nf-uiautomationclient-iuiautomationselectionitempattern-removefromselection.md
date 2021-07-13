@@ -52,7 +52,7 @@ api_name:
 
 Removes this element from the selection.
 
-## -parameters
+
 
 ## -returns
 

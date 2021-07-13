@@ -52,7 +52,7 @@ api_name:
 
 Disconnects an <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-iconnectablecredentialprovidercredential">IConnectableCredentialProviderCredential</a> object.
 
-## -parameters
+
 
 ## -returns
 

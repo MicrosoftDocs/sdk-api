@@ -54,7 +54,7 @@ Creates a new TraceLoggingActivity object.
 
 <b>TraceLoggingActivity</b> is a class template.
 
-## -parameters
+
 
 ## -remarks
 

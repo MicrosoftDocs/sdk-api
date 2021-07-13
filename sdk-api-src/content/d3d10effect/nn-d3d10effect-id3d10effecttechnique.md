@@ -54,9 +54,6 @@ api_name:
 An <b>ID3D10EffectTechnique</b> interface is a collection of passes.
 
 The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime of its parent <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect</a> object.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectTechnique</b> interface has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

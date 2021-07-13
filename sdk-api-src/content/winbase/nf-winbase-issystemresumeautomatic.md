@@ -52,7 +52,7 @@ api_name:
 
 Determines the current state of the computer.
 
-## -parameters
+
 
 ## -returns
 

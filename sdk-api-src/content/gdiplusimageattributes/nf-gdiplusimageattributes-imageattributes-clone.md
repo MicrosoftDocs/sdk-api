@@ -54,7 +54,7 @@ api_name:
 The <b>ImageAttributes::Clone</b> method makes a copy of this 
 		<a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object.
 
-## -parameters
+
 
 ## -returns
 

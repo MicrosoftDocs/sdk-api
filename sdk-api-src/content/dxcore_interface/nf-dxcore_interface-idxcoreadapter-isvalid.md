@@ -44,7 +44,7 @@ api_name:
 
 Determines whether this DXCore adapter object is still valid. For programming guidance, and code examples, see [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters).
 
-## -parameters
+
 
 ## -returns
 

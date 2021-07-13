@@ -52,7 +52,7 @@ api_name:
 
 The <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Reset</a> method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

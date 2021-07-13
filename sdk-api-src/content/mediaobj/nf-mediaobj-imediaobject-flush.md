@@ -53,7 +53,7 @@ api_name:
 
 The <code>Flush</code> method flushes all internally buffered data.
 
-## -parameters
+
 
 ## -returns
 

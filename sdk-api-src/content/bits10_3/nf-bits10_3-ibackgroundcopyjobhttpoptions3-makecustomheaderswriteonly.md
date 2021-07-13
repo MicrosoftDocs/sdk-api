@@ -45,7 +45,7 @@ api_name:
 
 Sets the HTTP custom headers for this job to be write-only. Write-only headers cannot be read by BITS methods such as the [IBackgroundCopyJobHttpOptions::GetCustomHeaders method](/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders).
 
-## -parameters
+
 
 ## -returns
 

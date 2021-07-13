@@ -52,7 +52,7 @@ api_name:
 
 The <b>Cleanup</b> method allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
 
-## -parameters
+
 
 ## -returns
 

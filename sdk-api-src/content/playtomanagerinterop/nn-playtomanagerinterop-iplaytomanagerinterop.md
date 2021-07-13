@@ -55,9 +55,6 @@ Enables access to <a href="/uwp/api/windows.media.playto.playtomanager">PlayToMa
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToManagerInterop</b> interface inherits from <b>IInspectable</b>. <b>IPlayToManagerInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

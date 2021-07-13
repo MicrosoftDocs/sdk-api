@@ -52,7 +52,7 @@ api_name:
 
 Returns the size of the initial viewport.
 
-## -parameters
+
 
 ## -returns
 

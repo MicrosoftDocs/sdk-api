@@ -52,7 +52,7 @@ api_name:
 
 Reverts to the default scopes.
 
-## -parameters
+
 
 ## -returns
 

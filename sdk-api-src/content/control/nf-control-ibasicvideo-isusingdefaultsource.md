@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsUsingDefaultSource</code> method queries whether the renderer is using the default source rectangle.
 
-## -parameters
+
 
 ## -returns
 

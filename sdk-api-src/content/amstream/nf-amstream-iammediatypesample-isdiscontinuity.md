@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>IsDiscontinuity</code> method determines if this sample represents a discontinuity in the data stream.
 
-## -parameters
+
 
 ## -returns
 

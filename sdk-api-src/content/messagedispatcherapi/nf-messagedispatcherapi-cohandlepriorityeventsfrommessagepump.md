@@ -52,7 +52,7 @@ api_name:
 
 Called by message dispatchers on an ASTA thread after dispatching a windows message to provide an opportunity for short-running infrastructural COM calls and other high-priority or short-running COM work to be dispatched between messages. This helps to provide similar responsiveness to these infrastructural calls in an ASTA as in a classic STA, even when there is a long stream of window messages to be handled.
 
-## -parameters
+
 
 ## -returns
 

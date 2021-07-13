@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxEventLogging::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxeventlogging">IFaxEventLogging</a> interface information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

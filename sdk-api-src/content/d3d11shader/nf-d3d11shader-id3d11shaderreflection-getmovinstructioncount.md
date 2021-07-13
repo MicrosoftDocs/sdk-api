@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of Mov instructions.
 
-## -parameters
+
 
 ## -returns
 

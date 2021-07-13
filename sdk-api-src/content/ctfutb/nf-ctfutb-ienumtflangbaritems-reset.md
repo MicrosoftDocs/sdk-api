@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
-## -parameters
+
 
 ## -returns
 

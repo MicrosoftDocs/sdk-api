@@ -53,7 +53,7 @@ api_name:
 The 
 <b>UnregisterSink</b> method clears event registration for pluggable terminal events.
 
-## -parameters
+
 
 ## -returns
 

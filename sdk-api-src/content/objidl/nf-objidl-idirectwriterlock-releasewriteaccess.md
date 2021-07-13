@@ -52,7 +52,7 @@ api_name:
 
 The <b>ReleaseWriteAccess</b> method releases the write lock previously obtained.
 
-## -parameters
+
 
 ## -returns
 

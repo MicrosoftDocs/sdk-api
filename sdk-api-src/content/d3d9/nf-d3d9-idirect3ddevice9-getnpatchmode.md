@@ -53,7 +53,7 @@ api_name:
 
 Gets the N-patch mode segments.
 
-## -parameters
+
 
 ## -returns
 

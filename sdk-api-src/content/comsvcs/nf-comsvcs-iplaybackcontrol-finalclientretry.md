@@ -52,7 +52,7 @@ api_name:
 
 Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
 
-## -parameters
+
 
 ## -returns
 

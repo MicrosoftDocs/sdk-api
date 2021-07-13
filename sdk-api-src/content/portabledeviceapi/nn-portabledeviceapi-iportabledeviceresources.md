@@ -56,9 +56,6 @@ The <b>IPortableDeviceResources</b> interface provides access to an object's raw
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceResources</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceResources</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

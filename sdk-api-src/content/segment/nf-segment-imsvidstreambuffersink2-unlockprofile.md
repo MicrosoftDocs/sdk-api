@@ -57,7 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>UnlockProfile</b> method unlocks the stream profile.
 
-## -parameters
+
 
 ## -returns
 

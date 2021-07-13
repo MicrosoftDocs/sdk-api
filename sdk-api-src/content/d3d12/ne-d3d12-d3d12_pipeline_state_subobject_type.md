@@ -224,7 +224,7 @@ This enum is used in the creation of pipeline state objects using the ID3D12Devi
 See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behaviour of a streaming pipeline desc.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/win32/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

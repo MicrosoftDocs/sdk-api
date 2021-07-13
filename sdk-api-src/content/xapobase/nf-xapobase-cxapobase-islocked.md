@@ -53,7 +53,7 @@ api_name:
 
 Queries whether the XAPO is locked.
 
-## -parameters
+
 
 ## -returns
 

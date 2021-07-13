@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of interface slots in a shader.
 
-## -parameters
+
 
 ## -returns
 

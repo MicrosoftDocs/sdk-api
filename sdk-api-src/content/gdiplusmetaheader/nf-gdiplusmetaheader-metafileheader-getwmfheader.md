@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetWmfHeader</b> method gets a <a href="/windows/desktop/api/wingdi/ns-wingdi-metaheader">METAHEADER</a> structure that contains properties of the associated metafile.
 
-## -parameters
+
 
 ## -returns
 

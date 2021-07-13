@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsServiceOperations::Continue</b> method resumes a service operation paused by the  <a href="/windows/desktop/api/iads/nf-iads-iadsserviceoperations-pause">IADsServiceOperations::Pause</a> method.
 
-## -parameters
+
 
 ## -returns
 

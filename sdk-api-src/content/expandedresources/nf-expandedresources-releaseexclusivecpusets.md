@@ -52,7 +52,7 @@ api_name:
 
 Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.
 
-## -parameters
+
 
 ## -returns
 

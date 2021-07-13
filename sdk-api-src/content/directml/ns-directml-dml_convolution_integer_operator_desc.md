@@ -118,10 +118,22 @@ The number of groups which to divide the convolution operation up into. *GroupCo
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 * *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
+* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
+* *FilterZeroPointTensor* and *InputZeroPointTensor* must have the same *DimensionCount*.
+* *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
 
-## Tensor support
+# Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, InputChannelCount, [InputHeight], InputWidth } | 3 to 4 | INT8, UINT8 |
+| InputZeroPointTensor | Optional input | { [1], [1], [1], 1 } | 1 to 4 | INT8, UINT8 |
+| FilterTensor | Input | { FilterBatchCount, FilterChannelCount, [FilterHeight], FilterWidth } | 3 to 4 | INT8, UINT8 |
+| FilterZeroPointTensor | Optional input | { [1], FilterZeroPointChannelCount, [1], [1] } | 1 to 4 | INT8, UINT8 |
+| OutputTensor | Output | { BatchCount, OutputChannelCount, [OutputHeight], OutputWidth } | 3 to 4 | INT32 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | INT8, UINT8 |

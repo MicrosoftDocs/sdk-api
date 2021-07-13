@@ -52,7 +52,7 @@ api_name:
 
 Aborts the transfer of data on the attachment MIME data stream. When <b>Abort</b> is called, any pending data may be discarded.
 
-## -parameters
+
 
 ## -returns
 

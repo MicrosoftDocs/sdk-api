@@ -45,7 +45,7 @@ dev_langs:
 
 Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the amount of contrast enhancement to use for grayscale antialiasing.
 
-## -parameters
+
 
 ## -returns
 

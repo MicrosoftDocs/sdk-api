@@ -59,7 +59,7 @@ api_name:
 
 The <b>GetSize</b> method returns how many items are in the list.
 
-## -parameters
+
 
 ## -returns
 

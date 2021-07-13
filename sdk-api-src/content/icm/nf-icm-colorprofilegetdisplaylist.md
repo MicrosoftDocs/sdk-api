@@ -71,8 +71,8 @@ Receives the number of profiles names copied into profileList.
 
 ## -remarks
 
-See [connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
+See [connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
 
 ## -see-also
 
-[Connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays)
+[Connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays)

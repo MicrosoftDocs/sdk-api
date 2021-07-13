@@ -52,7 +52,7 @@ api_name:
 
 Restores the original activity ID to the thread.
 
-## -parameters
+
 
 ## -see-also
 

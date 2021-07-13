@@ -81,6 +81,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| InputGradientTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputGradientTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |

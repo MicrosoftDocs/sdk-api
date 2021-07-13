@@ -53,7 +53,7 @@ api_name:
 
 Shuts down the media source and releases the resources it is using.
 
-## -parameters
+
 
 ## -returns
 

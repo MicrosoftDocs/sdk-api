@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a pseudo-handle that you can use as a shorthand way to refer to the <a href="/windows/desktop/SecGloss/a-gly">access token</a> associated with a process.
 
-## -parameters
+
 
 ## -returns
 

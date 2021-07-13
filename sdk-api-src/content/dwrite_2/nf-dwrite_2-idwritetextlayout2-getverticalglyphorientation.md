@@ -52,7 +52,7 @@ api_name:
 
 Get the preferred orientation of glyphs when using a vertical reading direction.
 
-## -parameters
+
 
 ## -see-also
 

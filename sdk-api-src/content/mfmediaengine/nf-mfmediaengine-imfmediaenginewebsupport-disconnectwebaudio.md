@@ -52,7 +52,7 @@ api_name:
 
 Disconnects web audio from the Media Engine
 
-## -parameters
+
 
 ## -returns
 

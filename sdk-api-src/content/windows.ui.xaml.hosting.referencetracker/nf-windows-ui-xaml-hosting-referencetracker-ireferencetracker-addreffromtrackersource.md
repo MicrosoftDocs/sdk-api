@@ -52,7 +52,7 @@ api_name:
 
 Indicates each time that a tracker source calls <b>IUnknown::AddRef</b> on the reference tracker; called after the <b>AddRef</b> call.
 
-## -parameters
+
 
 ## -returns
 

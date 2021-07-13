@@ -52,7 +52,7 @@ api_name:
 
 Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
 
-## -parameters
+
 
 ## -returns
 

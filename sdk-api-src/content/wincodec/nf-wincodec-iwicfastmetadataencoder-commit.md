@@ -52,7 +52,7 @@ api_name:
 
 Finalizes metadata changes to the image stream.
 
-## -parameters
+
 
 ## -returns
 

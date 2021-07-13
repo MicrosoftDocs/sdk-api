@@ -52,7 +52,7 @@ api_name:
 
 Determines whether there are mouse-button or keyboard messages in the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

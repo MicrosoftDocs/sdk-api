@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the expiration event for the font set, if any. The expiration event is set on a system font set object if it is out of date due to fonts being installed, uninstalled, or updated. You should handle the event by getting a new system font set.
 
-## -parameters
+
 
 ## -returns
 

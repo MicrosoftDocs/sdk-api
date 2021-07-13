@@ -53,7 +53,7 @@ api_name:
 
 Signals Direct3D to begin recording a device-state block.
 
-## -parameters
+
 
 ## -returns
 

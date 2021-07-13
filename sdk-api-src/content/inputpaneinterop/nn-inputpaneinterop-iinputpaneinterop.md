@@ -55,9 +55,6 @@ Enables access to the members of the <a href="/uwp/api/windows.ui.viewmanagement
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInputPaneInterop</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IInputPaneInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

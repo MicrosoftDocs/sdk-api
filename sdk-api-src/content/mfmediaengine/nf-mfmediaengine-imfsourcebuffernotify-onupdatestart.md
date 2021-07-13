@@ -52,7 +52,7 @@ api_name:
 
 Used to indicate that the source buffer has started updating.
 
-## -parameters
+
 
 ## -see-also
 

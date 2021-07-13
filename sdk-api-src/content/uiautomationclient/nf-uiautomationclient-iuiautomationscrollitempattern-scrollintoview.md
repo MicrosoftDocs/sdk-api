@@ -52,7 +52,7 @@ api_name:
 
 Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
 
-## -parameters
+
 
 ## -returns
 

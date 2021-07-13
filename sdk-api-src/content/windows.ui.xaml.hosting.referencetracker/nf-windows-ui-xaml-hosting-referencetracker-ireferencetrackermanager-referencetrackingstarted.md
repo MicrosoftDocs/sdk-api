@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackermanager-findtrackertargetscompleted">FindTrackerTargetsCompleted</a>.
 
-## -parameters
+
 
 ## -returns
 

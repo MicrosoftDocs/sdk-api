@@ -52,7 +52,7 @@ api_name:
 
 The <code>SetInvertPolarity</code> method reverses the current polarity the device uses.
 
-## -parameters
+
 
 ## -returns
 

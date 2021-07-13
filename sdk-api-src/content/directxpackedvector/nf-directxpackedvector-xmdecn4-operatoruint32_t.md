@@ -57,7 +57,7 @@ Returns an instance of <code>uint32_t</code> containing the components of the <a
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

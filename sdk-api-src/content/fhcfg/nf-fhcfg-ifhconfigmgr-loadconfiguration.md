@@ -56,7 +56,7 @@ Loads the File History configuration information for the current user into an <a
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
-## -parameters
+
 
 ## -returns
 

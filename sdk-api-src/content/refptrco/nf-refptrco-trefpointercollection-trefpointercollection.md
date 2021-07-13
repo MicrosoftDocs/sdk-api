@@ -59,7 +59,7 @@ api_name:
 
 This constructor initializes a new <a href="/windows/desktop/api/refptrco/nl-refptrco-trefpointercollection">TRefPointerCollection</a> object.
 
-## -parameters
+
 
 #### - trpc [ref]
 

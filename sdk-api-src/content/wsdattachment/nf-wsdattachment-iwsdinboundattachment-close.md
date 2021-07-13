@@ -52,7 +52,7 @@ api_name:
 
 Closes the current attachment MIME data stream.
 
-## -parameters
+
 
 ## -returns
 

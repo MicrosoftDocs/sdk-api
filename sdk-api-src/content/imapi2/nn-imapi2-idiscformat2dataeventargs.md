@@ -57,9 +57,6 @@ This interface is passed to the <a href="/windows/desktop/api/imapi2/nf-imapi2-d
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2DataEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2DataEventArgs</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

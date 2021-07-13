@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reinitialize</b> method forces Windows Media Device Manager to rediscover all the Windows Media Device Manager devices.
 
-## -parameters
+
 
 ## -returns
 

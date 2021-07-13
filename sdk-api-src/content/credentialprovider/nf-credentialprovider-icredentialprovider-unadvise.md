@@ -52,7 +52,7 @@ api_name:
 
 Used by the Logon UI or Credential UI to advise the credential provider that event callbacks are no longer accepted.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Delete</b> method deletes the specified fax message from the inbound fax archive.
 
-## -parameters
+
 
 ## -returns
 

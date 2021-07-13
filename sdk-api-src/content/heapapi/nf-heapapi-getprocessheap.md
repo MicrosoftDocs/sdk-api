@@ -58,7 +58,7 @@ api_name:
 
 Retrieves a handle to the default heap of the calling process. This handle can then be used in subsequent calls to the heap functions.
 
-## -parameters
+
 
 ## -returns
 

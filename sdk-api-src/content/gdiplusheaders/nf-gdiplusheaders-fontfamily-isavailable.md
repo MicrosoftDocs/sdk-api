@@ -53,7 +53,7 @@ api_name:
 
 The <b>FontFamily::IsAvailable</b> method determines whether this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully.
 
-## -parameters
+
 
 ## -returns
 

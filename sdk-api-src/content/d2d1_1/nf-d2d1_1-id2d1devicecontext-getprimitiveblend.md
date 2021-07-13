@@ -52,7 +52,7 @@ api_name:
 
 Returns the currently set primitive blend used by the device context.
 
-## -parameters
+
 
 ## -returns
 

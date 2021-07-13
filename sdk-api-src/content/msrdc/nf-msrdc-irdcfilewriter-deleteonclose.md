@@ -52,7 +52,7 @@ api_name:
 
 Sets a file to be deleted (or truncated) on close.
 
-## -parameters
+
 
 ## -returns
 

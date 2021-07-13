@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingJob::Pause</b> method pauses the outbound fax job.
 
-## -parameters
+
 
 ## -returns
 

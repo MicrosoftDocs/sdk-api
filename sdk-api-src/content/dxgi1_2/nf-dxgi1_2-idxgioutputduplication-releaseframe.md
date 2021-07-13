@@ -53,7 +53,7 @@ api_name:
 
 Indicates that the application finished processing the frame.
 
-## -parameters
+
 
 ## -returns
 

@@ -57,7 +57,7 @@ This topic applies to Windows XP Service Pack 1 or later.
 
 The <b>CertificateSuccess</b> method is called when the stream buffer source lags behind the stream buffer sink by more than a preset number of files.
 
-## -parameters
+
 
 ## -returns
 

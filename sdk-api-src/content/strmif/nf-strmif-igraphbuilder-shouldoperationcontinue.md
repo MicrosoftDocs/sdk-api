@@ -53,7 +53,7 @@ api_name:
 
 The <code>ShouldOperationContinue</code> method queries whether the current operation should continue. A filter that is performing some operation at the request of the graph can call this method to determine whether it should continue. Applications will not normally call this method.
 
-## -parameters
+
 
 ## -returns
 

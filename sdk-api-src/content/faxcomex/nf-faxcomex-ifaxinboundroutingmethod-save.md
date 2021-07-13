@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxInboundRoutingMethod::Save</b> method saves the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> interface's data.
 
-## -parameters
+
 
 ## -returns
 

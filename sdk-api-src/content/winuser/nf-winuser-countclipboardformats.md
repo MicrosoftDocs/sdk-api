@@ -56,7 +56,7 @@ api_name:
 
 Retrieves the number of different data formats currently on the clipboard.
 
-## -parameters
+
 
 ## -returns
 

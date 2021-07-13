@@ -52,7 +52,7 @@ api_name:
 
 Removes all audio and video effects.
 
-## -parameters
+
 
 ## -returns
 

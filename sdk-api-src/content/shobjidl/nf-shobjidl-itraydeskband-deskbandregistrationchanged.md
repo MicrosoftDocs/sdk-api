@@ -52,7 +52,7 @@ api_name:
 
 Refreshes the deskband registration cache.
 
-## -parameters
+
 
 ## -returns
 

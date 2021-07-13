@@ -57,7 +57,7 @@ Returns an instance of <code>uint16_t</code> containing the components of the
 This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

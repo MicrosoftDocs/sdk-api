@@ -52,7 +52,7 @@ api_name:
 
 Initializes communication between the protocol handler and the protocol host.
 
-## -parameters
+
 
 ## -returns
 

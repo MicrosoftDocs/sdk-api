@@ -58,7 +58,4 @@ This interface is not implemented. Use <a href="/windows/desktop/api/vdshwprv/nn
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHwProviderType2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHwProviderType2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

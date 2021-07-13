@@ -61,7 +61,7 @@ api_name:
 
 The <b>Flush</b> method is called by the provider framework to delete all unnecessary memory in use by the provider. Because your provider may be called again after a call to <b>Flush</b>, you must re-create any objects released by <b>Flush</b>. If you override this method, you should call the parent object's <b>Flush</b> method to release any framework memory associated with your provider.
 
-## -parameters
+
 
 ## -remarks
 

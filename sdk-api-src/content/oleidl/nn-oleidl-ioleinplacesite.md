@@ -57,9 +57,6 @@ This interface provides methods that manage in-place objects. With <b>IOleInPlac
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSite</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IOleInPlaceSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

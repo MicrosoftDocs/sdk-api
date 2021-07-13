@@ -52,7 +52,7 @@ api_name:
 
 Aborts the processing of the current media segment.
 
-## -parameters
+
 
 ## -returns
 

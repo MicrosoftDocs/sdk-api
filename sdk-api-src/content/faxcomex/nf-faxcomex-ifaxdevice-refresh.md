@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxDevice::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object information from the fax server. When the <b>IFaxDevice::Refresh</b> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-save-vb">IFaxDevice::Save</a> method call are lost.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Requests that the host call <b>IUnknown::Release</b> on any reference tracker objects that have been disconnected by a reference source.
 
-## -parameters
+
 
 ## -returns
 

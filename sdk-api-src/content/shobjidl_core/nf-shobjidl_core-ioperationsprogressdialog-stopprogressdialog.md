@@ -52,7 +52,7 @@ api_name:
 
 Stops current progress dialog.
 
-## -parameters
+
 
 ## -returns
 

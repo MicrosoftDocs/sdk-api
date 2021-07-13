@@ -52,7 +52,7 @@ api_name:
 
 The <b>Stop</b> method stops the transforms on data flowing through the control node.
 
-## -parameters
+
 
 ## -returns
 

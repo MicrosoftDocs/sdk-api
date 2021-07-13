@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetPenType</b> method gets the type currently set for this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
-## -parameters
+
 
 ## -returns
 

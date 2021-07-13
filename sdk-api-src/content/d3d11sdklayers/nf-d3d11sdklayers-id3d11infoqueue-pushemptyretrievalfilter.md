@@ -53,7 +53,7 @@ api_name:
 
 Push an empty retrieval filter onto the retrieval-filter stack.
 
-## -parameters
+
 
 ## -returns
 

@@ -63,7 +63,7 @@ Retrieves the calling thread's last-error code value. The last-error code is mai
 <b>Visual Basic:  </b>Applications should call <b>err.LastDllError</b> instead of 
 <b>GetLastError</b>.
 
-## -parameters
+
 
 ## -returns
 

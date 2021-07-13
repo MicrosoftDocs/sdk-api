@@ -52,7 +52,7 @@ api_name:
 
 Uninitializes the NDES policy module.
 
-## -parameters
+
 
 ## -returns
 

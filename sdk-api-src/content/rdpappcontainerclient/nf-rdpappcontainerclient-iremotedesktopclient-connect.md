@@ -52,7 +52,7 @@ api_name:
 
 Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
 
-## -parameters
+
 
 ## -returns
 

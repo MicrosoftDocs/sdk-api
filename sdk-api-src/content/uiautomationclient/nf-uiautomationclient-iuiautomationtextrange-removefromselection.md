@@ -52,7 +52,7 @@ api_name:
 
 Removes the text range from an existing collection of selected text in a text container that supports multiple, disjoint selections.
 
-## -parameters
+
 
 ## -returns
 

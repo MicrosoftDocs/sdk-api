@@ -56,7 +56,7 @@ api_name:
 
 Clears the bindings for a model.
 
-## -parameters
+
 
 ## -returns
 

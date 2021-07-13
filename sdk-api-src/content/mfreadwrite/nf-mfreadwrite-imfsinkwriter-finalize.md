@@ -52,7 +52,7 @@ api_name:
 
 Completes all writing operations on the sink writer.
 
-## -parameters
+
 
 ## -returns
 

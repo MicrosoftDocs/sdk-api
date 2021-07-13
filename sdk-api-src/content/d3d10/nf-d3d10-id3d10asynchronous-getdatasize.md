@@ -53,7 +53,7 @@ api_name:
 
 Get the size of the data (in bytes) that is output when calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
 
-## -parameters
+
 
 ## -returns
 

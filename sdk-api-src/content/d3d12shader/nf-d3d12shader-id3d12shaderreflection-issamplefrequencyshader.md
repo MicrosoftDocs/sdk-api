@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether a shader is a sample frequency shader.
 
-## -parameters
+
 
 ## -returns
 

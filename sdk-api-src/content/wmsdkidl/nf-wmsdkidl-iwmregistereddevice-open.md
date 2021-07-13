@@ -53,7 +53,7 @@ api_name:
 
 The <b>Open</b> method opens the device so that it can receive media data.
 
-## -parameters
+
 
 ## -returns
 

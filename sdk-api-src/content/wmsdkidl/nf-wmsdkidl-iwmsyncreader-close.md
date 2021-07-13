@@ -55,7 +55,7 @@ api_name:
 
 The <b>Close</b> method removes a file from the synchronous reader.
 
-## -parameters
+
 
 ## -returns
 

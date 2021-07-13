@@ -53,7 +53,7 @@ api_name:
 
 The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the first <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Discontinues a Jump List building session initiated by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-beginlist">ICustomDestinationList::BeginList</a> without committing any changes.
 
-## -parameters
+
 
 ## -returns
 

@@ -87,8 +87,7 @@ Adds binary tracking information from this provider to each session that
 collects events from this event provider. The binary tracking data includes the
 full path to the binary containing the callback that was specified when
 registering the event provider. This information is useful if the binary
-contains
-[mc.exe](https://docs.microsoft.com/windows/win32/wes/message-compiler--mc-exe-)-generated
+contains [mc.exe](/windows/win32/wes/message-compiler--mc-exe-)-generated
 decoding resources but is not globally registered. Decoding tools can use the
 path in the trace to locate the binary and extract the decoding resources.
 

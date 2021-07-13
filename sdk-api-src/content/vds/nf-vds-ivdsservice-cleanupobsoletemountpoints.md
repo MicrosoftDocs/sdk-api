@@ -55,7 +55,7 @@ api_name:
 
 Removes user-mode paths and mounted folders for volumes that no longer exist.
 
-## -parameters
+
 
 ## -returns
 

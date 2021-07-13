@@ -52,7 +52,7 @@ api_name:
 
 Get a boolean value that indicates the type of device being used.
 
-## -parameters
+
 
 ## -returns
 

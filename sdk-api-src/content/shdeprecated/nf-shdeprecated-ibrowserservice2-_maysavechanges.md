@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Enables the base class to check whether the browser view needs to save changes before closing.
 
-## -parameters
+
 
 ## -returns
 

@@ -60,7 +60,7 @@ api_name:
 Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> for the system locale.<div class="alert"><b>Note</b>  Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlocalename">GetSystemDefaultLocaleName</a> in preference to this function.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

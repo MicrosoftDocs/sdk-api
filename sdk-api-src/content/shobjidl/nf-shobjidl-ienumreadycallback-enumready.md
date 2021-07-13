@@ -52,7 +52,7 @@ api_name:
 
 Notifies the implementer that the view's item enumeration has completed.  This callback interface is provided to the view via <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ienumerableview-setenumreadycallback">SetEnumReadyCallback</a>
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Deactivates a text service when a user session ends.
 
-## -parameters
+
 
 ## -returns
 

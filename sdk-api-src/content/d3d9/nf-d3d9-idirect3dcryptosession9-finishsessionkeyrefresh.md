@@ -52,7 +52,7 @@ api_name:
 
 Switches to a new session key.
 
-## -parameters
+
 
 ## -returns
 

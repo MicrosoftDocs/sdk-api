@@ -52,7 +52,7 @@ api_name:
 
 Get the number of total fonts in the set.
 
-## -parameters
+
 
 ## -returns
 

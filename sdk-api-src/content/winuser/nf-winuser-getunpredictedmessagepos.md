@@ -52,7 +52,7 @@ api_name:
 
 Gets pointer data before it has gone through touch prediction processing.
 
-## -parameters
+
 
 ## -returns
 

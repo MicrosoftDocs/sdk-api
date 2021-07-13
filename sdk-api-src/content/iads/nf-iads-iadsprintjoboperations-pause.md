@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the current print job. Call the  <a href="/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a> method to continue the processing.
 
-## -parameters
+
 
 ## -returns
 

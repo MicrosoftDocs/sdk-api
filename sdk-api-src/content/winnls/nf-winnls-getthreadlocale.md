@@ -60,7 +60,7 @@ api_name:
 Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the current locale for the calling thread.<div class="alert"><b>Note</b>  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
-## -parameters
+
 
 ## -returns
 

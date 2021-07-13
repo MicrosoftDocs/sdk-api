@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <b>Logout</b> method ends the user's online store session.
 
-## -parameters
+
 
 ## -returns
 

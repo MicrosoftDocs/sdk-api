@@ -52,7 +52,7 @@ api_name:
 
 Suspends the drawing operation.
 
-## -parameters
+
 
 ## -returns
 

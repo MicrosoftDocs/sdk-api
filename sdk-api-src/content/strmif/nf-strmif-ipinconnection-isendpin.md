@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsEndPin</code> method indicates whether a reconnection search should end at this pin.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 Causes the file I/O functions to use the ANSI character set code page for the current 
     process. This function is useful for 8-bit console input and output operations.
 
-## -parameters
+
 
 ## -remarks
 

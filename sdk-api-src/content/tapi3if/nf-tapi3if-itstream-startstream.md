@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StartStream</b> method starts the stream.
 
-## -parameters
+
 
 ## -returns
 

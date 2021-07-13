@@ -57,7 +57,7 @@ Used by Windows Store app browsers  in Windows 8 to notify the location platfor
 
 Most apps will not need to use this method.
 
-## -parameters
+
 
 ## -returns
 

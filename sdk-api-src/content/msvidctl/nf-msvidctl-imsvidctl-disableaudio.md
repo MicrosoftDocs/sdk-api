@@ -52,7 +52,7 @@ api_name:
 
 The <b>DisableAudio</b> method disables the audio output device.
 
-## -parameters
+
 
 ## -returns
 

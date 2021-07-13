@@ -81,7 +81,7 @@ A message that will be displayed in the consent dialog so that the user can make
 
 ### -param asyncOperation
 
-An <a href="https://docs.microsoft.com/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
+An <a href="/uwp/api/Windows.Foundation.IAsyncOperation_TResult_">IAsyncOperation<ProtectionPolicyEvaluationResult></a> with a value of the <a href="/uwp/api/windows.security.enterprisedata.protectionpolicyevaluationresult">ProtectionPolicyEvaluationResult</a> enumeration that is the result of the request.
 
 ## -returns
 

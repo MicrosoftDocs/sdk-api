@@ -52,7 +52,7 @@ api_name:
 
 Shows the control.
 
-## -parameters
+
 
 ## -returns
 

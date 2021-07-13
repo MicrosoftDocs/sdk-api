@@ -54,7 +54,7 @@ api_name:
 
 The <b>GetPrivateKeyArchiveCertificate</b> method retrieves the certificate used to archive the private key. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
-## -parameters
+
 
 ## -returns
 

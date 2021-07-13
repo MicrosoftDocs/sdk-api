@@ -55,7 +55,7 @@ The <b>Region::Clone</b> method makes a copy of this
 			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object and returns the address of the new 
 			<b>Region</b>object.
 
-## -parameters
+
 
 ## -returns
 

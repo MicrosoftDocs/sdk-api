@@ -52,7 +52,7 @@ api_name:
 
 Abandons all active storyboards.
 
-## -parameters
+
 
 ## -returns
 

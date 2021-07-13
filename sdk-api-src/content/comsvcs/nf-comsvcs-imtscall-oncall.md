@@ -54,7 +54,7 @@ api_name:
 
 Triggers the execution of the batch work implemented in this method.
 
-## -parameters
+
 
 ## -returns
 

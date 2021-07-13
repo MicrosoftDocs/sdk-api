@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxInboundRoutingMethod::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingmethod">IFaxInboundRoutingMethod</a> interface information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

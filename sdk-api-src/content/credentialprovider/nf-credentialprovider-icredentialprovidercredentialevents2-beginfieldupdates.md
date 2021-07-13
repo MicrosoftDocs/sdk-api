@@ -52,7 +52,7 @@ api_name:
 
 Starts a batch update to fields in the logon or credential UI.
 
-## -parameters
+
 
 ## -returns
 

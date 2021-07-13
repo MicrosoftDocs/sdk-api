@@ -53,7 +53,7 @@ api_name:
 
 The <b>Brush::GetType</b> method gets the type of this brush.
 
-## -parameters
+
 
 ## -returns
 

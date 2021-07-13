@@ -53,7 +53,7 @@ api_name:
 
 The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a> enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&amp;), is encountered.
 
-## -parameters
+
 
 ## -returns
 

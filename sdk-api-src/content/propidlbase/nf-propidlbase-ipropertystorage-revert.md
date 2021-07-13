@@ -52,7 +52,7 @@ api_name:
 
 The <b>Revert</b> method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
 
-## -parameters
+
 
 ## -returns
 

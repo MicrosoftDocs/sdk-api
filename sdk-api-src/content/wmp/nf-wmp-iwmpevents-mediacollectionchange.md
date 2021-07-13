@@ -52,7 +52,7 @@ api_name:
 
 The <b>MediaCollectionChange</b> event occurs when the media collection changes.
 
-## -parameters
+
 
 ## -remarks
 

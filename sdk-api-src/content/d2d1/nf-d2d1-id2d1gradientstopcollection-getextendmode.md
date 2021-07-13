@@ -52,7 +52,7 @@ api_name:
 
 Indicates the behavior of the gradient outside the normalized gradient range.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">Poi
 			<b>X</b> and 
 			<b>Y</b> data members to zero. This is the default constructor.
 
-## -parameters
+
 
 ## -see-also
 

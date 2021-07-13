@@ -52,7 +52,7 @@ api_name:
 
 Gets the maximum capacity of the color glyph cache.
 
-## -parameters
+
 
 ## -returns
 

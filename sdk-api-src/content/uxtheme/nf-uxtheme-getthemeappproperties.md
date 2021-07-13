@@ -54,7 +54,7 @@ api_name:
 
 Retrieves the property flags that control how visual styles are applied in the current application.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> function if there are active asynchronous items.
 
-## -parameters
+
 
 ## -returns
 

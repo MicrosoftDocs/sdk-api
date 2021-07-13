@@ -52,7 +52,7 @@ api_name:
 
 The <b>Commit</b> method stores the current state of the TOC Parser object in its associated media file.
 
-## -parameters
+
 
 ## -returns
 

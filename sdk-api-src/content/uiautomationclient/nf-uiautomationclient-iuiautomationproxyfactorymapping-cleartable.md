@@ -52,7 +52,7 @@ api_name:
 
 Removes all entries from the proxy factory table.
 
-## -parameters
+
 
 ## -returns
 

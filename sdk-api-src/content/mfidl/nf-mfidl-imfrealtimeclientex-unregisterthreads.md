@@ -52,7 +52,7 @@ api_name:
 
 Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
 
-## -parameters
+
 
 ## -returns
 

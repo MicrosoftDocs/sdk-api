@@ -52,7 +52,7 @@ api_name:
 
 The <b>PulseEndpoint</b> method  is reserved.
 
-## -parameters
+
 
 ## -remarks
 

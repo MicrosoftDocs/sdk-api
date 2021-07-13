@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWiaItemExtras::CancelPendingIO</b> method cancels all pending input/output operations on the driver.
 
-## -parameters
+
 
 ## -returns
 

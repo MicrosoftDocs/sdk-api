@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Enables the download manager in the base class.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates if the DirectXMath Library supports the current platform.
 
-## -parameters
+
 
 ## -returns
 

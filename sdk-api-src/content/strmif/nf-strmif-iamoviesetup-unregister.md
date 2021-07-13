@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Removes the filter from the registry.
 
-## -parameters
+
 
 ## -returns
 

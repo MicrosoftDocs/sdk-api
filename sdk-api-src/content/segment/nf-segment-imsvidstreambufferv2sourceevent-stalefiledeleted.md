@@ -52,7 +52,7 @@ api_name:
 
 Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_STALE_FILE_DELETED</b> event, which indicates that a temporary file has been deleted.
 
-## -parameters
+
 
 ## -returns
 

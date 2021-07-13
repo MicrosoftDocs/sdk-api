@@ -53,7 +53,7 @@ api_name:
 
 Halt a thread until the next vertical blank occurs.
 
-## -parameters
+
 
 ## -returns
 

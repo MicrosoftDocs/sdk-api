@@ -52,7 +52,7 @@ api_name:
 
 Loads the current media source.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Pen::GetDashOffset</b> method gets the distance from the start of the line to the start of the first space in a dashed line.
 
-## -parameters
+
 
 ## -returns
 

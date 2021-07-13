@@ -52,7 +52,7 @@ api_name:
 
 Requests updated guide data from the media transform device (MTD).
 
-## -parameters
+
 
 ## -returns
 

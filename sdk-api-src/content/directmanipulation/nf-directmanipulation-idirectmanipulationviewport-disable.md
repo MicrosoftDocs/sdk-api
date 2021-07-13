@@ -52,7 +52,7 @@ api_name:
 
 Stops input processing by the viewport.
 
-## -parameters
+
 
 ## -returns
 

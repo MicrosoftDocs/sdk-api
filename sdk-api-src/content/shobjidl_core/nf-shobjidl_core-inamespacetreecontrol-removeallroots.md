@@ -52,7 +52,7 @@ api_name:
 
 Removes all roots and their children from a tree.
 
-## -parameters
+
 
 ## -returns
 

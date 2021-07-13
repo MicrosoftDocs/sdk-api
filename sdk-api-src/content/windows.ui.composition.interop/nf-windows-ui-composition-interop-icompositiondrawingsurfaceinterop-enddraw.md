@@ -52,7 +52,7 @@ api_name:
 
 Marks the end of drawing on the surface object.
 
-## -parameters
+
 
 ## -returns
 

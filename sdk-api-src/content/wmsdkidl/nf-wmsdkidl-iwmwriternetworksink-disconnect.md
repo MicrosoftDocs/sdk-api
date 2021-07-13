@@ -55,7 +55,7 @@ api_name:
 
 The <b>Disconnect</b> method disconnects all clients from the network sink.
 
-## -parameters
+
 
 ## -returns
 

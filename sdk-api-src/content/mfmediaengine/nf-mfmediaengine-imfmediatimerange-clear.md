@@ -52,7 +52,7 @@ api_name:
 
 Clears the list of time ranges.
 
-## -parameters
+
 
 ## -returns
 

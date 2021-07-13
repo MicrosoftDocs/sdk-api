@@ -52,7 +52,7 @@ api_name:
 
 The <b>ClearPersistentIscsiDevices</b> function removes all volumes and devices from the list of persistently bound iSCSI volumes.
 
-## -parameters
+
 
 ## -returns
 

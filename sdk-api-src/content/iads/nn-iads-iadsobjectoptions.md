@@ -55,9 +55,6 @@ The <b>IADsObjectOptions</b> interface provides a direct mechanism to specify an
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsObjectOptions</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsObjectOptions</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

@@ -52,7 +52,7 @@ api_name:
 
 Shutsdown the content provider.
 
-## -parameters
+
 
 ## -returns
 

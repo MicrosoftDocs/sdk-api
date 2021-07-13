@@ -52,7 +52,7 @@ api_name:
 
 Returns the maximum floating-point value.
 
-## -parameters
+
 
 ## -returns
 

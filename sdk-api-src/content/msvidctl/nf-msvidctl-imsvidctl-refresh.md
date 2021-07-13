@@ -52,7 +52,7 @@ api_name:
 
 The <b>Refresh</b> method immediately updates the Video Control's appearance.
 
-## -parameters
+
 
 ## -returns
 

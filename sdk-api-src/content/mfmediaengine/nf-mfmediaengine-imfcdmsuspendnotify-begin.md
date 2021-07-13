@@ -52,7 +52,7 @@ api_name:
 
 Indicates that the suspend process is starting and  resources should be brought into a consistent state.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Generate mipmap sublevels.
 
-## -parameters
+
 
 ## -remarks
 

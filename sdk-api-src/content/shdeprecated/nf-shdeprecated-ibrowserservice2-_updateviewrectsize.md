@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.
 
-## -parameters
+
 
 ## -returns
 

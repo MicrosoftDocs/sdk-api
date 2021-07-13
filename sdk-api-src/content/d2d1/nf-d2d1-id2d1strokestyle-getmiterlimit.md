@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the limit on the ratio of the miter length to half the stroke's thickness.
 
-## -parameters
+
 
 ## -returns
 

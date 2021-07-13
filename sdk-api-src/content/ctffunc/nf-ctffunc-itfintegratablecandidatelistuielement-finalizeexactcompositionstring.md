@@ -52,7 +52,7 @@ api_name:
 
 Finalizes the current composition with the value currently shown to the user.
 
-## -parameters
+
 
 ## -returns
 

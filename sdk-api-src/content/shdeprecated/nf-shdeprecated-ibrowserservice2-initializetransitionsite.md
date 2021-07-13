@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Enables transitions in the browser view window.
 
-## -parameters
+
 
 ## -returns
 

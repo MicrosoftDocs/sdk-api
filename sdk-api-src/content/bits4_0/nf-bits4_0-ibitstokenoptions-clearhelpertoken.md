@@ -52,7 +52,7 @@ api_name:
 
 Discards the helper token, and does not change the usage flags.
 
-## -parameters
+
 
 ## -returns
 

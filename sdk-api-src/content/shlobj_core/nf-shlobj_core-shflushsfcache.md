@@ -57,7 +57,7 @@ api_name:
 
 Flushes the special folder cache.
 
-## -parameters
+
 
 ## -remarks
 

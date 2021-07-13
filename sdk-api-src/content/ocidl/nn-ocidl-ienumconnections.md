@@ -55,9 +55,6 @@ Enumerates the current connections for a connectable object.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumConnections</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumConnections</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

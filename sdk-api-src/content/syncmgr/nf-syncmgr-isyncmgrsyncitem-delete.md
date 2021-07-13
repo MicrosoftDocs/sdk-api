@@ -52,7 +52,7 @@ api_name:
 
 Deletes a sync item.
 
-## -parameters
+
 
 ## -returns
 

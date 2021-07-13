@@ -107,6 +107,12 @@ OutputTensor: (Sizes:{1,1,2,2}, DataType:UINT8)
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |

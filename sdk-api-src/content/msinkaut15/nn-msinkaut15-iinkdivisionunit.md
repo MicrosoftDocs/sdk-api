@@ -56,10 +56,6 @@ Represents a single structural element within an <a href="/windows/desktop/api/m
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDivisionUnit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDivisionUnit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
 
 ## -remarks
 

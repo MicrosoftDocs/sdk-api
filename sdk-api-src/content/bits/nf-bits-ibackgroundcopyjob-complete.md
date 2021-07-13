@@ -52,7 +52,7 @@ api_name:
 
 Ends the job and saves the transferred files on the client.
 
-## -parameters
+
 
 ## -returns
 

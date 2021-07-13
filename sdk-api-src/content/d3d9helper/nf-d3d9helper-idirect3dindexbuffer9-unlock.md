@@ -53,7 +53,7 @@ api_name:
 
 Unlocks index data.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Adds the current element to the collection of selected items.
 
-## -parameters
+
 
 ## -returns
 

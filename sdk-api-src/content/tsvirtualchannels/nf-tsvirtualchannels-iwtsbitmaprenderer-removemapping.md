@@ -52,7 +52,7 @@ api_name:
 
 Called by a dynamic virtual channel plug-in to remove a render mapping.
 
-## -parameters
+
 
 ## -returns
 

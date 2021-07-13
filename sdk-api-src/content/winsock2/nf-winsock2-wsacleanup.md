@@ -55,7 +55,7 @@ api_name:
 The 
 <b>WSACleanup</b> function terminates use of the Winsock 2 DLL (<i>Ws2_32.dll</i>).
 
-## -parameters
+
 
 ## -returns
 

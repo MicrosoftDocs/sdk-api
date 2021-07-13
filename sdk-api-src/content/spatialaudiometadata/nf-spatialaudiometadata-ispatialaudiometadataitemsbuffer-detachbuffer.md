@@ -52,7 +52,7 @@ api_name:
 
 Detaches the buffer.  Memory can only be attached to a single metadata item at a time.
 
-## -parameters
+
 
 ## -returns
 

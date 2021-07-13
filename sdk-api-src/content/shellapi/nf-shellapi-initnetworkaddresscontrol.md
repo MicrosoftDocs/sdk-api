@@ -52,7 +52,7 @@ api_name:
 
 Initializes the network address control window class.
 
-## -parameters
+
 
 ## -returns
 

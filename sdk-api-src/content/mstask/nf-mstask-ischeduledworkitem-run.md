@@ -54,7 +54,7 @@ api_name:
 
 Sends a request to the Task Scheduler service to run the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
-## -parameters
+
 
 ## -returns
 

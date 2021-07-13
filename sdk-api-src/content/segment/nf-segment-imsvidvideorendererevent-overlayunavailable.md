@@ -57,7 +57,7 @@ This topic applies to Windows XP or later.
 
 The <b>OverlayUnavailable</b> method is called when the overlay surface on the graphics card is not available.
 
-## -parameters
+
 
 ## -returns
 

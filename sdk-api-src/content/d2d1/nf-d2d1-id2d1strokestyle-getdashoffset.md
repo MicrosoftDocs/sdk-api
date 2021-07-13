@@ -52,7 +52,7 @@ api_name:
 
 Retrieves a value that specifies how far in the dash sequence the stroke will start.
 
-## -parameters
+
 
 ## -returns
 

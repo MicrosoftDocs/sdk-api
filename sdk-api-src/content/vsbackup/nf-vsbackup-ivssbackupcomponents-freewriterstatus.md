@@ -54,7 +54,7 @@ api_name:
 The 
 <b>FreeWriterStatus</b> method frees system resources allocated during the call to <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>.
 
-## -parameters
+
 
 ## -returns
 

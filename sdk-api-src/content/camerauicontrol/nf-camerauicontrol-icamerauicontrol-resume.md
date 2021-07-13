@@ -52,7 +52,7 @@ api_name:
 
 Simulates resume of the user interface control.
 
-## -parameters
+
 
 ## -returns
 

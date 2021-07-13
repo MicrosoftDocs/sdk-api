@@ -53,7 +53,7 @@ api_name:
 
 The <b>Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive">FaxIncomingArchive</a> object information from the fax server. When the <b>Refresh</b> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive-save-vb">Save</a> method call are lost.
 
-## -parameters
+
 
 ## -returns
 

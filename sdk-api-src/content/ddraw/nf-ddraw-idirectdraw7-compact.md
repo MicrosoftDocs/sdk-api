@@ -52,7 +52,7 @@ api_name:
 
 This method is not currently implemented.
 
-## -parameters
+
 
 ## -returns
 

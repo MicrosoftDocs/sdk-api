@@ -59,7 +59,7 @@ api_name:
 
 The <b>LockBuffer</b> method locks a string in the buffer.
 
-## -parameters
+
 
 ## -returns
 

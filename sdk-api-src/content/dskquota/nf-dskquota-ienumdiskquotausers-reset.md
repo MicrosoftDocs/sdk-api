@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumeration sequence to the beginning of the set of user quota entries.
 
-## -parameters
+
 
 ## -returns
 

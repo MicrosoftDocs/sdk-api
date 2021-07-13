@@ -53,7 +53,7 @@ api_name:
 Applies the current values to the underlying objects associated with the property page as previously passed to 
     <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
 
-## -parameters
+
 
 ## -returns
 

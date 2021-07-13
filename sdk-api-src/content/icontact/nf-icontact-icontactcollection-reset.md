@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumerator to before the logical first element.
 
-## -parameters
+
 
 ## -returns
 

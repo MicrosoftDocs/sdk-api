@@ -53,7 +53,7 @@ api_name:
 The 
 <b>StopRenderFilter</b> method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Returns a vector, each of whose components represents true (0xFFFFFFFF).
 
-## -parameters
+
 
 ## -returns
 

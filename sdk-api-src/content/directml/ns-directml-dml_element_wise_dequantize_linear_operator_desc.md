@@ -84,8 +84,8 @@ The output tensor to write the results to.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *InputTensor* and `ZeroPointTensor` must have the same *DataType*.
-* *InputTensor*, *OutputTensor*, *ScaleTensor*, and `ZeroPointTensor` must have the same *DimensionCount* and *Sizes*.
+* *InputTensor*, *OutputTensor*, *ScaleTensor*, and *ZeroPointTensor* must have the same *DimensionCount* and *Sizes*.
+* *InputTensor* and *ZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_3_0 and above

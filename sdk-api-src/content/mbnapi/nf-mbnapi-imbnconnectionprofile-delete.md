@@ -55,7 +55,7 @@ api_name:
 
 Deletes the profile from the system.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the authoring app that the Cascading Style Sheets (CSS) has changed.
 
-## -parameters
+
 
 ## -returns
 

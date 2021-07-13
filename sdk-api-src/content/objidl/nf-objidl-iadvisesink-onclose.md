@@ -52,7 +52,7 @@ api_name:
 
 Called by the server to notify all registered advisory sinks that the object has changed from the running to the loaded state.
 
-## -parameters
+
 
 ## -remarks
 

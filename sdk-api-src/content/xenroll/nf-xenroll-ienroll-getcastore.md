@@ -55,7 +55,7 @@ api_name:
 
 The <b>getCAStore</b> method is not implemented.
 
-## -parameters
+
 
 ## -returns
 

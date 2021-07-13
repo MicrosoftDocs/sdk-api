@@ -55,9 +55,6 @@ Exposes methods that provide access to the capabilites of a raw codec format.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDevelopRaw</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>. <b>IWICDevelopRaw</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Notifies the CRM Compensator of the prepare phase of the transaction completion 
 
 Prepare notifications are never received during recovery, only during normal processing.
 
-## -parameters
+
 
 ## -returns
 

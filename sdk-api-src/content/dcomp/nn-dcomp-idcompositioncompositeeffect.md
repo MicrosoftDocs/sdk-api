@@ -57,9 +57,6 @@ The composite effect is used to combine 2 or more images. This effect has 13 dif
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionCompositeEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionCompositeEffect</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

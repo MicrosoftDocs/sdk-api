@@ -52,7 +52,7 @@ api_name:
 
 Starts a rename operation on the current selection.
 
-## -parameters
+
 
 ## -returns
 

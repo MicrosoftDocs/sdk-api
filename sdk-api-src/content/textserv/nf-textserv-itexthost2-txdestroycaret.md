@@ -52,7 +52,7 @@ api_name:
 
 Destroys the caret (Direct2D only).
 
-## -parameters
+
 
 ## -returns
 

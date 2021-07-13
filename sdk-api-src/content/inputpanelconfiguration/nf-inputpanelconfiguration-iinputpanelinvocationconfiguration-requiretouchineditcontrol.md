@@ -52,7 +52,7 @@ api_name:
 
 Requires an explicit user tap in an edit field before the touch keyboard invokes.
 
-## -parameters
+
 
 ## -returns
 

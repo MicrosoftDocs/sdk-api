@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::Reverse</b> method reverses the order of the points that define this path's lines and curves.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingArchive::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingarchive">FaxOutgoingArchive</a> object information from the fax server. When the <b>IFaxOutgoingArchive::Refresh</b> method is called, any configuration changes made after the last <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingarchive-save-vb">IFaxOutgoingArchive::Save</a> method call are lost.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the Microsoft Media Foundation platform. Call this function once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>. Do not call this function from work queue threads.
 
-## -parameters
+
 
 ## -returns
 

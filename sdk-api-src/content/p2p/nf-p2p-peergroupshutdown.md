@@ -52,7 +52,7 @@ api_name:
 
 The <b>PeerGroupShutdown</b> function closes a peer group created with <a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> and disposes of any allocated resources.
 
-## -parameters
+
 
 ## -returns
 

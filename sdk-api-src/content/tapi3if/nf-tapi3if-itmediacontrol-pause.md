@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Pause</b> method pauses the action, remaining at the current location in the file.
 
-## -parameters
+
 
 ## -returns
 

@@ -172,7 +172,7 @@ while (GetMessage(&msg, nullptr, 0, 0))
 }
 ```
 
-Example from [Windows Classic Samples](https://docs.microsoft.com/en-us/windows/win32/controls/button-styles) on GitHub.
+Example from [Windows Classic Samples](https://github.com/microsoft/Windows-classic-samples/tree/master) on GitHub.
 
 ## -see-also
 

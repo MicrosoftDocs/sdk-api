@@ -52,7 +52,7 @@ api_name:
 
 The UninitLocalMsCtfMonitor function uninitializes TextServicesFramework on the current desktop.
 
-## -parameters
+
 
 ## -returns
 

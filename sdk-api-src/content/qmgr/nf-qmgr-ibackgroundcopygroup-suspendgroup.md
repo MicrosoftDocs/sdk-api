@@ -54,7 +54,7 @@ api_name:
 
 Use the <b>SuspendGroup</b> method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 
-## -parameters
+
 
 ## -returns
 

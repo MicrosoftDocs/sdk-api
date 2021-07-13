@@ -53,7 +53,7 @@ api_name:
 
 The <b>Cancel</b> method attempts to cancel an asynchronous operation that is in progress.
 
-## -parameters
+
 
 ## -returns
 

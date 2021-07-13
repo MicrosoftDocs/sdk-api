@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method resets the enumeration so that <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a> returns a pointer to the first device.
 
-## -parameters
+
 
 ## -returns
 

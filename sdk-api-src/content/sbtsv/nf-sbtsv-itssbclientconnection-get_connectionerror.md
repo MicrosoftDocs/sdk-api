@@ -55,7 +55,7 @@ Retrieves a value that indicates the error that occurred while a client connecti
 
 This property is read-only.
 
-## -parameters
+
 
 ## -see-also
 

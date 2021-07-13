@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that specifies how the ends of each dash are drawn.
 
-## -parameters
+
 
 ## -returns
 

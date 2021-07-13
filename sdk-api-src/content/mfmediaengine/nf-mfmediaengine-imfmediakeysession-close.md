@@ -52,7 +52,7 @@ api_name:
 
 Closes the media key session and must be called before the key session is released.
 
-## -parameters
+
 
 ## -returns
 

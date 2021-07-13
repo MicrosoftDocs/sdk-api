@@ -52,7 +52,7 @@ api_name:
 
 Gets the audio balance.
 
-## -parameters
+
 
 ## -returns
 

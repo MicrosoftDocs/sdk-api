@@ -52,7 +52,7 @@ api_name:
 
 The <b>Cancel</b> method cancels the incoming fax job.
 
-## -parameters
+
 
 ## -returns
 

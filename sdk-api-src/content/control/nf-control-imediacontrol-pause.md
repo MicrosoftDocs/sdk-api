@@ -53,7 +53,7 @@ api_name:
 
 The <code>Pause</code> method pauses all the filters in the filter graph.
 
-## -parameters
+
 
 ## -returns
 

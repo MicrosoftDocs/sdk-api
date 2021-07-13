@@ -52,7 +52,7 @@ api_name:
 
 Clears all triggers from the collection.
 
-## -parameters
+
 
 ## -returns
 

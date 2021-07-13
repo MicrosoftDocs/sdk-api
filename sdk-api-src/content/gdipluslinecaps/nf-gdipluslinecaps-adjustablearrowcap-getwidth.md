@@ -53,7 +53,7 @@ api_name:
 
 The <b>AdjustableArrowCap::GetWidth</b> method gets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.
 
-## -parameters
+
 
 ## -returns
 

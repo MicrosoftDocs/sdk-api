@@ -54,7 +54,7 @@ req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 
 Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 
-## -parameters
+
 
 ## -returns
 

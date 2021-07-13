@@ -54,7 +54,7 @@ Fired when the SBE2 source filter receives a <b>STREAMBUFFER_EC_CONTENT_BECOMING
 
 For more information, see <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure-getbackingfilecount">IStreamBufferConfigure::GetBackingFileCount</a>.
 
-## -parameters
+
 
 ## -returns
 

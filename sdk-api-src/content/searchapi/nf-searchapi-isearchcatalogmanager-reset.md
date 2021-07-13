@@ -52,7 +52,7 @@ api_name:
 
 Resets the underlying catalog by rebuilding the databases and performing a full indexing.
 
-## -parameters
+
 
 ## -returns
 

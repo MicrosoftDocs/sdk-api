@@ -53,7 +53,7 @@ api_name:
 
 The <code>GetMiscFlags</code> method returns the filter's type, either source or renderer.
 
-## -parameters
+
 
 ## -returns
 

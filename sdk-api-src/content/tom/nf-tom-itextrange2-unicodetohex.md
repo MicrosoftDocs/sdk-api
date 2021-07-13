@@ -52,7 +52,7 @@ api_name:
 
 Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.
 
-## -parameters
+
 
 ## -returns
 

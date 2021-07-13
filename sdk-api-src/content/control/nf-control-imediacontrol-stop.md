@@ -53,7 +53,7 @@ api_name:
 
 The <code>Stop</code> method stops all the filters in the graph.
 
-## -parameters
+
 
 ## -returns
 

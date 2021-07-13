@@ -53,7 +53,7 @@ api_name:
 
 Gets the scale for forward transforms.
 
-## -parameters
+
 
 ## -returns
 

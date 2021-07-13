@@ -60,7 +60,7 @@ api_name:
 
 Retrieves the thread identifier of the calling thread.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Enables highlighting visuals when content is being redrawn.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Resets the transform to its default state, the identity transform.
 
-## -parameters
+
 
 ## -returns
 

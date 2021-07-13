@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method sets the enumeration sequence back to the beginning.
 
-## -parameters
+
 
 ## -returns
 

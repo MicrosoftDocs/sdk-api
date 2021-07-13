@@ -53,7 +53,7 @@ api_name:
 
 Draw geometry of an unknown size that was created by the geometry shader stage. See remarks.
 
-## -parameters
+
 
 ## -remarks
 

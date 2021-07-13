@@ -52,7 +52,7 @@ api_name:
 
 The <b>WriteFailureClear</b> method is called when a write error from the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink</a> filter has been cleared.
 
-## -parameters
+
 
 ## -returns
 

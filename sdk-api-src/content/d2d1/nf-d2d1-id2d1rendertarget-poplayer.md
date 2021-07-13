@@ -52,7 +52,7 @@ api_name:
 
 Stops redirecting drawing operations to the layer that is specified by the last <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call.
 
-## -parameters
+
 
 ## -remarks
 

@@ -54,7 +54,7 @@ api_name:
 
 Skips the next item in the collection.
 
-## -parameters
+
 
 ## -returns
 

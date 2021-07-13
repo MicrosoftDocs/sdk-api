@@ -60,7 +60,7 @@ api_name:
 
 The <b>GetAllocLength</b> method returns the size of the allocated string buffer.
 
-## -parameters
+
 
 ## -returns
 

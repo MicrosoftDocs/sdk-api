@@ -52,7 +52,7 @@ api_name:
 
 Get a matrix variable.
 
-## -parameters
+
 
 ## -returns
 

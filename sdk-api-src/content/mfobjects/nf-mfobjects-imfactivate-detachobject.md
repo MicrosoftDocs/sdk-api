@@ -53,7 +53,7 @@ api_name:
 
 Detaches the created object from the activation object.
 
-## -parameters
+
 
 ## -returns
 

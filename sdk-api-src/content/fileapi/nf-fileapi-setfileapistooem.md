@@ -55,7 +55,7 @@ api_name:
 Causes the file I/O functions for the process to use the OEM character set code page. This 
     function is useful for 8-bit console input and output operations.
 
-## -parameters
+
 
 ## -remarks
 

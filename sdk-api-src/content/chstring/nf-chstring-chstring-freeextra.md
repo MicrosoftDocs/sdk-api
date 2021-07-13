@@ -59,7 +59,7 @@ api_name:
 
 The <b>FreeExtra</b> method frees any extra memory that was previously allocated by the string but is no longer needed. This method, which reallocates the buffer to the exact length returned by <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>, should reduce the memory overhead consumed by the string object.
 
-## -parameters
+
 
 ## -returns
 

@@ -57,7 +57,7 @@ Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Called from <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to terminate <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> when the IMEPad instance exits.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Region::GetDataSize</b> method gets the number of bytes of data that describes this region.
 
-## -parameters
+
 
 ## -returns
 

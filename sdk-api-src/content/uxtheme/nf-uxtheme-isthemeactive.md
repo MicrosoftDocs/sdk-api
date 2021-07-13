@@ -55,7 +55,7 @@ api_name:
 
 Tests if a visual style for the current application is active.
 
-## -parameters
+
 
 ## -returns
 

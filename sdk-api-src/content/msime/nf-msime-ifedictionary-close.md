@@ -54,7 +54,7 @@ Closes a dictionary file.
 
 This method closes the file associated to this <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
 
-## -parameters
+
 
 ## -returns
 

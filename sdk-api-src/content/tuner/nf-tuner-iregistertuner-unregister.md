@@ -57,7 +57,7 @@ This feature is expected to be available on a future version of the Windows oper
 
 The <b>Unregister</b> method unregisters an apartment-threaded tuner and a tuner marshaller that were registered by <b>IRegisterTuner::Register</b>.
 
-## -parameters
+
 
 ## -returns
 

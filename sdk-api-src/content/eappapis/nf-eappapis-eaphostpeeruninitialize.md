@@ -54,7 +54,7 @@ Uninitializes all  EAPHost authentication sessions.
 
 The <b>EapHostPeerUninitialize</b> function must be called after you are finished calling EAPHost supplicant run-time functions. In addition, if any re-authentication is expected for any reason it is best to call <b>EapHostPeerUninitialize</b>.
 
-## -parameters
+
 
 ## -remarks
 

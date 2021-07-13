@@ -52,7 +52,7 @@ api_name:
 
 Determines whether shader instrumentation is enabled.
 
-## -parameters
+
 
 ## -returns
 

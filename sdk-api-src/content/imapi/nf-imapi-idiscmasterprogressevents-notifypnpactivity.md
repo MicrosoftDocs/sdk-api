@@ -52,7 +52,7 @@ api_name:
 
 Notifies the application that there is a change to the list of valid disc recorders. (For example, a USB CD-R driver is removed from the system.)
 
-## -parameters
+
 
 ## -returns
 

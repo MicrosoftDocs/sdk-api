@@ -52,7 +52,7 @@ api_name:
 
 Get a scalar variable.
 
-## -parameters
+
 
 ## -returns
 

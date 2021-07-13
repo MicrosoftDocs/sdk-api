@@ -52,7 +52,7 @@ api_name:
 
 Stops the synchronization of all items managed by all handlers.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a tracker source is unable to protected a reference tracker object.
 
-## -parameters
+
 
 ## -returns
 

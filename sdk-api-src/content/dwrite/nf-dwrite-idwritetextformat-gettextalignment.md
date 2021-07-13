@@ -52,7 +52,7 @@ api_name:
 
  Gets the alignment option of text relative to the layout box's leading and trailing edge.
 
-## -parameters
+
 
 ## -returns
 

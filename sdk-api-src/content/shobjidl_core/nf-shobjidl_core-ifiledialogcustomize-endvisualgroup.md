@@ -52,7 +52,7 @@ api_name:
 
 Stops the addition of elements to a visual group in the dialog.
 
-## -parameters
+
 
 ## -returns
 

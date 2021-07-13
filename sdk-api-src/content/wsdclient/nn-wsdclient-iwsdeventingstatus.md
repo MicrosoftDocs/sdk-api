@@ -55,7 +55,4 @@ Implement this interface to receive notification when status changes occur in ev
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDEventingStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDEventingStatus</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

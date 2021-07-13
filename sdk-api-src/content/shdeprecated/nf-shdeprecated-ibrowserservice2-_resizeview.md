@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Calls <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">IBrowserService2::_UpdateViewRectSize</a>, then updates the browser view by using <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-resizeborder">IOleInPlaceActiveObject::ResizeBorder</a>.
 
-## -parameters
+
 
 ## -returns
 

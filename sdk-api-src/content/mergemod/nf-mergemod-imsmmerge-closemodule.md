@@ -58,7 +58,7 @@ The
 <b>IMsmMerge2::CloseDatabase</b>    Mergemod.dll version 2.0 or later.<div> </div>
 <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">IMsmMerge::CloseDatabase</a>      All Mergemod.dll versions.
 
-## -parameters
+
 
 ## -returns
 

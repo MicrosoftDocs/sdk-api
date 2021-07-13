@@ -52,7 +52,7 @@ api_name:
 
 Leave a device's critical section.
 
-## -parameters
+
 
 ## -remarks
 

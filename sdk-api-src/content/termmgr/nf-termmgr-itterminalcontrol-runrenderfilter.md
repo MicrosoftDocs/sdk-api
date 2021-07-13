@@ -53,7 +53,7 @@ api_name:
 The 
 <b>RunRenderFilter</b> method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 
-## -parameters
+
 
 ## -returns
 

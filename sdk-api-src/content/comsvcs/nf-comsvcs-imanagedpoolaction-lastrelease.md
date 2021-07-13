@@ -52,7 +52,7 @@ api_name:
 
 Called when a COM+ object pool drops the last reference to the object that implements it.
 
-## -parameters
+
 
 ## -returns
 

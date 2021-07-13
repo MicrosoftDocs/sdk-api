@@ -52,11 +52,7 @@ api_name:
 
 A <b>Rect</b> object stores the upper-left corner, width, and height of a rectangle.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">Rect</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Rect</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Rect</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

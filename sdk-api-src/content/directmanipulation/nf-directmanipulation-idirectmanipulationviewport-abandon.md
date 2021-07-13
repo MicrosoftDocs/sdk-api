@@ -52,7 +52,7 @@ api_name:
 
     Releases all resources that are used by the viewport and prepares it for destruction from memory.
 
-## -parameters
+
 
 ## -returns
 

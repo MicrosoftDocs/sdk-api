@@ -52,7 +52,7 @@ api_name:
 
 Applies the stream selections from previous calls to <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>EndRecord</b> method writes the "REC" chunk in a tightly interleaved AVI file (having a one-to-one interleave factor of audio to video). Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avifileendrecord">AVIFileEndRecord</a> function.
 
-## -parameters
+
 
 #### - pf
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>PlayerReconnect</b> event occurs when a remoted Windows Media Player control reconnects to the Player.
 
-## -parameters
+
 
 ## -remarks
 

@@ -52,7 +52,7 @@ api_name:
 
 Marks for delete.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWMPPlugin::UnAdviseWMPServices</b> method is used to release the pointer provided by <b>AdviseWMPServices</b>.
 
-## -parameters
+
 
 ## -returns
 

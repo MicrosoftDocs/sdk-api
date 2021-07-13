@@ -52,7 +52,7 @@ api_name:
 
 Releases the hold on the buffer after the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-getbuffer">GetBuffer</a> method is  called.
 
-## -parameters
+
 
 ## -returns
 

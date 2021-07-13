@@ -53,7 +53,7 @@ api_name:
 The 
 <b>IWbemPath::RemoveAllNamespaces</b> method removes the namespace portion of the path.
 
-## -parameters
+
 
 ## -returns
 
