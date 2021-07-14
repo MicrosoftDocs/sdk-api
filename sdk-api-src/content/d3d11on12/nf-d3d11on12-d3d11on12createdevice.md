@@ -137,7 +137,7 @@ This method returns <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERRO
 
 The function signature PFN_D3D11ON12_CREATE_DEVICE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
 
-## -examples
+## Examples
 
 To render text over Direct3D 12 using Direct2D via the 11On12 device, load the rendering pipeline dependencies.
 
