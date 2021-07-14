@@ -65,7 +65,7 @@ Type: **float &**
 
 An lvalue reference to the specified element.
 
-## -examples
+## Examples
 
 Because an lvalue reference to the matrix element is returned, you can use this operator to update the value of an element.
 
