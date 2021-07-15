@@ -169,7 +169,7 @@ Memory allocated by
 <b>HeapAlloc</b> is not movable. The address returned by 
 <b>HeapAlloc</b> is valid until the memory block is freed or reallocated; the memory block does not need to be locked. Because the system cannot compact a private heap, it can become fragmented.
 
-The alignment of memory returned by HeapAlloc is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
+The alignment of memory returned by <b>HeapAlloc</b> is <b>MEMORY_ALLOCATION_ALIGNMENT</b> in WinNT.h:
 
 ```
 #if defined(_WIN64) || defined(_M_ALPHA)
