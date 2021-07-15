@@ -56,7 +56,9 @@ Obtains information about the language bar item.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a> structure that receives the language bar item information. Since Windows 8, the structure should have GUID_LBI_INPUTMODE or the item will be ignored. Read more [here](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation).
+Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
+
+Starting with Windows 8, the item will be ignored if the structure does not include GUID_LBI_INPUTMODE. For more information, see [Third-party input method editors](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation) in the Compatibility cookbook for Windows.
 
 ## -returns
 
@@ -95,7 +97,4 @@ The method was successful.
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a>
 
-
-
-<a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO
-      </a>
+<a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a>
