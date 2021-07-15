@@ -56,7 +56,7 @@ Obtains information about the language bar item.
 
 ### -param pInfo [out]
 
-Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a> structure that receives the language bar item information.
+Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_langbariteminfo">TF_LANGBARITEMINFO</a> structure that receives the language bar item information. Since Windows 8, the structure should have GUID_LBI_INPUTMODE or the item will be ignored. Read more [here](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation).
 
 ## -returns
 

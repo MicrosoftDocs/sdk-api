@@ -60,7 +60,7 @@ Contains the <b>CLSID</b> of the text service that owns the language bar item. T
 
 ### -field guidItem
 
-Contains a <b>GUID</b> value that identifies the language bar item.
+Contains a <b>GUID</b> value that identifies the language bar item. Since Windows 8, this value should be GUID_LBI_INPUTMODE or the language bar item will be ignored. Read more [here](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation).
 
 ### -field dwStyle
 

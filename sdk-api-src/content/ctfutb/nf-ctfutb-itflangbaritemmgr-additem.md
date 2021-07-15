@@ -56,7 +56,7 @@ Adds an item to the language bar.
 
 ### -param punk [in]
 
-Pointer to the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to add to the language bar.
+Pointer to the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to add to the language bar. Since Windows 8, only one item that gives GUID_LBI_INPUTMODE from <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">GetInfo</a> method will be shown and others will be silently ignored. Read more [here](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation).
 
 ## -returns
 
@@ -74,7 +74,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The method was successful.
+The method was successful. Silently ignored calls will also return this status.
 
 </td>
 </tr>
