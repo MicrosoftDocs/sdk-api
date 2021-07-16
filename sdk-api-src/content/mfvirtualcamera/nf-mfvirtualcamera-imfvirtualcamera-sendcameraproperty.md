@@ -48,7 +48,7 @@ A wrapper around the internal [IKsControl::KsProperty](/drivers/ddi/ksproxy/nf-k
 
 ### -param propertySet
 
-A GUID representing the [KSPROPERTY.Set](/previous-versions/ff564262(v=vs.85)) field.
+A GUID representing the [KSPROPERTY.Set](/windows-hardware/drivers/stream/ksmethod-structure) field.
 
 ### -param propertyId
 
@@ -94,4 +94,4 @@ Returns an HRESULT value, including but not limited to the following values:
 
 [IKsControl::KsProperty](/drivers/ddi/ksproxy/nf-ksproxy-ikscontrol-ksproperty)
 
-[KSPROPERTY Structure](/previous-versions/ff564262(v=vs.85))
+[KSPROPERTY Structure](/windows-hardware/drivers/stream/ksmethod-structure)
