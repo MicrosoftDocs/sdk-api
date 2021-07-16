@@ -56,7 +56,9 @@ Adds an item to the language bar.
 
 ### -param punk [in]
 
-Pointer to the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to add to the language bar. Since Windows 8, only one item that gives GUID_LBI_INPUTMODE from <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinfo">GetInfo</a> method will be shown and others will be silently ignored. Read more [here](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation).
+Pointer to the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object to add to the language bar. 
+
+Starting with Windows 8, only the first item that returns GUID_LBI_INPUTMODE (from [GetInfo](/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritem-getinf)) is shown. For more information, see [Third-party input method editors](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation) in the Compatibility cookbook for Windows.
 
 ## -returns
 
