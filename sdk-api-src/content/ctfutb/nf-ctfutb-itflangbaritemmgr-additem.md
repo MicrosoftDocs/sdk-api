@@ -76,7 +76,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The method was successful. Silently ignored calls will also return this status.
+The method was successful (silently ignored calls also return this status).
 
 </td>
 </tr>
