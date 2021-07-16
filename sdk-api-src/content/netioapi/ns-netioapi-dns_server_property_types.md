@@ -1,9 +1,9 @@
 ---
 UID: NS:netioapi._DNS_SERVER_PROPERTY_TYPES
 title: DNS_SERVER_PROPERTY_TYPES
-description: TBD
+description: Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](ns-netioapi-dns_server_property.md).
 tech.root: IpHlp
-ms.date: 07/15/2021
+ms.date: 07/16/2021
 req.header: netioapi.h
 req.construct-type: structure
 req.include-header: Iphlpapi.h
@@ -45,10 +45,16 @@ api_name:
 
 ## -description
 
+Contains a pointer to a DNS server property. The type of the property depends on the value of [DNS_SERVER_PROPERTY::Type](ns-netioapi-dns_server_property.md).
+
 ## -struct-fields
 
 ### -field DohSettings
 
+If [DNS_SERVER_PROPERTY::Type](ns-netioapi-dns_server_property.md) is set to *DnsServerDohProperty*, then *DohSettings* points to a valid DNS-over-HTTPS server property.
+
 ## -remarks
 
 ## -see-also
+
+* [DNS_SERVER_PROPERTY](ns-netioapi-dns_server_property.md)
