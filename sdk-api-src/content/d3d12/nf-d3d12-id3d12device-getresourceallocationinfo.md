@@ -87,6 +87,8 @@ Your application can forgo using **GetResourceAllocationInfo** for buffer resour
 
 When multiple resource descriptions are passed in, the C++ algorithm for calculating a structure size and alignment are used. For example, a three-element array with two tiny 64KB-aligned resources and a tiny 4MB-aligned resource, reports differing sizes based on the order of the array. If the 4MB aligned resource is in the middle, then the resulting **Size** is 12MB. Otherwise, the resulting **Size** is 8MB. The **Alignment** returned would always be 4MB, because it's the superset of all alignments in the resource array.
 
+If error has occured, SizeInBytes will be equal to UINT64_MAX.
+
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
