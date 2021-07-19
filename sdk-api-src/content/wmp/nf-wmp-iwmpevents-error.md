@@ -52,7 +52,7 @@ api_name:
 
 The <b>Error</b> event occurs when the Windows Media Player control has an error condition..
 
-## -parameters
+
 
 ## -see-also
 

@@ -53,7 +53,7 @@ api_name:
 
 Unlocks vertex data.
 
-## -parameters
+
 
 ## -returns
 

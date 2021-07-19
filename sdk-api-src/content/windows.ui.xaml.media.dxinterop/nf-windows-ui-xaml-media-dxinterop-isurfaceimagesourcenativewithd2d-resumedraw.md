@@ -52,7 +52,7 @@ api_name:
 
 Resume the drawing operation.
 
-## -parameters
+
 
 ## -returns
 

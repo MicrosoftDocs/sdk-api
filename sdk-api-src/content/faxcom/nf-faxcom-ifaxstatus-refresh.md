@@ -53,7 +53,7 @@ api_name:
 
 The <b>Refresh</b> method updates <a href="/previous-versions/windows/desktop/fax/-mfax-faxstatus">FaxStatus</a> object information for the associated parent <a href="/previous-versions/windows/desktop/fax/-mfax-faxport">FaxPort</a> object.
 
-## -parameters
+
 
 ## -returns
 

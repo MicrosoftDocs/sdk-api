@@ -53,7 +53,7 @@ api_name:
 
 Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-lockprocess">IMFPMPHost::LockProcess</a>.
 
-## -parameters
+
 
 ## -returns
 

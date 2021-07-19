@@ -52,7 +52,7 @@ api_name:
 
 Called when the channel has been closed.
 
-## -parameters
+
 
 ## -returns
 

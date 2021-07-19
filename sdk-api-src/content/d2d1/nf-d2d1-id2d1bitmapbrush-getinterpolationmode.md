@@ -52,7 +52,7 @@ api_name:
 
 Gets the interpolation method used when the brush bitmap is scaled or rotated.
 
-## -parameters
+
 
 ## -returns
 

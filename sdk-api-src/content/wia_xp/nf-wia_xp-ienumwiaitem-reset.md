@@ -53,7 +53,7 @@ api_name:
 
 The <b>IEnumWiaItem::Reset</b> method is used by applications to restart the enumeration of item information.
 
-## -parameters
+
 
 ## -returns
 

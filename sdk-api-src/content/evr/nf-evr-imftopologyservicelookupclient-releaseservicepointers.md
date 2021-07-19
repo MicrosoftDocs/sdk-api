@@ -53,7 +53,7 @@ api_name:
 
 Signals the object to release the interface pointers obtained from the enhanced video renderer (EVR).
 
-## -parameters
+
 
 ## -returns
 

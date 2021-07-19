@@ -53,7 +53,7 @@ api_name:
 
 Removes all payload extensions that are configured for the stream.
 
-## -parameters
+
 
 ## -returns
 

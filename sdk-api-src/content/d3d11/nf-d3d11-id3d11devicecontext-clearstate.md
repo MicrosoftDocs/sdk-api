@@ -53,7 +53,7 @@ api_name:
 
 Restore all default settings.
 
-## -parameters
+
 
 ## -remarks
 

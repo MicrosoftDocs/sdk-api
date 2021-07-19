@@ -52,7 +52,7 @@ api_name:
 
 Enables all the components that Automatic Updates requires.
 
-## -parameters
+
 
 ## -returns
 

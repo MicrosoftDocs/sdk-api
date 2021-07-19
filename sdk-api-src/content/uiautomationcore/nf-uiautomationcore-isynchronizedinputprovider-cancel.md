@@ -52,7 +52,7 @@ api_name:
 
 Cancels listening for input.
 
-## -parameters
+
 
 ## -returns
 

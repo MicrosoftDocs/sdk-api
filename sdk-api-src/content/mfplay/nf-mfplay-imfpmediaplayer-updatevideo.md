@@ -56,7 +56,7 @@ api_name:
 
 Updates the video frame.
 
-## -parameters
+
 
 ## -returns
 

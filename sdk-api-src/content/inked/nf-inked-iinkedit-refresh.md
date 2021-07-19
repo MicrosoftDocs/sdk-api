@@ -53,7 +53,7 @@ api_name:
 
 Causes the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control to redraw.
 
-## -parameters
+
 
 ## -returns
 

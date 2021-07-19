@@ -52,11 +52,15 @@ api_name:
 
 The <b>ReleaseWriteAccess</b> method releases the write lock previously obtained.
 
-## -parameters
+
 
 ## -returns
 
 This method can return one of these values.
+
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The write lock was successfully released.|
 
 ## -remarks
 

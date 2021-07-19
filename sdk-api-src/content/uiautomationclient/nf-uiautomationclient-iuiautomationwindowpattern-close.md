@@ -52,7 +52,7 @@ api_name:
 
 Closes the window.
 
-## -parameters
+
 
 ## -returns
 

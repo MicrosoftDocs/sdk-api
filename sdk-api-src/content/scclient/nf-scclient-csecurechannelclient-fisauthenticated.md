@@ -53,7 +53,7 @@ api_name:
 
 The <b>fIsAuthenticated</b> method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
 
-## -parameters
+
 
 ## -returns
 

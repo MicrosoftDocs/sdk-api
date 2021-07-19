@@ -52,7 +52,7 @@ api_name:
 
 Closes the endorsement key. You can only call the <b>Close</b> method after the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509endorsementkey-open">Open</a> method has been successfully called.
 
-## -parameters
+
 
 ## -returns
 

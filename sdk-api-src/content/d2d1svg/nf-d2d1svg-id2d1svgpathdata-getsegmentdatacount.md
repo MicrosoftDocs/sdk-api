@@ -52,7 +52,7 @@ api_name:
 
 Gets the size of the segment data array.
 
-## -parameters
+
 
 ## -returns
 

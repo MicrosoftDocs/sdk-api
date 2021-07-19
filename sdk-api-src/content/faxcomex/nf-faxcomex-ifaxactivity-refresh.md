@@ -55,7 +55,7 @@ The <b>IFaxActivity::Refresh</b> method refreshes <a href="/previous-versions/wi
 
 The <b>IFaxActivity::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a> information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

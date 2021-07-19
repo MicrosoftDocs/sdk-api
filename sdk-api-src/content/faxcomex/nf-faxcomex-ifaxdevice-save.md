@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxDevice::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object's data.
 
-## -parameters
+
 
 ## -returns
 

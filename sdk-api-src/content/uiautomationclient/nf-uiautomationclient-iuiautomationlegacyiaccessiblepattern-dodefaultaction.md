@@ -52,7 +52,7 @@ api_name:
 
 Performs the Microsoft Active Accessibility default action for the element.
 
-## -parameters
+
 
 ## -returns
 

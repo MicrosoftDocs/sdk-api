@@ -3,6 +3,7 @@
   "headers": [
     "ksmedia.h",
     "audioenginebaseapo.h",
+    "audioengineextensionapo.h",
     "mmreg.h",
     "mmddk.h",
     "propsys.h",

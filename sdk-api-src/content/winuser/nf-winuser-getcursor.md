@@ -62,7 +62,7 @@ Retrieves a handle to the current cursor.
 
 To get information on the global cursor, even if it is not owned by the current thread, use <a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>.
 
-## -parameters
+
 
 ## -returns
 

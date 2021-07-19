@@ -52,7 +52,7 @@ api_name:
 
 Resets the enumeration index to 0.
 
-## -parameters
+
 
 ## -returns
 

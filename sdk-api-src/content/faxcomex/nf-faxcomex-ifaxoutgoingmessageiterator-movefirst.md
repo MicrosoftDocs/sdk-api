@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingMessageIterator::MoveFirst</b> method moves the archive cursor to the first fax message in the outbound archive.
 
-## -parameters
+
 
 ## -returns
 

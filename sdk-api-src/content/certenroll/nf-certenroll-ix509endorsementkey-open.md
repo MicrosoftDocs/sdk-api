@@ -52,7 +52,7 @@ api_name:
 
 Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Retrieves the number of gradient stops in the collection.
 
-## -parameters
+
 
 ## -returns
 

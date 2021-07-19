@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Coordinates state updates while switching between current and pending browser views.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 The <b>StringFormat::GetAlignment</b> method gets an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringalignment">StringAlignment</a> enumeration that indicates the character alignment of this 
 			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string.
 
-## -parameters
+
 
 ## -returns
 

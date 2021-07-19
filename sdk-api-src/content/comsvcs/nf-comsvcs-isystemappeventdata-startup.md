@@ -52,7 +52,7 @@ api_name:
 
 Invoked when a COM+ application instance is created.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates a change in the <b>AVDecCommonMeanBitRate</b> codec property.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.
 
-## -parameters
+
 
 ## -returns
 

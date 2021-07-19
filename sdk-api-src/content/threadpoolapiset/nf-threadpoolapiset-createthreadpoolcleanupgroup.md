@@ -57,7 +57,7 @@ api_name:
 
 Creates a cleanup group that applications can use to track one or more thread pool callbacks.
 
-## -parameters
+
 
 ## -returns
 

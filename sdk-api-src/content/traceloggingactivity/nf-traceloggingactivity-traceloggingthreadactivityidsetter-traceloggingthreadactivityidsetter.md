@@ -53,7 +53,7 @@ ms.custom: 19H1
 Creates a new <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a> object.
 
 
-## -parameters
+
 
 
 

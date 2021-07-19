@@ -55,7 +55,7 @@ api_name:
 
 The <b>RemoveAllDataUnitExtensions</b> method removes all data unit extension systems that are associated with the stream.
 
-## -parameters
+
 
 ## -returns
 

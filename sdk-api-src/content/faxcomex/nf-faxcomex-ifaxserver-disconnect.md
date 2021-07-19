@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxServer::Disconnect</b> method terminates a fax client application's connection to a fax server. The method fails if the client is not connected to an active fax server.
 
-## -parameters
+
 
 ## -returns
 

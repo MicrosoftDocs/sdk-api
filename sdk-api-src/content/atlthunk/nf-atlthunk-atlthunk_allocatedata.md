@@ -52,7 +52,7 @@ api_name:
 
 Allocates space in memory for an ATL thunk.
 
-## -parameters
+
 
 ## -returns
 

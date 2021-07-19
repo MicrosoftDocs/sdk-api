@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::ClearMarkers</b> method clears the markers from this path.
 
-## -parameters
+
 
 ## -returns
 

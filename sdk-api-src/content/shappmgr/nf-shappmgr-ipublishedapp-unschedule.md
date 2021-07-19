@@ -52,7 +52,7 @@ api_name:
 
 Cancels the installation of an application published by an application publisher.
 
-## -parameters
+
 
 ## -returns
 

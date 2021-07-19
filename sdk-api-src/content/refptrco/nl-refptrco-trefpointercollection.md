@@ -61,9 +61,6 @@ The <b>TRefPointerCollection</b> class is a container
     class that collects pointers to objects. These pointers can be enumerated.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">TRefPointerCollection</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>TRefPointerCollection</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

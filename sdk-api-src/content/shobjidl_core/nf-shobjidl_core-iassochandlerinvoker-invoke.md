@@ -52,7 +52,7 @@ api_name:
 
 Invokes an associated application handler.
 
-## -parameters
+
 
 ## -returns
 

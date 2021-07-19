@@ -52,7 +52,7 @@ api_name:
 
  Gets the number of fonts in the font list.
 
-## -parameters
+
 
 ## -returns
 

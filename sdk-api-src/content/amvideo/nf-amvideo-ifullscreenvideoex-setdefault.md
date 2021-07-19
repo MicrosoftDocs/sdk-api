@@ -53,7 +53,7 @@ api_name:
 
 The <code>SetDefault</code> method saves the current settings.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the current object is executing in a transaction.
 
-## -parameters
+
 
 ## -returns
 

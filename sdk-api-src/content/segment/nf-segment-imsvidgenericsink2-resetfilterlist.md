@@ -58,7 +58,7 @@ api_name:
 
 The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-addfilter">IMSVidGenericSink2::AddFilter</a>.
 
-## -parameters
+
 
 ## -returns
 

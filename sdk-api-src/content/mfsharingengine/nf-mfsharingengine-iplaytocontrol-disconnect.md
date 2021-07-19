@@ -52,7 +52,7 @@ api_name:
 
 Disconnects the media element from the media sharing engine.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Called when a video sample is returned to the allocator.
 
-## -parameters
+
 
 ## -returns
 

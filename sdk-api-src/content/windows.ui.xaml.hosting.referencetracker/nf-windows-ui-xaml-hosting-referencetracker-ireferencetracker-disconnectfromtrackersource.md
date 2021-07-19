@@ -52,7 +52,7 @@ api_name:
 
 Indicates that a reference tracker source has stopped tracking a reference tracker.
 
-## -parameters
+
 
 ## -returns
 

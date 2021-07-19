@@ -54,7 +54,7 @@ api_name:
 Executes a Resultant Set of Policy (RSoP) query. The method supports both logging mode and planning mode queries. Before calling this method, set the appropriate logging mode or planning mode properties. For more information and a list of properties, see 
 <a href="/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">IGPMRSOP Property Methods</a>. RSoP planning mode requires a domain controller running Windows Server to perform the query.
 
-## -parameters
+
 
 ## -returns
 

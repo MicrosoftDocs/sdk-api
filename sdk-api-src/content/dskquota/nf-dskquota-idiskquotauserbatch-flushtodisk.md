@@ -52,7 +52,7 @@ api_name:
 
 Writes user object changes to disk in a single call to the underlying file system.
 
-## -parameters
+
 
 ## -returns
 

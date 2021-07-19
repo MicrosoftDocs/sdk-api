@@ -52,7 +52,7 @@ api_name:
 
 Creates an instance of <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
-## -parameters
+
 
 ## -remarks
 

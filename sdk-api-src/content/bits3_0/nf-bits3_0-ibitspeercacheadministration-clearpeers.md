@@ -53,7 +53,7 @@ api_name:
 
 Removes all peers from the list of peers that can serve content.
 
-## -parameters
+
 
 ## -returns
 

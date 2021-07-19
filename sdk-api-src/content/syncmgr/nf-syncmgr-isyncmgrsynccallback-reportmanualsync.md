@@ -52,7 +52,7 @@ api_name:
 
 Reports that a synchronization operation is being performed that was requested manually from outside the Sync Center UI.
 
-## -parameters
+
 
 ## -returns
 

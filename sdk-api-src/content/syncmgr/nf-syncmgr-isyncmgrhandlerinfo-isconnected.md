@@ -52,7 +52,7 @@ api_name:
 
 Gets a value that indicates whether the handler—typically some type of external device—is connected.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetEmfHeader</b> method gets an <a href="/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-enhmetaheader3">ENHMETAHEADER3</a> structure that contains properties of the associated metafile.
 
-## -parameters
+
 
 ## -returns
 

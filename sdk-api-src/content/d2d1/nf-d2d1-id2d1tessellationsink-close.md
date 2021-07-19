@@ -52,7 +52,7 @@ api_name:
 
 Closes the sink and returns its error status.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
  Gets the number of font families in the collection.
 
-## -parameters
+
 
 ## -returns
 

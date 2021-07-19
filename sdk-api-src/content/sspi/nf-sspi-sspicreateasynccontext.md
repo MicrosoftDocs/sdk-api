@@ -42,7 +42,7 @@ dev_langs:
 
 Creates an instance of SspiAsyncContext that tracks the async call.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>MoveNext</b> method moves the archive cursor to the next message in the archive of inbound faxes.
 
-## -parameters
+
 
 ## -returns
 

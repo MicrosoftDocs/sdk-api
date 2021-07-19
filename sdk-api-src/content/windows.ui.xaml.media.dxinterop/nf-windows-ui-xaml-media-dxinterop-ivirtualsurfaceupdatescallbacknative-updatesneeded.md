@@ -52,7 +52,7 @@ api_name:
 
 Performs the drawing behaviors when an update to <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> is requested.
 
-## -parameters
+
 
 ## -returns
 

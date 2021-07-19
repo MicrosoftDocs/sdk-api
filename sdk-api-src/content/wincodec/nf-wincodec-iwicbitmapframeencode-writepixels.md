@@ -64,7 +64,7 @@ The number of lines to encode.
 
 Type: <b>UINT</b>
 
-The <a href="https://docs.microsoft.com/">stride</a> of the image pixels.
+The stride of the image pixels.
 
 ### -param cbBufferSize [in]
 

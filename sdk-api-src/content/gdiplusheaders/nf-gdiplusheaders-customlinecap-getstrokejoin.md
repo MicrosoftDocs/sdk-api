@@ -53,7 +53,7 @@ api_name:
 
 The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> used to join multiple lines in the same <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
 
-## -parameters
+
 
 ## -returns
 

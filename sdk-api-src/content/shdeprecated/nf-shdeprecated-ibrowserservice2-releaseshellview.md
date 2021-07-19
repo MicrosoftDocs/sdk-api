@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Coordinates the view lifetime between the base class and its derived class.
 
-## -parameters
+
 
 ## -returns
 

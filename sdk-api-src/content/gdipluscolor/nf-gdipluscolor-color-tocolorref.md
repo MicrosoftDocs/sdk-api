@@ -53,7 +53,7 @@ api_name:
 
 The <b>Color::ToCOLORREF</b> method converts this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value to a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value.
 
-## -parameters
+
 
 ## -returns
 

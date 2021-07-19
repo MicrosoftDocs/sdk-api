@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsPreroll</code> method determines if this sample is a preroll sample. A preroll sample should not be displayed.
 
-## -parameters
+
 
 ## -returns
 

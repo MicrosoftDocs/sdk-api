@@ -52,7 +52,7 @@ api_name:
 
 Gets the last symbol load error.
 
-## -parameters
+
 
 ## -returns
 

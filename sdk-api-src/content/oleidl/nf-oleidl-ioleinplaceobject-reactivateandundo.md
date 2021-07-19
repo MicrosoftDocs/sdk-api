@@ -52,7 +52,7 @@ api_name:
 
 Reactivates a previously deactivated object, undoing the last state of the object.
 
-## -parameters
+
 
 ## -returns
 

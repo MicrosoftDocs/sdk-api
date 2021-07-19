@@ -54,7 +54,7 @@ api_name:
 
 Removes all function instances from the collection.
 
-## -parameters
+
 
 ## -returns
 

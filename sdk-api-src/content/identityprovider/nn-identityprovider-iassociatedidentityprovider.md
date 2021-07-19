@@ -56,7 +56,4 @@ The <b>IAssociatedIdentityProvider</b> interface allows an identity provider to 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssociatedIdentityProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssociatedIdentityProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

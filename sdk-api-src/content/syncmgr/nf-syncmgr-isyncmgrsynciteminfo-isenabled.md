@@ -52,7 +52,7 @@ api_name:
 
 Generates a value that indicates whether the item is enabled.
 
-## -parameters
+
 
 ## -returns
 

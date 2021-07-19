@@ -56,9 +56,6 @@ Provides a method to handle the completion of calls to the <a href="/previous-ve
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeviceRequestCompletionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDeviceRequestCompletionCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

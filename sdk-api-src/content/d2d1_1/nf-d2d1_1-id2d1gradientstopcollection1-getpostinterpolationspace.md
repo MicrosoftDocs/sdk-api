@@ -52,7 +52,7 @@ api_name:
 
 Gets the color space after interpolation has occurred.
 
-## -parameters
+
 
 ## -returns
 

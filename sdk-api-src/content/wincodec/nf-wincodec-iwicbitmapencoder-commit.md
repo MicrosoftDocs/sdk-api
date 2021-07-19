@@ -52,7 +52,7 @@ api_name:
 
 Commits all changes for the image and closes the stream.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the size of the layer in device-independent pixels.
 
-## -parameters
+
 
 ## -returns
 

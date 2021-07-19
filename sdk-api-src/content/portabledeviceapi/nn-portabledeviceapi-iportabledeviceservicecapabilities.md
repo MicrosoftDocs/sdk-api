@@ -55,7 +55,4 @@ The <b>IPortableDeviceServiceCapabilities</b> interface retrieves information de
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceCapabilities</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceCapabilities</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

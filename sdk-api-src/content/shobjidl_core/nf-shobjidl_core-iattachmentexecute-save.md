@@ -52,7 +52,7 @@ api_name:
 
 Saves the attachment.
 
-## -parameters
+
 
 ## -returns
 

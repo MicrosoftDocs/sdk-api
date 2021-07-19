@@ -52,7 +52,7 @@ api_name:
 
 Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
 
-## -parameters
+
 
 ## -returns
 

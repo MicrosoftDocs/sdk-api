@@ -54,7 +54,7 @@ Enables a COM+ object to perform cleanup required before it is recycled or destr
 
 This method is called by the COM+ run-time environment whenever an object is deactivated. Do not make any method calls on objects in the same activity from this method.
 
-## -parameters
+
 
 ## -returns
 

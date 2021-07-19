@@ -52,7 +52,7 @@ api_name:
 
 The <b>IEnumTASK::Reset</b> method enables MMC to reset the enumeration to the beginning of the snap-in's task list.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>End</b> method ends the streaming operation. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamendstreaming">AVIStreamEndStreaming</a> function.
 
-## -parameters
+
 
 #### - ps
 

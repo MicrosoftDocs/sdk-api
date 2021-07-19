@@ -54,7 +54,7 @@ api_name:
 The <b>Pen::GetLastStatus</b> method returns a value that indicates the nature of this 
 			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

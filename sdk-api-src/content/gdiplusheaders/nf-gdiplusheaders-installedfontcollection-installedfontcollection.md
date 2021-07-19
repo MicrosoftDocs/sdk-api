@@ -53,7 +53,7 @@ api_name:
 
 Creates an <b>InstalledFontCollection::InstalledFontCollection</b> object.
 
-## -parameters
+
 
 ## -see-also
 

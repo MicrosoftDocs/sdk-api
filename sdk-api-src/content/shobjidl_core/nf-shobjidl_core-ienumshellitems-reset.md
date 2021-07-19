@@ -52,7 +52,7 @@ api_name:
 
 Resets the internal count of retrieved <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interfaces in the enumeration.
 
-## -parameters
+
 
 ## -returns
 

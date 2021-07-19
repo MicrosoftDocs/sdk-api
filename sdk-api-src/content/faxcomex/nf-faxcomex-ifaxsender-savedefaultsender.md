@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxSender::SaveDefaultSender</b> method stores information about the default sender from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object.
 
-## -parameters
+
 
 ## -returns
 

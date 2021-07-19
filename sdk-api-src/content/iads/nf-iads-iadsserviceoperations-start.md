@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsServiceOperations::Start</b> method starts a network service.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Compare the data type with the data stored.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Starts recording audio and/or video to a file.
 
-## -parameters
+
 
 ## -returns
 

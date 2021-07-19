@@ -56,7 +56,7 @@ api_name:
 
 Removes all effects that were added with the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">IMFPMediaPlayer::InsertEffect</a> method.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Unregisters the Microsoft Media Foundation platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
 
-## -parameters
+
 
 ## -returns
 

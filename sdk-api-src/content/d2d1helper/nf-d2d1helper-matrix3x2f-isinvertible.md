@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the matrix is invertible.
 
-## -parameters
+
 
 ## -returns
 

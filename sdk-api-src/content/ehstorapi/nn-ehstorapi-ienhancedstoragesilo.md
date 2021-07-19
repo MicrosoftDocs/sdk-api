@@ -55,7 +55,4 @@ The <b>IEnhancedStorageSilo</b> interface is the point of access for an IEEE 166
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageSilo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageSilo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

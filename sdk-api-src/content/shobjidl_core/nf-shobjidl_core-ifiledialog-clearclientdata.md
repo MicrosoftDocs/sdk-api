@@ -52,7 +52,7 @@ api_name:
 
 Instructs the dialog to clear all persisted state information.
 
-## -parameters
+
 
 ## -returns
 

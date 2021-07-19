@@ -53,7 +53,7 @@ api_name:
 
 Gets the type of <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-intro">device context</a>.
 
-## -parameters
+
 
 ## -returns
 

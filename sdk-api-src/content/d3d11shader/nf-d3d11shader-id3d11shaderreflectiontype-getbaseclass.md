@@ -52,7 +52,7 @@ api_name:
 
 Gets an <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectiontype">ID3D11ShaderReflectionType Interface</a>  interface containing the variable base class type.
 
-## -parameters
+
 
 ## -returns
 

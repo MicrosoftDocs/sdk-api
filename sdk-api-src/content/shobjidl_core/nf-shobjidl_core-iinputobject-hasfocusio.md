@@ -52,7 +52,7 @@ api_name:
 
 Determines if one of the object's windows has the keyboard focus.
 
-## -parameters
+
 
 ## -returns
 

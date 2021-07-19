@@ -52,7 +52,7 @@ api_name:
 
 Clears the entire collection of name-value pairs.
 
-## -parameters
+
 
 ## -returns
 

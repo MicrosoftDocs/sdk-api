@@ -52,7 +52,7 @@ api_name:
 
 Commits the frame to the image.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,9 +55,6 @@ This interface is used to configure the runtime for tools such as PIX. Its not i
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Tools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Tools</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

@@ -54,7 +54,7 @@ api_name:
 The <b>Brush::Clone</b> method creates a new 
 			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush">Brush</a> object based on this brush.
 
-## -parameters
+
 
 ## -returns
 

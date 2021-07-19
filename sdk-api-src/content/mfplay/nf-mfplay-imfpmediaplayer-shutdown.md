@@ -56,7 +56,7 @@ api_name:
 
 Shuts down the MFPlay player object and releases any resources the object is using.
 
-## -parameters
+
 
 ## -returns
 

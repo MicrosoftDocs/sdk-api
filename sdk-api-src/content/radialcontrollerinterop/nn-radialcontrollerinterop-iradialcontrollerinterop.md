@@ -1,10 +1,10 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerInterop
 title: IRadialControllerInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)�RadialController object and provides access to RadialController members for customizing the interaction experience.
+description: Enables interoperability with a WinRT�RadialController object and provides access to RadialController members for customizing the interaction experience.
 helpviewer_keywords: ["IRadialControllerInterop","IRadialControllerInterop interface","IRadialControllerInterop interface","described","Input_Radial.iradialcontrollerinterop","radialcontrollerinterop/IRadialControllerInterop"]
 old-location: input_radial\iradialcontrollerinterop.htm
-tech.root: input_radial
+tech.root: winrt
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerInterop, IRadialControllerInterop interface, IRadialControllerInterop interface,described, Input_Radial.iradialcontrollerinterop, radialcontrollerinterop/IRadialControllerInterop
@@ -50,14 +50,11 @@ api_name:
 
 ## -description
 
-Enables interoperability with a Universal Windows Platform (UWP) <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
+Enables interoperability with a WinRT <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRadialControllerInterop</b> interface inherits from <b>IInspectable</b>. <b>IRadialControllerInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::IsEmfPlusDual</b> method determines whether the associated metafile is in the EMF+ Dual format.
 
-## -parameters
+
 
 ## -returns
 

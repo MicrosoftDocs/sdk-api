@@ -53,7 +53,7 @@ api_name:
  Removes all download requests from the queue and cancels any active download    
     operations.
 
-## -parameters
+
 
 ## -returns
 

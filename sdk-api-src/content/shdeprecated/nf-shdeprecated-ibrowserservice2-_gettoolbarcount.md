@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Returns the number of toolbars in the browser window.
 
-## -parameters
+
 
 ## -returns
 

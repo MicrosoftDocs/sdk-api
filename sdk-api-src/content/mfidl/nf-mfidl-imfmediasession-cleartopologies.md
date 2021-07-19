@@ -53,7 +53,7 @@ api_name:
 
 Clears all of the presentations that are queued for playback in the Media Session.
 
-## -parameters
+
 
 ## -returns
 

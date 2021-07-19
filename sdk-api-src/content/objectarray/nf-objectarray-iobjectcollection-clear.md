@@ -52,7 +52,7 @@ api_name:
 
 Removes all objects from the collection.
 
-## -parameters
+
 
 ## -returns
 

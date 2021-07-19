@@ -57,7 +57,7 @@ The
 <b>IsPartialFileSupportEnabled</b> is a protected method implemented by the 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
-## -parameters
+
 
 ## -returns
 

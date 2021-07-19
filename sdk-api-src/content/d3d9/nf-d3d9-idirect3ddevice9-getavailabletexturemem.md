@@ -53,7 +53,7 @@ api_name:
 
 Returns an estimate of the amount of available texture memory.
 
-## -parameters
+
 
 ## -returns
 

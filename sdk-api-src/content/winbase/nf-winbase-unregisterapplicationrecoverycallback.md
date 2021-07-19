@@ -52,7 +52,7 @@ api_name:
 
 Removes the active instance of an application from the recovery list.
 
-## -parameters
+
 
 ## -returns
 

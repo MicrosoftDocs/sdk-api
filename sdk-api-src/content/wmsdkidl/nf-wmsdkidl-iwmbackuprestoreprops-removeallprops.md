@@ -59,7 +59,7 @@ api_name:
 
 The <b>RemoveAllProps</b> method removes all properties.
 
-## -parameters
+
 
 ## -returns
 

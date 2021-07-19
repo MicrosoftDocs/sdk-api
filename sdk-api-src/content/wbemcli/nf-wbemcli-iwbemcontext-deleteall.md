@@ -60,7 +60,7 @@ api_name:
 The 
 <b>IWbemContext::DeleteAll</b> method removes all named context values from the current object, thus emptying the object.
 
-## -parameters
+
 
 ## -returns
 

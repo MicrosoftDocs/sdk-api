@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>DrawVideoImageBegin</code> method turns off DirectDraw in preparation for a call to the <b>DrawVideoImageDraw</b> method.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 The <b>Rect::GetTop</b> method gets the y-coordinate of the top edge of the rectangle.
 
-## -parameters
+
 
 ## -returns
 

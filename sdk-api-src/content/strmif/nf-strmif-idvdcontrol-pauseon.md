@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Pauses the current media file playback.
 
-## -parameters
+
 
 ## -returns
 

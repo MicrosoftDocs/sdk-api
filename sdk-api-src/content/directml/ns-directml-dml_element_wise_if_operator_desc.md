@@ -85,8 +85,8 @@ Can be used to functionally build up other aggregate operators, such as LeakyRel
 This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
 ## Tensor constraints
-* *ATensor*, *BTensor*, `ConditionTensor`, and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
 * *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*.
+* *ATensor*, *BTensor*, *ConditionTensor*, and *OutputTensor* must have the same *DimensionCount* and *Sizes*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_3_0 and above

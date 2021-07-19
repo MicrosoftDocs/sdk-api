@@ -43,7 +43,7 @@ dev_langs:
 
 Unlocks the raw payload contained in the capture device control.
 
-## -parameters
+
 
 ## -returns
 

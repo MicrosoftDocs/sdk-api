@@ -52,7 +52,7 @@ api_name:
 
 The <b>EngLpkInstalled</b> function determines whether the language pack is installed on the system.
 
-## -parameters
+
 
 ## -returns
 

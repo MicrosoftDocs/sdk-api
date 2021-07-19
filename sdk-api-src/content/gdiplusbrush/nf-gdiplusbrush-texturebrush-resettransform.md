@@ -53,7 +53,7 @@ api_name:
 
 The <b>TextureBrush::ResetTransform</b> method resets the transformation matrix of this texture brush to the identity matrix. This means that no transformation takes place.
 
-## -parameters
+
 
 ## -returns
 

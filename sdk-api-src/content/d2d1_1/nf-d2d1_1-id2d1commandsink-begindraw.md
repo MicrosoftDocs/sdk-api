@@ -52,7 +52,7 @@ api_name:
 
 Notifies the implementation of the command sink that drawing is about to commence.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the container that one of its objects is being activated in place.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ api_name:
 The <b>FontFamily::GenericSerif</b> method gets a 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object that represents a generic serif typeface.
 
-## -parameters
+
 
 ## -returns
 

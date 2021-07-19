@@ -52,7 +52,7 @@ api_name:
 
 Refreshes the current document without sending a 'Pragma:no-cache' HTTP header to the server.
 
-## -parameters
+
 
 ## -returns
 

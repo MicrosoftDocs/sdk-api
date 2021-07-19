@@ -52,7 +52,7 @@ api_name:
 
 Signals to the processor to give resources to threads that are waiting for them. This macro is only effective on processors that  support technology allowing multiple threads running on a single processor, such as Intel's Hyperthreading technology.
 
-## -parameters
+
 
 ## -remarks
 

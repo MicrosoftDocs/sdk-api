@@ -52,7 +52,7 @@ api_name:
 
 The <b>IADsPropertyList::Reset</b> method resets the list to the first item.
 
-## -parameters
+
 
 ## -returns
 

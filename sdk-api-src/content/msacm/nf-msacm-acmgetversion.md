@@ -53,7 +53,7 @@ api_name:
 
 The <b>acmGetVersion</b> function returns the version number of the ACM.
 
-## -parameters
+
 
 ## -returns
 

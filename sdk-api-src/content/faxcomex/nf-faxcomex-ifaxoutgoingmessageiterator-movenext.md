@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutgoingMessageIterator::MoveNext</b> method moves the archive cursor to the next fax message in the outbound archive.
 
-## -parameters
+
 
 ## -returns
 

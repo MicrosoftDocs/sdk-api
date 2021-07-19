@@ -62,9 +62,6 @@ The <b>IMsmError</b> interface retrieves details about a single merge error.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

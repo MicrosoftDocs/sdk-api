@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Queries whether taping is permitted.
 
-## -parameters
+
 
 ## -returns
 

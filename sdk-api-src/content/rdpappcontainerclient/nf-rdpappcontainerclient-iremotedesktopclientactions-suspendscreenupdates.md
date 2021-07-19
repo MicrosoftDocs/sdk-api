@@ -56,7 +56,7 @@ Suspends screen updates being sent to the client.
 
 Use the <a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-resumescreenupdates">ResumeScreenUpdates</a> method to resume screen updates.
 
-## -parameters
+
 
 ## -returns
 

@@ -63,7 +63,7 @@ Similar to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flus
 It is also prudent to release references on middleware before calling <b>Trim</b>, as that middleware may also need to release references
 to Direct3D objects.
 
-## -parameters
+
 
 ## -see-also
 

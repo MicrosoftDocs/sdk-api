@@ -52,7 +52,7 @@ api_name:
 
 Attempts to close the window.
 
-## -parameters
+
 
 ## -returns
 

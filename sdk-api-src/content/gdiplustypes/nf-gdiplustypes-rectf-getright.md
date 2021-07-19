@@ -53,7 +53,7 @@ api_name:
 
 The <b>RectF::GetRight</b> method gets the x-coordinate of the right edge of the rectangle.
 
-## -parameters
+
 
 ## -returns
 

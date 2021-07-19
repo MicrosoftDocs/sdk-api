@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Instructs the browser to update the pointer to an item identifier list (PIDL) in the window list. This method is called after navigation.
 
-## -parameters
+
 
 ## -returns
 

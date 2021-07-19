@@ -52,7 +52,7 @@ api_name:
 
 Returns a boolean indicating whether this element has children.
 
-## -parameters
+
 
 ## -returns
 

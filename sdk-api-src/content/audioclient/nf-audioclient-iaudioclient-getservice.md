@@ -60,6 +60,8 @@ The interface ID for the requested service. The client should set this parameter
 
 IID_IAudioCaptureClient
 
+IID_IAudioClientDuckingControl
+
 IID_IAudioClock
 
 IID_IAudioRenderClient
@@ -70,9 +72,11 @@ IID_IAudioStreamVolume
 
 IID_IChannelAudioVolume
 
- IID_IMFTrustedOutput
+IID_IMFTrustedOutput
 
 IID_ISimpleAudioVolume
+
+
 
 For more information, see Remarks.
 

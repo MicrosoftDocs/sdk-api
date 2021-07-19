@@ -53,7 +53,7 @@ api_name:
 
 Get the number of messages currently stored in the message queue.
 
-## -parameters
+
 
 ## -returns
 

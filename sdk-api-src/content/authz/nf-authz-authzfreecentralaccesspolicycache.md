@@ -52,7 +52,7 @@ api_name:
 
 The <b>AuthzFreeCentralAccessPolicyCache</b> function frees the cache maintained as a result of <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> evaluating the Central Access Policies (CAP) that applies for the resource.
 
-## -parameters
+
 
 ## -returns
 

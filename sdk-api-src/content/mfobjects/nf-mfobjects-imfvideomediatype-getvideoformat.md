@@ -55,7 +55,7 @@ api_name:
 
 Returns a pointer to an <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format.
 
-## -parameters
+
 
 ## -returns
 

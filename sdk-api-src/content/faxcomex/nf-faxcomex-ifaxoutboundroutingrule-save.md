@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutboundRoutingRule::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object data.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 
 Flushes the  cache of the controller to a persistent store.
 
-## -parameters
+
 
 ## -returns
 

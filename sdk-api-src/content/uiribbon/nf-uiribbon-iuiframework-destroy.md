@@ -53,7 +53,7 @@ api_name:
 
 Terminates and releases all objects, hooks, and references for an instance of the Windows Ribbon framework.
 
-## -parameters
+
 
 ## -returns
 

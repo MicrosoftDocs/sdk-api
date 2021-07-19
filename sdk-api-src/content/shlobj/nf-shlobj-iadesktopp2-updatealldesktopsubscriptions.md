@@ -52,7 +52,7 @@ api_name:
 
 Calls the <a href="/windows/win32/api/shlobj/nf-shlobj-iadesktopp2-updatealldesktopsubscriptions">UpdateAllDesktopSubscriptions</a> function to update desktop subscriptions.
 
-## -parameters
+
 
 ## -returns
 

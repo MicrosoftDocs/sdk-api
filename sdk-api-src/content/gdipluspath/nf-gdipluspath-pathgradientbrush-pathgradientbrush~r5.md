@@ -86,4 +86,4 @@ Creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientb
 </tr>
 </table>
 
-## -parameters
+

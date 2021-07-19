@@ -43,7 +43,7 @@ dev_langs:
 
 Destructor for the [**PathData**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-pathdata--pathdata) class.
 
-## -parameters
+
 
 ## -remarks
 

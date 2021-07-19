@@ -52,7 +52,7 @@ api_name:
 
 The <b>Cancel</b> method terminates the relogging process.
 
-## -parameters
+
 
 ## -returns
 

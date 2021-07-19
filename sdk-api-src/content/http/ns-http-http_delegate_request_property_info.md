@@ -42,7 +42,7 @@ Describes additional property information when delegating a request.
 
 ## -struct-fields
 
-### -field ProperyId
+### -field PropertyId
 
 Type: **[HTTP_DELEGATE_REQUEST_PROPERTY_ID](./ne-http-http_delegate_request_property_id.md)**
 

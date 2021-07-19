@@ -55,7 +55,7 @@ req.apiset: ext-ms-win-shell-comdlg32-l1-1-0 (introduced in Windows 10, version 
 
 Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 
-## -parameters
+
 
 ## -returns
 

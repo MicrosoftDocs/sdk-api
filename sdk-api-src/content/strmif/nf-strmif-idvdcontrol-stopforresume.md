@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 Transitions playback to the DVD_DOMAIN_Stop state after saving resume information.
 
-## -parameters
+
 
 ## -returns
 

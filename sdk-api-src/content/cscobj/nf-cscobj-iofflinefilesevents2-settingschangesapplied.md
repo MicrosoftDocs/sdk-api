@@ -53,7 +53,7 @@ api_name:
 
 Reports that the Offline Files service has applied the changes that were detected in Group Policy or preference values.
 
-## -parameters
+
 
 ## -returns
 

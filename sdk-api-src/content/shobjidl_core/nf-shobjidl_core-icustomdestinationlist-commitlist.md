@@ -52,7 +52,7 @@ api_name:
 
 Declares that the Jump List initiated by a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-beginlist">ICustomDestinationList::BeginList</a> is complete and ready for display.
 
-## -parameters
+
 
 ## -returns
 

@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message. The derived class handles the message.
 
-## -parameters
+
 
 ## -returns
 

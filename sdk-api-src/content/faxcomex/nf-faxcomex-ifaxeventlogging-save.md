@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxEventLogging::Save</b> method saves the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxeventlogging">IFaxEventLogging</a> interface's data.
 
-## -parameters
+
 
 ## -returns
 

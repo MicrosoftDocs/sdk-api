@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxSecurity::Save</b> method saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object data.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,9 +55,6 @@ Provides methods for sending 3D content to XPS for printing.
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentPackageTarget3D</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentPackageTarget3D</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 

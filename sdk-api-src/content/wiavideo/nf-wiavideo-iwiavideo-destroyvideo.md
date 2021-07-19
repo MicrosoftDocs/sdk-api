@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWiaVideo::DestroyVideo</b> method shuts down the streaming video. To restart video playback, the application must call one of the <a href="/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a> CreateVideo methods again.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>StopNetStreaming</b> method halts network streaming. Any samples that have already been received from the network are delivered as usual.
 
-## -parameters
+
 
 ## -returns
 

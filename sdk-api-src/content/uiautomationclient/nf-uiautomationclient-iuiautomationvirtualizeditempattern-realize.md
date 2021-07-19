@@ -52,7 +52,7 @@ api_name:
 
 Creates a full UI Automation element for a virtualized item.
 
-## -parameters
+
 
 ## -returns
 

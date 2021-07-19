@@ -52,7 +52,7 @@ api_name:
 
 Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>.
 
-## -parameters
+
 
 ## -returns
 

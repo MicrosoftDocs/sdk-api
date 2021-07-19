@@ -52,11 +52,19 @@ api_name:
 
 The <b>Revert</b> method discards all changes that have been made to the storage object since the last commit operation.
 
-## -parameters
+
 
 ## -returns
 
 This method can return one of these values.
+
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The revert operation was successful.|
+|E_PENDING | Asynchronous Storage only: Part or all of the storage's data is currently unavailable. |
+|STG_E_INSUFFICIENTMEMORY | The revert operation could not be completed due to a lack of memory.|
+|STG_E_TOOMANYOPENFILES | The revert operation could not be completed because there are too many open files.|
+|STG_E_REVERTED | The storage object has been invalidated by a revert operation above it in the transaction tree.|
 
 ## -remarks
 

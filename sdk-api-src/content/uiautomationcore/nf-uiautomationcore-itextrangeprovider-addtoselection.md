@@ -52,7 +52,7 @@ api_name:
 
 Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 
-## -parameters
+
 
 ## -returns
 

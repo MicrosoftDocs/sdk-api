@@ -54,7 +54,7 @@ Determines the computer role for Windows 7, Windows Server 2008 R2, Windows 
 
 To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.
 
-## -parameters
+
 
 ## -returns
 

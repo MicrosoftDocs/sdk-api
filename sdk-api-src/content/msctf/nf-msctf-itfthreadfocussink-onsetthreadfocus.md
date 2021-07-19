@@ -52,7 +52,7 @@ api_name:
 
 Called when the thread receives the UI focus.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Cycles through the toggle states of a control.
 
-## -parameters
+
 
 ## -returns
 

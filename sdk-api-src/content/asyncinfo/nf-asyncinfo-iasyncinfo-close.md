@@ -52,7 +52,7 @@ api_name:
 
 Closes the asynchronous work object. Call this method after the results of the operation have been consumed but before calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>IWiaVideo::Pause</b> method pauses video playback.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>GetAdapterOrderMap</b> function obtains an adapter order map that indicates priority for interfaces on the local computer.
 
-## -parameters
+
 
 ## -returns
 

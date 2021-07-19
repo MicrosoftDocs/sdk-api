@@ -52,7 +52,7 @@ api_name:
 
 Resets the current position to the beginning of the enumeration.
 
-## -parameters
+
 
 ## -returns
 

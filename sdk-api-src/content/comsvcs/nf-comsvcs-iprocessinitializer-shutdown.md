@@ -52,7 +52,7 @@ api_name:
 
 Called when Dllhost.exe shuts down.
 
-## -parameters
+
 
 ## -returns
 

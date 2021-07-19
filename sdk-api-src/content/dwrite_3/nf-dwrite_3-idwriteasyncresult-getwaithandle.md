@@ -53,7 +53,7 @@ api_name:
 
 Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
 
-## -parameters
+
 
 ## -returns
 

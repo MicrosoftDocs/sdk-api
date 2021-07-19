@@ -54,7 +54,7 @@ Not supported.
 
  This interface may be absent in later versions of Windows.
 
-## -parameters
+
 
 ## -returns
 

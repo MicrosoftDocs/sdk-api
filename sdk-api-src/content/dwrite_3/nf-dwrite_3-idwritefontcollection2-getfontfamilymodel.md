@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the font family model used by the font collection to group families.
 
-## -parameters
+
 
 ## -returns
 

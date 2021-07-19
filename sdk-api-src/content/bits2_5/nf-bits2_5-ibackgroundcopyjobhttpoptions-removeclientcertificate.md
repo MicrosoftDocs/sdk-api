@@ -53,7 +53,7 @@ api_name:
 
 Removes the client certificate from the job.
 
-## -parameters
+
 
 ## -returns
 

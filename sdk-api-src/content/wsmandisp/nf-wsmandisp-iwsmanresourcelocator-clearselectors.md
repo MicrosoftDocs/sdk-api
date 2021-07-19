@@ -52,7 +52,7 @@ api_name:
 
 Removes all the <a href="/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a> from a <a href="/windows/desktop/WinRM/resourcelocator">ResourceLocator</a> object. You can provide a <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">ResourceLocator</a> object instead of specifying a resource URI in <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object operations such as <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-get">Get</a>, <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-put">Put</a>, or <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">Enumerate</a>.
 
-## -parameters
+
 
 ## -returns
 

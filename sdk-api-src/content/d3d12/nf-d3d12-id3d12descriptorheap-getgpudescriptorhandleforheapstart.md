@@ -52,7 +52,7 @@ api_name:
 
 Gets the GPU descriptor handle that represents the start of the heap.
 
-## -parameters
+
 
 ## -returns
 

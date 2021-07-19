@@ -52,7 +52,7 @@ api_name:
 
 Removes all registered Microsoft UI Automation event handlers.
 
-## -parameters
+
 
 ## -returns
 

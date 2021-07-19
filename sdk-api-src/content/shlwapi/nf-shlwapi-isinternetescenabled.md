@@ -56,7 +56,7 @@ api_name:
 
 Determines whether Windows Internet Explorer is in the Enhanced Security Configuration.
 
-## -parameters
+
 
 ## -returns
 

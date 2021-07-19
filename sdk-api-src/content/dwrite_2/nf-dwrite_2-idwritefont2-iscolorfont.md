@@ -52,7 +52,7 @@ api_name:
 
 Enables determining if a color rendering path is potentially necessary.
 
-## -parameters
+
 
 ## -returns
 

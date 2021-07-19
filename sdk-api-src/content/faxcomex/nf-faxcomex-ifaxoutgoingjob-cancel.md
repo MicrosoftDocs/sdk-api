@@ -52,7 +52,7 @@ api_name:
 
 The <b>IFaxOutgoingJob::Cancel</b> method cancels the outbound fax job.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Removes all streams from the capture sink.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ Not supported.
 
 This method is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 

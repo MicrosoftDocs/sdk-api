@@ -43,7 +43,7 @@ dev_langs:
 
 Called when there has been a change in the keys in the Content Decryption Module (CDM) session or their status.
 
-## -parameters
+
 
 ## -returns
 

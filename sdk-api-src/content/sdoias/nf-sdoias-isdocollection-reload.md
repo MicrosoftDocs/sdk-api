@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Reload</b> method reloads all the objects in the collection from the underlying datastore.
 
-## -parameters
+
 
 ## -returns
 

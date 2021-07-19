@@ -55,7 +55,7 @@ api_name:
 
 The <b>ResetLoggingUrlList</b> method clears the list of servers that receive logging data.
 
-## -parameters
+
 
 ## -returns
 

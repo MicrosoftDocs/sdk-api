@@ -54,7 +54,7 @@ api_name:
 
 The <b>CM_Get_Version</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) for a local machine.
 
-## -parameters
+
 
 ## -returns
 

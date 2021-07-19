@@ -52,7 +52,7 @@ api_name:
 
 Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered. Prepare notifications are never received during recovery, only during normal processing.
 
-## -parameters
+
 
 ## -returns
 

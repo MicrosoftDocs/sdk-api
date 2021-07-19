@@ -52,7 +52,7 @@ api_name:
 
 The <b>PeerGraphShutdown</b> function cleans up any resources allocated by the call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>.  There must be a call to <b>PeerGraphShutdown</b> for each call to <b>PeerGraphStartup</b>.
 
-## -parameters
+
 
 ## -returns
 

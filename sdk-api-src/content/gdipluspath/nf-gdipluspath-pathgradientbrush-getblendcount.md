@@ -53,7 +53,7 @@ api_name:
 
 The <b>PathGradientBrush::GetBlendCount</b> method gets the number of blend factors currently set for this path gradient brush.
 
-## -parameters
+
 
 ## -returns
 

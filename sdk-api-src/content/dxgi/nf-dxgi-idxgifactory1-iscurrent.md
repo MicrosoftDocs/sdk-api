@@ -53,7 +53,7 @@ api_name:
 
 Informs an application of the possible need to re-enumerate adapters.
 
-## -parameters
+
 
 ## -returns
 

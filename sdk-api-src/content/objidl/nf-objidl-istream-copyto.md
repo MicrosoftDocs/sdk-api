@@ -74,6 +74,14 @@ A pointer to the location where this method writes the actual number of bytes wr
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The stream object was successfully copied.|
+|E_PENDING | Asynchronous Storage only: Part or all of the data to be copied is currently unavailable. |
+|STG_E_INVALIDPOINTER | The value of one of the pointer parameters is invalid.|
+|STG_E_MEDIUMFULL | The stream is not copied because there is no space left on the storage device.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The <b>CopyTo</b> method copies the specified bytes from one stream to another. It can also be used to copy a stream to itself. The seek pointer in each stream instance is adjusted for the number of bytes read or written. This method is equivalent to reading <i>cb</i> bytes into memory using 

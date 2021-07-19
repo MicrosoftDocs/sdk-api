@@ -52,7 +52,7 @@ api_name:
 
 Called after the language profile has changed.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the client that the view has changed and the client should update the view if the Text Object Model (TOM) engine is in-place active.
 
-## -parameters
+
 
 ## -returns
 

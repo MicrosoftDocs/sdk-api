@@ -55,7 +55,7 @@ api_name:
 
 <div class="alert"><b>Note</b>  This function is deprecated.  Going forward, all Windows 8.1 and Windows 10 apps  can operate automatically as if error propagation is enabled, and do not need to check dynamically whether error propagation is enabled. </div><div> </div>Indicates whether the <a href="https://msdn.microsoft.com/863a06ac-b8ec-440a-8445-1dbbf1b04263">CoreApplication.UnhandledErrorDetected</a> event occurs for the errors that are returned by the delegate registered as a callback function for a Windows Runtime API event or the completion of an asynchronous method.
 
-## -parameters
+
 
 ## -returns
 

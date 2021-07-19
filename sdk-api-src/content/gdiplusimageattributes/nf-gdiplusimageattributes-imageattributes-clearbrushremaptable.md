@@ -53,7 +53,7 @@ api_name:
 
 The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-remap table of this <a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object.
 
-## -parameters
+
 
 ## -returns
 

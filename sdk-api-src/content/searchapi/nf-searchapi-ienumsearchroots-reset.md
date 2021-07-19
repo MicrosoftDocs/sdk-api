@@ -52,7 +52,7 @@ api_name:
 
 Moves the internal counter to the beginning of the list so a subsequent call to <a href="/windows/desktop/api/searchapi/nf-searchapi-ienumsearchroots-next">IEnumSearchRoots::Next</a> retrieves from the beginning.
 
-## -parameters
+
 
 ## -returns
 

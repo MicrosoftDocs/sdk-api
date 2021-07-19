@@ -54,7 +54,7 @@ api_name:
 The 
 <b>IWbemDecoupledRegistrar::UnRegister</b> method removes the registration of an object interface from WMI.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ Replaces the default power schemes with the current user's power schemes. This a
     <b>Power Options</b> application to restore customized power scheme defaults instead of the 
     original Windows power scheme defaults.
 
-## -parameters
+
 
 ## -returns
 

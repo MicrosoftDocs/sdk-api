@@ -53,7 +53,7 @@ api_name:
 
 Reports that one or more events destined for this event sink have been lost and will not be delivered. The receipt of this event indicates that the service is attempting to deliver events to this event sink faster than the sink is consuming them.
 
-## -parameters
+
 
 ## -returns
 

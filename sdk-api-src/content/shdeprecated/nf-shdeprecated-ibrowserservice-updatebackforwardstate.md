@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Updates the state of the browser's <b>Back</b> and <b>Forward</b> buttons.
 
-## -parameters
+
 
 ## -returns
 

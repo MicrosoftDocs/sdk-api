@@ -58,7 +58,7 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

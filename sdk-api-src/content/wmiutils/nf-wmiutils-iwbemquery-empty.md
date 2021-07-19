@@ -53,7 +53,7 @@ api_name:
 The 
 <b>IWbemQuery::Empty</b> method frees the memory that the parser is holding.
 
-## -parameters
+
 
 ## -returns
 

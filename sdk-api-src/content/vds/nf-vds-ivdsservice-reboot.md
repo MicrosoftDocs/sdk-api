@@ -55,7 +55,7 @@ api_name:
 
 Restarts the computer hosting the provider.
 
-## -parameters
+
 
 ## -returns
 

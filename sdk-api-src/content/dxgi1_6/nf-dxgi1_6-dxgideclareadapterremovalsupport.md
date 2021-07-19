@@ -52,7 +52,7 @@ api_name:
 
 Allows a process to indicate that it's resilient to any of its graphics devices being removed.
 
-## -parameters
+
 
 ## -returns
 

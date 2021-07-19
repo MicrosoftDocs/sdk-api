@@ -59,7 +59,7 @@ api_name:
 
 The <b>AllPropertiesAreRequired</b> method indicates whether all of the properties for the instance are requested.
 
-## -parameters
+
 
 ## -returns
 

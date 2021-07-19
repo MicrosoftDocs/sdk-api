@@ -52,7 +52,7 @@ api_name:
 
 Forces the autocomplete object to refresh its list of suggestions when the list is visible.
 
-## -parameters
+
 
 ## -returns
 

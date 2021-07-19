@@ -52,7 +52,7 @@ api_name:
 
 Creates an identity matrix.
 
-## -parameters
+
 
 ## -returns
 

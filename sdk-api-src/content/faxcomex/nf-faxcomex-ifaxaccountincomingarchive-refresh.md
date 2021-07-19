@@ -53,7 +53,7 @@ api_name:
 
 Refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server.
 
-## -parameters
+
 
 ## -returns
 

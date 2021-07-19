@@ -76,9 +76,11 @@ Specifies feature level 3_0.
 
 Specifies feature level 3_1.
 
-## -remarks
+### -field DML_FEATURE_LEVEL_4_0
 
-The **DML_FEATURE_LEVEL_3_1** constant was introduced in `DML_FEATURE_LEVEL_3_1`. **DML_FEATURE_LEVEL_3_1** specifies feature level 3_1.
+Specifies feature level 4_0.
+
+## -remarks
 
 ## Availability
 

@@ -52,7 +52,7 @@ api_name:
 
 Gets the degree of opacity of this brush.
 
-## -parameters
+
 
 ## -returns
 

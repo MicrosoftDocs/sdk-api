@@ -52,7 +52,7 @@ api_name:
 
 Deprecated.
 
-## -parameters
+
 
 ## -returns
 

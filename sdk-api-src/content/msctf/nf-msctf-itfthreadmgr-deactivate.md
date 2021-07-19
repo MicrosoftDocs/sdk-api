@@ -52,7 +52,7 @@ api_name:
 
 Deactivates TSF for the calling thread.
 
-## -parameters
+
 
 ## -returns
 

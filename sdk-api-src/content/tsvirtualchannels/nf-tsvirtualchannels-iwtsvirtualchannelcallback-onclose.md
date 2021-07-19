@@ -69,7 +69,7 @@ Notifies the user that the channel has been closed. There are three ways for the
     lock, and the <b>Close()</b> method will try to 
     acquire the same lock on a different thread.
 
-## -parameters
+
 
 ## -returns
 

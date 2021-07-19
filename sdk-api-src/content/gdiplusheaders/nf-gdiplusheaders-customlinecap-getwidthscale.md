@@ -54,7 +54,7 @@ api_name:
 The <b>CustomLineCap::GetWidthScale</b> method gets the value of the scale width. This is the amount to scale the custom line cap relative to the width of the 
 			<b>Pen</b> object used to draw a line. The default value of 1.0 does not scale the line cap.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>PostUnInstall</b> method is not implemented and is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 

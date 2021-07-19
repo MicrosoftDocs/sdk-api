@@ -56,7 +56,7 @@ Returns an instance of <code>uint32_t</code> containing the components of the <c
 Returns an instance of <code>uint32_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

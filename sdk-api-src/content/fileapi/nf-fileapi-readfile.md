@@ -123,7 +123,7 @@ For an <i>hFile</i> that supports byte offsets, if you use this parameter you mu
 
 For more information about different combinations of <i>lpOverlapped</i> and 
        <b>FILE_FLAG_OVERLAPPED</b>, see the Remarks section and the 
-       <a href="https://docs.microsoft.com/">Synchronization and File Position</a> section.
+       **Synchronization and File Position** section.
 
 ## -returns
 

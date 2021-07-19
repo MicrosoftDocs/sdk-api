@@ -53,7 +53,7 @@ api_name:
 
 The <b>MetafileHeader::GetMetafileSize</b> method gets the size, in bytes, of the metafile.
 
-## -parameters
+
 
 ## -returns
 

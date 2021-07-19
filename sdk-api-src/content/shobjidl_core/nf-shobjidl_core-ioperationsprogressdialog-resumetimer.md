@@ -52,7 +52,7 @@ api_name:
 
 Resumes progress dialog timer.
 
-## -parameters
+
 
 ## -returns
 

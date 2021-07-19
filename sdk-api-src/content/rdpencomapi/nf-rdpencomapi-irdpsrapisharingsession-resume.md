@@ -53,7 +53,7 @@ api_name:
 
 Causes the graphics stream that is sent to all viewers from the sharer to resume until either <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-pause">IRDPSRAPISharingSession::Pause</a> or <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-close">IRDPSRAPISharingSession::Close</a> is called.
 
-## -parameters
+
 
 ## -returns
 

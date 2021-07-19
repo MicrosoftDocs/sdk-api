@@ -52,7 +52,7 @@ api_name:
 
 The <b>ProcessTrace</b> method delivers events from the associated trace streams to the consumer.
 
-## -parameters
+
 
 ## -returns
 

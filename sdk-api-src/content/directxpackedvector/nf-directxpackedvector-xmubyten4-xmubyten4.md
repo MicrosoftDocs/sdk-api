@@ -57,7 +57,7 @@ Default constructor for <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

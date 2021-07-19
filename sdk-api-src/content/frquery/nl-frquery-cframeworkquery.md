@@ -66,9 +66,6 @@ Provider writers will generally not need to create any derived classes from this
     methods to determine what information is being requested by the client.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CFrameworkQuery</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>CFrameworkQuery</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

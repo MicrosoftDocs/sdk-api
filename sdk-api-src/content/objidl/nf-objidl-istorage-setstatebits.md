@@ -66,6 +66,14 @@ A binary mask indicating which bits in <i>grfStateBits</i> are significant in th
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The state information was successfully set.|
+|E_PENDING | Asynchronous Storage only: Part or all of the storage's data is currently unavailable. |
+|STG_E_ACCESSDENIED | The caller does not have enough permissions for changing this storage object.|
+|STG_E_INVALIDFLAG | The value for the grfStateBits or *grfMask* parameter is not valid.|
+|STG_E_INVALIDPARAMETER | One of the parameters was not valid.|
+
 ## -remarks
 
 The values for the state bits are not currently defined.

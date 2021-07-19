@@ -52,7 +52,7 @@ api_name:
 
 Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
 
-## -parameters
+
 
 ## -returns
 

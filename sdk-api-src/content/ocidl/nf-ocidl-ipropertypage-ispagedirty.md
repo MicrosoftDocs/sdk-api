@@ -52,7 +52,7 @@ api_name:
 
 Indicates whether the property page has changed since it was activated or since the most recent call to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">Apply</a>.
 
-## -parameters
+
 
 ## -returns
 

@@ -59,7 +59,7 @@ The AVIFile library maintains a count of the number of times it is initialized, 
 
 This function supersedes the obsolete <b>AVIStreamInit</b> function.
 
-## -parameters
+
 
 ## -see-also
 

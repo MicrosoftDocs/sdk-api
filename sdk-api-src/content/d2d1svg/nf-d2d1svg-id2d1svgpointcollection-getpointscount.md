@@ -52,7 +52,7 @@ api_name:
 
 Gets the number of points in the array.
 
-## -parameters
+
 
 ## -returns
 

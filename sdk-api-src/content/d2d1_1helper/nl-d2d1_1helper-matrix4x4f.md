@@ -53,10 +53,6 @@ api_name:
 The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="/windows/win32/api/d2d1_1helper/nf-d2d1_1helper-matrix4x4f-operator-mult">Operators</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>Matrix4x4F</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

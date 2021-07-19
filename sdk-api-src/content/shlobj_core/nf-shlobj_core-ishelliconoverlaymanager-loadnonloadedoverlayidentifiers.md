@@ -52,7 +52,7 @@ api_name:
 
 Loads any registered overlay identifiers, or handlers, that are not currently loaded.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 The <b>showSettings</b> method displays the Windows Media Player synchronization settings dialog box.
 
-## -parameters
+
 
 ## -returns
 

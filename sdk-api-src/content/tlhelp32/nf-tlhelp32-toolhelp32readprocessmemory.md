@@ -78,6 +78,10 @@ The number of bytes copied to the specified buffer. If this parameter is <b>NULL
 
 Returns <b>TRUE</b> if successful.
 
+## -remarks
+
+This function opens a handle to the target process and closes it once the read operation has completed. If you're planning to perform several reads, use [ReadProcessMemory](../memoryapi/nf-memoryapi-readprocessmemory.md) instead.
+
 ## -see-also
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>

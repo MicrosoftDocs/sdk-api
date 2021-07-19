@@ -54,7 +54,7 @@ api_name:
 
 Retrieves a value that indicates which performance information is being logged.
 
-## -parameters
+
 
 ## -returns
 

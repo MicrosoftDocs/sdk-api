@@ -53,7 +53,7 @@ api_name:
 
 The <code>Decommit</code> method releases the buffer memory.
 
-## -parameters
+
 
 ## -returns
 

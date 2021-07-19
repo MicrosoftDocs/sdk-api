@@ -52,7 +52,7 @@ api_name:
 
 Sets the rich edit control's host window as the foreground window.
 
-## -parameters
+
 
 ## -returns
 

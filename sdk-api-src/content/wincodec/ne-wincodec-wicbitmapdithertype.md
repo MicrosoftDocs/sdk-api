@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of <a href="https://docs.microsoft.com/">dither</a> algorithm to apply when converting between image formats.
+Specifies the type of dither algorithm to apply when converting between image formats.
 
 ## -enum-fields
 

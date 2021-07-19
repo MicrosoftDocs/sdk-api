@@ -52,7 +52,7 @@ api_name:
 
 Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
 
-## -parameters
+
 
 ## -see-also
 

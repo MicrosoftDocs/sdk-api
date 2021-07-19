@@ -52,7 +52,7 @@ api_name:
 
 Directs the preview handler to set focus to itself.
 
-## -parameters
+
 
 ## -returns
 

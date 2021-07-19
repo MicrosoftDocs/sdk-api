@@ -154,7 +154,7 @@ OutputTensors[1]: (Sizes:{1, 1, 6, 1}, DataType:FLOAT32)
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-*InputTensor* and `OutputTensors` must have the same *DataType* and *DimensionCount*.
+*InputTensor* and *OutputTensors* must have the same *DataType* and *DimensionCount*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_3_0 and above

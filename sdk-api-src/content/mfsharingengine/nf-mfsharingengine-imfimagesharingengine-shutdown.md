@@ -52,7 +52,7 @@ api_name:
 
 Shuts down the image sharing engine.
 
-## -parameters
+
 
 ## -returns
 

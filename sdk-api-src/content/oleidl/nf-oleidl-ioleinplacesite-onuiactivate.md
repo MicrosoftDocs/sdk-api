@@ -52,7 +52,7 @@ api_name:
 
 Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.
 
-## -parameters
+
 
 ## -returns
 

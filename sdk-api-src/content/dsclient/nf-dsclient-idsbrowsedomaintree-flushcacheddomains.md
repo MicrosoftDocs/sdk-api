@@ -52,7 +52,7 @@ api_name:
 
 The <b>IDsBrowseDomainTree::FlushCachedDomains</b> method frees the cached domain list.
 
-## -parameters
+
 
 ## -returns
 

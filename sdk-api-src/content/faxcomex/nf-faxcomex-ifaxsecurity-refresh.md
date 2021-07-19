@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxSecurity::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

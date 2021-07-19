@@ -52,7 +52,7 @@ api_name:
 
 Shares all local printers connected to a computer, enabling them to be discovered by other computers on the network.
 
-## -parameters
+
 
 ## -returns
 

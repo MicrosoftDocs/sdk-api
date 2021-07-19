@@ -53,7 +53,7 @@ api_name:
 
 Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 
-## -parameters
+
 
 ## -returns
 

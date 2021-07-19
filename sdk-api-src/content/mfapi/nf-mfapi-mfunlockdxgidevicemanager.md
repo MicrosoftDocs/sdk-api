@@ -52,7 +52,7 @@ api_name:
 
 Unlocks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 
-## -parameters
+
 
 ## -returns
 

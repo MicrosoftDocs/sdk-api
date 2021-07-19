@@ -52,7 +52,7 @@ api_name:
 
 Clears all decisions that were made about cookies on a site by site basis.
 
-## -parameters
+
 
 ## -returns
 

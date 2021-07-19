@@ -52,7 +52,7 @@ api_name:
 
 Re-indexes all URLs in the catalog.
 
-## -parameters
+
 
 ## -returns
 

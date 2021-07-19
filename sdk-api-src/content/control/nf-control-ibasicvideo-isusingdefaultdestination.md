@@ -53,7 +53,7 @@ api_name:
 
 The <code>IsUsingDefaultDestination</code> method queries whether the renderer is using the default destination rectangle.
 
-## -parameters
+
 
 ## -returns
 

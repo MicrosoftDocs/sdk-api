@@ -52,7 +52,7 @@ api_name:
 
 Called when a credential loses selection.
 
-## -parameters
+
 
 ## -returns
 

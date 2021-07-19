@@ -52,7 +52,7 @@ api_name:
 
 The <b>IPersistQuery::Clear</b> method empties the contents of the query store.
 
-## -parameters
+
 
 ## -returns
 

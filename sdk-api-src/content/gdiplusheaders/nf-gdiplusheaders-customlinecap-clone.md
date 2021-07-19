@@ -53,7 +53,7 @@ api_name:
 
 The <b>CustomLineCap::Clone</b> method copies the contents of the existing object into a new <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 
 Acquires window focus.
 
-## -parameters
+
 
 ## -returns
 

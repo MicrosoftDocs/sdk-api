@@ -54,7 +54,7 @@ api_name:
 
 Arranges moved icons so that they align to an invisible grid.
 
-## -parameters
+
 
 ## -returns
 

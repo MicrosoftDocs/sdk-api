@@ -53,7 +53,7 @@ api_name:
 
 Get the number of messages that were denied passage through a storage filter.
 
-## -parameters
+
 
 ## -returns
 

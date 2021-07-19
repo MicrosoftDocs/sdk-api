@@ -52,7 +52,7 @@ api_name:
 
 Get a rasterizer variable.
 
-## -parameters
+
 
 ## -returns
 

@@ -54,7 +54,7 @@ The
 <b>Abort</b> method stops an asynchronous load operation started by 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>.
 
-## -parameters
+
 
 ## -returns
 

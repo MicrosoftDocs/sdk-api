@@ -52,7 +52,7 @@ api_name:
 
 Commits library updates to an existing Library Description file.
 
-## -parameters
+
 
 ## -returns
 

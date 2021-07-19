@@ -52,7 +52,7 @@ api_name:
 
 Closes the user interface control.
 
-## -parameters
+
 
 ## -returns
 

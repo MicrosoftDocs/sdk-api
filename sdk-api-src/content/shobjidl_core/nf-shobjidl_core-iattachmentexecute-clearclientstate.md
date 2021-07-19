@@ -52,7 +52,7 @@ api_name:
 
 Removes any stored state that is based on the client's GUID. An example might be a setting based on a checked box that indicates a prompt should not be displayed again for a particular file type.
 
-## -parameters
+
 
 ## -returns
 

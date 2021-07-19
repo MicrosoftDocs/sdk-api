@@ -53,7 +53,7 @@ api_name:
 
 Shuts down a Media Foundation object and releases all resources associated with the object.
 
-## -parameters
+
 
 ## -returns
 

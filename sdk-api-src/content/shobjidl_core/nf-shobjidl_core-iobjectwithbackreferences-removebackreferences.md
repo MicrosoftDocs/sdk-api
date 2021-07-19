@@ -52,7 +52,7 @@ api_name:
 
 Removes all back references held by an object.
 
-## -parameters
+
 
 ## -returns
 

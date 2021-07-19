@@ -52,7 +52,7 @@ api_name:
 
 Unbinds the user-defined batch work from the thread on which it is running.
 
-## -parameters
+
 
 ## -returns
 

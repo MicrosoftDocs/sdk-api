@@ -52,7 +52,7 @@ api_name:
 
 Updates the list of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
 
-## -parameters
+
 
 ## -returns
 

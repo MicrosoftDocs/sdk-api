@@ -53,7 +53,7 @@ api_name:
 
 Saves the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity">FaxSecurity</a> object data.
 
-## -parameters
+
 
 ## -returns
 

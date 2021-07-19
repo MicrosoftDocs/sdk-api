@@ -53,7 +53,7 @@ api_name:
 
 Gets the number of bytes in the query data.
 
-## -parameters
+
 
 ## -returns
 

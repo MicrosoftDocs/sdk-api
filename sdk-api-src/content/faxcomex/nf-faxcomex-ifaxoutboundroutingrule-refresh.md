@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxOutboundRoutingRule::Refresh</b> method refreshes <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object information from the fax server.
 
-## -parameters
+
 
 ## -returns
 

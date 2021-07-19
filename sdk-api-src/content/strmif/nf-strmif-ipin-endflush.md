@@ -57,7 +57,7 @@ The <code>EndFlush</code> method ends a flush operation.
 
 Applications should not call this method. This method is called by other filters, to flush data from the graph.
 
-## -parameters
+
 
 ## -returns
 

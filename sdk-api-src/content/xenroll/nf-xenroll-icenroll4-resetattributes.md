@@ -57,7 +57,7 @@ The <b>resetAttributes</b> method removes all attributes from the request.
 			
 This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
-## -parameters
+
 
 ## -returns
 

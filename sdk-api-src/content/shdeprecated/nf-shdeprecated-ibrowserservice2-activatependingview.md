@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Coordinates state updating while the browser is switching between a current and a pending view.
 
-## -parameters
+
 
 ## -returns
 

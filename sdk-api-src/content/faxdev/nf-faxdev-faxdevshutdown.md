@@ -54,7 +54,7 @@ The fax service calls the <b>FaxDevShutdown</b> function to notify the fax servi
 
 Exporting the <b>FaxDevShutdown</b> function is optional.
 
-## -parameters
+
 
 ## -returns
 

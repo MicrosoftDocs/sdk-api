@@ -52,7 +52,7 @@ api_name:
 
 Notifies the last undo unit in the collection that a new unit has been added.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Hides all child nodes, controls, or content of the element.
 
-## -parameters
+
 
 ## -returns
 

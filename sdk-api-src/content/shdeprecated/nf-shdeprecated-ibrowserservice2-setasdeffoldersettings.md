@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Sets the folder's current view mode as the default view mode for all folders. Used by the <b>Folder Options</b> dialog.
 
-## -parameters
+
 
 ## -returns
 

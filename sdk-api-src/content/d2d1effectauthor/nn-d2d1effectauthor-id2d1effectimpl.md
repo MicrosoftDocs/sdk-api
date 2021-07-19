@@ -56,9 +56,6 @@ Allows a custom effect's interface and behavior to be specified by the effect au
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1EffectImpl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1EffectImpl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 

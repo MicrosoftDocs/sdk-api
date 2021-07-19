@@ -53,7 +53,7 @@ api_name:
 
 Stops any buffering that is in progress.
 
-## -parameters
+
 
 ## -returns
 

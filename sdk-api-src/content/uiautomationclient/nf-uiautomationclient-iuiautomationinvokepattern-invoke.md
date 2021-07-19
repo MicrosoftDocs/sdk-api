@@ -52,7 +52,7 @@ api_name:
 
 Invokes the action of a control, such as a button click.
 
-## -parameters
+
 
 ## -returns
 

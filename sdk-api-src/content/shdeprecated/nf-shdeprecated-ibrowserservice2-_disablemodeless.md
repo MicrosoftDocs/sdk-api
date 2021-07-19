@@ -53,7 +53,7 @@ api_name:
 
 Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
 
-## -parameters
+
 
 ## -returns
 

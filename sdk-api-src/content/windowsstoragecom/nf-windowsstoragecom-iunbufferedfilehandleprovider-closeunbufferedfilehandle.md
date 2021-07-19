@@ -52,7 +52,7 @@ api_name:
 
 Closes the handle from a random-access byte stream that you created by calling <a href="/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a>.
 
-## -parameters
+
 
 ## -returns
 

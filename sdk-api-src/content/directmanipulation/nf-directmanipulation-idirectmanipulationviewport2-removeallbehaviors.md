@@ -52,7 +52,7 @@ api_name:
 
 Removes all behaviors added to the viewport.
 
-## -parameters
+
 
 ## -returns
 

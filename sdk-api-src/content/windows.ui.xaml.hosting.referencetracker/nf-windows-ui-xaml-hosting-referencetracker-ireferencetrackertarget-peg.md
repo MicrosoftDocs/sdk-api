@@ -52,7 +52,7 @@ api_name:
 
 Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 
-## -parameters
+
 
 ## -returns
 

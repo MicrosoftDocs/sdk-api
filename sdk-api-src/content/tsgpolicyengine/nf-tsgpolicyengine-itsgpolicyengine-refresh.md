@@ -52,7 +52,7 @@ api_name:
 
 This method is reserved. It should always return <b>S_OK</b>.
 
-## -parameters
+
 
 ## -returns
 

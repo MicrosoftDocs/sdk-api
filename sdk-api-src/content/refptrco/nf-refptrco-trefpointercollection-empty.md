@@ -59,4 +59,4 @@ api_name:
 
 The <b>Empty</b> method removes all items from the collection.
 
-## -parameters
+

@@ -62,9 +62,6 @@ The <b>CInstance</b> class is used to retrieve and update the values of properti
 It is not expected that provider writers will need to derive from this class. Use <a href="/windows/desktop/api/provider/nf-provider-provider-createnewinstance">Provider::CreateNewInstance</a> to create an instance of this class.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CInstance</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>CInstance</b> class has these methods.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

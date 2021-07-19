@@ -54,7 +54,7 @@ api_name:
 
 Terminates a query being executed by a provider.
 
-## -parameters
+
 
 ## -returns
 

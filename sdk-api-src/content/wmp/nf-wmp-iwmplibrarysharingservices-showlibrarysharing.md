@@ -52,7 +52,7 @@ api_name:
 
 The <b>showLibrarySharing</b> method displays the Windows Media Player <b>Library Sharing</b> dialog box.
 
-## -parameters
+
 
 ## -returns
 

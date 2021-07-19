@@ -54,7 +54,7 @@ api_name:
 
 Determines whether Desktop Window Manager (DWM) composition effects are available to the theme.
 
-## -parameters
+
 
 ## -returns
 

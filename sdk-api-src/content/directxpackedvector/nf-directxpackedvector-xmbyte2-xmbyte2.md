@@ -55,7 +55,7 @@ Default constructor for <code>XMBYTE2</code>.
 Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
-## -parameters
+
 
 ## -remarks
 

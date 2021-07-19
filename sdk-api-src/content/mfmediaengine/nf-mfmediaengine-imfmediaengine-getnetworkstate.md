@@ -52,7 +52,7 @@ api_name:
 
 Gets the current network state of the media engine.
 
-## -parameters
+
 
 ## -returns
 

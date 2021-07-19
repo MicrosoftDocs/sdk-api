@@ -48,7 +48,7 @@ api_name:
 
 Retrieves the automatic axis options.
 
-## -parameters
+
 
 ## -returns
 

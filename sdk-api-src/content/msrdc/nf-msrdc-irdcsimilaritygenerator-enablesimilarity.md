@@ -54,7 +54,7 @@ Enables the signature generator to generate similarity data.
 
 The <b>EnableSimilarity</b> method must be called before the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method is called to begin generating signatures. Otherwise, this method will return an error.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Notifies the compositor when to update inertia animation.
 
-## -parameters
+
 
 ## -returns
 

@@ -55,7 +55,7 @@ api_name:
 
 The <b>OnEndWriting</b> method is called by the writer when writing is complete. This method should conclude operations for your sink. For example, the writer file sink closes and indexes the file.
 
-## -parameters
+
 
 ## -returns
 

@@ -56,7 +56,7 @@ req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 
 The <b>SetupGetThreadLogToken</b> function retrieves the <a href="/windows-hardware/drivers/install/log-tokens">log token</a> for the thread from which this function was called.
 
-## -parameters
+
 
 ## -returns
 

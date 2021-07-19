@@ -53,7 +53,7 @@ api_name:
 
 The <b>IFaxSender::get_LoadDefaultSender</b> method fills the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object with the default sender information.
 
-## -parameters
+
 
 ## -returns
 

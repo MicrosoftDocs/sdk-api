@@ -54,7 +54,7 @@ Gets the current generation number of the download queue, which is incremented
     every time after a download completes, whether failed or successful. This cookie  
     value can be compared against cached data to determine if it is stale.
 
-## -parameters
+
 
 ## -returns
 

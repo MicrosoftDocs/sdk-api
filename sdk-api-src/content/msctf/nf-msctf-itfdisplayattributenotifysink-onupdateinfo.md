@@ -52,7 +52,7 @@ api_name:
 
 Called when display attribute information is updated.
 
-## -parameters
+
 
 ## -returns
 

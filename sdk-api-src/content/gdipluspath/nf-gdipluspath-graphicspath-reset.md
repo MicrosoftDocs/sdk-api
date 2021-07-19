@@ -53,7 +53,7 @@ api_name:
 
 The <b>GraphicsPath::Reset</b> method empties the path and sets the fill mode to FillModeAlternate.
 
-## -parameters
+
 
 ## -returns
 

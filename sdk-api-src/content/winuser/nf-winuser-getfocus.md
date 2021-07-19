@@ -64,7 +64,7 @@ req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 1
 
 Retrieves the handle to the window that has the keyboard focus, if the window is attached to the calling thread's message queue.
 
-## -parameters
+
 
 ## -returns
 

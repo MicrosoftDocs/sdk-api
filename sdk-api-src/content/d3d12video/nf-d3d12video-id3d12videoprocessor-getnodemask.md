@@ -50,7 +50,7 @@ Gets the node mask provided when the video processor was created with a call to 
 
 The node mask specifying the physical adapter on which the video processor will be used.
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Programmatically invokes a context menu on the target element.
 
-## -parameters
+
 
 ## -returns
 

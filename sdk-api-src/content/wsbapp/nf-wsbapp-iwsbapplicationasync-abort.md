@@ -52,7 +52,7 @@ api_name:
 
 Cancels an incomplete asynchronous operation.
 
-## -parameters
+
 
 ## -returns
 

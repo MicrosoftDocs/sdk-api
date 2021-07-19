@@ -52,7 +52,7 @@ api_name:
 
 Makes the virtual item fully accessible as a UI Automation element.
 
-## -parameters
+
 
 ## -returns
 

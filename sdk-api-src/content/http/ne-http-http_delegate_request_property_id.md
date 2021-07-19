@@ -2,7 +2,7 @@
 UID: NE:http._HTTP_DELEGATE_REQUEST_PROPERTY_ID
 title: HTTP_DELEGATE_REQUEST_PROPERTY_ID
 description: Describes property information for a delegate request.
-ms.date: 09/28/2020
+ms.date: 11/20/2020
 f1_keywords:
  - http/_HTTP_DELEGATE_REQUEST_PROPERTY_ID
  - http/HTTP_DELEGATE_REQUEST_PROPERTY_ID
@@ -47,6 +47,10 @@ Defines constants that specify a type of property information for a delegate req
 ### -field DelegateRequestReservedProperty
 
 This property is reserved.
+
+### -field DelegateRequestDelegateUrlProperty
+
+Specifies the property that provides the target url to which a delegated request should be delivered.
 
 ## -remarks
 

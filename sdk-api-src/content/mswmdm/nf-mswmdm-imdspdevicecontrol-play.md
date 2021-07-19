@@ -53,7 +53,7 @@ api_name:
 
 The <b>Play</b> method begins playing at the current seek position. If the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">Seek</a> method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
 
-## -parameters
+
 
 ## -returns
 

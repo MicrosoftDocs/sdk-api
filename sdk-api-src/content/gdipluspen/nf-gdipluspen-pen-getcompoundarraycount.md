@@ -53,7 +53,7 @@ api_name:
 
 The <b>Pen::GetCompoundArrayCount</b> method gets the number of elements in a compound array.
 
-## -parameters
+
 
 ## -returns
 

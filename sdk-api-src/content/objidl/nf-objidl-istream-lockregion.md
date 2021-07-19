@@ -70,6 +70,14 @@ Specifies the restrictions being requested on accessing the range.
 
 This method can return one of these values.
 
+| Return code | Description |
+|----------------|---------------|
+|S_OK | The specified range of bytes was locked.|
+|E_PENDING | Asynchronous Storage only: Part or all of the stream's data is currently unavailable. |
+|STG_E_INVALIDFUNCTION | Locking is not supported at all or the specific type of lock requested is not supported.|
+|STG_E_LOCKVIOLATION | Requested lock is supported, but cannot be granted because of an existing lock.|
+|STG_E_REVERTED | The object has been invalidated by a revert operation above it in the transaction tree.|
+
 ## -remarks
 
 The byte range of the stream can be extended.  Locking an extended range for the stream is useful as a method of communication between different instances of the stream without changing data that is actually part of the stream.

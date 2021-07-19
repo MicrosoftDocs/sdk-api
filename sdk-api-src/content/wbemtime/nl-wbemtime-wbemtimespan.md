@@ -59,11 +59,7 @@ api_name:
 
 The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b> objects can result from the arithmetic manipulation of <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> objects. For example, subtracting one <b>WBEMTime</b> object from another results in a <b>WBEMTimeSpan</b> object that represents the difference in time between the two objects. Instances of <b>WBEMTimeSpan</b> can also be used to wrap any data that has an inherent duration, such as the time that remains until a password expires.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTimeSpan</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTimeSpan</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTimeSpan</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

@@ -75,8 +75,8 @@ An identifier assigned to the source of the display. See [Remarks](#remarks) for
 
 ## -remarks
 
-See [connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
+See [connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays) for information on display adapter IDs and source IDs.
 
 ## -see-also
 
-[Connecting and configuring displays](https://docs.microsoft.com/windows-hardware/drivers/display/connecting-and-configuring-displays)
+[Connecting and configuring displays](/windows-hardware/drivers/display/connecting-and-configuring-displays)

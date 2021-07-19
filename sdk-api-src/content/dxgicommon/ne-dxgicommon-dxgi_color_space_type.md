@@ -62,23 +62,23 @@ Specifies color space types.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -98,23 +98,23 @@ This is the standard definition for sRGB.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>1.0</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -130,23 +130,23 @@ This is the standard definition for scRGB, and is usually used with 16 bit integ
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -164,23 +164,23 @@ This is the standard definition for ITU-R Recommendation BT.709. Note that due t
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -200,27 +200,27 @@ Reserved.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Transfer Matrix</a></td>
+<td>Transfer Matrix</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -236,23 +236,23 @@ This definition is commonly used for JPG, and is usually used with 8, 10, or 12 
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -268,23 +268,23 @@ This definition is commonly used for MPEG2, and  is usually used with 8, 10, or 
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.601</td>
 </tr>
 </table>
@@ -300,23 +300,23 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -332,23 +332,23 @@ This definition is commonly used for H.264 and HEVC, and is usually used with 8,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -364,23 +364,23 @@ This is sometimes used for H.264 camera capture, and is usually used with 8, 10,
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -396,23 +396,23 @@ This definition may be used by HEVC, and is usually used with 10 or 12 bit color
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -428,23 +428,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -460,23 +460,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -492,23 +492,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -524,23 +524,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -556,23 +556,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCbCr</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2084</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -588,23 +588,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.2</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -620,23 +620,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>HLG</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -652,23 +652,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>0-255</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>HLG</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -684,23 +684,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -716,23 +716,23 @@ This is usually used with 8, 10, or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>RGB</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Image</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -748,23 +748,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.709</td>
 </tr>
 </table>
@@ -780,23 +780,23 @@ This is usually used with 8, 10, or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>
@@ -812,23 +812,23 @@ This is usually used with 10 or 12 bit color channels.
 <td><b>Value</b></td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Colorspace</a></td>
+<td>Colorspace</td>
 <td>YCBCR</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Range</a></td>
+<td>Range</td>
 <td>16-235</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Gamma</a></td>
+<td>Gamma</td>
 <td>2.4</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Siting</a></td>
+<td>Siting</td>
 <td>Video</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/">Primaries</a></td>
+<td>Primaries</td>
 <td>BT.2020</td>
 </tr>
 </table>

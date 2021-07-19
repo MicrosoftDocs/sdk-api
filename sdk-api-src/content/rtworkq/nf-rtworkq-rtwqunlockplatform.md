@@ -52,7 +52,7 @@ api_name:
 
 Unlocks the platform after it was locked by a call to the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlockplatform">RtwqLockPlatform</a> function.
 
-## -parameters
+
 
 ## -returns
 

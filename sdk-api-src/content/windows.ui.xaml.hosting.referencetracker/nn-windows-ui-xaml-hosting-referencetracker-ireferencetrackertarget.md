@@ -55,7 +55,4 @@ Defines an interface implemented by a garbage collector object referenced from X
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceTrackerTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceTrackerTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 

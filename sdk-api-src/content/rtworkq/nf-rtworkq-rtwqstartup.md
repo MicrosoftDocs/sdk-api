@@ -52,7 +52,7 @@ api_name:
 
 Initializes the platform.
 
-## -parameters
+
 
 ## -returns
 

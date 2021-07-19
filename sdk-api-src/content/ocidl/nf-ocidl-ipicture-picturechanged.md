@@ -52,7 +52,7 @@ api_name:
 
 Notifies the picture object that its picture resource has changed. This method only calls <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertynotifysink-onchanged">IPropertyNotifySink::OnChanged</a> with DISPID_PICT_HANDLE for any connected sinks.
 
-## -parameters
+
 
 ## -returns
 

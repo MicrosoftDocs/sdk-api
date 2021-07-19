@@ -53,7 +53,7 @@ api_name:
 
 This method is reserved for future use.
 
-## -parameters
+
 
 ## -returns
 

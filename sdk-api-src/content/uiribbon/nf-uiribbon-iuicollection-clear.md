@@ -53,7 +53,7 @@ api_name:
 
 Deletes all items from the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 
-## -parameters
+
 
 ## -returns
 

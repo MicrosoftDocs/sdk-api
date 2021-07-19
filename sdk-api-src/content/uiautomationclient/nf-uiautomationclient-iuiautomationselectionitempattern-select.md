@@ -52,7 +52,7 @@ api_name:
 
 Clears any selected items and then selects the current element.
 
-## -parameters
+
 
 ## -returns
 

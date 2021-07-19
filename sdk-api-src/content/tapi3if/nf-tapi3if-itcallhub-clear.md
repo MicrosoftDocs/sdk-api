@@ -53,7 +53,7 @@ api_name:
 The 
 <b>Clear</b> method attempts to remove all calls and participants from CallHub. The application may not have the privileges required to disconnect every call.
 
-## -parameters
+
 
 ## -returns
 

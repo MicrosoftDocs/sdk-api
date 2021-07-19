@@ -55,7 +55,7 @@ The <b>RectF::Clone</b> method creates a new
 			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object and initializes it with the contents of this 
 			<b>RectF</b> object.
 
-## -parameters
+
 
 ## -returns
 

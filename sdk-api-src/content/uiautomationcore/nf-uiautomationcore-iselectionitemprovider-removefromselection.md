@@ -52,7 +52,7 @@ api_name:
 
 Removes the current element from the collection of selected items.
 
-## -parameters
+
 
 ## -returns
 

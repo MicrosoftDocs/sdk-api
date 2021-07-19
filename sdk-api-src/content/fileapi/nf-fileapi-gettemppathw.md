@@ -94,6 +94,9 @@ The maximum possible return value is <b>MAX_PATH</b>+1 (261).
 
 ## -remarks
 
+> [!NOTE]
+> Apps should call [GetTempPath2](/windows/win32/api/fileapi/nf-fileapi-gettemppath2w) instead of **GetTempPath**. 
+
 The <b>GetTempPath</b> function checks for the existence of 
     environment variables in the following order and uses the first path found:
 

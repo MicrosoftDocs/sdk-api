@@ -45,7 +45,7 @@ api_name:
 
 Default constructor for **XMFLOAT3X4**.
 
-## -parameters
+
 
 ## -remarks
 

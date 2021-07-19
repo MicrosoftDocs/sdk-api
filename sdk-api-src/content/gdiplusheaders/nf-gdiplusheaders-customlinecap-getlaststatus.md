@@ -53,7 +53,7 @@ api_name:
 
 The <b>CustomLineCap::GetLastStatus</b> method returns a value that indicates the nature of this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object's most recent method failure.
 
-## -parameters
+
 
 ## -returns
 

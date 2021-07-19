@@ -53,7 +53,7 @@ api_name:
 
 Determines whether the writer is shutting down.
 
-## -parameters
+
 
 ## -returns
 

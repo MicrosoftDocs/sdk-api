@@ -94,6 +94,10 @@ Targets features supported by Direct3D 12.0, including shader model 5.
 
 Targets features supported by Direct3D 12.1, including shader model 5.
 
+### -field D3D_FEATURE_LEVEL_12_2 (0xc200)
+
+Targets features supported by Direct3D 12.2, including shader model 6.5. For more information about feature level 12_2, see its [specification page](https://microsoft.github.io/DirectX-Specs/d3d/D3D12_FeatureLevel12_2.html). Feature level 12_2 is available in Windows SDK builds 20170 and later.
+
 ## -remarks
 
 For an overview of the capabilities of each feature level, see [Direct3D feature levels](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).

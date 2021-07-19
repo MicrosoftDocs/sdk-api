@@ -55,7 +55,7 @@ This operator assigns the vector component data packed in an instance of <code>u
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
-## -parameters
+
 
 ## -returns
 

@@ -52,7 +52,7 @@ api_name:
 
 Sets the keyboard focus to this UI Automation element.
 
-## -parameters
+
 
 ## -returns
 

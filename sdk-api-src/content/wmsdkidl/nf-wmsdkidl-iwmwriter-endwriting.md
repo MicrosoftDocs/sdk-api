@@ -55,7 +55,7 @@ api_name:
 
 The <b>EndWriting</b> method performs tasks required at the end of a writing session. This method flushes the buffers, updates indices and headers, and closes the file. You must call <b>EndWriting</b> when you have finished sending samples to the writer to encode an ASF file.
 
-## -parameters
+
 
 ## -returns
 
