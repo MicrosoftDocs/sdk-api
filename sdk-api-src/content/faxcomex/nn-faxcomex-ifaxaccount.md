@@ -54,7 +54,7 @@ Represents a <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">fax
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccount</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccount</b> also has these types of members:
+The <b>IFaxAccount</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccount</b> also has these types of members:
 
 ## -remarks
 

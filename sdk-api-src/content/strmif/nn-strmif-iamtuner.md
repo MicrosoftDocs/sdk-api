@@ -55,5 +55,5 @@ The <code>IAMTuner</code> interface controls a TV tuner. This interface is the b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTuner</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTuner</b> also has these types of members:
+The <b>IAMTuner</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTuner</b> also has these types of members:
 

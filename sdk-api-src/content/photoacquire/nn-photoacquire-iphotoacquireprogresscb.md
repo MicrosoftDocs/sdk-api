@@ -54,7 +54,7 @@ The <code>IPhotoAcquireProgressCB</code> interface may be implemented if you wis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireProgressCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireProgressCB</b> also has these types of members:
+The <b>IPhotoAcquireProgressCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireProgressCB</b> also has these types of members:
 
 ## -see-also
 

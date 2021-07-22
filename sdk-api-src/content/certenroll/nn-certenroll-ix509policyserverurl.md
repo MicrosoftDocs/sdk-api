@@ -54,5 +54,5 @@ The <b>IX509PolicyServerUrl</b> interface can be used to set or retrieve propert
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PolicyServerUrl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
+The <b>IX509PolicyServerUrl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509PolicyServerUrl</b> also has these types of members:
 

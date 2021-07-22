@@ -54,5 +54,5 @@ Provides methods to create a new metadata scope, or open an existing one.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMetaDataDispenser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataDispenser</b> also has these types of members:
+The <b>IMetaDataDispenser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMetaDataDispenser</b> also has these types of members:
 

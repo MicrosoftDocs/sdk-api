@@ -54,7 +54,7 @@ Represents configuration UI information used to build and register a synchroniza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncProviderConfigUI</b> also has these types of members:
+The <b>ISyncProviderConfigUI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncProviderConfigUI</b> also has these types of members:
 
 ## -remarks
 

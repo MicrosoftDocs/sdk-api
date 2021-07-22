@@ -57,7 +57,7 @@ Provides interoperation between XAML and a DirectX swap chain.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISwapChainPanelNative2</b> interface inherits from <b>ISwapChainPanelNative</b>. <b>ISwapChainPanelNative2</b> also has these types of members:
+The <b>ISwapChainPanelNative2</b> interface inherits from <b>ISwapChainPanelNative</b>. <b>ISwapChainPanelNative2</b> also has these types of members:
 
 ## -remarks
 

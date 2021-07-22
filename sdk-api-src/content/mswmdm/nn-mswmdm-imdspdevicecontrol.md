@@ -56,7 +56,7 @@ The <b>IMDSPDeviceControl</b> interface methods support several modes of audio c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDeviceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDeviceControl</b> also has these types of members:
+The <b>IMDSPDeviceControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDeviceControl</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Sets properties on the color converter DSP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMColorConvProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMColorConvProps</b> also has these types of members:
+The <b>IWMColorConvProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMColorConvProps</b> also has these types of members:
 
 ## -see-also
 

@@ -57,7 +57,7 @@ Creates a partition on a basic disk.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsCreatePartitionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsCreatePartitionEx</b> also has these types of members:
+The <b>IVdsCreatePartitionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsCreatePartitionEx</b> also has these types of members:
 
 ## -see-also
 

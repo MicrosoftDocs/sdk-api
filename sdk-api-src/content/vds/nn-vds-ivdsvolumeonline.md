@@ -57,5 +57,5 @@ Provides a method to repair  single volumes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumeOnline</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeOnline</b> also has these types of members:
+The <b>IVdsVolumeOnline</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumeOnline</b> also has these types of members:
 

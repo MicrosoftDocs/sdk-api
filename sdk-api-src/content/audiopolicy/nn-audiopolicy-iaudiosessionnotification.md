@@ -54,7 +54,7 @@ The <b>IAudioSessionNotification</b> interface provides  notification when an au
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionNotification</b> also has these types of members:
+The <b>IAudioSessionNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionNotification</b> also has these types of members:
 
 ## -remarks
 

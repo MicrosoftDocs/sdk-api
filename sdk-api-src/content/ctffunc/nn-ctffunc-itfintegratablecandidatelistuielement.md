@@ -54,7 +54,7 @@ Enables text services and Input Method Editors (IMEs) to adjust UI-less mode beh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
+The <b>ITfIntegratableCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfIntegratableCandidateListUIElement</b> also has these types of members:
 
 ## -remarks
 

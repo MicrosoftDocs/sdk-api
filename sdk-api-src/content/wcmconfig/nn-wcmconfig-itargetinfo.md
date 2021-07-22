@@ -54,5 +54,5 @@ Defines the offline target information,  specifically, file and registry locatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITargetInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITargetInfo</b> also has these types of members:
+The <b>ITargetInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITargetInfo</b> also has these types of members:
 

@@ -54,7 +54,7 @@ Enables interoperability with a WinRT <a href="/uwp/api/windows.ui.input.radial
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRadialControllerConfigurationInterop</b> interface inherits from <b>IInspectable</b>. <b>IRadialControllerConfigurationInterop</b> also has these types of members:
+The <b>IRadialControllerConfigurationInterop</b> interface inherits from <b>IInspectable</b>. <b>IRadialControllerConfigurationInterop</b> also has these types of members:
 
 ## -see-also
 

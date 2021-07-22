@@ -57,7 +57,7 @@ Provides methods for performing query and configuration services on an iSCSI por
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiPortalGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortalGroup</b> also has these types of members:
+The <b>IVdsIscsiPortalGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortalGroup</b> also has these types of members:
 
 ## -see-also
 

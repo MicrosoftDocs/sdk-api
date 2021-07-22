@@ -54,5 +54,5 @@ Interface describing an SVG attribute.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgAttribute</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgAttribute</b> also has these types of members:
+The <b>ID2D1SvgAttribute</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgAttribute</b> also has these types of members:
 

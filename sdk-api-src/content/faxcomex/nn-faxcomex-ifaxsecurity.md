@@ -54,7 +54,7 @@ The <b>IFaxSecurity</b> configuration object is used by a fax client application
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxSecurity</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
+The <b>IFaxSecurity</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxSecurity</b> also has these types of members:
 
 ## -remarks
 

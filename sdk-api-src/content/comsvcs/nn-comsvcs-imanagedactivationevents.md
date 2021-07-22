@@ -54,7 +54,7 @@ Used to create and destroy stubs for managed objects within the current COM+ con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedActivationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedActivationEvents</b> also has these types of members:
+The <b>IManagedActivationEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedActivationEvents</b> also has these types of members:
 
 ## -see-also
 

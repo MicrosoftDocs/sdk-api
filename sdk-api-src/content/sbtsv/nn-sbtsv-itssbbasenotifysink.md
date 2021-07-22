@@ -54,7 +54,7 @@ Exposes methods that report status and error messages to Remote Desktop Connecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbBaseNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbBaseNotifySink</b> also has these types of members:
+The <b>ITsSbBaseNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbBaseNotifySink</b> also has these types of members:
 
 ## -remarks
 

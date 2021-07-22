@@ -54,7 +54,7 @@ Implemented by monikers to enable the running object table (ROT) to compare moni
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IROTData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IROTData</b> also has these types of members:
+The <b>IROTData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IROTData</b> also has these types of members:
 
 ## -see-also
 

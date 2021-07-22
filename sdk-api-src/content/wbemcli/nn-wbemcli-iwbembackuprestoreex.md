@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemBackupRestoreEx</b> interface inherits from <b>IWbemBackupRestore</b>. <b>IWbemBackupRestoreEx</b> also has these types of members:
+The <b>IWbemBackupRestoreEx</b> interface inherits from <b>IWbemBackupRestore</b>. <b>IWbemBackupRestoreEx</b> also has these types of members:
 
 ## -remarks
 

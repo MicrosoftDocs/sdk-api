@@ -54,7 +54,7 @@ Enables development tool applications to dynamically control system and user sta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDesignModeSettings2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>. <b>IApplicationDesignModeSettings2</b> also has these types of members:
+The <b>IApplicationDesignModeSettings2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>. <b>IApplicationDesignModeSettings2</b> also has these types of members:
 
 ## -remarks
 

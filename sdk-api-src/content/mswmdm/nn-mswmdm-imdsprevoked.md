@@ -54,7 +54,7 @@ The <b>IMDSPRevoked</b> interface retrieves the URL from which updated component
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPRevoked</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPRevoked</b> also has these types of members:
+The <b>IMDSPRevoked</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPRevoked</b> also has these types of members:
 
 ## -see-also
 

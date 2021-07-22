@@ -65,7 +65,7 @@ For information about implementing a class that can source or sink broadcast eve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
+The <b>IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

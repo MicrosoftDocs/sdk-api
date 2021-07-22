@@ -54,5 +54,5 @@ Enables controls and containers to avoid performance bottlenecks on loading cont
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuickActivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQuickActivate</b> also has these types of members:
+The <b>IQuickActivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQuickActivate</b> also has these types of members:
 

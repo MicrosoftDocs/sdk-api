@@ -56,7 +56,7 @@ Used as a site object by the <a href="/windows/desktop/api/shobjidl_core/nn-shob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDocViewSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDocViewSite</b> also has these types of members:
+The <b>IDocViewSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDocViewSite</b> also has these types of members:
 
 ## -remarks
 

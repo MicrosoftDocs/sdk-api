@@ -54,7 +54,7 @@ The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
+The <b>IWMDMEnumDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
 
 ## -see-also
 

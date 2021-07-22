@@ -55,7 +55,7 @@ Represents a query object for querying information from the graphics processing 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Query1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11query">ID3D11Query</a>. <b>ID3D11Query1</b> also has these types of members:
+The <b>ID3D11Query1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11query">ID3D11Query</a>. <b>ID3D11Query1</b> also has these types of members:
 
 ## -remarks
 

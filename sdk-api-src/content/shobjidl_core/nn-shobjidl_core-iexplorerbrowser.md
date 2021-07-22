@@ -58,7 +58,7 @@ The Windows Software Development Kit (SDK) provides full samples that demonstrat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowser</b> also has these types of members:
+The <b>IExplorerBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowser</b> also has these types of members:
 
 ## -remarks
 

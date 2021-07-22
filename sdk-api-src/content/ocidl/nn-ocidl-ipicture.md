@@ -58,7 +58,7 @@ The picture object also supports <a href="/windows/desktop/api/objidl/nn-objidl-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPicture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
+The <b>IPicture</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPicture</b> also has these types of members:
 
 ## -remarks
 

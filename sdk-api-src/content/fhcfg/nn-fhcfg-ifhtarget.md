@@ -57,5 +57,5 @@ The <b>IFhTarget</b> interface allows client applications to read numeric and st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhTarget</b> also has these types of members:
+The <b>IFhTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhTarget</b> also has these types of members:
 

@@ -56,5 +56,5 @@ Supplies a caller with an event that will be signaled by the called object to de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithCancelEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithCancelEvent</b> also has these types of members:
+The <b>IObjectWithCancelEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithCancelEvent</b> also has these types of members:
 

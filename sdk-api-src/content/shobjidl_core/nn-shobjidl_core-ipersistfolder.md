@@ -54,7 +54,7 @@ Exposes a method that initializes Shell folder objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistFolder</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistFolder</b> also has these types of members:
+The <b>IPersistFolder</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistFolder</b> also has these types of members:
 
 ## -remarks
 

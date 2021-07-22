@@ -54,7 +54,7 @@ Enables getting  the registration info for an in-process server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDllServerActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDllServerActivatableClassRegistration</b> also has these types of members:
+The <b>IDllServerActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDllServerActivatableClassRegistration</b> also has these types of members:
 
 ## -see-also
 

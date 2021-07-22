@@ -54,7 +54,7 @@ Notifies the subscriber if the Microsoft Distributed Transaction Coordinator (DT
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTransactionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransactionEvents</b> also has these types of members:
+The <b>IComTransactionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTransactionEvents</b> also has these types of members:
 
 ## -see-also
 

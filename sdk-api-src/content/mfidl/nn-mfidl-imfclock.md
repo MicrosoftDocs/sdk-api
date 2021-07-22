@@ -57,7 +57,7 @@ Clocks and some media sinks expose this interface through <b>QueryInterface</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClock</b> also has these types of members:
+The <b>IMFClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClock</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ The <b>IAMTimecodeReader</b> interface reads SMPTE or MIDI timecode from an exte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeReader</b> also has these types of members:
+The <b>IAMTimecodeReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeReader</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ Exposes methods that create and modify search folders. The Set methods are calle
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchFolderItemFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchFolderItemFactory</b> also has these types of members:
+The <b>ISearchFolderItemFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchFolderItemFactory</b> also has these types of members:
 
 ## -remarks
 

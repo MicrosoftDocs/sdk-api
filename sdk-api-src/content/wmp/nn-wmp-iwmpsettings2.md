@@ -54,7 +54,7 @@ The <b>IWMPSettings2</b> interface provides methods that supplement the <b>IWMPS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSettings2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings</a>. <b>IWMPSettings2</b> also has these types of members:
+The <b>IWMPSettings2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings</a>. <b>IWMPSettings2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

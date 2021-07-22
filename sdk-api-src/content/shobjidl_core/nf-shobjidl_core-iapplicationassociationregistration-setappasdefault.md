@@ -76,7 +76,7 @@ One of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associat
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code. In particular, if the application's publisher doesn't match the default's, this method returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">E_ACCESSDENIED</b>.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code. In particular, if the application's publisher doesn't match the default's, this method returns <b>E_ACCESSDENIED</b>.
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Implements methods that get the string values from fields in a Digital Video Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbServiceDescriptor2</b> interface inherits from <b>IDvbServiceDescriptor</b>. <b>IDvbServiceDescriptor2</b> also has these types of members:
+The <b>IDvbServiceDescriptor2</b> interface inherits from <b>IDvbServiceDescriptor</b>. <b>IDvbServiceDescriptor2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

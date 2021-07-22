@@ -54,7 +54,7 @@ The <b>IQueryForm</b> interface is implemented by a query form extension object 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryForm</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryForm</b> also has these types of members:
+The <b>IQueryForm</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryForm</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCollection</b> interface inherits from <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
+The <b>IObjectCollection</b> interface inherits from <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
 
 ## -remarks
 

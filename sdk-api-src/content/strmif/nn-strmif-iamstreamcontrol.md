@@ -70,7 +70,7 @@ Depending on the application, you might find the <a href="/windows/desktop/api/s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamControl</b> also has these types of members:
+The <b>IAMStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamControl</b> also has these types of members:
 
 ## -see-also
 

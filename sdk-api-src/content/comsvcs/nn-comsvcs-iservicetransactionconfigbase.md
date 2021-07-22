@@ -54,7 +54,7 @@ Configures the transaction services for the work that is done when calling eithe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTransactionConfigBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTransactionConfigBase</b> also has these types of members:
+The <b>IServiceTransactionConfigBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTransactionConfigBase</b> also has these types of members:
 
 ## -see-also
 

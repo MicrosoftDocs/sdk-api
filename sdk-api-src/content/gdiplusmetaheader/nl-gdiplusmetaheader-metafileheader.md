@@ -52,7 +52,7 @@ api_name:
 
 A <b>MetafileHeader</b> object stores properties of an associated metafile.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">MetafileHeader</b> has these types of members:
+<b>MetafileHeader</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

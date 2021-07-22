@@ -56,7 +56,7 @@ This interface implements the asynchronous query for a function instance based o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionInstanceQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionInstanceQuery</b> also has these types of members:
+The <b>IFunctionInstanceQuery</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionInstanceQuery</b> also has these types of members:
 
 ## -remarks
 

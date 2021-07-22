@@ -55,7 +55,7 @@ Contains the HTTP proxy settings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
+The <b>IWebProxy</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
 
 ## -remarks
 

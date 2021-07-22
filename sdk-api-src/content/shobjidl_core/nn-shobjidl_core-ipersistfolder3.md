@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistFolder3</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>. <b>IPersistFolder3</b> also has these types of members:
+The <b>IPersistFolder3</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>. <b>IPersistFolder3</b> also has these types of members:
 
 ## -remarks
 

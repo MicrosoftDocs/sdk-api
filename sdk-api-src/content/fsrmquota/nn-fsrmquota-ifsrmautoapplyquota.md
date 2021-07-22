@@ -73,7 +73,7 @@ To retrieve this interface to an existing automatic quota, call one of the follo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAutoApplyQuota</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
+The <b>IFsrmAutoApplyQuota</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotaobject">IFsrmQuotaObject</a>. <b>IFsrmAutoApplyQuota</b> also has these types of members:
 
 ## -remarks
 

@@ -58,7 +58,7 @@ To get this interface, call the <a href="/windows/desktop/api/winsatcominterface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideWinSATResultsInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
+The <b>IProvideWinSATResultsInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
 
 ## -see-also
 

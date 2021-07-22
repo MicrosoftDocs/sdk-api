@@ -54,7 +54,7 @@ Exposes methods that allow implementers of a custom <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithAppUserModelID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithAppUserModelID</b> also has these types of members:
+The <b>IObjectWithAppUserModelID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithAppUserModelID</b> also has these types of members:
 
 ## -remarks
 

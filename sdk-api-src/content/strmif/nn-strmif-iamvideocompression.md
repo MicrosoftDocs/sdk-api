@@ -62,7 +62,7 @@ A filter that supports this interface might not support every method. Use the <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoCompression</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoCompression</b> also has these types of members:
+The <b>IAMVideoCompression</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoCompression</b> also has these types of members:
 
 ## -remarks
 

@@ -54,5 +54,5 @@ Exposes methods that manage RemoteApp and Desktop Connection credentials and con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceScriptable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWorkspaceScriptable</b> also has these types of members:
+The <b>IWorkspaceScriptable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWorkspaceScriptable</b> also has these types of members:
 

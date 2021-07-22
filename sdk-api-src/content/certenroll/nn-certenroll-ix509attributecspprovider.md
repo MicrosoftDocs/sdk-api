@@ -56,7 +56,7 @@ This attribute is automatically placed in the PKCS #10 attribute collection when
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeCspProvider</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeCspProvider</b> also has these types of members:
+The <b>IX509AttributeCspProvider</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeCspProvider</b> also has these types of members:
 
 ## -see-also
 

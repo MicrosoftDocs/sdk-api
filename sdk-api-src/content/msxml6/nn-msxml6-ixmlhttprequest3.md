@@ -55,7 +55,7 @@ Provides the methods and properties needed to configure and send HTTP requests a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest3</b> interface inherits from <b>IXMLHTTPRequest2</b>. <b>IXMLHTTPRequest3</b> also has these types of members:
+The <b>IXMLHTTPRequest3</b> interface inherits from <b>IXMLHTTPRequest2</b>. <b>IXMLHTTPRequest3</b> also has these types of members:
 
 ## -remarks
 

@@ -54,5 +54,5 @@ The **IEnumTfDocumentMgrs** interface is implemented by the TSF manager to provi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfDocumentMgrs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfDocumentMgrs</b> also has these types of members:
+The <b>IEnumTfDocumentMgrs</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfDocumentMgrs</b> also has these types of members:
 

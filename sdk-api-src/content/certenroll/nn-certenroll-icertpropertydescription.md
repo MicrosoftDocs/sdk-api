@@ -55,7 +55,7 @@ The <b>ICertPropertyDescription</b> interface enables you to specify and retriev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyDescription</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyDescription</b> also has these types of members:
+The <b>ICertPropertyDescription</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyDescription</b> also has these types of members:
 
 ## -see-also
 

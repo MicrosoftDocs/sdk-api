@@ -54,7 +54,7 @@ The <b>ITraceRelogger</b>  interface provides access to the relogging functional
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceRelogger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceRelogger</b> also has these types of members:
+The <b>ITraceRelogger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceRelogger</b> also has these types of members:
 
 ## -remarks
 

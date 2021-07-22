@@ -58,7 +58,7 @@ Note that you cannot access this functionality from script.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscRecorder2Ex</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
+The <b>IDiscRecorder2Ex</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDiscRecorder2Ex</b> also has these types of members:
 
 ## -remarks
 

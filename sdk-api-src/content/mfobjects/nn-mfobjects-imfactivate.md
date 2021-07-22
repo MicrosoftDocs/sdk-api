@@ -55,7 +55,7 @@ Enables the application to defer the creation of an object. This interface is ex
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFActivate</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFActivate</b> also has these types of members:
+The <b>IMFActivate</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFActivate</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ Extends <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomrem
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMRemoteDictionaryResource1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>. <b>IXpsOMRemoteDictionaryResource1</b> also has these types of members:
+The <b>IXpsOMRemoteDictionaryResource1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>. <b>IXpsOMRemoteDictionaryResource1</b> also has these types of members:
 
 ## -see-also
 

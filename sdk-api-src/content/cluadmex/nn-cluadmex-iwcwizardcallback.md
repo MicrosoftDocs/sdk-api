@@ -59,7 +59,7 @@ The <b>IWCWizardCallback</b> interface is called by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCWizardCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCWizardCallback</b> also has these types of members:
+The <b>IWCWizardCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCWizardCallback</b> also has these types of members:
 
 ## -remarks
 

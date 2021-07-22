@@ -65,7 +65,7 @@ For a code example that implements an <b>IAudioSessionEvents</b> interface, see 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEvents</b> also has these types of members:
+The <b>IAudioSessionEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionEvents</b> also has these types of members:
 
 ## -see-also
 

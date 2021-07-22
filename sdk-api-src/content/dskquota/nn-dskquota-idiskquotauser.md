@@ -61,7 +61,7 @@ Represents a single user quota entry in the volume quota information file. Throu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUser</b> also has these types of members:
+The <b>IDiskQuotaUser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUser</b> also has these types of members:
 
 ## -see-also
 

@@ -56,5 +56,5 @@ The interface is used by providers to receive notification that their object imp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">  IWbemShutdown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>  IWbemShutdown</b> also has these types of members:
+The <b>  IWbemShutdown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>  IWbemShutdown</b> also has these types of members:
 

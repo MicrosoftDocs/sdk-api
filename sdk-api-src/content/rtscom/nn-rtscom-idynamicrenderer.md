@@ -54,7 +54,7 @@ Displays the tablet pen data in real-time as that data is being handled by the <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDynamicRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDynamicRenderer</b> also has these types of members:
+The <b>IDynamicRenderer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDynamicRenderer</b> also has these types of members:
 
 ## -remarks
 

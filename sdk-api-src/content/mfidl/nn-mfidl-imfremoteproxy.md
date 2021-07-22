@@ -55,7 +55,7 @@ Exposed by objects that act as a proxy for a remote object. To obtain a pointer 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRemoteProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRemoteProxy</b> also has these types of members:
+The <b>IMFRemoteProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRemoteProxy</b> also has these types of members:
 
 ## -see-also
 

@@ -58,7 +58,7 @@ To get this interface, call the <a href="/windows/desktop/api/bits/nn-bits-iback
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeerCacheAdministration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeerCacheAdministration</b> also has these types of members:
+The <b>IBitsPeerCacheAdministration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeerCacheAdministration</b> also has these types of members:
 
 ## -remarks
 

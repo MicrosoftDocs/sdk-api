@@ -61,7 +61,7 @@ api_name:
 
 Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> COM interface.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CObjectPathParser</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>CObjectPathParser</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

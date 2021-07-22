@@ -55,7 +55,7 @@ Exposes methods that return information about environments to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlacementNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbPlacementNotifySink</b> also has these types of members:
+The <b>ITsSbPlacementNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbPlacementNotifySink</b> also has these types of members:
 
 ## -see-also
 

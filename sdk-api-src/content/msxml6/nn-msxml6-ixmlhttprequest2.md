@@ -55,7 +55,7 @@ Provides the methods and properties needed to configure and send HTTP requests a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLHTTPRequest2</b> also has these types of members:
+The <b>IXMLHTTPRequest2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLHTTPRequest2</b> also has these types of members:
 
 ## -remarks
 

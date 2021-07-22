@@ -67,7 +67,7 @@ The  <b>IDsObjectPicker</b> implemented by the system  supports both apartment a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsObjectPicker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsObjectPicker</b> also has these types of members:
+The <b>IDsObjectPicker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsObjectPicker</b> also has these types of members:
 
 ## -remarks
 

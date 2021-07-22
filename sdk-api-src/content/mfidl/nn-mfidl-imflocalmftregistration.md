@@ -56,7 +56,7 @@ The Media Session exposes this interface as a service. To obtain a pointer to th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFLocalMFTRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFLocalMFTRegistration</b> also has these types of members:
+The <b>IMFLocalMFTRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFLocalMFTRegistration</b> also has these types of members:
 
 ## -remarks
 

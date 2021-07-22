@@ -54,5 +54,5 @@ The <b>IPortableDeviceService</b> interface provides access to a service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceService</b> also has these types of members:
+The <b>IPortableDeviceService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceService</b> also has these types of members:
 

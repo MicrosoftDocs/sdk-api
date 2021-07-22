@@ -57,7 +57,7 @@ The content has a set of transforms that controls the visual movement of the sur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationContent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationContent</b> also has these types of members:
+The <b>IDirectManipulationContent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationContent</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ The <b>IDsAdminNewObjExt</b> interface is implemented by an object creation wiza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
+The <b>IDsAdminNewObjExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjExt</b> also has these types of members:
 
 ## -see-also
 

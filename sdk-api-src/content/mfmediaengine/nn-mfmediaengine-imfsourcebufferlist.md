@@ -54,7 +54,7 @@ Represents a collection of <a href="/windows/desktop/api/mfmediaengine/nn-mfmedi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBufferList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferList</b> also has these types of members:
+The <b>IMFSourceBufferList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBufferList</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Creates instances of <a href="/windows/desktop/api/windows.media.core.interop/nn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioFrameNativeFactory</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAudioFrameNativeFactory</b> also has these types of members:
+The <b>IAudioFrameNativeFactory</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAudioFrameNativeFactory</b> also has these types of members:
 
 ## -see-also
 

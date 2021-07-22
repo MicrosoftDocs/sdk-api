@@ -58,5 +58,5 @@ It is the primary interface of the <a href="/windows/desktop/TaskSchd/t">task sc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskScheduler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskScheduler</b> also has these types of members:
+The <b>ITaskScheduler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskScheduler</b> also has these types of members:
 

@@ -54,7 +54,7 @@ The <b>ISCPSecureQuery2</b> interface extends <a href="/windows/desktop/api/mswm
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a>. <b>ISCPSecureQuery2</b> also has these types of members:
+The <b>ISCPSecureQuery2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a>. <b>ISCPSecureQuery2</b> also has these types of members:
 
 ## -see-also
 

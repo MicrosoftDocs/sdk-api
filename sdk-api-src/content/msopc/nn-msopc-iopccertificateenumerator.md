@@ -54,7 +54,7 @@ A read-only enumerator of pointers to <a href="/windows/desktop/api/wincrypt/ns-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcCertificateEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcCertificateEnumerator</b> also has these types of members:
+The <b>IOpcCertificateEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcCertificateEnumerator</b> also has these types of members:
 
 ## -remarks
 

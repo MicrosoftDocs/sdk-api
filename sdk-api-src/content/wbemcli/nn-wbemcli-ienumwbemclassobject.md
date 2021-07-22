@@ -75,7 +75,7 @@ An object of type
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWbemClassObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWbemClassObject</b> also has these types of members:
+The <b>IEnumWbemClassObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWbemClassObject</b> also has these types of members:
 
 ## -remarks
 

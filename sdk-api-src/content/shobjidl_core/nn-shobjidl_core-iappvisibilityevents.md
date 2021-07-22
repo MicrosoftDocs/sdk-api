@@ -55,7 +55,7 @@ Enables applications to receive notifications of state changes in a display and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppVisibilityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
+The <b>IAppVisibilityEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppVisibilityEvents</b> also has these types of members:
 
 ## -see-also
 

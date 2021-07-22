@@ -52,7 +52,7 @@ api_name:
 
 A <b>RectF</b> object stores the upper-left corner, width, and height of a rectangle.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">RectF</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>RectF</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

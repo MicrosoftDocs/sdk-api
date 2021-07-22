@@ -54,7 +54,7 @@ Use this interface to retrieve information about the size of a writeable unit on
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential2</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>. <b>IMultisessionSequential2</b> also has these types of members:
+The <b>IMultisessionSequential2</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>. <b>IMultisessionSequential2</b> also has these types of members:
 
 ## -see-also
 

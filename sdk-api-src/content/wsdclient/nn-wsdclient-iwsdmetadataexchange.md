@@ -54,5 +54,5 @@ Is the base class for other objects which access metadata.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDMetadataExchange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDMetadataExchange</b> also has these types of members:
+The <b>IWSDMetadataExchange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDMetadataExchange</b> also has these types of members:
 

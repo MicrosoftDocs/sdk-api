@@ -54,7 +54,7 @@ Exposes methods that define a Windows Presentation Foundation (WPF) bitmap effec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffect</b> also has these types of members:
+The <b>IMILBitmapEffect</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffect</b> also has these types of members:
 
 ## -remarks
 

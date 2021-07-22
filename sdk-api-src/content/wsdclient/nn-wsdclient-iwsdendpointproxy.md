@@ -54,7 +54,7 @@ Implements a device services messaging proxy.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDEndpointProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDEndpointProxy</b> also has these types of members:
+The <b>IWSDEndpointProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDEndpointProxy</b> also has these types of members:
 
 ## -remarks
 

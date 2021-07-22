@@ -56,5 +56,5 @@ This interface is  accessible to the provider through the <a href="/windows/desk
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderQueryConstraintCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderQueryConstraintCollection</b> also has these types of members:
+The <b>IProviderQueryConstraintCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderQueryConstraintCollection</b> also has these types of members:
 

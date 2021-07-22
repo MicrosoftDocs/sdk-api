@@ -55,7 +55,7 @@ Provides the primary means by which an embedded object obtains information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
+The <b>IOleClientSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
 
 ## -see-also
 

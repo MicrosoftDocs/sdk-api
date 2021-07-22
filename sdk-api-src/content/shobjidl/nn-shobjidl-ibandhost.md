@@ -54,5 +54,5 @@ Exposes methods that create and destroy bands and specifiy their availability.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
+The <b>IBandHost</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandHost</b> also has these types of members:
 

@@ -165,7 +165,7 @@ The following properties must be set, if at all, before calling the Encode metho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs10</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs10</b> also has these types of members:
+The <b>IX509CertificateRequestPkcs10</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs10</b> also has these types of members:
 
 ## -see-also
 

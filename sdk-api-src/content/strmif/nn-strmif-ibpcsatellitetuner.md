@@ -56,7 +56,7 @@ The <code>IBPCSatelliteTuner</code> interface supports satellite television tuni
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBPCSatelliteTuner</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>. <b>IBPCSatelliteTuner</b> also has these types of members:
+The <b>IBPCSatelliteTuner</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner</a>. <b>IBPCSatelliteTuner</b> also has these types of members:
 
 ## -see-also
 

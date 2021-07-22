@@ -71,4 +71,4 @@ The
 <li>
 <a href="/windows/desktop/Tapi/cmspstream-pure-virtual-methods">CMSPStream Pure Virtual Methods</a>
 </li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPStream</b> has these types of members:
+</ul><b>CMSPStream</b> has these types of members:

@@ -56,7 +56,7 @@ Represents a DirectX Video Acceleration (DXVA) video decoder device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoDecoder</b> also has these types of members:
+The <b>IDirectXVideoDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoDecoder</b> also has these types of members:
 
 ## -remarks
 

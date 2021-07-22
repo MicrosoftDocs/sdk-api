@@ -54,7 +54,7 @@ Represents a read-only object model for block maps that provides access to the f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapReader</b> also has these types of members:
+The <b>IAppxBlockMapReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapReader</b> also has these types of members:
 
 ## -remarks
 

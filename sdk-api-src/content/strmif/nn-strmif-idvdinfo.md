@@ -56,7 +56,7 @@ The <b>IDvdInfo</b> interface enables an application to query for attributes of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo</b> also has these types of members:
+The <b>IDvdInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo</b> also has these types of members:
 
 ## -see-also
 

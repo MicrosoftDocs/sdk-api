@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamesp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
+The <b>INameSpaceTreeControl2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>. <b>INameSpaceTreeControl2</b> also has these types of members:
 
 ## -remarks
 

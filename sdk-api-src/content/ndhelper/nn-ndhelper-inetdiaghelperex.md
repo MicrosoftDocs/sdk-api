@@ -54,7 +54,7 @@ The <b>INetDiagHelperEx</b> interface provides methods that extend on the <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
+The <b>INetDiagHelperEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperEx</b> also has these types of members:
 
 ## -see-also
 

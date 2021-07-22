@@ -54,7 +54,7 @@ Represents a callback to the media engine to notify key request data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineNeedKeyNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineNeedKeyNotify</b> also has these types of members:
+The <b>IMFMediaEngineNeedKeyNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineNeedKeyNotify</b> also has these types of members:
 
 ## -see-also
 

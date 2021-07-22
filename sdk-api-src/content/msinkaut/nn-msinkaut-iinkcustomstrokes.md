@@ -56,7 +56,7 @@ Contains a collection of user-defined <a href="/previous-versions/windows/deskto
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkCustomStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkCustomStrokes</b> also has these types of members:
+The <b>IInkCustomStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkCustomStrokes</b> also has these types of members:
 
 ## -remarks
 

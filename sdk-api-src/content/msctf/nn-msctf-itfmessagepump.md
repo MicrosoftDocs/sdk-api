@@ -54,7 +54,7 @@ The <b>ITfMessagePump</b> interface is implemented by the TSF manager and is use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMessagePump</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMessagePump</b> also has these types of members:
+The <b>ITfMessagePump</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMessagePump</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ A read-only enumerator of <a href="/previous-versions/windows/desktop/api/msopc/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcSignatureCustomObjectEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcSignatureCustomObjectEnumerator</b> also has these types of members:
+The <b>IOpcSignatureCustomObjectEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcSignatureCustomObjectEnumerator</b> also has these types of members:
 
 ## -remarks
 

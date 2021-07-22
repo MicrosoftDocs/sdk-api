@@ -54,7 +54,7 @@ Is the means by which the CRM Worker and CRM Compensator write records to the lo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmLogControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmLogControl</b> also has these types of members:
+The <b>ICrmLogControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmLogControl</b> also has these types of members:
 
 ## -remarks
 

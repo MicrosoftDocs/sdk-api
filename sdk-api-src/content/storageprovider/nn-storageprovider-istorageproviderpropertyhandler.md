@@ -54,7 +54,7 @@ Provides a collection of properties associated with a file or folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderPropertyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
+The <b>IStorageProviderPropertyHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderPropertyHandler</b> also has these types of members:
 
 ## -remarks
 

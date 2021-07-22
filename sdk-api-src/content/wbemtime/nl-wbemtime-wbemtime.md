@@ -59,7 +59,7 @@ api_name:
 
 The <b>WBEMTime</b> class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan Class Methods</a>.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTime</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>WBEMTime</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

@@ -60,7 +60,7 @@ To set the callback, pass an <b>IMFPMediaPlayerCallback</b> pointer to the <a hr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMediaPlayerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaPlayerCallback</b> also has these types of members:
+The <b>IMFPMediaPlayerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMediaPlayerCallback</b> also has these types of members:
 
 ## -see-also
 

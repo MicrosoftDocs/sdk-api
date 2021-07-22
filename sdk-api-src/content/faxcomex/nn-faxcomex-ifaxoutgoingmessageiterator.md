@@ -54,7 +54,7 @@ The <b>IFaxOutgoingMessageIterator</b> interface describes an object that is use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessageIterator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingMessageIterator</b> also has these types of members:
+The <b>IFaxOutgoingMessageIterator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingMessageIterator</b> also has these types of members:
 
 ## -remarks
 

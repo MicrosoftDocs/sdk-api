@@ -54,7 +54,7 @@ Exposed by a client to specify how to filter the enumeration of a Shell folder b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderFilter</b> also has these types of members:
+The <b>IFolderFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderFilter</b> also has these types of members:
 
 ## -remarks
 

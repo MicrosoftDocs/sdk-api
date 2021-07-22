@@ -54,7 +54,7 @@ Exposes methods that  the Remote Desktop Services service uses to communicate wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolManager</b> also has these types of members:
+The <b>IWRdsProtocolManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolManager</b> also has these types of members:
 
 ## -remarks
 

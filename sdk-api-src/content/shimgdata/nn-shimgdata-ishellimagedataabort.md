@@ -54,7 +54,7 @@ Exposes a single method used to abort <a href="/windows/desktop/api/shimgdata/nn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageDataAbort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageDataAbort</b> also has these types of members:
+The <b>IShellImageDataAbort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageDataAbort</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ For each document object to be hosted, a container must provide a corresponding 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleDocumentSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocumentSite</b> also has these types of members:
+The <b>IOleDocumentSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleDocumentSite</b> also has these types of members:
 
 ## -see-also
 

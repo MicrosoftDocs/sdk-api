@@ -54,7 +54,7 @@ The <b>IMDSPDirectTransfer</b> interface enables Windows Media Device Manager to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDirectTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDirectTransfer</b> also has these types of members:
+The <b>IMDSPDirectTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDirectTransfer</b> also has these types of members:
 
 ## -see-also
 

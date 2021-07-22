@@ -54,7 +54,7 @@ Provides the methods for creating and managing the component or file that contai
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeLib2</b> interface inherits from <b>ICreateTypeLib</b>. <b>ICreateTypeLib2</b> also has these types of members:
+The <b>ICreateTypeLib2</b> interface inherits from <b>ICreateTypeLib</b>. <b>ICreateTypeLib2</b> also has these types of members:
 
 ## -see-also
 

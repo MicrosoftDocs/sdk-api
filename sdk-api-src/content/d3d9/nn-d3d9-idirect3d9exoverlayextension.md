@@ -56,7 +56,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on an <b>IDirect3
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9ExOverlayExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9ExOverlayExtension</b> also has these types of members:
+The <b>IDirect3D9ExOverlayExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9ExOverlayExtension</b> also has these types of members:
 
 ## -see-also
 

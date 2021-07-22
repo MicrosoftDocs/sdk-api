@@ -55,7 +55,7 @@ Extends the input rectangle to infinity using the specified extend modes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1BorderTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
+The <b>ID2D1BorderTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>. <b>ID2D1BorderTransform</b> also has these types of members:
 
 ## -see-also
 

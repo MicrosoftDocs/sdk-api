@@ -55,7 +55,7 @@ Enumerates setting objects associated with the Offline Files service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOfflineFilesSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesSettings</b> also has these types of members:
+The <b>IEnumOfflineFilesSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOfflineFilesSettings</b> also has these types of members:
 
 ## -see-also
 

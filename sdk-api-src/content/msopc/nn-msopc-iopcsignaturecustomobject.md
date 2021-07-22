@@ -54,7 +54,7 @@ Represents an application-specific <b>Object</b> element that has been or will b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcSignatureCustomObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcSignatureCustomObject</b> also has these types of members:
+The <b>IOpcSignatureCustomObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcSignatureCustomObject</b> also has these types of members:
 
 ## -remarks
 

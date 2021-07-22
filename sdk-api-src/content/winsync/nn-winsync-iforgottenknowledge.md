@@ -54,7 +54,7 @@ Represents knowledge that has been forgotten because of tombstone cleanup.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IForgottenKnowledge</b> interface inherits from <b>ISyncKnowledge</b>. <b>IForgottenKnowledge</b> also has these types of members:
+The <b>IForgottenKnowledge</b> interface inherits from <b>ISyncKnowledge</b>. <b>IForgottenKnowledge</b> also has these types of members:
 
 ## -remarks
 

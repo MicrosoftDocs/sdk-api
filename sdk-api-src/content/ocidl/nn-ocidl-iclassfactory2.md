@@ -56,7 +56,7 @@ This interface is an extension to <a href="/windows/desktop/api/unknwnbase/nn-un
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassFactory2</b> interface inherits from <b>IClassFactory</b>. <b>IClassFactory2</b> also has these types of members:
+The <b>IClassFactory2</b> interface inherits from <b>IClassFactory</b>. <b>IClassFactory2</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Exposes methods that enable clients to access items in a collection of objects t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectArray</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectArray</b> also has these types of members:
+The <b>IObjectArray</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectArray</b> also has these types of members:
 
 ## -remarks
 

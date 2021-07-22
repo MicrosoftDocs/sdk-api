@@ -54,7 +54,7 @@ Manages the list of virtual channels.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIVirtualChannelManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIVirtualChannelManager</b> also has these types of members:
+The <b>IRDPSRAPIVirtualChannelManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIVirtualChannelManager</b> also has these types of members:
 
 ## -see-also
 

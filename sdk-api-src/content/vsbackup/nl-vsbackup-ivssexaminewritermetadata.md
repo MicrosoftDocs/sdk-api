@@ -64,7 +64,7 @@ Metadata obtained from a stored XML document can be examined by an instance of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadata</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExamineWriterMetadata</b> also has these types of members:
+The <b>IVssExamineWriterMetadata</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExamineWriterMetadata</b> also has these types of members:
 
 ## -see-also
 

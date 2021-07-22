@@ -54,7 +54,7 @@ This optional, application-implemented <b>IWMDMOperation</b> interface allows th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMOperation</b> also has these types of members:
+The <b>IWMDMOperation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMOperation</b> also has these types of members:
 
 ## -see-also
 

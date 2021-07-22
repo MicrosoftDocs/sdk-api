@@ -54,7 +54,7 @@ Handles the stylus packet data from a digitizer in real time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylus</b> also has these types of members:
+The <b>IRealTimeStylus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylus</b> also has these types of members:
 
 ## -remarks
 

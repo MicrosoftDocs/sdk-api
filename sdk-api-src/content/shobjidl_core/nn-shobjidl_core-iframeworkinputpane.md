@@ -54,7 +54,7 @@ Provides methods that enable apps to be informed of state changes and location f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrameworkInputPane</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPane</b> also has these types of members:
+The <b>IFrameworkInputPane</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPane</b> also has these types of members:
 
 ## -remarks
 

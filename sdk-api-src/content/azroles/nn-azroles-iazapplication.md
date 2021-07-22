@@ -54,7 +54,7 @@ The <b>IAzApplication</b> interface defines an installed instance of an applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplication</b> also has these types of members:
+The <b>IAzApplication</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplication</b> also has these types of members:
 
 ## -remarks
 

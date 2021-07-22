@@ -54,7 +54,7 @@ Filter Plugin Store
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbFilterPluginStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
+The <b>ITsSbFilterPluginStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbFilterPluginStore</b> also has these types of members:
 
 ## -see-also
 

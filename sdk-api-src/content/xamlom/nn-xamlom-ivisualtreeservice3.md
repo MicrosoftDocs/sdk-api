@@ -54,7 +54,7 @@ Represents additional capabilities of an <a href="/previous-versions/windows/des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
+The <b>IVisualTreeService3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
 
 ## -see-also
 

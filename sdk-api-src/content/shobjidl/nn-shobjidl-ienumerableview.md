@@ -54,7 +54,7 @@ Exposes methods that enumerate the contents of a view and receive notification f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumerableView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumerableView</b> also has these types of members:
+The <b>IEnumerableView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumerableView</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ A collection of <a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitals
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsSignatureRequestCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignatureRequestCollection</b> also has these types of members:
+The <b>IXpsSignatureRequestCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsSignatureRequestCollection</b> also has these types of members:
 
 ## -remarks
 

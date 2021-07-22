@@ -54,7 +54,7 @@ Manages cancellation requests on an outbound method call and monitors the curren
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICancelMethodCalls</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
+The <b>ICancelMethodCalls</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICancelMethodCalls</b> also has these types of members:
 
 ## -see-also
 

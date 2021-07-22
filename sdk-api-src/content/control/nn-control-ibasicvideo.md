@@ -68,7 +68,7 @@ Properties set on the Video Renderer persist between successive connections and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
+The <b>IBasicVideo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
 
 ## -see-also
 

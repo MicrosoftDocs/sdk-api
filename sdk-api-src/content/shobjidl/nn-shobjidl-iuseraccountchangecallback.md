@@ -54,7 +54,7 @@ Exposes a method which is called when the picture that represents a user account
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserAccountChangeCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserAccountChangeCallback</b> also has these types of members:
+The <b>IUserAccountChangeCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserAccountChangeCallback</b> also has these types of members:
 
 ## -remarks
 

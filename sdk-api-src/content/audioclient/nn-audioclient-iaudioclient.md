@@ -74,7 +74,7 @@ For code examples that use the <b>IAudioClient</b> interface, see the following 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClient</b> also has these types of members:
+The <b>IAudioClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClient</b> also has these types of members:
 
 ## -remarks
 

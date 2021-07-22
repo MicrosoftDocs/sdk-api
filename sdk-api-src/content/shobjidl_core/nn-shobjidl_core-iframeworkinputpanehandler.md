@@ -54,7 +54,7 @@ Enables an app to be notified when the input pane (the on-screen keyboard or han
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFrameworkInputPaneHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPaneHandler</b> also has these types of members:
+The <b>IFrameworkInputPaneHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFrameworkInputPaneHandler</b> also has these types of members:
 
 ## -remarks
 

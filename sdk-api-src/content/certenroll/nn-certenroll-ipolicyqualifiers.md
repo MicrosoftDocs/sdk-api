@@ -54,7 +54,7 @@ The <b>IPolicyQualifiers</b> interface defines methods and properties that enabl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPolicyQualifiers</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifiers</b> also has these types of members:
+The <b>IPolicyQualifiers</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifiers</b> also has these types of members:
 
 ## -see-also
 

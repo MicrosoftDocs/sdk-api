@@ -83,7 +83,7 @@ For a code example that uses the <b>IAudioEndpointVolume</b> interface, see <a h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointVolume</b> also has these types of members:
+The <b>IAudioEndpointVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointVolume</b> also has these types of members:
 
 ## -see-also
 

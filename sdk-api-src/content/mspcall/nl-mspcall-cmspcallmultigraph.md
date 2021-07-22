@@ -75,7 +75,7 @@ Derived from
 <li>
 <a href="/windows/desktop/Tapi/cmspcallmultigraph-protected-helper-methods">CMSPCallMultiGraph Protected Helper Methods</a>
 </li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallMultiGraph</b> has these types of members:
+</ul><b>CMSPCallMultiGraph</b> has these types of members:
 
 ## -see-also
 

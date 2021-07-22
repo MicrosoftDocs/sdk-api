@@ -54,7 +54,7 @@ Enables the saving and loading of objects that use a simple serial stream for th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistStream</b> interface inherits from <b>IPersist</b>. <b>IPersistStream</b> also has these types of members:
+The <b>IPersistStream</b> interface inherits from <b>IPersist</b>. <b>IPersistStream</b> also has these types of members:
 
 ## -remarks
 

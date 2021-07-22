@@ -57,7 +57,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICivicAddressReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
+The <b>ICivicAddressReport</b> interface inherits from <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>. <b>ICivicAddressReport</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ The <code>ICaptureGraphBuilder</code> interface enables you to build capture gra
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptureGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
+The <b>ICaptureGraphBuilder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptureGraphBuilder</b> also has these types of members:
 
 ## -see-also
 

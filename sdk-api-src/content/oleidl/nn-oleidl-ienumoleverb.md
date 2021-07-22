@@ -54,5 +54,5 @@ Enumerates the different verbs available for an object in order of ascending ver
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOLEVERB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOLEVERB</b> also has these types of members:
+The <b>IEnumOLEVERB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOLEVERB</b> also has these types of members:
 

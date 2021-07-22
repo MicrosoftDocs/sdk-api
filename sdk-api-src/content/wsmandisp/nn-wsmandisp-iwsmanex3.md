@@ -54,7 +54,7 @@ Extends the methods and properties of the <a href="/windows/desktop/api/wsmandis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManEx3</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
+The <b>IWSManEx3</b> interface inherits from <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>. <b>IWSManEx3</b> also has these types of members:
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The <b>ITypeLib2</b> interface inherits from the <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib2</b> interface inherits from <b>ITypeLib</b>. <b>ITypeLib2</b> also has these types of members:
+The <b>ITypeLib2</b> interface inherits from <b>ITypeLib</b>. <b>ITypeLib2</b> also has these types of members:
 
 ## -see-also
 

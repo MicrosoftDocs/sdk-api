@@ -54,5 +54,5 @@ The <b>IEnumTfFunctionProviders</b> interface is implemented by the TSF manager 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfFunctionProviders</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfFunctionProviders</b> also has these types of members:
+The <b>IEnumTfFunctionProviders</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfFunctionProviders</b> also has these types of members:
 

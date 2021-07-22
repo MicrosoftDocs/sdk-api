@@ -57,5 +57,5 @@ Currently, there is no support for using this interface by itself. A source filt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMLatency</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMLatency</b> also has these types of members:
+The <b>IAMLatency</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMLatency</b> also has these types of members:
 

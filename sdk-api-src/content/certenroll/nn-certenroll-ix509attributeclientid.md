@@ -54,7 +54,7 @@ The <b>IX509AttributeClientId</b> interface represents an attribute that can be 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeClientId</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeClientId</b> also has these types of members:
+The <b>IX509AttributeClientId</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeClientId</b> also has these types of members:
 
 ## -see-also
 

@@ -55,7 +55,7 @@ The blend-state interface holds a description for blending state that you can bi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11BlendState1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11blendstate">ID3D11BlendState</a>. <b>ID3D11BlendState1</b> also has these types of members:
+The <b>ID3D11BlendState1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11blendstate">ID3D11BlendState</a>. <b>ID3D11BlendState1</b> also has these types of members:
 
 ## -remarks
 

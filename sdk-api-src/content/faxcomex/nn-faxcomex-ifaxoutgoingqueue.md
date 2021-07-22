@@ -54,7 +54,7 @@ The <b>IFaxOutgoingQueue</b> interface defines a <a href="/previous-versions/win
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingQueue</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingQueue</b> also has these types of members:
+The <b>IFaxOutgoingQueue</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingQueue</b> also has these types of members:
 
 ## -remarks
 

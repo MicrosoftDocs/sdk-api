@@ -55,7 +55,7 @@ Provides the clock times for the presentation clock.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPresentationTimeSource</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationTimeSource</b> also has these types of members:
+The <b>IMFPresentationTimeSource</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>. <b>IMFPresentationTimeSource</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ The <b>IADsMembers</b> interface serves a slightly different purpose from the  <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsMembers</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
+The <b>IADsMembers</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsMembers</b> also has these types of members:
 
 ## -see-also
 

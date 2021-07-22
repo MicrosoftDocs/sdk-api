@@ -54,7 +54,7 @@ Controls the RPC stub used to marshal data between COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
+The <b>IRpcStubBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
 
 ## -see-also
 

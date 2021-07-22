@@ -59,7 +59,7 @@ An extension derived from <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObjectEx</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>. <b>IViewObjectEx</b> also has these types of members:
+The <b>IViewObjectEx</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>. <b>IViewObjectEx</b> also has these types of members:
 
 ## -see-also
 

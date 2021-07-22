@@ -54,7 +54,7 @@ The <b>ISceSvcAttachmentData</b> interface retrieves configuration and analysis 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISceSvcAttachmentData</b> also has these types of members:
+The <b>ISceSvcAttachmentData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISceSvcAttachmentData</b> also has these types of members:
 
 ## -see-also
 

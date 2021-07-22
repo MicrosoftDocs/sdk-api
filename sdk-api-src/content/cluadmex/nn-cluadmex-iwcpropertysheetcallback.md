@@ -56,7 +56,7 @@ The <b>IWCPropertySheetCallback</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCPropertySheetCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCPropertySheetCallback</b> also has these types of members:
+The <b>IWCPropertySheetCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCPropertySheetCallback</b> also has these types of members:
 
 ## -remarks
 

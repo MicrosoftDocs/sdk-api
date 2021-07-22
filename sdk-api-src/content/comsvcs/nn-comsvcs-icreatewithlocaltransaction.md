@@ -54,5 +54,5 @@ Creates a COM+ object that executes within the scope of the specified local tran
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithLocalTransaction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
+The <b>ICreateWithLocalTransaction</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithLocalTransaction</b> also has these types of members:
 
