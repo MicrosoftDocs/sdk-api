@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns the property values of a specific font item index.
+Returns all unique property values in the set, which can be used for purposes such as displaying a family list or tag cloud. Values are returned in priority order according to the language list, such that if a font contains more than one localized name, the preferred one will be returned.
 
 ## -parameters
 
