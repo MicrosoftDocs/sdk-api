@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement7</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>. <b>IUIAutomationElement7</b> also has these types of members:
+The <b>IUIAutomationElement7</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>. <b>IUIAutomationElement7</b> also has these types of members:
 
 ## -see-also
 

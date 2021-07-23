@@ -55,7 +55,7 @@ Inherited from objects that are tied to the device so that they can retrieve a p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDeviceSubObject</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
+The <b>IDXGIDeviceSubObject</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIDeviceSubObject</b> also has these types of members:
 
 ## -remarks
 

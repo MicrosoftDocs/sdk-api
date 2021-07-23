@@ -54,7 +54,7 @@ Enables a client application   to access the items (cells) in a spreadsheet.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSpreadsheetPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSpreadsheetPattern</b> also has these types of members:
+The <b>IUIAutomationSpreadsheetPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSpreadsheetPattern</b> also has these types of members:
 
 ## -see-also
 

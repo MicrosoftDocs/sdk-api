@@ -54,7 +54,7 @@ Controls the recording sink. The recording sink creates compressed audio/video f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureRecordSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
+The <b>IMFCaptureRecordSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
 
 ## -remarks
 

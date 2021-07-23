@@ -54,7 +54,7 @@ Represents a filter that can be used to control which change units are included 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeUnitListFilterInfo</b> interface inherits from <b>ISyncFilterInfo</b>. <b>IChangeUnitListFilterInfo</b> also has these types of members:
+The <b>IChangeUnitListFilterInfo</b> interface inherits from <b>ISyncFilterInfo</b>. <b>IChangeUnitListFilterInfo</b> also has these types of members:
 
 ## -remarks
 

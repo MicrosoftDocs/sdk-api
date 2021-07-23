@@ -56,7 +56,7 @@ The <b>IEnroll4</b> interface represents the Certificate Enrollment Control and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnroll4</b> interface inherits from <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> and <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>. <b>IEnroll4</b> also has these types of members:
+The <b>IEnroll4</b> interface inherits from <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> and <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>. <b>IEnroll4</b> also has these types of members:
 
 ## -see-also
 

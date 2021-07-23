@@ -54,7 +54,7 @@ The <b>ICspInformation</b> interface provides access to general information abou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspInformation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
+The <b>ICspInformation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
 
 ## -see-also
 

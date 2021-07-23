@@ -54,7 +54,7 @@ Enumerates the components of a moniker or the monikers in a table of monikers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMoniker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
+The <b>IEnumMoniker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMoniker</b> also has these types of members:
 
 ## -see-also
 

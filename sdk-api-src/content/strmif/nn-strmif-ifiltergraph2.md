@@ -57,7 +57,7 @@ The Filter Graph Manager implements this interface. Applications can use it when
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterGraph2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>. <b>IFilterGraph2</b> also has these types of members:
+The <b>IFilterGraph2</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a>. <b>IFilterGraph2</b> also has these types of members:
 
 ## -see-also
 

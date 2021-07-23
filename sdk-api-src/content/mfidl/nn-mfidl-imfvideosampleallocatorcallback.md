@@ -56,7 +56,7 @@ The stream sinks on the EVR expose this interface as a service. To get a pointer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoSampleAllocatorCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorCallback</b> also has these types of members:
+The <b>IMFVideoSampleAllocatorCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoSampleAllocatorCallback</b> also has these types of members:
 
 ## -see-also
 

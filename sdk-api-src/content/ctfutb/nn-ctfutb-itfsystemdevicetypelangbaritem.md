@@ -54,7 +54,7 @@ The <b>ITfSystemDeviceTypeLangBarItem</b> interface is implemented by a system l
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemDeviceTypeLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemDeviceTypeLangBarItem</b> also has these types of members:
+The <b>ITfSystemDeviceTypeLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemDeviceTypeLangBarItem</b> also has these types of members:
 
 ## -remarks
 

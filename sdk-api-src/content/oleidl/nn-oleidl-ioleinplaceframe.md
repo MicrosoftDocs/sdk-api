@@ -54,7 +54,7 @@ Controls the container's top-level frame window. This control involves allowing 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceFrame</b> interface inherits from <b>IOleInPlaceUIWindow</b>. <b>IOleInPlaceFrame</b> also has these types of members:
+The <b>IOleInPlaceFrame</b> interface inherits from <b>IOleInPlaceUIWindow</b>. <b>IOleInPlaceFrame</b> also has these types of members:
 
 ## -see-also
 

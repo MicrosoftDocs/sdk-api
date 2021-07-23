@@ -54,5 +54,5 @@ Extends <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList2</b> interface inherits from <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a>. <b>IImageList2</b> also has these types of members:
+The <b>IImageList2</b> interface inherits from <a href="/windows/desktop/api/commoncontrols/nn-commoncontrols-iimagelist">IImageList</a>. <b>IImageList2</b> also has these types of members:
 

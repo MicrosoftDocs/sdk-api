@@ -54,5 +54,5 @@ The <b>IAzNameResolver</b> interface translates <a href="/windows/desktop/SecGlo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
+The <b>IAzNameResolver</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
 

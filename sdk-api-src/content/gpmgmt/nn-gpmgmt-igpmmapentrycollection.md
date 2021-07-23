@@ -59,7 +59,7 @@ The <b>IGPMMapEntryCollection</b> interface enables applications to access map e
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMapEntryCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMMapEntryCollection</b> also has these types of members:
+The <b>IGPMMapEntryCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMMapEntryCollection</b> also has these types of members:
 
 ## -see-also
 

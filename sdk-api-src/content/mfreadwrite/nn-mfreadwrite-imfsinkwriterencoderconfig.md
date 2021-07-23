@@ -54,7 +54,7 @@ Provides additional functionality on the sink writer for dynamically changing th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSinkWriterEncoderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSinkWriterEncoderConfig</b> also has these types of members:
+The <b>IMFSinkWriterEncoderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSinkWriterEncoderConfig</b> also has these types of members:
 
 ## -remarks
 

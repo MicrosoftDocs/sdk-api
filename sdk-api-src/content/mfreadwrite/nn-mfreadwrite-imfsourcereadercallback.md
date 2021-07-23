@@ -54,7 +54,7 @@ Callback interface for the Microsoft Media Foundation source reader.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReaderCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceReaderCallback</b> also has these types of members:
+The <b>IMFSourceReaderCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceReaderCallback</b> also has these types of members:
 
 ## -remarks
 

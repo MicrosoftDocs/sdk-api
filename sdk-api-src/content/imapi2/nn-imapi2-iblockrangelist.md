@@ -55,7 +55,7 @@ Use this interface to retrieve a list of continuous sector ranges on the media. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
+The <b>IBlockRangeList</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
 
 ## -remarks
 

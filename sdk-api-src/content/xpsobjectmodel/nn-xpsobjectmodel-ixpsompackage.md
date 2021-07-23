@@ -56,7 +56,7 @@ Provides the top-level entry into the XPS object model tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackage</b> also has these types of members:
+The <b>IXpsOMPackage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackage</b> also has these types of members:
 
 ## -remarks
 

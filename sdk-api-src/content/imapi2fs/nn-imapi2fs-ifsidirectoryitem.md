@@ -56,7 +56,7 @@ To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiDirectoryItem</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>. <b>IFsiDirectoryItem</b> also has these types of members:
+The <b>IFsiDirectoryItem</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>. <b>IFsiDirectoryItem</b> also has these types of members:
 
 ## -remarks
 

@@ -57,7 +57,7 @@ Provides methods to query and interact with iSCSI initiator portals on the local
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiInitiatorPortal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiInitiatorPortal</b> also has these types of members:
+The <b>IVdsIscsiInitiatorPortal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiInitiatorPortal</b> also has these types of members:
 
 ## -see-also
 

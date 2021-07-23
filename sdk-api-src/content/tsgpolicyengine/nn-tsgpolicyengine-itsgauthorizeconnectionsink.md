@@ -54,5 +54,5 @@ Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the resul
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthorizeConnectionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeConnectionSink</b> also has these types of members:
+The <b>ITSGAuthorizeConnectionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthorizeConnectionSink</b> also has these types of members:
 

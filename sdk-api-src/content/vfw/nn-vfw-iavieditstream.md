@@ -55,7 +55,7 @@ The <b>IAVIEditStream</b> interface supports manipulating and modifying editable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIEditStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIEditStream</b> also has these types of members:
+The <b>IAVIEditStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIEditStream</b> also has these types of members:
 
 ## -see-also
 

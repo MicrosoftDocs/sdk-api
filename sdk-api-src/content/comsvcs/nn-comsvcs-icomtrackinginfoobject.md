@@ -54,7 +54,7 @@ Retrieves the properties of a tracking information object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTrackingInfoObject</b> also has these types of members:
+The <b>IComTrackingInfoObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComTrackingInfoObject</b> also has these types of members:
 
 ## -see-also
 

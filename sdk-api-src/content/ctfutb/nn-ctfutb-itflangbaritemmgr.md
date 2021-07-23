@@ -56,7 +56,7 @@ A text service obtains an instance of this interface by calling ITfThreadMgr::Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemMgr</b> also has these types of members:
+The <b>ITfLangBarItemMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemMgr</b> also has these types of members:
 
 ## -see-also
 

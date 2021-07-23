@@ -54,7 +54,7 @@ Controls a capture sink, which is an object that receives one or more streams fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
+The <b>IMFCaptureSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSink</b> also has these types of members:
 
 ## -remarks
 

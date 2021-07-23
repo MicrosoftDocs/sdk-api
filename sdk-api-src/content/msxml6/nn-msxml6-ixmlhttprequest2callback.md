@@ -55,7 +55,7 @@ Defines callbacks that notify an application with an outstanding <a href="/previ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest2Callback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLHTTPRequest2Callback</b> also has these types of members:
+The <b>IXMLHTTPRequest2Callback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLHTTPRequest2Callback</b> also has these types of members:
 
 ## -remarks
 

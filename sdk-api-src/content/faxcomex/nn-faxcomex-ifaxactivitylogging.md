@@ -54,7 +54,7 @@ The <b>IFaxActivityLogging</b> interface defines a configuration object used by 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxActivityLogging</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
+The <b>IFaxActivityLogging</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxActivityLogging</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ The <b>IX509AttributeArchiveKey</b> interface represents an attribute that conta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509AttributeArchiveKey</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeArchiveKey</b> also has these types of members:
+The <b>IX509AttributeArchiveKey</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>. <b>IX509AttributeArchiveKey</b> also has these types of members:
 
 ## -see-also
 

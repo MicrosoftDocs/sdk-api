@@ -60,7 +60,7 @@ Provides the methods for accessing and setting triggers for a task. Triggers spe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskTrigger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskTrigger</b> also has these types of members:
+The <b>ITaskTrigger</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskTrigger</b> also has these types of members:
 
 ## -see-also
 

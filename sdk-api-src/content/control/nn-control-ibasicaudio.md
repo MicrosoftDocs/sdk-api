@@ -57,7 +57,7 @@ This interface is implemented on the <a href="/windows/desktop/DirectShow/audio-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
+The <b>IBasicAudio</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
 
 ## -see-also
 

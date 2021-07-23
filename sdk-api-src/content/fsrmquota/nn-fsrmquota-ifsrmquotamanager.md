@@ -64,7 +64,7 @@ To get this interface, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmQuotaManager</b> also has these types of members:
+The <b>IFsrmQuotaManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmQuotaManager</b> also has these types of members:
 
 ## -remarks
 

@@ -58,7 +58,7 @@ Base interface for all quota interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaBase</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmQuotaBase</b> also has these types of members:
+The <b>IFsrmQuotaBase</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmQuotaBase</b> also has these types of members:
 
 ## -see-also
 

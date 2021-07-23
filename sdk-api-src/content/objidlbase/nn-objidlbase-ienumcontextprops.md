@@ -54,5 +54,5 @@ Provides a mechanism for enumerating the context properties associated with a CO
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumContextProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumContextProps</b> also has these types of members:
+The <b>IEnumContextProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumContextProps</b> also has these types of members:
 

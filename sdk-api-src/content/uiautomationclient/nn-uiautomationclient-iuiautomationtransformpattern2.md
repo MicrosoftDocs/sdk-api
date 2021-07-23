@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern2</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>. <b>IUIAutomationTransformPattern2</b> also has these types of members:
+The <b>IUIAutomationTransformPattern2</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a>. <b>IUIAutomationTransformPattern2</b> also has these types of members:
 
 ## -see-also
 

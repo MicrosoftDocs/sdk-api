@@ -57,7 +57,7 @@ Provides basic methods for a generic transactional object that begins a transact
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContextEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
+The <b>ITransactionContextEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
 
 ## -remarks
 

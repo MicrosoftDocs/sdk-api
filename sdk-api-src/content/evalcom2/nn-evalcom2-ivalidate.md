@@ -54,7 +54,7 @@ The <b>IValidate</b> interface enables authoring tools to validate a Windows Ins
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValidate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValidate</b> also has these types of members:
+The <b>IValidate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValidate</b> also has these types of members:
 
 ## -see-also
 

@@ -56,7 +56,7 @@ You may want to use this interface to enable diagnostic tools to capture usage p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12SharingContract</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
+The <b>ID3D12SharingContract</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12SharingContract</b> also has these types of members:
 
 ## -see-also
 

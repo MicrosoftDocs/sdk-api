@@ -59,7 +59,7 @@ Of the ADSI system-supplied providers, only the LDAP provider supports this inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectoryObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectoryObject</b> also has these types of members:
+The <b>IDirectoryObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectoryObject</b> also has these types of members:
 
 ## -see-also
 

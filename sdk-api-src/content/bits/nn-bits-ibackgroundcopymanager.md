@@ -57,7 +57,7 @@ For information on how to create an instance of this interface, see
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
+The <b>IBackgroundCopyManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyManager</b> also has these types of members:
 
 ## -remarks
 

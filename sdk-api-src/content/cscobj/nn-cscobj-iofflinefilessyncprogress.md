@@ -59,7 +59,7 @@ Used to report progress back to the caller during synchronization and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSyncProgress</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>. <b>IOfflineFilesSyncProgress</b> also has these types of members:
+The <b>IOfflineFilesSyncProgress</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>. <b>IOfflineFilesSyncProgress</b> also has these types of members:
 
 ## -see-also
 

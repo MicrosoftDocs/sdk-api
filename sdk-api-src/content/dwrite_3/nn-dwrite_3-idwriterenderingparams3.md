@@ -54,7 +54,7 @@ Represents text rendering settings for glyph rasterization and filtering.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
+The <b>IDWriteRenderingParams3</b> interface inherits from <a href="/windows/win32/api/dwrite_2/nn-dwrite_2-idwriterenderingparams2">IDWriteRenderingParams2</a>. <b>IDWriteRenderingParams3</b> also has these types of members:
 
 ## -see-also
 

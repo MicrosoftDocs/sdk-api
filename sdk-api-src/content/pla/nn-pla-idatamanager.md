@@ -56,7 +56,7 @@ To get this interface, access the <a href="/previous-versions/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataManager</b> also has these types of members:
+The <b>IDataManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataManager</b> also has these types of members:
 
 ## -remarks
 

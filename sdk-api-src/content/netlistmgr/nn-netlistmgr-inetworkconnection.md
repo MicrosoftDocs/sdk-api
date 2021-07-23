@@ -54,5 +54,5 @@ The <b>INetworkConnection</b> interface represents a single network connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetworkConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnection</b> also has these types of members:
+The <b>INetworkConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetworkConnection</b> also has these types of members:
 

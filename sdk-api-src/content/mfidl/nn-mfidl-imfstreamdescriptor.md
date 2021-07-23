@@ -55,7 +55,7 @@ Gets information about one stream in a media source.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFStreamDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFStreamDescriptor</b> also has these types of members:
+The <b>IMFStreamDescriptor</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFStreamDescriptor</b> also has these types of members:
 
 ## -remarks
 

@@ -59,7 +59,7 @@ The <b>IFaxServer</b> dual interface is used by a fax client application to mana
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxServer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxServer</b> also has these types of members:
+The <b>IFaxServer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxServer</b> also has these types of members:
 
 ## -remarks
 

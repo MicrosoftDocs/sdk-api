@@ -54,7 +54,7 @@ Contains the settings that are available in Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>. <b>IAutomaticUpdatesSettings2</b> also has these types of members:
+The <b>IAutomaticUpdatesSettings2</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>. <b>IAutomaticUpdatesSettings2</b> also has these types of members:
 
 ## -remarks
 

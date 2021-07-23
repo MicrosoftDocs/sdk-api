@@ -54,7 +54,7 @@ Represents an item to exclude from a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISingleItemException</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
+The <b>ISingleItemException</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISingleItemException</b> also has these types of members:
 
 ## -see-also
 

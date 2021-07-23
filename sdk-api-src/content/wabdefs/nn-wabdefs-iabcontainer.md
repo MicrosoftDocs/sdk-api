@@ -55,7 +55,7 @@ Do not use. This interface provides access to address book containers. Applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IABContainer</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc839817(v=office.12)">IMAPIContainer</a>. <b>IABContainer</b> also has these types of members:
+The <b>IABContainer</b> interface inherits from <a href="/previous-versions/office/developer/office-2007/cc839817(v=office.12)">IMAPIContainer</a>. <b>IABContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

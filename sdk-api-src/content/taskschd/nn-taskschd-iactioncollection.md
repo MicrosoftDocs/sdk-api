@@ -54,7 +54,7 @@ Contains the actions that are performed by the task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActionCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IActionCollection</b> also has these types of members:
+The <b>IActionCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IActionCollection</b> also has these types of members:
 
 ## -remarks
 

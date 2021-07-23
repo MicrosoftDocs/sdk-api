@@ -54,5 +54,5 @@ Navigates the settings tree, retrieves the metadata for a particular setting, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsItem</b> also has these types of members:
+The <b>ISettingsItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsItem</b> also has these types of members:
 

@@ -54,7 +54,7 @@ Extends the  <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationcli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
+The <b>IUIAutomationElement3</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement3">IUIAutomationElement2</a>. <b>IUIAutomationElement3</b> also has these types of members:
 
 ## -see-also
 

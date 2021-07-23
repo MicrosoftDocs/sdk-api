@@ -54,5 +54,5 @@ This interface is not implemented.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaNotifyDevMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaNotifyDevMgr</b> also has these types of members:
+The <b>IWiaNotifyDevMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaNotifyDevMgr</b> also has these types of members:
 

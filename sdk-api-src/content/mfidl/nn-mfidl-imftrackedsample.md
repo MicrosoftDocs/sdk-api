@@ -55,7 +55,7 @@ Tracks the reference counts on a video media sample. Video samples created by th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTrackedSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrackedSample</b> also has these types of members:
+The <b>IMFTrackedSample</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrackedSample</b> also has these types of members:
 
 ## -remarks
 

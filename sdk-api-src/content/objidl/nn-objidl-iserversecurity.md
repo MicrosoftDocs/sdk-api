@@ -54,7 +54,7 @@ Used by a server to help authenticate the client and to manage impersonation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
+The <b>IServerSecurity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
 
 ## -see-also
 

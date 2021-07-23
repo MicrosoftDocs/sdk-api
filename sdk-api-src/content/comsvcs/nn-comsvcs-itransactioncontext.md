@@ -57,7 +57,7 @@ Enables you to compose the work of multiple COM+ objects in a single transaction
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
+The <b>ITransactionContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
 
 ## -remarks
 

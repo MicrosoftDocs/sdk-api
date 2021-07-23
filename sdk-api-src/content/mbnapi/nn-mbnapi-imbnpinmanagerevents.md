@@ -57,7 +57,7 @@ Notification interface used to indicate when PIN Manager events have occurred.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnPinManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPinManagerEvents</b> also has these types of members:
+The <b>IMbnPinManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnPinManagerEvents</b> also has these types of members:
 
 ## -remarks
 

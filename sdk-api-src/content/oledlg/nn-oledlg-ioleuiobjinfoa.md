@@ -56,7 +56,7 @@ Implemented by containers and used by the container's <b>Object Properties</b> d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUIObjInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
+The <b>IOleUIObjInfo</b> interface inherits from <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>. <b>IOleUIObjInfo</b> also has these types of members:
 
 ## -see-also
 

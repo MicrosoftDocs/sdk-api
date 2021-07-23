@@ -54,7 +54,7 @@ Creates <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyValueStatics</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IPropertyValueStatics</b> also has these types of members:
+The <b>IPropertyValueStatics</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IPropertyValueStatics</b> also has these types of members:
 
 ## -see-also
 

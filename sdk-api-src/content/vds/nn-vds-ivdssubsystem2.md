@@ -57,5 +57,5 @@ Provides methods for performing query and configuration operations on a subsyste
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystem2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem2</b> also has these types of members:
+The <b>IVdsSubSystem2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystem2</b> also has these types of members:
 

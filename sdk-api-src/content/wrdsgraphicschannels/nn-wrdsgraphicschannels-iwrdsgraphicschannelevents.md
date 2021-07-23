@@ -54,7 +54,7 @@ This interface receives notifications that relate to a graphics virtual channel.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsGraphicsChannelEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannelEvents</b> also has these types of members:
+The <b>IWRdsGraphicsChannelEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsGraphicsChannelEvents</b> also has these types of members:
 
 ## -see-also
 

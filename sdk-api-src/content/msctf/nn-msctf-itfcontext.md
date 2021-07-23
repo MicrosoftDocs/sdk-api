@@ -54,7 +54,7 @@ The <b>ITfContext</b> interface is implemented by the TSF manager and used by ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContext</b> also has these types of members:
+The <b>ITfContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContext</b> also has these types of members:
 
 ## -remarks
 

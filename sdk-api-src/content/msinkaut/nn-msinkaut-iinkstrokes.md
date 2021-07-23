@@ -56,7 +56,7 @@ A stroke is a set of properties and point data that the digitizer captures that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
+The <b>IInkStrokes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
 
 ## -see-also
 

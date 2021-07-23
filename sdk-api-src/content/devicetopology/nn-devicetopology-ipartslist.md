@@ -56,7 +56,7 @@ For a code example that uses the <b>IPartsList</b> interface, see the implementa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartsList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartsList</b> also has these types of members:
+The <b>IPartsList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartsList</b> also has these types of members:
 
 ## -see-also
 

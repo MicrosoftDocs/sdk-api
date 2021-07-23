@@ -56,7 +56,7 @@ When an object is activated, it does not know if its visual display is already c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSiteEx</b> interface inherits from <b>IOleInPlaceSite</b>. <b>IOleInPlaceSiteEx</b> also has these types of members:
+The <b>IOleInPlaceSiteEx</b> interface inherits from <b>IOleInPlaceSite</b>. <b>IOleInPlaceSiteEx</b> also has these types of members:
 
 ## -see-also
 

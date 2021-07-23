@@ -55,7 +55,7 @@ The <code>IReferenceClockTimerControl</code> interface changes the timer period 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClockTimerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
+The <b>IReferenceClockTimerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
 
 ## -remarks
 

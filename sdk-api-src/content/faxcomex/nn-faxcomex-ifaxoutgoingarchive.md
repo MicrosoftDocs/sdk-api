@@ -54,7 +54,7 @@ The <b>IFaxOutgoingArchive</b> interface describes a configuration object that i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingArchive</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingArchive</b> also has these types of members:
+The <b>IFaxOutgoingArchive</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingArchive</b> also has these types of members:
 
 ## -remarks
 

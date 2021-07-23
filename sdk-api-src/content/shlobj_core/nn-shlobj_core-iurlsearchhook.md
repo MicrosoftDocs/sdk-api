@@ -54,7 +54,7 @@ Exposes a method that is used by the browser to translate the address of an unkn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
+The <b>IURLSearchHook</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
 
 ## -remarks
 

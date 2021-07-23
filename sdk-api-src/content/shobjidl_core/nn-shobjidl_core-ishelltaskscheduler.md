@@ -56,7 +56,7 @@ Exposes methods that enable interaction with, and control of, a task scheduler.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellTaskScheduler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellTaskScheduler</b> also has these types of members:
+The <b>IShellTaskScheduler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellTaskScheduler</b> also has these types of members:
 
 ## -remarks
 

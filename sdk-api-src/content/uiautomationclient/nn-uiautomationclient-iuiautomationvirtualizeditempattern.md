@@ -54,7 +54,7 @@ Represents an virtualized item, which is an item that is represented by a placeh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationVirtualizedItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationVirtualizedItemPattern</b> also has these types of members:
+The <b>IUIAutomationVirtualizedItemPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationVirtualizedItemPattern</b> also has these types of members:
 
 ## -remarks
 

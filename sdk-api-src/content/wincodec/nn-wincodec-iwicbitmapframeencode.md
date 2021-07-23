@@ -54,7 +54,7 @@ Represents an encoder's individual image frames.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapFrameEncode</b> also has these types of members:
+The <b>IWICBitmapFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapFrameEncode</b> also has these types of members:
 
 ## -see-also
 

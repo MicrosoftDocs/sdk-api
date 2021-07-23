@@ -56,7 +56,7 @@ To get a pointer to this interface, call the <a href="/windows/desktop/api/dxvah
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
+The <b>IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
 
 ## -see-also
 

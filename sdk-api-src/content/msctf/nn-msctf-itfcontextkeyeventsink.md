@@ -56,7 +56,7 @@ This event sink is installed by <a href="/windows/desktop/api/msctf/nf-msctf-itf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextKeyEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextKeyEventSink</b> also has these types of members:
+The <b>ITfContextKeyEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextKeyEventSink</b> also has these types of members:
 
 ## -see-also
 

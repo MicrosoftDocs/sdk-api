@@ -54,7 +54,7 @@ Represents synchronization provider registration. This is the core registration 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncProviderRegistration</b> also has these types of members:
+The <b>ISyncProviderRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncProviderRegistration</b> also has these types of members:
 
 ## -see-also
 

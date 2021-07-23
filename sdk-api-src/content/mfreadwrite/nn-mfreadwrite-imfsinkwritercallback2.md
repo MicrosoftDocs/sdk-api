@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwrit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSinkWriterCallback2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSinkWriterCallback2</b> also has these types of members:
+The <b>IMFSinkWriterCallback2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSinkWriterCallback2</b> also has these types of members:
 
 ## -remarks
 

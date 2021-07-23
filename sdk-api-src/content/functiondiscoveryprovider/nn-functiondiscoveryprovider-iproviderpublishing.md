@@ -56,7 +56,7 @@ This interface is implemented by a discovery provider to enable a client program
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPublishing</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPublishing</b> also has these types of members:
+The <b>IProviderPublishing</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPublishing</b> also has these types of members:
 
 ## -remarks
 

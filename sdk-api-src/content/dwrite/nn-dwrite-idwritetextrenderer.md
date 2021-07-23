@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextRenderer</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>. <b>IDWriteTextRenderer</b> also has these types of members:
+The <b>IDWriteTextRenderer</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>. <b>IDWriteTextRenderer</b> also has these types of members:
 
 ## -see-also
 

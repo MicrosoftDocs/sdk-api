@@ -64,7 +64,7 @@ See
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAgentSessionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSessionEvent</b> also has these types of members:
+The <b>ITAgentSessionEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAgentSessionEvent</b> also has these types of members:
 
 ## -see-also
 

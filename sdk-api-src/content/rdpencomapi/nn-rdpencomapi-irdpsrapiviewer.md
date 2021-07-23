@@ -58,7 +58,7 @@ This interface can be used to connect or  disconnect viewers and to get or set v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIViewer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIViewer</b> also has these types of members:
+The <b>IRDPSRAPIViewer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIViewer</b> also has these types of members:
 
 ## -see-also
 

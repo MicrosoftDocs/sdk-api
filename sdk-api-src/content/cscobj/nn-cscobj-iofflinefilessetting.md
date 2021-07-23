@@ -55,7 +55,7 @@ Represents a setting that controls the behavior the Offline Files service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSetting</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
+The <b>IOfflineFilesSetting</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
 
 ## -see-also
 

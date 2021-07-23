@@ -65,7 +65,7 @@ The <b>IADsPrintQueueOperations</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueueOperations</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueueOperations</b> also has these types of members:
+The <b>IADsPrintQueueOperations</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsPrintQueueOperations</b> also has these types of members:
 
 ## -see-also
 

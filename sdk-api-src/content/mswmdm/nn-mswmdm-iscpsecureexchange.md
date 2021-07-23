@@ -54,7 +54,7 @@ The <b>ISCPSecureExchange</b> interface is used to exchange secured content and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureExchange</b> also has these types of members:
+The <b>ISCPSecureExchange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureExchange</b> also has these types of members:
 
 ## -see-also
 

@@ -60,7 +60,7 @@ The <b>IGetClusterObjectInfo</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterObjectInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterObjectInfo</b> also has these types of members:
+The <b>IGetClusterObjectInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetClusterObjectInfo</b> also has these types of members:
 
 ## -remarks
 

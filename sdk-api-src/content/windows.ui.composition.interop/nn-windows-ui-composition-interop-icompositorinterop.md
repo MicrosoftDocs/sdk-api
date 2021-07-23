@@ -54,7 +54,7 @@ Native interoperation interface that allows creating swapchain surfaces and grap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositorInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositorInterop</b> also has these types of members:
+The <b>ICompositorInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositorInterop</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontCollectionLoader</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontCollectionLoader</b> also has these types of members:
+The <b>IDWriteFontCollectionLoader</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontCollectionLoader</b> also has these types of members:
 
 ## -remarks
 

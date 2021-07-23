@@ -57,7 +57,7 @@ For example, a media application presenting video at a typical framerate of 23.9
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChainMedia</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGISwapChainMedia</b> also has these types of members:
+The <b>IDXGISwapChainMedia</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGISwapChainMedia</b> also has these types of members:
 
 ## -remarks
 

@@ -57,7 +57,7 @@ The policy engine uses this interface to negotiate what type of content protecti
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTrustedOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrustedOutput</b> also has these types of members:
+The <b>IMFTrustedOutput</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTrustedOutput</b> also has these types of members:
 
 ## -remarks
 

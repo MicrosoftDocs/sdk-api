@@ -54,7 +54,7 @@ Allows a client program to manage the desktop items and wallpaper on a local com
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveDesktop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActiveDesktop</b> also has these types of members:
+The <b>IActiveDesktop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActiveDesktop</b> also has these types of members:
 
 ## -remarks
 

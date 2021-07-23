@@ -54,5 +54,5 @@ The <b>IEnumTfLanguageProfiles</b> interface is implemented by the TSF manager t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLanguageProfiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLanguageProfiles</b> also has these types of members:
+The <b>IEnumTfLanguageProfiles</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLanguageProfiles</b> also has these types of members:
 

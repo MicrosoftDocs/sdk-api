@@ -54,5 +54,5 @@ The <b>IAzScope2</b> interface extends the <a href="/windows/desktop/api/azroles
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzScope2</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a>. <b>IAzScope2</b> also has these types of members:
+The <b>IAzScope2</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a>. <b>IAzScope2</b> also has these types of members:
 

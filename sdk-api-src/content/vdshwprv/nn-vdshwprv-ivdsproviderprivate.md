@@ -57,7 +57,7 @@ Provides methods to enable VDS to perform miscellaneous operations on provider o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsProviderPrivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderPrivate</b> also has these types of members:
+The <b>IVdsProviderPrivate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsProviderPrivate</b> also has these types of members:
 
 ## -see-also
 

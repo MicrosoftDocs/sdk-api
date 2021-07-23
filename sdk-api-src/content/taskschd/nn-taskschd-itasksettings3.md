@@ -54,7 +54,7 @@ Provides the extended settings that the Task Scheduler uses to run the task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskSettings3</b> interface inherits from <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
+The <b>ITaskSettings3</b> interface inherits from <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>. <b>ITaskSettings3</b> also has these types of members:
 
 ## -see-also
 

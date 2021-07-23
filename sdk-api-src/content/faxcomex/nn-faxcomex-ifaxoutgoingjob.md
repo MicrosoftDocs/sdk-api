@@ -54,7 +54,7 @@ The <b>IFaxOutgoingJob</b> interface describes an object that is used by a fax c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingJob</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingJob</b> also has these types of members:
+The <b>IFaxOutgoingJob</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingJob</b> also has these types of members:
 
 ## -remarks
 

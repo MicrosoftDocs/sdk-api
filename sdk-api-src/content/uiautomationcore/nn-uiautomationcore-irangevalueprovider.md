@@ -54,7 +54,7 @@ Provides access to controls that can be set to a value within a range.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRangeValueProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRangeValueProvider</b> also has these types of members:
+The <b>IRangeValueProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRangeValueProvider</b> also has these types of members:
 
 ## -remarks
 

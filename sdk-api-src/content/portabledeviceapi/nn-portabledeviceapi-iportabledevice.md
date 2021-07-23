@@ -57,7 +57,7 @@ To create and open this interface, first call <a href="/windows/desktop/api/comb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevice</b> also has these types of members:
+The <b>IPortableDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDevice</b> also has these types of members:
 
 ## -remarks
 

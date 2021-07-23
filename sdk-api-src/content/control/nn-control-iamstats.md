@@ -57,7 +57,7 @@ The <code>IAMStats</code> interface retrieves performance data from the Filter G
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
+The <b>IAMStats</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
 
 ## -remarks
 

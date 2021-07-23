@@ -56,7 +56,7 @@ Do not use. Used to filter contact data, based on a label or property set. Enume
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactPropertyCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactPropertyCollection</b> also has these types of members:
+The <b>IContactPropertyCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactPropertyCollection</b> also has these types of members:
 
 ## -remarks
 

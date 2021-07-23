@@ -54,7 +54,7 @@ Describes the dependency of one package on another package.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageDependency2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
+The <b>IAppxManifestPackageDependency2</b> interface inherits from <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>. <b>IAppxManifestPackageDependency2</b> also has these types of members:
 
 ## -see-also
 

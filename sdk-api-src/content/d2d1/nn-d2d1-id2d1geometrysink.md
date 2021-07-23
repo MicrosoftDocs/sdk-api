@@ -54,7 +54,7 @@ Describes a geometric path that can contain lines, arcs, cubic Bezier curves, an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GeometrySink</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
+The <b>ID2D1GeometrySink</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. <b>ID2D1GeometrySink</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>

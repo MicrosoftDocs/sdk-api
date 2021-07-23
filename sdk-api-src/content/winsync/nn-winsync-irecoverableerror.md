@@ -54,7 +54,7 @@ Represents a recoverable error that occurred when an item was loaded or when an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRecoverableError</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecoverableError</b> also has these types of members:
+The <b>IRecoverableError</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecoverableError</b> also has these types of members:
 
 ## -see-also
 

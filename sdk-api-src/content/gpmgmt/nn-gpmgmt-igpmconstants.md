@@ -60,7 +60,7 @@ The <b>GPMConstants</b> object that implements the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMConstants</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMConstants</b> also has these types of members:
+The <b>IGPMConstants</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMConstants</b> also has these types of members:
 
 ## -remarks
 

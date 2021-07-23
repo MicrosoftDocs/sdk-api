@@ -54,7 +54,7 @@ The <b>IMSVidEVR</b> interface represents the <a href="/windows/desktop/DirectSh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
+The <b>IMSVidEVR</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -54,7 +54,7 @@ The <b>IFaxDeviceIds</b> interface defines a configuration collection used by a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDeviceIds</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDeviceIds</b> also has these types of members:
+The <b>IFaxDeviceIds</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDeviceIds</b> also has these types of members:
 
 ## -remarks
 

@@ -54,5 +54,5 @@ Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamAsync</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IStreamAsync</b> also has these types of members:
+The <b>IStreamAsync</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IStreamAsync</b> also has these types of members:
 

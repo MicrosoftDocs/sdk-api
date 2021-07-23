@@ -57,7 +57,7 @@ For the VMR-9, use the IVMRWindowlessControl9 interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRWindowlessControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRWindowlessControl</b> also has these types of members:
+The <b>IVMRWindowlessControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRWindowlessControl</b> also has these types of members:
 
 ## -see-also
 

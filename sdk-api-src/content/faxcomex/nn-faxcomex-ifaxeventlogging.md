@@ -54,7 +54,7 @@ The <b>IFaxEventLogging</b> interface defines a configuration object used by a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxEventLogging</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
+The <b>IFaxEventLogging</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxEventLogging</b> also has these types of members:
 
 ## -remarks
 

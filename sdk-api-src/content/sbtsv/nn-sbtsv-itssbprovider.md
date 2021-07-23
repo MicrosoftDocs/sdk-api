@@ -58,7 +58,7 @@ environment, target, and session objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvider</b> also has these types of members:
+The <b>ITsSbProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvider</b> also has these types of members:
 
 ## -see-also
 

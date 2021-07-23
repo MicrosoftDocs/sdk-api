@@ -54,7 +54,7 @@ Provides access to  a control that can be moved, resized, or rotated.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTransformPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTransformPattern</b> also has these types of members:
+The <b>IUIAutomationTransformPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTransformPattern</b> also has these types of members:
 
 ## -see-also
 

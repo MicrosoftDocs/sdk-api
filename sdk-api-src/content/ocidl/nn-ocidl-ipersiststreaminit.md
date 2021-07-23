@@ -56,7 +56,7 @@ This interface is not derived from <a href="/windows/desktop/api/objidl/nn-objid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistStreamInit</b> interface inherits from <b>IPersist</b>. <b>IPersistStreamInit</b> also has these types of members:
+The <b>IPersistStreamInit</b> interface inherits from <b>IPersist</b>. <b>IPersistStreamInit</b> also has these types of members:
 
 ## -see-also
 

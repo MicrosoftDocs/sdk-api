@@ -57,7 +57,7 @@ The <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Cap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoDecoder</b> also has these types of members:
+The <b>IAMAnalogVideoDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoDecoder</b> also has these types of members:
 
 ## -remarks
 

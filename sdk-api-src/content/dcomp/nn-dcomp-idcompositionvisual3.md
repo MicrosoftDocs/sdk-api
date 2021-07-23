@@ -54,7 +54,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual3</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
+The <b>IDCompositionVisual3</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>. <b>IDCompositionVisual3</b> also has these types of members:
 
 ## -see-also
 

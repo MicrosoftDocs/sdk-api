@@ -56,5 +56,5 @@ The <b>IImePadApplet</b> interface inputs strings into apps through the <a href=
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePadApplet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePadApplet</b> also has these types of members:
+The <b>IImePadApplet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePadApplet</b> also has these types of members:
 

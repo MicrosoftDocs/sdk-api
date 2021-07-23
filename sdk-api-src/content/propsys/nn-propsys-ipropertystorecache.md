@@ -54,7 +54,7 @@ Exposes methods that allow a handler to manage various states for each property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreCache</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>. <b>IPropertyStoreCache</b> also has these types of members:
+The <b>IPropertyStoreCache</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>. <b>IPropertyStoreCache</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
+The <b>IFaxOutgoingMessage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
 
 ## -remarks
 

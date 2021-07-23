@@ -55,7 +55,7 @@ Callback interface to get media data from the sample-grabber sink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleGrabberSinkCallback</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFSampleGrabberSinkCallback</b> also has these types of members:
+The <b>IMFSampleGrabberSinkCallback</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFSampleGrabberSinkCallback</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ The <code>IVMRSurface</code> interface is implemented on the media samples used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface</b> also has these types of members:
+The <b>IVMRSurface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface</b> also has these types of members:
 
 ## -see-also
 

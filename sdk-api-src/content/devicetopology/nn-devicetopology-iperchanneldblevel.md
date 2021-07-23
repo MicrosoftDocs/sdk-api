@@ -71,7 +71,7 @@ Clients do not call the methods in this interface directly. Instead, this interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerChannelDbLevel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
+The <b>IPerChannelDbLevel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
 
 ## -see-also
 

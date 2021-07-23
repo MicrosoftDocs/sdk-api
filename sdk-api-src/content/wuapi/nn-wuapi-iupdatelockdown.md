@@ -54,7 +54,7 @@ Restricts access to methods and properties of objects that implements the method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateLockdown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateLockdown</b> also has these types of members:
+The <b>IUpdateLockdown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateLockdown</b> also has these types of members:
 
 ## -remarks
 

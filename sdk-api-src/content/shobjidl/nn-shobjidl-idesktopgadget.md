@@ -54,7 +54,7 @@ Exposes a method that allows the programmatic addition of an installed gadget to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDesktopGadget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDesktopGadget</b> also has these types of members:
+The <b>IDesktopGadget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDesktopGadget</b> also has these types of members:
 
 ## -remarks
 

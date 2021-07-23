@@ -54,7 +54,7 @@ The <b>IDWriteTextLayout</b> interface represents a block of text after it has b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>. <b>IDWriteTextLayout</b> also has these types of members:
+The <b>IDWriteTextLayout</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>. <b>IDWriteTextLayout</b> also has these types of members:
 
 ## -remarks
 

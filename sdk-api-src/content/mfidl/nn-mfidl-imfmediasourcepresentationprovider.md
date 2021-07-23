@@ -57,7 +57,7 @@ To get a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourcePresentationProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourcePresentationProvider</b> also has these types of members:
+The <b>IMFMediaSourcePresentationProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSourcePresentationProvider</b> also has these types of members:
 
 ## -see-also
 

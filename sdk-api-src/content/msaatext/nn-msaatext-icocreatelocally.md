@@ -58,5 +58,5 @@ Exposes a method that enables a client application to create a helper object in 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoCreateLocally</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoCreateLocally</b> also has these types of members:
+The <b>ICoCreateLocally</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoCreateLocally</b> also has these types of members:
 

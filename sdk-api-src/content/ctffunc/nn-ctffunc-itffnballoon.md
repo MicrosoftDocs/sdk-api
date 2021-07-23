@@ -56,7 +56,7 @@ An application or text service obtains an instance of this interface by calling 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnBalloon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnBalloon</b> also has these types of members:
+The <b>ITfFnBalloon</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnBalloon</b> also has these types of members:
 
 ## -see-also
 

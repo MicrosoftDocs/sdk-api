@@ -55,7 +55,7 @@ Defines a transform that uses a compute shader.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ComputeTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>. <b>ID2D1ComputeTransform</b> also has these types of members:
+The <b>ID2D1ComputeTransform</b> interface inherits from <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>. <b>ID2D1ComputeTransform</b> also has these types of members:
 
 ## -remarks
 

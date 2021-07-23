@@ -54,7 +54,7 @@ Provides a single method that enables an application to determine whether its ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommandApplicationHostEnvironment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandApplicationHostEnvironment</b> also has these types of members:
+The <b>IExecuteCommandApplicationHostEnvironment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommandApplicationHostEnvironment</b> also has these types of members:
 
 ## -remarks
 

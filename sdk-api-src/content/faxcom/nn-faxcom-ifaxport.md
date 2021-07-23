@@ -58,7 +58,7 @@ The <b>IFaxPort</b> dual interface is used by a fax client application to access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxPort</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxPort</b> also has these types of members:
+The <b>IFaxPort</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxPort</b> also has these types of members:
 
 ## -remarks
 

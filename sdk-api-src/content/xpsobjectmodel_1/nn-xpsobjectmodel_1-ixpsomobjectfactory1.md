@@ -65,7 +65,7 @@ Converting HDPhoto resources into JpegXR resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMObjectFactory1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>. <b>IXpsOMObjectFactory1</b> also has these types of members:
+The <b>IXpsOMObjectFactory1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory">IXpsOMObjectFactory</a>. <b>IXpsOMObjectFactory1</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ The <b>IPersistQuery</b> interface is used to store and retrieve query parameter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistQuery</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
+The <b>IPersistQuery</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistQuery</b> also has these types of members:
 
 ## -see-also
 

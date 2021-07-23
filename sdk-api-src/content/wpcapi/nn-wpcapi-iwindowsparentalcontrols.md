@@ -54,5 +54,5 @@ Enables access to all settings interfaces of the Minimum Compliance API.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsParentalControls</b> interface inherits from <a href="nn-wpcapi-iwindowsparentalcontrolscore.md">IWindowsParentalControlsCore</a>. <b>IWindowsParentalControls</b> also has these types of members:
+The <b>IWindowsParentalControls</b> interface inherits from <a href="nn-wpcapi-iwindowsparentalcontrolscore.md">IWindowsParentalControlsCore</a>. <b>IWindowsParentalControls</b> also has these types of members:
 

@@ -54,7 +54,7 @@ Provides custom methods for the creation of COM object proxies and stubs. This i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPSFactoryBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
+The <b>IPSFactoryBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPSFactoryBuffer</b> also has these types of members:
 
 ## -see-also
 

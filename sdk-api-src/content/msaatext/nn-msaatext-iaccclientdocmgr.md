@@ -58,5 +58,5 @@ Exposes methods for client applications to retrieve documents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
+The <b>IAccClientDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
 

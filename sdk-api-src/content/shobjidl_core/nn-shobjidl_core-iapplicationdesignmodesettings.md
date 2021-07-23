@@ -54,7 +54,7 @@ Enables development tool applications to dynamically spoof system and user state
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationDesignModeSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDesignModeSettings</b> also has these types of members:
+The <b>IApplicationDesignModeSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationDesignModeSettings</b> also has these types of members:
 
 ## -remarks
 

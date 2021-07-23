@@ -61,7 +61,7 @@ Serializing page objects to markup of the requested type - MSXPS or OpenXps.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPage1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>. <b>IXpsOMPage1</b> also has these types of members:
+The <b>IXpsOMPage1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>. <b>IXpsOMPage1</b> also has these types of members:
 
 ## -remarks
 

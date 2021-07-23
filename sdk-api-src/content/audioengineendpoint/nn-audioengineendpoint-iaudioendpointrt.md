@@ -60,7 +60,7 @@ Gets the difference between the current read and write positions in the endpoint
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointRT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointRT</b> also has these types of members:
+The <b>IAudioEndpointRT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointRT</b> also has these types of members:
 
 ## -remarks
 

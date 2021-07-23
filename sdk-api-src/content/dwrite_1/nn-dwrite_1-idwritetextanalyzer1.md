@@ -54,7 +54,7 @@ Analyzes various text properties for complex script processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
+The <b>IDWriteTextAnalyzer1</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
 
 ## -see-also
 

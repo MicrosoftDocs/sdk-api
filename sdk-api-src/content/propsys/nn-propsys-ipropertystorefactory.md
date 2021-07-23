@@ -54,7 +54,7 @@ Exposes methods to get an <a href="/windows/desktop/api/propsys/nn-propsys-iprop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStoreFactory</b> also has these types of members:
+The <b>IPropertyStoreFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStoreFactory</b> also has these types of members:
 
 ## -remarks
 

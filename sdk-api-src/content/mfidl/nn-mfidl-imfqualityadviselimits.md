@@ -56,7 +56,7 @@ The default presenter for the <i>enhanced video renderer</i> (EVR) implements th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdviseLimits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdviseLimits</b> also has these types of members:
+The <b>IMFQualityAdviseLimits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFQualityAdviseLimits</b> also has these types of members:
 
 ## -see-also
 

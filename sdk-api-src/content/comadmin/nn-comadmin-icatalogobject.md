@@ -56,5 +56,5 @@ The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_it
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
+The <b>ICatalogObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
 

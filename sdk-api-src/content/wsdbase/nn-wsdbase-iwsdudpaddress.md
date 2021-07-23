@@ -54,5 +54,5 @@ Provides access to the individual components of a UDP address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDUdpAddress</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>. <b>IWSDUdpAddress</b> also has these types of members:
+The <b>IWSDUdpAddress</b> interface inherits from <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>. <b>IWSDUdpAddress</b> also has these types of members:
 

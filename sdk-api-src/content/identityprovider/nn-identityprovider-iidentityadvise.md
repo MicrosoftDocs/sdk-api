@@ -55,7 +55,7 @@ The <b>IIdentityAdvise</b> interface allows an identity provider to notify a cal
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIdentityAdvise</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityAdvise</b> also has these types of members:
+The <b>IIdentityAdvise</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIdentityAdvise</b> also has these types of members:
 
 ## -see-also
 

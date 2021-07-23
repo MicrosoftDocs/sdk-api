@@ -99,4 +99,4 @@ The <b>CVssWriter</b> base class is responsible for the life cycle
 <li>The instance of the 
      <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface passed to 
      <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a>.</li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CVssWriter</b> has these types of members:
+</ul><b>CVssWriter</b> has these types of members:

@@ -54,5 +54,5 @@ Creates a call object for processing calls to the methods of an asynchronous int
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFactory</b> also has these types of members:
+The <b>ICallFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFactory</b> also has these types of members:
 

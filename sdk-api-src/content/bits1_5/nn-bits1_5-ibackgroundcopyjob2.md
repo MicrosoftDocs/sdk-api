@@ -65,7 +65,7 @@ To get an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
+The <b>IBackgroundCopyJob2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>. <b>IBackgroundCopyJob2</b> also has these types of members:
 
 ## -see-also
 

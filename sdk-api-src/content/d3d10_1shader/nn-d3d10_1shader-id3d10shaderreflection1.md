@@ -55,7 +55,7 @@ A shader-reflection interface accesses shader information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflection1</b> interface inherits from <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>. <b>ID3D10ShaderReflection1</b> also has these types of members:
+The <b>ID3D10ShaderReflection1</b> interface inherits from <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection</a>. <b>ID3D10ShaderReflection1</b> also has these types of members:
 
 ## -remarks
 

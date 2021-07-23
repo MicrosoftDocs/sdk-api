@@ -58,7 +58,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImage</b> also has these types of members:
+The <b>IFileSystemImage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImage</b> also has these types of members:
 
 ## -remarks
 

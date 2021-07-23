@@ -54,7 +54,7 @@ Configures the DirectShow <a href="/windows/desktop/DirectShow/enhanced-video-re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRFilterConfigEx</b> interface inherits from <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>. <b>IEVRFilterConfigEx</b> also has these types of members:
+The <b>IEVRFilterConfigEx</b> interface inherits from <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>. <b>IEVRFilterConfigEx</b> also has these types of members:
 
 ## -see-also
 

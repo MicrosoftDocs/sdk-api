@@ -56,7 +56,7 @@ Advise sinks are objects that require notification of change in the data the obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
+The <b>IDataAdviseHolder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDataAdviseHolder</b> also has these types of members:
 
 ## -see-also
 

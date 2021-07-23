@@ -57,7 +57,7 @@ The Media Session exposes this interface as a service. To get a pointer to the i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyNodeAttributeEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyNodeAttributeEditor</b> also has these types of members:
+The <b>IMFTopologyNodeAttributeEditor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyNodeAttributeEditor</b> also has these types of members:
 
 ## -remarks
 

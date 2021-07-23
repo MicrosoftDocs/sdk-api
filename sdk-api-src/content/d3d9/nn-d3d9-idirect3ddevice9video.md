@@ -56,7 +56,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on a D3D9Ex devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Video</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
+The <b>IDirect3DDevice9Video</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
 
 ## -see-also
 

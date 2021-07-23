@@ -61,7 +61,7 @@ If you use this interface from a setup program that also installs the BITS serve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
+The <b>IBITSExtensionSetup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
 
 ## -remarks
 

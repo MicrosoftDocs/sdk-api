@@ -54,7 +54,7 @@ Enumerates change unit exceptions that are stored in a knowledge object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumChangeUnitExceptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumChangeUnitExceptions</b> also has these types of members:
+The <b>IEnumChangeUnitExceptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumChangeUnitExceptions</b> also has these types of members:
 
 ## -see-also
 

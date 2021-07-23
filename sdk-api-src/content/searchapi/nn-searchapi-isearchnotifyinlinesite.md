@@ -54,7 +54,7 @@ Provides methods the Search service uses to send updates on catalog and index st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchNotifyInlineSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchNotifyInlineSite</b> also has these types of members:
+The <b>ISearchNotifyInlineSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchNotifyInlineSite</b> also has these types of members:
 
 ## -see-also
 

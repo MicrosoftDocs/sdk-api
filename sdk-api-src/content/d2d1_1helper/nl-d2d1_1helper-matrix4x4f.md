@@ -52,7 +52,7 @@ api_name:
 
 The <b>Matrix4x4F</b> class represents a 4-by-4 matrix and provides convenience methods for creating matrices.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> has these types of members:
+<b>Matrix4x4F</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
@@ -176,7 +176,7 @@ Skews the matrix in the Y direction.
 </td>
 </tr>
 </table> 
-<h3><a id="operators"></a>Operators</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Matrix4x4F</b> class has these operators.
+<h3><a id="operators"></a>Operators</h3>The <b>Matrix4x4F</b> class has these operators.
 <table>
 <tr>
 <th align="left" width="37%">Operator</th>

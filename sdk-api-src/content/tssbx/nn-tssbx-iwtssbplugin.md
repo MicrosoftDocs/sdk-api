@@ -58,7 +58,7 @@ Used to extend the capabilities of Terminal Services Session Broker (TS Session
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
+The <b>IWTSSBPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSSBPlugin</b> also has these types of members:
 
 ## -remarks
 

@@ -62,7 +62,7 @@ You can instantiate a <b>GPMStarterGPO</b> object by creating a new one with a c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPO</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPO</b> also has these types of members:
+The <b>IGPMStarterGPO</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPO</b> also has these types of members:
 
 ## -remarks
 

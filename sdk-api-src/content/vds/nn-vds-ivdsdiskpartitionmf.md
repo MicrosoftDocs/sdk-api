@@ -57,5 +57,5 @@ Provides methods to perform file system management operations on partitions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDiskPartitionMF</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF</b> also has these types of members:
+The <b>IVdsDiskPartitionMF</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDiskPartitionMF</b> also has these types of members:
 

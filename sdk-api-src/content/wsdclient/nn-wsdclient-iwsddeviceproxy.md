@@ -56,7 +56,7 @@ To get this interface, you can call <a href="/windows/desktop/api/wsdclient/nf-w
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDDeviceProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDDeviceProxy</b> also has these types of members:
+The <b>IWSDDeviceProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDDeviceProxy</b> also has these types of members:
 
 ## -remarks
 

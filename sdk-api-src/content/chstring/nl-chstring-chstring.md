@@ -61,7 +61,7 @@ api_name:
 
 The following table lists the <b>CHString</b> methods.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHString</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>CHString</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -385,7 +385,7 @@ Enables reference counting and releases the string in the buffer.
 </td>
 </tr>
 </table> 
-<h3><a id="operators"></a>Operators</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHString</b> class has these operators.
+<h3><a id="operators"></a>Operators</h3>The <b>CHString</b> class has these operators.
 <table>
 <tr>
 <th align="left" width="37%">Operator</th>

@@ -54,7 +54,7 @@ Implement this interface to receive notifications of the current write operation
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
+The <b>DFileSystemImageEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageEvents</b> also has these types of members:
 
 ## -see-also
 

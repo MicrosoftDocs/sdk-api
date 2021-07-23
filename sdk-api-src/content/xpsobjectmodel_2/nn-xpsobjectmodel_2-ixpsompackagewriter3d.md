@@ -54,7 +54,7 @@ Contains methods that support model textures and print ticket.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter3D</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>. <b>IXpsOMPackageWriter3D</b> also has these types of members:
+The <b>IXpsOMPackageWriter3D</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>. <b>IXpsOMPackageWriter3D</b> also has these types of members:
 
 ## -see-also
 

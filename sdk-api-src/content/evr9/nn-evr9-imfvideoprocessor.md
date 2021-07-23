@@ -67,7 +67,7 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessor</b> also has these types of members:
+The <b>IMFVideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessor</b> also has these types of members:
 
 ## -remarks
 

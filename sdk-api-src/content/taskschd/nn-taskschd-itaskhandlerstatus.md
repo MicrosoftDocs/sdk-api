@@ -54,7 +54,7 @@ Provides the methods that are used by COM handlers to notify the Task Scheduler 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskHandlerStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandlerStatus</b> also has these types of members:
+The <b>ITaskHandlerStatus</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskHandlerStatus</b> also has these types of members:
 
 ## -remarks
 

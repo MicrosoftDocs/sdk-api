@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3DDevice9Ex interface to render primi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
+The <b>IDirect3DDevice9Ex</b> interface inherits from <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>. <b>IDirect3DDevice9Ex</b> also has these types of members:
 
 ## -remarks
 

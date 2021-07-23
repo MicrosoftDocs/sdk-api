@@ -111,7 +111,7 @@ The following methods and properties return this collection:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCommittableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>. <b>IFsrmCommittableCollection</b> also has these types of members:
+The <b>IFsrmCommittableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>. <b>IFsrmCommittableCollection</b> also has these types of members:
 
 ## -see-also
 

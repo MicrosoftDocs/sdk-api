@@ -56,7 +56,7 @@ A function-linking-graph interface is used for constructing shaders that consist
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionLinkingGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11FunctionLinkingGraph</b> also has these types of members:
+The <b>ID3D11FunctionLinkingGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11FunctionLinkingGraph</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ Presents share-specific information about cached items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesShareInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
+The <b>IOfflineFilesShareInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesShareInfo</b> also has these types of members:
 
 ## -see-also
 

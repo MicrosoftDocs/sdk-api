@@ -55,7 +55,7 @@ The <b>IDXGIFactory1</b> interface implements methods for generating DXGI object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
+The <b>IDXGIFactory1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>. <b>IDXGIFactory1</b> also has these types of members:
 
 ## -remarks
 

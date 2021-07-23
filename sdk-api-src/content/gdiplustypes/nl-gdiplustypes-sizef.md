@@ -54,7 +54,7 @@ The <b>SizeF</b> class encapsulates a
 			<b>Width</b> and 
 			<b>Height</b> dimension in a 2-D coordinate system. The <b>SizeF</b> class uses floating point coordinates.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">SizeF</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>SizeF</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

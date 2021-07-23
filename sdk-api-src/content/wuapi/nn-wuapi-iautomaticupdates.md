@@ -54,7 +54,7 @@ Contains the functionality of Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
+The <b>IAutomaticUpdates</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
 
 ## -remarks
 

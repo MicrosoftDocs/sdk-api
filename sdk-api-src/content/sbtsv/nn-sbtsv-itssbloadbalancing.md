@@ -58,7 +58,7 @@ connects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbLoadBalancing</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbLoadBalancing</b> also has these types of members:
+The <b>ITsSbLoadBalancing</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbLoadBalancing</b> also has these types of members:
 
 ## -remarks
 

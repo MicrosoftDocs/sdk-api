@@ -55,7 +55,7 @@ Exposes methods used for progress notification for encoders and decoders.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapCodecProgressNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapCodecProgressNotification</b> also has these types of members:
+The <b>IWICBitmapCodecProgressNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapCodecProgressNotification</b> also has these types of members:
 
 ## -remarks
 

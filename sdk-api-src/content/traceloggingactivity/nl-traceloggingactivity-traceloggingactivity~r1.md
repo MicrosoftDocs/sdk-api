@@ -41,12 +41,12 @@ targetos: Windows
 
 Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> has these types of members:
+<b>TraceLoggingActivity</b> has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Constructors</a></li>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these constructors.
+</ul><h3><a id="constructors"></a>Constructors</h3>The <b>TraceLoggingActivity</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -132,7 +132,7 @@ Sets the related activity using the unique identifier.
 </td>
 </tr>
 </table>�
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these properties.
+<h3><a id="properties"></a>Properties</h3>The <b>TraceLoggingActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -232,7 +232,7 @@ Sets the related activity using the unique identifier.
 
 �
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these properties.
+The <b>TraceLoggingActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>

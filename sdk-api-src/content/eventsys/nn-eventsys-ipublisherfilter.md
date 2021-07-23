@@ -57,7 +57,7 @@ Acts as a callback interface so that event publishers can control which subscrib
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
+The <b>IPublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPublisherFilter</b> also has these types of members:
 
 ## -see-also
 

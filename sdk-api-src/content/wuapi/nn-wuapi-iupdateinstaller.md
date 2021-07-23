@@ -54,7 +54,7 @@ Installs or uninstalls updates from or onto a computer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateInstaller</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateInstaller</b> also has these types of members:
+The <b>IUpdateInstaller</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateInstaller</b> also has these types of members:
 
 ## -remarks
 

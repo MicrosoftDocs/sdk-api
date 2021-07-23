@@ -54,7 +54,7 @@ Extension for the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineClassFactoryEx</b> interface inherits from <b>IMFMediaEngineClassFactory</b>. <b>IMFMediaEngineClassFactoryEx</b> also has these types of members:
+The <b>IMFMediaEngineClassFactoryEx</b> interface inherits from <b>IMFMediaEngineClassFactory</b>. <b>IMFMediaEngineClassFactoryEx</b> also has these types of members:
 
 ## -remarks
 

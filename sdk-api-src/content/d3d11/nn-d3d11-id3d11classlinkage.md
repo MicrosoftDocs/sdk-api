@@ -55,7 +55,7 @@ This interface encapsulates an HLSL dynamic linkage.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ClassLinkage</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11ClassLinkage</b> also has these types of members:
+The <b>ID3D11ClassLinkage</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11ClassLinkage</b> also has these types of members:
 
 ## -remarks
 

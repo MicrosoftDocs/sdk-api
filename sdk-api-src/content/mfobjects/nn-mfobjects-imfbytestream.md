@@ -55,7 +55,7 @@ Represents a byte stream from some data source, which might be a local file, a n
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStream</b> also has these types of members:
+The <b>IMFByteStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStream</b> also has these types of members:
 
 ## -remarks
 

@@ -54,5 +54,5 @@ Enumerates the content groups from a content group map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
+The <b>IAppxContentGroupsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
 

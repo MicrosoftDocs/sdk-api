@@ -55,7 +55,7 @@ Implements the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesCache2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>. <b>IOfflineFilesCache2</b> also has these types of members:
+The <b>IOfflineFilesCache2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>. <b>IOfflineFilesCache2</b> also has these types of members:
 
 ## -see-also
 

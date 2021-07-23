@@ -54,7 +54,7 @@ Exposes a method used to initialize a handler, such as a property handler, thumb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeWithItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithItem</b> also has these types of members:
+The <b>IInitializeWithItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithItem</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ Represents a one-to-one mapping to a sharable window. A sharable window is usual
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIWindow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
+The <b>IRDPSRAPIWindow</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
 
 ## -see-also
 

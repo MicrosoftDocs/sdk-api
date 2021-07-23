@@ -54,7 +54,7 @@ A collection of <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPartUriCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPartUriCollection</b> also has these types of members:
+The <b>IXpsOMPartUriCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPartUriCollection</b> also has these types of members:
 
 ## -remarks
 

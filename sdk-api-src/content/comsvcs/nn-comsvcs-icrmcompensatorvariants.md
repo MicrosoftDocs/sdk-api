@@ -54,7 +54,7 @@ Delivers structured log records to the CRM Compensator when using Microsoft Visu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmCompensatorVariants</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmCompensatorVariants</b> also has these types of members:
+The <b>ICrmCompensatorVariants</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmCompensatorVariants</b> also has these types of members:
 
 ## -remarks
 

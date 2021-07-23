@@ -58,7 +58,7 @@ api_name:
 
 The <b>MethodContext</b> class is the pointer to a structure used in a provider to get or set <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> information. WMI does not implement any functionality based on the pointer.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">MethodContext</b> has these types of members:
+<b>MethodContext</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

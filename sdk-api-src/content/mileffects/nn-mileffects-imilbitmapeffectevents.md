@@ -54,5 +54,5 @@ Exposes methods that define an effect event.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectEvents</b> also has these types of members:
+The <b>IMILBitmapEffectEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectEvents</b> also has these types of members:
 

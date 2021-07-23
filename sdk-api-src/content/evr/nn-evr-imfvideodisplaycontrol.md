@@ -67,7 +67,7 @@ The EVR presenter implements this interface. To get a pointer to the interface, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDisplayControl</b> also has these types of members:
+The <b>IMFVideoDisplayControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDisplayControl</b> also has these types of members:
 
 ## -see-also
 

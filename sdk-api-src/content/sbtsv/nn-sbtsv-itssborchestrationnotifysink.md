@@ -54,7 +54,7 @@ Exposes methods that return an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itss
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbOrchestrationNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbOrchestrationNotifySink</b> also has these types of members:
+The <b>ITsSbOrchestrationNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbOrchestrationNotifySink</b> also has these types of members:
 
 ## -remarks
 

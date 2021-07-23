@@ -54,5 +54,5 @@ Provides methods  to collect product information for the selected type of provid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSCProductList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSCProductList</b> also has these types of members:
+The <b>IWSCProductList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSCProductList</b> also has these types of members:
 

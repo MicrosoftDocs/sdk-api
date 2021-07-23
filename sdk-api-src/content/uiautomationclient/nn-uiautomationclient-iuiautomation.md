@@ -54,7 +54,7 @@ Exposes methods that enable Microsoft UI Automation client applications to disco
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomation</b> also has these types of members:
+The <b>IUIAutomation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomation</b> also has these types of members:
 
 ## -remarks
 

@@ -54,5 +54,5 @@ Is used on the server (receiving) side of a remote invocation. An appropriate in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallUnmarshal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallUnmarshal</b> also has these types of members:
+The <b>ICallUnmarshal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallUnmarshal</b> also has these types of members:
 

@@ -54,7 +54,7 @@ Defines a method for priority comparison that the animation manager uses to reso
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationPriorityComparison</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationPriorityComparison</b> also has these types of members:
+The <b>IUIAnimationPriorityComparison</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationPriorityComparison</b> also has these types of members:
 
 ## -remarks
 

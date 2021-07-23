@@ -58,7 +58,7 @@ Receives VDS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAdviseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdviseSink</b> also has these types of members:
+The <b>IVdsAdviseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAdviseSink</b> also has these types of members:
 
 ## -remarks
 

@@ -57,7 +57,7 @@ When a user right-clicks items that belong to a snap-in and are also in the scop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendContextMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
+The <b>IExtendContextMenu</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendContextMenu</b> also has these types of members:
 
 ## -see-also
 

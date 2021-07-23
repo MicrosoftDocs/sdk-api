@@ -54,7 +54,7 @@ Enables callers to set or query the values of various properties that control ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
+The <b>IRpcOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
 
 ## -remarks
 

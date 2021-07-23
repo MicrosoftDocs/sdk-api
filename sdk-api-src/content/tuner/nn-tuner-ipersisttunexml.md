@@ -54,7 +54,7 @@ Implements methods for serializing tuning model objects. All serializable tuning
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistTuneXml</b> interface inherits from <b>IPersist</b>. <b>IPersistTuneXml</b> also has these types of members:
+The <b>IPersistTuneXml</b> interface inherits from <b>IPersist</b>. <b>IPersistTuneXml</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

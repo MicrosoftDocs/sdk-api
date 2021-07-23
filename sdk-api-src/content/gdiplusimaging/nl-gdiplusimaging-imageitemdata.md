@@ -54,7 +54,7 @@ api_name:
 
 The <b>ImageItemData</b> class is used to store and retrieve custom image metadata. Windows GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">ImageItemData</b> has these types of members:
+<b>ImageItemData</b> has these types of members:
 
 ## -remarks
 

@@ -58,7 +58,7 @@ This interface corresponds to the PROPSETID_VIDCAP_VIDEOPROCAMP property set, wh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoProcAmp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoProcAmp</b> also has these types of members:
+The <b>IVideoProcAmp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoProcAmp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

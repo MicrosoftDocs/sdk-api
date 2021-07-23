@@ -54,7 +54,7 @@ Represents a clock vector in a knowledge structure.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClockVector</b> also has these types of members:
+The <b>IClockVector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClockVector</b> also has these types of members:
 
 ## -remarks
 

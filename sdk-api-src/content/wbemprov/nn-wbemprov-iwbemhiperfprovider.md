@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
+The <b>IWbemHiPerfProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfProvider</b> also has these types of members:
 
 ## -see-also
 

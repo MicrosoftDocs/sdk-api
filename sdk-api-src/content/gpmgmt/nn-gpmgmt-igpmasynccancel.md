@@ -56,7 +56,7 @@ A pointer to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncCancel</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncCancel</b> also has these types of members:
+The <b>IGPMAsyncCancel</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncCancel</b> also has these types of members:
 
 ## -remarks
 

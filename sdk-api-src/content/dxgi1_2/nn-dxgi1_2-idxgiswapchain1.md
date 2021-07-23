@@ -55,7 +55,7 @@ Provides presentation capabilities that are enhanced from <a href="/windows/desk
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. <b>IDXGISwapChain1</b> also has these types of members:
+The <b>IDXGISwapChain1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. <b>IDXGISwapChain1</b> also has these types of members:
 
 ## -remarks
 

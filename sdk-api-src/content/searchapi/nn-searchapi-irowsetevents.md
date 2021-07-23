@@ -54,7 +54,7 @@ Exposes methods for receiving event notifications. When clients implement this i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRowsetEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRowsetEvents</b> also has these types of members:
+The <b>IRowsetEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRowsetEvents</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ This interface is passed to the <a href="/windows/desktop/api/imapi2/nf-imapi2-d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2TrackAtOnceEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2TrackAtOnceEventArgs</b> also has these types of members:
+The <b>IDiscFormat2TrackAtOnceEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2TrackAtOnceEventArgs</b> also has these types of members:
 
 ## -see-also
 

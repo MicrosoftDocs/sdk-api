@@ -54,7 +54,7 @@ The <b>ISecurityObjectTypeInfo</b> interface provides a means of determining the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityObjectTypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
+The <b>ISecurityObjectTypeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityObjectTypeInfo</b> also has these types of members:
 
 ## -see-also
 

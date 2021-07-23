@@ -55,7 +55,7 @@ Represents a description of a media format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
+The <b>IMFMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFMediaType</b> also has these types of members:
 
 ## -remarks
 

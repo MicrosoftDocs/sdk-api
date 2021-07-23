@@ -55,5 +55,5 @@ The <b>IAzApplicationGroups</b> interface represents a collection of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroups</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
+The <b>IAzApplicationGroups</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplicationGroups</b> also has these types of members:
 

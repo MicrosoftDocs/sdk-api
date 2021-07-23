@@ -54,7 +54,7 @@ Provides a method that retrives an <a href="/windows/desktop/api/propsys/nn-prop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
+The <b>IPropertyDescriptionRelatedPropertyInfo</b> interface inherits from <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>. <b>IPropertyDescriptionRelatedPropertyInfo</b> also has these types of members:
 
 ## -remarks
 

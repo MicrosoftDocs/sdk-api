@@ -57,7 +57,7 @@ The <b>ICertManageModule</b> interface is provided to retrieve information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
+The <b>ICertManageModule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
 
 ## -remarks
 

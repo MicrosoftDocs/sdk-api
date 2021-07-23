@@ -56,5 +56,5 @@ The <b>ISpellChecker</b> can be used to check text, get suggestions, update user
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellChecker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellChecker</b> also has these types of members:
+The <b>ISpellChecker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellChecker</b> also has these types of members:
 

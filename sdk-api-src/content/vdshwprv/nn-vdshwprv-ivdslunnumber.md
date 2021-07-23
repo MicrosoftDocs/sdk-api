@@ -57,7 +57,7 @@ Provides a method to query the LUN number for a LUN.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
+The <b>IVdsLunNumber</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunNumber</b> also has these types of members:
 
 ## -see-also
 

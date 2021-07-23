@@ -57,5 +57,5 @@ Interface that enqueues download requests for remote fonts, characters, glyphs, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontDownloadQueue</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
+The <b>IDWriteFontDownloadQueue</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontDownloadQueue</b> also has these types of members:
 

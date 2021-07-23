@@ -55,7 +55,7 @@ The <b>IDXGIDevice2</b> interface implements a derived class for DXGI objects th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDevice2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>. <b>IDXGIDevice2</b> also has these types of members:
+The <b>IDXGIDevice2</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice1">IDXGIDevice1</a>. <b>IDXGIDevice2</b> also has these types of members:
 
 ## -remarks
 

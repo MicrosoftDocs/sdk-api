@@ -54,7 +54,7 @@ Exposes methods for writing compressed JPEG scan data directly to the WIC encode
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
+The <b>IWICJpegFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
 
 ## -remarks
 

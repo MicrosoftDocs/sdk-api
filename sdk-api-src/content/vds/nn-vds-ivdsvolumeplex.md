@@ -57,7 +57,7 @@ Provides methods for maintaining volume plexes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVolumePlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumePlex</b> also has these types of members:
+The <b>IVdsVolumePlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVolumePlex</b> also has these types of members:
 
 ## -see-also
 

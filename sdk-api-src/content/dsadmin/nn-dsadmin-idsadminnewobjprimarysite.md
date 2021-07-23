@@ -54,7 +54,7 @@ The <b>IDsAdminNewObjPrimarySite</b> interface is implemented by the system and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObjPrimarySite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjPrimarySite</b> also has these types of members:
+The <b>IDsAdminNewObjPrimarySite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObjPrimarySite</b> also has these types of members:
 
 ## -see-also
 

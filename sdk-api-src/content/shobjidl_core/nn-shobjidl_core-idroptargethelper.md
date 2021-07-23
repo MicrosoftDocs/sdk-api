@@ -54,7 +54,7 @@ Exposes methods that allow drop targets to display a drag image while the image 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropTargetHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTargetHelper</b> also has these types of members:
+The <b>IDropTargetHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTargetHelper</b> also has these types of members:
 
 ## -remarks
 

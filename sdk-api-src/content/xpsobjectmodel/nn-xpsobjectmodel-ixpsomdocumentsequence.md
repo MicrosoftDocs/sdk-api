@@ -54,7 +54,7 @@ The root object that has the XPS document content.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMDocumentSequence</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMDocumentSequence</b> also has these types of members:
+The <b>IXpsOMDocumentSequence</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMDocumentSequence</b> also has these types of members:
 
 ## -remarks
 

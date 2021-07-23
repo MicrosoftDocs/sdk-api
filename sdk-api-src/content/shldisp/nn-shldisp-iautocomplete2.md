@@ -54,7 +54,7 @@ Extends <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoCom
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutoComplete2</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. <b>IAutoComplete2</b> also has these types of members:
+The <b>IAutoComplete2</b> interface inherits from <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>. <b>IAutoComplete2</b> also has these types of members:
 
 ## -remarks
 

@@ -54,7 +54,7 @@ The <b>ITraceEvent</b> interface  provides access to data relating to a specific
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
+The <b>ITraceEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceEvent</b> also has these types of members:
 
 ## -remarks
 

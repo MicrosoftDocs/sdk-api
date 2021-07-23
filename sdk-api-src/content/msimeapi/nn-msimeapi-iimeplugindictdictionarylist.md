@@ -54,7 +54,7 @@ Provides access to the list of IME plug-in dictionaries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePlugInDictDictionaryList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePlugInDictDictionaryList</b> also has these types of members:
+The <b>IImePlugInDictDictionaryList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePlugInDictDictionaryList</b> also has these types of members:
 
 ## -remarks
 

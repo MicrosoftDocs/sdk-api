@@ -95,7 +95,7 @@ AttributeSetValue ::= SET OF ANY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
+The <b>ICryptAttribute</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
 
 ## -see-also
 

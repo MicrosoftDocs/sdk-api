@@ -57,7 +57,7 @@ Provides methods for performing query and configuration operations on a LUN plex
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunPlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
+The <b>IVdsLunPlex</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
 
 ## -see-also
 

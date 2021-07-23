@@ -54,7 +54,7 @@ Describes user-defined events. The events are published to the subscriber using 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMtsEventInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
+The <b>IMtsEventInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMtsEventInfo</b> also has these types of members:
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The <b>IFaxIncomingJob</b> interface is accessed through the <a href="/previous-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingJob</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingJob</b> also has these types of members:
+The <b>IFaxIncomingJob</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingJob</b> also has these types of members:
 
 ## -remarks
 

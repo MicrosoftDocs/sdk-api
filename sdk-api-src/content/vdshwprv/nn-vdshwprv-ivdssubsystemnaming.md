@@ -59,7 +59,7 @@ Provides a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSubSystemNaming</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemNaming</b> also has these types of members:
+The <b>IVdsSubSystemNaming</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSubSystemNaming</b> also has these types of members:
 
 ## -see-also
 

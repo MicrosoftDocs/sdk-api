@@ -54,7 +54,7 @@ Represents the  URI of the package root or of a part that is relative to  the pa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcUri</b> interface inherits from <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>. <b>IOpcUri</b> also has these types of members:
+The <b>IOpcUri</b> interface inherits from <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>. <b>IOpcUri</b> also has these types of members:
 
 ## -remarks
 

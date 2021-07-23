@@ -58,7 +58,7 @@ To use this interface, call <b>DrawVideoImageBegin</b> to put the Video Renderer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDrawVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
+The <b>IDrawVideoImage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
 
 ## -see-also
 

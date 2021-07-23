@@ -56,7 +56,7 @@ The <b>IFaxAccountOutgoingQueue</b> interface is accessed through the <a href="/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingQueue</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingQueue</b> also has these types of members:
+The <b>IFaxAccountOutgoingQueue</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingQueue</b> also has these types of members:
 
 ## -see-also
 

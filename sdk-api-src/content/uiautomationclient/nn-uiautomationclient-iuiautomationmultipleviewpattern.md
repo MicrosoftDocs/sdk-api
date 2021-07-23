@@ -54,7 +54,7 @@ Provides access to a control that  can switch between multiple representations o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
+The <b>IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
 
 ## -see-also
 

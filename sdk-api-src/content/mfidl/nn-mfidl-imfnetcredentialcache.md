@@ -57,7 +57,7 @@ This interface is implemented by the credential cache object. Applications that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCredentialCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCredentialCache</b> also has these types of members:
+The <b>IMFNetCredentialCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCredentialCache</b> also has these types of members:
 
 ## -see-also
 

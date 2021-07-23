@@ -54,7 +54,7 @@ The <b>INetFwProducts</b> interface allows an application or service to access t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwProducts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
+The <b>INetFwProducts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The application or text service obtains this interface from a thread manager obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLMProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
+The <b>ITfFnLMProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
 
 ## -see-also
 

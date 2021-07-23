@@ -87,7 +87,7 @@ The <b>Effect</b> class serves as a base class for eleven classes that you can u
 </li>
 </ul>To apply and effect to a bitmap, create an instance of one of the descendants of the Effect class, and pass the address of that descendant to the <a href="/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Effect</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>Effect</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

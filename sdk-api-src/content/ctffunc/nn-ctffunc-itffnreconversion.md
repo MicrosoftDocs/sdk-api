@@ -60,7 +60,7 @@ An application obtains this interface by calling the TSF manager <b>ITfFunctionP
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnReconversion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnReconversion</b> also has these types of members:
+The <b>ITfFnReconversion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnReconversion</b> also has these types of members:
 
 ## -remarks
 

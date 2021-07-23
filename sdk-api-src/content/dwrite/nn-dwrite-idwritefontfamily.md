@@ -54,7 +54,7 @@ Represents a family of related fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
+The <b>IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
 
 ## -remarks
 

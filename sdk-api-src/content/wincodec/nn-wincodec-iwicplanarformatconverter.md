@@ -54,7 +54,7 @@ Allows a format converter to be initialized with a planar source. You can use Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarFormatConverter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICPlanarFormatConverter</b> also has these types of members:
+The <b>IWICPlanarFormatConverter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICPlanarFormatConverter</b> also has these types of members:
 
 ## -see-also
 

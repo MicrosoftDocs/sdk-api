@@ -54,5 +54,5 @@ Provides a read-only object model for the list of payload packages that are desc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestPackageInfoEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfoEnumerator</b> also has these types of members:
+The <b>IAppxBundleManifestPackageInfoEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfoEnumerator</b> also has these types of members:
 

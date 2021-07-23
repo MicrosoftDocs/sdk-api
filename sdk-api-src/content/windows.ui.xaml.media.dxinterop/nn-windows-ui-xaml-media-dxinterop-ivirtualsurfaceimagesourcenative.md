@@ -54,7 +54,7 @@ Provides the implementation of a large (greater than the screen size) shared sur
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceImageSourceNative</b> interface inherits from <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative">ISurfaceImageSourceNative</a>. <b>IVirtualSurfaceImageSourceNative</b> also has these types of members:
+The <b>IVirtualSurfaceImageSourceNative</b> interface inherits from <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenative">ISurfaceImageSourceNative</a>. <b>IVirtualSurfaceImageSourceNative</b> also has these types of members:
 
 ## -remarks
 

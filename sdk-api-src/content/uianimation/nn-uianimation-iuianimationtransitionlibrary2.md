@@ -54,7 +54,7 @@ Defines a library of standard transitions for a specified dimension.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransitionLibrary2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationTransitionLibrary2</b> also has these types of members:
+The <b>IUIAnimationTransitionLibrary2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationTransitionLibrary2</b> also has these types of members:
 
 ## -remarks
 

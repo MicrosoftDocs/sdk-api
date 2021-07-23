@@ -56,5 +56,5 @@ This interface is implemented by the Remote Desktop Connection (RDC) client. A r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSListener</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListener</b> also has these types of members:
+The <b>IWTSListener</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSListener</b> also has these types of members:
 

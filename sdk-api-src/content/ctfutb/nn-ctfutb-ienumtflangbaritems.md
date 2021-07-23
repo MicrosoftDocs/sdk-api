@@ -54,5 +54,5 @@ The <b>IEnumTfLangBarItems</b> interface is implemented by the TSF manager to pr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLangBarItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLangBarItems</b> also has these types of members:
+The <b>IEnumTfLangBarItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfLangBarItems</b> also has these types of members:
 

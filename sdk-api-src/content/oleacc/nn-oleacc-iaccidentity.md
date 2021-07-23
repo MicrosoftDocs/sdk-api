@@ -54,5 +54,5 @@ Exposes a method that provides a unique identifier for an accessible element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccIdentity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccIdentity</b> also has these types of members:
+The <b>IAccIdentity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccIdentity</b> also has these types of members:
 

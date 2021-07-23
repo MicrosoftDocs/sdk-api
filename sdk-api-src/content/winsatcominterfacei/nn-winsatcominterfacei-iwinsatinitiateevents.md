@@ -56,7 +56,7 @@ Implement this interface to receive notifications when an assessment is complete
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinSATInitiateEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinSATInitiateEvents</b> also has these types of members:
+The <b>IWinSATInitiateEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinSATInitiateEvents</b> also has these types of members:
 
 ## -see-also
 

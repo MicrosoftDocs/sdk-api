@@ -67,5 +67,5 @@ Merge object must be created before loading the automation support required by C
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmMerge2</b> also has these types of members:
+The <b>IMsmMerge2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmMerge2</b> also has these types of members:
 

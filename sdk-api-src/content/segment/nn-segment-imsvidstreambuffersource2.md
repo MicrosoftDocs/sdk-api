@@ -58,7 +58,7 @@ The <b>IMSVidStreamBufferSource2</b> interface represents the Stream Buffer Sour
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
+The <b>IMSVidStreamBufferSource2</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource</a>. <b>IMSVidStreamBufferSource2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

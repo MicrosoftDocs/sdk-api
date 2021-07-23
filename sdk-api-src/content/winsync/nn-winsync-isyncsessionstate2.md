@@ -54,7 +54,7 @@ Represents additional information about the current synchronization session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionState2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState</a>. <b>ISyncSessionState2</b> also has these types of members:
+The <b>ISyncSessionState2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState</a>. <b>ISyncSessionState2</b> also has these types of members:
 
 ## -remarks
 
