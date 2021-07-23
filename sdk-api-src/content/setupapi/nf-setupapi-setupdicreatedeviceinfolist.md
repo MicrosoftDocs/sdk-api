@@ -53,7 +53,7 @@ req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-1 (introduced in Windows 8.
 
 ## -description
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> and optionally associates the set with a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> and a top-level window.
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> and optionally associates the set with a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> and a top-level window.
 
 ## -parameters
 

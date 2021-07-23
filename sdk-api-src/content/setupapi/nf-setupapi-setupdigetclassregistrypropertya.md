@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> from the registry.
+The <b>SetupDiGetClassRegistryProperty</b> function retrieves a property for a specified <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> from the registry.
 
 ## -parameters
 

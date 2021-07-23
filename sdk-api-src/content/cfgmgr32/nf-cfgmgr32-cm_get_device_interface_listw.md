@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Device_Interface_List</b> function retrieves a list of device interface instances that belong to a specified <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
+The <b>CM_Get_Device_Interface_List</b> function retrieves a list of device interface instances that belong to a specified <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ## -parameters
 

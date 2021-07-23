@@ -151,7 +151,7 @@ Set this flag to suppress the user interface unless absolutely necessary. For ex
 
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
+<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a new <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. 
 
 <div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
 <div> </div>
