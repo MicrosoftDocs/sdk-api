@@ -62,7 +62,7 @@ Font property of interest.
 
 ### -param preferredLocaleNames
 
-The preferred locale names to query.
+The preferred locale names to query as a list of semicolon-delimited names in preferred order. When a particular string like font family has more than one localized name, the first match is returned. If the first match does not exist, then the second match is returned, and so on. e.g. "ja-jp;en-us"
 
 ### -param values [out]
 
