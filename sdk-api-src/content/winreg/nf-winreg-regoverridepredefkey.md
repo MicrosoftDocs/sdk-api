@@ -65,12 +65,7 @@ A handle to one of the following
 
 
 
-<b>HKEY_CLASSES_ROOT</b>
-<b>HKEY_CURRENT_CONFIG</b>
-<b>HKEY_CURRENT_USER</b>
-<b>HKEY_LOCAL_MACHINE</b>
-<b>HKEY_PERFORMANCE_DATA</b>
-<b>HKEY_USERS</b>
+<b>HKEY_CLASSES_ROOT</b>, <b>HKEY_CURRENT_CONFIG</b>, <b>HKEY_CURRENT_USER</b>, <b>HKEY_LOCAL_MACHINE</b>, <b>HKEY_PERFORMANCE_DATA</b>, <b>HKEY_USERS</b>
 
 ### -param hNewHKey [in, optional]
 
