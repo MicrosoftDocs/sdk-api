@@ -48,7 +48,7 @@ Enables the WinRT XAML framework to process a Windows message for a [DesktopWind
 
 ### -param message
 
-Type: **const [MSG](/windows/win32/api/winuser/ns-winuser-msg)**
+Type: **const [MSG](/windows/win32/api/winuser/ns-winuser-msg)\***
 
 The Windows message to process.
 
