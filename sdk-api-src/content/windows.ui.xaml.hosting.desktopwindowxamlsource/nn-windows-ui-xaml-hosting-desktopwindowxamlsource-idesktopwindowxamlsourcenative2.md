@@ -4,7 +4,7 @@ tech.root: winrt
 title: IDesktopWindowXamlSourceNative2
 ms.date: 07/25/2021
 targetos: Windows
-description: 
+description: Provides a method that enables the WinRT XAML framework to process Windows messages for a **DesktopWindowXamlSource** object that hosts a WinRT XAML control.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,11 +42,11 @@ dev_langs:
 
 ## -description
 
-Provides a method that enables the WinRT XAML framework to process Windows messages correctly for a [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) object that hosts a WinRT XAML control.
+Provides a method that enables the WinRT XAML framework to process Windows messages for a [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) object that hosts a WinRT XAML control.
 
 ## -remarks
 
-This interface is implemented by the [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) class in the Windows Runtime. **DesktopWindowXamlSource** is a key component the [WinRT XAML host API](/windows/apps/desktop/modernize/using-the-xaml-hosting-api), which desktop apps can use to host WinRT XAML controls in any UI element that is associated with a window handle (this feature is also called *XAML Islands*).
+This interface is implemented by the [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) class. **DesktopWindowXamlSource** is a key component the [WinRT XAML hosting API](/windows/apps/desktop/modernize/using-the-xaml-hosting-api), which desktop apps can use to host WinRT XAML controls in any UI element that is associated with a window handle (this feature is also called *XAML Islands*).
 
 ## -see-also
 

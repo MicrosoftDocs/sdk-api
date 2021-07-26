@@ -15,6 +15,4 @@ f1_keywords:
 
 ## -description
 
-This header is used by the UWP XAML hosting API (XAML Islands). For more information, see:
-
-- [Using the UWP XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api)
+This header is used by the WinRT XAML hosting API (XAML Islands). For more information, see [Using the UWP XAML hosting API in a C++ desktop (Win32) app](/windows/apps/desktop/modernize/using-the-xaml-hosting-api).

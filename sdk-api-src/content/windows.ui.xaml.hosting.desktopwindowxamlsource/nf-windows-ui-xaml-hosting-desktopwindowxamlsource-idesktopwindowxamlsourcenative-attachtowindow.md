@@ -4,7 +4,7 @@ tech.root: winrt
 title: IDesktopWindowXamlSourceNative::AttachToWindow
 ms.date: 07/25/2021
 targetos: Windows
-description: 
+description: Attaches the current **IDesktopWindowXamlSourceNative** instance to a parent UI element in your desktop app that is associated with a window handle.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -61,7 +61,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an **HRESULT** e
 For a code example that demonstrates how to use this method, see [XamlBridge.cpp](https://github.com/microsoft/Xaml-Islands-Samples/blob/master/Samples/Win32/SampleCppApp/XamlBridge.cpp) in the SampleCppApp sample in the XAML Island samples repo.
 
 > [!IMPORTANT]
-> Your code should call the **AttachToWindow** method only once per [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) object.
+> Make sure that your code calls the **AttachToWindow** method only once per [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) object. Calling this method more than once for a **DesktopWindowXamlSource** object could result in a memory leak.
 
 ## -see-also
 

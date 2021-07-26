@@ -4,7 +4,7 @@ tech.root: winrt
 title: IDesktopWindowXamlSourceNative2::PreTranslateMessage
 ms.date: 07/25/2021
 targetos: Windows
-description: 
+description: Enables the WinRT XAML framework to process a Windows message for a **DesktopWindowXamlSource** object that hosts a WinRT XAML control.
 prerelease: false
 req.assembly: 
 req.construct-type: function

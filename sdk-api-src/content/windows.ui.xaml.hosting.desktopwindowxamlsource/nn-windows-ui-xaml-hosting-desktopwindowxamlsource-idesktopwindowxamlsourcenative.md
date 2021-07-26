@@ -4,7 +4,7 @@ tech.root: winrt
 title: IDesktopWindowXamlSourceNative
 ms.date: 07/25/2021
 targetos: Windows
-description: 
+description: Provides members you can use to attach a **DesktopWindowXamlSource** object that hosts a WinRT XAML control to a parent UI element in your desktop app.
 prerelease: false
 req.assembly: 
 req.construct-type: iface
@@ -40,7 +40,7 @@ Provides members you can use to attach a [DesktopWindowXamlSource](/uwp/api/wind
 
 ## -remarks
 
-This interface is implemented by the [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) class in the Windows Runtime. **DesktopWindowXamlSource** is a key component the [WinRT XAML host API](/windows/apps/desktop/modernize/using-the-xaml-hosting-api), which desktop apps can use to host WinRT XAML controls in any UI element that is associated with a window handle (this feature is also called *XAML Islands*).
+This interface is implemented by the [DesktopWindowXamlSource](/uwp/api/windows.ui.xaml.hosting.desktopwindowxamlsource) class. **DesktopWindowXamlSource** is a key component the [WinRT XAML hosting API](/windows/apps/desktop/modernize/using-the-xaml-hosting-api), which desktop apps can use to host WinRT XAML controls in any UI element that is associated with a window handle (this feature is also called *XAML Islands*).
 
 ## -see-also
 
