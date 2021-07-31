@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Queries for the availabililty of a Windows Server 2003 volume image recorded by the system at an earlier time.
+Queries for the availability of a Windows Server 2003 volume image recorded by the system at an earlier time.
 
 ## -parameters
 
