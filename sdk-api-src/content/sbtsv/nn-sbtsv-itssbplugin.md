@@ -77,7 +77,7 @@ To register a resource filter, add these values to the registry.
                   <b>Plugins</b>
                      <b>Resource</b>
                         <i>YOUR_RESOURCE_PLUGIN_NAME</i>
-                           <b>CLSID</b> = {<i>CLSID of your resouce provider</i>}<dl>
+                           <b>CLSID</b> = {<i>CLSID of your resource provider</i>}<dl>
 <dt>                           Data type</dt>
 <dd>                           REG_SZ</dd>
 </dl>

@@ -50,7 +50,7 @@ Handle creation flags.
 
 ### -param phAsync
 
-Receiveds a pointer to the created async handle.
+Receives a pointer to the created async handle.
 
 ## -returns
 

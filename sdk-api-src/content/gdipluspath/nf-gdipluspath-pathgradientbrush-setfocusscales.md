@@ -89,8 +89,8 @@ By default, the center color of a path gradient is at the center point. By calli
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The code calls the <b>PathGradientBrush::SetFocusScales</b> method of the 
-						<b>PathGradientBrush</b>object to set the brush's focus scales to (0.2, 0.2). Then the code uses the path gradient brush to paint a rectangle that includes the triangular path.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on a triangular path. The code calls the <b>PathGradientBrush::SetFocusScales</b> method of the 
+						<b>PathGradientBrush</b> object to set the brush's focus scales to (0.2, 0.2). Then the code uses the path gradient brush to paint a rectangle that includes the triangular path.
 
 
 ```cpp

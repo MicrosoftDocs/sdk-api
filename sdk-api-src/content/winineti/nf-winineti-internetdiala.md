@@ -132,7 +132,7 @@ Shows the <b>Work Offline</b> button instead of the <b>Cancel</b> button in the 
 
 ### -param lpdwConnection [out]
 
-Pointer to a variable that specifies the connection number. This number is a unique indentifier for the connection that can be used in other functions, such as <a href="/windows/desktop/api/wininet/nf-wininet-internethangup">InternetHangUp</a>.
+Pointer to a variable that specifies the connection number. This number is a unique identifier for the connection that can be used in other functions, such as <a href="/windows/desktop/api/wininet/nf-wininet-internethangup">InternetHangUp</a>.
 
 ### -param dwReserved [in]
 

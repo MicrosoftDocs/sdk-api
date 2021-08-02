@@ -116,7 +116,7 @@ instead.
 
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
-<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>function instead.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function instead.
 
 
 
@@ -739,7 +739,7 @@ operating system.
 When the <i>SystemInformationClass</i>  parameter is
 <b>SystemProcessorPerformanceInformation</b>,  the buffer
 pointed to by the <i>SystemInformation</i> parameter should
-be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b>structures as there are processors (CPUs) installed in the system. Each
+be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b> structures as there are processors (CPUs) installed in the system. Each
 structure has the following layout: 
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct
@@ -761,7 +761,7 @@ The <b>UserTime</b> member contains the amount of time
 that the system has spent executing in User mode (including all threads in all
 processes, on all processors), in 100-nanosecond intervals.
 
-Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>instead to retrieve this information.
+Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a> instead to retrieve this information.
 
 
 
@@ -900,7 +900,7 @@ function instead to generate cryptographically random data.
 
 ### -param SystemInformationLength [in]
 
-The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
+The size of the buffer pointed to by the <i>SystemInformation</i> parameter, in bytes.
 
 ### -param ReturnLength [out, optional]
 

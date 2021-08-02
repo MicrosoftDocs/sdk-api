@@ -89,7 +89,7 @@ To disable screen capture in Direct3D, the plug-in must do the following:
 
 <ul>
 <li>
-Create the Direct3D device in full-screen exlusive mode.
+Create the Direct3D device in full-screen exclusive mode.
 
 </li>
 <li>

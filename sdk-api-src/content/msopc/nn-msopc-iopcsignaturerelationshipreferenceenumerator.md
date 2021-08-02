@@ -58,7 +58,7 @@ The <b>IOpcSignatureRelationshipReferenceEnumerator</b> interface inherits from 
 
 ## -remarks
 
-When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceenumerator-movenext">MoveNext</a>method after creating the enumerator.
+When an enumerator is created, the current position precedes the first pointer. To set the current position to the first pointer of the enumerator, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsignaturerelationshipreferenceenumerator-movenext">MoveNext</a> method after creating the enumerator.
 
 Changes to the set will invalidate the enumerator and all subsequent calls to it will fail.
 

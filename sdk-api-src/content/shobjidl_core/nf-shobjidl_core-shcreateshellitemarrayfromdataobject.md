@@ -81,7 +81,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 ## -remarks
 
-This function is usefull for Shell extensions that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit">IShellExtInit</a> and are passed a data object to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> method; for example, context menu handlers.
+This function is useful for Shell extensions that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit">IShellExtInit</a> and are passed a data object to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">IShellExtInit::Initialize</a> method; for example, context menu handlers.
 
 This API lets you convert the data object into a Shell item that the handler can consume. It is recommend that handlers use a Shell item array rather than clipboard formats like <b>CF_HDROP</b> and <b>CFSTR_SHELLIDLIST</b> (also known as HIDA) as it leads to simpler code and allows some performance improvements.
 

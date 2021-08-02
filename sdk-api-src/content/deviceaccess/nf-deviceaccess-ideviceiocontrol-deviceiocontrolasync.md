@@ -81,7 +81,7 @@ The callback interface on which the <a href="/previous-versions/windows/desktop/
 
 ### -param cancelContext [out]
 
-An optional pointer that receives a cancel context that can be passed to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation">CancelOperation</a>method to cancel an outstanding request.
+An optional pointer that receives a cancel context that can be passed to the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-canceloperation">CancelOperation</a> method to cancel an outstanding request.
 
 ## -returns
 

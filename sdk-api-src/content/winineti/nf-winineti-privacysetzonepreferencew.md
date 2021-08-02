@@ -57,7 +57,7 @@ Sets the privacy settings for a given <a href="/dotnet/api/microsoft.visualstudi
 
 ### -param dwZone [in]
 
-Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a>for which privacy settings are being set.
+Value of type <b>DWORD</b> that specifies the <a href="/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> for which privacy settings are being set.
 
 ### -param dwType [in]
 

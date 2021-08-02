@@ -86,4 +86,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-Failing this method prevents the item rearrangment from happening.
+Failing this method prevents the item rearrangement from happening.

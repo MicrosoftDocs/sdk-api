@@ -80,7 +80,7 @@ pDevice->CreateQuery(&queryDesc, &pQuery);
 
 pQuery->Begin();
 
-... // Issue graphis commands, do whatever
+... // Issue graphics commands, do whatever
 
 pQuery->End();
 

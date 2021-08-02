@@ -53,7 +53,7 @@ api_name:
 
 Sets flags associated with the sample.
 
-Currently no flags are defined. Instead, metadata for samples is defined using attributes. To set attibutes on a sample, use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
+Currently no flags are defined. Instead, metadata for samples is defined using attributes. To set attributes on a sample, use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
 
 ## -parameters
 

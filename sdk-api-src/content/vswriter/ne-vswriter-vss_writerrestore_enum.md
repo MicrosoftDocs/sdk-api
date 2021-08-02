@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>VSS_WRITERRESTORE_ENUM</b> numeration is used by 
+The <b>VSS_WRITERRESTORE_ENUM</b> enumeration is used by 
     a writer to indicate to a requester the conditions under which it will handle events generated during a 
     restore operation.
 

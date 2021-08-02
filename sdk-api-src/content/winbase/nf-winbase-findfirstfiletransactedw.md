@@ -175,7 +175,7 @@ The following list
     <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
 <div> </div>
 If the underlying file system does not support the specified type of filtering, other than directory 
-    filtering, <b>FindFirstFileTransacted</b>fails with the error 
+    filtering, <b>FindFirstFileTransacted</b> fails with the error 
     <b>ERROR_NOT_SUPPORTED</b>. The application must use 
     <a href="/windows/desktop/api/minwinbase/ne-minwinbase-findex_search_ops">FINDEX_SEARCH_OPS</a> type 
     <b>FileExSearchNameMatch</b> and perform its own filtering.

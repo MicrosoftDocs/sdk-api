@@ -66,7 +66,7 @@ Indicates that an item that did have foreground priority in the prioritization s
 
 ### -field ROWSETEVENT_TYPE_SCOPESTATISTICS
 
-Indicates that the scope statistics are to be optained.
+Indicates that the scope statistics are to be obtained.
 
 ## -remarks
 

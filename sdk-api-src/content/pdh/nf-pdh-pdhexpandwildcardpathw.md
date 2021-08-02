@@ -228,7 +228,7 @@ If a wildcard character is specified in the counter name, all counters of the sp
 
 Partial counter path string matches (for example, "pro*") are  supported.
 
-<b>Prior to Windows Vista:  </b>Partial wildcard matches are not supprted.
+<b>Prior to Windows Vista:  </b>Partial wildcard matches are not supported.
 
 
 

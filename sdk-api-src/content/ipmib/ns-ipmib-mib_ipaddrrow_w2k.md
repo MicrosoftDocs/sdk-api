@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The 
-<b>MIB_IPADDRROW</b>specifies information for a particular IPv4 address in the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
+<b>MIB_IPADDRROW</b> specifies information for a particular IPv4 address in the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
 
 ## -struct-fields
 

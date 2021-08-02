@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a> message explicitly.
+Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of word wrapping. You can use this macro or send the <a href="/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a> message explicitly.
 
 ## -parameters
 

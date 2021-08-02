@@ -68,7 +68,7 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pvIn</i>.
 
 ### -param pvIn [in]
 
-Pointer to the input data for the call. The format of the input data depends on the query specified by the <i>iEsc</i>parameter.
+Pointer to the input data for the call. The format of the input data depends on the query specified by the <i>iEsc</i> parameter.
 
 ### -param cjOut [in]
 

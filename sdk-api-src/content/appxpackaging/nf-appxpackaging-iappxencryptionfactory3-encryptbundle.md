@@ -60,7 +60,7 @@ A readable stream from the app bundle to encrypt.
 
 ### -param outputStream [in]
 
-A writeable stream for writing the resulting encrypted app bundle.
+A writable stream for writing the resulting encrypted app bundle.
 
 ### -param settings [in]
 

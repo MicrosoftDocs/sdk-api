@@ -71,7 +71,7 @@ Number of samplers to get from the device. Each pipeline stage has a total of 16
 
 Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>**</b>
 
-Arry of sampler-state pointers (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>) to be returned by the device.
+Array of sampler-state pointers (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>) to be returned by the device.
 
 ## -remarks
 

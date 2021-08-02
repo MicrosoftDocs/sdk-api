@@ -72,7 +72,7 @@ New playback rate. This value can differ from the requested rate.
 
 ## -remarks
 
-To get a pointer to this structure, cast the <i>pEventHeader</i>parameter of the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfp_get_rate_set_event">MFP_GET_RATE_SET_EVENT</a> macro for this purpose.
+To get a pointer to this structure, cast the <i>pEventHeader</i> parameter of the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>  method.  You can use the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfp_get_rate_set_event">MFP_GET_RATE_SET_EVENT</a> macro for this purpose.
 
 ## -see-also
 

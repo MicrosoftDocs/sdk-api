@@ -60,7 +60,7 @@ The keyframe at which the loop is to begin.
 
 ### -param endKeyframe [in]
 
-The keyframe at which the loop is to end. It must not be posssible for <i>endKeyframe</i> to occur earlier in the storyboard than <i>startKeyframe</i>.
+The keyframe at which the loop is to end. It must not be possible for <i>endKeyframe</i> to occur earlier in the storyboard than <i>startKeyframe</i>.
 
 ### -param repetitionCount [in]
 

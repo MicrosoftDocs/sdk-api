@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Exposes methods that allow an application to retrieve information about a known folder's category, type, GUID, pointer to an item identifier list (PIDL) value, redirection capabilities, and definition. It provides a method for the retrival of a known folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object. It also provides methods to get or set the path of the known folder.
+Exposes methods that allow an application to retrieve information about a known folder's category, type, GUID, pointer to an item identifier list (PIDL) value, redirection capabilities, and definition. It provides a method for the retrieval of a known folder's <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object. It also provides methods to get or set the path of the known folder.
 
 ## -inheritance
 

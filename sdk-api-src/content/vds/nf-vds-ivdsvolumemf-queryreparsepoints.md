@@ -59,7 +59,7 @@ Returns all reparse points for the current volume.
 
 ### -param ppReparsePointProps [out]
 
-Pointer to a buffer that receives a pointer to an array of properties defined by the <a href="/windows/desktop/api/vds/ns-vds-vds_reparse_point_prop">VDS_REPARSE_POINT_PROP</a>structure.
+Pointer to a buffer that receives a pointer to an array of properties defined by the <a href="/windows/desktop/api/vds/ns-vds-vds_reparse_point_prop">VDS_REPARSE_POINT_PROP</a> structure.
 
 ### -param plNumberOfReparsePointProps [out]
 

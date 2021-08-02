@@ -68,7 +68,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 ## -remarks
 
-This method perfoms an affine transformation, which moves every point by a fixed distance in the same direction. It is similar to shifting the origin of the coordinate space. 
+This method performs an affine transformation, which moves every point by a fixed distance in the same direction. It is similar to shifting the origin of the coordinate space. 
 
 This method fails if the <i>offsetX</i> parameter is NaN, positive infinity, or negative infinity.
 

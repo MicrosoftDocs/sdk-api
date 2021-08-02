@@ -104,7 +104,7 @@ For a data or view advisory connection, the container uses the <b>ADVF</b> const
 
 
 
-For a caching connection, the constants are specified in the <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>method to indicate the container's requests on how the object should update its cache.
+For a caching connection, the constants are specified in the <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a> method to indicate the container's requests on how the object should update its cache.
 
 
 

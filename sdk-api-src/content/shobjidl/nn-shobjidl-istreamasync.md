@@ -1,7 +1,7 @@
 ---
 UID: NN:shobjidl.IStreamAsync
 title: IStreamAsync (shobjidl.h)
-description: Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
+description: Exposes methods to manage input/output (I/O) to an asynchronous stream.
 helpviewer_keywords: ["IStreamAsync","IStreamAsync interface [Windows Shell]","IStreamAsync interface [Windows Shell]","described","_shell_IStreamAsync","shell.IStreamAsync","shobjidl/IStreamAsync"]
 old-location: shell\IStreamAsync.htm
 tech.root: shell
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Exposes methods to manage input/outpout (I/O) to an asynchronous stream.
+Exposes methods to manage input/output (I/O) to an asynchronous stream.
 
 ## -inheritance
 

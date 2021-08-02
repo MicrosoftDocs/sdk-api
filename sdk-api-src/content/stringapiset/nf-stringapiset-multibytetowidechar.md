@@ -316,7 +316,7 @@ catch (std::exception e)
             }
             else
             {
-                wideWhat.insert(0, L"Exception occurrred: ");
+                wideWhat.insert(0, L"Exception occurred: ");
             }
         }
     }

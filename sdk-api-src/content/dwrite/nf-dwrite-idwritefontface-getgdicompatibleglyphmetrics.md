@@ -58,7 +58,7 @@ Obtains glyph metrics in font design units with the return values compatible wit
 
 Type: <b>FLOAT</b>
 
-The ogical size of the font in DIP units.
+The logical size of the font in DIP units.
 
 ### -param pixelsPerDip
 

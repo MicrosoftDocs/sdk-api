@@ -64,7 +64,7 @@ The source pixel format.
 
 Type: <b>REFWICPixelFormatGUID</b>
 
-The destionation pixel format.
+The destination pixel format.
 
 ### -param pfCanConvert [out]
 

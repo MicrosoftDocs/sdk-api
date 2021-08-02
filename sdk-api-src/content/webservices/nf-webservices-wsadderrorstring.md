@@ -110,4 +110,4 @@ This function may return other errors not listed above.
 ## -remarks
 
 This function requires that the string be in the language specified by the LANGID of the 
-                error object.  You can retrieve this LANGID value by calling the  <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
+                error object.  You can retrieve this LANGID value by calling the  <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a> function with the WS_ERROR_PROPERTY_LANGID value of the <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.

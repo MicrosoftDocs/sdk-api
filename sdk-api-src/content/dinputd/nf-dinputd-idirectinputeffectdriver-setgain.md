@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::SetGain </b>method sets the overall device gain.
+The <b>IDirectInputEffectDriver::SetGain </b> method sets the overall device gain.
 
 ## -parameters
 

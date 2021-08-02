@@ -53,7 +53,7 @@ api_name:
 
 The <b>IPortableDevice</b> interface provides access to a portable device.
 
-To create and open this interface, first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b>to retrieve an <b>IPortableDevice</b> interface, and then call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a> to open a connection to the device.
+To create and open this interface, first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with <b>CLSID_PortableDeviceFTM</b>  or <b>CLSID_PortableDevice</b> to retrieve an <b>IPortableDevice</b> interface, and then call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">Open</a> to open a connection to the device.
 
 ## -inheritance
 

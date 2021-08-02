@@ -1134,7 +1134,7 @@ This attribute is reserved for system use.
 
 ### -field MS_ATTRIBUTE_QUARANTINE_SOH
 
-Vendor-specific attribute used only to carry Statement of Health (SoH) information when EAP is not used. A RADIUS server may send it to an network access server (NAS) in an Access-Accept message.
+Vendor-specific attribute used only to carry Statement of Health (SoH) information when EAP is not used. A RADIUS server may send it to a network access server (NAS) in an Access-Accept message.
 
 ### -field IAS_ATTRIBUTE_EAP_TYPES_CONFIGURED_IN_PROXYPOLICY
 

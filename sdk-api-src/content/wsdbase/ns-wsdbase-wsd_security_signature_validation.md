@@ -60,7 +60,7 @@ Represents the criteria for matching client compact signatures against messages.
 
 ### -field signingCertArray
 
-An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> stuctures that contain certificates to be matched against a message.  Only one matching certificate is required for validatation.  This parameter can be <b>NULL</b>.
+An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> stuctures that contain certificates to be matched against a message.  Only one matching certificate is required for validation.  This parameter can be <b>NULL</b>.
 
 ### -field dwSigningCertArrayCount
 
@@ -68,7 +68,7 @@ The count of certificates in <i>signingMatchArray</i>.
 
 ### -field hSigningCertStore
 
-A handle to a certificate store that contains certificates to be matched against a message.  Only one matching certificate is required for validatation.  This parameter can be <b>NULL</b>.
+A handle to a certificate store that contains certificates to be matched against a message.  Only one matching certificate is required for validation.  This parameter can be <b>NULL</b>.
 
 ### -field dwFlags
 

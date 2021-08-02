@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This operator assigns the vector component data packed in an instance of <code>uint32_t</code>to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
+This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>.
 
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.

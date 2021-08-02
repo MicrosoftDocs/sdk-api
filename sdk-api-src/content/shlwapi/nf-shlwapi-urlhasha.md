@@ -68,7 +68,7 @@ A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains
 
 Type: <b>BYTE*</b>
 
-A pointere to a buffer that, when this function returns successfully, receives the hashed array.
+A pointer to a buffer that, when this function returns successfully, receives the hashed array.
 
 ### -param cbHash
 

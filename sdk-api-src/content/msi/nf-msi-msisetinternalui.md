@@ -185,7 +185,7 @@ Pointer to a window. This window becomes the owner of any user interface created
 
 ## -returns
 
-The previous user interface level is returned. If an invalid <i>dwUILevel </i>is passed, then <b>INSTALLUILEVEL_NOCHANGE</b> is returned.
+The previous user interface level is returned. If an invalid <i>dwUILevel </i> is passed, then <b>INSTALLUILEVEL_NOCHANGE</b> is returned.
 
 ## -remarks
 

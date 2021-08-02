@@ -129,7 +129,7 @@ To retrieve a handle to a partition, call
 
 \\.&#92;<i>X</i>:
 
-where <i>X </i>is the drive letter.
+where <i>X </i> is the drive letter.
 
 The application calling <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> must 
     also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags 

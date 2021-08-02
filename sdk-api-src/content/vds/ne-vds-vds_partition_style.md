@@ -73,7 +73,7 @@ The style is GUID partition table (GPT). If the value is <b>VDS_PST_GPT</b>, the
 ## -remarks
 
 The <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a> and
-        <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>structures include a <b>VDS_PARTITION_STYLE</b> value as a member. Additionally, the  <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-convertstyle">IVdsDisk::ConvertStyle</a>and <a href="/windows/desktop/api/vds/nf-vds-ivdspack-adddisk">IVdsPack::AddDisk</a>methods pass a <b>VDS_PARTITION_STYLE</b> value  as an argument to indicate the partition style on a disk.
+        <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a> structures include a <b>VDS_PARTITION_STYLE</b> value as a member. Additionally, the  <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-convertstyle">IVdsDisk::ConvertStyle</a> and <a href="/windows/desktop/api/vds/nf-vds-ivdspack-adddisk">IVdsPack::AddDisk</a> methods pass a <b>VDS_PARTITION_STYLE</b> value  as an argument to indicate the partition style on a disk.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_PARTITION_STYLE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_PARTITION_STYLE</b> enumeration constant.</div>
 <div> </div>

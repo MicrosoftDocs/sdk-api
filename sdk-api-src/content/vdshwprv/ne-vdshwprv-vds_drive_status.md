@@ -93,7 +93,7 @@ The drive has been physically unplugged from the subsystem. When this status is 
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a>method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-setstatus">IVdsDrive::SetStatus</a> method passes a <b>VDS_DRIVE_STATUS</b> value as an argument to set the status of a drive, and  the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure includes a <b>VDS_DRIVE_STATUS</b> value as a member to indicate the current status.
 
 If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not recognize, it should display the drive status as unknown. It should not attempt to map the unrecognized drive status to another drive status.
 

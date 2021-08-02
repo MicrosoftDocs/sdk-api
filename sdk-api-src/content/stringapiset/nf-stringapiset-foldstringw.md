@@ -164,9 +164,9 @@ The values of the <i>lpSrcStr</i> and  and <i>lpDestStr</i> parameters must not 
 
 The compatibility zone in Unicode consists of characters in the range 0xF900 through 0xFFEF that are assigned to characters from other encoding standards for characters but are actually variants of characters already in Unicode. The compatibility zone is used to support round-trip mapping to these standards. Applications can use the MAP_FOLDCZONE flag to avoid supporting the duplication of characters in the compatibility zone.
 
-<b>Startng with Windows Vista:</b> This function supports Unicode normalization. All Unicode compatibility characters are mapped.
+<b>Starting with Windows Vista:</b> This function supports Unicode normalization. All Unicode compatibility characters are mapped.
 
-<b>Startng with Windows Vista:</b> The transformations indicated by the MAP_FOLDCZONE, MAP_PRECOMPOSED, and MAP_COMPOSITE flags use Unicode normalization forms KC, C, and D (through the <a href="/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a> function) to do the mappings.
+<b>Starting with Windows Vista:</b> The transformations indicated by the MAP_FOLDCZONE, MAP_PRECOMPOSED, and MAP_COMPOSITE flags use Unicode normalization forms KC, C, and D (through the <a href="/windows/desktop/api/winnls/nf-winnls-normalizestring">NormalizeString</a> function) to do the mappings.
 
 <b>Starting with Windows 8: </b>The ANSI version of the function is declared in Winnls.h and the Unicode version is declared in Stringapiset.h. Before Windows 8, both versions were declared in Winnls.h.
 

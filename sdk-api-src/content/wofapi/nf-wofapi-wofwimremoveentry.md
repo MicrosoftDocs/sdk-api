@@ -60,7 +60,7 @@ The volume name which contained files whose data was provided by the WIM.
 
 ### -param DataSourceId [in]
 
-Identifes the WIM entry.
+Identifies the WIM entry.
 
 ## -returns
 

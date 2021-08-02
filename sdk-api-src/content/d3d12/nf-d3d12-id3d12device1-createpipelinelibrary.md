@@ -112,5 +112,4 @@ See the [Direct3D 12 pipeline state cache sample](https://github.com/microsoft/D
 ## -see-also
 
 * <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
-* <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline state cache sample</a>
 * [Direct3D 12 pipeline state cache sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache)

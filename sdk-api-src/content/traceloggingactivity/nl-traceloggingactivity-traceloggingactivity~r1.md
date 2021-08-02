@@ -166,7 +166,7 @@ Contains the value of the level that will be used in the activity�s start and 
 
 
 ## -inheritance
-TraceLoggingActivity interits from _TlgActivityBase. 
+TraceLoggingActivity inherits from _TlgActivityBase. 
 ## -members
 
 The <b>TraceLoggingActivity</b> class has these methods.

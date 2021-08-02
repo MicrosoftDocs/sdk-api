@@ -64,7 +64,7 @@ Instance of <code>XMFLOAT3PK</code> used to update the current <code>XMFLOAT3PK<
 
 ## -returns
 
-The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b>argument.
+The current instance of <code>XMFLOAT3PK</code> whose vector component data has been updated to match those of the <code>XMFLOAT3PK</code> instance specified by the <b>float3pk</b> argument.
 
 ## -see-also
 

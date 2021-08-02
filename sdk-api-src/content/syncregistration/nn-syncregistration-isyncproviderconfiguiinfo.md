@@ -58,7 +58,7 @@ The <b>ISyncProviderConfigUIInfo</b> interface inherits from <b>IPropertyStore</
 
 ## -remarks
 
-You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a>method and manipulating the configuration UI's <b>IPropertyStore</b>.
+You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a> method and manipulating the configuration UI's <b>IPropertyStore</b>.
 
 ## -see-also
 

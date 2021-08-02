@@ -109,7 +109,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The method could not open a writeable property store because the caller has insufficient access or the discovery provider does not allow write access to its property store.
+The method could not open a writable property store because the caller has insufficient access or the discovery provider does not allow write access to its property store.
 
 </td>
 </tr>

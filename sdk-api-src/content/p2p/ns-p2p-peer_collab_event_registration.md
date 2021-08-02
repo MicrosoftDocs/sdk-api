@@ -68,7 +68,7 @@ GUID value that uniquely identifies the application or object  that registers fo
 
 This parameter is valid only for PEER_EVENT_ENDPOINT_APPLICATION_CHANGED, PEER_EVENT_ENDPOINT_OBJECT_CHANGED, PEER_EVENT_MY_APPLICATION_CHANGED, and PEER_EVENT_MY_OBJECT_CHANGED. This GUID represents the application ID for application-specific events, and the object ID for object-specific events.  
 
-When <b></b>this member is set, notification will be sent only for the specific application or object.
+When this member is set, notification will be sent only for the specific application or object.
 
 ### -field pInstance.unique
 

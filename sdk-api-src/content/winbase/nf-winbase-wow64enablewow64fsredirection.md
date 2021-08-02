@@ -202,7 +202,7 @@ void main()
     if ( FALSE == Wow64EnableWow64FsRedirection(TRUE) )
      {
       //  Failure to re-enable redirection should be considered
-      //  a criticial failure and execution aborted.
+      //  a critical failure and execution aborted.
       return;
      }
    }

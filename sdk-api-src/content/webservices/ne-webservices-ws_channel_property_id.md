@@ -96,14 +96,14 @@ An <b>unsigned __int64</b> used with <a href="/windows/desktop/api/webservices/n
                 
 
 This property may only be specified when streamed input or output has been selected
-                    (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> or <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b>has been set).
+                    (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a> or <b>WS_STREAMED_OUTPUT_TRANSFER_MODE</b> has been set).
                 
 
 The default value is 4194304.
 
 ### -field WS_CHANNEL_PROPERTY_MAX_STREAMED_START_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or
                     <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.  
                     This value is a limit as to how big the start of a message may be.
                     The start of a message consists of the envelope tag, the headers, and the body tag.
@@ -145,7 +145,7 @@ The default value is 65536.
 ### -field WS_CHANNEL_PROPERTY_ENCODING
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING</a> value
-                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_HTTP_CHANNEL_BINDING</b>.
+                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_HTTP_CHANNEL_BINDING</b>.
                     This value specifies what encoding to use for the channel.  
                 
 
@@ -223,7 +223,7 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_versi
 
 ### -field WS_CHANNEL_PROPERTY_MAX_SESSION_DICTIONARY_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>.
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>.
                     This property is only valid for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>.
                     This value specifies the quota for number of bytes of session dictionary
                     strings that will be transmitted or received when using a session-based encoding.
@@ -277,7 +277,7 @@ Both the <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> and 
 ### -field WS_CHANNEL_PROPERTY_IP_VERSION
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_ip_version">WS_IP_VERSION</a> value
-                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_UDP_CHANNEL_BINDING</b>.  
+                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_UDP_CHANNEL_BINDING</b>.  
                     This property specifies which IP version that the channel should use to 
                     communicate with the remote endpoint. 
                 
@@ -292,7 +292,7 @@ The default value is <a href="/windows/desktop/api/webservices/ne-webservices-ws
 ### -field WS_CHANNEL_PROPERTY_RESOLVE_TIMEOUT
 
 A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
-                    or <b>WsSetChannelProperty</b> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+                    or <b>WsSetChannelProperty</b> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                     This timeout limits the amount of time that will be spent resolving
                     the DNS name.  The timeout value is in milliseconds,
                     where the value INFINITE indicates no timeout.
@@ -315,7 +315,7 @@ A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservice
                 
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>,
-                    <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                     This timeout limits the amount of time that will be spent to connect
                     to the HTTP server.  The timeout value is in milliseconds,
                     where the value INFINITE indicates no timeout.
@@ -331,7 +331,7 @@ The <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> sets th
 
 ### -field WS_CHANNEL_PROPERTY_SEND_TIMEOUT
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>,
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>,
                     <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
                     for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>.  This timeout limits the
                     amount of time that will be spent sending the bytes of the message.
@@ -358,8 +358,8 @@ Both <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> and <a h
 
 ### -field WS_CHANNEL_PROPERTY_RECEIVE_RESPONSE_TIMEOUT
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
-                    or <b>WsSetChannelProperty</b> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
+                    or <b>WsSetChannelProperty</b> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                     This timeout limits the amount of time that will be spent waiting for
                     all the response headers to be received from the server.
                     The timeout value is in milliseconds, where the value INFINITE indicates no timeout.
@@ -385,7 +385,7 @@ A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservice
                 
 
 Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
-                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                     This timeout limits the amount of time that will be spent receiving the
                     bytes of the message.  The timeout value is in milliseconds, 
                     where the value INFINITE indicates no timeout.
@@ -420,7 +420,7 @@ The <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> sets th
 
 ### -field WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS
 
-A <b>BOOL</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, <b>WS_TCP_CHANNEL_BINDING</b>, <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>, 
+A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, <b>WS_TCP_CHANNEL_BINDING</b>, <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>, 
                     and <b>WS_UDP_CHANNEL_BINDING</b>. 
               Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <b>WS_CUSTOM_CHANNEL_BINDING</b>. 
                 
@@ -472,7 +472,7 @@ The default property value is <a href="/windows/desktop/api/webservices/ne-webse
 
 ### -field WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
                     or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> 
                     with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a> to indicate which adapter 
                     should be used when sending to a multicast address.
@@ -492,7 +492,7 @@ The default property value is 0.
 
 ### -field WS_CHANNEL_PROPERTY_MULTICAST_HOPS
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
                     for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a> 
                     to specify the max number of hops that a UDP message can travel.
                 
@@ -522,7 +522,7 @@ This property is based on the source IP address that is received from
 
 ### -field WS_CHANNEL_PROPERTY_REMOTE_IP_ADDRESS
 
-A <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>structure
+A <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure
                     used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> 
                     for the following types of channels to retrieve the IP address
                     of the remote party:
@@ -548,7 +548,7 @@ This property is based on the source IP address that is received from
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_CONNECTION_ID
 
-A pointer to a <b>ULONGLONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
+A pointer to a <b>ULONGLONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
                     for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REPLY</a> 
                     to retrieve an identifier that uniquely identifies the client connection.
                 
@@ -570,7 +570,7 @@ The connection ID can be used by an application to correlate state with
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS
 
-A <a href="/windows/win32/api/webservices/ns-webservices-ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
+A <a href="/windows/win32/api/webservices/ns-webservices-ws_custom_channel_callbacks">WS_CUSTOM_CHANNEL_CALLBACKS</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
 This property is used to specify callbacks that
@@ -581,7 +581,7 @@ This property must be specified when <a href="/windows/desktop/api/webservices/n
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS
 
-A pointer to an arbitrary sized data type used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
+A pointer to an arbitrary sized data type used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
 This property is used to specify parameters used to create the custom
@@ -595,11 +595,11 @@ The value of this property will be passed to the
                     <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
-If this property is not specified, it's value is <b>NULL</b> and size is zero.
+If this property is not specified, its value is <b>NULL</b> and size is zero.
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_INSTANCE
 
-A <b>void *</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
+A <b>void *</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
 The size of the property is <b>sizeof(void*)</b>.
@@ -616,7 +616,7 @@ This property can be used to obtain the underlying channel
 
 A <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure
                     used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> 
-                    for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> or <b>WS_TCP_CHANNEL_BINDING</b>for channels created with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
+                    for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> or <b>WS_TCP_CHANNEL_BINDING</b> for channels created with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
 
 This property is used on the server to obtain the URL that was passed
@@ -648,7 +648,7 @@ The caller should pass the address of a <a href="/windows/desktop/api/webservice
 
 ### -field WS_CHANNEL_PROPERTY_NO_DELAY
 
-A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
+A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
                 
 
 This property controls the TCP_NODELAY socket option value of the underlying socket.
@@ -666,7 +666,7 @@ The default value is <b>FALSE</b>.
 
 ### -field WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES
 
-A <b>BOOL</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
+A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
                 
 
 This property controls the SO_KEEPALIVE socket option value of the underlying socket.
@@ -681,13 +681,13 @@ The default value is <b>FALSE</b>.
 
 ### -field WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME
 
-A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
                 
 
 This property is measured in milliseconds.
                 
 
-This property may only be specified when the <b>WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES</b>property has the value of <b>TRUE</b>.
+This property may only be specified when the <b>WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES</b> property has the value of <b>TRUE</b>.
                 
 
 The value represents the amount of time before sending keep alive packets if the
@@ -698,13 +698,13 @@ The default value is 2 hours.
 
 ### -field WS_CHANNEL_PROPERTY_KEEP_ALIVE_INTERVAL
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.
                 
 
 This property is measured in milliseconds.
                 
 
-This property may only be specified when the <b>WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES</b>property has the value of <b>TRUE</b>.
+This property may only be specified when the <b>WS_CHANNEL_PROPERTY_SEND_KEEP_ALIVES</b> property has the value of <b>TRUE</b>.
                 
 
 After the time specified in <b>WS_CHANNEL_PROPERTY_KEEP_ALIVE_TIME</b> has expired,
@@ -717,7 +717,7 @@ The default value is 1 second.
 
 ### -field WS_CHANNEL_PROPERTY_MAX_HTTP_SERVER_CONNECTIONS
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
 This property specifies the maximum number of connections that a client application 
@@ -729,7 +729,7 @@ The default value is INFINITE (no limit).
 
 ### -field WS_CHANNEL_PROPERTY_IS_SESSION_SHUT_DOWN
 
-A <b>BOOL</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> 
+A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> 
                     or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX_SESSION</a>.
                 
 
@@ -752,7 +752,7 @@ The channel can be in any <a href="/windows/desktop/api/webservices/ne-webservic
 
 ### -field WS_CHANNEL_PROPERTY_TRIM_BUFFERED_MESSAGE_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or 
+A <b>ULONG</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> or 
                     <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to control the memory allocation
                     characteristics for the messages on the channel.
@@ -776,14 +776,14 @@ The <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding"
 
 ### -field WS_CHANNEL_PROPERTY_ENCODER
 
-A <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_encoder">WS_CHANNEL_ENCODER</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom encoding of messages.  
 
 This property cannot be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
 
 ### -field WS_CHANNEL_PROPERTY_DECODER
 
-A <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_channel_decoder">WS_CHANNEL_DECODER</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>, 
                     <b>WS_HTTP_CHANNEL_BINDING</b>, or <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> to provide a custom dencoding of messages.  
 
 This property cannot be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a>.
@@ -802,21 +802,21 @@ The value of this property depends on the security requirements
 
 ### -field WS_CHANNEL_PROPERTY_COOKIE_MODE
 
-A <a href="/windows/desktop/api/webservices/ne-webservices-ws_cookie_mode">WS_COOKIE_MODE</a> value used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>to control how HTTP cookies are handled.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_cookie_mode">WS_COOKIE_MODE</a> value used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> to control how HTTP cookies are handled.
                 
 
 The default value is <a href="/windows/desktop/api/webservices/ne-webservices-ws_cookie_mode">WS_AUTO_COOKIE_MODE</a>.
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE
 
-A <a href="/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE</a> value used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>to control the HTTP proxy settings for the channel.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE</a> value used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> to control the HTTP proxy settings for the channel.
                 
 
 The default value is <a href="/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE_AUTO</a>.
 
 ### -field WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY
 
-A <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_http_proxy">WS_CUSTOM_HTTP_PROXY</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>to specify the custom custom setting for the HTTP channel. This property must
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_http_proxy">WS_CUSTOM_HTTP_PROXY</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> to specify the custom custom setting for the HTTP channel. This property must
                     be specified when <b>WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE</b> is set to
                     <a href="/windows/desktop/api/webservices/ne-webservices-ws_http_proxy_setting_mode">WS_HTTP_PROXY_SETTING_MODE_CUSTOM</a>.
                 
@@ -825,14 +825,14 @@ The default value is <b>NULL</b>.
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_MESSAGE_MAPPING
 
-A <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+A <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> structure used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
 This property value controls how an HTTP request or response is mapped into
                     a message object.  See <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> for more information.
                 
 
-The default value for this property is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>structure is as follows:
+The default value for this property is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a> structure is as follows:
                 
 
 <ul>
@@ -851,7 +851,7 @@ The default value for this property is a <a href="/windows/desktop/api/webservic
 
 ### -field WS_CHANNEL_PROPERTY_ENABLE_HTTP_REDIRECT
 
-A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                 
 
 This property value controls whether  HTTP auto redirection is enabled.
@@ -867,7 +867,7 @@ The default value is <b>FALSE</b>.
 ### -field WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT
 
 A <a href="/windows/win32/api/webservices/ns-webservices-ws_http_redirect_callback_context">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> structure
-                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
                 
 
 This property value may be specified when more granular control of automatic HTTP redirection is needed.
@@ -880,7 +880,7 @@ When this property is set, the specified callback routine will be called with th
 ### -field WS_CHANNEL_PROPERTY_FAULTS_AS_ERRORS
 
 A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
-                    <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>, or <b>WS_TCP_CHANNEL_BINDING</b>, <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>, and  <b>WS_UDP_CHANNEL_BINDING</b> on the client.           
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>, or <b>WS_TCP_CHANNEL_BINDING</b>, <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>, and  <b>WS_UDP_CHANNEL_BINDING</b> on the client.           
                 
 
 When set to <b>TRUE</b>, Channel and Service Model functions return an error code when a fault is received. 
@@ -922,7 +922,7 @@ The default value is <b>TRUE</b>. If used with <a href="/windows/desktop/api/web
 ### -field WS_CHANNEL_PROPERTY_ALLOW_UNSECURED_FAULTS
 
 A <b>BOOL</b> used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a>,
-                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>, or <b>WS_TCP_CHANNEL_BINDING</b> and <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> on the client.
+                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>, or <b>WS_TCP_CHANNEL_BINDING</b> and <b>WS_NAMEDPIPE_CHANNEL_BINDING</b> on the client.
                 
 
 When set to <b>TRUE</b>, unsecured faults received on a secure channel do not cause message security verification to fail. Instead the
@@ -950,12 +950,12 @@ Setting this property to <b>TRUE</b> causes message security verification for fa
 ### -field WS_CHANNEL_PROPERTY_HTTP_SERVER_SPN
 
 A <b>WCHAR</b> pointer
-                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+                    used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
 
                 
 
 Returns the Server Principal Name of the remote endpoint used for the last failed request. There is no guarantee that this property is 
-                    available. The following are the neccessary (but not always sufficient) conditions for this property to be present:
+                    available. The following are the necessary (but not always sufficient) conditions for this property to be present:
                     <ul>
 <li>The channel sent a request.
                         </li>
@@ -970,7 +970,7 @@ This property is only available on Windows 7 and above.
 
 ### -field WS_CHANNEL_PROPERTY_HTTP_PROXY_SPN
 
-A <b>WCHAR</b> pointer used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
+A <b>WCHAR</b> pointer used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REQUEST</a>.
 
                 
 

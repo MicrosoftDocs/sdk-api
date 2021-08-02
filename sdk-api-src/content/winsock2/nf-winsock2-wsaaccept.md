@@ -416,7 +416,7 @@ int main() {
     printf("Listening...\n");
   
     /*-----------------------------------------
-     *  Accept an incoming connnection request on the
+     *  Accept an incoming connection request on the
      *  listening socket and transfer control to the 
      * accepting socket. */
     AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &saClient, &iClientSize, 

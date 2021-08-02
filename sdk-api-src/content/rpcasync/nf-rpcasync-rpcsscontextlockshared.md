@@ -90,7 +90,7 @@ For the <i>UserContext</i> parameter, if the manager routine receives a pointer 
 {
     ...
     // we decided that we're done changing the context handle exclusively
-    // and that we have extensive processing ahead - downgrade the exlusive
+    // and that we have extensive processing ahead - downgrade the exclusive
     // lock to shared, and do the processing allowing other readers in
     RpcSsContextLockShared (NULL,    // use the explicit context
         Ctx

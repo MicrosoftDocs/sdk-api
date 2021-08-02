@@ -71,7 +71,7 @@ Receives the relative aperture setting. To get the range of possible values, cal
 <td>Default aperture setting.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Open by one step.</td>
 </tr>
 <tr>

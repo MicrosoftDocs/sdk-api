@@ -68,7 +68,7 @@ Indicates that if you can't allocate the DirectDraw surface in video memory you 
 
 ### -field AMAP_FORCE_SYSMEM
 
-Force the surface to be created in system memory. Specify this if you will use GDI to process the image before it is renderered. The surface must match the current monitor display format (pixel depth).
+Force the surface to be created in system memory. Specify this if you will use GDI to process the image before it is rendered. The surface must match the current monitor display format (pixel depth).
 
 ### -field AMAP_DIRECTED_FLIP
 

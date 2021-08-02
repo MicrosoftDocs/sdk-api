@@ -81,8 +81,8 @@ The application does not have to call the
 <a href="/windows/desktop/api/tapi/nf-tapi-phonegetid">phoneGetID</a> during TAPI initialization or when a new phone object appears.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>interface returned by <b>ITPhone::get_Terminals</b>. The application must call <b>Release</b> on the 
-<b>ITAddress</b>interface to free resources associated with it.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITPhone::get_Terminals</b>. The application must call <b>Release</b> on the 
+<b>ITAddress</b> interface to free resources associated with it.
 
 ## -see-also
 

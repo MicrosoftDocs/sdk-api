@@ -88,7 +88,7 @@ Pointer to a <b>GUID</b> value that contains the identifier of the domain specif
 
 ### -param DnsForestName [in, optional]
 
-Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i>to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
+Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i> to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
 
 ### -param DcFlags [in]
 

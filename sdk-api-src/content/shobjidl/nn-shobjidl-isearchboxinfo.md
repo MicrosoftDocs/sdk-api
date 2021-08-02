@@ -58,7 +58,7 @@ The <b>ISearchBoxInfo</b> interface inherits from the <a href="/windows/desktop/
 
 ## -remarks
 
-The search box is shown here in an Windows Explorer window frame.
+The search box is shown here in a Windows Explorer window frame.
 
 
 

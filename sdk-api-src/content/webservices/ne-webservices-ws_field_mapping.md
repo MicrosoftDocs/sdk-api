@@ -157,7 +157,7 @@ To discard the element, a <a href="/windows/desktop/api/webservices/ne-webservic
 
 ### -field WS_REPEATING_ELEMENT_FIELD_MAPPING
 
-The field corresponds to an repeating set of elements.
+The field corresponds to a repeating set of elements.
                 
 
 The field's localName/ns are used as the XML element
@@ -200,7 +200,7 @@ s.fieldCount = 2;
     &lt;item&gt;1&lt;/item&gt;
     &lt;item&gt;2&lt;/item&gt;
 &lt;/Struct&gt;</code></pre>
-The number of elements in the deseralized array can be constrained
+The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
@@ -210,7 +210,7 @@ The field corresponds to the entire character content of the element.
                     When this mapping is used, child elements are not allowed.
                 
 
-This mapping is commonly used in conjunction with <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ATTRIBUTE_FIELD_MAPPING</a>to define a structure which maps to an element containing some text and attributes (but no
+This mapping is commonly used in conjunction with <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ATTRIBUTE_FIELD_MAPPING</a> to define a structure which maps to an element containing some text and attributes (but no
                     child elements).
                 
 
@@ -431,7 +431,7 @@ The selector value indicates which of the fields of the
 
 ### -field WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING
 
-The field corresponds to an repeating set of element choices.
+The field corresponds to a repeating set of element choices.
                 
 
 Each item is represented by a union with selector value.
@@ -484,7 +484,7 @@ s2.fieldCount = 2;
     &lt;item&gt;hello&lt;/item&gt;
 &lt;/Struct2&gt;
 </code></pre>
-The number of elements in the deseralized array can be constrained
+The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
@@ -634,10 +634,10 @@ This mapping does not support specifying a <a href="/windows/desktop/api/webserv
 
 The <b>WS_FIELD_MAPPING</b> indicates how different parts of the XML content
                 maps to the fields of a structure.  For example, <b>WS_ELEMENT_FIELD_MAPPING</b> can
-                be used to map the value of an child element, and <b>WS_ATTRIBUTE_FIELD_MAPPING</b>can be used to map an attribute.  Any XML content that is read that is not explicitly
+                be used to map the value of a child element, and <b>WS_ATTRIBUTE_FIELD_MAPPING</b> can be used to map an attribute.  Any XML content that is read that is not explicitly
                 mapped will cause <b>WS_E_INVALID_FORMAT</b> to be returned when the XML
                 is deserialized.
              (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-The order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a>is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
+The order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> within a <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> is determined by the <b>WS_FIELD_MAPPING</b> value of the <b>WS_FIELD_DESCRIPTION</b>.
                 See <b>WS_STRUCT_DESCRIPTION</b> for more information on the ordering.

@@ -109,7 +109,7 @@ A handle to the transaction. This handle is returned by the
 ## -returns
 
 If the function succeeds, the return value is a search handle that can be used in subsequent calls to the 
-       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
        error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -126,7 +126,7 @@ The <b>FindFirstStreamTransactedW</b> function
     files, this is always the default data stream, ::$DATA. After the search handle has been established, use it in 
     the <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a> function to search for other 
     streams in the specified file or directory. When the search handle is no longer needed, it should be closed using 
-    the <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>function.
+    the <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 

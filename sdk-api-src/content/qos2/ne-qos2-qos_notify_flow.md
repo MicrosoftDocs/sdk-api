@@ -68,7 +68,7 @@ Notifications will be sent when the flow is not congested.  If the flow is curre
 
 ### -field QOSNotifyAvailable
 
-Notifications will be sent when the flow's available capacity is sufficient  to allow upgrading it's bandwidth to a specified  capacity.
+Notifications will be sent when the flow's available capacity is sufficient to allow upgrading its bandwidth to a specified capacity.
 
 ## -see-also
 

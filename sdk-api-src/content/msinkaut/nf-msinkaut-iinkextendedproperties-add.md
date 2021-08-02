@@ -71,7 +71,7 @@ For more information about the VARIANT structure, see <a href="/windows/desktop/
 
 ### -param InkExtendedProperty [out, retval]
 
-When this method returns, contains a poitner to the new extended property.
+When this method returns, contains a pointer to the new extended property.
 
 ## -returns
 

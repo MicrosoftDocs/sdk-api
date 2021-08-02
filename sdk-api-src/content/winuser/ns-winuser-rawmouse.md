@@ -69,7 +69,7 @@ The mouse state. This member can be any reasonable combination of the following.
 | **MOUSE_MOVE_ABSOLUTE**</br>0x01 | Mouse movement data is based on absolute position. For further information about mouse motion, see the following Remarks section. |
 | **MOUSE_VIRTUAL_DESKTOP**</br>0x02 | Mouse coordinates are mapped to the virtual desktop (for a multiple monitor system). For further information about mouse motion, see the following Remarks section. |
 | **MOUSE_ATTRIBUTES_CHANGED**</br>0x04 | Mouse attributes changed; application needs to query the mouse attributes. |
-| **MOUSE_MOVE_NOCOALESCE**</br>0x08 | This mouse movement event was not coalesced. Mouse movement events can be coalescened by default.<br/>Windows XP/2000: This value is not supported. |
+| **MOUSE_MOVE_NOCOALESCE**</br>0x08 | This mouse movement event was not coalesced. Mouse movement events can be coalesced by default.<br/>Windows XP/2000: This value is not supported. |
 
 ### -field DUMMYUNIONNAME.ulButtons
 

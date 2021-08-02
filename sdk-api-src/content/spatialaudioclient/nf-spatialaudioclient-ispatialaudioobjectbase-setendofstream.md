@@ -1,7 +1,7 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.SetEndOfStream
 title: ISpatialAudioObjectBase::SetEndOfStream (spatialaudioclient.h)
-description: Instructs the system that the final block of audio data has been submitted for the ISpatialAudioObject so that the object can be deactivated and it's resources reused.
+description: Instructs the system that the final block of audio data has been submitted for the ISpatialAudioObject so that the object can be deactivated and its resources reused.
 helpviewer_keywords: ["ISpatialAudioObjectBase interface [Core Audio]","SetEndOfStream method","ISpatialAudioObjectBase.SetEndOfStream","ISpatialAudioObjectBase::SetEndOfStream","SetEndOfStream","SetEndOfStream method [Core Audio]","SetEndOfStream method [Core Audio]","ISpatialAudioObjectBase interface","coreaudio.ispatialaudioobject_setendofstream","spatialaudioclient/ISpatialAudioObjectBase::SetEndOfStream"]
 old-location: coreaudio\ispatialaudioobject_setendofstream.htm
 tech.root: CoreAudio
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instructs the system that the final block of audio data has been  submitted for the <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> so that the object can be deactivated and it's resources reused.
+Instructs the system that the final block of audio data has been  submitted for the <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> so that the object can be deactivated and its resources reused.
 
 ## -parameters
 

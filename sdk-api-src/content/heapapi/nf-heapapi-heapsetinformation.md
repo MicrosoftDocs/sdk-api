@@ -229,7 +229,7 @@ int __cdecl _tmain()
     }
 
     //
-    // Enable the low-fragmenation heap (LFH). Starting with Windows Vista, 
+    // Enable the low-fragmentation heap (LFH). Starting with Windows Vista, 
     // the LFH is enabled by default but this call does not cause an error.
     //
     HeapInformation = HEAP_LFH;

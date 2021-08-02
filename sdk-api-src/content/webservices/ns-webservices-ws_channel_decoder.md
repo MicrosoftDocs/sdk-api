@@ -63,7 +63,7 @@ A context that will be passed to the <a href="/windows/desktop/api/webservices/n
 
 ### -field createDecoderCallback
 
-A <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> callback that creates an instance of an decoder.
+A <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> callback that creates an instance of a decoder.
 
 ### -field decoderGetContentTypeCallback
 
@@ -84,7 +84,7 @@ A <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callba
 
 ### -field freeDecoderCallback
 
-A <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a> callback that frees an instance of an decoder.
+A <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a> callback that frees an instance of a decoder.
 
 ## -remarks
 

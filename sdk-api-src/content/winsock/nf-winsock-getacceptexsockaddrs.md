@@ -62,12 +62,12 @@ The
 
 A pointer to a buffer that receives the first block of data sent on a connection resulting from an 
 <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a> call. Must be the same <i>lpOutputBuffer</i> parameter that was passed to the 
-<b>AcceptEx</b>function.
+<b>AcceptEx</b> function.
 
 ### -param dwReceiveDataLength [in]
 
 The number of bytes in the buffer used for receiving the first data. This value must be equal to the <i>dwReceiveDataLength</i> parameter that was passed to the 
-<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>function.
+<a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a> function.
 
 ### -param dwLocalAddressLength [in]
 

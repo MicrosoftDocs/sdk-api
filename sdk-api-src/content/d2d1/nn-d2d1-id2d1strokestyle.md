@@ -64,7 +64,7 @@ The <b>ID2D1StrokeStyle</b> interface inherits from <a href="/windows/win32/api/
 <h3><a id="Creating_ID2D1StrokeStyle_Objects"></a><a id="creating_id2d1strokestyle_objects"></a><a id="CREATING_ID2D1STROKESTYLE_OBJECTS"></a>Creating ID2D1StrokeStyle Objects</h3>
 To create a stroke style, use the <a href="/windows/win32/Direct2D/id2d1factory-createstrokestyle">ID2D1Factory::CreateStrokeStyle</a> method.
 
-A stroke style is a device-indenpendent resource; you can create it once then retain it for the life of your application. For more information about resources, see the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.
+A stroke style is a device-independent resource; you can create it once then retain it for the life of your application. For more information about resources, see the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 ## Examples

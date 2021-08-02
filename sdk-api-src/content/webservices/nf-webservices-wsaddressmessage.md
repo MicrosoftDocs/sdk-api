@@ -56,7 +56,7 @@ Addresses a <a href="/windows/desktop/wsw/message">message</a> to a specified <a
 
 ### -param message [in]
 
-Pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure respresenting the  message to be addressed.
+Pointer to a <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure representing the  message to be addressed.
 
 ### -param address [in, optional]
 
@@ -160,7 +160,7 @@ If a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_
             
 
 <ul>
-<li>The header type is set to WS_TO_HEADER (see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b>field of <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.  If the URL length
+<li>The header type is set to WS_TO_HEADER (see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a> enumeration) and the address is set to the value of the <b>url</b> field of <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.  If the URL length
                 is zero the <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>-specific 
                 representation for an anonymous URL is set for the message.
                 </li>

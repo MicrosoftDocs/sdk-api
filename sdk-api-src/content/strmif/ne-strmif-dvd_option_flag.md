@@ -156,7 +156,7 @@ Specifies the format for timecode information.
 
 
 
-The default value is <b>FALS</b>E.
+The default value is <b>FALSE</b>.
 
 You can also enable audio during fast forward and rewind by creating the following key in the Windows registry:
 

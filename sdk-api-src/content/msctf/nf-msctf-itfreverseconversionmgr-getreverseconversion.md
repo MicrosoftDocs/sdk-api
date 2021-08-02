@@ -89,7 +89,7 @@ Activate the reverse conversion interface without COM.
 </dl>
 </td>
 <td width="60%">
-The output should be an array of virtual key codes (instead of chracter key codes). 
+The output should be an array of virtual key codes (instead of character key codes). 
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ An unspecified error occurred.
 
 A reverse conversion provides the keystroke sequences required to create the specified string.
 
-When niether the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</b> flag is  specified for <i>dwflag</i>, the IME might not arrange the output in any sort of order.
+When neither the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</b> flag is  specified for <i>dwflag</i>, the IME might not arrange the output in any sort of order.
 
 ## -see-also
 

@@ -56,7 +56,7 @@ The <b>GetMute</b> method retrieves the mute status of the offloaded audio strea
 
 ### -param pbMuted [out]
 
-Indicates whether or not the offloaded audio stream is muted. A value of<b>TRUE</b> indicates that the stream is muted, and a value of<b>FALSE</b> indicates that the stream is not muted.
+Indicates whether or not the offloaded audio stream is muted. A value of <b>TRUE</b> indicates that the stream is muted, and a value of <b>FALSE</b> indicates that the stream is not muted.
 
 ## -returns
 

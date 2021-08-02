@@ -105,7 +105,7 @@ There is not enough memory to perform the specified operation.
 
 ## -remarks
 
-This call is synchronous and will block until completed. For aysnchronous peer name resolution, call <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> and obtain the resolved endpoint address when the supplied event is raised.
+This call is synchronous and will block until completed. For asynchronous peer name resolution, call <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a> and obtain the resolved endpoint address when the supplied event is raised.
 
 A handle must be resolved in a process separate of the process it was registered in. If a handle is registered and resolved within the same process it will not be recognized.
 

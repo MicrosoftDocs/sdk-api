@@ -80,4 +80,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-Component types must be enumerated seperately. Combinations of component types and <b>WICAllComponents</b> are unsupported.
+Component types must be enumerated separately. Combinations of component types and <b>WICAllComponents</b> are unsupported.

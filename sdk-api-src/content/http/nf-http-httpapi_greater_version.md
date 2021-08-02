@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>HTTPAPI_GREATER_VERSION</b>returns a non-zero value if an 
+The <b>HTTPAPI_GREATER_VERSION</b> returns a non-zero value if an 
 <a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure is greater than a specified major/minor version combination, or zero otherwise.
 
 ## -parameters

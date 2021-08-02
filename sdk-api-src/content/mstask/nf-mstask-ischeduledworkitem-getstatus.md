@@ -148,7 +148,7 @@ The methods of the
 <b>IScheduledWorkItem::GetStatus</b> is typically called through the 
 <b>ITask</b> interface.
 
-<b>IScheduledWorkItem::GetStatus</b> does not obtain the status of the task dynamically. <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>should be called to obtain a new <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface, which is used to get an updated status. For more information, see the example for <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>.
+<b>IScheduledWorkItem::GetStatus</b> does not obtain the status of the task dynamically. <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> should be called to obtain a new <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface, which is used to get an updated status. For more information, see the example for <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a>.
 
 
 #### Examples

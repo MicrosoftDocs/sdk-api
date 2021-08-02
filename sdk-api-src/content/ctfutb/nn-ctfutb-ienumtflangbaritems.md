@@ -1,7 +1,7 @@
 ---
 UID: NN:ctfutb.IEnumTfLangBarItems
 title: IEnumTfLangBarItems (ctfutb.h)
-description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
+description: The IEnumTfLangBarItems interface is implemented by the TSF manager to provide an enumeration of language bar item objects.
 helpviewer_keywords: ["IEnumTfLangBarItems","IEnumTfLangBarItems interface [Text Services Framework]","IEnumTfLangBarItems interface [Text Services Framework]","described","_tsf_ienumtflangbaritems_ref","ctfutb/IEnumTfLangBarItems","tsf.ienumtflangbaritems"]
 old-location: tsf\ienumtflangbaritems.htm
 tech.root: TSF
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IEnumTfLangBarItems</b> interface is implemented by the TSF manager to provide an enumeration of langauge bar item objects.
+The <b>IEnumTfLangBarItems</b> interface is implemented by the TSF manager to provide an enumeration of language bar item objects.
 
 ## -inheritance
 

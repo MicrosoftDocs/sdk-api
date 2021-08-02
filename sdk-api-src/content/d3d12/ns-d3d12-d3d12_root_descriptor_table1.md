@@ -64,8 +64,8 @@ An array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1
 Samplers are not allowed in the same descriptor table as constant-buffer views (CBVs), unordered-access views (UAVs), and shader-resource views (SRVs).
       
 
-<b>D3D12_ROOT_DESCRIPTOR_TABLE1</b>is the data type of the
-        <b>DescriptorTable</b>member of
+<b>D3D12_ROOT_DESCRIPTOR_TABLE1</b> is the data type of the
+       <b>DescriptorTable</b> member of
         <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter1">D3D12_ROOT_PARAMETER1</a>.
         Use a
         <b>D3D12_ROOT_DESCRIPTOR_TABLE1</b> when you set <b>D3D12_ROOT_PARAMETER1</b>'s <b>SlotType</b> member to <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type">D3D12_ROOT_PARAMETER_TYPE_DESCRIPTOR_TABLE</a>.

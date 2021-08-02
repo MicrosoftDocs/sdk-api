@@ -60,7 +60,7 @@ A handle to the registry key that was previously disabled using the <a href="/wi
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function; it cannot specify a key on a remote computer.
 
-If the key is not on the reflection list, this function succeeds but has no effect. For more information, see <a href="/windows/desktop/WinProg64/registry-redirector">Registry Redirector</a>and <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a>.
+If the key is not on the reflection list, this function succeeds but has no effect. For more information, see <a href="/windows/desktop/WinProg64/registry-redirector">Registry Redirector</a> and <a href="/windows/desktop/WinProg64/registry-reflection">Registry Reflection</a>.
 
 ## -returns
 

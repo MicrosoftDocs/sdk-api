@@ -138,7 +138,7 @@ The extended window style for the new window. For a list of possible values, see
 
 ## -remarks
 
-Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessable) atom, do not obtain the class name by using this member. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
+Because the <b>lpszClass</b> member can contain a pointer to a local (and thus inaccessible) atom, do not obtain the class name by using this member. Use the <a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a> function instead.
 
  You should access the data represented by the <b>lpCreateParams</b> member using a pointer that has been declared using the <b>UNALIGNED</b> type, because the pointer may not be <b>DWORD</b> aligned. This is demonstrated in the following example:
 

@@ -508,8 +508,8 @@ This value is not used by a programmer; it exists to force the enumeration to co
 ## -remarks
 
 A call to the
-          <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getdesc">ID3D11ShaderReflectionType::GetDesc</a>method returns a
-          <b>D3D_SHADER_VARIABLE_TYPE</b>value in the <b>Type</b> member of a
+          <a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflectiontype-getdesc">ID3D11ShaderReflectionType::GetDesc</a> method returns a
+         <b>D3D_SHADER_VARIABLE_TYPE</b> value in the <b>Type</b> member of a
           <a href="/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_type_desc">D3D11_SHADER_TYPE_DESC</a> structure.
         
 

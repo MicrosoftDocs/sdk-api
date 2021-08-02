@@ -53,7 +53,7 @@ The parameter ID.
 
 ### -param pvParam
 
-The paramter value.
+The parameter value.
 
 ### -param pfnFree
 

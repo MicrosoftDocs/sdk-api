@@ -65,7 +65,7 @@ Pointer to a COM <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStrea
 
 Type: <b>HDC</b>
 
-Windows handle to a device context that contains attributes of the display device that is used to record the meatfile.
+Windows handle to a device context that contains attributes of the display device that is used to record the metafile.
 
 ### -param type [in]
 

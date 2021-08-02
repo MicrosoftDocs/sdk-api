@@ -78,7 +78,7 @@ Contains a set of flags that modify the behavior of this function. This can be z
 #### DS_GFTI_UPDATE_TDO
 
 If this flag is set, <b>DsGetForestTrustInformationW</b> will update
-            the forest trust data of the trusted domain identified  by the <i>TrustedDomainName</i>parameter. In this case, the <i>TrustedDomainName</i> parameter cannot be <b>NULL</b>.
+            the forest trust data of the trusted domain identified  by the <i>TrustedDomainName</i> parameter. In this case, the <i>TrustedDomainName</i> parameter cannot be <b>NULL</b>.
             The caller must have access to modify the trust data or
             <b>ERROR_ACCESS_DENIED</b> is returned.
 
@@ -87,7 +87,7 @@ This flag is only valid if <i>ServerName</i> specifies the primary domain contro
 ### -param ForestTrustInfo [out]
 
 Pointer to an <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure pointer that receives the forest trust data that describes the namespaces claimed by the
-        domain specified by <i>TrustedDomainName</i>. The <b>Time</b>member of all returned records will be zero.
+        domain specified by <i>TrustedDomainName</i>. The <b>Time</b> member of all returned records will be zero.
 
 The caller must free this structure when it is no longer required by calling <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>.
 

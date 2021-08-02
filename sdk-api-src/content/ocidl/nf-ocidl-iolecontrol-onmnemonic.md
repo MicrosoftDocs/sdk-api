@@ -1,7 +1,7 @@
 ---
 UID: NF:ocidl.IOleControl.OnMnemonic
 title: IOleControl::OnMnemonic (ocidl.h)
-description: Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
+description: Informs a control that the user has pressed a keystroke that represents a keyboard mnemonic.
 helpviewer_keywords: ["IOleControl interface [COM]","OnMnemonic method","IOleControl.OnMnemonic","IOleControl::OnMnemonic","OnMnemonic","OnMnemonic method [COM]","OnMnemonic method [COM]","IOleControl interface","_ctrl_iolecontrol_onmnemonic","com.iolecontrol_onmnemonic","ocidl/IOleControl::OnMnemonic"]
 old-location: com\iolecontrol_onmnemonic.htm
 tech.root: com
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Informs a control that the user has pressed a keystroke that represents a keyboard mneumonic.
+Informs a control that the user has pressed a keystroke that represents a keyboard mnemonic.
 
 ## -parameters
 

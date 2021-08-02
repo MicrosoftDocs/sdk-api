@@ -94,7 +94,7 @@ Less than a majority of nodes were successfully created. For more information ab
 
 ## -remarks
 
-To create clusters that are not domain joined, an non-domain account must have permission to manage the cluster remotely.
+To create clusters that are not domain joined, a non-domain account must have permission to manage the cluster remotely.
 
 ## -see-also
 

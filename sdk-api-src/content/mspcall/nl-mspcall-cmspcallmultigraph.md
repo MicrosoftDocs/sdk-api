@@ -70,7 +70,7 @@ Derived from
 <a href="/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-thread-pool">CMSPCallMultiGraph Public Methods, Called by Thread Pool</a>
 </li>
 <li>
-<a href="/windows/desktop/Tapi/cmspcallmultigraph-overriden-ccomobject-methods">CMSPCallMultiGraph Overriden CComObject Methods</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-overriden-ccomobject-methods">CMSPCallMultiGraph Overridden CComObject Methods</a>
 </li>
 <li>
 <a href="/windows/desktop/Tapi/cmspcallmultigraph-protected-helper-methods">CMSPCallMultiGraph Protected Helper Methods</a>

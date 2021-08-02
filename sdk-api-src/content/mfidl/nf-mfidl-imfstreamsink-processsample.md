@@ -86,7 +86,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media sink is in the wrong state to receive a sample. For example, preroll is complete but the presenation clock has not started yet.
+The media sink is in the wrong state to receive a sample. For example, preroll is complete but the presentation clock has not started yet.
 
 </td>
 </tr>

@@ -56,7 +56,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/sepia-effec
 
 ### -field D2D1_SEPIA_PROP_INTENSITY
 
-The D2D1_SEPIA_PROP_INTENSITY property is a float value indicating the intesity of the sepia effect. The allowed range is 0.0 to 1.0.  The default value is 0.5.
+The D2D1_SEPIA_PROP_INTENSITY property is a float value indicating the intensity of the sepia effect. The allowed range is 0.0 to 1.0.  The default value is 0.5.
 
 ### -field D2D1_SEPIA_PROP_ALPHA_MODE
 

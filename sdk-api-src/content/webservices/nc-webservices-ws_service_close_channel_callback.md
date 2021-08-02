@@ -77,7 +77,7 @@ The operation context.
 
 ### -param asyncContext [in, optional]
 
-Information on whether the function is getting invoked asynchornously.
+Information on whether the function is getting invoked asynchronously.
 
 ## -returns
 

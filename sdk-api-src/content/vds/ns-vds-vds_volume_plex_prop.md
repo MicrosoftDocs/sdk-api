@@ -94,7 +94,7 @@ The number of members in the volume plex. A plex member is a collection of conca
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a>method returns this structure to report the properties of a <a href="/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsVolumePlex::GetProperties</a> method returns this structure to report the properties of a <a href="/windows/desktop/VDS/volume-plex-object">volume plex object</a>.
 
 ## -see-also
 

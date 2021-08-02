@@ -172,7 +172,7 @@ This error causes the immediate failure of the merge and the
 <a href="/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>. This type of error returns msmErrorMissingConfigItem in the 
 <b>Type</b> property and enters "ModuleSubstitution" and the keys from the 
 <a href="/windows/desktop/Msi/modulesubstitution-table">ModuleSubstitution table</a> for this row into the 
-<a href="/windows/desktop/Msi/error-moduletable">ModuleTable</a> property. All other properties of the <b>Error</b>object are set to an empty string or -1. 
+<a href="/windows/desktop/Msi/error-moduletable">ModuleTable</a> property. All other properties of the <b>Error</b> object are set to an empty string or -1. 
 
 
 This error causes the immediate failure of the merge and the 

@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides a method to set the SAN mode of a disk to offline  or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is supserseded by the <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
+Provides a method to set the SAN mode of a disk to offline or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is superseded by the <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
 <div> </div>
 
 ## -inheritance

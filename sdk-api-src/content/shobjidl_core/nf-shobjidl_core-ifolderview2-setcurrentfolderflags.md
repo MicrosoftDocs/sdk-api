@@ -74,4 +74,4 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-<b>For Windows 7 or later:</b> This method must be used in combinaton with the <i>FVO_CUSTOMPOSITION</i> flag from the <a href="/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a> enumeration.
+<b>For Windows 7 or later:</b> This method must be used in combination with the <i>FVO_CUSTOMPOSITION</i> flag from the <a href="/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a> enumeration.

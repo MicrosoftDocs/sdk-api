@@ -114,8 +114,8 @@ Those <code>XMDECN4</code> constructors using floating point arguments require n
 	  an <code>XMVECTOR</code> instance.
       
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMDECN4</code>using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoredecn4">XMStoreDecN4</a>, which multiplies the x-, y-,and z-components by
-	  511.0f , rounding the result, before assigning the values to the appropriate <code>XMDECN4</code>members.
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMDECN4</code> using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoredecn4">XMStoreDecN4</a>, which multiplies the x-, y-,and z-components by
+	  511.0f , rounding the result, before assigning the values to the appropriate <code>XMDECN4</code> members.
       
 
 <b>Namespace:</b> Use DirectX::PackedVector

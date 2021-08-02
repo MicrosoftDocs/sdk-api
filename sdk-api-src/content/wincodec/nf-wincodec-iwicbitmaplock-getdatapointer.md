@@ -81,7 +81,7 @@ The pointer provided by this method should not be used outside of the lifetime o
 
 #### Examples
 
-In the following example, the data pointed to by the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zero'd.
+In the following example, the data pointed to by the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zeroed.
 
 
 ```cpp

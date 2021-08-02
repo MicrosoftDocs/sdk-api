@@ -91,9 +91,9 @@ The drive is on standby as a hot spare.
 
 ## -remarks
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure.
 
-This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>structure.
+This enumeration provides the values for the <i>ulFlags</i> member of the  <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a> structure.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_DRIVE_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_DRIVE_FLAG</b> enumeration constant.</div>
 <div> </div>

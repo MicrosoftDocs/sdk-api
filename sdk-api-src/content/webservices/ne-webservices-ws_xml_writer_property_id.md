@@ -213,7 +213,7 @@ If the size specified is greater than or equal to <a href="/windows/desktop/api/
           writer will not allocate from its internal buffers.
         
 
-This buffer may appear as one of the buffers returned by the property <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BUFFERS</a>or <b>WS_XML_WRITER_PROPERTY_BYTES</b>.
+This buffer may appear as one of the buffers returned by the property <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_BUFFERS</a> or <b>WS_XML_WRITER_PROPERTY_BYTES</b>.
         
 
 The caller must ensure that the buffer specified is valid for the lifetime of the writer.
@@ -271,11 +271,11 @@ This property is not available on a writer that was set using <a href="/windows/
 
 ### -field WS_XML_WRITER_PROPERTY_COMPRESS_EMPTY_ELEMENTS
 
-A <b>BOOL</b>that controls how <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> copies elements with no content.
+A <b>BOOL</b> that controls how <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> copies elements with no content.
             
 
-When this property is set to <b>FALSE</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a>preserves whether each element is represented
-                    as a start/end tag pair, or as an empty element.  When this property is set to <b>TRUE</b>, <b>WsCopyNode</b> wlll 
+When this property is set to <b>FALSE</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> preserves whether each element is represented
+                    as a start/end tag pair, or as an empty element.  When this property is set to <b>TRUE</b>, <b>WsCopyNode</b> will 
                 convert elements with no content to empty elements.
             
 
@@ -296,7 +296,7 @@ For an input XML string like:
  &lt;emptyElement /&gt;
  &lt;emptyElementWithEndTag&gt;&lt;/emptyElementWithEndTag&gt;
 &lt;/container&gt;</code></pre>
-If this property is <b>FALSE</b>,  <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a>will generate the following xml:
+If this property is <b>FALSE</b>,  <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> will generate the following xml:
                 
                     
 

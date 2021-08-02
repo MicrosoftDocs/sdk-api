@@ -67,7 +67,7 @@ Pointer to an array of <a href="/windows/desktop/api/vds/ns-vds-vds_input_disk">
 <div class="alert"><b>Note</b>  Include only the required members of this structure (<b>diskId</b> and 
        <b>ullSize</b>).</div>
 <div> </div>
-<b>Windows Server 2003:  </b>only volumes that are striped with parity (RAID-5) can be repaired with this method, and only one new disk can 
+<b>Windows Server 2003:  </b> only volumes that are striped with parity (RAID-5) can be repaired with this method, and only one new disk can 
         be passed to this method at a time.
 
 ### -param lNumberOfDisks [in]

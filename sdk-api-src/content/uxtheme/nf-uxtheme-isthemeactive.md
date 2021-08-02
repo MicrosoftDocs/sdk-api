@@ -94,4 +94,4 @@ A visual style is not enabled, and the window message handler does not need to m
 
 ## -remarks
 
-Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.
+Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects constructors. This may cause invalid return values.

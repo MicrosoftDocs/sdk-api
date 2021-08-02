@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Reads a value when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>has been specified.  This allows reading of XML constructs which do not easily
+Reads a value when <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> has been specified.  This allows reading of XML constructs which do not easily
                 map to the core serialization model.
 
 ## -parameters

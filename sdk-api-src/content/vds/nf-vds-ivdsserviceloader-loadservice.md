@@ -65,7 +65,7 @@ This parameter must be set to <b>NULL</b>.
 
 ### -param ppService [out]
 
-The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+The address of an <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a> interface pointer. Callers must release the interface when it is no longer needed by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
 

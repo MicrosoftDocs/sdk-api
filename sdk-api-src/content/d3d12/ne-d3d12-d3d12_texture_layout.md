@@ -142,7 +142,7 @@ This texture layout is arranged into contiguous 64KB regions, also known as tile
             
 
 This texture layout enables partially resident or sparse texture scenarios when used together with virtual memory page mapping functionality.
-              This texture layout must be used together with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a>to enable the usage of <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings">ID3D12CommandQueue::UpdateTileMappings</a>.
+              This texture layout must be used together with <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource">ID3D12Device::CreateReservedResource</a> to enable the usage of <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings">ID3D12CommandQueue::UpdateTileMappings</a>.
             
 
 Some restrictions apply to textures with this layout:

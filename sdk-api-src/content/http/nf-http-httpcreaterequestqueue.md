@@ -76,7 +76,7 @@ This parameter must be <b>NULL</b> when opening an existing request queue.
 
 ### -param Flags [in, optional]
 
-The flags parameter defines the scope of the request queue. This parameter can be one or more of the followng:
+The flags parameter defines the scope of the request queue. This parameter can be one or more of the following:
 
 <table>
 <tr>

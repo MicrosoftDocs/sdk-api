@@ -58,7 +58,7 @@ Describes options for the caching network credentials.
 
 ### -field MFNET_CREDENTIAL_SAVE
 
-Allow the credential cache object to save  credentials in persistant storage.
+Allow the credential cache object to save credentials in persistent storage.
 
 ### -field MFNET_CREDENTIAL_DONT_CACHE
 

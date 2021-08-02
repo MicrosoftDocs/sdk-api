@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::EnumTypes </b>method enumerates the joystick types currently supported by DirectInput. A joystick type describes how DirectInput should communicate with a joystick device. It includes information such as the presence and location of each of the axes and the number of buttons supported by the device.
+The <b>IDirectInputJoyConfig8::EnumTypes </b> method enumerates the joystick types currently supported by DirectInput. A joystick type describes how DirectInput should communicate with a joystick device. It includes information such as the presence and location of each of the axes and the number of buttons supported by the device.
 
 ## -parameters
 

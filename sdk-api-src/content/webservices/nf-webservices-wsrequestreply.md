@@ -73,7 +73,7 @@ The action field of the <a href="/windows/desktop/api/webservices/ns-webservices
                     is required.
                 
 
-The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the request message.  This field may be 
+The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to serialize the body of the request message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
                     information about how the body is serialized according to the bodyElementDescription.
 
@@ -105,7 +105,7 @@ The action field of the <a href="/windows/desktop/api/webservices/ns-webservices
                     if present.
                 
 
-The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to deserialize the body of the reply message.  This field may be 
+The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to deserialize the body of the reply message.  This field may be 
                     <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> for 
                     information about how the body is deserialized according to the bodyElementDescription.
 

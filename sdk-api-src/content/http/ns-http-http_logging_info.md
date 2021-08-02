@@ -381,7 +381,7 @@ The log files names are based on the specified rollover type. The following tabl
 
 
 The letters yy, mm, ww, dd, hh, and nn in the table represent the following digits:<ul>
-<li>yy: The two digit representatton of the year.</li>
+<li>yy: The two digit representation of the year.</li>
 <li>mm: The two digit representation of the month.</li>
 <li>ww: The two digit representation of the week.</li>
 <li>dd: The two digit representation of the day.</li>

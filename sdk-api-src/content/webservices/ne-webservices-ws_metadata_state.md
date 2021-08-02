@@ -68,7 +68,7 @@ All references between metadata documents have been
 ### -field WS_METADATA_STATE_FAULTED
 
 The metadata object not usable due to a previous error.  See
-                    See <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a>for more information.
+                    See <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmetadataendpoints">WsGetMetadataEndpoints</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmetadata">WsReadMetadata</a> for more information.
 
 ## -remarks
 

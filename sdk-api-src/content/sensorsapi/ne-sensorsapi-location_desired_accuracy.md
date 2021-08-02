@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LOCATION_DESIRED_ACCURACY </b>enumeration type defines values for the <a href="/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
+The <b>LOCATION_DESIRED_ACCURACY </b> enumeration type defines values for the <a href="/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY</a> property.
 
 ## -enum-fields
 

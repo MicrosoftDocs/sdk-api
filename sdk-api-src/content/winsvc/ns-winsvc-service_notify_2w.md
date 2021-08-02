@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Represents service status notification information. It is used by the <a href="/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>function.
+Represents service status notification information. It is used by the <a href="/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a> function.
 
 ## -struct-fields
 

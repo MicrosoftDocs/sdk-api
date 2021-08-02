@@ -117,7 +117,7 @@ This function takes the pipeline description as a <a href="../d3d12/ns-d3d12-d3d
 ## -see-also
 
 
-See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behaviour of a streaming pipeline desc.
+See <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc"><b>D3D12_PIPELINE_STATE_STREAM_DESC</b></a> for a description of the layout and behavior of a streaming pipeline desc.
 
 
 <a href="../d3d12/nn-d3d12-id3d12pipelinelibrary1.md">ID3D12PipelineLibrary1</a>

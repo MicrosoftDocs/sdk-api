@@ -143,20 +143,20 @@ This function may return other errors not listed above.
 ## -remarks
 
 This functions supports the following scenarios, based on the contents
-                of the <b>WS_ELEMENT_DESCRIPTION</b>supplied:
+                of the <b>WS_ELEMENT_DESCRIPTION</b> supplied:
             
 
 <ul>
 <li>Reading a single element.  In this case, the elementLocalName and elementNs
                 fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to the local name
                 and namespace of the element to read, and the type and type description represents
-                the type of the value being deserialized.  If using <b>WS_FAULT_TYPE</b>or
+                the type of the value being deserialized.  If using <b>WS_FAULT_TYPE</b> or
                 <b>WS_ENDPOINT_ADDRESS_TYPE</b> it is not necessary to specify the local name,
                 namespace, or type description (they will default appropriately based on the
                 envelope/addressing version of the message).
                 </li>
 <li>Reading multiple elements as a single value.  In this case, the elementLocalName and elementNs
-                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b>and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
+                fields of the <b>WS_ELEMENT_DESCRIPTION</b> should be set to <b>NULL</b>, and a <b>WS_STRUCT_TYPE</b> and <a href="/windows/desktop/api/webservices/ns-webservices-ws_struct_description">WS_STRUCT_DESCRIPTION</a> should be specified.  In this case, each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
                 </li>
 <li>Reading multiple elements as multiple values.  Reading multiple distinct values can be
