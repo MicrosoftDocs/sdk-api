@@ -64,7 +64,7 @@ Instance of <code>XMDEC4</code> used to update the current <code>XMDEC4</code> s
 
 ## -returns
 
-The current instance of <code>XMDEC4</code> whose vector component data has been updated to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b>argument.
+The current instance of <code>XMDEC4</code> whose vector component data has been updated to match those of the <code>XMDEC4</code> instance specified by the <b>Dec4</b> argument.
 
 ## -see-also
 

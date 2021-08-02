@@ -125,7 +125,7 @@ If the variant to be cleared is a COM object that is passed by reference, the vt
 
 In certain cases, it may be preferable to clear a variant in code without calling <b>VariantClear</b>. For example, you can change the type of a VT_I4 variant to another type without calling this function. Safearrays of BSTR will have <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> called on each element not <b>VariantClear</b>. However, you must call <b>VariantClear</b> if a VT_type is received but cannot be handled. Safearrays of variant will also have <b>VariantClear</b> called on each member. Using <b>VariantClear</b> in these cases ensures that code will continue to work if Automation adds new variant types in the future.
 
-Do not use <b>VariantClear</b> on unitialized variants; use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> to initialize a new VARIANTARG or VARIANT.
+Do not use <b>VariantClear</b> on uninitialized variants; use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantinit">VariantInit</a> to initialize a new VARIANTARG or VARIANT.
 
 Variants containing arrays with outstanding references cannot be cleared.  Attempts to do so will return an HRESULT containing DISP_E_ARRAYISLOCKED.
 

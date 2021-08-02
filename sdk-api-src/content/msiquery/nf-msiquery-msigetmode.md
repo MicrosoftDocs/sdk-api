@@ -271,7 +271,7 @@ A custom action called from commit execution script.
 
 ## -remarks
 
-Note that not all the run mode values of <i>iRunMode </i>are available when calling 
+Note that not all the run mode values of <i>iRunMode</i> are available when calling 
 <b>MsiGetMode</b> from a deferred custom action. For details, see 
 <a href="/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
 

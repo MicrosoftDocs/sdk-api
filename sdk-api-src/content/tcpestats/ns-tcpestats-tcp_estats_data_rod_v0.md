@@ -164,7 +164,7 @@ Type: <b>ULONG64</b>
 
 The number of octets for which cumulative acknowledgments
            have been sent.  Note that this will be the sum of changes
-           to the <b>RcvNxt</b>member.
+           to the <b>RcvNxt</b> member.
 
 ## -remarks
 

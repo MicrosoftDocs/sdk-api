@@ -69,7 +69,7 @@ Returns the index of the interface in the interface array.
 
 ## -remarks
 
-GetInterfaceSlot gets the corresponding slot in an dynamic linkage array for an interface instance.
+GetInterfaceSlot gets the corresponding slot in a dynamic linkage array for an interface instance.
           The returned slot number is used to set an interface instance to a particular class instance.
           See the HLSL <a href="/windows/desktop/direct3dhlsl/overviews-direct3d-11-hlsl-dynamic-linking-class">Interfaces and Classes</a> overview for additional information.
         

@@ -70,7 +70,7 @@ A library location constant that indicates the type of the media item or items t
 
 ### -param cItemIDs [in]
 
-The number of items that were selected when the user right-clicked. This is the number of elements in the prgIte<i></i>mIDs array.
+The number of items that were selected when the user right-clicked. This is the number of elements in the <i>prgItemIDs</i> array.
 
 ### -param prgItemIDs [in]
 

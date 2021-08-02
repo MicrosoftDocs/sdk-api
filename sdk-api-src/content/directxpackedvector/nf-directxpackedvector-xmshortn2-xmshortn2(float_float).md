@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <code>XMSHORTN2</code> from two normalized <code>float</code>arguments.
+Initializes a new instance of <code>XMSHORTN2</code> from two normalized <code>float</code> arguments.
     
 
 This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a> from two

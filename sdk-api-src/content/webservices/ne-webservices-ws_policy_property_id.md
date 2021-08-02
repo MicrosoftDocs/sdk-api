@@ -120,7 +120,7 @@ The default value is 8.
                 
 
 When a policy is processed, the amount of memory allocated 
-                    and CPU consumed is porportional to the number of policy
+                    and CPU consumed is proportional to the number of policy
                     alternatives present in the policy, not to the actual size
                     of the policy.  Even a small policy may contain a large number
                     of alternatives due to the expansion of different permutations

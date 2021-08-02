@@ -78,7 +78,7 @@ A status system error.
 
 ### -field CONTROL_CHANNEL_TRIGGER_STATUS_TRANSPORT_DISCONNECTED
 
-The TCP tranport is disconnected.
+The TCP transport is disconnected.
 
 ### -field CONTROL_CHANNEL_TRIGGER_STATUS_SERVICE_UNAVAILABLE
 

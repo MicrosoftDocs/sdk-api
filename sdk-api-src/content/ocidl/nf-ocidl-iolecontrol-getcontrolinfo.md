@@ -74,7 +74,7 @@ This method can return the standard return value E_OUTOFMEMORY, as well as the f
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully.
+The method completed successfully.
 
 </td>
 </tr>

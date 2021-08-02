@@ -61,7 +61,7 @@ If <b>TRUE</b>, the media streams are thinned. Otherwise, the stream is not thin
 
 ### -param flRate [in]
 
-The requested playback rate. Postive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
+The requested playback rate. Positive values indicate forward playback, negative values indicate reverse playback, and zero indicates scrubbing (the source delivers a single frame).
 
 ## -returns
 

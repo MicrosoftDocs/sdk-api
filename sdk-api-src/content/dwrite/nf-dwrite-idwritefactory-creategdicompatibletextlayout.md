@@ -90,7 +90,7 @@ The height of the layout box.
 
 Type: <b>FLOAT</b>
 
-The number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI device <i>pixelsPerDip</i>is 1. If rendering onto a 120 DPI device <i>pixelsPerDip</i> is 1.25 (120/96).
+The number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI device <i>pixelsPerDip</i> is 1. If rendering onto a 120 DPI device <i>pixelsPerDip</i> is 1.25 (120/96).
 
 ### -param transform [in, optional]
 

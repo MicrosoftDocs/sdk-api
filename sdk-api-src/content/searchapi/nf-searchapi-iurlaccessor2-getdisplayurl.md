@@ -65,7 +65,7 @@ Receives the display URL as a null-terminated Unicode string.
 
 Type: <b>DWORD</b>
 
-Size in <b>TCHAR</b><b>s</b>of <i>wszDocUrl</i>.
+Size in <b>TCHAR</b><b>s</b> of <i>wszDocUrl</i>.
 
 ### -param pdwLength [out]
 

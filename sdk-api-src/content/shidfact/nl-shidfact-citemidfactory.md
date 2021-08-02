@@ -58,7 +58,7 @@ The <b>CItemIDFactory</b> class inherits from <a href="/windows/desktop/api/shob
 
 ## -remarks
 
-it is recomended that all data sources use this as it manages an important issue of security when  dealing with IDList parsing.
+it is recommended that all data sources use this as it manages an important issue of security when dealing with IDList parsing.
 
 ## -see-also
 

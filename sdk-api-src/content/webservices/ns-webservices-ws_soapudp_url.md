@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_SOAPUDP_URL
 title: WS_SOAPUDP_URL (webservices.h)
-description: The URL subtype for specifying an soap.udp URL.
+description: The URL subtype for specifying a soap.udp URL.
 helpviewer_keywords: ["WS_SOAPUDP_URL","WS_SOAPUDP_URL structure [Web Services for Windows]","webservices/WS_SOAPUDP_URL","wsw.ws_soapudp_url"]
 old-location: wsw\ws_soapudp_url.htm
 tech.root: wsw
@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The URL subtype for specifying an soap.udp URL.
+The URL subtype for specifying a soap.udp URL.
 
 ## -struct-fields
 

@@ -91,7 +91,7 @@ You can call **CopySurface** only when there are no pending updates to any surfa
 
 ## Examples
 
-For this scenario, we envisage a framework that uses **CompositionDrawingSurface** to grant the ability to render and compose custom content into a visual tree managed by the framework. The framework implements a low resource mode (to be used, for example, during application minimize or suspend). When in this mode, the framework releases most composition objects, including all surfaces. However, before releasing each surface, the framework extracts its pixels and compresses them (for example, using the PNG codec) so that it can reconstitute them later without having to call back into application code. This code example shows a helper funciton that the framework might implement to process each surface.
+For this scenario, we envisage a framework that uses **CompositionDrawingSurface** to grant the ability to render and compose custom content into a visual tree managed by the framework. The framework implements a low resource mode (to be used, for example, during application minimize or suspend). When in this mode, the framework releases most composition objects, including all surfaces. However, before releasing each surface, the framework extracts its pixels and compresses them (for example, using the PNG codec) so that it can reconstitute them later without having to call back into application code. This code example shows a helper function that the framework might implement to process each surface.
 
 ```cpp
 HRESULT CompressSurface(_In_ ICompositionDrawingSurface* surface) 

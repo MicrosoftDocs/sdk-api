@@ -67,7 +67,7 @@ Pointer to a structure to contain the stream information.
 
 ### -param lSize
 
-Size, in bytes, of the structure used forpsi.
+Size, in bytes, of the structure used for psi.
 
 ## -returns
 

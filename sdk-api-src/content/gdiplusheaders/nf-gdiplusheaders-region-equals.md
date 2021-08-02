@@ -60,8 +60,8 @@ The <b>Region::Equals</b> method determines whether this region is equal to a sp
 Type: <b>const <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 Pointer to a 
-					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object to test against this 
-					<b>Region</b>object.
+					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object to test against this 
+					<b>Region</b> object.
 
 ### -param g [in]
 

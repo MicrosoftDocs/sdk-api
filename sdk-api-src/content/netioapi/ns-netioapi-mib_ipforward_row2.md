@@ -310,7 +310,7 @@ A Windows specific entry added as a static route from the routing user interface
 </dl>
 </td>
 <td width="60%">
-A Windows specific entry added as an static route from the routing user interface or a routing command, except these routes do not cause Dial On Demand (DOD).
+A Windows specific entry added as a static route from the routing user interface or a routing command, except these routes do not cause Dial On Demand (DOD).
 
 </td>
 </tr>

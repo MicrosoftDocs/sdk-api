@@ -58,7 +58,7 @@ The <b>IActivationFactory</b> interface inherits from <a href="/windows/desktop/
 
 ## -remarks
 
-Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a>method to use an instance of your class. 
+Implement the <b>IActivationFactory</b> interface when you create a class that you want Windows Runtime  applications to use. Clients call the <a href="/windows/desktop/api/activation/nf-activation-iactivationfactory-activateinstance">ActivateInstance</a> method to use an instance of your class. 
 
 You can get an <b>IActivationFactory</b> pointer by calling the <a href="/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a> function.  
 

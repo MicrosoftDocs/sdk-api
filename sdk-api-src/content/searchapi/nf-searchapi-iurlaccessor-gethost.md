@@ -64,7 +64,7 @@ Receives the name of the host that the content source file resides on, as a null
 
 Type: <b>DWORD</b>
 
-Size in <b>TCHAR</b><b>s</b>of <i>wszHost</i>, not including the terminating <b>NULL</b>.
+Size in <b>TCHAR</b><b>s</b> of <i>wszHost</i>, not including the terminating <b>NULL</b>.
 
 ### -param pdwLength [out]
 

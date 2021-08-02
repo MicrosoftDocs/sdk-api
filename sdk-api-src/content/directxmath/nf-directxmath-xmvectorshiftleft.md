@@ -85,7 +85,7 @@ XMVECTOR result = XMVectorShiftLeft( v1, v2, 1 );
 
 The shifted vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 50.0f&gt;.
 
-In the case of a constant shift value, it is more efficent to use the template form of <a href="/windows/desktop/dxmath/xmvectorshiftleft-template">XMVectorShiftLeft</a>:
+In the case of a constant shift value, it is more efficient to use the template form of <a href="/windows/desktop/dxmath/xmvectorshiftleft-template">XMVectorShiftLeft</a>:
 
 
 ```

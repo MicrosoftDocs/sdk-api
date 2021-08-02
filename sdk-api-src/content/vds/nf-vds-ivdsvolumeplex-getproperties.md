@@ -59,7 +59,7 @@ Returns the property details of the current volume plex.
 
 ### -param pPlexProperties [out]
 
-The address of the <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>structure allocated and passed in by the caller.
+The address of the <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a> structure allocated and passed in by the caller.
 
 ## -returns
 

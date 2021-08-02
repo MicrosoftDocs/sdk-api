@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::DeleteConfig </b>method deletes configuration information about a joystick.
+The <b>IDirectInputJoyConfig8::DeleteConfig </b> method deletes configuration information about a joystick.
 
 ## -parameters
 

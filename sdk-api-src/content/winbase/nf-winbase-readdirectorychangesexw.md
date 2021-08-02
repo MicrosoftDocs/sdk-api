@@ -219,7 +219,7 @@ A pointer to a completion routine to be called when the operation has been compl
 
 The type of   information that
         <b>ReadDirectoryChangesExW</b> should write to the buffer to which the <i>lpBuffer</i> parameter points. Specify <b>ReadDirectoryNotifyInformation</b> to indicate 
-        that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b>to indicate 
+        that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structures, or <b>ReadDirectoryNotifyExtendedInformation</b> to indicate 
         that the information should consist of <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_extended_information">FILE_NOTIFY_EXTENDED_INFORMATION</a> structures.
 
 ## -returns

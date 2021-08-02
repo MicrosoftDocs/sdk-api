@@ -80,7 +80,7 @@ void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 	// Clear the status text
 	m_staticGestureStatus.SetWindowTextW(L"");
 
-	// Redaw the window to clear the ink
+	// Redraw the window to clear the ink
 	this->RedrawWindow();
 }
 

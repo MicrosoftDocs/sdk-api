@@ -66,7 +66,7 @@ The
 <a href="/windows/desktop/Tapi/cmspstream-public-methods-called-by-mspcall-object">CMSPStream Public Methods, Called by MSPCall Object</a>
 </li>
 <li>
-<a href="/windows/desktop/Tapi/cmspstream-overriden-ccomobject-methods">CMSPStream Overriden CComObject Methods</a>
+<a href="/windows/desktop/Tapi/cmspstream-overriden-ccomobject-methods">CMSPStream Overridden CComObject Methods</a>
 </li>
 <li>
 <a href="/windows/desktop/Tapi/cmspstream-pure-virtual-methods">CMSPStream Pure Virtual Methods</a>

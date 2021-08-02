@@ -71,7 +71,7 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 <td>Default exposure time.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Incremented by one step.</td>
 </tr>
 <tr>

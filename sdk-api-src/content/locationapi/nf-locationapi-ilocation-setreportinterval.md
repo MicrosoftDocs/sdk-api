@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Specifies the requested minimum amount of time, in milliseconds, between report events.
@@ -113,7 +113,7 @@ The caller is not registered to receive events for the specified report type.
 
 The interval you request by using this method represents the shortest amount of time between events. This means that you request to receive event notifications no more frequently than specified, but the elapsed time may be significantly longer. Use this method to help ensure that event notifications do not use more processor resources than necessary.
 
-It is not guaranteed that your request for a particular report interval will be set by the location provider. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval </a>to discover the true report interval setting.
+It is not guaranteed that your request for a particular report interval will be set by the location provider. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval </a> to discover the true report interval setting.
 
 A report interval of zero means that no minimum interval is specified, and the application may receive events at the frequency that the location sensor sends events.
 

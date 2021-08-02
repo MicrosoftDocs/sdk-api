@@ -129,7 +129,7 @@ The remainder of the high byte contains one of the following event codes:
 </tr>
 <tr>
 <td>MEVT_TEMPO</td>
-<td>Short event. The data in the low 24 bits of dwEvent contain the new tempo for following events. The tempo is specified in the same format as it is for the tempo change meta-event in a MIDI file — that is, in microseconds per quarter note. (This event will have no affect if the time format specified for the stream is SMPTE time.)</td>
+<td>Short event. The data in the low 24 bits of dwEvent contain the new tempo for following events. The tempo is specified in the same format as it is for the tempo change meta-event in a MIDI file — that is, in microseconds per quarter note. (This event will have no effect if the time format specified for the stream is SMPTE time.)</td>
 </tr>
 <tr>
 <td>MEVT_VERSION</td>

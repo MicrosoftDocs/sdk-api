@@ -67,7 +67,7 @@ Value of the table_id_extension field for the SDTT. This field value identifies 
 
 ### -param ppSDTT [out]
 
-Receives a pointer to the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_sdtt">IISDB_SDTT</a>interface. Use this interface to retrieve the information in the table. 
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_sdtt">IISDB_SDTT</a> interface. Use this interface to retrieve the information in the table. 
 The caller must release the interface.
 
 ## -returns

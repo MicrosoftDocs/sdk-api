@@ -84,7 +84,7 @@ The vertical, or y-axis, conversion factor for the vertical axis from ink space 
 
 ### -param ppIInkStroke [in, out]
 
-A a pointer to the new stroke. This value can be <b>NULL</b>.
+A pointer to the new stroke. This value can be <b>NULL</b>.
 
 ## -returns
 

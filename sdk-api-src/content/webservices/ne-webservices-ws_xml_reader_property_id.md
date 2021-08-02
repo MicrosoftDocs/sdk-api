@@ -82,7 +82,7 @@ This property defaults to <b>FALSE</b>.
 
 ### -field WS_XML_READER_PROPERTY_MAX_ATTRIBUTES
 
-A <b>ULONG</b>that specifies the maximum number of attributes the reader will permit on an element.
+A <b>ULONG</b> that specifies the maximum number of attributes the reader will permit on an element.
         
 
 This property defaults to 128.
@@ -143,7 +143,7 @@ Indicates that <a href="/windows/desktop/api/webservices/nf-webservices-wsreadst
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b> used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of the root MIME part, which is the part that contains
           the xml portion of the document.  It has no effect when used with other encodings, or when used with
           <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
@@ -153,7 +153,7 @@ This property defaults to 65536.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b> used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of any group of MIME headers that may appear in the document.
           It has no effect when used with other encodings, or when used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
         
@@ -162,7 +162,7 @@ This property defaults to 256.
 
 ### -field WS_XML_READER_PROPERTY_MAX_MIME_PARTS
 
-A <b>ULONG</b>used with  <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
+A <b>ULONG</b> used with  <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
           that may appear in the document.  It has no effect when used with other encodings.
         
 
@@ -181,7 +181,7 @@ This property defaults to <b>FALSE</b>.
 
 ### -field WS_XML_READER_PROPERTY_MAX_NAMESPACES
 
-A <b>ULONG</b>that specifies the maximum number of xmlns unique declarations that may appear in scope at any point
+A <b>ULONG</b> that specifies the maximum number of xmlns unique declarations that may appear in scope at any point
           while reading the document.
         
 

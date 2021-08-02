@@ -60,7 +60,7 @@ The zero-based index of a stream.
 
 ### -param dwTransformIndex [in]
 
-The zero-based index of the MFT to retreive.
+The zero-based index of the MFT to retrieve.
 
 ### -param pGuidCategory [out]
 

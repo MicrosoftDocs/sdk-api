@@ -126,7 +126,7 @@ In summary, if *nIntents* == 1, then the first GMM is set based on the GMMP that
 
 If *nIntents* = *nProfiles* -1, then each GMM is set based on the GMMP that is set as default\* for the value in the *padwIntent* array at the corresponding index, except where *padwIntent* values are DWORD\_MAX. For values in the *padwIntent* array that are DWORD\_MAX, the GMMs at corresponding positions are set based on the embedded GMM information from the second of the two profiles whose gamuts are mapped by the GMM. (Again, the embedded GMM information is either a GMMP or, in the case of an ICC profile, the baseline GMM corresponding to\*\* the intent from the profile header).
 
-If *nIntents* = *nProfiles*, then first intent is ignored and funtion behaves as it does in the case when *nIntents* = *nProfiles* -1.
+If *nIntents* = *nProfiles*, then first intent is ignored and function behaves as it does in the case when *nIntents* = *nProfiles* -1.
 
 Any other combination of *padwIntents* and *nIntents* will return an error.
 

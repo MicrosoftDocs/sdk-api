@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b>method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter.
+The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b> method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter.
 
 ## -parameters
 

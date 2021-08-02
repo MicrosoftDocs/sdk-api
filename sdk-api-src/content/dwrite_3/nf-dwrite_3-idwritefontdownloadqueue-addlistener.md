@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Registers a client-defined listener object that receives download notifications.  
-    All registered listener's DownloadCompleted will be called after <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a>completes.
+    All registered listener's DownloadCompleted will be called after <a href="/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload">BeginDownload</a> completes.
 
 ## -parameters
 

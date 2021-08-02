@@ -78,7 +78,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 This method returns the control size and position even if the control is not visible.
 
-This method returns the minimal possible width and height of the control if it is  called immediatelly after creation of the control.
+This method returns the minimal possible width and height of the control if it is called immediately after creation of the control.
 
 ## -see-also
 

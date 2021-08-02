@@ -62,7 +62,7 @@ The partition offset.
 
 ### -param pPartitionProp [out]
 
-The address of the <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>structure allocated and passed in by the caller.
+The address of the <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a> structure allocated and passed in by the caller.
 
 ## -returns
 

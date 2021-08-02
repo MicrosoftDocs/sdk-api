@@ -64,7 +64,7 @@ Specifies the LONG value. This value is converted to a FLOATOBJ for the comparis
 
 ## -returns
 
-<b>FLOATOBJ_LessThanLong </b>returns <b>TRUE</b> if *<i>pf</i> is less than the FLOATOBJ-equivalent of <i>l</i>; otherwise it returns <b>FALSE</b>.
+<b>FLOATOBJ_LessThanLong</b> returns <b>TRUE</b> if *<i>pf</i> is less than the FLOATOBJ-equivalent of <i>l</i>; otherwise it returns <b>FALSE</b>.
 
 ## -remarks
 

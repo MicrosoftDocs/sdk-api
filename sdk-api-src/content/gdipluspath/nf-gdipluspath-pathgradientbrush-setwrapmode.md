@@ -85,8 +85,8 @@ The bounding rectangle of a path gradient brush is the smallest rectangle that e
 
 
 The following example creates a 
-						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The code calls the <b>PathGradientBrush::SetWrapMode</b> method of the 
-						<b>PathGradientBrush</b>object to set the brush's wrap mode to <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapModeTileFlipX</a>. The 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object based on a triangular path. The code calls the <b>PathGradientBrush::SetWrapMode</b> method of the 
+						<b>PathGradientBrush</b> object to set the brush's wrap mode to <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapModeTileFlipX</a>. The 
 						<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-fillrectangle(inconstbrush_inconstrect_)">Graphics::FillRectangle</a> method uses the path gradient brush to tile a large area. 
 
 The output of the code is a grid of tiles. As you move from one tile to the next in a given row, the image (filled boundary path inside the bounding rectangle) is flipped horizontally.

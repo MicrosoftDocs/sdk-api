@@ -72,7 +72,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistance and portability.
+The size of the user supplied data must equal sizeof(T). Do not use structs with variably allocated array/string members. The struct must also follow standard <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> for persistence and portability.
 
 ## -see-also
 

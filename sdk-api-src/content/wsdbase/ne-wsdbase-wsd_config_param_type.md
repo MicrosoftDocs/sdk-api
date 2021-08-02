@@ -95,7 +95,7 @@ The <i>dwConfigDataSize</i> member is the size of the <a href="/windows/desktop/
 
 ### -field WSD_SECURITY_SSL_NEGOTIATE_CLIENT_CERT
 
-Specifies that on incoming SSL connections, WSDAPI  will request a client certificate from the SSL client if one is not already made available by the client.  If the remote entity cannot provide a client certificate, the connection will be rejected.  Note that the SSL record that is created for that port must expclicitly allow for client certificate negotiation.
+Specifies that on incoming SSL connections, WSDAPI  will request a client certificate from the SSL client if one is not already made available by the client.  If the remote entity cannot provide a client certificate, the connection will be rejected.  Note that the SSL record that is created for that port must explicitly allow for client certificate negotiation.
 
 The <i>pConfigData</i> member is <b>NULL</b>.
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>to read from some source into a buffer.
+Used by the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> to read from some source into a buffer.
 
 ## -parameters
 

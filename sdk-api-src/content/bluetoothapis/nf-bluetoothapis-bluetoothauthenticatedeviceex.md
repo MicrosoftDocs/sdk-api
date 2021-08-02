@@ -81,7 +81,7 @@ If not <b>NULL</b>, no UI is displayed.
 
 ### -param authenticationRequirement [in]
 
-An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
+An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a> value that specifies the protection required for authentication.
 
 ## -returns
 

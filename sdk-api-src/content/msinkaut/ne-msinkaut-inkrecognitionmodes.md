@@ -89,7 +89,7 @@ The recognizer applies partial word recognition.
 
 ### -field IRM_LineMode
 
-The recognizer does not emply line breaking inside the recognizer and all of the ink is recognized as one line.
+The recognizer does not imply line breaking inside the recognizer and all of the ink is recognized as one line.
 
 ### -field IRM_DisablePersonalization
 

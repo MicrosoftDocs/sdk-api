@@ -69,7 +69,7 @@ VDS registers an <b>IVdsAdviseSink</b> interface with
 
 After implementing the <b>IVdsAdviseSink</b> 
       interface, an application must register the interface with VDS to receive notifications. To register, call the 
-      <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>method and pass a pointer to the <b>IVdsAdviseSink</b> 
+      <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method and pass a pointer to the <b>IVdsAdviseSink</b> 
       interface. To unregister the <b>IVdsAdviseSink</b> interface and stop receiving notifications, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-unadvise">IVdsService::Unadvise</a> method.<div class="alert"><b>Note</b>  An application that calls <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">Advise</a> must eventually call <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-unadvise">Unadvise</a>. Ideally, it should call <b>Unadvise</b> as soon as it no longer needs to receive notifications.</div>
 <div> </div>
 

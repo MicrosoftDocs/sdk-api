@@ -176,7 +176,7 @@ The object referred to by <i>pUnkCallback</i> must either support the
 The callback based on <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> for the 
 <b>LoadAsync</b> method works as a script function that takes one parameter. This parameter is the result of the load operation. If the parameter is zero, the load succeeded, and the user can retrieve device objects from the document. If the parameter is non-zero, it describes the error. The value is the same as the error code that the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> method returns.
 
-In Visual Basic Scripting Edition (VBScript) development software, the second argument must be<b>GetRef</b>(<i>funcname</i>), where <i>funcname</i> is the name of the callback subroutine.
+In Visual Basic Scripting Edition (VBScript) development software, the second argument must be <b>GetRef</b>(<i>funcname</i>), where <i>funcname</i> is the name of the callback subroutine.
 
 If this function returns S_OK, 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocumentcallback-loadcomplete">IUPnPDescriptionDocumentCallback::LoadComplete</a> is invoked by the UPnP framework.

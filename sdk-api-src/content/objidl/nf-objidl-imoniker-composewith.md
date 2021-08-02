@@ -117,7 +117,7 @@ An object that provides item monikers to identify its objects would call <b>Comp
 <ol>
 <li>Create an item moniker that identifies the object.</li>
 <li>Get a moniker that identifies the object's container.</li>
-<li>Call I<b>ComposeWith</b> on the moniker identifying the container, passing the item moniker as the <i>pmkRight</i> parameter.</li>
+<li>Call <b>ComposeWith</b> on the moniker identifying the container, passing the item moniker as the <i>pmkRight</i> parameter.</li>
 </ol>
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 You can use either nongeneric or generic composition to compose the current moniker with the moniker that pmkRight points to. If the class of the moniker indicated by <i>pmkRight</i> is the same as that of the current moniker, it is possible to use the contents of <i>pmkRight</i> to perform a more intelligent nongeneric composition.

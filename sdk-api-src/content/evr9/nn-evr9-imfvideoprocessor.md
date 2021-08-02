@@ -55,7 +55,7 @@ Controls video processing in the <a href="/windows/desktop/medfound/enhanced-vid
 
 The EVR mixer implements this interface. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier is GUID MR_VIDEO_MIXER_SERVICE. Call <b>GetService</b> on any of the following objects:
 <ul>
-<li>The media sesson (if the topology contains an instance of the EVR).
+<li>The media session (if the topology contains an instance of the EVR).
             </li>
 <li>The EVR media sink.
             </li>

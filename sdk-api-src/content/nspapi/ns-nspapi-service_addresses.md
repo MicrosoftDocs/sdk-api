@@ -65,11 +65,11 @@ The
 Number of 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-service_address">SERVICE_ADDRESS</a> structures in the <b>Addresses</b> array.
 
-### -field Addressses
+### -field Addresses
 
-### -field Addressses.size_is
+### -field Addresses.size_is
 
-### -field Addressses.size_is.dwAddressCount
+### -field Addresses.size_is.dwAddressCount
 
 ### -field Addresses
 

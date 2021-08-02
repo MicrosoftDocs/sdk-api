@@ -56,4 +56,4 @@ The values in this enumeration are used to identify the sub-types of <a href="/w
 
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE
 
-This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
+This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a> to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.

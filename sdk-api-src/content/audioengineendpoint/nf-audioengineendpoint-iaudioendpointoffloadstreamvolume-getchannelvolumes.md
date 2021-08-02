@@ -56,7 +56,7 @@ The <b>GetChannelVolumes</b> method retrieves the volume levels for the various 
 
 ### -param u32ChannelCount [in]
 
-Indicates the numer of available audio channels in the offloaded stream.
+Indicates the number of available audio channels in the offloaded stream.
 
 ### -param pf32Volumes [out]
 

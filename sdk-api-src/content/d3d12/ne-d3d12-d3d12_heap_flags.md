@@ -85,7 +85,7 @@ Unsupported. Do not use.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH
 
-The heap supports MEM_WRITE_WATCH functionality, which causes the system to track the pages that are written to in the commited memory region. This flag can't be combined with the D3D12_HEAP_TYPE_DEFAULT or D3D12_CPU_PAGE_PROPERTY_UNKNOWN flags. Applications are discouraged from using this flag themselves because it prevents tools from using this functionality.
+The heap supports MEM_WRITE_WATCH functionality, which causes the system to track the pages that are written to in the committed memory region. This flag can't be combined with the D3D12_HEAP_TYPE_DEFAULT or D3D12_CPU_PAGE_PROPERTY_UNKNOWN flags. Applications are discouraged from using this flag themselves because it prevents tools from using this functionality.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_SHADER_ATOMICS
 

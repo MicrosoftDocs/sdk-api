@@ -68,7 +68,7 @@ With mixed-mode security, this property is a <a href="/windows/win32/api/webserv
         
 
 If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME</a> is specified, the algorithm
-          suite defaults to <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</b>when <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
+          suite defaults to <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</b> when <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
 
 ### -field WS_SECURITY_PROPERTY_ALGORITHM_SUITE_NAME
@@ -80,7 +80,7 @@ With mixed-mode security, this property is a  <a href="/windows/desktop/api/webs
         
 
 If neither this property nor <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> is specified, the algorithm
-          suite defaults to <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a>when <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
+          suite defaults to <a href="/windows/win32/api/webservices/ns-webservices-ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC128</a> when <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used and 
           <b>WS_SECURITY_ALGORITHM_SUITE_NAME_BASIC256</b> otherwise.
 
 ### -field WS_SECURITY_PROPERTY_MAX_ALLOWED_LATENCY
@@ -125,7 +125,7 @@ A <a href="/windows/desktop/api/webservices/ne-webservices-ws_extended_protectio
 
 The default is <a href="/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_policy">WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED</a> on configurations that support extended protection.
 
-This property is only available on the server and can only be used when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with either <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>or <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used.
+This property is only available on the server and can only be used when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with either <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> or <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used.
               
 
 Supported by default on Windows 7 and above. May require an update on systems running earlier versions of Windows. If the operating system was not updated,
@@ -133,10 +133,10 @@ Supported by default on Windows 7 and above. May require an update on systems r
 
 ### -field WS_SECURITY_PROPERTY_EXTENDED_PROTECTION_SCENARIO
 
-A <a href="/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_scenario">WS_EXTENDED_PROTECTION_SCENARIO</a> value that specifes the deployment scenario of the server as it pertains to <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a>. Only available if extended protection is used.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_scenario">WS_EXTENDED_PROTECTION_SCENARIO</a> value that specifies the deployment scenario of the server as it pertains to <a href="/windows/desktop/wsw/extended-protection">Extended Protection</a>. Only available if extended protection is used.
               
 
-This property is only available on the server and can only be used when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with either <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>or <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used.
+This property is only available on the server and can only be used when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with either <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_auth_security_binding">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a> or <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used.
               
 
 The default is <a href="/windows/desktop/api/webservices/ne-webservices-ws_extended_protection_scenario">WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER</a>.

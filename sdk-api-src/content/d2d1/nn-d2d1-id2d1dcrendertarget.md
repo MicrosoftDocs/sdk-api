@@ -81,7 +81,7 @@ In some cases, it might not be obvious that GDI is performing additional process
 
 Depending on the type of content being rendered, you might want to prevent the inversion. If the Direct2D content includes ClearType text, this inversion will degrade the quality of the text.
 
-You can control RTL rendering behavior by using the <a href="/windows/win32/api/wingdi/nf-wingdi-setlayout">SetLayout</a> GDI function.  To  prevent the mirroring, call the <b>SetLayout</b> GDI function and specify <b>LAYOUT_BITMAPORIENTATIONPRESERVED</b>as the only value for the second parameter (do not combine it with <b>LAYOUT_RTL</b>), as shown in the following example:
+You can control RTL rendering behavior by using the <a href="/windows/win32/api/wingdi/nf-wingdi-setlayout">SetLayout</a> GDI function.  To  prevent the mirroring, call the <b>SetLayout</b> GDI function and specify <b>LAYOUT_BITMAPORIENTATIONPRESERVED</b> as the only value for the second parameter (do not combine it with <b>LAYOUT_RTL</b>), as shown in the following example:
 
 
 ```cpp

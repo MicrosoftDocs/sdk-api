@@ -278,7 +278,7 @@ When <b>UNICODE</b> or <b>_UNICODE</b> is defined, <b>SetAddrInfoEx</b> is defin
 
 When <b>UNICODE</b> or <b>_UNICODE</b> is not defined, <b>SetAddrInfoEx</b> is defined to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">SetAddrInfoExA</a>, the ANSI version of this function. The string parameters are of the <b>PCSTR</b> data type.
 
-Information  that is registered with a namespace provider can be returned by calling the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>,   <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>functions.  The <b>GetAddrInfoEx</b> function is an enhanced version of the <b>getaddrinfo</b> and <b>GetAddrInfoW</b> functions. 
+Information  that is registered with a namespace provider can be returned by calling the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>,   <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> functions.  The <b>GetAddrInfoEx</b> function is an enhanced version of the <b>getaddrinfo</b> and <b>GetAddrInfoW</b> functions. 
 
 On Windows Vista and later, when <b>SetAddrInfoEx</b> is called from a service, if the operation is the result of a user process calling the service, then the service should impersonate the user.  This is to allow security and routing compartments to be properly enforced.
 

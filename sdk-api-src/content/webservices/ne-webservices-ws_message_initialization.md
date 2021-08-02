@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Specifies what headers the
-                <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>should add to the message.
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a> should add to the message.
 
 ## -enum-fields
 

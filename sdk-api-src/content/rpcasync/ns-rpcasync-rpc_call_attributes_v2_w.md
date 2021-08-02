@@ -65,7 +65,7 @@ Version of the <b>RPC_CALL_ATTRIBUTES</b> structure. For this structure, this va
 
 ### -field Flags
 
-Bitmasked flags that indicate which members of this structure should be populated by the call to  <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>to which this structure was passed.
+Bitmasked flags that indicate which members of this structure should be populated by the call to  <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> to which this structure was passed.
 
 <table>
 <tr>

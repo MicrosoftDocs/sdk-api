@@ -64,7 +64,7 @@ Receives a pointer to the security descriptor.
 
 Type: <b>DWORD</b>
 
-Size in <b>TCHAR</b><b>s</b>of the <i>pSD</i> array.
+Size in <b>TCHAR</b><b>s</b> of the <i>pSD</i> array.
 
 ### -param pdwLength [out]
 

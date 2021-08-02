@@ -130,7 +130,7 @@ The graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/
 
 You can modify
 the <b>pwzFriendlyName</b>,
-<b>cPresenceMax</b>, <b>pwzComment</b>and
+<b>cPresenceMax</b>, <b>pwzComment</b> and
 <b>ulPresenceLifetime</b> members of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a> structure.
 
 ## -see-also

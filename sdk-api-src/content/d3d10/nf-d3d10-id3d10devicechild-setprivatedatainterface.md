@@ -75,7 +75,7 @@ This method returns one of the following <a href="/windows/desktop/direct3d10/d3
 
 ## -remarks
 
-When this method is called ::addref() will be called on the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface, and when the device child is detroyed ::release() will be called on the IUnknown-derived interface.
+When this method is called ::addref() will be called on the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface, and when the device child is destroyed ::release() will be called on the IUnknown-derived interface.
 
 ## -see-also
 

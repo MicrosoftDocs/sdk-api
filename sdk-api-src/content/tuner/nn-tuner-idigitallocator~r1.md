@@ -46,7 +46,7 @@ The <b>IDigitalLocator</b> interface serves as the base interface for <a href="/
 
 ## -inheritance
 
-IDigitalLocator interits from .
+IDigitalLocator inherits from .
 
 ## -remarks
 

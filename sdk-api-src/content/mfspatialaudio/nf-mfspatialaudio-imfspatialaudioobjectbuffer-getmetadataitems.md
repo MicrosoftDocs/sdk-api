@@ -96,7 +96,7 @@ The supplied pointer is invalid.
 
 ## -remarks
 
-The metadata is written to the <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>collection in a format identified by the <a href="/windows/desktop/medfound/mf-mt-spatial-audio-object-metadata-format-id">MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID</a>     media type attribute specified during media type negotiation phase of Media Foundation     topology construction.
+The metadata is written to the <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> collection in a format identified by the <a href="/windows/desktop/medfound/mf-mt-spatial-audio-object-metadata-format-id">MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_FORMAT_ID</a>     media type attribute specified during media type negotiation phase of Media Foundation     topology construction.
 
 ## -see-also
 

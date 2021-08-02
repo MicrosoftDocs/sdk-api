@@ -68,7 +68,7 @@ One or more of the following DWM_SHOWCONTACT visualizations that DWM should show
 
 #### DWMSC_NONE (0x00000000)
 
-No visual feedback should be shown in reponse to the contact.
+No visual feedback should be shown in response to the contact.
 
 
 

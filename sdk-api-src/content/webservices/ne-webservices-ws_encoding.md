@@ -115,7 +115,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
                 
 
 The XML part of the MTOM package is written
-                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>, but may be in any <b>WS_CHARSET</b>when read.
+                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF8</a>, but may be in any <b>WS_CHARSET</b> when read.
 
 ### -field WS_ENCODING_XML_MTOM_UTF16BE
 
@@ -131,7 +131,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
                 
 
 The XML part of the MTOM package is written
-                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>, but may be in any <b>WS_CHARSET</b>when read.
+                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16BE</a>, but may be in any <b>WS_CHARSET</b> when read.
 
 ### -field WS_ENCODING_XML_MTOM_UTF16LE
 
@@ -147,7 +147,7 @@ The MTOM encoding optimizes for binary data by avoiding the costs
                 
 
 The XML part of the MTOM package is written
-                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>, but may be in any <b>WS_CHARSET</b>when read.
+                    using <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_UTF16LE</a>, but may be in any <b>WS_CHARSET</b> when read.
 
 ### -field WS_ENCODING_XML_UTF8
 

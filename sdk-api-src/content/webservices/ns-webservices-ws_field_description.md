@@ -69,7 +69,7 @@ The XML local name to use for the field.
 This field is required, except in the following case, where it may be <b>NULL</b>.
                     If the mapping field is <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, then
                     this identifies the local name of the "wrapper" element that is the parent element
-                    of the array item elements.  Setting this field (and the ns field) to <b>NULL</b>will omit the wrapper element.  The ns and localName fields must be either both
+                    of the array item elements.  Setting this field (and the ns field) to <b>NULL</b> will omit the wrapper element.  The ns and localName fields must be either both
                     specified or both <b>NULL</b>.
 
 ### -field ns
@@ -80,7 +80,7 @@ The XML namespace to use for the field.
 This field is required, except in the following case, where it may be <b>NULL</b>.
                     If the mapping field is <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a>, then
                     this identifies the namespace of the "wrapper" element that is the parent element
-                    of the array item elements.  Setting this field (and the localName field) to <b>NULL</b>will omit the wrapper element.  The ns and localName fields must be either both
+                    of the array item elements.  Setting this field (and the localName field) to <b>NULL</b> will omit the wrapper element.  The ns and localName fields must be either both
                     specified or both <b>NULL</b>.
 
 ### -field type

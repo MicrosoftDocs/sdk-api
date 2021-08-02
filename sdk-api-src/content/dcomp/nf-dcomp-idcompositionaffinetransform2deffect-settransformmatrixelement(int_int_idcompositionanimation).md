@@ -64,7 +64,7 @@ The row of the element.
 
 Type: <b>int</b>
 
-The columen of the element.
+The column of the element.
 
 ### -param animation [in]
 

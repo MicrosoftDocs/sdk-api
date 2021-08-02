@@ -145,7 +145,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASENTRY structure initilization failed");
+        wprintf(L"RASENTRY structure initialization failed");
         HeapFree(GetProcessHeap(), 0, lpentry);
         return 0;
     }

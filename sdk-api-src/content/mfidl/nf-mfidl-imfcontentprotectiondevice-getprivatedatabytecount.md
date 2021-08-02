@@ -52,7 +52,7 @@ api_name:
 
      Gets the required number of bytes that need to be prepended to   
      the  input and output buffers when you call the security processor through the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">InvokeFunction</a> method.  
-     When you specify this number of bytes, the Media Foundation transform (MFT) decryptor can allocate the total amount of bytes and can avoid making copies of the data when the decrytor moves the data to the security processor.
+     When you specify this number of bytes, the Media Foundation transform (MFT) decryptor can allocate the total amount of bytes and can avoid making copies of the data when the decryptor moves the data to the security processor.
 
 ## -parameters
 

@@ -79,7 +79,7 @@ In the various interface methods, the following GUIDs, defined in uuids.h, are u
 </tr>
 <tr>
 <td>ENCAPIPARAM_PEAK_BITRATE</td>
-<td>Secifies the peak bit rate. This parameter is relevant only when <b>ENCAPIPARAM_BITRATE_MODE</b> has been set to <b>VariableBitRatePeak</b>.</td>
+<td>Specifies the peak bit rate. This parameter is relevant only when <b>ENCAPIPARAM_BITRATE_MODE</b> has been set to <b>VariableBitRatePeak</b>.</td>
 </tr>
 <tr>
 <td>ENCAPIPARAM_BITRATE_MODE</td>

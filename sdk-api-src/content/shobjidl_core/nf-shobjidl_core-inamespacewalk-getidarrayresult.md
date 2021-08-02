@@ -83,7 +83,7 @@ It is the responsibility of the calling application to free this array. Call <a 
 
 
 
-The following example creates the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrived in the walk, and frees their array.
+The following example creates the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrieved in the walk, and frees their array.
 
 
 ```cpp

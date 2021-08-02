@@ -64,11 +64,11 @@ A combination of
               values that are combined by using a bitwise <b>OR</b> operation. 
               The resulting value specifies how to create the context state object. 
               The 
-              <a href="/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_1_create_device_context_state_flag">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</a>flag is currently the only defined flag. 
+              <a href="/windows/desktop/api/d3d11_1/ne-d3d11_1-d3d11_1_create_device_context_state_flag">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</a> flag is currently the only defined flag. 
               If the original device was created with 
               <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_SINGLETHREADED</a>, 
               you must create all context state objects from that device with the 
-              <b>D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</b>flag.
+             <b>D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED</b> flag.
             
 
 

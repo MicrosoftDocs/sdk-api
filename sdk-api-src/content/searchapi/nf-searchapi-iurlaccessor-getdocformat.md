@@ -64,7 +64,7 @@ Receives a pointer to a null-terminated Unicode string containing the MIME type 
 
 Type: <b>DWORD</b>
 
-Size of <i>wszDocFormat</i>in <b>TCHAR</b><b>s</b>.
+Size of <i>wszDocFormat</i> in <b>TCHAR</b><b>s</b>.
 
 ### -param pdwLength [out]
 

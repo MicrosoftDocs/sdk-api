@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code>arguments.
+Initializes a new instance of <code>XMSHORTN4</code> from four normalized <code>float</code> arguments.
     
 
 This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a> from a

@@ -102,4 +102,4 @@ The operation is not allowed due to the current state of the object.
         which <a href="/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a> was called.
       
 
-It is not necessary to call <b>WsEndWriterCanonicalization</b>in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.
+It is not necessary to call <b>WsEndWriterCanonicalization</b> in order to call <a href="/windows/desktop/api/webservices/nf-webservices-wsfreewriter">WsFreeWriter</a>.

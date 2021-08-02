@@ -61,7 +61,7 @@ Boolean value indicating whether to use a time-stamp offset. If <b>TRUE</b>, liv
 
 ## -returns
 
-Returns S_OK if successsful, or an error code otherwise.
+Returns S_OK if successful, or an error code otherwise.
 
 ## -remarks
 

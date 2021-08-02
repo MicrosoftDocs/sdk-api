@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the force-feedback state for the device.
+The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b> method changes the force-feedback state for the device.
 
 ## -parameters
 

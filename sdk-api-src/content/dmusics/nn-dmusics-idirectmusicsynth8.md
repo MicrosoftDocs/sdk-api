@@ -50,5 +50,5 @@ api_name:
 
 ## -description
 
-<b>IDirectMusicSynth8</b>is unsupported and may be altered or unavailable in the future.
+<b>IDirectMusicSynth8</b> is unsupported and may be altered or unavailable in the future.
 

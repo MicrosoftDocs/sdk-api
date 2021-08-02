@@ -95,7 +95,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-<b>StartRemoteApplicationEx</b> contains a number of new features: launching a 3rd party application when the remote destop first starts, handling multiple remote desktops, and launching with the web-based client UI.
+<b>StartRemoteApplicationEx</b> contains a number of new features: launching a 3rd party application when the remote desktop first starts, handling multiple remote desktops, and launching with the web-based client UI.
 
 ## -see-also
 

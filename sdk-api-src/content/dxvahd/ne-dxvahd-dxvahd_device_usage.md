@@ -68,7 +68,7 @@ Use this setting if you want better performance and can accept some reduction in
 
 ### -field DXVAHD_DEVICE_USAGE_OPTIMAL_QUALITY
 
-Optimal quality. The grahics driver should expose its maximum set of capabilities.
+Optimal quality. The graphics driver should expose its maximum set of capabilities.
 
 Specify this setting to get the best video quality possible. It is appropriate for tasks such as video editing, when quality is more important than speed. It is not appropriate for real-time playback.
 

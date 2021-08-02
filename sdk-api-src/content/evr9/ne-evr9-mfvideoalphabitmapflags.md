@@ -58,7 +58,7 @@ Defines flags for the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabit
 
 ### -field MFVideoAlphaBitmap_EntireDDS
 
-Alpha-blend the entire DirectDraw suface.
+Alpha-blend the entire DirectDraw surface.
 
 If you are alpha-blending a DirectDraw surface, you can set this flag when you call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a>. If this flag is set, the mixer ignores the <b>rcSrc</b> member of the <a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure. If this flag is absent, the <b>rcSrc</b> member specifies the source rectangle.
 

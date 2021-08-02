@@ -58,7 +58,7 @@ The <b>IOpcCertificateEnumerator</b> interface inherits from the <a href="/windo
 
 ## -remarks
 
-When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a>method after the enumerator is created.
+When an enumerator is created, the current position precedes the first pointer of the enumerator. To set the current position to the first pointer, call the  <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopccertificateenumerator-movenext">MoveNext</a> method after the enumerator is created.
 
 Changes to the set will invalidate the enumerator and all subsequent calls to it will fail.
 

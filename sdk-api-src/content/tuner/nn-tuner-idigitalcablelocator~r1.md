@@ -48,7 +48,7 @@ OCUR Devices: This interface supports OpenCable Unidirectional Cable Receiver (O
 
 ## -inheritance
 
-IDigitalCableLocator interits from .
+IDigitalCableLocator inherits from .
 
 ## -remarks
 

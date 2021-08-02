@@ -118,7 +118,7 @@ One or more of the parameters were invalid.
 </dl>
 </td>
 <td width="60%">
-If the ADDURL_SILENT flag has been set, the desktop item has either been added successfully or it already exists on the Active Desktop. Otherwise, the desktop item has been added succesfully.
+If the ADDURL_SILENT flag has been set, the desktop item has either been added successfully or it already exists on the Active Desktop. Otherwise, the desktop item has been added successfully.
 
 </td>
 </tr>

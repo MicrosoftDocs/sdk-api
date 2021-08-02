@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Contains properties that are common to the <a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
-<a href="/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>and <a href="/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a> structures.
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a> and <a href="/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a> structures.
 
 ## -struct-fields
 

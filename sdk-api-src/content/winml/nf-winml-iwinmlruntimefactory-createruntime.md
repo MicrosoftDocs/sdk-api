@@ -60,7 +60,7 @@ Creates a WinML runtime.
 
 ### -param RuntimeType [in]
 
-A <a href="/windows/desktop/api/winml/ne-winml-winml_runtime_type">WINML_RUNTIME_TYPE</a> that decribes the type of WinML runtime.
+A <a href="/windows/desktop/api/winml/ne-winml-winml_runtime_type">WINML_RUNTIME_TYPE</a> that describes the type of WinML runtime.
 
 ### -param ppRuntime [out]
 

@@ -104,11 +104,11 @@ The stylus has broken physical contact with the digitizer.
 
 ### -field RTSDI_StylusButtonUp
 
-A user has realeased a stylus button.
+A user has released a stylus button.
 
 ### -field RTSDI_StylusButtonDown
 
-A user has pressed  a stylus button.
+A user has pressed a stylus button.
 
 ### -field RTSDI_SystemEvents
 

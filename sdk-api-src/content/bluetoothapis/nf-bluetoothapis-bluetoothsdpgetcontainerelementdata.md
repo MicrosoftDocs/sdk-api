@@ -68,7 +68,7 @@ The size, in bytes, of the <i>pContainerStream</i> parameter.
 ### -param pElement [in, out]
 
 A value used to track the  location in the stream.  The first
-          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i>should be <b>NULL</b>.  For subsequent calls, the value should be
+          time the <b>BluetoothSdpGetContainerElementData</b> function is called for a  container, *<i>pElement</i> should be <b>NULL</b>.  For subsequent calls, the value should be
 unmodified.
 
 ### -param pData [out]

@@ -58,7 +58,7 @@ Transpose and get an array of floating-point matrices.
 
 Type: <b>float*</b>
 
-A pointer to the first element of an array of tranposed matrices.
+A pointer to the first element of an array of transposed matrices.
 
 ### -param Offset [in]
 

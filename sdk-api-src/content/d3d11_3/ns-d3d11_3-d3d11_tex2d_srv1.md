@@ -57,7 +57,7 @@ Describes the subresource from a 2D texture to use in a shader-resource view.
 ### -field MostDetailedMip
 
 Index of the most detailed mipmap level to use; this number is between 0 and (<b>MipLevels</b> (from the original Texture2D for which 
-            <a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">ID3D11Device3::CreateShaderResourceView1</a>creates a view) - 1 ).
+            <a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11device3-createshaderresourceview1">ID3D11Device3::CreateShaderResourceView1</a> creates a view) - 1 ).
 
 ### -field MipLevels
 

@@ -203,7 +203,7 @@ This error is returned if the descriptor in the <i>s</i> parameter is not a sock
 
 The <b>bind</b> function is required on an unconnected socket before subsequent calls to the 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function. It is normally used to bind to either connection-oriented (stream) or connectionless (datagram) sockets. The 
-<b>bind</b> function may also be used to bind to a raw socket (the socket was created by calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>function with the <i>type</i> parameter set to SOCK_RAW). The 
+<b>bind</b> function may also be used to bind to a raw socket (the socket was created by calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function with the <i>type</i> parameter set to SOCK_RAW). The 
 <b>bind</b> function may also be used on an unconnected socket before subsequent calls to the 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>, <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>, or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a> functions before send operations. 
 

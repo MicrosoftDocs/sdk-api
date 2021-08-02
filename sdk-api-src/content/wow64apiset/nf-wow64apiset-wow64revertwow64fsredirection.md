@@ -58,7 +58,7 @@ api_name:
 
 Restores file system redirection for the calling thread.
 
-This function should not be called without a previous call to the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function.
+This function should not be called without a previous call to the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function.
 
 Any data allocation on behalf of the 
       <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> 

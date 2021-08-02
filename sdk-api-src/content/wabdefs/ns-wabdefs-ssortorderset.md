@@ -63,13 +63,13 @@ Do not use. Defines a collection of  keys for a table to be used for standard or
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifes the number of <a href="/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a> structures that are included in the <b>aSort</b> member.
+Variable of type <b>ULONG</b> that specifies the number of <a href="/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a> structures that are included in the <b>aSort</b> member.
 
 ### -field cCategories
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifes the number of columns that are designated as category columns. Possible values range from zero, which indicates a non-categorized or standard sort, to the number indicated by the <b>cSorts</b> member.
+Variable of type <b>ULONG</b> that specifies the number of columns that are designated as category columns. Possible values range from zero, which indicates a non-categorized or standard sort, to the number indicated by the <b>cSorts</b> member.
 
 ### -field cExpanded
 

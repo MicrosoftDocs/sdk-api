@@ -70,7 +70,7 @@ See <a href="/windows/desktop/medfound/mft-message-command-drain">MFT_MESSAGE_CO
 
 ### -field MFT_MESSAGE_SET_D3D_MANAGER
 
-Sets or clears the <a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a> for DirectX Video Accereration (DXVA).
+Sets or clears the <a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a> for DirectX Video Acceleration (DXVA).
             
             
           

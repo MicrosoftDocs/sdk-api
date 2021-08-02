@@ -88,7 +88,7 @@ Pointer to a string that contains the text to draw.
 
 Type: <b>int</b>
 
-Value of type<b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
+Value of type <b>int</b> that contains the number of characters to draw. If the parameter is set to -1, all the characters in the string are drawn.
 
 ### -param dwTextFlags [in]
 

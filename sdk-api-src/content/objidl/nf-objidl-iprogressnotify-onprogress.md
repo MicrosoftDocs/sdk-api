@@ -108,7 +108,7 @@ The caller is to block the download and retry the call as needed to determine if
 </dl>
 </td>
 <td width="60%">
-The callback recipient reliquishes control of the downloading process to one of the other objects or applications that have registered progress notification sinks on the same stream. This is useful if the notification sink is interested only in gathering statistics.
+The callback recipient relinquishes control of the downloading process to one of the other objects or applications that have registered progress notification sinks on the same stream. This is useful if the notification sink is interested only in gathering statistics.
 
 </td>
 </tr>

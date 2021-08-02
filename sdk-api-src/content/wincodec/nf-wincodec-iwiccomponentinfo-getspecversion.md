@@ -64,7 +64,7 @@ The size of the <i>wzSpecVersion</i> buffer.
 
 Type: <b>WCHAR*</b>
 
-When this method returns, contain a culture invarient string of the component's specification version. The version form is NN.NN.NN.NN.
+When this method returns, contain a culture invariant string of the component's specification version. The version form is NN.NN.NN.NN.
 
 ### -param pcchActual [out]
 

@@ -65,7 +65,7 @@ A structure that contains the properties of the glyph run (font face, advances, 
 
 Type: <b>FLOAT</b>
 
-Number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI bitmap then <i>pixelsPerDip</i>is 1. If rendering onto a 120 DPI bitmap then <i>pixelsPerDip</i> is 1.25.
+Number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI bitmap then <i>pixelsPerDip</i> is 1. If rendering onto a 120 DPI bitmap then <i>pixelsPerDip</i> is 1.25.
 
 ### -param transform [in, optional]
 

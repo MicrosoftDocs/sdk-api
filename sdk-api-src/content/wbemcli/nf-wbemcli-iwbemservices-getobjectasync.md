@@ -247,7 +247,7 @@ HRESULT CStdProvider::GetObjectAsync(
 
     pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
     SysFreeString(strObjectPath);
-    m_pSvc->Relaase();
+    m_pSvc->Release();
     pClass->Release();  // This is no longer needed.
     return WBEM_S_NO_ERROR;
 }

@@ -68,7 +68,7 @@ This parameter cannot be <b>NULL</b>. It receives the copy of the object when it
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 If the original semisynchronous operation failed (such as when the object was not found, or the method could not be invoked), this method returns the error code that the original function would have returned in its synchronous version.
 

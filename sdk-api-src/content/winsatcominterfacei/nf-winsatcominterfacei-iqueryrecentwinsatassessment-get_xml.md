@@ -95,7 +95,7 @@ void main(void)
 
     hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 
-    // Get an instance to the most recent formal assessmenet.
+    // Get an instance to the most recent formal assessment.
     hr = CoCreateInstance(__uuidof(CQueryWinSAT),
         NULL,
         CLSCTX_INPROC_SERVER,

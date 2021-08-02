@@ -107,7 +107,7 @@ If a call to <b>GetQueuedCompletionStatus</b> fails because the completion port 
 
 <b>Windows Server 2003 and Windows XP:  </b>Closing the completion port handle while a call is outstanding will not result in the previously stated behavior.  The function will continue to wait until an entry is removed from the port or until a time-out occurs, if specified as a value other than <b>INFINITE</b>.
 
-If the<b>GetQueuedCompletionStatus</b> function succeeds, it dequeued a completion packet for a successful I/O operation from the completion port and has stored information in the variables pointed to by the
+If the <b>GetQueuedCompletionStatus</b> function succeeds, it dequeued a completion packet for a successful I/O operation from the completion port and has stored information in the variables pointed to by the
 following parameters: <i>lpNumberOfBytes</i>, <i>lpCompletionKey</i>, and <i>lpOverlapped</i>. Upon failure (the return value is <b>FALSE</b>), those same parameters can contain particular value combinations as follows:
 
 <ul>

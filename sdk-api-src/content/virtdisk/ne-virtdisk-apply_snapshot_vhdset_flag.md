@@ -65,5 +65,5 @@ No flag specified.
 
 ### -field APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE
 
-Indicates that the snapshot to be applied was created as a writeable snapshot type.
+Indicates that the snapshot to be applied was created as a writable snapshot type.
 

@@ -70,7 +70,7 @@ Pointer to a variable that specifies the start position
   in the descriptor list. This parameter is optional.
   If the value of <i>pdwCookie</i> is <b>NULL</b>, the search starts from the
   first descriptor in the list. Otherwise, the search starts from
-  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i>parameter contains the position of the next matching descriptor,
+  the position given in <i>pdwCookie</i>. When the method returns, the <i>pdwCookie</i> parameter contains the position of the next matching descriptor,
   if any. You can use this parameter to iterate through the descriptor list,
   looking for every instance of a particular descriptor tag.
 

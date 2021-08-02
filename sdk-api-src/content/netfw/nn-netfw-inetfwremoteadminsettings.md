@@ -62,7 +62,7 @@ The <b>INetFwRemoteAdminSettings</b> interface inherits from the <a href="/previ
 ## -remarks
 
 An
-instance of this interface is retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_remoteadminsettings">RemoteAdminSettings</a>property of the INetFwProfile interface. 
+instance of this interface is retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_remoteadminsettings">RemoteAdminSettings</a> property of the INetFwProfile interface. 
 
 All configuration changes take
  effect immediately.

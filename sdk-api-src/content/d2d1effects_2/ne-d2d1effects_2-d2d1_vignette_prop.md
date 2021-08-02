@@ -56,7 +56,7 @@ Identifiers for properties of the <a href="/windows/desktop/Direct2D/vignette-ef
 
 ### -field D2D1_VIGNETTE_PROP_COLOR
 
-The D2D1_VIGNETTE_PROP_COLOR property is an RGB tripplet that specifies the color to fade the image's edges to. The default color is black.
+The D2D1_VIGNETTE_PROP_COLOR property is an RGB triplet that specifies the color to fade the image's edges to. The default color is black.
 
 ### -field D2D1_VIGNETTE_PROP_TRANSITION_SIZE
 

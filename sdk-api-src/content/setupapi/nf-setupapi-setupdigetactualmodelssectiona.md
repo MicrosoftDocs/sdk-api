@@ -70,7 +70,7 @@ A pointer to a buffer that receives a string that contains the decorated INF <i>
 
 ### -param InfSectionWithExtSize [in]
 
- The size, in characters, of the <i>DecoratedModelsSection </i>buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
+ The size, in characters, of the <i>DecoratedModelsSection </i> buffer. If <i>DecoratedModelsSection</i> is <b>NULL</b>, this parameter must be set to zero.
 
 ### -param RequiredSize [out, optional]
 

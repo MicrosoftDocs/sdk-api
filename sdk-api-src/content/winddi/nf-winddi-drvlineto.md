@@ -68,11 +68,11 @@ Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-brushobj">BRUSHOBJ</
 
 ### -param x1
 
-Specify the integer x-coodinates of the line's beginning point.
+Specify the integer x-coordinates of the line's beginning point.
 
 ### -param y1
 
-Specify the integer y-coodinates of the line's beginning point.
+Specify the integer y-coordinates of the line's beginning point.
 
 ### -param x2
 

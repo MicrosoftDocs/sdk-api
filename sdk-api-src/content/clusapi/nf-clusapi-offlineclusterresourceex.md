@@ -138,7 +138,7 @@ The resource is being restarted.
 
 #### CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED (0x00000020)
 
-There resource had a preemptive failure.
+The resource had a preemptive failure.
 
 <b>Windows Server 2012:  </b>This value is not supported before Windows Server 2012 R2.
 

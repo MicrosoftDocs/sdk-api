@@ -60,7 +60,7 @@ Address of an <a href="/windows/desktop/direct3dhlsl/xmint4">XMINT4</a> structur
 
 ## -returns
 
-Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 

@@ -62,7 +62,7 @@ Returns <b>S_OK</b> if successful; an error code otherwise. If this function is 
 
 ## -remarks
 
-This function is graphics API-agonistic, meaning that apps running on other APIs, such as OpenGL and Vulkan, would also apply.
+This function is graphics API-agnostic, meaning that apps running on other APIs, such as OpenGL and Vulkan, would also apply.
 
 This function should be called once per process and before any device creation.
 

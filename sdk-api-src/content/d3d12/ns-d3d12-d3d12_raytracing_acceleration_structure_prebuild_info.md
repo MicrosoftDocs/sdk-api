@@ -1,7 +1,7 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
 title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO (d3d12.h)
-description: Represents prebuild information about a raytracing acceleration structure. Get an instance of this stucture by calling GetRaytracingAccelerationStructurePrebuildInfo.
+description: Represents prebuild information about a raytracing acceleration structure. Get an instance of this structure by calling GetRaytracingAccelerationStructurePrebuildInfo.
 helpviewer_keywords: ["D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO","D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure","PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO","PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure pointer","d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO","d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO","direct3d12.d3d12_raytracing_acceleration_structure_prebuild_info"]
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_prebuild_info.htm
 tech.root: direct3d12
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents prebuild information about a raytracing acceleration structure. Get an instance of this stucture by calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>.
+Represents prebuild information about a raytracing acceleration structure. Get an instance of this structure by calling <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>.
 
 ## -struct-fields
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IDirectInputJoyConfig8::OpenTypeKey </b>method opens the registry key associated with a joystick type.
+The <b>IDirectInputJoyConfig8::OpenTypeKey </b> method opens the registry key associated with a joystick type.
 
 ## -parameters
 

@@ -78,19 +78,19 @@ Indicates an unsigned 64-bit integer value.
 
 ### -field FWP_INT8
 
-Indicates an signed 8-bit integer value.
+Indicates a signed 8-bit integer value.
 
 ### -field FWP_INT16
 
-Indicates an signed 16-bit integer value.
+Indicates a signed 16-bit integer value.
 
 ### -field FWP_INT32
 
-Indicates an signed 32-bit integer value.
+Indicates a signed 32-bit integer value.
 
 ### -field FWP_INT64
 
-Indicates an signed 64-bit integer value.
+Indicates a signed 64-bit integer value.
 
 ### -field FWP_FLOAT
 

@@ -83,7 +83,7 @@ The LUN has failed.
 
 ## -remarks
 
-The  <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setstatus">IVdsLun::SetStatus</a>method passes a <b>VDS_LUN_STATUS</b> value as an argument to set the status of a LUN, and the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_STATUS</b> value as a member to indicate the current status.
+The  <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setstatus">IVdsLun::SetStatus</a> method passes a <b>VDS_LUN_STATUS</b> value as an argument to set the status of a LUN, and the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> structure includes a <b>VDS_LUN_STATUS</b> value as a member to indicate the current status.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_LUN_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_LUN_STATUS</b> enumeration constant.</div>
 <div> </div>

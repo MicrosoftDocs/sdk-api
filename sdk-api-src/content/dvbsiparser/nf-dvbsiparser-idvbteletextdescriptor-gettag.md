@@ -1,7 +1,7 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetTag
 title: IDvbTeletextDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that idenfities a Digital Video Broadcast (DVB) teletext descriptor.
+description: Gets the tag that identifies a Digital Video Broadcast (DVB) teletext descriptor.
 helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbTeletextDescriptor.GetTag","IDvbTeletextDescriptor::GetTag","dvbsiparser/IDvbTeletextDescriptor::GetTag","mstv.idvbteletextdescriptor_gettag"]
 old-location: mstv\idvbteletextdescriptor_gettag.htm
 tech.root: mstv
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the tag that idenfities a Digital Video Broadcast (DVB) teletext descriptor.
+Gets the tag that identifies a Digital Video Broadcast (DVB) teletext descriptor.
 
 ## -parameters
 

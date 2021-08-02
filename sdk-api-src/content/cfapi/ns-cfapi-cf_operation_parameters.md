@@ -108,7 +108,7 @@ Flags for acknowledging data.
 
 ### -field DUMMYUNIONNAME.AckData.CompletionStatus
 
-Completion status of data acknowledgement.
+Completion status of data acknowledgment.
 
 Set to STATUS_SUCCESS if the sync provider validates the data within the range to be acknowledged is good.
 

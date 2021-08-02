@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IADsContainer::MoveHere</b>method moves a specified object to the container that implements this interface.The method can be used to rename an object.
+The <b>IADsContainer::MoveHere</b> method moves a specified object to the container that implements this interface.The method can be used to rename an object.
 
 ## -parameters
 
@@ -105,10 +105,10 @@ In Active Directory, you can move an object within the same domain
 <div class="alert"><b>Note</b>  When using the 
      <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
-     <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
+     <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a> in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
-     <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
+     <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method. Likewise, using the <b>OpenDsObject</b> method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
     <b>ADS_USE_DELEGATION</b> flag of the
     <b>ADS_AUTHENTICATION_ENUM</b> in order to make cross-domain moves with
     <b>IADsContainer::MoveHere</b>.</div>
@@ -129,7 +129,7 @@ ou.MoveHere("LDAP://server2/CN=jeffsmith,OU=Sales,DC=South,DC=Fabrikam,DC=Com", 
 A serverless ADsPath can be used for either the source or the
     destination or both.
 
-The <b>IADsContainer::MoveHere</b>method can be used either to rename an object within the same container or to
+The <b>IADsContainer::MoveHere</b> method can be used either to rename an object within the same container or to
     move an object among different containers. Moving an object retains the
     object RDN, whereas renaming an object alters the RDN.
 

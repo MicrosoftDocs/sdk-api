@@ -61,7 +61,7 @@ The zero-based index of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-i
 
 ### -param Cursor [out, retval]
 
-Whenthis method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
 
 ## -returns
 

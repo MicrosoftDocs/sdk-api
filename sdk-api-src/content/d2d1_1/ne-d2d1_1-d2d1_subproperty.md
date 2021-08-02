@@ -60,7 +60,7 @@ The name for the parent property.
 
 ### -field D2D1_SUBPROPERTY_ISREADONLY
 
-A Boolean indicating whether the parent property is writeable.
+A Boolean indicating whether the parent property is writable.
 
 ### -field D2D1_SUBPROPERTY_MIN
 

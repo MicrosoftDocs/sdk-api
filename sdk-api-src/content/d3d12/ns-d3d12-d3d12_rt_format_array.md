@@ -64,7 +64,7 @@ Specifies the number of render target formats stored in the array.
 
 ## -remarks
 
-This structure is primarily intended to be used when createing pipeline state stream descriptions that contain multiple contiguous render target format descriptions.
+This structure is primarily intended to be used when creating pipeline state stream descriptions that contain multiple contiguous render target format descriptions.
 
 ## -see-also
 
