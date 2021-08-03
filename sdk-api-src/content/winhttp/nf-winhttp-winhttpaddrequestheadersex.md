@@ -152,8 +152,7 @@ An array of **WINHTTP_EXTENDED_HEADER** structures.
 
 ## -returns
 
-Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+A status code indicating the result of the operation. Among the error codes returned are the following.
 
 <table>
 <tr>

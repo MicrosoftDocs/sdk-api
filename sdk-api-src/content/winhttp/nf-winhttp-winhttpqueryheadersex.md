@@ -120,8 +120,7 @@ The number of headers returned. You shouldn't try to access beyond `ppHeaders[cH
 
 ## -returns
 
-Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+A status code indicating the result of the operation. Among the error codes returned are the following.
 
 <table>
 <tr>
