@@ -93,8 +93,7 @@ Reserved. Pass NULL.
 
 ## -returns
 
-Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following table identifies the error codes that are returned.
+A status code indicating the result of the operation. Among the error codes returned are the following.
 
 <table>
 <tr>
