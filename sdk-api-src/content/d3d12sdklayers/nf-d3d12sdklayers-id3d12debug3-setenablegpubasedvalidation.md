@@ -61,5 +61,5 @@ For more information, see <a href="/windows/win32/direct3d12/using-d3d12-debug-l
 
 ## -see-also
 
-<a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug3</a>
+<a href="/windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug3">ID3D12Debug3</a>
 

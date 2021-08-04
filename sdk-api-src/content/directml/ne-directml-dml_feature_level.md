@@ -52,7 +52,7 @@ You can specify a *minimum feature level* when creating the DirectML device usin
 
 A DirectML device might support feature levels above the minimum feature level requested through **DMLCreateDevice1**. You can query the device for its supported feature levels using [IDMLDevice::CheckFeatureSupport](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport).
 
-For a list of new capabilities included in each feature level, see [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history).
+For a list of new capabilities included in each feature level, see [DirectML feature level history](/windows/ai/directml/dml-feature-level-history).
 
 ## -enum-fields
 
@@ -90,5 +90,5 @@ This API was introduced in DirectML version `1.1.0`.
 
 * [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [IDMLDevice::CheckFeatureSupport method](/windows/win32/api/directml/nf-directml-idmldevice-checkfeaturesupport)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
-* [DirectML feature level history](/windows/win32/direct3d12/dml-feature-level-history)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [DirectML feature level history](/windows/ai/directml/dml-feature-level-history)

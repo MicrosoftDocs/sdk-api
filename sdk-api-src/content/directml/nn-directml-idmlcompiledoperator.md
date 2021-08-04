@@ -77,6 +77,6 @@ All methods on this interface are thread-safe.
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)
 
 [IDMLDispatchable](/windows/win32/api/directml/nn-directml-idmldispatchable)

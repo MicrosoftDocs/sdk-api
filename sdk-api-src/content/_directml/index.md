@@ -18,4 +18,4 @@ To develop DirectML, you need these headers:
  * [directml.h](../directml/index.md)
  
 For programming guidance for this technology, see:
-* [DirectML](/windows/desktop/direct3d12/dml)
+* [DirectML](/windows/ai/directml/dml)

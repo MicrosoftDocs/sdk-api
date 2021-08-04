@@ -80,6 +80,6 @@ An optional pointer to a constant array of [DML_BINDING_DESC](/windows/win32/api
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
 <a href="/windows/win32/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>
