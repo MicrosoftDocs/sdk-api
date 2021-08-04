@@ -148,4 +148,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 ## -see-also
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

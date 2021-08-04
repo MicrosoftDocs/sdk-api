@@ -55,8 +55,6 @@ Indicates the level of support for sampler feedback.
 
 ## -remarks
 
-## Examples
-
 ## -see-also
 
 * [Mesh shader spec](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html)
