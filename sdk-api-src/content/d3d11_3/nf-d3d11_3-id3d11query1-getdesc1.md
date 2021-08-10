@@ -57,9 +57,9 @@ Gets a query description.
 
 ### -param pDesc1 [out]
 
-Type: <b><a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_query_desc1">D3D11_QUERY_DESC1</a>*</b>
 
-A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a> structure that receives a description of the query.
+A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-d3d11_query_desc1">D3D11_QUERY_DESC1</a> structure that receives a description of the query.
 
 ## -see-also
 
