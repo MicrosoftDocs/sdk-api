@@ -90,7 +90,7 @@ This method has a few restrictions designed for improving performance. For insta
           </li>
 <li>Can't be currently mapped.</li>
 </ul>
-<b>CopyResource</b> only supports copy; it doesn't support any stretch, color key, or blend. <b>CopyResource</b> can reinterpret the resource data between a few format types. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
+<b>CopyResource</b> only supports copy; it doesn't support any stretch, color key, or blend. To reinterpret the resource data between a few format types (see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>) use <b>CopyTextureRegion</b> instead.
         
 
 You can use a   <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">depth-stencil</a> resource as either a source or a destination. Resources created with multi-sampling capability (see <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc">DXGI_SAMPLE_DESC</a>) can be used as source and destination only if both source and destination have identical multi-sampled count and quality. If source and destination differ in multi-sampled count and quality or if one is multi-sampled and the other is not multi-sampled, the call to <b>CopyResource</b> fails. Use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ResolveSubresource</a> to resolve a multi-sampled resource to a resource that is not multi-sampled.
