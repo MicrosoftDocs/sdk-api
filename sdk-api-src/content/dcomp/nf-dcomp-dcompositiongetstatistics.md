@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - dcomp.h
+ - dcomp.dll
 api_name:
  - DCompositionGetStatistics
 f1_keywords:
