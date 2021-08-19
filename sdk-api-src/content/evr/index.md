@@ -6,7 +6,6 @@ ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: conceptual
 tech.root: mf
-archived: true
 f1_keywords:
  - evr
  - evr/evr
