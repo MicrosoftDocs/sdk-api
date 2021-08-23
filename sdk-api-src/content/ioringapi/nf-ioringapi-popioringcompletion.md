@@ -52,7 +52,7 @@ An **HIORING** representing a handle to the I/O ring from which an entry from th
 
 ### -param cqe
 
-Receives a pointer to an [IORING_CQE](ns-ioringapi-ioring_cqe.md) structure representing the completed queue entry.
+Pointer to an [IORING_CQE](ns-ioringapi-ioring_cqe.md) structure that will recieve the data for the completed queue entry.
 
 ## -returns
 
