@@ -84,7 +84,7 @@ This method has a few restrictions designed for improving performance. For insta
 <li>Must be the same type.</li>
 <li>Must be the same total size (bytes).</li>
 <li>Must have identical dimensions (width, height, depth) or be a compatible <a href="#reinterpret-copy">Reinterpret Copy</a>.</li>
-<li>Must have compatible <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to a DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types (see <a href="#reinterpret-copy">Reinterpret Copy</a>). 
+<li>Must have compatible <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI formats</a>, which means the formats must be identical or at least from the same type group. For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to a DXGI_FORMAT_R32G32B32_UINT texture since both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. <b>CopyResource</b> can copy between a few format types (see <a href="#reinterpret-copy">Reinterpret copy</a>). 
 </li>
 <li>Can't be currently mapped.</li>
 </ul>
@@ -99,7 +99,7 @@ The method is an asynchronous call, which may be added to the command-buffer que
 
 Consider using <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion">CopyTextureRegion</a> or <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion">CopyBufferRegion</a> if you only need to copy a portion of the data in a resource.
 
-### Reinterpret Copy
+### Reinterpret copy
 
 The following table lists the allowable source and destination formats that you can use in the reinterpretation type of format conversion. The underlying data values are not converted or compressed/decompressed and must be encoded properly for the reinterpretation to work as expected. For more info, see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">Format Conversion using Direct3D 10.1</a>.
 
@@ -107,7 +107,7 @@ For DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP the width and height must be equal (1 texe
 
 Block-compressed resource width and height must be 4 times the uncompressed resource width and height (16 texels per block).  For example, a uncompressed 256x256 DXGI\_FORMAT\_R32G32B32A32\_UINT texture will map to a 1024x1024 DXGI\_FORMAT\_BC5\_UNORM compressed texture.
 
-| Bit Width | Uncompressed Resource                                                                                                                                               | Block-Compressed Resource                                                                                                                                           | Width / Height Difference    |
+| Bit width | Uncompressed resource                                                                                                                                               | Block-compressed resource                                                                                                                                           | Width / height difference    |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
 | 32        | DXGI\_FORMAT\_R32\_UINT<br/> DXGI\_FORMAT\_R32\_SINT<br/>                                                                                               | DXGI\_FORMAT\_R9G9B9E5\_SHAREDEXP                                                                                                                                   | 1:1 |
 | 64        | DXGI\_FORMAT\_R16G16B16A16\_UINT<br/> DXGI\_FORMAT\_R16G16B16A16\_SINT<br/> DXGI\_FORMAT\_R32G32\_UINT<br/> DXGI\_FORMAT\_R32G32\_SINT<br/> | DXGI\_FORMAT\_BC1\_UNORM\[\_SRGB\]<br/> DXGI\_FORMAT\_BC4\_UNORM<br/> DXGI\_FORMAT\_BC4\_SNORM<br/>                                               | 1:4 |
