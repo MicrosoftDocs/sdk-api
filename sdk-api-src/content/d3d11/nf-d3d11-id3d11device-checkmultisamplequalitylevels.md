@@ -82,8 +82,8 @@ This method returns one of the following <a href="/windows/desktop/direct3d11/d3
 ## -remarks
 
 When multisampling a texture, the number of quality levels available for an adapter is dependent on the texture format used and the number of 
-      samples requested. The maximum number of quality levels is defined by D3D11_MAX_MULTISAMPLE_SAMPLE_COUNT in D3D11.h. If this method returns 0, the format 
-      and sample count combination is not supported for the installed adapter.
+      samples requested. The maximum number of quality levels is defined by D3D11_MAX_MULTISAMPLE_SAMPLE_COUNT in D3D11.h. If this method returns 0 (S_OK), the format 
+      and sample count combination is supported for the device. When the combination is not supported, this method returns a failed HRESULT code, i.e. a negative integer.
 
 Furthermore, the definition of a quality level is up to each hardware vendor to define, however no facility is provided by Direct3D to help discover 
       this information.
