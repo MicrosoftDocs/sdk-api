@@ -70,7 +70,7 @@ Mixed DPI hosting behavior. This enables the creation and re-parenting of child 
 
 <b>DPI_HOSTING_BEHAVIOR</b> enables a mixed content hosting behavior, which allows parent windows created in the thread to host child windows with a different <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value. This property only effects new windows created within this thread while the mixed hosting behavior is active. A parent window with this hosting behavior is able to host child windows with different <b>DPI_AWARENESS_CONTEXT</b> values, regardless of whether the child windows have mixed hosting behavior enabled.
 
-This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted until windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
+This hosting behavior does not allow for windows with per-monitor <b>DPI_AWARENESS_CONTEXT</b> values to be hosted by windows with <b>DPI_AWARENESS_CONTEXT</b> values of system or unaware.
 
 To avoid unexpected outcomes, a thread's <b>DPI_HOSTING_BEHAVIOR</b> should be changed to support mixed hosting behaviors only when creating a new window which needs to support those behaviors. Once that window is created, the hosting behavior should be switched back to its default value.
 
