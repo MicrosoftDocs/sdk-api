@@ -52,7 +52,7 @@ api_name:
 
 Identifies dots per inch (dpi) awareness values. DPI awareness indicates how much scaling work an application performs for DPI versus how much is done by the system.
 
-Users have the ability to set the DPI scale factor on their displays independent of each other. Some legacy applications are not able to adjust their scaling for multiple DPI settings. In order for users to use these applications without content appearing too large or small on displays, Windows can apply DPI virtualization to an application, causing it to be automatically be scaled by the system to match the DPI of the current display. The <b>PROCESS_DPI_AWARENESS</b> value indicates what level of scaling your application handles on its own and how much is provided by Windows. Keep in mind that applications scaled by the system may appear blurry and will read virtualized data about the monitor to maintain compatibility.
+Users have the ability to set the DPI scale factor on their displays independent of each other. Some legacy applications are not able to adjust their scaling for multiple DPI settings. In order for users to use these applications without content appearing too large or small on displays, Windows can apply DPI virtualization to an application, causing it to be automatically scaled by the system to match the DPI of the current display. The <b>PROCESS_DPI_AWARENESS</b> value indicates what level of scaling your application handles on its own and how much is provided by Windows. Keep in mind that applications scaled by the system may appear blurry and will read virtualized data about the monitor to maintain compatibility.
 
 ## -enum-fields
 
