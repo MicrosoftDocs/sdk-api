@@ -52,6 +52,8 @@ api_name:
 
 Gets a debug interface.
 
+Use [D3D12GetInterface](nf-d3d12-d3d12getinterface.md) to directly access newer interfaces, especially downlevel.
+
 ## -parameters
 
 ### -param riid [in]

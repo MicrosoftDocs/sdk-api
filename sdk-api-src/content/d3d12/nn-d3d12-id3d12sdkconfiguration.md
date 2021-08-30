@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Provides SDK configuration methods. A pointer to this interface can be retrieved by calling the [D3D12GetInterface](nf-d3d12-d3d12getinterface.md) free function.
+Provides SDK configuration methods. A pointer to this interface can be retrieved by calling the [D3D12GetInterface](nf-d3d12-d3d12getinterface.md) free function with the **CLSID_D3D12SDKConfiguration** CLSID.
 
 ## -remarks
 
