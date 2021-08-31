@@ -128,6 +128,8 @@ Shortcuts should not be treated as their target items. This allows an applicatio
 
 ### -field FOS_OKBUTTONNEEDSINTERACTION
 
+The OK button will be disabled until the user navigates the view or edits the filename (if applicable). Note: Disabling of the OK button does not prevent the dialog from being submitted by the Enter key.
+
 ### -field FOS_DONTADDTORECENT
 
 Do not add the item being opened or saved to the recent documents list (<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>).
