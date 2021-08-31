@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsPrefixA
 title: PathIsPrefixA function (shlwapi.h)
-description: Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types:\_&quot;C:\\&quot;, &quot;.&quot;, &quot;..&quot;, &quot;..\\&quot;.
+description: Examines a path to determine if it starts with a prefix value passed by pszPrefix.
 helpviewer_keywords: ["PathIsPrefix","PathIsPrefix function [Windows Shell]","PathIsPrefixA","PathIsPrefixW","_win32_PathIsPrefix","shell.PathIsPrefix","shlwapi/PathIsPrefix","shlwapi/PathIsPrefixA","shlwapi/PathIsPrefixW"]
 old-location: shell\PathIsPrefix.htm
 tech.root: shell
@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Searches a path to determine if it contains a valid prefix of the type passed by <i>pszPrefix</i>. A prefix is one of these types: "C:\\", ".", "..", "..\\".
+Examines a path to determine if it starts with <i>pszPrefix</i>.
 
 ## -parameters
 
@@ -64,19 +64,19 @@ Searches a path to determine if it contains a valid prefix of the type passed by
 
 Type: <b>IN LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the prefix for which to search.
+A pointer to a null-terminated string of maximum length MAX_PATH that contains the prefix to match.
 
 ### -param pszPath [in]
 
 Type: <b>IN LPCTSTR</b>
 
-A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be searched.
+A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be examined.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if the compared path is the full prefix for the path, or <b>FALSE</b> otherwise.
+Returns <b>TRUE</b> if <i>pszPath</i> starts with <i>pszPrefix</i>, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
