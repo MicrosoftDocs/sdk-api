@@ -47,4 +47,6 @@ Provides SDK configuration methods. A pointer to this interface can be retrieved
 
 ## -remarks
 
+Tools that play back API capture such as PIX, and test harnesses such as the HLK, require modification to support the redist. Such tools can choose to ship with the latest redist. Direct3D's API compatibility through updates should mean that an API capture tool can capture on an older version of the Direct3D 12 SDK, and play it back on the newer version. However, some scenarios require more flexibility in selecting the SDK version.
+
 ## -see-also
