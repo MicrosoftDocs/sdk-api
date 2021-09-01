@@ -56,11 +56,11 @@ Describes query data for stream output.
 
 ### -field NumPrimitivesWritten
 
-Specifies the number of primitives written.
+Specifies the number of primitives actually written to the stream output resource.
 
 ### -field PrimitivesStorageNeeded
 
-Specifies the total amount of storage needed by the primitives.
+Specifies the total amount of storage needed by all the primitives that would have been written to the stream output resource if it was big enough to do so.
 
 ## -remarks
 
