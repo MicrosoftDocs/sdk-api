@@ -60,7 +60,7 @@ The number of primitives (that is, points, lines, and triangles) that were actua
 
 Type: **[UINT64](/windows/win32/winprog/windows-data-types)**
 
-If the stream output resource is large enough, then *PrimitivesStorageNeeded* represents the total amount of storage occupied by all of the primitives written to the stream output resource. Otherwise, it represents the total amount of storage that *would* have been written to the stream-output resource had there been enough space for it all.
+If the stream output resource is large enough, then *PrimitivesStorageNeeded* represents the total number of primitives written to the stream output resource. Otherwise, it represents the total number of primitives that *would* have been written to the stream-output resource had there been enough space for them all.
 
 ## -remarks
 
