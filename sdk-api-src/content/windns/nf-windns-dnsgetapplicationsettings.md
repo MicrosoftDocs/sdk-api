@@ -1,6 +1,6 @@
 ---
-UID: NF:windns.DnsSetApplicationSettings
-title: DnsSetApplicationSettings
+UID: NF:windns.DnsGetApplicationSettings
+title: DnsGetApplicationSettings
 description: Retrieves the per-application DNS settings.
 tech.root: DNS
 ms.date: 09/01/2021
@@ -26,8 +26,8 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 f1_keywords:
- - DnsSetApplicationSettings
- - windns/DnsSetApplicationSettings
+ - DnsGetApplicationSettings
+ - windns/DnsGetApplicationSettings
 dev_langs:
  - c++
 topic_type:
@@ -38,7 +38,7 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
- - DnsSetApplicationSettings
+ - DnsGetApplicationSettings
 prerelease: true
 ---
 
