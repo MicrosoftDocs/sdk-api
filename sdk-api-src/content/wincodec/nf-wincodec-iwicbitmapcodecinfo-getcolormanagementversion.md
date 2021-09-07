@@ -1,7 +1,7 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetColorManagementVersion
 title: IWICBitmapCodecInfo::GetColorManagementVersion (wincodec.h)
-description: Retrieves the color manangement version number the codec supports.
+description: Retrieves the color management version number the codec supports.
 helpviewer_keywords: ["GetColorManagementVersion","GetColorManagementVersion method [Windows Imaging Component]","GetColorManagementVersion method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetColorManagementVersion method","IWICBitmapCodecInfo.GetColorManagementVersion","IWICBitmapCodecInfo::GetColorManagementVersion","_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion","wincodec/IWICBitmapCodecInfo::GetColorManagementVersion"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm
 tech.root: wic
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the color manangement version number the codec supports.
+Retrieves the color management version number the codec supports.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ The actual buffer size needed to retrieve the full color management version numb
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

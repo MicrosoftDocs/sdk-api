@@ -54,7 +54,7 @@ The <b>IWiaItemExtras</b> interface provides several methods that enable applica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaItemExtras</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaItemExtras</b> also has these types of members:
+The <b>IWiaItemExtras</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaItemExtras</b> also has these types of members:
 
 ## -remarks
 

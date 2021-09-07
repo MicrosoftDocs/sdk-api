@@ -57,7 +57,7 @@ This notification interface signals an application about the arrival and removal
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnConnectionProfileManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfileManagerEvents</b> also has these types of members:
+The <b>IMbnConnectionProfileManagerEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnConnectionProfileManagerEvents</b> also has these types of members:
 
 ## -remarks
 

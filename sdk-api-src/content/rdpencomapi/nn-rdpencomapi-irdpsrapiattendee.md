@@ -61,7 +61,7 @@ Attendee objects are created as a result of clients connecting to the session an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAttendee</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
+The <b>IRDPSRAPIAttendee</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
 
 ## -remarks
 

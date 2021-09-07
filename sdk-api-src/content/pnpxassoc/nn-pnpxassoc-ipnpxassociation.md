@@ -56,7 +56,7 @@ Defines methods to manage the association database entries for  PnP-X devices. .
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPNPXAssociation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
+The <b>IPNPXAssociation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPNPXAssociation</b> also has these types of members:
 
 ## -remarks
 

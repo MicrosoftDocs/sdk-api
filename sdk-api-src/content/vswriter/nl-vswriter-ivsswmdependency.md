@@ -71,5 +71,5 @@ Note that a dependency does not indicate an order of preference between the comp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssWMDependency</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssWMDependency</b> also has these types of members:
+The <b>IVssWMDependency</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssWMDependency</b> also has these types of members:
 

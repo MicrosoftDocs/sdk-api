@@ -111,10 +111,10 @@ Optional security descriptor describing which clients have the right to access t
 ## -remarks
 
 To register an interface, the server provides the following information:<ul>
-<li>Interface specificationThe interface specification is a data structure that the MIDL compiler generates.
+<li>Interface specification The interface specification is a data structure that the MIDL compiler generates.
 
 </li>
-<li>Manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and manager EPVThe manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
+<li>Manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and manager EPV The manager type <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> and the manager EPV determine which manager routine executes when a server receives a remote procedure call request from a client. For each implementation of an interface offered by a server, it must register a separate manager EPV.
 Note that when specifying a non-nil, manager type <b>UUID</b>, the server must also call <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a> to register objects of this non-nil type.
 
 </li>

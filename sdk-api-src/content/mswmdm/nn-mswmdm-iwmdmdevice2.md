@@ -54,7 +54,7 @@ The <b>IWMDMDevice2</b> interface extends <a href="/windows/desktop/api/mswmdm/n
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a>. <b>IWMDMDevice2</b> also has these types of members:
+The <b>IWMDMDevice2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice</a>. <b>IWMDMDevice2</b> also has these types of members:
 
 ## -see-also
 

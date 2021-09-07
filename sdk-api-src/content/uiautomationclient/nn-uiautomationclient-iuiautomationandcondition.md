@@ -54,7 +54,7 @@ Exposes properties and methods that Microsoft UI Automation client applications 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationAndCondition</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationAndCondition</b> also has these types of members:
+The <b>IUIAutomationAndCondition</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationAndCondition</b> also has these types of members:
 
 ## -see-also
 

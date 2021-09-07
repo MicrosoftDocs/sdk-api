@@ -54,5 +54,5 @@ These three methods allow additional interfaces to be added to the DirectInputEf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectInputEffectDriver</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectInputEffectDriver</b> also has these types of members:
+The <b>IDirectInputEffectDriver</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectInputEffectDriver</b> also has these types of members:
 

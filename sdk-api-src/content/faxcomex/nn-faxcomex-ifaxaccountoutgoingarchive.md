@@ -56,7 +56,7 @@ A default implementation of <b>IFaxAccountOutgoingArchive</b> is provided as the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccountOutgoingArchive</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingArchive</b> also has these types of members:
+The <b>IFaxAccountOutgoingArchive</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccountOutgoingArchive</b> also has these types of members:
 
 ## -see-also
 

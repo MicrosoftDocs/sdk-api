@@ -56,7 +56,7 @@ The <b>CM_Is_Dock_Station_Present</b> function identifies whether a <a href="/wi
 
 ### -param pbPresent [out]
 
-Pointer to a Boolean value that indicates whether a docking station is present in a local machine. The function sets *<i>pbPresen</i>t to <b>TRUE</b> if a docking station is present. Otherwise, the function sets *<i>pbPresen</i>t to <b>FALSE</b>.
+Pointer to a Boolean value that indicates whether a docking station is present in a local machine. The function sets *<i>pbPresent</i> to <b>TRUE</b> if a docking station is present. Otherwise, the function sets *<i>pbPresent</i> to <b>FALSE</b>.
 
 ## -returns
 

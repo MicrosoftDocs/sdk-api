@@ -53,7 +53,7 @@ api_name:
 A <a href="/previous-versions/ms536243(v=vs.85)">Color</a> object stores a 32-bit value that represents a color. The color value contains four, 8-bit components: alpha, red, green, and blue. The first 8 bits (the most significant) contain the alpha component, the next 8 bits contain the red component, the next 8 bits contain the green component, and the next 8 bits (the least significant) contain the blue component. The 32-bit value is stored in a variable of type 
 			<b>ARGB</b>.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">Color</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>Color</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -198,7 +198,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">C
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method uses a GDI<b>COLORREF</b> value to set the <b>ARGB</b> value of this <b>Color</b> object.
+The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a> method uses a GDI <b>COLORREF</b> value to set the <b>ARGB</b> value of this <b>Color</b> object.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setvalue">C
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a>
 </td>
 <td align="left" width="63%">
-The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a> method converts this <b>Color</b> object's <b>ARGB</b> value to a GDI<b>COLORREF</b> value.
+The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a> method converts this <b>Color</b> object's <b>ARGB</b> value to a GDI <b>COLORREF</b> value.
 
 </td>
 </tr>

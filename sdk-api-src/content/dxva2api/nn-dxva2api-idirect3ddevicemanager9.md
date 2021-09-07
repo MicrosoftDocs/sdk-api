@@ -54,7 +54,7 @@ Enables two threads to share the same Direct3D 9 device, and provides access to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDeviceManager9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDeviceManager9</b> also has these types of members:
+The <b>IDirect3DDeviceManager9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDeviceManager9</b> also has these types of members:
 
 ## -remarks
 

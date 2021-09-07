@@ -54,7 +54,7 @@ Exposes a method that initializes a handler, such as a property handler, thumbna
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeWithPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithPropertyStore</b> also has these types of members:
+The <b>IInitializeWithPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithPropertyStore</b> also has these types of members:
 
 ## -remarks
 

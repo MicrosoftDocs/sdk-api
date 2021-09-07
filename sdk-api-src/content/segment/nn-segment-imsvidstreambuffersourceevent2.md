@@ -57,7 +57,7 @@ The <b>IMSVidStreamBufferSourceEvent2</b> interface is used to receive events fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
+The <b>IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

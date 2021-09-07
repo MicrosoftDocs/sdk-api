@@ -65,11 +65,11 @@ Receives a pointer to the
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The value calculated in this method is a factor in determining limitations on <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>output size. This method should return 0 for containers if the protocol implementation is for a hierarchical content source.
+The value calculated in this method is a factor in determining limitations on <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> output size. This method should return 0 for containers if the protocol implementation is for a hierarchical content source.
             
 
 Implement this method for non-files by returning the size of the document to be indexed. For example, to index a database where each row is a document, return the best estimate of the size of the row.

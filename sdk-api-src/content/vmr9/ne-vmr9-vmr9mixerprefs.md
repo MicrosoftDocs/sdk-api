@@ -118,7 +118,7 @@ Reserved for future use.
 
 ### -field MixerPref9_RenderTargetMask
 
-Bitmaks to isolate flags that control the render target. (This value is not a valid flag.)
+Bitmask to isolate flags that control the render target. (This value is not a valid flag.)
 
 ### -field MixerPref9_DynamicSwitchToBOB
 

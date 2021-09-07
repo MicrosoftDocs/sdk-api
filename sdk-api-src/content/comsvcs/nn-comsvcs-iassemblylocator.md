@@ -54,5 +54,5 @@ Retrieves information about an assembly when using managed code in the .NET Fram
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssemblyLocator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAssemblyLocator</b> also has these types of members:
+The <b>IAssemblyLocator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAssemblyLocator</b> also has these types of members:
 

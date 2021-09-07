@@ -118,6 +118,7 @@ if (bSuccess)
 
         // Free the array.
         free(pPhysicalMonitors);
+    }
 }
 
 ```

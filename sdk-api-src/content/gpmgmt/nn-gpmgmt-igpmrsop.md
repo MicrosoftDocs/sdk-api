@@ -59,7 +59,7 @@ To create a  <b>GPMRSOP</b> object, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMRSOP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMRSOP</b> also has these types of members:
+The <b>IGPMRSOP</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPMRSOP</b> also has these types of members:
 
 ## -remarks
 

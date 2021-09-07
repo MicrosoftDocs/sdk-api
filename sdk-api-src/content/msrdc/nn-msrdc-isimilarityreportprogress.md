@@ -54,7 +54,7 @@ Defines a method for RDC to report the current completion percentage of a simila
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityReportProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityReportProgress</b> also has these types of members:
+The <b>ISimilarityReportProgress</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityReportProgress</b> also has these types of members:
 
 ## -see-also
 

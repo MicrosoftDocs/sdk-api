@@ -52,7 +52,7 @@ api_name:
 
 A <a href="/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CharacterRange</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>CharacterRange</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>

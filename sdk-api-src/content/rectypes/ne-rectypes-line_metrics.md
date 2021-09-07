@@ -70,7 +70,7 @@ Requests ascender metrics. For an example that shows the ascender line of a segm
 
 ### -field LM_DESCENDER
 
-Requests descender metrics. For an example that shows the decender line of a segment, see the Remarks section.
+Requests descender metrics. For an example that shows the descender line of a segment, see the Remarks section.
 
 ## -remarks
 

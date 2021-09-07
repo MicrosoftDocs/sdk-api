@@ -55,7 +55,7 @@ Represents a virtual adapter. This interface extends <a href="/windows/desktop/a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Device3</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>. <b>ID3D12Device3</b> also has these types of members:
+The <b>ID3D12Device3</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device2">ID3D12Device2</a>. <b>ID3D12Device3</b> also has these types of members:
 
 ## -remarks
 

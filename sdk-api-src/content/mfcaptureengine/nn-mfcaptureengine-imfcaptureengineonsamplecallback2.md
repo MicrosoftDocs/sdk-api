@@ -54,7 +54,7 @@ Extensions for the <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureeng
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngineOnSampleCallback2</b> interface inherits from <b>IMFCaptureEngineOnSampleCallback</b>. <b>IMFCaptureEngineOnSampleCallback2</b> also has these types of members:
+The <b>IMFCaptureEngineOnSampleCallback2</b> interface inherits from <b>IMFCaptureEngineOnSampleCallback</b>. <b>IMFCaptureEngineOnSampleCallback2</b> also has these types of members:
 
 ## -see-also
 

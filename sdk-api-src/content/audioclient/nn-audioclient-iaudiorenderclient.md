@@ -69,7 +69,7 @@ For code examples that use the <b>IAudioRenderClient</b> interface, see the foll
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioRenderClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioRenderClient</b> also has these types of members:
+The <b>IAudioRenderClient</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioRenderClient</b> also has these types of members:
 
 ## -see-also
 

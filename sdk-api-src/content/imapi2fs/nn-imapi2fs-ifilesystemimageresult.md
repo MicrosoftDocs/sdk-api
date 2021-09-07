@@ -56,7 +56,7 @@ To get this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImageResult</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImageResult</b> also has these types of members:
+The <b>IFileSystemImageResult</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImageResult</b> also has these types of members:
 
 ## -remarks
 

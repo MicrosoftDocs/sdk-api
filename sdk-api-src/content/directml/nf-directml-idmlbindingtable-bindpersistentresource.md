@@ -74,6 +74,6 @@ An optional pointer to a [DML_BINDING_DESC](/windows/win32/api/directml/ns-direc
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>
 
 [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlbindingtable)

@@ -54,7 +54,7 @@ The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
+The <b>IAzObjectPicker</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
 
 ## -remarks
 

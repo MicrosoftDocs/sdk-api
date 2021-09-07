@@ -238,7 +238,7 @@ The
 <b>REMOTE_NAME_INFO</b> structure's <b>lpszConnectionInfo</b> member to the 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function to connect a local device to the network resource. Then the process can append the string pointed to by the <b>lpszRemainingPath</b> member to the local device string. The resulting string can be passed to functions that require a drive-based path.
 
-The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hieracrchy of folders, or a file that does not currently exist. The
+The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hierarchy of folders, or a file that does not currently exist. The
 				<b>WNetGetUniversalName</b> function returns a more universal form of the name in these cases.
 
 The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified in the <i>lpBufferSize</i> parameter must be much larger than the size of the <a href="/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> 

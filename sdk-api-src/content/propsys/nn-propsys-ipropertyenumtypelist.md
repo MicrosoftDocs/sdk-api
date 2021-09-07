@@ -54,5 +54,5 @@ Exposes methods that enumerate the possible values for a property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumTypeList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumTypeList</b> also has these types of members:
+The <b>IPropertyEnumTypeList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumTypeList</b> also has these types of members:
 

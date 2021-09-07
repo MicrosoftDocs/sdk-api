@@ -186,7 +186,7 @@ Identifies an RSA asymmetric algorithm combined with an MD5 hashing algorithm.
 
 (1.2.840.113549.1.3.1)
 
-Identifies an Diffie-Hellman key exchange algorithm.
+Identifies a Diffie-Hellman key exchange algorithm.
 
 ### -field XCN_OID_RSA_data
 

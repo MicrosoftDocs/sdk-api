@@ -59,7 +59,7 @@ Returns the properties of a controller.
 
 ### -param pControllerProp [out]
 
-The address of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>structure allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b> and <b>pwszIdentification</b> member strings. Callers must free the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The address of a <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a> structure allocated and passed in by the caller. VDS allocates memory for the <b>pwszFriendlyName</b> and <b>pwszIdentification</b> member strings. Callers must free the strings by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 

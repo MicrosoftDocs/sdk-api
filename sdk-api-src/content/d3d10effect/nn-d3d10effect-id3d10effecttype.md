@@ -100,7 +100,7 @@ Get a member type by index.
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
-Get an member type by name.
+Get a member type by name.
 
 </td>
 </tr>

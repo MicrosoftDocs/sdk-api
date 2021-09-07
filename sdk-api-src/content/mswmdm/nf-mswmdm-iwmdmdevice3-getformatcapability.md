@@ -88,7 +88,7 @@ The following function is passed a device pointer and a format code, and retriev
 
 ```cpp
 
-// Each format configuration is described by an WMDM_FORMAT_CAPABILITY enum, and
+// Each format configuration is described by a WMDM_FORMAT_CAPABILITY enum, and
 // has a WMDM_FORMAT_CAPABILITY structure describing the device capabilities for that format.
 //        Each WMDM_FORMAT_CAPABILITY structure has a WMDM_PROP_CONFIG structure listing configurations.
 //            Each WMDM_PROP_CONFIG has a WMDM_PROP_DESC describing a specific format configuration.

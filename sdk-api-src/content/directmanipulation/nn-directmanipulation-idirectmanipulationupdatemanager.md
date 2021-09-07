@@ -56,7 +56,7 @@ This interface enables the compositor to trigger an update on <a href="/previous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationUpdateManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationUpdateManager</b> also has these types of members:
+The <b>IDirectManipulationUpdateManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationUpdateManager</b> also has these types of members:
 
 ## -see-also
 

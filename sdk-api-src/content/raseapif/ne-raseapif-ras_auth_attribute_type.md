@@ -327,7 +327,7 @@ Specifies a value to enable the identification of matching start and stop record
 ### -field raatAcctAuthentic
 
 Specifies, to the accounting provider, how the user was authenticated; for example by Windows 2000 Directory Services, RADIUS, or some other authentication provider. The value field in 
-<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a>for this type is a 32-bit integral value. For more information, see 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ras_auth_attribute">RAS_AUTH_ATTRIBUTE</a> for this type is a 32-bit integral value. For more information, see 
 <a href="https://www.ietf.org/rfc/rfc2866.txt">RFC 2866</a>.
 
 ### -field raatAcctSessionTime

@@ -56,5 +56,5 @@ This interface is available in C++ only.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
+The <b>IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
 

@@ -72,7 +72,7 @@ Indicates the event that caused the notification. This parameter can be one of t
 
 #### CHANNEL_EVENT_INITIALIZED (0)
 
-The Remote Desktop Connection (RDC) client initialization has been completed. The <i>pData</i>parameter is <b>NULL</b>.
+The Remote Desktop Connection (RDC) client initialization has been completed. The <i>pData</i> parameter is <b>NULL</b>.
 
 
 

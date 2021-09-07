@@ -101,11 +101,11 @@ The returned array of justified glyph offsets.
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-You call  <b>JustifyGlyphAdvances</b> after you call <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a> to collect all the opportunities, and <b>JustifyGlyphAdvances</b>spans across the entire line. The input and output arrays are allowed
+You call  <b>JustifyGlyphAdvances</b> after you call <a href="/windows/win32/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a> to collect all the opportunities, and <b>JustifyGlyphAdvances</b> spans across the entire line. The input and output arrays are allowed
     to alias each other, permitting in-place update.
 
 ## -see-also

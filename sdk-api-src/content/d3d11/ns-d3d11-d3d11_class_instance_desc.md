@@ -106,7 +106,7 @@ True if the class was created; the default value is false.
 
 The D3D11_CLASS_INSTANCE_DESC structure is returned by the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11classinstance-getdesc">ID3D11ClassInstance::GetDesc</a> method.
 
-The members of this structure except <b>InstanceIndex</b> are valid (non default values) if they describe a class instance aquired using  <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-createclassinstance">ID3D11ClassLinkage::CreateClassInstance</a>.  The <b>InstanceIndex</b> member is only valid when the class instance is aquired using <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-getclassinstance">ID3D11ClassLinkage::GetClassInstance</a>.
+The members of this structure except <b>InstanceIndex</b> are valid (non default values) if they describe a class instance acquired using  <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-createclassinstance">ID3D11ClassLinkage::CreateClassInstance</a>.  The <b>InstanceIndex</b> member is only valid when the class instance is aquired using <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11classlinkage-getclassinstance">ID3D11ClassLinkage::GetClassInstance</a>.
 
 ## -see-also
 

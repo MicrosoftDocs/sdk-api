@@ -77,7 +77,7 @@ Prevents multiple threads from being created. When this flag is used with a WARP
 ### -field D3D10_CREATE_DEVICE_ALLOW_NULL_FROM_MAP
 
 Return a <b>NULL</b> pointer instead of triggering an exception on memory exhaustion during invocations to Map.  
-        Without this flag an exception will be raised on memory exhaustion.  Only valid on Winodws 7.
+        Without this flag an exception will be raised on memory exhaustion.  Only valid on Windows 7.
 
 ### -field D3D10_CREATE_DEVICE_BGRA_SUPPORT
 

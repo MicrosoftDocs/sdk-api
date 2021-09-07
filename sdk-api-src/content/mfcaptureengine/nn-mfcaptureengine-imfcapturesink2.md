@@ -54,7 +54,7 @@ Extends the <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSink2</b> interface inherits from <b>IMFCaptureSink</b>. <b>IMFCaptureSink2</b> also has these types of members:
+The <b>IMFCaptureSink2</b> interface inherits from <b>IMFCaptureSink</b>. <b>IMFCaptureSink2</b> also has these types of members:
 
 ## -see-also
 

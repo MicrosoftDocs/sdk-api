@@ -1,7 +1,7 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RegisterForEvent
 title: ISyncProviderRegistration::RegisterForEvent (syncregistration.h)
-description: Registers the user to receive notification of the arrival of new registration events that oocur when changes are made to the registration store.
+description: Registers the user to receive notification of the arrival of new registration events that occur when changes are made to the registration store.
 helpviewer_keywords: ["ISyncProviderRegistration interface [Windows Sync]","RegisterForEvent method","ISyncProviderRegistration.RegisterForEvent","ISyncProviderRegistration::RegisterForEvent","RegisterForEvent","RegisterForEvent method [Windows Sync]","RegisterForEvent method [Windows Sync]","ISyncProviderRegistration interface","syncregistration/ISyncProviderRegistration::RegisterForEvent","winsync.isyncproviderregistration_registerforevent"]
 old-location: winsync\isyncproviderregistration_registerforevent.htm
 tech.root: winsync
@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Registers the user to receive notification of the arrival of new registration
-		events that oocur when changes are made to the registration store.
+		events that occur when changes are made to the registration store.
 
 ## -parameters
 

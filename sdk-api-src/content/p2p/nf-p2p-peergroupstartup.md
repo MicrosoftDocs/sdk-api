@@ -126,7 +126,7 @@ The   <a href="/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Re
 
 This function is called by the application before calling any other Peer Grouping function.
 
-For this release, applications should use <b>PEER_GROUP_VERSION</b>as the requested version.
+For this release, applications should use <b>PEER_GROUP_VERSION</b> as the requested version.
 
 A peer group started with this function is closed by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergroupshutdown">PeerGroupShutdown</a> when the application terminates.
 

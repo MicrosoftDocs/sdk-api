@@ -151,4 +151,4 @@ The default value is <b>TRUE</b>.
                 
 
 Setting this value to <b>FALSE</b> may cause an application to use
-                    an address returned from <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a>that is from a host that it is not willing to accept metadata from.
+                    an address returned from <a href="/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a> that is from a host that it is not willing to accept metadata from.

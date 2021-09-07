@@ -54,5 +54,5 @@ Exposes methods that reports completion to and gets wait time from the Remote De
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGenericNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
+The <b>ITsSbGenericNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGenericNotifySink</b> also has these types of members:
 

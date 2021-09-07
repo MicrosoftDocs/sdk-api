@@ -56,5 +56,5 @@ Use the <b>IEnumBackgroundCopyJobs1</b> interface to enumerate the list of jobs 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumBackgroundCopyJobs1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs1</b> also has these types of members:
+The <b>IEnumBackgroundCopyJobs1</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumBackgroundCopyJobs1</b> also has these types of members:
 

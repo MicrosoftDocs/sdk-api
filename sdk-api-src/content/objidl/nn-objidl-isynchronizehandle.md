@@ -54,7 +54,7 @@ Retrieves a handle associated with a synchronization object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeHandle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
+The <b>ISynchronizeHandle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
 
 ## -see-also
 

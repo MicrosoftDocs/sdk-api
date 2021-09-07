@@ -57,7 +57,7 @@ The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source loc
 
 ### -param pBmpParms [in]
 
-A oointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
+A pointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
 
 ## -returns
 

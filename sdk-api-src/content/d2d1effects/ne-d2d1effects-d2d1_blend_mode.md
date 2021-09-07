@@ -58,7 +58,7 @@ The blend mode used for the <a href="/windows/desktop/Direct2D/blend">Blend effe
 
 Basic blend formula for alpha only. 
 
-<img alt="Mathematical formula for a mutiply effect." src="./images/blend_mode_multiply_1.png"/>
+<img alt="Mathematical formula for a multiply effect." src="./images/blend_mode_multiply_1.png"/>
 
 ### -field D2D1_BLEND_MODE_SCREEN
 
@@ -105,7 +105,7 @@ Basic blend formulas with <i>f</i>(F<sub>RGB</sub>, B<sub>RGB</sub>) =
 
 Basic blend formula for alpha only. 
 
-<img alt="Mathematical formla for a darken color effect." src="./images/blend_mode_darkencolor_1.png"/>
+<img alt="Mathematical formula for a darken color effect." src="./images/blend_mode_darkencolor_1.png"/>
 
 ### -field D2D1_BLEND_MODE_LIGHTER_COLOR
 
@@ -185,7 +185,7 @@ Basic blend formula for alpha only.
 
 Basic blend formula for alpha only. 
 
-<img alt="Mathematical formula for a sturation blend effect." src="./images/blend_mode_saturation_1.png"/>
+<img alt="Mathematical formula for a saturation blend effect." src="./images/blend_mode_saturation_1.png"/>
 
 ### -field D2D1_BLEND_MODE_COLOR
 

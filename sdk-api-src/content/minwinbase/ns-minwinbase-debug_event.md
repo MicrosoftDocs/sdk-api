@@ -76,7 +76,7 @@ The code that identifies the type of debugging event. This member can be one of 
 </dl>
 </td>
 <td width="60%">
-Reports a create-process debugging event (includes both a process and it's main thread). The value of <b>u.CreateProcessInfo</b> 
+Reports a create-process debugging event (includes both a process and its main thread). The value of <b>u.CreateProcessInfo</b> 
         specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-create_process_debug_info">CREATE_PROCESS_DEBUG_INFO</a> 
         structure.
 </td>

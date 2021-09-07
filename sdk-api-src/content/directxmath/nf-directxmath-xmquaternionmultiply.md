@@ -74,7 +74,7 @@ The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quate
 The result represents the rotation Q1 followed by the rotation Q2 to be consistent with XMMatrixMulplity 
     concatenation since this function is typically used to concatenate quaternions that represent rotations (i.e. it returns Q2*Q1).
 
-This function computes the equivalent to the following pseduo-code:
+This function computes the equivalent to the following pseudo-code:
 
 
 ```

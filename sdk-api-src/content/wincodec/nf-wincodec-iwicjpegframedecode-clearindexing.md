@@ -58,7 +58,7 @@ Removes the indexing from a JPEG that has been indexed using <a href="/windows/d
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns S_OK upons successful completion.
+Returns S_OK upon successful completion.
 
 ## -see-also
 

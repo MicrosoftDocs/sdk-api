@@ -54,7 +54,7 @@ Provides a direct channel of communication between an in-place object and the as
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceActiveObject</b> interface inherits from <b>IOleWindow</b>. <b>IOleInPlaceActiveObject</b> also has these types of members:
+The <b>IOleInPlaceActiveObject</b> interface inherits from <b>IOleWindow</b>. <b>IOleInPlaceActiveObject</b> also has these types of members:
 
 ## -see-also
 

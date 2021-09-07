@@ -64,7 +64,7 @@ The number of cryptographic key-exchange types that are supported by the driver.
 
 ### -field BlockAlignmentSize
 
-The encyrption block size, in bytes. The size of data to be encrypted must be a multiple of this value.
+The encryption block size, in bytes. The size of data to be encrypted must be a multiple of this value.
 
 ### -field ProtectedMemorySize
 

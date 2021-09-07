@@ -60,7 +60,7 @@ Address of the data to load.
 
 ## -returns
 
-Returns an <code>XMVECTORI</code> loaded with the data from the <i>pSource</i>parameter.
+Returns an <code>XMVECTORI</code> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 

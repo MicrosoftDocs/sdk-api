@@ -77,5 +77,5 @@ Indicates whether or not background processing is supported. `true` if backgroun
 
 ## -see-also
 
-[Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs), [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html)
-
+* [Variable-rate shading (VRS)](/windows/desktop/direct3d12/vrs)
+* [Direct3D 12 background processing spec](https://microsoft.github.io/DirectX-Specs/d3d/BackgroundProcessing.html)

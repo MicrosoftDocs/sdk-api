@@ -81,7 +81,7 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncca
 
 ### -param punkState [in]
 
-A oointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
+A pointer to the <b>IUnknown</b> interface of a state object, defined by the caller. This parameter can be <b>NULL</b>. You can use this object to hold state information. The object is returned to the caller when the callback is invoked.
 
 ## -returns
 

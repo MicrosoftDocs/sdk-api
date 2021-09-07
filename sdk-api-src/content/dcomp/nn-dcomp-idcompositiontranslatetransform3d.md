@@ -54,7 +54,7 @@ Represents a 3D transformation that affects the offset of a visual along the x-a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTranslateTransform3D</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionTranslateTransform3D</b> also has these types of members:
+The <b>IDCompositionTranslateTransform3D</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionTranslateTransform3D</b> also has these types of members:
 
 ## -remarks
 

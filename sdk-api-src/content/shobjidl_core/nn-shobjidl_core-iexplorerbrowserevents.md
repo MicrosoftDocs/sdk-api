@@ -54,7 +54,7 @@ Exposes methods for notification of Explorer browser navigation and view creatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerBrowserEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowserEvents</b> also has these types of members:
+The <b>IExplorerBrowserEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerBrowserEvents</b> also has these types of members:
 
 ## -remarks
 

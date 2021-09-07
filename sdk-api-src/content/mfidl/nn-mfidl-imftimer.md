@@ -55,7 +55,7 @@ Provides a timer that invokes a callback at a specified time.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimer</b> also has these types of members:
+The <b>IMFTimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimer</b> also has these types of members:
 
 ## -remarks
 

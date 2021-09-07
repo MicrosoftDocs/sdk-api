@@ -54,7 +54,7 @@ Use this interface to receives notifications regarding the current file system i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DFileSystemImageImportEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
+The <b>DFileSystemImageImportEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DFileSystemImageImportEvents</b> also has these types of members:
 
 ## -remarks
 

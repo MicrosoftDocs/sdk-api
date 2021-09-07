@@ -54,7 +54,7 @@ Provides the implementation of a shared Microsoft DirectX surface which is displ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceNativeWithD2D</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceNativeWithD2D</b> also has these types of members:
+The <b>ISurfaceImageSourceNativeWithD2D</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceNativeWithD2D</b> also has these types of members:
 
 ## -remarks
 

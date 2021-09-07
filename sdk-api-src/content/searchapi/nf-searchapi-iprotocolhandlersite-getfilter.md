@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>according to the supplied parameters.
+Retrieves the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> according to the supplied parameters.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Retrieves the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter
 
 Type: <b>CLSID*</b>
 
-Pointer to the CLSID of the document type from the registry. This is used for items with embedded documents to indicate the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>to use for that embedded document.
+Pointer to the CLSID of the document type from the registry. This is used for items with embedded documents to indicate the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to use for that embedded document.
 
 ### -param pcwszContentType [in]
 
@@ -70,22 +70,22 @@ Pointer to a null-terminated Unicode string that contains the type of the docume
 
 Type: <b>LPCWSTR</b>
 
-Pointer to a null-terminated Unicode string that contains the file name extension, without the preceding period. This is used to retrieve <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>objects that are mapped according to the file name extension.
+Pointer to a null-terminated Unicode string that contains the file name extension, without the preceding period. This is used to retrieve <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> objects that are mapped according to the file name extension.
 
 ### -param ppFilter [out]
 
 Type: <b>IFilter**</b>
 
-Receives the address of a pointer to the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>that the protocol handler uses.
+Receives the address of a pointer to the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> that the protocol handler uses.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-This method queries the Filter Host to identify the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object to use for the URL item.
+This method queries the Filter Host to identify the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> object to use for the URL item.
 
 The choice of filter is based on the file name extension, a CLSID that identifies the file's content type in the registry, or on the MIME content type. You need to provide only one of the three parameters to this method. If you provide multiple parameters, they are tested in the following order: <i>pcwszContentType</i>, <i>pclsidObj</i>, <i>pcwszExtension</i>. The first valid parameter is used to select the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>; the others are ignored.

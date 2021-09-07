@@ -54,7 +54,7 @@ Issues drawing commands to a GDI device context.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DCRenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1DCRenderTarget</b> also has these types of members:
+The <b>ID2D1DCRenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1DCRenderTarget</b> also has these types of members:
 <ul>
 <li><a href="/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ In some cases, it might not be obvious that GDI is performing additional process
 
 Depending on the type of content being rendered, you might want to prevent the inversion. If the Direct2D content includes ClearType text, this inversion will degrade the quality of the text.
 
-You can control RTL rendering behavior by using the <a href="/windows/win32/api/wingdi/nf-wingdi-setlayout">SetLayout</a> GDI function.  To  prevent the mirroring, call the <b>SetLayout</b> GDI function and specify <b>LAYOUT_BITMAPORIENTATIONPRESERVED</b>as the only value for the second parameter (do not combine it with <b>LAYOUT_RTL</b>), as shown in the following example:
+You can control RTL rendering behavior by using the <a href="/windows/win32/api/wingdi/nf-wingdi-setlayout">SetLayout</a> GDI function.  To  prevent the mirroring, call the <b>SetLayout</b> GDI function and specify <b>LAYOUT_BITMAPORIENTATIONPRESERVED</b> as the only value for the second parameter (do not combine it with <b>LAYOUT_RTL</b>), as shown in the following example:
 
 
 ```cpp

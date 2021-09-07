@@ -69,7 +69,7 @@ These APIs configure the both the capture and sink side of the pipeline and put 
 
 Note that this functionality is an optional control for capture devices, so if the control is not available, the APIs above return an error.
 
-## -examples
+## Examples
 
 The following example demonstrates setting the [KSCAMERA_EXTENDEDPROP_VIDEOTORCH_ON](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-torchmode) flag and committing the setting.
 

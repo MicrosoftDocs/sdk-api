@@ -113,7 +113,7 @@ The size, in bytes,  of the reply buffer pointed to by the <i>ReplyBuffer</i> pa
 
 ### -param Timeout [in]
 
-The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i>parameter are not <b>NULL</b>.
+The time, in milliseconds, to wait for replies. This parameter is only used if the <b>Icmp6SendEcho2</b> function is called synchronously. So this parameter is not used if either the <i>ApcRoutine</i> or <i>Event</i> parameter are not <b>NULL</b>.
 
 ## -returns
 

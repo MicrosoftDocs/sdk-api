@@ -47,7 +47,7 @@ Indicates the level of support that the adapter provides for metacommands.
 
 Type: <b>[GUID](../guiddef/ns-guiddef-guid.md)</b>
 
-The fixed GUID that identfies the metacommand to query about.
+The fixed GUID that identifies the metacommand to query about.
 
 ### -field NodeMask
 

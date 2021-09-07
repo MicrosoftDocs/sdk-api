@@ -181,7 +181,7 @@ To compile offline shaders the recommend approach is to use the <a href="/window
 
 <ul>
 <li>Using Visual Studio 2015+ to develop the UWP app, add the new item "shader.hlsl".<ul>
-<li>In the <b>Solution Folder</b> view of Visual Studio, select the <b>shaders.hlsl </b>item, right-click for <b>Properties</b>.</li>
+<li>In the <b>Solution Folder</b> view of Visual Studio, select the <b>shaders.hlsl </b> item, right-click for <b>Properties</b>.</li>
 <li>Make sure the item <b>Content</b> is set to <b>Yes</b>.</li>
 <li>Make sure the <b>Item Type</b> is set to <b>Text</b>.</li>
 <li>Add a button to XAML, name it appropriately ("TheButton" in this example), and add a <b>Click</b> handler.</li>

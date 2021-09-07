@@ -46,6 +46,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-
-## -examples
-

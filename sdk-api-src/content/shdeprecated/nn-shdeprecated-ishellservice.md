@@ -55,5 +55,5 @@ Deprecated. <b>IShellService</b> Exposes one method that declares ownership when
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellService</b> also has these types of members:
+The <b>IShellService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellService</b> also has these types of members:
 

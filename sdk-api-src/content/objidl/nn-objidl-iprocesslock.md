@@ -56,7 +56,7 @@ Used by <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
+The <b>IProcessLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
 
 ## -see-also
 

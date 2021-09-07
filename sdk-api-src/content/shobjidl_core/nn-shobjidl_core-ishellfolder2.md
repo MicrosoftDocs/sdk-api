@@ -55,7 +55,7 @@ Extends the capabilities of <a href="/windows/desktop/api/shobjidl_core/nn-shobj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolder2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. <b>IShellFolder2</b> also has these types of members:
+The <b>IShellFolder2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. <b>IShellFolder2</b> also has these types of members:
 
 ## -remarks
 

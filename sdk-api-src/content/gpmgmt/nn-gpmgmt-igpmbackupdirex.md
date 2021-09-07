@@ -62,7 +62,7 @@ To create a <b>GPMBackupDirEx</b> object, call the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
+The <b>IGPMBackupDirEx</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
 
 ## -see-also
 

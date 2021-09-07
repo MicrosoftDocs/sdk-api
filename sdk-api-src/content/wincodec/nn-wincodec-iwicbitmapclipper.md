@@ -55,5 +55,5 @@ Exposes methods that produce a clipped version of the input bitmap for a specifi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapClipper</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmapClipper</b> also has these types of members:
+The <b>IWICBitmapClipper</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmapClipper</b> also has these types of members:
 

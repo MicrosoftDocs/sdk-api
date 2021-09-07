@@ -55,7 +55,7 @@ Represents the ghosting status of an item in the Offline Files cache.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesGhostInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesGhostInfo</b> also has these types of members:
+The <b>IOfflineFilesGhostInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesGhostInfo</b> also has these types of members:
 
 ## -see-also
 

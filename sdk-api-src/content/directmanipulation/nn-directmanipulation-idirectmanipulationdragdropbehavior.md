@@ -56,7 +56,7 @@ Call <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-direc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationDragDropBehavior</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationDragDropBehavior</b> also has these types of members:
+The <b>IDirectManipulationDragDropBehavior</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationDragDropBehavior</b> also has these types of members:
 
 ## -remarks
 

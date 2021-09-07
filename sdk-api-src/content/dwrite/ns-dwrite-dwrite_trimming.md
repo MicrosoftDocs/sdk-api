@@ -65,7 +65,7 @@ A value that specifies  the text granularity used to trim text overflowing the l
 Type: <b>UINT32</b>
 
 A character code used as the delimiter that signals the beginning of the portion of text to be preserved. 
-          Text starting from the Nth occurence of the delimiter (where N equals delimiterCount) counting backwards from the end of the text block will be preserved.
+          Text starting from the Nth occurrence of the delimiter (where N equals delimiterCount) counting backwards from the end of the text block will be preserved.
           For example, given the text is a path like c:\A\B\C\D\file.txt and delimiter equal to '\' and delimiterCount equal to 1, the file.txt portion of the text would be preserved.  
           Specifying a delimiterCount of 2 would preserve D\file.txt.
 

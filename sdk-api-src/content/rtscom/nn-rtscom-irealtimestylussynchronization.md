@@ -54,7 +54,7 @@ Synchronizes access to the <a href="/windows/desktop/tablet/realtimestylus-class
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylusSynchronization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylusSynchronization</b> also has these types of members:
+The <b>IRealTimeStylusSynchronization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylusSynchronization</b> also has these types of members:
 
 ## -remarks
 

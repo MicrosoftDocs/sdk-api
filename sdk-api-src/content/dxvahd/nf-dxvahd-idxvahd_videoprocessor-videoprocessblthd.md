@@ -79,11 +79,11 @@ Pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_str
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The maximum value of <i>StreamCount</i> is given in the <b>MaxStreamStates</b> member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. The maximum numbr of streams that can be enabled at one time is given in the <b>MaxInputStreams</b> member of that structure.
+The maximum value of <i>StreamCount</i> is given in the <b>MaxStreamStates</b> member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpdevcaps">DXVAHD_VPDEVCAPS</a> structure. The maximum number of streams that can be enabled at one time is given in the <b>MaxInputStreams</b> member of that structure.
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Provides methods that retrieve information about the interpretation of a parsed 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuerySolution</b> interface inherits from <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
+The <b>IQuerySolution</b> interface inherits from <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IQuerySolution</b> also has these types of members:
 
 ## -remarks
 

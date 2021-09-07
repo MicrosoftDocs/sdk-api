@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains information about the <b>PERF_COUNTERSET_REG_INFO</b> block that contains the structure. A <b>PERF_COUNTERSET_REG_INFO</b> block provides registration information for a counter set and the performance counters it contains, and consists of a <b>PERF_COUNTERSET_REG_INFO</b>structure immediately followed by a set
+Contains information about the <b>PERF_COUNTERSET_REG_INFO</b> block that contains the structure. A <b>PERF_COUNTERSET_REG_INFO</b> block provides registration information for a counter set and the performance counters it contains, and consists of a <b>PERF_COUNTERSET_REG_INFO</b> structure immediately followed by a set
 <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures that correspond to the performance counters in the counter set.
 
 ## -struct-fields

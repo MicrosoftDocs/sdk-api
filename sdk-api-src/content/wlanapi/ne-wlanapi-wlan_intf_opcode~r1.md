@@ -85,7 +85,7 @@ This opcode can only be used in a query operation with the <a href="/windows/des
 
 ### -field wlan_intf_opcode_channel_number
 
-The opcose used to query the current channel on which the wireless interface is operating. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
+The opcode used to query the current channel on which the wireless interface is operating. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function.
 
 ### -field wlan_intf_opcode_supported_infrastructure_auth_cipher_pairs
 
@@ -121,7 +121,7 @@ This value is an extension to native wireless APIs added to support the wireless
 
 ### -field wlan_intf_opcode_management_frame_protection_capable
 
-The opcode used to query whether Managememt Frame Protection (MFP) is supported in the device driver associated with the Wireless interface. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function. 
+The opcode used to query whether Management Frame Protection (MFP) is supported in the device driver associated with the Wireless interface. This opcode can only be used in a query operation with the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a> function. 
 
 MFP is defined in the IEEE 802.11w-2009 amendment to 802.11 standard.
 

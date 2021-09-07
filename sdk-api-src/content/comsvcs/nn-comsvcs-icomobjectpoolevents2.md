@@ -54,7 +54,7 @@ Notifies the subscriber when a new object is created for or removed from the poo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectPoolEvents2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
+The <b>IComObjectPoolEvents2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComObjectPoolEvents2</b> also has these types of members:
 
 ## -see-also
 

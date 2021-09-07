@@ -73,7 +73,7 @@ The following methods return this interface:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreen</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>. <b>IFsrmFileScreen</b> also has these types of members:
+The <b>IFsrmFileScreen</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>. <b>IFsrmFileScreen</b> also has these types of members:
 
 ## -remarks
 

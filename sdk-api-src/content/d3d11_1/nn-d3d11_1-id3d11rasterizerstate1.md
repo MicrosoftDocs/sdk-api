@@ -55,7 +55,7 @@ The rasterizer-state interface holds a description for rasterizer state that you
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RasterizerState1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>. <b>ID3D11RasterizerState1</b> also has these types of members:
+The <b>ID3D11RasterizerState1</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>. <b>ID3D11RasterizerState1</b> also has these types of members:
 
 ## -remarks
 

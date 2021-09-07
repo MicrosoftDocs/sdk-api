@@ -57,7 +57,7 @@ The device interface represents a virtual adapter; it is used to create resource
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Device4</b> interface inherits from <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>. <b>ID3D11Device4</b> also has these types of members:
+The <b>ID3D11Device4</b> interface inherits from <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>. <b>ID3D11Device4</b> also has these types of members:
 
 ## -see-also
 

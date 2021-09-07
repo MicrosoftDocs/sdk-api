@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsSetErrorProperty
 title: WsSetErrorProperty function (webservices.h)
-description: Sets an WS_ERROR object property.
+description: Sets a WS_ERROR object property.
 helpviewer_keywords: ["WsSetErrorProperty","WsSetErrorProperty function [Web Services for Windows]","webservices/WsSetErrorProperty","wsw.wsseterrorproperty"]
 old-location: wsw\wsseterrorproperty.htm
 tech.root: wsw

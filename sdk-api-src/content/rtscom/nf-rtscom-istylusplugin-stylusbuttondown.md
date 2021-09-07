@@ -64,7 +64,7 @@ Security identifier.
 
 ### -param pGuidStylusButton [in]
 
-The GUID-type identifier for the stylus button data. The GUID indcates the unique identifier for this data object.
+The GUID-type identifier for the stylus button data. The GUID indicates the unique identifier for this data object.
 
 ### -param pStylusPos [in, out]
 

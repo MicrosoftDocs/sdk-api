@@ -56,7 +56,7 @@ Creates an object that is enlisted within a manual transaction using the Transac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateWithTipTransactionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithTipTransactionEx</b> also has these types of members:
+The <b>ICreateWithTipTransactionEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateWithTipTransactionEx</b> also has these types of members:
 
 ## -see-also
 

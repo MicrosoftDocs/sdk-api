@@ -54,7 +54,7 @@ The <b>IAudioClient3</b> interface is derived from the <a href="/windows/desktop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient3</b> interface inherits from <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
+The <b>IAudioClient3</b> interface inherits from <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
 
 ## -see-also
 

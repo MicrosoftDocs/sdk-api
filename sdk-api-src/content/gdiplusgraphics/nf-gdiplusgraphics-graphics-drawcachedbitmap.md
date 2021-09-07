@@ -94,8 +94,8 @@ Cached bitmaps will not work with any transformations other than translation.
 
 When you construct a 
 				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-cachedbitmap">CachedBitmap</a> object, you must pass the address of a 
-				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>object to the constructor. If the screen associated with that 
-				<b>Graphics</b>object has its bit depth changed after the cached bitmap is constructed, then the <b>Graphics::DrawCachedBitmap</b> method will fail, and you should reconstruct the cached bitmap. Alternatively, you can hook the display change notification message and reconstruct the cached bitmap at that time.
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object to the constructor. If the screen associated with that 
+				<b>Graphics</b> object has its bit depth changed after the cached bitmap is constructed, then the <b>Graphics::DrawCachedBitmap</b> method will fail, and you should reconstruct the cached bitmap. Alternatively, you can hook the display change notification message and reconstruct the cached bitmap at that time.
 
 
 #### Examples

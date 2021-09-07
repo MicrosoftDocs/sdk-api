@@ -60,7 +60,7 @@ The <b>Delete</b>, <b>Rename</b>, and <b>Move</b> methods are valid for both fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPObject</b> also has these types of members:
+The <b>IMDSPObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPObject</b> also has these types of members:
 
 ## -see-also
 

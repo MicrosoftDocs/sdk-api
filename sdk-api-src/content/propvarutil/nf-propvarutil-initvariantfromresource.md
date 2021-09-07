@@ -1,7 +1,7 @@
 ---
 UID: NF:propvarutil.InitVariantFromResource
 title: InitVariantFromResource function (propvarutil.h)
-description: Initializes a VARIANT structure based on a string resource imbedded in an executable file.
+description: Initializes a VARIANT structure based on a string resource embedded in an executable file.
 helpviewer_keywords: ["InitVariantFromResource","InitVariantFromResource function [Windows Properties]","_shell_InitVariantFromResource","properties.InitVariantFromResource","propvarutil/InitVariantFromResource","shell.InitVariantFromResource"]
 old-location: properties\InitVariantFromResource.htm
 tech.root: properties
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure based on a string resource imbedded in an executable file.
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure based on a string resource embedded in an executable file.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ When this function returns, contains the initialized <a href="/windows/desktop/a
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

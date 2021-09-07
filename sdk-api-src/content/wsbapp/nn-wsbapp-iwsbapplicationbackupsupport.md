@@ -54,5 +54,5 @@ Defines a method for checking the consistency of the application's VSS writer's 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWsbApplicationBackupSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWsbApplicationBackupSupport</b> also has these types of members:
+The <b>IWsbApplicationBackupSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWsbApplicationBackupSupport</b> also has these types of members:
 

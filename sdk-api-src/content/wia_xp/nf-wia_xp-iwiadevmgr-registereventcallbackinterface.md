@@ -88,7 +88,7 @@ Receives the address of a pointer to the <a href="/windows/desktop/api/unknwn/nn
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -98,7 +98,7 @@ When they begin executing, WIA applications use this method to register to recei
 
 Applications use the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo">EnumRegisterEventInfo</a> method to retrieve a pointer to an enumerator object for event registration properties.
 
-An application can find whether an event is an action type or notification type (or both) event by examinging the <b>ulFlags</b> value of a <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structure returned by event enumeration.
+An application can find whether an event is an action type or notification type (or both) event by examining the <b>ulFlags</b> value of a <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structure returned by event enumeration.
 
 Applications can unregister for events by using the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer returned through the <i>pEventObject</i>  parameter to call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 

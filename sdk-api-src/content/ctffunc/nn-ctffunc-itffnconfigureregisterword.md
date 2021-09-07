@@ -56,5 +56,5 @@ To obtain an instance of this interface the IME can call <a href="/windows/deskt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnConfigureRegisterWord</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterWord</b> also has these types of members:
+The <b>ITfFnConfigureRegisterWord</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnConfigureRegisterWord</b> also has these types of members:
 

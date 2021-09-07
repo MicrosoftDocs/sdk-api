@@ -54,7 +54,7 @@ IFsrmPropertyBag2 Interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPropertyBag2</b> interface inherits from <b>IFsrmPropertyBag</b>. <b>IFsrmPropertyBag2</b> also has these types of members:
+The <b>IFsrmPropertyBag2</b> interface inherits from <b>IFsrmPropertyBag</b>. <b>IFsrmPropertyBag2</b> also has these types of members:
 
 ## -see-also
 

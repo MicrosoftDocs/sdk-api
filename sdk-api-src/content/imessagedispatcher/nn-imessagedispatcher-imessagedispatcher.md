@@ -54,5 +54,5 @@ Callback interface implemented by components that need to perform special proces
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageDispatcher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
+The <b>IMessageDispatcher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
 

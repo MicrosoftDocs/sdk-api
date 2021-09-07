@@ -54,7 +54,7 @@ Exposes methods that provide access to writing metadata content. This is impleme
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
+The <b>IWICMetadataWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
 
 ## -remarks
 

@@ -78,22 +78,22 @@ The format of <b>Packed</b> is:
 
 <ul>
 <li>
-The first 10 bits (bits 0-09) of <b>Packed</b> assigned to the <b>x</b>member of the current instance of <code>XMXDEC4</code>.
+The first 10 bits (bits 0-09) of <b>Packed</b> assigned to the <b>x</b> member of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The second 10 bits (bits 10-19) of <b>Packed</b> assigned to the <b>y</b>member of the current instance of <code>XMXDEC4</code>.
+The second 10 bits (bits 10-19) of <b>Packed</b> assigned to the <b>y</b> member of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The third 10 bits (bits 10-29) of <b>Packed</b> assigned to the <b>z</b>member of the current instance of <code>XMXDEC4</code>.
+The third 10 bits (bits 10-29) of <b>Packed</b> assigned to the <b>z</b> member of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>
 <li>
-The last 2 bits (bits 30-31) of <b>Packed</b> assigned to the <b>w</b>member of the current instance of <code>XMXDEC4</code>.
+The last 2 bits (bits 30-31) of <b>Packed</b> assigned to the <b>w</b> member of the current instance of <code>XMXDEC4</code>.
 		
 
 </li>

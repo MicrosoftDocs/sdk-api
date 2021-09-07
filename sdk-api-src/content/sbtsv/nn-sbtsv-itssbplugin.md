@@ -57,7 +57,7 @@ This is the base interface for all plug-ins to Remote Desktop Connection Broker 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
+The <b>ITsSbPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
 
 ## -remarks
 
@@ -77,7 +77,7 @@ To register a resource filter, add these values to the registry.
                   <b>Plugins</b>
                      <b>Resource</b>
                         <i>YOUR_RESOURCE_PLUGIN_NAME</i>
-                           <b>CLSID</b> = {<i>CLSID of your resouce provider</i>}<dl>
+                           <b>CLSID</b> = {<i>CLSID of your resource provider</i>}<dl>
 <dt>                           Data type</dt>
 <dd>                           REG_SZ</dd>
 </dl>

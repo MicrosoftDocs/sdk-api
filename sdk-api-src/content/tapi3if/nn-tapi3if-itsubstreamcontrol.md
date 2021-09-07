@@ -57,7 +57,7 @@ A pointer to this interface can be obtained by calling <a href="/windows/desktop
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStreamControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITSubStreamControl</b> also has these types of members:
+The <b>ITSubStreamControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITSubStreamControl</b> also has these types of members:
 
 ## -see-also
 

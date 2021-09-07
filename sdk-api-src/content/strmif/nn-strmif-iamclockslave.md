@@ -59,7 +59,7 @@ Setting a larger tolerance is likely to result in the audio stream becoming out 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockSlave</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
+The <b>IAMClockSlave</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockSlave</b> also has these types of members:
 
 ## -see-also
 

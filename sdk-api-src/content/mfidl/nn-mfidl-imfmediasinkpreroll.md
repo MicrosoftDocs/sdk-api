@@ -57,7 +57,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on the media sink
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSinkPreroll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSinkPreroll</b> also has these types of members:
+The <b>IMFMediaSinkPreroll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSinkPreroll</b> also has these types of members:
 
 ## -remarks
 

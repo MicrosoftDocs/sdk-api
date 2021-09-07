@@ -57,5 +57,5 @@ Applications can use this interface to reduce the frame rate on a DV stream, bef
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVSplitter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
+The <b>IDVSplitter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
 

@@ -58,7 +58,7 @@ A client obtains an instance of this interface by obtaining the <a href="/window
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
+The <b>ITfFnPlayBack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
 
 ## -see-also
 

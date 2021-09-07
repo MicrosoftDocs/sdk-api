@@ -54,5 +54,5 @@ The <b>IPortableDeviceContent2</b> interface defines additional methods that pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
+The <b>IPortableDeviceContent2</b> interface inherits from <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
 

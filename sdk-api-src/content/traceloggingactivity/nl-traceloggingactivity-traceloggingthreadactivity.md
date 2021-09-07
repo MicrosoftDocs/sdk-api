@@ -124,7 +124,7 @@ Returns the handle to the TraceLogging provider associated with this activity.
 </td>
 </tr>
 </table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingThreadActivity</b> class has these properties.
+<h3><a id="properties"></a>Properties</h3>The <b>TraceLoggingThreadActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>

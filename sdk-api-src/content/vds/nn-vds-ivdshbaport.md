@@ -58,7 +58,7 @@ Provides methods to query and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsHbaPort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHbaPort</b> also has these types of members:
+The <b>IVdsHbaPort</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsHbaPort</b> also has these types of members:
 
 ## -see-also
 

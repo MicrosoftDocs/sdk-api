@@ -78,7 +78,7 @@ A pointer to the first path string. This value can be <b>NULL</b>.
 
 ### -param pszMore [in, optional]
 
-A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualfied, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
+A pointer to the second path string. If this path begins with a single backslash, it is combined with only the root of the path pointed to by <i>pszPathIn</i>. If this path is fully qualified, it is copied directly to the output buffer without being combined with the other path. This value can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 

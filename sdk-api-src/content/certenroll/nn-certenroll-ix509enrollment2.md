@@ -54,7 +54,7 @@ The <b>IX509Enrollment2</b> interface enables you to enroll in a certificate hie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment2</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>. <b>IX509Enrollment2</b> also has these types of members:
+The <b>IX509Enrollment2</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>. <b>IX509Enrollment2</b> also has these types of members:
 
 ## -see-also
 

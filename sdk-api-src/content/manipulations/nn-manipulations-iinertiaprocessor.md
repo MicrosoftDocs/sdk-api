@@ -54,7 +54,7 @@ The IInertiaProcessor interface handles calculations regarding object motion for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInertiaProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInertiaProcessor</b> also has these types of members:
+The <b>IInertiaProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInertiaProcessor</b> also has these types of members:
 
 ## -see-also
 

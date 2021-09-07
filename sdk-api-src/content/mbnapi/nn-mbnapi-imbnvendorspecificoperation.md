@@ -57,7 +57,7 @@ Interface to pass requests from an application to the underlying Mobile Broadban
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnVendorSpecificOperation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnVendorSpecificOperation</b> also has these types of members:
+The <b>IMbnVendorSpecificOperation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnVendorSpecificOperation</b> also has these types of members:
 
 ## -remarks
 

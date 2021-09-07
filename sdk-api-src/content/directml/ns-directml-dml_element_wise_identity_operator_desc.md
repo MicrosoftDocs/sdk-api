@@ -77,7 +77,7 @@ An optional scale and bias to apply to the input. If present, this has the effec
 ## -remarks
 The identity operation is often used to copy a tensor.
 
-It can also be used to transform the layout of tensors by manipulating strides (see [Using strides to express padding and memory layout](/windows/win32/direct3d12/dml-strides)).
+It can also be used to transform the layout of tensors by manipulating strides (see [Using strides to express padding and memory layout](/windows/ai/directml/dml-strides)).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.

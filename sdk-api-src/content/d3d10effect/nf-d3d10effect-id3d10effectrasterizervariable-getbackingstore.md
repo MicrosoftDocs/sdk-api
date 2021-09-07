@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetBackingStore
 title: ID3D10EffectRasterizerVariable::GetBackingStore (d3d10effect.h)
-description: Get a pointer to a variable that contains rasteriser state.
+description: Get a pointer to a variable that contains rasterizer state.
 helpviewer_keywords: ["GetBackingStore","GetBackingStore method [Direct3D 10]","GetBackingStore method [Direct3D 10]","ID3D10EffectRasterizerVariable interface","ID3D10EffectRasterizerVariable interface [Direct3D 10]","GetBackingStore method","ID3D10EffectRasterizerVariable.GetBackingStore","ID3D10EffectRasterizerVariable::GetBackingStore","cf2a79ce-7906-f134-2fb4-112e8a4d0de6","d3d10effect/ID3D10EffectRasterizerVariable::GetBackingStore","direct3d10.id3d10effectrasterizervariable_getbackingstore"]
 old-location: direct3d10\id3d10effectrasterizervariable_getbackingstore.htm
 tech.root: direct3d10
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Get a pointer to a variable that contains rasteriser state.
+Get a pointer to a variable that contains rasterizer state.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Get a pointer to a variable that contains rasteriser state.
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Index into an array of rasteriser-state descriptions. If there is only one rasteriser variable in the effect, use 0.
+Index into an array of rasterizer-state descriptions. If there is only one rasterizer variable in the effect, use 0.
 
 ### -param pRasterizerDesc [in]
 
 Type: <b><a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>*</b>
 
-A pointer to a rasteriser-state description (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>).
+A pointer to a rasterizer-state description (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">D3D10_RASTERIZER_DESC</a>).
 
 ## -returns
 

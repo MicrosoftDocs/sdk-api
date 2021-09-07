@@ -57,7 +57,7 @@ Exposes methods that query and set default applications for specific file <a hre
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistration</b> also has these types of members:
+The <b>IApplicationAssociationRegistration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistration</b> also has these types of members:
 
 ## -remarks
 

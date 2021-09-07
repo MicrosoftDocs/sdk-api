@@ -65,7 +65,7 @@ Provider writers will generally not need to create any derived classes from this
     instances of this class. More commonly, you will be passed an instance of this class and will use the various 
     methods to determine what information is being requested by the client.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CFrameworkQuery</b> has these types of members:
+<b>CFrameworkQuery</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

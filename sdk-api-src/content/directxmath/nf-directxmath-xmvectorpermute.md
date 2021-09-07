@@ -90,7 +90,7 @@ If all 4 indices reference only a single vector (i.e. they are all in the range 
 The <a href="/windows/desktop/dxmath/ovw-xnamath-reference-constants">XM_PERMUTE_</a> constants are provided to
     use as input values for <i>PermuteX</i>,<i>PermuteY</i>,<i>PermuteZ</i>, and <i>PermuteW</i>.
 
-For constant PermuteX/Y/Z/W parameters, it is much more efficent to use the template form of
+For constant PermuteX/Y/Z/W parameters, it is much more efficient to use the template form of
     <a href="/windows/desktop/dxmath/xmvectorpermute-template">XMVectorPermute</a>:
 
 
@@ -105,7 +105,7 @@ Example: XMVectorPermute<XM_PERMUTE_0Z, XM_PERMUTE_1X, XM_PERMUTE_0W, XM_PERMUTE
 
 
 <div class="alert"><b>Note</b>  This version of <code>XMVectorPermute</code> is new for DirectXMath.  The XNAMath v2.x library made use of <code>XMVectorPermuteControl</code>, 
-     a control <code>XMVECTOR</code> instead of 4 indicies for <code>XMVectorPermute</code>, and used different values for the XM_PERMUTE_x constants.</div>
+     a control <code>XMVECTOR</code> instead of 4 indices for <code>XMVectorPermute</code>, and used different values for the XM_PERMUTE_x constants.</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

@@ -54,7 +54,7 @@ Exposes methods that manage the border space for one or more <a href="/windows/d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDockingWindowSite</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindowSite</b> also has these types of members:
+The <b>IDockingWindowSite</b> interface inherits from <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IDockingWindowSite</b> also has these types of members:
 
 ## -remarks
 

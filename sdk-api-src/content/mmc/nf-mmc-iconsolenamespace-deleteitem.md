@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>enables the snap-in to delete a single item from the scope pane.
+The <b>IConsoleNameSpace2::DeleteItem</b> method <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a> enables the snap-in to delete a single item from the scope pane.
 
 ## -parameters
 

@@ -54,7 +54,7 @@ Configures the tracker property for the work that is done when calling either <a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceTrackerConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTrackerConfig</b> also has these types of members:
+The <b>IServiceTrackerConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceTrackerConfig</b> also has these types of members:
 
 ## -remarks
 

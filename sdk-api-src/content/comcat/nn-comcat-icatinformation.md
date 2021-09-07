@@ -54,7 +54,7 @@ Obtains information about the categories implemented or required by a certain cl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
+The <b>ICatInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICatInformation</b> also has these types of members:
 
 ## -see-also
 

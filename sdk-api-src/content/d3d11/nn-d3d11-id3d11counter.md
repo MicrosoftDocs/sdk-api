@@ -55,7 +55,7 @@ This interface encapsulates methods for measuring GPU performance.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Counter</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
+The <b>ID3D11Counter</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11asynchronous">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
 
 ## -remarks
 

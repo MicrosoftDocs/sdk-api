@@ -59,7 +59,7 @@ Returns the LUN to which the plex belongs.
 
 ### -param ppLun [out]
 
-The address of an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>interface pointer. Callers must release the interface.
+The address of an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> interface pointer. Callers must release the interface.
 
 ## -returns
 

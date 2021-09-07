@@ -54,5 +54,5 @@ Contains a collection of media foundation sensor profile objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProfileCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProfileCollection</b> also has these types of members:
+The <b>IMFSensorProfileCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProfileCollection</b> also has these types of members:
 

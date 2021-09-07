@@ -85,7 +85,7 @@ Receives the interface pointer to the notification handler. This is set to point
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to Windows Management.
 

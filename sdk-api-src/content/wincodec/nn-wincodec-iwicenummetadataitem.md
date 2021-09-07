@@ -54,5 +54,5 @@ Exposes methods that provide enumeration services for individual metadata items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICEnumMetadataItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICEnumMetadataItem</b> also has these types of members:
+The <b>IWICEnumMetadataItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICEnumMetadataItem</b> also has these types of members:
 

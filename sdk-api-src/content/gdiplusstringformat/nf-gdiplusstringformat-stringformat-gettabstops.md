@@ -61,7 +61,7 @@ The <b>StringFormat::GetTabStops</b> method gets the offsets of the tab stops in
 Type: <b>INT</b>
 
 Integer that specifies the number of tab-stop offsets in the 
-					<i>tabStops</i>array.
+					<i>tabStops</i> array.
 
 ### -param firstTabOffset [out]
 

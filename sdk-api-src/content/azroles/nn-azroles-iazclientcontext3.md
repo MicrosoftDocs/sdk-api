@@ -54,5 +54,5 @@ The <b>IAzClientContext3</b> interface extends the <a href="/windows/desktop/api
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext3</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>. <b>IAzClientContext3</b> also has these types of members:
+The <b>IAzClientContext3</b> interface inherits from <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>. <b>IAzClientContext3</b> also has these types of members:
 

@@ -54,5 +54,5 @@ Provides support for asynchronous operations.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncInfo</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAsyncInfo</b> also has these types of members:
+The <b>IAsyncInfo</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAsyncInfo</b> also has these types of members:
 

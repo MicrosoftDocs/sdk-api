@@ -55,7 +55,7 @@ A render-target-view interface accesses a render target.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectRenderTargetViewVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectRenderTargetViewVariable</b> also has these types of members:
+The <b>ID3D10EffectRenderTargetViewVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectRenderTargetViewVariable</b> also has these types of members:
 
 ## -see-also
 

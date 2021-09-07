@@ -54,5 +54,5 @@ The <b>IX509CertificateTemplateWritable</b> interface enables you to add a templ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateTemplateWritable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509CertificateTemplateWritable</b> also has these types of members:
+The <b>IX509CertificateTemplateWritable</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509CertificateTemplateWritable</b> also has these types of members:
 

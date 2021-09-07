@@ -57,7 +57,7 @@ Applications typically do not use this interface, and third-party filters do not
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDeviceRemoval</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDeviceRemoval</b> also has these types of members:
+The <b>IAMDeviceRemoval</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDeviceRemoval</b> also has these types of members:
 
 ## -see-also
 

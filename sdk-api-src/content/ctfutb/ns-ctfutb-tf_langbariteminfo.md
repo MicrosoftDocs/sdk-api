@@ -62,6 +62,8 @@ Contains the <b>CLSID</b> of the text service that owns the language bar item. T
 
 Contains a <b>GUID</b> value that identifies the language bar item.
 
+Starting with Windows 8, this value should be GUID_LBI_INPUTMODE (or the language bar item will be ignored). For more information, see [Third-party input method editors](https://docs.microsoft.com/en-us/windows/win32/w8cookbook/third-party-input-method-editors#manifestation) in the Compatibility cookbook for Windows.
+
 ### -field dwStyle
 
 Contains a combination of one or more of the <a href="/windows/desktop/TSF/tf-lbi-style--constants">TF_LBI_STYLE_*</a> values.

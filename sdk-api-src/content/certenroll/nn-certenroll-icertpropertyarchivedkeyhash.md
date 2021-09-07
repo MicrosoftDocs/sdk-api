@@ -59,7 +59,7 @@ This property is initialized by the enrollment process and associated with the d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyArchivedKeyHash</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchivedKeyHash</b> also has these types of members:
+The <b>ICertPropertyArchivedKeyHash</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyArchivedKeyHash</b> also has these types of members:
 
 ## -see-also
 

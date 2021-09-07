@@ -57,7 +57,7 @@ Each listener property is of type <a href="/windows/desktop/api/webservices/ns-w
 
 ### -field WS_LISTENER_PROPERTY_LISTEN_BACKLOG
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.  
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>.  
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
@@ -67,7 +67,7 @@ This controls the maximum length of the queue of pending connections. If set to
 
 ### -field WS_LISTENER_PROPERTY_IP_VERSION
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_UDP_CHANNEL_BINDING</b>.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> or <b>WS_UDP_CHANNEL_BINDING</b>.
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is an <a href="/windows/desktop/api/webservices/ne-webservices-ws_ip_version">WS_IP_VERSION</a> value.
@@ -127,7 +127,7 @@ This property
 
 ### -field WS_LISTENER_PROPERTY_CONNECT_TIMEOUT
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> and   <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> and   <b>WS_NAMEDPIPE_CHANNEL_BINDING</b>.
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
@@ -145,14 +145,14 @@ The default value is 15000 (15 seconds).
 
 ### -field WS_LISTENER_PROPERTY_IS_MULTICAST
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a>to indicate that the listener is listening on a multicast address.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a> to indicate that the listener is listening on a multicast address.
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>BOOL</b>.
 
 Note that setting this property is not sufficient when listening on
                     a multicast address.  The set of interfaces must also be specified
-                    using the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_MULTICAST_INTERFACES</a>property.
+                    using the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_MULTICAST_INTERFACES</a> property.
                 
 
 The channel does not validate that the address is in fact a
@@ -164,7 +164,7 @@ The default value is <b>FALSE</b>.
 
 ### -field WS_LISTENER_PROPERTY_MULTICAST_INTERFACES
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetlistenerproperty">WsSetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a>.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetlistenerproperty">WsSetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_DUPLEX</a>.
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is an array of <b>ULONG</b> values.
@@ -202,13 +202,13 @@ The default value is <b>TRUE</b>.
 
 ### -field WS_LISTENER_PROPERTY_CLOSE_TIMEOUT
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REPLY</a>.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetlistenerproperty">WsGetListenerProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_REPLY</a>.
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a <b>ULONG</b>.
 
 This indicates the number of milliseconds to
-                    wait for clients to receive data from responses when <a href="/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a>is called.
+                    wait for clients to receive data from responses when <a href="/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a> is called.
                 
 
 The purpose of this timeout is to allow clients time to continue receiving 
@@ -222,7 +222,7 @@ The calculation of the timeout value used is as follows:
 <ul>
 <li>At the time that <a href="/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a> is called, determine the
                     time the last response was sent (the last response time).  For the purposes of
-                    this timeout calculation, a response is recorded as sent once <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a>has been called for the response.  
+                    this timeout calculation, a response is recorded as sent once <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessageend">WsWriteMessageEnd</a> has been called for the response.  
                     </li>
 <li>Calculate the difference between the current time and the last response time.
                     </li>
@@ -294,7 +294,7 @@ This property is used to specify callbacks that
                     define the implementation of a custom listener.
                 
 
-This property must be specified when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>is used.
+This property must be specified when <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a> is used.
 
 ### -field WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS
 
@@ -313,11 +313,11 @@ The value of this property will be passed to the
                     <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
-If this property is not specified, it's value is <b>NULL</b> and size is zero.
+If this property is not specified, its value is <b>NULL</b> and size is zero.
 
 ### -field WS_LISTENER_PROPERTY_CUSTOM_LISTENER_INSTANCE
 
-Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a>for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
+Used with <a href="/windows/desktop/api/webservices/nf-webservices-wsgetchannelproperty">WsGetChannelProperty</a> for <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
                 
 
 The accompanying <b>value</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_listener_property">WS_LISTENER_PROPERTY</a> structure is a void* and size the property is sizeof(void*).  

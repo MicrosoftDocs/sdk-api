@@ -104,7 +104,7 @@ Specifies a value for the <b>section_number</b> field.
 
 ### -field fSpecifyCurrentNext
 
-If <b>TRUE</b>, the <b>current_next_indicator</b> bit in the header must match the value of the <b>fNext</b> structue member. Otherwise, the <b>current_next_indicator</b> field is ignored.
+If <b>TRUE</b>, the <b>current_next_indicator</b> bit in the header must match the value of the <b>fNext</b> structure member. Otherwise, the <b>current_next_indicator</b> field is ignored.
 
 ### -field fNext
 

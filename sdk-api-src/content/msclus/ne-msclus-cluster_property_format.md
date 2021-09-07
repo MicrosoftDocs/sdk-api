@@ -86,7 +86,7 @@ Data is an <b>ULARGE_INTEGER</b>.
 
 ### -field CLUSPROP_FORMAT_LONG
 
-Data is an signed <b>LONG</b> value.
+Data is a signed <b>LONG</b> value.
 
 ### -field CLUSPROP_FORMAT_EXPANDED_SZ
 

@@ -57,7 +57,7 @@ The network source uses this interface to create the proxy locator object. Appli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocatorFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocatorFactory</b> also has these types of members:
+The <b>IMFNetProxyLocatorFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocatorFactory</b> also has these types of members:
 
 ## -see-also
 

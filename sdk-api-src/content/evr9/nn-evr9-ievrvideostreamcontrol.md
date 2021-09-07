@@ -55,7 +55,7 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEVRVideoStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEVRVideoStreamControl</b> also has these types of members:
+The <b>IEVRVideoStreamControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEVRVideoStreamControl</b> also has these types of members:
 
 ## -see-also
 

@@ -62,4 +62,4 @@ The device is in controller mode, which means its settings can be modified.
 
 ### -field MFSensorDeviceMode_Shared
 
-The device is in shared mode, which means it's settings can't be modified.
+The device is in shared mode, which means its settings can't be modified.

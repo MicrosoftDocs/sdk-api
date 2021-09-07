@@ -48,7 +48,7 @@ A wrapper around the [IKsControl::KsEvent](/windows-hardware/drivers/ddi/ks/nf-k
 
 ### -param kseventSet
 
-A GUID representing the [KSEVENT.Set](/previous-versions/ff561744(v=vs.85)) field.
+A GUID representing the [KSEVENT.Set](/windows-hardware/drivers/stream/ksevent-structure) field.
 
 ### -param kseventId
 

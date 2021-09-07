@@ -55,7 +55,7 @@ Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>. <b>IDXGIFactory4</b> also has these types of members:
+The <b>IDXGIFactory4</b> interface inherits from <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>. <b>IDXGIFactory4</b> also has these types of members:
 
 ## -see-also
 

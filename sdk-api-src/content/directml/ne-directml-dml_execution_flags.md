@@ -73,4 +73,4 @@ For more info, see <a href="/windows/win32/direct3d12/root-signature-version-1-1
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
+<a href="/windows/ai/directml/dml-binding">Binding in DirectML</a>

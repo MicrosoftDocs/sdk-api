@@ -58,5 +58,5 @@ For a code example that illustrates how to create this interface, see the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressDeviceSpecificEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressDeviceSpecificEvent</b> also has these types of members:
+The <b>ITAddressDeviceSpecificEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressDeviceSpecificEvent</b> also has these types of members:
 

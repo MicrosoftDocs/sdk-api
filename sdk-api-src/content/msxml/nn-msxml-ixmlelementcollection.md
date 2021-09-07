@@ -54,5 +54,5 @@ The <b>IXMLElementCollection</b> interface supports collection of XML elements f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLElementCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXMLElementCollection</b> also has these types of members:
+The <b>IXMLElementCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXMLElementCollection</b> also has these types of members:
 

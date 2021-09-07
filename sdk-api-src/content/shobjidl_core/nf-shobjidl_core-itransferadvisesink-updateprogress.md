@@ -94,7 +94,7 @@ The total number of folders in the operation. Set to 0 to indicate that the valu
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -103,5 +103,5 @@ Set <i>ullSizeTotal</i>, <i>nFilesTotal</i>, and <i>nFoldersTotal</i> all to 0 t
 Set all six parameters to 0 to indicate that progress has not changed since the last call to this method.
 
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
-Implementers of this function should return an erorr code when the operation needs to terminate before it is complete, such as when the user clicks the <b>Cancel</b> button.
+Implementers of this function should return an error code when the operation needs to terminate before it is complete, such as when the user clicks the <b>Cancel</b> button.
 

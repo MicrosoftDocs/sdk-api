@@ -54,7 +54,7 @@ Enables debugger developers to control the life cycle of a Windows Store app, su
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPackageDebugSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPackageDebugSettings</b> also has these types of members:
+The <b>IPackageDebugSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPackageDebugSettings</b> also has these types of members:
 
 ## -remarks
 

@@ -56,7 +56,7 @@ An <b>ID3D11ShaderTrace</b> interface implements methods for obtaining traces of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderTrace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderTrace</b> also has these types of members:
+The <b>ID3D11ShaderTrace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11ShaderTrace</b> also has these types of members:
 
 ## -remarks
 

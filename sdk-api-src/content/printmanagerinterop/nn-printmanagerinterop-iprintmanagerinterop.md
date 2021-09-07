@@ -54,7 +54,7 @@ Enables access to <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">Prin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintManagerInterop</b> interface inherits from <b>IInspectable</b>. <b>IPrintManagerInterop</b> also has these types of members:
+The <b>IPrintManagerInterop</b> interface inherits from <b>IInspectable</b>. <b>IPrintManagerInterop</b> also has these types of members:
 
 ## -see-also
 

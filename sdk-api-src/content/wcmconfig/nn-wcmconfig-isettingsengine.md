@@ -54,5 +54,5 @@ The central interface for opening namespaces and controlling how they are opened
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsEngine</b> also has these types of members:
+The <b>ISettingsEngine</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsEngine</b> also has these types of members:
 

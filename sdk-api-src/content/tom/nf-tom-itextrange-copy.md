@@ -85,8 +85,8 @@ The <a href="/windows/desktop/api/tom/nf-tom-itextrange-cut">ITextRange::Cut</a>
 				<b>Paste</b> operations on a range object using an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, thereby not changing the contents of the clipboard. Among clipboard formats typically supported are <b>CF_TEXT</b> and <b>CF_RTF</b>. In addition, private clipboard formats can be used to reference a text solution's own internal rich text formats.
 
 To copy and replace plain text, you can use the <a href="/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a> 
-				<b></b>and <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">ITextRange::SetText</a> 
-				<b></b>methods. To copy formatted text from range r1 to range r2 without using the clipboard, you can use <b>Copy</b> and 
+				<b></b> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-settext">ITextRange::SetText</a> 
+				<b></b> methods. To copy formatted text from range r1 to range r2 without using the clipboard, you can use <b>Copy</b> and 
 				<b>Paste</b> and also the <a href="/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">ITextRange::GetFormattedText</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-setformattedtext">ITextRange::SetFormattedText</a> methods, as shown in the following Microsoft Visual Basic example:
 
 <code>r2.GetFormattedText = r1.GetFormattedText</code>

@@ -58,7 +58,7 @@ The snap-in can query for a pointer to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsoleNameSpace</b> interface inherits from <b>IConsoleNameSpace</b>. <b>IConsoleNameSpace</b> also has these types of members:
+The <b>IConsoleNameSpace</b> interface inherits from <b>IConsoleNameSpace</b>. <b>IConsoleNameSpace</b> also has these types of members:
 
 ## -see-also
 

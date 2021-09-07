@@ -65,5 +65,5 @@ Use this interface with the <a href="/windows/desktop/api/strmif/nn-strmif-ipers
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPropertyBag</b> interface inherits from <b>IPropertyBag</b>. <b>IMediaPropertyBag</b> also has these types of members:
+The <b>IMediaPropertyBag</b> interface inherits from <b>IPropertyBag</b>. <b>IMediaPropertyBag</b> also has these types of members:
 

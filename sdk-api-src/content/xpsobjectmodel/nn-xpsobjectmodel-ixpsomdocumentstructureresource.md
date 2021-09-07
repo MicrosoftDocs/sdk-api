@@ -54,7 +54,7 @@ Provides access to the  XML content of the resource stream of the DocumentStruct
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMDocumentStructureResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMDocumentStructureResource</b> also has these types of members:
+The <b>IXpsOMDocumentStructureResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMDocumentStructureResource</b> also has these types of members:
 
 ## -remarks
 

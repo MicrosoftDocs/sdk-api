@@ -54,7 +54,7 @@ Exposes methods that enumerate through an array of <a href="/windows/desktop/api
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrEnumItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEnumItems</b> also has these types of members:
+The <b>ISyncMgrEnumItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrEnumItems</b> also has these types of members:
 
 ## -remarks
 

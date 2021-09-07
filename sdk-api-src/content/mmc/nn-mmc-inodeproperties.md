@@ -69,7 +69,7 @@ The Extended View extension queries two properties, CCF_DESCRIPTION and CCF_HTML
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INodeProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INodeProperties</b> also has these types of members:
+The <b>INodeProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INodeProperties</b> also has these types of members:
 
 ## -see-also
 

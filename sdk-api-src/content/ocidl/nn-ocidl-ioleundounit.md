@@ -60,7 +60,7 @@ The object should retain a pointer to the undo manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleUndoUnit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
+The <b>IOleUndoUnit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleUndoUnit</b> also has these types of members:
 
 ## -see-also
 

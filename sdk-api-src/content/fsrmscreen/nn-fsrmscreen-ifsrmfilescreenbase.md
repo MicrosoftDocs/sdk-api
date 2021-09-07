@@ -54,7 +54,7 @@ Base class for all file screen interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenBase</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmFileScreenBase</b> also has these types of members:
+The <b>IFsrmFileScreenBase</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmFileScreenBase</b> also has these types of members:
 
 ## -see-also
 

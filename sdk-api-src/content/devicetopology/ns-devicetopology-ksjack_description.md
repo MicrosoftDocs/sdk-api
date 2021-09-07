@@ -100,7 +100,7 @@ In Windows Vista, the value of this member is one of the <b>EChannelMapping</b>
 </table>
  </p>For a physical connector with one, three, or more channels, the value of this member is ePcxChanMap_Unknown.
 
-In Windows 7, the <b>EChannelMapping</b>enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
+In Windows 7, the <b>EChannelMapping</b> enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
 
 
 <pre class="syntax" xml:space="preserve"><code>#define SPEAKER_FRONT_LEFT              0x1

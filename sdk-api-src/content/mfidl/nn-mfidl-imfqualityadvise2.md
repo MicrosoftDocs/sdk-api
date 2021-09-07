@@ -54,7 +54,7 @@ Enables a pipeline object to adjust its own audio or video quality, in response 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFQualityAdvise2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>. <b>IMFQualityAdvise2</b> also has these types of members:
+The <b>IMFQualityAdvise2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>. <b>IMFQualityAdvise2</b> also has these types of members:
 
 ## -remarks
 

@@ -55,7 +55,7 @@ The <b>ICertPropertyBackedUp</b> interface represents an external certificate pr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyBackedUp</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyBackedUp</b> also has these types of members:
+The <b>ICertPropertyBackedUp</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyBackedUp</b> also has these types of members:
 
 ## -see-also
 

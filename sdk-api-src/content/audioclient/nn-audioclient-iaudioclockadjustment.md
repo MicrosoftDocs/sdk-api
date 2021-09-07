@@ -62,7 +62,7 @@ When releasing an <b>IAudioClockAdjustment</b> interface instance, the client mu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClockAdjustment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClockAdjustment</b> also has these types of members:
+The <b>IAudioClockAdjustment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClockAdjustment</b> also has these types of members:
 
 ## -see-also
 

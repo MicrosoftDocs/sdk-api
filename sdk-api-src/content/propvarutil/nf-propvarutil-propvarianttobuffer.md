@@ -102,7 +102,7 @@ If successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was of the wrong type.
+The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was of the wrong type.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 </dl>
 </td>
 <td width="60%">
-The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>value had fewer than <i>cb</i> bytes.
+The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value had fewer than <i>cb</i> bytes.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>
 
 ## -remarks
 
-This function is used in places where the calling application expects a<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
+This function is used in places where the calling application expects a<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a buffer value. The calling application should check that the value has the expected length before calling this function.
 
 If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_UI1 or VT_ARRAY | VT_UI1, this function extracts the first <i>cb</i> bytes from the value and places them in the buffer pointed to by <i>pv</i>. If the value has fewer than <i>cb</i> bytes, then <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobuffer">PropVariantToBuffer</a> fails and the buffer is not modified. If the value has more than <i>cb</i> bytes, then <b>PropVariantToBuffer</b> succeeds and truncates the value.
 

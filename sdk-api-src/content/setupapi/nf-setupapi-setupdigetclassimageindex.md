@@ -56,7 +56,7 @@ The <b>SetupDiGetClassImageIndex</b> function retrieves the index within the cla
 
 ### -param ClassImageListData [in]
 
-A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classimagelist_data">SP_CLASSIMAGELIST_DATA</a> structure that describes a class image list that includes the image for the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> that is specified by the <i>ClassGuid</i> parameter.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classimagelist_data">SP_CLASSIMAGELIST_DATA</a> structure that describes a class image list that includes the image for the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> that is specified by the <i>ClassGuid</i> parameter.
 
 ### -param ClassGuid [in]
 

@@ -60,7 +60,7 @@ Do not use <a href="/previous-versions/windows/desktop/legacy/hh437346(v=vs.85)"
 
 ### -field certMatchArray
 
-An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
+An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structures that contain certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validation.  This parameter can be NULL.
 
 ### -field dwCertMatchArrayCount
 
@@ -68,7 +68,7 @@ The count of certificates in <i>certMatchArray</i>.
 
 ### -field hCertMatchStore
 
-A handle to a certificate store that contains certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validatation.  This parameter can be NULL.
+A handle to a certificate store that contains certificates to be matched against those provided by the HTTPS server or client.  Only one matching certificate is required for validation.  This parameter can be NULL.
 
 ### -field hCertIssuerStore
 

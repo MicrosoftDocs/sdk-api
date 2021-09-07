@@ -57,7 +57,7 @@ Implemented by an app in order to get access to the <a href="/windows/desktop/ap
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFClockConsumer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClockConsumer</b> also has these types of members:
+The <b>IMFClockConsumer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFClockConsumer</b> also has these types of members:
 
 ## -remarks
 

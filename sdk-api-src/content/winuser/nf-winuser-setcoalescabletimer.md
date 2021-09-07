@@ -119,7 +119,7 @@ Uses the system default timer coalescing.
 </dl>
 </td>
 <td width="60%">
-Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what  the system default timer coalescing is or the application compatiblity flags are.
+Uses no timer coalescing.  When this value is used, the created timer is not coalesced, no matter what the system default timer coalescing is or the application compatibility flags are.
 
 
 <div class="alert"><b>Note</b>  Do not use this value unless you are certain that the  timer requires no coalescing. </div>

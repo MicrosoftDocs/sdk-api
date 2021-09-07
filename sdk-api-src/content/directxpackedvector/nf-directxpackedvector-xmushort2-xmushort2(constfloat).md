@@ -64,7 +64,7 @@ Two element **float** array containing the values used to initialize the two com
 
 ## -remarks
 
-The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by an 16-bit unsigned integer [0.0, 65535.0].
+The magnitude of each member of the *pArray* argument to the constructor will be clamped to the range supported by a 16-bit unsigned integer [0.0, 65535.0].
 
 The following pseudocode demonstrates the operation of this constructor:
 

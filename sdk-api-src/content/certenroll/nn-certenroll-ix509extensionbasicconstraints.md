@@ -65,7 +65,7 @@ BasicConstraints2 ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionBasicConstraints</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionBasicConstraints</b> also has these types of members:
+The <b>IX509ExtensionBasicConstraints</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionBasicConstraints</b> also has these types of members:
 
 ## -see-also
 

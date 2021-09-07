@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - presentation.h
+ - dcomp.dll
 api_name:
  - CreatePresentationFactory
 f1_keywords:

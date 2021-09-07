@@ -54,7 +54,7 @@ The <b>IFaxDevice</b> interface defines a configuration object used by a fax cli
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDevice</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
+The <b>IFaxDevice</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDevice</b> also has these types of members:
 
 ## -remarks
 

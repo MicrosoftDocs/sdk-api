@@ -64,7 +64,7 @@ Pointer to the file loader that was previously registered with the DirectWrite f
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -72,7 +72,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
      You should implement the font file loader interface by a singleton object.
      Note that font file loader implementations must not register themselves with DirectWrite
      inside their constructors and must not unregister themselves in their destructors, because
-     registration and unregistraton operations increment and decrement the object reference count respectively.
+     registration and unregistration operations increment and decrement the object reference count respectively.
      Instead, registration and unregistration of font file loaders with DirectWrite should be performed
      outside of the font file loader implementation.
 

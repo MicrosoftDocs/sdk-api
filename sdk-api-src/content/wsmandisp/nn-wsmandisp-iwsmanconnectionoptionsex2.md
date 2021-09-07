@@ -54,5 +54,5 @@ The <b>IWSManConnectionOptionsEx2</b> object is passed to the <a href="/windows/
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSManConnectionOptionsEx2</b> interface inherits from <b>IWSManConnectionOptionsEx</b>. <b>IWSManConnectionOptionsEx2</b> also has these types of members:
+The <b>IWSManConnectionOptionsEx2</b> interface inherits from <b>IWSManConnectionOptionsEx</b>. <b>IWSManConnectionOptionsEx2</b> also has these types of members:
 

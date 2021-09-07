@@ -64,7 +64,7 @@ Instance of <code>XMBYTEN4</code> used to update the current <code>XMBYTEN4</cod
 
 ## -returns
 
-The current instance of <code>XMBYTEN4</code> whose vector component data has been updated to match those of the <code>XMBYTEN4</code> instance specified by the <b>Byte4</b>argument.
+The current instance of <code>XMBYTEN4</code> whose vector component data has been updated to match those of the <code>XMBYTEN4</code> instance specified by the <b>Byte4</b> argument.
 
 ## -see-also
 

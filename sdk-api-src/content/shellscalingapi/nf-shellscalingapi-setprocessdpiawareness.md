@@ -60,7 +60,7 @@ Sets the process-default DPI awareness level. This is equivalent to calling <a h
 
 ### -param value [in]
 
-The DPI awareness value to set. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>enumeration.
+The DPI awareness value to set. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
 
 ## -returns
 

@@ -57,7 +57,7 @@ The <a href="/previous-versions/windows/desktop/clfs/common-log-file-system-port
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILog</b> also has these types of members:
+The <b>ILog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILog</b> also has these types of members:
 
 ## -remarks
 

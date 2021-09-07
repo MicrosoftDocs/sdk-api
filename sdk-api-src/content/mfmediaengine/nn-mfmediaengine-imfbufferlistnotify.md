@@ -54,7 +54,7 @@ Enables <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFBufferListNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFBufferListNotify</b> also has these types of members:
+The <b>IMFBufferListNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFBufferListNotify</b> also has these types of members:
 
 ## -see-also
 

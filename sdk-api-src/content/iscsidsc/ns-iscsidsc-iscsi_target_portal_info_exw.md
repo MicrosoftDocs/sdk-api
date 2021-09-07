@@ -80,7 +80,7 @@ A <b>USHORT</b> value that represents the socket number.
 
 ### -field SecurityFlags
 
-A pointer to an <b>ISCSI_SECURITY_FLAGS</b> structure that contains a bitmap that defines the security charactaristics of a login connection.
+A pointer to an <b>ISCSI_SECURITY_FLAGS</b> structure that contains a bitmap that defines the security characteristics of a login connection.
 
 <table>
 <tr>

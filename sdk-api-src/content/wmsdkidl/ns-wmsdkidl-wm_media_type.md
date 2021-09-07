@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_MEDIA_TYPE </b>structure is the primary structure used to describe media formats for the objects of the Windows Media Format SDK. For more information about media formats and what they are used for, see <a href="/windows/desktop/wmformat/formats">Formats</a>.
+The <b>WM_MEDIA_TYPE</b> structure is the primary structure used to describe media formats for the objects of the Windows Media Format SDK. For more information about media formats and what they are used for, see <a href="/windows/desktop/wmformat/formats">Formats</a>.
 
 ## -struct-fields
 

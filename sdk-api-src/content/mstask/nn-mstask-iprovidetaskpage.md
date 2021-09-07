@@ -56,7 +56,7 @@ Provides the methods to access the property sheet settings of a task.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideTaskPage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
+The <b>IProvideTaskPage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProvideTaskPage</b> also has these types of members:
 
 ## -remarks
 

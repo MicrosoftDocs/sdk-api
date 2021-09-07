@@ -141,7 +141,7 @@ Sets the related activity using the unique identifier.
 </td>
 </tr>
 </table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">TraceLoggingActivity</b> class has these properties.
+<h3><a id="properties"></a>Properties</h3>The <b>TraceLoggingActivity</b> class has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>

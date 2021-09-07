@@ -54,7 +54,7 @@ The <b>ITfUIElementMgr</b> interface is implemented by TSF manager and used by a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
+The <b>ITfUIElementMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementMgr</b> also has these types of members:
 
 ## -remarks
 

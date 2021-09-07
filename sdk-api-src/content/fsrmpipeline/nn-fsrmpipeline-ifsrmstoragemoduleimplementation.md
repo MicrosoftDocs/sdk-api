@@ -54,7 +54,7 @@ Storage modules implement this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmStorageModuleImplementation</b> interface inherits from <b>IFsrmPipelineModuleImplementation</b>. <b>IFsrmStorageModuleImplementation</b> also has these types of members:
+The <b>IFsrmStorageModuleImplementation</b> interface inherits from <b>IFsrmPipelineModuleImplementation</b>. <b>IFsrmStorageModuleImplementation</b> also has these types of members:
 
 ## -see-also
 

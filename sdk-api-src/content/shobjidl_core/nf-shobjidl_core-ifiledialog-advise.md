@@ -64,10 +64,10 @@ A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifi
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> that receives a value identiying this event handler. When the client is finished with the dialog, that client must call the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise">IFileDialog::Unadvise</a> method with this value.
+A pointer to a <b>DWORD</b> that receives a value identifying this event handler. When the client is finished with the dialog, that client must call the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-unadvise">IFileDialog::Unadvise</a> method with this value.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

@@ -28,9 +28,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - mfidl.h
+ - mfsensorgroup.dll
 api_name:
  - MFCreateCameraOcclusionStateMonitor
 f1_keywords:

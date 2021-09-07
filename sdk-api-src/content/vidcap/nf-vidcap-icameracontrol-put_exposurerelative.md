@@ -71,7 +71,7 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 <td>Set the exposure to the default exposure time, which is implementation dependent.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Increment the exposure time by one step.</td>
 </tr>
 <tr>

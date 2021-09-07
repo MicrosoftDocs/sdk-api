@@ -57,7 +57,7 @@ To use this interface, implement the <a href="/windows/desktop/api/evr/nn-evr-im
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTopologyServiceLookup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookup</b> also has these types of members:
+The <b>IMFTopologyServiceLookup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTopologyServiceLookup</b> also has these types of members:
 
 ## -see-also
 

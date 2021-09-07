@@ -66,7 +66,7 @@ The size, in bytes, of the SP_CLASSINSTALL_HEADER structure.
 
 The device installation request (DIF code) for the class install parameters structure. 
 
-DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. See <a href="/previous-versions/ff541307(v=vs.85)">Device Installation Function Codes</a> for a complete description of DIF codes.
+DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. See <a href="/windows-hardware/drivers/install/handling-dif-codes">Device Installation Function Codes</a> for a complete description of DIF codes.
 
 ## -remarks
 

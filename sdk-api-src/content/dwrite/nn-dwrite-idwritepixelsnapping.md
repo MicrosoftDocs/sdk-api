@@ -54,5 +54,5 @@ Defines the pixel snapping properties such as pixels per DIP(device-independent 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWritePixelSnapping</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWritePixelSnapping</b> also has these types of members:
+The <b>IDWritePixelSnapping</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWritePixelSnapping</b> also has these types of members:
 

@@ -126,7 +126,7 @@ For a UDP datagram socket, this error would indicate that a previous send operat
 </dl>
 </td>
 <td width="60%">
-The <i>lpMsg</i>, <i>lpNumberOfBytesSent</i>, <i>lpOverlapped</i>, or <i>lpCompletionRoutine</i> parameter is not totally contained in a valid part of the user address space. This error is also returned if a <b>name</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter was a <b>NULL</b> pointer and the <b>namelen</b> member of the <b>WSAMSG</b>structure was not set to  zero.  This error is also returned if a <b>Control.buf</b> member of the <b>WSAMSG</b>structure pointed to by the <i>lpMsg</i> parameter was a <b>NULL</b> pointer and the <b>Control.len</b> member of the <b>WSAMSG</b>structure was not set to  zero.  
+The <i>lpMsg</i>, <i>lpNumberOfBytesSent</i>, <i>lpOverlapped</i>, or <i>lpCompletionRoutine</i> parameter is not totally contained in a valid part of the user address space. This error is also returned if a <b>name</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure pointed to by the <i>lpMsg</i> parameter was a <b>NULL</b> pointer and the <b>namelen</b> member of the <b>WSAMSG</b> structure was not set to  zero.  This error is also returned if a <b>Control.buf</b> member of the <b>WSAMSG</b> structure pointed to by the <i>lpMsg</i> parameter was a <b>NULL</b> pointer and the <b>Control.len</b> member of the <b>WSAMSG</b> structure was not set to  zero.  
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ The descriptor is not a socket.
 </dl>
 </td>
 <td width="60%">
-The socket operation is not supported. This error is returned if the <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter includes any control flags invalid for <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>. 
+The socket operation is not supported. This error is returned if the <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure pointed to by the <i>lpMsg</i> parameter includes any control flags invalid for <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>. 
 
 </td>
 </tr>
@@ -329,7 +329,7 @@ The overlapped operation has been canceled  due to the closure of the socket or 
 
  The <b>WSASendMsg</b> function can be used in place of the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> functions. The <b>WSASendMsg</b> function can only be used with datagrams  and raw sockets. The socket descriptor in the <i>s</i> parameter must be opened with the socket type set to <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>.
 
-The <i>dwFlags</i> parameter can only contain a combination of the  following control flags: <b>MSG_DONTROUTE</b>, <b>MSG_PARTIAL</b>, and <b>MSG_OOB</b>. The <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter is ignored on input and not used on output.
+The <i>dwFlags</i> parameter can only contain a combination of the  following control flags: <b>MSG_DONTROUTE</b>, <b>MSG_PARTIAL</b>, and <b>MSG_OOB</b>. The <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure pointed to by the <i>lpMsg</i> parameter is ignored on input and not used on output.
 
 
 <div class="alert"><b>Note</b>  The function pointer for the 
@@ -344,7 +344,7 @@ For nonoverlapped sockets, the <i>lpOverlapped</i> and <i>lpCompletionRoutine</i
 
 
 If this function is completed in an overlapped manner, it is the Winsock service provider's responsibility to capture this <a href="/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structure before returning from this call. This enables applications to build stack-based 
-<b>WSABUF</b> arrays pointed to by the <b>lpBuffers</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter.
+<b>WSABUF</b> arrays pointed to by the <b>lpBuffers</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure pointed to by the <i>lpMsg</i> parameter.
 
 For message-oriented sockets, care must be taken not to exceed the maximum message size of the underlying provider, which can be obtained by getting the value of socket option <b>SO_MAX_MSG_SIZE</b>. If the data is too long to pass atomically through the underlying protocol, the error <b>WSAEMSGSIZE</b> is returned and no data is transmitted.
 
@@ -384,7 +384,7 @@ The <i>dwFlags</i> input parameter can be used to influence the behavior of the 
 </table>
  </p>The possible values for <i>dwFlags</i> parameter are defined in the <i>Winsock2.h</i> header file.
 
-On output, the <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a>structure pointed to by the <i>lpMsg</i> parameter is not used. 
+On output, the <b>dwFlags</b> member of the <a href="/windows/desktop/api/ws2def/ns-ws2def-wsamsg">WSAMSG</a> structure pointed to by the <i>lpMsg</i> parameter is not used. 
 
 <h3><a id="Overlapped_Socket_I_O"></a><a id="overlapped_socket_i_o"></a><a id="OVERLAPPED_SOCKET_I_O"></a>Overlapped Socket I/O</h3>
 If an overlapped operation completes immediately, 

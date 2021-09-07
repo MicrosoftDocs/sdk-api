@@ -58,7 +58,7 @@ Defines a spatial audio directivity model for an <a href="/windows/desktop/api/s
 
  A cone-shaped directivity model
 
-### -field Cardiod
+### -field Cardioid
 
 ### -field Omni
 

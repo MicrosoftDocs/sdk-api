@@ -54,7 +54,7 @@ Exposes methods that provide access to underlining metadata content. This interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
+The <b>IWICMetadataReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICMetadataReader</b> also has these types of members:
 
 ## -remarks
 

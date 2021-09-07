@@ -208,7 +208,7 @@ This driver currently/previously controlled the associated device. This flag is 
 
 #### DNF_REQUESTADDITIONALSOFTWARE (Windows 7 and later versions of Windows)
 
-Set this flag if the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
+Set this flag if the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
 
 For more information, see the following Remarks section.
 
@@ -222,9 +222,9 @@ Reserved. For internal use only.
 
 ## -remarks
 
-Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> requires additional software that may or not be installed in the computer.
+Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> requires additional software that may or not be installed in the computer.
 
-After the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
+After the <a href="/windows-hardware/drivers/install/difx-guidelines">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
 
 <ol>
 <li>
@@ -242,8 +242,8 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b> flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
+
 
 ## -see-also
 

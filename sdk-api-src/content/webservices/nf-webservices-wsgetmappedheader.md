@@ -150,7 +150,7 @@ The input data was not in the expected format.
 </dl>
 </td>
 <td width="60%">
-There size quota of the heap was exceeded.
+The size quota of the heap was exceeded.
                 
 
 </td>

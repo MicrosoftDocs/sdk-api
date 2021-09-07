@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Gets or sets a pointer to pointer to an <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>object that Task scheduler uses to perform a task during Automatic maintenance.
+Gets or sets a pointer to pointer to an <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a> object that Task scheduler uses to perform a task during Automatic maintenance.
 
 This property is read/write.
 

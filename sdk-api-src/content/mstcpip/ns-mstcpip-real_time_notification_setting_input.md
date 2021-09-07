@@ -60,7 +60,7 @@ The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b> structure provides input setting
 
 ### -field TransportSettingId
 
-The transort setting ID.
+The transport setting ID.
 
 ### -field BrokerEventGuid
 

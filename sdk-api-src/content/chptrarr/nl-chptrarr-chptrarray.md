@@ -60,7 +60,7 @@ api_name:
 
 The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray</b> is a utility interface for array pointer management used for provider handling of WMI queries.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHPtrArray</b> class has these constructors.
+<h3><a id="constructors"></a>Constructors</h3>The <b>CHPtrArray</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -110,7 +110,7 @@ Removes all the <b>CHPtrArray</b> members from this array.
 </td>
 </tr>
 </table> 
-<h3><a id="operators"></a>Operators</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHPtrArray</b> class has these operators.
+<h3><a id="operators"></a>Operators</h3>The <b>CHPtrArray</b> class has these operators.
 <table>
 <tr>
 <th align="left" width="37%">Operator</th>

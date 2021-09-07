@@ -71,7 +71,7 @@ A pointer to a null-terminated string that contains text to be displayed in the 
 
                     
 
-<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writeable.
+<b>Windows 2000, Windows XP, Windows Server 2003</b>: If the string pointed to by this parameter contains a separator (#), then the string must be writable.
 
 <b>Windows Vista, Windows Server 2008</b>: This string cannot exceed 200 characters in length.
 

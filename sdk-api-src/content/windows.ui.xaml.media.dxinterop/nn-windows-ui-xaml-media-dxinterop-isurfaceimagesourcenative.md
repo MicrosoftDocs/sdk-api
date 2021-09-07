@@ -55,7 +55,7 @@ Provides the implementation of a shared fixed-size surface for Direct2D drawing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurfaceImageSourceNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceNative</b> also has these types of members:
+The <b>ISurfaceImageSourceNative</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurfaceImageSourceNative</b> also has these types of members:
 
 ## -remarks
 

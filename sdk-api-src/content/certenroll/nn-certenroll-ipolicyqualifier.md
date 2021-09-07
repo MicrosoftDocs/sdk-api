@@ -122,7 +122,7 @@ Unless one user notice in the chain duplicates another, all notices in the certi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPolicyQualifier</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifier</b> also has these types of members:
+The <b>IPolicyQualifier</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifier</b> also has these types of members:
 
 ## -see-also
 

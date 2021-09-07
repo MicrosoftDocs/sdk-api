@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_LEAKY_BUCKET_PAIR </b>structure describes the buffering requirements for a VBR file. This structure is used with the <a href="/windows/desktop/wmformat/asfleakybucketpairs">ASFLeakyBucketPairs</a> attribute.
+The <b>WM_LEAKY_BUCKET_PAIR</b> structure describes the buffering requirements for a VBR file. This structure is used with the <a href="/windows/desktop/wmformat/asfleakybucketpairs">ASFLeakyBucketPairs</a> attribute.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Size of the buffer window, in milliseconds.
 
 ## -remarks
 
-The <b>ASFLeakyBucketPairs</b> attribute gives a list of bit rates and corresponding buffer windows. For each bit rate, the <b>msBufferWindow</b> member indicates how much content the reader object will buffer before it begins playback. The size of the buffer in bytes equals <b>msBufferWinow</b> x <b>dwBitrate</b> / 8000.
+The <b>ASFLeakyBucketPairs</b> attribute gives a list of bit rates and corresponding buffer windows. For each bit rate, the <b>msBufferWindow</b> member indicates how much content the reader object will buffer before it begins playback. The size of the buffer in bytes equals <b>msBufferWindow</b> x <b>dwBitrate</b> / 8000.
 
 ## -see-also
 

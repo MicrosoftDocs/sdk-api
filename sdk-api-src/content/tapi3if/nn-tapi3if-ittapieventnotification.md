@@ -70,7 +70,7 @@ Please refer to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPIEventNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITTAPIEventNotification</b> also has these types of members:
+The <b>ITTAPIEventNotification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITTAPIEventNotification</b> also has these types of members:
 
 ## -see-also
 

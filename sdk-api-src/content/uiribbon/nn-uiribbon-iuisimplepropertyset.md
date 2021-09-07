@@ -56,7 +56,7 @@ When implemented by the host application, the method defined by this interface i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUISimplePropertySet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUISimplePropertySet</b> also has these types of members:
+The <b>IUISimplePropertySet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUISimplePropertySet</b> also has these types of members:
 
 ## -see-also
 

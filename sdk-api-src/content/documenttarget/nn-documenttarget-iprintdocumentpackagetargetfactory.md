@@ -54,5 +54,5 @@ Used with <a href="/windows/desktop/api/documenttarget/nn-documenttarget-iprintd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDocumentPackageTargetFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDocumentPackageTargetFactory</b> also has these types of members:
+The <b>IPrintDocumentPackageTargetFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDocumentPackageTargetFactory</b> also has these types of members:
 

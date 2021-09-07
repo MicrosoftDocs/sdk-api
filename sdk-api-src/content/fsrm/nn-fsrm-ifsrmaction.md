@@ -97,7 +97,7 @@ Use the <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaction
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAction</b> also has these types of members:
+The <b>IFsrmAction</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAction</b> also has these types of members:
 
 ## -remarks
 

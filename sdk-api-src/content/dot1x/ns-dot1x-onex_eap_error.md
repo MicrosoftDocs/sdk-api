@@ -461,7 +461,7 @@ The trusted root certificate needed for user certificate validation has expired.
 </dl>
 </td>
 <td width="60%">
-The EAPHost could not find a root certificate in the trusted root certificate store for server certificate velidation.
+The EAPHost could not find a root certificate in the trusted root certificate store for server certificate validation.
 
 </td>
 </tr>

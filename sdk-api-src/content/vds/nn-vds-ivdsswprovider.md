@@ -57,7 +57,7 @@ Provides methods to perform operations specific to the software provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsSwProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSwProvider</b> also has these types of members:
+The <b>IVdsSwProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsSwProvider</b> also has these types of members:
 
 ## -see-also
 

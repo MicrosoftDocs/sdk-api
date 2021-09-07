@@ -64,7 +64,7 @@ Receives a pointer to a null-terminated Unicode string containing the MIME type 
 
 Type: <b>DWORD</b>
 
-Size of <i>wszDocFormat</i>in <b>TCHAR</b><b>s</b>.
+Size of <i>wszDocFormat</i> in <b>TCHAR</b><b>s</b>.
 
 ### -param pdwLength [out]
 
@@ -76,7 +76,7 @@ Receives a pointer to the number of <b>TCHAR</b><b>s</b> written to <i>wszDocFor
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

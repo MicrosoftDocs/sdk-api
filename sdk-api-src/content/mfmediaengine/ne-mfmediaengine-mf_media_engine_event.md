@@ -143,7 +143,7 @@ The playback position has changed. See <a href="/windows/desktop/api/mfmediaengi
 
 ### -field MF_MEDIA_ENGINE_EVENT_ENDED
 
-Playback has reached the end of the source. This event is not sent if the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a>is <b>TRUE</b>.
+Playback has reached the end of the source. This event is not sent if the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getloop">GetLoop</a> is <b>TRUE</b>.
 
 ### -field MF_MEDIA_ENGINE_EVENT_RATECHANGE
 

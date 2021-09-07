@@ -56,7 +56,7 @@ This interface is not intended for non-playable files. If the <b>IWMDMObjectInfo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMObjectInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMObjectInfo</b> also has these types of members:
+The <b>IWMDMObjectInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMObjectInfo</b> also has these types of members:
 
 ## -see-also
 

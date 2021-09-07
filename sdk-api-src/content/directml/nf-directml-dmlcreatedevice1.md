@@ -105,6 +105,6 @@ This API was introduced in DirectML version `1.1.0`.
 
 ## -see-also
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
-* [DirectML feature level history](/windows/win32/direct3d12/dml-feature_level-history)    
-* [Using the DirectML debug layer](/windows/win32/direct3d12/dml-debug-layer)
+* [DirectML version history](/windows/ai/directml/dml-version-history)
+* [DirectML feature level history](/windows/ai/directml/dml-feature_level-history)    
+* [Using the DirectML debug layer](/windows/ai/directml/dml-debug-layer)

@@ -56,7 +56,7 @@ The <b>IUICollectionChangedEvent</b> interface is
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollectionChangedEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
+The <b>IUICollectionChangedEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollectionChangedEvent</b> also has these types of members:
 
 ## -remarks
 

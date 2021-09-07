@@ -57,12 +57,12 @@ The <b>INetFwRemoteAdminSettings</b> interface provides access to the settings t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRemoteAdminSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
+The <b>INetFwRemoteAdminSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwRemoteAdminSettings</b> also has these types of members:
 
 ## -remarks
 
 An
-instance of this interface is retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_remoteadminsettings">RemoteAdminSettings</a>property of the INetFwProfile interface. 
+instance of this interface is retrieved through the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwprofile-get_remoteadminsettings">RemoteAdminSettings</a> property of the INetFwProfile interface. 
 
 All configuration changes take
  effect immediately.

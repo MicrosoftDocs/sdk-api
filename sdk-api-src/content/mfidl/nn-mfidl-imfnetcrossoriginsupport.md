@@ -56,7 +56,7 @@ Implemented by clients that want to enforce a cross origin policy for HTML5 medi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCrossOriginSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCrossOriginSupport</b> also has these types of members:
+The <b>IMFNetCrossOriginSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCrossOriginSupport</b> also has these types of members:
 
 ## -remarks
 

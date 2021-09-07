@@ -82,7 +82,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a>state.
+This is returned if the channel is not in the <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a> state.
                 
 
 </td>

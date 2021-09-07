@@ -54,7 +54,7 @@ A collection of name strings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMNameCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMNameCollection</b> also has these types of members:
+The <b>IXpsOMNameCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMNameCollection</b> also has these types of members:
 
 ## -remarks
 

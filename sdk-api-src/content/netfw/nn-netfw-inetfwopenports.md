@@ -57,7 +57,7 @@ The <b>INetFwOpenPorts</b> interface is a standard Automation collection interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwOpenPorts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwOpenPorts</b> also has these types of members:
+The <b>INetFwOpenPorts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwOpenPorts</b> also has these types of members:
 
 ## -remarks
 

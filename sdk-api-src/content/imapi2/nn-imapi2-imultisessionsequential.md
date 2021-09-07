@@ -63,7 +63,7 @@ The following methods return a collection of <a href="/windows/desktop/api/imapi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionSequential</b> also has these types of members:
+The <b>IMultisessionSequential</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionSequential</b> also has these types of members:
 
 ## -remarks
 

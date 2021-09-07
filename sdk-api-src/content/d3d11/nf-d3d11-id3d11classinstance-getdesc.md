@@ -72,10 +72,10 @@ An instance is not restricted to being used for a single type in a single shader
 
 <ul>
 <li>A created instance will work for any shader that contains a type of the same type name.
-            For instance, a class instance created with the type name <b>DefaultShader</b> would work in any shader that contained a type <b>DefaultShader</b>even though several shaders could describe a different type.
+            For instance, a class instance created with the type name <b>DefaultShader</b> would work in any shader that contained a type <b>DefaultShader</b> even though several shaders could describe a different type.
           </li>
 <li>A gotten instance maps directly to an instance name/index in a shader.
-            A class instance aquired using GetClassInstance will work for any shader that contains a class instance of the name used to generate the runtime instance, the instance does not have to be the same type in all of the shaders it's used in.
+            A class instance acquired using GetClassInstance will work for any shader that contains a class instance of the name used to generate the runtime instance, the instance does not have to be the same type in all of the shaders it's used in.
           </li>
 </ul>
 An instance does not replace the importance of reflection for a particular shader since a gotten instance will not know its slot location and a created instance only specifies a type name.

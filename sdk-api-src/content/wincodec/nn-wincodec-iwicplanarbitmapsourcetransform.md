@@ -56,7 +56,7 @@ QueryInterface can be used to obtain this interface from the Windows provided im
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPlanarBitmapSourceTransform</b> also has these types of members:
+The <b>IWICPlanarBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPlanarBitmapSourceTransform</b> also has these types of members:
 
 ## -see-also
 

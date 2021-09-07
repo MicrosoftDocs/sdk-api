@@ -106,7 +106,7 @@ The requested bytes, in addition to already allocated bytes, exceed the size of 
 </dl>
 </td>
 <td width="60%">
-Insufficent memory to complete the operation.
+Insufficient memory to complete the operation.
 
 </td>
 </tr>

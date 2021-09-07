@@ -57,7 +57,7 @@ An <b>IMFASFProfile</b> interface exists for every ASF profile object. To create
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFProfile</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFProfile</b> also has these types of members:
+The <b>IMFASFProfile</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFProfile</b> also has these types of members:
 
 ## -see-also
 

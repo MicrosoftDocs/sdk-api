@@ -70,7 +70,7 @@ The number of font files, in element count, required to represent the font face.
 
 Type: <b>const <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>*</b>
 
-A font file object representing the font face.  Because <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>maintains its own references
+A font file object representing the font face.  Because <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a> maintains its own references
      to the input font file objects, you may release them after this call.
 
 ### -param faceIndex
@@ -96,7 +96,7 @@ When this method returns, contains an address of a pointer to the newly created 
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 

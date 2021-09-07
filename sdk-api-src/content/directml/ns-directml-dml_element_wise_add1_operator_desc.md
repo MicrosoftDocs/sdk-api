@@ -88,16 +88,16 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
-| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
-| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
-| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT32, UINT32 |
+| ATensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| BTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
 
 ### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
-| ATensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT32, UINT32 |
-| BTensor | Input | 4 to 5 | FLOAT32, FLOAT16, INT32, UINT32 |
-| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16, INT32, UINT32 |
+| ATensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
+| BTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
+| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16 |
 
 ### DML_FEATURE_LEVEL_2_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
@@ -108,4 +108,4 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 
 ## -see-also
 
-[Using fused operators for improved performance](/windows/win32/direct3d12/dml-fused-activations)
+[Using fused operators for improved performance](/windows/ai/directml/dml-fused-activations)

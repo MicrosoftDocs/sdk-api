@@ -109,11 +109,11 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncca
 
 ### -param punkState [in, optional]
 
-A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object impemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object implemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>.
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
@@ -125,7 +125,7 @@ This method requests the object to create either a byte stream or a media source
 </ul>
 The method is performed asynchronously. The Media Engine calls the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-endcreateobject">IMFMediaEngineExtension::EndCreateObject</a> method to complete the operation.
 
-<h3><a id="Implemention_Notes"></a><a id="implemention_notes"></a><a id="IMPLEMENTION_NOTES"></a>Implemention Notes</h3>
+<h3><a id="Implemention_Notes"></a><a id="implemention_notes"></a><a id="IMPLEMENTION_NOTES"></a>Implementation Notes</h3>
 A Media Engine extension can be used to support a custom byte stream object, a custom media source, or both. For a byte stream, create the byte stream object when <i>type</i> equals <b>MF_OBJECT_BYTESTREAM</b>. For a media source, create the source when the type equals <b>MF_OBJECT_MEDIASOURCE</b>.
 
 To load a URL, the Media Engine performs the following steps:<ol>

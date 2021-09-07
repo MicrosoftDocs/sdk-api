@@ -208,7 +208,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszDeviceName, DEVICE_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszDeviceType, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASENTRY structure initilization failed!\n");
+        wprintf(L"RASENTRY structure initialization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpentry);
         return 0;
     }
@@ -248,7 +248,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpCred->szDomain, DNLEN, lpszDomainName, DOMAIN_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpCred->szUserName, UNLEN, lpszUserName, USER_NAME_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASCREDENTIALS structure initilization failed!\n");
+        wprintf(L"RASCREDENTIALS structure initialization failed!\n");
         HeapFree(GetProcessHeap(), 0, lpCred);
         return 0;
     }

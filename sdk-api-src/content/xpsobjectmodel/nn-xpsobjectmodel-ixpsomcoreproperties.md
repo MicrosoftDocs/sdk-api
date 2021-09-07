@@ -56,7 +56,7 @@ The contents of the Core Properties part are described in  the 1st edition, Part
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMCoreProperties</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMCoreProperties</b> also has these types of members:
+The <b>IXpsOMCoreProperties</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompart">IXpsOMPart</a>. <b>IXpsOMCoreProperties</b> also has these types of members:
 
 ## -remarks
 

@@ -75,5 +75,5 @@ The ID of the new snapshot to be applied to the VHD set.
 
 ### -field Version1.LeafSnapshotId
 
-Indicates whether the current default leaf data should be retained as part of the apply operation. When a zero GUID is specified, the apply operation will discard the current default leaf data. When a non-zero GUID is specified, the apply operation will convert the default leaf data into a writeable snapshot with the specified ID.
+Indicates whether the current default leaf data should be retained as part of the apply operation. When a zero GUID is specified, the apply operation will discard the current default leaf data. When a non-zero GUID is specified, the apply operation will convert the default leaf data into a writable snapshot with the specified ID.
 

@@ -77,7 +77,7 @@ This callback function does not return a value.
 When defined, callback would disallow all concurrency on a session based channel. If concurrency on a session based channel is desirable an application should not define <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> on the <a href="/windows/desktop/api/webservices/ns-webservices-ws_service_contract">WS_SERVICE_CONTRACT</a>.
                 
 
-At the time of the invocation of the callback, service model has performed <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> on the receiving <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is the responsibility of the application implementing <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i>to process the body and perform <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> operation.
+At the time of the invocation of the callback, service model has performed <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessagestart">WsReadMessageStart</a> on the receiving <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a>. It is the responsibility of the application implementing <i>WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</i> to process the body and perform <a href="/windows/desktop/api/webservices/nf-webservices-wsreadmessageend">WsReadMessageEnd</a> operation.
  
 If the callback fails, the underlying channel is aborted.
                 

@@ -144,7 +144,7 @@ DWORD __cdecl wmain(){
     dwError |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     
     if (dwError != S_OK){
-        wprintf(L"Structure initilization failed: Error = %d\n", dwError);
+        wprintf(L"Structure initialization failed: Error = %d\n", dwError);
         HeapFree(GetProcessHeap(), 0, lpentry);
         HeapFree(GetProcessHeap(), 0, lpInfo);
         return 0;

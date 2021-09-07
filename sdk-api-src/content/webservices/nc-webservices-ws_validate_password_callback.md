@@ -66,7 +66,7 @@ but it will never be invoked when a channel is not open.  In the
 current drop, this callback is always invoked synchronously.  In the
 next drop, this callback will be invoked synchronously for synchronous
 message receives and asynchronously for asynchronous message receives,
-but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a>when it is invoked asynchronously.
+but it will always be invoked <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">short</a> when it is invoked asynchronously.
 
 ## -parameters
 

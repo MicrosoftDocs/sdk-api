@@ -54,5 +54,5 @@ Provides a method for retrieving the target monitor for the application being la
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
+The <b>ILaunchTargetMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
 

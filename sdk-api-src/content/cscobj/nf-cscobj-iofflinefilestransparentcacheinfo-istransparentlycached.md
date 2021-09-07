@@ -65,7 +65,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -remarks
 
-A transparently cached item is cached locally. However, it can be accessed only when the server is available and the user is online with respect to that server. If the cached version of the file matches the currect version of the file on the server, requests to read data will be satisfied from the cache rather than requesting the data from the server.
+A transparently cached item is cached locally. However, it can be accessed only when the server is available and the user is online with respect to that server. If the cached version of the file matches the correct version of the file on the server, requests to read data will be satisfied from the cache rather than requesting the data from the server.
 
 ## -see-also
 

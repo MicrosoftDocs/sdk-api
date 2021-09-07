@@ -54,5 +54,5 @@ Exposes methods that provide information about a pixel format converter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFormatConverterInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICFormatConverterInfo</b> also has these types of members:
+The <b>IWICFormatConverterInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICFormatConverterInfo</b> also has these types of members:
 

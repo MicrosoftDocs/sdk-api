@@ -54,5 +54,5 @@ The <b>ITfCandidateListUIElement</b> interface is implemented by a text service 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
+The <b>ITfCandidateListUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
 

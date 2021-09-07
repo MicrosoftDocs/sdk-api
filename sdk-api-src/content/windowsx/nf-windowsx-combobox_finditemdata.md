@@ -64,7 +64,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The zero-based index of the item before the first item to be searched. When the search reaches the bottom of the list, it continues searching from the top of the list back to the item specified by the <i>indexStart</i> parameter. If <i>indexStart</i>  is –1, the entire listis searched from the beginning.
+The zero-based index of the item before the first item to be searched. When the search reaches the bottom of the list, it continues searching from the top of the list back to the item specified by the <i>indexStart</i> parameter. If <i>indexStart</i> is –1, the entire list is searched from the beginning.
 
 ### -param data
 

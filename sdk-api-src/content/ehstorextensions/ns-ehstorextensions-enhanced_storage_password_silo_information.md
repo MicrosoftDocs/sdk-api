@@ -88,7 +88,7 @@ Total number of authentication attempts attempted on this silo using the adminis
 
 ### -field ITMSArmed
 
-<b>TRUE</b> if the silo is set to prepare for initalization to the default state set by the manufacturer; otherwise, <b>FALSE</b>.
+<b>TRUE</b> if the silo is set to prepare for initialization to the default state set by the manufacturer; otherwise, <b>FALSE</b>.
 
 ### -field ITMSArmable
 

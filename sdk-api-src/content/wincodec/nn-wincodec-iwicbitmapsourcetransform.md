@@ -55,7 +55,7 @@ Exposes methods for offloading certain operations to the underlying <a href="/wi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSourceTransform</b> also has these types of members:
+The <b>IWICBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSourceTransform</b> also has these types of members:
 
 ## -remarks
 

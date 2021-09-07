@@ -56,7 +56,7 @@ Provides access to the current object's context. An object's context is primaril
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ObjectContext</b> also has these types of members:
+The <b>ObjectContext</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ObjectContext</b> also has these types of members:
 
 ## -see-also
 

@@ -54,7 +54,7 @@ Exposes methods that retrieve information about a Shell item. <b>IShellItem</b> 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItem</b> also has these types of members:
+The <b>IShellItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItem</b> also has these types of members:
 <ul>
 <li><a href="/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellitem#methods">Methods</a></li>
 </ul>

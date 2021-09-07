@@ -86,7 +86,7 @@ A string containing all characters that are not valid for this file system type.
 
 ## -remarks
 
-The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a>method returns this structure to report the property details of a file-system type.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">IVdsService::QueryFileSystemTypes</a> method returns this structure to report the property details of a file-system type.
 
 ## -see-also
 

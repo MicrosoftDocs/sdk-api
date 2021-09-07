@@ -58,7 +58,7 @@ A meta command can encapsulate a set of pipeline state objects (PSOs), bindings,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12MetaCommand</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12MetaCommand</b> also has these types of members:
+The <b>ID3D12MetaCommand</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12MetaCommand</b> also has these types of members:
 
 ## -see-also
 

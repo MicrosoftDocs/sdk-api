@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Instructs the writer to invoke the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">callback</a>specified in <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> if sufficient data has been buffered.
+Instructs the writer to invoke the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_stream_output">callback</a> specified in <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a> if sufficient data has been buffered.
 
 ## -parameters
 

@@ -66,7 +66,7 @@ This security binding is not supported with the <a href="/windows/desktop/api/we
 
 For a <a href="/windows/desktop/wsw/federation">federated security</a> scenario that
 involves getting a security token from an issuer and then presenting
-it to a service, one may use <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WsRequestSecurityToken</a>together with the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
+it to a service, one may use <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WsRequestSecurityToken</a> together with the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
 the client side, and this binding on the server side.
            
 

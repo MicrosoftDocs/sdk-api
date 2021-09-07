@@ -66,7 +66,7 @@ On success,
 
 ## -remarks
 
-The <b>if_nametoindex</b> function is available on Windows Vistaand later.
+The <b>if_nametoindex</b> function is available on Windows Vista and later.
 
 The <b>if_nametoindex</b> function maps an interface name into its corresponding
    index. This function is designed as part of basic socket extensions for IPv6 as described by the IETF in RFC 2553. For more information, see <a href="http://tools.ietf.org/html/rfc2553">http://www.ietf.org/rfc/rfc2553.txt</a>. 

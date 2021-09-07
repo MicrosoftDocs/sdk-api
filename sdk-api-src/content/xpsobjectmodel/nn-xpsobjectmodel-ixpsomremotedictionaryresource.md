@@ -54,7 +54,7 @@ Provides an interface that enables pages in an XPS package to  share resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMRemoteDictionaryResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMRemoteDictionaryResource</b> also has these types of members:
+The <b>IXpsOMRemoteDictionaryResource</b> interface inherits from <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>. <b>IXpsOMRemoteDictionaryResource</b> also has these types of members:
 
 ## -see-also
 

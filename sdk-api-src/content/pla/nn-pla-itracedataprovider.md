@@ -58,7 +58,7 @@ You can also use XML to define the provider. For more information, see the Remar
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProvider</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITraceDataProvider</b> also has these types of members:
+The <b>ITraceDataProvider</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITraceDataProvider</b> also has these types of members:
 
 ## -remarks
 

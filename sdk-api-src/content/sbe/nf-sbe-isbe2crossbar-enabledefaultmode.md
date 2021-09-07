@@ -84,7 +84,7 @@ Enables profile default mode. The default profile is used, and you cannot specif
 </dl>
 </td>
 <td width="60%">
-Enables stream default mode. The Stream Buffer Enging (SBE) handles the mapping between streams and output pins, and you cannot change these mappings by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a> method. If you omit this flag, stream default mode is disabled,  so that you can specify a custom mapping.
+Enables stream default mode. The Stream Buffer Engine (SBE) handles the mapping between streams and output pins, and you cannot change these mappings by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a> method. If you omit this flag, stream default mode is disabled, so that you can specify a custom mapping.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Enables stream default mode. The Stream Buffer Enging (SBE) handles the mapping 
 
 ## -returns
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 

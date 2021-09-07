@@ -54,7 +54,7 @@ The IManipulationProcessor provides functionality for monitoring and responding 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManipulationProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManipulationProcessor</b> also has these types of members:
+The <b>IManipulationProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManipulationProcessor</b> also has these types of members:
 
 ## -see-also
 

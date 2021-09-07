@@ -74,7 +74,7 @@ A caller-supplied value created by using OR to combine zero or more of the follo
 
 #### INSTALLFLAG_FORCE
 
-If this flag is set and the function finds a device that matches the <i>HardwareId </i>value, the function installs new drivers for the device whether better drivers already exist on the computer. 
+If this flag is set and the function finds a device that matches the <i>HardwareId </i> value, the function installs new drivers for the device whether better drivers already exist on the computer. 
 
 <div class="alert"><b>Important</b>  Use this flag only with extreme caution. Setting this flag can cause an older driver to be installed over a newer driver, if a user runs the vendor's application after newer drivers are available.</div>
 <div> </div>

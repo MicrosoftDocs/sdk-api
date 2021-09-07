@@ -56,7 +56,7 @@ An instance of this interface is associated with a specific instance of the <a h
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
+The <b>IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
 
 ## -remarks
 

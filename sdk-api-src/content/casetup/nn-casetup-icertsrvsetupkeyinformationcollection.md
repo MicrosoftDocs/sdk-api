@@ -54,5 +54,5 @@ The <b>ICertSrvSetupKeyInformationCollection</b> interface defines functionality
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
+The <b>ICertSrvSetupKeyInformationCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICertSrvSetupKeyInformationCollection</b> also has these types of members:
 

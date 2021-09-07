@@ -61,7 +61,7 @@ The properties and methods of <b>IMbnInterface</b> return the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnInterface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnInterface</b> also has these types of members:
+The <b>IMbnInterface</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnInterface</b> also has these types of members:
 
 ## -remarks
 

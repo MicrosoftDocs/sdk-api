@@ -56,7 +56,7 @@ Specifies the OS-provided adapter memory budget, in bytes, that your application
 
 Type: **uint64_t**
 
-Specifies your applicaton's current adapter memory usage, in bytes.
+Specifies your application's current adapter memory usage, in bytes.
 
 ### -field availableForReservation
 

@@ -60,7 +60,7 @@ Provides methods and properties used to create a session, represented by a <a hr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSMan</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSMan</b> also has these types of members:
+The <b>IWSMan</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSMan</b> also has these types of members:
 
 ## -see-also
 

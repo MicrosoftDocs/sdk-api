@@ -54,7 +54,7 @@ A collection of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMColorProfileResourceCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMColorProfileResourceCollection</b> also has these types of members:
+The <b>IXpsOMColorProfileResourceCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMColorProfileResourceCollection</b> also has these types of members:
 
 ## -remarks
 

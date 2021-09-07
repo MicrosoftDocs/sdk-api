@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
+The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> registry key, the <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 
 ## -parameters
 

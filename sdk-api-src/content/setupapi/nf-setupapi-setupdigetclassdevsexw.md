@@ -58,7 +58,7 @@ The <b>SetupDiGetClassDevsEx</b> function returns a handle to a <a href="/window
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID for a <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. If a GUID value is not used to select devices, set <i>ClassGuid</i> to <b>NULL</b>. For more information about how to use <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. This pointer is optional and can be <b>NULL</b>. If a GUID value is not used to select devices, set <i>ClassGuid</i> to <b>NULL</b>. For more information about how to use <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 ### -param Enumerator [in, optional]
 
@@ -163,7 +163,7 @@ If the operation succeeds, <b>SetupDiGetClassDevsEx</b> returns a handle to a <a
 
 The caller of <b>SetupDiGetClassDevsEx</b> must delete the returned device information set when it is no longer needed by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>. 
 
-If <i>DeviceInfoSet</i> is <b>NULL</b>, <b>SetupDiGetClassDevsEx</b> creates a new device information set that contains the retrieved device information elements and returns a handle to the new device information set. If the caller requests that the function retrieve devices for a device setup class that is supplied by the <i>ClassGuid </i>parameter, the function sets the device setup class of the new device information set to the supplied class GUID.  
+If <i>DeviceInfoSet</i> is <b>NULL</b>, <b>SetupDiGetClassDevsEx</b> creates a new device information set that contains the retrieved device information elements and returns a handle to the new device information set. If the caller requests that the function retrieve devices for a device setup class that is supplied by the <i>ClassGuid </i> parameter, the function sets the device setup class of the new device information set to the supplied class GUID.  
 
 If <i>DeviceInfoSet</i> is not set to <b>NULL</b>, the function adds the retrieved device information elements to the device information set that is associated with the supplied handle, and returns the supplied handle. If <i>ClassGuid</i> supplies a device setup class, the device setup class of the supplied device information set must be set to the supplied class GUID. 
 
@@ -242,7 +242,7 @@ An installer can use <b>SetupDiGetClassDevsEx</b> to retrieve a list of devices 
 
 <ol>
 <li>
-Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoList</a> to create an empty device information set for the "Volume" device setup class. Set <i>ClassGuid</i> to a pointer to the class GUID for the "Volume" device setup class and set <i>hwndParent </i>as appropriate. In response to such a call, the function will return a handle to type HDEVINFO to the device information set.
+Call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolistexa">SetupDiCreateDeviceInfoList</a> to create an empty device information set for the "Volume" device setup class. Set <i>ClassGuid</i> to a pointer to the class GUID for the "Volume" device setup class and set <i>hwndParent</i> as appropriate. In response to such a call, the function will return a handle to type HDEVINFO to the device information set.
 
 </li>
 <li>Call <b>SetupDiGetClassDevsEx</b> with the following settings:<ul>

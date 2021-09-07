@@ -57,5 +57,5 @@ Call the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIManagerEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIManagerEventSink</b> also has these types of members:
+The <b>IUIManagerEventSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIManagerEventSink</b> also has these types of members:
 

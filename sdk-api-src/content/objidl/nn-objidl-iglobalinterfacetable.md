@@ -54,7 +54,7 @@ Enables any apartment in a process to get access to an interface implemented on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
+The <b>IGlobalInterfaceTable</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
 
 ## -remarks
 

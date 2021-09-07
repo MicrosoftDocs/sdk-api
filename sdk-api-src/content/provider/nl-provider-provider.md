@@ -64,7 +64,7 @@ The <b>Provider</b> class is the base class for the class or classes that the fr
 
 An instance of the <b>Provider</b> class is created for each WMI class that has a framework provider.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">Provider</b> has these types of members:
+<b>Provider</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>

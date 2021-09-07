@@ -96,7 +96,7 @@ None of the following values apply.
 </dl>
 </td>
 <td width="60%">
-The local computer on this router is an rendezvous point (RP)/core router for the multicast group.
+The local computer on this router is a rendezvous point (RP)/core router for the multicast group.
 
 </td>
 </tr>

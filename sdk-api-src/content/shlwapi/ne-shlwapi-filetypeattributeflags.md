@@ -158,7 +158,7 @@ The following example shows the <b><b>FTA_NoRemove</b></b> (0x00000010) and <b><
       (Default) = MyProgram Application
       <b>EditFlags</b> = 0x00000030</pre>\
 
-APIs such as <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> can retrieve that EditFlags data. Compare the numerical equivalents of these <b>FILETYPEATTRIBUTEFLAGS</b> flags against that retrived value to determine which flags are set.
+APIs such as <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> can retrieve that EditFlags data. Compare the numerical equivalents of these <b>FILETYPEATTRIBUTEFLAGS</b> flags against that retrieved value to determine which flags are set.
 
 The following example demonstrates the use of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to determine if those values are set.
 

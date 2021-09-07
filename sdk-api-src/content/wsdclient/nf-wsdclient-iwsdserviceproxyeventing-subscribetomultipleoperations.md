@@ -56,7 +56,7 @@ Subscribes to a collection of notifications or solicit/response events.
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations of whcih to subscribe.
+Pointer to an array of references to <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations of whiCh to subscribe.
 
 ### -param dwOperationCount [in]
 

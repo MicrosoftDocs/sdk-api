@@ -54,7 +54,7 @@ Incrementally writes the parts of an XPS document to  a package file.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackageWriter</b> also has these types of members:
+The <b>IXpsOMPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackageWriter</b> also has these types of members:
 
 ## -remarks
 

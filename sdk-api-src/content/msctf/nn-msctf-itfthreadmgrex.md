@@ -54,7 +54,7 @@ The <b>ITfThreadMgrEx</b> interface is used by the application to activate the t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfThreadMgrEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgrEx</b> also has these types of members:
+The <b>ITfThreadMgrEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfThreadMgrEx</b> also has these types of members:
 
 ## -see-also
 

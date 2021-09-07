@@ -55,7 +55,7 @@ The blend-variable interface accesses blend state.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectBlendVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectBlendVariable</b> also has these types of members:
+The <b>ID3D10EffectBlendVariable</b> interface inherits from <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>. <b>ID3D10EffectBlendVariable</b> also has these types of members:
 
 ## -remarks
 
