@@ -56,19 +56,19 @@ Simple description of a color space.
 
 ### -field redPrimary
 
-The XY coordinates of the red primary in CIEXYZ space.
+The xy coordinates of the red primary in the CIExyY color space.
 
 ### -field greenPrimary
 
-The XY coordinates of the green primary in CIEXYZ space.
+The xy coordinates of the green primary in the CIExyY color space.
 
 ### -field bluePrimary
 
-The XY coordinates of the blue primary in CIEXYZ space.
+The xy coordinates of the blue primary in the CIExyY color space.
 
 ### -field whitePointXZ
 
-The X/Z tristimulus values for the whitepoint, normalized for relative luminance.
+The XZ tristimulus values for the whitepoint in the CIEXYZ color space, normalized to luminance (Y) of 1.
 
 ### -field gamma
 
