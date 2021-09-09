@@ -60,11 +60,11 @@ Copies data into a key in the specified section of an initialization file. As it
 
 ### -param lpszSection [in]
 
-The name of the section to which the string will be copied. If the section does not exist, it is created. The name of the section is case independent, the string can be any combination of uppercase and lowercase letters.
+The name of the section to which the struct data will be copied. If the section does not exist, it is created. The name of the section is case independent.
 
 ### -param lpszKey [in]
 
-The name of the key to be associated with a string. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
+The name of the key to be associated with a struct. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
 
 ### -param lpStruct [in]
 
@@ -82,7 +82,7 @@ If the file was created using Unicode characters, the function writes Unicode ch
 
 ## -returns
 
-If the function successfully copies the string to the initialization file, the return value is nonzero.
+If the function successfully copies the struct to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -94,7 +94,7 @@ A section in the initialization file must have the following form:
 			
 
 <pre class="syntax" xml:space="preserve"><code>[section]
-key=string
+key=struct
       .
       .
       .</code></pre>
