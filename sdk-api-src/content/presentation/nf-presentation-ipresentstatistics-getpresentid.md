@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentStatistics.GetPresentId
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentStatistics::GetPresentId
 ms.date: 06/08/2021
 targetos: Windows

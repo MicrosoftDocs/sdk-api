@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy
-tech.root: composition_presentation
+tech.root: directcomp
 title: IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy
 ms.date: 06/08/2021
 targetos: Windows

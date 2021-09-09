@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.ICompositionFramePresentStatistics.GetContentTag
-tech.root: composition_presentation
+tech.root: directcomp
 title: ICompositionFramePresentStatistics::GetContentTag
 ms.date: 06/08/2021
 targetos: Windows

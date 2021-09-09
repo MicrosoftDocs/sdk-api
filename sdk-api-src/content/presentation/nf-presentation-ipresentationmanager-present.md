@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.Present
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentationManager::Present
 ms.date: 06/08/2021
 targetos: Windows

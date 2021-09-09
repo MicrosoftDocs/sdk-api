@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.CreatePresentationFactory
-tech.root: composition_presentation
+tech.root: directcomp
 title: CreatePresentationFactory
 ms.date: 06/08/2021
 targetos: Windows
@@ -48,7 +48,7 @@ Creates a presentation factory.
 
 ### -param d3dDevice
 
-Type: **[IUnkown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
+Type: **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
 The D3D device the presentation factory is bound to.
 
@@ -62,7 +62,7 @@ A reference to the interface identifier (IID) of the presentation factory.
 
 Type: **[void](/windows/desktop/winprog/windows-data-types)\*\***
 
-The address of a pointer to an interface with the IID specified in the _`riid`_ parameter.
+The address of a pointer to an interface with the IID specified in the *riid* parameter.
 
 ## -returns
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.SetPreferredPresentDuration
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentationManager::SetPreferredPresentDuration
 ms.date: 06/08/2021
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.CancelPresentsFrom
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentationManager::CancelPresentsFrom
 ms.date: 06/08/2021
 targetos: Windows

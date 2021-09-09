@@ -4,7 +4,7 @@ title: Presentation.h header
 ms.date: 06/08/2021
 ms.keywords: 
 ms.topic: conceptual
-tech.root: composition_presentation
+tech.root: directcomp
 f1_keywords:
  - presentation
  - presentation/presentation
@@ -15,7 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows UI composition. For more information, see:
+This header is used by DirectComposition. For more information, see:
 
-- [Windows UI Composition](../_composition_presentation/index.md)
+- [DirectComposition](../_directcomp/index.md)
 

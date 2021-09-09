@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationSurface.RestrictToOutput
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentationSurface::RestrictToOutput
 ms.date: 06/08/2021
 targetos: Windows

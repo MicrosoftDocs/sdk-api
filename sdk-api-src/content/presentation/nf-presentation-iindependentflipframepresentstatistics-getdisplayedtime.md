@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetDisplayedTime
-tech.root: composition_presentation
+tech.root: directcomp
 title: IIndependentFlipFramePresentStatistics::GetDisplayedTime
 ms.date: 06/08/2021
 targetos: Windows

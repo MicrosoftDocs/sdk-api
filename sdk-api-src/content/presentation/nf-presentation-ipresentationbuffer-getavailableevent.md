@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationBuffer.GetAvailableEvent
-tech.root: composition_presentation
+tech.root: directcomp
 title: IPresentationBuffer::GetAvailableEvent
 ms.date: 06/08/2021
 targetos: Windows

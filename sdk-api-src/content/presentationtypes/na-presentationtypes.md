@@ -1,6 +1,6 @@
 ---
 UID: NA:presentationtypes
-tech.root: composition_presentation
+tech.root: directcomp
 title: presentationtypes
 ms.date: 06/08/2021
 targetos: Windows
