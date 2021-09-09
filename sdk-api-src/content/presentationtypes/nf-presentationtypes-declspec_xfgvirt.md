@@ -1,6 +1,6 @@
 ---
 UID: NF:presentationtypes.DECLSPEC_XFGVIRT
-tech.root: composition_presentation
+tech.root: directcomp
 title: DECLSPEC_XFGVIRT
 ms.date: 06/08/2021
 targetos: Windows
@@ -9,13 +9,13 @@ prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: dcomp.dll
 req.header: presentationtypes.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: dcomp.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

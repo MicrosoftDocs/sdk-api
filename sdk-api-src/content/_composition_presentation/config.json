@@ -1,8 +1,0 @@
-{
-  "tech": "composition_presentation",
-  "headers": [
-    "presentation.h",
-    "presentationtypes.h"
-  ],
-  "displayName": "Composition Presentation"
-}
