@@ -1,6 +1,6 @@
 ---
 UID: NN:presentation.IPresentationSurface
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface
 ms.date: 06/08/2021
 targetos: Windows

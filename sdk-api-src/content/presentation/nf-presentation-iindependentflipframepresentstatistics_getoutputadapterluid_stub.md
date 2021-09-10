@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Stub
 ms.date: 06/08/2021
 targetos: Windows

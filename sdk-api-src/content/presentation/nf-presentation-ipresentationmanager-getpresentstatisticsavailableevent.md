@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.GetPresentStatisticsAvailableEvent
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::GetPresentStatisticsAvailableEvent
 ms.date: 06/08/2021
 targetos: Windows

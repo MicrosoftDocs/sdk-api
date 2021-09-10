@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetOutputVidPnSourceId
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetOutputVidPnSourceId
 ms.date: 06/08/2021
 targetos: Windows

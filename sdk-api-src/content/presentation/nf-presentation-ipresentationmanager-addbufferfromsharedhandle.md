@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.AddBufferFromSharedHandle
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::AddBufferFromSharedHandle
 ms.date: 06/08/2021
 targetos: Windows

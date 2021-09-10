@@ -1,6 +1,6 @@
 ---
 UID: NE:presentation.PresentStatus
-tech.root: directcomp
+tech.root: comp_swapchain
 title: PresentStatus
 ms.date: 06/08/2021
 targetos: Windows

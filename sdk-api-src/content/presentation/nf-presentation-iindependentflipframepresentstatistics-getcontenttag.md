@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetContentTag
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetContentTag
 ms.date: 06/08/2021
 targetos: Windows

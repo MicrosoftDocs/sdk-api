@@ -1,6 +1,6 @@
 ---
 UID: NE:presentationtypes.PresentStatisticsKind
-tech.root: directcomp
+tech.root: comp_swapchain
 title: PresentStatisticsKind
 ms.date: 06/08/2021
 targetos: Windows

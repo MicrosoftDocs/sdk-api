@@ -1,6 +1,6 @@
 ---
 UID: NA:presentation
-tech.root: directcomp
+tech.root: comp_swapchain
 title: presentation
 ms.date: 06/08/2021
 targetos: Windows

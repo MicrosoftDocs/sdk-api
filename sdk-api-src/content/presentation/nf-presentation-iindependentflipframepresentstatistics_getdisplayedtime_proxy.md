@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetDisplayedTime_Proxy
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetDisplayedTime_Proxy
 ms.date: 06/08/2021
 targetos: Windows

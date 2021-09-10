@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationSurface.SetBuffer
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface::SetBuffer
 ms.date: 06/08/2021
 targetos: Windows

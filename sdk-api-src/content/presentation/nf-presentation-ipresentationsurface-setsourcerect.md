@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationSurface.SetSourceRect
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface::SetSourceRect
 ms.date: 06/08/2021
 targetos: Windows

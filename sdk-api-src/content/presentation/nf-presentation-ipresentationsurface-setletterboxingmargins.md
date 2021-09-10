@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationSurface.SetLetterboxingMargins
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface::SetLetterboxingMargins
 ms.date: 06/08/2021
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.CreatePresentationFactory
-tech.root: directcomp
+tech.root: comp_swapchain
 title: CreatePresentationFactory
 ms.date: 06/08/2021
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationSurface.SetAlphaMode
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface::SetAlphaMode
 ms.date: 06/08/2021
 targetos: Windows

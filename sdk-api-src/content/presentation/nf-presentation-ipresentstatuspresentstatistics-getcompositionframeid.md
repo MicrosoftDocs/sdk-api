@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentStatusPresentStatistics.GetCompositionFrameId
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentStatusPresentStatistics::GetCompositionFrameId
 ms.date: 06/08/2021
 targetos: Windows

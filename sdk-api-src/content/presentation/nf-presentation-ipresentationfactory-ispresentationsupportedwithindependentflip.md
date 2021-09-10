@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationFactory.IsPresentationSupportedWithIndependentFlip
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationFactory::IsPresentationSupportedWithIndependentFlip
 ms.date: 06/08/2021
 targetos: Windows

@@ -3,9 +3,7 @@
   "headers": [
     "dcomp.h",
     "dcompanimation.h",
-    "dcomptypes.h",
-    "presentation.h",
-    "presentationtypes.h"
+    "dcomptypes.h"
  ],
   "displayName": "DirectComposition"
 }

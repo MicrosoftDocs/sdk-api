@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationFactory.IsPresentationSupported
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationFactory::IsPresentationSupported
 ms.date: 06/08/2021
 targetos: Windows

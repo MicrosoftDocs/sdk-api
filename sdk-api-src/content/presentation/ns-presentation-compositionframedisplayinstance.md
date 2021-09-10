@@ -1,6 +1,6 @@
 ---
 UID: NS:presentation.CompositionFrameDisplayInstance
-tech.root: directcomp
+tech.root: comp_swapchain
 title: CompositionFrameDisplayInstance
 ms.date: 06/08/2021
 targetos: Windows

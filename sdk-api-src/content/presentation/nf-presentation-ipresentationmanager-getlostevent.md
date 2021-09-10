@@ -1,6 +1,6 @@
 ---
 UID: NF:presentation.IPresentationManager.GetLostEvent
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::GetLostEvent
 ms.date: 06/08/2021
 targetos: Windows
