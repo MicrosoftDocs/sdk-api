@@ -1,22 +1,22 @@
 ---
 UID: TP:comp_swapchain
-title: Composition SwapChain
+title: Composition swapchain
 ms.date: 09/10/2021
 ms.keywords: 
 ms.topic: conceptual
 ---
 
-# Composition SwapChain
+# Composition swapchain
 
 ## -description
 
-Overview of the Composition SwapChain technology.
+Overview of the composition swapchain technology.
 
-To develop Composition SwapChain, you need these headers:
+To develop with composition swapchain, you need these headers:
 
  * [presentation.h](../presentation/index.md)
  * [presentationtypes.h](../presentationtypes/index.md)
 
 For programming guidance for this technology, see:
-* [Composition SwapChain](/windows/win32/comp_swapchain)
+* [Composition swapchain](/windows/win32/comp_swapchain)
 
