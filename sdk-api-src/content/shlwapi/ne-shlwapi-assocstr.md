@@ -140,7 +140,8 @@ This type of string will identify the code that will be invoked in the implement
 
 ### -field ASSOCSTR_SUPPORTED_URI_PROTOCOLS
 
-<b>Introduced in Windows 8</b>.
+<b>Introduced in Windows 8</b>. 
+A string value of the uri protocol schemes, for example "http:https:ftp:file:" or "*" indicating all.
 
 ### -field ASSOCSTR_PROGID
 
