@@ -144,19 +144,19 @@ This type of string will identify the code that will be invoked in the implement
 
 ### -field ASSOCSTR_PROGID
 
-The ProgID provided by the app associated with the file type or URI scheme. This if configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The ProgID provided by the app associated with the file type or URI scheme. This if configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPID
 
-The AppUserModelID of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The AppUserModelID of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPPUBLISHER
 
-The publisher of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The publisher of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_APPICONREFERENCE
 
-The icon reference of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
+<b>Introduced in Windows 10</b>. The icon reference of the app associated with the file type or URI scheme. This is configured by users in their default program settings.
 
 ### -field ASSOCSTR_MAX
 
