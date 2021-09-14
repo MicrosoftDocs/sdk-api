@@ -128,13 +128,13 @@ Corresponds to the InfoTip registry value. Returns an info tip for an item, or l
 
 ### -field ASSOCSTR_DROPTARGET
 
-<b>Introduced in Internet Explorer 8</b>.. For a verb invoked through COM and the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface, you can use this flag to retrieve the <b>IDropTarget</b> object's CLSID. This CLSID is registered in the <b>DropTarget</b> subkey. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
+<b>Introduced in Internet Explorer 8</b>. For a verb invoked through COM and the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface, you can use this flag to retrieve the <b>IDropTarget</b> object's CLSID. This CLSID is registered in the <b>DropTarget</b> subkey. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
 
 This type of string will identify the code that will be invoked in the implementation of the verb.
 
 ### -field ASSOCSTR_DELEGATEEXECUTE
 
-<b>Introduced in Internet Explorer 8</b>.. For a verb invoked through COM and the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a> interface, you can use this flag to retrieve the <b>IExecuteCommand</b> object's CLSID. This CLSID is registered in the verb's <b>command</b> subkey as the DelegateExecute entry. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
+<b>Introduced in Internet Explorer 8</b>. For a verb invoked through COM and the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a> interface, you can use this flag to retrieve the <b>IExecuteCommand</b> object's CLSID. This CLSID is registered in the verb's <b>command</b> subkey as the DelegateExecute entry. The verb is specified in the <i>pwszExtra</i> parameter in the call to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getstring">IQueryAssociations::GetString</a>.
 
 This type of string will identify the code that will be invoked in the implementation of the verb.
 
