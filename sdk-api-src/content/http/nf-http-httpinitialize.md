@@ -80,7 +80,7 @@ Perform initialization for applications that use the HTTP configuration function
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, 
 <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, 
 <a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>, and 
-<a href="/windows/desktop/api/http/nf-http-httpdelegaterequestex">HttpDelegateRequestEx</a>.
+<a href="/windows/desktop/api/http/nf-http-httpisfeaturesupported">HttpIsFeatureSupported</a>.
 
 </td>
 </tr>
