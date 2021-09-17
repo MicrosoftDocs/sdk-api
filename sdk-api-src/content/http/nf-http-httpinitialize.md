@@ -78,8 +78,9 @@ Initialization options, which can include one or both of the following values.
 <td width="60%">
 Perform initialization for applications that use the HTTP configuration functions, 
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, 
-<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> and 
-<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>.
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>, 
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>, and 
+<a href="/windows/desktop/api/http/nf-http-httpdelegaterequestex">HttpDelegateRequestEx</a>.
 
 </td>
 </tr>
