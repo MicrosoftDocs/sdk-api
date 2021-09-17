@@ -53,6 +53,8 @@ api_name:
 
 Called by providers to initiate a notification event.
 
+To support Narrator announcing text your root view must be able to create an automation peer or you need to set its landmark type to [UIA_MainLandmarkTypeId](../winauto/landmark-type-identifiers). Also if your window is created using the `WS_POPUP` style you'll have to handle the [WM_GETOBJECT](../winauto/wm-getobject) message ([example](../winauto/uiauto-howto-expose-serverside-uiautomation-provider)) and implement the [Window Control Pattern](../winauto/uiauto-implementingwindow).
+
 ## -parameters
 
 ### -param provider [in]
