@@ -129,6 +129,7 @@ An array of strings to be substituted in the string resource at run time.
 ### -field Reason.SimpleReasonString
 
 A non-localized string that describes the reason for the power request.
+It is safe to use a const_casted literal value here.
 
 ## -see-also
 
