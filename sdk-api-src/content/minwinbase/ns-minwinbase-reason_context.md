@@ -125,12 +125,15 @@ The number of strings in the <i>ReasonStrings</i> parameter.
 ### -field Reason.Detailed.ReasonStrings
 
 An array of strings to be substituted in the string resource at run time.
-This function does not modify the contents of these buffers.
 
 ### -field Reason.SimpleReasonString
 
 A non-localized string that describes the reason for the power request.
-This function does not modify the contents of this buffer.
+
+## -remarks
+
+It is safe to pass read-only strings as the <i>SimpleReasonString</i> or <i>ReasonStrings</i> because the <a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a> and <a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a> functions read from the strings and do not write to them.
+
 
 ## -see-also
 
