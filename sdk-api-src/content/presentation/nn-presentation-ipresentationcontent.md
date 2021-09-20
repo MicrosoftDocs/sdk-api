@@ -1,6 +1,6 @@
 ---
 UID: NN:presentation.IPresentationContent
-tech.root: composition_presentation
+tech.root: comp_swapchain
 title: IPresentationContent
 ms.date: 06/08/2021
 targetos: Windows

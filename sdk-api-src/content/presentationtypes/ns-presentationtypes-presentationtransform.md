@@ -1,6 +1,6 @@
 ---
 UID: NS:presentationtypes.PresentationTransform
-tech.root: composition_presentation
+tech.root: comp_swapchain
 title: PresentationTransform
 ms.date: 06/08/2021
 targetos: Windows

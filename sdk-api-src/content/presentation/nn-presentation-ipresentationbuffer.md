@@ -1,6 +1,6 @@
 ---
 UID: NN:presentation.IPresentationBuffer
-tech.root: composition_presentation
+tech.root: comp_swapchain
 title: IPresentationBuffer
 ms.date: 06/08/2021
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:presentation.CompositionFrameInstanceKind
-tech.root: composition_presentation
+tech.root: comp_swapchain
 title: CompositionFrameInstanceKind
 ms.date: 06/08/2021
 targetos: Windows
