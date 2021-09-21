@@ -332,7 +332,8 @@ later.
 
 ### -field TraceStackCachingInfo
 
-Instructs ETW to begin caching stack traces for classic events in this session.
+Instructs ETW to begin caching stack traces for RegisterTraceGuids-based
+("Classic") events in this session.
 
 The value is supported on Windows 10, version 21H2, Windows Server 2022, and
 later.
