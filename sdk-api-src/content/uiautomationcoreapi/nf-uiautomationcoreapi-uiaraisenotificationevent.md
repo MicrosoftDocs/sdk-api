@@ -48,12 +48,9 @@ api_name:
 
 # UiaRaiseNotificationEvent function
 
-
 ## -description
 
 Called by providers to initiate a notification event.
-
-If your window is created using the [`WS_POPUP`](/windows/win32/winmsg/window-styles) style you'll have to handle the [WM_GETOBJECT](../winauto/wm-getobject) message ([example](../winauto/uiauto-howto-expose-serverside-uiautomation-provider)) and implement the [Window Control Pattern](../winauto/uiauto-implementingwindow).
 
 ## -parameters
 
@@ -81,3 +78,6 @@ A unique non-localized string to identify an action or group of actions. Use thi
 
 If this function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
+## -remarks
+
+If your window uses the [`WS_POPUP`](/windows/win32/winmsg/window-styles) style, it must also implement the [Window Control Pattern](../winauto/uiauto-implementingwindow) and handle the [WM_GETOBJECT](../winauto/wm-getobject) message (see [How to Expose a Server-Side UI Automation Provider](../winauto/uiauto-howto-expose-serverside-uiautomation-provider) for more details).
