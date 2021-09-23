@@ -128,8 +128,8 @@ See *Dilations* in [DML_MAX_POOLING2_OPERATOR_DESC](/windows/win32/api/directml/
 This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 
 ## Tensor constraints
-* *InputTensor* and *OutputGradientTensor* must have the same *Sizes*.
 * *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType* and *DimensionCount*.
+* *InputTensor* and *OutputGradientTensor* must have the same *Sizes*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_4_0 and above

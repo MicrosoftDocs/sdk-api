@@ -118,10 +118,10 @@ The number of groups which to divide the convolution operation up into. *GroupCo
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
-* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 * *FilterZeroPointTensor* and *InputZeroPointTensor* must have the same *DimensionCount*.
 * *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
+* *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 
 # Tensor support
 ### DML_FEATURE_LEVEL_4_0 and above
