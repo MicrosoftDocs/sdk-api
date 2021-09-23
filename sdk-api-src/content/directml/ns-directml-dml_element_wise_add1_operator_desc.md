@@ -85,19 +85,13 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_0`.
 *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | ATensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
 | BTensor | Input | 1 to 8 | FLOAT32, FLOAT16 |
 | OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16 |
-
-### DML_FEATURE_LEVEL_2_1 and above
-| Tensor | Kind | Supported dimension counts | Supported data types |
-| ------ | ---- | -------------------------- | -------------------- |
-| ATensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
-| BTensor | Input | 4 to 5 | FLOAT32, FLOAT16 |
-| OutputTensor | Output | 4 to 5 | FLOAT32, FLOAT16 |
 
 ### DML_FEATURE_LEVEL_2_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |

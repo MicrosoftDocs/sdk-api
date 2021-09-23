@@ -121,11 +121,12 @@ A tensor to write the results to. This tensor's dimensions are `{ BatchCount, Ch
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor* and *AZeroPointTensor* must have the same *DataType*.
+* *AScaleTensor*, *AZeroPointTensor*, *BScaleTensor*, *BZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
 * *ATensor*, *BTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *BTensor* and *BZeroPointTensor* must have the same *DataType*.
 * *OutputTensor* and *OutputZeroPointTensor* must have the same *DataType*.
 * *AScaleTensor*, *AZeroPointTensor*, *BScaleTensor*, *BZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
+* *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_4_0 and above
