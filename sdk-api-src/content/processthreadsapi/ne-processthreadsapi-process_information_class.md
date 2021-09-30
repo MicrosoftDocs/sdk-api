@@ -76,6 +76,10 @@ The process information is represented by a <a href="/windows/desktop/api/proces
 
 The process information is represented by a <a href="../processthreadsapi/ns-processthreadsapi-process_leap_second_info.md">PROCESS_LEAP_SECOND_INFO</a> structure.
 
+### -field ProcessMachineTypeInfo
+
+The process is represented by a [PROCESS_MACHINE_INFORMATION](ns-processthreadsapi-process_machine_information.md) structure.
+
 ### -field ProcessInformationClassMax
 
 The maximum value for this enumeration. This value may change in a future version.
