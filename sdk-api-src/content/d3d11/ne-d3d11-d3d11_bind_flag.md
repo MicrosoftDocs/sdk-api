@@ -103,7 +103,7 @@ Set this flag to indicate that a  <a href="/windows/desktop/direct3d11/overviews
 
 ## -remarks
 
-In general, binding flags can be combined using a logical OR (except the constant-buffer flag); however, you should use a single flag to allow the device to optimize the resource usage.
+In general, binding flags can be combined using a bitwise OR (except the constant-buffer flag); however, you should use a single flag to allow the device to optimize the resource usage.
 
 This enumeration is used by a:
 
