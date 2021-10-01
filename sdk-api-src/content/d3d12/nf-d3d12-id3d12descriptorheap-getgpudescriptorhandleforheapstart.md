@@ -58,7 +58,7 @@ Gets the GPU descriptor handle that represents the start of the heap.
 
 Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
 
-Returns the GPU descriptor handle that represents the start of the heap.
+Returns the GPU descriptor handle that represents the start of the heap. If the descriptor heap is not shader-visible, a null handle is returned.
 
 ## -see-also
 
