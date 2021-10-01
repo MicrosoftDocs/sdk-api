@@ -60,7 +60,7 @@ The protected handle of a placeholder file.
 
 ## -returns
 
-If this function succeeds, it returns <b>TRUE</b>. Otherwise, it returns an <b>FALSE</b>.
+If this function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
 
