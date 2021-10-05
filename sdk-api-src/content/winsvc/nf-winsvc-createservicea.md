@@ -525,7 +525,7 @@ The specified service already exists in this database and has been marked for de
 ## -remarks
 
 The 
-<b>CreateService</b> function creates a service object and installs it in the service control manager database by creating a key with the same name as the service under the following registry key:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services</b>
+<b>CreateService</b> function creates a service object and installs it in the service control manager database by creating a key with the same name as the service under the following registry key: <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services</b>
 
 
 
