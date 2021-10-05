@@ -150,7 +150,7 @@ The corresponding subobject type is **[D3D12_PRIMITIVE_TOPOLOGY_TYPE](/windows/w
 
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_RENDER_TARGET_FORMATS
 
-Indicates a render target formats subobject type. The corresponding subobject type is **[D3D12_RT_FORMAT_ARRAY](/windows/win32/api/d3d12/ne-d3d12-d3d12_rt_format_array)** structure, which wraps an array of render target formats along with a count of the array elements.
+Indicates a render target formats subobject type. The corresponding subobject type is **[D3D12_RT_FORMAT_ARRAY](/windows/win32/api/d3d12/ns-d3d12-d3d12_rt_format_array)** structure, which wraps an array of render target formats along with a count of the array elements.
 
 
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_DEPTH_STENCIL_FORMAT
