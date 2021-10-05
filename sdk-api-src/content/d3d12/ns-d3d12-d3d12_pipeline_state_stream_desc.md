@@ -101,7 +101,7 @@ The runtime will determine the type of a pipeline stream (valid types being **CO
 Subobject types irrelevant to the pipeline (e.g a compute shader subobject in a graphics stream) will be ignored.
 If a subobject is not provided (excluding the above required subobjects), the runtime will provide a default value for it.
 
-Consider using the `d3dx12.h` extensions for C++, which provide a set of helper structs for all pipeline subobjects (for example, the above struct is very similar to `CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER`). This header can be found under the **[DirectX-Graphics-Samples]**(https://github.com/microsoft/DirectX-Graphics-Samples/blob/master/Libraries/D3DX12/d3dx12.h) repo on github.
+Consider using the `d3dx12.h` extensions for C++, which provide a set of helper structs for all pipeline subobjects (for example, the above struct is very similar to `CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER`). This header can be found under the **[DirectX-Headers](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h)** repo on github.
 
 ### -runtime-validation
 
