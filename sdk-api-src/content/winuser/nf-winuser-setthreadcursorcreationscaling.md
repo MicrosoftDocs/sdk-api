@@ -1,6 +1,5 @@
 ---
 UID: NF:winuser.SetThreadCursorCreationScaling
-tech.root: 
 title: SetThreadCursorCreationScaling function (winuser.h)
 description: Sets the DPI scale for which the cursors being created on this thread are intended. This value is taken into account when scaling the cursor for the specific monitor on which it is being shown.
 helpviewer_keywords: SetThreadCursorCreationScaling
