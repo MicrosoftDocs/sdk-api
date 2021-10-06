@@ -221,14 +221,18 @@ Each <b>Dynamic DST</b> key includes the following registry values.
 <td>
 The following time zone information.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _REG_TZI_FORMAT
+
+``` syntax
+typedef struct _REG_TZI_FORMAT
 {
     LONG Bias;
     LONG StandardBias;
     LONG DaylightBias;
     SYSTEMTIME StandardDate;
     SYSTEMTIME DaylightDate;
-} REG_TZI_FORMAT;</code></pre>
+} REG_TZI_FORMAT;
+```
+
 </td>
 </tr>
 <tr>

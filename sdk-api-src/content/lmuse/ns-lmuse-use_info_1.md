@@ -76,8 +76,12 @@ A pointer to a string that contains the share name of the remote resource being 
 
 
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename
-</code></pre>
+
+``` syntax
+\\servername\sharename
+
+```
+
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 ### -field ui1_password

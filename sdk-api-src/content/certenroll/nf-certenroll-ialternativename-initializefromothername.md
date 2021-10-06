@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>InitializeFromOtherName</b> method initializes the object from an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and the associated raw data (byte array). This method is provided to support the <b>otherName</b> field in the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <b>AlternativeNames</b> extension declaration.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- AlternativeNames 
 -- XCN_OID_SUBJECT_ALT_NAME2 (2.5.29.17)
@@ -78,7 +80,9 @@ OtherName ::= SEQUENCE
    type                    EncodedObjectID,
    value                   [0] EXPLICIT NOCOPYANY 
 }
-</code></pre>
+
+```
+
 
 ## -parameters
 

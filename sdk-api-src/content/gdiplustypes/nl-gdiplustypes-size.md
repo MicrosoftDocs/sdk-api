@@ -60,7 +60,7 @@ The <b>Size</b> class encapsulates a
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-size(inconstsize_)">Size::Size()</a>
 </td>
@@ -69,7 +69,7 @@ Creates a new <b>Size</b> object and initializes the members to zero. This is th
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-size(inint_inint)">Size::Size(INT,INT)</a>
 </td>
@@ -80,7 +80,7 @@ Creates a <b>Size</b> object and initializes its
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-size(inconstsize_)">Size::Size(Size&)</a>
 </td>
@@ -96,7 +96,7 @@ Creates a <b>Size</b> object and initializes its members by copying the members 
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-empty">Size::Empty</a>
 </td>
@@ -106,7 +106,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-empty">Size:
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-equals">Size::Equals</a>
 </td>
@@ -116,7 +116,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-size-equals">Size
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534752(v=vs.85)">Size::operator-(Size&)</a>
 </td>
@@ -125,7 +125,7 @@ The <a href="/previous-versions/ms534752(v=vs.85)">Size::operator-</a> method su
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534751(v=vs.85)">Size::operator+(Size&)</a>
 </td>

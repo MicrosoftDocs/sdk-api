@@ -90,11 +90,15 @@ If the function fails, or if it flushes the cached version of the most recently 
 
 A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>lpFileName</i> parameter does not contain a full path and file name for the file, 
 <b>WritePrivateProfileString</b> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
@@ -163,10 +167,14 @@ The following sample code illustrates the preceding guidelines and is based on s
 <li>There is a section in the .ini file that we want to look like this: 
 
 
-<pre class="syntax" xml:space="preserve"><code>[Section1] 
+
+``` syntax
+[Section1] 
   FirstKey = It all worked out okay. 
   SecondKey = By golly, it works. 
-  ThirdKey = Another test.</code></pre>
+  ThirdKey = Another test.
+```
+
 </li>
 <li>The user will not have to reboot the system in order to have future invocations of the application see the mapping of the .ini file to the registry.</li>
 </ul>

@@ -78,7 +78,11 @@ Seeking can take a long time. For example, the source might download content thr
 
 The following <b>typedef</b> is defined for combining flags from this enumeration.
 
-<pre class="syntax" xml:space="preserve"><code>typedef UINT32 MFP_MEDIAITEM_CHARACTERISTICS;</code></pre>
+
+``` syntax
+typedef UINT32 MFP_MEDIAITEM_CHARACTERISTICS;
+```
+
 
 ## -see-also
 

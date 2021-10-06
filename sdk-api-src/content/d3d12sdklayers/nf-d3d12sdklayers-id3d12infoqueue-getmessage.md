@@ -92,7 +92,9 @@ Applications should call this method twice to retrieve a message - first to obta
 
 
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 // Get the size of the message
 SIZE_T messageLength = 0;
 HRESULT hr = pInfoQueue-&gt;GetMessage(0, NULL, &amp;messageLength);
@@ -100,7 +102,9 @@ HRESULT hr = pInfoQueue-&gt;GetMessage(0, NULL, &amp;messageLength);
 // Allocate space and get the message
 D3D12_MESSAGE * pMessage = (D3D12_MESSAGE*)malloc(messageLength);
 hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength); 
-</code></pre>
+
+```
+
 
 ## -see-also
 

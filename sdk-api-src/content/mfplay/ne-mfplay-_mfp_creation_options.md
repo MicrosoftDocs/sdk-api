@@ -80,7 +80,11 @@ Disables optimizations that are otherwise performed when the application runs in
 
 The following <b>typedef</b> is defined for combining flags from this enumeration.
 
-<pre class="syntax" xml:space="preserve"><code>typedef UINT32 MFP_CREATION_OPTIONS;</code></pre>
+
+``` syntax
+typedef UINT32 MFP_CREATION_OPTIONS;
+```
+
 
 ## -see-also
 

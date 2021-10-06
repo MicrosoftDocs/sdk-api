@@ -140,10 +140,14 @@ The edit context identified by <i>ec</i> does not have a read-only or read/write
 
 The enumerator obtained by this method will contain a range for each unique value, including empty values, of the specified property. For example, a hypothetical color property can be applied to the following marked up text:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
-</code></pre>
+
+```
+
 When <b>ITfReadOnlyProperty::EnumRanges</b> is called with <i>pTargetRange</i> set to this range, the enumerator will contain five ranges.
 
 <table>

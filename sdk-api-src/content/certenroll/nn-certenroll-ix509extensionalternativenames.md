@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509ExtensionAlternativeNames</b> interface enables you to specify one or more alternative name forms for the subject of a <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. A <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> processes the extension by binding the names to the certified <a href="/windows/desktop/SecGloss/p-gly">public key</a>. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- AlternativeNames 
 -- XCN_OID_SUBJECT_ALT_NAME2 (2.5.29.17)
@@ -78,7 +80,9 @@ OtherName ::= SEQUENCE
    type                    EncodedObjectID,
    value                   [0] EXPLICIT NOCOPYANY 
 }
-</code></pre> If you  initialize this extension by using an <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> collection, the following name types are supported.<table>
+
+```
+ If you  initialize this extension by using an <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> collection, the following name types are supported.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>

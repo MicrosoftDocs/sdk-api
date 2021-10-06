@@ -277,7 +277,9 @@ The parameter <i>cbBuffer</i> specifies the size in bytes of the buffer pointed 
 
 The following example shows the method of calling first with a small buffer and then recalling if the buffer is too small.
 
-<pre class="syntax" xml:space="preserve"><code>SIZE_T cbRequired;
+
+``` syntax
+SIZE_T cbRequired;
 PVOID pvData = NULL;
 SIZE_T cbAvailable = 0;
 
@@ -297,4 +299,6 @@ if (!QueryActCtxW(..., pvData, cbAvailable, &amp;cbRequired) &amp;&amp; (GetLast
     }
     HeapFree(GetProcessHeap(), 0, pvData);
     pvData = NULL;
-}</code></pre>
+}
+```
+

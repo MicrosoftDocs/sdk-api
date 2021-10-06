@@ -114,13 +114,17 @@ To deactivate a view, the container should call <a href="/windows/desktop/api/do
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Implementations of this method should embody the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>if (fActivate)
+
+``` syntax
+if (fActivate)
     {
     UI activate the view (do menu merging, show frame level tools, process accelerators)
     Take focus, and bring the view window forward.
     }
 else
-    call IOleInPlaceObject::UIDeactivate on this view</code></pre>
+    call IOleInPlaceObject::UIDeactivate on this view
+```
+
 In addition, the view can and should participate in extended <b>Help</b> menu merging.
 
 All views of a document object must support in-place activation. E_NOTIMPL is not an acceptable return value.

@@ -76,7 +76,11 @@ A URL that has a scheme that is not followed by two slashes (//) is opaque. For 
 
 				
 
-<pre class="syntax" xml:space="preserve"><code>UrlIs(pszURL, URLIS_OPAQUE)</code></pre>
+
+``` syntax
+UrlIs(pszURL, URLIS_OPAQUE)
+```
+
 
 
 

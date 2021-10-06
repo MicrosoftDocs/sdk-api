@@ -82,7 +82,11 @@ One or more properties of an existing file share resource have been changed.
 
 <b>NNLEN</b> is defined by ClusAPI.h as follows.
 
-<pre class="syntax" xml:space="preserve"><code>#define NNLEN       80                  // Net name length (share name)</code></pre>
+
+``` syntax
+#define NNLEN       80                  // Net name length (share name)
+```
+
 
 ## -see-also
 

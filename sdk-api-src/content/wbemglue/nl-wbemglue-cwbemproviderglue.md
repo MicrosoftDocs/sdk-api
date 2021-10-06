@@ -65,7 +65,7 @@ api_name:
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogindll(lpcwstr_plong)">FrameworkLoginDLL</a>
 </td>
@@ -74,7 +74,7 @@ Called when the DLL_PROCESS_ATTACH value is sent to <a href="/windows/desktop/Dl
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-frameworklogoffdll(lpcwstr_plong)">FrameworkLogoffDLL</a>
 </td>
@@ -83,7 +83,7 @@ Called by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstances(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)">GetAllDerivedInstances</a>
 </td>
@@ -92,7 +92,7 @@ Retrieves a list of instances derived from a particular base class.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallderivedinstancesasynch">GetAllDerivedInstancesAsynch</a>
 </td>
@@ -101,7 +101,7 @@ Retrieves a list of instances supported by a particular provider and derived fro
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstances">GetAllInstances</a>
 </td>
@@ -110,7 +110,7 @@ Retrieves a list of instances supported by a particular provider.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstancesasynch">GetAllInstancesAsynch</a>
 </td>
@@ -119,7 +119,7 @@ Retrieves a list of instances supported by a particular provider. Returns one in
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)">GetEmptyInstance</a>
 </td>
@@ -127,7 +127,7 @@ Retrieves a list of instances supported by a particular provider. Returns one in
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)">GetInstanceByPath</a>
 </td>
@@ -136,7 +136,7 @@ Retrieves the instance identified by a particular object path.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath">GetInstanceKeysByPath</a>
 </td>
@@ -145,7 +145,7 @@ Retrieves the instance identified by a particular object path, with only the key
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancepropertiesbypath">GetInstancePropertiesByPath</a>
 </td>
@@ -154,7 +154,7 @@ Retrieves the instance identified by a particular object path, with only the spe
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyquery(lpcwstr_trefpointercollection_cinstance__methodcontext_lpcwstr)">GetInstancesByQuery</a>
 </td>
@@ -163,7 +163,7 @@ Retrieves a list of instances that match a particular query.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancesbyqueryasynch">GetInstancesByQueryAsynch</a>
 </td>
@@ -172,7 +172,7 @@ Retrieves a list of instances supported by a particular provider that match a pa
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getnamespaceconnection(lpcwstr_methodcontext)">GetNamespaceConnection</a>
 </td>
@@ -181,7 +181,7 @@ Retrieves a namespace connection.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-isderivedfrom(lpcwstr_lpcwstr_methodcontext_lpcwstr)">IsDerivedFrom</a>
 </td>
@@ -190,7 +190,7 @@ Determines whether one class is derived from another.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-setstatusobject">SetStatusObject</a>
 </td>

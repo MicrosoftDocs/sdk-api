@@ -88,7 +88,9 @@ An object ID.
 
 The TYSPEC enumeration and uCLSSPEC union provide mappings to a class ID. Note that TYSPEC_CLSID is the only supported value.
 
-<pre class="syntax" xml:space="preserve"><code>    typedef union switch(DWORD tyspec)
+
+``` syntax
+    typedef union switch(DWORD tyspec)
         {
         case TYSPEC_CLSID:
             CLSID   clsid;
@@ -110,7 +112,9 @@ The TYSPEC enumeration and uCLSSPEC union provide mappings to a class ID. Note t
             GUID     ObjectId;
             GUID     PolicyId;
             } ByObjectId;
-    } uCLSSPEC;</code></pre>
+    } uCLSSPEC;
+```
+
 
 ## -see-also
 

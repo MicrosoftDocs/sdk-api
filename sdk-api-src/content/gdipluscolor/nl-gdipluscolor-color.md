@@ -59,7 +59,7 @@ A <a href="/previous-versions/ms536243(v=vs.85)">Color</a> object stores a 32-bi
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color(inargb)">Color::Color()</a>
 </td>
@@ -68,7 +68,7 @@ Creates a <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color(inargb)">Color::Color(ARGB)</a>
 </td>
@@ -78,7 +78,7 @@ Creates a <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte)">Color::Color(BYTE,BYTE,BYTE)</a>
 </td>
@@ -87,7 +87,7 @@ Creates a <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color(inbyte_inbyte_inbyte_inbyte)">Color::Color(BYTE,BYTE,BYTE,BYTE)</a>
 </td>
@@ -103,7 +103,7 @@ Creates a <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-color
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-geta">Color::GetA</a>
 </td>
@@ -112,7 +112,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-geta">Color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getalpha">Color::GetAlpha</a>
 </td>
@@ -121,7 +121,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getalpha">C
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getb">Color::GetB</a>
 </td>
@@ -130,7 +130,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getb">Color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getblue">Color::GetBlue</a>
 </td>
@@ -139,7 +139,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getblue">Co
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getg">Color::GetG</a>
 </td>
@@ -148,7 +148,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getg">Color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getgreen">Color::GetGreen</a>
 </td>
@@ -157,7 +157,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getgreen">C
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
 </td>
@@ -166,7 +166,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getred">Color::GetRed</a>
 </td>
@@ -175,7 +175,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getred">Col
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
 </td>
@@ -184,7 +184,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">C
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
 </td>
@@ -193,7 +193,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">C
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
 </td>
@@ -202,7 +202,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolo
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setvalue">Color::SetValue</a>
 </td>
@@ -211,7 +211,7 @@ The <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setvalue">C
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a>
 </td>

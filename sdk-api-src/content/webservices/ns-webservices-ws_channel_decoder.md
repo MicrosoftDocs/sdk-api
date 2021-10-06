@@ -103,12 +103,16 @@ The callbacks specified will get invoked according to the following grammar:
 
               
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 decodercalls := create decoderloop* free
 decoderloop  := decodestart
              |  decodestart getcontenttype
              |  decodestart getcontenttype (decode*)
-             |  decodestart getcontenttype (decode*) decodeend</code></pre>
+             |  decodestart getcontenttype (decode*) decodeend
+```
+
 The decoder may not see the full decode sequence for a message if the channel 
               or the decoder encounters an error while reading the message.  A decoder must be 
               prepared to handle transitioning to the appropriate state based upon the callbacks invoked.

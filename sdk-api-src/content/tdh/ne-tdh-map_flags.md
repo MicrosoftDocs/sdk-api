@@ -88,7 +88,9 @@ This flag can be combined with the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP or EVENTMAP_
 
 The following MOF example shows the flags that are set based on the WMI property attributes used. 
 
-<pre class="syntax" xml:space="preserve"><code>Sets the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP and EVENTMAP_INFO_FLAG_WBEM_NO_MAP flags.
+
+``` syntax
+Sets the EVENTMAP_INFO_FLAG_WBEM_VALUEMAP and EVENTMAP_INFO_FLAG_WBEM_NO_MAP flags.
 [WmiDataId(1),
 Values {"ValueIndex1", "ValueIndex2", "ValueIndex3"}] 
 uint32  Data1;
@@ -122,7 +124,9 @@ Sets the EVENTMAP_INFO_FLAG_WBEM_BITMAP flag
 [WmiDataId(6),
 BitMap {"1", "3", "5", "0"},
 BitValues {"BitMap1", "BitMap3", "BitMap5", "BitMap0", "Other"}]
-uint32  Data6;</code></pre>
+uint32  Data6;
+```
+
 
 ## -see-also
 

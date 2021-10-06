@@ -88,7 +88,9 @@ One or more parameters was invalid.
 
 This callback receives DirectInput joystick types as a result of a call to the IDirectInputJoyConfig8::EnumTypes method.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 
 /*
 Parameters
@@ -111,5 +113,7 @@ BOOL DIEnumJoyTypeProc(
  
 
 
-</code></pre>
+
+```
+
 

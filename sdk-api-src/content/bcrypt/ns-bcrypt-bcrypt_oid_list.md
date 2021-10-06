@@ -86,11 +86,15 @@ For example, the SHA-1 encoding would be:
 
 The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) notation.  <b>SEQUENCE</b>, <b>OBJECT IDENTIFIER</b>, and <b>ANY</b> are DER encoded. The <b>ANY</b> BLOB is <b>NULL</b>.
 
-<pre class="syntax" xml:space="preserve"><code>AlgorithmIdentifier ::= SEQUENCE {
+
+``` syntax
+AlgorithmIdentifier ::= SEQUENCE {
    algorithm            OBJECT IDENTIFIER,
    algorithmParams      ANY
 }
-</code></pre>
+
+```
+
 
 ## -see-also
 

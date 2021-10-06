@@ -103,7 +103,9 @@ The semantics of this API are defined with the following pseudo-code:
 
 Non-NULL pCountBuffer:
 
-<pre class="syntax" xml:space="preserve"><code>// Read draw count out of count buffer
+
+``` syntax
+// Read draw count out of count buffer
 UINT CommandCount = pCountBuffer-&gt;ReadUINT32(CountBufferOffset);
 
 CommandCount = min(CommandCount, MaxCommandCount)
@@ -119,10 +121,14 @@ for(UINT CommandIndex = 0; CommandIndex &lt; CommandCount; CommandIndex++)
 
   Arguments += pCommandSignature -&gt;GetByteStride();
 }
-</code></pre>
+
+```
+
 NULL pCountBuffer:
 
-<pre class="syntax" xml:space="preserve"><code>// Get pointer to first Commanding argument
+
+``` syntax
+// Get pointer to first Commanding argument
 BYTE* Arguments = pArgumentBuffer-&gt;GetBase() + ArgumentBufferOffset;
 
 for(UINT CommandIndex = 0; CommandIndex &lt; MaxCommandCount; CommandIndex++)
@@ -133,7 +139,9 @@ for(UINT CommandIndex = 0; CommandIndex &lt; MaxCommandCount; CommandIndex++)
 
   Arguments += pCommandSignature -&gt;GetByteStride();
 }
-</code></pre>
+
+```
+
 The debug layer will issue an error if either the count buffer or the argument buffer are not in the D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT state. The core runtime will validate:
 
 <ul>

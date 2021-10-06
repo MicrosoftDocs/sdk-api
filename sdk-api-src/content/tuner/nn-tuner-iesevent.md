@@ -69,7 +69,7 @@ The <b>IESEvent</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getdata">GetData</a>
 </td>
@@ -79,7 +79,7 @@ Returns a byte array that contains the event data.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventid">GetEventId</a>
 </td>
@@ -89,7 +89,7 @@ Gets the unique identifier for the event.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-geteventtype">GetEventType</a>
 </td>
@@ -99,7 +99,7 @@ Gets the GUID that identifies the event type.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-getstringdata">GetStringData</a>
 </td>
@@ -109,7 +109,7 @@ Gets the event data in Unicode string format.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevent-setcompletionstatus">SetCompletionStatus</a>
 </td>

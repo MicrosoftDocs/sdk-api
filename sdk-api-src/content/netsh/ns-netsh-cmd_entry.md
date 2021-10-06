@@ -91,9 +91,13 @@ The operating system version check function. This is the function used to determ
 Macros are available that can simplify the creation of the 
 <b>CMD_ENTRY</b> structure, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define CREATE_CMD_ENTRY_EX(t,f,i)       {CMD_##t, f, HLP_##t, HLP_##t##_EX, i, NULL}
+
+``` syntax
+#define CREATE_CMD_ENTRY_EX(t,f,i)       {CMD_##t, f, HLP_##t, HLP_##t##_EX, i, NULL}
 #define CREATE_CMD_ENTRY_EX_VER(t,f,i,v) {CMD_##t, f, HLP_##t, HLP_##t##_EX, i, v}
-#define CREATE_CMD_ENTRY(t,f)            {CMD_##t, f, HLP_##t, HLP_##t##_EX, CMD_FLAG_PRIVATE, NULL}</code></pre>
+#define CREATE_CMD_ENTRY(t,f)            {CMD_##t, f, HLP_##t, HLP_##t##_EX, CMD_FLAG_PRIVATE, NULL}
+```
+
 If these macros are used, the following constants must be defined in the helper DLL:
 
 

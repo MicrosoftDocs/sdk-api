@@ -67,10 +67,14 @@ The list of protected files. The format of this structure is as follows.
 
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _PROTECTED_FILE_DATA {
+
+``` syntax
+typedef struct _PROTECTED_FILE_DATA {
     WCHAR   FileName[MAX_PATH];
     DWORD   FileNumber;
-} PROTECTED_FILE_DATA, *PPROTECTED_FILE_DATA;</code></pre>
+} PROTECTED_FILE_DATA, *PPROTECTED_FILE_DATA;
+```
+
 Before calling this function the first time, set the <b>FileNumber</b> member to zero.
 
 ## -returns

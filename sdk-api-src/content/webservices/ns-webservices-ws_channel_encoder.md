@@ -99,13 +99,17 @@ When creating the channel, the <a href="/windows/desktop/api/webservices/ne-webs
 
 The grammar for the encoder callbacks is:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 encodercalls := create encoderloop* free
 encoderloop  := getcontenttype
              |  getcontenttype encodestart
              |  getcontenttype encodestart (encode*)
              |  getcontenttype encodestart (encode*) encodeend
-</code></pre>
+
+```
+
 The encoder may not see the full encode sequence for a message if the channel or the 
               encoder encounters an error while writing the message.  An encoder must be prepared to 
               handle transitioning to the appropriate state based upon the callbacks invoked.

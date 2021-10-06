@@ -59,7 +59,11 @@ The application is responsible for allocating a new buffer of greater size and c
 A good value to use as an initial value for maxHitTestMetricsCount may be calculated from the following equation:
 
 
-<pre class="syntax" xml:space="preserve"><code>maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth</code></pre>
+
+``` syntax
+maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth
+```
+
 
 
 where lineCount is obtained from the value of the output argument

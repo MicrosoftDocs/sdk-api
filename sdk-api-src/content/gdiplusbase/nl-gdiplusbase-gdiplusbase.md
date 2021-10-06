@@ -58,7 +58,7 @@ The <b>GdiplusBase</b> class provides memory allocation and deallocation for GDI
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete">GdiplusBase::operator delete</a>
 </td>
@@ -67,7 +67,7 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete_array">GdiplusBase::operator delete[]</a>
 </td>
@@ -79,7 +79,7 @@ The
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew">GdiplusBase::operator new</a>
 </td>
@@ -88,7 +88,7 @@ The <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operato
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a>
 </td>

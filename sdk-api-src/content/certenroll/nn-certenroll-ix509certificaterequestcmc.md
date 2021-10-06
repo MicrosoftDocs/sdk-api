@@ -53,7 +53,9 @@ api_name:
 The <b>IX509CertificateRequestCmc</b> interface represents a CMC (Certificate Management Message over CMS) certificate request.  A CMC request is always wrapped by a PKCS #7 certificate message syntax (CMS) object. Therefore, the <b>IX509CertificateRequestCmc</b> interface inherits from the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
 
 A CMC request contains sequences of <b>TaggedAttribute</b>, <b>TaggedRequest</b>, and <b>TaggedContentInfo</b> ASN.1 structures. The <b>TaggedOtherMsg</b> structure identified in the RFC is not supported.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 CmcData ::= SEQUENCE 
 {
    controlSequence         ControlSequence,
@@ -88,7 +90,9 @@ TaggedContentInfo ::= SEQUENCE
 
 BodyPartID ::= INTEGER (0..4294967295)
 EncodedObjectID ::= OBJECT IDENTIFIER
-AttributeSetValue ::= SET OF ANY</code></pre>A CMC request can contain a PKCS #10 request in the <b>TaggedRequest</b> sequence or another CMC request object in the <b>TaggedContentInfo</b> sequence. There is no theoretical limit to the possible number of nesting levels, but certification authorities typically place a physical limit on the request size.
+AttributeSetValue ::= SET OF ANY
+```
+A CMC request can contain a PKCS #10 request in the <b>TaggedRequest</b> sequence or another CMC request object in the <b>TaggedContentInfo</b> sequence. There is no theoretical limit to the possible number of nesting levels, but certification authorities typically place a physical limit on the request size.
 
 The <b>TaggedAttribute</b> sequence contains extensions and optional attributes. For more information, see <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> and <a href="/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>.
 

@@ -93,7 +93,7 @@ The <b>Effect</b> class serves as a base class for eleven classes that you can u
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-effect">Effect::Effect</a>
 </td>
@@ -109,7 +109,7 @@ Creates an <b>Effect</b> object.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
 </td>
@@ -118,7 +118,7 @@ The <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxda
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize">Effect::GetAuxDataSize</a>
 </td>
@@ -127,7 +127,7 @@ The <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getauxda
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getparametersize">Effect::GetParameterSize</a>
 </td>
@@ -136,7 +136,7 @@ The <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-getparam
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdipluseffects/nf-gdipluseffects-effect-useauxdata">Effect::UseAuxData</a>
 </td>

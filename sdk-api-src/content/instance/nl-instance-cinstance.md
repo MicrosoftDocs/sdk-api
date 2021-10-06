@@ -67,7 +67,7 @@ It is not expected that provider writers will need to derive from this class. Us
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-commit">Commit</a>
 </td>
@@ -76,7 +76,7 @@ Returns the current instance to WMI.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getbool">Getbool</a>
 </td>
@@ -85,7 +85,7 @@ Retrieves a Boolean property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getbyte">GetByte</a>
 </td>
@@ -94,7 +94,7 @@ Retrieves a <b>BYTE</b>-compatible property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getchstring">GetCHString</a>
 </td>
@@ -103,7 +103,7 @@ Retrieves a string property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getclassobjectinterface">GetClassObjectInterface</a>
 </td>
@@ -112,7 +112,7 @@ Returns an <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IW
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getdatetime">GetDateTime</a>
 </td>
@@ -121,7 +121,7 @@ Returns a datetime property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getdouble">GetDOUBLE</a>
 </td>
@@ -130,7 +130,7 @@ Retrieves a <b>DOUBLE</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getdword">GetDWORD</a>
 </td>
@@ -139,7 +139,7 @@ Retrieves a <b>DWORD</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getembeddedobject">GetEmbeddedObject</a>
 </td>
@@ -148,7 +148,7 @@ Retrieves an embedded <b>CInstance</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">GetMethodContext</a>
 </td>
@@ -157,7 +157,7 @@ Returns a pointer to a <b>MethodContext</b> object.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getstatus">GetStatus</a>
 </td>
@@ -166,7 +166,7 @@ Determines whether a property exists and, if so, determines its type.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getstringarray">GetStringArray</a>
 </td>
@@ -175,7 +175,7 @@ Retrieves a property that represents an array of strings.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-gettimespan">GetTimeSpan</a>
 </td>
@@ -184,7 +184,7 @@ Retrieves a property that represents a WMI time span.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getvariant">GetVariant</a>
 </td>
@@ -193,7 +193,7 @@ Retrieves a <b>VARIANT</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getwbemint16">GetWBEMINT16</a>
 </td>
@@ -202,7 +202,7 @@ Retrieves a 16-bit integer property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/WmiSdk/cinstance-getwbemint64">GetWBEMINT64</a>
 </td>
@@ -210,7 +210,7 @@ Retrieves a 16-bit integer property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getwchar">GetWCHAR</a>
 </td>
@@ -219,7 +219,7 @@ Retrieves a <b>WCHAR</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-getword">GetWORD</a>
 </td>
@@ -228,7 +228,7 @@ Retrieves a <b>WORD</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-isnull">IsNull</a>
 </td>
@@ -237,7 +237,7 @@ Determines if the value of a particular property is <b>NULL</b>.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setbool">Setbool</a>
 </td>
@@ -246,7 +246,7 @@ Sets a <b>Boolean</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setbyte">SetByte</a>
 </td>
@@ -255,7 +255,7 @@ Sets a <b>BYTE</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/WmiSdk/cinstance-setcharsplat">SetCharSplat</a>
 </td>
@@ -263,7 +263,7 @@ Sets a <b>BYTE</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/WmiSdk/cinstance-setchstring">SetCHString</a>
 </td>
@@ -271,7 +271,7 @@ Sets a <b>BYTE</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setdatetime">SetDateTime</a>
 </td>
@@ -280,7 +280,7 @@ Sets a datetime property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setdouble">SetDOUBLE</a>
 </td>
@@ -289,7 +289,7 @@ Sets a <b>DOUBLE</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setdword">SetDWORD</a>
 </td>
@@ -298,7 +298,7 @@ Sets a <b>DWORD</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setembeddedobject">SetEmbeddedObject</a>
 </td>
@@ -307,7 +307,7 @@ Sets an embedded <b>CInstance</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setnull">SetNull</a>
 </td>
@@ -316,7 +316,7 @@ Sets a property to <b>NULL</b>.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">SetStringArray</a>
 </td>
@@ -325,7 +325,7 @@ Sets a property that represents an array of strings.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-settimespan">SetTimeSpan</a>
 </td>
@@ -334,7 +334,7 @@ Sets a property that represents a time span.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setvariant">SetVariant</a>
 </td>
@@ -343,7 +343,7 @@ Sets a <b>VARIANT</b> property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setwbemint16">SetWBEMINT16</a>
 </td>
@@ -352,7 +352,7 @@ Sets a 16-bit integer property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/aa389221(v=vs.85)">SetWBEMINT64</a>
 </td>
@@ -360,7 +360,7 @@ Sets a 16-bit integer property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setwcharsplat">SetWCHARSplat</a>
 </td>
@@ -369,7 +369,7 @@ Sets a <b>WCHAR</b> string property.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/instance/nf-instance-cinstance-setword">SetWORD</a>
 </td>

@@ -74,11 +74,15 @@ DLL object applications exist in the same process space as their objects, so the
 
 The following is a typical implementation for the <b>AddConnection</b> method.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD MyInterface::AddConnection(DWORD extconn, DWORD dwReserved)
+
+``` syntax
+DWORD MyInterface::AddConnection(DWORD extconn, DWORD dwReserved)
 {
     return extconn &amp; EXTCONN_STRONG ? ++m_cStrong : 0;
 }
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -66,12 +66,16 @@ The size (count of bytes) of the <b>rgb</b> member array. This value must be a c
 
 ClusAPI.h defines  <b>CLUSPROP_BINARY_DECLARE</b> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define CLUSPROP_BINARY_DECLARE( name, cch )    \
+
+``` syntax
+#define CLUSPROP_BINARY_DECLARE( name, cch )    \
     struct {                                \
         CLUSPROP_SYNTAX Syntax;             \
         DWORD           cbLength;           \
         BYTE            rgb[(cch + 3) &amp; ~3]; \
-    } name</code></pre>
+    } name
+```
+
 
 #### Examples
 

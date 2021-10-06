@@ -209,14 +209,22 @@ To demonstrate, consider the 2D 32bpp swizzle format above.
           This is represented by the following interleave masks, where bits on the left are most-significant:
         
 
-<pre class="syntax" xml:space="preserve"><code>UINT xBytesMask = 1010 1010 1000 1111
-UINT yMask =      0101 0101 0111 0000</code></pre>
+
+``` syntax
+UINT xBytesMask = 1010 1010 1000 1111
+UINT yMask =      0101 0101 0111 0000
+```
+
 To compute the swizzled address, the following code could be used (where the <b>_pdep_u32</b> intrinsic instruction is supported):
         
 
-<pre class="syntax" xml:space="preserve"><code>UINT swizzledOffset = resourceBaseOffset +
+
+``` syntax
+UINT swizzledOffset = resourceBaseOffset +
                       _pdep_u32(xOffset, xBytesMask) +
-                      _pdep_u32(yOffset, yBytesMask);</code></pre>
+                      _pdep_u32(yOffset, yBytesMask);
+```
+
 
 ## -see-also
 

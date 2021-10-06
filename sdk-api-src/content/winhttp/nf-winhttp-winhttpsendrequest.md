@@ -381,14 +381,18 @@ If the Content-Length header specifies a length less than a 2^32, the applicatio
 
 The Content-Length header can be added in the call to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpaddrequestheaders">WinHttpAddRequestHeaders</a>, or it can be specified in the <i>lpszHeader</i> parameter of <b>WinHttpSendRequest</b> as shown in the following code example.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL fRet = WinHttpSendRequest(
+
+``` syntax
+BOOL fRet = WinHttpSendRequest(
 			hReq,
 			L"Content-Length: 68719476735\r\n",
 			-1L,
 			WINHTTP_NO_REQUEST_DATA,
 			0,
 			WINHTTP_IGNORE_REQUEST_TOTAL_LENGTH,
-			pMyContent);</code></pre>
+			pMyContent);
+```
+
 <h3><a id="Transfer-Encoding_Header"></a><a id="transfer-encoding_header"></a><a id="TRANSFER-ENCODING_HEADER"></a>Transfer-Encoding Header</h3>
 Starting in Windows Vista and Windows Server 2008, WinHttp enables applications to perform chunked transfer encoding on data sent to the server. When the Transfer-Encoding header is present on the WinHttp request, the <i>dwTotalLength</i> parameter in the call to <b>WinHttpSendRequest</b> is set to <b>WINHTTP_IGNORE_REQUEST_TOTAL_LENGTH</b> and the application sends the entity body in one or more calls to <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>. The <i>lpOptional</i> parameter of <b>WinHttpSendRequest</b> must be <b>NULL</b> and the <i>dwOptionLength</i> parameter must be zero, otherwise an <b>ERROR_WINHTTP_INVALID_PARAMETER</b> error is returned. To terminate the chunked data transfer, the application generates a zero length chunk and sends it in the last call to <b>WinHttpWriteData</b>.
 

@@ -96,11 +96,15 @@ This function can return the standard return values E_INVALIDARG, E_OUTOFMEMORY,
 
 
 
-<pre class="syntax" xml:space="preserve"><code>    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
+
+``` syntax
+    CoGetCallContext(IID_IServerSecurity, (void**)&amp;pss);
     pss-&gt;QueryBlanket(pAuthnSvc, pAuthzSvc, pServerPrincName, 
                 pAuthnLevel, pImpLevel, pPrivs, pCapabilities);
     pss-&gt;Release();
-</code></pre>
+
+```
+
 This sequence calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to get a pointer to <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> and, with the resulting pointer, calls <a href="/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">IServerSecurity::QueryBlanket</a> and then releases the pointer.
 
 ## -see-also

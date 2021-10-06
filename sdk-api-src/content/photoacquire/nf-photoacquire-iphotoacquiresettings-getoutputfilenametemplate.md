@@ -85,9 +85,13 @@ The method succeeded.
 
 Format strings contain a mix of path literals and tokens. A format string looks like the following:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 $(MyPicturesFolder)\$(DateAcquired), $(EventName)\$(EventName) $(SequenceNumber).$(OriginalExtension)
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -61,14 +61,20 @@ The <b>IX509CertificateRequestPkcs7</b> interface represents a  PKCS #7 certific
 
 
  The ASN.1 representation of a PKCS #7 object in the following syntax example shows that it can be composed of a variety of data types.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 PKCS7ContentTable PKCS7-CONTENT-TYPE ::=
 {
     data | signed-data | enveloped-data | signed-and-enveloped-data |
     digested-data | encrypted-data | authenticated-data, ...
 }
-</code></pre>Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>.
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>.
+
+``` syntax
+
 -------------------------------------------------------------------
 -- signed-data
 -------------------------------------------------------------------
@@ -93,7 +99,9 @@ SignerInfo ::= SEQUENCE
   signature                   SignatureValue,
   unauthenticatedAttributes   [1] IMPLICIT Attributes
 }
- </code></pre>
+ 
+```
+
 
 ## -inheritance
 

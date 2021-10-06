@@ -62,7 +62,11 @@ The status code.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define SCODE_SEVERITY(sc)    (((sc) &gt;&gt; 31) &amp; 0x1)</code></pre>
+
+``` syntax
+#define SCODE_SEVERITY(sc)    (((sc) &gt;&gt; 31) &amp; 0x1)
+```
+
 
 ## -see-also
 

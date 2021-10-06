@@ -57,7 +57,7 @@ api_name:
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-destroyvoice">DestroyVoice</a>
 </td>
@@ -66,7 +66,7 @@ Destroys the voice. If necessary, stops the voice and removes it from the XAudio
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect">DisableEffect</a>
 </td>
@@ -75,7 +75,7 @@ Disables the effect at a given position in the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect">EnableEffect</a>
 </td>
@@ -84,7 +84,7 @@ Enables the effect at a given position in the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getchannelvolumes">GetChannelVolumes</a>
 </td>
@@ -93,7 +93,7 @@ Returns the volume levels for the voice, per channel.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">GetEffectParameters</a>
 </td>
@@ -102,7 +102,7 @@ Returns the current effect-specific parameters of a given effect in the voice's 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectstate">GetEffectState</a>
 </td>
@@ -111,7 +111,7 @@ Returns the running state of the effect at a specified position in the effect ch
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getfilterparameters">GetFilterParameters</a>
 </td>
@@ -120,7 +120,7 @@ Gets the voice's filter parameters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputfilterparameters">GetOutputFilterParameters</a>
 </td>
@@ -129,7 +129,7 @@ Returns the filter parameters from one of this voice's sends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getoutputmatrix">GetOutputMatrix</a>
 </td>
@@ -138,7 +138,7 @@ Gets the volume level of each channel of the final output for the voice. These c
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvoicedetails">GetVoiceDetails</a>
 </td>
@@ -147,7 +147,7 @@ Returns information about the creation flags, input channels, and sample rate of
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-getvolume">GetVolume</a>
 </td>
@@ -156,7 +156,7 @@ Gets the current overall volume level of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setchannelvolumes">SetChannelVolumes</a>
 </td>
@@ -165,7 +165,7 @@ Sets the volume levels for the voice, per channel.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain">SetEffectChain</a>
 </td>
@@ -174,7 +174,7 @@ Replaces the effect chain of the voice.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">SetEffectParameters</a>
 </td>
@@ -183,7 +183,7 @@ Sets parameters for a given effect in the voice's effect chain.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setfilterparameters">SetFilterParameters</a>
 </td>
@@ -192,7 +192,7 @@ Sets the voice's filter parameters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputfilterparameters">SetOutputFilterParameters</a>
 </td>
@@ -201,7 +201,7 @@ Sets the filter parameters on one of this voice's sends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputmatrix">SetOutputMatrix</a>
 </td>
@@ -210,7 +210,7 @@ Sets the volume level of each channel of the final output for the voice. These c
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setoutputvoices">SetOutputVoices</a>
 </td>
@@ -219,7 +219,7 @@ Designates a new set of submix or mastering voices to receive the output of the 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-setvolume">SetVolume</a>
 </td>

@@ -90,7 +90,9 @@ A public comment is a comment that begins with the comment signature identifier 
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD ident;         // This contains GDICOMMENT_IDENTIFIER.  
 DWORD iComment;      // This contains GDICOMMENT_WINDOWS_METAFILE.  
 DWORD nVersion;      // This contains the version number of the  
@@ -105,7 +107,9 @@ DWORD nChecksum;     // This is the additive DWORD checksum for
 DWORD fFlags;        // This must be zero.  
 DWORD cbWinMetaFile; // This is the size, in bytes. of the  
                      // Windows-format metafile data that follows.  
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td>GDICOMMENT_BEGINGROUP</td>
@@ -114,7 +118,9 @@ DWORD cbWinMetaFile; // This is the size, in bytes. of the
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD   ident;         // This contains GDICOMMENT_IDENTIFIER.  
 DWORD   iComment;      // This contains GDICOMMENT_BEGINGROUP.  
 RECTL   rclOutput;     // This is the bounding rectangle for the  
@@ -123,7 +129,9 @@ DWORD   nDescription;  // This is the number of characters in the
                        // optional Unicode description string that  
                        // follows. This is zero if there is no  
                        // description string.  
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td>GDICOMMENT_ENDGROUP</td>
@@ -132,10 +140,14 @@ DWORD   nDescription;  // This is the number of characters in the
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD   ident;       // This contains GDICOMMENT_IDENTIFIER.  
 DWORD   iComment;    // This contains GDICOMMENT_ENDGROUP.  
-</code></pre>
+
+```
+
 
 ## -see-also
 

@@ -203,7 +203,11 @@ The <b>DrawIconEx</b> function places the icon's upper-left corner at the locati
 
 To duplicate <code>DrawIcon (hDC, X, Y, hIcon)</code>, call <b>DrawIconEx</b> as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>DrawIconEx (hDC, X, Y, hIcon, 0, 0, 0, NULL, DI_NORMAL | DI_COMPAT | DI_DEFAULTSIZE); </code></pre>
+
+``` syntax
+DrawIconEx (hDC, X, Y, hIcon, 0, 0, 0, NULL, DI_NORMAL | DI_COMPAT | DI_DEFAULTSIZE); 
+```
+
 
 ## -see-also
 

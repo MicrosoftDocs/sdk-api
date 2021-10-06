@@ -81,8 +81,12 @@ If the HDI_TEXT flag is set in the
 
 The <b>Header_GetItem</b> macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_GetItem(hwndHD, index, phdi)      \
+
+``` syntax
+#define Header_GetItem(hwndHD, index, phdi)      \
 
     (BOOL)SendMessage((hwndHD), HDM_GETITEM,   \
 
-    (WPARAM)(int)(index), (LPARAM)(LPHDITEM)(phdi))</code></pre>
+    (WPARAM)(int)(index), (LPARAM)(LPHDITEM)(phdi))
+```
+

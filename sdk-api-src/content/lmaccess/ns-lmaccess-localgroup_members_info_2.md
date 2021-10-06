@@ -141,8 +141,12 @@ A pointer to the account name of the local group member identified by <b>lgrmi2_
 
 
 
-<pre class="syntax" xml:space="preserve"><code>&lt;DomainName&gt;\&lt;AccountName&gt;
-</code></pre>
+
+``` syntax
+&lt;DomainName&gt;\&lt;AccountName&gt;
+
+```
+
 
 ## -remarks
 

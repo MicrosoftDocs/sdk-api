@@ -128,11 +128,19 @@ The provided interface identifier is invalid.
 
 The following call to OleCreate:
 
-<pre class="syntax" xml:space="preserve"><code>OleCreate(rclsid, riid, renderopt, pFormatEtc, pClientSite, pStg, ppvObj);</code></pre>
+
+``` syntax
+OleCreate(rclsid, riid, renderopt, pFormatEtc, pClientSite, pStg, ppvObj);
+```
+
 is equivalent to the following call to OleCreateEx:
 
-<pre class="syntax" xml:space="preserve"><code>DWORD    advf = ADVF_PRIMEFIRST;
-    OleCreateEx(rclsid, riid, renderopt, 1, &amp;advf, pFormatEtc, NULL, pClientSite, pStg, ppvObj);</code></pre>
+
+``` syntax
+DWORD    advf = ADVF_PRIMEFIRST;
+    OleCreateEx(rclsid, riid, renderopt, 1, &amp;advf, pFormatEtc, NULL, pClientSite, pStg, ppvObj);
+```
+
 Existing instantiation functions, (<a href="/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>, <a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatelink">OleCreateLink</a>, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatelinktofile">OleCreateLinkToFile</a>, and <a href="/windows/desktop/api/ole2/nf-ole2-olecreatelinkfromdata">OleCreateLinkFromData</a>) create only a single presentation or data format cache in the default cache location (within the '\001OlePresXXX' streams of the passed-in <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>), during instantiation. Plus, these caches must be created when the object next enters the running state. Since most applications require caching at least two presentations (screen and printer) and may require caching data in a different format or location from the handler, applications must typically launch and shut down the object server multiple times in order to prime their data caches during object creation, i.e., Insert Object, Insert Object from File, and Paste Object.
 
 

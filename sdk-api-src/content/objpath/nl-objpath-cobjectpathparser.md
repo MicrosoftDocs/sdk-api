@@ -67,7 +67,7 @@ Parses a WMI path which can include a remote computer name, namespaces, and clas
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-cobjectpathparser">CObjectPathParser</a>
 </td>
@@ -83,7 +83,7 @@ Constructs and initializes an instance of a <b>CObjectPathParser</b> object.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/bb204795(v=vs.85)">Free</a>
 </td>
@@ -91,7 +91,7 @@ Constructs and initializes an instance of a <b>CObjectPathParser</b> object.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-parse">Parse</a>
 </td>
@@ -100,7 +100,7 @@ Parses a string that contains a WMI path into a structure the contains the path 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-unparse">UnParse</a>
 </td>
