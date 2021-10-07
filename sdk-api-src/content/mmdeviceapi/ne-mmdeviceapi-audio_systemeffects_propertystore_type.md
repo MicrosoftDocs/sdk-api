@@ -5,7 +5,7 @@ title: AUDIO_SYSTEMEFFECTS_PROPERTYSTORE_TYPE
 ms.date: 06/18/2021
 targetos: Windows
 description: Specifies the type of an audio system effects property store.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mmdeviceapi.h

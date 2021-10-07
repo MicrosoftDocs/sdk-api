@@ -5,7 +5,7 @@ title: ID3D12VideoDevice3::CreateVideoEncoder
 ms.date: 06/23/2021
 targetos: Windows
 description: Creates a new instance of ID3D12VideoEncoder.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

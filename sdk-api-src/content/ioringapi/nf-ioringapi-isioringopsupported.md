@@ -5,7 +5,7 @@ title: IsIoRingOpSupported
 ms.date: 07/16/2021
 targetos: Windows
 description: Queries the support of the specified operation for the specified I/O ring.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

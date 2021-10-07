@@ -5,7 +5,7 @@ title: AUDIO_SYSTEMEFFECT
 ms.date: 06/17/2021
 targetos: Windows
 description: Represents a System Effects Audio Processing Object (sAPO) audio effect.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

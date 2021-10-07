@@ -5,7 +5,7 @@ title: SystemInterruptTime
 ms.date: 06/08/2021
 targetos: Windows
 description: Represents the amount of time since the system was last started, in 100ns intervals.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

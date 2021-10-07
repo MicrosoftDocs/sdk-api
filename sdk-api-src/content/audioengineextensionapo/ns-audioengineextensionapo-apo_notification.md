@@ -5,7 +5,7 @@ title: APO_NOTIFICATION
 ms.date: 06/19/2021
 targetos: Windows
 description: Represents a notification for a change to an APO endpoint or system effects.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

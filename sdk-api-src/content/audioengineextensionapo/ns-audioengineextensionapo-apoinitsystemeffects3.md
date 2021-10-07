@@ -6,7 +6,7 @@ ms.date: 06/19/2021
 targetos: Windows
 description: Provide additional initialization context to the audio processing object (APO) for  
 initialization, adding support for specifying a logging service provider.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

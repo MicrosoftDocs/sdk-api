@@ -5,7 +5,7 @@ title: QueryIoRingCapabilities
 ms.date: 07/16/2021
 targetos: Windows
 description: Queries the OS for the supported capabilities for IORINGs.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

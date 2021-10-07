@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyChangeNotificationClient
 ms.date: 06/18/2021
 targetos: Windows
 description: A callback interface implemented by clients to receive notifications when audio system effect properties change.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

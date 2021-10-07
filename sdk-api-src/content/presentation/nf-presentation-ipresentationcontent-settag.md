@@ -5,7 +5,7 @@ title: IPresentationContent::SetTag
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets a user-defined tag to associate with this content. This tag is how the content is referenced in statistics.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: audioengineextensionapo
 ms.date: 06/17/2021
 targetos: Windows
 description: APIs related to System Effects Audio Processing Object (sAPO) audio effects.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

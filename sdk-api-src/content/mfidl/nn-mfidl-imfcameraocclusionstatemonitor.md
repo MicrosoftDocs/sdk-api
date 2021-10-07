@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateMonitor
 ms.date: 05/25/2021
 targetos: Windows
 description: Monitors the occlusion state of a camera device.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

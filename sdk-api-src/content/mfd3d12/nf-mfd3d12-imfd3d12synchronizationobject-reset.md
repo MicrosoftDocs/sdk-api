@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObject::Reset
 ms.date: 07/27/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

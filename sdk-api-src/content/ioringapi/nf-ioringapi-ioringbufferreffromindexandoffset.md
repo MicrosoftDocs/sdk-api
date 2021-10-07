@@ -5,7 +5,7 @@ title: IoRingBufferRefFromIndexAndOffset
 ms.date: 07/16/2021
 targetos: Windows
 description: Creates an instance of the IORING_BUFFER_REF structure with the provided buffer index and offset.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

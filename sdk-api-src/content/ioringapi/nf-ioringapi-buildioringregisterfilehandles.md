@@ -5,7 +5,7 @@ title: BuildIoRingRegisterFileHandles
 ms.date: 07/16/2021
 targetos: Windows
 description: Registers an array of file handles with the system for future I/O ring operations.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

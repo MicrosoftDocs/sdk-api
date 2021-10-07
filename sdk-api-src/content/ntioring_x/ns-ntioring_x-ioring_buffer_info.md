@@ -5,7 +5,7 @@ title: IORING_BUFFER_INFO
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents a data buffer that can be registered with an I/O ring.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

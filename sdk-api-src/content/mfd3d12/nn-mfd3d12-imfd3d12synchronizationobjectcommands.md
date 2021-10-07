@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObjectCommands
 ms.date: 07/27/2021
 targetos: Windows
 description: Provides commands that allow a producer or a consumer of D3D12 resource to signal down-stream components when the resource is ready for use or can be released.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

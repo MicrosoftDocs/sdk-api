@@ -5,7 +5,7 @@ title: IPresentationSurface::SetSourceRect
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets the area of the source presentation buffer to sample from.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: COMPOSITION_TARGET_ID
 ms.date: 06/24/2021
 targetos: Windows
 description: Contains information about a composition render target.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

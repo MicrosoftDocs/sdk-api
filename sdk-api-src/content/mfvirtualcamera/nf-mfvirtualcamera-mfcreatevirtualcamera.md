@@ -5,7 +5,7 @@ title: MFCreateVirtualCamera
 ms.date: 05/17/2021
 targetos: Windows
 description: Creates a virtual camera object which can be used by the caller to register, unregister, or remove the virtual camera from the system.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

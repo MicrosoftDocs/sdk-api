@@ -5,7 +5,7 @@ title: SubmitIoRing
 ms.date: 07/16/2021
 targetos: Windows
 description: Submits all constructed but not yet submitted entries to the kernel’s queue and optionally waits for a set of operations to complete.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

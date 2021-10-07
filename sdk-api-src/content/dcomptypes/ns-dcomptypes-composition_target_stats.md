@@ -5,7 +5,7 @@ title: COMPOSITION_TARGET_STATS
 ms.date: 06/24/2021
 targetos: Windows
 description: Contains per-target information for a composition frame and render target.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

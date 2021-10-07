@@ -5,7 +5,7 @@ title: IAudioEffectsManager::RegisterAudioEffectsChangedNotificationCallback
 ms.date: 06/16/2021
 targetos: Windows
 description: Registers an AudioEffectsChangedNotificationClient interface.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObjectCommands::EnqueueResourceRelease
 ms.date: 07/27/2021
 targetos: Windows
 description: Queues a fence into the specified command queue that will signal to the synchronization object when GPU is finished processing the consumer commands.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

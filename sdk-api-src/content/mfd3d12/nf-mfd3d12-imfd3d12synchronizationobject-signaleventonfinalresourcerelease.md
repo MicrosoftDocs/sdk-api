@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObject::SignalEventOnFinalResourceRelease
 ms.date: 07/27/2021
 targetos: Windows
 description: Stores an event handle that will be set when the associated D3D12 resource is free and can be recycled, reused, or destroyed.  
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

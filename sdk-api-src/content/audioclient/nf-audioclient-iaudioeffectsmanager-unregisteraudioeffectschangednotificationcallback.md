@@ -5,7 +5,7 @@ title: IAudioEffectsManager::UnregisterAudioEffectsChangedNotificationCallback
 ms.date: 06/21/2021
 targetos: Windows
 description: Unregisters an IAudioEffectsChangedNotificationClient interface.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

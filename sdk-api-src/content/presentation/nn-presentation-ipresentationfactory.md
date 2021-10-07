@@ -5,7 +5,7 @@ title: IPresentationFactory
 ms.date: 06/08/2021
 targetos: Windows
 description: This interface is used to query system support for presentation, and create a presentation manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

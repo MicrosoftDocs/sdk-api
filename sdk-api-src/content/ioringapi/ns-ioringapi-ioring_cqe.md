@@ -5,7 +5,7 @@ title: IORING_CQE
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents a completed I/O ring queue entry.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

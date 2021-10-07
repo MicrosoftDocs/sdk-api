@@ -5,7 +5,7 @@ title: IPresentationManager::CancelPresentsFrom
 ms.date: 06/08/2021
 targetos: Windows
 description: Cancels any previously issued and still in-flight presents that have not yet displayed, and whose Present IDs are at least the passed in _`presentIdToCancelFrom`_.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

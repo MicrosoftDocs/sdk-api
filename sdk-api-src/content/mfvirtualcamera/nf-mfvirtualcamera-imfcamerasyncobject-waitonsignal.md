@@ -5,7 +5,7 @@ title: IMFCameraSyncObject::WaitOnSignal
 ms.date: 05/17/2021
 targetos: Windows
 description: Blocks until the time out specified timeout interval has elapsed or the synchronization object was signaled.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

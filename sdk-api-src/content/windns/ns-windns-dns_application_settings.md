@@ -41,7 +41,7 @@ api_location:
 api_name:
  - _DNS_APPLICATION_SETTINGS
  - DNS_APPLICATION_SETTINGS
-prerelease: true
+prerelease: false
 ---
 
 ## -description

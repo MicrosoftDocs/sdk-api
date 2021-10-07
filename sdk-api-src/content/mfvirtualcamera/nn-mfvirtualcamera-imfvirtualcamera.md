@@ -5,7 +5,7 @@ title: IMFVirtualCamera
 ms.date: 05/17/2021
 targetos: Windows
 description: Represents a virtual camera that can be plugged into the Media Foundation frame server pipeline.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

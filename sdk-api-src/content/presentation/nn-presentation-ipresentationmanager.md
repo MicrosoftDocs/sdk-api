@@ -5,7 +5,7 @@ title: IPresentationManager
 ms.date: 06/08/2021
 targetos: Windows
 description: Defines methods for managing presentation.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

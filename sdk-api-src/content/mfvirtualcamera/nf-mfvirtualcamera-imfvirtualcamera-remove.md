@@ -5,7 +5,7 @@ title: IMFVirtualCamera::Remove
 ms.date: 05/17/2021
 targetos: Windows
 description: Disables and unregisters the virtual camera from the system.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

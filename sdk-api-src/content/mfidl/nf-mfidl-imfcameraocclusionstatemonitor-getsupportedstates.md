@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateMonitor::GetSupportedStates
 ms.date: 05/24/2021
 targetos: Windows
 description: Gets the occlusion states supported by the current device.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

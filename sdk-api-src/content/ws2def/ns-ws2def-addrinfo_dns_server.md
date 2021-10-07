@@ -4,7 +4,7 @@ title: ADDRINFO_DNS_SERVER
 description: Represents a custom Domain Name System (DNS) server, used in the Winsock APIs.
 tech.root: WinSock
 ms.date: 06/14/2021
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.header: ws2def.h
 req.include-header: 

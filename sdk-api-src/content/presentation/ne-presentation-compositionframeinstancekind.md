@@ -5,7 +5,7 @@ title: CompositionFrameInstanceKind
 ms.date: 06/08/2021
 targetos: Windows
 description: Defines constants that indicate how the content was used in a composition frame.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: presentation.h

@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyStore::UnregisterPropertyChangeNotification
 ms.date: 06/18/2021
 targetos: Windows
 description: Unregisters an IAudioSystemEffectsPropertyChangeNotificationClient callback interface.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyStore::ResetVolatilePropertyStore
 ms.date: 06/18/2021
 targetos: Windows
 description: Deletes all existing key value pairs in the audio system effect volatile property store.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

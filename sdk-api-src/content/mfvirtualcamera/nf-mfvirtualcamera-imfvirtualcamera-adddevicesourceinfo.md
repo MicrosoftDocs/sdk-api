@@ -5,7 +5,7 @@ title: IMFVirtualCamera::AddDeviceSourceInfo
 ms.date: 05/17/2021
 targetos: Windows
 description: Informs the pipeline the virtual camera will require exclusive control to the physical camera specified by the specified device symbolic name.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

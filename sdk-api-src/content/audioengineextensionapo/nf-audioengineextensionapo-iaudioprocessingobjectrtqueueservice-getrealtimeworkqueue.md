@@ -5,7 +5,7 @@ title: IAudioProcessingObjectRTQueueService::GetRealTimeWorkQueue
 ms.date: 06/19/2021
 targetos: Windows
 description: Gets the ID of a work queue that the APO can use to schedule tasks that need to run at a real-time priority.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: D3D12_VIDEO_ENCODER_FLAGS
 ms.date: 06/18/2021
 targetos: Windows
 description: Specifies flags for video encoder creation.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3d12video.h

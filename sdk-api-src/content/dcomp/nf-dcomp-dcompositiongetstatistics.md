@@ -5,7 +5,7 @@ title: DCompositionGetStatistics
 ms.date: 06/24/2021
 targetos: Windows
 description: Gets basic information about the composition frame and a list of render target ID's that are part of the frame.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

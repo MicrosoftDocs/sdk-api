@@ -5,7 +5,7 @@ title: IMFVirtualCamera::Stop
 ms.date: 05/17/2021
 targetos: Windows
 description: Disables the registered virtual camera, blocking apps from being able to enumerate or activate the virtual camera.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IAudioSystemEffects3::GetControllableSystemEffectsList
 ms.date: 06/17/2021
 targetos: Windows
 description: Implemented by System Effects Audio Processing Object (sAPO) audio effects to allow the caller to get the current list of effects.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

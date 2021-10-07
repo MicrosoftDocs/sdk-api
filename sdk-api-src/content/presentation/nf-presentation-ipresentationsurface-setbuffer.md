@@ -5,7 +5,7 @@ title: IPresentationSurface::SetBuffer
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets the presentation buffer associated with this presentation surface.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

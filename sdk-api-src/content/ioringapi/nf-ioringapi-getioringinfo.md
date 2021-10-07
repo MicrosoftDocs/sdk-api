@@ -5,7 +5,7 @@ title: GetIoRingInfo
 ms.date: 07/16/2021
 targetos: Windows
 description: Gets information about the API version and queue sizes of an I/O ring.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

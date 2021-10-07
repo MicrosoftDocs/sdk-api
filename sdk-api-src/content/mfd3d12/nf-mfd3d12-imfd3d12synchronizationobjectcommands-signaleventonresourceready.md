@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObjectCommands::SignalEventOnResourceReady
 ms.date: 07/27/2021
 targetos: Windows
 description: Stores an event handle that will be set when the D3D12 resource is ready.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

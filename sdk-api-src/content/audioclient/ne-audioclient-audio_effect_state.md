@@ -5,7 +5,7 @@ title: AUDIO_EFFECT_STATE
 ms.date: 06/16/2021
 targetos: Windows
 description: Specifies the state of an audio effect.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: audioclient.h

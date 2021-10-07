@@ -5,7 +5,7 @@ title: AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION
 ms.date: 06/18/2021
 targetos: Windows
 description: Represents an audio endpoint volume change APO notification.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
