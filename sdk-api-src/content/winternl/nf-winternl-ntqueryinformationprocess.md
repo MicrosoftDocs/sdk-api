@@ -159,22 +159,25 @@ A pointer to a buffer supplied by the calling application into which the functio
 
 When the <i>ProcessInformationClass</i>  parameter is <b>ProcessBasicInformation</b>,  the buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <b>PROCESS_BASIC_INFORMATION</b> structure having the following layout:
 
-
 ``` syntax
 typedef struct _PROCESS_BASIC_INFORMATION {
-    PVOID Reserved1;
+    NTSTATUS ExitStatus;
     PPEB PebBaseAddress;
-    PVOID Reserved2[2];
+    ULONG_PTR AffinityMask;
+    KPRIORITY BasePriority;
     ULONG_PTR UniqueProcessId;
-    PVOID Reserved3;
+    ULONG_PTR InheritedFromUniqueProcessId;
 } PROCESS_BASIC_INFORMATION;
 ```
 
-The <b>UniqueProcessId</b> member points to the system's unique identifier for this process. Use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> function to retrieve this information.
-
-The <b>PebBaseAddress</b> member points to a <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure.
-
-The  other members of this structure are reserved for internal use by the operating system.
+| Field | Meaning |
+|-------|---------|
+| **ExitStatus** | Contains the same value that [**GetExitCodeProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess) would return. However the use of **GetExitCodeProcess** is preferable for clarity and safety. |
+| **PebBaseAddress** | Points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-peb) structure. |
+| **AffinityMask** | Can be cast to a **DWORD** and contains the same value that [**GetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask) would return for the `lpProcessAffinityMask` parameter. |
+| **BasePriority** | Contains the process priority as described in [Scheduling Priorities](/windows/win32/procthread/scheduling-priorities#base-priority). |
+| **UniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for this process. It is best to use the [**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) function to retrieve this information. |
+| **InheritedFromUniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for the parent process. |
 
 
 
