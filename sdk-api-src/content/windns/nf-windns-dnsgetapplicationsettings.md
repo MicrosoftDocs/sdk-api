@@ -39,7 +39,7 @@ api_location:
  - Dnsapi.dll
 api_name:
  - DnsGetApplicationSettings
-prerelease: true
+prerelease: false
 ---
 
 ## -description

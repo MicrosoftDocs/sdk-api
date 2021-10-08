@@ -5,7 +5,7 @@ title: ICompositionFramePresentStatistics::GetCompositionFrameId
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the ID of the composition frame, to be used in other APIs to get more detailed information.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

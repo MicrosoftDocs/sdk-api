@@ -5,7 +5,7 @@ title: IAudioProcessingObjectRTQueueService
 ms.date: 06/19/2021
 targetos: Windows
 description: Represents a realtime work queue service for APOs.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

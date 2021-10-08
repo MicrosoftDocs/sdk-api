@@ -5,7 +5,7 @@ title: MFCameraOcclusionState
 ms.date: 05/52/2021
 targetos: Windows
 description: Specifies the occlusion state of a camera.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mfidl.h

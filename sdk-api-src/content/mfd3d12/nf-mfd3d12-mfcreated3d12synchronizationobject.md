@@ -5,7 +5,7 @@ title: MFCreateD3D12SynchronizationObject
 ms.date: 07/27/2021
 targetos: Windows
 description: Instantiates an a Media Foundation D3D12 synchronization primitive used to synchronize access to a D3D12 resource stored in an Media Foundation object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: APO_NOTIFICATION_TYPE
 ms.date: 06/18/2021
 targetos: Windows
 description: Specifies the type of an APO_NOTIFICATION.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: audioengineextensionapo.h

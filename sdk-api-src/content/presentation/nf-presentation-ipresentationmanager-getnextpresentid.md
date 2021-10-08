@@ -5,7 +5,7 @@ title: IPresentationManager::GetNextPresentId
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the identifier for the next present. All synchronization fences will be signaled to this value when referring to that present.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

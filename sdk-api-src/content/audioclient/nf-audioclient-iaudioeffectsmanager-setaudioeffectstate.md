@@ -5,7 +5,7 @@ title: IAudioEffectsManager::SetAudioEffectState
 ms.date: 
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

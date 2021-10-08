@@ -5,7 +5,7 @@ title: IORING_CAPABILITIES
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents the IORING API capabilities.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

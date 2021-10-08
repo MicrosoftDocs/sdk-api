@@ -4,7 +4,7 @@ title: ADDRINFOEX6
 description: Used by the <a href="/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexw">GetAddrInfoExW</a> function to hold host address information when a specific network interface has been requested.
 tech.root: WinSock
 ms.date: 06/14/2021
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.header: ws2def.h
 req.include-header: 

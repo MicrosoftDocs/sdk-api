@@ -4,7 +4,7 @@ title: DNS_QUERY_REQUEST3
 description: Contains the DNS query parameters used in a call to [DnsQueryEx](/windows/win32/api/windns/nf-windns-dnsqueryex).
 tech.root: DNS
 ms.date: 05/28/2021
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.header: windns.h
 req.include-header: 

@@ -5,7 +5,7 @@ title: IPresentationSurface::SetColorSpace
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets the type of color space used by the presentation surface.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

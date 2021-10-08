@@ -2,7 +2,7 @@
 UID: NF:winhttp.WinHttpQueryConnectionGroup
 title: WinHttpQueryConnectionGroup
 description: Retrieves an enumeration of http connections and their **GUID**s.
-prerelease: true
+prerelease: false
 tech.root: http
 ms.date: 06/16/2021
 req.construct-type: function

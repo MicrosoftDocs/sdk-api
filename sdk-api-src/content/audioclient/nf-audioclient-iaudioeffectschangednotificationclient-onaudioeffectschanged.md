@@ -5,7 +5,7 @@ title: IAudioEffectsChangedNotificationClient::OnAudioEffectsChanged
 ms.date: 06/16/2021
 targetos: Windows
 description: Called by the system when the list of audio effects changes or the resources needed to enable an effect changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IPresentationFactory::IsPresentationSupported
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets a value that indicates whether presentation of any sort (with or without independent flip) is supported on the backing D3D device.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

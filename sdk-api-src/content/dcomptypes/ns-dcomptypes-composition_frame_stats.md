@@ -5,7 +5,7 @@ title: COMPOSITION_FRAME_STATS
 ms.date: 06/24/2021
 targetos: Windows
 description: Describes timing and composition statistics for a compositor frame.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

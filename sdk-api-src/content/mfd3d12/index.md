@@ -5,7 +5,7 @@ title: mfd3d12
 ms.date: 07/27/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

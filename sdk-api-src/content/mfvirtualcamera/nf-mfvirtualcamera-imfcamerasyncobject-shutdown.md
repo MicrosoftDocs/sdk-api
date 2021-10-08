@@ -5,7 +5,7 @@ title: IMFCameraSyncObject::Shutdown
 ms.date: 05/17/2021
 targetos: Windows
 description: Shuts down the sync object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

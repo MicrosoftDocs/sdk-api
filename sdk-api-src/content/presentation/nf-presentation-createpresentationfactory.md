@@ -5,7 +5,7 @@ title: CreatePresentationFactory
 ms.date: 06/08/2021
 targetos: Windows
 description: Creates a presentation factory.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IPresentationFactory::IsPresentationSupportedWithIndependentFlip
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets a value that indicates whether independent-flip-enabled presentation is supported on the backing D3D device.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

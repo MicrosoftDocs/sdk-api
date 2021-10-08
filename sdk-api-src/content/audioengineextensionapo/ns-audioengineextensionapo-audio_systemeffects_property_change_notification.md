@@ -5,7 +5,7 @@ title: AUDIO_SYSTEMEFFECTS_PROPERTY_CHANGE_NOTIFICATION
 ms.date: 06/18/2021
 targetos: Windows
 description: Represents a system audio effect APO notification.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

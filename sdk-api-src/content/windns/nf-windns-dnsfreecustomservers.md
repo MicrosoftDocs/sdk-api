@@ -39,7 +39,7 @@ api_location:
  - Dnsapi.dll
 api_name:
  - DnsFreeCustomServers
-prerelease: true
+prerelease: false
 ---
 
 ## -description

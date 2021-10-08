@@ -3,7 +3,7 @@ UID: NN:sharewindowcommandsourceinterop.IShareWindowCommandSourceInterop
 title: IShareWindowCommandSourceInterop
 description: A native interoperation interface that allows getting a [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommandsource) object.
 tech.root: winrt
-prerelease: true
+prerelease: false
 ms.date: 06/09/2021
 targetos: Windows
 req.assembly: 

@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyStore
 ms.date: 06/18/2021
 targetos: Windows
 description: Provides access to manage audio system effects audio stores and to register for notifications when audio system effect properties change.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

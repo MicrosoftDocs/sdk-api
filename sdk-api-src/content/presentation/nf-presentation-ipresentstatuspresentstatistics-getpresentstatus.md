@@ -5,7 +5,7 @@ title: IPresentStatusPresentStatistics::GetPresentStatus
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the status of the frame.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

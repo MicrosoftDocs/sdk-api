@@ -5,7 +5,7 @@ title: CreateIoRing
 ms.date: 07/16/2021
 targetos: Windows
 description: Creates a new instance of an I/O ring submission/completion queue pair and returns a handle for referencing the I/O ring.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

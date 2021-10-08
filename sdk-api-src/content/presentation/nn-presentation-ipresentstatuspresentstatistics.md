@@ -5,7 +5,7 @@ title: IPresentStatusPresentStatistics
 ms.date: 06/08/2021
 targetos: Windows
 description: Describes how a present was processed during a DWM-composed frame.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

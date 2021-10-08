@@ -5,7 +5,7 @@ title: IAudioProcessingObjectNotifications
 ms.date: 06/19/2021
 targetos: Windows
 description: Implemented by clients to register for and receive common audio-related notifications for APO endpoint and system effect notifications.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

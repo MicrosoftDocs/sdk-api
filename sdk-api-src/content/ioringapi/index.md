@@ -5,7 +5,7 @@ title: ioringapi
 ms.date: 07/16/2021
 targetos: Windows
 description: Provides APIs for creating and managing I/O rings.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObject
 ms.date: 07/27/2021
 targetos: Windows
 description: Allows a D3D12 resource allocator to manage the lifetime of a D3D12 resource.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

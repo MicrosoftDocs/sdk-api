@@ -5,7 +5,7 @@ title: IAudioEffectsChangedNotificationClient
 ms.date: 06/16/2021
 targetos: Windows
 description: A callback interface allows applications to receive notifications when the list of audio effects changes or the resources needed to enable an effect changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyStore::OpenVolatilePropertyStore
 ms.date: 06/18/2021
 targetos: Windows
 description: Opens the audio system effects volatile property store.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

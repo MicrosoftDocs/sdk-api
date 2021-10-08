@@ -5,7 +5,7 @@ title: APO_LOG_LEVEL
 ms.date: 06/19/2021
 targetos: Windows
 description: Specifies the level of an APO event logged with IAudioProcessingObjectLoggingService::ApoLog.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: audioengineextensionapo.h

@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateReportCallback
 ms.date: 05/25/2021
 targetos: Windows
 description: Implemented by applications to receive camera occlusion state change notifications.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

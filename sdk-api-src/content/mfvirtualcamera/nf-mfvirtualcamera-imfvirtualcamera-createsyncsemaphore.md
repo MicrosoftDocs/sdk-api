@@ -5,7 +5,7 @@ title: IMFVirtualCamera::CreateSyncSemaphore
 ms.date: 05/17/2021
 targetos: Windows
 description: A wrapper around the IKsControl::KsEvent method, which enables or disables a semaphore.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
