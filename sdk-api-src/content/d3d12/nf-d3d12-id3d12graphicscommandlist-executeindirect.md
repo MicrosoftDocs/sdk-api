@@ -106,20 +106,20 @@ Non-NULL pCountBuffer:
 
 ``` syntax
 // Read draw count out of count buffer
-UINT CommandCount = pCountBuffer-&gt;ReadUINT32(CountBufferOffset);
+UINT CommandCount = pCountBuffer->ReadUINT32(CountBufferOffset);
 
 CommandCount = min(CommandCount, MaxCommandCount)
 
 // Get pointer to first Commanding argument
-BYTE* Arguments = pArgumentBuffer-&gt;GetBase() + ArgumentBufferOffset;
+BYTE* Arguments = pArgumentBuffer->GetBase() + ArgumentBufferOffset;
 
-for(UINT CommandIndex = 0; CommandIndex &lt; CommandCount; CommandIndex++)
+for(UINT CommandIndex = 0; CommandIndex < CommandCount; CommandIndex++)
 {
   // Interpret the data contained in *Arguments
   // according to the command signature
-  pCommandSignature-&gt;Interpret(Arguments);
+  pCommandSignature->Interpret(Arguments);
 
-  Arguments += pCommandSignature -&gt;GetByteStride();
+  Arguments += pCommandSignature->GetByteStride();
 }
 
 ```
@@ -129,15 +129,15 @@ NULL pCountBuffer:
 
 ``` syntax
 // Get pointer to first Commanding argument
-BYTE* Arguments = pArgumentBuffer-&gt;GetBase() + ArgumentBufferOffset;
+BYTE* Arguments = pArgumentBuffer->GetBase() + ArgumentBufferOffset;
 
-for(UINT CommandIndex = 0; CommandIndex &lt; MaxCommandCount; CommandIndex++)
+for(UINT CommandIndex = 0; CommandIndex < MaxCommandCount; CommandIndex++)
 {
   // Interpret the data contained in *Arguments
   // according to the command signature
-  pCommandSignature-&gt;Interpret(Arguments);
+  pCommandSignature->Interpret(Arguments);
 
-  Arguments += pCommandSignature -&gt;GetByteStride();
+  Arguments += pCommandSignature->GetByteStride();
 }
 
 ```
