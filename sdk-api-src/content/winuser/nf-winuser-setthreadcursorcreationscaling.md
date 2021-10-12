@@ -31,7 +31,7 @@ topic_type:
 api_type:
  - 
 api_location:
- - winuser.h
+ - user32.dll
 api_name:
  - SetThreadCursorCreationScaling
 f1_keywords:
