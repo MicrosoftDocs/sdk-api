@@ -1,5 +1,5 @@
 ---
-UID: NS:winsock2._WSAOVERLAPPED
+UID: NS:winsock2.WSAOVERLAPPED
 title: WSAOVERLAPPED (winsock2.h)
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
 helpviewer_keywords: ["*LPWSAOVERLAPPED","LPWSAOVERLAPPED","LPWSAOVERLAPPED structure pointer [Winsock]","WSAOVERLAPPED","WSAOVERLAPPED structure [Winsock]","_win32_wsaoverlapped_2","winsock.wsaoverlapped_2","winsock2/LPWSAOVERLAPPED","winsock2/WSAOVERLAPPED"]
