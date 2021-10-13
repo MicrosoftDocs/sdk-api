@@ -138,6 +138,8 @@ Tearing support is a requirement to enable displays that support variable refres
 
 To check for hardware support of this feature, refer to <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport">IDXGIFactory5::CheckFeatureSupport</a>. For usage information refer to <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> and the <a href="/windows/desktop/direct3ddxgi/dxgi-present">DXGI_PRESENT</a> flags.
 
+Note that <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers">IDXGISwapChain::ResizeBuffers</a> cannot be used to add or remove this flag.
+
 ### -field DXGI_SWAP_CHAIN_FLAG_RESTRICTED_TO_ALL_HOLOGRAPHIC_DISPLAYS
 
 ## -remarks
