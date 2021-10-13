@@ -51,33 +51,27 @@ api_name:
 ## -description
 
 The <b>IOCTL_EMI_GET_METADATA_SIZE</b> 
-   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
+   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request. This should be requested before [IOCTL_EMI_GET_METADATA](ni-emi-ioctl_emi_get_metadata.md) as the size will be vary based on the driver implementation. 
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+<text> None. </text>
 
 ### -input-buffer-length
 
-<text></text>
+<text> None. </text>
 
 ### -output-buffer
 
-<text></text>
+<text> The <b> AssociatedIrp.SystemBuffer </b> member specifies the address of a caller-allocated buffer that contains a [EMI_METADATA_SIZE](ns-emi-emi_metadata_size.md) structure. On output, this structure holds the size of EMI metadata </text>
+
 
 ### -output-buffer-length
 
-<text></text>
+<text> The size of this buffer is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength </b> member. </text>
 
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
 
 ### -status-block
 
@@ -86,6 +80,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+
 
 ## -see-also
 

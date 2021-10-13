@@ -57,27 +57,19 @@ The <b>IOCTL_EMI_GET_VERSION</b>
 
 ### -input-buffer
 
-<text></text>
+<text> None. </text>
 
 ### -input-buffer-length
 
-<text></text>
+<text> None. </text>
 
 ### -output-buffer
 
-<text></text>
+<text> The <b> AssociatedIrp.SystemBuffer </b> member specifies the address of a caller-allocated buffer that contains a EMI_VERSION structure. On output, this structure holds the EMI version that is supported by the device. </text>
 
 ### -output-buffer-length
 
-<text></text>
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length
-
-<text></text>
+<text> The size of this buffer is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength </b> member. </text>
 
 ### -status-block
 
@@ -86,6 +78,12 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+
+### -remarks
+
+<b> EMI_VERSION_V1 </b> indicate there is only one single energy measurement channel supported by the device.
+ 
+<b> EMI_VERSION_V2 </b> indicate there is multiple energy measurement channels supported by the device.
 
 ## -see-also
 
