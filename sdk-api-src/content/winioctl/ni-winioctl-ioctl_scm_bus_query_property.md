@@ -3,7 +3,6 @@ UID: NI:winioctl.IOCTL_SCM_BUS_QUERY_PROPERTY
 title: IOCTL_SCM_BUS_QUERY_PROPERTY
 description: This is previously available to download firmware to an NVDIMM.
 tech.root: FileIO
-ms.assetid: 7d895367-f48f-47db-9ef9-cf20d0ea6782
 ms.date: 19/05/2021
 ms.keywords: IOCTL_SCM_BUS_QUERY_PROPERTY, IOCTL_SCM_BUS_QUERY_PROPERTY control, IOCTL_SCM_BUS_QUERY_PROPERTY control code [Files], _win32_IOCTL_SCM_BUS_QUERY_PROPERTY, base.IOCTL_SCM_BUS_QUERY_PROPERTY, fs.IOCTL_SCM_BUS_QUERY_PROPERTY, winioctl/IOCTL_SCM_BUS_QUERY_PROPERTY
 req.header: winioctl.h

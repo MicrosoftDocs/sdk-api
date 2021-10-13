@@ -3,7 +3,6 @@ UID: NI:winioctl.IOCTL_SCM_PD_FIRMWARE_ACTIVATE
 title: IOCTL_SCM_PD_FIRMWARE_ACTIVATE
 description: This is previously available to download firmware to an NVDIMM.
 tech.root: FileIO
-ms.assetid: 7d895367-f48f-47db-9ef9-cf20d0ea6782
 ms.date: 19/05/2021
 ms.keywords: IOCTL_SCM_PD_FIRMWARE_ACTIVATE, IOCTL_SCM_PD_FIRMWARE_ACTIVATE control, IOCTL_SCM_PD_FIRMWARE_ACTIVATE control code [Files], _win32_IOCTL_SCM_PD_FIRMWARE_ACTIVATE, base.IOCTL_SCM_PD_FIRMWARE_ACTIVATE, fs.IOCTL_SCM_PD_FIRMWARE_ACTIVATE, winioctl/IOCTL_SCM_PD_FIRMWARE_ACTIVATE
 req.header: winioctl.h
