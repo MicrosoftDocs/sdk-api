@@ -153,9 +153,9 @@ The <b>CoCreateInstance</b> function provides a convenient shortcut by connectin
 
 
 ``` syntax
-CoGetClassObject(rclsid, dwClsContext, NULL, IID_IClassFactory, &amp;pCF); 
-hresult = pCF-&gt;CreateInstance(pUnkOuter, riid, ppvObj) 
-pCF-&gt;Release(); 
+CoGetClassObject(rclsid, dwClsContext, NULL, IID_IClassFactory, &pCF); 
+hresult = pCF->CreateInstance(pUnkOuter, riid, ppvObj);
+pCF->Release(); 
 
 ```
 
