@@ -59,7 +59,7 @@ This handle is returned by the [RegCreateKeyEx](nf-winreg-regcreatekeyexa.md) or
 
 ### -param lpSubKeyName
 
-The name of the subkey to be renamed. This key must be a subkey of the key identified by the *hKeySrc* parameter. This parameter can also be **NULL**, in which case the key identified by the *hKeySrc* parameter will be renamed.
+The name of the subkey to be renamed. This key must be a subkey of the key identified by the *hKey* parameter. This parameter can also be **NULL**, in which case the key identified by the *hKey* parameter will be renamed.
 
 ### -param lpNewKeyName
 
@@ -77,10 +77,10 @@ This function can be used to rename an entire registry subtree. The caller must 
 
 ## -see-also
 
-<a href="/windows/win32/api/winreg/nf-winreg-regcopytreew">RegCopyTree</a>
+[RegCopyTree](/windows/win32/api/winreg/nf-winreg-regcopytreew)
 
-<a href="/windows/win32/SysInfo/registry-functions">Registry Functions</a>
+[Registry Functions](/windows/win32/SysInfo/registry-functions)
 
-<a href="/windows/win32/SysInfo/registry">Registry Overview</a>
+[Registry Overview](/windows/win32/SysInfo/registry)
 
-<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+[SECURITY_ATTRIBUTES](/windows/win32/api/wtypesbase/ns-wtypesbase-security_attributes)
