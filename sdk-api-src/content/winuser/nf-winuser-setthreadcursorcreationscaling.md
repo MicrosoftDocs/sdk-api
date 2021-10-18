@@ -29,7 +29,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - user32.dll
 api_name:
