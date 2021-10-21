@@ -91,8 +91,8 @@ Any other error code indicates that the operation was not successfully initiated
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

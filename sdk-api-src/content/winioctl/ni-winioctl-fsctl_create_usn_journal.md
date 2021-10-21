@@ -48,7 +48,7 @@ api_name:
 
 Creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal 
     stream.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
