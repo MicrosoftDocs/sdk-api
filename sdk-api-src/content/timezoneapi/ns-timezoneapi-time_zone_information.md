@@ -130,7 +130,7 @@ This value is added to the value of the <b>Bias</b> member to form the bias used
 Settings for each time zone are stored in the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

@@ -75,11 +75,9 @@ The size of this buffer is specified in the <b>Parameters.DeviceIoControl.Output
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

@@ -76,7 +76,7 @@ You can publish applications in <b>Add/Remove Programs </b> using the following 
 When you implement these interfaces, you must register your COM object in the registry.  To register your publisher, add your object's class identifier (CLSID) under the following registry key.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -88,7 +88,7 @@ When you implement these interfaces, you must register your COM object in the re
 For example, if your publisher is named "My Publisher", you  create a new key under "Publishers" named "My Publisher" with its default REG_SZ value as the publisher's CLSID:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -102,7 +102,7 @@ For example, if your publisher is named "My Publisher", you  create a new key un
 You can also create the typical COM server registration entries as follows:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <b>{469EE8CE-1B86-4524-9042-AAA44FD9C8F2}</b>
          (Default) = Sample Applications Publisher
