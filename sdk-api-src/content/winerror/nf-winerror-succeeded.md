@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define SUCCEEDED(hr) (((HRESULT)(hr)) &gt;= 0)
+#define SUCCEEDED(hr) (((HRESULT)(hr)) >= 0)
 ```
 
 
