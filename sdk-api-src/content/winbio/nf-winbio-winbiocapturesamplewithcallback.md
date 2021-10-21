@@ -111,7 +111,7 @@ Return the sample after it has been cleaned and filtered.
 
 * **WINBIO_DATA_FLAG_PROCESSED**
 
-Return the sample after it is ready to be used for the purpose specified by the <mark type="param">Purpose</mark> parameter.
+Return the sample after it is ready to be used for the purpose specified by the <mark>Purpose</mark> parameter.
 
 ### -param CaptureCallback [in]
 

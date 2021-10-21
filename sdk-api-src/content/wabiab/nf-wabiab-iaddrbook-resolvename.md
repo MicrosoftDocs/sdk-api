@@ -85,7 +85,7 @@ HRESULT
 
 ## -remarks
 
-**ResolveName** will optionally display a dialog box if ambiguous matches are found. **ResolveName** goes through the address list passed in <mark type="param">lpAdrList</mark>, finds all the unresolved names, resolves them, and returns the appropriately modified address list. The address list passed in can be a list created using the [IAddrBook::Address](nf-wabiab-iaddrbook-address.md) method.
+**ResolveName** will optionally display a dialog box if ambiguous matches are found. **ResolveName** goes through the address list passed in <mark>lpAdrList</mark>, finds all the unresolved names, resolves them, and returns the appropriately modified address list. The address list passed in can be a list created using the [IAddrBook::Address](nf-wabiab-iaddrbook-address.md) method.
 			
 If a recipient is ambiguous and the MAPI_DIALOG flag is not specified, **ResolveName** will return MAPI_E_AMBIGUOUS_RECIPIENT.
 
