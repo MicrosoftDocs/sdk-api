@@ -64,7 +64,7 @@ This macro is defined as follows:
 
 
 ``` syntax
-#define FAILED(hr) (((HRESULT)(hr)) &lt; 0)
+#define FAILED(hr) (((HRESULT)(hr)) < 0)
 ```
 
 
