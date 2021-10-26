@@ -1,4 +1,4 @@
-f<---
+---
 UID: NI:pwm.IOCTL_PWM_PIN_START
 title: IOCTL_PWM_PIN_START (pwm.h)
 description: Starts generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use IOCTL_PWM_PIN_IS_STARTED.
