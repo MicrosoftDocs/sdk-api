@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetDisplayedTime
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetDisplayedTime
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the time the present was displayed.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

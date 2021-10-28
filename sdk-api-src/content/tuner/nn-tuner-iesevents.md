@@ -69,7 +69,7 @@ The <b>IESEvents</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevents-oneseventreceived">OnESEventReceived</a>
 </td>

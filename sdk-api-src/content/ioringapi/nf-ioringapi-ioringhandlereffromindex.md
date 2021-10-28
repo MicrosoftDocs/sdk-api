@@ -5,7 +5,7 @@ title: IoRingHandleRefFromIndex
 ms.date: 07/16/2021
 targetos: Windows
 description: Creates an instance of the IORING_HANDLE_REF structure from the provided index.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

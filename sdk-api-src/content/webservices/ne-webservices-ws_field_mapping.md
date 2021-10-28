@@ -61,7 +61,9 @@ The field corresponds to the XML type attribute (xsi:type).  This
                     can only be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DESCRIPTION_TYPE</a>.  
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Base
 {
     WS_STRUCT_DESCRIPTION* type;
@@ -90,7 +92,9 @@ s.field = &amp;derived;
         // ... derived fields ...
     &lt;/field&gt;
 &lt;/Struct&gt;
-</code></pre>
+
+```
+
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
 ### -field WS_ATTRIBUTE_FIELD_MAPPING
@@ -108,7 +112,9 @@ Unless specified, the attribute must appear in the XML.
                     or zero if the default value is not specified.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     int field;
@@ -118,7 +124,9 @@ Struct s;
 s.field = 1;
 
 &lt;Struct field='1'/&gt;
-</code></pre>
+
+```
+
 To discard the attribute, a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
@@ -138,7 +146,9 @@ Unless specified, the element must appear in the XML.
                     or zero if the default value is not specified.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     int field;
@@ -150,7 +160,9 @@ s.field = 1;
 &lt;Struct&gt;
     &lt;field&gt;1&lt;/field&gt;
 &lt;/Struct&gt;
-</code></pre>
+
+```
+
 To discard the element, a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
@@ -175,7 +187,9 @@ The itemLocalName and itemNs are used as the XML element
                     name and namespace for the repeating element.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     int* field;
@@ -199,7 +213,9 @@ s.fieldCount = 2;
 &lt;Struct&gt;
     &lt;item&gt;1&lt;/item&gt;
     &lt;item&gt;2&lt;/item&gt;
-&lt;/Struct&gt;</code></pre>
+&lt;/Struct&gt;
+```
+
 The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
@@ -214,7 +230,9 @@ This mapping is commonly used in conjunction with <a href="/windows/desktop/api/
                     child elements).
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     int field;
@@ -224,7 +242,9 @@ Struct s;
 s.field = 1;
 
 &lt;Struct&gt;1&lt;/Struct&gt;
-</code></pre>
+
+```
+
 This mapping does not support specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
 
 ### -field WS_NO_FIELD_MAPPING
@@ -250,7 +270,9 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
 The field mapping can be used with <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONS</a> value of 0 only.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     int field;
@@ -260,7 +282,9 @@ Struct s;
 s.field = 1;
 
 &lt;Struct/&gt;
-</code></pre>
+
+```
+
 
 ### -field WS_XML_ATTRIBUTE_FIELD_MAPPING
 
@@ -277,7 +301,9 @@ Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_enco
                     or zero if the default value is not specified.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     WS_STRING field;
@@ -292,7 +318,9 @@ s.field = ...; // 'us-en';
 s.field = ...; // 'true'
 
 // Example of xml:space
-&lt;Struct xml:space='true'&gt;</code></pre>
+&lt;Struct xml:space='true'&gt;
+```
+
 
 ### -field WS_ELEMENT_CHOICE_FIELD_MAPPING
 
@@ -302,7 +330,9 @@ The field corresponds to a choice among a set of possible
                     used to identify the current choice.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 // Enumeration of choices of different values
 enum Choice
 {
@@ -321,7 +351,9 @@ struct Struct
         WS_STRING b;    // valid when choice is ChoiceB
     } value;
 };                    
-</code></pre>
+
+```
+
 This field mapping must be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
@@ -338,7 +370,9 @@ Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_enco
                     specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Struct s;
 s.choice = ChoiceA;
 s.value.a = 123;
@@ -359,14 +393,18 @@ Struct S;
 s.choice = None;
 
 &lt;Struct&gt;
-&lt;/Struct&gt;                    </code></pre>
+&lt;/Struct&gt;                    
+```
+
 The field corresponds to a choice among a set of possible
                     elements.  Each element maps to one of the fields of a union.
                     Each field of the union has a corresponding enum value, which is 
                     used to identify the current choice.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 // Enumeration of choices of different values
 enum Choice
 {
@@ -384,7 +422,9 @@ struct Struct
         int a;          // valid when choice is ChoiceA
         WS_STRING b;    // valid when choice is ChoiceB
     } value;
-};</code></pre>
+};
+```
+
 This field mapping must be used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.  The field's localName 
@@ -401,7 +441,9 @@ Unless <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_enco
                     specifying a <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_DEFAULT_VALUE</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Struct s;
 s.choice = ChoiceA;
 s.value.a = 123;
@@ -422,7 +464,9 @@ Struct S;
 s.choice = None;
 
 &lt;Struct&gt;
-&lt;/Struct&gt;</code></pre>
+&lt;/Struct&gt;
+```
+
 The selector value indicates which of the fields of the
                     union are set.  Other fields are left uninitialized when
                     the value is deserialized.  An application should always
@@ -453,7 +497,9 @@ The itemLocalName and itemNs fields must be <b>NULL</b>.  The XML element
                     name and namespace are defined in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct2
 {
     Struct* field;      // see WS_UNION_DESCRIPTION for definition of Struct
@@ -483,7 +529,9 @@ s2.fieldCount = 2;
     &lt;item&gt;123&lt;/item&gt;
     &lt;item&gt;hello&lt;/item&gt;
 &lt;/Struct2&gt;
-</code></pre>
+
+```
+
 The number of elements in the deserialized array can be constrained
                     by specifying a non-<b>NULL</b><a href="/windows/desktop/api/webservices/ns-webservices-ws_item_range">WS_ITEM_RANGE</a> structure that is
                     part of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
@@ -501,7 +549,9 @@ To store the elements, a <a href="/windows/desktop/api/webservices/ne-webservice
                     as follows:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     // ... known fields ...
@@ -520,7 +570,9 @@ s.fieldCount = 2;
     &lt;unknown2/&gt;
     ... known fields ...
 &lt;/Struct&gt;
-</code></pre>
+
+```
+
 To discard the elements, a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.  See <b>WS_VOID_TYPE</b> for
                     more information.
@@ -544,7 +596,9 @@ To store the elements, a <a href="/windows/desktop/api/webservices/ne-webservice
                     be used, as follows:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     // ... known fields ...
@@ -561,7 +615,9 @@ s.field = ...; // 'text1&lt;unknown1/&gt;text2&lt;unknown2/&gt;'
     text2
     &lt;unknown2/&gt;
 &lt;/Struct&gt;
-</code></pre>
+
+```
+
 To discard the elements, a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.  
                     See <b>WS_VOID_TYPE</b> for more information.
@@ -605,7 +661,9 @@ To store the attributes, <a href="/windows/desktop/api/webservices/ne-webservice
                     used.  This correspond to <a href="/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a> as follows:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct Struct
 {
     // ... known attributes ...
@@ -622,7 +680,9 @@ s.field = ...; // 'unknown'/'http://example.com'/'value'
 
     ... other content ...
 &lt;/Struct&gt;
-</code></pre>
+
+```
+
 To discard the unmapped attributes, a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.

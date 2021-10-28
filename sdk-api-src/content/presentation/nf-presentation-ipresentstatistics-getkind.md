@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentStatistics.GetKind
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentStatistics::GetKind
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the specific kind of present statistics to which this data corresponds.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

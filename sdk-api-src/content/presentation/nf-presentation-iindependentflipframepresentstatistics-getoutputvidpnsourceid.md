@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetOutputVidPnSourceId
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetOutputVidPnSourceId
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets an integer that identifies a video present source on the display adapter.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

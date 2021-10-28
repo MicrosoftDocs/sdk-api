@@ -61,7 +61,7 @@ The **TraceLoggingActivity** class has these constructors.
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity(traceloggingactivity__)">TraceLoggingActivity Constructor</a>
 </td>
@@ -70,7 +70,7 @@ Creates a new <b>TraceLoggingActivity</b> object.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity(traceloggingactivity__)">TraceLoggingActivity Constructor</a>
 </td>
@@ -79,7 +79,7 @@ Transfers ownership of an activity from an existing instance to this instance.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-traceloggingactivity(traceloggingactivity__)">TraceLoggingActivity Destructor</a>
 </td>
@@ -95,7 +95,7 @@ Writes a default stop event if the activity has been started, but has not been s
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975132(v=vs.85)">TraceLoggingActivity::Id</a>
 </td>
@@ -104,7 +104,7 @@ Returns a pointer to the activity’s unique identifier (GUID).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975133(v=vs.85)">TraceLoggingActivity::IsStarted</a>
 </td>
@@ -113,7 +113,7 @@ Returns true if the activity has been started.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-provider">TraceLoggingActivity::Provider</a>
 </td>
@@ -122,7 +122,7 @@ Returns the handle to the TraceLogging provider associated with this activity.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-setrelatedactivity">TraceLoggingActivity::SetRelatedActivity</a>
 </td>
@@ -131,7 +131,7 @@ Sets the related activity.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingactivity-setrelatedactivityid(constguid)">TraceLoggingActivity::SetRelatedActivityId</a>
 </td>
@@ -147,7 +147,7 @@ Sets the related activity using the unique identifier.
 <th align="left" width="27%">Property</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
@@ -159,7 +159,7 @@ The value of the keyword that will be used in the activity’s start and stop ev
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/windows/desktop/tracelogging/level-constant">Level constant</a>

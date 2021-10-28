@@ -151,10 +151,14 @@ The <i>ppv</i> parameter is <b>NULL</b>.
 
 The <b>CoCreateInstance</b> function provides a convenient shortcut by connecting to the class object associated with the specified CLSID, creating a default-initialized instance, and releasing the class object. As such, it encapsulates the following functionality:
 
-<pre class="syntax" xml:space="preserve"><code>CoGetClassObject(rclsid, dwClsContext, NULL, IID_IClassFactory, &amp;pCF); 
-hresult = pCF-&gt;CreateInstance(pUnkOuter, riid, ppvObj) 
-pCF-&gt;Release(); 
-</code></pre>
+
+``` syntax
+CoGetClassObject(rclsid, dwClsContext, NULL, IID_IClassFactory, &pCF); 
+hresult = pCF->CreateInstance(pUnkOuter, riid, ppvObj);
+pCF->Release(); 
+
+```
+
 It is convenient to use <b>CoCreateInstance</b> when you need to create only a single instance of an object on the local machine. If you are creating an instance on remote computer, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>. When you are creating multiple instances, it is more efficient to obtain a pointer to the class object's <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface and use its methods as needed. In the latter case, you should use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> function.
 
 In the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> enumeration, you can specify the type of server used to manage the object. The constants can be CLSCTX_INPROC_SERVER, CLSCTX_INPROC_HANDLER, CLSCTX_LOCAL_SERVER, CLSCTX_REMOTE_SERVER or any combination of these values. The constant CLSCTX_ALL is defined as the combination of all four. For more information about the use of one or a combination of these constants, see <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a>.

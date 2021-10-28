@@ -78,7 +78,9 @@ The DXGI_SCALING_NONE value is supported only for flip presentation model swap c
 
 DXGI_SCALING_ASPECT_RATIO_STRETCH will prefer to use a horizontal fill, otherwise it will use a vertical fill, using the following logic.
 
-<pre class="syntax" xml:space="preserve"><code>float aspectRatio = backBufferWidth / float(backBufferHeight);
+
+``` syntax
+float aspectRatio = backBufferWidth / float(backBufferHeight);
 
  // Horizontal fill
  float scaledWidth = outputWidth;
@@ -102,7 +104,9 @@ DXGI_SCALING_ASPECT_RATIO_STRETCH will prefer to use a horizontal fill, otherwis
  rect.top = std::max&lt;LONG&gt;(0, rect.top);
  rect.right = std::min&lt;LONG&gt;(static_cast&lt;LONG&gt;(outputWidth), rect.right);
  rect.bottom = std::min&lt;LONG&gt;(static_cast&lt;LONG&gt;(outputHeight), rect.bottom);
-</code></pre>
+
+```
+
 Note that <i>outputWidth</i> and <i>outputHeight</i> are the pixel sizes of the presentation target size. In the case of <b>CoreWindow</b>, this requires converting the <i>logicalWidth</i> and <i>logicalHeight</i> values from DIPS to pixels using the window's DPI property.
 
 ## -see-also

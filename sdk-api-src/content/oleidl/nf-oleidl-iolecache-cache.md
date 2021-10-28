@@ -213,7 +213,11 @@ The cache is for a static object and it already has a cache node.
 
 <b>IOleCache::Cache</b> can specify either data caching or view (presentation) caching. To specify data caching, a valid data format must be passed in <i>pformatetc</i>. For view caching, the cache object itself decides on the format to cache, so a caller would pass a zero data format in <i>pformatetc</i> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>pFormatetc-&gt;cfFormat == 0</code></pre>
+
+``` syntax
+pFormatetc-&gt;cfFormat == 0
+```
+
 A custom object handler can choose not to store data in a given format. Instead, it can synthesize it on demand when requested.
 
 The <i>advf</i> value specifies a member of the <a href="/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a> enumeration. When one of these values (or an OR'd combination of more than one value) is used in this context, these values mean the following.

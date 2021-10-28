@@ -5,7 +5,7 @@ title: IMFVirtualCamera::Shutdown
 ms.date: 05/17/2021
 targetos: Windows
 description: Releases all of the virtual camera's internal resources.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

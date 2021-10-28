@@ -136,7 +136,9 @@ The following example shows how to call
      <b>ProcessMemoryPriority</b> to set low memory priority as the default for the calling 
      process.
 
-<pre class="syntax" xml:space="preserve"><code>    DWORD ErrorCode;
+
+``` syntax
+    DWORD ErrorCode;
     BOOL Success;
     MEMORY_PRIORITY_INFORMATION MemPrio;
 
@@ -156,12 +158,16 @@ The following example shows how to call
         ErrorCode = GetLastError();
         fprintf(stderr, "Set process memory priority failed: %d\n", ErrorCode);
         goto cleanup;
-    }</code></pre>
+    }
+```
+
 The following example shows how to call 
      <b>SetProcessInformation</b> with 
      <b>ProcessPowerThrottling</b> to control the Quality of Service of a process. 
 
-<pre class="syntax" xml:space="preserve"><code>PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
 RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
@@ -192,13 +198,17 @@ SetProcessInformation(GetCurrentProcess(),
                       ProcessPowerThrottling, 
                       &amp;PowerThrottling, 
                       sizeof(PowerThrottling));
-</code></pre>
+
+```
+
 
 The following example shows how to call 
      <b>SetProcessInformation</b> with 
      <b>ProcessPowerThrottling</b> to control the Timer Resolution of a process. 
 
-<pre class="syntax" xml:space="preserve"><code>PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
 RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
@@ -229,14 +239,18 @@ SetProcessInformation(GetCurrentProcess(),
                       ProcessPowerThrottling, 
                       &amp;PowerThrottling, 
                       sizeof(PowerThrottling));
-</code></pre>
+
+```
+
 
 
 The following example shows how to call 
      <b>SetProcessInformation</b> with 
      <b>ProcessPowerThrottling</b> to reset to the default system managed behavior.
 
-<pre class="syntax" xml:space="preserve"><code>PROCESS_POWER_THROTTLING_STATE PowerThrottling;
+
+``` syntax
+PROCESS_POWER_THROTTLING_STATE PowerThrottling;
 RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = PROCESS_POWER_THROTTLING_CURRENT_VERSION;
 
@@ -252,7 +266,9 @@ SetProcessInformation(GetCurrentProcess(),
                       ProcessPowerThrottling, 
                       &amp;PowerThrottling, 
                       sizeof(PowerThrottling));
- </code></pre>
+ 
+```
+
 
 ## -see-also
 

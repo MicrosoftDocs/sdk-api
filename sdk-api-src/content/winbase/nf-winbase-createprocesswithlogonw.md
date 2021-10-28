@@ -295,15 +295,23 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The <i>lpApplicationName</i> parameter can be <b>NULL</b>, and  the executable name must be the first white space–delimited string in <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. Avoid the following example, because the function attempts to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>LPTSTR szCmdline[]=_tcsdup(TEXT("C:\\Program Files\\MyApp"));
-CreateProcessWithLogonW(..., szCmdline, ...)</code></pre>
+
+``` syntax
+LPTSTR szCmdline[]=_tcsdup(TEXT("C:\\Program Files\\MyApp"));
+CreateProcessWithLogonW(..., szCmdline, ...)
+```
+
 If a malicious user creates an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>CreateProcessWithLogonW</b> using the Program Files directory runs the malicious user application instead of the intended application.
 
 To avoid this issue, do not pass <b>NULL</b> for <i>lpApplicationName</i>. If you pass <b>NULL</b> for <i>lpApplicationName</i>, use quotation marks around the executable path in <i>lpCommandLine</i>, as shown in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>LPTSTR szCmdline[]=_tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
-CreateProcessWithLogonW(..., szCmdline, ...)</code></pre>
+
+``` syntax
+LPTSTR szCmdline[]=_tcsdup(TEXT("\"C:\\Program Files\\MyApp\""));
+CreateProcessWithLogonW(..., szCmdline, ...)
+```
+
 
 #### Examples
 

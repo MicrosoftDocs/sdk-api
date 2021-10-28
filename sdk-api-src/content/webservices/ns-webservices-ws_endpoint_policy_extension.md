@@ -90,8 +90,12 @@ This extension can be used to specify a custom assertion or an assertion that is
 The following assertions are not allowed as policy extension because they might affect constraint 
               matching result if the assertion is handled as assertion. 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 &lt;wsa09p:UsingAddressing.../&gt;
 &lt;wsa10p:UsingAddressing.../&gt;
 &lt;binp:BinaryEncoding.../&gt;
-&lt;mtomp:OptimizedMimeSerialization.../&gt;</code></pre>
+&lt;mtomp:OptimizedMimeSerialization.../&gt;
+```
+

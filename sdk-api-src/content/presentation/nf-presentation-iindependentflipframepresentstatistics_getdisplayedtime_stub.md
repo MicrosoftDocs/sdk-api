@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetDisplayedTime_Stub
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetDisplayedTime_Stub
 ms.date: 06/08/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

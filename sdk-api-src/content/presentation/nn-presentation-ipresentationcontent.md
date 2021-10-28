@@ -1,11 +1,11 @@
 ---
 UID: NN:presentation.IPresentationContent
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationContent
 ms.date: 06/08/2021
 targetos: Windows
 description: Describes the base representation of all presentation content.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

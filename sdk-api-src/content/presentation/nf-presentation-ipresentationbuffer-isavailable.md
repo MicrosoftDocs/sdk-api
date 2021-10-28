@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationBuffer.IsAvailable
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationBuffer::IsAvailable
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets a value that indicates whether or not this buffer is available for use by the producer.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

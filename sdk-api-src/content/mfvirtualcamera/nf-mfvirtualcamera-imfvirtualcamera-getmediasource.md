@@ -5,7 +5,7 @@ title: IMFVirtualCamera::GetMediaSource
 ms.date: 05/17/2021
 targetos: Windows
 description: Gets an IMFMediaSource that provides media data from the virtual camera.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

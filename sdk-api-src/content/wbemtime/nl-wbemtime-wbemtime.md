@@ -65,7 +65,7 @@ The <b>WBEMTime</b> class facilitates conversions between various Windows and AN
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-wbemtime(constbstr)">WBEMTime</a>
 </td>
@@ -81,7 +81,7 @@ Constructor that facilitates conversions between various Windows and ANSI C run-
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-clear">Clear</a>
 </td>
@@ -90,7 +90,7 @@ Sets the time in the <b>WBEMTime</b> object to an invalid time.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getbstr">GetBSTR</a>
 </td>
@@ -99,7 +99,7 @@ Presents the time as a <b>BSTR</b> value.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">GetDMTF</a>
 </td>
@@ -108,7 +108,7 @@ Gets the time as a <b>BSTR</b> value in CIM datetime format.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtfnonntfs">GetDMTFNonNtfs</a>
 </td>
@@ -117,7 +117,7 @@ Gets a DMTF date that is based upon a FAT or a <a href="/windows/desktop/WmiSdk/
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getfiletime">GetFILETIME</a>
 </td>
@@ -126,7 +126,7 @@ Gets the time as an MFC <b>FILETIME</b> structure.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/aa394049(v=vs.85)">GetLocalOffsetForDate</a>
 </td>
@@ -134,7 +134,7 @@ Gets the time as an MFC <b>FILETIME</b> structure.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getstructtm">GetStructtm</a>
 </td>
@@ -143,7 +143,7 @@ Gets the time as an ANSI C run-time <b>struct tm</b> structure.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getsystemtime">GetSYSTEMTIME</a>
 </td>
@@ -152,7 +152,7 @@ Gets the time as an MFC <b>SYSTEMTIME</b> structure.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-gettime">GetTime</a>
 </td>
@@ -161,7 +161,7 @@ Gets the time as a 64-bit integer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-gettime_t">Gettime_t</a>
 </td>
@@ -170,7 +170,7 @@ Gets the time as an ANSI C run-time time_t variable.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-isok">IsOk</a>
 </td>
@@ -179,7 +179,7 @@ Indicates whether the <b>WBEMTime</b> object represents a valid time.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-setdmtf">SetDMTF</a>
 </td>

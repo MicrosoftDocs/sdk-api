@@ -82,7 +82,11 @@ The function that sends or posts the <a href="/windows/desktop/Controls/wm-notif
 
 The <b>FORWARD_WM_NOTIFY</b> macro is defined as follows. 
 
-<pre class="syntax" xml:space="preserve"><code>#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \ 
+
+``` syntax
+#define FORWARD_WM_NOTIFY(hwnd, idFrom, pnmhdr, fn) \ 
 
     (void)(fn)((hwnd), WM_NOTIFY, (WPARAM)(int)(id), \ 
-    (LPARAM)(NMHDR*)(pnmhdr)) </code></pre>
+    (LPARAM)(NMHDR*)(pnmhdr)) 
+```
+

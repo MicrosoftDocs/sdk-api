@@ -64,4 +64,8 @@ The index of a state image.
 
 The <b>INDEXTOSTATEIMAGEMASK</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define INDEXTOSTATEIMAGEMASK(i) ((i) &lt;&lt; 12)</code></pre>
+
+``` syntax
+#define INDEXTOSTATEIMAGEMASK(i) ((i) &lt;&lt; 12)
+```
+

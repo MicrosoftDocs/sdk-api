@@ -66,16 +66,24 @@ This is used when reading or writing an element where the type
 The following calling sequence is used when writing an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsWriteStartElement(...)
 WsWriteType(..., WS_ELEMENT_TYPE_MAPPING, ...)
-WsWriteEndElement(...)</code></pre>
+WsWriteEndElement(...)
+```
+
 The following calling sequence is used when reading an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsReadToStartElement(...)?
-WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)</code></pre>
+WsReadType(..., WS_ELEMENT_TYPE_MAPPING, ...)
+```
+
 
 ### -field WS_ATTRIBUTE_TYPE_MAPPING
 
@@ -86,18 +94,26 @@ This is used when reading or writing the value of a single attribute.  The defin
 The following calling sequence is used when writing an attribute value.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsWriteStartAttribute(...)
 WsWriteType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
-WsWriteEndAttribute(...)</code></pre>
+WsWriteEndAttribute(...)
+```
+
 The following calling sequence is used when reading an attribute value.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsFindAttribute(...)
 WsReadStartAttribute(...)
 WsReadType(..., WS_ATTRIBUTE_TYPE_MAPPING, ...)
-WsReadEndAttribute(...)</code></pre>
+WsReadEndAttribute(...)
+```
+
 
 ### -field WS_ELEMENT_CONTENT_TYPE_MAPPING
 
@@ -111,25 +127,33 @@ The following calling sequence is used when writing the contents
                     of an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsWriteStartElement(...)
 // Write attributes, if any
 // Write other element content, if any
 WsWriteType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 // Write other element content, if any
-WsWriteEndElement(...)</code></pre>
+WsWriteEndElement(...)
+```
+
 The following calling sequence is used when reading the contents of
                     an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsReadToStartElement(...)
 // Read attributes, if any
 WsReadStartElement(...)
 // Read other element content, if any
 WsReadType(..., WS_ELEMENT_CONTENT_TYPE_MAPPING, ...)
 // Read other element content, if any
-WsReadEndElement(...)</code></pre>
+WsReadEndElement(...)
+```
+
 
 ### -field WS_ANY_ELEMENT_TYPE_MAPPING
 
@@ -143,15 +167,23 @@ The following calling sequence is used when writing
                     an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
-WsWriteType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
+
+``` syntax
+
+WsWriteType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)
+```
+
 The following calling sequence is used when reading the contents of
                     an element:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WsReadToStartElement(...)?
-WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
+WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)
+```
+
 
 ## -remarks
 

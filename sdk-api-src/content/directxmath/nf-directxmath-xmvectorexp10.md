@@ -70,7 +70,9 @@ Returns a vector whose components are ten raised to the power of the correspondi
 
 <b>XMVectorExp10</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = powf(10.0f, V.x);
@@ -79,7 +81,9 @@ Result.z = powf(10.0f, V.z);
 Result.w = powf(10.0f, V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

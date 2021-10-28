@@ -2,7 +2,7 @@
 UID: NS:winhttp._WINHTTP_MATCH_CONNECTION_GUID
 title: WINHTTP_MATCH_CONNECTION_GUID
 description: Represents the GUID of a connection, for purposes of connection-matching.
-prerelease: true
+prerelease: false
 tech.root: http
 ms.date: 06/16/2021
 req.construct-type: structure

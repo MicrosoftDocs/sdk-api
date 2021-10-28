@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.ForceVSyncInterrupt
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::ForceVSyncInterrupt
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets a value that indicates whether the GPU should always issue a VSync interrupt when a present is shown.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -62,7 +62,7 @@ See <a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> f
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror">OnCriticalError</a>
 </td>
@@ -71,7 +71,7 @@ Called if a critical system error occurs that requires XAudio2 to be closed down
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend">OnProcessingPassEnd</a>
 </td>
@@ -80,7 +80,7 @@ Called by XAudio2 just after an audio processing pass ends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart">OnProcessingPassStart</a>
 </td>

@@ -80,5 +80,9 @@ The <b>LPFNADDPROPSHEETPAGE</b> function pointer type is defined in Prsht.h as s
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>typedef BOOL (* LPFNADDPROPSHEETPAGE)(HPROPSHEETPAGE, LPARAM);</code></pre>
+
+``` syntax
+typedef BOOL (* LPFNADDPROPSHEETPAGE)(HPROPSHEETPAGE, LPARAM);
+```
+
 You can request through your implementation that a particular property sheet page be displayed first, instead of the default page. To do so, return the one-based index of the desired page relative to the pages you added. For example, if you added three property sheet pages, A, B, and C, and you want B to be the selected page, then the return value should be 2. Note that this return value is only a request. The property sheet might still display the default page.

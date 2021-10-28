@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateReportCallback::OnOcclusionStateReport
 ms.date: 05/25/2021
 targetos: Windows
 description: Called by the system when the camera occlusion state changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -190,9 +190,13 @@ The <b>Activate</b> method supports the following function-specific control inte
 </ul>
 To obtain the interface ID of the function-specific control interface of a part, call the part's <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <b>IAudioAutoGainControl</b> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioAutoGainControl  __uuidof(IAudioAutoGainControl)
-</code></pre>
+
+```
+
 For more information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
 ## -see-also

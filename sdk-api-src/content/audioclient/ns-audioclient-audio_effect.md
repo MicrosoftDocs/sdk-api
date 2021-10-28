@@ -5,7 +5,7 @@ title: AUDIO_EFFECT
 ms.date: 06/16/2021
 targetos: Windows
 description: Represents an audio effect.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

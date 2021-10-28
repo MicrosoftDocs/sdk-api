@@ -130,7 +130,9 @@ For more info about the flip-model swap chain and optimizing presentation, see <
 
 To create a swap chain in UWP, you just need to create a new instance of the DX11 template and look at the implementation of <code>DeviceResources::CreateWindowSizeDependentResources</code> in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">D3D12 samples</a>.
 
-<pre class="syntax" xml:space="preserve"><code>DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0};
+
+``` syntax
+DXGI_SWAP_CHAIN_DESC1 swapChainDesc = {0};
 
        swapChainDesc.Width = lround(m_d3dRenderTargetSize.Width);    // Match the size of the window.
        swapChainDesc.Height = lround(m_d3dRenderTargetSize.Height);
@@ -165,7 +167,9 @@ To create a swap chain in UWP, you just need to create a new instance of the DX1
                      &amp;swapChain
                      )
               );
-</code></pre>
+
+```
+
 
 ## -see-also
 

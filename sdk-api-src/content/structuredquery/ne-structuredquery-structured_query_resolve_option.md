@@ -107,7 +107,11 @@ The <b>STRUCTURED_QUERY_RESOLVE_OPTION</b> type is defined in StructuredQuery.h 
 
             
 
-<pre class="syntax" xml:space="preserve"><code>typedef int STRUCTURED_QUERY_RESOLVE_OPTION;</code></pre>
+
+``` syntax
+typedef int STRUCTURED_QUERY_RESOLVE_OPTION;
+```
+
 
 ## -see-also
 

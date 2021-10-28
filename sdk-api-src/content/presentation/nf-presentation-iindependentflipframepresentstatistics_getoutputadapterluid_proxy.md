@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetOutputAdapterLUID_Proxy
 ms.date: 06/08/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics_GetPresentDuration_Proxy
 ms.date: 06/08/2021
 targetos: Windows
 description: 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

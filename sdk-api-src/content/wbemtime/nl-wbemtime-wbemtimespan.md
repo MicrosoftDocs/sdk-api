@@ -65,7 +65,7 @@ The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan</a>
 </td>
@@ -81,7 +81,7 @@ Constructor that creates a time span object.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-clear">Clear</a>
 </td>
@@ -90,7 +90,7 @@ Sets the time span to INVALID_TIME.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-getbstr">GetBSTR</a>
 </td>
@@ -99,7 +99,7 @@ Gets the time span as a <b>BSTR</b> in WMI time span format.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-gettime">GetTime</a>
 </td>
@@ -108,7 +108,7 @@ Returns the time span as a 64-bit integer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-isok">IsOk</a>
 </td>

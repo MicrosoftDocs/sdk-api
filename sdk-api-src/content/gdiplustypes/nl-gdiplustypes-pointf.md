@@ -58,7 +58,7 @@ The <b>PointF</b> class encapsulates a point in a 2-D coordinate system.
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF()</a>
 </td>
@@ -69,7 +69,7 @@ Creates a <b>PointF</b> object and initializes the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF(PointF&)</a>
 </td>
@@ -78,7 +78,7 @@ Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inreal_inreal)">PointF::PointF(REAL,REAL)</a>
 </td>
@@ -89,7 +89,7 @@ Creates a <b>PointF</b> object using two real numbers to specify the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstsizef_)">PointF::PointF(SizeF&)</a>
 </td>
@@ -108,7 +108,7 @@ Creates a <b>PointF</b> object using a
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">PointF::Equals</a>
 </td>
@@ -120,7 +120,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">Po
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-(PointF&)</a>
 </td>
@@ -129,7 +129,7 @@ The <a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-</a> method 
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534997(v=vs.85)">PointF::operator+(PointF&)</a>
 </td>

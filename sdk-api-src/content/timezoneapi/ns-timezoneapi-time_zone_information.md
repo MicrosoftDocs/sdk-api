@@ -183,7 +183,9 @@ Each time zone entry includes the following registry values.
 <td>
 The following time zone information.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _REG_TZI_FORMAT
+
+``` syntax
+typedef struct _REG_TZI_FORMAT
 {
     LONG Bias;
     LONG StandardBias;
@@ -191,7 +193,9 @@ The following time zone information.
     SYSTEMTIME StandardDate;
     SYSTEMTIME DaylightDate;
 } REG_TZI_FORMAT;
-</code></pre>
+
+```
+
 </td>
 </tr>
 </table>

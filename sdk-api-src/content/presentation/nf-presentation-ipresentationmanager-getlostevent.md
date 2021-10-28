@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.GetLostEvent
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::GetLostEvent
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets a handle to an event that signals when the presentation manager hits an error it cannot recover from.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

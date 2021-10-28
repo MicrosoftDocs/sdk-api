@@ -5,7 +5,7 @@ title: ID3D12VideoEncoder
 ms.date: 06/21/2021
 targetos: Windows
 description: Represents a Direct3D 12 video encoder.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

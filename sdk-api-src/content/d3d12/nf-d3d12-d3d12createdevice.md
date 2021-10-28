@@ -104,7 +104,9 @@ Direct3D 12 devices are singletons per adapter. If a Direct3D 12 device already 
 
 In order to be sure to pick up the first adapter that supports D3D12, use the following code. 
 
-<pre class="syntax" xml:space="preserve"><code>void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
+
+``` syntax
+void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
 {
     *ppAdapter = nullptr;
     for (UINT adapterIndex = 0; ; ++adapterIndex)
@@ -126,7 +128,9 @@ In order to be sure to pick up the first adapter that supports D3D12, use the fo
         pAdapter-&gt;Release();
     }
 }
-</code></pre>
+
+```
+
 The function signature PFN_D3D12_CREATE_DEVICE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
       
 

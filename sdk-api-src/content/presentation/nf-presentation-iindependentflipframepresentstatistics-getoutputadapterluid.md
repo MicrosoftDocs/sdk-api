@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IIndependentFlipFramePresentStatistics.GetOutputAdapterLUID
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IIndependentFlipFramePresentStatistics::GetOutputAdapterLUID
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the locally unique ID (LUID) that refers to the display adapter on which this independent-flip present occurred.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

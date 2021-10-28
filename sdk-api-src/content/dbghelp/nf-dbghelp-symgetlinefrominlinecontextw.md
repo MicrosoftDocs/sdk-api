@@ -106,7 +106,9 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
     <b>SymGetLineFromInlineContext</b> is defined as 
     follows in Dbghelp.h.
 
-<pre class="syntax" xml:space="preserve"><code>BOOL
+
+``` syntax
+BOOL
 IMAGEAPI
 SymGetLineFromInlineContextW(
     _In_ HANDLE hProcess,
@@ -119,7 +121,9 @@ SymGetLineFromInlineContextW(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromInlineContext SymGetLineFromInlineContextW
-#endif</code></pre>
+#endif
+```
+
 
 
 

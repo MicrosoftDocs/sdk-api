@@ -58,7 +58,7 @@ The <b>Point</b> class encapsulates a point in a 2-D coordinate system.
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point()</a>
 </td>
@@ -69,7 +69,7 @@ Creates a <b>Point</b> object and initializes the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inint_inint)">Point::Point(INT,INT)</a>
 </td>
@@ -80,7 +80,7 @@ Creates a <b>Point</b> object using two integers to initialize the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstpoint_)">Point::Point(Point&)</a>
 </td>
@@ -89,7 +89,7 @@ Creates a new <b>Point</b> object and copies the data members from another <b>Po
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-point(inconstsize_)">Point::Point(Size&)</a>
 </td>
@@ -108,7 +108,7 @@ Creates a <b>Point</b> object using a
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Point::Equals</a>
 </td>
@@ -120,7 +120,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-point-equals">Poi
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms535009(v=vs.85)">Point::operator-(Point&)</a>
 </td>
@@ -129,7 +129,7 @@ The <a href="/previous-versions/ms535009(v=vs.85)">Point::operator-</a> method s
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms535008(v=vs.85)">Point::operator+(Point&)</a>
 </td>

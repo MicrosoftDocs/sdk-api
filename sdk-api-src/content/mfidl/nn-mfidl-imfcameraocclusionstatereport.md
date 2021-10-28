@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateReport
 ms.date: 05/25/2021
 targetos: Windows
 description: Provides the camera occlusion state associated with a state change detected by an IMFCameraOcclusionStateMonitor.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

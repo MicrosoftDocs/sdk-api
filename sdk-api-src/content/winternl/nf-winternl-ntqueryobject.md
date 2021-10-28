@@ -117,21 +117,29 @@ This function has no associated header file or import library. You must use the 
 
 If the <i>ObjectInformationClass</i> parameter is <b>ObjectBasicInformation</b>, the information is contained in the following structure.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _PUBLIC_OBJECT_BASIC_INFORMATION {
+
+``` syntax
+typedef struct _PUBLIC_OBJECT_BASIC_INFORMATION {
     ULONG Attributes;
     ACCESS_MASK GrantedAccess;
     ULONG HandleCount;
     ULONG PointerCount;
     ULONG Reserved[10];    // reserved for internal use
  } PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION;
-</code></pre>
+
+```
+
 Available members for this structure include object attributes for the handle (<b>Attributes</b>), the access granted for the handle (<b>GrantedAccess</b>), the number of open handles to the object (<b>HandleCount</b>), and the number of kernel references to the object (<b>PointerCount</b>).
 
 If the <i>ObjectInformationClass</i> parameter is <b>ObjectTypeInformation</b>, the information is contained in the following structure.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct __PUBLIC_OBJECT_TYPE_INFORMATION {
+
+``` syntax
+typedef struct __PUBLIC_OBJECT_TYPE_INFORMATION {
     UNICODE_STRING TypeName;
     ULONG Reserved [22];    // reserved for internal use
 } PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION;
-</code></pre>
+
+```
+
 The only available member of this structure is the object-type name string (<b>TypeName</b>).

@@ -157,12 +157,16 @@ Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381
 
 The <i>pbData</i> structure member points to a byte array that contains a DER-encoded <b>EnhancedKeyUsage</b> extension in a <b>CERT_ENHKEY_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _CTL_USAGE 
+
+``` syntax
+typedef struct _CTL_USAGE 
 {
     DWORD               cUsageIdentifier;
     LPSTR               *rgpszUsageIdentifier; 
 } 
-CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE;</code></pre>
+CTL_USAGE, *PCTL_USAGE, CERT_ENHKEY_USAGE, *PCERT_ENHKEY_USAGE;
+```
+
 
 ### -field XCN_CERT_CTL_USAGE_PROP_ID
 
@@ -170,12 +174,16 @@ Data type: pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381
 
 The <i>pbData</i> structure member points to a byte array that contains a DER-encoded certificate trust list (CTL) usage identifier in a <b>CTL_USAGE</b> structure. You can encode the structure by using the CryptoAPI <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function and setting the <i>lpszStructType</i> parameter to <b>X509_ENHANCED_KEY_USAGE</b>.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _CTL_USAGE 
+
+``` syntax
+typedef struct _CTL_USAGE 
 {
     DWORD               cUsageIdentifier;
     LPSTR               *rgpszUsageIdentifier; 
 } 
-CTL_USAGE;</code></pre>
+CTL_USAGE;
+```
+
 
 ### -field XCN_CERT_NEXT_UPDATE_LOCATION_PROP_ID
 

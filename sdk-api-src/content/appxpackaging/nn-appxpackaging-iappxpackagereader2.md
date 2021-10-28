@@ -68,7 +68,7 @@ The <b>IAppxPackageReader2</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader2-getcontentgroupmap">GetContentGroupMap</a>
 </td>

@@ -290,31 +290,43 @@ By default, this property is <b>FALSE</b>.
 For an input XML string like:
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;container&gt;
  &lt;emptyElement /&gt;
  &lt;emptyElementWithEndTag&gt;&lt;/emptyElementWithEndTag&gt;
-&lt;/container&gt;</code></pre>
+&lt;/container&gt;
+```
+
 If this property is <b>FALSE</b>,  <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> will generate the following xml:
                 
                     
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;container&gt;
  &lt;emptyElement /&gt;
  &lt;emptyElementWithEndTag&gt;&lt;/emptyElementWithEndTag&gt;
-&lt;/container&gt;</code></pre>
+&lt;/container&gt;
+```
+
 If this property is <b>TRUE</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wscopynode">WsCopyNode</a> will generate the following xml:
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;container&gt;
  &lt;emptyElement /&gt;
  &lt;emptyElementWithEndTag /&gt;
-&lt;/container&gt;</code></pre>
+&lt;/container&gt;
+```
+
 
 ### -field WS_XML_WRITER_PROPERTY_EMIT_UNCOMPRESSED_EMPTY_ELEMENTS
 
@@ -322,7 +334,11 @@ Windows 8 or later: A <b>BOOL</b> that controls how empty elements are emitted.
 
 If set to <b>FALSE</b>, an element that is created by only calls to <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> will be emitted as follows:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;emptyElement /&gt;</code></pre>
+
+``` syntax
+&lt;emptyElement /&gt;
+```
+
 If set to <b>TRUE</b>, that element will be emitted as follows:
 
 

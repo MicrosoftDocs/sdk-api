@@ -58,7 +58,7 @@ A <a href="/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object speci
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2">CharacterRange::CharacterRange()</a>
 </td>
@@ -67,7 +67,7 @@ Creates a <a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrang
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)">CharacterRange::CharacterRange(INT,INT)</a>
 </td>
@@ -83,7 +83,7 @@ Creates a <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterra
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 [CharacterRange::operator=](./nf-gdiplustypes-characterrange-operator-assign.md)
 </td>

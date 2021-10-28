@@ -2,7 +2,7 @@
 UID: NS:winhttp._WINHTTP_QUERY_CONNECTION_GROUP_RESULT
 title: WINHTTP_QUERY_CONNECTION_GROUP_RESULT
 description: Represents a collection of host connection groups.
-prerelease: true
+prerelease: false
 tech.root: http
 ms.date: 06/16/2021
 req.construct-type: structure

@@ -5,7 +5,7 @@ title: DCompositionGetFrameId
 ms.date: 06/24/2021
 targetos: Windows
 description: Gets the identifier of the most recent compositor frame of the specified type.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -105,11 +105,15 @@ The
 
 A section in the Win.ini file must have the following form: 
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 An application can use the 
 <a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a> function to retrieve a string from a specified initialization file.
 

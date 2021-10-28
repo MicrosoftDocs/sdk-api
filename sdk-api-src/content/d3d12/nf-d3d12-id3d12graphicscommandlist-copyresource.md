@@ -117,7 +117,9 @@ Block-compressed resource width and height must be 4 times the uncompressed reso
 
 The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultiadapter</a> sample uses <b>CopyResource</b> in the following way: 
 
-<pre class="syntax" xml:space="preserve"><code>	// Command list to copy the render target to the shared heap on the primary adapter. 
+
+``` syntax
+	// Command list to copy the render target to the shared heap on the primary adapter. 
  	{ 
  		const GraphicsAdapter adapter = Primary; 
  
@@ -163,7 +165,9 @@ The <a href="/windows/win32/direct3d12/working-samples">D3D12HeterogeneousMultia
  
 		ThrowIfFailed(m_copyCommandList-&gt;Close()); 
 	} 
-</code></pre>
+
+```
+
 
 ## -see-also
 

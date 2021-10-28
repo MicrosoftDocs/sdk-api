@@ -78,8 +78,12 @@ A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hditema">HDITEM
 
 The <b>Header_InsertItem</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_InsertItem(hwndHD, index, phdi) \
+
+``` syntax
+#define Header_InsertItem(hwndHD, index, phdi) \
 
     (int)SendMessage((hwndHD), HDM_INSERTITEM, (WPARAM)(int)(index), \
 
-    (LPARAM)(const LPHDITEM)(phdi))</code></pre>
+    (LPARAM)(const LPHDITEM)(phdi))
+```
+

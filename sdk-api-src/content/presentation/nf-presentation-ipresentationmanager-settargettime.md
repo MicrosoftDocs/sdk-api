@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.SetTargetTime
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::SetTargetTime
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets a target time for the next present.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

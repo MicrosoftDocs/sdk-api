@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.EnablePresentStatisticsKind
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::EnablePresentStatisticsKind
 ms.date: 06/08/2021
 targetos: Windows
 description: Enables or disables the specified present statistics kind.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

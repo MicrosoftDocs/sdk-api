@@ -59,7 +59,7 @@ The lifetime of an <b>ID3D10EffectTechnique</b> object is equal to the lifetime 
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-computestateblockmask">ComputeStateBlockMask</a>
 </td>
@@ -68,7 +68,7 @@ Compute a state-block mask to allow/prevent state changes.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyindex">GetAnnotationByIndex</a>
 </td>
@@ -77,7 +77,7 @@ Get an annotation by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getannotationbyname">GetAnnotationByName</a>
 </td>
@@ -86,7 +86,7 @@ Get an annotation by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">GetDesc</a>
 </td>
@@ -95,7 +95,7 @@ Get a technique description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyindex">GetPassByIndex</a>
 </td>
@@ -104,7 +104,7 @@ Get a pass by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getpassbyname">GetPassByName</a>
 </td>
@@ -113,7 +113,7 @@ Get a pass by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-isvalid">IsValid</a>
 </td>

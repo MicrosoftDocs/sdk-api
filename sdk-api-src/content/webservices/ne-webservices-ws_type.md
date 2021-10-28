@@ -1680,7 +1680,9 @@ When used at the top level or with <a href="/windows/desktop/api/webservices/ne-
                         name and namespace when the buffer is written.  For example:
                     
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 // Element in WS_XML_BUFFER
 &lt;PrefixInBuffer:LocalNameInBuffer xmlns:PrefixInBuffer="namespace-in-buffer" other-attributes&gt;
 text-and-or-element-content
@@ -1689,7 +1691,9 @@ text-and-or-element-content
 // Element that is written
 &lt;NewPrefix:NewLocalName xmlns:NewPrefix="new-namespace" other-attributes&gt;
 text-and-or-element-content
-&lt;/NewPrefix:NewLocalName&gt;</code></pre>
+&lt;/NewPrefix:NewLocalName&gt;
+```
+
 To avoid problems with namespace collisions, it is a best practice to follow one of the
                         following rules when selecting a namespace for the element in the buffer:
                     
@@ -1745,12 +1749,16 @@ Used when serializing two fields of a structure as a unit: a <b>WCHAR</b>* field
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct
 {
     ULONG count;    // array length, in characters
     WCHAR* chars;   // array of unicode characters
-} value;</code></pre>
+} value;
+```
+
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
@@ -1833,12 +1841,16 @@ Used when serializing two fields of a structure as a unit: a BYTE* field which
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct
 {
     ULONG count; // array length, in bytes
     BYTE* bytes; // array of utf8 characters
-} value;</code></pre>
+} value;
+```
+
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
@@ -1906,12 +1918,16 @@ Used when serializing two fields of a structure as a unit: a BYTE* field which
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 struct
 {
     ULONG count;    // array length, in bytes
     BYTE* bytes;    // array of bytes
-} value;</code></pre>
+} value;
+```
+
 The fields can be anywhere in the contained structure and in any order, since
                     their offsets within the structure are specified separately as part of the 
                     <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
@@ -2517,7 +2533,9 @@ A <a href="/windows/desktop/api/webservices/ns-webservices-ws_default_value">WS_
 Used when serializing a set of choices which correspond to a tagged union.
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 enum EnumType
 {
 // values identifying each choice
@@ -2530,7 +2548,9 @@ union
 {
 // values corresponding to each choice
 } value;
-};</code></pre>
+};
+```
+
 This type requires a <a href="/windows/desktop/api/webservices/ns-webservices-ws_union_description">WS_UNION_DESCRIPTION</a> type description
                     to be supplied which provides information about the choices and
                     their corresponding serialized form.

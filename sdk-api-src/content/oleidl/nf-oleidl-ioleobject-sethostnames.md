@@ -76,10 +76,18 @@ An object's application of <b>IOleObject::SetHostNames</b> should include whatev
 
 The complete window title for an embedded object in an SDI container application or an MDI application with a maximized child window should appear as follows:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;object application name&gt; - &lt;object short type&gt; in &lt;container document&gt;</code></pre>
+
+``` syntax
+&lt;object application name&gt; - &lt;object short type&gt; in &lt;container document&gt;
+```
+
 Otherwise, the title should be:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;object application name&gt; - &lt;container document&gt;</code></pre>
+
+``` syntax
+&lt;object application name&gt; - &lt;container document&gt;
+```
+
 The "object short type" refers to a form of an object's name short enough to be displayed in full in a list box. Because these identifying strings are not stored as part of the persistent state of the object, <b>IOleObject::SetHostNames</b> must be called each time the object loads or runs.
 
 ## -see-also

@@ -292,7 +292,9 @@ If a large amount of data is to be decrypted, it can be done in sections by call
 
 There is no way to set the cipher's feedback register to the KP_IV value of the key without setting the <i>Final</i> parameter to <b>TRUE</b>. If this is necessary, as in the case where you do not want to add an additional padding block or change the size of each block, you can simulate this by creating a duplicate of the original key by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptduplicatekey">CryptDuplicateKey</a> function, and passing the duplicate key to the <b>CryptDecrypt</b> function. This causes the KP_IV of the original key to be placed in the duplicate key. After you create or import the original key, you cannot use the original key for encryption because the feedback register of the key will be changed. The following pseudocode shows how this can be done.
 
-<pre class="syntax" xml:space="preserve"><code>// Set the IV for the original key. Do not use the original key for 
+
+``` syntax
+// Set the IV for the original key. Do not use the original key for 
 // encryption or decryption after doing this because the key's 
 // feedback register will get modified and you cannot change it.
 CryptSetKeyParam(hOriginalKey, KP_IV, newIV)
@@ -312,7 +314,9 @@ while(block = NextBlock())
     // again. It will be re-duplicated in the next iteration of the 
     // loop.
     CryptDestroyKey(hDuplicateKey)
-}</code></pre>
+}
+```
+
 The <a href="/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> supports direct encryption with <a href="/windows/desktop/SecGloss/r-gly">RSA</a> <a href="/windows/desktop/SecGloss/p-gly">public keys</a> and decryption with RSA <a href="/windows/desktop/SecGloss/p-gly">private keys</a>. The encryption uses PKCS #1 <a href="/windows/desktop/SecGloss/p-gly">padding</a>. On decryption, this padding is verified. The length of <a href="/windows/desktop/SecGloss/c-gly">ciphertext</a> data to be decrypted must be the same length as the modulus of the RSA key used to decrypt the data. If the ciphertext has zeros in the most significant bytes, these bytes must be included in the input data buffer and in the input buffer length. The ciphertext must be in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> format.
 
 

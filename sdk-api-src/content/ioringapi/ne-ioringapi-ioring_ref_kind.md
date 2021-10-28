@@ -5,7 +5,7 @@ title: IORING_REF_KIND
 ms.date: 07/16/2021
 targetos: Windows
 description: Specifies the type of an IORING_HANDLE_REF structure.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ioringapi.h

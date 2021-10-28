@@ -5,7 +5,7 @@ title: AUDIO_ENDPOINT_VOLUME_APO_NOTIFICATION_DESCRIPTOR
 ms.date: 06/18/2021
 targetos: Windows
 description: Specifies an endpoint volume APO notification. 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

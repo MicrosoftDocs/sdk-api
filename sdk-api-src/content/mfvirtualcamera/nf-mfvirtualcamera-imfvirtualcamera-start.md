@@ -5,7 +5,7 @@ title: IMFVirtualCamera::Start
 ms.date: 05/17/2021
 targetos: Windows
 description: Creates and registers the virtual camera.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

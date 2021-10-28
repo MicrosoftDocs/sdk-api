@@ -5,7 +5,7 @@ title: tagCOMPOSITION_TARGET_ID::operator==
 ms.date: 06/24/2021
 targetos: Windows
 description: Compares the values of two `COMPOSITION_TARGET_ID` objects to see if they contain identical values.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

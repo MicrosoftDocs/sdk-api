@@ -121,17 +121,23 @@ The structure applies to DSA keys that exceed 1024 bits in length but are less t
 
 This structure is used as a header for a larger buffer. A DSA <a href="/windows/desktop/SecGloss/p-gly">public key BLOB</a> (BCRYPT_DSA_PUBLIC_BLOB) has the following format in contiguous memory. The Seed, q, Modulus, Generator, and Public numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB_V2
 Seed[cbSeedLength]  // Big-endian.
 q[cbGroupSize]      // Big-endian.
 Modulus[cbKey]      // Big-endian.
 Generator[cbKey]    // Big-endian.
 Public[cbKey]       // Big-endian.
-</code></pre>
+
+```
+
 A DSA <a href="/windows/desktop/SecGloss/p-gly">private key BLOB</a> (BCRYPT_DSA_PRIVATE_BLOB) has the following format in contiguous memory. The Seed, q, Modulus, Generator, Public, and PrivateExponent numbers are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_KEY_BLOB_V2
 Seed[cbSeedLength]              // Big-endian.
 q[cbGroupSize]                  // Big-endian.
@@ -139,7 +145,9 @@ Modulus[cbKey]                  // Big-endian.
 Generator[cbKey]                // Big-endian.
 Public[cbKey]                   // Big-endian.
 PrivateExponent[cbGroupSize]    // Big-endian.
-</code></pre>
+
+```
+
 
 ## -see-also
 

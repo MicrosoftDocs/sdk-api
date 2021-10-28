@@ -5,7 +5,7 @@ title: IORING_FEATURE_FLAGS
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents feature support for the an I/O ring API version.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ntioring_x.h

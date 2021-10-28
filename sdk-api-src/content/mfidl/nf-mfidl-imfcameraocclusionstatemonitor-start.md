@@ -5,7 +5,7 @@ title: IMFCameraOcclusionStateMonitor::Start
 ms.date: 05/24/2021
 targetos: Windows
 description: Starts the camera occlusion state monitor.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.AddBufferFromSharedHandle
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::AddBufferFromSharedHandle
 ms.date: 06/08/2021
 targetos: Windows
 description: Adds a shared DXGI resource to the presentation manager to be tracked as a presentation buffer.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AUDIO_ENDPOINT_PROPERTY_CHANGE_APO_NOTIFICATION_DESCRIPTOR
 ms.date: 06/18/2021
 targetos: Windows
 description: Specifies an endpoint property change APO notification. 
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

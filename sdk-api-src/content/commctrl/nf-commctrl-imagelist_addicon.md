@@ -73,4 +73,8 @@ Because the system does not save
 
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define  ImageList_AddIcon(himl, hicon) ImageList_ReplaceIcon(himl, -1, hicon)</code></pre>
+
+``` syntax
+#define  ImageList_AddIcon(himl, hicon) ImageList_ReplaceIcon(himl, -1, hicon)
+```
+

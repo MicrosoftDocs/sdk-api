@@ -5,7 +5,7 @@ title: MFCreateCameraOcclusionStateMonitor
 ms.date: 05/25/2021
 targetos: Windows
 description: Creates a new instance of IMFCameraOcclusionStateMonitor which allows an application to receive notifications when the camera occlusion state changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

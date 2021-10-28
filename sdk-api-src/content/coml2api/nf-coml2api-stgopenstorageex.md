@@ -143,12 +143,28 @@ It is not valid to use the <b>STGM_CREATE</b>, <b>STGM_DELETEONRELEASE</b>, or <
 To support the simple mode for saving a storage object with no substorages, the 
 <b>StgOpenStorageEx</b> function accepts one of  the following two flag combinations as valid modes in the <i>grfMode</i> parameter:
 
-<pre class="syntax" xml:space="preserve"><code>    STGM_SIMPLE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_SIMPLE | STGM_READ | STGM_SHARE_EXCLUSIVE</code></pre>
+
+``` syntax
+    STGM_SIMPLE | STGM_READWRITE | STGM_SHARE_EXCLUSIVE
+```
+
+
+``` syntax
+    STGM_SIMPLE | STGM_READ | STGM_SHARE_EXCLUSIVE
+```
+
 To support the single-writer, multireader, direct mode, the first flag combination is the valid <i>grfMode</i> parameter for the writer.  The second flag combination is valid for readers.
 
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT_SWMR | STGM_READWRITE | STGM_SHARE_DENY_WRITE</code></pre>
-<pre class="syntax" xml:space="preserve"><code>    STGM_DIRECT_SWMR | STGM_READ | STGM_SHARE_DENY_NONE</code></pre>
+
+``` syntax
+    STGM_DIRECT_SWMR | STGM_READWRITE | STGM_SHARE_DENY_WRITE
+```
+
+
+``` syntax
+    STGM_DIRECT_SWMR | STGM_READ | STGM_SHARE_DENY_NONE
+```
+
 For more information about simple mode and single-writer/multiple-reader modes, see 
 <a href="/windows/desktop/Stg/stgm-constants">STGM Constants</a>.
 

@@ -78,7 +78,9 @@ ThisDevice metadata follows this form:
 
 
 
-<pre class="syntax" xml:space="preserve"><code>&lt;wsd:ThisDevice&gt;
+
+``` syntax
+&lt;wsd:ThisDevice&gt;
     &lt;wsd:FriendlyName&gt;
         A. Datum WebWeigh Scale
     &lt;/wsd:FriendlyName&gt;
@@ -88,4 +90,6 @@ ThisDevice metadata follows this form:
     &lt;wsd:SerialNumber&gt;
         923450982349058
     &lt;/wsd:SerialNumber&gt;
- &lt;/wsd:ThisDevice&gt;</code></pre>
+ &lt;/wsd:ThisDevice&gt;
+```
+

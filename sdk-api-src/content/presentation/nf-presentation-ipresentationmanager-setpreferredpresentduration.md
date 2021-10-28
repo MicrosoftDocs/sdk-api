@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.SetPreferredPresentDuration
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::SetPreferredPresentDuration
 ms.date: 06/08/2021
 targetos: Windows
 description: Sets the preferred frame duration.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

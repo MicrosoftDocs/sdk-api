@@ -65,13 +65,17 @@ Using the transaction context object to control a transaction limits the reuse o
 
 You obtain a reference to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
 
-<pre class="syntax" xml:space="preserve"><code>hr = CoCreateInstance(
+
+``` syntax
+hr = CoCreateInstance(
        CLSID_TransactionContextEx, 
        NULL, 
        CLSCTX_INPROC,
        IID_ITransactionContextEx, 
        (void**)&amp;m_pTransactionContext);
-</code></pre>
+
+```
+
 
 ## -see-also
 

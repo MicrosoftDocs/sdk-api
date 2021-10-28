@@ -115,18 +115,24 @@ A quota was exceeded.
 Consider the following XML:
       
 
-<pre class="syntax" xml:space="preserve"><code>&lt;!-- A purchase order --&gt;
+
+``` syntax
+&lt;!-- A purchase order --&gt;
         &lt;PurchaseOrder xmlns='http://tempuri.org'&gt;
             &lt;Item&gt;
                 Pencil
             &lt;/Item&gt;
         &lt;/PurchaseOrder&gt;
-</code></pre>
+
+```
+
 The following examples illustrates the behaviors of <b>WsReadToStartElement</b> when the reader is
         positioned in various places in the document.
       
 
-<pre class="syntax" xml:space="preserve"><code>WS_XML_STRING purchaseOrder = WS_XML_STRING_VALUE("PurchaseOrder");
+
+``` syntax
+WS_XML_STRING purchaseOrder = WS_XML_STRING_VALUE("PurchaseOrder");
 WS_XML_STRING item = WS_XML_STRING_VALUE("Item");
 WS_XML_STRING ns = WS_XML_STRING("http://tempuri.org");
 WS_ERROR* error = NULL;
@@ -162,7 +168,9 @@ HRESULT hr = WsReadToStartElement(reader, NULL, NULL, NULL, error);
 BOOL found;
 HRESULT hr = WsReadToStartElement(reader, NULL, NULL, &amp;found, error);
 // hr = NOERROR, found = FALSE, the reader is positioned on &lt;/Item&gt;
-</code></pre>
+
+```
+
 If <b>WsReadToStartElement</b> indicates an element has been found, then <a href="/windows/desktop/api/webservices/nf-webservices-wsreadstartelement">WsReadStartElement</a> 
         or <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a> may be used to move the reader past the start element into the content of the element.
       

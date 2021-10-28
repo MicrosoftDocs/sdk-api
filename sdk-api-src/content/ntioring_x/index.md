@@ -5,7 +5,7 @@ title: ntioring_x
 ms.date: 07/16/2021
 targetos: Windows
 description: Provides types for I/O ring operations.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

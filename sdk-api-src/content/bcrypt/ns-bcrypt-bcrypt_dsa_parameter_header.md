@@ -97,11 +97,15 @@ The structure applies to DSA keys that equal or exceed 512 bits in length but ar
 
 This structure is used as a header for a larger buffer. The DSA parameters blob has the following format in contiguous memory. The Modulus and Generator are in big-endian format.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 BCRYPT_DSA_PARAMETER_HEADER
 Modulus[cbKeyLength]    // Big-endian.
 Generator[cbKeyLength]  // Big-endian.
-</code></pre>
+
+```
+
 
 ## -see-also
 

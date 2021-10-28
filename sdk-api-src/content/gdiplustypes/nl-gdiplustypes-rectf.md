@@ -58,7 +58,7 @@ A <b>RectF</b> object stores the upper-left corner, width, and height of a recta
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)">RectF::RectF()</a>
 </td>
@@ -69,7 +69,7 @@ Creates a <b>RectF</b> object and initializes the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)">RectF::RectF(PointF&,SizeF&)</a>
 </td>
@@ -82,7 +82,7 @@ Creates a <b>RectF</b> object by using a <a href="/windows/desktop/api/gdiplusty
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inreal_inreal_inreal_inreal)">RectF::RectF(REAL,REAL,REAL,REAL)</a>
 </td>
@@ -102,7 +102,7 @@ Creates a <b>RectF</b> object by using four integers to initialize the
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-clone">RectF::Clone</a>
 </td>
@@ -113,7 +113,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-clone">Rect
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)">RectF::Contains(PointF&)</a>
 </td>
@@ -122,7 +122,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(in
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534956(v=vs.85)">RectF::Contains(REAL,REAL)</a>
 </td>
@@ -131,7 +131,7 @@ The <a href="/previous-versions/ms534956(v=vs.85)">RectF::Contains</a> method de
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_)">RectF::Contains(RectF&)</a>
 </td>
@@ -140,7 +140,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(in
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-equals">RectF::Equals</a>
 </td>
@@ -149,7 +149,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-equals">Rec
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom">RectF::GetBottom</a>
 </td>
@@ -158,7 +158,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom">
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbounds">RectF::GetBounds</a>
 </td>
@@ -167,7 +167,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbounds">
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getleft">RectF::GetLeft</a>
 </td>
@@ -176,7 +176,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getleft">Re
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getlocation">RectF::GetLocation</a>
 </td>
@@ -185,7 +185,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getlocation
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getright">RectF::GetRight</a>
 </td>
@@ -194,7 +194,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getright">R
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getsize">RectF::GetSize</a>
 </td>
@@ -203,7 +203,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getsize">Re
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-gettop">RectF::GetTop</a>
 </td>
@@ -212,7 +212,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-gettop">Rec
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">RectF::Inflate(PointF&)</a>
 </td>
@@ -223,7 +223,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inc
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534953(v=vs.85)">RectF::Inflate(REAL,REAL)</a>
 </td>
@@ -234,7 +234,7 @@ The <a href="/previous-versions/ms534953(v=vs.85)">RectF::Inflate</a> method exp
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534950(v=vs.85)">RectF::Intersect(RectF&)</a>
 </td>
@@ -243,7 +243,7 @@ The <a href="/previous-versions/ms534950(v=vs.85)">RectF::Intersect</a> method r
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)">RectF::Intersect(RectF&,RectF&,RectF&)</a>
 </td>
@@ -253,7 +253,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(o
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersectswith">RectF::IntersectsWith</a>
 </td>
@@ -262,7 +262,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersectsw
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-isemptyarea">RectF::IsEmptyArea</a>
 </td>
@@ -271,7 +271,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-isemptyarea
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534948(v=vs.85)">RectF::Offset(PointF&)</a>
 </td>
@@ -282,7 +282,7 @@ The <a href="/previous-versions/ms534948(v=vs.85)">RectF::Offset</a> method move
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)">RectF::Offset(REAL,REAL)</a>
 </td>
@@ -293,7 +293,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inre
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-union">RectF::Union</a>
 </td>

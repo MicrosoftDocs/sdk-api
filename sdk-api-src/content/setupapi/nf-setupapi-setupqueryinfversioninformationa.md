@@ -116,27 +116,47 @@ The following table summarizes how the information is translated before it is pa
 </tr>
 <tr>
 <td>
-<pre class="syntax" xml:space="preserve"><code>[Identification]
-OptionType = Mouse</code></pre>
+
+``` syntax
+[Identification]
+OptionType = Mouse
+```
+
 </td>
 <td>
-<pre class="syntax" xml:space="preserve"><code>[Version]
-Class=Mouse</code></pre>
+
+``` syntax
+[Version]
+Class=Mouse
+```
+
 </td>
 </tr>
 <tr>
 <td>
-<pre class="syntax" xml:space="preserve"><code>[Signature]
-FileType = MICROSOFT_FILE</code></pre>
+
+``` syntax
+[Signature]
+FileType = MICROSOFT_FILE
+```
+
 </td>
 <td>
-<pre class="syntax" xml:space="preserve"><code>Signature=MICROSOFT_FILE</code></pre>
+
+``` syntax
+Signature=MICROSOFT_FILE
+```
+
 </td>
 </tr>
 <tr>
 <td>(if the FileType is MICROSOFT_FILE)</td>
 <td>
-<pre class="syntax" xml:space="preserve"><code>Provider="Microsoft"</code></pre>
+
+``` syntax
+Provider="Microsoft"
+```
+
 </td>
 </tr>
 </table>

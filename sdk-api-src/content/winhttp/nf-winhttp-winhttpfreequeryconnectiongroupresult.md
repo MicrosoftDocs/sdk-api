@@ -2,7 +2,7 @@
 UID: NF:winhttp.WinHttpFreeQueryConnectionGroupResult
 title: WinHttpFreeQueryConnectionGroupResult
 description: Frees the memory allocated by a previous call to [WinHttpQueryConnectionGroup](nf-winhttp-winhttpqueryconnectiongroup.md).
-prerelease: true
+prerelease: false
 tech.root: http
 ms.date: 06/16/2021
 req.construct-type: function

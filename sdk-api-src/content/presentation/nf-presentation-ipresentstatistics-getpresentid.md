@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentStatistics.GetPresentId
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentStatistics::GetPresentId
 ms.date: 06/08/2021
 targetos: Windows
 description: Gets the identifier of the present to which this statistic corresponds.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

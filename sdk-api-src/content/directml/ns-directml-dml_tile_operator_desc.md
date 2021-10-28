@@ -101,6 +101,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor support
 
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_1 and above
 
 | Tensor | Kind | Supported dimension counts | Supported data types |

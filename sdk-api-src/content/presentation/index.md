@@ -4,7 +4,7 @@ title: Presentation.h header
 ms.date: 06/08/2021
 ms.keywords: 
 ms.topic: conceptual
-tech.root: directcomp
+tech.root: comp_swapchain
 f1_keywords:
  - presentation
  - presentation/presentation
@@ -15,7 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by DirectComposition. For more information, see:
+This header is used by composition swapchain. For more information, see:
 
-- [DirectComposition](../_directcomp/index.md)
+- [Composition swapchain](../_comp_swapchain/index.md)
 

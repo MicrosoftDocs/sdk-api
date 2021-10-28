@@ -87,7 +87,7 @@ A tensor with which to write the results to. This tensor's dimensions are `{ Bat
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor*, *BTensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *ATensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *BTensor* and *BZeroPointTensor* must have the same *DataType*.
 * *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 

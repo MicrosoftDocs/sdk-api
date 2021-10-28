@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationManager.CreatePresentationSurface
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationManager::CreatePresentationSurface
 ms.date: 06/08/2021
 targetos: Windows
 description: Creates a presentation surface for a piece of content that can be hosted in a visual tree and assigned a single front buffer.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

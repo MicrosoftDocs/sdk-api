@@ -69,14 +69,18 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorFloor</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 Result.x = floorf(V.x);
 Result.y = floorf(V.y);
 Result.z = floorf(V.z);
 Result.w = floorf(V.w);
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

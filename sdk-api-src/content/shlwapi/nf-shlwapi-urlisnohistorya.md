@@ -76,7 +76,11 @@ This function is equivalent to the following:
 				
                 
 
-<pre class="syntax" xml:space="preserve"><code>UrlIs(pszURL, URLIS_NOHISTORY)</code></pre>
+
+``` syntax
+UrlIs(pszURL, URLIS_NOHISTORY)
+```
+
 
 ## -see-also
 

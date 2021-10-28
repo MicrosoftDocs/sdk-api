@@ -5,7 +5,7 @@ title: BuildIoRingCancelRequest
 ms.date: 07/16/2021
 targetos: Windows
 description: Attempts to cancel a previously submitted I/O ring operation.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

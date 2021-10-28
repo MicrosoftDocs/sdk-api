@@ -94,7 +94,9 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_eleme
 
 Model metadata follows this form:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;wsd:ThisModel&gt;
+
+``` syntax
+&lt;wsd:ThisModel&gt;
     &lt;wsd:Manufacturer&gt;
         A. Datum Corporation
     &lt;/wsd:Manufacturer&gt;
@@ -116,4 +118,6 @@ Model metadata follows this form:
 &lt;/wsd:ThisModel&gt;
 
 
-</code></pre>
+
+```
+

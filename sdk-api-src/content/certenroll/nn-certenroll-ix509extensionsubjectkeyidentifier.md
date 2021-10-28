@@ -51,7 +51,9 @@ api_name:
 ## -description
 
 The <b>IX509ExtensionSubjectKeyIdentifier</b> interface enables you to specify a <b>SubjectKeyIdentifier</b> extension. When a subject has multiple signing certificates, this extension can be used to help identify which certificate matches a specific <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) signing certificate. The extension is placed in all certificates. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ----------------------------------------------------------------------
 -- SubjectKeyIdentifier
 -- XCN_OID_SUBJECT_KEY_IDENTIFIER (2.5.29.14)
@@ -60,7 +62,9 @@ The <b>IX509ExtensionSubjectKeyIdentifier</b> interface enables you to specify a
 SubjectKeyIdentifier ::= KeyIdentifier
 
 KeyIdentifier ::= OCTETSTRING
-</code></pre>Typically the  value is a 20-byte SHA-1 hash of the <a href="/windows/desktop/SecGloss/p-gly">public key</a> contained in the CA signing certificate. When the CA issues a certificate, it copies the hash value into the <b>SubjectKeyIdentifier</b> extension. To find the end-entity certificate signed by a particular CA certificate, chain building software searches until it matches the <b>keyIdentifier</b> field in the <b>AuthorityKeyIdentifier</b> extension on the  CA signing certificate with a <b>SubjectKeyIdentifier</b> extension value on an issued certificate. For more information, see <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>.
+
+```
+Typically the  value is a 20-byte SHA-1 hash of the <a href="/windows/desktop/SecGloss/p-gly">public key</a> contained in the CA signing certificate. When the CA issues a certificate, it copies the hash value into the <b>SubjectKeyIdentifier</b> extension. To find the end-entity certificate signed by a particular CA certificate, chain building software searches until it matches the <b>keyIdentifier</b> field in the <b>AuthorityKeyIdentifier</b> extension on the  CA signing certificate with a <b>SubjectKeyIdentifier</b> extension value on an issued certificate. For more information, see <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>.
 
 To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 

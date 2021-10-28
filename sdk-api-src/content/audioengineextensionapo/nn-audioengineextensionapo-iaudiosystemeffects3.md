@@ -5,7 +5,7 @@ title: IAudioSystemEffects3
 ms.date: 06/19/2021
 targetos: Windows
 description: Implemented by clients that require an APOInitSystemEffects3 structure to be passed into the IAudioProcessingObject::Initialize method.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

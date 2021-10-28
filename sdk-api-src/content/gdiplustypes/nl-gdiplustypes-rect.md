@@ -58,7 +58,7 @@ A <b>Rect</b> object stores the upper-left corner, width, and height of a rectan
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-rect(inconstpoint__inconstsize_)">Rect::Rect()</a>
 </td>
@@ -67,7 +67,7 @@ Creates a <b>Rect</b> object whose x-coordinate, y-coordinate, width, and height
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-rect(inint_inint_inint_inint)">Rect::Rect(INT,INT,INT,INT)</a>
 </td>
@@ -80,7 +80,7 @@ Creates a <b>Rect</b> object by using four integers to initialize the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-rect(inconstpoint__inconstsize_)">Rect::Rect(Point&,Size&)</a>
 </td>
@@ -100,7 +100,7 @@ Creates a <b>Rect</b> object by using a <a href="/windows/desktop/api/gdiplustyp
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-clone">Rect::Clone</a>
 </td>
@@ -110,7 +110,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-clone">Rect:
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534986(v=vs.85)">Rect::Contains(INT,INT)</a>
 </td>
@@ -121,7 +121,7 @@ The <a href="/previous-versions/ms534986(v=vs.85)">Rect::Contains</a> method det
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inconstpoint_)">Rect::Contains(Point&)</a>
 </td>
@@ -130,7 +130,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inc
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inrect_)">Rect::Contains(Rect&)</a>
 </td>
@@ -139,7 +139,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-contains(inr
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-equals">Rect::Equals</a>
 </td>
@@ -148,7 +148,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-equals">Rect
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">Rect::GetBottom</a>
 </td>
@@ -157,7 +157,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">R
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbounds">Rect::GetBounds</a>
 </td>
@@ -166,7 +166,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbounds">R
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rect::GetLeft</a>
 </td>
@@ -175,7 +175,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rec
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getlocation">Rect::GetLocation</a>
 </td>
@@ -184,7 +184,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getlocation"
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Rect::GetRight</a>
 </td>
@@ -193,7 +193,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Re
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getsize">Rect::GetSize</a>
 </td>
@@ -202,7 +202,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getsize">Rec
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-gettop">Rect::GetTop</a>
 </td>
@@ -211,7 +211,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-gettop">Rect
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534982(v=vs.85)">Rect::Inflate(INT,INT)</a>
 </td>
@@ -222,7 +222,7 @@ The <a href="/previous-versions/ms534982(v=vs.85)">Rect::Inflate</a> method expa
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inconstpoint_)">Rect::Inflate(Point&)</a>
 </td>
@@ -232,7 +232,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-inflate(inco
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534981(v=vs.85)">Rect::Intersect(Rect&)</a>
 </td>
@@ -241,7 +241,7 @@ The <a href="/previous-versions/ms534981(v=vs.85)">Rect::Intersect</a> method re
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(outrect__inconstrect__inconstrect_)">Rect::Intersect(Rect&,Rect&,Rect&)</a>
 </td>
@@ -251,7 +251,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersect(ou
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersectswith">Rect::IntersectsWith</a>
 </td>
@@ -260,7 +260,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-intersectswi
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-isemptyarea">Rect::IsEmptyArea</a>
 </td>
@@ -269,7 +269,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-isemptyarea"
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint_inint)">Rect::Offset(INT,INT)</a>
 </td>
@@ -280,7 +280,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-offset(inint
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534979(v=vs.85)">Rect::Offset(Point&)</a>
 </td>
@@ -291,7 +291,7 @@ The <a href="/previous-versions/ms534979(v=vs.85)">Rect::Offset</a> method moves
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-union">Rect::Union</a>
 </td>

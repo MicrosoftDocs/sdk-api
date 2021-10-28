@@ -82,7 +82,9 @@ If no streams are ready to produce output, the MFT does not set this flag. Inste
 
 The values in this enumeration are not bit flags, so they should not be combined with a bitwise <b>OR</b>. Also, the caller should test for these flags with the equality operator, not a bitwise <b>AND</b>:
 
-<pre class="syntax" xml:space="preserve"><code>// Correct.
+
+``` syntax
+// Correct.
 if (Buffer.dwStatus == MFT_OUTPUT_DATA_BUFFER_STREAM_END)
 {
     ...
@@ -93,7 +95,9 @@ if ((Buffer.dwStatus &amp; MFT_OUTPUT_DATA_BUFFER_STREAM_END) != 0)
 {
     ...
 }
-</code></pre>
+
+```
+
 
 ## -see-also
 

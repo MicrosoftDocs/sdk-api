@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationFactory.CreatePresentationManager
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationFactory::CreatePresentationManager
 ms.date: 06/08/2021
 targetos: Windows
 description: Creates a presentation manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

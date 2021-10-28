@@ -82,6 +82,8 @@ Specifies feature level 4_0.
 
 ## -remarks
 
+The **DML_FEATURE_LEVEL_4_1** constant was introduced in `DML_FEATURE_LEVEL_4_1`. **DML_FEATURE_LEVEL_4_1** specifies feature level 4_1.
+
 ## Availability
 
 This API was introduced in DirectML version `1.1.0`.

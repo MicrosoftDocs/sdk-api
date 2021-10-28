@@ -68,8 +68,12 @@ The setting is controlled manually.
 
 The following flags defined in KsMedia.h are equivalent to the values in <b>VideoProcAmpFlags</b>:
 
-<pre class="syntax" xml:space="preserve"><code>#define KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO        0X0001L
-#define KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL      0X0002L</code></pre>
+
+``` syntax
+#define KSPROPERTY_VIDEOPROCAMP_FLAGS_AUTO        0X0001L
+#define KSPROPERTY_VIDEOPROCAMP_FLAGS_MANUAL      0X0002L
+```
+
 
 ## -see-also
 

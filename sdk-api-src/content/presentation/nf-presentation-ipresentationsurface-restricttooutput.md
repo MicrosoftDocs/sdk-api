@@ -1,11 +1,11 @@
 ---
 UID: NF:presentation.IPresentationSurface.RestrictToOutput
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentationSurface::RestrictToOutput
 ms.date: 06/08/2021
 targetos: Windows
 description: Restricts presentation to a specific display adapter output.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

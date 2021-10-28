@@ -60,7 +60,7 @@ The <b>SizeF</b> class encapsulates a
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inconstsizef_)">SizeF::SizeF()</a>
 </td>
@@ -69,7 +69,7 @@ Creates a <b>SizeF</b> object and initializes the members to zero. This is the d
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inreal_inreal)">SizeF::SizeF(REAL,REAL)</a>
 </td>
@@ -80,7 +80,7 @@ Creates a <b>SizeF</b> object and initializes its
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-sizef(inconstsizef_)">SizeF::SizeF(SizeF&)</a>
 </td>
@@ -96,7 +96,7 @@ Creates a <b>SizeF</b> object and initializes its members by copying the members
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-empty">SizeF::Empty</a>
 </td>
@@ -106,7 +106,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-empty">Size
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-equals">SizeF::Equals</a>
 </td>
@@ -116,7 +116,7 @@ The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-sizef-equals">Siz
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534743(v=vs.85)">SizeF::operator-(SizeF&)</a>
 </td>
@@ -125,7 +125,7 @@ The <a href="/previous-versions/ms534743(v=vs.85)">SizeF::operator-</a> method s
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/ms534742(v=vs.85)">SizeF::operator+(SizeF&)</a>
 </td>

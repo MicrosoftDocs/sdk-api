@@ -67,7 +67,9 @@ The <b>AlgorithmOperationFlags</b> enumeration type specifies the operations tha
 
 
 The binary format of the flags are as follows.
-<pre class="syntax" xml:space="preserve"><code>XCN_NCRYPT_NO_OPERATION                     = 00000000 00000000 00000000
+
+``` syntax
+XCN_NCRYPT_NO_OPERATION                     = 00000000 00000000 00000000
 XCN_NCRYPT_CIPHER_OPERATION                 = 00000000 00000000 00000001
 XCN_NCRYPT_HASH_OPERATION                   = 00000000 00000000 00000010
 
@@ -82,7 +84,9 @@ XCN_NCRYPT_PREFER_SIGNATURE_ONLY_OPERATION  = 00100000 00000000 00000000
 XCN_NCRYPT_PREFER_NON_SIGNATURE_OPERATION   = 01000000 00000000 00000000
 XCN_NCRYPT_EXACT_MATCH_OPERATION            = 10000000 00000000 00000000
 XCN_NCRYPT_PREFERENCE_MASK_OPERATION        = 11100000 00000000 00000000
-</code></pre>
+
+```
+
 
 ## -enum-fields
 

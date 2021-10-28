@@ -60,7 +60,7 @@ Provides extended information about a partition on a  <a href="/previous-version
 <th align="left" width="10%">Access type</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-devicenumber">DeviceNumber</a>
@@ -76,7 +76,7 @@ Gets the device number of the partition.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-freespace">FreeSpace</a>
@@ -92,7 +92,7 @@ Gets the total disk space available to the partition in megabytes.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-partitionnumber">PartitionNumber</a>
@@ -108,7 +108,7 @@ Gets the partition number of the partition.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-totalsize">TotalSize</a>
@@ -124,7 +124,7 @@ Gets the total size of the partition in megabytes.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="27%" xml:space="preserve">
 
 <a href="/previous-versions/windows/desktop/mscs/cluspartitionex-volumeguid">VolumeGuid</a>

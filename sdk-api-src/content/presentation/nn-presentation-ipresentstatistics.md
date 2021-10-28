@@ -1,11 +1,11 @@
 ---
 UID: NN:presentation.IPresentStatistics
-tech.root: directcomp
+tech.root: comp_swapchain
 title: IPresentStatistics
 ms.date: 06/08/2021
 targetos: Windows
 description: Represents a single entry in the present statistics queue.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

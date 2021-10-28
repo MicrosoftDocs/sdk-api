@@ -5,7 +5,7 @@ title: IORING_SQE_FLAGS
 ms.date: 07/16/2021
 targetos: Windows
 description: Specifies kernel behavior options for I/O ring submission queue entries.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ioringapi.h

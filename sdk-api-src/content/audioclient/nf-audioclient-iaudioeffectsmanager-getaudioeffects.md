@@ -5,7 +5,7 @@ title: IAudioEffectsManager::GetAudioEffects
 ms.date: 06/16/2021
 targetos: Windows
 description: Gets the current list of audio effects for the associated audio stream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

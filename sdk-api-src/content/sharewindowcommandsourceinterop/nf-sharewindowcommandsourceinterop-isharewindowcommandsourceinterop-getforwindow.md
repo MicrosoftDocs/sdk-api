@@ -2,7 +2,7 @@
 UID: NF:sharewindowcommandsourceinterop.IShareWindowCommandSourceInterop.GetForWindow
 title: IShareWindowCommandSourceInterop::GetForWindow
 description: Gets the [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommandsource) object corresponding to a window identifier (a window handle).
-prerelease: true
+prerelease: false
 ms.date: 06/09/2021
 tech.root: winrt
 req.header: sharewindowcommandsourceinterop.h

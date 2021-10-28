@@ -66,7 +66,11 @@ A pointer to a null-terminated string that contains references to one or more en
     					
                         
 
-<pre class="syntax" xml:space="preserve"><code>%VariableName%</code></pre>
+
+``` syntax
+%VariableName%
+```
+
 Any character in the string that is not enclosed in '%' characters is ignored and returned unchanged. Therefore, if your string contains multiple environment variables, you can use any character other than '%' as a separator, including spaces or no separator.
 
 When this function returns successfully, each %<i>VariableName</i>% is replaced with its expanded value. The replacement rules are the same as those used by the command interpreter. If the variable name is not found on the system, the %<i>variableName</i>% is left as it was submitted on entry.
