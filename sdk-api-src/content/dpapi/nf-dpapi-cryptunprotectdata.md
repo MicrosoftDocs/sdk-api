@@ -168,6 +168,8 @@ if (CryptUnprotectData(
 {
      printf("The decrypted data is: %s\n", DataVerify.pbData);
      printf("The description of the data was: %s\n",pDescrOut);
+     LocalFree(DataVerify.pbData);
+     LocalFree(pDescrOut);
 }
 else
 {

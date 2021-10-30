@@ -186,6 +186,7 @@ if(CryptProtectData(
      &DataOut))
 {
      printf("The encryption phase worked.\n");
+     LocalFree(DataOut.pbData);
 }
 else
 {
