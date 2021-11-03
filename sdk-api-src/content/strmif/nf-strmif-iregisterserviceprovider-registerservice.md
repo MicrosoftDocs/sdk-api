@@ -75,7 +75,7 @@ The <code>RegisterService</code> method enables you to register a service with t
 
 A service is identified by a GUID, called the service identifier (SID). One service can support multiple interfaces. To register the service, call <code>RegisterService</code>, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -99,7 +99,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 This example assumes that MyCreateServiceHelper is a helper function that creates the service object. A client could get a pointer to the service object by calling <b>IServiceProvider::QueryService</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -125,7 +125,7 @@ if (SUCCEEDED(hr))
 </table></span></div>
 To unregister the service, call <code>RegisterService</code> with a <b>NULL</b> pointer in the second parameter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

@@ -151,7 +151,7 @@ These flags represent possible attributes stored in the EditFlags value of a Pro
 
 The following example shows the <b><b>FTA_NoRemove</b></b> (0x00000010) and <b><b>FTA_NoNewVerb</b></b> (0x00000020) attributes assigned to the .myp file type.
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>.myp</b>
       (Default) = MyProgram.1
    <b>MyProgram.1</b>

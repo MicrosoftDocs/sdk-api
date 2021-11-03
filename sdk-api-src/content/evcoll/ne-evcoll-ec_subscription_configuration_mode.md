@@ -74,7 +74,7 @@ This mode is used when network activity is controllable, and when network usage 
 
 ## -remarks
 
-The settings for each configuration mode can be found in the Event Collector registry located at: <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The settings for each configuration mode can be found in the Event Collector registry located at: <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

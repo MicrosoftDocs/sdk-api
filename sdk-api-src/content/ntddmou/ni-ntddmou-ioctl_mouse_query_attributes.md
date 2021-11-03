@@ -80,11 +80,9 @@ The size of a <a href="/windows/desktop/api/ntddmou/ns-ntddmou-mouse_attributes"
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

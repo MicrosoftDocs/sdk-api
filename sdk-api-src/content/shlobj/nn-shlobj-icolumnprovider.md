@@ -80,7 +80,7 @@ Implement an object that exports this interface when you want to have one or mor
 </ol>
 In addition to normal Component Object Model (COM) registration, the column provider object must also be registered with Windows Explorer. To do so, add a subkey named with the string form of the object's GUID to this key.
 		
-        		<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+        		<pre><b>HKEY_CLASSES_ROOT</b>
    <b>Folder</b>
       <b>shellex</b>
          <b>ColumnHandlers</b></pre>

@@ -72,7 +72,7 @@ A <code>reference</code> to the current instance of <code>XMMATRIX</code>, which
 
 The following pseudocode demonstrates the operation of this operator:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

@@ -72,7 +72,7 @@ If the function fails, the return value is a nonzero error code.
 
 ## -remarks
 
-The current list is maintained in the registry under <pre xml:space="preserve"><b>SYSTEM</b>
+The current list is maintained in the registry under <pre><b>SYSTEM</b>
    <b>CurrentControlSet</b>
       <b>Control</b>
          <b>SecurityProviders</b>

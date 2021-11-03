@@ -131,7 +131,7 @@ Returns the handle to the TraceLogging provider associated with this activity.
 <th align="left" width="63%">Description</th>
 </tr>
 <tr>
-<td align="left" width="27%" xml:space="preserve">
+<td align="left" width="27%">
 
 <a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
 
@@ -143,7 +143,7 @@ The value of the keyword that will be used in the activity’s start and stop ev
 </td>
 </tr>
 <tr>
-<td align="left" width="27%" xml:space="preserve">
+<td align="left" width="27%">
 
 <a href="/windows/desktop/tracelogging/level-constant">Level constant</a>
 

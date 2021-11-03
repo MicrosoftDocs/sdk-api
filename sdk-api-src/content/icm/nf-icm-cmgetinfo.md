@@ -52,8 +52,8 @@ Specifies what information should be retrieved. This parameter can take one of t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

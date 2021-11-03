@@ -73,7 +73,7 @@ The data is digitally signed or protected by a message authentication code (MAC)
             
             
 * **WINBIO_DATA_FLAG_SIGNED**
-If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
+If this flag and the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
             
             
 * **WINBIO_DATA_FLAG_RAW**

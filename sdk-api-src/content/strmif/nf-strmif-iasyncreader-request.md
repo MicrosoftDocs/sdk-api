@@ -155,7 +155,7 @@ The method returns before the request completes. Call the <a href="/windows/desk
 
 The following example shows a possible helper function for an input pin, to queue requests:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

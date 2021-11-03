@@ -87,7 +87,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 ## -remarks
 
 Windows Imaging Component (WIC) short name mappings can be found within the following registry key:
-            <pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+            <pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <b>{FAE3D380-FEA4-4623-8C75-C6B61110B681}</b>
          <b>Namespace</b>
