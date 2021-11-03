@@ -84,7 +84,7 @@ The resource is used for unordered access. A subresource must be in this state w
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_READ
 
-DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when the <i>DepthEnable</i> parameter of <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> is false. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
+DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when depth write of <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> is disabled. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
 
 ### -field D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
 
