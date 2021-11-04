@@ -59,7 +59,7 @@ The <b>IWindowProvider</b> interface inherits from the <a href="/windows/desktop
 
 ## -remarks
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingwindow">Window</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the [Window Control Pattern](/windows/win32/winauto/uiauto-implementingwindow) control pattern.
 
 ## -see-also
 
