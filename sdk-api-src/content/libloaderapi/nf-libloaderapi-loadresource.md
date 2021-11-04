@@ -161,7 +161,7 @@ For example, an application can use the <a href="/windows/win32/api/winuser/nf-w
 
 #### Examples
 
-For an example see <a href="/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
+For an example see <a href="/windows/win32/menurc/using-resources#updating-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
