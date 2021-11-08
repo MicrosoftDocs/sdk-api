@@ -74,7 +74,7 @@ The handle of the added package dependency. This handle is valid until it is pas
 
 Type: <b>PCWSTR*</b>
 
-The full name of the package to which the dependency has been resolved. Use the [HeapAlloc](/windows/win32/api/heapapi/nf-heapapi-heapalloc) function to allocate memory for this parameter, and use [HeapFree](/windows/win32/api/heapapi/nf-heapapi-heapfree) to deallocate the memory.
+When this method returns, contains the address of a pointer to a null-terminated Unicode string that specifies the full name of the package to which the dependency has been resolved. The caller is responsible for freeing this resource once it is no longer needed by calling [HeapFree](/windows/win32/api/heapapi/nf-heapapi-heapfree).
 
 ## -returns
 
