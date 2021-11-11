@@ -18,6 +18,6 @@ f1_keywords:
 
 This header is used by multiple technologies. For more information, see:
 
-- [](../_w_ui_comp/index.md)
+- [w_ui_comp](../_w_ui_comp/index.md)
 - [Windows Runtime C++ reference](../_winrt/index.md)
 

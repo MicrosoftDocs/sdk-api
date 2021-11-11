@@ -18,8 +18,8 @@ f1_keywords:
 
 This header is used by multiple technologies. For more information, see:
 
-- [](../_winsensors_com_ref/index.md)
 - [Location API](../_winlocation/index.md)
 - [Sensor API](../_winsensors/index.md)
 - [Sensor device driver reference](../_sensors/index.md)
+- [winsensors_com_ref](../_winsensors_com_ref/index.md)
 

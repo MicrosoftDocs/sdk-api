@@ -18,6 +18,6 @@ f1_keywords:
 
 This header is used by multiple technologies. For more information, see:
 
-- [](../_winlocation_com_ref/index.md)
 - [Location API](../_winlocation/index.md)
+- [winlocation_com_ref](../_winlocation_com_ref/index.md)
 
