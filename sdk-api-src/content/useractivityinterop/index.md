@@ -27,6 +27,7 @@ dev_langs:
 
 ## -description
 
-This header is used for WinRT Interoperability. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [UserActivity class](/uwp/api/windows.applicationmodel.useractivities.useractivity)
+- [Windows Runtime C++ reference](../_winrt/index.md)
+

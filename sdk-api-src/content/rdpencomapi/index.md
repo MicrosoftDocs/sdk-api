@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Desktop Sharing. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Remote Desktop Services](../_termserv/index.md)
 - [Windows Desktop Sharing](../_rdp/index.md)
 

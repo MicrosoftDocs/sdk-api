@@ -46,7 +46,7 @@ dev_langs:
 
 ## -description
 
-This header is part of the Audio Devices DDI Reference. For more information, see:
+This header is used by Audio Devices DDI Reference. For more information, see:
 
 - [Audio Devices DDI Reference](../_audio/index.md)
 

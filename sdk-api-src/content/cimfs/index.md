@@ -49,6 +49,10 @@ Provides the ability to construct and mount Composite Images (CIMs).
 ## -remarks
 Link with cimfs.lib
 
+This header is used by CimFS. For more information, see:
+
+- [CimFS](../_cimfs/index.md)
+
 ## -see-also
 
 ## -examples

@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Quality of Service (QOS). For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Network Drivers Prior to Windows Vista](../_netxp/index.md)
 - [Quality of Service (QOS)](../_qos/index.md)
+- [Windows Sockets 2](../_winsock/index.md)
 

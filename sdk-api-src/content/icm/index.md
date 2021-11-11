@@ -12,7 +12,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Color System. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Print DDI reference](../_print/index.md)
 - [Windows Color System](../_wcs/index.md)
 

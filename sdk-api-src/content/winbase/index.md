@@ -16,7 +16,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Backup. For more information, see:
+This header is used by Application Installation and Servicing. For more information, see:
 
-- [Backup](../_backup/index.md)
+- [Application Installation and Servicing](../_setup/index.md)
 

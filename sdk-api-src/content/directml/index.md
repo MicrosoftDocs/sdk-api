@@ -17,7 +17,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Direct3D 12 Graphics. For more information, see:
+This header is used by DirectML. For more information, see:
 
-- [Direct3D 12 Graphics](../_direct3d12/index.md)
+- [DirectML](../_directml/index.md)
 

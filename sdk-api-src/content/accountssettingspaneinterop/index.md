@@ -15,6 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used for WinRT Interoperability. For more information, see:
+This header is used by Windows Runtime C++ reference. For more information, see:
 
-- [AccountSettingsPane class](/uwp/api/Windows.UI.ApplicationSettings.AccountsSettingsPane)
+- [Windows Runtime C++ reference](../_winrt/index.md)
+

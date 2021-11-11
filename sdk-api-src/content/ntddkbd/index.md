@@ -16,5 +16,7 @@ f1_keywords:
 
 ## -description
 
-This header file defines types and constants used to access the keyboard device. For more information, see [Human Interface Devices Reference](../_hid/index.md)
+This header is used by Human Interface Devices Reference. For more information, see:
+
+- [Human Interface Devices Reference](../_hid/index.md)
 

@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by TAPI 2.2. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [TAPI 2.2](../_tapi2/index.md)
+- [Telephony Application Programming Interfaces](../_tapi3/index.md)
+- [Telephony Service Provider](../_tspi/index.md)
 

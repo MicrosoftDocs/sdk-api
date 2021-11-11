@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Internationalization for Windows Applications. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Internationalization for Windows Applications](../_intl/index.md)
+- [Spell Checker API](../_spellcheck/index.md)
 
