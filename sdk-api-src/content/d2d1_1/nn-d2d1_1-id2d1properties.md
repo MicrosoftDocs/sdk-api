@@ -184,7 +184,7 @@ The minimum value that the parent property supports being set to.
 </td>
 </tr>
 <tr>
-<td>Max / D2D1_SUBPROPERTY_MIN</td>
+<td>Max / D2D1_SUBPROPERTY_MAX</td>
 <td>Same as parent property.
 				<div class="alert"><b>Note</b>  Applicable only to numeric-type properties.</div>
 <div> </div>
