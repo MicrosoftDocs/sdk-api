@@ -5,7 +5,7 @@ title: IAudioEffectsManager
 ms.date: 06/15/2021
 targetos: Windows
 description: Provides management functionality for the audio effects pipeline
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

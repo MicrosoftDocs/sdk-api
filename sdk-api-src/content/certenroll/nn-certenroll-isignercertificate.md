@@ -86,7 +86,9 @@ The <b>ISignerCertificate</b> interface represents a signing <a href="/windows/d
 
 
 When signing a CMC request, the data to be signed consists of a <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <b>CmcData</b> object wrapped in a CMS <b>SignedData</b> object. The <b>encryptedDigest</b> field of the <b>SignerInfo</b> object contains a signature, and multiple <b>SignerInfo</b> objects can be associated with the request.
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ---------------------------------------------------------------------
 -- CMC request data
 ---------------------------------------------------------------------
@@ -128,7 +130,9 @@ SignerInfo ::= SEQUENCE
     encryptedDigest             EncryptedDigest,
     unauthenticatedAttributes   [1] IMPLICIT Attributes OPTIONAL
 }
-</code></pre>Each <b>ISignerCertificate</b> object is associated with one <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
+
+```
+Each <b>ISignerCertificate</b> object is associated with one <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a> object that identifies the hashing and public key algorithms used. This object is created and initialized when the <b>ISignerCertificate</b> object is initialized.
 
 ## -inheritance
 

@@ -66,7 +66,7 @@ The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-chptrarray">CHPtrArray</a>
 </td>
@@ -82,7 +82,7 @@ Constructor.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getat">GetAt</a>
 </td>
@@ -91,7 +91,7 @@ Accesses an element in a <b>CHPtrArray</b> array.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getsize">GetSize</a>
 </td>
@@ -100,7 +100,7 @@ Obtains the pointer array size.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-removeall">RemoveAll</a>
 </td>

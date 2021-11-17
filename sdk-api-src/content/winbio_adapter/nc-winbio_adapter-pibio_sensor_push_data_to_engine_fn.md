@@ -88,7 +88,7 @@ The sample should be digitally signed or protected by a message authentication c
             
 * **WINBIO_DATA_FLAG_SIGNED**
 
-If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the sample should be signed. If this flag is not set but the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC should be computed.
+If this flag and the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the sample should be signed. If this flag is not set but the <mark>WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC should be computed.
             
             
 * **WINBIO_DATA_FLAG_RAW**

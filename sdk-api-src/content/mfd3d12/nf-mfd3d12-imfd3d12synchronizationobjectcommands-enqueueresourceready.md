@@ -5,7 +5,7 @@ title: IMFD3D12SynchronizationObjectCommands::EnqueueResourceReady
 ms.date: 07/27/2021
 targetos: Windows
 description: Queues a fence on the specified producer command queue that will signal to a downstream consumer when the associated D3D12 resource is ready to be used.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

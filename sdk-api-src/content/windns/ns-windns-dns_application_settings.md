@@ -8,8 +8,8 @@ req.construct-type: structure
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -41,7 +41,7 @@ api_location:
 api_name:
  - _DNS_APPLICATION_SETTINGS
  - DNS_APPLICATION_SETTINGS
-prerelease: true
+prerelease: false
 ---
 
 ## -description

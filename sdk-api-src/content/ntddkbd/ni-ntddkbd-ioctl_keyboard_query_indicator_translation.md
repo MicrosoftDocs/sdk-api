@@ -72,11 +72,9 @@ The IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION request returns information about
 
 ### -in-out-buffer
 
-<text></text>
 
 ### -inout-buffer-length
 
-<text></text>
 
 ### -status-block
 

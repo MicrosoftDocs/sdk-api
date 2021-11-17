@@ -126,7 +126,9 @@ Access to the peer identity or peer group keys is denied. Typically, this is cau
 
 The XML fragment used by <b>PeerIdentityImport</b> is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>&lt;PEERIDENTITYEXPORT VERSION="1.0"&gt;
+
+``` syntax
+&lt;PEERIDENTITYEXPORT VERSION="1.0"&gt;
    &lt;IDENTITY&gt;
      &lt;!-- UTF-8 encoded peer name of the identity --&gt;
    &lt;/IDENTITY&gt;
@@ -134,7 +136,9 @@ The XML fragment used by <b>PeerIdentityImport</b> is as follows:
       &lt;!-- base64 encoded / PFX encoded and encrypted IDC with the private key --&gt;
    &lt;/IDENTTYDATA&gt;
 &lt;/PEERIDENTITYEXPORT&gt;
-</code></pre>
+
+```
+
 
 ## -see-also
 

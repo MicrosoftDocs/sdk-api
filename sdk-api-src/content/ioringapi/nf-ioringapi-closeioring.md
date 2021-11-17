@@ -5,7 +5,7 @@ title: CloseIoRing
 ms.date: 07/16/2021
 targetos: Windows
 description: Closes an **HIORING** handle that was previously opened with a call to CreateIoRing.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -98,7 +98,9 @@ Any thread within the same  process that changes the value at the address on whi
 
 The following example shows how to use <b>WaitOnAddress</b>.
 
-<pre class="syntax" xml:space="preserve"><code>ULONG g_TargetValue; // global, accessible to all threads
+
+``` syntax
+ULONG g_TargetValue; // global, accessible to all threads
 ULONG CapturedValue;
 ULONG UndesiredValue;
 
@@ -108,7 +110,9 @@ while (CapturedValue == UndesiredValue) {
       WaitOnAddress(&amp;g_TargetValue, &amp;UndesiredValue, sizeof(ULONG), INFINITE);
       CapturedValue = g_TargetValue;
 }
-</code></pre>
+
+```
+
 
 ## -see-also
 

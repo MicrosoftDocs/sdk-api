@@ -62,7 +62,7 @@ The **TraceLoggingThreadActivity** class has these constructors.
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975141(v=vs.85)">TraceLoggingThreadActivity Constructor</a>
 </td>
@@ -71,7 +71,7 @@ Creates a new <b>TraceLoggingThreadActivity</b> object.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-traceloggingthreadactivity(traceloggingthreadactivity__)">TraceLoggingThreadActivity Constructor</a>
 </td>
@@ -80,7 +80,7 @@ Transfers ownership of an activity from an existing instance to a new instance.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975140(v=vs.85)">TraceLoggingThreadActivity Destructor</a>
 </td>
@@ -96,7 +96,7 @@ Writes a default stop event if the activity has been started, but has not been s
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975137(v=vs.85)">TraceLoggingThreadActivity::Id</a>
 </td>
@@ -105,7 +105,7 @@ Returns a pointer to the activity’s unique identifier (GUID).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/previous-versions/windows/desktop/legacy/dn975138(v=vs.85)">TraceLoggingThreadActivity::IsStarted</a>
 </td>
@@ -114,7 +114,7 @@ Returns true if the activity has been started.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingthreadactivity-provider">TraceLoggingThreadActivity::Provider</a>
 </td>
@@ -130,8 +130,8 @@ Returns the handle to the TraceLogging provider associated with this activity.
 <th align="left" width="27%">Property</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/windows/desktop/tracelogging/keyword-constant">Keyword constant</a>
 
@@ -142,8 +142,8 @@ The value of the keyword that will be used in the activity’s start and stop ev
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
+<tr>
+<td align="left" width="27%">
 
 <a href="/windows/desktop/tracelogging/level-constant">Level constant</a>
 

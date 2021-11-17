@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264
 req.umdf-ver: 
@@ -223,8 +223,8 @@ seq_parameter_set_id | User specific | None |
 entropy_coding_mode_flag | Based on D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_FLAG_ENABLE_CABAC_ENCODING | None | 
 pic_order_present_flag | 0 | Only support for pic_cnt_type = 0, 2 | 
 num_slice_groups_minus1 | 0 | None | 
-num_ref_idx_l1_active_minus1 | std::max(static_cast<INT>(pictureControl.List0ReferenceFramesCount) - 1, 0) | None |
-num_ref_idx_l0_active_minus1 | std::max(static_cast<INT>(pictureControl.List1ReferenceFramesCount) - 1, 0) | None |
+num_ref_idx_l1_active_minus1 | std::max(static_cast&lt;INT&gt;(pictureControl.List0ReferenceFramesCount) - 1, 0) | None |
+num_ref_idx_l0_active_minus1 | std::max(static_cast&lt;INT&gt;(pictureControl.List1ReferenceFramesCount) - 1, 0) | None |
 weighted_pred_flag | 0 | None | 
 weighted_bipred_idc | 0 | None | 
 pic_init_qp_minus26 | 0 | None | 

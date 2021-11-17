@@ -62,7 +62,11 @@ The <b>HRESULT</b> value.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define HRESULT_CODE(hr)    ((hr) &amp; 0xFFFF)</code></pre>
+
+``` syntax
+#define HRESULT_CODE(hr)    ((hr) &amp; 0xFFFF)
+```
+
 
 ## -see-also
 

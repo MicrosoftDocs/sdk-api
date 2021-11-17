@@ -5,7 +5,7 @@ title: IORING_INFO
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents the shape and version information for the specified I/O ring.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

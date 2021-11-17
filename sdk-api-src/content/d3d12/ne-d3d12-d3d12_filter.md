@@ -212,7 +212,9 @@ You can use HLSL intrinsic texture-sampling functions that implement texture fil
 
 Also note the following defines:
 
-<pre class="syntax" xml:space="preserve"><code>#define	D3D12_FILTER_REDUCTION_TYPE_MASK	( 0x3 )
+
+``` syntax
+#define	D3D12_FILTER_REDUCTION_TYPE_MASK	( 0x3 )
 
 #define	D3D12_FILTER_REDUCTION_TYPE_SHIFT	( 7 )
 
@@ -259,7 +261,9 @@ Also note the following defines:
                             ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MAG_FILTER( D3D12Filter ) ) &amp;&amp;   \
                             ( D3D12_FILTER_TYPE_LINEAR == D3D12_DECODE_MIP_FILTER( D3D12Filter ) ) )    
 
-</code></pre>
+
+```
+
 <table>
 <tr>
 <th>Texture Sampling Function</th>

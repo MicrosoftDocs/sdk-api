@@ -96,9 +96,13 @@ Do not save an image to the same stream that was used to construct the image. Do
 
 
 
-<pre class="syntax" xml:space="preserve"><code>Image image(myStream); 
+
+``` syntax
+Image image(myStream); 
 ...
-image.Save(myStream, ...); // Do not do this.</code></pre>
+image.Save(myStream, ...); // Do not do this.
+```
+
 
 #### Examples
 

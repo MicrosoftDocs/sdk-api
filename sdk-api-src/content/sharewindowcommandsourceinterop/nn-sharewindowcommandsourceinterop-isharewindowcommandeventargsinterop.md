@@ -3,7 +3,7 @@ UID: NN:sharewindowcommandsourceinterop.IShareWindowCommandEventArgsInterop
 title: IShareWindowCommandEventArgsInterop
 description: Gets the [ShareWindowCommandSource](/uwp/api/windows.ui.shell.sharewindowcommandsource) object corresponding to a window identifier (a window handle).
 tech.root: winrt
-prerelease: true
+prerelease: false
 ms.date: 06/09/2021
 targetos: Windows
 req.assembly: 
@@ -15,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.unicode-ansi: 
 dev_langs:

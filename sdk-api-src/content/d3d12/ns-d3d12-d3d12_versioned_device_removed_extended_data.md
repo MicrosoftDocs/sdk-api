@@ -9,8 +9,8 @@ ms.keywords: D3D12_VERSIONED_DEVICE_REMOVED_EXTENDED_DATA, D3D12_VERSIONED_DEVIC
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 

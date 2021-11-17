@@ -212,13 +212,13 @@ The time that the logon session must end.
 
 ### -field PasswordLastSet
 
-The time  when the user last changed the password.
+The time  when the user last changed the password.   <b>Note</b> It is up to the Authentication Package to initialize this value and it may not be initialized.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field PasswordCanChange
 
-The password can be changed during the logon session.
+The password can be changed during the logon session. 
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 

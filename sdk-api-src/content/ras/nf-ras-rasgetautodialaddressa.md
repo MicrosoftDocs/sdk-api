@@ -139,7 +139,7 @@ The Remote Access Service (RAS) supports default Internet connections. RAS suppo
 The name of the global default Internet connection is stored in the registry below the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Ras Autodial</b>

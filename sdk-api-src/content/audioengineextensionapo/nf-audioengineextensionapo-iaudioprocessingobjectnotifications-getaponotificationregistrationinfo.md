@@ -5,7 +5,7 @@ title: IAudioProcessingObjectNotifications::GetApoNotificationRegistrationInfo
 ms.date: 06/19/2021
 targetos: Windows
 description: Called by the system to allow clients to register to receive notification callbacks for APO endpoint and system effect notifications.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

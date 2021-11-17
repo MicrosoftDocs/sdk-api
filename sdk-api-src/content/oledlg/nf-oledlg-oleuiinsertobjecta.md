@@ -445,7 +445,9 @@ By default, <b>OleUIInsertObject</b> does not validate object servers, however, 
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>void FreeHmetafilepict(HMETAFILEPICT hmfp) 
+
+``` syntax
+void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
         { 
@@ -461,7 +463,9 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
         exit(0);
         }
 } 
-</code></pre>
+
+```
+
 
 
 

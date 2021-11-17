@@ -60,4 +60,8 @@ The IID for this interface is IID_IDefViewFrame. Use the service ID SID_DefView 
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>HRESULT hr = isp-&gt;QueryService(punkSite, SID_DefView, IID_IDefViewFrame, (void**)&amp;pdvf);</code></pre>
+
+``` syntax
+HRESULT hr = isp-&gt;QueryService(punkSite, SID_DefView, IID_IDefViewFrame, (void**)&amp;pdvf);
+```
+

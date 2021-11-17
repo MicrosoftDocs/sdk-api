@@ -72,7 +72,11 @@ The members of this structure serve the same purpose as the parameters of <a hre
 
  A compiled compute shader defines the set of instructions to execute per thread and the number of threads to run per group. The thread-group parameters  indicate how many thread groups to execute. Each thread group contains the same number of threads, as defined by the compiled compute shader. The thread groups are organized in a three-dimensional grid. The total number of thread groups that the compiled compute shader executes is determined by the following calculation:
 
-<pre class="syntax" xml:space="preserve"><code>ThreadGroupCountX * ThreadGroupCountY * ThreadGroupCountZ</code></pre>
+
+``` syntax
+ThreadGroupCountX * ThreadGroupCountY * ThreadGroupCountZ
+```
+
 In particular, if any of the values in the thread-group parameters are 0, nothing will happen. 
 
 

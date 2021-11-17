@@ -75,15 +75,23 @@ The standard swizzle formats applies within each page-sized chunk, and pages are
 <img alt="Standard swizzle patterns" src="./images/d3d11_standardswizzle.png"/>
 To demonstrate, consider the 32bpp swizzle format above.  This is represented by the following interleave masks, where bits on the left are most-significant.
 
-<pre class="syntax" xml:space="preserve"><code>UINT xBytesMask = 1010 1010 1000 1111
+
+``` syntax
+UINT xBytesMask = 1010 1010 1000 1111
 UINT yMask =      0101 0101 0111 0000
-</code></pre>
+
+```
+
 To compute the swizzled address, the following code could be used (where the _pdep_u32 instruction is supported):
 
-<pre class="syntax" xml:space="preserve"><code>UINT swizzledOffset = resourceBaseOffset +
+
+``` syntax
+UINT swizzledOffset = resourceBaseOffset +
                       _pdep_u32(xOffset, xBytesMask) + 
                       _pdep_u32(yOffset, yBytesMask);
-</code></pre>
+
+```
+
 
 ## -see-also
 

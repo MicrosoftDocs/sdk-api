@@ -91,7 +91,9 @@ The first node of an xml stream.
 The BNF for node types within a document is:
       
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Xml := StartInput Whitespace Element Whitespace EndInput
 Whitespace := (Text | Comment)* // Text is whitespace only
 Element := StartElement ElementContent EndElement
@@ -102,4 +104,6 @@ Text := WS_XML_NODE_TYPE_TEXT
 Comment := WS_XML_NODE_TYPE_COMMENT
 CData := WS_XML_NODE_TYPE_CDATA Text* WS_XML_NODE_TYPE_END_CDATA
 StartInput := WS_XML_NODE_TYPE_BOF
-EndInput := WS_XML_NODE_TYPE_EOF</code></pre>
+EndInput := WS_XML_NODE_TYPE_EOF
+```
+

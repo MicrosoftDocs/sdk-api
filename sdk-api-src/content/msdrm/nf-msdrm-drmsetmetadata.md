@@ -103,7 +103,9 @@ The <b>DRMSetMetaData</b> function is typically called after <a href="/previous-
 
 Content IDs are created and set in issuance licenses by a publishing application. For example, the application can call <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> to create a new issuance license. It can then call <b>CoCreateGUID</b> to  create a unique ID and <b>DRMSetMetaData</b> to associate the ID with the license. The AD RMS client places the ID in the &lt;WORK&gt; node of the issuance license as shown by the following diagram. For more information, see <a href="/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license">Creating an Issuance License</a>.
 
-<pre class="syntax" xml:space="preserve"><code>&lt;WORK&gt;
+
+``` syntax
+&lt;WORK&gt;
    &lt;OBJECT type="Microsoft Office Document"&gt;
       &lt;ID type="MSGUID"&gt;{AEADA9BD84F246BD92385A611D624A02}&lt;/ID&gt;
       &lt;NAME&gt;Microsoft Office Document&lt;/NAME&gt;
@@ -111,7 +113,9 @@ Content IDs are created and set in issuance licenses by a publishing application
     .
     .
     .
-&lt;/WORK&gt;</code></pre>
+&lt;/WORK&gt;
+```
+
 After an issuance license has been created, a consuming application can use it to acquire an end–user license. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. The appropriate &lt;WORK&gt; nodes and their respective content IDs are copied from the issuance license to the end–user license.
 
 Once an end–user license has been acquired, consuming applications internally use the content ID to bind to that license. For more information, see <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Binding verifies the license chain, principals, and environment, and removes all rights that do not apply to the specified user. The bound license can then be used to decrypt protected content.

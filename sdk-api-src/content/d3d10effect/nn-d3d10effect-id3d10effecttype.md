@@ -59,7 +59,7 @@ The lifetime of an <b>ID3D10EffectType</b> object is equal to the lifetime of it
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getdesc">GetDesc</a>
 </td>
@@ -68,7 +68,7 @@ Get an effect-type description.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembername">GetMemberName</a>
 </td>
@@ -77,7 +77,7 @@ Get the name of a member.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembersemantic">GetMemberSemantic</a>
 </td>
@@ -86,7 +86,7 @@ Get the semantic attached to a member.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
@@ -95,7 +95,7 @@ Get a member type by index.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
@@ -104,7 +104,7 @@ Get a member type by name.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-getmembertypebysemantic">GetMemberTypeBySemantic</a>
 </td>
@@ -113,7 +113,7 @@ Get a member type by semantic.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttype-isvalid">IsValid</a>
 </td>

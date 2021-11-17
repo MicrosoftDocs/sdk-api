@@ -86,7 +86,11 @@ This function is a simplified version of the <a href="/windows/desktop/api/dspar
 
 GUID-based DNS names are not supported. When constructed, the simplified SPN is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>ServiceClass / ServiceName / ServiceName</code></pre>
+
+``` syntax
+ServiceClass / ServiceName / ServiceName
+```
+
 The instance name portion (second position) is always set to default. The port and referrer fields are not used.
 
 

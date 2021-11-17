@@ -235,7 +235,9 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 The following code fragment demonstrates a call to 
       <b>ClusterGroupControl</b>.
 
-<pre class="syntax" xml:space="preserve"><code>// Allocate buffer.
+
+``` syntax
+// Allocate buffer.
 lpPropList = LocalAlloc( LPTR, cbAllocated );
 
 // Initial call.
@@ -272,7 +274,9 @@ if ( dwResult == ERROR_MORE_DATA )
 if ( dwResult != ERROR_SUCCESS )
 {
   // Respond to error.
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

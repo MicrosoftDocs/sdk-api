@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_VIDEO_ENCODER_RATE_CONTROL_MODE
 req.umdf-ver: 

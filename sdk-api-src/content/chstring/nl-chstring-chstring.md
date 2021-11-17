@@ -67,7 +67,7 @@ The following table lists the <b>CHString</b> methods.
 <th align="left" width="37%">Constructor</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString</a>
 </td>
@@ -83,7 +83,7 @@ Constructs <b>CHString</b> strings in various ways.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-allocsysstring">AllocSysString</a>
 </td>
@@ -92,7 +92,7 @@ Allocates a BSTR from <b>CHString</b> data.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-collate">Collate</a>
 </td>
@@ -101,7 +101,7 @@ Compares two strings (case sensitive; uses locale-specific information).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-compare">Compare</a>
 </td>
@@ -110,7 +110,7 @@ Compares two strings (case sensitive).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-comparenocase">CompareNoCase</a>
 </td>
@@ -119,7 +119,7 @@ Compares two strings (case insensitive).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-empty">Empty</a>
 </td>
@@ -128,7 +128,7 @@ Forces a string to have 0 (zero) length.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">Find</a>
 </td>
@@ -136,7 +136,7 @@ Forces a string to have 0 (zero) length.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">FindOneOf</a>
 </td>
@@ -145,7 +145,7 @@ Finds the first matching character from a set.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">Format</a>
 </td>
@@ -153,7 +153,7 @@ Finds the first matching character from a set.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-formatmessagew(uint_---)">FormatMessageW</a>
 </td>
@@ -161,7 +161,7 @@ Finds the first matching character from a set.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-formatv">FormatV</a>
 </td>
@@ -170,7 +170,7 @@ Formats the string as <b>vsprintf</b> does.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-freeextra">FreeExtra</a>
 </td>
@@ -179,7 +179,7 @@ Removes any overhead of this string by freeing any extra memory previously alloc
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getalloclength">GetAllocLength</a>
 </td>
@@ -188,7 +188,7 @@ Returns the size of the string buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">GetAt</a>
 </td>
@@ -196,7 +196,7 @@ Returns the size of the string buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">GetBuffer</a>
 </td>
@@ -205,7 +205,7 @@ Returns a pointer to the characters in the <b>CHString</b> string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffersetlength">GetBufferSetLength</a>
 </td>
@@ -214,7 +214,7 @@ Returns a pointer to the characters in the <b>CHString</b> string, truncating to
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getdata">GetData</a>
 </td>
@@ -223,7 +223,7 @@ Returns a pointer to the data in the <b>CHString</b> string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">GetLength</a>
 </td>
@@ -232,7 +232,7 @@ Returns the number of Unicode characters in a <b>CHString</b> string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-isempty">IsEmpty</a>
 </td>
@@ -241,7 +241,7 @@ Tests whether a <b>CHString</b> string contains no characters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-left">Left</a>
 </td>
@@ -250,7 +250,7 @@ Extracts the left part of a string (like the Basic <b>LEFT$</b> function).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-loadstringw(uint)">LoadStringW</a>
 </td>
@@ -259,7 +259,7 @@ Loads an existing <b>CHString</b> string from a resource file.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-lockbuffer">LockBuffer</a>
 </td>
@@ -268,7 +268,7 @@ Disables reference counting and protects the string in the buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-makelower">MakeLower</a>
 </td>
@@ -277,7 +277,7 @@ Converts all of the characters in this string to lowercase characters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-makereverse">MakeReverse</a>
 </td>
@@ -286,7 +286,7 @@ Reverses the characters in this string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-makeupper">MakeUpper</a>
 </td>
@@ -295,7 +295,7 @@ Converts all of the characters in this string to uppercase characters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-mid(int_int)">Mid</a>
 </td>
@@ -303,7 +303,7 @@ Converts all of the characters in this string to uppercase characters.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">ReleaseBuffer</a>
 </td>
@@ -312,7 +312,7 @@ Releases control of the buffer returned by <a href="/windows/desktop/api/chstrin
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">ReverseFind</a>
 </td>
@@ -321,7 +321,7 @@ Finds a character inside a larger string; starts from the end.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">Right</a>
 </td>
@@ -330,7 +330,7 @@ Extracts the right part of a string (like the Basic <b>RIGHT$</b> function).
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-setat">SetAt</a>
 </td>
@@ -339,7 +339,7 @@ Sets a character at a given position.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanexcluding">SpanExcluding</a>
 </td>
@@ -348,7 +348,7 @@ Extracts a substring that contains only the characters that are not in the set.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanincluding">SpanIncluding</a>
 </td>
@@ -357,7 +357,7 @@ Extracts a substring that contains only the characters in a set.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-trimleft">TrimLeft</a>
 </td>
@@ -366,7 +366,7 @@ Trims leading whitespace characters from the string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-trimright">TrimRight</a>
 </td>
@@ -375,7 +375,7 @@ Trims trailing whitespace characters from the string.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a>
 </td>

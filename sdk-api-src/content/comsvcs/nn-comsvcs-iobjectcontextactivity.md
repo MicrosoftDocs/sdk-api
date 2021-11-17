@@ -60,10 +60,14 @@ The <b>IObjectContextActivity</b> interface inherits from the <a href="/windows/
 
 You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:
 
-<pre class="syntax" xml:space="preserve"><code>hr = m_pIObjectContext-&gt;QueryInterface(
+
+``` syntax
+hr = m_pIObjectContext-&gt;QueryInterface(
             IID_IObjectContextActivity, 
             (void**)&amp;m_pIObjectContextActivity);
-</code></pre>
+
+```
+
 
 ## -see-also
 

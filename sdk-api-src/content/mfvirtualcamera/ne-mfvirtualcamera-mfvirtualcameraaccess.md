@@ -5,7 +5,7 @@ title: MFVirtualCameraAccess
 ms.date: 05/17/2021
 targetos: Windows
 description: Specifies the access restrictions for a virtual camera.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mfvirtualcamera.h

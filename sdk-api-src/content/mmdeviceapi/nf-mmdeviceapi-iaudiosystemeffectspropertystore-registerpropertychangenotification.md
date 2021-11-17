@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyStore::RegisterPropertyChangeNotification
 ms.date: 06/18/2021
 targetos: Windows
 description: Registers an IAudioSystemEffectsPropertyChangeNotificationClient callback interface to receive notifications when audio system effect properties change.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

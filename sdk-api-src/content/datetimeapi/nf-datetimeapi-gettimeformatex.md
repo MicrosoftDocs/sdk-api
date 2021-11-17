@@ -232,10 +232,18 @@ The application can use the following elements to construct a format picture str
 
 For example, to get the time string
 
-<pre class="syntax" xml:space="preserve"><code>"11:29:40 PM"</code></pre>
+
+``` syntax
+"11:29:40 PM"
+```
+
 the application should use the picture string
 
-<pre class="syntax" xml:space="preserve"><code>"hh':'mm':'ss tt"</code></pre>
+
+``` syntax
+"hh':'mm':'ss tt"
+```
+
 This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 <b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.

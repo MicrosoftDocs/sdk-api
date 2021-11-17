@@ -96,10 +96,14 @@ Do not use the counter handles associated with this query after calling this fun
 
 The following shows the syntax if calling this function from Visual Basic.
 
-<pre class="syntax" xml:space="preserve"><code>PdhCloseQuery(
+
+``` syntax
+PdhCloseQuery(
   ByVal QueryHandle as Long  
 )
-as Long</code></pre>
+as Long
+```
+
 
 
 

@@ -70,12 +70,16 @@ The size (that is, count of characters) of the <b>sz</b> member array. This valu
 
 ClusAPI.h defines <b>CLUSPROP_SZ_DECLARE</b> as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define CLUSPROP_SZ_DECLARE( name, cch )    \
+
+``` syntax
+#define CLUSPROP_SZ_DECLARE( name, cch )    \
     struct {                                \
         CLUSPROP_SYNTAX Syntax;             \
         DWORD           cbLength;           \
         WCHAR           sz[(cch + 1) &amp; ~1]; \
-    } name</code></pre>
+    } name
+```
+
 
 #### Examples
 

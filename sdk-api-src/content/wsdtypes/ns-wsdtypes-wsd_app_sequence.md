@@ -76,13 +76,17 @@ The normative outline for the application sequence header block is:
 
 
 
-<pre class="syntax" xml:space="preserve"><code>&lt;s:Envelope ...&gt; 
+
+``` syntax
+&lt;s:Envelope ...&gt; 
   &lt;s:Header ...&gt; 
     &lt;d:AppSequence InstanceId='xs:nonNegativeInteger' [SequenceId='xs:anyURI']? MessageNumber='xs:nonNegativeInteger' ... /&gt;
   &lt;/s:Header&gt; 
   &lt;s:Body ...&gt; ... 
   &lt;/s:Body&gt; 
-&lt;/s:Envelope&gt;</code></pre>
+&lt;/s:Envelope&gt;
+```
+
 The following describes normative constraints of this outline. 
 
 

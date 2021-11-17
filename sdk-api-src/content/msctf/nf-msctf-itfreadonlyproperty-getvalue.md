@@ -136,21 +136,33 @@ The edit context identified by <i>ec</i> does not have a read-only or read/write
 
 If the property has no value over <i>pRange</i>, <i>pRange</i> contains more than one value for the property or the property does not completely cover <i>pRange</i>, <i>pvarValue</i> receives a VT_EMPTY value and the method returns S_FALSE.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
     range--&gt;||&lt;-
-</code></pre>
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+
+
+``` syntax
+
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
     range--&gt;|    |&lt;-
-</code></pre>
-<pre class="syntax" xml:space="preserve"><code>
+
+```
+
+
+``` syntax
+
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
     range--&gt;|             |&lt;-
-</code></pre>
+
+```
+
 
 ## -see-also
 

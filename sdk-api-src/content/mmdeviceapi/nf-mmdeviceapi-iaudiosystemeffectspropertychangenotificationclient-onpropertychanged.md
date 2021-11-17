@@ -5,7 +5,7 @@ title: IAudioSystemEffectsPropertyChangeNotificationClient::OnPropertyChanged
 ms.date: 06/18/2021
 targetos: Windows
 description: Called by the system when an audio system effects property changes.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

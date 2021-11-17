@@ -14,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_D3D12_OPTIONS10
 req.umdf-ver: 
@@ -33,7 +33,7 @@ api_location:
  - d3d12.h
 api_name:
  - D3D12_FEATURE_DATA_D3D12_OPTIONS10
-prerelease: true
+prerelease: false
 ---
 
 ## -description

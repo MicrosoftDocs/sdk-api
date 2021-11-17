@@ -147,7 +147,7 @@ For overlapped operations,
 
 ## -returns
 
-If the operation completes successfully, the return value is nonzero.
+If the operation completes successfully, the return value is nonzero (TRUE).
 
 If the operation fails or is pending, the return value is zero. To get extended error information, call 
        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

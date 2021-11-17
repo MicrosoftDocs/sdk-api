@@ -5,7 +5,7 @@ title: PopIoRingCompletion
 ms.date: 07/16/2021
 targetos: Windows
 description: Pops a single entry from the completion queue, if one is available. 
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

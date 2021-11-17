@@ -66,7 +66,7 @@ Retrieves the size, in bytes, of the specified resource.
 
 Type: <b>HMODULE</b>
 
-A handle to the module whose executable file contains the resource.
+A handle to the module whose executable file contains the resource. Default is the module used to create the current process.
 
 ### -param hResInfo [in]
 

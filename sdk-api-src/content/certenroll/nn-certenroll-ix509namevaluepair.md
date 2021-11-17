@@ -76,7 +76,9 @@ The <b>TaggedAttribute</b> structure can contain a <b>RegInfo</b> attribute. Thi
 
 The following example shows the ASN.1 output for a CMC certificate that contains a <b>RegInfo</b> attribute that contains a single name-value pair of "RequesterName=Domain\TargetUser".
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 ...
 30 33              ; SEQUENCE (33 Bytes)
    02 01                            ; INTEGER (1 Bytes)
@@ -90,7 +92,9 @@ The following example shows the ASN.1 output for a CMC certificate that contains
       6d 61 69 6e 25 35 43 54  61 72 67 65 74 55 73 65  ; main%5CTargetUse
       72 26                                             ; r&amp; 
 ...
-</code></pre>
+
+```
+
 </dd>
 </dl>
 

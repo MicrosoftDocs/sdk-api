@@ -155,11 +155,15 @@ The <b>BITMAPINFOHEADER</b> structure may be followed by an array of palette ent
 </ul>
 When the <b>BITMAPINFOHEADER</b> is followed by a color table or a set of color masks, you can use the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure to reference the color table of the color masks. The <b>BITMAPINFO</b> structure is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagBITMAPINFO {
+
+``` syntax
+typedef struct tagBITMAPINFO {
     BITMAPINFOHEADER bmiHeader;
     RGBQUAD          bmiColors[1];
 } BITMAPINFO;
-</code></pre>
+
+```
+
 If you cast the <b>BITMAPINFOHEADER</b> to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>, the <b>bmiHeader</b> member refers to the <b>BITMAPINFOHEADER</b> and the <b>bmiColors</b> member refers to the first entry in the color table, or the first color mask.
 
 Be aware that if the bitmap uses a color table or color masks, then the size of the entire format structure (the <b>BITMAPINFOHEADER</b> plus the color information) is not equal to <code>sizeof(BITMAPINFOHEADER)</code> or <code>sizeof(BITMAPINFO)</code>. You must calculate the actual size for each instance.

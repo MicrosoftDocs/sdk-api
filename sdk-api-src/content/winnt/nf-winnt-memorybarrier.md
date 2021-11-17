@@ -62,7 +62,9 @@ The <b>_ReadBarrier</b>, <b>_WriteBarrier</b>, and <b>_ReadWriteBarrier</b> comp
 
 This macro can be called on all processor platforms where Windows is supported, but it  has no effect on some platforms. The definition varies from platform to platform. The following are some definitions of this macro in Winnt.h.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 #ifdef _AMD64_
 #define MemoryBarrier __faststorefence
 #endif
@@ -83,7 +85,9 @@ MemoryBarrier (
     __asm {
         xchg Barrier, eax
     }
-}</code></pre>
+}
+```
+
 
 ## -see-also
 

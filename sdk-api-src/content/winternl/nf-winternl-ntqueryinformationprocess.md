@@ -159,13 +159,17 @@ A pointer to a buffer supplied by the calling application into which the functio
 
 When the <i>ProcessInformationClass</i>  parameter is <b>ProcessBasicInformation</b>,  the buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a single <b>PROCESS_BASIC_INFORMATION</b> structure having the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _PROCESS_BASIC_INFORMATION {
+
+``` syntax
+typedef struct _PROCESS_BASIC_INFORMATION {
     PVOID Reserved1;
     PPEB PebBaseAddress;
     PVOID Reserved2[2];
     ULONG_PTR UniqueProcessId;
     PVOID Reserved3;
-} PROCESS_BASIC_INFORMATION;</code></pre>
+} PROCESS_BASIC_INFORMATION;
+```
+
 The <b>UniqueProcessId</b> member points to the system's unique identifier for this process. Use the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> function to retrieve this information.
 
 The <b>PebBaseAddress</b> member points to a <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a> structure.

@@ -5,7 +5,7 @@ title: CompositionFrameDisplayInstance
 ms.date: 06/08/2021
 targetos: Windows
 description: Represents a single instance of the content shown on a single output.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: CompositionFrameDisplayInstance
 req.umdf-ver: 

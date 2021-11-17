@@ -86,13 +86,17 @@ Specifies the state of virtual mode support. If the <a href="/windows/desktop/ap
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_SET_SUPPORT_VIRTUAL_RESOLUTION
 
-Specifies how to set the state of virtual mode support. If the <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigGetDeviceInfo</a> function is successful, <b>DisplayConfigGetDeviceInfo</b> uses info in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_support_virtual_resolution">DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION</a> structure to change the state of virtual mode support. Supported starting in Windows 10.
+Specifies how to set the state of virtual mode support. If the <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a> function is successful, <b>DisplayConfigSetDeviceInfo</b> uses info in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_support_virtual_resolution">DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION</a> structure to change the state of virtual mode support. Supported starting in Windows 10.
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_GET_ADVANCED_COLOR_INFO
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_SET_ADVANCED_COLOR_STATE
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_GET_SDR_WHITE_LEVEL
+
+Specifies the current SDR white level for an HDR monitor. If the <a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigGetDeviceInfo</a> function is successful, <b>DisplayConfigGetDeviceInfo</b> return SDR white level info in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_sdr_white_level">DISPLAYCONFIG_SDR_WHITE_LEVEL</a> structure.
+
+Supported starting in Windows 10 Fall Creators Update (Version 1709).
 
 ### -field DISPLAYCONFIG_DEVICE_INFO_FORCE_UINT32
 

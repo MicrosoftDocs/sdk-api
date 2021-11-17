@@ -94,9 +94,13 @@ If this member is valid, the notification callback function must free the string
 
 The callback function is declared as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef VOID( CALLBACK * PFN_SC_NOTIFY_CALLBACK ) (
+
+``` syntax
+typedef VOID( CALLBACK * PFN_SC_NOTIFY_CALLBACK ) (
     IN PVOID pParameter 
-);</code></pre>
+);
+```
+
 The callback function receives a pointer to the <b>SERVICE_NOTIFY</b> structure provided by the caller.
 
 

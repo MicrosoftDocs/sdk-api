@@ -81,7 +81,7 @@ Values of this enumeration are used to define the <b>dwAspect</b> member of the 
 The default value of <b>MiscStatus</b> is used if a subkey corresponding to the specified <b>DVASPECT</b> is not found. To set an OLE control, specify DVASPECT==1. This will cause the following to occur in the registry:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT\CLSID\ . . .</b>
+<pre><b>HKEY_CLASSES_ROOT\CLSID\ . . .</b>
    <b>MiscStatus</b> = 1</pre>
 
 ## -see-also

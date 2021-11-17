@@ -105,12 +105,16 @@ The decoding resolution depends on whether the current format is NTSC or PAL:
 
 The following enumeration defined in strmif.h is equivalent to the <b>_DVRESOLUTION</b> enumeration. It is included for compatibility with existing applications.
 
-<pre class="syntax" xml:space="preserve"><code>enum _DVDECODERRESOLUTION {
+
+``` syntax
+enum _DVDECODERRESOLUTION {
     DVDECODERRESOLUTION_720x480     =   1000,
     DVDECODERRESOLUTION_360x240     =   1001,
     DVDECODERRESOLUTION_180x120     =   1002,
     DVDECODERRESOLUTION_88x60       =   1003
-};</code></pre>
+};
+```
+
 
 ## -see-also
 

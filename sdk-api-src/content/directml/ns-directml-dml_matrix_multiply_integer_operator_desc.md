@@ -9,8 +9,8 @@ ms.keywords: DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC, DML_MATRIX_MULTIPLY_INTE
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -87,7 +87,7 @@ A tensor with which to write the results to. This tensor's dimensions are `{ Bat
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
-* *ATensor*, *BTensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
+* *ATensor*, *BZeroPointTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *BTensor* and *BZeroPointTensor* must have the same *DataType*.
 * *ATensor* and *AZeroPointTensor* must have the same *DataType*.
 

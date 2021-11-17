@@ -222,13 +222,17 @@ On Windows Vista and later, any application that calls <b>IcmpSendEcho2</b> fun
 
 On Windows Vista and later, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+
+``` syntax
+typedef
 VOID WINAPI
 (*PIO_APC_ROUTINE) (
     IN PVOID ApcContext,
     IN PIO_STATUS_BLOCK IoStatusBlock,
     IN ULONG Reserved
-    );</code></pre>
+    );
+```
+
 On Windows Vista and later, the parameters passed to the callback function include the following:
 
 
@@ -280,11 +284,15 @@ On Windows Server 2003, Windows XP, and  Windows 2000, any application that c
 
 On Windows Server 2003 and Windows XP, the callback function pointed to by the <i>ApcRoutine</i> must be defined as a function of type <b>VOID</b> with the following syntax:
 
-<pre class="syntax" xml:space="preserve"><code>typedef
+
+``` syntax
+typedef
 VOID WINAPI
 (*FARPROC) (
     IN PVOID ApcContext,
-    );</code></pre>
+    );
+```
+
 On Windows Server 2003, Windows XP, and Windows 2000, the parameters passed to the callback function include the following:
 
 

@@ -83,7 +83,9 @@ When done enumerating, call the <a href="/windows/desktop/api/certif/nf-certif-i
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
+
+``` syntax
+#include &lt;windows.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;Certif.h&gt;
 
@@ -129,7 +131,9 @@ if (NULL != bstrExt)
     SysFreeString(bstrExt);
 // Free VARIANT resource.
     VariantClear(&amp;varExt);
-</code></pre>
+
+```
+
 
 ## -see-also
 

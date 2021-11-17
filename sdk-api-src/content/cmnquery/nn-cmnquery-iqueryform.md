@@ -61,7 +61,7 @@ The <b>IQueryForm</b> interface inherits from the <a href="/windows/desktop/api/
 A query form extension object must be registered in the Windows registry to be available to the query handler. This is accomplished by adding the following registry key.
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <i>&lt;query handler CLSID&gt;</i>
          <b>Forms</b>

@@ -5,7 +5,7 @@ title: IMFCameraSyncObject
 ms.date: 05/17/2021
 targetos: Windows
 description: Provides a synchronization mechanism between an app that creates and manages a virtual camera and the virtual camera source.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 

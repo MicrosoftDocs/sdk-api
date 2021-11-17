@@ -9,8 +9,8 @@ ms.keywords: Use DirectX..XMVectorLog10, XMVectorLog10, XMVectorLog10 method [Di
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -70,7 +70,9 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 
 <b>XMVectorLog10</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = log10f(V.x);
@@ -79,7 +81,9 @@ Result.z = log10f(V.z);
 Result.w = log10f(V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

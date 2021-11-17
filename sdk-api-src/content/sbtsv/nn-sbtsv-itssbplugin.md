@@ -68,7 +68,7 @@ Two different types of plugins are supported - filters and resources. Resource p
 To register a resource filter, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>
@@ -100,7 +100,7 @@ The names used should be unique and identify the company, product, and/or featur
 To register a filter provider, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>

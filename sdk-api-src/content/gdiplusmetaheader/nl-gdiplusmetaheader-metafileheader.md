@@ -58,7 +58,7 @@ A <b>MetafileHeader</b> object stores properties of an associated metafile.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getbounds">MetafileHeader::GetBounds</a>
 </td>
@@ -67,7 +67,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getdpix">MetafileHeader::GetDpiX</a>
 </td>
@@ -76,7 +76,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getdpiy">MetafileHeader::GetDpiY</a>
 </td>
@@ -85,7 +85,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getemfheader">MetafileHeader::GetEmfHeader</a>
 </td>
@@ -94,7 +94,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getemfplusflags">MetafileHeader::GetEmfPlusFlags</a>
 </td>
@@ -103,7 +103,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getmetafilesize">MetafileHeader::GetMetafileSize</a>
 </td>
@@ -112,7 +112,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a>
 </td>
@@ -121,7 +121,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getversion">MetafileHeader::GetVersion</a>
 </td>
@@ -130,7 +130,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-getwmfheader">MetafileHeader::GetWmfHeader</a>
 </td>
@@ -139,7 +139,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isdisplay">MetafileHeader::IsDisplay</a>
 </td>
@@ -148,7 +148,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemf">MetafileHeader::IsEmf</a>
 </td>
@@ -157,7 +157,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemforemfplus">MetafileHeader::IsEmfOrEmfPlus</a>
 </td>
@@ -166,7 +166,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplus">MetafileHeader::IsEmfPlus</a>
 </td>
@@ -175,7 +175,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplusdual">MetafileHeader::IsEmfPlusDual</a>
 </td>
@@ -184,7 +184,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-isemfplusonly">MetafileHeader::IsEmfPlusOnly</a>
 </td>
@@ -193,7 +193,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-iswmf">MetafileHeader::IsWmf</a>
 </td>
@@ -202,7 +202,7 @@ The <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafil
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-iswmfplaceable">MetafileHeader::IsWmfPlaceable</a>
 </td>

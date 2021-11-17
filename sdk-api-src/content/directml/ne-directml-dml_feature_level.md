@@ -7,8 +7,8 @@ ms.date: 03/11/2021
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -81,6 +81,8 @@ Specifies feature level 3_1.
 Specifies feature level 4_0.
 
 ## -remarks
+
+The **DML_FEATURE_LEVEL_4_1** constant was introduced in `DML_FEATURE_LEVEL_4_1`. **DML_FEATURE_LEVEL_4_1** specifies feature level 4_1.
 
 ## Availability
 

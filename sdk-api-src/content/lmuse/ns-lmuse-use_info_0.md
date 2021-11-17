@@ -70,8 +70,12 @@ Pointer to a Unicode string that specifies the share name of the remote resource
 
 
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename
-</code></pre>
+
+``` syntax
+\\servername\sharename
+
+```
+
 
 ## -see-also
 

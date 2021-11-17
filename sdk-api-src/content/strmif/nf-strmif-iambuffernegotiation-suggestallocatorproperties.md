@@ -123,7 +123,7 @@ To request a particular number of buffers, set the <b>cBuffers</b> member of the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

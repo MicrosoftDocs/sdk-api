@@ -62,7 +62,11 @@ The <b>HRESULT</b>.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define HRESULT_SEVERITY(hr)  (((hr) &gt;&gt; 31) &amp; 0x1)</code></pre>
+
+``` syntax
+#define HRESULT_SEVERITY(hr)  (((hr) &gt;&gt; 31) &amp; 0x1)
+```
+
 
 ## -see-also
 

@@ -5,7 +5,7 @@ title: IORING_REGISTERED_BUFFER
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents a buffer that has been registered with an I/O ring with a call to BuildIoRingRegisterBuffers.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

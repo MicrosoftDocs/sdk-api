@@ -60,12 +60,13 @@ Handle to an open virtual disk.
 
 ### -param Item [in]
 
-Address of a <b>GUID</b> identifying the metadata to retrieve.
+Address of a <b>GUID</b> identifying the metadata to set. This cannot be the NULL GUID (a GUID of all zeroes).
 
 ### -param MetaDataSize [in]
 
 Address of a <b>ULONG</b> containing the size, in bytes, of 
       the buffer pointed to by the <i>MetaData</i> parameter.
+      Specific VHD file types have a maximum size per metadata element. Specific VHD files also have a maximum number of total metadata entries and total metadata size.
 
 ### -param MetaData [in]
 

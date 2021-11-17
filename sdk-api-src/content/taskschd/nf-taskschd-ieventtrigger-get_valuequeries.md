@@ -106,11 +106,15 @@ The name of the query can be used as a variable in the following action properti
 The following  code example strings show two name-value pairs that can  be used in a name-value collection.
 The values returned by the XPath queries can replace variables in an action property. The values are referenced by name,  with $(user) and $(machine), in the action property. For example, if the $(user) and $(machine) variables are used in the <a href="/windows/desktop/api/taskschd/nf-taskschd-ishowmessageaction-get_messagebody">MessageBody property of IShowMessageAction</a>, then the value of the XPath queries will replace the variables in the string.
 
-<pre class="syntax" xml:space="preserve"><code>name: user
+
+``` syntax
+name: user
 value: Event/UserData/SubjectUserName
 
 name: machine
-value: Event/UserData/MachineName</code></pre>
+value: Event/UserData/MachineName
+```
+
 For more information about writing a query string for certain events, see <a href="/previous-versions//aa385231(v=vs.85)">Event Selection</a> and <a href="/windows/win32/wes/subscribing-to-events">Subscribing to Events</a>.
 
 ## -see-also

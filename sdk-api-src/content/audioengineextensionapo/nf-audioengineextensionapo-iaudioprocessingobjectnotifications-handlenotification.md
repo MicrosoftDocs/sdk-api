@@ -5,7 +5,7 @@ title: IAudioProcessingObjectNotifications::HandleNotification
 ms.date: 06/19/2021
 targetos: Windows
 description: Called by the system to notify clients of changes to APO endpoints or system effects.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

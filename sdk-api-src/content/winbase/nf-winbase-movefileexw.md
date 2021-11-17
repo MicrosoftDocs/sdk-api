@@ -198,8 +198,7 @@ If a file named <i>lpNewFileName</i> exists, the function replaces its contents 
          regarding access control lists (ACLs) are met. For more information, see the Remarks section of this 
          topic.
 
-This value cannot be used if <i>lpNewFileName</i> or 
-         <i>lpExistingFileName</i> names a directory.
+If <i>lpNewFileName</i> names an existing directory, an error is reported.
 
 </td>
 </tr>

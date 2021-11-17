@@ -5,7 +5,7 @@ title: IMFVirtualCamera::CreateSyncEvent
 ms.date: 05/17/2021
 targetos: Windows
 description: A wrapper around the IKsControl::KsEvent method, which enables or disables an event.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

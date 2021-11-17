@@ -5,15 +5,15 @@ title: COMPOSITION_FRAME_ID_TYPE
 ms.date: 06/24/2021
 targetos: Windows
 description: Defines constants that specify the status of a compositor frame.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dcomptypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

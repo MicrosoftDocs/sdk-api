@@ -124,7 +124,11 @@ Before calling the <b>CreateCluster</b> function,
     both <b>COINIT_MULTITHREADED</b> and <b>COINIT_DISABLE_OLE1DDE</b> for 
     the <i>dwCoInit</i> parameter, as shown in the following code.
 
-<pre class="syntax" xml:space="preserve"><code>CoInitializeEx( NULL, COINIT_MULTITHREADED | COINIT_DISABLE_OLE1DDE );</code></pre>
+
+``` syntax
+CoInitializeEx( NULL, COINIT_MULTITHREADED | COINIT_DISABLE_OLE1DDE );
+```
+
 
 ## -see-also
 

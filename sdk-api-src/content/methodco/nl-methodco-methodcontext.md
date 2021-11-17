@@ -64,7 +64,7 @@ The <b>MethodContext</b> class is the pointer to a structure used in a provider 
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/methodco/nf-methodco-methodcontext-getstatusobject">GetStatusObject</a>
 </td>
@@ -73,7 +73,7 @@ Gets an internal pointer to <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwb
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
 <a href="/windows/desktop/api/methodco/nf-methodco-methodcontext-setstatusobject">SetStatusObject</a>
 </td>

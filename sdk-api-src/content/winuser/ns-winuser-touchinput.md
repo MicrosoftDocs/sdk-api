@@ -192,9 +192,13 @@ Note that the touch point identifier may be dynamic and is associated with a giv
 The following type is defined to represent a constant pointer to a <b>TOUCHINPUT</b> structure.
 	
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
    typedef TOUCHINPUT const * PCTOUCHINPUT;
-	</code></pre>
+	
+```
+
 
 #### Examples
 

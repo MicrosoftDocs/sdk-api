@@ -8,8 +8,8 @@ ms.date: 10/29/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -49,6 +49,8 @@ Performs a logical left shift of each element of *ATensor* by a number of bits g
 f(a, b) = (a << b)
 ```
 
+The bitwise operation is applied to tensor data in its native encoding. Therefore, the tensor data type is ignored except for determining the width of each element.
+
 This operator supports in-place execution, meaning that *OutputTensor* is permitted to alias one of the the input tensors during binding.
 
 ## -struct-fields
@@ -78,6 +80,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 *ATensor*, *BTensor*, and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+
+### DML_FEATURE_LEVEL_4_1 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| ATensor | Input | 1 to 8 | UINT64, UINT32, UINT16, UINT8 |
+| BTensor | Input | 1 to 8 | UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | 1 to 8 | UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |

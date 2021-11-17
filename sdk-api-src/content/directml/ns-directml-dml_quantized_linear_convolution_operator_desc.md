@@ -8,8 +8,8 @@ ms.date: 11/03/2020
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -161,10 +161,10 @@ The number of groups which to divide the convolution operation into. *GroupCount
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.
 
 ## Tensor constraints
+* *FilterZeroPointTensor*, *InputScaleTensor*, *InputZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
 * *BiasTensor*, *FilterScaleTensor*, *FilterTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.
 * *OutputTensor* and *OutputZeroPointTensor* must have the same *DataType*.
 * *InputTensor* and *InputZeroPointTensor* must have the same *DataType*.
-* *FilterZeroPointTensor*, *InputScaleTensor*, *InputZeroPointTensor*, *OutputScaleTensor*, and *OutputZeroPointTensor* must have the same *DimensionCount*.
 * *FilterTensor* and *FilterZeroPointTensor* must have the same *DataType*.
 
 ## Tensor support

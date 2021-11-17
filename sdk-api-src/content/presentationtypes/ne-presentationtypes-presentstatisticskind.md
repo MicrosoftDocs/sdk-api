@@ -5,15 +5,15 @@ title: PresentStatisticsKind
 ms.date: 06/08/2021
 targetos: Windows
 description: Defines constants that indicate the kind of presentation surface the statistics are for.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: presentationtypes.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

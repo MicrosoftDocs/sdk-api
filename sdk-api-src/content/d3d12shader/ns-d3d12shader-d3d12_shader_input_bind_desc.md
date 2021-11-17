@@ -88,6 +88,7 @@ A <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_srv_dimension">D3D_SR
 
 The number of samples for a multisampled texture; when a texture isn't multisampled, the value is set to -1 (0xFFFFFFFF).
             This is zero if the shader resource is not a recognized texture.
+            If the shader resource is a structured buffer, the field contains the stride of the type in bytes.
 
 ### -field Space
 

@@ -112,8 +112,8 @@ An optional fused activation layer to apply after the GEMM.
 This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 
 ## Tensor constraints
-* *CTensor* and *OutputTensor* must have the same *Sizes*.
 * *ATensor*, *BTensor*, *CTensor*, and *OutputTensor* must have the same *DataType* and *DimensionCount*.
+* *CTensor* and *OutputTensor* must have the same *Sizes*.
 
 ## Tensor support
 ### DML_FEATURE_LEVEL_4_0 and above

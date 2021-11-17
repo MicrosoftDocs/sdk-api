@@ -54,7 +54,7 @@ Enables an input source on a Windows application's core input object.
 
 ## -inheritance
 
-The <b xmlns:loc="/windows/win32/api/corewindow/nn-corewindow-icoreinputinterop">ICoreInputInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
+The <b>ICoreInputInterop</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreInputInterop</b> also has these types of members:
 
 ## -remarks
 

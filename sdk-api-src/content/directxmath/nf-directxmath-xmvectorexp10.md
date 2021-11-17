@@ -9,8 +9,8 @@ ms.keywords: Use DirectX..XMVectorExp10, XMVectorExp10, XMVectorExp10 method [Di
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -70,7 +70,9 @@ Returns a vector whose components are ten raised to the power of the correspondi
 
 <b>XMVectorExp10</b> is implemented like this:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 XMVECTOR Result;
 
 Result.x = powf(10.0f, V.x);
@@ -79,7 +81,9 @@ Result.z = powf(10.0f, V.z);
 Result.w = powf(10.0f, V.w);
 
 return Result;
-</code></pre>
+
+```
+
 
 ## -see-also
 

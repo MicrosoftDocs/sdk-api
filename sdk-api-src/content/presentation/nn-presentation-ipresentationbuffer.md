@@ -5,7 +5,7 @@ title: IPresentationBuffer
 ms.date: 06/08/2021
 targetos: Windows
 description: Describes a presentation buffer that has been registered with a presentation manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: iface
 req.ddi-compliance: 
@@ -15,8 +15,8 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.unicode-ansi: 
 topic_type:

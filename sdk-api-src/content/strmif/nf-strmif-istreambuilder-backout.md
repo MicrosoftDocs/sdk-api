@@ -71,7 +71,7 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates to the graph bu
 
 The following example shows how a filter would reverse the steps that are shown in the code example for the <b>IStreamBuilder::Render</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

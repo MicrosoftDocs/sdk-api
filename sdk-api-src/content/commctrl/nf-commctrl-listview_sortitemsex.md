@@ -76,7 +76,11 @@ The application-defined value that is passed to the comparison function.
 
 The comparison function has the following form. 
 
-<pre class="syntax" xml:space="preserve"><code>int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);</code></pre>
+
+``` syntax
+int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
+```
+
 where 
 				<i>lParam1</i> is the index of the first item and 
 				<i>lParam2</i> the index of the second. The 

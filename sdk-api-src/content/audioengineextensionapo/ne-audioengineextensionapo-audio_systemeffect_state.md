@@ -5,7 +5,7 @@ title: AUDIO_SYSTEMEFFECT_STATE
 ms.date: 06/17/2021
 targetos: Windows
 description: Specifies the state of a System Effects Audio Processing Object (sAPO) audio effect.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: audioengineextensionapo.h

@@ -145,12 +145,16 @@ Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LA
 The following constants are defined in Strmif.h:
           
 
-<pre class="syntax" xml:space="preserve"><code>#define TVAUDIO_MODE_MASK 0x000000ff
-#define TVAUDIO_PRESET_MASK 0x0000ff00</code></pre>
+
+``` syntax
+#define TVAUDIO_MODE_MASK 0x000000ff
+#define TVAUDIO_PRESET_MASK 0x0000ff00
+```
+
 You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

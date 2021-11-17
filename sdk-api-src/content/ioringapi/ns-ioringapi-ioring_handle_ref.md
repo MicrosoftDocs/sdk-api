@@ -5,7 +5,7 @@ title: IORING_HANDLE_REF
 ms.date: 07/16/2021
 targetos: Windows
 description: Represents a reference to a file handle used in an I/O ring operation.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

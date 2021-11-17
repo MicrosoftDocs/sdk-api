@@ -82,10 +82,18 @@ Type: <b>BOOL</b>
 
 The following is an example of the path returned by <b>GetDefaultUserProfileDirectory</b> in Windows XP:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Documents and Settings\Default User</code></pre>
+
+``` syntax
+C:\Documents and Settings\Default User
+```
+
 The following is an example of the path returned by <b>GetDefaultUserProfileDirectory</b> in Windows 7:
 
-<pre class="syntax" xml:space="preserve"><code>C:\Users\Default</code></pre>
+
+``` syntax
+C:\Users\Default
+```
+
 To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 

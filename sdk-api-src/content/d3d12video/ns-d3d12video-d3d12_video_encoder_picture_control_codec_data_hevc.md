@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_HEVC
 req.umdf-ver: 
@@ -231,8 +231,8 @@ output_flag_present_flag | 0 | None |
 num_extra_slice_header_bits | 0 | None |
 sign_data_hiding_enabled_flag | 0 | None |
 cabac_init_present_flag | 1 | None |
-num_ref_idx_lx_default_active_minus1[0] | std::max(static_cast<INT>(pictureControl.List0ReferenceFramesCount) - 1, 0)) | None |
-num_ref_idx_lx_default_active_minus1[1] | std::max(static_cast<INT>(pictureControl.List1ReferenceFramesCount) - 1, 0)) | None |
+num_ref_idx_lx_default_active_minus1[0] | std::max(static_cast&lt;INT&gt;(pictureControl.List0ReferenceFramesCount) - 1, 0)) | None |
+num_ref_idx_lx_default_active_minus1[1] | std::max(static_cast&lt;INT&gt;(pictureControl.List1ReferenceFramesCount) - 1, 0)) | None |
 init_qp_minus26 | 0 | None |
 constrained_intra_pred_flag | Based on D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_USE_CONSTRAINED_INTRAPREDICTION | None |
 transform_skip_enabled_flag | Based on D3D12_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAG_ENABLE_TRANSFORM_SKIPPING | None |

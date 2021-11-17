@@ -141,7 +141,7 @@ If the pending template is a duplicate of one that already exists in the databas
 If the <b>WinBioEnrollCommit</b> function succeeds, the following registry value is set to 0x01.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>System</b>
       <b>CurrentControlSet</b>
          <b>Services</b>

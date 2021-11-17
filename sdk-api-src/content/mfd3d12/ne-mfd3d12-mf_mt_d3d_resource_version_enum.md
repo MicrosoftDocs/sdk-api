@@ -5,7 +5,7 @@ title: MF_MT_D3D_RESOURCE_VERSION_ENUM
 ms.date: 07/27/2021
 targetos: Windows
 description: Specifies the Direct3D version of the resource used in the stream associated with a media type.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: mfd3d12.h

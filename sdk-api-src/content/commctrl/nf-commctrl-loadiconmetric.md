@@ -175,10 +175,14 @@ Icons are extracted or created as follows.
 </ol>
 Comparative calls are shown here for <b>LoadIconMetric</b> and <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>.
 
-<pre class="syntax" xml:space="preserve"><code>NOTIFYICONDATA  nidIconData  = {0};
+
+``` syntax
+NOTIFYICONDATA  nidIconData  = {0};
 nidIconData.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON));
 
 // Or...
 
-HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);</code></pre>
+HRESULT hr = LoadIconMetric(hInstance, MAKEINTRESOURCE(IDI_ICON), LIM_SMALL, &amp;nidIconData.hIcon);
+```
+
 The application is responsible for calling <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> on the retrieved icon.

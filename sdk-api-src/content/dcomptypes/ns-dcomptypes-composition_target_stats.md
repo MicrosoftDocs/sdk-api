@@ -5,7 +5,7 @@ title: COMPOSITION_TARGET_STATS
 ms.date: 06/24/2021
 targetos: Windows
 description: Contains per-target information for a composition frame and render target.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: COMPOSITION_TARGET_STATS
 req.umdf-ver: 

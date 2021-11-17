@@ -5,7 +5,7 @@ title: IAudioProcessingObjectLoggingService::ApoLog
 ms.date: 06/19/2021
 targetos: Windows
 description: Logs an APO event.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

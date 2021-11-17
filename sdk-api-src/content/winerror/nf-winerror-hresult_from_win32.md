@@ -62,7 +62,9 @@ The system error code.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>//
+
+``` syntax
+//
 // HRESULT_FROM_WIN32(x) used to be a macro, however we now run it as an inline function
 // to prevent double evaluation of 'x'. If you still need the macro, you can use __HRESULT_FROM_WIN32(x)
 //
@@ -76,7 +78,9 @@ FORCEINLINE HRESULT HRESULT_FROM_WIN32(unsigned long x) {
 #define HRESULT_FROM_WIN32(x) __HRESULT_FROM_WIN32(x)
 #endif
 
-</code></pre>
+
+```
+
 
 ## -see-also
 

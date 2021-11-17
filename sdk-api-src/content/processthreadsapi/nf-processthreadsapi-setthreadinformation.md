@@ -102,7 +102,9 @@ To help improve system performance, applications should use the <b>SetThreadInfo
 
 The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadMemoryPriority</b> to set low memory priority on the current thread.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD ErrorCode;
+
+``` syntax
+DWORD ErrorCode;
     BOOL Success;
     MEMORY_PRIORITY_INFORMATION MemPrio;
 
@@ -122,10 +124,14 @@ The following example shows how to call <b>SetThreadInformation</b> with <b>Thre
         ErrorCode = GetLastError();
         fprintf(stderr, "Set thread memory priority failed: %d\n", ErrorCode);
         goto cleanup;
-    }</code></pre>
+    }
+```
+
 The following example shows how to call <b>SetThreadInformation</b> with <b>ThreadPowerThrottling</b> to control the Quality of Service of a thread.
 
-<pre class="syntax" xml:space="preserve"><code>THREAD_POWER_THROTTLING_STATE PowerThrottling;
+
+``` syntax
+THREAD_POWER_THROTTLING_STATE PowerThrottling;
 RtlZeroMemory(&amp;PowerThrottling, sizeof(PowerThrottling));
 PowerThrottling.Version = THREAD_POWER_THROTTLING_CURRENT_VERSION;
 
@@ -169,7 +175,9 @@ SetThreadInformation(GetCurrentThread(),
                      ThreadPowerThrottling, 
                      &amp;PowerThrottling, 
                      sizeof(PowerThrottling));
-</code></pre>
+
+```
+
 
 ## -see-also
 

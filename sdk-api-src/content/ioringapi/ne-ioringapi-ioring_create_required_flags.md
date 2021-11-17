@@ -5,7 +5,7 @@ title: IORING_CREATE_REQUIRED_FLAGS
 ms.date: 07/16/2021
 targetos: Windows
 description: Specifies required flags for creating an I/O ring with a call to CreateIoRing.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ioringapi.h

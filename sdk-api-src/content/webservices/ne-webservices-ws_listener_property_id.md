@@ -250,12 +250,16 @@ The property value contains a set of flags (see <a href="/windows/win32/api/webs
 The default value is:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WS_MATCH_URL_THIS_HOST |
 WS_MATCH_URL_EXACT_PATH |
 WS_MATCH_URL_PORT |
 WS_MATCH_URL_NO_QUERY
-</code></pre>
+
+```
+
 
 ### -field WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS
 
@@ -273,12 +277,16 @@ The property value contains a set of flags (see <a href="/windows/win32/api/webs
 The default value is:
                 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 WS_MATCH_URL_THIS_HOST |
 WS_MATCH_URL_EXACT_PATH |
 WS_MATCH_URL_PORT |
 WS_MATCH_URL_NO_QUERY
-</code></pre>
+
+```
+
 This property only controls the verification of the message once it has been received
                     by the process, not the routing of the message to the process (which is determined
                     by the URL passed to <a href="/windows/desktop/api/webservices/nf-webservices-wsopenlistener">WsOpenListener</a>).

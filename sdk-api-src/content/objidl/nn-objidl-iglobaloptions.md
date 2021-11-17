@@ -191,14 +191,18 @@ It's important for applications that detect crashes and other exceptions that mi
 
 All such applications should execute this code at startup.
 
-<pre class="syntax" xml:space="preserve"><code>    IGlobalOptions *pGlobalOptions;
+
+``` syntax
+    IGlobalOptions *pGlobalOptions;
     hr =  CoCreateInstance(CLSID_GlobalOptions, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pGlobalOptions));
     if (SUCCEEDED(hr))
     {
         hr = pGlobalOptions-&gt;Set(COMGLB_EXCEPTION_HANDLING, COMGLB_EXCEPTION_DONOT_HANDLE);
         pGlobalOptions-&gt;Release();
     }
-</code></pre>
+
+```
+
 
 ## -see-also
 

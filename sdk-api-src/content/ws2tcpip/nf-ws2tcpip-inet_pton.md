@@ -169,7 +169,7 @@ If the <i>Family</i> parameter specified is <b>AF_INET6</b>, then the <i>pszAddr
 
 When UNICODE or _UNICODE is defined, <b>InetPton</b> is defined to <b>InetPtonW</b>, the Unicode version of this function. The <i>pszAddrString</i> parameter is defined to the <b>PCWSTR</b> data type.
 
-When UNICODE or _UNICODE is not defined, <b>InetPton</b> is defined to <b>InetPtonA</b>, the ANSI version of this function. The ANSI version of this function is always defined as <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">inet_pton</a>. The <i>pszAddrString</i> parameter is defined to the <b>PCSTR</b> data type.
+When UNICODE or _UNICODE is not defined, <b>InetPton</b> is defined to <b>InetPtonA</b>, the ANSI version of this function. The ANSI version of this function is always defined as inet_pton. The <i>pszAddrString</i> parameter is defined to the <b>PCSTR</b> data type.
 
 The <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 

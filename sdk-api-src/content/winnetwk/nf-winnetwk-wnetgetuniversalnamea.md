@@ -226,12 +226,20 @@ A universal form of a local drive-based path identifies a network resource in an
 The 
 <b>WNetGetUniversalName</b> function currently supports one universal name form: universal naming convention (UNC) names, which look like the following:
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename\path\file 
-</code></pre>
+
+``` syntax
+\\servername\sharename\path\file 
+
+```
+
 Using the example from the preceding description of the <i>lpLocalPath</i> parameter, if the shared network drive is on a server named COOLSERVER, and the share name is HOTSHARE, the UNC name for the network resource whose drive-based name is H:\Win32\Examples\Sample.doc would be the following:
 
-<pre class="syntax" xml:space="preserve"><code>\\coolserver\hotshare\win32\examples\sample.doc 
-</code></pre>
+
+``` syntax
+\\coolserver\hotshare\win32\examples\sample.doc 
+
+```
+
 The 
 <a href="/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure contains a pointer to a UNC name string. The 
 <a href="/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure also contains a pointer to a UNC name string as well as pointers to two other useful strings. For example, a process can pass the 

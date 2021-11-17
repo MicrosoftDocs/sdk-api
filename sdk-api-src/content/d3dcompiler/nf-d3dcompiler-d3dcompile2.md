@@ -187,10 +187,14 @@ To compile offline shaders the recommend approach is to use the <a href="/window
 <li>Add a button to XAML, name it appropriately ("TheButton" in this example), and add a <b>Click</b> handler.</li>
 </ul>
 </li>
-<li>Now add these includes to your .cpp file:<pre class="syntax" xml:space="preserve"><code>#include &lt;ppltasks.h&gt;
+<li>Now add these includes to your .cpp file:
+``` syntax
+#include &lt;ppltasks.h&gt;
 #include &lt;d3dcompiler.h&gt;
 #include &lt;Robuffer.h&gt;
-</code></pre>
+
+```
+
 </li>
 <li>Use the following code to call <b>D3DCompile2</b>. Note that there is no error checking or handling here, and also that this code  demonstrates you can do both I/O and compilation in the background, which leaves your UI more responsive.
 

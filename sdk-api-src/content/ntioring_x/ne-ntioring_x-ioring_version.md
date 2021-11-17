@@ -5,7 +5,7 @@ title: IORING_VERSION
 ms.date: 07/16/2021
 targetos: Windows
 description: Specifies the IORING API version.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ntioring_x.h

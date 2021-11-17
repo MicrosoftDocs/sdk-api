@@ -74,20 +74,28 @@ If the function fails, the return value is zero.
 
 Below is the transformation matrix (note that the digits in the element notation are 1-based column number followed by 1-based row number, rather than the reverse).
 
-<pre class="syntax" xml:space="preserve"><code>| eM11 eM21 eDx |
+
+``` syntax
+| eM11 eM21 eDx |
 | eM12 eM22 eDy |
 | 0    0    1   |
-</code></pre>
+
+```
+
 
 So for any coordinates (x, y) in world space, the transformed coordinates in page space (x', y') can be determined in the way shown below.
 
-<pre class="syntax" xml:space="preserve"><code>| x' |   | eM11 eM21 eDx |   | x |   
+
+``` syntax
+| x' |   | eM11 eM21 eDx |   | x |   
 | y' | = | eM12 eM22 eDy | . | y |
 | 1  |   | 0    0    1   |   | 1 |
 
 x' = x * eM11 + y * eM21 + eDx
 y' = x * eM12 + y * eM22 + eDy
-</code></pre>
+
+```
+
 
 This function uses logical units.
 

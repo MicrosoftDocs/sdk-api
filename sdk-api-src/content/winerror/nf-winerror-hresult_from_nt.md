@@ -62,7 +62,11 @@ The NT status value.
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define HRESULT_FROM_NT(x)      ((HRESULT) ((x) | FACILITY_NT_BIT))</code></pre>
+
+``` syntax
+#define HRESULT_FROM_NT(x)      ((HRESULT) ((x) | FACILITY_NT_BIT))
+```
+
 
 ## -see-also
 

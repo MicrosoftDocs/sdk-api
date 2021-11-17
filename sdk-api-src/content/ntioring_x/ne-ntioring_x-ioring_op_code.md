@@ -5,7 +5,7 @@ title: IORING_OP_CODE
 ms.date: 07/16/2021
 targetos: Windows
 description: Specifies the type of an I/O ring operation.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ntioring_x.h

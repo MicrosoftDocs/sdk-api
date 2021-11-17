@@ -5,7 +5,7 @@ title: D3D12_VIDEO_ENCODER_DESC
 ms.date: 06/21/2021
 targetos: Windows
 description: Describes an ID3D12VideoEncoder.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: D3D12_VIDEO_ENCODER_DESC
 req.umdf-ver: 

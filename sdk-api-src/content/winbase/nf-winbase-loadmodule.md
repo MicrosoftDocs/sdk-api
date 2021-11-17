@@ -149,12 +149,16 @@ The specified path was not found.
 The <b>LOADPARMS32</b> structure has the following form:
 						
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagLOADPARMS32 { 
+
+``` syntax
+typedef struct tagLOADPARMS32 { 
   LPSTR lpEnvAddress;  // address of environment strings 
   LPSTR lpCmdLine;     // address of command line 
   LPSTR lpCmdShow;     // how to show new program 
   DWORD dwReserved;    // must be zero 
-} LOADPARMS32;</code></pre>
+} LOADPARMS32;
+```
+
 <table>
 <tr>
 <th>Member</th>
