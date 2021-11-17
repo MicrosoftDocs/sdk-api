@@ -86,7 +86,6 @@ If any subresources are also currently bound for reading in a different stage or
 
 The method will hold a reference to the interfaces passed in.
         This differs from the device state behavior in Direct3D 10.
-      
 
 If the render-target views were created from an array resource type, all of the render-target views must have the same array size.  
       This restriction also applies to the depth-stencil view, its array size must match that of the render-target views being bound.
@@ -96,6 +95,8 @@ The pixel shader must be able to simultaneously render to at least eight separat
 Any combination of the eight slots for render targets can have a render target set or not set.
 
 The same resource view cannot be bound to multiple render target slots simultaneously. However, you can set multiple non-overlapping resource views of a single resource as simultaneous multiple render targets.
+
+Note that unlike some other resource methods in Direct3D, all currently bound render targets will be unbound by calling ``OMSetRenderTargets(0, nullptr, nullptr);``.
 
 ## -see-also
 
