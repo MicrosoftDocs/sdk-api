@@ -1,7 +1,7 @@
 ---
 UID: NN:audioclient.IAudioClient3
 title: IAudioClient3 (audioclient.h)
-description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
+description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization of a shared audio stream with a specified periodicity.
 helpviewer_keywords: ["IAudioClient3","IAudioClient3 interface [Core Audio]","IAudioClient3 interface [Core Audio]","described","audioclient/IAudioClient3","coreaudio.iaudioclient3"]
 old-location: coreaudio\iaudioclient3.htm
 tech.root: CoreAudio
@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAudioClient3</b> interface is derived from the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
+The <b>IAudioClient3</b> interface is derived from the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization of a shared audio stream with a specified periodicity.
 
 ## -inheritance
 
