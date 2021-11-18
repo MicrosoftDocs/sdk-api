@@ -82,6 +82,13 @@ For information about creating shader-resource views, see <a href="/windows/desk
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
+In order to unbind resource slots, you must pass an array containing null values. For example, to clear the first 4 slots, use:
+
+```
+ID3D11ShaderResourceView* nullsrv[] = { nullptr, nullptr, nullptr, nullptr };
+context->VSSetShaderResources(0, 4, nullsrv);
+```
+
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
