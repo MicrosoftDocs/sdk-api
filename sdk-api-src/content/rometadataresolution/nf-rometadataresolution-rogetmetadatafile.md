@@ -6,7 +6,7 @@ helpviewer_keywords: ["RoGetMetaDataFile","RoGetMetaDataFile function [Windows R
 old-location: winrt\rogetmetadatafile.htm
 tech.root: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 req.header: rometadataresolution.h
 req.include-header: 
