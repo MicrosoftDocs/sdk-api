@@ -172,18 +172,18 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 
 | Field | Meaning |
 |-------|---------|
-| **ExitStatus** | Contains the same value that [**GetExitCodeProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess) would return. However the use of **GetExitCodeProcess** is preferable for clarity and safety. |
+| **ExitStatus** | Contains the same value that [**GetExitCodeProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getexitcodeprocess) returns. However the use of **GetExitCodeProcess** is preferable for clarity and safety. |
 | **PebBaseAddress** | Points to a [**PEB**](/windows/desktop/api/Winternl/ns-winternl-peb) structure. |
-| **AffinityMask** | Can be cast to a **DWORD** and contains the same value that [**GetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask) would return for the `lpProcessAffinityMask` parameter. |
+| **AffinityMask** | Can be cast to a **DWORD** and contains the same value that [**GetProcessAffinityMask**](/windows/win32/api/winbase/nf-winbase-getprocessaffinitymask) returns for the `lpProcessAffinityMask` parameter. |
 | **BasePriority** | Contains the process priority as described in [Scheduling Priorities](/windows/win32/procthread/scheduling-priorities#base-priority). |
-| **UniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for this process. It is best to use the [**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) function to retrieve this information. |
+| **UniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for this process. We recommend using the [**GetProcessId**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessid) function to retrieve this information. |
 | **InheritedFromUniqueProcessId** | Can be cast to a **DWORD** and contains a unique identifier for the parent process. |
 
 
 
 #### ULONG_PTR
 
-When the <i>ProcessInformationClass</i>  parameter is <b>ProcessWow64Information</b>,  the buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a  <b>ULONG_PTR</b>. If this value is nonzero, the process is running in a WOW64 environment; otherwise, if the value is equal to zero, the process is not running in a WOW64 environment.
+When the <i>ProcessInformationClass</i>  parameter is <b>ProcessWow64Information</b>,  the buffer pointed to by the <i>ProcessInformation</i> parameter should be large enough to hold a  <b>ULONG_PTR</b>. If this value is nonzero, the process is running in a WOW64 environment. Otherwise, the process is not running in a WOW64 environment.
 
 Use the <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function to determine whether a process is running in the WOW64 environment.
 
@@ -201,13 +201,13 @@ The size of the buffer pointed to by the <i>ProcessInformation</i> parameter, in
 
 ### -param ReturnLength [out, optional]
 
-A pointer to a variable in which the function returns the size of the requested information. If the function was successful, this is the size of the information written to the buffer pointed to by the <i>ProcessInformation</i> parameter, but if the buffer was too small, this is the minimum size of buffer needed to receive the information successfully.
+A pointer to a variable in which the function returns the size of the requested information. If the function was successful, this is the size of the information written to the buffer pointed to by the <i>ProcessInformation</i> parameter (if the buffer was too small, this is the minimum size of buffer needed to receive the information successfully).
 
 ## -returns
 
-The function returns  an NTSTATUS success or error code. 
+The function returns an NTSTATUS success or error code. 
 
-The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h header file available in the DDK, and are described in the DDK documentation under Kernel-Mode Driver Architecture / Design Guide / Driver Programming Techniques / Logging Errors.
+The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h header file available in the DDK. See [Logging Errors](/windows-hardware/drivers/kernel/logging-errors) for more details.
 
 ## -remarks
 
