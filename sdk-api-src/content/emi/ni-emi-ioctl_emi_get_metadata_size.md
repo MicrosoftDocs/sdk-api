@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOCTL_EMI_GET_METADATA_SIZE","IOCTL_EMI_GET_METADATA_SIZE
 old-location: powermeter\ioctl_emi_get_metadata_size.htm
 tech.root: powermeter
 ms.assetid: 7A3E5BE5-F567-408A-B4AC-347E052957D9
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: IOCTL_EMI_GET_METADATA_SIZE, IOCTL_EMI_GET_METADATA_SIZE control, IOCTL_EMI_GET_METADATA_SIZE control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA_SIZE, powermeter.ioctl_emi_get_metadata_size
 req.header: emi.h
 req.include-header: Emi.h
@@ -57,6 +57,7 @@ The <b>IOCTL_EMI_GET_METADATA_SIZE</b>
 
 ### -input-buffer
 
+
 <text> None. </text>
 
 ### -input-buffer-length
@@ -69,6 +70,7 @@ The <b>IOCTL_EMI_GET_METADATA_SIZE</b>
 
 
 ### -output-buffer-length
+
 
 <text> The size of this buffer is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength </b> member. </text>
 

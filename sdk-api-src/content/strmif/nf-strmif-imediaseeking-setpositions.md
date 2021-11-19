@@ -210,7 +210,7 @@ The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the cur
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 If you implement this method, you can check whether the caller is requesting a change in the current or stop position, by using the value AM_SEEKING_PositioningBitsMask to mask out the modifier flags. For example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

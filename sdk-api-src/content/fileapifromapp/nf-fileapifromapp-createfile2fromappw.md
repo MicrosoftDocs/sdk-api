@@ -84,8 +84,8 @@ To enable a process to share a file or device while another process has the file
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,8 +142,8 @@ This parameter must be one of the following values, which cannot be combined:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

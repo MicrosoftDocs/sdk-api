@@ -58,7 +58,7 @@ Represents a viewport and provides convenience methods for creating viewports.
 
 Here is how D3D11.h defines <b>CD3D11_VIEWPORT</b>:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>

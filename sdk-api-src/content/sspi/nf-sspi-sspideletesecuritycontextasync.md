@@ -58,7 +58,7 @@ Returns **SEC_E_OK** if the async request to delete the security context was suc
 
 SspiGetAsyncCallStatus returns **SEC_E_OK** on completion. Otherwise, it may return **SEC_I_ASYNC_CALL_PENDING** if the call is still in progress, or one of the error codes below.
 
-|<div style="width:40%">Return code</div>|<div style="width:60%">Description</div>|
+|<div>Return code</div>|<div>Description</div>|
 |---|---|
 |**SEC_E_INVALID_HANDLE**|The handle passed to the function is not valid.|
 

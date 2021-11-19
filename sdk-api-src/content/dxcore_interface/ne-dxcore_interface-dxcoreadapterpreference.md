@@ -8,7 +8,6 @@ ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterPreference enumeration, dxcore_interface.dxcoreadapterpreference
 ms.localizationpriority: low
-ms.topic: enumeration
 targetos: Windows
 ms.prod: windows
 req.assembly: 

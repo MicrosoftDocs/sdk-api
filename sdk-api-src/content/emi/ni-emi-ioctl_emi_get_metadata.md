@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOCTL_EMI_GET_METADATA","IOCTL_EMI_GET_METADATA control",
 old-location: powermeter\ioctl_emi_get_metadata.htm
 tech.root: powermeter
 ms.assetid: 3A1A76B0-2A46-4C15-84BC-CE75701C30B7
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: IOCTL_EMI_GET_METADATA, IOCTL_EMI_GET_METADATA control, IOCTL_EMI_GET_METADATA control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA, powermeter.ioctl_emi_get_metadata
 req.header: emi.h
 req.include-header: Emi.h
@@ -57,6 +57,7 @@ The <b>IOCTL_EMI_GET_METADATA</b>
 
 ### -input-buffer
 
+
 <text> None. </text>
 
 ### -input-buffer-length
@@ -71,6 +72,7 @@ The <b>IOCTL_EMI_GET_METADATA</b>
 ### -output-buffer-length
 
 <text> The length of buffer should be either equal or greater than the value retrieved from [IOCTL_EMI_GET_METADATA_SIZE](ni-emi-ioctl_emi_get_metadata_size.md) and it is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength </b> member.  </text>
+
 
 
 ### -status-block

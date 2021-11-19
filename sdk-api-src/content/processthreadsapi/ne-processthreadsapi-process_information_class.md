@@ -11,8 +11,8 @@ req.header: processthreadsapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Build 22000
+req.target-min-winversvr: Windows Build 22000
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 

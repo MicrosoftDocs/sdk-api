@@ -96,7 +96,7 @@ Success.
 
 This method returns information on all the seeking capabilities of the stream. Examine <i>pCapabilities</i> by performing a separate bitwise-AND operation on each AM_SEEKING_SEEKING_CAPABILITIES value you are interested in.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

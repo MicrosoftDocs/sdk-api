@@ -78,8 +78,8 @@ You cannot request an access mode that conflicts with the sharing mode that is s
     
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -152,8 +152,8 @@ This parameter must be one of the following values, which cannot be combined:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -218,8 +218,8 @@ This parameter can also contain Security Quality of Service (SQOS) information b
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -286,8 +286,8 @@ This parameter can also contain Security Quality of Service (SQOS) information b
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -388,8 +388,8 @@ The *dwFlagsAndAttributes*parameter can also specify SQOS information. For more 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

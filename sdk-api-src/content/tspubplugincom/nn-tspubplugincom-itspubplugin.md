@@ -64,7 +64,7 @@ The <b>ItsPubPlugin</b> interface inherits from the <a href="/windows/desktop/ap
 
 <ol>
 <li>Implement the plug-in in a DLL and register the DLL by using the Regsvr32.exe tool.</li>
-<li>Create a subkey named for the CLSID of the DLL under the following key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<li>Create a subkey named for the CLSID of the DLL under the following key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows NT</b>

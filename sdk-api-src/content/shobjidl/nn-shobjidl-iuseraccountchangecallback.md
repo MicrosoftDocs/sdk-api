@@ -60,7 +60,7 @@ The <b>IUserAccountChangeCallback</b> interface inherits from the <a href="/wind
 
 Applications that want to notify users through this interface can add their class identifier (CLSID) strings as values under this key: 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>

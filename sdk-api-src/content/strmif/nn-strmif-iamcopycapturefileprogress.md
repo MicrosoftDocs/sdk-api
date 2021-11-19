@@ -65,7 +65,7 @@ To use this interface, implement a class that inherits the interface and impleme
 
 The following example shows a class that implements the interface:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -119,7 +119,7 @@ public:
 </table></span></div>
 The following example uses this class in the <b>CopyCaptureFile</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>

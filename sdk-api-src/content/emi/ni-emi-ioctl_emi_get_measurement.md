@@ -6,7 +6,7 @@ helpviewer_keywords: ["IOCTL_EMI_GET_MEASUREMENT","IOCTL_EMI_GET_MEASUREMENT con
 old-location: powermeter\ioctl_emi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE
-ms.date: 12/05/2018
+ms.date: 11/19/2021
 ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement
 req.header: emi.h
 req.include-header: Emi.h
@@ -57,6 +57,7 @@ The <b>IOCTL_EMI_GET_MEASUREMENT</b>
 
 ### -input-buffer
 
+
 <text> None. </text>
 
 ### -input-buffer-length
@@ -71,14 +72,18 @@ The <b>IOCTL_EMI_GET_MEASUREMENT</b>
 
 <text> The length of output buffer should be the size of [EMI_MEASUREMENT_DATA_V1](ns-emi-emi_channel_measurement_data.md) or [EMI_MEASUREMENT_DATA_V2](ns-emi-emi_measurement_data_v2.md) multiply by number of channels, it is specified in the <b> Parameters.DeviceIoControl.OutputBufferLength</b> member.  </text>
 
+
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
+
 For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
+
 
 ### -remarks
 For EMI version 1 and 2, the EMI measurement data reported from each channel should be accumulated and translated to the unit specified by the channel on each request, as the EMI interface of any device should be shared across the system, therefore how freqeunt the counters are being sampled and accumulated depends on how often each of its consumer requests and also the driver implementation.
+
 
 For the EMI version 2, Multiple channels are exposed by the same device should be sampled at once on each request, hence the caller should use the <b> ChannelCount </b> in the [EMI_METADATA_V2](ns-emi-emi_metadata_v2.md) to traverse the channels, for example:
 

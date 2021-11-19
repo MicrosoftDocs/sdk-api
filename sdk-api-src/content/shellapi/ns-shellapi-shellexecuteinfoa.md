@@ -71,8 +71,8 @@ A combination of one or more of the following values that indicate the content a
 
 <table>
 <colgroup>
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 60%;">
+    <col span="1">
+    <col span="1">
 </colgroup>
 <tr valign="top">
 <td>SEE_MASK_DEFAULT (0x00000000)</td>
