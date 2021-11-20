@@ -71,7 +71,7 @@ This method can be used only in Windows Developer Mode.
 
 To set the SDK version using this API, you must call it before you create the Direct3D 12 device. Calling this API *after* creating the Direct3D 12 device will cause the Direct3D 12 runtime to remove the device.
 
-If the `D3D12.dll` installed with the OS is newer than the SDK version specified, then the OS version is used instead.
+If the `d3d12core.dll` installed with the OS is newer than the SDK version specified, then the OS version is used instead.
 
 You can retrieve the version of a particular `D3D12Core.dll` from the exported symbol [**D3D12SDKVersion**](nf-d3d12-d3d12sdkversion.md), which is a variable of type **UINT**, just like the variables exported from applications to enable use of the Agility SDK.
 
