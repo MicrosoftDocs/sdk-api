@@ -112,7 +112,7 @@ void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
     for (UINT adapterIndex = 0; ; ++adapterIndex)
     {
         IDXGIAdapter1* pAdapter = nullptr;
-        if (DXGI_ERROR_NOT_FOUND == pFactory-&gt;EnumAdapters1(adapterIndex, &amp;pAdapter))
+        if (DXGI_ERROR_NOT_FOUND == pFactory->EnumAdapters1(adapterIndex, &pAdapter))
         {
             // No more adapters to enumerate.
             break;
@@ -125,7 +125,7 @@ void GetHardwareAdapter(IDXGIFactory4* pFactory, IDXGIAdapter1** ppAdapter)
             *ppAdapter = pAdapter;
             return;
         }
-        pAdapter-&gt;Release();
+        pAdapter->Release();
     }
 }
 
