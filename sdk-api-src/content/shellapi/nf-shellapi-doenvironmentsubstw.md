@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsw">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 
