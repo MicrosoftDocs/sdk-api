@@ -145,7 +145,7 @@ Either WINDOWS key was held down. These keys are labeled with the Windows logo. 
 </tr>
 </table>
 
-### -param vk [in]
+### -param uVirtKey [in]
 
 Type: <b>UINT</b>
 
