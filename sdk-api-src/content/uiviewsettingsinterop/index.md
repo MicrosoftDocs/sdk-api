@@ -18,4 +18,5 @@ f1_keywords:
 This header is used by WinRT Interoperability. For more information, see:
 
 - [WinRT Interoperability](../_winrt/index.md)
+- [UIViewSettings class](/uwp/api/windows.ui.viewmanagement.uiviewsettings)
 

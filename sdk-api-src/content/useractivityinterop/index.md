@@ -30,4 +30,5 @@ dev_langs:
 This header is used by WinRT Interoperability. For more information, see:
 
 - [WinRT Interoperability](../_winrt/index.md)
+- [UserActivity class](/uwp/api/windows.applicationmodel.useractivities.useractivity)
 

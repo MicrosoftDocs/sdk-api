@@ -18,4 +18,5 @@ f1_keywords:
 This header is used by WinRT Interoperability. For more information, see:
 
 - [WinRT Interoperability](../_winrt/index.md)
+- [Print3DManager class](/uwp/api/windows.graphics.printing3d.print3dmanager)
 
