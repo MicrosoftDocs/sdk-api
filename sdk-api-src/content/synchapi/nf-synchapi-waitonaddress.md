@@ -107,7 +107,7 @@ ULONG UndesiredValue;
 UndesiredValue = 0;
 CapturedValue = g_TargetValue;
 while (CapturedValue == UndesiredValue) {
-      WaitOnAddress(&amp;g_TargetValue, &amp;UndesiredValue, sizeof(ULONG), INFINITE);
+      WaitOnAddress(&g_TargetValue, &UndesiredValue, sizeof(ULONG), INFINITE);
       CapturedValue = g_TargetValue;
 }
 
