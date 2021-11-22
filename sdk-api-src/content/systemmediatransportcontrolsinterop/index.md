@@ -16,7 +16,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Runtime C++ reference. For more information, see:
+This header is used by WinRT Interoperability. For more information, see:
 
-- [Windows Runtime C++ reference](../_winrt/index.md)
+- [WinRT Interoperability](../_winrt/index.md)
 
