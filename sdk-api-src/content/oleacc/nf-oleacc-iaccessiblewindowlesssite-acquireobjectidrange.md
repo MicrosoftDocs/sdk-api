@@ -76,7 +76,7 @@ To avoid using an object ID that belongs to another windowless control, a contro
 
 
 
-When the window that contains the Microsoft ActiveX control receives a <a href="/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message with an <b>LPARAM</b> value (object ID) that is in a reserved range, it should call the <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblehandler-accessibleobjectfromid">IAccessibleHandler::AccessibleObjectFromID</a> method to get an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> object for that object ID.
+When the window that contains the Microsoft ActiveX control receives a [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message with an <b>LPARAM</b> value (object ID) that is in a reserved range, it should call the <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblehandler-accessibleobjectfromid">IAccessibleHandler::AccessibleObjectFromID</a> method to get an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> object for that object ID.
 
 ## -see-also
 
