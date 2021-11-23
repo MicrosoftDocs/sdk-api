@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Direct3D 9 Graphics. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Direct3D 9 Graphics](../_direct3d9/index.md)
+- [Microsoft Media Foundation](../_mf/index.md)
 

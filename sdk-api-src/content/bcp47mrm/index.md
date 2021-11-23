@@ -19,3 +19,4 @@ Provides functions for working with [BCP-47 language tags](https://tools.ietf.or
 This header is used by Menus and Other Resources. For more information, see:
 
 - [Menus and Other Resources](../_menurc/index.md)
+

@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Windows Property System. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
+- [Structured Storage](../_stg/index.md)
 - [Windows Property System](../_properties/index.md)
 

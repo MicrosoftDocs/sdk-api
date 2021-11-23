@@ -15,7 +15,7 @@ f1_keywords:
 
 ## -description
 
-This header is used by composition swapchain. For more information, see:
+This header is used by Composition swapchain. For more information, see:
 
 - [Composition swapchain](../_comp_swapchain/index.md)
 

@@ -18,5 +18,5 @@ f1_keywords:
 
 This header is used by DirectShow. For more information, see:
 
-- [DirectShow](/windows/win32/directshow/directshow)
+- [DirectShow](../_dshow/index.md)
 

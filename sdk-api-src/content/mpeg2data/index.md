@@ -19,5 +19,5 @@ f1_keywords:
 
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
+- [Microsoft TV Technologies](../_mstv/index.md)
 

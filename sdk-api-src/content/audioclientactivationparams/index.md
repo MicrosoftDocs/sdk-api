@@ -19,5 +19,3 @@ This header is used by Core Audio APIs. For more information, see:
 
 - [Core Audio APIs](../_coreaudio/index.md)
 
-
-

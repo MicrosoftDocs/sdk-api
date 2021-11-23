@@ -16,7 +16,9 @@ f1_keywords:
 
 ## -description
 
-This header is used by Legacy Windows Environment Features. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Legacy Windows Environment Features](../_lwef/index.md)
+- [Microsoft Management Console 2.0](../_mmc/index.md)
+- [Security and Identity](../_security/index.md)
 

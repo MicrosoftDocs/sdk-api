@@ -27,6 +27,8 @@ dev_langs:
 
 ## -description
 
-This header is used for WinRT Interoperability. For more information, see:
+This header is used by WinRT Interoperability. For more information, see:
 
+- [WinRT Interoperability](../_winrt/index.md)
 - [UserActivity class](/uwp/api/windows.applicationmodel.useractivities.useractivity)
+

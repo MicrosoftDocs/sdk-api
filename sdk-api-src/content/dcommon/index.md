@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Direct2D. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Direct2D](../_direct2d/index.md)
+- [DirectWrite](../_directwrite/index.md)
 

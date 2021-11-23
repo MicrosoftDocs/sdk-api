@@ -16,4 +16,5 @@ tech.root: dxcore
 
 This header is used by DXCore. For more information, see:
 
-- [DXCore](/windows/win32/api/_dxcore/)
+- [DXCore](../_dxcore/index.md)
+

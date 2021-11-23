@@ -16,7 +16,8 @@ f1_keywords:
 
 ## -description
 
-This header is used by Bluetooth. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Bluetooth](../_bluetooth/index.md)
+- [Bluetooth Devices Reference](../_bltooth/index.md)
 
