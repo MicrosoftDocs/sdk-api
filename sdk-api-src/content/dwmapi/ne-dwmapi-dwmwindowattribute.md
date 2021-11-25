@@ -49,9 +49,6 @@ api_name:
 
 Flags used by the [DwmGetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetwindowattribute) and [DwmSetWindowAttribute](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute) functions to specify window attributes for Desktop Window Manager (DWM) non-client rendering. For programming guidance, and code examples, see [Controlling non-client region rendering](/windows/desktop/dwm/composition-ovw#controlling-non-client-region-rendering).
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 ## -enum-fields
 
 ### -field DWMWA_NCRENDERING_ENABLED
@@ -134,6 +131,12 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 
 <b>Windows 7 and earlier: </b>This value is not supported.
 
+### -field DWMWA_USE_HOSTBACKDROPBRUSH
+
+Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Enables a non-UWP window to use host backdrop brushes. If this flag is set, then a Win32 app that calls [Windows::UI::Composition](/uwp/api/windows.ui.composition) APIs can build transparency effects using the host backdrop brush (see [Compositor.CreateHostBackdropBrush](/uwp/api/windows.ui.composition.compositor.createhostbackdropbrush)). The <i>pvAttribute</i> parameter points to a value of type <b>BOOL</b>. <b>TRUE</b> to enable host backdrop brushes for the window, or <b>FALSE</b> to disable it.
+
+<b>Windows 10 and earlier: </b>This value is not supported.
+
 ### -field DWMWA_USE_IMMERSIVE_DARK_MODE
 
 Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client area when the window is inactive to dark, as well as any and all scrollbars in all of a window's controls.
@@ -147,15 +150,6 @@ Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">D
 ### -field DWMWA_LAST
 
 The maximum recognized <b>DWMWINDOWATTRIBUTE</b> value, used for validation purposes.
-
-## -remarks
-
-> [!IMPORTANT]
-> The value described below is available in pre-release versions of the [SDK Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
-`DWMWA_USE_HOSTBACKDROPBRUSH`
-
-Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindowattribute). Enables a non-UWP window to use host backdrop brushes. If this flag is set, then a Win32 app that calls [Windows::UI::Composition](/uwp/api/windows.ui.composition) APIs can build transparency effects using the host backdrop brush (see [Compositor.CreateHostBackdropBrush](/uwp/api/windows.ui.composition.compositor.createhostbackdropbrush)). The retrieved value is of type **BOOL**. **TRUE** to enable host backdrop brushes for the window; otherwise, **FALSE**.
 
 ## -see-also
 
