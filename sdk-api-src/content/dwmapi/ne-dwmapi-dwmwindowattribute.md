@@ -137,16 +137,6 @@ Use with [DwmSetWindowAttribute](/windows/win32/api/dwmapi/nf-dwmapi-dwmsetwindo
 
 <b>Windows 10 and earlier: </b>This value is not supported.
 
-### -field DWMWA_USE_IMMERSIVE_DARK_MODE
-
-Use with <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a>. Sets the non-client area when the window is inactive to dark, as well as any and all scrollbars in all of a window's controls.
-
-<b>Windows 10 before build 10.0.17763: </b>This value is not supported.
-
-<b>Windows 10 build 10.0.17763 until 10.0.18985: </b>This is the value 19.
-
-<b>Windows 10 build 10.0.18985 or later: </b>This is value 20, to use the previous value with versions that define this as 20 use DWMWA_USE_IMMERSIVE_DARK_MODE_BEFORE_20H1 instead.
-
 ### -field DWMWA_LAST
 
 The maximum recognized <b>DWMWINDOWATTRIBUTE</b> value, used for validation purposes.
