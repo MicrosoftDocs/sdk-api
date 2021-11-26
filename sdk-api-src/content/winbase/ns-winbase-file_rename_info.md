@@ -52,10 +52,9 @@ api_name:
 
 # FILE_RENAME_INFO structure
 
-
 ## -description
 
-Contains the name to which the file should be renamed. Use only when calling 
+Contains the target name to which the source file should be renamed. Use only when calling 
    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
 
 ## -struct-fields
@@ -64,30 +63,31 @@ Contains the name to which the file should be renamed. Use only when calling
 
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
-<b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.
+This field is used when **SetFileInformationByHandle**'s *FileInformationClass* parameter is set to **FileRenameInfo**. If this field is **TRUE**
+and the target file exists then the target file will be replaced by the source file. If this field is **FALSE** and the target file exists then
+the operation will return an error.
 
 ### -field DUMMYUNIONNAME.Flags
 
-### -field ReplaceIfExists
-
-<b>TRUE</b> to replace the file; otherwise, <b>FALSE</b>.
+This field is used when **SetFileInformationByHandle**'s *FileInformationClass* parameter is set to **FileRenameInfoEx**.
 
 ### -field RootDirectory
 
-A handle to the root directory in which the file to be renamed is located.
+If the file is not being moved to a different directory, or if the *FileName* member contains the full path to the target file, this member is
+**NULL**. Otherwise, it is a handle for the root directory under which the file will reside after it is renamed.
 
 ### -field FileNameLength
 
-The size of <b>FileName</b> in bytes.
+The size of **FileName** in bytes, not including the NUL-termination.
 
 ### -field FileName
 
-The new file name.
+A NUL-terminated wide-character string containing the new name for the file. If the *RootDirectory* member is **NULL** and the file is being moved
+to a different directory, this member specifies the full pathname to be assigned to the file. Otherwise, it specifies only the file name or a
+relative pathname.
 
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
-
-
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
