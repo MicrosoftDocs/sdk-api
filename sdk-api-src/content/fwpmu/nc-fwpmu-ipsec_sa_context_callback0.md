@@ -62,7 +62,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param change [in]
 
-Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0_">IPSEC_SA_CONTEXT_CHANGE0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/en-us/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0">IPSEC_SA_CONTEXT_CHANGE0</a>*</b>
 
 The IPsec SA context information.
 
