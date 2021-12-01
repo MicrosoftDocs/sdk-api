@@ -244,7 +244,7 @@ This attribute has no effect for file mapping objects that are backed by executa
 
 <b>SEC_COMMIT</b> cannot be combined with <b>SEC_RESERVE</b>.
 
-If no attribute is specified, <b>SEC_COMMIT</b> is assumed.
+If no attribute is specified, <b>SEC_COMMIT</b> is assumed. However, <b>SEC_COMMIT</b> must be explicitly specified when combining it with another <b>SEC_</b> attribute that requires it.
 
 </td>
 </tr>
