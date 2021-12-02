@@ -1,4 +1,4 @@
-    ---
+---
 UID: NF:winhttp.WinHttpReadDataEx
 title: WinHttpReadDataEx
 description: Reads data from a handle opened by the [WinHttpOpenRequest](/windows/win32/api/winhttp/nf-winhttp-winhttpopenrequest) function.
