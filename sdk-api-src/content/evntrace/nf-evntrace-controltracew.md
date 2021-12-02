@@ -94,8 +94,8 @@ event tracing session.
 ### -param TraceHandle [in]
 
 Handle to an event tracing session, or 0. You must specify a non-zero
-_SessionHandle_ if _SessionName_ is **NULL**. ETW ignores the handle if
-_SessionName_ is not **NULL**.
+_TraceHandle_ if _InstanceName_ is **NULL**. ETW ignores the handle if
+_InstanceName_ is not **NULL**.
 
 The [StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracew) function
 returns this handle when a new trace is started. To obtain the handle of an
