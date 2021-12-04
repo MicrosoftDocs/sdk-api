@@ -73,8 +73,7 @@ This field is used when **SetFileInformationByHandle**'s *FileInformationClass* 
 
 ### -field RootDirectory
 
-If the file is not being moved to a different directory, or if the *FileName* member contains the full path to the target file, this member is
-**NULL**. Otherwise, it is a handle for the root directory under which the file will reside after it is renamed.
+This field should be set to NULL.
 
 ### -field FileNameLength
 
@@ -82,9 +81,11 @@ The size of **FileName** in bytes, not including the NUL-termination.
 
 ### -field FileName
 
-A NUL-terminated wide-character string containing the new name for the file. If the *RootDirectory* member is **NULL** and the file is being moved
-to a different directory, this member specifies the full pathname to be assigned to the file. Otherwise, it specifies only the file name or a
-relative pathname.
+A NUL-terminated wide-character string containing the new path to the file. The value can be one of the following:
+
+- An absolute path (drive, directory, and filename).
+- A path relative to the process's current directory.
+- The new name of an NTFS file stream, starting with `:`.
 
 ## -see-also
 
