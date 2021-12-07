@@ -45,9 +45,6 @@ api_name:
  - D3DCompile2
 ---
 
-# D3DCompile2 function
-
-
 ## -description
 
 Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
@@ -82,12 +79,10 @@ An optional array of <a href="/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_sh
 
 Type: <b><a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a>*</b>
 
- A pointer to an <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
-
+A pointer to an <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a> interface that the compiler uses to handle include files. If you set this parameter to <b>NULL</b> and the shader contains a #include, a compile error occurs. You can pass the <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b> macro, which is a pointer to a default include handler. This default include handler includes files that are relative to the current directory and files that are relative to the directory of the initial source file. When you use <b>D3D_COMPILE_STANDARD_FILE_INCLUDE</b>, you must specify the source file name in the <i>pSourceName</i> parameter; the compiler will derive the initial relative directory from <i>pSourceName</i>.
 
 ```
 #define D3D_COMPILE_STANDARD_FILE_INCLUDE ((ID3DInclude*)(UINT_PTR)1)
-
 ```
 
 ### -param pEntrypoint [in]
@@ -138,7 +133,6 @@ A combination of the following flags that are combined by using a bitwise <b>OR<
 <td>Require that templates in the secondary data that the <i>pSecondaryData</i> parameter points to match when the compiler compiles the HLSL code.</td>
 </tr>
 </table>
- 
 
 If <i>pSecondaryData</i> is <b>NULL</b>, set to zero.
 
@@ -176,31 +170,27 @@ Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference
 
 The difference between <b>D3DCompile2</b> and <a href="/windows/desktop/direct3dhlsl/d3dcompile">D3DCompile</a> is that <b>D3DCompile2</b> takes some optional parameters (<i>SecondaryDataFlags</i>, <i>pSecondaryData</i> and <i>SecondaryDataSize</i>)  that can be used to control some aspects of how bytecode is generated. Refer to the descriptions of these parameters for more details. There is no difference otherwise to the efficiency of the bytecode generated between  <b>D3DCompile2</b> and <b>D3DCompile</b>.
 
-<h3><a id="Compiling_shaders_for_UWP"></a><a id="compiling_shaders_for_uwp"></a><a id="COMPILING_SHADERS_FOR_UWP"></a>Compiling shaders for UWP</h3>
-To compile offline shaders the recommend approach is to use the <a href="/windows/desktop/direct3dtools/fxc">Effect-Compiler Tool</a>. If you cannot compile all of your shaders ahead of time, consider compiling the more expensive ones and the ones on your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
+### Compiling shaders for UWP
 
-<ul>
-<li>Using Visual Studio 2015+ to develop the UWP app, add the new item "shader.hlsl".<ul>
-<li>In the <b>Solution Folder</b> view of Visual Studio, select the <b>shaders.hlsl </b> item, right-click for <b>Properties</b>.</li>
-<li>Make sure the item <b>Content</b> is set to <b>Yes</b>.</li>
-<li>Make sure the <b>Item Type</b> is set to <b>Text</b>.</li>
-<li>Add a button to XAML, name it appropriately ("TheButton" in this example), and add a <b>Click</b> handler.</li>
-</ul>
-</li>
-<li>Now add these includes to your .cpp file:
-``` syntax
-#include &lt;ppltasks.h&gt;
-#include &lt;d3dcompiler.h&gt;
-#include &lt;Robuffer.h&gt;
+To compile offline shaders the recommended approach is to use the <a href="/windows/desktop/direct3dtools/fxc">Effect-compiler tool</a>. If you can't compile all of your shaders ahead of time, then consider compiling the more expensive ones and the ones that your startup and most performance-sensitive paths require, and compiling the rest at runtime. You can use a process similar to the following to compile a loaded or generated shader in a UWP application without blocking your user interface thread.
 
-```
+* Using Visual Studio 2015+ to develop the UWP app, add the new item "shader.hlsl".
+   * In the <b>Solution Folder</b> view of Visual Studio, select the <b>shaders.hlsl </b> item, right-click for <b>Properties</b>.
+   * Make sure the item <b>Content</b> is set to <b>Yes</b>.
+   * Make sure the <b>Item Type</b> is set to <b>Text</b>.
+   * Add a button to XAML, name it appropriately ("TheButton" in this example), and add a <b>Click</b> handler.
+* Now add these includes to your .cpp file:
 
-</li>
-<li>Use the following code to call <b>D3DCompile2</b>. Note that there is no error checking or handling here, and also that this code  demonstrates you can do both I/O and compilation in the background, which leaves your UI more responsive.
+   ``` syntax
+   #include &lt;ppltasks.h&gt;
+   #include &lt;d3dcompiler.h&gt;
+   #include &lt;Robuffer.h&gt;
+   ```
 
-```
+* Use the following code to call <b>D3DCompile2</b>. Note that there's no error checking or handling here, and also that this code demonstrates that you can do both I/O and compilation in the background, which leaves your UI more responsive.
+
+```cppcx
 void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-
 {
   std::shared_ptr&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt; blobRef = std::make_shared&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt;();
 
@@ -240,13 +230,8 @@ void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::X
   }, task_continuation_context::use_current());
 }
 ```
-</li>
-</ul>
 
 ## -see-also
 
-<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
-
-
-<a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying D3D12 Root Signatures in HLSL</a>
+* <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
+* <a href="/windows/desktop/direct3d12/specifying-root-signatures-in-hlsl">Specifying D3D12 Root Signatures in HLSL</a>
