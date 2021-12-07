@@ -105,6 +105,10 @@ There is one graphics root signature, and one compute root signature.
 
 
 
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_versioned_root_signature_desc">D3D12_VERSIONED_ROOT_SIGNATURE_DESC</a>
+
+
+
 <a href="/windows/desktop/direct3d12/using-constants-directly-in-the-root-signature">Using constants directly in the root signature</a>
 
 
