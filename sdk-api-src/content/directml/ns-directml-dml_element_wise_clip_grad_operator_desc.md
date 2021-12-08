@@ -54,9 +54,6 @@ f(x, gradient) = if x <= Min then 0
 
 This operator supports in-place execution, meaning `OutputTensor` is permitted to alias *InputTensor* during binding.
 
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.5 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
-
 ## -struct-fields
 
 ### -field InputTensor

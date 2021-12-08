@@ -44,9 +44,6 @@ api_name:
 
 Calculates the quantization scale and zero point values necessary to quantize the *InputTensor*, then applies that quantization, writing the result to *OutputTensor*.
 
-> [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.6 and later. Also see [DirectML version history](/windows/ai/directml/dml-version-history).
-
 This operator uses the following equation to quantize.
 
 ```
