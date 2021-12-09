@@ -29,4 +29,3 @@ To develop Active Directory Domain Services, you need these headers:
 
 For programming guidance for this technology, see:
 * [Active Directory Domain Services](/windows/desktop/ad)
-
