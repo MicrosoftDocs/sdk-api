@@ -11,8 +11,8 @@ ms.keywords: IsWow64Process2, IsWow64Process2 function, base.iswow64process2, wo
 req.header: wow64apiset.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1511 [desktop apps \| UWP apps]
-req.target-min-winversvr: Windows Server 2016 [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows 10, version 1709 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2016, version1709 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
