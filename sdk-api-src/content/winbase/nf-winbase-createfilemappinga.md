@@ -84,7 +84,7 @@ The file must be opened with access rights that are compatible with the protecti
        you intend to map be opened for exclusive access. For more information, see 
        <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
+If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b> or <b>0</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
        <i>dwMaximumSizeLow</i> parameters. In this scenario, 
        <b>CreateFileMapping</b> creates a file mapping object 
