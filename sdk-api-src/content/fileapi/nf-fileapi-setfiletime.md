@@ -94,12 +94,6 @@ To prevent file operations using the given handle from modifying the last access
 A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
        contains the new last modified date and time for the file or directory.  If the application does not need to change this information, set this parameter either  to <b>NULL</b>  or to a pointer to a <b>FILETIME</b> structure that has both the <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 0.
 
-To prevent file operations using the given handle from modifying the last access time, call 
-       <b>SetFileTime</b> immediately after opening the file handle 
-       and pass a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that has both the 
-       <b>dwLowDateTime</b> and <b>dwHighDateTime</b> members set to 
-       0xFFFFFFFF.
-
 ## -returns
 
 If the function succeeds, the return value is nonzero.
