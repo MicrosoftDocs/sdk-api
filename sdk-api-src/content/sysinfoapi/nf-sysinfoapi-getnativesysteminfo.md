@@ -58,8 +58,8 @@ api_name:
 ## -description
 
 Retrieves information about the current system to an application running under 
-<a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>. If the function is called from a 64-bit application, or on a 64-bit system that does not have an Intel64 or x64 processor (such as ARM64), it is equivalent to the 
-<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
+<a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>. If the function is called from a 64-bit application, it is equivalent to the 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If the function is called from an x86 or x64 application running on an ARM64 device, it will return information as if it is an x86 or x64 device. Use <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> to determine whether a device is ARM64.
 
 ## -parameters
 
