@@ -160,7 +160,7 @@ This function typically fails for one of the following reasons:
 <li>an invalid parameter value</li>
 <li>the system class was registered by a different module</li>
 <li>The <b>WH_CBT</b> hook is installed and returns a failure code</li>
-<li>if one of the controls in the dialog template is not registered, or its window window procedure fails <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> or <a href="/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a>
+<li>if one of the controls in the dialog template is not registered, or its window procedure fails <a href="/windows/desktop/winmsg/wm-create">WM_CREATE</a> or <a href="/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a>
 </li>
 </ul>
 
