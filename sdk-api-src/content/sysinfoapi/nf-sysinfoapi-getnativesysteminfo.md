@@ -59,7 +59,7 @@ api_name:
 
 Retrieves information about the current system to an application running under 
 <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>. If the function is called from a 64-bit application, it is equivalent to the 
-<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If the function is called from an x86 or x64 application running on an ARM64 system, it will return information as if the system is x86 or x64 if x64 emulation is supported. Use <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> to determine whether a system is ARM64.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If the function is called from an x86 or x64 application running on an ARM64 system, it will return information as if the system is x86 or x64 if x64 emulation is supported.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ A pointer to a
 ## -remarks
 
 To determine whether a Win32-based application is running under WOW64, call the 
-<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function.
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function. This function can also be used to determine whether a system is ARM64 from an emulated x86 or x64 application.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
 <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
