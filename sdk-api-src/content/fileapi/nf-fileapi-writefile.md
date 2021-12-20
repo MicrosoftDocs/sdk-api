@@ -107,6 +107,8 @@ A pointer to the variable that receives the number of bytes written when using a
 
 This parameter can be <b>NULL</b> only when the <i>lpOverlapped</i> 
         parameter is not <b>NULL</b>.
+        
+<b>Windows 7:  </b>This parameter can not be <b>NULL</b>.
 
 For more information, see the Remarks section.
 
