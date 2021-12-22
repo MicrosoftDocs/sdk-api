@@ -338,7 +338,7 @@ An array of additional arguments that describe the exception. The
 The first element of the array contains a read-write flag that indicates the type of operation that caused the access violation. If this value is zero, the thread attempted to read the inaccessible data. If this value is 1, the thread attempted to write to an inaccessible address. 
 
 
-If this value is 8, the thread causes a user-mode data execution prevention (DEP) violation.
+If this value is 8, the thread caused a user-mode data execution prevention (DEP) violation.
 
 The second array element specifies the virtual address of the inaccessible data.
 
@@ -353,7 +353,7 @@ The second array element specifies the virtual address of the inaccessible data.
 The first element of the array contains a read-write flag that indicates the type of operation that caused the access violation. If this value is zero, the thread attempted to read the inaccessible data. If this value is 1, the thread attempted to write to an inaccessible address. 
 
 
-If this value is 8, the thread causes a user-mode data execution prevention (DEP) violation.
+If this value is 8, the thread caused a user-mode data execution prevention (DEP) violation.
 
 The second array element specifies the virtual address of the inaccessible data.
 
