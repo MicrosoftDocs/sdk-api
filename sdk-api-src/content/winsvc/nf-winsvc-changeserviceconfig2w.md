@@ -64,8 +64,8 @@ Changes the optional configuration parameters of a service.
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_CHANGE_CONFIG</b> access right. For more information, see 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicew">OpenServiceW</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicew">CreateServiceW</a> function and must have the <b>SERVICE_CHANGE_CONFIG</b> access right. For more information, see 
 <a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>. 
 
 
@@ -103,7 +103,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/wins
 </td>
 <td width="60%">
 The <i>lpInfo</i> parameter is a pointer to a 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptionw">SERVICE_DESCRIPTION</a> structure.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The <i>lpInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpInfo</i> parameter is a pointer to a 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsw">SERVICE_FAILURE_ACTIONS</a> structure.
 
 If the service controller handles the <b>SC_ACTION_REBOOT</b> action, the caller must have the <b>SE_SHUTDOWN_NAME</b><a href="/windows/desktop/SecAuthZ/privileges"> privilege</a>. For more information, see 
 <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
@@ -168,7 +168,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/wins
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infow">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -228,13 +228,13 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>ChangeServiceConfig2</b> function changes the optional configuration information for the specified service in the service control manager database. You can obtain the current optional configuration information by using the 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2w">QueryServiceConfig2</a> function.
 
 You cannot set the <b>SERVICE_CONFIG_FAILURE_ACTIONS</b> value for a service that shares the service control manager's process. This includes all services whose executable image is "Services.exe".
 
 You can change and query additional configuration information using the 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> and 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> functions, respectively.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfigw">ChangeServiceConfigW</a> and 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfigw">QueryServiceConfigW</a> functions, respectively.
 
 If a service is configured to restart after it finishes with an error, the service control manager queues the restart action to occur after the specified time delay. A queued restart action cannot be canceled. If the service is manually restarted and then stopped before the queued restart action occurs, the service will restart unexpectedly when the time delay elapses. The service must be explicitly disabled to prevent it from restarting.
 
@@ -278,23 +278,23 @@ For an example, see
 
 ## -see-also
 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfigw">ChangeServiceConfigW</a>
 
 
 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicew">CreateServiceW</a>
 
 
 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicew">OpenServiceW</a>
 
 
 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfigw">QueryServiceConfigW</a>
 
 
 
-<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2w">QueryServiceConfig2W</a>
 
 
 
@@ -306,11 +306,11 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptionw">SERVICE_DESCRIPTION</a>
 
 
 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsw">SERVICE_FAILURE_ACTIONS</a>
 
 
 
@@ -322,7 +322,7 @@ For an example, see
 
 
 
-<a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infow">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
 
 
 
