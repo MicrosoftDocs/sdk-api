@@ -68,6 +68,8 @@ The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more info
        see 
        <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
+If <i>Process</i> is <b>NULL</b>, the function allocates memory for the calling process.
+
 ### -param BaseAddress [in, optional]
 
 The pointer that specifies a desired starting address for the region of pages that you want to allocate.
