@@ -362,7 +362,7 @@ The processor implements the XSAVE and XRSTOR instructions.
 </dl>
 </td>
 <td width="60%">
-This ARM processor implements the the ARM v8 instructions set.
+This ARM processor implements the ARM v8 instructions set.
 </td>
 </tr>
 
