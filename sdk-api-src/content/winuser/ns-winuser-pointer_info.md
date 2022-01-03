@@ -163,6 +163,8 @@ POINTER_MOD_SHIFT – A SHIFT key was pressed.
 
 POINTER_MOD_CTRL – A CTRL key was pressed.
 
+Currently unused. Use <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>.
+
 ### -field PerformanceCount
 
 Type: <b>UINT64</b>
