@@ -54,15 +54,15 @@ Creates a DirectDrawClipper object.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param dwFlags [in]
 
 Currently not used and must be set to 0.
 
-### -param unnamedParam2 [out]
+### -param lplpDDClipper [out]
 
 Address of a variable to be set to a valid <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface pointer if the call succeeds.
 
-### -param unnamedParam3 [in]
+### -param pUnkOuter [in]
 
 Allows for future compatibility with COM aggregation features. Currently this method returns an error if this parameter is not NULL.
 
