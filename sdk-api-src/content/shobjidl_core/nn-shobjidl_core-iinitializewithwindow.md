@@ -70,6 +70,7 @@ This interface is implemented by the following objects. Note that this is necess
 <li><a href="/uwp/api/Windows.Devices.Enumeration.DevicePicker">Windows.Devices.Enumeration.DevicePicker</a></li>
 <li><a href="/uwp/api/windows.graphics.capture.graphicscapturepicker">Windows.Graphics.Capture.GraphicsCapturePicker</a></li>
 <li><a href="/uwp/api/Windows.Services.Store.StoreContext">Windows.Services.Store.StoreContext</a></li>
+<li><a href="/uwp/api/Windows.UI.StartScreen.SecondaryTile">Windows.UI.StartScreen.SecondaryTile</a></li>
 <li><a href="/uwp/api/Windows.Storage.Pickers.FileOpenPicker">Windows.Storage.Pickers.FileOpenPicker</a></li>
 <li><a href="/uwp/api/Windows.Storage.Pickers.FileSavePicker">Windows.Storage.Pickers.FileSavePicker</a></li>
 <li><a href="/uwp/api/Windows.Storage.Pickers.FolderPicker">Windows.Storage.Pickers.FolderPicker</a></li>
