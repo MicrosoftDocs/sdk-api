@@ -70,7 +70,8 @@ Angles are measured clockwise when looking along the rotation axis toward the or
 
 The order of transformations is roll first, then pitch, then yaw. The rotations are all applied in the global coordinate frame.
 
- > This function takes x-axis, y-axis, z-axis angles as input parameters. The assignment of the labels *pitch* to the x-axis, *yaw* to the y-axis, and *roll* to the z-axis is a common one for computer graphics and games as it matches typical 'view' coordinate systems. There are of course other ways to assign those labels when using other coordinate systems (i.e. *roll* could be the x-axis, *pitch* the y-axis, and *yaw* the z-axis).
+> [!NOTE]
+> This function takes x-axis, y-axis, and z-axis angles as input parameters. The assignment of the labels *pitch* to the x-axis, *yaw* to the y-axis, and *roll* to the z-axis is a common one for computer graphics and games, since it matches typical 'view' coordinate systems. There are of course other ways to assign those labels when using other coordinate systems (for example, *roll* could be the x-axis, *pitch* the y-axis, and *yaw* the z-axis).
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
