@@ -112,7 +112,7 @@ do
 {
     if ((pRawInputDeviceList = realloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) { Error(); }
     nStored = GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST));
-} while (nStored == (UINT)-1) && GetLastError() == ERROR_INSUFFICIENT_BUFFER);
+} while (nStored == (UINT)-1 && GetLastError() == ERROR_INSUFFICIENT_BUFFER);
 
 if (nStored == (UINT)-1) { Error(); }
 
