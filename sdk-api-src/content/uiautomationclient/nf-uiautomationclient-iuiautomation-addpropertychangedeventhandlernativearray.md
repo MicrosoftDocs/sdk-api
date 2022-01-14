@@ -97,6 +97,20 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
+## example
+    // You will have to implement PropChangeEventHandler class
+    PropChangeEventHandler *pEHTemp = new PropChangeEventHandler(pIUIAutomation, pTargetElement);
+    PROPERTYID pPIDProperties[] = {
+        UIA_ValueValuePropertyId,
+	// more properties can go here
+    };
+    HRESULT hr = pIUIAutomation->AddPropertyChangedEventHandlerNativeArray(pTargetElement, 
+                    TreeScope_Element, NULL, (IUIAutomationPropertyChangedEventHandler *)pEHTemp,
+		    pPIDProperties, sizeof(pPIDProperties) / sizeof(pPIDProperties[0]));
+    if (SUCCEEDED(hr_1)) {
+        // Value change handler is attached
+    }
+
 ## -remarks
 
 The UI item specified by <i>element</i> might not support the properties specified by the <i>propertyArray</i> parameter. 
