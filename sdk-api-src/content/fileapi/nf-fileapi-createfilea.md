@@ -335,12 +335,12 @@ The file or device attributes and flags, <b>FILE_ATTRIBUTE_NORMAL</b> being the 
        common default value for files.
 
 This parameter can include any combination of the available file attributes 
-       (<b>FILE_ATTRIBUTE_*</b>). All other file attributes override 
+       (<b>FILE_ATTRIBUTE_\*</b>). All other file attributes override 
        <b>FILE_ATTRIBUTE_NORMAL</b>.
 
-This parameter can also contain combinations of flags (<b>FILE_FLAG_*</b>) for control of 
+This parameter can also contain combinations of flags (<b>FILE_FLAG_\*</b>) for control of 
        file or device caching behavior, access modes, and other special-purpose flags. These combine with any 
-       <b>FILE_ATTRIBUTE_*</b> values.
+       <b>FILE_ATTRIBUTE_\*</b> values.
 
 This parameter can also contain Security Quality of Service (SQOS) information by specifying the 
        <b>SECURITY_SQOS_PRESENT</b> flag. Additional SQOS-related flags information is presented in 
