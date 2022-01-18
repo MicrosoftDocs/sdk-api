@@ -580,6 +580,28 @@ Microsoft Hyper-V Server
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE"></a><a id="product_iotenterprise"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE</b></dt>
+<dt>0x000000BC</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise
+ 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE_S"></a><a id="product_iotenterprise_s"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE_S</b></dt>
+<dt>0x000000BF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise LTSC
+ 
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_IOTUAP"></a><a id="product_iotuap"></a><dl>
 <dt><b>PRODUCT_IOTUAP</b></dt>
 <dt>0x0000007B</dt>
