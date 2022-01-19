@@ -65,7 +65,7 @@ An EMI_MEASUREMENT_UNIT that specifies the unit of energy
 
 ### -field ChannelNameSize
 
-The size of ChannelName in bytes, including the null terminator.
+The maximuze size of ChannelName buffer would contains in bytes, including the null terminator.
 
 ### -field ChannelName
 
