@@ -6,7 +6,7 @@ helpviewer_keywords: ["DML_SPACE_TO_DEPTH_OPERATOR_DESC","DML_SPACE_TO_DEPTH_OPE
 old-location: direct3d12\dml_space_to_depth_operator_desc.htm
 tech.root: directml
 ms.assetid: 759769E2-A379-4790-82AD-1B9D3B35D616
-ms.date: 11/04/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -115,6 +115,12 @@ This operator was introduced in `DML_FEATURE_LEVEL_1_0`.
 *InputTensor* and *OutputTensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
+| ------ | ---- | ---------- | -------------------------- | -------------------- |
+| InputTensor | Input | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputTensor | Output | { BatchCount, OutputChannelCount, OutputHeight, OutputWidth } | 4 | FLOAT64, FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
 ### DML_FEATURE_LEVEL_2_1 and above
 | Tensor | Kind | Dimensions | Supported dimension counts | Supported data types |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |

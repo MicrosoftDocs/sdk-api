@@ -5,7 +5,7 @@ description: Computes backpropagation gradients for [element-wise clip](/windows
 helpviewer_keywords: ["DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC","DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC structure","direct3d12.dml_element_wise_clip_grad_operator_desc","directml/DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC"]
 ms.topic: reference
 tech.root: directml
-ms.date: 07/06/2021
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -95,6 +95,14 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_1`.
 *InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| InputGradientTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+| OutputGradientTensor | Output | 1 to 8 | FLOAT32, FLOAT16, INT64, INT32, INT16, INT8, UINT64, UINT32, UINT16, UINT8 |
+
+### DML_FEATURE_LEVEL_3_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
