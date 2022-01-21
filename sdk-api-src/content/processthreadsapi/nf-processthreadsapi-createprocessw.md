@@ -297,6 +297,10 @@ For an example, see
 
 
 
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutew">ShellExecuteW</a>
+
+
+
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
