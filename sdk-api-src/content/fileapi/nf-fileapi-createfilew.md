@@ -142,7 +142,7 @@ To enable a process to share a file or device while another process has the file
 </dl>
 </td>
 <td width="60%">
-Prevents other processes from opening a file or device if they request delete, read, or write access.
+Prevents any process from opening a file or device if it requests delete, read, or write access.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Prevents other processes from opening a file or device if they request delete, r
 <td width="60%">
 Enables subsequent open operations on a file or device to request delete access.
 
-Otherwise, other processes cannot open the file or device if they request delete access.
+Otherwise, no process can open the file or device if it requests delete access.
 
 If this flag is not specified, but the file or device has been opened for delete access, the function 
          fails.
@@ -173,7 +173,7 @@ If this flag is not specified, but the file or device has been opened for delete
 <td width="60%">
 Enables subsequent open operations on a file or device to request read access.
 
-Otherwise, other processes cannot open the file or device if they request read access.
+Otherwise, no process can open the file or device if it requests read access.
 
 If this flag is not specified, but the file or device has been opened for read access, the function 
          fails.
@@ -189,7 +189,7 @@ If this flag is not specified, but the file or device has been opened for read a
 <td width="60%">
 Enables subsequent open operations on a file or device to request write access.
 
-Otherwise, other processes cannot open the file or device if they request write access.
+Otherwise, no process can open the file or device if it requests write access.
 
 If this flag is not specified, but the file or device has been opened for write access or has a file mapping 
          with write access, the function fails.
