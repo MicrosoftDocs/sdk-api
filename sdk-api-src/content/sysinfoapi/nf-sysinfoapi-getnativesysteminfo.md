@@ -57,9 +57,7 @@ api_name:
 
 ## -description
 
-Retrieves information about the current system to an application running under 
-<a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>. If the function is called from a 64-bit application, it is equivalent to the 
-<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If the function is called from an x86 or x64 application running on a 64-bit system that does not have an Intel64 or x64 processor (such as ARM64), it will return information as if the system is x86 if only x86 emulation is supported, or x64 if x64 emulation is also supported.
+Retrieves information about the current system to an application running under <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>. If the function is called from a 64-bit application, it is equivalent to the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If the function is called from an x86 or x64 application running on a 64-bit system that does not have an Intel64 or x64 processor (such as ARM64), it will return information as if the system is x86 only if x86 emulation is supported (or x64 if x64 emulation is also supported).
 
 ## -parameters
 
