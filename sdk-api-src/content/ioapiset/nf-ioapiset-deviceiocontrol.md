@@ -184,6 +184,9 @@ For lists of supported control codes, see the following topics:
 
 <ul>
 <li>
+<a href="/windows-hardware/drivers/storage/cd-rom-io-control-codes">CD-ROM Control Codes</a>
+</li>
+<li>
 <a href="/windows/desktop/DevIO/communications-control-codes">Communications Control Codes</a>
 </li>
 <li>
