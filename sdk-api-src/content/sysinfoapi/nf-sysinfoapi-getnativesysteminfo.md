@@ -68,7 +68,7 @@ A pointer to a
 
 ## -remarks
 
-To determine whether a Win32-based application is running under WOW64, or whether a 64-bit system does not have an Intel64 or x64 processor, call the 
+To determine if a Win32-based application is running under WOW64 (or if a 64-bit system does not have an Intel64 or x64 processor), call the 
 <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process2">IsWow64Process2</a> function.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see 
