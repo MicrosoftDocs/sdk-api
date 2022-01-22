@@ -293,6 +293,10 @@ For an example, see
 
 
 
+<a href="/windows/win32/api/shellapi/nf-shellapi-shellexecutea">ShellExecuteA</a>
+
+
+
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
