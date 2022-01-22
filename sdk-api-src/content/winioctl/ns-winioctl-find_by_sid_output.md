@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PFIND_BY_SID_OUTPUT","FIND_BY_SID_OUTPUT","FIND_BY_SID_O
 old-location: fs\find_by_sid_output.htm
 tech.root: fs
 ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
-ms.date: 12/05/2018
+ms.date: 01/04/2022
 ms.keywords: '*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT'
 req.header: winioctl.h
 req.include-header: Windows.h
@@ -51,13 +51,17 @@ api_name:
 
 ## -description
 
-Represents a file name.
+The FIND_BY_SID_OUTPUT structure represents the fully qualified path name of a file.
 
 ## -struct-fields
 
 ### -field NextEntryOffset
 
+Number of bytes that must be skipped to get to the next record. A value of zero indicates that this is the last record.
+
 ### -field FileIndex
+
+Index of the file.
 
 ### -field FileNameLength
 
@@ -65,7 +69,7 @@ The size of the file name, in bytes. This size does not include the NULL charact
 
 ### -field FileName
 
-A pointer to a null-terminated string that specifies the file name.
+A null-terminated string that specifies the file name.
 
 ## -see-also
 
