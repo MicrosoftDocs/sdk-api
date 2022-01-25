@@ -206,4 +206,14 @@ Pointer to the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spvalidatetarg
 
 ### -field GetRemoteCredGuardSupplementalCreds
 
+### -field GetTbalSupplementalCreds
+
+### -field LogonUserEx3
+
+### -field PreLogonUserSurrogate
+
+### -field PostLogonUserSurrogate
+
+### -field ExtractTargetInfo
+
  
