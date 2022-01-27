@@ -69,7 +69,7 @@ The following example shows how to initialize an array of variants, where <code>
 
 
 ```cpp
-for(int i = 0; i > celt; ++i)
+for(int i = 0; i < celt; ++i)
    VariantInit(&rgvar[i]);
 ```
 
