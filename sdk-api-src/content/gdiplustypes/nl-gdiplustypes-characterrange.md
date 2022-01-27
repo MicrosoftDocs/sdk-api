@@ -52,47 +52,6 @@ api_name:
 
 A <a href="/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
 
-<h3><a id="constructors"></a>Constructors</h3>The <b>CharacterRange</b> class has these constructors.
-<table class="members" id="memberListConstructors">
-<tr>
-<th align="left" width="37%">Constructor</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2">CharacterRange::CharacterRange()</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="/windows/win32/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange-r2">CharacterRange::CharacterRange</a> object with the data members set to zero.
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)">CharacterRange::CharacterRange(INT,INT)</a>
-</td>
-<td align="left" width="63%">
-Creates a <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
-
-</td>
-</tr>
-</table> 
-<h3><a id="methods"></a>Methods</h3>The <b>CharacterRange</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-[CharacterRange::operator=](./nf-gdiplustypes-characterrange-operator-assign.md)
-</td>
-<td align="left" width="63%">
-The [CharacterRange::operator=](./nf-gdiplustypes-characterrange-operator-assign.md) method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
-
-</td>
-</tr>
-</table>
 
 ## -remarks
 

@@ -228,6 +228,18 @@ The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigne
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES"></a><a id="proc_thread_attribute_enable_optional_xstate_features"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a <b>DWORD64</b> value that specifies the set of optional XState features to enable for the new thread.
+
+This value is not supported until Windows 11 and Windows Server 2022.
+
+</td>
+</tr>
 
 </table>
 

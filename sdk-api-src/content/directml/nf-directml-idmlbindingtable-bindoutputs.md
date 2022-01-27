@@ -6,7 +6,7 @@ helpviewer_keywords: ["BindOutputs","BindOutputs method","BindOutputs method","I
 old-location: direct3d12\idmlbindingtable_bindoutputs.htm
 tech.root: directml
 ms.assetid: DBAD9981-03CD-46EA-AD94-6781C6A25626
-ms.date: 12/5/2018
+ms.date: 01/19/2021
 ms.keywords: BindOutputs, BindOutputs method, BindOutputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindOutputs method, IDMLBindingTable.BindOutputs, IDMLBindingTable::BindOutputs, direct3d12.idmlbindingtable_bindoutputs, directml/IDMLBindingTable::BindOutputs
 req.header: directml.h
 req.include-header: 
@@ -45,14 +45,11 @@ api_name:
  - IDMLBindingTable.BindOutputs
 ---
 
-# IDMLBindingTable::BindOutputs
-
-
 ## -description
 
 Binds a set of resources as output tensors.
 
-If binding for a compiled operator, the number of bindings must exactly match the number of inputs of the operator, including optional tensors. This can be determined from the operator description used to create the operator. If too many or too few bindings are provided, device removal will occur. For optional tensors, you may use DML_BINDING_TYPE_NONE](/windows/win32/api/directml/ne-directml-dml_binding_type) to specify 'no binding'. Otherwise, the binding type must match the tensor type when the operator was created.
+If binding for a compiled operator, the number of bindings must exactly match the number of inputs of the operator, including optional tensors. This can be determined from the operator description used to create the operator. If too many or too few bindings are provided, device removal will occur. For optional tensors, you may use [DML_BINDING_TYPE_NONE](/windows/win32/api/directml/ne-directml-dml_binding_type) to specify 'no binding'. Otherwise, the binding type must match the tensor type when the operator was created.
 
 For operator initializers, the output bindings are the persistent resources of each operator, supplied in the order the operators were given when creating or resetting the initializer. If a particular operator does not require a persistent resource, you should prove an empty binding in that slot.
 

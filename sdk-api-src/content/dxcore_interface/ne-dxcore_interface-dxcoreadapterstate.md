@@ -8,7 +8,7 @@ ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreAdapterState enumeration, dxcore_interface.dxcoreadapterstate
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 targetos: Windows
 ms.prod: windows
 req.assembly: 

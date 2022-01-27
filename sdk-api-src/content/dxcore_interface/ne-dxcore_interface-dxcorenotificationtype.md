@@ -1,14 +1,14 @@
 ---
 UID: NE:dxcore_interface.DXCoreNotificationType
 title: DXCoreNotificationType
-description: TBD
+description: Defines constants that specify types of notifications raised by [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter) or [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist) objects.
 author: windows-sdk-content
 tech.root: dxcore
 ms.author: windowssdkdev
 ms.date: 06/11/2019
 ms.keywords: DXCoreNotificationType enumeration, dxcore_interface.dxcorenotificationtype
 ms.localizationpriority: low
-ms.topic: enumeration
+ms.topic: reference
 targetos: Windows
 ms.prod: windows
 req.assembly: 

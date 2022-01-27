@@ -4,7 +4,7 @@ title: DML_ROI_ALIGN_OPERATOR_DESC
 description: Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. In summary, the operation extracts crops from the input image tensor and resizes them to a common output size specified by the last 2 dimensions of *OutputTensor* using the specified *InterpolationMode*.
 helpviewer_keywords: ["DML_ROI_ALIGN_OPERATOR_DESC","DML_ROI_ALIGN_OPERATOR_DESC structure","direct3d12.dml_roi_align_operator_desc","directml/DML_ROI_ALIGN_OPERATOR_DESC"]
 tech.root: directml
-ms.date: 11/04/2020
+ms.date: 01/19/2022
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -123,6 +123,15 @@ This operator was introduced in `DML_FEATURE_LEVEL_3_0`.
 *InputTensor*, *OutputTensor*, and *ROITensor* must have the same *DataType*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_5_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 4 | FLOAT32, FLOAT16 |
+| ROITensor | Input | 2 to 4 | FLOAT32, FLOAT16 |
+| BatchIndicesTensor | Input | 1 to 4 | UINT64, UINT32 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
+
+### DML_FEATURE_LEVEL_3_0 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 | FLOAT32, FLOAT16 |
