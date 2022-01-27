@@ -6,7 +6,7 @@ helpviewer_keywords: ["WindowsGetStringRawBuffer","WindowsGetStringRawBuffer fun
 old-location: winrt\windowsgetstringrawbuffer.htm
 tech.root: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0
-ms.date: 12/05/2018
+ms.date: 01/27/2022
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
 req.header: winstring.h
 req.include-header: 
@@ -74,7 +74,7 @@ A pointer to the buffer that provides the backing store for <i>string</i>, or th
 
 ## -remarks
 
-Use the <b>WindowsGetStringRawBuffer</b> function to obtain a pointer to the backing buffer of an[**HSTRING**](/windows/win32/winrt/hstring).
+Use the <b>WindowsGetStringRawBuffer</b> function to obtain a pointer to the backing buffer of an [**HSTRING**](/windows/win32/winrt/hstring).
 
 Don't change the contents of the buffer&mdash;an [**HSTRING**](/windows/win32/winrt/hstring) is required to be immutable.
 
